@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Časové kódování zkušenosti", "Temporal coding of experience", "kódování času", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Časové kódování zkušenosti", "Temporal coding of experience", "kódování času", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.09"
-nlp_slug = "casove-kodovani"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Temporal coding of experience"
-nlp_aliases = ["kódování času"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "casova-osa-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["casova-osa-pojem"]
-nlp_related = ["zkusenost-je-kodovana-smysly", "submodality-pojem", "slovesa-zmeny-casu", "prostorove-umisteni-obrazu", "zmena-tvaru-casove-osy", "casove-presuny-v-jazyce"]
-nlp_related_declared = ["submodality-pojem", "zkusenost-je-kodovana-smysly", "slovesa-zmeny-casu", "casove-presuny-v-jazyce", "zmena-tvaru-casove-osy"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md", "kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md", "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
-nlp_prev = "zmena-tvaru-casove-osy"
-nlp_next = "budouci-prehravani"
-nlp_position = 9
-nlp_family_size = 12
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975", "beck-1976", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "loftus-palmer-1974", "roderique-davies-2009", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975"]
-nlp_sources_roots = ["watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "loftus-palmer-1974", "roderique-davies-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.09"
+catalog_slug = "casove-kodovani"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Temporal coding of experience"
+catalog_aliases = ["kódování času"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "casova-osa-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["casova-osa-pojem"]
+catalog_related = ["zkusenost-je-kodovana-smysly", "submodality-pojem", "slovesa-zmeny-casu", "prostorove-umisteni-obrazu", "zmena-tvaru-casove-osy", "casove-presuny-v-jazyce"]
+catalog_related_declared = ["submodality-pojem", "zkusenost-je-kodovana-smysly", "slovesa-zmeny-casu", "casove-presuny-v-jazyce", "zmena-tvaru-casove-osy"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md", "kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md", "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
+catalog_prev = "zmena-tvaru-casove-osy"
+catalog_next = "budouci-prehravani"
+catalog_position = 9
+catalog_family_size = 12
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975", "beck-1976", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "loftus-palmer-1974", "roderique-davies-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975"]
+catalog_sources_roots = ["watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "loftus-palmer-1974", "roderique-davies-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Časové kódování zkušenosti
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Temporal coding of experience |
 | **Jiné názvy** | kódování času |
-| **Obecnější vzorec** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
+| **Obecnější heslo** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Pro tvrzení NLP, že časové zařazení představ je kódováno konkrétními 
 
 Základní obranou je oddělit časovou vzdálenost od významu. Událost může být dávná, a přesto potřebuje pojmenování, omluvu nebo nápravu. Pokud někdo opakovaně odpovídá na vaši potřebu projednat starou věc tím, že „je to dávno“, je legitimní odpovědět, že čas neodstranil potřebu o věci mluvit. Druhou obranou je všímat si symetrie: uplatňuje se jazyk vzdálenosti stejně na chyby obou stran? Třetí obranou je chránit vlastní vzpomínku. Kdo si důležité události zapisuje, včetně času a okolností, má oporu, kterou opakované zlehčování nerozloží. Takové oddělení pozorování od výkladu je běžnou součástí kognitivních přístupů (Beck 1976). V klinické práci s traumatem je pozorování časové formy vyprávění cennou informací; zotavení spočívá v tom, že událost postupně získá místo v minulosti, aniž by se změnil její obsah nebo popřel její význam (Herman 1992). Kompendium mechanismy přetváření paměti popisuje u [mnemonické rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,27 +126,27 @@ Základní obranou je oddělit časovou vzdálenost od významu. Událost může
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – příbuzný vzorec (Předpoklady NLP, Experience is coded in the senses)
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzný vzorec (Jazykové presupozice, Change-of-time verbs and adverbs)
-- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzný vzorec (Submodality, Spatial location of images)
-- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzný vzorec (Časová osa, Changing the shape of the timeline)
-- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzný vzorec (Jazykové vzorce, Verb tense shifts)
+- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – příbuzné heslo (Předpoklady NLP, Experience is coded in the senses)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzné heslo (Jazykové presupozice, Change-of-time verbs and adverbs)
+- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzné heslo (Submodality, Spatial location of images)
+- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzné heslo (Časová osa, Changing the shape of the timeline)
+- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzné heslo (Jazykové vzorce, Verb tense shifts)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – předchozí vzorec rodiny
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – předchozí heslo rodiny
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

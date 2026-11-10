@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-presvedceni"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Přesvědčení", "Belief patterns", "NLP"]
+keywords = ["Přesvědčení", "Belief patterns", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "presvedceni"
-nlp_code = "16"
-nlp_en = "Belief patterns"
-nlp_size = 14
-nlp_members = ["cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "beznadej-bezmoc-nehodnost", "retezeni-presvedceni", "kartezske-otazky", "myslenkovy-virus", "presvedceni-a-zdravi", "presvedceni-jako-mapa", "imprint"]
-nlp_types = ["concept", "pattern", "principle"]
-nlp_sources = ["bandler-1985", "bandler-grinder-1975", "bateson-1972", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "presvedceni"
+catalog_code = "16"
+catalog_en = "Belief patterns"
+catalog_size = 14
+catalog_members = ["cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "beznadej-bezmoc-nehodnost", "retezeni-presvedceni", "kartezske-otazky", "myslenkovy-virus", "presvedceni-a-zdravi", "presvedceni-jako-mapa", "imprint"]
+catalog_types = ["concept", "pattern", "principle"]
+catalog_sources = ["bandler-1985", "bandler-grinder-1975", "bateson-1972", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Přesvědčení
@@ -160,12 +162,12 @@ rozebírá kapitola o
 s pojetím přesvědčení jako sítě heslo o
 [Quinově síti přesvědčení](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-16.01` | [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) | Belief change cycle | vzorec | terapeutické i vlivové | střední |
 | `NLP-16.02` | [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) | Museum of old beliefs | vzorec | převážně terapeutické | střední |
 | `NLP-16.03` | [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) | Belief audit | vzorec | terapeutické i vlivové | střední |
@@ -180,6 +182,58 @@ s pojetím přesvědčení jako sítě heslo o
 | `NLP-16.12` | [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) | Beliefs and health in NLP | pojem | terapeutické i vlivové | vysoké |
 | `NLP-16.13` | [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) | Beliefs as part of the map | princip | terapeutické i vlivové | střední |
 | `NLP-16.14` | [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) | Imprint | pojem | terapeutické i vlivové | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Přesvědčení"]
+  click F "@/kompendium/nlp-vzorce/presvedceni/_index.md"
+  n1["Cyklus změny přesvědčení"]
+  n2["Muzeum starých přesvědčení"]
+  n3["Audit přesvědčení"]
+  n4["Limitující přesvědčení"]
+  n5["Přesvědčení o příčině"]
+  n6["Přesvědčení o významu"]
+  n7["Přesvědčení o identitě"]
+  n8["Beznaděj, bezmoc a pocit bezcennosti"]
+  n9["Řetězení přesvědčení"]
+  n10["Kartézské otázky"]
+  n11["Myšlenkový virus"]
+  n12["Přesvědčení a zdraví v NLP"]
+  n13["Přesvědčení jako součást mapy"]
+  n14["Imprint"]
+  F --> n1
+  n1 --> n2
+  F --> n3
+  n13 --> n4
+  F --> n5
+  F --> n6
+  F --> n7
+  n4 --> n8
+  F --> n9
+  F --> n10
+  n4 --> n11
+  F --> n12
+  F --> n13
+  F --> n14
+  click n1 "@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md"
+  click n2 "@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md"
+  click n3 "@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md"
+  click n4 "@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md"
+  click n5 "@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md"
+  click n6 "@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md"
+  click n7 "@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md"
+  click n8 "@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md"
+  click n9 "@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md"
+  click n10 "@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md"
+  click n11 "@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md"
+  click n12 "@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md"
+  click n13 "@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md"
+  click n14 "@/kompendium/nlp-vzorce/presvedceni/imprint.md"
+```
 
 ## Literatura
 
@@ -210,6 +264,6 @@ s pojetím přesvědčení jako sítě heslo o
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – předchozí rodina katalogu
 - [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -1,0 +1,311 @@
+# Rodina AF-03: Klamy předpokladu, hesla AF-03.01 až AF-03.10 (pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění. Hesla s `canonical` nemají vlastní stránku a odkazují stránku knihy.
+
+[[pattern]]
+id = "AF-03.01"
+slug = "kruhovy-argument"
+type = "informal"
+cs = "Kruhový argument"
+en = "Begging the question"
+aliases = ["petitio principii", "kruh v dokazování", "cirkulární argument"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["dokaz-tvrzenim", "nefalzifikovatelnost", "presvedcovaci-definice", "sugestivni-otazka", "zadny-pravy-skot"]
+canonical = "glossary/cirkularni-argumentace.md"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta příručka je spolehlivá, protože to v ní stojí výslovně, a co v ní stojí, je pravda, protože je spolehlivá."
+context = "Člen skupiny obhajuje závazný text vůči pochybnostem nováčka."
+benign = false
+marker = "Spolehlivost zdroje se dokazuje obsahem téhož zdroje; závěr je skrytě obsažen v premise."
+response = "Ptát se po nezávislém důvodu, který by spolehlivost doložil i člověku, který textu zatím nevěří."
+
+[[pattern.trainer]]
+utterance = "Ten teploměr měří přesně: při kontrole v kalibrační laboratoři se jeho údaje shodovaly s referenčním přístrojem."
+context = "Technik vysvětluje, proč lze naměřeným hodnotám důvěřovat."
+benign = true
+marker = "Přesnost se opírá o nezávislé srovnání s jiným měřidlem, ne o údaje samotného teploměru."
+response = "Platná argumentace: důvod leží mimo tvrzení, které má podpořit, a dá se samostatně ověřit."
+
+[[pattern]]
+id = "AF-03.02"
+slug = "sugestivni-otazka"
+type = "informal"
+cs = "Sugestivní otázka"
+en = "Loaded question"
+aliases = ["kapciózní otázka", "otázka se sporným předpokladem", "zatížená otázka"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["slozena-otazka", "otazky-s-presupozici", "presupozice-ve-vyslechu", "jen-se-ptam", "kruhovy-argument", "falesne-dilema"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdy jste si poprvé uvědomila, že vás vaše rodina celé roky držela zpátky?"
+context = "Vedoucí rozvojové skupiny se ptá nové členky na její minulost."
+benign = false
+marker = "Otázka předem obsahuje nedoložené tvrzení, že rodina člověka držela zpátky; ptá se jen na dobu, kdy si to uvědomil."
+response = "Oddělit předpoklad od otázky: nejdřív posoudit, zda se to vůbec stalo, a teprve pak odpovídat na to, kdy."
+
+[[pattern.trainer]]
+utterance = "Popište mi prosím, co se ten večer dělo, od chvíle, kdy jste přišel domů."
+context = "Vyšetřovatel zahajuje výpověď svědka podle protokolu forenzního rozhovoru."
+benign = true
+marker = "Otevřená otázka nevkládá žádný sporný obsah a nechává na svědkovi, co a v jakém pořadí uvede."
+response = "Platná otázka: nepředpokládá skutečnost, kterou má teprve výpověď doložit."
+
+[[pattern]]
+id = "AF-03.03"
+slug = "falesne-dilema"
+type = "informal"
+cs = "Falešné dilema"
+en = "False dilemma"
+aliases = ["falešná alternativa", "černobílé myšlení", "buď, anebo"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["presupozice-nebo", "alternativni-zaver", "sugestivni-otazka", "falesny-kompromis", "nirvana-klam"]
+canonical = "kompendium/techniques/ea-1-2-1-falesne-dilema.md"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Buď s námi podepíšeš petici ještě dnes, nebo je ti osud těch dětí lhostejný. Třetí cesta neexistuje."
+context = "Aktivista oslovuje kolemjdoucího u stánku."
+benign = false
+marker = "Dvě možnosti se vydávají za jediné myslitelné, ačkoli existují další (rozmyslet se, pomáhat jinak, nesouhlasit s formou)."
+response = "Pojmenovat vynechané možnosti a trvat na tom, že odmítnutí jednoho kroku neznamená postoj, který se mu přisuzuje."
+
+[[pattern.trainer]]
+utterance = "Spínač má jen dvě polohy: buď je obvod zapojený, nebo rozpojený, a podle kontrolky je teď rozpojený."
+context = "Elektrikář vysvětluje, proč zařízení nejde zapnout."
+benign = true
+marker = "Výčet dvou možností je skutečně úplný, protože ho zaručuje konstrukce zařízení."
+response = "Platná disjunkce: alternativy jsou vyčerpávající a vzájemně se vylučují, takže závěr je oprávněný."
+
+[[pattern]]
+id = "AF-03.04"
+slug = "slozena-otazka"
+type = "informal"
+cs = "Složená otázka"
+en = "Complex question"
+aliases = ["klam mnoha otázek", "plurium interrogationum", "vícenásobná otázka"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["sugestivni-otazka", "falesne-dilema", "otazky-s-presupozici", "presupozice-ve-vyslechu", "irelevantni-zaver"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/03-zakladni-kategorie/kapitola-1.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Odpovězte jen ano, nebo ne: souhlasíte s novým rozpočtem a s tím, že dosavadní vedení zklamalo?"
+context = "Předsedající na schůzi spolku žádá člena o rychlé vyjádření."
+benign = false
+marker = "Dvě samostatná tvrzení se spojí do jedné otázky s jedinou povolenou odpovědí, takže souhlas s jedním se počítá jako souhlas s druhým."
+response = "Rozdělit otázku na části a odpovídat na každou zvlášť; trvat na tom, že jednoslovná odpověď na dvě věci nic nevypovídá."
+
+[[pattern.trainer]]
+utterance = "Budu se ptát na dvě věci zvlášť: zaprvé, viděl jste toho muže odcházet? A zadruhé, pokud ano, kterým směrem šel?"
+context = "Soudce klade svědkovi doplňující otázky."
+benign = true
+marker = "Otázky jsou oddělené a druhá je výslovně podmíněna kladnou odpovědí na první."
+response = "Platné kladení otázek: každá má vlastní odpověď a žádná nepředpokládá, co ještě nebylo řečeno."
+
+[[pattern]]
+id = "AF-03.05"
+slug = "zadny-pravy-skot"
+type = "informal"
+cs = "Žádný pravý Skot"
+en = "No true Scotsman"
+aliases = ["žádný pravý příslušník", "ochrana zobecnění předefinováním"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["nefalzifikovatelnost", "posouvani-branek", "presvedcovaci-definice", "zvlastni-vyjimka", "kruhovy-argument", "som-protipriklad"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdo z hnutí odešel a teď o nás mluví špatně, nikdy opravdu nepochopil učení. Skutečný člen by nic takového neudělal."
+context = "Mluvčí skupiny reaguje na kritiku od bývalých členů."
+benign = false
+marker = "Protipříklad k tvrzení o členech se odstraní tím, že se dotyčnému dodatečně upře členství; kritérium se objeví až po kritice."
+response = "Žádat definici „skutečného člena“ stanovenou předem a nezávisle na tom, zda dotyčný kritizuje; pak teprve posuzovat výpověď."
+
+[[pattern.trainer]]
+utterance = "Kdo nemá platnou licenci, není podle zákona lékař, i když nosí bílý plášť a radí pacientům."
+context = "Právník vysvětluje rozhodnutí o neoprávněném výkonu povolání."
+benign = true
+marker = "Vymezení příslušnosti stojí na předem daném a veřejně ověřitelném kritériu, ne na tom, zda se člověk zachoval žádoucím způsobem."
+response = "Platná definice: hranice skupiny existovala před sporem a uplatňuje se na každého stejně."
+
+[[pattern]]
+id = "AF-03.06"
+slug = "zvlastni-vyjimka"
+type = "informal"
+cs = "Zvláštní výjimka"
+en = "Special pleading"
+aliases = ["dvojí metr", "výjimka pro sebe", "special pleading"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["zadny-pravy-skot", "nefalzifikovatelnost", "posouvani-branek", "tu-quoque", "motivovane-uvazovani", "vyber-tresnicek"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Od vás čekám, že každý výdaj doložíte účtenkou. U mě je to jiné, já mám přehled a vysvětlovat se nemusím."
+context = "Partner kontroluje výdaje druhého v domácnosti."
+benign = false
+marker = "Pravidlo platí pro druhého, ale mluvčí se z něj vyjímá bez důvodu, který by se týkal podstaty pravidla."
+response = "Ptát se, čím se situace mluvčího liší v tom, kvůli čemu pravidlo existuje; bez takového rozdílu platí pravidlo pro oba."
+
+[[pattern.trainer]]
+utterance = "Rychlost v obci je omezená pro všechny, ale sanitka se zapnutým majákem ji smí překročit, protože veze pacienta v ohrožení života."
+context = "Instruktor autoškoly vysvětluje výjimky z pravidel provozu."
+benign = true
+marker = "Výjimka se opírá o rozdíl, který souvisí s účelem pravidla, a je předem veřejně vymezená."
+response = "Platné odlišení: důvod výjimky je relevantní, obecný a stejný pro každého, kdo je v téže situaci."
+
+[[pattern]]
+id = "AF-03.07"
+slug = "ukvapene-zobecneni"
+type = "informal"
+cs = "Ukvapené zobecnění"
+en = "Hasty generalisation"
+aliases = ["unáhlené zobecnění", "nedostatečný vzorek", "secundum quid"]
+use = "chyba"
+risk = "stredni"
+broader = ""
+related = ["prilis-siroke-zobecneni", "zakon-malych-cisel", "zkresleny-vyber", "odvolani-na-anekdotu", "univerzalni-kvantifikator", "vyber-tresnicek"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Dva pacienti z té čtvrti mi minulý měsíc lhali o užívání léků. Lidé odtamtud zkrátka nejsou spolehliví."
+context = "Lékař na poradě komentuje svou zkušenost s pacienty."
+benign = false
+marker = "Ze dvou případů se usuzuje na celou skupinu, aniž by se zvážila velikost a reprezentativnost vzorku."
+response = "Ptát se, kolik pacientů odtamtud lékař vůbec léčil a jak se chovali ostatní; dva případy nestačí k závěru o skupině."
+
+[[pattern.trainer]]
+utterance = "V reprezentativním vzorku dvou tisíc domácností z celého kraje uvedlo vytápění dřevem přibližně dvacet procent, takže v kraji půjde zhruba o pětinu."
+context = "Analytička krajského úřadu shrnuje výsledky šetření."
+benign = true
+marker = "Zobecnění vychází z velkého, náhodně vybraného vzorku a je formulováno jako přibližný odhad."
+response = "Platná indukce: velikost a výběr vzorku odpovídají závěru a závěr nese přiměřenou míru nejistoty."
+
+[[pattern]]
+id = "AF-03.08"
+slug = "prilis-siroke-zobecneni"
+type = "informal"
+cs = "Příliš široké zobecnění"
+en = "Sweeping generalisation"
+aliases = ["klam nahodilosti", "dicto simpliciter", "mechanické uplatnění pravidla"]
+use = "chyba"
+risk = "stredni"
+broader = ""
+related = ["ukvapene-zobecneni", "ekologicky-klam", "klam-deleni", "univerzalni-kvantifikator", "zvlastni-vyjimka"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Lidé v léčbě závislosti mají sklon k manipulaci, takže to, co tvrdí tahle pacientka o násilí doma, nemusíme brát vážně."
+context = "Sociální pracovník posuzuje oznámení pacientky."
+benign = false
+marker = "Obecná, navíc sporná tendence skupiny se uplatní na konkrétní výpověď bez ohledu na okolnosti, které ji odlišují."
+response = "Posoudit konkrétní výpověď podle jejích vlastních znaků a dokladů; statistická tendence skupiny o jednotlivém případu nerozhoduje."
+
+[[pattern.trainer]]
+utterance = "Většina dospělých tento lék snáší dobře, ale u vás kvůli onemocnění ledvin dávku upravíme a budeme sledovat hodnoty."
+context = "Lékař předepisuje léčbu pacientovi s chronickým onemocněním."
+benign = true
+marker = "Obecné pravidlo se použije s ohledem na okolnost, která konkrétní případ odlišuje."
+response = "Platné užití obecného pravidla: zobecnění slouží jako výchozí bod a relevantní výjimka se bere v úvahu."
+
+[[pattern]]
+id = "AF-03.09"
+slug = "vyber-tresnicek"
+type = "informal"
+cs = "Výběr třešniček"
+en = "Cherry picking"
+aliases = ["selektivní výběr dokladů", "vybírání hrozinek", "cherry picking"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["zamlceni-dukazu", "zkresleny-vyber", "texasky-strelec", "ukvapene-zobecneni", "vytrzeni-z-kontextu", "falesna-vyvazenost"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tři pacienti, kterým metoda pomohla, svědčí na našem webu. Lepší důkaz, že funguje, si nelze přát."
+context = "Prodejce alternativní terapie odpovídá na dotaz po výsledcích výzkumu."
+benign = false
+marker = "Ukazují se jen příznivé případy, zatímco počet těch, kterým metoda nepomohla, a srovnání s kontrolní skupinou chybí."
+response = "Ptát se po celém souboru: kolik lidí metodu podstoupilo, kolika nepomohla a jak dopadli lidé bez ní."
+
+[[pattern.trainer]]
+utterance = "Do přehledu jsme zařadili všech dvanáct studií, které splnily předem zveřejněná kritéria, včetně tří, které účinek nenašly."
+context = "Autorka systematického přehledu popisuje výběr studií."
+benign = true
+marker = "Výběr dokladů se řídí kritérii stanovenými předem a zahrnuje i nepříznivé výsledky."
+response = "Platný postup: výběr nezávisí na tom, zda doklad podporuje závěr, a vynechané práce jsou dohledatelné."
+
+[[pattern]]
+id = "AF-03.10"
+slug = "falesna-ekvivalence"
+type = "informal"
+cs = "Falešná ekvivalence"
+en = "False equivalence"
+aliases = ["nepatřičné srovnání", "srovnávání nesrovnatelného"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["falesna-vyvazenost", "whataboutism", "falesny-kompromis", "dve-kriva-jedno-pravo", "vyber-tresnicek"]
+canonical = "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "On ji tehdy zbil, ona na něj zase křičela. Oba se chovali špatně, takže jde o vzájemný konflikt a vina je napůl."
+context = "Známý komentuje rozchod páru, v němž docházelo k násilí."
+benign = false
+marker = "Dva jevy se staví na roveň podle jediného společného rysu („chovali se špatně“), ačkoli se zásadně liší povahou a závažností."
+response = "Pojmenovat rozdíl v povaze, závažnosti a moci a odmítnout závěr o poloviční vině, který z povrchní podobnosti plyne."
+
+[[pattern.trainer]]
+utterance = "Oba léky snižují tlak srovnatelně a mají podobný profil nežádoucích účinků, takže pro tohoto pacienta jsou rovnocennou volbou."
+context = "Lékárník odpovídá lékaři na dotaz o záměně přípravku."
+benign = true
+marker = "Srovnání se opírá o vlastnosti, které jsou pro rozhodnutí relevantní, a o doložené údaje."
+response = "Platná ekvivalence: shoda se týká právě těch rysů, na nichž závěr stojí."

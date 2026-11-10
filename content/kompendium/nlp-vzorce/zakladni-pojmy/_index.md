@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-zakladni-pojmy"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Základní pojmy NLP", "Core NLP concepts", "NLP"]
+keywords = ["Základní pojmy NLP", "Core NLP concepts", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "zakladni-pojmy"
-nlp_code = "02"
-nlp_en = "Core NLP concepts"
-nlp_size = 42
-nlp_members = ["reprezentacni-systemy", "vizualni-system", "auditivni-system", "kinesteticky-system", "olfaktorni-a-gustatorni-system", "auditivne-digitalni-system", "vedouci-system", "preferovany-reprezentacni-system", "predikaty", "ocni-pristupove-signaly", "synestezie", "submodality-pojem", "kalibrace", "smyslova-ostrost", "raport", "stav", "zdrojovy-stav", "strategie-pojem", "tote-model", "logicke-urovne-pojem", "percepcni-pozice-pojem", "meta-pozice", "asociace", "disociace", "kongruence", "inkongruence", "ekologicka-kontrola", "ramec-pojem", "chunking", "casova-osa-pojem", "metaprogramy-pojem", "kotva-pojem", "vypousteni", "zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "modelovani-pojem", "vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "transderivacni-hledani", "pacing-a-leading-pojem"]
-nlp_types = ["concept"]
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "chartrand-bargh-1999", "chomsky-1965", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "grinder-bandler-1976", "heap-1988", "loftus-palmer-1974", "miller-galanter-pribram-1960", "norcross-2006", "perls-1969", "roderique-davies-2009", "satir-1972", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "zakladni-pojmy"
+catalog_code = "02"
+catalog_en = "Core NLP concepts"
+catalog_size = 42
+catalog_members = ["reprezentacni-systemy", "vizualni-system", "auditivni-system", "kinesteticky-system", "olfaktorni-a-gustatorni-system", "auditivne-digitalni-system", "vedouci-system", "preferovany-reprezentacni-system", "predikaty", "ocni-pristupove-signaly", "synestezie", "submodality-pojem", "kalibrace", "smyslova-ostrost", "raport", "stav", "zdrojovy-stav", "strategie-pojem", "tote-model", "logicke-urovne-pojem", "percepcni-pozice-pojem", "meta-pozice", "asociace", "disociace", "kongruence", "inkongruence", "ekologicka-kontrola", "ramec-pojem", "chunking", "casova-osa-pojem", "metaprogramy-pojem", "kotva-pojem", "vypousteni", "zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "modelovani-pojem", "vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "transderivacni-hledani", "pacing-a-leading-pojem"]
+catalog_types = ["concept"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "chartrand-bargh-1999", "chomsky-1965", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "grinder-bandler-1976", "heap-1988", "loftus-palmer-1974", "miller-galanter-pribram-1960", "norcross-2006", "perls-1969", "roderique-davies-2009", "satir-1972", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010"]
 +++
 
 # Základní pojmy NLP
@@ -147,12 +149,12 @@ perspektivách](@/kompendium/critical-perspectives/_index.md). Kdo chce porovnat
 tím, co o vnímání, paměti a vtěleném poznávání říká současná kognitivní věda, najde přehled v
 kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-02.01` | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) | Representational systems | pojem | terapeutické i vlivové | střední |
 | `NLP-02.02` | [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) | Visual representational system | pojem | terapeutické i vlivové | nízké |
 | `NLP-02.03` | [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) | Auditory representational system | pojem | terapeutické i vlivové | nízké |
@@ -176,7 +178,7 @@ kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivn
 | `NLP-02.21` | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) | Perceptual positions (concept) | pojem | terapeutické i vlivové | střední |
 | `NLP-02.22` | [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) | Meta-position | pojem | terapeutické i vlivové | střední |
 | `NLP-02.23` | [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) | Association | pojem | terapeutické i vlivové | střední |
-| `NLP-02.24` | [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) | Dissociation (NLP sense) | pojem | terapeutické i vlivové | vysoké |
+| `NLP-02.24` | [Disociace](@/glossary/disociace.md) | Dissociation | pojem | terapeutické i vlivové | vysoké |
 | `NLP-02.25` | [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) | Congruence | pojem | terapeutické i vlivové | střední |
 | `NLP-02.26` | [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) | Incongruence | pojem | terapeutické i vlivové | vysoké |
 | `NLP-02.27` | [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) | Ecology check | pojem | terapeutické i vlivové | střední |
@@ -195,6 +197,142 @@ kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivn
 | `NLP-02.40` | [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) | Trance (concept) | pojem | terapeutické i vlivové | vysoké |
 | `NLP-02.41` | [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) | Transderivational search | pojem | terapeutické i vlivové | střední |
 | `NLP-02.42` | [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) | Pacing and leading (concept) | pojem | terapeutické i vlivové | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Základní pojmy NLP"]
+  click F "@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md"
+  n1["Reprezentační systémy"]
+  n2["Vizuální reprezentační systém"]
+  n3["Auditivní reprezentační systém"]
+  n4["Kinestetický reprezentační systém"]
+  n5["Čichový a chuťový systém"]
+  n6["Auditivně digitální systém"]
+  n7["Vedoucí systém"]
+  n8["Preferovaný reprezentační systém"]
+  n9["Predikáty"]
+  n10["Oční přístupové signály"]
+  n11["Synestezie v NLP"]
+  n12["Submodality"]
+  n13["Kalibrace"]
+  n14["Smyslová ostrost"]
+  n15["Raport"]
+  n16["Stav"]
+  n17["Zdrojový stav"]
+  n18["Strategie"]
+  n19["Model TOTE"]
+  n20["Logické úrovně"]
+  n21["Percepční pozice"]
+  n22["Meta-pozice"]
+  n23["Asociace"]
+  n24["Disociace"]
+  n25["Kongruence"]
+  n26["Inkongruence"]
+  n27["Ekologická kontrola"]
+  n28["Rámec"]
+  n29["Chunking"]
+  n30["Časová osa"]
+  n31["Metaprogramy"]
+  n32["Kotva"]
+  n33["Vypouštění"]
+  n34["Zkreslování"]
+  n35["Zobecňování"]
+  n36["Hluboká a povrchová struktura"]
+  n37["Modelování"]
+  n38["Vnitřní dialog"]
+  n39["Uptime a downtime"]
+  n40["Trans"]
+  n41["Transderivační hledání"]
+  n42["Pacing a leading"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  n1 --> n5
+  n1 --> n6
+  n1 --> n7
+  n1 --> n8
+  n1 --> n9
+  n1 --> n10
+  n1 --> n11
+  F --> n12
+  F --> n13
+  F --> n14
+  F --> n15
+  F --> n16
+  n16 --> n17
+  F --> n18
+  F --> n19
+  F --> n20
+  F --> n21
+  n21 --> n22
+  n12 --> n23
+  n12 --> n24
+  F --> n25
+  F --> n26
+  F --> n27
+  F --> n28
+  F --> n29
+  F --> n30
+  F --> n31
+  F --> n32
+  F --> n33
+  F --> n34
+  F --> n35
+  F --> n36
+  F --> n37
+  F --> n38
+  F --> n39
+  F --> n40
+  F --> n41
+  F --> n42
+  click n1 "@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md"
+  click n2 "@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md"
+  click n3 "@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md"
+  click n4 "@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md"
+  click n5 "@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md"
+  click n6 "@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md"
+  click n7 "@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md"
+  click n8 "@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md"
+  click n9 "@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md"
+  click n10 "@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md"
+  click n11 "@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md"
+  click n12 "@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md"
+  click n13 "@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md"
+  click n14 "@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md"
+  click n15 "@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md"
+  click n16 "@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md"
+  click n17 "@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md"
+  click n18 "@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md"
+  click n19 "@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md"
+  click n20 "@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md"
+  click n21 "@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md"
+  click n22 "@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md"
+  click n23 "@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md"
+  click n24 "@/glossary/disociace.md"
+  click n25 "@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md"
+  click n26 "@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md"
+  click n27 "@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md"
+  click n28 "@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md"
+  click n29 "@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md"
+  click n30 "@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md"
+  click n31 "@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md"
+  click n32 "@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md"
+  click n33 "@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md"
+  click n34 "@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md"
+  click n35 "@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md"
+  click n36 "@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md"
+  click n37 "@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md"
+  click n38 "@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md"
+  click n39 "@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md"
+  click n40 "@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md"
+  click n41 "@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md"
+  click n42 "@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md"
+```
 
 ## Literatura
 
@@ -228,6 +366,6 @@ kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivn
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – předchozí rodina katalogu
 - [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

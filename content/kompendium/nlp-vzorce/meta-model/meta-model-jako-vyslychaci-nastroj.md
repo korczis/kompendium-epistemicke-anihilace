@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Meta-model jako výslechový nástroj", "Meta Model as an interrogation tool", "meta-model ve vyšetřování", "precizní dotazování", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Meta-model jako výslechový nástroj", "Meta Model as an interrogation tool", "meta-model ve vyšetřování", "precizní dotazování", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.16"
-nlp_slug = "meta-model-jako-vyslychaci-nastroj"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Meta Model as an interrogation tool"
-nlp_aliases = ["meta-model ve vyšetřování", "precizní dotazování"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["nespecifikovany-referencni-index", "hierarchie-otazek-meta-modelu", "otazky-s-presupozici", "presupozice-ve-vyslechu", "detekce-lzi-v-nlp", "chunking-dolu", "nlp-ve-vyslechu", "vyzkum-ocnich-signalu"]
-nlp_related_declared = ["nlp-ve-vyslechu", "presupozice-ve-vyslechu", "detekce-lzi-v-nlp", "hierarchie-otazek-meta-modelu", "nespecifikovany-referencni-index"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-2-3-9-sealioning-medialni.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md", "kompendium/techniques/ea-2-3-9-sealioning-medialni.md"]
-nlp_prev = "hierarchie-otazek-meta-modelu"
-nlp_next = "poruseni-selekcnich-omezeni-meta"
-nlp_position = 16
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "druckman-swets-1988", "herman-1992", "loftus-palmer-1974", "oconnor-seymour-1990", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.16"
+catalog_slug = "meta-model-jako-vyslychaci-nastroj"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Meta Model as an interrogation tool"
+catalog_aliases = ["meta-model ve vyšetřování", "precizní dotazování"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["nespecifikovany-referencni-index", "hierarchie-otazek-meta-modelu", "otazky-s-presupozici", "presupozice-ve-vyslechu", "detekce-lzi-v-nlp", "chunking-dolu", "nlp-ve-vyslechu", "vyzkum-ocnich-signalu"]
+catalog_related_declared = ["nlp-ve-vyslechu", "presupozice-ve-vyslechu", "detekce-lzi-v-nlp", "hierarchie-otazek-meta-modelu", "nespecifikovany-referencni-index"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-2-3-9-sealioning-medialni.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md", "kompendium/techniques/ea-2-3-9-sealioning-medialni.md"]
+catalog_prev = "hierarchie-otazek-meta-modelu"
+catalog_next = "poruseni-selekcnich-omezeni-meta"
+catalog_position = 16
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "druckman-swets-1988", "herman-1992", "loftus-palmer-1974", "oconnor-seymour-1990", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.b.toml"
 +++
 
 # Meta-model jako výslechový nástroj
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Meta Model as an interrogation tool |
 | **Jiné názvy** | meta-model ve vyšetřování, precizní dotazování |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ výslechy, mohou mít po nich pochybnosti o vlastní paměti a pocit, že jejich
 od formulací, které jim byly vloženy, a podpora ve vztahu, kde jejich výpověď není
 zpochybňována za nepřesnost (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,30 +223,30 @@ zpochybňována za nepřesnost (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzný vzorec (Meta-model, Unspecified referential index)
-- [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – příbuzný vzorec (Meta-model, Order of Meta Model challenges)
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in questioning and testimony)
-- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzný vzorec (Raport a kalibrace, Lie detection claims in NLP)
-- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzný vzorec (Jazykové vzorce, Chunking down)
-- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in interrogation and negotiation)
-- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – příbuzný vzorec (Kritické hodnocení NLP, Research on eye accessing cues)
+- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzné heslo (Meta-model, Unspecified referential index)
+- [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – příbuzné heslo (Meta-model, Order of Meta Model challenges)
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in questioning and testimony)
+- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzné heslo (Raport a kalibrace, Lie detection claims in NLP)
+- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzné heslo (Jazykové vzorce, Chunking down)
+- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in interrogation and negotiation)
+- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – příbuzné heslo (Kritické hodnocení NLP, Research on eye accessing cues)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – předchozí vzorec rodiny
-- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – předchozí heslo rodiny
+- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

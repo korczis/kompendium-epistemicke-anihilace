@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Kritéria", "Criteria", "hodnotová slova", "rozhodovací kritéria", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Kritéria", "Criteria", "hodnotová slova", "rozhodovací kritéria", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.07"
-nlp_slug = "kriteria"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Criteria"
-nlp_aliases = ["hodnotová slova", "rozhodovací kritéria"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["som-hierarchie-kriterii", "uroven-presvedceni-a-hodnot", "vnitrni-a-vnejsi-reference", "struktura-pravidel", "hodnoty-pri-koupi", "sladeni-hodnot", "dukazni-procedura", "slovni-baliky"]
-nlp_related_declared = ["som-hierarchie-kriterii", "sladeni-hodnot", "slovni-baliky", "uroven-presvedceni-a-hodnot", "vnitrni-a-vnejsi-reference"]
-nlp_kompendium = ["kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md"]
-nlp_prev = "proaktivni-a-reaktivni"
-nlp_next = "kanal-presvedceni"
-nlp_position = 7
-nlp_family_size = 23
-nlp_sources = ["chartrand-bargh-1999", "charvet-1997", "cialdini-2009", "dilts-1999", "hassan-1988", "herman-1992", "james-woodsmall-1988", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "dilts-1999", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.07"
+catalog_slug = "kriteria"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Criteria"
+catalog_aliases = ["hodnotová slova", "rozhodovací kritéria"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["som-hierarchie-kriterii", "uroven-presvedceni-a-hodnot", "vnitrni-a-vnejsi-reference", "struktura-pravidel", "hodnoty-pri-koupi", "sladeni-hodnot", "dukazni-procedura", "slovni-baliky"]
+catalog_related_declared = ["som-hierarchie-kriterii", "sladeni-hodnot", "slovni-baliky", "uroven-presvedceni-a-hodnot", "vnitrni-a-vnejsi-reference"]
+catalog_kompendium = ["kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md"]
+catalog_prev = "proaktivni-a-reaktivni"
+catalog_next = "kanal-presvedceni"
+catalog_position = 7
+catalog_family_size = 23
+catalog_sources = ["chartrand-bargh-1999", "charvet-1997", "cialdini-2009", "dilts-1999", "hassan-1988", "herman-1992", "james-woodsmall-1988", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "dilts-1999", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.toml"
 +++
 
 # Kritéria
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Criteria |
 | **Jiné názvy** | hodnotová slova, rozhodovací kritéria |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -185,7 +188,7 @@ Herman připomíná, že obnova smyslu a hodnot je součástí pozdější fáze
 člověk znovu spojuje s ostatními a se svým životním příběhem (Herman 1992). Příbuzné téma
 sladění hodnot v rozhovoru rozvádí stránka o [sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -206,30 +209,30 @@ sladění hodnot v rozhovoru rozvádí stránka o [sladění hodnot](@/kompendiu
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – příbuzný vzorec (Sleight of Mouth, Hierarchy of criteria)
-- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Beliefs and values level)
-- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzný vzorec (Metaprogramy, Internal and external reference)
-- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzný vzorec (Metaprogramy, Rule structure)
-- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzný vzorec (Metaprogramy, Value buying)
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzný vzorec (Raport a kalibrace, Value matching)
-- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzný vzorec (Cíle a výsledky, Evidence procedure)
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzný vzorec (Jazykové vzorce, Loaded words)
+- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – příbuzné heslo (Sleight of Mouth, Hierarchy of criteria)
+- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
+- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzné heslo (Metaprogramy, Internal and external reference)
+- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzné heslo (Metaprogramy, Rule structure)
+- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzné heslo (Metaprogramy, Value buying)
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
+- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzné heslo (Cíle a výsledky, Evidence procedure)
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzné heslo (Jazykové vzorce, Loaded words)
 
 **V kompendiu**
 
-- [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – předchozí vzorec rodiny
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – předchozí heslo rodiny
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

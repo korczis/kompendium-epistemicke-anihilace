@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["NLP jako pseudověda", "NLP as pseudoscience", "pseudovědecký charakter NLP", "Kritické hodnocení NLP", "NLP", "neurolingvistické programování"]
+keywords = ["NLP jako pseudověda", "NLP as pseudoscience", "pseudovědecký charakter NLP", "Kritické hodnocení NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-22.04"
-nlp_slug = "nlp-jako-pseudoveda"
-nlp_family = "kriticke-hodnoceni"
-nlp_family_code = "22"
-nlp_family_title = "Kritické hodnocení NLP"
-nlp_family_en = "Critical appraisal of NLP"
-nlp_part = "kriticke-hodnoceni"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "NLP as pseudoscience"
-nlp_aliases = ["pseudovědecký charakter NLP"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["falzifikovatelnost-nlp", "kargokultovni-psychologie"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["predpoklady-jako-pracovni-hypotezy", "trh-certifikaci-nlp", "neuro-zargon", "stav-dukazu-nlp", "delfska-studie", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "falzifikovatelnost-nlp", "kargokultovni-psychologie"]
-nlp_related_declared = ["falzifikovatelnost-nlp", "kargokultovni-psychologie", "delfska-studie", "databaze-vyzkumu-nlp", "stav-dukazu-nlp"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["glossary/pseudoscience.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
-nlp_prev = "vyzkum-ocnich-signalu"
-nlp_next = "delfska-studie"
-nlp_position = 4
-nlp_family_size = 14
-nlp_sources = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lifton-1961", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = []
-nlp_sources_roots = []
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lifton-1961", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kriticke-hodnoceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-22.04"
+catalog_slug = "nlp-jako-pseudoveda"
+catalog_family = "kriticke-hodnoceni"
+catalog_family_code = "22"
+catalog_family_title = "Kritické hodnocení NLP"
+catalog_family_en = "Critical appraisal of NLP"
+catalog_part = "kriticke-hodnoceni"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "NLP as pseudoscience"
+catalog_aliases = ["pseudovědecký charakter NLP"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["falzifikovatelnost-nlp", "kargokultovni-psychologie"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vedecky-zargon", "predpoklady-jako-pracovni-hypotezy", "trh-certifikaci-nlp", "neuro-zargon", "stav-dukazu-nlp", "delfska-studie", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "falzifikovatelnost-nlp", "kargokultovni-psychologie"]
+catalog_related_declared = ["falzifikovatelnost-nlp", "kargokultovni-psychologie", "delfska-studie", "databaze-vyzkumu-nlp", "stav-dukazu-nlp"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/pseudoscience.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
+catalog_prev = "vyzkum-ocnich-signalu"
+catalog_next = "delfska-studie"
+catalog_position = 4
+catalog_family_size = 14
+catalog_sources = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lifton-1961", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = []
+catalog_sources_roots = []
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lifton-1961", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kriticke-hodnoceni.toml"
 +++
 
 # NLP jako pseudověda
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-22.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | NLP as pseudoscience |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/kriticke-hodnoceni.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -136,7 +139,7 @@ prodeji, vztazích i sportovním výkonu. Výzkum se cituje selektivně nebo vů
 množství certifikovaných praktiků, počet absolventů a jména slavných uživatelů. Kritika se
 odbývá tvrzením, že kritici metodu „nezažili“ nebo jí „nerozumějí“. Neúspěch metody se
 vykládá jako chyba uživatele, nikdy jako doklad, že metoda nefunguje. Právě tyto rysy, tedy
-obrácení důkazního břemene, opora ve svědectvích a nejasný slovník, uvádí metodologická
+[obrácení důkazního břemene](@/kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md), opora ve svědectvích a nejasný slovník, uvádí metodologická
 literatura jako typické varovné znaky pseudovědy v klinické praxi (Lilienfeld, Lynn a Lohr
 2015). Tento soubor znaků není
 specifický pro NLP a kompendium ho popisuje i u [terminologické
@@ -201,7 +204,7 @@ kde nevyvratitelný systém tvrzení slouží k udržení loajality, kompendium 
 [vzorce guru a adepta](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) a na literaturu
 o myšlenkové reformě (Lifton 1961).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -224,33 +227,34 @@ o myšlenkové reformě (Lifton 1961).
 
 **Rodina a hierarchie**
 
-- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – zvláštní případ tohoto vzorce
-- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – zvláštní případ tohoto vzorce
+- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – zvláštní případ tohoto hesla
+- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzný vzorec (Předpoklady NLP, Presuppositions as working assumptions)
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzný vzorec (Vliv a zneužití NLP, The NLP certification market)
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)
-- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, State of the evidence on NLP)
-- [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – příbuzný vzorec (Kritické hodnocení NLP, Delphi poll of discredited methods)
-- [Databáze výzkumu NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP research database)
-- [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – příbuzný vzorec (Kritické hodnocení NLP, US National Research Council appraisal)
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Falsifiability of NLP)
-- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as cargo-cult psychology)
+- [Vědecký žargon jako argument](@/kompendium/argumentacni-fauly/hodnoty-a-veda/vedecky-zargon.md) – příbuzné heslo (Argumentační fauly: Klamy hodnot, přírody a vědy, Scientism by jargon)
+- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzné heslo (Předpoklady NLP, Presuppositions as working assumptions)
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (Vliv a zneužití NLP, Neuro-jargon)
+- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, State of the evidence on NLP)
+- [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – příbuzné heslo (Kritické hodnocení NLP, Delphi poll of discredited methods)
+- [Databáze výzkumu NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, NLP research database)
+- [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – příbuzné heslo (Kritické hodnocení NLP, US National Research Council appraisal)
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Falsifiability of NLP)
+- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as cargo-cult psychology)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – předchozí vzorec rodiny
-- [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – předchozí heslo rodiny
+- [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

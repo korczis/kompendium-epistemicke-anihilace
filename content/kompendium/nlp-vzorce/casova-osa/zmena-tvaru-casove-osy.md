@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Změna tvaru časové osy", "Changing the shape of the timeline", "přeuspořádání časové osy", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Změna tvaru časové osy", "Changing the shape of the timeline", "přeuspořádání časové osy", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.08"
-nlp_slug = "zmena-tvaru-casove-osy"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Changing the shape of the timeline"
-nlp_aliases = ["přeuspořádání časové osy"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "casova-osa-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["casova-osa-pojem"]
-nlp_related = ["submodality-pojem", "prostorove-umisteni-obrazu", "elicitace-casove-osy", "v-case-a-mimo-cas", "casove-kodovani"]
-nlp_related_declared = ["elicitace-casove-osy", "submodality-pojem", "prostorove-umisteni-obrazu", "casove-kodovani", "v-case-a-mimo-cas"]
-nlp_kompendium = ["kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
-nlp_prev = "korenova-pricina"
-nlp_next = "casove-kodovani"
-nlp_position = 8
-nlp_family_size = 12
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "druckman-swets-1988", "james-woodsmall-1988", "lakoff-johnson-1980", "sharpley-1987", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "lakoff-johnson-1980", "sharpley-1987", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.08"
+catalog_slug = "zmena-tvaru-casove-osy"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Changing the shape of the timeline"
+catalog_aliases = ["přeuspořádání časové osy"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "casova-osa-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["casova-osa-pojem"]
+catalog_related = ["submodality-pojem", "prostorove-umisteni-obrazu", "elicitace-casove-osy", "v-case-a-mimo-cas", "casove-kodovani"]
+catalog_related_declared = ["elicitace-casove-osy", "submodality-pojem", "prostorove-umisteni-obrazu", "casove-kodovani", "v-case-a-mimo-cas"]
+catalog_kompendium = ["kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
+catalog_prev = "korenova-pricina"
+catalog_next = "casove-kodovani"
+catalog_position = 8
+catalog_family_size = 12
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "druckman-swets-1988", "james-woodsmall-1988", "lakoff-johnson-1980", "sharpley-1987", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "lakoff-johnson-1980", "sharpley-1987", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Změna tvaru časové osy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Changing the shape of the timeline |
 | **Jiné názvy** | přeuspořádání časové osy |
-| **Obecnější vzorec** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
+| **Obecnější heslo** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Pro tvrzení, že tvar vnitřní časové osy souvisí s povahovými rysy nebo s
 
 Základní obranou je chápat časovou osu jako metaforu, kterou si člověk vytváří a může ji libovolně měnit, ne jako vnitřní orgán, který má správný a nesprávný tvar. Pokud vám někdo řekne, že vaše osa je „špatně“, je legitimní se zeptat, podle čeho to pozná a jaký výzkum takové tvrzení podporuje. Druhou obranou je trvat na tom, aby se konkrétní potíže řešily přímo. Konflikt v práci, potíž plánovat nebo pocit beznaděje mají obvykle konkrétní okolnosti, které je třeba pojmenovat a řešit, a úprava představy jejich řešení nenahradí. Třetí obranou je všímat si, kdy zúžená nebo zamlžená budoucnost může být známkou deprese; v takovém případě je namístě odborná péče s ověřenou metodou (Beck 1976). Lidé, kterým byl výklad tvaru osy vnucen jako vysvětlení jejich potíží, se k vlastnímu popisu situace mohou vrátit tím, že si zapíší konkrétní okolnosti, které je trápí, a oddělí je od metafory. Kompendium obecné cesty obrany a kalibrace úsudku popisuje v části [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,26 +124,26 @@ Základní obranou je chápat časovou osu jako metaforu, kterou si člověk vyt
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzný vzorec (Submodality, Spatial location of images)
-- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzný vzorec (Časová osa, Eliciting the timeline)
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzný vzorec (Časová osa, In time and through time)
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzný vzorec (Časová osa, Temporal coding of experience)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzné heslo (Submodality, Spatial location of images)
+- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzné heslo (Časová osa, Eliciting the timeline)
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzné heslo (Časová osa, In time and through time)
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzné heslo (Časová osa, Temporal coding of experience)
 
 **V kompendiu**
 
-- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – předchozí vzorec rodiny
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – předchozí heslo rodiny
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Testování kotvy", "Testing an anchor", "ověření kotvy", "spuštění kotvy na zkoušku", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Testování kotvy", "Testing an anchor", "ověření kotvy", "spuštění kotvy na zkoušku", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.14"
-nlp_slug = "testovani-kotvy"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Testing an anchor"
-nlp_aliases = ["ověření kotvy", "spuštění kotvy na zkoušku"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["kalibrace", "smyslova-ostrost", "ekologicka-kontrola", "kotveni", "kolaps-kotev", "posuvna-kotva", "budouci-prehravani", "kalibrace-ano-ne", "falzifikovatelnost-nlp"]
-nlp_related_declared = ["kalibrace", "smyslova-ostrost", "kotveni", "ekologicka-kontrola", "kalibrace-ano-ne", "falzifikovatelnost-nlp"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md", "kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "prenos-zdroje"
-nlp_next = "kotveni-ve-skupine"
-nlp_position = 14
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "gilovich-1991", "heap-1988", "herman-1992", "kirsch-lynn-1995", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "wiseman-2012"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["cialdini-2009", "gilovich-1991", "heap-1988", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "sharpley-1987", "wiseman-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.14"
+catalog_slug = "testovani-kotvy"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Testing an anchor"
+catalog_aliases = ["ověření kotvy", "spuštění kotvy na zkoušku"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["kalibrace", "smyslova-ostrost", "ekologicka-kontrola", "kotveni", "kolaps-kotev", "posuvna-kotva", "budouci-prehravani", "kalibrace-ano-ne", "falzifikovatelnost-nlp"]
+catalog_related_declared = ["kalibrace", "smyslova-ostrost", "kotveni", "ekologicka-kontrola", "kalibrace-ano-ne", "falzifikovatelnost-nlp"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md", "kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "prenos-zdroje"
+catalog_next = "kotveni-ve-skupine"
+catalog_position = 14
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "gilovich-1991", "heap-1988", "herman-1992", "kirsch-lynn-1995", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "wiseman-2012"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["cialdini-2009", "gilovich-1991", "heap-1988", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "sharpley-1987", "wiseman-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.b.toml"
 +++
 
 # Testování kotvy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Testing an anchor |
 | **Jiné názvy** | ověření kotvy, spuštění kotvy na zkoušku |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ Herman zdůrazňuje, že po zkušenosti, v níž druhá osoba ovládala a vyklá
 člověka, se autonomie obnovuje ve vztazích, které člověku vracejí kontrolu a právo
 rozhodovat o sobě (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -209,30 +212,30 @@ rozhodovat o sobě (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzný vzorec (Základní pojmy NLP, Sensory acuity)
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzný vzorec (Kotvení, Collapsing anchors)
-- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – příbuzný vzorec (Kotvení, Sliding anchor)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzný vzorec (Raport a kalibrace, Yes/no calibration)
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Falsifiability of NLP)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzné heslo (Základní pojmy NLP, Sensory acuity)
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzné heslo (Kotvení, Collapsing anchors)
+- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – příbuzné heslo (Kotvení, Sliding anchor)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzné heslo (Raport a kalibrace, Yes/no calibration)
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Falsifiability of NLP)
 
 **V kompendiu**
 
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – předchozí vzorec rodiny
-- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – předchozí heslo rodiny
+- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Záměna logických úrovní", "Confusing logical levels", "míchání logických úrovní", "level confusion", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Záměna logických úrovní", "Confusing logical levels", "míchání logických úrovní", "level confusion", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.16"
-nlp_slug = "zamena-logickych-urovni"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Confusing logical levels"
-nlp_aliases = ["míchání logických úrovní", "level confusion"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "logicke-urovne-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["logicke-urovne-pojem"]
-nlp_related = ["clovek-neni-sve-chovani", "logicke-urovne-pojem", "komplexni-ekvivalence", "zarovnani-logickych-urovni", "uroven-chovani", "uroven-identity", "presvedceni-o-identite"]
-nlp_related_declared = ["zarovnani-logickych-urovni", "uroven-identity", "uroven-chovani", "clovek-neni-sve-chovani", "komplexni-ekvivalence", "presvedceni-o-identite"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/03-zakladni-kategorie/scenar-h.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md", "kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md"]
-nlp_prev = "disneyova-strategie"
-nlp_next = ""
-nlp_position = 16
-nlp_family_size = 16
-nlp_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "herman-1992", "korzybski-1933", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
-nlp_sources_roots = ["bateson-1972", "bateson-1956", "korzybski-1933", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 3
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.16"
+catalog_slug = "zamena-logickych-urovni"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Confusing logical levels"
+catalog_aliases = ["míchání logických úrovní", "level confusion"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "logicke-urovne-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["logicke-urovne-pojem"]
+catalog_related = ["clovek-neni-sve-chovani", "logicke-urovne-pojem", "komplexni-ekvivalence", "zarovnani-logickych-urovni", "uroven-chovani", "uroven-identity", "presvedceni-o-identite"]
+catalog_related_declared = ["zarovnani-logickych-urovni", "uroven-identity", "uroven-chovani", "clovek-neni-sve-chovani", "komplexni-ekvivalence", "presvedceni-o-identite"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/03-zakladni-kategorie/scenar-h.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md", "kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md"]
+catalog_prev = "disneyova-strategie"
+catalog_next = ""
+catalog_position = 16
+catalog_family_size = 16
+catalog_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "herman-1992", "korzybski-1933", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
+catalog_sources_roots = ["bateson-1972", "bateson-1956", "korzybski-1933", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 3
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.b.toml"
 +++
 
 # Záměna logických úrovní
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Confusing logical levels |
 | **Jiné názvy** | míchání logických úrovní, level confusion |
-| **Obecnější vzorec** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
+| **Obecnější heslo** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -201,7 +204,7 @@ Vzorce, které s úrovněmi pracují ve snaze o soulad, popisuje heslo
 i u nich je na místě opatrnost, protože otázky na identitu a poslání se dotýkají nejcitlivějších
 vrstev člověka.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,28 +225,28 @@ vrstev člověka.
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – příbuzný vzorec (Předpoklady NLP, People are not their behaviour)
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Logical levels (concept))
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzný vzorec (Meta-model, Complex equivalence)
-- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Logical level alignment)
-- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Behaviour level)
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Identity level)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
+- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – příbuzné heslo (Předpoklady NLP, People are not their behaviour)
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – příbuzné heslo (Základní pojmy NLP, Logical levels (concept))
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (Meta-model, Complex equivalence)
+- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Logical level alignment)
+- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Behaviour level)
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzné heslo (Logické úrovně a percepční pozice, Identity level)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
 
 **V kompendiu**
 
-- [EA-5.3.18 Esencialistická redukce](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.18 Esencialistická redukce](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

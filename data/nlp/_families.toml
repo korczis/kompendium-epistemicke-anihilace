@@ -1,9 +1,9 @@
-# Rodiny katalogu NLP vzorců (pravidlo project.nlp-catalog).
+# Rodiny katalogu NLP vzorců (pravidlo project.content-catalogs).
 #
 # Pořadí rodin je pořadí v tomto souboru; `code` je neměnná dvoumístná část identifikátoru
 # NLP-FF.NN všech vzorců rodiny. Vzorce rodiny jsou v data/nlp/<slug>.toml, jejich stránky v
 # content/kompendium/nlp-vzorce/<slug>/. Nic z toho se nepíše na stránky ručně: front matter,
-# literatura, oddíl Související, výpisy rodin a data trenéru odvozuje scripts/nlp-catalog.py.
+# literatura, oddíl Související, výpisy rodin a data trenéru odvozuje scripts/catalogs.py.
 
 schema = 1
 

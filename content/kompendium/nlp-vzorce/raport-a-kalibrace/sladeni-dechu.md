@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Sladění dechu", "Breathing matching", "provázení dechu", "breath pacing", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Sladění dechu", "Breathing matching", "provázení dechu", "breath pacing", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.05"
-nlp_slug = "sladeni-dechu"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Breathing matching"
-nlp_aliases = ["provázení dechu", "breath pacing"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "zrcadleni"
-nlp_narrower = []
-nlp_depth = 3
-nlp_ancestors = ["zrcadleni", "pacing-a-leading", "pacing-a-leading-pojem"]
-nlp_related = ["stav", "trans-pojem", "pacing-aktualni-zkusenosti", "krizove-zrcadleni", "sladeni-hlasu-a-tempa", "konverzacni-hypnoza"]
-nlp_related_declared = ["sladeni-hlasu-a-tempa", "pacing-aktualni-zkusenosti", "konverzacni-hypnoza", "trans-pojem", "stav"]
-nlp_kompendium = ["kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md"]
-nlp_prev = "shoda-predikatu"
-nlp_next = "sladeni-hlasu-a-tempa"
-nlp_position = 5
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-bandler-1981"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.05"
+catalog_slug = "sladeni-dechu"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Breathing matching"
+catalog_aliases = ["provázení dechu", "breath pacing"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "zrcadleni"
+catalog_narrower = []
+catalog_depth = 3
+catalog_ancestors = ["zrcadleni", "pacing-a-leading", "pacing-a-leading-pojem"]
+catalog_related = ["stav", "trans-pojem", "pacing-aktualni-zkusenosti", "krizove-zrcadleni", "sladeni-hlasu-a-tempa", "konverzacni-hypnoza"]
+catalog_related_declared = ["sladeni-hlasu-a-tempa", "pacing-aktualni-zkusenosti", "konverzacni-hypnoza", "trans-pojem", "stav"]
+catalog_kompendium = ["kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md"]
+catalog_prev = "shoda-predikatu"
+catalog_next = "sladeni-hlasu-a-tempa"
+catalog_position = 5
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-bandler-1981"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.toml"
 +++
 
 # Sladění dechu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Breathing matching |
 | **Jiné názvy** | provázení dechu, breath pacing |
-| **Obecnější vzorec** | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) |
+| **Obecnější heslo** | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ smysl každé techniky a ponechat klientovi plnou kontrolu nad tím, zda a jak d
 Obnova pocitu, že vlastní tělo patří člověku a ne skupině nebo autoritě, je součástí
 zotavení z traumatu, které Herman popisuje jako návrat moci a spojení (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,27 +221,27 @@ zotavení z traumatu, které Herman popisuje jako návrat moci a spojení (Herma
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzný vzorec (Milton-model, Pacing current experience)
-- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Cross-over mirroring)
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzný vzorec (Raport a kalibrace, Voice and tempo matching)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzné heslo (Milton-model, Pacing current experience)
+- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Cross-over mirroring)
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
 
 **V kompendiu**
 
-- [EA-6.2.7 Mindfulness-based trauma intervention](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.2.7 Mindfulness-based trauma intervention](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – předchozí vzorec rodiny
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – předchozí heslo rodiny
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

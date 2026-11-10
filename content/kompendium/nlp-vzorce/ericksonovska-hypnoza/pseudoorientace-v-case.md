@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Pseudoorientace v čase", "Pseudo-orientation in time", "projekce do budoucnosti", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Pseudoorientace v čase", "Pseudo-orientation in time", "projekce do budoucnosti", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.13"
-nlp_slug = "pseudoorientace-v-case"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Pseudo-orientation in time"
-nlp_aliases = ["projekce do budoucnosti"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["casova-osa-pojem", "vekova-regrese", "ramec-jako-by", "vlozeni-budouciho-cile", "budouci-prehravani", "predstavte-si", "casove-presuny-v-jazyce"]
-nlp_related_declared = ["budouci-prehravani", "vekova-regrese", "vlozeni-budouciho-cile", "ramec-jako-by", "casova-osa-pojem"]
-nlp_kompendium = ["kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["glossary/epistemicka-anihilace.md", "kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
-nlp_prev = "vekova-regrese"
-nlp_next = "muj-pritel-john"
-nlp_position = 13
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "herman-1992", "james-woodsmall-1988", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.13"
+catalog_slug = "pseudoorientace-v-case"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Pseudo-orientation in time"
+catalog_aliases = ["projekce do budoucnosti"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["casova-osa-pojem", "vekova-regrese", "ramec-jako-by", "vlozeni-budouciho-cile", "budouci-prehravani", "predstavte-si", "casove-presuny-v-jazyce"]
+catalog_related_declared = ["budouci-prehravani", "vekova-regrese", "vlozeni-budouciho-cile", "ramec-jako-by", "casova-osa-pojem"]
+catalog_kompendium = ["kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/epistemicka-anihilace.md", "kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
+catalog_prev = "vekova-regrese"
+catalog_next = "muj-pritel-john"
+catalog_position = 13
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "herman-1992", "james-woodsmall-1988", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
 +++
 
 # Pseudoorientace v čase
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Pseudo-orientation in time |
 | **Jiné názvy** | projekce do budoucnosti |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ prostředí, se klinicky pracuje s obnovou vlastní časové perspektivy a schop
 bez vnější autority; obnova kontroly nad vlastním životem patří k jádru zotavení (Herman
 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,28 +221,28 @@ bez vnější autority; obnova kontroly nad vlastním životem patří k jádru 
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
-- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – příbuzný vzorec (Ericksonovská hypnóza, Age regression)
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzný vzorec (Časová osa, Placing a goal in the future)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzný vzorec (Jazykové vzorce, Imagine)
-- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzný vzorec (Jazykové vzorce, Verb tense shifts)
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzné heslo (Základní pojmy NLP, Timeline (concept))
+- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – příbuzné heslo (Ericksonovská hypnóza, Age regression)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzné heslo (Časová osa, Placing a goal in the future)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzné heslo (Jazykové vzorce, Imagine)
+- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzné heslo (Jazykové vzorce, Verb tense shifts)
 
 **V kompendiu**
 
-- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – předchozí vzorec rodiny
-- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – předchozí heslo rodiny
+- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

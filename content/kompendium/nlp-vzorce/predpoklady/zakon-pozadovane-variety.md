@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Nejpružnější prvek řídí systém", "The law of requisite variety", "zákon nezbytné rozmanitosti", "zákon požadované variety", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Nejpružnější prvek řídí systém", "The law of requisite variety", "zákon nezbytné rozmanitosti", "zákon požadované variety", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.07"
-nlp_slug = "zakon-pozadovane-variety"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "The law of requisite variety"
-nlp_aliases = ["zákon nezbytné rozmanitosti", "zákon požadované variety"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["kdyz-to-nefunguje-udelej-neco-jineho", "volba-je-lepsi-nez-zadna-volba", "tote-model", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "neuro-zargon"]
-nlp_related_declared = ["kdyz-to-nefunguje-udelej-neco-jineho", "tote-model", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "neuro-zargon", "volba-je-lepsi-nez-zadna-volba"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "mysl-a-telo-jeden-system"
-nlp_next = "respekt-k-modelu-sveta"
-nlp_position = 7
-nlp_family_size = 21
-nlp_sources = ["bateson-1972", "chartrand-bargh-1999", "cialdini-2009", "dilts-delozier-2000", "lifton-1961", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "roderique-davies-2009", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960", "watzlawick-1967"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "lifton-1961", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.07"
+catalog_slug = "zakon-pozadovane-variety"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "The law of requisite variety"
+catalog_aliases = ["zákon nezbytné rozmanitosti", "zákon požadované variety"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["kdyz-to-nefunguje-udelej-neco-jineho", "volba-je-lepsi-nez-zadna-volba", "tote-model", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "neuro-zargon"]
+catalog_related_declared = ["kdyz-to-nefunguje-udelej-neco-jineho", "tote-model", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "neuro-zargon", "volba-je-lepsi-nez-zadna-volba"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "mysl-a-telo-jeden-system"
+catalog_next = "respekt-k-modelu-sveta"
+catalog_position = 7
+catalog_family_size = 21
+catalog_sources = ["bateson-1972", "chartrand-bargh-1999", "cialdini-2009", "dilts-delozier-2000", "lifton-1961", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "roderique-davies-2009", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960", "watzlawick-1967"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "lifton-1961", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Nejpružnější prvek řídí systém
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | The law of requisite variety |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ pokaždé, když někdo naléhá, zdravá není. Lifton popsal, jak si uzavřen�
 autoritu vědy, aby učinily svou doktrínu nezpochybnitelnou (Lifton 1961); obnova schopnosti
 tyto autority ověřovat je proto důležitou součástí návratu k vlastnímu úsudku.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,26 +219,26 @@ tyto autority ověřovat je proto důležitou součástí návratu k vlastnímu 
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzný vzorec (Předpoklady NLP, If it is not working, do something else)
-- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzný vzorec (Předpoklady NLP, Having a choice is better than having none)
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)
+- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzné heslo (Předpoklady NLP, If it is not working, do something else)
+- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzné heslo (Předpoklady NLP, Having a choice is better than having none)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (Vliv a zneužití NLP, Neuro-jargon)
 
 **V kompendiu**
 
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – předchozí vzorec rodiny
-- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – předchozí heslo rodiny
+- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

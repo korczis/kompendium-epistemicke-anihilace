@@ -1,4 +1,4 @@
-# Rodina NLP-21: Vliv a zneužití NLP (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Rodina NLP-21: Vliv a zneužití NLP (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
 # Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
 # Rodina s nejvyšším rizikem zneužití: záznamy popisují rozpoznání, škody, kontext a obranu,
 # nikdy formulace, pořadí ani taktiku použitelnou vůči komukoli.

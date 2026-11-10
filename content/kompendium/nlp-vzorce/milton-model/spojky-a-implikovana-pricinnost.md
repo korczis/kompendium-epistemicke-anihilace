@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Spojky a implikovaná příčinnost", "Conjunctions and implied causatives", "příčinné spojování", "kauzální modelování", "spojování sugescí", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Spojky a implikovaná příčinnost", "Conjunctions and implied causatives", "příčinné spojování", "kauzální modelování", "spojování sugescí", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.18"
-nlp_slug = "spojky-a-implikovana-pricinnost"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Conjunctions and implied causatives"
-nlp_aliases = ["příčinné spojování", "kauzální modelování", "spojování sugescí"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["pricina-a-nasledek", "komplexni-ekvivalence-milton", "pacing-aktualni-zkusenosti", "retezeni-sugesci", "slozena-sugesce", "ale-a-a", "protoze"]
-nlp_related_declared = ["pricina-a-nasledek", "retezeni-sugesci", "pacing-aktualni-zkusenosti", "komplexni-ekvivalence-milton", "protoze", "slozena-sugesce"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
-nlp_prev = "ztraceny-performativ-milton"
-nlp_next = "komplexni-ekvivalence-milton"
-nlp_position = 18
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "levinson-1983", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
-nlp_sources_critical = ["herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.18"
+catalog_slug = "spojky-a-implikovana-pricinnost"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Conjunctions and implied causatives"
+catalog_aliases = ["příčinné spojování", "kauzální modelování", "spojování sugescí"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["post-hoc", "pricina-a-nasledek", "komplexni-ekvivalence-milton", "pacing-aktualni-zkusenosti", "retezeni-sugesci", "slozena-sugesce", "ale-a-a", "protoze"]
+catalog_related_declared = ["pricina-a-nasledek", "retezeni-sugesci", "pacing-aktualni-zkusenosti", "komplexni-ekvivalence-milton", "protoze", "slozena-sugesce"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
+catalog_prev = "ztraceny-performativ-milton"
+catalog_next = "komplexni-ekvivalence-milton"
+catalog_position = 18
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "levinson-1983", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
+catalog_sources_critical = ["herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.b.toml"
 +++
 
 # Spojky a implikovaná příčinnost
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.18` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Conjunctions and implied causatives |
 | **Jiné názvy** | příčinné spojování, kauzální modelování, spojování sugescí |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ konkrétní situace a u každé se ptát, kdo jednal a kdo za své jednání odp
 zdůrazňuje, že pojmenování odpovědnosti pachatele je v zotavení z dlouhodobého zneužívání
 podstatným krokem k obnově vlastní hodnoty (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -219,29 +222,30 @@ podstatným krokem k obnově vlastní hodnoty (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzný vzorec (Meta-model, Cause and effect)
-- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – příbuzný vzorec (Milton-model, Complex equivalence (Milton Model))
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzný vzorec (Milton-model, Pacing current experience)
-- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – příbuzný vzorec (Milton-model, Linking suggestions)
-- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Compound suggestion)
-- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – příbuzný vzorec (Jazykové vzorce, But versus and)
-- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – příbuzný vzorec (Jazykové vzorce, Because)
+- [Po tom, tedy kvůli tomu](@/kompendium/argumentacni-fauly/kauzalni/post-hoc.md) – příbuzné heslo (Argumentační fauly: Kauzální klamy, Post hoc ergo propter hoc)
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzné heslo (Meta-model, Cause and effect)
+- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – příbuzné heslo (Milton-model, Complex equivalence (Milton Model))
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzné heslo (Milton-model, Pacing current experience)
+- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – příbuzné heslo (Milton-model, Linking suggestions)
+- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Compound suggestion)
+- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – příbuzné heslo (Jazykové vzorce, But versus and)
+- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – příbuzné heslo (Jazykové vzorce, Because)
 
 **V kompendiu**
 
-- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – předchozí vzorec rodiny
-- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – předchozí heslo rodiny
+- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

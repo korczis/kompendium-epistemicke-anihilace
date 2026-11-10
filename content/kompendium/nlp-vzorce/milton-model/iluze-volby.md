@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Iluze volby", "Illusion of choice", "falešná alternativa", "vazba srovnatelných alternativ", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Iluze volby", "Illusion of choice", "falešná alternativa", "vazba srovnatelných alternativ", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.25"
-nlp_slug = "iluze-volby"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Illusion of choice"
-nlp_aliases = ["falešná alternativa", "vazba srovnatelných alternativ"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["nejlepsi-dostupna-volba", "volba-je-lepsi-nez-zadna-volba", "modalni-operatory-milton", "presupozice-milton", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "poradove-cislovky", "presupozice-nebo", "otazky-s-presupozici", "moznosti-a-postupy", "alternativni-zaver"]
-nlp_related_declared = ["terapeuticka-dvojna-vazba", "presupozice-nebo", "presupozice-milton", "sugesce-pokryvajici-vsechny-moznosti", "modalni-operatory-milton"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_prev = "nespecifikovany-index-milton"
-nlp_next = "negativni-prikazy"
-nlp_position = 25
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "bateson-1956", "cialdini-2009", "erickson-rossi-rossi-1976", "haley-1973", "miller-rollnick-2013", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1967", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["bateson-1956", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967"]
-nlp_sources_critical = ["cialdini-2009", "miller-rollnick-2013", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.25"
+catalog_slug = "iluze-volby"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Illusion of choice"
+catalog_aliases = ["falešná alternativa", "vazba srovnatelných alternativ"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["potvrzeni-disjunktu", "nejlepsi-dostupna-volba", "volba-je-lepsi-nez-zadna-volba", "modalni-operatory-milton", "presupozice-milton", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "poradove-cislovky", "presupozice-nebo", "otazky-s-presupozici", "moznosti-a-postupy", "alternativni-zaver"]
+catalog_related_declared = ["terapeuticka-dvojna-vazba", "presupozice-nebo", "presupozice-milton", "sugesce-pokryvajici-vsechny-moznosti", "modalni-operatory-milton"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_prev = "nespecifikovany-index-milton"
+catalog_next = "negativni-prikazy"
+catalog_position = 25
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "bateson-1956", "cialdini-2009", "erickson-rossi-rossi-1976", "haley-1973", "miller-rollnick-2013", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1967", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["bateson-1956", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967"]
+catalog_sources_critical = ["cialdini-2009", "miller-rollnick-2013", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.c.toml"
 +++
 
 # Iluze volby
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.25` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Illusion of choice |
 | **Jiné názvy** | falešná alternativa, vazba srovnatelných alternativ |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ které byly z rámce vypuštěny, a tím vrátit odpovědnost tam, kam patří. 
 zásadám obrany věnuje v oddílu
 [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,35 +215,36 @@ zásadám obrany věnuje v oddílu
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzný vzorec (Předpoklady NLP, People make the best choice available to them)
-- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzný vzorec (Předpoklady NLP, Having a choice is better than having none)
-- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – příbuzný vzorec (Milton-model, Modal operators (Milton Model))
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzný vzorec (Milton-model, Presuppositions (Milton Model))
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Therapeutic double bind)
-- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Conscious–unconscious double bind)
-- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Open-ended suggestion)
-- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggestion covering all possibilities)
-- [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – příbuzný vzorec (Jazykové presupozice, Ordinal numerals)
-- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzný vzorec (Jazykové presupozice, Use of „or“)
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzný vzorec (Metaprogramy, Options and procedures)
-- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Alternative close)
+- [Potvrzení disjunktu](@/kompendium/argumentacni-fauly/formalni/potvrzeni-disjunktu.md) – příbuzné heslo (Argumentační fauly: Formální klamy, Affirming a disjunct)
+- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzné heslo (Předpoklady NLP, People make the best choice available to them)
+- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzné heslo (Předpoklady NLP, Having a choice is better than having none)
+- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – příbuzné heslo (Milton-model, Modal operators (Milton Model))
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzné heslo (Milton-model, Presuppositions (Milton Model))
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Therapeutic double bind)
+- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Conscious–unconscious double bind)
+- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Open-ended suggestion)
+- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzné heslo (Ericksonovská hypnóza, Suggestion covering all possibilities)
+- [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – příbuzné heslo (Jazykové presupozice, Ordinal numerals)
+- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzné heslo (Jazykové presupozice, Use of „or“)
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzné heslo (Metaprogramy, Options and procedures)
+- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Alternative close)
 
 **V kompendiu**
 
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.30 Paradox totální volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.30 Paradox totální volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Nespecifikovaný referenční index v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton.md) – předchozí vzorec rodiny
-- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Nespecifikovaný referenční index v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton.md) – předchozí heslo rodiny
+- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

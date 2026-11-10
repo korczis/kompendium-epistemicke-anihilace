@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Submodality v reklamě a médiích", "Submodalities in advertising and media", "vizuální rétorika reklamy", "práce s obrazem a zvukem v médiích", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Submodality v reklamě a médiích", "Submodalities in advertising and media", "vizuální rétorika reklamy", "práce s obrazem a zvukem v médiích", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.19"
-nlp_slug = "submodality-v-reklame"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Submodalities in advertising and media"
-nlp_aliases = ["vizuální rétorika reklamy", "práce s obrazem a zvukem v médiích"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "nlp-v-reklame"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["nlp-v-reklame"]
-nlp_related = ["olfaktorni-a-gustatorni-system", "submodality-pojem", "vizualni-kotvy", "kotvy-v-reklame", "vizualni-submodality", "auditivni-submodality", "metaprogramy-v-marketingu", "nlp-v-reklame", "hypnoticky-jazyk-online"]
-nlp_related_declared = ["nlp-v-reklame", "kotvy-v-reklame", "vizualni-submodality", "auditivni-submodality", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/case-studies/74-influencer-cult.md"]
-nlp_links_prose = ["glossary/heuristika.md", "glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/case-studies/74-influencer-cult.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "prostorove-umisteni-obrazu"
-nlp_next = "zmena-kriticke-sebeprezentace"
-nlp_position = 19
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.19"
+catalog_slug = "submodality-v-reklame"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Submodalities in advertising and media"
+catalog_aliases = ["vizuální rétorika reklamy", "práce s obrazem a zvukem v médiích"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "nlp-v-reklame"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["nlp-v-reklame"]
+catalog_related = ["olfaktorni-a-gustatorni-system", "submodality-pojem", "vizualni-kotvy", "kotvy-v-reklame", "vizualni-submodality", "auditivni-submodality", "metaprogramy-v-marketingu", "nlp-v-reklame", "hypnoticky-jazyk-online"]
+catalog_related_declared = ["nlp-v-reklame", "kotvy-v-reklame", "vizualni-submodality", "auditivni-submodality", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/case-studies/74-influencer-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/heuristika.md", "glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/case-studies/74-influencer-cult.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "prostorove-umisteni-obrazu"
+catalog_next = "zmena-kriticke-sebeprezentace"
+catalog_position = 19
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Submodality v reklamě a médiích
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Submodalities in advertising and media |
 | **Jiné názvy** | vizuální rétorika reklamy, práce s obrazem a zvukem v médiích |
-| **Obecnější vzorec** | [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) |
+| **Obecnější heslo** | [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ blízkosti a důvěry, vytvořený formou, vybledl a aby se znovu objevila otáz
 tvrdí. Pro pedagogy a odborníky z toho plyne, že mediální výchova by měla pojmenovávat nejen
 dezinformace, ale i formální prostředky, které jim dávají přesvědčivost.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,32 +217,32 @@ dezinformace, ale i formální prostředky, které jim dávají přesvědčivost
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzný vzorec (Základní pojmy NLP, Olfactory and gustatory systems)
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – příbuzný vzorec (Kotvení, Visual anchors)
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzný vzorec (Kotvení, Anchors in advertising)
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzný vzorec (Submodality, Visual submodalities)
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzný vzorec (Submodality, Auditory submodalities)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in advertising)
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzný vzorec (Vliv a zneužití NLP, Hypnotic language in online content)
+- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzné heslo (Základní pojmy NLP, Olfactory and gustatory systems)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – příbuzné heslo (Kotvení, Visual anchors)
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzné heslo (Kotvení, Anchors in advertising)
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzné heslo (Submodality, Visual submodalities)
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzné heslo (Submodality, Auditory submodalities)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in advertising)
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzné heslo (Vliv a zneužití NLP, Hypnotic language in online content)
 
 **V kompendiu**
 
-- [7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 74: Kult influencera](@/kompendium/case-studies/74-influencer-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 74: Kult influencera](@/kompendium/case-studies/74-influencer-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – předchozí vzorec rodiny
-- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – předchozí heslo rodiny
+- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Důsledek", "Consequence", "přerámování na důsledek", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Důsledek", "Consequence", "přerámování na důsledek", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.05"
-nlp_slug = "som-dusledek"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Consequence"
-nlp_aliases = ["přerámování na důsledek"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["pricina-a-nasledek", "som-zamer", "som-protipriklad", "som-zmena-velikosti-ramce", "ramec-vysledku", "budouci-prehravani"]
-nlp_related_declared = ["budouci-prehravani", "pricina-a-nasledek", "ramec-vysledku", "som-zamer", "som-protipriklad"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_prev = "som-redefinice"
-nlp_next = "som-rozlozeni"
-nlp_position = 5
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "dilts-hallbom-smith-1990", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1999", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.05"
+catalog_slug = "som-dusledek"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Consequence"
+catalog_aliases = ["přerámování na důsledek"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["kluzky-svah", "pricina-a-nasledek", "som-zamer", "som-protipriklad", "som-zmena-velikosti-ramce", "ramec-vysledku", "budouci-prehravani"]
+catalog_related_declared = ["budouci-prehravani", "pricina-a-nasledek", "ramec-vysledku", "som-zamer", "som-protipriklad"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_prev = "som-redefinice"
+catalog_next = "som-rozlozeni"
+catalog_position = 5
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "dilts-hallbom-smith-1990", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.toml"
 +++
 
 # Důsledek
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Consequence |
 | **Jiné názvy** | přerámování na důsledek |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ mají na vlastní názor právo (Herman 1992). Opačný pohyb, při kterém se p
 důsledků k úmyslu, popisuje vzorec
 [záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -210,27 +213,28 @@ důsledků k úmyslu, popisuje vzorec
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzný vzorec (Meta-model, Cause and effect)
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzný vzorec (Sleight of Mouth, Intention)
-- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzný vzorec (Sleight of Mouth, Counter-example)
-- [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – příbuzný vzorec (Sleight of Mouth, Change frame size)
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
+- [Kluzký svah](@/kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, Slippery slope)
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzné heslo (Meta-model, Cause and effect)
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzné heslo (Sleight of Mouth, Intention)
+- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzné heslo (Sleight of Mouth, Counter-example)
+- [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – příbuzné heslo (Sleight of Mouth, Change frame size)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
 
 **V kompendiu**
 
-- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – předchozí vzorec rodiny
-- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – předchozí heslo rodiny
+- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

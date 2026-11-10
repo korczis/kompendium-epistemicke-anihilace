@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Budoucí přehrávání", "Future pacing", "future pacing", "přehrání do budoucnosti", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Budoucí přehrávání", "Future pacing", "future pacing", "přehrání do budoucnosti", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.10"
-nlp_slug = "budouci-prehravani"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Future pacing"
-nlp_aliases = ["future pacing", "přehrání do budoucnosti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["asociace", "posthypnoticka-sugesce", "pseudoorientace-v-case", "presupozice-casovych-vet", "som-dusledek", "ramec-jako-by", "testovani-kotvy", "swish", "vlozeni-budouciho-cile", "instalace-strategie", "generator-noveho-chovani", "od-problemu-k-vysledku", "predstavte-si", "predpokladovy-zaver", "budouci-prehravani-v-prodeji"]
-nlp_related_declared = ["budouci-prehravani-v-prodeji", "vlozeni-budouciho-cile", "posthypnoticka-sugesce", "predpokladovy-zaver", "testovani-kotvy", "pseudoorientace-v-case"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md"]
-nlp_prev = "casove-kodovani"
-nlp_next = "casova-perspektiva"
-nlp_position = 10
-nlp_family_size = 12
-nlp_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "cialdini-2009", "freedman-fraser-1966", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Vztah k technikám kompendia", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.10"
+catalog_slug = "budouci-prehravani"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Future pacing"
+catalog_aliases = ["future pacing", "přehrání do budoucnosti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["asociace", "posthypnoticka-sugesce", "pseudoorientace-v-case", "presupozice-casovych-vet", "som-dusledek", "ramec-jako-by", "testovani-kotvy", "swish", "vlozeni-budouciho-cile", "instalace-strategie", "generator-noveho-chovani", "od-problemu-k-vysledku", "predstavte-si", "predpokladovy-zaver", "budouci-prehravani-v-prodeji"]
+catalog_related_declared = ["budouci-prehravani-v-prodeji", "vlozeni-budouciho-cile", "posthypnoticka-sugesce", "predpokladovy-zaver", "testovani-kotvy", "pseudoorientace-v-case"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md"]
+catalog_prev = "casove-kodovani"
+catalog_next = "casova-perspektiva"
+catalog_position = 10
+catalog_family_size = 12
+catalog_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "cialdini-2009", "freedman-fraser-1966", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Vztah k technikám kompendia", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Budoucí přehrávání
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Future pacing |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/casova-osa.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -106,7 +109,7 @@ Pro tvrzení, že budoucí přehrávání jako specifický prvek NLP zvyšuje tr
 
 Základní obranou je všimnout si přechodu do budoucnosti, který nevyšel od vás. Když vás někdo vede k živé představě budoucího prožitku a vy jste o to nežádali, je užitečné si říct, že jde o představu, kterou vytváří druhá strana, a že její živost nevypovídá o tom, zda nabídka je dobrá. Druhou obranou je oddělit představu od rozhodnutí v čase. Po živé představě nerozhodujte hned; odstup, písemné podmínky a srovnání s jinými nabídkami narušují závazek, který představa vytvořila (Cialdini 2009). Třetí obranou je přeložit představu do věcných otázek: co přesně produkt dělá, kolik stojí, jaké jsou podmínky a co se stane, když ho nebudete mít. Tyto otázky vracejí rozhodování na cestu pečlivého zvažování (Petty a Cacioppo 1986). Lidé, kteří pod vlivem vzorce udělali rozhodnutí, kterého litují, se často stydí. Pomáhá pochopit, že mechanismy, o které se vzorec opírá, působí na každého, a hledat nápravu: odstoupení od smlouvy, kde to zákon umožňuje, nebo poradu s nezávislým odborníkem. Kompendium obecné strategie prevence vlivu shrnuje v části [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -125,35 +128,35 @@ Základní obranou je všimnout si přechodu do budoucnosti, který nevyšel od 
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Post-hypnotic suggestion)
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzný vzorec (Ericksonovská hypnóza, Pseudo-orientation in time)
-- [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – příbuzný vzorec (Jazykové presupozice, Subordinate clauses of time)
-- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – příbuzný vzorec (Sleight of Mouth, Consequence)
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzný vzorec (Kotvení, Testing an anchor)
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzný vzorec (Submodality, Swish pattern)
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzný vzorec (Časová osa, Placing a goal in the future)
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy installation)
-- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzný vzorec (Strategie a modelování, New behaviour generator)
-- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Problem to outcome)
-- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzný vzorec (Jazykové vzorce, Imagine)
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Assumptive close)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Post-hypnotic suggestion)
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzné heslo (Ericksonovská hypnóza, Pseudo-orientation in time)
+- [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – příbuzné heslo (Jazykové presupozice, Subordinate clauses of time)
+- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – příbuzné heslo (Sleight of Mouth, Consequence)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzné heslo (Kotvení, Testing an anchor)
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzné heslo (Submodality, Swish pattern)
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzné heslo (Časová osa, Placing a goal in the future)
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy installation)
+- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzné heslo (Strategie a modelování, New behaviour generator)
+- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzné heslo (Cíle a výsledky, Problem to outcome)
+- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzné heslo (Jazykové vzorce, Imagine)
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Assumptive close)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
 
 **V kompendiu**
 
-- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.5 Nátlak doporučením](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.5 Nátlak doporučením](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – předchozí vzorec rodiny
-- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – předchozí heslo rodiny
+- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

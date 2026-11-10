@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Zrcadlení v podvodech", "Mirroring in scams", "falešná spřízněnost", "zrcadlení v romantických podvodech", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Zrcadlení v podvodech", "Mirroring in scams", "falešná spřízněnost", "zrcadlení v romantických podvodech", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.15"
-nlp_slug = "falesne-zrcadleni-v-podvodech"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Mirroring in scams"
-nlp_aliases = ["falešná spřízněnost", "zrcadlení v romantických podvodech"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "zrcadleni"
-nlp_narrower = []
-nlp_depth = 3
-nlp_ancestors = ["zrcadleni", "pacing-a-leading", "pacing-a-leading-pojem"]
-nlp_related = ["duvera", "zrcadleni", "sladeni-hodnot", "raport-jako-nastroj-vlivu", "pseudoempatie", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "rozpoznani-nlp-praktiky"]
-nlp_related_declared = ["raport-jako-nastroj-vlivu", "pseudoempatie", "sladeni-hodnot", "nlp-v-prodeji", "rozpoznani-nlp-praktiky"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/06-klinicke-aplikace/preventivni-strategie.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/preventivni-strategie.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
-nlp_prev = "velke-seminare"
-nlp_next = "manipulativni-reframing-ve-vztazich"
-nlp_position = 15
-nlp_family_size = 20
-nlp_sources = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "kahneman-2011", "mcguire-1964", "oconnor-seymour-1990", "sharpley-1987", "vrij-2008", "witkowski-2010"]
-nlp_sources_primary = ["oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "kahneman-2011", "mcguire-1964", "sharpley-1987", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.15"
+catalog_slug = "falesne-zrcadleni-v-podvodech"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Mirroring in scams"
+catalog_aliases = ["falešná spřízněnost", "zrcadlení v romantických podvodech"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "zrcadleni"
+catalog_narrower = []
+catalog_depth = 3
+catalog_ancestors = ["zrcadleni", "pacing-a-leading", "pacing-a-leading-pojem"]
+catalog_related = ["duvera", "zrcadleni", "sladeni-hodnot", "raport-jako-nastroj-vlivu", "pseudoempatie", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "rozpoznani-nlp-praktiky"]
+catalog_related_declared = ["raport-jako-nastroj-vlivu", "pseudoempatie", "sladeni-hodnot", "nlp-v-prodeji", "rozpoznani-nlp-praktiky"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/06-klinicke-aplikace/preventivni-strategie.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/preventivni-strategie.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
+catalog_prev = "velke-seminare"
+catalog_next = "manipulativni-reframing-ve-vztazich"
+catalog_position = 15
+catalog_family_size = 20
+catalog_sources = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "kahneman-2011", "mcguire-1964", "oconnor-seymour-1990", "sharpley-1987", "vrij-2008", "witkowski-2010"]
+catalog_sources_primary = ["oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "kahneman-2011", "mcguire-1964", "sharpley-1987", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
 +++
 
 # Zrcadlení v podvodech
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Mirroring in scams |
 | **Jiné názvy** | falešná spřízněnost, zrcadlení v romantických podvodech |
-| **Obecnější vzorec** | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) |
+| **Obecnější heslo** | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -204,7 +207,7 @@ odpovědnost nese pachatel. Praktickými kroky jsou kontaktování banky, oznám
 důvěry ve vlastní úsudek a na zabránění opakovanému podvodu, protože poškození bývají
 znovu oslovováni, například nabídkami „vymožení“ ztracených peněz.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,30 +225,30 @@ znovu oslovováni, například nabídkami „vymožení“ ztracených peněz.
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – příbuzný vzorec (Metaprogramy, Trust)
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzný vzorec (Raport a kalibrace, Value matching)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzný vzorec (Raport a kalibrace, Simulated empathy)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
-- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzný vzorec (Vliv a zneužití NLP, Recognising NLP practice in conversation)
+- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – příbuzné heslo (Metaprogramy, Trust)
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzné heslo (Raport a kalibrace, Simulated empathy)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
+- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzné heslo (Vliv a zneužití NLP, Recognising NLP practice in conversation)
 
 **V kompendiu**
 
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.9 Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.9 Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – předchozí vzorec rodiny
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – předchozí heslo rodiny
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

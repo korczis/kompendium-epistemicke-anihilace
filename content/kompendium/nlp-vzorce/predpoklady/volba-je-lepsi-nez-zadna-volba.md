@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Mít volbu je lepší než ji nemít", "Having a choice is better than having none", "princip rozšiřování voleb", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Mít volbu je lepší než ji nemít", "Having a choice is better than having none", "princip rozšiřování voleb", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.15"
-nlp_slug = "volba-je-lepsi-nez-zadna-volba"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Having a choice is better than having none"
-nlp_aliases = ["princip rozšiřování voleb"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["zakon-pozadovane-variety", "nejlepsi-dostupna-volba", "iluze-volby", "sugesce-pokryvajici-vsechny-moznosti", "alternativni-zaver"]
-nlp_related_declared = ["iluze-volby", "alternativni-zaver", "nejlepsi-dostupna-volba", "zakon-pozadovane-variety", "sugesce-pokryvajici-vsechny-moznosti"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md", "kompendium/quick-reference/qr-ea-1-2-1.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md"]
-nlp_prev = "nelze-nekomunikovat"
-nlp_next = "zkusenost-ma-strukturu"
-nlp_position = 15
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "erickson-rossi-rossi-1976", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "satir-1972"]
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.15"
+catalog_slug = "volba-je-lepsi-nez-zadna-volba"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Having a choice is better than having none"
+catalog_aliases = ["princip rozšiřování voleb"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["zakon-pozadovane-variety", "nejlepsi-dostupna-volba", "iluze-volby", "sugesce-pokryvajici-vsechny-moznosti", "alternativni-zaver"]
+catalog_related_declared = ["iluze-volby", "alternativni-zaver", "nejlepsi-dostupna-volba", "zakon-pozadovane-variety", "sugesce-pokryvajici-vsechny-moznosti"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md", "kompendium/quick-reference/qr-ea-1-2-1.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md"]
+catalog_prev = "nelze-nekomunikovat"
+catalog_next = "zkusenost-ma-strukturu"
+catalog_position = 15
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "erickson-rossi-rossi-1976", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "satir-1972"]
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Mít volbu je lepší než ji nemít
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Having a choice is better than having none |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ porozumění okolnostem tohoto jednání patří k obnově (Herman 1992). Klinic
 rekonstruovat, jaké možnosti v dané situaci skutečně měl, a obnovit tak realistickou představu o
 vlastní odpovědnosti, ani přehnanou, ani popřenou.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,26 +218,26 @@ vlastní odpovědnosti, ani přehnanou, ani popřenou.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzný vzorec (Předpoklady NLP, The law of requisite variety)
-- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzný vzorec (Předpoklady NLP, People make the best choice available to them)
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
-- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggestion covering all possibilities)
-- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Alternative close)
+- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzné heslo (Předpoklady NLP, The law of requisite variety)
+- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzné heslo (Předpoklady NLP, People make the best choice available to them)
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
+- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzné heslo (Ericksonovská hypnóza, Suggestion covering all possibilities)
+- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Alternative close)
 
 **V kompendiu**
 
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.30 Paradox totální volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Rychlá karta EA-1.2.1: Falešné dilema](@/kompendium/quick-reference/qr-ea-1-2-1.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.30 Paradox totální volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Rychlá karta EA-1.2.1: Falešné dilema](@/kompendium/quick-reference/qr-ea-1-2-1.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – předchozí vzorec rodiny
-- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – předchozí heslo rodiny
+- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

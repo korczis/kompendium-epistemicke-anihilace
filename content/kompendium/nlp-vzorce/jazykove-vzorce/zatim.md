@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Slovo „zatím“", "Yet", "ještě ne", "zatím ne", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Slovo „zatím“", "Yet", "ještě ne", "zatím ne", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.15"
-nlp_slug = "zatim"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Yet"
-nlp_aliases = ["ještě ne", "zatím ne"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["slovesa-zmeny-casu", "limitujici-presvedceni", "ale-a-a", "zkusit", "casove-presuny-v-jazyce"]
-nlp_related_declared = ["slovesa-zmeny-casu", "limitujici-presvedceni", "casove-presuny-v-jazyce", "ale-a-a", "zkusit"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "protoze"
-nlp_next = "zkusit"
-nlp_position = 15
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "beck-1976", "dilts-hallbom-smith-1990", "hassan-1988", "herman-1992", "levinson-1983", "lifton-1961", "passmore-rowson-2019", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = ["levinson-1983"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.15"
+catalog_slug = "zatim"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Yet"
+catalog_aliases = ["ještě ne", "zatím ne"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["slovesa-zmeny-casu", "limitujici-presvedceni", "ale-a-a", "zkusit", "casove-presuny-v-jazyce"]
+catalog_related_declared = ["slovesa-zmeny-casu", "limitujici-presvedceni", "casove-presuny-v-jazyce", "ale-a-a", "zkusit"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "protoze"
+catalog_next = "zkusit"
+catalog_position = 15
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "beck-1976", "dilts-hallbom-smith-1990", "hassan-1988", "herman-1992", "levinson-1983", "lifton-1961", "passmore-rowson-2019", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = ["levinson-1983"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.b.toml"
 +++
 
 # Slovo „zatím“
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Yet |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -198,7 +201,7 @@ příběhem a nad tím, co smí vědět a říkat (Herman 1992). Pro samotného 
 zdravé užití vzorce k dispozici: „zatím“ vyslovené o sobě, se svým kritériem a ve svém tempu,
 je jeho nástroj, ne cizí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,25 +219,25 @@ je jeho nástroj, ne cizí.
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzný vzorec (Jazykové presupozice, Change-of-time verbs and adverbs)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – příbuzný vzorec (Jazykové vzorce, But versus and)
-- [Slovo „zkusit“](@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md) – příbuzný vzorec (Jazykové vzorce, Try)
-- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzný vzorec (Jazykové vzorce, Verb tense shifts)
+- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzné heslo (Jazykové presupozice, Change-of-time verbs and adverbs)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – příbuzné heslo (Jazykové vzorce, But versus and)
+- [Slovo „zkusit“](@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md) – příbuzné heslo (Jazykové vzorce, Try)
+- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzné heslo (Jazykové vzorce, Verb tense shifts)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.6 Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.6 Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – předchozí vzorec rodiny
-- [Slovo „zkusit“](@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – předchozí heslo rodiny
+- [Slovo „zkusit“](@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

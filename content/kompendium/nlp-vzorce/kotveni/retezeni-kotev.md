@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Řetězení kotev", "Chaining anchors", "řetěz stavů", "kotvení v řetězci", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Řetězení kotev", "Chaining anchors", "řetěz stavů", "kotvení v řetězci", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.03"
-nlp_slug = "retezeni-kotev"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Chaining anchors"
-nlp_aliases = ["řetěz stavů", "kotvení v řetězci"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["stav", "kolaps-kotev", "stohovani-kotev", "prenos-zdroje", "retezeni-presvedceni", "pacing-a-leading"]
-nlp_related_declared = ["stohovani-kotev", "kolaps-kotev", "pacing-a-leading", "stav"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
-nlp_prev = "samokotveni"
-nlp_next = "kolaps-kotev"
-nlp_position = 3
-nlp_family_size = 19
-nlp_sources = ["cialdini-2009", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "ekman-2003", "herman-1992", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "pavlov-1927", "petty-cacioppo-1986", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960", "pavlov-1927"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "ekman-2003", "herman-1992", "petty-cacioppo-1986", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.03"
+catalog_slug = "retezeni-kotev"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Chaining anchors"
+catalog_aliases = ["řetěz stavů", "kotvení v řetězci"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["stav", "kolaps-kotev", "stohovani-kotev", "prenos-zdroje", "retezeni-presvedceni", "pacing-a-leading"]
+catalog_related_declared = ["stohovani-kotev", "kolaps-kotev", "pacing-a-leading", "stav"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
+catalog_prev = "samokotveni"
+catalog_next = "kolaps-kotev"
+catalog_position = 3
+catalog_family_size = 19
+catalog_sources = ["cialdini-2009", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "ekman-2003", "herman-1992", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "pavlov-1927", "petty-cacioppo-1986", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "pavlov-1927"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "ekman-2003", "herman-1992", "petty-cacioppo-1986", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.toml"
 +++
 
 # Řetězení kotev
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Chaining anchors |
 | **Jiné názvy** | řetěz stavů, kotvení v řetězci |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ předvídatelnosti, bezpečí a vlastní kontroly nad emocemi, nikoli na vytvá�
 vysvětlit, nechat ho stavy volit a pojmenovávat a nepředkládat techniku jako ověřenou, když
 doklady chybějí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,27 +215,27 @@ doklady chybějí.
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzný vzorec (Kotvení, Collapsing anchors)
-- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzný vzorec (Kotvení, Stacking anchors)
-- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzný vzorec (Kotvení, Resource transfer)
-- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief chaining)
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzný vzorec (Raport a kalibrace, Pacing and leading)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzné heslo (Kotvení, Collapsing anchors)
+- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzné heslo (Kotvení, Stacking anchors)
+- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzné heslo (Kotvení, Resource transfer)
+- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief chaining)
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.9 Afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.9 Afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – předchozí vzorec rodiny
-- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – předchozí heslo rodiny
+- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

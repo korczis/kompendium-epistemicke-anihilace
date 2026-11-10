@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Hledání pozitivního záměru části", "Eliciting a part's positive intention", "pozitivní záměr části", "elicitace záměru", "Práce s částmi", "NLP", "neurolingvistické programování"]
+keywords = ["Hledání pozitivního záměru části", "Eliciting a part's positive intention", "pozitivní záměr části", "elicitace záměru", "Práce s částmi", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-15.07"
-nlp_slug = "elicitace-pozitivniho-zameru"
-nlp_family = "integrace-casti"
-nlp_family_code = "15"
-nlp_family_title = "Práce s částmi"
-nlp_family_en = "Parts work"
-nlp_part = "integrace-casti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Eliciting a part's positive intention"
-nlp_aliases = ["pozitivní záměr části", "elicitace záměru"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "pozitivni-zamer-chovani"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["pozitivni-zamer-chovani"]
-nlp_related = ["pozitivni-zamer-chovani", "som-zamer", "sestikrokovy-reframing", "zmena-kriticke-sebeprezentace", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "manipulativni-reframing-ve-vztazich"]
-nlp_related_declared = ["sestikrokovy-reframing", "jadrova-transformace", "vyjednavani-casti", "som-zamer", "manipulativni-reframing-ve-vztazich"]
-nlp_kompendium = ["kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
-nlp_prev = "simultanni-inkongruence"
-nlp_next = "integrace-polarit"
-nlp_position = 7
-nlp_family_size = 9
-nlp_sources = ["bandler-grinder-1982", "dilts-1999", "haley-1973", "herman-1992", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "dilts-1999", "oconnor-seymour-1990"]
-nlp_sources_roots = ["haley-1973"]
-nlp_sources_critical = ["herman-1992", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/integrace-casti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-15.07"
+catalog_slug = "elicitace-pozitivniho-zameru"
+catalog_family = "integrace-casti"
+catalog_family_code = "15"
+catalog_family_title = "Práce s částmi"
+catalog_family_en = "Parts work"
+catalog_part = "integrace-casti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Eliciting a part's positive intention"
+catalog_aliases = ["pozitivní záměr části", "elicitace záměru"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "pozitivni-zamer-chovani"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["pozitivni-zamer-chovani"]
+catalog_related = ["pozitivni-zamer-chovani", "som-zamer", "sestikrokovy-reframing", "zmena-kriticke-sebeprezentace", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "manipulativni-reframing-ve-vztazich"]
+catalog_related_declared = ["sestikrokovy-reframing", "jadrova-transformace", "vyjednavani-casti", "som-zamer", "manipulativni-reframing-ve-vztazich"]
+catalog_kompendium = ["kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
+catalog_prev = "simultanni-inkongruence"
+catalog_next = "integrace-polarit"
+catalog_position = 7
+catalog_family_size = 9
+catalog_sources = ["bandler-grinder-1982", "dilts-1999", "haley-1973", "herman-1992", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "dilts-1999", "oconnor-seymour-1990"]
+catalog_sources_roots = ["haley-1973"]
+catalog_sources_critical = ["herman-1992", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/integrace-casti.toml"
 +++
 
 # Hledání pozitivního záměru části
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-15.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Eliciting a part's positive intention |
 | **Jiné názvy** | pozitivní záměr části, elicitace záměru |
-| **Obecnější vzorec** | [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) |
+| **Obecnější heslo** | [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Tvrzení, že každé chování má pozitivní záměr, je pracovní předpoklad
 
 Základní obranou je oddělit záměr od dopadu. I kdyby chování druhého skutečně vycházelo z dobrého úmyslu, nic to nemění na tom, že poškozuje, a dobrý úmysl nezakládá nárok na to, aby ho poškozený snášel. Je legitimní odmítnout rozhovor o záměrech, dokud se nemluví o chování a jeho škodě, a trvat na tom, že změna chování je odpovědností toho, kdo škodí. Druhou obranou je nepřijmout úlohu vykladače. Poškozený nemá povinnost hledat dobré úmysly u toho, kdo mu ubližuje, a jeho neochota to dělat není znakem necitlivosti, ale přiměřenou ochranou. Třetí obranou je hledat posouzení zvenčí, protože uvnitř vztahu nebo skupiny bývá výklad dobrých úmyslů posilován opakováním. V zotavení po vztazích, ve kterých bylo ubližování soustavně vydáváno za projev péče, se pracuje s obnovou schopnosti pojmenovat škodu jako škodu, s návratem oprávněného hněvu a s odpoutáním od povinnosti chápat toho, kdo škodil. Herman zdůrazňuje, že zotavení vyžaduje nejprve bezpečí a teprve poté zpracování toho, co se stalo, a že smíření s pachatelem není podmínkou uzdravení (Herman 1992). V klinické práci s vlastním chováním klienta lze hledání funkce chování využít, ale s vědomím jeho hranic a vždy s respektem k tomu, že klient sám rozhoduje, jaký výklad přijme.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,29 +124,29 @@ Základní obranou je oddělit záměr od dopadu. I kdyby chování druhého sku
 
 **Rodina a hierarchie**
 
-- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzný vzorec (Sleight of Mouth, Intention)
-- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Six-step reframing)
-- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzný vzorec (Submodality, Inner critic pattern)
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzný vzorec (Práce s částmi, Parts integration)
-- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – příbuzný vzorec (Práce s částmi, Core transformation)
-- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzný vzorec (Práce s částmi, Parts negotiation)
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzný vzorec (Vliv a zneužití NLP, Manipulative reframing in close relationships)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzné heslo (Sleight of Mouth, Intention)
+- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzné heslo (Reframing a rámce, Six-step reframing)
+- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzné heslo (Submodality, Inner critic pattern)
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
+- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – příbuzné heslo (Práce s částmi, Core transformation)
+- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzné heslo (Práce s částmi, Parts negotiation)
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**
 
-- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – předchozí vzorec rodiny
-- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – předchozí heslo rodiny
+- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

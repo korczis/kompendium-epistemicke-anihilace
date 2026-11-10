@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Elicitace submodalit", "Eliciting submodalities", "zjišťování submodalit", "dotazování na kvality představ", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Elicitace submodalit", "Eliciting submodalities", "zjišťování submodalit", "dotazování na kvality představ", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.01"
-nlp_slug = "elicitace-submodalit"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Eliciting submodalities"
-nlp_aliases = ["zjišťování submodalit", "dotazování na kvality představ"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "submodality-pojem"
-nlp_narrower = ["kontrastni-analyza"]
-nlp_depth = 1
-nlp_ancestors = ["submodality-pojem"]
-nlp_related = ["submodality-pojem", "kalibrace", "vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kontrastni-analyza", "elicitace-casove-osy", "elicitace-strategie"]
-nlp_related_declared = ["vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kontrastni-analyza", "kalibrace", "elicitace-strategie"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = ""
-nlp_next = "vizualni-submodality"
-nlp_position = 1
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1980", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "oconnor-seymour-1990", "rogers-1951", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "rogers-1951", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.01"
+catalog_slug = "elicitace-submodalit"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Eliciting submodalities"
+catalog_aliases = ["zjišťování submodalit", "dotazování na kvality představ"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "submodality-pojem"
+catalog_narrower = ["kontrastni-analyza"]
+catalog_depth = 1
+catalog_ancestors = ["submodality-pojem"]
+catalog_related = ["submodality-pojem", "kalibrace", "vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kontrastni-analyza", "elicitace-casove-osy", "elicitace-strategie"]
+catalog_related_declared = ["vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kontrastni-analyza", "kalibrace", "elicitace-strategie"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = ""
+catalog_next = "vizualni-submodality"
+catalog_position = 1
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1980", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "oconnor-seymour-1990", "rogers-1951", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "rogers-1951", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.toml"
 +++
 
 # Elicitace submodalit
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Eliciting submodalities |
 | **Jiné názvy** | zjišťování submodalit, dotazování na kvality představ |
-| **Obecnější vzorec** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
+| **Obecnější heslo** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -203,7 +206,7 @@ dohodnutého kontraktu a s respektem k tempu klienta. Odborník, který elicitac
 klientovi otevřeně říci, že jde o způsob porozumění, ne o měření mechanismu, a že techniky, které
 na ni navazují, nemají prokázanou účinnost.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -225,29 +228,29 @@ na ni navazují, nemají prokázanou účinnost.
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – zvláštní případ tohoto vzorce
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzný vzorec (Submodality, Visual submodalities)
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzný vzorec (Submodality, Auditory submodalities)
-- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzný vzorec (Submodality, Kinaesthetic submodalities)
-- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzný vzorec (Submodality, Contrastive analysis)
-- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzný vzorec (Časová osa, Eliciting the timeline)
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy elicitation)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzné heslo (Submodality, Visual submodalities)
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzné heslo (Submodality, Auditory submodalities)
+- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzné heslo (Submodality, Kinaesthetic submodalities)
+- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzné heslo (Submodality, Contrastive analysis)
+- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzné heslo (Časová osa, Eliciting the timeline)
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy elicitation)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

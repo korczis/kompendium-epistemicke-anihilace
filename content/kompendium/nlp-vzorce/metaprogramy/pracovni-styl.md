@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Pracovní styl", "Working style", "styl spolupráce", "samostatnost, blízkost a spolupráce", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Pracovní styl", "Working style", "styl spolupráce", "samostatnost, blízkost a spolupráce", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.12"
-nlp_slug = "pracovni-styl"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Working style"
-nlp_aliases = ["styl spolupráce", "samostatnost, blízkost a spolupráce"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["proaktivni-a-reaktivni", "ja-a-druzi", "reakce-na-stres", "lide-a-veci", "adaptace", "metaprogramy-v-naboru"]
-nlp_related_declared = ["lide-a-veci", "ja-a-druzi", "metaprogramy-v-naboru", "proaktivni-a-reaktivni", "reakce-na-stres"]
-nlp_kompendium = ["kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md", "kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md", "kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md"]
-nlp_prev = "reakce-na-stres"
-nlp_next = "lide-a-veci"
-nlp_position = 12
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "druckman-swets-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997"]
-nlp_sources_roots = []
-nlp_sources_critical = ["druckman-swets-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.12"
+catalog_slug = "pracovni-styl"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Working style"
+catalog_aliases = ["styl spolupráce", "samostatnost, blízkost a spolupráce"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["proaktivni-a-reaktivni", "ja-a-druzi", "reakce-na-stres", "lide-a-veci", "adaptace", "metaprogramy-v-naboru"]
+catalog_related_declared = ["lide-a-veci", "ja-a-druzi", "metaprogramy-v-naboru", "proaktivni-a-reaktivni", "reakce-na-stres"]
+catalog_kompendium = ["kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md", "kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md", "kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md"]
+catalog_prev = "reakce-na-stres"
+catalog_next = "lide-a-veci"
+catalog_position = 12
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "druckman-swets-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997"]
+catalog_sources_roots = []
+catalog_sources_critical = ["druckman-swets-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.toml"
 +++
 
 # Pracovní styl
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Working style |
 | **Jiné názvy** | styl spolupráce, samostatnost, blízkost a spolupráce |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -185,7 +188,7 @@ vztahu. Herman zdůrazňuje, že obnova spojení s druhými je jednou z ústřed
 traumatu ze vztahu (Herman 1992). Příbuzné téma využití metaprogramů v náboru rozvádí stránka
 o [metaprogramech v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -202,28 +205,28 @@ o [metaprogramech v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/me
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzný vzorec (Metaprogramy, Proactive and reactive)
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzný vzorec (Metaprogramy, Self and other)
-- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzný vzorec (Metaprogramy, Stress response)
-- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – příbuzný vzorec (Metaprogramy, Person and thing)
-- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – příbuzný vzorec (Metaprogramy, Adaptation (judging and perceiving))
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzný vzorec (Metaprogramy, Meta-programs in recruitment and management)
+- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzné heslo (Metaprogramy, Proactive and reactive)
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzné heslo (Metaprogramy, Self and other)
+- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzné heslo (Metaprogramy, Stress response)
+- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – příbuzné heslo (Metaprogramy, Person and thing)
+- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – příbuzné heslo (Metaprogramy, Adaptation (judging and perceiving))
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzné heslo (Metaprogramy, Meta-programs in recruitment and management)
 
 **V kompendiu**
 
-- [EA-9.6.6 AI Hiring Narrative](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.2 Izolace svěřence (mentee isolation)](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-9.6.6 AI Hiring Narrative](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.2 Izolace svěřence (mentee isolation)](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – předchozí vzorec rodiny
-- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – předchozí heslo rodiny
+- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

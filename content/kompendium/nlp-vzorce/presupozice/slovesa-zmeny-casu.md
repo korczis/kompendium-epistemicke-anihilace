@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Slovesa změny času a stavu", "Change-of-time verbs and adverbs", "slovesa změny stavu", "přestat, začít, ještě, už", "Jazykové presupozice", "NLP", "neurolingvistické programování"]
+keywords = ["Slovesa změny času a stavu", "Change-of-time verbs and adverbs", "slovesa změny stavu", "přestat, začít, ještě, už", "Jazykové presupozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-06.08"
-nlp_slug = "slovesa-zmeny-casu"
-nlp_family = "presupozice"
-nlp_family_code = "06"
-nlp_family_title = "Jazykové presupozice"
-nlp_family_en = "Linguistic presuppositions"
-nlp_part = "presupozice"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Change-of-time verbs and adverbs"
-nlp_aliases = ["slovesa změny stavu", "přestat, začít, ještě, už"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "jazykove-presupozice"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["jazykove-presupozice"]
-nlp_related = ["presupozice-casovych-vet", "opakovaci-slova", "otazky-s-presupozici", "implikativni-slovesa", "presupozice-ve-vyslechu", "casove-kodovani", "zatim", "casove-presuny-v-jazyce"]
-nlp_related_declared = ["presupozice-casovych-vet", "opakovaci-slova", "otazky-s-presupozici", "casove-presuny-v-jazyce", "presupozice-ve-vyslechu"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/presupozice/opakovaci-slova.md", "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "komentarova-adverbia"
-nlp_next = "opakovaci-slova"
-nlp_position = 8
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-rossi-1976", "grice-1975", "heap-1988", "herman-1992", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "sturt-2012"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
-nlp_sources_critical = ["heap-1988", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "sturt-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presupozice.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-06.08"
+catalog_slug = "slovesa-zmeny-casu"
+catalog_family = "presupozice"
+catalog_family_code = "06"
+catalog_family_title = "Jazykové presupozice"
+catalog_family_en = "Linguistic presuppositions"
+catalog_part = "presupozice"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Change-of-time verbs and adverbs"
+catalog_aliases = ["slovesa změny stavu", "přestat, začít, ještě, už"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "jazykove-presupozice"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["jazykove-presupozice"]
+catalog_related = ["presupozice-casovych-vet", "opakovaci-slova", "otazky-s-presupozici", "implikativni-slovesa", "presupozice-ve-vyslechu", "casove-kodovani", "zatim", "casove-presuny-v-jazyce"]
+catalog_related_declared = ["presupozice-casovych-vet", "opakovaci-slova", "otazky-s-presupozici", "casove-presuny-v-jazyce", "presupozice-ve-vyslechu"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/presupozice/opakovaci-slova.md", "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "komentarova-adverbia"
+catalog_next = "opakovaci-slova"
+catalog_position = 8
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-rossi-1976", "grice-1975", "heap-1988", "herman-1992", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "sturt-2012"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
+catalog_sources_critical = ["heap-1988", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "sturt-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presupozice.toml"
 +++
 
 # Slovesa změny času a stavu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-06.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Change-of-time verbs and adverbs |
 | **Jiné názvy** | slovesa změny stavu, přestat, začít, ještě, už |
-| **Obecnější vzorec** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
+| **Obecnější heslo** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ korespondence nebo svědectví blízkých, a oddělit to, co se skutečně dělo
 rozhovorech jen předpokládáno. Herman zdůrazňuje, že obnova souvislého vyprávění vlastní
 minulosti je jádrem zotavení po dlouhodobém nátlaku (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,29 +216,29 @@ minulosti je jádrem zotavení po dlouhodobém nátlaku (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – příbuzný vzorec (Jazykové presupozice, Subordinate clauses of time)
-- [Opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md) – příbuzný vzorec (Jazykové presupozice, Repetitive cue words)
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
-- [Implikativní slovesa](@/kompendium/nlp-vzorce/presupozice/implikativni-slovesa.md) – příbuzný vzorec (Jazykové presupozice, Implicative verbs)
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in questioning and testimony)
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzný vzorec (Časová osa, Temporal coding of experience)
-- [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – příbuzný vzorec (Jazykové vzorce, Yet)
-- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzný vzorec (Jazykové vzorce, Verb tense shifts)
+- [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – příbuzné heslo (Jazykové presupozice, Subordinate clauses of time)
+- [Opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md) – příbuzné heslo (Jazykové presupozice, Repetitive cue words)
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
+- [Implikativní slovesa](@/kompendium/nlp-vzorce/presupozice/implikativni-slovesa.md) – příbuzné heslo (Jazykové presupozice, Implicative verbs)
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in questioning and testimony)
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzné heslo (Časová osa, Temporal coding of experience)
+- [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – příbuzné heslo (Jazykové vzorce, Yet)
+- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzné heslo (Jazykové vzorce, Verb tense shifts)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – předchozí vzorec rodiny
-- [Opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – předchozí heslo rodiny
+- [Opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

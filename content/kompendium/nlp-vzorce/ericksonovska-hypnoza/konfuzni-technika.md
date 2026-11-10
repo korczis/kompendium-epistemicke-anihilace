@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Konfuzní technika", "Confusion technique", "technika zmatení", "konfuze", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Konfuzní technika", "Confusion technique", "technika zmatení", "konfuze", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.03"
-nlp_slug = "konfuzni-technika"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Confusion technique"
-nlp_aliases = ["technika zmatení", "konfuze"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["poruseni-selekcnich-omezeni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "interpunkcni-dvojznacnost", "umyslna-vagnost", "preruseni-vzorce", "indukce-podanim-ruky", "technika-prolozeni", "dvojita-disociativni-vazba", "apozice-protikladu", "indukce-pretizenim", "amnezie-sugesci", "kartezske-otazky"]
-nlp_related_declared = ["preruseni-vzorce", "indukce-pretizenim", "umyslna-vagnost", "indukce-podanim-ruky", "technika-prolozeni"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "utilizace"
-nlp_next = "preruseni-vzorce"
-nlp_position = 3
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "beck-1976", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "haley-1973", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "miller-1956", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "miller-1956"]
-nlp_sources_critical = ["beck-1976", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.03"
+catalog_slug = "konfuzni-technika"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Confusion technique"
+catalog_aliases = ["technika zmatení", "konfuze"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["poruseni-selekcnich-omezeni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "interpunkcni-dvojznacnost", "umyslna-vagnost", "preruseni-vzorce", "indukce-podanim-ruky", "technika-prolozeni", "dvojita-disociativni-vazba", "apozice-protikladu", "indukce-pretizenim", "amnezie-sugesci", "kartezske-otazky"]
+catalog_related_declared = ["preruseni-vzorce", "indukce-pretizenim", "umyslna-vagnost", "indukce-podanim-ruky", "technika-prolozeni"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "utilizace"
+catalog_next = "preruseni-vzorce"
+catalog_position = 3
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "beck-1976", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "haley-1973", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "miller-1956", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "miller-1956"]
+catalog_sources_critical = ["beck-1976", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
 +++
 
 # Konfuzní technika
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Confusion technique |
 | **Jiné názvy** | technika zmatení, konfuze |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -202,7 +205,7 @@ například v kontrolujícím vztahu nebo ve skupině, zotavení zahrnuje obnovu
 vlastní porozumění: zapisování toho, co člověk sám pochopil, ověřování u nezávislých lidí
 a postupné vracení se k rozhodování vlastním tempem.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -224,35 +227,35 @@ a postupné vracení se k rozhodování vlastním tempem.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) – příbuzný vzorec (Milton-model, Selectional restriction violation (Milton Model))
-- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzný vzorec (Milton-model, Phonological ambiguity)
-- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – příbuzný vzorec (Milton-model, Syntactic ambiguity)
-- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – příbuzný vzorec (Milton-model, Punctuation ambiguity)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzný vzorec (Ericksonovská hypnóza, Pattern interrupt)
-- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzný vzorec (Ericksonovská hypnóza, Handshake induction)
-- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzný vzorec (Ericksonovská hypnóza, Interspersal technique)
-- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Double dissociation double bind)
-- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzný vzorec (Ericksonovská hypnóza, Apposition of opposites)
-- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzný vzorec (Ericksonovská hypnóza, Overload induction)
-- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggested amnesia)
-- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzný vzorec (Přesvědčení, Cartesian questions)
+- [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) – příbuzné heslo (Milton-model, Selectional restriction violation (Milton Model))
+- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzné heslo (Milton-model, Phonological ambiguity)
+- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – příbuzné heslo (Milton-model, Syntactic ambiguity)
+- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – příbuzné heslo (Milton-model, Punctuation ambiguity)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzné heslo (Ericksonovská hypnóza, Pattern interrupt)
+- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzné heslo (Ericksonovská hypnóza, Handshake induction)
+- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzné heslo (Ericksonovská hypnóza, Interspersal technique)
+- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Double dissociation double bind)
+- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzné heslo (Ericksonovská hypnóza, Apposition of opposites)
+- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzné heslo (Ericksonovská hypnóza, Overload induction)
+- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzné heslo (Ericksonovská hypnóza, Suggested amnesia)
+- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzné heslo (Přesvědčení, Cartesian questions)
 
 **V kompendiu**
 
-- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – předchozí vzorec rodiny
-- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – předchozí heslo rodiny
+- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

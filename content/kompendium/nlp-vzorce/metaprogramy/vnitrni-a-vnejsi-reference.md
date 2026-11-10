@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Vnitřní a vnější referenční rámec", "Internal and external reference", "zdroj hodnocení", "vnitřní a vnější reference", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Vnitřní a vnější referenční rámec", "Internal and external reference", "zdroj hodnocení", "vnitřní a vnější reference", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.02"
-nlp_slug = "vnitrni-a-vnejsi-reference"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Internal and external reference"
-nlp_aliases = ["zdroj hodnocení", "vnitřní a vnější reference"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["metaprogramy-pojem", "kriteria", "kanal-presvedceni", "ja-a-druzi", "struktura-pravidel", "metaprogramy-v-naboru", "nlp-v-sektach", "guru-efekt"]
-nlp_related_declared = ["guru-efekt", "kriteria", "kanal-presvedceni", "ja-a-druzi", "nlp-v-sektach"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
-nlp_links_prose = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
-nlp_prev = "k-cili-a-od-problemu"
-nlp_next = "moznosti-a-postupy"
-nlp_position = 2
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hall-bodenhamer-1997", "hassan-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.02"
+catalog_slug = "vnitrni-a-vnejsi-reference"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Internal and external reference"
+catalog_aliases = ["zdroj hodnocení", "vnitřní a vnější reference"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["metaprogramy-pojem", "kriteria", "kanal-presvedceni", "ja-a-druzi", "struktura-pravidel", "metaprogramy-v-naboru", "nlp-v-sektach", "guru-efekt"]
+catalog_related_declared = ["guru-efekt", "kriteria", "kanal-presvedceni", "ja-a-druzi", "nlp-v-sektach"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
+catalog_prev = "k-cili-a-od-problemu"
+catalog_next = "moznosti-a-postupy"
+catalog_position = 2
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hall-bodenhamer-1997", "hassan-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.toml"
 +++
 
 # Vnitřní a vnější referenční rámec
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Internal and external reference |
 | **Jiné názvy** | zdroj hodnocení, vnitřní a vnější reference |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ v tom, aby znovu zkoušel vlastní úsudek a ověřoval ho v běžném životě.
 popisují obdobné potíže s rozhodováním u lidí odcházejících z kultovních skupin (Singer a
 Lalich 1995).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,31 +214,31 @@ Lalich 1995).
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Meta-programs (concept))
-- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzný vzorec (Metaprogramy, Criteria)
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer channel)
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzný vzorec (Metaprogramy, Self and other)
-- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzný vzorec (Metaprogramy, Rule structure)
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzný vzorec (Metaprogramy, Meta-programs in recruitment and management)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzné heslo (Základní pojmy NLP, Meta-programs (concept))
+- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer channel)
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzné heslo (Metaprogramy, Self and other)
+- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzné heslo (Metaprogramy, Rule structure)
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzné heslo (Metaprogramy, Meta-programs in recruitment and management)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 
 **V kompendiu**
 
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – předchozí vzorec rodiny
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – předchozí heslo rodiny
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

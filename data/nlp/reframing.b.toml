@@ -1,5 +1,5 @@
 # Rodina NLP-08: Reframing a rámce, část b (NLP-08.10 až NLP-08.17).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí záznamů je pořadí
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
 # identifikátorů; identifikátor se po zveřejnění nemění.
 
 [[pattern]]

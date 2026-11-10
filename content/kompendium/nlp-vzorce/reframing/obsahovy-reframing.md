@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Významový reframing", "Content (meaning) reframing", "obsahový reframing", "reframing významu", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Významový reframing", "Content (meaning) reframing", "obsahový reframing", "reframing významu", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.03"
-nlp_slug = "obsahovy-reframing"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Content (meaning) reframing"
-nlp_aliases = ["obsahový reframing", "reframing významu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "reframing"
-nlp_narrower = ["selhani-jako-zpetna-vazba-vzorec"]
-nlp_depth = 1
-nlp_ancestors = ["reframing"]
-nlp_related = ["komplexni-ekvivalence", "sleight-of-mouth", "som-zamer", "som-redefinice", "som-analogie", "kontextovy-reframing", "kontrastni-ramec", "dodatecne-ramcovani", "selhani-jako-zpetna-vazba-vzorec", "presvedceni-o-vyznamu", "ale-a-a", "manipulativni-reframing-ve-vztazich"]
-nlp_related_declared = ["kontextovy-reframing", "som-redefinice", "som-zamer", "manipulativni-reframing-ve-vztazich", "selhani-jako-zpetna-vazba-vzorec"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = "kontextovy-reframing"
-nlp_next = "sestikrokovy-reframing"
-nlp_position = 3
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1999", "druckman-swets-1988", "ellis-1962", "festinger-1957", "haley-1973", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1974", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1999"]
-nlp_sources_roots = ["haley-1973", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.03"
+catalog_slug = "obsahovy-reframing"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Content (meaning) reframing"
+catalog_aliases = ["obsahový reframing", "reframing významu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "reframing"
+catalog_narrower = ["selhani-jako-zpetna-vazba-vzorec"]
+catalog_depth = 1
+catalog_ancestors = ["reframing"]
+catalog_related = ["komplexni-ekvivalence", "sleight-of-mouth", "som-zamer", "som-redefinice", "som-analogie", "kontextovy-reframing", "kontrastni-ramec", "dodatecne-ramcovani", "selhani-jako-zpetna-vazba-vzorec", "presvedceni-o-vyznamu", "ale-a-a", "manipulativni-reframing-ve-vztazich"]
+catalog_related_declared = ["kontextovy-reframing", "som-redefinice", "som-zamer", "manipulativni-reframing-ve-vztazich", "selhani-jako-zpetna-vazba-vzorec"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = "kontextovy-reframing"
+catalog_next = "sestikrokovy-reframing"
+catalog_position = 3
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1999", "druckman-swets-1988", "ellis-1962", "festinger-1957", "haley-1973", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1974", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1999"]
+catalog_sources_roots = ["haley-1973", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.toml"
 +++
 
 # Významový reframing
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Content (meaning) reframing |
 | **Jiné názvy** | obsahový reframing, reframing významu |
-| **Obecnější vzorec** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
+| **Obecnější heslo** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ vlastní příběh vlastními slovy patří k prvním stadiím zotavení po trau
 (Herman 1992). Klinik, který s takovým klientem pracuje, se proto vyhýbá nabízení dalších
 „pozitivních“ výkladů ublížení a nejprve pomáhá klientovi ustálit popis toho, co se stalo.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -223,35 +226,35 @@ vlastní příběh vlastními slovy patří k prvním stadiím zotavení po trau
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – zvláštní případ tohoto vzorce
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzný vzorec (Meta-model, Complex equivalence)
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzný vzorec (Sleight of Mouth, Sleight of Mouth)
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzný vzorec (Sleight of Mouth, Intention)
-- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzný vzorec (Sleight of Mouth, Redefine)
-- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – příbuzný vzorec (Sleight of Mouth, Analogy)
-- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Context reframing)
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzný vzorec (Reframing a rámce, Contrast frame)
-- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – příbuzný vzorec (Reframing a rámce, Post-framing)
-- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzný vzorec (Reframing a rámce, Failure into feedback)
-- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzný vzorec (Přesvědčení, Beliefs about meaning)
-- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – příbuzný vzorec (Jazykové vzorce, But versus and)
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzný vzorec (Vliv a zneužití NLP, Manipulative reframing in close relationships)
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (Meta-model, Complex equivalence)
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzné heslo (Sleight of Mouth, Sleight of Mouth)
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzné heslo (Sleight of Mouth, Intention)
+- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzné heslo (Sleight of Mouth, Redefine)
+- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – příbuzné heslo (Sleight of Mouth, Analogy)
+- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzné heslo (Reframing a rámce, Context reframing)
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzné heslo (Reframing a rámce, Contrast frame)
+- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – příbuzné heslo (Reframing a rámce, Post-framing)
+- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzné heslo (Reframing a rámce, Failure into feedback)
+- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzné heslo (Přesvědčení, Beliefs about meaning)
+- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – příbuzné heslo (Jazykové vzorce, But versus and)
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – předchozí vzorec rodiny
-- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – předchozí heslo rodiny
+- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

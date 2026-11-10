@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Muzeum starých přesvědčení", "Museum of old beliefs", "muzeum minulých přesvědčení", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Muzeum starých přesvědčení", "Museum of old beliefs", "muzeum minulých přesvědčení", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.02"
-nlp_slug = "muzeum-starych-presvedceni"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Museum of old beliefs"
-nlp_aliases = ["muzeum minulých přesvědčení"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "cyklus-zmeny-presvedceni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["cyklus-zmeny-presvedceni"]
-nlp_related = ["zmena-presvedceni-submodalitami", "zmena-osobni-historie", "stepeni-ja-v-manipulaci", "cyklus-zmeny-presvedceni", "limitujici-presvedceni", "presvedceni-o-identite", "guru-efekt"]
-nlp_related_declared = ["limitujici-presvedceni", "presvedceni-o-identite", "zmena-osobni-historie", "stepeni-ja-v-manipulaci", "guru-efekt"]
-nlp_kompendium = ["kompendium/case-studies/10-sektarske-vychazeni.md", "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md", "kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md", "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_prev = "cyklus-zmeny-presvedceni"
-nlp_next = "audit-presvedceni"
-nlp_position = 2
-nlp_family_size = 14
-nlp_sources = ["bandler-1985", "beck-1976", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.02"
+catalog_slug = "muzeum-starych-presvedceni"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Museum of old beliefs"
+catalog_aliases = ["muzeum minulých přesvědčení"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "cyklus-zmeny-presvedceni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["cyklus-zmeny-presvedceni"]
+catalog_related = ["zmena-presvedceni-submodalitami", "zmena-osobni-historie", "stepeni-ja-v-manipulaci", "cyklus-zmeny-presvedceni", "limitujici-presvedceni", "presvedceni-o-identite", "guru-efekt"]
+catalog_related_declared = ["limitujici-presvedceni", "presvedceni-o-identite", "zmena-osobni-historie", "stepeni-ja-v-manipulaci", "guru-efekt"]
+catalog_kompendium = ["kompendium/case-studies/10-sektarske-vychazeni.md", "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md", "kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md", "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_prev = "cyklus-zmeny-presvedceni"
+catalog_next = "audit-presvedceni"
+catalog_position = 2
+catalog_family_size = 14
+catalog_sources = ["bandler-1985", "beck-1976", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.toml"
 +++
 
 # Muzeum starých přesvědčení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Museum of old beliefs |
 | **Jiné názvy** | muzeum minulých přesvědčení |
-| **Obecnější vzorec** | [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) |
+| **Obecnější heslo** | [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ zkušenosti popisuje heslo o
 Teprve když je kontinuita obnovena, může člověk sám rozhodnout, která přesvědčení skupiny
 chce mít jen jako vzpomínku na období, kterým prošel.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,29 +225,29 @@ chce mít jen jako vzpomínku na období, kterým prošel.
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzný vzorec (Submodality, Belief change through submodalities)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) – příbuzný vzorec (Práce s částmi, Splitting of the self in manipulative groups)
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief change cycle)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
+- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzné heslo (Submodality, Belief change through submodalities)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) – příbuzné heslo (Práce s částmi, Splitting of the self in manipulative groups)
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief change cycle)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 
 **V kompendiu**
 
-- [Případ 10: Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.7 Self-narrative replacement](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Případ 10: Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.7 Self-narrative replacement](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – předchozí vzorec rodiny
-- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – předchozí heslo rodiny
+- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

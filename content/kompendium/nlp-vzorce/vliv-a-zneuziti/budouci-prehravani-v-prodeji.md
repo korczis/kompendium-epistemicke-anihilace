@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Budoucí přehrávání v prodeji", "Future pacing in sales", "future pacing v prodeji", "představa vlastnictví", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Budoucí přehrávání v prodeji", "Future pacing in sales", "future pacing v prodeji", "představa vlastnictví", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.05"
-nlp_slug = "budouci-prehravani-v-prodeji"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Future pacing in sales"
-nlp_aliases = ["future pacing v prodeji", "představa vlastnictví"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "nlp-v-prodeji"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["nlp-v-prodeji"]
-nlp_related = ["poradove-cislovky", "ramec-jako-by", "kotvy-v-reklame", "vlozeni-budouciho-cile", "budouci-prehravani", "casova-orientace", "otazky-vysledku", "predstavte-si", "nlp-v-prodeji", "predpokladovy-zaver", "velke-seminare", "hypnoticky-jazyk-online"]
-nlp_related_declared = ["budouci-prehravani", "vlozeni-budouciho-cile", "kotvy-v-reklame", "predpokladovy-zaver"]
-nlp_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
-nlp_prev = "alternativni-zaver"
-nlp_next = "nlp-v-komunite-svadeni"
-nlp_position = 5
-nlp_family_size = 20
-nlp_sources = ["beck-1976", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "petty-cacioppo-1986", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.05"
+catalog_slug = "budouci-prehravani-v-prodeji"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Future pacing in sales"
+catalog_aliases = ["future pacing v prodeji", "představa vlastnictví"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "nlp-v-prodeji"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["nlp-v-prodeji"]
+catalog_related = ["poradove-cislovky", "ramec-jako-by", "kotvy-v-reklame", "vlozeni-budouciho-cile", "budouci-prehravani", "casova-orientace", "otazky-vysledku", "predstavte-si", "nlp-v-prodeji", "predpokladovy-zaver", "velke-seminare", "hypnoticky-jazyk-online"]
+catalog_related_declared = ["budouci-prehravani", "vlozeni-budouciho-cile", "kotvy-v-reklame", "predpokladovy-zaver"]
+catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
+catalog_prev = "alternativni-zaver"
+catalog_next = "nlp-v-komunite-svadeni"
+catalog_position = 5
+catalog_family_size = 20
+catalog_sources = ["beck-1976", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "petty-cacioppo-1986", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # Budoucí přehrávání v prodeji
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Future pacing in sales |
 | **Jiné názvy** | future pacing v prodeji, představa vlastnictví |
-| **Obecnější vzorec** | [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) |
+| **Obecnější heslo** | [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ informace, které měl k dispozici, nikoli tam, kde mu byly zadrženy. U smluv u
 obchodní prostory nebo na dálku lze využít zákonnou lhůtu k odstoupení a u závazků
 uzavřených pod nátlakem se obrátit na spotřebitelskou poradnu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,33 +217,33 @@ uzavřených pod nátlakem se obrátit na spotřebitelskou poradnu.
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – příbuzný vzorec (Jazykové presupozice, Ordinal numerals)
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzný vzorec (Kotvení, Anchors in advertising)
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzný vzorec (Časová osa, Placing a goal in the future)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzný vzorec (Metaprogramy, Time orientation)
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Outcome questions)
-- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzný vzorec (Jazykové vzorce, Imagine)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Assumptive close)
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzný vzorec (Vliv a zneužití NLP, Large-group seminars)
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzný vzorec (Vliv a zneužití NLP, Hypnotic language in online content)
+- [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – příbuzné heslo (Jazykové presupozice, Ordinal numerals)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzné heslo (Kotvení, Anchors in advertising)
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzné heslo (Časová osa, Placing a goal in the future)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzné heslo (Metaprogramy, Time orientation)
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzné heslo (Cíle a výsledky, Outcome questions)
+- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzné heslo (Jazykové vzorce, Imagine)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Assumptive close)
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzné heslo (Vliv a zneužití NLP, Large-group seminars)
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzné heslo (Vliv a zneužití NLP, Hypnotic language in online content)
 
 **V kompendiu**
 
-- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – předchozí vzorec rodiny
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – předchozí heslo rodiny
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

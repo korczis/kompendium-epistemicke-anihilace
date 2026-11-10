@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["NLP v reklamě", "NLP in advertising", "NLP v marketingu", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["NLP v reklamě", "NLP in advertising", "NLP v marketingu", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.10"
-nlp_slug = "nlp-v-reklame"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "NLP in advertising"
-nlp_aliases = ["NLP v marketingu"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["submodality-v-reklame"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["srovnavaci-delece", "presupozice-v-reklame", "kotvy-v-reklame", "submodality-v-reklame", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online", "neuro-zargon"]
-nlp_related_declared = ["presupozice-v-reklame", "kotvy-v-reklame", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online", "neuro-zargon"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md"]
-nlp_prev = "nlp-v-politicke-reci"
-nlp_next = "nlp-v-koucinku"
-nlp_position = 10
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "charvet-1997", "cialdini-2009", "grice-1975", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "oconnor-seymour-1990", "pavlov-1927", "petty-cacioppo-1986", "sharpley-1984", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975b", "charvet-1997", "oconnor-seymour-1990"]
-nlp_sources_roots = ["grice-1975", "pavlov-1927"]
-nlp_sources_critical = ["cialdini-2009", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1984", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.10"
+catalog_slug = "nlp-v-reklame"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "NLP in advertising"
+catalog_aliases = ["NLP v marketingu"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["submodality-v-reklame"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["srovnavaci-delece", "presupozice-v-reklame", "kotvy-v-reklame", "submodality-v-reklame", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online", "neuro-zargon"]
+catalog_related_declared = ["presupozice-v-reklame", "kotvy-v-reklame", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online", "neuro-zargon"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md"]
+catalog_prev = "nlp-v-politicke-reci"
+catalog_next = "nlp-v-koucinku"
+catalog_position = 10
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "charvet-1997", "cialdini-2009", "grice-1975", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "oconnor-seymour-1990", "pavlov-1927", "petty-cacioppo-1986", "sharpley-1984", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975b", "charvet-1997", "oconnor-seymour-1990"]
+catalog_sources_roots = ["grice-1975", "pavlov-1927"]
+catalog_sources_critical = ["cialdini-2009", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1984", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # NLP v reklamě
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | NLP in advertising |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ zde má spíše podobu korekce než léčby: jde o to, nevnímat nákup, kteréh
 jako selhání úsudku, ale jako výsledek prostředí navrženého tak, aby úsudek obcházelo, a
 upravit si vlastní pravidla nakupování, například odkladem rozhodnutí o větších výdajích.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -223,28 +226,28 @@ upravit si vlastní pravidla nakupování, například odkladem rozhodnutí o v�
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – zvláštní případ tohoto vzorce
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – příbuzný vzorec (Meta-model, Comparative deletion)
-- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in advertising)
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzný vzorec (Kotvení, Anchors in advertising)
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzný vzorec (Submodality, Submodalities in advertising and media)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzný vzorec (Vliv a zneužití NLP, Hypnotic language in online content)
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)
+- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – příbuzné heslo (Meta-model, Comparative deletion)
+- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in advertising)
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzné heslo (Kotvení, Anchors in advertising)
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzné heslo (Vliv a zneužití NLP, Hypnotic language in online content)
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (Vliv a zneužití NLP, Neuro-jargon)
 
 **V kompendiu**
 
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – předchozí vzorec rodiny
-- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – předchozí heslo rodiny
+- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

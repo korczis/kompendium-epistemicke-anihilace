@@ -1,5 +1,5 @@
-# Rodina NLP-13: Logické úrovně a percepční pozice (pravidlo project.nlp-catalog; schéma v
-# scripts/nlp-catalog.py). Tento soubor nese záznamy NLP-13.01 až NLP-13.08; další záznamy
+# Rodina NLP-13: Logické úrovně a percepční pozice (pravidlo project.content-catalogs; schéma v
+# scripts/catalogs.py). Tento soubor nese záznamy NLP-13.01 až NLP-13.08; další záznamy
 # rodiny jsou v částech data/nlp/urovne-a-pozice.<část>.toml.
 # Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
 

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Myšlenkový virus", "Thought virus", "virus myšlení", "thought virus", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Myšlenkový virus", "Thought virus", "virus myšlení", "thought virus", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.11"
-nlp_slug = "myslenkovy-virus"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Thought virus"
-nlp_aliases = ["virus myšlení", "thought virus"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "limitujici-presvedceni"
-nlp_narrower = []
-nlp_depth = 3
-nlp_ancestors = ["limitujici-presvedceni", "presvedceni-jako-mapa", "mapa-neni-uzemi"]
-nlp_related = ["sleight-of-mouth", "struktura-presvedceni-som", "beznadej-bezmoc-nehodnost", "presvedceni-a-zdravi", "imprint"]
-nlp_related_declared = ["struktura-presvedceni-som", "sleight-of-mouth", "imprint", "presvedceni-a-zdravi", "beznadej-bezmoc-nehodnost"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md"]
-nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_prev = "kartezske-otazky"
-nlp_next = "presvedceni-a-zdravi"
-nlp_position = 11
-nlp_family_size = 14
-nlp_sources = ["beck-1976", "dilts-1999", "dilts-hallbom-smith-1990", "gilovich-1991", "hassan-1988", "lifton-1961", "mcguire-1964", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["dilts-1999", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "gilovich-1991", "hassan-1988", "lifton-1961", "mcguire-1964", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.11"
+catalog_slug = "myslenkovy-virus"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Thought virus"
+catalog_aliases = ["virus myšlení", "thought virus"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "limitujici-presvedceni"
+catalog_narrower = []
+catalog_depth = 3
+catalog_ancestors = ["limitujici-presvedceni", "presvedceni-jako-mapa", "mapa-neni-uzemi"]
+catalog_related = ["sleight-of-mouth", "struktura-presvedceni-som", "beznadej-bezmoc-nehodnost", "presvedceni-a-zdravi", "imprint"]
+catalog_related_declared = ["struktura-presvedceni-som", "sleight-of-mouth", "imprint", "presvedceni-a-zdravi", "beznadej-bezmoc-nehodnost"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/thought-stopping.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_prev = "kartezske-otazky"
+catalog_next = "presvedceni-a-zdravi"
+catalog_position = 11
+catalog_family_size = 14
+catalog_sources = ["beck-1976", "dilts-1999", "dilts-hallbom-smith-1990", "gilovich-1991", "hassan-1988", "lifton-1961", "mcguire-1964", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["dilts-1999", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "gilovich-1991", "hassan-1988", "lifton-1961", "mcguire-1964", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.b.toml"
 +++
 
 # Myšlenkový virus
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Thought virus |
 | **Jiné názvy** | virus myšlení, thought virus |
-| **Obecnější vzorec** | [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) |
+| **Obecnější heslo** | [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -137,7 +140,7 @@ doktrínou rozchází (Lifton 1961).
 ## Detekční znaky
 
 Zneužití pojmu se pozná podle několika znaků. Za virus se označují přesvědčení, která jsou
-nepohodlná pro mluvčího nebo pro skupinu, typicky kritické otázky, pochybnosti o vedení,
+nepohodlná pro mluvčího nebo pro skupinu, typicky [kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md), pochybnosti o vedení,
 vazby na rodinu a přátele mimo skupinu nebo informace z vnějších zdrojů. Místo rozboru obsahu
 se doporučuje přesvědčení „nepouštět do hlavy“, nepřemýšlet o něm nebo se mu vyhýbat.
 Hassan popsal techniky [zastavování myšlenek](@/glossary/thought-stopping.md), které se v kultovních skupinách učí jako
@@ -194,7 +197,7 @@ obnovení důvěry v to, že přemýšlení a pochybování jsou normální a be
 že bývalí členové skupin potřebují znovu získat schopnost samostatně hodnotit informace, a
 že k tomu pomáhá podpora lidí mimo skupinu (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,27 +217,27 @@ obnovení důvěry v to, že přemýšlení a pochybování jsou normální a be
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzný vzorec (Sleight of Mouth, Sleight of Mouth)
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzný vzorec (Sleight of Mouth, Belief structure in Sleight of Mouth)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
-- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzný vzorec (Přesvědčení, Beliefs and health in NLP)
-- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzný vzorec (Přesvědčení, Imprint)
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzné heslo (Sleight of Mouth, Sleight of Mouth)
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzné heslo (Sleight of Mouth, Belief structure in Sleight of Mouth)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzné heslo (Přesvědčení, Beliefs and health in NLP)
+- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzné heslo (Přesvědčení, Imprint)
 
 **V kompendiu**
 
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – předchozí vzorec rodiny
-- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – předchozí heslo rodiny
+- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

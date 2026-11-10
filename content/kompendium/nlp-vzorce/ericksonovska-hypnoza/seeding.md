@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Zasévání myšlenky", "Seeding", "seeding", "předznamenání", "zasévání", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Zasévání myšlenky", "Seeding", "seeding", "předznamenání", "zasévání", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.08"
-nlp_slug = "seeding"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Seeding"
-nlp_aliases = ["seeding", "předznamenání", "zasévání"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["presupozice-milton", "vnorene-smycky", "technika-prolozeni", "predramcovani", "terapeuticka-metafora"]
-nlp_related_declared = ["vnorene-smycky", "predramcovani", "terapeuticka-metafora", "presupozice-milton", "technika-prolozeni"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
-nlp_links_prose = ["glossary/forensic-interview.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md"]
-nlp_prev = "vnorene-smycky"
-nlp_next = "predepsani-symptomu"
-nlp_position = 8
-nlp_family_size = 28
-nlp_sources = ["erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "kahneman-2011", "lilienfeld-2015", "loftus-palmer-1974", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = []
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
-nlp_sources_critical = ["herman-1992", "kahneman-2011", "lilienfeld-2015", "loftus-palmer-1974", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.08"
+catalog_slug = "seeding"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Seeding"
+catalog_aliases = ["seeding", "předznamenání", "zasévání"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["presupozice-milton", "vnorene-smycky", "technika-prolozeni", "predramcovani", "terapeuticka-metafora"]
+catalog_related_declared = ["vnorene-smycky", "predramcovani", "terapeuticka-metafora", "presupozice-milton", "technika-prolozeni"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/forensic-interview.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md"]
+catalog_prev = "vnorene-smycky"
+catalog_next = "predepsani-symptomu"
+catalog_position = 8
+catalog_family_size = 28
+catalog_sources = ["erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "kahneman-2011", "lilienfeld-2015", "loftus-palmer-1974", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = []
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_critical = ["herman-1992", "kahneman-2011", "lilienfeld-2015", "loftus-palmer-1974", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
 +++
 
 # Zasévání myšlenky
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Seeding |
 | **Jiné názvy** | seeding, předznamenání, zasévání |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ důrazem na ověřování nezávislými stopami. Zotavení zahrnuje i obnovu dů
 vzpomínky, které nejsou sporné, a uznání nejistoty tam, kde ji nelze odstranit (Herman
 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,27 +221,27 @@ vzpomínky, které nejsou sporné, a uznání nejistoty tam, kde ji nelze odstra
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzný vzorec (Milton-model, Presuppositions (Milton Model))
-- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzný vzorec (Ericksonovská hypnóza, Nested loops)
-- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzný vzorec (Ericksonovská hypnóza, Interspersal technique)
-- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzný vzorec (Reframing a rámce, Pre-framing)
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzný vzorec (Jazykové vzorce, Therapeutic metaphor)
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzné heslo (Milton-model, Presuppositions (Milton Model))
+- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzné heslo (Ericksonovská hypnóza, Nested loops)
+- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzné heslo (Ericksonovská hypnóza, Interspersal technique)
+- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzné heslo (Reframing a rámce, Pre-framing)
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzné heslo (Jazykové vzorce, Therapeutic metaphor)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – předchozí vzorec rodiny
-- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – předchozí heslo rodiny
+- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

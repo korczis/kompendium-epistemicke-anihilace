@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Logické úrovně", "Logical levels (concept)", "neurologické úrovně", "Diltsovy úrovně", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Logické úrovně", "Logical levels (concept)", "neurologické úrovně", "Diltsovy úrovně", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.20"
-nlp_slug = "logicke-urovne-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Logical levels (concept)"
-nlp_aliases = ["neurologické úrovně", "Diltsovy úrovně"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["zarovnani-logickych-urovni", "uroven-prostredi", "uroven-chovani", "uroven-schopnosti", "uroven-presvedceni-a-hodnot", "uroven-identity", "uroven-poslani", "zamena-logickych-urovni"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["clovek-neni-sve-chovani", "percepcni-pozice-pojem", "zarovnani-logickych-urovni", "uroven-identity", "zamena-logickych-urovni", "hierarchie-idei"]
-nlp_related_declared = ["zarovnani-logickych-urovni", "zamena-logickych-urovni", "uroven-identity", "clovek-neni-sve-chovani", "percepcni-pozice-pojem"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md", "kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_prev = "tote-model"
-nlp_next = "percepcni-pozice-pojem"
-nlp_position = 20
-nlp_family_size = 42
-nlp_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = ["bateson-1972", "bateson-1956"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.20"
+catalog_slug = "logicke-urovne-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Logical levels (concept)"
+catalog_aliases = ["neurologické úrovně", "Diltsovy úrovně"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["zarovnani-logickych-urovni", "uroven-prostredi", "uroven-chovani", "uroven-schopnosti", "uroven-presvedceni-a-hodnot", "uroven-identity", "uroven-poslani", "zamena-logickych-urovni"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["clovek-neni-sve-chovani", "percepcni-pozice-pojem", "zarovnani-logickych-urovni", "uroven-identity", "zamena-logickych-urovni", "hierarchie-idei"]
+catalog_related_declared = ["zarovnani-logickych-urovni", "zamena-logickych-urovni", "uroven-identity", "clovek-neni-sve-chovani", "percepcni-pozice-pojem"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md", "kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_prev = "tote-model"
+catalog_next = "percepcni-pozice-pojem"
+catalog_position = 20
+catalog_family_size = 42
+catalog_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = ["bateson-1972", "bateson-1956"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Logické úrovně
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Logical levels (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -102,7 +105,7 @@ Model logických úrovní nebyl empiricky ověřen jako popis struktury lidské 
 
 Základní obranou je vracet kritiku na úroveň, kam patří. Když někdo z jedné chyby vyvozuje, kým člověk je, je legitimní odpovědět, že se mluví o konkrétním činu, a zeptat se, co přesně by mělo být jinak. Druhou obranou je ostražitost vůči nabídkám nové identity a poslání, které přicházejí rychle a výměnou za loajalitu: identita, kterou člověk dostane od skupiny, může být odebrána, kdykoli skupina chce. Třetí obranou je udržovat úroveň prostředí a chování ve vlastních rukou: čas, peníze, vztahy a každodenní rozhodování jsou oblasti, kde se nejrychleji projeví, že vyšší rámec začal člověka vyčerpávat. U lidí, kteří prošli skupinou nebo vztahem, kde byla jejich identita soustavně přepisována, je zotavení dlouhodobé. Kompendium ho popisuje v hesle [identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md). Herman zdůrazňuje, že po zkušenosti dlouhodobé kontroly je třeba znovu vystavět pocit vlastní identity a že to probíhá ve vztazích, kde je člověk přijímán bez podmínek loajality (Herman 1992). Odborníci, kteří s modelem pracují, by měli mít na paměti, že otázky na identitu a poslání se dotýkají nejcitlivějších vrstev člověka, a proto vyžadují výslovný souhlas a opatrnost.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,35 +126,35 @@ Základní obranou je vracet kritiku na úroveň, kam patří. Když někdo z je
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – zvláštní případ tohoto vzorce
-- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – zvláštní případ tohoto vzorce
-- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – zvláštní případ tohoto vzorce
-- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – zvláštní případ tohoto vzorce
-- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – zvláštní případ tohoto vzorce
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – zvláštní případ tohoto vzorce
-- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – zvláštní případ tohoto vzorce
-- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – zvláštní případ tohoto hesla
+- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – zvláštní případ tohoto hesla
+- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – zvláštní případ tohoto hesla
+- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – zvláštní případ tohoto hesla
+- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – zvláštní případ tohoto hesla
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – zvláštní případ tohoto hesla
+- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – zvláštní případ tohoto hesla
+- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – příbuzný vzorec (Předpoklady NLP, People are not their behaviour)
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Logical level alignment)
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Identity level)
-- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Confusing logical levels)
-- [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – příbuzný vzorec (Jazykové vzorce, Hierarchy of ideas)
+- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – příbuzné heslo (Předpoklady NLP, People are not their behaviour)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Logical level alignment)
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzné heslo (Logické úrovně a percepční pozice, Identity level)
+- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Confusing logical levels)
+- [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – příbuzné heslo (Jazykové vzorce, Hierarchy of ideas)
 
 **V kompendiu**
 
-- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – předchozí vzorec rodiny
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – předchozí heslo rodiny
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-metaprogramy"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Metaprogramy", "Meta-programs", "NLP"]
+keywords = ["Metaprogramy", "Meta-programs", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "metaprogramy"
-nlp_code = "17"
-nlp_en = "Meta-programs"
-nlp_size = 23
-nlp_members = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["charvet-1997", "cialdini-2009", "freedman-fraser-1966", "gilovich-1991", "hall-bodenhamer-1997", "herman-1992", "james-woodsmall-1988", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "metaprogramy"
+catalog_code = "17"
+catalog_en = "Meta-programs"
+catalog_size = 23
+catalog_members = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["charvet-1997", "cialdini-2009", "freedman-fraser-1966", "gilovich-1991", "hall-bodenhamer-1997", "herman-1992", "james-woodsmall-1988", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Metaprogramy
@@ -158,12 +160,12 @@ vlastním vztahům (Herman 1992). Souvislosti s organizacemi rozvádí část o 
 obraně](@/kompendium/organizational-defense/_index.md) a obecné principy obrany část
 [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-17.01` | [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) | Toward and away from | pojem | terapeutické i vlivové | střední |
 | `NLP-17.02` | [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) | Internal and external reference | pojem | terapeutické i vlivové | vysoké |
 | `NLP-17.03` | [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) | Options and procedures | pojem | terapeutické i vlivové | střední |
@@ -187,6 +189,85 @@ obraně](@/kompendium/organizational-defense/_index.md) a obecné principy obran
 | `NLP-17.21` | [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) | Adaptation (judging and perceiving) | pojem | terapeutické i vlivové | nízké |
 | `NLP-17.22` | [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) | Meta-programs in recruitment and management | vzorec | převážně vlivové | vysoké |
 | `NLP-17.23` | [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) | Meta-programs in marketing | vzorec | převážně vlivové | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Metaprogramy"]
+  click F "@/kompendium/nlp-vzorce/metaprogramy/_index.md"
+  n1["K cíli a od problému"]
+  n2["Vnitřní a vnější referenční rámec"]
+  n3["Možnosti a postupy"]
+  n4["Obecné a specifické"]
+  n5["Shoda a rozdíl"]
+  n6["Proaktivní a reaktivní"]
+  n7["Kritéria"]
+  n8["Kanál přesvědčení"]
+  n9["Režim přesvědčení"]
+  n10["Já a druzí"]
+  n11["Reakce na stres"]
+  n12["Pracovní styl"]
+  n13["Lidé a věci"]
+  n14["Struktura pravidel"]
+  n15["Časová orientace"]
+  n16["Emoční zvládání"]
+  n17["Hodnoty při koupi"]
+  n18["Odpovědnost"]
+  n19["Důvěra"]
+  n20["Proč a jak"]
+  n21["Usuzování a vnímání"]
+  n22["Metaprogramy v náboru a řízení"]
+  n23["Metaprogramy v marketingu"]
+  F --> n1
+  F --> n2
+  F --> n3
+  F --> n4
+  F --> n5
+  F --> n6
+  F --> n7
+  F --> n8
+  F --> n9
+  F --> n10
+  F --> n11
+  F --> n12
+  F --> n13
+  F --> n14
+  F --> n15
+  F --> n16
+  F --> n17
+  F --> n18
+  F --> n19
+  F --> n20
+  F --> n21
+  F --> n22
+  F --> n23
+  click n1 "@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md"
+  click n2 "@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md"
+  click n3 "@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md"
+  click n4 "@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md"
+  click n5 "@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md"
+  click n6 "@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md"
+  click n7 "@/kompendium/nlp-vzorce/metaprogramy/kriteria.md"
+  click n8 "@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md"
+  click n9 "@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md"
+  click n10 "@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md"
+  click n11 "@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md"
+  click n12 "@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md"
+  click n13 "@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md"
+  click n14 "@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md"
+  click n15 "@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md"
+  click n16 "@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md"
+  click n17 "@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md"
+  click n18 "@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md"
+  click n19 "@/kompendium/nlp-vzorce/metaprogramy/duvera.md"
+  click n20 "@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md"
+  click n21 "@/kompendium/nlp-vzorce/metaprogramy/adaptace.md"
+  click n22 "@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md"
+  click n23 "@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md"
+```
 
 ## Literatura
 
@@ -213,6 +294,6 @@ obraně](@/kompendium/organizational-defense/_index.md) a obecné principy obran
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – předchozí rodina katalogu
 - [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Smyslové důkazy dosažení", "Sensory-based evidence", "smyslově ověřitelné kritérium", "důkaz dosažení cíle", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Smyslové důkazy dosažení", "Sensory-based evidence", "smyslově ověřitelné kritérium", "důkaz dosažení cíle", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.03"
-nlp_slug = "smyslove-dukazy-cile"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Sensory-based evidence"
-nlp_aliases = ["smyslově ověřitelné kritérium", "důkaz dosažení cíle"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "dobre-formulovany-vysledek"
-nlp_narrower = ["dukazni-procedura"]
-nlp_depth = 1
-nlp_ancestors = ["dobre-formulovany-vysledek"]
-nlp_related = ["kalibrace", "smyslova-ostrost", "nominalizace", "ramec-dukazu", "kanal-presvedceni", "pozitivni-formulace-cile", "dukazni-procedura"]
-nlp_related_declared = ["smyslova-ostrost", "kalibrace", "dukazni-procedura", "nominalizace", "ramec-dukazu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "pozitivni-formulace-cile"
-nlp_next = "cil-pod-vlastni-kontrolou"
-nlp_position = 3
-nlp_family_size = 10
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "mcguire-1964", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1984", "sharpley-1987", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "mcguire-1964", "sharpley-1984", "sharpley-1987", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.03"
+catalog_slug = "smyslove-dukazy-cile"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Sensory-based evidence"
+catalog_aliases = ["smyslově ověřitelné kritérium", "důkaz dosažení cíle"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "dobre-formulovany-vysledek"
+catalog_narrower = ["dukazni-procedura"]
+catalog_depth = 1
+catalog_ancestors = ["dobre-formulovany-vysledek"]
+catalog_related = ["kalibrace", "smyslova-ostrost", "nominalizace", "ramec-dukazu", "kanal-presvedceni", "pozitivni-formulace-cile", "dukazni-procedura"]
+catalog_related_declared = ["smyslova-ostrost", "kalibrace", "dukazni-procedura", "nominalizace", "ramec-dukazu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "pozitivni-formulace-cile"
+catalog_next = "cil-pod-vlastni-kontrolou"
+catalog_position = 3
+catalog_family_size = 10
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "mcguire-1964", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1984", "sharpley-1987", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "mcguire-1964", "sharpley-1984", "sharpley-1987", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Smyslové důkazy dosažení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Sensory-based evidence |
 | **Jiné názvy** | smyslově ověřitelné kritérium, důkaz dosažení cíle |
-| **Obecnější vzorec** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
+| **Obecnější heslo** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -192,7 +195,7 @@ U lidí, jejichž pokrok dlouhodobě vykládala autorita, se zotavení opírá o
 měřítek a o postupné vracení důvěry ve vlastní pozorování; v tomto bezpečném vztahu se
 člověk učí znovu hodnotit, co se mu děje, vlastními slovy (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,29 +217,29 @@ měřítek a o postupné vracení důvěry ve vlastní pozorování; v tomto bez
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – zvláštní případ tohoto vzorce
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzný vzorec (Základní pojmy NLP, Sensory acuity)
-- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzný vzorec (Meta-model, Nominalisation)
-- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzný vzorec (Reframing a rámce, Evidence frame)
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer channel)
-- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – příbuzný vzorec (Cíle a výsledky, Stated in the positive)
-- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzný vzorec (Cíle a výsledky, Evidence procedure)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzné heslo (Základní pojmy NLP, Sensory acuity)
+- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzné heslo (Meta-model, Nominalisation)
+- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzné heslo (Reframing a rámce, Evidence frame)
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer channel)
+- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – příbuzné heslo (Cíle a výsledky, Stated in the positive)
+- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzné heslo (Cíle a výsledky, Evidence procedure)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – předchozí vzorec rodiny
-- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – předchozí heslo rodiny
+- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Strategie přesvědčení o pravdivosti", "Convincer strategy", "strategie přesvědčení", "convincer", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Strategie přesvědčení o pravdivosti", "Convincer strategy", "strategie přesvědčení", "convincer", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.05"
-nlp_slug = "presvedcovaci-strategie"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Convincer strategy"
-nlp_aliases = ["strategie přesvědčení", "convincer"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "strategie-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["strategie-pojem"]
-nlp_related = ["som-strategie-reality", "kontrastni-analyza", "rozhodovaci-strategie", "strategie-reality", "utilizace-strategie", "smyckove-strategie", "kanal-presvedceni", "rezim-presvedceni"]
-nlp_related_declared = ["kanal-presvedceni", "rezim-presvedceni", "strategie-reality", "som-strategie-reality", "rozhodovaci-strategie"]
-nlp_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md", "kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md", "kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md", "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
-nlp_prev = "motivacni-strategie"
-nlp_next = "strategie-uceni"
-nlp_position = 5
-nlp_family_size = 20
-nlp_sources = ["charvet-1997", "cialdini-2009", "dilts-1999", "dilts-1980", "gilovich-1991", "lifton-1961", "mcguire-1964", "miller-galanter-pribram-1960", "petty-cacioppo-1986", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "dilts-1999", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["cialdini-2009", "gilovich-1991", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.05"
+catalog_slug = "presvedcovaci-strategie"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Convincer strategy"
+catalog_aliases = ["strategie přesvědčení", "convincer"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "strategie-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["strategie-pojem"]
+catalog_related = ["som-strategie-reality", "kontrastni-analyza", "rozhodovaci-strategie", "strategie-reality", "utilizace-strategie", "smyckove-strategie", "kanal-presvedceni", "rezim-presvedceni"]
+catalog_related_declared = ["kanal-presvedceni", "rezim-presvedceni", "strategie-reality", "som-strategie-reality", "rozhodovaci-strategie"]
+catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md", "kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md", "kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md", "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
+catalog_prev = "motivacni-strategie"
+catalog_next = "strategie-uceni"
+catalog_position = 5
+catalog_family_size = 20
+catalog_sources = ["charvet-1997", "cialdini-2009", "dilts-1999", "dilts-1980", "gilovich-1991", "lifton-1961", "mcguire-1964", "miller-galanter-pribram-1960", "petty-cacioppo-1986", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "dilts-1999", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["cialdini-2009", "gilovich-1991", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.toml"
 +++
 
 # Strategie přesvědčení o pravdivosti
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Convincer strategy |
 | **Jiné názvy** | strategie přesvědčení, convincer |
-| **Obecnější vzorec** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
+| **Obecnější heslo** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Obecné poznatky, na nichž přesvědčovací strategie stojí, jsou dobře dolo
 
 Základní obranou je oddělit vlastní kritérium přesvědčení od toho, kdo ho naplňuje. Pokud jste řekli, že potřebujete tři příklady, a tři příklady vám dodal prodejce, kritérium bylo splněno formálně, ne věcně. Je legitimní požádat o doklady, které prodejce nevybral: nezávislé recenze, výsledky kontrolovaných studií, zkušenost lidí, které znáte sami. Druhou obranou je stanovit si kritérium předem a nezávisle na rozhovoru, nejlépe písemně, a nemluvit o něm s tím, kdo vás přesvědčuje. Třetí obranou je hledat protipříklady: kdo z lidí, kteří věc vyzkoušeli, neuspěl, a proč o nich nevíme. Myšlenka očkování proti přesvědčování ukazuje, že člověk, který dopředu zná typ argumentu a jeho slabiny, je vůči němu odolnější (McGuire 1964). U lidí, kteří v uzavřené skupině nebo ve vztahu ztratili vlastní kritéria pravdivosti a přijali kritéria druhé strany, zahrnuje zotavení obnovu důvěry ve vlastní úsudek, postupné znovuzavedení vnějšího ověřování a práci s pocitem studu za to, čemu dříve věřili. Odborníci by měli kritéria přesvědčení s klientem otevřeně sdílet a nikdy je nepoužít k dodání přesvědčení, které neprošlo nezávislou kontrolou.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -124,30 +127,30 @@ Základní obranou je oddělit vlastní kritérium přesvědčení od toho, kdo 
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – příbuzný vzorec (Sleight of Mouth, Reality strategy)
-- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzný vzorec (Submodality, Contrastive analysis)
-- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Decision strategy)
-- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – příbuzný vzorec (Strategie a modelování, Reality strategy)
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy utilisation)
-- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – příbuzný vzorec (Strategie a modelování, Looping strategies)
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer channel)
-- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer mode)
+- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – příbuzné heslo (Sleight of Mouth, Reality strategy)
+- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzné heslo (Submodality, Contrastive analysis)
+- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Decision strategy)
+- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – příbuzné heslo (Strategie a modelování, Reality strategy)
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy utilisation)
+- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – příbuzné heslo (Strategie a modelování, Looping strategies)
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer channel)
+- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer mode)
 
 **V kompendiu**
 
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – předchozí vzorec rodiny
-- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – předchozí heslo rodiny
+- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

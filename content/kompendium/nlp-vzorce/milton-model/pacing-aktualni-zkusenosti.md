@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Pacing aktuální zkušenosti", "Pacing current experience", "popis aktuální zkušenosti", "smyslově ověřitelný pacing", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Pacing aktuální zkušenosti", "Pacing current experience", "popis aktuální zkušenosti", "smyslově ověřitelný pacing", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.27"
-nlp_slug = "pacing-aktualni-zkusenosti"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Pacing current experience"
-nlp_aliases = ["popis aktuální zkušenosti", "smyslově ověřitelný pacing"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["raport", "pacing-a-leading-pojem", "truismy", "ano-sada", "cteni-myslenek-milton", "spojky-a-implikovana-pricinnost", "komplexni-ekvivalence-milton", "retezeni-sugesci", "pacing-a-leading", "sladeni-dechu", "vedeni-v-raportu", "raport-se-skupinou"]
-nlp_related_declared = ["pacing-a-leading-pojem", "truismy", "ano-sada", "raport", "retezeni-sugesci"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/milton-model/truismy.md", "kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "negativni-prikazy"
-nlp_next = "retezeni-sugesci"
-nlp_position = 27
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "chartrand-bargh-1999", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["chartrand-bargh-1999", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.27"
+catalog_slug = "pacing-aktualni-zkusenosti"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Pacing current experience"
+catalog_aliases = ["popis aktuální zkušenosti", "smyslově ověřitelný pacing"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["raport", "pacing-a-leading-pojem", "truismy", "ano-sada", "cteni-myslenek-milton", "spojky-a-implikovana-pricinnost", "komplexni-ekvivalence-milton", "retezeni-sugesci", "pacing-a-leading", "sladeni-dechu", "vedeni-v-raportu", "raport-se-skupinou"]
+catalog_related_declared = ["pacing-a-leading-pojem", "truismy", "ano-sada", "raport", "retezeni-sugesci"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/milton-model/truismy.md", "kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "negativni-prikazy"
+catalog_next = "retezeni-sugesci"
+catalog_position = 27
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "chartrand-bargh-1999", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["chartrand-bargh-1999", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.c.toml"
 +++
 
 # Pacing aktuální zkušenosti
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.27` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Pacing current experience |
 | **Jiné názvy** | popis aktuální zkušenosti, smyslově ověřitelný pacing |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ z toho vyvodil sám, a rozpustit stud za to, že souhlasil: vzorec je navržen t
 vyvolal, a jeho účinek není známkou slabosti. Kompendium se obecným zásadám obrany věnuje
 v oddílu [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,34 +214,34 @@ v oddílu [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Pacing and leading (concept))
-- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzný vzorec (Milton-model, Truisms)
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzný vzorec (Milton-model, Mind reading (Milton Model))
-- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzný vzorec (Milton-model, Conjunctions and implied causatives)
-- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – příbuzný vzorec (Milton-model, Complex equivalence (Milton Model))
-- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – příbuzný vzorec (Milton-model, Linking suggestions)
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzný vzorec (Raport a kalibrace, Pacing and leading)
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzný vzorec (Raport a kalibrace, Breathing matching)
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzný vzorec (Raport a kalibrace, Leading in rapport)
-- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzný vzorec (Raport a kalibrace, Group rapport)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzné heslo (Základní pojmy NLP, Pacing and leading (concept))
+- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzné heslo (Milton-model, Truisms)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzné heslo (Milton-model, Mind reading (Milton Model))
+- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzné heslo (Milton-model, Conjunctions and implied causatives)
+- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – příbuzné heslo (Milton-model, Complex equivalence (Milton Model))
+- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – příbuzné heslo (Milton-model, Linking suggestions)
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzné heslo (Raport a kalibrace, Breathing matching)
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzné heslo (Raport a kalibrace, Leading in rapport)
+- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzné heslo (Raport a kalibrace, Group rapport)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – předchozí vzorec rodiny
-- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – předchozí heslo rodiny
+- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Porušení selekčních omezení", "Selectional restriction violation (Meta Model)", "sémantická anomálie", "připsání jednání neživému", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Porušení selekčních omezení", "Selectional restriction violation (Meta Model)", "sémantická anomálie", "připsání jednání neživému", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.17"
-nlp_slug = "poruseni-selekcnich-omezeni-meta"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Selectional restriction violation (Meta Model)"
-nlp_aliases = ["sémantická anomálie", "připsání jednání neživému"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["hluboka-a-povrchova-struktura", "nominalizace", "nespecifikovany-referencni-index", "ztraceny-performativ", "poruseni-selekcnich-omezeni"]
-nlp_related_declared = ["poruseni-selekcnich-omezeni", "nominalizace", "nespecifikovany-referencni-index", "ztraceny-performativ", "hluboka-a-povrchova-struktura"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md"]
-nlp_prev = "meta-model-jako-vyslychaci-nastroj"
-nlp_next = ""
-nlp_position = 17
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["chomsky-1965"]
-nlp_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.17"
+catalog_slug = "poruseni-selekcnich-omezeni-meta"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Selectional restriction violation (Meta Model)"
+catalog_aliases = ["sémantická anomálie", "připsání jednání neživému"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["hluboka-a-povrchova-struktura", "nominalizace", "nespecifikovany-referencni-index", "ztraceny-performativ", "poruseni-selekcnich-omezeni"]
+catalog_related_declared = ["poruseni-selekcnich-omezeni", "nominalizace", "nespecifikovany-referencni-index", "ztraceny-performativ", "hluboka-a-povrchova-struktura"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md"]
+catalog_prev = "meta-model-jako-vyslychaci-nastroj"
+catalog_next = ""
+catalog_position = 17
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["chomsky-1965"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.b.toml"
 +++
 
 # Porušení selekčních omezení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Selectional restriction violation (Meta Model) |
 | **Jiné názvy** | sémantická anomálie, připsání jednání neživému |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -198,7 +201,7 @@ postupná obnova vědomí, že za každým rozhodnutím stál člověk, s nímž
 v principu, nesouhlasit. To otevírá cestu ke zpracování vztahu k těm, kdo skutečně
 rozhodovali, místo k abstrakcím, se kterými se vyrovnat nelze (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,26 +220,26 @@ rozhodovali, místo k abstrakcím, se kterými se vyrovnat nelze (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzný vzorec (Základní pojmy NLP, Deep and surface structure)
-- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzný vzorec (Meta-model, Nominalisation)
-- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzný vzorec (Meta-model, Unspecified referential index)
-- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – příbuzný vzorec (Meta-model, Lost performative)
-- [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) – příbuzný vzorec (Milton-model, Selectional restriction violation (Milton Model))
+- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzné heslo (Základní pojmy NLP, Deep and surface structure)
+- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzné heslo (Meta-model, Nominalisation)
+- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzné heslo (Meta-model, Unspecified referential index)
+- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – příbuzné heslo (Meta-model, Lost performative)
+- [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) – příbuzné heslo (Milton-model, Selectional restriction violation (Milton Model))
 
 **V kompendiu**
 
-- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

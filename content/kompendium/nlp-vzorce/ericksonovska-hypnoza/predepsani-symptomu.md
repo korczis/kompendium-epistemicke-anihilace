@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Předepsání symptomu", "Symptom prescription", "preskripce symptomu", "paradoxní předpis", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Předepsání symptomu", "Symptom prescription", "preskripce symptomu", "paradoxní předpis", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.09"
-nlp_slug = "predepsani-symptomu"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Symptom prescription"
-nlp_aliases = ["preskripce symptomu", "paradoxní předpis"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "paradoxni-intervence"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["paradoxni-intervence"]
-nlp_related = ["pozitivni-zamer-chovani", "utilizace", "terapeuticka-dvojna-vazba"]
-nlp_related_declared = ["utilizace", "terapeuticka-dvojna-vazba", "pozitivni-zamer-chovani"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"]
-nlp_links_prose = ["glossary/informed-consent.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"]
-nlp_prev = "seeding"
-nlp_next = "paradoxni-intervence"
-nlp_position = 9
-nlp_family_size = 28
-nlp_sources = ["bateson-1956", "haley-1973", "herman-1992", "lifton-1961", "miller-rollnick-2013", "watzlawick-1967", "watzlawick-1974", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = []
-nlp_sources_roots = ["bateson-1956", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
-nlp_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.09"
+catalog_slug = "predepsani-symptomu"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Symptom prescription"
+catalog_aliases = ["preskripce symptomu", "paradoxní předpis"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "paradoxni-intervence"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["paradoxni-intervence"]
+catalog_related = ["pozitivni-zamer-chovani", "utilizace", "terapeuticka-dvojna-vazba"]
+catalog_related_declared = ["utilizace", "terapeuticka-dvojna-vazba", "pozitivni-zamer-chovani"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/informed-consent.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"]
+catalog_prev = "seeding"
+catalog_next = "paradoxni-intervence"
+catalog_position = 9
+catalog_family_size = 28
+catalog_sources = ["bateson-1956", "haley-1973", "herman-1992", "lifton-1961", "miller-rollnick-2013", "watzlawick-1967", "watzlawick-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = []
+catalog_sources_roots = ["bateson-1956", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
+catalog_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
 +++
 
 # Předepsání symptomu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Symptom prescription |
 | **Jiné názvy** | preskripce symptomu, paradoxní předpis |
-| **Obecnější vzorec** | [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) |
+| **Obecnější heslo** | [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ jejichž stížnosti byly v dlouhodobém vztahu opakovaně zlehčovány ironick�
 mohou ztratit důvěru v oprávněnost vlastních potřeb. Zotavení vede přes vztahy, v nichž
 jsou stížnosti brány vážně, a přes postupné obnovení práva na vlastní hlas (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,24 +217,24 @@ jsou stížnosti brány vážně, a přes postupné obnovení práva na vlastní
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Therapeutic double bind)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Therapeutic double bind)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zasévání myšlenky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md) – předchozí vzorec rodiny
-- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zasévání myšlenky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md) – předchozí heslo rodiny
+- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

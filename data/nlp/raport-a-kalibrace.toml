@@ -1,4 +1,4 @@
-# Rodina NLP-18: Raport a kalibrace (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Rodina NLP-18: Raport a kalibrace (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
 # Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
 # Tento soubor nese hesla NLP-18.01 až NLP-18.08; další části rodiny mají vlastní soubory.
 

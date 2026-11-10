@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Rozpoznání praktiky NLP v rozhovoru", "Recognising NLP practice in conversation", "detekce NLP v komunikaci", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Rozpoznání praktiky NLP v rozhovoru", "Recognising NLP practice in conversation", "detekce NLP v komunikaci", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.20"
-nlp_slug = "rozpoznani-nlp-praktiky"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Recognising NLP practice in conversation"
-nlp_aliases = ["detekce NLP v komunikaci"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["ocni-pristupove-signaly", "vlozene-prikazy", "presupozice-milton", "zrcadleni", "konverzacni-hypnoza", "falesne-zrcadleni-v-podvodech", "obrana-proti-vlivovym-vzorcum", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["obrana-proti-vlivovym-vzorcum", "zrcadleni", "vlozene-prikazy", "ocni-pristupove-signaly", "konverzacni-hypnoza", "presupozice-milton"]
-nlp_kompendium = ["kompendium/detection-signatures/_index.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md"]
-nlp_prev = "obrana-proti-vlivovym-vzorcum"
-nlp_next = ""
-nlp_position = 20
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "chartrand-bargh-1999", "grice-1975", "kirsch-lynn-1995", "levinson-1983", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "oconnor-seymour-1990"]
-nlp_sources_roots = ["grice-1975", "levinson-1983"]
-nlp_sources_critical = ["chartrand-bargh-1999", "kirsch-lynn-1995", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.20"
+catalog_slug = "rozpoznani-nlp-praktiky"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Recognising NLP practice in conversation"
+catalog_aliases = ["detekce NLP v komunikaci"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["ocni-pristupove-signaly", "vlozene-prikazy", "presupozice-milton", "zrcadleni", "konverzacni-hypnoza", "falesne-zrcadleni-v-podvodech", "obrana-proti-vlivovym-vzorcum", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["obrana-proti-vlivovym-vzorcum", "zrcadleni", "vlozene-prikazy", "ocni-pristupove-signaly", "konverzacni-hypnoza", "presupozice-milton"]
+catalog_kompendium = ["kompendium/detection-signatures/_index.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md"]
+catalog_prev = "obrana-proti-vlivovym-vzorcum"
+catalog_next = ""
+catalog_position = 20
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "chartrand-bargh-1999", "grice-1975", "kirsch-lynn-1995", "levinson-1983", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "oconnor-seymour-1990"]
+catalog_sources_roots = ["grice-1975", "levinson-1983"]
+catalog_sources_critical = ["chartrand-bargh-1999", "kirsch-lynn-1995", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
 +++
 
 # Rozpoznání praktiky NLP v rozhovoru
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Recognising NLP practice in conversation |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -204,7 +207,7 @@ hotový výklad. Zotavení po zkušenosti s manipulativním rozhovorem obvykle n
 terapii, ale návrat důvěry ve vlastní úsudek a praktické kroky, například odstoupení od
 smlouvy, pokud je to možné.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -225,28 +228,28 @@ smlouvy, pokud je to možné.
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzný vzorec (Základní pojmy NLP, Eye accessing cues)
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzný vzorec (Milton-model, Presuppositions (Milton Model))
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzný vzorec (Vliv a zneužití NLP, Mirroring in scams)
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzný vzorec (Vliv a zneužití NLP, Defence against influence patterns)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzné heslo (Základní pojmy NLP, Eye accessing cues)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzné heslo (Milton-model, Presuppositions (Milton Model))
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzné heslo (Vliv a zneužití NLP, Mirroring in scams)
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzné heslo (Vliv a zneužití NLP, Defence against influence patterns)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

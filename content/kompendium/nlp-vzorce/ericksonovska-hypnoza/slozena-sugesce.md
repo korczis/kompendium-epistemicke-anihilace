@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Složená sugesce", "Compound suggestion", "sdružená sugesce", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Složená sugesce", "Compound suggestion", "sdružená sugesce", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.21"
-nlp_slug = "slozena-sugesce"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Compound suggestion"
-nlp_aliases = ["sdružená sugesce"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = ["apozice-protikladu"]
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["truismy", "ano-sada", "spojky-a-implikovana-pricinnost", "retezeni-sugesci", "apozice-protikladu", "implikovane-direktivum"]
-nlp_related_declared = ["ano-sada", "spojky-a-implikovana-pricinnost", "retezeni-sugesci", "truismy", "implikovane-direktivum"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md", "kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md", "kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "apozice-protikladu"
-nlp_next = "implikovane-direktivum"
-nlp_position = 21
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1976", "grice-1975", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sturt-2012"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975"]
-nlp_sources_critical = ["cialdini-2009", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sturt-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.21"
+catalog_slug = "slozena-sugesce"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Compound suggestion"
+catalog_aliases = ["sdružená sugesce"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = ["apozice-protikladu"]
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["truismy", "ano-sada", "spojky-a-implikovana-pricinnost", "retezeni-sugesci", "apozice-protikladu", "implikovane-direktivum"]
+catalog_related_declared = ["ano-sada", "spojky-a-implikovana-pricinnost", "retezeni-sugesci", "truismy", "implikovane-direktivum"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md", "kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md", "kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "apozice-protikladu"
+catalog_next = "implikovane-direktivum"
+catalog_position = 21
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1976", "grice-1975", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sturt-2012"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975"]
+catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sturt-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
 +++
 
 # Složená sugesce
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.21` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Compound suggestion |
 | **Jiné názvy** | sdružená sugesce |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -202,7 +205,7 @@ proměňovaly v závazky, je součástí zotavení obnovení práva říct „an
 obecné povědomí o [kognitivních biasech](@/kompendium/03-zakladni-kategorie/biasy/_index.md),
 které vzorec využívá.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,28 +224,28 @@ které vzorec využívá.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – zvláštní případ tohoto vzorce
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzný vzorec (Milton-model, Truisms)
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzný vzorec (Milton-model, Conjunctions and implied causatives)
-- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – příbuzný vzorec (Milton-model, Linking suggestions)
-- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzný vzorec (Ericksonovská hypnóza, Apposition of opposites)
-- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – příbuzný vzorec (Ericksonovská hypnóza, Implied directive)
+- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzné heslo (Milton-model, Truisms)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzné heslo (Milton-model, Conjunctions and implied causatives)
+- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – příbuzné heslo (Milton-model, Linking suggestions)
+- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzné heslo (Ericksonovská hypnóza, Apposition of opposites)
+- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – příbuzné heslo (Ericksonovská hypnóza, Implied directive)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – předchozí vzorec rodiny
-- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – předchozí heslo rodiny
+- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

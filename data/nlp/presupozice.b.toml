@@ -1,5 +1,5 @@
-# Rodina NLP-06: Jazykové presupozice, část b (pravidlo project.nlp-catalog; schéma v
-# scripts/nlp-catalog.py). Tento soubor nese záznamy NLP-06.11 až NLP-06.19.
+# Rodina NLP-06: Jazykové presupozice, část b (pravidlo project.content-catalogs; schéma v
+# scripts/catalogs.py). Tento soubor nese záznamy NLP-06.11 až NLP-06.19.
 # Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
 
 [[pattern]]

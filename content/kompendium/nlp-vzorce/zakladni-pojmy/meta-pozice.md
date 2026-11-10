@@ -12,70 +12,73 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Meta-pozice", "Meta-position", "pozice pozorovatele", "pohled zvenčí", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Meta-pozice", "Meta-position", "pozice pozorovatele", "pohled zvenčí", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.22"
-nlp_slug = "meta-pozice"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Meta-position"
-nlp_aliases = ["pozice pozorovatele", "pohled zvenčí"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "percepcni-pozice-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["percepcni-pozice-pojem"]
-nlp_related = ["asociace", "disociace", "som-meta-ramec", "dvojita-disociace", "reakce-na-kritiku", "meta-zrcadlo", "treti-pozice", "vyrovnany"]
-nlp_related_declared = ["treti-pozice", "disociace", "meta-zrcadlo", "asociace"]
-nlp_kompendium = ["kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md", "kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md"]
-nlp_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
-nlp_prev = "percepcni-pozice-pojem"
-nlp_next = "asociace"
-nlp_position = 22
-nlp_family_size = 42
-nlp_sources = ["beck-1976", "dilts-delozier-2000", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.22"
+catalog_slug = "meta-pozice"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Meta-position"
+catalog_aliases = ["pozice pozorovatele", "pohled zvenčí"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "percepcni-pozice-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["percepcni-pozice-pojem"]
+catalog_related = ["asociace", "disociace", "som-meta-ramec", "dvojita-disociace", "reakce-na-kritiku", "meta-zrcadlo", "treti-pozice", "vyrovnany"]
+catalog_related_declared = ["treti-pozice", "disociace", "meta-zrcadlo", "asociace"]
+catalog_kompendium = ["kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md", "kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
+catalog_prev = "percepcni-pozice-pojem"
+catalog_next = "asociace"
+catalog_position = 22
+catalog_family_size = 42
+catalog_sources = ["beck-1976", "dilts-delozier-2000", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Meta-pozice
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.22` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Meta-position |
 | **Jiné názvy** | pozice pozorovatele, pohled zvenčí |
-| **Obecnější vzorec** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
+| **Obecnější heslo** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
-Meta-pozice je v neurolingvistickém programování označení pro perspektivu, ze které člověk sleduje situaci, vztah nebo vlastní prožívání jakoby zvenčí a s odstupem. Pojem je užší variantou obecného pojmu [percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md). V části literatury splývá s [třetí pozicí](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md), tedy s pohledem nezúčastněného pozorovatele, v jiné části označuje ještě vzdálenější stanoviště, ze kterého člověk pozoruje i sebe sama, jak se dívá z ostatních pozic (Dilts a DeLozier 2000). Společným jádrem je odstup: z meta-pozice se má situace jevit méně citově naléhavá a lépe přehledná, takže je možné uvažovat o souvislostech, které v zapojení zůstávají skryté. NLP spojuje meta-pozici s pojmem [disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md), který v jeho slovníku označuje vnímání zážitku zvenčí, bez plného prožitku, na rozdíl od asociace, kdy člověk zážitek prožívá zevnitř. Pro kompendium je pojem důležitý tím, že dočasný a dobrovolný odstup od vlastních prožitků je v mnoha terapiích užitečný, kdežto trvalý a vyžadovaný odstup se může stát nástrojem, kterým se člověku bere oprávněná citová reakce na křivdu.
+Meta-pozice je v neurolingvistickém programování označení pro perspektivu, ze které člověk sleduje situaci, vztah nebo vlastní prožívání jakoby zvenčí a s odstupem. Pojem je užší variantou obecného pojmu [percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md). V části literatury splývá s [třetí pozicí](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md), tedy s pohledem nezúčastněného pozorovatele, v jiné části označuje ještě vzdálenější stanoviště, ze kterého člověk pozoruje i sebe sama, jak se dívá z ostatních pozic (Dilts a DeLozier 2000). Společným jádrem je odstup: z meta-pozice se má situace jevit méně citově naléhavá a lépe přehledná, takže je možné uvažovat o souvislostech, které v zapojení zůstávají skryté. NLP spojuje meta-pozici s pojmem [disociace](@/glossary/disociace.md), který v jeho slovníku označuje vnímání zážitku zvenčí, bez plného prožitku, na rozdíl od asociace, kdy člověk zážitek prožívá zevnitř. Pro kompendium je pojem důležitý tím, že dočasný a dobrovolný odstup od vlastních prožitků je v mnoha terapiích užitečný, kdežto trvalý a vyžadovaný odstup se může stát nástrojem, kterým se člověku bere oprávněná citová reakce na křivdu.
 
 ## Původ a souvislosti
 
@@ -103,7 +106,7 @@ Obecná myšlenka, že dočasný odstup od vlastních myšlenek a citů může p
 
 Základní obranou je rozlišovat mezi odstupem a popřením. Je legitimní na chvíli poodstoupit a podívat se na situaci zvenčí; není nutné přestat cítit, co člověk cítí. Pokud někdo vyžaduje nadhled právě ve chvíli, kdy upozorňujete na jeho jednání, je užitečné pojmenovat to: nadhled nemění to, co se stalo, a city jsou na místě. Druhou obranou je hlídat návrat. Po každém odstupu by měl následovat návrat do vlastního prožívání a k rozhodnutí, co dál. Pokud odstup trvá a člověk se cítí odcizený od sebe a od těla, je to signál, že nejde o nadhled, ale o odpojení. Třetí obranou je ostražitost vůči ideálům, podle kterých je vyspělý člověk bez citů: takový ideál chrání hlavně ty, kterým by city druhých mohly překážet. U lidí, kteří prošli prostředím, kde se city soustavně potlačovaly ve prospěch „vyššího pohledu“, je zotavení spojeno s obnovou kontaktu s vlastními prožitky a tělem. Klinická praxe u traumatizovaných lidí klade důraz na stabilizaci a postupné, bezpečné znovupropojení s prožitkem, ne na další odstup (Herman 1992). Odborník, který s meta-pozicí pracuje, by měl u klientů se zkušeností traumatu nebo odpojení postupovat zvlášť opatrně.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,30 +125,30 @@ Základní obranou je rozlišovat mezi odstupem a popřením. Je legitimní na c
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzný vzorec (Sleight of Mouth, Meta frame)
-- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzný vzorec (Disociace, fobie a trauma, Double dissociation)
-- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzný vzorec (Disociace, fobie a trauma, Responding to criticism)
-- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Meta-mirror)
-- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Third position)
-- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzný vzorec (Jazykové vzorce, Leveller)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzné heslo (Sleight of Mouth, Meta frame)
+- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzné heslo (Disociace, fobie a trauma, Double dissociation)
+- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzné heslo (Disociace, fobie a trauma, Responding to criticism)
+- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzné heslo (Logické úrovně a percepční pozice, Meta-mirror)
+- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Third position)
+- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzné heslo (Jazykové vzorce, Leveller)
 
 **V kompendiu**
 
-- [EA-6.2.4 Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.2.4 Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – předchozí vzorec rodiny
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – předchozí heslo rodiny
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Smyslová ostrost", "Sensory acuity", "smyslová bdělost", "jemné vnímání", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Smyslová ostrost", "Sensory acuity", "smyslová bdělost", "jemné vnímání", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.14"
-nlp_slug = "smyslova-ostrost"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Sensory acuity"
-nlp_aliases = ["smyslová bdělost", "jemné vnímání"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["kalibrace", "uptime-a-downtime", "testovani-kotvy", "periferni-videni", "krizove-zrcadleni", "kalibrace-ano-ne", "detekce-lzi-v-nlp", "cteni-reci-tela", "smyslove-dukazy-cile"]
-nlp_related_declared = ["kalibrace", "uptime-a-downtime", "periferni-videni", "cteni-reci-tela", "detekce-lzi-v-nlp"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md"]
-nlp_prev = "kalibrace"
-nlp_next = "raport"
-nlp_position = 14
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1979", "druckman-swets-1988", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "oconnor-seymour-1990", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "grinder-delozier-1987", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.14"
+catalog_slug = "smyslova-ostrost"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Sensory acuity"
+catalog_aliases = ["smyslová bdělost", "jemné vnímání"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["kalibrace", "uptime-a-downtime", "testovani-kotvy", "periferni-videni", "krizove-zrcadleni", "kalibrace-ano-ne", "detekce-lzi-v-nlp", "cteni-reci-tela", "smyslove-dukazy-cile"]
+catalog_related_declared = ["kalibrace", "uptime-a-downtime", "periferni-videni", "cteni-reci-tela", "detekce-lzi-v-nlp"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md"]
+catalog_prev = "kalibrace"
+catalog_next = "raport"
+catalog_position = 14
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1979", "druckman-swets-1988", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "oconnor-seymour-1990", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "grinder-delozier-1987", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Smyslová ostrost
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Sensory acuity |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -102,7 +105,7 @@ O samotné možnosti zlepšit pozornost a rozlišovací schopnost cvičením nen
 
 Obrana proti zneužití pojmu spočívá v trvání na oddělení vjemu a výkladu. Když někdo tvrdí, že na vás „vidí“ něco, co popíráte, je legitimní požádat ho o popis toho, co konkrétně viděl, a připomenout, že výklad téhož projevu může být jiný. Je také užitečné vědět, že sebejistota pozorovatele neříká nic o jeho přesnosti a že ani odborníci nečtou lež z chování spolehlivě (Vrij 2008). Druhou obranou je všímat si, kdy se pozornost druhého zostřuje: pokud je vnímavost protistrany nejvyšší ve chvílích, kdy jste unavení nebo dojatí, a právě tehdy přichází návrh nebo žádost, je rozumné rozhodnutí odložit. Třetí obranou je vlastní smyslová ostrost obrácená k situaci: všímat si, jak se cítím, když s tímto člověkem mluvím, a brát tento pocit jako informaci. U lidí, kterým bylo dlouho vykládáno jejich vlastní tělo, se zotavení opírá o obnovu důvěry ve vlastní prožitky a o vztahy, ve kterých jejich slovo o sobě platí (Herman 1992). Odborníci by měli při výcviku pozornosti stejně důkladně učit i meze výkladu, jinak z dovednosti vychovávají sebejisté čtenáře myšlenek.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,30 +124,30 @@ Obrana proti zneužití pojmu spočívá v trvání na oddělení vjemu a výkla
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzný vzorec (Základní pojmy NLP, Uptime and downtime)
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzný vzorec (Kotvení, Testing an anchor)
-- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzný vzorec (Strategie a modelování, Peripheral vision)
-- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Cross-over mirroring)
-- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzný vzorec (Raport a kalibrace, Yes/no calibration)
-- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzný vzorec (Raport a kalibrace, Lie detection claims in NLP)
-- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzný vzorec (Raport a kalibrace, Body-language reading in NLP)
-- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – příbuzný vzorec (Cíle a výsledky, Sensory-based evidence)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzné heslo (Základní pojmy NLP, Uptime and downtime)
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzné heslo (Kotvení, Testing an anchor)
+- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzné heslo (Strategie a modelování, Peripheral vision)
+- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Cross-over mirroring)
+- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzné heslo (Raport a kalibrace, Yes/no calibration)
+- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzné heslo (Raport a kalibrace, Lie detection claims in NLP)
+- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzné heslo (Raport a kalibrace, Body-language reading in NLP)
+- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – příbuzné heslo (Cíle a výsledky, Sensory-based evidence)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – předchozí vzorec rodiny
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – předchozí heslo rodiny
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

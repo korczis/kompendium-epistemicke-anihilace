@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Zdrojový stav", "Resource state", "zdrojový prožitek", "stav se zdroji", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Zdrojový stav", "Resource state", "zdrojový prožitek", "stav se zdroji", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.17"
-nlp_slug = "zdrojovy-stav"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Resource state"
-nlp_aliases = ["zdrojový prožitek", "stav se zdroji"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "stav"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["stav"]
-nlp_related = ["lide-maji-potrebne-zdroje", "stav", "kotva-pojem", "kotveni", "samokotveni", "stohovani-kotev", "kruh-excelence", "prenos-zdroje", "zmena-osobni-historie", "model-score", "stav-vysokeho-vykonu", "zdroje-cile"]
-nlp_related_declared = ["kotva-pojem", "prenos-zdroje", "lide-maji-potrebne-zdroje", "kruh-excelence", "zmena-osobni-historie"]
-nlp_kompendium = ["kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md", "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md", "kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md"]
-nlp_prev = "stav"
-nlp_next = "strategie-pojem"
-nlp_position = 17
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1979", "erickson-rossi-rossi-1976", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "oconnor-seymour-1990", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.17"
+catalog_slug = "zdrojovy-stav"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Resource state"
+catalog_aliases = ["zdrojový prožitek", "stav se zdroji"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "stav"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["stav"]
+catalog_related = ["lide-maji-potrebne-zdroje", "stav", "kotva-pojem", "kotveni", "samokotveni", "stohovani-kotev", "kruh-excelence", "prenos-zdroje", "zmena-osobni-historie", "model-score", "stav-vysokeho-vykonu", "zdroje-cile"]
+catalog_related_declared = ["kotva-pojem", "prenos-zdroje", "lide-maji-potrebne-zdroje", "kruh-excelence", "zmena-osobni-historie"]
+catalog_kompendium = ["kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md", "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md", "kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md"]
+catalog_prev = "stav"
+catalog_next = "strategie-pojem"
+catalog_position = 17
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1979", "erickson-rossi-rossi-1976", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "oconnor-seymour-1990", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Zdrojový stav
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Resource state |
 | **Jiné názvy** | zdrojový prožitek, stav se zdroji |
-| **Obecnější vzorec** | [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) |
+| **Obecnější heslo** | [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Důkazy o specifických technikách NLP, které pracují se zdrojovým stavem, j
 
 Obranou proti posunuté struktuře zdroje je pravidelně si ověřovat, kde vlastní síla vzniká. Kdo si dokáže vybavit situace mimo vztah, skupinu nebo kurz, ve kterých byl klidný, schopný a radostný, má protiváhu vůči tvrzení, že zdroj se mu otevřel teprve tam. Užitečné je všímat si, zda po akcích přichází prázdnota, kterou může zaplnit jen další akce, a zda se pocit vlastní hodnoty mění podle přítomnosti autority. To jsou znaky závislosti, ne růstu. Druhou obranou je ostražitost vůči slibům rychlé proměny minulosti. Pokud technika slibuje, že staré bolestné vzpomínky budou po jednom sezení prožívány jinak, je rozumné ptát se po důkazech a po kvalifikaci toho, kdo ji nabízí. U lidí, kteří odešli ze skupiny, kde byl jejich pocit síly vázán na vůdce, je zotavení spojeno s postupným znovuobjevováním vlastních zdrojů: vztahů, činností a míst, kde se cítili dobře dřív. Hassan popisuje, že návrat k dřívější identitě a ke vztahům mimo skupinu je důležitou součástí odchodu (Hassan 1988). Terapie v této fázi stojí na stabilizaci a bezpečí, ne na dalším navozování intenzivních stavů (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,33 +126,33 @@ Obranou proti posunuté struktuře zdroje je pravidelně si ověřovat, kde vlas
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzný vzorec (Předpoklady NLP, People have the resources they need)
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – příbuzný vzorec (Kotvení, Self-anchoring)
-- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzný vzorec (Kotvení, Stacking anchors)
-- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – příbuzný vzorec (Kotvení, Circle of excellence)
-- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzný vzorec (Kotvení, Resource transfer)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzný vzorec (Logické úrovně a percepční pozice, SCORE model)
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzný vzorec (Strategie a modelování, High-performance state)
-- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – příbuzný vzorec (Cíle a výsledky, Resources for the outcome)
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzné heslo (Předpoklady NLP, People have the resources they need)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – příbuzné heslo (Kotvení, Self-anchoring)
+- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzné heslo (Kotvení, Stacking anchors)
+- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – příbuzné heslo (Kotvení, Circle of excellence)
+- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzné heslo (Kotvení, Resource transfer)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzné heslo (Logické úrovně a percepční pozice, SCORE model)
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzné heslo (Strategie a modelování, High-performance state)
+- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – příbuzné heslo (Cíle a výsledky, Resources for the outcome)
 
 **V kompendiu**
 
-- [EA-6.3.1 Stabilizační fáze protokol](@/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.6 DBT — distress tolerance](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.3.1 Stabilizační fáze protokol](@/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.6 DBT — distress tolerance](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – předchozí vzorec rodiny
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – předchozí heslo rodiny
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

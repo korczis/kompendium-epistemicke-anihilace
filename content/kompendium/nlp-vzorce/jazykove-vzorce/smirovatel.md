@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Usmiřovatel", "Placater", "usmiřující postoj", "placating", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Usmiřovatel", "Placater", "usmiřující postoj", "placating", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.06"
-nlp_slug = "smirovatel"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Placater"
-nlp_aliases = ["usmiřující postoj", "placating"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kategorie-satirove"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kategorie-satirove"]
-nlp_related = ["inkongruence", "ramec-souhlasu", "obvinovatel", "vyrovnany"]
-nlp_related_declared = ["obvinovatel", "vyrovnany", "inkongruence", "ramec-souhlasu"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-2-5-7-self-cancelation.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/reframing/ramec-souhlasu.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-2-5-7-self-cancelation.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md"]
-nlp_prev = "kategorie-satirove"
-nlp_next = "obvinovatel"
-nlp_position = 6
-nlp_family_size = 20
-nlp_sources = ["beck-1976", "grinder-bandler-1976", "herman-1992", "perls-1969", "satir-1972", "stark-2007", "tosey-mathison-2009", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["grinder-bandler-1976"]
-nlp_sources_roots = ["perls-1969", "satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "stark-2007", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.06"
+catalog_slug = "smirovatel"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Placater"
+catalog_aliases = ["usmiřující postoj", "placating"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kategorie-satirove"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kategorie-satirove"]
+catalog_related = ["inkongruence", "ramec-souhlasu", "obvinovatel", "vyrovnany"]
+catalog_related_declared = ["obvinovatel", "vyrovnany", "inkongruence", "ramec-souhlasu"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-2-5-7-self-cancelation.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/reframing/ramec-souhlasu.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-2-5-7-self-cancelation.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md"]
+catalog_prev = "kategorie-satirove"
+catalog_next = "obvinovatel"
+catalog_position = 6
+catalog_family_size = 20
+catalog_sources = ["beck-1976", "grinder-bandler-1976", "herman-1992", "perls-1969", "satir-1972", "stark-2007", "tosey-mathison-2009", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["grinder-bandler-1976"]
+catalog_sources_roots = ["perls-1969", "satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "stark-2007", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.toml"
 +++
 
 # Usmiřovatel
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Placater |
 | **Jiné názvy** | usmiřující postoj, placating |
-| **Obecnější vzorec** | [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) |
+| **Obecnější heslo** | [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -113,7 +116,7 @@ Pro člověka, který u sebe usmiřování rozpozná, je prvním krokem k obran�
 
 V terapii se s usmiřováním pracuje tak, že člověk znovu získává přístup k vlastním potřebám, nesouhlasu a hněvu, které postoj dlouho potlačoval. Herman popisuje, že obnova po dlouhodobém nátlaku probíhá ve vztahu, ve kterém člověk smí nesouhlasit, aniž by byl trestán, a ve kterém se postupně učí důvěřovat vlastnímu úsudku (Herman 1992). Cílem není z usmiřovatele udělat obviňovatele, ale umožnit mu [vyrovnanou komunikaci](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md), ve které má místo on i druhý.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -132,26 +135,26 @@ V terapii se s usmiřováním pracuje tak, že člověk znovu získává příst
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzný vzorec (Základní pojmy NLP, Incongruence)
-- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzný vzorec (Reframing a rámce, Agreement frame)
-- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – příbuzný vzorec (Jazykové vzorce, Blamer)
-- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzný vzorec (Jazykové vzorce, Leveller)
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzné heslo (Základní pojmy NLP, Incongruence)
+- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzné heslo (Reframing a rámce, Agreement frame)
+- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – příbuzné heslo (Jazykové vzorce, Blamer)
+- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzné heslo (Jazykové vzorce, Leveller)
 
 **V kompendiu**
 
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.7 Preventivní sebecenzura (self-cancelation)](@/kompendium/techniques/ea-2-5-7-self-cancelation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.4 Měření coercive control (škály a dotazníky)](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.7 Preventivní sebecenzura (self-cancelation)](@/kompendium/techniques/ea-2-5-7-self-cancelation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.4 Měření coercive control (škály a dotazníky)](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – předchozí vzorec rodiny
-- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – předchozí heslo rodiny
+- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

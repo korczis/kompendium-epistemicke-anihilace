@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Auditivně digitální systém", "Auditory digital system", "Ad", "auditivně digitální", "vnitřní řeč", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Auditivně digitální systém", "Auditory digital system", "Ad", "auditivně digitální", "vnitřní řeč", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.06"
-nlp_slug = "auditivne-digitalni-system"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Auditory digital system"
-nlp_aliases = ["Ad", "auditivně digitální", "vnitřní řeč"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "reprezentacni-systemy"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reprezentacni-systemy"]
-nlp_related = ["auditivni-system", "preferovany-reprezentacni-system", "vnitrni-dialog", "meta-model", "zmena-vnitrniho-hlasu", "pocitac"]
-nlp_related_declared = ["vnitrni-dialog", "auditivni-system", "zmena-vnitrniho-hlasu", "meta-model", "preferovany-reprezentacni-system"]
-nlp_kompendium = ["kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md"]
-nlp_prev = "olfaktorni-a-gustatorni-system"
-nlp_next = "vedouci-system"
-nlp_position = 6
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1979", "bateson-1972", "beck-1976", "dilts-1980", "ellis-1962", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = ["bateson-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.06"
+catalog_slug = "auditivne-digitalni-system"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Auditory digital system"
+catalog_aliases = ["Ad", "auditivně digitální", "vnitřní řeč"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "reprezentacni-systemy"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reprezentacni-systemy"]
+catalog_related = ["auditivni-system", "preferovany-reprezentacni-system", "vnitrni-dialog", "meta-model", "zmena-vnitrniho-hlasu", "pocitac"]
+catalog_related_declared = ["vnitrni-dialog", "auditivni-system", "zmena-vnitrniho-hlasu", "meta-model", "preferovany-reprezentacni-system"]
+catalog_kompendium = ["kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/thought-stopping.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md"]
+catalog_prev = "olfaktorni-a-gustatorni-system"
+catalog_next = "vedouci-system"
+catalog_position = 6
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1979", "bateson-1972", "beck-1976", "dilts-1980", "ellis-1962", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.toml"
 +++
 
 # Auditivně digitální systém
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Auditory digital system |
 | **Jiné názvy** | Ad, auditivně digitální, vnitřní řeč |
-| **Obecnější vzorec** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
+| **Obecnější heslo** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ vlastní uvažování, často s podporou terapie, která pracuje s obsahem myšl
 vypínáním (Hassan 1988). Přehled ověřených přístupů nabízí stránka o [terapeutických
 přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,28 +216,28 @@ přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md).
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory representational system)
-- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzný vzorec (Základní pojmy NLP, Preferred representational system)
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzný vzorec (Submodality, Changing the inner voice)
-- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – příbuzný vzorec (Jazykové vzorce, Computer (super-reasonable))
+- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory representational system)
+- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzné heslo (Základní pojmy NLP, Preferred representational system)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzné heslo (Submodality, Changing the inner voice)
+- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – příbuzné heslo (Jazykové vzorce, Computer (super-reasonable))
 
 **V kompendiu**
 
-- [EA-6.3.3 Metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.3.3 Metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – předchozí vzorec rodiny
-- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – předchozí heslo rodiny
+- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Redefinice", "Redefine", "přejmenování", "záměna slova v přesvědčení", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Redefinice", "Redefine", "přejmenování", "záměna slova v přesvědčení", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.04"
-nlp_slug = "som-redefinice"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Redefine"
-nlp_aliases = ["přejmenování", "záměna slova v přesvědčení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["nominalizace", "komplexni-ekvivalence", "som-zobecneni", "som-analogie", "reframing", "obsahovy-reframing", "slovni-baliky"]
-nlp_related_declared = ["obsahovy-reframing", "slovni-baliky", "nominalizace", "komplexni-ekvivalence", "som-zobecneni"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_links_prose = ["kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_prev = "som-zamer"
-nlp_next = "som-dusledek"
-nlp_position = 4
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1982", "beck-1976", "dilts-1999", "grice-1975", "herman-1992", "korzybski-1933", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "dilts-1999"]
-nlp_sources_roots = ["grice-1975", "korzybski-1933"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.04"
+catalog_slug = "som-redefinice"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Redefine"
+catalog_aliases = ["přejmenování", "záměna slova v přesvědčení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["presvedcovaci-definice", "nominalizace", "komplexni-ekvivalence", "som-zobecneni", "som-analogie", "reframing", "obsahovy-reframing", "slovni-baliky"]
+catalog_related_declared = ["obsahovy-reframing", "slovni-baliky", "nominalizace", "komplexni-ekvivalence", "som-zobecneni"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_prev = "som-zamer"
+catalog_next = "som-dusledek"
+catalog_position = 4
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1982", "beck-1976", "dilts-1999", "grice-1975", "herman-1992", "korzybski-1933", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "dilts-1999"]
+catalog_sources_roots = ["grice-1975", "korzybski-1933"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.toml"
 +++
 
 # Redefinice
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Redefine |
 | **Jiné názvy** | přejmenování, záměna slova v přesvědčení |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ zdrženlivě, aby jeden cizí slovník nenahradil jiným. Příbuzný vzorec
 [zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) nepřejmenovává
 prvek přesvědčení, ale přesouvá ho do širší kategorie.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,29 +219,30 @@ prvek přesvědčení, ale přesouvá ho do širší kategorie.
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzný vzorec (Meta-model, Nominalisation)
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzný vzorec (Meta-model, Complex equivalence)
-- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzný vzorec (Sleight of Mouth, Chunk up)
-- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – příbuzný vzorec (Sleight of Mouth, Analogy)
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzný vzorec (Reframing a rámce, Reframing)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzný vzorec (Jazykové vzorce, Loaded words)
+- [Přesvědčovací definice](@/kompendium/argumentacni-fauly/jazykove-klamy/presvedcovaci-definice.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Persuasive definition)
+- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzné heslo (Meta-model, Nominalisation)
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (Meta-model, Complex equivalence)
+- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzné heslo (Sleight of Mouth, Chunk up)
+- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – příbuzné heslo (Sleight of Mouth, Analogy)
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzné heslo (Reframing a rámce, Reframing)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzné heslo (Jazykové vzorce, Loaded words)
 
 **V kompendiu**
 
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – předchozí vzorec rodiny
-- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – předchozí heslo rodiny
+- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

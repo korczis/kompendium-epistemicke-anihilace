@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-integrace-casti"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Práce s částmi", "Parts work", "NLP"]
+keywords = ["Práce s částmi", "Parts work", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "integrace-casti"
-nlp_code = "15"
-nlp_en = "Parts work"
-nlp_size = 9
-nlp_members = ["integrace-casti", "vizualni-squash", "jadrova-transformace", "vyjednavani-casti", "sekvencni-inkongruence", "simultanni-inkongruence", "elicitace-pozitivniho-zameru", "integrace-polarit", "stepeni-ja-v-manipulaci"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["andreas-andreas-1994", "bandler-grinder-1982", "dilts-delozier-2000", "festinger-1957", "grinder-bandler-1976", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "perls-1969", "satir-1972", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "integrace-casti"
+catalog_code = "15"
+catalog_en = "Parts work"
+catalog_size = 9
+catalog_members = ["integrace-casti", "vizualni-squash", "jadrova-transformace", "vyjednavani-casti", "sekvencni-inkongruence", "simultanni-inkongruence", "elicitace-pozitivniho-zameru", "integrace-polarit", "stepeni-ja-v-manipulaci"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["andreas-andreas-1994", "bandler-grinder-1982", "dilts-delozier-2000", "festinger-1957", "grinder-bandler-1976", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "perls-1969", "satir-1972", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 +++
 
 # Práce s částmi
@@ -58,12 +60,12 @@ Obrana proti zneužití vzorců této rodiny začíná u autorství. Pokud někd
 
 V klinické péči je u lidí, na které byla metafora částí uplatňována manipulativně, na místě opatrnost s dalšími postupy stejného typu. Zotavení se zaměřuje na obnovu důvěry ve vlastní pochybnost, na pojmenování toho, kdo a k čemu vnitřní rozdělení používal, a na postupné znovuspojení vlastního příběhu. Herman popisuje zotavení po dlouhodobém zneužití jako postup od obnovy bezpečí přes zpracování ztrát ke znovunavázání vztahů a obnově souvislé identity (Herman 1992). Kompendium k tomu nabízí oporu v [post-cult protokolu](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) a v kapitole o [diferenciální diagnostice](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), která pomáhá odlišit důsledky manipulativního prostředí od disociativních poruch. Odborníci, kteří s částmi pracují, by měli metaforu vždy předkládat jako metaforu, nechat obsah částí na klientovi a žádnou z nich nehodnotit.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-15.01` | [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) | Parts integration | vzorec | převážně terapeutické | střední |
 | `NLP-15.02` | [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) | Visual squash | vzorec | převážně terapeutické | střední |
 | `NLP-15.03` | [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) | Core transformation | vzorec | převážně terapeutické | střední |
@@ -73,6 +75,43 @@ V klinické péči je u lidí, na které byla metafora částí uplatňována ma
 | `NLP-15.07` | [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) | Eliciting a part's positive intention | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-15.08` | [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) | Polarity integration | vzorec | převážně terapeutické | střední |
 | `NLP-15.09` | [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) | Splitting of the self in manipulative groups | pojem | výkladový pojem | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Práce s částmi"]
+  click F "@/kompendium/nlp-vzorce/integrace-casti/_index.md"
+  n1["Integrace částí"]
+  n2["Vizuální squash"]
+  n3["Jádrová transformace"]
+  n4["Vyjednávání mezi částmi"]
+  n5["Sekvenční inkongruence"]
+  n6["Simultánní inkongruence"]
+  n7["Hledání pozitivního záměru části"]
+  n8["Integrace polarit"]
+  n9["Štěpení já v manipulativních skupinách"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  F --> n5
+  F --> n6
+  F --> n7
+  n1 --> n8
+  F --> n9
+  click n1 "@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md"
+  click n2 "@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md"
+  click n3 "@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md"
+  click n4 "@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md"
+  click n5 "@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md"
+  click n6 "@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md"
+  click n7 "@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md"
+  click n8 "@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md"
+  click n9 "@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md"
+```
 
 ## Literatura
 
@@ -99,6 +138,6 @@ V klinické péči je u lidí, na které byla metafora částí uplatňována ma
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – předchozí rodina katalogu
 - [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

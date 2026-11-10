@@ -24,7 +24,7 @@ run "Front matter je normalizovaný" python3 scripts/normalize-front-matter.py -
 run "Markdown je upravený" python3 scripts/polish-markdown.py --check
 run "Pojmy jsou propojené" python3 scripts/link-terms.py --check
 run "Informační architektura se nezhoršuje" python3 scripts/check-ia.py
-run "Katalog NLP vzorců souhlasí se stránkami" python3 scripts/nlp-catalog.py --check
+run "Katalogy knihy souhlasí se stránkami" python3 scripts/catalogs.py --check
 run "Testy nástrojů obsahu" bash test/run.sh
 run "Sestavení (interní odkazy jsou chyba)" npm run --silent build
 run "Flowbite Pro" node "$HOME/.claude/skills/flowbite-pro/verify.mjs" .

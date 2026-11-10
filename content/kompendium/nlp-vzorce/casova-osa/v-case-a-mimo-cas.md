@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["„V čase“ a „mimo čas“", "In time and through time", "in time", "through time", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["„V čase“ a „mimo čas“", "In time and through time", "in time", "through time", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.02"
-nlp_slug = "v-case-a-mimo-cas"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "In time and through time"
-nlp_aliases = ["in time", "through time"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "casova-osa-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["casova-osa-pojem"]
-nlp_related = ["asociace", "disociace", "casova-osa-pojem", "metaprogramy-pojem", "elicitace-casove-osy", "zmena-tvaru-casove-osy", "casova-perspektiva", "casova-orientace"]
-nlp_related_declared = ["elicitace-casove-osy", "casova-orientace", "metaprogramy-pojem", "asociace", "disociace", "casova-perspektiva"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md", "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md"]
-nlp_prev = "elicitace-casove-osy"
-nlp_next = "terapie-casove-osy"
-nlp_position = 2
-nlp_family_size = 12
-nlp_sources = ["andreas-andreas-1987", "beck-1976", "gilovich-1991", "james-woodsmall-1988", "lakoff-johnson-1980", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "gilovich-1991", "lakoff-johnson-1980", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Rozlišení jako pracovní metafora", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.02"
+catalog_slug = "v-case-a-mimo-cas"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "In time and through time"
+catalog_aliases = ["in time", "through time"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "casova-osa-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["casova-osa-pojem"]
+catalog_related = ["asociace", "disociace", "casova-osa-pojem", "metaprogramy-pojem", "elicitace-casove-osy", "zmena-tvaru-casove-osy", "casova-perspektiva", "casova-orientace"]
+catalog_related_declared = ["elicitace-casove-osy", "casova-orientace", "metaprogramy-pojem", "asociace", "disociace", "casova-perspektiva"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md", "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md"]
+catalog_prev = "elicitace-casove-osy"
+catalog_next = "terapie-casove-osy"
+catalog_position = 2
+catalog_family_size = 12
+catalog_sources = ["andreas-andreas-1987", "beck-1976", "gilovich-1991", "james-woodsmall-1988", "lakoff-johnson-1980", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "gilovich-1991", "lakoff-johnson-1980", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Rozlišení jako pracovní metafora", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # „V čase“ a „mimo čas“
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | In time and through time |
 | **Jiné názvy** | in time, through time |
-| **Obecnější vzorec** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
+| **Obecnější heslo** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -79,7 +82,7 @@ Dvojice „v čase“ a „mimo čas“ (anglicky in time a through time) označ
 
 ## Původ a souvislosti
 
-Rozlišení se v literatuře NLP spojuje s prací Tada Jamese a Wyatta Woodsmalla, kteří ho v knize o terapii časové osy rozpracovali jako základ svého pojetí osobnosti a spojili ho s dalšími takzvanými metaprogramy (James a Woodsmall 1988). Navazovali na starší práci s prostorovým kódováním času, kterou v rámci submodalit popsali Andreasovi (Andreas a Andreas 1987). Obecně lingvistický základ má rozlišení v tom, že jazyk zná dva obrazy plynutí času: buď se člověk pohybuje časem vpřed, nebo čas plyne kolem nehybného pozorovatele. Lakoff a Johnson tyto obrazy popsali jako metaforické struktury, které ovlivňují, jak o čase mluvíme a uvažujeme (Lakoff a Johnson 1980). NLP z této obecné vlastnosti jazyka vyvozuje stálý individuální rys a přiřazuje k němu povahu, čímž jde za hranici toho, co lingvistický popis tvrdí. Rozlišení se také těsně dotýká pojmů [asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) a [disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md): v běžném podání NLP se uspořádání „v čase“ spojuje s asociovaným prožíváním vzpomínek a uspořádání „mimo čas“ s jejich disociovaným pozorováním z odstupu.
+Rozlišení se v literatuře NLP spojuje s prací Tada Jamese a Wyatta Woodsmalla, kteří ho v knize o terapii časové osy rozpracovali jako základ svého pojetí osobnosti a spojili ho s dalšími takzvanými metaprogramy (James a Woodsmall 1988). Navazovali na starší práci s prostorovým kódováním času, kterou v rámci submodalit popsali Andreasovi (Andreas a Andreas 1987). Obecně lingvistický základ má rozlišení v tom, že jazyk zná dva obrazy plynutí času: buď se člověk pohybuje časem vpřed, nebo čas plyne kolem nehybného pozorovatele. Lakoff a Johnson tyto obrazy popsali jako metaforické struktury, které ovlivňují, jak o čase mluvíme a uvažujeme (Lakoff a Johnson 1980). NLP z této obecné vlastnosti jazyka vyvozuje stálý individuální rys a přiřazuje k němu povahu, čímž jde za hranici toho, co lingvistický popis tvrdí. Rozlišení se také těsně dotýká pojmů [asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) a [disociace](@/glossary/disociace.md): v běžném podání NLP se uspořádání „v čase“ spojuje s asociovaným prožíváním vzpomínek a uspořádání „mimo čas“ s jejich disociovaným pozorováním z odstupu.
 
 ## Struktura vzorce
 
@@ -107,7 +110,7 @@ Existence dvou jazykových obrazů plynutí času je v kognitivní lingvistice d
 
 Základní obranou je chápat rozlišení jako metaforu, ne jako diagnózu. Pokud někdo tvrdí, že víte něco o své povaze, protože jste ukázali budoucnost určitým směrem, je legitimní se zeptat, na jakém výzkumu tvrzení stojí. Druhou obranou je trvat na tom, aby se rozhodnutí o vás opírala o doložené výsledky a pozorovatelné jednání, ne o typologii. V pracovním prostředí to znamená žádat hodnocení podle konkrétních úkolů, termínů a podmínek, za kterých byly plněny. Třetí obranou je všímat si vlastního potvrzovacího zkreslení: když nálepka sedí, stojí za to vyhledat i situace, kdy neplatí (Gilovich 1991). Kdo přijal typ jako součást své identity a začal podle něj omezovat své možnosti, může se k vlastnímu popisu vrátit tím, že si zapíše konkrétní situace, kdy jednal jinak, než typ předpovídá. Takové zapisování pozorování odděleně od výkladu je běžnou součástí kognitivních přístupů (Beck 1976). Kompendium obecné mechanismy zkreslení úsudku shrnuje v přehledu [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -124,29 +127,29 @@ Základní obranou je chápat rozlišení jako metaforu, ne jako diagnózu. Poku
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Meta-programs (concept))
-- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzný vzorec (Časová osa, Eliciting the timeline)
-- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzný vzorec (Časová osa, Changing the shape of the timeline)
-- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzný vzorec (Časová osa, Time perspective)
-- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzný vzorec (Metaprogramy, Time orientation)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzné heslo (Základní pojmy NLP, Timeline (concept))
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzné heslo (Základní pojmy NLP, Meta-programs (concept))
+- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzné heslo (Časová osa, Eliciting the timeline)
+- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzné heslo (Časová osa, Changing the shape of the timeline)
+- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzné heslo (Časová osa, Time perspective)
+- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzné heslo (Metaprogramy, Time orientation)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – předchozí vzorec rodiny
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – předchozí heslo rodiny
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

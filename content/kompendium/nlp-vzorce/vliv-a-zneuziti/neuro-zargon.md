@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Neurožargon", "Neuro-jargon", "neurobláboly", "neurovědecký nátěr", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Neurožargon", "Neuro-jargon", "neurobláboly", "neurovědecký nátěr", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.18"
-nlp_slug = "neuro-zargon"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Neuro-jargon"
-nlp_aliases = ["neurobláboly", "neurovědecký nátěr"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mysl-a-telo-jeden-system", "zakon-pozadovane-variety", "kotveni-versus-ukotveni-odhadu", "pocitac", "nlp-v-reklame", "trh-certifikaci-nlp", "guru-efekt", "nlp-jako-pseudoveda", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["nlp-jako-pseudoveda", "kargokultovni-psychologie", "guru-efekt", "trh-certifikaci-nlp", "mysl-a-telo-jeden-system"]
-nlp_kompendium = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_prev = "hypnoticky-jazyk-online"
-nlp_next = "obrana-proti-vlivovym-vzorcum"
-nlp_position = 18
-nlp_family_size = 20
-nlp_sources = ["dilts-1980", "gilovich-1991", "langer-1978", "lifton-1961", "lilienfeld-2015", "oconnor-seymour-1990", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["gilovich-1991", "langer-1978", "lifton-1961", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.18"
+catalog_slug = "neuro-zargon"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Neuro-jargon"
+catalog_aliases = ["neurobláboly", "neurovědecký nátěr"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["odvolani-na-autoritu", "anonymni-autorita", "odvolani-na-novost", "vedecky-zargon", "pravidlo-uzivani-jazyka", "mysl-a-telo-jeden-system", "zakon-pozadovane-variety", "kotveni-versus-ukotveni-odhadu", "pocitac", "nlp-v-reklame", "trh-certifikaci-nlp", "guru-efekt", "nlp-jako-pseudoveda", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["nlp-jako-pseudoveda", "kargokultovni-psychologie", "guru-efekt", "trh-certifikaci-nlp", "mysl-a-telo-jeden-system"]
+catalog_kompendium = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+catalog_prev = "hypnoticky-jazyk-online"
+catalog_next = "obrana-proti-vlivovym-vzorcum"
+catalog_position = 18
+catalog_family_size = 20
+catalog_sources = ["dilts-1980", "gilovich-1991", "langer-1978", "lifton-1961", "lilienfeld-2015", "oconnor-seymour-1990", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["gilovich-1991", "langer-1978", "lifton-1961", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
 +++
 
 # Neurožargon
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.18` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Neuro-jargon |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -205,7 +208,7 @@ terapii, ale návrat k nezávislým zdrojům, například k přehledovým člán
 kteří nemají na prodeji zájem. Heslo [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md)
 k tomu nabízí přehled kritické literatury.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -225,31 +228,36 @@ k tomu nabízí přehled kritické literatury.
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzný vzorec (Předpoklady NLP, Mind and body are one system)
-- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzný vzorec (Předpoklady NLP, The law of requisite variety)
-- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzný vzorec (Kotvení, NLP anchoring versus the anchoring heuristic)
-- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – příbuzný vzorec (Jazykové vzorce, Computer (super-reasonable))
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in advertising)
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzný vzorec (Vliv a zneužití NLP, The NLP certification market)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
-- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as pseudoscience)
-- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as cargo-cult psychology)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [Odvolání na nepatřičnou autoritu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to authority)
+- [Anonymní autorita](@/kompendium/argumentacni-fauly/relevance/anonymni-autorita.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to anonymous authority)
+- [Odvolání na novost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-novost.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to novelty)
+- [Vědecký žargon jako argument](@/kompendium/argumentacni-fauly/hodnoty-a-veda/vedecky-zargon.md) – příbuzné heslo (Argumentační fauly: Klamy hodnot, přírody a vědy, Scientism by jargon)
+- [Pravidlo užívání jazyka](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzivani-jazyka.md) – příbuzné heslo (Argumentační fauly: Principy kritické diskuse a teorie argumentace, Usage rule)
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzné heslo (Předpoklady NLP, Mind and body are one system)
+- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzné heslo (Předpoklady NLP, The law of requisite variety)
+- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzné heslo (Kotvení, NLP anchoring versus the anchoring heuristic)
+- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – příbuzné heslo (Jazykové vzorce, Computer (super-reasonable))
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in advertising)
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
+- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as pseudoscience)
+- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as cargo-cult psychology)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – předchozí vzorec rodiny
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – předchozí heslo rodiny
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

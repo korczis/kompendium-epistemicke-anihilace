@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Hierarchie myšlenek", "Hierarchy of ideas", "hierarchie idejí", "žebříček abstrakce", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Hierarchie myšlenek", "Hierarchy of ideas", "hierarchie idejí", "žebříček abstrakce", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.01"
-nlp_slug = "hierarchie-idei"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Hierarchy of ideas"
-nlp_aliases = ["hierarchie idejí", "žebříček abstrakce"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "chunking"
-nlp_narrower = ["chunking-nahoru", "chunking-dolu", "lateralni-chunking"]
-nlp_depth = 1
-nlp_ancestors = ["chunking"]
-nlp_related = ["logicke-urovne-pojem", "chunking", "meta-model", "som-zobecneni", "obecne-a-specificke", "chunking-nahoru", "chunking-dolu", "lateralni-chunking"]
-nlp_related_declared = ["chunking-nahoru", "chunking-dolu", "lateralni-chunking", "obecne-a-specificke", "logicke-urovne-pojem", "meta-model"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-4-2-russell-typ-violace.md", "kompendium/02-uvod/filosoficky-ramec.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md", "kompendium/nlp-vzorce/jazykove-vzorce/zatim.md", "kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/chunking.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-4-2-russell-typ-violace.md"]
-nlp_prev = ""
-nlp_next = "chunking-nahoru"
-nlp_position = 1
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "beck-1976", "dilts-1999", "korzybski-1933", "lifton-1961", "mcguire-1964", "miller-1956", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1999", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "korzybski-1933", "miller-1956", "miller-galanter-pribram-1960", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.01"
+catalog_slug = "hierarchie-idei"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Hierarchy of ideas"
+catalog_aliases = ["hierarchie idejí", "žebříček abstrakce"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "chunking"
+catalog_narrower = ["chunking-nahoru", "chunking-dolu", "lateralni-chunking"]
+catalog_depth = 1
+catalog_ancestors = ["chunking"]
+catalog_related = ["logicke-urovne-pojem", "chunking", "meta-model", "som-zobecneni", "obecne-a-specificke", "chunking-nahoru", "chunking-dolu", "lateralni-chunking"]
+catalog_related_declared = ["chunking-nahoru", "chunking-dolu", "lateralni-chunking", "obecne-a-specificke", "logicke-urovne-pojem", "meta-model"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-4-2-russell-typ-violace.md", "kompendium/02-uvod/filosoficky-ramec.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md", "kompendium/nlp-vzorce/jazykove-vzorce/zatim.md", "kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/chunking.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-4-2-russell-typ-violace.md"]
+catalog_prev = ""
+catalog_next = "chunking-nahoru"
+catalog_position = 1
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "beck-1976", "dilts-1999", "korzybski-1933", "lifton-1961", "mcguire-1964", "miller-1956", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1999", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "korzybski-1933", "miller-1956", "miller-galanter-pribram-1960", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.toml"
 +++
 
 # Hierarchie myšlenek
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Hierarchy of ideas |
 | **Jiné názvy** | hierarchie idejí, žebříček abstrakce |
-| **Obecnější vzorec** | [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) |
+| **Obecnější heslo** | [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -109,7 +112,7 @@ Obrana stojí na tom, že si posluchač pohyb po žebříčku zviditelní. Pomá
 
 U lidí, kteří byli dlouho vystaveni prostředí s obecnými hesly a vynucenými zobecněními, je součástí zotavení návrat ke konkrétnímu a ověřitelnému jazyku. Klinici popisují, že pomáhá přepisovat obecné soudy o sobě, převzaté od druhých, do konkrétních popisů událostí, které lze posoudit samostatně (Beck 1976). Takový přepis neslouží k tomu, aby člověk převzal novou „správnou“ hierarchii, ale k tomu, aby znovu sám rozhodoval, na jaké úrovni a v jakém rámci o své zkušenosti mluví. Příbuzné rozlišení obecného a konkrétního v metaprogramech popisuje stránka [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -135,32 +138,32 @@ U lidí, kteří byli dlouho vystaveni prostředí s obecnými hesly a vynucený
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – zvláštní případ tohoto vzorce
-- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – zvláštní případ tohoto vzorce
-- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – zvláštní případ tohoto vzorce
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – zvláštní případ tohoto hesla
+- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – zvláštní případ tohoto hesla
+- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Logical levels (concept))
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzný vzorec (Základní pojmy NLP, Chunking)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzný vzorec (Sleight of Mouth, Chunk up)
-- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – příbuzný vzorec (Metaprogramy, General and specific)
-- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzný vzorec (Jazykové vzorce, Chunking up)
-- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzný vzorec (Jazykové vzorce, Chunking down)
-- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – příbuzný vzorec (Jazykové vzorce, Lateral chunking)
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – příbuzné heslo (Základní pojmy NLP, Logical levels (concept))
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzné heslo (Základní pojmy NLP, Chunking)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzné heslo (Sleight of Mouth, Chunk up)
+- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – příbuzné heslo (Metaprogramy, General and specific)
+- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzné heslo (Jazykové vzorce, Chunking up)
+- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzné heslo (Jazykové vzorce, Chunking down)
+- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – příbuzné heslo (Jazykové vzorce, Lateral chunking)
 
 **V kompendiu**
 
-- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.2 Russellova violace typové hierarchie](@/kompendium/techniques/ea-5-4-2-russell-typ-violace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

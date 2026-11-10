@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Otevřená sugesce", "Open-ended suggestion", "neurčitá sugesce", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Otevřená sugesce", "Open-ended suggestion", "neurčitá sugesce", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.23"
-nlp_slug = "otevrena-sugesce"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Open-ended suggestion"
-nlp_aliases = ["neurčitá sugesce"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["umyslna-vagnost", "iluze-volby", "utilizace", "sugesce-pokryvajici-vsechny-moznosti"]
-nlp_related_declared = ["umyslna-vagnost", "sugesce-pokryvajici-vsechny-moznosti", "utilizace", "iluze-volby"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md"]
-nlp_prev = "implikovane-direktivum"
-nlp_next = "sugesce-pokryvajici-vsechny-moznosti"
-nlp_position = 23
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "erickson-rossi-rossi-1976", "gilovich-1991", "haley-1973", "kirsch-lynn-1995", "loftus-palmer-1974", "mcguire-1964", "rogers-1951", "singer-lalich-1995", "vrij-2008", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
-nlp_sources_critical = ["gilovich-1991", "kirsch-lynn-1995", "loftus-palmer-1974", "mcguire-1964", "rogers-1951", "singer-lalich-1995", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od příbuzných jevů", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.23"
+catalog_slug = "otevrena-sugesce"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Open-ended suggestion"
+catalog_aliases = ["neurčitá sugesce"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["umyslna-vagnost", "iluze-volby", "utilizace", "sugesce-pokryvajici-vsechny-moznosti"]
+catalog_related_declared = ["umyslna-vagnost", "sugesce-pokryvajici-vsechny-moznosti", "utilizace", "iluze-volby"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md"]
+catalog_prev = "implikovane-direktivum"
+catalog_next = "sugesce-pokryvajici-vsechny-moznosti"
+catalog_position = 23
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "erickson-rossi-rossi-1976", "gilovich-1991", "haley-1973", "kirsch-lynn-1995", "loftus-palmer-1974", "mcguire-1964", "rogers-1951", "singer-lalich-1995", "vrij-2008", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_critical = ["gilovich-1991", "kirsch-lynn-1995", "loftus-palmer-1974", "mcguire-1964", "rogers-1951", "singer-lalich-1995", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od příbuzných jevů", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
 +++
 
 # Otevřená sugesce
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.23` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Open-ended suggestion |
 | **Jiné názvy** | neurčitá sugesce |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -201,7 +204,7 @@ podstatnou částí návratu k samostatnému myšlení (Singer a Lalich 1995). V
 praxi je samozřejmým standardem, že otevřená sugesce zahrnuje i otevřený výklad a že terapeut
 nepřepisuje význam, který klient svému prožitku sám dá.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,25 +224,25 @@ nepřepisuje význam, který klient svému prožitku sám dá.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggestion covering all possibilities)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzné heslo (Ericksonovská hypnóza, Suggestion covering all possibilities)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – předchozí vzorec rodiny
-- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – předchozí heslo rodiny
+- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

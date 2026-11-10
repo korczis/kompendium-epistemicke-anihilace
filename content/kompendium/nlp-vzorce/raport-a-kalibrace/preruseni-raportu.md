@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Přerušení raportu", "Breaking rapport", "mismatching", "záměrné nesladění", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Přerušení raportu", "Breaking rapport", "mismatching", "záměrné nesladění", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.10"
-nlp_slug = "preruseni-raportu"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Breaking rapport"
-nlp_aliases = ["mismatching", "záměrné nesladění"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "raport"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["raport"]
-nlp_related = ["odpor-jako-nedostatek-raportu", "kalibrace", "raport", "preruseni-vzorce", "kotveni-v-kontrolujicich-vztazich", "zrcadleni", "krizove-zrcadleni"]
-nlp_related_declared = ["raport", "zrcadleni", "preruseni-vzorce", "kalibrace", "odpor-jako-nedostatek-raportu", "kotveni-v-kontrolujicich-vztazich"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
-nlp_prev = "vedeni-v-raportu"
-nlp_next = "raport-se-skupinou"
-nlp_position = 10
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "stark-2007", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["watzlawick-1967"]
-nlp_sources_critical = ["chartrand-bargh-1999", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.10"
+catalog_slug = "preruseni-raportu"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Breaking rapport"
+catalog_aliases = ["mismatching", "záměrné nesladění"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "raport"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["raport"]
+catalog_related = ["odpor-jako-nedostatek-raportu", "kalibrace", "raport", "preruseni-vzorce", "kotveni-v-kontrolujicich-vztazich", "zrcadleni", "krizove-zrcadleni"]
+catalog_related_declared = ["raport", "zrcadleni", "preruseni-vzorce", "kalibrace", "odpor-jako-nedostatek-raportu", "kotveni-v-kontrolujicich-vztazich"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
+catalog_prev = "vedeni-v-raportu"
+catalog_next = "raport-se-skupinou"
+catalog_position = 10
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "stark-2007", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["watzlawick-1967"]
+catalog_sources_critical = ["chartrand-bargh-1999", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.b.toml"
 +++
 
 # Přerušení raportu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Breaking rapport |
 | **Jiné názvy** | mismatching, záměrné nesladění |
-| **Obecnější vzorec** | [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) |
+| **Obecnější heslo** | [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ studu za to, že vztah tak dlouho vydrželi. Rámec donucující kontroly pomáh
 pochopit, že nejde o jeho slabost, ale o strukturu vztahu, ze které postupně
 přestává být snadné odejít (Stark 2007).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,29 +215,29 @@ přestává být snadné odejít (Stark 2007).
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzný vzorec (Předpoklady NLP, Resistance indicates a lack of rapport)
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzný vzorec (Ericksonovská hypnóza, Pattern interrupt)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Cross-over mirroring)
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzné heslo (Předpoklady NLP, Resistance indicates a lack of rapport)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzné heslo (Ericksonovská hypnóza, Pattern interrupt)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Cross-over mirroring)
 
 **V kompendiu**
 
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – předchozí vzorec rodiny
-- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – předchozí heslo rodiny
+- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

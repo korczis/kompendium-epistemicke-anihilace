@@ -1,0 +1,323 @@
+# Rodina AF-03: Klamy předpokladu, část b (hesla AF-03.11 až AF-03.20).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "AF-03.11"
+slug = "zamlceni-dukazu"
+type = "informal"
+cs = "Zamlčení důkazů"
+en = "Suppressed evidence"
+aliases = ["zamlčený důkaz", "klam neúplného důkazu", "potlačení důkazů"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["vyber-tresnicek", "zkresleny-vyber", "vytrzeni-z-kontextu", "argument-z-mlceni", "zkresleni-preziti"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/techniques/ea-2-1-5-citation-suppression.md",
+  "kompendium/forensic-legal/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Přípravek vyzkoušelo dvanáct pacientů naší kliniky a deset z nich hlásí zlepšení. Výsledky jsou jednoznačné a doporučujeme ho všem."
+context = "Propagační leták soukromé kliniky; neuvádí, kolik pacientů léčbu přerušilo ani jak se vedlo srovnatelné skupině bez přípravku."
+benign = false
+marker = "Závěr o účinnosti stojí na části údajů, zatímco informace, které by ho mohly oslabit (odpadlí pacienti, srovnávací skupina, spontánní zlepšení), chybějí, ačkoli je mluvčí musí mít."
+response = "Zeptat se na úplný soubor: kolik lidí léčbu začalo, kolik ji dokončilo, co se stalo s ostatními a jak se vedlo lidem bez přípravku. Bez těchto údajů závěr nelze posoudit."
+
+[[pattern.trainer]]
+utterance = "Ve dvou ze tří studií se účinek neprokázal. Uvádím všechny tři, včetně té, která naši hypotézu podporuje, a vysvětluji, čím se od ostatních liší."
+context = "Doktorand prezentuje přehled literatury na semináři."
+benign = true
+marker = "Mluvčí výslovně uvádí i údaje, které jeho závěru nesvědčí, a nechává posluchače posoudit celek."
+response = "Jde o poctivé užití: úplná prezentace důkazů včetně nepříznivých je přesně to, co zamlčení důkazů porušuje."
+
+[[pattern]]
+id = "AF-03.12"
+slug = "falesny-kompromis"
+type = "informal"
+cs = "Falešný kompromis"
+en = "Argument to moderation"
+aliases = ["argumentum ad temperantiam", "klam střední cesty", "klam zlatého středu"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["falesna-vyvazenost", "falesna-ekvivalence", "falesne-dilema", "klam-rovnovahy-dukazu"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md",
+  "kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md",
+  "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Laboratoř tvrdí, že voda ze studny obsahuje nebezpečné množství dusičnanů, soused tvrdí, že je úplně čistá. Pravda bude někde uprostřed, takže dětem ji klidně můžeme dávat ředěnou."
+context = "Rodina rozhoduje o pitné vodě pro malé děti."
+benign = false
+marker = "Mezi měřením a neověřeným názorem se hledá střed, jako by obě tvrzení měla stejnou váhu a pravda o faktu se dala vyjednat."
+response = "U faktické otázky rozhoduje kvalita důkazu, ne poloha mezi stanovisky. Ověřit měření, případně nechat vodu otestovat znovu, a podle výsledku jednat."
+
+[[pattern.trainer]]
+utterance = "Vy chcete rozpočet na opravy dvacet milionů, my patnáct. Navrhuji sedmnáct a půl a zbytek doplnit příští rok, pokud se ukáže potřeba."
+context = "Jednání zastupitelů o rozpočtu, kde obě částky jsou obhajitelné a jde o rozdělení omezených prostředků."
+benign = true
+marker = "Jde o vyjednávání o rozdělení zdrojů mezi oprávněnými zájmy, ne o spor o to, co je pravda; kompromis je zde legitimním výsledkem."
+response = "Kompromis je v dialogu vyjednávání rozumný, protože obě strany hájí přijatelné zájmy a nikdo netvrdí, že střed je pravdivější."
+
+[[pattern]]
+id = "AF-03.13"
+slug = "nefalzifikovatelnost"
+type = "informal"
+cs = "Nefalzifikovatelné tvrzení"
+en = "Unfalsifiability"
+aliases = ["imunizace tvrzení", "sebeuzavírající tvrzení", "nevyvratitelnost"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["posouvani-branek", "kafkapast", "zadny-pravy-skot", "falzifikovatelnost-nlp", "neni-selhani-jen-zpetna-vazba"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-7-2-3-popper-falsification.md",
+  "kompendium/techniques/ea-7-2-4-lakatos-research-program.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když se ti po cvičení uleví, je to důkaz, že metoda funguje. Když se ti uleví méně, metoda odhalila hlubší blok. A když se ti přitíží, čistí se staré trauma."
+context = "Lektor alternativního kurzu odpovídá účastnici, která pochybuje o účinku."
+benign = false
+marker = "Každý myslitelný výsledek se vykládá jako potvrzení; neexistuje pozorování, které by mluvčí přijal jako doklad, že metoda nefunguje."
+response = "Zeptat se, jaký výsledek by podle lektora ukázal, že metoda nepomáhá. Pokud žádný, tvrzení nic neříká o skutečném účinku a nelze ho brát jako důkaz."
+
+[[pattern.trainer]]
+utterance = "Pokud lék působí, měl by po osmi týdnech snížit skóre deprese víc než placebo. Pokud rozdíl nenajdeme, budeme hypotézu považovat za nepotvrzenou."
+context = "Protokol klinické studie předem registrovaný u etické komise."
+benign = true
+marker = "Tvrzení předem stanoví, jaký výsledek by ho vyvrátil, a mluvčí se k tomuto kritériu zavazuje."
+response = "Jde o správně formulovanou testovatelnou hypotézu: riziko vyvrácení je předem pojmenované a výsledek bude mít informační hodnotu."
+
+[[pattern]]
+id = "AF-03.14"
+slug = "posouvani-branek"
+type = "informal"
+cs = "Posouvání branek"
+en = "Moving the goalposts"
+aliases = ["posouvání laťky", "měnění kritérií důkazu", "zvyšování laťky"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["nefalzifikovatelnost", "zadny-pravy-skot", "zvlastni-vyjimka", "presun-dukazniho-bremene", "sealioning"]
+kompendium = [
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+  "kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ano, doložila jste potvrzení od lékaře, ale to nic nedokazuje. Potřebovala bych posudek specialisty. A ten od specialisty není z naší nemocnice, takže ho nemůžu uznat."
+context = "Vedoucí posuzuje žádost zaměstnankyně o úpravu pracovní doby ze zdravotních důvodů."
+benign = false
+marker = "Pokaždé, když druhá strana splní požadavek, objeví se nový, přísnější požadavek, který předem nezazněl; kritérium se mění podle toho, zda bylo splněno."
+response = "Požádat o písemné stanovení kritérií předem a o vysvětlení, proč původní požadavek přestal stačit. Splněná podmínka se má posoudit podle pravidla, které platilo, když byla stanovena."
+
+[[pattern.trainer]]
+utterance = "Původně jsme za dostatečný považovali jeden menší experiment. Nová metaanalýza ale ukázala, že malé studie v oboru přeceňují účinky, proto teď chceme replikaci na větším vzorku."
+context = "Recenzent vysvětluje autorům, proč žádá doplnění."
+benign = true
+marker = "Změna kritéria je zdůvodněná novou informací, platí obecně, ne jen pro tohoto autora, a je předem oznámená."
+response = "Jde o legitimní revizi standardu: důvod změny je veřejný, týká se metody, ne výsledku, a uplatní se na všechny stejně."
+
+[[pattern]]
+id = "AF-03.15"
+slug = "presun-dukazniho-bremene"
+type = "informal"
+cs = "Přesun důkazního břemene"
+en = "Shifting the burden of proof"
+aliases = ["obrácení důkazního břemene", "onus probandi", "přenesení důkazní povinnosti"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["odvolani-na-nevedomost", "pravidlo-dukazniho-bremene", "dokaz-tvrzenim", "jen-se-ptam", "sealioning"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-2-3-9-sealioning-medialni.md",
+  "kompendium/techniques/ea-7-2-3-popper-falsification.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvrdím, že ten očkovací program zvyšuje výskyt autismu. Dokud mi nedokážete, že ne, nemáte právo ho doporučovat."
+context = "Diskuse na veřejném zasedání o zdravotní politice."
+benign = false
+marker = "Ten, kdo přichází s novým tvrzením, odmítá je doložit a povinnost důkazu přenáší na druhou stranu, jako by nevyvrácené tvrzení bylo tím pravdivé."
+response = "Připomenout, že kdo tvrdí, dokládá. Požádat o konkrétní údaje, na nichž tvrzení stojí, a teprve je posoudit; nevyvrácení není doklad pravdivosti."
+
+[[pattern.trainer]]
+utterance = "Výrobce chce lék uvést na trh, takže musí on prokázat jeho bezpečnost a účinnost. Úřad nemusí dokazovat, že je nebezpečný."
+context = "Přednáška o regulaci léčiv pro studenty farmacie."
+benign = true
+marker = "Rozložení důkazního břemene je dané předem známým pravidlem a nese ho strana, která chce změnit stav nebo získá výhodu."
+response = "Jde o správné rozložení břemene: pravidlo platí pro všechny žadatele a odpovídá tomu, kdo přichází s tvrzením a nese riziko omylu."
+
+[[pattern]]
+id = "AF-03.16"
+slug = "nirvana-klam"
+type = "informal"
+cs = "Klam nirvány"
+en = "Nirvana fallacy"
+aliases = ["klam dokonalého řešení", "dokonalé je nepřítelem dobrého", "perfekcionistický klam"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["falesne-dilema", "posouvani-branek", "odvolani-na-tradici", "predstirana-starost"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/scenar-h.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Bezpečnostní pásy stejně nezachrání každého, lidé v nich občas umírají taky. Tak proč by měly být povinné?"
+context = "Komentář pod článkem o dopravní bezpečnosti."
+benign = false
+marker = "Opatření se odmítá proto, že neodstraní problém úplně, a srovnává se s neexistujícím dokonalým řešením místo s reálnou alternativou, tedy s jízdou bez pásu."
+response = "Srovnat skutečné možnosti: jak dopadají nehody s pásem a bez něj. Že opatření není dokonalé, neznamená, že není lepší než to, co by nastoupilo místo něj."
+
+[[pattern.trainer]]
+utterance = "Nový screeningový test zachytí víc případů, ale má tolik falešně pozitivních výsledků, že by vedl k řadě zbytečných biopsií. Navrhuji porovnat ho se současným testem na reálných datech."
+context = "Odborná komise posuzuje zavedení nového diagnostického testu."
+benign = true
+marker = "Námitka nesrovnává test s ideálem, ale se skutečnou alternativou a váží konkrétní přínosy proti konkrétním škodám."
+response = "Jde o legitimní kritiku: posuzuje reálné náklady a přínosy obou dostupných možností a navrhuje ověření."
+
+[[pattern]]
+id = "AF-03.17"
+slug = "argument-z-neuveritelnosti"
+type = "informal"
+cs = "Argument z neuvěřitelnosti"
+en = "Argument from incredulity"
+aliases = ["argument z osobní nedůvěřivosti", "nedovedu si představit", "argumentum ad incredulitatem"]
+use = "chyba"
+risk = "stredni"
+broader = ""
+related = ["odvolani-na-nevedomost", "presun-dukazniho-bremene", "zavadejici-zivost", "odvolani-na-anekdotu", "bayesovske-pojeti-klamu"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nedovedu si představit, že by neviditelné částice z mobilu nic nedělaly s mozkem, když ho máme pořád u hlavy. To prostě nemůže být neškodné."
+context = "Rodič v diskusi o mobilních telefonech u dětí."
+benign = false
+marker = "Závěr o tom, jak se věci mají, se opírá jen o to, že si mluvčí opak nedovede představit; vlastní představivost se vydává za měřítko skutečnosti."
+response = "Oddělit to, co si člověk dokáže představit, od toho, co ukazují měření a studie. Zeptat se, jaké údaje o účincích existují a co z nich plyne."
+
+[[pattern.trainer]]
+utterance = "Tvrdíte, že váš doplněk stravy vyléčí rakovinu za tři týdny. To je v rozporu se vším, co o nádorech víme, takže budu potřebovat velmi silné důkazy, než to přijmu."
+context = "Onkolog odpovídá prodejci doplňků stravy."
+benign = true
+marker = "Skepse se neopírá o osobní představivost, ale o rozsáhlé předchozí poznání, a mluvčí neuzavírá, nýbrž stanoví, jaké důkazy by ho přesvědčily."
+response = "Jde o legitimní užití: mimořádné tvrzení s nízkou předchozí pravděpodobností vyžaduje silnější důkazy, a mluvčí nechává otázku otevřenou pro ně."
+
+[[pattern]]
+id = "AF-03.18"
+slug = "kluzky-svah"
+type = "informal"
+cs = "Kluzký svah"
+en = "Slippery slope"
+aliases = ["argument kluzkého svahu", "dominový efekt", "argument z prvního kroku"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["odvolani-na-strach", "odvolani-na-dusledky", "falesne-dilema", "klam-konjunkce", "som-dusledek"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-5-4-26-heap-paradox-eskalace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když dnes dovolíme zaměstnancům jeden den home office týdně, za rok nebude nikdo chodit do kanceláře, firma ztratí soudržnost a nakonec zkrachuje."
+context = "Ředitel na poradě vedení."
+benign = false
+marker = "Řetěz stále vážnějších důsledků se předkládá jako nevyhnutelný, ačkoli žádný mezikrok není doložen a v každém z nich lze zastavit."
+response = "Ptát se po jednotlivých článcích řetězu: co by způsobilo každý další krok, jak je pravděpodobný a co mu může zabránit. Lze také navrhnout zkušební období s jasnou hranicí."
+
+[[pattern.trainer]]
+utterance = "Pokud teď výjimkou povolíme stavbu v záplavovém území, budou se na tento precedens odvolávat další žadatelé a úřad bude muset podobné žádosti posuzovat stejně."
+context = "Úředník stavebního úřadu vysvětluje zamítnutí žádosti."
+benign = true
+marker = "Mechanismus, kterým první krok vede k dalšímu (závaznost precedentu a rovné zacházení), je pojmenovaný a doložitelný."
+response = "Jde o legitimní argument z precedentu: řetěz není domnělý, ale opírá se o pravidlo, které úřad skutečně zavazuje."
+
+[[pattern]]
+id = "AF-03.19"
+slug = "klam-utopenych-nakladu"
+type = "informal"
+cs = "Klam utopených nákladů"
+en = "Sunk cost fallacy"
+aliases = ["argument z plýtvání", "utopené náklady", "klam Concorde", "eskalace závazku"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["odvolani-na-tradici", "motivovane-uvazovani", "falesne-dilema", "odvolani-na-dusledky"]
+kompendium = [
+  "kompendium/case-studies/06-cult-recovery-12-let.md",
+  "kompendium/case-studies/63-investor-cult.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Za ty roky jsi do skupiny vložil úspory, přátele i celou kariéru. Kdybys teď odešel, bylo by to všechno k ničemu. Opravdu chceš, aby to byla ztráta?"
+context = "Starší člen hnutí odpovídá členovi, který zvažuje odchod."
+benign = false
+marker = "Rozhodnutí o budoucnosti se opírá o to, co už bylo nevratně vynaloženo, a ne o to, co pokračování přinese nebo bude stát; minulé oběti se mění v důvod dalších."
+response = "Oddělit minulost od rozhodnutí: vložené prostředky se nevrátí v žádném případě. Rozhoduje, co dalších pět let ve skupině přinese a vezme, ve srovnání s odchodem."
+
+[[pattern.trainer]]
+utterance = "Na vývoji jsme strávili dva roky, ale testy ukazují, že po dokončení by systém stál víc, než ušetří. Navrhuji projekt ukončit a použít, co se z něj dá převzít."
+context = "Vedoucí projektu na jednání řídícího výboru."
+benign = true
+marker = "Rozhodnutí se opírá o budoucí náklady a přínosy, vynaložené prostředky se uznají jako nevratné a nepoužijí se jako důvod pokračovat."
+response = "Jde o správné uvažování: utopené náklady se do rozhodnutí nepočítají, rozhoduje srovnání budoucích možností."
+
+[[pattern]]
+id = "AF-03.20"
+slug = "dokaz-tvrzenim"
+type = "tactic"
+cs = "Důkaz tvrzením"
+en = "Proof by assertion"
+aliases = ["argument tvrzením", "holé tvrzení", "ipse dixit"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["argument-opakovanim", "palba-nepravd", "kruhovy-argument", "presun-dukazniho-bremene", "toulminuv-model"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Je naprosto jasné a každý soudný člověk to ví, že ta zpráva je zmanipulovaná. Nebudu to vysvětlovat, je to prostě tak, a opakuji: je zmanipulovaná."
+context = "Politik v televizní debatě reaguje na nepříznivou zprávu kontrolního úřadu."
+benign = false
+marker = "Místo důvodů zaznívají výrazy jistoty a opakování téhož tvrzení; odmítnutí vysvětlit se vydává za samozřejmost, ne za mezeru v argumentu."
+response = "Zeptat se, na jakých konkrétních zjištěních tvrzení stojí a která část zprávy je chybná. Dokud důvody nezazní, zůstává jen tvrzení, jakkoli sebejistě opakované."
+
+[[pattern.trainer]]
+utterance = "Voda vře při sto stupních Celsia za normálního tlaku. Pokud o tom někdo pochybuje, rád ukážu měření i to, proč se bod varu s nadmořskou výškou mění."
+context = "Učitel fyziky na hodině."
+benign = true
+marker = "Tvrzení patří do sdíleného, snadno ověřitelného poznání a mluvčí je na požádání připraven doložit, místo aby pochybnost odbyl."
+response = "Jde o legitimní tvrzení bez rozsáhlého zdůvodnění: je obecně přijímané, ověřitelné a důkazní břemeno mluvčí na výzvu nese."

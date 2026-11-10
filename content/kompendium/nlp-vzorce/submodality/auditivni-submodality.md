@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Auditivní submodality", "Auditory submodalities", "kvality sluchové představy", "kvality vnitřního hlasu", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Auditivní submodality", "Auditory submodalities", "kvality sluchové představy", "kvality vnitřního hlasu", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.03"
-nlp_slug = "auditivni-submodality"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Auditory submodalities"
-nlp_aliases = ["kvality sluchové představy", "kvality vnitřního hlasu"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "submodality-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["submodality-pojem"]
-nlp_related = ["auditivni-system", "vnitrni-dialog", "elicitace-submodalit", "auditivni-swish", "zmena-vnitrniho-hlasu", "submodality-v-reklame", "zmena-kriticke-sebeprezentace", "sladeni-hlasu-a-tempa"]
-nlp_related_declared = ["auditivni-system", "vnitrni-dialog", "zmena-vnitrniho-hlasu", "auditivni-swish", "sladeni-hlasu-a-tempa"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
-nlp_prev = "vizualni-submodality"
-nlp_next = "kinesteticke-submodality"
-nlp_position = 3
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sharpley-1984", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = ["satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.03"
+catalog_slug = "auditivni-submodality"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Auditory submodalities"
+catalog_aliases = ["kvality sluchové představy", "kvality vnitřního hlasu"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "submodality-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["submodality-pojem"]
+catalog_related = ["auditivni-system", "vnitrni-dialog", "elicitace-submodalit", "auditivni-swish", "zmena-vnitrniho-hlasu", "submodality-v-reklame", "zmena-kriticke-sebeprezentace", "sladeni-hlasu-a-tempa"]
+catalog_related_declared = ["auditivni-system", "vnitrni-dialog", "zmena-vnitrniho-hlasu", "auditivni-swish", "sladeni-hlasu-a-tempa"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
+catalog_prev = "vizualni-submodality"
+catalog_next = "kinesteticke-submodality"
+catalog_position = 3
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sharpley-1984", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.toml"
 +++
 
 # Auditivní submodality
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Auditory submodalities |
 | **Jiné názvy** | kvality sluchové představy, kvality vnitřního hlasu |
-| **Obecnější vzorec** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
+| **Obecnější heslo** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ rozlišovat vnitřní řeč od sluchových halucinací, které vyžadují psychi
 nevykládat je jazykem submodalit. Herman zdůrazňuje, že obnova autonomie zahrnuje i obnovu
 práva na vlastní úsudek a vlastní slova (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -226,29 +229,29 @@ práva na vlastní úsudek a vlastní slova (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory representational system)
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
-- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzný vzorec (Submodality, Auditory swish)
-- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzný vzorec (Submodality, Changing the inner voice)
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzný vzorec (Submodality, Submodalities in advertising and media)
-- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzný vzorec (Submodality, Inner critic pattern)
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzný vzorec (Raport a kalibrace, Voice and tempo matching)
+- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory representational system)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzné heslo (Submodality, Eliciting submodalities)
+- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzné heslo (Submodality, Auditory swish)
+- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzné heslo (Submodality, Changing the inner voice)
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
+- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzné heslo (Submodality, Inner critic pattern)
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)
 
 **V kompendiu**
 
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – předchozí vzorec rodiny
-- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – předchozí heslo rodiny
+- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

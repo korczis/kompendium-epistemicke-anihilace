@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Zpětné shrnutí", "Backtracking", "backtrack", "zpětné zrcadlení slov", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Zpětné shrnutí", "Backtracking", "backtrack", "zpětné zrcadlení slov", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.07"
-nlp_slug = "zpetne-shrnuti"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Backtracking"
-nlp_aliases = ["backtrack", "zpětné zrcadlení slov"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "pacing-a-leading"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["pacing-a-leading", "pacing-a-leading-pojem"]
-nlp_related = ["hierarchie-otazek-meta-modelu", "ano-sada", "ramec-souhlasu", "ramec-zpetneho-shrnuti", "shoda-predikatu", "pseudoempatie", "nlp-ve-vyslechu"]
-nlp_related_declared = ["ramec-zpetneho-shrnuti", "ramec-souhlasu", "ano-sada", "shoda-predikatu", "nlp-ve-vyslechu"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md"]
-nlp_prev = "sladeni-hlasu-a-tempa"
-nlp_next = "kalibrace-ano-ne"
-nlp_position = 7
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "festinger-1957", "herman-1992", "loftus-palmer-1974", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "festinger-1957", "herman-1992", "loftus-palmer-1974", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.07"
+catalog_slug = "zpetne-shrnuti"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Backtracking"
+catalog_aliases = ["backtrack", "zpětné zrcadlení slov"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "pacing-a-leading"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["pacing-a-leading", "pacing-a-leading-pojem"]
+catalog_related = ["hierarchie-otazek-meta-modelu", "ano-sada", "ramec-souhlasu", "ramec-zpetneho-shrnuti", "shoda-predikatu", "pseudoempatie", "nlp-ve-vyslechu"]
+catalog_related_declared = ["ramec-zpetneho-shrnuti", "ramec-souhlasu", "ano-sada", "shoda-predikatu", "nlp-ve-vyslechu"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md"]
+catalog_prev = "sladeni-hlasu-a-tempa"
+catalog_next = "kalibrace-ano-ne"
+catalog_position = 7
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "festinger-1957", "herman-1992", "loftus-palmer-1974", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "festinger-1957", "herman-1992", "loftus-palmer-1974", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.toml"
 +++
 
 # Zpětné shrnutí
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Backtracking |
 | **Jiné názvy** | backtrack, zpětné zrcadlení slov |
-| **Obecnější vzorec** | [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) |
+| **Obecnější heslo** | [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ zotavení je užitečné vést si vlastní záznamy důležitých rozhovorů a d
 pracovat s obnovou důvěry ve vlastní paměť. Herman popisuje obnovu schopnosti vyprávět
 vlastní příběh vlastními slovy jako jádro zotavení (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,29 +217,29 @@ vlastní příběh vlastními slovy jako jádro zotavení (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – příbuzný vzorec (Meta-model, Order of Meta Model challenges)
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzný vzorec (Reframing a rámce, Agreement frame)
-- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzný vzorec (Reframing a rámce, Backtrack frame)
-- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – příbuzný vzorec (Raport a kalibrace, Predicate matching)
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzný vzorec (Raport a kalibrace, Simulated empathy)
-- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in interrogation and negotiation)
+- [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – příbuzné heslo (Meta-model, Order of Meta Model challenges)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzné heslo (Reframing a rámce, Agreement frame)
+- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzné heslo (Reframing a rámce, Backtrack frame)
+- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – příbuzné heslo (Raport a kalibrace, Predicate matching)
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzné heslo (Raport a kalibrace, Simulated empathy)
+- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in interrogation and negotiation)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.1 Screeningový strukturální rozhovor](@/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.1 Screeningový strukturální rozhovor](@/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – předchozí vzorec rodiny
-- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – předchozí heslo rodiny
+- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Připojené otázky", "Tag questions", "dovětkové otázky", "tázací dovětky", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Připojené otázky", "Tag questions", "dovětkové otázky", "tázací dovětky", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.06"
-nlp_slug = "pripojene-otazky"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Tag questions"
-nlp_aliases = ["dovětkové otázky", "tázací dovětky"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["vlozene-otazky", "konverzacni-postulaty", "ano-sada", "presupozice-ve-vyslechu", "kalibrace-ano-ne", "otazky-misto-tvrzeni"]
-nlp_related_declared = ["ano-sada", "konverzacni-postulaty", "presupozice-ve-vyslechu", "kalibrace-ano-ne"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "konverzacni-postulaty"
-nlp_next = "truismy"
-nlp_position = 6
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "grinder-delozier-bandler-1977", "herman-1992", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "miller-rollnick-2013", "sharpley-1987", "vrij-2008", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-1977"]
-nlp_sources_roots = ["levinson-1983"]
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "lifton-1961", "loftus-palmer-1974", "miller-rollnick-2013", "sharpley-1987", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.06"
+catalog_slug = "pripojene-otazky"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Tag questions"
+catalog_aliases = ["dovětkové otázky", "tázací dovětky"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["vlozene-otazky", "konverzacni-postulaty", "ano-sada", "presupozice-ve-vyslechu", "kalibrace-ano-ne", "otazky-misto-tvrzeni"]
+catalog_related_declared = ["ano-sada", "konverzacni-postulaty", "presupozice-ve-vyslechu", "kalibrace-ano-ne"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "konverzacni-postulaty"
+catalog_next = "truismy"
+catalog_position = 6
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "grinder-delozier-bandler-1977", "herman-1992", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "miller-rollnick-2013", "sharpley-1987", "vrij-2008", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-1977"]
+catalog_sources_roots = ["levinson-1983"]
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "lifton-1961", "loftus-palmer-1974", "miller-rollnick-2013", "sharpley-1987", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.toml"
 +++
 
 # Připojené otázky
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Tag questions |
 | **Jiné názvy** | dovětkové otázky, tázací dovětky |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ pomocí vynucených souhlasů, je součástí zotavení obnova důvěry ve vlast
 vedením deníku a ověřováním událostí u nezávislých svědků, a to v bezpečném terapeutickém
 vztahu (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,27 +214,27 @@ vztahu (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – příbuzný vzorec (Milton-model, Embedded questions)
-- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – příbuzný vzorec (Milton-model, Conversational postulates)
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in questioning and testimony)
-- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzný vzorec (Raport a kalibrace, Yes/no calibration)
-- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – příbuzný vzorec (Jazykové vzorce, Questions instead of statements)
+- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – příbuzné heslo (Milton-model, Embedded questions)
+- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – příbuzné heslo (Milton-model, Conversational postulates)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in questioning and testimony)
+- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzné heslo (Raport a kalibrace, Yes/no calibration)
+- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – příbuzné heslo (Jazykové vzorce, Questions instead of statements)
 
 **V kompendiu**
 
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – předchozí vzorec rodiny
-- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – předchozí heslo rodiny
+- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

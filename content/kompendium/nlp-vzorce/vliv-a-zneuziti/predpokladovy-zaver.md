@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Předpokládané uzavření", "Assumptive close", "předpokladový závěr", "uzavření předpokladem", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Předpokládané uzavření", "Assumptive close", "předpokladový závěr", "uzavření předpokladem", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.03"
-nlp_slug = "predpokladovy-zaver"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Assumptive close"
-nlp_aliases = ["předpokladový závěr", "uzavření předpokladem"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "nlp-v-prodeji"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["nlp-v-prodeji"]
-nlp_related = ["ano-sada", "presupozice-milton", "jazykove-presupozice", "otazky-s-presupozici", "presupozice-v-reklame", "budouci-prehravani", "proaktivni-a-reaktivni", "nlp-v-prodeji", "alternativni-zaver", "budouci-prehravani-v-prodeji"]
-nlp_related_declared = ["alternativni-zaver", "presupozice-milton", "jazykove-presupozice", "otazky-s-presupozici"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/milton-model/presupozice-milton.md", "kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_prev = "nlp-v-prodeji"
-nlp_next = "alternativni-zaver"
-nlp_position = 3
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "freedman-fraser-1966", "grice-1975", "langer-1978", "levinson-1983", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["grice-1975", "levinson-1983"]
-nlp_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "langer-1978", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.03"
+catalog_slug = "predpokladovy-zaver"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Assumptive close"
+catalog_aliases = ["předpokladový závěr", "uzavření předpokladem"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "nlp-v-prodeji"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["nlp-v-prodeji"]
+catalog_related = ["ano-sada", "presupozice-milton", "jazykove-presupozice", "otazky-s-presupozici", "presupozice-v-reklame", "budouci-prehravani", "proaktivni-a-reaktivni", "nlp-v-prodeji", "alternativni-zaver", "budouci-prehravani-v-prodeji"]
+catalog_related_declared = ["alternativni-zaver", "presupozice-milton", "jazykove-presupozice", "otazky-s-presupozici"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/milton-model/presupozice-milton.md", "kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_prev = "nlp-v-prodeji"
+catalog_next = "alternativni-zaver"
+catalog_position = 3
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "freedman-fraser-1966", "grice-1975", "langer-1978", "levinson-1983", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["grice-1975", "levinson-1983"]
+catalog_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "langer-1978", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # Předpokládané uzavření
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Assumptive close |
 | **Jiné názvy** | předpokladový závěr, uzavření předpokladem |
-| **Obecnější vzorec** | [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) |
+| **Obecnější heslo** | [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ skutečného rozhodnutí; Loftusová a Palmerová ukázali, jak snadno formulace
 vzpomínku (Loftus a Palmer 1974). Širší přehled kognitivních zkreslení, o která se prodejní
 obraty opírají, podává stránka o [kognitivních biasech](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,31 +215,31 @@ obraty opírají, podává stránka o [kognitivních biasech](@/kompendium/03-za
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzný vzorec (Milton-model, Presuppositions (Milton Model))
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Linguistic presuppositions)
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
-- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in advertising)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzný vzorec (Metaprogramy, Proactive and reactive)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Alternative close)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzné heslo (Milton-model, Presuppositions (Milton Model))
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – příbuzné heslo (Jazykové presupozice, Linguistic presuppositions)
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
+- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in advertising)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzné heslo (Metaprogramy, Proactive and reactive)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Alternative close)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
 
 **V kompendiu**
 
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – předchozí vzorec rodiny
-- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – předchozí heslo rodiny
+- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

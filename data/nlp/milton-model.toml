@@ -1,4 +1,4 @@
-# Rodina NLP-04: Milton-model (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Rodina NLP-04: Milton-model (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
 # Část milton-model: NLP-04.01 až NLP-04.10. Pořadí záznamů je pořadí identifikátorů;
 # identifikátor se po zveřejnění nemění.
 

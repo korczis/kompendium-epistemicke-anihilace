@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Proaktivní a reaktivní", "Proactive and reactive", "úroveň aktivity", "iniciativa a vyčkávání", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Proaktivní a reaktivní", "Proactive and reactive", "úroveň aktivity", "iniciativa a vyčkávání", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.06"
-nlp_slug = "proaktivni-a-reaktivni"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Proactive and reactive"
-nlp_aliases = ["úroveň aktivity", "iniciativa a vyčkávání"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["k-cili-a-od-problemu", "pracovni-styl", "odpovednost", "metaprogramy-v-naboru", "cil-pod-vlastni-kontrolou", "nlp-v-prodeji", "predpokladovy-zaver"]
-nlp_related_declared = ["k-cili-a-od-problemu", "predpokladovy-zaver", "nlp-v-prodeji", "odpovednost", "pracovni-styl"]
-nlp_kompendium = ["kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/case-studies/63-investor-cult.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md"]
-nlp_links_prose = ["kompendium/case-studies/63-investor-cult.md", "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
-nlp_prev = "shoda-a-rozdil"
-nlp_next = "kriteria"
-nlp_position = 6
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "cialdini-2009", "hall-bodenhamer-1997", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "roderique-davies-2009", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "roderique-davies-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.06"
+catalog_slug = "proaktivni-a-reaktivni"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Proactive and reactive"
+catalog_aliases = ["úroveň aktivity", "iniciativa a vyčkávání"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["k-cili-a-od-problemu", "pracovni-styl", "odpovednost", "metaprogramy-v-naboru", "cil-pod-vlastni-kontrolou", "nlp-v-prodeji", "predpokladovy-zaver"]
+catalog_related_declared = ["k-cili-a-od-problemu", "predpokladovy-zaver", "nlp-v-prodeji", "odpovednost", "pracovni-styl"]
+catalog_kompendium = ["kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/case-studies/63-investor-cult.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/63-investor-cult.md", "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
+catalog_prev = "shoda-a-rozdil"
+catalog_next = "kriteria"
+catalog_position = 6
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "cialdini-2009", "hall-bodenhamer-1997", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "roderique-davies-2009", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "roderique-davies-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.toml"
 +++
 
 # Proaktivní a reaktivní
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Proactive and reactive |
 | **Jiné názvy** | úroveň aktivity, iniciativa a vyčkávání |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -186,7 +189,7 @@ autonomie jako jeden z ústředních úkolů zotavení po traumatu ze vztahu, ve
 autonomie systematicky omezována (Herman 1992). Příbuzný vzorec, který se týká toho, zda
 člověka k jednání pohání cíl, nebo hrozba, popisuje stránka [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -203,29 +206,29 @@ autonomie systematicky omezována (Herman 1992). Příbuzný vzorec, který se t
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzný vzorec (Metaprogramy, Toward and away from)
-- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzný vzorec (Metaprogramy, Working style)
-- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzný vzorec (Metaprogramy, Responsibility)
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzný vzorec (Metaprogramy, Meta-programs in recruitment and management)
-- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – příbuzný vzorec (Cíle a výsledky, Self-initiated and self-maintained)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Assumptive close)
+- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzné heslo (Metaprogramy, Toward and away from)
+- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzné heslo (Metaprogramy, Working style)
+- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzné heslo (Metaprogramy, Responsibility)
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzné heslo (Metaprogramy, Meta-programs in recruitment and management)
+- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – příbuzné heslo (Cíle a výsledky, Self-initiated and self-maintained)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Assumptive close)
 
 **V kompendiu**
 
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.6 Akademická kontrola času](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.6 Akademická kontrola času](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – předchozí vzorec rodiny
-- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – předchozí heslo rodiny
+- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

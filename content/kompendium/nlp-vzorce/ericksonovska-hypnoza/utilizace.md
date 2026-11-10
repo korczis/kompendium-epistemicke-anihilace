@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Utilizace", "Utilisation", "utilizační přístup", "využití toho, co klient přináší", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Utilizace", "Utilisation", "utilizační přístup", "využití toho, co klient přináší", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.02"
-nlp_slug = "utilizace"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Utilisation"
-nlp_aliases = ["utilizační přístup", "využití toho, co klient přináší"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["odpor-jako-nedostatek-raportu", "trans-pojem", "ericksonovska-hypnoza", "predepsani-symptomu", "paradoxni-intervence", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "utilizace-strategie", "pacing-a-leading", "raport-jako-nastroj-vlivu", "izomorfni-metafora", "konverzacni-hypnoza"]
-nlp_related_declared = ["pacing-a-leading", "odpor-jako-nedostatek-raportu", "predepsani-symptomu", "raport-jako-nastroj-vlivu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "ericksonovska-hypnoza"
-nlp_next = "konfuzni-technika"
-nlp_position = 2
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.02"
+catalog_slug = "utilizace"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Utilisation"
+catalog_aliases = ["utilizační přístup", "využití toho, co klient přináší"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["odpor-jako-nedostatek-raportu", "trans-pojem", "ericksonovska-hypnoza", "predepsani-symptomu", "paradoxni-intervence", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "utilizace-strategie", "pacing-a-leading", "raport-jako-nastroj-vlivu", "izomorfni-metafora", "konverzacni-hypnoza"]
+catalog_related_declared = ["pacing-a-leading", "odpor-jako-nedostatek-raportu", "predepsani-symptomu", "raport-jako-nastroj-vlivu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "ericksonovska-hypnoza"
+catalog_next = "konfuzni-technika"
+catalog_position = 2
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
 +++
 
 # Utilizace
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Utilisation |
 | **Jiné názvy** | utilizační přístup, využití toho, co klient přináší |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ právo na nesouhlas a na vlastní výklad svých prožitků (Herman 1992). Terap
 utilizací pracují, si mohou klást kontrolní otázku, zda by klientovu reakci uznali i
 tehdy, kdyby mluvila proti jejich hypotéze.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,33 +223,33 @@ tehdy, kdyby mluvila proti jejich hypotéze.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzný vzorec (Předpoklady NLP, Resistance indicates a lack of rapport)
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzný vzorec (Ericksonovská hypnóza, Ericksonian hypnosis)
-- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – příbuzný vzorec (Ericksonovská hypnóza, Symptom prescription)
-- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzný vzorec (Ericksonovská hypnóza, Paradoxical intervention)
-- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Open-ended suggestion)
-- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggestion covering all possibilities)
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy utilisation)
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzný vzorec (Raport a kalibrace, Pacing and leading)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – příbuzný vzorec (Jazykové vzorce, Isomorphic metaphor)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzné heslo (Předpoklady NLP, Resistance indicates a lack of rapport)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzné heslo (Ericksonovská hypnóza, Ericksonian hypnosis)
+- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – příbuzné heslo (Ericksonovská hypnóza, Symptom prescription)
+- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzné heslo (Ericksonovská hypnóza, Paradoxical intervention)
+- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Open-ended suggestion)
+- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzné heslo (Ericksonovská hypnóza, Suggestion covering all possibilities)
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy utilisation)
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – příbuzné heslo (Jazykové vzorce, Isomorphic metaphor)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – předchozí vzorec rodiny
-- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – předchozí heslo rodiny
+- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

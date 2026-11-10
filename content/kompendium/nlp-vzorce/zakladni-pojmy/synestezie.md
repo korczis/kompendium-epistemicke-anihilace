@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Synestezie v NLP", "Synaesthesia (NLP sense)", "synestetický okruh", "vizuálně-kinestetická smyčka", "V-K synestezie", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Synestezie v NLP", "Synaesthesia (NLP sense)", "synestetický okruh", "vizuálně-kinestetická smyčka", "V-K synestezie", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.11"
-nlp_slug = "synestezie"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Synaesthesia (NLP sense)"
-nlp_aliases = ["synestetický okruh", "vizuálně-kinestetická smyčka", "V-K synestezie"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "reprezentacni-systemy"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reprezentacni-systemy"]
-nlp_related = ["kinesteticky-system", "vedouci-system", "submodality-pojem", "disociace", "kotva-pojem"]
-nlp_related_declared = ["kinesteticky-system", "vedouci-system", "disociace", "submodality-pojem", "kotva-pojem"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_links_prose = ["glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
-nlp_prev = "ocni-pristupove-signaly"
-nlp_next = "submodality-pojem"
-nlp_position = 11
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988", "herman-1992", "norcross-2006", "pavlov-1927", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "norcross-2006", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.11"
+catalog_slug = "synestezie"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Synaesthesia (NLP sense)"
+catalog_aliases = ["synestetický okruh", "vizuálně-kinestetická smyčka", "V-K synestezie"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "reprezentacni-systemy"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reprezentacni-systemy"]
+catalog_related = ["kinesteticky-system", "vedouci-system", "submodality-pojem", "disociace", "kotva-pojem"]
+catalog_related_declared = ["kinesteticky-system", "vedouci-system", "disociace", "submodality-pojem", "kotva-pojem"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+catalog_prev = "ocni-pristupove-signaly"
+catalog_next = "submodality-pojem"
+catalog_position = 11
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988", "herman-1992", "norcross-2006", "pavlov-1927", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "norcross-2006", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.toml"
 +++
 
 # Synestezie v NLP
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Synaesthesia (NLP sense) |
 | **Jiné názvy** | synestetický okruh, vizuálně-kinestetická smyčka, V-K synestezie |
-| **Obecnější vzorec** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
+| **Obecnější heslo** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -97,7 +100,7 @@ Bandler a Grinder ve svých seminářích popsali fobii jako situaci, kdy obraz 
 nebo vzpomínka na něj okamžitě vyvolá plný tělesný strach, a představili postup, který má tuto
 vazbu oslabit tím, že se člověk na vzpomínku dívá z odstupu, jako by ji sledoval zvenčí
 (Bandler a Grinder 1979). Tento odstup NLP nazývá
-[disociací](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md). Myšlenka automatické vazby
+[disociací](@/glossary/disociace.md). Myšlenka automatické vazby
 mezi podnětem a tělesnou reakcí má hlubší kořeny v teorii podmiňování, kde se neutrální podnět
 spojí s reakcí opakovaným párováním (Pavlov 1927). Behaviorální terapie úzkosti z této tradice
 vyvodila postupy, které vazbu mezi obávaným podnětem a strachem oslabují postupným vystavováním
@@ -187,7 +190,7 @@ reakcí vrací na stránce o [van der Kolkově
 rámci](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) a k vtělenému poznávání v
 kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -207,27 +210,27 @@ kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivn
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzný vzorec (Základní pojmy NLP, Kinaesthetic representational system)
-- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzný vzorec (Základní pojmy NLP, Lead system)
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzné heslo (Základní pojmy NLP, Kinaesthetic representational system)
+- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzné heslo (Základní pojmy NLP, Lead system)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – předchozí vzorec rodiny
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – předchozí heslo rodiny
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Nominalizace", "Nominalisation", "nominalizace procesu", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Nominalizace", "Nominalisation", "nominalizace procesu", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.02"
-nlp_slug = "nominalizace"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Nominalisation"
-nlp_aliases = ["nominalizace procesu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["zkreslovani", "hluboka-a-povrchova-struktura", "nespecifikovane-sloveso", "presupozice-v-meta-modelu", "poruseni-selekcnich-omezeni-meta", "nominalizace-milton", "existencni-presupozice", "vztazne-vety-presupozice", "som-redefinice", "smyslove-dukazy-cile", "chunking-nahoru", "slovni-baliky"]
-nlp_related_declared = ["zkreslovani", "nominalizace-milton", "slovni-baliky", "nespecifikovane-sloveso"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-1-4-semanticka-imploze.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md", "kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md", "kompendium/nlp-vzorce/milton-model/nominalizace-milton.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-1-4-semanticka-imploze.md"]
-nlp_prev = "meta-model"
-nlp_next = "nespecifikovane-sloveso"
-nlp_position = 2
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "oconnor-seymour-1990", "sharpley-1987", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990"]
-nlp_sources_roots = ["chomsky-1965"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "sharpley-1987", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.02"
+catalog_slug = "nominalizace"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Nominalisation"
+catalog_aliases = ["nominalizace procesu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["ctyri-terminy", "reifikace", "eufemismus-a-dysfemismus", "pravidlo-uzivani-jazyka", "zkreslovani", "hluboka-a-povrchova-struktura", "nespecifikovane-sloveso", "presupozice-v-meta-modelu", "poruseni-selekcnich-omezeni-meta", "nominalizace-milton", "existencni-presupozice", "vztazne-vety-presupozice", "som-redefinice", "smyslove-dukazy-cile", "chunking-nahoru", "slovni-baliky"]
+catalog_related_declared = ["zkreslovani", "nominalizace-milton", "slovni-baliky", "nespecifikovane-sloveso"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-1-4-semanticka-imploze.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md", "kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md", "kompendium/nlp-vzorce/milton-model/nominalizace-milton.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-1-4-semanticka-imploze.md"]
+catalog_prev = "meta-model"
+catalog_next = "nespecifikovane-sloveso"
+catalog_position = 2
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "oconnor-seymour-1990", "sharpley-1987", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990"]
+catalog_sources_roots = ["chomsky-1965"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "sharpley-1987", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.toml"
 +++
 
 # Nominalizace
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Nominalisation |
 | **Jiné názvy** | nominalizace procesu |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ oddělení vlastností osoby od událostí, ve kterých jednala. Herman zdůraz�
 zotavení z traumatických vztahů je rekonstrukce prožitého příběhu vlastními slovy (Herman
 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,34 +219,38 @@ zotavení z traumatických vztahů je rekonstrukce prožitého příběhu vlastn
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzný vzorec (Základní pojmy NLP, Distortion)
-- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzný vzorec (Základní pojmy NLP, Deep and surface structure)
-- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – příbuzný vzorec (Meta-model, Unspecified verb)
-- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – příbuzný vzorec (Meta-model, Presuppositions (Meta Model))
-- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – příbuzný vzorec (Meta-model, Selectional restriction violation (Meta Model))
-- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – příbuzný vzorec (Milton-model, Nominalisations (Milton Model))
-- [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Existential presupposition)
-- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Relative clauses)
-- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzný vzorec (Sleight of Mouth, Redefine)
-- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – příbuzný vzorec (Cíle a výsledky, Sensory-based evidence)
-- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzný vzorec (Jazykové vzorce, Chunking up)
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzný vzorec (Jazykové vzorce, Loaded words)
+- [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md) – příbuzné heslo (Argumentační fauly: Formální klamy, Four terms)
+- [Reifikace](@/kompendium/argumentacni-fauly/jazykove-klamy/reifikace.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Reification)
+- [Eufemismus a dysfemismus](@/kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Euphemism and dysphemism)
+- [Pravidlo užívání jazyka](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzivani-jazyka.md) – příbuzné heslo (Argumentační fauly: Principy kritické diskuse a teorie argumentace, Usage rule)
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzné heslo (Základní pojmy NLP, Distortion)
+- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzné heslo (Základní pojmy NLP, Deep and surface structure)
+- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – příbuzné heslo (Meta-model, Unspecified verb)
+- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – příbuzné heslo (Meta-model, Presuppositions (Meta Model))
+- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – příbuzné heslo (Meta-model, Selectional restriction violation (Meta Model))
+- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – příbuzné heslo (Milton-model, Nominalisations (Milton Model))
+- [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – příbuzné heslo (Jazykové presupozice, Existential presupposition)
+- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – příbuzné heslo (Jazykové presupozice, Relative clauses)
+- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzné heslo (Sleight of Mouth, Redefine)
+- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – příbuzné heslo (Cíle a výsledky, Sensory-based evidence)
+- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzné heslo (Jazykové vzorce, Chunking up)
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzné heslo (Jazykové vzorce, Loaded words)
 
 **V kompendiu**
 
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – předchozí vzorec rodiny
-- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – předchozí heslo rodiny
+- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

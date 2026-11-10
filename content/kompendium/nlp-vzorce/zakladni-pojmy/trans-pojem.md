@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Trans", "Trance (concept)", "tranz", "hypnotický stav", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Trans", "Trance (concept)", "tranz", "hypnotický stav", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.40"
-nlp_slug = "trans-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.d"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Trance (concept)"
-nlp_aliases = ["tranz", "hypnotický stav"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["komunikace-vedoma-a-nevedoma", "stav", "disociace", "uptime-a-downtime", "transderivacni-hledani", "ericksonovska-hypnoza", "utilizace", "levitace-ruky", "posthypnoticka-sugesce", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "stav-nevedeni", "periferni-videni", "sladeni-dechu", "konverzacni-hypnoza"]
-nlp_related_declared = ["ericksonovska-hypnoza", "uptime-a-downtime", "transderivacni-hledani", "konverzacni-hypnoza", "disociace", "utilizace"]
-nlp_kompendium = ["kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/case-studies/51-new-age-recovery.md"]
-nlp_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
-nlp_prev = "uptime-a-downtime"
-nlp_next = "transderivacni-hledani"
-nlp_position = 40
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1975b", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
-nlp_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od klinických stavů", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.40"
+catalog_slug = "trans-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.d"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Trance (concept)"
+catalog_aliases = ["tranz", "hypnotický stav"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["komunikace-vedoma-a-nevedoma", "stav", "disociace", "uptime-a-downtime", "transderivacni-hledani", "ericksonovska-hypnoza", "utilizace", "levitace-ruky", "posthypnoticka-sugesce", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "stav-nevedeni", "periferni-videni", "sladeni-dechu", "konverzacni-hypnoza"]
+catalog_related_declared = ["ericksonovska-hypnoza", "uptime-a-downtime", "transderivacni-hledani", "konverzacni-hypnoza", "disociace", "utilizace"]
+catalog_kompendium = ["kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/case-studies/51-new-age-recovery.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
+catalog_prev = "uptime-a-downtime"
+catalog_next = "transderivacni-hledani"
+catalog_position = 40
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1975b", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od klinických stavů", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.d.toml"
 +++
 
 # Trans
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.40` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Trance (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -203,7 +206,7 @@ klinické praxi je důležité odlišit tyto projevy od disociativních poruch a
 volit stabilizační postupy, které posilují orientaci v přítomnosti a kontrolu nad vlastní
 pozorností (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,37 +225,37 @@ pozorností (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzný vzorec (Předpoklady NLP, Communication is both conscious and unconscious)
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzný vzorec (Základní pojmy NLP, Uptime and downtime)
-- [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – příbuzný vzorec (Základní pojmy NLP, Transderivational search)
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzný vzorec (Ericksonovská hypnóza, Ericksonian hypnosis)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – příbuzný vzorec (Ericksonovská hypnóza, Hand levitation)
-- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Post-hypnotic suggestion)
-- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Ideomotor signalling)
-- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – příbuzný vzorec (Ericksonovská hypnóza, Fractionation)
-- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzný vzorec (Ericksonovská hypnóza, Overload induction)
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzný vzorec (Strategie a modelování, Know-nothing state)
-- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzný vzorec (Strategie a modelování, Peripheral vision)
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzný vzorec (Raport a kalibrace, Breathing matching)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzné heslo (Předpoklady NLP, Communication is both conscious and unconscious)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzné heslo (Základní pojmy NLP, Uptime and downtime)
+- [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – příbuzné heslo (Základní pojmy NLP, Transderivational search)
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzné heslo (Ericksonovská hypnóza, Ericksonian hypnosis)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – příbuzné heslo (Ericksonovská hypnóza, Hand levitation)
+- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Post-hypnotic suggestion)
+- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzné heslo (Ericksonovská hypnóza, Ideomotor signalling)
+- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – příbuzné heslo (Ericksonovská hypnóza, Fractionation)
+- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzné heslo (Ericksonovská hypnóza, Overload induction)
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzné heslo (Strategie a modelování, Know-nothing state)
+- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzné heslo (Strategie a modelování, Peripheral vision)
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzné heslo (Raport a kalibrace, Breathing matching)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
 
 **V kompendiu**
 
-- [EA-6.1.8 Disociativní spektrum assessment](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.1.8 Disociativní spektrum assessment](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – předchozí vzorec rodiny
-- [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – předchozí heslo rodiny
+- [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Filmová technika", "Movie theatre technique", "kinosál", "promítání zážitku na plátno", "vizuálně-kinestetická disociace", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Filmová technika", "Movie theatre technique", "kinosál", "promítání zážitku na plátno", "vizuálně-kinestetická disociace", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.17"
-nlp_slug = "filmova-technika"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Movie theatre technique"
-nlp_aliases = ["kinosál", "promítání zážitku na plátno", "vizuálně-kinestetická disociace"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vizualni-submodality", "kinesteticke-submodality", "prostorove-umisteni-obrazu", "rychla-lecba-fobie", "dvojita-disociace", "rewind"]
-nlp_related_declared = ["rychla-lecba-fobie", "dvojita-disociace", "vizualni-submodality", "prostorove-umisteni-obrazu", "kinesteticke-submodality"]
-nlp_kompendium = ["kompendium/techniques/ea-6-2-2-emdr-protokol.md", "glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md"]
-nlp_links_prose = ["glossary/complex-trauma.md", "glossary/disociace.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/submodality/vizualni-submodality.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/techniques/ea-6-2-2-emdr-protokol.md"]
-nlp_prev = "zmena-vnitrniho-hlasu"
-nlp_next = "prostorove-umisteni-obrazu"
-nlp_position = 17
-nlp_family_size = 20
-nlp_sources = ["bandler-1985", "herman-1992", "lilienfeld-2015", "norcross-2006", "oconnor-seymour-1990", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-1985", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["herman-1992", "lilienfeld-2015", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.17"
+catalog_slug = "filmova-technika"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Movie theatre technique"
+catalog_aliases = ["kinosál", "promítání zážitku na plátno", "vizuálně-kinestetická disociace"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vizualni-submodality", "kinesteticke-submodality", "prostorove-umisteni-obrazu", "rychla-lecba-fobie", "dvojita-disociace", "rewind"]
+catalog_related_declared = ["rychla-lecba-fobie", "dvojita-disociace", "vizualni-submodality", "prostorove-umisteni-obrazu", "kinesteticke-submodality"]
+catalog_kompendium = ["kompendium/techniques/ea-6-2-2-emdr-protokol.md", "glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/complex-trauma.md", "glossary/disociace.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/submodality/vizualni-submodality.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/techniques/ea-6-2-2-emdr-protokol.md"]
+catalog_prev = "zmena-vnitrniho-hlasu"
+catalog_next = "prostorove-umisteni-obrazu"
+catalog_position = 17
+catalog_family_size = 20
+catalog_sources = ["bandler-1985", "herman-1992", "lilienfeld-2015", "norcross-2006", "oconnor-seymour-1990", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-1985", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["herman-1992", "lilienfeld-2015", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Filmová technika
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Movie theatre technique |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/submodality.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ vztah, v němž je zkušenost uznána a v němž má člověk kontrolu nad tempe
 Terapeut, který s filmovou technikou pracuje, by ji měl nabízet jako jednu z možností regulace,
 nikoli jako samostatnou léčbu, a jejímu užití by mělo předcházet pečlivé posouzení.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,27 +218,27 @@ nikoli jako samostatnou léčbu, a jejímu užití by mělo předcházet pečliv
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzný vzorec (Submodality, Visual submodalities)
-- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzný vzorec (Submodality, Kinaesthetic submodalities)
-- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzný vzorec (Submodality, Spatial location of images)
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
-- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzný vzorec (Disociace, fobie a trauma, Double dissociation)
-- [Technika přetáčení](@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md) – příbuzný vzorec (Disociace, fobie a trauma, Rewind technique)
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzné heslo (Submodality, Visual submodalities)
+- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzné heslo (Submodality, Kinaesthetic submodalities)
+- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzné heslo (Submodality, Spatial location of images)
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
+- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzné heslo (Disociace, fobie a trauma, Double dissociation)
+- [Technika přetáčení](@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md) – příbuzné heslo (Disociace, fobie a trauma, Rewind technique)
 
 **V kompendiu**
 
-- [EA-6.2.2 EMDR protokol](@/kompendium/techniques/ea-6-2-2-emdr-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.2.2 EMDR protokol](@/kompendium/techniques/ea-6-2-2-emdr-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – předchozí vzorec rodiny
-- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – předchozí heslo rodiny
+- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Čichový a chuťový systém", "Olfactory and gustatory systems", "O/G", "olfaktorní systém", "gustatorní systém", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Čichový a chuťový systém", "Olfactory and gustatory systems", "O/G", "olfaktorní systém", "gustatorní systém", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.05"
-nlp_slug = "olfaktorni-a-gustatorni-system"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Olfactory and gustatory systems"
-nlp_aliases = ["O/G", "olfaktorní systém", "gustatorní systém"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "reprezentacni-systemy"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reprezentacni-systemy"]
-nlp_related = ["kinesteticky-system", "submodality-pojem", "kotva-pojem", "submodality-v-reklame"]
-nlp_related_declared = ["kinesteticky-system", "kotva-pojem", "submodality-pojem", "submodality-v-reklame"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
-nlp_prev = "kinesteticky-system"
-nlp_next = "auditivne-digitalni-system"
-nlp_position = 5
-nlp_family_size = 42
-nlp_sources = ["bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988", "herman-1992", "lakoff-johnson-1980", "pavlov-1927", "sharpley-1984", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.05"
+catalog_slug = "olfaktorni-a-gustatorni-system"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Olfactory and gustatory systems"
+catalog_aliases = ["O/G", "olfaktorní systém", "gustatorní systém"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "reprezentacni-systemy"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reprezentacni-systemy"]
+catalog_related = ["kinesteticky-system", "submodality-pojem", "kotva-pojem", "submodality-v-reklame"]
+catalog_related_declared = ["kinesteticky-system", "kotva-pojem", "submodality-pojem", "submodality-v-reklame"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+catalog_prev = "kinesteticky-system"
+catalog_next = "auditivne-digitalni-system"
+catalog_position = 5
+catalog_family_size = 42
+catalog_sources = ["bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988", "herman-1992", "lakoff-johnson-1980", "pavlov-1927", "sharpley-1984", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.toml"
 +++
 
 # Čichový a chuťový systém
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Olfactory and gustatory systems |
 | **Jiné názvy** | O/G, olfaktorní systém, gustatorní systém |
-| **Obecnější vzorec** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
+| **Obecnější heslo** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ porozumění tomuto mechanismu a postupné vytváření nových asociací v bezp
 rámci](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md), kde se objevují i smyslové
 spouštěče vzpomínek.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -210,25 +213,25 @@ spouštěče vzpomínek.
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzný vzorec (Základní pojmy NLP, Kinaesthetic representational system)
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzný vzorec (Submodality, Submodalities in advertising and media)
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzné heslo (Základní pojmy NLP, Kinaesthetic representational system)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – předchozí vzorec rodiny
-- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – předchozí heslo rodiny
+- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

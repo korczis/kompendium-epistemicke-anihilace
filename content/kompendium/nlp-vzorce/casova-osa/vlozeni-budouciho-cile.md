@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vložení cíle do budoucnosti", "Placing a goal in the future", "umístění cíle na časovou osu", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Vložení cíle do budoucnosti", "Placing a goal in the future", "umístění cíle na časovou osu", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.06"
-nlp_slug = "vlozeni-budouciho-cile"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Placing a goal in the future"
-nlp_aliases = ["umístění cíle na časovou osu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "terapie-casove-osy"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
-nlp_related = ["pseudoorientace-v-case", "ramec-jako-by", "budouci-prehravani", "casova-perspektiva", "dobre-formulovany-vysledek", "budouci-prehravani-v-prodeji"]
-nlp_related_declared = ["dobre-formulovany-vysledek", "budouci-prehravani", "pseudoorientace-v-case", "ramec-jako-by", "casova-perspektiva"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md"]
-nlp_prev = "limitujici-rozhodnuti"
-nlp_next = "korenova-pricina"
-nlp_position = 6
-nlp_family_size = 12
-nlp_sources = ["cialdini-2009", "james-woodsmall-1988", "kahneman-2011", "miller-galanter-pribram-1960", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["james-woodsmall-1988"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["cialdini-2009", "kahneman-2011", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.06"
+catalog_slug = "vlozeni-budouciho-cile"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Placing a goal in the future"
+catalog_aliases = ["umístění cíle na časovou osu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "terapie-casove-osy"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
+catalog_related = ["pseudoorientace-v-case", "ramec-jako-by", "budouci-prehravani", "casova-perspektiva", "dobre-formulovany-vysledek", "budouci-prehravani-v-prodeji"]
+catalog_related_declared = ["dobre-formulovany-vysledek", "budouci-prehravani", "pseudoorientace-v-case", "ramec-jako-by", "casova-perspektiva"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md"]
+catalog_prev = "limitujici-rozhodnuti"
+catalog_next = "korenova-pricina"
+catalog_position = 6
+catalog_family_size = 12
+catalog_sources = ["cialdini-2009", "james-woodsmall-1988", "kahneman-2011", "miller-galanter-pribram-1960", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["james-woodsmall-1988"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Vložení cíle do budoucnosti
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Placing a goal in the future |
 | **Jiné názvy** | umístění cíle na časovou osu |
-| **Obecnější vzorec** | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) |
+| **Obecnější heslo** | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Pro tvrzení, že prostorové umístění cíle na časovou osu zvyšuje pravdě
 
 Základní obranou je oddělit představu od rozhodnutí. Po živé představě budoucnosti, zvláště ve skupině nebo pod vedením někoho, kdo něco prodává, je rozumné nerozhodovat hned. Odstup několika dní, písemné podmínky a srovnání s jinými možnostmi narušují emoční spojení, na kterém tlak stojí (Cialdini 2009). Druhou obranou je doplnit představu o překážky: co by mohlo cíl zkomplikovat, kolik to bude stát a jaké jsou jiné cesty k němu. Takové doplnění není sebesabotáž, ale součást rozumného plánování. Třetí obranou je posoudit, zda je cíl skutečně váš. Představa budoucnosti, kterou někdo vytvořil za vás, a cíl, který slouží jeho zájmům, nejsou vaším cílem jen proto, že jste si je živě představili. Lidé, kteří v takovém stavu udělali finanční nebo životní rozhodnutí a později ho litují, se často stydí, že „se nechali unést“. Pomáhá pochopit, že živá představa ovlivňuje úsudek u každého, a obrátit se na lidi mimo situaci, kteří mohou pomoci rozhodnutí přehodnotit a hledat nápravu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -120,27 +123,27 @@ Základní obranou je oddělit představu od rozhodnutí. Po živé představě 
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzný vzorec (Ericksonovská hypnóza, Pseudo-orientation in time)
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzný vzorec (Časová osa, Time perspective)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzné heslo (Ericksonovská hypnóza, Pseudo-orientation in time)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzné heslo (Časová osa, Time perspective)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
 
 **V kompendiu**
 
-- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – předchozí vzorec rodiny
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – předchozí heslo rodiny
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

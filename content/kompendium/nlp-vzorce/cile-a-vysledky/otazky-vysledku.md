@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Otázky výsledku", "Outcome questions", "otázky na žádaný stav", "otázky k cíli", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Otázky výsledku", "Outcome questions", "otázky na žádaný stav", "otázky k cíli", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.09"
-nlp_slug = "otazky-vysledku"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Outcome questions"
-nlp_aliases = ["otázky na žádaný stav", "otázky k cíli"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "dobre-formulovany-vysledek"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["dobre-formulovany-vysledek"]
-nlp_related = ["meta-model", "otazky-s-presupozici", "ramec-vysledku", "kartezske-otazky", "dobre-formulovany-vysledek", "nlp-v-prodeji", "budouci-prehravani-v-prodeji"]
-nlp_related_declared = ["otazky-s-presupozici", "meta-model", "budouci-prehravani-v-prodeji", "nlp-v-prodeji", "ramec-vysledku"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md"]
-nlp_prev = "dukazni-procedura"
-nlp_next = "od-problemu-k-vysledku"
-nlp_position = 9
-nlp_family_size = 10
-nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "freedman-fraser-1966", "haley-1973", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = ["haley-1973", "watzlawick-1974"]
-nlp_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.09"
+catalog_slug = "otazky-vysledku"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Outcome questions"
+catalog_aliases = ["otázky na žádaný stav", "otázky k cíli"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "dobre-formulovany-vysledek"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["dobre-formulovany-vysledek"]
+catalog_related = ["meta-model", "otazky-s-presupozici", "ramec-vysledku", "kartezske-otazky", "dobre-formulovany-vysledek", "nlp-v-prodeji", "budouci-prehravani-v-prodeji"]
+catalog_related_declared = ["otazky-s-presupozici", "meta-model", "budouci-prehravani-v-prodeji", "nlp-v-prodeji", "ramec-vysledku"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md"]
+catalog_prev = "dukazni-procedura"
+catalog_next = "od-problemu-k-vysledku"
+catalog_position = 9
+catalog_family_size = 10
+catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "freedman-fraser-1966", "haley-1973", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = ["haley-1973", "watzlawick-1974"]
+catalog_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Otázky výsledku
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Outcome questions |
 | **Jiné názvy** | otázky na žádaný stav, otázky k cíli |
-| **Obecnější vzorec** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
+| **Obecnější heslo** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -185,7 +188,7 @@ jejichž důvěrné odpovědi byly později využity jako páka, se zotavení op
 tohoto zneužití a o obnovu důvěry, že vlastní přání smějí sdílet jen ve vztazích, které si
 sami zvolí (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -208,28 +211,28 @@ sami zvolí (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzný vzorec (Přesvědčení, Cartesian questions)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzné heslo (Přesvědčení, Cartesian questions)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
 
 **V kompendiu**
 
-- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – předchozí vzorec rodiny
-- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – předchozí heslo rodiny
+- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

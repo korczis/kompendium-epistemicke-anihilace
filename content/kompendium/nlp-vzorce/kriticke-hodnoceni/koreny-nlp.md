@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Kořeny NLP: Satirová, Perls, Erickson", "Roots of NLP: Satir, Perls, Erickson", "zdroje NLP", "modelovaní terapeuti", "Kritické hodnocení NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Kořeny NLP: Satirová, Perls, Erickson", "Roots of NLP: Satir, Perls, Erickson", "zdroje NLP", "modelovaní terapeuti", "Kritické hodnocení NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-22.12"
-nlp_slug = "koreny-nlp"
-nlp_family = "kriticke-hodnoceni"
-nlp_family_code = "22"
-nlp_family_title = "Kritické hodnocení NLP"
-nlp_family_en = "Critical appraisal of NLP"
-nlp_part = "kriticke-hodnoceni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Roots of NLP: Satir, Perls, Erickson"
-nlp_aliases = ["zdroje NLP", "modelovaní terapeuti"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "historie-nlp"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["historie-nlp"]
-nlp_related = ["modelovani-pojem", "meta-model", "milton-model", "ericksonovska-hypnoza", "modelovani-excelence", "integrace-polarit", "kategorie-satirove", "historie-nlp", "kargokultovni-psychologie"]
-nlp_related_declared = ["kategorie-satirove", "ericksonovska-hypnoza", "milton-model", "meta-model", "modelovani-pojem", "kargokultovni-psychologie"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/02-uvod/teoreticke-zaklady.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md", "kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md"]
-nlp_prev = "historie-nlp"
-nlp_next = "kargokultovni-psychologie"
-nlp_position = 12
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "bateson-1956", "chomsky-1965", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-delozier-bandler-1977", "haley-1973", "herman-1992", "kirsch-lynn-1995", "korzybski-1933", "lilienfeld-2015", "miller-galanter-pribram-1960", "perls-1969", "roderique-davies-2009", "rosen-1982", "satir-1972", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-delozier-bandler-1977"]
-nlp_sources_roots = ["bateson-1972", "bateson-1956", "chomsky-1965", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "korzybski-1933", "miller-galanter-pribram-1960", "perls-1969", "rosen-1982", "satir-1972", "watzlawick-1967", "watzlawick-1974"]
-nlp_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Teoretické výpůjčky", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kriticke-hodnoceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-22.12"
+catalog_slug = "koreny-nlp"
+catalog_family = "kriticke-hodnoceni"
+catalog_family_code = "22"
+catalog_family_title = "Kritické hodnocení NLP"
+catalog_family_en = "Critical appraisal of NLP"
+catalog_part = "kriticke-hodnoceni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Roots of NLP: Satir, Perls, Erickson"
+catalog_aliases = ["zdroje NLP", "modelovaní terapeuti"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "historie-nlp"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["historie-nlp"]
+catalog_related = ["modelovani-pojem", "meta-model", "milton-model", "ericksonovska-hypnoza", "modelovani-excelence", "integrace-polarit", "kategorie-satirove", "historie-nlp", "kargokultovni-psychologie"]
+catalog_related_declared = ["kategorie-satirove", "ericksonovska-hypnoza", "milton-model", "meta-model", "modelovani-pojem", "kargokultovni-psychologie"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/02-uvod/teoreticke-zaklady.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md", "kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md"]
+catalog_prev = "historie-nlp"
+catalog_next = "kargokultovni-psychologie"
+catalog_position = 12
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "bateson-1956", "chomsky-1965", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-delozier-bandler-1977", "haley-1973", "herman-1992", "kirsch-lynn-1995", "korzybski-1933", "lilienfeld-2015", "miller-galanter-pribram-1960", "perls-1969", "roderique-davies-2009", "rosen-1982", "satir-1972", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-delozier-bandler-1977"]
+catalog_sources_roots = ["bateson-1972", "bateson-1956", "chomsky-1965", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "korzybski-1933", "miller-galanter-pribram-1960", "perls-1969", "rosen-1982", "satir-1972", "watzlawick-1967", "watzlawick-1974"]
+catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Teoretické výpůjčky", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kriticke-hodnoceni.b.toml"
 +++
 
 # Kořeny NLP: Satirová, Perls, Erickson
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-22.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Roots of NLP: Satir, Perls, Erickson |
 | **Jiné názvy** | zdroje NLP, modelovaní terapeuti |
-| **Obecnější vzorec** | [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) |
+| **Obecnější heslo** | [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ destabilizováni, potřebují často nejprve stabilizaci a obnovu důvěry ve vl
 ne další techniky. Herman zdůrazňuje, že zotavení začíná bezpečím a obnovou kontroly nad
 vlastní zkušeností (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -231,30 +234,30 @@ vlastní zkušeností (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Modelling (concept))
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzný vzorec (Ericksonovská hypnóza, Ericksonian hypnosis)
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
-- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzný vzorec (Práce s částmi, Polarity integration)
-- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – příbuzný vzorec (Jazykové vzorce, Satir categories)
-- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, History of NLP)
-- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as cargo-cult psychology)
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzné heslo (Základní pojmy NLP, Modelling (concept))
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzné heslo (Ericksonovská hypnóza, Ericksonian hypnosis)
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
+- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzné heslo (Práce s částmi, Polarity integration)
+- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – příbuzné heslo (Jazykové vzorce, Satir categories)
+- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, History of NLP)
+- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as cargo-cult psychology)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [2.3 Teoretické základy a konceptuální rámec](@/kompendium/02-uvod/teoreticke-zaklady.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [2.3 Teoretické základy a konceptuální rámec](@/kompendium/02-uvod/teoreticke-zaklady.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – předchozí vzorec rodiny
-- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – předchozí heslo rodiny
+- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Ztracený performativ", "Lost performative", "soud bez původce", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Ztracený performativ", "Lost performative", "soud bez původce", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.07"
-nlp_slug = "ztraceny-performativ"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Lost performative"
-nlp_aliases = ["soud bez původce"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["zkreslovani", "nespecifikovany-referencni-index", "modalni-operator-nutnosti", "cteni-myslenek", "poruseni-selekcnich-omezeni-meta", "ztraceny-performativ-milton", "komentarova-adverbia", "faktivni-slovesa", "nlp-v-sektach"]
-nlp_related_declared = ["zkreslovani", "ztraceny-performativ-milton", "modalni-operator-nutnosti", "nlp-v-sektach"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
-nlp_prev = "srovnavaci-delece"
-nlp_next = "univerzalni-kvantifikator"
-nlp_position = 7
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "ellis-1962", "hassan-1988", "heap-1988", "levinson-1983", "lifton-1961", "norcross-2006", "perls-1969", "sharpley-1987", "singer-lalich-1995", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975"]
-nlp_sources_roots = ["levinson-1983", "perls-1969", "watzlawick-1967"]
-nlp_sources_critical = ["cialdini-2009", "ellis-1962", "hassan-1988", "heap-1988", "lifton-1961", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.07"
+catalog_slug = "ztraceny-performativ"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Lost performative"
+catalog_aliases = ["soud bez původce"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["vyhybava-slova", "zkreslovani", "nespecifikovany-referencni-index", "modalni-operator-nutnosti", "cteni-myslenek", "poruseni-selekcnich-omezeni-meta", "ztraceny-performativ-milton", "komentarova-adverbia", "faktivni-slovesa", "nlp-v-sektach"]
+catalog_related_declared = ["zkreslovani", "ztraceny-performativ-milton", "modalni-operator-nutnosti", "nlp-v-sektach"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
+catalog_prev = "srovnavaci-delece"
+catalog_next = "univerzalni-kvantifikator"
+catalog_position = 7
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "ellis-1962", "hassan-1988", "heap-1988", "levinson-1983", "lifton-1961", "norcross-2006", "perls-1969", "sharpley-1987", "singer-lalich-1995", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975"]
+catalog_sources_roots = ["levinson-1983", "perls-1969", "watzlawick-1967"]
+catalog_sources_critical = ["cialdini-2009", "ellis-1962", "hassan-1988", "heap-1988", "lifton-1961", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.toml"
 +++
 
 # Ztracený performativ
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Lost performative |
 | **Jiné názvy** | soud bez původce |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ skupina, od jeho původní identity a jejich rozlišení považuje za důležito
 (Hassan 1988). Odborníci, kteří s klienty po odchodu ze skupin pracují, by
 se měli vyhnout tomu, aby staré soudy bez původce nahradili novými, jen s jiným obsahem.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,31 +219,32 @@ se měli vyhnout tomu, aby staré soudy bez původce nahradili novými, jen s ji
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzný vzorec (Základní pojmy NLP, Distortion)
-- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzný vzorec (Meta-model, Unspecified referential index)
-- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – příbuzný vzorec (Meta-model, Modal operator of necessity)
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzný vzorec (Meta-model, Mind reading)
-- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – příbuzný vzorec (Meta-model, Selectional restriction violation (Meta Model))
-- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – příbuzný vzorec (Milton-model, Lost performative (Milton Model))
-- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – příbuzný vzorec (Jazykové presupozice, Commentary adverbs and adjectives)
-- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – příbuzný vzorec (Jazykové presupozice, Factive verbs)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
+- [Vyhýbavá slova](@/kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Weasel words)
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzné heslo (Základní pojmy NLP, Distortion)
+- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzné heslo (Meta-model, Unspecified referential index)
+- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – příbuzné heslo (Meta-model, Modal operator of necessity)
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
+- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – příbuzné heslo (Meta-model, Selectional restriction violation (Meta Model))
+- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – příbuzné heslo (Milton-model, Lost performative (Milton Model))
+- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – příbuzné heslo (Jazykové presupozice, Commentary adverbs and adjectives)
+- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – příbuzné heslo (Jazykové presupozice, Factive verbs)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – předchozí vzorec rodiny
-- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – předchozí heslo rodiny
+- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

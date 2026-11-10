@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Hluboká a povrchová struktura", "Deep and surface structure", "hloubková struktura", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Hluboká a povrchová struktura", "Deep and surface structure", "hloubková struktura", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.36"
-nlp_slug = "hluboka-a-povrchova-struktura"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.d"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Deep and surface structure"
-nlp_aliases = ["hloubková struktura"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["zkusenost-ma-strukturu", "vypousteni", "transderivacni-hledani", "meta-model", "nominalizace", "poruseni-selekcnich-omezeni-meta"]
-nlp_related_declared = ["vypousteni", "meta-model", "transderivacni-hledani", "nominalizace"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md", "kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md"]
-nlp_prev = "zobecnovani"
-nlp_next = "modelovani-pojem"
-nlp_position = 36
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "grice-1975", "grinder-bandler-1976", "herman-1992", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "rogers-1951"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1976"]
-nlp_sources_roots = ["chomsky-1965", "grice-1975", "levinson-1983"]
-nlp_sources_critical = ["herman-1992", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "rogers-1951"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.36"
+catalog_slug = "hluboka-a-povrchova-struktura"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.d"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Deep and surface structure"
+catalog_aliases = ["hloubková struktura"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["zkusenost-ma-strukturu", "vypousteni", "transderivacni-hledani", "meta-model", "nominalizace", "poruseni-selekcnich-omezeni-meta"]
+catalog_related_declared = ["vypousteni", "meta-model", "transderivacni-hledani", "nominalizace"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md", "kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md"]
+catalog_prev = "zobecnovani"
+catalog_next = "modelovani-pojem"
+catalog_position = 36
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "grice-1975", "grinder-bandler-1976", "herman-1992", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "rogers-1951"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1976"]
+catalog_sources_roots = ["chomsky-1965", "grice-1975", "levinson-1983"]
+catalog_sources_critical = ["herman-1992", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "rogers-1951"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.d.toml"
 +++
 
 # Hluboká a povrchová struktura
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.36` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Deep and surface structure |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ obnova po traumatu zahrnuje návrat k vlastnímu vyprávění, které přestane 
 výkladu toho, kdo měl nad člověkem moc (Herman 1992). Praktik meta-modelu by měl mít na
 paměti, že jeho otázky mohou obsah odkrývat i vytvářet, a podle toho volit jejich formu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,26 +220,26 @@ paměti, že jeho otázky mohou obsah odkrývat i vytvářet, a podle toho volit
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzný vzorec (Předpoklady NLP, Experience has a structure)
-- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzný vzorec (Základní pojmy NLP, Deletion)
-- [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – příbuzný vzorec (Základní pojmy NLP, Transderivational search)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzný vzorec (Meta-model, Nominalisation)
-- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – příbuzný vzorec (Meta-model, Selectional restriction violation (Meta Model))
+- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzné heslo (Předpoklady NLP, Experience has a structure)
+- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzné heslo (Základní pojmy NLP, Deletion)
+- [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – příbuzné heslo (Základní pojmy NLP, Transderivational search)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzné heslo (Meta-model, Nominalisation)
+- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – příbuzné heslo (Meta-model, Selectional restriction violation (Meta Model))
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – předchozí vzorec rodiny
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – předchozí heslo rodiny
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

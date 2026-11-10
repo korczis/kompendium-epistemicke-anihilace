@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Prosté vypuštění", "Simple deletion", "prostá delece", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Prosté vypuštění", "Simple deletion", "prostá delece", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.05"
-nlp_slug = "prosta-delece"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Simple deletion"
-nlp_aliases = ["prostá delece"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["vypousteni", "nespecifikovany-referencni-index", "srovnavaci-delece", "umyslna-vagnost"]
-nlp_related_declared = ["vypousteni", "srovnavaci-delece", "nespecifikovany-referencni-index", "umyslna-vagnost"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md", "kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_prev = "nespecifikovany-referencni-index"
-nlp_next = "srovnavaci-delece"
-nlp_position = 5
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "druckman-swets-1988", "grice-1975", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["chomsky-1965", "grice-1975", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.05"
+catalog_slug = "prosta-delece"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Simple deletion"
+catalog_aliases = ["prostá delece"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["vypousteni", "nespecifikovany-referencni-index", "srovnavaci-delece", "umyslna-vagnost"]
+catalog_related_declared = ["vypousteni", "srovnavaci-delece", "nespecifikovany-referencni-index", "umyslna-vagnost"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md", "kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_prev = "nespecifikovany-referencni-index"
+catalog_next = "srovnavaci-delece"
+catalog_position = 5
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "druckman-swets-1988", "grice-1975", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["chomsky-1965", "grice-1975", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.toml"
 +++
 
 # Prosté vypuštění
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Simple deletion |
 | **Jiné názvy** | prostá delece |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ pomáhá postupné odlišení rozptýlené viny od konkrétních událostí, za 
 odpovídá, a od těch, které si jen doplnil. Herman zdůrazňuje, že obnova důvěry ve vlastní úsudek probíhá v bezpečném vztahu, který
 neopakuje kontrolu (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,26 +221,26 @@ neopakuje kontrolu (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzný vzorec (Základní pojmy NLP, Deletion)
-- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzný vzorec (Meta-model, Unspecified referential index)
-- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – příbuzný vzorec (Meta-model, Comparative deletion)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
+- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzné heslo (Základní pojmy NLP, Deletion)
+- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzné heslo (Meta-model, Unspecified referential index)
+- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – příbuzné heslo (Meta-model, Comparative deletion)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
 
 **V kompendiu**
 
-- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – předchozí vzorec rodiny
-- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – předchozí heslo rodiny
+- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

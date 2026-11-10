@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vedoucí systém", "Lead system", "přístupový systém", "lead system", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Vedoucí systém", "Lead system", "přístupový systém", "lead system", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.07"
-nlp_slug = "vedouci-system"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Lead system"
-nlp_aliases = ["přístupový systém", "lead system"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "reprezentacni-systemy"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reprezentacni-systemy"]
-nlp_related = ["preferovany-reprezentacni-system", "ocni-pristupove-signaly", "synestezie", "strategie-pojem", "elicitace-strategie", "vyzkum-ocnich-signalu"]
-nlp_related_declared = ["preferovany-reprezentacni-system", "ocni-pristupove-signaly", "strategie-pojem", "elicitace-strategie", "synestezie"]
-nlp_kompendium = ["kompendium/critical-perspectives/_index.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_links_prose = ["kompendium/critical-perspectives/_index.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_prev = "auditivne-digitalni-system"
-nlp_next = "preferovany-reprezentacni-system"
-nlp_position = 7
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1979", "dilts-1980", "gilovich-1991", "heap-1988", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["gilovich-1991", "heap-1988", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.07"
+catalog_slug = "vedouci-system"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Lead system"
+catalog_aliases = ["přístupový systém", "lead system"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "reprezentacni-systemy"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reprezentacni-systemy"]
+catalog_related = ["preferovany-reprezentacni-system", "ocni-pristupove-signaly", "synestezie", "strategie-pojem", "elicitace-strategie", "vyzkum-ocnich-signalu"]
+catalog_related_declared = ["preferovany-reprezentacni-system", "ocni-pristupove-signaly", "strategie-pojem", "elicitace-strategie", "synestezie"]
+catalog_kompendium = ["kompendium/critical-perspectives/_index.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/critical-perspectives/_index.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+catalog_prev = "auditivne-digitalni-system"
+catalog_next = "preferovany-reprezentacni-system"
+catalog_position = 7
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1979", "dilts-1980", "gilovich-1991", "heap-1988", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["gilovich-1991", "heap-1988", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.toml"
 +++
 
 # Vedoucí systém
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Lead system |
 | **Jiné názvy** | přístupový systém, lead system |
-| **Obecnější vzorec** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
+| **Obecnější heslo** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -187,7 +190,7 @@ jako diagnózy. Lidé, kterým byl dlouho vykládán jejich vlastní vnitřní s
 zotavení především znovu získat právo na vlastní introspekci a na to, že jejich popis vlastního
 prožitku má váhu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -208,27 +211,27 @@ prožitku má váhu.
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzný vzorec (Základní pojmy NLP, Preferred representational system)
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzný vzorec (Základní pojmy NLP, Eye accessing cues)
-- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzný vzorec (Základní pojmy NLP, Synaesthesia (NLP sense))
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy elicitation)
-- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – příbuzný vzorec (Kritické hodnocení NLP, Research on eye accessing cues)
+- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzné heslo (Základní pojmy NLP, Preferred representational system)
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzné heslo (Základní pojmy NLP, Eye accessing cues)
+- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzné heslo (Základní pojmy NLP, Synaesthesia (NLP sense))
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy elicitation)
+- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – příbuzné heslo (Kritické hodnocení NLP, Research on eye accessing cues)
 
 **V kompendiu**
 
-- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – předchozí vzorec rodiny
-- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – předchozí heslo rodiny
+- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

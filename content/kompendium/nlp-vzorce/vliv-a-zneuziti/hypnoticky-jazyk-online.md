@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Hypnotický jazyk v online obsahu", "Hypnotic language in online content", "hypnotický copywriting", "trance obsah na sociálních sítích", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Hypnotický jazyk v online obsahu", "Hypnotic language in online content", "hypnotický copywriting", "trance obsah na sociálních sítích", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.17"
-nlp_slug = "hypnoticky-jazyk-online"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Hypnotic language in online content"
-nlp_aliases = ["hypnotický copywriting", "trance obsah na sociálních sítích"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["milton-model", "vlozene-prikazy", "umyslna-vagnost", "submodality-v-reklame", "konverzacni-hypnoza", "budouci-prehravani-v-prodeji", "nlp-v-reklame"]
-nlp_related_declared = ["milton-model", "umyslna-vagnost", "vlozene-prikazy", "konverzacni-hypnoza", "nlp-v-reklame", "budouci-prehravani-v-prodeji"]
-nlp_kompendium = ["kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/techniques/ea-9-3-1-algorithmic-amplification.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md"]
-nlp_prev = "manipulativni-reframing-ve-vztazich"
-nlp_next = "neuro-zargon"
-nlp_position = 17
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "kirsch-lynn-1995", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = []
-nlp_sources_critical = ["kirsch-lynn-1995", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.17"
+catalog_slug = "hypnoticky-jazyk-online"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Hypnotic language in online content"
+catalog_aliases = ["hypnotický copywriting", "trance obsah na sociálních sítích"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["milton-model", "vlozene-prikazy", "umyslna-vagnost", "submodality-v-reklame", "konverzacni-hypnoza", "budouci-prehravani-v-prodeji", "nlp-v-reklame"]
+catalog_related_declared = ["milton-model", "umyslna-vagnost", "vlozene-prikazy", "konverzacni-hypnoza", "nlp-v-reklame", "budouci-prehravani-v-prodeji"]
+catalog_kompendium = ["kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/techniques/ea-9-3-1-algorithmic-amplification.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md"]
+catalog_prev = "manipulativni-reframing-ve-vztazich"
+catalog_next = "neuro-zargon"
+catalog_position = 17
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "kirsch-lynn-1995", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = []
+catalog_sources_critical = ["kirsch-lynn-1995", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
 +++
 
 # Hypnotický jazyk v online obsahu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Hypnotic language in online content |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -202,7 +205,7 @@ lidské potřeby. Zotavení zahrnuje omezení expozice, například úpravu dopo
 platformách, a nalezení spolehlivých zdrojů pomoci, jak je kompendium popisuje u
 [EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,28 +220,28 @@ platformách, a nalezení spolehlivých zdrojů pomoci, jak je kompendium popisu
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzný vzorec (Submodality, Submodalities in advertising and media)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in advertising)
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in advertising)
 
 **V kompendiu**
 
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – předchozí vzorec rodiny
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – předchozí heslo rodiny
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

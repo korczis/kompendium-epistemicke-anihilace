@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Zrcadlení", "Mirroring", "matching", "přímé zrcadlení", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Zrcadlení", "Mirroring", "matching", "přímé zrcadlení", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.01"
-nlp_slug = "zrcadleni"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Mirroring"
-nlp_aliases = ["matching", "přímé zrcadlení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "pacing-a-leading"
-nlp_narrower = ["krizove-zrcadleni", "sladeni-dechu", "sladeni-hlasu-a-tempa", "falesne-zrcadleni-v-podvodech"]
-nlp_depth = 2
-nlp_ancestors = ["pacing-a-leading", "pacing-a-leading-pojem"]
-nlp_related = ["kalibrace", "raport", "pacing-a-leading-pojem", "druha-pozice", "modelovani-nevedomim", "vedeni-v-raportu", "preruseni-raportu", "raport-jako-nastroj-vlivu", "cteni-reci-tela", "pseudoempatie", "nlp-v-komunite-svadeni", "falesne-zrcadleni-v-podvodech", "rozpoznani-nlp-praktiky"]
-nlp_related_declared = ["raport", "kalibrace", "falesne-zrcadleni-v-podvodech", "raport-jako-nastroj-vlivu", "pseudoempatie"]
-nlp_kompendium = ["kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
-nlp_prev = ""
-nlp_next = "krizove-zrcadleni"
-nlp_position = 1
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "dilts-delozier-2000", "haley-1973", "heap-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = ["haley-1973"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.01"
+catalog_slug = "zrcadleni"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Mirroring"
+catalog_aliases = ["matching", "přímé zrcadlení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "pacing-a-leading"
+catalog_narrower = ["krizove-zrcadleni", "sladeni-dechu", "sladeni-hlasu-a-tempa", "falesne-zrcadleni-v-podvodech"]
+catalog_depth = 2
+catalog_ancestors = ["pacing-a-leading", "pacing-a-leading-pojem"]
+catalog_related = ["kalibrace", "raport", "pacing-a-leading-pojem", "druha-pozice", "modelovani-nevedomim", "vedeni-v-raportu", "preruseni-raportu", "raport-jako-nastroj-vlivu", "cteni-reci-tela", "pseudoempatie", "nlp-v-komunite-svadeni", "falesne-zrcadleni-v-podvodech", "rozpoznani-nlp-praktiky"]
+catalog_related_declared = ["raport", "kalibrace", "falesne-zrcadleni-v-podvodech", "raport-jako-nastroj-vlivu", "pseudoempatie"]
+catalog_kompendium = ["kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
+catalog_prev = ""
+catalog_next = "krizove-zrcadleni"
+catalog_position = 1
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "dilts-delozier-2000", "haley-1973", "heap-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = ["haley-1973"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.toml"
 +++
 
 # Zrcadlení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Mirroring |
 | **Jiné názvy** | matching, přímé zrcadlení |
-| **Obecnější vzorec** | [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) |
+| **Obecnější heslo** | [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -206,7 +209,7 @@ využil (Herman 1992). Rozcestník [obrany a kalibrace důvěry](@/kompendium/06
 nabízí širší rámec, v němž se tato zkušenost dá zpracovat bez přechodu do plošné
 podezíravosti vůči všem projevům blízkosti.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -228,38 +231,38 @@ podezíravosti vůči všem projevům blízkosti.
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – zvláštní případ tohoto vzorce
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – zvláštní případ tohoto vzorce
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – zvláštní případ tohoto vzorce
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – zvláštní případ tohoto vzorce
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – zvláštní případ tohoto hesla
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – zvláštní případ tohoto hesla
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – zvláštní případ tohoto hesla
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Pacing and leading (concept))
-- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Second position)
-- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzný vzorec (Strategie a modelování, Unconscious uptake modelling)
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzný vzorec (Raport a kalibrace, Leading in rapport)
-- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – příbuzný vzorec (Raport a kalibrace, Breaking rapport)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzný vzorec (Raport a kalibrace, Body-language reading in NLP)
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzný vzorec (Raport a kalibrace, Simulated empathy)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzný vzorec (Vliv a zneužití NLP, Mirroring in scams)
-- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzný vzorec (Vliv a zneužití NLP, Recognising NLP practice in conversation)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzné heslo (Základní pojmy NLP, Pacing and leading (concept))
+- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Second position)
+- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzné heslo (Strategie a modelování, Unconscious uptake modelling)
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzné heslo (Raport a kalibrace, Leading in rapport)
+- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – příbuzné heslo (Raport a kalibrace, Breaking rapport)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzné heslo (Raport a kalibrace, Body-language reading in NLP)
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzné heslo (Raport a kalibrace, Simulated empathy)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzné heslo (Vliv a zneužití NLP, Mirroring in scams)
+- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzné heslo (Vliv a zneužití NLP, Recognising NLP practice in conversation)
 
 **V kompendiu**
 
-- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

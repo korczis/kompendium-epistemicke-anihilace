@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vzorec zpracování zármutku", "Resolving grief pattern", "řešení zármutku", "vzorec truchlení", "Disociace, fobie a trauma", "NLP", "neurolingvistické programování"]
+keywords = ["Vzorec zpracování zármutku", "Resolving grief pattern", "řešení zármutku", "vzorec truchlení", "Disociace, fobie a trauma", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-11.06"
-nlp_slug = "vzorec-zalu"
-nlp_family = "disociace-a-trauma"
-nlp_family_code = "11"
-nlp_family_title = "Disociace, fobie a trauma"
-nlp_family_en = "Dissociation, phobia and trauma patterns"
-nlp_part = "disociace-a-trauma"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Resolving grief pattern"
-nlp_aliases = ["řešení zármutku", "vzorec truchlení"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["submodality-pojem", "asociace", "mapovani-napric", "zmena-osobni-historie", "vzorec-odpusteni"]
-nlp_related_declared = ["submodality-pojem", "vzorec-odpusteni", "mapovani-napric", "asociace", "zmena-osobni-historie"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-10-herman-recovery-stages.md", "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md", "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md"]
-nlp_prev = "alergicky-vzorec"
-nlp_next = "vzorec-odpusteni"
-nlp_position = 6
-nlp_family_size = 11
-nlp_sources = ["andreas-andreas-1989", "andreas-andreas-1987", "herman-1992", "lifton-1961", "lilienfeld-2015", "rogers-1951", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1987"]
-nlp_sources_roots = []
-nlp_sources_critical = ["herman-1992", "lifton-1961", "lilienfeld-2015", "rogers-1951", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-11.06"
+catalog_slug = "vzorec-zalu"
+catalog_family = "disociace-a-trauma"
+catalog_family_code = "11"
+catalog_family_title = "Disociace, fobie a trauma"
+catalog_family_en = "Dissociation, phobia and trauma patterns"
+catalog_part = "disociace-a-trauma"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Resolving grief pattern"
+catalog_aliases = ["řešení zármutku", "vzorec truchlení"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["submodality-pojem", "asociace", "mapovani-napric", "zmena-osobni-historie", "vzorec-odpusteni"]
+catalog_related_declared = ["submodality-pojem", "vzorec-odpusteni", "mapovani-napric", "asociace", "zmena-osobni-historie"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-10-herman-recovery-stages.md", "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md", "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md"]
+catalog_prev = "alergicky-vzorec"
+catalog_next = "vzorec-odpusteni"
+catalog_position = 6
+catalog_family_size = 11
+catalog_sources = ["andreas-andreas-1989", "andreas-andreas-1987", "herman-1992", "lifton-1961", "lilienfeld-2015", "rogers-1951", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1987"]
+catalog_sources_roots = []
+catalog_sources_critical = ["herman-1992", "lifton-1961", "lilienfeld-2015", "rogers-1951", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/disociace-a-trauma.toml"
 +++
 
 # Vzorec zpracování zármutku
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-11.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Resolving grief pattern |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -116,7 +119,7 @@ se ztracenou osobou prožíval jako cenné, a s otázkou, jak si tyto hodnoty m�
 budoucnosti. NLP přitom mluví o „asociaci“ s tím, co bylo dobré, a o odstupu od okamžiku
 ztráty; pojmy rozebírají hesla
 [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) a
-[Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md).
+[Disociace](@/glossary/disociace.md).
 
 Myšlenka, že vztah ke zesnulému nezaniká, ale proměňuje se, má obdobu i v klinickém myšlení o
 truchlení. Rozdíl je v tempu a ve způsobu práce. Klinické přístupy chápou proměnu vztahu jako
@@ -194,7 +197,7 @@ a v přehledu [literatury o zotavení z traumatu](@/kompendium/techniques/ea-8-3
 Odborník by měl pozůstalému pomoci zármutek znovu přijmout jako přiměřenou reakci a zbavit ho
 pocitu, že selhal, když ho technika neodstranila.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,26 +214,26 @@ pocitu, že selhal, když ho technika neodstranila.
 
 **Rodina a hierarchie**
 
-- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzný vzorec (Submodality, Mapping across)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzný vzorec (Disociace, fobie a trauma, Forgiveness pattern)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzné heslo (Submodality, Mapping across)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzné heslo (Disociace, fobie a trauma, Forgiveness pattern)
 
 **V kompendiu**
 
-- [EA-8.2.10 Stadia zotavení podle Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.3.8 Literatura o zotavení z traumatu](@/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.10 Stadia zotavení podle Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.3.8 Literatura o zotavení z traumatu](@/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Alergický vzorec](@/kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec.md) – předchozí vzorec rodiny
-- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Alergický vzorec](@/kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec.md) – předchozí heslo rodiny
+- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

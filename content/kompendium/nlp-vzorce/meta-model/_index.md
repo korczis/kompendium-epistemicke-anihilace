@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-meta-model"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Meta-model", "Meta Model", "NLP"]
+keywords = ["Meta-model", "Meta Model", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "meta-model"
-nlp_code = "03"
-nlp_en = "Meta Model"
-nlp_size = 17
-nlp_members = ["meta-model", "nominalizace", "nespecifikovane-sloveso", "nespecifikovany-referencni-index", "prosta-delece", "srovnavaci-delece", "ztraceny-performativ", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "modalni-operator-moznosti", "cteni-myslenek", "pricina-a-nasledek", "komplexni-ekvivalence", "presupozice-v-meta-modelu", "hierarchie-otazek-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "poruseni-selekcnich-omezeni-meta"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "druckman-swets-1988", "ellis-1962", "grice-1975", "heap-1988", "herman-1992", "korzybski-1933", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "perls-1969", "petty-cacioppo-1986", "satir-1972", "sharpley-1987", "sturt-2012", "watzlawick-1967", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "meta-model"
+catalog_code = "03"
+catalog_en = "Meta Model"
+catalog_size = 17
+catalog_members = ["meta-model", "nominalizace", "nespecifikovane-sloveso", "nespecifikovany-referencni-index", "prosta-delece", "srovnavaci-delece", "ztraceny-performativ", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "modalni-operator-moznosti", "cteni-myslenek", "pricina-a-nasledek", "komplexni-ekvivalence", "presupozice-v-meta-modelu", "hierarchie-otazek-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "poruseni-selekcnich-omezeni-meta"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "druckman-swets-1988", "ellis-1962", "grice-1975", "heap-1988", "herman-1992", "korzybski-1933", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "perls-1969", "petty-cacioppo-1986", "satir-1972", "sharpley-1987", "sturt-2012", "watzlawick-1967", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Meta-model
@@ -158,12 +160,12 @@ obnova práva pojmenovat vlastní zkušenost. Herman zdůrazňuje, že takové z
 vztazích, které neopakují kontrolu, a ne v izolaci (Herman 1992). Širší rámec obrany a kalibrace
 popisuje kapitola [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-03.01` | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) | Meta Model | vzorec | terapeutické i vlivové | střední |
 | `NLP-03.02` | [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) | Nominalisation | vzorec | terapeutické i vlivové | střední |
 | `NLP-03.03` | [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) | Unspecified verb | vzorec | terapeutické i vlivové | střední |
@@ -181,6 +183,67 @@ popisuje kapitola [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 | `NLP-03.15` | [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) | Order of Meta Model challenges | pojem | terapeutické i vlivové | nízké |
 | `NLP-03.16` | [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) | Meta Model as an interrogation tool | pojem | terapeutické i vlivové | vysoké |
 | `NLP-03.17` | [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) | Selectional restriction violation (Meta Model) | vzorec | terapeutické i vlivové | nízké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Meta-model"]
+  click F "@/kompendium/nlp-vzorce/meta-model/_index.md"
+  n1["Meta-model"]
+  n2["Nominalizace"]
+  n3["Nespecifikované sloveso"]
+  n4["Nespecifikovaný referenční index"]
+  n5["Prosté vypuštění"]
+  n6["Srovnávací vypuštění"]
+  n7["Ztracený performativ"]
+  n8["Univerzální kvantifikátor"]
+  n9["Modální operátor nutnosti"]
+  n10["Modální operátor možnosti"]
+  n11["Čtení myšlenek"]
+  n12["Příčina a následek"]
+  n13["Komplexní ekvivalence"]
+  n14["Presupozice v meta-modelu"]
+  n15["Pořadí otázek meta-modelu"]
+  n16["Meta-model jako výslechový nástroj"]
+  n17["Porušení selekčních omezení"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  n1 --> n5
+  n1 --> n6
+  n1 --> n7
+  n1 --> n8
+  n1 --> n9
+  n1 --> n10
+  n1 --> n11
+  n1 --> n12
+  n1 --> n13
+  n1 --> n14
+  n1 --> n15
+  n1 --> n16
+  n1 --> n17
+  click n1 "@/kompendium/nlp-vzorce/meta-model/meta-model.md"
+  click n2 "@/kompendium/nlp-vzorce/meta-model/nominalizace.md"
+  click n3 "@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md"
+  click n4 "@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md"
+  click n5 "@/kompendium/nlp-vzorce/meta-model/prosta-delece.md"
+  click n6 "@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md"
+  click n7 "@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md"
+  click n8 "@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md"
+  click n9 "@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md"
+  click n10 "@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md"
+  click n11 "@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md"
+  click n12 "@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md"
+  click n13 "@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md"
+  click n14 "@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md"
+  click n15 "@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md"
+  click n16 "@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md"
+  click n17 "@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md"
+```
 
 ## Literatura
 
@@ -214,6 +277,6 @@ popisuje kapitola [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – předchozí rodina katalogu
 - [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

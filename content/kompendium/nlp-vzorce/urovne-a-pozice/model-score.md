@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Model SCORE", "SCORE model", "SCORE", "symptomy, příčiny, výsledek, zdroje, efekty", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Model SCORE", "SCORE model", "SCORE", "symptomy, příčiny, výsledek, zdroje, efekty", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.14"
-nlp_slug = "model-score"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "SCORE model"
-nlp_aliases = ["SCORE", "symptomy, příčiny, výsledek, zdroje, efekty"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["zdrojovy-stav", "tote-model", "ramec-vysledku", "dobre-formulovany-vysledek", "od-problemu-k-vysledku"]
-nlp_related_declared = ["dobre-formulovany-vysledek", "od-problemu-k-vysledku", "tote-model", "zdrojovy-stav", "ramec-vysledku"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
-nlp_prev = "troji-popis"
-nlp_next = "disneyova-strategie"
-nlp_position = 14
-nlp_family_size = 16
-nlp_sources = ["beck-1976", "cialdini-2009", "dilts-delozier-2000", "dilts-1980", "miller-galanter-pribram-1960", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.14"
+catalog_slug = "model-score"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "SCORE model"
+catalog_aliases = ["SCORE", "symptomy, příčiny, výsledek, zdroje, efekty"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["zdrojovy-stav", "tote-model", "ramec-vysledku", "dobre-formulovany-vysledek", "od-problemu-k-vysledku"]
+catalog_related_declared = ["dobre-formulovany-vysledek", "od-problemu-k-vysledku", "tote-model", "zdrojovy-stav", "ramec-vysledku"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
+catalog_prev = "troji-popis"
+catalog_next = "disneyova-strategie"
+catalog_position = 14
+catalog_family_size = 16
+catalog_sources = ["beck-1976", "cialdini-2009", "dilts-delozier-2000", "dilts-1980", "miller-galanter-pribram-1960", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.b.toml"
 +++
 
 # Model SCORE
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | SCORE model |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/urovne-a-pozice.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ které s klientem pracují bez předem daného výkladu, shrnuje v oddílu
 rozhovory výslovně stavějí na tom, že důvody ke změně i její podoba vycházejí z klienta, ne z
 toho, kdo rozhovor vede (Miller a Rollnick 2013).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -208,26 +211,26 @@ toho, kdo rozhovor vede (Miller a Rollnick 2013).
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Problem to outcome)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzné heslo (Cíle a výsledky, Problem to outcome)
 
 **V kompendiu**
 
-- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – předchozí vzorec rodiny
-- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – předchozí heslo rodiny
+- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

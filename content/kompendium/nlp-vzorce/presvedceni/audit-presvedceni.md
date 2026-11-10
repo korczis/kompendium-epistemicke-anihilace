@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Audit přesvědčení", "Belief audit", "posouzení přesvědčení", "hodnocení přesvědčení o cíli", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Audit přesvědčení", "Belief audit", "posouzení přesvědčení", "hodnocení přesvědčení o cíli", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.03"
-nlp_slug = "audit-presvedceni"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Belief audit"
-nlp_aliases = ["posouzení přesvědčení", "hodnocení přesvědčení o cíli"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["cyklus-zmeny-presvedceni", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "dobre-formulovany-vysledek", "ekologie-cile"]
-nlp_related_declared = ["limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "dobre-formulovany-vysledek", "ekologie-cile", "cyklus-zmeny-presvedceni"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "muzeum-starych-presvedceni"
-nlp_next = "limitujici-presvedceni"
-nlp_position = 3
-nlp_family_size = 14
-nlp_sources = ["beck-1976", "cialdini-2009", "dilts-hallbom-smith-1990", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.03"
+catalog_slug = "audit-presvedceni"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Belief audit"
+catalog_aliases = ["posouzení přesvědčení", "hodnocení přesvědčení o cíli"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["cyklus-zmeny-presvedceni", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "dobre-formulovany-vysledek", "ekologie-cile"]
+catalog_related_declared = ["limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "dobre-formulovany-vysledek", "ekologie-cile", "cyklus-zmeny-presvedceni"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "muzeum-starych-presvedceni"
+catalog_next = "limitujici-presvedceni"
+catalog_position = 3
+catalog_family_size = 14
+catalog_sources = ["beck-1976", "cialdini-2009", "dilts-hallbom-smith-1990", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.toml"
 +++
 
 # Audit přesvědčení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Belief audit |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/presvedceni.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ patří do péče kvalifikovaného odborníka, který je posoudí jako klinický
 s diagnostikou popisuje kapitola o
 [diagnostických indikátorech](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,25 +218,25 @@ s diagnostikou popisuje kapitola o
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief change cycle)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzný vzorec (Cíle a výsledky, Ecology of the outcome)
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief change cycle)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)
 
 **V kompendiu**
 
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – předchozí vzorec rodiny
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – předchozí heslo rodiny
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

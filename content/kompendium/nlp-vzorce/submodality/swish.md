@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Swish", "Swish pattern", "vzorec swish", "švihnutí", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Swish", "Swish pattern", "vzorec swish", "švihnutí", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.08"
-nlp_slug = "swish"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Swish pattern"
-nlp_aliases = ["vzorec swish", "švihnutí"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "submodality-pojem"
-nlp_narrower = ["kinesteticky-swish", "auditivni-swish"]
-nlp_depth = 1
-nlp_ancestors = ["submodality-pojem"]
-nlp_related = ["submodality-pojem", "kotveni", "kriticke-submodality", "kinesteticky-swish", "auditivni-swish", "vyhozeni-kompulze", "vzorec-godiva", "sebepojeti", "budouci-prehravani"]
-nlp_related_declared = ["kinesteticky-swish", "auditivni-swish", "kriticke-submodality", "vyhozeni-kompulze", "kotveni", "budouci-prehravani"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/kinesteticky-swish.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "mapovani-napric"
-nlp_next = "kinesteticky-swish"
-nlp_position = 8
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1989", "andreas-andreas-1987", "bandler-1985", "beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1987", "bandler-1985", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.08"
+catalog_slug = "swish"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Swish pattern"
+catalog_aliases = ["vzorec swish", "švihnutí"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "submodality-pojem"
+catalog_narrower = ["kinesteticky-swish", "auditivni-swish"]
+catalog_depth = 1
+catalog_ancestors = ["submodality-pojem"]
+catalog_related = ["submodality-pojem", "kotveni", "kriticke-submodality", "kinesteticky-swish", "auditivni-swish", "vyhozeni-kompulze", "vzorec-godiva", "sebepojeti", "budouci-prehravani"]
+catalog_related_declared = ["kinesteticky-swish", "auditivni-swish", "kriticke-submodality", "vyhozeni-kompulze", "kotveni", "budouci-prehravani"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/kinesteticky-swish.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "mapovani-napric"
+catalog_next = "kinesteticky-swish"
+catalog_position = 8
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1989", "andreas-andreas-1987", "bandler-1985", "beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1987", "bandler-1985", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.toml"
 +++
 
 # Swish
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Swish pattern |
 | **Jiné názvy** | vzorec swish, švihnutí |
-| **Obecnější vzorec** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
+| **Obecnější heslo** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ postupy, a Herman zdůrazňuje význam obnovy vztahů a autonomie (Herman 1992).
 swishi s klientem mluví, by měl jasně říci, že jde o techniku bez doložené účinnosti, a nenabízet
 ji místo léčby obtíží, pro které existují ověřené metody.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,32 +225,32 @@ ji místo léčby obtíží, pro které existují ověřené metody.
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – zvláštní případ tohoto vzorce
-- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – zvláštní případ tohoto vzorce
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – zvláštní případ tohoto hesla
+- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
-- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzný vzorec (Submodality, Kinaesthetic swish)
-- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzný vzorec (Submodality, Auditory swish)
-- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – příbuzný vzorec (Submodality, Compulsion blowout)
-- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – příbuzný vzorec (Submodality, Godiva chocolate pattern)
-- [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – příbuzný vzorec (Disociace, fobie a trauma, Self-concept pattern)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzné heslo (Submodality, Critical (driver) submodalities)
+- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzné heslo (Submodality, Kinaesthetic swish)
+- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzné heslo (Submodality, Auditory swish)
+- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – příbuzné heslo (Submodality, Compulsion blowout)
+- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – příbuzné heslo (Submodality, Godiva chocolate pattern)
+- [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – příbuzné heslo (Disociace, fobie a trauma, Self-concept pattern)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – předchozí vzorec rodiny
-- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – předchozí heslo rodiny
+- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

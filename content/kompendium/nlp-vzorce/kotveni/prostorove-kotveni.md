@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Prostorové kotvení", "Spatial anchoring", "kotvení místem", "prostorové značení", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Prostorové kotvení", "Spatial anchoring", "kotvení místem", "prostorové značení", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.06"
-nlp_slug = "prostorove-kotveni"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Spatial anchoring"
-nlp_aliases = ["kotvení místem", "prostorové značení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = ["kruh-excelence"]
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["percepcni-pozice-pojem", "casova-osa-pojem", "kotvy-v-prezentaci", "prostorove-umisteni-obrazu", "pruchod-casovou-osou", "disneyova-strategie"]
-nlp_related_declared = ["kotvy-v-prezentaci", "casova-osa-pojem", "percepcni-pozice-pojem", "pruchod-casovou-osou"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "stohovani-kotev"
-nlp_next = "kruh-excelence"
-nlp_position = 6
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "lakoff-johnson-1980", "lifton-1961", "oconnor-seymour-1990", "pavlov-1927", "perls-1969", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927", "perls-1969"]
-nlp_sources_critical = ["cialdini-2009", "lakoff-johnson-1980", "lifton-1961", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od běžných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.06"
+catalog_slug = "prostorove-kotveni"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Spatial anchoring"
+catalog_aliases = ["kotvení místem", "prostorové značení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = ["kruh-excelence"]
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["percepcni-pozice-pojem", "casova-osa-pojem", "kotvy-v-prezentaci", "prostorove-umisteni-obrazu", "pruchod-casovou-osou", "disneyova-strategie"]
+catalog_related_declared = ["kotvy-v-prezentaci", "casova-osa-pojem", "percepcni-pozice-pojem", "pruchod-casovou-osou"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "stohovani-kotev"
+catalog_next = "kruh-excelence"
+catalog_position = 6
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "lakoff-johnson-1980", "lifton-1961", "oconnor-seymour-1990", "pavlov-1927", "perls-1969", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927", "perls-1969"]
+catalog_sources_critical = ["cialdini-2009", "lakoff-johnson-1980", "lifton-1961", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od běžných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.toml"
 +++
 
 # Prostorové kotvení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Spatial anchoring |
 | **Jiné názvy** | kotvení místem, prostorové značení |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -201,7 +204,7 @@ nichž mají posluchači rozhodnout, je správné nedávat jedné z nich prostor
 potřebovat delší čas a odbornou podporu, aby se jejich vztah k blízkým a k vlastním
 pochybnostem znovu oddělil od hodnocení, které jim skupina vštípila (Lifton 1961).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,28 +224,28 @@ pochybnostem znovu oddělil od hodnocení, které jim skupina vštípila (Lifton
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – zvláštní případ tohoto vzorce
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
-- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzný vzorec (Kotvení, Anchors in presentations)
-- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzný vzorec (Submodality, Spatial location of images)
-- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – příbuzný vzorec (Časová osa, Timeline walk)
-- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Disney strategy)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzné heslo (Základní pojmy NLP, Timeline (concept))
+- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzné heslo (Kotvení, Anchors in presentations)
+- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzné heslo (Submodality, Spatial location of images)
+- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – příbuzné heslo (Časová osa, Timeline walk)
+- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzné heslo (Logické úrovně a percepční pozice, Disney strategy)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – předchozí vzorec rodiny
-- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – předchozí heslo rodiny
+- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

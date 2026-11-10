@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["NLP v politické řeči", "NLP in political speech", "politická rétorika a NLP", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["NLP v politické řeči", "NLP in political speech", "politická rétorika a NLP", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.09"
-nlp_slug = "nlp-v-politicke-reci"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "NLP in political speech"
-nlp_aliases = ["politická rétorika a NLP"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["umyslna-vagnost", "univerzalni-kvantifikatory-milton", "nominalizace-milton", "predramcovani", "slovni-baliky"]
-nlp_related_declared = ["nominalizace-milton", "umyslna-vagnost", "slovni-baliky", "predramcovani", "univerzalni-kvantifikatory-milton"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-9-5-6-frame-war-coordination.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/nominalizace-milton.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-9-5-6-frame-war-coordination.md"]
-nlp_prev = "nlp-ve-vyslechu"
-nlp_next = "nlp-v-reklame"
-nlp_position = 9
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "gilovich-1991", "lakoff-johnson-1980", "levinson-1983", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["levinson-1983"]
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.09"
+catalog_slug = "nlp-v-politicke-reci"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "NLP in political speech"
+catalog_aliases = ["politická rétorika a NLP"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["nabity-jazyk", "umyslna-vagnost", "univerzalni-kvantifikatory-milton", "nominalizace-milton", "predramcovani", "slovni-baliky"]
+catalog_related_declared = ["nominalizace-milton", "umyslna-vagnost", "slovni-baliky", "predramcovani", "univerzalni-kvantifikatory-milton"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-9-5-6-frame-war-coordination.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/nominalizace-milton.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-9-5-6-frame-war-coordination.md"]
+catalog_prev = "nlp-ve-vyslechu"
+catalog_next = "nlp-v-reklame"
+catalog_position = 9
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "gilovich-1991", "lakoff-johnson-1980", "levinson-1983", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["levinson-1983"]
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # NLP v politické řeči
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | NLP in political speech |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ na politické shodě, a s blízkými mluvit o hodnotách, nikoli jen o tvrzeníc
 skupina nabývá rysů sekty, platí kritéria a cesty zotavení popsané u vzorce [NLP v
 sektách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -209,26 +212,27 @@ sektách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md).
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – příbuzný vzorec (Milton-model, Universal quantifiers (Milton Model))
-- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – příbuzný vzorec (Milton-model, Nominalisations (Milton Model))
-- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzný vzorec (Reframing a rámce, Pre-framing)
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzný vzorec (Jazykové vzorce, Loaded words)
+- [Nabitý jazyk](@/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Loaded language)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – příbuzné heslo (Milton-model, Universal quantifiers (Milton Model))
+- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – příbuzné heslo (Milton-model, Nominalisations (Milton Model))
+- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzné heslo (Reframing a rámce, Pre-framing)
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzné heslo (Jazykové vzorce, Loaded words)
 
 **V kompendiu**
 
-- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-9.5.6 Frame War Coordination](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-9.5.6 Frame War Coordination](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – předchozí vzorec rodiny
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – předchozí heslo rodiny
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

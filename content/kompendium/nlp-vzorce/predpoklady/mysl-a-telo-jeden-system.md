@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Mysl a tělo tvoří jeden systém", "Mind and body are one system", "jednota mysli a těla", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Mysl a tělo tvoří jeden systém", "Mind and body are one system", "jednota mysli a těla", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.06"
-nlp_slug = "mysl-a-telo-jeden-system"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Mind and body are one system"
-nlp_aliases = ["jednota mysli a těla"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["ekologie-zmeny", "kalibrace", "stav", "kongruence", "kinesteticke-submodality", "alergicky-vzorec", "presvedceni-a-zdravi", "cteni-reci-tela", "neuro-zargon"]
-nlp_related_declared = ["presvedceni-a-zdravi", "stav", "kalibrace", "cteni-reci-tela", "alergicky-vzorec", "kongruence"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md", "kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
-nlp_prev = "lide-maji-potrebne-zdroje"
-nlp_next = "zakon-pozadovane-variety"
-nlp_position = 6
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1979", "bateson-1972", "beck-1976", "dilts-hallbom-smith-1990", "ekman-2003", "gilovich-1991", "herman-1992", "oconnor-seymour-1990", "perls-1969", "sturt-2012", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "perls-1969"]
-nlp_sources_critical = ["beck-1976", "ekman-2003", "gilovich-1991", "herman-1992", "sturt-2012", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.06"
+catalog_slug = "mysl-a-telo-jeden-system"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Mind and body are one system"
+catalog_aliases = ["jednota mysli a těla"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["ekologie-zmeny", "kalibrace", "stav", "kongruence", "kinesteticke-submodality", "alergicky-vzorec", "presvedceni-a-zdravi", "cteni-reci-tela", "neuro-zargon"]
+catalog_related_declared = ["presvedceni-a-zdravi", "stav", "kalibrace", "cteni-reci-tela", "alergicky-vzorec", "kongruence"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md", "kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+catalog_prev = "lide-maji-potrebne-zdroje"
+catalog_next = "zakon-pozadovane-variety"
+catalog_position = 6
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1979", "bateson-1972", "beck-1976", "dilts-hallbom-smith-1990", "ekman-2003", "gilovich-1991", "herman-1992", "oconnor-seymour-1990", "perls-1969", "sturt-2012", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "perls-1969"]
+catalog_sources_critical = ["beck-1976", "ekman-2003", "gilovich-1991", "herman-1992", "sturt-2012", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Mysl a tělo tvoří jeden systém
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Mind and body are one system |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ včetně bezpečí ve vlastním těle, a jak k tomu patří i péče o tělesné
 Odborník, který s předpokladem pracuje, by ho měl formulovat v jeho slabé podobě a výslovně
 odmítat jeho užití jako náhrady léčby.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,29 +221,29 @@ odmítat jeho užití jako náhrady léčby.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzný vzorec (Předpoklady NLP, Change must respect the whole system (ecology))
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzný vzorec (Submodality, Kinaesthetic submodalities)
-- [Alergický vzorec](@/kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec.md) – příbuzný vzorec (Disociace, fobie a trauma, Allergy pattern)
-- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzný vzorec (Přesvědčení, Beliefs and health in NLP)
-- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzný vzorec (Raport a kalibrace, Body-language reading in NLP)
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)
+- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzné heslo (Předpoklady NLP, Change must respect the whole system (ecology))
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzné heslo (Submodality, Kinaesthetic submodalities)
+- [Alergický vzorec](@/kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec.md) – příbuzné heslo (Disociace, fobie a trauma, Allergy pattern)
+- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzné heslo (Přesvědčení, Beliefs and health in NLP)
+- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzné heslo (Raport a kalibrace, Body-language reading in NLP)
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (Vliv a zneužití NLP, Neuro-jargon)
 
 **V kompendiu**
 
-- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.9 Body-oriented therapy protokol](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.9 Body-oriented therapy protokol](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – předchozí vzorec rodiny
-- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – předchozí heslo rodiny
+- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

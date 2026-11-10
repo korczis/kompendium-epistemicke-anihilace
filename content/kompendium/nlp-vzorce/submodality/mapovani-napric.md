@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Mapování napříč", "Mapping across", "přenos submodalit", "mapping across", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Mapování napříč", "Mapping across", "přenos submodalit", "mapping across", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.07"
-nlp_slug = "mapovani-napric"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Mapping across"
-nlp_aliases = ["přenos submodalit", "mapping across"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "submodality-pojem"
-nlp_narrower = ["vzorec-godiva", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami"]
-nlp_depth = 1
-nlp_ancestors = ["submodality-pojem"]
-nlp_related = ["kriticke-submodality", "kontrastni-analyza", "vyhozeni-kompulze", "vzorec-godiva", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami", "vzorec-zalu", "nlp-v-sektach"]
-nlp_related_declared = ["kontrastni-analyza", "kriticke-submodality", "zmena-presvedceni-submodalitami", "vzorec-godiva", "od-libosti-k-nechuti", "nlp-v-sektach"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md", "kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "kontrastni-analyza"
-nlp_next = "swish"
-nlp_position = 7
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-hallbom-smith-1990", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "norcross-2006", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.07"
+catalog_slug = "mapovani-napric"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Mapping across"
+catalog_aliases = ["přenos submodalit", "mapping across"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "submodality-pojem"
+catalog_narrower = ["vzorec-godiva", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami"]
+catalog_depth = 1
+catalog_ancestors = ["submodality-pojem"]
+catalog_related = ["kriticke-submodality", "kontrastni-analyza", "vyhozeni-kompulze", "vzorec-godiva", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami", "vzorec-zalu", "nlp-v-sektach"]
+catalog_related_declared = ["kontrastni-analyza", "kriticke-submodality", "zmena-presvedceni-submodalitami", "vzorec-godiva", "od-libosti-k-nechuti", "nlp-v-sektach"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md", "kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "kontrastni-analyza"
+catalog_next = "swish"
+catalog_position = 7
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-hallbom-smith-1990", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "norcross-2006", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.toml"
 +++
 
 # Mapování napříč
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Mapping across |
 | **Jiné názvy** | přenos submodalit, mapping across |
-| **Obecnější vzorec** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
+| **Obecnější heslo** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -192,7 +195,7 @@ zdůrazňuje, že po zkušenosti kontroly je nutné znovu získat vlastní prož
 (Herman 1992). Klinik by se s takovým klientem měl vyhnout technikám, které mění formu
 prožitku bez práce s jeho obsahem, a podporovat jeho vlastní hodnocení situace.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,33 +218,33 @@ prožitku bez práce s jeho obsahem, a podporovat jeho vlastní hodnocení situa
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – zvláštní případ tohoto vzorce
-- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – zvláštní případ tohoto vzorce
-- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – zvláštní případ tohoto vzorce
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – zvláštní případ tohoto hesla
+- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – zvláštní případ tohoto hesla
+- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
-- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzný vzorec (Submodality, Contrastive analysis)
-- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – příbuzný vzorec (Submodality, Compulsion blowout)
-- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – příbuzný vzorec (Submodality, Godiva chocolate pattern)
-- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzný vzorec (Submodality, Like-to-dislike pattern)
-- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzný vzorec (Submodality, Belief change through submodalities)
-- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzný vzorec (Disociace, fobie a trauma, Resolving grief pattern)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzné heslo (Submodality, Critical (driver) submodalities)
+- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzné heslo (Submodality, Contrastive analysis)
+- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – příbuzné heslo (Submodality, Compulsion blowout)
+- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – příbuzné heslo (Submodality, Godiva chocolate pattern)
+- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzné heslo (Submodality, Like-to-dislike pattern)
+- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzné heslo (Submodality, Belief change through submodalities)
+- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzné heslo (Disociace, fobie a trauma, Resolving grief pattern)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – předchozí vzorec rodiny
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – předchozí heslo rodiny
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Transderivační hledání", "Transderivational search", "TDS", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Transderivační hledání", "Transderivational search", "TDS", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.41"
-nlp_slug = "transderivacni-hledani"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.d"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Transderivational search"
-nlp_aliases = ["TDS"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["hluboka-a-povrchova-struktura", "trans-pojem", "umyslna-vagnost", "nominalizace-milton", "nespecifikovana-slovesa-milton", "indukce-pretizenim"]
-nlp_related_declared = ["hluboka-a-povrchova-struktura", "trans-pojem", "umyslna-vagnost", "nominalizace-milton", "nespecifikovana-slovesa-milton"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_prev = "trans-pojem"
-nlp_next = "pacing-a-leading-pojem"
-nlp_position = 41
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1975b", "dilts-delozier-2000", "gordon-1978", "grice-1975", "hassan-1988", "herman-1992", "langer-1978", "lifton-1961", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "dilts-delozier-2000", "gordon-1978"]
-nlp_sources_roots = ["grice-1975"]
-nlp_sources_critical = ["hassan-1988", "herman-1992", "langer-1978", "lifton-1961", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.41"
+catalog_slug = "transderivacni-hledani"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.d"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Transderivational search"
+catalog_aliases = ["TDS"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["hluboka-a-povrchova-struktura", "trans-pojem", "umyslna-vagnost", "nominalizace-milton", "nespecifikovana-slovesa-milton", "indukce-pretizenim"]
+catalog_related_declared = ["hluboka-a-povrchova-struktura", "trans-pojem", "umyslna-vagnost", "nominalizace-milton", "nespecifikovana-slovesa-milton"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_prev = "trans-pojem"
+catalog_next = "pacing-a-leading-pojem"
+catalog_position = 41
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1975b", "dilts-delozier-2000", "gordon-1978", "grice-1975", "hassan-1988", "herman-1992", "langer-1978", "lifton-1961", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "dilts-delozier-2000", "gordon-1978"]
+catalog_sources_roots = ["grice-1975"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "langer-1978", "lifton-1961", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.d.toml"
 +++
 
 # Transderivační hledání
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.41` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Transderivational search |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ které zkušenosti byly jejich vlastní a které jim byly vyloženy skupinou (Ha
 Herman připomíná, že obnova po dlouhodobé kontrole zahrnuje i obnovu vlastního vyprávění o
 tom, co se stalo, vlastními slovy (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,26 +219,26 @@ tom, co se stalo, vlastními slovy (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzný vzorec (Základní pojmy NLP, Deep and surface structure)
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – příbuzný vzorec (Milton-model, Nominalisations (Milton Model))
-- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – příbuzný vzorec (Milton-model, Unspecified verbs (Milton Model))
-- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzný vzorec (Ericksonovská hypnóza, Overload induction)
+- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzné heslo (Základní pojmy NLP, Deep and surface structure)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – příbuzné heslo (Milton-model, Nominalisations (Milton Model))
+- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – příbuzné heslo (Milton-model, Unspecified verbs (Milton Model))
+- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzné heslo (Ericksonovská hypnóza, Overload induction)
 
 **V kompendiu**
 
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – předchozí vzorec rodiny
-- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – předchozí heslo rodiny
+- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Presupozice v reklamě", "Presuppositions in advertising", "implikovaná reklamní tvrzení", "presupozice v marketingu", "Jazykové presupozice", "NLP", "neurolingvistické programování"]
+keywords = ["Presupozice v reklamě", "Presuppositions in advertising", "implikovaná reklamní tvrzení", "presupozice v marketingu", "Jazykové presupozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-06.18"
-nlp_slug = "presupozice-v-reklame"
-nlp_family = "presupozice"
-nlp_family_code = "06"
-nlp_family_title = "Jazykové presupozice"
-nlp_family_en = "Linguistic presuppositions"
-nlp_part = "presupozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Presuppositions in advertising"
-nlp_aliases = ["implikovaná reklamní tvrzení", "presupozice v marketingu"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "jazykove-presupozice"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["jazykove-presupozice"]
-nlp_related = ["srovnavaci-presupozice", "kotvy-v-reklame", "metaprogramy-v-marketingu", "slovni-baliky", "predpokladovy-zaver", "nlp-v-reklame"]
-nlp_related_declared = ["nlp-v-reklame", "kotvy-v-reklame", "srovnavaci-presupozice", "predpokladovy-zaver", "metaprogramy-v-marketingu"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md", "kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md"]
-nlp_prev = "rozstepene-vety"
-nlp_next = "presupozice-ve-vyslechu"
-nlp_position = 18
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "grice-1975", "kahneman-2011", "levinson-1983", "loftus-palmer-1974", "passmore-rowson-2019", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["grice-1975", "levinson-1983"]
-nlp_sources_critical = ["cialdini-2009", "kahneman-2011", "loftus-palmer-1974", "passmore-rowson-2019", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presupozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-06.18"
+catalog_slug = "presupozice-v-reklame"
+catalog_family = "presupozice"
+catalog_family_code = "06"
+catalog_family_title = "Jazykové presupozice"
+catalog_family_en = "Linguistic presuppositions"
+catalog_part = "presupozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Presuppositions in advertising"
+catalog_aliases = ["implikovaná reklamní tvrzení", "presupozice v marketingu"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "jazykove-presupozice"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["jazykove-presupozice"]
+catalog_related = ["srovnavaci-presupozice", "kotvy-v-reklame", "metaprogramy-v-marketingu", "slovni-baliky", "predpokladovy-zaver", "nlp-v-reklame"]
+catalog_related_declared = ["nlp-v-reklame", "kotvy-v-reklame", "srovnavaci-presupozice", "predpokladovy-zaver", "metaprogramy-v-marketingu"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md", "kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md"]
+catalog_prev = "rozstepene-vety"
+catalog_next = "presupozice-ve-vyslechu"
+catalog_position = 18
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "grice-1975", "kahneman-2011", "levinson-1983", "loftus-palmer-1974", "passmore-rowson-2019", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["grice-1975", "levinson-1983"]
+catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "loftus-palmer-1974", "passmore-rowson-2019", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presupozice.b.toml"
 +++
 
 # Presupozice v reklamě
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-06.18` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Presuppositions in advertising |
 | **Jiné názvy** | implikovaná reklamní tvrzení, presupozice v marketingu |
-| **Obecnější vzorec** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
+| **Obecnější heslo** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -206,7 +209,7 @@ spotřebitelské poradny a dozorové orgány, protože klamavé obchodní prakti
 postižitelné, a zbavit se pocitu, že „měli číst pozorněji“: text byl postaven tak, aby
 pozorné čtení neodměňoval.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -226,27 +229,27 @@ pozorné čtení neodměňoval.
 
 **Rodina a hierarchie**
 
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Comparatives as presuppositions)
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzný vzorec (Kotvení, Anchors in advertising)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzný vzorec (Jazykové vzorce, Loaded words)
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Assumptive close)
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in advertising)
+- [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – příbuzné heslo (Jazykové presupozice, Comparatives as presuppositions)
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzné heslo (Kotvení, Anchors in advertising)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzné heslo (Jazykové vzorce, Loaded words)
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Assumptive close)
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in advertising)
 
 **V kompendiu**
 
-- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) – předchozí vzorec rodiny
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) – předchozí heslo rodiny
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Když něco nefunguje, udělej něco jiného", "If it is not working, do something else", "princip pružnosti jednání", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Když něco nefunguje, udělej něco jiného", "If it is not working, do something else", "princip pružnosti jednání", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.12"
-nlp_slug = "kdyz-to-nefunguje-udelej-neco-jineho"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "If it is not working, do something else"
-nlp_aliases = ["princip pružnosti jednání"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vyznam-komunikace-je-reakce", "neni-selhani-jen-zpetna-vazba", "zakon-pozadovane-variety", "odpovednost-za-komunikaci", "tote-model", "preruseni-vzorce", "paradoxni-intervence", "falzifikovatelnost-nlp"]
-nlp_related_declared = ["zakon-pozadovane-variety", "tote-model", "neni-selhani-jen-zpetna-vazba", "vyznam-komunikace-je-reakce", "odpovednost-za-komunikaci"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["glossary/heuristika.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md", "kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "odpor-jako-nedostatek-raportu"
-nlp_next = "modelovatelnost-excelence"
-nlp_position = 12
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "freedman-fraser-1966", "herman-1992", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
-nlp_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "miller-rollnick-2013", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.12"
+catalog_slug = "kdyz-to-nefunguje-udelej-neco-jineho"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "If it is not working, do something else"
+catalog_aliases = ["princip pružnosti jednání"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vyznam-komunikace-je-reakce", "neni-selhani-jen-zpetna-vazba", "zakon-pozadovane-variety", "odpovednost-za-komunikaci", "tote-model", "preruseni-vzorce", "paradoxni-intervence", "falzifikovatelnost-nlp"]
+catalog_related_declared = ["zakon-pozadovane-variety", "tote-model", "neni-selhani-jen-zpetna-vazba", "vyznam-komunikace-je-reakce", "odpovednost-za-komunikaci"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/heuristika.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md", "kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "odpor-jako-nedostatek-raportu"
+catalog_next = "modelovatelnost-excelence"
+catalog_position = 12
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "freedman-fraser-1966", "herman-1992", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
+catalog_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "miller-rollnick-2013", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Když něco nefunguje, udělej něco jiného
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | If it is not working, do something else |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -214,7 +217,7 @@ pokud nefunguje argumentovat s člověkem, který žádá stále znovu, je legit
 jiného, totiž rozhovor ukončit a hledat oporu jinde. Kompendium shrnuje obecné obranné
 postupy v oddílu [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -235,28 +238,28 @@ postupy v oddílu [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzný vzorec (Předpoklady NLP, The meaning of communication is the response you get)
-- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzný vzorec (Předpoklady NLP, There is no failure, only feedback)
-- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzný vzorec (Předpoklady NLP, The law of requisite variety)
-- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzný vzorec (Předpoklady NLP, The communicator is responsible for the communication)
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzný vzorec (Ericksonovská hypnóza, Pattern interrupt)
-- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzný vzorec (Ericksonovská hypnóza, Paradoxical intervention)
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Falsifiability of NLP)
+- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzné heslo (Předpoklady NLP, The meaning of communication is the response you get)
+- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzné heslo (Předpoklady NLP, There is no failure, only feedback)
+- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzné heslo (Předpoklady NLP, The law of requisite variety)
+- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzné heslo (Předpoklady NLP, The communicator is responsible for the communication)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzné heslo (Ericksonovská hypnóza, Pattern interrupt)
+- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzné heslo (Ericksonovská hypnóza, Paradoxical intervention)
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Falsifiability of NLP)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – předchozí vzorec rodiny
-- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – předchozí heslo rodiny
+- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

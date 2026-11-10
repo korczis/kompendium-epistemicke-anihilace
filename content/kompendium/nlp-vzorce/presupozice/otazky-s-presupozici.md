@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Otázky s presupozicí", "Loaded questions", "komplexní otázka", "otázka s vneseným předpokladem", "kapciózní otázka", "Jazykové presupozice", "NLP", "neurolingvistické programování"]
+keywords = ["Otázky s presupozicí", "Loaded questions", "komplexní otázka", "otázka s vneseným předpokladem", "kapciózní otázka", "Jazykové presupozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-06.12"
-nlp_slug = "otazky-s-presupozici"
-nlp_family = "presupozice"
-nlp_family_code = "06"
-nlp_family_title = "Jazykové presupozice"
-nlp_family_en = "Linguistic presuppositions"
-nlp_part = "presupozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Loaded questions"
-nlp_aliases = ["komplexní otázka", "otázka s vneseným předpokladem", "kapciózní otázka"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "jazykove-presupozice"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["jazykove-presupozice"]
-nlp_related = ["presupozice-v-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "vlozene-otazky", "rozsahova-dvojznacnost", "iluze-volby", "presupozice-milton", "jazykove-presupozice", "existencni-presupozice", "presupozice-nebo", "slovesa-zmeny-casu", "rozstepene-vety", "presupozice-ve-vyslechu", "otazky-vysledku", "otazky-misto-tvrzeni", "predpokladovy-zaver"]
-nlp_related_declared = ["presupozice-ve-vyslechu", "presupozice-nebo", "vlozene-otazky", "otazky-misto-tvrzeni", "meta-model-jako-vyslychaci-nastroj", "iluze-volby"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md", "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_prev = "srovnavaci-presupozice"
-nlp_next = "vztazne-vety-presupozice"
-nlp_position = 12
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "grice-1975", "herman-1992", "kahneman-2011", "levinson-1983", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["grice-1975", "levinson-1983"]
-nlp_sources_critical = ["herman-1992", "kahneman-2011", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presupozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-06.12"
+catalog_slug = "otazky-s-presupozici"
+catalog_family = "presupozice"
+catalog_family_code = "06"
+catalog_family_title = "Jazykové presupozice"
+catalog_family_en = "Linguistic presuppositions"
+catalog_part = "presupozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Loaded questions"
+catalog_aliases = ["komplexní otázka", "otázka s vneseným předpokladem", "kapciózní otázka"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "jazykove-presupozice"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["jazykove-presupozice"]
+catalog_related = ["sugestivni-otazka", "slozena-otazka", "jen-se-ptam", "pravidlo-vychodiska", "presupozice-v-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "vlozene-otazky", "rozsahova-dvojznacnost", "iluze-volby", "presupozice-milton", "jazykove-presupozice", "existencni-presupozice", "presupozice-nebo", "slovesa-zmeny-casu", "rozstepene-vety", "presupozice-ve-vyslechu", "otazky-vysledku", "otazky-misto-tvrzeni", "predpokladovy-zaver"]
+catalog_related_declared = ["presupozice-ve-vyslechu", "presupozice-nebo", "vlozene-otazky", "otazky-misto-tvrzeni", "meta-model-jako-vyslychaci-nastroj", "iluze-volby"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md", "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_prev = "srovnavaci-presupozice"
+catalog_next = "vztazne-vety-presupozice"
+catalog_position = 12
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "grice-1975", "herman-1992", "kahneman-2011", "levinson-1983", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["grice-1975", "levinson-1983"]
+catalog_sources_critical = ["herman-1992", "kahneman-2011", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presupozice.b.toml"
 +++
 
 # Otázky s presupozicí
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-06.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Loaded questions |
 | **Jiné názvy** | komplexní otázka, otázka s vneseným předpokladem, kapciózní otázka |
-| **Obecnější vzorec** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
+| **Obecnější heslo** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -204,7 +207,7 @@ vypsat, co otázky předpokládaly, a posoudit každý předpoklad zvlášť. To
 skutečné události od obrazu, který vytvořila forma otázek, a obnovit důvěru ve vlastní
 popis toho, co se stalo (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -226,36 +229,40 @@ popis toho, co se stalo (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – příbuzný vzorec (Meta-model, Presuppositions (Meta Model))
-- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – příbuzný vzorec (Meta-model, Meta Model as an interrogation tool)
-- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – příbuzný vzorec (Milton-model, Embedded questions)
-- [Rozsahová dvojznačnost](@/kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md) – příbuzný vzorec (Milton-model, Scope ambiguity)
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzný vzorec (Milton-model, Presuppositions (Milton Model))
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Linguistic presuppositions)
-- [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Existential presupposition)
-- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzný vzorec (Jazykové presupozice, Use of „or“)
-- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzný vzorec (Jazykové presupozice, Change-of-time verbs and adverbs)
-- [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) – příbuzný vzorec (Jazykové presupozice, Cleft sentences)
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in questioning and testimony)
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Outcome questions)
-- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – příbuzný vzorec (Jazykové vzorce, Questions instead of statements)
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Assumptive close)
+- [Sugestivní otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/sugestivni-otazka.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, Loaded question)
+- [Složená otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/slozena-otazka.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, Complex question)
+- [„Jen se ptám“](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md) – příbuzné heslo (Argumentační fauly: Rétorické a dialogické taktiky, Just asking questions)
+- [Pravidlo východiska](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-vychodiska.md) – příbuzné heslo (Argumentační fauly: Principy kritické diskuse a teorie argumentace, Starting-point rule)
+- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – příbuzné heslo (Meta-model, Presuppositions (Meta Model))
+- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – příbuzné heslo (Meta-model, Meta Model as an interrogation tool)
+- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – příbuzné heslo (Milton-model, Embedded questions)
+- [Rozsahová dvojznačnost](@/kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md) – příbuzné heslo (Milton-model, Scope ambiguity)
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzné heslo (Milton-model, Presuppositions (Milton Model))
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – příbuzné heslo (Jazykové presupozice, Linguistic presuppositions)
+- [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – příbuzné heslo (Jazykové presupozice, Existential presupposition)
+- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzné heslo (Jazykové presupozice, Use of „or“)
+- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzné heslo (Jazykové presupozice, Change-of-time verbs and adverbs)
+- [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) – příbuzné heslo (Jazykové presupozice, Cleft sentences)
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in questioning and testimony)
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzné heslo (Cíle a výsledky, Outcome questions)
+- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – příbuzné heslo (Jazykové vzorce, Questions instead of statements)
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Assumptive close)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – předchozí vzorec rodiny
-- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – předchozí heslo rodiny
+- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

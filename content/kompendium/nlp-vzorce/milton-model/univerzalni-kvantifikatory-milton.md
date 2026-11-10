@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Univerzální kvantifikátory v Milton-modelu", "Universal quantifiers (Milton Model)", "zobecňující slova", "všeobecné výroky", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Univerzální kvantifikátory v Milton-modelu", "Universal quantifiers (Milton Model)", "zobecňující slova", "všeobecné výroky", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.20"
-nlp_slug = "univerzalni-kvantifikatory-milton"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Universal quantifiers (Milton Model)"
-nlp_aliases = ["zobecňující slova", "všeobecné výroky"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["univerzalni-kvantifikator", "truismy", "ano-sada", "ztraceny-performativ-milton", "modalni-operatory-milton", "nlp-v-politicke-reci"]
-nlp_related_declared = ["univerzalni-kvantifikator", "truismy", "ztraceny-performativ-milton", "modalni-operatory-milton", "ano-sada"]
-nlp_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/truismy.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md"]
-nlp_prev = "komplexni-ekvivalence-milton"
-nlp_next = "modalni-operatory-milton"
-nlp_position = 20
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "cialdini-2009", "ellis-1962", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "levinson-1983", "mcguire-1964", "oconnor-seymour-1990", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983"]
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.20"
+catalog_slug = "univerzalni-kvantifikatory-milton"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Universal quantifiers (Milton Model)"
+catalog_aliases = ["zobecňující slova", "všeobecné výroky"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["univerzalni-kvantifikator", "truismy", "ano-sada", "ztraceny-performativ-milton", "modalni-operatory-milton", "nlp-v-politicke-reci"]
+catalog_related_declared = ["univerzalni-kvantifikator", "truismy", "ztraceny-performativ-milton", "modalni-operatory-milton", "ano-sada"]
+catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/truismy.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md"]
+catalog_prev = "komplexni-ekvivalence-milton"
+catalog_next = "modalni-operatory-milton"
+catalog_position = 20
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "cialdini-2009", "ellis-1962", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "levinson-1983", "mcguire-1964", "oconnor-seymour-1990", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.b.toml"
 +++
 
 # Univerzální kvantifikátory v Milton-modelu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Universal quantifiers (Milton Model) |
 | **Jiné názvy** | zobecňující slova, všeobecné výroky |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ obnovit sociální síť, protože právě kontakt s lidmi mimo skupinu nejpří
 tvrzení, že „nikdo venku“ nerozumí. Herman zdůrazňuje, že zotavení probíhá ve vztazích a že
 obnova spojení s ostatními je jeho nezbytnou součástí (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -223,28 +226,28 @@ obnova spojení s ostatními je jeho nezbytnou součástí (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – příbuzný vzorec (Meta-model, Universal quantifier)
-- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzný vzorec (Milton-model, Truisms)
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – příbuzný vzorec (Milton-model, Lost performative (Milton Model))
-- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – příbuzný vzorec (Milton-model, Modal operators (Milton Model))
-- [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in political speech)
+- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – příbuzné heslo (Meta-model, Universal quantifier)
+- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzné heslo (Milton-model, Truisms)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – příbuzné heslo (Milton-model, Lost performative (Milton Model))
+- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – příbuzné heslo (Milton-model, Modal operators (Milton Model))
+- [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in political speech)
 
 **V kompendiu**
 
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.1 Model BITE v praxi (Hassan)](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.2 Izolace svěřence (mentee isolation)](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.1 Model BITE v praxi (Hassan)](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.2 Izolace svěřence (mentee isolation)](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – předchozí vzorec rodiny
-- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – předchozí heslo rodiny
+- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

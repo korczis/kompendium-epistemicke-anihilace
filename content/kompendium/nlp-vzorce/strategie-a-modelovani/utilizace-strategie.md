@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Využití strategie druhého", "Strategy utilisation", "utilizace strategie", "strategy utilization", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Využití strategie druhého", "Strategy utilisation", "utilizace strategie", "strategy utilization", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.17"
-nlp_slug = "utilizace-strategie"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Strategy utilisation"
-nlp_aliases = ["utilizace strategie", "strategy utilization"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "strategie-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["strategie-pojem"]
-nlp_related = ["strategie-pojem", "utilizace", "elicitace-strategie", "rozhodovaci-strategie", "presvedcovaci-strategie", "strategie-lasky", "instalace-strategie", "metaprogramy-v-marketingu", "nlp-v-prodeji"]
-nlp_related_declared = ["elicitace-strategie", "presvedcovaci-strategie", "rozhodovaci-strategie", "utilizace", "metaprogramy-v-marketingu", "nlp-v-prodeji"]
-nlp_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/case-studies/63-investor-cult.md"]
-nlp_links_prose = ["kompendium/case-studies/63-investor-cult.md", "kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md", "kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md", "kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md"]
-nlp_prev = "instalace-strategie"
-nlp_next = "generator-noveho-chovani"
-nlp_position = 17
-nlp_family_size = 20
-nlp_sources = ["charvet-1997", "cialdini-2009", "dilts-1980", "erickson-rossi-1979", "mcguire-1964", "miller-galanter-pribram-1960", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["charvet-1997", "dilts-1980"]
-nlp_sources_roots = ["erickson-rossi-1979", "miller-galanter-pribram-1960"]
-nlp_sources_critical = ["cialdini-2009", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.17"
+catalog_slug = "utilizace-strategie"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Strategy utilisation"
+catalog_aliases = ["utilizace strategie", "strategy utilization"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "strategie-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["strategie-pojem"]
+catalog_related = ["strategie-pojem", "utilizace", "elicitace-strategie", "rozhodovaci-strategie", "presvedcovaci-strategie", "strategie-lasky", "instalace-strategie", "metaprogramy-v-marketingu", "nlp-v-prodeji"]
+catalog_related_declared = ["elicitace-strategie", "presvedcovaci-strategie", "rozhodovaci-strategie", "utilizace", "metaprogramy-v-marketingu", "nlp-v-prodeji"]
+catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/case-studies/63-investor-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/63-investor-cult.md", "kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md", "kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md", "kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md"]
+catalog_prev = "instalace-strategie"
+catalog_next = "generator-noveho-chovani"
+catalog_position = 17
+catalog_family_size = 20
+catalog_sources = ["charvet-1997", "cialdini-2009", "dilts-1980", "erickson-rossi-1979", "mcguire-1964", "miller-galanter-pribram-1960", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["charvet-1997", "dilts-1980"]
+catalog_sources_roots = ["erickson-rossi-1979", "miller-galanter-pribram-1960"]
+catalog_sources_critical = ["cialdini-2009", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Využití strategie druhého
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Strategy utilisation |
 | **Jiné názvy** | utilizace strategie, strategy utilization |
-| **Obecnější vzorec** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
+| **Obecnější heslo** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Pro využití strategií v podobě, jak ho popisuje NLP, nejsou k dispozici kont
 
 Hlavní obranou je oddělit formu od obsahu. Když nabídka „splní“ vlastní kritéria, je užitečné se ptát, zda je splnila doopravdy: jsou tři důkazy nezávislé, nebo pocházejí z jednoho zdroje? Je odborník, na kterého se nabídka odvolává, nezávislý? Pocit, že něco „sedí“, je informace o shodě s vlastním postupem, ne o kvalitě nabídky. Druhou obranou je opatrnost při sdílení vlastních rozhodovacích postupů s lidmi, kteří na rozhodnutí mají zájem. Na otázku, podle čeho se člověk rozhoduje, není povinné odpovídat a je legitimní ji odbýt. Třetí obranou je zapojit třetí stranu. Strategie je individuální; nabídka přizpůsobená jednomu člověku často přestane působit, když ji posoudí někdo jiný, kdo nemá tytéž testy. Čtvrtou obranou je čas: rozhodnutí odložené mimo schůzku ztrácí oporu v bezprostřední ozvěně vlastních slov. Výzkum očkování proti přesvědčování ukazuje, že předem získané povědomí o způsobu působení a vyzkoušené protiargumenty snižují náchylnost k pozdějšímu tlaku (McGuire 1964; van der Linden 2023). Lidé, kteří na takovou nabídku přistoupili, se často stydí, protože měli pocit, že se rozhodli sami. Pomáhá jim vysvětlit, že vzorec cíleně využívá jejich vlastní kritéria, a že pocit vlastního rozhodnutí je právě tím, co je na něm nejzrádnější.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,31 +126,31 @@ Hlavní obranou je oddělit formu od obsahu. Když nabídka „splní“ vlastn�
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy elicitation)
-- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Decision strategy)
-- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Convincer strategy)
-- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – příbuzný vzorec (Strategie a modelování, Love strategy)
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy installation)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy elicitation)
+- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Decision strategy)
+- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Convincer strategy)
+- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – příbuzné heslo (Strategie a modelování, Love strategy)
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy installation)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
 
 **V kompendiu**
 
-- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – předchozí vzorec rodiny
-- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – předchozí heslo rodiny
+- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

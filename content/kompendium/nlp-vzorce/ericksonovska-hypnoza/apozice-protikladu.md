@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Apozice protikladů", "Apposition of opposites", "spojení protikladů", "kladení protikladů vedle sebe", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Apozice protikladů", "Apposition of opposites", "spojení protikladů", "kladení protikladů vedle sebe", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.20"
-nlp_slug = "apozice-protikladu"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Apposition of opposites"
-nlp_aliases = ["spojení protikladů", "kladení protikladů vedle sebe"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "slozena-sugesce"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["slozena-sugesce", "ericksonovska-hypnoza"]
-nlp_related = ["konfuzni-technika", "paradoxni-intervence", "terapeuticka-dvojna-vazba", "slozena-sugesce", "ale-a-a"]
-nlp_related_declared = ["slozena-sugesce", "paradoxni-intervence", "terapeuticka-dvojna-vazba", "konfuzni-technika"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "dvojita-disociativni-vazba"
-nlp_next = "slozena-sugesce"
-nlp_position = 20
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "bateson-1972", "erickson-rossi-rossi-1976", "hassan-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "lilienfeld-2015", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "watzlawick-1974"]
-nlp_sources_critical = ["hassan-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "lilienfeld-2015", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.20"
+catalog_slug = "apozice-protikladu"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Apposition of opposites"
+catalog_aliases = ["spojení protikladů", "kladení protikladů vedle sebe"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "slozena-sugesce"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["slozena-sugesce", "ericksonovska-hypnoza"]
+catalog_related = ["konfuzni-technika", "paradoxni-intervence", "terapeuticka-dvojna-vazba", "slozena-sugesce", "ale-a-a"]
+catalog_related_declared = ["slozena-sugesce", "paradoxni-intervence", "terapeuticka-dvojna-vazba", "konfuzni-technika"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "dvojita-disociativni-vazba"
+catalog_next = "slozena-sugesce"
+catalog_position = 20
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "bateson-1972", "erickson-rossi-rossi-1976", "hassan-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "lilienfeld-2015", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "watzlawick-1974"]
+catalog_sources_critical = ["hassan-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "lilienfeld-2015", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
 +++
 
 # Apozice protikladů
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Apposition of opposites |
 | **Jiné názvy** | spojení protikladů, kladení protikladů vedle sebe |
-| **Obecnější vzorec** | [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) |
+| **Obecnější heslo** | [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -192,7 +195,7 @@ oprávněným varováním. Obecné principy obnovy epistemické samostatnosti sh
 terapii používá, by měl klientovi rámec otevřeně vysvětlit a výslovně mu ponechat právo
 vazbu odmítnout; tím se sugesce mění v nabídku a ztrácí potenciál uzavřené smyčky výkladu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,26 +214,26 @@ vazbu odmítnout; tím se sugesce mění v nabídku a ztrácí potenciál uzavř
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzný vzorec (Ericksonovská hypnóza, Confusion technique)
-- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzný vzorec (Ericksonovská hypnóza, Paradoxical intervention)
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Therapeutic double bind)
-- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Compound suggestion)
-- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – příbuzný vzorec (Jazykové vzorce, But versus and)
+- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzné heslo (Ericksonovská hypnóza, Confusion technique)
+- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzné heslo (Ericksonovská hypnóza, Paradoxical intervention)
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Therapeutic double bind)
+- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Compound suggestion)
+- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – příbuzné heslo (Jazykové vzorce, But versus and)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – předchozí vzorec rodiny
-- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – předchozí heslo rodiny
+- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

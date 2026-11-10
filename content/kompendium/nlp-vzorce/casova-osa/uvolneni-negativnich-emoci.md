@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Uvolnění negativních emocí na časové ose", "Releasing negative emotions on the timeline", "uvolnění emocí", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Uvolnění negativních emocí na časové ose", "Releasing negative emotions on the timeline", "uvolnění emocí", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.04"
-nlp_slug = "uvolneni-negativnich-emoci"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Releasing negative emotions on the timeline"
-nlp_aliases = ["uvolnění emocí"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "terapie-casove-osy"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
-nlp_related = ["disociace", "rychla-lecba-fobie", "vzorec-odpusteni", "trauma-a-falesne-vzpominky", "terapie-casove-osy", "korenova-pricina"]
-nlp_related_declared = ["korenova-pricina", "disociace", "rychla-lecba-fobie", "vzorec-odpusteni", "trauma-a-falesne-vzpominky"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "glossary/complex-trauma.md"]
-nlp_links_prose = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "terapie-casove-osy"
-nlp_next = "limitujici-rozhodnuti"
-nlp_position = 4
-nlp_family_size = 12
-nlp_sources = ["bandler-1985", "beck-1976", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "shapiro-1989", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-1985", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "shapiro-1989", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.04"
+catalog_slug = "uvolneni-negativnich-emoci"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Releasing negative emotions on the timeline"
+catalog_aliases = ["uvolnění emocí"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "terapie-casove-osy"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
+catalog_related = ["disociace", "rychla-lecba-fobie", "vzorec-odpusteni", "trauma-a-falesne-vzpominky", "terapie-casove-osy", "korenova-pricina"]
+catalog_related_declared = ["korenova-pricina", "disociace", "rychla-lecba-fobie", "vzorec-odpusteni", "trauma-a-falesne-vzpominky"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "glossary/complex-trauma.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/complex-trauma.md", "glossary/disociace.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "terapie-casove-osy"
+catalog_next = "limitujici-rozhodnuti"
+catalog_position = 4
+catalog_family_size = 12
+catalog_sources = ["bandler-1985", "beck-1976", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "shapiro-1989", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-1985", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "shapiro-1989", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Uvolnění negativních emocí na časové ose
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Releasing negative emotions on the timeline |
 | **Jiné názvy** | uvolnění emocí |
-| **Obecnější vzorec** | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) |
+| **Obecnější heslo** | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -83,7 +86,7 @@ Myšlenka, že emoční reakce lze změnit změnou způsobu, jakým si člověk 
 
 ## Struktura vzorce
 
-Strukturálně má vzorec tři složky. První je identifikace emoce, která se má uvolnit, a určení události, k níž se vztahuje. Pokud si člověk událost pamatuje, pracuje se s ní; pokud ne, vstupuje do hry [hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md), které je nejrizikovější částí celé rodiny. Druhá složka je změna perspektivy. Člověk se v představě dívá na událost z disociované pozice, zvenčí a z odstupu, nebo z pozice „před“ událostí. Tato složka navazuje na obecný pojem [disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) v NLP. Třetí složka je ověření výsledku, při němž je člověk vyzván, aby si událost vybavil znovu a sdělil, zda emoce ještě je přítomna. Z hlediska pozorovatele je podstatné, že třetí složka probíhá v situaci silného očekávání. Klient ví, jaká odpověď je žádoucí, a průvodce ji obvykle zřetelně očekává. Hlášení, že emoce zmizela, je proto zčásti odpovědí na sociální situaci. To neznamená, že je nepravdivé, ale že samo o sobě nemůže sloužit jako doklad trvalé změny.
+Strukturálně má vzorec tři složky. První je identifikace emoce, která se má uvolnit, a určení události, k níž se vztahuje. Pokud si člověk událost pamatuje, pracuje se s ní; pokud ne, vstupuje do hry [hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md), které je nejrizikovější částí celé rodiny. Druhá složka je změna perspektivy. Člověk se v představě dívá na událost z disociované pozice, zvenčí a z odstupu, nebo z pozice „před“ událostí. Tato složka navazuje na obecný pojem [disociace](@/glossary/disociace.md) v NLP. Třetí složka je ověření výsledku, při němž je člověk vyzván, aby si událost vybavil znovu a sdělil, zda emoce ještě je přítomna. Z hlediska pozorovatele je podstatné, že třetí složka probíhá v situaci silného očekávání. Klient ví, jaká odpověď je žádoucí, a průvodce ji obvykle zřetelně očekává. Hlášení, že emoce zmizela, je proto zčásti odpovědí na sociální situaci. To neznamená, že je nepravdivé, ale že samo o sobě nemůže sloužit jako doklad trvalé změny.
 
 Obrazem „vyčištění“ emocí se vzorec blíží starší představě katarze, podle níž stačí emoci jednou plně prožít nebo „pustit“ a ona zmizí. Současné poznatky o zpracování emocí jsou složitější: emoční reakce na důležité události se obvykle mění postupně, opakovaně a v kontextu vztahů, nikoli jednorázovým aktem. Herman popisuje zotavení z traumatu jako proces, v němž truchlení a přepracování vzpomínek trvá dlouho a vyžaduje bezpečný vztah (Herman 1992).
 
@@ -103,7 +106,7 @@ Pro tvrzení, že vzorec trvale odstraňuje dlouhodobé emoční obtíže, neexi
 
 Základní obranou je realistické očekávání. Emoce, které člověka provázejí dlouho, se obvykle mění postupně a mohou se vracet; jejich návrat není selháním ani známkou „odporu“. Druhou obranou je trvat na tom, aby se pracovalo jen s událostmi, které si člověk pamatuje, a odmítnout hledání zapomenutých příčin v sugestivním stavu. Třetí obranou je rozlišovat emoci, která je přiměřenou reakcí na skutečnou křivdu, od emoce, která člověka zbytečně trápí. Hněv na někoho, kdo ublížil, může být informací, kterou je dobré slyšet, ne zátěží, které se má člověk zbavit. U obtíží, jako jsou úzkostné poruchy, deprese nebo následky traumatu, je namístě odborná péče s ověřenou metodou; přehled nabízí kapitola o [terapeutických přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Lidé, kteří vzorcem prošli a cítí se poraženi tím, že se emoce vrátila, potřebují slyšet, že návrat je běžný a že nevypovídá o jejich hodnotě. Zotavení zahrnuje opuštění výkladu, který z nich udělal viníka neúspěchu, a návrat k práci s emocemi v bezpečném vztahu (Herman 1992). U lidí s dlouhodobou traumatickou zkušeností kompendium odkazuje na stránku o [komplexním traumatu](@/glossary/complex-trauma.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,27 +125,27 @@ Základní obranou je realistické očekávání. Emoce, které člověka prová
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
-- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzný vzorec (Disociace, fobie a trauma, Forgiveness pattern)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzný vzorec (Časová osa, Time Line Therapy)
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzný vzorec (Časová osa, Root cause)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
+- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzné heslo (Disociace, fobie a trauma, Forgiveness pattern)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzné heslo (Časová osa, Time Line Therapy)
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – předchozí vzorec rodiny
-- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – předchozí heslo rodiny
+- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Konverzační hypnóza", "Conversational (covert) hypnosis", "skrytá hypnóza", "covert hypnosis", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Konverzační hypnóza", "Conversational (covert) hypnosis", "skrytá hypnóza", "covert hypnosis", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.01"
-nlp_slug = "konverzacni-hypnoza"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Conversational (covert) hypnosis"
-nlp_aliases = ["skrytá hypnóza", "covert hypnosis"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["komunikace-vedoma-a-nevedoma", "trans-pojem", "milton-model", "vlozene-prikazy", "ericksonovska-hypnoza", "utilizace", "indukce-podanim-ruky", "technika-prolozeni", "krizove-zrcadleni", "sladeni-dechu", "sladeni-hlasu-a-tempa", "nlp-v-sektach", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky"]
-nlp_related_declared = ["milton-model", "vlozene-prikazy", "utilizace", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky", "trans-pojem"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["glossary/informed-consent.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
-nlp_prev = ""
-nlp_next = "nlp-v-prodeji"
-nlp_position = 1
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1976", "haley-1973", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "petty-cacioppo-1986", "rosen-1982", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "rosen-1982"]
-nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.01"
+catalog_slug = "konverzacni-hypnoza"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Conversational (covert) hypnosis"
+catalog_aliases = ["skrytá hypnóza", "covert hypnosis"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["komunikace-vedoma-a-nevedoma", "trans-pojem", "milton-model", "vlozene-prikazy", "ericksonovska-hypnoza", "utilizace", "indukce-podanim-ruky", "technika-prolozeni", "krizove-zrcadleni", "sladeni-dechu", "sladeni-hlasu-a-tempa", "nlp-v-sektach", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky"]
+catalog_related_declared = ["milton-model", "vlozene-prikazy", "utilizace", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky", "trans-pojem"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/informed-consent.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
+catalog_prev = ""
+catalog_next = "nlp-v-prodeji"
+catalog_position = 1
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1976", "haley-1973", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "petty-cacioppo-1986", "rosen-1982", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "rosen-1982"]
+catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # Konverzační hypnóza
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Conversational (covert) hypnosis |
 | **Jiné názvy** | skrytá hypnóza, covert hypnosis |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -202,7 +205,7 @@ prostory v zákonné lhůtě, a u skupinového kontextu kontakt s odborníky na 
 sekt. Pro rozpoznání v širším rámci slouží stránka o [obraně proti epistemické
 anihilaci](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -225,35 +228,35 @@ anihilaci](@/kompendium/06-obrana/_index.md).
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzný vzorec (Předpoklady NLP, Communication is both conscious and unconscious)
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzný vzorec (Ericksonovská hypnóza, Ericksonian hypnosis)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzný vzorec (Ericksonovská hypnóza, Handshake induction)
-- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzný vzorec (Ericksonovská hypnóza, Interspersal technique)
-- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Cross-over mirroring)
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzný vzorec (Raport a kalibrace, Breathing matching)
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzný vzorec (Raport a kalibrace, Voice and tempo matching)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzný vzorec (Vliv a zneužití NLP, Hypnotic language in online content)
-- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzný vzorec (Vliv a zneužití NLP, Recognising NLP practice in conversation)
+- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzné heslo (Předpoklady NLP, Communication is both conscious and unconscious)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzné heslo (Ericksonovská hypnóza, Ericksonian hypnosis)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzné heslo (Ericksonovská hypnóza, Handshake induction)
+- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzné heslo (Ericksonovská hypnóza, Interspersal technique)
+- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Cross-over mirroring)
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzné heslo (Raport a kalibrace, Breathing matching)
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzné heslo (Vliv a zneužití NLP, Hypnotic language in online content)
+- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzné heslo (Vliv a zneužití NLP, Recognising NLP practice in conversation)
 
 **V kompendiu**
 
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

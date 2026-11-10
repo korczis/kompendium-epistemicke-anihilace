@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Křížové zrcadlení", "Cross-over mirroring", "nepřímé zrcadlení", "cross-over matching", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Křížové zrcadlení", "Cross-over mirroring", "nepřímé zrcadlení", "cross-over matching", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.02"
-nlp_slug = "krizove-zrcadleni"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Cross-over mirroring"
-nlp_aliases = ["nepřímé zrcadlení", "cross-over matching"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "zrcadleni"
-nlp_narrower = []
-nlp_depth = 3
-nlp_ancestors = ["zrcadleni", "pacing-a-leading", "pacing-a-leading-pojem"]
-nlp_related = ["smyslova-ostrost", "sladeni-dechu", "preruseni-raportu", "konverzacni-hypnoza"]
-nlp_related_declared = ["sladeni-dechu", "smyslova-ostrost", "konverzacni-hypnoza", "preruseni-raportu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-5-1-strategicka-proxemika.md", "kompendium/techniques/ea-6-1-4-observational-assessment.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md", "kompendium/techniques/ea-6-1-4-observational-assessment.md"]
-nlp_prev = "zrcadleni"
-nlp_next = "pacing-a-leading"
-nlp_position = 2
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "dilts-delozier-2000", "druckman-swets-1988", "grinder-bandler-1981", "haley-1973", "heap-1988", "herman-1992", "lilienfeld-2015", "rogers-1951", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-bandler-1981"]
-nlp_sources_roots = ["haley-1973"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "lilienfeld-2015", "rogers-1951", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.02"
+catalog_slug = "krizove-zrcadleni"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Cross-over mirroring"
+catalog_aliases = ["nepřímé zrcadlení", "cross-over matching"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "zrcadleni"
+catalog_narrower = []
+catalog_depth = 3
+catalog_ancestors = ["zrcadleni", "pacing-a-leading", "pacing-a-leading-pojem"]
+catalog_related = ["smyslova-ostrost", "sladeni-dechu", "preruseni-raportu", "konverzacni-hypnoza"]
+catalog_related_declared = ["sladeni-dechu", "smyslova-ostrost", "konverzacni-hypnoza", "preruseni-raportu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-5-1-strategicka-proxemika.md", "kompendium/techniques/ea-6-1-4-observational-assessment.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md", "kompendium/techniques/ea-6-1-4-observational-assessment.md"]
+catalog_prev = "zrcadleni"
+catalog_next = "pacing-a-leading"
+catalog_position = 2
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "dilts-delozier-2000", "druckman-swets-1988", "grinder-bandler-1981", "haley-1973", "heap-1988", "herman-1992", "lilienfeld-2015", "rogers-1951", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-bandler-1981"]
+catalog_sources_roots = ["haley-1973"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "lilienfeld-2015", "rogers-1951", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.toml"
 +++
 
 # Křížové zrcadlení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Cross-over mirroring |
 | **Jiné názvy** | nepřímé zrcadlení, cross-over matching |
-| **Obecnější vzorec** | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) |
+| **Obecnější heslo** | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ chápat jako slabost (Herman 1992). Současně je dobré korigovat přehnaný ob
 samy kurzy, že techniky působí téměř neomylně: důkazy pro takové tvrzení chybějí, a člověk
 proto nemusí věřit, že byl bezmocným objektem dokonalé metody.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,25 +224,25 @@ proto nemusí věřit, že byl bezmocným objektem dokonalé metody.
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzný vzorec (Základní pojmy NLP, Sensory acuity)
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzný vzorec (Raport a kalibrace, Breathing matching)
-- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – příbuzný vzorec (Raport a kalibrace, Breaking rapport)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzné heslo (Základní pojmy NLP, Sensory acuity)
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzné heslo (Raport a kalibrace, Breathing matching)
+- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – příbuzné heslo (Raport a kalibrace, Breaking rapport)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
 
 **V kompendiu**
 
-- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.4 Observational assessment](@/kompendium/techniques/ea-6-1-4-observational-assessment.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.4 Observational assessment](@/kompendium/techniques/ea-6-1-4-observational-assessment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – předchozí vzorec rodiny
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – předchozí heslo rodiny
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

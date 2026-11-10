@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Strategie reality", "Reality strategy", "zpochybnění způsobu, jak to víte", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Strategie reality", "Reality strategy", "zpochybnění způsobu, jak to víte", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.12"
-nlp_slug = "som-strategie-reality"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Reality strategy"
-nlp_aliases = ["zpochybnění způsobu, jak to víte"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["som-model-sveta", "som-meta-ramec", "presvedcovaci-strategie", "strategie-reality"]
-nlp_related_declared = ["strategie-reality", "presvedcovaci-strategie", "som-model-sveta", "som-meta-ramec"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "som-model-sveta"
-nlp_next = "som-hierarchie-kriterii"
-nlp_position = 12
-nlp_family_size = 16
-nlp_sources = ["beck-1976", "dilts-1999", "dilts-1980", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "miller-galanter-pribram-1960", "sharpley-1984", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["dilts-1999", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "sharpley-1984", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.12"
+catalog_slug = "som-strategie-reality"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Reality strategy"
+catalog_aliases = ["zpochybnění způsobu, jak to víte"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["som-model-sveta", "som-meta-ramec", "presvedcovaci-strategie", "strategie-reality"]
+catalog_related_declared = ["strategie-reality", "presvedcovaci-strategie", "som-model-sveta", "som-meta-ramec"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "som-model-sveta"
+catalog_next = "som-hierarchie-kriterii"
+catalog_position = 12
+catalog_family_size = 16
+catalog_sources = ["beck-1976", "dilts-1999", "dilts-1980", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "miller-galanter-pribram-1960", "sharpley-1984", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["dilts-1999", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "sharpley-1984", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.b.toml"
 +++
 
 # Strategie reality
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Reality strategy |
 | **Jiné názvy** | zpochybnění způsobu, jak to víte |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Vzorec strategie reality nebyl samostatně testován. Dilts ho dokládá výklad
 
 Základní obranou je nepřijmout rozbor vlastních vnitřních procesů jako měřítko toho, co se stalo. Na otázky po tom, zda si člověk vybavuje obraz, nebo jen pocit, není nutné odpovídat; je legitimní vrátit se k události a navrhnout její ověření nezávislými stopami: zprávami, e-maily, svědky, časovou osou nebo vlastními zápisky. Druhou obranou je průběžné vedení záznamu. Kdo si zapisuje, co se stalo, krátce po události a odděleně od svého výkladu, má oporu, kterou pozdější zpochybňování nerozloží. Třetí obranou je trvat na symetrii: pokud se zkoumá, jak adresát ví, co ví, mají stejné zkoušce podléhat i tvrzení mluvčího. Pro lidi, u kterých dlouhodobé zpochybňování vedlo k rozkladu důvěry ve vlastní paměť, je zotavení pomalé a probíhá v bezpečném vztahu, kde jejich popis událostí není zpochybňován ani přepisován (Herman 1992). Klinická práce se proto v takových případech nesoustředí na další zkoumání vnitřních strategií, ale na obnovu kontinuity paměti, na validaci zkušenosti a na postupné obnovení schopnosti spoléhat na vlastní úsudek v každodenních situacích. Terapeut by se měl vyhnout sugestivním otázkám, které by obsah vzpomínek mohly dále měnit.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,26 +126,26 @@ Základní obranou je nepřijmout rozbor vlastních vnitřních procesů jako m�
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzný vzorec (Sleight of Mouth, Model of the world)
-- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzný vzorec (Sleight of Mouth, Meta frame)
-- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Convincer strategy)
-- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – příbuzný vzorec (Strategie a modelování, Reality strategy)
+- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzné heslo (Sleight of Mouth, Model of the world)
+- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzné heslo (Sleight of Mouth, Meta frame)
+- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Convincer strategy)
+- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – příbuzné heslo (Strategie a modelování, Reality strategy)
 
 **V kompendiu**
 
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-4.3.5 Evidential criteria modification](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-4.3.5 Evidential criteria modification](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – předchozí vzorec rodiny
-- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – předchozí heslo rodiny
+- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

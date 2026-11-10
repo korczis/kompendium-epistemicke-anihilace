@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["NLP v komunitě „umění svádění“", "NLP in the seduction community", "pickup", "speed seduction", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["NLP v komunitě „umění svádění“", "NLP in the seduction community", "pickup", "speed seduction", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.06"
-nlp_slug = "nlp-v-komunite-svadeni"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "NLP in the seduction community"
-nlp_aliases = ["pickup", "speed seduction"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["zakon-pozadovane-variety", "odpor-jako-nedostatek-raportu", "vlozene-prikazy", "frakcionace", "kotveni-v-kontrolujicich-vztazich", "strategie-lasky", "zrcadleni", "raport-jako-nastroj-vlivu", "pseudoempatie", "falesne-zrcadleni-v-podvodech", "manipulativni-reframing-ve-vztazich"]
-nlp_related_declared = ["raport-jako-nastroj-vlivu", "zrcadleni", "kotveni-v-kontrolujicich-vztazich", "vlozene-prikazy", "manipulativni-reframing-ve-vztazich", "falesne-zrcadleni-v-podvodech"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_prev = "budouci-prehravani-v-prodeji"
-nlp_next = "nlp-v-sektach"
-nlp_position = 6
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "beck-1976", "chartrand-bargh-1999", "cialdini-2009", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "oconnor-seymour-1990", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "chartrand-bargh-1999", "cialdini-2009", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.06"
+catalog_slug = "nlp-v-komunite-svadeni"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "NLP in the seduction community"
+catalog_aliases = ["pickup", "speed seduction"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["zakon-pozadovane-variety", "odpor-jako-nedostatek-raportu", "vlozene-prikazy", "frakcionace", "kotveni-v-kontrolujicich-vztazich", "strategie-lasky", "zrcadleni", "raport-jako-nastroj-vlivu", "pseudoempatie", "falesne-zrcadleni-v-podvodech", "manipulativni-reframing-ve-vztazich"]
+catalog_related_declared = ["raport-jako-nastroj-vlivu", "zrcadleni", "kotveni-v-kontrolujicich-vztazich", "vlozene-prikazy", "manipulativni-reframing-ve-vztazich", "falesne-zrcadleni-v-podvodech"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_prev = "budouci-prehravani-v-prodeji"
+catalog_next = "nlp-v-sektach"
+catalog_position = 6
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "beck-1976", "chartrand-bargh-1999", "cialdini-2009", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "oconnor-seymour-1990", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "chartrand-bargh-1999", "cialdini-2009", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # NLP v komunitě „umění svádění“
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | NLP in the seduction community |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ druhé lidi i na sebe, a nahradit techniku skutečnou dovedností vztahu, včetn
 snášet odmítnutí. Sexuální násilí, včetně
 jednání bez souhlasu, je trestným činem bez ohledu na to, jakou technikou se k němu dospělo.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,32 +219,32 @@ jednání bez souhlasu, je trestným činem bez ohledu na to, jakou technikou se
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzný vzorec (Předpoklady NLP, The law of requisite variety)
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzný vzorec (Předpoklady NLP, Resistance indicates a lack of rapport)
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – příbuzný vzorec (Ericksonovská hypnóza, Fractionation)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – příbuzný vzorec (Strategie a modelování, Love strategy)
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzný vzorec (Raport a kalibrace, Simulated empathy)
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzný vzorec (Vliv a zneužití NLP, Mirroring in scams)
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzný vzorec (Vliv a zneužití NLP, Manipulative reframing in close relationships)
+- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzné heslo (Předpoklady NLP, The law of requisite variety)
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzné heslo (Předpoklady NLP, Resistance indicates a lack of rapport)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – příbuzné heslo (Ericksonovská hypnóza, Fractionation)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – příbuzné heslo (Strategie a modelování, Love strategy)
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzné heslo (Raport a kalibrace, Simulated empathy)
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzné heslo (Vliv a zneužití NLP, Mirroring in scams)
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**
 
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – předchozí vzorec rodiny
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – předchozí heslo rodiny
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

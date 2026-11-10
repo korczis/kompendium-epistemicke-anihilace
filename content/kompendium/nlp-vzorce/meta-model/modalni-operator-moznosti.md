@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Modální operátor možnosti", "Modal operator of possibility", "operátor možnosti", "nemohu", "nejde to", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Modální operátor možnosti", "Modal operator of possibility", "operátor možnosti", "nemohu", "nejde to", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.10"
-nlp_slug = "modalni-operator-moznosti"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Modal operator of possibility"
-nlp_aliases = ["operátor možnosti", "nemohu", "nejde to"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["univerzalni-kvantifikator", "modalni-operator-nutnosti", "modalni-operatory-milton", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost"]
-nlp_related_declared = ["modalni-operator-nutnosti", "univerzalni-kvantifikator", "modalni-operatory-milton", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md"]
-nlp_prev = "modalni-operator-nutnosti"
-nlp_next = "cteni-myslenek"
-nlp_position = 10
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "chomsky-1965", "hassan-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "satir-1972", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = ["chomsky-1965", "satir-1972"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.10"
+catalog_slug = "modalni-operator-moznosti"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Modal operator of possibility"
+catalog_aliases = ["operátor možnosti", "nemohu", "nejde to"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["klam-modalniho-rozsahu", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "modalni-operatory-milton", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost"]
+catalog_related_declared = ["modalni-operator-nutnosti", "univerzalni-kvantifikator", "modalni-operatory-milton", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md"]
+catalog_prev = "modalni-operator-nutnosti"
+catalog_next = "cteni-myslenek"
+catalog_position = 10
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "chomsky-1965", "hassan-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "satir-1972", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = ["chomsky-1965", "satir-1972"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.b.toml"
 +++
 
 # Modální operátor možnosti
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Modal operator of possibility |
 | **Jiné názvy** | operátor možnosti, nemohu, nejde to |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ na malých, skutečně zvládnutých krocích, ne na přesvědčování (Herman 
 byla nemožnost dlouhodobě vkládána, se proto v klinické praxi nepracuje s rychlým
 „prolomením“ meze, ale s obnovou zkušenosti, že vlastní jednání má účinek.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,27 +225,28 @@ byla nemožnost dlouhodobě vkládána, se proto v klinické praxi nepracuje s r
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – příbuzný vzorec (Meta-model, Universal quantifier)
-- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – příbuzný vzorec (Meta-model, Modal operator of necessity)
-- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – příbuzný vzorec (Milton-model, Modal operators (Milton Model))
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Klam modálního rozsahu](@/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md) – příbuzné heslo (Argumentační fauly: Formální klamy, Modal scope fallacy)
+- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – příbuzné heslo (Meta-model, Universal quantifier)
+- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – příbuzné heslo (Meta-model, Modal operator of necessity)
+- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – příbuzné heslo (Milton-model, Modal operators (Milton Model))
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
 
 **V kompendiu**
 
-- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – předchozí vzorec rodiny
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – předchozí heslo rodiny
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

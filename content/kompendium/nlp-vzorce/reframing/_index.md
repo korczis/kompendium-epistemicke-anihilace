@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-reframing"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Reframing a rámce", "Reframing and frames", "NLP"]
+keywords = ["Reframing a rámce", "Reframing and frames", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "reframing"
-nlp_code = "08"
-nlp_en = "Reframing and frames"
-nlp_size = 17
-nlp_members = ["reframing", "kontextovy-reframing", "obsahovy-reframing", "sestikrokovy-reframing", "ramec-souhlasu", "ramec-jako-by", "ramec-vysledku", "ramec-ekologie", "ramec-zpetneho-shrnuti", "kontrastni-ramec", "vyzva-k-relevanci", "otevreny-ramec", "ramec-dukazu", "predramcovani", "dodatecne-ramcovani", "deframing", "selhani-jako-zpetna-vazba-vzorec"]
-nlp_types = ["pattern"]
-nlp_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "cialdini-2009", "dilts-1999", "druckman-swets-1988", "ellis-1962", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1967", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "reframing"
+catalog_code = "08"
+catalog_en = "Reframing and frames"
+catalog_size = 17
+catalog_members = ["reframing", "kontextovy-reframing", "obsahovy-reframing", "sestikrokovy-reframing", "ramec-souhlasu", "ramec-jako-by", "ramec-vysledku", "ramec-ekologie", "ramec-zpetneho-shrnuti", "kontrastni-ramec", "vyzva-k-relevanci", "otevreny-ramec", "ramec-dukazu", "predramcovani", "dodatecne-ramcovani", "deframing", "selhani-jako-zpetna-vazba-vzorec"]
+catalog_types = ["pattern"]
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "cialdini-2009", "dilts-1999", "druckman-swets-1988", "ellis-1962", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1967", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Reframing a rámce
@@ -154,12 +156,12 @@ vlastními slovy v bezpečném vztahu (Herman 1992). Pro odborníky, kteří vzo
 používají, platí jednoduché pravidlo: nový rámec je návrh, který musí obstát před fakty i
 před souhlasem toho, koho se týká.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-08.01` | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) | Reframing | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-08.02` | [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) | Context reframing | vzorec | terapeutické i vlivové | střední |
 | `NLP-08.03` | [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) | Content (meaning) reframing | vzorec | terapeutické i vlivové | vysoké |
@@ -177,6 +179,67 @@ před souhlasem toho, koho se týká.
 | `NLP-08.15` | [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) | Post-framing | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-08.16` | [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) | De-framing | vzorec | terapeutické i vlivové | střední |
 | `NLP-08.17` | [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) | Failure into feedback | vzorec | terapeutické i vlivové | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Reframing a rámce"]
+  click F "@/kompendium/nlp-vzorce/reframing/_index.md"
+  n1["Reframing"]
+  n2["Kontextový reframing"]
+  n3["Významový reframing"]
+  n4["Šestikrokový reframing"]
+  n5["Rámec souhlasu"]
+  n6["Rámec „jako by“"]
+  n7["Rámec výsledku"]
+  n8["Rámec ekologie"]
+  n9["Rámec zpětného shrnutí"]
+  n10["Kontrastní rámec"]
+  n11["Výzva k relevanci"]
+  n12["Otevřený rámec"]
+  n13["Rámec důkazu"]
+  n14["Předrámcování"]
+  n15["Dodatečné rámcování"]
+  n16["Rozrámcování"]
+  n17["Přerámování selhání na zpětnou vazbu"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  F --> n5
+  F --> n6
+  F --> n7
+  F --> n8
+  F --> n9
+  F --> n10
+  n7 --> n11
+  F --> n12
+  n7 --> n13
+  F --> n14
+  F --> n15
+  F --> n16
+  n3 --> n17
+  click n1 "@/kompendium/nlp-vzorce/reframing/reframing.md"
+  click n2 "@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md"
+  click n3 "@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md"
+  click n4 "@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md"
+  click n5 "@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md"
+  click n6 "@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md"
+  click n7 "@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md"
+  click n8 "@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md"
+  click n9 "@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md"
+  click n10 "@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md"
+  click n11 "@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md"
+  click n12 "@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md"
+  click n13 "@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md"
+  click n14 "@/kompendium/nlp-vzorce/reframing/predramcovani.md"
+  click n15 "@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md"
+  click n16 "@/kompendium/nlp-vzorce/reframing/deframing.md"
+  click n17 "@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md"
+```
 
 ## Literatura
 
@@ -208,6 +271,6 @@ před souhlasem toho, koho se týká.
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – předchozí rodina katalogu
 - [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

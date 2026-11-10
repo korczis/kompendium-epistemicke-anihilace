@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Každé chování má pozitivní záměr", "Every behaviour has a positive intention", "pozitivní záměr", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Každé chování má pozitivní záměr", "Every behaviour has a positive intention", "pozitivní záměr", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.04"
-nlp_slug = "pozitivni-zamer-chovani"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Every behaviour has a positive intention"
-nlp_aliases = ["pozitivní záměr"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = ["elicitace-pozitivniho-zameru"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["clovek-neni-sve-chovani", "nejlepsi-dostupna-volba", "ekologie-zmeny", "predepsani-symptomu", "som-zamer", "kontextovy-reframing", "sestikrokovy-reframing", "vzorec-odpusteni", "uroven-chovani", "jadrova-transformace", "elicitace-pozitivniho-zameru", "ekologie-cile", "manipulativni-reframing-ve-vztazich"]
-nlp_related_declared = ["elicitace-pozitivniho-zameru", "sestikrokovy-reframing", "som-zamer", "clovek-neni-sve-chovani", "manipulativni-reframing-ve-vztazich", "jadrova-transformace"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_prev = "neni-selhani-jen-zpetna-vazba"
-nlp_next = "lide-maji-potrebne-zdroje"
-nlp_position = 4
-nlp_family_size = 21
-nlp_sources = ["andreas-andreas-1994", "bandler-grinder-1982", "haley-1973", "herman-1992", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "satir-1972", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1994", "bandler-grinder-1982", "oconnor-seymour-1990"]
-nlp_sources_roots = ["haley-1973", "satir-1972"]
-nlp_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.04"
+catalog_slug = "pozitivni-zamer-chovani"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Every behaviour has a positive intention"
+catalog_aliases = ["pozitivní záměr"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = ["elicitace-pozitivniho-zameru"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["clovek-neni-sve-chovani", "nejlepsi-dostupna-volba", "ekologie-zmeny", "predepsani-symptomu", "som-zamer", "kontextovy-reframing", "sestikrokovy-reframing", "vzorec-odpusteni", "uroven-chovani", "jadrova-transformace", "elicitace-pozitivniho-zameru", "ekologie-cile", "manipulativni-reframing-ve-vztazich"]
+catalog_related_declared = ["elicitace-pozitivniho-zameru", "sestikrokovy-reframing", "som-zamer", "clovek-neni-sve-chovani", "manipulativni-reframing-ve-vztazich", "jadrova-transformace"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_prev = "neni-selhani-jen-zpetna-vazba"
+catalog_next = "lide-maji-potrebne-zdroje"
+catalog_position = 4
+catalog_family_size = 21
+catalog_sources = ["andreas-andreas-1994", "bandler-grinder-1982", "haley-1973", "herman-1992", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "satir-1972", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1994", "bandler-grinder-1982", "oconnor-seymour-1990"]
+catalog_sources_roots = ["haley-1973", "satir-1972"]
+catalog_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Každé chování má pozitivní záměr
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Every behaviour has a positive intention |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ porozumění pachateli, pokud k němu vůbec má dojít (Herman 1992). Terapeut,
 pracuje, by ho měl omezovat na klientovo vlastní chování a nikdy ho nepoužívat k tomu, aby
 klient přijal ubližování od druhých jako projev dobré vůle.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -210,34 +213,34 @@ klient přijal ubližování od druhých jako projev dobré vůle.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – zvláštní případ tohoto vzorce
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – příbuzný vzorec (Předpoklady NLP, People are not their behaviour)
-- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzný vzorec (Předpoklady NLP, People make the best choice available to them)
-- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzný vzorec (Předpoklady NLP, Change must respect the whole system (ecology))
-- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – příbuzný vzorec (Ericksonovská hypnóza, Symptom prescription)
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzný vzorec (Sleight of Mouth, Intention)
-- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Context reframing)
-- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Six-step reframing)
-- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzný vzorec (Disociace, fobie a trauma, Forgiveness pattern)
-- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Behaviour level)
-- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – příbuzný vzorec (Práce s částmi, Core transformation)
-- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzný vzorec (Práce s částmi, Eliciting a part's positive intention)
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzný vzorec (Cíle a výsledky, Ecology of the outcome)
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzný vzorec (Vliv a zneužití NLP, Manipulative reframing in close relationships)
+- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – příbuzné heslo (Předpoklady NLP, People are not their behaviour)
+- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzné heslo (Předpoklady NLP, People make the best choice available to them)
+- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzné heslo (Předpoklady NLP, Change must respect the whole system (ecology))
+- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – příbuzné heslo (Ericksonovská hypnóza, Symptom prescription)
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzné heslo (Sleight of Mouth, Intention)
+- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzné heslo (Reframing a rámce, Context reframing)
+- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzné heslo (Reframing a rámce, Six-step reframing)
+- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzné heslo (Disociace, fobie a trauma, Forgiveness pattern)
+- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Behaviour level)
+- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – příbuzné heslo (Práce s částmi, Core transformation)
+- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzné heslo (Práce s částmi, Eliciting a part's positive intention)
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**
 
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – předchozí vzorec rodiny
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – předchozí heslo rodiny
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Štěpení já v manipulativních skupinách", "Splitting of the self in manipulative groups", "kultovní identita", "dvojí identita", "Práce s částmi", "NLP", "neurolingvistické programování"]
+keywords = ["Štěpení já v manipulativních skupinách", "Splitting of the self in manipulative groups", "kultovní identita", "dvojí identita", "Práce s částmi", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-15.09"
-nlp_slug = "stepeni-ja-v-manipulaci"
-nlp_family = "integrace-casti"
-nlp_family_code = "15"
-nlp_family_title = "Práce s částmi"
-nlp_family_en = "Parts work"
-nlp_part = "integrace-casti"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Splitting of the self in manipulative groups"
-nlp_aliases = ["kultovní identita", "dvojí identita"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["inkongruence", "integrace-casti", "sekvencni-inkongruence", "muzeum-starych-presvedceni", "presvedceni-o-identite", "nlp-v-sektach", "obrana-proti-vlivovym-vzorcum"]
-nlp_related_declared = ["integrace-casti", "nlp-v-sektach", "inkongruence", "sekvencni-inkongruence", "obrana-proti-vlivovym-vzorcum"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/case-studies/10-sektarske-vychazeni.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/case-studies/10-sektarske-vychazeni.md", "kompendium/nlp-vzorce/integrace-casti/_index.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
-nlp_prev = "integrace-polarit"
-nlp_next = ""
-nlp_position = 9
-nlp_family_size = 9
-nlp_sources = ["hassan-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = []
-nlp_sources_roots = []
-nlp_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/integrace-casti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-15.09"
+catalog_slug = "stepeni-ja-v-manipulaci"
+catalog_family = "integrace-casti"
+catalog_family_code = "15"
+catalog_family_title = "Práce s částmi"
+catalog_family_en = "Parts work"
+catalog_part = "integrace-casti"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Splitting of the self in manipulative groups"
+catalog_aliases = ["kultovní identita", "dvojí identita"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["inkongruence", "integrace-casti", "sekvencni-inkongruence", "muzeum-starych-presvedceni", "presvedceni-o-identite", "nlp-v-sektach", "obrana-proti-vlivovym-vzorcum"]
+catalog_related_declared = ["integrace-casti", "nlp-v-sektach", "inkongruence", "sekvencni-inkongruence", "obrana-proti-vlivovym-vzorcum"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/case-studies/10-sektarske-vychazeni.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/case-studies/10-sektarske-vychazeni.md", "kompendium/nlp-vzorce/integrace-casti/_index.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
+catalog_prev = "integrace-polarit"
+catalog_next = ""
+catalog_position = 9
+catalog_family_size = 9
+catalog_sources = ["hassan-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = []
+catalog_sources_roots = []
+catalog_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/integrace-casti.toml"
 +++
 
 # Štěpení já v manipulativních skupinách
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-15.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Splitting of the self in manipulative groups |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/integrace-casti.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -100,7 +103,7 @@ Pojem štěpení já v manipulativních skupinách stojí na kvalitativních zdr
 
 Obrana začíná u jazyka. Pokud se pochybnosti, kritika nebo touha odejít opakovaně přičítají „starému“, „nižšímu“ nebo „zraněnému“ já, je to signál, že rozhovor neposuzuje obsah pochybnosti, ale jejího domnělého původce. Je legitimní trvat na tom, aby se pochybnost posuzovala podle faktů, a na tom, že pochybnosti patří k vlastnímu já stejně jako oddanost. Druhou obranou je udržovat vztahy a zdroje informací mimo skupinu, protože právě ony nesou paměť původní identity a umožňují srovnání. Třetí obranou je všímat si změn vlastního slovníku: když člověk zjistí, že o sobě mluví slovy skupiny, je to vhodná chvíle k zastavení a k rozhovoru s někým zvenčí. Zotavení po odchodu se zaměřuje na obnovu souvislé identity. Bývalý člen potřebuje pochopit, že rozpolcenost je očekávaná, že návraty myšlení skupiny slábnou a že jeho dřívější já nebylo nečisté, ale bylo jeho vlastní (Singer a Lalich 1995). Herman popisuje zotavení jako postup od bezpečí přes zpracování ztrát ke znovunavázání vztahů a obnově vlastního příběhu (Herman 1992). Kompendium k tomu nabízí oporu v [post-cult protokolu](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md). Klinicky je důležité odlišit štěpení vzniklé v manipulativním prostředí od disociativních poruch, s čímž pomáhá kapitola o [diferenciální diagnostice](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -114,28 +117,28 @@ Obrana začíná u jazyka. Pokud se pochybnosti, kritika nebo touha odejít opak
 
 **Rodina a hierarchie**
 
-- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzný vzorec (Základní pojmy NLP, Incongruence)
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzný vzorec (Práce s částmi, Parts integration)
-- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzný vzorec (Práce s částmi, Sequential incongruence)
-- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzný vzorec (Přesvědčení, Museum of old beliefs)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzný vzorec (Vliv a zneužití NLP, Defence against influence patterns)
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzné heslo (Základní pojmy NLP, Incongruence)
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
+- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzné heslo (Práce s částmi, Sequential incongruence)
+- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzné heslo (Přesvědčení, Museum of old beliefs)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzné heslo (Vliv a zneužití NLP, Defence against influence patterns)
 
 **V kompendiu**
 
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 10: Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 10: Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

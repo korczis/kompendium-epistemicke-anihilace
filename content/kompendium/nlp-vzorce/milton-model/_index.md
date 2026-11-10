@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-milton-model"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Milton-model", "Milton Model", "NLP"]
+keywords = ["Milton-model", "Milton Model", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "milton-model"
-nlp_code = "04"
-nlp_en = "Milton Model"
-nlp_size = 30
-nlp_members = ["milton-model", "vlozene-prikazy", "vlozene-otazky", "analogove-znaceni", "konverzacni-postulaty", "pripojene-otazky", "truismy", "ano-sada", "citace", "poruseni-selekcnich-omezeni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "rozsahova-dvojznacnost", "interpunkcni-dvojznacnost", "umyslna-vagnost", "cteni-myslenek-milton", "ztraceny-performativ-milton", "spojky-a-implikovana-pricinnost", "komplexni-ekvivalence-milton", "univerzalni-kvantifikatory-milton", "modalni-operatory-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "iluze-volby", "negativni-prikazy", "pacing-aktualni-zkusenosti", "retezeni-sugesci", "srovnavaci-delece-milton", "presupozice-milton"]
-nlp_types = ["pattern"]
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grice-1975", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "heap-1988", "herman-1992", "kirsch-lynn-1995", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "norcross-2006", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "milton-model"
+catalog_code = "04"
+catalog_en = "Milton Model"
+catalog_size = 30
+catalog_members = ["milton-model", "vlozene-prikazy", "vlozene-otazky", "analogove-znaceni", "konverzacni-postulaty", "pripojene-otazky", "truismy", "ano-sada", "citace", "poruseni-selekcnich-omezeni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "rozsahova-dvojznacnost", "interpunkcni-dvojznacnost", "umyslna-vagnost", "cteni-myslenek-milton", "ztraceny-performativ-milton", "spojky-a-implikovana-pricinnost", "komplexni-ekvivalence-milton", "univerzalni-kvantifikatory-milton", "modalni-operatory-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "iluze-volby", "negativni-prikazy", "pacing-aktualni-zkusenosti", "retezeni-sugesci", "srovnavaci-delece-milton", "presupozice-milton"]
+catalog_types = ["pattern"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grice-1975", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "heap-1988", "herman-1992", "kirsch-lynn-1995", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "norcross-2006", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Milton-model
@@ -158,12 +160,12 @@ bylo skutečně řečeno, a obnova důvěry ve vlastní úsudek a vlastní pochy
 vztahu (Herman 1992). Na obecné úrovni na to navazuje oddíl kompendia o
 [obraně a kalibraci](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-04.01` | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) | Milton Model | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-04.02` | [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) | Embedded commands | vzorec | převážně vlivové | vysoké |
 | `NLP-04.03` | [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) | Embedded questions | vzorec | terapeutické i vlivové | střední |
@@ -194,6 +196,106 @@ vztahu (Herman 1992). Na obecné úrovni na to navazuje oddíl kompendia o
 | `NLP-04.28` | [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) | Linking suggestions | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-04.29` | [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) | Comparative deletion (Milton Model) | vzorec | terapeutické i vlivové | střední |
 | `NLP-04.30` | [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) | Presuppositions (Milton Model) | vzorec | terapeutické i vlivové | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Milton-model"]
+  click F "@/kompendium/nlp-vzorce/milton-model/_index.md"
+  n1["Milton-model"]
+  n2["Vložené příkazy"]
+  n3["Vložené otázky"]
+  n4["Analogové značení"]
+  n5["Konverzační postuláty"]
+  n6["Připojené otázky"]
+  n7["Truismy"]
+  n8["Řada souhlasů"]
+  n9["Citace"]
+  n10["Porušení selekčních omezení v Milton-modelu"]
+  n11["Fonologická dvojznačnost"]
+  n12["Syntaktická dvojznačnost"]
+  n13["Rozsahová dvojznačnost"]
+  n14["Interpunkční dvojznačnost"]
+  n15["Úmyslná vágnost"]
+  n16["Čtení myšlenek v Milton-modelu"]
+  n17["Ztracený performativ v Milton-modelu"]
+  n18["Spojky a implikovaná příčinnost"]
+  n19["Komplexní ekvivalence v Milton-modelu"]
+  n20["Univerzální kvantifikátory v Milton-modelu"]
+  n21["Modální operátory v Milton-modelu"]
+  n22["Nominalizace v Milton-modelu"]
+  n23["Nespecifikovaná slovesa v Milton-modelu"]
+  n24["Nespecifikovaný referenční index v Milton-modelu"]
+  n25["Iluze volby"]
+  n26["Záporné příkazy"]
+  n27["Pacing aktuální zkušenosti"]
+  n28["Řetězení sugescí"]
+  n29["Srovnávací vypuštění v Milton-modelu"]
+  n30["Presupozice v Milton-modelu"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  n1 --> n5
+  n1 --> n6
+  n1 --> n7
+  n1 --> n8
+  n1 --> n9
+  n1 --> n10
+  n1 --> n11
+  n1 --> n12
+  n1 --> n13
+  n1 --> n14
+  n1 --> n15
+  n1 --> n16
+  n1 --> n17
+  n1 --> n18
+  n1 --> n19
+  n1 --> n20
+  n1 --> n21
+  n1 --> n22
+  n1 --> n23
+  n1 --> n24
+  n1 --> n25
+  n1 --> n26
+  n1 --> n27
+  n1 --> n28
+  n1 --> n29
+  n1 --> n30
+  click n1 "@/kompendium/nlp-vzorce/milton-model/milton-model.md"
+  click n2 "@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md"
+  click n3 "@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md"
+  click n4 "@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md"
+  click n5 "@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md"
+  click n6 "@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md"
+  click n7 "@/kompendium/nlp-vzorce/milton-model/truismy.md"
+  click n8 "@/kompendium/nlp-vzorce/milton-model/ano-sada.md"
+  click n9 "@/kompendium/nlp-vzorce/milton-model/citace.md"
+  click n10 "@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md"
+  click n11 "@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md"
+  click n12 "@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md"
+  click n13 "@/kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md"
+  click n14 "@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md"
+  click n15 "@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md"
+  click n16 "@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md"
+  click n17 "@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md"
+  click n18 "@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md"
+  click n19 "@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md"
+  click n20 "@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md"
+  click n21 "@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md"
+  click n22 "@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md"
+  click n23 "@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md"
+  click n24 "@/kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton.md"
+  click n25 "@/kompendium/nlp-vzorce/milton-model/iluze-volby.md"
+  click n26 "@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md"
+  click n27 "@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md"
+  click n28 "@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md"
+  click n29 "@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md"
+  click n30 "@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md"
+```
 
 ## Literatura
 
@@ -227,6 +329,6 @@ vztahu (Herman 1992). Na obecné úrovni na to navazuje oddíl kompendia o
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – předchozí rodina katalogu
 - [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

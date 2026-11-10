@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Ericksonovská hypnóza", "Ericksonian hypnosis", "nepřímá hypnóza", "permisivní hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Ericksonovská hypnóza", "Ericksonian hypnosis", "nepřímá hypnóza", "permisivní hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.01"
-nlp_slug = "ericksonovska-hypnoza"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Ericksonian hypnosis"
-nlp_aliases = ["nepřímá hypnóza", "permisivní hypnóza"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["utilizace", "konfuzni-technika", "preruseni-vzorce", "levitace-ruky", "vnorene-smycky", "seeding", "posthypnoticka-sugesce", "vekova-regrese", "pseudoorientace-v-case", "muj-pritel-john", "technika-prolozeni", "vrstveni-realit", "terapeuticka-dvojna-vazba", "slozena-sugesce", "implikovane-direktivum", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "amnezie-sugesci", "konverzacni-hypnoza"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["trans-pojem", "milton-model", "utilizace", "konverzacni-hypnoza", "stav-dukazu-nlp", "koreny-nlp"]
-nlp_related_declared = ["milton-model", "utilizace", "trans-pojem", "konverzacni-hypnoza", "koreny-nlp", "stav-dukazu-nlp"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/01-predmluva/eticke-aspekty.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = ""
-nlp_next = "utilizace"
-nlp_position = 1
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "bateson-1972", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "rosen-1982", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
-nlp_sources_roots = ["bateson-1972", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "rosen-1982"]
-nlp_sources_critical = ["hassan-1988", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.01"
+catalog_slug = "ericksonovska-hypnoza"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Ericksonian hypnosis"
+catalog_aliases = ["nepřímá hypnóza", "permisivní hypnóza"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["utilizace", "konfuzni-technika", "preruseni-vzorce", "levitace-ruky", "vnorene-smycky", "seeding", "posthypnoticka-sugesce", "vekova-regrese", "pseudoorientace-v-case", "muj-pritel-john", "technika-prolozeni", "vrstveni-realit", "terapeuticka-dvojna-vazba", "slozena-sugesce", "implikovane-direktivum", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "amnezie-sugesci", "konverzacni-hypnoza"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["trans-pojem", "milton-model", "utilizace", "konverzacni-hypnoza", "stav-dukazu-nlp", "koreny-nlp"]
+catalog_related_declared = ["milton-model", "utilizace", "trans-pojem", "konverzacni-hypnoza", "koreny-nlp", "stav-dukazu-nlp"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/01-predmluva/eticke-aspekty.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = ""
+catalog_next = "utilizace"
+catalog_position = 1
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "bateson-1972", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "rosen-1982", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
+catalog_sources_roots = ["bateson-1972", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "rosen-1982"]
+catalog_sources_critical = ["hassan-1988", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
 +++
 
 # Ericksonovská hypnóza
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Ericksonian hypnosis |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -202,7 +205,7 @@ používají, by měli dokumentovat souhlas, vysvětlovat její povahu bez mysti
 uvědomovat si rizika sugesce pro paměť, na která upozorňuje odborná literatura o
 pseudovědeckých postupech v klinické psychologii (Lilienfeld, Lynn a Lohr 2015).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -226,48 +229,48 @@ pseudovědeckých postupech v klinické psychologii (Lilienfeld, Lynn a Lohr 201
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – zvláštní případ tohoto vzorce
-- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – zvláštní případ tohoto vzorce
-- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – zvláštní případ tohoto vzorce
-- [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – zvláštní případ tohoto vzorce
-- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – zvláštní případ tohoto vzorce
-- [Zasévání myšlenky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md) – zvláštní případ tohoto vzorce
-- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – zvláštní případ tohoto vzorce
-- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – zvláštní případ tohoto vzorce
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – zvláštní případ tohoto vzorce
-- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – zvláštní případ tohoto vzorce
-- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – zvláštní případ tohoto vzorce
-- [Vrstvení realit](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md) – zvláštní případ tohoto vzorce
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – zvláštní případ tohoto vzorce
-- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – zvláštní případ tohoto vzorce
-- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – zvláštní případ tohoto vzorce
-- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – zvláštní případ tohoto vzorce
-- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – zvláštní případ tohoto vzorce
-- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – zvláštní případ tohoto vzorce
-- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – zvláštní případ tohoto vzorce
-- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – zvláštní případ tohoto vzorce
-- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – zvláštní případ tohoto vzorce
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – zvláštní případ tohoto vzorce
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – zvláštní případ tohoto hesla
+- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – zvláštní případ tohoto hesla
+- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – zvláštní případ tohoto hesla
+- [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – zvláštní případ tohoto hesla
+- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – zvláštní případ tohoto hesla
+- [Zasévání myšlenky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md) – zvláštní případ tohoto hesla
+- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – zvláštní případ tohoto hesla
+- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – zvláštní případ tohoto hesla
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – zvláštní případ tohoto hesla
+- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – zvláštní případ tohoto hesla
+- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – zvláštní případ tohoto hesla
+- [Vrstvení realit](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md) – zvláštní případ tohoto hesla
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – zvláštní případ tohoto hesla
+- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – zvláštní případ tohoto hesla
+- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – zvláštní případ tohoto hesla
+- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – zvláštní případ tohoto hesla
+- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – zvláštní případ tohoto hesla
+- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – zvláštní případ tohoto hesla
+- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – zvláštní případ tohoto hesla
+- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – zvláštní případ tohoto hesla
+- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – zvláštní případ tohoto hesla
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
-- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, State of the evidence on NLP)
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, State of the evidence on NLP)
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

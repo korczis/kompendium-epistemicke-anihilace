@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Čtvrtá pozice", "Fourth position", "pozice my", "systémová pozice", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Čtvrtá pozice", "Fourth position", "pozice my", "systémová pozice", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.12"
-nlp_slug = "ctvrta-pozice"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Fourth position"
-nlp_aliases = ["pozice my", "systémová pozice"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "percepcni-pozice-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["percepcni-pozice-pojem"]
-nlp_related = ["percepcni-pozice-pojem", "uroven-poslani", "meta-zrcadlo", "prvni-pozice", "treti-pozice", "troji-popis", "disneyova-strategie", "nlp-v-sektach"]
-nlp_related_declared = ["treti-pozice", "prvni-pozice", "troji-popis", "uroven-poslani", "nlp-v-sektach"]
-nlp_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/05-kolektivni-rozmer/_index.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
-nlp_links_prose = ["kompendium/05-kolektivni-rozmer/_index.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
-nlp_prev = "treti-pozice"
-nlp_next = "troji-popis"
-nlp_position = 12
-nlp_family_size = 16
-nlp_sources = ["bateson-1972", "dilts-delozier-2000", "grinder-delozier-1987", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "satir-1972", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
-nlp_sources_roots = ["bateson-1972", "satir-1972"]
-nlp_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 3
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.12"
+catalog_slug = "ctvrta-pozice"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Fourth position"
+catalog_aliases = ["pozice my", "systémová pozice"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "percepcni-pozice-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["percepcni-pozice-pojem"]
+catalog_related = ["percepcni-pozice-pojem", "uroven-poslani", "meta-zrcadlo", "prvni-pozice", "treti-pozice", "troji-popis", "disneyova-strategie", "nlp-v-sektach"]
+catalog_related_declared = ["treti-pozice", "prvni-pozice", "troji-popis", "uroven-poslani", "nlp-v-sektach"]
+catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/05-kolektivni-rozmer/_index.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/05-kolektivni-rozmer/_index.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
+catalog_prev = "treti-pozice"
+catalog_next = "troji-popis"
+catalog_position = 12
+catalog_family_size = 16
+catalog_sources = ["bateson-1972", "dilts-delozier-2000", "grinder-delozier-1987", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "satir-1972", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
+catalog_sources_roots = ["bateson-1972", "satir-1972"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 3
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.b.toml"
 +++
 
 # Čtvrtá pozice
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Fourth position |
 | **Jiné názvy** | pozice my, systémová pozice |
-| **Obecnější vzorec** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
+| **Obecnější heslo** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ oddaností. Herman zdůrazňuje, že zotavení po dlouhodobé kontrole probíhá
 člověk přijímán bez podmínky loajality (Herman 1992). Teprve na tomto základě může pohled celku
 znovu sloužit jako rozšíření úvahy, a ne jako její náhrada.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,30 +216,30 @@ znovu sloužit jako rozšíření úvahy, a ne jako její náhrada.
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Spiritual (purpose) level)
-- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Meta-mirror)
-- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, First position)
-- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Third position)
-- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Triple description)
-- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Disney strategy)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Spiritual (purpose) level)
+- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzné heslo (Logické úrovně a percepční pozice, Meta-mirror)
+- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, First position)
+- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Third position)
+- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzné heslo (Logické úrovně a percepční pozice, Triple description)
+- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzné heslo (Logické úrovně a percepční pozice, Disney strategy)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
 
 **V kompendiu**
 
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – předchozí vzorec rodiny
-- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – předchozí heslo rodiny
+- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

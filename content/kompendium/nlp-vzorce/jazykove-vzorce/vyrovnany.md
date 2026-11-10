@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Vyrovnaný", "Leveller", "vyrovnaná komunikace", "kongruentní postoj", "leveling", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Vyrovnaný", "Leveller", "vyrovnaná komunikace", "kongruentní postoj", "leveling", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.10"
-nlp_slug = "vyrovnany"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Leveller"
-nlp_aliases = ["vyrovnaná komunikace", "kongruentní postoj", "leveling"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "kategorie-satirove"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kategorie-satirove"]
-nlp_related = ["meta-pozice", "kongruence", "smirovatel", "obvinovatel", "pocitac", "rozptylovac"]
-nlp_related_declared = ["kongruence", "smirovatel", "obvinovatel", "pocitac", "rozptylovac", "meta-pozice"]
-nlp_kompendium = ["kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "philosophy/boundary-ethics.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md", "kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md", "kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md", "kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "philosophy/boundary-ethics.md"]
-nlp_prev = "rozptylovac"
-nlp_next = "terapeuticka-metafora"
-nlp_position = 10
-nlp_family_size = 20
-nlp_sources = ["bateson-1956", "grinder-bandler-1976", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "satir-1972", "stark-2007", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["grinder-bandler-1976"]
-nlp_sources_roots = ["bateson-1956", "satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "stark-2007", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.10"
+catalog_slug = "vyrovnany"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Leveller"
+catalog_aliases = ["vyrovnaná komunikace", "kongruentní postoj", "leveling"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "kategorie-satirove"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kategorie-satirove"]
+catalog_related = ["meta-pozice", "kongruence", "smirovatel", "obvinovatel", "pocitac", "rozptylovac"]
+catalog_related_declared = ["kongruence", "smirovatel", "obvinovatel", "pocitac", "rozptylovac", "meta-pozice"]
+catalog_kompendium = ["kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "philosophy/boundary-ethics.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md", "kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md", "kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md", "kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "philosophy/boundary-ethics.md"]
+catalog_prev = "rozptylovac"
+catalog_next = "terapeuticka-metafora"
+catalog_position = 10
+catalog_family_size = 20
+catalog_sources = ["bateson-1956", "grinder-bandler-1976", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "satir-1972", "stark-2007", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["grinder-bandler-1976"]
+catalog_sources_roots = ["bateson-1956", "satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "stark-2007", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.toml"
 +++
 
 # Vyrovnaný
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Leveller |
 | **Jiné názvy** | vyrovnaná komunikace, kongruentní postoj, leveling |
-| **Obecnější vzorec** | [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) |
+| **Obecnější heslo** | [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -85,7 +88,7 @@ Teorie komunikace, se kterou Satirová sdílela výchozí předpoklady, rozlišu
 
 ## Struktura vzorce
 
-Vyrovnaný postoj má podobu, kterou lze popsat negativně i pozitivně. Negativně: chybí v něm sebepodceňování usmiřovatele, útok na osobu typický pro obviňovatele, citové odpojení počítače i odvádění pozornosti rozptylovače. Pozitivně: člověk mluví k věci, vyjadřuje vlastní pocity a potřeby v první osobě, uznává pocity a potřeby druhého a bere v úvahu okolnosti, ve kterých rozhovor probíhá. V pozdějším výkladu modelu Satirové se tento postoj popisuje jako jediný, který zároveň bere v úvahu sebe, druhého i situaci.
+Vyrovnaný postoj má podobu, kterou lze popsat negativně i pozitivně. Negativně: chybí v něm sebepodceňování usmiřovatele, [útok na osobu](@/kompendium/argumentacni-fauly/relevance/ad-hominem.md) typický pro obviňovatele, citové odpojení počítače i odvádění pozornosti rozptylovače. Pozitivně: člověk mluví k věci, vyjadřuje vlastní pocity a potřeby v první osobě, uznává pocity a potřeby druhého a bere v úvahu okolnosti, ve kterých rozhovor probíhá. V pozdějším výkladu modelu Satirové se tento postoj popisuje jako jediný, který zároveň bere v úvahu sebe, druhého i situaci.
 
 Vyrovnanost se týká vztahu mezi rovinami sdělení, ne jeho obsahu. Omluva může být vyrovnaná, pokud odpovídá skutečnému podílu a člověk ji myslí vážně; hněv může být vyrovnaný, pokud se vztahuje ke konkrétnímu jednání a není v něm útok na osobu. Satirová zdůrazňovala, že vyrovnaná odpověď se omlouvá za čin, ne za vlastní existenci (Satir 1972). Strukturně je pro vyrovnanost důležité i to, že nesouhlas druhé strany nepovažuje za ohrožení. Vyrovnaný člověk může slyšet „ne“, aniž by se stáhl, zaútočil, uzavřel se do pravidel nebo změnil téma.
 
@@ -113,7 +116,7 @@ Obranou proti zneužití vyrovnanosti je rozlišovat formu od nároku. Otevřeno
 
 V terapii je vyrovnaná komunikace spíše výsledkem než prostředkem. Člověk, který dlouho používal ochranné postoje, k ní dospívá postupně, jak se obnovuje jeho sebeúcta a jak zjišťuje, že vlastní pohled může vyjádřit bez ohrožení. Herman popisuje obnovu po dlouhodobém nátlaku jako postupné znovuzískávání vlastního hlasu ve vztazích, které jsou bezpečné (Herman 1992). Kompendium obecné zásady obrany a kalibrace shrnuje v oddílu [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -133,28 +136,28 @@ V terapii je vyrovnaná komunikace spíše výsledkem než prostředkem. Člově
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – příbuzný vzorec (Jazykové vzorce, Placater)
-- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – příbuzný vzorec (Jazykové vzorce, Blamer)
-- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – příbuzný vzorec (Jazykové vzorce, Computer (super-reasonable))
-- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – příbuzný vzorec (Jazykové vzorce, Distracter)
+- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzné heslo (Základní pojmy NLP, Meta-position)
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – příbuzné heslo (Jazykové vzorce, Placater)
+- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – příbuzné heslo (Jazykové vzorce, Blamer)
+- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – příbuzné heslo (Jazykové vzorce, Computer (super-reasonable))
+- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – příbuzné heslo (Jazykové vzorce, Distracter)
 
 **V kompendiu**
 
-- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – předchozí vzorec rodiny
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – předchozí heslo rodiny
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

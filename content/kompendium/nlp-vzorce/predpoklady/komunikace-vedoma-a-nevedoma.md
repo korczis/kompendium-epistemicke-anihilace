@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Komunikace probíhá vědomě i nevědomě", "Communication is both conscious and unconscious", "dvouúrovňová komunikace", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Komunikace probíhá vědomě i nevědomě", "Communication is both conscious and unconscious", "dvouúrovňová komunikace", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.18"
-nlp_slug = "komunikace-vedoma-a-nevedoma"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Communication is both conscious and unconscious"
-nlp_aliases = ["dvouúrovňová komunikace"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["nelze-nekomunikovat", "trans-pojem", "milton-model", "vlozene-prikazy", "vedome-nevedoma-dvojna-vazba", "konverzacni-hypnoza"]
-nlp_related_declared = ["nelze-nekomunikovat", "konverzacni-hypnoza", "vlozene-prikazy", "vedome-nevedoma-dvojna-vazba", "milton-model", "trans-pojem"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md"]
-nlp_prev = "zkusenost-je-kodovana-smysly"
-nlp_next = "ekologie-zmeny"
-nlp_position = 18
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1975b", "bateson-1972", "chartrand-bargh-1999", "cialdini-2009", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
-nlp_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "haley-1973"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.18"
+catalog_slug = "komunikace-vedoma-a-nevedoma"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Communication is both conscious and unconscious"
+catalog_aliases = ["dvouúrovňová komunikace"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["nelze-nekomunikovat", "trans-pojem", "milton-model", "vlozene-prikazy", "vedome-nevedoma-dvojna-vazba", "konverzacni-hypnoza"]
+catalog_related_declared = ["nelze-nekomunikovat", "konverzacni-hypnoza", "vlozene-prikazy", "vedome-nevedoma-dvojna-vazba", "milton-model", "trans-pojem"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md"]
+catalog_prev = "zkusenost-je-kodovana-smysly"
+catalog_next = "ekologie-zmeny"
+catalog_position = 18
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1975b", "bateson-1972", "chartrand-bargh-1999", "cialdini-2009", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
+catalog_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Komunikace probíhá vědomě i nevědomě
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.18` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Communication is both conscious and unconscious |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ popisuje, jak pomáhá pochopit, že rozštěpení na „pravé“ a „falešn�
 skupinou, a že pochybnosti, které skupina potlačovala, byly často zdravou reakcí (Hassan
 1988; Singer a Lalich 1995).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,27 +224,27 @@ skupinou, a že pochybnosti, které skupina potlačovala, byly často zdravou re
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzný vzorec (Předpoklady NLP, One cannot not communicate)
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Conscious–unconscious double bind)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzné heslo (Předpoklady NLP, One cannot not communicate)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Conscious–unconscious double bind)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – předchozí vzorec rodiny
-- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – předchozí heslo rodiny
+- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

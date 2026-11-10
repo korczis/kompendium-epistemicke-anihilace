@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Model TOTE", "TOTE model", "Test-Operate-Test-Exit", "smyčka test–operace–test–výstup", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Model TOTE", "TOTE model", "Test-Operate-Test-Exit", "smyčka test–operace–test–výstup", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.19"
-nlp_slug = "tote-model"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "TOTE model"
-nlp_aliases = ["Test-Operate-Test-Exit", "smyčka test–operace–test–výstup"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["neni-selhani-jen-zpetna-vazba", "zakon-pozadovane-variety", "kdyz-to-nefunguje-udelej-neco-jineho", "zkusenost-ma-strukturu", "kalibrace", "strategie-pojem", "selhani-jako-zpetna-vazba-vzorec", "uroven-schopnosti", "model-score", "elicitace-strategie", "rozhodovaci-strategie", "strategie-geniality", "generator-noveho-chovani", "smyckove-strategie", "dobre-formulovany-vysledek", "dukazni-procedura"]
-nlp_related_declared = ["strategie-pojem", "smyckove-strategie", "elicitace-strategie", "kalibrace", "dobre-formulovany-vysledek"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_prev = "strategie-pojem"
-nlp_next = "logicke-urovne-pojem"
-nlp_position = 19
-nlp_family_size = 42
-nlp_sources = ["bateson-1972", "beck-1976", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "hassan-1988", "lifton-1961", "miller-galanter-pribram-1960", "roderique-davies-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "dilts-1980"]
-nlp_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "hassan-1988", "lifton-1961", "roderique-davies-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.19"
+catalog_slug = "tote-model"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "TOTE model"
+catalog_aliases = ["Test-Operate-Test-Exit", "smyčka test–operace–test–výstup"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["neni-selhani-jen-zpetna-vazba", "zakon-pozadovane-variety", "kdyz-to-nefunguje-udelej-neco-jineho", "zkusenost-ma-strukturu", "kalibrace", "strategie-pojem", "selhani-jako-zpetna-vazba-vzorec", "uroven-schopnosti", "model-score", "elicitace-strategie", "rozhodovaci-strategie", "strategie-geniality", "generator-noveho-chovani", "smyckove-strategie", "dobre-formulovany-vysledek", "dukazni-procedura"]
+catalog_related_declared = ["strategie-pojem", "smyckove-strategie", "elicitace-strategie", "kalibrace", "dobre-formulovany-vysledek"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_prev = "strategie-pojem"
+catalog_next = "logicke-urovne-pojem"
+catalog_position = 19
+catalog_family_size = 42
+catalog_sources = ["bateson-1972", "beck-1976", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "hassan-1988", "lifton-1961", "miller-galanter-pribram-1960", "roderique-davies-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980"]
+catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "hassan-1988", "lifton-1961", "roderique-davies-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Model TOTE
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | TOTE model |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -102,7 +105,7 @@ Model TOTE je historicky významný kognitivní model a v obecné rovině, jako 
 
 První obranou je přeložit žargon do běžné řeči. Pokud někdo označí vaše pochybnosti za smyčku bez výstupu, je užitečné zeptat se: o čem přesně pochybuji, a mám k tomu dobré důvody? Pochybnost je v jazyce modelu test, který nebyl splněn, a to může znamenat, že něco skutečně není v pořádku. Druhou obranou je převzít kritérium. U úkolů a nároků, které nikdy nekončí, je rozumné stanovit si vlastní, konkrétní a dosažitelné měřítko toho, co je dost, a nenechat ho určovat někoho, kdo z vaší nekonečné snahy těží. Třetí obranou je skepse vůči vědeckému lesku: odkaz na kognitivní vědu nebo kybernetiku nedokládá účinnost techniky, která se na ně odvolává (Roderique-Davies 2009). U lidí, kteří odešli z prostředí s nedosažitelnými ideály, bývá zotavení spojeno s přetrvávající vinou a s pocitem, že nikdy nejsou dost dobří. Terapie v takových případech pracuje s rozpoznáním, že kritérium bylo stanoveno tak, aby splnit nešlo, a s postupnou obnovou vlastních měřítek; literatura o odchodu z kultovních skupin popisuje tento proces jako součást obnovy samostatného úsudku (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,36 +124,36 @@ První obranou je přeložit žargon do běžné řeči. Pokud někdo označí v
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzný vzorec (Předpoklady NLP, There is no failure, only feedback)
-- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzný vzorec (Předpoklady NLP, The law of requisite variety)
-- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzný vzorec (Předpoklady NLP, If it is not working, do something else)
-- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzný vzorec (Předpoklady NLP, Experience has a structure)
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzný vzorec (Reframing a rámce, Failure into feedback)
-- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Capability level)
-- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzný vzorec (Logické úrovně a percepční pozice, SCORE model)
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy elicitation)
-- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Decision strategy)
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzný vzorec (Strategie a modelování, Strategies of genius)
-- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzný vzorec (Strategie a modelování, New behaviour generator)
-- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – příbuzný vzorec (Strategie a modelování, Looping strategies)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzný vzorec (Cíle a výsledky, Evidence procedure)
+- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzné heslo (Předpoklady NLP, There is no failure, only feedback)
+- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzné heslo (Předpoklady NLP, The law of requisite variety)
+- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzné heslo (Předpoklady NLP, If it is not working, do something else)
+- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzné heslo (Předpoklady NLP, Experience has a structure)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzné heslo (Reframing a rámce, Failure into feedback)
+- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – příbuzné heslo (Logické úrovně a percepční pozice, Capability level)
+- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzné heslo (Logické úrovně a percepční pozice, SCORE model)
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy elicitation)
+- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Decision strategy)
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzné heslo (Strategie a modelování, Strategies of genius)
+- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzné heslo (Strategie a modelování, New behaviour generator)
+- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – příbuzné heslo (Strategie a modelování, Looping strategies)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzné heslo (Cíle a výsledky, Evidence procedure)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – předchozí vzorec rodiny
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – předchozí heslo rodiny
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Dobře formulovaný výsledek", "Well-formed outcome", "podmínky dobře formulovaného cíle", "well-formed outcome", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Dobře formulovaný výsledek", "Well-formed outcome", "podmínky dobře formulovaného cíle", "well-formed outcome", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.01"
-nlp_slug = "dobre-formulovany-vysledek"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Well-formed outcome"
-nlp_aliases = ["podmínky dobře formulovaného cíle", "well-formed outcome"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["pozitivni-formulace-cile", "smyslove-dukazy-cile", "cil-pod-vlastni-kontrolou", "kontext-cile", "zdroje-cile", "ekologie-cile", "otazky-vysledku"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["tote-model", "ekologicka-kontrola", "ramec-vysledku", "vlozeni-budouciho-cile", "model-score", "audit-presvedceni", "otazky-vysledku", "od-problemu-k-vysledku", "nlp-v-koucinku"]
-nlp_related_declared = ["ramec-vysledku", "ekologicka-kontrola", "tote-model", "nlp-v-koucinku", "otazky-vysledku", "od-problemu-k-vysledku"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md", "kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md", "kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md", "kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md", "kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md", "kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md", "kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = ""
-nlp_next = "pozitivni-formulace-cile"
-nlp_position = 1
-nlp_family_size = 10
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "cameron-bandler-1978", "chomsky-1965", "cialdini-2009", "dilts-delozier-2000", "hassan-1988", "mcguire-1964", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "cameron-bandler-1978", "dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = ["chomsky-1965", "miller-galanter-pribram-1960", "watzlawick-1974"]
-nlp_sources_critical = ["cialdini-2009", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.01"
+catalog_slug = "dobre-formulovany-vysledek"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Well-formed outcome"
+catalog_aliases = ["podmínky dobře formulovaného cíle", "well-formed outcome"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["pozitivni-formulace-cile", "smyslove-dukazy-cile", "cil-pod-vlastni-kontrolou", "kontext-cile", "zdroje-cile", "ekologie-cile", "otazky-vysledku"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["tote-model", "ekologicka-kontrola", "ramec-vysledku", "vlozeni-budouciho-cile", "model-score", "audit-presvedceni", "otazky-vysledku", "od-problemu-k-vysledku", "nlp-v-koucinku"]
+catalog_related_declared = ["ramec-vysledku", "ekologicka-kontrola", "tote-model", "nlp-v-koucinku", "otazky-vysledku", "od-problemu-k-vysledku"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md", "kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md", "kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md", "kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md", "kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md", "kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md", "kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = ""
+catalog_next = "pozitivni-formulace-cile"
+catalog_position = 1
+catalog_family_size = 10
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "cameron-bandler-1978", "chomsky-1965", "cialdini-2009", "dilts-delozier-2000", "hassan-1988", "mcguire-1964", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "cameron-bandler-1978", "dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = ["chomsky-1965", "miller-galanter-pribram-1960", "watzlawick-1974"]
+catalog_sources_critical = ["cialdini-2009", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Dobře formulovaný výsledek
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Well-formed outcome |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ znovunalezení vlastních měřítek úspěchu (Hassan 1988). Odborník, který 
 by je měl uplatňovat i na vlastní nabídku: zda je jeho cíl ve vztahu s klientem vyslovený,
 ověřitelný a slučitelný se zájmem klienta.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,36 +223,36 @@ ověřitelný a slučitelný se zájmem klienta.
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – zvláštní případ tohoto vzorce
-- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – zvláštní případ tohoto vzorce
-- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – zvláštní případ tohoto vzorce
-- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – zvláštní případ tohoto vzorce
-- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – zvláštní případ tohoto vzorce
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – zvláštní případ tohoto vzorce
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – zvláštní případ tohoto vzorce
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – zvláštní případ tohoto hesla
+- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – zvláštní případ tohoto hesla
+- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – zvláštní případ tohoto hesla
+- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – zvláštní případ tohoto hesla
+- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – zvláštní případ tohoto hesla
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – zvláštní případ tohoto hesla
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzný vzorec (Časová osa, Placing a goal in the future)
-- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzný vzorec (Logické úrovně a percepční pozice, SCORE model)
-- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief audit)
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Outcome questions)
-- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Problem to outcome)
-- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in coaching)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzné heslo (Časová osa, Placing a goal in the future)
+- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzné heslo (Logické úrovně a percepční pozice, SCORE model)
+- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief audit)
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzné heslo (Cíle a výsledky, Outcome questions)
+- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzné heslo (Cíle a výsledky, Problem to outcome)
+- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in coaching)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

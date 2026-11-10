@@ -1,0 +1,227 @@
+# Rodina AF-01: Formální klamy, část b (AF-01.08 až AF-01.14). Pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py. Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "AF-01.08"
+slug = "existencni-klam"
+type = "formal"
+cs = "Existenční klam"
+en = "Existential fallacy"
+aliases = ["klam existenčního předpokladu", "neoprávněný existenční import"]
+use = "chyba"
+risk = "nizke"
+broader = "formalni-klam"
+related = ["vylucujici-premisy", "nedovoleny-mensi-termin", "ctyri-terminy", "existencni-presupozice", "zamena-kvantifikatoru"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/kapitola-1.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Každý, kdo porušil interní směrnici, bude kázeňsky potrestán. Kdo porušil směrnici, bude potrestán. Z toho je jasné, že někteří zaměstnanci směrnici porušili."
+context = "Vedoucí oddělení na poradě shrnuje výsledek interního šetření, které žádné porušení nezjistilo."
+benign = false
+marker = "Ze dvou obecných pravidel o tom, co platí pro každého porušitele, se vyvozuje, že nějaký porušitel existuje, ačkoli to žádná premisa netvrdí."
+response = "Oddělit pravidlo od faktu: obecná věta o porušitelích platí i tehdy, když žádný není. Existenci porušení musí doložit samostatné zjištění."
+
+[[pattern.trainer]]
+utterance = "Šetření zjistilo dva případy porušení směrnice. Každý, kdo směrnici porušil, bude kázeňsky řešen. Proto budou kázeňsky řešeni nejméně dva zaměstnanci."
+context = "Personalista vysvětluje odborové organizaci další postup po uzavřeném šetření."
+benign = true
+marker = "Existence členů třídy je doložena samostatnou premisou o zjištěných případech, takže částečný závěr má oporu."
+response = "Úsudek je platný: obecné pravidlo se uplatňuje na třídu, o jejíchž členech existuje samostatné zjištění."
+
+[[pattern]]
+id = "AF-01.09"
+slug = "potvrzeni-disjunktu"
+type = "formal"
+cs = "Potvrzení disjunktu"
+en = "Affirming a disjunct"
+aliases = ["klam alternativy", "chybný disjunktivní sylogismus"]
+use = "dvoji"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["falesne-dilema", "presupozice-nebo", "iluze-volby", "jedina-pricina", "popreni-predchudce"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+  "kompendium/forensic-legal/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Bolesti na hrudi mají buď psychický, nebo tělesný původ. U pacientky je doložená úzkostná porucha, takže tělesnou příčinu můžeme pustit z hlavy."
+context = "Lékař na příjmu probírá s kolegou pacientku se známou psychiatrickou diagnózou."
+benign = false
+marker = "Potvrzení jedné možnosti v disjunkci se bere jako vyloučení druhé, přestože obě příčiny mohou působit současně."
+response = "Spojka „nebo“ tu možnosti nevylučuje: doložená úzkost nevyvrací tělesnou příčinu a ta se musí vyšetřit samostatně."
+
+[[pattern.trainer]]
+utterance = "Smlouva připouští jen jeden způsob ukončení, buď výpovědí, nebo dohodou, a obojí současně vylučuje. Nájem skončil dohodou, takže výpověď podána nebyla."
+context = "Advokátka vysvětluje klientovi, proč se spor nemůže týkat výpovědní lhůty."
+benign = true
+marker = "Výlučnost obou možností je výslovně stanovena v premise, takže potvrzení jedné oprávněně vylučuje druhou."
+response = "Úsudek je platný, protože výlučná disjunkce je doložena textem smlouvy, ne jen předpokládána."
+
+[[pattern]]
+id = "AF-01.10"
+slug = "vylucujici-premisy"
+type = "formal"
+cs = "Vylučující premisy"
+en = "Exclusive premises"
+aliases = ["dvě záporné premisy", "klam záporných premis"]
+use = "chyba"
+risk = "nizke"
+broader = "formalni-klam"
+related = ["nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "existencni-klam", "ctyri-terminy", "odvolani-na-nevedomost"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/03-zakladni-kategorie/kapitola-1.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Obžalovaný v době činu nebyl v kanceláři a pachatel v kanceláři také nebyl, protože vnikl do skladu. Obžalovaný tedy pachatelem být nemůže."
+context = "Obhájce v závěrečné řeči shrnuje, co podle něj vyplývá z kamerových záznamů."
+benign = false
+marker = "Obě premisy jsou záporné: říkají jen, kde obžalovaný a pachatel nebyli, a o jejich vzájemném vztahu tak nevyplývá nic."
+response = "Ze dvou vyloučení nelze vyvodit třetí. Rozhodující je, zda obžalovaný mohl být ve skladu, a to musí doložit jiný důkaz."
+
+[[pattern.trainer]]
+utterance = "Pachatel byl v době činu ve skladu. Obžalovaný v té době ve skladu nebyl, jak ukazuje záznam z jiného města. Obžalovaný tedy pachatelem není."
+context = "Soudkyně zdůvodňuje, proč považuje alibi za prokázané."
+benign = true
+marker = "Jedna premisa je kladná a určuje, kde pachatel byl; teprve díky ní záporná premisa o obžalovaném vede k závěru."
+response = "Platný úsudek se střední podmínkou „být ve skladu“, kterou jedna premisa přisuzuje a druhá upírá."
+
+[[pattern]]
+id = "AF-01.11"
+slug = "zamena-kvantifikatoru"
+type = "formal"
+cs = "Záměna kvantifikátorů"
+en = "Quantifier shift"
+aliases = ["záměna pořadí kvantifikátorů", "klam posunu kvantifikátoru"]
+use = "dvoji"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["univerzalni-kvantifikator", "rozsahova-dvojznacnost", "klam-skladani", "klam-modalniho-rozsahu", "texasky-strelec"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Za každou z posledních krizí někdo stál a měl z ní prospěch. Je tedy zřejmé, že existuje skupina, která řídí všechny krize."
+context = "Komentátor ve videu shrnuje sérii ekonomických a zdravotních krizí posledních let."
+benign = false
+marker = "Z tvrzení, že každá krize měla nějakého původce, se přechází k tvrzení, že jeden původce stojí za všemi krizemi."
+response = "Pořadí „každý – nějaký“ nelze obrátit: různí původci různých krizí nedokládají jednoho společného. Ten by musel být doložen zvlášť."
+
+[[pattern.trainer]]
+utterance = "Každý vzorek z šarže prošel stejnou plnicí linkou číslo tři a všechny vykazují stejnou kontaminaci. Prověříme proto právě tuto linku."
+context = "Vedoucí kontroly kvality hledá zdroj vady léčivého přípravku."
+benign = true
+marker = "Společný prvek všech případů je doložen přímo v premise (jedna konkrétní linka), ne vyvozen z toho, že každý případ měl nějaký zdroj."
+response = "Úsudek je oprávněný: tvrzení „existuje linka společná všem vzorkům“ je zjištěno, ne odvozeno záměnou kvantifikátorů."
+
+[[pattern]]
+id = "AF-01.12"
+slug = "klam-modalniho-rozsahu"
+type = "formal"
+cs = "Klam modálního rozsahu"
+en = "Modal scope fallacy"
+aliases = ["záměna nutnosti důsledku a nutnosti následku", "modální klam"]
+use = "dvoji"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["modalni-operator-nutnosti", "modalni-operator-moznosti", "zamena-kvantifikatoru", "rozsahova-dvojznacnost", "magicke-mysleni"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
+  "kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md",
+  "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jestliže to vím, pak je to pravda, to snad uznáš. A já to vím. Takže to jinak být nemohlo a nemá smysl se o tom dál bavit."
+context = "Partner ukončuje rozhovor o tom, co se odehrálo při včerejší hádce."
+benign = false
+marker = "Nutnost spojení mezi věděním a pravdou se přenáší na samotný obsah: z „nutně, když vím p, pak p“ se dělá „p je nutně pravda“."
+response = "Nutná je jen vazba mezi skutečným věděním a pravdou; zda mluvčí skutečně ví, je otevřená otázka, kterou lze ověřovat."
+
+[[pattern.trainer]]
+utterance = "Nutně platí jen tohle: konala-li se zkouška ve čtvrtek, nekonala se v pátek. Neříkám tím, že musela být ve čtvrtek; termín se dal klidně přesunout."
+context = "Studijní referentka vysvětluje studentovi, proč nemůže uplatnit páteční omluvenku."
+benign = true
+marker = "Mluvčí výslovně drží nutnost jen u vztahu mezi oběma tvrzeními a odmítá ji přenést na samotný termín zkoušky."
+response = "Správné rozlišení rozsahu: nutné je spojení, ne jednotlivá událost, která mohla proběhnout jinak."
+
+[[pattern]]
+id = "AF-01.13"
+slug = "klam-maskovaneho-muze"
+type = "formal"
+cs = "Klam maskovaného muže"
+en = "Masked-man fallacy"
+aliases = ["intenzionální klam", "chybné užití zákona totožnosti"]
+use = "chyba"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["ekvivokace", "nespecifikovany-referencni-index", "odvolani-na-nevedomost", "argument-z-neuveritelnosti", "klam-modalniho-rozsahu"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Svědkyně souseda z vedlejšího bytu dobře zná a za násilníka by ho nikdy neoznačila. Muže z nahrávky ale za násilníka označila. Nemůže to tedy být soused."
+context = "Obhajoba zpochybňuje identifikaci pachatele z nekvalitního videozáznamu."
+benign = false
+marker = "Z toho, co si svědkyně myslí o osobě pod jedním popisem a pod druhým, se vyvozuje, že jde o dvě různé osoby."
+response = "Postoj svědkyně závisí na popisu, pod kterým osobu zná; totožnost musí potvrdit nebo vyloučit nezávislé důkazy."
+
+[[pattern.trainer]]
+utterance = "Soused měl v době činu sádru na pravé ruce. Muž na nahrávce oběma rukama zvedá těžkou bednu. Soused to tedy nejspíš nebyl."
+context = "Vyšetřovatel porovnává lékařskou zprávu se záznamem z kamery."
+benign = true
+marker = "Odlišnost se opírá o vlastnost samotných osob, ne o to, co si o nich kdo myslí, takže zákon totožnosti se uplatňuje oprávněně."
+response = "Platné užití: má-li jedna osoba vlastnost, kterou druhá nemá, nejde o tutéž osobu; zbývá ověřit spolehlivost obou údajů."
+
+[[pattern]]
+id = "AF-01.14"
+slug = "klam-klamu"
+type = "formal"
+cs = "Klam klamu"
+en = "Argument from fallacy"
+aliases = ["argumentum ad logicam", "klam z klamu"]
+use = "dvoji"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["slameny-panak", "kontrola-tonu", "bayesovske-pojeti-klamu", "pravidlo-uzavreni", "motivovane-uvazovani", "odvolani-na-nevedomost"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/06-obrana/_index.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten tvůj argument je klasický útok na autoritu, to je učebnicový klam. Takže pravdu nemáš a lék je bezpečný, jak tvrdí výrobce."
+context = "Diskuse pod článkem o vedlejších účincích nového léku."
+benign = false
+marker = "Z toho, že argument pro tvrzení je vadný, se vyvozuje, že tvrzení je nepravdivé, a navíc že platí jeho opak."
+response = "Vadný argument jen nic nedokazuje. Bezpečnost léku je samostatná otázka, kterou rozhodují data o účincích, ne kvalita jedné námitky."
+
+[[pattern.trainer]]
+utterance = "Tvůj argument pro zdražení je vadný, protože z jednoho dražšího měsíce vyvozuješ trend. Neznamená to, že ceny nerostou; jen to z tohohle neplyne."
+context = "Ekonomka v redakční poradě reaguje na návrh titulku o zdražování."
+benign = true
+marker = "Kritika míří na spojení premis se závěrem a výslovně ponechává otázku pravdivosti závěru otevřenou."
+response = "Správné užití kritiky: vadnost argumentu se odliší od nepravdivosti závěru, o kterém rozhodnou další data."

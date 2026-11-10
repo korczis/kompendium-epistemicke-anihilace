@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kontextový reframing", "Context reframing", "přerámování kontextu", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Kontextový reframing", "Context reframing", "přerámování kontextu", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.02"
-nlp_slug = "kontextovy-reframing"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Context reframing"
-nlp_aliases = ["přerámování kontextu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "reframing"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reframing"]
-nlp_related = ["pozitivni-zamer-chovani", "som-model-sveta", "som-zmena-velikosti-ramce", "obsahovy-reframing", "uroven-prostredi", "kontext-cile", "manipulativni-reframing-ve-vztazich"]
-nlp_related_declared = ["obsahovy-reframing", "kontext-cile", "pozitivni-zamer-chovani", "manipulativni-reframing-ve-vztazich", "som-model-sveta"]
-nlp_kompendium = ["kompendium/techniques/ea-2-3-2-context-collapse.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/techniques/ea-2-3-2-context-collapse.md"]
-nlp_prev = "reframing"
-nlp_next = "obsahovy-reframing"
-nlp_position = 2
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "levinson-1983", "lifton-1961", "oconnor-seymour-1990", "petty-cacioppo-1986", "satir-1972", "stark-2007", "tversky-kahneman-1981", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "levinson-1983", "satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "lifton-1961", "petty-cacioppo-1986", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.02"
+catalog_slug = "kontextovy-reframing"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Context reframing"
+catalog_aliases = ["přerámování kontextu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "reframing"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reframing"]
+catalog_related = ["vytrzeni-z-kontextu", "pozitivni-zamer-chovani", "som-model-sveta", "som-zmena-velikosti-ramce", "obsahovy-reframing", "uroven-prostredi", "kontext-cile", "manipulativni-reframing-ve-vztazich"]
+catalog_related_declared = ["obsahovy-reframing", "kontext-cile", "pozitivni-zamer-chovani", "manipulativni-reframing-ve-vztazich", "som-model-sveta"]
+catalog_kompendium = ["kompendium/techniques/ea-2-3-2-context-collapse.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/techniques/ea-2-3-2-context-collapse.md"]
+catalog_prev = "reframing"
+catalog_next = "obsahovy-reframing"
+catalog_position = 2
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "levinson-1983", "lifton-1961", "oconnor-seymour-1990", "petty-cacioppo-1986", "satir-1972", "stark-2007", "tversky-kahneman-1981", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "levinson-1983", "satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "lifton-1961", "petty-cacioppo-1986", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.toml"
 +++
 
 # Kontextový reframing
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Context reframing |
 | **Jiné názvy** | přerámování kontextu |
-| **Obecnější vzorec** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
+| **Obecnější heslo** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -192,7 +195,7 @@ na ostatní. Kladná odpověď na první otázku nijak neodpovídá na druhou. K
 odděleně, chrání klienta před tím, aby z nového výkladu vyvodil, že jeho obtíž nebo škoda,
 kterou utrpěl, byla jen nedorozuměním o kontextu (Beck 1976).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,29 +220,30 @@ kterou utrpěl, byla jen nedorozuměním o kontextu (Beck 1976).
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzný vzorec (Sleight of Mouth, Model of the world)
-- [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – příbuzný vzorec (Sleight of Mouth, Change frame size)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Environment level)
-- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – příbuzný vzorec (Cíle a výsledky, Context of the outcome)
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzný vzorec (Vliv a zneužití NLP, Manipulative reframing in close relationships)
+- [Vytržení z kontextu](@/kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Quoting out of context)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzné heslo (Sleight of Mouth, Model of the world)
+- [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – příbuzné heslo (Sleight of Mouth, Change frame size)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – příbuzné heslo (Logické úrovně a percepční pozice, Environment level)
+- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – příbuzné heslo (Cíle a výsledky, Context of the outcome)
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**
 
-- [EA-2.3.2 Kolaps kontextu (context collapse)](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.3.2 Kolaps kontextu (context collapse)](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – předchozí vzorec rodiny
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – předchozí heslo rodiny
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

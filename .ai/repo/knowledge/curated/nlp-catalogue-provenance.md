@@ -33,7 +33,7 @@ Co z toho plyne pro další práci:
 - Pisatelé (agenti) systematicky zmírňovali přiřazení, kterými si nebyli jistí: tvrzení bez
   jistého zdroje stojí v textu obecně a bez citace, místo aby se zdroj dotvořil. Jejich
   hlášení uváděla konkrétní přiřazení „ke kontrole“; ta jsou první na řadě při recenzi.
-- Bibliografie `data/nlp/_sources.toml` je uzavřená: dílo, které v ní není (Ashby, Wegner,
+- Bibliografie `data/sources.toml` je uzavřená: dílo, které v ní není (Ashby, Wegner,
   Mind-Lines, Erickson's papers), se zmiňuje jen v textu bez citace.
 - Rozdělení rodin na části (`<rodina>.<část>.toml`) a přepínač `--part` umožnily psát
   paralelně bez kolizí; generátor zapisuje jen soubory dané části.

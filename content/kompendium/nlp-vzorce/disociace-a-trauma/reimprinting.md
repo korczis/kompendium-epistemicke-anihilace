@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Reimprinting", "Re-imprinting", "přepis otisku", "práce s otiskem", "Disociace, fobie a trauma", "NLP", "neurolingvistické programování"]
+keywords = ["Reimprinting", "Re-imprinting", "přepis otisku", "práce s otiskem", "Disociace, fobie a trauma", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-11.03"
-nlp_slug = "reimprinting"
-nlp_family = "disociace-a-trauma"
-nlp_family_code = "11"
-nlp_family_title = "Disociace, fobie a trauma"
-nlp_family_en = "Dissociation, phobia and trauma patterns"
-nlp_part = "disociace-a-trauma"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Re-imprinting"
-nlp_aliases = ["přepis otisku", "práce s otiskem"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["percepcni-pozice-pojem", "vekova-regrese", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "limitujici-rozhodnuti", "korenova-pricina", "pruchod-casovou-osou", "imprint"]
-nlp_related_declared = ["imprint", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "percepcni-pozice-pojem", "vekova-regrese", "korenova-pricina"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/presvedceni/imprint.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md"]
-nlp_prev = "dvojita-disociace"
-nlp_next = "zmena-osobni-historie"
-nlp_position = 3
-nlp_family_size = 11
-nlp_sources = ["bateson-1972", "beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = ["bateson-1972"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-11.03"
+catalog_slug = "reimprinting"
+catalog_family = "disociace-a-trauma"
+catalog_family_code = "11"
+catalog_family_title = "Disociace, fobie a trauma"
+catalog_family_en = "Dissociation, phobia and trauma patterns"
+catalog_part = "disociace-a-trauma"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Re-imprinting"
+catalog_aliases = ["přepis otisku", "práce s otiskem"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["percepcni-pozice-pojem", "vekova-regrese", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "limitujici-rozhodnuti", "korenova-pricina", "pruchod-casovou-osou", "imprint"]
+catalog_related_declared = ["imprint", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "percepcni-pozice-pojem", "vekova-regrese", "korenova-pricina"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/presvedceni/imprint.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md"]
+catalog_prev = "dvojita-disociace"
+catalog_next = "zmena-osobni-historie"
+catalog_position = 3
+catalog_family_size = 11
+catalog_sources = ["bateson-1972", "beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = ["bateson-1972"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/disociace-a-trauma.toml"
 +++
 
 # Reimprinting
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-11.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Re-imprinting |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ U lidí, kteří trauma skutečně zažili, platí opačné riziko, totiž zpoch
 zkušenosti, a proto má být ověřování vedeno s respektem a bez předem daného závěru v kterémkoli
 směru (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,29 +217,29 @@ směru (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – příbuzný vzorec (Ericksonovská hypnóza, Age regression)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzný vzorec (Časová osa, Limiting decisions)
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzný vzorec (Časová osa, Root cause)
-- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – příbuzný vzorec (Časová osa, Timeline walk)
-- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzný vzorec (Přesvědčení, Imprint)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – příbuzné heslo (Ericksonovská hypnóza, Age regression)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzné heslo (Časová osa, Limiting decisions)
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
+- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – příbuzné heslo (Časová osa, Timeline walk)
+- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzné heslo (Přesvědčení, Imprint)
 
 **V kompendiu**
 
-- [EA-5.3.7 Self-narrative replacement](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.7 Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.7 Self-narrative replacement](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.7 Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – předchozí vzorec rodiny
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – předchozí heslo rodiny
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

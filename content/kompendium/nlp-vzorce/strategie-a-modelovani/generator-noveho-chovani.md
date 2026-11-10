@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Generátor nového chování", "New behaviour generator", "new behavior generator", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Generátor nového chování", "New behaviour generator", "new behavior generator", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.18"
-nlp_slug = "generator-noveho-chovani"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "New behaviour generator"
-nlp_aliases = ["new behavior generator"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "strategie-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["strategie-pojem"]
-nlp_related = ["tote-model", "asociace", "disociace", "budouci-prehravani", "uroven-chovani", "instalace-strategie"]
-nlp_related_declared = ["budouci-prehravani", "disociace", "asociace", "tote-model", "instalace-strategie"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_prev = "utilizace-strategie"
-nlp_next = "smyckove-strategie"
-nlp_position = 18
-nlp_family_size = 20
-nlp_sources = ["bandler-1985", "beck-1976", "dilts-1980", "druckman-swets-1988", "herman-1992", "miller-galanter-pribram-1960", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-1985", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "herman-1992", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.18"
+catalog_slug = "generator-noveho-chovani"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "New behaviour generator"
+catalog_aliases = ["new behavior generator"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "strategie-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["strategie-pojem"]
+catalog_related = ["tote-model", "asociace", "disociace", "budouci-prehravani", "uroven-chovani", "instalace-strategie"]
+catalog_related_declared = ["budouci-prehravani", "disociace", "asociace", "tote-model", "instalace-strategie"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_prev = "utilizace-strategie"
+catalog_next = "smyckove-strategie"
+catalog_position = 18
+catalog_family_size = 20
+catalog_sources = ["bandler-1985", "beck-1976", "dilts-1980", "druckman-swets-1988", "herman-1992", "miller-galanter-pribram-1960", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-1985", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "herman-1992", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Generátor nového chování
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.18` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | New behaviour generator |
 | **Jiné názvy** | new behavior generator |
-| **Obecnější vzorec** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
+| **Obecnější heslo** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Pro generátor nového chování jako specifický formát NLP nejsou k dispozici
 
 Protože riziko samotného vzorce je nízké, obrana spočívá hlavně v udržení vlastnictví cíle a kritérií. Když někdo nabízí představivý nácvik nového chování, je užitečné si položit otázku, zda by si člověk takové chování zvolil sám a zda ho posuzuje podle svých hodnot, nebo podle toho, jak by reagoval druhý. Pokud nácvik vede k tomu, že má člověk snášet něco, co mu škodí, nejde o rozvoj, ale o přizpůsobení. Druhou obranou je ověřování v realitě. Představa může být užitečná jako příprava, ale nemá nahrazovat skutečný rozhovor o tom, co je ve vztahu nebo v práci přijatelné. Třetí obranou je možnost nácvik kdykoli ukončit; nekonečné opakování spojené s hodnocením „ještě nejsi připravená“ je varovným signálem. U lidí, kteří odešli z kontrolujícího vztahu, se často objevují naučené představy o tom, „jak se mají chovat“, aby se vyhnuli konfliktu. V péči o ně se představivá příprava může použít obráceně, k nácviku vlastních hranic a k přípravě na situace, v nichž budou hájit své zájmy, jak kompendium popisuje u [identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md). Herman zdůrazňuje, že zotavení zahrnuje obnovu schopnosti jednat podle vlastních rozhodnutí a že se tato schopnost obnovuje postupně, v bezpečných vztazích (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -120,27 +123,27 @@ Protože riziko samotného vzorce je nízké, obrana spočívá hlavně v udrže
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Behaviour level)
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy installation)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Behaviour level)
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy installation)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – předchozí vzorec rodiny
-- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – předchozí heslo rodiny
+- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

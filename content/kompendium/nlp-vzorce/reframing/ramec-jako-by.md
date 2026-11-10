@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Rámec „jako by“", "As-if frame", "rámec jako by", "hypotetický rámec", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Rámec „jako by“", "As-if frame", "rámec jako by", "hypotetický rámec", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.06"
-nlp_slug = "ramec-jako-by"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "As-if frame"
-nlp_aliases = ["rámec jako by", "hypotetický rámec"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ramec-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ramec-pojem"]
-nlp_related = ["predpoklady-jako-pracovni-hypotezy", "ramec-pojem", "pseudoorientace-v-case", "kontrafaktualni-podminky", "ramec-vysledku", "vlozeni-budouciho-cile", "budouci-prehravani", "predstavte-si", "budouci-prehravani-v-prodeji"]
-nlp_related_declared = ["kontrafaktualni-podminky", "predstavte-si", "ramec-vysledku", "budouci-prehravani", "budouci-prehravani-v-prodeji"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md", "kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md"]
-nlp_prev = "ramec-souhlasu"
-nlp_next = "ramec-vysledku"
-nlp_position = 6
-nlp_family_size = 17
-nlp_sources = ["beck-1976", "erickson-rossi-1979", "hassan-1988", "kirsch-lynn-1995", "loftus-palmer-1974", "oconnor-seymour-1990", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-1979"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "kirsch-lynn-1995", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.06"
+catalog_slug = "ramec-jako-by"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "As-if frame"
+catalog_aliases = ["rámec jako by", "hypotetický rámec"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ramec-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ramec-pojem"]
+catalog_related = ["predpoklady-jako-pracovni-hypotezy", "ramec-pojem", "pseudoorientace-v-case", "kontrafaktualni-podminky", "ramec-vysledku", "vlozeni-budouciho-cile", "budouci-prehravani", "predstavte-si", "budouci-prehravani-v-prodeji"]
+catalog_related_declared = ["kontrafaktualni-podminky", "predstavte-si", "ramec-vysledku", "budouci-prehravani", "budouci-prehravani-v-prodeji"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md", "kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md"]
+catalog_prev = "ramec-souhlasu"
+catalog_next = "ramec-vysledku"
+catalog_position = 6
+catalog_family_size = 17
+catalog_sources = ["beck-1976", "erickson-rossi-1979", "hassan-1988", "kirsch-lynn-1995", "loftus-palmer-1974", "oconnor-seymour-1990", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-1979"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "kirsch-lynn-1995", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.toml"
 +++
 
 # Rámec „jako by“
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | As-if frame |
 | **Jiné názvy** | rámec jako by, hypotetický rámec |
-| **Obecnější vzorec** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
+| **Obecnější heslo** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -185,7 +188,7 @@ přetrvávající strachy jako běžnou součást období po odchodu (Singer a L
 klinické práci se proto s takovými představami pracuje tak, že se porovnávají s tím, co se
 skutečně stalo, a nevytvářejí se nové představy, které by staré nahradily.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -204,31 +207,31 @@ skutečně stalo, a nevytvářejí se nové představy, které by staré nahradi
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzný vzorec (Předpoklady NLP, Presuppositions as working assumptions)
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Frame (concept))
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzný vzorec (Ericksonovská hypnóza, Pseudo-orientation in time)
-- [Kontrafaktuální podmínky](@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md) – příbuzný vzorec (Jazykové presupozice, Counterfactual conditionals)
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzný vzorec (Časová osa, Placing a goal in the future)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzný vzorec (Jazykové vzorce, Imagine)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
+- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzné heslo (Předpoklady NLP, Presuppositions as working assumptions)
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – příbuzné heslo (Základní pojmy NLP, Frame (concept))
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzné heslo (Ericksonovská hypnóza, Pseudo-orientation in time)
+- [Kontrafaktuální podmínky](@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md) – příbuzné heslo (Jazykové presupozice, Counterfactual conditionals)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzné heslo (Časová osa, Placing a goal in the future)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzné heslo (Jazykové vzorce, Imagine)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
 
 **V kompendiu**
 
-- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.1 Trauma-focused CBT protokol](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.1 Trauma-focused CBT protokol](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – předchozí vzorec rodiny
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – předchozí heslo rodiny
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

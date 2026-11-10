@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vizuální kotvy", "Visual anchors", "zraková kotva", "obrazová kotva", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Vizuální kotvy", "Visual anchors", "zraková kotva", "obrazová kotva", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.10"
-nlp_slug = "vizualni-kotvy"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Visual anchors"
-nlp_aliases = ["zraková kotva", "obrazová kotva"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["vizualni-system", "auditivni-kotvy", "kotvy-v-prezentaci", "kotvy-v-reklame", "submodality-v-reklame"]
-nlp_related_declared = ["vizualni-system", "kotvy-v-prezentaci", "kotvy-v-reklame", "submodality-v-reklame", "auditivni-kotvy"]
-nlp_kompendium = ["kompendium/techniques/ea-9-5-2-symbolic-hijacking.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/techniques/ea-9-5-2-symbolic-hijacking.md"]
-nlp_prev = "auditivni-kotvy"
-nlp_next = "kinesteticke-kotvy"
-nlp_position = 10
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "ekman-2003", "hassan-1988", "lifton-1961", "oconnor-seymour-1990", "pavlov-1927", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "ekman-2003", "hassan-1988", "lifton-1961", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.10"
+catalog_slug = "vizualni-kotvy"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Visual anchors"
+catalog_aliases = ["zraková kotva", "obrazová kotva"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["vizualni-system", "auditivni-kotvy", "kotvy-v-prezentaci", "kotvy-v-reklame", "submodality-v-reklame"]
+catalog_related_declared = ["vizualni-system", "kotvy-v-prezentaci", "kotvy-v-reklame", "submodality-v-reklame", "auditivni-kotvy"]
+catalog_kompendium = ["kompendium/techniques/ea-9-5-2-symbolic-hijacking.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/techniques/ea-9-5-2-symbolic-hijacking.md"]
+catalog_prev = "auditivni-kotvy"
+catalog_next = "kinesteticke-kotvy"
+catalog_position = 10
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "ekman-2003", "hassan-1988", "lifton-1961", "oconnor-seymour-1990", "pavlov-1927", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "ekman-2003", "hassan-1988", "lifton-1961", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.toml"
 +++
 
 # Vizuální kotvy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Visual anchors |
 | **Jiné názvy** | zraková kotva, obrazová kotva |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ gesta z doby ve skupině obvykle s časem slábnou, zejména když se přestanou
 zážitky (Pavlov 1927). Při zotavení pomáhá vytvářet nové, vlastní vizuální připomínky
 spojené s životem mimo skupinu a v případě potřeby odborná podpora.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -210,26 +213,26 @@ spojené s životem mimo skupinu a v případě potřeby odborná podpora.
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – příbuzný vzorec (Základní pojmy NLP, Visual representational system)
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzný vzorec (Kotvení, Auditory and tonal anchors)
-- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzný vzorec (Kotvení, Anchors in presentations)
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzný vzorec (Kotvení, Anchors in advertising)
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzný vzorec (Submodality, Submodalities in advertising and media)
+- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – příbuzné heslo (Základní pojmy NLP, Visual representational system)
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
+- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzné heslo (Kotvení, Anchors in presentations)
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzné heslo (Kotvení, Anchors in advertising)
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
 
 **V kompendiu**
 
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – předchozí vzorec rodiny
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – předchozí heslo rodiny
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

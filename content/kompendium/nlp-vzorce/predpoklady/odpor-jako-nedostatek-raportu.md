@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Odpor jako znak chybějícího raportu", "Resistance indicates a lack of rapport", "neexistují odolní klienti", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Odpor jako znak chybějícího raportu", "Resistance indicates a lack of rapport", "neexistují odolní klienti", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.11"
-nlp_slug = "odpor-jako-nedostatek-raportu"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Resistance indicates a lack of rapport"
-nlp_aliases = ["neexistují odolní klienti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["odpovednost-za-komunikaci", "raport", "utilizace", "pacing-a-leading", "preruseni-raportu", "raport-jako-nastroj-vlivu", "nlp-v-prodeji", "nlp-v-komunite-svadeni"]
-nlp_related_declared = ["raport", "utilizace", "pacing-a-leading", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "raport-jako-nastroj-vlivu"]
-nlp_kompendium = ["philosophy/boundary-ethics.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "philosophy/boundary-ethics.md"]
-nlp_prev = "nejlepsi-dostupna-volba"
-nlp_next = "kdyz-to-nefunguje-udelej-neco-jineho"
-nlp_position = 11
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.11"
+catalog_slug = "odpor-jako-nedostatek-raportu"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Resistance indicates a lack of rapport"
+catalog_aliases = ["neexistují odolní klienti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["odpovednost-za-komunikaci", "raport", "utilizace", "pacing-a-leading", "preruseni-raportu", "raport-jako-nastroj-vlivu", "nlp-v-prodeji", "nlp-v-komunite-svadeni"]
+catalog_related_declared = ["raport", "utilizace", "pacing-a-leading", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "raport-jako-nastroj-vlivu"]
+catalog_kompendium = ["philosophy/boundary-ethics.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "philosophy/boundary-ethics.md"]
+catalog_prev = "nejlepsi-dostupna-volba"
+catalog_next = "kdyz-to-nefunguje-udelej-neco-jineho"
+catalog_position = 11
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Odpor jako znak chybějícího raportu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Resistance indicates a lack of rapport |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ obnova kontroly nad vlastními rozhodnutími je základem zotavení po zkušenos
 podobě, tedy jako podnět k sebereflexi a k ubrání tlaku, a nikdy jako zdůvodnění, proč
 pokračovat proti vůli druhého.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,28 +216,28 @@ pokračovat proti vůli druhého.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzný vzorec (Předpoklady NLP, The communicator is responsible for the communication)
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzný vzorec (Raport a kalibrace, Pacing and leading)
-- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – příbuzný vzorec (Raport a kalibrace, Breaking rapport)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
+- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzné heslo (Předpoklady NLP, The communicator is responsible for the communication)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
+- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – příbuzné heslo (Raport a kalibrace, Breaking rapport)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
 
 **V kompendiu**
 
-- [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – předchozí vzorec rodiny
-- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – předchozí heslo rodiny
+- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

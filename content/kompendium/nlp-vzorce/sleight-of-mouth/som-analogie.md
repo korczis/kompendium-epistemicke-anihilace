@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Analogie", "Analogy", "metafora v Sleight of Mouth", "analogie nebo metafora", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Analogie", "Analogy", "metafora v Sleight of Mouth", "analogie nebo metafora", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.09"
-nlp_slug = "som-analogie"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Analogy"
-nlp_aliases = ["metafora v Sleight of Mouth", "analogie nebo metafora"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["som-redefinice", "som-protipriklad", "obsahovy-reframing", "lateralni-chunking", "terapeuticka-metafora", "izomorfni-metafora"]
-nlp_related_declared = ["izomorfni-metafora", "terapeuticka-metafora", "som-protipriklad", "som-redefinice", "obsahovy-reframing"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = "som-protipriklad"
-nlp_next = "som-jiny-vysledek"
-nlp_position = 9
-nlp_family_size = 16
-nlp_sources = ["beck-1976", "dilts-1999", "gordon-1978", "kahneman-2011", "lakoff-johnson-1980", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "rosen-1982", "sharpley-1987", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["dilts-1999", "gordon-1978"]
-nlp_sources_roots = ["rosen-1982"]
-nlp_sources_critical = ["beck-1976", "kahneman-2011", "lakoff-johnson-1980", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.09"
+catalog_slug = "som-analogie"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Analogy"
+catalog_aliases = ["metafora v Sleight of Mouth", "analogie nebo metafora"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["som-redefinice", "som-protipriklad", "obsahovy-reframing", "lateralni-chunking", "terapeuticka-metafora", "izomorfni-metafora"]
+catalog_related_declared = ["izomorfni-metafora", "terapeuticka-metafora", "som-protipriklad", "som-redefinice", "obsahovy-reframing"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = "som-protipriklad"
+catalog_next = "som-jiny-vysledek"
+catalog_position = 9
+catalog_family_size = 16
+catalog_sources = ["beck-1976", "dilts-1999", "gordon-1978", "kahneman-2011", "lakoff-johnson-1980", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "rosen-1982", "sharpley-1987", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["dilts-1999", "gordon-1978"]
+catalog_sources_roots = ["rosen-1982"]
+catalog_sources_critical = ["beck-1976", "kahneman-2011", "lakoff-johnson-1980", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.b.toml"
 +++
 
 # Analogie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Analogy |
 | **Jiné názvy** | metafora v Sleight of Mouth, analogie nebo metafora |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ O vzorcích Sleight of Mouth, a tedy ani o analogii jako jejich součásti, neex
 
 Základní obranou je oddělit přirovnání od tvrzení. Užitečnou otázkou je, v čem se obě situace podobají a v čem se liší, a zejména zda se liší právě v tom, na čem závěr stojí. Když člověk vysloví nahlas, co se z analogie má plynout, přirovnání ztrácí část své síly, protože přenos přestává být mlčky provedený. Druhou obranou je vrátit se k původní otázce a trvat na údajích o věci samé: přirovnání může být zajímavé, ale nenahrazuje odpověď. Třetí obranou je hledat protianalogii, tedy zdrojovou situaci se stejnou stavbou, která vede k opačnému závěru; tím se ukáže, že závěr neplyne ze struktury, ale z výběru zdroje. Výzkum očkování proti přesvědčování ukazuje, že předchozí seznámení s oslabenou podobou argumentu a s jeho vyvrácením zvyšuje odolnost vůči pozdějšímu přesvědčování (McGuire 1964), a novější práce o dezinformacích rozšiřuje tento přístup na obecné rozpoznávání manipulativních technik (van der Linden 2023). Pro lidi, kteří udělali závažné rozhodnutí pod vlivem přesvědčivého přirovnání, je důležité rozpoznat, že nešlo o selhání jejich inteligence, ale o běžný mechanismus, který působí na každého, zejména pod časovým tlakem. Zotavení zahrnuje zpětnou rekonstrukci rozhodnutí: jaké údaje byly tehdy k dispozici, co přirovnání nahradilo a jak lze příště podobnou situaci zpomalit.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -125,27 +128,27 @@ Základní obranou je oddělit přirovnání od tvrzení. Užitečnou otázkou j
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzný vzorec (Sleight of Mouth, Redefine)
-- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzný vzorec (Sleight of Mouth, Counter-example)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – příbuzný vzorec (Jazykové vzorce, Lateral chunking)
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzný vzorec (Jazykové vzorce, Therapeutic metaphor)
-- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – příbuzný vzorec (Jazykové vzorce, Isomorphic metaphor)
+- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzné heslo (Sleight of Mouth, Redefine)
+- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzné heslo (Sleight of Mouth, Counter-example)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – příbuzné heslo (Jazykové vzorce, Lateral chunking)
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzné heslo (Jazykové vzorce, Therapeutic metaphor)
+- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – příbuzné heslo (Jazykové vzorce, Isomorphic metaphor)
 
 **V kompendiu**
 
-- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – předchozí vzorec rodiny
-- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – předchozí heslo rodiny
+- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

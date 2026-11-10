@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Terapeutická dvojná vazba", "Therapeutic double bind", "dvojná vazba", "double bind", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Terapeutická dvojná vazba", "Therapeutic double bind", "dvojná vazba", "double bind", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.17"
-nlp_slug = "terapeuticka-dvojna-vazba"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Therapeutic double bind"
-nlp_aliases = ["dvojná vazba", "double bind"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = ["vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba"]
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["iluze-volby", "levitace-ruky", "predepsani-symptomu", "paradoxni-intervence", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba", "apozice-protikladu", "sugesce-pokryvajici-vsechny-moznosti", "presupozice-nebo"]
-nlp_related_declared = ["iluze-volby", "paradoxni-intervence", "predepsani-symptomu", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["glossary/double-bind.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "vrstveni-realit"
-nlp_next = "vedome-nevedoma-dvojna-vazba"
-nlp_position = 17
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "bateson-1972", "bateson-1956", "beck-1976", "erickson-rossi-rossi-1976", "haley-1973", "heap-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "stark-2007", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["bateson-1972", "bateson-1956", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.17"
+catalog_slug = "terapeuticka-dvojna-vazba"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Therapeutic double bind"
+catalog_aliases = ["dvojná vazba", "double bind"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = ["vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba"]
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["iluze-volby", "levitace-ruky", "predepsani-symptomu", "paradoxni-intervence", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba", "apozice-protikladu", "sugesce-pokryvajici-vsechny-moznosti", "presupozice-nebo"]
+catalog_related_declared = ["iluze-volby", "paradoxni-intervence", "predepsani-symptomu", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/double-bind.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "vrstveni-realit"
+catalog_next = "vedome-nevedoma-dvojna-vazba"
+catalog_position = 17
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "bateson-1972", "bateson-1956", "beck-1976", "erickson-rossi-rossi-1976", "haley-1973", "heap-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "stark-2007", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["bateson-1972", "bateson-1956", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
 +++
 
 # Terapeutická dvojná vazba
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Therapeutic double bind |
 | **Jiné názvy** | dvojná vazba, double bind |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ zpracovávat to, co se dělo (Herman 1992). Terapeut, který s vazebnými interv
 by měl být připraven svůj rámec klientovi kdykoli vysvětlit; intervence, kterou nelze
 vysvětlit bez ztráty smyslu, si zaslouží zvláštní etickou kontrolu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,33 +221,33 @@ vysvětlit bez ztráty smyslu, si zaslouží zvláštní etickou kontrolu.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – zvláštní případ tohoto vzorce
-- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – zvláštní případ tohoto vzorce
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – zvláštní případ tohoto hesla
+- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
-- [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – příbuzný vzorec (Ericksonovská hypnóza, Hand levitation)
-- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – příbuzný vzorec (Ericksonovská hypnóza, Symptom prescription)
-- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzný vzorec (Ericksonovská hypnóza, Paradoxical intervention)
-- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Conscious–unconscious double bind)
-- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Double dissociation double bind)
-- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzný vzorec (Ericksonovská hypnóza, Apposition of opposites)
-- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggestion covering all possibilities)
-- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzný vzorec (Jazykové presupozice, Use of „or“)
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
+- [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – příbuzné heslo (Ericksonovská hypnóza, Hand levitation)
+- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – příbuzné heslo (Ericksonovská hypnóza, Symptom prescription)
+- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzné heslo (Ericksonovská hypnóza, Paradoxical intervention)
+- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Conscious–unconscious double bind)
+- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Double dissociation double bind)
+- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzné heslo (Ericksonovská hypnóza, Apposition of opposites)
+- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – příbuzné heslo (Ericksonovská hypnóza, Suggestion covering all possibilities)
+- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzné heslo (Jazykové presupozice, Use of „or“)
 
 **V kompendiu**
 
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vrstvení realit](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md) – předchozí vzorec rodiny
-- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vrstvení realit](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md) – předchozí heslo rodiny
+- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

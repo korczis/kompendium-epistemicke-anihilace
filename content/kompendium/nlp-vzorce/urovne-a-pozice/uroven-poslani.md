@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Úroveň poslání", "Spiritual (purpose) level", "duchovní úroveň", "úroveň za identitou", "úroveň vize", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Úroveň poslání", "Spiritual (purpose) level", "duchovní úroveň", "úroveň za identitou", "úroveň vize", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.07"
-nlp_slug = "uroven-poslani"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Spiritual (purpose) level"
-nlp_aliases = ["duchovní úroveň", "úroveň za identitou", "úroveň vize"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "logicke-urovne-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["logicke-urovne-pojem"]
-nlp_related = ["zarovnani-logickych-urovni", "uroven-identity", "ctvrta-pozice", "nlp-v-sektach", "guru-efekt"]
-nlp_related_declared = ["uroven-identity", "zarovnani-logickych-urovni", "nlp-v-sektach", "guru-efekt"]
-nlp_kompendium = ["kompendium/case-studies/49-religious-leadership.md", "kompendium/case-studies/50-spiritual-cult-recovery.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/case-studies/64-ngo-cult.md"]
-nlp_links_prose = ["kompendium/case-studies/49-religious-leadership.md", "kompendium/case-studies/50-spiritual-cult-recovery.md", "kompendium/case-studies/64-ngo-cult.md", "kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md"]
-nlp_prev = "uroven-identity"
-nlp_next = "meta-zrcadlo"
-nlp_position = 7
-nlp_family_size = 16
-nlp_sources = ["bateson-1972", "dilts-1990", "dilts-delozier-2000", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "roderique-davies-2009", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
-nlp_sources_roots = ["bateson-1972"]
-nlp_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "roderique-davies-2009", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.07"
+catalog_slug = "uroven-poslani"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Spiritual (purpose) level"
+catalog_aliases = ["duchovní úroveň", "úroveň za identitou", "úroveň vize"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "logicke-urovne-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["logicke-urovne-pojem"]
+catalog_related = ["zarovnani-logickych-urovni", "uroven-identity", "ctvrta-pozice", "nlp-v-sektach", "guru-efekt"]
+catalog_related_declared = ["uroven-identity", "zarovnani-logickych-urovni", "nlp-v-sektach", "guru-efekt"]
+catalog_kompendium = ["kompendium/case-studies/49-religious-leadership.md", "kompendium/case-studies/50-spiritual-cult-recovery.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/case-studies/64-ngo-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/49-religious-leadership.md", "kompendium/case-studies/50-spiritual-cult-recovery.md", "kompendium/case-studies/64-ngo-cult.md", "kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md"]
+catalog_prev = "uroven-identity"
+catalog_next = "meta-zrcadlo"
+catalog_position = 7
+catalog_family_size = 16
+catalog_sources = ["bateson-1972", "dilts-1990", "dilts-delozier-2000", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "roderique-davies-2009", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
+catalog_sources_roots = ["bateson-1972"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "roderique-davies-2009", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.toml"
 +++
 
 # Úroveň poslání
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Spiritual (purpose) level |
 | **Jiné názvy** | duchovní úroveň, úroveň za identitou, úroveň vize |
-| **Obecnější vzorec** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
+| **Obecnější heslo** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -192,7 +195,7 @@ autoritě (Herman 1992). Kompendium tento proces ukazuje v případu [zotavení 
 kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md) a v hesle [šest podmínek
 myšlenkové reformy](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,28 +215,28 @@ myšlenkové reformy](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md)
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Logical level alignment)
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Identity level)
-- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Fourth position)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
+- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Logical level alignment)
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzné heslo (Logické úrovně a percepční pozice, Identity level)
+- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Fourth position)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 
 **V kompendiu**
 
-- [Případ 49: Duchovní totalizace pod autoritou náboženského vedoucího](@/kompendium/case-studies/49-religious-leadership.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 50: Zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 64: Kult v humanitární neziskové organizaci](@/kompendium/case-studies/64-ngo-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Případ 49: Duchovní totalizace pod autoritou náboženského vedoucího](@/kompendium/case-studies/49-religious-leadership.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 50: Zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 64: Kult v humanitární neziskové organizaci](@/kompendium/case-studies/64-ngo-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – předchozí vzorec rodiny
-- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – předchozí heslo rodiny
+- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

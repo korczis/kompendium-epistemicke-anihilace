@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Věková regrese", "Age regression", "hypnotická regrese", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Věková regrese", "Age regression", "hypnotická regrese", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.12"
-nlp_slug = "vekova-regrese"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Age regression"
-nlp_aliases = ["hypnotická regrese"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["pseudoorientace-v-case", "ideomotoricka-signalizace", "amnezie-sugesci", "reimprinting", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "korenova-pricina", "imprint"]
-nlp_related_declared = ["trauma-a-falesne-vzpominky", "zmena-osobni-historie", "reimprinting", "pseudoorientace-v-case", "korenova-pricina", "imprint"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md"]
-nlp_prev = "posthypnoticka-sugesce"
-nlp_next = "pseudoorientace-v-case"
-nlp_position = 12
-nlp_family_size = 28
-nlp_sources = ["dilts-hallbom-smith-1990", "erickson-rossi-1979", "haley-1973", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-hallbom-smith-1990", "james-woodsmall-1988"]
-nlp_sources_roots = ["erickson-rossi-1979", "haley-1973"]
-nlp_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.12"
+catalog_slug = "vekova-regrese"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Age regression"
+catalog_aliases = ["hypnotická regrese"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["pseudoorientace-v-case", "ideomotoricka-signalizace", "amnezie-sugesci", "reimprinting", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "korenova-pricina", "imprint"]
+catalog_related_declared = ["trauma-a-falesne-vzpominky", "zmena-osobni-historie", "reimprinting", "pseudoorientace-v-case", "korenova-pricina", "imprint"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md"]
+catalog_prev = "posthypnoticka-sugesce"
+catalog_next = "pseudoorientace-v-case"
+catalog_position = 12
+catalog_family_size = 28
+catalog_sources = ["dilts-hallbom-smith-1990", "erickson-rossi-1979", "haley-1973", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-hallbom-smith-1990", "james-woodsmall-1988"]
+catalog_sources_roots = ["erickson-rossi-1979", "haley-1973"]
+catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
 +++
 
 # Věková regrese
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Age regression |
 | **Jiné názvy** | hypnotická regrese |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ obnovená kontrola nad vlastním vyprávěním (Herman 1992). Na kritické zhodn
 NLP, které s minulostí pracují, navazuje stránka o
 [traumatu a falešných vzpomínkách](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,30 +214,30 @@ NLP, které s minulostí pracují, navazuje stránka o
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzný vzorec (Ericksonovská hypnóza, Pseudo-orientation in time)
-- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Ideomotor signalling)
-- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggested amnesia)
-- [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – příbuzný vzorec (Disociace, fobie a trauma, Re-imprinting)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzný vzorec (Časová osa, Root cause)
-- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzný vzorec (Přesvědčení, Imprint)
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzné heslo (Ericksonovská hypnóza, Pseudo-orientation in time)
+- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzné heslo (Ericksonovská hypnóza, Ideomotor signalling)
+- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzné heslo (Ericksonovská hypnóza, Suggested amnesia)
+- [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – příbuzné heslo (Disociace, fobie a trauma, Re-imprinting)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
+- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzné heslo (Přesvědčení, Imprint)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.7 Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.7 Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – předchozí vzorec rodiny
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – předchozí heslo rodiny
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

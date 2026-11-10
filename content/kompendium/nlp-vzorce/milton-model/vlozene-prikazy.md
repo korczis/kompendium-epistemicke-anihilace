@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Vložené příkazy", "Embedded commands", "skryté příkazy", "vnořené příkazy", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Vložené příkazy", "Embedded commands", "skryté příkazy", "vnořené příkazy", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.02"
-nlp_slug = "vlozene-prikazy"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Embedded commands"
-nlp_aliases = ["skryté příkazy", "vnořené příkazy"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["komunikace-vedoma-a-nevedoma", "milton-model", "vlozene-otazky", "analogove-znaceni", "citace", "fonologicka-dvojznacnost", "interpunkcni-dvojznacnost", "negativni-prikazy", "vnorene-smycky", "posthypnoticka-sugesce", "muj-pritel-john", "technika-prolozeni", "implikovane-direktivum", "predstavte-si", "konverzacni-hypnoza", "nlp-v-komunite-svadeni", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky"]
-nlp_related_declared = ["analogove-znaceni", "vlozene-otazky", "negativni-prikazy", "konverzacni-hypnoza", "technika-prolozeni"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/analogove-znaceni.md", "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md"]
-nlp_prev = "milton-model"
-nlp_next = "vlozene-otazky"
-nlp_position = 2
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "grice-1975", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "hassan-1988", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
-nlp_sources_roots = ["erickson-rossi-1979", "grice-1975"]
-nlp_sources_critical = ["druckman-swets-1988", "hassan-1988", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.02"
+catalog_slug = "vlozene-prikazy"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Embedded commands"
+catalog_aliases = ["skryté příkazy", "vnořené příkazy"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["komunikace-vedoma-a-nevedoma", "milton-model", "vlozene-otazky", "analogove-znaceni", "citace", "fonologicka-dvojznacnost", "interpunkcni-dvojznacnost", "negativni-prikazy", "vnorene-smycky", "posthypnoticka-sugesce", "muj-pritel-john", "technika-prolozeni", "implikovane-direktivum", "predstavte-si", "konverzacni-hypnoza", "nlp-v-komunite-svadeni", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky"]
+catalog_related_declared = ["analogove-znaceni", "vlozene-otazky", "negativni-prikazy", "konverzacni-hypnoza", "technika-prolozeni"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/analogove-znaceni.md", "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md"]
+catalog_prev = "milton-model"
+catalog_next = "vlozene-otazky"
+catalog_position = 2
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "grice-1975", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "hassan-1988", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
+catalog_sources_roots = ["erickson-rossi-1979", "grice-1975"]
+catalog_sources_critical = ["druckman-swets-1988", "hassan-1988", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.toml"
 +++
 
 # Vložené příkazy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Embedded commands |
 | **Jiné názvy** | skryté příkazy, vnořené příkazy |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ rekonstrukce toho, co bylo skutečně řečeno, a rozlišení vlastních rozhodn
 převzatých; Hassan zdůrazňuje, že pochopení technik, které skupina používala, pomáhá
 bývalým členům přestat se obviňovat (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,40 +218,40 @@ bývalým členům přestat se obviňovat (Hassan 1988).
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzný vzorec (Předpoklady NLP, Communication is both conscious and unconscious)
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – příbuzný vzorec (Milton-model, Embedded questions)
-- [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – příbuzný vzorec (Milton-model, Analogue marking)
-- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzný vzorec (Milton-model, Quotes)
-- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzný vzorec (Milton-model, Phonological ambiguity)
-- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – příbuzný vzorec (Milton-model, Punctuation ambiguity)
-- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – příbuzný vzorec (Milton-model, Negative commands)
-- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzný vzorec (Ericksonovská hypnóza, Nested loops)
-- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Post-hypnotic suggestion)
-- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – příbuzný vzorec (Ericksonovská hypnóza, My friend John)
-- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzný vzorec (Ericksonovská hypnóza, Interspersal technique)
-- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – příbuzný vzorec (Ericksonovská hypnóza, Implied directive)
-- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzný vzorec (Jazykové vzorce, Imagine)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzný vzorec (Vliv a zneužití NLP, Hypnotic language in online content)
-- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzný vzorec (Vliv a zneužití NLP, Recognising NLP practice in conversation)
+- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzné heslo (Předpoklady NLP, Communication is both conscious and unconscious)
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – příbuzné heslo (Milton-model, Embedded questions)
+- [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – příbuzné heslo (Milton-model, Analogue marking)
+- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzné heslo (Milton-model, Quotes)
+- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzné heslo (Milton-model, Phonological ambiguity)
+- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – příbuzné heslo (Milton-model, Punctuation ambiguity)
+- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – příbuzné heslo (Milton-model, Negative commands)
+- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzné heslo (Ericksonovská hypnóza, Nested loops)
+- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Post-hypnotic suggestion)
+- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – příbuzné heslo (Ericksonovská hypnóza, My friend John)
+- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzné heslo (Ericksonovská hypnóza, Interspersal technique)
+- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – příbuzné heslo (Ericksonovská hypnóza, Implied directive)
+- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – příbuzné heslo (Jazykové vzorce, Imagine)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzné heslo (Vliv a zneužití NLP, Hypnotic language in online content)
+- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzné heslo (Vliv a zneužití NLP, Recognising NLP practice in conversation)
 
 **V kompendiu**
 
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.5 Nátlak doporučením](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.5 Nátlak doporučením](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – předchozí vzorec rodiny
-- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – předchozí heslo rodiny
+- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

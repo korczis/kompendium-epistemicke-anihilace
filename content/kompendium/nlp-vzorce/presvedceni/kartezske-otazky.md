@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kartézské otázky", "Cartesian questions", "kartézské souřadnice", "Cartesian coordinates", "čtyři otázky rozhodování", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Kartézské otázky", "Cartesian questions", "kartézské souřadnice", "Cartesian coordinates", "čtyři otázky rozhodování", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.10"
-nlp_slug = "kartezske-otazky"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Cartesian questions"
-nlp_aliases = ["kartézské souřadnice", "Cartesian coordinates", "čtyři otázky rozhodování"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["ekologicka-kontrola", "konfuzni-technika", "ramec-ekologie", "ekologie-cile", "otazky-vysledku"]
-nlp_related_declared = ["ekologicka-kontrola", "ramec-ekologie", "ekologie-cile", "konfuzni-technika", "otazky-vysledku"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_prev = "retezeni-presvedceni"
-nlp_next = "myslenkovy-virus"
-nlp_position = 10
-nlp_family_size = 14
-nlp_sources = ["bateson-1972", "cialdini-2009", "kahneman-2011", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972"]
-nlp_sources_critical = ["cialdini-2009", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.10"
+catalog_slug = "kartezske-otazky"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Cartesian questions"
+catalog_aliases = ["kartézské souřadnice", "Cartesian coordinates", "čtyři otázky rozhodování"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["ekologicka-kontrola", "konfuzni-technika", "ramec-ekologie", "ekologie-cile", "otazky-vysledku"]
+catalog_related_declared = ["ekologicka-kontrola", "ramec-ekologie", "ekologie-cile", "konfuzni-technika", "otazky-vysledku"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_prev = "retezeni-presvedceni"
+catalog_next = "myslenkovy-virus"
+catalog_position = 10
+catalog_family_size = 14
+catalog_sources = ["bateson-1972", "cialdini-2009", "kahneman-2011", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972"]
+catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.b.toml"
 +++
 
 # Kartézské otázky
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Cartesian questions |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/presvedceni.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ dopřát si čas na vědomou rozvahu (Kahneman 2011). Rozhodnutí přijatá pod 
 zpětně revidovat; kde to právní úprava umožňuje, například u smluv uzavřených mimo obchodní
 prostory, je odstoupení legitimní cestou, nikoli selháním.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -208,25 +211,25 @@ prostory, je odstoupení legitimní cestou, nikoli selháním.
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzný vzorec (Ericksonovská hypnóza, Confusion technique)
-- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzný vzorec (Reframing a rámce, Ecology frame)
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzný vzorec (Cíle a výsledky, Ecology of the outcome)
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Outcome questions)
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzné heslo (Ericksonovská hypnóza, Confusion technique)
+- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzné heslo (Reframing a rámce, Ecology frame)
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzné heslo (Cíle a výsledky, Outcome questions)
 
 **V kompendiu**
 
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – předchozí vzorec rodiny
-- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – předchozí heslo rodiny
+- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

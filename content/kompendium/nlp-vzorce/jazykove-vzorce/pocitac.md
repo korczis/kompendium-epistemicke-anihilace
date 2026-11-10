@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Počítač", "Computer (super-reasonable)", "superrozumný postoj", "přehnaně rozumový postoj", "super-reasonable", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Počítač", "Computer (super-reasonable)", "superrozumný postoj", "přehnaně rozumový postoj", "super-reasonable", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.08"
-nlp_slug = "pocitac"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Computer (super-reasonable)"
-nlp_aliases = ["superrozumný postoj", "přehnaně rozumový postoj", "super-reasonable"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kategorie-satirove"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kategorie-satirove"]
-nlp_related = ["auditivne-digitalni-system", "disociace", "rozptylovac", "vyrovnany", "neuro-zargon"]
-nlp_related_declared = ["rozptylovac", "vyrovnany", "disociace", "neuro-zargon", "auditivne-digitalni-system"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md"]
-nlp_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_prev = "obvinovatel"
-nlp_next = "rozptylovac"
-nlp_position = 8
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "grinder-bandler-1976", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "rogers-1951", "satir-1972", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "oconnor-seymour-1990"]
-nlp_sources_roots = ["satir-1972"]
-nlp_sources_critical = ["kahneman-2011", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.08"
+catalog_slug = "pocitac"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Computer (super-reasonable)"
+catalog_aliases = ["superrozumný postoj", "přehnaně rozumový postoj", "super-reasonable"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kategorie-satirove"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kategorie-satirove"]
+catalog_related = ["auditivne-digitalni-system", "disociace", "rozptylovac", "vyrovnany", "neuro-zargon"]
+catalog_related_declared = ["rozptylovac", "vyrovnany", "disociace", "neuro-zargon", "auditivne-digitalni-system"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_prev = "obvinovatel"
+catalog_next = "rozptylovac"
+catalog_position = 8
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "grinder-bandler-1976", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "rogers-1951", "satir-1972", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "oconnor-seymour-1990"]
+catalog_sources_roots = ["satir-1972"]
+catalog_sources_critical = ["kahneman-2011", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.toml"
 +++
 
 # Počítač
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Computer (super-reasonable) |
 | **Jiné názvy** | superrozumný postoj, přehnaně rozumový postoj, super-reasonable |
-| **Obecnější vzorec** | [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) |
+| **Obecnější heslo** | [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -81,7 +84,7 @@ Počítačem, v anglických textech také superrozumným postojem, se v typologi
 
 Satirová postoj popsala na základě práce s rodinami, ve kterých někteří členové na napětí reagovali tím, že se stáhli do neosobních vysvětlení a pravidel. Jako u ostatních postojů zdůrazňovala tělesný obraz: rovná, nehybná postava, jako by člověk spolkl pravítko, a hlas bez zabarvení (Satir 1972). V psychoanalytické tradici se podobný jev popisuje jako intelektualizace, tedy obrana, při níž člověk zvládá citově náročnou situaci tím, že o ní uvažuje abstraktně. Carl Rogers z jiné strany popsal nesoulad mezi tím, co člověk prožívá, a tím, co si připouští a vyjadřuje, jako jádro psychické nepohody (Rogers 1951).
 
-NLP převzalo postoj s celou typologií Satirové (Grinder a Bandler 1976) a spojilo jej s vlastními pojmy. Způsob řeči, který se drží slov, logiky a pravidel bez odkazu na smyslovou zkušenost, NLP přiřazuje k [auditivně digitálnímu systému](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md), a vzdálení se od vlastního prožitku popisuje jako [disociaci](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) (O'Connor a Seymour 1990). Ve vlivové a prezentační literatuře NLP se lze setkat s doporučením superrozumného postoje jako vhodného pro sdělování nepříjemných zpráv nebo pro vystupování s autoritou.
+NLP převzalo postoj s celou typologií Satirové (Grinder a Bandler 1976) a spojilo jej s vlastními pojmy. Způsob řeči, který se drží slov, logiky a pravidel bez odkazu na smyslovou zkušenost, NLP přiřazuje k [auditivně digitálnímu systému](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md), a vzdálení se od vlastního prožitku popisuje jako [disociaci](@/glossary/disociace.md) (O'Connor a Seymour 1990). Ve vlivové a prezentační literatuře NLP se lze setkat s doporučením superrozumného postoje jako vhodného pro sdělování nepříjemných zpráv nebo pro vystupování s autoritou.
 
 ## Struktura vzorce
 
@@ -111,7 +114,7 @@ Obranou proti superrozumnému nátlaku je trvat na tom, že city jsou legitimní
 
 Pro člověka, který u sebe superrozumný postoj rozpozná, je cestou k vyrovnanější komunikaci znovu připustit vlastní prožitek a naučit se ho vyjádřit, aniž by to ohrozilo jeho schopnost uvažovat. V terapii se k tomu často přistupuje pozvolna, protože postoj dlouho chránil před zranitelností, kterou člověk nechtěl nebo nemohl ukázat (Rogers 1951). Pro člověka, který byl dlouho vystaven prostředí, kde se city druhých prohlašovaly za nepatřičné, bývá součástí zotavení znovu se naučit své city brát vážně a nepovažovat je za doklad vlastní iracionality. Cílem je [vyrovnaná komunikace](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md), ve které má místo rozum i cit.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -132,26 +135,26 @@ Pro člověka, který u sebe superrozumný postoj rozpozná, je cestou k vyrovna
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory digital system)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – příbuzný vzorec (Jazykové vzorce, Distracter)
-- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzný vzorec (Jazykové vzorce, Leveller)
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)
+- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory digital system)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – příbuzné heslo (Jazykové vzorce, Distracter)
+- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzné heslo (Jazykové vzorce, Leveller)
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (Vliv a zneužití NLP, Neuro-jargon)
 
 **V kompendiu**
 
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – předchozí vzorec rodiny
-- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – předchozí heslo rodiny
+- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

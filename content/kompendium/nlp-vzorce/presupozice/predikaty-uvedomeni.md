@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Predikáty uvědomění", "Awareness predicates", "slovesa vědění a uvědomění", "víš, že…", "Jazykové presupozice", "NLP", "neurolingvistické programování"]
+keywords = ["Predikáty uvědomění", "Awareness predicates", "slovesa vědění a uvědomění", "víš, že…", "Jazykové presupozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-06.06"
-nlp_slug = "predikaty-uvedomeni"
-nlp_family = "presupozice"
-nlp_family_code = "06"
-nlp_family_title = "Jazykové presupozice"
-nlp_family_en = "Linguistic presuppositions"
-nlp_part = "presupozice"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Awareness predicates"
-nlp_aliases = ["slovesa vědění a uvědomění", "víš, že…"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "jazykove-presupozice"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["jazykove-presupozice"]
-nlp_related = ["cteni-myslenek", "truismy", "cteni-myslenek-milton", "faktivni-slovesa"]
-nlp_related_declared = ["faktivni-slovesa", "cteni-myslenek", "cteni-myslenek-milton", "truismy"]
-nlp_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md", "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "presupozice-nebo"
-nlp_next = "komentarova-adverbia"
-nlp_position = 6
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "erickson-rossi-rossi-1976", "herman-1992", "levinson-1983", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presupozice.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-06.06"
+catalog_slug = "predikaty-uvedomeni"
+catalog_family = "presupozice"
+catalog_family_code = "06"
+catalog_family_title = "Jazykové presupozice"
+catalog_family_en = "Linguistic presuppositions"
+catalog_part = "presupozice"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Awareness predicates"
+catalog_aliases = ["slovesa vědění a uvědomění", "víš, že…"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "jazykove-presupozice"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["jazykove-presupozice"]
+catalog_related = ["cteni-myslenek", "truismy", "cteni-myslenek-milton", "faktivni-slovesa"]
+catalog_related_declared = ["faktivni-slovesa", "cteni-myslenek", "cteni-myslenek-milton", "truismy"]
+catalog_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md", "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "presupozice-nebo"
+catalog_next = "komentarova-adverbia"
+catalog_position = 6
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "erickson-rossi-rossi-1976", "herman-1992", "levinson-1983", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presupozice.toml"
 +++
 
 # Predikáty uvědomění
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-06.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Awareness predicates |
 | **Jiné názvy** | slovesa vědění a uvědomění, víš, že… |
-| **Obecnější vzorec** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
+| **Obecnější heslo** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ mluvčí opakovaně prohlašoval za věci, které člověk „ví“, a ke každ
 člověk někdy sám zjistil, nebo ji jen převzal. Obnova důvěry ve vlastní vnímání probíhá
 nejlépe v bezpečném vztahu, ve kterém se zkušenost člověka nevykládá zvenčí (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,26 +216,26 @@ nejlépe v bezpečném vztahu, ve kterém se zkušenost člověka nevykládá zv
 
 **Rodina a hierarchie**
 
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzný vzorec (Meta-model, Mind reading)
-- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzný vzorec (Milton-model, Truisms)
-- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzný vzorec (Milton-model, Mind reading (Milton Model))
-- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – příbuzný vzorec (Jazykové presupozice, Factive verbs)
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
+- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzné heslo (Milton-model, Truisms)
+- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzné heslo (Milton-model, Mind reading (Milton Model))
+- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – příbuzné heslo (Jazykové presupozice, Factive verbs)
 
 **V kompendiu**
 
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – předchozí vzorec rodiny
-- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – předchozí heslo rodiny
+- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

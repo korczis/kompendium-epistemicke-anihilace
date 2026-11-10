@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Otázky místo tvrzení", "Questions instead of statements", "řečnické otázky", "sugestivní otázky", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Otázky místo tvrzení", "Questions instead of statements", "řečnické otázky", "sugestivní otázky", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.18"
-nlp_slug = "otazky-misto-tvrzeni"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Questions instead of statements"
-nlp_aliases = ["řečnické otázky", "sugestivní otázky"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vlozene-otazky", "konverzacni-postulaty", "pripojene-otazky", "otazky-s-presupozici", "presupozice-ve-vyslechu"]
-nlp_related_declared = ["otazky-s-presupozici", "vlozene-otazky", "pripojene-otazky", "presupozice-ve-vyslechu", "konverzacni-postulaty"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/milton-model/pripojene-otazky.md", "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_prev = "predstavte-si"
-nlp_next = "slovni-baliky"
-nlp_position = 18
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "beck-1976", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "vrij-2008", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
-nlp_sources_critical = ["beck-1976", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.18"
+catalog_slug = "otazky-misto-tvrzeni"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Questions instead of statements"
+catalog_aliases = ["řečnické otázky", "sugestivní otázky"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vlozene-otazky", "konverzacni-postulaty", "pripojene-otazky", "otazky-s-presupozici", "presupozice-ve-vyslechu"]
+catalog_related_declared = ["otazky-s-presupozici", "vlozene-otazky", "pripojene-otazky", "presupozice-ve-vyslechu", "konverzacni-postulaty"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/sugestivni-otazka.md", "kompendium/nlp-vzorce/milton-model/pripojene-otazky.md", "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_prev = "predstavte-si"
+catalog_next = "slovni-baliky"
+catalog_position = 18
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "beck-1976", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "vrij-2008", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
+catalog_sources_critical = ["beck-1976", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.b.toml"
 +++
 
 # Otázky místo tvrzení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.18` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Questions instead of statements |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -106,9 +109,9 @@ svědci později uváděli, že viděli rozbité sklo, které na místě nebylo 
 
 Vzorec má několik podob, které spojuje stejná struktura: obsah, který mluvčí chce předat, je
 umístěn do předpokladu otázky, ne do jejího tázacího jádra. Řečnická otázka předpokládá
-jedinou přijatelnou odpověď: „kdo by nechtěl pro své děti to nejlepší?“ Insinuační otázka
+jedinou přijatelnou odpověď: „kdo by nechtěl pro své děti to nejlepší?“ [Insinuační otázka](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md)
 předpokládá skutečnost, o které nemluví: „proč na to pořád odmítá odpovědět?“ předpokládá
-odmítání. Sugestivní otázka ve výslechu vkládá informaci, kterou svědek neuvedl: „jakou barvu
+odmítání. [Sugestivní otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/sugestivni-otazka.md) ve výslechu vkládá informaci, kterou svědek neuvedl: „jakou barvu
 měla bunda toho muže?“ předpokládá, že muž měl bundu. Otázka s falešnou alternativou zužuje
 volbu na dvě možnosti, které obě vyhovují tazateli; kompendium tento mechanismus rozebírá u
 [falešného dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md). Řetězec otázek
@@ -197,7 +200,7 @@ oni sami. McGuire ukázal, že [odolnost vůči přesvědčování](@/kompendium
 s oslabenou podobou útoku a s jeho vyvrácením (McGuire 1964); znalost vzorce sugestivní otázky
 takovou předběžnou ochranu poskytuje.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,25 +220,25 @@ takovou předběžnou ochranu poskytuje.
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – příbuzný vzorec (Milton-model, Embedded questions)
-- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – příbuzný vzorec (Milton-model, Conversational postulates)
-- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – příbuzný vzorec (Milton-model, Tag questions)
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in questioning and testimony)
+- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – příbuzné heslo (Milton-model, Embedded questions)
+- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – příbuzné heslo (Milton-model, Conversational postulates)
+- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – příbuzné heslo (Milton-model, Tag questions)
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in questioning and testimony)
 
 **V kompendiu**
 
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – předchozí vzorec rodiny
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – předchozí heslo rodiny
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

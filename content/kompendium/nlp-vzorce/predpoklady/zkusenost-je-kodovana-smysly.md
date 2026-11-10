@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Zkušenost je kódována smysly", "Experience is coded in the senses", "smyslové kódování zkušenosti", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Zkušenost je kódována smysly", "Experience is coded in the senses", "smyslové kódování zkušenosti", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.17"
-nlp_slug = "zkusenost-je-kodovana-smysly"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Experience is coded in the senses"
-nlp_aliases = ["smyslové kódování zkušenosti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "zkusenost-ma-strukturu"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["zkusenost-ma-strukturu"]
-nlp_related = ["reprezentacni-systemy", "preferovany-reprezentacni-system", "predikaty", "ocni-pristupove-signaly", "submodality-pojem", "casove-kodovani"]
-nlp_related_declared = ["reprezentacni-systemy", "preferovany-reprezentacni-system", "ocni-pristupove-signaly", "predikaty", "submodality-pojem"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md"]
-nlp_prev = "zkusenost-ma-strukturu"
-nlp_next = "komunikace-vedoma-a-nevedoma"
-nlp_position = 17
-nlp_family_size = 21
-nlp_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "chartrand-bargh-1999", "dilts-1980", "grinder-bandler-1976", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980", "grinder-bandler-1976"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "chartrand-bargh-1999", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.17"
+catalog_slug = "zkusenost-je-kodovana-smysly"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Experience is coded in the senses"
+catalog_aliases = ["smyslové kódování zkušenosti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "zkusenost-ma-strukturu"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["zkusenost-ma-strukturu"]
+catalog_related = ["reprezentacni-systemy", "preferovany-reprezentacni-system", "predikaty", "ocni-pristupove-signaly", "submodality-pojem", "casove-kodovani"]
+catalog_related_declared = ["reprezentacni-systemy", "preferovany-reprezentacni-system", "ocni-pristupove-signaly", "predikaty", "submodality-pojem"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md"]
+catalog_prev = "zkusenost-ma-strukturu"
+catalog_next = "komunikace-vedoma-a-nevedoma"
+catalog_position = 17
+catalog_family_size = 21
+catalog_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "chartrand-bargh-1999", "dilts-1980", "grinder-bandler-1976", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980", "grinder-bandler-1976"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "chartrand-bargh-1999", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Zkušenost je kódována smysly
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Experience is coded in the senses |
 | **Jiné názvy** | smyslové kódování zkušenosti |
-| **Obecnější vzorec** | [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) |
+| **Obecnější heslo** | [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ zotavení obnova přesvědčení, že vlastní tělo a pohled nejsou svědky pro
 zdůrazňuje, že návrat pocitu kontroly nad vlastním tělem a projevem patří k základům obnovy
 po dlouhodobé kontrole (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,27 +220,27 @@ po dlouhodobé kontrole (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzný vzorec (Základní pojmy NLP, Representational systems)
-- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzný vzorec (Základní pojmy NLP, Preferred representational system)
-- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzný vzorec (Základní pojmy NLP, Predicates)
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzný vzorec (Základní pojmy NLP, Eye accessing cues)
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzný vzorec (Časová osa, Temporal coding of experience)
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzné heslo (Základní pojmy NLP, Representational systems)
+- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzné heslo (Základní pojmy NLP, Preferred representational system)
+- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzné heslo (Základní pojmy NLP, Predicates)
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzné heslo (Základní pojmy NLP, Eye accessing cues)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzné heslo (Časová osa, Temporal coding of experience)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – předchozí vzorec rodiny
-- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – předchozí heslo rodiny
+- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

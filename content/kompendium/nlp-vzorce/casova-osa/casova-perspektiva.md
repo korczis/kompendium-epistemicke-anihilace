@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Časová perspektiva", "Time perspective", "orientace v čase", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Časová perspektiva", "Time perspective", "orientace v čase", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.11"
-nlp_slug = "casova-perspektiva"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Time perspective"
-nlp_aliases = ["orientace v čase"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["casova-osa-pojem", "v-case-a-mimo-cas", "vlozeni-budouciho-cile", "beznadej-bezmoc-nehodnost", "casova-orientace"]
-nlp_related_declared = ["casova-orientace", "v-case-a-mimo-cas", "casova-osa-pojem", "beznadej-bezmoc-nehodnost", "vlozeni-budouciho-cile"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/06-klinicke-aplikace/preventivni-strategie.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/06-klinicke-aplikace/preventivni-strategie.md", "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/metaprogramy/casova-orientace.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
-nlp_prev = "budouci-prehravani"
-nlp_next = "pruchod-casovou-osou"
-nlp_position = 11
-nlp_family_size = 12
-nlp_sources = ["beck-1976", "herman-1992", "james-woodsmall-1988", "kahneman-2011", "lifton-1961", "miller-galanter-pribram-1960", "roderique-davies-2009", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
-nlp_sources_primary = ["james-woodsmall-1988"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "roderique-davies-2009", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.11"
+catalog_slug = "casova-perspektiva"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Time perspective"
+catalog_aliases = ["orientace v čase"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["casova-osa-pojem", "v-case-a-mimo-cas", "vlozeni-budouciho-cile", "beznadej-bezmoc-nehodnost", "casova-orientace"]
+catalog_related_declared = ["casova-orientace", "v-case-a-mimo-cas", "casova-osa-pojem", "beznadej-bezmoc-nehodnost", "vlozeni-budouciho-cile"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/06-klinicke-aplikace/preventivni-strategie.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/06-klinicke-aplikace/preventivni-strategie.md", "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/metaprogramy/casova-orientace.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
+catalog_prev = "budouci-prehravani"
+catalog_next = "pruchod-casovou-osou"
+catalog_position = 11
+catalog_family_size = 12
+catalog_sources = ["beck-1976", "herman-1992", "james-woodsmall-1988", "kahneman-2011", "lifton-1961", "miller-galanter-pribram-1960", "roderique-davies-2009", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
+catalog_sources_primary = ["james-woodsmall-1988"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "roderique-davies-2009", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Časová perspektiva
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Time perspective |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/casova-osa.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -102,7 +105,7 @@ Legitimní užití pojmu je diagnostické a terapeutické. Krizová interventka,
 
 Základní obranou je chránit vlastní časovou perspektivu. Kdo si udržuje vzpomínky na to, co ho v minulosti drželo, vztahy mimo jediný vztah nebo skupinu a plány, které na nich nezávisejí, má oporu, kterou zužování nerozloží. Druhou obranou je všímat si výroků, které znehodnocují minulost nebo monopolizují budoucnost, a pojmenovat je jako tvrzení druhé strany, ne jako fakt. Třetí obranou je hledat lidi zvenčí, kteří znají člověka z doby před vztahem nebo skupinou a mohou mu připomenout, kým byl a co chtěl. U lidí po odchodu z uzavřené skupiny nebo z kontrolujícího vztahu je obnova časové perspektivy jednou z hlavních úloh zotavení. Minulost před vstupem je třeba znovu získat jako vlastní a budoucnost znovu otevřít jako prostor možností (Singer a Lalich 1995). Herman popisuje tuto fázi jako znovunavázání spojení se světem a s vlastním životním příběhem (Herman 1992). Pokud zúžení budoucnosti dosáhne podoby beznaděje nebo myšlenek, že budoucnost nemá cenu žít, je namístě neodkladná odborná péče, protože beznaděj patří ke klinicky nejzávažnějším znakům. Kompendium obecné strategie prevence popisuje v kapitole o [preventivních strategiích](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,26 +124,26 @@ Základní obranou je chránit vlastní časovou perspektivu. Kdo si udržuje vz
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzný vzorec (Časová osa, In time and through time)
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzný vzorec (Časová osa, Placing a goal in the future)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
-- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzný vzorec (Metaprogramy, Time orientation)
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzné heslo (Základní pojmy NLP, Timeline (concept))
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzné heslo (Časová osa, In time and through time)
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – příbuzné heslo (Časová osa, Placing a goal in the future)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzné heslo (Metaprogramy, Time orientation)
 
 **V kompendiu**
 
-- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.9 Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.9 Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – předchozí vzorec rodiny
-- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – předchozí heslo rodiny
+- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

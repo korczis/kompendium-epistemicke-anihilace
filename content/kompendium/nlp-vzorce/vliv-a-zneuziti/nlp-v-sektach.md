@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["NLP v sektách a kultovních skupinách", "NLP in cults", "NLP v kultech", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["NLP v sektách a kultovních skupinách", "NLP in cults", "NLP v kultech", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.07"
-nlp_slug = "nlp-v-sektach"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "NLP in cults"
-nlp_aliases = ["NLP v kultech"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["ztraceny-performativ", "amnezie-sugesci", "predramcovani", "kotveni-ve-skupine", "mapovani-napric", "uroven-poslani", "ctvrta-pozice", "stepeni-ja-v-manipulaci", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "raport-se-skupinou", "slovni-baliky", "konverzacni-hypnoza", "guru-efekt", "velke-seminare"]
-nlp_related_declared = ["guru-efekt", "velke-seminare", "kotveni-ve-skupine", "raport-se-skupinou", "konverzacni-hypnoza"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md"]
-nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md", "kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md", "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-3-9-cult-studies-literature.md"]
-nlp_prev = "nlp-v-komunite-svadeni"
-nlp_next = "nlp-ve-vyslechu"
-nlp_position = 7
-nlp_family_size = 20
-nlp_sources = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = []
-nlp_sources_roots = []
-nlp_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.07"
+catalog_slug = "nlp-v-sektach"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "NLP in cults"
+catalog_aliases = ["NLP v kultech"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["myslenkove-ukoncujici-klise", "ztraceny-performativ", "amnezie-sugesci", "predramcovani", "kotveni-ve-skupine", "mapovani-napric", "uroven-poslani", "ctvrta-pozice", "stepeni-ja-v-manipulaci", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "raport-se-skupinou", "slovni-baliky", "konverzacni-hypnoza", "guru-efekt", "velke-seminare"]
+catalog_related_declared = ["guru-efekt", "velke-seminare", "kotveni-ve-skupine", "raport-se-skupinou", "konverzacni-hypnoza"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md", "kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md", "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-3-9-cult-studies-literature.md"]
+catalog_prev = "nlp-v-komunite-svadeni"
+catalog_next = "nlp-ve-vyslechu"
+catalog_position = 7
+catalog_family_size = 20
+catalog_sources = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = []
+catalog_sources_roots = []
+catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # NLP v sektách a kultovních skupinách
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | NLP in cults |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ kteří prošli skupinou pracující s NLP, je užitečné také „překládat�
 běžného jazyka, protože žargon může udržovat její výklad světa i po odchodu. Klinický
 postup popisuje stránka [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -207,37 +210,38 @@ postup popisuje stránka [post-cult protokol](@/kompendium/techniques/ea-6-4-2-p
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – příbuzný vzorec (Meta-model, Lost performative)
-- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggested amnesia)
-- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzný vzorec (Reframing a rámce, Pre-framing)
-- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – příbuzný vzorec (Kotvení, Group anchoring)
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzný vzorec (Submodality, Mapping across)
-- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Spiritual (purpose) level)
-- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Fourth position)
-- [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) – příbuzný vzorec (Práce s částmi, Splitting of the self in manipulative groups)
-- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzný vzorec (Metaprogramy, Internal and external reference)
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzný vzorec (Metaprogramy, Options and procedures)
-- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzný vzorec (Raport a kalibrace, Group rapport)
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzný vzorec (Jazykové vzorce, Loaded words)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzný vzorec (Vliv a zneužití NLP, Large-group seminars)
+- [Myšlenkově ukončující klišé](@/kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise.md) – příbuzné heslo (Argumentační fauly: Rétorické a dialogické taktiky, Thought-terminating cliché)
+- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – příbuzné heslo (Meta-model, Lost performative)
+- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzné heslo (Ericksonovská hypnóza, Suggested amnesia)
+- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzné heslo (Reframing a rámce, Pre-framing)
+- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – příbuzné heslo (Kotvení, Group anchoring)
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzné heslo (Submodality, Mapping across)
+- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Spiritual (purpose) level)
+- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Fourth position)
+- [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) – příbuzné heslo (Práce s částmi, Splitting of the self in manipulative groups)
+- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzné heslo (Metaprogramy, Internal and external reference)
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzné heslo (Metaprogramy, Options and procedures)
+- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzné heslo (Raport a kalibrace, Group rapport)
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzné heslo (Jazykové vzorce, Loaded words)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzné heslo (Vliv a zneužití NLP, Large-group seminars)
 
 **V kompendiu**
 
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – předchozí vzorec rodiny
-- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – předchozí heslo rodiny
+- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["NLP v prodeji", "NLP in sales", "NLP selling", "neurolingvistický prodej", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["NLP v prodeji", "NLP in sales", "NLP selling", "neurolingvistický prodej", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.02"
-nlp_slug = "nlp-v-prodeji"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "NLP in sales"
-nlp_aliases = ["NLP selling", "neurolingvistický prodej"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["odpor-jako-nedostatek-raportu", "kotveni-versus-ukotveni-odhadu", "rozhodovaci-strategie", "utilizace-strategie", "proaktivni-a-reaktivni", "hodnoty-pri-koupi", "metaprogramy-v-marketingu", "pacing-a-leading", "sladeni-hlasu-a-tempa", "raport-jako-nastroj-vlivu", "otazky-vysledku", "predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji", "falesne-zrcadleni-v-podvodech", "obrana-proti-vlivovym-vzorcum"]
-nlp_related_declared = ["predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji", "raport-jako-nastroj-vlivu", "hodnoty-pri-koupi", "metaprogramy-v-marketingu"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/organizational-defense/_index.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md", "kompendium/organizational-defense/_index.md"]
-nlp_prev = "konverzacni-hypnoza"
-nlp_next = "predpokladovy-zaver"
-nlp_position = 2
-nlp_family_size = 20
-nlp_sources = ["chartrand-bargh-1999", "charvet-1997", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1984", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "petty-cacioppo-1986", "sharpley-1984", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.02"
+catalog_slug = "nlp-v-prodeji"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "NLP in sales"
+catalog_aliases = ["NLP selling", "neurolingvistický prodej"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["odpor-jako-nedostatek-raportu", "kotveni-versus-ukotveni-odhadu", "rozhodovaci-strategie", "utilizace-strategie", "proaktivni-a-reaktivni", "hodnoty-pri-koupi", "metaprogramy-v-marketingu", "pacing-a-leading", "sladeni-hlasu-a-tempa", "raport-jako-nastroj-vlivu", "otazky-vysledku", "predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji", "falesne-zrcadleni-v-podvodech", "obrana-proti-vlivovym-vzorcum"]
+catalog_related_declared = ["predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji", "raport-jako-nastroj-vlivu", "hodnoty-pri-koupi", "metaprogramy-v-marketingu"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/organizational-defense/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md", "kompendium/organizational-defense/_index.md"]
+catalog_prev = "konverzacni-hypnoza"
+catalog_next = "predpokladovy-zaver"
+catalog_position = 2
+catalog_family_size = 20
+catalog_sources = ["chartrand-bargh-1999", "charvet-1997", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1984", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "petty-cacioppo-1986", "sharpley-1984", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # NLP v prodeji
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | NLP in sales |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ obrana](@/kompendium/organizational-defense/_index.md). Pro zotavení je užite�
 že podlehnout dobře vycvičenému prodejnímu rozhovoru není selhání inteligence, ale
 předvídatelný důsledek situace navržené tak, aby úvaha přišla až po rozhodnutí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,39 +223,39 @@ předvídatelný důsledek situace navržené tak, aby úvaha přišla až po ro
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – zvláštní případ tohoto vzorce
-- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – zvláštní případ tohoto vzorce
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – zvláštní případ tohoto vzorce
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – zvláštní případ tohoto hesla
+- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – zvláštní případ tohoto hesla
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzný vzorec (Předpoklady NLP, Resistance indicates a lack of rapport)
-- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzný vzorec (Kotvení, NLP anchoring versus the anchoring heuristic)
-- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Decision strategy)
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy utilisation)
-- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzný vzorec (Metaprogramy, Proactive and reactive)
-- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzný vzorec (Metaprogramy, Value buying)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzný vzorec (Raport a kalibrace, Pacing and leading)
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzný vzorec (Raport a kalibrace, Voice and tempo matching)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Outcome questions)
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Assumptive close)
-- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Alternative close)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzný vzorec (Vliv a zneužití NLP, Mirroring in scams)
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzný vzorec (Vliv a zneužití NLP, Defence against influence patterns)
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzné heslo (Předpoklady NLP, Resistance indicates a lack of rapport)
+- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzné heslo (Kotvení, NLP anchoring versus the anchoring heuristic)
+- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Decision strategy)
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy utilisation)
+- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzné heslo (Metaprogramy, Proactive and reactive)
+- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzné heslo (Metaprogramy, Value buying)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzné heslo (Cíle a výsledky, Outcome questions)
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Assumptive close)
+- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Alternative close)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzné heslo (Vliv a zneužití NLP, Mirroring in scams)
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzné heslo (Vliv a zneužití NLP, Defence against influence patterns)
 
 **V kompendiu**
 
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – předchozí vzorec rodiny
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – předchozí heslo rodiny
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

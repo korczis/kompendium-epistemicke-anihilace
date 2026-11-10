@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Příčina a následek", "Cause and effect", "příčina–následek", "ty mě nutíš", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Příčina a následek", "Cause and effect", "příčina–následek", "ty mě nutíš", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.12"
-nlp_slug = "pricina-a-nasledek"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Cause and effect"
-nlp_aliases = ["příčina–následek", "ty mě nutíš"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["zkreslovani", "cteni-myslenek", "komplexni-ekvivalence", "spojky-a-implikovana-pricinnost", "sleight-of-mouth", "struktura-presvedceni-som", "som-dusledek", "presvedceni-o-pricine", "protoze"]
-nlp_related_declared = ["spojky-a-implikovana-pricinnost", "komplexni-ekvivalence", "presvedceni-o-pricine", "protoze", "cteni-myslenek"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
-nlp_prev = "cteni-myslenek"
-nlp_next = "komplexni-ekvivalence"
-nlp_position = 12
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "ellis-1962", "herman-1992", "kahneman-2011", "langer-1978", "oconnor-seymour-1990", "satir-1972", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1999", "oconnor-seymour-1990"]
-nlp_sources_roots = ["satir-1972"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "kahneman-2011", "langer-1978", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.12"
+catalog_slug = "pricina-a-nasledek"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Cause and effect"
+catalog_aliases = ["příčina–následek", "ty mě nutíš"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["potvrzeni-dusledku", "post-hoc", "obracena-kauzalita", "zkreslovani", "cteni-myslenek", "komplexni-ekvivalence", "spojky-a-implikovana-pricinnost", "sleight-of-mouth", "struktura-presvedceni-som", "som-dusledek", "presvedceni-o-pricine", "protoze"]
+catalog_related_declared = ["spojky-a-implikovana-pricinnost", "komplexni-ekvivalence", "presvedceni-o-pricine", "protoze", "cteni-myslenek"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
+catalog_prev = "cteni-myslenek"
+catalog_next = "komplexni-ekvivalence"
+catalog_position = 12
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "ellis-1962", "herman-1992", "kahneman-2011", "langer-1978", "oconnor-seymour-1990", "satir-1972", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999", "oconnor-seymour-1990"]
+catalog_sources_roots = ["satir-1972"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "kahneman-2011", "langer-1978", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.b.toml"
 +++
 
 # Příčina a následek
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Cause and effect |
 | **Jiné názvy** | příčina–následek, ty mě nutíš |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ kterém se kauzální obviňování objevuje bez známek kontroly a násilí, m�
 práce na popisu vlastních reakcí v první osobě; kde jsou známky kontroly nebo násilí, má
 přednost bezpečí a samostatná podpora ohrožené osoby, nikoli společná práce páru.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,31 +221,34 @@ přednost bezpečí a samostatná podpora ohrožené osoby, nikoli společná pr
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzný vzorec (Základní pojmy NLP, Distortion)
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzný vzorec (Meta-model, Mind reading)
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzný vzorec (Meta-model, Complex equivalence)
-- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzný vzorec (Milton-model, Conjunctions and implied causatives)
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzný vzorec (Sleight of Mouth, Sleight of Mouth)
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzný vzorec (Sleight of Mouth, Belief structure in Sleight of Mouth)
-- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – příbuzný vzorec (Sleight of Mouth, Consequence)
-- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzný vzorec (Přesvědčení, Beliefs about cause)
-- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – příbuzný vzorec (Jazykové vzorce, Because)
+- [Potvrzení důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md) – příbuzné heslo (Argumentační fauly: Formální klamy, Affirming the consequent)
+- [Po tom, tedy kvůli tomu](@/kompendium/argumentacni-fauly/kauzalni/post-hoc.md) – příbuzné heslo (Argumentační fauly: Kauzální klamy, Post hoc ergo propter hoc)
+- [Obrácená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/obracena-kauzalita.md) – příbuzné heslo (Argumentační fauly: Kauzální klamy, Reverse causation)
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzné heslo (Základní pojmy NLP, Distortion)
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (Meta-model, Complex equivalence)
+- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzné heslo (Milton-model, Conjunctions and implied causatives)
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzné heslo (Sleight of Mouth, Sleight of Mouth)
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzné heslo (Sleight of Mouth, Belief structure in Sleight of Mouth)
+- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – příbuzné heslo (Sleight of Mouth, Consequence)
+- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzné heslo (Přesvědčení, Beliefs about cause)
+- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – příbuzné heslo (Jazykové vzorce, Because)
 
 **V kompendiu**
 
-- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – předchozí vzorec rodiny
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – předchozí heslo rodiny
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

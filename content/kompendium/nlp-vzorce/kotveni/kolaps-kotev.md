@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kolaps kotev", "Collapsing anchors", "integrace kotev", "souběžné spuštění kotev", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Kolaps kotev", "Collapsing anchors", "integrace kotev", "souběžné spuštění kotev", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.04"
-nlp_slug = "kolaps-kotev"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Collapsing anchors"
-nlp_aliases = ["integrace kotev", "souběžné spuštění kotev"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["retezeni-kotev", "kinesteticke-kotvy", "prenos-zdroje", "testovani-kotvy", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "rychla-lecba-fobie", "zmena-osobni-historie", "vizualni-squash", "integrace-polarit"]
-nlp_related_declared = ["rychla-lecba-fobie", "integrace-polarit", "zmena-osobni-historie", "testovani-kotvy", "kotveni-v-kontrolujicich-vztazich"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/testovani-kotvy.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_prev = "retezeni-kotev"
-nlp_next = "stohovani-kotev"
-nlp_position = 4
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "heap-1988", "herman-1992", "lankton-1980", "lilienfeld-2015", "pavlov-1927", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "lankton-1980"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["heap-1988", "herman-1992", "lilienfeld-2015", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.04"
+catalog_slug = "kolaps-kotev"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Collapsing anchors"
+catalog_aliases = ["integrace kotev", "souběžné spuštění kotev"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["retezeni-kotev", "kinesteticke-kotvy", "prenos-zdroje", "testovani-kotvy", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "rychla-lecba-fobie", "zmena-osobni-historie", "vizualni-squash", "integrace-polarit"]
+catalog_related_declared = ["rychla-lecba-fobie", "integrace-polarit", "zmena-osobni-historie", "testovani-kotvy", "kotveni-v-kontrolujicich-vztazich"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/testovani-kotvy.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_prev = "retezeni-kotev"
+catalog_next = "stohovani-kotev"
+catalog_position = 4
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "heap-1988", "herman-1992", "lankton-1980", "lilienfeld-2015", "pavlov-1927", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "lankton-1980"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["heap-1988", "herman-1992", "lilienfeld-2015", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.toml"
 +++
 
 # Kolaps kotev
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Collapsing anchors |
 | **Jiné názvy** | integrace kotev, souběžné spuštění kotev |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -120,7 +123,7 @@ stavu a sleduje se, zda reakce zeslábla, což katalog popisuje v hesle
 [testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md).
 
 Z hlediska teorie učení je takový průběh vysvětlitelný i jinak. Přechodný zmatek a
-uvolnění mohou odrážet prosté odvedení pozornosti, sugesci a očekávání, které praktik
+uvolnění mohou odrážet prosté [odvedení pozornosti](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md), sugesci a očekávání, které praktik
 vytvořil. Oslabení reakce bezprostředně po sezení neříká nic o tom, zda se reakce nevrátí,
 protože vyhasnutí a spontánní návrat jsou v podmiňování běžné (Pavlov 1927). A zatímco
 systematická desenzitizace staví na tom, že se klient s obávaným podnětem opakovaně setkává
@@ -195,7 +198,7 @@ léčbu, jejíž účinnost je doložena, a nepřipisovat jednorázovému zásah
 Případný návrat reakce po čase není selháním člověka, ale běžným jevem, který známe z
 výzkumu vyhasínání (Pavlov 1927).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,32 +217,32 @@ výzkumu vyhasínání (Pavlov 1927).
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzný vzorec (Kotvení, Chaining anchors)
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzný vzorec (Kotvení, Kinaesthetic anchors)
-- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzný vzorec (Kotvení, Resource transfer)
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzný vzorec (Kotvení, Testing an anchor)
-- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzný vzorec (Kotvení, Unintended anchors and triggers)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – příbuzný vzorec (Práce s částmi, Visual squash)
-- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzný vzorec (Práce s částmi, Polarity integration)
+- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzné heslo (Kotvení, Chaining anchors)
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzné heslo (Kotvení, Kinaesthetic anchors)
+- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzné heslo (Kotvení, Resource transfer)
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzné heslo (Kotvení, Testing an anchor)
+- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzné heslo (Kotvení, Unintended anchors and triggers)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – příbuzné heslo (Práce s částmi, Visual squash)
+- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzné heslo (Práce s částmi, Polarity integration)
 
 **V kompendiu**
 
-- [EA-5.3.9 Afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.9 Afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – předchozí vzorec rodiny
-- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – předchozí heslo rodiny
+- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

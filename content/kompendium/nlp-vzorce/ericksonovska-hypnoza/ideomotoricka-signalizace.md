@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Ideomotorická signalizace", "Ideomotor signalling", "ideomotorické signály", "prstové signály", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Ideomotorická signalizace", "Ideomotor signalling", "ideomotorické signály", "prstové signály", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.25"
-nlp_slug = "ideomotoricka-signalizace"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Ideomotor signalling"
-nlp_aliases = ["ideomotorické signály", "prstové signály"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["trans-pojem", "indukce-podanim-ruky", "levitace-ruky", "vekova-regrese", "vedome-nevedoma-dvojna-vazba", "implikovane-direktivum", "sestikrokovy-reframing", "kalibrace-ano-ne"]
-nlp_related_declared = ["levitace-ruky", "sestikrokovy-reframing", "vekova-regrese", "trans-pojem", "kalibrace-ano-ne"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md", "kompendium/forensic-legal/_index.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/epistemicke-trauma.md", "kompendium/forensic-legal/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md"]
-nlp_prev = "sugesce-pokryvajici-vsechny-moznosti"
-nlp_next = "frakcionace"
-nlp_position = 25
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1982", "erickson-rossi-rossi-1976", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od příbuzných jevů", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.25"
+catalog_slug = "ideomotoricka-signalizace"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Ideomotor signalling"
+catalog_aliases = ["ideomotorické signály", "prstové signály"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["trans-pojem", "indukce-podanim-ruky", "levitace-ruky", "vekova-regrese", "vedome-nevedoma-dvojna-vazba", "implikovane-direktivum", "sestikrokovy-reframing", "kalibrace-ano-ne"]
+catalog_related_declared = ["levitace-ruky", "sestikrokovy-reframing", "vekova-regrese", "trans-pojem", "kalibrace-ano-ne"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md", "kompendium/forensic-legal/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/epistemicke-trauma.md", "kompendium/forensic-legal/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md"]
+catalog_prev = "sugesce-pokryvajici-vsechny-moznosti"
+catalog_next = "frakcionace"
+catalog_position = 25
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1982", "erickson-rossi-rossi-1976", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od příbuzných jevů", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
 +++
 
 # Ideomotorická signalizace
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.25` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Ideomotor signalling |
 | **Jiné názvy** | ideomotorické signály, prstové signály |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ klient se učí rozlišovat mezi jistotou prožitku a doloženosti faktů. Pro v
 soudní znalce platí, že výpověď, která vznikla nebo se proměnila po sezeních s výkladem
 mimovolních signálů, vyžaduje zvláštní opatrnost při hodnocení.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,30 +221,30 @@ mimovolních signálů, vyžaduje zvláštní opatrnost při hodnocení.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzný vzorec (Ericksonovská hypnóza, Handshake induction)
-- [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – příbuzný vzorec (Ericksonovská hypnóza, Hand levitation)
-- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – příbuzný vzorec (Ericksonovská hypnóza, Age regression)
-- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Conscious–unconscious double bind)
-- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – příbuzný vzorec (Ericksonovská hypnóza, Implied directive)
-- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Six-step reframing)
-- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzný vzorec (Raport a kalibrace, Yes/no calibration)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzné heslo (Ericksonovská hypnóza, Handshake induction)
+- [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – příbuzné heslo (Ericksonovská hypnóza, Hand levitation)
+- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – příbuzné heslo (Ericksonovská hypnóza, Age regression)
+- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Conscious–unconscious double bind)
+- [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – příbuzné heslo (Ericksonovská hypnóza, Implied directive)
+- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzné heslo (Reframing a rámce, Six-step reframing)
+- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzné heslo (Raport a kalibrace, Yes/no calibration)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.2 Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.2 Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – předchozí vzorec rodiny
-- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – předchozí heslo rodiny
+- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

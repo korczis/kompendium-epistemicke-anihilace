@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Cíl pod vlastní kontrolou", "Self-initiated and self-maintained", "cíl zahájený a udržovaný vlastními silami", "vlastní dosah cíle", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Cíl pod vlastní kontrolou", "Self-initiated and self-maintained", "cíl zahájený a udržovaný vlastními silami", "vlastní dosah cíle", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.04"
-nlp_slug = "cil-pod-vlastni-kontrolou"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Self-initiated and self-maintained"
-nlp_aliases = ["cíl zahájený a udržovaný vlastními silami", "vlastní dosah cíle"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "dobre-formulovany-vysledek"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["dobre-formulovany-vysledek"]
-nlp_related = ["lide-maji-potrebne-zdroje", "proaktivni-a-reaktivni", "odpovednost", "ekologie-cile"]
-nlp_related_declared = ["odpovednost", "proaktivni-a-reaktivni", "lide-maji-potrebne-zdroje", "ekologie-cile"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/03-zakladni-kategorie/scenar-k/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/metaprogramy/odpovednost.md", "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md"]
-nlp_prev = "smyslove-dukazy-cile"
-nlp_next = "kontext-cile"
-nlp_position = 4
-nlp_family_size = 10
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "herman-1992", "miller-galanter-pribram-1960", "miller-rollnick-2013", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "stark-2007", "sturt-2012", "watzlawick-1974"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960", "satir-1972", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "miller-rollnick-2013", "norcross-2006", "passmore-rowson-2019", "stark-2007", "sturt-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.04"
+catalog_slug = "cil-pod-vlastni-kontrolou"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Self-initiated and self-maintained"
+catalog_aliases = ["cíl zahájený a udržovaný vlastními silami", "vlastní dosah cíle"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "dobre-formulovany-vysledek"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["dobre-formulovany-vysledek"]
+catalog_related = ["lide-maji-potrebne-zdroje", "proaktivni-a-reaktivni", "odpovednost", "ekologie-cile"]
+catalog_related_declared = ["odpovednost", "proaktivni-a-reaktivni", "lide-maji-potrebne-zdroje", "ekologie-cile"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/03-zakladni-kategorie/scenar-k/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/metaprogramy/odpovednost.md", "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md"]
+catalog_prev = "smyslove-dukazy-cile"
+catalog_next = "kontext-cile"
+catalog_position = 4
+catalog_family_size = 10
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "herman-1992", "miller-galanter-pribram-1960", "miller-rollnick-2013", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "stark-2007", "sturt-2012", "watzlawick-1974"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "satir-1972", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "miller-rollnick-2013", "norcross-2006", "passmore-rowson-2019", "stark-2007", "sturt-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Cíl pod vlastní kontrolou
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Self-initiated and self-maintained |
 | **Jiné názvy** | cíl zahájený a udržovaný vlastními silami, vlastní dosah cíle |
-| **Obecnější vzorec** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
+| **Obecnější heslo** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ vlastní kontrolu může prohloubit sebeobviňování (Herman 1992). Odborník, 
 používá, by měl vždy nejprve ověřit, zda klient není v situaci, kde jeho jednání druhou
 stranu nezastaví.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,25 +218,25 @@ stranu nezastaví.
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzný vzorec (Předpoklady NLP, People have the resources they need)
-- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzný vzorec (Metaprogramy, Proactive and reactive)
-- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzný vzorec (Metaprogramy, Responsibility)
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzný vzorec (Cíle a výsledky, Ecology of the outcome)
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzné heslo (Předpoklady NLP, People have the resources they need)
+- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzné heslo (Metaprogramy, Proactive and reactive)
+- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzné heslo (Metaprogramy, Responsibility)
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)
 
 **V kompendiu**
 
-- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Scénář K: pokročilá konfigurace – totalizace skrze výkon a roli](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Scénář K: pokročilá konfigurace – totalizace skrze výkon a roli](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – předchozí vzorec rodiny
-- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – předchozí heslo rodiny
+- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

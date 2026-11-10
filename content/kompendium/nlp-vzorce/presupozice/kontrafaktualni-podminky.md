@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kontrafaktuální podmínky", "Counterfactual conditionals", "neskutečné podmínky", "podmínky proti skutečnosti", "Jazykové presupozice", "NLP", "neurolingvistické programování"]
+keywords = ["Kontrafaktuální podmínky", "Counterfactual conditionals", "neskutečné podmínky", "podmínky proti skutečnosti", "Jazykové presupozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-06.14"
-nlp_slug = "kontrafaktualni-podminky"
-nlp_family = "presupozice"
-nlp_family_code = "06"
-nlp_family_title = "Jazykové presupozice"
-nlp_family_en = "Linguistic presuppositions"
-nlp_part = "presupozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Counterfactual conditionals"
-nlp_aliases = ["neskutečné podmínky", "podmínky proti skutečnosti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "jazykove-presupozice"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["jazykove-presupozice"]
-nlp_related = ["ramec-jako-by", "zmena-osobni-historie", "beznadej-bezmoc-nehodnost", "casove-presuny-v-jazyce"]
-nlp_related_declared = ["ramec-jako-by", "zmena-osobni-historie", "casove-presuny-v-jazyce", "beznadej-bezmoc-nehodnost"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md", "kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md", "kompendium/nlp-vzorce/reframing/ramec-jako-by.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "vztazne-vety-presupozice"
-nlp_next = "faktivni-slovesa"
-nlp_position = 14
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "beck-1976", "grice-1975", "herman-1992", "kahneman-2011", "levinson-1983", "lilienfeld-2015", "oconnor-seymour-1990", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["grice-1975", "levinson-1983"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lilienfeld-2015", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presupozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-06.14"
+catalog_slug = "kontrafaktualni-podminky"
+catalog_family = "presupozice"
+catalog_family_code = "06"
+catalog_family_title = "Jazykové presupozice"
+catalog_family_en = "Linguistic presuppositions"
+catalog_part = "presupozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Counterfactual conditionals"
+catalog_aliases = ["neskutečné podmínky", "podmínky proti skutečnosti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "jazykove-presupozice"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["jazykove-presupozice"]
+catalog_related = ["ramec-jako-by", "zmena-osobni-historie", "beznadej-bezmoc-nehodnost", "casove-presuny-v-jazyce"]
+catalog_related_declared = ["ramec-jako-by", "zmena-osobni-historie", "casove-presuny-v-jazyce", "beznadej-bezmoc-nehodnost"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md", "kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md", "kompendium/nlp-vzorce/reframing/ramec-jako-by.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "vztazne-vety-presupozice"
+catalog_next = "faktivni-slovesa"
+catalog_position = 14
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "beck-1976", "grice-1975", "herman-1992", "kahneman-2011", "levinson-1983", "lilienfeld-2015", "oconnor-seymour-1990", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["grice-1975", "levinson-1983"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lilienfeld-2015", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presupozice.b.toml"
 +++
 
 # Kontrafaktuální podmínky
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-06.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Counterfactual conditionals |
 | **Jiné názvy** | neskutečné podmínky, podmínky proti skutečnosti |
-| **Obecnější vzorec** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
+| **Obecnější heslo** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -209,7 +212,7 @@ mezi tím, co mohli ovlivnit, a tím, co ovlivnit nemohli, a uznání, že sebeo
 plnilo ochrannou funkci (Herman 1992). Tato práce nemá podobu přepisování minulosti, ale
 střízlivého vážení příčin.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -229,25 +232,25 @@ střízlivého vážení příčin.
 
 **Rodina a hierarchie**
 
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
-- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzný vzorec (Jazykové vzorce, Verb tense shifts)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – příbuzné heslo (Jazykové vzorce, Verb tense shifts)
 
 **V kompendiu**
 
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – předchozí vzorec rodiny
-- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – předchozí heslo rodiny
+- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

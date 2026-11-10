@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Prostorové umístění představ", "Spatial location of images", "umístění obrazu v zorném poli", "prostorové kódování představ", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Prostorové umístění představ", "Spatial location of images", "umístění obrazu v zorném poli", "prostorové kódování představ", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.18"
-nlp_slug = "prostorove-umisteni-obrazu"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Spatial location of images"
-nlp_aliases = ["umístění obrazu v zorném poli", "prostorové kódování představ"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["prostorove-kotveni", "vizualni-submodality", "filmova-technika", "zmena-tvaru-casove-osy", "casove-kodovani"]
-nlp_related_declared = ["vizualni-submodality", "prostorove-kotveni", "zmena-tvaru-casove-osy", "filmova-technika", "casove-kodovani"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/casova-osa/casove-kodovani.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/submodality/vizualni-submodality.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
-nlp_prev = "filmova-technika"
-nlp_next = "submodality-v-reklame"
-nlp_position = 18
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "herman-1992", "james-woodsmall-1988", "lakoff-johnson-1980", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "lakoff-johnson-1980", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.18"
+catalog_slug = "prostorove-umisteni-obrazu"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Spatial location of images"
+catalog_aliases = ["umístění obrazu v zorném poli", "prostorové kódování představ"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["prostorove-kotveni", "vizualni-submodality", "filmova-technika", "zmena-tvaru-casove-osy", "casove-kodovani"]
+catalog_related_declared = ["vizualni-submodality", "prostorove-kotveni", "zmena-tvaru-casove-osy", "filmova-technika", "casove-kodovani"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/casova-osa/casove-kodovani.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/submodality/vizualni-submodality.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
+catalog_prev = "filmova-technika"
+catalog_next = "submodality-v-reklame"
+catalog_position = 18
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "herman-1992", "james-woodsmall-1988", "lakoff-johnson-1980", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "lakoff-johnson-1980", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Prostorové umístění představ
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.18` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Spatial location of images |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/submodality.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ spočívá v obnově vlastního popisu událostí, opřeného o záznamy a svěd
 člověk sám své zkušenosti uspořádává (Herman 1992). Terapeut může prostorové kódování klienta
 využít jako jazyk rozhovoru, ale neměl by ho měnit bez výslovné dohody a bez zkoumání obsahu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,26 +216,26 @@ využít jako jazyk rozhovoru, ale neměl by ho měnit bez výslovné dohody a b
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – příbuzný vzorec (Kotvení, Spatial anchoring)
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzný vzorec (Submodality, Visual submodalities)
-- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzný vzorec (Submodality, Movie theatre technique)
-- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzný vzorec (Časová osa, Changing the shape of the timeline)
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzný vzorec (Časová osa, Temporal coding of experience)
+- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – příbuzné heslo (Kotvení, Spatial anchoring)
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzné heslo (Submodality, Visual submodalities)
+- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzné heslo (Submodality, Movie theatre technique)
+- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzné heslo (Časová osa, Changing the shape of the timeline)
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzné heslo (Časová osa, Temporal coding of experience)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – předchozí vzorec rodiny
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – předchozí heslo rodiny
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

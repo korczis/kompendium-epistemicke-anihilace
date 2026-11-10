@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Řetězení přesvědčení", "Belief chaining", "řetěz přesvědčení", "belief chaining", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Řetězení přesvědčení", "Belief chaining", "řetěz přesvědčení", "belief chaining", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.09"
-nlp_slug = "retezeni-presvedceni"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Belief chaining"
-nlp_aliases = ["řetěz přesvědčení", "belief chaining"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["ano-sada", "retezeni-sugesci", "som-hierarchie-kriterii", "retezeni-kotev", "cyklus-zmeny-presvedceni"]
-nlp_related_declared = ["retezeni-kotev", "som-hierarchie-kriterii", "retezeni-sugesci", "cyklus-zmeny-presvedceni", "ano-sada"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kotveni/retezeni-kotev.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md"]
-nlp_prev = "beznadej-bezmoc-nehodnost"
-nlp_next = "kartezske-otazky"
-nlp_position = 9
-nlp_family_size = 14
-nlp_sources = ["cialdini-2009", "dilts-1990", "dilts-1999", "dilts-delozier-2000", "dilts-1980", "festinger-1957", "freedman-fraser-1966", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-1999", "dilts-delozier-2000", "dilts-1980"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "festinger-1957", "freedman-fraser-1966", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.09"
+catalog_slug = "retezeni-presvedceni"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Belief chaining"
+catalog_aliases = ["řetěz přesvědčení", "belief chaining"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["ano-sada", "retezeni-sugesci", "som-hierarchie-kriterii", "retezeni-kotev", "cyklus-zmeny-presvedceni"]
+catalog_related_declared = ["retezeni-kotev", "som-hierarchie-kriterii", "retezeni-sugesci", "cyklus-zmeny-presvedceni", "ano-sada"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kotveni/retezeni-kotev.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md"]
+catalog_prev = "beznadej-bezmoc-nehodnost"
+catalog_next = "kartezske-otazky"
+catalog_position = 9
+catalog_family_size = 14
+catalog_sources = ["cialdini-2009", "dilts-1990", "dilts-1999", "dilts-delozier-2000", "dilts-1980", "festinger-1957", "freedman-fraser-1966", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-1999", "dilts-delozier-2000", "dilts-1980"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "festinger-1957", "freedman-fraser-1966", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.b.toml"
 +++
 
 # Řetězení přesvědčení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Belief chaining |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/presvedceni.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ provází. Singerová a Lalichová upozorňují, že bývalí členové skupin s
 naivity, a že pochopení postupného mechanismu je důležitou součástí zotavení (Singer a
 Lalich 1995).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,26 +219,26 @@ Lalich 1995).
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – příbuzný vzorec (Milton-model, Linking suggestions)
-- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – příbuzný vzorec (Sleight of Mouth, Hierarchy of criteria)
-- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzný vzorec (Kotvení, Chaining anchors)
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief change cycle)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – příbuzné heslo (Milton-model, Linking suggestions)
+- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – příbuzné heslo (Sleight of Mouth, Hierarchy of criteria)
+- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzné heslo (Kotvení, Chaining anchors)
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief change cycle)
 
 **V kompendiu**
 
-- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – předchozí vzorec rodiny
-- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – předchozí heslo rodiny
+- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

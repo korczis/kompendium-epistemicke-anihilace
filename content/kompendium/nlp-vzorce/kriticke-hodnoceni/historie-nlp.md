@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Historie NLP", "History of NLP", "vznik NLP", "dějiny neurolingvistického programování", "Kritické hodnocení NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Historie NLP", "History of NLP", "vznik NLP", "dějiny neurolingvistického programování", "Kritické hodnocení NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-22.11"
-nlp_slug = "historie-nlp"
-nlp_family = "kriticke-hodnoceni"
-nlp_family_code = "22"
-nlp_family_title = "Kritické hodnocení NLP"
-nlp_family_en = "Critical appraisal of NLP"
-nlp_part = "kriticke-hodnoceni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "History of NLP"
-nlp_aliases = ["vznik NLP", "dějiny neurolingvistického programování"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = ["koreny-nlp"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["meta-model", "milton-model", "modelovani-excelence", "novy-kod", "trh-certifikaci-nlp", "koreny-nlp"]
-nlp_related_declared = ["koreny-nlp", "modelovani-excelence", "meta-model", "milton-model", "novy-kod", "trh-certifikaci-nlp"]
-nlp_kompendium = ["kompendium/02-uvod/historicky-kontext.md", "kompendium/techniques/ea-8-3-1-foundational-readings.md"]
-nlp_links_prose = ["kompendium/02-uvod/historicky-kontext.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md"]
-nlp_prev = "falzifikovatelnost-nlp"
-nlp_next = "koreny-nlp"
-nlp_position = 11
-nlp_family_size = 14
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bandler-grinder-1982", "cameron-bandler-1978", "charvet-1997", "chomsky-1965", "dilts-1990", "dilts-1999", "dilts-1980", "dilts-hallbom-smith-1990", "druckman-swets-1988", "erickson-rossi-rossi-1976", "gilovich-1991", "gordon-1978", "grinder-bandler-1976", "grinder-bandler-1981", "grinder-bostic-2001", "grinder-delozier-1987", "grinder-delozier-bandler-1977", "haley-1973", "hall-bodenhamer-1997", "heap-1988", "james-woodsmall-1988", "kirsch-lynn-1995", "lankton-1980", "lilienfeld-2015", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bandler-grinder-1982", "cameron-bandler-1978", "charvet-1997", "dilts-1990", "dilts-1999", "dilts-1980", "dilts-hallbom-smith-1990", "gordon-1978", "grinder-bandler-1976", "grinder-bandler-1981", "grinder-bostic-2001", "grinder-delozier-1987", "grinder-delozier-bandler-1977", "hall-bodenhamer-1997", "james-woodsmall-1988", "lankton-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "haley-1973"]
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Etapy vývoje", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kriticke-hodnoceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-22.11"
+catalog_slug = "historie-nlp"
+catalog_family = "kriticke-hodnoceni"
+catalog_family_code = "22"
+catalog_family_title = "Kritické hodnocení NLP"
+catalog_family_en = "Critical appraisal of NLP"
+catalog_part = "kriticke-hodnoceni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "History of NLP"
+catalog_aliases = ["vznik NLP", "dějiny neurolingvistického programování"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = ["koreny-nlp"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["meta-model", "milton-model", "modelovani-excelence", "novy-kod", "trh-certifikaci-nlp", "koreny-nlp"]
+catalog_related_declared = ["koreny-nlp", "modelovani-excelence", "meta-model", "milton-model", "novy-kod", "trh-certifikaci-nlp"]
+catalog_kompendium = ["kompendium/02-uvod/historicky-kontext.md", "kompendium/techniques/ea-8-3-1-foundational-readings.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/02-uvod/historicky-kontext.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md"]
+catalog_prev = "falzifikovatelnost-nlp"
+catalog_next = "koreny-nlp"
+catalog_position = 11
+catalog_family_size = 14
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bandler-grinder-1982", "cameron-bandler-1978", "charvet-1997", "chomsky-1965", "dilts-1990", "dilts-1999", "dilts-1980", "dilts-hallbom-smith-1990", "druckman-swets-1988", "erickson-rossi-rossi-1976", "gilovich-1991", "gordon-1978", "grinder-bandler-1976", "grinder-bandler-1981", "grinder-bostic-2001", "grinder-delozier-1987", "grinder-delozier-bandler-1977", "haley-1973", "hall-bodenhamer-1997", "heap-1988", "james-woodsmall-1988", "kirsch-lynn-1995", "lankton-1980", "lilienfeld-2015", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bandler-grinder-1982", "cameron-bandler-1978", "charvet-1997", "dilts-1990", "dilts-1999", "dilts-1980", "dilts-hallbom-smith-1990", "gordon-1978", "grinder-bandler-1976", "grinder-bandler-1981", "grinder-bostic-2001", "grinder-delozier-1987", "grinder-delozier-bandler-1977", "hall-bodenhamer-1997", "james-woodsmall-1988", "lankton-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Etapy vývoje", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kriticke-hodnoceni.b.toml"
 +++
 
 # Historie NLP
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-22.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | History of NLP |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/kriticke-hodnoceni.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ naučili, pomáhá rozlišit, co si z výcviku odnesli jako obecně platnou dove
 pozorné naslouchání, a co jako nedoložené tvrzení. Takové třídění chrání před dvěma
 extrémy, slepým lpěním i úplným zavržením vlastní zkušenosti (Gilovich 1991).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -245,27 +248,27 @@ extrémy, slepým lpěním i úplným zavržením vlastní zkušenosti (Gilovich
 
 **Rodina a hierarchie**
 
-- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – zvláštní případ tohoto vzorce
+- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzný vzorec (Vliv a zneužití NLP, The NLP certification market)
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
 
 **V kompendiu**
 
-- [2.2 Historický kontext studia epistemických traumat](@/kompendium/02-uvod/historicky-kontext.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.3.1 Základní literatura](@/kompendium/techniques/ea-8-3-1-foundational-readings.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [2.2 Historický kontext studia epistemických traumat](@/kompendium/02-uvod/historicky-kontext.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.3.1 Základní literatura](@/kompendium/techniques/ea-8-3-1-foundational-readings.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – předchozí vzorec rodiny
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – předchozí heslo rodiny
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

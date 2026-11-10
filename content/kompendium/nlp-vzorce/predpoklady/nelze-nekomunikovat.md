@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Nelze nekomunikovat", "One cannot not communicate", "první axiom komunikace", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Nelze nekomunikovat", "One cannot not communicate", "první axiom komunikace", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.14"
-nlp_slug = "nelze-nekomunikovat"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "One cannot not communicate"
-nlp_aliases = ["první axiom komunikace"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vyznam-komunikace-je-reakce", "komunikace-vedoma-a-nevedoma", "odpovednost-za-komunikaci", "kalibrace", "cteni-myslenek", "cteni-reci-tela"]
-nlp_related_declared = ["komunikace-vedoma-a-nevedoma", "cteni-myslenek", "kalibrace", "cteni-reci-tela", "vyznam-komunikace-je-reakce"]
-nlp_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md", "kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
-nlp_prev = "modelovatelnost-excelence"
-nlp_next = "volba-je-lepsi-nez-zadna-volba"
-nlp_position = 14
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1979", "bateson-1972", "bateson-1956", "ekman-2003", "grice-1975", "herman-1992", "oconnor-seymour-1990", "vrij-2008", "watzlawick-1967", "wiseman-2012"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "bateson-1956", "grice-1975", "watzlawick-1967"]
-nlp_sources_critical = ["ekman-2003", "herman-1992", "vrij-2008", "wiseman-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.14"
+catalog_slug = "nelze-nekomunikovat"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "One cannot not communicate"
+catalog_aliases = ["první axiom komunikace"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vyznam-komunikace-je-reakce", "komunikace-vedoma-a-nevedoma", "odpovednost-za-komunikaci", "kalibrace", "cteni-myslenek", "cteni-reci-tela"]
+catalog_related_declared = ["komunikace-vedoma-a-nevedoma", "cteni-myslenek", "kalibrace", "cteni-reci-tela", "vyznam-komunikace-je-reakce"]
+catalog_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md", "kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
+catalog_prev = "modelovatelnost-excelence"
+catalog_next = "volba-je-lepsi-nez-zadna-volba"
+catalog_position = 14
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1979", "bateson-1972", "bateson-1956", "ekman-2003", "grice-1975", "herman-1992", "oconnor-seymour-1990", "vrij-2008", "watzlawick-1967", "wiseman-2012"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "bateson-1956", "grice-1975", "watzlawick-1967"]
+catalog_sources_critical = ["ekman-2003", "herman-1992", "vrij-2008", "wiseman-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Nelze nekomunikovat
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | One cannot not communicate |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ pracovat s technikami, které by znovu zdůrazňovaly „čtení“ jejich never
 přístupy, ve kterých o významu vlastních prožitků rozhoduje klient. Pro odborníky z toho plyne
 zásada pokory: kalibrace neverbálního projevu je hypotéza, nikoli vhled do cizí mysli.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,27 +218,27 @@ zásada pokory: kalibrace neverbálního projevu je hypotéza, nikoli vhled do c
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzný vzorec (Předpoklady NLP, The meaning of communication is the response you get)
-- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzný vzorec (Předpoklady NLP, Communication is both conscious and unconscious)
-- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzný vzorec (Předpoklady NLP, The communicator is responsible for the communication)
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzný vzorec (Meta-model, Mind reading)
-- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzný vzorec (Raport a kalibrace, Body-language reading in NLP)
+- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzné heslo (Předpoklady NLP, The meaning of communication is the response you get)
+- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzné heslo (Předpoklady NLP, Communication is both conscious and unconscious)
+- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzné heslo (Předpoklady NLP, The communicator is responsible for the communication)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
+- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzné heslo (Raport a kalibrace, Body-language reading in NLP)
 
 **V kompendiu**
 
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – předchozí vzorec rodiny
-- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – předchozí heslo rodiny
+- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

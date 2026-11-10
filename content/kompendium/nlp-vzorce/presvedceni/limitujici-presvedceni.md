@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Limitující přesvědčení", "Limiting beliefs", "omezující přesvědčení", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Limitující přesvědčení", "Limiting beliefs", "omezující přesvědčení", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.04"
-nlp_slug = "limitujici-presvedceni"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Limiting beliefs"
-nlp_aliases = ["omezující přesvědčení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "presvedceni-jako-mapa"
-nlp_narrower = ["beznadej-bezmoc-nehodnost", "myslenkovy-virus"]
-nlp_depth = 2
-nlp_ancestors = ["presvedceni-jako-mapa", "mapa-neni-uzemi"]
-nlp_related = ["zobecnovani", "modalni-operator-moznosti", "struktura-presvedceni-som", "som-protipriklad", "selhani-jako-zpetna-vazba-vzorec", "zmena-presvedceni-submodalitami", "limitujici-rozhodnuti", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "audit-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "beznadej-bezmoc-nehodnost", "presvedceni-jako-mapa", "zatim", "velke-seminare"]
-nlp_related_declared = ["beznadej-bezmoc-nehodnost", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "modalni-operator-moznosti", "velke-seminare"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/case-studies/51-new-age-recovery.md"]
-nlp_links_prose = ["kompendium/case-studies/51-new-age-recovery.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md", "kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md"]
-nlp_prev = "audit-presvedceni"
-nlp_next = "presvedceni-o-pricine"
-nlp_position = 4
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "gilovich-1991", "lilienfeld-2015", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "gilovich-1991", "lilienfeld-2015", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.04"
+catalog_slug = "limitujici-presvedceni"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Limiting beliefs"
+catalog_aliases = ["omezující přesvědčení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "presvedceni-jako-mapa"
+catalog_narrower = ["beznadej-bezmoc-nehodnost", "myslenkovy-virus"]
+catalog_depth = 2
+catalog_ancestors = ["presvedceni-jako-mapa", "mapa-neni-uzemi"]
+catalog_related = ["zobecnovani", "modalni-operator-moznosti", "struktura-presvedceni-som", "som-protipriklad", "selhani-jako-zpetna-vazba-vzorec", "zmena-presvedceni-submodalitami", "limitujici-rozhodnuti", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "audit-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "beznadej-bezmoc-nehodnost", "presvedceni-jako-mapa", "zatim", "velke-seminare"]
+catalog_related_declared = ["beznadej-bezmoc-nehodnost", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "modalni-operator-moznosti", "velke-seminare"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/case-studies/51-new-age-recovery.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/51-new-age-recovery.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md", "kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md"]
+catalog_prev = "audit-presvedceni"
+catalog_next = "presvedceni-o-pricine"
+catalog_position = 4
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "gilovich-1991", "lilienfeld-2015", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "gilovich-1991", "lilienfeld-2015", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.toml"
 +++
 
 # Limitující přesvědčení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Limiting beliefs |
 | **Jiné názvy** | omezující přesvědčení |
-| **Obecnější vzorec** | [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) |
+| **Obecnější heslo** | [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -204,7 +207,7 @@ popisuje heslo
 a v širším rámci kompendia heslo o
 [implantaci existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -226,42 +229,42 @@ a v širším rámci kompendia heslo o
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – zvláštní případ tohoto vzorce
-- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – zvláštní případ tohoto vzorce
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – zvláštní případ tohoto hesla
+- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – příbuzný vzorec (Základní pojmy NLP, Generalisation)
-- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – příbuzný vzorec (Meta-model, Modal operator of possibility)
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzný vzorec (Sleight of Mouth, Belief structure in Sleight of Mouth)
-- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzný vzorec (Sleight of Mouth, Counter-example)
-- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzný vzorec (Reframing a rámce, Failure into feedback)
-- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzný vzorec (Submodality, Belief change through submodalities)
-- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzný vzorec (Časová osa, Limiting decisions)
-- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Beliefs and values level)
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief change cycle)
-- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzný vzorec (Přesvědčení, Museum of old beliefs)
-- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief audit)
-- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzný vzorec (Přesvědčení, Beliefs about cause)
-- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzný vzorec (Přesvědčení, Beliefs about meaning)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
-- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzný vzorec (Přesvědčení, Beliefs as part of the map)
-- [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – příbuzný vzorec (Jazykové vzorce, Yet)
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzný vzorec (Vliv a zneužití NLP, Large-group seminars)
+- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – příbuzné heslo (Základní pojmy NLP, Generalisation)
+- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – příbuzné heslo (Meta-model, Modal operator of possibility)
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzné heslo (Sleight of Mouth, Belief structure in Sleight of Mouth)
+- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzné heslo (Sleight of Mouth, Counter-example)
+- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzné heslo (Reframing a rámce, Failure into feedback)
+- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzné heslo (Submodality, Belief change through submodalities)
+- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzné heslo (Časová osa, Limiting decisions)
+- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief change cycle)
+- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzné heslo (Přesvědčení, Museum of old beliefs)
+- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief audit)
+- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzné heslo (Přesvědčení, Beliefs about cause)
+- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzné heslo (Přesvědčení, Beliefs about meaning)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzné heslo (Přesvědčení, Beliefs as part of the map)
+- [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – příbuzné heslo (Jazykové vzorce, Yet)
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzné heslo (Vliv a zneužití NLP, Large-group seminars)
 
 **V kompendiu**
 
-- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – předchozí vzorec rodiny
-- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – předchozí heslo rodiny
+- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

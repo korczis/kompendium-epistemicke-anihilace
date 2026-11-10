@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vyjednávání mezi částmi", "Parts negotiation", "vyjednávání částí", "dohoda částí", "Práce s částmi", "NLP", "neurolingvistické programování"]
+keywords = ["Vyjednávání mezi částmi", "Parts negotiation", "vyjednávání částí", "dohoda částí", "Práce s částmi", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-15.04"
-nlp_slug = "vyjednavani-casti"
-nlp_family = "integrace-casti"
-nlp_family_code = "15"
-nlp_family_title = "Práce s částmi"
-nlp_family_en = "Parts work"
-nlp_part = "integrace-casti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Parts negotiation"
-nlp_aliases = ["vyjednávání částí", "dohoda částí"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "integrace-casti"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["integrace-casti"]
-nlp_related = ["ekologicka-kontrola", "sestikrokovy-reframing", "integrace-casti", "vizualni-squash", "sekvencni-inkongruence", "elicitace-pozitivniho-zameru"]
-nlp_related_declared = ["sestikrokovy-reframing", "sekvencni-inkongruence", "ekologicka-kontrola", "elicitace-pozitivniho-zameru"]
-nlp_kompendium = ["kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = "jadrova-transformace"
-nlp_next = "sekvencni-inkongruence"
-nlp_position = 4
-nlp_family_size = 9
-nlp_sources = ["bandler-grinder-1982", "grinder-bandler-1976", "heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "satir-1972", "stark-2007", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
-nlp_sources_roots = ["satir-1972", "watzlawick-1974"]
-nlp_sources_critical = ["heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/integrace-casti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-15.04"
+catalog_slug = "vyjednavani-casti"
+catalog_family = "integrace-casti"
+catalog_family_code = "15"
+catalog_family_title = "Práce s částmi"
+catalog_family_en = "Parts work"
+catalog_part = "integrace-casti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Parts negotiation"
+catalog_aliases = ["vyjednávání částí", "dohoda částí"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "integrace-casti"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["integrace-casti"]
+catalog_related = ["ekologicka-kontrola", "sestikrokovy-reframing", "integrace-casti", "vizualni-squash", "sekvencni-inkongruence", "elicitace-pozitivniho-zameru"]
+catalog_related_declared = ["sestikrokovy-reframing", "sekvencni-inkongruence", "ekologicka-kontrola", "elicitace-pozitivniho-zameru"]
+catalog_kompendium = ["kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = "jadrova-transformace"
+catalog_next = "sekvencni-inkongruence"
+catalog_position = 4
+catalog_family_size = 9
+catalog_sources = ["bandler-grinder-1982", "grinder-bandler-1976", "heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "satir-1972", "stark-2007", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
+catalog_sources_roots = ["satir-1972", "watzlawick-1974"]
+catalog_sources_critical = ["heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/integrace-casti.toml"
 +++
 
 # Vyjednávání mezi částmi
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-15.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Parts negotiation |
 | **Jiné názvy** | vyjednávání částí, dohoda částí |
-| **Obecnější vzorec** | [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) |
+| **Obecnější heslo** | [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Pro vyjednávání mezi částmi jako specifický postup NLP nejsou známy kontr
 
 Základní obranou je položit si otázku, mezi kým spor ve skutečnosti probíhá. Pokud konflikt vznikl tím, že někdo jiný klade požadavky, které člověk nechce nebo nemůže splnit, je legitimní odmítnout jeho přepis na vnitřní spor a vrátit vyjednávání tam, kam patří: k jednání s tím, kdo požadavky klade, s jasně vyslovenými podmínkami a s možností odmítnout. Druhou obranou je nepřipustit, aby za vlastní stránky mluvil někdo jiný. Tvrzení typu „tvoje část už souhlasila“ nemá žádnou váhu, pokud člověk souhlas sám nevyslovil, a je možné ho výslovně odmítnout. Třetí obranou je posoudit dohodu podle výsledku: pokud „vnitřní dohoda“ vždy končí tím, že člověk ustoupí druhému a přijde o čas, kontakty nebo zdroje, nejde o řešení vnitřního konfliktu, ale o ústupek pod tlakem. V pracovních a vztahových situacích, kde se tento vzorec opakuje, pomáhá zapisovat si požadavky druhé strany a vlastní odpovědi, aby bylo zřejmé, kdo co navrhl a kdo co odmítl. Zotavení po vztazích, ve kterých byla vlastní vůle soustavně vydávána za vnitřní spor, vyžaduje obnovu schopnosti rozlišit vlastní přání od přání druhého, k čemuž kompendium nabízí oporu v kapitole [obrany a kalibrace](@/kompendium/06-obrana/_index.md) a v literatuře o zotavení po zneužití (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -120,27 +123,27 @@ Základní obranou je položit si otázku, mezi kým spor ve skutečnosti probí
 
 **Rodina a hierarchie**
 
-- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Six-step reframing)
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzný vzorec (Práce s částmi, Parts integration)
-- [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – příbuzný vzorec (Práce s částmi, Visual squash)
-- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzný vzorec (Práce s částmi, Sequential incongruence)
-- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzný vzorec (Práce s částmi, Eliciting a part's positive intention)
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzné heslo (Reframing a rámce, Six-step reframing)
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
+- [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – příbuzné heslo (Práce s částmi, Visual squash)
+- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzné heslo (Práce s částmi, Sequential incongruence)
+- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzné heslo (Práce s částmi, Eliciting a part's positive intention)
 
 **V kompendiu**
 
-- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – předchozí vzorec rodiny
-- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – předchozí heslo rodiny
+- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

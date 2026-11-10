@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Srovnávací presupozice", "Comparatives as presuppositions", "presupozice srovnání", "komparativ jako předpoklad", "Jazykové presupozice", "NLP", "neurolingvistické programování"]
+keywords = ["Srovnávací presupozice", "Comparatives as presuppositions", "presupozice srovnání", "komparativ jako předpoklad", "Jazykové presupozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-06.11"
-nlp_slug = "srovnavaci-presupozice"
-nlp_family = "presupozice"
-nlp_family_code = "06"
-nlp_family_title = "Jazykové presupozice"
-nlp_family_en = "Linguistic presuppositions"
-nlp_part = "presupozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Comparatives as presuppositions"
-nlp_aliases = ["presupozice srovnání", "komparativ jako předpoklad"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "jazykove-presupozice"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["jazykove-presupozice"]
-nlp_related = ["srovnavaci-delece", "srovnavaci-delece-milton", "kvalifikatory-jen-i", "presupozice-v-reklame", "kontrastni-ramec"]
-nlp_related_declared = ["srovnavaci-delece", "srovnavaci-delece-milton", "kvalifikatory-jen-i", "kontrastni-ramec", "presupozice-v-reklame"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md", "kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md", "kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md", "kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md"]
-nlp_prev = "kvalifikatory-jen-i"
-nlp_next = "otazky-s-presupozici"
-nlp_position = 11
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "grice-1975", "herman-1992", "levinson-1983", "mcguire-1964", "passmore-rowson-2019", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["grice-1975", "levinson-1983"]
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presupozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-06.11"
+catalog_slug = "srovnavaci-presupozice"
+catalog_family = "presupozice"
+catalog_family_code = "06"
+catalog_family_title = "Jazykové presupozice"
+catalog_family_en = "Linguistic presuppositions"
+catalog_part = "presupozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Comparatives as presuppositions"
+catalog_aliases = ["presupozice srovnání", "komparativ jako předpoklad"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "jazykove-presupozice"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["jazykove-presupozice"]
+catalog_related = ["srovnavaci-delece", "srovnavaci-delece-milton", "kvalifikatory-jen-i", "presupozice-v-reklame", "kontrastni-ramec"]
+catalog_related_declared = ["srovnavaci-delece", "srovnavaci-delece-milton", "kvalifikatory-jen-i", "kontrastni-ramec", "presupozice-v-reklame"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md", "kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md", "kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md", "kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md"]
+catalog_prev = "kvalifikatory-jen-i"
+catalog_next = "otazky-s-presupozici"
+catalog_position = 11
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "grice-1975", "herman-1992", "levinson-1983", "mcguire-1964", "passmore-rowson-2019", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["grice-1975", "levinson-1983"]
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presupozice.b.toml"
 +++
 
 # Srovnávací presupozice
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-06.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Comparatives as presuppositions |
 | **Jiné názvy** | presupozice srovnání, komparativ jako předpoklad |
-| **Obecnější vzorec** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
+| **Obecnější heslo** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -207,7 +210,7 @@ hledat doklad. Tato práce probíhá nejlépe ve vztahu, kde má člověk znovu 
 měřítka a na vlastní popis toho, co dokázal (Herman 1992). Další souvislosti se zkreslením
 úsudku shrnuje kapitola o [kognitivních biasech](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -227,26 +230,26 @@ měřítka a na vlastní popis toho, co dokázal (Herman 1992). Další souvislo
 
 **Rodina a hierarchie**
 
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – příbuzný vzorec (Meta-model, Comparative deletion)
-- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – příbuzný vzorec (Milton-model, Comparative deletion (Milton Model))
-- [Částice „jen“, „i“, „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md) – příbuzný vzorec (Jazykové presupozice, Qualifiers only, even, too)
-- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in advertising)
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzný vzorec (Reframing a rámce, Contrast frame)
+- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – příbuzné heslo (Meta-model, Comparative deletion)
+- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – příbuzné heslo (Milton-model, Comparative deletion (Milton Model))
+- [Částice „jen“, „i“, „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md) – příbuzné heslo (Jazykové presupozice, Qualifiers only, even, too)
+- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in advertising)
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzné heslo (Reframing a rámce, Contrast frame)
 
 **V kompendiu**
 
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Částice „jen“, „i“, „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md) – předchozí vzorec rodiny
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Částice „jen“, „i“, „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md) – předchozí heslo rodiny
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -1,4 +1,5 @@
 {
+ "catalog": "nlp",
  "families": [
   {
    "code": "01",
@@ -7628,12 +7629,13 @@
    "utterance": "Tvrzení o shodě predikátů je testovatelné a testováno bylo; tvrzení, že mapa není území, je filozofické východisko, ne empirický výsledek."
   }
  ],
- "note": "Derived, never edited by hand. Temporary home: to be folded into scripts/build-graph.py once the trainer is merged (one data generator).",
+ "note": "Derived, never edited by hand.",
  "patterns": [
   {
    "aliases": [
     "mapa a území"
    ],
+   "catalog": "nlp",
    "cs": "Mapa není území",
    "en": "The map is not the territory",
    "family": "predpoklady",
@@ -7646,6 +7648,7 @@
    "aliases": [
     "význam sdělení je odezva"
    ],
+   "catalog": "nlp",
    "cs": "Význam komunikace je reakce, kterou vyvolá",
    "en": "The meaning of communication is the response you get",
    "family": "predpoklady",
@@ -7658,6 +7661,7 @@
    "aliases": [
     "selhání jako zpětná vazba"
    ],
+   "catalog": "nlp",
    "cs": "Neexistuje selhání, jen zpětná vazba",
    "en": "There is no failure, only feedback",
    "family": "predpoklady",
@@ -7670,6 +7674,7 @@
    "aliases": [
     "pozitivní záměr"
    ],
+   "catalog": "nlp",
    "cs": "Každé chování má pozitivní záměr",
    "en": "Every behaviour has a positive intention",
    "family": "predpoklady",
@@ -7682,6 +7687,7 @@
    "aliases": [
     "každý má potřebné zdroje"
    ],
+   "catalog": "nlp",
    "cs": "Lidé mají zdroje, které potřebují",
    "en": "People have the resources they need",
    "family": "predpoklady",
@@ -7694,6 +7700,7 @@
    "aliases": [
     "jednota mysli a těla"
    ],
+   "catalog": "nlp",
    "cs": "Mysl a tělo tvoří jeden systém",
    "en": "Mind and body are one system",
    "family": "predpoklady",
@@ -7707,6 +7714,7 @@
     "zákon nezbytné rozmanitosti",
     "zákon požadované variety"
    ],
+   "catalog": "nlp",
    "cs": "Nejpružnější prvek řídí systém",
    "en": "The law of requisite variety",
    "family": "predpoklady",
@@ -7719,6 +7727,7 @@
    "aliases": [
     "respekt k mapě druhého"
    ],
+   "catalog": "nlp",
    "cs": "Respekt k modelu světa druhého",
    "en": "Respect for the other person's model of the world",
    "family": "predpoklady",
@@ -7731,6 +7740,7 @@
    "aliases": [
     "oddělení identity a chování"
    ],
+   "catalog": "nlp",
    "cs": "Člověk není své chování",
    "en": "People are not their behaviour",
    "family": "predpoklady",
@@ -7743,6 +7753,7 @@
    "aliases": [
     "nejlepší dostupná volba"
    ],
+   "catalog": "nlp",
    "cs": "Lidé volí nejlepší dostupnou volbu",
    "en": "People make the best choice available to them",
    "family": "predpoklady",
@@ -7755,6 +7766,7 @@
    "aliases": [
     "neexistují odolní klienti"
    ],
+   "catalog": "nlp",
    "cs": "Odpor jako znak chybějícího raportu",
    "en": "Resistance indicates a lack of rapport",
    "family": "predpoklady",
@@ -7767,6 +7779,7 @@
    "aliases": [
     "princip pružnosti jednání"
    ],
+   "catalog": "nlp",
    "cs": "Když něco nefunguje, udělej něco jiného",
    "en": "If it is not working, do something else",
    "family": "predpoklady",
@@ -7779,6 +7792,7 @@
    "aliases": [
     "co dokáže jeden, dokáže každý"
    ],
+   "catalog": "nlp",
    "cs": "Co dokáže jeden, lze se naučit",
    "en": "Excellence can be modelled",
    "family": "predpoklady",
@@ -7791,6 +7805,7 @@
    "aliases": [
     "první axiom komunikace"
    ],
+   "catalog": "nlp",
    "cs": "Nelze nekomunikovat",
    "en": "One cannot not communicate",
    "family": "predpoklady",
@@ -7803,6 +7818,7 @@
    "aliases": [
     "princip rozšiřování voleb"
    ],
+   "catalog": "nlp",
    "cs": "Mít volbu je lepší než ji nemít",
    "en": "Having a choice is better than having none",
    "family": "predpoklady",
@@ -7815,6 +7831,7 @@
    "aliases": [
     "struktura subjektivní zkušenosti"
    ],
+   "catalog": "nlp",
    "cs": "Zkušenost má strukturu",
    "en": "Experience has a structure",
    "family": "predpoklady",
@@ -7827,6 +7844,7 @@
    "aliases": [
     "smyslové kódování zkušenosti"
    ],
+   "catalog": "nlp",
    "cs": "Zkušenost je kódována smysly",
    "en": "Experience is coded in the senses",
    "family": "predpoklady",
@@ -7839,6 +7857,7 @@
    "aliases": [
     "dvouúrovňová komunikace"
    ],
+   "catalog": "nlp",
    "cs": "Komunikace probíhá vědomě i nevědomě",
    "en": "Communication is both conscious and unconscious",
    "family": "predpoklady",
@@ -7852,6 +7871,7 @@
     "ekologie",
     "ekologický předpoklad"
    ],
+   "catalog": "nlp",
    "cs": "Změna má respektovat celek systému",
    "en": "Change must respect the whole system (ecology)",
    "family": "predpoklady",
@@ -7864,6 +7884,7 @@
    "aliases": [
     "jednat, jako by předpoklady platily"
    ],
+   "catalog": "nlp",
    "cs": "Předpoklady jako pracovní hypotézy",
    "en": "Presuppositions as working assumptions",
    "family": "predpoklady",
@@ -7876,6 +7897,7 @@
    "aliases": [
     "odpovědnost komunikátora"
    ],
+   "catalog": "nlp",
    "cs": "Za výsledek komunikace odpovídá komunikátor",
    "en": "The communicator is responsible for the communication",
    "family": "predpoklady",
@@ -7890,6 +7912,7 @@
     "smyslové modality",
     "reprezentační soustavy"
    ],
+   "catalog": "nlp",
    "cs": "Reprezentační systémy",
    "en": "Representational systems",
    "family": "zakladni-pojmy",
@@ -7903,6 +7926,7 @@
     "V",
     "zrakový systém"
    ],
+   "catalog": "nlp",
    "cs": "Vizuální reprezentační systém",
    "en": "Visual representational system",
    "family": "zakladni-pojmy",
@@ -7917,6 +7941,7 @@
     "sluchový systém",
     "auditivně tonální systém"
    ],
+   "catalog": "nlp",
    "cs": "Auditivní reprezentační systém",
    "en": "Auditory representational system",
    "family": "zakladni-pojmy",
@@ -7931,6 +7956,7 @@
     "pocitový systém",
     "tělesný systém"
    ],
+   "catalog": "nlp",
    "cs": "Kinestetický reprezentační systém",
    "en": "Kinaesthetic representational system",
    "family": "zakladni-pojmy",
@@ -7945,6 +7971,7 @@
     "olfaktorní systém",
     "gustatorní systém"
    ],
+   "catalog": "nlp",
    "cs": "Čichový a chuťový systém",
    "en": "Olfactory and gustatory systems",
    "family": "zakladni-pojmy",
@@ -7959,6 +7986,7 @@
     "auditivně digitální",
     "vnitřní řeč"
    ],
+   "catalog": "nlp",
    "cs": "Auditivně digitální systém",
    "en": "Auditory digital system",
    "family": "zakladni-pojmy",
@@ -7972,6 +8000,7 @@
     "přístupový systém",
     "lead system"
    ],
+   "catalog": "nlp",
    "cs": "Vedoucí systém",
    "en": "Lead system",
    "family": "zakladni-pojmy",
@@ -7986,6 +8015,7 @@
     "primární reprezentační systém",
     "dominantní smyslový kanál"
    ],
+   "catalog": "nlp",
    "cs": "Preferovaný reprezentační systém",
    "en": "Preferred representational system",
    "family": "zakladni-pojmy",
@@ -7999,6 +8029,7 @@
     "smyslové predikáty",
     "procesní slova"
    ],
+   "catalog": "nlp",
    "cs": "Predikáty",
    "en": "Predicates",
    "family": "zakladni-pojmy",
@@ -8013,6 +8044,7 @@
     "eye accessing cues",
     "očí jako ukazatel myšlení"
    ],
+   "catalog": "nlp",
    "cs": "Oční přístupové signály",
    "en": "Eye accessing cues",
    "family": "zakladni-pojmy",
@@ -8027,6 +8059,7 @@
     "vizuálně-kinestetická smyčka",
     "V-K synestezie"
    ],
+   "catalog": "nlp",
    "cs": "Synestezie v NLP",
    "en": "Synaesthesia (NLP sense)",
    "family": "zakladni-pojmy",
@@ -8040,6 +8073,7 @@
     "kvality představ",
     "jemná rozlišení smyslových modalit"
    ],
+   "catalog": "nlp",
    "cs": "Submodality",
    "en": "Submodalities (concept)",
    "family": "zakladni-pojmy",
@@ -8053,6 +8087,7 @@
     "kalibrování",
     "čtení individuálních signálů"
    ],
+   "catalog": "nlp",
    "cs": "Kalibrace",
    "en": "Calibration",
    "family": "zakladni-pojmy",
@@ -8066,6 +8101,7 @@
     "smyslová bdělost",
     "jemné vnímání"
    ],
+   "catalog": "nlp",
    "cs": "Smyslová ostrost",
    "en": "Sensory acuity",
    "family": "zakladni-pojmy",
@@ -8080,6 +8116,7 @@
     "naladění",
     "vzájemné porozumění"
    ],
+   "catalog": "nlp",
    "cs": "Raport",
    "en": "Rapport",
    "family": "zakladni-pojmy",
@@ -8094,6 +8131,7 @@
     "psychofyziologický stav",
     "stav mysli"
    ],
+   "catalog": "nlp",
    "cs": "Stav",
    "en": "State",
    "family": "zakladni-pojmy",
@@ -8107,6 +8145,7 @@
     "zdrojový prožitek",
     "stav se zdroji"
    ],
+   "catalog": "nlp",
    "cs": "Zdrojový stav",
    "en": "Resource state",
    "family": "zakladni-pojmy",
@@ -8120,6 +8159,7 @@
     "vnitřní strategie",
     "sekvence reprezentací"
    ],
+   "catalog": "nlp",
    "cs": "Strategie",
    "en": "Strategy (concept)",
    "family": "zakladni-pojmy",
@@ -8133,6 +8173,7 @@
     "Test-Operate-Test-Exit",
     "smyčka test–operace–test–výstup"
    ],
+   "catalog": "nlp",
    "cs": "Model TOTE",
    "en": "TOTE model",
    "family": "zakladni-pojmy",
@@ -8146,6 +8187,7 @@
     "neurologické úrovně",
     "Diltsovy úrovně"
    ],
+   "catalog": "nlp",
    "cs": "Logické úrovně",
    "en": "Logical levels (concept)",
    "family": "zakladni-pojmy",
@@ -8159,6 +8201,7 @@
     "vjemové pozice",
     "první, druhá a třetí pozice"
    ],
+   "catalog": "nlp",
    "cs": "Percepční pozice",
    "en": "Perceptual positions (concept)",
    "family": "zakladni-pojmy",
@@ -8172,6 +8215,7 @@
     "pozice pozorovatele",
     "pohled zvenčí"
    ],
+   "catalog": "nlp",
    "cs": "Meta-pozice",
    "en": "Meta-position",
    "family": "zakladni-pojmy",
@@ -8185,6 +8229,7 @@
     "asociovaný stav",
     "prožívání zevnitř"
    ],
+   "catalog": "nlp",
    "cs": "Asociace",
    "en": "Association",
    "family": "zakladni-pojmy",
@@ -8198,19 +8243,21 @@
     "disociovaný stav",
     "pohled zvenčí"
    ],
-   "cs": "Disociace v NLP",
-   "en": "Dissociation (NLP sense)",
+   "catalog": "nlp",
+   "cs": "Disociace",
+   "en": "Dissociation",
    "family": "zakladni-pojmy",
    "id": "NLP-02.24",
    "slug": "disociace",
    "type": "concept",
-   "url": "kompendium/nlp-vzorce/zakladni-pojmy/disociace/"
+   "url": "glossary/disociace/"
   },
   {
    "aliases": [
     "souladnost",
     "shoda sdělení"
    ],
+   "catalog": "nlp",
    "cs": "Kongruence",
    "en": "Congruence",
    "family": "zakladni-pojmy",
@@ -8223,6 +8270,7 @@
    "aliases": [
     "nesoulad sdělení"
    ],
+   "catalog": "nlp",
    "cs": "Inkongruence",
    "en": "Incongruence",
    "family": "zakladni-pojmy",
@@ -8236,6 +8284,7 @@
     "kontrola ekologie",
     "ověření ekologie"
    ],
+   "catalog": "nlp",
    "cs": "Ekologická kontrola",
    "en": "Ecology check",
    "family": "zakladni-pojmy",
@@ -8249,6 +8298,7 @@
     "rámování",
     "interpretační rámec"
    ],
+   "catalog": "nlp",
    "cs": "Rámec",
    "en": "Frame (concept)",
    "family": "zakladni-pojmy",
@@ -8262,6 +8312,7 @@
     "velikost celku",
     "posun úrovně obecnosti"
    ],
+   "catalog": "nlp",
    "cs": "Chunking",
    "en": "Chunking",
    "family": "zakladni-pojmy",
@@ -8275,6 +8326,7 @@
     "linie času",
     "vnitřní reprezentace času"
    ],
+   "catalog": "nlp",
    "cs": "Časová osa",
    "en": "Timeline (concept)",
    "family": "zakladni-pojmy",
@@ -8288,6 +8340,7 @@
     "metaprogramové vzorce",
     "LAB profil"
    ],
+   "catalog": "nlp",
    "cs": "Metaprogramy",
    "en": "Meta-programs (concept)",
    "family": "zakladni-pojmy",
@@ -8301,6 +8354,7 @@
     "kotvení",
     "spouštěč stavu"
    ],
+   "catalog": "nlp",
    "cs": "Kotva",
    "en": "Anchor (concept)",
    "family": "zakladni-pojmy",
@@ -8314,6 +8368,7 @@
     "delece",
     "výběrová pozornost"
    ],
+   "catalog": "nlp",
    "cs": "Vypouštění",
    "en": "Deletion",
    "family": "zakladni-pojmy",
@@ -8326,6 +8381,7 @@
    "aliases": [
     "distorze"
    ],
+   "catalog": "nlp",
    "cs": "Zkreslování",
    "en": "Distortion",
    "family": "zakladni-pojmy",
@@ -8338,6 +8394,7 @@
    "aliases": [
     "generalizace"
    ],
+   "catalog": "nlp",
    "cs": "Zobecňování",
    "en": "Generalisation",
    "family": "zakladni-pojmy",
@@ -8350,6 +8407,7 @@
    "aliases": [
     "hloubková struktura"
    ],
+   "catalog": "nlp",
    "cs": "Hluboká a povrchová struktura",
    "en": "Deep and surface structure",
    "family": "zakladni-pojmy",
@@ -8362,6 +8420,7 @@
    "aliases": [
     "modeling"
    ],
+   "catalog": "nlp",
    "cs": "Modelování",
    "en": "Modelling (concept)",
    "family": "zakladni-pojmy",
@@ -8375,6 +8434,7 @@
     "vnitřní řeč",
     "vnitřní hlas"
    ],
+   "catalog": "nlp",
    "cs": "Vnitřní dialog",
    "en": "Internal dialogue",
    "family": "zakladni-pojmy",
@@ -8387,6 +8447,7 @@
    "aliases": [
     "vnější a vnitřní zaměření pozornosti"
    ],
+   "catalog": "nlp",
    "cs": "Uptime a downtime",
    "en": "Uptime and downtime",
    "family": "zakladni-pojmy",
@@ -8400,6 +8461,7 @@
     "tranz",
     "hypnotický stav"
    ],
+   "catalog": "nlp",
    "cs": "Trans",
    "en": "Trance (concept)",
    "family": "zakladni-pojmy",
@@ -8412,6 +8474,7 @@
    "aliases": [
     "TDS"
    ],
+   "catalog": "nlp",
    "cs": "Transderivační hledání",
    "en": "Transderivational search",
    "family": "zakladni-pojmy",
@@ -8425,6 +8488,7 @@
     "přizpůsobení a vedení",
     "doprovázení a vedení"
    ],
+   "catalog": "nlp",
    "cs": "Pacing a leading",
    "en": "Pacing and leading (concept)",
    "family": "zakladni-pojmy",
@@ -8438,6 +8502,7 @@
     "metamodel",
     "meta-model jazyka"
    ],
+   "catalog": "nlp",
    "cs": "Meta-model",
    "en": "Meta Model",
    "family": "meta-model",
@@ -8450,6 +8515,7 @@
    "aliases": [
     "nominalizace procesu"
    ],
+   "catalog": "nlp",
    "cs": "Nominalizace",
    "en": "Nominalisation",
    "family": "meta-model",
@@ -8462,6 +8528,7 @@
    "aliases": [
     "nespecifikovaný děj"
    ],
+   "catalog": "nlp",
    "cs": "Nespecifikované sloveso",
    "en": "Unspecified verb",
    "family": "meta-model",
@@ -8475,6 +8542,7 @@
     "chybějící referenční index",
     "neurčený činitel"
    ],
+   "catalog": "nlp",
    "cs": "Nespecifikovaný referenční index",
    "en": "Unspecified referential index",
    "family": "meta-model",
@@ -8487,6 +8555,7 @@
    "aliases": [
     "prostá delece"
    ],
+   "catalog": "nlp",
    "cs": "Prosté vypuštění",
    "en": "Simple deletion",
    "family": "meta-model",
@@ -8500,6 +8569,7 @@
     "srovnávací delece",
     "nespecifikované srovnání"
    ],
+   "catalog": "nlp",
    "cs": "Srovnávací vypuštění",
    "en": "Comparative deletion",
    "family": "meta-model",
@@ -8512,6 +8582,7 @@
    "aliases": [
     "soud bez původce"
    ],
+   "catalog": "nlp",
    "cs": "Ztracený performativ",
    "en": "Lost performative",
    "family": "meta-model",
@@ -8525,6 +8596,7 @@
     "univerzální kvantifikátory",
     "absolutní zobecnění"
    ],
+   "catalog": "nlp",
    "cs": "Univerzální kvantifikátor",
    "en": "Universal quantifier",
    "family": "meta-model",
@@ -8537,6 +8609,7 @@
    "aliases": [
     "modální operátory nutnosti"
    ],
+   "catalog": "nlp",
    "cs": "Modální operátor nutnosti",
    "en": "Modal operator of necessity",
    "family": "meta-model",
@@ -8551,6 +8624,7 @@
     "nemohu",
     "nejde to"
    ],
+   "catalog": "nlp",
    "cs": "Modální operátor možnosti",
    "en": "Modal operator of possibility",
    "family": "meta-model",
@@ -8564,6 +8638,7 @@
     "domnělé čtení myšlenek",
     "připisování vnitřních stavů"
    ],
+   "catalog": "nlp",
    "cs": "Čtení myšlenek",
    "en": "Mind reading",
    "family": "meta-model",
@@ -8577,6 +8652,7 @@
     "příčina–následek",
     "ty mě nutíš"
    ],
+   "catalog": "nlp",
    "cs": "Příčina a následek",
    "en": "Cause and effect",
    "family": "meta-model",
@@ -8590,6 +8666,7 @@
     "X znamená Y",
     "rovnítko významu"
    ],
+   "catalog": "nlp",
    "cs": "Komplexní ekvivalence",
    "en": "Complex equivalence",
    "family": "meta-model",
@@ -8603,6 +8680,7 @@
     "předpoklady výroku",
     "skryté předpoklady"
    ],
+   "catalog": "nlp",
    "cs": "Presupozice v meta-modelu",
    "en": "Presuppositions (Meta Model)",
    "family": "meta-model",
@@ -8616,6 +8694,7 @@
     "hierarchie výzev meta-modelu",
     "pořadí výzev"
    ],
+   "catalog": "nlp",
    "cs": "Pořadí otázek meta-modelu",
    "en": "Order of Meta Model challenges",
    "family": "meta-model",
@@ -8629,6 +8708,7 @@
     "meta-model ve vyšetřování",
     "precizní dotazování"
    ],
+   "catalog": "nlp",
    "cs": "Meta-model jako výslechový nástroj",
    "en": "Meta Model as an interrogation tool",
    "family": "meta-model",
@@ -8642,6 +8722,7 @@
     "sémantická anomálie",
     "připsání jednání neživému"
    ],
+   "catalog": "nlp",
    "cs": "Porušení selekčních omezení",
    "en": "Selectional restriction violation (Meta Model)",
    "family": "meta-model",
@@ -8655,6 +8736,7 @@
     "hypnotické jazykové vzorce",
     "inverzní meta-model"
    ],
+   "catalog": "nlp",
    "cs": "Milton-model",
    "en": "Milton Model",
    "family": "milton-model",
@@ -8668,6 +8750,7 @@
     "skryté příkazy",
     "vnořené příkazy"
    ],
+   "catalog": "nlp",
    "cs": "Vložené příkazy",
    "en": "Embedded commands",
    "family": "milton-model",
@@ -8680,6 +8763,7 @@
    "aliases": [
     "nepřímé otázky"
    ],
+   "catalog": "nlp",
    "cs": "Vložené otázky",
    "en": "Embedded questions",
    "family": "milton-model",
@@ -8693,6 +8777,7 @@
     "hlasové vyznačení",
     "značení tónem"
    ],
+   "catalog": "nlp",
    "cs": "Analogové značení",
    "en": "Analogue marking",
    "family": "milton-model",
@@ -8705,6 +8790,7 @@
    "aliases": [
     "nepřímé řečové akty"
    ],
+   "catalog": "nlp",
    "cs": "Konverzační postuláty",
    "en": "Conversational postulates",
    "family": "milton-model",
@@ -8718,6 +8804,7 @@
     "dovětkové otázky",
     "tázací dovětky"
    ],
+   "catalog": "nlp",
    "cs": "Připojené otázky",
    "en": "Tag questions",
    "family": "milton-model",
@@ -8731,6 +8818,7 @@
     "samozřejmosti",
     "nesporná tvrzení"
    ],
+   "catalog": "nlp",
    "cs": "Truismy",
    "en": "Truisms",
    "family": "milton-model",
@@ -8744,6 +8832,7 @@
     "ano-sada",
     "souhlasná řada"
    ],
+   "catalog": "nlp",
    "cs": "Řada souhlasů",
    "en": "Yes set",
    "family": "milton-model",
@@ -8757,6 +8846,7 @@
     "vzorec citace",
     "vložená citace"
    ],
+   "catalog": "nlp",
    "cs": "Citace",
    "en": "Quotes",
    "family": "milton-model",
@@ -8769,6 +8859,7 @@
    "aliases": [
     "sémantická anomálie"
    ],
+   "catalog": "nlp",
    "cs": "Porušení selekčních omezení v Milton-modelu",
    "en": "Selectional restriction violation (Milton Model)",
    "family": "milton-model",
@@ -8782,6 +8873,7 @@
     "zvuková dvojznačnost",
     "homofonní dvojznačnost"
    ],
+   "catalog": "nlp",
    "cs": "Fonologická dvojznačnost",
    "en": "Phonological ambiguity",
    "family": "milton-model",
@@ -8795,6 +8887,7 @@
     "skladební dvojznačnost",
     "strukturní dvojznačnost"
    ],
+   "catalog": "nlp",
    "cs": "Syntaktická dvojznačnost",
    "en": "Syntactic ambiguity",
    "family": "milton-model",
@@ -8807,6 +8900,7 @@
    "aliases": [
     "dvojznačnost dosahu"
    ],
+   "catalog": "nlp",
    "cs": "Rozsahová dvojznačnost",
    "en": "Scope ambiguity",
    "family": "milton-model",
@@ -8821,6 +8915,7 @@
     "nesprávně umístěná pauza",
     "nedokončená věta"
    ],
+   "catalog": "nlp",
    "cs": "Interpunkční dvojznačnost",
    "en": "Punctuation ambiguity",
    "family": "milton-model",
@@ -8834,6 +8929,7 @@
     "obratná vágnost",
     "záměrná nejasnost"
    ],
+   "catalog": "nlp",
    "cs": "Úmyslná vágnost",
    "en": "Artful vagueness",
    "family": "milton-model",
@@ -8846,6 +8942,7 @@
    "aliases": [
     "předpokládané vnitřní stavy"
    ],
+   "catalog": "nlp",
    "cs": "Čtení myšlenek v Milton-modelu",
    "en": "Mind reading (Milton Model)",
    "family": "milton-model",
@@ -8858,6 +8955,7 @@
    "aliases": [
     "hodnocení bez hodnotitele"
    ],
+   "catalog": "nlp",
    "cs": "Ztracený performativ v Milton-modelu",
    "en": "Lost performative (Milton Model)",
    "family": "milton-model",
@@ -8872,6 +8970,7 @@
     "kauzální modelování",
     "spojování sugescí"
    ],
+   "catalog": "nlp",
    "cs": "Spojky a implikovaná příčinnost",
    "en": "Conjunctions and implied causatives",
    "family": "milton-model",
@@ -8884,6 +8983,7 @@
    "aliases": [
     "rovnítko mezi chováním a významem"
    ],
+   "catalog": "nlp",
    "cs": "Komplexní ekvivalence v Milton-modelu",
    "en": "Complex equivalence (Milton Model)",
    "family": "milton-model",
@@ -8897,6 +8997,7 @@
     "zobecňující slova",
     "všeobecné výroky"
    ],
+   "catalog": "nlp",
    "cs": "Univerzální kvantifikátory v Milton-modelu",
    "en": "Universal quantifiers (Milton Model)",
    "family": "milton-model",
@@ -8910,6 +9011,7 @@
     "permisivní modalita",
     "operátory nutnosti a možnosti v sugesci"
    ],
+   "catalog": "nlp",
    "cs": "Modální operátory v Milton-modelu",
    "en": "Modal operators (Milton Model)",
    "family": "milton-model",
@@ -8922,6 +9024,7 @@
    "aliases": [
     "zpodstatnělé procesy v sugesci"
    ],
+   "catalog": "nlp",
    "cs": "Nominalizace v Milton-modelu",
    "en": "Nominalisations (Milton Model)",
    "family": "milton-model",
@@ -8934,6 +9037,7 @@
    "aliases": [
     "neurčitá slovesa v sugesci"
    ],
+   "catalog": "nlp",
    "cs": "Nespecifikovaná slovesa v Milton-modelu",
    "en": "Unspecified verbs (Milton Model)",
    "family": "milton-model",
@@ -8947,6 +9051,7 @@
     "chybějící referenční index v sugesci",
     "neurčitý podmět"
    ],
+   "catalog": "nlp",
    "cs": "Nespecifikovaný referenční index v Milton-modelu",
    "en": "Unspecified referential index (Milton Model)",
    "family": "milton-model",
@@ -8960,6 +9065,7 @@
     "falešná alternativa",
     "vazba srovnatelných alternativ"
    ],
+   "catalog": "nlp",
    "cs": "Iluze volby",
    "en": "Illusion of choice",
    "family": "milton-model",
@@ -8973,6 +9079,7 @@
     "sugesce v záporu",
     "negativní sugesce"
    ],
+   "catalog": "nlp",
    "cs": "Záporné příkazy",
    "en": "Negative commands",
    "family": "milton-model",
@@ -8986,6 +9093,7 @@
     "popis aktuální zkušenosti",
     "smyslově ověřitelný pacing"
    ],
+   "catalog": "nlp",
    "cs": "Pacing aktuální zkušenosti",
    "en": "Pacing current experience",
    "family": "milton-model",
@@ -8999,6 +9107,7 @@
     "propojování sugescí",
     "řetěz sugescí"
    ],
+   "catalog": "nlp",
    "cs": "Řetězení sugescí",
    "en": "Linking suggestions",
    "family": "milton-model",
@@ -9011,6 +9120,7 @@
    "aliases": [
     "neúplné srovnání v sugesci"
    ],
+   "catalog": "nlp",
    "cs": "Srovnávací vypuštění v Milton-modelu",
    "en": "Comparative deletion (Milton Model)",
    "family": "milton-model",
@@ -9023,6 +9133,7 @@
    "aliases": [
     "předpoklady v sugesci"
    ],
+   "catalog": "nlp",
    "cs": "Presupozice v Milton-modelu",
    "en": "Presuppositions (Milton Model)",
    "family": "milton-model",
@@ -9036,6 +9147,7 @@
     "nepřímá hypnóza",
     "permisivní hypnóza"
    ],
+   "catalog": "nlp",
    "cs": "Ericksonovská hypnóza",
    "en": "Ericksonian hypnosis",
    "family": "ericksonovska-hypnoza",
@@ -9049,6 +9161,7 @@
     "utilizační přístup",
     "využití toho, co klient přináší"
    ],
+   "catalog": "nlp",
    "cs": "Utilizace",
    "en": "Utilisation",
    "family": "ericksonovska-hypnoza",
@@ -9062,6 +9175,7 @@
     "technika zmatení",
     "konfuze"
    ],
+   "catalog": "nlp",
    "cs": "Konfuzní technika",
    "en": "Confusion technique",
    "family": "ericksonovska-hypnoza",
@@ -9075,6 +9189,7 @@
     "pattern interrupt",
     "přerušení stavu"
    ],
+   "catalog": "nlp",
    "cs": "Přerušení vzorce",
    "en": "Pattern interrupt",
    "family": "ericksonovska-hypnoza",
@@ -9088,6 +9203,7 @@
     "přerušené podání ruky",
     "handshake interrupt"
    ],
+   "catalog": "nlp",
    "cs": "Indukce podáním ruky",
    "en": "Handshake induction",
    "family": "ericksonovska-hypnoza",
@@ -9101,6 +9217,7 @@
     "levitace paže",
     "ideomotorická levitace"
    ],
+   "catalog": "nlp",
    "cs": "Levitace ruky",
    "en": "Hand levitation",
    "family": "ericksonovska-hypnoza",
@@ -9114,6 +9231,7 @@
     "vícenásobně vnořená metafora",
     "otevřené smyčky"
    ],
+   "catalog": "nlp",
    "cs": "Vnořené smyčky",
    "en": "Nested loops",
    "family": "ericksonovska-hypnoza",
@@ -9128,6 +9246,7 @@
     "předznamenání",
     "zasévání"
    ],
+   "catalog": "nlp",
    "cs": "Zasévání myšlenky",
    "en": "Seeding",
    "family": "ericksonovska-hypnoza",
@@ -9141,6 +9260,7 @@
     "preskripce symptomu",
     "paradoxní předpis"
    ],
+   "catalog": "nlp",
    "cs": "Předepsání symptomu",
    "en": "Symptom prescription",
    "family": "ericksonovska-hypnoza",
@@ -9154,6 +9274,7 @@
     "paradoxní direktiva",
     "terapeutický paradox"
    ],
+   "catalog": "nlp",
    "cs": "Paradoxní intervence",
    "en": "Paradoxical intervention",
    "family": "ericksonovska-hypnoza",
@@ -9166,6 +9287,7 @@
    "aliases": [
     "posthypnotický příkaz"
    ],
+   "catalog": "nlp",
    "cs": "Posthypnotická sugesce",
    "en": "Post-hypnotic suggestion",
    "family": "ericksonovska-hypnoza",
@@ -9178,6 +9300,7 @@
    "aliases": [
     "hypnotická regrese"
    ],
+   "catalog": "nlp",
    "cs": "Věková regrese",
    "en": "Age regression",
    "family": "ericksonovska-hypnoza",
@@ -9190,6 +9313,7 @@
    "aliases": [
     "projekce do budoucnosti"
    ],
+   "catalog": "nlp",
    "cs": "Pseudoorientace v čase",
    "en": "Pseudo-orientation in time",
    "family": "ericksonovska-hypnoza",
@@ -9202,6 +9326,7 @@
    "aliases": [
     "technika třetí osoby"
    ],
+   "catalog": "nlp",
    "cs": "Můj přítel John",
    "en": "My friend John",
    "family": "ericksonovska-hypnoza",
@@ -9215,6 +9340,7 @@
     "interspersní technika",
     "proložená sugesce"
    ],
+   "catalog": "nlp",
    "cs": "Technika proložení",
    "en": "Interspersal technique",
    "family": "ericksonovska-hypnoza",
@@ -9227,6 +9353,7 @@
    "aliases": [
     "vnořené příběhy"
    ],
+   "catalog": "nlp",
    "cs": "Vrstvení realit",
    "en": "Stacking realities",
    "family": "ericksonovska-hypnoza",
@@ -9240,6 +9367,7 @@
     "dvojná vazba",
     "double bind"
    ],
+   "catalog": "nlp",
    "cs": "Terapeutická dvojná vazba",
    "en": "Therapeutic double bind",
    "family": "ericksonovska-hypnoza",
@@ -9250,6 +9378,7 @@
   },
   {
    "aliases": [],
+   "catalog": "nlp",
    "cs": "Vědomě-nevědomá dvojná vazba",
    "en": "Conscious–unconscious double bind",
    "family": "ericksonovska-hypnoza",
@@ -9262,6 +9391,7 @@
    "aliases": [
     "dvojná disociační vazba"
    ],
+   "catalog": "nlp",
    "cs": "Dvojitá disociativní vazba",
    "en": "Double dissociation double bind",
    "family": "ericksonovska-hypnoza",
@@ -9275,6 +9405,7 @@
     "spojení protikladů",
     "kladení protikladů vedle sebe"
    ],
+   "catalog": "nlp",
    "cs": "Apozice protikladů",
    "en": "Apposition of opposites",
    "family": "ericksonovska-hypnoza",
@@ -9287,6 +9418,7 @@
    "aliases": [
     "sdružená sugesce"
    ],
+   "catalog": "nlp",
    "cs": "Složená sugesce",
    "en": "Compound suggestion",
    "family": "ericksonovska-hypnoza",
@@ -9299,6 +9431,7 @@
    "aliases": [
     "implikovaný pokyn"
    ],
+   "catalog": "nlp",
    "cs": "Implikované direktivum",
    "en": "Implied directive",
    "family": "ericksonovska-hypnoza",
@@ -9311,6 +9444,7 @@
    "aliases": [
     "neurčitá sugesce"
    ],
+   "catalog": "nlp",
    "cs": "Otevřená sugesce",
    "en": "Open-ended suggestion",
    "family": "ericksonovska-hypnoza",
@@ -9323,6 +9457,7 @@
    "aliases": [
     "sugesce pokrývající celou třídu odpovědí"
    ],
+   "catalog": "nlp",
    "cs": "Sugesce pokrývající všechny možnosti",
    "en": "Suggestion covering all possibilities",
    "family": "ericksonovska-hypnoza",
@@ -9336,6 +9471,7 @@
     "ideomotorické signály",
     "prstové signály"
    ],
+   "catalog": "nlp",
    "cs": "Ideomotorická signalizace",
    "en": "Ideomotor signalling",
    "family": "ericksonovska-hypnoza",
@@ -9349,6 +9485,7 @@
     "frakcionovaná hypnóza",
     "střídání stavů"
    ],
+   "catalog": "nlp",
    "cs": "Frakcionace",
    "en": "Fractionation",
    "family": "ericksonovska-hypnoza",
@@ -9362,6 +9499,7 @@
     "přetížení pozornosti",
     "smyslové přetížení"
    ],
+   "catalog": "nlp",
    "cs": "Indukce přetížením",
    "en": "Overload induction",
    "family": "ericksonovska-hypnoza",
@@ -9376,6 +9514,7 @@
     "strukturovaná amnézie",
     "posthypnotická amnézie"
    ],
+   "catalog": "nlp",
    "cs": "Navozená amnézie",
    "en": "Suggested amnesia",
    "family": "ericksonovska-hypnoza",
@@ -9390,6 +9529,7 @@
     "předpoklady výpovědi",
     "spouštěče presupozic"
    ],
+   "catalog": "nlp",
    "cs": "Jazykové presupozice",
    "en": "Linguistic presuppositions",
    "family": "presupozice",
@@ -9403,6 +9543,7 @@
     "presupozice existence",
     "určitá deskripce"
    ],
+   "catalog": "nlp",
    "cs": "Existenční presupozice",
    "en": "Existential presupposition",
    "family": "presupozice",
@@ -9416,6 +9557,7 @@
     "časové vedlejší věty",
     "presupozice spojek než, až, když"
    ],
+   "catalog": "nlp",
    "cs": "Presupozice časových vět",
    "en": "Subordinate clauses of time",
    "family": "presupozice",
@@ -9429,6 +9571,7 @@
     "presupozice řady",
     "první, další, poslední"
    ],
+   "catalog": "nlp",
    "cs": "Pořadové číslovky",
    "en": "Ordinal numerals",
    "family": "presupozice",
@@ -9442,6 +9585,7 @@
     "presupozice disjunkce",
     "volba mezi dvěma variantami téhož"
    ],
+   "catalog": "nlp",
    "cs": "Presupozice spojky „nebo“",
    "en": "Use of „or“",
    "family": "presupozice",
@@ -9455,6 +9599,7 @@
     "slovesa vědění a uvědomění",
     "víš, že…"
    ],
+   "catalog": "nlp",
    "cs": "Predikáty uvědomění",
    "en": "Awareness predicates",
    "family": "presupozice",
@@ -9468,6 +9613,7 @@
     "hodnoticí příslovce",
     "naštěstí, samozřejmě, bohužel"
    ],
+   "catalog": "nlp",
    "cs": "Komentářová příslovce a přídavná jména",
    "en": "Commentary adverbs and adjectives",
    "family": "presupozice",
@@ -9481,6 +9627,7 @@
     "slovesa změny stavu",
     "přestat, začít, ještě, už"
    ],
+   "catalog": "nlp",
    "cs": "Slovesa změny času a stavu",
    "en": "Change-of-time verbs and adverbs",
    "family": "presupozice",
@@ -9494,6 +9641,7 @@
     "iterativa",
     "zase, znovu, opět, také"
    ],
+   "catalog": "nlp",
    "cs": "Opakovací slova",
    "en": "Repetitive cue words",
    "family": "presupozice",
@@ -9508,6 +9656,7 @@
     "fokalizátory",
     "jen, i, dokonce, kromě"
    ],
+   "catalog": "nlp",
    "cs": "Částice „jen“, „i“, „dokonce“",
    "en": "Qualifiers only, even, too",
    "family": "presupozice",
@@ -9521,6 +9670,7 @@
     "presupozice srovnání",
     "komparativ jako předpoklad"
    ],
+   "catalog": "nlp",
    "cs": "Srovnávací presupozice",
    "en": "Comparatives as presuppositions",
    "family": "presupozice",
@@ -9535,6 +9685,7 @@
     "otázka s vneseným předpokladem",
     "kapciózní otázka"
    ],
+   "catalog": "nlp",
    "cs": "Otázky s presupozicí",
    "en": "Loaded questions",
    "family": "presupozice",
@@ -9548,6 +9699,7 @@
     "presupozice vztažné věty",
     "vložené vedlejší tvrzení"
    ],
+   "catalog": "nlp",
    "cs": "Vztažné věty jako presupozice",
    "en": "Relative clauses",
    "family": "presupozice",
@@ -9561,6 +9713,7 @@
     "neskutečné podmínky",
     "podmínky proti skutečnosti"
    ],
+   "catalog": "nlp",
    "cs": "Kontrafaktuální podmínky",
    "en": "Counterfactual conditionals",
    "family": "presupozice",
@@ -9574,6 +9727,7 @@
     "faktivní predikáty",
     "emotivní faktiva"
    ],
+   "catalog": "nlp",
    "cs": "Faktivní slovesa",
    "en": "Factive verbs",
    "family": "presupozice",
@@ -9587,6 +9741,7 @@
     "implikativa",
     "slovesa pokusu a opomenutí"
    ],
+   "catalog": "nlp",
    "cs": "Implikativní slovesa",
    "en": "Implicative verbs",
    "family": "presupozice",
@@ -9601,6 +9756,7 @@
     "vytýkání větného členu",
     "pseudorozštěpené věty"
    ],
+   "catalog": "nlp",
    "cs": "Vytýkací konstrukce",
    "en": "Cleft sentences",
    "family": "presupozice",
@@ -9614,6 +9770,7 @@
     "implikovaná reklamní tvrzení",
     "presupozice v marketingu"
    ],
+   "catalog": "nlp",
    "cs": "Presupozice v reklamě",
    "en": "Presuppositions in advertising",
    "family": "presupozice",
@@ -9628,6 +9785,7 @@
     "návodné otázky",
     "kapciózní otázky ve výslechu"
    ],
+   "catalog": "nlp",
    "cs": "Presupozice ve výslechu a svědectví",
    "en": "Presuppositions in questioning and testimony",
    "family": "presupozice",
@@ -9641,6 +9799,7 @@
     "jazykové vzorce změny přesvědčení",
     "konverzační přerámování přesvědčení"
    ],
+   "catalog": "nlp",
    "cs": "Sleight of Mouth",
    "en": "Sleight of Mouth",
    "family": "sleight-of-mouth",
@@ -9653,6 +9812,7 @@
    "aliases": [
     "přesvědčení jako spojení X a Y"
    ],
+   "catalog": "nlp",
    "cs": "Struktura přesvědčení v Sleight of Mouth",
    "en": "Belief structure in Sleight of Mouth",
    "family": "sleight-of-mouth",
@@ -9665,6 +9825,7 @@
    "aliases": [
     "přerámování na pozitivní záměr"
    ],
+   "catalog": "nlp",
    "cs": "Záměr",
    "en": "Intention",
    "family": "sleight-of-mouth",
@@ -9678,6 +9839,7 @@
     "přejmenování",
     "záměna slova v přesvědčení"
    ],
+   "catalog": "nlp",
    "cs": "Redefinice",
    "en": "Redefine",
    "family": "sleight-of-mouth",
@@ -9690,6 +9852,7 @@
    "aliases": [
     "přerámování na důsledek"
    ],
+   "catalog": "nlp",
    "cs": "Důsledek",
    "en": "Consequence",
    "family": "sleight-of-mouth",
@@ -9702,6 +9865,7 @@
    "aliases": [
     "chunking dolů v Sleight of Mouth"
    ],
+   "catalog": "nlp",
    "cs": "Rozložení na části",
    "en": "Chunk down",
    "family": "sleight-of-mouth",
@@ -9714,6 +9878,7 @@
    "aliases": [
     "chunking nahoru v Sleight of Mouth"
    ],
+   "catalog": "nlp",
    "cs": "Zobecnění",
    "en": "Chunk up",
    "family": "sleight-of-mouth",
@@ -9726,6 +9891,7 @@
    "aliases": [
     "výjimka z pravidla"
    ],
+   "catalog": "nlp",
    "cs": "Protipříklad",
    "en": "Counter-example",
    "family": "sleight-of-mouth",
@@ -9739,6 +9905,7 @@
     "metafora v Sleight of Mouth",
     "analogie nebo metafora"
    ],
+   "catalog": "nlp",
    "cs": "Analogie",
    "en": "Analogy",
    "family": "sleight-of-mouth",
@@ -9752,6 +9919,7 @@
     "přesun cíle",
     "jiný cíl"
    ],
+   "catalog": "nlp",
    "cs": "Jiný výsledek",
    "en": "Another outcome",
    "family": "sleight-of-mouth",
@@ -9765,6 +9933,7 @@
     "jiný model světa",
     "relativizace přesvědčení"
    ],
+   "catalog": "nlp",
    "cs": "Model světa",
    "en": "Model of the world",
    "family": "sleight-of-mouth",
@@ -9777,6 +9946,7 @@
    "aliases": [
     "zpochybnění způsobu, jak to víte"
    ],
+   "catalog": "nlp",
    "cs": "Strategie reality",
    "en": "Reality strategy",
    "family": "sleight-of-mouth",
@@ -9790,6 +9960,7 @@
     "vyšší hodnota",
     "přebití kritériem"
    ],
+   "catalog": "nlp",
    "cs": "Hierarchie kritérií",
    "en": "Hierarchy of criteria",
    "family": "sleight-of-mouth",
@@ -9802,6 +9973,7 @@
    "aliases": [
     "obrácení přesvědčení proti sobě"
    ],
+   "catalog": "nlp",
    "cs": "Aplikace na sebe",
    "en": "Apply to self",
    "family": "sleight-of-mouth",
@@ -9815,6 +9987,7 @@
     "přesvědčení o přesvědčení",
     "psychologizace námitky"
    ],
+   "catalog": "nlp",
    "cs": "Meta-rámec",
    "en": "Meta frame",
    "family": "sleight-of-mouth",
@@ -9828,6 +10001,7 @@
     "změna časového rámce",
     "zvětšení nebo zmenšení rámce"
    ],
+   "catalog": "nlp",
    "cs": "Změna velikosti rámce",
    "en": "Change frame size",
    "family": "sleight-of-mouth",
@@ -9841,6 +10015,7 @@
     "přerámování",
     "změna rámce"
    ],
+   "catalog": "nlp",
    "cs": "Reframing",
    "en": "Reframing",
    "family": "reframing",
@@ -9853,6 +10028,7 @@
    "aliases": [
     "přerámování kontextu"
    ],
+   "catalog": "nlp",
    "cs": "Kontextový reframing",
    "en": "Context reframing",
    "family": "reframing",
@@ -9866,6 +10042,7 @@
     "obsahový reframing",
     "reframing významu"
    ],
+   "catalog": "nlp",
    "cs": "Významový reframing",
    "en": "Content (meaning) reframing",
    "family": "reframing",
@@ -9878,6 +10055,7 @@
    "aliases": [
     "reframing šesti kroků"
    ],
+   "catalog": "nlp",
    "cs": "Šestikrokový reframing",
    "en": "Six-step reframing",
    "family": "reframing",
@@ -9891,6 +10069,7 @@
     "souhlasný rámec",
     "rámec „souhlasím a“"
    ],
+   "catalog": "nlp",
    "cs": "Rámec souhlasu",
    "en": "Agreement frame",
    "family": "reframing",
@@ -9904,6 +10083,7 @@
     "rámec jako by",
     "hypotetický rámec"
    ],
+   "catalog": "nlp",
    "cs": "Rámec „jako by“",
    "en": "As-if frame",
    "family": "reframing",
@@ -9917,6 +10097,7 @@
     "rámec cíle",
     "výsledkový rámec"
    ],
+   "catalog": "nlp",
    "cs": "Rámec výsledku",
    "en": "Outcome frame",
    "family": "reframing",
@@ -9929,6 +10110,7 @@
    "aliases": [
     "ekologický rámec"
    ],
+   "catalog": "nlp",
    "cs": "Rámec ekologie",
    "en": "Ecology frame",
    "family": "reframing",
@@ -9942,6 +10124,7 @@
     "backtrack",
     "rámec rekapitulace"
    ],
+   "catalog": "nlp",
    "cs": "Rámec zpětného shrnutí",
    "en": "Backtrack frame",
    "family": "reframing",
@@ -9955,6 +10138,7 @@
     "rámec kontrastu",
     "srovnávací rámec"
    ],
+   "catalog": "nlp",
    "cs": "Kontrastní rámec",
    "en": "Contrast frame",
    "family": "reframing",
@@ -9968,6 +10152,7 @@
     "otázka po relevanci",
     "test relevance"
    ],
+   "catalog": "nlp",
    "cs": "Výzva k relevanci",
    "en": "Relevancy challenge",
    "family": "reframing",
@@ -9981,6 +10166,7 @@
     "volný rámec",
     "otevřené kolo"
    ],
+   "catalog": "nlp",
    "cs": "Otevřený rámec",
    "en": "Open frame",
    "family": "reframing",
@@ -9994,6 +10180,7 @@
     "důkazní rámec",
     "rámec ověření"
    ],
+   "catalog": "nlp",
    "cs": "Rámec důkazu",
    "en": "Evidence frame",
    "family": "reframing",
@@ -10007,6 +10194,7 @@
     "předběžné rámování",
     "pre-frame"
    ],
+   "catalog": "nlp",
    "cs": "Předrámcování",
    "en": "Pre-framing",
    "family": "reframing",
@@ -10020,6 +10208,7 @@
     "zpětné rámování",
     "post-frame"
    ],
+   "catalog": "nlp",
    "cs": "Dodatečné rámcování",
    "en": "Post-framing",
    "family": "reframing",
@@ -10033,6 +10222,7 @@
     "de-framing",
     "rozložení rámce"
    ],
+   "catalog": "nlp",
    "cs": "Rozrámcování",
    "en": "De-framing",
    "family": "reframing",
@@ -10046,6 +10236,7 @@
     "selhání jako zpětná vazba",
     "failure into feedback"
    ],
+   "catalog": "nlp",
    "cs": "Přerámování selhání na zpětnou vazbu",
    "en": "Failure into feedback",
    "family": "reframing",
@@ -10059,6 +10250,7 @@
     "ukotvení stavu",
     "podmiňování stavu podnětem"
    ],
+   "catalog": "nlp",
    "cs": "Kotvení",
    "en": "Anchoring",
    "family": "kotveni",
@@ -10072,6 +10264,7 @@
     "vlastní kotva",
     "sebekotvení"
    ],
+   "catalog": "nlp",
    "cs": "Samokotvení",
    "en": "Self-anchoring",
    "family": "kotveni",
@@ -10085,6 +10278,7 @@
     "řetěz stavů",
     "kotvení v řetězci"
    ],
+   "catalog": "nlp",
    "cs": "Řetězení kotev",
    "en": "Chaining anchors",
    "family": "kotveni",
@@ -10098,6 +10292,7 @@
     "integrace kotev",
     "souběžné spuštění kotev"
    ],
+   "catalog": "nlp",
    "cs": "Kolaps kotev",
    "en": "Collapsing anchors",
    "family": "kotveni",
@@ -10111,6 +10306,7 @@
     "stohování kotev",
     "skládání kotev"
    ],
+   "catalog": "nlp",
    "cs": "Vrstvení kotev",
    "en": "Stacking anchors",
    "family": "kotveni",
@@ -10124,6 +10320,7 @@
     "kotvení místem",
     "prostorové značení"
    ],
+   "catalog": "nlp",
    "cs": "Prostorové kotvení",
    "en": "Spatial anchoring",
    "family": "kotveni",
@@ -10136,6 +10333,7 @@
    "aliases": [
     "kruh výkonnosti"
    ],
+   "catalog": "nlp",
    "cs": "Kruh excelence",
    "en": "Circle of excellence",
    "family": "kotveni",
@@ -10149,6 +10347,7 @@
     "stupňovaná kotva",
     "kotva s regulací intenzity"
    ],
+   "catalog": "nlp",
    "cs": "Posuvná kotva",
    "en": "Sliding anchor",
    "family": "kotveni",
@@ -10163,6 +10362,7 @@
     "zvuková kotva",
     "hlasová kotva"
    ],
+   "catalog": "nlp",
    "cs": "Auditivní a tonální kotvy",
    "en": "Auditory and tonal anchors",
    "family": "kotveni",
@@ -10176,6 +10376,7 @@
     "zraková kotva",
     "obrazová kotva"
    ],
+   "catalog": "nlp",
    "cs": "Vizuální kotvy",
    "en": "Visual anchors",
    "family": "kotveni",
@@ -10189,6 +10390,7 @@
     "dotykové kotvy",
     "tělesné kotvy"
    ],
+   "catalog": "nlp",
    "cs": "Kinestetické kotvy",
    "en": "Kinaesthetic anchors",
    "family": "kotveni",
@@ -10202,6 +10404,7 @@
     "kotvení na pódiu",
     "prostorové kotvy řečníka"
    ],
+   "catalog": "nlp",
    "cs": "Kotvy v prezentaci a vystoupení",
    "en": "Anchors in presentations",
    "family": "kotveni",
@@ -10215,6 +10418,7 @@
     "přenos zdrojového stavu",
     "kotvení zdroje"
    ],
+   "catalog": "nlp",
    "cs": "Přenos zdroje",
    "en": "Resource transfer",
    "family": "kotveni",
@@ -10228,6 +10432,7 @@
     "ověření kotvy",
     "spuštění kotvy na zkoušku"
    ],
+   "catalog": "nlp",
    "cs": "Testování kotvy",
    "en": "Testing an anchor",
    "family": "kotveni",
@@ -10241,6 +10446,7 @@
     "skupinové kotvy",
     "kolektivní kotvení"
    ],
+   "catalog": "nlp",
    "cs": "Kotvení ve skupině",
    "en": "Group anchoring",
    "family": "kotveni",
@@ -10254,6 +10460,7 @@
     "asociace se značkou",
     "znělky a loga jako kotvy"
    ],
+   "catalog": "nlp",
    "cs": "Kotvy v reklamě a značkách",
    "en": "Anchors in advertising",
    "family": "kotveni",
@@ -10267,6 +10474,7 @@
     "spontánní kotvy",
     "spouštěče"
    ],
+   "catalog": "nlp",
    "cs": "Nechtěné kotvy a spouštěče",
    "en": "Unintended anchors and triggers",
    "family": "kotveni",
@@ -10280,6 +10488,7 @@
     "podmiňování strachem ve vztahu",
     "signály hrozby a úlevy"
    ],
+   "catalog": "nlp",
    "cs": "Kotvení v kontrolujících vztazích",
    "en": "Anchoring in controlling relationships",
    "family": "kotveni",
@@ -10293,6 +10502,7 @@
     "heuristika ukotvení a přizpůsobení",
     "efekt kotvy"
    ],
+   "catalog": "nlp",
    "cs": "Kotvení v NLP a efekt ukotvení",
    "en": "NLP anchoring versus the anchoring heuristic",
    "family": "kotveni",
@@ -10306,6 +10516,7 @@
     "zjišťování submodalit",
     "dotazování na kvality představ"
    ],
+   "catalog": "nlp",
    "cs": "Elicitace submodalit",
    "en": "Eliciting submodalities",
    "family": "submodality",
@@ -10318,6 +10529,7 @@
    "aliases": [
     "kvality zrakové představy"
    ],
+   "catalog": "nlp",
    "cs": "Vizuální submodality",
    "en": "Visual submodalities",
    "family": "submodality",
@@ -10331,6 +10543,7 @@
     "kvality sluchové představy",
     "kvality vnitřního hlasu"
    ],
+   "catalog": "nlp",
    "cs": "Auditivní submodality",
    "en": "Auditory submodalities",
    "family": "submodality",
@@ -10343,6 +10556,7 @@
    "aliases": [
     "kvality tělesného prožitku"
    ],
+   "catalog": "nlp",
    "cs": "Kinestetické submodality",
    "en": "Kinaesthetic submodalities",
    "family": "submodality",
@@ -10356,6 +10570,7 @@
     "hnací submodality",
     "driver submodality"
    ],
+   "catalog": "nlp",
    "cs": "Kritické submodality",
    "en": "Critical (driver) submodalities",
    "family": "submodality",
@@ -10368,6 +10583,7 @@
    "aliases": [
     "porovnání submodalit"
    ],
+   "catalog": "nlp",
    "cs": "Kontrastní analýza",
    "en": "Contrastive analysis",
    "family": "submodality",
@@ -10381,6 +10597,7 @@
     "přenos submodalit",
     "mapping across"
    ],
+   "catalog": "nlp",
    "cs": "Mapování napříč",
    "en": "Mapping across",
    "family": "submodality",
@@ -10394,6 +10611,7 @@
     "vzorec swish",
     "švihnutí"
    ],
+   "catalog": "nlp",
    "cs": "Swish",
    "en": "Swish pattern",
    "family": "submodality",
@@ -10406,6 +10624,7 @@
    "aliases": [
     "tělesný swish"
    ],
+   "catalog": "nlp",
    "cs": "Kinestetický swish",
    "en": "Kinaesthetic swish",
    "family": "submodality",
@@ -10418,6 +10637,7 @@
    "aliases": [
     "zvukový swish"
    ],
+   "catalog": "nlp",
    "cs": "Auditivní swish",
    "en": "Auditory swish",
    "family": "submodality",
@@ -10431,6 +10651,7 @@
     "compulsion blowout",
     "přetažení nutkání za práh"
    ],
+   "catalog": "nlp",
    "cs": "Rozbití kompulze",
    "en": "Compulsion blowout",
    "family": "submodality",
@@ -10444,6 +10665,7 @@
     "Godiva chocolate pattern",
     "motivační vzorec Godiva"
    ],
+   "catalog": "nlp",
    "cs": "Vzorec Godiva",
    "en": "Godiva chocolate pattern",
    "family": "submodality",
@@ -10457,6 +10679,7 @@
     "like to dislike",
     "přenos nechuti"
    ],
+   "catalog": "nlp",
    "cs": "Od libosti k nechuti",
    "en": "Like-to-dislike pattern",
    "family": "submodality",
@@ -10470,6 +10693,7 @@
     "belief change pattern",
     "od přesvědčení k pochybnosti"
    ],
+   "catalog": "nlp",
    "cs": "Změna přesvědčení přes submodality",
    "en": "Belief change through submodalities",
    "family": "submodality",
@@ -10483,6 +10707,7 @@
     "threshold pattern",
     "poslední kapka"
    ],
+   "catalog": "nlp",
    "cs": "Prahový vzorec",
    "en": "Threshold pattern",
    "family": "submodality",
@@ -10496,6 +10721,7 @@
     "změna vnitřního dialogu",
     "submodality vnitřního hlasu"
    ],
+   "catalog": "nlp",
    "cs": "Změna vnitřního hlasu",
    "en": "Changing the inner voice",
    "family": "submodality",
@@ -10510,6 +10736,7 @@
     "promítání zážitku na plátno",
     "vizuálně-kinestetická disociace"
    ],
+   "catalog": "nlp",
    "cs": "Filmová technika",
    "en": "Movie theatre technique",
    "family": "submodality",
@@ -10523,6 +10750,7 @@
     "umístění obrazu v zorném poli",
     "prostorové kódování představ"
    ],
+   "catalog": "nlp",
    "cs": "Prostorové umístění představ",
    "en": "Spatial location of images",
    "family": "submodality",
@@ -10536,6 +10764,7 @@
     "vizuální rétorika reklamy",
     "práce s obrazem a zvukem v médiích"
    ],
+   "catalog": "nlp",
    "cs": "Submodality v reklamě a médiích",
    "en": "Submodalities in advertising and media",
    "family": "submodality",
@@ -10549,6 +10778,7 @@
     "práce s vnitřním kritikem",
     "změna kritické sebeprezentace"
    ],
+   "catalog": "nlp",
    "cs": "Vzorec vnitřního kritika",
    "en": "Inner critic pattern",
    "family": "submodality",
@@ -10563,6 +10793,7 @@
     "V-K disociace",
     "léčba fobie za jedno sezení"
    ],
+   "catalog": "nlp",
    "cs": "Rychlá léčba fobie",
    "en": "Fast phobia cure (V-K dissociation)",
    "family": "disociace-a-trauma",
@@ -10576,6 +10807,7 @@
     "divák sledující diváka",
     "disociace druhého řádu"
    ],
+   "catalog": "nlp",
    "cs": "Dvojitá disociace",
    "en": "Double dissociation",
    "family": "disociace-a-trauma",
@@ -10589,6 +10821,7 @@
     "přepis otisku",
     "práce s otiskem"
    ],
+   "catalog": "nlp",
    "cs": "Reimprinting",
    "en": "Re-imprinting",
    "family": "disociace-a-trauma",
@@ -10602,6 +10835,7 @@
     "přepis osobní historie",
     "change history"
    ],
+   "catalog": "nlp",
    "cs": "Změna osobní historie",
    "en": "Change personal history",
    "family": "disociace-a-trauma",
@@ -10615,6 +10849,7 @@
     "rychlá léčba alergie",
     "fast allergy process"
    ],
+   "catalog": "nlp",
    "cs": "Alergický vzorec",
    "en": "Allergy pattern",
    "family": "disociace-a-trauma",
@@ -10628,6 +10863,7 @@
     "řešení zármutku",
     "vzorec truchlení"
    ],
+   "catalog": "nlp",
    "cs": "Vzorec zpracování zármutku",
    "en": "Resolving grief pattern",
    "family": "disociace-a-trauma",
@@ -10641,6 +10877,7 @@
     "práce s odpuštěním",
     "uvolnění křivdy"
    ],
+   "catalog": "nlp",
    "cs": "Vzorec odpuštění",
    "en": "Forgiveness pattern",
    "family": "disociace-a-trauma",
@@ -10654,6 +10891,7 @@
     "zpracování kritiky",
     "disociované přijetí kritiky"
    ],
+   "catalog": "nlp",
    "cs": "Reakce na kritiku",
    "en": "Responding to criticism",
    "family": "disociace-a-trauma",
@@ -10667,6 +10905,7 @@
     "přestavba sebepojetí",
     "transformace sebepojetí"
    ],
+   "catalog": "nlp",
    "cs": "Vzorec sebepojetí",
    "en": "Self-concept pattern",
    "family": "disociace-a-trauma",
@@ -10681,6 +10920,7 @@
     "sugerované vzpomínky",
     "false memory"
    ],
+   "catalog": "nlp",
    "cs": "Práce s traumatem a riziko nepravých vzpomínek",
    "en": "Trauma work and the risk of false memories",
    "family": "disociace-a-trauma",
@@ -10694,6 +10934,7 @@
     "rewind",
     "přetáčení vzpomínky"
    ],
+   "catalog": "nlp",
    "cs": "Technika přetáčení",
    "en": "Rewind technique",
    "family": "disociace-a-trauma",
@@ -10706,6 +10947,7 @@
    "aliases": [
     "zjišťování časové osy"
    ],
+   "catalog": "nlp",
    "cs": "Elicitace časové osy",
    "en": "Eliciting the timeline",
    "family": "casova-osa",
@@ -10719,6 +10961,7 @@
     "in time",
     "through time"
    ],
+   "catalog": "nlp",
    "cs": "„V čase“ a „mimo čas“",
    "en": "In time and through time",
    "family": "casova-osa",
@@ -10732,6 +10975,7 @@
     "Time Line Therapy",
     "TLT"
    ],
+   "catalog": "nlp",
    "cs": "Terapie časové osy",
    "en": "Time Line Therapy",
    "family": "casova-osa",
@@ -10744,6 +10988,7 @@
    "aliases": [
     "uvolnění emocí"
    ],
+   "catalog": "nlp",
    "cs": "Uvolnění negativních emocí na časové ose",
    "en": "Releasing negative emotions on the timeline",
    "family": "casova-osa",
@@ -10756,6 +11001,7 @@
    "aliases": [
     "omezující rozhodnutí"
    ],
+   "catalog": "nlp",
    "cs": "Limitující rozhodnutí",
    "en": "Limiting decisions",
    "family": "casova-osa",
@@ -10768,6 +11014,7 @@
    "aliases": [
     "umístění cíle na časovou osu"
    ],
+   "catalog": "nlp",
    "cs": "Vložení cíle do budoucnosti",
    "en": "Placing a goal in the future",
    "family": "casova-osa",
@@ -10782,6 +11029,7 @@
     "root cause",
     "hledání první příčiny"
    ],
+   "catalog": "nlp",
    "cs": "Hledání kořenové příčiny",
    "en": "Root cause",
    "family": "casova-osa",
@@ -10794,6 +11042,7 @@
    "aliases": [
     "přeuspořádání časové osy"
    ],
+   "catalog": "nlp",
    "cs": "Změna tvaru časové osy",
    "en": "Changing the shape of the timeline",
    "family": "casova-osa",
@@ -10806,6 +11055,7 @@
    "aliases": [
     "kódování času"
    ],
+   "catalog": "nlp",
    "cs": "Časové kódování zkušenosti",
    "en": "Temporal coding of experience",
    "family": "casova-osa",
@@ -10819,6 +11069,7 @@
     "future pacing",
     "přehrání do budoucnosti"
    ],
+   "catalog": "nlp",
    "cs": "Budoucí přehrávání",
    "en": "Future pacing",
    "family": "casova-osa",
@@ -10831,6 +11082,7 @@
    "aliases": [
     "orientace v čase"
    ],
+   "catalog": "nlp",
    "cs": "Časová perspektiva",
    "en": "Time perspective",
    "family": "casova-osa",
@@ -10844,6 +11096,7 @@
     "časová osa na podlaze",
     "chůze po časové ose"
    ],
+   "catalog": "nlp",
    "cs": "Procházení časové osy",
    "en": "Timeline walk",
    "family": "casova-osa",
@@ -10857,6 +11110,7 @@
     "sladění neurologických úrovní",
     "alignment úrovní"
    ],
+   "catalog": "nlp",
    "cs": "Zarovnání logických úrovní",
    "en": "Logical level alignment",
    "family": "urovne-a-pozice",
@@ -10870,6 +11124,7 @@
     "úroveň kontextu",
     "kde a kdy"
    ],
+   "catalog": "nlp",
    "cs": "Úroveň prostředí",
    "en": "Environment level",
    "family": "urovne-a-pozice",
@@ -10882,6 +11137,7 @@
    "aliases": [
     "co člověk dělá"
    ],
+   "catalog": "nlp",
    "cs": "Úroveň chování",
    "en": "Behaviour level",
    "family": "urovne-a-pozice",
@@ -10895,6 +11151,7 @@
     "úroveň dovedností",
     "jak"
    ],
+   "catalog": "nlp",
    "cs": "Úroveň schopností",
    "en": "Capability level",
    "family": "urovne-a-pozice",
@@ -10908,6 +11165,7 @@
     "proč",
     "úroveň motivace"
    ],
+   "catalog": "nlp",
    "cs": "Úroveň přesvědčení a hodnot",
    "en": "Beliefs and values level",
    "family": "urovne-a-pozice",
@@ -10921,6 +11179,7 @@
     "kdo",
     "úroveň sebepojetí"
    ],
+   "catalog": "nlp",
    "cs": "Úroveň identity",
    "en": "Identity level",
    "family": "urovne-a-pozice",
@@ -10935,6 +11194,7 @@
     "úroveň za identitou",
     "úroveň vize"
    ],
+   "catalog": "nlp",
    "cs": "Úroveň poslání",
    "en": "Spiritual (purpose) level",
    "family": "urovne-a-pozice",
@@ -10948,6 +11208,7 @@
     "metazrcadlo",
     "meta mirror"
    ],
+   "catalog": "nlp",
    "cs": "Meta-zrcadlo",
    "en": "Meta-mirror",
    "family": "urovne-a-pozice",
@@ -10961,6 +11222,7 @@
     "vlastní pozice",
     "pozice já"
    ],
+   "catalog": "nlp",
    "cs": "První pozice",
    "en": "First position",
    "family": "urovne-a-pozice",
@@ -10974,6 +11236,7 @@
     "pozice druhého",
     "pozice ty"
    ],
+   "catalog": "nlp",
    "cs": "Druhá pozice",
    "en": "Second position",
    "family": "urovne-a-pozice",
@@ -10987,6 +11250,7 @@
     "pozice pozorovatele",
     "pozice nezúčastněného"
    ],
+   "catalog": "nlp",
    "cs": "Třetí pozice",
    "en": "Third position",
    "family": "urovne-a-pozice",
@@ -11000,6 +11264,7 @@
     "pozice my",
     "systémová pozice"
    ],
+   "catalog": "nlp",
    "cs": "Čtvrtá pozice",
    "en": "Fourth position",
    "family": "urovne-a-pozice",
@@ -11013,6 +11278,7 @@
     "popis ze tří pozic",
     "triple description"
    ],
+   "catalog": "nlp",
    "cs": "Trojí popis",
    "en": "Triple description",
    "family": "urovne-a-pozice",
@@ -11026,6 +11292,7 @@
     "SCORE",
     "symptomy, příčiny, výsledek, zdroje, efekty"
    ],
+   "catalog": "nlp",
    "cs": "Model SCORE",
    "en": "SCORE model",
    "family": "urovne-a-pozice",
@@ -11039,6 +11306,7 @@
     "snílek, realista, kritik",
     "Disney creativity strategy"
    ],
+   "catalog": "nlp",
    "cs": "Disneyova strategie",
    "en": "Disney strategy",
    "family": "urovne-a-pozice",
@@ -11052,6 +11320,7 @@
     "míchání logických úrovní",
     "level confusion"
    ],
+   "catalog": "nlp",
    "cs": "Záměna logických úrovní",
    "en": "Confusing logical levels",
    "family": "urovne-a-pozice",
@@ -11065,6 +11334,7 @@
     "odhalování strategie",
     "vyvolání strategie"
    ],
+   "catalog": "nlp",
    "cs": "Elicitace strategie",
    "en": "Strategy elicitation",
    "family": "strategie-a-modelovani",
@@ -11077,6 +11347,7 @@
    "aliases": [
     "vizuální strategie psaní slov"
    ],
+   "catalog": "nlp",
    "cs": "Pravopisná strategie",
    "en": "Spelling strategy",
    "family": "strategie-a-modelovani",
@@ -11090,6 +11361,7 @@
     "strategie rozhodování",
     "nákupní strategie"
    ],
+   "catalog": "nlp",
    "cs": "Rozhodovací strategie",
    "en": "Decision strategy",
    "family": "strategie-a-modelovani",
@@ -11102,6 +11374,7 @@
    "aliases": [
     "strategie motivace"
    ],
+   "catalog": "nlp",
    "cs": "Motivační strategie",
    "en": "Motivation strategy",
    "family": "strategie-a-modelovani",
@@ -11115,6 +11388,7 @@
     "strategie přesvědčení",
     "convincer"
    ],
+   "catalog": "nlp",
    "cs": "Strategie přesvědčení o pravdivosti",
    "en": "Convincer strategy",
    "family": "strategie-a-modelovani",
@@ -11127,6 +11401,7 @@
    "aliases": [
     "strategie zapamatování"
    ],
+   "catalog": "nlp",
    "cs": "Strategie učení",
    "en": "Learning strategy",
    "family": "strategie-a-modelovani",
@@ -11140,6 +11415,7 @@
     "strategie skutečnosti",
     "test reality"
    ],
+   "catalog": "nlp",
    "cs": "Strategie reality",
    "en": "Reality strategy",
    "family": "strategie-a-modelovani",
@@ -11152,6 +11428,7 @@
    "aliases": [
     "strategie pocitu, že jsem milován"
    ],
+   "catalog": "nlp",
    "cs": "Strategie lásky",
    "en": "Love strategy",
    "family": "strategie-a-modelovani",
@@ -11165,6 +11442,7 @@
     "strategie génia",
     "modelování géniů"
    ],
+   "catalog": "nlp",
    "cs": "Strategie geniality",
    "en": "Strategies of genius",
    "family": "strategie-a-modelovani",
@@ -11178,6 +11456,7 @@
     "modelování",
     "modeling"
    ],
+   "catalog": "nlp",
    "cs": "Modelování excelence",
    "en": "Modelling excellence",
    "family": "strategie-a-modelovani",
@@ -11191,6 +11470,7 @@
     "New Code",
     "nový kód"
    ],
+   "catalog": "nlp",
    "cs": "Nový kód NLP",
    "en": "NLP New Code",
    "family": "strategie-a-modelovani",
@@ -11204,6 +11484,7 @@
     "high performance state",
     "stav nejvyšší výkonnosti"
    ],
+   "catalog": "nlp",
    "cs": "Stav vysokého výkonu",
    "en": "High-performance state",
    "family": "strategie-a-modelovani",
@@ -11216,6 +11497,7 @@
    "aliases": [
     "alphabet game"
    ],
+   "catalog": "nlp",
    "cs": "Abecední hra",
    "en": "Alphabet game",
    "family": "strategie-a-modelovani",
@@ -11229,6 +11511,7 @@
     "know-nothing state",
     "stav nevím nic"
    ],
+   "catalog": "nlp",
    "cs": "Stav nevědění",
    "en": "Know-nothing state",
    "family": "strategie-a-modelovani",
@@ -11242,6 +11525,7 @@
     "rozostřený pohled",
     "široké vidění"
    ],
+   "catalog": "nlp",
    "cs": "Periferní vidění",
    "en": "Peripheral vision",
    "family": "strategie-a-modelovani",
@@ -11254,6 +11538,7 @@
    "aliases": [
     "installing a strategy"
    ],
+   "catalog": "nlp",
    "cs": "Instalace strategie",
    "en": "Strategy installation",
    "family": "strategie-a-modelovani",
@@ -11267,6 +11552,7 @@
     "utilizace strategie",
     "strategy utilization"
    ],
+   "catalog": "nlp",
    "cs": "Využití strategie druhého",
    "en": "Strategy utilisation",
    "family": "strategie-a-modelovani",
@@ -11279,6 +11565,7 @@
    "aliases": [
     "new behavior generator"
    ],
+   "catalog": "nlp",
    "cs": "Generátor nového chování",
    "en": "New behaviour generator",
    "family": "strategie-a-modelovani",
@@ -11292,6 +11579,7 @@
     "strategie bez výstupu",
     "looping"
    ],
+   "catalog": "nlp",
    "cs": "Smyčkové strategie",
    "en": "Looping strategies",
    "family": "strategie-a-modelovani",
@@ -11305,6 +11593,7 @@
     "unconscious uptake",
     "modelování nevědomým převzetím"
    ],
+   "catalog": "nlp",
    "cs": "Nevědomé modelování",
    "en": "Unconscious uptake modelling",
    "family": "strategie-a-modelovani",
@@ -11318,6 +11607,7 @@
     "práce s částmi",
     "parts work"
    ],
+   "catalog": "nlp",
    "cs": "Integrace částí",
    "en": "Parts integration",
    "family": "integrace-casti",
@@ -11331,6 +11621,7 @@
     "vizuální stlačení",
     "squash částí"
    ],
+   "catalog": "nlp",
    "cs": "Vizuální squash",
    "en": "Visual squash",
    "family": "integrace-casti",
@@ -11344,6 +11635,7 @@
     "core transformation",
     "jádrové stavy"
    ],
+   "catalog": "nlp",
    "cs": "Jádrová transformace",
    "en": "Core transformation",
    "family": "integrace-casti",
@@ -11357,6 +11649,7 @@
     "vyjednávání částí",
     "dohoda částí"
    ],
+   "catalog": "nlp",
    "cs": "Vyjednávání mezi částmi",
    "en": "Parts negotiation",
    "family": "integrace-casti",
@@ -11370,6 +11663,7 @@
     "postupný nesoulad",
     "střídavá inkongruence"
    ],
+   "catalog": "nlp",
    "cs": "Sekvenční inkongruence",
    "en": "Sequential incongruence",
    "family": "integrace-casti",
@@ -11382,6 +11676,7 @@
    "aliases": [
     "současný nesoulad"
    ],
+   "catalog": "nlp",
    "cs": "Simultánní inkongruence",
    "en": "Simultaneous incongruence",
    "family": "integrace-casti",
@@ -11395,6 +11690,7 @@
     "pozitivní záměr části",
     "elicitace záměru"
    ],
+   "catalog": "nlp",
    "cs": "Hledání pozitivního záměru části",
    "en": "Eliciting a part's positive intention",
    "family": "integrace-casti",
@@ -11408,6 +11704,7 @@
     "práce s polaritami",
     "hraní polarit"
    ],
+   "catalog": "nlp",
    "cs": "Integrace polarit",
    "en": "Polarity integration",
    "family": "integrace-casti",
@@ -11421,6 +11718,7 @@
     "kultovní identita",
     "dvojí identita"
    ],
+   "catalog": "nlp",
    "cs": "Štěpení já v manipulativních skupinách",
    "en": "Splitting of the self in manipulative groups",
    "family": "integrace-casti",
@@ -11433,6 +11731,7 @@
    "aliases": [
     "přirozený cyklus změny přesvědčení"
    ],
+   "catalog": "nlp",
    "cs": "Cyklus změny přesvědčení",
    "en": "Belief change cycle",
    "family": "presvedceni",
@@ -11445,6 +11744,7 @@
    "aliases": [
     "muzeum minulých přesvědčení"
    ],
+   "catalog": "nlp",
    "cs": "Muzeum starých přesvědčení",
    "en": "Museum of old beliefs",
    "family": "presvedceni",
@@ -11458,6 +11758,7 @@
     "posouzení přesvědčení",
     "hodnocení přesvědčení o cíli"
    ],
+   "catalog": "nlp",
    "cs": "Audit přesvědčení",
    "en": "Belief audit",
    "family": "presvedceni",
@@ -11470,6 +11771,7 @@
    "aliases": [
     "omezující přesvědčení"
    ],
+   "catalog": "nlp",
    "cs": "Limitující přesvědčení",
    "en": "Limiting beliefs",
    "family": "presvedceni",
@@ -11482,6 +11784,7 @@
    "aliases": [
     "kauzální přesvědčení"
    ],
+   "catalog": "nlp",
    "cs": "Přesvědčení o příčině",
    "en": "Beliefs about cause",
    "family": "presvedceni",
@@ -11494,6 +11797,7 @@
    "aliases": [
     "přesvědčení o tom, co věci znamenají"
    ],
+   "catalog": "nlp",
    "cs": "Přesvědčení o významu",
    "en": "Beliefs about meaning",
    "family": "presvedceni",
@@ -11506,6 +11810,7 @@
    "aliases": [
     "identitní přesvědčení"
    ],
+   "catalog": "nlp",
    "cs": "Přesvědčení o identitě",
    "en": "Beliefs about identity",
    "family": "presvedceni",
@@ -11519,6 +11824,7 @@
     "tři oblasti limitujících přesvědčení",
     "beznaděj, bezmoc, nehodnost"
    ],
+   "catalog": "nlp",
    "cs": "Beznaděj, bezmoc a pocit bezcennosti",
    "en": "Hopelessness, helplessness, worthlessness",
    "family": "presvedceni",
@@ -11532,6 +11838,7 @@
     "řetěz přesvědčení",
     "belief chaining"
    ],
+   "catalog": "nlp",
    "cs": "Řetězení přesvědčení",
    "en": "Belief chaining",
    "family": "presvedceni",
@@ -11546,6 +11853,7 @@
     "Cartesian coordinates",
     "čtyři otázky rozhodování"
    ],
+   "catalog": "nlp",
    "cs": "Kartézské otázky",
    "en": "Cartesian questions",
    "family": "presvedceni",
@@ -11559,6 +11867,7 @@
     "virus myšlení",
     "thought virus"
    ],
+   "catalog": "nlp",
    "cs": "Myšlenkový virus",
    "en": "Thought virus",
    "family": "presvedceni",
@@ -11572,6 +11881,7 @@
     "přesvědčení jako cesta ke zdraví",
     "beliefs and health"
    ],
+   "catalog": "nlp",
    "cs": "Přesvědčení a zdraví v NLP",
    "en": "Beliefs and health in NLP",
    "family": "presvedceni",
@@ -11585,6 +11895,7 @@
     "přesvědčení jsou zobecnění",
     "beliefs are generalizations"
    ],
+   "catalog": "nlp",
    "cs": "Přesvědčení jako součást mapy",
    "en": "Beliefs as part of the map",
    "family": "presvedceni",
@@ -11598,6 +11909,7 @@
     "vtištění",
     "formativní zážitek"
    ],
+   "catalog": "nlp",
    "cs": "Imprint",
    "en": "Imprint",
    "family": "presvedceni",
@@ -11611,6 +11923,7 @@
     "směr motivace",
     "k a od"
    ],
+   "catalog": "nlp",
    "cs": "K cíli a od problému",
    "en": "Toward and away from",
    "family": "metaprogramy",
@@ -11624,6 +11937,7 @@
     "zdroj hodnocení",
     "vnitřní a vnější reference"
    ],
+   "catalog": "nlp",
    "cs": "Vnitřní a vnější referenční rámec",
    "en": "Internal and external reference",
    "family": "metaprogramy",
@@ -11636,6 +11950,7 @@
    "aliases": [
     "důvod volby"
    ],
+   "catalog": "nlp",
    "cs": "Možnosti a postupy",
    "en": "Options and procedures",
    "family": "metaprogramy",
@@ -11649,6 +11964,7 @@
     "rozsah",
     "velikost celku"
    ],
+   "catalog": "nlp",
    "cs": "Obecné a specifické",
    "en": "General and specific",
    "family": "metaprogramy",
@@ -11663,6 +11979,7 @@
     "vztah ke změně",
     "hledání shody a hledání rozdílu"
    ],
+   "catalog": "nlp",
    "cs": "Shoda a rozdíl",
    "en": "Sameness and difference",
    "family": "metaprogramy",
@@ -11676,6 +11993,7 @@
     "úroveň aktivity",
     "iniciativa a vyčkávání"
    ],
+   "catalog": "nlp",
    "cs": "Proaktivní a reaktivní",
    "en": "Proactive and reactive",
    "family": "metaprogramy",
@@ -11689,6 +12007,7 @@
     "hodnotová slova",
     "rozhodovací kritéria"
    ],
+   "catalog": "nlp",
    "cs": "Kritéria",
    "en": "Criteria",
    "family": "metaprogramy",
@@ -11701,6 +12020,7 @@
    "aliases": [
     "kanál přesvědčovatele"
    ],
+   "catalog": "nlp",
    "cs": "Kanál přesvědčení",
    "en": "Convincer channel",
    "family": "metaprogramy",
@@ -11714,6 +12034,7 @@
     "způsob přesvědčení",
     "režim přesvědčovatele"
    ],
+   "catalog": "nlp",
    "cs": "Režim přesvědčení",
    "en": "Convincer mode",
    "family": "metaprogramy",
@@ -11726,6 +12047,7 @@
    "aliases": [
     "směr pozornosti"
    ],
+   "catalog": "nlp",
    "cs": "Já a druzí",
    "en": "Self and other",
    "family": "metaprogramy",
@@ -11738,6 +12060,7 @@
    "aliases": [
     "emoční reakce na stres"
    ],
+   "catalog": "nlp",
    "cs": "Reakce na stres",
    "en": "Stress response",
    "family": "metaprogramy",
@@ -11751,6 +12074,7 @@
     "styl spolupráce",
     "samostatnost, blízkost a spolupráce"
    ],
+   "catalog": "nlp",
    "cs": "Pracovní styl",
    "en": "Working style",
    "family": "metaprogramy",
@@ -11764,6 +12088,7 @@
     "orientace na lidi a na úkoly",
     "organizace pozornosti"
    ],
+   "catalog": "nlp",
    "cs": "Lidé a věci",
    "en": "Person and thing",
    "family": "metaprogramy",
@@ -11776,6 +12101,7 @@
    "aliases": [
     "moje pravidla a pravidla pro druhé"
    ],
+   "catalog": "nlp",
    "cs": "Struktura pravidel",
    "en": "Rule structure",
    "family": "metaprogramy",
@@ -11788,6 +12114,7 @@
    "aliases": [
     "orientace na minulost, přítomnost a budoucnost"
    ],
+   "catalog": "nlp",
    "cs": "Časová orientace",
    "en": "Time orientation",
    "family": "metaprogramy",
@@ -11800,6 +12127,7 @@
    "aliases": [
     "styl zvládání emocí"
    ],
+   "catalog": "nlp",
    "cs": "Emoční zvládání",
    "en": "Emotional coping",
    "family": "metaprogramy",
@@ -11813,6 +12141,7 @@
     "nákupní kritéria",
     "cena, pohodlí, kvalita, čas"
    ],
+   "catalog": "nlp",
    "cs": "Hodnoty při koupi",
    "en": "Value buying",
    "family": "metaprogramy",
@@ -11825,6 +12154,7 @@
    "aliases": [
     "přílišná a nedostatečná odpovědnost"
    ],
+   "catalog": "nlp",
    "cs": "Odpovědnost",
    "en": "Responsibility",
    "family": "metaprogramy",
@@ -11837,6 +12167,7 @@
    "aliases": [
     "důvěřivost a nedůvěřivost"
    ],
+   "catalog": "nlp",
    "cs": "Důvěra",
    "en": "Trust",
    "family": "metaprogramy",
@@ -11850,6 +12181,7 @@
     "filozofický směr",
     "původ a řešení"
    ],
+   "catalog": "nlp",
    "cs": "Proč a jak",
    "en": "Philosophical direction",
    "family": "metaprogramy",
@@ -11863,6 +12195,7 @@
     "adaptace",
     "uzavírání a otevřenost"
    ],
+   "catalog": "nlp",
    "cs": "Usuzování a vnímání",
    "en": "Adaptation (judging and perceiving)",
    "family": "metaprogramy",
@@ -11875,6 +12208,7 @@
    "aliases": [
     "profil LAB v personalistice"
    ],
+   "catalog": "nlp",
    "cs": "Metaprogramy v náboru a řízení",
    "en": "Meta-programs in recruitment and management",
    "family": "metaprogramy",
@@ -11887,6 +12221,7 @@
    "aliases": [
     "ladění sdělení podle profilu zákazníka"
    ],
+   "catalog": "nlp",
    "cs": "Metaprogramy v marketingu",
    "en": "Meta-programs in marketing",
    "family": "metaprogramy",
@@ -11900,6 +12235,7 @@
     "matching",
     "přímé zrcadlení"
    ],
+   "catalog": "nlp",
    "cs": "Zrcadlení",
    "en": "Mirroring",
    "family": "raport-a-kalibrace",
@@ -11913,6 +12249,7 @@
     "nepřímé zrcadlení",
     "cross-over matching"
    ],
+   "catalog": "nlp",
    "cs": "Křížové zrcadlení",
    "en": "Cross-over mirroring",
    "family": "raport-a-kalibrace",
@@ -11926,6 +12263,7 @@
     "provázení a vedení",
     "pace and lead"
    ],
+   "catalog": "nlp",
    "cs": "Pacing a leading",
    "en": "Pacing and leading",
    "family": "raport-a-kalibrace",
@@ -11939,6 +12277,7 @@
     "sladění smyslových predikátů",
     "predicate tracking"
    ],
+   "catalog": "nlp",
    "cs": "Shoda predikátů",
    "en": "Predicate matching",
    "family": "raport-a-kalibrace",
@@ -11952,6 +12291,7 @@
     "provázení dechu",
     "breath pacing"
    ],
+   "catalog": "nlp",
    "cs": "Sladění dechu",
    "en": "Breathing matching",
    "family": "raport-a-kalibrace",
@@ -11965,6 +12305,7 @@
     "vokální zrcadlení",
     "matching hlasu"
    ],
+   "catalog": "nlp",
    "cs": "Sladění hlasu a tempa",
    "en": "Voice and tempo matching",
    "family": "raport-a-kalibrace",
@@ -11978,6 +12319,7 @@
     "backtrack",
     "zpětné zrcadlení slov"
    ],
+   "catalog": "nlp",
    "cs": "Zpětné shrnutí",
    "en": "Backtracking",
    "family": "raport-a-kalibrace",
@@ -11991,6 +12333,7 @@
     "kalibrace ano/ne",
     "neverbální ano a ne"
    ],
+   "catalog": "nlp",
    "cs": "Kalibrace souhlasu a nesouhlasu",
    "en": "Yes/no calibration",
    "family": "raport-a-kalibrace",
@@ -12004,6 +12347,7 @@
     "test vedení",
     "leading"
    ],
+   "catalog": "nlp",
    "cs": "Vedení v raportu",
    "en": "Leading in rapport",
    "family": "raport-a-kalibrace",
@@ -12017,6 +12361,7 @@
     "mismatching",
     "záměrné nesladění"
    ],
+   "catalog": "nlp",
    "cs": "Přerušení raportu",
    "en": "Breaking rapport",
    "family": "raport-a-kalibrace",
@@ -12030,6 +12375,7 @@
     "raport s publikem",
     "skupinový raport"
    ],
+   "catalog": "nlp",
    "cs": "Raport se skupinou",
    "en": "Group rapport",
    "family": "raport-a-kalibrace",
@@ -12043,6 +12389,7 @@
     "sladění kritérií",
     "zrcadlení hodnot"
    ],
+   "catalog": "nlp",
    "cs": "Sladění hodnot",
    "en": "Value matching",
    "family": "raport-a-kalibrace",
@@ -12056,6 +12403,7 @@
     "instrumentální raport",
     "budování raportu za účelem vlivu"
    ],
+   "catalog": "nlp",
    "cs": "Raport jako nástroj vlivu",
    "en": "Rapport as an influence tool",
    "family": "raport-a-kalibrace",
@@ -12069,6 +12417,7 @@
     "oční pohyby a lež",
     "čtení lži z očí"
    ],
+   "catalog": "nlp",
    "cs": "Detekce lži v NLP",
    "en": "Lie detection claims in NLP",
    "family": "raport-a-kalibrace",
@@ -12082,6 +12431,7 @@
     "čtení neverbálních signálů",
     "čtení lidí"
    ],
+   "catalog": "nlp",
    "cs": "Čtení řeči těla v NLP",
    "en": "Body-language reading in NLP",
    "family": "raport-a-kalibrace",
@@ -12095,6 +12445,7 @@
     "pseudoempatie",
     "strategická empatie"
    ],
+   "catalog": "nlp",
    "cs": "Předstíraná empatie",
    "en": "Simulated empathy",
    "family": "raport-a-kalibrace",
@@ -12108,6 +12459,7 @@
     "podmínky dobře formulovaného cíle",
     "well-formed outcome"
    ],
+   "catalog": "nlp",
    "cs": "Dobře formulovaný výsledek",
    "en": "Well-formed outcome",
    "family": "cile-a-vysledky",
@@ -12121,6 +12473,7 @@
     "pozitivní formulace cíle",
     "formulace k cíli"
    ],
+   "catalog": "nlp",
    "cs": "Kladná formulace cíle",
    "en": "Stated in the positive",
    "family": "cile-a-vysledky",
@@ -12134,6 +12487,7 @@
     "smyslově ověřitelné kritérium",
     "důkaz dosažení cíle"
    ],
+   "catalog": "nlp",
    "cs": "Smyslové důkazy dosažení",
    "en": "Sensory-based evidence",
    "family": "cile-a-vysledky",
@@ -12147,6 +12501,7 @@
     "cíl zahájený a udržovaný vlastními silami",
     "vlastní dosah cíle"
    ],
+   "catalog": "nlp",
    "cs": "Cíl pod vlastní kontrolou",
    "en": "Self-initiated and self-maintained",
    "family": "cile-a-vysledky",
@@ -12160,6 +12515,7 @@
     "kdy, kde a s kým",
     "kontextové vymezení cíle"
    ],
+   "catalog": "nlp",
    "cs": "Kontext cíle",
    "en": "Context of the outcome",
    "family": "cile-a-vysledky",
@@ -12173,6 +12529,7 @@
     "zdroje výsledku",
     "vnitřní a vnější zdroje"
    ],
+   "catalog": "nlp",
    "cs": "Zdroje pro dosažení cíle",
    "en": "Resources for the outcome",
    "family": "cile-a-vysledky",
@@ -12186,6 +12543,7 @@
     "ekologická podmínka cíle",
     "dopady cíle na celek"
    ],
+   "catalog": "nlp",
    "cs": "Ekologie cíle",
    "en": "Ecology of the outcome",
    "family": "cile-a-vysledky",
@@ -12199,6 +12557,7 @@
     "test splnění kritéria",
     "jak poznám, že"
    ],
+   "catalog": "nlp",
    "cs": "Důkazní procedura",
    "en": "Evidence procedure",
    "family": "cile-a-vysledky",
@@ -12212,6 +12571,7 @@
     "otázky na žádaný stav",
     "otázky k cíli"
    ],
+   "catalog": "nlp",
    "cs": "Otázky výsledku",
    "en": "Outcome questions",
    "family": "cile-a-vysledky",
@@ -12225,6 +12585,7 @@
     "přechod z rámce problému do rámce výsledku",
     "problem frame a outcome frame"
    ],
+   "catalog": "nlp",
    "cs": "Od problému k výsledku",
    "en": "Problem to outcome",
    "family": "cile-a-vysledky",
@@ -12238,6 +12599,7 @@
     "hierarchie idejí",
     "žebříček abstrakce"
    ],
+   "catalog": "nlp",
    "cs": "Hierarchie myšlenek",
    "en": "Hierarchy of ideas",
    "family": "jazykove-vzorce",
@@ -12251,6 +12613,7 @@
     "zobecňování v rozhovoru",
     "přesun k obecnějšímu"
    ],
+   "catalog": "nlp",
    "cs": "Chunking nahoru",
    "en": "Chunking up",
    "family": "jazykove-vzorce",
@@ -12264,6 +12627,7 @@
     "konkretizace",
     "přesun ke konkrétnímu"
    ],
+   "catalog": "nlp",
    "cs": "Chunking dolů",
    "en": "Chunking down",
    "family": "jazykove-vzorce",
@@ -12277,6 +12641,7 @@
     "chunking do stran",
     "přesun k jinému případu téže třídy"
    ],
+   "catalog": "nlp",
    "cs": "Laterální chunking",
    "en": "Lateral chunking",
    "family": "jazykove-vzorce",
@@ -12291,6 +12656,7 @@
     "stresové komunikační postoje",
     "Satir categories"
    ],
+   "catalog": "nlp",
    "cs": "Komunikační kategorie Virginie Satirové",
    "en": "Satir categories",
    "family": "jazykove-vzorce",
@@ -12304,6 +12670,7 @@
     "usmiřující postoj",
     "placating"
    ],
+   "catalog": "nlp",
    "cs": "Usmiřovatel",
    "en": "Placater",
    "family": "jazykove-vzorce",
@@ -12317,6 +12684,7 @@
     "obviňující postoj",
     "blaming"
    ],
+   "catalog": "nlp",
    "cs": "Obviňovatel",
    "en": "Blamer",
    "family": "jazykove-vzorce",
@@ -12331,6 +12699,7 @@
     "přehnaně rozumový postoj",
     "super-reasonable"
    ],
+   "catalog": "nlp",
    "cs": "Počítač",
    "en": "Computer (super-reasonable)",
    "family": "jazykove-vzorce",
@@ -12345,6 +12714,7 @@
     "irelevantní postoj",
     "distracting"
    ],
+   "catalog": "nlp",
    "cs": "Rozptylovač",
    "en": "Distracter",
    "family": "jazykove-vzorce",
@@ -12359,6 +12729,7 @@
     "kongruentní postoj",
     "leveling"
    ],
+   "catalog": "nlp",
    "cs": "Vyrovnaný",
    "en": "Leveller",
    "family": "jazykove-vzorce",
@@ -12372,6 +12743,7 @@
     "terapeutický příběh",
     "metaforický příběh"
    ],
+   "catalog": "nlp",
    "cs": "Terapeutická metafora",
    "en": "Therapeutic metaphor",
    "family": "jazykove-vzorce",
@@ -12385,6 +12757,7 @@
     "izomorfismus metafory",
     "strukturně shodný příběh"
    ],
+   "catalog": "nlp",
    "cs": "Izomorfní metafora",
    "en": "Isomorphic metaphor",
    "family": "jazykove-vzorce",
@@ -12398,6 +12771,7 @@
     "ale a a",
     "spojka ale"
    ],
+   "catalog": "nlp",
    "cs": "Záměna „ale“ za „a“",
    "en": "But versus and",
    "family": "jazykove-vzorce",
@@ -12411,6 +12785,7 @@
     "placebový důvod",
     "magické protože"
    ],
+   "catalog": "nlp",
    "cs": "Slovo „protože“",
    "en": "Because",
    "family": "jazykove-vzorce",
@@ -12424,6 +12799,7 @@
     "ještě ne",
     "zatím ne"
    ],
+   "catalog": "nlp",
    "cs": "Slovo „zatím“",
    "en": "Yet",
    "family": "jazykove-vzorce",
@@ -12437,6 +12813,7 @@
     "zkus",
     "pokusit se"
    ],
+   "catalog": "nlp",
    "cs": "Slovo „zkusit“",
    "en": "Try",
    "family": "jazykove-vzorce",
@@ -12450,6 +12827,7 @@
     "výzva k představě",
     "představ si"
    ],
+   "catalog": "nlp",
    "cs": "Výzva „představte si“",
    "en": "Imagine",
    "family": "jazykove-vzorce",
@@ -12463,6 +12841,7 @@
     "řečnické otázky",
     "sugestivní otázky"
    ],
+   "catalog": "nlp",
    "cs": "Otázky místo tvrzení",
    "en": "Questions instead of statements",
    "family": "jazykove-vzorce",
@@ -12476,6 +12855,7 @@
     "nabitý jazyk",
     "hodnotově zatížené výrazy"
    ],
+   "catalog": "nlp",
    "cs": "Hodnotově nabitá slova",
    "en": "Loaded words",
    "family": "jazykove-vzorce",
@@ -12489,6 +12869,7 @@
     "posuny slovesného času",
     "přesun do minulého času"
    ],
+   "catalog": "nlp",
    "cs": "Časové posuny v jazyce",
    "en": "Verb tense shifts",
    "family": "jazykove-vzorce",
@@ -12502,6 +12883,7 @@
     "skrytá hypnóza",
     "covert hypnosis"
    ],
+   "catalog": "nlp",
    "cs": "Konverzační hypnóza",
    "en": "Conversational (covert) hypnosis",
    "family": "vliv-a-zneuziti",
@@ -12515,6 +12897,7 @@
     "NLP selling",
     "neurolingvistický prodej"
    ],
+   "catalog": "nlp",
    "cs": "NLP v prodeji",
    "en": "NLP in sales",
    "family": "vliv-a-zneuziti",
@@ -12528,6 +12911,7 @@
     "předpokladový závěr",
     "uzavření předpokladem"
    ],
+   "catalog": "nlp",
    "cs": "Předpokládané uzavření",
    "en": "Assumptive close",
    "family": "vliv-a-zneuziti",
@@ -12541,6 +12925,7 @@
     "alternativní závěr",
     "volba mezi dvěma ano"
    ],
+   "catalog": "nlp",
    "cs": "Alternativní uzavření",
    "en": "Alternative close",
    "family": "vliv-a-zneuziti",
@@ -12554,6 +12939,7 @@
     "future pacing v prodeji",
     "představa vlastnictví"
    ],
+   "catalog": "nlp",
    "cs": "Budoucí přehrávání v prodeji",
    "en": "Future pacing in sales",
    "family": "vliv-a-zneuziti",
@@ -12567,6 +12953,7 @@
     "pickup",
     "speed seduction"
    ],
+   "catalog": "nlp",
    "cs": "NLP v komunitě „umění svádění“",
    "en": "NLP in the seduction community",
    "family": "vliv-a-zneuziti",
@@ -12579,6 +12966,7 @@
    "aliases": [
     "NLP v kultech"
    ],
+   "catalog": "nlp",
    "cs": "NLP v sektách a kultovních skupinách",
    "en": "NLP in cults",
    "family": "vliv-a-zneuziti",
@@ -12591,6 +12979,7 @@
    "aliases": [
     "NLP ve vyšetřování"
    ],
+   "catalog": "nlp",
    "cs": "NLP ve výslechu a vyjednávání",
    "en": "NLP in interrogation and negotiation",
    "family": "vliv-a-zneuziti",
@@ -12603,6 +12992,7 @@
    "aliases": [
     "politická rétorika a NLP"
    ],
+   "catalog": "nlp",
    "cs": "NLP v politické řeči",
    "en": "NLP in political speech",
    "family": "vliv-a-zneuziti",
@@ -12615,6 +13005,7 @@
    "aliases": [
     "NLP v marketingu"
    ],
+   "catalog": "nlp",
    "cs": "NLP v reklamě",
    "en": "NLP in advertising",
    "family": "vliv-a-zneuziti",
@@ -12628,6 +13019,7 @@
     "NLP koučink",
     "rozvojové programy s NLP"
    ],
+   "catalog": "nlp",
    "cs": "NLP v koučinku a rozvoji",
    "en": "NLP in coaching",
    "family": "vliv-a-zneuziti",
@@ -12641,6 +13033,7 @@
     "NLP Practitioner a Master Practitioner",
     "certifikační žebříček NLP"
    ],
+   "catalog": "nlp",
    "cs": "Trh certifikací NLP",
    "en": "The NLP certification market",
    "family": "vliv-a-zneuziti",
@@ -12654,6 +13047,7 @@
     "kult lektora",
     "charismatický trenér"
    ],
+   "catalog": "nlp",
    "cs": "Efekt guru na seminářích",
    "en": "Guru effect in seminars",
    "family": "vliv-a-zneuziti",
@@ -12667,6 +13061,7 @@
     "velkoskupinové tréninky",
     "motivační show"
    ],
+   "catalog": "nlp",
    "cs": "Velké motivační semináře",
    "en": "Large-group seminars",
    "family": "vliv-a-zneuziti",
@@ -12680,6 +13075,7 @@
     "falešná spřízněnost",
     "zrcadlení v romantických podvodech"
    ],
+   "catalog": "nlp",
    "cs": "Zrcadlení v podvodech",
    "en": "Mirroring in scams",
    "family": "vliv-a-zneuziti",
@@ -12693,6 +13089,7 @@
     "přerámování kontroly na péči",
     "přepis významu v partnerském vztahu"
    ],
+   "catalog": "nlp",
    "cs": "Manipulativní reframing v blízkých vztazích",
    "en": "Manipulative reframing in close relationships",
    "family": "vliv-a-zneuziti",
@@ -12706,6 +13103,7 @@
     "hypnotický copywriting",
     "trance obsah na sociálních sítích"
    ],
+   "catalog": "nlp",
    "cs": "Hypnotický jazyk v online obsahu",
    "en": "Hypnotic language in online content",
    "family": "vliv-a-zneuziti",
@@ -12719,6 +13117,7 @@
     "neurobláboly",
     "neurovědecký nátěr"
    ],
+   "catalog": "nlp",
    "cs": "Neurožargon",
    "en": "Neuro-jargon",
    "family": "vliv-a-zneuziti",
@@ -12732,6 +13131,7 @@
     "inokulace proti vlivu",
     "odolnost vůči přesvědčování"
    ],
+   "catalog": "nlp",
    "cs": "Obrana proti vlivovým vzorcům",
    "en": "Defence against influence patterns",
    "family": "vliv-a-zneuziti",
@@ -12744,6 +13144,7 @@
    "aliases": [
     "detekce NLP v komunikaci"
    ],
+   "catalog": "nlp",
    "cs": "Rozpoznání praktiky NLP v rozhovoru",
    "en": "Recognising NLP practice in conversation",
    "family": "vliv-a-zneuziti",
@@ -12757,6 +13158,7 @@
     "empirická podpora NLP",
     "výzkum NLP"
    ],
+   "catalog": "nlp",
    "cs": "Stav důkazů o NLP",
    "en": "State of the evidence on NLP",
    "family": "kriticke-hodnoceni",
@@ -12770,6 +13172,7 @@
     "výzkum PRS",
     "výzkum shody predikátů"
    ],
+   "catalog": "nlp",
    "cs": "Výzkum preferovaného reprezentačního systému",
    "en": "Research on the preferred representational system",
    "family": "kriticke-hodnoceni",
@@ -12782,6 +13185,7 @@
    "aliases": [
     "výzkum pohybů očí v NLP"
    ],
+   "catalog": "nlp",
    "cs": "Výzkum očních přístupových signálů",
    "en": "Research on eye accessing cues",
    "family": "kriticke-hodnoceni",
@@ -12794,6 +13198,7 @@
    "aliases": [
     "pseudovědecký charakter NLP"
    ],
+   "catalog": "nlp",
    "cs": "NLP jako pseudověda",
    "en": "NLP as pseudoscience",
    "family": "kriticke-hodnoceni",
@@ -12807,6 +13212,7 @@
     "Delphi poll",
     "delfský průzkum"
    ],
+   "catalog": "nlp",
    "cs": "Delfská studie zdiskreditovaných metod",
    "en": "Delphi poll of discredited methods",
    "family": "kriticke-hodnoceni",
@@ -12820,6 +13226,7 @@
     "Sturtův přehled",
     "NLP a zdravotní výsledky"
    ],
+   "catalog": "nlp",
    "cs": "Systematický přehled účinků na zdraví",
    "en": "Systematic review of health outcomes",
    "family": "kriticke-hodnoceni",
@@ -12832,6 +13239,7 @@
    "aliases": [
     "NLP Research Data Base"
    ],
+   "catalog": "nlp",
    "cs": "Databáze výzkumu NLP",
    "en": "NLP research database",
    "family": "kriticke-hodnoceni",
@@ -12845,6 +13253,7 @@
     "zpráva Enhancing Human Performance",
     "hodnocení pro americkou armádu"
    ],
+   "catalog": "nlp",
    "cs": "Hodnocení Národní rady pro výzkum USA",
    "en": "US National Research Council appraisal",
    "family": "kriticke-hodnoceni",
@@ -12857,6 +13266,7 @@
    "aliases": [
     "NLP a psychologie koučování"
    ],
+   "catalog": "nlp",
    "cs": "Výzkum NLP v koučinku",
    "en": "Research on NLP in coaching",
    "family": "kriticke-hodnoceni",
@@ -12870,6 +13280,7 @@
     "nevyvratitelnost NLP",
     "testovatelnost NLP"
    ],
+   "catalog": "nlp",
    "cs": "Falzifikovatelnost NLP",
    "en": "Falsifiability of NLP",
    "family": "kriticke-hodnoceni",
@@ -12883,6 +13294,7 @@
     "vznik NLP",
     "dějiny neurolingvistického programování"
    ],
+   "catalog": "nlp",
    "cs": "Historie NLP",
    "en": "History of NLP",
    "family": "kriticke-hodnoceni",
@@ -12896,6 +13308,7 @@
     "zdroje NLP",
     "modelovaní terapeuti"
    ],
+   "catalog": "nlp",
    "cs": "Kořeny NLP: Satirová, Perls, Erickson",
    "en": "Roots of NLP: Satir, Perls, Erickson",
    "family": "kriticke-hodnoceni",
@@ -12909,6 +13322,7 @@
     "kargokultovní věda",
     "cargo cult psychology"
    ],
+   "catalog": "nlp",
    "cs": "NLP jako kargokultovní psychologie",
    "en": "NLP as cargo-cult psychology",
    "family": "kriticke-hodnoceni",
@@ -12922,6 +13336,7 @@
     "kritické čtení NLP",
     "hodnocení tvrzení NLP"
    ],
+   "catalog": "nlp",
    "cs": "Jak číst tvrzení NLP",
    "en": "How to read NLP claims",
    "family": "kriticke-hodnoceni",
@@ -12932,5 +13347,6 @@
   }
  ],
  "schema": 1,
- "source": "data/nlp (scripts/nlp-catalog.py)"
+ "source": "data/nlp (scripts/catalogs.py)",
+ "title": "NLP vzorce"
 }

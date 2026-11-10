@@ -1,5 +1,5 @@
 # Rodina NLP-01: Předpoklady NLP, část b (NLP-01.12 až NLP-01.21).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py.
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py.
 
 [[pattern]]
 id = "NLP-01.12"

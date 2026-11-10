@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Obrana proti vlivovým vzorcům", "Defence against influence patterns", "inokulace proti vlivu", "odolnost vůči přesvědčování", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Obrana proti vlivovým vzorcům", "Defence against influence patterns", "inokulace proti vlivu", "odolnost vůči přesvědčování", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.19"
-nlp_slug = "obrana-proti-vlivovym-vzorcum"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Defence against influence patterns"
-nlp_aliases = ["inokulace proti vlivu", "odolnost vůči přesvědčování"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["meta-model", "sleight-of-mouth", "deframing", "stepeni-ja-v-manipulaci", "raport-jako-nastroj-vlivu", "nlp-v-prodeji", "rozpoznani-nlp-praktiky", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["rozpoznani-nlp-praktiky", "jak-cist-tvrzeni-nlp", "raport-jako-nastroj-vlivu", "meta-model", "deframing", "nlp-v-prodeji"]
-nlp_kompendium = ["kompendium/06-obrana/_index.md", "kompendium/06-klinicke-aplikace/preventivni-strategie.md", "kompendium/population-health/_index.md", "kompendium/organizational-defense/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/organizational-defense/_index.md", "kompendium/population-health/_index.md"]
-nlp_prev = "neuro-zargon"
-nlp_next = "rozpoznani-nlp-praktiky"
-nlp_position = 19
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "hassan-1988", "herman-1992", "kahneman-2011", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "hassan-1988", "herman-1992", "kahneman-2011", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.19"
+catalog_slug = "obrana-proti-vlivovym-vzorcum"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Defence against influence patterns"
+catalog_aliases = ["inokulace proti vlivu", "odolnost vůči přesvědčování"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["inokulace-proti-klamum", "meta-model", "sleight-of-mouth", "deframing", "stepeni-ja-v-manipulaci", "raport-jako-nastroj-vlivu", "nlp-v-prodeji", "rozpoznani-nlp-praktiky", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["rozpoznani-nlp-praktiky", "jak-cist-tvrzeni-nlp", "raport-jako-nastroj-vlivu", "meta-model", "deframing", "nlp-v-prodeji"]
+catalog_kompendium = ["kompendium/06-obrana/_index.md", "kompendium/06-klinicke-aplikace/preventivni-strategie.md", "kompendium/population-health/_index.md", "kompendium/organizational-defense/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/organizational-defense/_index.md", "kompendium/population-health/_index.md"]
+catalog_prev = "neuro-zargon"
+catalog_next = "rozpoznani-nlp-praktiky"
+catalog_position = 19
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "hassan-1988", "herman-1992", "kahneman-2011", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "hassan-1988", "herman-1992", "kahneman-2011", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
 +++
 
 # Obrana proti vlivovým vzorcům
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Defence against influence patterns |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -207,7 +210,7 @@ němž má člověk znovu právo na vlastní popis zkušenosti (Herman 1992). Po
 pojmenování mechanismu, který působil, protože tím se odpovědnost vrací tomu, kdo vliv
 zneužil, a nikoli tomu, kdo mu podlehl.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -227,30 +230,31 @@ zneužil, a nikoli tomu, kdo mu podlehl.
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzný vzorec (Sleight of Mouth, Sleight of Mouth)
-- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzný vzorec (Reframing a rámce, De-framing)
-- [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) – příbuzný vzorec (Práce s částmi, Splitting of the self in manipulative groups)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzný vzorec (Vliv a zneužití NLP, Recognising NLP practice in conversation)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [Inokulace proti klamům](@/kompendium/argumentacni-fauly/teorie-argumentace/inokulace-proti-klamum.md) – příbuzné heslo (Argumentační fauly: Principy kritické diskuse a teorie argumentace, Inoculation against fallacies)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzné heslo (Sleight of Mouth, Sleight of Mouth)
+- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzné heslo (Reframing a rámce, De-framing)
+- [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) – příbuzné heslo (Práce s částmi, Splitting of the self in manipulative groups)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – příbuzné heslo (Vliv a zneužití NLP, Recognising NLP practice in conversation)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.9 Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Populační zdraví a prevence](@/kompendium/population-health/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.9 Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Populační zdraví a prevence](@/kompendium/population-health/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – předchozí vzorec rodiny
-- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – předchozí heslo rodiny
+- [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Levitace ruky", "Hand levitation", "levitace paže", "ideomotorická levitace", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Levitace ruky", "Hand levitation", "levitace paže", "ideomotorická levitace", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.06"
-nlp_slug = "levitace-ruky"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Hand levitation"
-nlp_aliases = ["levitace paže", "ideomotorická levitace"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["trans-pojem", "indukce-podanim-ruky", "terapeuticka-dvojna-vazba", "ideomotoricka-signalizace"]
-nlp_related_declared = ["ideomotoricka-signalizace", "indukce-podanim-ruky", "trans-pojem", "terapeuticka-dvojna-vazba"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md"]
-nlp_prev = "indukce-podanim-ruky"
-nlp_next = "vnorene-smycky"
-nlp_position = 6
-nlp_family_size = 28
-nlp_sources = ["erickson-rossi-1979", "erickson-rossi-rossi-1976", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
-nlp_sources_primary = []
-nlp_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.06"
+catalog_slug = "levitace-ruky"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Hand levitation"
+catalog_aliases = ["levitace paže", "ideomotorická levitace"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["trans-pojem", "indukce-podanim-ruky", "terapeuticka-dvojna-vazba", "ideomotoricka-signalizace"]
+catalog_related_declared = ["ideomotoricka-signalizace", "indukce-podanim-ruky", "trans-pojem", "terapeuticka-dvojna-vazba"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md"]
+catalog_prev = "indukce-podanim-ruky"
+catalog_next = "vnorene-smycky"
+catalog_position = 6
+catalog_family_size = 28
+catalog_sources = ["erickson-rossi-1979", "erickson-rossi-rossi-1976", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
+catalog_sources_primary = []
+catalog_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
 +++
 
 # Levitace ruky
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Hand levitation |
 | **Jiné názvy** | levitace paže, ideomotorická levitace |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ mechanismu, obnovu důvěry ve vlastní vědomé rozhodování a podporu blízk�
 (Singer a Lalich 1995). Klinici by měli zážitek levitace vždy předem demystifikovat a po
 sezení ho s pacientem probrat.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,25 +215,25 @@ sezení ho s pacientem probrat.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzný vzorec (Ericksonovská hypnóza, Handshake induction)
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Therapeutic double bind)
-- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Ideomotor signalling)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzné heslo (Ericksonovská hypnóza, Handshake induction)
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Therapeutic double bind)
+- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzné heslo (Ericksonovská hypnóza, Ideomotor signalling)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – předchozí vzorec rodiny
-- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – předchozí heslo rodiny
+- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

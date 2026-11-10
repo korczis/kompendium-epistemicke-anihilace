@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Lidé mají zdroje, které potřebují", "People have the resources they need", "každý má potřebné zdroje", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Lidé mají zdroje, které potřebují", "People have the resources they need", "každý má potřebné zdroje", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.05"
-nlp_slug = "lide-maji-potrebne-zdroje"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "People have the resources they need"
-nlp_aliases = ["každý má potřebné zdroje"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["nejlepsi-dostupna-volba", "zdrojovy-stav", "prenos-zdroje", "beznadej-bezmoc-nehodnost", "cil-pod-vlastni-kontrolou", "zdroje-cile", "nlp-v-koucinku", "velke-seminare"]
-nlp_related_declared = ["zdrojovy-stav", "prenos-zdroje", "zdroje-cile", "velke-seminare", "beznadej-bezmoc-nehodnost", "nlp-v-koucinku"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/case-studies/51-new-age-recovery.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/case-studies/51-new-age-recovery.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md"]
-nlp_prev = "pozitivni-zamer-chovani"
-nlp_next = "mysl-a-telo-jeden-system"
-nlp_position = 5
-nlp_family_size = 21
-nlp_sources = ["erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "stark-2007", "sturt-2012"]
-nlp_sources_primary = ["oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
-nlp_sources_critical = ["herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "stark-2007", "sturt-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.05"
+catalog_slug = "lide-maji-potrebne-zdroje"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "People have the resources they need"
+catalog_aliases = ["každý má potřebné zdroje"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["nejlepsi-dostupna-volba", "zdrojovy-stav", "prenos-zdroje", "beznadej-bezmoc-nehodnost", "cil-pod-vlastni-kontrolou", "zdroje-cile", "nlp-v-koucinku", "velke-seminare"]
+catalog_related_declared = ["zdrojovy-stav", "prenos-zdroje", "zdroje-cile", "velke-seminare", "beznadej-bezmoc-nehodnost", "nlp-v-koucinku"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/case-studies/51-new-age-recovery.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/case-studies/51-new-age-recovery.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md"]
+catalog_prev = "pozitivni-zamer-chovani"
+catalog_next = "mysl-a-telo-jeden-system"
+catalog_position = 5
+catalog_family_size = 21
+catalog_sources = ["erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "stark-2007", "sturt-2012"]
+catalog_sources_primary = ["oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_critical = ["herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "stark-2007", "sturt-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Lidé mají zdroje, které potřebují
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | People have the resources they need |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ pomoci a znovu přijmout, že vyhledat péči není selhání. Odborník, který
 ho měl formulovat jako hypotézu o klientových silných stránkách, nikoli jako záruku, že klient
 nic dalšího nepotřebuje.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,28 +223,28 @@ nic dalšího nepotřebuje.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzný vzorec (Předpoklady NLP, People make the best choice available to them)
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzný vzorec (Kotvení, Resource transfer)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
-- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – příbuzný vzorec (Cíle a výsledky, Self-initiated and self-maintained)
-- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – příbuzný vzorec (Cíle a výsledky, Resources for the outcome)
-- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in coaching)
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzný vzorec (Vliv a zneužití NLP, Large-group seminars)
+- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzné heslo (Předpoklady NLP, People make the best choice available to them)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzné heslo (Kotvení, Resource transfer)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – příbuzné heslo (Cíle a výsledky, Self-initiated and self-maintained)
+- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – příbuzné heslo (Cíle a výsledky, Resources for the outcome)
+- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in coaching)
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzné heslo (Vliv a zneužití NLP, Large-group seminars)
 
 **V kompendiu**
 
-- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – předchozí vzorec rodiny
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – předchozí heslo rodiny
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

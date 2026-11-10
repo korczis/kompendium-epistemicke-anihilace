@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-sleight-of-mouth"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Sleight of Mouth", "Sleight of Mouth", "NLP"]
+keywords = ["Sleight of Mouth", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "sleight-of-mouth"
-nlp_code = "07"
-nlp_en = "Sleight of Mouth"
-nlp_size = 16
-nlp_members = ["sleight-of-mouth", "struktura-presvedceni-som", "som-zamer", "som-redefinice", "som-dusledek", "som-rozlozeni", "som-zobecneni", "som-protipriklad", "som-analogie", "som-jiny-vysledek", "som-model-sveta", "som-strategie-reality", "som-hierarchie-kriterii", "som-aplikace-na-sebe", "som-meta-ramec", "som-zmena-velikosti-ramce"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "stark-2007", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "sleight-of-mouth"
+catalog_code = "07"
+catalog_en = "Sleight of Mouth"
+catalog_size = 16
+catalog_members = ["sleight-of-mouth", "struktura-presvedceni-som", "som-zamer", "som-redefinice", "som-dusledek", "som-rozlozeni", "som-zobecneni", "som-protipriklad", "som-analogie", "som-jiny-vysledek", "som-model-sveta", "som-strategie-reality", "som-hierarchie-kriterii", "som-aplikace-na-sebe", "som-meta-ramec", "som-zmena-velikosti-ramce"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "stark-2007", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Sleight of Mouth
@@ -161,12 +163,12 @@ Kdo vzorce používá v pomáhající profesi, by měl mít na paměti, že poho
 nenahrazuje souhlas klienta a že každý nový rámec má být nabídkou, kterou lze bez následků
 odmítnout.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-07.01` | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) | Sleight of Mouth | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-07.02` | [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) | Belief structure in Sleight of Mouth | pojem | výkladový pojem | střední |
 | `NLP-07.03` | [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) | Intention | vzorec | terapeutické i vlivové | vysoké |
@@ -183,6 +185,64 @@ odmítnout.
 | `NLP-07.14` | [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) | Apply to self | vzorec | terapeutické i vlivové | střední |
 | `NLP-07.15` | [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) | Meta frame | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-07.16` | [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) | Change frame size | vzorec | terapeutické i vlivové | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Sleight of Mouth"]
+  click F "@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md"
+  n1["Sleight of Mouth"]
+  n2["Struktura přesvědčení v Sleight of Mouth"]
+  n3["Záměr"]
+  n4["Redefinice"]
+  n5["Důsledek"]
+  n6["Rozložení na části"]
+  n7["Zobecnění"]
+  n8["Protipříklad"]
+  n9["Analogie"]
+  n10["Jiný výsledek"]
+  n11["Model světa"]
+  n12["Strategie reality"]
+  n13["Hierarchie kritérií"]
+  n14["Aplikace na sebe"]
+  n15["Meta-rámec"]
+  n16["Změna velikosti rámce"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  n1 --> n5
+  n1 --> n6
+  n1 --> n7
+  n1 --> n8
+  n1 --> n9
+  n1 --> n10
+  n1 --> n11
+  n1 --> n12
+  n1 --> n13
+  n1 --> n14
+  n1 --> n15
+  n1 --> n16
+  click n1 "@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md"
+  click n2 "@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md"
+  click n3 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md"
+  click n4 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md"
+  click n5 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md"
+  click n6 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md"
+  click n7 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md"
+  click n8 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md"
+  click n9 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md"
+  click n10 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md"
+  click n11 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md"
+  click n12 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md"
+  click n13 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md"
+  click n14 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md"
+  click n15 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md"
+  click n16 "@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md"
+```
 
 ## Literatura
 
@@ -213,6 +273,6 @@ odmítnout.
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – předchozí rodina katalogu
 - [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

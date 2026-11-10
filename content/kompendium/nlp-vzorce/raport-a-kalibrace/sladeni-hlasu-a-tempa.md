@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Sladění hlasu a tempa", "Voice and tempo matching", "vokální zrcadlení", "matching hlasu", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Sladění hlasu a tempa", "Voice and tempo matching", "vokální zrcadlení", "matching hlasu", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.06"
-nlp_slug = "sladeni-hlasu-a-tempa"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Voice and tempo matching"
-nlp_aliases = ["vokální zrcadlení", "matching hlasu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "zrcadleni"
-nlp_narrower = []
-nlp_depth = 3
-nlp_ancestors = ["zrcadleni", "pacing-a-leading", "pacing-a-leading-pojem"]
-nlp_related = ["auditivni-system", "analogove-znaceni", "auditivni-kotvy", "auditivni-submodality", "shoda-predikatu", "sladeni-dechu", "konverzacni-hypnoza", "nlp-v-prodeji"]
-nlp_related_declared = ["shoda-predikatu", "auditivni-kotvy", "konverzacni-hypnoza", "nlp-v-prodeji"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "sladeni-dechu"
-nlp_next = "zpetne-shrnuti"
-nlp_position = 6
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "grinder-bandler-1981", "heap-1988", "herman-1992", "oconnor-seymour-1990", "rogers-1951", "satir-1972", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
-nlp_sources_roots = ["satir-1972"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "rogers-1951", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.06"
+catalog_slug = "sladeni-hlasu-a-tempa"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Voice and tempo matching"
+catalog_aliases = ["vokální zrcadlení", "matching hlasu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "zrcadleni"
+catalog_narrower = []
+catalog_depth = 3
+catalog_ancestors = ["zrcadleni", "pacing-a-leading", "pacing-a-leading-pojem"]
+catalog_related = ["auditivni-system", "analogove-znaceni", "auditivni-kotvy", "auditivni-submodality", "shoda-predikatu", "sladeni-dechu", "konverzacni-hypnoza", "nlp-v-prodeji"]
+catalog_related_declared = ["shoda-predikatu", "auditivni-kotvy", "konverzacni-hypnoza", "nlp-v-prodeji"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "sladeni-dechu"
+catalog_next = "zpetne-shrnuti"
+catalog_position = 6
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "grinder-bandler-1981", "heap-1988", "herman-1992", "oconnor-seymour-1990", "rogers-1951", "satir-1972", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
+catalog_sources_roots = ["satir-1972"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "rogers-1951", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.toml"
 +++
 
 # Sladění hlasu a tempa
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Voice and tempo matching |
 | **Jiné názvy** | vokální zrcadlení, matching hlasu |
-| **Obecnější vzorec** | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) |
+| **Obecnější heslo** | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -120,7 +123,7 @@ a často se kombinuje s verbální [shodou predikátů](@/kompendium/nlp-vzorce/
 Pozorovatel by měl rozlišit dva směry, kterými se hlas v rozhovoru používá. Hlasová shoda
 vytváří dojem podobnosti a rovnosti. Hlasová dominance, kterou kompendium rozebírá u
 [prosodické dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), naopak
-vytváří dojem autority a potlačuje kritické otázky. Ve vlivových sekvencích se oba směry
+vytváří dojem autority a potlačuje [kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md). Ve vlivových sekvencích se oba směry
 střídají: nejprve shoda, která sníží ostražitost, potom změna tónu, která nastolí vedení. V
 hypnotickém kontextu se k tomu přidává zvýraznění některých slov tónem nebo pauzou, jímž se
 z věty vyčleňuje skryté sdělení; katalog tyto jazykové prostředky popisuje v rodině
@@ -194,7 +197,7 @@ podobný hlas je hluboce lidská a že podvodníci ji vědomě využívají. Odp
 kdo podvod spáchal, a ne ten, kdo reagoval na projev, který je v běžném životě znakem
 důvěry (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,29 +218,29 @@ důvěry (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory representational system)
-- [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – příbuzný vzorec (Milton-model, Analogue marking)
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzný vzorec (Kotvení, Auditory and tonal anchors)
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzný vzorec (Submodality, Auditory submodalities)
-- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – příbuzný vzorec (Raport a kalibrace, Predicate matching)
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzný vzorec (Raport a kalibrace, Breathing matching)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
+- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory representational system)
+- [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – příbuzné heslo (Milton-model, Analogue marking)
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzné heslo (Submodality, Auditory submodalities)
+- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – příbuzné heslo (Raport a kalibrace, Predicate matching)
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzné heslo (Raport a kalibrace, Breathing matching)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
 
 **V kompendiu**
 
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – předchozí vzorec rodiny
-- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – předchozí heslo rodiny
+- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

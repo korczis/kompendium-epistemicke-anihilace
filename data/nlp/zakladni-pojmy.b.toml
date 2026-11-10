@@ -1,5 +1,5 @@
 # Rodina NLP-02: Základní pojmy NLP, část b (NLP-02.12 až NLP-02.22).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Identifikátor se po zveřejnění nemění.
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Identifikátor se po zveřejnění nemění.
 
 [[pattern]]
 id = "NLP-02.12"

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Sugesce pokrývající všechny možnosti", "Suggestion covering all possibilities", "sugesce pokrývající celou třídu odpovědí", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Sugesce pokrývající všechny možnosti", "Suggestion covering all possibilities", "sugesce pokrývající celou třídu odpovědí", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.24"
-nlp_slug = "sugesce-pokryvajici-vsechny-moznosti"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Suggestion covering all possibilities"
-nlp_aliases = ["sugesce pokrývající celou třídu odpovědí"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["volba-je-lepsi-nez-zadna-volba", "iluze-volby", "utilizace", "terapeuticka-dvojna-vazba", "otevrena-sugesce", "presupozice-nebo"]
-nlp_related_declared = ["iluze-volby", "terapeuticka-dvojna-vazba", "otevrena-sugesce", "presupozice-nebo", "utilizace"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "otevrena-sugesce"
-nlp_next = "ideomotoricka-signalizace"
-nlp_position = 24
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "bateson-1972", "erickson-rossi-rossi-1976", "festinger-1957", "gilovich-1991", "haley-1973", "kirsch-lynn-1995", "lilienfeld-2015", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "haley-1973"]
-nlp_sources_critical = ["festinger-1957", "gilovich-1991", "kirsch-lynn-1995", "lilienfeld-2015", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení", "Vztah k technikám kompendia"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.24"
+catalog_slug = "sugesce-pokryvajici-vsechny-moznosti"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Suggestion covering all possibilities"
+catalog_aliases = ["sugesce pokrývající celou třídu odpovědí"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["volba-je-lepsi-nez-zadna-volba", "iluze-volby", "utilizace", "terapeuticka-dvojna-vazba", "otevrena-sugesce", "presupozice-nebo"]
+catalog_related_declared = ["iluze-volby", "terapeuticka-dvojna-vazba", "otevrena-sugesce", "presupozice-nebo", "utilizace"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "otevrena-sugesce"
+catalog_next = "ideomotoricka-signalizace"
+catalog_position = 24
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "bateson-1972", "erickson-rossi-rossi-1976", "festinger-1957", "gilovich-1991", "haley-1973", "kirsch-lynn-1995", "lilienfeld-2015", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_critical = ["festinger-1957", "gilovich-1991", "kirsch-lynn-1995", "lilienfeld-2015", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení", "Vztah k technikám kompendia"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
 +++
 
 # Sugesce pokrývající všechny možnosti
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.24` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Suggestion covering all possibilities |
 | **Jiné názvy** | sugesce pokrývající celou třídu odpovědí |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ je ochranou trvat na tom, že tvrzení má smysl jen tehdy, když existuje výsl
 ho vyvrátil, a že tento výsledek má být znám předem, nikoli dodatečně vybírán podle potřeby
 (Lilienfeld, Lynn a Lohr 2015).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,27 +217,27 @@ ho vyvrátil, a že tento výsledek má být znám předem, nikoli dodatečně v
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzný vzorec (Předpoklady NLP, Having a choice is better than having none)
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Therapeutic double bind)
-- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Open-ended suggestion)
-- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzný vzorec (Jazykové presupozice, Use of „or“)
+- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzné heslo (Předpoklady NLP, Having a choice is better than having none)
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Therapeutic double bind)
+- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Open-ended suggestion)
+- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzné heslo (Jazykové presupozice, Use of „or“)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – předchozí vzorec rodiny
-- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – předchozí heslo rodiny
+- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

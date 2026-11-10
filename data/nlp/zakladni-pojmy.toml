@@ -1,4 +1,4 @@
-# Rodina NLP-02: Základní pojmy NLP (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Rodina NLP-02: Základní pojmy NLP (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
 # Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
 # Tento soubor drží záznamy NLP-02.01 až NLP-02.11; další části rodiny jsou v souborech
 # data/nlp/zakladni-pojmy.<část>.toml.

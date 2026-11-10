@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Druhá pozice", "Second position", "pozice druhého", "pozice ty", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Druhá pozice", "Second position", "pozice druhého", "pozice ty", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.10"
-nlp_slug = "druha-pozice"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Second position"
-nlp_aliases = ["pozice druhého", "pozice ty"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "percepcni-pozice-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["percepcni-pozice-pojem"]
-nlp_related = ["percepcni-pozice-pojem", "cteni-myslenek", "vzorec-odpusteni", "meta-zrcadlo", "prvni-pozice", "treti-pozice", "troji-popis", "zrcadleni", "raport-jako-nastroj-vlivu", "pseudoempatie"]
-nlp_related_declared = ["prvni-pozice", "treti-pozice", "raport-jako-nastroj-vlivu", "pseudoempatie", "cteni-myslenek", "zrcadleni"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-10-perspektivni-substituce.md", "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md"]
-nlp_prev = "prvni-pozice"
-nlp_next = "treti-pozice"
-nlp_position = 10
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "dilts-delozier-2000", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "perls-1969", "rogers-1951", "sharpley-1987", "stark-2007", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-delozier-1987"]
-nlp_sources_roots = ["perls-1969"]
-nlp_sources_critical = ["chartrand-bargh-1999", "gilovich-1991", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 3
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.10"
+catalog_slug = "druha-pozice"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Second position"
+catalog_aliases = ["pozice druhého", "pozice ty"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "percepcni-pozice-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["percepcni-pozice-pojem"]
+catalog_related = ["percepcni-pozice-pojem", "cteni-myslenek", "vzorec-odpusteni", "meta-zrcadlo", "prvni-pozice", "treti-pozice", "troji-popis", "zrcadleni", "raport-jako-nastroj-vlivu", "pseudoempatie"]
+catalog_related_declared = ["prvni-pozice", "treti-pozice", "raport-jako-nastroj-vlivu", "pseudoempatie", "cteni-myslenek", "zrcadleni"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-10-perspektivni-substituce.md", "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md"]
+catalog_prev = "prvni-pozice"
+catalog_next = "treti-pozice"
+catalog_position = 10
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "dilts-delozier-2000", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "perls-1969", "rogers-1951", "sharpley-1987", "stark-2007", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-delozier-1987"]
+catalog_sources_roots = ["perls-1969"]
+catalog_sources_critical = ["chartrand-bargh-1999", "gilovich-1991", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 3
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.b.toml"
 +++
 
 # Druhá pozice
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Second position |
 | **Jiné názvy** | pozice druhého, pozice ty |
-| **Obecnější vzorec** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
+| **Obecnější heslo** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ rozšiřovat pohled o perspektivy jiných (Herman 1992). Pomáhající profesion
 klienta s čerstvou zkušeností zneužívání vést k tomu, aby situaci nahlížel očima pachatele,
 dokud o to klient sám nestojí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,32 +225,32 @@ dokud o to klient sám nestojí.
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzný vzorec (Meta-model, Mind reading)
-- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzný vzorec (Disociace, fobie a trauma, Forgiveness pattern)
-- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Meta-mirror)
-- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, First position)
-- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Third position)
-- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Triple description)
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzný vzorec (Raport a kalibrace, Simulated empathy)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
+- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzné heslo (Disociace, fobie a trauma, Forgiveness pattern)
+- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzné heslo (Logické úrovně a percepční pozice, Meta-mirror)
+- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, First position)
+- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Third position)
+- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzné heslo (Logické úrovně a percepční pozice, Triple description)
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzné heslo (Raport a kalibrace, Simulated empathy)
 
 **V kompendiu**
 
-- [EA-5.3.10 Perspektivní substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.15 Mentalizační disrupce](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.10 Perspektivní substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.15 Mentalizační disrupce](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – předchozí vzorec rodiny
-- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – předchozí heslo rodiny
+- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

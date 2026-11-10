@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Manipulativní reframing v blízkých vztazích", "Manipulative reframing in close relationships", "přerámování kontroly na péči", "přepis významu v partnerském vztahu", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Manipulativní reframing v blízkých vztazích", "Manipulative reframing in close relationships", "přerámování kontroly na péči", "přepis významu v partnerském vztahu", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.16"
-nlp_slug = "manipulativni-reframing-ve-vztazich"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Manipulative reframing in close relationships"
-nlp_aliases = ["přerámování kontroly na péči", "přepis významu v partnerském vztahu"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "reframing"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reframing"]
-nlp_related = ["mapa-neni-uzemi", "pozitivni-zamer-chovani", "som-zamer", "reframing", "kontextovy-reframing", "obsahovy-reframing", "dodatecne-ramcovani", "kotveni-v-kontrolujicich-vztazich", "strategie-lasky", "elicitace-pozitivniho-zameru", "nlp-v-komunite-svadeni"]
-nlp_related_declared = ["obsahovy-reframing", "kotveni-v-kontrolujicich-vztazich", "mapa-neni-uzemi", "pozitivni-zamer-chovani", "dodatecne-ramcovani"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
-nlp_prev = "falesne-zrcadleni-v-podvodech"
-nlp_next = "hypnoticky-jazyk-online"
-nlp_position = 16
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1982", "herman-1992", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982"]
-nlp_sources_roots = ["watzlawick-1974"]
-nlp_sources_critical = ["herman-1992", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.16"
+catalog_slug = "manipulativni-reframing-ve-vztazich"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Manipulative reframing in close relationships"
+catalog_aliases = ["přerámování kontroly na péči", "přepis významu v partnerském vztahu"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "reframing"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reframing"]
+catalog_related = ["mapa-neni-uzemi", "pozitivni-zamer-chovani", "som-zamer", "reframing", "kontextovy-reframing", "obsahovy-reframing", "dodatecne-ramcovani", "kotveni-v-kontrolujicich-vztazich", "strategie-lasky", "elicitace-pozitivniho-zameru", "nlp-v-komunite-svadeni"]
+catalog_related_declared = ["obsahovy-reframing", "kotveni-v-kontrolujicich-vztazich", "mapa-neni-uzemi", "pozitivni-zamer-chovani", "dodatecne-ramcovani"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
+catalog_prev = "falesne-zrcadleni-v-podvodech"
+catalog_next = "hypnoticky-jazyk-online"
+catalog_position = 16
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1982", "herman-1992", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982"]
+catalog_sources_roots = ["watzlawick-1974"]
+catalog_sources_critical = ["herman-1992", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
 +++
 
 # Manipulativní reframing v blízkých vztazích
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Manipulative reframing in close relationships |
 | **Jiné názvy** | přerámování kontroly na péči, přepis významu v partnerském vztahu |
-| **Obecnější vzorec** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
+| **Obecnější heslo** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ zkušenost a pojmenovává kontrolu jako kontrolu. Odborník by se měl vyvarova
 přerámování zkušenosti oběti, i když míněného dobře, a dávat přednost validaci a
 obnově vlastního úsudku.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,34 +219,34 @@ obnově vlastního úsudku.
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzný vzorec (Sleight of Mouth, Intention)
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzný vzorec (Reframing a rámce, Reframing)
-- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Context reframing)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – příbuzný vzorec (Reframing a rámce, Post-framing)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – příbuzný vzorec (Strategie a modelování, Love strategy)
-- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzný vzorec (Práce s částmi, Eliciting a part's positive intention)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzné heslo (Sleight of Mouth, Intention)
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzné heslo (Reframing a rámce, Reframing)
+- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzné heslo (Reframing a rámce, Context reframing)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – příbuzné heslo (Reframing a rámce, Post-framing)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – příbuzné heslo (Strategie a modelování, Love strategy)
+- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzné heslo (Práce s částmi, Eliciting a part's positive intention)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
 
 **V kompendiu**
 
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – předchozí vzorec rodiny
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – předchozí heslo rodiny
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

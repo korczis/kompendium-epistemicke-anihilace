@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Kotva", "Anchor (concept)", "kotvení", "spouštěč stavu", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Kotva", "Anchor (concept)", "kotvení", "spouštěč stavu", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.32"
-nlp_slug = "kotva-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.c"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Anchor (concept)"
-nlp_aliases = ["kotvení", "spouštěč stavu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["kinesteticky-system", "olfaktorni-a-gustatorni-system", "synestezie", "stav", "zdrojovy-stav", "asociace", "kotveni", "kinesteticke-kotvy", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu"]
-nlp_related_declared = ["kotveni", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu", "stav", "zdrojovy-stav"]
-nlp_kompendium = ["glossary/complex-trauma.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "metaprogramy-pojem"
-nlp_next = "vypousteni"
-nlp_position = 32
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1979", "dilts-1980", "heap-1988", "herman-1992", "pavlov-1927", "sharpley-1987", "singer-lalich-1995", "stark-2007", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["heap-1988", "herman-1992", "sharpley-1987", "singer-lalich-1995", "stark-2007", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.32"
+catalog_slug = "kotva-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.c"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Anchor (concept)"
+catalog_aliases = ["kotvení", "spouštěč stavu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["kinesteticky-system", "olfaktorni-a-gustatorni-system", "synestezie", "stav", "zdrojovy-stav", "asociace", "kotveni", "kinesteticke-kotvy", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu"]
+catalog_related_declared = ["kotveni", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu", "stav", "zdrojovy-stav"]
+catalog_kompendium = ["glossary/complex-trauma.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "metaprogramy-pojem"
+catalog_next = "vypousteni"
+catalog_position = 32
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1979", "dilts-1980", "heap-1988", "herman-1992", "pavlov-1927", "sharpley-1987", "singer-lalich-1995", "stark-2007", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["heap-1988", "herman-1992", "sharpley-1987", "singer-lalich-1995", "stark-2007", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.c.toml"
 +++
 
 # Kotva
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.32` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Anchor (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -100,7 +103,7 @@ Asociativní učení a podmiňování patří k nejlépe doloženým jevům v ps
 
 Základní obranou je pojmenovat vazbu. Kdo si všimne, že určitý podnět spojený s druhou osobou v něm vyvolává nepřiměřený strach nebo úlevu, udělal první krok k tomu, aby vazbu oddělil od jejího významu: reakce je naučená, ne důkazem, že člověk bez druhé osoby nemůže být v pořádku. Druhou obranou je všímat si, zda druhá osoba na takovou vazbu odkazuje nebo ji vědomě vyvolává. Pokud ano, jde o prostředek kontroly, který kompendium popisuje u kontrolujících vztahů, a je namístě hledat podporu mimo vztah (Stark 2007). Třetí obranou je postupné vytváření vlastních zdrojů klidu a bezpečí, které nejsou vázány na jednu osobu nebo skupinu: vztahy s blízkými, místa, činnosti a rituály, které člověk ovládá sám. U lidí po traumatu je práce se spouštěči úkolem odborné péče. Klinická literatura zdůrazňuje bezpečí, stabilizaci a postupné, dávkované zpracování, nikoli rychlé „přepisování kotev“ (Herman 1992). Zavedené terapeutické přístupy, které kompendium shrnuje v [přehledu terapeutických přístupů](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), s naučenými reakcemi pracují s oporou ve výzkumu. Bývalým členům skupin pomáhá vědět, že silné reakce na hudbu, hesla nebo rituály skupiny jsou známým jevem a že s časem a podporou slábnou (Singer a Lalich 1995).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,32 +124,32 @@ Základní obranou je pojmenovat vazbu. Kdo si všimne, že určitý podnět spo
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzný vzorec (Základní pojmy NLP, Kinaesthetic representational system)
-- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzný vzorec (Základní pojmy NLP, Olfactory and gustatory systems)
-- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzný vzorec (Základní pojmy NLP, Synaesthesia (NLP sense))
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzný vzorec (Kotvení, Kinaesthetic anchors)
-- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzný vzorec (Kotvení, Unintended anchors and triggers)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzný vzorec (Kotvení, NLP anchoring versus the anchoring heuristic)
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzné heslo (Základní pojmy NLP, Kinaesthetic representational system)
+- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzné heslo (Základní pojmy NLP, Olfactory and gustatory systems)
+- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzné heslo (Základní pojmy NLP, Synaesthesia (NLP sense))
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzné heslo (Kotvení, Kinaesthetic anchors)
+- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzné heslo (Kotvení, Unintended anchors and triggers)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzné heslo (Kotvení, NLP anchoring versus the anchoring heuristic)
 
 **V kompendiu**
 
-- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – předchozí vzorec rodiny
-- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – předchozí heslo rodiny
+- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

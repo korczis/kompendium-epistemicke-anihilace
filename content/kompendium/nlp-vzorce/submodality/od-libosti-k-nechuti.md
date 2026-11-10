@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Od libosti k nechuti", "Like-to-dislike pattern", "like to dislike", "přenos nechuti", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Od libosti k nechuti", "Like-to-dislike pattern", "like to dislike", "přenos nechuti", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.13"
-nlp_slug = "od-libosti-k-nechuti"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Like-to-dislike pattern"
-nlp_aliases = ["like to dislike", "přenos nechuti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "mapovani-napric"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["mapovani-napric", "submodality-pojem"]
-nlp_related = ["kotveni-v-kontrolujicich-vztazich", "kontrastni-analyza", "mapovani-napric", "vyhozeni-kompulze", "vzorec-godiva"]
-nlp_related_declared = ["mapovani-napric", "kontrastni-analyza", "vyhozeni-kompulze", "kotveni-v-kontrolujicich-vztazich", "vzorec-godiva"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/submodality/vzorec-godiva.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
-nlp_prev = "vzorec-godiva"
-nlp_next = "zmena-presvedceni-submodalitami"
-nlp_position = 13
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "pavlov-1927", "singer-lalich-1995", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "singer-lalich-1995", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.13"
+catalog_slug = "od-libosti-k-nechuti"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Like-to-dislike pattern"
+catalog_aliases = ["like to dislike", "přenos nechuti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "mapovani-napric"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["mapovani-napric", "submodality-pojem"]
+catalog_related = ["kotveni-v-kontrolujicich-vztazich", "kontrastni-analyza", "mapovani-napric", "vyhozeni-kompulze", "vzorec-godiva"]
+catalog_related_declared = ["mapovani-napric", "kontrastni-analyza", "vyhozeni-kompulze", "kotveni-v-kontrolujicich-vztazich", "vzorec-godiva"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/submodality/vzorec-godiva.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
+catalog_prev = "vzorec-godiva"
+catalog_next = "zmena-presvedceni-submodalitami"
+catalog_position = 13
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "pavlov-1927", "singer-lalich-1995", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "singer-lalich-1995", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Od libosti k nechuti
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Like-to-dislike pattern |
 | **Jiné názvy** | like to dislike, přenos nechuti |
-| **Obecnější vzorec** | [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) |
+| **Obecnější heslo** | [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -187,7 +190,7 @@ traumatu a kontrole probíhá postupně, v bezpečí a s možností vlastního t
 Terapeut by neměl odpor „přepisovat“ opačným vzorcem, ale pomoci klientovi rozpoznat jeho původ
 a znovu si vytvořit vztah k lidem na základě vlastní zkušenosti. Užitečné bývá i společné setkání s blízkými za přítomnosti nezávislého odborníka, kde se mohou obě strany vrátit ke konkrétním událostem a oddělit to, co se skutečně stalo, od obrazů, které o sobě navzájem převzaly zvenčí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -208,26 +211,26 @@ a znovu si vytvořit vztah k lidem na základě vlastní zkušenosti. Užitečn�
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzný vzorec (Submodality, Contrastive analysis)
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzný vzorec (Submodality, Mapping across)
-- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – příbuzný vzorec (Submodality, Compulsion blowout)
-- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – příbuzný vzorec (Submodality, Godiva chocolate pattern)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzné heslo (Submodality, Contrastive analysis)
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzné heslo (Submodality, Mapping across)
+- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – příbuzné heslo (Submodality, Compulsion blowout)
+- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – příbuzné heslo (Submodality, Godiva chocolate pattern)
 
 **V kompendiu**
 
-- [EA-5.3.9 Afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.2 Izolace svěřence (mentee isolation)](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.9 Afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.2 Izolace svěřence (mentee isolation)](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – předchozí vzorec rodiny
-- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – předchozí heslo rodiny
+- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Kalibrace souhlasu a nesouhlasu", "Yes/no calibration", "kalibrace ano/ne", "neverbální ano a ne", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Kalibrace souhlasu a nesouhlasu", "Yes/no calibration", "kalibrace ano/ne", "neverbální ano a ne", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.08"
-nlp_slug = "kalibrace-ano-ne"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Yes/no calibration"
-nlp_aliases = ["kalibrace ano/ne", "neverbální ano a ne"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "kalibrace"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kalibrace"]
-nlp_related = ["ocni-pristupove-signaly", "kalibrace", "smyslova-ostrost", "kongruence", "pripojene-otazky", "ideomotoricka-signalizace", "testovani-kotvy", "detekce-lzi-v-nlp", "cteni-reci-tela", "vyzkum-ocnich-signalu"]
-nlp_related_declared = ["smyslova-ostrost", "detekce-lzi-v-nlp", "cteni-reci-tela", "ocni-pristupove-signaly", "vyzkum-ocnich-signalu", "kongruence"]
-nlp_kompendium = ["kompendium/techniques/ea-6-1-4-observational-assessment.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/techniques/ea-6-1-4-observational-assessment.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
-nlp_prev = "zpetne-shrnuti"
-nlp_next = "vedeni-v-raportu"
-nlp_position = 8
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "ekman-2003", "erickson-rossi-rossi-1976", "herman-1992", "kahneman-2011", "lifton-1961", "oconnor-seymour-1990", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["ekman-2003", "herman-1992", "kahneman-2011", "lifton-1961", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.08"
+catalog_slug = "kalibrace-ano-ne"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Yes/no calibration"
+catalog_aliases = ["kalibrace ano/ne", "neverbální ano a ne"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "kalibrace"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kalibrace"]
+catalog_related = ["ocni-pristupove-signaly", "kalibrace", "smyslova-ostrost", "kongruence", "pripojene-otazky", "ideomotoricka-signalizace", "testovani-kotvy", "detekce-lzi-v-nlp", "cteni-reci-tela", "vyzkum-ocnich-signalu"]
+catalog_related_declared = ["smyslova-ostrost", "detekce-lzi-v-nlp", "cteni-reci-tela", "ocni-pristupove-signaly", "vyzkum-ocnich-signalu", "kongruence"]
+catalog_kompendium = ["kompendium/techniques/ea-6-1-4-observational-assessment.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/techniques/ea-6-1-4-observational-assessment.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
+catalog_prev = "zpetne-shrnuti"
+catalog_next = "vedeni-v-raportu"
+catalog_position = 8
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "ekman-2003", "erickson-rossi-rossi-1976", "herman-1992", "kahneman-2011", "lifton-1961", "oconnor-seymour-1990", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["ekman-2003", "herman-1992", "kahneman-2011", "lifton-1961", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.toml"
 +++
 
 # Kalibrace souhlasu a nesouhlasu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Yes/no calibration |
 | **Jiné názvy** | kalibrace ano/ne, neverbální ano a ne |
-| **Obecnější vzorec** | [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) |
+| **Obecnější heslo** | [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ terapii. Herman zdůrazňuje, že zotavení z traumatu stojí na obnově autonom
 pracují s pozorováním neverbálních projevů, by měli vždy pojmenovat, co vidí, jako hypotézu
 a nechat klientovi poslední slovo.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,32 +223,32 @@ a nechat klientovi poslední slovo.
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzný vzorec (Základní pojmy NLP, Eye accessing cues)
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzný vzorec (Základní pojmy NLP, Sensory acuity)
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – příbuzný vzorec (Milton-model, Tag questions)
-- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Ideomotor signalling)
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzný vzorec (Kotvení, Testing an anchor)
-- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzný vzorec (Raport a kalibrace, Lie detection claims in NLP)
-- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzný vzorec (Raport a kalibrace, Body-language reading in NLP)
-- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – příbuzný vzorec (Kritické hodnocení NLP, Research on eye accessing cues)
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzné heslo (Základní pojmy NLP, Eye accessing cues)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzné heslo (Základní pojmy NLP, Sensory acuity)
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – příbuzné heslo (Milton-model, Tag questions)
+- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzné heslo (Ericksonovská hypnóza, Ideomotor signalling)
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzné heslo (Kotvení, Testing an anchor)
+- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzné heslo (Raport a kalibrace, Lie detection claims in NLP)
+- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzné heslo (Raport a kalibrace, Body-language reading in NLP)
+- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – příbuzné heslo (Kritické hodnocení NLP, Research on eye accessing cues)
 
 **V kompendiu**
 
-- [EA-6.1.4 Observational assessment](@/kompendium/techniques/ea-6-1-4-observational-assessment.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.1.4 Observational assessment](@/kompendium/techniques/ea-6-1-4-observational-assessment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – předchozí vzorec rodiny
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – předchozí heslo rodiny
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

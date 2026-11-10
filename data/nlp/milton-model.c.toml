@@ -1,5 +1,5 @@
-# Rodina NLP-04: Milton-model, část c (NLP-04.21 až NLP-04.30); pravidlo project.nlp-catalog,
-# schéma v scripts/nlp-catalog.py. Pořadí záznamů je pořadí identifikátorů.
+# Rodina NLP-04: Milton-model, část c (NLP-04.21 až NLP-04.30); pravidlo project.content-catalogs,
+# schéma v scripts/catalogs.py. Pořadí záznamů je pořadí identifikátorů.
 
 [[pattern]]
 id = "NLP-04.21"

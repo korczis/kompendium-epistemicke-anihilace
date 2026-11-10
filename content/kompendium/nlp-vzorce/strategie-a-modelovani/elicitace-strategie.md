@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Elicitace strategie", "Strategy elicitation", "odhalování strategie", "vyvolání strategie", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Elicitace strategie", "Strategy elicitation", "odhalování strategie", "vyvolání strategie", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.01"
-nlp_slug = "elicitace-strategie"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Strategy elicitation"
-nlp_aliases = ["odhalování strategie", "vyvolání strategie"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "strategie-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["strategie-pojem"]
-nlp_related = ["vedouci-system", "predikaty", "ocni-pristupove-signaly", "kalibrace", "strategie-pojem", "tote-model", "elicitace-submodalit", "instalace-strategie", "utilizace-strategie", "smyckove-strategie"]
-nlp_related_declared = ["tote-model", "kalibrace", "ocni-pristupove-signaly", "predikaty", "utilizace-strategie", "instalace-strategie"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_links_prose = ["glossary/informed-consent.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_prev = ""
-nlp_next = "pravopisna-strategie"
-nlp_position = 1
-nlp_family_size = 20
-nlp_sources = ["cialdini-2009", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "kahneman-2011", "loftus-palmer-1974", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "loftus-palmer-1974", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.01"
+catalog_slug = "elicitace-strategie"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Strategy elicitation"
+catalog_aliases = ["odhalování strategie", "vyvolání strategie"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "strategie-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["strategie-pojem"]
+catalog_related = ["vedouci-system", "predikaty", "ocni-pristupove-signaly", "kalibrace", "strategie-pojem", "tote-model", "elicitace-submodalit", "instalace-strategie", "utilizace-strategie", "smyckove-strategie"]
+catalog_related_declared = ["tote-model", "kalibrace", "ocni-pristupove-signaly", "predikaty", "utilizace-strategie", "instalace-strategie"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/informed-consent.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
+catalog_prev = ""
+catalog_next = "pravopisna-strategie"
+catalog_position = 1
+catalog_family_size = 20
+catalog_sources = ["cialdini-2009", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "kahneman-2011", "loftus-palmer-1974", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "loftus-palmer-1974", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.toml"
 +++
 
 # Elicitace strategie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Strategy elicitation |
 | **Jiné názvy** | odhalování strategie, vyvolání strategie |
-| **Obecnější vzorec** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
+| **Obecnější heslo** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Obecná myšlenka, že jednání probíhá ve zpětnovazebních smyčkách, pat�
 
 Základní obranou je rozpoznat, kdy rozhovor přestal být o věci a začal být o vašem postupu. Na otázky, jak se rozhodujete, co vás přesvědčí nebo co se dělo těsně předtím, než jste si byli jistí, nemusíte odpovídat; můžete je vrátit k obsahu a mluvit o tom, co od nabídky potřebujete. Druhou obranou je vědět, že vaše odpovědi jsou rekonstrukce a že nikdo z nich nezískal přístup k vaší mysli (Kahneman 2011). Kdo tvrdí opak, nabízí hypotézu, kterou lze odmítnout. Třetí obranou je zpomalení: pokud po sérii otázek přijde nabídka, která „přesně sedí“, je to důvod odložit rozhodnutí a posoudit ji jinde a s jinými lidmi. Sociální psychologie vlivu ukazuje, že lidé se pod časovým tlakem a v příjemném kontaktu snáze spoléhají na zkratky (Cialdini 2009). Pro odborníky, kteří s elicitací pracují, platí, že zjištění patří klientovi, má se s ním otevřeně sdílet a nemá se použít k cíli, se kterým nesouhlasil. U lidí, jejichž postupy byly dlouhodobě mapovány a využívány v kontrolujícím vztahu, se zotavení zaměřuje na obnovu důvěry ve vlastní úsudek a na zkušenost, že lze o sobě mluvit, aniž by z toho vznikla páka.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -124,31 +127,31 @@ Základní obranou je rozpoznat, kdy rozhovor přestal být o věci a začal bý
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzný vzorec (Základní pojmy NLP, Lead system)
-- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzný vzorec (Základní pojmy NLP, Predicates)
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzný vzorec (Základní pojmy NLP, Eye accessing cues)
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy installation)
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy utilisation)
-- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – příbuzný vzorec (Strategie a modelování, Looping strategies)
+- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzné heslo (Základní pojmy NLP, Lead system)
+- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzné heslo (Základní pojmy NLP, Predicates)
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzné heslo (Základní pojmy NLP, Eye accessing cues)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzné heslo (Submodality, Eliciting submodalities)
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy installation)
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy utilisation)
+- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – příbuzné heslo (Strategie a modelování, Looping strategies)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

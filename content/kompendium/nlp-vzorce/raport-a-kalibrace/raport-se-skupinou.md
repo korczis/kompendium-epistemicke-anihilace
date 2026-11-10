@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Raport se skupinou", "Group rapport", "raport s publikem", "skupinový raport", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Raport se skupinou", "Group rapport", "raport s publikem", "skupinový raport", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.11"
-nlp_slug = "raport-se-skupinou"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Group rapport"
-nlp_aliases = ["raport s publikem", "skupinový raport"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "raport"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["raport"]
-nlp_related = ["raport", "pacing-aktualni-zkusenosti", "otevreny-ramec", "kotveni-ve-skupine", "nlp-v-sektach", "guru-efekt", "velke-seminare"]
-nlp_related_declared = ["raport", "guru-efekt", "velke-seminare", "kotveni-ve-skupine", "pacing-aktualni-zkusenosti", "nlp-v-sektach"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md"]
-nlp_prev = "preruseni-raportu"
-nlp_next = "sladeni-hodnot"
-nlp_position = 11
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "festinger-1957", "grinder-bandler-1981", "mcguire-1964", "oconnor-seymour-1990", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "festinger-1957", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.11"
+catalog_slug = "raport-se-skupinou"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Group rapport"
+catalog_aliases = ["raport s publikem", "skupinový raport"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "raport"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["raport"]
+catalog_related = ["raport", "pacing-aktualni-zkusenosti", "otevreny-ramec", "kotveni-ve-skupine", "nlp-v-sektach", "guru-efekt", "velke-seminare"]
+catalog_related_declared = ["raport", "guru-efekt", "velke-seminare", "kotveni-ve-skupine", "pacing-aktualni-zkusenosti", "nlp-v-sektach"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md"]
+catalog_prev = "preruseni-raportu"
+catalog_next = "sladeni-hodnot"
+catalog_position = 11
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "festinger-1957", "grinder-bandler-1981", "mcguire-1964", "oconnor-seymour-1990", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "festinger-1957", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.b.toml"
 +++
 
 # Raport se skupinou
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Group rapport |
 | **Jiné názvy** | raport s publikem, skupinový raport |
-| **Obecnější vzorec** | [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) |
+| **Obecnější heslo** | [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ vstupní branou do uzavřené skupiny, otevírá se širší téma odchodu, kter
 zpracovává v obranných a klinických kapitolách, včetně
 [šesti podmínek myšlenkové reformy](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -210,29 +213,29 @@ zpracovává v obranných a klinických kapitolách, včetně
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzný vzorec (Milton-model, Pacing current experience)
-- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – příbuzný vzorec (Reframing a rámce, Open frame)
-- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – příbuzný vzorec (Kotvení, Group anchoring)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzný vzorec (Vliv a zneužití NLP, Large-group seminars)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzné heslo (Milton-model, Pacing current experience)
+- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – příbuzné heslo (Reframing a rámce, Open frame)
+- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – příbuzné heslo (Kotvení, Group anchoring)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzné heslo (Vliv a zneužití NLP, Large-group seminars)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – předchozí vzorec rodiny
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – předchozí heslo rodiny
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Respekt k modelu světa druhého", "Respect for the other person's model of the world", "respekt k mapě druhého", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Respekt k modelu světa druhého", "Respect for the other person's model of the world", "respekt k mapě druhého", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.08"
-nlp_slug = "respekt-k-modelu-sveta"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Respect for the other person's model of the world"
-nlp_aliases = ["respekt k mapě druhého"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mapa-neni-uzemi", "raport", "som-model-sveta", "presvedceni-jako-mapa", "pacing-a-leading", "sladeni-hodnot", "pseudoempatie"]
-nlp_related_declared = ["mapa-neni-uzemi", "pacing-a-leading", "pseudoempatie", "sladeni-hodnot", "som-model-sveta", "raport"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-7-2-8-davidson-charity.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-7-2-8-davidson-charity.md"]
-nlp_prev = "zakon-pozadovane-variety"
-nlp_next = "clovek-neni-sve-chovani"
-nlp_position = 8
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "cialdini-2009", "haley-1973", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "satir-1972", "sharpley-1984", "tosey-mathison-2009"]
-nlp_sources_primary = ["bandler-grinder-1975"]
-nlp_sources_roots = ["haley-1973", "satir-1972"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "tosey-mathison-2009"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 3
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.08"
+catalog_slug = "respekt-k-modelu-sveta"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Respect for the other person's model of the world"
+catalog_aliases = ["respekt k mapě druhého"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["mapa-neni-uzemi", "raport", "som-model-sveta", "presvedceni-jako-mapa", "pacing-a-leading", "sladeni-hodnot", "pseudoempatie"]
+catalog_related_declared = ["mapa-neni-uzemi", "pacing-a-leading", "pseudoempatie", "sladeni-hodnot", "som-model-sveta", "raport"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-7-2-8-davidson-charity.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-7-2-8-davidson-charity.md"]
+catalog_prev = "zakon-pozadovane-variety"
+catalog_next = "clovek-neni-sve-chovani"
+catalog_position = 8
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "cialdini-2009", "haley-1973", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "satir-1972", "sharpley-1984", "tosey-mathison-2009"]
+catalog_sources_primary = ["bandler-grinder-1975"]
+catalog_sources_roots = ["haley-1973", "satir-1972"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "tosey-mathison-2009"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 3
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Respekt k modelu světa druhého
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Respect for the other person's model of the world |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ odmítnout nabízenou změnu. Tam, kde praktik z porozumění klientovi profituj
 prodejem dalších služeb, je namístě zvláštní opatrnost a ochota nechat si vlastní postup
 posoudit nezávislou supervizí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,27 +218,27 @@ posoudit nezávislou supervizí.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzný vzorec (Sleight of Mouth, Model of the world)
-- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzný vzorec (Přesvědčení, Beliefs as part of the map)
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzný vzorec (Raport a kalibrace, Pacing and leading)
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzný vzorec (Raport a kalibrace, Value matching)
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzný vzorec (Raport a kalibrace, Simulated empathy)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzné heslo (Sleight of Mouth, Model of the world)
+- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzné heslo (Přesvědčení, Beliefs as part of the map)
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzné heslo (Raport a kalibrace, Simulated empathy)
 
 **V kompendiu**
 
-- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.2.8 Davidson: Princip vstřícnosti](@/kompendium/techniques/ea-7-2-8-davidson-charity.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.2.8 Davidson: Princip vstřícnosti](@/kompendium/techniques/ea-7-2-8-davidson-charity.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – předchozí vzorec rodiny
-- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – předchozí heslo rodiny
+- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

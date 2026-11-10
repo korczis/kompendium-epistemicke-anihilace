@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Auditivní a tonální kotvy", "Auditory and tonal anchors", "tonální kotva", "zvuková kotva", "hlasová kotva", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Auditivní a tonální kotvy", "Auditory and tonal anchors", "tonální kotva", "zvuková kotva", "hlasová kotva", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.09"
-nlp_slug = "auditivni-kotvy"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Auditory and tonal anchors"
-nlp_aliases = ["tonální kotva", "zvuková kotva", "hlasová kotva"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["auditivni-system", "vizualni-kotvy", "kotvy-v-prezentaci", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "auditivni-swish", "zmena-vnitrniho-hlasu", "sladeni-hlasu-a-tempa", "slovni-baliky"]
-nlp_related_declared = ["auditivni-system", "slovni-baliky", "nechtene-kotvy", "kotvy-v-reklame", "vizualni-kotvy"]
-nlp_kompendium = ["kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_prev = "posuvna-kotva"
-nlp_next = "vizualni-kotvy"
-nlp_position = 9
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "grinder-delozier-bandler-1977", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "oconnor-seymour-1990", "pavlov-1927", "sharpley-1987", "stark-2007", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-1977", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927", "watzlawick-1967"]
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sharpley-1987", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od běžných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.09"
+catalog_slug = "auditivni-kotvy"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Auditory and tonal anchors"
+catalog_aliases = ["tonální kotva", "zvuková kotva", "hlasová kotva"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["auditivni-system", "vizualni-kotvy", "kotvy-v-prezentaci", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "auditivni-swish", "zmena-vnitrniho-hlasu", "sladeni-hlasu-a-tempa", "slovni-baliky"]
+catalog_related_declared = ["auditivni-system", "slovni-baliky", "nechtene-kotvy", "kotvy-v-reklame", "vizualni-kotvy"]
+catalog_kompendium = ["kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_prev = "posuvna-kotva"
+catalog_next = "vizualni-kotvy"
+catalog_position = 9
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "grinder-delozier-bandler-1977", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "oconnor-seymour-1990", "pavlov-1927", "sharpley-1987", "stark-2007", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-1977", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927", "watzlawick-1967"]
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sharpley-1987", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od běžných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.toml"
 +++
 
 # Auditivní a tonální kotvy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Auditory and tonal anchors |
 | **Jiné názvy** | tonální kotva, zvuková kotva, hlasová kotva |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -187,7 +190,7 @@ zkušeností s trestem a jsou dobře vysvětlitelné běžnými zákonitostmi u�
 Obranou je zvukové spojení pojmenovat a převést na obsah. Kdo zaznamená, že určité slovo,
 heslo nebo píseň v něm vyvolává silnou reakci, může se ptát, kde a s čím se toto spojení
 vytvořilo a zda obsah, který podnět nese, obstojí, když se vysloví věcně. U nabitých slov
-pomáhá nahradit je popisem: místo hesla říct, co přesně znamená a jaké má doklady. Liftonův rozbor ukazuje, že nabitý jazyk zužuje to, co lze
+pomáhá nahradit je popisem: místo hesla říct, co přesně znamená a jaké má doklady. Liftonův rozbor ukazuje, že [nabitý jazyk](@/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md) zužuje to, co lze
 vůbec myslet a vyslovit (Lifton 1961); obnova přesnějšího slovníku proto patří k cestám zpět
 k samostatnému úsudku. U tonálních signálů hrozby ve vztahu je na prvním místě
 bezpečí: zaznamenávat situace, v nichž signál zazněl, a co mu předcházelo, a hledat oporu
@@ -196,7 +199,7 @@ odchodu z nebezpečného prostředí mohou dlouho vracet a že se s nimi pracuje
 bezpečném terapeutickém vztahu (Herman 1992). Že reakce slábne pomalu a občas se vrátí, je
 běžné a odpovídá tomu, co víme o vyhasínání podmíněných reakcí (Pavlov 1927).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,33 +220,33 @@ běžné a odpovídá tomu, co víme o vyhasínání podmíněných reakcí (Pav
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory representational system)
-- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – příbuzný vzorec (Kotvení, Visual anchors)
-- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzný vzorec (Kotvení, Anchors in presentations)
-- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – příbuzný vzorec (Kotvení, Group anchoring)
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzný vzorec (Kotvení, Anchors in advertising)
-- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzný vzorec (Kotvení, Unintended anchors and triggers)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzný vzorec (Submodality, Auditory swish)
-- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzný vzorec (Submodality, Changing the inner voice)
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzný vzorec (Raport a kalibrace, Voice and tempo matching)
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzný vzorec (Jazykové vzorce, Loaded words)
+- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory representational system)
+- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – příbuzné heslo (Kotvení, Visual anchors)
+- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzné heslo (Kotvení, Anchors in presentations)
+- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – příbuzné heslo (Kotvení, Group anchoring)
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzné heslo (Kotvení, Anchors in advertising)
+- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzné heslo (Kotvení, Unintended anchors and triggers)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzné heslo (Submodality, Auditory swish)
+- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzné heslo (Submodality, Changing the inner voice)
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzné heslo (Jazykové vzorce, Loaded words)
 
 **V kompendiu**
 
-- [EA-5.5.7 Afektivně-tonální redukce](@/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.5.7 Afektivně-tonální redukce](@/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – předchozí vzorec rodiny
-- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – předchozí heslo rodiny
+- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Úmyslná vágnost", "Artful vagueness", "obratná vágnost", "záměrná nejasnost", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Úmyslná vágnost", "Artful vagueness", "obratná vágnost", "záměrná nejasnost", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.15"
-nlp_slug = "umyslna-vagnost"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Artful vagueness"
-nlp_aliases = ["obratná vágnost", "záměrná nejasnost"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["chunking", "transderivacni-hledani", "meta-model", "prosta-delece", "milton-model", "truismy", "syntakticka-dvojznacnost", "cteni-myslenek-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "srovnavaci-delece-milton", "konfuzni-technika", "otevrena-sugesce", "obecne-a-specificke", "chunking-nahoru", "rozptylovac", "slovni-baliky", "nlp-v-politicke-reci", "guru-efekt", "hypnoticky-jazyk-online"]
-nlp_related_declared = ["nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "meta-model", "slovni-baliky", "otevrena-sugesce"]
-nlp_kompendium = ["kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md"]
-nlp_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_prev = "interpunkcni-dvojznacnost"
-nlp_next = "cteni-myslenek-milton"
-nlp_position = 15
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-rossi-1976", "gilovich-1991", "grice-1975", "grinder-bandler-1981", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1981", "oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975"]
-nlp_sources_critical = ["gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.15"
+catalog_slug = "umyslna-vagnost"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Artful vagueness"
+catalog_aliases = ["obratná vágnost", "záměrná nejasnost"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["vyhybava-slova", "chunking", "transderivacni-hledani", "meta-model", "prosta-delece", "milton-model", "truismy", "syntakticka-dvojznacnost", "cteni-myslenek-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "srovnavaci-delece-milton", "konfuzni-technika", "otevrena-sugesce", "obecne-a-specificke", "chunking-nahoru", "rozptylovac", "slovni-baliky", "nlp-v-politicke-reci", "guru-efekt", "hypnoticky-jazyk-online"]
+catalog_related_declared = ["nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "meta-model", "slovni-baliky", "otevrena-sugesce"]
+catalog_kompendium = ["kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_prev = "interpunkcni-dvojznacnost"
+catalog_next = "cteni-myslenek-milton"
+catalog_position = 15
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-rossi-1976", "gilovich-1991", "grice-1975", "grinder-bandler-1981", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1981", "oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975"]
+catalog_sources_critical = ["gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.b.toml"
 +++
 
 # Úmyslná vágnost
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Artful vagueness |
 | **Jiné názvy** | obratná vágnost, záměrná nejasnost |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -201,7 +204,7 @@ jak takový jazyk působil (Hassan 1988). Pomáhá vědomě nahrazovat abstraktn
 popisem konkrétních událostí a pocitů. Herman zdůrazňuje, že obnova vlastního hlasu a
 vlastního výkladu zkušenosti je jádrem zotavení z dlouhodobé kontroly (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -227,43 +230,44 @@ vlastního výkladu zkušenosti je jádrem zotavení z dlouhodobé kontroly (Her
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzný vzorec (Základní pojmy NLP, Chunking)
-- [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – příbuzný vzorec (Základní pojmy NLP, Transderivational search)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – příbuzný vzorec (Meta-model, Simple deletion)
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzný vzorec (Milton-model, Truisms)
-- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – příbuzný vzorec (Milton-model, Syntactic ambiguity)
-- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzný vzorec (Milton-model, Mind reading (Milton Model))
-- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – příbuzný vzorec (Milton-model, Nominalisations (Milton Model))
-- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – příbuzný vzorec (Milton-model, Unspecified verbs (Milton Model))
-- [Nespecifikovaný referenční index v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton.md) – příbuzný vzorec (Milton-model, Unspecified referential index (Milton Model))
-- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – příbuzný vzorec (Milton-model, Comparative deletion (Milton Model))
-- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzný vzorec (Ericksonovská hypnóza, Confusion technique)
-- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Open-ended suggestion)
-- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – příbuzný vzorec (Metaprogramy, General and specific)
-- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzný vzorec (Jazykové vzorce, Chunking up)
-- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – příbuzný vzorec (Jazykové vzorce, Distracter)
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzný vzorec (Jazykové vzorce, Loaded words)
-- [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in political speech)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzný vzorec (Vliv a zneužití NLP, Hypnotic language in online content)
+- [Vyhýbavá slova](@/kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Weasel words)
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzné heslo (Základní pojmy NLP, Chunking)
+- [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – příbuzné heslo (Základní pojmy NLP, Transderivational search)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – příbuzné heslo (Meta-model, Simple deletion)
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzné heslo (Milton-model, Truisms)
+- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – příbuzné heslo (Milton-model, Syntactic ambiguity)
+- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzné heslo (Milton-model, Mind reading (Milton Model))
+- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – příbuzné heslo (Milton-model, Nominalisations (Milton Model))
+- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – příbuzné heslo (Milton-model, Unspecified verbs (Milton Model))
+- [Nespecifikovaný referenční index v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton.md) – příbuzné heslo (Milton-model, Unspecified referential index (Milton Model))
+- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – příbuzné heslo (Milton-model, Comparative deletion (Milton Model))
+- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzné heslo (Ericksonovská hypnóza, Confusion technique)
+- [Otevřená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Open-ended suggestion)
+- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – příbuzné heslo (Metaprogramy, General and specific)
+- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzné heslo (Jazykové vzorce, Chunking up)
+- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – příbuzné heslo (Jazykové vzorce, Distracter)
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – příbuzné heslo (Jazykové vzorce, Loaded words)
+- [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in political speech)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzné heslo (Vliv a zneužití NLP, Hypnotic language in online content)
 
 **V kompendiu**
 
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – předchozí vzorec rodiny
-- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – předchozí heslo rodiny
+- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

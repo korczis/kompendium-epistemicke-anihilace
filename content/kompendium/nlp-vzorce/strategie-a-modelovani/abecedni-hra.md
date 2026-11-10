@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Abecední hra", "Alphabet game", "alphabet game", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Abecední hra", "Alphabet game", "alphabet game", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.13"
-nlp_slug = "abecedni-hra"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Alphabet game"
-nlp_aliases = ["alphabet game"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "novy-kod"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["novy-kod"]
-nlp_related = ["vnitrni-dialog", "preruseni-vzorce", "indukce-pretizenim", "novy-kod", "stav-vysokeho-vykonu"]
-nlp_related_declared = ["stav-vysokeho-vykonu", "preruseni-vzorce", "vnitrni-dialog", "indukce-pretizenim"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md"]
-nlp_prev = "stav-vysokeho-vykonu"
-nlp_next = "stav-nevedeni"
-nlp_position = 13
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "gilovich-1991", "grinder-bostic-2001", "grinder-delozier-1987", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bostic-2001", "grinder-delozier-1987"]
-nlp_sources_roots = []
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.13"
+catalog_slug = "abecedni-hra"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Alphabet game"
+catalog_aliases = ["alphabet game"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "novy-kod"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["novy-kod"]
+catalog_related = ["vnitrni-dialog", "preruseni-vzorce", "indukce-pretizenim", "novy-kod", "stav-vysokeho-vykonu"]
+catalog_related_declared = ["stav-vysokeho-vykonu", "preruseni-vzorce", "vnitrni-dialog", "indukce-pretizenim"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md"]
+catalog_prev = "stav-vysokeho-vykonu"
+catalog_next = "stav-nevedeni"
+catalog_position = 13
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "gilovich-1991", "grinder-bostic-2001", "grinder-delozier-1987", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bostic-2001", "grinder-delozier-1987"]
+catalog_sources_roots = []
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Abecední hra
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Alphabet game |
 | **Jiné názvy** | alphabet game |
-| **Obecnější vzorec** | [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) |
+| **Obecnější heslo** | [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -91,7 +94,7 @@ Hra se snadno pozná podle vnější podoby: list s písmeny a značkami, hráč
 
 ## Legitimní a manipulativní užití
 
-Jako koordinační a pozornostní cvičení může abecední hra mít místo v rozcvičce před výkonem, ve výuce nebo v práci s týmem, pokud se nabízí s věcným popisem. Souběžná zátěž může krátkodobě odvést pozornost od úzkostného přemítání a přinést příjemný pocit soustředění; podobně působí řada her a sportů. Legitimní užití takový účinek popisuje skromně, nevydává ho za léčbu a respektuje, že pro některé lidi, například s obtížemi v koordinaci nebo ve čtení, může být hra před skupinou nepříjemná. V terapii lze s krátkým přerušením zahloubání pracovat jako s technikou odvedení pozornosti, jakou zná i behaviorální tradice, ale vždy s vědomím, že nejde o řešení příčiny potíží (Wolpe 1958). Manipulativní užití nespočívá v samotné hře, ale v rámci kolem ní. Hra se zařazuje bezprostředně před prodej, aby úleva a pocit sounáležitosti oslabily zvažování. Využívá se k demonstraci „zázračných“ účinků, které posilují autoritu lektora. A slouží k tomu, aby se kritické myšlení prohlásilo za překážku, kterou je třeba „vypnout“. Psychologie přesvědčování ukazuje, že v okamžicích, kdy je kapacita ke zpracování snížená, rozhodují více povrchová vodítka, například sympatie k řečníkovi nebo chování skupiny (Petty a Cacioppo 1986). Takové užití se tak blíží [indukci přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md), jen bez hypnotického rámce.
+Jako koordinační a pozornostní cvičení může abecední hra mít místo v rozcvičce před výkonem, ve výuce nebo v práci s týmem, pokud se nabízí s věcným popisem. Souběžná zátěž může krátkodobě odvést pozornost od úzkostného přemítání a přinést příjemný pocit soustředění; podobně působí řada her a sportů. Legitimní užití takový účinek popisuje skromně, nevydává ho za léčbu a respektuje, že pro některé lidi, například s obtížemi v koordinaci nebo ve čtení, může být hra před skupinou nepříjemná. V terapii lze s krátkým přerušením zahloubání pracovat jako s technikou [odvedení pozornosti](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md), jakou zná i behaviorální tradice, ale vždy s vědomím, že nejde o řešení příčiny potíží (Wolpe 1958). Manipulativní užití nespočívá v samotné hře, ale v rámci kolem ní. Hra se zařazuje bezprostředně před prodej, aby úleva a pocit sounáležitosti oslabily zvažování. Využívá se k demonstraci „zázračných“ účinků, které posilují autoritu lektora. A slouží k tomu, aby se kritické myšlení prohlásilo za překážku, kterou je třeba „vypnout“. Psychologie přesvědčování ukazuje, že v okamžicích, kdy je kapacita ke zpracování snížená, rozhodují více povrchová vodítka, například sympatie k řečníkovi nebo chování skupiny (Petty a Cacioppo 1986). Takové užití se tak blíží [indukci přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md), jen bez hypnotického rámce.
 
 ## Stav důkazů
 
@@ -101,7 +104,7 @@ Kompendiu nejsou známy kontrolované studie, které by zkoumaly abecední hru j
 
 Protože riziko samotné hry je nízké, obrana se týká hlavně jejího rámce. Kdo se účastní cvičení tohoto typu, může si ponechat jednoduché pravidlo: po hře, ukázce nebo silném prožitku nepřijímat závazky na místě, ale nechat rozhodnutí odležet a posoudit je mimo skupinu. Druhou obranou je rozlišovat prožitek a výklad. Úleva po soustředěné činnosti je skutečná, ale tvrzení, že se tím přeprogramovala reakce na problém, je jiný nárok, který vyžaduje doklad. Je legitimní ptát se lektora, z čeho takové tvrzení vychází a jak se ověřovalo. Třetí obranou je právo odmítnout. Kdo se ve skupině cítí zahanben tím, že hru nezvládá, nemá důvod pokračovat, a výklad, že se „brání“, není argument, ale tlak. Předem získané povědomí o tom, jak tyto rámce působí, pomáhá rozpoznat je v okamžiku, kdy přicházejí (McGuire 1964). Pro odborníky, kteří hru používají, platí, že ji mají uvádět jako nedoloženou rozcvičku a nespojovat ji s tvrzeními o mozku ani s prodejem dalších služeb.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,26 +125,26 @@ Protože riziko samotné hry je nízké, obrana se týká hlavně jejího rámce
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzný vzorec (Ericksonovská hypnóza, Pattern interrupt)
-- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzný vzorec (Ericksonovská hypnóza, Overload induction)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzný vzorec (Strategie a modelování, High-performance state)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzné heslo (Ericksonovská hypnóza, Pattern interrupt)
+- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzné heslo (Ericksonovská hypnóza, Overload induction)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzné heslo (Strategie a modelování, High-performance state)
 
 **V kompendiu**
 
-- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – předchozí vzorec rodiny
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – předchozí heslo rodiny
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

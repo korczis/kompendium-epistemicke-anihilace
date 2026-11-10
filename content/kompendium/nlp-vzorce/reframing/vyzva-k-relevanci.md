@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Výzva k relevanci", "Relevancy challenge", "otázka po relevanci", "test relevance", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Výzva k relevanci", "Relevancy challenge", "otázka po relevanci", "test relevance", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.11"
-nlp_slug = "vyzva-k-relevanci"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Relevancy challenge"
-nlp_aliases = ["otázka po relevanci", "test relevance"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ramec-vysledku"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["ramec-vysledku", "ramec-pojem"]
-nlp_related = ["meta-model", "som-jiny-vysledek", "ramec-zpetneho-shrnuti", "otevreny-ramec", "dodatecne-ramcovani"]
-nlp_related_declared = ["otevreny-ramec", "ramec-zpetneho-shrnuti", "dodatecne-ramcovani", "meta-model"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md"]
-nlp_prev = "kontrastni-ramec"
-nlp_next = "otevreny-ramec"
-nlp_position = 11
-nlp_family_size = 17
-nlp_sources = ["grice-1975", "herman-1992", "levinson-1983", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["oconnor-seymour-1990"]
-nlp_sources_roots = ["grice-1975", "levinson-1983", "watzlawick-1967"]
-nlp_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.11"
+catalog_slug = "vyzva-k-relevanci"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Relevancy challenge"
+catalog_aliases = ["otázka po relevanci", "test relevance"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ramec-vysledku"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["ramec-vysledku", "ramec-pojem"]
+catalog_related = ["cerveny-sled", "kontrola-tonu", "irelevantni-zaver", "meta-model", "som-jiny-vysledek", "ramec-zpetneho-shrnuti", "otevreny-ramec", "dodatecne-ramcovani"]
+catalog_related_declared = ["otevreny-ramec", "ramec-zpetneho-shrnuti", "dodatecne-ramcovani", "meta-model"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md"]
+catalog_prev = "kontrastni-ramec"
+catalog_next = "otevreny-ramec"
+catalog_position = 11
+catalog_family_size = 17
+catalog_sources = ["grice-1975", "herman-1992", "levinson-1983", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["oconnor-seymour-1990"]
+catalog_sources_roots = ["grice-1975", "levinson-1983", "watzlawick-1967"]
+catalog_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.b.toml"
 +++
 
 # Výzva k relevanci
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Relevancy challenge |
 | **Jiné názvy** | otázka po relevanci, test relevance |
-| **Obecnější vzorec** | [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) |
+| **Obecnější heslo** | [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ zotavení obnova autonomie, ve které člověk znovu rozhoduje o tom, co je pro 
 (Herman 1992). Terapeut nebo kouč, který s výzvou k relevanci pracuje, by měl hlídat, zda ji
 neuplatňuje právě na témata, která jsou nepohodlná jemu samému.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,26 +219,29 @@ neuplatňuje právě na témata, která jsou nepohodlná jemu samému.
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – příbuzný vzorec (Sleight of Mouth, Another outcome)
-- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzný vzorec (Reframing a rámce, Backtrack frame)
-- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – příbuzný vzorec (Reframing a rámce, Open frame)
-- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – příbuzný vzorec (Reframing a rámce, Post-framing)
+- [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Red herring)
+- [Kontrola tónu](@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Tone policing)
+- [Irelevantní závěr](@/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Ignoratio elenchi)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – příbuzné heslo (Sleight of Mouth, Another outcome)
+- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzné heslo (Reframing a rámce, Backtrack frame)
+- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – příbuzné heslo (Reframing a rámce, Open frame)
+- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – příbuzné heslo (Reframing a rámce, Post-framing)
 
 **V kompendiu**
 
-- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.9 Vynucování oborových hranic](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.9 Vynucování oborových hranic](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – předchozí vzorec rodiny
-- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – předchozí heslo rodiny
+- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

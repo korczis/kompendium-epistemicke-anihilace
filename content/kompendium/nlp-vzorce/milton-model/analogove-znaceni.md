@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Analogové značení", "Analogue marking", "hlasové vyznačení", "značení tónem", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Analogové značení", "Analogue marking", "hlasové vyznačení", "značení tónem", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.04"
-nlp_slug = "analogove-znaceni"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Analogue marking"
-nlp_aliases = ["hlasové vyznačení", "značení tónem"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["vlozene-prikazy", "citace", "fonologicka-dvojznacnost", "interpunkcni-dvojznacnost", "negativni-prikazy", "technika-prolozeni", "rozstepene-vety", "sladeni-hlasu-a-tempa"]
-nlp_related_declared = ["vlozene-prikazy", "technika-prolozeni", "sladeni-hlasu-a-tempa", "citace"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "vlozene-otazky"
-nlp_next = "konverzacni-postulaty"
-nlp_position = 4
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "bateson-1956", "chartrand-bargh-1999", "ekman-2003", "grinder-delozier-bandler-1977", "herman-1992", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-delozier-bandler-1977"]
-nlp_sources_roots = ["bateson-1972", "bateson-1956", "watzlawick-1967"]
-nlp_sources_critical = ["chartrand-bargh-1999", "ekman-2003", "herman-1992", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.04"
+catalog_slug = "analogove-znaceni"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Analogue marking"
+catalog_aliases = ["hlasové vyznačení", "značení tónem"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["klam-duraznu", "vlozene-prikazy", "citace", "fonologicka-dvojznacnost", "interpunkcni-dvojznacnost", "negativni-prikazy", "technika-prolozeni", "rozstepene-vety", "sladeni-hlasu-a-tempa"]
+catalog_related_declared = ["vlozene-prikazy", "technika-prolozeni", "sladeni-hlasu-a-tempa", "citace"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "vlozene-otazky"
+catalog_next = "konverzacni-postulaty"
+catalog_position = 4
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "bateson-1956", "chartrand-bargh-1999", "ekman-2003", "grinder-delozier-bandler-1977", "herman-1992", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-delozier-bandler-1977"]
+catalog_sources_roots = ["bateson-1972", "bateson-1956", "watzlawick-1967"]
+catalog_sources_critical = ["chartrand-bargh-1999", "ekman-2003", "herman-1992", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.toml"
 +++
 
 # Analogové značení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Analogue marking |
 | **Jiné názvy** | hlasové vyznačení, značení tónem |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ předvídatelnosti prostředí, teprve pak u výkladu prožitého (Herman 1992).
 s těmito reakcemi pracovat jako s pochopitelnými důsledky zkušenosti, ne jako s důkazem
 slabosti klienta.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,30 +215,31 @@ slabosti klienta.
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzný vzorec (Milton-model, Quotes)
-- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzný vzorec (Milton-model, Phonological ambiguity)
-- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – příbuzný vzorec (Milton-model, Punctuation ambiguity)
-- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – příbuzný vzorec (Milton-model, Negative commands)
-- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzný vzorec (Ericksonovská hypnóza, Interspersal technique)
-- [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) – příbuzný vzorec (Jazykové presupozice, Cleft sentences)
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzný vzorec (Raport a kalibrace, Voice and tempo matching)
+- [Klam důrazu](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-duraznu.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Fallacy of accent)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzné heslo (Milton-model, Quotes)
+- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzné heslo (Milton-model, Phonological ambiguity)
+- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – příbuzné heslo (Milton-model, Punctuation ambiguity)
+- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – příbuzné heslo (Milton-model, Negative commands)
+- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzné heslo (Ericksonovská hypnóza, Interspersal technique)
+- [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) – příbuzné heslo (Jazykové presupozice, Cleft sentences)
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)
 
 **V kompendiu**
 
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – předchozí vzorec rodiny
-- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – předchozí heslo rodiny
+- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

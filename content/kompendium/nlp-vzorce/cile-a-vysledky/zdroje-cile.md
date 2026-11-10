@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Zdroje pro dosažení cíle", "Resources for the outcome", "zdroje výsledku", "vnitřní a vnější zdroje", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Zdroje pro dosažení cíle", "Resources for the outcome", "zdroje výsledku", "vnitřní a vnější zdroje", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.06"
-nlp_slug = "zdroje-cile"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Resources for the outcome"
-nlp_aliases = ["zdroje výsledku", "vnitřní a vnější zdroje"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "dobre-formulovany-vysledek"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["dobre-formulovany-vysledek"]
-nlp_related = ["lide-maji-potrebne-zdroje", "zdrojovy-stav", "kotveni", "prenos-zdroje"]
-nlp_related_declared = ["lide-maji-potrebne-zdroje", "zdrojovy-stav", "prenos-zdroje", "kotveni"]
-nlp_kompendium = ["kompendium/case-studies/63-investor-cult.md", "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md"]
-nlp_links_prose = ["kompendium/case-studies/63-investor-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md", "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md"]
-nlp_prev = "kontext-cile"
-nlp_next = "ekologie-cile"
-nlp_position = 6
-nlp_family_size = 10
-nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "dilts-delozier-2000", "haley-1973", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = ["haley-1973"]
-nlp_sources_critical = ["cialdini-2009", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.06"
+catalog_slug = "zdroje-cile"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Resources for the outcome"
+catalog_aliases = ["zdroje výsledku", "vnitřní a vnější zdroje"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "dobre-formulovany-vysledek"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["dobre-formulovany-vysledek"]
+catalog_related = ["lide-maji-potrebne-zdroje", "zdrojovy-stav", "kotveni", "prenos-zdroje"]
+catalog_related_declared = ["lide-maji-potrebne-zdroje", "zdrojovy-stav", "prenos-zdroje", "kotveni"]
+catalog_kompendium = ["kompendium/case-studies/63-investor-cult.md", "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/63-investor-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md", "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md"]
+catalog_prev = "kontext-cile"
+catalog_next = "ekologie-cile"
+catalog_position = 6
+catalog_family_size = 10
+catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "dilts-delozier-2000", "haley-1973", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = ["haley-1973"]
+catalog_sources_critical = ["cialdini-2009", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Zdroje pro dosažení cíle
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Resources for the outcome |
 | **Jiné názvy** | zdroje výsledku, vnitřní a vnější zdroje |
-| **Obecnější vzorec** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
+| **Obecnější heslo** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ zdrojů, tedy o návrat ke vztahům, k finanční stabilitě a k nezávislým zd
 uznání, že jejich neúspěch nebyl důsledkem nedostatečné víry, ale vlastností nabídky, které
 uvěřili (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,25 +220,25 @@ uvěřili (Hassan 1988).
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzný vzorec (Předpoklady NLP, People have the resources they need)
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzný vzorec (Kotvení, Resource transfer)
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzné heslo (Předpoklady NLP, People have the resources they need)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzné heslo (Kotvení, Resource transfer)
 
 **V kompendiu**
 
-- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.1 Sebetotalizace mentora](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.1 Sebetotalizace mentora](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – předchozí vzorec rodiny
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – předchozí heslo rodiny
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

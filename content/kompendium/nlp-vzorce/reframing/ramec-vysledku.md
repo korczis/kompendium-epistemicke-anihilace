@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Rámec výsledku", "Outcome frame", "rámec cíle", "výsledkový rámec", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Rámec výsledku", "Outcome frame", "rámec cíle", "výsledkový rámec", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.07"
-nlp_slug = "ramec-vysledku"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Outcome frame"
-nlp_aliases = ["rámec cíle", "výsledkový rámec"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ramec-pojem"
-nlp_narrower = ["vyzva-k-relevanci", "ramec-dukazu"]
-nlp_depth = 1
-nlp_ancestors = ["ramec-pojem"]
-nlp_related = ["ramec-pojem", "som-dusledek", "som-jiny-vysledek", "ramec-jako-by", "ramec-ekologie", "otevreny-ramec", "model-score", "dobre-formulovany-vysledek", "otazky-vysledku", "od-problemu-k-vysledku"]
-nlp_related_declared = ["dobre-formulovany-vysledek", "od-problemu-k-vysledku", "otazky-vysledku", "ramec-ekologie", "ramec-jako-by"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
-nlp_prev = "ramec-jako-by"
-nlp_next = "ramec-ekologie"
-nlp_position = 7
-nlp_family_size = 17
-nlp_sources = ["beck-1976", "dilts-1980", "herman-1992", "lifton-1961", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.07"
+catalog_slug = "ramec-vysledku"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Outcome frame"
+catalog_aliases = ["rámec cíle", "výsledkový rámec"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ramec-pojem"
+catalog_narrower = ["vyzva-k-relevanci", "ramec-dukazu"]
+catalog_depth = 1
+catalog_ancestors = ["ramec-pojem"]
+catalog_related = ["ramec-pojem", "som-dusledek", "som-jiny-vysledek", "ramec-jako-by", "ramec-ekologie", "otevreny-ramec", "model-score", "dobre-formulovany-vysledek", "otazky-vysledku", "od-problemu-k-vysledku"]
+catalog_related_declared = ["dobre-formulovany-vysledek", "od-problemu-k-vysledku", "otazky-vysledku", "ramec-ekologie", "ramec-jako-by"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
+catalog_prev = "ramec-jako-by"
+catalog_next = "ramec-ekologie"
+catalog_position = 7
+catalog_family_size = 17
+catalog_sources = ["beck-1976", "dilts-1980", "herman-1992", "lifton-1961", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.toml"
 +++
 
 # Rámec výsledku
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Outcome frame |
 | **Jiné názvy** | rámec cíle, výsledkový rámec |
-| **Obecnější vzorec** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
+| **Obecnější heslo** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -183,7 +186,7 @@ budoucnosti (Herman 1992). Odborník, který rámec výsledku používá, ověř
 tím, že se nejprve ptá, zda klient chce mluvit o tom, co se stalo, a teprve potom o tom,
 co chce dál.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -203,34 +206,34 @@ co chce dál.
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – zvláštní případ tohoto vzorce
-- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – zvláštní případ tohoto vzorce
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – zvláštní případ tohoto hesla
+- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Frame (concept))
-- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – příbuzný vzorec (Sleight of Mouth, Consequence)
-- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – příbuzný vzorec (Sleight of Mouth, Another outcome)
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzný vzorec (Reframing a rámce, Ecology frame)
-- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – příbuzný vzorec (Reframing a rámce, Open frame)
-- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzný vzorec (Logické úrovně a percepční pozice, SCORE model)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Outcome questions)
-- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Problem to outcome)
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – příbuzné heslo (Základní pojmy NLP, Frame (concept))
+- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – příbuzné heslo (Sleight of Mouth, Consequence)
+- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – příbuzné heslo (Sleight of Mouth, Another outcome)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzné heslo (Reframing a rámce, Ecology frame)
+- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – příbuzné heslo (Reframing a rámce, Open frame)
+- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzné heslo (Logické úrovně a percepční pozice, SCORE model)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzné heslo (Cíle a výsledky, Outcome questions)
+- [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzné heslo (Cíle a výsledky, Problem to outcome)
 
 **V kompendiu**
 
-- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.10 Stadia zotavení podle Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.10 Stadia zotavení podle Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – předchozí vzorec rodiny
-- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – předchozí heslo rodiny
+- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

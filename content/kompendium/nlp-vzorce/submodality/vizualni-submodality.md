@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Vizuální submodality", "Visual submodalities", "kvality zrakové představy", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Vizuální submodality", "Visual submodalities", "kvality zrakové představy", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.02"
-nlp_slug = "vizualni-submodality"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Visual submodalities"
-nlp_aliases = ["kvality zrakové představy"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "submodality-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["submodality-pojem"]
-nlp_related = ["vizualni-system", "asociace", "disociace", "elicitace-submodalit", "filmova-technika", "prostorove-umisteni-obrazu", "submodality-v-reklame"]
-nlp_related_declared = ["vizualni-system", "asociace", "disociace", "prostorove-umisteni-obrazu", "submodality-v-reklame"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md"]
-nlp_links_prose = ["glossary/disociace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md"]
-nlp_prev = "elicitace-submodalit"
-nlp_next = "auditivni-submodality"
-nlp_position = 2
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "heap-1988", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.02"
+catalog_slug = "vizualni-submodality"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Visual submodalities"
+catalog_aliases = ["kvality zrakové představy"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "submodality-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["submodality-pojem"]
+catalog_related = ["vizualni-system", "asociace", "disociace", "elicitace-submodalit", "filmova-technika", "prostorove-umisteni-obrazu", "submodality-v-reklame"]
+catalog_related_declared = ["vizualni-system", "asociace", "disociace", "prostorove-umisteni-obrazu", "submodality-v-reklame"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md"]
+catalog_prev = "elicitace-submodalit"
+catalog_next = "auditivni-submodality"
+catalog_position = 2
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "heap-1988", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.toml"
 +++
 
 # Vizuální submodality
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Visual submodalities |
 | **Jiné názvy** | kvality zrakové představy |
-| **Obecnější vzorec** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
+| **Obecnější heslo** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ dvojice asociovaného a disociovaného pohledu, tedy prožívání scény zevnit
 sledování zvenčí. NLP ji pokládá za jednu z nejvlivnějších kvalit vůbec a staví na ní
 techniky práce s traumatickými vzpomínkami; v katalogu ji popisují samostatná hesla
 [asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) a
-[disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md). Je třeba dodat, že
+[disociace](@/glossary/disociace.md). Je třeba dodat, že
 psychologie mentálních představ zkoumá živost, perspektivu a emoční náboj představ
 samostatně, s vlastní terminologií a metodami, a na NLP se při tom neodvolává.
 
@@ -200,7 +203,7 @@ paměti a důvěry ve vlastní vnímání probíhá v bezpečném vztahu a ne ry
 1992). Odborník, který slovník vizuálních submodalit používá, by měl klientovi říci, že jde o
 užitečný jazyk pro popis prožitku, nikoli o doložený mechanismus.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -224,28 +227,28 @@ užitečný jazyk pro popis prožitku, nikoli o doložený mechanismus.
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – příbuzný vzorec (Základní pojmy NLP, Visual representational system)
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
-- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzný vzorec (Submodality, Movie theatre technique)
-- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzný vzorec (Submodality, Spatial location of images)
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzný vzorec (Submodality, Submodalities in advertising and media)
+- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – příbuzné heslo (Základní pojmy NLP, Visual representational system)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzné heslo (Submodality, Eliciting submodalities)
+- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzné heslo (Submodality, Movie theatre technique)
+- [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – příbuzné heslo (Submodality, Spatial location of images)
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – předchozí vzorec rodiny
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – předchozí heslo rodiny
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

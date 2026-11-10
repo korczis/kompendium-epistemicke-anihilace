@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Výzkum NLP v koučinku", "Research on NLP in coaching", "NLP a psychologie koučování", "Kritické hodnocení NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Výzkum NLP v koučinku", "Research on NLP in coaching", "NLP a psychologie koučování", "Kritické hodnocení NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-22.09"
-nlp_slug = "nlp-v-koucinku-vyzkum"
-nlp_family = "kriticke-hodnoceni"
-nlp_family_code = "22"
-nlp_family_title = "Kritické hodnocení NLP"
-nlp_family_en = "Critical appraisal of NLP"
-nlp_part = "kriticke-hodnoceni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Research on NLP in coaching"
-nlp_aliases = ["NLP a psychologie koučování"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "stav-dukazu-nlp"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["stav-dukazu-nlp"]
-nlp_related = ["nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt", "systematicky-prehled-zdravi", "databaze-vyzkumu-nlp", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt", "databaze-vyzkumu-nlp", "jak-cist-tvrzeni-nlp"]
-nlp_kompendium = ["kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "hodnoceni-narodni-rady-pro-vyzkum"
-nlp_next = "falzifikovatelnost-nlp"
-nlp_position = 9
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1979", "hassan-1988", "lilienfeld-2015", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["hassan-1988", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Proč koučink vyžaduje zvláštní opatrnost", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kriticke-hodnoceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-22.09"
+catalog_slug = "nlp-v-koucinku-vyzkum"
+catalog_family = "kriticke-hodnoceni"
+catalog_family_code = "22"
+catalog_family_title = "Kritické hodnocení NLP"
+catalog_family_en = "Critical appraisal of NLP"
+catalog_part = "kriticke-hodnoceni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Research on NLP in coaching"
+catalog_aliases = ["NLP a psychologie koučování"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "stav-dukazu-nlp"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["stav-dukazu-nlp"]
+catalog_related = ["nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt", "systematicky-prehled-zdravi", "databaze-vyzkumu-nlp", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt", "databaze-vyzkumu-nlp", "jak-cist-tvrzeni-nlp"]
+catalog_kompendium = ["kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "hodnoceni-narodni-rady-pro-vyzkum"
+catalog_next = "falzifikovatelnost-nlp"
+catalog_position = 9
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1979", "hassan-1988", "lilienfeld-2015", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["hassan-1988", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Proč koučink vyžaduje zvláštní opatrnost", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kriticke-hodnoceni.b.toml"
 +++
 
 # Výzkum NLP v koučinku
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-22.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Research on NLP in coaching |
 | **Jiné názvy** | NLP a psychologie koučování |
-| **Obecnější vzorec** | [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) |
+| **Obecnější heslo** | [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -151,7 +154,7 @@ pokud práce zůstává zaměřená na cíle klienta, ne na předvádění metod
 existují přístupy s lepší empirickou oporou, například motivační rozhovor pro práci s
 ambivalencí vůči změně, je rozumné dát jim přednost (Miller a Rollnick 2013).
 Manipulativní užití má dvě podoby. První je zamlčení: nabídka se tváří, jako by výzkum
-existoval a byl příznivý. Druhá je obrácení důkazního břemene: chybějící studie se vydávají
+existoval a byl příznivý. Druhá je [obrácení důkazního břemene](@/kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md): chybějící studie se vydávají
 za důkaz, že metoda je „před dobou“ nebo že ji akademici nechápou. V obou případech klient
 nemá podklad pro informované rozhodnutí. Rozhodující otázkou je, zda klient mohl metodu
 odmítnout s plnou znalostí stavu důkazů (Passmore a Rowson 2019).
@@ -198,7 +201,7 @@ závislost na osobě kouče nebo na skupině kolem výcviku, mohou pomoci postup
 kompendiu u zotavení z vlivových skupin, zejména obnova vlastního úsudku a vztahů mimo
 skupinu (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,28 +220,28 @@ skupinu (Hassan 1988).
 
 **Rodina a hierarchie**
 
-- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in coaching)
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzný vzorec (Vliv a zneužití NLP, The NLP certification market)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
-- [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – příbuzný vzorec (Kritické hodnocení NLP, Systematic review of health outcomes)
-- [Databáze výzkumu NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP research database)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in coaching)
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
+- [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – příbuzné heslo (Kritické hodnocení NLP, Systematic review of health outcomes)
+- [Databáze výzkumu NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, NLP research database)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.3.4 Empirická výzkumná báze](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.3.4 Empirická výzkumná báze](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – předchozí vzorec rodiny
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – předchozí heslo rodiny
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

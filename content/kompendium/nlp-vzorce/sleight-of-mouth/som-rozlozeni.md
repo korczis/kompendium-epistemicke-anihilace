@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Rozložení na části", "Chunk down", "chunking dolů v Sleight of Mouth", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Rozložení na části", "Chunk down", "chunking dolů v Sleight of Mouth", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.06"
-nlp_slug = "som-rozlozeni"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Chunk down"
-nlp_aliases = ["chunking dolů v Sleight of Mouth"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["chunking", "meta-model", "nespecifikovane-sloveso", "som-zobecneni", "som-zmena-velikosti-ramce", "deframing", "chunking-dolu"]
-nlp_related_declared = ["chunking-dolu", "chunking", "meta-model", "som-zobecneni", "nespecifikovane-sloveso"]
-nlp_kompendium = ["kompendium/techniques/ea-2-3-3-quote-mining.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md", "kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-3-3-quote-mining.md"]
-nlp_prev = "som-dusledek"
-nlp_next = "som-zobecneni"
-nlp_position = 6
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "heap-1988", "herman-1992", "miller-1956", "oconnor-seymour-1990", "stark-2007", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1999", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-1956"]
-nlp_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.06"
+catalog_slug = "som-rozlozeni"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Chunk down"
+catalog_aliases = ["chunking dolů v Sleight of Mouth"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["chunking", "meta-model", "nespecifikovane-sloveso", "som-zobecneni", "som-zmena-velikosti-ramce", "deframing", "chunking-dolu"]
+catalog_related_declared = ["chunking-dolu", "chunking", "meta-model", "som-zobecneni", "nespecifikovane-sloveso"]
+catalog_kompendium = ["kompendium/techniques/ea-2-3-3-quote-mining.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md", "kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-3-3-quote-mining.md"]
+catalog_prev = "som-dusledek"
+catalog_next = "som-zobecneni"
+catalog_position = 6
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "heap-1988", "herman-1992", "miller-1956", "oconnor-seymour-1990", "stark-2007", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-1956"]
+catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.toml"
 +++
 
 # Rozložení na části
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Chunk down |
 | **Jiné názvy** | chunking dolů v Sleight of Mouth |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ pracuje, by měl opatrně zacházet i s legitimním rozkladem, aby nepřipomína
 byla zkušenost dříve zpochybňována. Opačný pohyb, přechod od části k celku, popisuje vzorec
 [zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,29 +217,29 @@ byla zkušenost dříve zpochybňována. Opačný pohyb, přechod od části k c
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzný vzorec (Základní pojmy NLP, Chunking)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – příbuzný vzorec (Meta-model, Unspecified verb)
-- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzný vzorec (Sleight of Mouth, Chunk up)
-- [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – příbuzný vzorec (Sleight of Mouth, Change frame size)
-- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzný vzorec (Reframing a rámce, De-framing)
-- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzný vzorec (Jazykové vzorce, Chunking down)
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzné heslo (Základní pojmy NLP, Chunking)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – příbuzné heslo (Meta-model, Unspecified verb)
+- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzné heslo (Sleight of Mouth, Chunk up)
+- [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – příbuzné heslo (Sleight of Mouth, Change frame size)
+- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzné heslo (Reframing a rámce, De-framing)
+- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzné heslo (Jazykové vzorce, Chunking down)
 
 **V kompendiu**
 
-- [EA-2.3.3 Těžba citátů (quote mining)](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.3.3 Těžba citátů (quote mining)](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – předchozí vzorec rodiny
-- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – předchozí heslo rodiny
+- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-predpoklady"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Předpoklady NLP", "NLP presuppositions", "NLP"]
+keywords = ["Předpoklady NLP", "NLP presuppositions", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "predpoklady"
-nlp_code = "01"
-nlp_en = "NLP presuppositions"
-nlp_size = 21
-nlp_members = ["mapa-neni-uzemi", "vyznam-komunikace-je-reakce", "neni-selhani-jen-zpetna-vazba", "pozitivni-zamer-chovani", "lide-maji-potrebne-zdroje", "mysl-a-telo-jeden-system", "zakon-pozadovane-variety", "respekt-k-modelu-sveta", "clovek-neni-sve-chovani", "nejlepsi-dostupna-volba", "odpor-jako-nedostatek-raportu", "kdyz-to-nefunguje-udelej-neco-jineho", "modelovatelnost-excelence", "nelze-nekomunikovat", "volba-je-lepsi-nez-zadna-volba", "zkusenost-ma-strukturu", "zkusenost-je-kodovana-smysly", "komunikace-vedoma-a-nevedoma", "ekologie-zmeny", "predpoklady-jako-pracovni-hypotezy", "odpovednost-za-komunikaci"]
-nlp_types = ["principle"]
-nlp_sources = ["bandler-grinder-1975", "bateson-1972", "dilts-delozier-2000", "haley-1973", "herman-1992", "korzybski-1933", "lifton-1961", "lilienfeld-2015", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "satir-1972", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "predpoklady"
+catalog_code = "01"
+catalog_en = "NLP presuppositions"
+catalog_size = 21
+catalog_members = ["mapa-neni-uzemi", "vyznam-komunikace-je-reakce", "neni-selhani-jen-zpetna-vazba", "pozitivni-zamer-chovani", "lide-maji-potrebne-zdroje", "mysl-a-telo-jeden-system", "zakon-pozadovane-variety", "respekt-k-modelu-sveta", "clovek-neni-sve-chovani", "nejlepsi-dostupna-volba", "odpor-jako-nedostatek-raportu", "kdyz-to-nefunguje-udelej-neco-jineho", "modelovatelnost-excelence", "nelze-nekomunikovat", "volba-je-lepsi-nez-zadna-volba", "zkusenost-ma-strukturu", "zkusenost-je-kodovana-smysly", "komunikace-vedoma-a-nevedoma", "ekologie-zmeny", "predpoklady-jako-pracovni-hypotezy", "odpovednost-za-komunikaci"]
+catalog_types = ["principle"]
+catalog_sources = ["bandler-grinder-1975", "bateson-1972", "dilts-delozier-2000", "haley-1973", "herman-1992", "korzybski-1933", "lifton-1961", "lilienfeld-2015", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "satir-1972", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Předpoklady NLP
@@ -156,12 +158,12 @@ součástí zotavení obnova práva na vlastní popis zkušenosti, na odmítnut�
 nefungovalo. Herman zdůrazňuje, že zotavení po zkušenosti s nadvládou stojí na obnově autonomie
 a vztahů, ve kterých má člověk znovu právo na vlastní úsudek (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-01.01` | [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) | The map is not the territory | princip | terapeutické i vlivové | střední |
 | `NLP-01.02` | [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) | The meaning of communication is the response you get | princip | terapeutické i vlivové | střední |
 | `NLP-01.03` | [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) | There is no failure, only feedback | princip | terapeutické i vlivové | střední |
@@ -183,6 +185,79 @@ a vztahů, ve kterých má člověk znovu právo na vlastní úsudek (Herman 199
 | `NLP-01.19` | [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) | Change must respect the whole system (ecology) | princip | terapeutické i vlivové | střední |
 | `NLP-01.20` | [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) | Presuppositions as working assumptions | princip | výkladový pojem | střední |
 | `NLP-01.21` | [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) | The communicator is responsible for the communication | princip | terapeutické i vlivové | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Předpoklady NLP"]
+  click F "@/kompendium/nlp-vzorce/predpoklady/_index.md"
+  n1["Mapa není území"]
+  n2["Význam komunikace je reakce, kterou vyvolá"]
+  n3["Neexistuje selhání, jen zpětná vazba"]
+  n4["Každé chování má pozitivní záměr"]
+  n5["Lidé mají zdroje, které potřebují"]
+  n6["Mysl a tělo tvoří jeden systém"]
+  n7["Nejpružnější prvek řídí systém"]
+  n8["Respekt k modelu světa druhého"]
+  n9["Člověk není své chování"]
+  n10["Lidé volí nejlepší dostupnou volbu"]
+  n11["Odpor jako znak chybějícího raportu"]
+  n12["Když něco nefunguje, udělej něco jiného"]
+  n13["Co dokáže jeden, lze se naučit"]
+  n14["Nelze nekomunikovat"]
+  n15["Mít volbu je lepší než ji nemít"]
+  n16["Zkušenost má strukturu"]
+  n17["Zkušenost je kódována smysly"]
+  n18["Komunikace probíhá vědomě i nevědomě"]
+  n19["Změna má respektovat celek systému"]
+  n20["Předpoklady jako pracovní hypotézy"]
+  n21["Za výsledek komunikace odpovídá komunikátor"]
+  F --> n1
+  F --> n2
+  F --> n3
+  F --> n4
+  F --> n5
+  F --> n6
+  F --> n7
+  F --> n8
+  F --> n9
+  F --> n10
+  F --> n11
+  F --> n12
+  F --> n13
+  F --> n14
+  F --> n15
+  F --> n16
+  n16 --> n17
+  F --> n18
+  F --> n19
+  F --> n20
+  F --> n21
+  click n1 "@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md"
+  click n2 "@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md"
+  click n3 "@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md"
+  click n4 "@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md"
+  click n5 "@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md"
+  click n6 "@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md"
+  click n7 "@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md"
+  click n8 "@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md"
+  click n9 "@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md"
+  click n10 "@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md"
+  click n11 "@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md"
+  click n12 "@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md"
+  click n13 "@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md"
+  click n14 "@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md"
+  click n15 "@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md"
+  click n16 "@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md"
+  click n17 "@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md"
+  click n18 "@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md"
+  click n19 "@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md"
+  click n20 "@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md"
+  click n21 "@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md"
+```
 
 ## Literatura
 
@@ -211,6 +286,6 @@ a vztahů, ve kterých má člověk znovu právo na vlastní úsudek (Herman 199
 
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

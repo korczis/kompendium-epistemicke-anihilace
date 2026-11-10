@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Modelování", "Modelling (concept)", "modeling", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Modelování", "Modelling (concept)", "modeling", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.37"
-nlp_slug = "modelovani-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.d"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Modelling (concept)"
-nlp_aliases = ["modeling"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["modelovani-excelence"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["modelovatelnost-excelence", "strategie-pojem", "modelovani-excelence", "novy-kod", "modelovani-nevedomim", "koreny-nlp"]
-nlp_related_declared = ["modelovani-excelence", "modelovatelnost-excelence", "strategie-pojem", "novy-kod", "modelovani-nevedomim"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "hluboka-a-povrchova-struktura"
-nlp_next = "vnitrni-dialog"
-nlp_position = 37
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chartrand-bargh-1999", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "grinder-bostic-2001", "hassan-1988", "herman-1992", "miller-galanter-pribram-1960", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1994", "dilts-1980", "grinder-bostic-2001"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "herman-1992", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.37"
+catalog_slug = "modelovani-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.d"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Modelling (concept)"
+catalog_aliases = ["modeling"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["modelovani-excelence"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["modelovatelnost-excelence", "strategie-pojem", "modelovani-excelence", "novy-kod", "modelovani-nevedomim", "koreny-nlp"]
+catalog_related_declared = ["modelovani-excelence", "modelovatelnost-excelence", "strategie-pojem", "novy-kod", "modelovani-nevedomim"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "hluboka-a-povrchova-struktura"
+catalog_next = "vnitrni-dialog"
+catalog_position = 37
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chartrand-bargh-1999", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "grinder-bostic-2001", "hassan-1988", "herman-1992", "miller-galanter-pribram-1960", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1994", "dilts-1980", "grinder-bostic-2001"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "herman-1992", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.d.toml"
 +++
 
 # Modelování
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.37` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Modelling (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -134,7 +137,7 @@ navazuje stránka o [modelování excelence](@/kompendium/nlp-vzorce/strategie-a
 Manipulativní podoba modelování se pozná podle několika znaků. Vzorem je jediná osoba,
 obvykle vedoucí skupiny nebo lektor, a výsledky, které má žák dosáhnout, jsou slibovány bez
 ověřitelných dokladů. Žák je veden k přejímání nejen dovedností, ale i řeči, oblékání,
-názorů a hodnocení vzoru, a kritické otázky jsou označovány za překážku učení („nepřemýšlej,
+názorů a hodnocení vzoru, a [kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md) jsou označovány za překážku učení („nepřemýšlej,
 jen dělej“). Neúspěch se vysvětluje nedostatečně přesnou nápodobou, nikdy nedostatkem
 metody. Komunita kolem vzoru se postupně stává uniformní v řeči i gestech, což je u skupin
 s vysokou kontrolou dobře popsaný znak. Hassan popisuje, jak u členů takových skupin vzniká
@@ -199,7 +202,7 @@ posoudit, které z nich chce člověk zachovat, a ostatní nechat odejít bez po
 Lektoři a supervizoři, kteří s modelováním pracují, by měli výslovně podporovat nesouhlas
 se vzorem a nabízet více zdrojů, aby se z učení nestala závislost.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,28 +224,28 @@ se vzorem a nabízet více zdrojů, aby se z učení nestala závislost.
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzný vzorec (Předpoklady NLP, Excellence can be modelled)
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzný vzorec (Strategie a modelování, Unconscious uptake modelling)
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
+- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzné heslo (Předpoklady NLP, Excellence can be modelled)
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzné heslo (Strategie a modelování, Unconscious uptake modelling)
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.1 Sebetotalizace mentora](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.1 Sebetotalizace mentora](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – předchozí vzorec rodiny
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – předchozí heslo rodiny
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

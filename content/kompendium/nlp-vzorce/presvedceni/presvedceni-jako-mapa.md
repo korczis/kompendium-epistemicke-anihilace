@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Přesvědčení jako součást mapy", "Beliefs as part of the map", "přesvědčení jsou zobecnění", "beliefs are generalizations", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Přesvědčení jako součást mapy", "Beliefs as part of the map", "přesvědčení jsou zobecnění", "beliefs are generalizations", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.13"
-nlp_slug = "presvedceni-jako-mapa"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Beliefs as part of the map"
-nlp_aliases = ["přesvědčení jsou zobecnění", "beliefs are generalizations"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "mapa-neni-uzemi"
-nlp_narrower = ["limitujici-presvedceni"]
-nlp_depth = 1
-nlp_ancestors = ["mapa-neni-uzemi"]
-nlp_related = ["respekt-k-modelu-sveta", "zobecnovani", "zmena-presvedceni-submodalitami", "uroven-presvedceni-a-hodnot", "limitujici-presvedceni", "presvedceni-o-vyznamu"]
-nlp_related_declared = ["limitujici-presvedceni", "zobecnovani", "uroven-presvedceni-a-hodnot", "respekt-k-modelu-sveta", "presvedceni-o-vyznamu"]
-nlp_kompendium = ["kompendium/02-uvod/filosoficky-ramec.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md"]
-nlp_prev = "presvedceni-a-zdravi"
-nlp_next = "imprint"
-nlp_position = 13
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "ellis-1962", "herman-1992", "korzybski-1933", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1990"]
-nlp_sources_roots = ["korzybski-1933"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.13"
+catalog_slug = "presvedceni-jako-mapa"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Beliefs as part of the map"
+catalog_aliases = ["přesvědčení jsou zobecnění", "beliefs are generalizations"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "mapa-neni-uzemi"
+catalog_narrower = ["limitujici-presvedceni"]
+catalog_depth = 1
+catalog_ancestors = ["mapa-neni-uzemi"]
+catalog_related = ["respekt-k-modelu-sveta", "zobecnovani", "zmena-presvedceni-submodalitami", "uroven-presvedceni-a-hodnot", "limitujici-presvedceni", "presvedceni-o-vyznamu"]
+catalog_related_declared = ["limitujici-presvedceni", "zobecnovani", "uroven-presvedceni-a-hodnot", "respekt-k-modelu-sveta", "presvedceni-o-vyznamu"]
+catalog_kompendium = ["kompendium/02-uvod/filosoficky-ramec.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md"]
+catalog_prev = "presvedceni-a-zdravi"
+catalog_next = "imprint"
+catalog_position = 13
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "ellis-1962", "herman-1992", "korzybski-1933", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1990"]
+catalog_sources_roots = ["korzybski-1933"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.b.toml"
 +++
 
 # Přesvědčení jako součást mapy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Beliefs as part of the map |
 | **Jiné názvy** | přesvědčení jsou zobecnění, beliefs are generalizations |
-| **Obecnější vzorec** | [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) |
+| **Obecnější heslo** | [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ němuž byli vedeni. Zotavení zahrnuje znovunalezení vlastních hodnot a jejic
 hodnot převzatých; Herman zdůrazňuje, že obnova vlastního úsudku probíhá ve vztazích, kde
 člověk může svůj postoj vyslovit bez trestu (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -210,29 +213,29 @@ hodnot převzatých; Herman zdůrazňuje, že obnova vlastního úsudku probíh�
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – zvláštní případ tohoto vzorce
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzný vzorec (Předpoklady NLP, Respect for the other person's model of the world)
-- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – příbuzný vzorec (Základní pojmy NLP, Generalisation)
-- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzný vzorec (Submodality, Belief change through submodalities)
-- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Beliefs and values level)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzný vzorec (Přesvědčení, Beliefs about meaning)
+- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzné heslo (Předpoklady NLP, Respect for the other person's model of the world)
+- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – příbuzné heslo (Základní pojmy NLP, Generalisation)
+- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzné heslo (Submodality, Belief change through submodalities)
+- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzné heslo (Přesvědčení, Beliefs about meaning)
 
 **V kompendiu**
 
-- [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – předchozí vzorec rodiny
-- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – předchozí heslo rodiny
+- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

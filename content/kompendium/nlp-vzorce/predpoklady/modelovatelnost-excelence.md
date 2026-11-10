@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Co dokáže jeden, lze se naučit", "Excellence can be modelled", "co dokáže jeden, dokáže každý", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Co dokáže jeden, lze se naučit", "Excellence can be modelled", "co dokáže jeden, dokáže každý", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.13"
-nlp_slug = "modelovatelnost-excelence"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Excellence can be modelled"
-nlp_aliases = ["co dokáže jeden, dokáže každý"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["zkusenost-ma-strukturu", "modelovani-pojem", "strategie-geniality", "modelovani-excelence", "nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt"]
-nlp_related_declared = ["modelovani-excelence", "modelovani-pojem", "strategie-geniality", "guru-efekt", "trh-certifikaci-nlp", "zkusenost-ma-strukturu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/case-studies/63-investor-cult.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "kdyz-to-nefunguje-udelej-neco-jineho"
-nlp_next = "nelze-nekomunikovat"
-nlp_position = 13
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "gilovich-1991", "grinder-bandler-1976", "grinder-bostic-2001", "kahneman-2011", "lifton-1961", "miller-galanter-pribram-1960", "passmore-rowson-2019", "perls-1969", "roderique-davies-2009", "satir-1972", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1994", "dilts-1980", "grinder-bandler-1976", "grinder-bostic-2001"]
-nlp_sources_roots = ["miller-galanter-pribram-1960", "perls-1969", "satir-1972"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.13"
+catalog_slug = "modelovatelnost-excelence"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Excellence can be modelled"
+catalog_aliases = ["co dokáže jeden, dokáže každý"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["zkusenost-ma-strukturu", "modelovani-pojem", "strategie-geniality", "modelovani-excelence", "nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt"]
+catalog_related_declared = ["modelovani-excelence", "modelovani-pojem", "strategie-geniality", "guru-efekt", "trh-certifikaci-nlp", "zkusenost-ma-strukturu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/case-studies/63-investor-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "kdyz-to-nefunguje-udelej-neco-jineho"
+catalog_next = "nelze-nekomunikovat"
+catalog_position = 13
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "gilovich-1991", "grinder-bandler-1976", "grinder-bostic-2001", "kahneman-2011", "lifton-1961", "miller-galanter-pribram-1960", "passmore-rowson-2019", "perls-1969", "roderique-davies-2009", "satir-1972", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1994", "dilts-1980", "grinder-bandler-1976", "grinder-bostic-2001"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "perls-1969", "satir-1972"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Co dokáže jeden, lze se naučit
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Excellence can be modelled |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ stud a obnovit realistický obraz sebe sama (Singer a Lalich 1995). Pro praktiky
 modelováním pracují poctivě, z toho plyne jednoduchá zásada: formulovat, co lze naučit, jak
 dlouho to trvá a co přenést nelze, a neprezentovat vlastní úspěch jako důkaz metody.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -225,27 +228,27 @@ dlouho to trvá a co přenést nelze, a neprezentovat vlastní úspěch jako dů
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzný vzorec (Předpoklady NLP, Experience has a structure)
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Modelling (concept))
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzný vzorec (Strategie a modelování, Strategies of genius)
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
-- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in coaching)
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzný vzorec (Vliv a zneužití NLP, The NLP certification market)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
+- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzné heslo (Předpoklady NLP, Experience has a structure)
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzné heslo (Základní pojmy NLP, Modelling (concept))
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzné heslo (Strategie a modelování, Strategies of genius)
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
+- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in coaching)
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – předchozí vzorec rodiny
-- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – předchozí heslo rodiny
+- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

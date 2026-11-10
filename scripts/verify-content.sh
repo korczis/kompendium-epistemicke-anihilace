@@ -60,7 +60,7 @@ step "normalize-front-matter"     python3 scripts/normalize-front-matter.py --ch
 step "polish-markdown"            python3 scripts/polish-markdown.py --check
 step "link-terms"                 python3 scripts/link-terms.py --check
 if [ "$fix" = --fix ]; then
-  step "nlp-catalog"              python3 scripts/nlp-catalog.py
+  step "catalogs"                 python3 scripts/catalogs.py
   step "build-references"         python3 scripts/build-references.py
   step "build-graph"              python3 scripts/build-graph.py
   step "build-ui-data"            python3 scripts/build-ui-data.py
@@ -68,7 +68,7 @@ if [ "$fix" = --fix ]; then
   if [ -f scripts/build-readme.py ]; then step "build-readme" python3 scripts/build-readme.py; fi
 fi
 step "check-ia"                   python3 scripts/check-ia.py
-step "nlp-catalog --check"        python3 scripts/nlp-catalog.py --check
+step "catalogs --check"           python3 scripts/catalogs.py --check
 step "build-references --check"   python3 scripts/build-references.py --check
 step "build-graph --check"        python3 scripts/build-graph.py --check
 step "build-ui-data --check"      python3 scripts/build-ui-data.py --check

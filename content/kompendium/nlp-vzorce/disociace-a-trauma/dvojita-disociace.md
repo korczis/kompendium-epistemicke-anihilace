@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Dvojitá disociace", "Double dissociation", "divák sledující diváka", "disociace druhého řádu", "Disociace, fobie a trauma", "NLP", "neurolingvistické programování"]
+keywords = ["Dvojitá disociace", "Double dissociation", "divák sledující diváka", "disociace druhého řádu", "Disociace, fobie a trauma", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-11.02"
-nlp_slug = "dvojita-disociace"
-nlp_family = "disociace-a-trauma"
-nlp_family_code = "11"
-nlp_family_title = "Disociace, fobie a trauma"
-nlp_family_en = "Dissociation, phobia and trauma patterns"
-nlp_part = "disociace-a-trauma"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Double dissociation"
-nlp_aliases = ["divák sledující diváka", "disociace druhého řádu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "disociace"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["disociace", "submodality-pojem"]
-nlp_related = ["meta-pozice", "disociace", "dvojita-disociativni-vazba", "filmova-technika", "rychla-lecba-fobie", "rewind"]
-nlp_related_declared = ["rychla-lecba-fobie", "disociace", "meta-pozice", "rewind", "dvojita-disociativni-vazba"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md"]
-nlp_links_prose = ["glossary/depersonalizace.md", "glossary/disociace.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md"]
-nlp_prev = "rychla-lecba-fobie"
-nlp_next = "reimprinting"
-nlp_position = 2
-nlp_family_size = 11
-nlp_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "bandler-grinder-1979"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-11.02"
+catalog_slug = "dvojita-disociace"
+catalog_family = "disociace-a-trauma"
+catalog_family_code = "11"
+catalog_family_title = "Disociace, fobie a trauma"
+catalog_family_en = "Dissociation, phobia and trauma patterns"
+catalog_part = "disociace-a-trauma"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Double dissociation"
+catalog_aliases = ["divák sledující diváka", "disociace druhého řádu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "disociace"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["disociace", "submodality-pojem"]
+catalog_related = ["meta-pozice", "disociace", "dvojita-disociativni-vazba", "filmova-technika", "rychla-lecba-fobie", "rewind"]
+catalog_related_declared = ["rychla-lecba-fobie", "disociace", "meta-pozice", "rewind", "dvojita-disociativni-vazba"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/depersonalizace.md", "glossary/disociace.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md"]
+catalog_prev = "rychla-lecba-fobie"
+catalog_next = "reimprinting"
+catalog_position = 2
+catalog_family_size = 11
+catalog_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/disociace-a-trauma.toml"
 +++
 
 # Dvojitá disociace
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-11.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Double dissociation |
 | **Jiné názvy** | divák sledující diváka, disociace druhého řádu |
-| **Obecnější vzorec** | [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) |
+| **Obecnější heslo** | [Disociace](@/glossary/disociace.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -96,7 +99,7 @@ ve které se perspektiva vnitřního obrazu stala jednou z vlastností, s nimiž
 pracovat (Bandler a Grinder 1979). Bandler později disociaci zařadil mezi submodality, tedy
 mezi rysy, jimiž se vnitřní představy liší, a dvojitý odstup popsal jako zesílení téhož
 principu (Bandler 1985). Základní pojmy rozebírají hesla
-[Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) a
+[Disociace](@/glossary/disociace.md) a
 [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md). Od dvojité disociace je
 třeba odlišit hypnotický jazykový vzorec, který nese podobný název, ale je dvojnou vazbou ve
 smyslu ericksonovské hypnózy; ten rozebírá heslo
@@ -198,7 +201,7 @@ Odborník by u klienta, který přichází z prostředí, kde se odstup od emoc�
 nabízet další techniky odpojení, ale pomáhat mu zážitky znovu integrovat do souvislého
 příběhu, ve kterém mají jeho emoce své místo (Beck 1976; Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,28 +220,28 @@ příběhu, ve kterém mají jeho emoce své místo (Beck 1976; Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Disociace](@/glossary/disociace.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Double dissociation double bind)
-- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzný vzorec (Submodality, Movie theatre technique)
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
-- [Technika přetáčení](@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md) – příbuzný vzorec (Disociace, fobie a trauma, Rewind technique)
+- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzné heslo (Základní pojmy NLP, Meta-position)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Double dissociation double bind)
+- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzné heslo (Submodality, Movie theatre technique)
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
+- [Technika přetáčení](@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md) – příbuzné heslo (Disociace, fobie a trauma, Rewind technique)
 
 **V kompendiu**
 
-- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.7 Škála disociativních zážitků DES-II (Carlson, Putnam)](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.7 Škála disociativních zážitků DES-II (Carlson, Putnam)](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – předchozí vzorec rodiny
-- [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – předchozí heslo rodiny
+- [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

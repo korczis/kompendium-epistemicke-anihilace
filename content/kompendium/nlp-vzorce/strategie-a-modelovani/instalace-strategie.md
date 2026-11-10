@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Instalace strategie", "Strategy installation", "installing a strategy", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Instalace strategie", "Strategy installation", "installing a strategy", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.16"
-nlp_slug = "instalace-strategie"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Strategy installation"
-nlp_aliases = ["installing a strategy"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "strategie-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["strategie-pojem"]
-nlp_related = ["strategie-pojem", "kotveni", "budouci-prehravani", "elicitace-strategie", "pravopisna-strategie", "strategie-uceni", "utilizace-strategie", "generator-noveho-chovani"]
-nlp_related_declared = ["elicitace-strategie", "utilizace-strategie", "kotveni", "budouci-prehravani", "strategie-uceni"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md"]
-nlp_prev = "periferni-videni"
-nlp_next = "utilizace-strategie"
-nlp_position = 16
-nlp_family_size = 20
-nlp_sources = ["beck-1976", "dilts-1980", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "heap-1988", "herman-1992", "mcguire-1964", "miller-galanter-pribram-1960", "sharpley-1987", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "heap-1988", "herman-1992", "mcguire-1964", "sharpley-1987", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.16"
+catalog_slug = "instalace-strategie"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Strategy installation"
+catalog_aliases = ["installing a strategy"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "strategie-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["strategie-pojem"]
+catalog_related = ["strategie-pojem", "kotveni", "budouci-prehravani", "elicitace-strategie", "pravopisna-strategie", "strategie-uceni", "utilizace-strategie", "generator-noveho-chovani"]
+catalog_related_declared = ["elicitace-strategie", "utilizace-strategie", "kotveni", "budouci-prehravani", "strategie-uceni"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md"]
+catalog_prev = "periferni-videni"
+catalog_next = "utilizace-strategie"
+catalog_position = 16
+catalog_family_size = 20
+catalog_sources = ["beck-1976", "dilts-1980", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "heap-1988", "herman-1992", "mcguire-1964", "miller-galanter-pribram-1960", "sharpley-1987", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "heap-1988", "herman-1992", "mcguire-1964", "sharpley-1987", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Instalace strategie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Strategy installation |
 | **Jiné názvy** | installing a strategy |
-| **Obecnější vzorec** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
+| **Obecnější heslo** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Model strategií je srozumitelný a navazuje na zavedené kybernetické a behavi
 
 První obranou je ptát se po kritériích. Když někdo nabízí nový způsob, jak se rozhodovat, hodnotit nebo reagovat, je užitečné zjistit, podle čeho nový postup pozná, že je hotovo, a zda jsou tato měřítka vlastní, nebo patří někomu jinému. Postup, jehož součástí je „hlas vedoucího“ nebo „co by řekla skupina“, přenáší autoritu dovnitř úsudku. Druhou obranou je chránit pochybnost. Zvažování a váhání nejsou vady, které je třeba odstranit, ale funkce, které umožňují zastavit se před chybou. Postup, který je slibuje „vypnout“, zasahuje do schopnosti sebeochrany. Třetí obranou je zkouška reverzibility: legitimní dovednost lze kdykoli odložit nebo upravit bez ztráty vztahu či postavení. Kde to nejde, jde o kontrolu. U lidí, kteří odešli z prostředí, kde byly takové postupy zaváděny dlouhodobě, se po odchodu často objevují automatické reakce, například [vnitřní hlas](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) bývalého vedoucího při rozhodování. V péči o ně pomáhá tyto reakce pojmenovat jako naučené, a tedy změnitelné, a postupně obnovovat vlastní měřítka v bezpečném vztahu (Herman 1992). Předem získané povědomí o tom, jak takové zavádění probíhá, usnadňuje jeho rozpoznání v počátcích (McGuire 1964).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -124,30 +127,30 @@ První obranou je ptát se po kritériích. Když někdo nabízí nový způsob,
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy elicitation)
-- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – příbuzný vzorec (Strategie a modelování, Spelling strategy)
-- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzný vzorec (Strategie a modelování, Learning strategy)
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy utilisation)
-- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzný vzorec (Strategie a modelování, New behaviour generator)
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy elicitation)
+- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – příbuzné heslo (Strategie a modelování, Spelling strategy)
+- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzné heslo (Strategie a modelování, Learning strategy)
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy utilisation)
+- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzné heslo (Strategie a modelování, New behaviour generator)
 
 **V kompendiu**
 
-- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.1 Model BITE v praxi (Hassan)](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.1 Model BITE v praxi (Hassan)](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – předchozí vzorec rodiny
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – předchozí heslo rodiny
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

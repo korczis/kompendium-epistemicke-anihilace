@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Nevědomé modelování", "Unconscious uptake modelling", "unconscious uptake", "modelování nevědomým převzetím", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Nevědomé modelování", "Unconscious uptake modelling", "unconscious uptake", "modelování nevědomým převzetím", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.20"
-nlp_slug = "modelovani-nevedomim"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Unconscious uptake modelling"
-nlp_aliases = ["unconscious uptake", "modelování nevědomým převzetím"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "modelovani-excelence"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["modelovani-excelence", "modelovani-pojem"]
-nlp_related = ["modelovani-pojem", "modelovani-excelence", "novy-kod", "stav-nevedeni", "zrcadleni", "guru-efekt"]
-nlp_related_declared = ["modelovani-pojem", "zrcadleni", "guru-efekt", "stav-nevedeni", "novy-kod"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-5-3-21-character-transposition.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
-nlp_prev = "smyckove-strategie"
-nlp_next = ""
-nlp_position = 20
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "dilts-1994", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "lifton-1961", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1994", "grinder-bostic-2001", "grinder-delozier-1987"]
-nlp_sources_roots = []
-nlp_sources_critical = ["chartrand-bargh-1999", "herman-1992", "kahneman-2011", "lifton-1961", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.20"
+catalog_slug = "modelovani-nevedomim"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Unconscious uptake modelling"
+catalog_aliases = ["unconscious uptake", "modelování nevědomým převzetím"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "modelovani-excelence"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["modelovani-excelence", "modelovani-pojem"]
+catalog_related = ["modelovani-pojem", "modelovani-excelence", "novy-kod", "stav-nevedeni", "zrcadleni", "guru-efekt"]
+catalog_related_declared = ["modelovani-pojem", "zrcadleni", "guru-efekt", "stav-nevedeni", "novy-kod"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-5-3-21-character-transposition.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
+catalog_prev = "smyckove-strategie"
+catalog_next = ""
+catalog_position = 20
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "dilts-1994", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "lifton-1961", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1994", "grinder-bostic-2001", "grinder-delozier-1987"]
+catalog_sources_roots = []
+catalog_sources_critical = ["chartrand-bargh-1999", "herman-1992", "kahneman-2011", "lifton-1961", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Nevědomé modelování
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Unconscious uptake modelling |
 | **Jiné názvy** | unconscious uptake, modelování nevědomým převzetím |
-| **Obecnější vzorec** | [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) |
+| **Obecnější heslo** | [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Nevědomé modelování jako metoda NLP nebylo předmětem kontrolovaného výzk
 
 První obranou je ohraničit, co se člověk učí. Pokud nabídka zní „buď jako já“, je užitečné se ptát, kterou konkrétní dovednost má převzít a podle čeho se pozná, že ji zvládl, nezávisle na tom, zda ho učitel schválí. Druhou obranou je trvat na fázi porozumění. Napodobení může být dobrým začátkem, ale legitimní učitel počítá s tím, že žák bude jednou rozumět a dělat věci po svém. Třetí obranou je sledovat vlastní změny širší, než je učená dovednost: přebírám i názory, slovník, vkus a hodnocení druhých lidí? Ptají se mě blízcí, co se se mnou děje? Takové signály stojí za pozornost. U lidí, kteří odešli z prostředí, kde dlouhodobě napodobovali vůdce, se po odchodu objevuje nejistota, kdo vlastně jsou, a zjištění, že řada jejich reakcí, výrazů a postojů patří někomu jinému. V péči o ně se pracuje s postupným rozlišováním převzatého a vlastního, s návratem k dřívějším zájmům a vztahům a s budováním identity, kterou si člověk volí sám (Herman 1992). Je důležité zdůraznit, že převzaté prvky nejsou známkou slabosti; vyplývají z přirozeného lidského sklonu k nápodobě, který byl v takovém prostředí cíleně zesilován.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,27 +125,27 @@ První obranou je ohraničit, co se člověk učí. Pokud nabídka zní „buď 
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Modelling (concept))
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzný vzorec (Strategie a modelování, Know-nothing state)
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzné heslo (Základní pojmy NLP, Modelling (concept))
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzné heslo (Strategie a modelování, Know-nothing state)
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.21 Character transposition](@/kompendium/techniques/ea-5-3-21-character-transposition.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.21 Character transposition](@/kompendium/techniques/ea-5-3-21-character-transposition.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

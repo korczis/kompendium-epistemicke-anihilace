@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-cile-a-vysledky"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Cíle a výsledky", "Outcomes", "NLP"]
+keywords = ["Cíle a výsledky", "Outcomes", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "cile-a-vysledky"
-nlp_code = "19"
-nlp_en = "Outcomes"
-nlp_size = 10
-nlp_members = ["dobre-formulovany-vysledek", "pozitivni-formulace-cile", "smyslove-dukazy-cile", "cil-pod-vlastni-kontrolou", "kontext-cile", "zdroje-cile", "ekologie-cile", "dukazni-procedura", "otazky-vysledku", "od-problemu-k-vysledku"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "dilts-delozier-2000", "festinger-1957", "freedman-fraser-1966", "haley-1973", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "stark-2007", "sturt-2012", "watzlawick-1974", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "cile-a-vysledky"
+catalog_code = "19"
+catalog_en = "Outcomes"
+catalog_size = 10
+catalog_members = ["dobre-formulovany-vysledek", "pozitivni-formulace-cile", "smyslove-dukazy-cile", "cil-pod-vlastni-kontrolou", "kontext-cile", "zdroje-cile", "ekologie-cile", "dukazni-procedura", "otazky-vysledku", "od-problemu-k-vysledku"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "dilts-delozier-2000", "festinger-1957", "freedman-fraser-1966", "haley-1973", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "stark-2007", "sturt-2012", "watzlawick-1974", "witkowski-2010"]
 +++
 
 # Cíle a výsledky
@@ -153,12 +155,12 @@ o vztahy mimo toto prostředí (Hassan 1988; Herman 1992). Odborník, který s p
 by je měl uplatňovat i na sebe: zda je jeho vlastní cíl ve vztahu s klientem vyslovený,
 ověřitelný a slučitelný se zájmem klienta.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-19.01` | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) | Well-formed outcome | vzorec | terapeutické i vlivové | střední |
 | `NLP-19.02` | [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) | Stated in the positive | pojem | terapeutické i vlivové | střední |
 | `NLP-19.03` | [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) | Sensory-based evidence | pojem | terapeutické i vlivové | střední |
@@ -169,6 +171,46 @@ ověřitelný a slučitelný se zájmem klienta.
 | `NLP-19.08` | [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) | Evidence procedure | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-19.09` | [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) | Outcome questions | vzorec | terapeutické i vlivové | střední |
 | `NLP-19.10` | [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) | Problem to outcome | vzorec | terapeutické i vlivové | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Cíle a výsledky"]
+  click F "@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md"
+  n1["Dobře formulovaný výsledek"]
+  n2["Kladná formulace cíle"]
+  n3["Smyslové důkazy dosažení"]
+  n4["Cíl pod vlastní kontrolou"]
+  n5["Kontext cíle"]
+  n6["Zdroje pro dosažení cíle"]
+  n7["Ekologie cíle"]
+  n8["Důkazní procedura"]
+  n9["Otázky výsledku"]
+  n10["Od problému k výsledku"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  n1 --> n5
+  n1 --> n6
+  n1 --> n7
+  n3 --> n8
+  n1 --> n9
+  F --> n10
+  click n1 "@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md"
+  click n2 "@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md"
+  click n3 "@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md"
+  click n4 "@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md"
+  click n5 "@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md"
+  click n6 "@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md"
+  click n7 "@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md"
+  click n8 "@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md"
+  click n9 "@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md"
+  click n10 "@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md"
+```
 
 ## Literatura
 
@@ -198,6 +240,6 @@ ověřitelný a slučitelný se zájmem klienta.
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – předchozí rodina katalogu
 - [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

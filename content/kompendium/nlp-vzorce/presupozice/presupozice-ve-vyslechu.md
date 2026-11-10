@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Presupozice ve výslechu a svědectví", "Presuppositions in questioning and testimony", "sugestivní otázky", "návodné otázky", "kapciózní otázky ve výslechu", "Jazykové presupozice", "NLP", "neurolingvistické programování"]
+keywords = ["Presupozice ve výslechu a svědectví", "Presuppositions in questioning and testimony", "sugestivní otázky", "návodné otázky", "kapciózní otázky ve výslechu", "Jazykové presupozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-06.19"
-nlp_slug = "presupozice-ve-vyslechu"
-nlp_family = "presupozice"
-nlp_family_code = "06"
-nlp_family_title = "Jazykové presupozice"
-nlp_family_en = "Linguistic presuppositions"
-nlp_part = "presupozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Presuppositions in questioning and testimony"
-nlp_aliases = ["sugestivní otázky", "návodné otázky", "kapciózní otázky ve výslechu"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "jazykove-presupozice"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["jazykove-presupozice"]
-nlp_related = ["nespecifikovane-sloveso", "presupozice-v-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "pripojene-otazky", "jazykove-presupozice", "slovesa-zmeny-casu", "otazky-s-presupozici", "ramec-zpetneho-shrnuti", "trauma-a-falesne-vzpominky", "korenova-pricina", "detekce-lzi-v-nlp", "otazky-misto-tvrzeni", "nlp-ve-vyslechu"]
-nlp_related_declared = ["otazky-s-presupozici", "meta-model-jako-vyslychaci-nastroj", "nlp-ve-vyslechu", "trauma-a-falesne-vzpominky", "detekce-lzi-v-nlp"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-6-1-3-collateral-interview.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/forensic-legal/_index.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md", "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md", "kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/techniques/ea-6-1-3-collateral-interview.md", "kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md"]
-nlp_prev = "presupozice-v-reklame"
-nlp_next = ""
-nlp_position = 19
-nlp_family_size = 19
-nlp_sources = ["grice-1975", "herman-1992", "levinson-1983", "lilienfeld-2015", "loftus-palmer-1974", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = []
-nlp_sources_roots = ["grice-1975", "levinson-1983"]
-nlp_sources_critical = ["herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presupozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-06.19"
+catalog_slug = "presupozice-ve-vyslechu"
+catalog_family = "presupozice"
+catalog_family_code = "06"
+catalog_family_title = "Jazykové presupozice"
+catalog_family_en = "Linguistic presuppositions"
+catalog_part = "presupozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Presuppositions in questioning and testimony"
+catalog_aliases = ["sugestivní otázky", "návodné otázky", "kapciózní otázky ve výslechu"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "jazykove-presupozice"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["jazykove-presupozice"]
+catalog_related = ["sugestivni-otazka", "slozena-otazka", "nespecifikovane-sloveso", "presupozice-v-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "pripojene-otazky", "jazykove-presupozice", "slovesa-zmeny-casu", "otazky-s-presupozici", "ramec-zpetneho-shrnuti", "trauma-a-falesne-vzpominky", "korenova-pricina", "detekce-lzi-v-nlp", "otazky-misto-tvrzeni", "nlp-ve-vyslechu"]
+catalog_related_declared = ["otazky-s-presupozici", "meta-model-jako-vyslychaci-nastroj", "nlp-ve-vyslechu", "trauma-a-falesne-vzpominky", "detekce-lzi-v-nlp"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md", "kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-6-1-3-collateral-interview.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/forensic-legal/_index.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md", "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md", "kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/techniques/ea-6-1-3-collateral-interview.md", "kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md"]
+catalog_prev = "presupozice-v-reklame"
+catalog_next = ""
+catalog_position = 19
+catalog_family_size = 19
+catalog_sources = ["grice-1975", "herman-1992", "levinson-1983", "lilienfeld-2015", "loftus-palmer-1974", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = []
+catalog_sources_roots = ["grice-1975", "levinson-1983"]
+catalog_sources_critical = ["herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presupozice.b.toml"
 +++
 
 # Presupozice ve výslechu a svědectví
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-06.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Presuppositions in questioning and testimony |
 | **Jiné názvy** | sugestivní otázky, návodné otázky, kapciózní otázky ve výslechu |
-| **Obecnější vzorec** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
+| **Obecnější heslo** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -205,7 +208,7 @@ paměti a pocit viny za to, co „řekli“. Součástí zotavení je pochopení
 strukturou dotazování, ne jejich nepoctivostí, a obnova důvěry ve vlastní vzpomínky v
 bezpečném vztahu (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,35 +225,37 @@ bezpečném vztahu (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – příbuzný vzorec (Meta-model, Unspecified verb)
-- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – příbuzný vzorec (Meta-model, Presuppositions (Meta Model))
-- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – příbuzný vzorec (Meta-model, Meta Model as an interrogation tool)
-- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – příbuzný vzorec (Milton-model, Tag questions)
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Linguistic presuppositions)
-- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzný vzorec (Jazykové presupozice, Change-of-time verbs and adverbs)
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
-- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzný vzorec (Reframing a rámce, Backtrack frame)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzný vzorec (Časová osa, Root cause)
-- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzný vzorec (Raport a kalibrace, Lie detection claims in NLP)
-- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – příbuzný vzorec (Jazykové vzorce, Questions instead of statements)
-- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in interrogation and negotiation)
+- [Sugestivní otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/sugestivni-otazka.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, Loaded question)
+- [Složená otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/slozena-otazka.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, Complex question)
+- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – příbuzné heslo (Meta-model, Unspecified verb)
+- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – příbuzné heslo (Meta-model, Presuppositions (Meta Model))
+- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – příbuzné heslo (Meta-model, Meta Model as an interrogation tool)
+- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – příbuzné heslo (Milton-model, Tag questions)
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – příbuzné heslo (Jazykové presupozice, Linguistic presuppositions)
+- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzné heslo (Jazykové presupozice, Change-of-time verbs and adverbs)
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
+- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzné heslo (Reframing a rámce, Backtrack frame)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
+- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzné heslo (Raport a kalibrace, Lie detection claims in NLP)
+- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – příbuzné heslo (Jazykové vzorce, Questions instead of statements)
+- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in interrogation and negotiation)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-9.2.7 Synthetic Witness Testimony](@/kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.3 Collateral interview (rozhovor s blízkými)](@/kompendium/techniques/ea-6-1-3-collateral-interview.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-9.2.7 Synthetic Witness Testimony](@/kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.3 Collateral interview (rozhovor s blízkými)](@/kompendium/techniques/ea-6-1-3-collateral-interview.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

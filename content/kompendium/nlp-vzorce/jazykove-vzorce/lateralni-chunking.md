@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Laterální chunking", "Lateral chunking", "chunking do stran", "přesun k jinému případu téže třídy", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Laterální chunking", "Lateral chunking", "chunking do stran", "přesun k jinému případu téže třídy", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.04"
-nlp_slug = "lateralni-chunking"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Lateral chunking"
-nlp_aliases = ["chunking do stran", "přesun k jinému případu téže třídy"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "hierarchie-idei"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["hierarchie-idei", "chunking"]
-nlp_related = ["chunking", "som-analogie", "hierarchie-idei", "chunking-nahoru", "terapeuticka-metafora", "izomorfni-metafora"]
-nlp_related_declared = ["som-analogie", "terapeuticka-metafora", "izomorfni-metafora", "chunking-nahoru"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md", "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md"]
-nlp_prev = "chunking-dolu"
-nlp_next = "kategorie-satirove"
-nlp_position = 4
-nlp_family_size = 20
-nlp_sources = ["bateson-1972", "dilts-1999", "gilovich-1991", "gordon-1978", "haley-1973", "herman-1992", "lakoff-johnson-1980", "oconnor-seymour-1990", "passmore-rowson-2019", "rosen-1982", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1999", "gordon-1978", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "haley-1973", "rosen-1982"]
-nlp_sources_critical = ["gilovich-1991", "herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.04"
+catalog_slug = "lateralni-chunking"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Lateral chunking"
+catalog_aliases = ["chunking do stran", "přesun k jinému případu téže třídy"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "hierarchie-idei"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["hierarchie-idei", "chunking"]
+catalog_related = ["chunking", "som-analogie", "hierarchie-idei", "chunking-nahoru", "terapeuticka-metafora", "izomorfni-metafora"]
+catalog_related_declared = ["som-analogie", "terapeuticka-metafora", "izomorfni-metafora", "chunking-nahoru"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md", "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md"]
+catalog_prev = "chunking-dolu"
+catalog_next = "kategorie-satirove"
+catalog_position = 4
+catalog_family_size = 20
+catalog_sources = ["bateson-1972", "dilts-1999", "gilovich-1991", "gordon-1978", "haley-1973", "herman-1992", "lakoff-johnson-1980", "oconnor-seymour-1990", "passmore-rowson-2019", "rosen-1982", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1999", "gordon-1978", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "haley-1973", "rosen-1982"]
+catalog_sources_critical = ["gilovich-1991", "herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.toml"
 +++
 
 # Laterální chunking
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Lateral chunking |
 | **Jiné názvy** | chunking do stran, přesun k jinému případu téže třídy |
-| **Obecnější vzorec** | [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) |
+| **Obecnější heslo** | [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -109,7 +112,7 @@ Základní obranou proti manipulativní analogii je zviditelnit společnou tří
 
 U lidí, kteří se dlouho pohybovali ve skupině nebo ve vztahu, kde se každá výtka relativizovala srovnáním s jinými, může být součástí zotavení znovunabytí schopnosti posuzovat jednotlivý čin sám o sobě. Pomáhá rozhovor s někým mimo vztah, kdo dokáže říct, že tento konkrétní čin je nepřijatelný bez ohledu na to, co dělají jiní. Herman zdůrazňuje, že pojmenování toho, co se stalo, a uznání jeho závažnosti druhými lidmi patří k základům obnovy po traumatu (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -131,28 +134,28 @@ U lidí, kteří se dlouho pohybovali ve skupině nebo ve vztahu, kde se každá
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzný vzorec (Základní pojmy NLP, Chunking)
-- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – příbuzný vzorec (Sleight of Mouth, Analogy)
-- [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – příbuzný vzorec (Jazykové vzorce, Hierarchy of ideas)
-- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzný vzorec (Jazykové vzorce, Chunking up)
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzný vzorec (Jazykové vzorce, Therapeutic metaphor)
-- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – příbuzný vzorec (Jazykové vzorce, Isomorphic metaphor)
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzné heslo (Základní pojmy NLP, Chunking)
+- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – příbuzné heslo (Sleight of Mouth, Analogy)
+- [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – příbuzné heslo (Jazykové vzorce, Hierarchy of ideas)
+- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzné heslo (Jazykové vzorce, Chunking up)
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzné heslo (Jazykové vzorce, Therapeutic metaphor)
+- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – příbuzné heslo (Jazykové vzorce, Isomorphic metaphor)
 
 **V kompendiu**
 
-- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.5 Internalizace falešné vyváženosti (bothsidesism)](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.5 Internalizace falešné vyváženosti (bothsidesism)](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – předchozí vzorec rodiny
-- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – předchozí heslo rodiny
+- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Ekologie cíle", "Ecology of the outcome", "ekologická podmínka cíle", "dopady cíle na celek", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Ekologie cíle", "Ecology of the outcome", "ekologická podmínka cíle", "dopady cíle na celek", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.07"
-nlp_slug = "ekologie-cile"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Ecology of the outcome"
-nlp_aliases = ["ekologická podmínka cíle", "dopady cíle na celek"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "dobre-formulovany-vysledek"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["dobre-formulovany-vysledek"]
-nlp_related = ["pozitivni-zamer-chovani", "ekologie-zmeny", "ekologicka-kontrola", "ramec-ekologie", "integrace-casti", "audit-presvedceni", "kartezske-otazky", "cil-pod-vlastni-kontrolou", "kontext-cile"]
-nlp_related_declared = ["ekologicka-kontrola", "ekologie-zmeny", "ramec-ekologie", "pozitivni-zamer-chovani", "integrace-casti"]
-nlp_kompendium = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/case-studies/43-elite-sports-totalizace.md"]
-nlp_links_prose = ["kompendium/case-studies/43-elite-sports-totalizace.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md"]
-nlp_prev = "zdroje-cile"
-nlp_next = "dukazni-procedura"
-nlp_position = 7
-nlp_family_size = 10
-nlp_sources = ["bandler-grinder-1982", "bateson-1972", "cameron-bandler-1978", "dilts-delozier-2000", "druckman-swets-1988", "festinger-1957", "hassan-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "cameron-bandler-1978", "dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972"]
-nlp_sources_critical = ["druckman-swets-1988", "festinger-1957", "hassan-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.07"
+catalog_slug = "ekologie-cile"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Ecology of the outcome"
+catalog_aliases = ["ekologická podmínka cíle", "dopady cíle na celek"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "dobre-formulovany-vysledek"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["dobre-formulovany-vysledek"]
+catalog_related = ["pozitivni-zamer-chovani", "ekologie-zmeny", "ekologicka-kontrola", "ramec-ekologie", "integrace-casti", "audit-presvedceni", "kartezske-otazky", "cil-pod-vlastni-kontrolou", "kontext-cile"]
+catalog_related_declared = ["ekologicka-kontrola", "ekologie-zmeny", "ramec-ekologie", "pozitivni-zamer-chovani", "integrace-casti"]
+catalog_kompendium = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/case-studies/43-elite-sports-totalizace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/43-elite-sports-totalizace.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md"]
+catalog_prev = "zdroje-cile"
+catalog_next = "dukazni-procedura"
+catalog_position = 7
+catalog_family_size = 10
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "cameron-bandler-1978", "dilts-delozier-2000", "druckman-swets-1988", "festinger-1957", "hassan-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "cameron-bandler-1978", "dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972"]
+catalog_sources_critical = ["druckman-swets-1988", "festinger-1957", "hassan-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Ekologie cíle
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Ecology of the outcome |
 | **Jiné názvy** | ekologická podmínka cíle, dopady cíle na celek |
-| **Obecnější vzorec** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
+| **Obecnější heslo** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -187,7 +190,7 @@ odmítnuty, a o uznání, že tyto obavy byly oprávněné (Singer a Lalich 1995
 podmínkou pracuje, by měl ekologii vždy svěřit klientovi a výsledek, který vede k odložení
 nebo zrušení cíle, pokládat za stejně platný jako výsledek, který cíl potvrdí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -210,30 +213,30 @@ nebo zrušení cíle, pokládat za stejně platný jako výsledek, který cíl p
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzný vzorec (Předpoklady NLP, Change must respect the whole system (ecology))
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzný vzorec (Reframing a rámce, Ecology frame)
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzný vzorec (Práce s částmi, Parts integration)
-- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief audit)
-- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzný vzorec (Přesvědčení, Cartesian questions)
-- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – příbuzný vzorec (Cíle a výsledky, Self-initiated and self-maintained)
-- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – příbuzný vzorec (Cíle a výsledky, Context of the outcome)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzné heslo (Předpoklady NLP, Change must respect the whole system (ecology))
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzné heslo (Reframing a rámce, Ecology frame)
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
+- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief audit)
+- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzné heslo (Přesvědčení, Cartesian questions)
+- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – příbuzné heslo (Cíle a výsledky, Self-initiated and self-maintained)
+- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – příbuzné heslo (Cíle a výsledky, Context of the outcome)
 
 **V kompendiu**
 
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 43: Totalizace v elitním sportu](@/kompendium/case-studies/43-elite-sports-totalizace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 43: Totalizace v elitním sportu](@/kompendium/case-studies/43-elite-sports-totalizace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – předchozí vzorec rodiny
-- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – předchozí heslo rodiny
+- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

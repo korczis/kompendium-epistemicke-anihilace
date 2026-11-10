@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Emoční zvládání", "Emotional coping", "styl zvládání emocí", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Emoční zvládání", "Emotional coping", "styl zvládání emocí", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.16"
-nlp_slug = "emocni-zvladani"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Emotional coping"
-nlp_aliases = ["styl zvládání emocí"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["asociace", "disociace", "ja-a-druzi", "reakce-na-stres"]
-nlp_related_declared = ["reakce-na-stres", "asociace", "disociace", "ja-a-druzi"]
-nlp_kompendium = ["kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md"]
-nlp_prev = "casova-orientace"
-nlp_next = "hodnoty-pri-koupi"
-nlp_position = 16
-nlp_family_size = 23
-nlp_sources = ["bandler-grinder-1979", "beck-1976", "hall-bodenhamer-1997", "hassan-1988", "herman-1992", "rogers-1951", "satir-1972", "sturt-2012", "vrij-2008", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "hall-bodenhamer-1997"]
-nlp_sources_roots = ["satir-1972"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "rogers-1951", "sturt-2012", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.16"
+catalog_slug = "emocni-zvladani"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Emotional coping"
+catalog_aliases = ["styl zvládání emocí"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["asociace", "disociace", "ja-a-druzi", "reakce-na-stres"]
+catalog_related_declared = ["reakce-na-stres", "asociace", "disociace", "ja-a-druzi"]
+catalog_kompendium = ["kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md"]
+catalog_prev = "casova-orientace"
+catalog_next = "hodnoty-pri-koupi"
+catalog_position = 16
+catalog_family_size = 23
+catalog_sources = ["bandler-grinder-1979", "beck-1976", "hall-bodenhamer-1997", "hassan-1988", "herman-1992", "rogers-1951", "satir-1972", "sturt-2012", "vrij-2008", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "hall-bodenhamer-1997"]
+catalog_sources_roots = ["satir-1972"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "rogers-1951", "sturt-2012", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Emoční zvládání
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Emotional coping |
 | **Jiné názvy** | styl zvládání emocí |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -80,7 +83,7 @@ kategorie, která popisuje obvyklý způsob, jakým člověk zachází se silný
 situacích napětí, konfliktu nebo ohrožení. Výklad NLP sleduje především dvě osy. První se týká
 toho, zda člověk v emoci zůstává a prožívá ji zevnitř, nebo od ní odstupuje a dívá se na situaci
 jakoby zvenku; NLP tuto osu popisuje pojmy [asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md)
-a [disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md). Druhá osa se týká toho, zda
+a [disociace](@/glossary/disociace.md). Druhá osa se týká toho, zda
 člověk pod emočním tlakem spíš ustupuje, útočí, nebo hledá vyjednávání. Katalog Halla a
 Bodenhamera obsahuje vedle kognitivních vzorců i kategorie, které se týkají prožívání a
 zvládání emocí, a chápe je jako kontextové vzorce (Hall a Bodenhamer 1997). Metaprogram se
@@ -195,7 +198,7 @@ rozlišení, kdy byla emoce přiměřenou reakcí na nepřiměřenou situaci, a 
 práva cítit hněv, smutek nebo strach, aniž by to znamenalo ztrátu hlasu. Rogers zdůrazňoval, že
 přijetí prožitku bez hodnocení je podmínkou změny, nikoli její překážkou (Rogers 1951).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,25 +217,25 @@ přijetí prožitku bez hodnocení je podmínkou změny, nikoli její překážk
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzný vzorec (Metaprogramy, Self and other)
-- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzný vzorec (Metaprogramy, Stress response)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzné heslo (Metaprogramy, Self and other)
+- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzné heslo (Metaprogramy, Stress response)
 
 **V kompendiu**
 
-- [EA-6.2.6 DBT — distress tolerance](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.2.6 DBT — distress tolerance](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – předchozí vzorec rodiny
-- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – předchozí heslo rodiny
+- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

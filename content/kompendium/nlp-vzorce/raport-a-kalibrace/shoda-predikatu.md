@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Shoda predikátů", "Predicate matching", "sladění smyslových predikátů", "predicate tracking", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Shoda predikátů", "Predicate matching", "sladění smyslových predikátů", "predicate tracking", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.04"
-nlp_slug = "shoda-predikatu"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Predicate matching"
-nlp_aliases = ["sladění smyslových predikátů", "predicate tracking"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "pacing-a-leading"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["pacing-a-leading", "pacing-a-leading-pojem"]
-nlp_related = ["reprezentacni-systemy", "preferovany-reprezentacni-system", "predikaty", "metaprogramy-v-marketingu", "sladeni-hlasu-a-tempa", "zpetne-shrnuti", "vyzkum-preferovaneho-systemu"]
-nlp_related_declared = ["predikaty", "preferovany-reprezentacni-system", "reprezentacni-systemy", "vyzkum-preferovaneho-systemu", "metaprogramy-v-marketingu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "pacing-a-leading"
-nlp_next = "sladeni-dechu"
-nlp_position = 4
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "grinder-bandler-1976", "heap-1988", "lakoff-johnson-1980", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1976", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["heap-1988", "lakoff-johnson-1980", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.04"
+catalog_slug = "shoda-predikatu"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Predicate matching"
+catalog_aliases = ["sladění smyslových predikátů", "predicate tracking"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "pacing-a-leading"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["pacing-a-leading", "pacing-a-leading-pojem"]
+catalog_related = ["reprezentacni-systemy", "preferovany-reprezentacni-system", "predikaty", "metaprogramy-v-marketingu", "sladeni-hlasu-a-tempa", "zpetne-shrnuti", "vyzkum-preferovaneho-systemu"]
+catalog_related_declared = ["predikaty", "preferovany-reprezentacni-system", "reprezentacni-systemy", "vyzkum-preferovaneho-systemu", "metaprogramy-v-marketingu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "pacing-a-leading"
+catalog_next = "sladeni-dechu"
+catalog_position = 4
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "grinder-bandler-1976", "heap-1988", "lakoff-johnson-1980", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1976", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["heap-1988", "lakoff-johnson-1980", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.toml"
 +++
 
 # Shoda predikátů
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Predicate matching |
 | **Jiné názvy** | sladění smyslových predikátů, predicate tracking |
-| **Obecnější vzorec** | [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) |
+| **Obecnější heslo** | [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ skupinách, které NLP používají jako životní filozofii, nebo v pracovním 
 podle ní rozhodovalo o lidech. Tam je užitečné vysvětlit, jaký je stav výzkumu, a pomoci
 člověku oddělit skutečné rysy vlastního myšlení od nálepky, kterou převzal (Tosey a Mathison 2009).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,28 +220,28 @@ podle ní rozhodovalo o lidech. Tam je užitečné vysvětlit, jaký je stav vý
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzný vzorec (Základní pojmy NLP, Representational systems)
-- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzný vzorec (Základní pojmy NLP, Preferred representational system)
-- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzný vzorec (Základní pojmy NLP, Predicates)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzný vzorec (Raport a kalibrace, Voice and tempo matching)
-- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – příbuzný vzorec (Raport a kalibrace, Backtracking)
-- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – příbuzný vzorec (Kritické hodnocení NLP, Research on the preferred representational system)
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzné heslo (Základní pojmy NLP, Representational systems)
+- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzné heslo (Základní pojmy NLP, Preferred representational system)
+- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzné heslo (Základní pojmy NLP, Predicates)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)
+- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – příbuzné heslo (Raport a kalibrace, Backtracking)
+- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – příbuzné heslo (Kritické hodnocení NLP, Research on the preferred representational system)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – předchozí vzorec rodiny
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – předchozí heslo rodiny
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

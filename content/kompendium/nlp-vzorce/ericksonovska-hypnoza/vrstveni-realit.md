@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vrstvení realit", "Stacking realities", "vnořené příběhy", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Vrstvení realit", "Stacking realities", "vnořené příběhy", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.16"
-nlp_slug = "vrstveni-realit"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Stacking realities"
-nlp_aliases = ["vnořené příběhy"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["citace", "vnorene-smycky", "muj-pritel-john", "indukce-pretizenim", "terapeuticka-metafora", "izomorfni-metafora"]
-nlp_related_declared = ["vnorene-smycky", "muj-pritel-john", "citace", "terapeuticka-metafora", "izomorfni-metafora"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_prev = "technika-prolozeni"
-nlp_next = "terapeuticka-dvojna-vazba"
-nlp_position = 16
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "bateson-1972", "cialdini-2009", "gordon-1978", "hassan-1988", "lifton-1961", "miller-1956", "passmore-rowson-2019", "petty-cacioppo-1986", "rosen-1982", "singer-lalich-1995", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "gordon-1978"]
-nlp_sources_roots = ["bateson-1972", "miller-1956", "rosen-1982", "watzlawick-1967"]
-nlp_sources_critical = ["cialdini-2009", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.16"
+catalog_slug = "vrstveni-realit"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Stacking realities"
+catalog_aliases = ["vnořené příběhy"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["citace", "vnorene-smycky", "muj-pritel-john", "indukce-pretizenim", "terapeuticka-metafora", "izomorfni-metafora"]
+catalog_related_declared = ["vnorene-smycky", "muj-pritel-john", "citace", "terapeuticka-metafora", "izomorfni-metafora"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+catalog_prev = "technika-prolozeni"
+catalog_next = "terapeuticka-dvojna-vazba"
+catalog_position = 16
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "bateson-1972", "cialdini-2009", "gordon-1978", "hassan-1988", "lifton-1961", "miller-1956", "passmore-rowson-2019", "petty-cacioppo-1986", "rosen-1982", "singer-lalich-1995", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "gordon-1978"]
+catalog_sources_roots = ["bateson-1972", "miller-1956", "rosen-1982", "watzlawick-1967"]
+catalog_sources_critical = ["cialdini-2009", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
 +++
 
 # Vrstvení realit
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Stacking realities |
 | **Jiné názvy** | vnořené příběhy |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ předávaly vrstvenými příběhy, je součástí zotavení rozpoznat, které �
 skutečnosti výhrůžky, a pojmenovat je; Hassan popisuje, že takové pojmenování pomáhá oddělit
 strach naučený ve skupině od skutečných rizik (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,27 +215,27 @@ strach naučený ve skupině od skutečných rizik (Hassan 1988).
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzný vzorec (Milton-model, Quotes)
-- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzný vzorec (Ericksonovská hypnóza, Nested loops)
-- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – příbuzný vzorec (Ericksonovská hypnóza, My friend John)
-- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzný vzorec (Ericksonovská hypnóza, Overload induction)
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzný vzorec (Jazykové vzorce, Therapeutic metaphor)
-- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – příbuzný vzorec (Jazykové vzorce, Isomorphic metaphor)
+- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzné heslo (Milton-model, Quotes)
+- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzné heslo (Ericksonovská hypnóza, Nested loops)
+- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – příbuzné heslo (Ericksonovská hypnóza, My friend John)
+- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzné heslo (Ericksonovská hypnóza, Overload induction)
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzné heslo (Jazykové vzorce, Therapeutic metaphor)
+- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – příbuzné heslo (Jazykové vzorce, Isomorphic metaphor)
 
 **V kompendiu**
 
-- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – předchozí vzorec rodiny
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – předchozí heslo rodiny
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Pacing a leading", "Pacing and leading", "provázení a vedení", "pace and lead", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Pacing a leading", "Pacing and leading", "provázení a vedení", "pace and lead", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.03"
-nlp_slug = "pacing-a-leading"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Pacing and leading"
-nlp_aliases = ["provázení a vedení", "pace and lead"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "pacing-a-leading-pojem"
-nlp_narrower = ["zrcadleni", "shoda-predikatu", "zpetne-shrnuti", "vedeni-v-raportu"]
-nlp_depth = 1
-nlp_ancestors = ["pacing-a-leading-pojem"]
-nlp_related = ["respekt-k-modelu-sveta", "odpor-jako-nedostatek-raportu", "pacing-a-leading-pojem", "truismy", "ano-sada", "pacing-aktualni-zkusenosti", "utilizace", "ramec-souhlasu", "retezeni-kotev", "vedeni-v-raportu", "raport-jako-nastroj-vlivu", "nlp-v-prodeji"]
-nlp_related_declared = ["vedeni-v-raportu", "ano-sada", "pacing-aktualni-zkusenosti", "raport-jako-nastroj-vlivu", "nlp-v-prodeji"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
-nlp_prev = "krizove-zrcadleni"
-nlp_next = "shoda-predikatu"
-nlp_position = 3
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "festinger-1957", "freedman-fraser-1966", "grinder-bandler-1981", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.03"
+catalog_slug = "pacing-a-leading"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Pacing and leading"
+catalog_aliases = ["provázení a vedení", "pace and lead"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "pacing-a-leading-pojem"
+catalog_narrower = ["zrcadleni", "shoda-predikatu", "zpetne-shrnuti", "vedeni-v-raportu"]
+catalog_depth = 1
+catalog_ancestors = ["pacing-a-leading-pojem"]
+catalog_related = ["respekt-k-modelu-sveta", "odpor-jako-nedostatek-raportu", "pacing-a-leading-pojem", "truismy", "ano-sada", "pacing-aktualni-zkusenosti", "utilizace", "ramec-souhlasu", "retezeni-kotev", "vedeni-v-raportu", "raport-jako-nastroj-vlivu", "nlp-v-prodeji"]
+catalog_related_declared = ["vedeni-v-raportu", "ano-sada", "pacing-aktualni-zkusenosti", "raport-jako-nastroj-vlivu", "nlp-v-prodeji"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
+catalog_prev = "krizove-zrcadleni"
+catalog_next = "shoda-predikatu"
+catalog_position = 3
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "festinger-1957", "freedman-fraser-1966", "grinder-bandler-1981", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.toml"
 +++
 
 # Pacing a leading
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Pacing and leading |
 | **Jiné názvy** | provázení a vedení, pace and lead |
-| **Obecnější vzorec** | [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) |
+| **Obecnější heslo** | [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ přání od převzatých cílů a snižuje pocit, že „jsem to přece chtěl(a
 praxi se k ní přistupuje v bezpečném vztahu, který dává klientovi právo na vlastní výklad
 událostí (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,38 +224,38 @@ událostí (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – zvláštní případ tohoto vzorce
-- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – zvláštní případ tohoto vzorce
-- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – zvláštní případ tohoto vzorce
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – zvláštní případ tohoto vzorce
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – zvláštní případ tohoto hesla
+- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – zvláštní případ tohoto hesla
+- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – zvláštní případ tohoto hesla
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzný vzorec (Předpoklady NLP, Respect for the other person's model of the world)
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzný vzorec (Předpoklady NLP, Resistance indicates a lack of rapport)
-- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Pacing and leading (concept))
-- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzný vzorec (Milton-model, Truisms)
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzný vzorec (Milton-model, Pacing current experience)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzný vzorec (Reframing a rámce, Agreement frame)
-- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzný vzorec (Kotvení, Chaining anchors)
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzný vzorec (Raport a kalibrace, Leading in rapport)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
+- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzné heslo (Předpoklady NLP, Respect for the other person's model of the world)
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzné heslo (Předpoklady NLP, Resistance indicates a lack of rapport)
+- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzné heslo (Základní pojmy NLP, Pacing and leading (concept))
+- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – příbuzné heslo (Milton-model, Truisms)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzné heslo (Milton-model, Pacing current experience)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzné heslo (Reframing a rámce, Agreement frame)
+- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzné heslo (Kotvení, Chaining anchors)
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzné heslo (Raport a kalibrace, Leading in rapport)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – předchozí vzorec rodiny
-- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – předchozí heslo rodiny
+- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

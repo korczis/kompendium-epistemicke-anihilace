@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Posthypnotická sugesce", "Post-hypnotic suggestion", "posthypnotický příkaz", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Posthypnotická sugesce", "Post-hypnotic suggestion", "posthypnotický příkaz", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.11"
-nlp_slug = "posthypnoticka-sugesce"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Post-hypnotic suggestion"
-nlp_aliases = ["posthypnotický příkaz"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "ericksonovska-hypnoza"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ericksonovska-hypnoza"]
-nlp_related = ["trans-pojem", "vlozene-prikazy", "frakcionace", "amnezie-sugesci", "kotveni", "budouci-prehravani"]
-nlp_related_declared = ["amnezie-sugesci", "trans-pojem", "vlozene-prikazy", "kotveni", "budouci-prehravani"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/01-predmluva/eticke-aspekty.md", "kompendium/critical-perspectives/_index.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "paradoxni-intervence"
-nlp_next = "vekova-regrese"
-nlp_position = 11
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "beck-1976", "cialdini-2009", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "hassan-1988", "heap-1988", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
-nlp_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "hassan-1988", "heap-1988", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.11"
+catalog_slug = "posthypnoticka-sugesce"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Post-hypnotic suggestion"
+catalog_aliases = ["posthypnotický příkaz"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "ericksonovska-hypnoza"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ericksonovska-hypnoza"]
+catalog_related = ["trans-pojem", "vlozene-prikazy", "frakcionace", "amnezie-sugesci", "kotveni", "budouci-prehravani"]
+catalog_related_declared = ["amnezie-sugesci", "trans-pojem", "vlozene-prikazy", "kotveni", "budouci-prehravani"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/01-predmluva/eticke-aspekty.md", "kompendium/critical-perspectives/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "paradoxni-intervence"
+catalog_next = "vekova-regrese"
+catalog_position = 11
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "beck-1976", "cialdini-2009", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "hassan-1988", "heap-1988", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "hassan-1988", "heap-1988", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
 +++
 
 # Posthypnotická sugesce
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Post-hypnotic suggestion |
 | **Jiné názvy** | posthypnotický příkaz |
-| **Obecnější vzorec** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
+| **Obecnější heslo** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -192,7 +195,7 @@ emoce svázány se skupinou, je pro bývalé členy zdrojem úlevy (Hassan 1988)
 posthypnotickou sugesci v terapii používá, by měl vždy dodržet transparentnost, souhlas a
 odvolatelnost a zaznamenat, co bylo dohodnuto.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,28 +218,28 @@ odvolatelnost a zaznamenat, co bylo dohodnuto.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – příbuzný vzorec (Ericksonovská hypnóza, Fractionation)
-- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggested amnesia)
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – příbuzné heslo (Ericksonovská hypnóza, Fractionation)
+- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzné heslo (Ericksonovská hypnóza, Suggested amnesia)
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – předchozí vzorec rodiny
-- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – předchozí heslo rodiny
+- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

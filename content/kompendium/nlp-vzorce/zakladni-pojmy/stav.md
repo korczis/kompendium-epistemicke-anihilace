@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Stav", "State", "vnitřní stav", "psychofyziologický stav", "stav mysli", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Stav", "State", "vnitřní stav", "psychofyziologický stav", "stav mysli", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.16"
-nlp_slug = "stav"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "State"
-nlp_aliases = ["vnitřní stav", "psychofyziologický stav", "stav mysli"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["zdrojovy-stav"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mysl-a-telo-jeden-system", "kinesteticky-system", "zdrojovy-stav", "asociace", "kotva-pojem", "trans-pojem", "preruseni-vzorce", "kotveni", "retezeni-kotev", "kinesteticke-kotvy", "kinesteticke-submodality", "stav-vysokeho-vykonu", "reakce-na-stres", "sladeni-dechu"]
-nlp_related_declared = ["zdrojovy-stav", "mysl-a-telo-jeden-system", "kotva-pojem", "asociace", "trans-pojem", "stav-vysokeho-vykonu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md"]
-nlp_prev = "raport"
-nlp_next = "zdrojovy-stav"
-nlp_position = 16
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1979", "beck-1976", "cialdini-2009", "dilts-delozier-2000", "ekman-2003", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "oconnor-seymour-1990", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-delozier-1987", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "ekman-2003", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.16"
+catalog_slug = "stav"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "State"
+catalog_aliases = ["vnitřní stav", "psychofyziologický stav", "stav mysli"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["zdrojovy-stav"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["mysl-a-telo-jeden-system", "kinesteticky-system", "zdrojovy-stav", "asociace", "kotva-pojem", "trans-pojem", "preruseni-vzorce", "kotveni", "retezeni-kotev", "kinesteticke-kotvy", "kinesteticke-submodality", "stav-vysokeho-vykonu", "reakce-na-stres", "sladeni-dechu"]
+catalog_related_declared = ["zdrojovy-stav", "mysl-a-telo-jeden-system", "kotva-pojem", "asociace", "trans-pojem", "stav-vysokeho-vykonu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md"]
+catalog_prev = "raport"
+catalog_next = "zdrojovy-stav"
+catalog_position = 16
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1979", "beck-1976", "cialdini-2009", "dilts-delozier-2000", "ekman-2003", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "oconnor-seymour-1990", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-delozier-1987", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "ekman-2003", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Stav
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | State |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -102,7 +105,7 @@ Obecné tvrzení, že rozpoložení ovlivňuje vnímání, paměť a rozhodován
 
 Základní obranou je pravidlo odkladu. Rozhodnutí s trvalými následky, jako je podpis smlouvy, platba, závazek ke skupině nebo velké osobní přiznání, by se nemělo dělat v silném rozpoložení, ať je to nadšení, strach, vina nebo vyčerpání. Kdo si je toho vědom, může klidně říct, že o věci rozhodne zítra. Druhou obranou je pozornost k prostředí: když si člověk všimne, že akce je uspořádána tak, aby vyvolala silný stav, a že nabídka přichází na jeho vrcholu, má důvod k ostražitosti. Literatura o vlivu popisuje časový tlak a omezenou dostupnost jako typické prostředky k obejití úvahy (Cialdini 2009). Třetí obranou je mít předem stanovené hranice, například částku, kterou člověk nepřekročí, nebo zásadu, že nic nepodepíše bez konzultace. Zotavení po zkušenosti, kdy byl člověk opakovaně přiváděn do krajních stavů, zahrnuje obnovu tělesné regulace, spánku a běžného rytmu a postupné rozlišení mezi tím, co cítil, a tím, čemu v těch chvílích uvěřil. Herman zdůrazňuje, že stabilizace těla a bezpečí jsou první fází zotavení, která musí předcházet zpracování zkušenosti (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -125,36 +128,36 @@ Základní obranou je pravidlo odkladu. Rozhodnutí s trvalými následky, jako 
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzný vzorec (Předpoklady NLP, Mind and body are one system)
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzný vzorec (Základní pojmy NLP, Kinaesthetic representational system)
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzný vzorec (Ericksonovská hypnóza, Pattern interrupt)
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzný vzorec (Kotvení, Chaining anchors)
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzný vzorec (Kotvení, Kinaesthetic anchors)
-- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzný vzorec (Submodality, Kinaesthetic submodalities)
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzný vzorec (Strategie a modelování, High-performance state)
-- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzný vzorec (Metaprogramy, Stress response)
-- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzný vzorec (Raport a kalibrace, Breathing matching)
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzné heslo (Předpoklady NLP, Mind and body are one system)
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzné heslo (Základní pojmy NLP, Kinaesthetic representational system)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – příbuzné heslo (Ericksonovská hypnóza, Pattern interrupt)
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzné heslo (Kotvení, Chaining anchors)
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzné heslo (Kotvení, Kinaesthetic anchors)
+- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzné heslo (Submodality, Kinaesthetic submodalities)
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzné heslo (Strategie a modelování, High-performance state)
+- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzné heslo (Metaprogramy, Stress response)
+- [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzné heslo (Raport a kalibrace, Breathing matching)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.6 DBT — distress tolerance](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.6 DBT — distress tolerance](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – předchozí vzorec rodiny
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – předchozí heslo rodiny
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

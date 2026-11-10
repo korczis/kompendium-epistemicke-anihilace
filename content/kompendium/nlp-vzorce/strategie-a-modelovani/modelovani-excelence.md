@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Modelování excelence", "Modelling excellence", "modelování", "modeling", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Modelování excelence", "Modelling excellence", "modelování", "modeling", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.10"
-nlp_slug = "modelovani-excelence"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Modelling excellence"
-nlp_aliases = ["modelování", "modeling"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "modelovani-pojem"
-nlp_narrower = ["strategie-geniality", "modelovani-nevedomim"]
-nlp_depth = 1
-nlp_ancestors = ["modelovani-pojem"]
-nlp_related = ["modelovatelnost-excelence", "modelovani-pojem", "uroven-schopnosti", "disneyova-strategie", "strategie-uceni", "strategie-geniality", "novy-kod", "modelovani-nevedomim", "historie-nlp", "koreny-nlp", "kargokultovni-psychologie"]
-nlp_related_declared = ["modelovani-pojem", "modelovatelnost-excelence", "novy-kod", "modelovani-nevedomim", "koreny-nlp", "kargokultovni-psychologie"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/case-studies/62-startup-founder-cult.md", "kompendium/case-studies/66-academic-school-cult.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_links_prose = ["glossary/charisma.md", "kompendium/case-studies/62-startup-founder-cult.md", "kompendium/case-studies/66-academic-school-cult.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_prev = "strategie-geniality"
-nlp_next = "novy-kod"
-nlp_position = 10
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chartrand-bargh-1999", "dilts-1980", "druckman-swets-1988", "grinder-bandler-1976", "grinder-bostic-2001", "grinder-delozier-bandler-1977", "hassan-1988", "miller-galanter-pribram-1960", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1980", "grinder-bandler-1976", "grinder-bostic-2001", "grinder-delozier-bandler-1977"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["chartrand-bargh-1999", "druckman-swets-1988", "hassan-1988", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.10"
+catalog_slug = "modelovani-excelence"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Modelling excellence"
+catalog_aliases = ["modelování", "modeling"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "modelovani-pojem"
+catalog_narrower = ["strategie-geniality", "modelovani-nevedomim"]
+catalog_depth = 1
+catalog_ancestors = ["modelovani-pojem"]
+catalog_related = ["modelovatelnost-excelence", "modelovani-pojem", "uroven-schopnosti", "disneyova-strategie", "strategie-uceni", "strategie-geniality", "novy-kod", "modelovani-nevedomim", "historie-nlp", "koreny-nlp", "kargokultovni-psychologie"]
+catalog_related_declared = ["modelovani-pojem", "modelovatelnost-excelence", "novy-kod", "modelovani-nevedomim", "koreny-nlp", "kargokultovni-psychologie"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/case-studies/62-startup-founder-cult.md", "kompendium/case-studies/66-academic-school-cult.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/charisma.md", "kompendium/case-studies/62-startup-founder-cult.md", "kompendium/case-studies/66-academic-school-cult.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_prev = "strategie-geniality"
+catalog_next = "novy-kod"
+catalog_position = 10
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chartrand-bargh-1999", "dilts-1980", "druckman-swets-1988", "grinder-bandler-1976", "grinder-bostic-2001", "grinder-delozier-bandler-1977", "hassan-1988", "miller-galanter-pribram-1960", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1980", "grinder-bandler-1976", "grinder-bostic-2001", "grinder-delozier-bandler-1977"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["chartrand-bargh-1999", "druckman-swets-1988", "hassan-1988", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.toml"
 +++
 
 # Modelování excelence
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Modelling excellence |
 | **Jiné názvy** | modelování, modeling |
-| **Obecnější vzorec** | [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) |
+| **Obecnější heslo** | [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Historické tvrzení, že NLP vzniklo popisem práce Perlse, Satirové a Erickso
 
 Základní obranou je trvat na nezávislém měření výsledků. Pokud kurz nebo skupina tvrdí, že napodobením vzoru dosáhnete jeho úspěchu, je rozumné ptát se, kolik lidí to skutečně dokázalo, jak se to měřilo a co se stalo s těmi, kdo neuspěli. Druhou obranou je zachovat si právo na otázky a nesouhlas. Dobré učení od vzoru je zve; prostředí, které je označuje za překážku, se od učení vzdaluje. Třetí obranou je všímat si, co napodobujete. Převzetí postupu, který lze vysvětlit a ověřit, je učení; převzetí řeči, gest a životního stylu jiného člověka bez vztahu k dovednosti je připodobnění, které posiluje vazbu na vzor, ne schopnosti. U lidí, kteří po letech napodobování vůdčí osoby skupinu opustili, bývá zotavení spojeno s otázkou, co z jejich řeči, postojů a návyků je jejich vlastní. Hassan popisuje, jak se po odchodu ze skupiny postupně obnovuje původní identita, kterou skupinová identita překryla (Hassan 1988). Pomáhá trpělivé rozlišování mezi dovednostmi, které člověk skutečně získal a může si je ponechat, a mezi vnějšími znaky příslušnosti, které může odložit. Odborníci, kteří modelování používají ve vzdělávání, by měli vždy oddělovat učení dovednosti od napodobení osoby a výsledky ověřovat nezávisle na vzoru.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -126,36 +129,36 @@ Základní obranou je trvat na nezávislém měření výsledků. Pokud kurz neb
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – zvláštní případ tohoto vzorce
-- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – zvláštní případ tohoto vzorce
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – zvláštní případ tohoto hesla
+- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzný vzorec (Předpoklady NLP, Excellence can be modelled)
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Modelling (concept))
-- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Capability level)
-- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Disney strategy)
-- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzný vzorec (Strategie a modelování, Learning strategy)
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzný vzorec (Strategie a modelování, Strategies of genius)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzný vzorec (Strategie a modelování, Unconscious uptake modelling)
-- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, History of NLP)
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
-- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as cargo-cult psychology)
+- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzné heslo (Předpoklady NLP, Excellence can be modelled)
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzné heslo (Základní pojmy NLP, Modelling (concept))
+- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – příbuzné heslo (Logické úrovně a percepční pozice, Capability level)
+- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzné heslo (Logické úrovně a percepční pozice, Disney strategy)
+- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzné heslo (Strategie a modelování, Learning strategy)
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzné heslo (Strategie a modelování, Strategies of genius)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzné heslo (Strategie a modelování, Unconscious uptake modelling)
+- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, History of NLP)
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
+- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as cargo-cult psychology)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 66: Kult akademické školy](@/kompendium/case-studies/66-academic-school-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 66: Kult akademické školy](@/kompendium/case-studies/66-academic-school-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – předchozí vzorec rodiny
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – předchozí heslo rodiny
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

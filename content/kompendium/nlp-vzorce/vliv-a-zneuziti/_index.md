@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-vliv-a-zneuziti"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Vliv a zneužití NLP", "Influence and misuse of NLP", "NLP"]
+keywords = ["Vliv a zneužití NLP", "Influence and misuse of NLP", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "vliv-a-zneuziti"
-nlp_code = "21"
-nlp_en = "Influence and misuse of NLP"
-nlp_size = 20
-nlp_members = ["konverzacni-hypnoza", "nlp-v-prodeji", "predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji", "nlp-v-komunite-svadeni", "nlp-v-sektach", "nlp-ve-vyslechu", "nlp-v-politicke-reci", "nlp-v-reklame", "nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt", "velke-seminare", "falesne-zrcadleni-v-podvodech", "manipulativni-reframing-ve-vztazich", "hypnoticky-jazyk-online", "neuro-zargon", "obrana-proti-vlivovym-vzorcum", "rozpoznani-nlp-praktiky"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "vliv-a-zneuziti"
+catalog_code = "21"
+catalog_en = "Influence and misuse of NLP"
+catalog_size = 20
+catalog_members = ["konverzacni-hypnoza", "nlp-v-prodeji", "predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji", "nlp-v-komunite-svadeni", "nlp-v-sektach", "nlp-ve-vyslechu", "nlp-v-politicke-reci", "nlp-v-reklame", "nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt", "velke-seminare", "falesne-zrcadleni-v-podvodech", "manipulativni-reframing-ve-vztazich", "hypnoticky-jazyk-online", "neuro-zargon", "obrana-proti-vlivovym-vzorcum", "rozpoznani-nlp-praktiky"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Vliv a zneužití NLP
@@ -154,12 +156,12 @@ reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md), [S
 coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) a [obrana a
 kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-21.01` | [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) | Conversational (covert) hypnosis | vzorec | převážně vlivové | vysoké |
 | `NLP-21.02` | [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) | NLP in sales | vzorec | převážně vlivové | střední |
 | `NLP-21.03` | [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) | Assumptive close | vzorec | převážně vlivové | střední |
@@ -180,6 +182,76 @@ kalibrace](@/kompendium/06-obrana/_index.md).
 | `NLP-21.18` | [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) | Neuro-jargon | pojem | převážně vlivové | střední |
 | `NLP-21.19` | [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) | Defence against influence patterns | vzorec | výkladový pojem | nízké |
 | `NLP-21.20` | [Rozpoznání praktiky NLP v rozhovoru](@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md) | Recognising NLP practice in conversation | vzorec | výkladový pojem | nízké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Vliv a zneužití NLP"]
+  click F "@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md"
+  n1["Konverzační hypnóza"]
+  n2["NLP v prodeji"]
+  n3["Předpokládané uzavření"]
+  n4["Alternativní uzavření"]
+  n5["Budoucí přehrávání v prodeji"]
+  n6["NLP v komunitě „umění svádění“"]
+  n7["NLP v sektách a kultovních skupinách"]
+  n8["NLP ve výslechu a vyjednávání"]
+  n9["NLP v politické řeči"]
+  n10["NLP v reklamě"]
+  n11["NLP v koučinku a rozvoji"]
+  n12["Trh certifikací NLP"]
+  n13["Efekt guru na seminářích"]
+  n14["Velké motivační semináře"]
+  n15["Zrcadlení v podvodech"]
+  n16["Manipulativní reframing v blízkých vztazích"]
+  n17["Hypnotický jazyk v online obsahu"]
+  n18["Neurožargon"]
+  n19["Obrana proti vlivovým vzorcům"]
+  n20["Rozpoznání praktiky NLP v rozhovoru"]
+  F --> n1
+  F --> n2
+  n2 --> n3
+  n2 --> n4
+  n2 --> n5
+  F --> n6
+  F --> n7
+  F --> n8
+  F --> n9
+  F --> n10
+  F --> n11
+  F --> n12
+  F --> n13
+  F --> n14
+  F --> n15
+  F --> n16
+  F --> n17
+  F --> n18
+  F --> n19
+  F --> n20
+  click n1 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md"
+  click n2 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md"
+  click n3 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md"
+  click n4 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md"
+  click n5 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md"
+  click n6 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md"
+  click n7 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md"
+  click n8 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md"
+  click n9 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md"
+  click n10 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md"
+  click n11 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md"
+  click n12 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md"
+  click n13 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md"
+  click n14 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md"
+  click n15 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md"
+  click n16 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md"
+  click n17 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md"
+  click n18 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md"
+  click n19 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md"
+  click n20 "@/kompendium/nlp-vzorce/vliv-a-zneuziti/rozpoznani-nlp-praktiky.md"
+```
 
 ## Literatura
 
@@ -208,6 +280,6 @@ kalibrace](@/kompendium/06-obrana/_index.md).
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – předchozí rodina katalogu
 - [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

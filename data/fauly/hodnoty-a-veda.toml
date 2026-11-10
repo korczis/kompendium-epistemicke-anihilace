@@ -1,0 +1,347 @@
+# Rodina AF-08: Klamy hodnot, přírody a vědy (pravidlo project.content-catalogs; schéma v
+# scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění
+# nemění.
+
+[[pattern]]
+id = "AF-08.01"
+slug = "naturalisticky-klam"
+type = "informal"
+cs = "Naturalistický klam"
+en = "Naturalistic fallacy"
+aliases = ["klam přirozenosti dobra"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["je-a-ma-byt", "moralisticky-klam", "odvolani-na-prirozenost", "definicni-klam", "presvedcovaci-definice"]
+kompendium = [
+  "kompendium/02-uvod/filosoficky-ramec.md",
+  "kompendium/techniques/ea-5-3-22-moralni-osy-inverze.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Soutěž mezi lidmi je stejně přirozená jako soutěž mezi zvířaty, a proto je správné, aby slabší v naší firmě prostě odpadli."
+context = "Vedoucí obhajuje na poradě plošné propouštění bez sociálního programu."
+benign = false
+marker = "Z tvrzení o tom, co se v přírodě děje, se bez dalšího zdůvodnění vyvozuje, co je správné; hodnotící premisa chybí."
+response = "Oddělit popis od hodnocení a žádat výslovné zdůvodnění, proč by to, co je přirozené, mělo být i spravedlivé."
+
+[[pattern.trainer]]
+utterance = "Dobré je přece to, co lidem přináší slast, a tahle aplikace jim slast přináší, takže o její dobrotě není co diskutovat."
+context = "Produktový manažer odmítá etickou revizi návykového designu aplikace."
+benign = false
+marker = "Pojem dobra se definicí ztotožní s přirozenou vlastností (slastí), a otázka, zda je slastné také dobré, se tím prohlásí za uzavřenou."
+response = "Ukázat, že otázka zůstává smysluplná: dává smysl ptát se, zda je dobré i to, co přináší slast, takže definice spor nerozhodla."
+
+[[pattern.trainer]]
+utterance = "Kojení má podle dostupných studií zdravotní přínosy, ale to, že je přirozené, samo nic nedokazuje; přínosy dokládají data, ne přirozenost."
+context = "Pediatr vysvětluje rodičům doporučení a zároveň odmítá moralizování vůči matkám, které nekojí."
+benign = true
+marker = "Hodnocení se opírá o doložené důsledky a mluvčí výslovně odmítá, aby přirozenost sama sloužila jako důvod."
+response = "Platná argumentace: hodnotící závěr stojí na výslovné premise o zdraví a na datech, ne na přirozenosti."
+
+[[pattern]]
+id = "AF-08.02"
+slug = "je-a-ma-byt"
+type = "concept"
+cs = "Problém „je“ a „má být“"
+en = "Is–ought problem"
+aliases = ["Humův zákon", "Humova gilotina"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["naturalisticky-klam", "moralisticky-klam", "odvolani-na-tradici", "odvolani-na-dusledky", "pravidlo-nevyslovene-premisy"]
+kompendium = [
+  "kompendium/02-uvod/filosoficky-ramec.md",
+  "kompendium/07-teoreticke-reflexe/filosoficky-ramec.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Většina zaměstnanců v oboru pracuje přesčas bez proplacení, takže tak to u nás má fungovat i nadále."
+context = "Personalista odpovídá na stížnost na neproplacené přesčasy."
+benign = false
+marker = "Ze statistického popisu praxe se přímo vyvozuje norma; chybí premisa, proč by běžná praxe měla být závazná."
+response = "Vyslovit chybějící premisu a ptát se, zda ji mluvčí skutečně zastává; teprve pak o ní lze věcně diskutovat."
+
+[[pattern.trainer]]
+utterance = "Vždycky se to tak dělalo a lidé to tak chtějí, takže to tak správně je."
+context = "Starosta odmítá změnu pravidel obecní zakázky."
+benign = false
+marker = "Dvě popisná tvrzení (tradice a přání) se podávají jako dostatečný důvod normativního závěru bez hodnotící premisy."
+response = "Rozlišit, co se děje a co lidé chtějí, od toho, co je správné, a žádat zdůvodnění právě té třetí části."
+
+[[pattern.trainer]]
+utterance = "Lék snižuje riziko komplikací a pacientka si přeje komplikacím předejít, proto jí ho doporučuji."
+context = "Lékařka zdůvodňuje doporučení léčby v propouštěcí zprávě."
+benign = true
+marker = "Normativní závěr opírá o výslovnou hodnotící premisu (přání pacientky) spolu s fakty o účinku."
+response = "Platný praktický úsudek: hodnotící premisa je vyslovená a dá se zpochybnit, není propašovaná."
+
+[[pattern]]
+id = "AF-08.03"
+slug = "moralisticky-klam"
+type = "informal"
+cs = "Moralistický klam"
+en = "Moralistic fallacy"
+aliases = ["opačný naturalistický klam"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["naturalisticky-klam", "je-a-ma-byt", "odvolani-na-dusledky", "motivovane-uvazovani", "argument-z-neuveritelnosti"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-22-moralni-osy-inverze.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Studie o rozdílech v agresivitě mezi skupinami nemůže být pravdivá, protože by ji někdo mohl zneužít k diskriminaci."
+context = "Člen etické komise odmítá posoudit metodiku výzkumu."
+benign = false
+marker = "Z toho, že by závěr byl morálně nežádoucí nebo zneužitelný, se vyvozuje, že je nepravdivý; metodika se neposuzuje."
+response = "Oddělit otázku pravdivosti od otázky užití: posoudit metodiku a zvlášť diskutovat, jak výsledky interpretovat a chránit."
+
+[[pattern.trainer]]
+utterance = "Lidé by měli být od přírody laskaví, takže zprávy o šikaně na této škole musí být přehnané."
+context = "Ředitel školy reaguje na stížnost rodičů."
+benign = false
+marker = "Normativní představa, jací by lidé měli být, se používá jako důkaz o tom, co se skutečně stalo."
+response = "Trvat na prošetření faktů nezávisle na tom, jak by svět měl vypadat; ideál není doklad."
+
+[[pattern.trainer]]
+utterance = "Ten výsledek se mi nelíbí a bojím se jeho zneužití, ale nejdřív ověříme, zda platí, a pak budeme řešit, jak o něm psát."
+context = "Vedoucí výzkumné skupiny na interní poradě."
+benign = true
+marker = "Mluvčí přiznává morální nepohodlí, ale výslovně ho odděluje od posouzení pravdivosti."
+response = "Platný postoj: hodnotové obavy vstupují do rozhodnutí o komunikaci, ne do rozhodnutí o tom, co je pravda."
+
+[[pattern]]
+id = "AF-08.04"
+slug = "odvolani-na-starobylost"
+type = "informal"
+cs = "Odvolání na starobylost"
+en = "Appeal to antiquity"
+aliases = ["moudrost předků", "argumentum ad antiquitatem"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["odvolani-na-tradici", "odvolani-na-novost", "chronologicky-snobismus", "odvolani-na-prirozenost", "ad-populum"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tuhle bylinnou směs používali léčitelé po tisíce let, takže je jistě účinnější než léky, které existují pár desetiletí."
+context = "Prodejce doplňků stravy na přednášce pro seniory."
+benign = false
+marker = "Stáří praxe se podává jako doklad účinnosti; chybí srovnání výsledků a otázka, proč se praxe udržela."
+response = "Ptát se, jak by staletí užívání odlišila účinek od přirozeného průběhu nemoci, a žádat srovnávací data."
+
+[[pattern.trainer]]
+utterance = "Naše učení pochází ze starověkého tajného spisu, a proto nemusí obstát před dnešními metodami, které jsou jen módou."
+context = "Vedoucí duchovního kurzu odpovídá na kritický dotaz účastníka."
+benign = false
+marker = "Starobylost se používá jako štít proti přezkoumání a soudobé ověřování se předem znehodnocuje jako móda."
+response = "Oddělit původ od platnosti: starý i nový obsah se posuzuje stejnými měřítky a výjimka pro starobylé učení není zdůvodněná."
+
+[[pattern.trainer]]
+utterance = "Tohle pravidlo silničního provozu platí desítky let a za tu dobu se jeho přínos opakovaně měřil, takže ho neměníme bez nových dat."
+context = "Úředník dopravního odboru odpovídá na návrh změny."
+benign = true
+marker = "Dlouhé trvání se uvádí jen spolu s opakovaným měřením výsledků; argumentem jsou data, ne stáří."
+response = "Platné: dlouhá zkušenost je důkazem, když byla průběžně vyhodnocována a když je známo, co se měřilo."
+
+[[pattern]]
+id = "AF-08.05"
+slug = "vedecky-zargon"
+type = "tactic"
+cs = "Vědecký žargon jako argument"
+en = "Scientism by jargon"
+aliases = ["pseudovědecký žargon", "vědecké pozlátko"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["neuro-zargon", "odvolani-na-autoritu", "anonymni-autorita", "nabity-jazyk", "nlp-jako-pseudoveda", "nefalzifikovatelnost"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+  "kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Náš program synchronizuje kvantové frekvence mozku s epigenetickými vzorci, a proto je jeho účinnost vědecky nezpochybnitelná."
+context = "Reklama na víkendový seminář osobního rozvoje."
+benign = false
+marker = "Odborné termíny z nesouvisejících oborů se skládají bez vymezení a místo dat se uvádí jejich zvuk jako doklad."
+response = "Žádat, co přesně termíny znamenají, jak se měřily a kde je publikované srovnání; bez toho tvrzení nic netvrdí."
+
+[[pattern.trainer]]
+utterance = "Vaše úzkost je jen dysregulace dopaminergní osy, takže diskuse o tom, jak se s vámi doma jedná, je zbytečná."
+context = "Partner uzavírá rozhovor o konfliktech odkazem na článek o neurovědách."
+benign = false
+marker = "Neurovědní slovník se používá k ukončení rozhovoru o zkušenosti a k přesunu odpovědnosti na biologii druhého."
+response = "Odmítnout, aby biologický popis nahradil posouzení vztahu; obě roviny se mohou týkat téhož a žádná druhou neruší."
+
+[[pattern.trainer]]
+utterance = "Odborně se tomu říká regrese k průměru; jednoduše řečeno, po výjimečně špatném měření bývá další bližší obvyklé hodnotě."
+context = "Statistik vysvětluje novinářům kolísání výsledků."
+benign = true
+marker = "Odborný termín se zavádí a hned vysvětluje běžným jazykem, takže ho lze ověřit a zpochybnit."
+response = "Platné užití terminologie: pojem je vymezený, přeložený a slouží porozumění, ne zastrašení."
+
+[[pattern]]
+id = "AF-08.06"
+slug = "jeden-studie"
+type = "informal"
+cs = "Argument jedinou studií"
+en = "Single-study fallacy"
+aliases = ["jedna studie dokazuje", "klam jediné studie"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["zakon-malych-cisel", "ukvapene-zobecneni", "vyber-tresnicek", "klam-rovnovahy-dukazu", "odvolani-na-anekdotu", "hledani-jinde"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vyšla studie, že káva prodlužuje život, takže všechny dosavadní pochybnosti o kávě jsou definitivně vyvráceny."
+context = "Titulek a perex populárního webu."
+benign = false
+marker = "Jediný výsledek se podává jako konečné rozhodnutí sporu a starší výzkum se mlčky ruší."
+response = "Ptát se, jak výsledek zapadá do souhrnu dosavadních studií, jaký byl design a zda byl zopakován."
+
+[[pattern.trainer]]
+utterance = "Jedna studie tvrdí, že očkování škodí, a dokud ji nikdo nevyvrátí, nemůžete tvrdit, že je bezpečné."
+context = "Diskusní příspěvek pod článkem o očkovací kampani."
+benign = false
+marker = "Jediná studie se staví proti souboru důkazů a důkazní břemeno se přesouvá na celý obor."
+response = "Posoudit váhu jedné studie vůči souhrnům a přehledům a zjistit, zda nebyla stažena nebo vyvrácena opakováním."
+
+[[pattern.trainer]]
+utterance = "Nová studie naznačuje přínos, ale jde o první výsledek na malém vzorku; doporučení změníme, až ho potvrdí nezávislé opakování."
+context = "Odborná společnost komentuje novou publikaci."
+benign = true
+marker = "Výsledek se zařazuje do kontextu a závěr je přiměřeně opatrný, s výslovnou podmínkou replikace."
+response = "Platné: jedna studie se bere jako důvod k dalšímu ověření, ne jako rozhodnutí."
+
+[[pattern]]
+id = "AF-08.07"
+slug = "odvolani-na-anekdotu"
+type = "informal"
+cs = "Odvolání na anekdotu"
+en = "Anecdotal fallacy"
+aliases = ["argument osobní zkušeností", "důkaz svědectvím"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["zavadejici-zivost", "ukvapene-zobecneni", "jeden-studie", "zkresleni-preziti", "post-hoc", "klam-placebo"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Můj děda kouřil celý život a dožil se devadesáti let, takže ty řeči o škodlivosti kouření jsou přehnané."
+context = "Rozhovor v rodině o odvykání kouření."
+benign = false
+marker = "Jeden živý případ se staví proti statistice velkých souborů, jako by výjimka vyvracela zvýšené riziko."
+response = "Rozlišit riziko od jistoty: zvýšené riziko nikdy neznamená, že onemocní každý, a jeden případ o četnosti nic neříká."
+
+[[pattern.trainer]]
+utterance = "Znám tři lidi, kterým ta terapie pomohla, takže kdo o její účinnosti pochybuje, nezná realitu."
+context = "Přednáška alternativního terapeuta."
+benign = false
+marker = "Několik vybraných příběhů se podává jako důkaz účinnosti a pochybnost se odbývá odkazem na osobní zkušenost."
+response = "Ptát se na ty, kterým nepomohla, na srovnání s neléčenými a na to, jak byly příběhy vybrány."
+
+[[pattern.trainer]]
+utterance = "U tohoto pacienta se po léku objevila neobvyklá reakce; hlásím ji jako podezření, aby se dalo zjistit, zda se opakuje i jinde."
+context = "Lékař vyplňuje hlášení nežádoucího účinku."
+benign = true
+marker = "Jednotlivý případ se používá jako signál k ověření, ne jako důkaz obecného závěru."
+response = "Platné: kazuistika a hlášení jednotlivých případů jsou legitimní zdroj hypotéz, které se pak ověřují systematicky."
+
+[[pattern]]
+id = "AF-08.08"
+slug = "klam-rovnovahy-dukazu"
+type = "informal"
+cs = "Klam rovnováhy důkazů"
+en = "Balance-of-evidence fallacy"
+aliases = ["sčítání studií", "důkazy jsou na obou stranách"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["falesna-vyvazenost", "falesna-ekvivalence", "vyber-tresnicek", "falesny-kompromis", "jeden-studie", "zamlceni-dukazu"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Existují studie pro i proti, takže věda v téhle otázce nemá jasno a je to padesát na padesát."
+context = "Politik odpovídá na dotaz k regulaci znečištění."
+benign = false
+marker = "Z pouhé existence studií na obou stranách se vyvozuje rovnováha; počet, kvalita a váha studií se nezvažují."
+response = "Ptát se, kolik studií je na které straně, jak jsou kvalitní a co říkají systematické přehledy, ne jen zda nějaké existují."
+
+[[pattern.trainer]]
+utterance = "Máme deset studií, které účinek našly, a jen tři, které ne, takže účinek je prokázaný."
+context = "Výrobce doplňku stravy v tiskové zprávě."
+benign = false
+marker = "Rozhodnutí se dělá počítáním hlasů studií bez ohledu na jejich velikost, kvalitu a publikační zkreslení."
+response = "Žádat vážené shrnutí: velké a kvalitní studie mají větší váhu a neúspěšné studie často zůstávají nepublikované."
+
+[[pattern.trainer]]
+utterance = "Systematický přehled zvážil velikost a kvalitu všech dostupných studií a převážná váha důkazů ukazuje na malý, ale skutečný účinek."
+context = "Shrnutí doporučení odborné společnosti."
+benign = true
+marker = "Závěr stojí na váženém zhodnocení celku, ne na pouhé existenci nebo počtu studií."
+response = "Platné: váha důkazů se určuje kvalitou a velikostí studií a zohledňuje i ty, které účinek nenašly."
+
+[[pattern]]
+id = "AF-08.09"
+slug = "klam-placebo"
+type = "informal"
+cs = "Klam placeba"
+en = "Placebo fallacy"
+aliases = ["pomáhá mi to, tedy to funguje", "i placebo pomáhá"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["post-hoc", "klam-regrese", "odvolani-na-anekdotu", "nefalzifikovatelnost", "presvedceni-a-zdravi", "jeden-studie"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Po třech sezeních se mi bolest zad zmírnila, takže metoda prokazatelně funguje a doporučím ji všem."
+context = "Recenze terapeutické služby na internetu."
+benign = false
+marker = "Zlepšení po zásahu se připisuje specifickému účinku metody bez srovnání s přirozeným průběhem, očekáváním a regresí."
+response = "Ptát se, zda by se bolest zmírnila i bez metody nebo s napodobeninou zásahu; to rozhodne jen srovnání se skupinou bez metody."
+
+[[pattern.trainer]]
+utterance = "I kdyby to byl jen placebo efekt, pacientům to pomáhá, takže je správné naši léčbu dál prodávat za plnou cenu jako účinnou."
+context = "Poskytovatel alternativní léčby reaguje na negativní výsledky kontrolované studie."
+benign = false
+marker = "Po neúspěchu specifického tvrzení se tvrzení mění na obecné ‚pomáhá to‘, ale propagace a cena zůstávají vázány na původní tvrzení."
+response = "Upozornit na posun tvrzení a na otázky informovaného souhlasu; očekávací účinky nejsou vlastností konkrétní metody."
+
+[[pattern.trainer]]
+utterance = "Ve skupině s lékem i ve skupině s placebem se stav zlepšil; lék tedy účinkuje jen tolik, o kolik je zlepšení větší než u placeba."
+context = "Výklad výsledků klinické studie studentům medicíny."
+benign = true
+marker = "Účinek se odhaduje rozdílem proti kontrolní skupině, ne zlepšením po léčbě samotným."
+response = "Platné: srovnání s placebem odděluje specifický účinek od očekávání, přirozeného průběhu a regrese k průměru."

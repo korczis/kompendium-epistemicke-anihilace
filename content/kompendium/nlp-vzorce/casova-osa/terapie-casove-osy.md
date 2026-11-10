@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Terapie časové osy", "Time Line Therapy", "TLT", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Terapie časové osy", "Time Line Therapy", "TLT", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.03"
-nlp_slug = "terapie-casove-osy"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Time Line Therapy"
-nlp_aliases = ["Time Line Therapy", "TLT"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "casova-osa-pojem"
-nlp_narrower = ["uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "vlozeni-budouciho-cile", "korenova-pricina"]
-nlp_depth = 1
-nlp_ancestors = ["casova-osa-pojem"]
-nlp_related = ["casova-osa-pojem", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "korenova-pricina", "stav-dukazu-nlp"]
-nlp_related_declared = ["korenova-pricina", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "stav-dukazu-nlp"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md", "kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md", "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
-nlp_prev = "v-case-a-mimo-cas"
-nlp_next = "uvolneni-negativnich-emoci"
-nlp_position = 3
-nlp_family_size = 12
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.03"
+catalog_slug = "terapie-casove-osy"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Time Line Therapy"
+catalog_aliases = ["Time Line Therapy", "TLT"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "casova-osa-pojem"
+catalog_narrower = ["uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "vlozeni-budouciho-cile", "korenova-pricina"]
+catalog_depth = 1
+catalog_ancestors = ["casova-osa-pojem"]
+catalog_related = ["casova-osa-pojem", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "korenova-pricina", "stav-dukazu-nlp"]
+catalog_related_declared = ["korenova-pricina", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "stav-dukazu-nlp"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md", "kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md", "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
+catalog_prev = "v-case-a-mimo-cas"
+catalog_next = "uvolneni-negativnich-emoci"
+catalog_position = 3
+catalog_family_size = 12
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Terapie časové osy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Time Line Therapy |
 | **Jiné názvy** | Time Line Therapy, TLT |
-| **Obecnější vzorec** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
+| **Obecnější heslo** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Pro účinnost terapie časové osy neexistují kvalitní empirické doklady. Ko
 
 Pro člověka, který o terapii časové osy uvažuje, je první obranou zeptat se, na jakých studiích stojí slibovaný účinek a jakou kvalifikaci má průvodce. Výcvik a certifikát v NLP nejsou klinickou kvalifikací. U úzkostí, depresí a následků traumatu je namístě vyhledat odborníka, který pracuje s metodami ověřenými v kontrolovaných studiích; přehled takových přístupů nabízí kapitola o [terapeutických přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Druhou obranou je nepřijímat práci s událostmi, které si člověk nepamatuje, a nepovažovat obsah vybavený v sugestivní situaci za doklad o minulosti. Třetí obranou je odmítnout výklad, podle něhož návrat potíží znamená vlastní selhání. Lidé, kteří metodou prošli a vytvořili si nové přesvědčení o své minulosti, potřebují citlivou odbornou podporu. Zotavení obvykle zahrnuje rozlišení toho, co si pamatují, od toho, co vzniklo v sugestivní situaci, obnovu důvěry ve vlastní úsudek a postupné obnovení vztahů, které nový výklad narušil (Herman 1992). Kompendium se k riziku nepravých vzpomínek podrobně vrací na stránce o [traumatu a falešných vzpomínkách](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -125,33 +128,33 @@ Pro člověka, který o terapii časové osy uvažuje, je první obranou zeptat 
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – zvláštní případ tohoto vzorce
-- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – zvláštní případ tohoto vzorce
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – zvláštní případ tohoto vzorce
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – zvláštní případ tohoto vzorce
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – zvláštní případ tohoto hesla
+- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – zvláštní případ tohoto hesla
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – zvláštní případ tohoto hesla
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – příbuzný vzorec (Časová osa, Releasing negative emotions on the timeline)
-- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzný vzorec (Časová osa, Limiting decisions)
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzný vzorec (Časová osa, Root cause)
-- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, State of the evidence on NLP)
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzné heslo (Základní pojmy NLP, Timeline (concept))
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – příbuzné heslo (Časová osa, Releasing negative emotions on the timeline)
+- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzné heslo (Časová osa, Limiting decisions)
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
+- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, State of the evidence on NLP)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.2 Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.2 Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – předchozí vzorec rodiny
-- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – předchozí heslo rodiny
+- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

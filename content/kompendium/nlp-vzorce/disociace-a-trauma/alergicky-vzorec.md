@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Alergický vzorec", "Allergy pattern", "rychlá léčba alergie", "fast allergy process", "Disociace, fobie a trauma", "NLP", "neurolingvistické programování"]
+keywords = ["Alergický vzorec", "Allergy pattern", "rychlá léčba alergie", "fast allergy process", "Disociace, fobie a trauma", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-11.05"
-nlp_slug = "alergicky-vzorec"
-nlp_family = "disociace-a-trauma"
-nlp_family_code = "11"
-nlp_family_title = "Disociace, fobie a trauma"
-nlp_family_en = "Dissociation, phobia and trauma patterns"
-nlp_part = "disociace-a-trauma"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Allergy pattern"
-nlp_aliases = ["rychlá léčba alergie", "fast allergy process"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mysl-a-telo-jeden-system", "disociace", "rychla-lecba-fobie", "presvedceni-a-zdravi", "systematicky-prehled-zdravi"]
-nlp_related_declared = ["presvedceni-a-zdravi", "rychla-lecba-fobie", "disociace", "mysl-a-telo-jeden-system", "systematicky-prehled-zdravi"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md"]
-nlp_links_prose = ["glossary/disociace.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "zmena-osobni-historie"
-nlp_next = "vzorec-zalu"
-nlp_position = 5
-nlp_family_size = 11
-nlp_sources = ["beck-1976", "dilts-hallbom-smith-1990", "herman-1992", "norcross-2006", "pavlov-1927", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["dilts-hallbom-smith-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "norcross-2006", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-11.05"
+catalog_slug = "alergicky-vzorec"
+catalog_family = "disociace-a-trauma"
+catalog_family_code = "11"
+catalog_family_title = "Disociace, fobie a trauma"
+catalog_family_en = "Dissociation, phobia and trauma patterns"
+catalog_part = "disociace-a-trauma"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Allergy pattern"
+catalog_aliases = ["rychlá léčba alergie", "fast allergy process"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["mysl-a-telo-jeden-system", "disociace", "rychla-lecba-fobie", "presvedceni-a-zdravi", "systematicky-prehled-zdravi"]
+catalog_related_declared = ["presvedceni-a-zdravi", "rychla-lecba-fobie", "disociace", "mysl-a-telo-jeden-system", "systematicky-prehled-zdravi"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "zmena-osobni-historie"
+catalog_next = "vzorec-zalu"
+catalog_position = 5
+catalog_family_size = 11
+catalog_sources = ["beck-1976", "dilts-hallbom-smith-1990", "herman-1992", "norcross-2006", "pavlov-1927", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["dilts-hallbom-smith-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "norcross-2006", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/disociace-a-trauma.toml"
 +++
 
 # Alergický vzorec
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-11.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Allergy pattern |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -198,7 +201,7 @@ skutečně leží (Herman 1992).
 Odborník by měl klientovi vysvětlit, že kolísání alergických příznaků je běžné a neznamená, že
 „nevěřil dost“, a měl by podporovat jeho spolupráci s lékařem, nikoli ji nahrazovat.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,26 +219,26 @@ Odborník by měl klientovi vysvětlit, že kolísání alergických příznaků
 
 **Rodina a hierarchie**
 
-- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzný vzorec (Předpoklady NLP, Mind and body are one system)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
-- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzný vzorec (Přesvědčení, Beliefs and health in NLP)
-- [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – příbuzný vzorec (Kritické hodnocení NLP, Systematic review of health outcomes)
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzné heslo (Předpoklady NLP, Mind and body are one system)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
+- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzné heslo (Přesvědčení, Beliefs and health in NLP)
+- [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – příbuzné heslo (Kritické hodnocení NLP, Systematic review of health outcomes)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – předchozí vzorec rodiny
-- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – předchozí heslo rodiny
+- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

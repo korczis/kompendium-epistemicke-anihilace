@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Strategie", "Strategy (concept)", "vnitřní strategie", "sekvence reprezentací", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Strategie", "Strategy (concept)", "vnitřní strategie", "sekvence reprezentací", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.18"
-nlp_slug = "strategie-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Strategy (concept)"
-nlp_aliases = ["vnitřní strategie", "sekvence reprezentací"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["elicitace-strategie", "pravopisna-strategie", "rozhodovaci-strategie", "motivacni-strategie", "presvedcovaci-strategie", "strategie-uceni", "strategie-reality", "strategie-lasky", "instalace-strategie", "utilizace-strategie", "generator-noveho-chovani", "smyckove-strategie"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["zkusenost-ma-strukturu", "reprezentacni-systemy", "vedouci-system", "tote-model", "modelovani-pojem", "uroven-schopnosti", "elicitace-strategie", "strategie-geniality", "instalace-strategie", "utilizace-strategie", "moznosti-a-postupy", "dukazni-procedura"]
-nlp_related_declared = ["tote-model", "elicitace-strategie", "modelovani-pojem", "strategie-geniality", "instalace-strategie", "utilizace-strategie"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md", "kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md", "kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_prev = "zdrojovy-stav"
-nlp_next = "tote-model"
-nlp_position = 18
-nlp_family_size = 42
-nlp_sources = ["cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "kahneman-2011", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1994", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.18"
+catalog_slug = "strategie-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Strategy (concept)"
+catalog_aliases = ["vnitřní strategie", "sekvence reprezentací"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["elicitace-strategie", "pravopisna-strategie", "rozhodovaci-strategie", "motivacni-strategie", "presvedcovaci-strategie", "strategie-uceni", "strategie-reality", "strategie-lasky", "instalace-strategie", "utilizace-strategie", "generator-noveho-chovani", "smyckove-strategie"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["zkusenost-ma-strukturu", "reprezentacni-systemy", "vedouci-system", "tote-model", "modelovani-pojem", "uroven-schopnosti", "elicitace-strategie", "strategie-geniality", "instalace-strategie", "utilizace-strategie", "moznosti-a-postupy", "dukazni-procedura"]
+catalog_related_declared = ["tote-model", "elicitace-strategie", "modelovani-pojem", "strategie-geniality", "instalace-strategie", "utilizace-strategie"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md", "kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md", "kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+catalog_prev = "zdrojovy-stav"
+catalog_next = "tote-model"
+catalog_position = 18
+catalog_family_size = 42
+catalog_sources = ["cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "kahneman-2011", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1994", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Strategie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.18` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Strategy (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -102,7 +105,7 @@ Obecný předpoklad, že chování je řízeno plány a že pořadí kroků zpra
 
 Základní obranou je vědět, že nikdo nemá přístup k vašemu rozhodování lépe než vy sami, a že ani vy k němu nemáte přístup úplný. Kdo tvrdí, že zná vaši strategii, nabízí hypotézu, kterou lze odmítnout. Druhou obranou je oddělit formu nabídky od jejího obsahu. Pokud je podání nápadně přizpůsobené, s obrázky, příběhy o tom, co říkají ostatní, a výzvou k pocitu, je užitečné vrátit se k otázkám, které forma obchází: kolik to stojí, jaká jsou rizika, jaké jsou alternativy a co se stane, když odmítnu. Třetí obranou je zpomalení: rozhodovací postup, který mluvčí „dokončuje“ za vás, lze přerušit odkladem a konzultací s někým nezávislým. Výzkum zpracování přesvědčivých sdělení ukazuje, že pečlivé posouzení argumentů vyžaduje čas a motivaci a že zkratky převládají tam, kde chybí (Petty a Cacioppo 1986). U lidí, kteří byli dlouho vystaveni vztahu, kde jejich rozhodování někdo „obsluhoval“, bývá zotavení spojeno s obnovou důvěry ve vlastní úsudek a s praktickým nácvikem rozhodování bez tlaku, nejlépe ve vztazích, kde je odmítnutí přijatelné.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,44 +125,44 @@ Základní obranou je vědět, že nikdo nemá přístup k vašemu rozhodování
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – zvláštní případ tohoto vzorce
-- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – zvláštní případ tohoto vzorce
-- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – zvláštní případ tohoto vzorce
-- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – zvláštní případ tohoto vzorce
-- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – zvláštní případ tohoto vzorce
-- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – zvláštní případ tohoto vzorce
-- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – zvláštní případ tohoto vzorce
-- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – zvláštní případ tohoto vzorce
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – zvláštní případ tohoto vzorce
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – zvláštní případ tohoto vzorce
-- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – zvláštní případ tohoto vzorce
-- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – zvláštní případ tohoto hesla
+- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – zvláštní případ tohoto hesla
+- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – zvláštní případ tohoto hesla
+- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – zvláštní případ tohoto hesla
+- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – zvláštní případ tohoto hesla
+- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – zvláštní případ tohoto hesla
+- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – zvláštní případ tohoto hesla
+- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – zvláštní případ tohoto hesla
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – zvláštní případ tohoto hesla
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – zvláštní případ tohoto hesla
+- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – zvláštní případ tohoto hesla
+- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzný vzorec (Předpoklady NLP, Experience has a structure)
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzný vzorec (Základní pojmy NLP, Representational systems)
-- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzný vzorec (Základní pojmy NLP, Lead system)
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Modelling (concept))
-- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Capability level)
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy elicitation)
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzný vzorec (Strategie a modelování, Strategies of genius)
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy installation)
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy utilisation)
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzný vzorec (Metaprogramy, Options and procedures)
-- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzný vzorec (Cíle a výsledky, Evidence procedure)
+- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzné heslo (Předpoklady NLP, Experience has a structure)
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzné heslo (Základní pojmy NLP, Representational systems)
+- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzné heslo (Základní pojmy NLP, Lead system)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzné heslo (Základní pojmy NLP, Modelling (concept))
+- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – příbuzné heslo (Logické úrovně a percepční pozice, Capability level)
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy elicitation)
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzné heslo (Strategie a modelování, Strategies of genius)
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy installation)
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy utilisation)
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzné heslo (Metaprogramy, Options and procedures)
+- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzné heslo (Cíle a výsledky, Evidence procedure)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – předchozí vzorec rodiny
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – předchozí heslo rodiny
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

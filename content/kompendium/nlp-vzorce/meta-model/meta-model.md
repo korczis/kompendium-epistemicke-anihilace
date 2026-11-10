@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Meta-model", "Meta Model", "metamodel", "meta-model jazyka", "NLP", "neurolingvistické programování"]
+keywords = ["Meta-model", "Meta Model", "metamodel", "meta-model jazyka", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.01"
-nlp_slug = "meta-model"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Meta Model"
-nlp_aliases = ["metamodel", "meta-model jazyka"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["nominalizace", "nespecifikovane-sloveso", "nespecifikovany-referencni-index", "prosta-delece", "srovnavaci-delece", "ztraceny-performativ", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "modalni-operator-moznosti", "cteni-myslenek", "pricina-a-nasledek", "komplexni-ekvivalence", "presupozice-v-meta-modelu", "hierarchie-otazek-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "poruseni-selekcnich-omezeni-meta"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mapa-neni-uzemi", "auditivne-digitalni-system", "chunking", "vypousteni", "zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "milton-model", "umyslna-vagnost", "som-rozlozeni", "vyzva-k-relevanci", "deframing", "otazky-vysledku", "hierarchie-idei", "chunking-dolu", "obrana-proti-vlivovym-vzorcum", "historie-nlp", "koreny-nlp"]
-nlp_related_declared = ["hluboka-a-povrchova-struktura", "vypousteni", "zkreslovani", "zobecnovani", "milton-model", "mapa-neni-uzemi"]
-nlp_kompendium = ["kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/nlp-vzorce/meta-model/prosta-delece.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_prev = ""
-nlp_next = "nominalizace"
-nlp_position = 1
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "druckman-swets-1988", "grice-1975", "grinder-bandler-1976", "heap-1988", "herman-1992", "korzybski-1933", "levinson-1983", "miller-rollnick-2013", "oconnor-seymour-1990", "perls-1969", "petty-cacioppo-1986", "rogers-1951", "satir-1972", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1976", "oconnor-seymour-1990"]
-nlp_sources_roots = ["chomsky-1965", "grice-1975", "korzybski-1933", "levinson-1983", "perls-1969", "satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "heap-1988", "herman-1992", "miller-rollnick-2013", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 3
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.01"
+catalog_slug = "meta-model"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Meta Model"
+catalog_aliases = ["metamodel", "meta-model jazyka"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["nominalizace", "nespecifikovane-sloveso", "nespecifikovany-referencni-index", "prosta-delece", "srovnavaci-delece", "ztraceny-performativ", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "modalni-operator-moznosti", "cteni-myslenek", "pricina-a-nasledek", "komplexni-ekvivalence", "presupozice-v-meta-modelu", "hierarchie-otazek-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "poruseni-selekcnich-omezeni-meta"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["mapa-neni-uzemi", "auditivne-digitalni-system", "chunking", "vypousteni", "zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "milton-model", "umyslna-vagnost", "som-rozlozeni", "vyzva-k-relevanci", "deframing", "otazky-vysledku", "hierarchie-idei", "chunking-dolu", "obrana-proti-vlivovym-vzorcum", "historie-nlp", "koreny-nlp"]
+catalog_related_declared = ["hluboka-a-povrchova-struktura", "vypousteni", "zkreslovani", "zobecnovani", "milton-model", "mapa-neni-uzemi"]
+catalog_kompendium = ["kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/nlp-vzorce/meta-model/prosta-delece.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_prev = ""
+catalog_next = "nominalizace"
+catalog_position = 1
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "druckman-swets-1988", "grice-1975", "grinder-bandler-1976", "heap-1988", "herman-1992", "korzybski-1933", "levinson-1983", "miller-rollnick-2013", "oconnor-seymour-1990", "perls-1969", "petty-cacioppo-1986", "rogers-1951", "satir-1972", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1976", "oconnor-seymour-1990"]
+catalog_sources_roots = ["chomsky-1965", "grice-1975", "korzybski-1933", "levinson-1983", "perls-1969", "satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "heap-1988", "herman-1992", "miller-rollnick-2013", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 3
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.toml"
 +++
 
 # Meta-model
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Meta Model |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/meta-model.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -210,7 +213,7 @@ otázky patří do rozhovoru jen tehdy, když slouží klientovi, a jejich množ
 takové, aby klient zůstal autorem svého příběhu. Širší rámec obrany popisuje kapitola
 [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -242,55 +245,55 @@ takové, aby klient zůstal autorem svého příběhu. Širší rámec obrany po
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – zvláštní případ tohoto vzorce
-- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – zvláštní případ tohoto vzorce
-- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – zvláštní případ tohoto vzorce
-- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – zvláštní případ tohoto vzorce
-- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – zvláštní případ tohoto vzorce
-- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – zvláštní případ tohoto vzorce
-- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – zvláštní případ tohoto vzorce
-- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – zvláštní případ tohoto vzorce
-- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – zvláštní případ tohoto vzorce
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – zvláštní případ tohoto vzorce
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – zvláštní případ tohoto vzorce
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – zvláštní případ tohoto vzorce
-- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – zvláštní případ tohoto vzorce
-- [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – zvláštní případ tohoto vzorce
-- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – zvláštní případ tohoto vzorce
-- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – zvláštní případ tohoto vzorce
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – zvláštní případ tohoto hesla
+- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – zvláštní případ tohoto hesla
+- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – zvláštní případ tohoto hesla
+- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – zvláštní případ tohoto hesla
+- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – zvláštní případ tohoto hesla
+- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – zvláštní případ tohoto hesla
+- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – zvláštní případ tohoto hesla
+- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – zvláštní případ tohoto hesla
+- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – zvláštní případ tohoto hesla
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – zvláštní případ tohoto hesla
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – zvláštní případ tohoto hesla
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – zvláštní případ tohoto hesla
+- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – zvláštní případ tohoto hesla
+- [Pořadí otázek meta-modelu](@/kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu.md) – zvláštní případ tohoto hesla
+- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – zvláštní případ tohoto hesla
+- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory digital system)
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzný vzorec (Základní pojmy NLP, Chunking)
-- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzný vzorec (Základní pojmy NLP, Deletion)
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzný vzorec (Základní pojmy NLP, Distortion)
-- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – příbuzný vzorec (Základní pojmy NLP, Generalisation)
-- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzný vzorec (Základní pojmy NLP, Deep and surface structure)
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – příbuzný vzorec (Sleight of Mouth, Chunk down)
-- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – příbuzný vzorec (Reframing a rámce, Relevancy challenge)
-- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzný vzorec (Reframing a rámce, De-framing)
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzný vzorec (Cíle a výsledky, Outcome questions)
-- [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – příbuzný vzorec (Jazykové vzorce, Hierarchy of ideas)
-- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzný vzorec (Jazykové vzorce, Chunking down)
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzný vzorec (Vliv a zneužití NLP, Defence against influence patterns)
-- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, History of NLP)
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory digital system)
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzné heslo (Základní pojmy NLP, Chunking)
+- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzné heslo (Základní pojmy NLP, Deletion)
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzné heslo (Základní pojmy NLP, Distortion)
+- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – příbuzné heslo (Základní pojmy NLP, Generalisation)
+- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzné heslo (Základní pojmy NLP, Deep and surface structure)
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – příbuzné heslo (Sleight of Mouth, Chunk down)
+- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – příbuzné heslo (Reframing a rámce, Relevancy challenge)
+- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzné heslo (Reframing a rámce, De-framing)
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – příbuzné heslo (Cíle a výsledky, Outcome questions)
+- [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – příbuzné heslo (Jazykové vzorce, Hierarchy of ideas)
+- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzné heslo (Jazykové vzorce, Chunking down)
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzné heslo (Vliv a zneužití NLP, Defence against influence patterns)
+- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, History of NLP)
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
 
 **V kompendiu**
 
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

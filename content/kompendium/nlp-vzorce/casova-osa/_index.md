@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-casova-osa"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Časová osa", "Timeline patterns", "NLP"]
+keywords = ["Časová osa", "Timeline patterns", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "casova-osa"
-nlp_code = "12"
-nlp_en = "Timeline patterns"
-nlp_size = 12
-nlp_members = ["elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "vlozeni-budouciho-cile", "korenova-pricina", "zmena-tvaru-casove-osy", "casove-kodovani", "budouci-prehravani", "casova-perspektiva", "pruchod-casovou-osou"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1990", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "casova-osa"
+catalog_code = "12"
+catalog_en = "Timeline patterns"
+catalog_size = 12
+catalog_members = ["elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "vlozeni-budouciho-cile", "korenova-pricina", "zmena-tvaru-casove-osy", "casove-kodovani", "budouci-prehravani", "casova-perspektiva", "pruchod-casovou-osou"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1990", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 +++
 
 # Časová osa
@@ -54,12 +56,12 @@ Prostorové myšlení o čase je jako jev dobře doloženo v kognitivní lingvis
 
 Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vybaví v uvolněném stavu pod vedením průvodce, je představa, dokud ho nepotvrdí nezávislé zdroje, a nemá být podkladem pro závěry o minulých událostech ani o jiných lidech. Nevybavení není překážka, kterou je třeba překonat, ale informace. Druhou obranou je oddělit představu budoucnosti od rozhodnutí: po živé vizi budoucího prožitku nerozhodovat hned, vyžádat si podmínky písemně a srovnat je s jinými možnostmi. Třetí obranou je posoudit rámec. Práce s bolestnými obdobími života patří do vztahu s odborníkem, který pracuje s ověřenými metodami a je k dispozici i po skončení sezení; víkendový seminář ani certifikát z NLP takový rámec nenahradí. Herman zdůrazňuje, že u lidí s traumatickou zkušeností musí práci se vzpomínkami předcházet nastolení bezpečí a že kontrola nad tempem a obsahem má zůstat v rukou člověka, o jehož život jde (Herman 1992). Lidé, kteří prošli sugestivním hledáním příčin a vytvořili si nové přesvědčení o své minulosti, potřebují citlivou podporu, v níž mohou rozlišit, co si pamatují, od toho, co vzniklo v sugestivní situaci, a postupně obnovit vztahy, které nový výklad narušil. Kompendium se k tomuto tématu vrací na stránce o [traumatu a falešných vzpomínkách](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) a v kapitole o [terapeutických přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-12.01` | [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) | Eliciting the timeline | vzorec | terapeutické i vlivové | nízké |
 | `NLP-12.02` | [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) | In time and through time | pojem | terapeutické i vlivové | nízké |
 | `NLP-12.03` | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) | Time Line Therapy | vzorec | převážně terapeutické | vysoké |
@@ -72,6 +74,52 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 | `NLP-12.10` | [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) | Future pacing | vzorec | terapeutické i vlivové | střední |
 | `NLP-12.11` | [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) | Time perspective | pojem | výkladový pojem | nízké |
 | `NLP-12.12` | [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) | Timeline walk | vzorec | převážně terapeutické | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Časová osa"]
+  click F "@/kompendium/nlp-vzorce/casova-osa/_index.md"
+  n1["Elicitace časové osy"]
+  n2["„V čase“ a „mimo čas“"]
+  n3["Terapie časové osy"]
+  n4["Uvolnění negativních emocí na časové ose"]
+  n5["Limitující rozhodnutí"]
+  n6["Vložení cíle do budoucnosti"]
+  n7["Hledání kořenové příčiny"]
+  n8["Změna tvaru časové osy"]
+  n9["Časové kódování zkušenosti"]
+  n10["Budoucí přehrávání"]
+  n11["Časová perspektiva"]
+  n12["Procházení časové osy"]
+  F --> n1
+  F --> n2
+  F --> n3
+  n3 --> n4
+  n3 --> n5
+  n3 --> n6
+  n3 --> n7
+  F --> n8
+  F --> n9
+  F --> n10
+  F --> n11
+  F --> n12
+  click n1 "@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md"
+  click n2 "@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md"
+  click n3 "@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md"
+  click n4 "@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md"
+  click n5 "@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md"
+  click n6 "@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md"
+  click n7 "@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md"
+  click n8 "@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md"
+  click n9 "@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md"
+  click n10 "@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md"
+  click n11 "@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md"
+  click n12 "@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md"
+```
 
 ## Literatura
 
@@ -98,6 +146,6 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – předchozí rodina katalogu
 - [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -1,5 +1,5 @@
 # Rodina NLP-05: Ericksonovská hypnóza, část A (NLP-05.01 až NLP-05.10).
-# Schéma a pravidla: scripts/nlp-catalog.py (pravidlo project.nlp-catalog).
+# Schéma a pravidla: scripts/catalogs.py (pravidlo project.content-catalogs).
 # Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
 
 [[pattern]]

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Komplexní ekvivalence", "Complex equivalence", "X znamená Y", "rovnítko významu", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Komplexní ekvivalence", "Complex equivalence", "X znamená Y", "rovnítko významu", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.13"
-nlp_slug = "komplexni-ekvivalence"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Complex equivalence"
-nlp_aliases = ["X znamená Y", "rovnítko významu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["zkreslovani", "cteni-myslenek", "pricina-a-nasledek", "komplexni-ekvivalence-milton", "komentarova-adverbia", "sleight-of-mouth", "struktura-presvedceni-som", "som-redefinice", "obsahovy-reframing", "zamena-logickych-urovni", "presvedceni-o-vyznamu"]
-nlp_related_declared = ["komplexni-ekvivalence-milton", "pricina-a-nasledek", "presvedceni-o-vyznamu", "obsahovy-reframing", "som-redefinice"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/detection-signatures/2-linguistic-circular-definitions.md"]
-nlp_links_prose = ["kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = "pricina-a-nasledek"
-nlp_next = "presupozice-v-meta-modelu"
-nlp_position = 13
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1999", "hassan-1988", "herman-1992", "korzybski-1933", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1974", "vrij-2008", "watzlawick-1967", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1999", "oconnor-seymour-1990"]
-nlp_sources_roots = ["korzybski-1933", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1974", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.13"
+catalog_slug = "komplexni-ekvivalence"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Complex equivalence"
+catalog_aliases = ["X znamená Y", "rovnítko významu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["nerozlozeny-stredni-termin", "ctyri-terminy", "presvedcovaci-definice", "zkreslovani", "cteni-myslenek", "pricina-a-nasledek", "komplexni-ekvivalence-milton", "komentarova-adverbia", "sleight-of-mouth", "struktura-presvedceni-som", "som-redefinice", "obsahovy-reframing", "zamena-logickych-urovni", "presvedceni-o-vyznamu"]
+catalog_related_declared = ["komplexni-ekvivalence-milton", "pricina-a-nasledek", "presvedceni-o-vyznamu", "obsahovy-reframing", "som-redefinice"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/detection-signatures/2-linguistic-circular-definitions.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = "pricina-a-nasledek"
+catalog_next = "presupozice-v-meta-modelu"
+catalog_position = 13
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1999", "hassan-1988", "herman-1992", "korzybski-1933", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1974", "vrij-2008", "watzlawick-1967", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1999", "oconnor-seymour-1990"]
+catalog_sources_roots = ["korzybski-1933", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "tversky-kahneman-1974", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.b.toml"
 +++
 
 # Komplexní ekvivalence
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Complex equivalence |
 | **Jiné názvy** | X znamená Y, rovnítko významu |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -202,7 +205,7 @@ může projevit nesouhlas, aniž by byl vykládán jako vada (Herman 1992). Uži
 sebereflexe: každý používá komplexní ekvivalence a kdo si jich všimne ve vlastní řeči,
 získá možnost je ověřit u toho, koho se týkají.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -227,33 +230,36 @@ získá možnost je ověřit u toho, koho se týkají.
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzný vzorec (Základní pojmy NLP, Distortion)
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzný vzorec (Meta-model, Mind reading)
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzný vzorec (Meta-model, Cause and effect)
-- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – příbuzný vzorec (Milton-model, Complex equivalence (Milton Model))
-- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – příbuzný vzorec (Jazykové presupozice, Commentary adverbs and adjectives)
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzný vzorec (Sleight of Mouth, Sleight of Mouth)
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzný vzorec (Sleight of Mouth, Belief structure in Sleight of Mouth)
-- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzný vzorec (Sleight of Mouth, Redefine)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Confusing logical levels)
-- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzný vzorec (Přesvědčení, Beliefs about meaning)
+- [Nerozložený střední termín](@/kompendium/argumentacni-fauly/formalni/nerozlozeny-stredni-termin.md) – příbuzné heslo (Argumentační fauly: Formální klamy, Undistributed middle)
+- [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md) – příbuzné heslo (Argumentační fauly: Formální klamy, Four terms)
+- [Přesvědčovací definice](@/kompendium/argumentacni-fauly/jazykove-klamy/presvedcovaci-definice.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Persuasive definition)
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzné heslo (Základní pojmy NLP, Distortion)
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzné heslo (Meta-model, Cause and effect)
+- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – příbuzné heslo (Milton-model, Complex equivalence (Milton Model))
+- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – příbuzné heslo (Jazykové presupozice, Commentary adverbs and adjectives)
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzné heslo (Sleight of Mouth, Sleight of Mouth)
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzné heslo (Sleight of Mouth, Belief structure in Sleight of Mouth)
+- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzné heslo (Sleight of Mouth, Redefine)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Confusing logical levels)
+- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzné heslo (Přesvědčení, Beliefs about meaning)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – předchozí vzorec rodiny
-- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – předchozí heslo rodiny
+- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

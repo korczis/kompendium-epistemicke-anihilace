@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vzorec vnitřního kritika", "Inner critic pattern", "práce s vnitřním kritikem", "změna kritické sebeprezentace", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Vzorec vnitřního kritika", "Inner critic pattern", "práce s vnitřním kritikem", "změna kritické sebeprezentace", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.20"
-nlp_slug = "zmena-kriticke-sebeprezentace"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Inner critic pattern"
-nlp_aliases = ["práce s vnitřním kritikem", "změna kritické sebeprezentace"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "zmena-vnitrniho-hlasu"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["zmena-vnitrniho-hlasu"]
-nlp_related = ["vnitrni-dialog", "auditivni-submodality", "auditivni-swish", "zmena-vnitrniho-hlasu", "reakce-na-kritiku", "elicitace-pozitivniho-zameru"]
-nlp_related_declared = ["zmena-vnitrniho-hlasu", "auditivni-submodality", "reakce-na-kritiku", "elicitace-pozitivniho-zameru", "auditivni-swish"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md", "kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
-nlp_prev = "submodality-v-reklame"
-nlp_next = ""
-nlp_position = 20
-nlp_family_size = 20
-nlp_sources = ["bandler-1985", "bandler-grinder-1982", "beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "perls-1969", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "bandler-grinder-1982"]
-nlp_sources_roots = ["perls-1969"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.20"
+catalog_slug = "zmena-kriticke-sebeprezentace"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Inner critic pattern"
+catalog_aliases = ["práce s vnitřním kritikem", "změna kritické sebeprezentace"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "zmena-vnitrniho-hlasu"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["zmena-vnitrniho-hlasu"]
+catalog_related = ["vnitrni-dialog", "auditivni-submodality", "auditivni-swish", "zmena-vnitrniho-hlasu", "reakce-na-kritiku", "elicitace-pozitivniho-zameru"]
+catalog_related_declared = ["zmena-vnitrniho-hlasu", "auditivni-submodality", "reakce-na-kritiku", "elicitace-pozitivniho-zameru", "auditivni-swish"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md", "kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
+catalog_prev = "submodality-v-reklame"
+catalog_next = ""
+catalog_position = 20
+catalog_family_size = 20
+catalog_sources = ["bandler-1985", "bandler-grinder-1982", "beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "perls-1969", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "bandler-grinder-1982"]
+catalog_sources_roots = ["perls-1969"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Vzorec vnitřního kritika
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Inner critic pattern |
 | **Jiné názvy** | práce s vnitřním kritikem, změna kritické sebeprezentace |
-| **Obecnější vzorec** | [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) |
+| **Obecnější heslo** | [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -198,7 +201,7 @@ zkušenost člověka uznána a kde má prostor znovu formulovat vlastní hodnoce
 Terapeut by měl klientovi pomoci rozlišit krutost od prozíravosti a zachovat obojí, co je
 užitečné: laskavost k sobě i schopnost říct si ne.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,28 +221,28 @@ užitečné: laskavost k sobě i schopnost říct si ne.
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzný vzorec (Submodality, Auditory submodalities)
-- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzný vzorec (Submodality, Auditory swish)
-- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzný vzorec (Submodality, Changing the inner voice)
-- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzný vzorec (Disociace, fobie a trauma, Responding to criticism)
-- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzný vzorec (Práce s částmi, Eliciting a part's positive intention)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzné heslo (Submodality, Auditory submodalities)
+- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzné heslo (Submodality, Auditory swish)
+- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzné heslo (Submodality, Changing the inner voice)
+- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzné heslo (Disociace, fobie a trauma, Responding to criticism)
+- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzné heslo (Práce s částmi, Eliciting a part's positive intention)
 
 **V kompendiu**
 
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

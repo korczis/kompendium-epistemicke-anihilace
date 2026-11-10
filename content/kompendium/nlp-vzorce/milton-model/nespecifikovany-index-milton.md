@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Nespecifikovaný referenční index v Milton-modelu", "Unspecified referential index (Milton Model)", "chybějící referenční index v sugesci", "neurčitý podmět", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Nespecifikovaný referenční index v Milton-modelu", "Unspecified referential index (Milton Model)", "chybějící referenční index v sugesci", "neurčitý podmět", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.24"
-nlp_slug = "nespecifikovany-index-milton"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Unspecified referential index (Milton Model)"
-nlp_aliases = ["chybějící referenční index v sugesci", "neurčitý podmět"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["nespecifikovany-referencni-index", "citace", "umyslna-vagnost", "nespecifikovana-slovesa-milton", "muj-pritel-john"]
-nlp_related_declared = ["nespecifikovany-referencni-index", "muj-pritel-john", "citace", "nespecifikovana-slovesa-milton"]
-nlp_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md", "kompendium/nlp-vzorce/jazykove-vzorce/zatim.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/citace.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
-nlp_prev = "nespecifikovana-slovesa-milton"
-nlp_next = "iluze-volby"
-nlp_position = 24
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "hassan-1988", "mcguire-1964", "passmore-rowson-2019", "rosen-1982", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["rosen-1982"]
-nlp_sources_critical = ["cialdini-2009", "hassan-1988", "mcguire-1964", "passmore-rowson-2019", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.24"
+catalog_slug = "nespecifikovany-index-milton"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Unspecified referential index (Milton Model)"
+catalog_aliases = ["chybějící referenční index v sugesci", "neurčitý podmět"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["nespecifikovany-referencni-index", "citace", "umyslna-vagnost", "nespecifikovana-slovesa-milton", "muj-pritel-john"]
+catalog_related_declared = ["nespecifikovany-referencni-index", "muj-pritel-john", "citace", "nespecifikovana-slovesa-milton"]
+catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/anonymni-autorita.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md", "kompendium/nlp-vzorce/jazykove-vzorce/zatim.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/citace.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
+catalog_prev = "nespecifikovana-slovesa-milton"
+catalog_next = "iluze-volby"
+catalog_position = 24
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "hassan-1988", "mcguire-1964", "passmore-rowson-2019", "rosen-1982", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["rosen-1982"]
+catalog_sources_critical = ["cialdini-2009", "hassan-1988", "mcguire-1964", "passmore-rowson-2019", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.c.toml"
 +++
 
 # Nespecifikovaný referenční index v Milton-modelu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.24` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Unspecified referential index (Milton Model) |
 | **Jiné názvy** | chybějící referenční index v sugesci, neurčitý podmět |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -82,7 +85,7 @@ otázkou „kdo konkrétně“, protože chybějící index často zakrývá, ž
 zkušenost nebo se vyhýbá odpovědnosti (Bandler a Grinder 1975). Milton-model nespecifikovaný
 index užívá záměrně. Výrok o neurčitém člověku si posluchač snadno vztáhne na sebe, a sugesce
 k němu tak dorazí, aniž by mu byla adresována. Zároveň může neurčitá skupina vystupovat jako
-anonymní autorita: „lidé“, kteří něco vědí, „ti, kdo to myslí vážně“, „někteří z vás“, kdo už
+[anonymní autorita](@/kompendium/argumentacni-fauly/relevance/anonymni-autorita.md): „lidé“, kteří něco vědí, „ti, kdo to myslí vážně“, „někteří z vás“, kdo už
 pochopili. Pro kompendium je vzorec důležitý, protože spojuje dvě vlastnosti: obchází přímé
 oslovení, proti němuž by se posluchač mohl ohradit, a vytváří normu, za kterou nikdo
 konkrétní neodpovídá.
@@ -186,7 +189,7 @@ ukazuje, že předchozí seznámení s mechanismem vlivu zvyšuje schopnost mu o
 pochybnosti, které člověk pokládal za výjimečné, měli i jiní, a obnova vztahů mimo skupinu, ve
 kterých lze o pochybnostech mluvit otevřeně (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -203,26 +206,26 @@ kterých lze o pochybnostech mluvit otevřeně (Hassan 1988).
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzný vzorec (Meta-model, Unspecified referential index)
-- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzný vzorec (Milton-model, Quotes)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – příbuzný vzorec (Milton-model, Unspecified verbs (Milton Model))
-- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – příbuzný vzorec (Ericksonovská hypnóza, My friend John)
+- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzné heslo (Meta-model, Unspecified referential index)
+- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzné heslo (Milton-model, Quotes)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – příbuzné heslo (Milton-model, Unspecified verbs (Milton Model))
+- [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – příbuzné heslo (Ericksonovská hypnóza, My friend John)
 
 **V kompendiu**
 
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – předchozí vzorec rodiny
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – předchozí heslo rodiny
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

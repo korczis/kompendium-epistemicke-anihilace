@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Technika přetáčení", "Rewind technique", "rewind", "přetáčení vzpomínky", "Disociace, fobie a trauma", "NLP", "neurolingvistické programování"]
+keywords = ["Technika přetáčení", "Rewind technique", "rewind", "přetáčení vzpomínky", "Disociace, fobie a trauma", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-11.11"
-nlp_slug = "rewind"
-nlp_family = "disociace-a-trauma"
-nlp_family_code = "11"
-nlp_family_title = "Disociace, fobie a trauma"
-nlp_family_en = "Dissociation, phobia and trauma patterns"
-nlp_part = "disociace-a-trauma"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Rewind technique"
-nlp_aliases = ["rewind", "přetáčení vzpomínky"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "rychla-lecba-fobie"
-nlp_narrower = []
-nlp_depth = 3
-nlp_ancestors = ["rychla-lecba-fobie", "disociace", "submodality-pojem"]
-nlp_related = ["disociace", "filmova-technika", "rychla-lecba-fobie", "dvojita-disociace", "trauma-a-falesne-vzpominky"]
-nlp_related_declared = ["rychla-lecba-fobie", "dvojita-disociace", "disociace", "trauma-a-falesne-vzpominky", "filmova-technika"]
-nlp_kompendium = ["kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md", "glossary/complex-trauma.md"]
-nlp_links_prose = ["glossary/complex-trauma.md", "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/submodality/filmova-technika.md", "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md"]
-nlp_prev = "trauma-a-falesne-vzpominky"
-nlp_next = ""
-nlp_position = 11
-nlp_family_size = 11
-nlp_sources = ["andreas-andreas-1989", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["andreas-andreas-1989", "bandler-1985", "bandler-grinder-1979"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-11.11"
+catalog_slug = "rewind"
+catalog_family = "disociace-a-trauma"
+catalog_family_code = "11"
+catalog_family_title = "Disociace, fobie a trauma"
+catalog_family_en = "Dissociation, phobia and trauma patterns"
+catalog_part = "disociace-a-trauma"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Rewind technique"
+catalog_aliases = ["rewind", "přetáčení vzpomínky"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "rychla-lecba-fobie"
+catalog_narrower = []
+catalog_depth = 3
+catalog_ancestors = ["rychla-lecba-fobie", "disociace", "submodality-pojem"]
+catalog_related = ["disociace", "filmova-technika", "rychla-lecba-fobie", "dvojita-disociace", "trauma-a-falesne-vzpominky"]
+catalog_related_declared = ["rychla-lecba-fobie", "dvojita-disociace", "disociace", "trauma-a-falesne-vzpominky", "filmova-technika"]
+catalog_kompendium = ["kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md", "glossary/complex-trauma.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/complex-trauma.md", "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/submodality/filmova-technika.md", "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md"]
+catalog_prev = "trauma-a-falesne-vzpominky"
+catalog_next = ""
+catalog_position = 11
+catalog_family_size = 11
+catalog_sources = ["andreas-andreas-1989", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["andreas-andreas-1989", "bandler-1985", "bandler-grinder-1979"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/disociace-a-trauma.toml"
 +++
 
 # Technika přetáčení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-11.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Rewind technique |
 | **Jiné názvy** | rewind, přetáčení vzpomínky |
-| **Obecnější vzorec** | [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) |
+| **Obecnější heslo** | [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ techniky neznamená, že je jeho trauma „neléčitelné“ nebo že selhal, a 
 doložené cesty. Souvislosti s komplexním traumatem rozvádí heslo o
 [komplexním traumatu](@/glossary/complex-trauma.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,26 +224,26 @@ doložené cesty. Souvislosti s komplexním traumatem rozvádí heslo o
 
 **Rodina a hierarchie**
 
-- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzný vzorec (Submodality, Movie theatre technique)
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
-- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzný vzorec (Disociace, fobie a trauma, Double dissociation)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzné heslo (Submodality, Movie theatre technique)
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
+- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzné heslo (Disociace, fobie a trauma, Double dissociation)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
 
 **V kompendiu**
 
-- [EA-6.2.1 Trauma-focused CBT protokol](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.5.4 Disociativní akutní protokol](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.2.1 Trauma-focused CBT protokol](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.5.4 Disociativní akutní protokol](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

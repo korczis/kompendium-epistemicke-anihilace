@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Falzifikovatelnost NLP", "Falsifiability of NLP", "nevyvratitelnost NLP", "testovatelnost NLP", "Kritické hodnocení NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Falzifikovatelnost NLP", "Falsifiability of NLP", "nevyvratitelnost NLP", "testovatelnost NLP", "Kritické hodnocení NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-22.10"
-nlp_slug = "falzifikovatelnost-nlp"
-nlp_family = "kriticke-hodnoceni"
-nlp_family_code = "22"
-nlp_family_title = "Kritické hodnocení NLP"
-nlp_family_en = "Critical appraisal of NLP"
-nlp_part = "kriticke-hodnoceni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Falsifiability of NLP"
-nlp_aliases = ["nevyvratitelnost NLP", "testovatelnost NLP"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "nlp-jako-pseudoveda"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["nlp-jako-pseudoveda"]
-nlp_related = ["neni-selhani-jen-zpetna-vazba", "kdyz-to-nefunguje-udelej-neco-jineho", "predpoklady-jako-pracovni-hypotezy", "ramec-dukazu", "selhani-jako-zpetna-vazba-vzorec", "testovani-kotvy", "nlp-jako-pseudoveda", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["neni-selhani-jen-zpetna-vazba", "kdyz-to-nefunguje-udelej-neco-jineho", "predpoklady-jako-pracovni-hypotezy", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
-nlp_kompendium = ["kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/quick-reference/qr-ea-1-3-1.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
-nlp_prev = "nlp-v-koucinku-vyzkum"
-nlp_next = "historie-nlp"
-nlp_position = 10
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1979", "dilts-1980", "festinger-1957", "gilovich-1991", "hassan-1988", "lilienfeld-2015", "oconnor-seymour-1990", "sharpley-1984", "sharpley-1987", "sturt-2012", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["festinger-1957", "gilovich-1991", "hassan-1988", "lilienfeld-2015", "sharpley-1984", "sharpley-1987", "sturt-2012", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Tři druhy tvrzení", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kriticke-hodnoceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-22.10"
+catalog_slug = "falzifikovatelnost-nlp"
+catalog_family = "kriticke-hodnoceni"
+catalog_family_code = "22"
+catalog_family_title = "Kritické hodnocení NLP"
+catalog_family_en = "Critical appraisal of NLP"
+catalog_part = "kriticke-hodnoceni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Falsifiability of NLP"
+catalog_aliases = ["nevyvratitelnost NLP", "testovatelnost NLP"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "nlp-jako-pseudoveda"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["nlp-jako-pseudoveda"]
+catalog_related = ["odvolani-na-nevedomost", "nefalzifikovatelnost", "neni-selhani-jen-zpetna-vazba", "kdyz-to-nefunguje-udelej-neco-jineho", "predpoklady-jako-pracovni-hypotezy", "ramec-dukazu", "selhani-jako-zpetna-vazba-vzorec", "testovani-kotvy", "nlp-jako-pseudoveda", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["neni-selhani-jen-zpetna-vazba", "kdyz-to-nefunguje-udelej-neco-jineho", "predpoklady-jako-pracovni-hypotezy", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
+catalog_kompendium = ["kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/quick-reference/qr-ea-1-3-1.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
+catalog_prev = "nlp-v-koucinku-vyzkum"
+catalog_next = "historie-nlp"
+catalog_position = 10
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1979", "dilts-1980", "festinger-1957", "gilovich-1991", "hassan-1988", "lilienfeld-2015", "oconnor-seymour-1990", "sharpley-1984", "sharpley-1987", "sturt-2012", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["festinger-1957", "gilovich-1991", "hassan-1988", "lilienfeld-2015", "sharpley-1984", "sharpley-1987", "sturt-2012", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Tři druhy tvrzení", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kriticke-hodnoceni.b.toml"
 +++
 
 # Falzifikovatelnost NLP
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-22.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Falsifiability of NLP |
 | **Jiné názvy** | nevyvratitelnost NLP, testovatelnost NLP |
-| **Obecnější vzorec** | [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) |
+| **Obecnější heslo** | [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ těchto zkušeností jako výsledku nevyvratitelné doktríny, ne osobní nescho
 rozhovor s někým mimo prostředí, kde doktrína platí, a postupný návrat k vlastním
 kritériím toho, co je zlepšení (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,31 +221,33 @@ kritériím toho, co je zlepšení (Hassan 1988).
 
 **Rodina a hierarchie**
 
-- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzný vzorec (Předpoklady NLP, There is no failure, only feedback)
-- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzný vzorec (Předpoklady NLP, If it is not working, do something else)
-- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzný vzorec (Předpoklady NLP, Presuppositions as working assumptions)
-- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzný vzorec (Reframing a rámce, Evidence frame)
-- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzný vzorec (Reframing a rámce, Failure into feedback)
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzný vzorec (Kotvení, Testing an anchor)
-- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as pseudoscience)
-- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as cargo-cult psychology)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [Odvolání na nevědomost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to ignorance)
+- [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, Unfalsifiability)
+- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzné heslo (Předpoklady NLP, There is no failure, only feedback)
+- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzné heslo (Předpoklady NLP, If it is not working, do something else)
+- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzné heslo (Předpoklady NLP, Presuppositions as working assumptions)
+- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzné heslo (Reframing a rámce, Evidence frame)
+- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzné heslo (Reframing a rámce, Failure into feedback)
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzné heslo (Kotvení, Testing an anchor)
+- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as pseudoscience)
+- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as cargo-cult psychology)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Rychlá karta EA-1.3.1: Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Rychlá karta EA-1.3.1: Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Výzkum NLP v koučinku](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md) – předchozí vzorec rodiny
-- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Výzkum NLP v koučinku](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md) – předchozí heslo rodiny
+- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

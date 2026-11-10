@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Rámec ekologie", "Ecology frame", "ekologický rámec", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Rámec ekologie", "Ecology frame", "ekologický rámec", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.08"
-nlp_slug = "ramec-ekologie"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Ecology frame"
-nlp_aliases = ["ekologický rámec"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ramec-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ramec-pojem"]
-nlp_related = ["ekologie-zmeny", "ekologicka-kontrola", "sestikrokovy-reframing", "ramec-vysledku", "kartezske-otazky", "ekologie-cile"]
-nlp_related_declared = ["ekologie-zmeny", "ekologicka-kontrola", "ekologie-cile", "ramec-vysledku", "sestikrokovy-reframing"]
-nlp_kompendium = ["kompendium/techniques/ea-4-2-6-consent-withdrawal.md", "kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-4-2-6-consent-withdrawal.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md"]
-nlp_prev = "ramec-vysledku"
-nlp_next = "ramec-zpetneho-shrnuti"
-nlp_position = 8
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1982", "bateson-1972", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "singer-lalich-1995", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "satir-1972", "watzlawick-1967", "watzlawick-1974"]
-nlp_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k posuzování rozhodovací způsobilosti", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.08"
+catalog_slug = "ramec-ekologie"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Ecology frame"
+catalog_aliases = ["ekologický rámec"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ramec-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ramec-pojem"]
+catalog_related = ["ekologie-zmeny", "ekologicka-kontrola", "sestikrokovy-reframing", "ramec-vysledku", "kartezske-otazky", "ekologie-cile"]
+catalog_related_declared = ["ekologie-zmeny", "ekologicka-kontrola", "ekologie-cile", "ramec-vysledku", "sestikrokovy-reframing"]
+catalog_kompendium = ["kompendium/techniques/ea-4-2-6-consent-withdrawal.md", "kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-4-2-6-consent-withdrawal.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md"]
+catalog_prev = "ramec-vysledku"
+catalog_next = "ramec-zpetneho-shrnuti"
+catalog_position = 8
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "singer-lalich-1995", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "satir-1972", "watzlawick-1967", "watzlawick-1974"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k posuzování rozhodovací způsobilosti", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.toml"
 +++
 
 # Rámec ekologie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Ecology frame |
 | **Jiné názvy** | ekologický rámec |
-| **Obecnější vzorec** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
+| **Obecnější heslo** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ schopnost rozhodovat podle vlastních hodnot a posuzuje převzaté pojmy „harm
 „souladu“ podle toho, komu ve skutečnosti sloužily (Herman 1992). Kompendium se postupům
 pro tuto fázi věnuje u [práce s lidmi po odchodu ze skupiny](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -219,28 +222,28 @@ pro tuto fázi věnuje u [práce s lidmi po odchodu ze skupiny](@/kompendium/tec
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzný vzorec (Předpoklady NLP, Change must respect the whole system (ecology))
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Six-step reframing)
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzný vzorec (Přesvědčení, Cartesian questions)
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzný vzorec (Cíle a výsledky, Ecology of the outcome)
+- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzné heslo (Předpoklady NLP, Change must respect the whole system (ecology))
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzné heslo (Reframing a rámce, Six-step reframing)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzné heslo (Přesvědčení, Cartesian questions)
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)
 
 **V kompendiu**
 
-- [EA-4.2.6 Consent withdrawal](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-4.2.6 Consent withdrawal](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – předchozí vzorec rodiny
-- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – předchozí heslo rodiny
+- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

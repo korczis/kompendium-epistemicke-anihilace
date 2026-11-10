@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Simultánní inkongruence", "Simultaneous incongruence", "současný nesoulad", "Práce s částmi", "NLP", "neurolingvistické programování"]
+keywords = ["Simultánní inkongruence", "Simultaneous incongruence", "současný nesoulad", "Práce s částmi", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-15.06"
-nlp_slug = "simultanni-inkongruence"
-nlp_family = "integrace-casti"
-nlp_family_code = "15"
-nlp_family_title = "Práce s částmi"
-nlp_family_en = "Parts work"
-nlp_part = "integrace-casti"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Simultaneous incongruence"
-nlp_aliases = ["současný nesoulad"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "inkongruence"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["inkongruence"]
-nlp_related = ["kalibrace", "kongruence", "inkongruence", "vizualni-squash", "sekvencni-inkongruence", "detekce-lzi-v-nlp"]
-nlp_related_declared = ["sekvencni-inkongruence", "vizualni-squash", "detekce-lzi-v-nlp", "kongruence", "kalibrace"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md", "kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md", "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md"]
-nlp_prev = "sekvencni-inkongruence"
-nlp_next = "elicitace-pozitivniho-zameru"
-nlp_position = 6
-nlp_family_size = 9
-nlp_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "bateson-1956", "cialdini-2009", "ekman-2003", "grinder-bandler-1976", "heap-1988", "herman-1992", "rogers-1951", "satir-1972", "vrij-2008", "watzlawick-1967", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982", "grinder-bandler-1976"]
-nlp_sources_roots = ["bateson-1956", "satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["cialdini-2009", "ekman-2003", "heap-1988", "herman-1992", "rogers-1951", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/integrace-casti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-15.06"
+catalog_slug = "simultanni-inkongruence"
+catalog_family = "integrace-casti"
+catalog_family_code = "15"
+catalog_family_title = "Práce s částmi"
+catalog_family_en = "Parts work"
+catalog_part = "integrace-casti"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Simultaneous incongruence"
+catalog_aliases = ["současný nesoulad"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "inkongruence"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["inkongruence"]
+catalog_related = ["kalibrace", "kongruence", "inkongruence", "vizualni-squash", "sekvencni-inkongruence", "detekce-lzi-v-nlp"]
+catalog_related_declared = ["sekvencni-inkongruence", "vizualni-squash", "detekce-lzi-v-nlp", "kongruence", "kalibrace"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md", "kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md", "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md"]
+catalog_prev = "sekvencni-inkongruence"
+catalog_next = "elicitace-pozitivniho-zameru"
+catalog_position = 6
+catalog_family_size = 9
+catalog_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "bateson-1956", "cialdini-2009", "ekman-2003", "grinder-bandler-1976", "heap-1988", "herman-1992", "rogers-1951", "satir-1972", "vrij-2008", "watzlawick-1967", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982", "grinder-bandler-1976"]
+catalog_sources_roots = ["bateson-1956", "satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["cialdini-2009", "ekman-2003", "heap-1988", "herman-1992", "rogers-1951", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/integrace-casti.toml"
 +++
 
 # Simultánní inkongruence
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-15.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Simultaneous incongruence |
 | **Jiné názvy** | současný nesoulad |
-| **Obecnější vzorec** | [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) |
+| **Obecnější heslo** | [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Obecné tvrzení, že slova a neverbální projev se mohou rozcházet a že rozp
 
 Základní obranou je pravidlo, že výslovné ne platí. Pokud někdo tvrdí, že tělo nebo nevědomí druhého souhlasí, ačkoli jeho slova odmítají, jde o výklad, který nemá žádnou váhu proti vyslovenému rozhodnutí, a je legitimní ho jasně odmítnout. Druhou obranou je oddělit pozorování od výkladu: lze přiznat, že se člověk usmál nebo zaváhal, a zároveň trvat na tom, že to nic nemění na jeho sdělení. Nesoulad je často prostým projevem nejistoty, a ta je důvodem rozhodnutí odložit, ne ho přijmout. Třetí obranou je nedovolit, aby se z pochybností o vlastním projevu staly pochybnosti o vlastní vůli. U lidí, na které byl tento výklad uplatňován dlouhodobě, například v kontrolujícím vztahu, se objevuje nejistota ve vlastních pocitech a sklon ptát se druhých, co „doopravdy“ chtějí. Zotavení spočívá v obnově důvěry ve vlastní vnímání a ve vyjadřování, k čemuž přispívá vztah, ve kterém je slovo člověka bráno vážně. Herman zdůrazňuje, že obnova autonomie a schopnosti říct ne patří k základům zotavení po zneužití (Herman 1992). Odborníci, kteří s pojmem pracují, by měli pozorovaný nesoulad vždy vracet klientovi jako otázku a nikdy jím nenahrazovat jeho výslovnou odpověď.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -124,27 +127,27 @@ Základní obranou je pravidlo, že výslovné ne platí. Pokud někdo tvrdí, �
 
 **Rodina a hierarchie**
 
-- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzný vzorec (Základní pojmy NLP, Incongruence)
-- [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – příbuzný vzorec (Práce s částmi, Visual squash)
-- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzný vzorec (Práce s částmi, Sequential incongruence)
-- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzný vzorec (Raport a kalibrace, Lie detection claims in NLP)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzné heslo (Základní pojmy NLP, Incongruence)
+- [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – příbuzné heslo (Práce s částmi, Visual squash)
+- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzné heslo (Práce s částmi, Sequential incongruence)
+- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzné heslo (Raport a kalibrace, Lie detection claims in NLP)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – předchozí vzorec rodiny
-- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – předchozí heslo rodiny
+- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

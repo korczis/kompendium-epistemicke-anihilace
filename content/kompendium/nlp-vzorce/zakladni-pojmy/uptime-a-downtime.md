@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Uptime a downtime", "Uptime and downtime", "vnější a vnitřní zaměření pozornosti", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Uptime a downtime", "Uptime and downtime", "vnější a vnitřní zaměření pozornosti", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.39"
-nlp_slug = "uptime-a-downtime"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.d"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Uptime and downtime"
-nlp_aliases = ["vnější a vnitřní zaměření pozornosti"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["kalibrace", "smyslova-ostrost", "vnitrni-dialog", "trans-pojem", "novy-kod", "stav-nevedeni", "periferni-videni"]
-nlp_related_declared = ["trans-pojem", "vnitrni-dialog", "smyslova-ostrost", "kalibrace", "periferni-videni"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md"]
-nlp_prev = "vnitrni-dialog"
-nlp_next = "trans-pojem"
-nlp_position = 39
-nlp_family_size = 42
-nlp_sources = ["cialdini-2009", "dilts-delozier-2000", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "oconnor-seymour-1990", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.39"
+catalog_slug = "uptime-a-downtime"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.d"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Uptime and downtime"
+catalog_aliases = ["vnější a vnitřní zaměření pozornosti"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["kalibrace", "smyslova-ostrost", "vnitrni-dialog", "trans-pojem", "novy-kod", "stav-nevedeni", "periferni-videni"]
+catalog_related_declared = ["trans-pojem", "vnitrni-dialog", "smyslova-ostrost", "kalibrace", "periferni-videni"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md"]
+catalog_prev = "vnitrni-dialog"
+catalog_next = "trans-pojem"
+catalog_position = 39
+catalog_family_size = 42
+catalog_sources = ["cialdini-2009", "dilts-delozier-2000", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "oconnor-seymour-1990", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.d.toml"
 +++
 
 # Uptime a downtime
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.39` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Uptime and downtime |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ důvěřovat vlastním vjemům (Singer a Lalich 1995). V klinické praxi se k to
 stabilizační postupy, které posilují orientaci v přítomném prostředí a vrací člověku kontrolu
 nad tím, kam jeho pozornost směřuje (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,27 +221,27 @@ nad tím, kam jeho pozornost směřuje (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzný vzorec (Základní pojmy NLP, Sensory acuity)
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzný vzorec (Strategie a modelování, Know-nothing state)
-- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzný vzorec (Strategie a modelování, Peripheral vision)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzné heslo (Základní pojmy NLP, Sensory acuity)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzné heslo (Strategie a modelování, Know-nothing state)
+- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzné heslo (Strategie a modelování, Peripheral vision)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.7 Mindfulness-based trauma intervention](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.7 Mindfulness-based trauma intervention](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – předchozí vzorec rodiny
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – předchozí heslo rodiny
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

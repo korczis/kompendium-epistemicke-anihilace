@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Výzkum očních přístupových signálů", "Research on eye accessing cues", "výzkum pohybů očí v NLP", "Kritické hodnocení NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Výzkum očních přístupových signálů", "Research on eye accessing cues", "výzkum pohybů očí v NLP", "Kritické hodnocení NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-22.03"
-nlp_slug = "vyzkum-ocnich-signalu"
-nlp_family = "kriticke-hodnoceni"
-nlp_family_code = "22"
-nlp_family_title = "Kritické hodnocení NLP"
-nlp_family_en = "Critical appraisal of NLP"
-nlp_part = "kriticke-hodnoceni"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Research on eye accessing cues"
-nlp_aliases = ["výzkum pohybů očí v NLP"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "stav-dukazu-nlp"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["stav-dukazu-nlp"]
-nlp_related = ["vedouci-system", "ocni-pristupove-signaly", "meta-model-jako-vyslychaci-nastroj", "pravopisna-strategie", "kalibrace-ano-ne", "detekce-lzi-v-nlp", "nlp-ve-vyslechu", "vyzkum-preferovaneho-systemu"]
-nlp_related_declared = ["ocni-pristupove-signaly", "detekce-lzi-v-nlp", "vedouci-system", "vyzkum-preferovaneho-systemu", "meta-model-jako-vyslychaci-nastroj"]
-nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "vyzkum-preferovaneho-systemu"
-nlp_next = "nlp-jako-pseudoveda"
-nlp_position = 3
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1979", "dilts-1980", "druckman-swets-1988", "gilovich-1991", "heap-1988", "herman-1992", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = []
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "herman-1992", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kriticke-hodnoceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-22.03"
+catalog_slug = "vyzkum-ocnich-signalu"
+catalog_family = "kriticke-hodnoceni"
+catalog_family_code = "22"
+catalog_family_title = "Kritické hodnocení NLP"
+catalog_family_en = "Critical appraisal of NLP"
+catalog_part = "kriticke-hodnoceni"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Research on eye accessing cues"
+catalog_aliases = ["výzkum pohybů očí v NLP"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "stav-dukazu-nlp"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["stav-dukazu-nlp"]
+catalog_related = ["vedouci-system", "ocni-pristupove-signaly", "meta-model-jako-vyslychaci-nastroj", "pravopisna-strategie", "kalibrace-ano-ne", "detekce-lzi-v-nlp", "nlp-ve-vyslechu", "vyzkum-preferovaneho-systemu"]
+catalog_related_declared = ["ocni-pristupove-signaly", "detekce-lzi-v-nlp", "vedouci-system", "vyzkum-preferovaneho-systemu", "meta-model-jako-vyslychaci-nastroj"]
+catalog_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "vyzkum-preferovaneho-systemu"
+catalog_next = "nlp-jako-pseudoveda"
+catalog_position = 3
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1979", "dilts-1980", "druckman-swets-1988", "gilovich-1991", "heap-1988", "herman-1992", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = []
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "herman-1992", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kriticke-hodnoceni.toml"
 +++
 
 # Výzkum očních přístupových signálů
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-22.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Research on eye accessing cues |
 | **Jiné názvy** | výzkum pohybů očí v NLP |
-| **Obecnější vzorec** | [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) |
+| **Obecnější heslo** | [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ profesionály, kteří se schéma naučili ve výcviku, je užitečné ho vědom
 postupy vedení rozhovoru, které jsou ověřené. Související tvrzení o odhalování lži shrnuje
 stránka [detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,30 +223,30 @@ stránka [detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce
 
 **Rodina a hierarchie**
 
-- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzný vzorec (Základní pojmy NLP, Lead system)
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzný vzorec (Základní pojmy NLP, Eye accessing cues)
-- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – příbuzný vzorec (Meta-model, Meta Model as an interrogation tool)
-- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – příbuzný vzorec (Strategie a modelování, Spelling strategy)
-- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzný vzorec (Raport a kalibrace, Yes/no calibration)
-- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzný vzorec (Raport a kalibrace, Lie detection claims in NLP)
-- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in interrogation and negotiation)
-- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – příbuzný vzorec (Kritické hodnocení NLP, Research on the preferred representational system)
+- [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzné heslo (Základní pojmy NLP, Lead system)
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzné heslo (Základní pojmy NLP, Eye accessing cues)
+- [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – příbuzné heslo (Meta-model, Meta Model as an interrogation tool)
+- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – příbuzné heslo (Strategie a modelování, Spelling strategy)
+- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzné heslo (Raport a kalibrace, Yes/no calibration)
+- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzné heslo (Raport a kalibrace, Lie detection claims in NLP)
+- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in interrogation and negotiation)
+- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – příbuzné heslo (Kritické hodnocení NLP, Research on the preferred representational system)
 
 **V kompendiu**
 
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.3.4 Empirická výzkumná báze](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.3.4 Empirická výzkumná báze](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – předchozí vzorec rodiny
-- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – předchozí heslo rodiny
+- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

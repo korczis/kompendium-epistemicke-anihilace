@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-disociace-a-trauma"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Disociace, fobie a trauma", "Dissociation, phobia and trauma patterns", "NLP"]
+keywords = ["Disociace, fobie a trauma", "Dissociation, phobia and trauma patterns", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "disociace-a-trauma"
-nlp_code = "11"
-nlp_en = "Dissociation, phobia and trauma patterns"
-nlp_size = 11
-nlp_members = ["rychla-lecba-fobie", "dvojita-disociace", "reimprinting", "zmena-osobni-historie", "alergicky-vzorec", "vzorec-zalu", "vzorec-odpusteni", "reakce-na-kritiku", "sebepojeti", "trauma-a-falesne-vzpominky", "rewind"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["andreas-andreas-1989", "andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1990", "dilts-hallbom-smith-1990", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "disociace-a-trauma"
+catalog_code = "11"
+catalog_en = "Dissociation, phobia and trauma patterns"
+catalog_size = 11
+catalog_members = ["rychla-lecba-fobie", "dvojita-disociace", "reimprinting", "zmena-osobni-historie", "alergicky-vzorec", "vzorec-zalu", "vzorec-odpusteni", "reakce-na-kritiku", "sebepojeti", "trauma-a-falesne-vzpominky", "rewind"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["andreas-andreas-1989", "andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1990", "dilts-hallbom-smith-1990", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 +++
 
 # Disociace, fobie a trauma
@@ -68,7 +70,7 @@ Smith 1990).
 Pojem [disociace](@/glossary/disociace.md), který dal rodině jméno, převzalo NLP z ericksonovské hypnózy, kde označoval
 hypnotické oddělení prožívání (Erickson, Rossi a Rossi 1976), a proměnilo ho v popis
 perspektivy, kterou lze v představě zaujmout. Pojem rozebírá heslo
-[Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) v rodině základních pojmů.
+[Disociace](@/glossary/disociace.md) v rodině základních pojmů.
 Intervence vznikaly v období, kdy se v části psychoterapie šířilo přesvědčení, že mnoho obtíží
 dospělých má kořen v zapomenutých zážitcích, a kdy se teprve rozbíhal spor o obnovené
 vzpomínky. Tento kontext vysvětluje, proč řada hesel rodiny věnuje tolik prostoru paměti.
@@ -156,12 +158,12 @@ zažili. Zásady nesugestivního dotazování kompendium popisuje v hesle o
 nevhodné práci s traumatem vychází ze stejného rámce jako jiná péče o trauma: bezpečí,
 stabilizace, uznání a postupné zpracování ve vztahu, ve kterém má člověk kontrolu (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-11.01` | [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) | Fast phobia cure (V-K dissociation) | vzorec | převážně terapeutické | střední |
 | `NLP-11.02` | [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) | Double dissociation | vzorec | terapeutické i vlivové | střední |
 | `NLP-11.03` | [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) | Re-imprinting | vzorec | převážně terapeutické | vysoké |
@@ -173,6 +175,49 @@ stabilizace, uznání a postupné zpracování ve vztahu, ve kterém má člově
 | `NLP-11.09` | [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) | Self-concept pattern | vzorec | terapeutické i vlivové | střední |
 | `NLP-11.10` | [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) | Trauma work and the risk of false memories | pojem | výkladový pojem | vysoké |
 | `NLP-11.11` | [Technika přetáčení](@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md) | Rewind technique | vzorec | převážně terapeutické | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Disociace, fobie a trauma"]
+  click F "@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md"
+  n1["Rychlá léčba fobie"]
+  n2["Dvojitá disociace"]
+  n3["Reimprinting"]
+  n4["Změna osobní historie"]
+  n5["Alergický vzorec"]
+  n6["Vzorec zpracování zármutku"]
+  n7["Vzorec odpuštění"]
+  n8["Reakce na kritiku"]
+  n9["Vzorec sebepojetí"]
+  n10["Práce s traumatem a riziko nepravých vzpomínek"]
+  n11["Technika přetáčení"]
+  F --> n1
+  F --> n2
+  F --> n3
+  F --> n4
+  F --> n5
+  F --> n6
+  F --> n7
+  F --> n8
+  F --> n9
+  F --> n10
+  n1 --> n11
+  click n1 "@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md"
+  click n2 "@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md"
+  click n3 "@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md"
+  click n4 "@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md"
+  click n5 "@/kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec.md"
+  click n6 "@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md"
+  click n7 "@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md"
+  click n8 "@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md"
+  click n9 "@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md"
+  click n10 "@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md"
+  click n11 "@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md"
+```
 
 ## Literatura
 
@@ -199,6 +244,6 @@ stabilizace, uznání a postupné zpracování ve vztahu, ve kterém má člově
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – předchozí rodina katalogu
 - [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

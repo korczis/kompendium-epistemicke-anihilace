@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Truismy", "Truisms", "samozřejmosti", "nesporná tvrzení", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Truismy", "Truisms", "samozřejmosti", "nesporná tvrzení", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.07"
-nlp_slug = "truismy"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Truisms"
-nlp_aliases = ["samozřejmosti", "nesporná tvrzení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["ano-sada", "umyslna-vagnost", "ztraceny-performativ-milton", "univerzalni-kvantifikatory-milton", "pacing-aktualni-zkusenosti", "slozena-sugesce", "predikaty-uvedomeni", "komentarova-adverbia", "pacing-a-leading"]
-nlp_related_declared = ["ano-sada", "pacing-aktualni-zkusenosti", "pacing-a-leading", "umyslna-vagnost"]
-nlp_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
-nlp_prev = "pripojene-otazky"
-nlp_next = "ano-sada"
-nlp_position = 7
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "beck-1976", "cialdini-2009", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
-nlp_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.07"
+catalog_slug = "truismy"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Truisms"
+catalog_aliases = ["samozřejmosti", "nesporná tvrzení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["ano-sada", "umyslna-vagnost", "ztraceny-performativ-milton", "univerzalni-kvantifikatory-milton", "pacing-aktualni-zkusenosti", "slozena-sugesce", "predikaty-uvedomeni", "komentarova-adverbia", "pacing-a-leading"]
+catalog_related_declared = ["ano-sada", "pacing-aktualni-zkusenosti", "pacing-a-leading", "umyslna-vagnost"]
+catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
+catalog_prev = "pripojene-otazky"
+catalog_next = "ano-sada"
+catalog_position = 7
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "beck-1976", "cialdini-2009", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.toml"
 +++
 
 # Truismy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Truisms |
 | **Jiné názvy** | samozřejmosti, nesporná tvrzení |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ lidé, kteří znají typické rétorické postupy manipulace, je pak spolehliv�
 nezpochybnitelnými pravdami, je součástí zotavení znovu je otevřít jako obyčejné, a tedy
 diskutovatelné výroky, a oddělit od nich požadavky, které se na nich vezly (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,31 +216,31 @@ diskutovatelné výroky, a oddělit od nich požadavky, které se na nich vezly 
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – příbuzný vzorec (Milton-model, Lost performative (Milton Model))
-- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – příbuzný vzorec (Milton-model, Universal quantifiers (Milton Model))
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzný vzorec (Milton-model, Pacing current experience)
-- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Compound suggestion)
-- [Predikáty uvědomění](@/kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md) – příbuzný vzorec (Jazykové presupozice, Awareness predicates)
-- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – příbuzný vzorec (Jazykové presupozice, Commentary adverbs and adjectives)
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzný vzorec (Raport a kalibrace, Pacing and leading)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – příbuzné heslo (Milton-model, Lost performative (Milton Model))
+- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – příbuzné heslo (Milton-model, Universal quantifiers (Milton Model))
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzné heslo (Milton-model, Pacing current experience)
+- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Compound suggestion)
+- [Predikáty uvědomění](@/kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md) – příbuzné heslo (Jazykové presupozice, Awareness predicates)
+- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – příbuzné heslo (Jazykové presupozice, Commentary adverbs and adjectives)
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
 
 **V kompendiu**
 
-- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – předchozí vzorec rodiny
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – předchozí heslo rodiny
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

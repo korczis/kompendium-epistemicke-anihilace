@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Porušení selekčních omezení v Milton-modelu", "Selectional restriction violation (Milton Model)", "sémantická anomálie", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Porušení selekčních omezení v Milton-modelu", "Selectional restriction violation (Milton Model)", "sémantická anomálie", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.10"
-nlp_slug = "poruseni-selekcnich-omezeni"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Selectional restriction violation (Milton Model)"
-nlp_aliases = ["sémantická anomálie"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["poruseni-selekcnich-omezeni-meta", "citace", "konfuzni-technika", "terapeuticka-metafora"]
-nlp_related_declared = ["poruseni-selekcnich-omezeni-meta", "citace", "konfuzni-technika", "terapeuticka-metafora"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_prev = "citace"
-nlp_next = "fonologicka-dvojznacnost"
-nlp_position = 10
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1982", "beck-1976", "chomsky-1965", "hassan-1988", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "norcross-2006", "roderique-davies-2009", "rosen-1982", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1982"]
-nlp_sources_roots = ["chomsky-1965", "rosen-1982"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "norcross-2006", "roderique-davies-2009", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.10"
+catalog_slug = "poruseni-selekcnich-omezeni"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Selectional restriction violation (Milton Model)"
+catalog_aliases = ["sémantická anomálie"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["poruseni-selekcnich-omezeni-meta", "citace", "konfuzni-technika", "terapeuticka-metafora"]
+catalog_related_declared = ["poruseni-selekcnich-omezeni-meta", "citace", "konfuzni-technika", "terapeuticka-metafora"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_prev = "citace"
+catalog_next = "fonologicka-dvojznacnost"
+catalog_position = 10
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1982", "beck-1976", "chomsky-1965", "hassan-1988", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "norcross-2006", "roderique-davies-2009", "rosen-1982", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1982"]
+catalog_sources_roots = ["chomsky-1965", "rosen-1982"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "norcross-2006", "roderique-davies-2009", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.toml"
 +++
 
 # Porušení selekčních omezení v Milton-modelu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Selectional restriction violation (Milton Model) |
 | **Jiné názvy** | sémantická anomálie |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ vztahu (Herman 1992). Klinik by měl s takovým klientem pracovat tak, aby výkl
 vnitřních stavů zůstával jeho vlastní, a vyhnout se tomu, aby jeden autoritativní výklad
 nahradil jiným.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,25 +216,25 @@ nahradil jiným.
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – příbuzný vzorec (Meta-model, Selectional restriction violation (Meta Model))
-- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzný vzorec (Milton-model, Quotes)
-- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzný vzorec (Ericksonovská hypnóza, Confusion technique)
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzný vzorec (Jazykové vzorce, Therapeutic metaphor)
+- [Porušení selekčních omezení](@/kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta.md) – příbuzné heslo (Meta-model, Selectional restriction violation (Meta Model))
+- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – příbuzné heslo (Milton-model, Quotes)
+- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzné heslo (Ericksonovská hypnóza, Confusion technique)
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzné heslo (Jazykové vzorce, Therapeutic metaphor)
 
 **V kompendiu**
 
-- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – předchozí vzorec rodiny
-- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – předchozí heslo rodiny
+- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kotvení", "Anchoring", "ukotvení stavu", "podmiňování stavu podnětem", "NLP", "neurolingvistické programování"]
+keywords = ["Kotvení", "Anchoring", "ukotvení stavu", "podmiňování stavu podnětem", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.01"
-nlp_slug = "kotveni"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Anchoring"
-nlp_aliases = ["ukotvení stavu", "podmiňování stavu podnětem"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["kalibrace", "stav", "zdrojovy-stav", "kotva-pojem", "posthypnoticka-sugesce", "kinesteticke-kotvy", "testovani-kotvy", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu", "swish", "zmena-osobni-historie", "instalace-strategie", "zdroje-cile"]
-nlp_related_declared = ["kotva-pojem", "stav", "zdrojovy-stav", "kalibrace", "nechtene-kotvy", "kotveni-versus-ukotveni-odhadu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md", "kompendium/nlp-vzorce/kotveni/retezeni-kotev.md", "kompendium/nlp-vzorce/kotveni/samokotveni.md", "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = ""
-nlp_next = "samokotveni"
-nlp_position = 1
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "herman-1992", "lankton-1980", "oconnor-seymour-1990", "pavlov-1927", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980", "lankton-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.01"
+catalog_slug = "kotveni"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Anchoring"
+catalog_aliases = ["ukotvení stavu", "podmiňování stavu podnětem"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["kalibrace", "stav", "zdrojovy-stav", "kotva-pojem", "posthypnoticka-sugesce", "kinesteticke-kotvy", "testovani-kotvy", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu", "swish", "zmena-osobni-historie", "instalace-strategie", "zdroje-cile"]
+catalog_related_declared = ["kotva-pojem", "stav", "zdrojovy-stav", "kalibrace", "nechtene-kotvy", "kotveni-versus-ukotveni-odhadu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md", "kompendium/nlp-vzorce/kotveni/retezeni-kotev.md", "kompendium/nlp-vzorce/kotveni/samokotveni.md", "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = ""
+catalog_next = "samokotveni"
+catalog_position = 1
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "herman-1992", "lankton-1980", "oconnor-seymour-1990", "pavlov-1927", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980", "lankton-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.toml"
 +++
 
 # Kotvení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Anchoring |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/kotveni.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -207,7 +210,7 @@ v bezpečném vztahu a postupně, nikoli jako kotvy, které je třeba přepsat d
 (Herman 1992). Odborník, který s NLP pracuje, by měl klientovi vždy vysvětlit, co dělá, a
 ponechat spojení i jeho spouštění v klientových rukou.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -227,50 +230,50 @@ ponechat spojení i jeho spouštění v klientových rukou.
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – zvláštní případ tohoto vzorce
-- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – zvláštní případ tohoto vzorce
-- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – zvláštní případ tohoto vzorce
-- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – zvláštní případ tohoto vzorce
-- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – zvláštní případ tohoto vzorce
-- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – zvláštní případ tohoto vzorce
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – zvláštní případ tohoto vzorce
-- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – zvláštní případ tohoto vzorce
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – zvláštní případ tohoto vzorce
-- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – zvláštní případ tohoto vzorce
-- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – zvláštní případ tohoto vzorce
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – zvláštní případ tohoto vzorce
-- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – zvláštní případ tohoto vzorce
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – zvláštní případ tohoto vzorce
-- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – zvláštní případ tohoto vzorce
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – zvláštní případ tohoto vzorce
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – zvláštní případ tohoto hesla
+- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – zvláštní případ tohoto hesla
+- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – zvláštní případ tohoto hesla
+- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – zvláštní případ tohoto hesla
+- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – zvláštní případ tohoto hesla
+- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – zvláštní případ tohoto hesla
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – zvláštní případ tohoto hesla
+- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – zvláštní případ tohoto hesla
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – zvláštní případ tohoto hesla
+- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – zvláštní případ tohoto hesla
+- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – zvláštní případ tohoto hesla
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – zvláštní případ tohoto hesla
+- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – zvláštní případ tohoto hesla
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – zvláštní případ tohoto hesla
+- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – zvláštní případ tohoto hesla
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Post-hypnotic suggestion)
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzný vzorec (Kotvení, Kinaesthetic anchors)
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzný vzorec (Kotvení, Testing an anchor)
-- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzný vzorec (Kotvení, Unintended anchors and triggers)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzný vzorec (Kotvení, NLP anchoring versus the anchoring heuristic)
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzný vzorec (Submodality, Swish pattern)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy installation)
-- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – příbuzný vzorec (Cíle a výsledky, Resources for the outcome)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Post-hypnotic suggestion)
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzné heslo (Kotvení, Kinaesthetic anchors)
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzné heslo (Kotvení, Testing an anchor)
+- [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzné heslo (Kotvení, Unintended anchors and triggers)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzné heslo (Kotvení, NLP anchoring versus the anchoring heuristic)
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzné heslo (Submodality, Swish pattern)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy installation)
+- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – příbuzné heslo (Cíle a výsledky, Resources for the outcome)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.14 Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.14 Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

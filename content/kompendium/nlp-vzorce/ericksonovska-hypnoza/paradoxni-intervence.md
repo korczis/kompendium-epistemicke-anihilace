@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Paradoxní intervence", "Paradoxical intervention", "paradoxní direktiva", "terapeutický paradox", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Paradoxní intervence", "Paradoxical intervention", "paradoxní direktiva", "terapeutický paradox", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.10"
-nlp_slug = "paradoxni-intervence"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Paradoxical intervention"
-nlp_aliases = ["paradoxní direktiva", "terapeutický paradox"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["predepsani-symptomu"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["kdyz-to-nefunguje-udelej-neco-jineho", "negativni-prikazy", "utilizace", "terapeuticka-dvojna-vazba", "apozice-protikladu", "reframing"]
-nlp_related_declared = ["terapeuticka-dvojna-vazba", "reframing", "kdyz-to-nefunguje-udelej-neco-jineho", "utilizace"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["glossary/double-bind.md", "glossary/informed-consent.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "predepsani-symptomu"
-nlp_next = "posthypnoticka-sugesce"
-nlp_position = 10
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1982", "bateson-1956", "beck-1976", "haley-1973", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982"]
-nlp_sources_roots = ["bateson-1956", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.10"
+catalog_slug = "paradoxni-intervence"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Paradoxical intervention"
+catalog_aliases = ["paradoxní direktiva", "terapeutický paradox"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["predepsani-symptomu"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["kdyz-to-nefunguje-udelej-neco-jineho", "negativni-prikazy", "utilizace", "terapeuticka-dvojna-vazba", "apozice-protikladu", "reframing"]
+catalog_related_declared = ["terapeuticka-dvojna-vazba", "reframing", "kdyz-to-nefunguje-udelej-neco-jineho", "utilizace"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/double-bind.md", "glossary/informed-consent.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "predepsani-symptomu"
+catalog_next = "posthypnoticka-sugesce"
+catalog_position = 10
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1982", "bateson-1956", "beck-1976", "haley-1973", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982"]
+catalog_sources_roots = ["bateson-1956", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
 +++
 
 # Paradoxní intervence
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Paradoxical intervention |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/ericksonovska-hypnoza.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -207,7 +210,7 @@ struktury, obnovu důvěry ve vlastní volby a postupnou zkušenost rozhodnutí,
 předem vyložena jako selhání (Herman 1992). V terapii je ochranou [informovaný souhlas](@/glossary/informed-consent.md) a
 možnost zeptat se terapeuta, proč doporučuje neobvyklý postup.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -227,28 +230,28 @@ možnost zeptat se terapeuta, proč doporučuje neobvyklý postup.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – zvláštní případ tohoto vzorce
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzný vzorec (Předpoklady NLP, If it is not working, do something else)
-- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – příbuzný vzorec (Milton-model, Negative commands)
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Therapeutic double bind)
-- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzný vzorec (Ericksonovská hypnóza, Apposition of opposites)
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzný vzorec (Reframing a rámce, Reframing)
+- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzné heslo (Předpoklady NLP, If it is not working, do something else)
+- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – příbuzné heslo (Milton-model, Negative commands)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Therapeutic double bind)
+- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzné heslo (Ericksonovská hypnóza, Apposition of opposites)
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzné heslo (Reframing a rámce, Reframing)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – předchozí vzorec rodiny
-- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – předchozí heslo rodiny
+- [Posthypnotická sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

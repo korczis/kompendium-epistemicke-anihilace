@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-strategie-a-modelovani"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Strategie a modelování", "Strategies and modelling", "NLP"]
+keywords = ["Strategie a modelování", "Strategies and modelling", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "strategie-a-modelovani"
-nlp_code = "14"
-nlp_en = "Strategies and modelling"
-nlp_size = 20
-nlp_members = ["elicitace-strategie", "pravopisna-strategie", "rozhodovaci-strategie", "motivacni-strategie", "presvedcovaci-strategie", "strategie-uceni", "strategie-reality", "strategie-lasky", "strategie-geniality", "modelovani-excelence", "novy-kod", "stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni", "periferni-videni", "instalace-strategie", "utilizace-strategie", "generator-noveho-chovani", "smyckove-strategie", "modelovani-nevedomim"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "grinder-bostic-2001", "grinder-delozier-1987", "kahneman-2011", "miller-galanter-pribram-1960", "petty-cacioppo-1986", "sharpley-1984", "tosey-mathison-2009", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "strategie-a-modelovani"
+catalog_code = "14"
+catalog_en = "Strategies and modelling"
+catalog_size = 20
+catalog_members = ["elicitace-strategie", "pravopisna-strategie", "rozhodovaci-strategie", "motivacni-strategie", "presvedcovaci-strategie", "strategie-uceni", "strategie-reality", "strategie-lasky", "strategie-geniality", "modelovani-excelence", "novy-kod", "stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni", "periferni-videni", "instalace-strategie", "utilizace-strategie", "generator-noveho-chovani", "smyckove-strategie", "modelovani-nevedomim"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "grinder-bostic-2001", "grinder-delozier-1987", "kahneman-2011", "miller-galanter-pribram-1960", "petty-cacioppo-1986", "sharpley-1984", "tosey-mathison-2009", "witkowski-2010"]
 +++
 
 # Strategie a modelování
@@ -52,12 +54,12 @@ Obecné myšlenky, z nichž rodina vychází, mají dobré zázemí. Model TOTE 
 
 Obranu proti vlivovému užití vzorců této rodiny lze shrnout do několika zásad, které se v jednotlivých heslech rozvádějí podrobněji. První zásadou je nemuset odpovídat na otázky po vlastním postupu. Na otázky, jak se rozhodujete, co vás přesvědčí, kolik příkladů potřebujete nebo co se dělo těsně předtím, než jste si byli jistí, lze odpovědět obsahem: co od nabídky potřebuji, jaké jsou ceny, rizika a alternativy. Druhou zásadou je stanovit si kritéria předem a nezávisle na tom, kdo nás přesvědčuje, nejlépe písemně, a nenechat je naplnit stranou, která má na výsledku zájem. Třetí zásadou je oddělit stav od rozhodnutí: pocit jistoty, nadšení nebo naléhavosti, který vznikne během prezentace, je stav, a rozhodnutí lze udělat až po jeho odeznění. Výzkum zpracování přesvědčivých sdělení ukazuje, že pečlivé posouzení argumentů vyžaduje čas a motivaci a že bez nich převládají okrajová vodítka (Petty a Cacioppo 1986). Čtvrtou zásadou je trvat na vnějším ověření, ať jde o pravdivost vzpomínky, o účinnost metody, nebo o úspěch napodobování vzoru. Pátou zásadou je udržovat vztahy a zdroje informací mimo vztah nebo skupinu, kde je vliv vykonáván. U lidí, jejichž rozhodování, paměť nebo učení byly dlouhodobě „obsluhovány“ jinou osobou, se zotavení zaměřuje na obnovu důvěry ve vlastní úsudek, na zkušenost rozhodování bez tlaku a na rozlišení, které dovednosti a postoje jsou jejich vlastní. Odborníci, kteří s pojmy této rodiny pracují, by měli zjištění o strategiích klienta vždy sdílet s ním samým a nikdy je nepoužít k cíli, se kterým nesouhlasil.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-14.01` | [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) | Strategy elicitation | vzorec | terapeutické i vlivové | střední |
 | `NLP-14.02` | [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) | Spelling strategy | vzorec | převážně terapeutické | nízké |
 | `NLP-14.03` | [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) | Decision strategy | vzorec | terapeutické i vlivové | střední |
@@ -78,6 +80,76 @@ Obranu proti vlivovému užití vzorců této rodiny lze shrnout do několika z�
 | `NLP-14.18` | [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) | New behaviour generator | vzorec | převážně terapeutické | nízké |
 | `NLP-14.19` | [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) | Looping strategies | pojem | výkladový pojem | střední |
 | `NLP-14.20` | [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) | Unconscious uptake modelling | vzorec | terapeutické i vlivové | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Strategie a modelování"]
+  click F "@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md"
+  n1["Elicitace strategie"]
+  n2["Pravopisná strategie"]
+  n3["Rozhodovací strategie"]
+  n4["Motivační strategie"]
+  n5["Strategie přesvědčení o pravdivosti"]
+  n6["Strategie učení"]
+  n7["Strategie reality"]
+  n8["Strategie lásky"]
+  n9["Strategie geniality"]
+  n10["Modelování excelence"]
+  n11["Nový kód NLP"]
+  n12["Stav vysokého výkonu"]
+  n13["Abecední hra"]
+  n14["Stav nevědění"]
+  n15["Periferní vidění"]
+  n16["Instalace strategie"]
+  n17["Využití strategie druhého"]
+  n18["Generátor nového chování"]
+  n19["Smyčkové strategie"]
+  n20["Nevědomé modelování"]
+  F --> n1
+  F --> n2
+  F --> n3
+  F --> n4
+  F --> n5
+  F --> n6
+  F --> n7
+  F --> n8
+  n10 --> n9
+  F --> n10
+  F --> n11
+  n11 --> n12
+  n11 --> n13
+  n11 --> n14
+  n12 --> n15
+  F --> n16
+  F --> n17
+  F --> n18
+  F --> n19
+  n10 --> n20
+  click n1 "@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md"
+  click n2 "@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md"
+  click n3 "@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md"
+  click n4 "@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md"
+  click n5 "@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md"
+  click n6 "@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md"
+  click n7 "@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md"
+  click n8 "@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md"
+  click n9 "@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md"
+  click n10 "@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md"
+  click n11 "@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md"
+  click n12 "@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md"
+  click n13 "@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md"
+  click n14 "@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md"
+  click n15 "@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md"
+  click n16 "@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md"
+  click n17 "@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md"
+  click n18 "@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md"
+  click n19 "@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md"
+  click n20 "@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md"
+```
 
 ## Literatura
 
@@ -101,6 +173,6 @@ Obranu proti vlivovému užití vzorců této rodiny lze shrnout do několika z�
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – předchozí rodina katalogu
 - [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

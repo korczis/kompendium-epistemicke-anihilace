@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Elicitace časové osy", "Eliciting the timeline", "zjišťování časové osy", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Elicitace časové osy", "Eliciting the timeline", "zjišťování časové osy", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.01"
-nlp_slug = "elicitace-casove-osy"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Eliciting the timeline"
-nlp_aliases = ["zjišťování časové osy"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "casova-osa-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["casova-osa-pojem"]
-nlp_related = ["kalibrace", "casova-osa-pojem", "elicitace-submodalit", "v-case-a-mimo-cas", "zmena-tvaru-casove-osy", "casova-orientace"]
-nlp_related_declared = ["casova-osa-pojem", "v-case-a-mimo-cas", "elicitace-submodalit", "kalibrace", "casova-orientace"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
-nlp_prev = ""
-nlp_next = "v-case-a-mimo-cas"
-nlp_position = 1
-nlp_family_size = 12
-nlp_sources = ["andreas-andreas-1987", "bandler-grinder-1975", "cialdini-2009", "druckman-swets-1988", "james-woodsmall-1988", "lakoff-johnson-1980", "levinson-1983", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-grinder-1975", "james-woodsmall-1988"]
-nlp_sources_roots = ["levinson-1983"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "lakoff-johnson-1980", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.01"
+catalog_slug = "elicitace-casove-osy"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Eliciting the timeline"
+catalog_aliases = ["zjišťování časové osy"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "casova-osa-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["casova-osa-pojem"]
+catalog_related = ["kalibrace", "casova-osa-pojem", "elicitace-submodalit", "v-case-a-mimo-cas", "zmena-tvaru-casove-osy", "casova-orientace"]
+catalog_related_declared = ["casova-osa-pojem", "v-case-a-mimo-cas", "elicitace-submodalit", "kalibrace", "casova-orientace"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
+catalog_prev = ""
+catalog_next = "v-case-a-mimo-cas"
+catalog_position = 1
+catalog_family_size = 12
+catalog_sources = ["andreas-andreas-1987", "bandler-grinder-1975", "cialdini-2009", "druckman-swets-1988", "james-woodsmall-1988", "lakoff-johnson-1980", "levinson-1983", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-grinder-1975", "james-woodsmall-1988"]
+catalog_sources_roots = ["levinson-1983"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "lakoff-johnson-1980", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Elicitace časové osy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Eliciting the timeline |
 | **Jiné názvy** | zjišťování časové osy |
-| **Obecnější vzorec** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
+| **Obecnější heslo** | [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Pro existenci prostorových představ času je dobrá opora v kognitivní lingvi
 
 Základní obranou je vědět, že otázka na umístění času je vstupem do určitého postupu, a mít právo zeptat se, k čemu slouží. Kdo nechce, nemusí odpovídat; odmítnutí není známkou odporu ani nevědomého bloku. Druhou obranou je oddělit gesto od rozhodnutí. To, že člověk ukazuje budoucnost určitým směrem, nemá žádný vztah k tomu, zda je výhodné podepsat smlouvu, která na tom místě leží, nebo přijmout výklad, který s tímto místem pracuje. Při rozhodování pomáhá vrátit se k věcným kritériím, vyžádat si podklady písemně a odložit rozhodnutí; tyto kroky narušují tlak, na kterém stojí rychlé přesvědčování (Cialdini 2009). Třetí obranou je nepřisuzovat výsledku elicitace diagnostickou hodnotu. Pokud praktik z „časové osy“ vyvozuje, jaký člověk je, je legitimní žádat doklad, že metoda taková tvrzení unese. Zotavení po skrytém nebo vlivovém užití obvykle spočívá v pojmenování, co se stalo, a v návratu k vlastnímu úsudku; pomáhá sdílet zkušenost s lidmi mimo situaci, kteří ji mohou posoudit s odstupem. Kompendium podobné zásahy do vztahu člověka k vlastnímu času popisuje u [narušení časové kontinuity já](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,26 +125,26 @@ Základní obranou je vědět, že otázka na umístění času je vstupem do ur
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzný vzorec (Časová osa, In time and through time)
-- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzný vzorec (Časová osa, Changing the shape of the timeline)
-- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzný vzorec (Metaprogramy, Time orientation)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzné heslo (Základní pojmy NLP, Timeline (concept))
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzné heslo (Submodality, Eliciting submodalities)
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzné heslo (Časová osa, In time and through time)
+- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzné heslo (Časová osa, Changing the shape of the timeline)
+- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzné heslo (Metaprogramy, Time orientation)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -1,5 +1,5 @@
-# Rodina NLP-05: Ericksonovská hypnóza, část c (NLP-05.20 až NLP-05.28; pravidlo project.nlp-catalog;
-# schéma v scripts/nlp-catalog.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# Rodina NLP-05: Ericksonovská hypnóza, část c (NLP-05.20 až NLP-05.28; pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po
 # zveřejnění nemění.
 
 [[pattern]]

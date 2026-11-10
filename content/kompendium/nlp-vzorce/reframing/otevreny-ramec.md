@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Otevřený rámec", "Open frame", "volný rámec", "otevřené kolo", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Otevřený rámec", "Open frame", "volný rámec", "otevřené kolo", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.12"
-nlp_slug = "otevreny-ramec"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Open frame"
-nlp_aliases = ["volný rámec", "otevřené kolo"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ramec-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ramec-pojem"]
-nlp_related = ["ramec-vysledku", "ramec-zpetneho-shrnuti", "vyzva-k-relevanci", "raport-se-skupinou"]
-nlp_related_declared = ["vyzva-k-relevanci", "ramec-vysledku", "raport-se-skupinou", "ramec-zpetneho-shrnuti"]
-nlp_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_links_prose = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
-nlp_prev = "vyzva-k-relevanci"
-nlp_next = "ramec-dukazu"
-nlp_position = 12
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1982", "cialdini-2009", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009"]
-nlp_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.12"
+catalog_slug = "otevreny-ramec"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Open frame"
+catalog_aliases = ["volný rámec", "otevřené kolo"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ramec-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ramec-pojem"]
+catalog_related = ["ramec-vysledku", "ramec-zpetneho-shrnuti", "vyzva-k-relevanci", "raport-se-skupinou"]
+catalog_related_declared = ["vyzva-k-relevanci", "ramec-vysledku", "raport-se-skupinou", "ramec-zpetneho-shrnuti"]
+catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
+catalog_prev = "vyzva-k-relevanci"
+catalog_next = "ramec-dukazu"
+catalog_position = 12
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1982", "cialdini-2009", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009"]
+catalog_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.b.toml"
 +++
 
 # Otevřený rámec
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Open frame |
 | **Jiné názvy** | volný rámec, otevřené kolo |
-| **Obecnější vzorec** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
+| **Obecnější heslo** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -192,7 +195,7 @@ vynucené tlakem skupiny nebylo svobodnou volbou, a oddělit pocit studu z přiz
 těch, kdo ho vyžadovali a zneužili. Facilitátor nebo terapeut, který s otevřeným rámcem pracuje,
 by měl vždy předem říct, co se se sděleními stane, a dodržet to.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,25 +215,25 @@ by měl vždy předem říct, co se se sděleními stane, a dodržet to.
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzný vzorec (Reframing a rámce, Backtrack frame)
-- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – příbuzný vzorec (Reframing a rámce, Relevancy challenge)
-- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzný vzorec (Raport a kalibrace, Group rapport)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzné heslo (Reframing a rámce, Backtrack frame)
+- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – příbuzné heslo (Reframing a rámce, Relevancy challenge)
+- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzné heslo (Raport a kalibrace, Group rapport)
 
 **V kompendiu**
 
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – předchozí vzorec rodiny
-- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – předchozí heslo rodiny
+- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

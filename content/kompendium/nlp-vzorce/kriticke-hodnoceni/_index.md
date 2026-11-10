@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-kriticke-hodnoceni"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Kritické hodnocení NLP", "Critical appraisal of NLP", "NLP"]
+keywords = ["Kritické hodnocení NLP", "Critical appraisal of NLP", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "kriticke-hodnoceni"
-nlp_code = "22"
-nlp_en = "Critical appraisal of NLP"
-nlp_size = 14
-nlp_members = ["stav-dukazu-nlp", "vyzkum-preferovaneho-systemu", "vyzkum-ocnich-signalu", "nlp-jako-pseudoveda", "delfska-studie", "systematicky-prehled-zdravi", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "nlp-v-koucinku-vyzkum", "falzifikovatelnost-nlp", "historie-nlp", "koreny-nlp", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
-nlp_types = ["concept"]
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "kriticke-hodnoceni"
+catalog_code = "22"
+catalog_en = "Critical appraisal of NLP"
+catalog_size = 14
+catalog_members = ["stav-dukazu-nlp", "vyzkum-preferovaneho-systemu", "vyzkum-ocnich-signalu", "nlp-jako-pseudoveda", "delfska-studie", "systematicky-prehled-zdravi", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "nlp-v-koucinku-vyzkum", "falzifikovatelnost-nlp", "historie-nlp", "koreny-nlp", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
+catalog_types = ["concept"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Kritické hodnocení NLP
@@ -149,12 +151,12 @@ vlastnímu zájmu, oporou při obnově důvěry ve vlastní úsudek. Obecné pri
 empirické literatury, které rodina uplatňuje, popisuje stránka o [empirické výzkumné
 bázi](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-22.01` | [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) | State of the evidence on NLP | pojem | výkladový pojem | střední |
 | `NLP-22.02` | [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) | Research on the preferred representational system | pojem | výkladový pojem | nízké |
 | `NLP-22.03` | [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) | Research on eye accessing cues | pojem | výkladový pojem | střední |
@@ -169,6 +171,58 @@ bázi](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md).
 | `NLP-22.12` | [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) | Roots of NLP: Satir, Perls, Erickson | pojem | výkladový pojem | nízké |
 | `NLP-22.13` | [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) | NLP as cargo-cult psychology | pojem | výkladový pojem | střední |
 | `NLP-22.14` | [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) | How to read NLP claims | pojem | výkladový pojem | nízké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Kritické hodnocení NLP"]
+  click F "@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md"
+  n1["Stav důkazů o NLP"]
+  n2["Výzkum preferovaného reprezentačního systému"]
+  n3["Výzkum očních přístupových signálů"]
+  n4["NLP jako pseudověda"]
+  n5["Delfská studie zdiskreditovaných metod"]
+  n6["Systematický přehled účinků na zdraví"]
+  n7["Databáze výzkumu NLP"]
+  n8["Hodnocení Národní rady pro výzkum USA"]
+  n9["Výzkum NLP v koučinku"]
+  n10["Falzifikovatelnost NLP"]
+  n11["Historie NLP"]
+  n12["Kořeny NLP: Satirová, Perls, Erickson"]
+  n13["NLP jako kargokultovní psychologie"]
+  n14["Jak číst tvrzení NLP"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  F --> n4
+  n1 --> n5
+  n1 --> n6
+  n1 --> n7
+  n1 --> n8
+  n1 --> n9
+  n4 --> n10
+  F --> n11
+  n11 --> n12
+  n4 --> n13
+  n1 --> n14
+  click n1 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md"
+  click n2 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md"
+  click n3 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md"
+  click n4 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md"
+  click n5 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md"
+  click n6 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md"
+  click n7 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md"
+  click n8 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md"
+  click n9 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md"
+  click n10 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md"
+  click n11 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md"
+  click n12 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md"
+  click n13 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md"
+  click n14 "@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md"
+```
 
 ## Literatura
 
@@ -192,6 +246,6 @@ bázi](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md).
 
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – předchozí rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

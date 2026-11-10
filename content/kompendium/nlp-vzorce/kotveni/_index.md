@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-kotveni"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Kotvení", "Anchoring", "NLP"]
+keywords = ["Kotvení", "Anchoring", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "kotveni"
-nlp_code = "09"
-nlp_en = "Anchoring"
-nlp_size = 19
-nlp_members = ["kotveni", "samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "kruh-excelence", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "herman-1992", "lankton-1980", "oconnor-seymour-1990", "passmore-rowson-2019", "pavlov-1927", "singer-lalich-1995", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "kotveni"
+catalog_code = "09"
+catalog_en = "Anchoring"
+catalog_size = 19
+catalog_members = ["kotveni", "samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "kruh-excelence", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "herman-1992", "lankton-1980", "oconnor-seymour-1990", "passmore-rowson-2019", "pavlov-1927", "singer-lalich-1995", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
 +++
 
 # Kotvení
@@ -161,12 +163,12 @@ reagují na jeho symboly, písně nebo hlasy silnými stavy, pomáhá odborná p
 reakce chápe jako připomínky minulé zkušenosti a pracuje s nimi postupně v bezpečném vztahu
 (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-09.01` | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) | Anchoring | vzorec | terapeutické i vlivové | střední |
 | `NLP-09.02` | [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) | Self-anchoring | vzorec | převážně terapeutické | nízké |
 | `NLP-09.03` | [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) | Chaining anchors | vzorec | terapeutické i vlivové | střední |
@@ -186,6 +188,73 @@ reakce chápe jako připomínky minulé zkušenosti a pracuje s nimi postupně v
 | `NLP-09.17` | [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) | Unintended anchors and triggers | vzorec | terapeutické i vlivové | střední |
 | `NLP-09.18` | [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) | Anchoring in controlling relationships | vzorec | převážně vlivové | vysoké |
 | `NLP-09.19` | [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) | NLP anchoring versus the anchoring heuristic | pojem | výkladový pojem | nízké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Kotvení"]
+  click F "@/kompendium/nlp-vzorce/kotveni/_index.md"
+  n1["Kotvení"]
+  n2["Samokotvení"]
+  n3["Řetězení kotev"]
+  n4["Kolaps kotev"]
+  n5["Vrstvení kotev"]
+  n6["Prostorové kotvení"]
+  n7["Kruh excelence"]
+  n8["Posuvná kotva"]
+  n9["Auditivní a tonální kotvy"]
+  n10["Vizuální kotvy"]
+  n11["Kinestetické kotvy"]
+  n12["Kotvy v prezentaci a vystoupení"]
+  n13["Přenos zdroje"]
+  n14["Testování kotvy"]
+  n15["Kotvení ve skupině"]
+  n16["Kotvy v reklamě a značkách"]
+  n17["Nechtěné kotvy a spouštěče"]
+  n18["Kotvení v kontrolujících vztazích"]
+  n19["Kotvení v NLP a efekt ukotvení"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  n1 --> n5
+  n1 --> n6
+  n6 --> n7
+  n1 --> n8
+  n1 --> n9
+  n1 --> n10
+  n1 --> n11
+  n1 --> n12
+  n1 --> n13
+  n1 --> n14
+  n1 --> n15
+  n1 --> n16
+  n1 --> n17
+  n1 --> n18
+  F --> n19
+  click n1 "@/kompendium/nlp-vzorce/kotveni/kotveni.md"
+  click n2 "@/kompendium/nlp-vzorce/kotveni/samokotveni.md"
+  click n3 "@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md"
+  click n4 "@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md"
+  click n5 "@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md"
+  click n6 "@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md"
+  click n7 "@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md"
+  click n8 "@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md"
+  click n9 "@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md"
+  click n10 "@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md"
+  click n11 "@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md"
+  click n12 "@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md"
+  click n13 "@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md"
+  click n14 "@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md"
+  click n15 "@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md"
+  click n16 "@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md"
+  click n17 "@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md"
+  click n18 "@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md"
+  click n19 "@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md"
+```
 
 ## Literatura
 
@@ -210,6 +279,6 @@ reakce chápe jako připomínky minulé zkušenosti a pracuje s nimi postupně v
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – předchozí rodina katalogu
 - [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

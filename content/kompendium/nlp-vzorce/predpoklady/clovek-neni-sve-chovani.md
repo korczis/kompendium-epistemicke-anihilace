@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Člověk není své chování", "People are not their behaviour", "oddělení identity a chování", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Člověk není své chování", "People are not their behaviour", "oddělení identity a chování", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.09"
-nlp_slug = "clovek-neni-sve-chovani"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "People are not their behaviour"
-nlp_aliases = ["oddělení identity a chování"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["pozitivni-zamer-chovani", "logicke-urovne-pojem", "som-zamer", "uroven-chovani", "uroven-identity", "zamena-logickych-urovni", "presvedceni-o-identite"]
-nlp_related_declared = ["uroven-identity", "uroven-chovani", "pozitivni-zamer-chovani", "presvedceni-o-identite", "zamena-logickych-urovni"]
-nlp_kompendium = ["kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_prev = "respekt-k-modelu-sveta"
-nlp_next = "nejlepsi-dostupna-volba"
-nlp_position = 9
-nlp_family_size = 21
-nlp_sources = ["bateson-1972", "beck-1976", "dilts-1990", "ellis-1962", "herman-1992", "korzybski-1933", "lifton-1961", "passmore-rowson-2019", "satir-1972", "stark-2007", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990"]
-nlp_sources_roots = ["bateson-1972", "korzybski-1933", "satir-1972"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.09"
+catalog_slug = "clovek-neni-sve-chovani"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "People are not their behaviour"
+catalog_aliases = ["oddělení identity a chování"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["pozitivni-zamer-chovani", "logicke-urovne-pojem", "som-zamer", "uroven-chovani", "uroven-identity", "zamena-logickych-urovni", "presvedceni-o-identite"]
+catalog_related_declared = ["uroven-identity", "uroven-chovani", "pozitivni-zamer-chovani", "presvedceni-o-identite", "zamena-logickych-urovni"]
+catalog_kompendium = ["kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_prev = "respekt-k-modelu-sveta"
+catalog_next = "nejlepsi-dostupna-volba"
+catalog_position = 9
+catalog_family_size = 21
+catalog_sources = ["bateson-1972", "beck-1976", "dilts-1990", "ellis-1962", "herman-1992", "korzybski-1933", "lifton-1961", "passmore-rowson-2019", "satir-1972", "stark-2007", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990"]
+catalog_sources_roots = ["bateson-1972", "korzybski-1933", "satir-1972"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Člověk není své chování
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | People are not their behaviour |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ někdo vnutil. Odborník, který s předpokladem pracuje, by ho měl používat 
 tedy ke snížení zahanbení, a nikdy k tomu, aby klient přijal ubližující chování druhých jako
 něco, co o nich „nevypovídá“.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,27 +216,27 @@ něco, co o nich „nevypovídá“.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Logical levels (concept))
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzný vzorec (Sleight of Mouth, Intention)
-- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Behaviour level)
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Identity level)
-- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Confusing logical levels)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – příbuzné heslo (Základní pojmy NLP, Logical levels (concept))
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzné heslo (Sleight of Mouth, Intention)
+- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Behaviour level)
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzné heslo (Logické úrovně a percepční pozice, Identity level)
+- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Confusing logical levels)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
 
 **V kompendiu**
 
-- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – předchozí vzorec rodiny
-- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – předchozí heslo rodiny
+- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

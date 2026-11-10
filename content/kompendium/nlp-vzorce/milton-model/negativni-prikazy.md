@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Záporné příkazy", "Negative commands", "sugesce v záporu", "negativní sugesce", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Záporné příkazy", "Negative commands", "sugesce v záporu", "negativní sugesce", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.26"
-nlp_slug = "negativni-prikazy"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Negative commands"
-nlp_aliases = ["sugesce v záporu", "negativní sugesce"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["vlozene-prikazy", "analogove-znaceni", "konverzacni-postulaty", "paradoxni-intervence", "pozitivni-formulace-cile", "zkusit"]
-nlp_related_declared = ["vlozene-prikazy", "analogove-znaceni", "paradoxni-intervence", "konverzacni-postulaty"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/analogove-znaceni.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "iluze-volby"
-nlp_next = "pacing-aktualni-zkusenosti"
-nlp_position = 26
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "erickson-rossi-1979", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-1979", "watzlawick-1974"]
-nlp_sources_critical = ["heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.26"
+catalog_slug = "negativni-prikazy"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Negative commands"
+catalog_aliases = ["sugesce v záporu", "negativní sugesce"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["vlozene-prikazy", "analogove-znaceni", "konverzacni-postulaty", "paradoxni-intervence", "pozitivni-formulace-cile", "zkusit"]
+catalog_related_declared = ["vlozene-prikazy", "analogove-znaceni", "paradoxni-intervence", "konverzacni-postulaty"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/analogove-znaceni.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "iluze-volby"
+catalog_next = "pacing-aktualni-zkusenosti"
+catalog_position = 26
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "erickson-rossi-1979", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-1979", "watzlawick-1974"]
+catalog_sources_critical = ["heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.c.toml"
 +++
 
 # Záporné příkazy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.26` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Negative commands |
 | **Jiné názvy** | sugesce v záporu, negativní sugesce |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ způsobem, se pracuje s rekonstrukcí toho, co bylo skutečně řečeno, a s odd
 tvrzení od naznačených (Herman 1992). Zápis rozhovorů, pokud je to možné a bezpečné, pomáhá
 rozlišit, co mluvčí řekl a co si posluchač domyslel.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -210,27 +213,27 @@ rozlišit, co mluvčí řekl a co si posluchač domyslel.
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – příbuzný vzorec (Milton-model, Analogue marking)
-- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – příbuzný vzorec (Milton-model, Conversational postulates)
-- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzný vzorec (Ericksonovská hypnóza, Paradoxical intervention)
-- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – příbuzný vzorec (Cíle a výsledky, Stated in the positive)
-- [Slovo „zkusit“](@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md) – příbuzný vzorec (Jazykové vzorce, Try)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – příbuzné heslo (Milton-model, Analogue marking)
+- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – příbuzné heslo (Milton-model, Conversational postulates)
+- [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – příbuzné heslo (Ericksonovská hypnóza, Paradoxical intervention)
+- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – příbuzné heslo (Cíle a výsledky, Stated in the positive)
+- [Slovo „zkusit“](@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md) – příbuzné heslo (Jazykové vzorce, Try)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – předchozí vzorec rodiny
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – předchozí heslo rodiny
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

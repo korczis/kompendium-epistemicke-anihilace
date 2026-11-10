@@ -1,0 +1,94 @@
+# Katalogy knihy (pravidlo project.content-catalogs). Jeden engine, scripts/catalogs.py, z této
+# deklarace odvozuje každý katalog: jeho sekci, stránky hesel a rodin, front matter, vazby,
+# literaturu, exporty a data trenéru. Nový katalog = nový blok [[catalog]] a adresář s daty;
+# žádný nový skript, šablona ani brána. Bibliografie je společná: data/sources.toml.
+#
+# Pole bloku:
+#   slug, dir, section, title, en       identita, adresář dat, sekce v content/, názvy
+#   id_prefix                           identifikátor hesla je <prefix>-<kód rodiny>.NN
+#   tag, icon, weight                   štítek sekce, ikona a pořadí sekce v kompendiu
+#   noun, noun_plural                   jak sekce nazývá svá hesla v odvozených textech
+#   required                            povinné oddíly prózy hesla, v pořadí
+#   evidence                            oddíl, který musí citovat dílo skupiny "critical"
+#   types, uses, risks                  slovníky polí hesla (klíč = hodnota v datech)
+#   provenance (volitelné)              vazba hesel na jednu knihu, která nebyla ověřena
+
+schema = 1
+trainer = "kompendium/trener.md"
+index = "static/data/katalogy.json"
+
+[[catalog]]
+slug = "nlp"
+dir = "data/nlp"
+section = "kompendium/nlp-vzorce"
+title = "NLP vzorce"
+en = "NLP patterns"
+id_prefix = "NLP"
+tag = "nlp"
+icon = "🗣️"
+weight = 105
+noun = "vzorec"
+noun_plural = "vzorce"
+required = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky",
+            "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+evidence = "Stav důkazů"
+export = "static/data/nlp-katalog.json"
+trainer_data = "static/data/nlp-trener.json"
+
+[catalog.types]
+pattern = "vzorec"
+principle = "princip"
+concept = "pojem"
+
+[catalog.uses]
+terapie = "převážně terapeutické"
+vliv = "převážně vlivové"
+dvoji = "terapeutické i vlivové"
+zadne = "výkladový pojem"
+
+[catalog.risks]
+nizke = "nízké"
+stredni = "střední"
+vysoke = "vysoké"
+
+[catalog.provenance]
+field = "vaknin"
+label = "Vazba na Vaknin 2008"
+source = "vaknin-2008"
+inferred = "odvozená: obsah knihy nebyl ověřen"
+observed = "doložená v obsahu knihy"
+
+[[catalog]]
+slug = "fauly"
+dir = "data/fauly"
+section = "kompendium/argumentacni-fauly"
+title = "Argumentační fauly"
+en = "Fallacies of argument"
+id_prefix = "AF"
+tag = "fauly"
+icon = "⚖️"
+weight = 106
+noun = "faul"
+noun_plural = "fauly"
+required = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky",
+            "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
+evidence = "Stav poznání"
+export = "static/data/fauly-katalog.json"
+trainer_data = "static/data/fauly-trener.json"
+
+[catalog.types]
+formal = "formální klam"
+informal = "neformální klam"
+tactic = "rétorická taktika"
+concept = "pojem a princip"
+
+[catalog.uses]
+chyba = "převážně chyba uvažování"
+vliv = "převážně záměrná taktika"
+dvoji = "chyba i taktika"
+zadne = "výkladový pojem"
+
+[catalog.risks]
+nizke = "nízké"
+stredni = "střední"
+vysoke = "vysoké"

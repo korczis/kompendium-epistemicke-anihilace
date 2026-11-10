@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Raport jako nástroj vlivu", "Rapport as an influence tool", "instrumentální raport", "budování raportu za účelem vlivu", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Raport jako nástroj vlivu", "Rapport as an influence tool", "instrumentální raport", "budování raportu za účelem vlivu", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.13"
-nlp_slug = "raport-jako-nastroj-vlivu"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Rapport as an influence tool"
-nlp_aliases = ["instrumentální raport", "budování raportu za účelem vlivu"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "raport"
-nlp_narrower = ["pseudoempatie"]
-nlp_depth = 1
-nlp_ancestors = ["raport"]
-nlp_related = ["vyznam-komunikace-je-reakce", "zakon-pozadovane-variety", "odpor-jako-nedostatek-raportu", "raport", "pacing-a-leading-pojem", "utilizace", "kotveni-v-kontrolujicich-vztazich", "druha-pozice", "duvera", "zrcadleni", "pacing-a-leading", "vedeni-v-raportu", "sladeni-hodnot", "pseudoempatie", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "falesne-zrcadleni-v-podvodech", "obrana-proti-vlivovym-vzorcum"]
-nlp_related_declared = ["raport", "nlp-v-prodeji", "falesne-zrcadleni-v-podvodech", "pseudoempatie", "obrana-proti-vlivovym-vzorcum", "vedeni-v-raportu"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
-nlp_prev = "sladeni-hodnot"
-nlp_next = "detekce-lzi-v-nlp"
-nlp_position = 13
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.13"
+catalog_slug = "raport-jako-nastroj-vlivu"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Rapport as an influence tool"
+catalog_aliases = ["instrumentální raport", "budování raportu za účelem vlivu"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "raport"
+catalog_narrower = ["pseudoempatie"]
+catalog_depth = 1
+catalog_ancestors = ["raport"]
+catalog_related = ["lichotka", "vyznam-komunikace-je-reakce", "zakon-pozadovane-variety", "odpor-jako-nedostatek-raportu", "raport", "pacing-a-leading-pojem", "utilizace", "kotveni-v-kontrolujicich-vztazich", "druha-pozice", "duvera", "zrcadleni", "pacing-a-leading", "vedeni-v-raportu", "sladeni-hodnot", "pseudoempatie", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "falesne-zrcadleni-v-podvodech", "obrana-proti-vlivovym-vzorcum"]
+catalog_related_declared = ["raport", "nlp-v-prodeji", "falesne-zrcadleni-v-podvodech", "pseudoempatie", "obrana-proti-vlivovym-vzorcum", "vedeni-v-raportu"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/nlp-vzorce/zakladni-pojmy/raport.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
+catalog_prev = "sladeni-hodnot"
+catalog_next = "detekce-lzi-v-nlp"
+catalog_position = 13
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.b.toml"
 +++
 
 # Raport jako nástroj vlivu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Rapport as an influence tool |
 | **Jiné názvy** | instrumentální raport, budování raportu za účelem vlivu |
-| **Obecnější vzorec** | [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) |
+| **Obecnější heslo** | [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ finanční ztrátě, protože ztratili i vztah, který prožívali jako skutečn
 proto zaměřuje na zpracování zrady a studu a na obnovu schopnosti důvěřovat, aniž by se
 z opatrnosti stala trvalá nedůvěra ke všem.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,41 +223,42 @@ z opatrnosti stala trvalá nedůvěra ke všem.
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – zvláštní případ tohoto vzorce
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzný vzorec (Předpoklady NLP, The meaning of communication is the response you get)
-- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzný vzorec (Předpoklady NLP, The law of requisite variety)
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzný vzorec (Předpoklady NLP, Resistance indicates a lack of rapport)
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Pacing and leading (concept))
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Second position)
-- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – příbuzný vzorec (Metaprogramy, Trust)
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzný vzorec (Raport a kalibrace, Pacing and leading)
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzný vzorec (Raport a kalibrace, Leading in rapport)
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzný vzorec (Raport a kalibrace, Value matching)
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzný vzorec (Raport a kalibrace, Simulated empathy)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzný vzorec (Vliv a zneužití NLP, Mirroring in scams)
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzný vzorec (Vliv a zneužití NLP, Defence against influence patterns)
+- [Lichotka](@/kompendium/argumentacni-fauly/relevance/lichotka.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to flattery)
+- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzné heslo (Předpoklady NLP, The meaning of communication is the response you get)
+- [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – příbuzné heslo (Předpoklady NLP, The law of requisite variety)
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzné heslo (Předpoklady NLP, Resistance indicates a lack of rapport)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzné heslo (Základní pojmy NLP, Pacing and leading (concept))
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Second position)
+- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – příbuzné heslo (Metaprogramy, Trust)
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) – příbuzné heslo (Raport a kalibrace, Pacing and leading)
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzné heslo (Raport a kalibrace, Leading in rapport)
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzné heslo (Raport a kalibrace, Simulated empathy)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzné heslo (Vliv a zneužití NLP, Mirroring in scams)
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzné heslo (Vliv a zneužití NLP, Defence against influence patterns)
 
 **V kompendiu**
 
-- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.1 Model BITE v praxi (Hassan)](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.1 Model BITE v praxi (Hassan)](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – předchozí vzorec rodiny
-- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – předchozí heslo rodiny
+- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

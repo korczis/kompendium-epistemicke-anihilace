@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Předstíraná empatie", "Simulated empathy", "pseudoempatie", "strategická empatie", "Raport a kalibrace", "NLP", "neurolingvistické programování"]
+keywords = ["Předstíraná empatie", "Simulated empathy", "pseudoempatie", "strategická empatie", "Raport a kalibrace", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-18.16"
-nlp_slug = "pseudoempatie"
-nlp_family = "raport-a-kalibrace"
-nlp_family_code = "18"
-nlp_family_title = "Raport a kalibrace"
-nlp_family_en = "Rapport and calibration"
-nlp_part = "raport-a-kalibrace.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Simulated empathy"
-nlp_aliases = ["pseudoempatie", "strategická empatie"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "raport-jako-nastroj-vlivu"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["raport-jako-nastroj-vlivu", "raport"]
-nlp_related = ["respekt-k-modelu-sveta", "raport", "cteni-myslenek", "cteni-myslenek-milton", "druha-pozice", "ja-a-druzi", "zrcadleni", "zpetne-shrnuti", "sladeni-hodnot", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "falesne-zrcadleni-v-podvodech"]
-nlp_related_declared = ["raport-jako-nastroj-vlivu", "zrcadleni", "zpetne-shrnuti", "falesne-zrcadleni-v-podvodech", "nlp-v-komunite-svadeni", "sladeni-hodnot"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
-nlp_prev = "cteni-reci-tela"
-nlp_next = ""
-nlp_position = 16
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "grinder-delozier-1987", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "grinder-delozier-1987"]
-nlp_sources_roots = []
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/raport-a-kalibrace.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-18.16"
+catalog_slug = "pseudoempatie"
+catalog_family = "raport-a-kalibrace"
+catalog_family_code = "18"
+catalog_family_title = "Raport a kalibrace"
+catalog_family_en = "Rapport and calibration"
+catalog_part = "raport-a-kalibrace.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Simulated empathy"
+catalog_aliases = ["pseudoempatie", "strategická empatie"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "raport-jako-nastroj-vlivu"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["raport-jako-nastroj-vlivu", "raport"]
+catalog_related = ["odvolani-na-soucit", "lichotka", "respekt-k-modelu-sveta", "raport", "cteni-myslenek", "cteni-myslenek-milton", "druha-pozice", "ja-a-druzi", "zrcadleni", "zpetne-shrnuti", "sladeni-hodnot", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "falesne-zrcadleni-v-podvodech"]
+catalog_related_declared = ["raport-jako-nastroj-vlivu", "zrcadleni", "zpetne-shrnuti", "falesne-zrcadleni-v-podvodech", "nlp-v-komunite-svadeni", "sladeni-hodnot"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
+catalog_prev = "cteni-reci-tela"
+catalog_next = ""
+catalog_position = 16
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "grinder-delozier-1987", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "grinder-delozier-1987"]
+catalog_sources_roots = []
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/raport-a-kalibrace.b.toml"
 +++
 
 # Předstíraná empatie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-18.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Simulated empathy |
 | **Jiné názvy** | pseudoempatie, strategická empatie |
-| **Obecnější vzorec** | [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) |
+| **Obecnější heslo** | [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ nestojí, od vztahů, ve kterých je nabízeno za cenu. Herman popisuje obnovu s
 navazovat vztahy jako závěrečnou fázi zotavení po traumatu, které narušilo důvěru
 (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,33 +219,35 @@ navazovat vztahy jako závěrečnou fázi zotavení po traumatu, které narušil
 
 **Rodina a hierarchie**
 
-- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzný vzorec (Předpoklady NLP, Respect for the other person's model of the world)
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzný vzorec (Meta-model, Mind reading)
-- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzný vzorec (Milton-model, Mind reading (Milton Model))
-- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Second position)
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzný vzorec (Metaprogramy, Self and other)
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – příbuzný vzorec (Raport a kalibrace, Backtracking)
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzný vzorec (Raport a kalibrace, Value matching)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzný vzorec (Vliv a zneužití NLP, Mirroring in scams)
+- [Odvolání na soucit](@/kompendium/argumentacni-fauly/relevance/odvolani-na-soucit.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to pity)
+- [Lichotka](@/kompendium/argumentacni-fauly/relevance/lichotka.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to flattery)
+- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzné heslo (Předpoklady NLP, Respect for the other person's model of the world)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
+- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzné heslo (Milton-model, Mind reading (Milton Model))
+- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Second position)
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzné heslo (Metaprogramy, Self and other)
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – příbuzné heslo (Raport a kalibrace, Backtracking)
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzné heslo (Vliv a zneužití NLP, Mirroring in scams)
 
 **V kompendiu**
 
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

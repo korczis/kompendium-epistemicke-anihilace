@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Modální operátory v Milton-modelu", "Modal operators (Milton Model)", "permisivní modalita", "operátory nutnosti a možnosti v sugesci", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Modální operátory v Milton-modelu", "Modal operators (Milton Model)", "permisivní modalita", "operátory nutnosti a možnosti v sugesci", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.21"
-nlp_slug = "modalni-operatory-milton"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Modal operators (Milton Model)"
-nlp_aliases = ["permisivní modalita", "operátory nutnosti a možnosti v sugesci"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["modalni-operator-nutnosti", "modalni-operator-moznosti", "univerzalni-kvantifikatory-milton", "iluze-volby", "presupozice-milton"]
-nlp_related_declared = ["modalni-operator-nutnosti", "modalni-operator-moznosti", "presupozice-milton", "iluze-volby"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-11-modalni-dezorientace.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md"]
-nlp_prev = "univerzalni-kvantifikatory-milton"
-nlp_next = "nominalizace-milton"
-nlp_position = 21
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "ellis-1962", "erickson-rossi-rossi-1976", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "stark-2007", "sturt-2012", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "watzlawick-1967"]
-nlp_sources_critical = ["ellis-1962", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.21"
+catalog_slug = "modalni-operatory-milton"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Modal operators (Milton Model)"
+catalog_aliases = ["permisivní modalita", "operátory nutnosti a možnosti v sugesci"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["modalni-operator-nutnosti", "modalni-operator-moznosti", "univerzalni-kvantifikatory-milton", "iluze-volby", "presupozice-milton"]
+catalog_related_declared = ["modalni-operator-nutnosti", "modalni-operator-moznosti", "presupozice-milton", "iluze-volby"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-11-modalni-dezorientace.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md"]
+catalog_prev = "univerzalni-kvantifikatory-milton"
+catalog_next = "nominalizace-milton"
+catalog_position = 21
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "ellis-1962", "erickson-rossi-rossi-1976", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "stark-2007", "sturt-2012", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "watzlawick-1967"]
+catalog_sources_critical = ["ellis-1962", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.c.toml"
 +++
 
 # Modální operátory v Milton-modelu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.21` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Modal operators (Milton Model) |
 | **Jiné názvy** | permisivní modalita, operátory nutnosti a možnosti v sugesci |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ přijal, a pravidly, která sám chce (Herman 1992). Odborník, který permisivn
 v terapii, by měl dbát, aby svolení, která nabízí, byla skutečná, a aby je klient mohl
 využít i proti terapeutovým návrhům.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,27 +219,27 @@ využít i proti terapeutovým návrhům.
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – příbuzný vzorec (Meta-model, Modal operator of necessity)
-- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – příbuzný vzorec (Meta-model, Modal operator of possibility)
-- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – příbuzný vzorec (Milton-model, Universal quantifiers (Milton Model))
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzný vzorec (Milton-model, Presuppositions (Milton Model))
+- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – příbuzné heslo (Meta-model, Modal operator of necessity)
+- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – příbuzné heslo (Meta-model, Modal operator of possibility)
+- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – příbuzné heslo (Milton-model, Universal quantifiers (Milton Model))
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzné heslo (Milton-model, Presuppositions (Milton Model))
 
 **V kompendiu**
 
-- [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – předchozí vzorec rodiny
-- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – předchozí heslo rodiny
+- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

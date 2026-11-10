@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Možnosti a postupy", "Options and procedures", "důvod volby", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Možnosti a postupy", "Options and procedures", "důvod volby", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.03"
-nlp_slug = "moznosti-a-postupy"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Options and procedures"
-nlp_aliases = ["důvod volby"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["strategie-pojem", "iluze-volby", "struktura-pravidel", "filozoficky-smer", "adaptace", "alternativni-zaver", "nlp-v-sektach"]
-nlp_related_declared = ["iluze-volby", "strategie-pojem", "struktura-pravidel", "alternativni-zaver", "nlp-v-sektach"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/case-studies/62-startup-founder-cult.md"]
-nlp_links_prose = ["kompendium/case-studies/62-startup-founder-cult.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "vnitrni-a-vnejsi-reference"
-nlp_next = "obecne-a-specificke"
-nlp_position = 3
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "dilts-1980", "gilovich-1991", "hall-bodenhamer-1997", "langer-1978", "lilienfeld-2015", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "dilts-1980", "hall-bodenhamer-1997", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["gilovich-1991", "langer-1978", "lilienfeld-2015", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.03"
+catalog_slug = "moznosti-a-postupy"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Options and procedures"
+catalog_aliases = ["důvod volby"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["strategie-pojem", "iluze-volby", "struktura-pravidel", "filozoficky-smer", "adaptace", "alternativni-zaver", "nlp-v-sektach"]
+catalog_related_declared = ["iluze-volby", "strategie-pojem", "struktura-pravidel", "alternativni-zaver", "nlp-v-sektach"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/case-studies/62-startup-founder-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/62-startup-founder-cult.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "vnitrni-a-vnejsi-reference"
+catalog_next = "obecne-a-specificke"
+catalog_position = 3
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "dilts-1980", "gilovich-1991", "hall-bodenhamer-1997", "langer-1978", "lilienfeld-2015", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "dilts-1980", "hall-bodenhamer-1997", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["gilovich-1991", "langer-1978", "lilienfeld-2015", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.toml"
 +++
 
 # Možnosti a postupy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Options and procedures |
 | **Jiné názvy** | důvod volby |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ Pomáhá postupné obnovování vlastních voleb v malých věcech a podpora, kt
 neomylný systém. Příklad prostředí, kde se podobná dynamika rozvinula v podnikání, popisuje
 kazuistika [kultu zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,29 +214,29 @@ kazuistika [kultu zakladatele startupu](@/kompendium/case-studies/62-startup-fou
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
-- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzný vzorec (Metaprogramy, Rule structure)
-- [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – příbuzný vzorec (Metaprogramy, Philosophical direction)
-- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – příbuzný vzorec (Metaprogramy, Adaptation (judging and perceiving))
-- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Alternative close)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
+- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzné heslo (Metaprogramy, Rule structure)
+- [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – příbuzné heslo (Metaprogramy, Philosophical direction)
+- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – příbuzné heslo (Metaprogramy, Adaptation (judging and perceiving))
+- [Alternativní uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Alternative close)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
 
 **V kompendiu**
 
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – předchozí vzorec rodiny
-- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – předchozí heslo rodiny
+- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

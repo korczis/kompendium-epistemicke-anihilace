@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kinestetické kotvy", "Kinaesthetic anchors", "dotykové kotvy", "tělesné kotvy", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Kinestetické kotvy", "Kinaesthetic anchors", "dotykové kotvy", "tělesné kotvy", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.11"
-nlp_slug = "kinesteticke-kotvy"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Kinaesthetic anchors"
-nlp_aliases = ["dotykové kotvy", "tělesné kotvy"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["kinesteticky-system", "kalibrace", "stav", "kotva-pojem", "kotveni", "samokotveni", "kolaps-kotev", "posuvna-kotva", "kotveni-v-kontrolujicich-vztazich", "kinesteticke-submodality", "kinesteticky-swish"]
-nlp_related_declared = ["kotva-pojem", "kotveni", "kinesteticky-system", "kolaps-kotev", "stav", "kalibrace"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md"]
-nlp_prev = "vizualni-kotvy"
-nlp_next = "kotvy-v-prezentaci"
-nlp_position = 11
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "lankton-1980", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "lankton-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.11"
+catalog_slug = "kinesteticke-kotvy"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Kinaesthetic anchors"
+catalog_aliases = ["dotykové kotvy", "tělesné kotvy"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["kinesteticky-system", "kalibrace", "stav", "kotva-pojem", "kotveni", "samokotveni", "kolaps-kotev", "posuvna-kotva", "kotveni-v-kontrolujicich-vztazich", "kinesteticke-submodality", "kinesteticky-swish"]
+catalog_related_declared = ["kotva-pojem", "kotveni", "kinesteticky-system", "kolaps-kotev", "stav", "kalibrace"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md"]
+catalog_prev = "vizualni-kotvy"
+catalog_next = "kotvy-v-prezentaci"
+catalog_position = 11
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "lankton-1980", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "lankton-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.b.toml"
 +++
 
 # Kinestetické kotvy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Kinaesthetic anchors |
 | **Jiné názvy** | dotykové kotvy, tělesné kotvy |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ které pracují s tělem a s obnovou bezpečí (Herman 1992). V takové situaci 
 klinicky kvalifikovaný odborník, ne další technika NLP. Zotavení spočívá v obnově pocitu, že
 tělo patří člověku samému a že jeho reakce dávají smysl vzhledem k tomu, co zažil.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,33 +214,33 @@ tělo patří člověku samému a že jeho reakce dávají smysl vzhledem k tomu
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzný vzorec (Základní pojmy NLP, Kinaesthetic representational system)
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – příbuzný vzorec (Kotvení, Self-anchoring)
-- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzný vzorec (Kotvení, Collapsing anchors)
-- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – příbuzný vzorec (Kotvení, Sliding anchor)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzný vzorec (Submodality, Kinaesthetic submodalities)
-- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzný vzorec (Submodality, Kinaesthetic swish)
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzné heslo (Základní pojmy NLP, Kinaesthetic representational system)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – příbuzné heslo (Kotvení, Self-anchoring)
+- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzné heslo (Kotvení, Collapsing anchors)
+- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – příbuzné heslo (Kotvení, Sliding anchor)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzné heslo (Submodality, Kinaesthetic submodalities)
+- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzné heslo (Submodality, Kinaesthetic swish)
 
 **V kompendiu**
 
-- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.9 Body-oriented therapy protokol](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.9 Body-oriented therapy protokol](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – předchozí vzorec rodiny
-- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – předchozí heslo rodiny
+- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

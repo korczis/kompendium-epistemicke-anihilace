@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Změna vnitřního hlasu", "Changing the inner voice", "změna vnitřního dialogu", "submodality vnitřního hlasu", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Změna vnitřního hlasu", "Changing the inner voice", "změna vnitřního dialogu", "submodality vnitřního hlasu", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.16"
-nlp_slug = "zmena-vnitrniho-hlasu"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Changing the inner voice"
-nlp_aliases = ["změna vnitřního dialogu", "submodality vnitřního hlasu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["zmena-kriticke-sebeprezentace"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["auditivne-digitalni-system", "vnitrni-dialog", "auditivni-kotvy", "auditivni-submodality", "kriticke-submodality", "auditivni-swish", "zmena-kriticke-sebeprezentace"]
-nlp_related_declared = ["auditivni-submodality", "auditivni-swish", "zmena-kriticke-sebeprezentace", "kriticke-submodality", "auditivni-kotvy"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
-nlp_prev = "prahovy-vzorec"
-nlp_next = "filmova-technika"
-nlp_position = 16
-nlp_family_size = 20
-nlp_sources = ["bandler-1985", "beck-1976", "ellis-1962", "heap-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "perls-1969", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "oconnor-seymour-1990"]
-nlp_sources_roots = ["perls-1969"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.16"
+catalog_slug = "zmena-vnitrniho-hlasu"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Changing the inner voice"
+catalog_aliases = ["změna vnitřního dialogu", "submodality vnitřního hlasu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["zmena-kriticke-sebeprezentace"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["auditivne-digitalni-system", "vnitrni-dialog", "auditivni-kotvy", "auditivni-submodality", "kriticke-submodality", "auditivni-swish", "zmena-kriticke-sebeprezentace"]
+catalog_related_declared = ["auditivni-submodality", "auditivni-swish", "zmena-kriticke-sebeprezentace", "kriticke-submodality", "auditivni-kotvy"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
+catalog_prev = "prahovy-vzorec"
+catalog_next = "filmova-technika"
+catalog_position = 16
+catalog_family_size = 20
+catalog_sources = ["bandler-1985", "beck-1976", "ellis-1962", "heap-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "perls-1969", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "oconnor-seymour-1990"]
+catalog_sources_roots = ["perls-1969"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Změna vnitřního hlasu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Changing the inner voice |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/submodality.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -183,7 +186,7 @@ popisuje, že obnova vnitřní autonomie probíhá v bezpečném vztahu, kde má
 formulovat vlastní hodnocení (Herman 1992). Terapeut může pomoci rozlišit, které vnitřní hlasy
 jsou převzaté a které vlastní, aniž by do vnitřního dialogu klienta vkládal svůj hlas. Pomáhá i obyčejné psaní: kdo si zapisuje vlastní úvahy a pochybnosti, vidí je černé na bílém a může je posoudit, aniž by je okamžitě přehlušil hlas, který se v duchu ozve jako první.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -203,28 +206,28 @@ jsou převzaté a které vlastní, aniž by do vnitřního dialogu klienta vklá
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – zvláštní případ tohoto vzorce
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory digital system)
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzný vzorec (Kotvení, Auditory and tonal anchors)
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzný vzorec (Submodality, Auditory submodalities)
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
-- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzný vzorec (Submodality, Auditory swish)
-- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzný vzorec (Submodality, Inner critic pattern)
+- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory digital system)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzné heslo (Submodality, Auditory submodalities)
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzné heslo (Submodality, Critical (driver) submodalities)
+- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzné heslo (Submodality, Auditory swish)
+- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzné heslo (Submodality, Inner critic pattern)
 
 **V kompendiu**
 
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.4 Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.4 Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – předchozí vzorec rodiny
-- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – předchozí heslo rodiny
+- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

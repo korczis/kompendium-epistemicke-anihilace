@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vzorec sebepojetí", "Self-concept pattern", "přestavba sebepojetí", "transformace sebepojetí", "Disociace, fobie a trauma", "NLP", "neurolingvistické programování"]
+keywords = ["Vzorec sebepojetí", "Self-concept pattern", "přestavba sebepojetí", "transformace sebepojetí", "Disociace, fobie a trauma", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-11.09"
-nlp_slug = "sebepojeti"
-nlp_family = "disociace-a-trauma"
-nlp_family_code = "11"
-nlp_family_title = "Disociace, fobie a trauma"
-nlp_family_en = "Dissociation, phobia and trauma patterns"
-nlp_part = "disociace-a-trauma"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Self-concept pattern"
-nlp_aliases = ["přestavba sebepojetí", "transformace sebepojetí"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["submodality-pojem", "swish", "reakce-na-kritiku", "uroven-identity", "presvedceni-o-identite"]
-nlp_related_declared = ["reakce-na-kritiku", "presvedceni-o-identite", "uroven-identity", "submodality-pojem", "swish"]
-nlp_kompendium = ["kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md", "kompendium/nlp-vzorce/submodality/swish.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_prev = "reakce-na-kritiku"
-nlp_next = "trauma-a-falesne-vzpominky"
-nlp_position = 9
-nlp_family_size = 11
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1990", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-11.09"
+catalog_slug = "sebepojeti"
+catalog_family = "disociace-a-trauma"
+catalog_family_code = "11"
+catalog_family_title = "Disociace, fobie a trauma"
+catalog_family_en = "Dissociation, phobia and trauma patterns"
+catalog_part = "disociace-a-trauma"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Self-concept pattern"
+catalog_aliases = ["přestavba sebepojetí", "transformace sebepojetí"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["submodality-pojem", "swish", "reakce-na-kritiku", "uroven-identity", "presvedceni-o-identite"]
+catalog_related_declared = ["reakce-na-kritiku", "presvedceni-o-identite", "uroven-identity", "submodality-pojem", "swish"]
+catalog_kompendium = ["kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md", "kompendium/nlp-vzorce/submodality/swish.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_prev = "reakce-na-kritiku"
+catalog_next = "trauma-a-falesne-vzpominky"
+catalog_position = 9
+catalog_family_size = 11
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1990", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/disociace-a-trauma.toml"
 +++
 
 # Vzorec sebepojetí
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-11.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Self-concept pattern |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ ponechat a které odložit, a respektovat, že tuto volbu dělá klient, ne tera
 reakcemi na kritiku, které sebepojetí často ohrožují, rozebírá heslo
 [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,26 +219,26 @@ reakcemi na kritiku, které sebepojetí často ohrožují, rozebírá heslo
 
 **Rodina a hierarchie**
 
-- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzný vzorec (Submodality, Swish pattern)
-- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzný vzorec (Disociace, fobie a trauma, Responding to criticism)
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Identity level)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzné heslo (Submodality, Swish pattern)
+- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzné heslo (Disociace, fobie a trauma, Responding to criticism)
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzné heslo (Logické úrovně a percepční pozice, Identity level)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
 
 **V kompendiu**
 
-- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.9 Pěstování identitní nejistoty](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – předchozí vzorec rodiny
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – předchozí heslo rodiny
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

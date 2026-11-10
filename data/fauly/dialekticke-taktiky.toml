@@ -1,0 +1,252 @@
+# Rodina AF-07: Rétorické a dialogické taktiky (pravidlo project.content-catalogs; schéma v
+# scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění
+# nemění. Část dialekticke-taktiky: AF-07.01 až AF-07.08.
+
+[[pattern]]
+id = "AF-07.01"
+slug = "gish-gallop"
+type = "tactic"
+cs = "Gish gallop"
+en = "Gish gallop"
+aliases = ["Gishův cval", "zahlcení argumenty"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["palba-nepravd", "dokaz-tvrzenim", "presun-dukazniho-bremene", "argument-opakovanim", "sealioning"]
+canonical = "glossary/gish-gallop.md"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Za dvě minuty jsem uvedl dvacet důvodů, proč je ta vakcína nebezpečná, a vy jste vyvrátil sotva dva. Zbytek tedy platí."
+context = "Veřejná debata s časovým limitem, odborník proti oponentovi."
+benign = false
+marker = "Počet nevyvrácených tvrzení se vydává za důkaz jejich pravdivosti, ačkoli vyvrácení stojí řádově víc času než vyslovení."
+response = "Upozornit na nepoměr času, vybrat nejsilnější tvrzení oponenta, rozebrat ho do hloubky a připomenout, že důkazní břemeno nese ten, kdo tvrzení vyslovil."
+
+[[pattern.trainer]]
+utterance = "Mám k návrhu pět výhrad. Pošlu je písemně se zdroji a na schůzce bych rád probral ty dvě nejvážnější."
+context = "Člen pracovní skupiny reaguje na návrh nového postupu."
+benign = true
+marker = "Více námitek je podáno tak, aby je druhá strana mohla v klidu ověřit, a rozhovor se soustředí na nejvážnější z nich."
+response = "Jde o poctivou kritiku: námitky jsou doložené, druhá strana má čas odpovědět a nikdo z jejich počtu nevyvozuje pravdivost."
+
+[[pattern]]
+id = "AF-07.02"
+slug = "motte-and-bailey"
+type = "tactic"
+cs = "Motte-and-bailey"
+en = "Motte-and-bailey"
+aliases = ["tvrz a předhradí"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["ekvivokace", "slameny-panak", "posouvani-branek", "presvedcovaci-definice"]
+canonical = "glossary/motte-and-bailey.md"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvrdím jen, že léky mají vedlejší účinky, a to přece nikdo nepopře. Takže moje rada vysadit veškerou léčbu je oprávněná."
+context = "Diskusní fórum o chronickém onemocnění."
+benign = false
+marker = "Pod tlakem se mluvčí stáhne k triviální a nesporné tezi a pak z jejího přijetí vyvozuje platnost původního, mnohem silnějšího tvrzení."
+response = "Oddělit obě tvrzení nahlas: s triviální tezí lze souhlasit, ale silné tvrzení o vysazení léčby zůstává nedoložené a vyžaduje vlastní důkazy."
+
+[[pattern.trainer]]
+utterance = "Původně jsem tvrdil, že metoda funguje u všech pacientů. To neobhájím; data podporují jen účinek u lehčích forem."
+context = "Výzkumník na semináři reaguje na kritiku své interpretace."
+benign = true
+marker = "Mluvčí výslovně opouští silnější tvrzení a hlásí se jen k slabšímu, které data podporují; nevrací se k původnímu."
+response = "Jde o poctivé zúžení teze: oprava je přiznaná a další diskuse se vede už jen o slabším, doloženém tvrzení."
+
+[[pattern]]
+id = "AF-07.03"
+slug = "sealioning"
+type = "tactic"
+cs = "Sealioning"
+en = "Sealioning"
+aliases = ["lachtaní dotazování", "dotazování ve zlé víře"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["jen-se-ptam", "predstirana-starost", "presun-dukazniho-bremene", "posouvani-branek", "gish-gallop"]
+canonical = "glossary/sealioning.md"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jen bych rád viděl zdroj. A k tomu zdroji metodiku. A k metodice nezávislé ověření. Proč mi pořád neodpovídáte, když se ptám slušně?"
+context = "Komentáře pod článkem lékařky, která už odkázala na přehledovou studii."
+benign = false
+marker = "Zdvořilé požadavky na důkazy pokračují i po jejich splnění, každá odpověď vyvolá novou žádost a mlčení se vykládá jako přiznání slabosti."
+response = "Ukázat, co už bylo doloženo, vyžádat si konkrétní námitku k předloženému zdroji a rozhovor ukončit, pokud žádná nepřijde; mlčení není důkaz."
+
+[[pattern.trainer]]
+utterance = "Přečetl jsem tu přehledovou studii, kterou jste uvedla. Nerozumím, proč vylučuje pacienty nad sedmdesát let. Mohla byste to vysvětlit?"
+context = "Diskuse po přednášce, posluchač se ptá autorky."
+benign = true
+marker = "Otázka navazuje na předložený zdroj, míří na konkrétní bod a mluvčí ukazuje, že s odpovědí bude pracovat."
+response = "Jde o legitimní dotaz: je konkrétní, vychází z přečteného materiálu a nevede k nekonečnému řetězu nových požadavků."
+
+[[pattern]]
+id = "AF-07.04"
+slug = "jen-se-ptam"
+type = "tactic"
+cs = "„Jen se ptám“"
+en = "Just asking questions"
+aliases = ["jen se ptám", "JAQ", "insinuační otázka"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["sugestivni-otazka", "slozena-otazka", "sealioning", "presun-dukazniho-bremene", "otazky-s-presupozici", "predstirana-starost"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md",
+  "kompendium/techniques/ea-2-3-9-sealioning-medialni.md",
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Netvrdím, že ta ředitelka kradla. Jen se ptám, proč si za poslední rok koupila nové auto. To se snad ještě smí, ne?"
+context = "Příspěvek v místní facebookové skupině o hospodaření školy."
+benign = false
+marker = "Otázka nese obvinění, které mluvčí nevyslovuje, a dovolání se práva ptát se slouží k tomu, aby za insinuaci nemusel nést důkazní břemeno."
+response = "Převést otázku na tvrzení, které implikuje, a zeptat se, jaký doklad pro to tvrzení existuje; bez dokladu otázka nic nesděluje o ředitelce."
+
+[[pattern.trainer]]
+utterance = "V rozpočtu školy je položka na vozidlo, ale v seznamu majetku žádné auto není. Může vedení vysvětlit, kam ta částka šla?"
+context = "Člen školské rady na veřejném zasedání."
+benign = true
+marker = "Otázka vychází z konkrétního doloženého nesouladu, je adresována tomu, kdo může odpovědět, a odpověď je možné ověřit."
+response = "Jde o legitimní kontrolní dotaz: má věcný podklad, nevyvozuje vinu předem a spokojí se s ověřitelným vysvětlením."
+
+[[pattern]]
+id = "AF-07.05"
+slug = "argument-opakovanim"
+type = "tactic"
+cs = "Argument opakováním"
+en = "Argument from repetition"
+aliases = ["argumentum ad nauseam", "opakování až do omrzení"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["palba-nepravd", "dokaz-tvrzenim", "gish-gallop", "ad-populum", "inokulace-proti-klamum"]
+kompendium = [
+  "kompendium/historical-cases/21-soviet-active-measures.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkám to už po desáté a budu to opakovat, dokud to nepochopíte: ta čistička znečišťuje řeku. Kolikrát to ještě mám říct?"
+context = "Občanské shromáždění k rozšíření průmyslové zóny, mluvčí nepředložil žádné měření."
+benign = false
+marker = "Místo nového dokladu přichází jen další opakování téhož tvrzení a počet opakování se vydává za jeho sílu."
+response = "Oddělit četnost tvrzení od jeho opory a zeptat se na měření nebo jiný doklad; desáté opakování má stejnou důkazní hodnotu jako první."
+
+[[pattern.trainer]]
+utterance = "Připomínám znovu to, co jsem uvedl minule: odběr vzorků proběhl jen jednou. Než rozhodneme, potřebujeme aspoň druhé měření."
+context = "Zasedání komise, která má rozhodnout o povolení."
+benign = true
+marker = "Opakuje se nevyřízená námitka, která zatím nedostala odpověď, a spolu s ní konkrétní návrh, jak ji vyřešit."
+response = "Jde o legitimní připomenutí: opakování neslouží jako důkaz, ale upozorňuje, že věcná námitka zůstala bez odpovědi."
+
+[[pattern]]
+id = "AF-07.06"
+slug = "myslenkove-ukoncujici-klise"
+type = "tactic"
+cs = "Myšlenkově ukončující klišé"
+en = "Thought-terminating cliché"
+aliases = ["klišé ukončující myšlení", "fráze ukončující myšlení"]
+use = "dvoji"
+risk = "vysoke"
+broader = "nabity-jazyk"
+related = ["kafkapast", "dokaz-tvrzenim", "nlp-v-sektach", "pravidlo-svobody", "irelevantni-zaver"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+  "kompendium/case-studies/06-cult-recovery-12-let.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje pochybnosti o vedení jsou jen hlas ega. Ego vždycky hledá důvody. Až ho pustíš, uvidíš, že žádný problém není."
+context = "Starší člen duchovní komunity odpovídá novějšímu členovi na otázku o financích skupiny."
+benign = false
+marker = "Konkrétní otázka se nezodpoví, ale přejmenuje na projev nežádoucího stavu, a tím se ukončí; fráze funguje stejně na jakoukoli námitku."
+response = "Vrátit se k původní otázce v běžné řeči a trvat na odpovědi k věci; výklad pochybnosti jako vady tazatele neříká nic o financích skupiny."
+
+[[pattern.trainer]]
+utterance = "Je pozdě a oba jsme unavení. Nechme to být do zítřka a ráno se k tomu vrátíme s čistou hlavou."
+context = "Dva kolegové po dlouhé neshodě o plánu projektu."
+benign = true
+marker = "Rozhovor se odkládá, ne ukončuje: návrat k tématu je výslovně slíben a obě strany si ponechávají své námitky."
+response = "Jde o legitimní přerušení: fráze nezneplatňuje ničí stanovisko a neodnímá právo k věci se vrátit."
+
+[[pattern]]
+id = "AF-07.07"
+slug = "kafkapast"
+type = "tactic"
+cs = "Kafkovská past"
+en = "Kafkatrapping"
+aliases = ["kafkatrapping", "past popření"]
+use = "vliv"
+risk = "vysoke"
+broader = "nefalzifikovatelnost"
+related = ["bulverismus", "presun-dukazniho-bremene", "pravidlo-svobody", "som-meta-ramec", "myslenkove-ukoncujici-klise"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Už to, jak se bráníš, dokazuje, že to v tobě je. Člověk, který by s tím problém neměl, by se vůbec necítil dotčen."
+context = "Vedoucí týmového workshopu reaguje na účastníka, který odmítl obvinění z předsudků."
+benign = false
+marker = "Popření obvinění se samo počítá jako důkaz viny, takže žádná možná odpověď obviněného nemůže tvrzení vyvrátit."
+response = "Pojmenovat, že tvrzení nemá žádný představitelný vyvracející doklad, a požádat o konkrétní chování nebo výrok, o který se obvinění opírá."
+
+[[pattern.trainer]]
+utterance = "Tvrdíte, že jste ty peníze nepřevedl. Výpis z účtu ale ukazuje převod s vaším podpisem. Jak to vysvětlíte?"
+context = "Interní šetření ve firmě, vyšetřovatel se ptá zaměstnance."
+benign = true
+marker = "Popření se posuzuje proti nezávislému dokladu, ne samo o sobě, a obviněný má prostor vysvětlit rozpor."
+response = "Jde o legitimní postup šetření: tvrzení je vyvratitelné doklady a popření není samo o sobě považováno za přiznání."
+
+[[pattern]]
+id = "AF-07.08"
+slug = "bulverismus"
+type = "tactic"
+cs = "Bulverismus"
+en = "Bulverism"
+aliases = ["vysvětlení místo vyvrácení"]
+use = "dvoji"
+risk = "stredni"
+broader = "okolnostni-ad-hominem"
+related = ["genetic-klam", "otraveni-studny", "kafkapast", "som-meta-ramec", "motivovane-uvazovani", "ad-hominem"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-3-credentialing-attack.md",
+  "kompendium/03-zakladni-kategorie/kapitola-2.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje kritika reformy nemocnic je pochopitelná: jsi lékař a bojíš se o své příjmy. Proto ji nemusíme brát vážně."
+context = "Debata o zdravotní politice mezi známými."
+benign = false
+marker = "Mluvčí vysvětluje, proč druhý zastává svůj názor, a z domnělého motivu vyvozuje, že názor je chybný, aniž by se dotkl jeho obsahu."
+response = "Připustit, že motiv může existovat, a přesto trvat na posouzení argumentů samotných; i zainteresovaný člověk může mít pravdu."
+
+[[pattern.trainer]]
+utterance = "Studie dospěla k chybnému závěru, protože porovnává skupiny různého věku. To, že ji financoval výrobce, je důvod prověřit ji pečlivěji."
+context = "Recenzent posudku hodnotí klinickou studii."
+benign = true
+marker = "Chyba je nejdřív ukázána v obsahu argumentu a zájem autora slouží jen jako důvod ke zvýšené kontrole, ne jako vyvrácení."
+response = "Jde o legitimní postup: střet zájmů zvyšuje nároky na ověření, ale závěr o chybě stojí na doložené metodické vadě."

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Mapa není území", "The map is not the territory", "mapa a území", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Mapa není území", "The map is not the territory", "mapa a území", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.01"
-nlp_slug = "mapa-neni-uzemi"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "The map is not the territory"
-nlp_aliases = ["mapa a území"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["presvedceni-jako-mapa"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vyznam-komunikace-je-reakce", "respekt-k-modelu-sveta", "nejlepsi-dostupna-volba", "predpoklady-jako-pracovni-hypotezy", "meta-model", "som-model-sveta", "deframing", "strategie-reality", "manipulativni-reframing-ve-vztazich"]
-nlp_related_declared = []
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/02-uvod/filosoficky-ramec.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/reframing/reframing.md"]
-nlp_prev = ""
-nlp_next = "vyznam-komunikace-je-reakce"
-nlp_position = 1
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1975", "bateson-1972", "beck-1976", "herman-1992", "korzybski-1933", "lakoff-johnson-1980", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "korzybski-1933", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.01"
+catalog_slug = "mapa-neni-uzemi"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "The map is not the territory"
+catalog_aliases = ["mapa a území"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["presvedceni-jako-mapa"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["reifikace", "vyznam-komunikace-je-reakce", "respekt-k-modelu-sveta", "nejlepsi-dostupna-volba", "predpoklady-jako-pracovni-hypotezy", "meta-model", "som-model-sveta", "deframing", "strategie-reality", "manipulativni-reframing-ve-vztazich"]
+catalog_related_declared = []
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/02-uvod/filosoficky-ramec.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/reframing/reframing.md"]
+catalog_prev = ""
+catalog_next = "vyznam-komunikace-je-reakce"
+catalog_position = 1
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1975", "bateson-1972", "beck-1976", "herman-1992", "korzybski-1933", "lakoff-johnson-1980", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "korzybski-1933", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Mapa není území
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | The map is not the territory |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -187,7 +190,7 @@ paměti, s validací zkušenosti a s postupným návratem ke spoléhání na vla
 Odborník, který s NLP pracuje, by měl princip uplatňovat i na vlastní model klienta a na
 vlastní metodu, jinak se ze symetrického předpokladu stává nástroj autority.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -209,30 +212,31 @@ vlastní metodu, jinak se ze symetrického předpokladu stává nástroj autorit
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – zvláštní případ tohoto vzorce
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzný vzorec (Předpoklady NLP, The meaning of communication is the response you get)
-- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzný vzorec (Předpoklady NLP, Respect for the other person's model of the world)
-- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzný vzorec (Předpoklady NLP, People make the best choice available to them)
-- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzný vzorec (Předpoklady NLP, Presuppositions as working assumptions)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzný vzorec (Sleight of Mouth, Model of the world)
-- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzný vzorec (Reframing a rámce, De-framing)
-- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – příbuzný vzorec (Strategie a modelování, Reality strategy)
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzný vzorec (Vliv a zneužití NLP, Manipulative reframing in close relationships)
+- [Reifikace](@/kompendium/argumentacni-fauly/jazykove-klamy/reifikace.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Reification)
+- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzné heslo (Předpoklady NLP, The meaning of communication is the response you get)
+- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzné heslo (Předpoklady NLP, Respect for the other person's model of the world)
+- [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – příbuzné heslo (Předpoklady NLP, People make the best choice available to them)
+- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzné heslo (Předpoklady NLP, Presuppositions as working assumptions)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzné heslo (Sleight of Mouth, Model of the world)
+- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzné heslo (Reframing a rámce, De-framing)
+- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – příbuzné heslo (Strategie a modelování, Reality strategy)
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

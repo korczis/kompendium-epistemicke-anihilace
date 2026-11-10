@@ -1,5 +1,5 @@
 # Rodina NLP-02: Základní pojmy NLP, část c (NLP-02.23 až NLP-02.32).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí záznamů je pořadí
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
 # identifikátorů; identifikátor se po zveřejnění nemění.
 
 [[pattern]]
@@ -39,13 +39,14 @@ response = "Jde o legitimní užití: rozlišení perspektivy pomáhá dávkovat
 id = "NLP-02.24"
 slug = "disociace"
 type = "concept"
-cs = "Disociace v NLP"
-en = "Dissociation (NLP sense)"
+cs = "Disociace"
+en = "Dissociation"
 aliases = ["disociovaný stav", "pohled zvenčí"]
 use = "dvoji"
 risk = "vysoke"
 broader = "submodality-pojem"
 related = ["asociace", "dvojita-disociace", "rychla-lecba-fobie", "meta-pozice", "trauma-a-falesne-vzpominky"]
+canonical = "glossary/disociace.md"
 kompendium = [
   "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
   "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",

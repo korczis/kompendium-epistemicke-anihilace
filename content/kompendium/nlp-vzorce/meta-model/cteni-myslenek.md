@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Čtení myšlenek", "Mind reading", "domnělé čtení myšlenek", "připisování vnitřních stavů", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Čtení myšlenek", "Mind reading", "domnělé čtení myšlenek", "připisování vnitřních stavů", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.11"
-nlp_slug = "cteni-myslenek"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Mind reading"
-nlp_aliases = ["domnělé čtení myšlenek", "připisování vnitřních stavů"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["nelze-nekomunikovat", "kalibrace", "zkreslovani", "ztraceny-performativ", "pricina-a-nasledek", "komplexni-ekvivalence", "cteni-myslenek-milton", "predikaty-uvedomeni", "faktivni-slovesa", "druha-pozice", "pseudoempatie"]
-nlp_related_declared = ["cteni-myslenek-milton", "ztraceny-performativ", "komplexni-ekvivalence", "kalibrace", "pseudoempatie"]
-nlp_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md"]
-nlp_prev = "modalni-operator-moznosti"
-nlp_next = "pricina-a-nasledek"
-nlp_position = 11
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "satir-1972", "watzlawick-1967", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = ["satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.11"
+catalog_slug = "cteni-myslenek"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Mind reading"
+catalog_aliases = ["domnělé čtení myšlenek", "připisování vnitřních stavů"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["pravidlo-nevyslovene-premisy", "nelze-nekomunikovat", "kalibrace", "zkreslovani", "ztraceny-performativ", "pricina-a-nasledek", "komplexni-ekvivalence", "cteni-myslenek-milton", "predikaty-uvedomeni", "faktivni-slovesa", "druha-pozice", "pseudoempatie"]
+catalog_related_declared = ["cteni-myslenek-milton", "ztraceny-performativ", "komplexni-ekvivalence", "kalibrace", "pseudoempatie"]
+catalog_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md"]
+catalog_prev = "modalni-operator-moznosti"
+catalog_next = "pricina-a-nasledek"
+catalog_position = 11
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "satir-1972", "watzlawick-1967", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.b.toml"
 +++
 
 # Čtení myšlenek
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Mind reading |
 | **Jiné názvy** | domnělé čtení myšlenek, připisování vnitřních stavů |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ myšlenkách druhých jako o faktu, a nahradit takovou větu otázkou nebo ozna�
 Kdo tak činí, chrání nejen druhé, ale i sebe před budováním vztahů na nepodložených
 výkladech, které mohou být stejně mylné jako výklady, proti nimž se brání.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,33 +220,34 @@ výkladech, které mohou být stejně mylné jako výklady, proti nimž se brán
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzný vzorec (Předpoklady NLP, One cannot not communicate)
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzný vzorec (Základní pojmy NLP, Distortion)
-- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – příbuzný vzorec (Meta-model, Lost performative)
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzný vzorec (Meta-model, Cause and effect)
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzný vzorec (Meta-model, Complex equivalence)
-- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzný vzorec (Milton-model, Mind reading (Milton Model))
-- [Predikáty uvědomění](@/kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md) – příbuzný vzorec (Jazykové presupozice, Awareness predicates)
-- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – příbuzný vzorec (Jazykové presupozice, Factive verbs)
-- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Second position)
-- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzný vzorec (Raport a kalibrace, Simulated empathy)
+- [Pravidlo nevyslovené premisy](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-nevyslovene-premisy.md) – příbuzné heslo (Argumentační fauly: Principy kritické diskuse a teorie argumentace, Unexpressed-premise rule)
+- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzné heslo (Předpoklady NLP, One cannot not communicate)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzné heslo (Základní pojmy NLP, Distortion)
+- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – příbuzné heslo (Meta-model, Lost performative)
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzné heslo (Meta-model, Cause and effect)
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (Meta-model, Complex equivalence)
+- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – příbuzné heslo (Milton-model, Mind reading (Milton Model))
+- [Predikáty uvědomění](@/kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md) – příbuzné heslo (Jazykové presupozice, Awareness predicates)
+- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – příbuzné heslo (Jazykové presupozice, Factive verbs)
+- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Second position)
+- [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) – příbuzné heslo (Raport a kalibrace, Simulated empathy)
 
 **V kompendiu**
 
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.15 Mentalizační disrupce](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.15 Mentalizační disrupce](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – předchozí vzorec rodiny
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – předchozí heslo rodiny
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

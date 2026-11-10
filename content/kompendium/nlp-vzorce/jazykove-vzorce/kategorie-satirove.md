@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Komunikační kategorie Virginie Satirové", "Satir categories", "komunikační postoje Satirové", "stresové komunikační postoje", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Komunikační kategorie Virginie Satirové", "Satir categories", "komunikační postoje Satirové", "stresové komunikační postoje", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.05"
-nlp_slug = "kategorie-satirove"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Satir categories"
-nlp_aliases = ["komunikační postoje Satirové", "stresové komunikační postoje", "Satir categories"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["smirovatel", "obvinovatel", "pocitac", "rozptylovac", "vyrovnany"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["raport", "percepcni-pozice-pojem", "kongruence", "inkongruence", "koreny-nlp"]
-nlp_related_declared = ["koreny-nlp", "kongruence", "inkongruence", "raport", "percepcni-pozice-pojem"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md", "kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md", "kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
-nlp_prev = "lateralni-chunking"
-nlp_next = "smirovatel"
-nlp_position = 5
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "grinder-bandler-1976", "herman-1992", "norcross-2006", "oconnor-seymour-1990", "perls-1969", "satir-1972", "stark-2007", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "oconnor-seymour-1990"]
-nlp_sources_roots = ["perls-1969", "satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["herman-1992", "norcross-2006", "stark-2007", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.05"
+catalog_slug = "kategorie-satirove"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Satir categories"
+catalog_aliases = ["komunikační postoje Satirové", "stresové komunikační postoje", "Satir categories"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["smirovatel", "obvinovatel", "pocitac", "rozptylovac", "vyrovnany"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["raport", "percepcni-pozice-pojem", "kongruence", "inkongruence", "koreny-nlp"]
+catalog_related_declared = ["koreny-nlp", "kongruence", "inkongruence", "raport", "percepcni-pozice-pojem"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md", "kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md", "kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
+catalog_prev = "lateralni-chunking"
+catalog_next = "smirovatel"
+catalog_position = 5
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "grinder-bandler-1976", "herman-1992", "norcross-2006", "oconnor-seymour-1990", "perls-1969", "satir-1972", "stark-2007", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "oconnor-seymour-1990"]
+catalog_sources_roots = ["perls-1969", "satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["herman-1992", "norcross-2006", "stark-2007", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.toml"
 +++
 
 # Komunikační kategorie Virginie Satirové
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Satir categories |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/jazykove-vzorce.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -108,7 +111,7 @@ Obranou proti zneužití typologie je trvat na tom, že postoj je reakce na situ
 
 V terapii se s postoji pracuje tak, že člověk znovu získává přístup k tomu, co postoj chránil: k vlastním pocitům, potřebám a právu na nesouhlas. Herman zdůrazňuje, že po dlouhodobém nátlaku se schopnost samostatného úsudku a sebeprosazení obnovuje v bezpečném vztahu, kde člověk není trestán za vlastní hlas (Herman 1992). Vyrovnaná komunikace pak není technikou, kterou se člověk naučí, ale důsledkem toho, že přestal potřebovat ochranu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -128,31 +131,31 @@ V terapii se s postoji pracuje tak, že člověk znovu získává přístup k to
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – zvláštní případ tohoto vzorce
-- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – zvláštní případ tohoto vzorce
-- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – zvláštní případ tohoto vzorce
-- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – zvláštní případ tohoto vzorce
-- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – zvláštní případ tohoto vzorce
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – zvláštní případ tohoto hesla
+- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – zvláštní případ tohoto hesla
+- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – zvláštní případ tohoto hesla
+- [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – zvláštní případ tohoto hesla
+- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzný vzorec (Základní pojmy NLP, Incongruence)
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzné heslo (Základní pojmy NLP, Incongruence)
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – předchozí vzorec rodiny
-- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – předchozí heslo rodiny
+- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

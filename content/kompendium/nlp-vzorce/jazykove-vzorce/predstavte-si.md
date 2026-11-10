@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Výzva „představte si“", "Imagine", "výzva k představě", "představ si", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Výzva „představte si“", "Imagine", "výzva k představě", "představ si", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.17"
-nlp_slug = "predstavte-si"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Imagine"
-nlp_aliases = ["výzva k představě", "představ si"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vlozene-prikazy", "pseudoorientace-v-case", "ramec-jako-by", "budouci-prehravani", "budouci-prehravani-v-prodeji"]
-nlp_related_declared = ["budouci-prehravani", "budouci-prehravani-v-prodeji", "ramec-jako-by", "vlozene-prikazy", "pseudoorientace-v-case"]
-nlp_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/nlp-vzorce/reframing/ramec-jako-by.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "zkusit"
-nlp_next = "otazky-misto-tvrzeni"
-nlp_position = 17
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "cialdini-2009", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.17"
+catalog_slug = "predstavte-si"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Imagine"
+catalog_aliases = ["výzva k představě", "představ si"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vlozene-prikazy", "pseudoorientace-v-case", "ramec-jako-by", "budouci-prehravani", "budouci-prehravani-v-prodeji"]
+catalog_related_declared = ["budouci-prehravani", "budouci-prehravani-v-prodeji", "ramec-jako-by", "vlozene-prikazy", "pseudoorientace-v-case"]
+catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/nlp-vzorce/reframing/ramec-jako-by.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "zkusit"
+catalog_next = "otazky-misto-tvrzeni"
+catalog_position = 17
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "cialdini-2009", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.b.toml"
 +++
 
 # Výzva „představte si“
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Imagine |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ pozdním fázím zotavení (Herman 1992). Klinik, který s představami pracuje,
 by měl dbát na souhlas, na otevřený obsah a na to, aby představa minulosti nikdy nebyla
 vydávána za vzpomínku.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,25 +218,25 @@ vydávána za vzpomínku.
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzný vzorec (Ericksonovská hypnóza, Pseudo-orientation in time)
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzné heslo (Ericksonovská hypnóza, Pseudo-orientation in time)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
 
 **V kompendiu**
 
-- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Slovo „zkusit“](@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md) – předchozí vzorec rodiny
-- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Slovo „zkusit“](@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md) – předchozí heslo rodiny
+- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

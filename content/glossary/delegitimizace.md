@@ -69,7 +69,7 @@ Typické vzorce:
 - **preventivní rámování** – delegitimizace pravděpodobného budoucího kritika *dřív*, než
   promluví („až vám budou tvrdit, že…, vězte, že jsou placení“);
 - **selektivní skepse** – extrémní epistemické nároky uplatňované jen na nepohodlné zdroje;
-- **kaskády „a co vy?“** (*whataboutism*) – každá kritika se stává důkazem zaujatosti
+- **kaskády „a co vy?“** (*[whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md)*) – každá kritika se stává důkazem zaujatosti
   kritika;
 - **kaskády útoků na osobu** – místo argumentu řada útoků na motivy a charakter;
 - **„všichni jsou zkorumpovaní“** – plošné smetení celé kategorie zdrojů;

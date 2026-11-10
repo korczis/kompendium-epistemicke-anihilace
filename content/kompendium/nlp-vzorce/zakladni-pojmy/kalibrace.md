@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kalibrace", "Calibration", "kalibrování", "čtení individuálních signálů", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Kalibrace", "Calibration", "kalibrování", "čtení individuálních signálů", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.13"
-nlp_slug = "kalibrace"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Calibration"
-nlp_aliases = ["kalibrování", "čtení individuálních signálů"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["kalibrace-ano-ne", "cteni-reci-tela"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vyznam-komunikace-je-reakce", "mysl-a-telo-jeden-system", "nelze-nekomunikovat", "ocni-pristupove-signaly", "smyslova-ostrost", "raport", "tote-model", "kongruence", "uptime-a-downtime", "cteni-myslenek", "ramec-souhlasu", "ramec-zpetneho-shrnuti", "ramec-dukazu", "kotveni", "posuvna-kotva", "kinesteticke-kotvy", "testovani-kotvy", "elicitace-submodalit", "elicitace-casove-osy", "elicitace-strategie", "sekvencni-inkongruence", "simultanni-inkongruence", "ja-a-druzi", "zrcadleni", "kalibrace-ano-ne", "vedeni-v-raportu", "preruseni-raportu", "detekce-lzi-v-nlp", "cteni-reci-tela", "smyslove-dukazy-cile", "obvinovatel", "nlp-ve-vyslechu"]
-nlp_related_declared = ["smyslova-ostrost", "kalibrace-ano-ne", "detekce-lzi-v-nlp", "cteni-reci-tela", "ocni-pristupove-signaly", "raport"]
-nlp_kompendium = ["kompendium/06-obrana/_index.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md", "kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "submodality-pojem"
-nlp_next = "smyslova-ostrost"
-nlp_position = 13
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1979", "ekman-2003", "grinder-bandler-1981", "haley-1973", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
-nlp_sources_roots = ["haley-1973"]
-nlp_sources_critical = ["ekman-2003", "herman-1992", "lifton-1961", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.13"
+catalog_slug = "kalibrace"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Calibration"
+catalog_aliases = ["kalibrování", "čtení individuálních signálů"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["kalibrace-ano-ne", "cteni-reci-tela"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vyznam-komunikace-je-reakce", "mysl-a-telo-jeden-system", "nelze-nekomunikovat", "ocni-pristupove-signaly", "smyslova-ostrost", "raport", "tote-model", "kongruence", "uptime-a-downtime", "cteni-myslenek", "ramec-souhlasu", "ramec-zpetneho-shrnuti", "ramec-dukazu", "kotveni", "posuvna-kotva", "kinesteticke-kotvy", "testovani-kotvy", "elicitace-submodalit", "elicitace-casove-osy", "elicitace-strategie", "sekvencni-inkongruence", "simultanni-inkongruence", "ja-a-druzi", "zrcadleni", "kalibrace-ano-ne", "vedeni-v-raportu", "preruseni-raportu", "detekce-lzi-v-nlp", "cteni-reci-tela", "smyslove-dukazy-cile", "obvinovatel", "nlp-ve-vyslechu"]
+catalog_related_declared = ["smyslova-ostrost", "kalibrace-ano-ne", "detekce-lzi-v-nlp", "cteni-reci-tela", "ocni-pristupove-signaly", "raport"]
+catalog_kompendium = ["kompendium/06-obrana/_index.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md", "kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "submodality-pojem"
+catalog_next = "smyslova-ostrost"
+catalog_position = 13
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1979", "ekman-2003", "grinder-bandler-1981", "haley-1973", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
+catalog_sources_roots = ["haley-1973"]
+catalog_sources_critical = ["ekman-2003", "herman-1992", "lifton-1961", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Kalibrace
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Calibration |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -102,7 +105,7 @@ Pro tvrzení, že pozorný člověk se může naučit lépe vnímat drobné změ
 
 Základní obranou je trvat na prioritě vlastní výpovědi. Kdo slyší, že druhý „vidí“, co opravdu cítí, může klidně odpovědět, že pozorování je hypotéza a že o vlastním prožitku vypovídá on sám. Je legitimní požádat o konkrétní popis toho, co mluvčí pozoroval, a oddělit ho od výkladu, který k němu přidal. Druhou obranou je vědět, co výzkum říká: neverbální projevy jsou mnohoznačné, lež z nich spolehlivě vyčíst nelze a sebejistota pozorovatele není mírou jeho přesnosti (Vrij 2008). Třetí obranou je všimnout si směru výkladů. Pokud se čtení projevů vždy shoduje se zájmem toho, kdo čte, jde spíš o nástroj moci než o pozornost. U lidí, kteří dlouho žili ve vztahu, kde jejich projevy někdo soustavně „četl“ a přebíjel, bývá zotavení spojeno s obnovou důvěry ve vlastní vnímání a s uvolněním napětí, které vzniklo neustálou kontrolou výrazu. Herman popisuje, že obnova vnitřní autonomie probíhá ve vztahu, kde je výpověď člověka respektována (Herman 1992). Odborník, který kalibraci jako dovednost používá, by ji měl výslovně držet v roli otázky: pozorovat, zeptat se a přijmout odpověď, i když s jeho dojmem nesouhlasí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,55 +125,55 @@ Základní obranou je trvat na prioritě vlastní výpovědi. Kdo slyší, že d
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – zvláštní případ tohoto vzorce
-- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – zvláštní případ tohoto hesla
+- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzný vzorec (Předpoklady NLP, The meaning of communication is the response you get)
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzný vzorec (Předpoklady NLP, Mind and body are one system)
-- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzný vzorec (Předpoklady NLP, One cannot not communicate)
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzný vzorec (Základní pojmy NLP, Eye accessing cues)
-- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzný vzorec (Základní pojmy NLP, Sensory acuity)
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzný vzorec (Základní pojmy NLP, Uptime and downtime)
-- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzný vzorec (Meta-model, Mind reading)
-- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzný vzorec (Reframing a rámce, Agreement frame)
-- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzný vzorec (Reframing a rámce, Backtrack frame)
-- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzný vzorec (Reframing a rámce, Evidence frame)
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – příbuzný vzorec (Kotvení, Sliding anchor)
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzný vzorec (Kotvení, Kinaesthetic anchors)
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzný vzorec (Kotvení, Testing an anchor)
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
-- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzný vzorec (Časová osa, Eliciting the timeline)
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy elicitation)
-- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzný vzorec (Práce s částmi, Sequential incongruence)
-- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – příbuzný vzorec (Práce s částmi, Simultaneous incongruence)
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzný vzorec (Metaprogramy, Self and other)
-- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzný vzorec (Raport a kalibrace, Mirroring)
-- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzný vzorec (Raport a kalibrace, Yes/no calibration)
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzný vzorec (Raport a kalibrace, Leading in rapport)
-- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – příbuzný vzorec (Raport a kalibrace, Breaking rapport)
-- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzný vzorec (Raport a kalibrace, Lie detection claims in NLP)
-- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzný vzorec (Raport a kalibrace, Body-language reading in NLP)
-- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – příbuzný vzorec (Cíle a výsledky, Sensory-based evidence)
-- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – příbuzný vzorec (Jazykové vzorce, Blamer)
-- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in interrogation and negotiation)
+- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzné heslo (Předpoklady NLP, The meaning of communication is the response you get)
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzné heslo (Předpoklady NLP, Mind and body are one system)
+- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzné heslo (Předpoklady NLP, One cannot not communicate)
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzné heslo (Základní pojmy NLP, Eye accessing cues)
+- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzné heslo (Základní pojmy NLP, Sensory acuity)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzné heslo (Základní pojmy NLP, Uptime and downtime)
+- [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – příbuzné heslo (Meta-model, Mind reading)
+- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzné heslo (Reframing a rámce, Agreement frame)
+- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzné heslo (Reframing a rámce, Backtrack frame)
+- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzné heslo (Reframing a rámce, Evidence frame)
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – příbuzné heslo (Kotvení, Sliding anchor)
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzné heslo (Kotvení, Kinaesthetic anchors)
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzné heslo (Kotvení, Testing an anchor)
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzné heslo (Submodality, Eliciting submodalities)
+- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzné heslo (Časová osa, Eliciting the timeline)
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy elicitation)
+- [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzné heslo (Práce s částmi, Sequential incongruence)
+- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – příbuzné heslo (Práce s částmi, Simultaneous incongruence)
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzné heslo (Metaprogramy, Self and other)
+- [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)
+- [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – příbuzné heslo (Raport a kalibrace, Yes/no calibration)
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzné heslo (Raport a kalibrace, Leading in rapport)
+- [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – příbuzné heslo (Raport a kalibrace, Breaking rapport)
+- [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) – příbuzné heslo (Raport a kalibrace, Lie detection claims in NLP)
+- [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – příbuzné heslo (Raport a kalibrace, Body-language reading in NLP)
+- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – příbuzné heslo (Cíle a výsledky, Sensory-based evidence)
+- [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – příbuzné heslo (Jazykové vzorce, Blamer)
+- [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in interrogation and negotiation)
 
 **V kompendiu**
 
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – předchozí vzorec rodiny
-- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – předchozí heslo rodiny
+- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

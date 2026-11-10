@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Změna má respektovat celek systému", "Change must respect the whole system (ecology)", "ekologie", "ekologický předpoklad", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Změna má respektovat celek systému", "Change must respect the whole system (ecology)", "ekologie", "ekologický předpoklad", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.19"
-nlp_slug = "ekologie-zmeny"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Change must respect the whole system (ecology)"
-nlp_aliases = ["ekologie", "ekologický předpoklad"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["pozitivni-zamer-chovani", "mysl-a-telo-jeden-system", "ekologicka-kontrola", "ramec-ekologie", "zarovnani-logickych-urovni", "ekologie-cile"]
-nlp_related_declared = ["ekologicka-kontrola", "ramec-ekologie", "ekologie-cile", "pozitivni-zamer-chovani", "mysl-a-telo-jeden-system"]
-nlp_kompendium = ["kompendium/08-prilohy/eticky-kodex.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-3-8-relacni-restaurace.md"]
-nlp_links_prose = ["kompendium/08-prilohy/eticky-kodex.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-6-3-8-relacni-restaurace.md"]
-nlp_prev = "komunikace-vedoma-a-nevedoma"
-nlp_next = "predpoklady-jako-pracovni-hypotezy"
-nlp_position = 19
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1982", "bateson-1972", "dilts-1990", "dilts-delozier-2000", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012"]
-nlp_sources_primary = ["bandler-grinder-1982", "dilts-1990", "dilts-delozier-2000"]
-nlp_sources_roots = ["bateson-1972"]
-nlp_sources_critical = ["hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.19"
+catalog_slug = "ekologie-zmeny"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Change must respect the whole system (ecology)"
+catalog_aliases = ["ekologie", "ekologický předpoklad"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["pozitivni-zamer-chovani", "mysl-a-telo-jeden-system", "ekologicka-kontrola", "ramec-ekologie", "zarovnani-logickych-urovni", "ekologie-cile"]
+catalog_related_declared = ["ekologicka-kontrola", "ramec-ekologie", "ekologie-cile", "pozitivni-zamer-chovani", "mysl-a-telo-jeden-system"]
+catalog_kompendium = ["kompendium/08-prilohy/eticky-kodex.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-3-8-relacni-restaurace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/08-prilohy/eticky-kodex.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-6-3-8-relacni-restaurace.md"]
+catalog_prev = "komunikace-vedoma-a-nevedoma"
+catalog_next = "predpoklady-jako-pracovni-hypotezy"
+catalog_position = 19
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "dilts-1990", "dilts-delozier-2000", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012"]
+catalog_sources_primary = ["bandler-grinder-1982", "dilts-1990", "dilts-delozier-2000"]
+catalog_sources_roots = ["bateson-1972"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Změna má respektovat celek systému
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Change must respect the whole system (ecology) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ obnově vztahů věnuje na stránce o
 kteří s ekologickým předpokladem pracují poctivě, z toho plyne jednoduché kritérium:
 ekologie, která nikdy nevede k zastavení změny, není ekologií.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -209,27 +212,27 @@ ekologie, která nikdy nevede k zastavení změny, není ekologií.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzný vzorec (Předpoklady NLP, Mind and body are one system)
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzný vzorec (Reframing a rámce, Ecology frame)
-- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Logical level alignment)
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzný vzorec (Cíle a výsledky, Ecology of the outcome)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzné heslo (Předpoklady NLP, Mind and body are one system)
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzné heslo (Reframing a rámce, Ecology frame)
+- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Logical level alignment)
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)
 
 **V kompendiu**
 
-- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.8 Relační restaurace](@/kompendium/techniques/ea-6-3-8-relacni-restaurace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.8 Relační restaurace](@/kompendium/techniques/ea-6-3-8-relacni-restaurace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – předchozí vzorec rodiny
-- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – předchozí heslo rodiny
+- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Přesvědčení a zdraví v NLP", "Beliefs and health in NLP", "přesvědčení jako cesta ke zdraví", "beliefs and health", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Přesvědčení a zdraví v NLP", "Beliefs and health in NLP", "přesvědčení jako cesta ke zdraví", "beliefs and health", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.12"
-nlp_slug = "presvedceni-a-zdravi"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Beliefs and health in NLP"
-nlp_aliases = ["přesvědčení jako cesta ke zdraví", "beliefs and health"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mysl-a-telo-jeden-system", "alergicky-vzorec", "beznadej-bezmoc-nehodnost", "myslenkovy-virus", "delfska-studie", "systematicky-prehled-zdravi"]
-nlp_related_declared = ["mysl-a-telo-jeden-system", "alergicky-vzorec", "systematicky-prehled-zdravi", "delfska-studie", "beznadej-bezmoc-nehodnost"]
-nlp_kompendium = ["kompendium/population-health/_index.md", "kompendium/case-studies/51-new-age-recovery.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/case-studies/51-new-age-recovery.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md"]
-nlp_prev = "myslenkovy-virus"
-nlp_next = "presvedceni-jako-mapa"
-nlp_position = 12
-nlp_family_size = 14
-nlp_sources = ["beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.12"
+catalog_slug = "presvedceni-a-zdravi"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Beliefs and health in NLP"
+catalog_aliases = ["přesvědčení jako cesta ke zdraví", "beliefs and health"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["magicke-mysleni", "klam-placebo", "mysl-a-telo-jeden-system", "alergicky-vzorec", "beznadej-bezmoc-nehodnost", "myslenkovy-virus", "delfska-studie", "systematicky-prehled-zdravi"]
+catalog_related_declared = ["mysl-a-telo-jeden-system", "alergicky-vzorec", "systematicky-prehled-zdravi", "delfska-studie", "beznadej-bezmoc-nehodnost"]
+catalog_kompendium = ["kompendium/population-health/_index.md", "kompendium/case-studies/51-new-age-recovery.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/case-studies/51-new-age-recovery.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md"]
+catalog_prev = "myslenkovy-virus"
+catalog_next = "presvedceni-jako-mapa"
+catalog_position = 12
+catalog_family_size = 14
+catalog_sources = ["beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.b.toml"
 +++
 
 # Přesvědčení a zdraví v NLP
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Beliefs and health in NLP |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/presvedceni.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ která jim nepatřila, a obnovení důvěry ve zdravotní péči. Odborníci by 
 odsuzování, protože hledání naděje v těžké nemoci je pochopitelné, a odpovědnost za klamavý
 slib nese ten, kdo ho dal, ne ten, kdo mu uvěřil.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -207,27 +210,29 @@ slib nese ten, kdo ho dal, ne ten, kdo mu uvěřil.
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzný vzorec (Předpoklady NLP, Mind and body are one system)
-- [Alergický vzorec](@/kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec.md) – příbuzný vzorec (Disociace, fobie a trauma, Allergy pattern)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
-- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzný vzorec (Přesvědčení, Thought virus)
-- [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – příbuzný vzorec (Kritické hodnocení NLP, Delphi poll of discredited methods)
-- [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – příbuzný vzorec (Kritické hodnocení NLP, Systematic review of health outcomes)
+- [Magické myšlení](@/kompendium/argumentacni-fauly/kauzalni/magicke-mysleni.md) – příbuzné heslo (Argumentační fauly: Kauzální klamy, Magical thinking)
+- [Klam placeba](@/kompendium/argumentacni-fauly/hodnoty-a-veda/klam-placebo.md) – příbuzné heslo (Argumentační fauly: Klamy hodnot, přírody a vědy, Placebo fallacy)
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzné heslo (Předpoklady NLP, Mind and body are one system)
+- [Alergický vzorec](@/kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec.md) – příbuzné heslo (Disociace, fobie a trauma, Allergy pattern)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzné heslo (Přesvědčení, Thought virus)
+- [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – příbuzné heslo (Kritické hodnocení NLP, Delphi poll of discredited methods)
+- [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – příbuzné heslo (Kritické hodnocení NLP, Systematic review of health outcomes)
 
 **V kompendiu**
 
-- [Populační zdraví a prevence](@/kompendium/population-health/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Populační zdraví a prevence](@/kompendium/population-health/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – předchozí vzorec rodiny
-- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – předchozí heslo rodiny
+- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

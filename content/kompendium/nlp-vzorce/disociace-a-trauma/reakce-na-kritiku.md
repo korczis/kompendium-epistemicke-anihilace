@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Reakce na kritiku", "Responding to criticism", "zpracování kritiky", "disociované přijetí kritiky", "Disociace, fobie a trauma", "NLP", "neurolingvistické programování"]
+keywords = ["Reakce na kritiku", "Responding to criticism", "zpracování kritiky", "disociované přijetí kritiky", "Disociace, fobie a trauma", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-11.08"
-nlp_slug = "reakce-na-kritiku"
-nlp_family = "disociace-a-trauma"
-nlp_family_code = "11"
-nlp_family_title = "Disociace, fobie a trauma"
-nlp_family_en = "Dissociation, phobia and trauma patterns"
-nlp_part = "disociace-a-trauma"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Responding to criticism"
-nlp_aliases = ["zpracování kritiky", "disociované přijetí kritiky"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["meta-pozice", "disociace", "zmena-kriticke-sebeprezentace", "vzorec-odpusteni", "sebepojeti"]
-nlp_related_declared = ["disociace", "meta-pozice", "sebepojeti", "vzorec-odpusteni", "zmena-kriticke-sebeprezentace"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_links_prose = ["glossary/disociace.md", "kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_prev = "vzorec-odpusteni"
-nlp_next = "sebepojeti"
-nlp_position = 8
-nlp_family_size = 11
-nlp_sources = ["andreas-andreas-1989", "bandler-grinder-1975", "beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "satir-1972", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1989", "bandler-grinder-1975"]
-nlp_sources_roots = ["satir-1972"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-11.08"
+catalog_slug = "reakce-na-kritiku"
+catalog_family = "disociace-a-trauma"
+catalog_family_code = "11"
+catalog_family_title = "Disociace, fobie a trauma"
+catalog_family_en = "Dissociation, phobia and trauma patterns"
+catalog_part = "disociace-a-trauma"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Responding to criticism"
+catalog_aliases = ["zpracování kritiky", "disociované přijetí kritiky"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["meta-pozice", "disociace", "zmena-kriticke-sebeprezentace", "vzorec-odpusteni", "sebepojeti"]
+catalog_related_declared = ["disociace", "meta-pozice", "sebepojeti", "vzorec-odpusteni", "zmena-kriticke-sebeprezentace"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+catalog_prev = "vzorec-odpusteni"
+catalog_next = "sebepojeti"
+catalog_position = 8
+catalog_family_size = 11
+catalog_sources = ["andreas-andreas-1989", "bandler-grinder-1975", "beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "satir-1972", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1989", "bandler-grinder-1975"]
+catalog_sources_roots = ["satir-1972"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/disociace-a-trauma.toml"
 +++
 
 # Reakce na kritiku
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-11.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Responding to criticism |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -90,7 +93,7 @@ a formy své kritiky na údajně chybnou reakci adresáta. Heslo popisuje obě p
 Vzorec rozpracovali Connirae a Steve Andreasovi a zařadili ho do své knihy o technikách NLP
 jako postup pro lidi, kteří kritiku prožívají jako zdrcující (Andreas a Andreas 1989). Navazuje
 na pojem [disociace](@/glossary/disociace.md) v NLP smyslu, tedy na pohled na sebe a na situaci zvenčí, který rozebírá
-heslo [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md), a na
+heslo [Disociace](@/glossary/disociace.md), a na
 [meta-pozici](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md), z níž lze posuzovat
 vlastní reakce. Příbuzný je vzorec, který pracuje s vnitřním kritickým hlasem, rozebíraný v
 hesle [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md).
@@ -190,7 +193,7 @@ zkušenosti rozvádí v hesle o [identitní rekonstituci](@/kompendium/technique
 a souvislost se sebeobrazem rozebírá heslo
 [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -208,26 +211,26 @@ a souvislost se sebeobrazem rozebírá heslo
 
 **Rodina a hierarchie**
 
-- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzný vzorec (Submodality, Inner critic pattern)
-- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzný vzorec (Disociace, fobie a trauma, Forgiveness pattern)
-- [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – příbuzný vzorec (Disociace, fobie a trauma, Self-concept pattern)
+- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzné heslo (Základní pojmy NLP, Meta-position)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzné heslo (Submodality, Inner critic pattern)
+- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzné heslo (Disociace, fobie a trauma, Forgiveness pattern)
+- [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – příbuzné heslo (Disociace, fobie a trauma, Self-concept pattern)
 
 **V kompendiu**
 
-- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – předchozí vzorec rodiny
-- [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – předchozí heslo rodiny
+- [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Limitující rozhodnutí", "Limiting decisions", "omezující rozhodnutí", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Limitující rozhodnutí", "Limiting decisions", "omezující rozhodnutí", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.05"
-nlp_slug = "limitujici-rozhodnuti"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Limiting decisions"
-nlp_aliases = ["omezující rozhodnutí"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "terapie-casove-osy"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
-nlp_related = ["prahovy-vzorec", "reimprinting", "terapie-casove-osy", "korenova-pricina", "limitujici-presvedceni", "presvedceni-o-pricine", "imprint"]
-nlp_related_declared = ["limitujici-presvedceni", "imprint", "korenova-pricina", "reimprinting", "presvedceni-o-pricine"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md"]
-nlp_links_prose = ["glossary/konfabulace.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md", "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md"]
-nlp_prev = "uvolneni-negativnich-emoci"
-nlp_next = "vlozeni-budouciho-cile"
-nlp_position = 5
-nlp_family_size = 12
-nlp_sources = ["beck-1976", "dilts-1990", "ellis-1962", "gilovich-1991", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Rozhodnutí, nebo přizpůsobení", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.05"
+catalog_slug = "limitujici-rozhodnuti"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Limiting decisions"
+catalog_aliases = ["omezující rozhodnutí"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "terapie-casove-osy"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
+catalog_related = ["prahovy-vzorec", "reimprinting", "terapie-casove-osy", "korenova-pricina", "limitujici-presvedceni", "presvedceni-o-pricine", "imprint"]
+catalog_related_declared = ["limitujici-presvedceni", "imprint", "korenova-pricina", "reimprinting", "presvedceni-o-pricine"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/konfabulace.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md", "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md"]
+catalog_prev = "uvolneni-negativnich-emoci"
+catalog_next = "vlozeni-budouciho-cile"
+catalog_position = 5
+catalog_family_size = 12
+catalog_sources = ["beck-1976", "dilts-1990", "ellis-1962", "gilovich-1991", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Rozhodnutí, nebo přizpůsobení", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Limitující rozhodnutí
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Limiting decisions |
 | **Jiné názvy** | omezující rozhodnutí |
-| **Obecnější vzorec** | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) |
+| **Obecnější heslo** | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -107,7 +110,7 @@ Pro existenci limitujících rozhodnutí jako samostatných a lokalizovatelných
 
 Základní obranou je rozlišovat mezi přesvědčením, které lze přezkoumat v přítomnosti, a příběhem o jeho vzniku, který nelze ověřit. Přesvědčení „nejsem dost dobrý“ lze testovat proti současným dokladům bez toho, aby se muselo určit, kdy a proč vzniklo. Druhou obranou je odmítnout převod bezmoci na volbu. Pokud někdo vykládá zkušenost, v níž jste byli vystaveni násilí nebo zanedbání, jako vaše rozhodnutí, je legitimní trvat na tom, že odpovědnost nesl ten, kdo ubližoval. Třetí obranou je posuzovat pochybnosti věcně. Pochybnost o programu, vztahu nebo skupině je informace o programu, vztahu nebo skupině, ne nutně o vašem dětství. Zotavení po manipulativním užití vzorce zahrnuje návrat k vlastnímu příběhu, v němž mají své místo vlastní volby i okolnosti, které člověk ovlivnit nemohl. Kompendium tento proces popisuje u [autobiografické dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md) a jejího překonávání. Herman zdůrazňuje, že obnovení vlastního vyprávění o minulosti je jádrem zotavení po zneužití (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -127,28 +130,28 @@ Základní obranou je rozlišovat mezi přesvědčením, které lze přezkoumat 
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – příbuzný vzorec (Submodality, Threshold pattern)
-- [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – příbuzný vzorec (Disociace, fobie a trauma, Re-imprinting)
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzný vzorec (Časová osa, Time Line Therapy)
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzný vzorec (Časová osa, Root cause)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzný vzorec (Přesvědčení, Beliefs about cause)
-- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzný vzorec (Přesvědčení, Imprint)
+- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – příbuzné heslo (Submodality, Threshold pattern)
+- [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – příbuzné heslo (Disociace, fobie a trauma, Re-imprinting)
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzné heslo (Časová osa, Time Line Therapy)
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzné heslo (Přesvědčení, Beliefs about cause)
+- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzné heslo (Přesvědčení, Imprint)
 
 **V kompendiu**
 
-- [EA-5.3.7 Self-narrative replacement](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.2 Autobiografická dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.7 Self-narrative replacement](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.2 Autobiografická dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – předchozí vzorec rodiny
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – předchozí heslo rodiny
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

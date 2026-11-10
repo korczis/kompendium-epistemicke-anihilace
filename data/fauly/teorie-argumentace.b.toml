@@ -1,0 +1,321 @@
+# Rodina AF-09: Principy kritické diskuse a teorie argumentace, část b (AF-09.11 až AF-09.20).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "AF-09.11"
+slug = "argumentacni-schemata"
+type = "concept"
+cs = "Argumentační schémata a kritické otázky"
+en = "Argumentation schemes"
+aliases = ["argumentační schéma", "kritické otázky"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["pravidlo-argumentacniho-schematu", "odvolani-na-autoritu", "kluzky-svah", "odvolani-na-dusledky", "toulminuv-model", "bayesovske-pojeti-klamu"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Primář s tím souhlasí, takže o tom už nemá smysl mluvit. Kdo by pochyboval o člověku s třiceti lety praxe?"
+context = "Porada oddělení řeší změnu postupu, který se netýká primářova oboru."
+benign = false
+marker = "Argument z odborného názoru se předkládá jako uzavřený; kritické otázky po oboru autority, po jejím přesném výroku a po shodě s jinými odborníky jsou předem prohlášeny za zbytečné."
+response = "Položit kritické otázky schématu: zda jde o primářův obor, co přesně řekl, zda s ním souhlasí jiní odborníci a o jaké podklady se názor opírá."
+
+[[pattern.trainer]]
+utterance = "Kardioložka doporučuje změnu léčby a opírá se o loňské doporučené postupy odborné společnosti. Pokud znáte novější data, rád je s ní proberu."
+context = "Ošetřující lékař vysvětluje pacientovi návrh specialistky."
+benign = true
+marker = "Argument z odborného názoru je v oboru autority, uvádí její podklady a sám otevírá kritickou otázku po protichůdných důkazech."
+response = "Jde o rozumné užití schématu: autorita je v oboru, opírá se o doložené postupy a závěr zůstává otevřený novým datům."
+
+[[pattern]]
+id = "AF-09.12"
+slug = "toulminuv-model"
+type = "concept"
+cs = "Toulminův model argumentu"
+en = "Toulmin model"
+aliases = ["Toulminovo schéma", "model tvrzení, údajů a oprávnění"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["argumentacni-schemata", "pravidlo-nevyslovene-premisy", "dokaz-tvrzenim", "pragma-dialektika", "ukvapene-zobecneni"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ve všech třech posudcích se objevuje stejná formulace, takže je jasné, že je napsal jeden člověk. Tím je věc uzavřená."
+context = "Kontrolní komise posuzuje, zda byly posudky v grantové soutěži nezávislé."
+benign = false
+marker = "Mezi údajem (shodná formulace) a tvrzením chybí vyslovené oprávnění, chybí kvalifikátor míry jistoty a výjimky, například společná šablona, se vůbec nezvažují."
+response = "Vyžádat si oprávnění, které údaj s tvrzením spojuje, zeptat se na jeho podklad a na okolnosti, za kterých by neplatilo, a podle toho zmírnit jistotu závěru."
+
+[[pattern.trainer]]
+utterance = "Shodná formulace ve třech posudcích naznačuje společný původ, pokud ovšem nevychází z šablony agentury. To ověříme, než cokoli uzavřeme."
+context = "Člen kontrolní komise shrnuje předběžné zjištění."
+benign = true
+marker = "Argument má údaj, vyslovené oprávnění, kvalifikátor míry jistoty i výslovnou výhradu, za které podmínky závěr neplatí."
+response = "Úplná toulminovská struktura: tvrzení je přiměřené podkladům a mluvčí sám uvádí, co by ho vyvrátilo."
+
+[[pattern]]
+id = "AF-09.13"
+slug = "princip-shovivavosti"
+type = "concept"
+cs = "Princip shovívavosti"
+en = "Principle of charity"
+aliases = ["princip vstřícného výkladu", "vstřícná interpretace"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["slameny-panak", "ocelovy-panak", "pravidlo-stanoviska", "pravidlo-nevyslovene-premisy", "dialektika-a-eristika"]
+kompendium = [
+  "kompendium/techniques/ea-7-2-8-davidson-charity.md",
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kolegyně napsala, že by se pilotní provoz měl o měsíc prodloužit. Ve skutečnosti tím chce celý projekt pohřbít, takže její návrh můžeme rovnou zamítnout."
+context = "Vedoucí týmu shrnuje e-mailovou diskusi o zavedení nového systému."
+benign = false
+marker = "Ze dvou možných výkladů návrhu se bez opory v textu volí ten nejslabší a nejméně příznivý a připisuje se mu skrytý úmysl."
+response = "Vrátit se k doslovnému znění návrhu a k jeho uvedeným důvodům, zeptat se autorky, jak ho myslela, a posuzovat nejlépe doložený výklad."
+
+[[pattern.trainer]]
+utterance = "Rozumím vašemu návrhu tak, že prodloužení pilotu má dát čas na školení, ne projekt zastavit. Je to tak? Pak bych se ptal, jestli na to stačí měsíc."
+context = "Člen týmu reaguje na návrh kolegyně na poradě."
+benign = true
+marker = "Výklad stojí na uvedených důvodech, autorce se dává možnost ho opravit a kritika míří na nejsilnější podobu návrhu."
+response = "Legitimní užití principu: nejdřív se ověří, co návrh tvrdí, a teprve potom se posuzuje, zda obstojí."
+
+[[pattern]]
+id = "AF-09.14"
+slug = "ocelovy-panak"
+type = "concept"
+cs = "Ocelový panák"
+en = "Steelmanning"
+aliases = ["steelman", "steelmanning", "nejsilnější verze protiargumentu"]
+use = "zadne"
+risk = "nizke"
+broader = "princip-shovivavosti"
+related = ["slameny-panak", "princip-shovivavosti", "falesna-vyvazenost", "pravidlo-stanoviska", "vybirani-podivinu"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/educational-scenarios/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Udělám z vašeho argumentu tu nejsilnější verzi: ve skutečnosti tvrdíte, že očkování je experiment na lidech. A to je pochopitelně nesmysl."
+context = "Moderátor veřejné debaty reaguje na diskutujícího, který se ptal na časový odstup mezi dávkami."
+benign = false
+marker = "Ohlášené „posílení“ cizího argumentu ve skutečnosti dosazuje jiné, extrémnější tvrzení, které protějšek nevyslovil, a vyvrací právě je."
+response = "Ověřit, zda údajná nejsilnější verze odpovídá tomu, co protějšek řekl, a nechat ho, ať rekonstrukci potvrdí nebo opraví."
+
+[[pattern.trainer]]
+utterance = "Než odpovím, zkusím shrnout vaši pozici co nejsilněji: obáváte se, že odstup mezi dávkami nebyl ověřen u starších pacientů. Sedí to?"
+context = "Infektolog odpovídá na dotaz v diskusi po přednášce."
+benign = true
+marker = "Rekonstrukce vychází z vyslovených důvodů, posiluje je jen tím, že je zpřesňuje, a protějšek ji může opravit."
+response = "Legitimní užití: protiargument se posuzuje v nejsilnější podobě, kterou jeho autor uznává za svou."
+
+[[pattern]]
+id = "AF-09.15"
+slug = "pragma-dialektika"
+type = "concept"
+cs = "Pragma-dialektika"
+en = "Pragma-dialectics"
+aliases = ["pragmadialektika", "model kritické diskuse"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["pravidlo-svobody", "pravidlo-dukazniho-bremene", "pravidlo-uzavreni", "dialektika-a-eristika", "toulminuv-model", "princip-shovivavosti"]
+kompendium = [
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "O tom, jestli je dodavatel spolehlivý, tady diskutovat nebudeme. Kdo s výběrem nesouhlasí, ať si to nechá pro sebe, rozhodnuto už je."
+context = "Předseda výběrové komise ukončuje připomínky dvou členů."
+benign = false
+marker = "Již ve fázi konfrontace je jedné straně upřeno právo vyslovit pochybnost, takže kritická diskuse vůbec nezačne."
+response = "Odlišit rozhodnutí od zdůvodnění: požadovat, aby pochybnost mohla být vyslovena a zaprotokolována, a aby ten, kdo výběr hájí, předložil své důvody."
+
+[[pattern.trainer]]
+utterance = "Máte pochybnosti o spolehlivosti dodavatele. Zapišme je, ať je jasné, o čem se přeme, a já k nim do příští schůze doložím reference a smluvní sankce."
+context = "Předseda výběrové komise reaguje na připomínky členů."
+benign = true
+marker = "Rozdíl názorů je vyjasněn, pochybnost je přijata a strana, která stanovisko hájí, přebírá důkazní břemeno."
+response = "Jde o diskusi v souladu s modelem: konfrontace je otevřená, břemeno nese navrhovatel a závěr se odkládá na dobu, kdy budou podklady."
+
+[[pattern]]
+id = "AF-09.16"
+slug = "dialektika-a-eristika"
+type = "concept"
+cs = "Dialektika a eristika"
+en = "Dialectic and eristic"
+aliases = ["eristická dialektika", "eristický dialog", "hádka o vítězství"]
+use = "zadne"
+risk = "stredni"
+broader = ""
+related = ["pragma-dialektika", "gish-gallop", "sealioning", "personalizace-sporu", "slameny-panak", "princip-shovivavosti"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-2-3-9-sealioning-medialni.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na podstatu tvé námitky odpovídat nebudu. Podívej se, jak se ti třese hlas, to přece mluví samo za sebe, a kdo tu vypadá líp."
+context = "Spor dvou členů zastupitelstva přenášený do sociálních sítí."
+benign = false
+marker = "Cílem výměny je vítězství před publikem, ne vyjasnění sporné otázky: od věci se přechází k vystupování a dojmu protějšku."
+response = "Pojmenovat, že se diskuse změnila z kritické na eristickou, a vrátit ji ke sporné otázce, nebo ji odložit do formátu, kde se dá vést věcně."
+
+[[pattern.trainer]]
+utterance = "Nebudeme se přít o to, kdo vyhrál minulou debatu. Napište mi prosím, kterou část rozpočtu považujete za chybnou, a projdeme ji položku po položce."
+context = "Starosta odpovídá opozičnímu zastupiteli po vyhrocené schůzi."
+benign = true
+marker = "Výměna se výslovně vrací od soupeření k věcné otázce a nabízí formát, ve kterém lze námitku prověřit."
+response = "Jde o dialektický, ne eristický postoj: spor je zúžen na ověřitelnou věc a protějšek má prostor svou námitku doložit."
+
+[[pattern]]
+id = "AF-09.17"
+slug = "bayesovske-pojeti-klamu"
+type = "concept"
+cs = "Bayesovské pojetí klamů"
+en = "Bayesian account of fallacies"
+aliases = ["pravděpodobnostní pojetí klamů", "bayesovská teorie argumentace"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["odvolani-na-nevedomost", "kluzky-svah", "kruhovy-argument", "odvolani-na-autoritu", "zanedbani-zakladni-miry", "argumentacni-schemata"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Žádná studie zatím neprokázala, že ten doplněk stravy škodí, a takových studií proběhlo snad deset. Je tedy bezpečný stejně jako voda."
+context = "Prodejce doplňků stravy odpovídá zákaznici na dotaz o bezpečnosti."
+benign = false
+marker = "Absence prokázané škody se mění v jistotu bezpečnosti, aniž by se uvedlo, jak citlivé ty studie byly, jak dlouho trvaly a kdo je financoval."
+response = "Zeptat se, zda by studie škodu vůbec dokázaly zachytit, jak velké a nezávislé byly, a uvědomit si, že nepřítomnost důkazu jen mírně posouvá odhad, pokud hledání bylo slabé."
+
+[[pattern.trainer]]
+utterance = "Po deseti letech sledování desítek tisíc pacientů v nezávislých registrech se žádný signál poškození jater neobjevil, takže riziko považujeme za velmi malé."
+context = "Farmakolog shrnuje bezpečnostní data léku pro lékovou komisi."
+benign = true
+marker = "Argument z nepřítomnosti nálezu se opírá o hledání, které by škodu s vysokou pravděpodobností zachytilo, a závěr je formulován jako odhad, ne jistota."
+response = "Silná podoba argumentu z nevědomosti: citlivé a dlouhodobé hledání oprávněně snižuje pravděpodobnost škody."
+
+[[pattern]]
+id = "AF-09.18"
+slug = "motivovane-uvazovani"
+type = "concept"
+cs = "Motivované uvažování"
+en = "Motivated reasoning"
+aliases = ["motivované usuzování", "směrově motivované uvažování"]
+use = "chyba"
+risk = "stredni"
+broader = ""
+related = ["argumentacni-teorie-uvazovani", "vyber-tresnicek", "posouvani-branek", "zvlastni-vyjimka", "zadny-pravy-skot", "klam-utopenych-nakladu"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta studie o vedlejších účincích naší metody má malý vzorek, takže ji ignorujeme. Ta o jejím přínosu má vzorek ještě menší, ale ta je přece jasná."
+context = "Vedoucí soukromé kliniky hodnotí literaturu o metodě, kterou klinika nabízí."
+benign = false
+marker = "Stejné metodické kritérium (velikost vzorku) se přísně uplatní na nevítaný výsledek a mírně na vítaný; měřítko se mění podle žádoucího závěru."
+response = "Uplatnit na obě studie stejná kritéria předem a zeptat se, jak by se studie hodnotily, kdyby jejich výsledky byly opačné."
+
+[[pattern.trainer]]
+utterance = "Obě studie mají malý vzorek, takže ani přínos, ani vedlejší účinky naší metody zatím neumíme spolehlivě posoudit. Dokud nebudou lepší data, budeme to pacientům říkat."
+context = "Vedoucí soukromé kliniky hodnotí literaturu o metodě, kterou klinika nabízí."
+benign = true
+marker = "Metodické kritérium se uplatní symetricky na výsledky vítané i nevítané a závěr je přiměřený nejistotě."
+response = "Uvažování vedené cílem přesnosti: měřítko nezávisí na tom, který závěr by mluvčímu vyhovoval."
+
+[[pattern]]
+id = "AF-09.19"
+slug = "inokulace-proti-klamum"
+type = "concept"
+cs = "Inokulace proti klamům"
+en = "Inoculation against fallacies"
+aliases = ["psychologická inokulace", "prebunking", "předběžné vyvrácení"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["falesna-vyvazenost", "palba-nepravd", "obrana-proti-vlivovym-vzorcum", "odvolani-na-autoritu", "falesne-dilema", "argument-opakovanim"]
+kompendium = [
+  "kompendium/06-obrana/_index.md",
+  "kompendium/population-health/_index.md",
+  "kompendium/educational-scenarios/_index.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tisíce vědců podepsaly petici, že změna klimatu není způsobena člověkem. Tolik odborníků se přece nemůže mýlit."
+context = "Příspěvek sdílený v diskusní skupině o energetice."
+benign = false
+marker = "Technika falešných expertů: počet podpisů zastírá, že většina podepsaných nejsou odborníci na klima, a vytváří dojem, že vědecká shoda neexistuje."
+response = "Rozpoznat techniku podle jejího tvaru, zeptat se na obor a výběr podepsaných a porovnat to s názorem odborníků, kteří v oboru skutečně publikují."
+
+[[pattern.trainer]]
+utterance = "Než si pustíte dnešní video, upozorňuji: všímejte si, kdy autor nabízí jen dvě možnosti, jako by žádná třetí nebyla. Je to častý trik a příště ho poznáte sami."
+context = "Učitelka mediální výchovy připravuje třídu na rozbor reklamního spotu."
+benign = true
+marker = "Varování a slabá ukázka techniky předchází setkání s ní a cílem je samostatné rozpoznání, ne převzetí opačného názoru."
+response = "Legitimní inokulace: učí rozpoznat tvar klamu a ponechává posluchačům úsudek o obsahu."
+
+[[pattern]]
+id = "AF-09.20"
+slug = "argumentacni-teorie-uvazovani"
+type = "concept"
+cs = "Argumentační teorie uvažování"
+en = "Argumentative theory of reasoning"
+aliases = ["argumentační funkce uvažování", "interakcionistické pojetí rozumu"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["motivovane-uvazovani", "dialektika-a-eristika", "pragma-dialektika", "bayesovske-pojeti-klamu", "princip-shovivavosti"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Celý víkend jsem o tom přemýšlel sám a důkladně, a čím víc jsem přemýšlel, tím víc důvodů jsem pro svůj plán našel. Takže je určitě správný."
+context = "Manažer obhajuje investiční záměr před představenstvem, aniž ho s kýmkoli konzultoval."
+benign = false
+marker = "Osamělé hledání důvodů pro předem zvolený závěr se vydává za jeho prověření; přibývající důvody svědčí o úsilí, ne o tom, že by záměr obstál proti námitkám."
+response = "Oddělit hledání důvodů od jejich prověřování: vystavit záměr námitkám lidí, kteří mají jiné stanovisko, a posuzovat, co z důvodů po kritice zbude."
+
+[[pattern.trainer]]
+utterance = "Svůj návrh jsem nejdřív poslal dvěma kolegům, kteří s ním nesouhlasí, ať v něm hledají slabiny. Tři jejich námitky jsem zapracoval, jednu jsem neobhájil a stáhl ji."
+context = "Výzkumník představuje upravený projekt grantové komisi."
+benign = true
+marker = "Důvody pro závěr byly vystaveny kritice lidí s opačným stanoviskem a ty, které neobstály, byly opuštěny."
+response = "Legitimní užití argumentační funkce rozumu: skupinové prověřování opravuje jednostrannost, kterou má každý, kdo hledá důvody pro vlastní stanovisko."

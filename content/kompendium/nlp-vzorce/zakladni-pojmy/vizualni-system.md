@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Vizuální reprezentační systém", "Visual representational system", "V", "zrakový systém", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Vizuální reprezentační systém", "Visual representational system", "V", "zrakový systém", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.02"
-nlp_slug = "vizualni-system"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Visual representational system"
-nlp_aliases = ["V", "zrakový systém"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "reprezentacni-systemy"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reprezentacni-systemy"]
-nlp_related = ["auditivni-system", "kinesteticky-system", "predikaty", "ocni-pristupove-signaly", "vizualni-kotvy", "vizualni-submodality", "pravopisna-strategie"]
-nlp_related_declared = ["ocni-pristupove-signaly", "vizualni-submodality", "predikaty", "auditivni-system", "kinesteticky-system"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/critical-perspectives/_index.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/critical-perspectives/_index.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/submodality/vizualni-submodality.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md"]
-nlp_prev = "reprezentacni-systemy"
-nlp_next = "auditivni-system"
-nlp_position = 2
-nlp_family_size = 42
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.02"
+catalog_slug = "vizualni-system"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Visual representational system"
+catalog_aliases = ["V", "zrakový systém"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "reprezentacni-systemy"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reprezentacni-systemy"]
+catalog_related = ["auditivni-system", "kinesteticky-system", "predikaty", "ocni-pristupove-signaly", "vizualni-kotvy", "vizualni-submodality", "pravopisna-strategie"]
+catalog_related_declared = ["ocni-pristupove-signaly", "vizualni-submodality", "predikaty", "auditivni-system", "kinesteticky-system"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/critical-perspectives/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/critical-perspectives/_index.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/submodality/vizualni-submodality.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md"]
+catalog_prev = "reprezentacni-systemy"
+catalog_next = "auditivni-system"
+catalog_position = 2
+catalog_family_size = 42
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.toml"
 +++
 
 # Vizuální reprezentační systém
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Visual representational system |
 | **Jiné názvy** | V, zrakový systém |
-| **Obecnější vzorec** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
+| **Obecnější heslo** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ dalšími technikami přepisování obrazů (Herman 1992). Kompendium se k vlivu
 vrací v kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
 a v [kritických perspektivách](@/kompendium/critical-perspectives/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -219,28 +222,28 @@ a v [kritických perspektivách](@/kompendium/critical-perspectives/_index.md).
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory representational system)
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzný vzorec (Základní pojmy NLP, Kinaesthetic representational system)
-- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzný vzorec (Základní pojmy NLP, Predicates)
-- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzný vzorec (Základní pojmy NLP, Eye accessing cues)
-- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – příbuzný vzorec (Kotvení, Visual anchors)
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzný vzorec (Submodality, Visual submodalities)
-- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – příbuzný vzorec (Strategie a modelování, Spelling strategy)
+- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory representational system)
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzné heslo (Základní pojmy NLP, Kinaesthetic representational system)
+- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzné heslo (Základní pojmy NLP, Predicates)
+- [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – příbuzné heslo (Základní pojmy NLP, Eye accessing cues)
+- [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – příbuzné heslo (Kotvení, Visual anchors)
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzné heslo (Submodality, Visual submodalities)
+- [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – příbuzné heslo (Strategie a modelování, Spelling strategy)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – předchozí vzorec rodiny
-- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – předchozí heslo rodiny
+- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Struktura přesvědčení v Sleight of Mouth", "Belief structure in Sleight of Mouth", "přesvědčení jako spojení X a Y", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Struktura přesvědčení v Sleight of Mouth", "Belief structure in Sleight of Mouth", "přesvědčení jako spojení X a Y", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.02"
-nlp_slug = "struktura-presvedceni-som"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Belief structure in Sleight of Mouth"
-nlp_aliases = ["přesvědčení jako spojení X a Y"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["pricina-a-nasledek", "komplexni-ekvivalence", "sleight-of-mouth", "som-zobecneni", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "myslenkovy-virus"]
-nlp_related_declared = ["komplexni-ekvivalence", "pricina-a-nasledek", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "limitujici-presvedceni", "som-zobecneni"]
-nlp_kompendium = ["kompendium/techniques/ea-7-2-7-quine-web-belief.md", "kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/techniques/ea-7-2-7-quine-web-belief.md"]
-nlp_prev = "sleight-of-mouth"
-nlp_next = "som-zamer"
-nlp_position = 2
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "herman-1992", "korzybski-1933", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = ["korzybski-1933"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.02"
+catalog_slug = "struktura-presvedceni-som"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Belief structure in Sleight of Mouth"
+catalog_aliases = ["přesvědčení jako spojení X a Y"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["pricina-a-nasledek", "komplexni-ekvivalence", "sleight-of-mouth", "som-zobecneni", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "myslenkovy-virus"]
+catalog_related_declared = ["komplexni-ekvivalence", "pricina-a-nasledek", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "limitujici-presvedceni", "som-zobecneni"]
+catalog_kompendium = ["kompendium/techniques/ea-7-2-7-quine-web-belief.md", "kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/2-linguistic-circular-definitions.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/techniques/ea-7-2-7-quine-web-belief.md"]
+catalog_prev = "sleight-of-mouth"
+catalog_next = "som-zamer"
+catalog_position = 2
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "herman-1992", "korzybski-1933", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = ["korzybski-1933"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.toml"
 +++
 
 # Struktura přesvědčení v Sleight of Mouth
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Belief structure in Sleight of Mouth |
 | **Jiné názvy** | přesvědčení jako spojení X a Y |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ vzorcích, například o [zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/
 které ukazují, jak se s každým kloubem přesvědčení dá v rozhovoru pohnout a jak takový pohyb
 rozpoznat.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -219,30 +222,30 @@ rozpoznat.
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzný vzorec (Meta-model, Cause and effect)
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzný vzorec (Meta-model, Complex equivalence)
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzný vzorec (Sleight of Mouth, Sleight of Mouth)
-- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzný vzorec (Sleight of Mouth, Chunk up)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzný vzorec (Přesvědčení, Beliefs about cause)
-- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzný vzorec (Přesvědčení, Beliefs about meaning)
-- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzný vzorec (Přesvědčení, Thought virus)
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzné heslo (Meta-model, Cause and effect)
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (Meta-model, Complex equivalence)
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzné heslo (Sleight of Mouth, Sleight of Mouth)
+- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzné heslo (Sleight of Mouth, Chunk up)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzné heslo (Přesvědčení, Beliefs about cause)
+- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzné heslo (Přesvědčení, Beliefs about meaning)
+- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzné heslo (Přesvědčení, Thought virus)
 
 **V kompendiu**
 
-- [EA-7.2.7 Quine: Síť přesvědčení](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.2.7 Quine: Síť přesvědčení](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – předchozí vzorec rodiny
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – předchozí heslo rodiny
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

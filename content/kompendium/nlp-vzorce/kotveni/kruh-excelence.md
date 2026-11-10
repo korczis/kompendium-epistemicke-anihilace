@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Kruh excelence", "Circle of excellence", "kruh výkonnosti", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Kruh excelence", "Circle of excellence", "kruh výkonnosti", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.07"
-nlp_slug = "kruh-excelence"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Circle of excellence"
-nlp_aliases = ["kruh výkonnosti"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "prostorove-kotveni"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["prostorove-kotveni", "kotveni"]
-nlp_related = ["zdrojovy-stav", "samokotveni", "stohovani-kotev", "prenos-zdroje", "guru-efekt"]
-nlp_related_declared = ["samokotveni", "stohovani-kotev", "zdrojovy-stav", "guru-efekt"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md", "kompendium/nlp-vzorce/kotveni/samokotveni.md", "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "prostorove-kotveni"
-nlp_next = "posuvna-kotva"
-nlp_position = 7
-nlp_family_size = 19
-nlp_sources = ["cialdini-2009", "dilts-delozier-2000", "grinder-delozier-1987", "kirsch-lynn-1995", "oconnor-seymour-1990", "passmore-rowson-2019", "pavlov-1927", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["cialdini-2009", "kirsch-lynn-1995", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.07"
+catalog_slug = "kruh-excelence"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Circle of excellence"
+catalog_aliases = ["kruh výkonnosti"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "prostorove-kotveni"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["prostorove-kotveni", "kotveni"]
+catalog_related = ["zdrojovy-stav", "samokotveni", "stohovani-kotev", "prenos-zdroje", "guru-efekt"]
+catalog_related_declared = ["samokotveni", "stohovani-kotev", "zdrojovy-stav", "guru-efekt"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md", "kompendium/nlp-vzorce/kotveni/samokotveni.md", "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "prostorove-kotveni"
+catalog_next = "posuvna-kotva"
+catalog_position = 7
+catalog_family_size = 19
+catalog_sources = ["cialdini-2009", "dilts-delozier-2000", "grinder-delozier-1987", "kirsch-lynn-1995", "oconnor-seymour-1990", "passmore-rowson-2019", "pavlov-1927", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["cialdini-2009", "kirsch-lynn-1995", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.toml"
 +++
 
 # Kruh excelence
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Circle of excellence |
 | **Jiné názvy** | kruh výkonnosti |
-| **Obecnější vzorec** | [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) |
+| **Obecnější heslo** | [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ potřeby odborná podpora. Kompendium shrnuje obecné principy takové obrany na
 osobního rituálu přípravy je bez rizika, pokud člověk ví, co od něj může čekat, a nenahrazuje
 jím přípravu ani odbornou pomoc u vážnější úzkosti.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,26 +217,26 @@ jím přípravu ani odbornou pomoc u vážnější úzkosti.
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – příbuzný vzorec (Kotvení, Self-anchoring)
-- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzný vzorec (Kotvení, Stacking anchors)
-- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzný vzorec (Kotvení, Resource transfer)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – příbuzné heslo (Kotvení, Self-anchoring)
+- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzné heslo (Kotvení, Stacking anchors)
+- [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – příbuzné heslo (Kotvení, Resource transfer)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – předchozí vzorec rodiny
-- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – předchozí heslo rodiny
+- [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

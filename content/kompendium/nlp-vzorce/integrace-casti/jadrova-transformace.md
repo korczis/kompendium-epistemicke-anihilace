@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Jádrová transformace", "Core transformation", "core transformation", "jádrové stavy", "Práce s částmi", "NLP", "neurolingvistické programování"]
+keywords = ["Jádrová transformace", "Core transformation", "core transformation", "jádrové stavy", "Práce s částmi", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-15.03"
-nlp_slug = "jadrova-transformace"
-nlp_family = "integrace-casti"
-nlp_family_code = "15"
-nlp_family_title = "Práce s částmi"
-nlp_family_en = "Parts work"
-nlp_part = "integrace-casti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Core transformation"
-nlp_aliases = ["core transformation", "jádrové stavy"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "integrace-casti"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["integrace-casti"]
-nlp_related = ["pozitivni-zamer-chovani", "sestikrokovy-reframing", "uroven-identity", "elicitace-pozitivniho-zameru"]
-nlp_related_declared = ["elicitace-pozitivniho-zameru", "pozitivni-zamer-chovani", "sestikrokovy-reframing", "uroven-identity"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/chunking.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "vizualni-squash"
-nlp_next = "vyjednavani-casti"
-nlp_position = 3
-nlp_family_size = 9
-nlp_sources = ["andreas-andreas-1989", "andreas-andreas-1994", "andreas-andreas-1987", "bandler-grinder-1982", "herman-1992", "lifton-1961", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1994", "andreas-andreas-1987", "bandler-grinder-1982"]
-nlp_sources_roots = []
-nlp_sources_critical = ["herman-1992", "lifton-1961", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/integrace-casti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-15.03"
+catalog_slug = "jadrova-transformace"
+catalog_family = "integrace-casti"
+catalog_family_code = "15"
+catalog_family_title = "Práce s částmi"
+catalog_family_en = "Parts work"
+catalog_part = "integrace-casti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Core transformation"
+catalog_aliases = ["core transformation", "jádrové stavy"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "integrace-casti"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["integrace-casti"]
+catalog_related = ["pozitivni-zamer-chovani", "sestikrokovy-reframing", "uroven-identity", "elicitace-pozitivniho-zameru"]
+catalog_related_declared = ["elicitace-pozitivniho-zameru", "pozitivni-zamer-chovani", "sestikrokovy-reframing", "uroven-identity"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/chunking.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "vizualni-squash"
+catalog_next = "vyjednavani-casti"
+catalog_position = 3
+catalog_family_size = 9
+catalog_sources = ["andreas-andreas-1989", "andreas-andreas-1994", "andreas-andreas-1987", "bandler-grinder-1982", "herman-1992", "lifton-1961", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1994", "andreas-andreas-1987", "bandler-grinder-1982"]
+catalog_sources_roots = []
+catalog_sources_critical = ["herman-1992", "lifton-1961", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/integrace-casti.toml"
 +++
 
 # Jádrová transformace
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-15.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Core transformation |
 | **Jiné názvy** | core transformation, jádrové stavy |
-| **Obecnější vzorec** | [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) |
+| **Obecnější heslo** | [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Specifický účinek jádrové transformace nebyl, pokud je z dostupných přehl
 
 Obranou je především rozlišovat mezi prožitkem a nárokem. Prožitek míru nebo přijetí je hodnotný sám o sobě a nezakládá žádný závazek vůči tomu, kdo ho pomohl vyvolat. Pokud se z něj odvozuje, že jen určitá skupina, učitel nebo program dokáže takový stav zprostředkovat, je na místě zpozornět a hledat nezávislé informace. Druhou obranou je trvat na konkrétnosti. Výhradu, například k penězům, k pravidlům nebo k jednání vedoucího, je legitimní posuzovat v její vlastní podobě, nikoli jako symptom hlubší touhy. Hněv na nespravedlnost je často přiměřená reakce, ne překážka vnitřního míru. Třetí obranou je udržet souvislost s odbornou péčí: u závažných psychických potíží nemá žádný vzorec nahrazovat ověřenou léčbu, jakou kompendium shrnuje v přehledu [terapeutických přístupů](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). V zotavení po zkušenosti s duchovně laděnými skupinami, které s podobnou řečí pracovaly, se nepracuje s dalším hledáním jádra, ale s obnovou oprávněnosti vlastních emocí, včetně hněvu, a s rozpoznáním, jak byla touha po míru použita proti zájmům člověka. Herman popisuje, že zotavení po zneužití vyžaduje bezpečný vztah, ve kterém má člověk znovu právo na vlastní pocity a jejich pojmenování (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,25 +124,25 @@ Obranou je především rozlišovat mezi prožitkem a nárokem. Prožitek míru 
 
 **Rodina a hierarchie**
 
-- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Six-step reframing)
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Identity level)
-- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzný vzorec (Práce s částmi, Eliciting a part's positive intention)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzné heslo (Reframing a rámce, Six-step reframing)
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzné heslo (Logické úrovně a percepční pozice, Identity level)
+- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzné heslo (Práce s částmi, Eliciting a part's positive intention)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – předchozí vzorec rodiny
-- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – předchozí heslo rodiny
+- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-jazykove-vzorce"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Jazykové vzorce", "Language patterns", "NLP"]
+keywords = ["Jazykové vzorce", "Language patterns", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "jazykove-vzorce"
-nlp_code = "20"
-nlp_en = "Language patterns"
-nlp_size = 20
-nlp_members = ["hierarchie-idei", "chunking-nahoru", "chunking-dolu", "lateralni-chunking", "kategorie-satirove", "smirovatel", "obvinovatel", "pocitac", "rozptylovac", "vyrovnany", "terapeuticka-metafora", "izomorfni-metafora", "ale-a-a", "protoze", "zatim", "zkusit", "predstavte-si", "otazky-misto-tvrzeni", "slovni-baliky", "casove-presuny-v-jazyce"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "dilts-1999", "gordon-1978", "grice-1975", "haley-1973", "korzybski-1933", "langer-1978", "loftus-palmer-1974", "mcguire-1964", "miller-1956", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "jazykove-vzorce"
+catalog_code = "20"
+catalog_en = "Language patterns"
+catalog_size = 20
+catalog_members = ["hierarchie-idei", "chunking-nahoru", "chunking-dolu", "lateralni-chunking", "kategorie-satirove", "smirovatel", "obvinovatel", "pocitac", "rozptylovac", "vyrovnany", "terapeuticka-metafora", "izomorfni-metafora", "ale-a-a", "protoze", "zatim", "zkusit", "predstavte-si", "otazky-misto-tvrzeni", "slovni-baliky", "casove-presuny-v-jazyce"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "dilts-1999", "gordon-1978", "grice-1975", "haley-1973", "korzybski-1933", "langer-1978", "loftus-palmer-1974", "mcguire-1964", "miller-1956", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Jazykové vzorce
@@ -62,12 +64,12 @@ Obrana proti jazykovým vzorcům této rodiny stojí na jejich zviditelnění. U
 
 Výzkum odolnosti vůči přesvědčování ukazuje, že předchozí setkání s oslabenou podobou útoku a s jeho vyvrácením zvyšuje schopnost odolat (McGuire 1964), a novější práce o předběžném očkování proti dezinformacím dospívají k podobnému závěru pro rozpoznávání manipulativních technik obecně (van der Linden 2023). Smyslem této rodiny v kompendiu je právě takové očkování: kdo zná tvar vzorce, rozpozná ho i v podobě, se kterou se dosud nesetkal. U lidí, kteří byli dlouho vystaveni prostředí, kde se jazyk těchto vzorců používal soustavně, bývá součástí zotavení návrat ke konkrétnímu, ověřitelnému a osobnímu jazyku, ve kterém lze znovu samostatně posoudit, co se stalo a kdo za co odpovídá. Souvislosti s dalšími jazykovými rodinami katalogu nabízí [meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) a [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-20.01` | [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) | Hierarchy of ideas | pojem | terapeutické i vlivové | střední |
 | `NLP-20.02` | [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) | Chunking up | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-20.03` | [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) | Chunking down | vzorec | terapeutické i vlivové | střední |
@@ -88,6 +90,76 @@ Výzkum odolnosti vůči přesvědčování ukazuje, že předchozí setkání s
 | `NLP-20.18` | [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) | Questions instead of statements | vzorec | terapeutické i vlivové | střední |
 | `NLP-20.19` | [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) | Loaded words | vzorec | převážně vlivové | vysoké |
 | `NLP-20.20` | [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) | Verb tense shifts | vzorec | terapeutické i vlivové | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Jazykové vzorce"]
+  click F "@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md"
+  n1["Hierarchie myšlenek"]
+  n2["Chunking nahoru"]
+  n3["Chunking dolů"]
+  n4["Laterální chunking"]
+  n5["Komunikační kategorie Virginie Satirové"]
+  n6["Usmiřovatel"]
+  n7["Obviňovatel"]
+  n8["Počítač"]
+  n9["Rozptylovač"]
+  n10["Vyrovnaný"]
+  n11["Terapeutická metafora"]
+  n12["Izomorfní metafora"]
+  n13["Záměna „ale“ za „a“"]
+  n14["Slovo „protože“"]
+  n15["Slovo „zatím“"]
+  n16["Slovo „zkusit“"]
+  n17["Výzva „představte si“"]
+  n18["Otázky místo tvrzení"]
+  n19["Hodnotově nabitá slova"]
+  n20["Časové posuny v jazyce"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  F --> n5
+  n5 --> n6
+  n5 --> n7
+  n5 --> n8
+  n5 --> n9
+  n5 --> n10
+  F --> n11
+  n11 --> n12
+  F --> n13
+  F --> n14
+  F --> n15
+  F --> n16
+  F --> n17
+  F --> n18
+  F --> n19
+  F --> n20
+  click n1 "@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md"
+  click n2 "@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md"
+  click n3 "@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md"
+  click n4 "@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md"
+  click n5 "@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md"
+  click n6 "@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md"
+  click n7 "@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md"
+  click n8 "@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md"
+  click n9 "@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md"
+  click n10 "@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md"
+  click n11 "@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md"
+  click n12 "@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md"
+  click n13 "@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md"
+  click n14 "@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md"
+  click n15 "@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md"
+  click n16 "@/kompendium/nlp-vzorce/jazykove-vzorce/zkusit.md"
+  click n17 "@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md"
+  click n18 "@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md"
+  click n19 "@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md"
+  click n20 "@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md"
+```
 
 ## Literatura
 
@@ -115,6 +187,6 @@ Výzkum odolnosti vůči přesvědčování ukazuje, že předchozí setkání s
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – předchozí rodina katalogu
 - [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Důvěra", "Trust", "důvěřivost a nedůvěřivost", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Důvěra", "Trust", "důvěřivost a nedůvěřivost", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.19"
-nlp_slug = "duvera"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Trust"
-nlp_aliases = ["důvěřivost a nedůvěřivost"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["kanal-presvedceni", "rezim-presvedceni", "odpovednost", "raport-jako-nastroj-vlivu", "falesne-zrcadleni-v-podvodech"]
-nlp_related_declared = ["kanal-presvedceni", "rezim-presvedceni", "raport-jako-nastroj-vlivu", "falesne-zrcadleni-v-podvodech"]
-nlp_kompendium = ["kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md", "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md", "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
-nlp_prev = "odpovednost"
-nlp_next = "filozoficky-smer"
-nlp_position = 19
-nlp_family_size = 23
-nlp_sources = ["chartrand-bargh-1999", "charvet-1997", "cialdini-2009", "hall-bodenhamer-1997", "herman-1992", "rogers-1951", "singer-lalich-1995", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
-nlp_sources_roots = []
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "rogers-1951", "singer-lalich-1995", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.19"
+catalog_slug = "duvera"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Trust"
+catalog_aliases = ["důvěřivost a nedůvěřivost"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["kanal-presvedceni", "rezim-presvedceni", "odpovednost", "raport-jako-nastroj-vlivu", "falesne-zrcadleni-v-podvodech"]
+catalog_related_declared = ["kanal-presvedceni", "rezim-presvedceni", "raport-jako-nastroj-vlivu", "falesne-zrcadleni-v-podvodech"]
+catalog_kompendium = ["kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md", "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md", "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
+catalog_prev = "odpovednost"
+catalog_next = "filozoficky-smer"
+catalog_position = 19
+catalog_family_size = 23
+catalog_sources = ["chartrand-bargh-1999", "charvet-1997", "cialdini-2009", "hall-bodenhamer-1997", "herman-1992", "rogers-1951", "singer-lalich-1995", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
+catalog_sources_roots = []
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "rogers-1951", "singer-lalich-1995", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Důvěra
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Trust |
 | **Jiné názvy** | důvěřivost a nedůvěřivost |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ probíhá ve vztazích, které jsou spolehlivé v čase (Herman 1992). Stud za �
 nahradit porozuměním, že podvod byl navržen tak, aby obešel běžné mechanismy důvěry, a že jeho
 úspěch vypovídá o dovednosti podvodníka, ne o vadě oběti.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,26 +217,26 @@ nahradit porozuměním, že podvod byl navržen tak, aby obešel běžné mechan
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer channel)
-- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer mode)
-- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzný vzorec (Metaprogramy, Responsibility)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
-- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzný vzorec (Vliv a zneužití NLP, Mirroring in scams)
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer channel)
+- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer mode)
+- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzné heslo (Metaprogramy, Responsibility)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
+- [Zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md) – příbuzné heslo (Vliv a zneužití NLP, Mirroring in scams)
 
 **V kompendiu**
 
-- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.10 Epistemická trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.10 Epistemická trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – předchozí vzorec rodiny
-- [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – předchozí heslo rodiny
+- [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

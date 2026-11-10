@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Úroveň chování", "Behaviour level", "co člověk dělá", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Úroveň chování", "Behaviour level", "co člověk dělá", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.03"
-nlp_slug = "uroven-chovani"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Behaviour level"
-nlp_aliases = ["co člověk dělá"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "logicke-urovne-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["logicke-urovne-pojem"]
-nlp_related = ["pozitivni-zamer-chovani", "clovek-neni-sve-chovani", "uroven-prostredi", "uroven-schopnosti", "zamena-logickych-urovni", "generator-noveho-chovani"]
-nlp_related_declared = ["uroven-prostredi", "uroven-schopnosti", "clovek-neni-sve-chovani", "pozitivni-zamer-chovani", "generator-noveho-chovani"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_prev = "uroven-prostredi"
-nlp_next = "uroven-schopnosti"
-nlp_position = 3
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "beck-1976", "dilts-1990", "dilts-delozier-2000", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "herman-1992", "miller-galanter-pribram-1960", "pavlov-1927", "sharpley-1987", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982", "dilts-1990", "dilts-delozier-2000"]
-nlp_sources_roots = ["miller-galanter-pribram-1960", "pavlov-1927"]
-nlp_sources_critical = ["beck-1976", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "herman-1992", "sharpley-1987", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.03"
+catalog_slug = "uroven-chovani"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Behaviour level"
+catalog_aliases = ["co člověk dělá"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "logicke-urovne-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["logicke-urovne-pojem"]
+catalog_related = ["pozitivni-zamer-chovani", "clovek-neni-sve-chovani", "uroven-prostredi", "uroven-schopnosti", "zamena-logickych-urovni", "generator-noveho-chovani"]
+catalog_related_declared = ["uroven-prostredi", "uroven-schopnosti", "clovek-neni-sve-chovani", "pozitivni-zamer-chovani", "generator-noveho-chovani"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_prev = "uroven-prostredi"
+catalog_next = "uroven-schopnosti"
+catalog_position = 3
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "beck-1976", "dilts-1990", "dilts-delozier-2000", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "herman-1992", "miller-galanter-pribram-1960", "pavlov-1927", "sharpley-1987", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982", "dilts-1990", "dilts-delozier-2000"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "pavlov-1927"]
+catalog_sources_critical = ["beck-1976", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "herman-1992", "sharpley-1987", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.toml"
 +++
 
 # Úroveň chování
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Behaviour level |
 | **Jiné názvy** | co člověk dělá |
-| **Obecnější vzorec** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
+| **Obecnější heslo** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ vlastních rozhodnutí, tedy kdy jíst, kdy spát a s kým mluvit, protože prá
 pocit vlastní moci nad životem (Herman 1992). Navazující úroveň popisuje heslo [úroveň
 schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,28 +221,28 @@ schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md).
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – příbuzný vzorec (Předpoklady NLP, People are not their behaviour)
-- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Environment level)
-- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Capability level)
-- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Confusing logical levels)
-- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzný vzorec (Strategie a modelování, New behaviour generator)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – příbuzné heslo (Předpoklady NLP, People are not their behaviour)
+- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – příbuzné heslo (Logické úrovně a percepční pozice, Environment level)
+- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – příbuzné heslo (Logické úrovně a percepční pozice, Capability level)
+- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Confusing logical levels)
+- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzné heslo (Strategie a modelování, New behaviour generator)
 
 **V kompendiu**
 
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.4 Měření coercive control (škály a dotazníky)](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.6 Akademická kontrola času](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.4 Měření coercive control (škály a dotazníky)](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.6 Akademická kontrola času](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – předchozí vzorec rodiny
-- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – předchozí heslo rodiny
+- [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

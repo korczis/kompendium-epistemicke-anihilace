@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Periferní vidění", "Peripheral vision", "rozostřený pohled", "široké vidění", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Periferní vidění", "Peripheral vision", "rozostřený pohled", "široké vidění", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.15"
-nlp_slug = "periferni-videni"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Peripheral vision"
-nlp_aliases = ["rozostřený pohled", "široké vidění"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "stav-vysokeho-vykonu"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["stav-vysokeho-vykonu", "novy-kod"]
-nlp_related = ["smyslova-ostrost", "uptime-a-downtime", "trans-pojem", "stav-vysokeho-vykonu", "stav-nevedeni"]
-nlp_related_declared = ["uptime-a-downtime", "trans-pojem", "smyslova-ostrost", "stav-nevedeni"]
-nlp_kompendium = ["kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md"]
-nlp_prev = "stav-nevedeni"
-nlp_next = "instalace-strategie"
-nlp_position = 15
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1979", "erickson-rossi-rossi-1976", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kirsch-lynn-1995", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "grinder-bostic-2001", "grinder-delozier-1987"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["herman-1992", "kirsch-lynn-1995", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.15"
+catalog_slug = "periferni-videni"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Peripheral vision"
+catalog_aliases = ["rozostřený pohled", "široké vidění"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "stav-vysokeho-vykonu"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["stav-vysokeho-vykonu", "novy-kod"]
+catalog_related = ["smyslova-ostrost", "uptime-a-downtime", "trans-pojem", "stav-vysokeho-vykonu", "stav-nevedeni"]
+catalog_related_declared = ["uptime-a-downtime", "trans-pojem", "smyslova-ostrost", "stav-nevedeni"]
+catalog_kompendium = ["kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md"]
+catalog_prev = "stav-nevedeni"
+catalog_next = "instalace-strategie"
+catalog_position = 15
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1979", "erickson-rossi-rossi-1976", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kirsch-lynn-1995", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "grinder-bostic-2001", "grinder-delozier-1987"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Periferní vidění
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Peripheral vision |
 | **Jiné názvy** | rozostřený pohled, široké vidění |
-| **Obecnější vzorec** | [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) |
+| **Obecnější heslo** | [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Fyziologické rozlišení centrálního a periferního vidění je dobře dolož
 
 Obrana proti manipulativnímu užití je jednoduchá a dostupná každému: kdykoli zaostřit, změnit polohu, podívat se na konkrétní předmět, pohnout se nebo si něco zapsat. Tyto drobné úkony vracejí kontrolu nad pozorností a přerušují pohlcení. Na seminářích a ve skupinách je legitimní nepřijmout pokyn k rozostření pohledu a sledovat řečníka obvyklým způsobem; kdo to vykládá jako odpor, vyvíjí tlak. Druhou obranou je zachytit obsah. Pokud řečník tvrdí, že porozumění není potřeba, je užitečné zapsat si jeho hlavní tvrzení a posoudit je později, mimo prostředí, které navozuje pohlcení. Psychologie přesvědčování ukazuje, že sdělení zpracovaná bez pozornosti k argumentům mění postoje méně trvale a takto vzniklé postoje snáze podléhají protiargumentům (Petty a Cacioppo 1986). Pro lidi, kteří při podobných cvičeních zažili odpojení, derealizaci nebo úzkost, je důležité vědět, že jde o známou reakci, ne o selhání. Pomáhají techniky ukotvení v přítomnosti, jako je vnímání chodidel na podlaze, pojmenování předmětů v okolí nebo kontakt s druhým člověkem. Pokud se takové zážitky opakují nebo přetrvávají, patří do péče odborníka, který zná práci s disociací (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -119,27 +122,27 @@ Obrana proti manipulativnímu užití je jednoduchá a dostupná každému: kdyk
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzný vzorec (Základní pojmy NLP, Sensory acuity)
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzný vzorec (Základní pojmy NLP, Uptime and downtime)
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzný vzorec (Strategie a modelování, High-performance state)
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzný vzorec (Strategie a modelování, Know-nothing state)
+- [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – příbuzné heslo (Základní pojmy NLP, Sensory acuity)
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzné heslo (Základní pojmy NLP, Uptime and downtime)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzné heslo (Strategie a modelování, High-performance state)
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzné heslo (Strategie a modelování, Know-nothing state)
 
 **V kompendiu**
 
-- [EA-8.1.7 Škála disociativních zážitků DES-II (Carlson, Putnam)](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.7 Mindfulness-based trauma intervention](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.1.7 Škála disociativních zážitků DES-II (Carlson, Putnam)](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.7 Mindfulness-based trauma intervention](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – předchozí vzorec rodiny
-- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – předchozí heslo rodiny
+- [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

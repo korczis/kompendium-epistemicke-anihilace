@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Beznaděj, bezmoc a pocit bezcennosti", "Hopelessness, helplessness, worthlessness", "tři oblasti limitujících přesvědčení", "beznaděj, bezmoc, nehodnost", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Beznaděj, bezmoc a pocit bezcennosti", "Hopelessness, helplessness, worthlessness", "tři oblasti limitujících přesvědčení", "beznaděj, bezmoc, nehodnost", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.08"
-nlp_slug = "beznadej-bezmoc-nehodnost"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Hopelessness, helplessness, worthlessness"
-nlp_aliases = ["tři oblasti limitujících přesvědčení", "beznaděj, bezmoc, nehodnost"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "limitujici-presvedceni"
-nlp_narrower = []
-nlp_depth = 3
-nlp_ancestors = ["limitujici-presvedceni", "presvedceni-jako-mapa", "mapa-neni-uzemi"]
-nlp_related = ["lide-maji-potrebne-zdroje", "modalni-operator-moznosti", "kontrafaktualni-podminky", "casova-perspektiva", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-identite", "myslenkovy-virus", "presvedceni-a-zdravi"]
-nlp_related_declared = ["presvedceni-o-identite", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "myslenkovy-virus", "presvedceni-a-zdravi"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
-nlp_prev = "presvedceni-o-identite"
-nlp_next = "retezeni-presvedceni"
-nlp_position = 8
-nlp_family_size = 14
-nlp_sources = ["beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.08"
+catalog_slug = "beznadej-bezmoc-nehodnost"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Hopelessness, helplessness, worthlessness"
+catalog_aliases = ["tři oblasti limitujících přesvědčení", "beznaděj, bezmoc, nehodnost"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "limitujici-presvedceni"
+catalog_narrower = []
+catalog_depth = 3
+catalog_ancestors = ["limitujici-presvedceni", "presvedceni-jako-mapa", "mapa-neni-uzemi"]
+catalog_related = ["lide-maji-potrebne-zdroje", "modalni-operator-moznosti", "kontrafaktualni-podminky", "casova-perspektiva", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-identite", "myslenkovy-virus", "presvedceni-a-zdravi"]
+catalog_related_declared = ["presvedceni-o-identite", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "myslenkovy-virus", "presvedceni-a-zdravi"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
+catalog_prev = "presvedceni-o-identite"
+catalog_next = "retezeni-presvedceni"
+catalog_position = 8
+catalog_family_size = 14
+catalog_sources = ["beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.b.toml"
 +++
 
 # Beznaděj, bezmoc a pocit bezcennosti
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Hopelessness, helplessness, worthlessness |
 | **Jiné názvy** | tři oblasti limitujících přesvědčení, beznaděj, bezmoc, nehodnost |
-| **Obecnější vzorec** | [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) |
+| **Obecnější heslo** | [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ psychiatrickou pomoc. Odborník by u klienta z kontrolujícího prostředí nem�
 „přepisovat“, dokud trvá situace, která je vytváří, protože by tím nechtěně potvrzoval, že
 problém je v klientovi, a ne v tom, co se mu děje.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -209,34 +212,34 @@ problém je v klientovi, a ne v tom, co se mu děje.
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzný vzorec (Předpoklady NLP, People have the resources they need)
-- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – příbuzný vzorec (Meta-model, Modal operator of possibility)
-- [Kontrafaktuální podmínky](@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md) – příbuzný vzorec (Jazykové presupozice, Counterfactual conditionals)
-- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzný vzorec (Časová osa, Time perspective)
-- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Beliefs and values level)
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief change cycle)
-- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief audit)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
-- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzný vzorec (Přesvědčení, Thought virus)
-- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzný vzorec (Přesvědčení, Beliefs and health in NLP)
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzné heslo (Předpoklady NLP, People have the resources they need)
+- [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – příbuzné heslo (Meta-model, Modal operator of possibility)
+- [Kontrafaktuální podmínky](@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md) – příbuzné heslo (Jazykové presupozice, Counterfactual conditionals)
+- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzné heslo (Časová osa, Time perspective)
+- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief change cycle)
+- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief audit)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
+- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzné heslo (Přesvědčení, Thought virus)
+- [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzné heslo (Přesvědčení, Beliefs and health in NLP)
 
 **V kompendiu**
 
-- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.10 Stadia zotavení podle Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.10 Stadia zotavení podle Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – předchozí vzorec rodiny
-- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – předchozí heslo rodiny
+- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

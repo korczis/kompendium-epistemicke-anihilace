@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Meta-zrcadlo", "Meta-mirror", "metazrcadlo", "meta mirror", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Meta-zrcadlo", "Meta-mirror", "metazrcadlo", "meta mirror", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.08"
-nlp_slug = "meta-zrcadlo"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Meta-mirror"
-nlp_aliases = ["metazrcadlo", "meta mirror"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "percepcni-pozice-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["percepcni-pozice-pojem"]
-nlp_related = ["percepcni-pozice-pojem", "meta-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis"]
-nlp_related_declared = ["meta-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis"]
-nlp_kompendium = ["kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md"]
-nlp_prev = "uroven-poslani"
-nlp_next = "prvni-pozice"
-nlp_position = 8
-nlp_family_size = 16
-nlp_sources = ["dilts-delozier-2000", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "perls-1969", "rogers-1951", "satir-1972", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
-nlp_sources_roots = ["perls-1969", "satir-1972"]
-nlp_sources_critical = ["herman-1992", "kahneman-2011", "passmore-rowson-2019", "rogers-1951", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.08"
+catalog_slug = "meta-zrcadlo"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Meta-mirror"
+catalog_aliases = ["metazrcadlo", "meta mirror"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "percepcni-pozice-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["percepcni-pozice-pojem"]
+catalog_related = ["percepcni-pozice-pojem", "meta-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis"]
+catalog_related_declared = ["meta-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis"]
+catalog_kompendium = ["kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "glossary/disociace.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md"]
+catalog_prev = "uroven-poslani"
+catalog_next = "prvni-pozice"
+catalog_position = 8
+catalog_family_size = 16
+catalog_sources = ["dilts-delozier-2000", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "perls-1969", "rogers-1951", "satir-1972", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
+catalog_sources_roots = ["perls-1969", "satir-1972"]
+catalog_sources_critical = ["herman-1992", "kahneman-2011", "passmore-rowson-2019", "rogers-1951", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.toml"
 +++
 
 # Meta-zrcadlo
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Meta-mirror |
 | **Jiné názvy** | metazrcadlo, meta mirror |
-| **Obecnější vzorec** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
+| **Obecnější heslo** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -154,7 +157,7 @@ Legitimní užití meta-zrcadla předpokládá vztah bez násilí a bez výrazn�
 nerovnováhy a souhlas člověka s tím, že chce pracovat na vlastních reakcích. V takovém
 kontextu může střídání pozic pomoci zmírnit zahlcení, rozpoznat vlastní podíl na opakujícím
 se konfliktu a připravit se na obtížný rozhovor s větším klidem. Podobný účinek vnějšího
-pohledu popisuje i psychologie usuzování, podle které [pohled zvenčí](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) opravuje některá
+pohledu popisuje i psychologie usuzování, podle které [pohled zvenčí](@/glossary/disociace.md) opravuje některá
 zkreslení vlastního hlediska (Kahneman 2011). Manipulativní nebo škodlivé užití má tři
 podoby. První je nucená empatie: člověk, který je poškozován, je opakovaně veden do pozice
 pachatele, dokud jeho vlastní pohled neustoupí. Druhou je přenesení viny: teze o zrcadlení se
@@ -194,7 +197,7 @@ ne závěr, který mu má kdo vnucovat. Kompendium popisuje obecné obranné pos
 by měli před jeho nabídnutím ověřit, zda klient není ve vztahu s násilím nebo kontrolou, a v
 takovém případě zvolit postupy zaměřené na bezpečí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,28 +217,28 @@ takovém případě zvolit postupy zaměřené na bezpečí.
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Second position)
-- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Third position)
-- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Fourth position)
-- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Triple description)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzné heslo (Základní pojmy NLP, Meta-position)
+- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Second position)
+- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Third position)
+- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Fourth position)
+- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzné heslo (Logické úrovně a percepční pozice, Triple description)
 
 **V kompendiu**
 
-- [EA-5.2.8 Perspektivistický kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.10 Perspektivní substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.2.8 Perspektivistický kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.10 Perspektivní substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – předchozí vzorec rodiny
-- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – předchozí heslo rodiny
+- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,70 +12,73 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Aplikace na sebe", "Apply to self", "obrácení přesvědčení proti sobě", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Aplikace na sebe", "Apply to self", "obrácení přesvědčení proti sobě", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.14"
-nlp_slug = "som-aplikace-na-sebe"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Apply to self"
-nlp_aliases = ["obrácení přesvědčení proti sobě"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["som-protipriklad", "som-model-sveta", "som-meta-ramec"]
-nlp_related_declared = ["som-meta-ramec", "som-protipriklad", "som-model-sveta"]
-nlp_kompendium = ["kompendium/techniques/ea-5-4-19-self-undermining-claim.md", "kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md", "kompendium/techniques/ea-5-4-19-self-undermining-claim.md", "kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md"]
-nlp_prev = "som-hierarchie-kriterii"
-nlp_next = "som-meta-ramec"
-nlp_position = 14
-nlp_family_size = 16
-nlp_sources = ["bateson-1972", "beck-1976", "dilts-1999", "ellis-1962", "heap-1988", "herman-1992", "roderique-davies-2009", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1999"]
-nlp_sources_roots = ["bateson-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "heap-1988", "herman-1992", "roderique-davies-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.14"
+catalog_slug = "som-aplikace-na-sebe"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Apply to self"
+catalog_aliases = ["obrácení přesvědčení proti sobě"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["tu-quoque", "whataboutism", "som-protipriklad", "som-model-sveta", "som-meta-ramec"]
+catalog_related_declared = ["som-meta-ramec", "som-protipriklad", "som-model-sveta"]
+catalog_kompendium = ["kompendium/techniques/ea-5-4-19-self-undermining-claim.md", "kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md", "kompendium/techniques/ea-5-4-19-self-undermining-claim.md", "kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md"]
+catalog_prev = "som-hierarchie-kriterii"
+catalog_next = "som-meta-ramec"
+catalog_position = 14
+catalog_family_size = 16
+catalog_sources = ["bateson-1972", "beck-1976", "dilts-1999", "ellis-1962", "heap-1988", "herman-1992", "roderique-davies-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1999"]
+catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "heap-1988", "herman-1992", "roderique-davies-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.b.toml"
 +++
 
 # Aplikace na sebe
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Apply to self |
 | **Jiné názvy** | obrácení přesvědčení proti sobě |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
-Aplikace na sebe je vzorec ze souboru Sleight of Mouth, při kterém mluvčí posoudí přesvědčení podle kritéria nebo vztahu, který přesvědčení samo vyjadřuje. Výrok se tak obrátí sám proti sobě: pokud někdo tvrdí, že se na zobecnění nelze spolehnout, mluvčí upozorní, že i toto tvrzení je zobecněním. Dilts vzorec popisuje jako hodnocení výroku přesvědčení podle vztahu nebo kritérií, která výrok definuje, a uvádí, že tím může vyjít najevo nekonzistence nebo dvojí metr (Dilts 1999). Vzorec má ve stejném jádru dvě odlišné podoby. První se týká obsahu tvrzení a testuje jeho vnitřní soudržnost, což je běžný a legitimní postup filozofické i vědecké argumentace. Druhá se týká osoby mluvčího a obrací výtku proti tomu, kdo ji vyslovil: kdo si stěžuje na nátlak, je prohlášen za toho, kdo tlačí. Pro kompendium je důležitá právě druhá podoba, protože umožňuje zneplatnit stížnost tím, že se samotné její vyslovení prohlásí za projev téhož, na co si člověk stěžuje.
+Aplikace na sebe je vzorec ze souboru Sleight of Mouth, při kterém mluvčí posoudí přesvědčení podle kritéria nebo vztahu, který přesvědčení samo vyjadřuje. Výrok se tak obrátí sám proti sobě: pokud někdo tvrdí, že se na zobecnění nelze spolehnout, mluvčí upozorní, že i toto tvrzení je zobecněním. Dilts vzorec popisuje jako hodnocení výroku přesvědčení podle vztahu nebo kritérií, která výrok definuje, a uvádí, že tím může vyjít najevo nekonzistence nebo [dvojí metr](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md) (Dilts 1999). Vzorec má ve stejném jádru dvě odlišné podoby. První se týká obsahu tvrzení a testuje jeho vnitřní soudržnost, což je běžný a legitimní postup filozofické i vědecké argumentace. Druhá se týká osoby mluvčího a obrací výtku proti tomu, kdo ji vyslovil: kdo si stěžuje na nátlak, je prohlášen za toho, kdo tlačí. Pro kompendium je důležitá právě druhá podoba, protože umožňuje zneplatnit stížnost tím, že se samotné její vyslovení prohlásí za projev téhož, na co si člověk stěžuje.
 
 ## Původ a souvislosti
 
@@ -103,7 +106,7 @@ Vzorec aplikace na sebe nebyl samostatně empiricky testován a Dilts ho doklád
 
 Základní obranou je oddělit obsah výtky od osoby, která ji vyslovila. I kdyby stěžující si sám jednal nekonzistentně, nic to neříká o tom, zda je výtka oprávněná; obě otázky lze probrat, ale každou zvlášť a postupně. Užitečné je pojmenovat rozdíl v druhu jednání: prosba o prostor není nátlak stejného druhu jako opakované naléhání, a vyslovení stížnosti není kontrola. Druhou obranou je vrátit rozhovor k původnímu jednání a odmítnout jeho přesměrování na chování stěžujícího si, dokud původní téma není uzavřeno. Třetí obranou je opora mimo vztah, tedy lidé, kteří mohou potvrdit, že výtka byla přiměřená a že obrácení nebylo férové. U lidí, kteří dlouhodobě zažívali obracení výtek proti sobě, zahrnuje zotavení obnovu přesvědčení, že mají právo vyslovit kritiku i tehdy, když sami nejsou bez chyby, a že dokonalost není podmínkou oprávněné stížnosti. Herman zdůrazňuje, že obnova schopnosti pojmenovat újmu probíhá ve vztazích, kde je stížnost vyslechnuta a uznána (Herman 1992). V terapeutické práci se proto validuje původní výtka a teprve v bezpečném rámci se případně zkoumá i vlastní podíl klienta na konfliktu, aby se ten podíl nestal další zbraní proti němu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,24 +124,26 @@ Základní obranou je oddělit obsah výtky od osoby, která ji vyslovila. I kdy
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzný vzorec (Sleight of Mouth, Counter-example)
-- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzný vzorec (Sleight of Mouth, Model of the world)
-- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzný vzorec (Sleight of Mouth, Meta frame)
+- [Ty taky](@/kompendium/argumentacni-fauly/relevance/tu-quoque.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Tu quoque)
+- [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Whataboutism)
+- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzné heslo (Sleight of Mouth, Counter-example)
+- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – příbuzné heslo (Sleight of Mouth, Model of the world)
+- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzné heslo (Sleight of Mouth, Meta frame)
 
 **V kompendiu**
 
-- [EA-5.4.19 Samopodkopávající tvrzení](@/kompendium/techniques/ea-5-4-19-self-undermining-claim.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.20 Indukce performativního rozporu](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.4.19 Samopodkopávající tvrzení](@/kompendium/techniques/ea-5-4-19-self-undermining-claim.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.20 Indukce performativního rozporu](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – předchozí vzorec rodiny
-- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – předchozí heslo rodiny
+- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

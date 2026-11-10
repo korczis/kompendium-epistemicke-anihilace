@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-urovne-a-pozice"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Logické úrovně a percepční pozice", "Logical levels and perceptual positions", "NLP"]
+keywords = ["Logické úrovně a percepční pozice", "Logical levels and perceptual positions", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "urovne-a-pozice"
-nlp_code = "13"
-nlp_en = "Logical levels and perceptual positions"
-nlp_size = 16
-nlp_members = ["zarovnani-logickych-urovni", "uroven-prostredi", "uroven-chovani", "uroven-schopnosti", "uroven-presvedceni-a-hodnot", "uroven-identity", "uroven-poslani", "meta-zrcadlo", "prvni-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis", "model-score", "disneyova-strategie", "zamena-logickych-urovni"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "festinger-1957", "freedman-fraser-1966", "grinder-delozier-1987", "herman-1992", "lifton-1961", "passmore-rowson-2019", "perls-1969", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "urovne-a-pozice"
+catalog_code = "13"
+catalog_en = "Logical levels and perceptual positions"
+catalog_size = 16
+catalog_members = ["zarovnani-logickych-urovni", "uroven-prostredi", "uroven-chovani", "uroven-schopnosti", "uroven-presvedceni-a-hodnot", "uroven-identity", "uroven-poslani", "meta-zrcadlo", "prvni-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis", "model-score", "disneyova-strategie", "zamena-logickych-urovni"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "festinger-1957", "freedman-fraser-1966", "grinder-delozier-1987", "herman-1992", "lifton-1961", "passmore-rowson-2019", "perls-1969", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
 +++
 
 # Logické úrovně a percepční pozice
@@ -168,12 +170,12 @@ přesvědčení, a teprve nakonec identita a smysl. Kompendium popisuje krajní 
 identity v hesle [identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md)
 a cestu zpět v hesle [identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-13.01` | [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) | Logical level alignment | vzorec | terapeutické i vlivové | střední |
 | `NLP-13.02` | [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) | Environment level | pojem | terapeutické i vlivové | nízké |
 | `NLP-13.03` | [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) | Behaviour level | pojem | terapeutické i vlivové | nízké |
@@ -190,6 +192,64 @@ a cestu zpět v hesle [identitní rekonstituce](@/kompendium/techniques/ea-6-3-7
 | `NLP-13.14` | [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) | SCORE model | vzorec | terapeutické i vlivové | střední |
 | `NLP-13.15` | [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) | Disney strategy | vzorec | terapeutické i vlivové | nízké |
 | `NLP-13.16` | [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) | Confusing logical levels | vzorec | terapeutické i vlivové | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Logické úrovně a percepční pozice"]
+  click F "@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md"
+  n1["Zarovnání logických úrovní"]
+  n2["Úroveň prostředí"]
+  n3["Úroveň chování"]
+  n4["Úroveň schopností"]
+  n5["Úroveň přesvědčení a hodnot"]
+  n6["Úroveň identity"]
+  n7["Úroveň poslání"]
+  n8["Meta-zrcadlo"]
+  n9["První pozice"]
+  n10["Druhá pozice"]
+  n11["Třetí pozice"]
+  n12["Čtvrtá pozice"]
+  n13["Trojí popis"]
+  n14["Model SCORE"]
+  n15["Disneyova strategie"]
+  n16["Záměna logických úrovní"]
+  F --> n1
+  F --> n2
+  F --> n3
+  F --> n4
+  F --> n5
+  F --> n6
+  F --> n7
+  F --> n8
+  F --> n9
+  F --> n10
+  F --> n11
+  F --> n12
+  F --> n13
+  F --> n14
+  F --> n15
+  F --> n16
+  click n1 "@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md"
+  click n2 "@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md"
+  click n3 "@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md"
+  click n4 "@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md"
+  click n5 "@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md"
+  click n6 "@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md"
+  click n7 "@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md"
+  click n8 "@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md"
+  click n9 "@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md"
+  click n10 "@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md"
+  click n11 "@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md"
+  click n12 "@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md"
+  click n13 "@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md"
+  click n14 "@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md"
+  click n15 "@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md"
+  click n16 "@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md"
+```
 
 ## Literatura
 
@@ -220,6 +280,6 @@ a cestu zpět v hesle [identitní rekonstituce](@/kompendium/techniques/ea-6-3-7
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – předchozí rodina katalogu
 - [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

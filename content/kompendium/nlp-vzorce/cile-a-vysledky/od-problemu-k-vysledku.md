@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Od problému k výsledku", "Problem to outcome", "přechod z rámce problému do rámce výsledku", "problem frame a outcome frame", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Od problému k výsledku", "Problem to outcome", "přechod z rámce problému do rámce výsledku", "problem frame a outcome frame", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.10"
-nlp_slug = "od-problemu-k-vysledku"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Problem to outcome"
-nlp_aliases = ["přechod z rámce problému do rámce výsledku", "problem frame a outcome frame"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["ramec-vysledku", "budouci-prehravani", "model-score", "k-cili-a-od-problemu", "dobre-formulovany-vysledek", "pozitivni-formulace-cile"]
-nlp_related_declared = ["ramec-vysledku", "k-cili-a-od-problemu", "budouci-prehravani", "pozitivni-formulace-cile", "dobre-formulovany-vysledek"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md", "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md", "kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
-nlp_prev = "otazky-vysledku"
-nlp_next = ""
-nlp_position = 10
-nlp_family_size = 10
-nlp_sources = ["bandler-grinder-1979", "beck-1976", "haley-1973", "herman-1992", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "sturt-2012", "watzlawick-1974"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["haley-1973", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "norcross-2006", "passmore-rowson-2019", "sturt-2012"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.10"
+catalog_slug = "od-problemu-k-vysledku"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Problem to outcome"
+catalog_aliases = ["přechod z rámce problému do rámce výsledku", "problem frame a outcome frame"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["ramec-vysledku", "budouci-prehravani", "model-score", "k-cili-a-od-problemu", "dobre-formulovany-vysledek", "pozitivni-formulace-cile"]
+catalog_related_declared = ["ramec-vysledku", "k-cili-a-od-problemu", "budouci-prehravani", "pozitivni-formulace-cile", "dobre-formulovany-vysledek"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md", "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md", "kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
+catalog_prev = "otazky-vysledku"
+catalog_next = ""
+catalog_position = 10
+catalog_family_size = 10
+catalog_sources = ["bandler-grinder-1979", "beck-1976", "haley-1973", "herman-1992", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "sturt-2012", "watzlawick-1974"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["haley-1973", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "norcross-2006", "passmore-rowson-2019", "sturt-2012"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Od problému k výsledku
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Problem to outcome |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -185,7 +188,7 @@ práci s lidmi, kterým bylo dlouhodobě bráněno mluvit o tom, co se jim stalo
 opírá o bezpečné místo k vyprávění, o uznání a teprve potom o plánování budoucnosti; právě
 toto pořadí chrání před tím, aby orientace na výsledek sloužila k zapomnění (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -206,25 +209,25 @@ toto pořadí chrání před tím, aby orientace na výsledek sloužila k zapomn
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzný vzorec (Logické úrovně a percepční pozice, SCORE model)
-- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzný vzorec (Metaprogramy, Toward and away from)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – příbuzný vzorec (Cíle a výsledky, Stated in the positive)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – příbuzné heslo (Logické úrovně a percepční pozice, SCORE model)
+- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzné heslo (Metaprogramy, Toward and away from)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – příbuzné heslo (Cíle a výsledky, Stated in the positive)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

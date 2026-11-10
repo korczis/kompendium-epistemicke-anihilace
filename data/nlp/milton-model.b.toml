@@ -1,5 +1,5 @@
 # Rodina NLP-04: Milton-model, část b (NLP-04.11 až NLP-04.20).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí záznamů je pořadí
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
 # identifikátorů; identifikátor se po zveřejnění nemění.
 
 [[pattern]]

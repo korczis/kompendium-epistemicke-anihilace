@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Obviňovatel", "Blamer", "obviňující postoj", "blaming", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Obviňovatel", "Blamer", "obviňující postoj", "blaming", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.07"
-nlp_slug = "obvinovatel"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Blamer"
-nlp_aliases = ["obviňující postoj", "blaming"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kategorie-satirove"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kategorie-satirove"]
-nlp_related = ["kalibrace", "inkongruence", "smirovatel", "vyrovnany"]
-nlp_related_declared = ["smirovatel", "vyrovnany", "inkongruence", "kalibrace"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/03-zakladni-kategorie/scenar-h.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "smirovatel"
-nlp_next = "pocitac"
-nlp_position = 7
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "ellis-1962", "grinder-bandler-1976", "herman-1992", "lifton-1961", "passmore-rowson-2019", "perls-1969", "satir-1972", "stark-2007", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976"]
-nlp_sources_roots = ["perls-1969", "satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.07"
+catalog_slug = "obvinovatel"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Blamer"
+catalog_aliases = ["obviňující postoj", "blaming"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kategorie-satirove"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kategorie-satirove"]
+catalog_related = ["kalibrace", "inkongruence", "smirovatel", "vyrovnany"]
+catalog_related_declared = ["smirovatel", "vyrovnany", "inkongruence", "kalibrace"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/03-zakladni-kategorie/scenar-h.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md", "kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md", "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "smirovatel"
+catalog_next = "pocitac"
+catalog_position = 7
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "ellis-1962", "grinder-bandler-1976", "herman-1992", "lifton-1961", "passmore-rowson-2019", "perls-1969", "satir-1972", "stark-2007", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976"]
+catalog_sources_roots = ["perls-1969", "satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.toml"
 +++
 
 # Obviňovatel
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Blamer |
 | **Jiné názvy** | obviňující postoj, blaming |
-| **Obecnější vzorec** | [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) |
+| **Obecnější heslo** | [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -113,7 +116,7 @@ Obranou proti obviňování je nepřijmout jeho rámec. Pomáhá vrátit rozhovo
 
 Pro člověka, který byl dlouho obviňován, je součástí zotavení oddělit vlastní skutečný podíl na situacích od viny, která mu byla připsána. Pomáhá rozhovor s někým mimo vztah, kdo dokáže posoudit události bez obviňujícího rámce, a pomáhá i kognitivní práce s převzatými soudy o sobě, které lze ověřit na konkrétních situacích (Beck 1976). Herman zdůrazňuje, že uznání toho, kdo za co odpovídá, je jednou z podmínek obnovy po dlouhodobém nátlaku (Herman 1992). Pro člověka, který u sebe obviňující postoj rozpozná, je cestou naučit se pojmenovat pocit, který obviňování zakrývá, a vyjádřit ho přímo, tedy směrem k [vyrovnané komunikaci](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -135,26 +138,26 @@ Pro člověka, který byl dlouho obviňován, je součástí zotavení oddělit 
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzný vzorec (Základní pojmy NLP, Incongruence)
-- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – příbuzný vzorec (Jazykové vzorce, Placater)
-- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzný vzorec (Jazykové vzorce, Leveller)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzné heslo (Základní pojmy NLP, Incongruence)
+- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – příbuzné heslo (Jazykové vzorce, Placater)
+- [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzné heslo (Jazykové vzorce, Leveller)
 
 **V kompendiu**
 
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – předchozí vzorec rodiny
-- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – předchozí heslo rodiny
+- [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

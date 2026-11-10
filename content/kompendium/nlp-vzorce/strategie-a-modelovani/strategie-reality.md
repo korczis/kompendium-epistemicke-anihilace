@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Strategie reality", "Reality strategy", "strategie skutečnosti", "test reality", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Strategie reality", "Reality strategy", "strategie skutečnosti", "test reality", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.07"
-nlp_slug = "strategie-reality"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Reality strategy"
-nlp_aliases = ["strategie skutečnosti", "test reality"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "strategie-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["strategie-pojem"]
-nlp_related = ["mapa-neni-uzemi", "submodality-pojem", "som-strategie-reality", "trauma-a-falesne-vzpominky", "presvedcovaci-strategie"]
-nlp_related_declared = ["som-strategie-reality", "presvedcovaci-strategie", "trauma-a-falesne-vzpominky", "submodality-pojem", "mapa-neni-uzemi"]
-nlp_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md"]
-nlp_prev = "strategie-uceni"
-nlp_next = "strategie-lasky"
-nlp_position = 7
-nlp_family_size = 20
-nlp_sources = ["beck-1976", "dilts-1999", "dilts-delozier-2000", "dilts-1980", "herman-1992", "lifton-1961", "loftus-palmer-1974", "miller-galanter-pribram-1960", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1999", "dilts-delozier-2000", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "loftus-palmer-1974", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.07"
+catalog_slug = "strategie-reality"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Reality strategy"
+catalog_aliases = ["strategie skutečnosti", "test reality"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "strategie-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["strategie-pojem"]
+catalog_related = ["mapa-neni-uzemi", "submodality-pojem", "som-strategie-reality", "trauma-a-falesne-vzpominky", "presvedcovaci-strategie"]
+catalog_related_declared = ["som-strategie-reality", "presvedcovaci-strategie", "trauma-a-falesne-vzpominky", "submodality-pojem", "mapa-neni-uzemi"]
+catalog_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md"]
+catalog_prev = "strategie-uceni"
+catalog_next = "strategie-lasky"
+catalog_position = 7
+catalog_family_size = 20
+catalog_sources = ["beck-1976", "dilts-1999", "dilts-delozier-2000", "dilts-1980", "herman-1992", "lifton-1961", "loftus-palmer-1974", "miller-galanter-pribram-1960", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1999", "dilts-delozier-2000", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "loftus-palmer-1974", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.toml"
 +++
 
 # Strategie reality
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Reality strategy |
 | **Jiné názvy** | strategie skutečnosti, test reality |
-| **Obecnější vzorec** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
+| **Obecnější heslo** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Obecná teze, že lidé rozlišují vzpomínky od představ podle jejich vlastno
 
 Základní obranou je vědět, že jasnost vzpomínky o její pravdivosti nerozhoduje, a to v obou směrech. Rozmazaná vzpomínka může být pravdivá a živá představa může být nepravdivá. O tom, co se stalo, rozhodují vnější stopy: zprávy, zápisky, fotografie, svědci, [časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) událostí. Druhou obranou je vést si vlastní záznam. Kdo si krátce poznamená, co se stalo a co bylo řečeno, odděleně od toho, co si o tom myslí, má oporu, kterou selektivní zpochybňování nerozloží. Třetí obranou je hledat vnější ověřovatele, tedy lidi mimo vztah nebo skupinu, kteří mohou potvrdit, že vnímání je v běžném rozsahu. U lidí, jejichž vzpomínky byly dlouhodobě popírány, se zotavení podle Hermanové odehrává v bezpečném vztahu, v němž mají znovu právo na vlastní popis událostí, a postupuje od stabilizace přes zpracování k opětovnému spojení s ostatními (Herman 1992). V klinické praxi se proto u takových lidí nepracuje s dalším „přepisováním“ vzpomínek, ale s obnovou kontinuity paměti a s validací zkušenosti. Kompendium nástroje pro posouzení důvěry ve vlastní poznání popisuje u [hodnocení epistemické důvěry](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md). Odborníci, kteří s pojmem pracují, by se měli vyvarovat jakéhokoli postupu, který by měnil pocit pravdivosti vzpomínek bez vnějšího ověření.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,28 +125,28 @@ Základní obranou je vědět, že jasnost vzpomínky o její pravdivosti nerozh
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – příbuzný vzorec (Sleight of Mouth, Reality strategy)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Convincer strategy)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – příbuzné heslo (Sleight of Mouth, Reality strategy)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Convincer strategy)
 
 **V kompendiu**
 
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.10 Epistemická trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.10 Epistemická trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – předchozí vzorec rodiny
-- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – předchozí heslo rodiny
+- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

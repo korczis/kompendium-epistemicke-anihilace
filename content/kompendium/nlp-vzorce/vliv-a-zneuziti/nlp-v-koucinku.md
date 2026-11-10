@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["NLP v koučinku a rozvoji", "NLP in coaching", "NLP koučink", "rozvojové programy s NLP", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["NLP v koučinku a rozvoji", "NLP in coaching", "NLP koučink", "rozvojové programy s NLP", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.11"
-nlp_slug = "nlp-v-koucinku"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "NLP in coaching"
-nlp_aliases = ["NLP koučink", "rozvojové programy s NLP"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["lide-maji-potrebne-zdroje", "modelovatelnost-excelence", "zarovnani-logickych-urovni", "motivacni-strategie", "metaprogramy-v-naboru", "dobre-formulovany-vysledek", "trh-certifikaci-nlp", "guru-efekt", "nlp-v-koucinku-vyzkum"]
-nlp_related_declared = ["nlp-v-koucinku-vyzkum", "trh-certifikaci-nlp", "dobre-formulovany-vysledek", "guru-efekt", "modelovatelnost-excelence"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "nlp-v-reklame"
-nlp_next = "trh-certifikaci-nlp"
-nlp_position = 11
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "druckman-swets-1988", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["druckman-swets-1988", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.11"
+catalog_slug = "nlp-v-koucinku"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "NLP in coaching"
+catalog_aliases = ["NLP koučink", "rozvojové programy s NLP"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["lide-maji-potrebne-zdroje", "modelovatelnost-excelence", "zarovnani-logickych-urovni", "motivacni-strategie", "metaprogramy-v-naboru", "dobre-formulovany-vysledek", "trh-certifikaci-nlp", "guru-efekt", "nlp-v-koucinku-vyzkum"]
+catalog_related_declared = ["nlp-v-koucinku-vyzkum", "trh-certifikaci-nlp", "dobre-formulovany-vysledek", "guru-efekt", "modelovatelnost-excelence"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "nlp-v-reklame"
+catalog_next = "trh-certifikaci-nlp"
+catalog_position = 11
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "druckman-swets-1988", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["druckman-swets-1988", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
 +++
 
 # NLP v koučinku a rozvoji
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | NLP in coaching |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -204,7 +207,7 @@ vykládalo jako pokrok. V tom pomáhá rozhovor s člověkem mimo vztah a v záv
 případech přístup, který staví na autonomii a na klientových vlastních důvodech, jak je
 zná motivační rozhovor (Miller a Rollnick 2013).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -223,30 +226,30 @@ zná motivační rozhovor (Miller a Rollnick 2013).
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzný vzorec (Předpoklady NLP, People have the resources they need)
-- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzný vzorec (Předpoklady NLP, Excellence can be modelled)
-- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Logical level alignment)
-- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzný vzorec (Strategie a modelování, Motivation strategy)
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzný vzorec (Metaprogramy, Meta-programs in recruitment and management)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzný vzorec (Vliv a zneužití NLP, The NLP certification market)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
-- [Výzkum NLP v koučinku](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md) – příbuzný vzorec (Kritické hodnocení NLP, Research on NLP in coaching)
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzné heslo (Předpoklady NLP, People have the resources they need)
+- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzné heslo (Předpoklady NLP, Excellence can be modelled)
+- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Logical level alignment)
+- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzné heslo (Strategie a modelování, Motivation strategy)
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzné heslo (Metaprogramy, Meta-programs in recruitment and management)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
+- [Výzkum NLP v koučinku](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md) – příbuzné heslo (Kritické hodnocení NLP, Research on NLP in coaching)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – předchozí vzorec rodiny
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – předchozí heslo rodiny
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

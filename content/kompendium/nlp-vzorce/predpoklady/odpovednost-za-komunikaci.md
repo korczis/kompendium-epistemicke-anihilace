@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Za výsledek komunikace odpovídá komunikátor", "The communicator is responsible for the communication", "odpovědnost komunikátora", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Za výsledek komunikace odpovídá komunikátor", "The communicator is responsible for the communication", "odpovědnost komunikátora", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.21"
-nlp_slug = "odpovednost-za-komunikaci"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "The communicator is responsible for the communication"
-nlp_aliases = ["odpovědnost komunikátora"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vyznam-komunikace-je-reakce", "odpor-jako-nedostatek-raportu", "kdyz-to-nefunguje-udelej-neco-jineho", "nelze-nekomunikovat", "odpovednost"]
-nlp_related_declared = ["vyznam-komunikace-je-reakce", "odpor-jako-nedostatek-raportu", "nelze-nekomunikovat", "kdyz-to-nefunguje-udelej-neco-jineho", "odpovednost"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md"]
-nlp_links_prose = ["glossary/blame-shifting.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md", "kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_prev = "predpoklady-jako-pracovni-hypotezy"
-nlp_next = ""
-nlp_position = 21
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1979", "grice-1975", "herman-1992", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009", "watzlawick-1967"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["grice-1975", "watzlawick-1967"]
-nlp_sources_critical = ["herman-1992", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.21"
+catalog_slug = "odpovednost-za-komunikaci"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "The communicator is responsible for the communication"
+catalog_aliases = ["odpovědnost komunikátora"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vyznam-komunikace-je-reakce", "odpor-jako-nedostatek-raportu", "kdyz-to-nefunguje-udelej-neco-jineho", "nelze-nekomunikovat", "odpovednost"]
+catalog_related_declared = ["vyznam-komunikace-je-reakce", "odpor-jako-nedostatek-raportu", "nelze-nekomunikovat", "kdyz-to-nefunguje-udelej-neco-jineho", "odpovednost"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/blame-shifting.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md", "kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_prev = "predpoklady-jako-pracovni-hypotezy"
+catalog_next = ""
+catalog_position = 21
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1979", "grice-1975", "herman-1992", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009", "watzlawick-1967"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["grice-1975", "watzlawick-1967"]
+catalog_sources_critical = ["herman-1992", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Za výsledek komunikace odpovídá komunikátor
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.21` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | The communicator is responsible for the communication |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ komunikace nebyla příčinou jednání druhého. Kompendium se mechanismu donuc
 podrobněji věnuje na stránce o
 [Starkově rámci donucující kontroly](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -209,25 +212,25 @@ podrobněji věnuje na stránce o
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzný vzorec (Předpoklady NLP, The meaning of communication is the response you get)
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzný vzorec (Předpoklady NLP, Resistance indicates a lack of rapport)
-- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzný vzorec (Předpoklady NLP, If it is not working, do something else)
-- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzný vzorec (Předpoklady NLP, One cannot not communicate)
-- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzný vzorec (Metaprogramy, Responsibility)
+- [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – příbuzné heslo (Předpoklady NLP, The meaning of communication is the response you get)
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – příbuzné heslo (Předpoklady NLP, Resistance indicates a lack of rapport)
+- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzné heslo (Předpoklady NLP, If it is not working, do something else)
+- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzné heslo (Předpoklady NLP, One cannot not communicate)
+- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzné heslo (Metaprogramy, Responsibility)
 
 **V kompendiu**
 
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

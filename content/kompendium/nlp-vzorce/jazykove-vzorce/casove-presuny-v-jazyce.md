@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Časové posuny v jazyce", "Verb tense shifts", "posuny slovesného času", "přesun do minulého času", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Časové posuny v jazyce", "Verb tense shifts", "posuny slovesného času", "přesun do minulého času", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.20"
-nlp_slug = "casove-presuny-v-jazyce"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Verb tense shifts"
-nlp_aliases = ["posuny slovesného času", "přesun do minulého času"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["pseudoorientace-v-case", "presupozice-casovych-vet", "slovesa-zmeny-casu", "kontrafaktualni-podminky", "zmena-osobni-historie", "casove-kodovani", "zatim"]
-nlp_related_declared = ["pseudoorientace-v-case", "zatim", "presupozice-casovych-vet", "casove-kodovani", "slovesa-zmeny-casu", "zmena-osobni-historie"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md", "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
-nlp_prev = "slovni-baliky"
-nlp_next = ""
-nlp_position = 20
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "herman-1992", "james-woodsmall-1988", "lakoff-johnson-1980", "levinson-1983", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "james-woodsmall-1988"]
-nlp_sources_roots = ["levinson-1983"]
-nlp_sources_critical = ["herman-1992", "lakoff-johnson-1980", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.20"
+catalog_slug = "casove-presuny-v-jazyce"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Verb tense shifts"
+catalog_aliases = ["posuny slovesného času", "přesun do minulého času"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["pseudoorientace-v-case", "presupozice-casovych-vet", "slovesa-zmeny-casu", "kontrafaktualni-podminky", "zmena-osobni-historie", "casove-kodovani", "zatim"]
+catalog_related_declared = ["pseudoorientace-v-case", "zatim", "presupozice-casovych-vet", "casove-kodovani", "slovesa-zmeny-casu", "zmena-osobni-historie"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md", "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md", "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
+catalog_prev = "slovni-baliky"
+catalog_next = ""
+catalog_position = 20
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "herman-1992", "james-woodsmall-1988", "lakoff-johnson-1980", "levinson-1983", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "james-woodsmall-1988"]
+catalog_sources_roots = ["levinson-1983"]
+catalog_sources_critical = ["herman-1992", "lakoff-johnson-1980", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.b.toml"
 +++
 
 # Časové posuny v jazyce
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Verb tense shifts |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ ohrožení trvá, nelze ho vyprávět jako minulost (Herman 1992). Kliničtí pr
 časové posuny používat jen tam, kde odpovídají skutečnému průběhu, a vždy ověřovat, zda to,
 co se popisuje jako minulé, opravdu skončilo.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -208,26 +211,26 @@ co se popisuje jako minulé, opravdu skončilo.
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzný vzorec (Ericksonovská hypnóza, Pseudo-orientation in time)
-- [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – příbuzný vzorec (Jazykové presupozice, Subordinate clauses of time)
-- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzný vzorec (Jazykové presupozice, Change-of-time verbs and adverbs)
-- [Kontrafaktuální podmínky](@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md) – příbuzný vzorec (Jazykové presupozice, Counterfactual conditionals)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzný vzorec (Časová osa, Temporal coding of experience)
-- [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – příbuzný vzorec (Jazykové vzorce, Yet)
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzné heslo (Ericksonovská hypnóza, Pseudo-orientation in time)
+- [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – příbuzné heslo (Jazykové presupozice, Subordinate clauses of time)
+- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – příbuzné heslo (Jazykové presupozice, Change-of-time verbs and adverbs)
+- [Kontrafaktuální podmínky](@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md) – příbuzné heslo (Jazykové presupozice, Counterfactual conditionals)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzné heslo (Časová osa, Temporal coding of experience)
+- [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – příbuzné heslo (Jazykové vzorce, Yet)
 
 **V kompendiu**
 
-- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.6 Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.6 Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

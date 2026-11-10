@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Metaprogramy v marketingu", "Meta-programs in marketing", "ladění sdělení podle profilu zákazníka", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Metaprogramy v marketingu", "Meta-programs in marketing", "ladění sdělení podle profilu zákazníka", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.23"
-nlp_slug = "metaprogramy-v-marketingu"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Meta-programs in marketing"
-nlp_aliases = ["ladění sdělení podle profilu zákazníka"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["metaprogramy-pojem", "presupozice-v-reklame", "kotvy-v-reklame", "submodality-v-reklame", "utilizace-strategie", "k-cili-a-od-problemu", "shoda-a-rozdil", "hodnoty-pri-koupi", "shoda-predikatu", "nlp-v-prodeji", "nlp-v-reklame"]
-nlp_related_declared = ["nlp-v-reklame", "hodnoty-pri-koupi", "k-cili-a-od-problemu", "presupozice-v-reklame", "kotvy-v-reklame", "nlp-v-prodeji"]
-nlp_kompendium = ["kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md", "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md"]
-nlp_prev = "metaprogramy-v-naboru"
-nlp_next = ""
-nlp_position = 23
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hall-bodenhamer-1997", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.23"
+catalog_slug = "metaprogramy-v-marketingu"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Meta-programs in marketing"
+catalog_aliases = ["ladění sdělení podle profilu zákazníka"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["metaprogramy-pojem", "presupozice-v-reklame", "kotvy-v-reklame", "submodality-v-reklame", "utilizace-strategie", "k-cili-a-od-problemu", "shoda-a-rozdil", "hodnoty-pri-koupi", "shoda-predikatu", "nlp-v-prodeji", "nlp-v-reklame"]
+catalog_related_declared = ["nlp-v-reklame", "hodnoty-pri-koupi", "k-cili-a-od-problemu", "presupozice-v-reklame", "kotvy-v-reklame", "nlp-v-prodeji"]
+catalog_kompendium = ["kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md", "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md"]
+catalog_prev = "metaprogramy-v-naboru"
+catalog_next = ""
+catalog_position = 23
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hall-bodenhamer-1997", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Metaprogramy v marketingu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.23` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Meta-programs in marketing |
 | **Jiné názvy** | ladění sdělení podle profilu zákazníka |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ obavy, zahrnuje hlavně oddělení studu od poučení: vědomí, že na rámová
 reaguje každý, a že chyba nebyla ve slabosti úsudku, ale ve sdělení, které bylo navrženo tak,
 aby jej obešlo.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -219,32 +222,32 @@ aby jej obešlo.
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Meta-programs (concept))
-- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in advertising)
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzný vzorec (Kotvení, Anchors in advertising)
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzný vzorec (Submodality, Submodalities in advertising and media)
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy utilisation)
-- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzný vzorec (Metaprogramy, Toward and away from)
-- [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – příbuzný vzorec (Metaprogramy, Sameness and difference)
-- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzný vzorec (Metaprogramy, Value buying)
-- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – příbuzný vzorec (Raport a kalibrace, Predicate matching)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in advertising)
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzné heslo (Základní pojmy NLP, Meta-programs (concept))
+- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in advertising)
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzné heslo (Kotvení, Anchors in advertising)
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy utilisation)
+- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzné heslo (Metaprogramy, Toward and away from)
+- [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – příbuzné heslo (Metaprogramy, Sameness and difference)
+- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzné heslo (Metaprogramy, Value buying)
+- [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – příbuzné heslo (Raport a kalibrace, Predicate matching)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in advertising)
 
 **V kompendiu**
 
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

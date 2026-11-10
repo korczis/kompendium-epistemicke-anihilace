@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Alternativní uzavření", "Alternative close", "alternativní závěr", "volba mezi dvěma ano", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Alternativní uzavření", "Alternative close", "alternativní závěr", "volba mezi dvěma ano", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.04"
-nlp_slug = "alternativni-zaver"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Alternative close"
-nlp_aliases = ["alternativní závěr", "volba mezi dvěma ano"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "nlp-v-prodeji"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["nlp-v-prodeji"]
-nlp_related = ["volba-je-lepsi-nez-zadna-volba", "ano-sada", "iluze-volby", "presupozice-nebo", "moznosti-a-postupy", "nlp-v-prodeji", "predpokladovy-zaver"]
-nlp_related_declared = ["iluze-volby", "presupozice-nebo", "predpokladovy-zaver", "ano-sada"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["glossary/double-bind.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_prev = "predpokladovy-zaver"
-nlp_next = "budouci-prehravani-v-prodeji"
-nlp_position = 4
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "bateson-1956", "cialdini-2009", "erickson-rossi-rossi-1976", "grice-1975", "langer-1978", "levinson-1983", "lilienfeld-2015", "mcguire-1964", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["bateson-1956", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
-nlp_sources_critical = ["cialdini-2009", "langer-1978", "lilienfeld-2015", "mcguire-1964", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.04"
+catalog_slug = "alternativni-zaver"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Alternative close"
+catalog_aliases = ["alternativní závěr", "volba mezi dvěma ano"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "nlp-v-prodeji"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["nlp-v-prodeji"]
+catalog_related = ["falesne-dilema", "volba-je-lepsi-nez-zadna-volba", "ano-sada", "iluze-volby", "presupozice-nebo", "moznosti-a-postupy", "nlp-v-prodeji", "predpokladovy-zaver"]
+catalog_related_declared = ["iluze-volby", "presupozice-nebo", "predpokladovy-zaver", "ano-sada"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/double-bind.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_prev = "predpokladovy-zaver"
+catalog_next = "budouci-prehravani-v-prodeji"
+catalog_position = 4
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "bateson-1956", "cialdini-2009", "erickson-rossi-rossi-1976", "grice-1975", "langer-1978", "levinson-1983", "lilienfeld-2015", "mcguire-1964", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["bateson-1956", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
+catalog_sources_critical = ["cialdini-2009", "langer-1978", "lilienfeld-2015", "mcguire-1964", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.toml"
 +++
 
 # Alternativní uzavření
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Alternative close |
 | **Jiné názvy** | alternativní závěr, volba mezi dvěma ano |
-| **Obecnější vzorec** | [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) |
+| **Obecnější heslo** | [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ smyslu, a že rozhodnutí lze přehodnotit, aniž by to znamenalo popřít vlast
 Příbuzné obraty popisuje stránka [předpokládané
 uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,28 +221,29 @@ uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md).
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzný vzorec (Předpoklady NLP, Having a choice is better than having none)
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
-- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzný vzorec (Jazykové presupozice, Use of „or“)
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzný vzorec (Metaprogramy, Options and procedures)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Assumptive close)
+- [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – příbuzné heslo (Argumentační fauly: Klamy předpokladu, False dilemma)
+- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzné heslo (Předpoklady NLP, Having a choice is better than having none)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
+- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – příbuzné heslo (Jazykové presupozice, Use of „or“)
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzné heslo (Metaprogramy, Options and procedures)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Assumptive close)
 
 **V kompendiu**
 
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – předchozí vzorec rodiny
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – předchozí heslo rodiny
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

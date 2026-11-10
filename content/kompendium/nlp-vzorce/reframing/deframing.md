@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Rozrámcování", "De-framing", "de-framing", "rozložení rámce", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Rozrámcování", "De-framing", "de-framing", "rozložení rámce", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.16"
-nlp_slug = "deframing"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "De-framing"
-nlp_aliases = ["de-framing", "rozložení rámce"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "ramec-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ramec-pojem"]
-nlp_related = ["mapa-neni-uzemi", "ramec-pojem", "meta-model", "som-rozlozeni", "reframing", "chunking-dolu", "obrana-proti-vlivovym-vzorcum"]
-nlp_related_declared = ["som-rozlozeni", "chunking-dolu", "meta-model", "reframing", "mapa-neni-uzemi"]
-nlp_kompendium = ["kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-6-3-2-externalizacni-faze.md"]
-nlp_links_prose = ["kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-6-3-2-externalizacni-faze.md"]
-nlp_prev = "dodatecne-ramcovani"
-nlp_next = "selhani-jako-zpetna-vazba-vzorec"
-nlp_position = 16
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "ellis-1962", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1999"]
-nlp_sources_roots = ["watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.16"
+catalog_slug = "deframing"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "De-framing"
+catalog_aliases = ["de-framing", "rozložení rámce"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "ramec-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ramec-pojem"]
+catalog_related = ["mapa-neni-uzemi", "ramec-pojem", "meta-model", "som-rozlozeni", "reframing", "chunking-dolu", "obrana-proti-vlivovym-vzorcum"]
+catalog_related_declared = ["som-rozlozeni", "chunking-dolu", "meta-model", "reframing", "mapa-neni-uzemi"]
+catalog_kompendium = ["kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-6-3-2-externalizacni-faze.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-6-3-2-externalizacni-faze.md"]
+catalog_prev = "dodatecne-ramcovani"
+catalog_next = "selhani-jako-zpetna-vazba-vzorec"
+catalog_position = 16
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "ellis-1962", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999"]
+catalog_sources_roots = ["watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.b.toml"
 +++
 
 # Rozrámcování
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | De-framing |
 | **Jiné názvy** | de-framing, rozložení rámce |
-| **Obecnější vzorec** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
+| **Obecnější heslo** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ nich byly rozebrány, a dát si čas na rozhodnutí, které z nich obnoví. Odbo
 rozrámcováním pracuje terapeuticky, by měl prázdné místo ponechat klientovi a vyhnout se
 pokušení zaplnit ho vlastním výkladem.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,29 +217,29 @@ pokušení zaplnit ho vlastním výkladem.
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Frame (concept))
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – příbuzný vzorec (Sleight of Mouth, Chunk down)
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzný vzorec (Reframing a rámce, Reframing)
-- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzný vzorec (Jazykové vzorce, Chunking down)
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzný vzorec (Vliv a zneužití NLP, Defence against influence patterns)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – příbuzné heslo (Základní pojmy NLP, Frame (concept))
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – příbuzné heslo (Sleight of Mouth, Chunk down)
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzné heslo (Reframing a rámce, Reframing)
+- [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – příbuzné heslo (Jazykové vzorce, Chunking down)
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzné heslo (Vliv a zneužití NLP, Defence against influence patterns)
 
 **V kompendiu**
 
-- [Systematická konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.2 Externalizační fáze protokol](@/kompendium/techniques/ea-6-3-2-externalizacni-faze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Systematická konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.2 Externalizační fáze protokol](@/kompendium/techniques/ea-6-3-2-externalizacni-faze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – předchozí vzorec rodiny
-- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – předchozí heslo rodiny
+- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

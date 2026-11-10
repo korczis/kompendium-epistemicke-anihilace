@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Efekt guru na seminářích", "Guru effect in seminars", "kult lektora", "charismatický trenér", "Vliv a zneužití NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Efekt guru na seminářích", "Guru effect in seminars", "kult lektora", "charismatický trenér", "Vliv a zneužití NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-21.13"
-nlp_slug = "guru-efekt"
-nlp_family = "vliv-a-zneuziti"
-nlp_family_code = "21"
-nlp_family_title = "Vliv a zneužití NLP"
-nlp_family_en = "Influence and misuse of NLP"
-nlp_part = "vliv-a-zneuziti.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Guru effect in seminars"
-nlp_aliases = ["kult lektora", "charismatický trenér"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["neni-selhani-jen-zpetna-vazba", "modelovatelnost-excelence", "kongruence", "umyslna-vagnost", "selhani-jako-zpetna-vazba-vzorec", "kruh-excelence", "kotvy-v-prezentaci", "kotveni-ve-skupine", "uroven-poslani", "strategie-geniality", "stav-nevedeni", "modelovani-nevedomim", "muzeum-starych-presvedceni", "vnitrni-a-vnejsi-reference", "raport-se-skupinou", "nlp-v-sektach", "nlp-v-koucinku", "trh-certifikaci-nlp", "velke-seminare", "neuro-zargon", "nlp-v-koucinku-vyzkum"]
-nlp_related_declared = ["velke-seminare", "trh-certifikaci-nlp", "nlp-v-sektach", "umyslna-vagnost", "neuro-zargon", "kotveni-ve-skupine"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/case-studies/63-investor-cult.md"]
-nlp_links_prose = ["glossary/charisma.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "trh-certifikaci-nlp"
-nlp_next = "velke-seminare"
-nlp_position = 13
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "cialdini-2009", "hassan-1988", "langer-1978", "lifton-1961", "roderique-davies-2009", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "hassan-1988", "langer-1978", "lifton-1961", "roderique-davies-2009", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-21.13"
+catalog_slug = "guru-efekt"
+catalog_family = "vliv-a-zneuziti"
+catalog_family_code = "21"
+catalog_family_title = "Vliv a zneužití NLP"
+catalog_family_en = "Influence and misuse of NLP"
+catalog_part = "vliv-a-zneuziti.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Guru effect in seminars"
+catalog_aliases = ["kult lektora", "charismatický trenér"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["odvolani-na-autoritu", "lichotka", "odvolani-na-bohatstvi", "magicke-mysleni", "neni-selhani-jen-zpetna-vazba", "modelovatelnost-excelence", "kongruence", "umyslna-vagnost", "selhani-jako-zpetna-vazba-vzorec", "kruh-excelence", "kotvy-v-prezentaci", "kotveni-ve-skupine", "uroven-poslani", "strategie-geniality", "stav-nevedeni", "modelovani-nevedomim", "muzeum-starych-presvedceni", "vnitrni-a-vnejsi-reference", "raport-se-skupinou", "nlp-v-sektach", "nlp-v-koucinku", "trh-certifikaci-nlp", "velke-seminare", "neuro-zargon", "nlp-v-koucinku-vyzkum"]
+catalog_related_declared = ["velke-seminare", "trh-certifikaci-nlp", "nlp-v-sektach", "umyslna-vagnost", "neuro-zargon", "kotveni-ve-skupine"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/case-studies/63-investor-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/charisma.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "trh-certifikaci-nlp"
+catalog_next = "velke-seminare"
+catalog_position = 13
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "cialdini-2009", "hassan-1988", "langer-1978", "lifton-1961", "roderique-davies-2009", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "hassan-1988", "langer-1978", "lifton-1961", "roderique-davies-2009", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
 +++
 
 # Efekt guru na seminářích
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-21.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Guru effect in seminars |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/vliv-a-zneuziti.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -203,7 +206,7 @@ obecných lidských mechanismů, nikoli osobní slabosti (Singer a Lalich 1995).
 také postupné přezkoumání pojmů, které skupina používala, a jejich převedení do
 běžného jazyka, protože tím ztrácejí svou uzavírající sílu (Lifton 1961).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,43 +225,47 @@ běžného jazyka, protože tím ztrácejí svou uzavírající sílu (Lifton 19
 
 **Rodina a hierarchie**
 
-- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzný vzorec (Předpoklady NLP, There is no failure, only feedback)
-- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzný vzorec (Předpoklady NLP, Excellence can be modelled)
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzný vzorec (Reframing a rámce, Failure into feedback)
-- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – příbuzný vzorec (Kotvení, Circle of excellence)
-- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzný vzorec (Kotvení, Anchors in presentations)
-- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – příbuzný vzorec (Kotvení, Group anchoring)
-- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Spiritual (purpose) level)
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzný vzorec (Strategie a modelování, Strategies of genius)
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzný vzorec (Strategie a modelování, Know-nothing state)
-- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzný vzorec (Strategie a modelování, Unconscious uptake modelling)
-- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzný vzorec (Přesvědčení, Museum of old beliefs)
-- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzný vzorec (Metaprogramy, Internal and external reference)
-- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzný vzorec (Raport a kalibrace, Group rapport)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
-- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in coaching)
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzný vzorec (Vliv a zneužití NLP, The NLP certification market)
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzný vzorec (Vliv a zneužití NLP, Large-group seminars)
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)
-- [Výzkum NLP v koučinku](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md) – příbuzný vzorec (Kritické hodnocení NLP, Research on NLP in coaching)
+- [Odvolání na nepatřičnou autoritu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to authority)
+- [Lichotka](@/kompendium/argumentacni-fauly/relevance/lichotka.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to flattery)
+- [Odvolání na bohatství nebo chudobu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-bohatstvi.md) – příbuzné heslo (Argumentační fauly: Klamy relevance, Appeal to wealth or poverty)
+- [Magické myšlení](@/kompendium/argumentacni-fauly/kauzalni/magicke-mysleni.md) – příbuzné heslo (Argumentační fauly: Kauzální klamy, Magical thinking)
+- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzné heslo (Předpoklady NLP, There is no failure, only feedback)
+- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzné heslo (Předpoklady NLP, Excellence can be modelled)
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Přerámování selhání na zpětnou vazbu](@/kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec.md) – příbuzné heslo (Reframing a rámce, Failure into feedback)
+- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – příbuzné heslo (Kotvení, Circle of excellence)
+- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzné heslo (Kotvení, Anchors in presentations)
+- [Kotvení ve skupině](@/kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md) – příbuzné heslo (Kotvení, Group anchoring)
+- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Spiritual (purpose) level)
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzné heslo (Strategie a modelování, Strategies of genius)
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzné heslo (Strategie a modelování, Know-nothing state)
+- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzné heslo (Strategie a modelování, Unconscious uptake modelling)
+- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzné heslo (Přesvědčení, Museum of old beliefs)
+- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzné heslo (Metaprogramy, Internal and external reference)
+- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzné heslo (Raport a kalibrace, Group rapport)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
+- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in coaching)
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzné heslo (Vliv a zneužití NLP, Large-group seminars)
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (Vliv a zneužití NLP, Neuro-jargon)
+- [Výzkum NLP v koučinku](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md) – příbuzné heslo (Kritické hodnocení NLP, Research on NLP in coaching)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – předchozí vzorec rodiny
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – předchozí heslo rodiny
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

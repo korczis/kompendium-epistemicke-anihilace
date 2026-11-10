@@ -12,70 +12,73 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Asociace", "Association", "asociovaný stav", "prožívání zevnitř", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Asociace", "Association", "asociovaný stav", "prožívání zevnitř", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.23"
-nlp_slug = "asociace"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.c"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Association"
-nlp_aliases = ["asociovaný stav", "prožívání zevnitř"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "submodality-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["submodality-pojem"]
-nlp_related = ["stav", "meta-pozice", "disociace", "kotva-pojem", "vizualni-submodality", "vzorec-zalu", "v-case-a-mimo-cas", "budouci-prehravani", "prvni-pozice", "generator-noveho-chovani", "reakce-na-stres", "emocni-zvladani"]
-nlp_related_declared = ["disociace", "stav", "budouci-prehravani", "v-case-a-mimo-cas", "kotva-pojem"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "glossary/complex-trauma.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "meta-pozice"
-nlp_next = "disociace"
-nlp_position = 23
-nlp_family_size = 42
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "herman-1992", "kahneman-2011", "oconnor-seymour-1990", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["herman-1992", "kahneman-2011", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.23"
+catalog_slug = "asociace"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.c"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Association"
+catalog_aliases = ["asociovaný stav", "prožívání zevnitř"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "submodality-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["submodality-pojem"]
+catalog_related = ["stav", "meta-pozice", "disociace", "kotva-pojem", "vizualni-submodality", "vzorec-zalu", "v-case-a-mimo-cas", "budouci-prehravani", "prvni-pozice", "generator-noveho-chovani", "reakce-na-stres", "emocni-zvladani"]
+catalog_related_declared = ["disociace", "stav", "budouci-prehravani", "v-case-a-mimo-cas", "kotva-pojem"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "glossary/complex-trauma.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "meta-pozice"
+catalog_next = "disociace"
+catalog_position = 23
+catalog_family_size = 42
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "herman-1992", "kahneman-2011", "oconnor-seymour-1990", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["herman-1992", "kahneman-2011", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.c.toml"
 +++
 
 # Asociace
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.23` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Association |
 | **Jiné názvy** | asociovaný stav, prožívání zevnitř |
-| **Obecnější vzorec** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
+| **Obecnější heslo** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
-Asociací se v neurolingvistickém programování rozumí způsob, jakým člověk prožívá vzpomínku, představu nebo očekávanou situaci „zevnitř“. Vidí ji vlastníma očima, slyší ji ze svého místa a cítí ji v těle, jako by se právě děla. Protikladem je [disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md), při níž člověk vidí sám sebe v situaci jakoby zvenčí, z pozice diváka. NLP považuje rozdíl mezi oběma perspektivami za jednu z nejdůležitějších vlastností vnitřních představ, tedy za takzvanou submodalitu, která podle jeho tvrzení silně ovlivňuje intenzitu prožitku (Bandler 1985). Asociace v tomto smyslu není totéž co asociace v psychologii učení, kde slovo označuje spojení dvou podnětů nebo myšlenek, a není to ani klinický pojem. Jde o popis perspektivy, ze které je zkušenost vnitřně reprezentována. Pro kompendium je pojem důležitý ze dvou důvodů. Pomáhá rozumět tomu, proč některé vzpomínky zaplavují a jiné ne, a zároveň popisuje mechanismus, kterým lze člověka záměrně vtáhnout do emočně nabitého prožitku ve chvíli, kdy má rozhodovat.
+Asociací se v neurolingvistickém programování rozumí způsob, jakým člověk prožívá vzpomínku, představu nebo očekávanou situaci „zevnitř“. Vidí ji vlastníma očima, slyší ji ze svého místa a cítí ji v těle, jako by se právě děla. Protikladem je [disociace](@/glossary/disociace.md), při níž člověk vidí sám sebe v situaci jakoby zvenčí, z pozice diváka. NLP považuje rozdíl mezi oběma perspektivami za jednu z nejdůležitějších vlastností vnitřních představ, tedy za takzvanou submodalitu, která podle jeho tvrzení silně ovlivňuje intenzitu prožitku (Bandler 1985). Asociace v tomto smyslu není totéž co asociace v psychologii učení, kde slovo označuje spojení dvou podnětů nebo myšlenek, a není to ani klinický pojem. Jde o popis perspektivy, ze které je zkušenost vnitřně reprezentována. Pro kompendium je pojem důležitý ze dvou důvodů. Pomáhá rozumět tomu, proč některé vzpomínky zaplavují a jiné ne, a zároveň popisuje mechanismus, kterým lze člověka záměrně vtáhnout do emočně nabitého prožitku ve chvíli, kdy má rozhodovat.
 
 ## Původ a souvislosti
 
@@ -101,7 +104,7 @@ Rozlišení vlastní a pozorovatelské perspektivy ve vzpomínkách je v psychol
 
 Základní obranou je oddělit prožitek od rozhodnutí. Pokud se při jednání objeví živé vyprávění o tom, jak dobře se budete cítit, je užitečné si to pojmenovat a požádat o podmínky v písemné podobě, které lze posoudit později a v klidu. Rozhodnutí odložené o den ztrácí vazbu na emoční vrchol, který mluvčí vytvořil, a umožní vrátit se ke zvažování obsahu (Petty a Cacioppo 1986). Druhou obranou je vědomé střídání perspektivy: kdo si situaci představí také zvenčí, jako by ji pozoroval u někoho jiného, snadněji si všimne, co v ní chybí, například cena, rizika nebo alternativy. U lidí, kteří byli v uzavřených skupinách nebo vztazích opakovaně vtahováni do bolestných vzpomínek, je zotavení věcí odborné péče. Klinická literatura o traumatu zdůrazňuje nejprve bezpečí a stabilizaci, teprve potom dávkovanou práci se vzpomínkami a obnovu vztahů mimo prostředí, které zátěž způsobilo (Herman 1992). Odborník, který s pojmem pracuje, by měl asociaci navozovat jen se souhlasem, s možností přerušení a s jasným terapeutickým důvodem; jinak se popisný pojem mění v nástroj emočního zaplavení.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -118,34 +121,34 @@ Základní obranou je oddělit prožitek od rozhodnutí. Pokud se při jednání
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzný vzorec (Submodality, Visual submodalities)
-- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzný vzorec (Disociace, fobie a trauma, Resolving grief pattern)
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzný vzorec (Časová osa, In time and through time)
-- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzný vzorec (Časová osa, Future pacing)
-- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, First position)
-- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzný vzorec (Strategie a modelování, New behaviour generator)
-- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzný vzorec (Metaprogramy, Stress response)
-- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – příbuzný vzorec (Metaprogramy, Emotional coping)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzné heslo (Základní pojmy NLP, Meta-position)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzné heslo (Submodality, Visual submodalities)
+- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzné heslo (Disociace, fobie a trauma, Resolving grief pattern)
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzné heslo (Časová osa, In time and through time)
+- [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – příbuzné heslo (Časová osa, Future pacing)
+- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, First position)
+- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – příbuzné heslo (Strategie a modelování, New behaviour generator)
+- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzné heslo (Metaprogramy, Stress response)
+- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – příbuzné heslo (Metaprogramy, Emotional coping)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – předchozí vzorec rodiny
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – předchozí heslo rodiny
+- [Disociace](@/glossary/disociace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

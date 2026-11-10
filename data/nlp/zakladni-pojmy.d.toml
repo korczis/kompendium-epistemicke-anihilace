@@ -1,5 +1,5 @@
 # Rodina NLP-02: Základní pojmy NLP, část d (NLP-02.33 až NLP-02.42).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí je pořadí identifikátorů.
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí je pořadí identifikátorů.
 
 [[pattern]]
 id = "NLP-02.33"

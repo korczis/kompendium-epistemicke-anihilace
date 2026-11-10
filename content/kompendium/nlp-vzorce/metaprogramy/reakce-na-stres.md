@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Reakce na stres", "Stress response", "emoční reakce na stres", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Reakce na stres", "Stress response", "emoční reakce na stres", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.11"
-nlp_slug = "reakce-na-stres"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Stress response"
-nlp_aliases = ["emoční reakce na stres"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["stav", "asociace", "disociace", "pracovni-styl", "emocni-zvladani"]
-nlp_related_declared = ["emocni-zvladani", "stav", "disociace", "asociace", "pracovni-styl"]
-nlp_kompendium = ["kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-6-1-2-self-report-instrument.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-6-1-2-self-report-instrument.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md"]
-nlp_prev = "ja-a-druzi"
-nlp_next = "pracovni-styl"
-nlp_position = 11
-nlp_family_size = 23
-nlp_sources = ["bandler-grinder-1979", "beck-1976", "charvet-1997", "ellis-1962", "herman-1992", "lilienfeld-2015", "norcross-2006", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "charvet-1997"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lilienfeld-2015", "norcross-2006", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.11"
+catalog_slug = "reakce-na-stres"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Stress response"
+catalog_aliases = ["emoční reakce na stres"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["stav", "asociace", "disociace", "pracovni-styl", "emocni-zvladani"]
+catalog_related_declared = ["emocni-zvladani", "stav", "disociace", "asociace", "pracovni-styl"]
+catalog_kompendium = ["kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-6-1-2-self-report-instrument.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-6-1-2-self-report-instrument.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md"]
+catalog_prev = "ja-a-druzi"
+catalog_next = "pracovni-styl"
+catalog_position = 11
+catalog_family_size = 23
+catalog_sources = ["bandler-grinder-1979", "beck-1976", "charvet-1997", "ellis-1962", "herman-1992", "lilienfeld-2015", "norcross-2006", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "charvet-1997"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lilienfeld-2015", "norcross-2006", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.toml"
 +++
 
 # Reakce na stres
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Stress response |
 | **Jiné názvy** | emoční reakce na stres |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -93,7 +96,7 @@ akutní stresové poruchy nebo posttraumatických obtíží.
 
 Kategorie se objevuje v profilu LAB, který zpřístupnila Shelle Rose Charvetová pro oblast
 řízení, náboru a vyjednávání (Charvet 1997). V širším rámci NLP souvisí s pojmy [stavu](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md)
-a [asociace a disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md), tedy s představou,
+a [asociace a disociace](@/glossary/disociace.md), tedy s představou,
 že člověk může zkušenost prožívat „zevnitř“, se všemi pocity, nebo „zvenku“, jako pozorovatel
 (Bandler a Grinder 1979). Metaprogram reakce na stres lze v tomto rámci chápat jako tvrzení,
 že lidé mají při zátěži sklon k jedné z těchto poloh. Mimo NLP má otázka vztahu mezi
@@ -188,7 +191,7 @@ zvenku jeví jako slabost, jsou pochopitelnou odpovědí na dlouhodobé ohrožen
 Kognitivní přístup pak může pomoci rozpoznat výklady, které si člověk z takového prostředí
 odnesl, a ověřit je proti současné zkušenosti (Beck 1976).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -206,27 +209,27 @@ odnesl, a ověřit je proti současné zkušenosti (Beck 1976).
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzný vzorec (Metaprogramy, Working style)
-- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – příbuzný vzorec (Metaprogramy, Emotional coping)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzné heslo (Základní pojmy NLP, Association)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzné heslo (Metaprogramy, Working style)
+- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – příbuzné heslo (Metaprogramy, Emotional coping)
 
 **V kompendiu**
 
-- [EA-6.2.6 DBT — distress tolerance](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.8 Screening traumatického stresu (PCL-5, IES-R, ITQ)](@/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.2 Self-report instrument](@/kompendium/techniques/ea-6-1-2-self-report-instrument.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.2.6 DBT — distress tolerance](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.8 Screening traumatického stresu (PCL-5, IES-R, ITQ)](@/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.2 Self-report instrument](@/kompendium/techniques/ea-6-1-2-self-report-instrument.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – předchozí vzorec rodiny
-- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – předchozí heslo rodiny
+- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

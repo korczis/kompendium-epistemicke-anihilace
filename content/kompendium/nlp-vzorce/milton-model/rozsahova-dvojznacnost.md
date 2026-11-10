@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Rozsahová dvojznačnost", "Scope ambiguity", "dvojznačnost dosahu", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Rozsahová dvojznačnost", "Scope ambiguity", "dvojznačnost dosahu", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.13"
-nlp_slug = "rozsahova-dvojznacnost"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Scope ambiguity"
-nlp_aliases = ["dvojznačnost dosahu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "interpunkcni-dvojznacnost", "presupozice-milton", "otazky-s-presupozici"]
-nlp_related_declared = ["syntakticka-dvojznacnost", "interpunkcni-dvojznacnost", "presupozice-milton", "otazky-s-presupozici", "fonologicka-dvojznacnost"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
-nlp_links_prose = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/milton-model/presupozice-milton.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_prev = "syntakticka-dvojznacnost"
-nlp_next = "interpunkcni-dvojznacnost"
-nlp_position = 13
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1981", "heap-1988", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
-nlp_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
-nlp_sources_critical = ["heap-1988", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.13"
+catalog_slug = "rozsahova-dvojznacnost"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Scope ambiguity"
+catalog_aliases = ["dvojznačnost dosahu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["zamena-kvantifikatoru", "klam-modalniho-rozsahu", "amfibolie", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "interpunkcni-dvojznacnost", "presupozice-milton", "otazky-s-presupozici"]
+catalog_related_declared = ["syntakticka-dvojznacnost", "interpunkcni-dvojznacnost", "presupozice-milton", "otazky-s-presupozici", "fonologicka-dvojznacnost"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/slozena-otazka.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/milton-model/presupozice-milton.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+catalog_prev = "syntakticka-dvojznacnost"
+catalog_next = "interpunkcni-dvojznacnost"
+catalog_position = 13
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1981", "heap-1988", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
+catalog_sources_critical = ["heap-1988", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.b.toml"
 +++
 
 # Rozsahová dvojznačnost
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Scope ambiguity |
 | **Jiné názvy** | dvojznačnost dosahu |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -116,7 +119,7 @@ na konci věty nebo vztažná věta za výčtem. Druhým prvkem jsou dvě možn�
 gramatice, ale tím, že jazyk dosah operátorů obvykle výslovně nevyznačuje a spoléhá na
 spolupráci posluchače.
 
-Zvláštní případ představuje složená otázka. Tazatel spojí dvě tvrzení do jedné otázky, na kterou
+Zvláštní případ představuje [složená otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/slozena-otazka.md). Tazatel spojí dvě tvrzení do jedné otázky, na kterou
 je možné odpovědět jediným „ano“, a tím vznikne nejasnost, zda odpověď platí pro obě části,
 nebo jen pro jednu. Ve výslechu a ve svědecké výpovědi tak může odpověď nabýt širšího rozsahu,
 než svědek zamýšlel. Kompendium tento problém popisuje v kontextu
@@ -202,7 +205,7 @@ psychologické zpracování: lidé mají sklon vinit se z „hlouposti“, přes
 vytvořena právě tak, aby ji běžný posluchač nezachytil. Pojmenování mechanismu pomáhá přesunout
 odpovědnost tam, kam patří, a obnovit důvěru ve vlastní úsudek.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -223,26 +226,29 @@ odpovědnost tam, kam patří, a obnovit důvěru ve vlastní úsudek.
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzný vzorec (Milton-model, Phonological ambiguity)
-- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – příbuzný vzorec (Milton-model, Syntactic ambiguity)
-- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – příbuzný vzorec (Milton-model, Punctuation ambiguity)
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzný vzorec (Milton-model, Presuppositions (Milton Model))
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
+- [Záměna kvantifikátorů](@/kompendium/argumentacni-fauly/formalni/zamena-kvantifikatoru.md) – příbuzné heslo (Argumentační fauly: Formální klamy, Quantifier shift)
+- [Klam modálního rozsahu](@/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md) – příbuzné heslo (Argumentační fauly: Formální klamy, Modal scope fallacy)
+- [Amfibolie](@/kompendium/argumentacni-fauly/jazykove-klamy/amfibolie.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Amphiboly)
+- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzné heslo (Milton-model, Phonological ambiguity)
+- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – příbuzné heslo (Milton-model, Syntactic ambiguity)
+- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – příbuzné heslo (Milton-model, Punctuation ambiguity)
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzné heslo (Milton-model, Presuppositions (Milton Model))
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
 
 **V kompendiu**
 
-- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – předchozí vzorec rodiny
-- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – předchozí heslo rodiny
+- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

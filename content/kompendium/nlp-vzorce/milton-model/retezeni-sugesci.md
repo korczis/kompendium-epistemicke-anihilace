@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Řetězení sugescí", "Linking suggestions", "propojování sugescí", "řetěz sugescí", "Milton-model", "NLP", "neurolingvistické programování"]
+keywords = ["Řetězení sugescí", "Linking suggestions", "propojování sugescí", "řetěz sugescí", "Milton-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.28"
-nlp_slug = "retezeni-sugesci"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model.c"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Linking suggestions"
-nlp_aliases = ["propojování sugescí", "řetěz sugescí"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "milton-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["milton-model"]
-nlp_related = ["ano-sada", "spojky-a-implikovana-pricinnost", "pacing-aktualni-zkusenosti", "slozena-sugesce", "poradove-cislovky", "retezeni-presvedceni", "vedeni-v-raportu"]
-nlp_related_declared = ["spojky-a-implikovana-pricinnost", "slozena-sugesce", "ano-sada", "pacing-aktualni-zkusenosti"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md", "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
-nlp_prev = "pacing-aktualni-zkusenosti"
-nlp_next = "srovnavaci-delece-milton"
-nlp_position = 28
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grinder-bandler-1981", "herman-1992", "kahneman-2011", "langer-1978", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "kahneman-2011", "langer-1978", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.28"
+catalog_slug = "retezeni-sugesci"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model.c"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Linking suggestions"
+catalog_aliases = ["propojování sugescí", "řetěz sugescí"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "milton-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["milton-model"]
+catalog_related = ["ano-sada", "spojky-a-implikovana-pricinnost", "pacing-aktualni-zkusenosti", "slozena-sugesce", "poradove-cislovky", "retezeni-presvedceni", "vedeni-v-raportu"]
+catalog_related_declared = ["spojky-a-implikovana-pricinnost", "slozena-sugesce", "ano-sada", "pacing-aktualni-zkusenosti"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md", "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md", "kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
+catalog_prev = "pacing-aktualni-zkusenosti"
+catalog_next = "srovnavaci-delece-milton"
+catalog_position = 28
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grinder-bandler-1981", "herman-1992", "kahneman-2011", "langer-1978", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "kahneman-2011", "langer-1978", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.c.toml"
 +++
 
 # Řetězení sugescí
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.28` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Linking suggestions |
 | **Jiné názvy** | propojování sugescí, řetěz sugescí |
-| **Obecnější vzorec** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
+| **Obecnější heslo** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -188,7 +191,7 @@ rozhodnutí, ale stavbu, která byla navržena tak, aby žádné jednotlivé roz
 podstatně. Klinik může tuto rekonstrukci podpořit a zároveň dbát, aby se z ní nestal nový
 řetěz, tentokrát s opačným cílem (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -209,29 +212,29 @@ podstatně. Klinik může tuto rekonstrukci podpořit a zároveň dbát, aby se 
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzný vzorec (Milton-model, Conjunctions and implied causatives)
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzný vzorec (Milton-model, Pacing current experience)
-- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – příbuzný vzorec (Ericksonovská hypnóza, Compound suggestion)
-- [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – příbuzný vzorec (Jazykové presupozice, Ordinal numerals)
-- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief chaining)
-- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzný vzorec (Raport a kalibrace, Leading in rapport)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzné heslo (Milton-model, Conjunctions and implied causatives)
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – příbuzné heslo (Milton-model, Pacing current experience)
+- [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – příbuzné heslo (Ericksonovská hypnóza, Compound suggestion)
+- [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – příbuzné heslo (Jazykové presupozice, Ordinal numerals)
+- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief chaining)
+- [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – příbuzné heslo (Raport a kalibrace, Leading in rapport)
 
 **V kompendiu**
 
-- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – předchozí vzorec rodiny
-- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – předchozí heslo rodiny
+- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Model světa", "Model of the world", "jiný model světa", "relativizace přesvědčení", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Model světa", "Model of the world", "jiný model světa", "relativizace přesvědčení", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.11"
-nlp_slug = "som-model-sveta"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Model of the world"
-nlp_aliases = ["jiný model světa", "relativizace přesvědčení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["mapa-neni-uzemi", "respekt-k-modelu-sveta", "som-strategie-reality", "som-aplikace-na-sebe", "som-meta-ramec", "kontextovy-reframing"]
-nlp_related_declared = ["mapa-neni-uzemi", "respekt-k-modelu-sveta", "som-strategie-reality", "som-meta-ramec"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/socialni-epistemologie.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md"]
-nlp_prev = "som-jiny-vysledek"
-nlp_next = "som-strategie-reality"
-nlp_position = 11
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "dilts-1999", "herman-1992", "korzybski-1933", "satir-1972", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1999"]
-nlp_sources_roots = ["korzybski-1933", "satir-1972"]
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.11"
+catalog_slug = "som-model-sveta"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Model of the world"
+catalog_aliases = ["jiný model světa", "relativizace přesvědčení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["mapa-neni-uzemi", "respekt-k-modelu-sveta", "som-strategie-reality", "som-aplikace-na-sebe", "som-meta-ramec", "kontextovy-reframing"]
+catalog_related_declared = ["mapa-neni-uzemi", "respekt-k-modelu-sveta", "som-strategie-reality", "som-meta-ramec"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/socialni-epistemologie.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md"]
+catalog_prev = "som-jiny-vysledek"
+catalog_next = "som-strategie-reality"
+catalog_position = 11
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "dilts-1999", "herman-1992", "korzybski-1933", "satir-1972", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999"]
+catalog_sources_roots = ["korzybski-1933", "satir-1972"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.b.toml"
 +++
 
 # Model světa
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Model of the world |
 | **Jiné názvy** | jiný model světa, relativizace přesvědčení |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Vzorec model světa nebyl samostatně testován v kontrolovaných studiích. Dil
 
 Základní obranou je trvat na symetrii a na rozlišení výkladu od faktu. Pokud mluvčí označí výklad adresáta za jeden z modelů, je legitimní připomenout, že i jeho výklad je modelem, a navrhnout, aby se oba porovnaly s tím, co se stalo. Pokud se relativizace dotkne faktu nebo újmy, je na místě říct, že odlišné modely mohou měnit význam, ale nemění, co se stalo a jak to člověka zasáhlo. Užitečné je také ptát se, o jaké „jiné lidi“ nebo „jiné kultury“ jde a zda jejich údajný postoj lze ověřit. Druhou obranou je opora mimo vztah: lidé, kteří situaci znají a mohou potvrdit, že adresátův popis je v běžném rozsahu. Herman zdůrazňuje, že obnova schopnosti pojmenovat vlastní zkušenost probíhá ve vztahu, který tuto zkušenost uznává (Herman 1992). Pro lidi, kteří byli dlouhodobě vystaveni asymetrické relativizaci, proto klinická práce nezačíná dalším nabízením alternativních perspektiv, ale validací toho, co prožili, a obnovou rozlišení mezi tím, co se stalo, a tím, jak to lze vykládat. Teprve na této pevné půdě může mít práce s jinými modely světa smysl, a to jako volba klienta, ne jako požadavek druhé strany.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,27 +126,27 @@ Základní obranou je trvat na symetrii a na rozlišení výkladu od faktu. Poku
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzný vzorec (Předpoklady NLP, Respect for the other person's model of the world)
-- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – příbuzný vzorec (Sleight of Mouth, Reality strategy)
-- [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – příbuzný vzorec (Sleight of Mouth, Apply to self)
-- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzný vzorec (Sleight of Mouth, Meta frame)
-- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Context reframing)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – příbuzné heslo (Předpoklady NLP, Respect for the other person's model of the world)
+- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – příbuzné heslo (Sleight of Mouth, Reality strategy)
+- [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – příbuzné heslo (Sleight of Mouth, Apply to self)
+- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzné heslo (Sleight of Mouth, Meta frame)
+- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzné heslo (Reframing a rámce, Context reframing)
 
 **V kompendiu**
 
-- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – předchozí vzorec rodiny
-- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – předchozí heslo rodiny
+- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

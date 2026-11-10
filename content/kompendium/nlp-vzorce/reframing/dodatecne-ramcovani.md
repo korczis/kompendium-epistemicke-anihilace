@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Dodatečné rámcování", "Post-framing", "zpětné rámování", "post-frame", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Dodatečné rámcování", "Post-framing", "zpětné rámování", "post-frame", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.15"
-nlp_slug = "dodatecne-ramcovani"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Post-framing"
-nlp_aliases = ["zpětné rámování", "post-frame"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "ramec-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["ramec-pojem"]
-nlp_related = ["obsahovy-reframing", "ramec-zpetneho-shrnuti", "vyzva-k-relevanci", "predramcovani", "trauma-a-falesne-vzpominky", "manipulativni-reframing-ve-vztazich"]
-nlp_related_declared = ["predramcovani", "ramec-zpetneho-shrnuti", "obsahovy-reframing", "manipulativni-reframing-ve-vztazich", "trauma-a-falesne-vzpominky"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
-nlp_prev = "predramcovani"
-nlp_next = "deframing"
-nlp_position = 15
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1982", "beck-1976", "erickson-rossi-rossi-1976", "festinger-1957", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "stark-2007", "sturt-2012", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976", "watzlawick-1967", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "festinger-1957", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.15"
+catalog_slug = "dodatecne-ramcovani"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Post-framing"
+catalog_aliases = ["zpětné rámování", "post-frame"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "ramec-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["ramec-pojem"]
+catalog_related = ["obsahovy-reframing", "ramec-zpetneho-shrnuti", "vyzva-k-relevanci", "predramcovani", "trauma-a-falesne-vzpominky", "manipulativni-reframing-ve-vztazich"]
+catalog_related_declared = ["predramcovani", "ramec-zpetneho-shrnuti", "obsahovy-reframing", "manipulativni-reframing-ve-vztazich", "trauma-a-falesne-vzpominky"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
+catalog_prev = "predramcovani"
+catalog_next = "deframing"
+catalog_position = 15
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1982", "beck-1976", "erickson-rossi-rossi-1976", "festinger-1957", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "stark-2007", "sturt-2012", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "watzlawick-1967", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "festinger-1957", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "stark-2007", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.b.toml"
 +++
 
 # Dodatečné rámcování
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Post-framing |
 | **Jiné názvy** | zpětné rámování, post-frame |
-| **Obecnější vzorec** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
+| **Obecnější heslo** | [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ z traumatu zahrnuje obnovu schopnosti vyprávět vlastní příběh a mít ho za
 Terapeut sám by se měl vyhnout tomu, aby klientovi nabízel hotové zpětné výklady, protože i
 dobře míněný výklad z autority může vzpomínku přetvořit.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,28 +224,28 @@ dobře míněný výklad z autority může vzpomínku přetvořit.
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzný vzorec (Reframing a rámce, Backtrack frame)
-- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – příbuzný vzorec (Reframing a rámce, Relevancy challenge)
-- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzný vzorec (Reframing a rámce, Pre-framing)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzný vzorec (Vliv a zneužití NLP, Manipulative reframing in close relationships)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – příbuzné heslo (Reframing a rámce, Backtrack frame)
+- [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – příbuzné heslo (Reframing a rámce, Relevancy challenge)
+- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzné heslo (Reframing a rámce, Pre-framing)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.3.6 Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.3.6 Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – předchozí vzorec rodiny
-- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – předchozí heslo rodiny
+- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

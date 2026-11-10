@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Strategie lásky", "Love strategy", "strategie pocitu, že jsem milován", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Strategie lásky", "Love strategy", "strategie pocitu, že jsem milován", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.08"
-nlp_slug = "strategie-lasky"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Love strategy"
-nlp_aliases = ["strategie pocitu, že jsem milován"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "strategie-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["strategie-pojem"]
-nlp_related = ["kotveni-v-kontrolujicich-vztazich", "motivacni-strategie", "utilizace-strategie", "nlp-v-komunite-svadeni", "manipulativni-reframing-ve-vztazich"]
-nlp_related_declared = ["kotveni-v-kontrolujicich-vztazich", "nlp-v-komunite-svadeni", "utilizace-strategie", "manipulativni-reframing-ve-vztazich", "motivacni-strategie"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_prev = "strategie-reality"
-nlp_next = "strategie-geniality"
-nlp_position = 8
-nlp_family_size = 20
-nlp_sources = ["cameron-bandler-1978", "dilts-1980", "herman-1992", "miller-galanter-pribram-1960", "satir-1972", "sharpley-1984", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["cameron-bandler-1978", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960", "satir-1972"]
-nlp_sources_critical = ["herman-1992", "sharpley-1984", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.08"
+catalog_slug = "strategie-lasky"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Love strategy"
+catalog_aliases = ["strategie pocitu, že jsem milován"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "strategie-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["strategie-pojem"]
+catalog_related = ["kotveni-v-kontrolujicich-vztazich", "motivacni-strategie", "utilizace-strategie", "nlp-v-komunite-svadeni", "manipulativni-reframing-ve-vztazich"]
+catalog_related_declared = ["kotveni-v-kontrolujicich-vztazich", "nlp-v-komunite-svadeni", "utilizace-strategie", "manipulativni-reframing-ve-vztazich", "motivacni-strategie"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_prev = "strategie-reality"
+catalog_next = "strategie-geniality"
+catalog_position = 8
+catalog_family_size = 20
+catalog_sources = ["cameron-bandler-1978", "dilts-1980", "herman-1992", "miller-galanter-pribram-1960", "satir-1972", "sharpley-1984", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["cameron-bandler-1978", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "satir-1972"]
+catalog_sources_critical = ["herman-1992", "sharpley-1984", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.toml"
 +++
 
 # Strategie lásky
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Love strategy |
 | **Jiné názvy** | strategie pocitu, že jsem milován |
-| **Obecnější vzorec** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
+| **Obecnější heslo** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Pro specifické tvrzení, že každý člověk má stálou „strategii lásky�
 
 Základní obranou je posuzovat vztah podle jednání ve chvílích nesouhlasu, ne podle intenzity projevů na začátku. Velmi rychlé a přesně „trefené“ zahlcení náklonností, spojené s pocitem, že druhý člověk rozumí jako nikdo předtím, je důvodem ke zpomalení, ne k urychlení vztahu. Druhou obranou je udržovat vztahy mimo partnerství. Přátelé a rodina jsou vnějšími ověřovateli, kteří si všimnou změn dřív než člověk sám, a jejich ztráta je jedním z hlavních znaků kontrolujícího vztahu (Stark 2007). Třetí obranou je pojmenovat cyklus: pokud se náklonnost vrací jen po omluvě nebo ústupku, nejde o lásku, ale o podmiňování. Zotavení po odchodu z takového vztahu bývá dlouhé, protože vazba vytvořená střídáním vřelosti a odnímání je silná. Herman zdůrazňuje, že obnova začíná zajištěním bezpečí, pokračuje zpracováním prožitého a vede k opětovnému navázání vztahů s ostatními (Herman 1992). Kompendium specifické postupy pomoci lidem po zkušenosti s domácím násilím popisuje u [protokolu pro domácí násilí](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md). Párovým terapeutům a koučům, kteří s představou smyslových kanálů pracují, lze doporučit, aby ji používali jen jako otázku pro oba partnery a nikdy jako nástroj, kterým jeden z nich získává převahu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,27 +124,27 @@ Základní obranou je posuzovat vztah podle jednání ve chvílích nesouhlasu, 
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzný vzorec (Strategie a modelování, Motivation strategy)
-- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy utilisation)
-- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in the seduction community)
-- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzný vzorec (Vliv a zneužití NLP, Manipulative reframing in close relationships)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzné heslo (Strategie a modelování, Motivation strategy)
+- [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy utilisation)
+- [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in the seduction community)
+- [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**
 
-- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – předchozí vzorec rodiny
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – předchozí heslo rodiny
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

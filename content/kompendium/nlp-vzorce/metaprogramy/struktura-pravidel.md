@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Struktura pravidel", "Rule structure", "moje pravidla a pravidla pro druhé", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Struktura pravidel", "Rule structure", "moje pravidla a pravidla pro druhé", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.14"
-nlp_slug = "struktura-pravidel"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Rule structure"
-nlp_aliases = ["moje pravidla a pravidla pro druhé"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "kriteria", "ja-a-druzi", "odpovednost", "adaptace"]
-nlp_related_declared = ["vnitrni-a-vnejsi-reference", "ja-a-druzi", "odpovednost", "kriteria"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md", "kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_prev = "lide-a-veci"
-nlp_next = "casova-orientace"
-nlp_position = 14
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "ellis-1962", "hall-bodenhamer-1997", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "satir-1972", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
-nlp_sources_roots = ["satir-1972"]
-nlp_sources_critical = ["ellis-1962", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.14"
+catalog_slug = "struktura-pravidel"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Rule structure"
+catalog_aliases = ["moje pravidla a pravidla pro druhé"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "kriteria", "ja-a-druzi", "odpovednost", "adaptace"]
+catalog_related_declared = ["vnitrni-a-vnejsi-reference", "ja-a-druzi", "odpovednost", "kriteria"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md", "kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_prev = "lide-a-veci"
+catalog_next = "casova-orientace"
+catalog_position = 14
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "ellis-1962", "hall-bodenhamer-1997", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "satir-1972", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
+catalog_sources_roots = ["satir-1972"]
+catalog_sources_critical = ["ellis-1962", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Struktura pravidel
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Rule structure |
 | **Jiné názvy** | moje pravidla a pravidla pro druhé |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ trestu, a terapeutická práce s vnitřními „musím“, která byla převzata
 se tomuto tématu věnuje i na stránce o [Starkově rámci donucující
 kontroly](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,27 +216,27 @@ kontroly](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md).
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzný vzorec (Metaprogramy, Internal and external reference)
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzný vzorec (Metaprogramy, Options and procedures)
-- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzný vzorec (Metaprogramy, Criteria)
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzný vzorec (Metaprogramy, Self and other)
-- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzný vzorec (Metaprogramy, Responsibility)
-- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – příbuzný vzorec (Metaprogramy, Adaptation (judging and perceiving))
+- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzné heslo (Metaprogramy, Internal and external reference)
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzné heslo (Metaprogramy, Options and procedures)
+- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzné heslo (Metaprogramy, Self and other)
+- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – příbuzné heslo (Metaprogramy, Responsibility)
+- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – příbuzné heslo (Metaprogramy, Adaptation (judging and perceiving))
 
 **V kompendiu**
 
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.4.2 Skrytý přepis pravidel (policy rewriting)](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.4.2 Skrytý přepis pravidel (policy rewriting)](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – předchozí vzorec rodiny
-- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – předchozí heslo rodiny
+- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

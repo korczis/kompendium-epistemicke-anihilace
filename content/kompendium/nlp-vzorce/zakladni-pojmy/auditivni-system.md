@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Auditivní reprezentační systém", "Auditory representational system", "A", "sluchový systém", "auditivně tonální systém", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Auditivní reprezentační systém", "Auditory representational system", "A", "sluchový systém", "auditivně tonální systém", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.03"
-nlp_slug = "auditivni-system"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Auditory representational system"
-nlp_aliases = ["A", "sluchový systém", "auditivně tonální systém"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "reprezentacni-systemy"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reprezentacni-systemy"]
-nlp_related = ["vizualni-system", "auditivne-digitalni-system", "predikaty", "vnitrni-dialog", "auditivni-kotvy", "auditivni-submodality", "sladeni-hlasu-a-tempa"]
-nlp_related_declared = ["auditivne-digitalni-system", "auditivni-submodality", "vnitrni-dialog", "sladeni-hlasu-a-tempa", "predikaty"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/detection-signatures/_index.md"]
-nlp_links_prose = ["kompendium/detection-signatures/_index.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md", "kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md"]
-nlp_prev = "vizualni-system"
-nlp_next = "kinesteticky-system"
-nlp_position = 3
-nlp_family_size = 42
-nlp_sources = ["bandler-1985", "bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "dilts-1980", "erickson-rossi-rossi-1976", "heap-1988", "herman-1992", "rogers-1951", "sharpley-1984", "vrij-2008", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "bandler-grinder-1975b", "bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = ["erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "heap-1988", "herman-1992", "rogers-1951", "sharpley-1984", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.03"
+catalog_slug = "auditivni-system"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Auditory representational system"
+catalog_aliases = ["A", "sluchový systém", "auditivně tonální systém"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "reprezentacni-systemy"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reprezentacni-systemy"]
+catalog_related = ["vizualni-system", "auditivne-digitalni-system", "predikaty", "vnitrni-dialog", "auditivni-kotvy", "auditivni-submodality", "sladeni-hlasu-a-tempa"]
+catalog_related_declared = ["auditivne-digitalni-system", "auditivni-submodality", "vnitrni-dialog", "sladeni-hlasu-a-tempa", "predikaty"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/detection-signatures/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/_index.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md", "kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md"]
+catalog_prev = "vizualni-system"
+catalog_next = "kinesteticky-system"
+catalog_position = 3
+catalog_family_size = 42
+catalog_sources = ["bandler-1985", "bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "dilts-1980", "erickson-rossi-rossi-1976", "heap-1988", "herman-1992", "rogers-1951", "sharpley-1984", "vrij-2008", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "bandler-grinder-1975b", "bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "heap-1988", "herman-1992", "rogers-1951", "sharpley-1984", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.toml"
 +++
 
 # Auditivní reprezentační systém
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.03` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Auditory representational system |
 | **Jiné názvy** | A, sluchový systém, auditivně tonální systém |
-| **Obecnější vzorec** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
+| **Obecnější heslo** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -192,7 +195,7 @@ vnitřním hlasem, který člověka trápí, a oprávněnou pochybností, která
 Kvalifikovaná terapie s vnitřním hlasem pracuje tak, že zkoumá jeho obsah a jeho původ, nikoli
 tak, že ho bez rozlišení umlčí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,28 +217,28 @@ tak, že ho bez rozlišení umlčí.
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – příbuzný vzorec (Základní pojmy NLP, Visual representational system)
-- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory digital system)
-- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzný vzorec (Základní pojmy NLP, Predicates)
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzný vzorec (Kotvení, Auditory and tonal anchors)
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzný vzorec (Submodality, Auditory submodalities)
-- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzný vzorec (Raport a kalibrace, Voice and tempo matching)
+- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – příbuzné heslo (Základní pojmy NLP, Visual representational system)
+- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory digital system)
+- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzné heslo (Základní pojmy NLP, Predicates)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzné heslo (Submodality, Auditory submodalities)
+- [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – předchozí vzorec rodiny
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – předchozí heslo rodiny
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Hledání kořenové příčiny", "Root cause", "první událost", "root cause", "hledání první příčiny", "Časová osa", "NLP", "neurolingvistické programování"]
+keywords = ["Hledání kořenové příčiny", "Root cause", "první událost", "root cause", "hledání první příčiny", "Časová osa", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-12.07"
-nlp_slug = "korenova-pricina"
-nlp_family = "casova-osa"
-nlp_family_code = "12"
-nlp_family_title = "Časová osa"
-nlp_family_en = "Timeline patterns"
-nlp_part = "casova-osa"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Root cause"
-nlp_aliases = ["první událost", "root cause", "hledání první příčiny"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "terapie-casove-osy"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
-nlp_related = ["casova-osa-pojem", "vekova-regrese", "presupozice-ve-vyslechu", "reimprinting", "trauma-a-falesne-vzpominky", "terapie-casove-osy", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "pruchod-casovou-osou", "presvedceni-o-pricine", "imprint"]
-nlp_related_declared = ["trauma-a-falesne-vzpominky", "vekova-regrese", "imprint", "presupozice-ve-vyslechu", "presvedceni-o-pricine", "reimprinting"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md", "kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md", "kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md", "kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/presvedceni/imprint.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
-nlp_prev = "vlozeni-budouciho-cile"
-nlp_next = "zmena-tvaru-casove-osy"
-nlp_position = 7
-nlp_family_size = 12
-nlp_sources = ["dilts-1990", "gilovich-1991", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/casova-osa.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-12.07"
+catalog_slug = "korenova-pricina"
+catalog_family = "casova-osa"
+catalog_family_code = "12"
+catalog_family_title = "Časová osa"
+catalog_family_en = "Timeline patterns"
+catalog_part = "casova-osa"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Root cause"
+catalog_aliases = ["první událost", "root cause", "hledání první příčiny"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "terapie-casove-osy"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
+catalog_related = ["jedina-pricina", "casova-osa-pojem", "vekova-regrese", "presupozice-ve-vyslechu", "reimprinting", "trauma-a-falesne-vzpominky", "terapie-casove-osy", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "pruchod-casovou-osou", "presvedceni-o-pricine", "imprint"]
+catalog_related_declared = ["trauma-a-falesne-vzpominky", "vekova-regrese", "imprint", "presupozice-ve-vyslechu", "presvedceni-o-pricine", "reimprinting"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md", "kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md", "kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md", "kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/presvedceni/imprint.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md", "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md"]
+catalog_prev = "vlozeni-budouciho-cile"
+catalog_next = "zmena-tvaru-casove-osy"
+catalog_position = 7
+catalog_family_size = 12
+catalog_sources = ["dilts-1990", "gilovich-1991", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/casova-osa.toml"
 +++
 
 # Hledání kořenové příčiny
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-12.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Root cause |
 | **Jiné názvy** | první událost, root cause, hledání první příčiny |
-| **Obecnější vzorec** | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) |
+| **Obecnější heslo** | [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Pro tvrzení, že hledání první události na časové ose má terapeutický �
 
 Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vybaví v uvolněném stavu pod vedením průvodce, je představa, dokud ho nepotvrdí nezávislé zdroje: dokumenty, svědectví jiných lidí, záznamy z doby, kdy se událost měla stát. Druhou obranou je odmítnout presupozici. Na otázku, kdy „to začalo“, je legitimní odpovědět, že to nevíte a že možná žádný jediný začátek není. Nevybavení není překážka, kterou je třeba překonat, ale informace. Třetí obranou je nevyvozovat z vybaveného obsahu závěry o jiných lidech a nerozhodovat na jeho základě o vztazích, dokud jste o něm nemluvili s odborníkem, který s rizikem nepravých vzpomínek počítá. Zotavení po sugestivním hledání příčin je citlivý proces. Člověk může být vzpomínkou hluboce otřesen a zároveň nejistý, zda je pravdivá; potřebuje bezpečný vztah, v němž může obě možnosti držet otevřené, a terapeuta, který mu nevnucuje vlastní výklad a ponechává mu kontrolu nad tím, co a kdy chce zkoumat (Herman 1992). Součástí zotavení je často obnova vztahů s rodinou, které nový výklad narušil, a návrat k důvěře ve vlastní, skutečně zapamatovanou minulost. Kompendium se k tématu vrací na stránkách o [traumatu a falešných vzpomínkách](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) a o [epistemické rekonstrukci](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,34 +126,35 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 
 **Rodina a hierarchie**
 
-- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
-- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – příbuzný vzorec (Ericksonovská hypnóza, Age regression)
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in questioning and testimony)
-- [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – příbuzný vzorec (Disociace, fobie a trauma, Re-imprinting)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzný vzorec (Časová osa, Time Line Therapy)
-- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – příbuzný vzorec (Časová osa, Releasing negative emotions on the timeline)
-- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzný vzorec (Časová osa, Limiting decisions)
-- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – příbuzný vzorec (Časová osa, Timeline walk)
-- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzný vzorec (Přesvědčení, Beliefs about cause)
-- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzný vzorec (Přesvědčení, Imprint)
+- [Jediná příčina](@/kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md) – příbuzné heslo (Argumentační fauly: Kauzální klamy, Fallacy of the single cause)
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzné heslo (Základní pojmy NLP, Timeline (concept))
+- [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – příbuzné heslo (Ericksonovská hypnóza, Age regression)
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in questioning and testimony)
+- [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – příbuzné heslo (Disociace, fobie a trauma, Re-imprinting)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzné heslo (Časová osa, Time Line Therapy)
+- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – příbuzné heslo (Časová osa, Releasing negative emotions on the timeline)
+- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzné heslo (Časová osa, Limiting decisions)
+- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – příbuzné heslo (Časová osa, Timeline walk)
+- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzné heslo (Přesvědčení, Beliefs about cause)
+- [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – příbuzné heslo (Přesvědčení, Imprint)
 
 **V kompendiu**
 
-- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.13 Genealogická rekonstrukce](@/kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.8 Mnemonická rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.13 Genealogická rekonstrukce](@/kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – předchozí vzorec rodiny
-- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – předchozí heslo rodiny
+- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

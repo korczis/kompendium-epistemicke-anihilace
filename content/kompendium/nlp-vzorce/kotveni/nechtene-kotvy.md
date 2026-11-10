@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Nechtěné kotvy a spouštěče", "Unintended anchors and triggers", "spontánní kotvy", "spouštěče", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Nechtěné kotvy a spouštěče", "Unintended anchors and triggers", "spontánní kotvy", "spouštěče", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.17"
-nlp_slug = "nechtene-kotvy"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Unintended anchors and triggers"
-nlp_aliases = ["spontánní kotvy", "spouštěče"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["kotva-pojem", "kotveni", "kolaps-kotev", "auditivni-kotvy", "kotveni-v-kontrolujicich-vztazich", "rychla-lecba-fobie", "trauma-a-falesne-vzpominky"]
-nlp_related_declared = ["kotva-pojem", "kotveni", "kolaps-kotev", "rychla-lecba-fobie", "kotveni-v-kontrolujicich-vztazich", "trauma-a-falesne-vzpominky"]
-nlp_kompendium = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
-nlp_links_prose = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
-nlp_prev = "kotvy-v-reklame"
-nlp_next = "kotveni-v-kontrolujicich-vztazich"
-nlp_position = 17
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "beck-1976", "herman-1992", "lilienfeld-2015", "norcross-2006", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lilienfeld-2015", "norcross-2006", "singer-lalich-1995", "sturt-2012", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.17"
+catalog_slug = "nechtene-kotvy"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Unintended anchors and triggers"
+catalog_aliases = ["spontánní kotvy", "spouštěče"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["kotva-pojem", "kotveni", "kolaps-kotev", "auditivni-kotvy", "kotveni-v-kontrolujicich-vztazich", "rychla-lecba-fobie", "trauma-a-falesne-vzpominky"]
+catalog_related_declared = ["kotva-pojem", "kotveni", "kolaps-kotev", "rychla-lecba-fobie", "kotveni-v-kontrolujicich-vztazich", "trauma-a-falesne-vzpominky"]
+catalog_kompendium = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md", "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+catalog_prev = "kotvy-v-reklame"
+catalog_next = "kotveni-v-kontrolujicich-vztazich"
+catalog_position = 17
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "beck-1976", "herman-1992", "lilienfeld-2015", "norcross-2006", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "sturt-2012", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lilienfeld-2015", "norcross-2006", "singer-lalich-1995", "sturt-2012", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.b.toml"
 +++
 
 # Nechtěné kotvy a spouštěče
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Unintended anchors and triggers |
 | **Jiné názvy** | spontánní kotvy, spouštěče |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -201,7 +204,7 @@ zdůrazňuje roli těla v traumatické paměti. Kdo slyší nabídku rychlého �
 se měl zeptat na kvalifikaci praktika, na doklady účinnosti a na to, co se stane, pokud se
 reakce vrátí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,30 +223,30 @@ reakce vrátí.
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzný vzorec (Kotvení, Collapsing anchors)
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzný vzorec (Kotvení, Auditory and tonal anchors)
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzný vzorec (Kotvení, Anchoring in controlling relationships)
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzné heslo (Kotvení, Collapsing anchors)
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
 
 **V kompendiu**
 
-- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.1.8 Screening traumatického stresu (PCL-5, IES-R, ITQ)](@/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.8 Screening traumatického stresu (PCL-5, IES-R, ITQ)](@/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – předchozí vzorec rodiny
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – předchozí heslo rodiny
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

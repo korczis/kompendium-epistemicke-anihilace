@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Změna přesvědčení přes submodality", "Belief change through submodalities", "belief change pattern", "od přesvědčení k pochybnosti", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Změna přesvědčení přes submodality", "Belief change through submodalities", "belief change pattern", "od přesvědčení k pochybnosti", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.14"
-nlp_slug = "zmena-presvedceni-submodalitami"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Belief change through submodalities"
-nlp_aliases = ["belief change pattern", "od přesvědčení k pochybnosti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "mapovani-napric"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["mapovani-napric", "submodality-pojem"]
-nlp_related = ["kriticke-submodality", "kontrastni-analyza", "mapovani-napric", "prahovy-vzorec", "cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "limitujici-presvedceni", "presvedceni-jako-mapa"]
-nlp_related_declared = ["mapovani-napric", "kontrastni-analyza", "muzeum-starych-presvedceni", "cyklus-zmeny-presvedceni", "limitujici-presvedceni", "presvedceni-jako-mapa"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md", "kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md", "kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md"]
-nlp_prev = "od-libosti-k-nechuti"
-nlp_next = "prahovy-vzorec"
-nlp_position = 14
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.14"
+catalog_slug = "zmena-presvedceni-submodalitami"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Belief change through submodalities"
+catalog_aliases = ["belief change pattern", "od přesvědčení k pochybnosti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "mapovani-napric"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["mapovani-napric", "submodality-pojem"]
+catalog_related = ["kriticke-submodality", "kontrastni-analyza", "mapovani-napric", "prahovy-vzorec", "cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "limitujici-presvedceni", "presvedceni-jako-mapa"]
+catalog_related_declared = ["mapovani-napric", "kontrastni-analyza", "muzeum-starych-presvedceni", "cyklus-zmeny-presvedceni", "limitujici-presvedceni", "presvedceni-jako-mapa"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md", "kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md", "kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md"]
+catalog_prev = "od-libosti-k-nechuti"
+catalog_next = "prahovy-vzorec"
+catalog_position = 14
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Změna přesvědčení přes submodality
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Belief change through submodalities |
 | **Jiné názvy** | belief change pattern, od přesvědčení k pochybnosti |
-| **Obecnější vzorec** | [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) |
+| **Obecnější heslo** | [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ zdůrazňuje, že po zkušenosti kontroly je nutné obnovit právo člověka na 
 (Herman 1992). Terapeut by se v takové situaci měl vyhnout jakékoli technice, která pracuje s
 pocitem jistoty bez ohledu na obsah.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,30 +219,30 @@ pocitem jistoty bez ohledu na obsah.
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
-- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzný vzorec (Submodality, Contrastive analysis)
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzný vzorec (Submodality, Mapping across)
-- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – příbuzný vzorec (Submodality, Threshold pattern)
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief change cycle)
-- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzný vzorec (Přesvědčení, Museum of old beliefs)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzný vzorec (Přesvědčení, Beliefs as part of the map)
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzné heslo (Submodality, Critical (driver) submodalities)
+- [Kontrastní analýza](@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md) – příbuzné heslo (Submodality, Contrastive analysis)
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzné heslo (Submodality, Mapping across)
+- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – příbuzné heslo (Submodality, Threshold pattern)
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief change cycle)
+- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzné heslo (Přesvědčení, Museum of old beliefs)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzné heslo (Přesvědčení, Beliefs as part of the map)
 
 **V kompendiu**
 
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.11 Axiologická inverze](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.11 Axiologická inverze](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – předchozí vzorec rodiny
-- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – předchozí heslo rodiny
+- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

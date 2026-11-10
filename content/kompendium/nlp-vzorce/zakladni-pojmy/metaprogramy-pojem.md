@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Metaprogramy", "Meta-programs (concept)", "metaprogramové vzorce", "LAB profil", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Metaprogramy", "Meta-programs (concept)", "metaprogramové vzorce", "LAB profil", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.31"
-nlp_slug = "metaprogramy-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.c"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Meta-programs (concept)"
-nlp_aliases = ["metaprogramové vzorce", "LAB profil"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["preferovany-reprezentacni-system", "v-case-a-mimo-cas", "k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
-nlp_related_declared = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "metaprogramy-v-naboru", "metaprogramy-v-marketingu", "preferovany-reprezentacni-system"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/organizational-defense/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md", "kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/organizational-defense/_index.md"]
-nlp_prev = "casova-osa-pojem"
-nlp_next = "kotva-pojem"
-nlp_position = 31
-nlp_family_size = 42
-nlp_sources = ["charvet-1997", "cialdini-2009", "gilovich-1991", "hall-bodenhamer-1997", "james-woodsmall-1988", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "gilovich-1991", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.31"
+catalog_slug = "metaprogramy-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.c"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Meta-programs (concept)"
+catalog_aliases = ["metaprogramové vzorce", "LAB profil"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["preferovany-reprezentacni-system", "v-case-a-mimo-cas", "k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
+catalog_related_declared = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "metaprogramy-v-naboru", "metaprogramy-v-marketingu", "preferovany-reprezentacni-system"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/organizational-defense/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md", "kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md", "kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md", "kompendium/organizational-defense/_index.md"]
+catalog_prev = "casova-osa-pojem"
+catalog_next = "kotva-pojem"
+catalog_position = 31
+catalog_family_size = 42
+catalog_sources = ["charvet-1997", "cialdini-2009", "gilovich-1991", "hall-bodenhamer-1997", "james-woodsmall-1988", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "gilovich-1991", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.c.toml"
 +++
 
 # Metaprogramy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.31` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Meta-programs (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -100,7 +103,7 @@ Metaprogramy nebyly podrobeny takovému psychometrickému ověření, jaké se v
 
 Základní obranou je posuzovat nabídku podle obsahu, ne podle toho, jak přesně „sedí“. Pokud mluvčí opakuje vaše vlastní slova a kritéria a staví z nich argumenty pro jeden konkrétní krok, je užitečné se ptát, zda by stejná kritéria nesplnila i jiná možnost a zda o ní mluvčí vůbec mluví. Druhou obranou je všímat si úvodních otázek, které se netýkají věci, ale toho, jak rozhodujete. Na ně není povinnost odpovídat a je legitimní vrátit rozhovor k věcným údajům: ceně, podmínkám, rizikům. Třetí obranou je odstup: rozhodnutí odložené o den ztrácí část vazby na pocit, že nabídka byla „přesně pro mě“. Na úrovni organizací je obranou nepoužívat k výběru a hodnocení lidí nástroje, jejichž spolehlivost a platnost nebyla doložena; kompendium se obraně organizací věnuje v části o [organizační obraně](@/kompendium/organizational-defense/_index.md). Kdo byl na základě takového profilu odmítnut nebo zařazen, má právo vědět, podle čeho se rozhodovalo, a žádat vysvětlení. Pro porozumění mechanismům, které profilování a ladění využívají, je užitečný i přehled [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.md), zejména sklonu potvrzovat očekávání (Gilovich 1991).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -117,49 +120,49 @@ Základní obranou je posuzovat nabídku podle obsahu, ne podle toho, jak přesn
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – zvláštní případ tohoto vzorce
-- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – zvláštní případ tohoto vzorce
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – zvláštní případ tohoto vzorce
-- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – zvláštní případ tohoto vzorce
-- [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – zvláštní případ tohoto vzorce
-- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – zvláštní případ tohoto vzorce
-- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – zvláštní případ tohoto vzorce
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – zvláštní případ tohoto vzorce
-- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – zvláštní případ tohoto vzorce
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – zvláštní případ tohoto vzorce
-- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – zvláštní případ tohoto vzorce
-- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – zvláštní případ tohoto vzorce
-- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – zvláštní případ tohoto vzorce
-- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – zvláštní případ tohoto vzorce
-- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – zvláštní případ tohoto vzorce
-- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – zvláštní případ tohoto vzorce
-- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – zvláštní případ tohoto vzorce
-- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – zvláštní případ tohoto vzorce
-- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – zvláštní případ tohoto vzorce
-- [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – zvláštní případ tohoto vzorce
-- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – zvláštní případ tohoto vzorce
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – zvláštní případ tohoto vzorce
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – zvláštní případ tohoto hesla
+- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – zvláštní případ tohoto hesla
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – zvláštní případ tohoto hesla
+- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – zvláštní případ tohoto hesla
+- [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – zvláštní případ tohoto hesla
+- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – zvláštní případ tohoto hesla
+- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – zvláštní případ tohoto hesla
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – zvláštní případ tohoto hesla
+- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – zvláštní případ tohoto hesla
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – zvláštní případ tohoto hesla
+- [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – zvláštní případ tohoto hesla
+- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – zvláštní případ tohoto hesla
+- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – zvláštní případ tohoto hesla
+- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – zvláštní případ tohoto hesla
+- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – zvláštní případ tohoto hesla
+- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – zvláštní případ tohoto hesla
+- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – zvláštní případ tohoto hesla
+- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – zvláštní případ tohoto hesla
+- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – zvláštní případ tohoto hesla
+- [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – zvláštní případ tohoto hesla
+- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – zvláštní případ tohoto hesla
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – zvláštní případ tohoto hesla
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzný vzorec (Základní pojmy NLP, Preferred representational system)
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzný vzorec (Časová osa, In time and through time)
-- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzný vzorec (Metaprogramy, Toward and away from)
-- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzný vzorec (Metaprogramy, Internal and external reference)
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzný vzorec (Metaprogramy, Meta-programs in recruitment and management)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
+- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzné heslo (Základní pojmy NLP, Preferred representational system)
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzné heslo (Časová osa, In time and through time)
+- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzné heslo (Metaprogramy, Toward and away from)
+- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzné heslo (Metaprogramy, Internal and external reference)
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzné heslo (Metaprogramy, Meta-programs in recruitment and management)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
 
 **V kompendiu**
 
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – předchozí vzorec rodiny
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – předchozí heslo rodiny
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

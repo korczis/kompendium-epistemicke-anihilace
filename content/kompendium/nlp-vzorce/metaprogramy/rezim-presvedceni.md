@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Režim přesvědčení", "Convincer mode", "způsob přesvědčení", "režim přesvědčovatele", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Režim přesvědčení", "Convincer mode", "způsob přesvědčení", "režim přesvědčovatele", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.09"
-nlp_slug = "rezim-presvedceni"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Convincer mode"
-nlp_aliases = ["způsob přesvědčení", "režim přesvědčovatele"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["ano-sada", "presvedcovaci-strategie", "shoda-a-rozdil", "kanal-presvedceni", "hodnoty-pri-koupi", "duvera", "dukazni-procedura"]
-nlp_related_declared = ["kanal-presvedceni", "presvedcovaci-strategie", "dukazni-procedura", "shoda-a-rozdil", "ano-sada"]
-nlp_kompendium = ["kompendium/case-studies/63-investor-cult.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
-nlp_links_prose = ["kompendium/case-studies/63-investor-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md", "kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md", "kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "kanal-presvedceni"
-nlp_next = "ja-a-druzi"
-nlp_position = 9
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "cialdini-2009", "dilts-1980", "festinger-1957", "freedman-fraser-1966", "herman-1992", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "dilts-1980"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "festinger-1957", "freedman-fraser-1966", "herman-1992", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.09"
+catalog_slug = "rezim-presvedceni"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Convincer mode"
+catalog_aliases = ["způsob přesvědčení", "režim přesvědčovatele"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["ano-sada", "presvedcovaci-strategie", "shoda-a-rozdil", "kanal-presvedceni", "hodnoty-pri-koupi", "duvera", "dukazni-procedura"]
+catalog_related_declared = ["kanal-presvedceni", "presvedcovaci-strategie", "dukazni-procedura", "shoda-a-rozdil", "ano-sada"]
+catalog_kompendium = ["kompendium/case-studies/63-investor-cult.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/63-investor-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md", "kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md", "kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "kanal-presvedceni"
+catalog_next = "ja-a-druzi"
+catalog_position = 9
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "cialdini-2009", "dilts-1980", "festinger-1957", "freedman-fraser-1966", "herman-1992", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "dilts-1980"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "festinger-1957", "freedman-fraser-1966", "herman-1992", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.toml"
 +++
 
 # Režim přesvědčení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Convincer mode |
 | **Jiné názvy** | způsob přesvědčení, režim přesvědčovatele |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ selhání nebylo v nich. Herman připomíná, že zotavení po zradě vyžaduje 
 důvěřovat, ne její úplné odmítnutí (Herman 1992). Příbuznou dynamiku nevyvratitelného
 systému popisuje kompendium na stránce o [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,29 +215,29 @@ systému popisuje kompendium na stránce o [imunizaci proti falsifikaci](@/kompe
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzný vzorec (Milton-model, Yes set)
-- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Convincer strategy)
-- [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – příbuzný vzorec (Metaprogramy, Sameness and difference)
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer channel)
-- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzný vzorec (Metaprogramy, Value buying)
-- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – příbuzný vzorec (Metaprogramy, Trust)
-- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzný vzorec (Cíle a výsledky, Evidence procedure)
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – příbuzné heslo (Milton-model, Yes set)
+- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Convincer strategy)
+- [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – příbuzné heslo (Metaprogramy, Sameness and difference)
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer channel)
+- [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzné heslo (Metaprogramy, Value buying)
+- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – příbuzné heslo (Metaprogramy, Trust)
+- [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – příbuzné heslo (Cíle a výsledky, Evidence procedure)
 
 **V kompendiu**
 
-- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – předchozí vzorec rodiny
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – předchozí heslo rodiny
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

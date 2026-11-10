@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Stav vysokého výkonu", "High-performance state", "high performance state", "stav nejvyšší výkonnosti", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Stav vysokého výkonu", "High-performance state", "high performance state", "stav nejvyšší výkonnosti", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.12"
-nlp_slug = "stav-vysokeho-vykonu"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "High-performance state"
-nlp_aliases = ["high performance state", "stav nejvyšší výkonnosti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "novy-kod"
-nlp_narrower = ["periferni-videni"]
-nlp_depth = 1
-nlp_ancestors = ["novy-kod"]
-nlp_related = ["stav", "zdrojovy-stav", "novy-kod", "abecedni-hra", "stav-nevedeni", "periferni-videni", "velke-seminare"]
-nlp_related_declared = ["periferni-videni", "stav-nevedeni", "abecedni-hra", "stav", "zdrojovy-stav", "velke-seminare"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md", "kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md"]
-nlp_prev = "novy-kod"
-nlp_next = "abecedni-hra"
-nlp_position = 12
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "druckman-swets-1988", "gilovich-1991", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "passmore-rowson-2019", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-bostic-2001", "grinder-delozier-1987"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "passmore-rowson-2019", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.12"
+catalog_slug = "stav-vysokeho-vykonu"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "High-performance state"
+catalog_aliases = ["high performance state", "stav nejvyšší výkonnosti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "novy-kod"
+catalog_narrower = ["periferni-videni"]
+catalog_depth = 1
+catalog_ancestors = ["novy-kod"]
+catalog_related = ["stav", "zdrojovy-stav", "novy-kod", "abecedni-hra", "stav-nevedeni", "periferni-videni", "velke-seminare"]
+catalog_related_declared = ["periferni-videni", "stav-nevedeni", "abecedni-hra", "stav", "zdrojovy-stav", "velke-seminare"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md", "kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md"]
+catalog_prev = "novy-kod"
+catalog_next = "abecedni-hra"
+catalog_position = 12
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "druckman-swets-1988", "gilovich-1991", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "passmore-rowson-2019", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-bostic-2001", "grinder-delozier-1987"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "passmore-rowson-2019", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Stav vysokého výkonu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | High-performance state |
 | **Jiné názvy** | high performance state, stav nejvyšší výkonnosti |
-| **Obecnější vzorec** | [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) |
+| **Obecnější heslo** | [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Pro tvrzení, že existuje specifický stav vysokého výkonu s vlastnostmi pops
 
 Základní obranou je oddělit prožitek od rozhodnutí. Silný pocit síly nebo jasnosti na semináři je skutečný prožitek, ale není informací o tom, zda je nabízený kurz dobrou investicí nebo zda se změna udrží. Rozhodnutí o penězích a závazcích je rozumné odkládat na dobu, kdy prožitek odezní, a dělat je mimo prostor, kde působí řečník a skupina. Druhou obranou je ptát se po měřítku. Pokud se tvrdí, že stav zvyšuje výkon, lze se ptát, podle čeho se to pozná, v jakém časovém horizontu a zda existují údaje o lidech, kterým to nepomohlo. Třetí obranou je odmítnout stav jako normu. Únava, pochybnost a pokles výkonu patří k běžnému lidskému fungování a nejsou osobním selháním. U lidí, kteří léta žili v prostředí vyžadujícím trvalé „vrcholové nasazení“, se v klinické praxi objevuje vyčerpání, stud za běžné výkyvy a závislost na vnějším potvrzení. Zotavení zahrnuje obnovu realistických měřítek, odpočinku a vztahů, v nichž hodnota člověka nezávisí na výkonu (Herman 1992). Prevence spočívá v předem získaném povědomí o tom, jak skupinové prostředí a časový tlak ovlivňují úsudek; takové „očkování“ proti přesvědčování snižuje účinek tlaku, když přijde (McGuire 1964).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,30 +126,30 @@ Základní obranou je oddělit prožitek od rozhodnutí. Silný pocit síly nebo
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – zvláštní případ tohoto vzorce
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – příbuzný vzorec (Strategie a modelování, Alphabet game)
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzný vzorec (Strategie a modelování, Know-nothing state)
-- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzný vzorec (Strategie a modelování, Peripheral vision)
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzný vzorec (Vliv a zneužití NLP, Large-group seminars)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – příbuzné heslo (Strategie a modelování, Alphabet game)
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzné heslo (Strategie a modelování, Know-nothing state)
+- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzné heslo (Strategie a modelování, Peripheral vision)
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzné heslo (Vliv a zneužití NLP, Large-group seminars)
 
 **V kompendiu**
 
-- [Scénář K: pokročilá konfigurace – totalizace skrze výkon a roli](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Scénář K: pokročilá konfigurace – totalizace skrze výkon a roli](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – předchozí vzorec rodiny
-- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – předchozí heslo rodiny
+- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

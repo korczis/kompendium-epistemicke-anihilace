@@ -1,0 +1,314 @@
+# Rodina AF-05: Statistické a pravděpodobnostní klamy (pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění. Tato část nese hesla AF-05.01 až AF-05.08.
+
+[[pattern]]
+id = "AF-05.01"
+slug = "zanedbani-zakladni-miry"
+type = "informal"
+cs = "Zanedbání základní míry"
+en = "Base-rate neglect"
+aliases = ["klam základní míry", "přehlížení apriorní pravděpodobnosti"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["klam-zalobce", "klam-konjunkce", "relativni-a-absolutni-riziko", "zavadejici-zivost", "bayesovske-pojeti-klamu", "odvolani-na-anekdotu"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Test na tu vzácnou poruchu má spolehlivost přes devadesát procent a vyšel vám pozitivně, takže je téměř jisté, že ji máte."
+context = "Lékař sděluje výsledek plošného screeningu člověku bez příznaků."
+benign = false
+marker = "Z přesnosti testu se vyvozuje pravděpodobnost nemoci, ale chybí údaj, jak častá je porucha v testované populaci; u vzácné poruchy může být většina pozitivních výsledků falešná."
+response = "Zeptat se na výskyt poruchy u lidí bez příznaků a na podíl falešně pozitivních výsledků a přepočítat výsledek na přirozené četnosti, například na tisíc vyšetřených."
+
+[[pattern.trainer]]
+utterance = "Popis pachatele sedí na studenta informatiky, takže to skoro jistě byl někdo z té malé skupiny programátorů, ne z celé fakulty."
+context = "Interní šetření úniku dat na velké fakultě s několika obory."
+benign = false
+marker = "Podobnost popisu se stereotypem nahrazuje úvahu o tom, kolik lidí z každé skupiny vůbec připadá v úvahu; velikost skupin se do úsudku nedostane."
+response = "Požadovat odhad velikosti obou skupin a teprve potom posoudit, o kolik je popis u jedné skupiny pravděpodobnější než u druhé."
+
+[[pattern.trainer]]
+utterance = "Pozitivní screening u nás znamená jen to, že vás pozveme na přesnější vyšetření; u lidí bez příznaků je většina pozitivních nálezů nakonec falešná."
+context = "Lékařka vysvětluje pacientovi, co znamená pozitivní výsledek screeningu."
+benign = true
+marker = "Mluvčí výslovně spojuje přesnost testu s výskytem nemoci v populaci a výsledek podává jako důvod k dalšímu ověření, ne jako diagnózu."
+response = "Jde o správnou úvahu: základní míra se bere v potaz a pozitivní výsledek se interpretuje jako zvýšení pravděpodobnosti, které je třeba ověřit."
+
+[[pattern]]
+id = "AF-05.02"
+slug = "klam-konjunkce"
+type = "informal"
+cs = "Klam konjunkce"
+en = "Conjunction fallacy"
+aliases = ["konjunkční klam", "problém Lindy"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["zanedbani-zakladni-miry", "zakon-malych-cisel", "kluzky-svah", "zavadejici-zivost", "klam-zalobce"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Je nepravděpodobné, že by šlo jen o náhodnou chybu v účetnictví. Mnohem pravděpodobnější je, že ředitel peníze vyvedl, zatajil to před auditorem a pak nechal přepsat zápisy."
+context = "Komentář k nesrovnalosti v hospodaření obce na diskusním fóru."
+benign = false
+marker = "Podrobnější příběh složený z několika samostatných kroků se prohlašuje za pravděpodobnější než jeho jednodušší část, ačkoli každý přidaný krok pravděpodobnost celku snižuje."
+response = "Rozložit příběh na jednotlivá tvrzení, u každého se ptát na doklad a připomenout, že souběh všech kroků nemůže být pravděpodobnější než kterýkoli z nich."
+
+[[pattern.trainer]]
+utterance = "Ten scénář dává smysl: nejdřív výpadek elektřiny, pak selhání záložních zdrojů a nakonec chyba obsluhy. Na tohle se musíme připravit víc než na obyčejný výpadek."
+context = "Porada krizového týmu nemocnice o plánu kontinuity provozu."
+benign = false
+marker = "Soudržnost a názornost řetězce událostí se zaměňuje za jeho pravděpodobnost; samotný výpadek je nutně nejméně stejně pravděpodobný jako výpadek spolu s dalšími selháními."
+response = "Odlišit, jak závažný je scénář, od toho, jak je pravděpodobný, a plánovat nejprve pro jednodušší a častější událost, která je v řetězci obsažena."
+
+[[pattern.trainer]]
+utterance = "Každá další podmínka, kterou do hypotézy přidáme, ji dělá méně pravděpodobnou, i když zní věrohodněji. Ověřme nejdřív samotný únik dat a pak teprve, kdo za ním stál."
+context = "Analytik bezpečnostního týmu shrnuje hypotézy o incidentu."
+benign = true
+marker = "Mluvčí výslovně uplatňuje pravidlo konjunkce a odděluje přesvědčivost příběhu od jeho pravděpodobnosti."
+response = "Jde o správnou úvahu: hypotéza se rozkládá na části a ověřuje se nejprve ta obecnější, která je nutně nejméně stejně pravděpodobná."
+
+[[pattern]]
+id = "AF-05.03"
+slug = "hracsky-klam"
+type = "informal"
+cs = "Hráčský klam"
+en = "Gambler's fallacy"
+aliases = ["Monte Carlo klam", "klam zralosti šancí"]
+use = "dvoji"
+risk = "stredni"
+broader = "zakon-malych-cisel"
+related = ["horka-ruka", "zakon-malych-cisel", "klam-regrese", "magicke-mysleni", "texasky-strelec"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Červená padla už sedmkrát po sobě, teď musí přijít černá. Kdo vsadí teď, má výhodu."
+context = "Návštěvník kasina komentuje sérii u rulety."
+benign = false
+marker = "Nezávislé pokusy se chápou jako by si pamatovaly minulost a vyrovnávaly odchylky; série má podle mluvčího měnit pravděpodobnost dalšího výsledku."
+response = "Připomenout, že kolo nemá paměť a že pravděpodobnost dalšího výsledku je u férové rulety stejná jako před sérií; vyrovnávání platí jen pro podíly ve velmi dlouhých řadách."
+
+[[pattern.trainer]]
+utterance = "Máme tři holky, takže čtvrté dítě bude skoro jistě kluk, to by jinak byla moc velká náhoda."
+context = "Rozhovor v rodině o plánování dalšího dítěte."
+benign = false
+marker = "Předchozí výsledky nezávislých událostí se berou jako důvod, proč má příští výsledek vyrovnat poměr."
+response = "Uvést, že pohlaví dalšího dítěte na pohlaví sourozenců prakticky nezávisí a že nepravděpodobnost celé série neříká nic o dalším jednotlivém výsledku."
+
+[[pattern.trainer]]
+utterance = "Tenhle stroj se po třech poruchách za týden nejspíš porouchá znovu; opotřebení se sčítá, takže minulost tu o budoucnosti něco říká."
+context = "Technik údržby hodnotí stav lisovací linky."
+benign = true
+marker = "Mluvčí uvádí mechanismus, který události skutečně propojuje, takže nejde o nezávislé pokusy a úvaha z minulosti je oprávněná."
+response = "Jde o rozumnou úvahu: hráčský klam se týká nezávislých událostí, kdežto u opotřebení je souvislost mezi poruchami doložitelná."
+
+[[pattern]]
+id = "AF-05.04"
+slug = "horka-ruka"
+type = "informal"
+cs = "Horká ruka"
+en = "Hot-hand fallacy"
+aliases = ["klam horké ruky", "víra v sérii"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["hracsky-klam", "zakon-malych-cisel", "texasky-strelec", "klam-regrese", "magicke-mysleni"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten fond vydělal tři roky po sobě víc než trh, správce má zjevně šťastnou ruku. Přesuňte tam všechno, dokud mu to jde."
+context = "Rozhovor dvou známých o investicích na rodinné oslavě."
+benign = false
+marker = "Krátká řada úspěchů se bere jako důkaz trvalé schopnosti nebo stavu, který bude pokračovat, bez srovnání s tím, jak často by podobná řada vznikla náhodou."
+response = "Zeptat se, kolik fondů mělo podobnou řadu čistě náhodou a jak se jim vedlo potom, a požadovat delší a ověřitelnou historii místo série."
+
+[[pattern.trainer]]
+utterance = "Ta vyšetřovatelka vyřešila poslední čtyři případy, má teď formu. Ten nový jí dejte, ona v tom něco najde i bez dalších podkladů."
+context = "Vedoucí oddělení rozděluje spisy."
+benign = false
+marker = "Série úspěchů se vydává za stav, který má sám o sobě zaručit další úspěch, a nahrazuje posouzení konkrétního případu a podkladů."
+response = "Oddělit hodnocení schopností, které má doložit delší záznam, od hodnocení podkladů nového případu, které série nijak nenahrazuje."
+
+[[pattern.trainer]]
+utterance = "U střelby z místa se nám zásahy po sobě opravdu mírně shlukují, ale efekt je malý a měřili jsme ho na stovkách pokusů, ne na jednom zápase."
+context = "Trenér basketbalového týmu interpretuje data z tréninku."
+benign = true
+marker = "Mluvčí rozlišuje skutečnou, změřenou závislost od dojmu ze série a uvádí velikost vzorku i velikost efektu."
+response = "Jde o legitimní úvahu: tvrzení o závislosti se opírá o data a nepřeceňuje se; klam spočívá v dojmu bez takového ověření."
+
+[[pattern]]
+id = "AF-05.05"
+slug = "zkresleni-preziti"
+type = "informal"
+cs = "Zkreslení přežitím"
+en = "Survivorship bias"
+aliases = ["klam přeživších", "chyba přeživšího"]
+use = "dvoji"
+risk = "vysoke"
+broader = "zkresleny-vyber"
+related = ["zkresleny-vyber", "vyber-tresnicek", "zamlceni-dukazu", "odvolani-na-anekdotu", "ukvapene-zobecneni", "velke-seminare"]
+kompendium = [
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podívejte se na naše absolventy, kteří dnes vydělávají miliony. Všichni prošli tímhle kurzem, takže ten kurz funguje."
+context = "Prodejní prezentace drahého programu osobního rozvoje."
+benign = false
+marker = "Hodnotí se jen ti, kdo uspěli a jsou vidět; o absolventech, kterým se nedaří, a o lidech s podobným úspěchem bez kurzu se mlčí."
+response = "Ptát se, kolik lidí kurzem prošlo celkem, jak se vede těm, kteří nejsou v prezentaci, a zda existuje srovnání se skupinou bez kurzu."
+
+[[pattern.trainer]]
+utterance = "Staré domy stály sto let, kdežto dnešní stavby se rozpadají. Dřív se prostě stavělo líp."
+context = "Debata o kvalitě stavebnictví v místním zpravodaji."
+benign = false
+marker = "Srovnávají se stavby, které přečkaly dlouhou dobu, s celou dnešní výstavbou; zbořené a zchátralé staré domy ve srovnání chybějí."
+response = "Upozornit, že dnes vidíme jen ty staré domy, které přežily, a že spravedlivé srovnání by zahrnovalo i to, co se mezitím zbořilo nebo rozpadlo."
+
+[[pattern.trainer]]
+utterance = "Do analýzy zahrneme i firmy, které mezitím zanikly; jinak bychom porovnávali jen ty úspěšné a výsledek by vyšel přehnaně dobře."
+context = "Ekonomka připravuje studii výkonnosti začínajících podniků."
+benign = true
+marker = "Mluvčí výslovně počítá s neviditelnými případy, které vypadly ze souboru, a zahrnuje je do hodnocení."
+response = "Jde o správný postup: soubor obsahuje i neúspěšné případy, takže závěr se neopírá jen o přeživší."
+
+[[pattern]]
+id = "AF-05.06"
+slug = "zkresleny-vyber"
+type = "informal"
+cs = "Zkreslený výběr"
+en = "Sampling bias"
+aliases = ["nereprezentativní vzorek", "výběrové zkreslení"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["zkresleni-preziti", "ukvapene-zobecneni", "vyber-tresnicek", "ekologicky-klam", "zakon-malych-cisel", "ad-populum"]
+kompendium = [
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "V naší online anketě se pro zrušení zákona vyslovilo devět z deseti hlasujících, takže to je jasná vůle národa."
+context = "Příspěvek na webu zájmového sdružení, které anketu samo šířilo mezi příznivci."
+benign = false
+marker = "Vzorek se sám vybral z okruhu, který anketu šířil; z takového souboru se usuzuje na celou populaci."
+response = "Ptát se, kdo měl k anketě přístup, kdo na ni upozorňoval a jak se odpovídající liší od populace; samovýběr nelze vyvážit počtem hlasů."
+
+[[pattern.trainer]]
+utterance = "Ze všech pacientů, kteří k nám přišli s bolestí zad, mělo devadesát procent změny na snímku, takže změny na snímku bolest způsobují."
+context = "Lékař specializované kliniky v rozhovoru pro časopis."
+benign = false
+marker = "Závěr o celé populaci se opírá o soubor lidí, kteří se na kliniku dostali právě kvůli potížím; chybí údaj, jak časté jsou stejné nálezy u lidí bez bolesti."
+response = "Požadovat srovnání se skupinou bez potíží a upozornit, že výběr přes specializované pracoviště předem mění složení souboru."
+
+[[pattern.trainer]]
+utterance = "Výsledek platí pro naše respondenty z velkých měst; venkovské obyvatele jsme nezastihli dost, takže o celé zemi zatím nic netvrdíme."
+context = "Sociolog prezentuje výsledky dotazníkového šetření."
+benign = true
+marker = "Mluvčí vymezuje populaci, na kterou lze závěr přenést, podle toho, jak byl vzorek skutečně získán."
+response = "Jde o legitimní úvahu: závěr se omezuje na skupinu, kterou vzorek zastupuje, a mezera ve výběru se otevřeně přiznává."
+
+[[pattern]]
+id = "AF-05.07"
+slug = "zakon-malych-cisel"
+type = "informal"
+cs = "Zákon malých čísel"
+en = "Law of small numbers"
+aliases = ["víra v zákon malých čísel", "necitlivost k velikosti vzorku"]
+use = "chyba"
+risk = "stredni"
+broader = ""
+related = ["ukvapene-zobecneni", "hracsky-klam", "horka-ruka", "jeden-studie", "hledani-jinde", "zkresleny-vyber"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "V pilotní studii s dvanácti pacienty lék fungoval skvěle, takže velká studie je jen formalita a výsledek bude stejný."
+context = "Vedoucí výzkumného týmu žádá o financování navazující studie."
+benign = false
+marker = "Malý vzorek se bere jako věrný obraz populace a výsledek pilotu jako téměř jistá předpověď replikace."
+response = "Upozornit, že malé vzorky kolísají silně a že výsledky pilotních studií se ve větších studiích často zmenšují nebo mizí; replikace není formalita."
+
+[[pattern.trainer]]
+utterance = "Nejvyšší výskyt té nemoci mají dvě malé vesnice v kraji, tam musí být něco ve vodě."
+context = "Článek regionálního deníku o mapě nemocnosti."
+benign = false
+marker = "Krajní hodnoty se objevují u malých souborů už proto, že malé soubory víc kolísají; vysvětlení se hledá dřív, než se zváží velikost souboru."
+response = "Zeptat se, zda mají malé obce i nejnižší výskyt, a porovnat údaje za delší období; pokud ano, jde spíš o kolísání malých čísel než o místní příčinu."
+
+[[pattern.trainer]]
+utterance = "Je to slibné, ale na dvaceti lidech to nic neprokazuje. Dokud to nezopakuje jiný tým na větším souboru, beru to jen jako hypotézu."
+context = "Recenzentka komentuje nový výsledek na oborovém semináři."
+benign = true
+marker = "Mluvčí výslovně váže důvěru ve výsledek na velikost vzorku a na nezávislou replikaci."
+response = "Jde o správnou úvahu: výsledek malého vzorku se bere jako hypotéza, která potřebuje ověření."
+
+[[pattern]]
+id = "AF-05.08"
+slug = "klam-zalobce"
+type = "informal"
+cs = "Klam žalobce"
+en = "Prosecutor's fallacy"
+aliases = ["záměna podmíněných pravděpodobností", "obrácená podmíněná pravděpodobnost"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["klam-obhajce", "zanedbani-zakladni-miry", "klam-konjunkce", "relativni-a-absolutni-riziko", "hledani-jinde"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Shodný profil má jen jeden člověk z milionu. Pravděpodobnost, že obžalovaný je nevinný, je tedy jedna ku milionu."
+context = "Závěrečná řeč v trestní věci, v níž je hlavním důkazem shoda biologické stopy."
+benign = false
+marker = "Pravděpodobnost shody u náhodného nevinného člověka se vydává za pravděpodobnost neviny obžalovaného; chybí úvaha, kolik lidí v populaci by profil sdílelo."
+response = "Rozlišit pravděpodobnost shody za předpokladu neviny od pravděpodobnosti neviny za předpokladu shody a zeptat se, kolik lidí připadalo v úvahu a co dalšího obžalovaného s činem spojuje."
+
+[[pattern.trainer]]
+utterance = "Pokud by matka byla nevinná, bylo by dvojí úmrtí dětí v rodině extrémně nepravděpodobné. Proto je téměř jisté, že vinná je."
+context = "Znalecký výklad v řízení o úmrtí dvou kojenců."
+benign = false
+marker = "Nízká pravděpodobnost události za předpokladu neviny se převrací v nízkou pravděpodobnost neviny; alternativní vysvětlení, která jsou také vzácná, se neporovnávají."
+response = "Požadovat srovnání pravděpodobnosti události za obou hypotéz, ne jen za jedné, a ověřit, zda jsou dílčí události skutečně nezávislé."
+
+[[pattern.trainer]]
+utterance = "Shoda stopy říká, jak vzácný profil je. Nakolik to obžalovaného usvědčuje, závisí na dalších důkazech a na tom, kolik lidí mohlo být na místě."
+context = "Soudní znalkyně vysvětluje senátu význam výsledku analýzy DNA."
+benign = true
+marker = "Znalkyně odděluje vzácnost profilu od pravděpodobnosti viny a ponechává hodnocení celku soudu."
+response = "Jde o správný výklad: statistický údaj se podává ve své podmíněné podobě a nepřevrací se v závěr o vině."

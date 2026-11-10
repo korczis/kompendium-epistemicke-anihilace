@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Kotvení v NLP a efekt ukotvení", "NLP anchoring versus the anchoring heuristic", "heuristika ukotvení a přizpůsobení", "efekt kotvy", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Kotvení v NLP a efekt ukotvení", "NLP anchoring versus the anchoring heuristic", "heuristika ukotvení a přizpůsobení", "efekt kotvy", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.19"
-nlp_slug = "kotveni-versus-ukotveni-odhadu"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "NLP anchoring versus the anchoring heuristic"
-nlp_aliases = ["heuristika ukotvení a přizpůsobení", "efekt kotvy"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["kotva-pojem", "kontrastni-ramec", "kotveni", "nlp-v-prodeji", "neuro-zargon", "stav-dukazu-nlp", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["kotveni", "kotva-pojem", "neuro-zargon", "jak-cist-tvrzeni-nlp", "stav-dukazu-nlp", "nlp-v-prodeji"]
-nlp_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
-nlp_prev = "kotveni-v-kontrolujicich-vztazich"
-nlp_next = ""
-nlp_position = 19
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "pavlov-1927", "roderique-davies-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "roderique-davies-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Proč na rozlišení záleží", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.19"
+catalog_slug = "kotveni-versus-ukotveni-odhadu"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "NLP anchoring versus the anchoring heuristic"
+catalog_aliases = ["heuristika ukotvení a přizpůsobení", "efekt kotvy"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["kotva-pojem", "kontrastni-ramec", "kotveni", "nlp-v-prodeji", "neuro-zargon", "stav-dukazu-nlp", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["kotveni", "kotva-pojem", "neuro-zargon", "jak-cist-tvrzeni-nlp", "stav-dukazu-nlp", "nlp-v-prodeji"]
+catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
+catalog_prev = "kotveni-v-kontrolujicich-vztazich"
+catalog_next = ""
+catalog_position = 19
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "pavlov-1927", "roderique-davies-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "roderique-davies-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Proč na rozlišení záleží", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.b.toml"
 +++
 
 # Kotvení v NLP a efekt ukotvení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | NLP anchoring versus the anchoring heuristic |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/kotveni.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ Pro odborníky a vzdělavatele plyne z této stránky požadavek terminologické
 slovo kotvení vždy s vyjasněním, o který jev jde, a nepřenášet důvěryhodnost jednoho na
 druhý.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,27 +220,27 @@ druhý.
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzný vzorec (Reframing a rámce, Contrast frame)
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzný vzorec (Kotvení, Anchoring)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)
-- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, State of the evidence on NLP)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzné heslo (Reframing a rámce, Contrast frame)
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – příbuzné heslo (Kotvení, Anchoring)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (Vliv a zneužití NLP, Neuro-jargon)
+- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, State of the evidence on NLP)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

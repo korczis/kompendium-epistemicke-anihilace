@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Zkušenost má strukturu", "Experience has a structure", "struktura subjektivní zkušenosti", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Zkušenost má strukturu", "Experience has a structure", "struktura subjektivní zkušenosti", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.16"
-nlp_slug = "zkusenost-ma-strukturu"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Experience has a structure"
-nlp_aliases = ["struktura subjektivní zkušenosti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["zkusenost-je-kodovana-smysly"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["modelovatelnost-excelence", "submodality-pojem", "strategie-pojem", "tote-model", "hluboka-a-povrchova-struktura"]
-nlp_related_declared = ["strategie-pojem", "tote-model", "submodality-pojem", "modelovatelnost-excelence", "hluboka-a-povrchova-struktura"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md"]
-nlp_prev = "volba-je-lepsi-nez-zadna-volba"
-nlp_next = "zkusenost-je-kodovana-smysly"
-nlp_position = 16
-nlp_family_size = 21
-nlp_sources = ["bandler-1985", "bandler-grinder-1975", "beck-1976", "chomsky-1965", "dilts-1980", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "miller-galanter-pribram-1960", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "bandler-grinder-1975", "dilts-1980"]
-nlp_sources_roots = ["chomsky-1965", "miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.16"
+catalog_slug = "zkusenost-ma-strukturu"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Experience has a structure"
+catalog_aliases = ["struktura subjektivní zkušenosti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["zkusenost-je-kodovana-smysly"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["modelovatelnost-excelence", "submodality-pojem", "strategie-pojem", "tote-model", "hluboka-a-povrchova-struktura"]
+catalog_related_declared = ["strategie-pojem", "tote-model", "submodality-pojem", "modelovatelnost-excelence", "hluboka-a-povrchova-struktura"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md"]
+catalog_prev = "volba-je-lepsi-nez-zadna-volba"
+catalog_next = "zkusenost-je-kodovana-smysly"
+catalog_position = 16
+catalog_family_size = 21
+catalog_sources = ["bandler-1985", "bandler-grinder-1975", "beck-1976", "chomsky-1965", "dilts-1980", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "miller-galanter-pribram-1960", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "bandler-grinder-1975", "dilts-1980"]
+catalog_sources_roots = ["chomsky-1965", "miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Zkušenost má strukturu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Experience has a structure |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ uznáním jeho obsahu a zajištěním bezpečí, v němž lze o prožitku mluvit
 kognitivní souvislosti v kapitole o
 [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -219,26 +222,26 @@ kognitivní souvislosti v kapitole o
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – zvláštní případ tohoto vzorce
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzný vzorec (Předpoklady NLP, Excellence can be modelled)
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzný vzorec (Základní pojmy NLP, Deep and surface structure)
+- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzné heslo (Předpoklady NLP, Excellence can be modelled)
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzné heslo (Základní pojmy NLP, Submodalities (concept))
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzné heslo (Základní pojmy NLP, Deep and surface structure)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – předchozí vzorec rodiny
-- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – předchozí heslo rodiny
+- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

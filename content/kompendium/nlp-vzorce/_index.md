@@ -12,7 +12,13 @@ tags = ["nlp", "kompendium"]
 categories = ["academic", "reference"]
 section_icon = "🗣️"
 toc = true
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "cialdini-2009", "dilts-1999", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "heap-1988", "korzybski-1933", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "vaknin-2008", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+lang = "cs"
+schema_type = "DefinedTermSet"
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_size = 414
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "cialdini-2009", "dilts-1999", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "heap-1988", "korzybski-1933", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "vaknin-2008", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # NLP vzorce
@@ -135,7 +141,7 @@ recenze uvádí identifikační tabulka každé stránky. Kde si pisatel nebyl j
 dílo tvrdí, formuloval výrok obecně, místo aby zdroj dotvářel, jak to vyžaduje pravidlo
 ověřitelných zdrojů celé knihy.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Rodiny katalogu
 
@@ -164,7 +170,7 @@ ověřitelných zdrojů celé knihy.
 | `NLP-21` | [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) | Influence and misuse of NLP | 20 |
 | `NLP-22` | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) | Critical appraisal of NLP | 14 |
 
-Katalog má 414 hesel: 129 × pojem, 22 × princip, 263 × vzorec. Čísla odvozuje scripts/nlp-catalog.py z katalogu při každém sestavení.
+Katalog má 414 hesel: 129 × pojem, 22 × princip, 263 × vzorec. 1 z nich má v knize jinou kanonickou stránku a katalog na ni odkazuje. Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.
 
 ## Literatura
 
@@ -195,7 +201,8 @@ Katalog má 414 hesel: 129 × pojem, 22 × princip, 263 × vzorec. Čísla odvoz
 
 ## Související
 
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – interaktivní procvičení rozpoznání vzorců na příkladech výroků
+- [Trenér rozpoznávání](@/kompendium/trener.md) – interaktivní procvičení rozpoznání hesel všech katalogů
+- [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) – další katalog knihy, propojený s tímto vazbami mezi hesly
 - [Kompendium](@/kompendium/_index.md) – celá kniha, do níž katalog patří
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

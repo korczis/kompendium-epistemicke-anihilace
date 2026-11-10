@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vnitřní dialog", "Internal dialogue", "vnitřní řeč", "vnitřní hlas", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Vnitřní dialog", "Internal dialogue", "vnitřní řeč", "vnitřní hlas", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.38"
-nlp_slug = "vnitrni-dialog"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.d"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Internal dialogue"
-nlp_aliases = ["vnitřní řeč", "vnitřní hlas"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["auditivni-system", "auditivne-digitalni-system", "uptime-a-downtime", "auditivni-submodality", "auditivni-swish", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace", "abecedni-hra", "stav-nevedeni", "smyckove-strategie"]
-nlp_related_declared = ["auditivne-digitalni-system", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace", "uptime-a-downtime"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
-nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md"]
-nlp_prev = "modelovani-pojem"
-nlp_next = "uptime-a-downtime"
-nlp_position = 38
-nlp_family_size = 42
-nlp_sources = ["bandler-1985", "beck-1976", "dilts-1980", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-1985", "dilts-1980"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.38"
+catalog_slug = "vnitrni-dialog"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.d"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Internal dialogue"
+catalog_aliases = ["vnitřní řeč", "vnitřní hlas"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["auditivni-system", "auditivne-digitalni-system", "uptime-a-downtime", "auditivni-submodality", "auditivni-swish", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace", "abecedni-hra", "stav-nevedeni", "smyckove-strategie"]
+catalog_related_declared = ["auditivne-digitalni-system", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace", "uptime-a-downtime"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md"]
+catalog_prev = "modelovani-pojem"
+catalog_next = "uptime-a-downtime"
+catalog_position = 38
+catalog_family_size = 42
+catalog_sources = ["bandler-1985", "beck-1976", "dilts-1980", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-1985", "dilts-1980"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.d.toml"
 +++
 
 # Vnitřní dialog
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.38` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Internal dialogue |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -201,7 +204,7 @@ rozhodnutí o jejich pravdivosti na klientovi (Beck 1976). U lidí, kteří se n
 pochybnosti naučenými formulemi, je součástí zotavení i to, že se jim pochybnost znovu
 stane bezpečnou (Hassan 1988).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,31 +223,31 @@ stane bezpečnou (Hassan 1988).
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory representational system)
-- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory digital system)
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzný vzorec (Základní pojmy NLP, Uptime and downtime)
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzný vzorec (Submodality, Auditory submodalities)
-- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzný vzorec (Submodality, Auditory swish)
-- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzný vzorec (Submodality, Changing the inner voice)
-- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzný vzorec (Submodality, Inner critic pattern)
-- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – příbuzný vzorec (Strategie a modelování, Alphabet game)
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzný vzorec (Strategie a modelování, Know-nothing state)
-- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – příbuzný vzorec (Strategie a modelování, Looping strategies)
+- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory representational system)
+- [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzné heslo (Základní pojmy NLP, Auditory digital system)
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzné heslo (Základní pojmy NLP, Uptime and downtime)
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzné heslo (Submodality, Auditory submodalities)
+- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – příbuzné heslo (Submodality, Auditory swish)
+- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzné heslo (Submodality, Changing the inner voice)
+- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzné heslo (Submodality, Inner critic pattern)
+- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – příbuzné heslo (Strategie a modelování, Alphabet game)
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzné heslo (Strategie a modelování, Know-nothing state)
+- [Smyčkové strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md) – příbuzné heslo (Strategie a modelování, Looping strategies)
 
 **V kompendiu**
 
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.8 Rekurzivní spirála pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.4 Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.8 Rekurzivní spirála pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.4 Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – předchozí vzorec rodiny
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – předchozí heslo rodiny
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

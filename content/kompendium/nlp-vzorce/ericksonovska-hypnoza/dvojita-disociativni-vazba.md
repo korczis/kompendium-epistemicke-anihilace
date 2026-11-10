@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Dvojitá disociativní vazba", "Double dissociation double bind", "dvojná disociační vazba", "Ericksonovská hypnóza", "NLP", "neurolingvistické programování"]
+keywords = ["Dvojitá disociativní vazba", "Double dissociation double bind", "dvojná disociační vazba", "Ericksonovská hypnóza", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-05.19"
-nlp_slug = "dvojita-disociativni-vazba"
-nlp_family = "ericksonovska-hypnoza"
-nlp_family_code = "05"
-nlp_family_title = "Ericksonovská hypnóza"
-nlp_family_en = "Ericksonian hypnosis"
-nlp_part = "ericksonovska-hypnoza.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Double dissociation double bind"
-nlp_aliases = ["dvojná disociační vazba"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "terapeuticka-dvojna-vazba"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["terapeuticka-dvojna-vazba", "ericksonovska-hypnoza"]
-nlp_related = ["disociace", "konfuzni-technika", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "indukce-pretizenim", "amnezie-sugesci", "dvojita-disociace"]
-nlp_related_declared = ["vedome-nevedoma-dvojna-vazba", "konfuzni-technika", "disociace", "indukce-pretizenim", "amnezie-sugesci"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
-nlp_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
-nlp_prev = "vedome-nevedoma-dvojna-vazba"
-nlp_next = "apozice-protikladu"
-nlp_position = 19
-nlp_family_size = 28
-nlp_sources = ["bandler-grinder-1975b", "bateson-1972", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "miller-1956", "petty-cacioppo-1986", "singer-lalich-1995", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
-nlp_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "miller-1956", "watzlawick-1967"]
-nlp_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k dalším vazbám", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/ericksonovska-hypnoza.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-05.19"
+catalog_slug = "dvojita-disociativni-vazba"
+catalog_family = "ericksonovska-hypnoza"
+catalog_family_code = "05"
+catalog_family_title = "Ericksonovská hypnóza"
+catalog_family_en = "Ericksonian hypnosis"
+catalog_part = "ericksonovska-hypnoza.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Double dissociation double bind"
+catalog_aliases = ["dvojná disociační vazba"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "terapeuticka-dvojna-vazba"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["terapeuticka-dvojna-vazba", "ericksonovska-hypnoza"]
+catalog_related = ["disociace", "konfuzni-technika", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "indukce-pretizenim", "amnezie-sugesci", "dvojita-disociace"]
+catalog_related_declared = ["vedome-nevedoma-dvojna-vazba", "konfuzni-technika", "disociace", "indukce-pretizenim", "amnezie-sugesci"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
+catalog_prev = "vedome-nevedoma-dvojna-vazba"
+catalog_next = "apozice-protikladu"
+catalog_position = 19
+catalog_family_size = 28
+catalog_sources = ["bandler-grinder-1975b", "bateson-1972", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "miller-1956", "petty-cacioppo-1986", "singer-lalich-1995", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "miller-1956", "watzlawick-1967"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k dalším vazbám", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
 +++
 
 # Dvojitá disociativní vazba
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-05.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Double dissociation double bind |
 | **Jiné názvy** | dvojná disociační vazba |
-| **Obecnější vzorec** | [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) |
+| **Obecnější heslo** | [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -85,7 +88,7 @@ pracuje se dvěma osami, a „disociativní“, protože každá nabízená mož
 jedné složky zkušenosti od druhé. Neurolingvistické programování ji zařadilo mezi dvojné
 vazby Miltonova modelu (Bandler a Grinder 1975b). Pro kompendium je vzorec významný ze dvou
 důvodů. Jeho složitost přetěžuje posluchače, takže se těžko rozpozná, a jeho cíl, rozpojení
-prožitku, se dotýká [disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md), tedy
+prožitku, se dotýká [disociace](@/glossary/disociace.md), tedy
 jevu, který je u traumatizovaných lidí klinicky citlivý.
 
 ## Původ a souvislosti
@@ -199,7 +202,7 @@ stabilizaci a obnovu bezpečí jako první fázi zotavení, bez níž další pr
 (Herman 1992). Klinik by měl u každého klienta, který přichází s takovou zkušeností, zvážit
 screening disociativních obtíží.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,28 +225,28 @@ screening disociativních obtíží.
 
 **Rodina a hierarchie**
 
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzný vzorec (Ericksonovská hypnóza, Confusion technique)
-- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Therapeutic double bind)
-- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Conscious–unconscious double bind)
-- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzný vzorec (Ericksonovská hypnóza, Overload induction)
-- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzný vzorec (Ericksonovská hypnóza, Suggested amnesia)
-- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzný vzorec (Disociace, fobie a trauma, Double dissociation)
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – příbuzné heslo (Ericksonovská hypnóza, Confusion technique)
+- [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Therapeutic double bind)
+- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – příbuzné heslo (Ericksonovská hypnóza, Conscious–unconscious double bind)
+- [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – příbuzné heslo (Ericksonovská hypnóza, Overload induction)
+- [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – příbuzné heslo (Ericksonovská hypnóza, Suggested amnesia)
+- [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzné heslo (Disociace, fobie a trauma, Double dissociation)
 
 **V kompendiu**
 
-- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.1.8 Disociativní spektrum assessment](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.1.8 Disociativní spektrum assessment](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – předchozí vzorec rodiny
-- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – předchozí heslo rodiny
+- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

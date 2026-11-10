@@ -1,5 +1,5 @@
-# Rodina NLP-03: Meta-model, část b (NLP-03.10 až NLP-03.17; pravidlo project.nlp-catalog;
-# schéma v scripts/nlp-catalog.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se
+# Rodina NLP-03: Meta-model, část b (NLP-03.10 až NLP-03.17; pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se
 # po zveřejnění nemění.
 
 [[pattern]]

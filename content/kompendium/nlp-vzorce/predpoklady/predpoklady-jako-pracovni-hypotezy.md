@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Předpoklady jako pracovní hypotézy", "Presuppositions as working assumptions", "jednat, jako by předpoklady platily", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Předpoklady jako pracovní hypotézy", "Presuppositions as working assumptions", "jednat, jako by předpoklady platily", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.20"
-nlp_slug = "predpoklady-jako-pracovni-hypotezy"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady.b"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "Presuppositions as working assumptions"
-nlp_aliases = ["jednat, jako by předpoklady platily"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mapa-neni-uzemi", "ramec-jako-by", "stav-dukazu-nlp", "nlp-jako-pseudoveda", "falzifikovatelnost-nlp", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["mapa-neni-uzemi", "falzifikovatelnost-nlp", "jak-cist-tvrzeni-nlp", "ramec-jako-by", "nlp-jako-pseudoveda"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/critical-perspectives/_index.md"]
-nlp_links_prose = ["kompendium/critical-perspectives/_index.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
-nlp_prev = "ekologie-zmeny"
-nlp_next = "odpovednost-za-komunikaci"
-nlp_position = 20
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1975", "dilts-delozier-2000", "korzybski-1933", "lifton-1961", "lilienfeld-2015", "oconnor-seymour-1990", "roderique-davies-2009", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = ["korzybski-1933", "watzlawick-1974"]
-nlp_sources_critical = ["lifton-1961", "lilienfeld-2015", "roderique-davies-2009", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.20"
+catalog_slug = "predpoklady-jako-pracovni-hypotezy"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady.b"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "Presuppositions as working assumptions"
+catalog_aliases = ["jednat, jako by předpoklady platily"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["mapa-neni-uzemi", "ramec-jako-by", "stav-dukazu-nlp", "nlp-jako-pseudoveda", "falzifikovatelnost-nlp", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["mapa-neni-uzemi", "falzifikovatelnost-nlp", "jak-cist-tvrzeni-nlp", "ramec-jako-by", "nlp-jako-pseudoveda"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/critical-perspectives/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/critical-perspectives/_index.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
+catalog_prev = "ekologie-zmeny"
+catalog_next = "odpovednost-za-komunikaci"
+catalog_position = 20
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1975", "dilts-delozier-2000", "korzybski-1933", "lifton-1961", "lilienfeld-2015", "oconnor-seymour-1990", "roderique-davies-2009", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = ["korzybski-1933", "watzlawick-1974"]
+catalog_sources_critical = ["lifton-1961", "lilienfeld-2015", "roderique-davies-2009", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.b.toml"
 +++
 
 # Předpoklady jako pracovní hypotézy
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | Presuppositions as working assumptions |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ popisuje, že jedním z prvních kroků je obnovit schopnost klást otázky bez 
 oddílu [Kritické perspektivy](@/kompendium/critical-perspectives/_index.md) a na stránce
 katalogu [jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,27 +215,27 @@ katalogu [jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/ja
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, State of the evidence on NLP)
-- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as pseudoscience)
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Falsifiability of NLP)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, State of the evidence on NLP)
+- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as pseudoscience)
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Falsifiability of NLP)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – předchozí vzorec rodiny
-- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – předchozí heslo rodiny
+- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

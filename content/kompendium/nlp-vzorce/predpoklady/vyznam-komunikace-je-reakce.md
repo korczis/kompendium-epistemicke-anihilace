@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Význam komunikace je reakce, kterou vyvolá", "The meaning of communication is the response you get", "význam sdělení je odezva", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Význam komunikace je reakce, kterou vyvolá", "The meaning of communication is the response you get", "význam sdělení je odezva", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.02"
-nlp_slug = "vyznam-komunikace-je-reakce"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "The meaning of communication is the response you get"
-nlp_aliases = ["význam sdělení je odezva"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mapa-neni-uzemi", "kdyz-to-nefunguje-udelej-neco-jineho", "nelze-nekomunikovat", "odpovednost-za-komunikaci", "kalibrace", "raport-jako-nastroj-vlivu"]
-nlp_related_declared = ["odpovednost-za-komunikaci", "kalibrace", "nelze-nekomunikovat", "raport-jako-nastroj-vlivu", "mapa-neni-uzemi"]
-nlp_kompendium = ["kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
-nlp_prev = "mapa-neni-uzemi"
-nlp_next = "neni-selhani-jen-zpetna-vazba"
-nlp_position = 2
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "bateson-1972", "cialdini-2009", "druckman-swets-1988", "grice-1975", "levinson-1983", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1967", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "grice-1975", "levinson-1983", "watzlawick-1967"]
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.02"
+catalog_slug = "vyznam-komunikace-je-reakce"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "The meaning of communication is the response you get"
+catalog_aliases = ["význam sdělení je odezva"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["mapa-neni-uzemi", "kdyz-to-nefunguje-udelej-neco-jineho", "nelze-nekomunikovat", "odpovednost-za-komunikaci", "kalibrace", "raport-jako-nastroj-vlivu"]
+catalog_related_declared = ["odpovednost-za-komunikaci", "kalibrace", "nelze-nekomunikovat", "raport-jako-nastroj-vlivu", "mapa-neni-uzemi"]
+catalog_kompendium = ["kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
+catalog_prev = "mapa-neni-uzemi"
+catalog_next = "neni-selhani-jen-zpetna-vazba"
+catalog_position = 2
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "bateson-1972", "cialdini-2009", "druckman-swets-1988", "grice-1975", "levinson-1983", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1967", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "grice-1975", "levinson-1983", "watzlawick-1967"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Význam komunikace je reakce, kterou vyvolá
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | The meaning of communication is the response you get |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -202,7 +205,7 @@ nesouhlas není chyba, kterou je třeba vysvětlovat. Odborník, který s princi
 měl držet v jeho užší a obhajitelné podobě: jako odpovědnost za to, aby mu druhý rozuměl, ne
 jako oprávnění dosáhnout u druhého čehokoli, co „funguje“.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -228,26 +231,26 @@ jako oprávnění dosáhnout u druhého čehokoli, co „funguje“.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzný vzorec (Předpoklady NLP, If it is not working, do something else)
-- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzný vzorec (Předpoklady NLP, One cannot not communicate)
-- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzný vzorec (Předpoklady NLP, The communicator is responsible for the communication)
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzný vzorec (Raport a kalibrace, Rapport as an influence tool)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – příbuzné heslo (Předpoklady NLP, If it is not working, do something else)
+- [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – příbuzné heslo (Předpoklady NLP, One cannot not communicate)
+- [Za výsledek komunikace odpovídá komunikátor](@/kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci.md) – příbuzné heslo (Předpoklady NLP, The communicator is responsible for the communication)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – příbuzné heslo (Raport a kalibrace, Rapport as an influence tool)
 
 **V kompendiu**
 
-- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – předchozí vzorec rodiny
-- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – předchozí heslo rodiny
+- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

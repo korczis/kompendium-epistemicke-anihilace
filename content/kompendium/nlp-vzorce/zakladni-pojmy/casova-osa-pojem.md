@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Časová osa", "Timeline (concept)", "linie času", "vnitřní reprezentace času", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Časová osa", "Timeline (concept)", "linie času", "vnitřní reprezentace času", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.30"
-nlp_slug = "casova-osa-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.c"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Timeline (concept)"
-nlp_aliases = ["linie času", "vnitřní reprezentace času"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = ["elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "zmena-tvaru-casove-osy", "casove-kodovani", "pruchod-casovou-osou"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["pseudoorientace-v-case", "prostorove-kotveni", "trauma-a-falesne-vzpominky", "elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "korenova-pricina", "casova-perspektiva", "casova-orientace"]
-nlp_related_declared = ["elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "korenova-pricina", "trauma-a-falesne-vzpominky"]
-nlp_kompendium = ["kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md", "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
-nlp_prev = "chunking"
-nlp_next = "metaprogramy-pojem"
-nlp_position = 30
-nlp_family_size = 42
-nlp_sources = ["andreas-andreas-1987", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Časová osa a budoucnost", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.30"
+catalog_slug = "casova-osa-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.c"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Timeline (concept)"
+catalog_aliases = ["linie času", "vnitřní reprezentace času"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = ["elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "zmena-tvaru-casove-osy", "casove-kodovani", "pruchod-casovou-osou"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["pseudoorientace-v-case", "prostorove-kotveni", "trauma-a-falesne-vzpominky", "elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "korenova-pricina", "casova-perspektiva", "casova-orientace"]
+catalog_related_declared = ["elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "korenova-pricina", "trauma-a-falesne-vzpominky"]
+catalog_kompendium = ["kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md", "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
+catalog_prev = "chunking"
+catalog_next = "metaprogramy-pojem"
+catalog_position = 30
+catalog_family_size = 42
+catalog_sources = ["andreas-andreas-1987", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Časová osa a budoucnost", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.c.toml"
 +++
 
 # Časová osa
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.30` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Timeline (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -104,7 +107,7 @@ Prostorové uspořádání času v myšlení je dobře doloženo v kognitivní l
 
 Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vybaví při sugestivním „návratu“ do minulosti, nemá být podkladem pro závěry o minulých událostech ani o jiných lidech, dokud ho nepotvrdí nezávislé zdroje. Druhou obranou je nepřijímat ujištění, že „nevědomí to ví“. Pokud si člověk událost nepamatuje, je to informace, ne překážka, kterou je třeba překonat. Třetí obranou je posoudit rámec: práce s minulostí, která může otevřít bolestné téma, patří do terapeutického vztahu s odborníkem, který umí s takovým tématem zacházet a je k dispozici i po skončení sezení. Lidé, kteří prošli sugestivním hledáním příčin a vytvořili si nové přesvědčení o své minulosti, potřebují citlivou podporu. Zotavení obvykle zahrnuje rozlišení toho, co si skutečně pamatují, od toho, co vzniklo v sugestivní situaci, a postupné obnovení vztahů, které nový výklad narušil (Herman 1992). Kompendium se k tématu vrací na stránce o [traumatu a falešných vzpomínkách](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md). Odborník, který s časovou osou pracuje, by se měl omezit na její popisné a plánovací užití a vyhnout se hledání událostí, které si klient nepamatuje.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,36 +126,36 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – zvláštní případ tohoto vzorce
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – zvláštní případ tohoto vzorce
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – zvláštní případ tohoto vzorce
-- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – zvláštní případ tohoto vzorce
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – zvláštní případ tohoto vzorce
-- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – zvláštní případ tohoto hesla
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – zvláštní případ tohoto hesla
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – zvláštní případ tohoto hesla
+- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – zvláštní případ tohoto hesla
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – zvláštní případ tohoto hesla
+- [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzný vzorec (Ericksonovská hypnóza, Pseudo-orientation in time)
-- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – příbuzný vzorec (Kotvení, Spatial anchoring)
-- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)
-- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzný vzorec (Časová osa, Eliciting the timeline)
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzný vzorec (Časová osa, In time and through time)
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzný vzorec (Časová osa, Time Line Therapy)
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzný vzorec (Časová osa, Root cause)
-- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzný vzorec (Časová osa, Time perspective)
-- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzný vzorec (Metaprogramy, Time orientation)
+- [Pseudoorientace v čase](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md) – příbuzné heslo (Ericksonovská hypnóza, Pseudo-orientation in time)
+- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – příbuzné heslo (Kotvení, Spatial anchoring)
+- [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzné heslo (Disociace, fobie a trauma, Trauma work and the risk of false memories)
+- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzné heslo (Časová osa, Eliciting the timeline)
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzné heslo (Časová osa, In time and through time)
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzné heslo (Časová osa, Time Line Therapy)
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
+- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzné heslo (Časová osa, Time perspective)
+- [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzné heslo (Metaprogramy, Time orientation)
 
 **V kompendiu**
 
-- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-4.4.5 Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – předchozí vzorec rodiny
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – předchozí heslo rodiny
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

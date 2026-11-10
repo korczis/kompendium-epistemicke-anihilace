@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Jazykové presupozice", "Linguistic presuppositions", "presupozice", "předpoklady výpovědi", "spouštěče presupozic", "NLP", "neurolingvistické programování"]
+keywords = ["Jazykové presupozice", "Linguistic presuppositions", "presupozice", "předpoklady výpovědi", "spouštěče presupozic", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-06.01"
-nlp_slug = "jazykove-presupozice"
-nlp_family = "presupozice"
-nlp_family_code = "06"
-nlp_family_title = "Jazykové presupozice"
-nlp_family_en = "Linguistic presuppositions"
-nlp_part = "presupozice"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Linguistic presuppositions"
-nlp_aliases = ["presupozice", "předpoklady výpovědi", "spouštěče presupozic"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = ["existencni-presupozice", "presupozice-casovych-vet", "poradove-cislovky", "presupozice-nebo", "predikaty-uvedomeni", "komentarova-adverbia", "slovesa-zmeny-casu", "opakovaci-slova", "kvalifikatory-jen-i", "srovnavaci-presupozice", "otazky-s-presupozici", "vztazne-vety-presupozice", "kontrafaktualni-podminky", "faktivni-slovesa", "implikativni-slovesa", "rozstepene-vety", "presupozice-v-reklame", "presupozice-ve-vyslechu"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["presupozice-v-meta-modelu", "milton-model", "presupozice-milton", "otazky-s-presupozici", "faktivni-slovesa", "presupozice-ve-vyslechu", "predramcovani", "predpokladovy-zaver"]
-nlp_related_declared = ["presupozice-milton", "presupozice-v-meta-modelu", "otazky-s-presupozici", "presupozice-ve-vyslechu", "faktivni-slovesa"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/presupozice/existencni-presupozice.md", "kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md", "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md", "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md"]
-nlp_prev = ""
-nlp_next = "existencni-presupozice"
-nlp_position = 1
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990"]
-nlp_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
-nlp_sources_critical = ["herman-1992", "loftus-palmer-1974", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presupozice.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-06.01"
+catalog_slug = "jazykove-presupozice"
+catalog_family = "presupozice"
+catalog_family_code = "06"
+catalog_family_title = "Jazykové presupozice"
+catalog_family_en = "Linguistic presuppositions"
+catalog_part = "presupozice"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Linguistic presuppositions"
+catalog_aliases = ["presupozice", "předpoklady výpovědi", "spouštěče presupozic"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = ["existencni-presupozice", "presupozice-casovych-vet", "poradove-cislovky", "presupozice-nebo", "predikaty-uvedomeni", "komentarova-adverbia", "slovesa-zmeny-casu", "opakovaci-slova", "kvalifikatory-jen-i", "srovnavaci-presupozice", "otazky-s-presupozici", "vztazne-vety-presupozice", "kontrafaktualni-podminky", "faktivni-slovesa", "implikativni-slovesa", "rozstepene-vety", "presupozice-v-reklame", "presupozice-ve-vyslechu"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["presupozice-v-meta-modelu", "milton-model", "presupozice-milton", "otazky-s-presupozici", "faktivni-slovesa", "presupozice-ve-vyslechu", "predramcovani", "predpokladovy-zaver"]
+catalog_related_declared = ["presupozice-milton", "presupozice-v-meta-modelu", "otazky-s-presupozici", "presupozice-ve-vyslechu", "faktivni-slovesa"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/presupozice/existencni-presupozice.md", "kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md", "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md", "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md"]
+catalog_prev = ""
+catalog_next = "existencni-presupozice"
+catalog_position = 1
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990"]
+catalog_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
+catalog_sources_critical = ["herman-1992", "loftus-palmer-1974", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presupozice.toml"
 +++
 
 # Jazykové presupozice
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-06.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Linguistic presuppositions |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/presupozice.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -210,7 +213,7 @@ je součástí zotavení i zpětná rekonstrukce: vypsat, co o nich bylo v rozho
 a posoudit každé tvrzení samostatně. Tato práce probíhá nejlépe s podporou, ve vztahu, kde má
 člověk znovu právo na vlastní popis událostí (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -233,46 +236,46 @@ a posoudit každé tvrzení samostatně. Tato práce probíhá nejlépe s podpor
 
 **Rodina a hierarchie**
 
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – zvláštní případ tohoto vzorce
-- [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – zvláštní případ tohoto vzorce
-- [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – zvláštní případ tohoto vzorce
-- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – zvláštní případ tohoto vzorce
-- [Predikáty uvědomění](@/kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md) – zvláštní případ tohoto vzorce
-- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – zvláštní případ tohoto vzorce
-- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – zvláštní případ tohoto vzorce
-- [Opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md) – zvláštní případ tohoto vzorce
-- [Částice „jen“, „i“, „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md) – zvláštní případ tohoto vzorce
-- [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – zvláštní případ tohoto vzorce
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – zvláštní případ tohoto vzorce
-- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – zvláštní případ tohoto vzorce
-- [Kontrafaktuální podmínky](@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md) – zvláštní případ tohoto vzorce
-- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – zvláštní případ tohoto vzorce
-- [Implikativní slovesa](@/kompendium/nlp-vzorce/presupozice/implikativni-slovesa.md) – zvláštní případ tohoto vzorce
-- [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) – zvláštní případ tohoto vzorce
-- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – zvláštní případ tohoto vzorce
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – zvláštní případ tohoto vzorce
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – zvláštní případ tohoto hesla
+- [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – zvláštní případ tohoto hesla
+- [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – zvláštní případ tohoto hesla
+- [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – zvláštní případ tohoto hesla
+- [Predikáty uvědomění](@/kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md) – zvláštní případ tohoto hesla
+- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – zvláštní případ tohoto hesla
+- [Slovesa změny času a stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md) – zvláštní případ tohoto hesla
+- [Opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md) – zvláštní případ tohoto hesla
+- [Částice „jen“, „i“, „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md) – zvláštní případ tohoto hesla
+- [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – zvláštní případ tohoto hesla
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – zvláštní případ tohoto hesla
+- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – zvláštní případ tohoto hesla
+- [Kontrafaktuální podmínky](@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md) – zvláštní případ tohoto hesla
+- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – zvláštní případ tohoto hesla
+- [Implikativní slovesa](@/kompendium/nlp-vzorce/presupozice/implikativni-slovesa.md) – zvláštní případ tohoto hesla
+- [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) – zvláštní případ tohoto hesla
+- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – zvláštní případ tohoto hesla
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – příbuzný vzorec (Meta-model, Presuppositions (Meta Model))
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzný vzorec (Milton-model, Milton Model)
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzný vzorec (Milton-model, Presuppositions (Milton Model))
-- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzný vzorec (Jazykové presupozice, Loaded questions)
-- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – příbuzný vzorec (Jazykové presupozice, Factive verbs)
-- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in questioning and testimony)
-- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzný vzorec (Reframing a rámce, Pre-framing)
-- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzný vzorec (Vliv a zneužití NLP, Assumptive close)
+- [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – příbuzné heslo (Meta-model, Presuppositions (Meta Model))
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – příbuzné heslo (Milton-model, Milton Model)
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – příbuzné heslo (Milton-model, Presuppositions (Milton Model))
+- [Otázky s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md) – příbuzné heslo (Jazykové presupozice, Loaded questions)
+- [Faktivní slovesa](@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md) – příbuzné heslo (Jazykové presupozice, Factive verbs)
+- [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in questioning and testimony)
+- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzné heslo (Reframing a rámce, Pre-framing)
+- [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – příbuzné heslo (Vliv a zneužití NLP, Assumptive close)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

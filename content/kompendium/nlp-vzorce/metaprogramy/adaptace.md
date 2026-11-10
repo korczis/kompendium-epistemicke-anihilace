@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Usuzování a vnímání", "Adaptation (judging and perceiving)", "adaptace", "uzavírání a otevřenost", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Usuzování a vnímání", "Adaptation (judging and perceiving)", "adaptace", "uzavírání a otevřenost", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.21"
-nlp_slug = "adaptace"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Adaptation (judging and perceiving)"
-nlp_aliases = ["adaptace", "uzavírání a otevřenost"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["moznosti-a-postupy", "pracovni-styl", "struktura-pravidel"]
-nlp_related_declared = ["moznosti-a-postupy", "struktura-pravidel", "pracovni-styl"]
-nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
-nlp_links_prose = ["kompendium/02-uvod/metodologicke-poznamky.md", "kompendium/nlp-vzorce/casova-osa/casove-kodovani.md", "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md", "kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
-nlp_prev = "filozoficky-smer"
-nlp_next = "metaprogramy-v-naboru"
-nlp_position = 21
-nlp_family_size = 23
-nlp_sources = ["cialdini-2009", "gilovich-1991", "hall-bodenhamer-1997", "james-woodsmall-1988", "kahneman-2011", "lilienfeld-2015", "passmore-rowson-2019", "satir-1972", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["hall-bodenhamer-1997", "james-woodsmall-1988"]
-nlp_sources_roots = ["satir-1972"]
-nlp_sources_critical = ["cialdini-2009", "gilovich-1991", "kahneman-2011", "lilienfeld-2015", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.21"
+catalog_slug = "adaptace"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Adaptation (judging and perceiving)"
+catalog_aliases = ["adaptace", "uzavírání a otevřenost"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["moznosti-a-postupy", "pracovni-styl", "struktura-pravidel"]
+catalog_related_declared = ["moznosti-a-postupy", "struktura-pravidel", "pracovni-styl"]
+catalog_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/02-uvod/metodologicke-poznamky.md", "kompendium/nlp-vzorce/casova-osa/casove-kodovani.md", "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md", "kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+catalog_prev = "filozoficky-smer"
+catalog_next = "metaprogramy-v-naboru"
+catalog_position = 21
+catalog_family_size = 23
+catalog_sources = ["cialdini-2009", "gilovich-1991", "hall-bodenhamer-1997", "james-woodsmall-1988", "kahneman-2011", "lilienfeld-2015", "passmore-rowson-2019", "satir-1972", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["hall-bodenhamer-1997", "james-woodsmall-1988"]
+catalog_sources_roots = ["satir-1972"]
+catalog_sources_critical = ["cialdini-2009", "gilovich-1991", "kahneman-2011", "lilienfeld-2015", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Usuzování a vnímání
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.21` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Adaptation (judging and perceiving) |
 | **Jiné názvy** | adaptace, uzavírání a otevřenost |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ důvěru ve vlastní úsudek a rozlišit, kdy jeho váhání bylo oprávněnou o
 hodnocení konkrétních rozhodnutí podle jejich výsledků, ne podle rychlosti, a prostředí, v němž
 je možné požádat o čas bez obav z nálepky. Obecným otázkám práce s taxonomiemi se kompendium věnuje v [metodologických poznámkách k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md). Pro vlastní posouzení pomáhá připomínat si, že pozorovatel snadno nachází potvrzení kategorie, kterou očekává, a přehlíží doklady proti ní (Gilovich 1991).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,24 +216,24 @@ je možné požádat o čas bez obav z nálepky. Obecným otázkám práce s tax
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzný vzorec (Metaprogramy, Options and procedures)
-- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzný vzorec (Metaprogramy, Working style)
-- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzný vzorec (Metaprogramy, Rule structure)
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzné heslo (Metaprogramy, Options and procedures)
+- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzné heslo (Metaprogramy, Working style)
+- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzné heslo (Metaprogramy, Rule structure)
 
 **V kompendiu**
 
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – předchozí vzorec rodiny
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – předchozí heslo rodiny
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

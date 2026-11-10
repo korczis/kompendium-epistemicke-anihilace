@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Záměna „ale“ za „a“", "But versus and", "ale a a", "spojka ale", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Záměna „ale“ za „a“", "But versus and", "ale a a", "spojka ale", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.13"
-nlp_slug = "ale-a-a"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "But versus and"
-nlp_aliases = ["ale a a", "spojka ale"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["spojky-a-implikovana-pricinnost", "apozice-protikladu", "obsahovy-reframing", "ramec-souhlasu", "zatim"]
-nlp_related_declared = ["spojky-a-implikovana-pricinnost", "apozice-protikladu", "zatim", "ramec-souhlasu", "obsahovy-reframing"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md", "kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = "izomorfni-metafora"
-nlp_next = "protoze"
-nlp_position = 13
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975b", "grice-1975", "levinson-1983", "miller-rollnick-2013", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975b"]
-nlp_sources_roots = ["grice-1975", "levinson-1983", "watzlawick-1967"]
-nlp_sources_critical = ["miller-rollnick-2013", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.13"
+catalog_slug = "ale-a-a"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "But versus and"
+catalog_aliases = ["ale a a", "spojka ale"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["spojky-a-implikovana-pricinnost", "apozice-protikladu", "obsahovy-reframing", "ramec-souhlasu", "zatim"]
+catalog_related_declared = ["spojky-a-implikovana-pricinnost", "apozice-protikladu", "zatim", "ramec-souhlasu", "obsahovy-reframing"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md", "kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = "izomorfni-metafora"
+catalog_next = "protoze"
+catalog_position = 13
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975b", "grice-1975", "levinson-1983", "miller-rollnick-2013", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources_roots = ["grice-1975", "levinson-1983", "watzlawick-1967"]
+catalog_sources_critical = ["miller-rollnick-2013", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.b.toml"
 +++
 
 # Záměna „ale“ za „a“
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | But versus and |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -191,7 +194,7 @@ rozlišuje porozumění a souhlas (Miller a Rollnick 2013). Profesionál, který
 používá ve zpětné vazbě, by měl hlídat, aby „a“ nespojovalo věci, které spolu nesouvisejí,
 a aby kritika, která má zaznít, zazněla jasně a byla zdůvodněna.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -209,25 +212,25 @@ a aby kritika, která má zaznít, zazněla jasně a byla zdůvodněna.
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzný vzorec (Milton-model, Conjunctions and implied causatives)
-- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzný vzorec (Ericksonovská hypnóza, Apposition of opposites)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzný vzorec (Reframing a rámce, Agreement frame)
-- [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – příbuzný vzorec (Jazykové vzorce, Yet)
+- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – příbuzné heslo (Milton-model, Conjunctions and implied causatives)
+- [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – příbuzné heslo (Ericksonovská hypnóza, Apposition of opposites)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – příbuzné heslo (Reframing a rámce, Agreement frame)
+- [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – příbuzné heslo (Jazykové vzorce, Yet)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – předchozí vzorec rodiny
-- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – předchozí heslo rodiny
+- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

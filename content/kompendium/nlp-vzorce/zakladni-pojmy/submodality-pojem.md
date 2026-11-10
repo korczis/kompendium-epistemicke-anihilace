@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Submodality", "Submodalities (concept)", "kvality představ", "jemná rozlišení smyslových modalit", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Submodality", "Submodalities (concept)", "kvality představ", "jemná rozlišení smyslových modalit", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.12"
-nlp_slug = "submodality-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Submodalities (concept)"
-nlp_aliases = ["kvality představ", "jemná rozlišení smyslových modalit"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["asociace", "disociace", "elicitace-submodalit", "vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kriticke-submodality", "mapovani-napric", "swish"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["zkusenost-ma-strukturu", "zkusenost-je-kodovana-smysly", "reprezentacni-systemy", "olfaktorni-a-gustatorni-system", "synestezie", "disociace", "elicitace-submodalit", "kriticke-submodality", "swish", "submodality-v-reklame", "rychla-lecba-fobie", "vzorec-zalu", "sebepojeti", "zmena-tvaru-casove-osy", "casove-kodovani", "motivacni-strategie", "strategie-reality"]
-nlp_related_declared = ["elicitace-submodalit", "kriticke-submodality", "swish", "reprezentacni-systemy", "submodality-v-reklame", "disociace"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/elicitace-submodalit.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/nlp-vzorce/submodality/swish.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "synestezie"
-nlp_next = "kalibrace"
-nlp_position = 12
-nlp_family_size = 42
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1980", "heap-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.12"
+catalog_slug = "submodality-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Submodalities (concept)"
+catalog_aliases = ["kvality představ", "jemná rozlišení smyslových modalit"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["asociace", "disociace", "elicitace-submodalit", "vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kriticke-submodality", "mapovani-napric", "swish"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["zkusenost-ma-strukturu", "zkusenost-je-kodovana-smysly", "reprezentacni-systemy", "olfaktorni-a-gustatorni-system", "synestezie", "disociace", "elicitace-submodalit", "kriticke-submodality", "swish", "submodality-v-reklame", "rychla-lecba-fobie", "vzorec-zalu", "sebepojeti", "zmena-tvaru-casove-osy", "casove-kodovani", "motivacni-strategie", "strategie-reality"]
+catalog_related_declared = ["elicitace-submodalit", "kriticke-submodality", "swish", "reprezentacni-systemy", "submodality-v-reklame", "disociace"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/submodality/elicitace-submodalit.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/nlp-vzorce/submodality/swish.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "synestezie"
+catalog_next = "kalibrace"
+catalog_position = 12
+catalog_family_size = 42
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1980", "heap-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.b.toml"
 +++
 
 # Submodality
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Submodalities (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -102,7 +105,7 @@ Empirická opora pojmu je slabá. Kontrolovaných studií, které by testovaly s
 
 Základní obranou je trvat na tom, že o změně vlastních citů rozhoduje člověk sám. Pokud někdo navrhuje „zmenšit“ nebo „odsunout“ vzpomínku na blízkého člověka, na křivdu nebo na pochybnost, je namístě zeptat se, proč by tento cit měl zmizet a komu to prospěje. City, které jsou pro mluvčího nepohodlné, nesou často důležitou informaci o vztahu nebo situaci. Druhou obranou je oddělit popis od slibu. Je v pořádku mluvit o tom, jak člověk vzpomínku prožívá; slib, že se tím během minut změní vztah k rodině nebo k vlastní minulosti, je důvodem k ostražitosti. Třetí obranou je hledat ověřené postupy, pokud člověk opravdu trpí dotěrnými vzpomínkami nebo úzkostí: kognitivně behaviorální terapie a další přístupy s doloženou účinností pracují i s představami, ale v rámci, který lze kontrolovat (Beck 1976). U lidí, kteří prošli skupinou, kde se jejich city soustavně „přepisovaly“, se zotavení opírá o obnovu práva na vlastní prožitek. Herman zdůrazňuje, že po zkušenosti kontroly je základem uzdravení obnova autonomie a bezpečného vztahu, ve kterém člověk smí cítit, co cítí (Herman 1992). Odborník, který s pojmem pracuje, by měl jeho popisnou vrstvu jasně oddělit od nároků na mechanismus a klientovi otevřeně říci, že účinnost technik postavených na submodalitách není prokázána.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -124,46 +127,46 @@ Základní obranou je trvat na tom, že o změně vlastních citů rozhoduje čl
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – zvláštní případ tohoto vzorce
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – zvláštní případ tohoto vzorce
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – zvláštní případ tohoto vzorce
-- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – zvláštní případ tohoto vzorce
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – zvláštní případ tohoto vzorce
-- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – zvláštní případ tohoto vzorce
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – zvláštní případ tohoto vzorce
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – zvláštní případ tohoto vzorce
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – zvláštní případ tohoto hesla
+- [Disociace](@/glossary/disociace.md) – zvláštní případ tohoto hesla
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – zvláštní případ tohoto hesla
+- [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – zvláštní případ tohoto hesla
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – zvláštní případ tohoto hesla
+- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – zvláštní případ tohoto hesla
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – zvláštní případ tohoto hesla
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – zvláštní případ tohoto hesla
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzný vzorec (Předpoklady NLP, Experience has a structure)
-- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – příbuzný vzorec (Předpoklady NLP, Experience is coded in the senses)
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzný vzorec (Základní pojmy NLP, Representational systems)
-- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzný vzorec (Základní pojmy NLP, Olfactory and gustatory systems)
-- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzný vzorec (Základní pojmy NLP, Synaesthesia (NLP sense))
-- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzný vzorec (Submodality, Swish pattern)
-- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzný vzorec (Submodality, Submodalities in advertising and media)
-- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
-- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzný vzorec (Disociace, fobie a trauma, Resolving grief pattern)
-- [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – příbuzný vzorec (Disociace, fobie a trauma, Self-concept pattern)
-- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzný vzorec (Časová osa, Changing the shape of the timeline)
-- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzný vzorec (Časová osa, Temporal coding of experience)
-- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzný vzorec (Strategie a modelování, Motivation strategy)
-- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – příbuzný vzorec (Strategie a modelování, Reality strategy)
+- [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – příbuzné heslo (Předpoklady NLP, Experience has a structure)
+- [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – příbuzné heslo (Předpoklady NLP, Experience is coded in the senses)
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzné heslo (Základní pojmy NLP, Representational systems)
+- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzné heslo (Základní pojmy NLP, Olfactory and gustatory systems)
+- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzné heslo (Základní pojmy NLP, Synaesthesia (NLP sense))
+- [Disociace](@/glossary/disociace.md) – příbuzné heslo (Základní pojmy NLP, Dissociation)
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzné heslo (Submodality, Eliciting submodalities)
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzné heslo (Submodality, Critical (driver) submodalities)
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzné heslo (Submodality, Swish pattern)
+- [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – příbuzné heslo (Submodality, Submodalities in advertising and media)
+- [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzné heslo (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
+- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzné heslo (Disociace, fobie a trauma, Resolving grief pattern)
+- [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – příbuzné heslo (Disociace, fobie a trauma, Self-concept pattern)
+- [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – příbuzné heslo (Časová osa, Changing the shape of the timeline)
+- [Časové kódování zkušenosti](@/kompendium/nlp-vzorce/casova-osa/casove-kodovani.md) – příbuzné heslo (Časová osa, Temporal coding of experience)
+- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzné heslo (Strategie a modelování, Motivation strategy)
+- [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – příbuzné heslo (Strategie a modelování, Reality strategy)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – předchozí vzorec rodiny
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – předchozí heslo rodiny
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

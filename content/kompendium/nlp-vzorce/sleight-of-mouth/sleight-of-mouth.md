@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Sleight of Mouth", "jazykové vzorce změny přesvědčení", "konverzační přerámování přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Sleight of Mouth", "jazykové vzorce změny přesvědčení", "konverzační přerámování přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.01"
-nlp_slug = "sleight-of-mouth"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Sleight of Mouth"
-nlp_aliases = ["jazykové vzorce změny přesvědčení", "konverzační přerámování přesvědčení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = ["struktura-presvedceni-som", "som-zamer", "som-redefinice", "som-dusledek", "som-rozlozeni", "som-zobecneni", "som-protipriklad", "som-analogie", "som-jiny-vysledek", "som-model-sveta", "som-strategie-reality", "som-hierarchie-kriterii", "som-aplikace-na-sebe", "som-meta-ramec", "som-zmena-velikosti-ramce"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["pricina-a-nasledek", "komplexni-ekvivalence", "struktura-presvedceni-som", "reframing", "obsahovy-reframing", "cyklus-zmeny-presvedceni", "myslenkovy-virus", "obrana-proti-vlivovym-vzorcum"]
-nlp_related_declared = ["struktura-presvedceni-som", "reframing", "obsahovy-reframing", "komplexni-ekvivalence", "pricina-a-nasledek", "obrana-proti-vlivovym-vzorcum"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md", "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = ""
-nlp_next = "struktura-presvedceni-som"
-nlp_position = 1
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = ["watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.01"
+catalog_slug = "sleight-of-mouth"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Sleight of Mouth"
+catalog_aliases = ["jazykové vzorce změny přesvědčení", "konverzační přerámování přesvědčení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = ["struktura-presvedceni-som", "som-zamer", "som-redefinice", "som-dusledek", "som-rozlozeni", "som-zobecneni", "som-protipriklad", "som-analogie", "som-jiny-vysledek", "som-model-sveta", "som-strategie-reality", "som-hierarchie-kriterii", "som-aplikace-na-sebe", "som-meta-ramec", "som-zmena-velikosti-ramce"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["pricina-a-nasledek", "komplexni-ekvivalence", "struktura-presvedceni-som", "reframing", "obsahovy-reframing", "cyklus-zmeny-presvedceni", "myslenkovy-virus", "obrana-proti-vlivovym-vzorcum"]
+catalog_related_declared = ["struktura-presvedceni-som", "reframing", "obsahovy-reframing", "komplexni-ekvivalence", "pricina-a-nasledek", "obrana-proti-vlivovym-vzorcum"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md", "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md", "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = ""
+catalog_next = "struktura-presvedceni-som"
+catalog_position = 1
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = ["watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.toml"
 +++
 
 # Sleight of Mouth
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Sleight of Mouth |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/sleight-of-mouth.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -198,7 +201,7 @@ přehled obranných vrstev nabízí oddíl
 profesi, by měl mít na paměti, že pohotovost přerámování nenahrazuje souhlas klienta a že
 každý nový rámec má být nabídkou, kterou lze bez následků odmítnout (Miller a Rollnick 2013).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -225,43 +228,43 @@ každý nový rámec má být nabídkou, kterou lze bez následků odmítnout (M
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – zvláštní případ tohoto vzorce
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – zvláštní případ tohoto vzorce
-- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – zvláštní případ tohoto vzorce
-- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – zvláštní případ tohoto vzorce
-- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – zvláštní případ tohoto vzorce
-- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – zvláštní případ tohoto vzorce
-- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – zvláštní případ tohoto vzorce
-- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – zvláštní případ tohoto vzorce
-- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – zvláštní případ tohoto vzorce
-- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – zvláštní případ tohoto vzorce
-- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – zvláštní případ tohoto vzorce
-- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – zvláštní případ tohoto vzorce
-- [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – zvláštní případ tohoto vzorce
-- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – zvláštní případ tohoto vzorce
-- [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – zvláštní případ tohoto vzorce
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – zvláštní případ tohoto hesla
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – zvláštní případ tohoto hesla
+- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – zvláštní případ tohoto hesla
+- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – zvláštní případ tohoto hesla
+- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – zvláštní případ tohoto hesla
+- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – zvláštní případ tohoto hesla
+- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – zvláštní případ tohoto hesla
+- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – zvláštní případ tohoto hesla
+- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – zvláštní případ tohoto hesla
+- [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – zvláštní případ tohoto hesla
+- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – zvláštní případ tohoto hesla
+- [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – zvláštní případ tohoto hesla
+- [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – zvláštní případ tohoto hesla
+- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – zvláštní případ tohoto hesla
+- [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzný vzorec (Meta-model, Cause and effect)
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzný vzorec (Meta-model, Complex equivalence)
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzný vzorec (Sleight of Mouth, Belief structure in Sleight of Mouth)
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzný vzorec (Reframing a rámce, Reframing)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief change cycle)
-- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzný vzorec (Přesvědčení, Thought virus)
-- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzný vzorec (Vliv a zneužití NLP, Defence against influence patterns)
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzné heslo (Meta-model, Cause and effect)
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (Meta-model, Complex equivalence)
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzné heslo (Sleight of Mouth, Belief structure in Sleight of Mouth)
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzné heslo (Reframing a rámce, Reframing)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief change cycle)
+- [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – příbuzné heslo (Přesvědčení, Thought virus)
+- [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – příbuzné heslo (Vliv a zneužití NLP, Defence against influence patterns)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

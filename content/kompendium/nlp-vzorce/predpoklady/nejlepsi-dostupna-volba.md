@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Lidé volí nejlepší dostupnou volbu", "People make the best choice available to them", "nejlepší dostupná volba", "Předpoklady NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Lidé volí nejlepší dostupnou volbu", "People make the best choice available to them", "nejlepší dostupná volba", "Předpoklady NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-01.10"
-nlp_slug = "nejlepsi-dostupna-volba"
-nlp_family = "predpoklady"
-nlp_family_code = "01"
-nlp_family_title = "Předpoklady NLP"
-nlp_family_en = "NLP presuppositions"
-nlp_part = "predpoklady"
-nlp_type = "principle"
-nlp_type_cs = "princip"
-nlp_en = "People make the best choice available to them"
-nlp_aliases = ["nejlepší dostupná volba"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["mapa-neni-uzemi", "pozitivni-zamer-chovani", "lide-maji-potrebne-zdroje", "volba-je-lepsi-nez-zadna-volba", "iluze-volby"]
-nlp_related_declared = ["volba-je-lepsi-nez-zadna-volba", "pozitivni-zamer-chovani", "iluze-volby", "lide-maji-potrebne-zdroje", "mapa-neni-uzemi"]
-nlp_kompendium = ["kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md"]
-nlp_prev = "clovek-neni-sve-chovani"
-nlp_next = "odpor-jako-nedostatek-raportu"
-nlp_position = 10
-nlp_family_size = 21
-nlp_sources = ["bandler-grinder-1975", "festinger-1957", "herman-1992", "kahneman-2011", "lilienfeld-2015", "rogers-1951", "singer-lalich-1995", "stark-2007", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975"]
-nlp_sources_roots = []
-nlp_sources_critical = ["festinger-1957", "herman-1992", "kahneman-2011", "lilienfeld-2015", "rogers-1951", "singer-lalich-1995", "stark-2007", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/predpoklady.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-01.10"
+catalog_slug = "nejlepsi-dostupna-volba"
+catalog_family = "predpoklady"
+catalog_family_code = "01"
+catalog_family_title = "Předpoklady NLP"
+catalog_family_en = "NLP presuppositions"
+catalog_part = "predpoklady"
+catalog_type = "principle"
+catalog_type_cs = "princip"
+catalog_en = "People make the best choice available to them"
+catalog_aliases = ["nejlepší dostupná volba"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["mapa-neni-uzemi", "pozitivni-zamer-chovani", "lide-maji-potrebne-zdroje", "volba-je-lepsi-nez-zadna-volba", "iluze-volby"]
+catalog_related_declared = ["volba-je-lepsi-nez-zadna-volba", "pozitivni-zamer-chovani", "iluze-volby", "lide-maji-potrebne-zdroje", "mapa-neni-uzemi"]
+catalog_kompendium = ["kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md"]
+catalog_prev = "clovek-neni-sve-chovani"
+catalog_next = "odpor-jako-nedostatek-raportu"
+catalog_position = 10
+catalog_family_size = 21
+catalog_sources = ["bandler-grinder-1975", "festinger-1957", "herman-1992", "kahneman-2011", "lilienfeld-2015", "rogers-1951", "singer-lalich-1995", "stark-2007", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975"]
+catalog_sources_roots = []
+catalog_sources_critical = ["festinger-1957", "herman-1992", "kahneman-2011", "lilienfeld-2015", "rogers-1951", "singer-lalich-1995", "stark-2007", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/predpoklady.toml"
 +++
 
 # Lidé volí nejlepší dostupnou volbu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-01.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) |
 | **Druh** | princip |
 | **Anglicky** | People make the best choice available to them |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/predpoklady.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ nadvládou (Herman 1992). Odborník, který s předpokladem pracuje, by se měl 
 dostupnosti možností a nikdy nedovolit, aby se předpoklad stal argumentem pro vyvinění toho,
 kdo možnosti druhého omezoval.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,25 +216,25 @@ kdo možnosti druhého omezoval.
 
 **Rodina a hierarchie**
 
-- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzný vzorec (Předpoklady NLP, The map is not the territory)
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzný vzorec (Předpoklady NLP, People have the resources they need)
-- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzný vzorec (Předpoklady NLP, Having a choice is better than having none)
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
+- [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – příbuzné heslo (Předpoklady NLP, The map is not the territory)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzné heslo (Předpoklady NLP, People have the resources they need)
+- [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – příbuzné heslo (Předpoklady NLP, Having a choice is better than having none)
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzné heslo (Milton-model, Illusion of choice)
 
 **V kompendiu**
 
-- [EA-5.4.30 Paradox totální volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.4.30 Paradox totální volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – předchozí vzorec rodiny
-- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – předchozí heslo rodiny
+- [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

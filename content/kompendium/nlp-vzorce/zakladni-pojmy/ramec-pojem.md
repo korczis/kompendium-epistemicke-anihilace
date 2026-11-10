@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Rámec", "Frame (concept)", "rámování", "interpretační rámec", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Rámec", "Frame (concept)", "rámování", "interpretační rámec", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.28"
-nlp_slug = "ramec-pojem"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.c"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Frame (concept)"
-nlp_aliases = ["rámování", "interpretační rámec"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = ["ramec-souhlasu", "ramec-jako-by", "ramec-vysledku", "ramec-ekologie", "ramec-zpetneho-shrnuti", "kontrastni-ramec", "otevreny-ramec", "predramcovani", "dodatecne-ramcovani", "deframing"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["reframing", "ramec-jako-by", "ramec-vysledku", "kontrastni-ramec", "predramcovani", "deframing", "kontext-cile"]
-nlp_related_declared = ["reframing", "predramcovani", "ramec-vysledku", "ramec-jako-by", "kontrastni-ramec", "deframing"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-9-5-6-frame-war-coordination.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md", "kompendium/nlp-vzorce/reframing/deframing.md", "kompendium/nlp-vzorce/reframing/predramcovani.md", "kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-9-5-6-frame-war-coordination.md"]
-nlp_prev = "ekologicka-kontrola"
-nlp_next = "chunking"
-nlp_position = 28
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "kahneman-2011", "lakoff-johnson-1980", "levinson-1983", "lifton-1961", "mcguire-1964", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1982"]
-nlp_sources_roots = ["bateson-1972", "levinson-1983", "watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Rámec a mocenská asymetrie", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.28"
+catalog_slug = "ramec-pojem"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.c"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Frame (concept)"
+catalog_aliases = ["rámování", "interpretační rámec"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = ["ramec-souhlasu", "ramec-jako-by", "ramec-vysledku", "ramec-ekologie", "ramec-zpetneho-shrnuti", "kontrastni-ramec", "otevreny-ramec", "predramcovani", "dodatecne-ramcovani", "deframing"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["reframing", "ramec-jako-by", "ramec-vysledku", "kontrastni-ramec", "predramcovani", "deframing", "kontext-cile"]
+catalog_related_declared = ["reframing", "predramcovani", "ramec-vysledku", "ramec-jako-by", "kontrastni-ramec", "deframing"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-9-5-6-frame-war-coordination.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md", "kompendium/nlp-vzorce/reframing/deframing.md", "kompendium/nlp-vzorce/reframing/predramcovani.md", "kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-9-5-6-frame-war-coordination.md"]
+catalog_prev = "ekologicka-kontrola"
+catalog_next = "chunking"
+catalog_position = 28
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "kahneman-2011", "lakoff-johnson-1980", "levinson-1983", "lifton-1961", "mcguire-1964", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1982"]
+catalog_sources_roots = ["bateson-1972", "levinson-1983", "watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Rámec a mocenská asymetrie", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.c.toml"
 +++
 
 # Rámec
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.28` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Frame (concept) |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -104,7 +107,7 @@ Rámcové efekty jsou v psychologii rozhodování mezi nejlépe doloženými jev
 
 Základní obranou je rámec pojmenovat a vrátit do rozhovoru otázky, které vylučuje. Pokud lektor na začátku semináře řekne, že se neptáme, zda metoda funguje, je na místě se zeptat právě na to. Pokud je volba představena jako výběr ze dvou možností, je užitečné se ptát, co dalšího je možné, včetně možnosti nic nevybrat. Druhou obranou je všímat si předrámcování: kdo předem označí kritiku za projev závisti nebo odporu, chrání svůj výklad před ověřením. Taková ochrana je sama o sobě varovným znakem, jak kompendium popisuje u [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md). Třetí obranou je předběžná znalost: výzkum očkování proti přesvědčování ukazuje, že lidé, kteří předem znají podobu manipulativního argumentu a vědí, proč je chybný, mu odolávají lépe (McGuire 1964; van der Linden 2023). U lidí, kteří dlouho žili uvnitř jednoho rámce, například ve skupině s vlastním slovníkem, je zotavení spojeno s postupným osvojováním alternativních pojmů a výkladů. Pomáhá jim čtení, rozhovory s lidmi mimo skupinu a odborná podpora, která jim umožní znovu klást otázky, jež skupina vylučovala (Lifton 1961). Postupy, které rámec vědomě rozkládají, kompendium popisuje na stránce o [deframingu](@/kompendium/nlp-vzorce/reframing/deframing.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -126,38 +129,38 @@ Základní obranou je rámec pojmenovat a vrátit do rozhovoru otázky, které v
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – zvláštní případ tohoto vzorce
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – zvláštní případ tohoto vzorce
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – zvláštní případ tohoto vzorce
-- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – zvláštní případ tohoto vzorce
-- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – zvláštní případ tohoto vzorce
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – zvláštní případ tohoto vzorce
-- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – zvláštní případ tohoto vzorce
-- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – zvláštní případ tohoto vzorce
-- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – zvláštní případ tohoto vzorce
-- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – zvláštní případ tohoto vzorce
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – zvláštní případ tohoto hesla
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – zvláštní případ tohoto hesla
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – zvláštní případ tohoto hesla
+- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – zvláštní případ tohoto hesla
+- [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – zvláštní případ tohoto hesla
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – zvláštní případ tohoto hesla
+- [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – zvláštní případ tohoto hesla
+- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – zvláštní případ tohoto hesla
+- [Dodatečné rámcování](@/kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md) – zvláštní případ tohoto hesla
+- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzný vzorec (Reframing a rámce, Reframing)
-- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzný vzorec (Reframing a rámce, As-if frame)
-- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzný vzorec (Reframing a rámce, Outcome frame)
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzný vzorec (Reframing a rámce, Contrast frame)
-- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzný vzorec (Reframing a rámce, Pre-framing)
-- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzný vzorec (Reframing a rámce, De-framing)
-- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – příbuzný vzorec (Cíle a výsledky, Context of the outcome)
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzné heslo (Reframing a rámce, Reframing)
+- [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – příbuzné heslo (Reframing a rámce, As-if frame)
+- [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – příbuzné heslo (Reframing a rámce, Outcome frame)
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzné heslo (Reframing a rámce, Contrast frame)
+- [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – příbuzné heslo (Reframing a rámce, Pre-framing)
+- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – příbuzné heslo (Reframing a rámce, De-framing)
+- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – příbuzné heslo (Cíle a výsledky, Context of the outcome)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-9.5.6 Frame War Coordination](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-9.5.6 Frame War Coordination](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – předchozí vzorec rodiny
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – předchozí heslo rodiny
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -1,5 +1,5 @@
 # Rodina NLP-22: Kritické hodnocení NLP, část b (NLP-22.08 až NLP-22.14).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py.
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py.
 
 [[pattern]]
 id = "NLP-22.08"

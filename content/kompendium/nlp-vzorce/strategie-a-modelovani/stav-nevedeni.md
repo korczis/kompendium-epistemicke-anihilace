@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Stav nevědění", "Know-nothing state", "know-nothing state", "stav nevím nic", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Stav nevědění", "Know-nothing state", "know-nothing state", "stav nevím nic", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.14"
-nlp_slug = "stav-nevedeni"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Know-nothing state"
-nlp_aliases = ["know-nothing state", "stav nevím nic"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "novy-kod"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["novy-kod"]
-nlp_related = ["vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "strategie-uceni", "novy-kod", "stav-vysokeho-vykonu", "periferni-videni", "modelovani-nevedomim", "guru-efekt"]
-nlp_related_declared = ["periferni-videni", "uptime-a-downtime", "vnitrni-dialog", "trans-pojem", "guru-efekt"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md", "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_links_prose = ["glossary/epistemicka-pokora.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md", "kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md"]
-nlp_prev = "abecedni-hra"
-nlp_next = "periferni-videni"
-nlp_position = 14
-nlp_family_size = 20
-nlp_sources = ["bateson-1972", "beck-1976", "gilovich-1991", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["grinder-bostic-2001", "grinder-delozier-1987"]
-nlp_sources_roots = ["bateson-1972"]
-nlp_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.14"
+catalog_slug = "stav-nevedeni"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Know-nothing state"
+catalog_aliases = ["know-nothing state", "stav nevím nic"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "novy-kod"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["novy-kod"]
+catalog_related = ["vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "strategie-uceni", "novy-kod", "stav-vysokeho-vykonu", "periferni-videni", "modelovani-nevedomim", "guru-efekt"]
+catalog_related_declared = ["periferni-videni", "uptime-a-downtime", "vnitrni-dialog", "trans-pojem", "guru-efekt"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md", "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/epistemicka-pokora.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md", "kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md"]
+catalog_prev = "abecedni-hra"
+catalog_next = "periferni-videni"
+catalog_position = 14
+catalog_family_size = 20
+catalog_sources = ["bateson-1972", "beck-1976", "gilovich-1991", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["grinder-bostic-2001", "grinder-delozier-1987"]
+catalog_sources_roots = ["bateson-1972"]
+catalog_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Stav nevědění
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.14` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Know-nothing state |
 | **Jiné názvy** | know-nothing state, stav nevím nic |
-| **Obecnější vzorec** | [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) |
+| **Obecnější heslo** | [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Obecná zásada, že předčasné kategorie zkreslují pozorování, má v psych
 
 Nejúčinnější obranou je položit si tři otázky, které odlišují legitimní a manipulativní užití: odkládám svůj úsudek sám a dobrovolně, vím, kdy se k němu vrátím, a platí totéž i pro toho, kdo mě k nevědění vybízí? Pokud je odpověď na kteroukoli z nich záporná, jde spíše o podřízení než o otevřenost. Druhou obranou je zachovat si vnější opory vědění: vztahy, zdroje a zkušenosti mimo skupinu nebo kurz, které mohou poskytnout jiný pohled. Třetí obranou je pojmenovat rozdíl mezi pokorou a sebeznevážením. [Epistemická pokora](@/glossary/epistemicka-pokora.md) znamená připustit, že se mohu mýlit, a ověřovat; neznamená předpokládat, že se mýlím vždy, když nesouhlasím s autoritou. U lidí, kteří odešli z prostředí, kde se jejich vědění soustavně znevažovalo, se v klinické praxi pracuje s obnovou důvěry ve vlastní vnímání a úsudek. Herman zdůrazňuje, že tato obnova probíhá ve vztazích, které respektují autonomii člověka a jeho právo na vlastní popis událostí (Herman 1992). Prakticky to znamená postupné vracení se k vlastním měřítkům, k dřívějším zájmům a vztahům a k ověřování tvrzení, která skupina předkládala jako nezpochybnitelná.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,31 +125,31 @@ Nejúčinnější obranou je položit si tři otázky, které odlišují legitim
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzný vzorec (Základní pojmy NLP, Uptime and downtime)
-- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Trance (concept))
-- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzný vzorec (Strategie a modelování, Learning strategy)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzný vzorec (Strategie a modelování, High-performance state)
-- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzný vzorec (Strategie a modelování, Peripheral vision)
-- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzný vzorec (Strategie a modelování, Unconscious uptake modelling)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzné heslo (Základní pojmy NLP, Uptime and downtime)
+- [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – příbuzné heslo (Základní pojmy NLP, Trance (concept))
+- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzné heslo (Strategie a modelování, Learning strategy)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzné heslo (Strategie a modelování, High-performance state)
+- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – příbuzné heslo (Strategie a modelování, Peripheral vision)
+- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzné heslo (Strategie a modelování, Unconscious uptake modelling)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 
 **V kompendiu**
 
-- [EA-5.1.24 Epistemická vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.1 Internalizace pseudopokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.24 Epistemická vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.1 Internalizace pseudopokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – předchozí vzorec rodiny
-- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – předchozí heslo rodiny
+- [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

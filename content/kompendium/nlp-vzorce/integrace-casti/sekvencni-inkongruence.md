@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Sekvenční inkongruence", "Sequential incongruence", "postupný nesoulad", "střídavá inkongruence", "Práce s částmi", "NLP", "neurolingvistické programování"]
+keywords = ["Sekvenční inkongruence", "Sequential incongruence", "postupný nesoulad", "střídavá inkongruence", "Práce s částmi", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-15.05"
-nlp_slug = "sekvencni-inkongruence"
-nlp_family = "integrace-casti"
-nlp_family_code = "15"
-nlp_family_title = "Práce s částmi"
-nlp_family_en = "Parts work"
-nlp_part = "integrace-casti"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Sequential incongruence"
-nlp_aliases = ["postupný nesoulad", "střídavá inkongruence"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "inkongruence"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["inkongruence"]
-nlp_related = ["kalibrace", "kongruence", "inkongruence", "vyjednavani-casti", "simultanni-inkongruence", "integrace-polarit", "stepeni-ja-v-manipulaci"]
-nlp_related_declared = ["simultanni-inkongruence", "vyjednavani-casti", "kongruence", "kalibrace", "integrace-polarit"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md", "kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md", "kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md", "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = "vyjednavani-casti"
-nlp_next = "simultanni-inkongruence"
-nlp_position = 5
-nlp_family_size = 9
-nlp_sources = ["bandler-grinder-1982", "festinger-1957", "grinder-bandler-1976", "herman-1992", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "stark-2007", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
-nlp_sources_roots = []
-nlp_sources_critical = ["festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "stark-2007", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/integrace-casti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-15.05"
+catalog_slug = "sekvencni-inkongruence"
+catalog_family = "integrace-casti"
+catalog_family_code = "15"
+catalog_family_title = "Práce s částmi"
+catalog_family_en = "Parts work"
+catalog_part = "integrace-casti"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Sequential incongruence"
+catalog_aliases = ["postupný nesoulad", "střídavá inkongruence"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "inkongruence"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["inkongruence"]
+catalog_related = ["kalibrace", "kongruence", "inkongruence", "vyjednavani-casti", "simultanni-inkongruence", "integrace-polarit", "stepeni-ja-v-manipulaci"]
+catalog_related_declared = ["simultanni-inkongruence", "vyjednavani-casti", "kongruence", "kalibrace", "integrace-polarit"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md", "kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md", "kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md", "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = "vyjednavani-casti"
+catalog_next = "simultanni-inkongruence"
+catalog_position = 5
+catalog_family_size = 9
+catalog_sources = ["bandler-grinder-1982", "festinger-1957", "grinder-bandler-1976", "herman-1992", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "stark-2007", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
+catalog_sources_roots = []
+catalog_sources_critical = ["festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "stark-2007", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/integrace-casti.toml"
 +++
 
 # Sekvenční inkongruence
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-15.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Sequential incongruence |
 | **Jiné názvy** | postupný nesoulad, střídavá inkongruence |
-| **Obecnější vzorec** | [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) |
+| **Obecnější heslo** | [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Obecné tvrzení, že lidé k důležitým rozhodnutím mívají v čase proměn
 
 Obranou je trvat na tom, že všechny fáze patří člověku a že o jejich váze rozhoduje on sám. Pokud mluvčí prohlásí jednu fázi za pravé přání a druhou za slabost, je legitimní jeho výklad odmítnout a připomenout, že změna postoje je běžnou součástí rozhodování. Druhou obranou je hledat vnější spouštěče. Pomáhá zaznamenávat si, kdy a za jakých okolností se postoj mění: po rozhovoru s kým, po jaké události, v jakém stavu únavy či strachu. Takový záznam často ukáže, že kolísání nevychází jen zevnitř, ale souvisí s tlakem nebo s jednáním druhé strany. Třetí obranou je u vážných rozhodnutí zohlednit, které postoje se objevují opakovaně a vytrvale. Opakovaně vyslovená touha odejít ze vztahu nebo ze skupiny je důležitá informace a neztrácí váhu tím, že se mezi jejími projevy objevily i období návratu. U lidí po odchodu ze vztahů nebo skupin, ve kterých bylo kolísání soustavně vykládáno proti nim, se zotavení zaměřuje na obnovu důvěry ve vlastní úsudek a na pochopení, že kolísání bylo často odpovědí na nebezpečnou situaci, ne znakem slabosti. Herman zdůrazňuje, že návrat k vlastnímu úsudku probíhá ve vztazích, které respektují autonomii a nepřebírají za člověka rozhodnutí (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,28 +124,28 @@ Obranou je trvat na tom, že všechny fáze patří člověku a že o jejich vá
 
 **Rodina a hierarchie**
 
-- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzný vzorec (Základní pojmy NLP, Calibration)
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzný vzorec (Základní pojmy NLP, Incongruence)
-- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzný vzorec (Práce s částmi, Parts negotiation)
-- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – příbuzný vzorec (Práce s částmi, Simultaneous incongruence)
-- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzný vzorec (Práce s částmi, Polarity integration)
-- [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) – příbuzný vzorec (Práce s částmi, Splitting of the self in manipulative groups)
+- [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – příbuzné heslo (Základní pojmy NLP, Calibration)
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzné heslo (Základní pojmy NLP, Incongruence)
+- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzné heslo (Práce s částmi, Parts negotiation)
+- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – příbuzné heslo (Práce s částmi, Simultaneous incongruence)
+- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzné heslo (Práce s částmi, Polarity integration)
+- [Štěpení já v manipulativních skupinách](@/kompendium/nlp-vzorce/integrace-casti/stepeni-ja-v-manipulaci.md) – příbuzné heslo (Práce s částmi, Splitting of the self in manipulative groups)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – předchozí vzorec rodiny
-- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – předchozí heslo rodiny
+- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

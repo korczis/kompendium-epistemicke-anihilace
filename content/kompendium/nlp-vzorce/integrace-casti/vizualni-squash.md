@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vizuální squash", "Visual squash", "vizuální stlačení", "squash částí", "Práce s částmi", "NLP", "neurolingvistické programování"]
+keywords = ["Vizuální squash", "Visual squash", "vizuální stlačení", "squash částí", "Práce s částmi", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-15.02"
-nlp_slug = "vizualni-squash"
-nlp_family = "integrace-casti"
-nlp_family_code = "15"
-nlp_family_title = "Práce s částmi"
-nlp_family_en = "Parts work"
-nlp_part = "integrace-casti"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Visual squash"
-nlp_aliases = ["vizuální stlačení", "squash částí"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "integrace-casti"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["integrace-casti"]
-nlp_related = ["kolaps-kotev", "integrace-casti", "vyjednavani-casti", "simultanni-inkongruence", "integrace-polarit"]
-nlp_related_declared = ["integrace-polarit", "kolaps-kotev", "simultanni-inkongruence", "vyjednavani-casti"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md", "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/zakladni-pojmy/chunking.md"]
-nlp_prev = "integrace-casti"
-nlp_next = "jadrova-transformace"
-nlp_position = 2
-nlp_family_size = 9
-nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "grinder-bandler-1976", "heap-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "perls-1969", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-bandler-1976"]
-nlp_sources_roots = ["perls-1969"]
-nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/integrace-casti.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-15.02"
+catalog_slug = "vizualni-squash"
+catalog_family = "integrace-casti"
+catalog_family_code = "15"
+catalog_family_title = "Práce s částmi"
+catalog_family_en = "Parts work"
+catalog_part = "integrace-casti"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Visual squash"
+catalog_aliases = ["vizuální stlačení", "squash částí"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "integrace-casti"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["integrace-casti"]
+catalog_related = ["kolaps-kotev", "integrace-casti", "vyjednavani-casti", "simultanni-inkongruence", "integrace-polarit"]
+catalog_related_declared = ["integrace-polarit", "kolaps-kotev", "simultanni-inkongruence", "vyjednavani-casti"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md", "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/zakladni-pojmy/chunking.md"]
+catalog_prev = "integrace-casti"
+catalog_next = "jadrova-transformace"
+catalog_position = 2
+catalog_family_size = 9
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "grinder-bandler-1976", "heap-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "perls-1969", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-bandler-1976"]
+catalog_sources_roots = ["perls-1969"]
+catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/integrace-casti.toml"
 +++
 
 # Vizuální squash
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-15.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Visual squash |
 | **Jiné názvy** | vizuální stlačení, squash částí |
-| **Obecnější vzorec** | [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) |
+| **Obecnější heslo** | [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Pro vizuální squash nejsou známy kontrolované studie, které by srovnaly jeh
 
 Obrana začíná rozlišením mezi zážitkem a rozhodnutím. Pocit úlevy po cvičení je informace o tom, jak působil rituál, ne o tom, co je v dané věci správné. Kdo po vizuálním squashi stojí před vážným rozhodnutím, má dobrý důvod nechat si čas, rozhodovat mimo prostředí semináře či skupiny a probrat věc s někým, kdo na výsledku nemá zájem. Druhou obranou je trvat na vlastním obsahu: pokud vedoucí určuje, co která ruka znamená, je legitimní odmítnout jeho výklad a popsat rozpor vlastními slovy. Třetí obranou je brát přetrvávající pochybnost vážně. To, že nezmizela, neznamená selhání člověka, ale často jen to, že pochybnost měla dobrý důvod. Z hlediska zotavení je užitečné přiznat, že dramatické zážitky na seminářích mohou mít trvalý emoční dopad, zvlášť pokud se k nim přidal pocit studu za „neúplné spojení“. Takové zkušenosti se zpracovávají nejlépe ve vztahu, ve kterém má člověk právo na vlastní výklad toho, co se stalo, a ve kterém se jeho pochybnosti obnovují jako součást úsudku (Herman 1992). Odborníci, kteří vizuální squash používají, by měli klientům otevřeně říkat, že jde o symbolickou pomůcku bez ověřeného specifického účinku.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -122,26 +125,26 @@ Obrana začíná rozlišením mezi zážitkem a rozhodnutím. Pocit úlevy po cv
 
 **Rodina a hierarchie**
 
-- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Práce s částmi](@/kompendium/nlp-vzorce/integrace-casti/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzný vzorec (Kotvení, Collapsing anchors)
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzný vzorec (Práce s částmi, Parts integration)
-- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzný vzorec (Práce s částmi, Parts negotiation)
-- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – příbuzný vzorec (Práce s částmi, Simultaneous incongruence)
-- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzný vzorec (Práce s částmi, Polarity integration)
+- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzné heslo (Kotvení, Collapsing anchors)
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
+- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzné heslo (Práce s částmi, Parts negotiation)
+- [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – příbuzné heslo (Práce s částmi, Simultaneous incongruence)
+- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzné heslo (Práce s částmi, Polarity integration)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – předchozí vzorec rodiny
-- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – předchozí heslo rodiny
+- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-raport-a-kalibrace"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Raport a kalibrace", "Rapport and calibration", "NLP"]
+keywords = ["Raport a kalibrace", "Rapport and calibration", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "raport-a-kalibrace"
-nlp_code = "18"
-nlp_en = "Rapport and calibration"
-nlp_size = 16
-nlp_members = ["zrcadleni", "krizove-zrcadleni", "pacing-a-leading", "shoda-predikatu", "sladeni-dechu", "sladeni-hlasu-a-tempa", "zpetne-shrnuti", "kalibrace-ano-ne", "vedeni-v-raportu", "preruseni-raportu", "raport-se-skupinou", "sladeni-hodnot", "raport-jako-nastroj-vlivu", "detekce-lzi-v-nlp", "cteni-reci-tela", "pseudoempatie"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "grinder-bandler-1981", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "raport-a-kalibrace"
+catalog_code = "18"
+catalog_en = "Rapport and calibration"
+catalog_size = 16
+catalog_members = ["zrcadleni", "krizove-zrcadleni", "pacing-a-leading", "shoda-predikatu", "sladeni-dechu", "sladeni-hlasu-a-tempa", "zpetne-shrnuti", "kalibrace-ano-ne", "vedeni-v-raportu", "preruseni-raportu", "raport-se-skupinou", "sladeni-hodnot", "raport-jako-nastroj-vlivu", "detekce-lzi-v-nlp", "cteni-reci-tela", "pseudoempatie"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "grinder-bandler-1981", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 +++
 
 # Raport a kalibrace
@@ -151,12 +153,12 @@ U lidí, kteří prošli vztahem postaveným na vyrobené blízkosti, je zotaven
 obnovou důvěry ve vlastní úsudek a s porozuměním, že sklon reagovat na blízkost je lidský a
 že odpovědnost za jeho zneužití nese ten, kdo ho zneužil (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-18.01` | [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) | Mirroring | vzorec | terapeutické i vlivové | střední |
 | `NLP-18.02` | [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) | Cross-over mirroring | vzorec | terapeutické i vlivové | střední |
 | `NLP-18.03` | [Pacing a leading](@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md) | Pacing and leading | vzorec | terapeutické i vlivové | vysoké |
@@ -173,6 +175,64 @@ obnovou důvěry ve vlastní úsudek a s porozuměním, že sklon reagovat na bl
 | `NLP-18.14` | [Detekce lži v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md) | Lie detection claims in NLP | pojem | výkladový pojem | vysoké |
 | `NLP-18.15` | [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) | Body-language reading in NLP | pojem | terapeutické i vlivové | střední |
 | `NLP-18.16` | [Předstíraná empatie](@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md) | Simulated empathy | vzorec | převážně vlivové | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Raport a kalibrace"]
+  click F "@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md"
+  n1["Zrcadlení"]
+  n2["Křížové zrcadlení"]
+  n3["Pacing a leading"]
+  n4["Shoda predikátů"]
+  n5["Sladění dechu"]
+  n6["Sladění hlasu a tempa"]
+  n7["Zpětné shrnutí"]
+  n8["Kalibrace souhlasu a nesouhlasu"]
+  n9["Vedení v raportu"]
+  n10["Přerušení raportu"]
+  n11["Raport se skupinou"]
+  n12["Sladění hodnot"]
+  n13["Raport jako nástroj vlivu"]
+  n14["Detekce lži v NLP"]
+  n15["Čtení řeči těla v NLP"]
+  n16["Předstíraná empatie"]
+  n3 --> n1
+  n1 --> n2
+  F --> n3
+  n3 --> n4
+  n1 --> n5
+  n1 --> n6
+  n3 --> n7
+  F --> n8
+  n3 --> n9
+  F --> n10
+  F --> n11
+  F --> n12
+  F --> n13
+  F --> n14
+  F --> n15
+  n13 --> n16
+  click n1 "@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md"
+  click n2 "@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md"
+  click n3 "@/kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading.md"
+  click n4 "@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md"
+  click n5 "@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md"
+  click n6 "@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md"
+  click n7 "@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md"
+  click n8 "@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md"
+  click n9 "@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md"
+  click n10 "@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md"
+  click n11 "@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md"
+  click n12 "@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md"
+  click n13 "@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md"
+  click n14 "@/kompendium/nlp-vzorce/raport-a-kalibrace/detekce-lzi-v-nlp.md"
+  click n15 "@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md"
+  click n16 "@/kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie.md"
+```
 
 ## Literatura
 
@@ -199,6 +259,6 @@ obnovou důvěry ve vlastní úsudek a s porozuměním, že sklon reagovat na bl
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – předchozí rodina katalogu
 - [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

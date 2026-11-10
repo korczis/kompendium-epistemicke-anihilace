@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Přesvědčení o významu", "Beliefs about meaning", "přesvědčení o tom, co věci znamenají", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Přesvědčení o významu", "Beliefs about meaning", "přesvědčení o tom, co věci znamenají", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.06"
-nlp_slug = "presvedceni-o-vyznamu"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Beliefs about meaning"
-nlp_aliases = ["přesvědčení o tom, co věci znamenají"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["komplexni-ekvivalence", "komplexni-ekvivalence-milton", "struktura-presvedceni-som", "obsahovy-reframing", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-identite", "presvedceni-jako-mapa"]
-nlp_related_declared = ["komplexni-ekvivalence", "presvedceni-o-pricine", "presvedceni-o-identite", "obsahovy-reframing", "struktura-presvedceni-som"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md"]
-nlp_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = "presvedceni-o-pricine"
-nlp_next = "presvedceni-o-identite"
-nlp_position = 6
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1999", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1999"]
-nlp_sources_roots = ["watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.06"
+catalog_slug = "presvedceni-o-vyznamu"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Beliefs about meaning"
+catalog_aliases = ["přesvědčení o tom, co věci znamenají"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["komplexni-ekvivalence", "komplexni-ekvivalence-milton", "struktura-presvedceni-som", "obsahovy-reframing", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-identite", "presvedceni-jako-mapa"]
+catalog_related_declared = ["komplexni-ekvivalence", "presvedceni-o-pricine", "presvedceni-o-identite", "obsahovy-reframing", "struktura-presvedceni-som"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = "presvedceni-o-pricine"
+catalog_next = "presvedceni-o-identite"
+catalog_position = 6
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1999", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1999"]
+catalog_sources_roots = ["watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.toml"
 +++
 
 # Přesvědčení o významu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Beliefs about meaning |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/presvedceni.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ v bezpečném vztahu, mezi hlavní fáze zotavení po traumatu (Herman 1992). Kl
 skupinový výklad nenahradil výkladem jiným, terapeutickým: cílem není nový správný význam,
 ale obnovení práva člověka o významu svých prožitků rozhodovat.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,28 +223,28 @@ ale obnovení práva člověka o významu svých prožitků rozhodovat.
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzný vzorec (Meta-model, Complex equivalence)
-- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – příbuzný vzorec (Milton-model, Complex equivalence (Milton Model))
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzný vzorec (Sleight of Mouth, Belief structure in Sleight of Mouth)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzný vzorec (Přesvědčení, Beliefs about cause)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
-- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzný vzorec (Přesvědčení, Beliefs as part of the map)
+- [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – příbuzné heslo (Meta-model, Complex equivalence)
+- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – příbuzné heslo (Milton-model, Complex equivalence (Milton Model))
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzné heslo (Sleight of Mouth, Belief structure in Sleight of Mouth)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – příbuzné heslo (Přesvědčení, Beliefs about cause)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
+- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzné heslo (Přesvědčení, Beliefs as part of the map)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – předchozí vzorec rodiny
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – předchozí heslo rodiny
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

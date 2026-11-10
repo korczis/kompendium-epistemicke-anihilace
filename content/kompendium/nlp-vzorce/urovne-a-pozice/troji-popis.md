@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Trojí popis", "Triple description", "popis ze tří pozic", "triple description", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Trojí popis", "Triple description", "popis ze tří pozic", "triple description", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.13"
-nlp_slug = "troji-popis"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Triple description"
-nlp_aliases = ["popis ze tří pozic", "triple description"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "percepcni-pozice-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["percepcni-pozice-pojem"]
-nlp_related = ["percepcni-pozice-pojem", "meta-zrcadlo", "prvni-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "disneyova-strategie", "novy-kod"]
-nlp_related_declared = ["prvni-pozice", "druha-pozice", "treti-pozice", "novy-kod", "meta-zrcadlo"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md", "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md"]
-nlp_prev = "ctvrta-pozice"
-nlp_next = "model-score"
-nlp_position = 13
-nlp_family_size = 16
-nlp_sources = ["bateson-1972", "dilts-delozier-2000", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
-nlp_sources_roots = ["bateson-1972", "watzlawick-1967"]
-nlp_sources_critical = ["gilovich-1991", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.13"
+catalog_slug = "troji-popis"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Triple description"
+catalog_aliases = ["popis ze tří pozic", "triple description"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "percepcni-pozice-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["percepcni-pozice-pojem"]
+catalog_related = ["percepcni-pozice-pojem", "meta-zrcadlo", "prvni-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "disneyova-strategie", "novy-kod"]
+catalog_related_declared = ["prvni-pozice", "druha-pozice", "treti-pozice", "novy-kod", "meta-zrcadlo"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md", "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md"]
+catalog_prev = "ctvrta-pozice"
+catalog_next = "model-score"
+catalog_position = 13
+catalog_family_size = 16
+catalog_sources = ["bateson-1972", "dilts-delozier-2000", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
+catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
+catalog_sources_critical = ["gilovich-1991", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.b.toml"
 +++
 
 # Trojí popis
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Triple description |
 | **Jiné názvy** | popis ze tří pozic, triple description |
-| **Obecnější vzorec** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
+| **Obecnější heslo** | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ probíhá ve vztazích, kde má člověk znovu právo na svůj popis událostí 
 potom má smysl k vlastnímu pohledu přidávat další, a to dobrovolně, s otevřeným výsledkem a s
 možností se k vlastnímu pohledu vrátit.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,30 +217,30 @@ možností se k vlastnímu pohledu vrátit.
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Meta-mirror)
-- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, First position)
-- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Second position)
-- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Third position)
-- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Fourth position)
-- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Disney strategy)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzné heslo (Logické úrovně a percepční pozice, Meta-mirror)
+- [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, First position)
+- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Second position)
+- [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Third position)
+- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Fourth position)
+- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzné heslo (Logické úrovně a percepční pozice, Disney strategy)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
 
 **V kompendiu**
 
-- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.2.8 Perspektivistický kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.2.8 Perspektivistický kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.4 Internalizace radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – předchozí vzorec rodiny
-- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – předchozí heslo rodiny
+- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

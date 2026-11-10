@@ -1,5 +1,5 @@
 # Rodina NLP-07: Sleight of Mouth, část b (NLP-07.09 až NLP-07.16).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py.
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py.
 
 [[pattern]]
 id = "NLP-07.09"

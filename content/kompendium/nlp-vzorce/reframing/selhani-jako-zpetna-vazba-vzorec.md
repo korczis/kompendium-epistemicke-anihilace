@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Přerámování selhání na zpětnou vazbu", "Failure into feedback", "selhání jako zpětná vazba", "failure into feedback", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Přerámování selhání na zpětnou vazbu", "Failure into feedback", "selhání jako zpětná vazba", "failure into feedback", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.17"
-nlp_slug = "selhani-jako-zpetna-vazba-vzorec"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Failure into feedback"
-nlp_aliases = ["selhání jako zpětná vazba", "failure into feedback"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "obsahovy-reframing"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["obsahovy-reframing", "reframing"]
-nlp_related = ["neni-selhani-jen-zpetna-vazba", "tote-model", "reframing", "obsahovy-reframing", "ramec-dukazu", "limitujici-presvedceni", "guru-efekt", "falzifikovatelnost-nlp"]
-nlp_related_declared = ["neni-selhani-jen-zpetna-vazba", "tote-model", "limitujici-presvedceni", "falzifikovatelnost-nlp", "guru-efekt", "ramec-dukazu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/03-zakladni-kategorie/scenar-h.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md", "kompendium/nlp-vzorce/reframing/ramec-dukazu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "deframing"
-nlp_next = ""
-nlp_position = 17
-nlp_family_size = 17
-nlp_sources = ["bateson-1972", "beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "herman-1992", "miller-galanter-pribram-1960", "norcross-2006", "oconnor-seymour-1990", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "norcross-2006", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.17"
+catalog_slug = "selhani-jako-zpetna-vazba-vzorec"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Failure into feedback"
+catalog_aliases = ["selhání jako zpětná vazba", "failure into feedback"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "obsahovy-reframing"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["obsahovy-reframing", "reframing"]
+catalog_related = ["neni-selhani-jen-zpetna-vazba", "tote-model", "reframing", "obsahovy-reframing", "ramec-dukazu", "limitujici-presvedceni", "guru-efekt", "falzifikovatelnost-nlp"]
+catalog_related_declared = ["neni-selhani-jen-zpetna-vazba", "tote-model", "limitujici-presvedceni", "falzifikovatelnost-nlp", "guru-efekt", "ramec-dukazu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/03-zakladni-kategorie/scenar-h.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md", "kompendium/nlp-vzorce/reframing/ramec-dukazu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "deframing"
+catalog_next = ""
+catalog_position = 17
+catalog_family_size = 17
+catalog_sources = ["bateson-1972", "beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "herman-1992", "miller-galanter-pribram-1960", "norcross-2006", "oconnor-seymour-1990", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "norcross-2006", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.b.toml"
 +++
 
 # Přerámování selhání na zpětnou vazbu
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Failure into feedback |
 | **Jiné názvy** | selhání jako zpětná vazba, failure into feedback |
-| **Obecnější vzorec** | [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) |
+| **Obecnější heslo** | [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ stalo, a správné rozdělení odpovědnosti mezi oběť a ty, kdo škodu způso
 Odborník, který vzorec používá terapeuticky, by měl hlídat, aby zpětná vazba mohla směřovat i k
 jeho vlastní metodě.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,28 +223,28 @@ jeho vlastní metodě.
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzný vzorec (Předpoklady NLP, There is no failure, only feedback)
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzný vzorec (Reframing a rámce, Reframing)
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Content (meaning) reframing)
-- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzný vzorec (Reframing a rámce, Evidence frame)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Falsifiability of NLP)
+- [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – příbuzné heslo (Předpoklady NLP, There is no failure, only feedback)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – příbuzné heslo (Reframing a rámce, Reframing)
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – příbuzné heslo (Reframing a rámce, Content (meaning) reframing)
+- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzné heslo (Reframing a rámce, Evidence frame)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Falsifiability of NLP)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Úroveň prostředí", "Environment level", "úroveň kontextu", "kde a kdy", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Úroveň prostředí", "Environment level", "úroveň kontextu", "kde a kdy", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.02"
-nlp_slug = "uroven-prostredi"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Environment level"
-nlp_aliases = ["úroveň kontextu", "kde a kdy"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "logicke-urovne-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["logicke-urovne-pojem"]
-nlp_related = ["kontextovy-reframing", "zarovnani-logickych-urovni", "uroven-chovani", "kontext-cile"]
-nlp_related_declared = ["uroven-chovani", "kontextovy-reframing", "kontext-cile", "zarovnani-logickych-urovni"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_prev = "zarovnani-logickych-urovni"
-nlp_next = "uroven-chovani"
-nlp_position = 2
-nlp_family_size = 16
-nlp_sources = ["bateson-1972", "dilts-1990", "dilts-delozier-2000", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1974", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
-nlp_sources_roots = ["bateson-1972", "watzlawick-1967"]
-nlp_sources_critical = ["herman-1992", "lakoff-johnson-1980", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.02"
+catalog_slug = "uroven-prostredi"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Environment level"
+catalog_aliases = ["úroveň kontextu", "kde a kdy"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "logicke-urovne-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["logicke-urovne-pojem"]
+catalog_related = ["kontextovy-reframing", "zarovnani-logickych-urovni", "uroven-chovani", "kontext-cile"]
+catalog_related_declared = ["uroven-chovani", "kontextovy-reframing", "kontext-cile", "zarovnani-logickych-urovni"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_prev = "zarovnani-logickych-urovni"
+catalog_next = "uroven-chovani"
+catalog_position = 2
+catalog_family_size = 16
+catalog_sources = ["bateson-1972", "dilts-1990", "dilts-delozier-2000", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1974", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
+catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
+catalog_sources_critical = ["herman-1992", "lakoff-johnson-1980", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.toml"
 +++
 
 # Úroveň prostředí
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.02` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Environment level |
 | **Jiné názvy** | úroveň kontextu, kde a kdy |
-| **Obecnější vzorec** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
+| **Obecnější heslo** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ Odborníci by měli při práci s klientem nejprve ověřit, v jakém prostřed�
 potom interpretovat jeho obtíže jako věc vnitřních obsahů. Navazující úroveň popisuje heslo
 [úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,26 +218,26 @@ potom interpretovat jeho obtíže jako věc vnitřních obsahů. Navazující ú
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Context reframing)
-- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Logical level alignment)
-- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Behaviour level)
-- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – příbuzný vzorec (Cíle a výsledky, Context of the outcome)
+- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzné heslo (Reframing a rámce, Context reframing)
+- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Logical level alignment)
+- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Behaviour level)
+- [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – příbuzné heslo (Cíle a výsledky, Context of the outcome)
 
 **V kompendiu**
 
-- [EA-2.2.2 Izolace svěřence (mentee isolation)](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.2 Izolace svěřence (mentee isolation)](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – předchozí vzorec rodiny
-- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – předchozí heslo rodiny
+- [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

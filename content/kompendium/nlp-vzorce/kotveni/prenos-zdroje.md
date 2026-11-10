@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Přenos zdroje", "Resource transfer", "přenos zdrojového stavu", "kotvení zdroje", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Přenos zdroje", "Resource transfer", "přenos zdrojového stavu", "kotvení zdroje", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.13"
-nlp_slug = "prenos-zdroje"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Resource transfer"
-nlp_aliases = ["přenos zdrojového stavu", "kotvení zdroje"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["lide-maji-potrebne-zdroje", "zdrojovy-stav", "samokotveni", "retezeni-kotev", "kolaps-kotev", "kruh-excelence", "zmena-osobni-historie", "zdroje-cile"]
-nlp_related_declared = ["zdrojovy-stav", "kolaps-kotev", "zmena-osobni-historie", "kruh-excelence", "retezeni-kotev", "lide-maji-potrebne-zdroje"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kruh-excelence.md", "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md"]
-nlp_prev = "kotvy-v-prezentaci"
-nlp_next = "testovani-kotvy"
-nlp_position = 13
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "beck-1976", "haley-1973", "hassan-1988", "lankton-1980", "norcross-2006", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-grinder-1979", "lankton-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["haley-1973"]
-nlp_sources_critical = ["beck-1976", "hassan-1988", "norcross-2006", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.13"
+catalog_slug = "prenos-zdroje"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Resource transfer"
+catalog_aliases = ["přenos zdrojového stavu", "kotvení zdroje"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["lide-maji-potrebne-zdroje", "zdrojovy-stav", "samokotveni", "retezeni-kotev", "kolaps-kotev", "kruh-excelence", "zmena-osobni-historie", "zdroje-cile"]
+catalog_related_declared = ["zdrojovy-stav", "kolaps-kotev", "zmena-osobni-historie", "kruh-excelence", "retezeni-kotev", "lide-maji-potrebne-zdroje"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompendium/nlp-vzorce/kotveni/kruh-excelence.md", "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md"]
+catalog_prev = "kotvy-v-prezentaci"
+catalog_next = "testovani-kotvy"
+catalog_position = 13
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "beck-1976", "haley-1973", "hassan-1988", "lankton-1980", "norcross-2006", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-grinder-1979", "lankton-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["haley-1973"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "norcross-2006", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.b.toml"
 +++
 
 # Přenos zdroje
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Resource transfer |
 | **Jiné názvy** | přenos zdrojového stavu, kotvení zdroje |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -189,7 +192,7 @@ dovednostem z doby před vstupem, je jednou z hlavních cest zotavení (Hassan 1
 praxi se pak pracuje s rozpoznáním, že schopnost prožívat klid a radost nebyla darem skupiny,
 ale vlastností člověka, kterou skupina jen přisvojila.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -211,29 +214,29 @@ ale vlastností člověka, kterou skupina jen přisvojila.
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzný vzorec (Předpoklady NLP, People have the resources they need)
-- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzný vzorec (Základní pojmy NLP, Resource state)
-- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – příbuzný vzorec (Kotvení, Self-anchoring)
-- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzný vzorec (Kotvení, Chaining anchors)
-- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzný vzorec (Kotvení, Collapsing anchors)
-- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – příbuzný vzorec (Kotvení, Circle of excellence)
-- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzný vzorec (Disociace, fobie a trauma, Change personal history)
-- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – příbuzný vzorec (Cíle a výsledky, Resources for the outcome)
+- [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – příbuzné heslo (Předpoklady NLP, People have the resources they need)
+- [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – příbuzné heslo (Základní pojmy NLP, Resource state)
+- [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – příbuzné heslo (Kotvení, Self-anchoring)
+- [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – příbuzné heslo (Kotvení, Chaining anchors)
+- [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzné heslo (Kotvení, Collapsing anchors)
+- [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – příbuzné heslo (Kotvení, Circle of excellence)
+- [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – příbuzné heslo (Disociace, fobie a trauma, Change personal history)
+- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – příbuzné heslo (Cíle a výsledky, Resources for the outcome)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-6.2.8 Somatic experiencing protokol](@/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-6.2.8 Somatic experiencing protokol](@/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – předchozí vzorec rodiny
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – předchozí heslo rodiny
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

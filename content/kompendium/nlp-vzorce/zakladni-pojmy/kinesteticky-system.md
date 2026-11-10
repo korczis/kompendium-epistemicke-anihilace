@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kinestetický reprezentační systém", "Kinaesthetic representational system", "K", "pocitový systém", "tělesný systém", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Kinestetický reprezentační systém", "Kinaesthetic representational system", "K", "pocitový systém", "tělesný systém", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.04"
-nlp_slug = "kinesteticky-system"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Kinaesthetic representational system"
-nlp_aliases = ["K", "pocitový systém", "tělesný systém"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "reprezentacni-systemy"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reprezentacni-systemy"]
-nlp_related = ["vizualni-system", "olfaktorni-a-gustatorni-system", "predikaty", "synestezie", "stav", "kotva-pojem", "kinesteticke-kotvy", "kinesteticke-submodality", "kinesteticky-swish"]
-nlp_related_declared = ["kinesteticke-submodality", "kotva-pojem", "stav", "synestezie", "predikaty"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md", "kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md", "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
-nlp_prev = "auditivni-system"
-nlp_next = "olfaktorni-a-gustatorni-system"
-nlp_position = 4
-nlp_family_size = 42
-nlp_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "heap-1988", "herman-1992", "lifton-1961", "pavlov-1927", "perls-1969", "satir-1972", "sharpley-1984", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = ["pavlov-1927", "perls-1969", "satir-1972"]
-nlp_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "sharpley-1984", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.04"
+catalog_slug = "kinesteticky-system"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Kinaesthetic representational system"
+catalog_aliases = ["K", "pocitový systém", "tělesný systém"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "reprezentacni-systemy"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reprezentacni-systemy"]
+catalog_related = ["vizualni-system", "olfaktorni-a-gustatorni-system", "predikaty", "synestezie", "stav", "kotva-pojem", "kinesteticke-kotvy", "kinesteticke-submodality", "kinesteticky-swish"]
+catalog_related_declared = ["kinesteticke-submodality", "kotva-pojem", "stav", "synestezie", "predikaty"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md", "kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md", "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+catalog_prev = "auditivni-system"
+catalog_next = "olfaktorni-a-gustatorni-system"
+catalog_position = 4
+catalog_family_size = 42
+catalog_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "heap-1988", "herman-1992", "lifton-1961", "pavlov-1927", "perls-1969", "satir-1972", "sharpley-1984", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = ["pavlov-1927", "perls-1969", "satir-1972"]
+catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "sharpley-1984", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.toml"
 +++
 
 # Kinestetický reprezentační systém
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Kinaesthetic representational system |
 | **Jiné názvy** | K, pocitový systém, tělesný systém |
-| **Obecnější vzorec** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
+| **Obecnější heslo** | [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -194,7 +197,7 @@ vrací také v kapitole o [kognitivních
 vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md), kde popisuje vtělené poznávání
 jako legitimní teoretický rámec, nikoli jako techniku vlivu.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,31 +221,31 @@ jako legitimní teoretický rámec, nikoli jako techniku vlivu.
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – příbuzný vzorec (Základní pojmy NLP, Visual representational system)
-- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzný vzorec (Základní pojmy NLP, Olfactory and gustatory systems)
-- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzný vzorec (Základní pojmy NLP, Predicates)
-- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzný vzorec (Základní pojmy NLP, Synaesthesia (NLP sense))
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzný vzorec (Kotvení, Kinaesthetic anchors)
-- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzný vzorec (Submodality, Kinaesthetic submodalities)
-- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzný vzorec (Submodality, Kinaesthetic swish)
+- [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – příbuzné heslo (Základní pojmy NLP, Visual representational system)
+- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzné heslo (Základní pojmy NLP, Olfactory and gustatory systems)
+- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzné heslo (Základní pojmy NLP, Predicates)
+- [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzné heslo (Základní pojmy NLP, Synaesthesia (NLP sense))
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzné heslo (Základní pojmy NLP, Anchor (concept))
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzné heslo (Kotvení, Kinaesthetic anchors)
+- [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – příbuzné heslo (Submodality, Kinaesthetic submodalities)
+- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzné heslo (Submodality, Kinaesthetic swish)
 
 **V kompendiu**
 
-- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.9 Rámec van der Kolka: tělo a trauma](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – předchozí vzorec rodiny
-- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – předchozí heslo rodiny
+- [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

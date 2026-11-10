@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Hierarchie kritérií", "Hierarchy of criteria", "vyšší hodnota", "přebití kritériem", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Hierarchie kritérií", "Hierarchy of criteria", "vyšší hodnota", "přebití kritériem", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.13"
-nlp_slug = "som-hierarchie-kriterii"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Hierarchy of criteria"
-nlp_aliases = ["vyšší hodnota", "přebití kritériem"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["som-zamer", "som-jiny-vysledek", "uroven-presvedceni-a-hodnot", "retezeni-presvedceni", "kriteria", "sladeni-hodnot"]
-nlp_related_declared = ["kriteria", "sladeni-hodnot", "uroven-presvedceni-a-hodnot", "som-jiny-vysledek", "som-zamer"]
-nlp_kompendium = ["kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/kriteria.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md"]
-nlp_prev = "som-strategie-reality"
-nlp_next = "som-aplikace-na-sebe"
-nlp_position = 13
-nlp_family_size = 16
-nlp_sources = ["charvet-1997", "cialdini-2009", "dilts-1999", "festinger-1957", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "dilts-1999"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "festinger-1957", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.13"
+catalog_slug = "som-hierarchie-kriterii"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Hierarchy of criteria"
+catalog_aliases = ["vyšší hodnota", "přebití kritériem"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["som-zamer", "som-jiny-vysledek", "uroven-presvedceni-a-hodnot", "retezeni-presvedceni", "kriteria", "sladeni-hodnot"]
+catalog_related_declared = ["kriteria", "sladeni-hodnot", "uroven-presvedceni-a-hodnot", "som-jiny-vysledek", "som-zamer"]
+catalog_kompendium = ["kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/metaprogramy/kriteria.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md"]
+catalog_prev = "som-strategie-reality"
+catalog_next = "som-aplikace-na-sebe"
+catalog_position = 13
+catalog_family_size = 16
+catalog_sources = ["charvet-1997", "cialdini-2009", "dilts-1999", "festinger-1957", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "dilts-1999"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "festinger-1957", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.b.toml"
 +++
 
 # Hierarchie kritérií
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Hierarchy of criteria |
 | **Jiné názvy** | vyšší hodnota, přebití kritériem |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Vzorec hierarchie kritérií nebyl, pokud je známo, samostatně testován v kon
 
 Nejúčinnější obranou je oddělit hodnotu od rozhodnutí. Lze souhlasit, že vyšší kritérium je důležité, a zároveň se ptát, zda prosazované rozhodnutí k němu skutečně přispívá a zda by k němu nepřispěly i jiné možnosti. Pomáhá vyslovit spojení nahlas: z toho, že mi záleží na bezpečí rodiny, neplyne, že musím koupit právě tento produkt dnes. Druhou obranou je čas. Apel na vyšší hodnotu působí nejsilněji v okamžiku, kdy je člověk citově zasažen, a odložení rozhodnutí umožňuje posoudit věc s menším tlakem. Třetí obranou je předem si ujasnit vlastní priority v oblastech, kde se vzorec často objevuje, například při velkých nákupech, při rozhodování o péči o blízké nebo při vstupu do skupiny; kdo zná svá kritéria, hůře přijme pořadí, které mu nabízí někdo jiný. Výzkum očkování proti přesvědčování naznačuje, že předchozí seznámení s typem argumentu a s jeho slabinami zvyšuje odolnost (McGuire 1964). U lidí, kteří dlouhodobě žili v prostředí, kde se jejich potřeby soustavně podřizovaly vyšším hodnotám skupiny nebo partnera, zahrnuje zotavení obnovu přesvědčení, že vlastní legitimní zájmy nejsou sobectvím, a postupné znovuobjevení toho, co je pro ně samotné důležité, nezávisle na rámci, který jim byl vnucen.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,27 +126,27 @@ Nejúčinnější obranou je oddělit hodnotu od rozhodnutí. Lze souhlasit, že
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzný vzorec (Sleight of Mouth, Intention)
-- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – příbuzný vzorec (Sleight of Mouth, Another outcome)
-- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Beliefs and values level)
-- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief chaining)
-- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzný vzorec (Metaprogramy, Criteria)
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzný vzorec (Raport a kalibrace, Value matching)
+- [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – příbuzné heslo (Sleight of Mouth, Intention)
+- [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – příbuzné heslo (Sleight of Mouth, Another outcome)
+- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
+- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief chaining)
+- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
 
 **V kompendiu**
 
-- [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.3.11 Axiologická inverze](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.3.11 Axiologická inverze](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – předchozí vzorec rodiny
-- [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – předchozí heslo rodiny
+- [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

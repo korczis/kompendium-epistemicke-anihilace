@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Strategie geniality", "Strategies of genius", "strategie génia", "modelování géniů", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Strategie geniality", "Strategies of genius", "strategie génia", "modelování géniů", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.09"
-nlp_slug = "strategie-geniality"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Strategies of genius"
-nlp_aliases = ["strategie génia", "modelování géniů"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "modelovani-excelence"
-nlp_narrower = ["disneyova-strategie"]
-nlp_depth = 2
-nlp_ancestors = ["modelovani-excelence", "modelovani-pojem"]
-nlp_related = ["modelovatelnost-excelence", "strategie-pojem", "tote-model", "disneyova-strategie", "strategie-uceni", "modelovani-excelence", "guru-efekt"]
-nlp_related_declared = ["disneyova-strategie", "modelovani-excelence", "guru-efekt", "tote-model", "strategie-uceni"]
-nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/critical-perspectives/_index.md", "kompendium/case-studies/62-startup-founder-cult.md"]
-nlp_links_prose = ["glossary/heuristika.md", "kompendium/case-studies/62-startup-founder-cult.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md", "kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "strategie-lasky"
-nlp_next = "modelovani-excelence"
-nlp_position = 9
-nlp_family_size = 20
-nlp_sources = ["dilts-1994", "dilts-1980", "druckman-swets-1988", "gilovich-1991", "mcguire-1964", "miller-galanter-pribram-1960", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1994", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "mcguire-1964", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.09"
+catalog_slug = "strategie-geniality"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Strategies of genius"
+catalog_aliases = ["strategie génia", "modelování géniů"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "modelovani-excelence"
+catalog_narrower = ["disneyova-strategie"]
+catalog_depth = 2
+catalog_ancestors = ["modelovani-excelence", "modelovani-pojem"]
+catalog_related = ["modelovatelnost-excelence", "strategie-pojem", "tote-model", "disneyova-strategie", "strategie-uceni", "modelovani-excelence", "guru-efekt"]
+catalog_related_declared = ["disneyova-strategie", "modelovani-excelence", "guru-efekt", "tote-model", "strategie-uceni"]
+catalog_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/critical-perspectives/_index.md", "kompendium/case-studies/62-startup-founder-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/heuristika.md", "kompendium/case-studies/62-startup-founder-cult.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md", "kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "strategie-lasky"
+catalog_next = "modelovani-excelence"
+catalog_position = 9
+catalog_family_size = 20
+catalog_sources = ["dilts-1994", "dilts-1980", "druckman-swets-1988", "gilovich-1991", "mcguire-1964", "miller-galanter-pribram-1960", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1994", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "mcguire-1964", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.toml"
 +++
 
 # Strategie geniality
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.09` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Strategies of genius |
 | **Jiné názvy** | strategie génia, modelování géniů |
-| **Obecnější vzorec** | [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) |
+| **Obecnější heslo** | [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Rekonstrukce strategií historických osobností, jak je Dilts publikoval (Dilts
 
 Základní obranou je rozlišovat mezi interpretací a důkazem. Pokud kurz nebo kniha tvrdí, že „ví, jak myslel génius“, je rozumné ptát se, z jakých pramenů rekonstrukce vychází, kdo je vybíral a jak bylo ověřeno, že převzetí postupu přináší výsledky. Druhou obranou je oddělit užitečné pravidlo od jeho legendy. Rozdělení tvorby a kritiky může pomoci i bez Disneyho, pozorné vnímání detailů i bez Holmese; hodnota pravidla se posuzuje podle užitku v konkrétní práci. Třetí obranou je všímat si, kdy se prestiž jmen používá k umlčení pochybností. Kritika metody není kritikou geniality a pochybnost o slibu přenosu není nedostatkem odvahy. Myšlenka očkování proti přesvědčování ukazuje, že znalost typické podoby přesvědčovacího argumentu zvyšuje odolnost vůči němu (McGuire 1964). Lidé, kteří do kurzů slibujících genialitu investovali mnoho času a peněz a výsledky se nedostavily, mohou prožívat zklamání obrácené proti sobě. Zotavení zahrnuje pojmenování toho, že slib byl nesplnitelný, a návrat k vlastní práci s realistickými měřítky pokroku.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,30 +124,30 @@ Základní obranou je rozlišovat mezi interpretací a důkazem. Pokud kurz nebo
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
-- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – zvláštní případ tohoto vzorce
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – obecnější heslo, jehož je toto heslo zvláštním případem
+- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzný vzorec (Předpoklady NLP, Excellence can be modelled)
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Disney strategy)
-- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzný vzorec (Strategie a modelování, Learning strategy)
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
+- [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – příbuzné heslo (Předpoklady NLP, Excellence can be modelled)
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – příbuzné heslo (Logické úrovně a percepční pozice, Disney strategy)
+- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzné heslo (Strategie a modelování, Learning strategy)
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 
 **V kompendiu**
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – předchozí vzorec rodiny
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – předchozí heslo rodiny
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

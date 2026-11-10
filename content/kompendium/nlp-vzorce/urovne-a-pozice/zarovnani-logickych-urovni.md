@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Zarovnání logických úrovní", "Logical level alignment", "sladění neurologických úrovní", "alignment úrovní", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Zarovnání logických úrovní", "Logical level alignment", "sladění neurologických úrovní", "alignment úrovní", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.01"
-nlp_slug = "zarovnani-logickych-urovni"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Logical level alignment"
-nlp_aliases = ["sladění neurologických úrovní", "alignment úrovní"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "logicke-urovne-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["logicke-urovne-pojem"]
-nlp_related = ["ekologie-zmeny", "logicke-urovne-pojem", "kongruence", "uroven-prostredi", "uroven-identity", "uroven-poslani", "zamena-logickych-urovni", "nlp-v-koucinku"]
-nlp_related_declared = ["kongruence", "uroven-identity", "uroven-poslani", "ekologie-zmeny", "nlp-v-koucinku"]
-nlp_kompendium = ["kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md", "kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
-nlp_prev = ""
-nlp_next = "uroven-prostredi"
-nlp_position = 1
-nlp_family_size = 16
-nlp_sources = ["bateson-1972", "cialdini-2009", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "satir-1972", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990"]
-nlp_sources_roots = ["bateson-1972", "satir-1972"]
-nlp_sources_critical = ["cialdini-2009", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.01"
+catalog_slug = "zarovnani-logickych-urovni"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Logical level alignment"
+catalog_aliases = ["sladění neurologických úrovní", "alignment úrovní"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "logicke-urovne-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["logicke-urovne-pojem"]
+catalog_related = ["ekologie-zmeny", "logicke-urovne-pojem", "kongruence", "uroven-prostredi", "uroven-identity", "uroven-poslani", "zamena-logickych-urovni", "nlp-v-koucinku"]
+catalog_related_declared = ["kongruence", "uroven-identity", "uroven-poslani", "ekologie-zmeny", "nlp-v-koucinku"]
+catalog_kompendium = ["kompendium/techniques/ea-5-3-1-identitarni-substituce.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md", "kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-5-3-1-identitarni-substituce.md"]
+catalog_prev = ""
+catalog_next = "uroven-prostredi"
+catalog_position = 1
+catalog_family_size = 16
+catalog_sources = ["bateson-1972", "cialdini-2009", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "satir-1972", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990"]
+catalog_sources_roots = ["bateson-1972", "satir-1972"]
+catalog_sources_critical = ["cialdini-2009", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.toml"
 +++
 
 # Zarovnání logických úrovní
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Logical level alignment |
 | **Jiné názvy** | sladění neurologických úrovní, alignment úrovní |
-| **Obecnější vzorec** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
+| **Obecnější heslo** | [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -199,7 +202,7 @@ tento proces popisuje u [identitární substituce](@/kompendium/techniques/ea-5-
 Praktici, kteří vzorec používají, by měli výslovně chránit právo klienta na vlastní obsah
 všech úrovní a nepoužívat výsledek cvičení v dalších rozhovorech, kde mají nad klientem moc.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -224,29 +227,29 @@ všech úrovní a nepoužívat výsledek cvičení v dalších rozhovorech, kde 
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzný vzorec (Předpoklady NLP, Change must respect the whole system (ecology))
-- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Logical levels (concept))
-- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzný vzorec (Základní pojmy NLP, Congruence)
-- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Environment level)
-- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Identity level)
-- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Spiritual (purpose) level)
-- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Confusing logical levels)
-- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in coaching)
+- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzné heslo (Předpoklady NLP, Change must respect the whole system (ecology))
+- [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – příbuzné heslo (Základní pojmy NLP, Logical levels (concept))
+- [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – příbuzné heslo (Logické úrovně a percepční pozice, Environment level)
+- [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – příbuzné heslo (Logické úrovně a percepční pozice, Identity level)
+- [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – příbuzné heslo (Logické úrovně a percepční pozice, Spiritual (purpose) level)
+- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – příbuzné heslo (Logické úrovně a percepční pozice, Confusing logical levels)
+- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in coaching)
 
 **V kompendiu**
 
-- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

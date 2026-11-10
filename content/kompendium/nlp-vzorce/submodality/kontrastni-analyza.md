@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kontrastní analýza", "Contrastive analysis", "porovnání submodalit", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Kontrastní analýza", "Contrastive analysis", "porovnání submodalit", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.06"
-nlp_slug = "kontrastni-analyza"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Contrastive analysis"
-nlp_aliases = ["porovnání submodalit"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "elicitace-submodalit"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["elicitace-submodalit", "submodality-pojem"]
-nlp_related = ["kontrastni-ramec", "elicitace-submodalit", "kriticke-submodality", "mapovani-napric", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami", "presvedcovaci-strategie"]
-nlp_related_declared = ["kriticke-submodality", "mapovani-napric", "zmena-presvedceni-submodalitami", "od-libosti-k-nechuti", "presvedcovaci-strategie"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/elicitace-submodalit.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "kriticke-submodality"
-nlp_next = "mapovani-napric"
-nlp_position = 6
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bateson-1972", "beck-1976", "dilts-1990", "dilts-1980", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-1980"]
-nlp_sources_roots = ["bateson-1972"]
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.06"
+catalog_slug = "kontrastni-analyza"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Contrastive analysis"
+catalog_aliases = ["porovnání submodalit"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "elicitace-submodalit"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["elicitace-submodalit", "submodality-pojem"]
+catalog_related = ["kontrastni-ramec", "elicitace-submodalit", "kriticke-submodality", "mapovani-napric", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami", "presvedcovaci-strategie"]
+catalog_related_declared = ["kriticke-submodality", "mapovani-napric", "zmena-presvedceni-submodalitami", "od-libosti-k-nechuti", "presvedcovaci-strategie"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/submodality/elicitace-submodalit.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "kriticke-submodality"
+catalog_next = "mapovani-napric"
+catalog_position = 6
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bateson-1972", "beck-1976", "dilts-1990", "dilts-1980", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-1980"]
+catalog_sources_roots = ["bateson-1972"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.toml"
 +++
 
 # Kontrastní analýza
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Contrastive analysis |
 | **Jiné názvy** | porovnání submodalit |
-| **Obecnější vzorec** | [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) |
+| **Obecnější heslo** | [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -198,7 +201,7 @@ Herman zdůrazňuje, že obnova autonomie po zkušenosti kontroly zahrnuje i obn
 jejich ověřováním a vyhnout se technikám, které by opět měnily jejich formu bez ohledu na
 důvody.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,28 +225,28 @@ důvody.
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzný vzorec (Reframing a rámce, Contrast frame)
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzný vzorec (Submodality, Mapping across)
-- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzný vzorec (Submodality, Like-to-dislike pattern)
-- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzný vzorec (Submodality, Belief change through submodalities)
-- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Convincer strategy)
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzné heslo (Reframing a rámce, Contrast frame)
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzné heslo (Submodality, Eliciting submodalities)
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzné heslo (Submodality, Critical (driver) submodalities)
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzné heslo (Submodality, Mapping across)
+- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzné heslo (Submodality, Like-to-dislike pattern)
+- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzné heslo (Submodality, Belief change through submodalities)
+- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Convincer strategy)
 
 **V kompendiu**
 
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – předchozí vzorec rodiny
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – předchozí heslo rodiny
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

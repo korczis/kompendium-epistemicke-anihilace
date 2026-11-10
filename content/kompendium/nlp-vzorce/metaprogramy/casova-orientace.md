@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Časová orientace", "Time orientation", "orientace na minulost, přítomnost a budoucnost", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Časová orientace", "Time orientation", "orientace na minulost, přítomnost a budoucnost", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.15"
-nlp_slug = "casova-orientace"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Time orientation"
-nlp_aliases = ["orientace na minulost, přítomnost a budoucnost"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["casova-osa-pojem", "elicitace-casove-osy", "v-case-a-mimo-cas", "casova-perspektiva", "k-cili-a-od-problemu", "budouci-prehravani-v-prodeji"]
-nlp_related_declared = ["v-case-a-mimo-cas", "casova-perspektiva", "casova-osa-pojem", "k-cili-a-od-problemu", "budouci-prehravani-v-prodeji"]
-nlp_kompendium = ["kompendium/techniques/ea-2-2-6-time-control-academic.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md"]
-nlp_prev = "struktura-pravidel"
-nlp_next = "emocni-zvladani"
-nlp_position = 15
-nlp_family_size = 23
-nlp_sources = ["beck-1976", "cialdini-2009", "hall-bodenhamer-1997", "herman-1992", "james-woodsmall-1988", "kahneman-2011", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["hall-bodenhamer-1997", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "kahneman-2011", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.15"
+catalog_slug = "casova-orientace"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Time orientation"
+catalog_aliases = ["orientace na minulost, přítomnost a budoucnost"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["casova-osa-pojem", "elicitace-casove-osy", "v-case-a-mimo-cas", "casova-perspektiva", "k-cili-a-od-problemu", "budouci-prehravani-v-prodeji"]
+catalog_related_declared = ["v-case-a-mimo-cas", "casova-perspektiva", "casova-osa-pojem", "k-cili-a-od-problemu", "budouci-prehravani-v-prodeji"]
+catalog_kompendium = ["kompendium/techniques/ea-2-2-6-time-control-academic.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md", "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md", "kompendium/techniques/ea-2-2-6-time-control-academic.md"]
+catalog_prev = "struktura-pravidel"
+catalog_next = "emocni-zvladani"
+catalog_position = 15
+catalog_family_size = 23
+catalog_sources = ["beck-1976", "cialdini-2009", "hall-bodenhamer-1997", "herman-1992", "james-woodsmall-1988", "kahneman-2011", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["hall-bodenhamer-1997", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "kahneman-2011", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Časová orientace
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Time orientation |
 | **Jiné názvy** | orientace na minulost, přítomnost a budoucnost |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -195,7 +198,7 @@ si člověk zvolil, a budoucností, kterou mu někdo vnutil jako odměnu za vytr
 příbuznému tématu věnuje i na stránce o [implantaci budoucího
 vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -214,27 +217,27 @@ vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md).
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
-- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzný vzorec (Časová osa, Eliciting the timeline)
-- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzný vzorec (Časová osa, In time and through time)
-- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzný vzorec (Časová osa, Time perspective)
-- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzný vzorec (Metaprogramy, Toward and away from)
-- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, Future pacing in sales)
+- [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzné heslo (Základní pojmy NLP, Timeline (concept))
+- [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzné heslo (Časová osa, Eliciting the timeline)
+- [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – příbuzné heslo (Časová osa, In time and through time)
+- [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – příbuzné heslo (Časová osa, Time perspective)
+- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzné heslo (Metaprogramy, Toward and away from)
+- [Budoucí přehrávání v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, Future pacing in sales)
 
 **V kompendiu**
 
-- [EA-2.2.6 Akademická kontrola času](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.2.6 Akademická kontrola času](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – předchozí vzorec rodiny
-- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – předchozí heslo rodiny
+- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

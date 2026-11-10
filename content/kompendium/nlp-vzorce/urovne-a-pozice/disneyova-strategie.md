@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Disneyova strategie", "Disney strategy", "snílek, realista, kritik", "Disney creativity strategy", "Logické úrovně a percepční pozice", "NLP", "neurolingvistické programování"]
+keywords = ["Disneyova strategie", "Disney strategy", "snílek, realista, kritik", "Disney creativity strategy", "Logické úrovně a percepční pozice", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-13.15"
-nlp_slug = "disneyova-strategie"
-nlp_family = "urovne-a-pozice"
-nlp_family_code = "13"
-nlp_family_title = "Logické úrovně a percepční pozice"
-nlp_family_en = "Logical levels and perceptual positions"
-nlp_part = "urovne-a-pozice.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Disney strategy"
-nlp_aliases = ["snílek, realista, kritik", "Disney creativity strategy"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "strategie-geniality"
-nlp_narrower = []
-nlp_depth = 3
-nlp_ancestors = ["strategie-geniality", "modelovani-excelence", "modelovani-pojem"]
-nlp_related = ["prostorove-kotveni", "ctvrta-pozice", "troji-popis", "strategie-geniality", "modelovani-excelence"]
-nlp_related_declared = ["strategie-geniality", "modelovani-excelence", "prostorove-kotveni", "ctvrta-pozice", "troji-popis"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/organizational-defense/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md", "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md", "kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
-nlp_prev = "model-score"
-nlp_next = "zamena-logickych-urovni"
-nlp_position = 15
-nlp_family_size = 16
-nlp_sources = ["cialdini-2009", "dilts-1994", "dilts-delozier-2000", "dilts-1980", "festinger-1957", "herman-1992", "kahneman-2011", "miller-galanter-pribram-1960", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1994", "dilts-delozier-2000", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["cialdini-2009", "festinger-1957", "herman-1992", "kahneman-2011", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/urovne-a-pozice.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-13.15"
+catalog_slug = "disneyova-strategie"
+catalog_family = "urovne-a-pozice"
+catalog_family_code = "13"
+catalog_family_title = "Logické úrovně a percepční pozice"
+catalog_family_en = "Logical levels and perceptual positions"
+catalog_part = "urovne-a-pozice.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Disney strategy"
+catalog_aliases = ["snílek, realista, kritik", "Disney creativity strategy"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "strategie-geniality"
+catalog_narrower = []
+catalog_depth = 3
+catalog_ancestors = ["strategie-geniality", "modelovani-excelence", "modelovani-pojem"]
+catalog_related = ["prostorove-kotveni", "ctvrta-pozice", "troji-popis", "strategie-geniality", "modelovani-excelence"]
+catalog_related_declared = ["strategie-geniality", "modelovani-excelence", "prostorove-kotveni", "ctvrta-pozice", "troji-popis"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/organizational-defense/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md", "kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md", "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md", "kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
+catalog_prev = "model-score"
+catalog_next = "zamena-logickych-urovni"
+catalog_position = 15
+catalog_family_size = 16
+catalog_sources = ["cialdini-2009", "dilts-1994", "dilts-delozier-2000", "dilts-1980", "festinger-1957", "herman-1992", "kahneman-2011", "miller-galanter-pribram-1960", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1994", "dilts-delozier-2000", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["cialdini-2009", "festinger-1957", "herman-1992", "kahneman-2011", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/urovne-a-pozice.b.toml"
 +++
 
 # Disneyova strategie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-13.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Disney strategy |
 | **Jiné názvy** | snílek, realista, kritik, Disney creativity strategy |
-| **Obecnější vzorec** | [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) |
+| **Obecnější heslo** | [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -186,13 +189,13 @@ podat písemně, aby nezmizely. Druhou obranou je odmítnout personalizaci role:
 mechanismy, které na vedoucím nezávisejí, například nezávislé posouzení rizik, oddělené
 schvalování nebo možnost anonymně podat námitku; kompendium je rozebírá v oddílu
 [organizační obrana](@/kompendium/organizational-defense/_index.md). U lidí, kteří v pracovním
-nebo skupinovém prostředí opakovaně zažili trest za kritické otázky, je zotavení spojeno s
+nebo skupinovém prostředí opakovaně zažili trest za [kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md), je zotavení spojeno s
 obnovou důvěry ve vlastní úsudek a s návratem ke zkušenosti, že námitka je příspěvek, ne zrada.
 Herman zdůrazňuje, že zotavení po zkušenosti kontroly probíhá ve vztazích, ve kterých má člověk
 znovu hlas a jeho slova mají váhu (Herman 1992). V dobře fungujícím týmu je role kritika
 vážená, a ne trpěná.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,27 +215,27 @@ vážená, a ne trpěná.
 
 **Rodina a hierarchie**
 
-- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Logické úrovně a percepční pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – příbuzný vzorec (Kotvení, Spatial anchoring)
-- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Fourth position)
-- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Triple description)
-- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzný vzorec (Strategie a modelování, Strategies of genius)
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
+- [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – příbuzné heslo (Kotvení, Spatial anchoring)
+- [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Fourth position)
+- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzné heslo (Logické úrovně a percepční pozice, Triple description)
+- [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – příbuzné heslo (Strategie a modelování, Strategies of genius)
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
 
 **V kompendiu**
 
-- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – předchozí vzorec rodiny
-- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Model SCORE](@/kompendium/nlp-vzorce/urovne-a-pozice/model-score.md) – předchozí heslo rodiny
+- [Záměna logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

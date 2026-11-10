@@ -1,0 +1,291 @@
+# Rodina AF-04: Kauzální klamy (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "AF-04.01"
+slug = "post-hoc"
+type = "informal"
+cs = "Po tom, tedy kvůli tomu"
+en = "Post hoc ergo propter hoc"
+aliases = ["post hoc ergo propter hoc", "klam post hoc"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["korelace-a-kauzalita", "klam-regrese", "odvolani-na-anekdotu", "klam-placebo", "pricina-a-nasledek", "spojky-a-implikovana-pricinnost"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Den poté, co jsem začala nosit ten náramek, mě přestala bolet záda. Lékaři tomu můžou říkat jak chtějí, ale mně pomohl náramek."
+context = "Účastnice internetové diskuse o bolestech zad doporučuje výrobek ostatním."
+benign = false
+marker = "Jediným důkazem příčinné souvislosti je to, že zlepšení přišlo po začátku nošení; přirozený průběh potíží a jiné změny nejsou zváženy."
+response = "Zeptat se, jak by vypadal průběh bez náramku: bolesti zad často samy odeznívají, a o účinku vypovídá až srovnání se skupinou, která výrobek nenosila."
+
+[[pattern.trainer]]
+utterance = "Po každém z pěti podání léku se do hodiny objevila stejná vyrážka a po vysazení zmizela; při opětovném podání se vrátila. Lék proto považuji za pravděpodobnou příčinu."
+context = "Lékař zapisuje podezření na nežádoucí účinek do dokumentace."
+benign = true
+marker = "Časová posloupnost je jen výchozí stopa; přidává se opakovatelnost, vymizení po vysazení a návrat po opětovném podání."
+response = "Jde o rozumný úsudek: opakované střídání expozice a jejího odnětí vylučuje velkou část náhodných souběhů a závěr je formulován jako pravděpodobný, ne jistý."
+
+[[pattern]]
+id = "AF-04.02"
+slug = "korelace-a-kauzalita"
+type = "informal"
+cs = "Záměna korelace a kauzality"
+en = "Cum hoc ergo propter hoc"
+aliases = ["cum hoc ergo propter hoc", "korelace není kauzalita", "klam souběhu"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["post-hoc", "obracena-kauzalita", "prehlizena-spolecna-pricina", "ekologicky-klam", "simpsonuv-paradox", "zkresleny-vyber"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/population-health/_index.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Okresy, kde je víc kaváren, mají vyšší průměrné příjmy. Kdo chce zbohatnout region, ať tam podporuje otevírání kaváren."
+context = "Komentář k návrhu regionální hospodářské politiky."
+benign = false
+marker = "Ze souběhu dvou veličin se vyvozuje, že jedna působí druhou, a z toho rovnou opatření; směr vztahu ani společné příčiny nejsou zváženy."
+response = "Ukázat, že vyšší příjmy mohou vést ke vzniku kaváren a že obojí může souviset s velikostí a hustotou města; souběh sám nevypovídá o tom, co by změnilo zásah."
+
+[[pattern.trainer]]
+utterance = "V našich datech jde vyšší spotřeba alkoholu ruku v ruce s vyšším krevním tlakem. Sama korelace příčinu neprokazuje, proto ji porovnáváme s intervenčními studiemi."
+context = "Epidemioložka komentuje výsledek průřezové studie."
+benign = true
+marker = "Souvislost je popsána jako korelace a závěr o příčině se odkládá, dokud ji nepodpoří jiný typ důkazu."
+response = "Jde o správné užití: korelace slouží jako hypotéza a o příčinnosti se rozhoduje až nezávislými důkazy, které vylučují obrácený směr a matoucí faktory."
+
+[[pattern]]
+id = "AF-04.03"
+slug = "jedina-pricina"
+type = "informal"
+cs = "Jediná příčina"
+en = "Fallacy of the single cause"
+aliases = ["klam jediné příčiny", "monokauzální vysvětlení"]
+use = "dvoji"
+risk = "stredni"
+broader = "zjednodusena-kauzalita"
+related = ["obracena-kauzalita", "falesne-dilema", "korenova-pricina", "presvedceni-o-pricine", "texasky-strelec"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Za krachem firmy je jediná věc: nový finanční ředitel. Před jeho příchodem jsme byli v pořádku, takže stačí najít viníka a máme hotovo."
+context = "Člen dozorčí rady na mimořádném jednání po insolvenčním návrhu."
+benign = false
+marker = "Složitý výsledek s mnoha souběžnými podmínkami (trh, úvěry, předchozí rozhodnutí) se připisuje jedné osobě a hledání dalších příčin se výslovně uzavírá."
+response = "Ptát se, které další podmínky musely být přítomny, aby rozhodnutí jednoho člověka vedla ke krachu, a zda by bez nich k němu došlo; podíl jednotlivce se tím nepopírá, jen zasazuje."
+
+[[pattern.trainer]]
+utterance = "Kouření je u tohoto pacienta hlavním rizikovým faktorem, ale k infarktu přispěla i neléčená hypertenze, rodinná zátěž a dlouhodobý stres."
+context = "Kardiolog shrnuje anamnézu na konziliu."
+benign = true
+marker = "Zdůrazní se nejvýznamnější faktor, aniž by se ostatní příčiny vytěsnily; vysvětlení zůstává vícečetné."
+response = "Jde o přiměřené vážení příčin: určení hlavního faktoru je legitimní, pokud se zároveň neztrácí ostatní podmínky, které k výsledku vedly."
+
+[[pattern]]
+id = "AF-04.04"
+slug = "obracena-kauzalita"
+type = "informal"
+cs = "Obrácená kauzalita"
+en = "Reverse causation"
+aliases = ["záměna příčiny a následku", "obrácený směr příčinnosti"]
+use = "dvoji"
+risk = "vysoke"
+broader = "korelace-a-kauzalita"
+related = ["prehlizena-spolecna-pricina", "post-hoc", "pricina-a-nasledek", "jedina-pricina"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+  "kompendium/population-health/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdybys nebyla tak úzkostná a podezíravá, nemusel bych ti nic tajit. Moje mlčení je jen reakce na tvoje výslechy."
+context = "Partner reaguje na otázky po zjištění, že skrývá dluhy."
+benign = false
+marker = "Následek (úzkost a otázky po odhalení tajemství) se vydává za příčinu tajení, takže odpovědnost přechází na toho, kdo na skutečnou příčinu reaguje."
+response = "Vrátit se k časové ose: co bylo dřív, tajení, nebo otázky. Úzkost, která následuje po zjištění skrývaných dluhů, je pochopitelná reakce, ne jejich příčina."
+
+[[pattern.trainer]]
+utterance = "Lidé s chronickou bolestí méně cvičí, ale z toho nevíme, zda nečinnost bolest zhoršuje, nebo bolest brání pohybu; nejspíš platí obojí, a proto to ověřujeme v intervenční studii."
+context = "Fyzioterapeut vysvětluje studentům výsledek observační studie."
+benign = true
+marker = "Oba směry vztahu jsou výslovně zváženy, včetně možné vzájemné smyčky, a rozhodnutí se odkládá na vhodný design studie."
+response = "Jde o správné užití: kdo připustí oba směry a hledá data, která je rozliší, se obrácené kauzalitě vyhýbá."
+
+[[pattern]]
+id = "AF-04.05"
+slug = "prehlizena-spolecna-pricina"
+type = "informal"
+cs = "Přehlížená společná příčina"
+en = "Ignoring a common cause"
+aliases = ["skrytá třetí proměnná", "matoucí proměnná", "zavádějící souvislost"]
+use = "dvoji"
+risk = "stredni"
+broader = "korelace-a-kauzalita"
+related = ["obracena-kauzalita", "simpsonuv-paradox", "ekologicky-klam", "zkresleny-vyber", "zjednodusena-kauzalita"]
+kompendium = [
+  "kompendium/population-health/_index.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/forensic-legal/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Děti, které mají doma hodně knih, mají lepší známky. Rozdávejme proto rodinám knihovny a školní výsledky se zlepší samy."
+context = "Návrh na zasedání obecní rady."
+benign = false
+marker = "Souvislost dvou jevů, které mohou obě vycházet ze vzdělání a zájmů rodičů, se vykládá jako přímý účinek jednoho na druhý."
+response = "Zeptat se, co mají rodiny s mnoha knihami společného jinak než knihy; dokud se vliv vzdělání a příjmu rodičů nezohlední, nelze od darovaných knih čekat stejný efekt."
+
+[[pattern.trainer]]
+utterance = "Ve vzorku byly ženy, které užívaly doplněk, zdravější, ale byly také mladší a víc sportovaly; po zohlednění věku a pohybu se rozdíl téměř ztratil."
+context = "Statistička komentuje observační studii pro redakci odborného časopisu."
+benign = true
+marker = "Kandidáti na společnou příčinu jsou pojmenováni a jejich vliv na souvislost je zkoumán, nikoli přehlížen."
+response = "Jde o správný postup analýzy: kontrola věku a pohybu ukázala, že původní souvislost byla z velké části dána společnými faktory."
+
+[[pattern]]
+id = "AF-04.06"
+slug = "texasky-strelec"
+type = "informal"
+cs = "Texaský střelec"
+en = "Texas sharpshooter"
+aliases = ["klam texaského ostrostřelce", "terč dokreslený po výstřelu"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["vyber-tresnicek", "hledani-jinde", "horka-ruka", "zakon-malych-cisel", "magicke-mysleni"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/forensic-legal/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podívejte se na mapu: v téhle ulici měli rakovinu tři sousedé během deseti let a hned vedle stojí vysílač. Víc důkazů snad netřeba."
+context = "Petice za odstranění vysílače mobilního operátora."
+benign = false
+marker = "Shluk se vybral až po prohlédnutí dat a hranice oblasti i období se nakreslily tak, aby ho obepínaly; chybí srovnání s očekávaným výskytem."
+response = "Zeptat se, kolik podobných shluků by vzniklo náhodou ve stejně velkých oblastech bez vysílače a zda byla hypotéza stanovena před pohledem na data."
+
+[[pattern.trainer]]
+utterance = "Předem jsme v protokolu určili oblast, období a hranici pro poplach; teprve pak jsme spočítali výskyt a porovnali ho s celostátním očekáváním."
+context = "Pracovník krajské hygienické stanice popisuje šetření hlášeného shluku onemocnění."
+benign = true
+marker = "Terč je stanoven před výstřelem: hypotéza, hranice a srovnávací míra jsou dány předem, ne podle toho, kde se data shlukují."
+response = "Jde o správný postup: předem stanovená hypotéza a srovnání s očekáváním brání tomu, aby se náhodný shluk vydával za nález."
+
+[[pattern]]
+id = "AF-04.07"
+slug = "klam-regrese"
+type = "informal"
+cs = "Klam regrese"
+en = "Regression fallacy"
+aliases = ["regresní klam", "přehlížená regrese k průměru"]
+use = "chyba"
+risk = "stredni"
+broader = "post-hoc"
+related = ["zakon-malych-cisel", "klam-placebo", "odvolani-na-anekdotu", "hracsky-klam"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Do kurzu jsme poslali deset obchodníků s nejhoršími čísly za čtvrtletí a další čtvrtletí měli skoro všichni lepší výsledky. Kurz zjevně funguje."
+context = "Personální ředitel hodnotí vzdělávací program."
+benign = false
+marker = "Výběr podle mimořádně špatného výkonu a následné zlepšení se připisují zásahu, ačkoli by se extrémní výsledky k průměru vracely i bez něj."
+response = "Zeptat se, jak se v dalším čtvrtletí vedlo srovnatelně slabým obchodníkům, kteří kurz nedostali; bez srovnávací skupiny nelze účinek oddělit od regrese k průměru."
+
+[[pattern.trainer]]
+utterance = "Pacienty zařazujeme podle dvou měření tlaku a výsledek léčby porovnáváme s kontrolní skupinou, protože při jednom vysokém měření se hodnoty často samy vracejí k obvyklé úrovni."
+context = "Vedoucí klinické studie vysvětluje její design etické komisi."
+benign = true
+marker = "Regrese k průměru je předvídána a design studie ji odděluje od účinku léčby opakovaným měřením a kontrolní skupinou."
+response = "Jde o správný postup: kontrolní skupina vybraná stejným způsobem zachytí regresi k průměru a o účinku vypovídá teprve rozdíl mezi skupinami."
+
+[[pattern]]
+id = "AF-04.08"
+slug = "zjednodusena-kauzalita"
+type = "informal"
+cs = "Zjednodušená kauzalita"
+en = "Causal oversimplification"
+aliases = ["kauzální zjednodušení", "zjednodušené vysvětlení příčin"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["jedina-pricina", "falesne-dilema", "kluzky-svah", "presvedceni-o-pricine", "protoze"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kriminalita roste, protože soudy jsou měkké. Zpřísněte tresty a bude klid, všechno ostatní jsou jen výmluvy sociologů."
+context = "Předvolební diskuse kandidátů do zastupitelstva."
+benign = false
+marker = "Mnohovrstevný jev se vysvětluje jedním řetězem příčin vedoucím přímo k jednoduchému opatření a jiné faktory se předem odbývají jako výmluvy."
+response = "Ptát se, jaké další podmínky se na vývoji kriminality podílejí a co o účinku přísnějších trestů říkají data; jednoduchý řetěz je třeba zasadit do sítě příčin."
+
+[[pattern.trainer]]
+utterance = "Pro veřejnost to zjednoduším: hlavním důvodem rostoucí obezity je dostupnost levného kaloricky bohatého jídla, ale podílí se i pohyb, spánek, příjmy a genetika."
+context = "Lékařka vysvětluje výsledky výzkumu v rozhlasovém pořadu."
+benign = true
+marker = "Zjednodušení je výslovně ohlášeno jako zjednodušení a vedlejší příčiny zůstávají pojmenovány."
+response = "Jde o legitimní didaktické zjednodušení: posluchač ví, že jde o hlavní faktor, ne o úplné vysvětlení, a může se ptát dál."
+
+[[pattern]]
+id = "AF-04.09"
+slug = "magicke-mysleni"
+type = "concept"
+cs = "Magické myšlení"
+en = "Magical thinking"
+aliases = ["magické uvažování", "pověrečné usuzování"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["post-hoc", "texasky-strelec", "nefalzifikovatelnost", "presvedceni-a-zdravi", "guru-efekt"]
+kompendium = [
+  "kompendium/case-studies/50-spiritual-cult-recovery.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje nemoc se vrátila, protože jsi přestala věřit naplno. Když se uzdravíš, bude to síla víry; když ne, pochybovala jsi."
+context = "Vedoucí duchovní skupiny mluví s členkou, které se zhoršila diagnóza."
+benign = false
+marker = "Vnitřní stav (víra, myšlenky) se vydává za příčinu tělesného děje a každý výsledek se vyloží jako potvrzení, takže tvrzení nelze vyvrátit a vina dopadá na nemocnou."
+response = "Pojmenovat, že výklad je nastaven tak, aby platil při jakémkoli výsledku, a vrátit rozhodování o léčbě k lékařskému posouzení; průběh nemoci není měřítkem víry ani viny."
+
+[[pattern.trainer]]
+utterance = "Před zkouškou si vždycky beru stejné tričko pro štěstí. Vím, že na výsledek nemá vliv, ale uklidní mě to a líp se soustředím."
+context = "Student vysvětluje kamarádovi svůj rituál."
+benign = true
+marker = "Rituál je vědomě odlišen od příčinného působení na výsledek; jeho funkce je uklidňující a nikomu neškodí."
+response = "Jde o neškodné užití: člověk ví, že tričko výsledek neovlivňuje, a rituál nenahrazuje přípravu ani nepřesouvá odpovědnost."

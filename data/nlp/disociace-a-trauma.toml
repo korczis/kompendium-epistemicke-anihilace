@@ -1,4 +1,4 @@
-# Rodina NLP-11: Disociace, fobie a trauma (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Rodina NLP-11: Disociace, fobie a trauma (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
 # Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
 # Klinicky citlivá rodina: stránky popisují strukturu, tvrzení, důkazy a rizika, nikdy postup.
 

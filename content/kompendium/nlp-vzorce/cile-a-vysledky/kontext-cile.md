@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Kontext cíle", "Context of the outcome", "kdy, kde a s kým", "kontextové vymezení cíle", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Kontext cíle", "Context of the outcome", "kdy, kde a s kým", "kontextové vymezení cíle", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.05"
-nlp_slug = "kontext-cile"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Context of the outcome"
-nlp_aliases = ["kdy, kde a s kým", "kontextové vymezení cíle"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "dobre-formulovany-vysledek"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["dobre-formulovany-vysledek"]
-nlp_related = ["ramec-pojem", "kontextovy-reframing", "uroven-prostredi", "ekologie-cile"]
-nlp_related_declared = ["kontextovy-reframing", "ramec-pojem", "ekologie-cile", "uroven-prostredi"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/case-studies/62-startup-founder-cult.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/case-studies/62-startup-founder-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md"]
-nlp_prev = "cil-pod-vlastni-kontrolou"
-nlp_next = "zdroje-cile"
-nlp_position = 5
-nlp_family_size = 10
-nlp_sources = ["bandler-grinder-1982", "bateson-1972", "dilts-delozier-2000", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "satir-1972", "singer-lalich-1995", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "dilts-delozier-2000", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.05"
+catalog_slug = "kontext-cile"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Context of the outcome"
+catalog_aliases = ["kdy, kde a s kým", "kontextové vymezení cíle"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "dobre-formulovany-vysledek"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["dobre-formulovany-vysledek"]
+catalog_related = ["ramec-pojem", "kontextovy-reframing", "uroven-prostredi", "ekologie-cile"]
+catalog_related_declared = ["kontextovy-reframing", "ramec-pojem", "ekologie-cile", "uroven-prostredi"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/case-studies/62-startup-founder-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/03-zakladni-kategorie/scenar-k/_index.md", "kompendium/case-studies/62-startup-founder-cult.md", "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md", "kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md"]
+catalog_prev = "cil-pod-vlastni-kontrolou"
+catalog_next = "zdroje-cile"
+catalog_position = 5
+catalog_family_size = 10
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "dilts-delozier-2000", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "satir-1972", "singer-lalich-1995", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Kontext cíle
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Context of the outcome |
 | **Jiné názvy** | kdy, kde a s kým, kontextové vymezení cíle |
-| **Obecnější vzorec** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
+| **Obecnější heslo** | [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ hodnota člověka nezávisí na výkonu. Herman popisuje závěrečnou fázi zot
 jako znovunavázání spojení s lidmi a s běžným životem, které podobným způsobem obnovuje
 prostor mimo to, co člověka ovládalo (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,25 +215,25 @@ prostor mimo to, co člověka ovládalo (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Frame (concept))
-- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Context reframing)
-- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Environment level)
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzný vzorec (Cíle a výsledky, Ecology of the outcome)
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – příbuzné heslo (Základní pojmy NLP, Frame (concept))
+- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzné heslo (Reframing a rámce, Context reframing)
+- [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – příbuzné heslo (Logické úrovně a percepční pozice, Environment level)
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)
 
 **V kompendiu**
 
-- [Scénář K: pokročilá konfigurace – totalizace skrze výkon a roli](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Scénář K: pokročilá konfigurace – totalizace skrze výkon a roli](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 62: Kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – předchozí vzorec rodiny
-- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – předchozí heslo rodiny
+- [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

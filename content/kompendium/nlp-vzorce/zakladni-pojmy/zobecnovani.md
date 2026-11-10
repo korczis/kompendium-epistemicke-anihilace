@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Zobecňování", "Generalisation", "generalizace", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Zobecňování", "Generalisation", "generalizace", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.35"
-nlp_slug = "zobecnovani"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.d"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Generalisation"
-nlp_aliases = ["generalizace"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["vypousteni", "zkreslovani", "meta-model", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "som-zobecneni", "som-protipriklad", "limitujici-presvedceni", "presvedceni-jako-mapa"]
-nlp_related_declared = ["vypousteni", "zkreslovani", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "limitujici-presvedceni"]
-nlp_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md", "kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "zkreslovani"
-nlp_next = "hluboka-a-povrchova-struktura"
-nlp_position = 35
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "korzybski-1933", "lifton-1961", "passmore-rowson-2019", "tversky-kahneman-1974"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1990"]
-nlp_sources_roots = ["korzybski-1933"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tversky-kahneman-1974"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.35"
+catalog_slug = "zobecnovani"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.d"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Generalisation"
+catalog_aliases = ["generalizace"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["vypousteni", "zkreslovani", "meta-model", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "som-zobecneni", "som-protipriklad", "limitujici-presvedceni", "presvedceni-jako-mapa"]
+catalog_related_declared = ["vypousteni", "zkreslovani", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "limitujici-presvedceni"]
+catalog_kompendium = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md", "kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "zkreslovani"
+catalog_next = "hluboka-a-povrchova-struktura"
+catalog_position = 35
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "korzybski-1933", "lifton-1961", "passmore-rowson-2019", "tversky-kahneman-1974"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1990"]
+catalog_sources_roots = ["korzybski-1933"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tversky-kahneman-1974"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.d.toml"
 +++
 
 # Zobecňování
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.35` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Generalisation |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -124,7 +127,7 @@ protože událost lze napravit, pravidlo lze porušit, ale identitu člověk vn�
 Dilts tento rozdíl zpracoval v modelu logických úrovní, podle něhož sdělení na úrovni
 identity zasahuje hlouběji než sdělení na úrovni chování (Dilts 1990). Bez ohledu na
 spornost celého modelu je toto rozlišení užitečné pro pozorovatele: ukazuje, kde se z
-kritiky činu stává útok na osobu.
+kritiky činu stává [útok na osobu](@/kompendium/argumentacni-fauly/relevance/ad-hominem.md).
 
 ## Detekční znaky
 
@@ -197,7 +200,7 @@ schopnosti posoudit sebe sama nezávisle na hodnocení toho, kdo nad člověkem 
 1992). Odborník by měl sledovat i vlastní řeč, protože diagnostické nebo hodnotící soudy
 pronesené autoritou mohou mít na klienta účinek obdobného zobecnění.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -217,30 +220,30 @@ pronesené autoritou mohou mít na klienta účinek obdobného zobecnění.
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzný vzorec (Základní pojmy NLP, Deletion)
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzný vzorec (Základní pojmy NLP, Distortion)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – příbuzný vzorec (Meta-model, Universal quantifier)
-- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – příbuzný vzorec (Meta-model, Modal operator of necessity)
-- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzný vzorec (Sleight of Mouth, Chunk up)
-- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzný vzorec (Sleight of Mouth, Counter-example)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzný vzorec (Přesvědčení, Beliefs as part of the map)
+- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzné heslo (Základní pojmy NLP, Deletion)
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzné heslo (Základní pojmy NLP, Distortion)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – příbuzné heslo (Meta-model, Universal quantifier)
+- [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – příbuzné heslo (Meta-model, Modal operator of necessity)
+- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzné heslo (Sleight of Mouth, Chunk up)
+- [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – příbuzné heslo (Sleight of Mouth, Counter-example)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – příbuzné heslo (Přesvědčení, Beliefs as part of the map)
 
 **V kompendiu**
 
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – předchozí vzorec rodiny
-- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – předchozí heslo rodiny
+- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

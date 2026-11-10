@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Shoda a rozdíl", "Sameness and difference", "rozhodovací faktory", "vztah ke změně", "hledání shody a hledání rozdílu", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Shoda a rozdíl", "Sameness and difference", "rozhodovací faktory", "vztah ke změně", "hledání shody a hledání rozdílu", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.05"
-nlp_slug = "shoda-a-rozdil"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Sameness and difference"
-nlp_aliases = ["rozhodovací faktory", "vztah ke změně", "hledání shody a hledání rozdílu"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["kontrastni-ramec", "integrace-polarit", "obecne-a-specificke", "rezim-presvedceni", "metaprogramy-v-marketingu"]
-nlp_related_declared = ["kontrastni-ramec", "integrace-polarit", "rezim-presvedceni", "obecne-a-specificke", "metaprogramy-v-marketingu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md", "kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md", "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_prev = "obecne-a-specificke"
-nlp_next = "proaktivni-a-reaktivni"
-nlp_position = 5
-nlp_family_size = 23
-nlp_sources = ["bateson-1972", "charvet-1997", "cialdini-2009", "festinger-1957", "hall-bodenhamer-1997", "kahneman-2011", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "watzlawick-1974"]
-nlp_sources_critical = ["cialdini-2009", "festinger-1957", "kahneman-2011", "mcguire-1964", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.05"
+catalog_slug = "shoda-a-rozdil"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Sameness and difference"
+catalog_aliases = ["rozhodovací faktory", "vztah ke změně", "hledání shody a hledání rozdílu"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["kontrastni-ramec", "integrace-polarit", "obecne-a-specificke", "rezim-presvedceni", "metaprogramy-v-marketingu"]
+catalog_related_declared = ["kontrastni-ramec", "integrace-polarit", "rezim-presvedceni", "obecne-a-specificke", "metaprogramy-v-marketingu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md", "kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md", "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+catalog_prev = "obecne-a-specificke"
+catalog_next = "proaktivni-a-reaktivni"
+catalog_position = 5
+catalog_family_size = 23
+catalog_sources = ["bateson-1972", "charvet-1997", "cialdini-2009", "festinger-1957", "hall-bodenhamer-1997", "kahneman-2011", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "watzlawick-1974"]
+catalog_sources_critical = ["cialdini-2009", "festinger-1957", "kahneman-2011", "mcguire-1964", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.toml"
 +++
 
 # Shoda a rozdíl
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Sameness and difference |
 | **Jiné názvy** | rozhodovací faktory, vztah ke změně, hledání shody a hledání rozdílu |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -184,7 +187,7 @@ Singer a Lalich popisují, jak bývalí členové postupně oddělují vlastní 
 převzaté doktríny (Singer a Lalich 1995). Souvislost s režimem, v němž se člověk přesvědčuje,
 rozvádí stránka o [režimu přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -205,27 +208,27 @@ rozvádí stránka o [režimu přesvědčení](@/kompendium/nlp-vzorce/metaprogr
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzný vzorec (Reframing a rámce, Contrast frame)
-- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzný vzorec (Práce s částmi, Polarity integration)
-- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – příbuzný vzorec (Metaprogramy, General and specific)
-- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer mode)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzné heslo (Reframing a rámce, Contrast frame)
+- [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – příbuzné heslo (Práce s částmi, Polarity integration)
+- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – příbuzné heslo (Metaprogramy, General and specific)
+- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer mode)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – předchozí vzorec rodiny
-- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – předchozí heslo rodiny
+- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

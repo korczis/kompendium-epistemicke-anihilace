@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Cyklus změny přesvědčení", "Belief change cycle", "přirozený cyklus změny přesvědčení", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Cyklus změny přesvědčení", "Belief change cycle", "přirozený cyklus změny přesvědčení", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.01"
-nlp_slug = "cyklus-zmeny-presvedceni"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Belief change cycle"
-nlp_aliases = ["přirozený cyklus změny přesvědčení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["muzeum-starych-presvedceni"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["sleight-of-mouth", "zmena-presvedceni-submodalitami", "uroven-presvedceni-a-hodnot", "muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "retezeni-presvedceni"]
-nlp_related_declared = ["muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "zmena-presvedceni-submodalitami", "sleight-of-mouth"]
-nlp_kompendium = ["kompendium/techniques/ea-7-2-7-quine-web-belief.md", "kompendium/case-studies/06-cult-recovery-12-let.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md", "kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md", "kompendium/techniques/ea-7-2-7-quine-web-belief.md"]
-nlp_prev = ""
-nlp_next = "muzeum-starych-presvedceni"
-nlp_position = 1
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "dilts-1999", "dilts-delozier-2000", "festinger-1957", "hassan-1988", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "dilts-delozier-2000"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "festinger-1957", "hassan-1988", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.01"
+catalog_slug = "cyklus-zmeny-presvedceni"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Belief change cycle"
+catalog_aliases = ["přirozený cyklus změny přesvědčení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["muzeum-starych-presvedceni"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["sleight-of-mouth", "zmena-presvedceni-submodalitami", "uroven-presvedceni-a-hodnot", "muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "retezeni-presvedceni"]
+catalog_related_declared = ["muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "zmena-presvedceni-submodalitami", "sleight-of-mouth"]
+catalog_kompendium = ["kompendium/techniques/ea-7-2-7-quine-web-belief.md", "kompendium/case-studies/06-cult-recovery-12-let.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md", "kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md", "kompendium/techniques/ea-7-2-7-quine-web-belief.md"]
+catalog_prev = ""
+catalog_next = "muzeum-starych-presvedceni"
+catalog_position = 1
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "dilts-1999", "dilts-delozier-2000", "festinger-1957", "hassan-1988", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "dilts-delozier-2000"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "festinger-1957", "hassan-1988", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.toml"
 +++
 
 # Cyklus změny přesvědčení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Belief change cycle |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/presvedceni.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -206,7 +209,7 @@ důkazů (Singer a Lalich 1995). Postup obnovy poznávací samostatnosti popisuj
 Odborník, který s modelem pracuje, by měl výslovně připustit, že cyklus může skončit jinde,
 než předpokládá, a že klient smí odejít s přesvědčením, se kterým přišel.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -231,29 +234,29 @@ než předpokládá, a že klient smí odejít s přesvědčením, se kterým p�
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – zvláštní případ tohoto vzorce
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzný vzorec (Sleight of Mouth, Sleight of Mouth)
-- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzný vzorec (Submodality, Belief change through submodalities)
-- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Beliefs and values level)
-- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzný vzorec (Přesvědčení, Museum of old beliefs)
-- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief audit)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzný vzorec (Přesvědčení, Hopelessness, helplessness, worthlessness)
-- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzný vzorec (Přesvědčení, Belief chaining)
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – příbuzné heslo (Sleight of Mouth, Sleight of Mouth)
+- [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – příbuzné heslo (Submodality, Belief change through submodalities)
+- [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
+- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzné heslo (Přesvědčení, Museum of old beliefs)
+- [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief audit)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md) – příbuzné heslo (Přesvědčení, Hopelessness, helplessness, worthlessness)
+- [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief chaining)
 
 **V kompendiu**
 
-- [EA-7.2.7 Quine: Síť přesvědčení](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 06: Zotavení po dvanácti letech v kultu](@/kompendium/case-studies/06-cult-recovery-12-let.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-7.2.7 Quine: Síť přesvědčení](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 06: Zotavení po dvanácti letech v kultu](@/kompendium/case-studies/06-cult-recovery-12-let.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

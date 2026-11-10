@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-ericksonovska-hypnoza"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Ericksonovská hypnóza", "Ericksonian hypnosis", "NLP"]
+keywords = ["Ericksonovská hypnóza", "Ericksonian hypnosis", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "ericksonovska-hypnoza"
-nlp_code = "05"
-nlp_en = "Ericksonian hypnosis"
-nlp_size = 28
-nlp_members = ["ericksonovska-hypnoza", "utilizace", "konfuzni-technika", "preruseni-vzorce", "indukce-podanim-ruky", "levitace-ruky", "vnorene-smycky", "seeding", "predepsani-symptomu", "paradoxni-intervence", "posthypnoticka-sugesce", "vekova-regrese", "pseudoorientace-v-case", "muj-pritel-john", "technika-prolozeni", "vrstveni-realit", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba", "apozice-protikladu", "slozena-sugesce", "implikovane-direktivum", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "amnezie-sugesci"]
-nlp_types = ["pattern"]
-nlp_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "norcross-2006", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "watzlawick-1974", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "ericksonovska-hypnoza"
+catalog_code = "05"
+catalog_en = "Ericksonian hypnosis"
+catalog_size = 28
+catalog_members = ["ericksonovska-hypnoza", "utilizace", "konfuzni-technika", "preruseni-vzorce", "indukce-podanim-ruky", "levitace-ruky", "vnorene-smycky", "seeding", "predepsani-symptomu", "paradoxni-intervence", "posthypnoticka-sugesce", "vekova-regrese", "pseudoorientace-v-case", "muj-pritel-john", "technika-prolozeni", "vrstveni-realit", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba", "apozice-protikladu", "slozena-sugesce", "implikovane-direktivum", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "amnezie-sugesci"]
+catalog_types = ["pattern"]
+catalog_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "norcross-2006", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "watzlawick-1974", "witkowski-2010"]
 +++
 
 # Ericksonovská hypnóza
@@ -159,12 +161,12 @@ bezpečný vztah, ve kterém má člověk znovu právo na vlastní výklad svýc
 1992). Klinici, kteří s hypnózou pracují, nesou zvláštní odpovědnost: informovaný
 souhlas, vysvětlení bez mystifikace a vědomí rizik sugesce pro paměť.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-05.01` | [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) | Ericksonian hypnosis | vzorec | terapeutické i vlivové | střední |
 | `NLP-05.02` | [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) | Utilisation | vzorec | terapeutické i vlivové | střední |
 | `NLP-05.03` | [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) | Confusion technique | vzorec | terapeutické i vlivové | vysoké |
@@ -193,6 +195,100 @@ souhlas, vysvětlení bez mystifikace a vědomí rizik sugesce pro paměť.
 | `NLP-05.26` | [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) | Fractionation | vzorec | převážně vlivové | vysoké |
 | `NLP-05.27` | [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) | Overload induction | vzorec | převážně vlivové | vysoké |
 | `NLP-05.28` | [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) | Suggested amnesia | vzorec | terapeutické i vlivové | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Ericksonovská hypnóza"]
+  click F "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md"
+  n1["Ericksonovská hypnóza"]
+  n2["Utilizace"]
+  n3["Konfuzní technika"]
+  n4["Přerušení vzorce"]
+  n5["Indukce podáním ruky"]
+  n6["Levitace ruky"]
+  n7["Vnořené smyčky"]
+  n8["Zasévání myšlenky"]
+  n9["Předepsání symptomu"]
+  n10["Paradoxní intervence"]
+  n11["Posthypnotická sugesce"]
+  n12["Věková regrese"]
+  n13["Pseudoorientace v čase"]
+  n14["Můj přítel John"]
+  n15["Technika proložení"]
+  n16["Vrstvení realit"]
+  n17["Terapeutická dvojná vazba"]
+  n18["Vědomě-nevědomá dvojná vazba"]
+  n19["Dvojitá disociativní vazba"]
+  n20["Apozice protikladů"]
+  n21["Složená sugesce"]
+  n22["Implikované direktivum"]
+  n23["Otevřená sugesce"]
+  n24["Sugesce pokrývající všechny možnosti"]
+  n25["Ideomotorická signalizace"]
+  n26["Frakcionace"]
+  n27["Indukce přetížením"]
+  n28["Navozená amnézie"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  n4 --> n5
+  n1 --> n6
+  n1 --> n7
+  n1 --> n8
+  n10 --> n9
+  F --> n10
+  n1 --> n11
+  n1 --> n12
+  n1 --> n13
+  n1 --> n14
+  n1 --> n15
+  n1 --> n16
+  n1 --> n17
+  n17 --> n18
+  n17 --> n19
+  n21 --> n20
+  n1 --> n21
+  n1 --> n22
+  n1 --> n23
+  n1 --> n24
+  n1 --> n25
+  n1 --> n26
+  n1 --> n27
+  n1 --> n28
+  click n1 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md"
+  click n2 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md"
+  click n3 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md"
+  click n4 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md"
+  click n5 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md"
+  click n6 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md"
+  click n7 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md"
+  click n8 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md"
+  click n9 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md"
+  click n10 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md"
+  click n11 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md"
+  click n12 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md"
+  click n13 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/pseudoorientace-v-case.md"
+  click n14 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md"
+  click n15 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md"
+  click n16 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md"
+  click n17 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md"
+  click n18 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md"
+  click n19 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md"
+  click n20 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md"
+  click n21 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md"
+  click n22 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md"
+  click n23 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce.md"
+  click n24 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md"
+  click n25 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md"
+  click n26 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md"
+  click n27 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md"
+  click n28 "@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md"
+```
 
 ## Literatura
 
@@ -223,6 +319,6 @@ souhlas, vysvětlení bez mystifikace a vědomí rizik sugesce pro paměť.
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – předchozí rodina katalogu
 - [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

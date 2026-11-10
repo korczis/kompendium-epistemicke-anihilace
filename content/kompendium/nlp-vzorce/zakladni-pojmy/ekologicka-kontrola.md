@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Ekologická kontrola", "Ecology check", "kontrola ekologie", "ověření ekologie", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Ekologická kontrola", "Ecology check", "kontrola ekologie", "ověření ekologie", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.27"
-nlp_slug = "ekologicka-kontrola"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.c"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Ecology check"
-nlp_aliases = ["kontrola ekologie", "ověření ekologie"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["ekologie-zmeny", "sestikrokovy-reframing", "ramec-ekologie", "testovani-kotvy", "novy-kod", "integrace-casti", "vyjednavani-casti", "kartezske-otazky", "dobre-formulovany-vysledek", "ekologie-cile"]
-nlp_related_declared = ["ekologie-zmeny", "ramec-ekologie", "ekologie-cile", "sestikrokovy-reframing", "integrace-casti"]
-nlp_kompendium = ["kompendium/08-prilohy/eticky-kodex.md", "kompendium/01-predmluva/eticke-aspekty.md", "kompendium/techniques/ea-4-2-6-consent-withdrawal.md"]
-nlp_links_prose = ["glossary/informed-consent.md", "kompendium/08-prilohy/eticky-kodex.md", "kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/nlp-vzorce/reframing/ramec-ekologie.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md", "kompendium/techniques/ea-4-2-6-consent-withdrawal.md"]
-nlp_prev = "inkongruence"
-nlp_next = "ramec-pojem"
-nlp_position = 27
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1982", "bateson-1972", "cialdini-2009", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972"]
-nlp_sources_critical = ["cialdini-2009", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Ekologická kontrola v koučinku a na seminářích", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.27"
+catalog_slug = "ekologicka-kontrola"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.c"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Ecology check"
+catalog_aliases = ["kontrola ekologie", "ověření ekologie"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["ekologie-zmeny", "sestikrokovy-reframing", "ramec-ekologie", "testovani-kotvy", "novy-kod", "integrace-casti", "vyjednavani-casti", "kartezske-otazky", "dobre-formulovany-vysledek", "ekologie-cile"]
+catalog_related_declared = ["ekologie-zmeny", "ramec-ekologie", "ekologie-cile", "sestikrokovy-reframing", "integrace-casti"]
+catalog_kompendium = ["kompendium/08-prilohy/eticky-kodex.md", "kompendium/01-predmluva/eticke-aspekty.md", "kompendium/techniques/ea-4-2-6-consent-withdrawal.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/informed-consent.md", "kompendium/08-prilohy/eticky-kodex.md", "kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/nlp-vzorce/reframing/ramec-ekologie.md", "kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md", "kompendium/techniques/ea-4-2-6-consent-withdrawal.md"]
+catalog_prev = "inkongruence"
+catalog_next = "ramec-pojem"
+catalog_position = 27
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "cialdini-2009", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972"]
+catalog_sources_critical = ["cialdini-2009", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Ekologická kontrola v koučinku a na seminářích", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.c.toml"
 +++
 
 # Ekologická kontrola
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.27` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Ecology check |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -104,7 +107,7 @@ Ekologická kontrola není empiricky testovaná technika, ale pracovní zásada,
 
 Základní obranou je nepovažovat žádnou proběhlou proceduru za závaznou. Souhlas je odvolatelný a pochybnost, která přijde po rozhodnutí, je platnou informací, ne „starým vzorcem“. Kdo má pocit, že byl k závazku dotlačen, může se k rozhodnutí vrátit s odstupem, v klidu a s lidmi, kteří na něm nemají zájem. Druhou obranou je posuzovat vnější důsledky, ne jen vnitřní pocit. Užitečné je si sepsat, co rozhodnutí znamená finančně, časově a pro vztahy, a toto shrnutí probrat s někým mimo situaci. Třetí obranou je všímat si, zda „ekologické“ je vždy to, co chce druhá strana. Pokud ano, nejde o ověření, ale o legitimizaci. Lidé, kteří po intenzivních kurzech nebo ve skupinách přijali závazky, jež později litovali, mívají pocit selhání a viny. Zotavení se opírá o rozpoznání tlaku, kterému byli vystaveni, o obnovení vztahů mimo skupinu a o návrat k vlastnímu úsudku (Singer a Lalich 1995). Odborník, který ekologickou kontrolu používá, by ji měl vést tak, aby výsledek „nevím“ nebo „ne“ byl stejně přijatelný jako „ano“.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,31 +126,31 @@ Základní obranou je nepovažovat žádnou proběhlou proceduru za závaznou. S
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzný vzorec (Předpoklady NLP, Change must respect the whole system (ecology))
-- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Six-step reframing)
-- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzný vzorec (Reframing a rámce, Ecology frame)
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzný vzorec (Kotvení, Testing an anchor)
-- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzný vzorec (Strategie a modelování, NLP New Code)
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzný vzorec (Práce s částmi, Parts integration)
-- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzný vzorec (Práce s částmi, Parts negotiation)
-- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzný vzorec (Přesvědčení, Cartesian questions)
-- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzný vzorec (Cíle a výsledky, Well-formed outcome)
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzný vzorec (Cíle a výsledky, Ecology of the outcome)
+- [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – příbuzné heslo (Předpoklady NLP, Change must respect the whole system (ecology))
+- [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – příbuzné heslo (Reframing a rámce, Six-step reframing)
+- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzné heslo (Reframing a rámce, Ecology frame)
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – příbuzné heslo (Kotvení, Testing an anchor)
+- [Nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) – příbuzné heslo (Strategie a modelování, NLP New Code)
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
+- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzné heslo (Práce s částmi, Parts negotiation)
+- [Kartézské otázky](@/kompendium/nlp-vzorce/presvedceni/kartezske-otazky.md) – příbuzné heslo (Přesvědčení, Cartesian questions)
+- [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – příbuzné heslo (Cíle a výsledky, Well-formed outcome)
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – příbuzné heslo (Cíle a výsledky, Ecology of the outcome)
 
 **V kompendiu**
 
-- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-4.2.6 Consent withdrawal](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-4.2.6 Consent withdrawal](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – předchozí vzorec rodiny
-- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – předchozí heslo rodiny
+- [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

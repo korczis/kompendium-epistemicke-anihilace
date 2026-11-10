@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-presupozice"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Jazykové presupozice", "Linguistic presuppositions", "NLP"]
+keywords = ["Jazykové presupozice", "Linguistic presuppositions", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "presupozice"
-nlp_code = "06"
-nlp_en = "Linguistic presuppositions"
-nlp_size = 19
-nlp_members = ["jazykove-presupozice", "existencni-presupozice", "presupozice-casovych-vet", "poradove-cislovky", "presupozice-nebo", "predikaty-uvedomeni", "komentarova-adverbia", "slovesa-zmeny-casu", "opakovaci-slova", "kvalifikatory-jen-i", "srovnavaci-presupozice", "otazky-s-presupozici", "vztazne-vety-presupozice", "kontrafaktualni-podminky", "faktivni-slovesa", "implikativni-slovesa", "rozstepene-vety", "presupozice-v-reklame", "presupozice-ve-vyslechu"]
-nlp_types = ["pattern"]
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "kahneman-2011", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "presupozice"
+catalog_code = "06"
+catalog_en = "Linguistic presuppositions"
+catalog_size = 19
+catalog_members = ["jazykove-presupozice", "existencni-presupozice", "presupozice-casovych-vet", "poradove-cislovky", "presupozice-nebo", "predikaty-uvedomeni", "komentarova-adverbia", "slovesa-zmeny-casu", "opakovaci-slova", "kvalifikatory-jen-i", "srovnavaci-presupozice", "otazky-s-presupozici", "vztazne-vety-presupozice", "kontrafaktualni-podminky", "faktivni-slovesa", "implikativni-slovesa", "rozstepene-vety", "presupozice-v-reklame", "presupozice-ve-vyslechu"]
+catalog_types = ["pattern"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "kahneman-2011", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
 +++
 
 # Jazykové presupozice
@@ -159,12 +161,12 @@ tvrzena ani doložena, jen předpokládána. Herman popisuje obnovu vlastního h
 výkladu zkušenosti jako jádro zotavení po dlouhodobém nátlaku (Herman 1992) a tato práce
 probíhá nejlépe v bezpečném vztahu, ve kterém má člověk znovu právo na vlastní popis událostí.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-06.01` | [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) | Linguistic presuppositions | vzorec | terapeutické i vlivové | vysoké |
 | `NLP-06.02` | [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) | Existential presupposition | vzorec | terapeutické i vlivové | střední |
 | `NLP-06.03` | [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) | Subordinate clauses of time | vzorec | terapeutické i vlivové | střední |
@@ -184,6 +186,73 @@ probíhá nejlépe v bezpečném vztahu, ve kterém má člověk znovu právo na
 | `NLP-06.17` | [Vytýkací konstrukce](@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md) | Cleft sentences | vzorec | terapeutické i vlivové | střední |
 | `NLP-06.18` | [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) | Presuppositions in advertising | vzorec | převážně vlivové | střední |
 | `NLP-06.19` | [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md) | Presuppositions in questioning and testimony | vzorec | převážně vlivové | vysoké |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Jazykové presupozice"]
+  click F "@/kompendium/nlp-vzorce/presupozice/_index.md"
+  n1["Jazykové presupozice"]
+  n2["Existenční presupozice"]
+  n3["Presupozice časových vět"]
+  n4["Pořadové číslovky"]
+  n5["Presupozice spojky „nebo“"]
+  n6["Predikáty uvědomění"]
+  n7["Komentářová příslovce a přídavná jména"]
+  n8["Slovesa změny času a stavu"]
+  n9["Opakovací slova"]
+  n10["Částice „jen“, „i“, „dokonce“"]
+  n11["Srovnávací presupozice"]
+  n12["Otázky s presupozicí"]
+  n13["Vztažné věty jako presupozice"]
+  n14["Kontrafaktuální podmínky"]
+  n15["Faktivní slovesa"]
+  n16["Implikativní slovesa"]
+  n17["Vytýkací konstrukce"]
+  n18["Presupozice v reklamě"]
+  n19["Presupozice ve výslechu a svědectví"]
+  F --> n1
+  n1 --> n2
+  n1 --> n3
+  n1 --> n4
+  n1 --> n5
+  n1 --> n6
+  n1 --> n7
+  n1 --> n8
+  n1 --> n9
+  n1 --> n10
+  n1 --> n11
+  n1 --> n12
+  n1 --> n13
+  n1 --> n14
+  n1 --> n15
+  n1 --> n16
+  n1 --> n17
+  n1 --> n18
+  n1 --> n19
+  click n1 "@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md"
+  click n2 "@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md"
+  click n3 "@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md"
+  click n4 "@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md"
+  click n5 "@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md"
+  click n6 "@/kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md"
+  click n7 "@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md"
+  click n8 "@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md"
+  click n9 "@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md"
+  click n10 "@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md"
+  click n11 "@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md"
+  click n12 "@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md"
+  click n13 "@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md"
+  click n14 "@/kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky.md"
+  click n15 "@/kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md"
+  click n16 "@/kompendium/nlp-vzorce/presupozice/implikativni-slovesa.md"
+  click n17 "@/kompendium/nlp-vzorce/presupozice/rozstepene-vety.md"
+  click n18 "@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md"
+  click n19 "@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md"
+```
 
 ## Literatura
 
@@ -210,6 +279,6 @@ probíhá nejlépe v bezpečném vztahu, ve kterém má člověk znovu právo na
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – předchozí rodina katalogu
 - [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

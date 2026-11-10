@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Smyčkové strategie", "Looping strategies", "strategie bez výstupu", "looping", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Smyčkové strategie", "Looping strategies", "strategie bez výstupu", "looping", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.19"
-nlp_slug = "smyckove-strategie"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Looping strategies"
-nlp_aliases = ["strategie bez výstupu", "looping"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "strategie-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["strategie-pojem"]
-nlp_related = ["tote-model", "vnitrni-dialog", "elicitace-strategie", "rozhodovaci-strategie", "presvedcovaci-strategie"]
-nlp_related_declared = ["tote-model", "rozhodovaci-strategie", "presvedcovaci-strategie", "vnitrni-dialog", "elicitace-strategie"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["glossary/heuristika.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md"]
-nlp_prev = "generator-noveho-chovani"
-nlp_next = "modelovani-nevedomim"
-nlp_position = 19
-nlp_family_size = 20
-nlp_sources = ["beck-1976", "charvet-1997", "dilts-1980", "ellis-1962", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "miller-galanter-pribram-1960", "sharpley-1987", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "dilts-1980"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "sharpley-1987", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.19"
+catalog_slug = "smyckove-strategie"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Looping strategies"
+catalog_aliases = ["strategie bez výstupu", "looping"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "strategie-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["strategie-pojem"]
+catalog_related = ["tote-model", "vnitrni-dialog", "elicitace-strategie", "rozhodovaci-strategie", "presvedcovaci-strategie"]
+catalog_related_declared = ["tote-model", "rozhodovaci-strategie", "presvedcovaci-strategie", "vnitrni-dialog", "elicitace-strategie"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/heuristika.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md"]
+catalog_prev = "generator-noveho-chovani"
+catalog_next = "modelovani-nevedomim"
+catalog_position = 19
+catalog_family_size = 20
+catalog_sources = ["beck-1976", "charvet-1997", "dilts-1980", "ellis-1962", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "miller-galanter-pribram-1960", "sharpley-1987", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "dilts-1980"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "sharpley-1987", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Smyčkové strategie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Looping strategies |
 | **Jiné názvy** | strategie bez výstupu, looping |
-| **Obecnější vzorec** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
+| **Obecnější heslo** | [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -101,7 +104,7 @@ Pojem smyčkové strategie je popisný a nebyl předmětem samostatného kontrol
 
 Proti vnitřní smyčce pomáhá doplnit chybějící výstup: stanovit konkrétní, splnitelná kritéria a časovou hranici, po níž se rozhodne podle toho, co je k dispozici. Užitečné je uvědomit si, že úplná jistota není dosažitelná a že rozumné rozhodnutí se dělá při rozumné míře informací. Pokud přemítání přetrvává a narušuje spánek, práci nebo vztahy, je vhodné vyhledat odbornou pomoc, protože může jít o projev úzkostné nebo depresivní poruchy. Proti smyčce nastavené zvenčí je hlavní obranou pojmenovat nesplnitelné kritérium. Otázka „podle čeho přesně poznám, že jsem připravená“ často odhalí, že odpověď neexistuje nebo že se mění. Druhou obranou je převzít kritérium zpět: rozhodnout se podle vlastních, konkrétních měřítek, nikoli podle toho, zda to druhý uzná. Třetí obranou je vnější pohled. Člověk mimo vztah nebo skupinu může snáze vidět, že měřítko je posouváno, a potvrdit, že pochybnost není důkazem nepřipravenosti, ale běžnou součástí každého závažného rozhodnutí. U lidí, kteří v takové smyčce žili dlouhodobě, přetrvává po odchodu sklon k sebeobviňování a k pocitu, že nikdy nejsou dost dobří. V zotavení pomáhá postupné obnovování realistických měřítek a zkušenost, že rozhodnutí lze udělat a unést i bez úplné jistoty (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -121,27 +124,27 @@ Proti vnitřní smyčce pomáhá doplnit chybějící výstup: stanovit konkrét
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzný vzorec (Strategie a modelování, Strategy elicitation)
-- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Decision strategy)
-- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzný vzorec (Strategie a modelování, Convincer strategy)
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – příbuzné heslo (Strategie a modelování, Strategy elicitation)
+- [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Decision strategy)
+- [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – příbuzné heslo (Strategie a modelování, Convincer strategy)
 
 **V kompendiu**
 
-- [EA-2.5.8 Rekurzivní spirála pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.17 Implantace nekonečného regresu](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.8 Rekurzivní spirála pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.17 Implantace nekonečného regresu](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – předchozí vzorec rodiny
-- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – předchozí heslo rodiny
+- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

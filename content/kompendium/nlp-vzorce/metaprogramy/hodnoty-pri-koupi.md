@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Hodnoty při koupi", "Value buying", "nákupní kritéria", "cena, pohodlí, kvalita, čas", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Hodnoty při koupi", "Value buying", "nákupní kritéria", "cena, pohodlí, kvalita, čas", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.17"
-nlp_slug = "hodnoty-pri-koupi"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Value buying"
-nlp_aliases = ["nákupní kritéria", "cena, pohodlí, kvalita, čas"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["kriteria", "rezim-presvedceni", "metaprogramy-v-marketingu", "sladeni-hodnot", "nlp-v-prodeji"]
-nlp_related_declared = ["metaprogramy-v-marketingu", "kriteria", "nlp-v-prodeji", "rezim-presvedceni"]
-nlp_kompendium = ["kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/metaprogramy/kriteria.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md"]
-nlp_prev = "emocni-zvladani"
-nlp_next = "odpovednost"
-nlp_position = 17
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "cialdini-2009", "hall-bodenhamer-1997", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.17"
+catalog_slug = "hodnoty-pri-koupi"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Value buying"
+catalog_aliases = ["nákupní kritéria", "cena, pohodlí, kvalita, čas"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["kriteria", "rezim-presvedceni", "metaprogramy-v-marketingu", "sladeni-hodnot", "nlp-v-prodeji"]
+catalog_related_declared = ["metaprogramy-v-marketingu", "kriteria", "nlp-v-prodeji", "rezim-presvedceni"]
+catalog_kompendium = ["kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/metaprogramy/kriteria.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md"]
+catalog_prev = "emocni-zvladani"
+catalog_next = "odpovednost"
+catalog_position = 17
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "cialdini-2009", "hall-bodenhamer-1997", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Hodnoty při koupi
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.17` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Value buying |
 | **Jiné názvy** | nákupní kritéria, cena, pohodlí, kvalita, čas |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ předchozí seznámení se s oslabenou podobou přesvědčovací techniky zvyšu
 studu od poučení: rozpoznání, že na zkratky úsudku slyší každý, a že chyba nebyla v
 nedostatku inteligence, ale v situaci, která byla navržena tak, aby srovnání znesnadnila.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,26 +219,26 @@ nedostatku inteligence, ale v situaci, která byla navržena tak, aby srovnání
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzný vzorec (Metaprogramy, Criteria)
-- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer mode)
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzný vzorec (Metaprogramy, Meta-programs in marketing)
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzný vzorec (Raport a kalibrace, Value matching)
-- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in sales)
+- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
+- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer mode)
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
+- [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
 
 **V kompendiu**
 
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.3.2 Tversky a Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – předchozí vzorec rodiny
-- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – předchozí heslo rodiny
+- [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

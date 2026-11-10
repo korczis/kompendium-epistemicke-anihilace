@@ -1,5 +1,5 @@
-# Rodina NLP-17: Metaprogramy, část b (NLP-17.13 až NLP-17.23; pravidlo project.nlp-catalog;
-# schéma v scripts/nlp-catalog.py). Pořadí záznamů je pořadí identifikátorů.
+# Rodina NLP-17: Metaprogramy, část b (NLP-17.13 až NLP-17.23; pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů.
 
 [[pattern]]
 id = "NLP-17.13"

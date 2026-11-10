@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vzorec Godiva", "Godiva chocolate pattern", "motivační vzorec Godiva", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Vzorec Godiva", "Godiva chocolate pattern", "motivační vzorec Godiva", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.12"
-nlp_slug = "vzorec-godiva"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Godiva chocolate pattern"
-nlp_aliases = ["Godiva chocolate pattern", "motivační vzorec Godiva"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "mapovani-napric"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["mapovani-napric", "submodality-pojem"]
-nlp_related = ["kotvy-v-reklame", "kriticke-submodality", "mapovani-napric", "swish", "od-libosti-k-nechuti", "motivacni-strategie"]
-nlp_related_declared = ["mapovani-napric", "kriticke-submodality", "motivacni-strategie", "swish", "kotvy-v-reklame"]
-nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
-nlp_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "vyhozeni-kompulze"
-nlp_next = "od-libosti-k-nechuti"
-nlp_position = 12
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "druckman-swets-1988", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "tosey-mathison-2009"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "tosey-mathison-2009"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.12"
+catalog_slug = "vzorec-godiva"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Godiva chocolate pattern"
+catalog_aliases = ["Godiva chocolate pattern", "motivační vzorec Godiva"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "mapovani-napric"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["mapovani-napric", "submodality-pojem"]
+catalog_related = ["kotvy-v-reklame", "kriticke-submodality", "mapovani-napric", "swish", "od-libosti-k-nechuti", "motivacni-strategie"]
+catalog_related_declared = ["mapovani-napric", "kriticke-submodality", "motivacni-strategie", "swish", "kotvy-v-reklame"]
+catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "vyhozeni-kompulze"
+catalog_next = "od-libosti-k-nechuti"
+catalog_position = 12
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "druckman-swets-1988", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "tosey-mathison-2009"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "tosey-mathison-2009"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Vzorec Godiva
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Godiva chocolate pattern |
 | **Jiné názvy** | Godiva chocolate pattern, motivační vzorec Godiva |
-| **Obecnější vzorec** | [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) |
+| **Obecnější heslo** | [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -188,7 +191,7 @@ Zotavení spočívá v postupném hledání vlastních zdrojů radosti a zájmu,
 která je dříve určovala. Herman zdůrazňuje, že obnova autonomie po zkušenosti kontroly vyžaduje
 vztahy, v nichž člověk znovu sám rozhoduje o svých cílech (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -207,27 +210,27 @@ vztahy, v nichž člověk znovu sám rozhoduje o svých cílech (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzný vzorec (Kotvení, Anchors in advertising)
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzný vzorec (Submodality, Mapping across)
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzný vzorec (Submodality, Swish pattern)
-- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzný vzorec (Submodality, Like-to-dislike pattern)
-- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzný vzorec (Strategie a modelování, Motivation strategy)
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – příbuzné heslo (Kotvení, Anchors in advertising)
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzné heslo (Submodality, Critical (driver) submodalities)
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzné heslo (Submodality, Mapping across)
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzné heslo (Submodality, Swish pattern)
+- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzné heslo (Submodality, Like-to-dislike pattern)
+- [Motivační strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md) – příbuzné heslo (Strategie a modelování, Motivation strategy)
 
 **V kompendiu**
 
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – předchozí vzorec rodiny
-- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – předchozí heslo rodiny
+- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

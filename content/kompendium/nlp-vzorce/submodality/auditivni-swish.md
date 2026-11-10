@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Auditivní swish", "Auditory swish", "zvukový swish", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Auditivní swish", "Auditory swish", "zvukový swish", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.10"
-nlp_slug = "auditivni-swish"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Auditory swish"
-nlp_aliases = ["zvukový swish"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "swish"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["swish", "submodality-pojem"]
-nlp_related = ["vnitrni-dialog", "auditivni-kotvy", "auditivni-submodality", "swish", "kinesteticky-swish", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace"]
-nlp_related_declared = ["auditivni-submodality", "kinesteticky-swish", "zmena-vnitrniho-hlasu", "vnitrni-dialog", "auditivni-kotvy"]
-nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/submodality/swish.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
-nlp_prev = "kinesteticky-swish"
-nlp_next = "vyhozeni-kompulze"
-nlp_position = 10
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "druckman-swets-1988", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sturt-2012", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979"]
-nlp_sources_roots = ["satir-1972", "watzlawick-1967"]
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.10"
+catalog_slug = "auditivni-swish"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Auditory swish"
+catalog_aliases = ["zvukový swish"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "swish"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["swish", "submodality-pojem"]
+catalog_related = ["vnitrni-dialog", "auditivni-kotvy", "auditivni-submodality", "swish", "kinesteticky-swish", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace"]
+catalog_related_declared = ["auditivni-submodality", "kinesteticky-swish", "zmena-vnitrniho-hlasu", "vnitrni-dialog", "auditivni-kotvy"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/submodality/swish.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
+catalog_prev = "kinesteticky-swish"
+catalog_next = "vyhozeni-kompulze"
+catalog_position = 10
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "druckman-swets-1988", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sturt-2012", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979"]
+catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.toml"
 +++
 
 # Auditivní swish
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.10` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Auditory swish |
 | **Jiné názvy** | zvukový swish |
-| **Obecnější vzorec** | [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) |
+| **Obecnější heslo** | [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ práva na vlastní úsudek (Herman 1992). Přehled
 [terapeutických přístupů](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) v
 kompendiu uvádí ověřené cesty práce se sebekritikou.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,28 +225,28 @@ kompendiu uvádí ověřené cesty práce se sebekritikou.
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzný vzorec (Základní pojmy NLP, Internal dialogue)
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzný vzorec (Kotvení, Auditory and tonal anchors)
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzný vzorec (Submodality, Auditory submodalities)
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzný vzorec (Submodality, Swish pattern)
-- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzný vzorec (Submodality, Kinaesthetic swish)
-- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzný vzorec (Submodality, Changing the inner voice)
-- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzný vzorec (Submodality, Inner critic pattern)
+- [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – příbuzné heslo (Základní pojmy NLP, Internal dialogue)
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – příbuzné heslo (Submodality, Auditory submodalities)
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzné heslo (Submodality, Swish pattern)
+- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzné heslo (Submodality, Kinaesthetic swish)
+- [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – příbuzné heslo (Submodality, Changing the inner voice)
+- [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzné heslo (Submodality, Inner critic pattern)
 
 **V kompendiu**
 
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – předchozí vzorec rodiny
-- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – předchozí heslo rodiny
+- [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

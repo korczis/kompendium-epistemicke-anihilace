@@ -12,16 +12,18 @@ tags = ["nlp", "nlp-submodality"]
 categories = ["academic"]
 toc = true
 lang = "cs"
-keywords = ["Submodality", "Submodalities", "NLP"]
+keywords = ["Submodality", "Submodalities", "NLP vzorce"]
 schema_type = "DefinedTermSet"
-nlp_schema = 1
-nlp_family = "submodality"
-nlp_code = "10"
-nlp_en = "Submodalities"
-nlp_size = 20
-nlp_members = ["elicitace-submodalit", "vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kriticke-submodality", "kontrastni-analyza", "mapovani-napric", "swish", "kinesteticky-swish", "auditivni-swish", "vyhozeni-kompulze", "vzorec-godiva", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami", "prahovy-vzorec", "zmena-vnitrniho-hlasu", "filmova-technika", "prostorove-umisteni-obrazu", "submodality-v-reklame", "zmena-kriticke-sebeprezentace"]
-nlp_types = ["concept", "pattern"]
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-1980", "druckman-swets-1988", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog = "nlp"
+catalog_schema = 1
+catalog_export = "data/nlp-katalog.json"
+catalog_family = "submodality"
+catalog_code = "10"
+catalog_en = "Submodalities"
+catalog_size = 20
+catalog_members = ["elicitace-submodalit", "vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kriticke-submodality", "kontrastni-analyza", "mapovani-napric", "swish", "kinesteticky-swish", "auditivni-swish", "vyhozeni-kompulze", "vzorec-godiva", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami", "prahovy-vzorec", "zmena-vnitrniho-hlasu", "filmova-technika", "prostorove-umisteni-obrazu", "submodality-v-reklame", "zmena-kriticke-sebeprezentace"]
+catalog_types = ["concept", "pattern"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-1980", "druckman-swets-1988", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 +++
 
 # Submodality
@@ -155,12 +157,12 @@ kompendiu ukazuje, že s představami, návyky i následky kontroly lze pracovat
 Odborník, který s technikami této rodiny pracuje, by měl klientovi otevřeně říci, že jejich
 účinnost není prokázána, a cíl změny vždy ponechat na něm.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
-## Vzorce rodiny
+## Hesla rodiny
 
-| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |
-|-----|--------|----------|------|-------|--------|
+| Kód | Heslo | Anglicky | Druh | Užití | Riziko |
+|-----|-------|----------|------|-------|--------|
 | `NLP-10.01` | [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) | Eliciting submodalities | vzorec | terapeutické i vlivové | střední |
 | `NLP-10.02` | [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) | Visual submodalities | pojem | výkladový pojem | nízké |
 | `NLP-10.03` | [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) | Auditory submodalities | pojem | výkladový pojem | nízké |
@@ -181,6 +183,76 @@ Odborník, který s technikami této rodiny pracuje, by měl klientovi otevřen�
 | `NLP-10.18` | [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) | Spatial location of images | vzorec | terapeutické i vlivové | střední |
 | `NLP-10.19` | [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) | Submodalities in advertising and media | vzorec | převážně vlivové | střední |
 | `NLP-10.20` | [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) | Inner critic pattern | vzorec | terapeutické i vlivové | střední |
+
+## Mapa rodiny
+
+Mapu odvozuje engine katalogů z vazeb „obecnější heslo“; uzel otevře heslo.
+
+```mermaid
+flowchart LR
+  F["Submodality"]
+  click F "@/kompendium/nlp-vzorce/submodality/_index.md"
+  n1["Elicitace submodalit"]
+  n2["Vizuální submodality"]
+  n3["Auditivní submodality"]
+  n4["Kinestetické submodality"]
+  n5["Kritické submodality"]
+  n6["Kontrastní analýza"]
+  n7["Mapování napříč"]
+  n8["Swish"]
+  n9["Kinestetický swish"]
+  n10["Auditivní swish"]
+  n11["Rozbití kompulze"]
+  n12["Vzorec Godiva"]
+  n13["Od libosti k nechuti"]
+  n14["Změna přesvědčení přes submodality"]
+  n15["Prahový vzorec"]
+  n16["Změna vnitřního hlasu"]
+  n17["Filmová technika"]
+  n18["Prostorové umístění představ"]
+  n19["Submodality v reklamě a médiích"]
+  n20["Vzorec vnitřního kritika"]
+  F --> n1
+  F --> n2
+  F --> n3
+  F --> n4
+  F --> n5
+  n1 --> n6
+  F --> n7
+  F --> n8
+  n8 --> n9
+  n8 --> n10
+  F --> n11
+  n7 --> n12
+  n7 --> n13
+  n7 --> n14
+  F --> n15
+  F --> n16
+  F --> n17
+  F --> n18
+  F --> n19
+  n16 --> n20
+  click n1 "@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md"
+  click n2 "@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md"
+  click n3 "@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md"
+  click n4 "@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md"
+  click n5 "@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md"
+  click n6 "@/kompendium/nlp-vzorce/submodality/kontrastni-analyza.md"
+  click n7 "@/kompendium/nlp-vzorce/submodality/mapovani-napric.md"
+  click n8 "@/kompendium/nlp-vzorce/submodality/swish.md"
+  click n9 "@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md"
+  click n10 "@/kompendium/nlp-vzorce/submodality/auditivni-swish.md"
+  click n11 "@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md"
+  click n12 "@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md"
+  click n13 "@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md"
+  click n14 "@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md"
+  click n15 "@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md"
+  click n16 "@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md"
+  click n17 "@/kompendium/nlp-vzorce/submodality/filmova-technika.md"
+  click n18 "@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md"
+  click n19 "@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md"
+  click n20 "@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md"
+```
 
 ## Literatura
 
@@ -209,6 +281,6 @@ Odborník, který s technikami této rodiny pracuje, by měl klientovi otevřen�
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – předchozí rodina katalogu
 - [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání vzorců této rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

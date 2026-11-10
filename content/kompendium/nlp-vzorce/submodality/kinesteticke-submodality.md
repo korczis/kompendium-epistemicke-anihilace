@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Kinestetické submodality", "Kinaesthetic submodalities", "kvality tělesného prožitku", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Kinestetické submodality", "Kinaesthetic submodalities", "kvality tělesného prožitku", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.04"
-nlp_slug = "kinesteticke-submodality"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Kinaesthetic submodalities"
-nlp_aliases = ["kvality tělesného prožitku"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "submodality-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["submodality-pojem"]
-nlp_related = ["mysl-a-telo-jeden-system", "kinesteticky-system", "stav", "kinesteticke-kotvy", "elicitace-submodalit", "kinesteticky-swish", "filmova-technika"]
-nlp_related_declared = ["kinesteticky-system", "mysl-a-telo-jeden-system", "kinesteticky-swish", "kinesteticke-kotvy", "stav"]
-nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_prev = "auditivni-submodality"
-nlp_next = "kriticke-submodality"
-nlp_position = 4
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "ekman-2003", "herman-1992", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "ekman-2003", "herman-1992", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.04"
+catalog_slug = "kinesteticke-submodality"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Kinaesthetic submodalities"
+catalog_aliases = ["kvality tělesného prožitku"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "submodality-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["submodality-pojem"]
+catalog_related = ["mysl-a-telo-jeden-system", "kinesteticky-system", "stav", "kinesteticke-kotvy", "elicitace-submodalit", "kinesteticky-swish", "filmova-technika"]
+catalog_related_declared = ["kinesteticky-system", "mysl-a-telo-jeden-system", "kinesteticky-swish", "kinesteticke-kotvy", "stav"]
+catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_prev = "auditivni-submodality"
+catalog_next = "kriticke-submodality"
+catalog_position = 4
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "ekman-2003", "herman-1992", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "ekman-2003", "herman-1992", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.toml"
 +++
 
 # Kinestetické submodality
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Kinaesthetic submodalities |
 | **Jiné názvy** | kvality tělesného prožitku |
-| **Obecnější vzorec** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
+| **Obecnější heslo** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ somatickou příčinu, kterou je třeba vyloučit, a že jejich psychologický v
 lékařské vyšetření. Herman zdůrazňuje, že po traumatu je obnova bezpečí v těle jedním z prvních
 úkolů zotavení (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,28 +221,28 @@ lékařské vyšetření. Herman zdůrazňuje, že po traumatu je obnova bezpeč
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzný vzorec (Předpoklady NLP, Mind and body are one system)
-- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzný vzorec (Základní pojmy NLP, Kinaesthetic representational system)
-- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
-- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzný vzorec (Kotvení, Kinaesthetic anchors)
-- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
-- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzný vzorec (Submodality, Kinaesthetic swish)
-- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzný vzorec (Submodality, Movie theatre technique)
+- [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzné heslo (Předpoklady NLP, Mind and body are one system)
+- [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzné heslo (Základní pojmy NLP, Kinaesthetic representational system)
+- [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzné heslo (Základní pojmy NLP, State)
+- [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – příbuzné heslo (Kotvení, Kinaesthetic anchors)
+- [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzné heslo (Submodality, Eliciting submodalities)
+- [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – příbuzné heslo (Submodality, Kinaesthetic swish)
+- [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzné heslo (Submodality, Movie theatre technique)
 
 **V kompendiu**
 
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – předchozí vzorec rodiny
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – předchozí heslo rodiny
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

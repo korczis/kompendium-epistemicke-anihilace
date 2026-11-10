@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["NLP jako kargokultovní psychologie", "NLP as cargo-cult psychology", "kargokultovní věda", "cargo cult psychology", "Kritické hodnocení NLP", "NLP", "neurolingvistické programování"]
+keywords = ["NLP jako kargokultovní psychologie", "NLP as cargo-cult psychology", "kargokultovní věda", "cargo cult psychology", "Kritické hodnocení NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-22.13"
-nlp_slug = "kargokultovni-psychologie"
-nlp_family = "kriticke-hodnoceni"
-nlp_family_code = "22"
-nlp_family_title = "Kritické hodnocení NLP"
-nlp_family_en = "Critical appraisal of NLP"
-nlp_part = "kriticke-hodnoceni.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "NLP as cargo-cult psychology"
-nlp_aliases = ["kargokultovní věda", "cargo cult psychology"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "nlp-jako-pseudoveda"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["nlp-jako-pseudoveda"]
-nlp_related = ["modelovani-excelence", "trh-certifikaci-nlp", "neuro-zargon", "stav-dukazu-nlp", "nlp-jako-pseudoveda", "falzifikovatelnost-nlp", "koreny-nlp", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["neuro-zargon", "falzifikovatelnost-nlp", "koreny-nlp", "stav-dukazu-nlp", "trh-certifikaci-nlp"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/techniques/ea-7-2-4-lakatos-research-program.md"]
-nlp_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-7-2-4-lakatos-research-program.md"]
-nlp_prev = "koreny-nlp"
-nlp_next = "jak-cist-tvrzeni-nlp"
-nlp_position = 13
-nlp_family_size = 14
-nlp_sources = ["cialdini-2009", "dilts-1980", "kahneman-2011", "langer-1978", "lilienfeld-2015", "norcross-2006", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["dilts-1980"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "kahneman-2011", "langer-1978", "lilienfeld-2015", "norcross-2006", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Proč forma vědy přesvědčuje", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kriticke-hodnoceni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-22.13"
+catalog_slug = "kargokultovni-psychologie"
+catalog_family = "kriticke-hodnoceni"
+catalog_family_code = "22"
+catalog_family_title = "Kritické hodnocení NLP"
+catalog_family_en = "Critical appraisal of NLP"
+catalog_part = "kriticke-hodnoceni.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "NLP as cargo-cult psychology"
+catalog_aliases = ["kargokultovní věda", "cargo cult psychology"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "nlp-jako-pseudoveda"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["nlp-jako-pseudoveda"]
+catalog_related = ["modelovani-excelence", "trh-certifikaci-nlp", "neuro-zargon", "stav-dukazu-nlp", "nlp-jako-pseudoveda", "falzifikovatelnost-nlp", "koreny-nlp", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["neuro-zargon", "falzifikovatelnost-nlp", "koreny-nlp", "stav-dukazu-nlp", "trh-certifikaci-nlp"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/techniques/ea-7-2-4-lakatos-research-program.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-7-2-4-lakatos-research-program.md"]
+catalog_prev = "koreny-nlp"
+catalog_next = "jak-cist-tvrzeni-nlp"
+catalog_position = 13
+catalog_family_size = 14
+catalog_sources = ["cialdini-2009", "dilts-1980", "kahneman-2011", "langer-1978", "lilienfeld-2015", "norcross-2006", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["dilts-1980"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "langer-1978", "lilienfeld-2015", "norcross-2006", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Proč forma vědy přesvědčuje", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kriticke-hodnoceni.b.toml"
 +++
 
 # NLP jako kargokultovní psychologie
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-22.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | NLP as cargo-cult psychology |
 | **Jiné názvy** | kargokultovní věda, cargo cult psychology |
-| **Obecnější vzorec** | [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) |
+| **Obecnější heslo** | [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) |
 | **Užití** | výkladový pojem |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -197,7 +200,7 @@ v psychologii, jako je pozorné naslouchání nebo strukturované kladení otáz
 která oporu nemají. Inokulační přístup ukazuje, že předem pochopený mechanismus
 přesvědčování oslabuje jeho účinek (van der Linden 2023).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,30 +221,30 @@ přesvědčování oslabuje jeho účinek (van der Linden 2023).
 
 **Rodina a hierarchie**
 
-- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
-- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzný vzorec (Vliv a zneužití NLP, The NLP certification market)
-- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)
-- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, State of the evidence on NLP)
-- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as pseudoscience)
-- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Falsifiability of NLP)
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
+- [Trh certifikací NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/trh-certifikaci-nlp.md) – příbuzné heslo (Vliv a zneužití NLP, The NLP certification market)
+- [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (Vliv a zneužití NLP, Neuro-jargon)
+- [Stav důkazů o NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, State of the evidence on NLP)
+- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as pseudoscience)
+- [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Falsifiability of NLP)
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-7.2.4 Lakatos: Vědecký výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-7.2.4 Lakatos: Vědecký výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – předchozí vzorec rodiny
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – předchozí heslo rodiny
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

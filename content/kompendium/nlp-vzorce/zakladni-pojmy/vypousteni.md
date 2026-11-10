@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Vypouštění", "Deletion", "delece", "výběrová pozornost", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Vypouštění", "Deletion", "delece", "výběrová pozornost", "Základní pojmy NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-02.33"
-nlp_slug = "vypousteni"
-nlp_family = "zakladni-pojmy"
-nlp_family_code = "02"
-nlp_family_title = "Základní pojmy NLP"
-nlp_family_en = "Core NLP concepts"
-nlp_part = "zakladni-pojmy.d"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Deletion"
-nlp_aliases = ["delece", "výběrová pozornost"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "meta-model", "nespecifikovane-sloveso", "nespecifikovany-referencni-index", "prosta-delece", "srovnavaci-delece"]
-nlp_related_declared = ["zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "prosta-delece", "srovnavaci-delece", "meta-model"]
-nlp_kompendium = ["kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/techniques/ea-2-3-2-context-collapse.md", "kompendium/techniques/ea-2-3-3-quote-mining.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/prosta-delece.md", "kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md", "kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md", "kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md"]
-nlp_prev = "kotva-pojem"
-nlp_next = "zkreslovani"
-nlp_position = 33
-nlp_family_size = 42
-nlp_sources = ["bandler-grinder-1975", "bateson-1972", "beck-1976", "chomsky-1965", "cialdini-2009", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "miller-1956", "oconnor-seymour-1990", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = ["bateson-1972", "chomsky-1965", "miller-1956"]
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-02.33"
+catalog_slug = "vypousteni"
+catalog_family = "zakladni-pojmy"
+catalog_family_code = "02"
+catalog_family_title = "Základní pojmy NLP"
+catalog_family_en = "Core NLP concepts"
+catalog_part = "zakladni-pojmy.d"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Deletion"
+catalog_aliases = ["delece", "výběrová pozornost"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "meta-model", "nespecifikovane-sloveso", "nespecifikovany-referencni-index", "prosta-delece", "srovnavaci-delece"]
+catalog_related_declared = ["zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "prosta-delece", "srovnavaci-delece", "meta-model"]
+catalog_kompendium = ["kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/techniques/ea-2-3-2-context-collapse.md", "kompendium/techniques/ea-2-3-3-quote-mining.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md", "kompendium/nlp-vzorce/meta-model/prosta-delece.md", "kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md", "kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md", "kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md"]
+catalog_prev = "kotva-pojem"
+catalog_next = "zkreslovani"
+catalog_position = 33
+catalog_family_size = 42
+catalog_sources = ["bandler-grinder-1975", "bateson-1972", "beck-1976", "chomsky-1965", "cialdini-2009", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "miller-1956", "oconnor-seymour-1990", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = ["bateson-1972", "chomsky-1965", "miller-1956"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/zakladni-pojmy.d.toml"
 +++
 
 # Vypouštění
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-02.33` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Deletion |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.d.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -165,7 +168,7 @@ přístup k celku.
 V kompendiu se vypouštění objevuje jako základní stavební prvek technik, které pracují s
 neúplným obrazem. Selektivní expozice předkládá jen ty informace, které vedou k žádanému
 závěru, a ostatní nechává stranou. Kolaps kontextu odstraňuje okolnosti, za nichž výrok nebo
-čin vznikl, takže se jeho význam změní. Těžba citátů vybírá z textu jednotlivé věty tak, aby
+čin vznikl, takže se jeho význam změní. [Těžba citátů](@/kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md) vybírá z textu jednotlivé věty tak, aby
 vyzněly opačně, než autor zamýšlel. Ve všech třech případech jsou jednotlivé předložené údaje
 pravdivé a nepravdivý je až celek. Proto jsou tyto techniky tak odolné vůči prostému ověření
 faktů: kdo kontroluje jen to, co bylo řečeno, nezjistí nic, a teprve otázka po tom, co
@@ -205,7 +208,7 @@ vlastní autonomii a ke spojení s ostatními lidmi, a to platí i pro obnovu d�
 otázky na vypuštění klást i sám sobě: co ve svém výkladu klienta vynechává a čí zájem tím
 chrání.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -227,29 +230,29 @@ chrání.
 
 **Rodina a hierarchie**
 
-- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzný vzorec (Základní pojmy NLP, Distortion)
-- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – příbuzný vzorec (Základní pojmy NLP, Generalisation)
-- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzný vzorec (Základní pojmy NLP, Deep and surface structure)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – příbuzný vzorec (Meta-model, Unspecified verb)
-- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzný vzorec (Meta-model, Unspecified referential index)
-- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – příbuzný vzorec (Meta-model, Simple deletion)
-- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – příbuzný vzorec (Meta-model, Comparative deletion)
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – příbuzné heslo (Základní pojmy NLP, Distortion)
+- [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – příbuzné heslo (Základní pojmy NLP, Generalisation)
+- [Hluboká a povrchová struktura](@/kompendium/nlp-vzorce/zakladni-pojmy/hluboka-a-povrchova-struktura.md) – příbuzné heslo (Základní pojmy NLP, Deep and surface structure)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) – příbuzné heslo (Meta-model, Unspecified verb)
+- [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) – příbuzné heslo (Meta-model, Unspecified referential index)
+- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – příbuzné heslo (Meta-model, Simple deletion)
+- [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) – příbuzné heslo (Meta-model, Comparative deletion)
 
 **V kompendiu**
 
-- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.3.2 Kolaps kontextu (context collapse)](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.3.3 Těžba citátů (quote mining)](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.3.2 Kolaps kontextu (context collapse)](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.3.3 Těžba citátů (quote mining)](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – předchozí vzorec rodiny
-- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – předchozí heslo rodiny
+- [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Hodnotově nabitá slova", "Loaded words", "nabitý jazyk", "hodnotově zatížené výrazy", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Hodnotově nabitá slova", "Loaded words", "nabitý jazyk", "hodnotově zatížené výrazy", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.19"
-nlp_slug = "slovni-baliky"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Loaded words"
-nlp_aliases = ["nabitý jazyk", "hodnotově zatížené výrazy"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["predikaty", "nominalizace", "umyslna-vagnost", "komentarova-adverbia", "vztazne-vety-presupozice", "presupozice-v-reklame", "som-redefinice", "auditivni-kotvy", "kriteria", "sladeni-hodnot", "chunking-nahoru", "protoze", "nlp-v-sektach", "nlp-v-politicke-reci"]
-nlp_related_declared = ["nominalizace", "komentarova-adverbia", "presupozice-v-reklame", "nlp-v-politicke-reci", "nlp-v-sektach", "protoze"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md"]
-nlp_links_prose = ["glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_prev = "otazky-misto-tvrzeni"
-nlp_next = "casove-presuny-v-jazyce"
-nlp_position = 19
-nlp_family_size = 20
-nlp_sources = ["bandler-grinder-1975", "charvet-1997", "hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "charvet-1997"]
-nlp_sources_roots = []
-nlp_sources_critical = ["hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.19"
+catalog_slug = "slovni-baliky"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Loaded words"
+catalog_aliases = ["nabitý jazyk", "hodnotově zatížené výrazy"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["predikaty", "nominalizace", "umyslna-vagnost", "komentarova-adverbia", "vztazne-vety-presupozice", "presupozice-v-reklame", "som-redefinice", "auditivni-kotvy", "kriteria", "sladeni-hodnot", "chunking-nahoru", "protoze", "nlp-v-sektach", "nlp-v-politicke-reci"]
+catalog_related_declared = ["nominalizace", "komentarova-adverbia", "presupozice-v-reklame", "nlp-v-politicke-reci", "nlp-v-sektach", "protoze"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+catalog_prev = "otazky-misto-tvrzeni"
+catalog_next = "casove-presuny-v-jazyce"
+catalog_position = 19
+catalog_family_size = 20
+catalog_sources = ["bandler-grinder-1975", "charvet-1997", "hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "charvet-1997"]
+catalog_sources_roots = []
+catalog_sources_critical = ["hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.b.toml"
 +++
 
 # Hodnotově nabitá slova
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.19` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Loaded words |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -83,7 +86,7 @@ spolu s tím, jak se o věci mluví. NLP se k těmto slovům dostává z několi
 nominalizace, které z děje dělají abstraktní věc, přes takzvaná slova kritérií, tedy výrazy,
 jimiž člověk vyjadřuje své hodnoty (Charvet 1997), a přes doporučení populárních vlivových
 příruček používat slova, která mají v posluchači vyvolat žádoucí reakci. Kompendium vzorec řadí k vysoce
-rizikovým, protože nabitý jazyk je jedním z hlavních nástrojů, jimiž uzavřené skupiny,
+rizikovým, protože [nabitý jazyk](@/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md) je jedním z hlavních nástrojů, jimiž uzavřené skupiny,
 [propaganda](@/glossary/propaganda.md) i kontrolující vztahy přetvářejí myšlení: kdo převezme slova, převezme i
 hodnocení, a s ním hranice toho, co lze myslet (Lifton 1961).
 
@@ -194,7 +197,7 @@ texty mimo skupinový slovník a mluvit s lidmi, kteří slova skupiny neznají.
 kteří s takovými klienty pracují, by měli skupinový žargon neopakovat a pomáhat klientovi
 najít jeho vlastní výrazy.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -215,36 +218,36 @@ najít jeho vlastní výrazy.
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzný vzorec (Základní pojmy NLP, Predicates)
-- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzný vzorec (Meta-model, Nominalisation)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – příbuzný vzorec (Jazykové presupozice, Commentary adverbs and adjectives)
-- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Relative clauses)
-- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzný vzorec (Jazykové presupozice, Presuppositions in advertising)
-- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzný vzorec (Sleight of Mouth, Redefine)
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzný vzorec (Kotvení, Auditory and tonal anchors)
-- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzný vzorec (Metaprogramy, Criteria)
-- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzný vzorec (Raport a kalibrace, Value matching)
-- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzný vzorec (Jazykové vzorce, Chunking up)
-- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – příbuzný vzorec (Jazykové vzorce, Because)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
-- [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in political speech)
+- [Predikáty](@/kompendium/nlp-vzorce/zakladni-pojmy/predikaty.md) – příbuzné heslo (Základní pojmy NLP, Predicates)
+- [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzné heslo (Meta-model, Nominalisation)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – příbuzné heslo (Jazykové presupozice, Commentary adverbs and adjectives)
+- [Vztažné věty jako presupozice](@/kompendium/nlp-vzorce/presupozice/vztazne-vety-presupozice.md) – příbuzné heslo (Jazykové presupozice, Relative clauses)
+- [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – příbuzné heslo (Jazykové presupozice, Presuppositions in advertising)
+- [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – příbuzné heslo (Sleight of Mouth, Redefine)
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
+- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
+- [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
+- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzné heslo (Jazykové vzorce, Chunking up)
+- [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – příbuzné heslo (Jazykové vzorce, Because)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
+- [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in political speech)
 
 **V kompendiu**
 
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-4.3.3 Semantic stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-4.3.3 Semantic stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – předchozí vzorec rodiny
-- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – předchozí heslo rodiny
+- [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

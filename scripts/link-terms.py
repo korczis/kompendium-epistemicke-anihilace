@@ -5,13 +5,13 @@ The dictionary is derived from the content, never written by hand:
 
   - every glossary entry, by its title and by the parts of a title like
     "Pseudověda (pseudoscience)" (both "Pseudověda" and "pseudoscience");
-  - every NLP catalogue page (content/kompendium/nlp-vzorce/<family>/<slug>.md), by its title
-    and its nlp_aliases – both written there by scripts/nlp-catalog.py – in two strengths.
-    Everywhere in the book only a distinctive NLP name links: a loanword (the Czech and
-    English names agree: "Reframing", "Sleight of Mouth") or a hyphenated one ("Meta-model");
-    most NLP labels are ordinary Czech ("časová osa" is also a timeline of events,
-    "interpretační rámec" is not only NLP). Inside the NLP section also the multi-word titles
-    and aliases link. A glossary entry wins over an NLP page for the same term;
+  - every catalogue entry page (any catalogue of data/catalogs.toml: NLP patterns, fallacies,
+    …), by its title and its catalog_aliases – both written there by scripts/catalogs.py – in
+    two strengths. Everywhere in the book only a distinctive name links: a loanword title (the
+    Czech and English names agree: "Reframing", "Whataboutism") or a hyphenated one
+    ("Meta-model"); most catalogue labels are ordinary Czech ("časová osa" is also a timeline
+    of events). Inside the catalogue sections also the multi-word titles and aliases link.
+    A glossary entry wins over a catalogue page for the same term;
   - every technique page, by its code: "EA-1.1.1" links to the fullest page named
     content/kompendium/techniques/ea-1-1-1*.md (never a short-code stub when a full page exists).
 
@@ -77,9 +77,7 @@ def dictionary(pages: list) -> tuple:
             terms.setdefault(variant.lower(), path)
     for page in pages:
         path = page["path"]
-        if not path.startswith("kompendium/nlp-vzorce/") or page["is_index"] or not page["title"]:
-            continue
-        if path.count("/") != 3:  # the trainer and other surfaces of the section
+        if not page.get("catalog_entry") or not page["title"]:
             continue
         en = fold(page.get("en", ""))
         for variant in {page["title"].strip(), *[a.strip() for a in page.get("aliases", [])]}:
@@ -202,8 +200,8 @@ def main() -> int:
         ) if ordered else None
 
     pattern = compile_terms(terms)
-    nlp_terms = {**local, **terms}
-    nlp_pattern = compile_terms(nlp_terms)
+    catalog_terms = {**local, **terms}
+    catalog_pattern = compile_terms(catalog_terms)
     targets = []
     for arg in (a for a in args if not a.startswith("-")):
         path = pathlib.Path(arg)
@@ -215,8 +213,8 @@ def main() -> int:
         if page is None or rel == "references.md":
             continue
         text = path.read_text(encoding="utf-8")
-        if rel.startswith("kompendium/nlp-vzorce/"):
-            new = link_page(text, rel, set(page["links"]), nlp_terms, codes, nlp_pattern)
+        if page.get("catalog"):
+            new = link_page(text, rel, set(page["links"]), catalog_terms, codes, catalog_pattern)
         else:
             new = link_page(text, rel, set(page["links"]), terms, codes, pattern)
         if new != text:
@@ -225,7 +223,7 @@ def main() -> int:
                 path.write_text(new, encoding="utf-8")
     verb = "would link" if check else "linked"
     print(f"link-terms: {verb} {len(changed)} page(s); dictionary {len(terms)} terms "
-          f"(+{len(local)} inside the NLP section), "
+          f"(+{len(local)} inside catalogue sections), "
           f"{len(codes)} technique codes")
     return 1 if check and changed else 0
 

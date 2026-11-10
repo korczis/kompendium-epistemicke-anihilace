@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Kotvení ve skupině", "Group anchoring", "skupinové kotvy", "kolektivní kotvení", "Kotvení", "NLP", "neurolingvistické programování"]
+keywords = ["Kotvení ve skupině", "Group anchoring", "skupinové kotvy", "kolektivní kotvení", "Kotvení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-09.15"
-nlp_slug = "kotveni-ve-skupine"
-nlp_family = "kotveni"
-nlp_family_code = "09"
-nlp_family_title = "Kotvení"
-nlp_family_en = "Anchoring"
-nlp_part = "kotveni.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Group anchoring"
-nlp_aliases = ["skupinové kotvy", "kolektivní kotvení"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "kotveni"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["kotveni"]
-nlp_related = ["stohovani-kotev", "auditivni-kotvy", "kotvy-v-prezentaci", "raport-se-skupinou", "nlp-v-sektach", "guru-efekt", "velke-seminare"]
-nlp_related_declared = ["raport-se-skupinou", "velke-seminare", "guru-efekt", "nlp-v-sektach", "kotvy-v-prezentaci", "auditivni-kotvy"]
-nlp_kompendium = ["kompendium/05-kolektivni-rozmer/_index.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/case-studies/06-cult-recovery-12-let.md"]
-nlp_links_prose = ["kompendium/05-kolektivni-rozmer/_index.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
-nlp_prev = "testovani-kotvy"
-nlp_next = "kotvy-v-reklame"
-nlp_position = 15
-nlp_family_size = 19
-nlp_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "lifton-1961", "mcguire-1964", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-nlp_sources_roots = ["pavlov-1927"]
-nlp_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "lifton-1961", "mcguire-1964", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Vztah k technikám kompendia", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kotveni.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-09.15"
+catalog_slug = "kotveni-ve-skupine"
+catalog_family = "kotveni"
+catalog_family_code = "09"
+catalog_family_title = "Kotvení"
+catalog_family_en = "Anchoring"
+catalog_part = "kotveni.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Group anchoring"
+catalog_aliases = ["skupinové kotvy", "kolektivní kotvení"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "kotveni"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["kotveni"]
+catalog_related = ["stohovani-kotev", "auditivni-kotvy", "kotvy-v-prezentaci", "raport-se-skupinou", "nlp-v-sektach", "guru-efekt", "velke-seminare"]
+catalog_related_declared = ["raport-se-skupinou", "velke-seminare", "guru-efekt", "nlp-v-sektach", "kotvy-v-prezentaci", "auditivni-kotvy"]
+catalog_kompendium = ["kompendium/05-kolektivni-rozmer/_index.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/case-studies/06-cult-recovery-12-let.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/05-kolektivni-rozmer/_index.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
+catalog_prev = "testovani-kotvy"
+catalog_next = "kotvy-v-reklame"
+catalog_position = 15
+catalog_family_size = 19
+catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "lifton-1961", "mcguire-1964", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
+catalog_sources_roots = ["pavlov-1927"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "lifton-1961", "mcguire-1964", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Vztah k technikám kompendia", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kotveni.b.toml"
 +++
 
 # Kotvení ve skupině
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-09.15` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Group anchoring |
 | **Jiné názvy** | skupinové kotvy, kolektivní kotvení |
-| **Obecnější vzorec** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
+| **Obecnější heslo** | [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -203,7 +206,7 @@ pochopení, že prožitky uvnitř skupiny byly skutečné, ale jejich výklad by
 přisvojen (Hassan 1988). U lidí s dlouhodobou zkušeností může být nezbytná odborná pomoc,
 například terapeuta se zkušeností s následky pobytu v manipulativních skupinách.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -223,30 +226,30 @@ například terapeuta se zkušeností s následky pobytu v manipulativních skup
 
 **Rodina a hierarchie**
 
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzný vzorec (Kotvení, Stacking anchors)
-- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzný vzorec (Kotvení, Auditory and tonal anchors)
-- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzný vzorec (Kotvení, Anchors in presentations)
-- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzný vzorec (Raport a kalibrace, Group rapport)
-- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in cults)
-- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzný vzorec (Vliv a zneužití NLP, Guru effect in seminars)
-- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzný vzorec (Vliv a zneužití NLP, Large-group seminars)
+- [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzné heslo (Kotvení, Stacking anchors)
+- [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
+- [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzné heslo (Kotvení, Anchors in presentations)
+- [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzné heslo (Raport a kalibrace, Group rapport)
+- [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
+- [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
+- [Velké motivační semináře](@/kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md) – příbuzné heslo (Vliv a zneužití NLP, Large-group seminars)
 
 **V kompendiu**
 
-- [Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 06: Zotavení po dvanácti letech v kultu](@/kompendium/case-studies/06-cult-recovery-12-let.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.4 Hassanova kritéria: autoritářská pyramida a kontinuum vlivu](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 06: Zotavení po dvanácti letech v kultu](@/kompendium/case-studies/06-cult-recovery-12-let.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – předchozí vzorec rodiny
-- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – předchozí heslo rodiny
+- [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

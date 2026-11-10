@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Milton-model", "Milton Model", "hypnotické jazykové vzorce", "inverzní meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Milton-model", "Milton Model", "hypnotické jazykové vzorce", "inverzní meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-04.01"
-nlp_slug = "milton-model"
-nlp_family = "milton-model"
-nlp_family_code = "04"
-nlp_family_title = "Milton-model"
-nlp_family_en = "Milton Model"
-nlp_part = "milton-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Milton Model"
-nlp_aliases = ["hypnotické jazykové vzorce", "inverzní meta-model"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = ["vlozene-prikazy", "vlozene-otazky", "analogove-znaceni", "konverzacni-postulaty", "pripojene-otazky", "truismy", "ano-sada", "citace", "poruseni-selekcnich-omezeni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "rozsahova-dvojznacnost", "interpunkcni-dvojznacnost", "umyslna-vagnost", "cteni-myslenek-milton", "ztraceny-performativ-milton", "spojky-a-implikovana-pricinnost", "komplexni-ekvivalence-milton", "univerzalni-kvantifikatory-milton", "modalni-operatory-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "iluze-volby", "negativni-prikazy", "pacing-aktualni-zkusenosti", "retezeni-sugesci", "srovnavaci-delece-milton", "presupozice-milton"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["komunikace-vedoma-a-nevedoma", "meta-model", "vlozene-prikazy", "umyslna-vagnost", "ericksonovska-hypnoza", "jazykove-presupozice", "chunking-nahoru", "konverzacni-hypnoza", "hypnoticky-jazyk-online", "historie-nlp", "koreny-nlp"]
-nlp_related_declared = ["meta-model", "ericksonovska-hypnoza", "umyslna-vagnost", "konverzacni-hypnoza", "vlozene-prikazy", "jazykove-presupozice"]
-nlp_kompendium = ["kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/analogove-znaceni.md", "kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/milton-model/citace.md", "kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md", "kompendium/nlp-vzorce/milton-model/truismy.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_prev = ""
-nlp_next = "vlozene-prikazy"
-nlp_position = 1
-nlp_family_size = 30
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "heap-1988", "herman-1992", "kirsch-lynn-1995", "levinson-1983", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
-nlp_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976", "grice-1975", "haley-1973", "levinson-1983"]
-nlp_sources_critical = ["heap-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/milton-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-04.01"
+catalog_slug = "milton-model"
+catalog_family = "milton-model"
+catalog_family_code = "04"
+catalog_family_title = "Milton-model"
+catalog_family_en = "Milton Model"
+catalog_part = "milton-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Milton Model"
+catalog_aliases = ["hypnotické jazykové vzorce", "inverzní meta-model"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = ["vlozene-prikazy", "vlozene-otazky", "analogove-znaceni", "konverzacni-postulaty", "pripojene-otazky", "truismy", "ano-sada", "citace", "poruseni-selekcnich-omezeni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "rozsahova-dvojznacnost", "interpunkcni-dvojznacnost", "umyslna-vagnost", "cteni-myslenek-milton", "ztraceny-performativ-milton", "spojky-a-implikovana-pricinnost", "komplexni-ekvivalence-milton", "univerzalni-kvantifikatory-milton", "modalni-operatory-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "iluze-volby", "negativni-prikazy", "pacing-aktualni-zkusenosti", "retezeni-sugesci", "srovnavaci-delece-milton", "presupozice-milton"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["komunikace-vedoma-a-nevedoma", "meta-model", "vlozene-prikazy", "umyslna-vagnost", "ericksonovska-hypnoza", "jazykove-presupozice", "chunking-nahoru", "konverzacni-hypnoza", "hypnoticky-jazyk-online", "historie-nlp", "koreny-nlp"]
+catalog_related_declared = ["meta-model", "ericksonovska-hypnoza", "umyslna-vagnost", "konverzacni-hypnoza", "vlozene-prikazy", "jazykove-presupozice"]
+catalog_kompendium = ["kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/06-obrana/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/analogove-znaceni.md", "kompendium/nlp-vzorce/milton-model/ano-sada.md", "kompendium/nlp-vzorce/milton-model/citace.md", "kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md", "kompendium/nlp-vzorce/milton-model/truismy.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_prev = ""
+catalog_next = "vlozene-prikazy"
+catalog_position = 1
+catalog_family_size = 30
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "heap-1988", "herman-1992", "kirsch-lynn-1995", "levinson-1983", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
+catalog_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976", "grice-1975", "haley-1973", "levinson-1983"]
+catalog_sources_critical = ["heap-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/milton-model.toml"
 +++
 
 # Milton-model
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-04.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Milton Model |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/milton-model.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -203,7 +206,7 @@ užíván soustavně, je součástí zotavení rekonstrukce toho, co jim bylo sk
 obnova důvěry ve vlastní úsudek v bezpečném vztahu (Herman 1992). Na to navazuje obecnější
 oddíl kompendia o [obraně a kalibraci](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -234,61 +237,61 @@ oddíl kompendia o [obraně a kalibraci](@/kompendium/06-obrana/_index.md).
 
 **Rodina a hierarchie**
 
-- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – zvláštní případ tohoto vzorce
-- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – zvláštní případ tohoto vzorce
-- [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – zvláštní případ tohoto vzorce
-- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – zvláštní případ tohoto vzorce
-- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – zvláštní případ tohoto vzorce
-- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – zvláštní případ tohoto vzorce
-- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – zvláštní případ tohoto vzorce
-- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – zvláštní případ tohoto vzorce
-- [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) – zvláštní případ tohoto vzorce
-- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – zvláštní případ tohoto vzorce
-- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – zvláštní případ tohoto vzorce
-- [Rozsahová dvojznačnost](@/kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md) – zvláštní případ tohoto vzorce
-- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – zvláštní případ tohoto vzorce
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – zvláštní případ tohoto vzorce
-- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – zvláštní případ tohoto vzorce
-- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – zvláštní případ tohoto vzorce
-- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – zvláštní případ tohoto vzorce
-- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – zvláštní případ tohoto vzorce
-- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – zvláštní případ tohoto vzorce
-- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – zvláštní případ tohoto vzorce
-- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – zvláštní případ tohoto vzorce
-- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – zvláštní případ tohoto vzorce
-- [Nespecifikovaný referenční index v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton.md) – zvláštní případ tohoto vzorce
-- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – zvláštní případ tohoto vzorce
-- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – zvláštní případ tohoto vzorce
-- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – zvláštní případ tohoto vzorce
-- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – zvláštní případ tohoto vzorce
-- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – zvláštní případ tohoto vzorce
-- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – zvláštní případ tohoto vzorce
+- [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – zvláštní případ tohoto hesla
+- [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – zvláštní případ tohoto hesla
+- [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – zvláštní případ tohoto hesla
+- [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – zvláštní případ tohoto hesla
+- [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – zvláštní případ tohoto hesla
+- [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – zvláštní případ tohoto hesla
+- [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – zvláštní případ tohoto hesla
+- [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – zvláštní případ tohoto hesla
+- [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) – zvláštní případ tohoto hesla
+- [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – zvláštní případ tohoto hesla
+- [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – zvláštní případ tohoto hesla
+- [Rozsahová dvojznačnost](@/kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md) – zvláštní případ tohoto hesla
+- [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – zvláštní případ tohoto hesla
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – zvláštní případ tohoto hesla
+- [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – zvláštní případ tohoto hesla
+- [Ztracený performativ v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton.md) – zvláštní případ tohoto hesla
+- [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – zvláštní případ tohoto hesla
+- [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – zvláštní případ tohoto hesla
+- [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – zvláštní případ tohoto hesla
+- [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – zvláštní případ tohoto hesla
+- [Nominalizace v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nominalizace-milton.md) – zvláštní případ tohoto hesla
+- [Nespecifikovaná slovesa v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton.md) – zvláštní případ tohoto hesla
+- [Nespecifikovaný referenční index v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton.md) – zvláštní případ tohoto hesla
+- [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – zvláštní případ tohoto hesla
+- [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – zvláštní případ tohoto hesla
+- [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – zvláštní případ tohoto hesla
+- [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – zvláštní případ tohoto hesla
+- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – zvláštní případ tohoto hesla
+- [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzný vzorec (Předpoklady NLP, Communication is both conscious and unconscious)
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzný vzorec (Meta-model, Meta Model)
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzný vzorec (Milton-model, Embedded commands)
-- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzný vzorec (Milton-model, Artful vagueness)
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzný vzorec (Ericksonovská hypnóza, Ericksonian hypnosis)
-- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Linguistic presuppositions)
-- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzný vzorec (Jazykové vzorce, Chunking up)
-- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzný vzorec (Vliv a zneužití NLP, Conversational (covert) hypnosis)
-- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzný vzorec (Vliv a zneužití NLP, Hypnotic language in online content)
-- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, History of NLP)
-- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
+- [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzné heslo (Předpoklady NLP, Communication is both conscious and unconscious)
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
+- [Úmyslná vágnost](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md) – příbuzné heslo (Milton-model, Artful vagueness)
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzné heslo (Ericksonovská hypnóza, Ericksonian hypnosis)
+- [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) – příbuzné heslo (Jazykové presupozice, Linguistic presuppositions)
+- [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – příbuzné heslo (Jazykové vzorce, Chunking up)
+- [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – příbuzné heslo (Vliv a zneužití NLP, Conversational (covert) hypnosis)
+- [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – příbuzné heslo (Vliv a zneužití NLP, Hypnotic language in online content)
+- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, History of NLP)
+- [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
 
 **V kompendiu**
 
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

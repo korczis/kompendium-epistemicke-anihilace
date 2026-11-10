@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Vzorec odpuštění", "Forgiveness pattern", "práce s odpuštěním", "uvolnění křivdy", "Disociace, fobie a trauma", "NLP", "neurolingvistické programování"]
+keywords = ["Vzorec odpuštění", "Forgiveness pattern", "práce s odpuštěním", "uvolnění křivdy", "Disociace, fobie a trauma", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-11.07"
-nlp_slug = "vzorec-odpusteni"
-nlp_family = "disociace-a-trauma"
-nlp_family_code = "11"
-nlp_family_title = "Disociace, fobie a trauma"
-nlp_family_en = "Dissociation, phobia and trauma patterns"
-nlp_part = "disociace-a-trauma"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Forgiveness pattern"
-nlp_aliases = ["práce s odpuštěním", "uvolnění křivdy"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["pozitivni-zamer-chovani", "percepcni-pozice-pojem", "vzorec-zalu", "reakce-na-kritiku", "uvolneni-negativnich-emoci", "druha-pozice"]
-nlp_related_declared = ["vzorec-zalu", "percepcni-pozice-pojem", "pozitivni-zamer-chovani", "reakce-na-kritiku", "druha-pozice"]
-nlp_kompendium = ["kompendium/techniques/ea-8-2-10-herman-recovery-stages.md", "glossary/complex-trauma.md", "kompendium/case-studies/06-cult-recovery-12-let.md"]
-nlp_links_prose = ["glossary/complex-trauma.md", "kompendium/case-studies/06-cult-recovery-12-let.md", "kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
-nlp_prev = "vzorec-zalu"
-nlp_next = "reakce-na-kritiku"
-nlp_position = 7
-nlp_family_size = 11
-nlp_sources = ["bandler-grinder-1982", "grinder-delozier-1987", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "grinder-delozier-1987"]
-nlp_sources_roots = []
-nlp_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-11.07"
+catalog_slug = "vzorec-odpusteni"
+catalog_family = "disociace-a-trauma"
+catalog_family_code = "11"
+catalog_family_title = "Disociace, fobie a trauma"
+catalog_family_en = "Dissociation, phobia and trauma patterns"
+catalog_part = "disociace-a-trauma"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Forgiveness pattern"
+catalog_aliases = ["práce s odpuštěním", "uvolnění křivdy"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["pozitivni-zamer-chovani", "percepcni-pozice-pojem", "vzorec-zalu", "reakce-na-kritiku", "uvolneni-negativnich-emoci", "druha-pozice"]
+catalog_related_declared = ["vzorec-zalu", "percepcni-pozice-pojem", "pozitivni-zamer-chovani", "reakce-na-kritiku", "druha-pozice"]
+catalog_kompendium = ["kompendium/techniques/ea-8-2-10-herman-recovery-stages.md", "glossary/complex-trauma.md", "kompendium/case-studies/06-cult-recovery-12-let.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/complex-trauma.md", "kompendium/case-studies/06-cult-recovery-12-let.md", "kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
+catalog_prev = "vzorec-zalu"
+catalog_next = "reakce-na-kritiku"
+catalog_position = 7
+catalog_family_size = 11
+catalog_sources = ["bandler-grinder-1982", "grinder-delozier-1987", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "grinder-delozier-1987"]
+catalog_sources_roots = []
+catalog_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/disociace-a-trauma.toml"
 +++
 
 # Vzorec odpuštění
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-11.07` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Forgiveness pattern |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -193,7 +196,7 @@ Příbuzné téma truchlení rozebírá heslo
 Odborník by měl klientovi výslovně potvrdit, že rozhodnutí o odpuštění patří jen jemu a že
 jeho zotavení se neměří tím, zda pachateli odpustil.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -212,27 +215,27 @@ jeho zotavení se neměří tím, zda pachateli odpustil.
 
 **Rodina a hierarchie**
 
-- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
-- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzný vzorec (Disociace, fobie a trauma, Resolving grief pattern)
-- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzný vzorec (Disociace, fobie a trauma, Responding to criticism)
-- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – příbuzný vzorec (Časová osa, Releasing negative emotions on the timeline)
-- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Second position)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
+- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzné heslo (Disociace, fobie a trauma, Resolving grief pattern)
+- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzné heslo (Disociace, fobie a trauma, Responding to criticism)
+- [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – příbuzné heslo (Časová osa, Releasing negative emotions on the timeline)
+- [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Second position)
 
 **V kompendiu**
 
-- [EA-8.2.10 Stadia zotavení podle Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 06: Zotavení po dvanácti letech v kultu](@/kompendium/case-studies/06-cult-recovery-12-let.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.2.10 Stadia zotavení podle Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Komplexní trauma (complex trauma)](@/glossary/complex-trauma.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 06: Zotavení po dvanácti letech v kultu](@/kompendium/case-studies/06-cult-recovery-12-let.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – předchozí vzorec rodiny
-- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – předchozí heslo rodiny
+- [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

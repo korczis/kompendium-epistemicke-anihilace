@@ -1,4 +1,4 @@
-# Rodina NLP-03: Meta-model (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Rodina NLP-03: Meta-model (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
 # Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
 # Tento soubor nese NLP-03.01 až NLP-03.09; další záznamy rodiny mohou být v dalších částech.
 

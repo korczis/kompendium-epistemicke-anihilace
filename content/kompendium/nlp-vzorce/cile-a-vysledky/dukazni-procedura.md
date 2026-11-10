@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Důkazní procedura", "Evidence procedure", "test splnění kritéria", "jak poznám, že", "Cíle a výsledky", "NLP", "neurolingvistické programování"]
+keywords = ["Důkazní procedura", "Evidence procedure", "test splnění kritéria", "jak poznám, že", "Cíle a výsledky", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-19.08"
-nlp_slug = "dukazni-procedura"
-nlp_family = "cile-a-vysledky"
-nlp_family_code = "19"
-nlp_family_title = "Cíle a výsledky"
-nlp_family_en = "Outcomes"
-nlp_part = "cile-a-vysledky"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Evidence procedure"
-nlp_aliases = ["test splnění kritéria", "jak poznám, že"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "smyslove-dukazy-cile"
-nlp_narrower = []
-nlp_depth = 2
-nlp_ancestors = ["smyslove-dukazy-cile", "dobre-formulovany-vysledek"]
-nlp_related = ["strategie-pojem", "tote-model", "ramec-dukazu", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "smyslove-dukazy-cile"]
-nlp_related_declared = ["kanal-presvedceni", "rezim-presvedceni", "kriteria", "tote-model", "strategie-pojem"]
-nlp_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md", "kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md", "kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "ekologie-cile"
-nlp_next = "otazky-vysledku"
-nlp_position = 8
-nlp_family_size = 10
-nlp_sources = ["cameron-bandler-1978", "charvet-1997", "cialdini-2009", "dilts-1980", "herman-1992", "langer-1978", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1984", "stark-2007", "sturt-2012", "vrij-2008", "witkowski-2010"]
-nlp_sources_primary = ["cameron-bandler-1978", "charvet-1997", "dilts-1980", "oconnor-seymour-1990"]
-nlp_sources_roots = ["miller-galanter-pribram-1960"]
-nlp_sources_critical = ["cialdini-2009", "herman-1992", "langer-1978", "sharpley-1984", "stark-2007", "sturt-2012", "vrij-2008", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/cile-a-vysledky.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-19.08"
+catalog_slug = "dukazni-procedura"
+catalog_family = "cile-a-vysledky"
+catalog_family_code = "19"
+catalog_family_title = "Cíle a výsledky"
+catalog_family_en = "Outcomes"
+catalog_part = "cile-a-vysledky"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Evidence procedure"
+catalog_aliases = ["test splnění kritéria", "jak poznám, že"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "smyslove-dukazy-cile"
+catalog_narrower = []
+catalog_depth = 2
+catalog_ancestors = ["smyslove-dukazy-cile", "dobre-formulovany-vysledek"]
+catalog_related = ["strategie-pojem", "tote-model", "ramec-dukazu", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "smyslove-dukazy-cile"]
+catalog_related_declared = ["kanal-presvedceni", "rezim-presvedceni", "kriteria", "tote-model", "strategie-pojem"]
+catalog_kompendium = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md", "kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md", "kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md", "kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "ekologie-cile"
+catalog_next = "otazky-vysledku"
+catalog_position = 8
+catalog_family_size = 10
+catalog_sources = ["cameron-bandler-1978", "charvet-1997", "cialdini-2009", "dilts-1980", "herman-1992", "langer-1978", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1984", "stark-2007", "sturt-2012", "vrij-2008", "witkowski-2010"]
+catalog_sources_primary = ["cameron-bandler-1978", "charvet-1997", "dilts-1980", "oconnor-seymour-1990"]
+catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "langer-1978", "sharpley-1984", "stark-2007", "sturt-2012", "vrij-2008", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/cile-a-vysledky.toml"
 +++
 
 # Důkazní procedura
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-19.08` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Evidence procedure |
 | **Jiné názvy** | test splnění kritéria, jak poznám, že |
-| **Obecnější vzorec** | [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) |
+| **Obecnější heslo** | [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -131,7 +134,7 @@ vztahů a svobody.
 
 Manipulativní užití se rozpoznává podle několika znaků. Prvním je jednostrannost: test, podle
 něhož se posuzuje vztah, láska nebo oddanost, stanovuje jen jedna strana a druhá o něm
-nevyjednává. Druhým je posouvání laťky: když druhý test splní, objeví se nový, přísnější,
+nevyjednává. Druhým je [posouvání laťky](@/kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md): když druhý test splní, objeví se nový, přísnější,
 takže splnění nikdy nenastane. Třetím je obsah testu, který měří míru oběti nebo izolace:
 láska se pozná podle toho, čeho se člověk vzdá, loajalita podle toho, s kým přestane mluvit.
 Stark popsal, jak v kontrolujících vztazích pachatel stanovuje drobná pravidla každodenního
@@ -199,7 +202,7 @@ obnovu vlastních měřítek a o vztahy, v nichž se testy vyjednávají oboustr
 popisuje obnovu autonomie a vlastního úsudku jako jádro zotavení z dlouhodobé kontroly
 (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -221,28 +224,28 @@ popisuje obnovu autonomie a vlastního úsudku jako jádro zotavení z dlouhodob
 
 **Rodina a hierarchie**
 
-- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Strategy (concept))
-- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzný vzorec (Základní pojmy NLP, TOTE model)
-- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzný vzorec (Reframing a rámce, Evidence frame)
-- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzný vzorec (Metaprogramy, Criteria)
-- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer channel)
-- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzný vzorec (Metaprogramy, Convincer mode)
-- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – příbuzný vzorec (Cíle a výsledky, Sensory-based evidence)
+- [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – příbuzné heslo (Základní pojmy NLP, Strategy (concept))
+- [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – příbuzné heslo (Základní pojmy NLP, TOTE model)
+- [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – příbuzné heslo (Reframing a rámce, Evidence frame)
+- [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
+- [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer channel)
+- [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – příbuzné heslo (Metaprogramy, Convincer mode)
+- [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – příbuzné heslo (Cíle a výsledky, Sensory-based evidence)
 
 **V kompendiu**
 
-- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – předchozí vzorec rodiny
-- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – předchozí heslo rodiny
+- [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

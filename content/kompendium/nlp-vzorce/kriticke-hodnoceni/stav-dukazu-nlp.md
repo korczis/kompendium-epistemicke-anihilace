@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Stav důkazů o NLP", "State of the evidence on NLP", "empirická podpora NLP", "výzkum NLP", "Kritické hodnocení NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Stav důkazů o NLP", "State of the evidence on NLP", "empirická podpora NLP", "výzkum NLP", "Kritické hodnocení NLP", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-22.01"
-nlp_slug = "stav-dukazu-nlp"
-nlp_family = "kriticke-hodnoceni"
-nlp_family_code = "22"
-nlp_family_title = "Kritické hodnocení NLP"
-nlp_family_en = "Critical appraisal of NLP"
-nlp_part = "kriticke-hodnoceni"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "State of the evidence on NLP"
-nlp_aliases = ["empirická podpora NLP", "výzkum NLP"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["vyzkum-preferovaneho-systemu", "vyzkum-ocnich-signalu", "delfska-studie", "systematicky-prehled-zdravi", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "nlp-v-koucinku-vyzkum", "jak-cist-tvrzeni-nlp"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["predpoklady-jako-pracovni-hypotezy", "preferovany-reprezentacni-system", "ericksonovska-hypnoza", "kotveni-versus-ukotveni-odhadu", "terapie-casove-osy", "nlp-jako-pseudoveda", "hodnoceni-narodni-rady-pro-vyzkum", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
-nlp_related_declared = ["nlp-jako-pseudoveda", "hodnoceni-narodni-rady-pro-vyzkum", "jak-cist-tvrzeni-nlp", "predpoklady-jako-pracovni-hypotezy"]
-nlp_kompendium = ["kompendium/techniques/ea-8-3-4-empirical-research-base.md", "kompendium/critical-perspectives/_index.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
-nlp_links_prose = ["glossary/pseudoscience.md", "kompendium/02-uvod/metodologicke-poznamky.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md"]
-nlp_prev = ""
-nlp_next = "vyzkum-preferovaneho-systemu"
-nlp_position = 1
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "gilovich-1991", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979"]
-nlp_sources_roots = []
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/kriticke-hodnoceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-22.01"
+catalog_slug = "stav-dukazu-nlp"
+catalog_family = "kriticke-hodnoceni"
+catalog_family_code = "22"
+catalog_family_title = "Kritické hodnocení NLP"
+catalog_family_en = "Critical appraisal of NLP"
+catalog_part = "kriticke-hodnoceni"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "State of the evidence on NLP"
+catalog_aliases = ["empirická podpora NLP", "výzkum NLP"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["vyzkum-preferovaneho-systemu", "vyzkum-ocnich-signalu", "delfska-studie", "systematicky-prehled-zdravi", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "nlp-v-koucinku-vyzkum", "jak-cist-tvrzeni-nlp"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["predpoklady-jako-pracovni-hypotezy", "preferovany-reprezentacni-system", "ericksonovska-hypnoza", "kotveni-versus-ukotveni-odhadu", "terapie-casove-osy", "nlp-jako-pseudoveda", "hodnoceni-narodni-rady-pro-vyzkum", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
+catalog_related_declared = ["nlp-jako-pseudoveda", "hodnoceni-narodni-rady-pro-vyzkum", "jak-cist-tvrzeni-nlp", "predpoklady-jako-pracovni-hypotezy"]
+catalog_kompendium = ["kompendium/techniques/ea-8-3-4-empirical-research-base.md", "kompendium/critical-perspectives/_index.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/pseudoscience.md", "kompendium/02-uvod/metodologicke-poznamky.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md"]
+catalog_prev = ""
+catalog_next = "vyzkum-preferovaneho-systemu"
+catalog_position = 1
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "gilovich-1991", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979"]
+catalog_sources_roots = []
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/kriticke-hodnoceni.toml"
 +++
 
 # Stav důkazů o NLP
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-22.01` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | State of the evidence on NLP |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/kriticke-hodnoceni.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -212,7 +215,7 @@ empirickou literaturu obecně, slouží v kompendiu stránka o [empirické výzk
 bázi](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) a [metodologické poznámky k
 taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -237,37 +240,37 @@ taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 **Rodina a hierarchie**
 
-- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – zvláštní případ tohoto vzorce
-- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – zvláštní případ tohoto vzorce
-- [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – zvláštní případ tohoto vzorce
-- [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – zvláštní případ tohoto vzorce
-- [Databáze výzkumu NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md) – zvláštní případ tohoto vzorce
-- [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – zvláštní případ tohoto vzorce
-- [Výzkum NLP v koučinku](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md) – zvláštní případ tohoto vzorce
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – zvláštní případ tohoto vzorce
+- [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – zvláštní případ tohoto hesla
+- [Výzkum očních přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md) – zvláštní případ tohoto hesla
+- [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – zvláštní případ tohoto hesla
+- [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – zvláštní případ tohoto hesla
+- [Databáze výzkumu NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md) – zvláštní případ tohoto hesla
+- [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – zvláštní případ tohoto hesla
+- [Výzkum NLP v koučinku](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum.md) – zvláštní případ tohoto hesla
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzný vzorec (Předpoklady NLP, Presuppositions as working assumptions)
-- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzný vzorec (Základní pojmy NLP, Preferred representational system)
-- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzný vzorec (Ericksonovská hypnóza, Ericksonian hypnosis)
-- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzný vzorec (Kotvení, NLP anchoring versus the anchoring heuristic)
-- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzný vzorec (Časová osa, Time Line Therapy)
-- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as pseudoscience)
-- [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – příbuzný vzorec (Kritické hodnocení NLP, US National Research Council appraisal)
-- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzný vzorec (Kritické hodnocení NLP, NLP as cargo-cult psychology)
-- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, How to read NLP claims)
+- [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – příbuzné heslo (Předpoklady NLP, Presuppositions as working assumptions)
+- [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – příbuzné heslo (Základní pojmy NLP, Preferred representational system)
+- [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – příbuzné heslo (Ericksonovská hypnóza, Ericksonian hypnosis)
+- [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) – příbuzné heslo (Kotvení, NLP anchoring versus the anchoring heuristic)
+- [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – příbuzné heslo (Časová osa, Time Line Therapy)
+- [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as pseudoscience)
+- [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – příbuzné heslo (Kritické hodnocení NLP, US National Research Council appraisal)
+- [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – příbuzné heslo (Kritické hodnocení NLP, NLP as cargo-cult psychology)
+- [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, How to read NLP claims)
 
 **V kompendiu**
 
-- [EA-8.3.4 Empirická výzkumná báze](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-8.3.4 Empirická výzkumná báze](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Výzkum preferovaného reprezentačního systému](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Přesvědčení o příčině", "Beliefs about cause", "kauzální přesvědčení", "Přesvědčení", "NLP", "neurolingvistické programování"]
+keywords = ["Přesvědčení o příčině", "Beliefs about cause", "kauzální přesvědčení", "Přesvědčení", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-16.05"
-nlp_slug = "presvedceni-o-pricine"
-nlp_family = "presvedceni"
-nlp_family_code = "16"
-nlp_family_title = "Přesvědčení"
-nlp_family_en = "Belief patterns"
-nlp_part = "presvedceni"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Beliefs about cause"
-nlp_aliases = ["kauzální přesvědčení"]
-nlp_use = "zadne"
-nlp_use_cs = "výkladový pojem"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["pricina-a-nasledek", "struktura-presvedceni-som", "limitujici-rozhodnuti", "korenova-pricina", "limitujici-presvedceni", "presvedceni-o-vyznamu", "presvedceni-o-identite"]
-nlp_related_declared = ["pricina-a-nasledek", "presvedceni-o-vyznamu", "presvedceni-o-identite", "struktura-presvedceni-som", "limitujici-presvedceni"]
-nlp_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
-nlp_prev = "limitujici-presvedceni"
-nlp_next = "presvedceni-o-vyznamu"
-nlp_position = 5
-nlp_family_size = 14
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "druckman-swets-1988", "ellis-1962", "gilovich-1991", "herman-1992", "kahneman-2011", "langer-1978", "sharpley-1987", "stark-2007", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "dilts-1999"]
-nlp_sources_roots = []
-nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "ellis-1962", "gilovich-1991", "herman-1992", "kahneman-2011", "langer-1978", "sharpley-1987", "stark-2007", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/presvedceni.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-16.05"
+catalog_slug = "presvedceni-o-pricine"
+catalog_family = "presvedceni"
+catalog_family_code = "16"
+catalog_family_title = "Přesvědčení"
+catalog_family_en = "Belief patterns"
+catalog_part = "presvedceni"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Beliefs about cause"
+catalog_aliases = ["kauzální přesvědčení"]
+catalog_use = "zadne"
+catalog_use_cs = "výkladový pojem"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["jedina-pricina", "zjednodusena-kauzalita", "pricina-a-nasledek", "struktura-presvedceni-som", "limitujici-rozhodnuti", "korenova-pricina", "limitujici-presvedceni", "presvedceni-o-vyznamu", "presvedceni-o-identite"]
+catalog_related_declared = ["pricina-a-nasledek", "presvedceni-o-vyznamu", "presvedceni-o-identite", "struktura-presvedceni-som", "limitujici-presvedceni"]
+catalog_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
+catalog_prev = "limitujici-presvedceni"
+catalog_next = "presvedceni-o-vyznamu"
+catalog_position = 5
+catalog_family_size = 14
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "druckman-swets-1988", "ellis-1962", "gilovich-1991", "herman-1992", "kahneman-2011", "langer-1978", "sharpley-1987", "stark-2007", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999"]
+catalog_sources_roots = []
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "ellis-1962", "gilovich-1991", "herman-1992", "kahneman-2011", "langer-1978", "sharpley-1987", "stark-2007", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/presvedceni.toml"
 +++
 
 # Přesvědčení o příčině
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-16.05` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Beliefs about cause |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/presvedceni.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -196,7 +199,7 @@ pracují pomalu, s doklady a s respektem k tomu, co člověk skutečně prožil.
 zkreslení, na nichž takové výklady stavějí, popisuje podsekce o
 [kognitivních biasech](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -218,27 +221,29 @@ zkreslení, na nichž takové výklady stavějí, popisuje podsekce o
 
 **Rodina a hierarchie**
 
-- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzný vzorec (Meta-model, Cause and effect)
-- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzný vzorec (Sleight of Mouth, Belief structure in Sleight of Mouth)
-- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzný vzorec (Časová osa, Limiting decisions)
-- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzný vzorec (Časová osa, Root cause)
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzný vzorec (Přesvědčení, Limiting beliefs)
-- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzný vzorec (Přesvědčení, Beliefs about meaning)
-- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzný vzorec (Přesvědčení, Beliefs about identity)
+- [Jediná příčina](@/kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md) – příbuzné heslo (Argumentační fauly: Kauzální klamy, Fallacy of the single cause)
+- [Zjednodušená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/zjednodusena-kauzalita.md) – příbuzné heslo (Argumentační fauly: Kauzální klamy, Causal oversimplification)
+- [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – příbuzné heslo (Meta-model, Cause and effect)
+- [Struktura přesvědčení v Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md) – příbuzné heslo (Sleight of Mouth, Belief structure in Sleight of Mouth)
+- [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – příbuzné heslo (Časová osa, Limiting decisions)
+- [Hledání kořenové příčiny](@/kompendium/nlp-vzorce/casova-osa/korenova-pricina.md) – příbuzné heslo (Časová osa, Root cause)
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – příbuzné heslo (Přesvědčení, Limiting beliefs)
+- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – příbuzné heslo (Přesvědčení, Beliefs about meaning)
+- [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
 
 **V kompendiu**
 
-- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – předchozí vzorec rodiny
-- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Limitující přesvědčení](@/kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md) – předchozí heslo rodiny
+- [Přesvědčení o významu](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

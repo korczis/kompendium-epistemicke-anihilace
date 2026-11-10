@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Změna velikosti rámce", "Change frame size", "změna časového rámce", "zvětšení nebo zmenšení rámce", "Sleight of Mouth", "NLP", "neurolingvistické programování"]
+keywords = ["Změna velikosti rámce", "Change frame size", "změna časového rámce", "zvětšení nebo zmenšení rámce", "Sleight of Mouth", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-07.16"
-nlp_slug = "som-zmena-velikosti-ramce"
-nlp_family = "sleight-of-mouth"
-nlp_family_code = "07"
-nlp_family_title = "Sleight of Mouth"
-nlp_family_en = "Sleight of Mouth"
-nlp_part = "sleight-of-mouth.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Change frame size"
-nlp_aliases = ["změna časového rámce", "zvětšení nebo zmenšení rámce"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "sleight-of-mouth"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["sleight-of-mouth"]
-nlp_related = ["chunking", "som-dusledek", "som-rozlozeni", "som-zobecneni", "kontextovy-reframing"]
-nlp_related_declared = ["chunking", "som-zobecneni", "som-rozlozeni", "kontextovy-reframing", "som-dusledek"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md"]
-nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/nlp-vzorce/zakladni-pojmy/chunking.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md"]
-nlp_prev = "som-meta-ramec"
-nlp_next = ""
-nlp_position = 16
-nlp_family_size = 16
-nlp_sources = ["bandler-grinder-1982", "beck-1976", "dilts-1999", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1982", "dilts-1999"]
-nlp_sources_roots = ["watzlawick-1974"]
-nlp_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/sleight-of-mouth.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-07.16"
+catalog_slug = "som-zmena-velikosti-ramce"
+catalog_family = "sleight-of-mouth"
+catalog_family_code = "07"
+catalog_family_title = "Sleight of Mouth"
+catalog_family_en = "Sleight of Mouth"
+catalog_part = "sleight-of-mouth.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Change frame size"
+catalog_aliases = ["změna časového rámce", "zvětšení nebo zmenšení rámce"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "sleight-of-mouth"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["sleight-of-mouth"]
+catalog_related = ["chunking", "som-dusledek", "som-rozlozeni", "som-zobecneni", "kontextovy-reframing"]
+catalog_related_declared = ["chunking", "som-zobecneni", "som-rozlozeni", "kontextovy-reframing", "som-dusledek"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md", "kompendium/nlp-vzorce/zakladni-pojmy/chunking.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md"]
+catalog_prev = "som-meta-ramec"
+catalog_next = ""
+catalog_position = 16
+catalog_family_size = 16
+catalog_sources = ["bandler-grinder-1982", "beck-1976", "dilts-1999", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1982", "dilts-1999"]
+catalog_sources_roots = ["watzlawick-1974"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/sleight-of-mouth.b.toml"
 +++
 
 # Změna velikosti rámce
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-07.16` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Change frame size |
 | **Jiné názvy** | změna časového rámce, zvětšení nebo zmenšení rámce |
-| **Obecnější vzorec** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
+| **Obecnější heslo** | [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -103,7 +106,7 @@ Vzorec změna velikosti rámce nebyl samostatně empiricky testován; Dilts ho d
 
 Základní obranou je všímat si, kdo velikost rámce určuje a proč se mění. Pokud mluvčí u svého jednání rámec zvětšuje a u jednání adresáta zmenšuje, jde o asymetrii, kterou lze pojmenovat. Pomáhá vrátit se k rámci, v němž se jednání skutečně děje: nejde o jednu hádku, ale o opakovaný vzorec, a jeho dopad se posuzuje v přítomnosti, ne z představy budoucnosti. Druhou obranou je vedení záznamu. Kdo si zapisuje jednotlivé události s datem a popisem, má podklad, který zmenšení rámce na jeden incident nerozloží, protože opakování je na první pohled vidět. Takový záznam je užitečný i pro odborníky, kteří situaci posuzují, protože jim umožní vidět průběh, a ne jen jednotlivé epizody (Stark 2007). Třetí obranou je opora mimo vztah, tedy lidé, kteří mohou potvrdit, že reakce adresáta je přiměřená tomu, co se děje. U lidí, kteří dlouhodobě zažívali zlehčování opakované újmy, zahrnuje zotavení obnovu schopnosti vidět vzorec a důvěřovat vlastnímu odhadu jeho závažnosti. Herman zdůrazňuje, že rekonstrukce vlastního příběhu jako souvislého celku je důležitou součástí zotavení po dlouhodobém traumatu (Herman 1992); u tohoto vzorce to znamená vrátit jednotlivým epizodám jejich místo v celku, ze kterého byly vytrženy.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,25 +126,25 @@ Základní obranou je všímat si, kdo velikost rámce určuje a proč se mění
 
 **Rodina a hierarchie**
 
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/sleight-of-mouth.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzný vzorec (Základní pojmy NLP, Chunking)
-- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – příbuzný vzorec (Sleight of Mouth, Consequence)
-- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – příbuzný vzorec (Sleight of Mouth, Chunk down)
-- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzný vzorec (Sleight of Mouth, Chunk up)
-- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzný vzorec (Reframing a rámce, Context reframing)
+- [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzné heslo (Základní pojmy NLP, Chunking)
+- [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – příbuzné heslo (Sleight of Mouth, Consequence)
+- [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – příbuzné heslo (Sleight of Mouth, Chunk down)
+- [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – příbuzné heslo (Sleight of Mouth, Chunk up)
+- [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – příbuzné heslo (Reframing a rámce, Context reframing)
 
 **V kompendiu**
 
-- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – předchozí vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – předchozí heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

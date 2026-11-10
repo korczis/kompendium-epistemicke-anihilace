@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Izomorfní metafora", "Isomorphic metaphor", "izomorfismus metafory", "strukturně shodný příběh", "Jazykové vzorce", "NLP", "neurolingvistické programování"]
+keywords = ["Izomorfní metafora", "Isomorphic metaphor", "izomorfismus metafory", "strukturně shodný příběh", "Jazykové vzorce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-20.12"
-nlp_slug = "izomorfni-metafora"
-nlp_family = "jazykove-vzorce"
-nlp_family_code = "20"
-nlp_family_title = "Jazykové vzorce"
-nlp_family_en = "Language patterns"
-nlp_part = "jazykove-vzorce.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Isomorphic metaphor"
-nlp_aliases = ["izomorfismus metafory", "strukturně shodný příběh"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "terapeuticka-metafora"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["terapeuticka-metafora"]
-nlp_related = ["utilizace", "vnorene-smycky", "vrstveni-realit", "som-analogie", "lateralni-chunking", "terapeuticka-metafora"]
-nlp_related_declared = ["terapeuticka-metafora", "vnorene-smycky", "utilizace", "som-analogie"]
-nlp_kompendium = ["kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
-nlp_prev = "terapeuticka-metafora"
-nlp_next = "ale-a-a"
-nlp_position = 12
-nlp_family_size = 20
-nlp_sources = ["bateson-1972", "bateson-1956", "dilts-1999", "gordon-1978", "grice-1975", "haley-1973", "herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "rosen-1982", "watzlawick-1967", "witkowski-2010"]
-nlp_sources_primary = ["dilts-1999", "gordon-1978"]
-nlp_sources_roots = ["bateson-1972", "bateson-1956", "grice-1975", "haley-1973", "rosen-1982", "watzlawick-1967"]
-nlp_sources_critical = ["herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/jazykove-vzorce.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-20.12"
+catalog_slug = "izomorfni-metafora"
+catalog_family = "jazykove-vzorce"
+catalog_family_code = "20"
+catalog_family_title = "Jazykové vzorce"
+catalog_family_en = "Language patterns"
+catalog_part = "jazykove-vzorce.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Isomorphic metaphor"
+catalog_aliases = ["izomorfismus metafory", "strukturně shodný příběh"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "terapeuticka-metafora"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["terapeuticka-metafora"]
+catalog_related = ["utilizace", "vnorene-smycky", "vrstveni-realit", "som-analogie", "lateralni-chunking", "terapeuticka-metafora"]
+catalog_related_declared = ["terapeuticka-metafora", "vnorene-smycky", "utilizace", "som-analogie"]
+catalog_kompendium = ["kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md", "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md"]
+catalog_prev = "terapeuticka-metafora"
+catalog_next = "ale-a-a"
+catalog_position = 12
+catalog_family_size = 20
+catalog_sources = ["bateson-1972", "bateson-1956", "dilts-1999", "gordon-1978", "grice-1975", "haley-1973", "herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "rosen-1982", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["dilts-1999", "gordon-1978"]
+catalog_sources_roots = ["bateson-1972", "bateson-1956", "grice-1975", "haley-1973", "rosen-1982", "watzlawick-1967"]
+catalog_sources_critical = ["herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/jazykove-vzorce.b.toml"
 +++
 
 # Izomorfní metafora
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-20.12` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Isomorphic metaphor |
 | **Jiné názvy** | izomorfismus metafory, strukturně shodný příběh |
-| **Obecnější vzorec** | [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) |
+| **Obecnější heslo** | [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -198,7 +201,7 @@ jim někdo vložil do paměti jako varování. Herman popisuje, jak se při zota
 jeho výklad není podřízen výkladu někoho jiného (Herman 1992). Totéž platí pro zotavení z
 prostředí, kde se výklad předával příběhy, jejichž smysl směl znát jen vypravěč.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -219,27 +222,27 @@ prostředí, kde se výklad předával příběhy, jejichž smysl směl znát je
 
 **Rodina a hierarchie**
 
-- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Utilisation)
-- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzný vzorec (Ericksonovská hypnóza, Nested loops)
-- [Vrstvení realit](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md) – příbuzný vzorec (Ericksonovská hypnóza, Stacking realities)
-- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – příbuzný vzorec (Sleight of Mouth, Analogy)
-- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – příbuzný vzorec (Jazykové vzorce, Lateral chunking)
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzný vzorec (Jazykové vzorce, Therapeutic metaphor)
+- [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
+- [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – příbuzné heslo (Ericksonovská hypnóza, Nested loops)
+- [Vrstvení realit](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md) – příbuzné heslo (Ericksonovská hypnóza, Stacking realities)
+- [Analogie](@/kompendium/nlp-vzorce/sleight-of-mouth/som-analogie.md) – příbuzné heslo (Sleight of Mouth, Analogy)
+- [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – příbuzné heslo (Jazykové vzorce, Lateral chunking)
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – příbuzné heslo (Jazykové vzorce, Therapeutic metaphor)
 
 **V kompendiu**
 
-- [EA-6.3.6 Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.3.6 Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – předchozí vzorec rodiny
-- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – předchozí heslo rodiny
+- [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

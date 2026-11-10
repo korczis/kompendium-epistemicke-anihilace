@@ -1,0 +1,228 @@
+# Rodina AF-06: Klamy jazyka a dvojznačnosti (pravidlo project.content-catalogs; schéma
+# v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění. Hesla AF-06.08 až AF-06.13 mohou žít v části jazykove-klamy.<část>.toml.
+
+[[pattern]]
+id = "AF-06.01"
+slug = "ekvivokace"
+type = "informal"
+cs = "Ekvivokace"
+en = "Equivocation"
+aliases = ["záměna významů", "klam dvojznačného termínu"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["amfibolie", "ctyri-terminy", "presvedcovaci-definice", "motte-and-bailey", "fonologicka-dvojznacnost"]
+kompendium = [
+  "kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Výsledek vašeho testu je negativní. A s negativními výsledky se u nás nic neoslavuje, takže byste měl počítat s horší zprávou."
+context = "Laik vykládá příbuznému lékařskou zprávu, kterou sám nečetl celou."
+benign = false
+marker = "Slovo „negativní“ přechází mezi dvěma premisami z odborného významu (hledaný nález nebyl prokázán) do hodnotícího významu (špatný)."
+response = "Rozlišit oba významy a ověřit, co výraz znamená ve zprávě samé: negativní test zde znamená, že nález nebyl zjištěn, což bývá dobrá zpráva."
+
+[[pattern.trainer]]
+utterance = "Rozdíl mezi skupinami je statisticky signifikantní, ale je malý; o tom, zda je významný i pro pacienty, musí rozhodnout klinická kritéria."
+context = "Recenzent komentuje výsledky klinické studie."
+benign = true
+marker = "Mluvčí oba významy slova „významný“ výslovně odděluje a z jednoho neusuzuje na druhý."
+response = "Jde o platnou argumentaci: termín má v celém výroku jeden ohlášený význam a druhý význam se posuzuje samostatně."
+
+[[pattern.trainer]]
+utterance = "Zákon zakazuje diskriminaci. Každé přijímací řízení diskriminuje mezi lepšími a horšími uchazeči. Zákon tedy ve skutečnosti zakazuje přijímací řízení."
+context = "Diskuse o pracovním právu na odborném semináři."
+benign = false
+marker = "„Diskriminace“ znamená v první premise nezákonné rozlišování podle chráněného znaku, ve druhé jakékoli rozlišování."
+response = "Ukázat, že v jednom významu je pravdivá jen první premisa a ve druhém jen druhá, takže závěr z nich neplyne."
+
+[[pattern]]
+id = "AF-06.02"
+slug = "amfibolie"
+type = "informal"
+cs = "Amfibolie"
+en = "Amphiboly"
+aliases = ["syntaktická dvojznačnost", "skladební dvojznačnost"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["ekvivokace", "klam-duraznu", "syntakticka-dvojznacnost", "rozsahova-dvojznacnost", "interpunkcni-dvojznacnost", "zamena-kvantifikatoru"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ve smlouvě stojí, že nájemce hradí škody způsobené zaměstnanci pronajímatele. Takže když pronajímatelův údržbář rozbije okno, platí to nájemce."
+context = "Spor o výklad nájemní smlouvy."
+benign = false
+marker = "Tvar „zaměstnanci“ může být sedmý pád množného čísla (škody, které zaměstnanci způsobili) i třetí pád jednotného čísla (škody způsobené zaměstnanci); mluvčí mlčky volí výklad, který mu vyhovuje."
+response = "Upozornit, že věta připouští dvě skladby, a hledat rozhodnutí v kontextu smlouvy, v jejím účelu a v jednání stran, ne v pohodlnějším čtení."
+
+[[pattern.trainer]]
+utterance = "Formulace „všichni pacienti nedostali lék“ je nejasná: může znamenat, že ho nedostal nikdo, nebo že ho nedostali všichni. Opravme ji v protokolu na jednoznačnou."
+context = "Kontrola textu protokolu studie před odesláním etické komisi."
+benign = true
+marker = "Mluvčí dvojí skladbu odhaluje a odstraňuje, místo aby z ní vyvozoval závěr."
+response = "Jde o platný postup: dvojznačná věta se před dalším usuzováním nahradí formulací s jedním čtením."
+
+[[pattern]]
+id = "AF-06.03"
+slug = "klam-duraznu"
+type = "informal"
+cs = "Klam důrazu"
+en = "Fallacy of accent"
+aliases = ["klam přízvuku", "zavádějící důraz"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["vytrzeni-z-kontextu", "amfibolie", "analogove-znaceni", "zavadejici-graf", "nabity-jazyk", "ekvivokace"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-2-context-collapse.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Do denního záznamu sestra napsala „Dnes pacient spolupracoval“ a to slovo „dnes“ podtrhla. Z toho je jasné, že jindy nespolupracuje."
+context = "Porada týmu o propuštění pacienta; jiné záznamy o nespolupráci neexistují."
+benign = false
+marker = "Ze zvýraznění jednoho slova se vyvozuje tvrzení, které záznam neobsahuje a které není doloženo jinými záznamy."
+response = "Oddělit, co záznam říká, od toho, co důraz naznačuje, a ověřit domněnku v ostatní dokumentaci nebo dotazem u autorky záznamu."
+
+[[pattern.trainer]]
+utterance = "V nadpisu zprávy je tučně „riziko klesá o polovinu“, ale v tabulce stojí, že jde o pokles z dvou případů na tisíc na jeden. Uvádím obě čísla vedle sebe."
+context = "Lékař vysvětluje pacientce výsledky studie, o níž četla v novinách."
+benign = true
+marker = "Mluvčí důraz nadpisu nepřebírá, ale vrací do výkladu i údaj, který zvýraznění odsunulo."
+response = "Jde o platnou argumentaci: relativní i absolutní údaj jsou podány stejně viditelně a závěr se opírá o oba."
+
+[[pattern]]
+id = "AF-06.04"
+slug = "klam-skladani"
+type = "informal"
+cs = "Klam skládání"
+en = "Fallacy of composition"
+aliases = ["klam složení", "z částí na celek"]
+use = "chyba"
+risk = "stredni"
+broader = ""
+related = ["klam-deleni", "ekologicky-klam", "simpsonuv-paradox", "ukvapene-zobecneni", "prilis-siroke-zobecneni"]
+kompendium = [
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Každý z pěti léků, které pan doktor předepsal, je sám o sobě bezpečný, takže i jejich kombinace musí být bezpečná."
+context = "Pacient odmítá konzultaci s klinickým farmaceutem."
+benign = false
+marker = "Vlastnost jednotlivých částí (bezpečnost samostatně užitého léku) se bez dalšího přenáší na celek, u něhož mohou vzniknout interakce."
+response = "Rozlišit vlastnosti, které se sčítají, od vlastností, které vznikají až vzájemným působením částí, a bezpečnost kombinace posoudit samostatně."
+
+[[pattern.trainer]]
+utterance = "Každá z dvaceti beden váží nejvýš padesát kilogramů, takže náklad jako celek nepřekročí tunu, kterou výtah unese."
+context = "Skladník plánuje přepravu nákladním výtahem."
+benign = true
+marker = "Hmotnost je vlastnost, která se z částí na celek prostě sčítá, takže přenos z částí na celek je zde oprávněný."
+response = "Jde o platnou argumentaci: dvacet krát padesát kilogramů je nejvýš tuna a závěr plyne z aditivní povahy hmotnosti."
+
+[[pattern]]
+id = "AF-06.05"
+slug = "klam-deleni"
+type = "informal"
+cs = "Klam dělení"
+en = "Fallacy of division"
+aliases = ["klam rozdělení", "z celku na části"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["klam-skladani", "ekologicky-klam", "vina-asociaci", "prilis-siroke-zobecneni", "univerzalni-kvantifikator"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta nemocnice je v žebříčku nejlepší v kraji, takže i její kardiologie musí být nejlepší kardiologií v kraji."
+context = "Příbuzný vybírá pracoviště pro plánovaný zákrok."
+benign = false
+marker = "Hodnocení celku, které je průměrem mnoha oddělení, se přenáší na jednu jeho část, o níž samo nic neříká."
+response = "Hledat údaje přímo o dané části (výsledky oddělení, počty výkonů), protože výborný celek může zahrnovat i průměrné části."
+
+[[pattern.trainer]]
+utterance = "Komise rozhodla většinou hlasů, takže z rozhodnutí neplyne, jak hlasoval kterýkoli jednotlivý člen; to ukáže až zápis o hlasování."
+context = "Advokát odpovídá klientovi, který chce žalovat konkrétního člena komise."
+benign = true
+marker = "Mluvčí výslovně odmítá přenést vlastnost rozhodnutí celku na jednotlivé členy a odkazuje na údaj o částech."
+response = "Jde o platnou argumentaci: o části se usuzuje z dokladu o části, ne z vlastnosti celku."
+
+[[pattern]]
+id = "AF-06.06"
+slug = "reifikace"
+type = "informal"
+cs = "Reifikace"
+en = "Reification"
+aliases = ["hypostaze", "zvěcnění", "klam nemístné konkrétnosti"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["nominalizace", "mapa-neni-uzemi", "magicke-mysleni", "ekvivokace", "nominalizace-milton"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Trh si nepřeje, aby se mzdy v nemocnicích zvyšovaly, a proti vůli trhu nemá smysl se stavět."
+context = "Vyjádření manažera k požadavkům zaměstnanců."
+benign = false
+marker = "Souhrnný název pro rozhodnutí mnoha lidí se líčí jako jednající bytost s vůlí, takže otázka, kdo konkrétně rozhoduje a proč, mizí."
+response = "Přeložit výrok zpět na jednající osoby a mechanismy: kdo stanovuje mzdy, podle jakých pravidel a jaké jsou možnosti volby."
+
+[[pattern.trainer]]
+utterance = "Když v knize mluvím o dvou systémech myšlení, jde o zkratku pro dva typy procesů; nejsou to dvě místa v mozku ani dvě osoby v hlavě."
+context = "Přednášející úvodem k výkladu teorie duálních procesů."
+benign = true
+marker = "Abstrakce je výslovně označena za pojmovou zkratku a mluvčí odmítá přisoudit jí samostatnou existenci."
+response = "Jde o legitimní užití: metafora slouží výkladu a její meze jsou ohlášeny, takže se z ní nevyvozuje nic, co by platilo jen o věcech."
+
+[[pattern]]
+id = "AF-06.07"
+slug = "etymologicky-klam"
+type = "informal"
+cs = "Etymologický klam"
+en = "Etymological fallacy"
+aliases = ["argument z původu slova", "klam pravého významu"]
+use = "dvoji"
+risk = "nizke"
+broader = ""
+related = ["ekvivokace", "presvedcovaci-definice", "definicni-klam", "genetic-klam", "odvolani-na-starobylost"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Slovo terapie pochází z řeckého výrazu pro službu, takže terapeut je ve skutečnosti sluha klienta a má udělat cokoli, co si klient přeje."
+context = "Klient zpochybňuje, že terapeut odmítl porušit pravidla terapeutického vztahu."
+benign = false
+marker = "Z historického původu slova se vyvozuje závazný dnešní význam i normativní důsledek pro jednání."
+response = "Odlišit původ slova od jeho současného užití a od pravidel profese, která se odvozují z etiky a práva, ne z řečtiny."
+
+[[pattern.trainer]]
+utterance = "Slovo diagnóza kdysi znamenalo rozpoznání; dnes ho používáme pro závěr vyšetření, a v tomto dnešním významu ho píšeme i do zprávy."
+context = "Vyučující vysvětluje medikům odbornou terminologii."
+benign = true
+marker = "Etymologie slouží jako zajímavost a výklad, ale význam termínu se určuje podle současného odborného užití."
+response = "Jde o legitimní užití: původ slova se zmiňuje bez nároku, že by určoval, co termín znamená nebo co z něj plyne."

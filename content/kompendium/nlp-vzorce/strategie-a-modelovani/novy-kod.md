@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Nový kód NLP", "NLP New Code", "New Code", "nový kód", "Strategie a modelování", "NLP", "neurolingvistické programování"]
+keywords = ["Nový kód NLP", "NLP New Code", "New Code", "nový kód", "Strategie a modelování", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-14.11"
-nlp_slug = "novy-kod"
-nlp_family = "strategie-a-modelovani"
-nlp_family_code = "14"
-nlp_family_title = "Strategie a modelování"
-nlp_family_en = "Strategies and modelling"
-nlp_part = "strategie-a-modelovani.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "NLP New Code"
-nlp_aliases = ["New Code", "nový kód"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = ["stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni"]
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["ekologicka-kontrola", "modelovani-pojem", "uptime-a-downtime", "troji-popis", "strategie-uceni", "modelovani-excelence", "stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni", "modelovani-nevedomim", "historie-nlp"]
-nlp_related_declared = ["stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni", "modelovani-nevedomim", "uptime-a-downtime", "ekologicka-kontrola"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_prev = "modelovani-excelence"
-nlp_next = "stav-vysokeho-vykonu"
-nlp_position = 11
-nlp_family_size = 20
-nlp_sources = ["bateson-1972", "dilts-delozier-2000", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sources_primary = ["dilts-delozier-2000", "grinder-bostic-2001", "grinder-delozier-1987"]
-nlp_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976"]
-nlp_sources_critical = ["druckman-swets-1988", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-14.11"
+catalog_slug = "novy-kod"
+catalog_family = "strategie-a-modelovani"
+catalog_family_code = "14"
+catalog_family_title = "Strategie a modelování"
+catalog_family_en = "Strategies and modelling"
+catalog_part = "strategie-a-modelovani.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "NLP New Code"
+catalog_aliases = ["New Code", "nový kód"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = ["stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni"]
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["ekologicka-kontrola", "modelovani-pojem", "uptime-a-downtime", "troji-popis", "strategie-uceni", "modelovani-excelence", "stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni", "modelovani-nevedomim", "historie-nlp"]
+catalog_related_declared = ["stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni", "modelovani-nevedomim", "uptime-a-downtime", "ekologicka-kontrola"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_prev = "modelovani-excelence"
+catalog_next = "stav-vysokeho-vykonu"
+catalog_position = 11
+catalog_family_size = 20
+catalog_sources = ["bateson-1972", "dilts-delozier-2000", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grinder-bostic-2001", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "grinder-bostic-2001", "grinder-delozier-1987"]
+catalog_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976"]
+catalog_sources_critical = ["druckman-swets-1988", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
 +++
 
 # Nový kód NLP
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-14.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | NLP New Code |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/strategie-a-modelovani.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -100,7 +103,7 @@ O Novém kódu jako celku neexistují kontrolované studie, které by prokázaly
 
 První obranou je rozlišovat myšlenku od institucionální praxe, v níž se šíří. Je možné souhlasit s tím, že vědomý plán vidí jen část celku, a přesto trvat na tom, že metoda musí umět říct, podle čeho se pozná její neúspěch. Kdo se na semináři setká s odpovědí, že otázky jsou projevem „starého kódu“, má dobrý důvod odstoupit a hledat informace mimo okruh lidí, kteří na výcviku vydělávají. Druhou obranou je oddělovat stav od rozhodnutí. Cvičení, která navozují uvolněné a soustředěné rozpoložení, mohou být příjemná, ale rozhodnutí o penězích, závazcích a vztazích patří do doby, kdy stav odezní a člověk má čas zvážit fakta. Výzkum přesvědčování ukazuje, že když klesá schopnost nebo motivace k pečlivému zvažování, rozhodují se lidé víc podle povrchových vodítek, jako je nadšení okolí nebo autorita řečníka (Petty a Cacioppo 1986). Třetí obranou je vrátit vědomému úsudku jeho roli. Vědomé zvažování není nepřítel změny, ale nástroj, kterým člověk ověřuje, zda změna odpovídá jeho hodnotám. U lidí, kteří dlouhodobě pobývali v prostředí, kde se kritické myšlení soustavně znevažovalo, se v klinické praxi pracuje s obnovou důvěry ve vlastní úsudek v bezpečném vztahu, nikoli s dalšími technikami obcházejícími vědomí (Herman 1992). Odborník, který s Novým kódem pracuje, by měl jeho předpoklady sdělovat jako hypotézy, nabízet cvičení jako dobrovolná a výslovně podporovat klientovo právo metodu zpochybnit.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -123,35 +126,35 @@ První obranou je rozlišovat myšlenku od institucionální praxe, v níž se �
 
 **Rodina a hierarchie**
 
-- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – zvláštní případ tohoto vzorce
-- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – zvláštní případ tohoto vzorce
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – zvláštní případ tohoto vzorce
+- [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – zvláštní případ tohoto hesla
+- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – zvláštní případ tohoto hesla
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – zvláštní případ tohoto hesla
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Modelling (concept))
-- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzný vzorec (Základní pojmy NLP, Uptime and downtime)
-- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Triple description)
-- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzný vzorec (Strategie a modelování, Learning strategy)
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzný vzorec (Strategie a modelování, Modelling excellence)
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzný vzorec (Strategie a modelování, High-performance state)
-- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – příbuzný vzorec (Strategie a modelování, Alphabet game)
-- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzný vzorec (Strategie a modelování, Know-nothing state)
-- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzný vzorec (Strategie a modelování, Unconscious uptake modelling)
-- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzný vzorec (Kritické hodnocení NLP, History of NLP)
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – příbuzné heslo (Základní pojmy NLP, Modelling (concept))
+- [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – příbuzné heslo (Základní pojmy NLP, Uptime and downtime)
+- [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – příbuzné heslo (Logické úrovně a percepční pozice, Triple description)
+- [Strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) – příbuzné heslo (Strategie a modelování, Learning strategy)
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – příbuzné heslo (Strategie a modelování, Modelling excellence)
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – příbuzné heslo (Strategie a modelování, High-performance state)
+- [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – příbuzné heslo (Strategie a modelování, Alphabet game)
+- [Stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) – příbuzné heslo (Strategie a modelování, Know-nothing state)
+- [Nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md) – příbuzné heslo (Strategie a modelování, Unconscious uptake modelling)
+- [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, History of NLP)
 
 **V kompendiu**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – předchozí vzorec rodiny
-- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – předchozí heslo rodiny
+- [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

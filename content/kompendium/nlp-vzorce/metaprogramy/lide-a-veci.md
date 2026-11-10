@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Lidé a věci", "Person and thing", "orientace na lidi a na úkoly", "organizace pozornosti", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Lidé a věci", "Person and thing", "orientace na lidi a na úkoly", "organizace pozornosti", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.13"
-nlp_slug = "lide-a-veci"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Person and thing"
-nlp_aliases = ["orientace na lidi a na úkoly", "organizace pozornosti"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["raport", "ja-a-druzi", "pracovni-styl", "metaprogramy-v-naboru"]
-nlp_related_declared = ["ja-a-druzi", "pracovni-styl", "metaprogramy-v-naboru", "raport"]
-nlp_kompendium = ["kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
-nlp_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md", "kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md"]
-nlp_prev = "pracovni-styl"
-nlp_next = "struktura-pravidel"
-nlp_position = 13
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "gilovich-1991", "hall-bodenhamer-1997", "herman-1992", "james-woodsmall-1988", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "james-woodsmall-1988"]
-nlp_sources_roots = []
-nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "herman-1992", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.13"
+catalog_slug = "lide-a-veci"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Person and thing"
+catalog_aliases = ["orientace na lidi a na úkoly", "organizace pozornosti"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["raport", "ja-a-druzi", "pracovni-styl", "metaprogramy-v-naboru"]
+catalog_related_declared = ["ja-a-druzi", "pracovni-styl", "metaprogramy-v-naboru", "raport"]
+catalog_kompendium = ["kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md", "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md", "kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md"]
+catalog_prev = "pracovni-styl"
+catalog_next = "struktura-pravidel"
+catalog_position = 13
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "gilovich-1991", "hall-bodenhamer-1997", "herman-1992", "james-woodsmall-1988", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "james-woodsmall-1988"]
+catalog_sources_roots = []
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "herman-1992", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Lidé a věci
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.13` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Person and thing |
 | **Jiné názvy** | orientace na lidi a na úkoly, organizace pozornosti |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -204,7 +207,7 @@ a méně cenné, se zotavení podobá zotavení z jiných forem nálepkování: 
 že člověk je víc než kategorie, do které ho zařadila autorita, a že má právo na vlastní popis
 toho, co ho zajímá a co umí (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -225,25 +228,25 @@ toho, co ho zajímá a co umí (Herman 1992).
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzný vzorec (Základní pojmy NLP, Rapport)
-- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzný vzorec (Metaprogramy, Self and other)
-- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzný vzorec (Metaprogramy, Working style)
-- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzný vzorec (Metaprogramy, Meta-programs in recruitment and management)
+- [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – příbuzné heslo (Základní pojmy NLP, Rapport)
+- [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzné heslo (Metaprogramy, Self and other)
+- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzné heslo (Metaprogramy, Working style)
+- [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzné heslo (Metaprogramy, Meta-programs in recruitment and management)
 
 **V kompendiu**
 
-- [EA-9.6.6 AI Hiring Narrative](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-9.6.6 AI Hiring Narrative](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – předchozí vzorec rodiny
-- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – předchozí heslo rodiny
+- [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

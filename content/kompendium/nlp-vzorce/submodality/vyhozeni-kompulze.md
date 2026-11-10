@@ -12,55 +12,58 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Rozbití kompulze", "Compulsion blowout", "compulsion blowout", "přetažení nutkání za práh", "Submodality", "NLP", "neurolingvistické programování"]
+keywords = ["Rozbití kompulze", "Compulsion blowout", "compulsion blowout", "přetažení nutkání za práh", "Submodality", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-10.11"
-nlp_slug = "vyhozeni-kompulze"
-nlp_family = "submodality"
-nlp_family_code = "10"
-nlp_family_title = "Submodality"
-nlp_family_en = "Submodalities"
-nlp_part = "submodality.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Compulsion blowout"
-nlp_aliases = ["compulsion blowout", "přetažení nutkání za práh"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = ""
-nlp_narrower = []
-nlp_depth = 0
-nlp_ancestors = []
-nlp_related = ["kriticke-submodality", "mapovani-napric", "swish", "od-libosti-k-nechuti", "prahovy-vzorec"]
-nlp_related_declared = ["kriticke-submodality", "prahovy-vzorec", "od-libosti-k-nechuti", "swish", "mapovani-napric"]
-nlp_kompendium = ["glossary/addiction-recovery.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/critical-perspectives/_index.md"]
-nlp_links_prose = ["glossary/addiction-recovery.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_prev = "auditivni-swish"
-nlp_next = "vzorec-godiva"
-nlp_position = 11
-nlp_family_size = 20
-nlp_sources = ["andreas-andreas-1987", "bandler-1985", "haley-1973", "miller-rollnick-2013", "norcross-2006", "pavlov-1927", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010", "wolpe-1958"]
-nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
-nlp_sources_roots = ["haley-1973", "pavlov-1927", "watzlawick-1974"]
-nlp_sources_critical = ["miller-rollnick-2013", "norcross-2006", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/submodality.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-10.11"
+catalog_slug = "vyhozeni-kompulze"
+catalog_family = "submodality"
+catalog_family_code = "10"
+catalog_family_title = "Submodality"
+catalog_family_en = "Submodalities"
+catalog_part = "submodality.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Compulsion blowout"
+catalog_aliases = ["compulsion blowout", "přetažení nutkání za práh"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = ""
+catalog_narrower = []
+catalog_depth = 0
+catalog_ancestors = []
+catalog_related = ["kriticke-submodality", "mapovani-napric", "swish", "od-libosti-k-nechuti", "prahovy-vzorec"]
+catalog_related_declared = ["kriticke-submodality", "prahovy-vzorec", "od-libosti-k-nechuti", "swish", "mapovani-napric"]
+catalog_kompendium = ["glossary/addiction-recovery.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/critical-perspectives/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/addiction-recovery.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_prev = "auditivni-swish"
+catalog_next = "vzorec-godiva"
+catalog_position = 11
+catalog_family_size = 20
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "haley-1973", "miller-rollnick-2013", "norcross-2006", "pavlov-1927", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
+catalog_sources_roots = ["haley-1973", "pavlov-1927", "watzlawick-1974"]
+catalog_sources_critical = ["miller-rollnick-2013", "norcross-2006", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/submodality.b.toml"
 +++
 
 # Rozbití kompulze
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-10.11` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Compulsion blowout |
@@ -70,7 +73,7 @@ nlp_catalogue = "data/nlp/submodality.b.toml"
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -200,7 +203,7 @@ se submodalitami pracuje, by měl jejich užití klientovi otevřeně popsat jak
 experimentální, zaznamenávat průběh a uznat, že subjektivní úleva na konci sezení není
 dokladem trvalé změny.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -222,26 +225,26 @@ dokladem trvalé změny.
 
 **Rodina a hierarchie**
 
-- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
+- [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
-- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzný vzorec (Submodality, Mapping across)
-- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzný vzorec (Submodality, Swish pattern)
-- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzný vzorec (Submodality, Like-to-dislike pattern)
-- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – příbuzný vzorec (Submodality, Threshold pattern)
+- [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzné heslo (Submodality, Critical (driver) submodalities)
+- [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – příbuzné heslo (Submodality, Mapping across)
+- [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzné heslo (Submodality, Swish pattern)
+- [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – příbuzné heslo (Submodality, Like-to-dislike pattern)
+- [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – příbuzné heslo (Submodality, Threshold pattern)
 
 **V kompendiu**
 
-- [Addiction Recovery (princip epistemické bdělosti)](@/glossary/addiction-recovery.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [Addiction Recovery (princip epistemické bdělosti)](@/glossary/addiction-recovery.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – předchozí vzorec rodiny
-- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – předchozí heslo rodiny
+- [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

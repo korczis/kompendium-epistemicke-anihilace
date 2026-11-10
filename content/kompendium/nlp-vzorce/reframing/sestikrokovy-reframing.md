@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Šestikrokový reframing", "Six-step reframing", "reframing šesti kroků", "Reframing a rámce", "NLP", "neurolingvistické programování"]
+keywords = ["Šestikrokový reframing", "Six-step reframing", "reframing šesti kroků", "Reframing a rámce", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-08.04"
-nlp_slug = "sestikrokovy-reframing"
-nlp_family = "reframing"
-nlp_family_code = "08"
-nlp_family_title = "Reframing a rámce"
-nlp_family_en = "Reframing and frames"
-nlp_part = "reframing"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Six-step reframing"
-nlp_aliases = ["reframing šesti kroků"]
-nlp_use = "terapie"
-nlp_use_cs = "převážně terapeutické"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "reframing"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["reframing"]
-nlp_related = ["pozitivni-zamer-chovani", "ekologicka-kontrola", "ideomotoricka-signalizace", "ramec-ekologie", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "elicitace-pozitivniho-zameru"]
-nlp_related_declared = ["pozitivni-zamer-chovani", "elicitace-pozitivniho-zameru", "integrace-casti", "ekologicka-kontrola", "jadrova-transformace", "vyjednavani-casti"]
-nlp_kompendium = ["kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["glossary/informed-consent.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
-nlp_prev = "obsahovy-reframing"
-nlp_next = "ramec-souhlasu"
-nlp_position = 4
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "erickson-rossi-1979", "hassan-1988", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "perls-1969", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982"]
-nlp_sources_roots = ["erickson-rossi-1979", "perls-1969", "watzlawick-1974"]
-nlp_sources_critical = ["hassan-1988", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/reframing.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-08.04"
+catalog_slug = "sestikrokovy-reframing"
+catalog_family = "reframing"
+catalog_family_code = "08"
+catalog_family_title = "Reframing a rámce"
+catalog_family_en = "Reframing and frames"
+catalog_part = "reframing"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Six-step reframing"
+catalog_aliases = ["reframing šesti kroků"]
+catalog_use = "terapie"
+catalog_use_cs = "převážně terapeutické"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "reframing"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["reframing"]
+catalog_related = ["pozitivni-zamer-chovani", "ekologicka-kontrola", "ideomotoricka-signalizace", "ramec-ekologie", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "elicitace-pozitivniho-zameru"]
+catalog_related_declared = ["pozitivni-zamer-chovani", "elicitace-pozitivniho-zameru", "integrace-casti", "ekologicka-kontrola", "jadrova-transformace", "vyjednavani-casti"]
+catalog_kompendium = ["kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_canonical = ""
+catalog_links_prose = ["glossary/informed-consent.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
+catalog_prev = "obsahovy-reframing"
+catalog_next = "ramec-souhlasu"
+catalog_position = 4
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "erickson-rossi-1979", "hassan-1988", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "perls-1969", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982"]
+catalog_sources_roots = ["erickson-rossi-1979", "perls-1969", "watzlawick-1974"]
+catalog_sources_critical = ["hassan-1988", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/reframing.toml"
 +++
 
 # Šestikrokový reframing
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-08.04` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Six-step reframing |
 | **Jiné názvy** | reframing šesti kroků |
-| **Obecnější vzorec** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
+| **Obecnější heslo** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -134,7 +137,7 @@ V terapeutickém prostředí se vzorec pozná podle jazyka, který mluví o „�
 způsobuje“ chování, podle dotazů na její záměr a podle požadavku věnovat pozornost
 mimovolním tělesným pocitům jako odpovědi. Pozornost si zaslouží situace, kdy se tento
 jazyk přenese mimo terapii. V rozvojových a duchovních skupinách se „část, která
-pochybuje“ nebo „část, která se bojí“ stává vysvětlením pro kritické otázky člena. Kritika
+pochybuje“ nebo „část, která se bojí“ stává vysvětlením pro [kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md) člena. Kritika
 skupiny se tím přesune do nitra kritika: místo posouzení, zda pochybnost má důvody, se řeší,
 jak „část“ uklidnit. Signálem je, že se jazyk částí uplatňuje jen na postoje nepohodlné pro
 vedoucího, že „dobrý záměr“ pochybnosti se vždy formuluje jako ochrana před něčím, co ve
@@ -191,7 +194,7 @@ s vnitřní mnohostí v terapeutickém rámci u
 děje. Odborník, který vzorec používá, by měl zvlášť dbát na to, aby jazyk „dobrého záměru“
 nikdy neomlouval jednání třetích osob, které klientovi ubližují.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -213,30 +216,30 @@ nikdy neomlouval jednání třetích osob, které klientovi ubližují.
 
 **Rodina a hierarchie**
 
-- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Reframing a rámce](@/kompendium/nlp-vzorce/reframing/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzný vzorec (Předpoklady NLP, Every behaviour has a positive intention)
-- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzný vzorec (Základní pojmy NLP, Ecology check)
-- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzný vzorec (Ericksonovská hypnóza, Ideomotor signalling)
-- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzný vzorec (Reframing a rámce, Ecology frame)
-- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzný vzorec (Práce s částmi, Parts integration)
-- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – příbuzný vzorec (Práce s částmi, Core transformation)
-- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzný vzorec (Práce s částmi, Parts negotiation)
-- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzný vzorec (Práce s částmi, Eliciting a part's positive intention)
+- [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – příbuzné heslo (Předpoklady NLP, Every behaviour has a positive intention)
+- [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – příbuzné heslo (Základní pojmy NLP, Ecology check)
+- [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – příbuzné heslo (Ericksonovská hypnóza, Ideomotor signalling)
+- [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – příbuzné heslo (Reframing a rámce, Ecology frame)
+- [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
+- [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – příbuzné heslo (Práce s částmi, Core transformation)
+- [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzné heslo (Práce s částmi, Parts negotiation)
+- [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – příbuzné heslo (Práce s částmi, Eliciting a part's positive intention)
 
 **V kompendiu**
 
-- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – předchozí vzorec rodiny
-- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – předchozí heslo rodiny
+- [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

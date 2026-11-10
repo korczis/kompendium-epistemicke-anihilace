@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "low"
 lang = "cs"
-keywords = ["Proč a jak", "Philosophical direction", "filozofický směr", "původ a řešení", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Proč a jak", "Philosophical direction", "filozofický směr", "původ a řešení", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.20"
-nlp_slug = "filozoficky-smer"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "concept"
-nlp_type_cs = "pojem"
-nlp_en = "Philosophical direction"
-nlp_aliases = ["filozofický směr", "původ a řešení"]
-nlp_use = "dvoji"
-nlp_use_cs = "terapeutické i vlivové"
-nlp_risk = "nizke"
-nlp_risk_cs = "nízké"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["k-cili-a-od-problemu", "moznosti-a-postupy", "obecne-a-specificke"]
-nlp_related_declared = ["moznosti-a-postupy", "obecne-a-specificke", "k-cili-a-od-problemu"]
-nlp_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/02-uvod/filosoficky-ramec.md"]
-nlp_links_prose = ["kompendium/02-uvod/filosoficky-ramec.md", "kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
-nlp_prev = "duvera"
-nlp_next = "adaptace"
-nlp_position = 20
-nlp_family_size = 23
-nlp_sources = ["bandler-grinder-1975", "hall-bodenhamer-1997", "heap-1988", "langer-1978", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "watzlawick-1974", "witkowski-2010"]
-nlp_sources_primary = ["bandler-grinder-1975", "hall-bodenhamer-1997"]
-nlp_sources_roots = ["watzlawick-1974"]
-nlp_sources_critical = ["heap-1988", "langer-1978", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.20"
+catalog_slug = "filozoficky-smer"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "concept"
+catalog_type_cs = "pojem"
+catalog_en = "Philosophical direction"
+catalog_aliases = ["filozofický směr", "původ a řešení"]
+catalog_use = "dvoji"
+catalog_use_cs = "terapeutické i vlivové"
+catalog_risk = "nizke"
+catalog_risk_cs = "nízké"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["k-cili-a-od-problemu", "moznosti-a-postupy", "obecne-a-specificke"]
+catalog_related_declared = ["moznosti-a-postupy", "obecne-a-specificke", "k-cili-a-od-problemu"]
+catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/02-uvod/filosoficky-ramec.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/02-uvod/filosoficky-ramec.md", "kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"]
+catalog_prev = "duvera"
+catalog_next = "adaptace"
+catalog_position = 20
+catalog_family_size = 23
+catalog_sources = ["bandler-grinder-1975", "hall-bodenhamer-1997", "heap-1988", "langer-1978", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "hall-bodenhamer-1997"]
+catalog_sources_roots = ["watzlawick-1974"]
+catalog_sources_critical = ["heap-1988", "langer-1978", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Proč a jak
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.20` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | pojem |
 | **Anglicky** | Philosophical direction |
 | **Jiné názvy** | filozofický směr, původ a řešení |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | nízké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -190,7 +193,7 @@ potlačovat jako nebezpečné, a že jejich návrat je pro ně nejdřív zdrojem
 1995). Pomáhá prostředí, v němž je zpochybňování vítáno, četba z různých zdrojů a rozhovor s
 lidmi, kteří na otázky neodpovídají diskvalifikací tazatele, ale argumenty.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -208,24 +211,24 @@ lidmi, kteří na otázky neodpovídají diskvalifikací tazatele, ale argumenty
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzný vzorec (Metaprogramy, Toward and away from)
-- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzný vzorec (Metaprogramy, Options and procedures)
-- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – příbuzný vzorec (Metaprogramy, General and specific)
+- [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzné heslo (Metaprogramy, Toward and away from)
+- [Možnosti a postupy](@/kompendium/nlp-vzorce/metaprogramy/moznosti-a-postupy.md) – příbuzné heslo (Metaprogramy, Options and procedures)
+- [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – příbuzné heslo (Metaprogramy, General and specific)
 
 **V kompendiu**
 
-- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – předchozí vzorec rodiny
-- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – předchozí heslo rodiny
+- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

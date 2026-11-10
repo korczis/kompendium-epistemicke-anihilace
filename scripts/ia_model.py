@@ -30,7 +30,7 @@ HARDCODED = re.compile(r"""(?:src|href)=["']/kompendium-epistemicke-anihilace/""
 # Phrasing of an operational script (rule project.content-defensive-frame): imperatives that
 # steer a target person. A heuristic floor under the reviewer, not a substitute; ordinary
 # self-help advice ("řekněte jim, za co se stydíte") stays out of it on purpose.
-# scripts/nlp-catalog.py applies the same lexicon to the NLP pages and the trainer data.
+# scripts/catalogs.py applies the same lexicon to every catalogue page and its trainer data.
 HOWTO = re.compile(
     r"\b(?:[Nn]avoďte|[Pp]řimějte|[Uu]kotvěte|[Vv]nuťte|[Zz]manipulujte|[Oo]vládněte)"
     r"\s+(?:mu|jí|jim|ho|ji|je)\b"
@@ -135,9 +135,12 @@ def load_pages() -> list:
             "hardcoded": bool(HARDCODED.search(body)),
             "howto": bool(HOWTO.search(prose)),
             "ea_category": str(extra.get("ea_category", "")) if isinstance(extra, dict) else "",
-            "en": str(extra.get("nlp_en", "")) if isinstance(extra, dict) else "",
-            "aliases": [str(x) for x in extra.get("nlp_aliases", [])]
-            if isinstance(extra, dict) and isinstance(extra.get("nlp_aliases"), list) else [],
+            # Catalogue pages (scripts/catalogs.py) carry their names under catalog_*.
+            "catalog": str(extra.get("catalog", "")) if isinstance(extra, dict) else "",
+            "catalog_entry": bool(isinstance(extra, dict) and extra.get("catalog_id")),
+            "en": str(extra.get("catalog_en", "")) if isinstance(extra, dict) else "",
+            "aliases": [str(x) for x in extra.get("catalog_aliases", [])]
+            if isinstance(extra, dict) and isinstance(extra.get("catalog_aliases"), list) else [],
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
     known = {p["path"] for p in pages}

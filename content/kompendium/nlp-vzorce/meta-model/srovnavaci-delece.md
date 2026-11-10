@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "moderate"
 lang = "cs"
-keywords = ["Srovnávací vypuštění", "Comparative deletion", "srovnávací delece", "nespecifikované srovnání", "Meta-model", "NLP", "neurolingvistické programování"]
+keywords = ["Srovnávací vypuštění", "Comparative deletion", "srovnávací delece", "nespecifikované srovnání", "Meta-model", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-03.06"
-nlp_slug = "srovnavaci-delece"
-nlp_family = "meta-model"
-nlp_family_code = "03"
-nlp_family_title = "Meta-model"
-nlp_family_en = "Meta Model"
-nlp_part = "meta-model"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Comparative deletion"
-nlp_aliases = ["srovnávací delece", "nespecifikované srovnání"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "stredni"
-nlp_risk_cs = "střední"
-nlp_broader = "meta-model"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["meta-model"]
-nlp_related = ["vypousteni", "prosta-delece", "srovnavaci-delece-milton", "kvalifikatory-jen-i", "srovnavaci-presupozice", "kontrastni-ramec", "nlp-v-reklame"]
-nlp_related_declared = ["prosta-delece", "srovnavaci-delece-milton", "srovnavaci-presupozice", "nlp-v-reklame"]
-nlp_kompendium = ["kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/prosta-delece.md", "kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md", "kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_prev = "prosta-delece"
-nlp_next = "ztraceny-performativ"
-nlp_position = 6
-nlp_family_size = 17
-nlp_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "grice-1975", "herman-1992", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-nlp_sources_roots = ["grice-1975"]
-nlp_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/meta-model.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-03.06"
+catalog_slug = "srovnavaci-delece"
+catalog_family = "meta-model"
+catalog_family_code = "03"
+catalog_family_title = "Meta-model"
+catalog_family_en = "Meta Model"
+catalog_part = "meta-model"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Comparative deletion"
+catalog_aliases = ["srovnávací delece", "nespecifikované srovnání"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "stredni"
+catalog_risk_cs = "střední"
+catalog_broader = "meta-model"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["meta-model"]
+catalog_related = ["vypousteni", "prosta-delece", "srovnavaci-delece-milton", "kvalifikatory-jen-i", "srovnavaci-presupozice", "kontrastni-ramec", "nlp-v-reklame"]
+catalog_related_declared = ["prosta-delece", "srovnavaci-delece-milton", "srovnavaci-presupozice", "nlp-v-reklame"]
+catalog_kompendium = ["kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/prosta-delece.md", "kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md", "kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
+catalog_prev = "prosta-delece"
+catalog_next = "ztraceny-performativ"
+catalog_position = 6
+catalog_family_size = 17
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "grice-1975", "herman-1992", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources_roots = ["grice-1975"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/meta-model.toml"
 +++
 
 # Srovnávací vypuštění
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-03.06` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Comparative deletion |
 | **Jiné názvy** | srovnávací delece, nespecifikované srovnání |
-| **Obecnější vzorec** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
+| **Obecnější heslo** | [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -138,7 +141,7 @@ neznejišťuje, protože srovnávací člen (včerejšek) je zřejmý z kontextu
 poznáme podle několika znaků. Prvním je hodnocení osoby, které nikdy neuvádí kritérium:
 „mohla bys být lepší“, „nejsi dost samostatný“, „pořád to není ono“. Druhým je srovnání s
 neurčenou skupinou: „ostatní jsou dál“, „normální lidé by to zvládli“, kde se srovnávací
-skupina nedá ověřit a často je idealizovaná. Třetím je posouvání laťky, kdy splnění
+skupina nedá ověřit a často je idealizovaná. Třetím je [posouvání laťky](@/kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md), kdy splnění
 jednoho požadavku vede k novému srovnání bez měřítka. Čtvrtým je odmítnutí upřesnit: na
 otázku „co přesně by stačilo?“ přichází odpověď, že to člověk má poznat sám. Kompendium tyto
 znaky podrobně rozebírá u [pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
@@ -194,7 +197,7 @@ rozpoznat vnitřní hlas, který laťku opakuje, a nahradit ho konkrétními kri
 druhý soustavně určoval hodnotu člověka, probíhá postupně, ve vztazích, které posilují vlastní rozhodování člověka, a ne v izolaci
 (Herman 1992).
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -216,29 +219,29 @@ druhý soustavně určoval hodnotu člověka, probíhá postupně, ve vztazích,
 
 **Rodina a hierarchie**
 
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzný vzorec (Základní pojmy NLP, Deletion)
-- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – příbuzný vzorec (Meta-model, Simple deletion)
-- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – příbuzný vzorec (Milton-model, Comparative deletion (Milton Model))
-- [Částice „jen“, „i“, „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md) – příbuzný vzorec (Jazykové presupozice, Qualifiers only, even, too)
-- [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – příbuzný vzorec (Jazykové presupozice, Comparatives as presuppositions)
-- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzný vzorec (Reframing a rámce, Contrast frame)
-- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in advertising)
+- [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – příbuzné heslo (Základní pojmy NLP, Deletion)
+- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – příbuzné heslo (Meta-model, Simple deletion)
+- [Srovnávací vypuštění v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton.md) – příbuzné heslo (Milton-model, Comparative deletion (Milton Model))
+- [Částice „jen“, „i“, „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md) – příbuzné heslo (Jazykové presupozice, Qualifiers only, even, too)
+- [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – příbuzné heslo (Jazykové presupozice, Comparatives as presuppositions)
+- [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – příbuzné heslo (Reframing a rámce, Contrast frame)
+- [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in advertising)
 
 **V kompendiu**
 
-- [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – předchozí vzorec rodiny
-- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – předchozí heslo rodiny
+- [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

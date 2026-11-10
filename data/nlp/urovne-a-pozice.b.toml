@@ -1,5 +1,5 @@
 # Rodina NLP-13: Logické úrovně a percepční pozice, část b (NLP-13.09 až NLP-13.16).
-# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Identifikátor se po zveřejnění nemění.
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Identifikátor se po zveřejnění nemění.
 
 [[pattern]]
 id = "NLP-13.09"

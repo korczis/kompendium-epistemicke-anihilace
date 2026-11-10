@@ -12,66 +12,69 @@ categories = ["academic"]
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Metaprogramy v náboru a řízení", "Meta-programs in recruitment and management", "profil LAB v personalistice", "Metaprogramy", "NLP", "neurolingvistické programování"]
+keywords = ["Metaprogramy v náboru a řízení", "Meta-programs in recruitment and management", "profil LAB v personalistice", "Metaprogramy", "NLP vzorce"]
 schema_type = "DefinedTerm"
-nlp_schema = 1
-nlp_id = "NLP-17.22"
-nlp_slug = "metaprogramy-v-naboru"
-nlp_family = "metaprogramy"
-nlp_family_code = "17"
-nlp_family_title = "Metaprogramy"
-nlp_family_en = "Meta-programs"
-nlp_part = "metaprogramy.b"
-nlp_type = "pattern"
-nlp_type_cs = "vzorec"
-nlp_en = "Meta-programs in recruitment and management"
-nlp_aliases = ["profil LAB v personalistice"]
-nlp_use = "vliv"
-nlp_use_cs = "převážně vlivové"
-nlp_risk = "vysoke"
-nlp_risk_cs = "vysoké"
-nlp_broader = "metaprogramy-pojem"
-nlp_narrower = []
-nlp_depth = 1
-nlp_ancestors = ["metaprogramy-pojem"]
-nlp_related = ["metaprogramy-pojem", "vnitrni-a-vnejsi-reference", "proaktivni-a-reaktivni", "pracovni-styl", "lide-a-veci", "nlp-v-koucinku"]
-nlp_related_declared = ["lide-a-veci", "pracovni-styl", "vnitrni-a-vnejsi-reference", "proaktivni-a-reaktivni", "nlp-v-koucinku"]
-nlp_kompendium = ["kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/organizational-defense/_index.md"]
-nlp_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md", "kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md"]
-nlp_prev = "adaptace"
-nlp_next = "metaprogramy-v-marketingu"
-nlp_position = 22
-nlp_family_size = 23
-nlp_sources = ["charvet-1997", "druckman-swets-1988", "gilovich-1991", "hall-bodenhamer-1997", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
-nlp_sources_roots = []
-nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-nlp_trainer_items = 2
-nlp_trainer_benign = 1
-nlp_vaknin = "inferred"
-nlp_review = "agent"
-nlp_catalogue = "data/nlp/metaprogramy.b.toml"
+catalog = "nlp"
+catalog_schema = 1
+catalog_id = "NLP-17.22"
+catalog_slug = "metaprogramy-v-naboru"
+catalog_family = "metaprogramy"
+catalog_family_code = "17"
+catalog_family_title = "Metaprogramy"
+catalog_family_en = "Meta-programs"
+catalog_part = "metaprogramy.b"
+catalog_type = "pattern"
+catalog_type_cs = "vzorec"
+catalog_en = "Meta-programs in recruitment and management"
+catalog_aliases = ["profil LAB v personalistice"]
+catalog_use = "vliv"
+catalog_use_cs = "převážně vlivové"
+catalog_risk = "vysoke"
+catalog_risk_cs = "vysoké"
+catalog_broader = "metaprogramy-pojem"
+catalog_narrower = []
+catalog_depth = 1
+catalog_ancestors = ["metaprogramy-pojem"]
+catalog_related = ["metaprogramy-pojem", "vnitrni-a-vnejsi-reference", "proaktivni-a-reaktivni", "pracovni-styl", "lide-a-veci", "nlp-v-koucinku"]
+catalog_related_declared = ["lide-a-veci", "pracovni-styl", "vnitrni-a-vnejsi-reference", "proaktivni-a-reaktivni", "nlp-v-koucinku"]
+catalog_kompendium = ["kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/organizational-defense/_index.md"]
+catalog_canonical = ""
+catalog_links_prose = ["kompendium/case-studies/61-corporate-leadership-cult.md", "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md", "kompendium/organizational-defense/_index.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md"]
+catalog_prev = "adaptace"
+catalog_next = "metaprogramy-v-marketingu"
+catalog_position = 22
+catalog_family_size = 23
+catalog_sources = ["charvet-1997", "druckman-swets-1988", "gilovich-1991", "hall-bodenhamer-1997", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
+catalog_sources_roots = []
+catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
+catalog_trainer_items = 2
+catalog_trainer_benign = 1
+catalog_provenance = "inferred"
+catalog_review = "agent"
+catalog_data = "data/nlp/metaprogramy.b.toml"
 +++
 
 # Metaprogramy v náboru a řízení
 
-<!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-hlavicka:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 | Pole | Hodnota |
 |------|---------|
 | **Identifikátor** | `NLP-17.22` |
+| **Katalog** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) |
 | **Rodina** | [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) |
 | **Druh** | vzorec |
 | **Anglicky** | Meta-programs in recruitment and management |
 | **Jiné názvy** | profil LAB v personalistice |
-| **Obecnější vzorec** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
+| **Obecnější heslo** | [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) |
 | **Užití** | převážně vlivové |
 | **Riziko zneužití** | vysoké |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
 | **Stav textu** | text čeká na odbornou recenzi |
 
-<!-- kompendium:nlp-hlavicka:end -->
+<!-- kompendium:katalog-hlavicka:end -->
 
 ## Definice
 
@@ -202,7 +205,7 @@ od nálepky. Pomáhá připomínat si, že pozorovatel, který očekává určit
 nejednoznačných údajích (Gilovich 1991), a že závěr o člověku, který vznikl tímto způsobem,
 vypovídá spíš o pozorovateli než o tom, koho popisuje.
 
-<!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Literatura
 
@@ -220,29 +223,29 @@ vypovídá spíš o pozorovateli než o tom, koho popisuje.
 
 **Rodina a hierarchie**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Metaprogramy](@/kompendium/nlp-vzorce/metaprogramy/_index.md) – rodina, do níž heslo patří, s přehledem všech jejích hesel
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – obecnější heslo, jehož je toto heslo zvláštním případem
 
-**Příbuzné vzorce**
+**Příbuzná hesla**
 
-- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Meta-programs (concept))
-- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzný vzorec (Metaprogramy, Internal and external reference)
-- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzný vzorec (Metaprogramy, Proactive and reactive)
-- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzný vzorec (Metaprogramy, Working style)
-- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – příbuzný vzorec (Metaprogramy, Person and thing)
-- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzný vzorec (Vliv a zneužití NLP, NLP in coaching)
+- [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzné heslo (Základní pojmy NLP, Meta-programs (concept))
+- [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzné heslo (Metaprogramy, Internal and external reference)
+- [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – příbuzné heslo (Metaprogramy, Proactive and reactive)
+- [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – příbuzné heslo (Metaprogramy, Working style)
+- [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – příbuzné heslo (Metaprogramy, Person and thing)
+- [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in coaching)
 
 **V kompendiu**
 
-- [EA-9.6.6 AI Hiring Narrative](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
-- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se tento vzorec projevuje nebo s ní souvisí
+- [EA-9.6.6 AI Hiring Narrative](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Případ 61: Kult vedení v nadnárodní korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 
-- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – předchozí vzorec rodiny
-- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – další vzorec rodiny
-- [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
+- [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – předchozí heslo rodiny
+- [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – další heslo rodiny
+- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
-<!-- kompendium:nlp-vazby:end -->
+<!-- kompendium:katalog-vazby:end -->

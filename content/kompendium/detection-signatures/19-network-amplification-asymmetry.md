@@ -1,10 +1,12 @@
 +++
 title = "Detekční signatura: Asymetrie amplifikace"
-description = "EA detekční signatura — asymetrie amplifikace."
+description = "Síťová signatura: dosah sdělení neodpovídá velikosti a aktivitě publika, z něhož údajně vychází – zdánlivá popularita je vyrobena koordinací nebo placenou podporou."
 weight = 19
+
 [taxonomies]
 tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
+
 [extra]
 related_terms = ["17-network-source-monoculture", "18-network-citation-circularity", "2-linguistic-circular-definitions", "20-network-bot-coordination"]
 parent = "kompendium-detection-signatures"
@@ -14,43 +16,109 @@ modality = "network"
 
 ## Definice signatury
 
-Anomální poměr mezi reach + retweets + shares u určitého narativu vs. baseline pro daný uzel. Indikátor coordinated amplification (botů, paid promotion, koordinovaného sdílení).
+Asymetrie amplifikace je výrazný nepoměr mezi dosahem sdělení (zobrazení, sdílení, reakce, mediální pokrytí) a organickou základnou, z níž by takový dosah mohl přirozeně vzniknout. Sdělení od uzlu s malým a málo aktivním publikem náhle dosáhne masového šíření, nebo naopak hlas s velkým publikem zmizí z dohledu. Signatura popisuje **vyrobený signál popularity**, jehož podstatou je, že velký ohlas nevychází od velkého počtu skutečných, nezávislých lidí.
 
-## Co indikuje
+Signatura úzce souvisí s technikami [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) a [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md); její opačnou stranou je [deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md).
 
-**Synthetic signal injection** — uměle generovaný dojem populární podpory. Klasický nástroj influence operations, propagandistických kampaní.
+## Co signatura indikuje
+
+Lidé usuzují na důležitost a pravdivost sdělení z toho, kolik lidí ho sdílí – jde o sociální důkaz. Na platformách se tento úsudek navíc zesiluje: algoritmy upřednostňují obsah s rychle rostoucí aktivitou, takže uměle nastartované šíření může spustit skutečné organické šíření. Výsledkem je, že **menšinový nebo vyrobený názor působí jako většinový** a skutečná většina se cítí osamocená a mlčí.
+
+Model „hasičské hadice lží“ ([firehose of falsehood](@/glossary/firehose-of-falsehood.md), Paul & Matthews 2016) popisuje, jak vysoký objem a opakování nahrazují důvěryhodnost; asymetrie amplifikace je jedním z pozorovatelných otisků takového přístupu.
+
+## Pozorovatelné markery
+
+### Obsahové a lingvistické
+
+- Velký počet reakcí se stejnými nebo téměř stejnými formulacemi.
+- Komentáře nereagují na obsah, ale opakují heslo nebo emotikon.
+- Obsah je emočně vypjatý a jednoduchý, vhodný k rychlému sdílení.
+
+### Síťové a časové
+
+- Prudký nárůst sdílení v krátkém okně, často v nezvyklou hodinu pro dané publikum.
+- Velký podíl sdílení pochází z účtů s malou vlastní historií nebo bez vazeb na původní publikum.
+- Křivka šíření nemá obvyklou podobu postupného rozšiřování sítí, ale skok.
+
+### Aktérské a institucionální
+
+- Sdělení je rychle převzato médii nebo politiky s odkazem na „virální“ ohlas.
+- Placená propagace bez zřetelného označení zadavatele.
+- Opakující se skupina účtů, které amplifikují různá témata ve prospěch téhož aktéra.
 
 ## Detekční kritéria
 
-1. Engagement-to-followers ratio > 5× baseline pro daný uzel
-2. Časové rozdělení sharingu nepřirozeně tight (10–60 minut po publikaci)
-3. Sharing accounts mají nízkou diverzitu (similar bio, posting patterns)
-4. Geografické rozložení sharingu nesrovnalé s tématem
+1. Dosah sdělení výrazně přesahuje to, co je u daného uzlu a tématu obvyklé (srovnání s jeho vlastní historií a s podobnými uzly).
+2. Značná část amplifikace pochází od účtů, které nejsou součástí organické sítě uzlu, nebo vykazují znaky koordinace (viz [koordinace botů](@/kompendium/detection-signatures/20-network-bot-coordination.md)).
+3. Časový průběh šíření neodpovídá organickému vzorci.
 
-## False positive analýza
+Pozitivní při splnění bodu 1 a alespoň jednoho z bodů 2–3. Jediná virální událost bez dalších znaků je běžná a signaturu nezakládá.
 
-Skutečně virální obsah (catastrophe news, viral memes) má rovněž extrémní asymetrii. Klíčové odlišení: **organizace** sharing patternů + **identita** amplifikujících účtů.
+## Odlišení od benigních podob
+
+- **Organická viralita**: zábavný nebo silně dojemný obsah se může šířit prudce; jeho šíření však vychází od mnoha skutečných a různorodých uživatelů.
+- **Zásah velkého uzlu**: sdílení celebritou nebo médiem vytvoří skok, který je vysvětlitelný a dohledatelný.
+- **Legitimní koordinace**: aktivistické a fanouškovské komunity organizují sdílení otevřeně; skutečné osoby sdílejí z vlastní vůle a nevydávají se za někoho jiného.
+- **Zpravodajská událost**: skutečná událost vyvolá nárůst zájmu napříč sítěmi.
+
+## Dopad na jednotlivce a klinický rozměr
+
+Pro jednotlivce má asymetrie dva dopady. Jako čtenář může mylně usoudit, že „všichni si to myslí“, a přizpůsobit svůj názor nebo zmlknout. Jako **cíl** amplifikované kampaně (masivní vlna kritiky, posměchu, výhrůžek) zažívá prudký stres, pocit ohrožení a ztrátu kontroly – stav, který může připomínat traumatickou reakci.
+
+Osoba, která tvrdí, že je terčem uměle vyrobené vlny, může mít pravdu a zaslouží si, aby její tvrzení bylo ověřeno daty. Rozlišení od paranoidních obav: kampaň zanechává doložitelné stopy (snímky, data, čísla), zatímco perzekuční přesvědčení se opírá o skryté významy a rozšiřuje se mimo sítě. Obě situace se mohou kombinovat – útok může zhoršit existující zranitelnost.
+
+## Riziko falešné pozitivity
+
+- Nepopulární sdělení, které se šíří, bývá jeho odpůrci označeno za „boty“; obvinění z umělé amplifikace samo může sloužit k diskreditaci.
+- Hodnotitel nemá úplná data; veřejně dostupná metrika je jen částečná.
+- Algoritmy platforem vytvářejí asymetrie i bez vnějšího aktéra.
 
 ## Validační test
 
-Bot detection: Spusťte botometer/Hoaxy na top 100 sharing accounts. Pokud bot-likelihood > 0.6 → signál.
+**Srovnání s výchozím stavem.** Pro uzel se sestaví historie dosahu a složení publika; aktuální šíření se s ní porovná. Následně se vzorek amplifikujících účtů posoudí podle stáří, aktivity, vazeb a obsahu. Organické šíření ukáže různorodé, propojené účty; vyrobené ukáže shluk podobných účtů bez vazby na uzel. Metodika viz [EA × OSINT: Bot Detection](@/kompendium/cross-domain/6-ea-osint-bot-detection.md) a [EA × OSINT: Sociální sítě](@/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md).
 
-## Doporučená akce
+## Dokumentace v praxi
 
-Nasaďte **Amplification audit**. Reportujte platformě. Aplikujte epistemické discount k narativu.
+Ukládat snímky obrazovky s časovým razítkem, odkazy, archivní kopie a exporty metrik; u každé položky zapsat čas pořízení a metodu. U většího objemu dat vést záznam o sběru a zpracování (viz [chain of custody](@/glossary/chain-of-custody.md)). Pro výzkum dodržet zásady [datové bezpečnosti](@/kompendium/research-methodology/data-security-EA-research.md) a [anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md).
 
-## Cross-linky
+## Doporučený postup
 
-- [Bot coordination](../20-network-bot-coordination/)
-- [Platformní koordinace](../21-network-platform-coordination/)
-- [Injekce narativu](../22-network-narrative-injection/)
-- [Monokultura zdrojů](../17-network-source-monoculture/)
-- [Sekce 03 — Základní kategorie EA](../../03-zakladni-kategorie/)
-- [Sekce 04 — Terminální protokoly](../../04-terminalni-protokoly/)
-- [Sekce 06 — Klinické aplikace](../../06-klinicke-aplikace/)
-- [Decision Engine](../../../glossary/decision-engine/)
-- [Glossary — Detection Signature](../../glossary-bridges/)
-- [Detection Signatures Index](../)
+**Pro čtenáře:** neusuzovat z počtu reakcí na rozšířenost názoru; podívat se, kdo sdílí. Viz [detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md) a [rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md).
+
+**Pro osobu, která je terčem:** nereagovat na vlnu jednotlivě; dokumentovat, omezit expozici (dočasně skrýt komentáře, předat správu účtu důvěryhodné osobě), nahlásit platformě a hledat podporu. Při výhrůžkách kontaktovat policii.
+
+**Pro organizaci:** mít připravený postup pro mediální a online útoky (viz [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md) a [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)).
+
+**Eskalace:** u osoby v akutní krizi kvůli online útoku (panika, suicidální myšlenky) platí [panická ataka](@/kompendium/emergency-protocols/6-panic-attack-EA.md) a [akutní suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md).
+
+## Ilustrativní příklad
+
+*Anonymizovaný kompozit.* Místní lékařka zveřejní krátký příspěvek k očkování. Během dvou hodin má příspěvek tisíce rozhořčených komentářů, ačkoli její profil běžně sleduje několik set lidí z okolí. Kolega, který se zabývá analýzou dat, si všimne, že většina komentujících účtů vznikla v posledních týdnech, nemá vazby na region a opakuje tři varianty téže věty. Lékařka komentáře nečte, kolega je archivuje a nahlásí platformě. Lékařská komora jí nabídne podporu a právní konzultaci.
+
+## Limity a otevřené otázky
+
+- Hranice mezi organickým a vyrobeným šířením se stírá, když vyrobený začátek spustí skutečné sdílení.
+- Platformy zveřejňují data omezeně; nezávislá analýza je často odkázána na vzorky.
+- Rozpoznání asymetrie neříká nic o pravdivosti obsahu – i pravdivé sdělení může být uměle amplifikováno.
+
+## Související
+
+**Sourozenecké signatury**
+
+- [Koordinace botů](@/kompendium/detection-signatures/20-network-bot-coordination.md) – nejčastější technický zdroj asymetrie.
+- [Platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md) – asymetrie napříč platformami.
+- [Deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) – opačný směr: umělé umlčení.
+
+**Techniky a pojmy**
+
+- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) – role algoritmů.
+- [EA-2.3.5 Pseudo-kontroverze Amplifikace](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md) – výroba sporu, který neexistuje.
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) – objem místo důvěryhodnosti.
+
+**Obrana a metodika**
+
+- [EA × OSINT: Bot Detection](@/kompendium/cross-domain/6-ea-osint-bot-detection.md) – postup pro vyšetřovatele.
+- [Vzdělávací scénář: Rozpoznání mediální smečky](@/kompendium/educational-scenarios/14-media-mob-recognition.md) – nácvik.
 
 ---
 

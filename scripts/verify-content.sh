@@ -43,7 +43,8 @@ step "check-ia"                   python3 scripts/check-ia.py
 step "build-references --check"   python3 scripts/build-references.py --check
 step "build-graph --check"        python3 scripts/build-graph.py --check
 step "zola build"                 zola build --force -o "$work/.out"
-step "test/run.sh"                bash test/run.sh
+# The cases export the index themselves and need the repository, so they run from its root.
+step "test/run.sh"                bash "$root/test/run.sh"
 
 if [ "$fix" = --fix ]; then
   python3 scripts/check-ia.py --update-baseline >/dev/null

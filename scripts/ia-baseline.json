@@ -62,9 +62,6 @@
  "bold:chair": [
   "bold-candidate"
  ],
- "bold:chovani": [
-  "bold-candidate"
- ],
  "bold:cloitre-m-et-al-2019": [
   "bold-candidate"
  ],
@@ -81,9 +78,6 @@
   "bold-candidate"
  ],
  "bold:contradiction-preservation": [
-  "bold-candidate"
- ],
- "bold:data": [
   "bold-candidate"
  ],
  "bold:defenzivni-rozpoznani": [
@@ -176,9 +170,6 @@
  "bold:epistemicke-singularity": [
   "bold-candidate"
  ],
- "bold:epistemickou": [
-  "bold-candidate"
- ],
  "bold:epistemicky": [
   "bold-candidate"
  ],
@@ -186,9 +177,6 @@
   "bold-candidate"
  ],
  "bold:eskalace": [
-  "bold-candidate"
- ],
- "bold:evidence": [
   "bold-candidate"
  ],
  "bold:explicitne": [
@@ -227,9 +215,6 @@
  "bold:funkcni": [
   "bold-candidate"
  ],
- "bold:fyzicke": [
-  "bold-candidate"
- ],
  "bold:gad-7": [
   "bold-candidate"
  ],
@@ -263,9 +248,6 @@
  "bold:iluzorni-komplexita": [
   "bold-candidate"
  ],
- "bold:imunizace": [
-  "bold-candidate"
- ],
  "bold:individualni": [
   "bold-candidate"
  ],
@@ -276,9 +258,6 @@
   "bold-candidate"
  ],
  "bold:inkapacita": [
-  "bold-candidate"
- ],
- "bold:institucionalni": [
   "bold-candidate"
  ],
  "bold:integrace": [
@@ -368,9 +347,6 @@
  "bold:kognitivni-imploze": [
   "bold-candidate"
  ],
- "bold:kognitivni-mlha": [
-  "bold-candidate"
- ],
  "bold:kognitivni-vedy": [
   "bold-candidate"
  ],
@@ -398,9 +374,6 @@
  "bold:konstitutivni": [
   "bold-candidate"
  ],
- "bold:kontext": [
-  "bold-candidate"
- ],
  "bold:kontinualni-monitoring": [
   "bold-candidate"
  ],
@@ -408,9 +381,6 @@
   "bold-candidate"
  ],
  "bold:kontrola-informaci": [
-  "bold-candidate"
- ],
- "bold:konzistentne": [
   "bold-candidate"
  ],
  "bold:krize": [
@@ -494,9 +464,6 @@
  "bold:nabla-infinity-provenance-tracking": [
   "bold-candidate"
  ],
- "bold:nahrazuje": [
-  "bold-candidate"
- ],
  "bold:navrat": [
   "bold-candidate"
  ],
@@ -515,9 +482,6 @@
  "bold:negativni-sebepojeti": [
   "bold-candidate"
  ],
- "bold:nema-pristup": [
-  "bold-candidate"
- ],
  "bold:nemaji": [
   "bold-candidate"
  ],
@@ -525,9 +489,6 @@
   "bold-candidate"
  ],
  "bold:neni": [
-  "bold-candidate"
- ],
- "bold:neprimerena-jistota": [
   "bold-candidate"
  ],
  "bold:nesmi": [
@@ -552,9 +513,6 @@
   "bold-candidate"
  ],
  "bold:observation": [
-  "bold-candidate"
- ],
- "bold:ochranne-faktory": [
   "bold-candidate"
  ],
  "bold:odchod-a-rekonstrukce": [
@@ -612,9 +570,6 @@
   "bold-candidate"
  ],
  "bold:podminky-moznosti": [
-  "bold-candidate"
- ],
- "bold:politizace": [
   "bold-candidate"
  ],
  "bold:posouzeni": [
@@ -776,12 +731,6 @@
  "bold:revizi": [
   "bold-candidate"
  ],
- "bold:rozhodovani-o-existenci": [
-  "bold-candidate"
- ],
- "bold:rozklada": [
-  "bold-candidate"
- ],
  "bold:rozsiruje": [
   "bold-candidate"
  ],
@@ -881,9 +830,6 @@
  "bold:strukturalni-podminky": [
   "bold-candidate"
  ],
- "bold:strukturalni-vzorec": [
-  "bold-candidate"
- ],
  "bold:strukturalnim-motivem": [
   "bold-candidate"
  ],
@@ -903,9 +849,6 @@
   "bold-candidate"
  ],
  "bold:supervidovana-intervence": [
-  "bold-candidate"
- ],
- "bold:supervize": [
   "bold-candidate"
  ],
  "bold:svedci": [
@@ -951,9 +894,6 @@
   "bold-candidate"
  ],
  "bold:triangulace": [
-  "bold-candidate"
- ],
- "bold:tvrde-jadro": [
   "bold-candidate"
  ],
  "bold:tvrzeni": [
@@ -1034,9 +974,6 @@
  "bold:vzdy": [
   "bold-candidate"
  ],
- "bold:vzorec-v-case": [
-  "bold-candidate"
- ],
  "bold:wai-sr": [
   "bold-candidate"
  ],
@@ -1065,9 +1002,6 @@
   "bold-candidate"
  ],
  "bold:zmena-chovani": [
-  "bold-candidate"
- ],
- "bold:zneuziti": [
   "bold-candidate"
  ],
  "bold:zotaveni": [
@@ -2649,13 +2583,6 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/02-identitarni-manipulace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
  "content/kompendium/02-uvod/_index.md": [
   "citations"
  ],
@@ -2684,12 +2611,6 @@
   "citations",
   "bold-term"
  ],
- "content/kompendium/02-uvod/v-kostce.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/02-uvod/vztah-k-decision-engine.md": [
   "bullets",
   "citations",
@@ -2711,42 +2632,6 @@
  "content/kompendium/03-zakladni-kategorie/biasy/_index.md": [
   "citations"
  ],
- "content/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/delegitimizace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/falsifikovatelnost.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/fenomenologie.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/hermeneutika.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/intencionalita.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/03-zakladni-kategorie/kapitola-1.md": [
   "bullets",
   "citations",
@@ -2758,26 +2643,6 @@
   "bold-term"
  ],
  "content/kompendium/03-zakladni-kategorie/kapitola-3.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/lakatos.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/03-zakladni-kategorie/lebenswelt.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/metakognice.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -2800,19 +2665,6 @@
  "content/kompendium/03-zakladni-kategorie/scenar-l/_index.md": [
   "bullets",
   "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/somaticke-vektory.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/03-zakladni-kategorie/tom-exploitation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
  ],
  "content/kompendium/03-zakladni-kategorie/visualizations.md": [
   "citations"
@@ -2926,58 +2778,12 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/05-ultramari-techniky/motte-bailey.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/05-ultramari-techniky/narrativni-trauma.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/05-ultramari-techniky/sealioning.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/05-ultramari-techniky/weaponized-incompetence.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/06-epistemicka-singularita/_index.md": [
   "bullets",
   "citations",
   "bold-term"
  ],
- "content/kompendium/06-intervence-a-obrana/_index.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/06-klinicke-aplikace/_index.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -3002,12 +2808,6 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/06-klinicke-aplikace/observational-assessment.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/06-klinicke-aplikace/preventivni-strategie.md": [
   "bullets",
   "citations"
@@ -3017,26 +2817,6 @@
   "citations"
  ],
  "content/kompendium/06-klinicke-aplikace/pripad-doktorat.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/06-klinicke-aplikace/self-report-instrumenty.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -3062,12 +2842,6 @@
   "citations"
  ],
  "content/kompendium/07-populacni/_index.md": [
-  "citations"
- ],
- "content/kompendium/07-populacni/propaganda.md": [
-  "detail",
-  "weak-link",
-  "bullets",
   "citations"
  ],
  "content/kompendium/07-teoreticke-reflexe/_index.md": [
@@ -3146,14 +2920,6 @@
   "bibliography",
   "citation-unresolved",
   "bold-term"
- ],
- "content/kompendium/08-prilohy/dual-use.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
  ],
  "content/kompendium/08-prilohy/eticky-kodex.md": [
   "bullets"
@@ -3510,191 +3276,6 @@
   "citations"
  ],
  "content/kompendium/detection-signatures/tom-kalibrace.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/1-basic-detection.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/10-paradigm-recognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/11-academic-manipulation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/12-mentor-overreach.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/13-peer-review-bias.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/14-media-mob-recognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/15-narrative-injection.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/16-deepfake-detection.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/17-bot-coordination.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/18-cult-recruitment.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/educational-scenarios/19-gaslighting-pattern.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/educational-scenarios/2-cognitive-bias-recognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/20-darvo-recognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/21-ultramarine-recognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/22-hyperreflexivity-spot.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/23-ontological-attack.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/24-metacognitive-collapse.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/25-identity-fragmentation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/26-recovery-trajectory.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/educational-scenarios/27-iatrogenic-risk.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/28-multi-target-coordination.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/29-emergent-pattern.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/3-information-curation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/30-self-application.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/4-source-evaluation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/5-claim-verification.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/6-falsification-design.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/7-evidence-weighting.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/8-contradiction-resolution.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/educational-scenarios/9-meta-evaluation.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -4087,200 +3668,62 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/population-health/01-EA-prevalence-estimates.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/population-health/02-cohort-studies-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/population-health/03-incidence-cult-exposure.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/population-health/04-disinformation-population-impact.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/population-health/05-academic-EA-prevalence.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/population-health/06-corporate-EA-prevalence.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/population-health/07-political-EA-prevalence.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/population-health/08-online-radicalization-prevalence.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/population-health/09-comorbidity-population.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/population-health/10-mortality-EA-attribution.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/population-health/11-population-screening-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/population-health/12-community-resilience-program.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/population-health/13-school-curriculum-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/population-health/14-employer-screening.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/population-health/15-media-literacy-program.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
  "content/kompendium/population-health/16-digital-citizenship-program.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/17-vulnerable-population-outreach.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/18-public-awareness-campaign.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/19-bystander-intervention-training.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/20-helpline-population-impact.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/21-EA-public-policy-framework.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/22-regulatory-approach-EA.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/23-EU-policy-EA.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/24-WHO-EA-framework.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved",
-  "bold-term"
- ],
- "content/kompendium/population-health/25-platform-regulation-EA.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
+ "content/kompendium/population-health/25-platform-regulation-EA.md": [
+  "bullets"
+ ],
  "content/kompendium/population-health/26-educational-policy-EA.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/27-mental-health-policy-EA.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/28-international-cooperation-EA.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/29-research-funding-EA.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/population-health/30-ethics-policy-research-EA.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -4298,19 +3741,7 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/prevention-resilience/11-early-screening-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/prevention-resilience/12-warning-sign-recognition.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/prevention-resilience/13-rapid-response-protocol.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -4342,29 +3773,11 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/prevention-resilience/20-peer-vigilance-prevention.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/prevention-resilience/21-relapse-prevention-EA.md": [
   "bullets",
   "citations"
  ],
- "content/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/prevention-resilience/23-skills-rebuilding-program.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/prevention-resilience/24-meaning-restoration-prevention.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -4373,26 +3786,6 @@
   "citations"
  ],
  "content/kompendium/prevention-resilience/26-family-reintegration-prevention.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/prevention-resilience/27-community-reintegration-prevention.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/prevention-resilience/28-spiritual-restoration-prevention.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/prevention-resilience/29-cultural-restoration-prevention.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -4966,26 +4359,6 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/recovery-protocols/duvera.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/recovery-protocols/incompetence.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/recovery-protocols/lifeworld.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/recovery-protocols/longterm-altruistic-channeling.md": [
   "bullets",
   "citations"
@@ -5036,34 +4409,6 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/recovery-protocols/narativ.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/recovery-protocols/paradigm.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/recovery-protocols/pokora.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/recovery-protocols/ramce.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
  "content/kompendium/recovery-protocols/recovery-adolescent-protocol.md": [
   "bullets",
   "citations"
@@ -5088,21 +4433,6 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/recovery-protocols/sealioning.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/recovery-protocols/sekvence.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
  "content/kompendium/recovery-protocols/subacute-axiological-restoration.md": [
   "bullets",
   "citations"
@@ -5124,12 +4454,6 @@
   "citations"
  ],
  "content/kompendium/recovery-protocols/subacute-trust-rebuilding.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/recovery-protocols/trauma.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],

@@ -25,22 +25,22 @@
       },
       {
         "code": null,
-        "in": 173,
-        "kind": "Kapitola",
-        "path": "kompendium/04-terminalni-protokoly/_index.md",
-        "tier": 6,
-        "title": "04. Terminální protokoly",
-        "url": "/kompendium/04-terminalni-protokoly/",
-        "why": "description"
-      },
-      {
-        "code": null,
         "in": 172,
         "kind": "Kapitola",
         "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
         "tier": 6,
         "title": "3.2 Scénáře epistemické delegitimizace",
         "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 169,
+        "kind": "Kapitola",
+        "path": "kompendium/04-terminalni-protokoly/_index.md",
+        "tier": 6,
+        "title": "04. Terminální protokoly",
+        "url": "/kompendium/04-terminalni-protokoly/",
         "why": "description"
       },
       {

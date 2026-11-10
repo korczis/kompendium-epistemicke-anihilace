@@ -1,6 +1,6 @@
 +++
 title = "6.1.2 Semi-strukturovaný klinický rozhovor pro EA"
-description = "Detailní protokol semi-strukturovaného klinického rozhovoru pro detekci epistemické anihilace: 6 modulů, otevírací otázky, sondovací linie, validační procedury."
+description = "Protokol semi-strukturovaného klinického rozhovoru pro detekci epistemické anihilace: šest modulů od mapování informačního prostředí po hermeneutickou kapacitu a závěrečné kotvení."
 weight = 12
 
 [taxonomies]
@@ -15,138 +15,134 @@ toc = true
 
 # 6.1.2 Semi-strukturovaný klinický rozhovor pro EA
 
+> **Pro koho**: klinické pracovníky pod supervizí. Rozhovor mapuje strukturu pacientova poznávání,
+> nikdy nehodnotí obsah jeho přesvědčení a není soudním vyšetřováním.
+
 ## Účel a klinická pozice
 
-Standardizované [self-report](@/glossary/self-report.md) instrumenty (viz [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)) poskytují **kvantitativní** signály, ale klinická validace [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) vyžaduje **kvalitativní** rekonstrukci pacientovy informační historie, mocenských vztahů a metakognitivní kapacity. Tento protokol — Semi-Structured Interview for Epistemic Annihilation (SSI-EA) — strukturuje klinický rozhovor do šesti modulů.
+Standardizované [self-report](@/glossary/self-report.md) instrumenty (viz
+[6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md))
+poskytují kvantitativní signály, ale klinická validace
+[epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) vyžaduje kvalitativní rekonstrukci
+pacientovy informační historie, mocenských vztahů a metakognitivní kapacity. Semi-strukturovaný rozhovor
+je zavedenou formou klinického vyšetření, protože podle Shey (1998) spojuje srovnatelnost danou pevnou
+kostrou s pružností, jež dovoluje sledovat, co pacient sám přináší. Tento protokol strukturuje rozhovor do
+šesti modulů, které odpovídají základním kategoriím knihy.
 
-## Pre-interview podmínky
+## Předpoklady
 
-Před administrací protokolu musí být splněno:
+Před administrací musí být zajištěno bezpečné prostředí, v němž pacient není pod aktivním vlivem in-group
+autorit, a dostatečná stabilita bez akutní psychotické dekompenzace nebo vysoké suicidality (viz
+[6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)); Herman (1992)
+klade bezpečí před každé hlubší vyšetření. Nezbytný je [informovaný souhlas](@/glossary/informed-consent.md),
+v němž pacient rozumí účelu rozhovoru jako mapování informačního prostředí, ne jako soudního vyšetřování.
+Rozhovor se obvykle rozkládá do dvou setkání a zaznamenává se buď se souhlasem audiem, nebo strukturovanými
+poznámkami; Shea (1998) doporučuje záznam, aby klinik nemusel dělit pozornost mezi psaní a naslouchání.
 
-1. **Bezpečné prostředí** — pacient není pod aktivním vlivem in-group autorit;
-2. **Stabilita** — bez akutní psychotické dekompenzace, suicidality D5 (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md));
-3. **[Informovaný souhlas](@/glossary/informed-consent.md)** — pacient rozumí účelu (mapování informačního prostředí, ne soudní vyšetřování);
-4. **Časový rámec** — 90–120 minut, doporučeno 2 setkání;
-5. **Záznam** — audio se souhlasem, nebo strukturované poznámky.
+## Modul 1: Mapování informačního prostředí
 
-## Modul 1: Mapování informačního prostředí (15–20 min)
+Cílem prvního modulu je identifikovat dominantní zdroje informací a stupeň monokultury. Klinik začne
+otevřenou výzvou, aby pacient popsal, odkud čerpá informace o světě, a dále se ptá, které zdroje pokládá za
+nejdůležitější, kam by se obrátil, kdyby chtěl znát pravdu o sporné otázce, zda existuje osoba, jejíž názoru
+důvěřuje víc než vlastnímu úsudku, a zda se jeho informační prostředí v posledních letech změnilo. Vodítkem
+je míra, v níž relevantní informace plynou z jediného zdroje, protože výrazná převaha jednoho zdroje je
+signálem [selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md); Shea (1998)
+doporučuje ptát se na konkrétní zdroje jménem, ne na kategorie, aby odpověď nezůstala u obecné deklarace.
 
-**Cíl**: identifikovat dominantní zdroje informací a stupeň monokultury.
+## Modul 2: Mocenské vztahy a závislosti
 
-**Otevírací otázka**: *„Pojďme zmapovat, odkud čerpáte informace o světě. Začněme zprávami: kde se dozvídáte, co se děje?“*
+Druhý modul zjišťuje asymetrické vztahy a vlivy, které utvářejí pacientovu sebepercepci. Klinik se ptá, kdo
+má v současnosti největší vliv na to, jak pacient sám sebe vidí, zda potřebuje něčí souhlas pro důležitá
+rozhodnutí, zda je na někom finančně, emocionálně nebo informačně závislý, zda byly nějaké jeho vztahy
+ukončeny bez jeho aktivního rozhodnutí a zda měl pocit, že se jeho paměť události odlišuje od toho, co mu
+druzí říkali. Soustředění moci v jedné osobě a popírání pacientovy paměti jsou podle Starka (2007) typickými
+znaky [coercive control](@/glossary/coercive-control.md), a popírání reality blízkou osobou patří ke
+[gaslightingu](@/glossary/gaslighting.md). Klinik přitom neformuluje otázky sugestivně, aby odpověď
+nepředjímal.
 
-**Sondovací linie**:
+## Modul 3: Metakognitivní kapacita
 
-- Jaké tři zdroje jsou pro vás nejdůležitější?
-- Pokud byste měl/a vědět pravdu o kontroverzním tématu, kam se obrátíte?
-- Existuje osoba, jejíž názoru důvěřujete víc než vlastnímu úsudku?
-- Jak často konzumujete obsah, který je v rozporu s vašimi přesvědčeními?
-- Změnilo se vaše informační prostředí v posledních 3 letech?
+Třetí modul testuje schopnost druhořádové reflexe, tedy myšlení o vlastním myšlení. Klinik požádá pacienta,
+aby vzal jedno ze svých silných přesvědčení a popsal, jak k němu došel, a sleduje, zda dokáže popsat proces,
+ne jen závěr, zda umí uvést, jaké doklady by ho přesvědčily o jeho nesprávnosti, zda si je vědom témat, o
+nichž odmítá přemýšlet, a jak rozlišuje spolehlivý zdroj od nespolehlivého. Neschopnost popsat proces
+poznávání spolu s nemožností generovat falsifikační kritéria ukazuje na poškození metakognice, které Wells
+(2009) spojuje s dysfunkčními přesvědčeními o myšlení; podrobněji viz
+[6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md#klastr-a-metakognitivni-destrukce).
 
-**Klinické vodítko**: ≥70% relevantních informací z **jednoho zdroje** = silný signál EA-1.x.x ([selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)).
+## Modul 4: Změny self-narrativa
 
-## Modul 2: Mocenské vztahy a závislosti (20–25 min)
+Čtvrtý modul detekuje diskontinuity v sebepojetí a hodnotách. Klinik vyzve pacienta, aby popsal sám sebe
+tak, jak by se popsal před lety, pak před rokem a nakonec dnes, a ptá se, zda existuje rozhodnutí z minulosti,
+které dnes pociťuje jako cizí, zda se změnily jeho hodnoty, slovník a vztahové vzory, zda se cítí jinou osobou
+než před vstupem do současného prostředí a zda si vybavuje okamžik, kdy „začal věci vidět jinak“. Ostrá
+diskontinuita, kterou pacient nedokáže vysvětlit, je silným signálem hlubší EA; Herman (1992) připomíná, že
+tento modul může reaktivovat trauma, a vyžaduje proto připravený krizový postup.
 
-**Cíl**: identifikovat asymetrické vztahy a definující vlivy na sebepercepci.
+## Modul 5: Hermeneutická kapacita
 
-**Otevírací otázka**: *„Kdo má v současnosti největší vliv na to, jak se vidíte vy sám/sama?“*
+Pátý modul testuje schopnost vykládat významy, kontexty a ironii. Klinik předloží krátkou pasáž s ironií
+nebo dvojznačnou metaforou a sleduje, zda ji pacient vyhodnotí správně, zda rozliší doslovný a přenesený
+význam, zda pro běžné texty potřebuje autoritativní výklad a zda netrpí sklonem vidět ve všem skrytý smysl.
+Ztráta ironie spolu s potřebou vnější interpretace odpovídá hermeneutickému zhroucení, které kniha opírá o
+Frickerové (2007) pojem hermeneutické nespravedlnosti, tedy ztráty pojmů, jimiž by člověk vlastní zkušenost
+pochopil.
 
-**Sondovací linie**:
+## Modul 6: Závěrečné kotvení
 
-- Existuje osoba, jejíž souhlas potřebujete pro důležitá rozhodnutí?
-- Jste finančně, emocionálně či informačně závislý/á na konkrétní osobě?
-- Existují vztahy, které byly v poslední době ukončeny **bez vašeho aktivního rozhodnutí**?
-- Měl/a jste pocit, že vaše paměť události se odlišuje od toho, co vám druzí říkali?
-- Cítíte, že někdo „vykonává péči“ o váš obraz reality?
+Šestý modul ověřuje pacientovu vlastní reflexi rozhovoru. Klinik se ptá, co bylo z hodiny nejtěžší, zda je
+něco, co by pacient chtěl říci, ale neřekl, a jak hodnotí, nakolik po rozhovoru rozumí sám sobě. Shea (1998)
+pokládá takové uzavření za důležité nejen diagnosticky, ale i terapeuticky, protože vrací pacientovi kontrolu
+nad tím, co bylo sděleno.
 
-**Klinické vodítko**: pozitivní odpovědi na ≥3 položky = silný signál [coercive control](@/glossary/coercive-control.md) nebo [gaslightingu](@/glossary/gaslighting.md).
+## Vedení rozhovoru a tempo
 
-## Modul 3: Metakognitivní kapacita (15–20 min)
-
-**Cíl**: testovat schopnost druhořádové reflexe (myšlení o myšlení).
-
-**Otevírací otázka**: *„Vezměte jedno z vašich silných přesvědčení. Pojďme se podívat, jak jste k němu došel/došla.“*
-
-**Sondovací linie**:
-
-- Můžete popsat **proces**, ne jen závěr?
-- Jaké důkazy by vás přesvědčily, že je toto přesvědčení nesprávné?
-- Existují témata, o nichž **odmítáte** přemýšlet, a víte o tom?
-- Jak rozeznáváte spolehlivý zdroj od nespolehlivého?
-- Stalo se vám, že jste si později uvědomil/a, že vaše paměť události byla jiná, než jak se skutečně stala?
-
-**Klinické vodítko**: neschopnost popsat proces poznávání + nemožnost generovat falsifikační kritéria = klastr A markery (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md#klastr-a-metakognitivni-destrukce)).
-
-## Modul 4: Změny self-narrativa (20–25 min)
-
-**Cíl**: detekovat diskontinuity v sebepojetí a hodnotových strukturách.
-
-**Otevírací otázka**: *„Popište mi sebe tak, jak byste se popsal/a před 5 lety. Pak před rokem. Pak dnes.“*
-
-**Sondovací linie**:
-
-- Existuje rozhodnutí z minulosti, které dnes pociťujete jako **cizí**?
-- Změnily se hodnoty, slovník, vztahové vzory?
-- Cítíte se „jinou osobou“ než před vstupem do aktuálního prostředí/vztahu?
-- Existují ztracené přátelské či rodinné vazby, které dnes vnímáte jako důležité?
-- Vzpomínáte si na okamžik, kdy jste začal/a „vidět věci jinak“?
-
-**Klinické vodítko**: ostrá diskontinuita s neschopností vysvětlit její genezi = silný signál EA-3.x.x až EA-5.x.x.
-
-## Modul 5: Hermeneutická kapacita (10–15 min)
-
-**Cíl**: testovat schopnost interpretace významů, kontextů, ironie.
-
-**Otevírací otázka**: *„Přečtu vám krátký text — řekněte mi, co tím autor myslí.“*
-
-**Test**: krátká pasáž s explicitní ironií nebo dvouznačnou metaforou.
-
-**Sondovací linie**:
-
-- Vyhodnotil/a pacient ironii správně?
-- Dokáže rozlišit doslovný a přenesený význam?
-- Cítí potřebu autoritativního výkladu pro běžné texty?
-- Trpí hyperinterpretacemi typu „vše něco znamená“?
-
-**Klinické vodítko**: ztráta ironie + potřeba externí interpretace = klastr B markery.
-
-## Modul 6: Závěrečné kotvení (10 min)
-
-**Cíl**: ověřit pacientovu vlastní reflexi rozhovoru.
-
-**Závěrečné otázky**:
-
-- Co bylo z této hodiny pro vás nejtěžší?
-- Existuje něco, co byste teď chtěl/a říct, ale neřekl/a?
-- Jak hodnotíte, že rozumíte sám/sama sobě po tomto rozhovoru?
+Semi-strukturovaná forma znamená, že klinik se drží kostry modulů, ale pořadí a hloubku přizpůsobuje tomu,
+co pacient unese a přinese. Shea (1998) doporučuje začínat otevřenými, nezatíženými otázkami a teprve
+postupně přecházet k citlivějším tématům, protože předčasný tlak uzavírá spolupráci. Klinik sleduje nejen
+obsah odpovědí, ale i způsob, jakým pacient odpovídá — zda potřebuje stále ujišťovat, zda se při nejistotě
+omlouvá, zda přejímá slovník určité autority — neboť forma odpovědi je sama diagnostickým údajem. U témat,
+která mohou reaktivovat trauma, zejména v modulu změn self-narrativa, klinik zpomalí a v případě potřeby
+přejde ke stabilizaci, protože podle Herman (1992) má bezpečí vždy přednost před úplností vyšetření. Rozhovor
+tak není dotazníkem čteným nahlas, nýbrž řízeným setkáním, jehož tempo je součástí jeho kvality.
 
 ## Validační procedury
 
-Po dokončení rozhovoru klinik:
-
-1. **Skóruje** klastry A–D (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md));
-2. **Tringuluje** s self-report instrumenty (kongruence ≥70%);
-3. **Konzultuje** [collateral interview](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md) (rodina, přátelé) **pouze se souhlasem**;
-4. **Dokumentuje** v reálných slovech pacienta — verbatim citace 5–7 klíčových výpovědí.
+Po dokončení rozhovoru klinik souhrnně posoudí znaky jednotlivých modulů, porovná je se
+[self-report](@/glossary/self-report.md) nástroji a po souhlasu pacienta s
+[kolaterálním rozhovorem](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md), a výsledky
+dokumentuje v reálných slovech pacienta s doslovnými citacemi klíčových výpovědí. Groth-Marnat (2009)
+zdůrazňuje, že shoda napříč zdroji posiluje závěr, zatímco rozpory jsou samy o sobě diagnosticky cenným
+údajem, nikoli chybou. Výsledkem rozhovoru proto není jediné číslo ani nálepka, nýbrž strukturovaný popis
+toho, jak pacient získává informace, komu svěřuje výklad své zkušenosti a nakolik dokáže sledovat vlastní
+myšlení; teprve tento popis spolu s dalšími zdroji vede klinický úsudek o pravděpodobnosti epistemické
+anihilace a o potřebě hlubšího vyšetření (Shea, 1998).
 
 ## Etické limity
 
-| Limit | Popis |
-|-------|-------|
-| **Sugestivita** | Otázky nesmí implikovat odpověď ("Cítil/a jste se manipulovaně?") |
-| **Re-traumatizace** | Mod. 4 může reaktivovat trauma — připravit krizový plán |
-| **Důvěrnost** | Záznamy podléhají standardní zdravotnické důvěrnosti |
-| **Politická neutralita** | Klinik nesmí hodnotit obsah přesvědčení, jen jejich strukturu |
+Otázky nesmějí implikovat odpověď, protože sugestivní formulace („cítil jste se manipulovaně?“) vytváří
+odpověď, kterou má zjišťovat; Shea (1998) pokládá nesugestivní vedení za základní dovednost. Modul změn
+self-narrativa může reaktivovat trauma, a vyžaduje proto krizový plán (Herman, 1992). Záznamy podléhají
+standardní zdravotnické mlčenlivosti a klinik zachovává politickou neutralitu, neboť hodnotí strukturu
+přesvědčení, ne jeho obsah; Fricker (2007) připomíná, že hodnocení obsahu by samo mohlo opakovat epistemickou
+nespravedlnost, kterou má rozhovor odhalit.
 
-## Vztah k platformě Prismatic
+## Literatura
 
-Strukturované poznámky z SSI-EA lze importovat do {{ <cross_link path="/hub/dd/decisions/runtime/" text="DD Decision Engine" /> }} jako **kvalitativní evidenci** pro hodnocení důvěry v reportu pacienta jako svědka. To je užitečné v post-kultové či forensní psychologii, kde se klinik účastní jako expert.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing.* Oxford: Oxford University Press.
+- Groth-Marnat, G. (2009). *Handbook of Psychological Assessment* (5th ed.). Hoboken: Wiley.
+- Herman, J. L. (1992). *Trauma and Recovery.* New York: Basic Books.
+- Shea, S. C. (1998). *Psychiatric Interviewing: The Art of Understanding* (2nd ed.). Philadelphia: Saunders.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life.* New York: Oxford University Press.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression.* New York: Guilford Press.
 
 ## Související
 
 - [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
 - [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)
-- [6.1.5 Collateral interview protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)
-- [6.1.13 Biographical timeline rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)
-- [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | [Sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)
-- [Glossary: Gaslighting](@/glossary/gaslighting.md) | [Coercive control](@/glossary/coercive-control.md) | [Metakognice](@/glossary/metakognice.md)
+- [6.1.5 Kolaterální rozhovor](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)
+- [Rekonstrukce biografické časové osy](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)
+- [Sekce 03: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Glossary: Gaslighting](@/glossary/gaslighting.md)
+- [Glossary: Coercive control](@/glossary/coercive-control.md)
+- [Glossary: Metakognice](@/glossary/metakognice.md)

@@ -1,6 +1,6 @@
 +++
 title = "6.1.1 Screeningové instrumenty pro EA — detailní katalog"
-description = "Detailní katalog screeningových instrumentů pro detekci epistemické anihilace: GES, PEAS, GPA, CCB Scale, kombinatorické algoritmy, validační status, klinická aplikace."
+description = "Detailní katalog přejatých screeningových instrumentů použitelných při detekci epistemické anihilace, jejich konstrukty, validační status a meze klinické aplikace."
 weight = 11
 
 [taxonomies]
@@ -15,127 +15,125 @@ toc = true
 
 # 6.1.1 Screeningové instrumenty pro EA — detailní katalog
 
+> **Pro koho**: klinické pracovníky pod supervizí. Žádný zde popsaný nástroj nebyl validován
+> specificky pro epistemickou anihilaci; všechny jsou přejaté z příbuzných oblastí a jejich
+> výsledky jsou signálem, ne diagnózou.
+
 ## Úvodní rámec
 
-Klinická detekce [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) se zatím opírá o **přejaté instrumenty** z příbuzných oblastí — psychického týrání, post-kultového poradenství, [coercive control](@/glossary/coercive-control.md) a [c-PTSD](@/glossary/c-ptsd.md). Žádný instrument samostatně neposkytuje definitivní diagnózu; klinický užitek vzniká **kombinací 3–4 nástrojů** spolu se strukturovanou epistemickou anamnézou (viz [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)).
+Klinická detekce [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) se zatím opírá o
+přejaté instrumenty z příbuzných oblastí — psychického týrání, post-kultového poradenství,
+[coercive control](@/glossary/coercive-control.md) a [c-PTSD](@/glossary/c-ptsd.md) — protože vlastní
+validovaný nástroj pro EA neexistuje. Groth-Marnat (2009) zdůrazňuje, že žádný jednotlivý dotazník
+neposkytuje diagnózu; klinický užitek vzniká kombinací několika nástrojů spolu se strukturovanou
+epistemickou anamnézou (viz [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)).
+Přejatý nástroj navíc měří svůj původní konstrukt, ne EA, takže jeho skóre je k EA vždy jen nepřímo
+vztažené a vyžaduje opatrný výklad.
 
-## Hlavní instrumenty
+## Nástroje z post-kultového výzkumu
 
-### GES — Group Experience Survey
+Z výzkumu psychického zneužívání ve skupinách pochází Group Psychological Abuse Scale, kterou sestavili
+Chambers, Langone, Dole a Grice (1994) k zachycení subjektivní zkušenosti z manipulativních skupin po
+výstupu. Nástroj pokrývá domény jako tlak na konformitu, exploataci, pocit ovlivnění mysli a emoční
+vykořeněnost, a v post-kultovém poradenství se používá jako orientační míra tíže prožité manipulace
+(Chambers, Langone, Dole a Grice, 1994). Pro EA je nejrelevantnější doména vnitřního pocitu ovlivnění,
+protože se blíží jádru [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md); přesto jde o
+nástroj vyvinutý pro kultové prostředí, takže u partnerské nebo institucionální EA jeho validita klesá.
+Hassan (2015) doporučuje takový nástroj administrovat až v bezpečném prostředí a s odstupem od odchodu,
+protože pod aktivním vlivem skupiny jsou odpovědi zkreslené.
 
-**Autoři**: Chambers, Langone, Dole & Grice (1994), revize 2017.
-**Konstrukt**: subjektivní zkušenost z manipulativních skupin po výstupu.
-**Délka**: 28 položek, Likertova škála 1–5.
-**Doporučený cutoff**: total score ≥60 = vysoké riziko EA-5.x.x.
+## Nástroje z klinické a vztahové oblasti
 
-GES měří čtyři domény: (1) **kompliance** (tlak na konformitu), (2) **exploatace** (ekonomické či emocionální zneužívání), (3) **vědomí mysli** (interní pocit ovlivnění) a (4) **vyjádření** (potlačení autonomního hlasu). Pro EA je nejprediktivnější doména 3 — koreluje s markery klastru A ([metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)).
+Poškození [metakognice](@/glossary/metakognice.md) nepřímo zachycuje dotazník dysfunkčních
+metakognitivních přesvědčení MCQ-30, který sestavili Wells a Cartwright-Hatton (2004). U lidí po EA bývá
+nápadný nesoulad mezi silnou nedůvěrou ve vlastní myšlení a sníženou reflexí, což se liší od profilu
+generalizované úzkosti; Wells a Cartwright-Hatton (2004) ovšem nástroj validovali pro úzkostné a depresivní
+poruchy, takže jeho použití u EA je adaptací, ne validovanou aplikací. Donucovací kontrolu ve vztazích
+popsal konceptuálně Stark (2007) a z jeho rámce vycházejí novější škály kontrolního chování; kniha je
+zmiňuje jen jako doplněk, protože měří pozorovatelné chování partnera, ne vnitřní epistemický stav oběti.
+Rogers (2008) navíc připomíná, že u všech sebeposuzovacích nástrojů je nutné počítat se zkreslením
+odpovědí, od bagatelizace po zveličení, které u osob stále ve vztahu k pachateli bývá systematické.
 
-**Klinická poznámka**: GES nelze administrovat během akutní krize ani pacientovi, který je stále v in-group prostředí (riziko kompromitace dat). Vyžaduje **bezpečné prostředí** a min. 4 týdny po opuštění skupiny.
+## Nástroj pro diferenciální rozlišení
 
-### PEAS — Psychological Abuse in Relationships Scale
+Ke screeningu patří i nástroj, který slouží k vyloučení jiné poruchy. Dissociative Experiences Scale,
+kterou sestavili Bernstein a Putnam (1986), zachycuje disociativní fenomény, a v kontextu EA se používá
+negativně: výrazně zvýšené skóre přesouvá podezření na primárně disociativní poruchu, zatímco mírné
+zvýšení je u lidí po EA běžné jako sekundární [disociace](@/glossary/disociace.md) pod stresem a není samo
+o sobě rozhodující (Bernstein a Putnam, 1986). K vyloučení posttraumatické poruchy a organické etiologie
+se v klinické praxi standardně přidává screening posttraumatických příznaků a kognitivní screening;
+Groth-Marnat (2009) pokládá takové diferenciální vyloučení za nutnou součást každého rozvážného posouzení.
 
-**Autoři**: Follingstad et al. (2015).
-**Konstrukt**: psychické týrání v intimních vztazích.
-**Délka**: 50 položek, 7 subskal.
-**EA-relevantní subskóre**: „Reality Denial“ (10 položek) — měří gaslighting.
+## Zásady administrace
 
-Subškála Reality Denial je nejpřímější psychometrický prediktor [gaslightingu](@/glossary/gaslighting.md) (EA-2.x.x). Skóre ≥3.5 z 5 indikuje kliniky relevantní úroveň. Důležité: PEAS lze použít i retrospektivně (na ukončené vztahy), což je užitečné pro pacienty se strukturální EA navázanou na bývalého partnera.
+Způsob zadání nástroje rozhoduje o kvalitě výsledku stejně jako volba nástroje. Groth-Marnat (2009)
+připomíná, že dotazník má smysl jen tehdy, rozumí-li vyšetřovaný otázkám a je-li motivován odpovídat
+upřímně, což u člověka stále vázaného na pachatele nebo skupinu nelze předpokládat. Před administrací je
+proto třeba zajistit bezpečné prostředí a dostatečný odstup od expozice; Hassan (2015) uvádí, že odpovědi
+zadané pod aktivním vlivem prostředí spíše zrcadlí jeho jazyk než vlastní zkušenost vyšetřovaného. Součástí
+zásad je i [informovaný souhlas](@/glossary/informed-consent.md) a jasné sdělení, že nástroj neslouží k posouzení viny, nýbrž k porozumění
+tomu, co člověk prožívá, protože podle Rogerse (2008) vnímaný účel vyšetření sám ovlivňuje směr a velikost
+zkreslení odpovědí.
 
-### GPA Survey — Group Psychological Abuse
+Výběr baterie se řídí hypotézou, kterou klinik ověřuje, ne snahou „změřit všechno“. U podezření na
+post-kultové pozadí dává smysl nástroj zaměřený na skupinovou manipulaci, u podezření na partnerskou EA
+spíše nástroje donucovací kontroly a u všech případů nástroj metakognitivní a nástroj k diferenciálnímu
+vyloučení disociace; Groth-Marnat (2009) tento cílený výběr pokládá za znak odborného, nikoli mechanického
+testování. Počet nástrojů je přitom třeba vážit proti zátěži vyšetřovaného, protože únava a přetížení samy
+zhoršují kvalitu odpovědí.
 
-**Autoři**: Chambers & Langone (1994).
-**Konstrukt**: post-kultové dopady.
-**Délka**: 31 položek.
-**Klinická pozice**: zlatý standard pro post-kultové poradenství; viz [6.5 Vulnerabilní populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
+## Kombinace nástrojů a klinický úsudek
 
-GPA pokrývá čtyři faktory: kompliance, exploatace, vědomí mysli, emoční vykořeněnost. Cutoff ≥3.0 v doménovém průměru indikuje **klinicky významnou** in-group manipulaci. Praktická hodnota: rychlá administrace (10–15 min), validace v anglickém i českém kontextu (translace Hassan et al., 2019).
+Protože žádný nástroj nestačí sám, doporučuje se kombinovat míru prožité manipulace, míru metakognitivního
+poškození a diferenciální vyloučení jiné poruchy, a to vždy spolu s anamnézou a pozorováním; Groth-Marnat
+(2009) tuto zásadu nazývá multimetodovým posouzením. Kniha záměrně neuvádí žádné numerické hranice ani
+rozhodovací pravidla pro EA, protože takové hodnoty nebyly pro EA validovány a jejich uvádění by budilo
+zdání přesnosti, kterou obor nemá. Výsledky nástrojů slouží k tomu, aby vedly klinický úsudek a určily, kde
+je třeba hlubší epistemické vyšetření, ne aby samy rozhodly; Rogers (2008) varuje, že mechanické používání
+cut-off skóre bez klinické integrace vede k chybám oběma směry.
 
-### CCB Scale — Coercive Control Behaviour Scale
+## Meze
 
-**Autoři**: Stark & Hester (2019).
-**Konstrukt**: vzorce kontrolního chování v párových vztazích.
-**Délka**: 38 položek, 5 domén.
-**EA-relevantní domény**: „Mind manipulation“ + „Reality denial“.
+Hlavní mezí je, že pokročilá EA snižuje schopnost rozeznat markery u sebe, takže sebeposuzovací nástroje
+mohou tíhu podhodnotit (viz [self-report](@/glossary/self-report.md)); Rogers (2008) tento jev řadí k
+systematickým zkreslením odpovědí. Druhou mezí je kulturní validace, neboť většina nástrojů byla vyvinuta a
+ověřena v anglosaském kontextu a jejich přenos do jiného jazyka a kultury vyžaduje samostatnou validaci
+(Groth-Marnat, 2009). Třetí mezí je časová citlivost, protože akutní krize zkresluje skóre a doporučuje se
+měření opakovat s odstupem (Hassan, 2015). Čtvrtou mezí je forenzní limit: skóre nelze použít jako právní
+důkaz manipulace, nýbrž nanejvýš jako součást odborného posouzení (Stark, 2007). Pátou mezí je nebezpečí
+falešně pozitivního nálezu: řada položek těchto nástrojů zachycuje prožitky, které má i řada lidí bez EA,
+od úzkostných po pečující v náročné situaci, takže zvýšené skóre samo o sobě manipulaci nedokládá a vždy
+vyžaduje konfrontaci s anamnézou, pozorováním a vývojem v čase (Groth-Marnat, 2009). Rogers (2008) proto
+doporučuje chápat každý nástroj jako jeden hlas v odborné rozvaze, nikoli jako verdikt, který by sám o sobě
+rozhodoval o dalším osudu vyšetřovaného člověka.
 
-CCB je nejvhodnější pro detekci EA-2.x.x (gaslighting) a EA-3.x.x (autorita-závislost) v partnerských vztazích. Skóre ≥80 (z 190) klinicky signifikantní; ≥120 indikuje **akutní coercive control**, vyžaduje krizovou intervenci a zvážení ochrany oběti (viz [krizová intervence](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/06-klinicke-aplikace/crisis-intervention-EA/)).
+## Klinický rámec použití
 
-### MCQ-30 — Metacognitions Questionnaire
+Použití nástrojů vyžaduje licencovanou klinickou kompetenci a supervizi; tento materiál není terapeutickou
+příručkou ani metodikou pro neformální použití. Před administrací je namístě konzultovat s licencovaným
+psychoterapeutem, psychiatrem nebo klinickým psychologem, ověřit, že
+[diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) odpovídají profilu
+klienta, a dokumentovat postup v souladu s
+[diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md). Groth-Marnat
+(2009) připomíná, že odpovědnost za výklad testu nese vždy klinik, ne nástroj.
 
-**Autoři**: Wells & Cartwright-Hatton (2004).
-**Konstrukt**: dysfunkční metakognitivní přesvědčení.
-**Délka**: 30 položek, 5 subskal.
-**EA-relevantní subskály**: „Negative beliefs about uncontrollability“ + „Cognitive self-consciousness“.
+## Literatura
 
-MCQ-30 nepřímo měří poškození [metakognice](@/glossary/metakognice.md). U EA pacientů typicky **vysoké skóre** v „Negative beliefs“ (nedůvěra ve vlastní myšlení) a **nízké** v „Cognitive self-consciousness“ (snížená reflexe). Tento „obrácený profil“ je diferenciální oproti generalizované úzkosti.
-
-### DES-II — Dissociative Experiences Scale
-
-**Autoři**: Bernstein & Putnam (1993).
-**Konstrukt**: disociativní fenomény.
-**Délka**: 28 položek.
-**Funkce v EA dg.**: diferenciální vyloučení DID/OSDD.
-
-V EA kontextu DES-II slouží **negativně** — vysoké skóre (>30) přesouvá podezření na primárně disociativní poruchu, ne EA. Mírně zvýšené skóre (15–25) je u EA pacientů typické (sekundární [disociace](@/glossary/disociace.md) pod stresem) a není diagnosticky rozhodující.
-
-### EA-Risk Index (experimentální)
-
-V současném výzkumu se vyvíjí dedikovaný **EA Screening Tool (EAST)** — kombinatorický algoritmus integrující markery klastrů A–D z [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) s evidencí o informačním prostředí. EAST není dosud validizován; klinické použití je vyhrazeno **výzkumnému kontextu**.
-
-## Kombinatorický algoritmus
-
-Doporučená klinická baterie pro **plný EA screening**:
-
-1. **GES + GPA Survey** (pro post-kultovou populaci) NEBO
-2. **PEAS + CCB Scale** (pro coercive-control populaci);
-3. **MCQ-30** (pro klastr A markery);
-4. **DES-II + PCL-5** (diferenciální);
-5. **MoCA / RBANS** (vyloučení organické etiologie).
-
-Celkový čas administrace: 90–120 minut, doporučeno rozdělit do 2 setkání.
-
-## Klinické rozhodovací pravidlo (R-EAST)
-
-> **R-EAST**: Pokud (GES ≥60 OR PEAS Reality Denial ≥3.5) AND (MCQ-30 Negative ≥20) AND (DES-II ≤30) AND (organická etiologie vyloučena), pak **vysoká pravděpodobnost EA** — indikováno hloubkové epistemické vyšetření.
-
-## Limity
-
-| Limit | Popis |
-|-------|-------|
-| **[Self-report](@/glossary/self-report.md) bias** | Pokročilá EA snižuje schopnost rozeznat markery u sebe |
-| **Kulturní validace** | Většina instrumentů validizována v anglosaském kontextu |
-| **Časová senzitivita** | Akutní krize zkresluje skóre — opakovat po 4–6 týdnech |
-| **Forensní limit** | Skóre nelze použít jako právní důkaz manipulace |
-
-## Vztah k platformě Prismatic
-
-{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} integruje GES + GPA + CCB skóre jako **negativní signály důvěry** v reportech [Due Diligence](@/glossary/due-diligence.md). Klinik může exportovat výsledky do strukturovaného formátu pro **kalibrovaný úsudek** o pravděpodobnosti EA u investigovaného subjektu.
+- Bernstein, E. M., & Putnam, F. W. (1986). Development, reliability, and validity of a dissociation scale. *Journal of Nervous and Mental Disease*, 174(12), 727–735.
+- Chambers, W. V., Langone, M. D., Dole, A. A., & Grice, J. W. (1994). The Group Psychological Abuse Scale. *Cultic Studies Journal*, 11(1), 88–117.
+- Groth-Marnat, G. (2009). *Handbook of Psychological Assessment* (5th ed.). Hoboken: Wiley.
+- Hassan, S. (2015). *Combating Cult Mind Control.* Newton, MA: Freedom of Mind Press.
+- Rogers, R. (2008). *Clinical Assessment of Malingering and Deception* (3rd ed.). New York: Guilford Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life.* New York: Oxford University Press.
+- Wells, A., & Cartwright-Hatton, S. (2004). A short form of the Metacognitions Questionnaire: Properties of the MCQ-30. *Behaviour Research and Therapy*, 42(4), 385–396.
 
 ## Související
 
 - [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [6.1.2 Semi-structured interview protokol](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
+- [6.1.2 Semi-strukturovaný klinický rozhovor](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
 - [6.1.3 Self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md)
 - [6.5 Vulnerabilní populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
 - [Sekce 03: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
-- [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Glossary: Gaslighting](@/glossary/gaslighting.md)
 - [Glossary: Metakognice](@/glossary/metakognice.md)
+- [Glossary: Gaslighting](@/glossary/gaslighting.md)
 - [Glossary: c-PTSD](@/glossary/c-ptsd.md)
-
-## Kritický krok
-
-**Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
-materiál není terapeutickou příručkou ani diagnostickou metodikou pro
-neformální použití.
-
-Před aplikací:
-
-1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
-   psychologem
-2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-   odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-
-> **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
-> mimo zamýšlený klinický rámec.

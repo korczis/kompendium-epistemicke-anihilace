@@ -23,103 +23,113 @@ date_modified = "2026-11-10"
 ## 1. Účel
 
 [Epistemická pokora](@/glossary/epistemicka-pokora.md) je ctnost: vědomí mezí vlastního poznání,
-ochota se opravit, otevřenost vůči druhým. Právě proto je zneužitelná. Manipulativní prostředí ji
-přetváří v nástroj podřízení: „Kdo jsi ty, abys soudil?“, „Tvoje pochybnost je jen ego“, „Skutečně
-pokorný člověk se neptá.“ Kniha tento vzorec popisuje jako
-[internalizaci pseudo-pokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md).
+ochota se opravit a otevřenost vůči druhým, kterou psychologie ctností popisuje jako přesný odhad
+vlastních schopností spojený s nízkou potřebou sebeobhajoby (Tangney, 2000). Právě proto je
+zneužitelná. Manipulativní prostředí ji přetváří v nástroj podřízení: „Kdo jsi ty, abys soudil?“,
+„Tvoje pochybnost je jen ego“, „Skutečně pokorný člověk se neptá.“ Kniha tento vzorec popisuje jako
+[internalizaci pseudo-pokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md);
+vynucené sebekritické vyznávání jako nástroj kontroly popsal už Lifton (1961) jako kult doznání.
 
-Výsledkem není pokora, ale její karikatura: člověk má **rovnoměrně nízkou jistotu ve všech
-oblastech**, i tam, kde je odborníkem nebo kde má přímé doklady, a zároveň **vysokou jistotu v
-jediném zdroji** – v autoritě, které se podřídil. Kalibrace je tedy rozbitá dvojím směrem.
+Výsledkem není pokora, ale její karikatura: člověk má rovnoměrně nízkou jistotu ve všech oblastech,
+i tam, kde je odborníkem nebo kde má přímé doklady, a zároveň vysokou jistotu v jediném zdroji –
+v autoritě, které se podřídil. Kalibrace, tedy soulad mezi subjektivní jistotou a skutečnou
+správností, je tím rozbita dvojím směrem; její narušení je dobře zmapováno ve výzkumu úsudku
+(Lichtenstein, Fischhoff a Phillips, 1982).
 
 ## 2. Klinický obraz
 
-- Klient se omlouvá za vlastní názor, i když jde o věc jeho profese nebo přímé zkušenosti.
-- Na otázku „co si myslíte vy?“ odpovídá „nevím, nemohu to posoudit“ nebo citací autority.
-- Pochybnost o sobě prožívá jako morální hodnotu, jistotu jako hřích nebo pýchu.
-- Paradoxně: k vybraným tvrzením autority projevuje neochvějnou jistotu.
-- Silné prvky studu; srov. [Odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md).
-- Souvisí s jevy [Self-doubt cultivation](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
-  a [Imposter syndrome amplifikace](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md).
+Klient se omlouvá za vlastní názor, i když jde o věc jeho profese nebo přímé zkušenosti, a na otázku
+„co si myslíte vy?“ odpovídá „nevím, nemohu to posoudit“ nebo citací autority; jde o opak nadměrné
+sebejistoty nekompetentních, popsané jako Dunningův–Krugerův efekt, přičemž zde je i kompetentní
+člověk uměle udržován v podhodnocení (Dunning a Kruger, 1999). Pochybnost o sobě přitom prožívá jako
+morální hodnotu a jistotu jako hřích nebo pýchu, zatímco k vybraným tvrzením autority projevuje
+neochvějnou jistotu. Silné jsou prvky studu, viz
+[Odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md); stud jako emoce
+zaměřená na celé já je podle teorie soucitu se sebou hlavní překážkou realistického sebehodnocení
+(Neff, 2003). Stav souvisí s jevy
+[Self-doubt cultivation](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) a
+[Imposter syndrome amplifikace](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md).
 
 ## 3. Odlišení
 
-- **Zdravá pokora**: nejistota se liší podle oblasti a reaguje na doklady.
-- **Depresivní kognice**: celková negativní sebehodnotící tendence bez vazby na konkrétní autoritu;
-  vyžaduje vlastní léčbu, i když se s tímto obrazem může překrývat.
-- **Kulturní norma skromnosti**: klient se vyjadřuje zdrženlivě, ale v rozhodování se o vlastní
-  úsudek opírá.
-- **Úzkostná porucha s nadměrnou potřebou jistoty**: nejistota se týká rizik, ne práva na úsudek.
+Zdravá pokora se od zneužité liší tím, že nejistota se mění podle oblasti a reaguje na doklady, tedy
+je kalibrovaná (Lichtenstein, Fischhoff a Phillips, 1982). Depresivní kognice má celkovou negativní
+sebehodnotící tendenci bez vazby na konkrétní autoritu a vyžaduje vlastní léčbu, i když se s tímto
+obrazem může překrývat; její strukturu (negativní pohled na sebe, svět a budoucnost) popsal Beck
+(1967). Kulturní norma skromnosti se projeví zdrženlivým vyjadřováním, ale v rozhodování se člověk
+o vlastní úsudek opírá, a úzkostná porucha s nadměrnou potřebou jistoty se týká rizik, nikoli práva
+na úsudek.
 
-## 4. Cíle protokolu
+## 4. Cíle a postup
 
-1. Oddělit **pokoru** jako postoj od **sebeumlčení** jako naučeného chování.
-2. Obnovit **kalibraci**: přiřadit jistotu podle dokladů a odbornosti, oblast po oblasti.
-3. Snížit absolutní jistotu ve výrokech bývalé autority na úroveň, kterou doklady podporují.
-4. Obnovit **epistemickou agentnost** – právo i schopnost soudit; viz
-   [Epistemická agentnost](@/glossary/epistemicka-agentnost.md).
+Protokol odděluje pokoru jako postoj od sebeumlčení jako naučeného chování, obnovuje kalibraci
+přiřazením jistoty podle dokladů a odbornosti oblast po oblasti, snižuje absolutní jistotu ve výrocích
+bývalé autority na úroveň, kterou doklady podporují, a obnovuje
+[epistemickou agentnost](@/glossary/epistemicka-agentnost.md), tedy právo i schopnost soudit.
+Metakognitivní povaha těchto cílů – přemýšlet o vlastním myšlení a jeho spolehlivosti – navazuje na
+klasické vymezení [metakognice](@/glossary/metakognice.md) (Flavell, 1979).
 
-## 5. Postup
-
-### Krok 1 – mapa jistoty
-
-Klient vybere deset až patnáct oblastí (vlastní obor, vztahy, zdraví, politika, víra, praktické
-dovednosti) a u každé odhadne, jak moc si věří a proč. Terapeut se ptá na doklady: vzdělání,
-zkušenost, výsledky. Rozpor mezi doklady a odhadem je první viditelný údaj.
-
-### Krok 2 – kalibrační cvičení
-
-Krátké predikce s ověřitelným výsledkem („kolik minut mi zabere cesta“, „jak dopadne zkouška“),
-u nichž klient uvádí míru jistoty a později porovná s výsledkem. Cvičení ukazuje, že vlastní
-úsudek je často spolehlivější, než si klient myslí. Navazuje
+Práce začíná mapou jistoty: klient vybere deset až patnáct oblastí (vlastní obor, vztahy, zdraví,
+politika, víra, praktické dovednosti) a u každé odhadne, jak moc si věří a proč, zatímco terapeut se
+ptá na doklady – vzdělání, zkušenost, výsledky –, a rozpor mezi doklady a odhadem je první viditelný
+údaj. Následují kalibrační cvičení: krátké predikce s ověřitelným výsledkem („kolik minut mi zabere
+cesta“, „jak dopadne zkouška“), u nichž klient uvádí míru jistoty a později ji porovná se skutečností;
+právě zpětná vazba o shodě jistoty a výsledku je ověřeným prostředkem zlepšení kalibrace (Lichtenstein,
+Fischhoff a Phillips, 1982). Navazuje
 [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md).
 
-### Krok 3 – rekonstrukce pokory
+V rekonstrukci pokory se s klientem pracuje na tom, co pro něj pokora znamenala před expozicí a co
+znamená nyní, s rozlišením, že pokora je ochota změnit názor na základě dokladu, kdežto sebeumlčení je
+vzdání se názoru na základě tlaku; terapeut tak pokoře nebere hodnotu, ale vrací jí obsah (Tangney,
+2000). Ve zkoušce autority se výroky bývalé autority, jimž klient dosud přisuzuje nejvyšší jistotu,
+zkoumají stejně jako ostatní (jaký byl doklad, kdo jiný to potvrzuje), shodně s archeologií rámce
+v protokolu [Paradigma](@/kompendium/recovery-protocols/paradigm.md). Nakonec klient postupně vyjadřuje
+vlastní úsudek v bezpečném prostředí a sleduje, co se stane, s oporou
+[Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md); takové
+odstupňované vystavení umlčovanému chování je v souladu s expozičním principem léčby úzkosti (Neff,
+2003 doplňuje, že soucit se sebou přitom tlumí sebekritiku, která by expozici blokovala).
 
-S klientem se pracuje na tom, co pro něj pokora znamenala před expozicí a co znamená nyní.
-Pomáhá rozlišení: pokora je ochota změnit názor **na základě dokladu**; sebeumlčení je vzdání se
-názoru **na základě tlaku**. Terapeut nerozbíjí hodnotu pokory – vrací jí obsah.
+## 5. Hodnocení a rizika
 
-### Krok 4 – zkouška autority
+Pokrok se pozná podle toho, že mapa jistoty se diferencuje (vysoká jistota v oblastech s doklady,
+nízká bez nich), klient umí vyslovit názor bez omluvy a zároveň připustit možnost omylu a výroky
+bývalé autority hodnotí podle dokladů, ne podle zdroje; k podpoře lze využít metakognitivní dotazník
+podle oddílu
+[Metakognitivní questionnaire](@/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md),
+přičemž práce s metakognitivními přesvědčeními má vlastní terapeutický model (Wells, 2009). Rizikem
+je přechod do opačného extrému – rigidní jistoty jako obrany –, neboť cílem je kalibrace, ne obrat
+(Lichtenstein, Fischhoff a Phillips, 1982). Terapeut, který klienta „učí sebevědomí“ jako novou
+autoritu, opakuje vzorec, a těžká depresivní epizoda vyžaduje nejprve léčbu, protože může kalibrační
+cvičení zkreslit (Beck, 1967).
 
-Výroky bývalé autority, jimž klient dosud přisuzuje nejvyšší jistotu, se zkoumají stejným
-způsobem jako ostatní: jaký byl doklad? Kdo jiný to potvrzuje? Postup je shodný s archeologií
-rámce v protokolu [Paradigma](@/kompendium/recovery-protocols/paradigm.md).
+## 6. Kazuistika (anonymizovaný kompozit)
 
-### Krok 5 – vyjádření názoru
-
-Klient postupně vyjadřuje vlastní úsudek v bezpečném prostředí (terapie, přátelé, pracovní porada)
-a sleduje, co se stane. Opora: [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md).
-
-## 6. Hodnocení průběhu
-
-- Mapa jistoty se diferencuje: vysoká jistota v oblastech s doklady, nízká bez nich.
-- Klient umí vyslovit názor bez omluvy a zároveň připustit možnost omylu.
-- Výroky bývalé autority hodnotí podle dokladů, ne podle zdroje.
-- K podpoře lze použít metakognitivní dotazník podle oddílu
-  [Metakognitivní questionnaire](@/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md).
-
-## 7. Kontraindikace a rizika
-
-- Přechod do opačného extrému – rigidní jistoty jako obrany. Cílem je kalibrace, ne obrat.
-- Terapeut, který klienta „učí sebevědomí“ jako novou autoritu, opakuje vzorec.
-- Těžká depresivní epizoda vyžaduje nejprve léčbu; kalibrační cvičení mohou výsledky zkreslit.
-
-## 8. Kazuistika (anonymizovaný kompozit)
-
-Zkušená zdravotní sestra po letech v duchovní komunitě nedokáže na poradě obhájit postup, který
-deset let úspěšně používá – „kdo jsem, abych to věděla“. Zároveň s jistotou opakuje výroky vedoucího
-komunity o léčivých účincích půstu. Mapa jistoty odhalí obrácenou kalibraci. Po několika měsících
+Zkušená zdravotní sestra po letech v duchovní komunitě nedokáže na poradě obhájit postup, který deset
+let úspěšně používá – „kdo jsem, abych to věděla“ –, a zároveň s jistotou opakuje výroky vedoucího
+komunity. Mapa jistoty odhalí obrácenou kalibraci, tedy podhodnocení tam, kde má doklady, a
+nadhodnocení tam, kde je nemá (Lichtenstein, Fischhoff a Phillips, 1982). Po několika měsících
 kalibračních cvičení a práce s pojmem pokory klientka na poradě postup obhájí a o výrocích vedoucího
 říká: „Nevím, jestli je to pravda. Neviděla jsem pro to doklad.“ Sama to označuje za první skutečně
 pokornou větu po letech.
 
-## 9. Meze a otevřené otázky
+## 7. Meze a otevřené otázky
 
-Kalibrace je dobře zkoumána v psychologii úsudku, ale její obnova po manipulaci systematicky
-studována není; protokol stojí na klinickém úsudku a obecných postupech. Otevřená je i otázka
-náboženských tradic, v nichž je pokora ústřední hodnotou: oddělit ji od kontrolního zneužití
-vyžaduje citlivost a často spolupráci s duchovním mimo původní skupinu.
+Kalibrace je dobře zkoumána v psychologii úsudku, ale její cílená obnova po manipulaci systematicky
+studována není, a proto protokol stojí na klinickém úsudku a obecných postupech (Lichtenstein,
+Fischhoff a Phillips, 1982). Otevřená je i otázka náboženských tradic, v nichž je pokora ústřední
+hodnotou: oddělit ji od kontrolního zneužití vyžaduje citlivost a často spolupráci s duchovním mimo
+původní skupinu, aby obnova neklouzla do nového vyznávání viny (Lifton, 1961).
+
+## Literatura
+
+- Beck, A. T. (1967). *Depression: Clinical, Experimental, and Theoretical Aspects*. New York: Harper & Row.
+- Dunning, D., a Kruger, J. (1999). Unskilled and Unaware of It. *Journal of Personality and Social Psychology*, 77(6), 1121–1134.
+- Flavell, J. H. (1979). Metacognition and Cognitive Monitoring. *American Psychologist*, 34(10), 906–911.
+- Lichtenstein, S., Fischhoff, B., a Phillips, L. D. (1982). Calibration of Probabilities: The State of the Art to 1980. In D. Kahneman a kol. (eds.), *Judgment under Uncertainty*. Cambridge University Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
+- Neff, K. D. (2003). Self-Compassion: An Alternative Conceptualization of a Healthy Attitude Toward Oneself. *Self and Identity*, 2(2), 85–101.
+- Tangney, J. P. (2000). Humility: Theoretical Perspectives, Empirical Findings and Directions for Future Research. *Journal of Social and Clinical Psychology*, 19(1), 70–82.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
 
 ## Související
 

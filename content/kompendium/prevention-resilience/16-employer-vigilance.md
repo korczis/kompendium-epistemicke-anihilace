@@ -93,7 +93,7 @@ v týmu), ne o soukromé informace. Zaměstnanec sám rozhoduje, co sdělí.
    [Interní šetření](@/kompendium/organizational-defense/32-internal-investigation.md).
 7. **Návrat do práce** – postupný, s dohodnutými úpravami a pravidelnými krátkými schůzkami;
    navazuje [Pracovní rehabilitace](@/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md).
-8. **Ochrana dat** – údaje se vedou odděleně od personálního spisu a jen se souhlasem; viz
+8. Ochrana dat – údaje se vedou odděleně od personálního spisu a jen se souhlasem; viz
    [GDPR a ochrana narativu](@/kompendium/cross-domain/27-ea-compliance-gdpr-narrative-protection.md).
 
 ### Co v rozhovoru neříkat

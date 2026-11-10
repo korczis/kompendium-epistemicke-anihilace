@@ -3969,11 +3969,9 @@
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/1-childhood-resilience-foundation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/10-public-discourse-quality.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/11-early-screening-EA.md": [
@@ -3981,7 +3979,6 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/12-warning-sign-recognition.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/13-rapid-response-protocol.md": [
@@ -3989,38 +3986,24 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/14-de-escalation-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/15-relationship-monitoring.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/16-employer-vigilance.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/17-academic-supervision-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/18-clinical-vigilance-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/19-pastoral-vigilance-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/2-school-based-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/20-peer-vigilance-prevention.md": [
@@ -4028,8 +4011,6 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/21-relapse-prevention-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md": [
@@ -4037,8 +4018,6 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/23-skills-rebuilding-program.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/24-meaning-restoration-prevention.md": [
@@ -4046,13 +4025,9 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/26-family-reintegration-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/27-community-reintegration-prevention.md": [
@@ -4068,45 +4043,30 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/3-family-resilience-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/30-trauma-informed-citizenship.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/4-community-resilience-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/5-workplace-prevention-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/6-media-literacy-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/7-digital-hygiene-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/8-critical-thinking-curriculum.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/9-civic-education-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/quick-reference/_index.md": [
@@ -4482,37 +4442,24 @@
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-cognitive-anchoring.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-information-curation.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-safety-establishment.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-social-reconnection.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-somatic-regulation.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-stabilization-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/duvera.md": [
@@ -4528,63 +4475,39 @@
   "detail"
  ],
  "content/kompendium/recovery-protocols/longterm-altruistic-channeling.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-community-rebuilding.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-meaning-deepening.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-post-traumatic-growth.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-relapse-prevention.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-resilience-cultivation.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-educational-reintegration.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-hermeneutic-reset.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-identity-reconstruction.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-metacognitive-rehab.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-skill-rebuilding.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-vocational-integration.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/narativ.md": [
@@ -4604,33 +4527,21 @@
   "detail"
  ],
  "content/kompendium/recovery-protocols/recovery-adolescent-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-children-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-elder-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/sealioning.md": [
@@ -4642,33 +4553,21 @@
   "detail"
  ],
  "content/kompendium/recovery-protocols/subacute-axiological-restoration.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-detection-training.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-meaning-reconstruction.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-narrative-externalization.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-relational-restructuring.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-trust-rebuilding.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/trauma.md": [

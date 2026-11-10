@@ -1,6 +1,6 @@
 +++
 title = "Středně-dobý hermeneutický reset"
-description = "Longitudinální rekonstruktivní protokol — rekonstrukce interpretačního aparátu."
+description = "Středně-dobý protokol obnovy vlastního výkladu situací po epistemické anihilaci: identifikace převzatých interpretačních rámců, jejich oddělení a budování vlastních."
 weight = 14
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "midterm"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["longterm-resilience-cultivation", "midterm-educational-reintegration", "midterm-identity-reconstruction", "midterm-metacognitive-rehab"]
+related_terms = ["midterm-metacognitive-rehab", "midterm-identity-reconstruction", "ramce", "hermeneuticka-eroze", "hermeneuticky-outsourcing", "hermeneuticky-kruh"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "midterm"
@@ -16,97 +16,149 @@ phase = "midterm"
 
 # Středně-dobý hermeneutický reset
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `midterm`
-> **Cílový rámec**: Měsíce 3–12.
+> **Status**: fázový protokol středně-dobé fáze; průřezově navazuje na přehled
+> [Rámce zotavení](@/kompendium/recovery-protocols/ramce.md) (srovnání tradic).
+> **Fáze**: `midterm`.
+> **Cíl**: aby klient vykládal situace, vztahy a sám sebe vlastními rámci, ne rámci
+> pachatele nebo skupiny – a aby si rámce mohl vybírat a měnit.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Pacienti s reziduální [hermeneutickou erozí](@/glossary/hermeneuticka-eroze.md) — neschopnost interpretovat sociální situace bez referencování pachatelova rámce. **Hermeneutic outsourcing** zůstává jako automatismus i po extrakci. Cíl: znovu-vybudování vlastního interpretačního systému.
+[Hermeneutika](@/glossary/hermeneutika.md) je nauka o výkladu. Každý člověk vykládá svět
+pomocí rámců – předpokladů o tom, co znamenají slova, gesta, události a co je za nimi.
+[Epistemická anihilace](@/glossary/epistemicka-anihilace.md) (EA) tyto rámce nahrazuje: klient
+se naučí vykládat vše optikou pachatele nebo skupiny a po odchodu ji používá automaticky.
+Kniha tento stav nazývá [hermeneutickou erozí](@/glossary/hermeneuticka-eroze.md)
+a přenechání výkladu jiné osobě [hermeneutickým outsourcingem](@/glossary/hermeneuticky-outsourcing.md).
+Protokol je určen klientům ve středně-dobé fázi, kteří už rozpoznávají vzorce manipulace,
+ale v každodenním životě stále vykládají situace starými rámci: laskavost kolegy čtou jako
+„past“, kritiku jako „útok na víru“, vlastní únavu jako „slabost“.
 
-## 2. Časový rámec
+## 2. Klinický obraz
 
-Měsíce 3–12. Intenzita: týdně, postupně 1× za 14 dní u stabilizovaných klientů. Délka: 50–60 min. Zahrnuje skill-building skupiny + individuální práci.
+Gadamer (1960) popsal porozumění jako proces, v němž člověk vždy vstupuje do výkladu se
+svými předsudky (*Vorurteile*) – předběžnými porozuměními – a v rozhovoru s textem nebo
+druhým je postupně koriguje; tento pohyb nazval [hermeneutickým kruhem](@/glossary/hermeneuticky-kruh.md).
+U EA je kruh přerušen: předběžná porozumění jsou zafixovaná a žádná nová zkušenost je nemůže
+opravit, protože každá zkušenost je předem vyložena tak, aby rámec potvrdila. Ricoeur (1970)
+rozlišil hermeneutiku důvěry, která hledá smysl, a hermeneutiku podezření, která hledá
+skryté motivy. Lidé po EA bývají uvězněni v jedné z nich – buď vše přijímají, nebo vše
+podezírají.
+
+Kognitivní terapie popisuje podobný jev na úrovni automatických myšlenek a základních
+přesvědčení (Beck 1976): situace sama nevyvolává emoci, ale její výklad, a výklad se řídí
+hlubšími schématy. Fricker (2007) přidala sociální rozměr pojmem hermeneutické nespravedlnosti:
+člověk nemá k dispozici pojmy, jimiž by vlastní zkušenost srozumitelně popsal, protože
+jeho prostředí je nevytvořilo nebo mu je odepřelo. Klienti po EA často popisují, že „neměli
+slovo“ pro to, co zažívali.
+
+Klinicky se tento obraz projevuje automatickými interpretacemi v jazyce prostředí, neschopností
+nabídnout pro situaci více výkladů, silnými emocemi vázanými na výklad, který klient sám
+racionálně odmítá, a zmatkem v nových prostředích, kde staré rámce nedávají smysl.
+
+Proč se hermeneutická práce řadí až do středně-dobé fáze, vysvětluje její náročnost. Rámce
+nejsou jednotlivá přesvědčení, která lze vyvrátit; jsou to brýle, jimiž se dívám na všechna
+přesvědčení. Pokud je člověk sundá příliš brzy, nezůstane mu „čistý pohled“, ale zmatek.
+Proto protokol předpokládá, že klient už má stabilní bezpečí, terapeutickou alianci
+a základní slovník pro rozpoznání manipulace z [detekčního tréninku](@/kompendium/recovery-protocols/subacute-detection-training.md),
+a že dokáže snést dočasnou nejistotu, kterou výměna rámců přináší. Herman (1992) popisuje
+tuto nejistotu jako součást obnoveného spojení se světem: přeživší se učí, že svět lze
+vykládat jinak, než ho učil pachatel, a že tento nový výklad není zradou, ale svobodou.
 
 ## 3. Cíle protokolu
 
-1. Obnovení vyšších metakognitivních a hermeneutických funkcí narušených EA.
-2. Rekonstrukce stabilní identitní struktury nezávislé na pachatelových implantátech.
-3. Praktická rehabilitace — vokační, finanční, vzdělávací reintegrace.
-4. Vybudování zdravých interpersonálních vzorců s funkčním detekčním filtrem.
-5. Příprava klienta na dlouhodobou autonomní fázi.
+Cílem je identifikovat hlavní interpretační rámce převzaté z prostředí EA; oddělit je od
+klientova vlastního úsudku tím, že je pojmenuje a vidí jako rámce, ne jako realitu; nacvičit
+tvorbu více alternativních výkladů téže situace; obnovit pohyb hermeneutického kruhu, tedy
+schopnost opravit výklad podle nové zkušenosti; a doplnit pojmy, které klientovi chyběly pro
+popis vlastní zkušenosti.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Komprehenzivní reassessment (měsíc 3–4)**: Re-administrace baseline instrumentů. Identifikace **reziduálních deficitů** vs. nově se objevujících potřeb.
-2. **Metakognitivní trénink (měsíce 4–8)**: Specifický program (např. **Metacognitive Reflection and Insight Therapy** — MERIT). Cíl: obnovení kapacity reflektovat vlastní procesy myšlení.
-3. **Hermeneutický reset (měsíce 4–8)**: Strukturovaná práce s interpretačními rámci — identifikace internalizovaných pachatelových rámců, jejich oddělení, konstrukce vlastního.
-4. **Identitní rekonstrukce (měsíce 4–10)**: Práce s **possible selves** (Markus & Nurius), [narativní identita](@/glossary/narativni-identita.md) (McAdams), values clarification. Postupné budování koherentního self-konceptu.
-5. **Kompetence a vokace (měsíce 6–12)**: Praktický skill-building — finanční gramotnost, profesní rekvalifikace, vzdělávání. Návrat na trh práce nebo studia.
-6. **Reintegrace vztahů (měsíce 6–12)**: Obnovení vztahů s rodinou (kde bezpečné), budování nových vztahů s **detekčním filtrem** — schopnost rozpoznat varovné signály při novém vztahu.
+1. **Katalog rámců** – klient s terapeutem sepíše typické výklady, které používá („když mě
+   někdo chválí, chce něco“, „když se cítím dobře, něco přijde“) a k nim, odkud pocházejí.
+2. **Rámec jako rámec** – u každého rámce se ptá: je to popis světa, nebo jeden z možných
+   pohledů? Kdo z něj měl prospěch?
+3. **Více výkladů** – pro konkrétní situaci se tvoří alespoň tři možné výklady a hledá se,
+   co by je mohlo potvrdit nebo vyvrátit; postup je blízký kognitivní restrukturaci (Beck 1976).
+4. **Ověření v realitě** – klient si vybere výklad a v bezpečné situaci ho ověří (zeptá se,
+   pozoruje, počká).
+5. **Pojmová práce** – psychoedukace pojmy, které klientovi chyběly ([gaslighting](@/glossary/gaslighting.md), donucující
+   kontrola, [traumatické pouto](@/glossary/trauma-bonding.md)), aby mohl vlastní zkušenost popsat; viz [Glosář](@/glossary/_index.md).
+6. **Pluralita rámců** – četba, rozhovory a zkušenosti z prostředí s odlišnými pohledy;
+   navazuje příručka [Paradigmatický pluralismus](@/kompendium/self-defense-guides/6-paradigm-pluralism.md).
+7. **Vlastní rámce** – klient formuluje výklady, které chce používat, a sleduje, jak se mu
+   s nimi žije.
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – rámec se nehýbe.** Pokud klient rámec racionálně odmítá, ale emočně se
+ho nemůže zbavit, práce se přesouvá k emoční vrstvě a k traumatu (viz [Trauma](@/kompendium/recovery-protocols/trauma.md)).
+**Rozhodovací bod B – hermeneutika podezření.** Pokud klient vše vykládá jako manipulaci,
+důraz se přesouvá na rozpoznání bezpečných vztahů a na kalibraci. **Rozhodovací bod C –
+náboženský rámec.** Pokud je převzatý rámec náboženský a klient chce ve víře zůstat,
+rozlišuje se víra od způsobu, jakým ji prostředí vykládalo.
 
-- **Metakognitivní funkce** — Metacognitions Questionnaire (MCQ-30), pokles maladaptivních metakognic o ≥ 40 %.
-- **Identitní integrace** — Self-Concept Clarity Scale (SCC), nárůst o ≥ 1 SD.
-- **Funkční status** — WHODAS 2.0, redukce disability o ≥ 50 %.
-- **Vokační reintegrace** — návrat na práci/studium, ekonomická soběstačnost.
-- **Vztahy** — alespoň 2 stabilní zdravé vztahy bez idealizace-devalvace dynamiky.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se, zda klient dokáže pro běžnou situaci vytvořit více výkladů, zda rozpozná, kdy
+používá rámec prostředí, zda dokáže opravit výklad po nové zkušenosti, zda má slova pro vlastní
+zkušenost a zda klesá intenzita emocí vázaných na staré rámce. Hodnocení je převážně
+kvalitativní; validované normy pro EA neexistují.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Protokol není vhodný, dokud klient nemá stabilizovanou bezpečnost a základní důvěru. Rizikem
+je **nahrazení jednoho rámce druhým** – například přijetí terapeutického slovníku jako nové
+absolutní pravdy („všichni jsou narcisté“). Dalším rizikem je **relativismus**: pokud jsou
+všechny výklady „stejně dobré“, klient ztrácí oporu. Cílem je pluralita s ověřováním, ne
+nekonečná libovůle.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Reziduální akutní symptomatologie (vyžaduje návrat k akutní/subakutní fázi); nezpracované klíčové trauma memory (EMDR/TF-CBT není dokončeno); aktivní suicidalita; aktivní substance use; klient nedosáhl základní funkční stabilizace.
+Muž po čtyřicítce, který osm let patřil ke skupině, jež učila, že každá nemoc je „trest za
+nečisté myšlenky“, si po odchodu všimne, že při každé chřipce prožívá vinu. Racionálně
+skupině nevěří. V katalogu rámců si zapíše: „Když onemocním, udělal jsem něco špatně.“
+Terapeutka s ním vytvoří další výklady: nakazil jsem se v práci; jsem vyčerpaný; je chřipková
+sezóna. Při další nemoci si muž vědomě vybere výklad „jsem vyčerpaný“ a vezme si volno.
+Vina se objeví, ale je slabší. Po půl roce říká, že starý výklad slyší „jako rádio ve vedlejším
+pokoji“ – je tam, ale nemusí ho poslouchat.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Hermeneutické pojmy (Gadamer 1960; Ricoeur 1970) pocházejí z filozofie a jejich klinické
+použití je interpretační, ne empiricky ověřené; protokol je propojuje s kognitivní terapií,
+která oporu má (Beck 1976). Otevřená je otázka, jak pracovat s klienty, kteří vyrostli
+v prostředí EA a jiné rámce nikdy neměli, a jak odlišit obnovu vlastních rámců od přijetí
+rámců terapeuta. Nejasné zůstává i to, jak dlouho staré rámce přetrvávají jako emoční
+reakce poté, co je člověk racionálně opustil, a zda je cílem jejich vymizení, nebo jen ztráta moci.
 
-### Sesterské protokoly
-- [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md)
-- [Středně-dobé obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md)
-- [Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International
+  Universities Press.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford
+  University Press.
+- Gadamer, H.-G. (1960). *Wahrheit und Methode*. Tübingen: J. C. B. Mohr.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Ricoeur, P. (1970). *Freud and Philosophy: An Essay on Interpretation*. New Haven: Yale
+  University Press.
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské a průřezové protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Rámce zotavení](@/kompendium/recovery-protocols/ramce.md) – srovnání tradic, jimiž lze zotavení uspořádat.
+- [Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – hodnocení vlastního myšlení.
+- [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – výklad sebe sama.
+- [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) – první kroky obnovy orientace.
 
----
+**Pojmy**
 
-## Connect & Contribute
+- [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md) – ztráta vlastního výkladu.
+- [Hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md) – přenechání výkladu jiné osobě.
+- [Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) – pohyb porozumění, který se obnovuje.
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – včetně hermeneutické nespravedlnosti.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Teorie a svépomoc**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md) – kapitola o hermeneutice v knize.
+- [Paradigmatický pluralismus](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – svépomocná příručka.

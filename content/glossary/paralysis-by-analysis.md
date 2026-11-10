@@ -14,10 +14,10 @@ difficulty = "intermediate"
 date_created = "2026-05-03"
 date_updated = "2026-05-03"
 importance = "medium"
-related_terms = ["bayesian-reasoning", "uncertainty", "anomaly-detection", "reality-testing"]
+related_terms = ["uncertainty", "anomaly-detection", "reality-testing", "perfekcionismus"]
 keywords = ["paralysis by analysis", "analysis paralysis", "overthinking", "decision fatigue", "satisficing", "Simon", "bounded rationality"]
-key_takeaway = "Paralysis by analysis is the failure mode of optimization seekers in environments where optimization is impossible. The remedy is not better analysis but explicit pre-commitment to *satisficing* heuristics — accepting good-enough rather than chasing best-possible."
-see_also = ["bayesian-reasoning", "uncertainty"]
+key_takeaway = "Paralýza analýzou je typické selhání tam, kde se hledá optimum v prostředí, které optimum neposkytuje. Nápravou není lepší analýza, nýbrž předem vyslovené pravidlo ukončení – přijmout dost dobré řešení místo hledání nejlepšího možného."
+see_also = ["uncertainty"]
 image = "/images/sections/glossary.png"
 image_alt = "Paralysis by analysis (paralýza analýzou) – glosář"
 +++
@@ -26,139 +26,182 @@ image_alt = "Paralysis by analysis (paralýza analýzou) – glosář"
 
 **Paralýza analýzou** (*paralysis by analysis*, také *analysis paralysis*) je rozhodovací
 patologie, při níž člověk nebo tým vynaloží tolik úsilí na shromažďování informací,
-hodnocení možností, modelování důsledků nebo hledání *nejlepšího možného* řešení, že
-k rozhodnutí vůbec nedojde, nebo dojde příliš pozdě, než aby bylo účinné.
+hodnocení možností a modelování důsledků, že k rozhodnutí vůbec nedojde, nebo dojde příliš
+pozdě, aby bylo účinné. Teoretickým rámcem je **omezená racionalita**: skutečný rozhodující
+nemá kapacitu prohledat celý prostor možností a potřebuje pravidlo, které hledání ukončí
+(Simon, 1956).
 
-Vzorec je strukturně odlišný od racionálního zvažování. Racionální zvažování končí, když
-očekávaná mezní hodnota další analýzy klesne pod její cenu; paralýza analýzou tento bod
-ukončení nerozpozná, protože vnímaná vysoká sázka nafukuje hodnotu další analýzy donekonečna.
+Vzorec je proto strukturně odlišný od pečlivého zvažování. Pečlivé zvažování končí, jakmile
+očekávaný přínos další analýzy klesne pod její cenu, kdežto paralýza tento bod nerozpozná,
+protože vnímaná výše sázky hodnotu dalšího zkoumání stále nadhodnocuje (Simon, 1957).
+*Interpretace knihy*: Kompendium pojem užívá ve dvou smyslech, které drží odděleně – jako
+ustálený pojem rozhodovací teorie a organizační praxe, a jako popis stavu, do něhož lze
+člověka přivést zvenčí.
 
 ## Původ a kontext pojmu
 
-Herbert A. Simon (1956, 1957) formalizoval v rámci *omezené racionality* (*bounded
-rationality*) protiklad mezi *maximalizací* (hledání optima) a *satisficingem* (přijetí
-prvního řešení, které překročí práh přijatelnosti). Empirický výzkum Sheeny Iyengarové
-a Marka Leppera (2000) o *přetížení volbou* (*choice overload*) ukázal, že nárůst počtu
-možností může pravděpodobnost rozhodnutí *snížit* – ve známé „studii marmelád“ nakoupil
-z nabídky šesti druhů zhruba desetkrát větší podíl zákazníků než z nabídky dvaceti čtyř.
-Barry Schwartz (*The Paradox of Choice*, 2004) rozlišuje *maximizery* (osobnostní styl
-náchylný k paralýze) a *satisficery* (přijímají pragmaticky). Gerd Gigerenzer a Reinhard
-Selten (2001) chápou jednoduché heuristiky jako adaptivní nástroje, ne jako vadu.
+Herbert A. Simon postavil proti **maximalizaci**, tedy hledání optima, pojem **satisficing**
+– přijetí prvního řešení, které překročí předem stanovený práh přijatelnosti (Simon, 1956).
+Tento krok byl formulován jako popis toho, jak lidé skutečně rozhodují v prostředí, jež
+úplné prohledání neumožňuje, a stal se základem celé navazující tradice (Simon, 1957).
 
-Na pozdější replikace efektu přetížení volbou je dobré pamatovat: jeho síla se mezi studiemi
-liší a závisí na podmínkách (srov. heslo [Replication Crisis](@/glossary/replication-crisis.md)).
+Gerd Gigerenzer a Reinhard Selten na Simona navázali programem, podle něhož jsou jednoduché
+heuristiky adaptivní nástroje přizpůsobené struktuře prostředí, nikoli vady myšlení
+(Gigerenzer a Selten, 2001). Barry Schwartz popsal osobnostní rozdíl mezi maximizery, kteří
+chtějí nejlepší možné, a satisficery, jimž stačí dost dobré, a doložil, že maximizeři jsou
+po rozhodnutí méně spokojeni (Schwartz, 2004). Daniel Kahneman zařadil tyto jevy do
+širšího rámce dvou způsobů zpracování, z nichž pomalý a namáhavý lze snadno zahltit
+(Kahneman, 2011).
+
+Předběžný závazek jako nástroj proti neukončitelnému zvažování rozebral Jon Elster
+v klasické studii o Odysseovi a Sirénách: rozhodnutí o tom, jak budu rozhodovat, se činí
+dřív, než nastane situace, v níž už rozhodnout nelze (Elster, 1979).
+
+## Co o přetížení volbou říká ustálená literatura
+
+Nejcitovanější oporou pojmu je experiment Sheeny Iyengarové a Marka Leppera, podle něhož
+nárůst počtu možností může pravděpodobnost rozhodnutí snížit, nikoli zvýšit (Iyengar a
+Lepper, 2000). Pozdější metaanalýza však průměrný efekt přetížení volbou nenalezla, což
+nálezu odebralo obecnou platnost (Scheibehenne et al., 2010).
+
+Novější přehled efekt neodmítá, ale činí jej podmíněným: objevuje se tam, kde je nabídka
+složitá, preference nevyhraněné a cíl volby nejasný, zatímco jinde mizí (Chernev et al.,
+2015). *Interpretace knihy*: Kompendium proto nepracuje s počtem možností jako s příčinou,
+nýbrž s **chybějícím pravidlem ukončení**, které je společné všem podmínkám, za nichž byl
+efekt pozorován (Simon, 1956). Obecné souvislosti nestabilních nálezů popisuje heslo
+[replication crisis](@/glossary/replication-crisis.md) (Scheibehenne et al., 2010).
 
 ## Jak se projevuje
 
-- opakované „ještě potřebujeme jedno ověření“ bez předem stanoveného kritéria, kdy ověřování
-  skončí;
-- rozšiřování otázky místo jejího zužování (každá odpověď otevře dvě nové otázky);
-- přesouvání termínů a výrazná úleva při každém odkladu;
-- rostoucí detailnost podkladů bez změny navrhovaného závěru;
-- u jednotlivce úzkost a ruminace před rozhodnutím, únava a vyhýbání se tématu.
+Prvním znakem je opakované „ještě potřebujeme jedno ověření“ bez předem stanoveného
+kritéria, kdy ověřování skončí; právě absence takového kritéria je podle teorie omezené
+racionality rozhodujícím rozdílem mezi zvažováním a paralýzou (Simon, 1957). Druhým znakem
+je rozšiřování otázky místo jejího zužování, kdy každá odpověď otevře další dvě, takže
+prohledávaný prostor roste rychleji než poznání (Gigerenzer a Selten, 2001).
 
-V kontextu Prismatic Platform je paralýza analýzou častým antivzorcem zejména:
-(1) v **pracovním postupu due diligence** – analytik nemůže vydat schválení, dokud neověří
-*všechna* zjištění, ale objem signálů je nekonečný; (2) v **architektonických rozhodnutích** –
-výběr databázového adaptéru se vleče měsíce, ačkoli žádná z variant by nezpůsobila katastrofu;
-(3) v **reakci na incidenty** – operátor v pohotovosti váhá mezi rollbackem a opravou vpřed
-tak dlouho, že incident eskaluje.
+Třetím znakem je rostoucí objem a detailnost podkladů bez jakékoli změny navrhovaného
+závěru, tedy analýza, která už nerozlišuje mezi možnostmi (Kahneman, 2011). Čtvrtým je
+přesouvání termínů provázené výraznou úlevou při každém odkladu, což odpovídá popsanému
+vztahu mezi maximalizací a nespokojeností s rozhodnutím (Schwartz, 2004). U jednotlivce se
+přidává úzkost a přemítání před rozhodnutím a vyhýbání se tématu, které je u nesnášenlivosti
+nejistoty popsáno jako jádrový rys (Dugas et al., 1998).
+
+V prostředích, kde je povinností „ověřit vše“ – typicky při [due
+diligence](@/glossary/due-diligence.md) – se vzorec objevuje soustavně, protože objem
+dostupných signálů je prakticky neomezený, zatímco kritérium dostatečnosti bývá nevyslovené
+(Simon, 1957).
 
 ## Mechanismus
 
-Paralýza vzniká, když tři věci působí současně: nejasně ohraničený prostor možností,
-vnímaná vysoká sázka a chybějící pravidlo ukončení. Každá nová informace pak nezmenšuje
-nejistotu, ale zvětšuje prostor, který je třeba prozkoumat. Osobnostně se k tomu přidává
-strach z chyby a [perfekcionismus](@/glossary/perfekcionismus.md); organizačně rozptýlená
-odpovědnost, v níž se za odklad nikdo nezodpovídá.
+Paralýza vzniká souběhem tří podmínek: nejasně ohraničeného prostoru možností, vnímané
+vysoké sázky a chybějícího pravidla ukončení. Každá nová informace pak nejistotu nezmenšuje,
+nýbrž zvětšuje prostor, který je třeba prozkoumat, což je přesně situace, pro niž byl
+satisficing navržen (Simon, 1956). Osobnostně k ní přispívá strach z chyby
+a [perfekcionismus](@/glossary/perfekcionismus.md), organizačně rozptýlená odpovědnost,
+v níž se za odklad nikdo nezodpovídá (Schwartz, 2004).
 
-Pro Kompendium je důležité, že paralýzu lze **navodit zvenčí**. Zahlcení množstvím tvrzení
-([Gish Gallop](@/glossary/gish-gallop.md), [Firehose of
-Falsehood](@/glossary/firehose-of-falsehood.md)), uměle zvyšovaná složitost ([EA-1.2.3
-Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)) nebo vytrvalé
-požadavky na další a další doklady ([sealioning](@/glossary/sealioning.md)) vytvářejí stav,
-v němž oběť nemůže uzavřít úsudek ani jednat. Opačným vzorcem je uměle vyvolaný časový tlak,
-který rozhodnutí naopak uspěchá (viz [detekční signaturu Vytváření časového
-tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)).
+Pro Kompendium je podstatné, že stav lze **navodit zvenčí**. Zahlcení množstvím tvrzení,
+které popisují hesla [Gish Gallop](@/glossary/gish-gallop.md) a [Firehose of
+Falsehood](@/glossary/firehose-of-falsehood.md), pracuje s tím, že vyvracení je nákladnější
+než tvrzení, a zahlcený adresát proto neuzavře úsudek (Paul a Matthews, 2016). Uměle
+zvyšovaná složitost popsaná v kartě [EA-1.2.3 Iluzorní
+komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) a vytrvalé požadavky na
+další doklady, jimž se věnuje heslo [sealioning](@/glossary/sealioning.md), vedou k témuž
+výsledku; opačným vzorcem je uměle vyvolaný časový tlak, který rozhodnutí naopak uspěchá a
+který sleduje detekční signatura [Vytváření časového
+tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) (Kahneman,
+2011).
 
 ## Odlišení
 
-- **Od racionální opatrnosti** – opatrnost má pravidlo ukončení a mění se s novými
-  informacemi; paralýza pravidlo nemá.
-- **Od úzkostných poruch a OCPD** – klinicky se chronická paralýza překrývá s obsedantně
-  kompulzivní poruchou osobnosti (srov. [anankastický režim](@/glossary/anankasticky-rezim.md))
-  a s generalizovanou úzkostnou poruchou, ale ne každý případ je psychopatologií; často jde
-  o kulturně podporovaný vzorec v profesích, které vyžadují [due
-  diligence](@/glossary/due-diligence.md).
-- **Od [rekurzivní paralýzy](@/glossary/rekurzivni-paralyza.md)** – ta se týká sebereflexe,
-  která se zacyklí sama na sobě; paralýza analýzou se týká rozhodování o vnějším problému.
-- **Od depresivní abulie** – u deprese chybí energie a motivace, ne rozhodovací kritérium.
+Od **racionální opatrnosti** se paralýza liší existencí pravidla ukončení: opatrnost
+rozhoduje podle předem vysloveného kritéria a mění se s novými informacemi, paralýza
+kritérium nemá (Simon, 1957). Od **úzkostných poruch a anankastické poruchy osobnosti** se
+liší tím, že nejde o diagnózu, nýbrž o vzorec, který se s nimi může překrývat; nesnášenlivost
+nejistoty je u generalizované úzkostné poruchy popsána jako jádrový mechanismus a vyžaduje
+odborné posouzení (Dugas et al., 1998). Blízký klinický okruh popisuje heslo [anankastický
+režim](@/glossary/anankasticky-rezim.md) (WHO, 2019).
 
-## Význam pro Kompendium
+Od **[rekurzivní paralýzy](@/glossary/rekurzivni-paralyza.md)** se liší předmětem:
+rekurzivní paralýza zacyklí hodnocení vlastního myšlení, paralýza analýzou rozhodování
+o vnějším problému (Simon, 1956). Od **depresivní abulie** se liší tím, že zde nechybí
+energie ani motivace, nýbrž rozhodovací kritérium (Kahneman, 2011). Od **oprávněného
+odkladu** se liší svou nezávislostí na obsahu: oprávněný odklad čeká na konkrétní, předem
+pojmenovaný údaj (Gigerenzer a Selten, 2001).
 
-Platforma řeší paralýzu dvoufázovým modelem [NABLA Infinity](@/glossary/nabla-infinity.md)
-a [doktríny NM/ND](@/glossary/nm-nd.md): fáze zkoumání má výslovný práh, po jehož dosažení
-se přechází k exekuci. Pilíř M5M (*Max 5 Minutes*) je institucionalizovanou obranou: žádné
-rozhodnutí nemá trvat déle než pět minut bez výslovné eskalace. V knize pojem vysvětluje,
-proč oběti dlouhodobé manipulace často „nemohou odejít“, i když vědí, že by měly – nejde
-o nedostatek informací, ale o rozložené pravidlo ukončení úsudku.
+## Klinický, organizační a etický rámec
+
+Klinicky je rozhodující odlišit vnější zdroj zahlcení od vnitřní úzkosti, protože postupy se
+liší: u nesnášenlivosti nejistoty se pracuje s tolerancí nejistoty jako s dovedností, kterou
+lze nacvičit (Dugas et al., 1998). Odpovídající postoj popisuje heslo [epistemická
+pokora](@/glossary/epistemicka-pokora.md) jako kalibrovanou, ne nulovou jistotu (Schwartz,
+2004).
+
+Organizačně se pravidlo ukončení obvykle formuluje jako předběžný závazek: kritérium
+rozhodnutí se vysloví dříve, než se rozhoduje, takže v okamžiku volby už není co vyjednávat
+(Elster, 1979). V knize mu odpovídá výslovný přechod od zkoumání k závěru popsaný v hesle
+[NM/ND](@/glossary/nm-nd.md), v epistemické pipeline [NABLA
+Infinity](@/glossary/nabla-infinity.md) a funkce, která analýzu omezuje na relevantní
+signály, popsaná v hesle [reality testing](@/glossary/reality-testing.md) – to jsou
+*interpretace knihy*, ne nálezy rozhodovací teorie (Simon, 1957).
+
+Eticky je třeba vyhnout se opačnému extrému. Zrychlené rozhodování bez prověření je
+v prostředích s vysokou sázkou samostatným rizikem, a pravidlo ukončení se proto stanovuje
+podle závažnosti následků, ne podle pohodlí rozhodujícího (Gigerenzer a Selten, 2001).
 
 ## Obrana a zotavení
 
-Praktické postupy z původní verze hesla:
+Pro jednotlivce je obranou vyslovit předem, co bude „dost dobré“, a rozhodnutí přijmout jako
+revidovatelné, tedy přejít od maximalizace k satisficingu (Simon, 1956). Pomáhá také omezit
+počet souběžně zvažovaných možností, neboť právě složitá a nevyhraněná volba je podmínkou,
+za níž byl efekt přetížení pozorován (Chernev et al., 2015).
 
-1. **Časově ohraničený přezkum DD** – každá zpráva due diligence má pevný termín pro
-   zveřejnění prvních zjištění (typicky pět pracovních dní); další úpravy probíhají
-   v následných iteracích, ne nekonečným odkládáním první verze.
-2. **Záznamy architektonických rozhodnutí** (*Architecture Decision Records*, ADR) – nový
-   technický návrh má dvoutýdenní okno na diskusi, po němž vedení vynutí rozhodnutí: přijmout,
-   odmítnout, nebo odložit s výslovným termínem.
-3. **Runbook pro reakci na incidenty** – rozhodovací stromy s předem stanovenými body větvení
-   odstraňují potřebu zvažování ve stresu; operátor postupuje podle runbooku, ne podle intuice.
-4. **Předběžný závazek** – *Odysseova smlouva*: zavázat se k rozhodnutí podle předem
-   stanoveného kritéria (např. „je-li cena vyšší než X, nezvažuji“), čímž odpadne možnost
-   donekonečného zvažování.
+Je-li paralýza navozena zvenčí, je prvním krokem pojmenovat vzorec – požadavky na další
+důkazy nemají konec – a přestat rozhodovat podle pravidel, která skončit neumožňují (Paul
+a Matthews, 2016). Rozhodnutí probrané s člověkem mimo vliv toho, kdo zahlcení vytváří, vrací
+chybějící vnější kotvu (Schwartz, 2004).
 
-Pro jednotlivce: stanovit si předem, co bude „dost dobré“ (*satisficing threshold*), omezit
-počet možností, ohraničit čas a rozhodnutí probrat s důvěryhodnou osobou mimo vliv toho, kdo
-zahlcení vytváří. Je-li paralýza navozena manipulací, je prvním krokem pojmenovat vzorec
-(„požadavky na další důkazy nemají konec“) a přestat hrát podle pravidel, která neumožňují
-skončit. Pro terapeuta: odlišit vnější zdroj zahlcení od vnitřní úzkosti a pracovat
-s tolerancí nejistoty (srov. [epistemická pokora](@/glossary/epistemicka-pokora.md)).
+## Meze a kritika pojmu
+
+Pojem je spíš popisem selhání než vysvětlením jeho příčiny: označuje, že pravidlo ukončení
+chybí, ale neříká, proč chybí právě zde (Simon, 1957). Jeho empirické jádro je navíc
+slabší, než se běžně uvádí, protože nejznámější experimentální opora se v souhrnu studií
+nepotvrdila (Scheibehenne et al., 2010).
+
+Riziko užití je dvojí. Nálepkou „paralýza analýzou“ lze delegitimizovat oprávněnou námitku
+a vynutit rychlé rozhodnutí, a naopak lze pod jménem důkladnosti odkládat rozhodnutí
+nepohodlné (Kahneman, 2011). Otevřenou otázkou zůstává, jak pravidlo ukončení formulovat
+tam, kde závažnost následků není předem známa (Gigerenzer a Selten, 2001).
 
 ## Literatura
 
-- Herbert A. Simon: *Models of Man: Social and Rational* (Wiley, 1957).
-- Sheena S. Iyengar, Mark R. Lepper: „When Choice is Demotivating“, *Journal of Personality
-  and Social Psychology* (2000).
-- Barry Schwartz: *The Paradox of Choice: Why More Is Less* (Harper, 2004).
-- Daniel Kahneman: *Thinking, Fast and Slow* (Farrar, Straus and Giroux, 2011).
-- Gerd Gigerenzer, Reinhard Selten (eds.): *Bounded Rationality: The Adaptive Toolbox* (MIT
-  Press, 2001).
+- Chernev, A., Böckenholt, U., & Goodman, J. (2015). *Choice overload: A conceptual review and meta-analysis*. Journal of Consumer Psychology.
+- Dugas, M. J., Gagnon, F., Ladouceur, R., & Freeston, M. H. (1998). *Generalized anxiety disorder: A preliminary test of a conceptual model*. Behaviour Research and Therapy.
+- Elster, J. (1979). *Ulysses and the Sirens*. Cambridge University Press.
+- Gigerenzer, G., & Selten, R. (Eds.) (2001). *Bounded Rationality: The Adaptive Toolbox*. MIT Press.
+- Iyengar, S. S., & Lepper, M. R. (2000). *When choice is demotivating*. Journal of Personality and Social Psychology.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- Paul, C., & Matthews, M. (2016). *The Russian "Firehose of Falsehood" Propaganda Model*. RAND Corporation.
+- Scheibehenne, B., Greifeneder, R., & Todd, P. M. (2010). *Can there ever be too many options? A meta-analytic review of choice overload*. Journal of Consumer Research.
+- Schwartz, B. (2004). *The Paradox of Choice: Why More Is Less*. Harper.
+- Simon, H. A. (1956). *Rational choice and the structure of the environment*. Psychological Review.
+- Simon, H. A. (1957). *Models of Man: Social and Rational*. Wiley.
+- WHO (2019). *International Classification of Diseases, 11th Revision (ICD-11)*.
 
 ## Související
 
 **Pojmy**
 
-- [Reality Testing](@/glossary/reality-testing.md) – funkce, která omezuje analýzu na
-  relevantní signály.
+- [Reality testing](@/glossary/reality-testing.md) – funkce, která omezuje analýzu na relevantní signály.
 - [Perfekcionismus](@/glossary/perfekcionismus.md) – osobnostní zdroj nekonečného zvažování.
 - [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – zacyklená sebereflexe.
 - [Gish Gallop](@/glossary/gish-gallop.md) – zahlcení, které paralýzu vyvolává zvenčí.
-- [NM/ND](@/glossary/nm-nd.md) – výslovný přechod od zkoumání k exekuci.
-
-**Hesla platformy mimo tuto knihu**
-
-- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) –
-  dává kritérium ukončení (kdy je apriorní odhad dost aktualizovaný).
-- [Uncertainty](https://prismatic-reality-com.github.io/prismatic-promo/glossary/uncertainty/) –
-  podloží rozhodovací patologie.
-- [Anomaly Detection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/anomaly-detection/) –
-  provozní kontext, kde jsou nutná rychlá rozhodnutí.
+- [Sealioning](@/glossary/sealioning.md) – vytrvalé požadavky na další doklady.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – kalibrovaná jistota místo úplné.
+- [NM/ND](@/glossary/nm-nd.md) – výslovný přechod od zkoumání k závěru.
 
 **Kniha**
 
-- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) –
-  technika, která paralýzu navozuje.
-- [Detekční signatura: Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) –
-  opačný vzorec uspěchaného rozhodnutí.
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – vzorec, který paralýzu navozuje.
+- [Detekční signatura: Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) – opačný vzorec uspěchaného rozhodnutí.
+- [Due diligence](@/glossary/due-diligence.md) – prostředí s neomezeným objemem signálů.

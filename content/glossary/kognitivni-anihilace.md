@@ -2,7 +2,7 @@
 title = "Kognitivní anihilace"
 weight = 60
 
-description = "Systematická destrukce kognitivních procesů a funkcí vedoucí k narušení schopnosti zpracovávat informace, realizovat mentální operace a využívat kognitivní kapacity pro adaptivní fungování."
+description = "Systematické ničení kognitivních procesů – pozornosti, paměti, výkonných funkcí a rozhodování – které narušuje schopnost zpracovávat informace a adaptivně fungovat."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "kompendium", "kognitivni"]
@@ -11,58 +11,101 @@ tags = ["glossary", "epistemic", "kompendium", "kognitivni"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "metakognitivni-destrukce", "anankasticky-rezim", "kognitivni-anti-rekurzivita", "taxonomie-ea"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "3 min"
-word_count = 580
+reading_time = "4 min"
+word_count = 878
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["kognitivní anihilace", "cognitive annihilation", "kognitivní destrukce", "kompendium"]
 quality_score = 86
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Kognitivní anihilace - glossary"
+image_alt = "Kognitivní anihilace – glosář"
 +++
 
-## Definition
+## Definice
 
-**Kognitivní anihilace** (cognitive annihilation) denotes the systematic destruction of cognitive processes and functions, leading to fundamental disruption of an individual's capacity to process information, perform mental operations, and use cognitive capacities for adaptive functioning in the world. While [epistemická anihilace](@/glossary/epistemicka-anihilace.md) primarily targets cognitive structures in the **epistemological** sense (the architecture of belief formation, justification, and revision), cognitive annihilation targets a **broader spectrum** of mental processes: attention, memory, executive functions, decision-making, and metacognitive capacities.
+**Kognitivní anihilace** (*cognitive annihilation*) označuje systematické ničení kognitivních procesů a funkcí, které vede k zásadnímu narušení schopnosti člověka zpracovávat informace, provádět mentální operace a využívat kognitivní kapacity k adaptivnímu fungování ve světě. Zatímco [epistemická anihilace](@/glossary/epistemicka-anihilace.md) míří především na kognitivní struktury v **epistemologickém** smyslu (architekturu vytváření, zdůvodňování a revize přesvědčení), kognitivní anihilace zasahuje **širší spektrum** duševních procesů: pozornost, paměť, výkonné funkce, rozhodování a metakognitivní kapacity.
 
-Five definitional features characterize cognitive annihilation:
+Kognitivní anihilaci charakterizuje pět definičních znaků:
 
-| Feature | Content |
+| znak | obsah |
 |---------|---------|
-| **Multidomain disruption** | Multiple cognitive domains affected simultaneously, not isolated functions |
-| **Progressive deterioration** | Gradual decline with tendency toward acceleration in advanced stages |
-| **Functional disconnectivity** | Disruption of integration and coordination between cognitive subsystems |
-| **Metacognitive deficit** | Impairment of the capacity to monitor, evaluate, and regulate one's own processes |
-| **Structural regression** | Return to more primitive, less differentiated forms of cognitive functioning |
+| **víceoblastní narušení** | současně je zasaženo více kognitivních oblastí, ne izolované funkce |
+| **postupné zhoršování** | pozvolný úpadek se sklonem ke zrychlení v pokročilých stadiích |
+| **funkční rozpojení** | narušení integrace a koordinace mezi kognitivními subsystémy |
+| **[metakognitivní deficit](@/glossary/metakognitivni-deficit.md)** | oslabení schopnosti sledovat, hodnotit a regulovat vlastní procesy |
+| **strukturní regrese** | návrat k primitivnějším, méně diferencovaným formám kognitivního fungování |
 
-The full Czech-language definition with diagnostic criteria is at [/kompendium/02-uvod/definice/](@/kompendium/02-uvod/definice.md).
+Úplná definice s diagnostickými kritérii je v kapitole [Definice](@/kompendium/02-uvod/definice.md).
 
-## Context
+## Původ a kontext pojmu
 
-Cognitive and epistemic annihilation are **closely related but distinct** phenomena that frequently co-occur and mutually potentiate:
+Pojem je pracovním termínem Kompendia, který doplňuje epistemickou anihilaci o rovinu kognitivních funkcí. Opírá se o neuropsychologii (rozlišení pozornosti, paměti a výkonných funkcí), o výzkum účinků chronického stresu a traumatu na kognici a o historické popisy prostředí, v nichž byli lidé dlouhodobě vystaveni nedostatku spánku, izolaci a zahlcení – od reformy myšlení popsané Liftonem (1961) po současné výpovědi lidí odcházejících ze skupin s vysokou kontrolou. Kniha netvrdí, že jde o samostatnou diagnózu; jde o popis vzorce, který je třeba odlišit od klinických stavů.
 
-- **Causal relationship** — Cognitive annihilation predisposes to epistemic annihilation by damaging the foundational capacities required for epistemic functioning. Epistemic annihilation, in turn, facilitates cognitive annihilation by destroying the structural framework that gives cognitive operations their orientation and coherence.
-- **Phenomenological distinctiveness** — Cognitive annihilation manifests primarily as impairment of specific mental functions; epistemic annihilation manifests as disintegration of the subject's relationship to knowledge as such.
-- **Therapeutic implications** — Interventions targeting cognitive annihilation focus on restoring specific functions; epistemic annihilation requires more fundamental reconstruction of epistemic capacities.
+## Jak se projevuje
 
-In clinical practice, differential diagnosis must distinguish cognitive annihilation from organically caused dementia (which has different etiology and trajectory), psychotic disintegration (primarily endogenous rather than externally induced), and reversible cognitive fatigue. The defining marker is **systemic induction** — cognitive annihilation typically emerges from sustained external pressure rather than from intrinsic neurological or psychological pathology, though the two can intersect.
+- **pozornost:** neschopnost udržet soustředění, roztěkanost, únava po krátkém čtení;
+- **paměť:** mezery, nejistota v pořadí událostí, obtížné vybavování i dobře známých věcí;
+- **výkonné funkce:** potíže s plánováním, s rozhodováním mezi možnostmi, s dokončením úkolu;
+- **myšlení:** [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md), [kognitivní zploštění](@/glossary/kognitivni-zplosteni.md), zjednodušování na černobílé kategorie;
+- **[metakognice](@/glossary/metakognice.md):** člověk si zhoršení neuvědomuje, nebo je přičítá vlastní „slabosti“;
+- v akutní podobě [akutní kognitivní ochromení](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md).
 
-Within the [Kompendium](@/kompendium/_index.md), cognitive annihilation appears as a **co-target** in many of the more advanced techniques (Sekce 04 and 05) — particularly those that combine epistemic manipulation with prolonged sleep deprivation, sensory manipulation, or sustained cognitive overload.
+### Obecný příklad
 
-## See Also
+*Anonymizovaná, obecná ilustrace; nejde o konkrétní případ.*
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — The companion concept targeting epistemic structures
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Specific impairment of self-reflective awareness
-- [Anankastický režim](@/glossary/anankasticky-rezim.md) — Rigidification as a cognitive annihilation marker
-- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — Disruption of meta-cognitive recursion
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+Muž středního věku odchází po několika letech z uzavřené skupiny, kde spal pět hodin denně, trávil dlouhé hodiny na shromážděních a neměl přístup ke zprávám. Po odchodu nedokáže přečíst delší článek, zapomíná schůzky, nedokáže se rozhodnout mezi dvěma nabídkami práce a popisuje „mlhu v hlavě“. Neuropsychologické vyšetření ukáže oslabení pozornosti a pracovní paměti bez organické příčiny. Během několika měsíců pravidelného spánku, omezení podnětů a postupného návratu k jednoduché práci se výkon zlepšuje; otázky smyslu a víry přicházejí na řadu až potom.
 
----
+## Mechanismus
 
-## Connect & Contribute
+Kognitivní a epistemická anihilace jsou **úzce příbuzné, ale odlišné** jevy, které se často vyskytují současně a navzájem se posilují:
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+- **příčinný vztah** – kognitivní anihilace předurčuje k epistemické anihilaci tím, že poškozuje základní kapacity, které epistemické fungování vyžaduje. Epistemická anihilace naopak usnadňuje kognitivní anihilaci tím, že ničí strukturní rámec, který kognitivním operacím dává směr a soudržnost;
+- **fenomenologická odlišnost** – kognitivní anihilace se projevuje hlavně narušením konkrétních duševních funkcí; epistemická anihilace rozpadem vztahu člověka k poznání jako takovému;
+- **terapeutické důsledky** – zásahy proti kognitivní anihilaci se soustředí na obnovu konkrétních funkcí; epistemická anihilace vyžaduje hlubší rekonstrukci epistemických kapacit.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+V [Kompendiu](@/kompendium/_index.md) se kognitivní anihilace objevuje jako **souběžný cíl** mnoha pokročilejších technik (sekce [04 Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) a [05 Ultramarínové techniky](@/kompendium/05-ultramari-techniky/_index.md)) – zejména těch, které spojují epistemickou manipulaci s dlouhodobým nedostatkem spánku, smyslovou manipulací nebo trvalým kognitivním přetížením ([EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md), [EA-5.5.18 Cirkadiánní disrupce](@/kompendium/techniques/ea-5-5-18-cirkadianni-disrupce.md)). Tyto popisy slouží k rozpoznání prostředí, ne k jeho napodobení.
+
+## Odlišení
+
+V klinické praxi musí diferenciální diagnostika odlišit kognitivní anihilaci od:
+
+- **organicky podmíněné demence** – s jinou etiologií a průběhem;
+- **psychotické dezintegrace** – primárně endogenní, nikoli zvenčí navozené;
+- **vratné kognitivní únavy** – vyčerpání, nedostatek spánku, akutní stres bez manipulativního kontextu;
+- **deprese a úzkostných poruch**, které kognici výrazně zhoršují;
+- **následků užívání návykových látek** a somatických onemocnění.
+
+Rozhodujícím znakem je **systémové navození** – kognitivní anihilace obvykle vzniká z dlouhodobého vnějšího tlaku, ne z vnitřní neurologické nebo psychické patologie, i když se obojí může protínat. Postup popisují [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) a [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md); objektivní obraz dá [neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md).
+
+## Význam pro Kompendium
+
+Pojem umožňuje oddělit dvě otázky, které se v praxi slévají: *jak dobře člověk myslí* a *jak se vztahuje k poznání*. Člověk po odchodu z kontrolujícího prostředí může mít neporušené epistemické postoje, ale vyčerpanou pozornost a paměť – nebo naopak. Plán zotavení se podle toho liší. Pro forenzní posouzení je pojem důležitý, protože kognitivní poškození vysvětluje nesouvislost výpovědi, aniž by snižovalo její věrohodnost ([posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md)).
+
+## Obrana a zotavení
+
+**Pro dotčeného:** nejprve základní podmínky – spánek, jídlo, bezpečí, omezení podnětů ([akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)); řízení kognitivní zátěže ([řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md)); jednoduché každodenní struktury a postupné vracení náročnějších činností.
+
+**Pro profesionála:** stabilizace před terapií obsahu; ukotvení ([akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)); obnova dovedností ([obnova dovedností](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md)); opakované měření, aby bylo vidět zlepšení i jeho absence; a odlišení od organické příčiny, která vyžaduje jinou léčbu.
+
+## Literatura
+
+- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
+- Judith Lewis Herman: *Trauma and Recovery* (1992).
+
+## Související
+
+**Pojmy**
+
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – doprovodný pojem zaměřený na epistemické struktury.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – specifické poškození sebereflexivního vědomí.
+- [Anankastický režim](@/glossary/anankasticky-rezim.md) – rigidizace jako znak kognitivní anihilace.
+- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – narušení metakognitivní rekurze.
+- [Kognitivní zploštění](@/glossary/kognitivni-zplosteni.md) – zjednodušení myšlení jako projev.
+
+**Kniha**
+
+- [Definice](@/kompendium/02-uvod/definice.md) – úplná definice s diagnostickými kritérii.
+- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – odlišení od klinických stavů.
+- [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) – první krok zotavení.

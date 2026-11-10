@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 |------|---------|
 | **EA kód** | `EA-1.3.3` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.3 Narušení procesů revize a falsifikace |
+| **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Středně vysoká — pervazivní v debatách, peer review, klinických rozhovorech |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána |
@@ -222,8 +222,8 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 
 ### Eskaluje do
 
-- **Kolektivní tematická diverze** — strukturální delegitimizace pole skrze opakovanou diverzi od kritických otázek.
-- **EA-1.6.1 Vzorec „Guru a adept“** — guru kontroluje **trajektorii** diskusí, systematicky odsouvá kritické otázky.
+- **Kolektivní tematická diverze** — strukturální [delegitimizace](@/glossary/delegitimizace.md) pole skrze opakovanou diverzi od kritických otázek.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru kontroluje **trajektorii** diskusí, systematicky odsouvá kritické otázky.
 
 ### Hraniční / podobné
 
@@ -232,7 +232,7 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine audit log** — explicitní záznam **každé** otázky v decision pipeline; unaddressed otázky jsou strukturálně tracked.
+- **[Decision Engine](@/glossary/decision-engine.md) audit log** — explicitní záznam **každé** otázky v decision pipeline; unaddressed otázky jsou strukturálně tracked.
 - **NABLA Infinity provenance tracking** — každé tvrzení má **explicit context lineage**; tematická diverze je detekovatelná jako **discontinuity** v lineage.
 - **OSINT investigation pipeline** — pre-defined investigation queries strukturálně chrání proti scope creep.
 

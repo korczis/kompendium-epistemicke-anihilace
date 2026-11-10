@@ -1,60 +1,62 @@
 +++
-title = "Inference"
+title = "Inference (inference modelu AI)"
 weight = 36
-description = "Executing a trained AI model to generate predictions or outputs"
+description = "Spuštění natrénovaného modelu umělé inteligence, které z nových vstupů vytváří výstupy; na platformě Prismatic lokální inference přes Ollama. Odlišení od inference jako usuzování."
 
 [taxonomies]
-tags = ["glossary", "technology", "inference", "prismatic"]
+tags = ["glossary", "technology", "inference", "prismatic", "AI"]
 
 [extra]
 category = "technology"
 related_terms = ["ollama", "beam", "telemetry", "observability", "rate-limiting", "backpressure"]
 author = "Tomas Korcak (korczis)"
-reading_time = "4 min"
-word_count = 783
+reading_time = "8 min"
+word_count = 1587
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Inference", "Executing", "glossary", "technology", "Prismatic Platform", "README", "Cache"]
 quality_score = 67
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Inference - Prismatic Platform"
+image_alt = "Inference – platforma Prismatic"
 +++
 
-## Definition
+## Definice
 
-Inference is the computational process of executing a trained artificial intelligence model to produce outputs (predictions, classifications, text generations, or decisions) from new, previously unseen inputs. Unlike training, which adjusts model parameters by iterating over datasets to minimize a loss function, inference applies the fixed, learned parameters to transform inputs into outputs in a single forward pass through the model's neural network architecture. In production systems, inference encompasses the complete pipeline: input preprocessing and tokenization, tensor construction, forward propagation through the model's layers, output sampling or decoding, and post-processing of results into application-consumable formats.
+**Inference** je výpočetní proces, při němž se spouští natrénovaný model umělé inteligence, aby z nových, dosud neviděných vstupů vytvořil výstupy (předpovědi, klasifikace, generovaný text nebo rozhodnutí). Na rozdíl od tréninku, který upravuje parametry modelu opakovaným průchodem daty s cílem minimalizovat ztrátovou funkci, inference používá pevné naučené parametry a převádí vstupy na výstupy dopředným průchodem neuronovou sítí modelu. V produkčních systémech zahrnuje inference celou pipeline: předzpracování vstupu a tokenizaci, sestavení tenzorů, dopředné šíření vrstvami modelu, vzorkování či dekódování výstupu a dodatečné zpracování výsledků do formátu, se kterým pracuje aplikace.
 
-Inference performance is characterized by three primary dimensions: latency (time-to-first-token and time-to-completion for generative models, or total response time for classification models), throughput (tokens per second or requests per second the system can sustain), and resource efficiency (memory consumption, GPU/CPU utilization, and energy cost per inference). These dimensions exist in tension -- optimizing for throughput through batching increases individual request latency, while minimizing latency through dedicated resources reduces throughput and increases cost. Production inference systems must navigate these tradeoffs based on application requirements, with interactive applications prioritizing latency and batch processing pipelines prioritizing throughput.
+Výkon inference charakterizují tři hlavní rozměry: **latence** (doba do prvního tokenu a doba do dokončení u generativních modelů, celková doba odpovědi u klasifikačních modelů), **propustnost** (tokeny nebo požadavky za sekundu, které systém udrží) a **efektivita využití prostředků** (spotřeba paměti, využití GPU/CPU a energie na jednu inferenci). Tyto rozměry jsou v napětí – optimalizace propustnosti dávkováním zvyšuje latenci jednotlivých požadavků, minimalizace latence vyhrazenými prostředky snižuje propustnost a zvyšuje cenu. Produkční systémy musí mezi nimi volit podle požadavků aplikace: interaktivní aplikace upřednostňují latenci, dávkové pipeline propustnost.
 
-The distinction between training and inference has profound implications for system architecture. Training is a batch process requiring massive computational resources for hours or days, producing a model artifact. Inference is a real-time service requiring sustained, low-latency processing for the operational lifetime of the application. This difference means that training infrastructure (GPU clusters, distributed data pipelines) and inference infrastructure (serving frameworks, load balancers, model caches) are fundamentally different systems optimized for different workloads.
+Rozdíl mezi tréninkem a inferencí má zásadní důsledky pro architekturu. Trénink je dávkový proces, který hodiny či dny vyžaduje obrovské výpočetní prostředky a vytváří artefakt modelu. Inference je služba v reálném čase, která po celou dobu provozu aplikace vyžaduje trvalé zpracování s nízkou latencí. Proto jsou tréninková infrastruktura (clustery GPU, distribuované datové pipeline) a inferenční infrastruktura (obslužné frameworky, vyvažovače zátěže, cache modelů) zásadně odlišné systémy optimalizované pro odlišné úlohy.
 
-## Overview
+**Pozor na dvojznačnost:** v logice a epistemologii znamená *inference* odvozování závěru z premis (usuzování). Toto heslo popisuje technický význam z oblasti strojového učení; epistemickým významem se v knize zabývají například [EA-4.3.4 Přerušení inferenčního řetězce](@/kompendium/techniques/ea-4-3-4-inferential-chain-breakage.md), [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) a [Brandom: inferenční sémantika](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md).
 
-The inference landscape has evolved rapidly with the proliferation of Large Language Models (LLMs) and the emergence of local inference runtimes. Where inference previously required cloud GPU instances costing thousands of dollars per month, modern quantization techniques and optimized runtimes enable 7B-20B parameter models to run on consumer hardware with acceptable latency. This democratization of inference capability enables platforms to maintain AI functionality with reduced cloud dependency, improved data privacy, and predictable cost profiles.
+## Přehled
 
-### Inference Pipeline Stages
+Prostředí inference se rychle proměnilo s rozšířením velkých jazykových modelů (LLM) a nástupem lokálních běhových prostředí. Kde dříve inference vyžadovala cloudové instance GPU za tisíce dolarů měsíčně, umožňují dnes techniky kvantizace a optimalizovaná běhová prostředí provozovat modely se 7–20 miliardami parametrů na běžném hardwaru s přijatelnou latencí. Toto zpřístupnění dovoluje platformám udržet funkce AI s menší závislostí na cloudu, lepší ochranou dat a předvídatelnými náklady.
 
-| Stage | Description | Typical Latency | Optimization |
+### Fáze inferenční pipeline
+
+| fáze | popis | typická latence | optimalizace |
 |-------|-------------|-----------------|--------------|
-| **Preprocessing** | Input validation, tokenization, embedding lookup | 1-5ms | Token caching, batch tokenization |
-| **Prefill** | Processing all input tokens through attention layers | 50-500ms | FlashAttention, tensor parallelism |
-| **Generation** | Auto-regressive token generation (LLMs) | 20-100ms/token | KV-cache, speculative decoding |
-| **Postprocessing** | Token decoding, output formatting, validation | 1-5ms | Streaming output, early stopping |
+| **předzpracování** | validace vstupu, tokenizace, vyhledání embeddingů | 1–5 ms | cache tokenů, dávková tokenizace |
+| **prefill** | zpracování všech vstupních tokenů vrstvami attention | 50–500 ms | FlashAttention, tenzorový paralelismus |
+| **generování** | autoregresivní generování tokenů (LLM) | 20–100 ms/token | KV-cache, spekulativní dekódování |
+| **dodatečné zpracování** | dekódování tokenů, formátování a validace výstupu | 1–5 ms | streamování výstupu, předčasné ukončení |
 
-### Model Optimization Techniques
+### Techniky optimalizace modelu
 
-| Technique | Memory Reduction | Speed Impact | Quality Impact |
+| technika | úspora paměti | vliv na rychlost | vliv na kvalitu |
 |-----------|------------------|--------------|----------------|
-| **FP16** | 50% vs FP32 | 1.5-2x faster | Negligible |
-| **INT8 Quantization** | 75% vs FP32 | 2-3x faster | Minor (< 1% perplexity) |
-| **INT4 Quantization (GPTQ/AWQ)** | 87.5% vs FP32 | 3-4x faster | Moderate (1-3% perplexity) |
-| **GGUF (llama.cpp)** | Variable (Q4_K_M typical) | CPU-optimized | Varies by quant level |
-| **Speculative Decoding** | None | 2-3x faster generation | Lossless |
-| **KV-Cache** | Increases memory | Required for generation | Lossless |
-| **Continuous Batching** | None | 2-5x throughput | Lossless |
+| **FP16** | 50 % oproti FP32 | 1,5–2× rychlejší | zanedbatelný |
+| **kvantizace INT8** | 75 % oproti FP32 | 2–3× rychlejší | malý (< 1 % perplexity) |
+| **kvantizace INT4 (GPTQ/AWQ)** | 87,5 % oproti FP32 | 3–4× rychlejší | střední (1–3 % perplexity) |
+| **GGUF (llama.cpp)** | proměnlivá (typicky Q4_K_M) | optimalizováno pro CPU | podle úrovně kvantizace |
+| **spekulativní dekódování** | žádná | 2–3× rychlejší generování | bezztrátové |
+| **KV-cache** | paměť zvyšuje | nutná pro generování | bezztrátová |
+| **průběžné dávkování** | žádná | 2–5× vyšší propustnost | bezztrátové |
 
-### Inference Architectures
+### Architektury inference
 
 ```
                     +-----------------------+
@@ -74,41 +76,43 @@ The inference landscape has evolved rapidly with the proliferation of Large Lang
      +----------------+  +--------------+  +---------------+
 ```
 
-## Technical Details
+## Technické podrobnosti
 
-### Tokenization and Input Processing
+### Tokenizace a zpracování vstupu
 
-Inference begins with converting raw input into the model's expected format. For LLMs, this means tokenization -- mapping text strings to integer token IDs using the model's vocabulary:
+Inference začíná převodem surového vstupu do formátu, který model očekává. U LLM jde o tokenizaci – převod textových řetězců na celočíselná ID tokenů podle slovníku modelu:
 
-| Tokenizer | Vocabulary Size | Avg Tokens/Word | Used By |
+| tokenizér | velikost slovníku | průměr tokenů na slovo | používají |
 |-----------|----------------|-----------------|---------|
-| **BPE (Byte Pair Encoding)** | 32K-100K | 1.3-1.5 | GPT, Llama |
-| **SentencePiece** | 32K-64K | 1.2-1.4 | T5, Gemma |
-| **WordPiece** | 30K-50K | 1.4-1.6 | BERT |
-| **Tiktoken** | 100K+ | 1.1-1.3 | Claude, GPT-4 |
+| **BPE (Byte Pair Encoding)** | 32K–100K | 1,3–1,5 | GPT, Llama |
+| **SentencePiece** | 32K–64K | 1,2–1,4 | T5, Gemma |
+| **WordPiece** | 30K–50K | 1,4–1,6 | BERT |
+| **Tiktoken** | 100K+ | 1,1–1,3 | GPT-4 (OpenAI) |
 
-### KV-Cache Management
+Hodnoty tokenů na slovo platí orientačně pro angličtinu; u češtiny bývají vyšší.
 
-During auto-regressive generation, each new token attends to all previous tokens. Without caching, this requires recomputing attention for the entire sequence at every step (O(n^2) complexity). The KV-cache stores intermediate key-value attention states, reducing per-token generation to O(n) by reusing cached computations:
+### Správa KV-cache
 
-| Sequence Length | Without KV-Cache | With KV-Cache | Memory Cost (7B FP16) |
+Při autoregresivním generování věnuje každý nový token pozornost všem předchozím tokenům. Bez cache by bylo nutné v každém kroku znovu spočítat attention pro celou sekvenci (složitost O(n²)). KV-cache ukládá mezivýsledky klíčů a hodnot attention a opětovným použitím snižuje generování jednoho tokenu na O(n):
+
+| délka sekvence | bez KV-cache | s KV-cache | paměťová cena (7B FP16) |
 |-----------------|------------------|---------------|----------------------|
-| 512 tokens | 512 forward passes | 1 forward pass + 511 cached | ~500MB |
-| 2048 tokens | 2048 forward passes | 1 forward pass + 2047 cached | ~2GB |
-| 8192 tokens | 8192 forward passes | 1 forward pass + 8191 cached | ~8GB |
+| 512 tokenů | 512 dopředných průchodů | 1 průchod + 511 z cache | ~500 MB |
+| 2048 tokenů | 2048 dopředných průchodů | 1 průchod + 2047 z cache | ~2 GB |
+| 8192 tokenů | 8192 dopředných průchodů | 1 průchod + 8191 z cache | ~8 GB |
 
-### Batching Strategies
+### Strategie dávkování
 
-| Strategy | Description | Latency | Throughput | Use Case |
+| strategie | popis | latence | propustnost | použití |
 |----------|-------------|---------|------------|----------|
-| **No batching** | One request at a time | Lowest | Lowest | Interactive, single-user |
-| **Static batching** | Fixed batch size, wait for batch fill | Higher | Medium | Batch processing |
-| **Continuous batching** | Dynamic insertion/completion | Medium | Highest | Production serving |
-| **Speculative batching** | Draft model generates, main model verifies | Low | High | Latency-sensitive generation |
+| **bez dávkování** | jeden požadavek najednou | nejnižší | nejnižší | interaktivní, jeden uživatel |
+| **statické dávkování** | pevná velikost dávky, čeká se na naplnění | vyšší | střední | dávkové zpracování |
+| **průběžné dávkování** | dynamické přidávání a dokončování | střední | nejvyšší | produkční obsluha |
+| **spekulativní dávkování** | návrhový model generuje, hlavní model ověřuje | nízká | vysoká | generování citlivé na latenci |
 
-## Implementation in Prismatic Platform
+## Implementace na platformě Prismatic
 
-The Prismatic Platform runs inference workloads through Ollama's local AI infrastructure, with the Ollama Coordinator Agent managing model lifecycle, resource allocation, and performance monitoring:
+Platforma Prismatic, z níž kniha vzešla, spouští inferenční úlohy přes lokální infrastrukturu AI Ollama; agent Ollama Coordinator spravuje životní cyklus modelů, přidělování prostředků a sledování výkonu:
 
 ```elixir
 defmodule PrismaticAgents.InferenceCoordinator do
@@ -191,7 +195,7 @@ defmodule PrismaticAgents.InferenceCoordinator do
 end
 ```
 
-### Model Configuration
+### Konfigurace modelů
 
 ```elixir
 defmodule PrismaticAgents.InferenceConfig do
@@ -228,69 +232,66 @@ defmodule PrismaticAgents.InferenceConfig do
 end
 ```
 
-## Comparison with Alternatives
+## Srovnání s alternativami
 
-| Dimension | Local Inference (Ollama) | Cloud API (Claude/GPT) | Edge Inference | Custom Training |
+| rozměr | lokální inference (Ollama) | cloudové API (Claude/GPT) | inference na okraji sítě | vlastní trénink |
 |-----------|-------------------------|------------------------|----------------|-----------------|
-| **Latency** | 1-5s (7B), 3-10s (20B) | 0.5-3s (optimized) | 10-100ms | Varies |
-| **Privacy** | Complete data locality | Data sent to provider | On-device | Depends on setup |
-| **Cost** | Hardware amortization | Per-token pricing | Device cost | GPU cluster cost |
-| **Model quality** | Good (7-20B range) | Best (100B+ params) | Limited (1-3B) | Domain-specific |
-| **Scalability** | Limited by hardware | Virtually unlimited | Per-device | Cluster-dependent |
-| **Availability** | 99%+ (local hardware) | 99.9% (SLA-backed) | 100% (offline) | Varies |
+| **latence** | 1–5 s (7B), 3–10 s (20B) | 0,5–3 s (optimalizováno) | 10–100 ms | různá |
+| **soukromí** | úplná lokalita dat | data se posílají poskytovateli | v zařízení | podle nastavení |
+| **náklady** | amortizace hardwaru | cena za token | cena zařízení | cena clusteru GPU |
+| **kvalita modelu** | dobrá (rozsah 7–20B) | nejlepší (velké modely) | omezená (1–3B) | doménově specifická |
+| **škálovatelnost** | omezená hardwarem | prakticky neomezená | podle zařízení | podle clusteru |
+| **dostupnost** | 99 %+ (lokální hardware) | 99,9 % (podle SLA) | 100 % (offline) | různá |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Right-Size Model Selection**: Match model size to task complexity. Code completion and classification tasks often perform well with 7B models, while complex reasoning and multi-step planning benefit from larger models. Avoid defaulting to the largest available model when smaller models suffice.
+1. **Volit velikost modelu podle úlohy:** doplňování kódu a klasifikace často dobře zvládnou modely 7B, složité usuzování a vícekrokové plánování těží z větších modelů. Nesahat automaticky po největším modelu, když stačí menší.
+2. **Zavést zpětný tlak (*backpressure*):** nikdy nedovolit, aby požadavky na inferenci překročily kapacitu systému. Omezené fronty, omezování rychlosti a jističe brání vyčerpání prostředků. Model předávání zpráv v BEAM podporuje zpětný tlak přirozeně prostřednictvím časových limitů volání GenServer.
+3. **Sledovat spotřebu prostředků:** využití GPU/CPU, paměť a latenci inference vést jako telemetrické metriky. Nastavit upozornění, když se paměť blíží limitu (> 90 % rozpočtu 8 GB) a latence překročí prahy (> 5 s u interaktivních požadavků).
+4. **Navrhnout řízený ústup:** při přetížení nebo nedostupnosti lokální inference automaticky směrovat na cloudové poskytovatele; při nedostupnosti cloudu degradovat řízeně na odpovědi z cache nebo zjednodušené heuristiky.
+5. **Ukládat do cache s rozmyslem:** u deterministických vstupů ukládat výsledky inference. Pro přibližné zásahy cache používat shodu podle sémantické podobnosti.
+6. **Streamovat odpovědi:** u generativních modelů posílat tokeny klientovi průběžně. Snižuje to vnímanou latenci a umožňuje předčasné ukončení.
 
-2. **Implement Backpressure**: Never allow inference requests to exceed system capacity. Use bounded queues, rate limiting, and circuit breakers to prevent resource exhaustion. The BEAM's message-passing model naturally supports backpressure through GenServer call timeouts.
+## Případy užití
 
-3. **Monitor Resource Consumption**: Track GPU/CPU utilization, memory usage, and inference latency as telemetry metrics. Set alerts for memory approaching limits (> 90% of 8GB budget) and latency exceeding thresholds (> 5s for interactive requests).
+- **Rozhodování agentů:** agenti [AIAD](@/glossary/aiad.md) (v době zápisu 434) používají inferenci k plánování úloh, analýze kódu, hodnocení kvality a rozhodování; každý agent volí model podle své specializace a složitosti úlohy.
+- **Generování a analýza kódu:** inference pohání generování kódu pro vývoj platformy, návrhy oprav kvality a detekci vzorů. Modely jako qwen3-coder a deepseek-coder jsou optimalizovány pro porozumění kódu v Elixiru a jeho generování.
+- **Analýza OSINT:** inference zpracování přirozeného jazyka extrahuje entity, vztahy a sentiment z nestrukturovaných dat [OSINT](@/glossary/osint.md) a předává strukturované zpravodajství do znalostního grafu.
+- **Bezpečnostní klasifikace:** modely klasifikují bezpečnostní hrozby, hodnotí závažnost zranitelností a vytvářejí popisy rizik pro bezpečnostní hodnocení Prismatic Perimeter.
+- **Vývoj kvality:** systém [AutoEvolve](@/glossary/autoevolve.md) používá inferenci k hledání příležitostí ke zlepšení, navrhování refaktoringu a hodnocení dopadu navržených změn napříč aplikacemi umbrella projektu (v době zápisu 90).
 
-4. **Implement Graceful Fallback**: Design inference systems with fallback paths. When local inference is overloaded or unavailable, automatically route to cloud providers. When cloud is unreachable, degrade gracefully with cached responses or simplified heuristics.
+## Význam pro Kompendium
 
-5. **Cache Strategically**: Cache inference results for deterministic inputs. When the same prompt or similar prompts are processed repeatedly, caching eliminates redundant computation. Use semantic similarity matching for approximate cache hits.
+Pro knihu je inference modelů AI podstatná proto, že výstupy jazykových modelů se stávají zdrojem tvrzení, které lidé přebírají. Model nevypovídá o světě; generuje pravděpodobné pokračování textu. Kompendium popisuje rizika, která z toho plynou: [EA-9.1.1 Praní halucinací](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md), [EA-9.1.8 Zesilování konfabulací](@/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md) a [EA-9.1.6 Obcházení přiřazení zdroje](@/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md). Obranou je zacházet s výstupem modelu jako s hypotézou, ne jako se svědectvím, a ověřovat jej proti zdrojům ([detekce obsahu generovaného AI](@/kompendium/self-defense-guides/40-ai-content-detection.md)).
 
-6. **Stream Responses**: For generative models, stream tokens to the client as they are produced rather than waiting for complete generation. This reduces perceived latency and enables early termination when sufficient output is generated.
+## Související
 
-## Use Cases
+**Platforma**
 
-- **Agent Decision-Making**: The 434 AIAD agents use inference for task planning, code analysis, quality assessment, and decision-making. Each agent selects an appropriate model based on its specialization and the complexity of the current task.
+- [AIAD](@/glossary/aiad.md) – agenti, kteří inferenci používají k rozhodování.
+- [AutoEvolve](@/glossary/autoevolve.md) – systém vývoje kvality využívající inferenci.
+- [OSINT](@/glossary/osint.md) – oblast, v níž inference extrahuje entity a vztahy.
 
-- **Code Generation and Analysis**: Inference powers code generation for platform evolution, quality fix suggestions, and pattern detection. Models like qwen3-coder and deepseek-coder are optimized for understanding and generating Elixir code.
+**Kniha**
 
-- **OSINT Analysis**: Natural language processing inference extracts entities, relationships, and sentiment from unstructured OSINT data, feeding structured intelligence into the knowledge graph.
+- [EA-9.1.1 Praní halucinací](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) – když se výstup modelu stane „faktem“.
+- [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) – inference ve smyslu usuzování.
+- [Detekce obsahu generovaného AI](@/kompendium/self-defense-guides/40-ai-content-detection.md) – obrana jednotlivce.
 
-- **Security Classification**: Inference models classify security threats, assess vulnerability severity, and generate risk narratives for Prismatic Perimeter security ratings.
+**Mimo knihu (web a repozitář platformy)**
 
-- **Quality Evolution**: The autoevolve system uses inference to identify improvement opportunities, suggest refactoring patterns, and evaluate the impact of proposed changes across the platform's 90 umbrella applications.
-
-## Related Concepts
-
-- [Ollama](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ollama/) - Local AI runtime executing inference for platform models
-- [Backpressure](https://prismatic-reality-com.github.io/prismatic-promo/glossary/backpressure/) - Flow control preventing inference request overload
-- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) - Request throttling protecting inference resources
-- [Telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) - Metrics system monitoring inference performance
-- [Observability](https://prismatic-reality-com.github.io/prismatic-promo/glossary/observability/) - Monitoring infrastructure tracking inference health
-- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) - Virtual machine providing concurrent inference request processing
-- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) - OTP behaviour implementing the inference coordinator
-- [Node](https://prismatic-reality-com.github.io/prismatic-promo/glossary/node/)
-
-## See Also
-
-- [prismatic_ollama](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_ollama/README.md) -- Local AI inference runtime via Ollama
-- [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) -- Agent system consuming inference for decision-making
-- [app_ai_safety](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_safety/README.md) -- Safety monitoring for inference outputs
-- [app_ai_interpretability](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_interpretability/README.md) -- Interpretability analysis of inference results
-- [prismatic_telemetry](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_telemetry/README.md) -- Telemetry tracking inference performance metrics
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- AI inference architecture and integration patterns
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- AI and machine learning capabilities
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Ollama](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ollama/) – lokální běhové prostředí AI pro modely platformy.
+- [Backpressure](https://prismatic-reality-com.github.io/prismatic-promo/glossary/backpressure/) – řízení toku, které brání přetížení inference.
+- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) – omezování požadavků chránící prostředky.
+- [Telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) – metriky výkonu inference.
+- [Observability](https://prismatic-reality-com.github.io/prismatic-promo/glossary/observability/) – infrastruktura sledování stavu inference.
+- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) – virtuální stroj pro souběžné zpracování požadavků.
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) – chování OTP, které implementuje koordinátor inference.
+- [Node](https://prismatic-reality-com.github.io/prismatic-promo/glossary/node/) – uzel BEAM.
+- [prismatic_ollama](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_ollama/README.md) – lokální běhové prostředí inference přes Ollama.
+- [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) – systém agentů využívající inferenci.
+- [app_ai_safety](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_safety/README.md) – sledování bezpečnosti výstupů inference.
+- [app_ai_interpretability](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_interpretability/README.md) – analýza interpretovatelnosti výsledků.
+- [prismatic_telemetry](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_telemetry/README.md) – telemetrie výkonu inference.
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – architektura AI inference a integrační vzory.
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) – schopnosti AI a strojového učení.

@@ -85,7 +85,7 @@ dogmatu.
 - **Filozofická skepse vs. znehodnocení zkušenosti.** Uznat meze poznání neznamená, že jevy
   jsou bezcenné. Kant jevy považoval za plnohodnotné předměty vědění – jediné, které máme.
 - **Vs. derealizace.** Pocit, že svět není skutečný, je klinický příznak (u úzkosti,
-  disociace, depersonalizačně-derealizační poruchy, psychózy a jiných stavů) a nemá s Kantovou
+  [disociace](@/glossary/disociace.md), depersonalizačně-derealizační poruchy, psychózy a jiných stavů) a nemá s Kantovou
   teorií nic společného. Pokud jej filozofický výklad posiluje, je na místě klinické
   posouzení, ne další výklad.
 - **Vs. legitimní náboženská víra.** Víra v transcendentní skutečnost je osobní a kulturní

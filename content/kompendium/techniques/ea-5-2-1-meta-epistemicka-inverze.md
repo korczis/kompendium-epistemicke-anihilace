@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.1 Meta-epistemická inverze"
-description = "Detailní per-technique článek: technika meta-epistemické inverze — systematické převrácení epistemických standardů tak, že kvalita důkazu, koherence a reliability operují s opačným znaménkem. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika meta-epistemické inverze — systematické převrácení epistemických standardů tak, že kvalita důkazu, koherence a reliability operují s opačným znaménkem."
 weight = 521
 insert_anchor_links = "right"
 
@@ -47,7 +47,7 @@ Inverze probíhá v pěti krocích, jejichž posloupnost je iterativní:
 
 ### Krok 1 — Identifikace epistemických standardů subjektu
 
-Manipulátor mapuje, **jak subjekt hodnotí evidenci**. Klíčové dimenze: jaké zdroje subjekt považuje za autoritativní, jak hodnotí konflikty mezi důkazy, jaké heuristiky používá pro kvalitu argumentu (koherence, parsimonie, falsifikovatelnost). Cílem mapování je **identifikace meta-pravidel**, ne obsahových přesvědčení.
+Manipulátor mapuje, **jak subjekt hodnotí evidenci**. Klíčové dimenze: jaké zdroje subjekt považuje za autoritativní, jak hodnotí konflikty mezi důkazy, jaké heuristiky používá pro kvalitu argumentu (koherence, parsimonie, [falsifikovatelnost](@/glossary/falsifikovatelnost.md)). Cílem mapování je **identifikace meta-pravidel**, ne obsahových přesvědčení.
 
 ### Krok 2 — Etablování pseudo-meta-úrovně
 
@@ -191,7 +191,7 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration loop** — kalibrační smyčka explicitně testuje **meta-pravidla** rozhodování proti externí evidenci, čímž detekuje inverzi.
 - **OSINT framework's source-quality matrix** — strukturovaná hodnotící mřížka brání idiosynkratickému převrácení reliability.
-- **NABLA Infinity epistemic provenance** — každý epistemický akt má dohledatelnou strukturu, takže inverze meta-pravidel je viditelná v auditní stopě.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) epistemic provenance** — každý epistemický akt má dohledatelnou strukturu, takže inverze meta-pravidel je viditelná v auditní stopě.
 
 ## Související
 

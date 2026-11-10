@@ -50,7 +50,7 @@ Kompendium popisuje terminální vzorec [epistemické vakuace (EA-5.1.24)](@/kom
 - **Kartézská pochybnost.** Je dočasná a směřuje k jistotě; pyrrhonismus nemá cíl v jistotě, ale v klidu.
 - **Obsedantní pochybnost.** Pochybování je zde nutkavé, úzkostné a nevede ke klidu, ale k dalšímu ověřování (viz [anankastický režim](@/glossary/anankasticky-rezim.md)).
 - **Emoční otupení a apatie.** *Ataraxia* je klid, ne ztráta citu; plochý afekt, anhedonie nebo [emoční otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md) mohou být známkou deprese či traumatu.
-- **Depersonalizace a derealizace.** Pocit, že nic není skutečné, je prožitkem odcizení, nikoli filosofickým postojem.
+- **[Depersonalizace](@/glossary/depersonalizace.md) a derealizace.** Pocit, že nic není skutečné, je prožitkem odcizení, nikoli filosofickým postojem.
 
 ## Význam pro Kompendium
 

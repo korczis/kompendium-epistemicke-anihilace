@@ -1,10 +1,10 @@
 +++
-title = "Agent Registry"
+title = "Agent Registry (registr agentů)"
 weight = 17
-description = "Central catalog of all 530+ AIAD agents with capabilities and authority levels"
+description = "Centrální katalog všech agentů AIAD na Prismatic Platform s jejich schopnostmi, úrovněmi oprávnění, doménami a závislostmi; jediný zdroj pravdy pro správu agentů."
 
 [taxonomies]
-tags = ["glossary", "agents", "agent-registry", "prismatic"]
+tags = ["glossary", "agents", "agent-registry", "prismatic", "aiad"]
 
 [extra]
 category = "agents"
@@ -25,57 +25,76 @@ key_agents = ["archer-supreme", "supreme-coordinator", "red-commander", "blue-co
 safety_critical_agents = ["gray-escalation-guard", "purple-regression-guard", "black-abstraction-enforcer"]
 audit_capabilities = ["Population Audit", "Authority Audit", "Domain Coverage", "Duplicate Detection", "Deprecation Tracking"]
 author = "Tomas Korcak (korczis)"
-reading_time = "8 min"
-word_count = 1614
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["Agent", "Registry", "Central", "AIAD", "glossary", "agents", "Prismatic Platform", "Agent Tier", "Domain"]
 quality_score = 90
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Agent Registry - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-The Agent Registry is the centralized, authoritative catalog that indexes all AIAD-compliant agents within the Prismatic Platform. It records each agent's call sign, authority tier, domain specialization, capabilities, operational status, and inter-agent dependencies. Maintained in `.claude/AGENT_REGISTRY.md` and auto-indexed by the AIAD toolchain via `./.aiad/bin/aiad index`, the registry serves as the single source of truth for agent discovery, governance, and coordination across the entire platform ecosystem.
+**Agent Registry** (registr agentů) je centralizovaný, autoritativní katalog, který
+indexuje všechny agenty Prismatic Platform splňující standard [AIAD](@/glossary/aiad.md).
+Zaznamenává volací znak každého agenta, úroveň oprávnění, doménovou specializaci,
+schopnosti, provozní stav a závislosti na jiných agentech. Registr je veden v souboru
+`.claude/AGENT_REGISTRY.md`, automaticky indexován nástroji AIAD příkazem
+`./.aiad/bin/aiad index` a slouží jako jediný zdroj pravdy pro vyhledávání, správu
+a koordinaci agentů v celém ekosystému platformy.
 
-The registry is not a passive directory. It actively enforces agent governance by preventing duplicate definitions, validating tier assignments against the [Agent Tier](@/glossary/agent-tier.md) specification, and ensuring that every agent in the platform has a well-defined specification file. When an [agent](@/glossary/agent.md) is deployed, the runtime validates its identity against the registry. Unregistered agents cannot operate within the platform -- this constraint prevents rogue or unauthorized agents from accessing platform resources.
+Registr není pasivním adresářem. Aktivně vynucuje správu agentů: brání duplicitním
+definicím, ověřuje přiřazení úrovní podle specifikace [Agent Tier](@/glossary/agent-tier.md)
+a zajišťuje, že každý agent platformy má dobře definovaný soubor specifikace. Při nasazení
+[agenta](@/glossary/agent.md) běhové prostředí ověří jeho identitu proti registru.
+Neregistrovaní agenti nemohou na platformě působit – toto omezení brání neoprávněným nebo
+„zběhlým“ agentům v přístupu ke zdrojům platformy.
 
-The design philosophy behind the Agent Registry is discoverability at scale. With 500+ statically defined agents and approximately 30 additional runtime-generated agents (530+ total), the platform requires a reliable mechanism for agents to locate collaborators, for commanders to identify available specialists, and for governance systems to audit the complete agent population. The registry provides this mechanism through structured indexing, domain classification, and tier-based querying.
+Návrh registru vychází z požadavku na dohledatelnost ve velkém měřítku. S více než
+500 staticky definovanými agenty a přibližně 30 dalšími agenty vytvářenými za běhu (celkem
+530+, stav v době zápisu; jiná hesla uvádějí starší počty) potřebuje platforma spolehlivý
+mechanismus, jímž agenti najdou spolupracovníky, velitelé dostupné specialisty a systémy
+správy celou populaci agentů k auditu. Registr jej poskytuje strukturovanou indexací,
+doménovou klasifikací a dotazy podle úrovně.
 
-## Historical Evolution
+**Vztah ke knize:** registr patří do kontextu platformy, z níž Kompendium vzešlo.
+Agenti v něm zapsaní uplatňují taxonomii knihy v obranných úlohách – viz oddíl [AIAD
+integrace a detekce EA](@/kompendium/aiad-integration/_index.md).
 
-The Agent Registry evolved through several generations as the platform's agent population grew:
+## Historický vývoj
 
-| Generation | Agent Count | Registry Format | Key Innovation |
+Registr se vyvíjel v několika generacích, jak rostla populace agentů:
+
+| Generace | Počet agentů | Formát registru | Klíčová novinka |
 |------------|-------------|-----------------|----------------|
-| Gen 1-3 | < 50 | Manual Markdown | Hand-maintained list |
-| Gen 4-7 | 50-150 | Semi-automated | AIAD spec format standardized |
-| Gen 8-12 | 150-350 | Auto-indexed | `.aiad/bin/aiad index` toolchain |
-| Gen 13-16 | 350-450 | Domain-classified | 14-domain taxonomy, tier governance |
-| Gen 17-19 | 450-530+ | Full governance | Safety-critical flags, isolation constraints, audit trail |
+| Gen 1–3 | < 50 | ruční Markdown | ručně udržovaný seznam |
+| Gen 4–7 | 50–150 | poloautomatický | standardizovaný formát specifikace AIAD |
+| Gen 8–12 | 150–350 | automaticky indexovaný | nástroj `.aiad/bin/aiad index` |
+| Gen 13–16 | 350–450 | doménově klasifikovaný | taxonomie 14 domén, správa úrovní |
+| Gen 17–19 | 450–530+ | plná správa | příznaky kritičnosti pro bezpečnost, omezení izolace, auditní stopa |
 
-Early versions of the registry were simple Markdown tables maintained by hand. As the agent population exceeded 100, manual maintenance became error-prone and inconsistent. The introduction of the AIAD specification format (`.agent.md` files with structured frontmatter) and the auto-indexing toolchain eliminated consistency issues by generating the registry from authoritative source files.
+Rané verze registru byly jednoduché tabulky v Markdownu udržované ručně. Když populace
+agentů překročila stovku, ruční údržba začala být chybová a nekonzistentní. Formát
+specifikace AIAD (soubory `.agent.md` se strukturovanou hlavičkou) a automatická indexace
+problémy s konzistencí odstranily, protože registr se generuje z autoritativních zdrojových
+souborů.
 
-## Registry Structure
+## Struktura registru
 
-Each agent entry in the registry contains a standardized set of fields derived from the agent's `.agent.md` specification file:
+Každý záznam agenta v registru obsahuje standardizovanou sadu polí odvozených ze souboru
+specifikace `.agent.md`:
 
-| Field | Description | Example |
+| Pole | Popis | Příklad |
 |-------|-------------|---------|
-| **Call Sign** | Unique identifier for the agent | `red-commander` |
-| **Authority Tier** | L1-L5 classification per [Agent Tier](@/glossary/agent-tier.md) | L3 Strategic |
-| **Domain** | Primary operational domain from the 16-domain taxonomy | Security |
-| **Specialization** | Specific capability or focus area | Adversarial scenario orchestration |
-| **Status** | Current operational state (active, standby, deprecated) | Active |
-| **Dependencies** | Other agents or systems required for operation | `red-epistemic-attacker`, `red-drift-inducer` |
-| **Safety-Critical** | Whether the agent carries safety override authority | No |
-| **ISOLATED** | Whether the agent operates under isolation constraints | No |
-| **Specification** | Path to the `.agent.md` definition file | `.aiad/agents/red-commander.agent.md` |
-| **Version** | Specification version for change tracking | 2.1.0 |
+| **Call Sign** | jedinečný identifikátor agenta | `red-commander` |
+| **Authority Tier** | klasifikace L1–L5 podle [Agent Tier](@/glossary/agent-tier.md) | L3 Strategic |
+| **Domain** | hlavní provozní doména z taxonomie 16 domén | Security |
+| **Specialization** | konkrétní schopnost nebo zaměření | orchestrace adversariálních scénářů |
+| **Status** | aktuální provozní stav (active, standby, deprecated) | Active |
+| **Dependencies** | jiní agenti nebo systémy nutné pro provoz | `red-epistemic-attacker`, `red-drift-inducer` |
+| **Safety-Critical** | zda má agent oprávnění k bezpečnostnímu přepsání | No |
+| **ISOLATED** | zda agent pracuje pod omezeními izolace | No |
+| **Specification** | cesta k souboru definice `.agent.md` | `.aiad/agents/red-commander.agent.md` |
+| **Version** | verze specifikace pro sledování změn | 2.1.0 |
 
-The registry format is designed for both human readability (Markdown table format in `AGENT_REGISTRY.md`) and machine parsing (structured fields extractable by the AIAD toolchain).
+Formát registru je navržen pro čtení lidmi (tabulka v Markdownu v `AGENT_REGISTRY.md`)
+i pro strojové zpracování (strukturovaná pole, která nástroje AIAD dokážou vytáhnout).
 
 ```elixir
 defmodule PrismaticAgents.Registry.Entry do
@@ -112,10 +131,12 @@ defmodule PrismaticAgents.Registry.Entry do
   ]
 end
 ```
+## Systém automatické indexace
 
-## Auto-Indexing System
-
-The registry is maintained through an automated indexing process that scans the `.aiad/agents/` directory for all `.agent.md` specification files and regenerates the registry from their contents. This auto-indexing ensures that the registry is always consistent with the actual agent definitions -- manual registry edits are overwritten on the next index run.
+Registr se udržuje automatickou indexací, která v adresáři `.aiad/agents/` vyhledá všechny
+soubory specifikace `.agent.md` a z jejich obsahu registr znovu vygeneruje. Díky tomu je
+registr vždy v souladu se skutečnými definicemi agentů – ruční úpravy registru se při
+příštím spuštění indexace přepíšou.
 
 ```bash
 # Trigger auto-indexing of all agent specifications
@@ -130,8 +151,9 @@ The registry is maintained through an automated indexing process that scans the 
 # 6. Updates domain-specific sub-indexes
 # 7. Emits validation report with warnings and errors
 ```
-
-The auto-indexing process runs as part of the AIAD maintenance cycle and is triggered automatically when new agents are added or existing agents are modified. The [AutoEvolve](@/glossary/autoevolve.md) system monitors the registry for consistency and triggers re-indexing when drift is detected.
+Automatická indexace běží jako součást udržovacího cyklu AIAD a spouští se automaticky při
+přidání nových agentů nebo změně stávajících. Systém [AutoEvolve](@/glossary/autoevolve.md)
+sleduje konzistenci registru a při zjištění odchylky spustí novou indexaci.
 
 ```elixir
 defmodule PrismaticAgents.Registry.Indexer do
@@ -171,59 +193,70 @@ defmodule PrismaticAgents.Registry.Indexer do
   end
 end
 ```
+## Doménová klasifikace
 
-## Domain Classification
+Agenti jsou zařazeni do 16 provozních domén; každá představuje samostatnou funkční oblast
+platformy (počty jsou přibližné, stav v době zápisu):
 
-Agents are classified across 16 operational domains, each representing a distinct functional area of the platform:
-
-| Domain | Agent Count | Description | Key Agents |
+| Doména | Počet agentů | Popis | Klíčoví agenti |
 |--------|-------------|-------------|------------|
-| **Security** | ~40 | [Color Teams](@/glossary/color-teams.md) and security operations | 20 Color Team agents + security specialists |
-| **Quality** | ~45 | Quality enforcement, gates, and monitoring | Quality floor guardian, Credo enforcer |
-| **Evolution** | ~35 | [AutoEvolve](@/glossary/autoevolve.md), [AutoHeal](@/glossary/autoheal.md), generation management | Evolution scanner, healing coordinator |
-| **Intelligence** | ~40 | OSINT, entity resolution, data analysis | Ghost recon, delta force, email OSINT |
-| **Architecture** | ~25 | Platform design, patterns, standards | Elixir architect, system designer |
-| **Storage** | ~20 | Data persistence, adapters, caching | Storage coordinator, adapter specialists |
-| **Web** | ~20 | LiveView, Phoenix, frontend | UI coordinator, dashboard specialists |
-| **Testing** | ~30 | Test generation, coverage, validation | Test generator, coverage analyzer |
-| **Documentation** | ~25 | Docs, guides, knowledge management | Doc generator, knowledge indexer |
-| **Deployment** | ~15 | CI/CD, releases, infrastructure | Deploy coordinator, release manager |
-| **Epistemic** | ~30 | [NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md), pipeline | Epistemic validator, belief manager |
-| **Consciousness** | ~20 | [Consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/), self-awareness | Consciousness monitor, trait evaluator |
-| **Perimeter** | ~15 | [EASM](@/glossary/easm.md), attack surface, compliance | Perimeter scanner, compliance assessor |
-| **Promo** | ~10 | Content enhancement, site management | Promo content enhancer |
-| **API** | ~10 | API gateway, endpoint discovery, OpenAPI | API scanner, spec generator |
-| **Ecosystem** | ~15 | OSS packages, developer portal, community | SDK architect, plugin coordinator |
+| **Security** | ~40 | [Color Teams](@/glossary/color-teams.md) a bezpečnostní operace | 20 agentů Color Teams a bezpečnostní specialisté |
+| **Quality** | ~45 | vynucení kvality, brány a sledování | strážce minimální kvality, vynucovač Credo |
+| **Evolution** | ~35 | [AutoEvolve](@/glossary/autoevolve.md), [AutoHeal](@/glossary/autoheal.md), správa generací | evoluční skener, koordinátor oprav |
+| **Intelligence** | ~40 | [OSINT](@/glossary/osint.md), [entity resolution](@/glossary/entity-resolution.md), analýza dat | ghost recon, delta force, e-mailový OSINT |
+| **Architecture** | ~25 | návrh platformy, vzory, standardy | architekt Elixiru, návrhář systému |
+| **Storage** | ~20 | perzistence dat, adaptéry, mezipaměť | koordinátor úložiště, specialisté na adaptéry |
+| **Web** | ~20 | LiveView, Phoenix, frontend | koordinátor UI, specialisté na dashboardy |
+| **Testing** | ~30 | generování testů, pokrytí, validace | generátor testů, analyzátor pokrytí |
+| **Documentation** | ~25 | dokumentace, příručky, správa znalostí | generátor dokumentace, indexátor znalostí |
+| **Deployment** | ~15 | CI/CD, vydání, infrastruktura | koordinátor nasazení, správce vydání |
+| **Epistemic** | ~30 | [NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md), epistemický proces | epistemický validátor, správce přesvědčení |
+| **Consciousness** | ~20 | „rysy vědomí“, sebereflexe agentů | monitor vědomí, hodnotitel rysů |
+| **Perimeter** | ~15 | [EASM](@/glossary/easm.md), útočná plocha, soulad | skener perimetru, hodnotitel souladu |
+| **Promo** | ~10 | obohacování obsahu, správa webu | vylepšovač obsahu |
+| **API** | ~10 | API gateway, vyhledávání koncových bodů, OpenAPI | skener API, generátor specifikací |
+| **Ecosystem** | ~15 | balíčky OSS, vývojářský portál, komunita | architekt SDK, koordinátor pluginů |
 
-Domain classification is not exclusive -- some agents operate across multiple domains and are listed under their primary domain with cross-references to secondary domains. The registry supports domain-based querying, enabling L3+ agents to locate available specialists within specific operational areas.
+Doménová klasifikace není výlučná: někteří agenti působí ve více doménách a jsou uvedeni
+pod hlavní doménou s křížovými odkazy na vedlejší. Registr podporuje dotazy podle domény,
+takže agenti L3 a výše mohou najít dostupné specialisty v konkrétní oblasti.
 
-## Agent Tier Distribution
+## Rozložení úrovní oprávnění
 
-The registry tracks the distribution of agents across authority tiers, ensuring proportional governance:
+Registr sleduje rozložení agentů podle úrovní oprávnění a zajišťuje přiměřenou správu:
 
-| Tier | Count | Percentage | Role | Example Agents |
+| Úroveň | Počet | Podíl | Role | Příklady agentů |
 |------|-------|------------|------|----------------|
-| **L1 Operational** | ~200 | 38% | Task execution, single-domain specialists | File scanner, test runner, doc formatter |
-| **L2 Tactical** | ~180 | 34% | Multi-step workflows, domain-scoped coordination | Red epistemic attacker, blue drift detector |
-| **L3 Strategic** | ~100 | 19% | Cross-domain coordination, team command | Red commander, blue commander, purple coordinator |
-| **L4 Safety-Critical** | ~40 | 7% | Safety overrides, emergency intervention | Gray escalation guard, purple regression guard |
-| **L5 Supreme** | ~10 | 2% | Platform-wide authority, strategic decisions | [Archer Supreme](@/glossary/archer-supreme.md), [Supreme Commander](@/glossary/supreme-commander.md) |
+| **L1 Operational** | ~200 | 38 % | provádění úkolů, specialisté jedné domény | skener souborů, spouštěč testů, formátovač dokumentace |
+| **L2 Tactical** | ~180 | 34 % | vícekrokové postupy, koordinace v rámci domény | red epistemic attacker, blue drift detector |
+| **L3 Strategic** | ~100 | 19 % | koordinace napříč doménami, velení týmům | red commander, blue commander, purple coordinator |
+| **L4 Safety-Critical** | ~40 | 7 % | bezpečnostní přepsání, nouzový zásah | gray escalation guard, purple regression guard |
+| **L5 Supreme** | ~10 | 2 % | oprávnění pro celou platformu, strategická rozhodnutí | [Archer Supreme](@/glossary/archer-supreme.md), [Supreme Commander](@/glossary/supreme-commander.md) |
 
-This distribution follows a pyramid structure where the majority of agents operate at L1-L2 (execution), a smaller number coordinate at L3 (strategy), and a handful hold safety-critical (L4) or supreme (L5) authority. This mirrors military command structures and ensures that authority is concentrated at the top while operational capacity is distributed at the base.
+Rozložení má tvar pyramidy: většina agentů pracuje na L1–L2 (provádění), menší počet
+koordinuje na L3 (strategie) a jen několik má oprávnění kritická pro bezpečnost (L4) nebo
+nejvyšší (L5). To odpovídá vojenským velitelským strukturám a zajišťuje, že oprávnění je
+soustředěno nahoře, zatímco provozní kapacita je rozložena v základně.
 
-## Agent Discovery
+## Vyhledávání agentů
 
-The registry enables several discovery patterns that are essential for platform coordination:
+Registr umožňuje několik vzorců vyhledávání, které jsou pro koordinaci platformy nezbytné:
 
-**Direct Lookup**: Given a call sign, retrieve the agent's full specification including tier, domain, capabilities, and current status. Used by any agent that knows which specific collaborator it needs.
+**Přímé vyhledání:** podle volacího znaku vrátí úplnou specifikaci agenta včetně úrovně,
+domény, schopností a stavu. Používá je každý agent, který ví, jakého spolupracovníka
+potřebuje.
 
-**Domain Search**: Given a domain, retrieve all agents operating within that domain. Used by L3 commanders to identify available specialists for tactical assignments.
+**Hledání podle domény:** vrátí všechny agenty v dané doméně. Používají je velitelé L3
+k nalezení dostupných specialistů pro taktické úkoly.
 
-**Tier Query**: Given a tier level, retrieve all agents at that authority level. Used by L4+ agents to identify peers for cross-domain coordination.
+**Dotaz podle úrovně:** vrátí všechny agenty dané úrovně oprávnění. Používají je agenti L4
+a výše k nalezení rovnocenných partnerů pro koordinaci napříč doménami.
 
-**Capability Match**: Given a required capability, find agents that provide it. Used by the [Blackboard](https://prismatic-reality-com.github.io/prismatic-promo/glossary/blackboard/) system to route knowledge requests to appropriate specialists.
+**Shoda schopností:** k požadované schopnosti najde agenty, kteří ji poskytují. Používá je
+systém *Blackboard* ke směrování požadavků na znalosti k vhodným specialistům.
 
-**Dependency Resolution**: Given an agent, identify all agents it depends on and verify they are available. Used during deployment to ensure operational prerequisites are met.
+**Řešení závislostí:** k danému agentovi určí všechny agenty, na nichž závisí, a ověří
+jejich dostupnost. Používá se při nasazení, aby byly splněny provozní předpoklady.
 
 ```elixir
 defmodule PrismaticAgents.Registry do
@@ -288,12 +321,18 @@ defmodule PrismaticAgents.Registry do
   end
 end
 ```
+## Rozšíření za běhu
 
-## Runtime Extension
+Kromě více než 500 staticky definovaných agentů vytváří platforma za běhu přibližně
+30 dalších. Vznikají dynamicky podle stavu platformy – například když přibude nová aplikace
+umbrella projektu, která potřebuje vlastního agenta pro sledování kvality, nebo když
+konkrétní šetření vyžaduje dočasného specialistu.
 
-Beyond the 500+ statically defined agents, the platform generates approximately 30 additional agents at runtime. These runtime agents are created dynamically in response to platform conditions -- for example, when a new umbrella application is added and requires a dedicated quality monitoring agent, or when a specific investigation requires a temporary specialist agent.
-
-Runtime agents are registered in the same registry as static agents, with an additional `runtime: true` flag distinguishing them. They follow the same [Agent Tier](@/glossary/agent-tier.md) classification, domain assignment, and capability specification as static agents. The key difference is lifecycle: static agents persist across platform restarts, while runtime agents are recreated as needed by their parent [supervisors](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/).
+Agenti vytvoření za běhu se zapisují do stejného registru jako statičtí, s dodatečným
+příznakem `runtime: true`. Řídí se stejnou klasifikací [Agent Tier](@/glossary/agent-tier.md),
+přiřazením domény a specifikací schopností jako statičtí agenti. Rozdíl je v životním
+cyklu: statičtí agenti přetrvávají restarty platformy, agenty vytvořené za běhu podle
+potřeby znovu vytvářejí jejich nadřazené supervizory OTP.
 
 ```elixir
 defmodule PrismaticAgents.Registry.RuntimeExtension do
@@ -324,74 +363,77 @@ defmodule PrismaticAgents.Registry.RuntimeExtension do
   end
 end
 ```
+## Správa a audit
 
-## Governance and Audit
+Registr je základem správy agentů:
 
-The registry serves as the foundation for agent governance:
+- **audit populace** – úplný seznam agentů je kdykoli k dispozici ke kontrole;
+- **audit oprávnění** – přiřazení úrovní lze přezkoumat z hlediska přiměřeného rozložení
+  oprávnění;
+- **pokrytí domén** – mezery lze najít porovnáním přiřazení agentů s potřebami platformy;
+- **detekce duplicit** – automatická indexace odhalí a odmítne duplicitní volací znaky
+  a předejde tak konfliktům identity;
+- **sledování vyřazení** – agenti označení jako vyřazení zůstávají v registru kvůli auditu,
+  ale nejsou nabízeni k aktivnímu vyhledání;
+- **historie změn** – časová razítka generování a sledování rozdílů umožňují auditní stopu
+  změn správy.
 
-- **Population Audit**: The complete list of all agents is available for review at any time, enabling governance oversight
-- **Authority Audit**: Tier assignments can be reviewed to ensure proportional authority distribution
-- **Domain Coverage**: Gaps in domain coverage can be identified by comparing agent domain assignments against platform needs
-- **Duplicate Detection**: The auto-indexing process detects and rejects duplicate call signs, preventing agent identity conflicts
-- **Deprecation Tracking**: Agents marked as deprecated remain in the registry for audit purposes but are excluded from active discovery
-- **Change History**: Registry regeneration timestamps and diff tracking enable audit trails for governance changes
+Registr je propojen se systémy strukturovaného logování a pozorovatelnosti platformy, takže
+lze dávat do souvislosti identitu agenta s jeho provozní telemetrií.
 
-The registry also integrates with the platform's [structured logging](https://prismatic-reality-com.github.io/prismatic-promo/glossary/structured-logging/) and [observability](https://prismatic-reality-com.github.io/prismatic-promo/glossary/observability/) systems, providing correlation between agent identities and their operational telemetry.
+## Integrace s Color Teams
 
-## Color Team Registry Integration
+Systém [Color Teams](@/glossary/color-teams.md) se při ověřování složení týmů silně opírá
+o registr. Každý ze šesti barevných týmů ([Gray](@/glossary/gray-team.md),
+[Red](@/glossary/red-team.md), [Blue](@/glossary/blue-team.md),
+[Purple](@/glossary/purple-team.md), [White](@/glossary/white-team.md),
+[Black](@/glossary/black-team.md)) má definovanou sestavu agentů, kterou je nutné ověřit
+proti registru:
 
-The [Color Teams](@/glossary/color-teams.md) system relies heavily on the registry for team composition validation. Each of the six color teams (Gray, Red, Blue, Purple, White, Black) has a defined agent roster that must be validated against the registry:
-
-| Team | Required Agents | Registry Validation |
+| Tým | Požadovaní agenti | Ověření v registru |
 |------|----------------|---------------------|
-| **Gray** | 3 agents (commander, edge-finder, escalation-guard) | Tier and safety-critical flags verified |
-| **Red** | 4 agents (commander, epistemic-attacker, drift-inducer, scenario-generator) | Isolation constraints checked |
-| **Blue** | 4 agents (commander, auth-sentinel, drift-detector, signal-aggregator) | Domain assignment verified |
-| **Purple** | 4 agents (coordinator, mapper, closure-analyst, regression-guard) | Cross-team dependency resolution |
-| **White** | 3 agents (verifier-commander, contract-validator, invariant-prover) | Formal verification capabilities checked |
-| **Black** | 2 agents (theorist-commander, abstraction-enforcer) | MAXIMUM isolation enforced |
+| **Gray** | 3 agenti (commander, edge-finder, escalation-guard) | ověření úrovně a příznaků kritičnosti |
+| **Red** | 4 agenti (commander, epistemic-attacker, drift-inducer, scenario-generator) | kontrola omezení izolace |
+| **Blue** | 4 agenti (commander, auth-sentinel, drift-detector, signal-aggregator) | ověření přiřazení domény |
+| **Purple** | 4 agenti (coordinator, mapper, closure-analyst, regression-guard) | řešení závislostí mezi týmy |
+| **White** | 3 agenti (verifier-commander, contract-validator, invariant-prover) | kontrola schopností formálního ověřování |
+| **Black** | 2 agenti (theorist-commander, abstraction-enforcer) | vynucena MAXIMÁLNÍ izolace |
 
-## Integration with Platform Systems
+## Integrace se systémy platformy
 
-The Agent Registry integrates with several core platform systems:
-
-| System | Integration | Purpose |
+| Systém | Integrace | Účel |
 |--------|-------------|---------|
-| **[Blackboard](https://prismatic-reality-com.github.io/prismatic-promo/glossary/blackboard/)** | Agent capability lookup | Routes knowledge requests to appropriate specialists |
-| **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)** | Tier-based access control | Ensures agents access only tier-appropriate pipeline levels |
-| **[AutoEvolve](@/glossary/autoevolve.md)** | Registry consistency monitoring | Detects and corrects registry drift |
-| **[Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/)** | Process-agent mapping | Links OTP processes to their agent identities |
-| **Quality Gates** | Agent compliance checking | Validates that all agents meet quality standards |
-| **[Color Teams](@/glossary/color-teams.md)** | Team composition validation | Ensures team agent composition matches specifications |
-| **SEADF** | Subsystem coordination | Routes tasks to appropriate agent domains |
+| **Blackboard** | vyhledání schopností agentů | směruje požadavky na znalosti k vhodným specialistům |
+| **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)** | řízení přístupu podle úrovně | agenti mají přístup jen k úrovním procesu odpovídajícím jejich oprávnění |
+| **[AutoEvolve](@/glossary/autoevolve.md)** | sledování konzistence registru | odhaluje a opravuje odchylky registru |
+| **Supervisor** | mapování procesů na agenty | spojuje procesy OTP s identitami agentů |
+| **Quality Gates** | kontrola souladu agentů | ověřuje, že všichni agenti splňují standardy kvality |
+| **[Color Teams](@/glossary/color-teams.md)** | ověření složení týmů | složení týmů odpovídá specifikacím |
+| **SEADF** | koordinace subsystémů | směruje úkoly do vhodných domén agentů |
 
-## Related Terms
+## Související pojmy
 
-- [AIAD](@/glossary/aiad.md) -- The agent definition standard governing all registered agents
-- [Agent](@/glossary/agent.md) -- Core concept of autonomous operational units tracked by the registry
-- [Agent Tier](@/glossary/agent-tier.md) -- L1-L5 authority classification indexed in the registry
-- [Archer Supreme](@/glossary/archer-supreme.md) -- L5 Supreme authority agent registered in the catalog
-- [Supreme Commander](@/glossary/supreme-commander.md) -- L5 agent using the registry for cross-domain coordination
-- [Color Teams](@/glossary/color-teams.md) -- 20 security agents registered across 6 teams
-- [Blackboard](https://prismatic-reality-com.github.io/prismatic-promo/glossary/blackboard/) -- Shared knowledge store using registry for agent discovery
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Traits tracked per agent in the registry
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing registered agent behavior
-- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP supervision managing registered agent processes
-- [AutoEvolve](@/glossary/autoevolve.md) -- Evolution system monitoring registry consistency
-- [AutoHeal](@/glossary/autoheal.md) -- Self-repair system using registry for agent health checks
+Bez vlastního hesla v glosáři knihy: *Blackboard* (sdílené úložiště znalostí, které
+k vyhledání agentů používá registr), *Consciousness Traits* (rysy sledované u každého agenta
+v registru) a *Supervisor* (supervize OTP, která spravuje procesy registrovaných agentů).
 
-## See Also
+## Související
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+**Platforma**
 
----
+- [AIAD](@/glossary/aiad.md) – standard definic, jímž se řídí všichni registrovaní agenti.
+- [Agent](@/glossary/agent.md) – základní pojem autonomní provozní jednotky.
+- [Agent Tier](@/glossary/agent-tier.md) – klasifikace oprávnění L1–L5 indexovaná
+  v registru.
+- [Archer Supreme](@/glossary/archer-supreme.md) a [Supreme
+  Commander](@/glossary/supreme-commander.md) – agenti nejvyšší úrovně.
+- [Color Teams](@/glossary/color-teams.md) – bezpečnostní agenti ve šesti týmech.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec chování
+  registrovaných agentů.
+- [AutoEvolve](@/glossary/autoevolve.md) a [AutoHeal](@/glossary/autoheal.md) – systémy
+  evoluce a samoopravy, které registr využívají.
 
-## Connect & Contribute
+**Kompendium**
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [AIAD integrace a detekce EA](@/kompendium/aiad-integration/_index.md) – jak agenti
+  platformy uplatňují taxonomii knihy.

@@ -91,7 +91,7 @@ příznaky jsou skutečné a dávají smysl“.
   příznaků a vyšetření sestavená z dokumentace.
 - **S2 – Externalizace introjektů:** věty „přeháním“, „jsem hypochondr“ přiřazeny konkrétním
   situacím, kde zazněly.
-- **S3 – Rekonstrukce metakognice:** obnova [interoceptivní důvěry](@/kompendium/self-defense-guides/13-somatic-awareness.md),
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova [interoceptivní důvěry](@/kompendium/self-defense-guides/13-somatic-awareness.md),
   deník příznaků jako vnější kotva.
 - **S4 – Hermeneutická obnova:** nový vztah ke zdravotní péči – ani slepá důvěra, ani paušální
   odmítání.

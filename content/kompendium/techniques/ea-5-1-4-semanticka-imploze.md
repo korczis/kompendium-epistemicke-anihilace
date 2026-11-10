@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.4 Sémantická imploze"
-description = "Detailní per-technique článek: technika sémantické imploze — systematický kolaps významů slov a pojmů takovým způsobem, že dříve stabilní termíny odkazují k ničemu nebo simultánně k protichůdným referentům, čímž je podkopán lingvistický substrát myšlení. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika sémantické imploze — systematický kolaps významů slov a pojmů takovým způsobem."
 weight = 514
 insert_anchor_links = "right"
 
@@ -89,7 +89,7 @@ Co prožívá subjekt **uvnitř** sémantické imploze:
 | Tentýž termín je **v jediném sezení** použit v neslučitelných významech bez vědomí rozporu | Generalizovaný kolaps |
 | Subjekt produkuje **syntakticky správné, sémanticky prázdné** věty | "Slovní pěna" jako symptom |
 | **Vyhýbání se** dříve běžným termínům, nahrazování perifrázemi | Lexikální únava |
-| Subjekt reportuje **mystický prožitek** souvislosti s rozpadem jazyka | Reinterpretace destrukce jako insight |
+| Subjekt reportuje **[mystický prožitek](@/glossary/mysticky-prozitek.md)** souvislosti s rozpadem jazyka | Reinterpretace destrukce jako insight |
 
 ### Diferenciální detekce
 
@@ -182,7 +182,7 @@ Sémantická imploze je strukturálním motivem pro několik defenzivních mecha
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operational definitions check** — rozhodovací logika vyžaduje, aby klíčové pojmy v rozhodovacích rámcích měly **operacionalizovanou** definici. Kruhové nebo prázdné pojmy jsou flagovány jako epistemická červená vlajka.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) sémantická stabilita** — provenance tracking sleduje stabilitu definic klíčových termínů napříč epistemickou pipeline; významový posun je auditovatelný.
-- **[Color Teams](@/glossary/color-teams.md) lingvistická forenzika** — Red Team explicitně testuje sémantickou stabilitu argumentačních rámců; imploudované termíny jsou triggerem pro hlubší audit.
+- **[Color Teams](@/glossary/color-teams.md) lingvistická forenzika** — [Red Team](@/glossary/red-team.md) explicitně testuje sémantickou stabilitu argumentačních rámců; imploudované termíny jsou triggerem pro hlubší audit.
 - **Glossary jako referenční kotva** — platformový [glosář](@/glossary/_index.md) udržuje **explicitní, verzované** definice klíčových termínů jako institucionální obranu proti imploznímu drift.
 
 ## Související

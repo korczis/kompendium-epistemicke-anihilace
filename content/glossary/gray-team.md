@@ -1,53 +1,53 @@
 +++
-title = "Gray Team"
+title = "Gray Team (šedý tým)"
 weight = 22
-description = "Boundary exploration team for specification gaps, edge cases, and affordance drift"
+description = "Tým platformy Prismatic, který jen čtením zkoumá mezery ve specifikacích, okrajové případy a drift možností; v knize vzor pro hledání nejednoznačností, jež manipulace zneužívá."
 
 [taxonomies]
-tags = ["glossary", "security", "gray-team", "prismatic"]
+tags = ["glossary", "security", "gray-team", "prismatic", "color-teams"]
 
 [extra]
 category = "security"
 related_terms = ["color-teams", "red-team", "nabla-infinity", "black-team", "blue-team", "purple-team"]
 author = "Tomas Korcak (korczis)"
-reading_time = "8 min"
-word_count = 1536
+reading_time = "9 min"
+word_count = 1709
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Gray", "Team", "Boundary", "glossary", "security", "Prismatic Platform", "Gray Team", "Color Team", "Red Team"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Gray Team - Prismatic Platform"
+image_alt = "Gray Team – platforma Prismatic"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-The Gray Team is a specialized Color Team of 3 agents that performs read-only exploration of specification gaps, edge cases, and affordance drift within the Prismatic Platform's adversarial-defensive security ecosystem. Operating at the earliest stage of the Color Team signal flow, Gray Team surfaces ambiguity without resolving it, feeding boundary seeds into the Red Team pipeline for adversarial scenario generation and informing Blue Team defensive posture assessment. All Gray operations enforce strict zero state changes to the systems under analysis, ensuring that exploration never introduces risk or side effects.
+**Gray Team** (šedý tým) je specializovaný tým v rámci [Color Teams](@/glossary/color-teams.md) platformy Prismatic, z níž kniha vzešla. Tvoří jej tři agenti a provádí **výhradně čtecí** průzkum mezer ve specifikacích, okrajových případů a *driftu možností* (*affordance drift*) v bezpečnostním ekosystému platformy, který spojuje útočný a obranný přístup. Gray Team působí v nejranější fázi toku signálů mezi barevnými týmy: nejednoznačnost odhaluje, ale neřeší; předává „zárodky hranic“ do pipeline [Red Team](@/glossary/red-team.md), která z nich vytváří nepřátelské scénáře, a podkládá hodnocení obranného postoje [Blue Team](@/glossary/blue-team.md). Všechny operace šedého týmu přísně vyžadují **nulovou změnu stavu** zkoumaných systémů, takže průzkum nikdy nevnáší riziko ani vedlejší účinky.
 
-Gray Team represents a fundamental insight in security engineering: the most dangerous vulnerabilities often exist not in code that is clearly wrong, but in specifications that are ambiguously defined. A function that "should validate input" may have no specification for what happens when input is null, empty, partially valid, or encoding-ambiguous. These specification gaps create affordances -- unintended capabilities that emerge from the interaction between ambiguous specifications and implementation choices. Gray Team systematically discovers these affordances before adversaries exploit them.
+Gray Team ztělesňuje základní poznatek bezpečnostního inženýrství: nejnebezpečnější zranitelnosti často neleží v kódu, který je zjevně chybný, ale ve specifikacích, které jsou nejednoznačné. Funkce, která „má validovat vstup“, nemusí mít specifikováno, co se stane, je-li vstup prázdný, `null`, částečně platný nebo nejednoznačný v kódování. Takové mezery ve specifikaci vytvářejí *možnosti* (*affordances*) – nezamýšlené schopnosti, které vznikají ze souhry nejednoznačné specifikace a implementačních rozhodnutí. Gray Team je soustavně odhaluje dřív, než je zneužije protivník.
 
-The team's read-only constraint is both a safety measure and a philosophical position. Gray Team does not fix problems, exploit vulnerabilities, or even categorize findings as "good" or "bad." It catalogs ambiguity in its raw form, preserving the NABLA Infinity axiom of contradiction preservation. A specification gap might be a vulnerability, a feature, or both simultaneously. By preserving this ambiguity, Gray Team ensures that downstream teams (Red, Blue, Purple) receive unbiased boundary intelligence.
+Omezení na čtení je zároveň bezpečnostním opatřením i filozofickým postojem. Gray Team neopravuje problémy, nezneužívá zranitelnosti a nálezy ani netřídí na „dobré“ a „špatné“. Katalogizuje nejednoznačnost v surové podobě a zachovává tak axiom [NABLA Infinity](@/glossary/nabla-infinity.md) o **zachování rozporu**. Mezera ve specifikaci může být zranitelností, funkcí, nebo obojím zároveň. Tím, že ji Gray Team nechá nejednoznačnou, zajišťuje, že navazující týmy (Red, Blue, [Purple](@/glossary/purple-team.md)) dostávají nezkreslené informace o hranicích.
 
-Affordance drift is Gray Team's most sophisticated detection capability. Affordance drift occurs when the practical capabilities of a system gradually diverge from its intended capabilities through accumulated small changes, dependency updates, configuration modifications, or environmental changes. Each individual change is too small to trigger security review, but the cumulative effect creates an attack surface that no one designed or authorized. Gray Team detects this drift by comparing current system behavior against historical specifications, identifying capabilities that exist in implementation but not in design documents.
+Nejpropracovanější schopností šedého týmu je detekce **driftu možností**. Ten nastává, když se praktické schopnosti systému postupně odchylují od zamýšlených – nahromaděním drobných změn, aktualizací závislostí, úprav konfigurace nebo změn prostředí. Každá jednotlivá změna je příliš malá na to, aby spustila bezpečnostní revizi, ale kumulativní účinek vytvoří útočnou plochu, kterou nikdo nenavrhl ani neschválil. Gray Team drift odhaluje porovnáním současného chování systému s historickými specifikacemi a hledáním schopností, které existují v implementaci, ale ne v návrhových dokumentech.
 
-## Technical Deep Dive
+## Technický rozbor
 
-### Agent Architecture
+### Architektura agentů
 
-Gray Team consists of three agents with distinct roles and authority levels:
+Gray Team tvoří tři agenti s odlišnými rolemi a úrovněmi pravomoci:
 
-| Agent | Authority Level | Role | Key Capability |
+| agent | úroveň pravomoci | role | klíčová schopnost |
 |-------|----------------|------|----------------|
-| `gray-explorer-commander` | L3 Strategic Commander | Campaign orchestration | Routes findings to Red/Blue/Purple, prioritizes exploration targets |
-| `gray-edge-finder` | L4 Specialist | Boundary analysis | Specification gap identification, edge case discovery, boundary value analysis |
-| `gray-escalation-guard` | L4 Safety-Critical | Scope enforcement | Override authority to halt any Gray operation approaching Black territory |
+| `gray-explorer-commander` | L3 strategický velitel | orchestrace kampaní | směruje nálezy do Red/Blue/Purple, určuje priority průzkumu |
+| `gray-edge-finder` | L4 specialista | analýza hranic | hledání mezer ve specifikaci, okrajových případů, analýza hraničních hodnot |
+| `gray-escalation-guard` | L4 bezpečnostně kritický | vynucování rozsahu | pravomoc zastavit jakoukoli operaci šedého týmu, která se blíží území Black Team |
 
-The L3/L4 authority levels are significant. The commander (L3) has strategic decision-making authority for campaign planning and finding routing, while the specialists (L4) have focused execution authority within their domains. The escalation guard's L4 safety-critical designation gives it override authority over both the commander and the edge finder, ensuring that safety constraints cannot be circumvented by command authority.
+Úrovně pravomoci L3/L4 jsou podstatné. Velitel (L3) má strategickou rozhodovací pravomoc pro plánování kampaní a směrování nálezů, specialisté (L4) mají soustředěnou výkonnou pravomoc ve svých oblastech. Označení strážce eskalace jako bezpečnostně kritického L4 mu dává pravomoc přebít velitele i hledače hran, takže bezpečnostní omezení nelze obejít velitelskou pravomocí. Úrovně popisuje [Agent Tier](@/glossary/agent-tier.md).
 
-### Exploration Methodology
+### Metodika průzkumu
 
-Gray Team exploration follows a structured five-phase methodology:
+Průzkum šedého týmu probíhá podle strukturované pětifázové metodiky:
 
 ```mermaid
 flowchart TD
@@ -72,9 +72,9 @@ flowchart TD
   style PURPLE fill:#7c3aed,stroke:#a855f7,color:#fff
 ```
 
-### Finding Structure
+### Struktura nálezu
 
-Gray Team findings follow a structured format that preserves ambiguity while providing actionable intelligence:
+Nálezy šedého týmu mají strukturovaný formát, který zachovává nejednoznačnost a přitom dává použitelnou informaci:
 
 ```elixir
 defmodule PrismaticGray.Finding do
@@ -125,9 +125,9 @@ defmodule PrismaticGray.Finding do
 end
 ```
 
-### Boundary Value Analysis
+### Analýza hraničních hodnot
 
-The edge finder agent performs systematic boundary value analysis on platform interfaces:
+Agent hledající hrany provádí soustavnou analýzu hraničních hodnot na rozhraních platformy:
 
 ```elixir
 defmodule PrismaticGray.EdgeFinder do
@@ -193,9 +193,9 @@ defmodule PrismaticGray.EdgeFinder do
 end
 ```
 
-### Escalation Guard
+### Strážce eskalace
 
-The escalation guard is the safety-critical component that prevents Gray Team exploration from crossing into Black Team territory:
+Strážce eskalace je bezpečnostně kritická složka, která brání tomu, aby průzkum šedého týmu přešel na území [Black Team](@/glossary/black-team.md):
 
 ```elixir
 defmodule PrismaticGray.EscalationGuard do
@@ -263,11 +263,11 @@ defmodule PrismaticGray.EscalationGuard do
 end
 ```
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### Signal Flow Integration
+### Začlenění do toku signálů
 
-Gray Team operates at the entry point of the Color Team signal flow:
+Gray Team působí na vstupním bodě toku signálů barevných týmů:
 
 ```mermaid
 flowchart LR
@@ -285,26 +285,26 @@ flowchart LR
   style D fill:#15803d,stroke:#22c55e,color:#fff
 ```
 
-Every finding emitted by Gray Team flows into the Color Team ecosystem. The commander decides routing based on finding characteristics: specification gaps typically route to Red Team for adversarial exploitation analysis, edge cases route to Blue Team for defensive hardening, and affordance drift routes to Purple Team for synthesis and trend analysis.
+Každý nález šedého týmu vstupuje do ekosystému barevných týmů. Velitel rozhoduje o směrování podle povahy nálezu: mezery ve specifikaci obvykle míří do Red Team k analýze zneužitelnosti, okrajové případy do Blue Team k obrannému zpevnění a drift možností do Purple Team k syntéze a analýze trendů.
 
-### Campaign Management
+### Řízení kampaní
 
-Gray Team organizes exploration into campaigns -- structured investigations of specific platform areas:
+Gray Team organizuje průzkum do kampaní – strukturovaných šetření určitých oblastí platformy:
 
-| Campaign Type | Duration | Scope | Output |
+| typ kampaně | trvání | rozsah | výstup |
 |--------------|----------|-------|--------|
-| **Module Audit** | 1-4 hours | Single module or application | Function-level boundary findings |
-| **Interface Survey** | 4-8 hours | Cross-application boundaries | Protocol and API gap inventory |
-| **Drift Assessment** | Periodic (weekly) | Platform-wide | Affordance drift trend report |
-| **Dependency Scan** | On dependency update | Changed dependency surface | New boundary introduction report |
+| **audit modulu** | 1–4 hodiny | jeden modul nebo aplikace | nálezy hranic na úrovni funkcí |
+| **průzkum rozhraní** | 4–8 hodin | hranice mezi aplikacemi | soupis mezer v protokolech a API |
+| **hodnocení driftu** | periodicky (týdně) | celá platforma | zpráva o trendu driftu možností |
+| **sken závislostí** | při aktualizaci závislosti | změněná plocha závislosti | zpráva o nově zavedených hranicích |
 
-## Usage in Prismatic Platform
+## Použití na platformě Prismatic
 
-Within the Prismatic Platform's 434-agent ecosystem, Gray Team provides foundational boundary intelligence that informs all security operations. The team's findings are particularly valuable for:
+V ekosystému agentů platformy (v době zápisu 434 agentů) poskytuje Gray Team základní informace o hranicích, z nichž vycházejí všechny bezpečnostní operace. Jeho nálezy jsou zvlášť cenné v následujících oblastech.
 
-### Quality Gate Enhancement
+### Posílení bran kvality
 
-Gray Team findings identify gaps in quality gate coverage. When a specification gap is discovered, it often indicates a missing test case or an incomplete type specification. These findings feed back into the quality enforcement system:
+Nálezy šedého týmu odhalují mezery v pokrytí bran kvality. Objevená mezera ve specifikaci často ukazuje na chybějící testovací případ nebo neúplnou typovou specifikaci. Tyto nálezy se vracejí do systému vynucování kvality:
 
 ```elixir
 defmodule PrismaticGray.QualityFeedback do
@@ -336,82 +336,84 @@ defmodule PrismaticGray.QualityFeedback do
 end
 ```
 
-### NABLA Compliance
+### Soulad s NABLA
 
-Gray Team operations are governed by the NABLA Infinity epistemic framework. The contradiction preservation axiom is particularly relevant: Gray Team preserves ambiguous findings in their raw form rather than resolving them prematurely. A finding that could be either a vulnerability or a feature is emitted as ambiguous, allowing downstream teams to evaluate it from their respective perspectives.
+Operace šedého týmu se řídí epistemickým rámcem NABLA Infinity. Zvlášť relevantní je axiom zachování rozporu: Gray Team zachovává nejednoznačné nálezy v surové podobě a neřeší je předčasně. Nález, který může být zranitelností i funkcí, je vydán jako nejednoznačný, aby jej navazující týmy mohly posoudit každý ze své perspektivy.
 
-### Telemetry and Monitoring
+### Telemetrie a monitoring
 
-All Gray Team operations emit telemetry events for observability:
+Všechny operace šedého týmu vysílají telemetrické události pro pozorovatelnost:
 
-| Event | Measurements | Metadata |
+| událost | měření | metadata |
 |-------|-------------|----------|
 | `[:prismatic, :gray_team, :exploration, :start]` | `%{target_count: n}` | `%{campaign: name}` |
 | `[:prismatic, :gray_team, :finding]` | `%{severity: s, category: c}` | `%{target: t}` |
 | `[:prismatic, :gray_team, :escalation, :review]` | `%{risk: r}` | `%{level: l, result: r}` |
 | `[:prismatic, :gray_team, :exploration, :complete]` | `%{duration: d, findings: n}` | `%{campaign: name}` |
 
-## Best Practices
+## Osvědčené postupy
 
-**Maintain strict read-only discipline.** Gray Team must never modify the systems it explores. Even seemingly harmless state changes (creating test records, writing logs) can alter system behavior and contaminate findings. Read-only enforcement should be verified through process isolation and access control.
+**Dodržovat přísnou kázeň čtení.** Gray Team nikdy nesmí měnit systémy, které zkoumá. I zdánlivě neškodné změny stavu (vytvoření testovacích záznamů, zápis do logů) mohou změnit chování systému a kontaminovat nálezy. Vynucení pouhého čtení se má ověřovat izolací procesů a řízením přístupu.
 
-**Preserve ambiguity in findings.** Resist the urge to classify findings as "vulnerabilities" or "non-issues" at the Gray Team level. The ambiguity note field exists for a reason. Premature classification introduces bias that can cause downstream teams to miss important signals.
+**Zachovávat nejednoznačnost nálezů.** Odolat nutkání třídit nálezy na úrovni šedého týmu jako „zranitelnosti“ nebo „neproblémy“. Pole poznámky o nejednoznačnosti existuje z dobrého důvodu: předčasná klasifikace vnáší zkreslení, kvůli kterému mohou navazující týmy přehlédnout důležité signály.
 
-**Rotate exploration targets systematically.** Avoid the tendency to repeatedly explore familiar areas. Use the campaign management system to ensure comprehensive coverage across all platform applications, interfaces, and dependency surfaces.
+**Soustavně obměňovat cíle průzkumu.** Vyhýbat se sklonu opakovaně zkoumat známé oblasti. Systém řízení kampaní má zajistit úplné pokrytí všech aplikací, rozhraní a ploch závislostí platformy.
 
-**Document specification sources.** When identifying a gap, document what specification the gap is relative to. A gap between code behavior and documentation is different from a gap between code behavior and type specifications. The source of the specification affects how downstream teams evaluate the finding.
+**Dokumentovat zdroj specifikace.** Při zjištění mezery zaznamenat, vůči jaké specifikaci mezera existuje. Mezera mezi chováním kódu a dokumentací je jiná než mezera mezi chováním kódu a typovou specifikací; zdroj specifikace ovlivňuje, jak nález posoudí navazující týmy.
 
-**Calibrate escalation thresholds conservatively.** The escalation guard should block liberally rather than conservatively. A blocked finding that was actually safe costs nothing; a passed finding that crosses into Black territory compromises the safety model.
+**Nastavovat prahy eskalace opatrně.** Strážce eskalace má blokovat spíše štědře než zdrženlivě. Zablokovaný nález, který byl ve skutečnosti bezpečný, nestojí nic; propuštěný nález, který přejde na území Black Team, ohrozí bezpečnostní model.
 
-## Common Pitfalls
+## Časté chyby
 
-**Confusing exploration with exploitation.** Gray Team discovers boundaries; it does not cross them. If an edge case causes a crash, Gray Team reports the crash boundary. It does not attempt to craft inputs that reliably trigger the crash, as that is Red Team's domain.
+**Záměna průzkumu se zneužitím.** Gray Team hranice objevuje, nepřekračuje je. Způsobí-li okrajový případ pád, Gray Team ohlásí hranici pádu; nepokouší se sestavit vstupy, které by pád spolehlivě vyvolaly – to je doménou Red Team.
 
-**Overwhelming downstream teams with low-severity findings.** Comprehensive boundary analysis can produce hundreds of informational findings. Without severity filtering and prioritization, downstream teams cannot process the volume. Use the commander's routing intelligence to filter noise.
+**Zahlcení navazujících týmů nálezy nízké závažnosti.** Úplná analýza hranic může vytvořit stovky informativních nálezů. Bez filtrování podle závažnosti a stanovení priorit je navazující týmy nezpracují. Šum má filtrovat směrovací logika velitele.
 
-**Neglecting affordance drift detection.** Specification gap analysis is more immediately satisfying than drift detection, but drift is often more dangerous because it represents silent, gradual degradation of the security posture. Ensure drift assessment campaigns run regularly.
+**Opomíjení detekce driftu možností.** Analýza mezer ve specifikaci přináší rychlejší uspokojení než detekce driftu, drift je však často nebezpečnější, protože představuje tichou a postupnou degradaci bezpečnostního postoje. Kampaně hodnocení driftu musí probíhat pravidelně.
 
-**Underestimating the escalation guard's authority.** The escalation guard has override authority over the commander. Attempts to circumvent the guard (splitting findings to reduce individual risk scores, reframing findings to avoid trigger patterns) undermine the safety model and should be treated as violations.
+**Podcenění pravomoci strážce eskalace.** Strážce eskalace má pravomoc přebít velitele. Pokusy jej obejít (rozdělením nálezu, aby se snížilo dílčí [rizikové skóre](@/glossary/risk-score.md), nebo přerámováním nálezu, aby se vyhnul spouštěcím vzorcům) podkopávají bezpečnostní model a mají se považovat za porušení.
 
-**Static exploration without temporal context.** Boundaries change over time as code evolves. Gray Team findings should include temporal context: when was this boundary introduced, has it changed recently, is it trending toward or away from specification compliance.
+**Statický průzkum bez časového kontextu.** Hranice se mění s vývojem kódu. Nálezy mají obsahovat časový kontext: kdy hranice vznikla, zda se nedávno změnila, zda směřuje ke specifikaci, nebo od ní.
 
-## Integration with Platform Systems
+## Začlenění do systémů platformy
 
-Gray Team findings integrate with multiple platform systems beyond the Color Team ecosystem. The discovery of specification gaps triggers updates to the Quality DNA system, which tracks quality trends across sessions. Boundary conditions identified by Gray Team become inputs for property-based testing frameworks, ensuring that edge cases are systematically tested in future development cycles.
+Nálezy šedého týmu se začleňují i do dalších systémů mimo ekosystém barevných týmů. Objev mezery ve specifikaci spouští aktualizace systému Quality DNA, který sleduje trendy kvality napříč sezeními. Hraniční podmínky zjištěné šedým týmem se stávají vstupy pro testování založené na vlastnostech, takže okrajové případy se v dalších vývojových cyklech soustavně testují.
 
-The platform's autoheal system consumes Gray Team findings to identify self-healing opportunities. If Gray Team discovers that a function gracefully handles a boundary condition that is not formally specified, the autoheal system may propose formalizing that behavior through specification updates and test coverage enhancement.
+Systém [AutoHeal](@/glossary/autoheal.md) využívá nálezy šedého týmu k nalezení příležitostí k samoopravě. Zjistí-li Gray Team, že funkce korektně zvládá hraniční podmínku, která není formálně specifikována, AutoHeal může navrhnout formalizaci tohoto chování aktualizací specifikace a rozšířením testů.
 
-Gray Team also contributes to the SEADF (Scanner, Pipeline, Quality Guardian, Knowledge Sync, Cross-Domain Innovator, Autonomous Reporter, Enhanced Healing) framework's knowledge synchronization component. Boundary discoveries feed into cross-domain pattern recognition, helping identify when similar specification gaps exist across different applications or modules.
+Gray Team přispívá také do složky synchronizace znalostí rámce SEADF (*Scanner, Pipeline, Quality Guardian, Knowledge Sync, Cross-Domain Innovator, Autonomous Reporter, Enhanced Healing*). Objevené hranice vstupují do rozpoznávání vzorců napříč doménami a pomáhají určit, kdy podobné mezery ve specifikaci existují v různých aplikacích nebo modulech.
 
-## Performance and Scalability Characteristics
+## Výkon a škálovatelnost
 
-Gray Team exploration is designed to scale with the platform's growth. The current 3-agent configuration handles the analysis of 115 umbrella applications effectively, but the architecture supports horizontal scaling. Additional edge finder agents can operate in parallel on different modules or application domains, with the commander coordinating assignment and deduplication.
+Průzkum šedého týmu je navržen tak, aby rostl s platformou. Konfigurace se třemi agenty v době zápisu zvládala analýzu 115 aplikací umbrella projektu, architektura však podporuje horizontální škálování: další hledači hran mohou paralelně pracovat na různých modulech nebo doménách aplikací a velitel koordinuje přidělování a odstraňování duplicit.
 
-Exploration performance varies by campaign type. Module audits typically complete in 1-4 hours for applications with 10-50 modules. Interface surveys require 4-8 hours to comprehensively map cross-application boundaries. The weekly affordance drift assessment completes overnight, analyzing the entire platform for accumulated behavioral changes.
+Výkon průzkumu se liší podle typu kampaně. Audity modulů obvykle trvají 1–4 hodiny u aplikací s 10–50 moduly. Průzkumy rozhraní vyžadují 4–8 hodin k úplnému zmapování hranic mezi aplikacemi. Týdenní hodnocení driftu možností proběhne přes noc a analyzuje celou platformu na nahromaděné změny chování.
 
-The escalation guard introduces minimal overhead -- less than 50ms per finding review. However, its audit trail provides valuable telemetry for understanding Gray Team effectiveness and calibrating escalation thresholds over time.
+Strážce eskalace přidává minimální režii – méně než 50 ms na posouzení nálezu. Jeho auditní stopa přitom poskytuje cennou telemetrii pro pochopení účinnosti šedého týmu a pro kalibraci prahů eskalace v čase.
 
-## Related Concepts
+## Význam pro Kompendium
 
-- [Color Teams](@/glossary/color-teams.md) -- Full overview of all 6 adversarial-defensive security teams
-- [Red Team](@/glossary/red-team.md) -- Consumes Gray boundary seeds for adversarial scenario generation
-- [Blue Team](@/glossary/blue-team.md) -- Defensive team informed by Gray boundary discoveries
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis team incorporating Gray findings into closure analysis
-- [Black Team](@/glossary/black-team.md) -- Isolated team whose access Gray's escalation guard protects
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing boundary exploration methodology
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Quality enforcement enhanced by Gray Team findings
+Gray Team je technický pojem platformy, ale jeho logika má v knize přímou obdobu. Manipulace často nepracuje se zjevnou lží, nýbrž s **nejednoznačností**: s nedefinovanými pojmy, s pravidly, která „platí, jak se to hodí“, s mezerami mezi tím, co skupina tvrdí, a tím, co dělá. Kompendium tyto mezery popisuje například jako [terminologickou mystifikaci](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) nebo [rozšiřování rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md). Drift možností má obdobu v postupném posouvání norem v kontrolujících vztazích a organizacích: každý krok je malý, výsledek nikdo neschválil. Použití šedého týmu při hledání okrajových případů EA popisuje [Gray Team a okrajové případy EA](@/kompendium/aiad-integration/gray-team-ea-edge-cases.md).
 
-## See Also
+## Související
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- AIAD agents including Gray Team members
+**Barevné týmy**
 
----
+- [Color Teams](@/glossary/color-teams.md) – úplný přehled šesti útočně-obranných bezpečnostních týmů.
+- [Red Team](@/glossary/red-team.md) – zpracovává zárodky hranic od šedého týmu do nepřátelských scénářů.
+- [Blue Team](@/glossary/blue-team.md) – obranný tým, kterému objevy hranic slouží.
+- [Purple Team](@/glossary/purple-team.md) – syntetický tým, který nálezy začleňuje do analýzy uzavření.
+- [Black Team](@/glossary/black-team.md) – izolovaný tým, jehož přístup chrání strážce eskalace.
 
-## Connect & Contribute
+**Platforma a kniha**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec, který řídí metodiku průzkumu hranic.
+- [Gray Team a okrajové případy EA](@/kompendium/aiad-integration/gray-team-ea-edge-cases.md) – použití v kontextu Kompendia.
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – nejednoznačnost jako manipulační technika.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+**Mimo knihu (web platformy)**
+
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) – vynucování kvality posílené nálezy šedého týmu.
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – přehled architektury platformy.
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) – technologický zásobník.
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) – agenti AIAD včetně členů šedého týmu.

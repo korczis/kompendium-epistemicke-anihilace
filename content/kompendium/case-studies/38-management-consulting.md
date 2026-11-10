@@ -92,7 +92,7 @@ někdo popsal jeho stav jinak než jako „náročné období před povýšením
   rytmu práce a užívání látek.
 - **S2 – Externalizace introjektů:** věty „kdo nepostupuje, selhal“, „spánek je pro slabé“
   odděleny od vlastních hodnot.
-- **S3 – Rekonstrukce metakognice:** vlastní měřítka úspěchu nezávislá na srovnání s
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** vlastní měřítka úspěchu nezávislá na srovnání s
   vrstevníky.
 - **S4 – Hermeneutická obnova:** nový výklad kariéry; uznání dovedností bez nutnosti hájit
   celý systém.

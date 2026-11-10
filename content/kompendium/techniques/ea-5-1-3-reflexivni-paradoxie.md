@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.3 Reflexivní paradoxie"
-description = "Detailní per-technique článek: technika reflexivní paradoxie — indukce paradoxních struktur do subjektova sebereflexivního procesu, vedoucí k metakognitivní paralýze. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika reflexivní paradoxie — indukce paradoxních struktur do subjektova sebereflexivního procesu, vedoucí k metakognitivní paralýze."
 weight = 513
 insert_anchor_links = "right"
 
@@ -51,7 +51,7 @@ Technika operuje v pěti krocích, jejichž cyklus je iterován s rostoucí inte
 
 ### Krok 1 — Etablování meta-kompetence manipulátora
 
-Manipulátor se etabluje jako **mistr metakognice**: ten, kdo „vidí, jak člověk myslí o myšlení“. Tato role je obvykle prezentována jako mentorská, terapeutická, nebo doktrinální. Klíčové je, že subjekt přijímá, že **on sám** v meta-úrovni operuje **méně kompetentně** než manipulátor.
+Manipulátor se etabluje jako **mistr [metakognice](@/glossary/metakognice.md)**: ten, kdo „vidí, jak člověk myslí o myšlení“. Tato role je obvykle prezentována jako mentorská, terapeutická, nebo doktrinální. Klíčové je, že subjekt přijímá, že **on sám** v meta-úrovni operuje **méně kompetentně** než manipulátor.
 
 ### Krok 2 — Indukce primárního paradoxu
 

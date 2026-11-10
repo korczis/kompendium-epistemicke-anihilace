@@ -26,7 +26,7 @@ a dalšího vzdělávání učitelů, hodnocení výsledků, financování a pra
 a vysokých škol. Pro prevenci EA má dvě funkce:
 
 1. **rozvoj epistemických dovedností populace** – kritického myšlení, mediální gramotnosti,
-   metakognice a schopnosti nesouhlasit bez ztráty vztahu
+   [metakognice](@/glossary/metakognice.md) a schopnosti nesouhlasit bez ztráty vztahu
    ([školní kurikulum](@/kompendium/population-health/13-school-curriculum-EA.md));
 2. **ochrana před epistemickými útoky uvnitř vzdělávacích institucí** – od šikany a
    manipulativních vztahů mezi učitelem a žákem až po akademické formy EA

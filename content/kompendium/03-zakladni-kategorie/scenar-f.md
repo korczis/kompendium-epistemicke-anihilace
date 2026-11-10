@@ -1,6 +1,6 @@
 +++
 title = "3.2.F Scénář F: Kolektivní epistemická delegitimizace"
-description = "Detailní rozpracování Scénáře F — systematický proces podkopávání epistemické integrity celé skupiny nebo komunity prostřednictvím koordinovaných technik narušujících sdílené epistemické standardy a autority."
+description = "Detailní rozpracování Scénáře F — systematický proces podkopávání epistemické integrity celé skupiny nebo komunity prostřednictvím koordinovaných technik narušujících sdílené epistemické standardy a…"
 weight = 6
 insert_anchor_links = "right"
 
@@ -21,7 +21,7 @@ ea_code = "EA-3.2.F"
 
 **EA kód**: `EA-3.2.F` | **Cílová úroveň**: Skupina / komunita | **Časový rozsah**: měsíce – roky | **Reverzibilita**: Nízká
 
-Scénář kolektivní epistemické delegitimizace reprezentuje **systematický proces podkopávání epistemické integrity celé skupiny nebo komunity** prostřednictvím koordinovaných technik, které narušují sdílené epistemické standardy a autority. Tento scénář je zvláště nebezpečný, neboť **narušuje ochranné efekty kolektivní epistemické resilience** — defenzivní kapacitu, kterou jednotlivec sám není schopen poskytnout.
+Scénář kolektivní epistemické [delegitimizace](@/glossary/delegitimizace.md) reprezentuje **systematický proces podkopávání epistemické integrity celé skupiny nebo komunity** prostřednictvím koordinovaných technik, které narušují sdílené epistemické standardy a autority. Tento scénář je zvláště nebezpečný, neboť **narušuje ochranné efekty kolektivní epistemické resilience** — defenzivní kapacitu, kterou jednotlivec sám není schopen poskytnout.
 
 ## Teoretický základ
 
@@ -51,7 +51,7 @@ Strukturální útok proto **nezasahuje argumenty přímo**, ale **podkopává i
 
 | Forma | Cíl | Metoda |
 |-------|-----|--------|
-| **Propaganda** | Konkrétní přesvědčení | Repetice, emoční apel |
+| **[Propaganda](@/glossary/propaganda.md)** | Konkrétní přesvědčení | Repetice, emoční apel |
 | **Dezinformace** | Faktická báze | Falešná tvrzení |
 | **Kolektivní delegitimizace** (EA-3.2.F) | Struktura komunity | Erozní podkopávání autorit |
 | **Kognitivní dekonstrukce** ([EA-3.2.G](@/kompendium/03-zakladni-kategorie/scenar-g.md)) | Individuální kognice | Destabilizace kategorií |
@@ -227,7 +227,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 | **Komunita s vnitřními napětími** | Žádná komunita není dokonale homogenní — útok exploituje existující rozpory |
 | **Strategická trpělivost** | Útočníci jsou ochotni operovat v horizontu let až dekád |
 | **Materiální zdroje** | Koordinace napříč mnoha aktéry vyžaduje financování |
-| **Sociální izolace cíle** | Omezený přístup komunity k alternativním epistemickým komunitám |
+| **[Sociální izolace](@/glossary/socialni-izolace.md) cíle** | Omezený přístup komunity k alternativním epistemickým komunitám |
 
 Komunita, která má **robustní mechanismy** v každé z těchto dimenzí, je výrazně odolnější — viz preventivní strategie.
 
@@ -249,7 +249,7 @@ Kolektivní delegitimizaci je nutno odlišit od:
 |---------------------|-------------------|
 | **Legitimní paradigmatický posun** | Postupuje skrze substantivní argumenty, ne strukturální podkopávání |
 | **Generační výměna** | Není koordinovaná, postupuje přirozenou demografií |
-| **Disciplinární diferenciace** | Nezahrnuje delegitimizaci, ale rozštěpení do koexistujících podskupin |
+| **Disciplinární [diferenciace](@/glossary/diferenciace.md)** | Nezahrnuje delegitimizaci, ale rozštěpení do koexistujících podskupin |
 | **Externí krize legitimity** | Externí kritika je obvykle koherentní, ne fragmentující |
 | **Vědecká revoluce** (Kuhn) | Postupuje skrze vyšší vysvětlovací sílu nového paradigmatu, ne destabilizaci |
 

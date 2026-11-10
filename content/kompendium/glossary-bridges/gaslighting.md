@@ -22,7 +22,7 @@ quality_score = 75
 
 ## Definition
 
-Gaslighting je manipulační technika systematicky erodující vnímání reality, paměti a důvěry v sebe samého oběti. Klasický příklad coercive control patternu — manipulátor opakovaně popírá události, mění dohody, a zpochybňuje oběťovo vnímání. Psychologický dopad: epistemická dezorientace, hypervigilance, ztráta self-trust. V Prismatic Kompendiu mapováno na EA-1-3-2 (indukovaná pochybnost) a EA-1-6 (pseudoempatická vazba). Detection: paradox between victim's documented experience vs manipulator's narrative.
+[Gaslighting](@/glossary/gaslighting.md) je manipulační technika systematicky erodující vnímání reality, paměti a důvěry v sebe samého oběti. Klasický příklad [coercive control](@/glossary/coercive-control.md) patternu — manipulátor opakovaně popírá události, mění dohody, a zpochybňuje oběťovo vnímání. Psychologický dopad: epistemická dezorientace, hypervigilance, ztráta self-trust. V Prismatic Kompendiu mapováno na EA-1-3-2 (indukovaná pochybnost) a EA-1-6 (pseudoempatická vazba). Detection: paradox between victim's documented experience vs manipulator's narrative.
 
 ## See Also
 

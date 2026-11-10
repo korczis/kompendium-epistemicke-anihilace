@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Epistemické trauma je psychologická a kognitivní zranění způsobené narušením subjektovy schopnosti důvěryhodně poznávat — typicky v důsledku gaslighting, deepfake-based deception, institutional betrayal, nebo soustavného popírání evidence. Liší se od fyzického nebo emocionálního traumatu lokalizací zranění v kognitivně-epistemické vrstvě self.
+Epistemické trauma je psychologická a kognitivní zranění způsobené narušením subjektovy schopnosti důvěryhodně poznávat — typicky v důsledku [gaslighting](@/glossary/gaslighting.md), [deepfake](@/glossary/deepfake.md)-based deception, institutional betrayal, nebo soustavného popírání evidence. Liší se od fyzického nebo emocionálního traumatu lokalizací zranění v kognitivně-epistemické vrstvě self.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -35,7 +35,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 - **Sekce 06 — Trauma kategorie**: epistemic vs. somatic vs. emotional
 - **Sekce 07 — Etiologie**: gaslighting, betrayal, deepfake harm
 - **Sekce 08 — Symptomy**: hypervigilance, source distrust, self-doubt
-- **Sekce 09 — Léčba**: epistemic re-empowerment, evidence-based reality testing
+- **Sekce 09 — Léčba**: epistemic re-empowerment, [evidence-based](@/glossary/evidence-based.md) [reality testing](@/glossary/reality-testing.md)
 - **Per-technique články**: screening tools, intervention protocols
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
@@ -48,7 +48,7 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 |---|---|---|
 | podtyp | Trauma | kategorie |
 | etiologie | Gaslighting, deepfake, betrayal | patogeneze |
-| souvisí | Epistemická alienace, injustice | downstream |
+| souvisí | [Epistemická alienace](@/glossary/epistemicka-alienace.md), injustice | downstream |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
 

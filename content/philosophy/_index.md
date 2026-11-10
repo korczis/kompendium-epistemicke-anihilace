@@ -1,6 +1,6 @@
 +++
 title = "Philosophical Foundations & Licensing Philosophy"
-description = "Explore the philosophical underpinnings of the Prismatic Platform, including intellectual sovereignty, epistemic frameworks, and the General Honest License (GHL) as a revolutionary approach to software licensing and code ethics"
+description = "Explore the philosophical underpinnings of the Prismatic Platform, including intellectual sovereignty, epistemic frameworks."
 weight = 5
 sort_by = "weight"
 template = "philosophy/list.html"
@@ -50,7 +50,7 @@ date_modified = "2026-02-23"
 
 ## Abstract
 
-This section explores the philosophical foundations that guide the Prismatic Platform's development, governance, and community engagement. At the heart of these foundations lies a revolutionary approach to software licensing and intellectual property through the **General Honest License (GHL)**, which represents a paradigm shift from traditional open-source models toward **intellectual sovereignty** and **meaning preservation**.
+This section explores the philosophical foundations that guide the Prismatic Platform's development, governance, and community engagement. At the heart of these foundations lies a revolutionary approach to software licensing and intellectual property through the **General Honest License (GHL)**, which represents a [paradigm shift](@/glossary/paradigm-shift.md) from traditional open-source models toward **intellectual sovereignty** and **meaning preservation**.
 
 The philosophical framework encompasses three primary domains: **Intellectual Sovereignty** (authorial independence, creative control, resistance to collaborative dilution), **Epistemic Integrity** (meaning preservation, boundary protection, semantic consistency), and **Ceremonial Computing** (conscious invocation, sworn commitments, ritual compliance). These principles challenge conventional assumptions about software as commons and position code as an extension of the creator's cognitive worldview.
 
@@ -232,23 +232,23 @@ The GHL framework has broader implications for how we understand software in rel
 
 ### Alignment with NO MERCY, NO DOUBTS
 
-The platform's core doctrine of **NO MERCY, NO DOUBTS** aligns perfectly with GHL philosophy:
+The platform's core [doctrine](@/glossary/doctrine.md) of **[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)** aligns perfectly with GHL philosophy:
 
 - **NO MERCY**: Zero tolerance for unauthorized usage or semantic corruption
 - **NO DOUBTS**: Clear boundaries and explicit requirements eliminate ambiguity
 
 ### Epistemic Framework Compatibility
 
-The **NABLA Infinity** epistemic framework supports GHL principles through:
+The **[NABLA Infinity](@/glossary/nabla-infinity.md)** epistemic framework supports GHL principles through:
 
-- **Signal Plurality**: Multiple sources validate proper invocation
+- **[Signal Plurality](@/glossary/signal-plurality.md)**: Multiple sources validate proper invocation
 - **Contradiction Preservation**: Both permission and restriction are maintained
 - **Provenance Mandatory**: All usage must be traceable to authorized grants
 - **Time Decay**: Permissions have explicit temporal boundaries
 
 ### Trinity Gate Validation
 
-All GHL-related decisions pass through the platform's Trinity Gate:
+All GHL-related decisions pass through the platform's [Trinity Gate](@/glossary/trinity-gate.md):
 
 1. **Structural Consistency**: License structure forms valid logical framework
 2. **Logical Consistency**: Permissions and restrictions follow logical rules

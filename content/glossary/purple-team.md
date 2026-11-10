@@ -1,10 +1,10 @@
 +++
-title = "Purple Team"
+title = "Purple Team (fialový tým)"
 weight = 21
-description = "Central synthesis hub with sole authority for Red-Blue loop closure and security finding resolution"
+description = "Ústřední syntetický uzel barevných týmů Prismatic Platform s výhradní pravomocí uzavírat smyčku Red–Blue a bezpečnostní nálezy."
 
 [taxonomies]
-tags = ["glossary", "security", "purple-team", "prismatic"]
+tags = ["glossary", "prismatic", "color-teams", "security", "agents"]
 
 [extra]
 category = "security"
@@ -32,61 +32,120 @@ author = "Tomas Korcak (korczis)"
 reading_time = "10 min"
 word_count = 2000
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Purple", "Team", "Central", "Red-Blue", "glossary", "security", "Prismatic Platform", "Purple Team", "Red Team", "Blue Team"]
 quality_score = 90
 image = "/images/sections/glossary.png"
-image_alt = "Purple Team - Prismatic Platform"
+image_alt = "Purple Team (fialový tým) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-The Purple Team is a specialized security operations unit that serves as the central synthesis hub between adversarial (Red) and defensive (Blue) security teams. Unlike traditional security models where Red and Blue teams operate independently, the Purple Team ensures continuous feedback loops, maps offensive findings to defensive capabilities, and holds sole authority for closure state transitions. This prevents premature dismissal of security findings and ensures that every identified vulnerability has been genuinely addressed rather than merely acknowledged.
+Purple Team (fialový tým) je specializovaná jednotka bezpečnostního provozu, která slouží jako
+ústřední syntetický uzel mezi útočným (Red) a obranným (Blue) bezpečnostním týmem. Na rozdíl
+od tradičních modelů, v nichž Red a Blue Team pracují nezávisle, zajišťuje Purple Team
+nepřetržité zpětné vazby, mapuje útočná zjištění na obranné schopnosti a má výhradní
+pravomoc k přechodům do stavu uzavření. Tím brání předčasnému odbytí bezpečnostních nálezů
+a zajišťuje, že každá zjištěná zranitelnost byla skutečně vyřešena, ne jen vzata na vědomí.
 
-In the broader cybersecurity industry, Purple Teaming emerged as a recognition that Red and Blue teams operating in isolation often fail to transfer knowledge effectively. Findings get lost, defenses remain untested against known attacks, and organizations develop blind spots. The Purple Team model solves this by creating a dedicated synthesis function that bridges offensive and defensive perspectives, ensuring that every attack scenario maps to a verified defense and every defense is validated against realistic threats.
+V širším odvětví kybernetické bezpečnosti vznikl purple teaming z poznání, že Red a Blue
+Team pracující izolovaně často nepředávají poznatky účinně. Zjištění se ztrácejí, obrana
+zůstává netestovaná proti známým útokům a organizace si vytvářejí slepá místa. Model
+Purple Teamu to řeší vyhrazenou syntetickou funkcí, která propojuje útočnou a obrannou
+perspektivu, aby každý scénář útoku odpovídal ověřené obraně a každá obrana byla ověřena
+proti realistickým hrozbám.
 
-The Prismatic Platform elevates the Purple Team concept beyond human-mediated workshops into a permanent, autonomous agent-driven synthesis layer. Within Prismatic, the Purple Team consists of four specialized agents operating at L3-L4 classification levels, continuously monitoring the Red-Blue loop and enforcing rigorous closure conditions that prevent false resolution of security findings. The team operates under the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine, applying zero-tolerance standards to finding closure and regression prevention.
+Prismatic Platform posouvá koncept Purple Teamu od workshopů řízených lidmi k trvalé,
+autonomní syntetické vrstvě řízené agenty. Purple Team v Prismatic tvoří čtyři
+specializovaní agenti na úrovních klasifikace L3–L4, kteří nepřetržitě sledují smyčku
+Red–Blue a vynucují přísné podmínky uzavření, jež brání falešnému vyřešení bezpečnostních
+nálezů. Tým pracuje pod doktrínou [NO
+MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) (viz [NO
+MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)) a uplatňuje nulovou toleranci při
+uzavírání nálezů a prevenci regresí.
 
-## Historical Context and Industry Evolution
+Pro Kompendium je Purple Team pojmem z kontextu platformy. Kniha z něj přebírá myšlenku, že
+„uzavřít“ problém smí jen ten, kdo ověřil skutečnou nápravu, nikoli ten, komu uzavření
+přináší úlevu – v oblasti EA to platí pro intervence i pro hodnocení zotavení (viz [Purple
+Team a detekce EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md)).
 
-The concept of Purple Teaming has its roots in the limitations observed in traditional Red Team / Blue Team engagements. For decades, cybersecurity organizations have conducted periodic Red Team exercises where adversarial specialists attempt to breach defenses, followed by Blue Team analysis of what was missed and how to improve. The fundamental problem with this sequential model is the knowledge transfer gap: Red Teams produce reports, Blue Teams read reports, and the translation from "attack succeeded" to "defense improved" often loses critical nuance.
+## Historický kontext a vývoj v odvětví
 
-The term "Purple Team" gained traction around 2015-2016 in the cybersecurity community, initially referring to collaborative exercises where Red and Blue team members work side by side. Organizations like SANS Institute formalized Purple Teaming methodologies, emphasizing real-time feedback between attack execution and defense validation. However, most industry implementations treat Purple Teaming as a periodic activity -- scheduled workshops or quarterly exercises -- rather than a continuous operational function.
+Koncept purple teamingu vychází z omezení pozorovaných u tradičních cvičení Red Team / Blue
+Team. Organizace kybernetické bezpečnosti po desetiletí pořádaly periodická cvičení, v nichž
+se útoční specialisté snažili prolomit obranu a Blue Team pak analyzoval, co přehlédl a jak
+se zlepšit. Zásadním problémem tohoto sekvenčního modelu je mezera v předávání znalostí:
+Red Team píše zprávy, Blue Team je čte a převod od „útok uspěl“ k „obrana se zlepšila“ často
+ztratí podstatné nuance.
 
-The Prismatic Platform's innovation is making the Purple Team a permanent, autonomous agent layer rather than a periodic human activity. Drawing from the platform's AIAD (Autonomous Intelligence Agent Doctrine) framework, the Purple Team agents operate continuously, processing Red Team findings as they arrive, maintaining live bidirectional mappings between attacks and defenses, and enforcing closure conditions that prevent the organizational inertia that typically leads to findings being filed and forgotten.
+Termín „Purple Team“ se v komunitě kybernetické bezpečnosti prosadil zhruba v polovině
+10. let 21. století, zpočátku pro společná cvičení, při nichž členové Red a Blue Teamu
+pracují bok po boku. Organizace jako SANS Institute metodiky purple teamingu formalizovaly
+a zdůraznily zpětnou vazbu v reálném čase mezi provedením útoku a ověřením obrany. Většina
+implementací v odvětví však chápe purple teaming jako periodickou činnost – plánované
+workshopy nebo čtvrtletní cvičení –, ne jako nepřetržitou provozní funkci.
 
-This approach was influenced by lessons from the aviation safety industry, where the concept of "closing the loop" on safety findings is rigorously enforced through regulatory frameworks like SMS (Safety Management Systems). In aviation, a safety finding cannot be closed until a corrective action has been implemented, verified, and shown to prevent recurrence. The Prismatic Purple Team applies this same rigor to cybersecurity findings through its 4-condition closure model.
+Inovací Prismatic Platform je učinit z Purple Teamu trvalou, autonomní vrstvu agentů místo
+periodické lidské činnosti. V návaznosti na rámec [AIAD](@/glossary/aiad.md) pracují agenti
+Purple Teamu nepřetržitě: zpracovávají zjištění Red Teamu, jakmile přijdou, udržují živá
+obousměrná mapování mezi útoky a obranami a vynucují podmínky uzavření, které brání
+organizační setrvačnosti, kvůli níž se zjištění obvykle založí a zapomenou.
 
-## Technical Deep Dive
+Přístup ovlivnily zkušenosti z bezpečnosti letectví, kde se „uzavírání smyčky“ u
+bezpečnostních zjištění přísně vynucuje regulatorními rámci, jako jsou systémy řízení
+bezpečnosti (SMS, *Safety Management Systems*). V letectví nelze bezpečnostní zjištění
+uzavřít, dokud není nápravné opatření zavedeno, ověřeno a prokazatelně nebrání opakování.
+Purple Team v Prismatic uplatňuje stejnou přísnost na kybernetická zjištění prostřednictvím
+modelu uzavření se čtyřmi podmínkami.
 
-### Purple Team Agent Composition
+## Technický rozbor
 
-The Purple Team operates with four agents, each fulfilling a distinct synthesis function.
+### Složení agentů Purple Teamu
 
-| Agent | Classification | Role | Primary Function |
+Purple Team pracuje se čtyřmi agenty, z nichž každý plní odlišnou syntetickou funkci.
+
+| Agent | Klasifikace | Role | Hlavní funkce |
 |-------|---------------|------|-----------------|
-| `purple-coordinator` | L3 Strategic Commander | Synthesis Hub | Orchestrates all Purple operations, manages closure authority, anti-metric enforcement |
-| `purple-mapper` | L4 Operational Specialist | Bidirectional Mapping | Maps Red findings to Blue defenses and vice versa, identifies coverage gaps |
-| `purple-closure-analyst` | L4 Operational Specialist | Closure Evaluation | Evaluates 4-condition closure requirements, detects false closure patterns |
-| `purple-regression-guard` | L4 Safety-Critical | Regression Prevention | Guards against regression traps across deployments, enforces deployment gates |
+| `purple-coordinator` | L3 Strategic Commander | syntetický uzel | řídí všechny operace Purple, spravuje pravomoc uzavírat, vynucuje antimetriky |
+| `purple-mapper` | L4 Operational Specialist | obousměrné mapování | mapuje zjištění Red na obrany Blue a naopak, odhaluje mezery v pokrytí |
+| `purple-closure-analyst` | L4 Operational Specialist | hodnocení uzavření | posuzuje čtyři podmínky uzavření, odhaluje vzorce falešného uzavření |
+| `purple-regression-guard` | L4 Safety-Critical | prevence regresí | hlídá pasti regresí napříč nasazeními, vynucuje brány nasazení |
 
-The `purple-coordinator` holds L3 (Strategic Commander) classification, giving it authority to orchestrate operations across the Purple Team and interact directly with Red Team and Blue Team coordinators. The `purple-regression-guard` carries the "Safety-Critical" designation, meaning its deployment gate decisions cannot be overridden by standard operational authority -- only Supreme-level intervention can bypass a regression guard block.
+Agent `purple-coordinator` má klasifikaci L3 ([Strategic Command](@/glossary/strategic-command.md)),
+která mu dává pravomoc řídit operace napříč Purple Teamem a jednat přímo s koordinátory Red
+a Blue Teamu. `purple-regression-guard` nese označení „Safety-Critical“: jeho rozhodnutí
+o bránách nasazení nelze přebít běžnou provozní pravomocí – blokaci strážce regresí může
+obejít jen zásah úrovně Supreme ([Supreme Commander](@/glossary/supreme-commander.md)).
 
-### The 4-Condition Closure Model
+### Model uzavření se čtyřmi podmínkami
 
-No security finding can be closed without meeting all four conditions simultaneously. This model prevents the common industry problem of premature closure where organizations mark vulnerabilities as "resolved" without adequate verification.
+Žádné bezpečnostní zjištění nelze uzavřít bez současného splnění všech čtyř podmínek. Model
+brání běžnému problému odvětví – předčasnému uzavření, kdy organizace označí zranitelnost za
+„vyřešenou“ bez přiměřeného ověření.
 
-1. **Red Confirmation**: The [Red Team](@/glossary/red-team.md) confirms that their original attack vector has been neutralized by the proposed defense. This is not a theoretical assessment but a re-execution of the attack scenario against the patched system. If the Red Team can still achieve the attack objective through the original vector, the finding remains open regardless of Blue Team's assessment.
+1. **Potvrzení Red**: [Red Team](@/glossary/red-team.md) potvrdí, že navržená obrana
+   neutralizovala původní vektor útoku. Nejde o teoretické posouzení, ale o nové provedení
+   scénáře útoku proti opravenému systému. Dosáhne-li Red Team cíle útoku původním vektorem,
+   zjištění zůstává otevřené bez ohledu na hodnocení Blue Teamu.
+2. **Ověření Blue**: [Blue Team](@/glossary/blue-team.md) ověří, že obranné opatření je
+   v provozu, je monitorováno a produkuje očekávané telemetrické signály. Obrana, která
+   existuje, ale není aktivně sledována, dává falešnou jistotu. Ověření Blue vyžaduje doklad,
+   že obranná telemetrie proudí, pravidla výstrah jsou nastavena a obrana by při zjištění
+   útoku spustila upozornění.
+3. **Důkaz White**: [White Team](@/glossary/white-team.md) dodá formální nebo poloformální
+   ověření, že oprava řeší kořenovou příčinu, ne jen příznak. Tím se brání povrchním
+   záplatám, které nechávají podkladové zranitelnosti zneužitelné variantními technikami.
+   Důkaz White může podle kritičnosti zjištění zahrnovat testování založené na vlastnostech,
+   validaci kontraktů nebo formální důkazy v Lean4.
+4. **Regresní zámek**: Purple Regression Guard potvrdí, že existují automatizované regresní
+   testy, které odhalí jakékoli budoucí opakování. Bez této podmínky se dříve opravené
+   zranitelnosti mohou tiše vrátit při refaktoringu nebo aktualizaci závislostí. [Regresní
+   test](@/glossary/regression-test.md) musí bez opravy selhat a s opravou projít, čímž
+   dokládá platnost testu i účinnost opravy.
 
-2. **Blue Verification**: The [Blue Team](@/glossary/blue-team.md) verifies that the defensive measure is operational, monitored, and producing the expected telemetry signals. A defense that exists but is not actively monitored provides false confidence. Blue Verification requires evidence that defensive telemetry is flowing, alert rules are configured, and the defense would trigger notification if an attack were detected.
+### Architektura toku signálů
 
-3. **White Proof**: The [White Team](@/glossary/white-team.md) provides formal or semi-formal verification that the fix addresses the root cause rather than merely the symptom. This prevents surface-level patches that leave underlying vulnerabilities exploitable through variant techniques. White Proof may involve property-based testing, contract validation, or formal Lean4 proofs depending on the finding's criticality.
-
-4. **Regression Lock**: The Purple Regression Guard confirms that automated regression tests exist to detect any future recurrence. Without this condition, previously-fixed vulnerabilities can silently reappear during refactoring or dependency updates. The [regression test](@/glossary/regression-test.md) must fail without the fix and pass with it, demonstrating both the test's validity and the fix's effectiveness.
-
-### Signal Flow Architecture
-
-The Purple Team sits at the intersection of all [color team](@/glossary/color-teams.md) signal flows.
+Purple Team stojí na průsečíku všech toků signálů [barevných týmů](@/glossary/color-teams.md).
 
 ```
 Gray (boundary seeds) --> Red (adversarial scenarios) --> Purple (synthesis) --> Blue (defense)
@@ -95,15 +154,24 @@ Gray (boundary seeds) --> Red (adversarial scenarios) --> Purple (synthesis) -->
                                Black (threat models)     White (proofs)    Platform Defense
 ```
 
-Purple receives inputs from Red Team findings, Blue Team defensive posture assessments, White Team verification proofs, and [Gray Team](@/glossary/gray-team.md) boundary exploration reports. It produces closure decisions, regression requirements, and deployment gate enforcement actions.
+Purple přijímá vstupy ze zjištění Red Teamu, z hodnocení obranného postavení Blue Teamu,
+z ověřovacích důkazů White Teamu a ze zpráv [Gray Teamu](@/glossary/gray-team.md) o průzkumu
+hranic. Vytváří rozhodnutí o uzavření, požadavky na regresní testy a akce vynucení bran
+nasazení.
 
-The signal flow is designed to be unidirectional with feedback loops. Red Team findings flow into Purple for synthesis. Purple produces defense requirements that flow to Blue. Blue's implementation evidence flows back to Purple for verification. White Team proofs flow into Purple to satisfy the formal verification closure condition. This circular flow ensures that no finding can be "lost" in the system -- every finding has an explicit state in the closure state machine and every state transition requires evidence.
+Tok signálů je navržen jako jednosměrný se zpětnými smyčkami. Zjištění Red Teamu proudí do
+Purple k syntéze. Purple vytváří požadavky na obranu, které proudí k Blue. Doklady Blue
+o implementaci proudí zpět do Purple k ověření. Důkazy White Teamu proudí do Purple a plní
+podmínku formálního ověření. Tento kruhový tok zajišťuje, že žádné zjištění se v systému
+„neztratí“ – každé má výslovný stav ve stavovém automatu uzavření a každý přechod stavu
+vyžaduje doklad.
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### Closure State Machine
+### Stavový automat uzavření
 
-The Purple Team manages a formal state machine for each security finding. State transitions are strictly ordered and each transition requires evidence.
+Purple Team spravuje pro každé bezpečnostní zjištění formální stavový automat. Přechody stavů
+jsou přísně uspořádané a každý vyžaduje doklad.
 
 ```elixir
 defmodule PrismaticDark.Purple.ClosureStateMachine do
@@ -173,9 +241,11 @@ defmodule PrismaticDark.Purple.ClosureStateMachine do
 end
 ```
 
-### Bidirectional Mapping Engine
+### Engine obousměrného mapování
 
-The `purple-mapper` agent maintains a bidirectional graph structure that maps every Red Team finding to its corresponding Blue Team defense and vice versa. This mapping reveals coverage gaps: findings without defenses and defenses without threat models.
+Agent `purple-mapper` udržuje obousměrnou grafovou strukturu, která mapuje každé zjištění Red
+Teamu na odpovídající obranu Blue Teamu a naopak. Mapování odhaluje mezery v pokrytí:
+zjištění bez obran a obrany bez modelů hrozeb.
 
 ```elixir
 defmodule PrismaticDark.Purple.BidirectionalMapper do
@@ -272,9 +342,11 @@ defmodule PrismaticDark.Purple.BidirectionalMapper do
 end
 ```
 
-### Regression Guard Implementation
+### Implementace strážce regresí
 
-The `purple-regression-guard` operates as a safety-critical agent that prevents previously-closed findings from reappearing undetected. It maintains a registry of regression tests associated with each closed finding and verifies their continued passage before allowing deployments.
+`purple-regression-guard` pracuje jako bezpečnostně kritický agent, který brání tomu, aby se
+dříve uzavřená zjištění nepozorovaně vrátila. Vede registr regresních testů přiřazených ke
+každému uzavřenému zjištění a před povolením nasazení ověřuje, že stále procházejí.
 
 ```elixir
 defmodule PrismaticDark.Purple.RegressionGuard do
@@ -354,33 +426,50 @@ defmodule PrismaticDark.Purple.RegressionGuard do
 end
 ```
 
-## Anti-Metric Enforcement
+## Vynucení antimetrik
 
-A distinctive feature of the Purple Team is its anti-metric enforcement philosophy. The `purple-coordinator` actively resists metric-driven closure incentives. Common anti-patterns in security operations include closing findings to meet closure rate KPIs, downgrading severity to avoid blocking deployments, or accepting partial fixes to improve statistics. The Purple Team's sole authority over closure transitions prevents these organizational pressures from compromising security integrity.
+Charakteristickým rysem Purple Teamu je filosofie vynucení antimetrik. `purple-coordinator`
+aktivně odolává pobídkám k uzavírání řízenému metrikami. Mezi běžné antivzorce
+bezpečnostního provozu patří uzavírání zjištění kvůli splnění KPI míry uzavření, snižování
+závažnosti, aby nedošlo k zablokování nasazení, nebo přijímání částečných oprav kvůli lepším
+statistikám. Výhradní pravomoc Purple Teamu nad přechody do uzavření brání tomu, aby tyto
+organizační tlaky ohrozily bezpečnostní integritu.
 
-### Anti-Patterns Detected and Blocked
+### Odhalované a blokované antivzorce
 
-| Anti-Pattern | Detection Method | Response |
+| Antivzorec | Metoda detekce | Reakce |
 |-------------|-----------------|----------|
-| **KPI-driven closure** | Closure rate spikes without proportional fix activity | Block + investigation |
-| **Severity downgrading** | Severity changes without new evidence | Require evidence for reclassification |
-| **Partial fix acceptance** | Fix addresses symptom but not root cause | Keep finding open, track partial progress |
-| **Time-based expiry** | Finding auto-closed after time threshold | Forbidden -- findings never expire |
-| **Copy-paste closure** | Identical closure justification across findings | Flag for individual review |
+| **Uzavírání kvůli KPI** | skoky míry uzavření bez úměrné aktivity oprav | blokace + šetření |
+| **Snižování závažnosti** | změny závažnosti bez nových důkazů | vyžadovat důkazy pro překlasifikaci |
+| **Přijetí částečné opravy** | oprava řeší příznak, ne kořenovou příčinu | ponechat otevřené, sledovat dílčí pokrok |
+| **Vypršení časem** | automatické uzavření po časovém prahu | zakázáno – zjištění nikdy nevyprší |
+| **Uzavírání kopírováním** | totožné zdůvodnění uzavření u více zjištění | označit k individuálnímu přezkumu |
 
-The anti-metric philosophy is rooted in the observation that Goodhart's Law ("When a measure becomes a target, it ceases to be a good measure") applies particularly strongly to security metrics. Once organizations measure "finding closure rate," they optimize for closing findings rather than for improving security. The Purple Team's independence from delivery timelines and performance metrics ensures that closure decisions are based solely on evidence.
+Filosofie antimetrik vychází z pozorování, že Goodhartův zákon (v často citované formulaci
+Marilyn Strathernové: „Když se míra stane cílem, přestane být dobrou mírou“) platí pro
+bezpečnostní metriky obzvlášť silně. Jakmile organizace měří „míru uzavření zjištění“,
+optimalizuje uzavírání zjištění, ne zlepšování bezpečnosti. Nezávislost Purple Teamu na
+termínech dodávek a výkonnostních metrikách zajišťuje, že rozhodnutí o uzavření stojí jen na
+důkazech.
 
-## False Closure Detection
+Stejný vzorec zná Kompendium z institucí, které „uzavírají“ stížnosti obětí kvůli
+statistikám nebo pověsti; obranou je i tam oddělení toho, kdo uzavírá, od toho, komu uzavření
+prospívá (viz [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)).
 
-The `purple-closure-analyst` specifically looks for patterns indicating false closure.
+## Detekce falešného uzavření
 
-- **Symptom-Level Fixes**: Patches that address the specific exploit but not the underlying vulnerability class. A WAF rule blocking a specific SQLi payload while the underlying parameterization issue remains.
+`purple-closure-analyst` cíleně hledá vzorce, které ukazují na falešné uzavření.
 
-- **Environment-Specific Fixes**: Defenses that work in testing but not in production configurations. A security header added in test config but not in production deployment scripts.
-
-- **Partial Coverage**: Fixes that close one attack vector while leaving related vectors exploitable. Patching one endpoint while leaving other endpoints with the same vulnerability.
-
-- **Time-Decayed Defenses**: Defenses that were effective at closure time but have degraded due to infrastructure changes, dependency updates, or configuration drift.
+- **Opravy na úrovni příznaku**: záplaty, které řeší konkrétní exploit, ale ne podkladovou
+  třídu zranitelnosti. Pravidlo WAF blokuje konkrétní payload SQL injection, zatímco problém
+  s parametrizací dotazů trvá.
+- **Opravy závislé na prostředí**: obrany, které fungují v testování, ale ne v produkčních
+  konfiguracích. Bezpečnostní hlavička přidaná do testovací konfigurace, ale ne do
+  produkčních nasazovacích skriptů.
+- **Částečné pokrytí**: opravy, které uzavřou jeden vektor útoku a příbuzné ponechají
+  zneužitelné. Záplata jednoho endpointu, zatímco jiné endpointy mají tutéž zranitelnost.
+- **Časem oslabené obrany**: obrany, které byly v době uzavření účinné, ale oslabily kvůli
+  změnám infrastruktury, aktualizacím závislostí nebo posunu konfigurace.
 
 ```elixir
 defmodule PrismaticDark.Purple.FalseClosureDetector do
@@ -432,71 +521,95 @@ defmodule PrismaticDark.Purple.FalseClosureDetector do
 end
 ```
 
-## Integration Points
+## Integrační body
 
-| System | Integration | Purpose |
+| Systém | Integrace | Účel |
 |--------|------------|---------|
-| [Red Team](@/glossary/red-team.md) | Finding ingestion | Receives adversarial scenarios for defense mapping |
-| [Blue Team](@/glossary/blue-team.md) | Defense posture data | Receives defensive capability assessments |
-| [White Team](@/glossary/white-team.md) | Verification proofs | Receives formal proofs for closure conditions |
-| [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) | Deployment blocking | Blocks deployments with unclosed critical findings |
-| AIAD Registry | Agent coordination | Manages Purple agent lifecycle and communication |
-| Telemetry | Event emission | Emits closure events for platform-wide monitoring |
-| [Trinity Gate](@/glossary/trinity-gate.md) | Verification alignment | Closure proofs pass through Trinity Gate validation |
+| [Red Team](@/glossary/red-team.md) | příjem zjištění | přijímá útočné scénáře k mapování na obrany |
+| [Blue Team](@/glossary/blue-team.md) | data obranného postavení | přijímá hodnocení obranných schopností |
+| [White Team](@/glossary/white-team.md) | ověřovací důkazy | přijímá formální důkazy pro podmínky uzavření |
+| [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) | blokace nasazení | blokuje nasazení s neuzavřenými kritickými zjištěními |
+| registr AIAD | koordinace agentů | spravuje životní cyklus a komunikaci agentů Purple |
+| telemetrie | vysílání událostí | vysílá události uzavření pro monitorování celé platformy |
+| [Trinity Gate](@/glossary/trinity-gate.md) | sladění ověření | důkazy uzavření procházejí validací Trinity Gate |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Never bypass the 4-condition model**. Each condition exists because historical experience showed that skipping any single condition leads to false closure. The conditions are the minimum viable verification set.
+1. **Nikdy neobcházet model čtyř podmínek.** Každá podmínka existuje proto, že zkušenost
+   ukázala, že vynechání kterékoli z nich vede k falešnému uzavření. Podmínky jsou minimální
+   životaschopnou sadou ověření.
+2. **Průběžně udržovat obousměrné mapování.** Mapování není periodická činnost. Každé nové
+   zjištění Red Teamu má být namapováno na obrany během hodin a každá nová obrana Blue Teamu
+   ověřena proti známým zjištěním.
+3. **Selhání strážce regresí brát jako incident P0.** Selhávající regresní test znamená, že se
+   dříve uzavřené zjištění mohlo vrátit. To vyžaduje okamžité šetření bez ohledu na priority
+   sprintu.
+4. **Odolávat tlaku zúčastněných stran na uzavření.** Hodnota Purple Teamu spočívá právě
+   v nezávislosti na termínech dodávek. Slevit ze standardů uzavření kvůli termínům podkopává
+   celý model bezpečnostního provozu.
+5. **Podrobně dokumentovat zdůvodnění uzavření.** Každé rozhodnutí o uzavření má obsahovat
+   řetězec důkazů ze všech čtyř podmínek, aby byly budoucí audity a šetření regresí
+   dohledatelné.
+6. **Pravidelně revidovat obousměrnou mapu.** Nenamapovaná zjištění jsou vektory útoku bez
+   obran. Nenamapované obrany jsou bezpečnostní investice bez ověřených modelů hrozeb. Obojí
+   ukazuje na mezery v bezpečnostním postavení.
+7. **Nikdy neuzavírat zjištění automaticky podle času.** Na rozdíl od úkolů v řízení projektů
+   bezpečnostní zjištění stářím neztrácejí relevanci. Neopravená zranitelnost je po šesti
+   měsících stejně nebezpečná jako v den objevení.
 
-2. **Maintain bidirectional mapping continuously**. Do not treat mapping as a periodic activity. Every new Red Team finding should be mapped to defenses within hours, and every new Blue Team defense should be validated against known findings.
+## Časté chyby
 
-3. **Treat regression guard failures as P0 incidents**. A failing regression test means a previously-closed finding may have resurfaced. This warrants immediate investigation regardless of current sprint priorities.
+- **Zaměňovat Purple Team se společnými cvičeními Red–Blue**: tradiční „purple team
+  cvičení“ jsou časově ohraničené workshopy. Purple Team v Prismatic je trvalá, autonomní
+  syntetická vrstva, která pracuje nepřetržitě.
+- **Chápat uzavření binárně**: zjištění existují na škále vyřešení. Částečné opravy mohou
+  snížit riziko, aniž by dosáhly úplného uzavření. Purple Team sleduje dílčí nápravu jako
+  snížení rizika a zjištění ponechává otevřené.
+- **Zanedbávat strážce regresí**: nejčastějším selháním je správné uzavření zjištění
+  a následné neudržení regresního pokrytí, jak se kódová základna vyvíjí. Strážce regresí
+  tomuto posunu brání.
+- **Přílišné spoléhání na automatické uzavření**: model čtyř podmínek se sice vyhodnocuje
+  programově, ale samy podmínky vyžadují úsudek na lidské úrovni. Úspěšný automatický test
+  neznamená automaticky, že je zjištění skutečně vyřešeno.
+- **Organizační odpor**: bezpečnostní týmy zvyklé uzavírat zjištění jednostranně mohou
+  pravomoci Purple Teamu vzdorovat. Odpor je očekávatelný a je třeba ho řešit vzděláváním
+  o nákladech falešného uzavření.
 
-4. **Resist closure pressure from stakeholders**. The Purple Team's value lies precisely in its independence from delivery timelines. Compromising closure standards to meet deadlines undermines the entire security operations model.
+## Související
 
-5. **Document closure reasoning extensively**. Each closure decision should include the evidence chain from all four conditions, making future audits and regression investigations traceable.
+**Pojmy platformy v tomto glosáři**
 
-6. **Review the bidirectional map regularly**. Unmapped findings represent attack vectors without defenses. Unmapped defenses represent security investments without validated threat models. Both indicate gaps in the security posture.
+- [Red Team](@/glossary/red-team.md) – útočná simulace, jejíž zjištění Purple syntetizuje.
+- [Blue Team](@/glossary/blue-team.md) – obranný tým dodávající data o obranném postavení.
+- [White Team](@/glossary/white-team.md) – ověřovací tým, jehož důkazy vstupují do uzavření.
+- [Black Team](@/glossary/black-team.md) – teoretické modelování hrozeb pro hodnocení rizik.
+- [Gray Team](@/glossary/gray-team.md) – průzkum hranic, který dodává hraniční případy.
+- [Color Teams](@/glossary/color-teams.md) – přehled všech šesti barevných týmů.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací brána doplňující požadavky na uzavření.
+- [Regression Test](@/glossary/regression-test.md) – vzor prevence opakování na úrovni kódu.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec standardů důkazů.
 
-7. **Never auto-close findings based on time**. Unlike project management issues, security findings do not become less relevant with age. An unpatched vulnerability is as dangerous after six months as it was when discovered.
+**Hesla a přehledy platformy mimo tuto knihu**
 
-## Common Pitfalls
+- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) –
+  neměnný záznam rozhodnutí o uzavření a důkazů.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Agenti](https://prismatic-reality-com.github.io/prismatic-promo/agents/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Aplikace](https://prismatic-reality-com.github.io/prismatic-promo/apps/) – přehledy platformy.
 
-- **Confusing Purple Team with joint Red-Blue exercises**: Traditional "purple team exercises" are time-bounded workshops. The Prismatic Purple Team is a permanent, autonomous synthesis layer that operates continuously.
+**Kniha**
 
-- **Treating closure as binary**: Findings exist on a spectrum of resolution. Partial fixes may reduce risk without achieving full closure. The Purple Team tracks partial remediation as risk reduction while keeping the finding open.
-
-- **Neglecting the regression guard**: The most common failure mode is closing findings correctly but failing to maintain regression coverage as the codebase evolves. The regression guard prevents this drift.
-
-- **Over-relying on automated closure**: While the 4-condition model is evaluated programmatically, the conditions themselves require human-level judgment. Automated test passage does not automatically mean a finding is truly resolved.
-
-- **Organizational resistance**: Security teams accustomed to closing findings unilaterally may resist the Purple Team's closure authority. This resistance is expected and must be addressed through education about false closure costs.
-
-## Related Concepts
-
-- [Red Team](@/glossary/red-team.md) -- Adversarial simulation team producing findings for Purple synthesis
-- [Blue Team](@/glossary/blue-team.md) -- Defensive evidence team providing defense posture data
-- [White Team](@/glossary/white-team.md) -- Verification team whose proofs feed into closure decisions
-- [Black Team](@/glossary/black-team.md) -- Theoretical threat modeling informing Purple's risk assessment
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration feeding edge cases to Purple mapping
-- [Color Teams](@/glossary/color-teams.md) -- Full overview of all six color team operations
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate complementing Purple closure requirements
-- [Regression Test](@/glossary/regression-test.md) -- Code-level pattern for preventing recurrence
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing Purple Team evidence standards
-- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable record of all closure decisions and evidence
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Purple Team agents
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Application directory
+- [Purple Team a detekce EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md) –
+  syntéza zjištění o epistemických útocích.
+- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) –
+  jak barevné týmy vstupují do knihy.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

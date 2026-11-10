@@ -32,8 +32,8 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
-- **Sekce 04 — Color teams overview**: black team v 6-color taxonomii
-- **Sekce 05 — OPSEC doctrine**: operational security pravidla pro black team
+- **Sekce 04 — [Color teams](@/glossary/color-teams.md) overview**: black team v 6-color taxonomii
+- **Sekce 05 — OPSEC [doctrine](@/glossary/doctrine.md)**: operational security pravidla pro black team
 - **Sekce 06 — Covert OSINT**: ghost-recon, navy-seal, delta-force commands
 - **Sekce 07 — Ethical limits**: kde končí black team mandát
 - **Per-technique články**: anti-attribution, OPSEC checklist, telemetry sanitization
@@ -47,7 +47,7 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
 | instance | Color Team | specializace |
-| kontrastuje | Blue team (defenzivní) | polarita |
+| kontrastuje | [Blue team](@/glossary/blue-team.md) (defenzivní) | polarita |
 | operace | Ghost-recon, falcon-strike | commands |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.

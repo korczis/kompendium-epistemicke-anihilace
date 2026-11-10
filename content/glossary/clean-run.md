@@ -1,10 +1,10 @@
 +++
-title = "Clean Run"
+title = "Clean Run (čistý běh)"
 weight = 5
-description = "Zero runtime warnings, zero info/debug logs, --warnings-as-errors compilation across the entire platform"
+description = "Standard Prismatic Platform: nula varování za běhu, žádné zbytečné ladicí logy a kompilace s --warnings-as-errors v celé platformě, aby skutečná varování nezanikla v šumu."
 
 [taxonomies]
-tags = ["glossary", "doctrine", "clean-run", "prismatic"]
+tags = ["glossary", "doctrine", "clean-run", "prismatic", "quality"]
 
 [extra]
 category = "doctrine"
@@ -28,42 +28,78 @@ compiler_warnings = "0"
 credo_violations = "0"
 dialyzer_violations = "0"
 related_apps = ["prismatic_safety", "prismatic_claude", "prismatic"]
-see_also = ["cascade", "qdp", "dialyzer", "credo", "autoheal", "autoevolve"]
 author = "Tomas Korcak (korczis)"
-reading_time = "10 min"
-word_count = 1934
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["Clean", "Run", "Zero", "--warnings-as-errors", "glossary", "doctrine", "Prismatic Platform", "Clean Run", "Credo", "Dialyzer"]
-image = "/images/sections/glossary.png"
-image_alt = "Clean Run - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-A Clean Run is the mandatory compilation and runtime standard requiring zero warnings, zero extraneous info/debug log output, and successful compilation with the `--warnings-as-errors` flag across the entire Prismatic Platform. No runtime warnings, no informational log noise, and no compiler warnings are permitted in any code that enters the platform. This standard ensures that genuine warnings indicating real problems are never buried under noise, maintaining the highest possible signal-to-noise ratio across the codebase.
+**Clean Run** (čistý běh) je povinný standard kompilace a běhu Prismatic Platform: nula
+varování, žádný nadbytečný informativní ani ladicí výstup v logu a úspěšná kompilace
+s přepínačem `--warnings-as-errors` v celé platformě. Do kódu platformy se nesmí dostat
+žádné varování za běhu, žádný informační šum v logu ani žádné varování kompilátoru. Standard
+zajišťuje, že skutečná varování, která ukazují na skutečné problémy, nikdy nezapadnou
+v šumu, a udržuje v celém kódu co nejvyšší poměr signálu k šumu.
 
-The Clean Run standard addresses a pervasive problem in large software systems: warning fatigue. When a codebase produces dozens or hundreds of warnings during compilation, developers stop reading them. Critical warnings about type mismatches, unused variables that indicate logic errors, or deprecated function usage are lost in a sea of noise. By maintaining absolute zero warnings, Clean Run ensures that any warning that does appear is immediately visible, immediately investigated, and immediately resolved. There is no baseline noise level to habituate to.
+Standard řeší rozšířený problém velkých softwarových systémů: **únavu z varování**. Když kód
+při kompilaci vypisuje desítky nebo stovky varování, vývojáři je přestanou číst. Kritická
+varování o nesouladu typů, nepoužitých proměnných, které prozrazují logickou chybu, nebo
+o zastaralých funkcích se ztratí v moři šumu. Absolutní nula varování zajišťuje, že každé
+varování, které se objeví, je okamžitě vidět, okamžitě prošetřeno a okamžitě vyřešeno.
+Neexistuje základní hladina šumu, na kterou by si člověk zvykl.
 
-Clean Run is not merely a quality preference -- it is a structural enforcement integrated into the platform's compilation pipeline, [pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/), CI/CD [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/), and continuous monitoring systems. Code that produces warnings cannot be compiled in production mode, cannot pass pre-commit validation, cannot merge into the main branch, and cannot be deployed. The enforcement is absolute and non-bypassable, governed by the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine.
+Clean Run není jen preferencí kvality, ale strukturálním vynucením zabudovaným do procesu
+kompilace, háčků před commitem, bran kvality v CI/CD a nepřetržitého sledování. Kód, který
+vytváří varování, nelze zkompilovat v produkčním režimu, neprojde validací před commitem,
+nelze jej sloučit do hlavní větve a nelze jej nasadit. Vynucení je absolutní a nelze jej
+obejít; řídí se doktrínou NO MERCY (viz [NM/ND](@/glossary/nm-nd.md) a [Zero Warning
+Policy](@/glossary/zero-warning-policy.md)).
 
-## Historical Context and Motivation
+**Vztah ke knize:** Clean Run patří do kontextu platformy, z níž Kompendium vzešlo. Problém,
+který řeší – návyk na šum, v němž zanikne skutečný signál –, kniha popisuje u lidí: zahlcení
+informacemi otupuje pozornost a usnadňuje manipulaci (viz [EA-1.1.2 Informační
+přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) a [Firehose of
+Falsehood](@/glossary/firehose-of-falsehood.md)). Lidskou obdobou „čistého běhu“ je vědomá
+péče o pozornost (viz [Řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md)).
 
-The Clean Run standard evolved from painful experience with warning accumulation in large Elixir umbrella projects. Before Clean Run was instituted, the Prismatic Platform carried hundreds of compiler warnings -- unused variables, deprecated function calls, unreachable pattern match clauses, and missing typespec annotations. These warnings were individually trivial but collectively catastrophic. A genuine warning about a type mismatch in a critical security module was invisible among hundreds of benign warnings about unused imports.
+## Historický kontext a motivace
 
-The tipping point came during a quality assessment that identified 905 Quality Debt Points ([QDP](@/glossary/qdp.md)) across the codebase. The [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) methodology was developed specifically to eliminate this debt systematically, and Clean Run was established as the standard that would prevent debt from reaccumulating. The elimination campaign took multiple sessions and touched every umbrella application, but the result was a platform where every compiler message is meaningful and every warning demands immediate attention.
+Standard vznikl z bolestné zkušenosti s hromaděním varování ve velkých umbrella projektech
+v Elixiru. Před jeho zavedením nesla platforma stovky varování kompilátoru – nepoužité
+proměnné, volání zastaralých funkcí, nedosažitelné klauzule porovnání vzorů, chybějící
+typové specifikace. Jednotlivě byla bezvýznamná, dohromady katastrofální. Skutečné varování
+o nesouladu typů v kritickém bezpečnostním modulu bylo mezi stovkami neškodných varování
+o nepoužitých importech neviditelné.
 
-The decision to extend Clean Run beyond compilation to runtime behavior was driven by a similar observation: log noise in production systems has the same desensitizing effect as compiler warning noise. When every request produces informational log output, operators stop monitoring logs. When a genuine error appears, it drowns in noise. Clean Run's runtime silence standard ensures that log output is reserved for events that warrant human attention, maintaining operational signal clarity.
+Zlom přišel při posouzení kvality, které v kódu zjistilo 905 bodů dluhu kvality
+([QDP](@/glossary/qdp.md), viz [Quality Debt](@/glossary/quality-debt.md)). Metodika CASCADE
+vznikla právě k soustavnému odstranění tohoto dluhu a Clean Run byl zaveden jako standard,
+který brání jeho opětovnému nahromadění. Kampaň trvala více sezení a zasáhla každou
+aplikaci umbrella projektu, výsledkem však byla platforma, v níž je každé hlášení
+kompilátoru smysluplné a každé varování vyžaduje okamžitou pozornost.
 
-The standard also draws inspiration from the aerospace and medical device software industries, where warning-free compilation has been a regulatory requirement for decades. The DO-178C standard for airborne software and IEC 62304 for medical device software both mandate zero-warning compilation. The Prismatic Platform applies this same rigor to cybersecurity software, recognizing that security tools with quality deficits are worse than no tools at all -- they provide false confidence.
+Rozhodnutí rozšířit standard z kompilace i na běh vyšlo z podobného pozorování: šum v logech
+produkčních systémů otupuje stejně jako šum varování kompilátoru. Když každý požadavek
+vytváří informativní výstup, operátoři přestanou logy sledovat, a když se objeví skutečná
+chyba, utone v šumu. Požadavek na „ticho za běhu“ vyhrazuje výstup logu událostem, které si
+žádají lidskou pozornost.
 
-## Enforcement Layers
+Standard se inspiruje i obory s regulovaným vývojem softwaru – letectvím (norma DO-178C pro
+palubní software) a zdravotnickými prostředky (IEC 62304) –, kde je přísná kontrola kvality
+kódu běžnou součástí certifikace. Platforma uplatňuje obdobnou přísnost na software pro
+kybernetickou bezpečnost s odůvodněním, že bezpečnostní nástroje s nedostatky kvality jsou
+horší než žádné, protože dávají falešnou jistotu.
 
-Clean Run is enforced at multiple independent layers, creating defense-in-depth against warning introduction.
+## Vrstvy vynucení
 
-### Layer 1: Compiler Enforcement
+Clean Run je vynucován na několika nezávislých vrstvách, které vytvářejí vícevrstvou obranu
+proti zavlečení varování.
 
-The [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) compiler's `--warnings-as-errors` flag converts all compiler warnings to compilation errors. When this flag is active, any warning -- unused variable, deprecated function call, unreachable clause, missing return type -- causes compilation to fail entirely.
+### Vrstva 1: kompilátor
+
+Přepínač `--warnings-as-errors` kompilátoru Elixiru převádí všechna varování na chyby
+kompilace. Je-li aktivní, jakékoli varování – nepoužitá proměnná, volání zastaralé funkce,
+nedosažitelná klauzule, chybějící návratový typ – způsobí selhání celé kompilace.
 
 ```bash
 # Clean Run compilation command
@@ -75,12 +111,14 @@ mix compile --warnings-as-errors --force
 # - warning: module SomeModule is not available or is being defined
 # - warning: Enum.uniq/2 is deprecated, use Enum.uniq_by/2
 ```
+Přepínač `--force` zajišťuje úplnou rekompilaci, aby zastaralé artefakty nezakryly nová
+varování. To je důležité zejména u vzoru CASCADE Nuclear Cache, kdy inkrementální kompilace
+může dávat nekonzistentní výsledky.
 
-The `--force` flag ensures complete recompilation, preventing stale artifacts from masking new warnings. This is particularly important in the context of [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) Nuclear Cache patterns, where incremental compilation can produce inconsistent results.
+### Vrstva 2: statická analýza (Credo)
 
-### Layer 2: Static Analysis (Credo)
-
-[Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) enforces code consistency, readability, and design rules in strict mode. Clean Run requires zero Credo violations.
+Credo v přísném režimu vynucuje konzistenci, čitelnost a pravidla návrhu kódu. Clean Run
+vyžaduje nulu porušení Credo.
 
 ```bash
 # Clean Run Credo check
@@ -93,12 +131,13 @@ mix credo --strict
 # - Design: alias organization, module dependencies
 # - Warning: IO.inspect left in code, dbg() calls
 ```
+Přísný režim zapíná všechny volitelné kontroly a snižuje prahy varování o složitosti. Zachytí
+tak nejen chyby, ale i problémy kvality, které by časem zhoršovaly udržovatelnost.
 
-Credo's strict mode enables all optional checks and reduces thresholds for complexity warnings. This catches not just errors but code quality issues that would degrade maintainability over time.
+### Vrstva 3: typová analýza (Dialyzer)
 
-### Layer 3: Type Analysis (Dialyzer)
-
-[Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) performs success typing analysis across all modules, detecting type inconsistencies that the compiler cannot catch. Clean Run requires zero Dialyzer violations.
+Dialyzer provádí analýzu *success typing* napříč všemi moduly a odhaluje typové
+nekonzistence, které kompilátor nezachytí. Clean Run vyžaduje nulu porušení Dialyzeru.
 
 ```bash
 # Clean Run Dialyzer check
@@ -110,12 +149,15 @@ mix dialyzer
 # - Pattern match failures guaranteed by types
 # - Invalid function calls (wrong argument types)
 ```
+Analýza Dialyzerem je výpočetně náročná (minuty pro celou platformu), ale systém
+[AutoHeal](@/glossary/autoheal.md) udržuje PLT (*Persistent Lookup Table*) inkrementálně, aby
+doba kontrol během vývoje zůstala přijatelná.
 
-Dialyzer analysis is computationally expensive (minutes for a full platform analysis), but the [AutoHeal](@/glossary/autoheal.md) system maintains the PLT (Persistent Lookup Table) incrementally to keep check times reasonable during development.
+### Vrstva 4: háčky před commitem
 
-### Layer 4: Pre-Commit Hooks
-
-Pre-commit hooks execute a subset of Clean Run checks on staged files before allowing a commit. These hooks run automatically and cannot be bypassed (the `--no-verify` flag is absolutely forbidden per platform doctrine).
+Háčky před commitem spouštějí podmnožinu kontrol nad připravenými soubory dřív, než povolí
+commit. Běží automaticky a nelze je obejít (přepínač `--no-verify` je podle doktríny
+platformy absolutně zakázán).
 
 ```elixir
 defmodule PrismaticSafety.PreCommitValidator do
@@ -175,31 +217,38 @@ defmodule PrismaticSafety.PreCommitValidator do
   end
 end
 ```
+### Vrstva 5: brány kvality v CI/CD
 
-### Layer 5: CI/CD Quality Gates
+Proces GitLab CI spouští při každém push úplnou validaci: plnou kompilaci, úplnou analýzu
+Credo, plný běh Dialyzeru a sadu testů. Zachytí tak porušení, která mohla kvůli rozdílům
+prostředí uniknout lokálním háčkům.
 
-The [GitLab CI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gitlab-ci/) pipeline runs the complete Clean Run validation suite on every push, including full compilation, complete Credo analysis, full Dialyzer run, and test suite execution. This catches any violations that might have slipped past local pre-commit hooks due to environment differences.
+### Vrstva 6: strážce minimální kvality
 
-### Layer 6: Quality Floor Guardian
+Strážce minimální kvality (*Quality Floor Guardian*) nepřetržitě sleduje metriky kvality
+platformy včetně souladu s Clean Run. Zjistí-li regresi, spustí zásah [AutoHeal](@/glossary/autoheal.md)
+a eskaluje podle závažnosti.
 
-The Quality Floor Guardian continuously monitors the platform's quality metrics, including Clean Run compliance. If a regression is detected, the Guardian triggers an [AutoHeal](@/glossary/autoheal.md) intervention and escalates according to severity.
-
-| Quality Score | Level | Response |
+| Skóre kvality | Úroveň | Reakce |
 |---------------|-------|----------|
-| 100-99% | OPTIMAL | Monitor only |
-| 98-99% | WARNING | Alert + investigation |
-| 95-98% | CRITICAL | Auto-evolution trigger |
-| <95% | EMERGENCY | Block commits + escalate |
+| 100–99 % | OPTIMAL | jen sledování |
+| 98–99 % | WARNING | výstraha a šetření |
+| 95–98 % | CRITICAL | spuštění automatické evoluce |
+| < 95 % | EMERGENCY | blokace commitů a eskalace |
 
-## Runtime Silence
+## Ticho za běhu
 
-Clean Run extends beyond compilation to runtime behavior. The standard requires that application code produces no extraneous log output during normal operation.
+Clean Run se netýká jen kompilace, ale i chování za běhu. Standard vyžaduje, aby aplikační
+kód při běžném provozu nevytvářel nadbytečný výstup logu:
 
-- **No debug-level logs in production code**: Debug logging must be explicitly gated behind configuration flags
-- **No info-level noise**: Routine operations should not produce info-level log output; info is reserved for significant state changes
-- **No IO.inspect residue**: Development debugging calls must be removed before commit
-- **No dbg() calls**: Elixir's debug macro must not appear in committed code
-- **Intentional logging only**: Every log statement must serve a documented purpose at an appropriate level
+- **žádné ladicí logy v produkčním kódu** – ladicí logování musí být výslovně podmíněno
+  konfiguračním přepínačem;
+- **žádný informační šum** – běžné operace nemají vytvářet výstup na úrovni info; ta je
+  vyhrazena významným změnám stavu;
+- **žádné zbytky `IO.inspect`** – ladicí volání z vývoje se musí před commitem odstranit;
+- **žádná volání `dbg()`** – ladicí makro Elixiru se v zapsaném kódu nesmí objevit;
+- **jen záměrné logování** – každý příkaz logu musí mít zdokumentovaný účel na přiměřené
+  úrovni.
 
 ```elixir
 # VIOLATION: Runtime noise
@@ -222,24 +271,28 @@ def process(data) do
   end
 end
 ```
+Ticho za běhu zajišťuje, že když se výstup logu objeví, signalizuje skutečnou událost hodnou
+prošetření – ne rutinní provozní šum, který se ignoruje.
 
-This runtime silence standard ensures that when log output does appear, it signals a genuine event worth investigating -- not routine operational noise that gets ignored.
+## Podrobnosti implementace
 
-## Implementation Details
+### Oprava Nuclear Cache
 
-### The Nuclear Cache Fix
-
-One of the most critical aspects of maintaining Clean Run in a large umbrella project is handling stale compilation artifacts. Elixir's incremental compilation system can sometimes produce false positives (warnings from stale code) or false negatives (masking warnings from cached artifacts). The Nuclear Cache Fix addresses this by performing a complete artifact purge.
+Jednou z nejdůležitějších stránek udržení Clean Run ve velkém umbrella projektu je práce se
+zastaralými artefakty kompilace. Inkrementální kompilace Elixiru může někdy dávat falešně
+pozitivní výsledky (varování ze zastaralého kódu) nebo falešně negativní (zakrytí varování
+artefakty z mezipaměti). Oprava Nuclear Cache to řeší úplným odstraněním artefaktů.
 
 ```bash
 # Nuclear Cache Fix - use when incremental compilation produces inconsistent results
 rm -rf _build/dev/lib/prismatic_claude/ebin && rm -rf priv/plts/dialyzer.plt
 mix compile --warnings-as-errors --force
 ```
+Operace je nákladná (úplná rekompilace celého umbrella projektu), ale zaručuje přesnou
+detekci varování. Systém [AutoHeal](@/glossary/autoheal.md) ji spouští automaticky, když
+zjistí nekonzistentní výsledky kompilace.
 
-This operation is expensive (full recompilation of the entire umbrella) but guarantees accurate warning detection. The [AutoHeal](@/glossary/autoheal.md) system triggers this operation automatically when inconsistent compilation results are detected.
-
-### Automated Clean Run Validation
+### Automatická validace Clean Run
 
 ```elixir
 defmodule PrismaticSafety.CleanRunValidator do
@@ -295,111 +348,138 @@ defmodule PrismaticSafety.CleanRunValidator do
   end
 end
 ```
+## Rozsah a měřítko
 
-## Scope and Scale
+Clean Run se vynucuje jednotně v celé platformě. Údaje odpovídají stavu v době zápisu
+(jiná hesla uvádějí odlišné, starší počty aplikací):
 
-Clean Run is enforced uniformly across the entire platform.
-
-| Metric | Value |
+| Metrika | Hodnota |
 |--------|-------|
-| **Umbrella Applications** | 115 (all compliant) |
-| **Elixir Source Files** | 6,652+ `.ex` files |
-| **Total Elixir Files** | 13,223+ (including `.exs`) |
-| **Compiler Warnings** | 0 (zero) |
-| **Credo Violations** | 0 (zero) |
-| **Dialyzer Violations** | 0 (zero) |
-| **Quality Score** | doctrine-enforced (PERFECT) |
-| **Quality Domains Clean** | 13/13 (ALL) |
-| **Lines of Code** | ~2.8M LOC |
-| **QDP (Quality Debt Points)** | 0 (zero) |
+| **aplikace umbrella projektu** | 115 (všechny v souladu) |
+| **zdrojové soubory Elixiru** | 6 652+ souborů `.ex` |
+| **všechny soubory Elixiru** | 13 223+ (včetně `.exs`) |
+| **varování kompilátoru** | 0 |
+| **porušení Credo** | 0 |
+| **porušení Dialyzeru** | 0 |
+| **skóre kvality** | vynucené doktrínou |
+| **čisté domény kvality** | 13/13 |
+| **řádky kódu** | ~2,8 milionu |
+| **QDP** | 0 |
 
-Maintaining zero warnings across this scale is not trivial. Every new module, every dependency update, and every refactoring must preserve the Clean Run standard. The [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) methodology and [AutoEvolve](@/glossary/autoevolve.md) system work together to detect and eliminate warnings as they arise, maintaining the standard automatically rather than through manual vigilance.
+Udržet nulu varování v takovém měřítku není triviální. Každý nový modul, každá aktualizace
+závislosti a každý refaktoring musí standard zachovat. Metodika CASCADE a systém
+[AutoEvolve](@/glossary/autoevolve.md) spolupracují na tom, aby se varování odhalovala
+a odstraňovala hned při vzniku, automaticky, ne ruční bdělostí.
 
-## Relationship to QDP
+## Vztah k QDP
 
-Clean Run compliance is directly connected to the platform's [QDP](@/glossary/qdp.md) (Quality Debt Points) metric. Each compiler warning, Credo violation, or Dialyzer error contributes to QDP accumulation. The [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) methodology eliminated 905 QDP to achieve the current 0 QDP state, and Clean Run enforcement prevents new QDP from accumulating.
+Soulad s Clean Run přímo souvisí s metrikou [QDP](@/glossary/qdp.md). Každé varování
+kompilátoru, porušení Credo nebo chyba Dialyzeru přispívá k hromadění QDP. Metodika CASCADE
+odstranila 905 QDP a dovedla platformu ke stavu 0 QDP; vynucení Clean Run brání novému
+hromadění.
 
-The relationship is bidirectional: Clean Run enforcement prevents QDP introduction, and QDP elimination (through CASCADE) is necessary to achieve Clean Run status. A codebase with accumulated quality debt cannot achieve Clean Run until that debt is systematically eliminated.
+Vztah je obousměrný: vynucení Clean Run brání vzniku QDP a odstranění QDP (přes CASCADE) je
+nutnou podmínkou dosažení Clean Run. Kód s nahromaděným dluhem kvality nemůže stavu Clean
+Run dosáhnout, dokud se dluh soustavně neodstraní.
 
-## Relationship to NO MERCY Doctrine
+## Vztah k doktríně NO MERCY
 
-Clean Run is one of the primary enforcement mechanisms of the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine's quality requirements. The doctrine mandates zero tolerance for incomplete implementations, all quality gates must pass before any merge, no excuses for deferred fixes, and every line of code must be production-ready from the moment of creation.
+Clean Run je jedním z hlavních mechanismů vynucení požadavků doktríny NO MERCY na kvalitu
+(viz [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)). Doktrína požaduje nulovou
+toleranci k neúplným implementacím, průchod všemi branami kvality před jakýmkoli sloučením,
+žádné výmluvy pro odložené opravy a připravenost každého řádku kódu na produkci od okamžiku
+vzniku.
 
-Clean Run operationalizes these principles at the compilation and static analysis level. A warning is an incomplete implementation. A Credo violation is a quality gate failure. Runtime log noise is deferred cleanup. Clean Run converts these doctrine principles into automated enforcement that operates without human judgment or intervention.
+Clean Run tyto principy převádí do praxe na úrovni kompilace a statické analýzy. Varování je
+neúplná implementace. Porušení Credo je selhání brány kvality. Šum v logu za běhu je
+odložený úklid. Clean Run mění principy doktríny v automatické vynucení, které pracuje bez
+lidského úsudku a zásahu.
 
-## Integration with Platform Systems
+## Integrace se systémy platformy
 
-### AutoHeal Integration
+### Integrace s AutoHeal
 
-The [AutoHeal](@/glossary/autoheal.md) system monitors Clean Run status and automatically intervenes when regressions are detected. AutoHeal maintains the Dialyzer PLT incrementally, triggers Nuclear Cache Fix operations when needed, and generates fix suggestions for common warning patterns.
+[AutoHeal](@/glossary/autoheal.md) sleduje stav Clean Run a při regresi automaticky zasahuje.
+Udržuje PLT Dialyzeru inkrementálně, podle potřeby spouští opravu Nuclear Cache a vytváří
+návrhy oprav pro běžné vzory varování.
 
-### AutoEvolve Integration
+### Integrace s AutoEvolve
 
-The [AutoEvolve](@/glossary/autoevolve.md) system uses Clean Run as a baseline quality indicator. When the platform evolves (new modules, refactored code, updated dependencies), AutoEvolve verifies that the evolution maintains Clean Run compliance and triggers corrective action if violations are detected.
+[AutoEvolve](@/glossary/autoevolve.md) používá Clean Run jako základní ukazatel kvality. Když
+se platforma vyvíjí (nové moduly, refaktorovaný kód, aktualizované závislosti), ověřuje, že
+evoluce soulad zachovává, a při porušení spouští nápravu.
 
-### Quality DNA Persistence
+### Perzistence Quality DNA
 
-Clean Run status is recorded in each application's Quality DNA file (`.claude/quality-dna/current-state.json`), providing cross-session continuity. When a new Claude session begins, it can immediately verify whether the platform's Clean Run status has changed since the last session.
+Stav Clean Run se zaznamenává do souboru Quality DNA každé aplikace
+(`.claude/quality-dna/current-state.json`), což zajišťuje kontinuitu mezi sezeními. Nové
+sezení s Claude tak může okamžitě ověřit, zda se stav od posledního sezení změnil.
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Enable Early**: Activate `--warnings-as-errors` from the beginning of a project, not retroactively. Retrofitting zero-warning enforcement onto a codebase with hundreds of existing warnings requires a dedicated elimination campaign.
+1. **Zapnout brzy:** aktivovat `--warnings-as-errors` od začátku projektu, ne dodatečně.
+   Dodatečné zavedení nulové tolerance do kódu se stovkami varování vyžaduje zvláštní kampaň.
+2. **Vynutit úplnou rekompilaci:** pravidelně (zejména před commity) spouštět
+   `mix compile --warnings-as-errors --force`, aby se zachytila varování, která inkrementální
+   kompilace kvůli zastaralým artefaktům přehlédne.
+3. **Zacházet s testy stejně:** uplatňovat stejný standard na testovací soubory jako na
+   produkční kód. Testovací kód s varováními časem chátrá a ztrácí spolehlivost.
+4. **Sledovat nepřetržitě:** strážce minimální kvality odhalí regrese mezi výslovnými
+   kontrolami rychleji než periodické ruční kontroly.
+5. **Logovat na přiměřené úrovni:** `Logger.warning` vyhradit stavům, které vyžadují pozornost
+   operátora, `Logger.error` selháním a rutinní volání `Logger.info`, která vytvářejí
+   provozní šum, odstranit.
+6. **V pochybnostech oprava Nuclear Cache:** když se výsledky kompilace zdají nekonzistentní,
+   odstranit artefakty a zkompilovat znovu. Cena čisté rekompilace je vždy nižší než cena
+   ladění falešného poplachu nebo přehlédnutého skutečného varování.
 
-2. **Force Full Recompilation**: Run `mix compile --warnings-as-errors --force` periodically (especially before commits) to catch warnings that incremental compilation misses due to stale artifacts.
+## Časté chyby
 
-3. **Treat Test Code Equally**: Apply the same Clean Run standards to test files as production code. Test code with warnings degrades over time and becomes unreliable.
+- **Potlačovat varování místo opravy:** použití `@dialyzer {:nowarn_function, ...}` nebo
+  `# credo:disable-for-next-line` k umlčení varování bez řešení příčiny popírá smysl
+  standardu.
+- **Varování ze závislostí:** závislosti třetích stran mohou vytvářet varování, která
+  platforma opravit nemůže. Řeší se aktualizací závislostí, forky s opravou nebo
+  zdokumentovanými výjimkami se sledovaným issue.
+- **Falešně negativní výsledky inkrementální kompilace:** spoléhat při validaci jen na
+  inkrementální kompilaci. Zastaralé artefakty mohou varování zakrýt; pro autoritativní
+  kontroly vždy `--force`.
+- **Varování jen v testech:** ignorovat varování v testech, protože „jsou to jen testy“.
+  Kvalita testovacího kódu přímo ovlivňuje spolehlivost a udržovatelnost testů.
 
-4. **Monitor Continuously**: Use the Quality Floor Guardian to detect warning regressions between explicit checks. Continuous monitoring catches issues faster than periodic manual checks.
+## Případy užití
 
-5. **Log at Appropriate Levels**: Reserve `Logger.warning` for conditions that warrant operator attention, `Logger.error` for failures, and eliminate routine `Logger.info` calls that produce operational noise.
+- **validace před commitem** – nula varování dřív, než kód vstoupí do repozitáře;
+- **brány kvality v CI/CD** – blokace sloučení, která přinášejí varování, porušení Credo
+  nebo chyby Dialyzeru;
+- **skóre kvality platformy** – příspěvek k souladu s doktrínou ve 22 pilířích a 13 doménách
+  kvality;
+- **důvěra v nasazení** – produkční vydání se sestavují z kódu bez varování;
+- **vývojářská kázeň** – kultura, v níž se varování berou jako chyby (srov. [Session
+  Discipline](@/glossary/session-discipline.md));
+- **provozní jasnost** – produkční logy obsahují jen skutečné události, které si žádají
+  pozornost.
 
-6. **Nuclear Cache Fix When in Doubt**: When compilation results seem inconsistent, perform a full artifact purge and recompile. The cost of a clean recompilation is always less than the cost of debugging a false positive or missing a real warning.
+## Související pojmy
 
-## Common Pitfalls
+Bez vlastního hesla v glosáři knihy: *CASCADE* a *CASCADE Pattern* (metodika a antivzory,
+jejichž odstranění vedlo ke Clean Run), *Dialyzer*, *Credo*, *Typespec*, *Mix*, *Code
+Coverage*, *Property-Based Testing* a *Quality Gates*.
 
-- **Suppressing warnings instead of fixing them**: Using `@dialyzer {:nowarn_function, ...}` or `# credo:disable-for-next-line` to silence warnings without addressing the underlying issue defeats the purpose of Clean Run.
+## Související
 
-- **Dependency warnings**: Third-party dependencies may produce warnings that the platform cannot fix. These must be addressed through dependency updates, forks with fixes, or documented exceptions with tracking issues.
+**Platforma**
 
-- **Incremental compilation false negatives**: Relying solely on incremental compilation for Clean Run validation. Stale artifacts can mask warnings. Always use `--force` for authoritative checks.
+- [QDP](@/glossary/qdp.md) – body dluhu kvality, jejichž vzniku Clean Run brání.
+- [Zero Warning Policy](@/glossary/zero-warning-policy.md) – zásada nulových varování.
+- [AutoEvolve](@/glossary/autoevolve.md) – evoluční systém, který standard udržuje.
+- [AutoHeal](@/glossary/autoheal.md) – samooprava spouštěná regresemi.
+- [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) – doktrína, kterou standard
+  uskutečňuje.
 
-- **Test-only warnings**: Ignoring warnings in test files because they are "just tests." Test code quality directly impacts test reliability and maintainability.
+**Kompendium**
 
-## Use Cases
-
-- **Pre-Commit Validation**: Enforcing zero warnings before any code enters the repository, preventing quality debt accumulation
-- **CI/CD Quality Gates**: Blocking merges that introduce warnings, Credo violations, or Dialyzer errors
-- **Platform Quality Scoring**: Contributing to the 22-pillar doctrine compliance across 13 quality domains
-- **Deployment Confidence**: Ensuring production releases are built from warning-free codebases
-- **Developer Discipline**: Maintaining a culture where warnings are treated as errors, keeping the signal-to-noise ratio at maximum
-- **Operational Clarity**: Ensuring production log output contains only genuine events warranting attention
-
-## Related Concepts
-
-- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) -- Methodology that eliminated 905 QDP to achieve Clean Run
-- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) -- Specific anti-patterns that violated Clean Run
-- [QDP](@/glossary/qdp.md) -- Quality Debt Points prevented by Clean Run enforcement
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) -- Type analysis tool contributing to zero-violation standard
-- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) -- Static analysis tool enforcing code quality rules
-- [Typespec](https://prismatic-reality-com.github.io/prismatic-promo/glossary/typespec/) -- Type annotations validated as part of Clean Run
-- [AutoEvolve](@/glossary/autoevolve.md) -- Evolution system maintaining Clean Run through automatic detection
-- [AutoHeal](@/glossary/autoheal.md) -- Self-repair system triggered by Clean Run regressions
-- [Mix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix/) -- Build tool executing Clean Run compilation checks
-- [Code Coverage](https://prismatic-reality-com.github.io/prismatic-promo/glossary/code-coverage/) -- Coverage metric complementing Clean Run quality checks
-- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Testing technique validating Clean Run fixes
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Enforcement pipeline incorporating Clean Run checks
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform quality capabilities
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
+  – lidská podoba šumu, v němž zaniká signál.
+- [Řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md) – péče
+  o poměr signálu a šumu v každodenním životě.

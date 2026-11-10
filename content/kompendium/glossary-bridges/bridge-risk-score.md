@@ -28,7 +28,7 @@ Glossary entry slouží jako kanonický referenční bod platformy; bridge člá
 
 Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
-- **Sekce 03 — Architektura intelligence**: vztah risk score k decision engine
+- **Sekce 03 — Architektura intelligence**: vztah risk score k [decision engine](@/glossary/decision-engine.md)
 - **Per-technique: Risk Calibration**: operativní kalibrace skóre
 - **Sekce 06 — Quality assurance**: audit fairness a accuracy
 - **Sekce 08 — Etika**: limity automatizovaného rozhodování

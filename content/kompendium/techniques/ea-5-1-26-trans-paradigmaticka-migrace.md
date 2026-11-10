@@ -174,7 +174,7 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 - **[EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md)** — narativní monismus se stabilizuje souběžně s paradigmatickým posunem.
 - **[EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)** — redukce všech standardů na jeden meta-standard je **typický koncový bod** migrace.
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — kontrola informačního přítoku během fáze migrace.
-- **EA-1.3.1 Imunizace proti falsifikaci** — finální rámec je strukturně neimunizovatelný proti kritice.
+- **[EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) Imunizace proti falsifikaci** — finální rámec je strukturně neimunizovatelný proti kritice.
 
 ### Sourozenecké UM techniky
 
@@ -182,14 +182,14 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 
 ### Eskaluje do
 
-- **EA-5.1.27 Meta-epistemická redukce** — paradigmatická bezdomovina jako prekursor pro epistemický monismus.
+- **EA-5.1.27 Meta-epistemická redukce** — paradigmatická bezdomovina jako prekursor pro [epistemický monismus](@/glossary/epistemicky-monismus.md).
 - **Doktrinální submisivita** — subjekt přijímá zdroj rámce jako epistemickou autoritu bez kritické kapacity.
 
 ## Vztah k Prismatic platformě
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradigm-stability check** — audituje rozhodovací rámce klientů na sekvenční eskalaci.
 - **NABLA Infinity multi-paradigm provenance** — uchovává historii rámců, detekuje vynucenou supresi.
-- **Color Teams paradigmatic adversarial review** — Red Team protokol pro detekci sekvenční eskalace v coaching/training pipeline.
+- **Color Teams paradigmatic adversarial review** — [Red Team](@/glossary/red-team.md) protokol pro detekci sekvenční eskalace v coaching/training pipeline.
 
 ## Související
 

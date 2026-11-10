@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.7 Referenční rekurze"
-description = "Detailní per-technique článek: ultramární technika referenční rekurze — vynucená cirkulární auto-reference subjektova uvažování, která nemůže terminovat. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: ultramární technika referenční rekurze — vynucená cirkulární auto-reference subjektova uvažování, která nemůže terminovat."
 weight = 517
 insert_anchor_links = "right"
 
@@ -59,7 +59,7 @@ Každý pokus subjektu **vystoupit** z cyklu odkazem na **třetí pojem C** (ope
 
 ### Krok 3 — Estetizace cyklu
 
-Cirkularita je prezentována jako **hermeneutický kruh** — legitimní vlastnost porozumění v humanitních vědách. Subjekt přijímá, že cyklus **není chybou**, ale *strukturou hloubkového poznání*. Tato estetizace blokuje obrannou reakci, kterou by jinak vyvolalo logické rozpoznání kruhové argumentace.
+Cirkularita je prezentována jako **[hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)** — legitimní vlastnost porozumění v humanitních vědách. Subjekt přijímá, že cyklus **není chybou**, ale *strukturou hloubkového poznání*. Tato estetizace blokuje obrannou reakci, kterou by jinak vyvolalo logické rozpoznání kruhové argumentace.
 
 ### Krok 4 — Iterace s eskalující emocionální investicí
 
@@ -190,7 +190,7 @@ Intervence: Operační rekonstrukce — definice obou pojmů přes pozorovateln�
 
 ### Eskaluje do
 
-- **EA-5.2.x Ontologická anihilace** — když je referenční rekurze aplikována na pojmy *bytí*, *reality*, *já*, kolaps decizní funkce přechází v kolaps základního realitního testu.
+- **EA-5.2.x [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)** — když je referenční rekurze aplikována na pojmy *bytí*, *reality*, *já*, kolaps decizní funkce přechází v kolaps základního realitního testu.
 - **Klinická anankastická symptomatika** — uzavřená smyčka v kombinaci s vysokou afektivní zátěží produkuje obsedantní průběh prožívání s ruminací (viz [anankastický režim](@/glossary/anankasticky-rezim.md)).
 
 ### Alternativy / podobné, ale **distinktivní**
@@ -204,7 +204,7 @@ Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapová
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) cycle detector** — provenance graf každého epistemického tvrzení je analyzován na uzavřené cykly; podezřelé struktury jsou flagovány a vyžadují externí kotvu.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} terminační guard** — každé rozhodovací okno má pevný *decision deadline*; po jeho překročení systém vynucuje pragmatický kompromis a zaznamenává jej do kalibrační historie.
-- **Color Teams cross-paradigm review** — sporná rozhodnutí jsou rutinně konzultována s týmy operujícími mimo původní pojmový aparát, čímž se snižuje pravděpodobnost uvíznutí v lokálním cyklu.
+- **[Color Teams](@/glossary/color-teams.md) cross-paradigm review** — sporná rozhodnutí jsou rutinně konzultována s týmy operujícími mimo původní pojmový aparát, čímž se snižuje pravděpodobnost uvíznutí v lokálním cyklu.
 
 ## Související
 

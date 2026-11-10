@@ -99,7 +99,7 @@ faktitivní poruchu.
 ## Riziková místa
 
 - **Jeden test jako verdikt.** Selhání v jednom testu validity nedokazuje simulaci.
-- **Zaměnění disociace se simulací.** Výpadky paměti a kolísání kontaktu jsou u
+- **Zaměnění [disociace](@/glossary/disociace.md) se simulací.** Výpadky paměti a kolísání kontaktu jsou u
   traumatizovaných osob běžné.
 - **Selektivní podezření.** Pokud je validita testována jen u jedné strany sporu, posudek
   je metodicky zatížený.

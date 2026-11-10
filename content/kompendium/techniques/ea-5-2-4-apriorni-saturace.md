@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.4 Apriorní saturace"
-description = "Detailní per-technique článek: technika apriorní saturace — falešné syntetické apriori vstupované do kognitivní struktury blokují přístup k empirické revizi. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika apriorní saturace — falešné syntetické apriori vstupované do kognitivní struktury blokují přístup k empirické revizi."
 weight = 524
 insert_anchor_links = "right"
 
@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Apriorní saturace** je metatranscendentální technika, při níž je subjektova kognitivní struktura **saturována falešnými syntetickými apriori** — soudy, které se subjektu jeví jako **současně univerzálně platné a obsahově informativní**, ale které ve skutečnosti nejsou ani validně apriorní, ani empiricky podložené. Jejich funkční role je **blokovat empirickou revizi**: cokoliv ve zkušenosti odporuje apriornímu soudu, je interpretováno jako *zdánlivý výjimkový případ* nebo jako *defekt zkušenosti*, ne jako falsifikace.
+**Apriorní saturace** je metatranscendentální technika, při níž je subjektova kognitivní struktura **saturována falešnými syntetickými apriori** — soudy, které se subjektu jeví jako **současně univerzálně platné a obsahově informativní**, ale které ve skutečnosti nejsou ani validně apriorní, ani empiricky podložené. Jejich funkční role je **blokovat empirickou revizi**: cokoliv ve zkušenosti odporuje apriornímu soudu, je interpretováno jako *zdánlivý výjimkový případ* nebo jako *defekt zkušenosti*, ne jako [falsifikace](@/glossary/falsifikace.md).
 
 Termín *syntetické apriori* (Kant) označuje soudy, které **rozšiřují poznání**, ale jejichž platnost je nezávislá na zkušenosti. Klasickými příklady jsou matematické soudy a kategoriální principy. EA-5.2.4 zneužívá strukturu syntetického apriori: do subjektovy kognice jsou vsazeny soudy, které **vypadají** jako apriorní (nejsou kontingentní, nejsou triviálně analytické), ale jsou **obsahově defektní** nebo **politicky / ideologicky** nasazené.
 
@@ -185,7 +185,7 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 ## Vztah k Prismatic platformě
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní formulaci předpokladů** každého rozhodnutí, čímž apriorní saturaci učiní viditelnou.
-- **OSINT pipeline auditovaná NABLA Infinity** rozlišuje **observation** od **assumption**, takže vsazená apriori nemohou figurovat jako evidence.
+- **OSINT pipeline auditovaná [NABLA Infinity](@/glossary/nabla-infinity.md)** rozlišuje **observation** od **assumption**, takže vsazená apriori nemohou figurovat jako evidence.
 - **Methodological adversarial review** — interní praxe Prismatic je strukturováním kritického posouzení napříč paradigmaty.
 
 ## Související

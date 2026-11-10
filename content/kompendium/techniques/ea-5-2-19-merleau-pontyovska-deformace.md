@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.19 Merleau-Pontyovská deformace"
-description = "Detailní per-technique článek: technika merleau-pontyovské deformace — destrukce tělesné intencionality (corps propre) a chiazmatické struktury vnímání. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika merleau-pontyovské deformace — destrukce tělesné intencionality (corps propre) a chiazmatické struktury vnímání."
 weight = 5219
 insert_anchor_links = "right"
 
@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Merleau-Pontyovská deformace** je metatranscendentální technika, jíž je systematicky destruována **tělesná intencionalita** subjektu — *corps propre* (vlastní tělo), *chair* (maso/tělesnost), **chiazmatická struktura** vnímání, kde vnímající a vnímané se vzájemně prolínají. Subjekt ztrácí integrované **tělesné bytí ve světě** a propadá karteziánskému dualismu (mind-body split) v patologické formě.
+**Merleau-Pontyovská deformace** je metatranscendentální technika, jíž je systematicky destruována **tělesná [intencionalita](@/glossary/intentionalita.md)** subjektu — *corps propre* (vlastní tělo), *chair* (maso/tělesnost), **chiazmatická struktura** vnímání, kde vnímající a vnímané se vzájemně prolínají. Subjekt ztrácí integrované **tělesné bytí ve světě** a propadá karteziánskému dualismu (mind-body split) v patologické formě.
 
 Merleau-Pontyho fenomenologie vnímání etabluje tělo ne jako objekt, ale jako *transcendentální subjekt vnímání*. *Chiasme* je strukturní propojení mezi vnímajícím a vnímaným — vidím, protože jsem viditelný; dotýkám se, protože jsem dotknutelný. Merleau-Pontyovská deformace tuto **chiazmatickou strukturu** rozbíjí: subjekt prožívá své tělo jako **odcizený objekt**, vnímání jako **odpojené od těla**, a svět jako **zvenku pozorovaný** namísto **tělesně obývaný**.
 
@@ -61,7 +61,7 @@ Tělesné schéma — pasivní syntéza tělesnosti — je oslabováno přeruše
 
 ### Krok 5 — Konsolidace dualismu jako „spirituality“
 
-Stav strukturní disociace je interpretován jako **„spirituální transcendence těla“**. Identitární investice činí návrat k tělesné integraci obtížným.
+Stav strukturní [disociace](@/glossary/disociace.md) je interpretován jako **„spirituální transcendence těla“**. Identitární investice činí návrat k tělesné integraci obtížným.
 
 ## Fenomenologické znaky
 
@@ -105,7 +105,7 @@ Merleau-Pontyovská deformace je odlišitelná od:
 ### Individuální
 
 1. **Somatická práce** — Feldenkrais, Alexander Technique, Iyengar jóga obnovují tělesné schéma.
-2. **Korektní merleau-pontyovská hermeneutika** — výklad chiazmatické struktury.
+2. **Korektní merleau-pontyovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad chiazmatické struktury.
 3. **Smyslová zakotvenost** — explicitní pozornost k tělesným pocitům, dotekům, dechu.
 4. **Manuální práce** — fyzická aktivita s rukama obnovuje kinestetické schéma.
 
@@ -133,8 +133,8 @@ Merleau-Pontyovská deformace je odlišitelná od:
 ## Vztah k Prismatic platformě
 
 - **OSINT field investigation** — fyzická přítomnost obnovuje tělesnou intencionalitu.
-- **NABLA Infinity embodied epistemic axiom** — epistemická provenience pracuje s tělem v terénu.
-- **Decision Engine kinestetický feedback** — tělesné signály jsou součást rozhodovacího procesu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) embodied epistemic axiom** — epistemická provenience pracuje s tělem v terénu.
+- **[Decision Engine](@/glossary/decision-engine.md) kinestetický feedback** — tělesné signály jsou součást rozhodovacího procesu.
 
 ## Související
 

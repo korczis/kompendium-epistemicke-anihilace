@@ -133,7 +133,7 @@ o přerušení e-mailové komunikace s firmou. Následoval [protokol epistemick�
   se legitimní rozvoj změnil v kontrolu (semináře, hodnocení 360°, mentorství).
 - **S2 – Externalizace introjektů:** zachycení vět jako „vyčerpání je známka, že nejsi
   dost transformovaná“ a jejich připsání programu, nikoli vlastnímu přesvědčení.
-- **S3 – Rekonstrukce metakognice:** obnova schopnosti vnímat tělesné signály jako informaci;
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova schopnosti vnímat tělesné signály jako informaci;
   práce se [somatickou pozorností](@/kompendium/self-defense-guides/13-somatic-awareness.md).
 - **S4 – Hermeneutická obnova:** mapování vlastních hodnot nezávisle na firemním slovníku;
   skupina pro lidi po vyčerpání ve vrcholovém managementu; obnova kontaktu s dětmi.

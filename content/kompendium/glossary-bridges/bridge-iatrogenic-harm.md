@@ -29,8 +29,8 @@ Glossary entry slouží jako kanonický referenční bod platformy; bridge člá
 Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 06 — Klinické aplikace**: mapování rizik a benefitů u psychoterapeutických intervencí
-- **Sekce 08 — Etika praxe**: informovaný souhlas a princip non-maleficence
-- **Per-technique: Trauma-Informed Interview**: prevence retraumatizace svědka
+- **Sekce 08 — Etika praxe**: [informovaný souhlas](@/glossary/informed-consent.md) a princip non-maleficence
+- **Per-technique: Trauma-Informed Interview**: prevence [retraumatizace](@/glossary/retraumatizace.md) svědka
 - **Sekce 09 — Supervize**: detekce iatrogenních vzorců v dlouhodobé péči
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.

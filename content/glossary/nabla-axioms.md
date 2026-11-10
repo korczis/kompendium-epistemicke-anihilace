@@ -1,10 +1,10 @@
 +++
-title = "NABLA Axioms"
+title = "Axiomy NABLA"
 weight = 50
-description = "The seven non-negotiable epistemic principles governing all belief formation in the Prismatic Platform: Signal Plurality, Contradiction Preservation, Absence Informative, Time Decay, Unknown Valid, Source Independence, and Provenance Mandatory"
+description = "Sedm nepodkročitelných epistemických principů, jimiž Prismatic Platform řídí vznik každého přesvědčení: pluralita signálů, zachování rozporů, povinná provenience a další."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "nabla-infinity", "axioms", "belief-formation", "signal-processing", "contradiction-preservation", "provenance"]
+tags = ["glossary", "epistemic", "nabla", "nabla-infinity", "prismatic", "evidence"]
 
 [extra]
 category = "epistemic"
@@ -31,94 +31,181 @@ keywords = ["NABLA axioms", "epistemic axioms", "signal plurality", "contradicti
 related_terms = ["nabla-infinity", "signal-plurality", "contradiction-preservation", "time-decay", "provenance-mandatory", "axiom-enforcement", "trinity-gate", "belief-graph", "addiction-recovery", "epistemic-robustness"]
 word_count = 2174
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "NABLA Axioms - Prismatic Platform"
+image_alt = "Axiomy NABLA – glosář"
 +++
 
-## Definition
+## Definice
 
-The NABLA Axioms are the seven non-negotiable epistemic principles that govern all belief formation, evidence evaluation, and decision-making within the Prismatic Platform's [NABLA Infinity](@/glossary/nabla-infinity.md) framework. They are: (1) Signal Plurality -- minimum two independent signals required for any belief, (2) Contradiction Preservation -- conflicting evidence must be preserved, never discarded, (3) Absence Informative -- missing data is itself meaningful data, (4) Time Decay -- all beliefs carry mandatory timestamps and degrade over time, (5) Unknown Valid -- "I don't know" is a legitimate and honored epistemic state, (6) Source Independence -- independent sources receive higher evidential weight, and (7) Provenance Mandatory -- all beliefs must be traceable to their origins. Together, these axioms form the DNA-level constraints that prevent epistemic corruption across the platform's 530+ agents and 115 applications.
+Axiomy NABLA jsou sedm nepodkročitelných epistemických principů, které v rámci
+[NABLA Infinity](@/glossary/nabla-infinity.md) v Prismatic Platform řídí veškerý vznik
+přesvědčení, hodnocení důkazů a rozhodování. Jsou to:
 
-## Overview
+1. **Pluralita signálů** (*Signal Plurality*) – každé přesvědčení vyžaduje nejméně dva
+   nezávislé signály;
+2. **Zachování rozporu** (*Contradiction Preservation*) – protichůdné důkazy se musí zachovat,
+   nikdy se nezahazují;
+3. **Informativní absence** (*Absence Informative*) – chybějící data jsou sama o sobě
+   smysluplným údajem;
+4. **Časový rozpad** (*Time Decay*) – každé přesvědčení nese povinné časové razítko a jeho
+   spolehlivost s časem klesá;
+5. **Platnost neznáma** (*Unknown Valid*) – „nevím“ je legitimní a respektovaný epistemický
+   stav;
+6. **Nezávislost zdrojů** (*Source Independence*) – nezávislé zdroje dostávají vyšší důkazní
+   váhu;
+7. **Povinná provenience** (*Provenance Mandatory*) – každé přesvědčení musí jít dohledat
+   k jeho původu.
 
-The NABLA Axioms exist because intelligent systems -- whether human or artificial -- have a natural tendency toward epistemic shortcuts: cherry-picking evidence, smoothing over contradictions, treating absence as absence of significance, and accepting claims without provenance. These tendencies, while efficient in low-stakes environments, produce catastrophic failures in systems that process intelligence, assess security risks, or make autonomous decisions.
+Společně tvoří omezení „na úrovni DNA“, která mají bránit epistemické korupci v celé
+platformě; v době zápisu dokumentace platforma uváděla přes 530 agentů a 115 aplikací.
 
-The Prismatic Platform was designed to resist these tendencies at the architectural level. The NABLA Axioms are not guidelines or suggestions -- they are hard constraints enforced through the [Trinity Gate](@/glossary/trinity-gate.md) verification system, automated axiom validators, and the [Addiction Preservation](@/glossary/addiction-recovery.md) doctrine that demands constant vigilance against epistemic rationalization.
+Pro Kompendium jsou axiomy důležité jako zrcadlo: popisují epistemickou hygienu, kterou
+techniky epistemické anihilace u člověka systematicky rozkládají – izolace od zdrojů ruší
+pluralitu, [gaslighting](@/glossary/gaslighting.md) pohřbívá rozpory a přepisování minulosti
+ničí provenienci. Vztah knihy k platformě popisuje kapitola
+[2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md).
 
-The axioms draw from three intellectual traditions. From formal logic, they inherit rigor and verifiability. From intelligence analysis, they inherit the requirement for source plurality and contradiction tracking. From philosophy of science, they inherit the principle that unfalsifiable claims and claims without provenance are epistemically worthless regardless of their apparent plausibility.
+## Přehled
 
-Every claim that passes through the platform -- whether a security rating from the [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/), a threat assessment from the [Red Team](@/glossary/red-team.md), or a quality score from the [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) -- must satisfy all seven axioms before it can influence platform behavior. This is not optional. There is no bypass. The axioms are enforced at COSMIC CLEARANCE authority level.
+Axiomy NABLA existují proto, že inteligentní systémy – lidské i umělé – přirozeně tíhnou
+k epistemickým zkratkám: vybírají si důkazy, které se hodí, uhlazují rozpory, chápou absenci
+jako nevýznamnou a přijímají tvrzení bez provenience. V prostředí s malými sázkami jsou tyto
+sklony úsporné, v systémech, které zpracovávají zpravodajské informace, posuzují
+bezpečnostní rizika nebo autonomně rozhodují, však vedou ke katastrofálním selháním.
 
-## Technical Details
+Prismatic Platform byla navržena tak, aby těmto sklonům odolávala na úrovni architektury.
+Axiomy NABLA nejsou doporučení ani návrhy – jsou to tvrdá omezení vynucovaná ověřovacím
+systémem [Trinity Gate](@/glossary/trinity-gate.md), automatizovanými validátory axiomů
+a doktrínou [Addiction Recovery](@/glossary/addiction-recovery.md), která vyžaduje trvalou
+bdělost vůči epistemickému racionalizování.
 
-### Axiom 1: Signal Plurality (HARD Enforcement)
+Axiomy čerpají ze tří intelektuálních tradic. Z formální logiky přebírají přísnost
+a ověřitelnost. Ze zpravodajské analýzy požadavek plurality zdrojů a sledování rozporů.
+Z filosofie vědy princip, že nefalzifikovatelná tvrzení a tvrzení bez provenience jsou
+epistemicky bezcenná bez ohledu na to, jak věrohodně působí (srov.
+[falzifikovatelnost](@/glossary/falsifikovatelnost.md)).
 
-No belief may be established on the basis of a single signal, regardless of that signal's apparent reliability. A minimum of two independent signals is required for any proposition to enter the belief graph.
+Každé tvrzení, které platformou prochází – bezpečnostní hodnocení z [Prismatic
+Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/),
+posouzení hrozby od [Red Teamu](@/glossary/red-team.md) nebo skóre kvality od [Quality Floor
+Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) –
+musí splnit všech sedm axiomů dřív, než smí ovlivnit chování platformy. Není to volitelné
+a neexistuje obchvat. Axiomy se vynucují na úrovni oprávnění COSMIC CLEARANCE.
 
-**Rationale**: Single-source beliefs are brittle. If the source is compromised, wrong, or out of date, the entire downstream chain of reasoning is corrupted. Plurality provides redundancy against individual source failure.
+## Technické podrobnosti
 
-**Enforcement**: HARD -- violations result in E2 BLOCK. The proposition is rejected and cannot enter the belief graph until a second independent signal is provided.
+### Axiom 1: Pluralita signálů (tvrdé vynucení)
 
-**Threshold in context**:
-- Critical decisions require 3+ signals
-- Standard operations require 2+ signals
-- Exploratory analysis allows single signals but marks them as "unconfirmed"
+Žádné přesvědčení nesmí vzniknout na základě jediného signálu, ať se ten signál zdá
+jakkoli spolehlivý. Aby výrok vstoupil do grafu přesvědčení, jsou potřeba nejméně dva
+nezávislé signály (podrobně heslo [Signal Plurality](@/glossary/signal-plurality.md)).
 
-### Axiom 2: Contradiction Preservation (HARD Enforcement)
+**Zdůvodnění**: přesvědčení z jediného zdroje je křehké. Je-li zdroj kompromitovaný,
+chybný nebo zastaralý, poškodí se celý navazující řetězec úvah. Pluralita poskytuje
+redundanci proti selhání jednotlivého zdroje.
 
-When evidence contradicts existing beliefs, both the existing belief and the contradicting evidence must be preserved. Contradictions are never resolved by discarding one side. Instead, they are explicitly tracked, investigated, and either resolved through additional evidence or maintained as genuine uncertainty.
+**Vynucení**: TVRDÉ – porušení vede k E2 BLOCK. Výrok je odmítnut a do grafu přesvědčení
+nevstoupí, dokud se nedodá druhý nezávislý signál.
 
-**Rationale**: Premature contradiction resolution -- choosing one side because it is more convenient, familiar, or expected -- is the most common form of epistemic corruption. Contradictions are signals that the model of reality is incomplete. Discarding them destroys information.
+**Prahy podle kontextu**:
 
-**Enforcement**: HARD -- E2 BLOCK for any operation that discards contradicting evidence. E3 HALT for systematic contradiction burial.
+- kritická rozhodnutí vyžadují 3 a více signálů;
+- běžný provoz vyžaduje 2 a více signálů;
+- průzkumná analýza připouští jediný signál, ale označí ho jako „nepotvrzený“.
 
-### Axiom 3: Absence Informative (SOFT Enforcement)
+### Axiom 2: Zachování rozporu (tvrdé vynucení)
 
-When expected signals are absent, this absence is itself a data point that must be recorded and tracked. A security scan that finds no vulnerabilities, a search that returns no results, and a monitoring check that detects no anomalies are all informative events -- they may indicate either genuinely clean conditions or failures in the detection mechanism.
+Když důkaz odporuje existujícímu přesvědčení, musí se zachovat obojí – stávající
+přesvědčení i protichůdný důkaz. Rozpory se nikdy neřeší zahozením jedné strany. Místo toho
+se výslovně sledují, prošetřují a buď se vyřeší dalšími důkazy, nebo se ponechají jako
+skutečná nejistota.
 
-**Rationale**: Systems that only process positive signals develop confirmation bias. By tracking what was expected but not found, the platform maintains awareness of its detection blind spots.
+**Zdůvodnění**: předčasné řešení rozporu – volba jedné strany, protože je pohodlnější,
+známější nebo očekávanější – je nejčastější formou epistemické korupce. Rozpory signalizují,
+že model reality je neúplný. Jejich zahození ničí informaci.
 
-**Enforcement**: SOFT -- violations result in E1 WARNING with investigation triggered. The system logs the expected-but-absent signal and tracks it for follow-up.
+**Vynucení**: TVRDÉ – E2 BLOCK pro každou operaci, která zahodí protichůdný důkaz. E3 HALT
+při systematickém pohřbívání rozporů.
 
-### Axiom 4: Time Decay (HARD Enforcement)
+### Axiom 3: Informativní absence (měkké vynucení)
 
-All beliefs carry mandatory timestamps and degrade in reliability over time. A security assessment from 6 months ago is less reliable than one from today. A network scan from 2024 does not accurately represent 2026 infrastructure. Time decay forces the platform to continuously re-verify its beliefs rather than treating past assessments as permanent truths.
+Když očekávané signály chybějí, je tato absence sama datovým bodem, který se musí
+zaznamenat a sledovat. Bezpečnostní sken bez nalezených zranitelností, vyhledávání bez
+výsledků a monitorovací kontrola bez anomálií jsou informativní události – mohou znamenat
+skutečně čistý stav, nebo selhání detekčního mechanismu.
 
-**Rationale**: The world changes. Beliefs that were accurate yesterday may be dangerously wrong today. Without time decay, stale beliefs accumulate and create a false sense of certainty.
+**Zdůvodnění**: systémy, které zpracovávají jen pozitivní signály, si vytvářejí
+[konfirmační bias](@/glossary/konfirmacni-bias.md). Sledováním toho, co se očekávalo, ale
+nenašlo, si platforma udržuje povědomí o svých slepých místech detekce.
 
-**Enforcement**: HARD -- E2 BLOCK for any belief without a timestamp. Automatic confidence degradation applied to beliefs exceeding their TTL (time-to-live).
+**Vynucení**: MĚKKÉ – porušení vede k E1 WARNING a spustí šetření. Systém zaznamená
+očekávaný, ale chybějící signál a sleduje ho k dořešení.
 
-### Axiom 5: Unknown Valid (HARD Enforcement)
+### Axiom 4: Časový rozpad (tvrdé vynucení)
 
-"I don't know" is a legitimate and honored epistemic state. The platform explicitly refuses to guess, extrapolate, or fabricate answers when evidence is insufficient. An unknown is represented as `{:unknown, reason, metadata}` rather than being silently replaced with a default or best guess.
+Každé přesvědčení nese povinné časové razítko a jeho spolehlivost s časem klesá.
+Bezpečnostní posouzení staré šest měsíců je méně spolehlivé než dnešní. Síťový sken z roku
+2024 přesně nepopisuje infrastrukturu roku 2026. Časový rozpad nutí platformu svá
+přesvědčení průběžně znovu ověřovat, místo aby minulá posouzení brala jako trvalé pravdy.
 
-**Rationale**: False certainty is more dangerous than acknowledged uncertainty. A system that says "the target has no vulnerabilities" when it actually means "I could not determine the target's vulnerability status" can lead to catastrophic security failures.
+**Zdůvodnění**: svět se mění. Přesvědčení, které bylo včera přesné, může být dnes nebezpečně
+mylné. Bez časového rozpadu se hromadí zastaralá přesvědčení a vytvářejí falešný pocit
+jistoty.
 
-**Enforcement**: HARD -- E2 BLOCK for any operation that converts unknown states into definite claims without additional evidence.
+**Vynucení**: TVRDÉ – E2 BLOCK pro každé přesvědčení bez časového razítka. Přesvědčením,
+která překročí svou dobu platnosti (TTL, *time-to-live*), se automaticky snižuje důvěra.
 
-### Axiom 6: Source Independence (SOFT Enforcement)
+### Axiom 5: Platnost neznáma (tvrdé vynucení)
 
-Independent sources receive higher evidential weight than correlated sources. Two reports from the same underlying data source count as one signal, even if they are presented by different intermediaries. Source independence is evaluated by tracing the provenance chain of each signal.
+„Nevím“ je legitimní a respektovaný epistemický stav. Platforma výslovně odmítá hádat,
+extrapolovat nebo si vymýšlet odpovědi, když důkazy nestačí. Neznámo se reprezentuje jako
+`{:unknown, reason, metadata}`, a ne tak, že se potichu nahradí výchozí hodnotou nebo
+nejlepším odhadem.
 
-**Rationale**: Information that appears to come from multiple sources but originates from a single root source creates false plurality. Intelligence analysis has repeatedly demonstrated that correlated sources masquerading as independent can lead to catastrophically overconfident assessments.
+**Zdůvodnění**: falešná jistota je nebezpečnější než přiznaná nejistota. Systém, který řekne
+„cíl nemá žádné zranitelnosti“, když ve skutečnosti myslí „nepodařilo se mi zjistit stav
+zranitelností cíle“, může vést ke katastrofálním bezpečnostním selháním.
 
-**Enforcement**: SOFT -- E1 WARNING for correlated sources. Bias assessment required when source independence cannot be verified.
+**Vynucení**: TVRDÉ – E2 BLOCK pro každou operaci, která bez dalších důkazů převede neznámý
+stav na určité tvrzení.
 
-### Axiom 7: Provenance Mandatory (HARD Enforcement)
+### Axiom 6: Nezávislost zdrojů (měkké vynucení)
 
-All beliefs must be traceable to their origins through an unbroken provenance chain. Every transformation, aggregation, and inference step that contributed to the belief must be recorded. If the provenance chain is broken -- if you cannot trace a claim back to its source evidence -- the claim is epistemically invalid.
+Nezávislé zdroje dostávají vyšší důkazní váhu než zdroje korelované. Dvě zprávy z téhož
+podkladového zdroje dat se počítají jako jeden signál, i když je předkládají různí
+zprostředkovatelé. Nezávislost zdrojů se posuzuje dohledáním řetězce provenience každého
+signálu.
 
-**Rationale**: Without provenance, beliefs cannot be audited, disputed, or updated when source data changes. Provenance enables accountability and makes the reasoning process transparent and reproducible.
+**Zdůvodnění**: informace, která se zdá pocházet z více zdrojů, ale vychází z jediného
+kořenového zdroje, vytváří falešnou pluralitu. Zpravodajská analýza opakovaně ukázala, že
+korelované zdroje vydávané za nezávislé mohou vést ke katastrofálně přehnaně sebejistým
+posouzením.
 
-**Enforcement**: HARD -- E2 BLOCK for any belief without provenance metadata. Claims with broken provenance chains are rejected from the belief graph.
+**Vynucení**: MĚKKÉ – E1 WARNING u korelovaných zdrojů. Když nezávislost zdrojů nelze ověřit,
+je povinné posouzení zkreslení.
 
-## Implementation in Prismatic Platform
+### Axiom 7: Povinná provenience (tvrdé vynucení)
 
-### Axiom Validator Module
+Každé přesvědčení musí jít nepřerušeným řetězcem provenience dohledat k jeho původu. Každý
+krok transformace, agregace a inference, který k přesvědčení přispěl, musí být zaznamenán.
+Je-li řetězec provenience přerušen – nelze-li tvrzení dohledat k jeho zdrojovým důkazům – je
+tvrzení epistemicky neplatné.
 
-The platform implements axiom validation as a composable pipeline that every belief must pass through:
+**Zdůvodnění**: bez provenience nelze přesvědčení auditovat, zpochybnit ani aktualizovat,
+když se změní zdrojová data. Provenience umožňuje odpovědnost a činí proces uvažování
+průhledným a reprodukovatelným.
+
+**Vynucení**: TVRDÉ – E2 BLOCK pro každé přesvědčení bez metadat provenience. Tvrzení
+s přerušeným řetězcem provenience se do grafu přesvědčení nepřijímají.
+
+## Implementace v Prismatic Platform
+
+### Modul validátoru axiomů
+
+Platforma implementuje validaci axiomů jako skládatelnou pipeline, kterou musí projít každé
+přesvědčení:
 
 ```elixir
 defmodule PrismaticNabla.AxiomValidator do
@@ -292,9 +379,9 @@ defmodule PrismaticNabla.AxiomValidator do
 end
 ```
 
-### Contradiction Tracker
+### Sledování rozporů
 
-The platform maintains an explicit contradiction registry that prevents contradiction burial:
+Platforma vede výslovný registr rozporů, který brání jejich pohřbívání:
 
 ```elixir
 defmodule PrismaticNabla.ContradictionTracker do
@@ -410,9 +497,11 @@ defmodule PrismaticNabla.ContradictionTracker do
 end
 ```
 
-### Trinity Gate Integration
+### Napojení na Trinity Gate
 
-The NABLA Axioms are the first checkpoint in the [Trinity Gate](@/glossary/trinity-gate.md) verification pipeline. No claim can pass through the Trinity Gate without first satisfying all seven axioms:
+Axiomy NABLA jsou prvním kontrolním bodem ověřovací pipeline [Trinity
+Gate](@/glossary/trinity-gate.md). Žádné tvrzení nemůže Trinity Gate projít, aniž by nejdřív
+splnilo všech sedm axiomů:
 
 ```elixir
 defmodule PrismaticNabla.TrinityGate do
@@ -459,116 +548,208 @@ defmodule PrismaticNabla.TrinityGate do
 end
 ```
 
-## Comparison with Alternatives
+## Srovnání s alternativami
 
-### NABLA Axioms vs. Traditional Confidence Scoring
+### Axiomy NABLA vs. tradiční skórování důvěry
 
-Most AI systems use simple confidence scores (0.0-1.0) to represent belief certainty. The NABLA Axioms go far beyond this by requiring provenance, plurality, and contradiction tracking. A traditional system might report "vulnerability confidence: 0.85" -- the NABLA framework requires knowing where that 0.85 came from, how many independent sources contributed, what contradicting evidence exists, and when the assessment expires.
+Většina systémů umělé inteligence vyjadřuje jistotu přesvědčení prostým skóre důvěry
+(0,0–1,0). Axiomy NABLA jdou daleko za ně, protože vyžadují provenienci, pluralitu
+a sledování rozporů. Tradiční systém může hlásit „důvěra ve zranitelnost: 0,85“ – rámec
+NABLA požaduje vědět, odkud těch 0,85 pochází, kolik nezávislých zdrojů k němu přispělo,
+jaké protichůdné důkazy existují a kdy posouzení pozbývá platnosti.
 
-| Aspect | Traditional Confidence | NABLA Axioms |
+| Hledisko | Tradiční skóre důvěry | Axiomy NABLA |
 |--------|----------------------|--------------|
-| **Provenance** | Not tracked | Mandatory chain |
-| **Contradiction** | Overwritten | Preserved |
-| **Source tracking** | Single score | Multi-signal plurality |
-| **Time handling** | Static | Decay-aware |
-| **Unknown states** | Default to 0 or 0.5 | Explicit `:unknown` type |
-| **Auditability** | Low | Full trace |
+| **Provenience** | nesleduje se | povinný řetězec |
+| **Rozpor** | přepíše se | zachová se |
+| **Sledování zdrojů** | jediné skóre | pluralita více signálů |
+| **Práce s časem** | statická | s časovým rozpadem |
+| **Neznámé stavy** | výchozí 0 nebo 0,5 | výslovný typ `:unknown` |
+| **Auditovatelnost** | nízká | úplná stopa |
 
-### NABLA Axioms vs. Bayesian Reasoning
+### Axiomy NABLA vs. bayesovské uvažování
 
-[Bayesian reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) updates beliefs based on new evidence using Bayes' theorem. The NABLA Axioms are compatible with Bayesian updating but add constraints that vanilla Bayesian reasoning lacks: source independence verification (correlated evidence should not be double-counted), contradiction preservation (conflicting priors and likelihoods are tracked, not silently resolved), and provenance requirements (the Bayesian update itself must be auditable).
+[Bayesovské uvažování](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/)
+aktualizuje přesvědčení podle nových důkazů pomocí Bayesovy věty. Axiomy NABLA jsou
+s bayesovskou aktualizací slučitelné, ale přidávají omezení, která prosté bayesovské
+uvažování nemá: ověření nezávislosti zdrojů (korelované důkazy se nesmí započítat dvakrát),
+zachování rozporu (protichůdné apriorní pravděpodobnosti a věrohodnosti se sledují, ne
+potichu řeší) a požadavek provenience (auditovatelná musí být i samotná bayesovská
+aktualizace).
 
-### NABLA Axioms vs. Intelligence Analysis Standards
+### Axiomy NABLA vs. standardy zpravodajské analýzy
 
-Intelligence community standards (ACH -- Analysis of Competing Hypotheses, Structured Analytic Techniques) share many goals with the NABLA Axioms. The key difference is automation: the NABLA Axioms are machine-enforced at the code level, not dependent on analyst discipline. ACH requires human analysts to consciously consider alternative hypotheses; Axiom 2 (Contradiction Preservation) automatically prevents hypothesis dismissal.
+Standardy zpravodajské komunity (ACH – *Analysis of Competing Hypotheses*, analýza
+soupeřících hypotéz; strukturované analytické techniky) sdílejí s axiomy NABLA mnoho cílů.
+Klíčový rozdíl je automatizace: axiomy NABLA vynucuje stroj na úrovni kódu, nezávisí na
+disciplíně analytika. ACH vyžaduje, aby lidský analytik vědomě zvážil alternativní
+hypotézy; axiom 2 (zachování rozporu) zamítnutí hypotézy brání automaticky.
 
-## Best Practices
+## Osvědčené postupy
 
-### 1. Design Data Structures with Axioms in Mind
+### 1. Navrhovat datové struktury s ohledem na axiomy
 
-Every data structure that represents a belief, assessment, or claim should include fields for signals (Axiom 1), contradictions (Axiom 2), timestamp (Axiom 4), confidence (Axiom 5), source chain (Axiom 6), and provenance (Axiom 7). Retro-fitting axiom compliance onto existing structures is far harder than designing for it from the start.
+Každá datová struktura, která reprezentuje přesvědčení, posouzení nebo tvrzení, má
+obsahovat pole pro signály (axiom 1), rozpory (axiom 2), časové razítko (axiom 4), důvěru
+(axiom 5), řetězec zdrojů (axiom 6) a provenienci (axiom 7). Dodatečně dostat soulad
+s axiomy do existujících struktur je mnohem těžší než s ním počítat od začátku.
 
-### 2. Validate Early, Validate Often
+### 2. Validovat brzy a často
 
-Run axiom validation at data ingestion time, not just at decision time. Catching a signal plurality violation when data enters the system is vastly cheaper than discovering it during a critical security assessment.
+Validace axiomů má běžet už při příjmu dat, ne až v okamžiku rozhodnutí. Zachytit porušení
+plurality signálů při vstupu dat do systému je nesrovnatelně levnější než ho objevit během
+kritického bezpečnostního posouzení.
 
-### 3. Track Absence Explicitly
+### 3. Výslovně sledovat absenci
 
-When a search returns no results, create an explicit "absence record" documenting what was searched, when, with what parameters, and what was expected. This turns Axiom 3 from a conceptual principle into actionable data.
+Když vyhledávání nevrátí žádné výsledky, vytvoří se výslovný „záznam absence“: co se
+hledalo, kdy, s jakými parametry a co se očekávalo. Tím se axiom 3 mění z pojmového
+principu na použitelná data.
 
-### 4. Set Appropriate Decay Rates
+### 4. Nastavit přiměřené rychlosti rozpadu
 
-Different domains have different information half-lives. Network infrastructure changes faster than organizational structure. Security vulnerabilities have shorter half-lives than compliance certifications. Configure time decay parameters per domain, not globally.
+Různé oblasti mají různý poločas informací. Síťová infrastruktura se mění rychleji než
+organizační struktura. Bezpečnostní zranitelnosti mají kratší poločas než certifikace
+souladu. Parametry časového rozpadu se nastavují pro každou oblast zvlášť, ne globálně.
 
-### 5. Audit Provenance Chains Regularly
+### 5. Pravidelně auditovat řetězce provenience
 
-Provenance chains can break when upstream systems change their output formats, when intermediate processors are updated, or when data is manually corrected. Regular provenance audits detect broken chains before they cause downstream failures.
+Řetězce provenience se mohou přerušit, když navazující systémy změní formát výstupu, když se
+aktualizují mezilehlé zpracovatele nebo když se data ručně opraví. Pravidelné audity
+provenience odhalí přerušené řetězce dřív, než způsobí selhání dál v řetězci.
 
-## Common Pitfalls
+## Časté chyby
 
-### 1. Treating Axioms as Optional Guidelines
+### 1. Chápat axiomy jako nepovinná doporučení
 
-The axioms are hard constraints, not best practices. Systems that treat them as optional -- validating axioms only in production, skipping validation in development -- develop epistemic debt that compounds over time. The Prismatic Platform enforces axioms in all environments.
+Axiomy jsou tvrdá omezení, ne osvědčené postupy. Systémy, které je berou jako nepovinné –
+validují je jen v produkci a ve vývoji validaci vynechávají –, hromadí epistemický dluh,
+který časem narůstá. Prismatic Platform vynucuje axiomy ve všech prostředích.
 
-### 2. Confusing Correlation with Independence
+### 2. Zaměňovat korelaci s nezávislostí
 
-Two data sources that both scrape the same underlying API are not independent, even if they present the data differently. Source independence (Axiom 6) requires tracing the provenance chain to the root source and verifying that root sources are genuinely independent.
+Dva zdroje dat, které oba stahují totéž podkladové API, nejsou nezávislé, i když data
+prezentují odlišně. Nezávislost zdrojů (axiom 6) vyžaduje dohledat řetězec provenience ke
+kořenovému zdroji a ověřit, že kořenové zdroje jsou skutečně nezávislé.
 
-### 3. Resolving Contradictions Prematurely
+### 3. Předčasně řešit rozpory
 
-The human instinct is to resolve contradictions immediately -- to decide which side is "right." Axiom 2 demands patience: preserve both sides, gather more evidence, and resolve only when the evidence supports a clear resolution. Premature resolution is a form of information destruction.
+Lidský instinkt velí řešit rozpory okamžitě – rozhodnout, která strana má „pravdu“.
+Axiom 2 vyžaduje trpělivost: zachovat obě strany, shromáždit další důkazy a rozhodnout až
+tehdy, když důkazy jasné řešení podpoří. Předčasné řešení je formou ničení informace.
 
-### 4. Neglecting Time Decay for "Obvious" Truths
+### 4. Zanedbávat časový rozpad u „zřejmých“ pravd
 
-Even facts that seem permanent can change. A company's domain ownership, a server's SSL certificate, a person's job title -- all change over time. Applying time decay universally, even to seemingly stable facts, prevents the accumulation of stale beliefs.
+I fakta, která se zdají trvalá, se mohou změnit. Vlastnictví domény firmy, SSL certifikát
+serveru, pracovní pozice člověka – to vše se v čase mění. Univerzální uplatnění časového
+rozpadu i na zdánlivě stabilní fakta brání hromadění zastaralých přesvědčení.
 
-### 5. Circular Provenance
+### 5. Kruhová provenience
 
-When system A cites system B, which cites system A, the provenance chain is circular and the belief has no grounding in external reality. The provenance validator must detect and reject circular chains.
+Když systém A cituje systém B, který cituje systém A, je řetězec provenience kruhový
+a přesvědčení nemá žádné ukotvení ve vnější realitě. Validátor provenience musí kruhové
+řetězce odhalit a odmítnout (srov. [kruhovou argumentaci](@/glossary/cirkularni-argumentace.md)).
 
-## Use Cases
+## Případy užití
 
-### 1. OSINT Intelligence Fusion
+### 1. Fúze zpravodajských informací z OSINT
 
-When the [OSINT toolbox](@/glossary/osint.md) queries 120 sources about a target, the axioms ensure that: results from multiple sources are cross-validated (Axiom 1), conflicting findings are preserved and flagged (Axiom 2), sources that return no data are logged (Axiom 3), all findings carry timestamps (Axiom 4), and every claim traces back to its source adapter (Axiom 7).
+Když [OSINT toolbox](@/glossary/osint.md) dotazuje o cíli 120 zdrojů, axiomy zajišťují, že
+výsledky z více zdrojů se vzájemně ověřují (axiom 1), protichůdná zjištění se zachovají
+a označí (axiom 2), zdroje, které nevrátí data, se zaznamenají (axiom 3), všechna zjištění
+nesou časové razítko (axiom 4) a každé tvrzení jde dohledat k adaptéru svého zdroje
+(axiom 7). Viz též [fúzi zpravodajských informací](@/glossary/intelligence-fusion.md).
 
-### 2. Security Rating Computation
+### 2. Výpočet bezpečnostního hodnocení
 
-The [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) security rating system uses axiom-compliant belief formation. A security grade of "B" is never assigned from a single scan -- it requires multiple independent assessment signals, preservation of any contradicting findings, and a full provenance chain from raw scan data through scoring algorithms to the final rating.
+Systém bezpečnostního hodnocení [Prismatic
+Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/)
+používá vznik přesvědčení v souladu s axiomy. Bezpečnostní známka „B“ se nikdy neudělí
+z jediného skenu – vyžaduje více nezávislých hodnoticích signálů, zachování všech
+protichůdných zjištění a úplný řetězec provenience od surových dat skenu přes skórovací
+algoritmy po konečné hodnocení.
 
-### 3. Agent Decision Making
+### 3. Rozhodování agentů
 
-When the 530+ [AIAD](@/glossary/aiad.md) agents make decisions, each decision must be axiom-compliant. An agent cannot act on a single signal, cannot ignore contradicting inputs, and must record the full provenance of its decision rationale. This creates an auditable decision trail across the entire agent ecosystem.
+Když rozhodují agenti [AIAD](@/glossary/aiad.md) (v době zápisu jich platforma uváděla přes
+530), musí být každé rozhodnutí v souladu s axiomy. Agent nesmí jednat na základě jediného
+signálu, nesmí ignorovat protichůdné vstupy a musí zaznamenat úplnou provenienci zdůvodnění
+svého rozhodnutí. Vzniká tak auditovatelná stopa rozhodnutí napříč celým ekosystémem agentů.
 
-### 4. Quality Assessment
+### 4. Posuzování kvality
 
-The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) applies axiom-compliant reasoning to quality metrics. A quality score of doctrine-enforced is not accepted from a single analysis run -- it requires consistent results across multiple evaluation methods, acknowledgment of any quality dimensions where assessment is uncertain, and timestamps on every metric.
+[Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/)
+uplatňuje na metriky kvality uvažování v souladu s axiomy. Skóre kvality vynucené doktrínou
+se nepřijme z jediného běhu analýzy – vyžaduje konzistentní výsledky napříč více
+hodnoticími metodami, přiznání všech dimenzí kvality, u nichž je posouzení nejisté,
+a časová razítka u každé metriky.
 
-## Related Concepts
+## Axiomy jako měřítko pro lidské poznávání
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- the overarching epistemic framework that the axioms ground and constrain
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Axiom 1: the requirement for multiple independent evidence sources
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Axiom 2: the mandate to preserve rather than discard conflicting evidence
-- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) -- Axiom 4: mandatory temporal degradation of belief confidence
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom 7: full traceability requirement for all beliefs
-- [Trinity Gate](@/glossary/trinity-gate.md) -- the three-layer verification system that axioms feed into
-- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) -- the data structure that stores axiom-validated beliefs
-- [Addiction Recovery](@/glossary/addiction-recovery.md) -- the doctrine of constant vigilance against epistemic shortcuts
-- [Axiom Enforcement](https://prismatic-reality-com.github.io/prismatic-promo/glossary/axiom-enforcement/) -- the runtime machinery that enforces axiom compliance
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- the system property that axiom compliance produces
+Kompendium axiomy nepřebírá jako normu pro lidi – člověk nemá „graf přesvědčení“ s metadaty.
+Slouží ale jako užitečná kontrolní mřížka při hodnocení, zda prostředí člověka jeho
+epistemickou hygienu podporuje, nebo rozkládá:
 
-## See Also
+- **Pluralita a nezávislost** – má člověk přístup k více nezávislým zdrojům, nebo všechny
+  informace prochází jedinou osobou či skupinou (viz
+  [sociální izolace](@/glossary/socialni-izolace.md), [epistemická
+  bublina](@/glossary/epistemic-bubble.md))?
+- **Zachování rozporu** – smí si uchovat vlastní vzpomínku, která odporuje oficiální
+  verzi, nebo je rozpor trestán a „vyřešen“ zvenčí?
+- **Provenience** – ví, odkud jeho přesvědčení pocházejí, a může si je ověřit, například
+  deníkem nebo svědky (viz [reality testing](@/glossary/reality-testing.md))?
+- **Platnost neznáma** – je přípustné říct „nevím“, nebo je nejistota zneužívána jako
+  důkaz nespolehlivosti (srov. [epistemická pokora](@/glossary/epistemicka-pokora.md))?
 
-- [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) -- the execution doctrine that axioms constrain with epistemic rigor
-- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- the mathematical proof systems used in Trinity Gate Layer 3
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- the numeric confidence values that axioms contextualize
-- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) -- the raw data that axioms evaluate and validate
+Jde o analogii, ne o diagnostický nástroj; klinické posouzení patří do kapitoly
+[6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md).
+
+## Související
+
+**Pojmy platformy v tomto glosáři**
+
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – zastřešující epistemický rámec, který
+  axiomy zakládají a omezují.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom 1: požadavek více nezávislých
+  zdrojů důkazů.
+- [Trinity Gate](@/glossary/trinity-gate.md) – třívrstvý ověřovací systém, do něhož axiomy
+  vstupují.
+- [Addiction Recovery](@/glossary/addiction-recovery.md) – doktrína trvalé bdělosti vůči
+  epistemickým zkratkám.
+- [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) – exekuční doktrína, kterou axiomy
+  omezují epistemickou přísností.
+
+**Hesla platformy mimo tuto knihu**
+
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/),
+  [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/),
+  [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) –
+  axiomy 2, 4 a 7 podrobně.
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/),
+  [Axiom Enforcement](https://prismatic-reality-com.github.io/prismatic-promo/glossary/axiom-enforcement/),
+  [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) –
+  datová struktura, běhové vynucení a vlastnost, kterou soulad s axiomy vytváří.
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/),
+  [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/),
+  [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) –
+  formální důkazy ve vrstvě 3 Trinity Gate, číselná důvěra a surová data.
+
+**Kniha**
+
+- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – jak se
+  rámec platformy promítá do [taxonomie EA](@/glossary/taxonomie-ea.md).
+- [NABLA Infinity a detekce EA](@/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md) –
+  pipeline, která axiomy uplatňuje na signály epistemického útoku.
+- [7.6 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) –
+  teoretické zázemí výpočetní epistemologie.
+- [EA × OSINT: triangulace napříč zdroji](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) –
+  pluralita a nezávislost zdrojů v investigativní praxi.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

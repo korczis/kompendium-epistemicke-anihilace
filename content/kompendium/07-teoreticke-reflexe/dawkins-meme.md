@@ -19,7 +19,7 @@ toc = true
 
 Richard Dawkins v knize *The Selfish Gene* (1976) — v poslední kapitole *Memes: the New Replicators* — zavádí pojem **mem** (*meme*) — **jednotku kulturního přenosu**, jež se **reprodukuje** podle stejných evolučních principů jako gen.
 
-Pro kompendium EA poskytuje teorie memu nástroj pro pochopení **EA jako manipulace memetickými systémy** a **virálního šíření manipulativních obsahů**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje teorie memu nástroj pro pochopení **EA jako manipulace memetickými systémy** a **virálního šíření manipulativních obsahů**.
 
 ## 1. Mem jako replikátor
 
@@ -121,7 +121,7 @@ Memetika má politickou dimenzi:
 Pro Prismatic má memetika **specifickou** relevanci:
 
 - **OSINT analýza**: detekce **virálních** memetických kampaní.
-- **Color Teams**: simulace **memetické rezistence** vůči manipulativním obsahům.
+- **[Color Teams](@/glossary/color-teams.md)**: simulace **memetické rezistence** vůči manipulativním obsahům.
 
 ## 10. Primární literatura
 

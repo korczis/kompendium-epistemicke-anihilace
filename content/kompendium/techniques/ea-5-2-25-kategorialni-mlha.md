@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.25 Kategoriální mlha"
-description = "Detailní per-technique článek: technika kategoriální mlhy — partial degradace kategoriální distinktnosti, kdy kategorie nezanikají, ale ztrácejí ostrost. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika kategoriální mlhy — partial degradace kategoriální distinktnosti, kdy kategorie nezanikají, ale ztrácejí ostrost."
 weight = 5225
 insert_anchor_links = "right"
 
@@ -133,8 +133,8 @@ Kategoriální mlha je odlišitelná od:
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine binární verdict** — strukturní vynucování ostrých rozhodnutí.
-- **NABLA Infinity distinktivní axiom** — epistemická provenience vyžaduje ostré distinkce.
+- **[Decision Engine](@/glossary/decision-engine.md) binární verdict** — strukturní vynucování ostrých rozhodnutí.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) distinktivní axiom** — epistemická provenience vyžaduje ostré distinkce.
 - **OSINT typed entities** — strukturní typování entit obnovuje distinktivnost.
 
 ## Související

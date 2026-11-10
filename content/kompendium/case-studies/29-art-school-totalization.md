@@ -88,7 +88,7 @@ studentek a dostupnost právní pomoci; bez nich by pravděpodobně mlčela kvů
   mocenském vztahu; časová osa pro právní účely.
 - **S2 – Externalizace introjektů:** mistrova kritika zapsána a oddělena od vlastního
   uměleckého úsudku.
-- **S3 – Rekonstrukce metakognice:** obnova schopnosti hodnotit vlastní práci podle vlastních
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova schopnosti hodnotit vlastní práci podle vlastních
   kritérií a vícero hlasů.
 - **S4 – Hermeneutická obnova:** nový výklad vlastní tvorby z let ve škole – co bylo její, co
   vnucené.
@@ -100,7 +100,7 @@ při výpovědích [disclosure traumatu](@/kompendium/forensic-legal/6-trauma-di
 
 ## 8. Výsledek a reziduální deficity
 
-Přetrvávala **krize estetické identity, náročnost právního řízení a retraumatizace při
+Přetrvávala **krize estetické identity, náročnost právního řízení a [retraumatizace](@/glossary/retraumatizace.md) při
 vystavování vlastní práce** – každá vernisáž připomínala hodnocení. Tvorba se vracela pomalu,
 nejprve v jiném médiu, než ve kterém studovala; to jí umožnilo hledat vlastní hlas bez mistrova
 stínu.

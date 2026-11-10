@@ -16,7 +16,7 @@ toc = true
 Stejně jako [K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md) není ani **L**
 kanonickým scénářem [kapitoly 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md), která
 taxonomii záměrně uzavírá u scénáře I. Je to **pracovní označení z kazuistik** pro
-konfiguraci, v níž kolektivní delegitimizace vnějších autorit
+konfiguraci, v níž kolektivní [delegitimizace](@/glossary/delegitimizace.md) vnějších autorit
 ([scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md)) a dlouhodobý tlak na myšlení
 a sebehodnocení ([scénář G](@/kompendium/03-zakladni-kategorie/scenar-g.md) nebo
 [scénář H](@/kompendium/03-zakladni-kategorie/scenar-h.md)) vyústí v **náhradu vlastní

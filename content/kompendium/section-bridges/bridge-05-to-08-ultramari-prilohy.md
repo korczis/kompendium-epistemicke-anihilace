@@ -67,7 +67,7 @@ Bridge dodává seznam **povinných operativních artefaktů** pro ultramari: (1
 
 ## 9. Bezpečnostní redundance
 
-Sedm artefaktů není nadbytečnost — je to **bezpečnostní redundance**. Při výpadku jednoho artefaktu (ztráta, nedostupnost, kontaminace) ostatní stále drží bezpečnostní řetězec. Tato redundance je inspirovaná aviation safety doctrine.
+Sedm artefaktů není nadbytečnost — je to **bezpečnostní redundance**. Při výpadku jednoho artefaktu (ztráta, nedostupnost, kontaminace) ostatní stále drží bezpečnostní řetězec. Tato redundance je inspirovaná aviation safety [doctrine](@/glossary/doctrine.md).
 
 ---
 

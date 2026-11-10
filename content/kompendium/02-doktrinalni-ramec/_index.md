@@ -65,7 +65,7 @@ jeden úsudek, scénář jeden vztah nebo jednu komunitu; doktrína nabízí úp
 v němž má každá pochybnost předem připravenou odpověď a každá kritika předem připravenou
 nálepku.
 
-Klasický popis takového systému podal Robert J. Lifton v knize *Thought Reform and the
+Klasický popis takového systému podal Robert J. Lifton v knize *[Thought Reform](@/glossary/thought-reform.md) and the
 Psychology of Totalism* (1961). Jeho osm kritérií totalitního prostředí – kontrola
 prostředí, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, zatížení
 jazyka, nadřazení doktríny nad osobu a rozhodování o tom, kdo má právo existovat – zůstává

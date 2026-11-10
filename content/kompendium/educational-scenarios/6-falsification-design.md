@@ -22,7 +22,7 @@ type = "educational-scenario"
 
 Kdo se naučí rozpoznávat manipulaci, získá i nové riziko: začne ji vidět všude. Hypotéza
 „tato osoba manipuluje“ má zvláštní vlastnost – když se jí člověk jednou chopí, téměř každé
-další chování lze vyložit jako její potvrzení. Přátelské jednání je „love bombing“, zdrženlivost
+další chování lze vyložit jako její potvrzení. Přátelské jednání je „[love bombing](@/glossary/love-bombing.md)“, zdrženlivost
 „strategie“, omluva „taktika“. Taková hypotéza je
 [nefalsifikovatelná](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md),
 a tedy nepoužitelná. Scénář trénuje opačný postup, který známe od

@@ -1,70 +1,100 @@
 +++
-title = "Hyperreality"
+title = "Hyperreality (hyperrealita)"
 weight = 60
 
-description = "Baudrillardian condition in which simulations precede and replace the real; ontological frame for understanding deepfake-saturated, platform-mediated, AI-generated information environments."
+description = "Baudrillardův stav, v němž simulace předcházejí skutečnosti a nahrazují ji; rámec pro informační prostředí plné deepfaků, platforem a obsahu generovaného AI."
 
 [taxonomies]
-tags = ["glossary", "philosophical", "epistemic", "kompendium"]
+tags = ["glossary", "philosophical", "epistemic", "kompendium", "digitalni"]
 
 [extra]
 category = "philosophical"
 related_terms = ["deepfake", "epistemic-security", "epistemicka-anihilace", "narrative-identity", "info-ops", "deplatforming"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
-word_count = 560
+word_count = 830
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["hyperreality", "Baudrillard", "simulacra", "simulation", "postmodern", "ontological annihilation", "media philosophy"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Hyperreality - glossary"
+image_alt = "Hyperreality – glosář"
 +++
 
-## Definition
+## Definice
 
-**Hyperreality** is a philosophical concept developed by Jean Baudrillard (*Simulacra and Simulation*, 1981) to designate a condition in which simulations and signs no longer refer to a prior reality but **circulate as their own reality**, eventually preceding, replacing, and rendering meaningless the original referents. Baudrillard's celebrated "four orders of the image" trace the trajectory:
+**Hyperrealita** (*hyperreality*) je filozofický pojem, který rozvinul Jean Baudrillard (*Simulacres et simulation*, 1981) pro stav, v němž simulace a znaky už neodkazují k předchozí skutečnosti, ale **obíhají jako skutečnost vlastní** – nakonec původním referentům předcházejí, nahrazují je a činí je bezvýznamnými. Baudrillardovy proslulé „čtyři řády obrazu“ popisují tuto dráhu:
 
-1. The image **reflects** a profound reality (faithful representation).
-2. The image **masks** and distorts a reality (ideology, propaganda).
-3. The image **masks the absence** of a reality (fetishism, branding).
-4. The image **bears no relation to reality whatsoever**: it is its own pure simulacrum (hyperreality).
+1. obraz **odráží** hlubokou skutečnost (věrné zobrazení);
+2. obraz skutečnost **zakrývá** a deformuje (ideologie, [propaganda](@/glossary/propaganda.md));
+3. obraz **zakrývá nepřítomnost** skutečnosti (fetišismus, značka);
+4. obraz **nemá ke skutečnosti vůbec žádný vztah**: je svým vlastním čistým [simulakrem](@/glossary/simulacra.md) (hyperrealita).
 
-In the fourth order, Baudrillard argues, the very distinction between real and simulated collapses — not because everything becomes false, but because the question "is this real?" loses its purchase. Disneyland is hyperreal not because it is fake but because it makes "the rest of America" feel real by contrast — a structural illusion whereby the simulation produces the appearance of an opposing reality that it has, in fact, replaced.
+Ve čtvrtém řádu se podle Baudrillarda hroutí samotný rozdíl mezi skutečným a simulovaným – ne proto, že by se vše stalo nepravdivým, ale proto, že otázka „je to skutečné?“ ztrácí oporu. Disneyland je hyperreálný ne proto, že je falešný, ale proto, že „zbytek Ameriky“ díky němu působí skutečně – strukturní iluze, při níž simulace vytváří zdání protikladné skutečnosti, kterou ve skutečnosti nahradila.
 
-The concept has been criticized as elusive and self-undermining (if hyperreality is total, how does Baudrillard speak from outside it?) but has proven analytically useful for understanding mediated environments where the original referents are unrecoverable: branded political identities, platform-mediated social interaction, AI-generated content economies, and deepfake-saturated audiovisual ecosystems.
+Hyperrealita není *obsahem* žádné konkrétní nepravdy; je **strukturním stavem reprezentace**, v němž je pravdivostní hodnota jednotlivých výroků druhotná vůči systémovému odpojení reprezentace od jakékoli vnější kotvy. V řeči epistemické bezpečnosti je hyperrealita makrostavem, který vzniká, když mnohé techniky z katalogu EA působí současně a ve velkém měřítku.
 
-Hyperreality is not the *content* of any particular falsehood; it is a **structural condition of representation** under which the truth-value of individual statements becomes secondary to the systemic disconnection of representation from any external anchor. In epistemic-security terms, hyperreality is the macro-condition produced when many of the techniques in the EA catalog operate simultaneously at scale.
+## Původ a kontext pojmu
 
-## Context
+Baudrillard navazoval na sémiotiku, na marxistickou kritiku konzumní společnosti a na situacionistickou „společnost spektáklu“ (Debord 1967). Pojem byl kritizován jako nepolapitelný a sám sebe podkopávající (je-li hyperrealita totální, odkud o ní Baudrillard mluví?), ukázal se však analyticky užitečný pro porozumění zprostředkovaným prostředím, v nichž původní referenty nelze dohledat: značkové politické identity, sociální interakce zprostředkovaná platformami, ekonomiky obsahu generovaného AI a audiovizuální ekosystémy nasycené [deepfaky](@/glossary/deepfake.md). V Kompendiu se pojem objevuje v reflexi [postmodernismu](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) a [digitálního věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md).
 
-Within the Prismatic Platform, hyperreality functions as a **theoretical horizon** for understanding the limit-case of epistemic annihilation: not the destruction of any specific belief, but the destruction of the very *possibility of grounded reference*.
+## Jak se projevuje
 
-- The Kompendium's [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) chapter explicitly engages Baudrillard's framework to discuss what it calls **ontological annihilation** — a limit-case beyond standard EA where not only individual cognition but the shared reality-anchor itself is dissolved.
-- The [Deepfake](@/glossary/deepfake.md) entry notes that synthetic-media saturation produces hyperreal conditions almost mechanically: the question "did this happen?" becomes structurally undecidable, and audiences increasingly stop asking it.
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} does not attempt to *resolve* hyperreality — that would be philosophically incoherent — but maintains **provenance-anchored chains** that preserve referential traceability even as surrounding content streams become hyperreal. A decision rooted in C2PA-signed source documents retains a reality-anchor that pure aggregation lacks.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) treats provenance as an axiom: claims without verifiable provenance cannot achieve high confidence regardless of plausibility.
-- [Narrative Identity](@/glossary/narrative-identity.md) is one of the human-scale capacities most directly threatened by hyperreal conditions — when the surrounding world loses referential coherence, the self-narrative loses the world against which to constitute itself.
-- [Info-Ops](@/glossary/info-ops.md), [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md), and [Epistemic Security](@/glossary/epistemic-security.md) describe the operational pathways by which hyperreal conditions are deliberately produced.
+Na úrovni prostředí:
 
-Hyperreality is the kompendium's **outer-bound theoretical concept**: the condition that EA techniques approach asymptotically when applied at scale, and against which structural epistemic defenses must be designed.
+- u stále více záznamů (fotografie, video, hlas, dokument) nelze bez technického ověření rozhodnout, zda zachycují skutečnou událost;
+- „autentičnost“ se stává stylem, který lze napodobit;
+- veřejná debata se vede o obrazech událostí, ne o událostech;
+- syntetické svědectví a syntetičtí „experti“ ([EA-9.1.7 Nárok na syntetickou expertizu](@/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md), [EA-9.2.7 Syntetické svědectví](@/kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md)).
 
-## See Also
+Na úrovni člověka:
 
-- [Deepfake](@/glossary/deepfake.md) — Direct material producer of hyperreal conditions
-- [Epistemic Security](@/glossary/epistemic-security.md) — Structural defense framing
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
-- [Narrative Identity](@/glossary/narrative-identity.md) — Capacity threatened by hyperreality
-- [Info-Ops](@/glossary/info-ops.md) — Operational pathway
-- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) — Adjacent technique
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+- rezignace na otázku „stalo se to?“ – lidé ji čím dál častěji přestávají klást;
+- cynismus („nic není skutečné“) nebo naopak bezvýhradná důvěra v jeden zdroj;
+- [nejistota ohledně skutečnosti](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) bez klinického podkladu.
 
----
+## Mechanismus
 
-## Connect & Contribute
+Na platformě Prismatic, z níž kniha vzešla, slouží hyperrealita jako **teoretický horizont** pro porozumění mezní podobě epistemické anihilace: nejde o zničení konkrétního přesvědčení, ale o zničení samotné *možnosti podloženého odkazu*. Deepfaky vytvářejí hyperreálné podmínky téměř mechanicky: otázka „stalo se to?“ se stává strukturálně nerozhodnutelnou. Palba lží ([Firehose of Falsehood](@/glossary/firehose-of-falsehood.md)), [Info-Ops](@/glossary/info-ops.md) a algoritmické zesilování popisují provozní cesty, jimiž se hyperreálné podmínky záměrně vytvářejí. Hyperrealita je tak **vnější teoretickou mezí** Kompendia: stavem, k němuž se techniky EA uplatňované ve velkém měřítku asymptoticky blíží a vůči němuž musí být navrženy strukturní epistemické obrany.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+## Odlišení
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- **Od lži a dezinformace:** lež předpokládá skutečnost, kterou popírá; hyperrealita je stav, kdy se ke skutečnosti přestává vztahovat sama otázka.
+- **Od [ontologické anihilace](@/glossary/ontologicka-anihilace.md):** pojem Kompendia pro mezní případ, kdy se rozpouští sdílená kotva skutečnosti; hyperrealita je jeho kulturní a mediální podoba.
+- **Od [konsenzuální reality](@/glossary/konsenzualni-realita.md):** sdílený obraz světa je normální a nutný; problém nastává, když se odpojí od ověřitelných referentů.
+- **Od derealizace:** klinický prožitek neskutečnosti světa je stav jednotlivce; hyperrealita je stav prostředí. Mohou se ovšem potkat.
+
+## Význam pro Kompendium
+
+- Kapitola [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) se s Baudrillardovým rámcem výslovně vyrovnává při výkladu toho, co nazývá **ontologickou anihilací** – mezního případu za hranicí běžné EA, kdy se rozpouští nejen individuální poznání, ale i sdílená kotva skutečnosti.
+- [Decision Engine](@/glossary/decision-engine.md) se nepokouší hyperrealitu *vyřešit* – to by bylo filozoficky nesoudržné –, ale udržuje **řetězce ukotvené v původu**, které zachovávají dohledatelnost odkazu, i když se okolní proudy obsahu stávají hyperreálnými. Rozhodnutí opřené o zdrojové dokumenty podepsané standardem C2PA si uchovává kotvu skutečnosti, kterou čistá agregace nemá.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) považuje původ za axiom: tvrzení bez ověřitelného původu nemohou dosáhnout vysoké jistoty, ať jsou jakkoli věrohodná.
+- [Narrative Identity](@/glossary/narrative-identity.md) patří k lidským schopnostem, které hyperreálné podmínky ohrožují nejpříměji: když okolní svět ztratí referenční soudržnost, vyprávění o sobě ztrácí svět, vůči němuž se konstituuje.
+
+## Obrana a zotavení
+
+Obrana proti hyperrealitě nemůže být jen individuální, ale individuální kroky existují: ptát se po původu, ne po věrohodnosti; preferovat záznamy s ověřitelným původem; odkládat hodnocení čerstvých „důkazů“; udržovat vztahy a činnosti ukotvené v přímé zkušenosti ([Lebenswelt](@/glossary/lebenswelt.md)). Praktické kroky popisují [detekce obsahu generovaného AI](@/kompendium/self-defense-guides/40-ai-content-detection.md) a scénář [Rozpoznání deepfaku](@/kompendium/educational-scenarios/16-deepfake-detection.md). Na úrovni institucí jde o standardy původu obsahu, archivaci originálů a [mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md).
+
+## Literatura
+
+- Jean Baudrillard: *Simulacres et simulation* (1981).
+- Guy Debord: *La Société du spectacle* (1967).
+
+## Související
+
+**Pojmy**
+
+- [Deepfake](@/glossary/deepfake.md) – přímý materiální zdroj hyperreálných podmínek.
+- [Simulacra](@/glossary/simulacra.md) – Baudrillardův pojem obrazu bez originálu.
+- [Epistemic Security](@/glossary/epistemic-security.md) – rámec strukturní obrany.
+- [Narrative Identity](@/glossary/narrative-identity.md) – schopnost ohrožená hyperrealitou.
+- [Info-Ops](@/glossary/info-ops.md) – provozní cesta.
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) – sousední technika.
+- [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) – mezní případ EA.
+
+**Kniha**
+
+- [Postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) – teoretický kontext.
+- [Rozpoznání deepfaku](@/kompendium/educational-scenarios/16-deepfake-detection.md) – výukový scénář.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.

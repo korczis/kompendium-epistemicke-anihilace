@@ -17,7 +17,7 @@ quality_score = 80
 
 ## Definice
 
-**Sealioning** patří mezi **ultramari techniky** (sekce 05 Prismatic Kompendia) — kategorii high-severity epistemických útoků, které kombinují více útočných vektorů současně a vyžadují koordinovanou víceúrovňovou obranu. Ultramari techniky překračují individuální epistemické útoky a pracují na úrovni celé interakce, narativu nebo identity oběti.
+**[Sealioning](@/glossary/sealioning.md)** patří mezi **ultramari techniky** (sekce 05 Prismatic Kompendia) — kategorii high-severity epistemických útoků, které kombinují více útočných vektorů současně a vyžadují koordinovanou víceúrovňovou obranu. Ultramari techniky překračují individuální epistemické útoky a pracují na úrovni celé interakce, narativu nebo identity oběti.
 
 {% <callout type="warning"> %}
 Ultramari techniky mají **severity = HIGH**. Klinická konzultace je doporučena při dlouhodobé expozici. Recovery protokoly v sekci `recovery-protocols/` jsou navrženy pro extrakci z těchto vzorců.

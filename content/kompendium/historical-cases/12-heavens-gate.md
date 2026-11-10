@@ -5,6 +5,9 @@ description = "Skupina Marshalla Applewhitea a Bonnie Nettlesové a smrt 39 čle
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"
@@ -18,7 +21,7 @@ type = "historical-case"
 Heaven's Gate ukazuje, že kolektivní smrt nemusí předcházet násilí, zbraně ani zjevný
 vnější nátlak. Členové byli dospělí, vzdělaní, mnozí dlouholetí a odchod byl formálně
 možný. Případ je proto klíčový pro pochopení toho, jak doktrína přestaví samotný rámec, ve
-kterém člověk volí – co Janja Lalichová nazvala **ohraničenou volbou** (*bounded choice*).
+kterém člověk volí – co Janja Lalichová nazvala **ohraničenou volbou** (*[bounded choice](@/glossary/bounded-choice.md)*).
 
 ## Kontext
 

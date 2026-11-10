@@ -38,7 +38,7 @@ jevy v jiných režimech i mimo politiku.
 Pro porozumění se používají starší teoretické rámce. Max Weber popsal **charismatickou
 autoritu**, založenou na víře ve výjimečné vlastnosti vůdce (viz [charisma](@/glossary/charisma.md)).
 Hannah Arendtová (*The Origins of Totalitarianism*, 1951) analyzovala roli vůdce v totalitních
-hnutích. Robert J. Lifton (*Thought Reform and the Psychology of Totalism*, 1961) popsal
+hnutích. Robert J. Lifton (*[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*, 1961) popsal
 prostředí totalismu, v němž doktrína a autorita mají povahu „posvátné vědy“, kterou nelze
 zpochybnit. Kult osobnosti se tak neomezuje na diktatury: stejná struktura se objevuje v
 sektách, uzavřených skupinách kolem guru, ve firmách s „vizionářským“ zakladatelem nebo

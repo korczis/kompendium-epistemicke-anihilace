@@ -1,6 +1,6 @@
 +++
 title = "EA-1.1.1 Selektivní expozice"
-description = "Detailní per-technique článek: technika selektivní expozice — strategická filtrace dostupných informací prezentovaná jako objektivní výběr. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika selektivní expozice — strategická filtrace dostupných informací prezentovaná jako objektivní výběr."
 weight = 111
 insert_anchor_links = "right"
 
@@ -101,7 +101,7 @@ Co může vidět vnější pozorovatel:
 | Klíčoví autoři **alternativní pozice** jsou subjektu **neznámí** | Diferenciální expozice |
 | Subjekt používá **stejné argumenty** s **stejnou strukturou** jako kurátor | Templátování bez nezávislého zdroje |
 | Subjekt je **neproporčně sebejistý** vůči objemu skutečně načteného materiálu | Epistemická saturace bez epistemické úplnosti |
-| Subjekt **systematicky odmítá** určité kategorie zdrojů jako "problematické" bez specifické artikulace, **proč** | Internalizovaná filtrační heuristika |
+| Subjekt **systematicky odmítá** určité kategorie zdrojů jako "problematické" bez specifické artikulace, **proč** | Internalizovaná filtrační [heuristika](@/glossary/heuristika.md) |
 | **Žádná** spontánní zmínka o disonantní evidenci v subjektově oboru | Selektivní expozice na úrovni pole |
 | Subjekt používá **slovník** kurátora — specifické termíny ve specifických vzorcích | Lingvistická signatura konkrétního filtru |
 
@@ -208,12 +208,12 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 - **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — filtrovaný výběr používá **specifický slovník**, který činí externí materiál „nepochopitelným“ pro filtrovaného subjekta.
 - **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — filtrace evidence zajišťuje, že subjekt **nikdy neuvidí** falsifikační evidenci, takže teorii nelze efektivně zpochybnit.
 - **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — když selhává filtrace a externí evidence se prosadí, diverze přesměrovává diskusi pryč od ní.
-- **EA-1.6.1 Vzorec „Guru a adept“** — filtrace ze strany gurua je strukturálním předpokladem etablování epistemické závislosti.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — filtrace ze strany gurua je strukturálním předpokladem etablování epistemické závislosti.
 
 ### Eskaluje do
 
 - **EA-1.6.2 Vzorec „Epistemický trojský kůň“** — z filtrovaného korpusu lze vybrat validní materiál jako **vehikulum** pro vpašování problematických prvků.
-- **Kolektivní epistemická delegitimizace** ([Scénář F v Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — selektivní expozice na úrovni komunity vytváří **strukturální zranitelnost** pro další manipulaci.
+- **Kolektivní epistemická [delegitimizace](@/glossary/delegitimizace.md)** ([Scénář F v Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — selektivní expozice na úrovni komunity vytváří **strukturální zranitelnost** pro další manipulaci.
 
 ### Alternativy / podobné, ale **distinktivní**
 

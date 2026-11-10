@@ -5,6 +5,9 @@ description = "NDR v 70. a 80. letech: Stasi nahrazovala zatýkání skrytým �
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"
@@ -88,7 +91,7 @@ Metody byly plánovány v operativních plánech, vyhodnocovány a zdokumentová
 
 Oběti popisují dlouhodobou úzkost, depresi, poruchy spánku, ztrátu pracovní kariéry a rozpad
 rodin; mnoho z nich se dozvědělo o skutečné příčině až ze spisů po roce 1992. Typické je
-retrospektivní **epistemické trauma**: zjištění, že část vlastního životního příběhu – včetně
+retrospektivní **[epistemické trauma](@/glossary/epistemicke-trauma.md)**: zjištění, že část vlastního životního příběhu – včetně
 rozchodu nebo zhroucení – byla řízena zvenčí. To může přinést úlevu („nebyl jsem blázen“) i nový
 otřes („komu jsem tehdy věřil“). Nejznámější veřejně popsané případy zahrnují zjištění, že
 blízký člověk či manžel byl neoficiálním spolupracovníkem. Na úrovni společnosti zůstala
@@ -119,7 +122,7 @@ dlouhodobá nedůvěra a citlivé otázky viny a odpuštění v rodinách i obc�
   [rekonstrukci časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)
   a [pattern evidence](@/kompendium/forensic-legal/38-pattern-evidence.md).
 - **Detekční signatury** dnešních analogií (stalking, koordinovaný mobbing na pracovišti,
-  coercive control v partnerství): [gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md),
+  [coercive control](@/glossary/coercive-control.md) v partnerství): [gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md),
   [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md),
   [nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md).
 - **Přístup ke spisům jako terapeutický nástroj**: možnost vidět dokumenty pomáhá obnovit

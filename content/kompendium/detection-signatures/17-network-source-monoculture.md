@@ -31,7 +31,7 @@ Pro manipulaci je monokultura **infrastrukturou**: umožňuje [injekci narativu]
 ### Obsahové a lingvistické
 
 - Stejné formulace, metafory a příklady se objevují ve všech zdrojích, které člověk sleduje.
-- Odlišné zdroje jsou zmiňovány jen v hodnotících nálepkách („mainstream“, „propaganda“, „lživá média“), nikoli obsahově.
+- Odlišné zdroje jsou zmiňovány jen v hodnotících nálepkách („mainstream“, „[propaganda](@/glossary/propaganda.md)“, „lživá média“), nikoli obsahově.
 - Člověk umí argumenty druhé strany reprodukovat jen ve zkreslené podobě.
 
 ### Síťové a časové

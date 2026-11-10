@@ -1,10 +1,10 @@
 +++
 title = "Shodan"
 weight = 9
-description = "Internet-wide search engine for discovering connected devices, open ports, services, and vulnerabilities across the global attack surface"
+description = "Vyhledávač zařízení připojených k internetu, který mapuje otevřené porty, služby a zranitelnosti; v Prismatic Platform hlavní zdroj dat pro správu vnější útočné plochy."
 
 [taxonomies]
-tags = ["glossary", "security", "shodan", "prismatic"]
+tags = ["glossary", "osint", "security", "prismatic", "intelligence"]
 
 [extra]
 category = "security"
@@ -30,68 +30,116 @@ author = "Tomas Korcak (korczis)"
 reading_time = "9 min"
 word_count = 1772
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Shodan", "Internet-wide", "glossary", "security", "Prismatic Platform", "Filter", "String"]
 quality_score = 90
 image = "/images/sections/glossary.png"
-image_alt = "Shodan - Prismatic Platform"
+image_alt = "Shodan – glosář"
 +++
 
-## Definition
+## Definice
 
-Shodan is a search engine for internet-connected devices that continuously scans the entire IPv4 address space (and increasingly IPv6), cataloging open ports, running services, protocol banners, SSL/TLS certificates, and device metadata. Created by John Matherly in 2009, Shodan fundamentally differs from traditional search engines like Google: rather than indexing web content served over HTTP, Shodan indexes the internet's infrastructure layer -- servers, IoT devices, industrial control systems (ICS/SCADA), databases, network equipment, cameras, and any device that responds to network probes.
+Shodan je vyhledávač zařízení připojených k internetu, který průběžně skenuje celý adresní
+prostor IPv4 (a stále více i IPv6) a katalogizuje otevřené porty, běžící služby, bannery
+protokolů, certifikáty SSL/TLS a metadata zařízení. Vytvořil ho John Matherly v roce 2009.
+Od tradičních vyhledávačů, jako je Google, se zásadně liší: neindexuje webový obsah doručovaný
+přes HTTP, ale infrastrukturní vrstvu internetu – servery, zařízení IoT, průmyslové řídicí
+systémy (ICS/SCADA), databáze, síťové prvky, kamery a jakékoli zařízení, které odpovídá na síťové
+sondy.
 
-Shodan's scanning methodology involves sending crafted packets to every IP address on specific ports, collecting the responses (banners), and indexing the results in a searchable database. A banner is the initial response a service sends when a connection is established -- it typically reveals the software name, version, configuration details, and sometimes even the operating system. This passive reconnaissance data is invaluable for security professionals conducting asset discovery, vulnerability assessment, and exposure monitoring without actively probing target infrastructure.
+Metodika skenování Shodanu spočívá v odesílání sestavených paketů na každou IP adresu na
+určitých portech, sběru odpovědí (bannerů) a jejich indexaci v prohledávatelné databázi. Banner
+je úvodní odpověď, kterou služba odešle při navázání spojení – obvykle prozradí název softwaru,
+verzi, podrobnosti konfigurace a někdy i operační systém. Tato data pasivního průzkumu jsou
+neocenitelná pro bezpečnostní profesionály, kteří provádějí inventarizaci aktiv, posouzení
+zranitelností a monitorování expozice, aniž by cílovou infrastrukturu sami aktivně sondovali.
 
-The platform has become an indispensable tool in the External Attack Surface Management ([EASM](@/glossary/easm.md)) discipline, where organizations need to understand their externally visible footprint from an attacker's perspective. By querying Shodan for assets associated with a target organization, security teams can discover shadow IT, forgotten servers, misconfigured services, and exposed databases that the organization may not know exist. In the Prismatic Platform, Shodan serves as the primary data source for the [Prismatic Perimeter](@/glossary/easm.md) module's asset discovery pipeline, feeding findings into the [security rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) engine that produces A-F grades for organizational security posture.
+Platforma se stala nepostradatelným nástrojem disciplíny správy vnější útočné plochy
+([EASM](@/glossary/easm.md), *External Attack Surface Management*), v níž organizace potřebují
+pochopit svou zvenčí viditelnou stopu z pohledu útočníka. Dotazy na aktiva spojená s cílovou
+organizací umožňují bezpečnostním týmům objevit stínové IT, zapomenuté servery, chybně nastavené
+služby a odhalené databáze, o nichž organizace nemusí vědět. V Prismatic Platform je Shodan
+hlavním zdrojem dat pipeline objevování aktiv modulu Prismatic Perimeter (viz
+[EASM](@/glossary/easm.md)), která zjištění předává enginu [bezpečnostního
+hodnocení](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/);
+ten vytváří známky A–F bezpečnostního postavení organizace.
 
-## Historical Context and Evolution
+Pro Kompendium je Shodan pojmem z kontextu platformy (bezpečnost infrastruktury). S tématem
+knihy souvisí nepřímo: stejná logika „co vidí útočník, musí vidět i obránce“ platí pro digitální
+stopu ohrožených osob, kterou lze zneužít k pronásledování (viz [Doxing](@/glossary/doxing.md)).
+Kniha se zabývá jen obranným užitím – vyhledávání informací o lidech bez jejich souhlasu
+nepopisuje.
 
-Shodan began as a personal project by John Matherly while he was a student, inspired by the idea of creating a search engine for internet-connected devices rather than web pages. The name "Shodan" references the artificial intelligence antagonist from the System Shock video game series. What started as a curiosity-driven project rapidly became one of the most important tools in the cybersecurity professional's toolkit.
+## Historický kontext a vývoj
 
-The early internet scanning landscape was dominated by tools like Nmap, which required active, targeted scanning of specific IP ranges. Shodan's innovation was continuous, internet-wide scanning with results indexed in a searchable database. Instead of running your own scan (which takes time, bandwidth, and may trigger intrusion detection systems), you could query Shodan's pre-collected data to instantly discover what is exposed on any IP address or organization.
+Shodan začal jako osobní projekt Johna Matherlyho z doby jeho studií, inspirovaný myšlenkou
+vytvořit vyhledávač zařízení připojených k internetu místo webových stránek. Název odkazuje na
+umělou inteligenci SHODAN, záporáka herní série *System Shock*. Projekt, který vznikl ze
+zvědavosti, se rychle stal jedním z nejdůležitějších nástrojů profesionálů v kybernetické
+bezpečnosti.
 
-Over the years, Shodan has expanded from basic port scanning and banner grabbing to include SSL/TLS certificate analysis, vulnerability tagging (matching software versions to known CVEs), screenshot capture (visual snapshots of web interfaces, RDP sessions, and VNC desktops), and specialized protocol support for industrial control systems (Modbus, DNP3, EtherNet/IP), IoT protocols (MQTT, CoAP), and database protocols (MongoDB, Elasticsearch, Redis). The platform's Shodan Monitor product provides continuous monitoring of specified IP ranges, alerting organizations when new services appear or configurations change on their assets.
+V raném období skenování internetu dominovaly nástroje jako Nmap, které vyžadovaly aktivní,
+cílené skenování konkrétních rozsahů IP. Inovací Shodanu bylo nepřetržité skenování celého
+internetu s výsledky indexovanými v prohledávatelné databázi. Místo vlastního skenování (které
+trvá, spotřebovává šířku pásma a může spustit systémy detekce průniku) se lze dotázat na předem
+shromážděná data Shodanu a okamžitě zjistit, co je na libovolné IP adrese nebo u organizace
+vystaveno.
 
-The ethical landscape around Shodan has evolved alongside the tool itself. Early critics viewed Shodan as a hacker's tool that made it trivially easy to find vulnerable systems. The security community now generally recognizes Shodan as a defensive tool: if Shodan can find your exposed database, so can an attacker. The difference is that Shodan enables defenders to find and fix exposures before attackers exploit them. This perspective aligns with the Prismatic Platform's philosophy of using [OSINT](@/glossary/easm.md) capabilities for authorized defensive security operations.
+Postupně se Shodan rozšířil od základního skenování portů a sběru bannerů o analýzu certifikátů
+SSL/TLS, značkování zranitelností (párování verzí softwaru se známými CVE), snímky obrazovky
+(vizuální zachycení webových rozhraní, relací RDP a ploch VNC) a specializovanou podporu protokolů
+průmyslových řídicích systémů (Modbus, DNP3, EtherNet/IP), protokolů IoT (MQTT, CoAP)
+a databázových protokolů (MongoDB, Elasticsearch, Redis). Produkt Shodan Monitor poskytuje
+nepřetržité monitorování zadaných rozsahů IP a upozorňuje organizace, když se na jejich aktivech
+objeví nové služby nebo změní konfigurace.
 
-## Scanning Capabilities
+Etické hodnocení Shodanu se vyvíjelo spolu s nástrojem. Raní kritici ho považovali za nástroj
+hackerů, který triviálně usnadňuje hledání zranitelných systémů. Bezpečnostní komunita dnes
+Shodan obecně uznává jako obranný nástroj: najde-li Shodan vaši odhalenou databázi, najde ji
+i útočník. Rozdíl je v tom, že Shodan umožňuje obráncům expozice najít a opravit dřív, než je
+útočníci zneužijí. Tento pohled odpovídá filosofii Prismatic Platform používat schopnosti
+[OSINT](@/glossary/osint.md) pro autorizované obranné bezpečnostní operace.
 
-Shodan's scanning infrastructure covers a broad range of protocols and services, providing deep visibility into internet-facing infrastructure.
+## Schopnosti skenování
 
-| Capability | Description | Example Findings |
+Skenovací infrastruktura Shodanu pokrývá široké spektrum protokolů a služeb a dává hluboký
+vhled do infrastruktury vystavené do internetu.
+
+| Schopnost | Popis | Příklady zjištění |
 |-----------|-------------|-----------------|
-| **Port scanning** | Identifies open TCP/UDP ports across all IPv4 | SSH on non-standard ports, exposed databases |
-| **Banner grabbing** | Captures service identification responses | Software versions, configuration details |
-| **SSL/TLS analysis** | Examines certificate chains and cipher suites | Expired certificates, weak protocols, self-signed certs |
-| **HTTP content** | Captures HTTP headers and page titles | Admin panels, default credentials pages |
-| **Protocol-specific** | Deep inspection of common protocols | Modbus (ICS), MQTT (IoT), RTSP (cameras) |
-| **Vulnerability tagging** | Identifies known CVEs from banner data | CVE-matched vulnerable software versions |
-| **Organization mapping** | Associates IPs with organizations via WHOIS/BGP | Autonomous System Number (ASN) attribution |
-| **Geolocation** | Maps IP addresses to physical locations | Country, city, ISP, coordinates |
-| **Screenshot capture** | Visual snapshots of exposed interfaces | Web dashboards, RDP sessions, VNC desktops |
-| **Industrial protocols** | Modbus, DNP3, EtherNet/IP, BACnet scanning | SCADA controllers, PLCs, building automation |
+| **Skenování portů** | zjišťuje otevřené porty TCP/UDP v celém IPv4 | SSH na nestandardních portech, odhalené databáze |
+| **Sběr bannerů** | zachycuje identifikační odpovědi služeb | verze softwaru, podrobnosti konfigurace |
+| **Analýza SSL/TLS** | zkoumá řetězce certifikátů a sady šifer | prošlé certifikáty, slabé protokoly, certifikáty podepsané samy sebou |
+| **Obsah HTTP** | zachycuje hlavičky HTTP a titulky stránek | administrační panely, stránky s výchozími přihlašovacími údaji |
+| **Specifické protokoly** | hloubková kontrola běžných protokolů | Modbus (ICS), MQTT (IoT), RTSP (kamery) |
+| **Značkování zranitelností** | určuje známé CVE z dat bannerů | verze softwaru spárované s CVE |
+| **Mapování organizací** | přiřazuje IP organizacím přes WHOIS/BGP | atribuce podle čísla autonomního systému (ASN) |
+| **Geolokace** | mapuje IP adresy na fyzická místa | země, město, poskytovatel, souřadnice |
+| **Snímky obrazovky** | vizuální zachycení vystavených rozhraní | webové dashboardy, relace RDP, plochy VNC |
+| **Průmyslové protokoly** | skenování Modbus, DNP3, EtherNet/IP, BACnet | řídicí jednotky SCADA, PLC, automatizace budov |
 
-### Common Shodan Search Filters
+### Běžné vyhledávací filtry Shodanu
 
-| Filter | Purpose | Example Query |
+| Filtr | Účel | Příklad dotazu |
 |--------|---------|---------------|
-| `hostname:` | Search by hostname/domain | `hostname:example.com` |
-| `org:` | Search by organization name | `org:"Acme Corporation"` |
-| `port:` | Filter by open port | `port:3389` (RDP) |
-| `product:` | Filter by software product | `product:Apache` |
-| `version:` | Filter by software version | `version:2.4.49` (known vuln) |
-| `country:` | Filter by country code | `country:CZ` |
-| `city:` | Filter by city | `city:Prague` |
-| `net:` | Filter by CIDR range | `net:192.168.0.0/16` |
-| `ssl:` | Filter by SSL certificate field | `ssl.cert.subject.cn:example.com` |
-| `vuln:` | Filter by CVE identifier | `vuln:CVE-2021-44228` (Log4Shell) |
-| `has_screenshot:true` | Only results with screenshots | Visual discovery of exposed services |
-| `asn:` | Filter by Autonomous System Number | `asn:AS13335` (Cloudflare) |
+| `hostname:` | hledání podle názvu hostitele/domény | `hostname:example.com` |
+| `org:` | hledání podle názvu organizace | `org:"Acme Corporation"` |
+| `port:` | filtr podle otevřeného portu | `port:3389` (RDP) |
+| `product:` | filtr podle softwarového produktu | `product:Apache` |
+| `version:` | filtr podle verze softwaru | `version:2.4.49` (známá zranitelnost) |
+| `country:` | filtr podle kódu země | `country:CZ` |
+| `city:` | filtr podle města | `city:Prague` |
+| `net:` | filtr podle rozsahu CIDR | `net:192.168.0.0/16` |
+| `ssl:` | filtr podle pole certifikátu SSL | `ssl.cert.subject.cn:example.com` |
+| `vuln:` | filtr podle identifikátoru CVE | `vuln:CVE-2021-44228` (Log4Shell) |
+| `has_screenshot:true` | jen výsledky se snímky | vizuální objevování vystavených služeb |
+| `asn:` | filtr podle čísla autonomního systému | `asn:AS13335` (Cloudflare) |
 
-### Advanced Query Composition
+### Pokročilé skládání dotazů
 
-Shodan supports Boolean operators and nested queries for precise discovery. This capability is essential for the Prismatic Platform's automated asset enumeration, where queries must be specific enough to avoid false positives while comprehensive enough to discover shadow IT.
+Shodan podporuje booleovské operátory a vnořené dotazy pro přesné vyhledávání. Pro automatizovaný
+výčet aktiv v Prismatic Platform je to zásadní: dotazy musí být dost specifické, aby se vyhnuly
+falešně pozitivním výsledkům, a zároveň dost úplné, aby odhalily stínové IT.
 
 ```
 # Find Apache servers in Czech Republic with known vulnerabilities
@@ -107,9 +155,10 @@ product:Elasticsearch port:9200 "cluster_name"
 tag:ics country:CZ
 ```
 
-## API Integration
+## Napojení přes API
 
-Shodan provides a RESTful API for programmatic access, enabling automated asset discovery and monitoring workflows.
+Shodan poskytuje REST API pro programový přístup, které umožňuje automatizované objevování aktiv
+a monitorovací postupy.
 
 ```elixir
 defmodule PrismaticPerimeter.Sources.Shodan do
@@ -206,44 +255,54 @@ defmodule PrismaticPerimeter.Sources.Shodan do
 end
 ```
 
-## Data Model
+## Datový model
 
-Shodan's data model captures rich information about each discovered host and service.
+Datový model Shodanu zachycuje bohaté informace o každém objeveném hostiteli a službě.
 
-| Field | Type | Description |
+| Pole | Typ | Popis |
 |-------|------|-------------|
-| `ip_str` | String | IPv4 or IPv6 address |
-| `port` | Integer | Open port number |
-| `transport` | String | `tcp` or `udp` |
-| `data` | String | Raw banner text |
-| `product` | String | Identified software product |
-| `version` | String | Software version |
-| `os` | String | Detected operating system |
-| `org` | String | Organization (from WHOIS/BGP) |
-| `asn` | String | Autonomous System Number |
-| `isp` | String | Internet Service Provider |
-| `ssl` | Object | SSL/TLS certificate and configuration details |
-| `vulns` | Object | Known CVE identifiers matching the service |
-| `location` | Object | Country, city, coordinates, region |
-| `timestamp` | DateTime | When the scan was performed |
-| `hostnames` | Array | Reverse DNS hostnames |
-| `domains` | Array | Associated domain names |
-| `tags` | Array | Service classification tags (e.g., `ics`, `cloud`) |
-| `http` | Object | HTTP-specific data (headers, title, favicon hash) |
+| `ip_str` | String | adresa IPv4 nebo IPv6 |
+| `port` | Integer | číslo otevřeného portu |
+| `transport` | String | `tcp` nebo `udp` |
+| `data` | String | surový text banneru |
+| `product` | String | identifikovaný softwarový produkt |
+| `version` | String | verze softwaru |
+| `os` | String | zjištěný operační systém |
+| `org` | String | organizace (z WHOIS/BGP) |
+| `asn` | String | číslo autonomního systému |
+| `isp` | String | poskytovatel internetu |
+| `ssl` | Object | podrobnosti certifikátu a konfigurace SSL/TLS |
+| `vulns` | Object | známé identifikátory CVE odpovídající službě |
+| `location` | Object | země, město, souřadnice, region |
+| `timestamp` | DateTime | kdy byl sken proveden |
+| `hostnames` | Array | názvy z reverzního DNS |
+| `domains` | Array | přidružené doménové názvy |
+| `tags` | Array | klasifikační štítky služby (např. `ics`, `cloud`) |
+| `http` | Object | data specifická pro HTTP (hlavičky, titulek, otisk favicony) |
 
-## Context in Prismatic Platform
+## Kontext v Prismatic Platform
 
-The Prismatic Platform integrates Shodan as a primary data source in the Perimeter module's [EASM](@/glossary/easm.md) asset discovery pipeline. When performing external attack surface management, the platform queries Shodan's API for exposed services, open ports, and banner data associated with target domains and IP ranges. The integration follows a multi-step process.
+Prismatic Platform zapojuje Shodan jako hlavní zdroj dat pipeline objevování aktiv [EASM](@/glossary/easm.md)
+v modulu Perimeter. Při správě vnější útočné plochy platforma dotazuje API Shodanu na vystavené
+služby, otevřené porty a data bannerů spojená s cílovými doménami a rozsahy IP. Integrace probíhá
+v několika krocích.
 
-### Discovery Pipeline
+### Pipeline objevování
 
-1. **Discovery**: Query Shodan for all hosts matching target domains, IP ranges, and organization names
-2. **Enrichment**: Extract software versions, TLS configurations, and vulnerability tags from banner data
-3. **Correlation**: Cross-reference Shodan findings with [Censys](@/glossary/censys.md) and [GreyNoise](@/glossary/greynoise.md) data
-4. **Scoring**: Feed validated findings into the [risk scoring](@/glossary/risk-score.md) engine
-5. **Rating**: Aggregate scored findings into the organization's [security rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/)
+1. **Objevení**: dotázat Shodan na všechny hostitele odpovídající cílovým doménám, rozsahům IP
+   a názvům organizací.
+2. **Obohacení**: z dat bannerů vytěžit verze softwaru, konfigurace TLS a značky zranitelností.
+3. **Korelace**: porovnat zjištění Shodanu s daty [Censys](@/glossary/censys.md)
+   a [GreyNoise](@/glossary/greynoise.md).
+4. **Skórování**: předat ověřená zjištění enginu [rizikového skórování](@/glossary/risk-score.md).
+5. **Hodnocení**: agregovat oskórovaná zjištění do [bezpečnostního
+   hodnocení](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/)
+   organizace.
 
-Shodan findings feed into the platform's epistemic pipeline, where the [Signal Plurality](@/glossary/signal-plurality.md) axiom requires corroboration from at least one additional independent source before a finding can affect security ratings. A service detected by Shodan alone is flagged as "unconfirmed" until Censys or another source provides corroborating evidence.
+Zjištění Shodanu vstupují do epistemické pipeline platformy, v níž axiom [Signal
+Plurality](@/glossary/signal-plurality.md) vyžaduje potvrzení nejméně z jednoho dalšího
+nezávislého zdroje, než zjištění smí ovlivnit bezpečnostní hodnocení. Služba zjištěná jen
+Shodanem se označí jako „nepotvrzená“, dokud Censys nebo jiný zdroj nedodá potvrzující důkaz.
 
 ```elixir
 defmodule PrismaticPerimeter.Discovery.Pipeline do
@@ -296,9 +355,11 @@ defmodule PrismaticPerimeter.Discovery.Pipeline do
 end
 ```
 
-### Rate Limiting and Circuit Breaker
+### Omezení rychlosti a jistič
 
-The Prismatic Platform implements sophisticated rate limiting for Shodan API calls, combining token bucket rate limiting with [circuit breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) patterns to handle API failures gracefully.
+Prismatic Platform implementuje pro volání API Shodanu propracované omezení rychlosti, které
+kombinuje algoritmus token bucket se vzorem [jističe](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/)
+(*circuit breaker*) pro elegantní zvládání selhání API.
 
 ```elixir
 defmodule PrismaticPerimeter.Sources.Shodan.RateLimiter do
@@ -332,97 +393,117 @@ defmodule PrismaticPerimeter.Sources.Shodan.RateLimiter do
 end
 ```
 
-## API Tiers and Rate Limits
+## Úrovně API a limity
 
-Shodan offers multiple API access tiers with different capabilities and rate limits.
+Shodan nabízí několik úrovní přístupu k API s různými schopnostmi a limity. Údaje odpovídají
+dokumentaci platformy v době zápisu; aktuální nabídku je třeba ověřit u poskytovatele.
 
-| Tier | Monthly Credits | Scan Credits | Results/Query | Features |
+| Úroveň | Měsíční kredity | Skenovací kredity | Výsledky/dotaz | Funkce |
 |------|----------------|-------------|---------------|----------|
-| **Free** | 0 | 0 | 0 (search only) | Basic search, no API |
-| **Membership** | 100 | 100 | 100 | API access, basic filters |
-| **Small Business** | 65,536 | 65,536 | Unlimited | Network monitoring, alerts |
-| **Corporate** | 327,680 | 327,680 | Unlimited | Vulnerability detection, full API |
-| **Enterprise** | Custom | Custom | Unlimited | Dedicated scanning, SLA |
+| **Free** | 0 | 0 | 0 (jen vyhledávání) | základní vyhledávání, bez API |
+| **Membership** | 100 | 100 | 100 | přístup k API, základní filtry |
+| **Small Business** | 65 536 | 65 536 | neomezeně | monitorování sítě, výstrahy |
+| **Corporate** | 327 680 | 327 680 | neomezeně | detekce zranitelností, úplné API |
+| **Enterprise** | individuálně | individuálně | neomezeně | vyhrazené skenování, SLA |
 
-The Prismatic Platform's rate limiter configuration automatically adjusts to the organization's Shodan tier, ensuring optimal API utilization without credit exhaustion.
+Konfigurace omezovače rychlosti v Prismatic Platform se automaticky přizpůsobí úrovni Shodanu
+dané organizace a zajistí optimální využití API bez vyčerpání kreditů.
 
-## Ethical and Legal Considerations
+## Etické a právní ohledy
 
-| Consideration | Description | Prismatic Approach |
+| Ohled | Popis | Přístup Prismatic |
 |--------------|-------------|-------------------|
-| **Authorization** | Scanning others' infrastructure may have legal implications | Query only for authorized targets |
-| **Data sensitivity** | Shodan results may reveal sensitive infrastructure details | [Encryption at rest](https://prismatic-reality-com.github.io/prismatic-promo/glossary/encryption-at-rest/) for all stored results |
-| **Responsible disclosure** | Discovered vulnerabilities should be reported | Integrated finding notification workflow |
-| **Terms of service** | Shodan ToS restricts certain automated usage patterns | Rate limiting and ToS-compliant queries |
-| **Data retention** | Historical data may contain outdated findings | Timestamp-based [time decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) scoring |
-| **GDPR compliance** | IP addresses may constitute personal data under GDPR | [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/)-compliant data handling and retention |
+| **Oprávnění** | skenování cizí infrastruktury může mít právní důsledky | dotazy jen na autorizované cíle |
+| **Citlivost dat** | výsledky Shodanu mohou odhalit citlivé podrobnosti infrastruktury | [šifrování v klidu](https://prismatic-reality-com.github.io/prismatic-promo/glossary/encryption-at-rest/) všech uložených výsledků |
+| **Odpovědné zveřejnění** | zjištěné zranitelnosti se mají nahlásit | integrovaný postup oznamování zjištění |
+| **Podmínky užití** | podmínky Shodanu omezují některé vzorce automatizovaného užití | omezení rychlosti a dotazy v souladu s podmínkami |
+| **Uchovávání dat** | historická data mohou obsahovat zastaralá zjištění | skórování s [časovým rozpadem](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) podle razítek |
+| **Soulad s GDPR** | IP adresy mohou být podle GDPR osobními údaji | zacházení s daty a jejich uchovávání v souladu s [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) |
 
-The Prismatic Platform enforces strict authorization checks before any Shodan queries are executed. The platform's color team security architecture, particularly the [Blue Team](@/glossary/blue-team.md) defensive posture agents, continuously monitors that OSINT collection operates within authorized boundaries. Any query targeting infrastructure outside the authorized scope triggers an immediate alert and blocks execution.
+Prismatic Platform před provedením jakéhokoli dotazu na Shodan vynucuje přísné kontroly
+oprávnění. Bezpečnostní architektura barevných týmů platformy, zejména agenti obranného postavení
+[Blue Teamu](@/glossary/blue-team.md), průběžně hlídá, aby sběr OSINT probíhal v autorizovaných
+mezích. Každý dotaz mířící na infrastrukturu mimo autorizovaný rozsah spustí okamžitou výstrahu
+a jeho provedení se zablokuje.
 
-## Comparison with Alternatives
+## Srovnání s alternativami
 
-| Feature | Shodan | [Censys](@/glossary/censys.md) | [GreyNoise](@/glossary/greynoise.md) | BinaryEdge | ZoomEye |
+| Vlastnost | Shodan | [Censys](@/glossary/censys.md) | [GreyNoise](@/glossary/greynoise.md) | BinaryEdge | ZoomEye |
 |---------|--------|--------|-----------|------------|---------|
-| **Primary focus** | Service/device discovery | Certificate/host scanning | Noise classification | Threat intelligence | Cyberspace mapping |
-| **Scan methodology** | Proprietary crawlers | ZMap-based | Passive sensors | Proprietary | Proprietary |
-| **Certificate data** | Basic | Deep (CT integration) | Minimal | Moderate | Moderate |
-| **Historical data** | Yes (paid) | Yes (paid) | Limited | Yes | Yes |
-| **ICS/SCADA coverage** | Extensive | Moderate | Limited | Moderate | Good |
-| **API ergonomics** | Good | Good | Excellent | Good | Moderate |
-| **Prismatic role** | Primary discovery | Certificate corroboration | Noise filtering | Not integrated | Not integrated |
-| **IPv6 support** | Growing | Strong | Limited | Growing | Growing |
-| **Screenshot capability** | Yes | Yes | No | No | Yes |
+| **Hlavní zaměření** | objevování služeb/zařízení | skenování certifikátů/hostitelů | klasifikace šumu | zpravodajství o hrozbách | mapování kyberprostoru |
+| **Metodika skenování** | proprietární crawlery | založeno na ZMap | pasivní senzory | proprietární | proprietární |
+| **Data certifikátů** | základní | hluboká (integrace CT) | minimální | střední | střední |
+| **Historická data** | ano (placeně) | ano (placeně) | omezená | ano | ano |
+| **Pokrytí ICS/SCADA** | rozsáhlé | střední | omezené | střední | dobré |
+| **Ergonomie API** | dobrá | dobrá | výborná | dobrá | střední |
+| **Role v Prismatic** | hlavní objevování | potvrzení certifikátů | filtrování šumu | nezapojeno | nezapojeno |
+| **Podpora IPv6** | rostoucí | silná | omezená | rostoucí | rostoucí |
+| **Snímky obrazovky** | ano | ano | ne | ne | ano |
 
-## Monitoring and Alerting
+## Monitorování a výstrahy
 
-Shodan Monitor provides continuous surveillance of specified network ranges. The Prismatic Platform integrates Shodan Monitor alerts into the [EASM](@/glossary/easm.md) continuous monitoring pipeline, triggering automated reassessment when changes are detected on monitored assets.
+Shodan Monitor poskytuje nepřetržitý dohled nad zadanými síťovými rozsahy. Prismatic Platform
+zapojuje výstrahy Shodan Monitor do pipeline nepřetržitého monitorování [EASM](@/glossary/easm.md)
+a při zjištění změn na sledovaných aktivech spouští automatické nové posouzení.
 
-| Alert Type | Trigger | Prismatic Response |
+| Typ výstrahy | Spouštěč | Reakce Prismatic |
 |-----------|---------|-------------------|
-| **New service** | Previously unseen port/service | Queue for discovery pipeline |
-| **SSL expiry** | Certificate approaching expiration | Generate compliance alert |
-| **Vulnerability** | New CVE matched to service | Trigger rating recalculation |
-| **Configuration change** | Banner content change detected | Re-enrich and re-score |
+| **Nová služba** | dříve neviděný port/služba | zařadit do pipeline objevování |
+| **Vypršení SSL** | certifikát se blíží vypršení | vytvořit výstrahu souladu |
+| **Zranitelnost** | nové CVE spárované se službou | spustit přepočet hodnocení |
+| **Změna konfigurace** | zjištěna změna obsahu banneru | znovu obohatit a oskórovat |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Combine with multiple sources**: Never rely on Shodan alone for security assessments. The [Signal Plurality](@/glossary/signal-plurality.md) axiom requires corroboration from independent sources like Censys and GreyNoise.
+1. **Kombinovat s více zdroji**: pro bezpečnostní posouzení se nikdy nespoléhat jen na Shodan.
+   Axiom [Signal Plurality](@/glossary/signal-plurality.md) vyžaduje potvrzení z nezávislých
+   zdrojů, jako jsou Censys a GreyNoise.
+2. **Zavést správné omezení rychlosti**: respektovat kvóty API Shodanu kvůli spolehlivému
+   přístupu. Používat algoritmy token bucket kalibrované na úroveň předplatného.
+3. **Agresivně cachovat výsledky**: data Shodanu se mění pomalu (mezi skeny uplynou hodiny až
+   dny). Cache na 1–4 hodiny snižuje počet volání API bez výrazného dopadu na přesnost.
+4. **Filtrovat šum pomocí GreyNoise**: porovnat zjištění Shodanu s [GreyNoise](@/glossary/greynoise.md)
+   a odlišit skutečně vystavené služby od šumu na pozadí internetu.
+5. **Monitorovat nepřetržitě**: ke zjišťování změn vnější útočné plochy používat Shodan Monitor
+   nebo periodické dotazy, ne snímky k jednomu okamžiku.
+6. **Respektovat právní meze**: dotazovat Shodan jen na infrastrukturu, k jejímuž posouzení máte
+   oprávnění. Výsledky ukládat s přiměřenými kontrolami přístupu a pravidly uchovávání.
 
-2. **Implement proper rate limiting**: Respect Shodan's API quotas to maintain reliable access. Use token bucket algorithms calibrated to your subscription tier.
+## Související
 
-3. **Cache results aggressively**: Shodan data changes slowly (hours to days between scans). Caching results for 1-4 hours reduces API calls without significantly impacting accuracy.
+**Pojmy v tomto glosáři**
 
-4. **Filter noise with GreyNoise**: Cross-reference Shodan findings with [GreyNoise](@/glossary/greynoise.md) to distinguish between genuinely exposed services and internet background noise.
+- [EASM](@/glossary/easm.md) – správa útočné plochy, pro niž je Shodan hlavním zdrojem.
+- [Censys](@/glossary/censys.md) – doplňkový zdroj skenovacích dat pro potvrzení.
+- [GreyNoise](@/glossary/greynoise.md) – analýza internetového šumu doplňující zjištění.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom vyžadující potvrzení dat Shodanu.
+- [Risk Score](@/glossary/risk-score.md) – skórování, do něhož zjištění vstupují.
+- [OSINT](@/glossary/osint.md) – širší disciplína zpravodajství z otevřených zdrojů.
 
-5. **Monitor continuously**: Use Shodan Monitor or periodic queries to detect changes in your external attack surface rather than relying on point-in-time snapshots.
+**Hesla a přehledy platformy mimo tuto knihu**
 
-6. **Respect legal boundaries**: Only query Shodan for infrastructure you are authorized to assess. Store results with appropriate access controls and retention policies.
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/),
+  [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/),
+  [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/),
+  [TLS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/tls/),
+  [Encryption at Rest](https://prismatic-reality-com.github.io/prismatic-promo/glossary/encryption-at-rest/),
+  [Circuit Breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/).
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Aplikace](https://prismatic-reality-com.github.io/prismatic-promo/apps/),
+  [OSINT na webu platformy](https://prismatic-reality-com.github.io/prismatic-promo/osint/).
 
-## Related Terms
+**Kniha**
 
-- [EASM](@/glossary/easm.md) -- Attack surface management consuming Shodan data as primary source
-- [Censys](@/glossary/censys.md) -- Complementary internet scan data source for corroboration
-- [GreyNoise](@/glossary/greynoise.md) -- Internet noise analysis complementing Shodan findings
-- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) -- The externally visible infrastructure Shodan discovers
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Axiom requiring Shodan data corroboration
-- [Risk Score](@/glossary/risk-score.md) -- A-F grades informed by Shodan findings
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Organization-level rating fed by Shodan evidence
-- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) -- API quota management for Shodan integration
-- [TLS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/tls/) -- Certificate and cipher analysis from Shodan banner data
-- [Encryption at Rest](https://prismatic-reality-com.github.io/prismatic-promo/glossary/encryption-at-rest/) -- Protection of stored Shodan reconnaissance data
-- [Circuit Breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) -- Resilience pattern for Shodan API calls
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- EASM data source architecture
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Prismatic Perimeter application
-- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) -- Open-source intelligence collection methodology
+- [Perimeter a detekce EA](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md) –
+  útočná plocha z pohledu epistemických útoků.
+- [EA × Security: Threat Intel Source Validation](@/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md) –
+  ověřování zdrojů zpravodajství o hrozbách.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

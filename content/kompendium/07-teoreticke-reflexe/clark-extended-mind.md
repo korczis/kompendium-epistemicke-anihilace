@@ -1,6 +1,6 @@
 +++
 title = "7.41 Clark: Rozšířená mysl a kognitivní artefakty"
-description = "Andy Clark a teorie rozšířené mysli (extended mind), kognitivní lešení, koncept supersizing the mind — rámec pro pochopení EA jako manipulace kognitivními artefakty, jež jsou strukturálně součástí mysli."
+description = "Andy Clark a teorie rozšířené mysli (extended mind), kognitivní lešení, koncept supersizing the mind."
 weight = 41
 insert_anchor_links = "right"
 
@@ -19,7 +19,7 @@ toc = true
 
 Andy Clark v esejích a knihách *Being There* (1997), *Natural-Born Cyborgs* (2003) a *Supersizing the Mind* (2008) — a v klíčové eseji *The Extended Mind* (1998, s Davidem Chalmersem) — formuluje **teorii rozšířené mysli** (*extended mind thesis*): mysl není **uvězněna** v lebce, je strukturálně **rozšířena** do nástrojů, environmentu a kognitivních artefaktů.
 
-Pro kompendium EA poskytuje Clarkova teorie nástroj pro pochopení **EA jako manipulace kognitivními artefakty**, jež jsou strukturálně součástí mysli.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Clarkova teorie nástroj pro pochopení **EA jako manipulace kognitivními artefakty**, jež jsou strukturálně součástí mysli.
 
 ## 1. Princip parity (*Parity Principle*)
 

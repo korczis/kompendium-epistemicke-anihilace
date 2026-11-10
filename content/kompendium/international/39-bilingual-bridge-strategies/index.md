@@ -72,7 +72,7 @@ Místo tabulky slov tu uvádíme tabulku rolí a nástrojů, které most mezi ja
   domluvit převod v první osobě a bez vynechávek.
 - **Odborník mluví k tlumočníkovi.** Oslovovat přímo klienta a udržovat s ním kontakt;
   tlumočník je kanál, ne účastník.
-- **Termín přeložený doslovně.** „Gaslighting“ nebo „coercive control“ v jazyce, kde
+- **Termín přeložený doslovně.** „[Gaslighting](@/glossary/gaslighting.md)“ nebo „coercive control“ v jazyce, kde
   nemají ustálený ekvivalent, mohou znít jako nesmysl. Popsat chování, ne nálepku.
 - **Plynulost zaměněna za porozumění.** Klient, který dobře mluví česky v běžných
   situacích, nemusí rozumět otázkám o duševních stavech nebo právním poučení.

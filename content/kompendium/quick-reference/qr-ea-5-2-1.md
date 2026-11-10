@@ -37,7 +37,7 @@ toc = false
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Fenomenologický restituční protokol — strukturované cvičení v základních distinkcích noéma/noésis (předmět vs. akt)
-- Multidisciplinární tým — psychiatrie pro diferenciální dg. depersonalizace + filosof pro koncepční stabilizaci
+- Multidisciplinární tým — psychiatrie pro diferenciální dg. [depersonalizace](@/glossary/depersonalizace.md) + filosof pro koncepční stabilizaci
 - Praktická kotva v každodennosti — fyzická práce, rutiny, rituály s jasnou objekt-subjekt strukturou
 
 ## Příklad

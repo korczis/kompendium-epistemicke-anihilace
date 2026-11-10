@@ -22,7 +22,7 @@ toc = false
 
 ## Mechanismus
 
-Aplikace techniky Deepfake personalni ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Aplikace techniky [Deepfake](@/glossary/deepfake.md) personalni ve specifickém kontextu vedoucí k delegitimizaci cíle.
 
 ## Indikatory
 

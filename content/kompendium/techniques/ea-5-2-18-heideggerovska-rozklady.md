@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.18 Heideggerovské rozklady"
-description = "Detailní per-technique článek: technika heideggerovských rozkladů — destrukce existenciálních struktur pobytu (Da-sein) skrze pervertovanou autenticitu a manipulaci se Sein-zum-Tode. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika heideggerovských rozkladů — destrukce existenciálních struktur pobytu (Da-sein) skrze pervertovanou autenticitu a manipulaci se Sein-zum-Tode."
 weight = 5218
 insert_anchor_links = "right"
 
@@ -71,7 +71,7 @@ Stav existenciální paralýzy je interpretován jako *Eigentlichkeit*. Identit�
 ## Fenomenologické znaky
 
 - **Chronická existenciální úzkost** racionalizovaná jako „autentické bytí k smrti“.
-- **Sociální izolace** racionalizovaná jako „překonání Das Man“.
+- **[Sociální izolace](@/glossary/socialni-izolace.md)** racionalizovaná jako „překonání Das Man“.
 - **Pseudo-mystická melancholie** prokládaná akutními úzkostnými epizodami.
 - **Praktická bezstarostnost** maskovaná pseudo-filozofickou hloubkou.
 - **Resentimentní vztah ke vrženosti** — chronická stížnost na „podmínky existence“.
@@ -111,7 +111,7 @@ Klíčový diferenciál: **autentický Heidegger vede k otevřenosti druhým**; 
 
 ### Individuální
 
-1. **Korektní heideggerovská hermeneutika** — výklad existenciálů jako struktur, nikoli stavů.
+1. **Korektní heideggerovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad existenciálů jako struktur, nikoli stavů.
 2. **Mitwelt rekonstrukce** — strukturní obnova spolusvěta s druhými.
 3. **Praktická Sorge** — explicitní cvičení starosti o konkrétní lidi a věci.
 4. **Existenciální terapie** — Yalom, May, Frankl jako klinický rámec.
@@ -139,8 +139,8 @@ Klíčový diferenciál: **autentický Heidegger vede k otevřenosti druhým**; 
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine angažovanost** — strukturní vynucování praktického *Sorge* o konkrétní rozhodnutí.
-- **NABLA Infinity Mitwelt axiom** — epistemická provenience pracuje s druhými, nikoli izolovaně.
+- **[Decision Engine](@/glossary/decision-engine.md) angažovanost** — strukturní vynucování praktického *Sorge* o konkrétní rozhodnutí.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) Mitwelt axiom** — epistemická provenience pracuje s druhými, nikoli izolovaně.
 - **OSINT komunitní validace** — cross-source vetting kompenzuje izolaci.
 
 ## Související

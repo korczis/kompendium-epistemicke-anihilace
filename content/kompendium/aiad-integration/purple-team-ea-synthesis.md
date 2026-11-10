@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Purple Team syntetizuje výstupy Red a Blue Teamů — extrahuje vzory útok-obrana, generuje nové detekční pravidla a uzavírá smyčku zpětné vazby do AutoEvolve. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Purple Team](@/glossary/purple-team.md) syntetizuje výstupy Red a Blue Teamů — extrahuje vzory útok-obrana, generuje nové detekční pravidla a uzavírá smyčku zpětné vazby do [AutoEvolve](@/glossary/autoevolve.md). V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 

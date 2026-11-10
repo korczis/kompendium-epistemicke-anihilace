@@ -49,7 +49,7 @@ o vtělené percepci; Husserlovy pojmy shrnuje stránka
 
 ## Hermeneutika: porozumění a příběh
 
-**Otázka:** jak rozumíme textům, druhým a sobě? Hermeneutika (Gadamer, Ricoeur) zdůrazňuje
+**Otázka:** jak rozumíme textům, druhým a sobě? [Hermeneutika](@/glossary/hermeneutika.md) (Gadamer, Ricoeur) zdůrazňuje
 [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) a
 [narativní identitu](@/glossary/narativni-identita.md).
 
@@ -106,7 +106,7 @@ heslo [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md).
 **Otázka:** jak poznáváme spolu s druhými a skrze ně – svědectvím, důvěrou, institucemi?
 Goldman, Fricker, Longino, Anderson.
 
-**Proč pro knihu:** epistemická anihilace je z velké části útokem na sociální podmínky
+**Proč pro knihu:** [epistemická anihilace](@/glossary/epistemicka-anihilace.md) je z velké části útokem na sociální podmínky
 poznání: na to, komu se věří a kdo má slovo. Pojem [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md)
 (Fricker 2007, *Epistemic Injustice*) je pro knihu klíčový.
 
@@ -143,7 +143,7 @@ směřuje zotavení.
 **Skepse.** Antický [pyrrhonismus](@/glossary/pyrrhonismus.md) usiloval o klid
 skrze zdržení se soudu; jeho karikatura („nic se nedá vědět, tak věř nám“) je jádrem
 technik sebevztažného kolapsu.
-**Apofatika.** Mystická [via negativa](@/glossary/via-negativa.md) popírá přiměřenost pojmů
+**[Apofatika](@/glossary/apofatika.md).** Mystická [via negativa](@/glossary/via-negativa.md) popírá přiměřenost pojmů
 pro posvátné; její deformace je [apofatické zacyklení](@/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md).
 **Postmoderní kritika.** Kritika velkých vyprávění se dá zneužít k tvrzení, že žádné
 vyprávění není lepší než jiné; viz [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md).

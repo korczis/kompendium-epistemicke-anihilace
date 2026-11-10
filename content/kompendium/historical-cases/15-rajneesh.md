@@ -5,6 +5,9 @@ description = "Komuna Rajneeshpuram v Oregonu 1981–1985 a salmonelová otrava 
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"
@@ -135,7 +138,7 @@ strukturu komuny v letech 1981–1985, nikoli hodnotu meditačních praxí. Srov
 
 - Milne, H. 1986. *Bhagwan: The God That Failed*.
 - FitzGerald, F. 1986. *Cities on a Hill: A Journey Through Contemporary American Cultures*.
-- Carter, L. F. 1990. *Charisma and Control in Rajneeshpuram*.
+- Carter, L. F. 1990. *[Charisma](@/glossary/charisma.md) and Control in Rajneeshpuram*.
 - Urban, H. B. 2015. *Zorba the Buddha: Sex, Spirituality, and Capitalism in the Global
   Osho Movement*.
 - Török, T. J. et al. 1997. „A large community outbreak of salmonellosis caused by

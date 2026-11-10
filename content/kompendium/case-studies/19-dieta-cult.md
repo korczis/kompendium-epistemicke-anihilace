@@ -90,7 +90,7 @@ Intervence vyžadovala **týmovou péči**: lékař, nutriční terapeut a psych
   zdravotního problému, který nebyl vyřešen.
 - **S2 – Externalizace introjektů:** dělení potravin na „čisté“ a „jedovaté“ jako naučený jazyk,
   ne vlastní zkušenost.
-- **S3 – Rekonstrukce metakognice:** [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
   o výživě; rozlišení svědectví a studie.
 - **S4 – Hermeneutická obnova:** jídlo znovu jako výživa a společenství, ne morálka.
 - **S5 – Konsolidace a transfer:** dlouhodobá spolupráce s nutričním terapeutem, návrat ke

@@ -3,6 +3,9 @@ title = "Galerie"
 description = "Generativní grafika kompendia v p5.js: rozpad sítě pojmů, eroze paměti a rekonstituce."
 weight = 905
 
+[taxonomies]
+tags = ["kompendium"]
+
 [extra]
 toc = false
 +++

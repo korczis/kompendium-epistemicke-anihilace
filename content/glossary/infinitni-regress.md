@@ -30,7 +30,7 @@ nemohl dospět k žádnému závěru ani rozhodnutí.
 
 ## Původ a kontext pojmu
 
-Antický skepticismus formuloval problém v podobě tzv. Agrippových trópů, jak je zachycuje
+Antický [skepticismus](@/glossary/skepticismus.md) formuloval problém v podobě tzv. Agrippových trópů, jak je zachycuje
 Sextus Empeirikos: každé zdůvodnění buď vede do nekonečna, nebo se zastaví u nezdůvodněného
 předpokladu, nebo se vrací v kruhu (viz [pyrrhonismus](@/glossary/pyrrhonismus.md)). Hans Albert
 (*Traktat über kritische Vernunft*, 1968) stejné trilema pojmenoval Münchhausenovým:

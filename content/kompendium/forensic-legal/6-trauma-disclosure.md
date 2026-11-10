@@ -96,7 +96,7 @@ obsah vzpomínek tvarovat.
 
 - **Otázka „proč jste to neřekla dřív?“** položená vyčítavě. Pro oběť opakuje zkušenost,
   že jí nikdo nevěří.
-- **Přílišné vyptávání při prvním sdělení** – kontaminuje pozdější forenzní rozhovor.
+- **Přílišné vyptávání při prvním sdělení** – kontaminuje pozdější [forenzní rozhovor](@/glossary/forensic-interview.md).
 - **Ztráta prvního záznamu.** Doslovná slova prvního sdělení bývají nejcennějším důkazem;
   parafráze v poznámkách je znehodnocuje.
 - **Interpretace odvolání jako přiznání nepravdy** bez zkoumání okolností.

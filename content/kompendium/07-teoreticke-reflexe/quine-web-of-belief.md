@@ -19,14 +19,14 @@ toc = true
 
 W. V. O. Quine (1908–2000) — americký logik a filozof — v esejích *Two Dogmas of Empiricism* (1951) a v knihách *Word and Object* (1960) a *Web of Belief* (1970) formuluje **holistickou epistemologii**: přesvědčení netvoří **lineární řetězec** od smyslových vjemů ke „vyšším“ teoriím, ale **síť** (*web*), v níž jsou všechna přesvědčení **vzájemně propojena**.
 
-Pro kompendium EA poskytuje Quineova teorie nástroj pro pochopení **strukturálních dimenzí** EA technik, jež operují skrze **cílené narušení** sítě přesvědčení.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Quineova teorie nástroj pro pochopení **strukturálních dimenzí** EA technik, jež operují skrze **cílené narušení** sítě přesvědčení.
 
 ## 1. Dogmata empirismu
 
 Quine ve své revolutionární eseji **odmítá dvě dogmata** logického empirismu:
 
 1. **Analytické vs. syntetické**: tradiční rozlišení mezi tvrzeními pravdivými **z definice** („Všichni svobodní jsou neženatí“) a tvrzeními pravdivými **na základě faktů** je strukturálně **neudržitelné** — neexistuje **ostrá** dělící čára.
-2. **Redukcionismus**: představa, že každé smysluplné tvrzení je **redukovatelné** na soubor pozorovacích vět, je **falešná** — tvrzení jsou **konfrontována** s evidencí pouze **jako celek** sítě.
+2. **[Redukcionismus](@/glossary/redukcionismus.md)**: představa, že každé smysluplné tvrzení je **redukovatelné** na soubor pozorovacích vět, je **falešná** — tvrzení jsou **konfrontována** s evidencí pouze **jako celek** sítě.
 
 Pro EA z toho plyne:
 
@@ -90,10 +90,10 @@ Pro EA z toho plyne:
 
 ## 7. Algoritmická operacionalizace
 
-Pro Prismatic platformu má Quineho holismus **specifickou** relevanci:
+Pro Prismatic platformu má Quineho [holismus](@/glossary/holismus.md) **specifickou** relevanci:
 
 - **NABLA Infinity** ([viz §4.2 7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) operuje **holisticky** — udržuje **celou síť** kontradikcí, nikoli pouze izolované konflikty.
-- **Decision Core** zaznamenává **propojení** rozhodnutí — strukturální mapování sítě.
+- **[Decision Core](@/glossary/decision-core.md)** zaznamenává **propojení** rozhodnutí — strukturální mapování sítě.
 
 ## 8. Primární literatura
 

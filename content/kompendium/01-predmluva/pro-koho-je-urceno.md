@@ -149,7 +149,7 @@ Instituce, která tyto závazky systematicky neplní, ztrácí přístup pro cel
 
 ## Etická motivace omezení
 
-Striktní omezení **nejsou motivována akademickým elitářstvím**, ale hlubokou etickou odpovědností. Poznání mechanismů epistemické a kognitivní anihilace představuje **dual-use poznání** — může sloužit jak terapeutickým a preventivním účelům, tak potenciálně destruktivním cílům.
+Striktní omezení **nejsou motivována akademickým elitářstvím**, ale hlubokou etickou odpovědností. Poznání mechanismů epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md) představuje **[dual-use poznání](@/glossary/dual-use-poznani.md)** — může sloužit jak terapeutickým a preventivním účelům, tak potenciálně destruktivním cílům.
 
 V souladu s fundamentálním principem **primum non nocere** je nezbytné zajistit, že toto poznání bude využito výhradně k **ochraně** kognitivní integrity a autonomie jednotlivců, nikoli k jejich podkopání.
 

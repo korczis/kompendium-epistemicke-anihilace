@@ -69,7 +69,7 @@ nabízí sekce [mezinárodní perspektivy](@/kompendium/international/_index.md)
 - **Kulturní citlivost** – pojmy manipulace, autority a rodiny mají v různých kulturách
   odlišný význam ([kulturní zaujatost](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)).
 - **Transparentnost** – zveřejňování metod a výsledků, aby spolupráce nebyla vnímána jako
-  tajná propaganda.
+  tajná [propaganda](@/glossary/propaganda.md).
 
 ## Rizika a pojistky
 

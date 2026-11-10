@@ -137,7 +137,7 @@ Dominantní hieroglyfy vs. **legitimní confident communication**:
 | **Pedagogické prezentace** | Lecturer body language inhibiting student questions |
 | **Korporátní leadership** | "Executive presence" coaching focused na body language |
 | **Politické projevy** | Klasický kontext kinesic manipulace |
-| **TV / podcast appearances** | Selected guests pro charisma + body language |
+| **TV / podcast appearances** | Selected guests pro [charisma](@/glossary/charisma.md) + body language |
 | **Soudní řízení** | Witness body language influencing jury beyond substantive |
 | **TED-style talks** | Body language coaching ke maximizaci charismatic delivery |
 
@@ -210,7 +210,7 @@ Detekce: Post-mortem identifikoval, že:
 
 - Pitch deck (written) byl **less convincing** than in-person
 - CEO had professional body language coaching
-- Due diligence focused na presentation, ne na substance
+- [Due diligence](@/glossary/due-diligence.md) focused na presentation, ne na substance
 - „Gut feeling“ pro CEO byl based primarily na body language
 
 Intervence: VC firm redesigned process — required **written-first** evaluation, video-removed re-review, explicit body language deweighting.
@@ -225,7 +225,7 @@ Intervence: Defense protocol redesign — increased weighting na written assessm
 
 ### Případ 3 — Klinická konzultace
 
-Patient reported „**feeling reassured**“ by physician's confident demeanor at high-stakes diagnosis. Treatment recommendation accepted **bez** explicit informed consent process.
+Patient reported „**feeling reassured**“ by physician's confident demeanor at high-stakes diagnosis. Treatment recommendation accepted **bez** explicit [informed consent](@/glossary/informed-consent.md) process.
 
 Detekce: Patient advocate noted pattern — high-confidence physicians achieved high acceptance rates **regardless** substantive accuracy of recommendations.
 
@@ -242,7 +242,7 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec „Guru a adept“** — guru typically má high-trained body language; **klíčový** establishment mechanism.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru typically má high-trained body language; **klíčový** establishment mechanism.
 - **Coercive presence** — strukturální body language patterns v abusive dynamics.
 
 ### Hraniční / podobné
@@ -252,10 +252,10 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 
 ## Vztah k Prismatic platformě
 
-- **Source weighting in OSINT/Decision Engine** — explicitní strukturální obrana: kvalita zdroje není měřena charisma, ale dokumentovanou track record + methodological standards.
+- **Source weighting in OSINT/[Decision Engine](@/glossary/decision-engine.md)** — explicitní strukturální obrana: kvalita zdroje není měřena charisma, ale dokumentovanou track record + methodological standards.
 - **Written-first decision protocol** — klíčová rozhodnutí Prismatic platformy must mít written justification předem.
 - **OSINT investigator training** — explicit training v detekci kinesic manipulation patterns.
-- **Color Teams Black Team** — explicit threat modeling pro charismatic adversarial scenarios.
+- **Color Teams [Black Team](@/glossary/black-team.md)** — explicit threat modeling pro charismatic adversarial scenarios.
 
 ## Související
 

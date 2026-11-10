@@ -22,7 +22,7 @@ David Chalmers v knize *The Conscious Mind* (1996) a v eseji *Facing Up to the P
 - **Easy problems** (technicky obtížné, ale strukturálně řešitelné): jak mozek **integruje informace**, **generuje rozhodnutí**, **kontroluje pozornost**
 - **Hard problem** (strukturálně mysteriozní): proč je tato funkční organizace **provázena** subjektivní zkušeností? Proč **něco** je být tímto systémem?
 
-Pro kompendium EA poskytuje Chalmersův hard problem nástroj pro pochopení **nepřevoditelnosti** subjektivního pólu na funkcionální popis — a EA dimenze útoků na **qualia**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Chalmersův hard problem nástroj pro pochopení **nepřevoditelnosti** subjektivního pólu na funkcionální popis — a EA dimenze útoků na **qualia**.
 
 ## 1. Easy vs. Hard Problem
 

@@ -1,10 +1,10 @@
 +++
-title = "Quality Debt"
+title = "Quality debt (dluh kvality)"
 weight = 53
-description = "Quality Debt Points tracked, measured, and systematically eliminated"
+description = "Dluh kvality v Prismatic Platform: body dluhu kvality (QDP) se sledují, měří a systematicky odstraňují; prevence místo dodatečné nápravy."
 
 [taxonomies]
-tags = ["glossary", "quality", "quality-debt", "prismatic"]
+tags = ["glossary", "prismatic", "quality", "architecture", "doctrine"]
 
 [extra]
 category = "quality"
@@ -33,47 +33,72 @@ author = "Tomas Korcak (korczis)"
 reading_time = "5 min"
 word_count = 934
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Quality", "Debt", "Points", "glossary", "Prismatic Platform", "Custom", "Dialyzer", "CASCADE"]
 quality_score = 75
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Quality Debt - Prismatic Platform"
+image_alt = "Quality debt (dluh kvality) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Quality Debt, measured in Quality Debt Points (QDP), is a quantitative metric system that assigns discrete numeric values to every deviation from platform quality standards. Unlike the loosely-defined concept of "technical debt" common in software engineering, QDP is rigorously specified: each violation type has a defined point value, every violation is automatically detected, and the total QDP count serves as the single canonical measure of platform quality health. The fundamental principle is that quality cannot be managed if it cannot be measured, and QDP provides that measurement with precision.
+Dluh kvality (*quality debt*), měřený v bodech dluhu kvality ([QDP](@/glossary/qdp.md),
+*Quality Debt Points*), je kvantitativní systém metrik, který každé odchylce od standardů
+kvality platformy přiřazuje diskrétní číselnou hodnotu. Na rozdíl od volně vymezeného pojmu
+„technický dluh“, běžného v softwarovém inženýrství, je QDP přesně specifikován: každý typ
+porušení má stanovenou bodovou hodnotu, každé porušení se automaticky odhalí a celkový počet
+QDP slouží jako jediné kanonické měřítko zdraví kvality platformy. Základní zásadou je, že
+kvalitu nelze řídit, nelze-li ji měřit, a QDP toto měření poskytuje přesně.
 
-Quality Debt encompasses a broad taxonomy of violations across multiple domains: missing type specifications, static analysis warnings from Credo, Dialyzer type errors, compilation warnings, anti-pattern usage (such as `length() > 0` instead of pattern matching), unsafe map access patterns, missing `@impl` annotations, `Process.sleep` calls in non-test code, and any other deviation from the platform's codified quality standards. Each violation is categorized by domain, severity, and remediation complexity.
+Dluh kvality zahrnuje širokou taxonomii porušení napříč několika oblastmi: chybějící typové
+specifikace, varování statické analýzy Credo, typové chyby Dialyzeru, varování při kompilaci,
+užití antivzorců (např. `length() > 0` místo porovnávání se vzorem), nebezpečné vzory přístupu
+do map, chybějící anotace `@impl`, volání `Process.sleep` mimo testovací kód a jakoukoli další
+odchylku od kodifikovaných standardů kvality platformy. Každé porušení se zařadí podle oblasti,
+závažnosti a složitosti nápravy.
 
-The Prismatic Platform has achieved complete QDP elimination -- 0 QDP across all 13 quality domains for all 90 umbrella applications. This was not a gradual reduction but a systematic campaign that eliminated 905 QDP using specialized CASCADE patterns, followed by automated prevention through pre-commit hooks that block any commit introducing new QDP. The platform now operates in a zero-debt steady state where prevention has replaced remediation as the primary quality strategy.
+Podle dokumentace platformy bylo v době zápisu dosaženo úplného odstranění QDP – 0 QDP ve všech
+13 oblastech kvality u všech aplikací umbrelly (na tomto místě se uvádí 90 aplikací, jinde 115;
+čísla se v dokumentaci liší podle doby zápisu). Nešlo o postupné snižování, ale o systematickou
+kampaň, která pomocí specializovaných vzorů CASCADE odstranila 905 QDP, a následnou
+automatizovanou prevenci pre-commit hooky, které zablokují každý commit zavádějící nové QDP.
+Platforma nyní pracuje v ustáleném stavu bez dluhu, v němž prevence nahradila nápravu jako
+hlavní strategii kvality.
 
-## Technical Deep Dive
+Pro Kompendium je dluh kvality pojmem z kontextu platformy. Kniha se s ním potkává nepřímo:
+i obsah knihy má svůj „dluh“ (stránky bez diakritiky, bez odkazů, s nejistými zdroji), který
+se eviduje kontrolami informační architektury a odstraňuje po vlnách, nikoli zamlčuje.
 
-### QDP Taxonomy
+## Technický rozbor
 
-Quality Debt Points are categorized across 13 distinct quality domains, each with its own detection mechanism, severity weighting, and remediation approach:
+### Taxonomie QDP
 
-| Domain | Detection Tool | QDP Weight | Current Count |
+Body dluhu kvality se třídí do 13 samostatných oblastí kvality, z nichž každá má vlastní
+detekční mechanismus, vážení závažnosti a přístup k nápravě:
+
+| Oblast | Nástroj detekce | Váha QDP | Aktuální počet |
 |--------|---------------|------------|---------------|
-| Dialyzer | `mix dialyzer` | 3 per violation | 0 |
-| Credo | `mix credo --strict` | 1-2 per violation | 0 |
-| Compilation | `--warnings-as-errors` | 2 per warning | 0 |
-| DateTime Precision | Custom analyzer | 1 per violation | 0 |
-| Guard Functions | Custom analyzer | 1 per violation | 0 |
-| @impl Coverage | Custom analyzer | 1 per missing | 0 |
-| Memory Safety | Custom analyzer | 3 per violation | 0 |
-| Performance | Benchee + custom | 2 per violation | 0 |
-| Regression Prevention | Test coverage check | 3 per missing test | 0 |
-| Timing Patterns | Custom analyzer | 2 per violation | 0 |
-| TODO Management | Custom scanner | 1 per stale TODO | 0 |
-| Typespec Coverage | Custom analyzer | 1 per missing spec | 0 |
-| Unsafe Map Access | Custom analyzer | 2 per violation | 0 |
+| Dialyzer | `mix dialyzer` | 3 za porušení | 0 |
+| Credo | `mix credo --strict` | 1–2 za porušení | 0 |
+| Kompilace | `--warnings-as-errors` | 2 za varování | 0 |
+| Přesnost DateTime | vlastní analyzátor | 1 za porušení | 0 |
+| Guard funkce | vlastní analyzátor | 1 za porušení | 0 |
+| Pokrytí @impl | vlastní analyzátor | 1 za chybějící | 0 |
+| Paměťová bezpečnost | vlastní analyzátor | 3 za porušení | 0 |
+| Výkon | Benchee + vlastní | 2 za porušení | 0 |
+| Prevence regresí | kontrola pokrytí testy | 3 za chybějící test | 0 |
+| Časové vzory | vlastní analyzátor | 2 za porušení | 0 |
+| Správa TODO | vlastní skener | 1 za zastaralé TODO | 0 |
+| Pokrytí typespecy | vlastní analyzátor | 1 za chybějící spec | 0 |
+| Nebezpečný přístup do mapy | vlastní analyzátor | 2 za porušení | 0 |
 
-### QDP Detection Pipeline
+Váhy v této tabulce se liší od stupnice závažnosti v hesle [QDP](@/glossary/qdp.md) (1–5 bodů
+podle P0–P3); obě podoby pocházejí z různých verzí dokumentace platformy.
 
-The detection pipeline runs at multiple integration points to catch violations as early as possible:
+### Detekční pipeline QDP
+
+Detekční pipeline běží v několika integračních bodech, aby se porušení zachytila co nejdříve:
 
 ```elixir
 defmodule Prismatic.Quality.DebtDetector do
@@ -628,9 +653,10 @@ end
 end
 ```
 
-### CASCADE Pattern Elimination
+### Odstraňování vzory CASCADE
 
-The 905 QDP elimination was achieved through CASCADE patterns -- bulk fix strategies that address entire categories of violations simultaneously rather than fixing individual instances:
+Odstranění 905 QDP se podařilo vzory CASCADE – hromadnými opravnými strategiemi, které řeší
+celé kategorie porušení najednou, místo oprav jednotlivých výskytů:
 
 ```elixir
 defmodule Prismatic.Quality.CascadeEliminator do
@@ -685,9 +711,11 @@ defmodule Prismatic.Quality.CascadeEliminator do
 end
 ```
 
-### Nuclear Cache Fix
+### Oprava „Nuclear Cache“
 
-One of the most critical CASCADE patterns is the Nuclear Cache fix, used when Dialyzer or compilation caches become corrupted and produce phantom QDP that do not correspond to actual code issues:
+Jedním z nejdůležitějších vzorů CASCADE je oprava Nuclear Cache, používaná, když se poškodí
+cache Dialyzeru nebo kompilace a vznikají fantomová QDP, která neodpovídají skutečným problémům
+v kódu:
 
 ```bash
 # Nuclear Cache Fix - eliminates phantom QDP from corrupted caches
@@ -697,11 +725,12 @@ rm -rf _build/dev/lib/prismatic_claude/ebin && rm -rf priv/plts/dialyzer.plt
 mix compile --force && mix dialyzer --plt
 ```
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### QDP Prevention Architecture
+### Architektura prevence QDP
 
-The prevention-first architecture ensures that zero QDP is maintained through multiple enforcement layers:
+Architektura „prevence na prvním místě“ zajišťuje udržení nulového QDP několika vrstvami
+vynucení:
 
 ```
 Code Change
@@ -728,11 +757,14 @@ Quality Floor Guardian (Continuous monitoring)
 Quality DNA (Persistent state recording)
 ```
 
-Each layer catches different categories of QDP, with earlier layers providing faster feedback for common violations and later layers performing deeper analysis.
+Každá vrstva zachytí jiné kategorie QDP; dřívější vrstvy dávají rychlejší zpětnou vazbu
+u běžných porušení, pozdější provádějí hlubší analýzu.
 
-### Integration with Quality DNA
+### Napojení na Quality DNA
 
-Every QDP scan result is persisted to [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) for cross-session tracking:
+Každý výsledek skenu QDP se ukládá do [Quality
+DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) pro sledování
+napříč sezeními:
 
 ```elixir
 defmodule Prismatic.Quality.DNARecorder do
@@ -768,9 +800,9 @@ defmodule Prismatic.Quality.DNARecorder do
 end
 ```
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-### Common Commands
+### Běžné příkazy
 
 ```bash
 # Full QDP scan across all domains
@@ -793,63 +825,98 @@ mix quality.enforce_standard
 mix quality.enforce_standard --fix
 ```
 
-### Interpreting QDP Reports
+### Výklad zprávy QDP
 
-A QDP report provides actionable information for remediation:
+Zpráva QDP poskytuje použitelné informace pro nápravu:
 
-| Field | Description | Action |
+| Pole | Popis | Akce |
 |-------|-------------|--------|
-| `total_qdp` | Sum of all weighted violations | Must be 0 for commit |
-| `by_domain` | QDP breakdown per quality domain | Prioritize highest-weight domains |
-| `violations` | Individual violation details | Fix starting with auto-fixable items |
-| `auto_fixable` | Whether CASCADE can fix it | Apply cascade patterns first |
+| `total_qdp` | součet všech vážených porušení | pro commit musí být 0 |
+| `by_domain` | rozpad QDP podle oblastí kvality | upřednostnit oblasti s nejvyšší váhou |
+| `violations` | podrobnosti jednotlivých porušení | opravovat od automaticky opravitelných |
+| `auto_fixable` | zda to CASCADE dokáže opravit | nejdřív uplatnit vzory CASCADE |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Address QDP immediately upon introduction**. The pre-commit hook blocks commits with non-zero QDP, but if you encounter QDP during development, fix it before any other changes. QDP compounds rapidly if allowed to accumulate.
+1. **Řešit QDP okamžitě po vzniku.** Pre-commit hook blokuje commity s nenulovým QDP, ale
+   narazíte-li na QDP během vývoje, opravte je dřív než cokoli jiného. Necháte-li QDP
+   hromadit, rychle se úročí.
+2. **Pro hromadné odstranění používat vzory CASCADE.** Při více porušeních téhož typu je
+   neopravujte jednotlivě. Uplatněte příslušný vzor CASCADE a odstraňte celou kategorii najednou.
+3. **Při fantomových QDP spustit opravu Nuclear Cache.** Hlásí-li skener QDP porušení, která
+   neodpovídají viditelným problémům v kódu, jsou pravděpodobnou příčinou poškozené artefakty
+   sestavení.
+4. **Sledovat trendy QDP v Quality DNA.** I při nulovém QDP sledujte frekvenci skenů a zdraví
+   oblastí v čase. Náhlé výkyvy v trvání skenu nebo varování v konkrétní oblasti mohou ukázat
+   na vznikající problémy dřív, než se projeví jako QDP.
+5. **Správně vážit porušení.** Ne všechna QDP jsou stejná. Porušení Dialyzeru (váha 3) ukazuje
+   na možnou běhovou chybu, zatímco neuklizené TODO (váha 1) je kosmetické. Upřednostněte
+   oblasti s vysokou váhou.
 
-2. **Use CASCADE patterns for bulk elimination**. When facing multiple violations of the same type, do not fix them individually. Apply the appropriate CASCADE pattern to eliminate the entire category at once.
+## Časté chyby
 
-3. **Run the nuclear cache fix when phantom QDP appears**. If the QDP scanner reports violations that do not correspond to visible code issues, corrupted build artifacts are likely the cause.
+- **Zaměňovat QDP s technickým dluhem**: technický dluh je subjektivní hodnocení kvality návrhu.
+  QDP je objektivní, měřený počet konkrétních, kodifikovaných porušení. Překrývají se, ale
+  nejsou totožné.
+- **Přehlížet automaticky opravitelná porušení**: mnoho QDP lze odstranit automaticky vzory
+  CASCADE. Ruční opravy porušení, pro která existuje automatizované řešení, plýtvají časem
+  vývojářů.
+- **Vypínat pre-commit hooky kvůli obejití kontrol QDP**: platforma výslovně zakazuje přepínač
+  `--no-verify` (viz [Session Discipline](@/glossary/session-discipline.md)). Obcházení
+  prevence QDP vytváří falešný dojem pokroku a zhoršuje kvalitu.
+- **Brát nulové QDP jako konečný cíl**: nulové QDP znamená, že platforma splňuje *současné*
+  standardy kvality. Standardy se mají v čase vyvíjet – přidávat nové oblasti a zpřísňovat prahy,
+  jak platforma dozrává.
+- **Hromadné opravy QDP ve velkých commitech**: každá oprava QDP má být atomickým commitem kvůli
+  dohledatelnosti. Sloučení 50 oprav do jednoho commitu znehodnotí `git blame` pro pochopení,
+  proč byly konkrétní změny provedeny.
 
-4. **Monitor QDP trends in Quality DNA**. Even at zero QDP, track the scan frequency and domain health over time. Sudden spikes in scan duration or domain-specific warnings can indicate emerging issues before they manifest as QDP.
+## Dluh kvality a doktrína platformy
 
-5. **Weight violations correctly**. Not all QDP are equal. A Dialyzer violation (weight 3) indicates a potential runtime error, while a missing TODO cleanup (weight 1) is cosmetic. Prioritize high-weight domains.
+Odstraňování dluhu kvality je praktickým výrazem doktríny [NO MERCY, NO
+DOUBTS](@/glossary/no-mercy-no-doubts.md): nic se neodkládá „na později“. Navazují na něj
+[politika nulových varování](@/glossary/zero-warning-policy.md), požadavek [čistého
+běhu](@/glossary/clean-run.md) a povinné [regresní testy](@/glossary/regression-test.md),
+které brání návratu jednou opravených vad. Automatickou nápravu zajišťují
+[AutoHeal](@/glossary/autoheal.md) a [AutoEvolve](@/glossary/autoevolve.md).
 
-## Common Pitfalls
+## Související
 
-- **Confusing QDP with technical debt**: Technical debt is a subjective assessment of design quality. QDP is an objective, measured count of specific, codified violations. They overlap but are not synonymous.
+**Pojmy platformy v tomto glosáři**
 
-- **Ignoring auto-fixable violations**: Many QDP can be eliminated automatically through CASCADE patterns. Manually fixing violations that have automated solutions wastes developer time.
+- [QDP](@/glossary/qdp.md) – metrika a metodika skórování podrobně.
+- [Zero Warning Policy](@/glossary/zero-warning-policy.md) – standard kompilace, který brání
+  QDP typu varování.
+- [Clean Run](@/glossary/clean-run.md) – stav bez varování a šumu.
+- [Regression Test](@/glossary/regression-test.md) – prevence návratu opravených vad.
+- [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) – doktrína, z níž nulová tolerance
+  k dluhu vychází.
 
-- **Disabling pre-commit hooks to bypass QDP checks**: The platform explicitly forbids `--no-verify` flags. Bypassing QDP prevention creates a false sense of progress while degrading quality.
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- **Treating zero QDP as the end goal**: Zero QDP means the platform meets current quality standards. Standards should evolve over time, adding new domains and tightening thresholds as the platform matures.
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/),
+  [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/),
+  [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/),
+  [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) –
+  pipeline prevence, autonomní monitorování, historie QDP a hromadné opravné vzory.
+- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/),
+  [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/),
+  [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) –
+  nástroje detekce a první bod vynucení.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Příkazy](https://prismatic-reality-com.github.io/prismatic-promo/commands/) – přehledy platformy.
 
-- **Batch-fixing QDP in large commits**: Each QDP fix should be an atomic commit for traceability. Batching 50 fixes into one commit makes git blame useless for understanding why specific changes were made.
+**Kniha**
 
-## Related Concepts
-
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Pipeline preventing new QDP introduction
-- [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) -- Autonomous monitoring for QDP regression
-- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) -- Historical QDP tracking across sessions
-- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) -- Bulk fix patterns used for mass QDP elimination
-- [Zero Warning Policy](@/glossary/zero-warning-policy.md) -- Compilation standard preventing warning-type QDP
-- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) -- Static analysis tool detecting code style QDP
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) -- Type checking tool detecting type-related QDP
-- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) -- First enforcement point blocking QDP introduction
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Quality-related command catalog
+- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – co
+  kniha z platformy přebírá.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

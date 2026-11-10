@@ -1,13 +1,13 @@
 +++
-title = "Transformative Experience"
+title = "Transformative experience (transformativní zkušenost)"
 weight = 5
-description = "L.A. Paul's epistemic-decision-theory concept describing experiences that simultaneously deliver new knowledge unavailable in advance and reshape the values, preferences, and identity of the person who undergoes them, generating distinctive challenges for rational choice"
+description = "Pojem L. A. Paulové: zkušenost, která přináší předem nedostupné poznání a zároveň mění hodnoty a identitu člověka; výzva pro informovaný souhlas a pro obranu před manipulací."
 
 [taxonomies]
-tags = ["epistemic", "philosophy", "ethics", "research", "decision-theory"]
+tags = ["glossary", "philosophy", "ethics", "identity", "kompendium"]
 
 [extra]
-category = "epistemic"
+category = "philosophy"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -22,42 +22,137 @@ keywords = ["transformative experience", "L.A. Paul", "epistemic transformation"
 key_takeaway = "A transformative experience is one whose subjective character cannot be known in advance and whose impact on the person's values is so deep that pre-experience preferences are not a reliable guide. This breaks classical decision theory and creates genuine challenges for informed consent in research, medicine, and life decisions."
 see_also = ["informed-consent", "irb-review", "individual-risk-map"]
 image = "/images/sections/glossary.png"
-image_alt = "Transformative Experience - Prismatic Platform"
+image_alt = "Transformative experience (transformativní zkušenost) – glosář"
 +++
 
-## Definition
+## Definice
 
-A transformative experience, in the sense developed by philosopher L.A. Paul, is an experience that is *epistemically transformative* (delivers knowledge — particularly first-person phenomenal knowledge — that cannot be obtained any other way) and *personally transformative* (changes the experiencer's core preferences, values, and identity in ways the prior self could not have endorsed in advance). Canonical examples include becoming a parent, undergoing combat, near-death experiences, religious conversion, certain immersive cultural relocations, and some psychedelic or psychiatric interventions. The concept poses a genuine puzzle for rational-choice frameworks that assume preferences are stable and outcomes are evaluable in advance.
+**Transformativní zkušenost** (*transformative experience*) je v pojetí filosofky L. A. Paulové
+zkušenost, která je zároveň **epistemicky transformativní** – přináší poznání, zejména
+fenomenální poznání z první osoby („jaké to je“), které nelze získat jinak –, a **osobně
+transformativní** – mění základní preference, hodnoty a identitu toho, kdo ji prožívá, a to
+způsobem, který by dřívější já nemohlo předem schválit. Kanonickými příklady jsou rodičovství,
+zkušenost boje, prožitky blízké smrti, náboženská konverze, některá hluboká kulturní přesídlení
+a některé psychedelické nebo psychiatrické intervence.
 
-## Manažerské shrnutí
+Pojem představuje skutečnou hádanku pro rámce racionální volby, které předpokládají stabilní
+preference a možnost výsledky předem ohodnotit: *před zkušeností* nelze vědět, jaké to bude,
+a *po zkušenosti* rozhoduje člověk s jinými hodnotami než předtím.
 
-Koncept transformativní zkušenosti (L.A. Paul) popisuje rozhodnutí, kde *před zkušeností* nelze vědět, jaké to bude, a kde *po zkušenosti* už člověk rozhoduje s jinými hodnotami než předtím. To láme klasický model racionální volby a má praktické dopady na informovaný souhlas v medicíně, na etické posouzení klinických studií (zejména s psychedeliky, neuromodulací, gender-affirmation procedurami), a na DD posuzování zásadních životních rozhodnutí cílových osob (rezignace ze CEO pozice, přijetí role ve startupu, vstup do duchovní komunity). V Prismatic Platform je koncept relevantní zejména pro hodnocení rozhodovací kapacity v individual risk mapping a pro design výzkumných protokolů, kde je participantovi nabízena potenciálně transformativní intervence.
+## Původ a kontext pojmu
 
-## Forensic/Legal Context
+L. A. Paulová pojem rozpracovala v knize *Transformative Experience* (Oxford University Press,
+2014) a v článku „What You Can't Expect When You're Expecting“ (*Res Philosophica*, 2015).
+Navazuje na debatu o fenomenálním poznání (argument „Maryina pokoje“ Franka Jacksona) a na
+teorii rozhodování. Bioetika pojem rychle převzala pro otázky souhlasu s intervencemi, které
+mění osobnost (např. Jonathan Pugh, *Autonomy, Rationality, and Contemporary Bioethics*, 2020).
+V knize souvisí s tématem [mystického prožitku](@/glossary/mysticky-prozitek.md), [ego
+death](@/glossary/ego-death.md) a [sektářské konverze](@/glossary/sektarska-konverze.md).
 
-The transformative-experience framework has substantial implications for the legal and ethical doctrine of informed consent. Standard consent requires that the patient or research subject understand the risks and benefits of the intervention. But for transformative interventions — deep brain stimulation, psilocybin therapy, gender-affirming surgery, certain experimental gene therapies — the most significant outcome (a changed sense of self) is precisely the kind of outcome that cannot be fully grasped in advance by the pre-intervention self. Bioethics and IRB literature now grapple with whether traditional consent frameworks suffice or whether dynamic, staged, or relational consent models are required. Czech and EU clinical-trial regulation (EU 536/2014) imposes parallel requirements without yet fully addressing this philosophical challenge.
+## Jak se projevuje
 
-## Practical Application
+- člověk po zkušenosti mluví o „předchozím životě“ a hodnotí ho jinými měřítky;
+- dřívější dohody a závazky mu připadají nesrozumitelné nebo cizí;
+- vzniká nesoulad mezi minulými a současnými výroky, který není lží;
+- okolí reaguje nepochopením („to není on/ona“);
+- při zpětném pohledu člověk nedokáže říct, zda by se rozhodl stejně, kdyby věděl, co ho čeká.
 
-In research design and IRB review, transformative interventions warrant heightened scrutiny: longer reflection periods, independent advocates, staged consent (initial agreement to begin, with re-consent at each milestone), and explicit acknowledgment in the consent document that the intervention may change the participant's evaluation of the intervention itself. In due-diligence assessment of key personnel, the framework explains why post-acquisition leadership transitions often fail despite seemingly clear contractual commitments — the founder who sells does not yet know what it will feel like to be an employee, and the post-sale self may rationally repudiate the pre-sale agreement. In OSINT analysis of subjects undergoing radicalization, conversion, or recovery, the transformative-experience lens prevents over-interpretation of inconsistencies between past and present statements.
+## Mechanismus
 
-## Related Concepts
+Pro Kompendium má pojem dvě strany. Zaprvé pojmenovává **legitimní** proměnu člověka, kterou
+nelze předem plně pochopit – a proto ji nelze ani zakazovat, ani bagatelizovat. Zadruhé
+vysvětluje, proč jsou skupiny a jednotlivci, kteří nabízejí „transformaci“, strukturně
+v silné pozici: slib zkušenosti, kterou zvenčí nelze posoudit („pochopíš, až to zažiješ“),
+znemožňuje informované rozhodnutí předem, a změněné hodnoty po zkušenosti mohou zpětně
+ospravedlnit cokoli, co k ní vedlo. Tento vzorec se objevuje v kazuistikách sekulárních kultů
+a seberozvojových programů (viz [Exit ze sekulárního
+kultu](@/kompendium/case-studies/27-secular-cult-exit.md) a [Self-help
+cult](@/kompendium/case-studies/14-self-help-cult.md)). Popis slouží k rozpoznání: pozor na
+nabídky, které odmítají vysvětlit, co se bude dít, a označují dotazy za „odpor“.
 
-- [Epistemic Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-reasoning/) - Broader framework for knowledge-based decision making
-- [Epistemická pokora](@/glossary/epistemicka-pokora.md) - Disposition appropriate to transformative-experience uncertainty
-- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) - Framework that transformative experience challenges
-- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) - Structure that transformative experiences reorganize
-- [Informed Consent](@/glossary/informed-consent.md) - Doctrine most directly affected
-- [IRB Review](@/glossary/irb-review.md) - Governance mechanism for transformative-research consent
-- [Individual Risk Map](@/glossary/individual-risk-map.md) - Tool for personalizing transformative-risk assessment
+## Odlišení
 
-## References
+- **Od běžné změny názoru** – změna názoru se dá vysvětlit argumenty dostupnými předem;
+  transformativní zkušenost ne.
+- **Od [identitní destrukce](@/glossary/identity-destruction.md)** – transformace zachovává
+  autorství a spojení s dřívějším já; destrukce ho přetrhává a nahrazuje příběhem dodaným
+  zvenčí.
+- **Od [spiritual bypassing](@/glossary/spiritual-bypassing.md)** – tam se duchovní rámec
+  používá k obcházení bolestných témat, nejde o skutečnou proměnu.
+- **Od patologické změny osobnosti** – změny po neurologickém onemocnění nebo v psychóze
+  vyžadují klinické vyšetření.
 
-- Paul, L.A. *Transformative Experience* (Oxford University Press, 2014)
-- Paul, L.A. (2015). *What you can't expect when you're expecting.* Res Philosophica, 92(2)
-- Pugh, J. *Autonomy, Rationality, and Contemporary Bioethics* (Oxford University Press, 2020)
-- Carel, H. & Kidd, I.J. *Epistemic Injustice in Healthcare: A Philosophical Analysis* (Medicine, Health Care and Philosophy, 2014)
+## Význam pro Kompendium
 
----
+Rámec transformativní zkušenosti má podstatné důsledky pro právní a etickou doktrínu
+[informovaného souhlasu](@/glossary/informed-consent.md). Standardní souhlas vyžaduje, aby pacient
+nebo účastník výzkumu rozuměl rizikům a přínosům intervence. U transformativních intervencí –
+hluboké mozkové stimulace, terapie psilocybinem, afirmačních chirurgických zákroků, některých
+experimentálních genových terapií – je však nejvýznamnější výsledek (změněné vnímání sebe) přesně
+tím druhem výsledku, který dřívější já nemůže předem plně uchopit. Bioetická literatura
+a literatura o etických komisích ([IRB Review](@/glossary/irb-review.md)) řeší, zda tradiční rámce
+souhlasu stačí, nebo zda jsou nutné dynamické, postupné či vztahové modely souhlasu. Evropská
+regulace klinických hodnocení (nařízení EU č. 536/2014) a česká právní úprava (zákon
+č. 372/2011 Sb., o zdravotních službách) kladou na souhlas obdobné požadavky, aniž by se s touto
+filosofickou výzvou plně vypořádávaly.
 
-*Built with precision. Optimized for AI consumption.*
+V kontextu Prismatic Platform je pojem relevantní pro posouzení rozhodovací kapacity v rámci
+[individuální mapy rizik](@/glossary/individual-risk-map.md) a pro návrh výzkumných protokolů,
+v nichž se účastníkovi nabízí potenciálně transformativní intervence. Praktické aplikace:
+
+- **v návrhu výzkumu a přezkumu etickou komisí** vyžadují transformativní intervence zvýšenou
+  pozornost: delší dobu na rozmyšlenou, nezávislé zastánce, postupný souhlas (úvodní souhlas
+  se zahájením a nový souhlas v každém milníku) a výslovné upozornění v dokumentu o souhlasu, že
+  intervence může změnit, jak účastník intervenci samotnou hodnotí;
+- **v [due diligence](@/glossary/due-diligence.md) u klíčových osob** rámec vysvětluje, proč přechody vedení po akvizici často
+  selhávají navzdory zdánlivě jasným smluvním závazkům – zakladatel, který firmu prodává, ještě
+  neví, jaké to bude být zaměstnancem, a já po prodeji může dohodu z doby před prodejem
+  racionálně odmítnout;
+- **při analýze z otevřených zdrojů** u osob procházejících radikalizací, konverzí nebo
+  zotavením brání perspektiva transformativní zkušenosti přehnanému výkladu nesouladu mezi
+  minulými a současnými výroky (srov. [narativní identita](@/glossary/narativni-identita.md)).
+
+## Obrana a zotavení
+
+- **Před rozhodnutím**: hledat svědectví lidí, kteří zkušenost prošli, včetně těch, kteří
+  litují; ptát se, co se stane, když se rozhodnu odejít; nedůvěřovat nabídkám, které odmítají
+  vysvětlit postup; ponechat si vztahy a zdroje mimo skupinu, která transformaci nabízí.
+- **Po zkušenosti**: dát si čas, než nové hodnoty promítnete do nevratných rozhodnutí;
+  pracovat s kontinuitou příběhu (co z dřívějšího já zůstává).
+- **Pro profesionála**: respektovat legitimní proměnu klienta a zároveň mapovat, zda nebyla
+  vyvolána nebo zneužita manipulací; u výzkumu uplatnit postupný souhlas (viz [Otázka validity
+  souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)).
+
+## Literatura
+
+- L. A. Paul: *Transformative Experience* (Oxford University Press, 2014).
+- L. A. Paul: „What You Can't Expect When You're Expecting“, *Res Philosophica* 92 (2), 2015.
+- Jonathan Pugh: *Autonomy, Rationality, and Contemporary Bioethics* (Oxford University Press,
+  2020).
+- Havi Carel, Ian James Kidd: „Epistemic injustice in healthcare: a philosophical analysis“,
+  *Medicine, Health Care and Philosophy* (2014).
+
+## Související
+
+**Pojmy v tomto glosáři**
+
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj přiměřený nejistotě
+  transformativní zkušenosti.
+- [Informed Consent](@/glossary/informed-consent.md) – doktrína, které se pojem dotýká nejvíce.
+- [IRB Review](@/glossary/irb-review.md) – mechanismus řízení souhlasu v transformativním výzkumu.
+- [Individual Risk Map](@/glossary/individual-risk-map.md) – nástroj pro individualizované posouzení
+  rizik.
+- [Sektářská konverze](@/glossary/sektarska-konverze.md) – konverze jako transformace a její
+  zneužití.
+
+**Hesla platformy mimo tuto knihu**
+
+- [Epistemic Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-reasoning/),
+  [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/),
+  [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) –
+  rámce rozhodování, které transformativní zkušenost zpochybňuje nebo přestavuje.
+
+**Kniha**
+
+- [Exit ze sekulárního kultu](@/kompendium/case-studies/27-secular-cult-exit.md) – zneužitý slib
+  transformace.

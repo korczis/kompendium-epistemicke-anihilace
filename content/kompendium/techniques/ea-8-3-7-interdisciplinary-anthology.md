@@ -54,7 +54,7 @@ Interdisciplinary tension — different methodologies/ontologies. Některé work
 
 ## Vztah k jiným zdrojům
 
-Doplňkový k **EA-8.3.1 Foundational Readings** a **EA-8.3.3 Philosophical Canon**. Synergie s **EA-7.x teoretickými reflexemi**.
+Doplňkový k **[EA-8.3.1](@/kompendium/techniques/ea-8-3-1-foundational-readings.md) Foundational Readings** a **[EA-8.3.3](@/kompendium/techniques/ea-8-3-3-philosophical-canon.md) Philosophical Canon**. Synergie s **EA-7.x teoretickými reflexemi**.
 
 ## Cross-linky
 

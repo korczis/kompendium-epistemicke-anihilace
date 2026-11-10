@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Pomerantsev (2019) This Is Not Propaganda. Bradshaw & Howard (2019) Global Disinformation Order. Wanless & Berk (2017) The Audience is the Amplifier. Benkler, Faris & Roberts (2018) Network Propaganda. Singer & Brooking (2018) LikeWar.
+Pomerantsev (2019) This Is Not [Propaganda](@/glossary/propaganda.md). Bradshaw & Howard (2019) Global Disinformation Order. Wanless & Berk (2017) The Audience is the Amplifier. Benkler, Faris & Roberts (2018) Network Propaganda. Singer & Brooking (2018) LikeWar.
 
 ## Klíčové komponenty
 
@@ -54,7 +54,7 @@ Rapidly evolving pole — books outdated within years. Methodologically heteroge
 
 ## Vztah k jiným zdrojům
 
-Synergický s **EA-8.3.6 Contemporary Cases** a **EA-8.2.4 Hassan Cult Criteria** (state totalism). Aktualizace pro **EA-1.x technologie**.
+Synergický s **[EA-8.3.6](@/kompendium/techniques/ea-8-3-6-contemporary-cases.md) Contemporary Cases** a **[EA-8.2.4](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) Hassan Cult Criteria** (state totalism). Aktualizace pro **EA-1.x technologie**.
 
 ## Cross-linky
 

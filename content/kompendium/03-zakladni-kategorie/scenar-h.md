@@ -1,6 +1,6 @@
 +++
 title = "3.2.H Scénář H: Destruktivní 'konstruktivní' kritika"
-description = "Detailní rozpracování Scénáře H — systematický proces podkopávání epistemické sebedůvěry jedince prostřednictvím strategií prezentovaných jako nápomocná zpětná vazba. Zákeřnost spočívá v exploitaci legitimních pedagogických norem."
+description = "Detailní rozpracování Scénáře H — systematický proces podkopávání epistemické sebedůvěry jedince prostřednictvím strategií prezentovaných jako nápomocná zpětná vazba."
 weight = 8
 insert_anchor_links = "right"
 

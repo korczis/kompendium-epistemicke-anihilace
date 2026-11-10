@@ -29,7 +29,7 @@ Taxonomie epistemické a kognitivní anihilace byla vytvořena v souladu s něko
 
 Každá taxonomická jednotka (technika) musí být **strukturálně distinktivní** — od ostatních se liší **identifikovatelnými strukturálními znaky**, nejen povrchovou prezentací.
 
-> **Příklad**: *Falešné dilema* (EA-1.2.1) a *falešná ekvivalence* (EA-1.2.2) jsou strukturálně distinktivní:
+> **Příklad**: *Falešné dilema* ([EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)) a *falešná ekvivalence* ([EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)) jsou strukturálně distinktivní:
 > - Falešné dilema vyžaduje **artificiální polarizaci** (binární redukce kontinua)
 > - Falešná ekvivalence vyžaduje **artificiální symetrii** (vyrovnání asymetrických entit)
 >
@@ -39,11 +39,11 @@ Každá taxonomická jednotka (technika) musí být **strukturálně distinktivn
 
 Taxonomie musí být **kompozičně úplná** — komplexní techniky lze popsat jako kombinaci základních jednotek; obráceně, ze základních jednotek lze rekonstruovat komplexní techniky.
 
-> **Příklad**: *Vzorec „Guru a adept“* (EA-1.6.1) je kompozicí:
-> - EA-1.5.2 (dominantní tělesné hieroglyfy)
-> - EA-1.4.1 (prosodická dominance)
-> - EA-1.3.3 (tematická diverze při kritice)
-> - EA-1.1.1 (selektivní expozice)
+> **Příklad**: *Vzorec „Guru a adept“* ([EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)) je kompozicí:
+> - [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) (dominantní tělesné hieroglyfy)
+> - [EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) (prosodická dominance)
+> - [EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) (tematická diverze při kritice)
+> - [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) (selektivní expozice)
 > - + temporální dynamika (kultivace závislosti)
 
 ### Princip operační specifikace
@@ -210,7 +210,7 @@ Konstrukce taxonomie epistemické a kognitivní anihilace představovala několi
 
 - **Retrospektivní case studies** — analýza dokumentovaných historických případů
 - **Naturalistická observace** — klinické případy bez experimentální indukce
-- **Strukturální analýza** dokumentovaných systémů (totalitní propaganda, sektářské skupiny)
+- **Strukturální analýza** dokumentovaných systémů (totalitní [propaganda](@/glossary/propaganda.md), sektářské skupiny)
 - **Computer simulation** — modelování dynamiky bez lidských subjektů
 - **Etnografická metoda** — rozhovory s ex-členy manipulativních skupin
 
@@ -334,7 +334,7 @@ Kde:
 - **Z** — numerický identifikátor specifického fenoménu v rámci subkategorie
 - **α** — alfabetický sufix indikující variantu fenoménu (pokud existuje)
 
-Například: **EA-3.2.4-β** označuje beta variantu čtvrtého fenoménu druhé subkategorie ve třetí hlavní kategorii epistemické anihilace.
+Například: **[EA-3.2.4](@/kompendium/techniques/ea-3-2-4-metacommunication-skill.md)-β** označuje beta variantu čtvrtého fenoménu druhé subkategorie ve třetí hlavní kategorii epistemické anihilace.
 
 Notace je navržena s pěti vlastnostmi:
 
@@ -473,7 +473,7 @@ Aktuální verze: **v0.1.0** (počáteční publikace, taxonomie v aktivní expa
 
 ## Vztah k Prismatic Decision Engine
 
-Metodologické principy popsané v této kapitole slouží jako vstupní specifikace pro algoritmickou implementaci v rámci Prismatic Decision Engine. Notační systém `EA-X.Y.Z-α` je strojově parsovatelný a umožňuje:
+Metodologické principy popsané v této kapitole slouží jako vstupní specifikace pro algoritmickou implementaci v rámci Prismatic [Decision Engine](@/glossary/decision-engine.md). Notační systém `EA-X.Y.Z-α` je strojově parsovatelný a umožňuje:
 
 - **Automatizovanou klasifikaci** vstupních fenoménů
 - **Strukturní porovnání** případů napříč klasifikačním stromem

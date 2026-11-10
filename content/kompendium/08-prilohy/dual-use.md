@@ -24,9 +24,9 @@ quality_score = 80
 Záznam **Dual Use** se vztahuje k širším etickým a metodologickým otázkám manipulace EA-technikami v platformě Prismatic. Specifické vodítko zahrnuje:
 
 - **Dual-use problematika** — některé techniky lze použít defensivně i ofenzivně
-- **Konsent a klinická transparence** — informovaný souhlas v terapeutických kontextech
+- **Konsent a klinická transparence** — [informovaný souhlas](@/glossary/informed-consent.md) v terapeutických kontextech
 - **Reportingové standardy** — GDPR, klient-terapeut privilegium, multidisciplinární komunikace
-- **Vědecká metodologie** — falsifikovatelnost, peer review, replikovatelnost
+- **Vědecká metodologie** — [falsifikovatelnost](@/glossary/falsifikovatelnost.md), peer review, replikovatelnost
 
 ## Cross-reference
 

@@ -2,60 +2,96 @@
 title = "Falsifikace"
 weight = 60
 
-description = "Popperovský princip vědecké demarkace — teorie je vědecky smysluplná, jen pokud připouští okolnosti, které by ji vyvrátily; útočná plocha pro EA-1.3.1 imunizaci proti falsifikaci."
+description = "Popperovo demarkační kritérium: teorie je vědecky obsažná, jen když předem říká, co by ji vyvrátilo. Útočná plocha techniky EA-1.3.1 imunizace proti falzifikaci."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "philosophy", "science"]
+tags = ["glossary", "epistemic", "philosophy", "science", "kompendium"]
 
 [extra]
 category = "epistemic"
 related_terms = ["lakatos-vyzkumny-program", "epistemicka-anihilace", "taxonomie-ea", "konfirmacni-bias", "hermeneutika", "fenomenologie"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
-word_count = 660
+word_count = 823
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["falsifikace", "falsifiability", "Popper", "demarkace", "kompendium", "filosofie vědy"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Falsifikace - glossary"
+image_alt = "Falsifikace – glosář"
 +++
 
-## Definition
+## Definice
 
-**Falsifikace** (*falsifiability*, *falsifikovatelnost*) is the criterion of scientific demarcation introduced by Karl Popper in *Logik der Forschung* (1934) and developed in *The Logic of Scientific Discovery*: a theory is scientifically meaningful only if it specifies, in advance, what observations would refute it. A claim that cannot be wrong about anything is not strongly true — it is **content-empty**. Popper's asymmetry follows from elementary logic: no finite number of confirming observations can deductively establish a universal claim, but a single genuine counter-instance can refute it. Science therefore advances by **conjecture and refutation**, not by accumulation of confirmations.
+**Falsifikace** (*falsification*; související vlastnost teorie se nazývá [falsifikovatelnost](@/glossary/falsifikovatelnost.md), *falsifiability*) je kritérium vědecké demarkace, které zavedl Karl Popper v *Logik der Forschung* (1934) a rozvinul v *The Logic of Scientific Discovery*: teorie je vědecky smysluplná jen tehdy, když **předem určuje, jaká pozorování by ji vyvrátila**. Tvrzení, které se nemůže v ničem mýlit, není silně pravdivé – je **obsahově prázdné**.
 
-Within the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md), falsifiability is treated as a **core structural defense** against confirmation-bias-driven manipulation, and its absence as a diagnostic marker. The kompendium technique most directly attacking this defense is **EA-1.3.1 (immunization against falsification)** — documented at [/kompendium/techniques/ea-1-3-1-immunization-against-falsification/](@/kompendium/techniques/ea-1-3-1-immunization-against-falsification.md). EA-1.3.1 installs cognitive moves that make the target's belief system unfalsifiable in practice: counter-evidence is automatically reframed as further confirmation ("they're hiding it because it's true"), absent evidence becomes confirming ("of course you can't find proof, that's how powerful they are"), and any disconfirming source is delegitimized in advance.
+Popperova asymetrie plyne z elementární logiky: žádný konečný počet potvrzujících pozorování nemůže deduktivně dokázat univerzální tvrzení, ale jediný skutečný protipříklad je může vyvrátit. Věda proto postupuje **domněnkami a vyvráceními**, ne hromaděním potvrzení.
 
-The diagnostic principle is **identity-preservation under counter-evidence**: a belief system that returns to identical structure regardless of input is operating non-epistemically. This is independent of whether the underlying claims are true — even true claims, when held in unfalsifiable form, indicate a corrupted epistemic process.
+V [Kompendiu epistemické a kognitivní anihilace](@/kompendium/_index.md) se falsifikace chápe jako **základní strukturní obrana** proti manipulaci poháněné [konfirmačním biasem](@/glossary/konfirmacni-bias.md) a její absence jako diagnostický znak.
 
-## Context
+## Původ a kontext pojmu
 
-Within the Prismatic Platform, falsifiability is operationalized as a **mandatory decision-engine input**:
+Popper formuloval kritérium v polemice s logickým pozitivismem Vídeňského kroužku, který hledal kritérium smysluplnosti v ověřitelnosti. Zároveň mířil na teorie, které považoval za pseudovědecké, protože dokázaly vysvětlit jakýkoli výsledek. Pozdější filozofie vědy kritérium zjemnila: [Lakatos](@/glossary/lakatos-vyzkumny-program.md) je přenesl z jednotlivých hypotéz na výzkumné programy, Kuhn ukázal, jak vědecká praxe pracuje s anomáliemi uvnitř paradigmatu ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)). Kompendium vykládá Poppera v [EA-7.2.3 Popper: falzifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) a v kapitole [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
 
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} requires every high-confidence claim to be paired with an explicit **falsification clause** — the observation or evidence that would lower confidence. A belief without a falsification clause is automatically downgraded in calibration scoring, regardless of how many supporting sources exist.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) tracks **prediction registration**: confidence claims must be made before outcomes are observed, not after. Post-hoc rationalization is structurally prevented because the prediction record is immutable.
-- The [Color Teams](@/glossary/color-teams.md) Red Team builds scenarios designed specifically to test whether platform reasoning can be **immunized** against counter-evidence — verifying that the falsification-clause requirement is not merely cosmetic.
-- The contrast with [Lakatos' research programmes](@/glossary/lakatos-vyzkumny-program.md) is operational: legitimate auxiliary-hypothesis introduction *increases* the empirical content of the program (progressive shift); EA-1.3.1 immunization *decreases* it (degenerative shift). The Decision Engine tracks this distinction by content-delta scoring.
+## Jak se projevuje
 
-Falsifiability has well-known limits. Quine-Duhem holism shows that no single hypothesis is tested in isolation; what is refuted is always the conjunction of hypothesis plus auxiliary assumptions. The kompendium therefore distinguishes **principled auxiliary refinement** (legitimate, content-increasing) from **ad-hoc rescue** (illegitimate, content-decreasing). Both look like "saving the theory" from the inside; only one is epistemically defensible. See [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) for the full distinction. Czech-language treatment: [/kompendium/04-mechanismy/falsifikovatelnost/](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
+Ztrátu falzifikační dispozice lze pozorovat v řeči i v jednání:
 
-## See Also
+- **protidůkaz se automaticky přerámuje jako další potvrzení** („tají to, protože je to pravda“);
+- **chybějící důkaz se stává potvrzujícím** („samozřejmě že důkaz nenajdeš, tak mocní jsou“);
+- **každý vyvracející zdroj je předem delegitimizován** („to říkají jen ti, kdo jsou součástí systému“);
+- na otázku „co by tě přesvědčilo o opaku?“ člověk nedokáže odpovědět, nebo odpověď označí za útok;
+- lingvistická signatura [nevyvratitelných tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md).
 
-- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) — Distinguishes legitimate auxiliary moves from degenerative rescue
-- [Konfirmační bias](@/glossary/konfirmacni-bias.md) — Bias that falsifiability counters
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat model
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Specifically EA-1.3.1 immunization
-- [Hermeneutika](@/glossary/hermeneutika.md) — Legitimate alternative interpretation framework
-- [Fenomenologie](@/glossary/fenomenologie.md) — First-person methodological complement
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+## Mechanismus
 
----
+Technika Kompendia, která na tuto obranu útočí nejpříměji, je **EA-1.3.1 imunizace proti falzifikaci**, popsaná v [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) (anglická verze: [Immunization against falsification](@/kompendium/techniques/ea-1-3-1-immunization-against-falsification.md)). EA-1.3.1 vštěpuje myšlenkové kroky, které činí soustavu přesvědčení v praxi nefalzifikovatelnou – právě tři vzorce uvedené výše.
 
-## Connect & Contribute
+Diagnostickým principem je **zachování identity tváří v tvář protidůkazu**: soustava přesvědčení, která se bez ohledu na vstup vrací do stejné struktury, nefunguje epistemicky. To platí nezávisle na tom, zda jsou výchozí tvrzení pravdivá – i pravdivá tvrzení, zastávaná v nefalzifikovatelné podobě, ukazují na narušený [epistemický proces](@/glossary/epistemic-pipeline.md).
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Falsifikace má známé meze. Quineův-Duhemův [holismus](@/glossary/holismus.md) ukazuje, že žádná hypotéza se netestuje izolovaně: vyvrácena je vždy konjunkce hypotézy a pomocných předpokladů ([Quine: síť přesvědčení](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md)). Kompendium proto rozlišuje **principiální zpřesnění pomocných hypotéz** (legitimní, obsah zvyšující) od **ad hoc záchrany** (nelegitimní, obsah snižující). Zevnitř vypadají obě jako „záchrana teorie“; epistemicky obhajitelná je jen jedna. Úplné rozlišení podává [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md).
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+## Odlišení
+
+- **Od skepticismu:** falsifikace neznamená pochybovat o všem, ale říct, za jakých podmínek bych změnil názor.
+- **Od [pseudovědy](@/glossary/pseudoscience.md):** nefalzifikovatelnost je jedním z jejích znaků, ne jediným.
+- **Od zdravé vytrvalosti:** držet se teorie navzdory jednotlivé anomálii může být rozumné; nerozumné je, když teorie *nemůže* narazit na žádnou anomálii.
+- **Od klinických stavů:** bludné přesvědčení je rovněž odolné vůči protidůkazu, ale vzniká jinak; [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) zkoumá, zda imunizace vznikla v sociálním prostředí, které ji pěstovalo.
+
+## Význam pro Kompendium
+
+Na platformě Prismatic, z níž kniha vzešla, je falsifikace převedena do **povinného vstupu rozhodovacího jádra**:
+
+- [Decision Engine](@/glossary/decision-engine.md) vyžaduje, aby každé tvrzení s vysokou jistotou bylo spárováno s výslovnou **falzifikační klauzulí** – pozorováním nebo důkazem, který by jistotu snížil. Přesvědčení bez falzifikační klauzule se v kalibračním hodnocení automaticky snižuje, bez ohledu na počet podpůrných zdrojů.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) sleduje **registraci predikcí**: tvrzení o jistotě musí být učiněna před pozorováním výsledku, ne po něm. Racionalizace ex post je strukturně vyloučena, protože záznam predikce je neměnný.
+- [Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) staví scénáře, které ověřují, zda lze usuzování platformy **imunizovat** proti protidůkazu – tedy zda požadavek falzifikační klauzule není jen kosmetický.
+- Kontrast s [Lakatosovými výzkumnými programy](@/glossary/lakatos-vyzkumny-program.md) je provozní: legitimní zavedení pomocné hypotézy empirický obsah programu *zvyšuje* (progresivní posun); imunizace EA-1.3.1 jej *snižuje* (degenerativní posun). Decision Engine toto rozlišení sleduje hodnocením změny obsahu.
+
+## Obrana a zotavení
+
+Obranou je **falzifikační myšlení** jako návyk: u každého důležitého přesvědčení si zapsat, co by je oslabilo, a pravidelně to zkoumat. Postup popisuje [falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md), výuku [návrh falzifikace](@/kompendium/educational-scenarios/6-falsification-design.md). V terapii s lidmi po odchodu z uzavřených skupin se nezačíná vyvracením obsahu, ale obnovou schopnosti klást otázku „podle čeho bych poznal, že se mýlím?“ – nejdřív u neutrálních témat, teprve potom u přesvědčení skupiny.
+
+## Literatura
+
+- Karl R. Popper: *Logik der Forschung* (1934); angl. *The Logic of Scientific Discovery* (1959).
+- Karl R. Popper: *Conjectures and Refutations* (1963).
+- Imre Lakatos, Alan Musgrave (eds.): *Criticism and the Growth of Knowledge* (1970).
+
+## Související
+
+**Pojmy**
+
+- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – vlastnost teorie, kterou falsifikace prověřuje.
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – rozlišuje legitimní pomocné kroky od degenerativní záchrany.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – zkreslení, proti němuž falsifikace působí.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený model hrozby.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – zejména EA-1.3.1 imunizace.
+- [Hermeneutika](@/glossary/hermeneutika.md) – legitimní alternativní výkladový rámec.
+- [Fenomenologie](@/glossary/fenomenologie.md) – metodický doplněk z první osoby.
+
+**Kniha**
+
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – technika, která falsifikaci vyřazuje.
+- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) – kapitola základních kategorií.
+- [Kompendium](@/kompendium/_index.md) – úplná taxonomie.

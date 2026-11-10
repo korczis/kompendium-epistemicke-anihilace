@@ -1,6 +1,6 @@
 +++
 title = "Kontrolovaná rekonstituce — etický rekonstrukční protokol"
-description = "Detailní analýza šestifázového rekonstrukčního protokolu, který odlišuje legitimní extrémní výcvik od destruktivního terminálního protokolu. Mechanismy obnovy autobiografické kontinuity, role-setu, pojmového aparátu a metakognitivního monitoringu; klinické indikátory úspěšné reintegrace, role dlouhodobého follow-up."
+description = "Detailní analýza šestifázového rekonstrukčního protokolu, který odlišuje legitimní extrémní výcvik od destruktivního terminálního protokolu."
 weight = 7
 insert_anchor_links = "right"
 
@@ -120,7 +120,7 @@ R6 je analyticky klíčová z hlediska **fiduciární odpovědnosti instituce**.
 |--------|-------------------|
 | Somatická | Návrat baseline parametrů; absence chronické únavy a somatizace |
 | Afektivní | Plný emocionální rozsah, schopnost rezonance se zkušeností |
-| Kognitivní | Pracovní paměť, exekutiva a metakognice na úrovni baseline+ |
+| Kognitivní | Pracovní paměť, exekutiva a [metakognice](@/glossary/metakognice.md) na úrovni baseline+ |
 | Autobiografická | Koherentní narativ s expozicí integrovanou (ne fragmentem) |
 | Pojmová | Funkční pojmový aparát, schopnost reflektovat změny |
 | Sociální | Funkční role-set, znovuobnovené významné vazby |

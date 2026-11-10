@@ -63,7 +63,7 @@ Klíčové koncepty: **klinická novost**, **reflexe týmové dynamiky**, **refl
 
 ## 7. Meta-poznámka: klinika jako test teorie
 
-Klinika je **konečný test teoretických tvrzení**. Sekce 07 nemůže říkat „toto je obhájitelné", aniž by sekce 06 dodala klinickou evidenci. Bridge zdůrazňuje **bidirekcionální tok**: klinika generuje klinické pattern → patterns vyzývají teorii → revidovaná teorie vede k novým klinickým pattern. Tento cyklus je kořen NCLB Doctrine — žádné teoretické tvrzení nesmí zůstat bez klinické evidence, žádná klinická novost bez teoretické reflexe. Pre-commit hook detekuje teoretické claims bez klinické evidence a flagí je jako evidence gaps.
+Klinika je **konečný test teoretických tvrzení**. Sekce 07 nemůže říkat „toto je obhájitelné", aniž by sekce 06 dodala klinickou evidenci. Bridge zdůrazňuje **bidirekcionální tok**: klinika generuje klinické pattern → patterns vyzývají teorii → revidovaná teorie vede k novým klinickým pattern. Tento cyklus je kořen NCLB [Doctrine](@/glossary/doctrine.md) — žádné teoretické tvrzení nesmí zůstat bez klinické evidence, žádná klinická novost bez teoretické reflexe. Pre-commit hook detekuje teoretické claims bez klinické evidence a flagí je jako evidence gaps.
 
 ---
 

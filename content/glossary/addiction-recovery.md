@@ -1,17 +1,15 @@
 +++
-title = "Addiction Recovery"
+title = "Addiction Recovery (princip epistemické bdělosti)"
 weight = 50
-
-description = "The platform's epistemic discipline principle requiring constant vigilance against evidence rationalization, cherry-picking, and premature contradiction resolution, analogous to addiction recovery's perpetual vigilance against relapse."
+description = "Princip epistemické disciplíny platformy: trvalá bdělost vůči racionalizaci důkazů, vybírání třešniček a předčasnému uzavírání rozporů, po vzoru prevence relapsu u závislosti."
 
 [taxonomies]
-tags = ["epistemic", "nabla", "doctrine", "quality", "integrity"]
+tags = ["glossary", "epistemic", "nabla", "quality", "prismatic"]
 
 [extra]
 category = "epistemic"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "14 min"
 difficulty = "advanced"
 quality_score = 95
 technical_level = "advanced"
@@ -28,77 +26,126 @@ external_resources = ["Festinger - Cognitive Dissonance Theory (1957)", "Kahnema
 version_introduced = "gen-8"
 stability_level = "stable"
 testing_scenarios = ["contradiction-suppression-detection", "rationalization-pattern-recognition", "cherry-pick-guard-validation"]
-keywords = ["epistemic hygiene", "evidence integrity", "rationalization prevention", "cognitive bias defense", "contradiction vigilance"]
 related_terms = ["nabla-infinity", "contradiction-preservation", "cherry-picking", "signal-plurality", "evidence-over-opinion", "belief-graph", "confidence-scoring", "trinity-gate", "provenance-mandatory", "epistemic-robustness", "time-decay", "qeve"]
-word_count = 2550
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Addiction Recovery - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-Addiction Recovery is a foundational epistemic discipline principle within the Prismatic Platform that mandates constant, automated vigilance against the human and systemic tendency to rationalize away inconvenient evidence, suppress contradictions, and cherry-pick data to support predetermined conclusions. The term draws a deliberate and precise analogy to addiction recovery programs: just as a person in recovery must maintain perpetual awareness that the impulse to relapse never fully disappears, an epistemic system must maintain perpetual awareness that the impulse to smooth over contradictions, dismiss outlier signals, and fabricate false certainty never fully disappears. The principle is encoded as a structural constraint in the [NABLA Infinity](@/glossary/nabla-infinity.md) framework and enforced through automated detection of rationalization patterns across all belief-forming operations.
+**Addiction Recovery** (doslova *zotavení ze závislosti*) je základní princip epistemické
+disciplíny Prismatic Platform. Ukládá trvalou, automatizovanou bdělost vůči lidskému
+i systémovému sklonu odbýt nepohodlné důkazy racionalizací, potlačit rozpory a vybírat
+data tak, aby podpořila předem daný závěr. Termín vědomě a přesně přirovnává epistemickou
+hygienu k programům zotavení ze závislosti: tak jako člověk v zotavení musí trvale vědět, že
+nutkání k relapsu nikdy úplně nezmizí, musí epistemický systém trvale počítat s tím, že
+nutkání uhladit rozpory, odbýt odlehlé signály a vyrobit falešnou jistotu nikdy úplně
+nezmizí. Princip je zakódován jako strukturální omezení v rámci [NABLA
+Infinity](@/glossary/nabla-infinity.md) a vynucován automatickou detekcí vzorců
+racionalizace ve všech operacích, které utvářejí přesvědčení. V kódu platformy nese
+označení *Addiction Preservation* (`PrismaticNabla.AddictionPreservation`).
 
-## Overview
+**Vztah ke knize:** princip patří do kontextu platformy, z níž Kompendium vzešlo, ale
+přímo souvisí s jeho tématem. Vzorce racionalizace, které platforma blokuje ve svém grafu
+přesvědčení, jsou strojovou obdobou zkreslení, jež Kompendium popisuje u lidí – od
+[konfirmačního biasu](@/glossary/konfirmacni-bias.md) po [selektivní
+expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md). Lidskou podobu stejné
+bdělosti nabízí [osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md)
+a analogii s relapsem rozvádí [prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md)
+v protokolech zotavení.
 
-### Historical and Philosophical Context
+## Přehled
 
-The Addiction Recovery principle emerged from a critical observation during the Prismatic Platform's early development: epistemic systems degrade not through sudden catastrophic failures but through the gradual accumulation of small, individually reasonable compromises. A single instance of discarding a contradictory signal seems harmless. A single instance of rounding up a confidence score appears pragmatic. A single instance of treating correlated sources as independent looks like an honest mistake. But these small compromises compound. Over weeks and months, they erode the epistemic foundations of the entire system until conclusions that appear verified rest on a network of suppressed contradictions, inflated confidence, and unchallenged assumptions.
+### Historický a filozofický kontext
 
-This pattern mirrors addiction dynamics with uncomfortable precision. Addiction researchers have long recognized that relapse does not begin with the act of using a substance. It begins with a sequence of cognitive shifts: minimization ("one drink won't matter"), rationalization ("I've been doing well, I've earned this"), and selective attention ("I'll focus on the positive outcomes"). Each shift is individually small and subjectively reasonable. Collectively, they reconstruct the mental framework that enables relapse.
+Princip vznikl z kritického pozorování v raném vývoji platformy: epistemické systémy se
+nezhoršují náhlými katastrofickými selháními, ale postupným hromaděním drobných,
+jednotlivě rozumných ústupků. Jednorázové vyřazení protichůdného signálu se zdá neškodné.
+Jednorázové zaokrouhlení skóre důvěry nahoru působí pragmaticky. Jednorázové zacházení se
+souvisejícími zdroji jako s nezávislými vypadá jako poctivá chyba. Tyto drobné ústupky se
+však sčítají. Během týdnů a měsíců narušují epistemické základy celého systému, až
+závěry, které vypadají ověřeně, stojí na síti potlačených rozporů, nafouknuté důvěry
+a nezpochybněných předpokladů.
 
-The Prismatic Platform applies this insight to epistemology. Epistemic relapse -- the degradation of knowledge integrity -- follows the same pattern. It begins not with gross data fabrication but with a sequence of cognitive shortcuts: minimization ("this contradiction is probably noise"), rationalization ("we have enough supporting evidence to override this outlier"), and selective attention ("the strong signals clearly point in one direction"). Each shortcut is individually defensible. Collectively, they produce a belief system that has been shaped more by convenience than by evidence.
+Tento vzorec s nepříjemnou přesností zrcadlí dynamiku závislosti. Výzkumníci závislostí
+dlouho vědí, že relaps nezačíná užitím látky. Začíná sledem kognitivních posunů:
+zlehčováním („jedna sklenka nic neznamená“), racionalizací („vedl jsem si dobře, zasloužím
+si to“) a selektivní pozorností („soustředím se na dobré stránky“). Každý posun je
+jednotlivě malý a subjektivně rozumný. Dohromady znovu vystaví myšlenkový rámec, který
+relaps umožní.
 
-### The Core Metaphor
+Platforma tento poznatek přenáší do epistemologie. Epistemický relaps – úpadek integrity
+vědění – sleduje stejný vzorec. Nezačíná hrubým falšováním dat, ale sledem kognitivních
+zkratek: zlehčováním („tenhle rozpor je asi šum“), racionalizací („máme dost podpůrných
+důkazů, abychom tuto odlehlou hodnotu přebili“) a selektivní pozorností („silné signály
+zjevně ukazují jedním směrem“). Každá zkratka je jednotlivě obhajitelná. Dohromady vytvoří
+systém přesvědčení utvářený spíš pohodlím než důkazy. Psychologicky tomu odpovídá
+Festingerova teorie kognitivní disonance (1957) a Kahnemanův popis rychlého, intuitivního
+myšlení (2011).
 
-The Addiction Recovery metaphor is not decorative. It identifies specific structural parallels between substance addiction recovery and epistemic integrity maintenance:
+### Základní metafora
 
-| Addiction Recovery | Epistemic Integrity | Platform Enforcement |
+Metafora zotavení ze závislosti není ozdobou. Pojmenovává konkrétní strukturální paralely
+mezi zotavením ze závislosti a udržováním epistemické integrity:
+
+| Zotavení ze závislosti | Epistemická integrita | Vynucení na platformě |
 |-------------------|---------------------|---------------------|
-| **Triggers** -- External cues that activate craving | **Rationalization triggers** -- Situations that tempt evidence suppression | Automated trigger detection in belief pipeline |
-| **Vigilance** -- Constant awareness of vulnerability | **Epistemic vigilance** -- Continuous monitoring for bias patterns | Real-time NABLA axiom compliance checking |
-| **Relapse prevention** -- Structured protocols against recurrence | **Anti-pattern enforcement** -- Hard blocks on known epistemic failures | E2/E3 enforcement levels with no bypass |
-| **Sponsor/accountability** -- External validation of decisions | **[Trinity Gate](@/glossary/trinity-gate.md)** -- Multi-layer independent verification | Structural, logical, and formal consistency gates |
-| **One day at a time** -- Not permanent cure but continuous practice | **Continuous verification** -- Not one-time validation but ongoing compliance | Per-operation axiom checks, not periodic audits |
-| **Meetings/community** -- Shared vigilance structures | **[Color Teams](@/glossary/color-teams.md)** -- Adversarial-defensive team dynamics | 6-team continuous challenge and verification |
+| **Spouštěče** – vnější podněty, které aktivují bažení | **Spouštěče racionalizace** – situace, které svádějí k potlačení důkazů | automatická detekce spouštěčů v procesu přesvědčení |
+| **Bdělost** – trvalé vědomí vlastní zranitelnosti | **Epistemická bdělost** – nepřetržité sledování vzorců zkreslení | kontrola souladu s axiomy NABLA v reálném čase |
+| **Prevence relapsu** – strukturované postupy proti návratu | **Vynucení proti antivzorům** – tvrdé blokace známých epistemických selhání | úrovně vynucení E2/E3 bez možnosti obejití |
+| **Sponzor a odpovědnost** – vnější ověření rozhodnutí | **[Trinity Gate](@/glossary/trinity-gate.md)** – vícevrstvé nezávislé ověření | brány strukturální, logické a formální konzistence |
+| **Den po dni** – ne trvalé vyléčení, ale soustavná praxe | **Průběžné ověřování** – ne jednorázová validace, ale trvalý soulad | kontrola axiomů u každé operace, ne periodické audity |
+| **Setkání a komunita** – sdílené struktury bdělosti | **[Color Teams](@/glossary/color-teams.md)** – dynamika útočných a obranných týmů | nepřetržitá výzva a ověřování šesti týmy |
 
-The insight that ties these parallels together is that neither addiction recovery nor epistemic integrity can be "solved." There is no point at which the system can declare itself permanently immune to rationalization, just as there is no point at which a person in recovery can declare themselves permanently immune to relapse. The correct posture is perpetual, structured vigilance -- not paranoia, but disciplined awareness maintained through automated systems that do not suffer from the cognitive fatigue that degrades human vigilance over time.
+Paralely spojuje poznatek, že zotavení ze závislosti ani epistemickou integritu nelze
+„vyřešit“. Neexistuje bod, kdy by systém mohl prohlásit, že je vůči racionalizaci trvale
+imunní, tak jako neexistuje bod, kdy by člověk v zotavení mohl prohlásit, že je trvale
+imunní vůči relapsu. Správným postojem je trvalá, strukturovaná bdělost – ne paranoia, ale
+disciplinované vědomí udržované automatickými systémy, které netrpí kognitivní únavou,
+jež lidskou bdělost časem oslabuje.
 
-### Significance Within the Platform
+### Význam v rámci platformy
 
-Addiction Recovery is not a standalone principle but a meta-level framing that infuses the entire [NABLA Infinity](@/glossary/nabla-infinity.md) framework. Every NABLA axiom can be understood as a specific anti-relapse mechanism:
+Addiction Recovery není samostatným principem, ale rámcem na metaúrovni, který prostupuje
+celý rámec [NABLA Infinity](@/glossary/nabla-infinity.md) (viz též [NABLA
+Axioms](@/glossary/nabla-axioms.md)). Každý axiom NABLA lze chápat jako konkrétní
+mechanismus proti relapsu:
 
-- **[Signal Plurality](@/glossary/signal-plurality.md)**: Prevents the rationalization "this one source is authoritative enough"
-- **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)**: Prevents the minimization "this disagreement is probably just noise"
-- **Absence Informative**: Prevents the selective attention "if there's no evidence of a problem, there is no problem"
-- **Time Decay**: Prevents the staleness rationalization "this evidence is still good enough"
-- **Unknown Valid**: Prevents the false certainty "we need to give an answer even if we're not sure"
-- **Source Independence**: Prevents the correlation blindness "ten articles confirm this" (from the same source)
-- **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)**: Prevents the accountability evasion "everyone knows this"
+- **[Signal Plurality](@/glossary/signal-plurality.md)** (pluralita signálů) – brání
+  racionalizaci „tento jeden zdroj je dost autoritativní“;
+- **Contradiction Preservation** (zachování rozporů) – brání zlehčení „tento nesoulad je
+  asi jen šum“;
+- **Absence Informative** (nepřítomnost je informace) – brání selektivní pozornosti „když
+  není důkaz o problému, problém není“;
+- **Time Decay** (časové stárnutí) – brání racionalizaci zastaralosti „tento důkaz je pořád
+  dost dobrý“;
+- **Unknown Valid** (neznámé je platná odpověď) – brání falešné jistotě „musíme odpovědět,
+  i když si nejsme jisti“;
+- **Source Independence** (nezávislost zdrojů) – brání slepotě ke korelaci „deset článků to
+  potvrzuje“ (z téhož zdroje);
+- **Provenance Mandatory** (povinný původ) – brání úniku od odpovědnosti „to přece ví
+  každý“.
 
-## Technical Details
+## Technické podrobnosti
 
-### Rationalization Pattern Taxonomy
+### Taxonomie vzorců racionalizace
 
-The Addiction Recovery principle defines a structured taxonomy of epistemic rationalization patterns, each analogous to a specific relapse trigger in addiction recovery:
+Princip definuje strukturovanou taxonomii vzorců epistemické racionalizace; každý odpovídá
+určitému spouštěči relapsu u závislosti:
 
-| Pattern | Addiction Analogy | Description | Detection Method | Enforcement |
+| Vzorec | Analogie u závislosti | Popis | Metoda detekce | Vynucení |
 |---------|------------------|-------------|-----------------|-------------|
-| **Contradiction Dismissal** | "One drink won't hurt" | Discarding contradictory evidence as noise without investigation | Graph integrity check for missing contradiction nodes | E2 BLOCK |
-| **Confidence Inflation** | "I can handle it this time" | Artificially raising confidence scores beyond what evidence supports | Statistical deviation from calibrated confidence model | E2 BLOCK |
-| **Source Laundering** | "Everyone does it" | Treating correlated sources as independent to meet plurality requirements | Independence group analysis on evidence provenance | E2 BLOCK |
-| **Selective Framing** | "I only had a little" | Presenting evidence in a way that minimizes contradictory signals without removing them | Salience analysis on downstream signal propagation | E1 WARNING |
-| **Temporal Evasion** | "That was in the past" | Using stale evidence without applying time decay to support current conclusions | Timestamp analysis with mandatory decay function application | E2 BLOCK |
-| **Absence Blindness** | "No news is good news" | Failing to track expected-but-missing evidence as a signal | Expected signal registry comparison | E1 WARNING |
-| **Premature Closure** | "I'm cured now" | Declaring a contradiction resolved without new evidence | Resolution status transition audit | E3 HALT |
-| **Authority Substitution** | "My doctor said I'm fine" | Replacing evidence plurality with appeal to a single authoritative source | Source authority vs. independence tracking | E2 BLOCK |
+| **Odbytí rozporu** | „Jedna sklenka neuškodí.“ | vyřazení protichůdného důkazu jako šumu bez prošetření | kontrola integrity grafu na chybějící uzly rozporů | E2 BLOCK |
+| **Nafouknutí důvěry** | „Tentokrát to zvládnu.“ | umělé zvýšení skóre důvěry nad míru, kterou podporují důkazy | statistická odchylka od kalibrovaného modelu důvěry | E2 BLOCK |
+| **Praní zdrojů** | „Dělají to všichni.“ | zacházení se souvisejícími zdroji jako s nezávislými, aby se splnil požadavek plurality | analýza skupin nezávislosti v původu důkazů | E2 BLOCK |
+| **Selektivní rámování** | „Dal jsem si jen trochu.“ | podání důkazů tak, aby se protichůdné signály zmenšily, aniž by se odstranily | analýza salience při šíření signálu dál | E1 WARNING |
+| **Časový únik** | „To bylo dávno.“ | použití zastaralých důkazů bez časového stárnutí na podporu současných závěrů | analýza časových razítek s povinnou funkcí stárnutí | E2 BLOCK |
+| **Slepota k nepřítomnosti** | „Žádné zprávy, dobré zprávy.“ | nesledování očekávaných, ale chybějících důkazů jako signálu | srovnání s registrem očekávaných signálů | E1 WARNING |
+| **Předčasné uzavření** | „Už jsem vyléčený.“ | prohlášení rozporu za vyřešený bez nových důkazů | audit přechodů stavu řešení | E3 HALT |
+| **Náhrada autoritou** | „Doktor říkal, že jsem v pořádku.“ | nahrazení plurality důkazů odvoláním na jediný autoritativní zdroj | sledování autority zdroje vs. nezávislosti | E2 BLOCK |
 
-### Vigilance Architecture
+### Architektura bdělosti
 
-The platform implements Addiction Recovery through a multi-layered vigilance architecture:
+Platforma uskutečňuje princip vícevrstvou architekturou bdělosti:
 
 ```elixir
 defmodule PrismaticNabla.AddictionPreservation do
@@ -187,10 +234,10 @@ defmodule PrismaticNabla.AddictionPreservation do
   defp has_new_evidence?(_), do: false
 end
 ```
-
 ### Vigilance Monitor
 
-The Vigilance Monitor runs continuously, scanning for patterns that indicate epistemic drift toward rationalization:
+Vigilance Monitor běží nepřetržitě a vyhledává vzorce, které naznačují epistemický posun
+k racionalizaci:
 
 ```elixir
 defmodule PrismaticNabla.VigilanceMonitor do
@@ -324,127 +371,191 @@ defmodule PrismaticNabla.VigilanceMonitor do
   end
 end
 ```
+## Implementace v Prismatic Platform
 
-## Implementation in Prismatic Platform
+### Integrace s NABLA Infinity
 
-### Integration with NABLA Infinity
+Princip je implementován jako metavrstva vynucení rámce [NABLA
+Infinity](@/glossary/nabla-infinity.md). Zatímco NABLA definuje sedm axiomů, jimiž se řídí
+utváření přesvědčení, Addiction Recovery definuje mechanismy sledování a vynucení, které
+zajišťují, aby tyto axiomy nebyly postupně obcházeny hromaděním drobných ústupků.
 
-The Addiction Recovery principle is implemented as the enforcement meta-layer of the [NABLA Infinity](@/glossary/nabla-infinity.md) framework. While NABLA defines the seven axioms that govern belief formation, Addiction Recovery defines the monitoring and enforcement mechanisms that ensure those axioms are not gradually circumvented through accumulation of small compromises.
+Integrace působí na třech úrovních:
 
-The integration operates at three levels:
+1. **Úroveň jednotlivé operace:** každá operace, která mění graf přesvědčení, prochází
+   funkcí `AddictionPreservation.check/1`, která ji testuje proti taxonomii vzorců
+   racionalizace. Tak se jednotlivá porušení zachytí v reálném čase.
+2. **Úroveň časových vzorců:** GenServer `VigilanceMonitor` sleduje vzorce napříč
+   operacemi v nastavitelných časových oknech (výchozí 24 hodin). Tak se zachytí postupný
+   posun, který jednotlivé kontroly přehlédnou – například sled jednotlivě přípustných
+   úprav důvěry, které dohromady nafouknou hypotézu nad její důkazní základnu.
+3. **Strukturální úroveň:** periodické kontroly integrity grafu ověřují, že struktura grafu
+   přesvědčení odpovídá požadavkům principu – žádné osiřelé důkazy, žádné chybějící uzly
+   rozporů, žádné nesledované mezery v původu. Tyto kontroly zachytí poškození, které se
+   mohlo dostat dovnitř cestami v kódu, jež zatím nejsou instrumentovány kontrolami
+   jednotlivých operací.
 
-1. **Per-Operation Level**: Every operation that modifies the belief graph passes through the `AddictionPreservation.check/1` function, which tests against the rationalization pattern taxonomy. This catches individual violations in real time.
+### Integrace s Color Teams
 
-2. **Temporal Pattern Level**: The `VigilanceMonitor` GenServer tracks patterns across operations over configurable time windows (default 24 hours). This catches gradual drift that individual checks miss -- for example, a sequence of individually permissible confidence adjustments that collectively inflate a hypothesis beyond its evidence base.
+[Red Team](@/glossary/red-team.md) testuje odolnost principu dvěma útočnými primitivy:
 
-3. **Structural Level**: Periodic graph integrity scans verify that the belief graph's structure is consistent with Addiction Recovery requirements -- no orphaned evidence, no missing contradiction nodes, no untracked provenance gaps. These scans catch corruption that may have entered through code paths not yet instrumented with per-operation checks.
+- **Manipulace důvěrou:** scénáře Red Teamu se pokoušejí nafouknout skóre důvěry sledem
+  drobných, jednotlivě přípustných úprav. Detekce časových vzorců ve Vigilance Monitoru je
+  kalibrována proti těmto scénářům.
+- **Vyvolání posunu:** scénáře posunu zavádějí podprahové vzorce racionalizace a testují,
+  zda Vigilance Monitor zachytí jejich kumulativní účinek. Na tyto útoky se specializuje
+  agent `red-drift-inducer`.
 
-### Color Team Integration
+[Blue Team](@/glossary/blue-team.md) udržuje obranný postoj proti porušením principu;
+agent `blue-drift-detector` sleduje právě vzorce postupné eroze, na které princip míří.
+[Purple Team](@/glossary/purple-team.md) slučuje zjištění Red Teamu s obrannými daty Blue
+Teamu, kalibruje prahy detekce a aktualizuje taxonomii vzorců racionalizace.
 
-The [Red Team](@/glossary/red-team.md) specifically tests Addiction Recovery resilience through two attack primitives:
+### Eskalace vynucení
 
-- **Confidence Manipulation**: Red Team scenarios attempt to inflate confidence scores through sequences of small, individually permissible adjustments. The Vigilance Monitor's temporal pattern detection is calibrated against these scenarios.
-
-- **Drift Induction**: Red Team drift scenarios introduce sub-threshold rationalization patterns to test whether the Vigilance Monitor detects the cumulative effect. The `red-drift-inducer` agent specializes in these attacks.
-
-The [Blue Team](@/glossary/blue-team.md) maintains the defensive posture against Addiction Recovery violations, with `blue-drift-detector` specifically monitoring for the gradual erosion patterns the principle targets. The [Purple Team](@/glossary/purple-team.md) synthesizes Red findings with Blue defensive data to calibrate detection thresholds and update the rationalization pattern taxonomy.
-
-### Enforcement Escalation
-
-| Level | Trigger | Response | Recovery Action |
+| Úroveň | Spouštěč | Reakce | Náprava |
 |-------|---------|----------|-----------------|
-| E1 | Soft pattern warning (selective framing, absence blindness) | WARNING logged, investigation flag raised | Review flagged operations within 24h |
-| E2 | Hard pattern detection (contradiction dismissal, confidence inflation, source laundering) | BLOCK operation, reject modification | Correct the operation, provide valid evidence basis |
-| E3 | Premature closure or contradiction burial detected | HALT all operations on affected hypothesis subgraph | Supreme review required, full audit of recent modifications |
-| E4 | Systematic pattern across multiple hypotheses suggesting coordinated rationalization | Full investigation, audit of all belief graph modifications in window | Cosmic clearance required, root cause analysis mandatory |
+| E1 | měkké varování před vzorcem (selektivní rámování, slepota k nepřítomnosti) | zapsáno VAROVÁNÍ, označeno k prošetření | přezkoumat označené operace do 24 h |
+| E2 | detekce tvrdého vzorce (odbytí rozporu, nafouknutí důvěry, praní zdrojů) | BLOKACE operace, změna odmítnuta | opravit operaci, doložit platný důkazní základ |
+| E3 | zjištěno předčasné uzavření nebo pohřbení rozporu | ZASTAVENÍ všech operací v dotčeném podgrafu hypotézy | nutný přezkum na nejvyšší úrovni, úplný audit posledních změn |
+| E4 | soustavný vzorec napříč více hypotézami, který naznačuje koordinovanou racionalizaci | úplné šetření, audit všech změn grafu přesvědčení v okně | nutné nejvyšší schválení („cosmic clearance“), povinná analýza příčin |
 
-## Comparison with Alternatives
+## Srovnání s alternativami
 
-| Approach | Description | Strengths | Weaknesses |
+| Přístup | Popis | Silné stránky | Slabé stránky |
 |----------|-------------|-----------|------------|
-| **Addiction Recovery (Prismatic)** | Continuous automated vigilance with pattern taxonomy and multi-level enforcement | Catches gradual drift, non-bypassable, no human fatigue | Requires careful calibration to avoid false positives |
-| **Manual Code Review** | Human reviewers check for evidence handling quality | Catches novel patterns, contextual understanding | Subject to same biases it attempts to detect, does not scale |
-| **Static Analysis Only** | One-time checks against fixed rules | Fast, deterministic, easy to implement | Misses temporal patterns, cannot detect gradual drift |
-| **Confidence Calibration** | Statistical recalibration of confidence scores | Well-studied methodology, strong theoretical basis | Does not address the upstream evidence suppression problem |
-| **Bayesian Updating** | Formal probabilistic framework for belief revision | Mathematically rigorous, well-understood | Assumes evidence is not suppressed before reaching the updater |
-| **Adversarial Testing Alone** | Red Team attacks without structural prevention | Identifies weaknesses effectively | Reactive not preventive, vulnerabilities exist until tested |
+| **Addiction Recovery (platforma)** | nepřetržitá automatická bdělost s taxonomií vzorců a vícestupňovým vynucením | zachytí postupný posun, nelze obejít, žádná lidská únava | vyžaduje pečlivou kalibraci, aby nevznikaly falešné poplachy |
+| **Ruční revize kódu** | lidští recenzenti kontrolují kvalitu práce s důkazy | zachytí nové vzorce, rozumí kontextu | podléhá stejným zkreslením, která má odhalit; neškáluje |
+| **Jen statická analýza** | jednorázové kontroly proti pevným pravidlům | rychlá, deterministická, snadno implementovatelná | nevidí časové vzorce, nezachytí postupný posun |
+| **Kalibrace důvěry** | statistická rekalibrace skóre důvěry | dobře prozkoumaná metodika, silný teoretický základ | neřeší potlačení důkazů před vstupem |
+| **Bayesovská aktualizace** | formální pravděpodobnostní rámec revize přesvědčení | matematicky přesná, dobře pochopená | předpokládá, že důkazy nejsou potlačeny dřív, než se k aktualizaci dostanou |
+| **Samotné adversariální testování** | útoky Red Teamu bez strukturální prevence | účinně odhaluje slabiny | reaktivní, ne preventivní; zranitelnost trvá, dokud ji někdo neotestuje |
 
-The key distinction is that Addiction Recovery is a **preventive** mechanism, not a **detective** one. Traditional approaches detect problems after they occur. Addiction Recovery prevents the conditions that lead to problems by blocking the individual operations that, while seemingly benign in isolation, constitute the building blocks of epistemic degradation.
+Klíčový rozdíl je v tom, že Addiction Recovery je **preventivní** mechanismus, nikoli
+**detekční**. Tradiční přístupy odhalují problémy poté, co nastanou. Addiction Recovery
+předchází podmínkám, které k problémům vedou, tím, že blokuje jednotlivé operace, které
+jsou izolovaně zdánlivě neškodné, ale tvoří stavební kameny epistemického úpadku.
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Never Disable Monitoring**: The Vigilance Monitor must run continuously. Temporary disabling "for performance" or "during batch operations" creates exactly the gap that gradual rationalization exploits. If performance is a concern, adjust scan intervals rather than disabling monitoring.
+1. **Nikdy nevypínat sledování.** Vigilance Monitor musí běžet nepřetržitě. Dočasné
+   vypnutí „kvůli výkonu“ nebo „během dávkových operací“ vytváří právě tu mezeru, kterou
+   postupná racionalizace využívá. Je-li problémem výkon, upraví se interval kontrol, ne
+   samotné sledování.
+2. **Kalibrovat podle výsledků Red Teamu.** Prahy detekce se kalibrují podle scénářů
+   vyvolaného posunu jako podle referenční pravdy. Příliš necitlivé prahy přehlédnou
+   skutečný posun; příliš citlivé vedou k únavě z poplachů a k ignorovaným varováním.
+3. **Sledovat vývoj skóre bdělosti.** Skóre bdělosti má časem stoupat (k 1,0). Trvale
+   klesající trend ukazuje, že systém hromadí vzorce racionalizace rychleji, než je řeší.
+4. **Prošetřovat varování rychle.** Varování E1 nejsou informativní zprávy k přečtení,
+   až bude čas. Signalizují raná stadia vzorců racionalizace; odklad dovolí, aby se
+   složily do porušení E2 nebo E3.
+5. **Uchovávat úplnou historii vzorců.** Historie operací se uchovává nejméně po dobu
+   nastaveného okna (výchozí 24 hodin). Předčasné zkrácení historie znemožní detekci
+   časových vzorců a fakticky princip oslepí.
+6. **Zacházet se všemi změnami grafu přesvědčení stejně.** Žádná operace nesmí obejít
+   bránu `AddictionPreservation.check/1`, bez ohledu na úroveň autority zdroje, naléhavost
+   operace nebo zdánlivou bezvýznamnost změny. Obcházení podle autority je samo vzorcem
+   racionalizace (náhrada autoritou).
+7. **Dokumentovat každý zásah.** Když je operace zablokována nebo zastavena, zaznamená se
+   důvod s plným kontextem. Vzniká tak institucionální paměť pokusů o racionalizaci, z níž
+   vychází budoucí aktualizace taxonomie.
 
-2. **Calibrate Against Red Team Results**: Detection thresholds should be calibrated using Red Team drift induction scenarios as ground truth. Under-sensitive thresholds miss real drift; over-sensitive thresholds produce alert fatigue that leads to ignored warnings.
+## Časté chyby
 
-3. **Track Vigilance Score Trends**: The vigilance score should trend upward over time (toward 1.0). A persistently declining trend indicates that the system is accumulating rationalization patterns faster than they are being resolved.
+- **Brát princip jako metaforu, ne jako strukturu.** Addiction Recovery není filozofický
+  postoj ani přání týmové kultury. Je to konkrétní soubor automatických kontrol vynucených
+  v kódu, bez ručního obejití. Týmy, které jej chápou jako „nastavení mysli“, a ne jako
+  mechanismus vynucení, uvidí, jak slábne s rostoucím organizačním tlakem.
+- **Optimalizovat na méně falešných poplachů na úkor detekce.** Ladění prahů ke snížení
+  falešně pozitivních výsledků nevyhnutelně snižuje i zachycení skutečných případů.
+  Platí asymetrie nákladů: cena falešného poplachu (jedno zbytečné šetření) je mnohem nižší
+  než cena přehlédnutého vzorce racionalizace (poškozený graf přesvědčení).
+- **Předpokládat, že chytří lidé jsou vůči racionalizaci imunní.** Výzkum motivovaného
+  uvažování naznačuje, že vyšší inteligence před zkreslením nechrání; chytří lidé spíše
+  umějí sestavit přesvědčivěji znějící zdůvodnění zaujatých závěrů. Automatické vynucení
+  je nutné právě proto, že lidský úsudek je bez ohledu na odbornost zranitelný (srov.
+  [Kognitivní bias](@/glossary/kognitivni-bias.md)).
+- **Zaměňovat epistemickou bdělost s epistemickou paralýzou.** Princip nebrání závěrům ani
+  rozhodnutím. Brání závěrům a rozhodnutím postaveným na potlačených důkazech, nafouknuté
+  důvěře nebo nevyřešených rozporech. Přesvědčení, které projde všemi kontrolami bdělosti
+  s čistým grafem, může přejít k provedení s plným nasazením podle [NM/ND](@/glossary/nm-nd.md)
+  (srov. [Paralysis by Analysis](@/glossary/paralysis-by-analysis.md)).
+- **Zanedbat časový rozměr.** Jednotlivé operace mohou izolovaně vypadat čistě. Princip
+  řeší právě případ, kdy sled jednotlivě čistých operací dohromady vytvoří racionalizaci.
+  Bez analýzy časových vzorců ve Vigilance Monitoru tento způsob selhání zůstane
+  neodhalen.
+- **Brát vynucení jako trest, ne jako ochranu.** E2 BLOCK a E3 HALT nejsou tresty za
+  špatné chování, ale bezpečnostní mechanismy, které brání epistemické škodě. Na rámování
+  záleží: týmy, které vynucení vnímají jako trest, se mu brání; týmy, které je vnímají jako
+  ochranu, je vítají.
 
-4. **Investigate Warnings Promptly**: E1 warnings are not informational messages to be reviewed at leisure. They indicate the early stages of rationalization patterns. Delayed investigation allows patterns to compound into E2 or E3 violations.
+## Případy užití
 
-5. **Preserve the Full Pattern History**: Operation history should be retained for at least the configured window period (default 24 hours). Premature history truncation prevents the Vigilance Monitor from detecting temporal patterns, effectively blinding the Addiction Recovery system.
+### Případ 1: integrita důkazů při due diligence
 
-6. **Treat All Belief Graph Modifications Equally**: No operation should bypass the `AddictionPreservation.check/1` gate, regardless of the source's authority level, the operation's urgency, or the perceived triviality of the modification. Authority-based bypasses are themselves a rationalization pattern (Authority Substitution).
+Při [due diligence](@/glossary/due-diligence.md) fúzí a akvizic princip brání běžnému
+selhání, kdy první zjištění zkreslí další sběr důkazů. Naznačí-li první posouzení, že
+cílová firma je málo riziková, přirozeně se dalším potvrzujícím důkazům přikládá větší
+váha a protichůdné signály se berou jako anomálie. Vigilance Monitor tento vzorec odhalí
+sledováním asymetrického pohybu důvěry: pokud se důvěra soustavně pohybuje jedním směrem
+bez odpovídajícího řešení rozporů, vydá varování.
 
-7. **Document Every Enforcement Action**: When an operation is blocked or halted, the enforcement reason must be recorded with full context. This creates an institutional memory of rationalization attempts that informs future pattern taxonomy updates.
+### Případ 2: ověřování zdrojů OSINT
 
-## Common Pitfalls
+Při práci s [OSINT](@/glossary/osint.md) princip chrání před praním zdrojů – sklonem
+považovat více článků odkazujících na tentýž původní zdroj za nezávislá potvrzení.
+Sledování skupin nezávislosti vystopuje řetězce původu sítěmi mediálního zesilování
+a zajistí, že deset zpravodajských článků citujících tutéž tiskovou zprávu se počítá jako
+jeden signál, ne deset (srov. detekční signatura [Kruhové
+citace](@/kompendium/detection-signatures/18-network-citation-circularity.md)).
 
-- **Treating the principle as metaphorical rather than structural**: Addiction Recovery is not a philosophical stance or a team culture aspiration. It is a concrete set of automated checks, enforced at the code level, with no manual bypass. Teams that treat it as a "mindset" rather than an enforcement mechanism will find it degrading as organizational pressure increases.
+### Případ 3: kalibrace bezpečnostního hodnocení
 
-- **Optimizing for false positive reduction at the expense of detection**: Tuning thresholds to reduce false positives inevitably reduces true positive detection. The asymmetric cost analysis (Section 4 of [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)) applies here: the cost of a false positive (one unnecessary investigation) is far lower than the cost of a missed rationalization pattern (corrupted belief graph).
+Systém bezpečnostního hodnocení Prismatic Perimeter (viz [EASM](@/glossary/easm.md))
+používá princip k zabránění posunu hodnocení. Hodnocení bezpečnosti firmy musí odrážet
+aktuální důkazy se správně uplatněným časovým stárnutím. Detekce vzorce časového úniku
+brání tomu, aby hodnocení zůstávalo uměle stabilní, když jeho důkazní základna zestárla
+pod práh spolehlivosti.
 
-- **Assuming that smart people are immune to rationalization**: Research consistently shows that higher intelligence correlates with more sophisticated rationalization, not less. Smart people are better at constructing plausible-sounding justifications for biased conclusions. Automated enforcement is necessary precisely because human judgment, regardless of expertise, is vulnerable.
+### Případ 4: integrita uvažování agentů
 
-- **Confusing epistemic vigilance with epistemic paralysis**: Addiction Recovery does not prevent conclusions or decisions. It prevents conclusions and decisions based on suppressed evidence, inflated confidence, or unresolved contradictions. A belief that passes all vigilance checks with a clean graph can proceed to execution with full [NM/ND](@/glossary/nm-nd.md) commitment.
+[Agenti](@/glossary/agent.md) platformy utvářejí přesvědčení vícekrokovými řetězci
+uvažování. Princip sleduje tyto řetězce kvůli postupnému nafukování důvěry – případům, kdy
+každý krok usuzování mírně zvýší důvěru nad míru podloženou důkazy a výsledný závěr má
+dramaticky nafouknutou důvěru. Kontrola jednotlivé operace zachytí každý pokus
+o nafouknutí; Vigilance Monitor zachytí případy, kdy se jednotlivě přípustná zvýšení
+nasčítají nad kalibrované meze.
 
-- **Neglecting the temporal dimension**: Individual operations may appear clean in isolation. The Addiction Recovery principle specifically addresses the case where a sequence of individually clean operations collectively produces rationalization. Without the temporal pattern analysis provided by the Vigilance Monitor, this failure mode goes undetected.
+## Související pojmy
 
-- **Treating enforcement as punitive rather than protective**: E2 BLOCK and E3 HALT are not punishments for bad behavior. They are safety mechanisms that prevent epistemic damage. The framing matters: teams that view enforcement as punitive will resist it; teams that view it as protective will welcome it.
+Bez vlastního hesla v glosáři knihy: *Contradiction Preservation* (axiom nejpříměji
+chráněný tímto principem), *Cherry Picking* (antivzor výběru důkazů, který princip
+blokuje), *Belief Graph* (datová struktura sledovaná Vigilance Monitorem), *Confidence
+Scoring* (kvantitativní systém chráněný před nafukováním), *Provenance Mandatory* (axiom
+dohledatelnosti) a *Epistemic Robustness* (celková vlastnost systému, kterou princip chrání
+před postupnou erozí).
 
-## Use Cases
+## Související
 
-### Use Case 1: Due Diligence Evidence Integrity
+**Platforma**
 
-During M&A due diligence, the Addiction Recovery principle prevents the common failure mode where initial findings bias subsequent evidence gathering. When an early assessment suggests the target company is low-risk, the natural tendency is to weight subsequent confirming evidence more heavily and treat contradictory signals as anomalies. The Vigilance Monitor detects this pattern through asymmetric confidence movement tracking: if confidence consistently moves in one direction without corresponding contradiction resolution, a warning is raised.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – nadřazený epistemický rámec, jehož sedm
+  axiomů princip vynucuje nepřetržitou bdělostí.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom proti přesvědčením z jediného
+  zdroje, posílený detekcí praní zdrojů.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací brána, která doplňuje časové
+  sledování strukturální obranou.
+- [Red Team](@/glossary/red-team.md) a [Blue Team](@/glossary/blue-team.md) – týmy, které
+  odolnost principu testují a hájí.
+- [QEVE](@/glossary/qeve.md) – ověřovací engine axiomů NABLA, u něhož princip sleduje
+  pokusy o obejití.
 
-### Use Case 2: OSINT Source Validation
+**Kompendium**
 
-In Open Source Intelligence operations, the Addiction Recovery principle guards against source laundering -- the tendency to treat multiple articles referencing the same original source as independent confirmations. The independence group tracking mechanism traces provenance chains through media amplification networks, ensuring that ten news articles citing the same press release are counted as one signal, not ten.
-
-### Use Case 3: Security Rating Calibration
-
-The [Prismatic Perimeter](@/glossary/easm.md) security rating system uses Addiction Recovery to prevent rating drift. When a company's security posture is assessed, the rating must reflect current evidence with proper time decay applied. The Temporal Evasion pattern detection prevents ratings from remaining artificially stable when their evidence base has decayed below reliability thresholds.
-
-### Use Case 4: Agent Reasoning Integrity
-
-AI agents within the platform form beliefs through multi-step reasoning chains. The Addiction Recovery principle monitors these chains for progressive confidence inflation -- cases where each inference step slightly increases confidence beyond what the evidence supports, resulting in a final conclusion with dramatically inflated confidence. The per-operation check catches each inflation attempt, while the Vigilance Monitor catches cases where individually permissible increases accumulate beyond calibrated bounds.
-
-## Related Concepts
-
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- The parent epistemic framework whose seven axioms Addiction Recovery enforces through continuous vigilance
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- The specific axiom most directly protected by Addiction Recovery's anti-rationalization enforcement
-- [Cherry Picking](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cherry-picking/) -- The evidence selection anti-pattern that Addiction Recovery detects and blocks
-- [Signal Plurality](@/glossary/signal-plurality.md) -- The axiom preventing single-source beliefs, reinforced by source laundering detection
-- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) -- The data structure monitored by the Vigilance Monitor for structural rationalization patterns
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- The quantitative system protected from inflation through calibrated deviation monitoring
-- [Trinity Gate](@/glossary/trinity-gate.md) -- The verification gate that provides structural defense complementary to Addiction Recovery's temporal monitoring
-- [Red Team](@/glossary/red-team.md) -- The adversarial team that tests Addiction Recovery resilience through drift induction scenarios
-- [Blue Team](@/glossary/blue-team.md) -- The defensive team maintaining monitoring posture against rationalization patterns
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- The axiom enforcing traceability, preventing accountability evasion rationalization
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- The overall system property that Addiction Recovery protects from gradual erosion
-- [QEVE](@/glossary/qeve.md) -- The verification engine implementing NABLA axiom checks that Addiction Recovery monitors for bypass attempts
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Vigilance Monitor agents
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – lidská podoba zkreslení, které princip
+  blokuje.
+- [Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md) –
+  bdělost v praxi jednotlivce.
+- [Prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md) –
+  klinický protějšek metafory.

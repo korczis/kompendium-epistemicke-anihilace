@@ -91,7 +91,7 @@ Druhá terapie musela být **výslovně jiná** v rámci, ne jen v osobě:
   sezení), psychoedukace o hranicích v terapii.
 - **S2 – Externalizace introjektů:** rozlišení vlastních vzpomínek od výkladů, které do nich byly
   vloženy; bez snahy rozhodnout „jak to opravdu bylo“.
-- **S3 – Rekonstrukce metakognice:** obnova práva na nesouhlas, i s novým terapeutem.
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova práva na nesouhlas, i s novým terapeutem.
 - **S4 – Hermeneutická obnova:** opatrné znovunavázání vztahu s rodinou.
 - **S5 – Konsolidace a transfer:** plánované ukončení terapie jako důkaz, že vztah lze opustit.
 

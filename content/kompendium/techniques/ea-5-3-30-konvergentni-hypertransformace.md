@@ -43,7 +43,7 @@ Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
 
 ### Krok 1 — Postupná aplikace hypertransformativních technik
 
-Sekvenční aplikace EA-5.3.1 — EA-5.3.29 v daném kontextu.
+Sekvenční aplikace [EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) — [EA-5.3.29](@/kompendium/techniques/ea-5-3-29-simulakralni-self-substituce.md) v daném kontextu.
 
 ### Krok 2 — Konvergence efektů
 
@@ -92,7 +92,7 @@ Co může vidět vnější pozorovatel:
 
 ### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
 
-EA-5.3.6 (rekurzivní hypertransformace), EA-5.3.29 (simulakrální self-substituce)
+[EA-5.3.6](@/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md) (rekurzivní hypertransformace), EA-5.3.29 (simulakrální self-substituce)
 
 ### Cross-categorical references
 
@@ -125,16 +125,16 @@ Technika **konvergentní hypertransformace** představuje strukturální výzvu 
 
 ## Teoretické zázemí
 
-Konvergence všech výše analyzovaných vrstev: **Ricoeurova narativní identita**, **Damasiova trojvrstvá self-architektura**, **Merleau-Pontyho chair**, **Husserlovy passive syntheses**, **Heideggerova existencialita**, **Levinasova substituce-pro-druhého** — všechny jsou simultánně atakovány. Specificita konvergentní hypertransformace je v synergickém efektu: žádná jednotlivá vrstva není dostatečně narušena, aby spustila kompenzační odolnost ostatních, ale jejich společná narušenost je terminální. Foucaultovy **technologie sebe** v jejich totalitě jsou převzaty externí mocí. Heideggerova **Eigentlichkeit** je nedosažitelná z žádného vstupního bodu. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Konvergence všech výše analyzovaných vrstev: **Ricoeurova [narativní identita](@/glossary/narativni-identita.md)**, **Damasiova trojvrstvá self-architektura**, **Merleau-Pontyho chair**, **Husserlovy passive syntheses**, **Heideggerova existencialita**, **Levinasova substituce-pro-druhého** — všechny jsou simultánně atakovány. Specificita konvergentní hypertransformace je v synergickém efektu: žádná jednotlivá vrstva není dostatečně narušena, aby spustila kompenzační odolnost ostatních, ale jejich společná narušenost je terminální. Foucaultovy **technologie sebe** v jejich totalitě jsou převzaty externí mocí. Heideggerova **Eigentlichkeit** je nedosažitelná z žádného vstupního bodu. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
-- **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
 - **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

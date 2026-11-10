@@ -1,6 +1,6 @@
 +++
 title = "Identitní dekonstrukce"
-description = "Strukturální analýza terminálního protokolu cíleného na narativní identitu, role-set a kontinuitu sebe — fáze fragmentace, derealizace, instalace alternativní identity, srovnání s kultovou konverzí, koercitivním výslechem a totalitními reedukačními programy, etické limity."
+description = "Strukturální analýza terminálního protokolu cíleného na narativní identitu, role-set a kontinuitu sebe."
 weight = 5
 insert_anchor_links = "right"
 
@@ -75,11 +75,11 @@ V této fázi subjekt typicky vstupuje do stavu, ve kterém **autobiografická k
 
 Při dostatečně narušených synchronních a diachronních vrstvách subjekt vstupuje do reflexivního kolapsu: ztrácí přístup k samotnému aktu sebe-poznání. Tento stav má následující markery:
 
-- depersonalizace („nejsem si jistý, jestli to dělám já“),
+- [depersonalizace](@/glossary/depersonalizace.md) („nejsem si jistý, jestli to dělám já“),
 - derealizace („nejsem si jistý, jestli je toto skutečné“),
 - ztráta self-correctingu ([kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)),
 - akceptace externí autority pro definici Já,
-- často: somatický kolaps nebo akutní disociace.
+- často: somatický kolaps nebo akutní [disociace](@/glossary/disociace.md).
 
 Reflexivní kolaps je analytickým srdcem identitní dekonstrukce. Bez něj zůstává protokol pouze ve fázi role-stress; s ním vstupuje do strukturální anihilace.
 
@@ -93,7 +93,7 @@ Identitní dekonstrukce má dokumentované strukturální analogie napříč rů
 
 ### Totalitní reedukační programy
 
-Programy, jako jsou čínské *thought reform* programy 50. let nebo severokorejské reedukační kempy, vykazují strukturu, ve které jsou obnovovány stejné fáze I1–I5 v rámci dlouhodobé skupinové intervence. Akademická literatura (Lifton, Schein) dokumentuje rolovou fragmentaci, autobiografickou rekonstrukci a inscenaci symbolických předělů jako základní mechanismy.
+Programy, jako jsou čínské *[thought reform](@/glossary/thought-reform.md)* programy 50. let nebo severokorejské reedukační kempy, vykazují strukturu, ve které jsou obnovovány stejné fáze I1–I5 v rámci dlouhodobé skupinové intervence. Akademická literatura (Lifton, Schein) dokumentuje rolovou fragmentaci, autobiografickou rekonstrukci a inscenaci symbolických předělů jako základní mechanismy.
 
 ### Kultová konverze
 

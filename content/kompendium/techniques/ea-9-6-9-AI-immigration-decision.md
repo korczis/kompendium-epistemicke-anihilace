@@ -33,7 +33,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.6 Algoritmická governance
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**Doctrine alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
+**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
 
@@ -118,9 +118,9 @@ Tato technika **interaguje** s následujícími EA-* kategoriemi:
 
 Prismatic Platform implementuje detekci a neutralizaci AI Immigration Decision přes následující komponenty:
 
-- **`prismatic_nabla`** — Nabla Infinity epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
+- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
 - **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — Decision engine s Brier scoring, calibration tracking a evidence-based scoring (NCLB doctrine)
+- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
 - **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
 - **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
 - **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits

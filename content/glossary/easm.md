@@ -1,10 +1,10 @@
 +++
-title = "EASM"
+title = "EASM (správa vnější útočné plochy)"
 weight = 25
-description = "External Attack Surface Management for continuous security posture monitoring"
+description = "External Attack Surface Management: průběžné objevování, soupis a sledování vnějších digitálních aktiv organizace; na Prismatic Platform modul Prismatic Perimeter."
 
 [taxonomies]
-tags = ["glossary", "security", "easm", "prismatic"]
+tags = ["glossary", "security", "easm", "prismatic", "osint"]
 
 [extra]
 category = "security"
@@ -12,66 +12,87 @@ abbreviation = "EASM"
 related_app = "prismatic-perimeter"
 related_terms = ["security-rating", "nis2", "zkb", "color-teams", "risk-score", "attack-surface", "censys", "hawkeye", "liveview", "osint", "sanctions-screening", "shodan", "threat-intelligence", "timescaledb"]
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
-word_count = 1137
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["EASM", "External", "Attack", "Surface", "Management", "glossary", "security", "Prismatic Platform", "SaaS", "README"]
 quality_score = 80
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "EASM - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-External Attack Surface Management (EASM) is a cybersecurity discipline focused on the continuous discovery, inventory, classification, and monitoring of an organization's externally visible digital assets. These assets include domains, subdomains, IP addresses, SSL/TLS certificates, cloud resources, SaaS integrations, exposed APIs, email servers, and any internet-facing services that could be targeted by adversaries. EASM provides organizations with an outside-in view of their security posture -- the same perspective an attacker would have -- enabling proactive identification and remediation of exposures before they are exploited.
+**EASM** (*External Attack Surface Management*, správa vnější útočné plochy) je disciplína
+kybernetické bezpečnosti zaměřená na průběžné objevování, soupis, klasifikaci a sledování
+zvenčí viditelných digitálních aktiv organizace. Patří k nim domény, subdomény, IP adresy,
+certifikáty SSL/TLS, cloudové zdroje, integrace SaaS, vystavená API, poštovní servery
+a jakékoli služby dostupné z internetu, na které by mohl útočník mířit. EASM poskytuje
+organizaci pohled „zvenku dovnitř“ – stejný, jaký má útočník – a umožňuje odhalit a odstranit
+slabá místa dřív, než budou zneužita.
 
-EASM emerged as a distinct market category around 2020, driven by the rapid expansion of organizational attack surfaces through cloud adoption, SaaS proliferation, shadow IT, mergers and acquisitions, and remote work infrastructure. Traditional vulnerability management approaches, which rely on organizations knowing what assets they have, became insufficient as the typical enterprise's external footprint grew to include thousands of unknown or unmanaged assets. EASM addresses this gap by continuously discovering assets from the outside, without requiring internal access or agent deployment.
+Jako samostatná tržní kategorie se EASM ustálila kolem roku 2020. Hnacím motorem bylo rychlé
+rozšiřování útočných ploch organizací přechodem do cloudu, množením služeb SaaS, „stínovým
+IT“, fúzemi a akvizicemi a infrastrukturou pro práci na dálku. Tradiční správa zranitelností,
+která předpokládá, že organizace ví, jaká aktiva má, přestala stačit, když se vnější stopa
+typického podniku rozrostla o tisíce neznámých nebo nespravovaných aktiv. EASM tuto mezeru
+zaplňuje průběžným objevováním aktiv zvenčí, bez vnitřního přístupu a bez instalace agentů.
 
-## Overview
+**Vztah ke knize:** EASM patří do kontextu platformy, z níž Kompendium vzešlo (aplikace
+Prismatic Perimeter). Jeho základní myšlenka – podívat se na sebe očima protivníka a najít,
+co jsme sami přehlédli – má v knize lidskou obdobu v osobní a organizační sebeprověrce (viz
+[Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) a [Klasifikace
+informací](@/kompendium/organizational-defense/27-information-classification.md)). Spojení
+s technikami EA popisuje stránka [Perimetr: útočná plocha a
+EA](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md); [Color
+Teams](@/glossary/color-teams.md) doplňují technickou plochu o epistemickou.
 
-The external attack surface of a modern organization extends far beyond its primary domain and known IP ranges. Shadow IT deployments, forgotten development environments, acquired company infrastructure, third-party SaaS integrations, and cloud resources created by individual teams all contribute to an attack surface that is often 30-60% larger than what the security team is aware of. EASM platforms close this visibility gap through automated, continuous reconnaissance.
+## Přehled
 
-The EASM lifecycle follows a four-phase continuous loop:
+Vnější útočná plocha moderní organizace sahá daleko za hlavní doménu a známé rozsahy IP
+adres. Nasazení stínového IT, zapomenutá vývojová prostředí, infrastruktura převzatých firem,
+integrace SaaS třetích stran a cloudové zdroje založené jednotlivými týmy vytvářejí útočnou
+plochu, která bývá výrazně větší, než o čem bezpečnostní tým ví. Platformy EASM tuto mezeru
+v přehledu uzavírají automatizovaným, průběžným průzkumem.
 
-| Phase | Activity | Output |
+Životní cyklus EASM je nepřetržitá smyčka čtyř fází:
+
+| Fáze | Činnost | Výstup |
 |-------|----------|--------|
-| **Discovery** | Automated reconnaissance across DNS, certificates, IP space, cloud, and OSINT sources | Comprehensive asset inventory |
-| **Classification** | Categorization of assets by type, ownership, technology, and business function | Structured asset taxonomy |
-| **Assessment** | Security evaluation of each asset for vulnerabilities, misconfigurations, and compliance gaps | Risk scores and security ratings |
-| **Monitoring** | Continuous change detection and alerting on new exposures or degraded posture | Real-time security intelligence |
+| **objevení** | automatizovaný průzkum DNS, certifikátů, IP prostoru, cloudu a zdrojů OSINT | úplný soupis aktiv |
+| **klasifikace** | třídění aktiv podle typu, vlastnictví, technologie a byznysové funkce | strukturovaná taxonomie aktiv |
+| **posouzení** | bezpečnostní hodnocení každého aktiva: zranitelnosti, chybné konfigurace, mezery v souladu | skóre rizika a bezpečnostní hodnocení |
+| **sledování** | průběžná detekce změn a výstrahy na nová vystavení nebo zhoršení stavu | bezpečnostní informace v reálném čase |
 
-### Market Context
+### Kontext trhu
 
-EASM competes in a market alongside established players and emerging platforms:
+EASM soutěží na trhu se zavedenými hráči i novými platformami. Hodnocení silných a slabých
+stránek v tabulce je pohledem platformy v době zápisu:
 
-| Vendor | Approach | Differentiator | Limitation |
+| Dodavatel | Přístup | Odlišení | Omezení |
 |--------|----------|---------------|------------|
-| **BitSight** | Third-party risk ratings | Largest rating database, insurance integration | Limited asset discovery depth |
-| **SecurityScorecard** | Security rating platform | Broad data sources, questionnaire integration | Rating methodology opacity |
-| **Black Kite** | Cyber risk intelligence | Financial quantification of risk | Complex pricing model |
-| **Censys** | Internet scanning + ASM | Deep technical scanning, research-grade data | Enterprise pricing |
-| **Prismatic Perimeter** | EASM + compliance + OSINT | NIS2/ZKB compliance, open source intelligence, Elixir/BEAM architecture | Platform-specific |
+| **BitSight** | hodnocení rizik třetích stran | velká databáze hodnocení, napojení na pojištění | omezená hloubka objevování aktiv |
+| **SecurityScorecard** | platforma bezpečnostního hodnocení | široké zdroje dat, integrace dotazníků | neprůhledná metodika hodnocení |
+| **Black Kite** | zpravodajství o kybernetickém riziku | finanční kvantifikace rizika | složitý cenový model |
+| **[Censys](@/glossary/censys.md)** | internetové skenování + ASM | hluboké technické skenování, data výzkumné kvality | podnikové ceny |
+| **Prismatic Perimeter** | EASM + soulad + OSINT | soulad s NIS2/ZKB, zpravodajství z otevřených zdrojů, architektura Elixir/BEAM | vázané na platformu |
 
-## Technical Details
+## Technické podrobnosti
 
-### Asset Discovery Architecture
+### Architektura objevování aktiv
 
-EASM discovery operates across multiple data planes, each contributing different asset types and intelligence:
+Objevování probíhá v několika datových rovinách, z nichž každá přispívá jinými typy aktiv
+a informací:
 
-| Data Plane | Sources | Assets Discovered |
+| Datová rovina | Zdroje | Objevená aktiva |
 |-----------|---------|-------------------|
-| **DNS** | Authoritative DNS, passive DNS, CT logs, brute-force | Subdomains, mail servers, name servers, CNAME chains |
-| **Certificate** | Certificate Transparency, SSL/TLS handshakes | Domains on certificates, CA information, expiry dates |
-| **IP/Network** | WHOIS, BGP, Shodan, Censys, port scanning | IP ranges, open ports, running services, banners |
-| **Cloud** | Cloud provider APIs, configuration detection | S3 buckets, Azure blobs, GCP resources, CDN configs |
-| **Web** | HTTP crawling, technology fingerprinting | Web applications, technology stacks, exposed paths |
-| **Email** | MX records, SPF/DKIM/DMARC analysis | Mail infrastructure, email security configuration |
+| **DNS** | autoritativní DNS, pasivní DNS, logy CT, zkoušení jmen | subdomény, poštovní a jmenné servery, řetězce CNAME |
+| **certifikáty** | Certificate Transparency, handshaky SSL/TLS | domény na certifikátech, údaje o CA, data expirace |
+| **IP/síť** | WHOIS, BGP, [Shodan](@/glossary/shodan.md), Censys, skenování portů | rozsahy IP, otevřené porty, běžící služby, bannery |
+| **cloud** | API poskytovatelů cloudu, detekce konfigurace | buckety S3, bloby Azure, zdroje GCP, konfigurace CDN |
+| **web** | procházení HTTP, identifikace technologií | webové aplikace, technologické zásobníky, vystavené cesty |
+| **e-mail** | záznamy MX, analýza SPF/DKIM/DMARC | poštovní infrastruktura, konfigurace zabezpečení e-mailu |
 
-### Security Rating Methodology
+### Metodika bezpečnostního hodnocení
 
-EASM platforms produce security ratings that quantify an organization's external security posture. The Prismatic Perimeter rating methodology uses a weighted scoring system:
+Platformy EASM vytvářejí bezpečnostní hodnocení, které kvantifikuje vnější bezpečnostní stav
+organizace. Metodika Prismatic Perimeter používá vážený bodovací systém (viz [Risk
+Score](@/glossary/risk-score.md)):
 
 ```elixir
 defmodule PrismaticPerimeter.SecurityRating do
@@ -136,21 +157,24 @@ defmodule PrismaticPerimeter.SecurityRating do
   end
 end
 ```
+### Integrace souladu
 
-### Compliance Integration
+Data EASM vstupují přímo do posouzení regulatorního souladu (viz [Compliance
+Framework](@/glossary/compliance-framework.md)). Prismatic Perimeter hodnotí stav organizace
+podle více rámců:
 
-EASM data feeds directly into regulatory compliance assessment. The Prismatic Perimeter evaluates organizational posture against multiple frameworks:
-
-| Framework | Jurisdiction | Key EASM-Relevant Requirements |
+| Rámec | Jurisdikce | Klíčové požadavky relevantní pro EASM |
 |-----------|-------------|-------------------------------|
-| **NIS2** (EU 2022/2555) | European Union | Risk management, incident reporting, supply chain security |
-| **ZKB** (264/2025 Sb.) | Czech Republic | Cybersecurity obligations, critical infrastructure protection |
-| **GDPR** (EU 2016/679) | European Union | Data protection, breach notification, privacy by design |
-| **DORA** (EU 2022/2554) | European Union | ICT risk management for financial entities |
+| **NIS2** (EU 2022/2555) | Evropská unie | řízení rizik, hlášení incidentů, bezpečnost dodavatelského řetězce |
+| **ZKB** (podle platformy 264/2025 Sb.) | Česká republika | povinnosti v kybernetické bezpečnosti, ochrana kritické infrastruktury |
+| **GDPR** (EU 2016/679) | Evropská unie | ochrana údajů, oznamování porušení, ochrana soukromí už při návrhu |
+| **DORA** (EU 2022/2554) | Evropská unie | řízení rizik ICT ve finančním sektoru |
 
-## Implementation in Prismatic Platform
+## Implementace v Prismatic Platform
 
-The Prismatic Platform implements EASM through the Prismatic Perimeter application (MVP complete, Milestone M46). The system architecture combines Elixir/OTP concurrency for parallel asset discovery with Phoenix LiveView for real-time dashboard visualization:
+Platforma implementuje EASM aplikací Prismatic Perimeter (v době zápisu dokončené MVP,
+milník M46). Architektura spojuje souběžnost Elixir/OTP pro paralelní objevování aktiv
+s Phoenix LiveView pro vizualizaci v reálném čase:
 
 ```elixir
 defmodule PrismaticPerimeter do
@@ -211,84 +235,81 @@ defmodule PrismaticPerimeter do
   end
 end
 ```
+### Trasy dashboardu
 
-### Dashboard Routes
-
-| Route | Purpose | Technology |
+| Trasa | Účel | Technologie |
 |-------|---------|-----------|
-| `/perimeter` | Main dashboard with overview metrics | Phoenix LiveView |
-| `/perimeter/assets` | Asset inventory with filtering and search | LiveView + Alpine.js |
-| `/perimeter/compliance` | Detailed compliance assessment by framework | LiveView |
-| `/perimeter/easm` | Advanced EASM dashboard with discovery controls | LiveView |
+| `/perimeter` | hlavní dashboard s přehledovými metrikami | Phoenix LiveView |
+| `/perimeter/assets` | soupis aktiv s filtrováním a hledáním | LiveView + Alpine.js |
+| `/perimeter/compliance` | podrobné posouzení souladu podle rámců | LiveView |
+| `/perimeter/easm` | pokročilý dashboard EASM s řízením objevování | LiveView |
 
-## Comparison with Alternatives
+## Srovnání s alternativami
 
-| Capability | Prismatic Perimeter | BitSight | SecurityScorecard | Censys ASM |
+| Schopnost | Prismatic Perimeter | BitSight | SecurityScorecard | Censys ASM |
 |-----------|--------------------|-----------|--------------------|------------|
-| Asset Discovery | DNS, Certs, Web, Email | Network scanning | Multiple sources | Deep scanning |
-| Security Rating | A-F (300-900) | 250-900 | 0-100 | N/A (risk scores) |
-| Compliance | NIS2, ZKB, GDPR | SOC2, ISO | NIST, SOC2 | Limited |
-| Real-time Dashboard | Phoenix LiveView | Web portal | Web portal | Web portal |
-| OSINT Integration | Native (250+ providers) | Limited | Limited | Research-grade |
-| Architecture | Elixir/BEAM (fault-tolerant) | Proprietary | Proprietary | Go/Python |
-| Deployment | Self-hosted + Fly.io | SaaS only | SaaS only | SaaS only |
+| objevování aktiv | DNS, certifikáty, web, e-mail | skenování sítě | více zdrojů | hloubkové skenování |
+| bezpečnostní hodnocení | A–F (300–900) | 250–900 | 0–100 | není (skóre rizika) |
+| soulad | NIS2, ZKB, GDPR | SOC2, ISO | NIST, SOC2 | omezený |
+| dashboard v reálném čase | Phoenix LiveView | webový portál | webový portál | webový portál |
+| integrace OSINT | nativní (v době zápisu 250+ poskytovatelů) | omezená | omezená | výzkumné kvality |
+| architektura | Elixir/BEAM (odolná vůči chybám) | proprietární | proprietární | Go/Python |
+| nasazení | vlastní provoz + Fly.io | jen SaaS | jen SaaS | jen SaaS |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Continuous Discovery**: Run EASM discovery on a regular schedule (daily minimum) rather than point-in-time assessments. Attack surfaces change constantly as infrastructure evolves.
+1. **Průběžné objevování:** spouštět objevování pravidelně (alespoň denně), ne jednorázově.
+   Útočné plochy se mění s vývojem infrastruktury.
+2. **Korelovat více zdrojů:** žádný jednotlivý zdroj nedá úplný přehled. Kombinovat výčet
+   DNS, Certificate Transparency, pasivní DNS a aktivní skenování (viz [Signal
+   Plurality](@/glossary/signal-plurality.md)).
+3. **Zasadit zjištění do kontextu:** holé počty aktiv bez byznysového kontextu nic neznamenají.
+   Aktiva třídit podle útvaru, kritičnosti, citlivosti dat a regulatorního rozsahu.
+4. **Upřednostnit podle rizika:** ne všechna vystavení jsou stejná. Nápravu soustředit na
+   aktiva s vysokým byznysovým dopadem a vysokou zneužitelností, ne jen na vysoká skóre
+   závažnosti.
+5. **Sledovat trendy:** sledovat vývoj hodnocení v čase, ne jen okamžitá skóre. Klesající
+   trend ukazuje na systémové problémy, i když je absolutní skóre ještě přijatelné.
+6. **Napojit na reakci na incidenty:** zjištění EASM mají vstupovat do postupů reakce na
+   incidenty s jasným postupem posouzení, nápravy a ověření (srov. [Reakce na
+   incidenty](@/kompendium/organizational-defense/31-incident-response-EA.md)).
 
-2. **Correlate Multiple Sources**: No single data source provides complete attack surface visibility. Combine DNS enumeration, certificate transparency, passive DNS, and active scanning for comprehensive coverage.
+## Případy užití
 
-3. **Contextualize Findings**: Raw asset counts are meaningless without business context. Classify assets by business unit, criticality, data sensitivity, and regulatory scope.
+- **řízení rizik třetích stran** – posouzení bezpečnostního stavu dodavatelů, partnerů
+  a článků dodavatelského řetězce vnějším pozorováním bez vnitřního přístupu a dotazníků;
+- **prověrka při fúzích a akvizicích** – posouzení digitální bezpečnosti cílové firmy
+  a odhalení skrytých závazků, technického dluhu a mezer v souladu před dokončením transakce
+  (viz [Due Diligence](@/glossary/due-diligence.md));
+- **průběžné sledování souladu** – udržování souladu s NIS2 a ZKB průběžným vnějším
+  hodnocením a tvorba důkazů pro regulatorní audity;
+- **odhalování stínového IT** – nalezení neschválených cloudových zdrojů, integrací SaaS
+  a nasazení infrastruktury mimo povědomí bezpečnostního týmu;
+- **ochrana značky** – odhalování překlepových domén, phishingové infrastruktury
+  a neoprávněného užití značky organizace.
 
-4. **Prioritize by Risk**: Not all exposures are equal. Focus remediation on assets with high business impact and high exploitability, not just high severity scores.
+## Související pojmy
 
-5. **Track Trends**: Monitor security rating trends over time, not just point-in-time scores. Declining trends indicate systemic issues even when absolute scores remain acceptable.
+Bez vlastního hesla v glosáři knihy: *Security Rating*, *NIS2*, *ZKB*, *DNS Enumeration*,
+*Attack Surface*, *Threat Intelligence*, *GDPR* a *Breach Database*. Původní heslo odkazovalo
+i na dokumentaci aplikací platformy (`prismatic_perimeter`, `prismatic_osint_core`,
+`prismatic_compliance` a další), která není součástí repozitáře knihy.
 
-6. **Integrate with Incident Response**: EASM findings should feed into incident response playbooks. When an exposure is discovered, there should be a clear workflow for assessment, remediation, and verification.
+## Související
 
-## Use Cases
+**Platforma**
 
-- **Third-Party Risk Management**: Assessing the security posture of vendors, partners, and supply chain organizations through external observation without requiring internal access or questionnaires.
+- [Shodan](@/glossary/shodan.md) a [Censys](@/glossary/censys.md) – internetové skenery,
+  z nichž objevování čerpá.
+- [OSINT](@/glossary/osint.md) – zpravodajská metodika, na níž objevování stojí.
+- [HAWKEYE](@/glossary/hawkeye.md) – zpravodajství o návštěvnících, doplněk vnějšího EASM.
+- [Risk Score](@/glossary/risk-score.md) – hodnocení A–F, které EASM vytváří.
+- [Compliance Framework](@/glossary/compliance-framework.md) – rámce, podle nichž se soulad
+  posuzuje.
+- [GreyNoise](@/glossary/greynoise.md) – rozlišení cíleného provozu od internetového šumu.
 
-- **M&A Due Diligence**: Evaluating the digital security posture of acquisition targets to identify hidden liabilities, technical debt, and compliance gaps before transaction completion.
+**Kompendium**
 
-- **Continuous Compliance Monitoring**: Maintaining ongoing NIS2 and ZKB compliance through continuous external security posture assessment, generating evidence for regulatory audits.
-
-- **Shadow IT Discovery**: Identifying unauthorized cloud resources, SaaS integrations, and infrastructure deployments that exist outside the security team's awareness.
-
-- **Brand Protection**: Detecting typosquatting domains, phishing infrastructure, and unauthorized use of organizational branding through continuous external monitoring.
-
-## Related Concepts
-
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) - A-F grading system produced by EASM analysis
-- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) - EU compliance framework assessed by the platform
-- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) - Czech compliance framework assessed alongside NIS2
-- [DNS Enumeration](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dns-enumeration/) - Core discovery technique within EASM
-- [OSINT](@/glossary/osint.md) - Intelligence methodology powering asset discovery
-- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) - The total exposure area that EASM manages
-- [HAWKEYE](@/glossary/hawkeye.md) - Visitor intelligence system complementing external EASM
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) - Structured threat data enriching EASM findings
-- [Shodan](@/glossary/shodan.md) - Internet scanner providing port and service intelligence
-- [Censys](@/glossary/censys.md) - Certificate and host scanner enriching discovery results
-- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) - Data protection regulation assessed through EASM compliance
-- [Breach Database](https://prismatic-reality-com.github.io/prismatic-promo/glossary/breach-database/)
-
-## See Also
-
-- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) -- Primary EASM application with discovery, rating, and compliance
-- [prismatic_perimeter_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter_core/README.md) -- Core EASM logic and domain models
-- [prismatic_perimeter_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter_web/README.md) -- LiveView dashboards for EASM visualization
-- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) -- OSINT engine powering asset discovery
-- [prismatic_osint_network](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_network/README.md) -- Network reconnaissance for attack surface mapping
-- [prismatic_compliance](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_compliance/README.md) -- Compliance assessment engine for NIS2 and ZKB
-- [prismatic_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_web/README.md) -- Main web interface hosting Perimeter dashboards
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Perimetr: útočná plocha a EA](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md)
+  – vnější plocha v souvislosti s technikami EA.
+- [Color Teams](@/glossary/color-teams.md) – epistemická útočná plocha vedle technické.

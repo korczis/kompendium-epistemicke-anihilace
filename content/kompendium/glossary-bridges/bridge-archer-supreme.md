@@ -35,7 +35,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 - **Sekce 02 — Supreme orchestrators**: Archer Supreme vs. mycelial coordinator
 - **Sekce 04 — NMND enforcement**: Archer Supreme jako primární vykonavatel doktríny
 - **Sekce 05 — Mission types**: impossible missions, full platform audit, rescue ops
-- **Sekce 07 — Operational doctrine**: kdy aktivovat Archer Supreme vs. /orchestrate
+- **Sekce 07 — Operational [doctrine](@/glossary/doctrine.md)**: kdy aktivovat Archer Supreme vs. /orchestrate
 - **Per-technique články**: session debriefing, pass-by-pass execution log
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.

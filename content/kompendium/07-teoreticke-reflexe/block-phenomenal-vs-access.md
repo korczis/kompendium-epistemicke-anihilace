@@ -22,7 +22,7 @@ Ned Block v eseji *On a Confusion about a Function of Consciousness* (1995) form
 - **Phenomenal consciousness (P-consciousness)** — fenomenální vědomí: **subjektivní zkušenost**, *what it is like*
 - **Access consciousness (A-consciousness)** — přístupové vědomí: **funkční dostupnost** informace pro rozhodování, řeč, paměť
 
-Pro kompendium EA poskytuje Blockova distinkce nástroj pro **analýzu strukturálních dimenzí**, na nichž EA techniky operují — některé útoky cílí na P-consciousness, jiné na A-consciousness.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Blockova distinkce nástroj pro **analýzu strukturálních dimenzí**, na nichž EA techniky operují — některé útoky cílí na P-consciousness, jiné na A-consciousness.
 
 ## 1. Distinkce P/A
 

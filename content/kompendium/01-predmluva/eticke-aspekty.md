@@ -17,7 +17,7 @@ toc = true
 
 # 1.3 Etické aspekty a upozornění
 
-Taxonomie epistemické a kognitivní anihilace představuje mimořádně citlivou oblast poznání, která vyžaduje **explicitní a rigorózní etický rámec**. Tato kapitola stanovuje fundamentální etické principy, závazné směrnice a limitace pro práci s kompendiem, které musí být striktně dodržovány všemi oprávněnými uživateli.
+Taxonomie epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md) představuje mimořádně citlivou oblast poznání, která vyžaduje **explicitní a rigorózní etický rámec**. Tato kapitola stanovuje fundamentální etické principy, závazné směrnice a limitace pro práci s kompendiem, které musí být striktně dodržovány všemi oprávněnými uživateli.
 
 ## Epistemická anihilace jako poznání s dvojím užitím
 
@@ -42,11 +42,11 @@ Tato charakteristika **fundamentálně mění kalkulus rizika**. Tradiční mode
 
 ### Neviditelnost poškození
 
-Destruktivní účinky epistemické anihilace mohou být **subjektivně nerozpoznatelné** pro postiženého jedince — fenomén [epistemické slepoty](@/glossary/epistemicka-slepota.md). To zásadně komplikuje včasnou detekci zneužití a fundamentálně mění etickou kalkulaci. Klasický liberální princip „informovaný souhlas dospělé osoby legitimizuje její volbu“ zde **selhává**, protože samotná schopnost informovaného souhlasu může být obětí manipulace.
+Destruktivní účinky epistemické anihilace mohou být **subjektivně nerozpoznatelné** pro postiženého jedince — fenomén [epistemické slepoty](@/glossary/epistemicka-slepota.md). To zásadně komplikuje včasnou detekci zneužití a fundamentálně mění etickou kalkulaci. Klasický liberální princip „[informovaný souhlas](@/glossary/informed-consent.md) dospělé osoby legitimizuje její volbu“ zde **selhává**, protože samotná schopnost informovaného souhlasu může být obětí manipulace.
 
 ### Dlouhodobá kumulativní povaha škod
 
-Na rozdíl od akutních zranění epistemická anihilace produkuje **kumulativní poškození**, které se projevuje s časovým odstupem měsíců až let. Mezi expozicí a manifestací poškození leží **kauzálně temný interval**, který komplikuje atribuci odpovědnosti a hodnocení míry škody.
+Na rozdíl od akutních zranění [epistemická anihilace](@/glossary/epistemicka-anihilace.md) produkuje **kumulativní poškození**, které se projevuje s časovým odstupem měsíců až let. Mezi expozicí a manifestací poškození leží **kauzálně temný interval**, který komplikuje atribuci odpovědnosti a hodnocení míry škody.
 
 ## Princip maximální opatrnosti
 

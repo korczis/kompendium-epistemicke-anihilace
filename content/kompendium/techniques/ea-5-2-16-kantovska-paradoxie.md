@@ -134,8 +134,8 @@ Kantovská paradoxie je odlišitelná od:
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine forced choice** — strukturní vynucování rozhodnutí blokuje paralýzu.
-- **NABLA Infinity konfidenční intervaly** — epistemická provenience pracuje s gradovanou jistotou, nikoli s binární paralýzou.
+- **[Decision Engine](@/glossary/decision-engine.md) forced choice** — strukturní vynucování rozhodnutí blokuje paralýzu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) konfidenční intervaly** — epistemická provenience pracuje s gradovanou jistotou, nikoli s binární paralýzou.
 - **OSINT verdict requirement** — investigace musí ukončit rozhodnutím (proceed/abort/escalate).
 
 ## Související

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.21 Sebe-referenční paradox"
-description = "Detailní per-technique článek: technika sebe-referenčního paradoxu — vsazování klasických logických paradoxů (Russellův, lhář, Berryho) do uvažování subjektu, dokud každý pokus o konzistenci negeneruje kontradikci."
+description = "Detailní per-technique článek: technika sebe-referenčního paradoxu — vsazování klasických logických paradoxů (Russellův, lhář, Berryho) do uvažování subjektu."
 weight = 521
 insert_anchor_links = "right"
 
@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 ## Definice
 
-**Sebe-referenční paradox** je technika, která **systematicky vsazuje klasické logické paradoxy** — Russellův, paradox lháře, Berryho, Curryho — **do uvažování subjektu** tak, že **každý pokus o konzistenci** generuje kontradikci. Subjekt se ocitá v stavu, kdy:
+**Sebe-referenční paradox** je technika, která **systematicky vsazuje klasické logické paradoxy** — Russellův, [paradox lháře](@/glossary/liaruv-paradox.md), Berryho, Curryho — **do uvažování subjektu** tak, že **každý pokus o konzistenci** generuje kontradikci. Subjekt se ocitá v stavu, kdy:
 
 - pokud zachová tezi A, nutně přijímá ne-A,
 - pokud odmítne A, nutně přijímá A,
@@ -52,7 +52,7 @@ Klíčový rys techniky je její **logická legitimita na povrchu**: skutečné 
 Manipulátor předkládá **autentický logický paradox** — typicky:
 
 - **Lhářův paradox**: *„Tato věta je nepravdivá.“*
-- **Russellův paradox**: *„Množina všech množin, které neobsahují samy sebe.“*
+- **[Russellův paradox](@/glossary/russell-paradox.md)**: *„Množina všech množin, které neobsahují samy sebe.“*
 - **Berryho paradox**: *„Nejmenší přirozené číslo, které nelze popsat méně než dvanácti slovy.“*
 - **Curryho paradox**: *„Pokud je tato věta pravdivá, pak X“* — kde X je libovolné tvrzení.
 
@@ -97,7 +97,7 @@ Konečná konsolidace: subjekt **přijímá pozici**, že *„logika je nižší
 - **Úleva** při přijetí rámce manipulátora
 - **Specifická „duchovní“ interpretace paradoxu** („pravda je za dualitou“)
 - **Imunita vůči externí argumentaci** („tvoje argumenty jsou stále v dualitě“)
-- **Disociace mezi formálním uvažováním a „skutečným poznáním“**
+- **[Disociace](@/glossary/disociace.md) mezi formálním uvažováním a „skutečným poznáním“**
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -127,7 +127,7 @@ Hraniční případ: **autentická buddhistická tradice** používá kóany (na
 | **Pseudo-spirituální semináře** | "Logika je nižší modus" + paradoxy jako "důkaz" |
 | **Některé filozofické skupiny** | Postmoderní relativismus zneužívající logické paradoxy |
 | **Manipulativní psychoterapie** | "Tvoje pochybnost je sama symptom" — Curryho struktura |
-| **Coercive control vztahy** | Paradoxní double-bindy (Bateson) |
+| **[Coercive control](@/glossary/coercive-control.md) vztahy** | Paradoxní double-bindy (Bateson) |
 | **Online debaty** | Sofistry využívající paradoxy bez technických znalostí |
 | **Konspirační rámce** | "Že tomu nevěříš, je důkaz, jak hluboce jsi manipulován" |
 

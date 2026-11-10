@@ -72,7 +72,7 @@ Markery, které by signalizovaly **asymetrii** („vědecký konsensus“, „pe
 
 ### Krok 4 — Indukce balance heuristiky
 
-Subjekt, vystaven **strukturálně symetrické** prezentaci, aktivuje **balance heuristic**: „asi pravda leží někde uprostřed“. Tato heuristika je **legitimní** v kontextu skutečné parity, **patologická** v kontextu strukturální asymetrie.
+Subjekt, vystaven **strukturálně symetrické** prezentaci, aktivuje **balance heuristic**: „asi pravda leží někde uprostřed“. Tato [heuristika](@/glossary/heuristika.md) je **legitimní** v kontextu skutečné parity, **patologická** v kontextu strukturální asymetrie.
 
 ### Krok 5 — Konsolidace skrze opakovanou expozici
 
@@ -118,7 +118,7 @@ Falešná ekvivalence vs. **legitimní balance**:
 | **Vědecké kontroverze** | Klimatologie, vakcinace, evoluce — falešná parita konsensu vs. okrajových pozic |
 | **Mediální reprezentace** | TV debate "obě strany" — bez kontextualizace distribuce expertního názoru |
 | **Pedagogická prezentace teorií** | Přehled "kompetitivních teorií" bez explicitního přiznání asymetrie |
-| **Soudní řízení** | Expert witness na obou stranách — bez kontextualizace mainstream konsensu |
+| **Soudní řízení** | [Expert witness](@/glossary/expert-witness.md) na obou stranách — bez kontextualizace mainstream konsensu |
 | **Akademické peer review** | Reviewer prezentující menšinovou pozici jako "alternativní legitimní pohled" |
 | **Korporátní rozhodnutí** | "Risk vs. opportunity" prezentováno paritně, navzdory kvantitativní asymetrii |
 | **Politický diskurz** | "Both sides" rétorika v eticky asymetrických situacích |
@@ -207,7 +207,7 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 ### Eskaluje do
 
 - **EA-1.6.2 Vzorec „Epistemický trojský kůň“** — falešná ekvivalence je vehicle pro „vpašování“ marginal pozice do mainstream diskurzu.
-- **Kolektivní epistemická delegitimizace** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — falešná ekvivalence v měřítku komunity vede k ztrátě kalibrace vůči expertnímu konsensu.
+- **Kolektivní epistemická [delegitimizace](@/glossary/delegitimizace.md)** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — falešná ekvivalence v měřítku komunity vede k ztrátě kalibrace vůči expertnímu konsensu.
 
 ### Hraniční / podobné
 
@@ -216,7 +216,7 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine source weighting** — explicitní kvantifikace kvality zdrojů; falešně ekvivalentní zdroje jsou strukturálně penalizovány.
+- **[Decision Engine](@/glossary/decision-engine.md) source weighting** — explicitní kvantifikace kvality zdrojů; falešně ekvivalentní zdroje jsou strukturálně penalizovány.
 - **OSINT investigation framework** — Triple-verification protocol vyžaduje **kvalitativně srovnatelné** zdroje, nejen „two opinions“.
 - **NABLA Infinity confidence calibration** — pokud kandidátní decision přiřazuje paritní confidence asymetricky-supported hypotézám, system flagguje anomálii.
 

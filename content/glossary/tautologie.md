@@ -72,7 +72,7 @@ Tautologie je nejjednodušším příkladem toho, jak může jazyk vytvářet ji
 ## Literatura
 
 - Wittgenstein, L. (1921). *Tractatus Logico-Philosophicus*.
-- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 
 ## Související
 

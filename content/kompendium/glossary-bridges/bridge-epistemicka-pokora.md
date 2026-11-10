@@ -54,7 +54,7 @@ Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich v
 
 ## Klinicke a filosoficke implikace
 
-Epistemická pokora je výkon, ne pasivita: aktivní udržování calibrated confidence napříč tématy. Filosoficky reflektuje sokratovské 'vím, že nic nevím' jako ctnost, ne paralýzu. V Prismatic Decision Engine: confidence 95+ triggeruje overconfidence alert — system enforcuje pokoru architekturálně. Klinicky: pokorný kliník je méně náchylný k diagnostic anchoring.
+Epistemická pokora je výkon, ne pasivita: aktivní udržování calibrated confidence napříč tématy. Filosoficky reflektuje sokratovské 'vím, že nic nevím' jako ctnost, ne paralýzu. V Prismatic [Decision Engine](@/glossary/decision-engine.md): confidence 95+ triggeruje overconfidence alert — system enforcuje pokoru architekturálně. Klinicky: pokorný kliník je méně náchylný k diagnostic anchoring.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

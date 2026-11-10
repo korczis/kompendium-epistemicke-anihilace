@@ -27,13 +27,13 @@ NABLA Infinity (mathematický symbol ∇∞ — gradient v nekonečně-dimenzion
 
 | Axiom | Vynucení | Obrana proti |
 |-------|----------|--------------|
-| **1. Signal Plurality** | HARD | EA-1.1.1 Selektivní expozice (single-source manipulace) |
-| **2. Contradiction Preservation** | HARD | Cherry picking, EA-1.3.1 Imunizace proti falsifikaci |
-| **3. Absence Informative** | SOFT | EA-1.1.2 Informační přetížení maskující chybějící evidenci |
+| **1. [Signal Plurality](@/glossary/signal-plurality.md)** | HARD | [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) Selektivní expozice (single-source manipulace) |
+| **2. Contradiction Preservation** | HARD | Cherry picking, [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) Imunizace proti falsifikaci |
+| **3. Absence Informative** | SOFT | [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) Informační přetížení maskující chybějící evidenci |
 | **4. Time Decay** | HARD | Použití zastaralých dat jako aktuální evidence |
 | **5. Unknown Valid** | HARD | False certainty, vynucené určení v podmínkách nejistoty |
 | **6. Source Independence** | SOFT | Iluzorní plurality (mnoho zdrojů, jeden původ) |
-| **7. Provenance Mandatory** | HARD | EA-1.3.3 Tematická diverze, ztráta auditovatelnosti |
+| **7. Provenance Mandatory** | HARD | [EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) Tematická diverze, ztráta auditovatelnosti |
 
 Pět hard-vynucených axiomů (1, 2, 4, 5, 7) generuje **E2 BLOCK** při porušení — operace je halted dokud porušení neopraví. Dva soft-vynucené axiomy (3, 6) generují **E1 WARNING** s vyžadovanou investigací. Žádný flag, konfigurace ani autoritativní úroveň nemůže axiomy deaktivovat.
 
@@ -95,12 +95,12 @@ Apex úroveň — emergentní platformové vědomí monitorující dlouhodobé v
 |---------------|--------------------|-------------------|
 | **EA-1.1.1 Selektivní expozice** | Vynucená pluralita zdrojů | Axiom 1 (Signal Plurality), L4 Correlation |
 | **EA-1.1.2 Informační přetížení** | Strukturní extrakce signálů | L1 Signal Extraction |
-| **EA-1.1.3 Terminologická mystifikace** | Provenance + glossary | Axiom 7, L3 Source Attribution |
-| **EA-1.2.1 Falešné dilema** | Multiple hypotézy | L8 Hypothesis Formation |
-| **EA-1.2.2 Falešná ekvivalence** | Korelační analýza | L4 Signal Correlation |
-| **EA-1.2.3 Iluzorní komplexita** | Strukturální dekompozice | L5 Pattern Detection |
+| **[EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) Terminologická mystifikace** | Provenance + glossary | Axiom 7, L3 Source Attribution |
+| **[EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) Falešné dilema** | Multiple hypotézy | L8 Hypothesis Formation |
+| **[EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) Falešná ekvivalence** | Korelační analýza | L4 Signal Correlation |
+| **[EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) Iluzorní komplexita** | Strukturální dekompozice | L5 Pattern Detection |
 | **EA-1.3.1 Imunizace proti falsifikaci** | Contradiction Preservation | Axiom 2, L6 Contradiction Identification |
-| **EA-1.3.2 Strategická reinterpretace** | Provenance traceability | Axiom 7, audit log |
+| **[EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) Strategická reinterpretace** | Provenance traceability | Axiom 7, audit log |
 | **EA-1.3.3 Tematická diverze** | Audit chain | Axiom 7, L3 Source Attribution |
 | **EA-1.4.x Prosodicko-emocionální techniky** | Multi-modal signal validation | L2 Signal Validation |
 | **EA-1.5.x Tělesné techniky** | Strukturní mediace přes textuální layer | Pipeline operuje na strukturní vrstvě |
@@ -109,12 +109,12 @@ Apex úroveň — emergentní platformové vědomí monitorující dlouhodobé v
 
 [Color Teams](@/glossary/color-teams.md) operacionalizují **strukturální adversariální testování** taxonomicky popsaných útoků v provozním prostředí Prismatic. Šest týmů (Gray, Red, Blue, Purple, White, Black) testuje robustnost NABLA defenz vůči kategoriím útoků formulovaným v taxonomii:
 
-- **Gray Team** — Boundary exploration: identifikuje **mezery** v specifikaci, kde by anihilační techniky mohly proklouznout.
-- **Red Team** — Adversarial simulation: implementuje konkrétní EA-techniky proti systému (truth distortion, signal poisoning, drift induction, salience hijacking).
-- **Blue Team** — Epistemic defense: udržuje strukturní obrany a syntetizuje signály pod NABLA constraints.
-- **Purple Team** — Synthesis & closure: mapuje Red findings na Blue defenses, ověřuje, že každý taxonomicky popsaný útok má dokumentovanou obrannou odezvu.
-- **White Team** — Constructive verification: formálně verifikuje (Lean4 proofs) klíčové defenzivní invariantní vlastnosti.
-- **Black Team** — Theoretical threat modeling: pod přísnou izolací modeluje teoretické worst-case útoky včetně dosud nepozorovaných variant.
+- **[Gray Team](@/glossary/gray-team.md)** — Boundary exploration: identifikuje **mezery** v specifikaci, kde by anihilační techniky mohly proklouznout.
+- **[Red Team](@/glossary/red-team.md)** — Adversarial simulation: implementuje konkrétní EA-techniky proti systému (truth distortion, signal poisoning, drift induction, salience hijacking).
+- **[Blue Team](@/glossary/blue-team.md)** — Epistemic defense: udržuje strukturní obrany a syntetizuje signály pod NABLA constraints.
+- **[Purple Team](@/glossary/purple-team.md)** — Synthesis & closure: mapuje Red findings na Blue defenses, ověřuje, že každý taxonomicky popsaný útok má dokumentovanou obrannou odezvu.
+- **[White Team](@/glossary/white-team.md)** — Constructive verification: formálně verifikuje (Lean4 proofs) klíčové defenzivní invariantní vlastnosti.
+- **[Black Team](@/glossary/black-team.md)** — Theoretical threat modeling: pod přísnou izolací modeluje teoretické worst-case útoky včetně dosud nepozorovaných variant.
 
 Color Teams operují **výhradně** na syntetických datech v sandboxech — žádná produkční data, žádné PII. Tato omezení jsou strukturně vynucena ethics-checks každých 10–15 sekund.
 

@@ -92,7 +92,7 @@ Co může vidět vnější pozorovatel:
 
 ### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
 
-EA-5.3.2 (autobiografická dekonstrukce), EA-5.3.23 (konstitutivní mytologizace)
+[EA-5.3.2](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md) (autobiografická dekonstrukce), [EA-5.3.23](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md) (konstitutivní mytologizace)
 
 ### Cross-categorical references
 
@@ -125,16 +125,16 @@ Technika **self-narrative replacement** představuje strukturální výzvu pro d
 
 ## Teoretické zázemí
 
-Ricoeurova **narativní identita** je nahrazena cizím master-narrativem — substituovaný subjekt vypráví příběh, který není jeho. Husserlova **passive synthesis** je obejita: nový narativ je vložen aktivně, bez postupné sedimentace. Merleau-Pontyho **chair** odhaluje, že narativ je tělově ukotven — replacement narratives nemají tělovou rezonanci, jsou disinkarnovány. Damasiův **self-as-knower/self-as-known** rozštěp se prohlubuje. Levinasovo **témoignage** (svědectví) je falsifikováno: subjekt svědčí o příběhu, který sám nezažil. Lyotardova kritika **velkých vyprávění** (*La condition postmoderne*) ukazuje moc master-narrativů — manipulace je instaluje na mikro-úrovni. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Ricoeurova **[narativní identita](@/glossary/narativni-identita.md)** je nahrazena cizím master-narrativem — substituovaný subjekt vypráví příběh, který není jeho. Husserlova **passive synthesis** je obejita: nový narativ je vložen aktivně, bez postupné sedimentace. Merleau-Pontyho **chair** odhaluje, že narativ je tělově ukotven — replacement narratives nemají tělovou rezonanci, jsou disinkarnovány. Damasiův **self-as-knower/self-as-known** rozštěp se prohlubuje. Levinasovo **témoignage** (svědectví) je falsifikováno: subjekt svědčí o příběhu, který sám nezažil. Lyotardova kritika **velkých vyprávění** (*La condition postmoderne*) ukazuje moc master-narrativů — manipulace je instaluje na mikro-úrovni. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
-- **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
 - **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

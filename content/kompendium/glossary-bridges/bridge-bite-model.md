@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-BITE Model (Steven Hassan) je analytický rámec pro rozpoznání prvků undue influence v destruktivních kultech a coercive systémech. Akronymizuje čtyři dimenze kontroly: Behavior control (řízení chování), Information control (kontrola informací), Thought control (kontrola myšlení) a Emotional control (kontrola emocí). Slouží jako diagnostický nástroj i terapeutický rámec pro exit-counseling.
+BITE Model (Steven Hassan) je analytický rámec pro rozpoznání prvků [undue influence](@/glossary/undue-influence.md) v destruktivních kultech a coercive systémech. Akronymizuje čtyři dimenze kontroly: Behavior control (řízení chování), Information control (kontrola informací), Thought control (kontrola myšlení) a Emotional control (kontrola emocí). Slouží jako diagnostický nástroj i terapeutický rámec pro exit-counseling.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -32,7 +32,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
-- **Sekce 06 — Coercive control modely**: BITE vs. Lifton's 8 criteria, Singer's 6 conditions
+- **Sekce 06 — [Coercive control](@/glossary/coercive-control.md) modely**: BITE vs. Lifton's 8 criteria, Singer's 6 conditions
 - **Sekce 07 — Cult dynamics**: rozpoznání kultovní organizace přes BITE skóre
 - **Sekce 08 — Aplikace v DD**: BITE jako screening framework pro toxic corporate cultures
 - **Sekce 09 — Exit counseling**: BITE-driven dekonstrukce influence
@@ -48,7 +48,7 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 |---|---|---|
 | nástroj | Coercive control assessment | rámec |
 | kontrastuje | Lifton 8 criteria | alternativní model |
-| doplňuje | DARVO, gaslighting | exploitační taktiky |
+| doplňuje | DARVO, [gaslighting](@/glossary/gaslighting.md) | exploitační taktiky |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
 

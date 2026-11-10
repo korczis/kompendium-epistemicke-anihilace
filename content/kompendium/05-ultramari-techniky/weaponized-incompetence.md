@@ -17,7 +17,7 @@ quality_score = 80
 
 ## Definice
 
-**Weaponized Incompetence** patří mezi **ultramari techniky** (sekce 05 Prismatic Kompendia) — kategorii high-severity epistemických útoků, které kombinují více útočných vektorů současně a vyžadují koordinovanou víceúrovňovou obranu. Ultramari techniky překračují individuální epistemické útoky a pracují na úrovni celé interakce, narativu nebo identity oběti.
+**[Weaponized Incompetence](@/glossary/weaponized-incompetence.md)** patří mezi **ultramari techniky** (sekce 05 Prismatic Kompendia) — kategorii high-severity epistemických útoků, které kombinují více útočných vektorů současně a vyžadují koordinovanou víceúrovňovou obranu. Ultramari techniky překračují individuální epistemické útoky a pracují na úrovni celé interakce, narativu nebo identity oběti.
 
 {% <callout type="warning"> %}
 Ultramari techniky mají **severity = HIGH**. Klinická konzultace je doporučena při dlouhodobé expozici. Recovery protokoly v sekci `recovery-protocols/` jsou navrženy pro extrakci z těchto vzorců.
@@ -38,7 +38,7 @@ Detailní analýza jednotlivých fází je dokumentována v technique-level čl�
 Operační detekce **Weaponized Incompetence** se opírá o behaviorální a lingvistické markery dokumentované v [detection-signatures/](@/kompendium/detection-signatures/_index.md). Analytik hledá diskrepance mezi:
 
 - explicitním obsahem výroku a implicitním rámcem (motte-bailey vzorec)
-- rychlostí přechodu mezi pozicemi (sealioning timing)
+- rychlostí přechodu mezi pozicemi ([sealioning](@/glossary/sealioning.md) timing)
 - asymetrií v důkazních standardech mezi vlastními a oponentovými tvrzeními
 
 ## Counter-protokol

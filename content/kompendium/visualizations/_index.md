@@ -1,6 +1,6 @@
 +++
 title = "Interaktivní vizualizace"
-description = "Klikatelné Chart.js / Three.js / p5.js vizualizace EA taxonomie — distribuce, severity matrix, 3D graph technik, recovery trajectory, fenomenologická timeline, 2D síť, rekurzivní spirála, NABLA pipeline, simulace epistemické dezintegrace, simulace narušení pozornosti."
+description = "Klikatelné Chart.js / Three.js / p5.js vizualizace EA taxonomie — distribuce, severity matrix, 3D graph technik, recovery trajectory, fenomenologická timeline, 2D síť, rekurzivní spirála."
 weight = 90
 sort_by = "weight"
 template = "kompendium/section.html"
@@ -69,7 +69,7 @@ Demonstrace [EA-1.1.2 informačního přetížení](@/kompendium/techniques/ea-1
 
 ## 7. Fenomenologická timeline symptomů (Chart.js)
 
-Scatter chart s pěti symptomovými stopami (úzkost, depersonalizace, epistemická nejistota, somatická tíseň, konfuze identity) napříč 0–60 měsíci EA expozice. Klikněte na bod pro popis fenoménu v dané fázi.
+Scatter chart s pěti symptomovými stopami (úzkost, [depersonalizace](@/glossary/depersonalizace.md), epistemická nejistota, somatická tíseň, konfuze identity) napříč 0–60 měsíci EA expozice. Klikněte na bod pro popis fenoménu v dané fázi.
 
 <canvas id="phenomenology-timeline" width="800" height="500"></canvas>
 <div id="phenomenology-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
@@ -125,7 +125,7 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 
 ## 14. Sankey-like progrese zotavení (Chart.js custom plugin)
 
-5-stádiový tok pacientů: posouzení → stabilizace → metakognice → hermeneutika → konsolidace. Šířka sloupce = proporce postupujících pacientů. Klikni na stádium pro výpis typických intervencí.
+5-stádiový tok pacientů: posouzení → stabilizace → [metakognice](@/glossary/metakognice.md) → [hermeneutika](@/glossary/hermeneutika.md) → konsolidace. Šířka sloupce = proporce postupujících pacientů. Klikni na stádium pro výpis typických intervencí.
 
 <canvas id="recovery-sankey" width="800" height="450"></canvas>
 <div id="recovery-sankey-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>

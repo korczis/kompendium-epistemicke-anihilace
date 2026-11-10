@@ -87,7 +87,7 @@ své limity“. Rozpor mezi lékařským vysvětlením a skupinovým výkladem �
   jak se měnil režim a vztahy.
 - **S2 – Externalizace introjektů:** věty „bolest je slabost opouštějící tělo“, „odpočinek je pro
   lenochy“ přiřazeny zdroji.
-- **S3 – Rekonstrukce metakognice:** obnova [somatické pozornosti](@/kompendium/self-defense-guides/13-somatic-awareness.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova [somatické pozornosti](@/kompendium/self-defense-guides/13-somatic-awareness.md)
   – učit se znovu číst signály těla.
 - **S4 – Hermeneutická obnova:** nový vztah ke sportu: pohyb pro radost a zdraví, ne jako
   důkaz hodnoty.

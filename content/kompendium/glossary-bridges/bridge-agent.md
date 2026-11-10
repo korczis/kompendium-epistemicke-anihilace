@@ -46,8 +46,8 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
-| registrován v | Agent Registry | katalogizace |
-| klasifikován | Agent Tier | hierarchie |
+| registrován v | [Agent Registry](@/glossary/agent-registry.md) | katalogizace |
+| klasifikován | [Agent Tier](@/glossary/agent-tier.md) | hierarchie |
 | specializuje se | Domain (OSINT, DD, ...) | expertise |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.

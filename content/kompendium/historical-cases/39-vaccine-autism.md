@@ -5,6 +5,9 @@ description = "Londýn 1998–2010: článek Andrewa Wakefielda v The Lancet spo
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

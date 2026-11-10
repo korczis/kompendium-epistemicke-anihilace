@@ -94,7 +94,7 @@ sebekritickém sezení – poprvé ho prožila jako divadlo.
   mapa vztahů, které organizace přerušila.
 - **S2 – Externalizace introjektů:** jazyk sebekritiky („buržoazní individualismus“,
   „oportunismus“) zapsán a odlišen od vlastní etiky.
-- **S3 – Rekonstrukce metakognice:** obnova schopnosti držet nejistotu a pluralitu názorů
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova schopnosti držet nejistotu a pluralitu názorů
   ([pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)).
 - **S4 – Hermeneutická obnova:** oddělení hodnot (spravedlnost, solidarita), které si ponechala,
   od uzavřeného systému, který je zneužil.

@@ -1,67 +1,139 @@
 +++
-title = "Complex Trauma"
+title = "Komplexní trauma (complex trauma)"
 weight = 60
 
-description = "Trauma resulting from prolonged, repeated exposure to interpersonal violation in contexts of inescapability — Judith Herman's category encompassing damage that single-incident PTSD frameworks fail to capture."
+description = "Trauma z dlouhodobého, opakovaného mezilidského násilí v situaci bez úniku – kategorie Judith Hermanové pro poškození, které rámec PTSD z jednorázové události nezachytí."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "kompendium", "clinical"]
+tags = ["glossary", "epistemic", "kompendium", "clinical", "trauma"]
 
 [extra]
 category = "clinical"
 related_terms = ["trauma-spectrum", "trauma-bond", "structural-dissociation", "hippocampus-trauma", "hpa-axis", "fawn-response"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "3 min"
-word_count = 510
-date_created = "2026-04-26"
-date_modified = "2026-04-26"
-keywords = ["complex trauma", "C-PTSD", "Herman", "DESNOS", "captivity", "interpersonal trauma", "clinical"]
-quality_score = 82
+reading_time = "7 min"
+word_count = 1200
+date_created = "2026-04-25"
+date_modified = "2026-11-10"
+keywords = ["komplexní trauma", "complex trauma", "C-PTSD", "Herman", "DESNOS", "zajetí", "mezilidské trauma", "klinika"]
+quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Complex Trauma - glossary"
+image_alt = "Komplexní trauma – glosář"
 +++
 
-## Definition
+## Definice
 
-**Complex trauma** — given clinical recognition through Judith Herman's *Trauma and Recovery* (1992) and formalized in ICD-11 (2019) as **complex post-traumatic stress disorder (C-PTSD)** — refers to trauma arising from **prolonged, repeated exposure to interpersonal violation in contexts of physical or psychological inescapability**. The defining contrast with classical PTSD is durational and contextual: classical PTSD is paradigmatically modeled on single-incident exposure (combat, assault, accident) followed by escape; complex trauma involves sustained captivity-like conditions where the source of harm is also a primary attachment figure or institution and the target cannot leave.
+**Komplexní trauma** (angl. *complex trauma*) – klinicky uznané díky knize Judith
+Hermanové *Trauma and Recovery* (1992) a formalizované v MKN-11 (přijaté 2019) jako
+**komplexní posttraumatická stresová porucha** (viz [C-PTSD](@/glossary/c-ptsd.md)) –
+označuje trauma, které vzniká z **dlouhodobého, opakovaného vystavení mezilidskému násilí
+v situaci fyzické nebo psychické nemožnosti úniku**. Rozhodující rozdíl oproti klasické
+PTSD spočívá v trvání a kontextu: klasická PTSD je modelována na jednorázové události (boj,
+napadení, nehoda), po níž následuje únik; komplexní trauma zahrnuje trvalé podmínky
+podobné zajetí, v nichž je zdrojem újmy zároveň primární vazebná osoba nebo instituce
+a zasažený nemůže odejít.
 
-ICD-11 C-PTSD requires the three classical PTSD clusters (re-experiencing, avoidance, hyperarousal) plus three **disturbances in self-organization**: persistent and pervasive **affect dysregulation** (poor stress response, dissociative episodes, suicidal ideation), persistent and pervasive **negative self-concept** (worthlessness, shame, guilt, defeat), and persistent and pervasive **interpersonal relationship difficulty** (avoidance, distrust, low engagement).
+C-PTSD podle MKN-11 vyžaduje tři klasické okruhy PTSD (znovuprožívání, vyhýbání, trvalý
+pocit ohrožení) a navíc tři **poruchy sebeorganizace**:
 
-The phenotype includes characteristic features absent or attenuated in classical PTSD: somatization (complex somatic symptom presentations without identified medical etiology), structural dissociation (compartmentalized self-states), trauma bonding (paradoxical attachment to perpetrator), reenactment (re-creation of traumatic dynamics in subsequent relationships), and characteristic cognitive distortions (overgeneralized helplessness, foreshortened future, fixed negative self-evaluation).
+- trvalou a pronikavou **dysregulaci afektu** (špatná reakce na stres, disociativní
+  epizody, sebevražedné myšlenky);
+- trvalé a pronikavé **negativní sebepojetí** (bezcennost, stud, vina, porážka);
+- trvalé a pronikavé **obtíže ve vztazích** (vyhýbání, nedůvěra, nízké zapojení).
 
-The category is closely associated with experiences such as childhood abuse (particularly sexual or by primary caregivers), domestic violence in adult relationships, captivity (concentration camps, prisoner-of-war situations, hostage situations), trafficking, and high-control religious or political organizations.
+## Původ a kontext pojmu
 
-## Context
+Hermanová navrhla kategorii, protože diagnóza PTSD nevystihovala hlubokou proměnu osobnosti
+po dlouhodobém zajetí, zneužívání v dětství nebo domácím násilí. V americké psychiatrii se
+v 90. letech zkoumal příbuzný konstrukt DESNOS (*Disorders of Extreme Stress Not Otherwise
+Specified*); samostatnou diagnózu však DSM nepřijalo a uznání přinesla až MKN-11.
 
-Complex trauma is the **clinical equivalent** of what kompendium epistemic-annihilation techniques produce when applied across extended timescales in inescapable interpersonal contexts. The convergence is not coincidental: many of the most severe kompendium techniques are themselves descriptions of mechanisms operative in coercive control, cult dynamics, and abusive relationships, where they produce complex trauma as a routine outcome.
+Kategorie je úzce spojena se zkušenostmi, jako je zneužívání v dětství (zejména sexuální
+nebo ze strany pečujících osob), domácí násilí v dospělých vztazích, zajetí (koncentrační
+tábory, válečné zajetí, rukojmí), obchod s lidmi a náboženské nebo politické organizace
+s vysokou mírou kontroly (viz [High Control Group](@/glossary/high-control-group.md)).
 
-For Prismatic, this means complex trauma is **diagnostically central** in DD and HR-screening contexts where sustained influence histories are at issue. Subjects presenting with full C-PTSD phenotype — particularly the disturbances-in-self-organization cluster — are presumptively coming from environments where epistemic-annihilation-grade processes have been operating, even when the precipitating environment cannot be directly investigated. The clinical pattern itself constitutes evidence about the environment.
+## Jak se projevuje
 
-Platform-level implications include: (1) clinical-referral pathways are explicitly required when complex-trauma indicators are detected — the platform must not become a substitute for treatment; (2) testimony from subjects with complex-trauma indicators receives specific calibration adjustment recognizing the autobiographical-retrieval and self-evaluation distortions characteristic of the condition; (3) the Decision Engine treats consistent complex-trauma signatures as convergent evidence supporting hypotheses about sustained coercive environment.
+Obraz zahrnuje rysy, které u klasické PTSD chybějí nebo jsou slabší:
 
-## Interactive: Domain Accumulation
+- **somatizace** – složité tělesné obtíže bez zjištěné lékařské příčiny;
+- **strukturální disociace** – oddělené stavy já (viz [Disociace](@/glossary/disociace.md));
+- **traumatická vazba** – paradoxní připoutání k pachateli (viz [Trauma
+  bonding](@/glossary/trauma-bonding.md));
+- **reinscenace** – opakování traumatické dynamiky v dalších vztazích;
+- **typická kognitivní zkreslení** – zobecněná bezmoc, zkrácená perspektiva budoucnosti,
+  pevné negativní sebehodnocení.
 
-Complex trauma is durational and developmental — adversity sustained across formative years accumulates dysregulation differently across five clinical domains, each with its own developmental-window vulnerability. Slide adversity intensity (per developmental year) and watch how cumulative load distributes across attachment, affect regulation, cognition, biology, and self-concept.
+## Mechanismus
+
+Komplexní trauma je **klinickým ekvivalentem** toho, co techniky [epistemické
+anihilace](@/glossary/epistemicka-anihilace.md) popsané v Kompendiu vytvářejí, když
+působí dlouhodobě v mezilidském kontextu bez úniku. Shoda není náhodná: mnohé
+z nejzávažnějších technik Kompendia jsou samy popisem mechanismů, které působí v [coercive
+control](@/glossary/coercive-control.md), v dynamice kultů a v násilných vztazích – a tam
+komplexní trauma vzniká jako běžný výsledek. Mechanismus zprostředkovává [trauma ze
+zrady](@/glossary/betrayal-trauma.md): ten, kdo ubližuje, je zároveň ten, na kom zasažený
+závisí.
+
+## Odlišení
+
+- **PTSD** – chybí poruchy sebeorganizace; vazba na jednorázovou událost.
+- **Hraniční porucha osobnosti** – značný překryv; u komplexního traumatu je sebepojetí
+  stabilně negativní a obtíže jsou zřetelně spojeny s traumatickou historií.
+- **Vývojové poruchy a deprese** – mohou se vyskytovat současně; rozhoduje anamnéza
+  a vzorec obtíží (viz [diferenciální
+  diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)).
+
+## Význam pro Kompendium
+
+Na platformě, z níž kniha vzešla, je komplexní trauma **diagnosticky ústřední** v kontextu
+prověrek ([due diligence](@/glossary/due-diligence.md)) a personálního screeningu tam, kde jde o historii dlouhodobého
+vlivu. U lidí s plně vyjádřeným obrazem C-PTSD – zejména s okruhem poruch sebeorganizace –
+se předpokládá, že pocházejí z prostředí, v němž působily procesy na úrovni epistemické
+anihilace, i když samotné prostředí nelze přímo prošetřit. Klinický obraz sám je
+důkazem o prostředí – jako hypotéza, nikoli jako závěr.
+
+Důsledky na úrovni platformy:
+
+1. při zjištění znaků komplexního traumatu jsou výslovně vyžadovány cesty klinického
+   doporučení – platforma se nesmí stát náhradou léčby;
+2. výpovědi osob se znaky komplexního traumatu procházejí zvláštní kalibrační úpravou, která
+   zohledňuje typické zkreslení vybavování životopisných vzpomínek a sebehodnocení
+   (viz [Hodnocení věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md));
+3. [Decision Engine](@/glossary/decision-engine.md) bere konzistentní podpisy komplexního
+   traumatu jako sbíhavý důkaz podporující hypotézy o dlouhodobém koercivním prostředí.
+
+## Interaktivní model: kumulace v doménách
+
+Komplexní trauma je časově rozprostřené a vývojové: nepříznivé zkušenosti trvající
+ve formativních letech kumulují dysregulaci v pěti klinických doménách odlišně, každá má
+vlastní vývojové okno zranitelnosti. Posuvníkem nastavte intenzitu nepříznivých zkušeností
+(na vývojový rok) a sledujte, jak se kumulativní zátěž rozkládá mezi vazbu, regulaci
+afektu, kognici, biologii a sebepojetí.
+
+> Model je **didaktická ilustrace**, nikoli diagnostický nástroj: koeficienty
+> a prahy jsou zvoleny pro názornost a nejsou odvozeny z validovaných dat.
 
 <div class="bg-gray-800 rounded-xl border border-gray-700 my-8 p-6" x-data="complexTrauma()">
     <div class="mb-6">
         <label class="block text-sm font-medium text-gray-300 mb-2">
-            Adversity Intensity per Developmental Year: <span class="text-rose-300 font-mono" x-text="adversity"></span>
+            Intenzita nepříznivých zkušeností na vývojový rok: <span class="text-rose-300 font-mono" x-text="adversity"></span>
         </label>
         <input type="range" min="0" max="10" x-model.number="adversity" class="w-full accent-rose-500" />
-        <p class="text-xs text-gray-400 mt-1">Sustained interpersonal violation in inescapable contexts (0 = none, 10 = pervasive)</p>
+        <p class="text-xs text-gray-400 mt-1">Trvalé mezilidské násilí v situaci bez úniku (0 = žádné, 10 = všudypřítomné)</p>
     </div>
     <div class="flex flex-wrap gap-2 mb-6">
-        <button @click="adversity = 1" class="px-3 py-1 text-xs bg-emerald-700 text-white rounded-md hover:bg-emerald-600">Secure Childhood</button>
-        <button @click="adversity = 3" class="px-3 py-1 text-xs bg-amber-700 text-white rounded-md hover:bg-amber-600">Single Incident</button>
-        <button @click="adversity = 6" class="px-3 py-1 text-xs bg-orange-700 text-white rounded-md hover:bg-orange-600">Chronic Neglect</button>
-        <button @click="adversity = 8" class="px-3 py-1 text-xs bg-rose-700 text-white rounded-md hover:bg-rose-600">Complex Trauma</button>
-        <button @click="adversity = 10" class="px-3 py-1 text-xs bg-purple-700 text-white rounded-md hover:bg-purple-600">Polyvictimization</button>
+        <button @click="adversity = 1" class="px-3 py-1 text-xs bg-emerald-700 text-white rounded-md hover:bg-emerald-600">Bezpečné dětství</button>
+        <button @click="adversity = 3" class="px-3 py-1 text-xs bg-amber-700 text-white rounded-md hover:bg-amber-600">Jednorázová událost</button>
+        <button @click="adversity = 6" class="px-3 py-1 text-xs bg-orange-700 text-white rounded-md hover:bg-orange-600">Chronické zanedbávání</button>
+        <button @click="adversity = 8" class="px-3 py-1 text-xs bg-rose-700 text-white rounded-md hover:bg-rose-600">Komplexní trauma</button>
+        <button @click="adversity = 10" class="px-3 py-1 text-xs bg-purple-700 text-white rounded-md hover:bg-purple-600">Polyviktimizace</button>
     </div>
     <div class="bg-gray-900 rounded-lg p-4 mb-4">
         <div class="text-center mb-3">
-            <span class="text-xs text-gray-400 uppercase tracking-wide">Cumulative Dysregulation Load</span>
+            <span class="text-xs text-gray-400 uppercase tracking-wide">Kumulativní zátěž dysregulace</span>
             <div class="text-3xl font-mono font-bold" :class="loadTextClass" x-text="cumulativeLoad.toFixed(0)"></div>
             <span class="text-xs" :class="loadTextClass" x-text="loadCategory"></span>
         </div>
@@ -82,19 +154,19 @@ Complex trauma is durational and developmental — adversity sustained across fo
         </svg>
     </div>
     <div class="mt-4 text-sm text-gray-300" x-show="adversity <= 2">
-        <span class="text-emerald-400 font-semibold">Secure baseline.</span> Developmental windows close on resilient substrate. No C-PTSD signature; standard testimony interpretation applies.
+        <span class="text-emerald-400 font-semibold">Bezpečný základ.</span> Vývojová okna se uzavírají na odolném podkladu. Bez podpisu C-PTSD; platí běžný výklad výpovědi.
     </div>
     <div class="mt-4 text-sm text-gray-300" x-show="adversity > 2 && adversity <= 5">
-        <span class="text-amber-400 font-semibold">Sub-threshold accumulation.</span> Some domain elevation but no convergent C-PTSD pattern. Single-incident PTSD frameworks may suffice.
+        <span class="text-amber-400 font-semibold">Podprahová kumulace.</span> Některé domény zvýšené, ale bez sbíhavého obrazu C-PTSD. Může stačit rámec PTSD z jednorázové události.
     </div>
     <div class="mt-4 text-sm text-gray-300" x-show="adversity > 5 && adversity <= 7">
-        <span class="text-orange-400 font-semibold">Approaching C-PTSD threshold.</span> Multiple domains elevated; disturbances-in-self-organization beginning to converge. Calibration adjustment warranted.
+        <span class="text-orange-400 font-semibold">Blízko prahu C-PTSD.</span> Více domén zvýšeno; poruchy sebeorganizace se začínají sbíhat. Je namístě kalibrační úprava.
     </div>
     <div class="mt-4 text-sm text-gray-300" x-show="adversity > 7 && adversity <= 9">
-        <span class="text-rose-400 font-semibold">C-PTSD signature.</span> Full disturbances-in-self-organization cluster. Clinical referral required; testimony weighted against external corroboration.
+        <span class="text-rose-400 font-semibold">Podpis C-PTSD.</span> Plný okruh poruch sebeorganizace. Nutné klinické doporučení; výpověď se posuzuje spolu s vnějším potvrzením.
     </div>
     <div class="mt-4 text-sm text-gray-300" x-show="adversity > 9">
-        <span class="text-purple-400 font-semibold">Polyvictimization profile.</span> Maximal accumulation across all domains. Strong convergent evidence for sustained epistemic-annihilation environment regardless of subject's surface narrative.
+        <span class="text-purple-400 font-semibold">Profil polyviktimizace.</span> Maximální kumulace ve všech doménách. Silná sbíhavá indicie dlouhodobého prostředí epistemické anihilace bez ohledu na povrchové vyprávění osoby.
     </div>
 </div>
 
@@ -103,11 +175,11 @@ document.addEventListener('alpine:init', () => {
     Alpine.data('complexTrauma', () => ({
         adversity: 3,
         domains: [
-            { key: 'attachment', label: 'Attachment', window: '0-3y peak', color: '#f43f5e', vuln: 1.15 },
-            { key: 'affect', label: 'Affect Reg', window: '0-7y peak', color: '#f59e0b', vuln: 1.05 },
-            { key: 'cognition', label: 'Cognition', window: '4-12y peak', color: '#6366f1', vuln: 0.85 },
-            { key: 'biology', label: 'Biology', window: '0-18y all', color: '#8b5cf6', vuln: 1.0 },
-            { key: 'selfconcept', label: 'Self-Concept', window: '5-15y peak', color: '#3b82f6', vuln: 0.95 }
+            { key: 'attachment', label: 'Vazba', window: 'vrchol 0–3 r.', color: '#f43f5e', vuln: 1.15 },
+            { key: 'affect', label: 'Regulace afektu', window: 'vrchol 0–7 r.', color: '#f59e0b', vuln: 1.05 },
+            { key: 'cognition', label: 'Kognice', window: 'vrchol 4–12 r.', color: '#6366f1', vuln: 0.85 },
+            { key: 'biology', label: 'Biologie', window: 'celé 0–18 r.', color: '#8b5cf6', vuln: 1.0 },
+            { key: 'selfconcept', label: 'Sebepojetí', window: 'vrchol 5–15 r.', color: '#3b82f6', vuln: 0.95 }
         ],
         get domainScores() {
             return this.domains.map(d => Math.max(0, Math.min(100, this.adversity * 9.5 * d.vuln + (this.adversity > 7 ? 5 : 0))));
@@ -116,11 +188,11 @@ document.addEventListener('alpine:init', () => {
             return this.domainScores.reduce((a, b) => a + b, 0) / 5;
         },
         get loadCategory() {
-            if (this.adversity <= 2) return 'Resilient baseline';
-            if (this.adversity <= 5) return 'Sub-threshold';
-            if (this.adversity <= 7) return 'Approaching C-PTSD';
-            if (this.adversity <= 9) return 'C-PTSD signature';
-            return 'Polyvictimization';
+            if (this.adversity <= 2) return 'Odolný základ';
+            if (this.adversity <= 5) return 'Podprahové';
+            if (this.adversity <= 7) return 'Blízko C-PTSD';
+            if (this.adversity <= 9) return 'Podpis C-PTSD';
+            return 'Polyviktimizace';
         },
         get loadTextClass() {
             if (this.adversity <= 2) return 'text-emerald-300';
@@ -133,21 +205,43 @@ document.addEventListener('alpine:init', () => {
 });
 </script>
 
-## See Also
+## Obrana a zotavení
 
-- [Trauma Spectrum](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-spectrum/) — Parent category
-- [Trauma Bond](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-bond/) — Characteristic complex-trauma feature
-- [Structural Dissociation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/structural-dissociation/) — Severe form
-- [Hippocampus and Trauma](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hippocampus-trauma/) — Neural substrate
-- [HPA Axis](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hpa-axis/) — Chronic dysregulation
-- [Fawn Response](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fawn-response/) — Adaptation to inescapable harm
-- [Kompendium](@/kompendium/_index.md) — EA technique taxonomy
+Léčba komplexního traumatu je **fázová**: nejprve bezpečí a stabilizace, pak zpracování
+traumatických vzpomínek, nakonec znovupropojení se životem a vztahy (Hermanová).
 
----
+- **Stabilizace:** bezpečné prostředí, regulace emocí a těla (viz [Akutní
+  stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md)).
+- **Zpracování:** v tempu, které klient zvládne; vyhnout se [retraumatizaci](@/glossary/retraumatizace.md).
+- **Znovupropojení:** obnova důvěry a vztahů (viz [Obnova
+  důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md)).
+- **Pro profesionála:** supervize, péče o sebe, pozornost k přenosu a k reinscenaci ve
+  vztahu s klientem.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+- Judith L. Herman: *Trauma and Recovery* (1992).
+- Onno van der Hart, Ellert R. S. Nijenhuis, Kathy Steele: *The Haunted Self* (2006).
+- World Health Organization: *MKN-11 / ICD-11*, 6B41 Komplexní posttraumatická stresová
+  porucha.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+## Související
+
+**Pojmy**
+
+- [C-PTSD](@/glossary/c-ptsd.md) – diagnostická kategorie MKN-11.
+- [Betrayal Trauma](@/glossary/betrayal-trauma.md) – mechanismus traumatu od toho, na kom
+  člověk závisí.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – typický rys komplexního traumatu.
+- [Disociace](@/glossary/disociace.md) – včetně strukturální disociace jako závažné formy.
+- [Coercive Control](@/glossary/coercive-control.md) – vztahový režim, který komplexní trauma
+  vytváří.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – rámec Kompendia.
+
+**Klinika a zotavení**
+
+- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+  – odlišení od příbuzných stavů.
+- [Akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) –
+  první fáze léčby.
+- [Kompendium](@/kompendium/_index.md) – taxonomie technik EA.

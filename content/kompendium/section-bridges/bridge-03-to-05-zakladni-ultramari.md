@@ -63,7 +63,7 @@ Klíčové koncepty: **kategoriální vhodnost**, **mikro-volba techniky**, **ul
 
 ## 8. Riziková tabulka: kategorie × ultramari technika
 
-Bridge dodává **rizikovou matici**: pro každou kombinaci kategorie × ultramari technika existuje **risk score** (low/medium/high/contraindicated). Kombinace označené jako `contraindicated` jsou explicitně zakázány a Pre-commit hook NCLB toto vynucuje. Kombinace `high` vyžadují dodatečné readiness gate a companion presence. Tato tabulka je živý dokument v sekci 08 (Přílohy) a je synchronizována s platform SafetyGuard policies.
+Bridge dodává **rizikovou matici**: pro každou kombinaci kategorie × ultramari technika existuje **[risk score](@/glossary/risk-score.md)** (low/medium/high/contraindicated). Kombinace označené jako `contraindicated` jsou explicitně zakázány a Pre-commit hook NCLB toto vynucuje. Kombinace `high` vyžadují dodatečné readiness gate a companion presence. Tato tabulka je živý dokument v sekci 08 (Přílohy) a je synchronizována s platform SafetyGuard policies.
 
 ---
 

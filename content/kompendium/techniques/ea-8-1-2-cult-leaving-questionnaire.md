@@ -42,7 +42,7 @@ Skórování poskytuje doménové profily a globální post-cult distress index.
 
 ## Aplikace v EA kontextu
 
-Použít minimálně 6 měsíců po opuštění skupiny pro stabilizaci skóre. Vstupní nástroj pro **EA-6.4.2 Post-Cult Protokol**. Slouží jako baseline pro měření terapeutického progresu.
+Použít minimálně 6 měsíců po opuštění skupiny pro stabilizaci skóre. Vstupní nástroj pro **[EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) Post-Cult Protokol**. Slouží jako baseline pro měření terapeutického progresu.
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Pouze pro retrospektivní použití (ne během členství). Validace na španěl
 
 ## Vztah k jiným zdrojům
 
-Komplementární k **EA-8.2.4 Hassan Cult Criteria** a **EA-8.2.10 Herman Recovery Stages**. Před nasazením doporučujeme **EA-8.1.7 Dissociative Experiences Scale**.
+Komplementární k **[EA-8.2.4](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) Hassan Cult Criteria** a **[EA-8.2.10](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) Herman Recovery Stages**. Před nasazením doporučujeme **[EA-8.1.7](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md) Dissociative Experiences Scale**.
 
 ## Cross-linky
 

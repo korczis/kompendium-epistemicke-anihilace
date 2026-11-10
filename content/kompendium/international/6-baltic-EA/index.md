@@ -75,7 +75,7 @@ energetiky, uprchlíků z Běloruska a Ukrajiny a na jazykovou politiku (viz
 [koordinované neautentické chování](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)).
 
 **Soukromé vztahy.** Mimo geopolitiku se v regionu objevují tytéž vzorce jako jinde:
-[coercive control](@/glossary/coercive-control.md) v partnerství, zneužívání seniorů,
+[coercive control](@/glossary/coercive-control.md) v partnerství, [zneužívání seniorů](@/glossary/elder-abuse.md),
 manipulace v uzavřených duchovních skupinách. Alkohol a izolace na venkově zvyšují riziko.
 
 ## 4. Ochranné faktory

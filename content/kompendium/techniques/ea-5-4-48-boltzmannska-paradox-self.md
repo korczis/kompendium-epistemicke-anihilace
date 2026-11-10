@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.48 Boltzmannovský paradox sebe sama"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že subjekt je pravděpodobněji Boltzmannův mozek než historicky kontinuální subjekt. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že subjekt je pravděpodobněji Boltzmannův mozek než historicky kontinuální subjekt."
 weight = 5448
 insert_anchor_links = "right"
 
@@ -114,7 +114,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 ### Individuální
 
 1. **Stratifikace meta-úrovní** — subjekt se naučí explicitně oddělovat *objektový jazyk* (v němž se výrok pronáší) od *metajazyka* (v němž se mluví o pronášení); tato Tarskiho separace eliminuje paradoxní zacyklení.
-2. **Pragmatický redukcionismus** — přijetí, že některé výroky **nemají** pravdivostní hodnotu v klasickém smyslu, ale jsou pragmatickými akty (Wittgenstein); paradox v takových výrocích není kognitivní pohromou.
+2. **Pragmatický [redukcionismus](@/glossary/redukcionismus.md)** — přijetí, že některé výroky **nemají** pravdivostní hodnotu v klasickém smyslu, ale jsou pragmatickými akty (Wittgenstein); paradox v takových výrocích není kognitivní pohromou.
 3. **Externí epistemický audit** — důvěryhodný kolega s metalogickou výbavou prochází se subjektem konkrétní paradoxy a explicitně demonstruje úniky.
 4. **Fenomenologická redukce** — návrat k přímému zakoušení **bez** auto-predikace; meditační praxe orientovaná na ne-reflexivní pozornost.
 5. **Specifická intervence**: Bayesianská rekalibrace s antropickými omezeními; rozlišení pre-teoretické a teoretické pravděpodobnosti.

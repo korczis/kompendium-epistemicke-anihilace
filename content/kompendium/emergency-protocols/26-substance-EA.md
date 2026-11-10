@@ -22,13 +22,13 @@ toc = true
 
 EA-pacient v akutním substance-related emergency — intoxikace, withdrawal, overdose; substance use je častý sekundární coping mechanism po EA. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **akutní substance use v EA-emergency** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
-> **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
 ## 2. Bezprostřední intervence (5 kroků)
 
 1. **Stabilizuj somaticky** — toxikologie, vitální funkce, opiate antagonist (naloxone) pokud opiate overdose suspekt.
 2. **Diferencuj substance-induced symptoms od EA-recovery symptoms** — nutno waiting period 5–7 dní po detoxu.
-3. **Plánuj integrovaný treatment** — ne sequential („nejdřív substance, pak EA"); EA-recovery a addiction recovery souběžně.
+3. **Plánuj integrovaný treatment** — ne sequential („nejdřív substance, pak EA"); EA-recovery a [addiction recovery](@/glossary/addiction-recovery.md) souběžně.
 4. **Use harm-reduction framework** — ne abstinence-first ultimatum; meeting patient where they are.
 5. **Connect with peer support** — Self-Management And Recovery Training (SMART), AA s trauma-informed sponsorem, ne forced 12-step.
 

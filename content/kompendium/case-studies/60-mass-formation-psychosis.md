@@ -34,7 +34,7 @@ výkladu, podle něhož se velká část společnosti nachází v hypnotickém s
 bez rozmyslu. Pro subjekt se stal klíčem, jímž si vysvětloval veškerý nesouhlas okolí.
 
 Rizikové faktory: reálné chyby a nejasnosti ve veřejné komunikaci během pandemie, autentická
-skepse, sociální izolace během uzávěr, převod většiny sociálního života do online prostředí
+skepse, [sociální izolace](@/glossary/socialni-izolace.md) během uzávěr, převod většiny sociálního života do online prostředí
 a profesní identita „toho, kdo vidí za oponu“.
 
 ## Časová osa expozice
@@ -140,7 +140,7 @@ spojeného s vinou a [akutní informační kurace](@/kompendium/recovery-protoco
   otázky změnily v hotový výklad.
 - **S2 – Externalizace introjektů:** pojmenování formulí, které ukončovaly myšlení („to je jen
   formace“, „ovce nepřesvědčíš“), jako převzatého jazyka.
-- **S3 – Rekonstrukce metakognice:** práce s [falsifikovatelností](@/glossary/falsifikovatelnost.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** práce s [falsifikovatelností](@/glossary/falsifikovatelnost.md)
   a s [hodnocením důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md); rozlišení
   „nevím“ od „všichni lžou“.
 - **S4 – Hermeneutická obnova:** schopnost číst odbornou i kritickou literaturu s vědomím

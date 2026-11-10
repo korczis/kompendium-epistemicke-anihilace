@@ -1,65 +1,156 @@
 +++
-title = "C-PTSD (Complex PTSD)"
+title = "C-PTSD (komplexní posttraumatická stresová porucha)"
 weight = 60
 
-description = "Complex Post-Traumatic Stress Disorder (Herman, ICD-11): diagnostic category for chronic, repeated, interpersonal trauma producing disturbances of self-organization; downstream sequela of sustained epistemic annihilation."
+description = "Komplexní PTSD (Hermanová, MKN-11): diagnóza pro chronické, opakované mezilidské trauma s poruchami sebeorganizace; typický následek dlouhodobé epistemické anihilace."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "kompendium", "trauma"]
+tags = ["glossary", "epistemic", "kompendium", "trauma", "clinical"]
 
 [extra]
 category = "epistemic"
 related_terms = ["betrayal-trauma", "epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "3 min"
-word_count = 520
+reading_time = "6 min"
+word_count = 1100
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
-keywords = ["C-PTSD", "complex PTSD", "Herman", "ICD-11", "DSO", "disturbances of self-organization", "trauma", "kompendium"]
+date_modified = "2026-11-10"
+keywords = ["C-PTSD", "komplexní PTSD", "MKN-11", "Judith Herman", "poruchy sebeorganizace", "trauma"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "C-PTSD - glossary"
+image_alt = "C-PTSD – glosář"
 +++
 
-## Definition
+## Definice
 
-**Complex Post-Traumatic Stress Disorder (C-PTSD)** is a diagnostic category proposed by Judith Herman in *Trauma and Recovery* (1992) and formalized in **ICD-11 (6B41)** as a sibling diagnosis to PTSD. C-PTSD applies to survivors of **prolonged, repeated, interpersonal trauma** — captivity, organized abuse, coercive control, child abuse, trafficking, totalitarian institutions — situations from which escape is difficult or impossible and where the perpetrator exercises sustained dominance.
+**Komplexní posttraumatická stresová porucha** (*Complex PTSD*, C-PTSD) je diagnostická
+kategorie, kterou navrhla Judith Hermanová v knize *Trauma and Recovery* (1992)
+a kterou **MKN-11 (6B41)** zavedla jako sesterskou diagnózu PTSD. Týká se lidí, kteří
+přežili **dlouhodobé, opakované, mezilidské trauma** – zajetí, organizované zneužívání,
+[coercive control](@/glossary/coercive-control.md), zneužívání v dětství, obchod s lidmi,
+totalitní instituce – tedy situace, z nichž je únik obtížný nebo nemožný a v nichž
+pachatel trvale vykonává nadvládu.
 
-The ICD-11 criteria require all three core PTSD elements (re-experiencing, avoidance, persistent threat sense) **plus** three **Disturbances of Self-Organization (DSO)** clusters: (1) **affective dysregulation** — heightened emotional reactivity, dissociative numbing; (2) **negative self-concept** — pervasive feelings of worthlessness, shame, guilt linked to the traumatic events; (3) **disturbances in relationships** — difficulty sustaining closeness, avoidance of relationships, distrust.
+Kritéria MKN-11 vyžadují všechny tři základní prvky PTSD (znovuprožívání, vyhýbání,
+trvalý pocit ohrožení) **a navíc** tři okruhy **poruch sebeorganizace** (*Disturbances of
+Self-Organization*, DSO):
 
-Herman's clinical observation, since validated across decades of research, is that the DSO cluster is **not separable** from the trauma — it is the structural deformation produced by chronic exposure to coercive interpersonal harm. Standard PTSD treatments (prolonged exposure, EMDR) often fail with C-PTSD without prior **stabilization** and **trust-building** phases, because the survivor's relational and self-evaluative apparatus is itself the wound.
+1. **afektivní dysregulace** – zvýšená emoční reaktivita nebo naopak disociativní
+   otupělost;
+2. **negativní sebepojetí** – pronikavý pocit bezcennosti, studu a viny spojený
+   s traumatickými událostmi;
+3. **narušené vztahy** – obtíže udržet blízkost, vyhýbání se vztahům, nedůvěra.
 
-## Context
+## Původ a kontext pojmu
 
-C-PTSD is the **predictable downstream outcome** of sustained exposure to the techniques catalogued in the Kompendium. The DSO cluster is, in epistemic terms, a description of what survives an extended epistemic annihilation campaign:
+Hermanová vycházela z klinické práce s přeživšími domácího násilí, sexuálního zneužívání
+v dětství a politického věznění. Všimla si, že diagnóza PTSD, odvozená hlavně ze zkušeností
+válečných veteránů a obětí jednorázových katastrof, nezachycuje hlubokou proměnu osobnosti
+po dlouhodobém zajetí. Její pozorování, potvrzené desítkami let výzkumu, zní: okruh DSO
+**nelze oddělit** od traumatu – je to strukturální deformace vzniklá chronickým působením
+koercivní mezilidské újmy.
 
-- **Negative self-concept** corresponds directly to internalized **EA-1.3.2 (autoamplification)** — the victim's epistemic apparatus, having been progressively corrupted, now generates self-attacking beliefs autonomously.
-- **Affective dysregulation** is the somatic signature of [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — when reflective evaluation is disabled, affect can no longer be modulated by accurate self-narrative.
-- **Disturbances in relationships** are the rational behavioral output of [betrayal trauma](@/glossary/betrayal-trauma.md): the survivor's attachment system has been weaponized.
+DSM-5-TR samostatnou diagnózu komplexní PTSD nezavedla; v americké klasifikaci se tytéž
+obtíže popisují v rámci PTSD a přidružených poruch. Pro Kompendium je proto rozhodující
+vymezení MKN-11.
 
-Within the Prismatic Platform:
+## Jak se projevuje
 
-- The kompendium at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) explicitly anchors the epistemic-annihilation framework in the C-PTSD literature, making the taxonomy clinically actionable for trauma-informed practitioners.
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treatment of testimony from C-PTSD survivors incorporates **calibration-aware** weighting: such testimony is **not less reliable** in content, but its presentation (fragmented, affect-laden, non-linear) requires different epistemic processing.
-- Kompendium [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats C-PTSD as evidence that epistemic harm is **biologically and developmentally real** — not merely a philosophical construct.
+- náhlé, nepřiměřené výbuchy emocí nebo naopak dlouhé období otupělosti;
+- přesvědčení „jsem zkažený“, „za všechno můžu já“, i když fakta svědčí jinak;
+- nedůvěra k lidem, kteří nabízejí pomoc, a zároveň sklon k vazbě na lidi, kteří ubližují;
+- disociativní epizody, mezery v paměti, tělesné obtíže bez jasné příčiny;
+- v terapii: rychlé zahlcení při expozici, nedůvěra k terapeutovi, opakované „testování“
+  vztahu.
 
-## See Also
+## Mechanismus
 
-- [Betrayal Trauma](@/glossary/betrayal-trauma.md) — Mechanistic precursor to C-PTSD
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Causal pathway
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Reflective-awareness disabling
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Self-cognitive estrangement
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process counterpart
-- [Kompendium](@/kompendium/_index.md) — Full taxonomy
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — Trauma-informed clinical use
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
+C-PTSD je **předvídatelným následkem** dlouhodobého působení technik, které Kompendium
+popisuje. Okruh DSO je v epistemických pojmech popisem toho, co přežije rozsáhlou kampaň
+[epistemické anihilace](@/glossary/epistemicka-anihilace.md):
 
----
+- **Negativní sebepojetí** odpovídá zvnitřněné autoamplifikaci: poznávací aparát oběti,
+  postupně narušený, nyní sám vytváří sebe-útočná přesvědčení – srov. [Internalizovaný
+  pachatel](@/glossary/internalizovany-pachatel.md) a [EA-2.5.3 Self-doubt
+  Cultivation](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md).
+- **Afektivní dysregulace** je tělesným podpisem [metakognitivní
+  destrukce](@/glossary/metakognitivni-destrukce.md): když je reflexivní hodnocení
+  vyřazeno, afekt už nelze regulovat přesným vyprávěním o sobě.
+- **Narušené vztahy** jsou racionálním behaviorálním výstupem [traumatu ze
+  zrady](@/glossary/betrayal-trauma.md): systém citové vazby přeživšího byl použit jako
+  zbraň.
 
-## Connect & Contribute
+## Odlišení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+- **PTSD.** Chybí okruh poruch sebeorganizace; obraz se váže spíše k jednorázové události.
+- **Hraniční porucha osobnosti.** Překryv v afektivní dysregulaci a ve vztazích je značný.
+  U C-PTSD je však sebepojetí stabilně negativní (ne kolísavé) a obtíže mají zřetelný vztah
+  k traumatu; rozlišení vyžaduje pečlivou anamnézu.
+- **Deprese.** Může se vyskytovat současně; negativní sebepojetí u C-PTSD je ale spojeno
+  s traumatickými událostmi a se studem.
+- **Disociativní poruchy.** Disociace je u C-PTSD častá, sama však diagnózu nezakládá
+  (viz [Disociace](@/glossary/disociace.md)).
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+Postup rozlišení popisuje [diferenciální
+diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+
+## Význam pro Kompendium
+
+- Kapitola [06. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) výslovně
+  ukotvuje rámec epistemické anihilace v literatuře o C-PTSD, a tím činí taxonomii klinicky
+  použitelnou pro odborníky pracující s ohledem na trauma.
+- Na platformě, z níž kniha vzešla, [Decision Engine](@/glossary/decision-engine.md) zachází
+  s výpověďmi přeživších s C-PTSD **s ohledem na kalibraci**: taková výpověď **není obsahově
+  méně spolehlivá**, ale její podoba (fragmentovaná, afektivně nabitá, nelineární) vyžaduje
+  jiné epistemické zpracování. Totéž platí pro soudní praxi (viz [Hodnocení
+  věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md)).
+- [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) chápou C-PTSD jako
+  doklad, že epistemická újma je **biologicky a vývojově reálná** – nikoli pouhý filozofický
+  konstrukt.
+
+## Obrana a zotavení
+
+Běžné postupy léčby PTSD (prodloužená expozice, EMDR) u C-PTSD často selhávají, pokud jim
+nepředchází fáze **stabilizace** a **budování důvěry** – protože ranou je samotný vztahový
+a sebehodnoticí aparát přeživšího. Hermanová popsala tři fáze zotavení: bezpečí,
+vzpomínání a truchlení, opětovné spojení s běžným životem.
+
+- **Bezpečí:** stabilní prostředí, regulace emocí, práce s tělem (viz [Akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md)).
+- **Zpracování:** narativní práce v tempu, které přeživší zvládne (viz [Externalizace
+  příběhu](@/kompendium/recovery-protocols/subacute-narrative-externalization.md)).
+- **Znovupropojení:** obnova vztahů a smyslu (viz [Obnova
+  důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md)).
+- **Pro profesionála:** vyhnout se [retraumatizaci](@/glossary/retraumatizace.md),
+  respektovat kontrolu klienta nad tempem, pečovat o vlastní supervizi.
+
+## Literatura
+
+- Judith L. Herman: *Trauma and Recovery* (1992).
+- World Health Organization: *MKN-11 / ICD-11*, diagnóza 6B41 Komplexní posttraumatická
+  stresová porucha.
+- Jennifer J. Freyd: *Betrayal Trauma: The Logic of Forgetting Childhood Abuse* (1996).
+
+## Související
+
+**Pojmy**
+
+- [Betrayal Trauma](@/glossary/betrayal-trauma.md) – mechanismus, který C-PTSD předchází.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – kauzální dráha.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – vyřazení reflexivního
+  vědomí.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastního
+  poznávání.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – protějšek na úrovni
+  kognitivních procesů.
+- [Complex Trauma](@/glossary/complex-trauma.md) – širší pojem pro vývojové a opakované
+  trauma.
+
+**Klinika a teorie**
+
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – klinické využití
+  s ohledem na trauma.
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
+- [Akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) –
+  první fáze zotavení.
+- [Kompendium](@/kompendium/_index.md) – celá taxonomie.

@@ -67,11 +67,11 @@ právo nezná, takže doslovný překlad navozuje dojem, že v ČR existuje.
 | [undue influence](@/glossary/undue-influence.md) | nepřípustný (nepřiměřený) vliv | doktrína common law; v českém právu blíže pojmy lest, bezprávná výhrůžka, tíseň |
 | [parental alienation](@/glossary/parental-alienation.md) | rodičovské odcizení; v ČR také „syndrom zavrženého rodiče“ | odborně sporné; nejde o diagnózu MKN-11 ani DSM-5-TR |
 | [epistemic injustice](@/glossary/epistemicka-injustice.md) | epistemická nespravedlnost | kniha užívá „epistemická injustice“ |
-| high-control group | skupina s vysokou mírou kontroly | neutrálnější než „sekta“; posouzení podle [modelu BITE](@/glossary/bite-model.md) |
+| [high-control group](@/glossary/high-control-group.md) | skupina s vysokou mírou kontroly | neutrálnější než „sekta“; posouzení podle [modelu BITE](@/glossary/bite-model.md) |
 | stalking | nebezpečné pronásledování (§ 354 trestního zákoníku) | český pojem je trestněprávní, anglický i hovorový |
 | domestic abuse / violence | domácí násilí | britské *domestic abuse* zahrnuje i ekonomické a psychické zneužívání |
 | [elder abuse](@/glossary/elder-abuse.md) | zneužívání (týrání) seniorů | |
-| child grooming | grooming, cílené získávání důvěry dítěte | viz [Ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md) |
+| [child grooming](@/glossary/child-grooming.md) | grooming, cílené získávání důvěry dítěte | viz [Ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md) |
 
 Tabulka je výchozí bod. Glosářová hesla obsahují definice a mostové stránky (například
 [bridge: coercive control](@/kompendium/glossary-bridges/bridge-coercive-control.md) nebo
@@ -90,7 +90,7 @@ pojem v knize dále používá.
 - **victimisation ≠ viktimizace.** V britském antidiskriminačním právu znamená
   *victimisation* postih za podání stížnosti; český antidiskriminační zákon tomu říká
   pronásledování. Česká „viktimizace“ (primární, sekundární) je pojem viktimologický.
-- **expert witness ≠ znalec.** Anglický svědek-expert je typicky přizván stranou; český
+- **[expert witness](@/glossary/expert-witness.md) ≠ znalec.** Anglický svědek-expert je typicky přizván stranou; český
   znalec působí podle zákona č. 254/2019 Sb., o znalcích, znaleckých kancelářích a znaleckých
   ústavech, a jeho role i odpovědnost jsou jiné (viz [Znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md)).
 - **survivor / victim.** Anglická praxe často preferuje *survivor*; česká legislativa

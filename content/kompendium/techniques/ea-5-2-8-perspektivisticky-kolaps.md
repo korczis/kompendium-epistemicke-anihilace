@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.8 Perspektivistický kolaps"
-description = "Detailní per-technique článek: technika perspektivistického kolapsu — ztráta schopnosti zaujímat jakoukoli perspektivu vůbec, nejen záměny jedné za druhou. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika perspektivistického kolapsu — ztráta schopnosti zaujímat jakoukoli perspektivu vůbec, nejen záměny jedné za druhou."
 weight = 528
 insert_anchor_links = "right"
 
@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Perspektivistický kolaps** je metatranscendentální technika, jejímž cílem je rozpustit u subjektu **schopnost zaujímat perspektivu** jako takovou. Po kolapsu subjekt **neprožívá** zkušenost *z perspektivy* — chybí *odsud-tam* organizace, *moje verze* versus *jejich verze*, *zde a teď* jako referenční bod. Stav je strukturálně odlišný od běžné dezorientace nebo depersonalizace; jde o **rozpad transcendentální struktury**, která vůbec umožňuje, aby zkušenost měla *bod, ze kterého* se ukazuje.
+**Perspektivistický kolaps** je metatranscendentální technika, jejímž cílem je rozpustit u subjektu **schopnost zaujímat perspektivu** jako takovou. Po kolapsu subjekt **neprožívá** zkušenost *z perspektivy* — chybí *odsud-tam* organizace, *moje verze* versus *jejich verze*, *zde a teď* jako referenční bod. Stav je strukturálně odlišný od běžné dezorientace nebo [depersonalizace](@/glossary/depersonalizace.md); jde o **rozpad transcendentální struktury**, která vůbec umožňuje, aby zkušenost měla *bod, ze kterého* se ukazuje.
 
 Perspektiva v transcendentálním smyslu (Husserl, Merleau-Ponty) není pouze **epistemická pozice** („z mého pohledu“), ale strukturní vlastnost zkušenosti, která činí možnou **horizontalitu fenoménu** (každý fenomén má pohled, který se ukazuje, a horizont, který se neukazuje). Perspektivistický kolaps tuto strukturu rozpouští: fenomén už **není perspektivně organizován**.
 
@@ -174,7 +174,7 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní stanovisko** rozhodovatele s perspektivním ukotvením; aperspektivismus by byl zachycen jako **chybějící input**.
 - **OSINT framework** strukturálně rozlišuje **vlastní pozorování** od **pozorování zdroje** — perspektivnost je vynucená.
-- **NABLA Infinity provenance** vyžaduje **autorství** každého epistemického aktu; absence perspektivy by byla typová chyba.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) provenance** vyžaduje **autorství** každého epistemického aktu; absence perspektivy by byla typová chyba.
 
 ## Související
 

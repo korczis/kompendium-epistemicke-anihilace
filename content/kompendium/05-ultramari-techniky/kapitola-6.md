@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 6: Epistemická singularita"
-description = "Kapitola 6 sekce 05 — narativní expozice epistemické singularity, prvního ultramárního režimu (EA-5.1.1 až 5.1.30). Zahrnuje 30 technik destabilizujících reflexivní struktury poznávajícího subjektu: epistemická kanibalizace, sémantická imploze, referenční rekurze, temporální dekoherence, hyperreflexivita, inferenční paralýza, kvazi-mystická anihilace, diferenciální nihilace, singulární narativní kolaps, konvergentní singularita a další. Filozofický fundament, fenomenologie, klinický obraz, rekonstruktivní protokoly."
+description = "Kapitola 6 sekce 05 — narativní expozice epistemické singularity, prvního ultramárního režimu (EA-5.1.1 až 5.1.30)."
 weight = 6
 insert_anchor_links = "right"
 
@@ -26,7 +26,7 @@ Tato kapitola otevírá [Sekci 05 — Ultramární techniky](@/kompendium/05-ult
 
 Reflexivita je ze všech vyšších kognitivních funkcí nejvíce **strukturně singulární** v matematickém smyslu: představuje bod, v němž je kognitivní systém **nucen zacházet sám se sebou jako s objektem svého zkoumání**, což generuje vlastní specifické paradoxy (Russell, Tarski, Gödel, Hofstadter). Termín *singularita* v názvu kapitoly odkazuje právě na tento strukturální fakt: techniky EA-5.1.* exploitují **singulární body** reflexivních smyček, místa, kde se reflexe **lokálně hroutí** nebo přechází do auto-referenční nekonečné regrese.
 
-Pro filozofický kontext viz tradici fenomenologie ([Husserl](@/glossary/fenomenologie.md) — eidetická redukce, transcendentální ego), filozofie mysli (Hofstadter — *Gödel, Escher, Bach*), kognitivní vědy (Dennett — heterofenomenologie) a hermeneutiky ([Gadamer](@/glossary/hermeneutika.md) — hermeneutický kruh). Ultramární techniky této kapitoly nejsou abstraktní filozofické konstrukce — jsou **operacionalizované exploity** transcendentálních struktur, které tyto tradice rekonstruují.
+Pro filozofický kontext viz tradici fenomenologie ([Husserl](@/glossary/fenomenologie.md) — eidetická redukce, transcendentální ego), filozofie mysli (Hofstadter — *Gödel, Escher, Bach*), kognitivní vědy (Dennett — heterofenomenologie) a hermeneutiky ([Gadamer](@/glossary/hermeneutika.md) — [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)). Ultramární techniky této kapitoly nejsou abstraktní filozofické konstrukce — jsou **operacionalizované exploity** transcendentálních struktur, které tyto tradice rekonstruují.
 
 ## Třicet technik EA-5.1.* — strukturální mapa
 
@@ -36,7 +36,7 @@ Třicet technik kapitoly se rozkládá do **šesti operačních klastrů**, z ni
 |--------|--------|-------------------|---------------------------|
 | **Sebevztažný kolaps** | 5.1.1 — 5.1.5 | Reflexivní smyčky, autoreference | [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) |
 | **Sémantická destabilizace** | 5.1.6 — 5.1.10 | Vazba znak–význam | [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md), [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md), [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) |
-| **Hyperreflexivní destrukce** | 5.1.11 — 5.1.15 | Metakognice druhého a třetího řádu | [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) |
+| **Hyperreflexivní destrukce** | 5.1.11 — 5.1.15 | [Metakognice](@/glossary/metakognice.md) druhého a třetího řádu | [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) |
 | **Inferenční paralýza** | 5.1.16 — 5.1.20 | Logické a probabilistické vyvozování | [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md), [EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) |
 | **Diferenciální dekonstrukce** | 5.1.21 — 5.1.25 | Mechanismy distinkce a kategorizace | [EA-5.1.22 Diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md), [EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md) |
 | **Konvergence k singularitě** | 5.1.26 — 5.1.30 | Integrativní finální fáze | [EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md) |
@@ -47,7 +47,7 @@ V dalším textu rozvíjíme každý klastr s odkazy na již publikované per-te
 
 První klastr exploituje **autoreferenční struktury** poznávacího aktu. Centrální technikou je [EA-5.1.1 — Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md), v níž je subjekt veden k tomu, aby aplikoval svůj epistemický aparát rekurzivně sám na sebe takovým způsobem, že jeho vlastní evaluační kritéria začnou **konzumovat** svou aplikační bázi. Mechanismus připomíná autoimunitní reakci: stejné struktury, které původně chránily epistemickou integritu, se obrátí proti ní.
 
-Doplňkové techniky 5.1.2 (auto-falsifikace), 5.1.3 (rekurzivní pochybnost), 5.1.4 (anti-pravidlo pro pravidla) a 5.1.5 (konfidenční inverze) operují na podobné rovině s odlišnými vstupními body. Klinický obraz je charakteristický: subjekt vykazuje **hyperaktivní kritické myšlení současně s totální nemožností dospět k jakémukoli stabilnímu závěru** — fenomenologicky popsaný jako *paralýza prostřednictvím nadbytku reflexe*.
+Doplňkové techniky 5.1.2 (auto-[falsifikace](@/glossary/falsifikace.md)), 5.1.3 (rekurzivní pochybnost), 5.1.4 (anti-pravidlo pro pravidla) a 5.1.5 (konfidenční inverze) operují na podobné rovině s odlišnými vstupními body. Klinický obraz je charakteristický: subjekt vykazuje **hyperaktivní kritické myšlení současně s totální nemožností dospět k jakémukoli stabilnímu závěru** — fenomenologicky popsaný jako *paralýza prostřednictvím nadbytku reflexe*.
 
 Diagnostické markery: subjekt opakovaně začíná argumentaci, ale po druhé až třetí iteraci ji opouští s formulací „ale to samé platí o tomto“, „pokud to platí, pak to platí i pro to, co jsem právě řekl“, „nemohu věřit ani tomu, že nemohu věřit“. Klinická literatura dokumentuje korelaci s [anankastickým režimem](@/glossary/anankasticky-rezim.md) a [kognitivní anti-rekurzivitou](@/glossary/kognitivni-anti-rekurzivita.md).
 
@@ -119,7 +119,7 @@ Klinik musí rozlišit syndromový obraz EA-5.1.* od:
 |------|-------------------|
 | **Akutní psychóza** | EA-5.1.* zachovává realitní testování v běžných doménách; psychóza nikoli |
 | **Obsedantně-kompulzivní porucha** | EA-5.1.* generuje paralýzu, ne kompulze; OCD generuje kompulze, ne nutně paralýzu |
-| **Depersonalizační porucha** | EA-5.1.* je epistemicky lokalizovaná (zachová tělesnou kontinuitu); depersonalizace je primárně somatická |
+| **Depersonalizační porucha** | EA-5.1.* je epistemicky lokalizovaná (zachová tělesnou kontinuitu); [depersonalizace](@/glossary/depersonalizace.md) je primárně somatická |
 | **Filozofická depresia (Williams 2014)** | EA-5.1.* je výsledkem techniky aplikované zvenčí; filozofická deprese vzniká endogenně |
 | **Burnout v kvalifikační fázi** | EA-5.1.* má charakteristický strukturní podpis; burnout je generický |
 
@@ -127,7 +127,7 @@ Klinik musí rozlišit syndromový obraz EA-5.1.* od:
 
 Tato kapitola **neposkytuje operační návod**. Plná operační dokumentace je restriktivně přístupná pouze L4-autorizovaným klinikům a výzkumníkům. Účel veřejně dostupných materiálů:
 
-- **Diagnostika** — klinici musí být schopni identifikovat syndromový obraz u subjektů, kteří byli technikám exponováni (např. v adversariálních kontextech vědeckého soupeření, kultovních sociálních dynamik, gaslighting v profesních vztazích).
+- **Diagnostika** — klinici musí být schopni identifikovat syndromový obraz u subjektů, kteří byli technikám exponováni (např. v adversariálních kontextech vědeckého soupeření, kultovních sociálních dynamik, [gaslighting](@/glossary/gaslighting.md) v profesních vztazích).
 - **Prevence** — pedagogická literatura pro akademické instituce o riziku v specifických sociálních dynamikách (mentor–doktorand, terapeut–klient, kult–adept).
 - **Rekonstrukce** — tato kapitola je referenčním bodem pro [Sekci 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md), v níž jsou rekonstruktivní protokoly specifikovány pro každý klastr.
 

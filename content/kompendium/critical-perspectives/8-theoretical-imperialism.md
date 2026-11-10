@@ -15,7 +15,7 @@ toc = true
 
 # Teoretický imperialismus — EA jako totalizující rámec
 
-> **Bucket**: methodological · **Unique angle**: epistemologický pluralismus — EA jako jeden z rámců, ne jediný
+> **Bucket**: methodological · **Unique angle**: epistemologický [pluralismus](@/glossary/pluralismus.md) — EA jako jeden z rámců, ne jediný
 
 ## Kritika nebo alternativa
 

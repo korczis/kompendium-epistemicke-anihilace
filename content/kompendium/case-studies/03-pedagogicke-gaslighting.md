@@ -102,7 +102,7 @@ a o zkrácenou verzi [protokolu epistemické rekonstrukce](@/kompendium/06-klini
 - **S1 – Validace a mapování:** potvrzení, že její vnímání bylo správné; časová osa sestavená
   z jejích zápisků.
 - **S2 – Externalizace introjektů:** oddělení věty „mám špatnou paměť“ od jejího zdroje.
-- **S3 – Rekonstrukce metakognice:** zdravé ověřování bez kompulze – postupné omezování nahrávání
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** zdravé ověřování bez kompulze – postupné omezování nahrávání
   a nácvik [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md).
 - **S4 – Hermeneutická obnova:** porozumění tomu, proč spolužáci mlčeli, bez obviňování.
 - **S5 – Konsolidace a transfer:** maturita v novém prostředí, plán pro případ podobného konfliktu.

@@ -22,7 +22,7 @@ Signatura je behaviorálním protějškem toho, co na úrovni úsudku popisuje s
 
 ## Co signatura indikuje
 
-Lidé užívají jistotu druhých jako zkratku k pravdě: kdo mluví jistě, pravděpodobně ví. Tato heuristika je v běžném životě užitečná, protože jistota a kompetence spolu často souvisejí. Manipulativní použití ji obrací – jistota je **předváděna** místo důkazu. Když se posluchač ptá na důkaz, ocitá se v roli toho, kdo „nevěří“, a břemeno nejistoty přechází na něj.
+Lidé užívají jistotu druhých jako zkratku k pravdě: kdo mluví jistě, pravděpodobně ví. Tato [heuristika](@/glossary/heuristika.md) je v běžném životě užitečná, protože jistota a kompetence spolu často souvisejí. Manipulativní použití ji obrací – jistota je **předváděna** místo důkazu. Když se posluchač ptá na důkaz, ocitá se v roli toho, kdo „nevěří“, a břemeno nejistoty přechází na něj.
 
 Pro zasaženou osobu je důsledkem postupné **přenesení kalibrace**: přestává hodnotit tvrzení podle důkazů a hodnotí je podle jistoty zdroje. Vlastní nejistota (zdravý znak poctivého uvažování) se jí začne jevit jako slabost. Tento posun připravuje půdu pro [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md).
 

@@ -37,10 +37,10 @@ s vestavěným hodnocením. Úzce s ním souvisí pojem **doublethink** – scho
 přijímat dvě protichůdná přesvědčení a nevidět rozpor. Orwell se jazykem politiky zabýval
 i v eseji *Politics and the English Language* (1946).
 
-Orwellův obraz měl skutečné předlohy. Victor Klemperer v knize *LTI – Lingua Tertii Imperii*
+Orwellův obraz měl skutečné předlohy. Victor Klemperer v knize *LTI – [Lingua Tertii Imperii](@/glossary/lti-lingua-tertii-imperii.md)*
 (1947) dokumentoval jazyk nacistického Německa a jeho pronikání do každodenní řeči. Robert J.
-Lifton (*Thought Reform and the Psychology of Totalism*, 1961) popsal mezi znaky totalismu
-„nabití jazyka“ (*loading the language*) a myšlenku ukončující klišé (*thought-terminating
+Lifton (*[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*, 1961) popsal mezi znaky totalismu
+„nabití jazyka“ (*[loading the language](@/glossary/loading-the-language.md)*) a myšlenku ukončující klišé (*thought-terminating
 cliché*). V českém prostředí rozebral jazyk komunistického režimu Petr Fidelius (*Řeč
 komunistické moci*, 1998).
 

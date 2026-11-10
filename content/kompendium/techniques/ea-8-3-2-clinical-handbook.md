@@ -42,7 +42,7 @@ Pět klíčových klinických handbooks pokrývajících phase-based trauma ther
 
 ## Aplikace v EA kontextu
 
-Operacionalizační vrstva pro **EA-6.x klinické aplikace**. Phase-matching: Herman stage 1 → EA-6.5.x stabilization; stage 2 → EA-6.4.x specialized; stage 3 → EA-6.4.10 reconnection.
+Operacionalizační vrstva pro **EA-6.x klinické aplikace**. Phase-matching: Herman stage 1 → EA-6.5.x stabilization; stage 2 → EA-6.4.x specialized; stage 3 → [EA-6.4.10](@/kompendium/techniques/ea-6-4-10-aktivisti-protokol.md) reconnection.
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Většinou US/UK clinical practice base. Méně guidance pro low-resource settin
 
 ## Vztah k jiným zdrojům
 
-Implementační vrstva pro **EA-8.2.6 ICD-11 Complex Trauma**, **EA-8.2.10 Herman Recovery Stages**. Synergie s **EA-8.3.8 Trauma Recovery Literature**.
+Implementační vrstva pro **[EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) ICD-11 [Complex Trauma](@/glossary/complex-trauma.md)**, **[EA-8.2.10](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) Herman Recovery Stages**. Synergie s **[EA-8.3.8](@/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md) Trauma Recovery Literature**.
 
 ## Cross-linky
 

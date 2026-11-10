@@ -5,6 +5,9 @@ description = "Dvě linie dezinformací o AIDS: mýtus o uměle vytvořeném vir
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"

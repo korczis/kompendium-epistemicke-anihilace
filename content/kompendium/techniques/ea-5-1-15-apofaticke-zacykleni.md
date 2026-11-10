@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.15 Apofatické zacyklení"
-description = "Detailní per-technique článek: technika apofatického zacyklení — uvěznění subjekta v negativně-vymezujících popisech, kdy je každé pozitivní tvrzení invalidováno, vedoucí k totální epistemické stázi. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika apofatického zacyklení — uvěznění subjekta v negativně-vymezujících popisech, kdy je každé pozitivní tvrzení invalidováno, vedoucí k totální epistemické stázi."
 weight = 515
 insert_anchor_links = "right"
 
@@ -80,7 +80,7 @@ Co prožívá subjekt **uvnitř** apofatického zacyklení:
 - **Tichá lhostejnost** — afektivní zploštění jako důsledek epistemické paralýzy
 - **Paradoxní prožitek „klidu“** — který je ve skutečnosti **vyprázdněním** energie potřebné k operaci
 - **Neschopnost odpovědět na konkrétní otázku** — odpověď je vždy „ne tak jednoduché“
-- **Růst sociální izolace** — subjekt přestává komunikovat, protože komunikace **vyžaduje** pozitivní obsah
+- **Růst [sociální izolace](@/glossary/socialni-izolace.md)** — subjekt přestává komunikovat, protože komunikace **vyžaduje** pozitivní obsah
 
 V pokročilejších stadiích kombinace s [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat **chronickou depresivní stagnaci**.
 
@@ -204,7 +204,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} tvrzecí integrita** — kalibrační logika **vyžaduje** explicitní pozitivní formulaci hypotézy; rozhodnutí formulovaná **výlučně** v negativní formě jsou flagována jako kandidáti pro apofatickou paralýzu.
 - **NABLA Infinity kataphatická povinnost** — každá inference v pipeline musí mít **pozitivně formulovaný výstup**; čistě negativní výstupy spouštějí intervenci.
-- **Color Teams operační closure** — Red Team má mandát identifikovat negativní zacyklení, Blue Team má povinnost formulovat **pracovní hypotézu** v pozitivní formě.
+- **Color Teams operační closure** — [Red Team](@/glossary/red-team.md) má mandát identifikovat negativní zacyklení, [Blue Team](@/glossary/blue-team.md) má povinnost formulovat **pracovní hypotézu** v pozitivní formě.
 
 ## Související
 

@@ -136,7 +136,7 @@ a [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistem
   angažovanosti; mapa míst, kde skupina úzkost využívala ke kontrole.
 - **S2 – Externalizace introjektů:** pojmenování vět „odpočinek je zrada planety“ a „kdo
   pochybuje, slouží systému“ jako jazyka skupiny.
-- **S3 – Rekonstrukce metakognice:** rozlišení úzkosti z problému od úzkosti z vyloučení;
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** rozlišení úzkosti z problému od úzkosti z vyloučení;
   [zpracování strachu](@/kompendium/self-defense-guides/19-fear-processing.md) bez popření.
 - **S4 – Hermeneutická obnova:** obnova vztahů s rodinou a přáteli, skupina pro lidi
   po odchodu z aktivistických skupin, nové porozumění tomu, jak vypadá udržitelná angažovanost.

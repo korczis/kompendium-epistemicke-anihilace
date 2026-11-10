@@ -19,7 +19,7 @@ toc = true
 
 Hannah Arendtové *Eichmann v Jeruzalémě* (1963) zavádí pojem **banality zla** (*banality of evil*) — diagnostický koncept, jenž odhaluje, že **masová účast** na zločinech proti lidskosti není primárně produktem **monstrózní zla** jednotlivců, ale **strukturálního rozpadu** schopnosti **myslet**, **soudit** a **jednat** mezi lidmi.
 
-Pro kompendium EA je Arendtové analýza **strukturálně klíčová**: ukazuje, že **epistemické předpoklady** masového totalitarismu nejsou exotické — jsou **každodenní formy** *thoughtlessness* (nemyšlení, povrchnost), jež jsou strukturálně **podporovány** moderními společenskými formami.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) je Arendtové analýza **strukturálně klíčová**: ukazuje, že **epistemické předpoklady** masového totalitarismu nejsou exotické — jsou **každodenní formy** *thoughtlessness* (nemyšlení, povrchnost), jež jsou strukturálně **podporovány** moderními společenskými formami.
 
 ## 1. Banalita zla
 
@@ -46,7 +46,7 @@ Krize úsudku — Arendtové centrální diagnóza moderního totalitarismu — 
 Pro EA má krize úsudku **specifickou relevanci**:
 
 - **Algoritmické rozhodování** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) strukturálně **substituuje** lidský úsudek — riziko **administrace bez úsudku**.
-- **Klasifikační aparáty** EA samotné mohou být **rizikem**: pokud taxonomie EA technik je užívána bez **úsudku**, stává se **algoritmickým razítkováním**.
+- **Klasifikační aparáty** EA samotné mohou být **rizikem**: pokud [taxonomie EA](@/glossary/taxonomie-ea.md) technik je užívána bez **úsudku**, stává se **algoritmickým razítkováním**.
 - Kompendium proto **opakovaně zdůrazňuje**, že taxonomie je **nástroj úsudku**, nikoli **náhražka** úsudku.
 
 ## 3. Pluralita a „spolu-bytí“

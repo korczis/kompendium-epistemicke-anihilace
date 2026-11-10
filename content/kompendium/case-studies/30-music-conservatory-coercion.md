@@ -92,7 +92,7 @@ s [protokolem pro adolescenty](@/kompendium/recovery-protocols/recovery-adolesce
   rozhodování přesunulo na pedagoga.
 - **S2 – Externalizace introjektů:** pedagogovy věty („bez bolesti není umění“, „zradil jsi
   mě“) odděleny od vlastního hlasu.
-- **S3 – Rekonstrukce metakognice:** [somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** [somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md)
   a obnova schopnosti hodnotit vlastní hru vlastním uchem.
 - **S4 – Hermeneutická obnova:** nový pedagog s pluralitním přístupem, vlastní interpretace.
 - **S5 – Konsolidace a transfer:** rozhodnutí, zda a jak dál s hudbou – jako profese, nebo

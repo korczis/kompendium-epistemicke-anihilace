@@ -31,7 +31,7 @@ Ultramari je nejintenzivnější vrstva EA — proto vyžaduje nejhlubší teore
 - **Ultramari readiness → reflexe připravenosti** — připravenost na co.
 - **Exit ultramari → reflexe konce transformace** — kdy je ultramari skutečně dokončené.
 - **Pojistné okruhy → reflexe důvěry v techniku** — pasti technokratického optimismu.
-- **Doctrine NMND v ultramari → její filozofická obhájitelnost.**
+- **[Doctrine](@/glossary/doctrine.md) NMND v ultramari → její filozofická obhájitelnost.**
 
 ## 3. Doporučená čtenářská trajektorie
 

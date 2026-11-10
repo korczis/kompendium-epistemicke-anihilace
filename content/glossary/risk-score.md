@@ -1,10 +1,10 @@
 +++
-title = "Risk Score"
+title = "Risk score (rizikové skóre)"
 weight = 9
-description = "Numeric assessment quantifying the security risk of individual assets or findings with confidence levels and evidence chains."
+description = "Číselné hodnocení bezpečnostního rizika jednotlivého aktiva nebo zjištění v Prismatic Platform, vždy s mírou důvěry a řetězcem důkazů."
 
 [taxonomies]
-tags = ["glossary", "security", "risk-score", "prismatic"]
+tags = ["glossary", "prismatic", "security", "due-diligence", "evidence"]
 
 [extra]
 category = "security"
@@ -13,50 +13,76 @@ author = "Tomas Korcak (korczis)"
 reading_time = "9 min"
 word_count = 1794
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Risk", "Score", "Numeric", "glossary", "security", "Prismatic Platform", "Monte Carlo", "NABLA", "HARD"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Risk Score - Prismatic Platform"
+image_alt = "Risk score (rizikové skóre) – glosář"
 +++
 
-## Definition
+## Definice
 
-A Risk Score is a numeric value quantifying the security risk associated with a specific asset, finding, or vulnerability. Unlike an aggregate Security Rating (which scores an entire organization on a letter grade from A to F), risk scores apply to individual items: a specific open port, a misconfigured service, an expired certificate, a DNS zone transfer vulnerability. Each score includes a confidence level indicating how certain the assessment is, and an evidence chain linking the score to specific observable data through [provenance mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) compliance.
+Rizikové skóre (*risk score*) je číselná hodnota, která kvantifikuje bezpečnostní riziko
+spojené s konkrétním aktivem, zjištěním nebo zranitelností. Na rozdíl od souhrnného
+bezpečnostního hodnocení (*Security Rating*, které hodnotí celou organizaci známkou A až F) se
+riziková skóre vztahují k jednotlivým položkám: konkrétnímu otevřenému portu, chybně nastavené
+službě, prošlému certifikátu, zranitelnosti přenosu zóny DNS. Každé skóre obsahuje míru důvěry,
+která vyjadřuje, jak jisté je posouzení, a řetězec důkazů, který skóre spojuje s konkrétními
+pozorovatelnými daty v souladu s axiomem [povinné
+provenience](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/).
 
-Risk scores serve as the atomic building blocks of the Prismatic Perimeter's security assessment system. They are computed from observable evidence using methodology aligned with CVSS (Common Vulnerability Scoring System) principles, adapted for external-only observation. The scores are then aggregated, weighted by asset criticality and finding severity, to produce the overall A-F Security Rating that organizations, compliance officers, and due diligence analysts consume.
+Riziková skóre jsou atomickými stavebními kameny systému bezpečnostního hodnocení Prismatic
+Perimeter. Počítají se z pozorovatelných důkazů metodikou odpovídající principům CVSS (*Common
+Vulnerability Scoring System*), upravenou pro pozorování výhradně zvenčí. Skóre se pak agregují,
+váží podle kritičnosti aktiv a závažnosti zjištění, a vzniká celkové bezpečnostní hodnocení
+A–F, s nímž pracují organizace, pracovníci compliance a analytici [due
+diligence](@/glossary/due-diligence.md).
 
-The epistemological position embedded in the risk scoring system is that **risk is not a single number but a distribution with uncertainty**. A risk score of 72 with a confidence of 0.95 means something fundamentally different from a risk score of 72 with a confidence of 0.45. The first is a well-evidenced assessment; the second is an educated guess. The Prismatic Platform treats both the score and its confidence as first-class data, ensuring that downstream consumers can distinguish between high-confidence findings and tentative assessments.
+Epistemologické stanovisko zabudované do systému rizikového skórování zní: **riziko není jediné
+číslo, ale rozdělení s nejistotou**. Rizikové skóre 72 s důvěrou 0,95 znamená něco zásadně
+jiného než rizikové skóre 72 s důvěrou 0,45. První je dobře doložené posouzení, druhé
+kvalifikovaný odhad. Prismatic Platform zachází se skóre i s jeho důvěrou jako s plnohodnotnými
+daty, takže navazující spotřebitelé mohou rozlišit zjištění s vysokou důvěrou od předběžných
+posouzení.
 
-## Scoring Methodology
+Pro Kompendium je rizikové skóre pojmem z kontextu platformy (bezpečnost infrastruktury, ne
+hodnocení lidí). Kniha z něj přebírá jediný princip: číslo bez míry jistoty a bez dohledatelných
+důkazů nemá rozhodovat o člověku – to platí i pro screeningové nástroje EA (viz [Riziko falešně
+pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
 
-The risk scoring methodology operates on a 0-100 numeric scale, which maps to letter grades for human consumption. The methodology considers multiple dimensions of risk, each contributing to the composite score through a weighted formula.
+## Metodika skórování
 
-### Numeric Scale and Grade Mapping
+Metodika rizikového skórování pracuje s číselnou stupnicí 0–100, která se pro lidské čtenáře
+převádí na známky. Zohledňuje více dimenzí rizika, z nichž každá přispívá do složeného skóre
+váženým vzorcem.
 
-| Score Range | Grade | Interpretation | Typical Characteristics |
+### Číselná stupnice a převod na známky
+
+| Rozsah skóre | Známka | Výklad | Typické rysy |
 |-------------|-------|---------------|------------------------|
-| 90-100 | A | Excellent | Minimal exposure, strong controls, current patches |
-| 80-89 | B | Good | Minor issues, generally well-maintained |
-| 70-79 | C | Adequate | Notable gaps, some outdated services |
-| 60-69 | D | Below Average | Significant exposure, multiple findings |
-| 0-59 | F | Critical | Severe vulnerabilities, urgent remediation needed |
+| 90–100 | A | výborné | minimální expozice, silná opatření, aktuální záplaty |
+| 80–89 | B | dobré | drobné problémy, celkově dobře udržované |
+| 70–79 | C | přiměřené | znatelné mezery, některé zastaralé služby |
+| 60–69 | D | podprůměrné | významná expozice, více zjištění |
+| 0–59 | F | kritické | závažné zranitelnosti, nutná urgentní náprava |
 
-The alternative scale used in some contexts maps to 300-900 (similar to credit scores), where A = 800-900, B = 700-799, C = 600-699, D = 500-599, F = 300-499. Both scales are supported by the scoring engine, with the 0-100 scale used internally and the 300-900 scale available for external reporting contexts.
+Alternativní stupnice používaná v některých kontextech je 300–900 (podobně jako úvěrová skóre),
+kde A = 800–900, B = 700–799, C = 600–699, D = 500–599, F = 300–499. Skórovací engine podporuje
+obě stupnice; interně se používá 0–100, stupnice 300–900 je k dispozici pro externí výkaznictví.
 
-### Multi-Dimensional Risk Factors
+### Vícerozměrné rizikové faktory
 
-Individual risk scores are computed from multiple observable dimensions:
+Jednotlivá riziková skóre se počítají z několika pozorovatelných dimenzí:
 
-| Dimension | Weight | Evidence Sources | Example Findings |
+| Dimenze | Váha | Zdroje důkazů | Příklady zjištění |
 |-----------|--------|-----------------|-----------------|
-| **Network Exposure** | 25% | Port scans, service banners | Open database ports, unencrypted services |
-| **Cryptographic Posture** | 20% | TLS analysis, certificate inspection | Expired certs, weak ciphers, missing HSTS |
-| **Patch Currency** | 20% | Version detection, CVE correlation | Outdated software, known vulnerabilities |
-| **Configuration Hygiene** | 15% | Header analysis, DNS records | Missing security headers, SPF/DKIM gaps |
-| **Information Leakage** | 10% | Content analysis, metadata inspection | Exposed admin panels, debug endpoints |
-| **Reputation Signals** | 10% | Blocklist correlation, abuse databases | IP on blocklists, domain in threat feeds |
+| **Síťová expozice** | 25 % | skeny portů, bannery služeb | otevřené databázové porty, nešifrované služby |
+| **Kryptografické postavení** | 20 % | analýza TLS, kontrola certifikátů | prošlé certifikáty, slabé šifry, chybějící HSTS |
+| **Aktuálnost záplat** | 20 % | detekce verzí, korelace s CVE | zastaralý software, známé zranitelnosti |
+| **Konfigurační hygiena** | 15 % | analýza hlaviček, záznamy DNS | chybějící bezpečnostní hlavičky, mezery v SPF/DKIM |
+| **Únik informací** | 10 % | analýza obsahu, kontrola metadat | odhalené administrační panely, ladicí endpointy |
+| **Signály reputace** | 10 % | korelace s blocklisty, databáze zneužití | IP na blocklistech, doména ve feedech hrozeb |
 
 ```elixir
 defmodule PrismaticPerimeter.RiskScoring do
@@ -119,9 +145,11 @@ defmodule PrismaticPerimeter.RiskScoring do
 end
 ```
 
-## EASM Security Ratings
+## Bezpečnostní hodnocení EASM
 
-In the context of [External Attack Surface Management](@/glossary/easm.md), risk scores aggregate into Security Ratings that provide a holistic view of an organization's external security posture. The aggregation follows a hierarchical structure:
+V kontextu [správy vnější útočné plochy](@/glossary/easm.md) (EASM, *External Attack Surface
+Management*) se riziková skóre agregují do bezpečnostních hodnocení, která dávají celkový obraz
+vnějšího bezpečnostního postavení organizace. Agregace má hierarchickou strukturu:
 
 ```
 Organization Security Rating (A-F)
@@ -145,21 +173,26 @@ Organization Security Rating (A-F)
     +-- MySQL (3306): 23 (F) -- exposed database!
 ```
 
-The aggregation applies asset criticality weighting: a finding on a primary domain weighs more than the same finding on a development subdomain. A critical production database scores higher impact than a staging environment. This weighting ensures that the aggregate Security Rating reflects the actual risk profile rather than being skewed by numerous but inconsequential findings on non-critical assets.
+Agregace uplatňuje vážení kritičnosti aktiv: zjištění na primární doméně váží víc než totéž
+zjištění na vývojové subdoméně. Kritická produkční databáze má vyšší dopad než testovací
+prostředí. Vážení zajišťuje, že souhrnné bezpečnostní hodnocení odpovídá skutečnému rizikovému
+profilu a nezkreslují ho četná, ale bezvýznamná zjištění na nekritických aktivech.
 
-## NABLA-Backed Confidence
+## Důvěra podložená NABLA
 
-Every risk score in the Prismatic Platform satisfies [NABLA Infinity](@/glossary/nabla-infinity.md) axiom requirements, which fundamentally distinguishes Prismatic's risk scoring from conventional security rating services:
+Každé rizikové skóre v Prismatic Platform splňuje požadavky axiomů [NABLA
+Infinity](@/glossary/nabla-infinity.md), čímž se rizikové skórování Prismatic zásadně liší od
+běžných služeb bezpečnostního hodnocení:
 
-| NABLA Axiom | Application to Risk Scoring | Enforcement |
+| Axiom NABLA | Uplatnění v rizikovém skórování | Vynucení |
 |-------------|---------------------------|-------------|
-| **[Signal Plurality](@/glossary/signal-plurality.md)** | Minimum 2 independent sources must confirm a finding before it affects the score | HARD -- single-source findings quarantined |
-| **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | If one scanner finds a vulnerability and another does not, both results are preserved | HARD -- contradiction reduces confidence |
-| **[Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | Scan results older than 30 days receive progressively reduced weight | HARD -- stale findings decay toward neutral |
-| **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | Every score traces back to specific scan data through documented evidence chain | HARD -- unprovenanced scores rejected |
-| **Source Independence** | Scores from [Shodan](@/glossary/shodan.md), [Censys](@/glossary/censys.md), and [GreyNoise](@/glossary/greynoise.md) are weighted by source independence | SOFT -- correlated sources discounted |
+| **[Pluralita signálů](@/glossary/signal-plurality.md)** | zjištění musí potvrdit nejméně 2 nezávislé zdroje, než ovlivní skóre | TVRDÉ – zjištění z jediného zdroje jdou do karantény |
+| **[Zachování rozporu](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | když jeden skener zranitelnost najde a jiný ne, zachovají se oba výsledky | TVRDÉ – rozpor snižuje důvěru |
+| **[Časový rozpad](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | výsledky skenů starší 30 dní dostávají postupně nižší váhu | TVRDÉ – zastaralá zjištění se rozpadají k neutrální hodnotě |
+| **[Povinná provenience](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | každé skóre jde dohledat ke konkrétním datům skenu zdokumentovaným řetězcem důkazů | TVRDÉ – skóre bez provenience se odmítají |
+| **Nezávislost zdrojů** | skóre ze [Shodanu](@/glossary/shodan.md), [Censysu](@/glossary/censys.md) a [GreyNoise](@/glossary/greynoise.md) se váží podle nezávislosti zdrojů | MĚKKÉ – korelované zdroje dostanou slevu |
 
-The confidence calculation incorporates all axiom compliance factors:
+Výpočet důvěry zahrnuje všechny faktory souladu s axiomy:
 
 ```
 confidence = base_confidence
@@ -169,46 +202,61 @@ confidence = base_confidence
   * source_independence_factor   (1.0 if fully independent, reduced for correlated sources)
 ```
 
-This approach means that a risk score's confidence naturally degrades over time, with contradictory evidence, or with insufficient source diversity. Consumers of the score can filter by confidence threshold: a compliance report might require confidence >= 0.80, while an alert dashboard might display findings at confidence >= 0.50.
+Důvěra rizikového skóre tak přirozeně klesá s časem, s protichůdnými důkazy nebo při
+nedostatečné rozmanitosti zdrojů. Spotřebitelé skóre mohou filtrovat podle prahu důvěry:
+zpráva pro compliance může vyžadovat důvěru ≥ 0,80, zatímco přehled výstrah může zobrazovat
+zjištění s důvěrou ≥ 0,50.
 
-## Monte Carlo Validation
+## Ověření metodou Monte Carlo
 
-For critical risk assessments (organizations being evaluated for acquisition, regulatory compliance, or strategic partnership), the platform applies [Monte Carlo verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/) to validate risk score distributions. Rather than producing a single point estimate, Monte Carlo simulation produces a probability distribution of likely risk scores.
+U kritických posouzení rizik (organizace posuzované kvůli akvizici, regulatornímu souladu nebo
+strategickému partnerství) uplatňuje platforma [ověření Monte
+Carlo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/)
+k validaci rozdělení rizikových skóre. Simulace Monte Carlo místo jediného bodového odhadu
+vytváří rozdělení pravděpodobnosti možných rizikových skóre (srov. [QEVE](@/glossary/qeve.md)).
 
-The simulation process:
+Postup simulace:
 
-1. **Evidence Sampling**: For each finding, sample from the confidence distribution (accounting for measurement uncertainty, source reliability, and temporal decay)
-2. **Weight Perturbation**: Apply random perturbation to dimension weights within validated ranges (reflecting uncertainty in the weighting model itself)
-3. **Aggregation**: Compute the composite score for each Monte Carlo trial
-4. **Distribution Analysis**: After 10,000+ trials, analyze the resulting score distribution
+1. **Vzorkování důkazů**: pro každé zjištění vzorkovat z rozdělení důvěry (se zohledněním
+   nejistoty měření, spolehlivosti zdroje a časového rozpadu).
+2. **Narušení vah**: náhodně narušit váhy dimenzí v ověřených rozmezích (vyjadřuje nejistotu
+   samotného modelu vážení).
+3. **Agregace**: spočítat složené skóre pro každý pokus Monte Carlo.
+4. **Analýza rozdělení**: po 10 000 a více pokusech analyzovat výsledné rozdělení skóre.
 
-The output includes:
+Výstup obsahuje:
 
-| Metric | Description | Example |
+| Metrika | Popis | Příklad |
 |--------|-------------|---------|
-| **Mean Score** | Average across all trials | 73.2 |
-| **Median Score** | 50th percentile | 74 |
-| **95% CI Lower** | 2.5th percentile | 68 |
-| **95% CI Upper** | 97.5th percentile | 79 |
-| **Grade Probability** | Probability of each grade | C: 72%, B: 18%, D: 10% |
+| **Průměrné skóre** | průměr všech pokusů | 73,2 |
+| **Medián skóre** | 50. percentil | 74 |
+| **Dolní mez 95% IS** | 2,5. percentil | 68 |
+| **Horní mez 95% IS** | 97,5. percentil | 79 |
+| **Pravděpodobnost známky** | pravděpodobnost každé známky | C: 72 %, B: 18 %, D: 10 % |
 
-This probabilistic approach is particularly valuable for due diligence, where a point estimate of "C grade" is less useful than knowing "72% probability of C, 18% probability of B, 10% probability of D." The Monte Carlo distribution captures the uncertainty inherent in external-only observation.
+Pravděpodobnostní přístup je cenný zejména pro due diligence, kde bodový odhad „známka C“ je
+méně užitečný než vědomí „72% pravděpodobnost C, 18% pravděpodobnost B, 10% pravděpodobnost D“.
+Rozdělení Monte Carlo zachycuje nejistotu, která je pozorování výhradně zvenčí vlastní.
 
-## Due Diligence Application
+## Uplatnění v due diligence
 
-Risk scores in the due diligence context serve a specific purpose: enabling informed decisions about business relationships (acquisitions, partnerships, vendor selection) by quantifying the target's external security posture. The due diligence use case imposes additional requirements beyond standard security monitoring and creates a distinct analytical framework.
+Riziková skóre mají v kontextu due diligence konkrétní účel: umožnit informovaná rozhodnutí
+o obchodních vztazích (akvizice, partnerství, výběr dodavatelů) kvantifikací vnějšího
+bezpečnostního postavení cíle. Případ užití v due diligence klade další požadavky nad rámec
+běžného bezpečnostního monitorování a vytváří samostatný analytický rámec.
 
-| Requirement | Implementation | Rationale | Technical Details |
+| Požadavek | Implementace | Zdůvodnění | Technické podrobnosti |
 |-------------|---------------|-----------|-------------------|
-| **Point-in-time snapshot** | Scores computed from evidence gathered within a defined assessment window | Due diligence conclusions must reference a specific date | Evidence collection period typically 7-14 days for comprehensive coverage |
-| **Comparative benchmarking** | Scores include industry percentile ranking | "Grade C" means different things in different industries | Industry classification via NAICS codes, peer scoring distributions |
-| **Trend analysis** | Historical score trajectory over available data points | Improving or degrading posture matters for risk assessment | Minimum 90-day lookback where data available, trend confidence intervals |
-| **Finding materiality** | Risk findings classified by materiality (critical/major/minor) | Not all findings are material to a business decision | CVSS-derived impact scoring with business context weighting |
-| **Remediation cost estimation** | Findings include estimated effort to remediate | Informs negotiation and due diligence valuation adjustments | Cost models based on finding type, organizational size, and complexity |
+| **Snímek k určitému datu** | skóre spočtená z důkazů shromážděných v definovaném okně posouzení | závěry due diligence musí odkazovat ke konkrétnímu datu | období sběru důkazů obvykle 7–14 dní pro úplné pokrytí |
+| **Srovnávací benchmarking** | skóre obsahují percentil v odvětví | „známka C“ znamená v různých odvětvích různé věci | klasifikace odvětví podle kódů NAICS, rozdělení skóre srovnatelných subjektů |
+| **Analýza trendu** | historická trajektorie skóre z dostupných datových bodů | pro posouzení rizika záleží na tom, zda se postavení zlepšuje, nebo zhoršuje | pokud jsou data, nejméně 90denní ohlédnutí, intervaly spolehlivosti trendu |
+| **Materialita zjištění** | riziková zjištění tříděná podle materiality (kritická/významná/drobná) | ne všechna zjištění jsou pro obchodní rozhodnutí podstatná | hodnocení dopadu odvozené z CVSS s vážením obchodního kontextu |
+| **Odhad nákladů nápravy** | zjištění obsahují odhad úsilí potřebného k nápravě | slouží k vyjednávání a úpravám ocenění v due diligence | nákladové modely podle typu zjištění, velikosti organizace a složitosti |
 
-### Advanced Due Diligence Analytics
+### Pokročilá analytika due diligence
 
-The platform provides specialized analytical capabilities for high-stakes due diligence scenarios:
+Platforma poskytuje specializované analytické schopnosti pro scénáře due diligence s vysokými
+sázkami:
 
 ```elixir
 defmodule PrismaticPerimeter.DueDiligence do
@@ -271,51 +319,64 @@ defmodule PrismaticPerimeter.DueDiligence do
 end
 ```
 
-### Materiality Classification Framework
+### Rámec klasifikace materiality
 
-Due diligence assessments distinguish between findings that are material to business decisions and those that represent routine security hygiene:
+Posouzení due diligence rozlišuje zjištění podstatná pro obchodní rozhodnutí od těch, která
+představují běžnou bezpečnostní hygienu:
 
-**Critical (Business-Blocking)**:
-- Exposed databases containing personal data
-- Active exploitation indicators in threat intelligence
-- Critical infrastructure vulnerabilities (scoring CVSS >= 9.0)
-- Certificate expiration within transaction timeline
+**Kritická (blokují obchod)**:
 
-**Major (Affects Valuation)**:
-- Significant cryptographic weaknesses (weak TLS, expired certs)
-- Unpatched vulnerabilities with public exploits
-- Open services on critical business applications
-- Regulatory compliance gaps (GDPR, SOX, etc.)
+- odhalené databáze obsahující osobní údaje;
+- indikátory aktivního zneužívání ve zpravodajství o hrozbách;
+- zranitelnosti kritické infrastruktury (CVSS ≥ 9,0);
+- vypršení certifikátu v průběhu transakce.
 
-**Minor (Monitoring Required)**:
-- Information disclosure (server banners, debug pages)
-- Missing security headers
-- Outdated software versions without active exploits
-- DNS configuration improvements
+**Významná (ovlivňují ocenění)**:
 
-This classification directly informs deal structuring: critical findings may block transactions or require escrow holdbacks, major findings affect valuation negotiations, and minor findings become part of integration planning.
+- významné kryptografické slabiny (slabé TLS, prošlé certifikáty);
+- neopravené zranitelnosti s veřejnými exploity;
+- otevřené služby u kritických obchodních aplikací;
+- mezery v regulatorním souladu (GDPR, SOX apod.).
 
-## Relationship to Confidence Scoring
+**Drobná (vyžadují monitorování)**:
 
-[Confidence scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) and risk scoring are related but distinct concepts in the Prismatic Platform:
+- odhalení informací (bannery serverů, ladicí stránky);
+- chybějící bezpečnostní hlavičky;
+- zastaralé verze softwaru bez aktivních exploitů;
+- zlepšení konfigurace DNS.
 
-| Dimension | Risk Score | Confidence Score |
+Klasifikace přímo ovlivňuje strukturu obchodu: kritická zjištění mohou transakci zablokovat
+nebo vyžadovat zádržné na úschovném účtu, významná ovlivňují vyjednávání o ocenění a drobná se
+stávají součástí plánu integrace.
+
+## Vztah ke skórování důvěry
+
+[Skórování důvěry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/)
+a rizikové skórování jsou v Prismatic Platform příbuzné, ale odlišné pojmy:
+
+| Dimenze | Rizikové skóre | Skóre důvěry |
 |-----------|-----------|-----------------|
-| **What it measures** | How risky is this asset/finding? | How certain are we about this claim? |
-| **Scale** | 0-100 (higher = more secure) | 0.0-1.0 (higher = more certain) |
-| **Subject** | An asset, finding, or organization | A belief, claim, or assessment |
-| **Governed by** | Security rating methodology | [NABLA Infinity](@/glossary/nabla-infinity.md) axioms |
-| **Can be uncertain?** | Yes -- that is what the confidence score indicates | No -- confidence is itself the measure of uncertainty |
+| **Co měří** | jak rizikové je aktivum/zjištění? | jak jistí si jsme tvrzením? |
+| **Stupnice** | 0–100 (vyšší = bezpečnější) | 0,0–1,0 (vyšší = jistější) |
+| **Předmět** | aktivum, zjištění nebo organizace | přesvědčení, tvrzení nebo posouzení |
+| **Řídí se** | metodikou bezpečnostního hodnocení | axiomy [NABLA Infinity](@/glossary/nabla-infinity.md) |
+| **Může být nejisté?** | ano – právě to vyjadřuje skóre důvěry | ne – důvěra je sama mírou nejistoty |
 
-Every risk score carries a confidence score. The risk score says "this port is dangerous" (how risky). The confidence score says "we are 87% certain of this assessment" (how sure). Together, they provide both the assessment and the meta-assessment of that assessment's reliability.
+Každé rizikové skóre nese skóre důvěry. Rizikové skóre říká „tento port je nebezpečný“ (jak
+rizikové), skóre důvěry říká „tímto posouzením jsme si jisti z 87 %“ (jak jisté). Společně
+dávají posouzení i metaposouzení jeho spolehlivosti.
 
-## Relationship to Epistemic Robustness
+## Vztah k epistemické robustnosti
 
-[Epistemic robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) measures how well a risk score withstands adversarial challenge. A risk score is epistemically robust if it would survive [Red Team](@/glossary/red-team.md) epistemic attacks: truth distortion, confidence manipulation, signal poisoning, drift induction, and salience hijacking.
+[Epistemická robustnost](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/)
+měří, jak dobře rizikové skóre odolá útočnému zpochybnění. Rizikové skóre je epistemicky
+robustní, pokud by přežilo epistemické útoky [Red Teamu](@/glossary/red-team.md): zkreslení
+pravdy, manipulaci důvěry, otrávení signálů, navození posunu a únos výraznosti.
 
-### Robustness Validation Framework
+### Rámec ověření robustnosti
 
-The platform implements a multi-layered validation system to ensure risk scores maintain epistemic integrity even under adversarial conditions:
+Platforma implementuje vícevrstvý ověřovací systém, který zajišťuje, že riziková skóre si
+zachovají epistemickou integritu i v útočných podmínkách:
 
 ```elixir
 defmodule PrismaticPerimeter.EpistemicValidation do
@@ -369,55 +430,76 @@ defmodule PrismaticPerimeter.EpistemicValidation do
 end
 ```
 
-The [Blue Team](@/glossary/blue-team.md) continuously validates risk score robustness through:
+[Blue Team](@/glossary/blue-team.md) robustnost rizikových skóre průběžně ověřuje:
 
-- **Signal aggregation**: Verifying that multiple independent sources support each finding, cross-correlating findings across Shodan, Censys, and GreyNoise to detect inconsistencies
-- **Drift detection**: Monitoring for gradual, sub-threshold changes that could manipulate scores, using statistical process control to identify baseline shifts
-- **Authentication boundary monitoring**: Ensuring that data sources have not been compromised by validating API responses, checking for unexpected data patterns, and monitoring source health metrics
-- **Evidence synthesis**: Producing structured evidence artifacts rather than simple alert-based assessments, maintaining full audit trails from raw scan data to final scores
-- **Cross-temporal validation**: Comparing risk score stability across multiple assessment windows to identify manipulation attempts
-- **Source correlation analysis**: Detecting when supposedly independent sources produce suspiciously similar results, indicating potential compromise or coordination
+- **agregací signálů** – ověřuje, že každé zjištění podporuje více nezávislých zdrojů,
+  a vzájemně koreluje zjištění ze Shodanu, Censysu a GreyNoise kvůli odhalení nesrovnalostí;
+- **detekcí posunu** – sleduje postupné podprahové změny, které by mohly skóre manipulovat,
+  a statistickým řízením procesu odhaluje posuny výchozího stavu;
+- **monitorováním autentizačních hranic** – zajišťuje, že zdroje dat nebyly kompromitovány:
+  ověřuje odpovědi API, hledá neočekávané vzorce dat a sleduje metriky zdraví zdrojů;
+- **syntézou důkazů** – vytváří strukturované důkazní artefakty místo prostých posouzení
+  založených na výstrahách a udržuje úplné auditní stopy od surových dat skenu po konečná skóre;
+- **validací napříč časem** – srovnává stabilitu rizikových skóre ve více oknech posouzení
+  a odhaluje pokusy o manipulaci;
+- **analýzou korelace zdrojů** – odhaluje, když údajně nezávislé zdroje dávají podezřele
+  podobné výsledky, což ukazuje na možnou kompromitaci nebo koordinaci.
 
-### Robustness Thresholds and Actions
+### Prahy robustnosti a akce
 
-Risk scores that fail epistemic robustness checks are subject to graduated response protocols:
+Riziková skóre, která neprojdou kontrolami epistemické robustnosti, podléhají stupňovaným
+protokolům reakce:
 
-| Robustness Score | Action | Authority | Timeline |
+| Skóre robustnosti | Akce | Autorita | Časový rámec |
 |------------------|--------|-----------|----------|
-| **0.90-1.00** | Publish normally | Automated | Real-time |
-| **0.75-0.89** | Publish with robustness warning | Blue Team | 1-4 hours |
-| **0.60-0.74** | Hold for Purple Team synthesis | Purple Team | 4-24 hours |
-| **Below 0.60** | Quarantine pending investigation | Red-Blue-Purple Triad | Manual review |
+| **0,90–1,00** | publikovat normálně | automaticky | v reálném čase |
+| **0,75–0,89** | publikovat s varováním o robustnosti | Blue Team | 1–4 hodiny |
+| **0,60–0,74** | pozdržet k syntéze Purple Teamu | Purple Team | 4–24 hodin |
+| **pod 0,60** | karanténa do prošetření | triáda Red–Blue–Purple | ruční přezkum |
 
-Risk scores that fail epistemic robustness checks are flagged with reduced confidence and routed to [Purple Team](@/glossary/purple-team.md) for synthesis and verification before being published. The Purple Team conducts bidirectional mapping between Red Team attack scenarios and Blue Team defensive evidence to determine if the robustness failure represents genuine uncertainty or systematic attack.
+Riziková skóre, která kontrolami epistemické robustnosti neprojdou, se označí sníženou důvěrou
+a před publikací se směrují k [Purple Teamu](@/glossary/purple-team.md) k syntéze a ověření.
+Purple Team provede obousměrné mapování mezi útočnými scénáři Red Teamu a obrannými důkazy Blue
+Teamu, aby určil, zda selhání robustnosti představuje skutečnou nejistotu, nebo systematický útok.
 
-## Related Terms
+## Související
 
-- [EASM](@/glossary/easm.md) -- External Attack Surface Management producing items to score
-- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) -- The total collection of assets being scored
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Meta-assessment of risk score reliability
-- [Signal Plurality](@/glossary/signal-plurality.md) -- NABLA axiom requiring multiple evidence sources
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- NABLA axiom requiring traceable evidence chains
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing risk score evidence quality
-- [Monte Carlo Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/) -- Statistical validation of score distributions
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- Measure of score resilience to epistemic attack
-- [Blue Team](@/glossary/blue-team.md) -- Defensive team validating risk score integrity
-- [Shodan](@/glossary/shodan.md) -- External scanner providing network exposure evidence
-- [Censys](@/glossary/censys.md) -- External scanner providing certificate and service evidence
-- [GreyNoise](@/glossary/greynoise.md) -- External scanner providing internet noise context
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- NABLA axiom handling conflicting scan results
+**Pojmy platformy v tomto glosáři**
 
-## See Also
+- [EASM](@/glossary/easm.md) – správa vnější útočné plochy, která dodává položky ke skórování.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom vyžadující více zdrojů důkazů.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec kvality důkazů.
+- [Blue Team](@/glossary/blue-team.md) – obranný tým, který ověřuje integritu skóre.
+- [Shodan](@/glossary/shodan.md), [Censys](@/glossary/censys.md),
+  [GreyNoise](@/glossary/greynoise.md) – vnější skenery: síťová expozice, certifikáty
+  a služby, kontext internetového šumu.
+- [Sanctions Screening](@/glossary/sanctions-screening.md) – další vrstva rizikového posouzení
+  v due diligence.
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Scanning and assessment technology details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform risk assessment capabilities
+**Hesla a přehledy platformy mimo tuto knihu**
+
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/),
+  [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/),
+  [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/),
+  [Monte Carlo Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/),
+  [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/),
+  [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/).
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Schopnosti](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/).
+
+**Kniha**
+
+- [Perimeter a detekce EA](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md) –
+  útočná plocha z pohledu epistemických útoků.
+- [EA × Due Diligence: Evidence Quality Tiering](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md) –
+  stupňování kvality důkazů.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

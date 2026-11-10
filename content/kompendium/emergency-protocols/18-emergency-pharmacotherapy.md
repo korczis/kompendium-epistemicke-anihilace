@@ -22,7 +22,7 @@ toc = true
 
 Indikace akutní farmakoterapie u EA-pacienta — kdy ano, kdy ne, jaké preference, jaké kontraindikace specifické pro EA-survivors. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **akutní farmakoterapie v EA-emergency situaci** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
-> **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
 ## 2. Bezprostřední intervence (5 kroků)
 
@@ -30,7 +30,7 @@ Indikace akutní farmakoterapie u EA-pacienta — kdy ano, kdy ne, jaké prefere
 2. **Pokud sedace nutná** — preferuj hydroxyzine 25–50mg PO nebo trazodone 25–50mg pro non-benzo alternativu.
 3. **Antipsychotika jen při verifikované psychóze, ne pro „kontrolu" pacienta** — riziko reaktivace bypass-zkušeností.
 4. **SSRIs ano (sertralin 25mg start) ale pomalu** — EA-survivors mají často akcentované initial activation effects.
-5. **Vždy informed consent** — mnoho EA-survivors má historii forced medication; psychologická bezpečnost přednost před rychlostí.
+5. **Vždy [informed consent](@/glossary/informed-consent.md)** — mnoho EA-survivors má historii forced medication; psychologická bezpečnost přednost před rychlostí.
 
 ## 3. Stabilizace
 

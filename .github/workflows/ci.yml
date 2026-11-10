@@ -71,6 +71,10 @@ jobs:
         run: python3 scripts/build-graph.py --check
       - name: Front matter is normalised
         run: python3 scripts/normalize-front-matter.py --check
+      - name: Markdown is polished
+        run: python3 scripts/polish-markdown.py --check
+      - name: Terms are linked
+        run: python3 scripts/link-terms.py --check
       - name: Information architecture does not regress
         run: python3 scripts/check-ia.py
       - name: Content tooling tests

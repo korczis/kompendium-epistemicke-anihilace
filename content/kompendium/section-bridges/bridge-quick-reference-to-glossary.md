@@ -31,7 +31,7 @@ Quick Reference je **lookup vrstva**; Glossary je **definiční vrstva**. Bridge
 - **QR indikační tabulka → glossary indikace.**
 - **QR rizika → glossary rizika.**
 - **QR variace → glossary varianty.**
-- **Doctrine NCLB → QR má vždy glossary kotvu.**
+- **[Doctrine](@/glossary/doctrine.md) NCLB → QR má vždy glossary kotvu.**
 
 ## 3. Doporučená čtenářská trajektorie
 

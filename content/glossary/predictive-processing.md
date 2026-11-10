@@ -1,11 +1,11 @@
 +++
-title = "Predictive Processing"
+title = "Predictive processing (prediktivní zpracování)"
 weight = 60
 
-description = "Friston/Clark's predictive coding framework: cognition as hierarchical Bayesian prediction-error minimization; epistemic annihilation reframed as adversarial manipulation of priors and precision-weighting."
+description = "Rámec Fristona a Clarka: poznávání jako hierarchické bayesovské minimalizování predikční chyby; EA jako nepřátelská manipulace apriorních očekávání a přesnosti."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "kompendium", "cognitive-science"]
+tags = ["glossary", "cognitive", "kognitivni-vedy", "epistemic", "neurovedy", "kompendium"]
 
 [extra]
 category = "epistemic"
@@ -14,52 +14,155 @@ author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
 word_count = 520
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["predictive processing", "predictive coding", "Friston", "Andy Clark", "free energy principle", "Bayesian brain", "kompendium"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Predictive Processing - glossary"
+image_alt = "Predictive processing (prediktivní zpracování) – glosář"
 +++
 
-## Definition
+## Definice
 
-**Predictive Processing (PP)** is a unifying framework in contemporary cognitive science, principally associated with Karl Friston (free energy principle) and Andy Clark (*Surfing Uncertainty*, 2016). Its core claim: the brain is not a passive stimulus-response machine but a **hierarchical generative model** that continuously produces top-down predictions about its sensory inputs and updates those predictions in proportion to **precision-weighted prediction errors** propagating bottom-up.
+**Prediktivní zpracování** (*predictive processing*, PP) je sjednocující rámec současné
+kognitivní vědy, spojovaný především s Karlem Fristonem (princip volné energie) a Andym
+Clarkem (*Surfing Uncertainty*, 2016). Jeho jádrem je tvrzení, že mozek není pasivní stroj
+podnět–reakce, ale **hierarchický generativní model**, který neustále vytváří shora dolů
+předpovědi o svých smyslových vstupech a upravuje je úměrně **přesností vážené predikční
+chybě** (*precision-weighted prediction error*), jež se šíří zdola nahoru.
 
-Three components are central:
+Ústřední jsou tři složky:
 
-1. **Priors** — probability distributions encoding the system's current best guess about hidden causes of sensory states. Priors are themselves the output of higher-level priors, all the way up.
-2. **Prediction error** — the discrepancy between predicted and actual sensory signal at each hierarchical level.
-3. **Precision** — the inverse-variance weighting that determines **how much influence** a given prediction error has on belief update. Precision is itself dynamically estimated and is the cognitive-science correlate of **attention**.
+1. **Apriorní očekávání** (*priors*) – rozdělení pravděpodobnosti, která kódují aktuální
+   nejlepší odhad systému o skrytých příčinách smyslových stavů. Sama jsou výstupem
+   apriorních očekávání vyšší úrovně, a tak dál až nahoru.
+2. **Predikční chyba** – rozdíl mezi předpovězeným a skutečným smyslovým signálem na každé
+   úrovni hierarchie.
+3. **Přesnost** (*precision*) – vážení převrácenou hodnotou rozptylu, které určuje, **jak
+   velký vliv** má daná predikční chyba na aktualizaci přesvědčení. Přesnost se sama
+   dynamicky odhaduje a v kognitivní vědě odpovídá **pozornosti**.
 
-Under PP, perception, action, attention, and learning are unified: all are forms of **prediction-error minimization**. Friston's **Free Energy Principle** generalizes this: any self-organizing system that maintains its boundary against entropy must, in effect, minimize a quantity equivalent to variational free energy — equivalent to surprise, equivalent to prediction error.
+V rámci PP jsou vnímání, jednání, pozornost a učení sjednoceny: všechny jsou formami
+**minimalizace predikční chyby**. Fristonův **princip volné energie** to zobecňuje: každý
+samoorganizující se systém, který udržuje svou hranici proti entropii, musí v důsledku
+minimalizovat veličinu odpovídající variační volné energii – tedy překvapení, tedy predikční
+chybě.
 
-## Context
+## Původ a kontext pojmu
 
-Predictive processing supplies the **mechanistic substrate** that makes epistemic annihilation legible at the level of neural computation. The Kompendium treats PP as the bridge between philosophical / phenomenological description and operational, testable mechanism:
+Myšlenka vnímání jako nevědomé inference sahá k Hermannu von Helmholtzovi; moderní podobu
+dostala v modelech prediktivního kódování ve zpracování signálu a v neurovědě (Rao a Ballard,
+1999) a ve Fristonových pracích od počátku 21. století. Filosoficky ji rozpracovali Andy Clark
+a Jakob Hohwy (*The Predictive Mind*, 2013). V knize jí odpovídají kapitoly [7.40 Friston:
+Active Inference](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md) a [7.5
+Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md).
 
-- **EA-1.1.x cognitive-input techniques** (selective exposure, information overload, source poisoning) operate by **starving or saturating** the prediction-error signal — denying the priors the corrective evidence they need to update.
-- **EA-1.3.x immunization techniques** function by **artificially raising prior precision** so that no incoming evidence can shift them. The victim's belief becomes Bayesian-immune by design.
-- **Gaslighting** (a paradigmatic technique catalogued throughout the kompendium) is precisely **adversarial precision manipulation** of the victim's interoceptive and self-monitoring channels — the victim cannot trust their own perceptions because the precision-weighting of self-generated signal has been collapsed.
-- The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements PP-aware defenses: explicit prior tracking, precision auditing, and detection of pathologically immune belief states. See [/glossary/epistemic-pipeline/](@/glossary/epistemic-pipeline.md) for the 16-level architecture.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) develops the PP framing as one of three theoretical pillars (alongside phenomenology and critical theory) for understanding why EA is so devastating: it does not merely insert false beliefs, it **rewires the inference machinery itself**.
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration loop is itself a precision-management system — Brier scores and ECE measure how well the platform's priors track reality, providing PP-style accountability.
+## Jak se projevuje
 
-## See Also
+Rámec sám nic „neprojevuje“ – je to teorie. Pomáhá ale číst pozorovatelné jevy:
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon explained
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process counterpart
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Reflective-precision damage
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — 16-level reasoning architecture
-- [Kompendium](@/kompendium/_index.md) — Full taxonomy
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
+- člověk přestane věřit vlastním smyslům a ptá se druhých, „jak to opravdu bylo“ (přesnost
+  vlastních signálů je nízká);
+- naopak žádný důkaz s ním nepohne (apriorní očekávání má extrémně vysokou přesnost);
+- zahlcení podněty vede k únavě a stažení (predikční chyba je nezvládnutelně velká);
+- izolace od nových zkušeností vede k ustrnutí (chybí korektivní signál).
+
+## Mechanismus
+
+Prediktivní zpracování dodává **mechanistické podloží**, díky němuž je epistemická anihilace
+srozumitelná na úrovni neurálního výpočtu. Kompendium chápe PP jako most mezi filosofickým či
+fenomenologickým popisem a ověřitelným mechanismem:
+
+- **Techniky kognitivního vstupu EA-1.1.x** ([selektivní
+  expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), [informační
+  přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md), otrávení zdrojů)
+  působí tak, že signál predikční chyby **vyhladoví nebo přesytí** – odepřou apriorním
+  očekáváním korektivní důkazy, které by k aktualizaci potřebovala.
+- **Imunizační techniky EA-1.3.x** ([EA-1.3.1 Imunizace proti
+  falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)) fungují
+  **umělým zvýšením přesnosti apriorních očekávání**, takže je žádný příchozí důkaz nemůže
+  posunout. Přesvědčení oběti se stává „bayesovsky imunním“.
+- **[Gaslighting](@/glossary/gaslighting.md)** (paradigmatická technika, k níž se kniha vrací
+  napříč oddíly) je v tomto rámci **nepřátelskou manipulací přesnosti** interoceptivních
+  a sebemonitorovacích kanálů oběti – oběť nemůže věřit vlastnímu vnímání, protože přesnost
+  sebou vytvářeného signálu byla zhroucena (srov. [interocepce](@/glossary/interocepce.md)).
+
+Kapitola [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) rozvíjí PP jako
+jeden ze tří teoretických pilířů (vedle fenomenologie a kritické teorie) pro pochopení, proč je
+EA tak ničivá: nevkládá jen nepravdivá přesvědčení, ale **přestavuje samotný inferenční
+aparát**. Jde o interpretační model, ne o prokázaný neurální popis konkrétních technik.
+
+## Odlišení
+
+- **Od běžného konfirmačního biasu** – [konfirmační bias](@/glossary/konfirmacni-bias.md)
+  popisuje výběr informací; PP vysvětluje, proč se některé informace vůbec nepromítnou do
+  aktualizace (nízká přesnost).
+- **Od psychotických stavů** – výklad psychózy jako poruchy vážení přesnosti je v PP
+  literatuře rozšířený; podobnost s účinky EA neznamená shodnou etiologii (viz
+  [diferenciální diagnostiku EA a psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+- **Od bayesovské racionality jako normy** – PP je popis fungování, ne norma správného
+  uvažování; mozek může „optimálně“ minimalizovat chybu i v deformovaném prostředí.
+
+## Význam pro Kompendium
+
+- Epistemická pipeline [NABLA Infinity](@/glossary/nabla-infinity.md) implementuje obrany
+  vědomé si PP: výslovné sledování apriorních očekávání, audit přesnosti a odhalování
+  patologicky imunních stavů přesvědčení (viz šestnáctiúrovňovou [Epistemic
+  Pipeline](@/glossary/epistemic-pipeline.md)).
+- Kalibrační smyčka [Decision Engine](@/glossary/decision-engine.md) je sama systémem řízení
+  přesnosti – Brierovo skóre a ECE (očekávaná kalibrační chyba) měří, jak dobře apriorní
+  odhady platformy sledují realitu, a zajišťují tak odpovědnost v duchu PP.
+
+## Obrana a zotavení
+
+V jazyce PP má zotavení dva směry: **obnovit přesnost vlastních signálů** (tělesné ukotvení,
+deník, bezpečné prostředí, kde vlastní vnímání potvrzují druzí) a **snížit přesnost
+vnucených apriorních očekávání** (bezpečný kontakt s rozpornými zkušenostmi, postupná
+expozice novým zdrojům bez zahlcení). Prakticky se to překrývá s postupy [reality
+testingu](@/glossary/reality-testing.md), [akutního kognitivního
+ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) a s prací na
+[metakognici](@/glossary/metakognice.md).
+
+## Literatura
+
+- Andy Clark: *Surfing Uncertainty: Prediction, Action, and the Embodied Mind* (2016).
+- Karl Friston: „The free-energy principle: a unified brain theory?“, *Nature Reviews
+  Neuroscience* (2010).
+- Jakob Hohwy: *The Predictive Mind* (2013).
+- Rajesh P. N. Rao, Dana H. Ballard: „Predictive coding in the visual cortex“, *Nature
+  Neuroscience* (1999).
+
+## Související
+
+**Pojmy**
+
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – vysvětlovaný fenomén.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – protějšek na úrovni procesů.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – poškození reflexivní
+  přesnosti.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňová architektura
+  uvažování.
+- [Embodied Cognition](@/glossary/embodied-cognition.md) – vtělené pojetí, s nímž PP úzce
+  souvisí.
+
+**Techniky a teorie**
+
+- [EA-7.3.3 Friston: Active Inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md) –
+  rozbor v taxonomii.
+- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) –
+  přesycení predikční chyby.
+
+**Kniha**
+
+- [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretická východiska.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

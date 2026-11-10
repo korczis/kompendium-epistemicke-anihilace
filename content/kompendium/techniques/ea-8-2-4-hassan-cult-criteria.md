@@ -54,7 +54,7 @@ Pyramidální model může over-simplify decentralizované networks (online radi
 
 ## Vztah k jiným zdrojům
 
-Strukturální komplement k **EA-8.2.1 BITE Framework**. Synergický s **EA-8.2.10 Information Warfare Literature** (státní totalismus).
+Strukturální komplement k **[EA-8.2.1](@/kompendium/techniques/ea-8-2-1-bite-framework.md) BITE Framework**. Synergický s **[EA-8.2.10](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) Information Warfare Literature** (státní totalismus).
 
 ## Cross-linky
 

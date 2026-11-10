@@ -2,68 +2,162 @@
 title = "Deplatforming"
 weight = 60
 
-description = "Removal of an actor's access to digital infrastructure (social platforms, payment processors, hosting, DNS) as a platform-level epistemic intervention; trade-offs between harm reduction and epistemic-monoculture risk."
+description = "Odebrání přístupu aktéra k digitální infrastruktuře (sítím, platbám, hostingu, DNS) jako epistemický zásah – mezi snížením škod a rizikem epistemické monokultury."
 
 [taxonomies]
-tags = ["glossary", "security", "epistemic", "kompendium"]
+tags = ["glossary", "security", "epistemic", "kompendium", "digitalni"]
 
 [extra]
 category = "security"
 related_terms = ["epistemic-security", "info-ops", "firehose-of-falsehood", "delegitimizace", "epistemicka-anihilace", "hyperreality"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "4 min"
-word_count = 560
+reading_time = "6 min"
+word_count = 1100
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
-keywords = ["deplatforming", "content moderation", "platform governance", "epistemic intervention", "no-platform", "infrastructure denial"]
-quality_score = 88
-see_also = ["kompendium", "philosophy", "decisions"]
+date_modified = "2026-11-10"
+keywords = ["deplatforming", "moderace obsahu", "správa platforem", "epistemický zásah", "no-platform", "odepření infrastruktury"]
+quality_score = 84
+see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Deplatforming - glossary"
+image_alt = "Deplatforming – glosář"
 +++
 
-## Definition
+## Definice
 
-**Deplatforming** is the targeted removal of an actor's access to digital infrastructure — social-media accounts, payment processors, hosting providers, DNS registrars, app-store distribution, advertising networks — typically in response to violations of policy, law, or platform norms. The term entered mainstream usage around 2018 with the coordinated removal of Alex Jones from major platforms, but the practice spans no-platforming of academic speakers (Marcuse-era debates), de-banking of disfavored organizations, and infrastructure-layer denial (Cloudflare's removal of 8chan, AWS removal of Parler).
+**Deplatforming** je cílené odebrání přístupu aktéra k digitální infrastruktuře – účtům na
+sociálních sítích, platebním službám, poskytovatelům hostingu, registrátorům DNS,
+distribuci v obchodech s aplikacemi, reklamním sítím – obvykle v reakci na porušení
+pravidel, zákona nebo norem platformy.
 
-Deplatforming operates at multiple **stack layers**, each with different reversibility, scale, and bypass dynamics:
+Deplatforming probíhá v několika **vrstvách technologického zásobníku**, z nichž každá se
+liší vratností, rozsahem a možnostmi obejití:
 
-- **Application layer** (account suspension): low cost, easily evaded by account creation
-- **Aggregation layer** (de-indexing, demonetization): reduces reach, harder to evade
-- **Distribution layer** (app-store removal): cuts off install pathways
-- **Infrastructure layer** (hosting, DNS, payment): existential, hardest to recover from
+| Vrstva | Příklad zásahu | Dopad |
+|---|---|---|
+| aplikační | pozastavení účtu | nízká cena, snadno obejitelné založením nového účtu |
+| agregační | vyřazení z vyhledávání, odebrání monetizace | snižuje dosah, hůře obejitelné |
+| distribuční | odstranění z obchodu s aplikacemi | odřízne cesty k instalaci |
+| infrastrukturní | hosting, DNS, platby | existenční, nejobtížněji napravitelné |
 
-Empirically, well-targeted deplatforming reduces audience reach (Chandrasekharan et al. 2017 on Reddit, Jhaver et al. 2021 on Twitter), but the displaced actors typically retain their core followers and migrate to alternative platforms with weaker moderation, where messaging often radicalizes further (selection effect plus reduced norm-friction).
+## Původ a kontext pojmu
 
-The practice raises **structural epistemic-security questions**: deplatforming reduces specific harms but concentrates editorial authority in private oligopolies whose decisions are not subject to democratic process, judicial review, or transparent criteria. Critics from both ends of the political spectrum identify the **monoculture risk** — that platform-level interventions, however well-intentioned, can degrade the epistemic ecosystem they are meant to protect.
+Termín se rozšířil kolem roku 2018, kdy hlavní platformy koordinovaně odstranily účty
+Alexe Jonese. Praxe je ale starší a širší: zahrnuje odpírání pódia akademickým řečníkům
+(*no-platforming*, debaty sahající do 60. a 70. let), rušení bankovních účtů nepohodlných
+organizací (*de-banking*) i odepření na úrovni infrastruktury (Cloudflare ukončil služby pro
+8chan v roce 2019, Amazon Web Services pro Parler v roce 2021).
 
-## Context
+Empiricky dobře cílený deplatforming snižuje dosah (Chandrasekharan a kol. 2017 na Redditu,
+Jhaver a kol. 2021 na Twitteru). Vytlačení aktéři si však obvykle udrží jádro příznivců
+a přesunou se na alternativní platformy se slabší moderací, kde se sdělení často dále
+radikalizuje (selekční efekt a menší tření s normami).
 
-Within the Prismatic Platform, deplatforming is treated as an **intervention** with measurable epistemic cost-benefit, not a normative absolute:
+## Jak se projevuje
 
-- The Kompendium discusses deplatforming under [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) as a **defensive technique against EA actors operating at scale** — particularly EA-1.2 (falsification) and EA-3 (collective cognitive disruption) — while flagging the epistemic-monoculture risk it introduces.
-- [Color Teams](@/glossary/color-teams.md) Blue Team protocols evaluate deplatforming proposals against five criteria: (1) harm specificity, (2) intervention reversibility, (3) precedent generality, (4) due-process adequacy, (5) post-intervention monitoring.
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats actors recently subject to deplatforming as **provenance-ambiguous**: their post-deplatforming output may be either genuinely problematic or selection-biased by migration to lower-moderation environments.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) explicitly avoids deplatformed-source-only diets in its source-diversity checks — a model trained or reasoning over only "approved" sources fails the diversity invariant.
-- The [Info-Ops](@/glossary/info-ops.md) and [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) entries describe the threat models against which deplatforming is sometimes justified.
+**Deplatforming jako obrana** (zásah platformy proti aktérovi):
 
-Deplatforming is best understood as a **trade-off** rather than a victory: it is one tool among many in epistemic security, and its costs (centralization, due-process erosion, monoculture) must be weighed against its benefits (harm reduction, norm enforcement) on a case-by-case basis.
+- náhlé zmizení účtů, kanálů nebo aplikace aktéra;
+- přesun komunity na menší, méně moderované služby;
+- v komunitě aktéra narativ pronásledování, který posiluje soudržnost.
 
-## See Also
+**Deplatforming jako útok** (na cílovou osobu):
 
-- [Epistemic Security](@/glossary/epistemic-security.md) — Broader field framing
-- [Info-Ops](@/glossary/info-ops.md) — Threat model often justifying deplatforming
-- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) — Adversarial pattern targeted by deplatforming
-- [Delegitimizace](@/glossary/delegitimizace.md) — Adjacent concept of source-discrediting
-- [Hyperreality](@/glossary/hyperreality.md) — Platform-mediated reality construction
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+- koordinované hromadné nahlašování účtu, které vede k automatickému zablokování;
+- postupné vyřazení z více služeb v krátké době (*kaskáda*);
+- ztráta kontaktu s publikem, klienty nebo komunitou, a tím i ztráta hlasu ve sporu.
 
----
+Druhou podobu popisuje Kompendium jako [EA-9.6.4 AI Deplatforming
+Cascade](@/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md) a detekční
+signaturu [Kaskáda deplatformingu](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md).
 
-## Connect & Contribute
+## Mechanismus
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Deplatforming mění **rozložení hlasu** v informačním ekosystému. Odebráním kanálu se
+snižuje dosah sdělení, ale současně se mění i složení publika a způsob, jak sdělení vnímá:
+zbylí příznivci mohou zásah číst jako potvrzení pronásledování. Proto má zásah dvojí
+epistemický účinek – snižuje šíření škodlivého obsahu a zároveň může zpevnit uzavřenou
+komunitu (srov. [Epistemic Bubble](@/glossary/epistemic-bubble.md)).
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+Praxe otevírá **strukturní otázky epistemické bezpečnosti**: deplatforming snižuje konkrétní
+škody, ale soustřeďuje redakční moc v rukou soukromých oligopolů, jejichž rozhodnutí
+nepodléhají demokratickému procesu, soudnímu přezkumu ani transparentním kritériím. Kritici
+z obou konců politického spektra upozorňují na **riziko monokultury** – zásahy na úrovni
+platforem, jakkoli dobře míněné, mohou poškodit epistemický ekosystém, který mají chránit
+(viz [Epistemická monokultura](@/glossary/epistemicka-monokultura.md)).
+
+## Odlišení
+
+- **Moderace obsahu.** Odstranění jednotlivého příspěvku; deplatforming odebírá celý kanál.
+- **[Delegitimizace](@/glossary/delegitimizace.md).** Útok na status zdroje; deplatforming
+  útočí na jeho dosah. Často se kombinují.
+- **Cenzura státem.** Deplatforming provádějí obvykle soukromé subjekty podle vlastních
+  pravidel; právní rámec se liší.
+
+## Význam pro Kompendium
+
+Kompendium chápe deplatforming jako **zásah** s měřitelnými epistemickými náklady
+a přínosy, nikoli jako normativní absolutno. [7. Teoretické
+reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) jej rozebírají jako **obrannou
+techniku proti aktérům EA působícím ve velkém měřítku** – zejména proti koordinovaným
+kampaním typu [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)
+a [EA-2.3.6 Platform Coordinated
+Attack](@/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md) – a zároveň
+upozorňují na riziko epistemické monokultury, které zásah přináší.
+
+Na platformě, z níž kniha vzešla:
+
+- protokoly Blue Teamu v rámci [Color Teams](@/glossary/color-teams.md) hodnotí návrhy na
+  deplatforming podle pěti kritérií: (1) specifičnost škody, (2) vratnost zásahu,
+  (3) obecnost precedentu, (4) přiměřenost řádného procesu, (5) sledování po zásahu;
+- [Decision Engine](@/glossary/decision-engine.md) považuje aktéry nedávno zasažené
+  deplatformingem za **nejednoznačné co do původu**: jejich pozdější výstup může být
+  skutečně problematický, nebo zkreslený přesunem do prostředí s nižší moderací;
+- [NABLA Infinity](@/glossary/nabla-infinity.md) při kontrole rozmanitosti zdrojů výslovně
+  vylučuje stav, kdy by se pracovalo jen se „schválenými“ zdroji: model, který uvažuje jen
+  nad nimi, nesplňuje invariant rozmanitosti;
+- hesla [Info-Ops](@/glossary/info-ops.md) a [Firehose of
+  Falsehood](@/glossary/firehose-of-falsehood.md) popisují modely hrozeb, jimiž se
+  deplatforming někdy zdůvodňuje.
+
+## Obrana a zotavení
+
+**Pro osobu zasaženou neoprávněným deplatformingem:** zálohovat obsah a kontakty mimo
+platformu, využít odvolací mechanismy, dokumentovat průběh a časovou osu, udržovat
+alternativní kanály ke komunitě.
+
+**Pro rozhodující instituce:** transparentní pravidla, odůvodnění, odvolání, vratnost
+zásahu a následné vyhodnocení dopadu.
+
+Deplatforming je nejlépe chápat jako **kompromis**, nikoli jako vítězství: je jedním
+z mnoha nástrojů epistemické bezpečnosti a jeho náklady (centralizace, oslabení řádného
+procesu, monokultura) je nutné vážit proti přínosům (snížení škod, prosazení norem) případ
+od případu.
+
+## Literatura
+
+- Eshwar Chandrasekharan a kol.: „You Can't Stay Here: The Efficacy of Reddit's 2015 Ban
+  Examined Through Hate Speech“, *Proceedings of the ACM on Human-Computer Interaction*
+  (CSCW, 2017).
+- Shagun Jhaver a kol.: „Evaluating the Effectiveness of Deplatforming as a Moderation
+  Strategy on Twitter“, *Proceedings of the ACM on Human-Computer Interaction* (CSCW, 2021).
+
+## Související
+
+**Pojmy**
+
+- [Epistemic Security](@/glossary/epistemic-security.md) – širší rámec oboru.
+- [Info-Ops](@/glossary/info-ops.md) – model hrozby, který deplatforming často zdůvodňuje.
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) – adversariální vzorec, proti
+  němuž deplatforming míří.
+- [Delegitimizace](@/glossary/delegitimizace.md) – příbuzný pojem zpochybnění zdroje.
+- [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – riziko přehnaného
+  zásahu.
+- [Hyperreality](@/glossary/hyperreality.md) – realita konstruovaná platformami.
+
+**Techniky a detekce**
+
+- [EA-9.6.4 AI Deplatforming Cascade](@/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md)
+  – deplatforming jako útok na osobu.
+- [Kaskáda deplatformingu](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md)
+  – jak ji rozpoznat.
+- [Kompendium](@/kompendium/_index.md) – celá taxonomie.

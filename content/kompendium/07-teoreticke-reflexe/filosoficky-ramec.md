@@ -1,6 +1,6 @@
 +++
 title = "7.1 Filosofický rámec EA: Foucault, Adorno, Sloterdijk, Habermas"
-description = "Filosofická lokalizace kompendia EA ve čtyřech velkých tradicích kontinentální filozofie 20. a 21. století — Foucaultova analytika moc-vědění, Adornova negativní dialektika a kritika instrumentálního rozumu, Sloterdijkova sférická imunologie a Habermasova teorie komunikativního jednání."
+description = "Filosofická lokalizace kompendia EA ve čtyřech velkých tradicích kontinentální filozofie 20. a 21."
 weight = 1
 insert_anchor_links = "right"
 
@@ -23,7 +23,7 @@ Tato kapitola lokalizuje kompendium epistemické a kognitivní anihilace ve **č
 
 ### 1.1 Pouvoir-savoir jako strukturální vazba
 
-Foucaultův centrální pojem *pouvoir-savoir* (moc-vědění), rozvinutý zejména v *Surveiller et punir* (1975) a *Histoire de la sexualité I* (1976), představuje pro kompendium EA **strukturální východisko**: vědění není neutrálním médiem, jež moc instrumentálně zneužívá, ale je **konstitutivně provázáno** s mocenskými praktikami. Tato vazba není primárně represivní (moc potlačuje pravdu), ale **produktivní** — moc generuje specifické režimy pravdy, vědecké diskurzy, klasifikační aparáty a „objektivní“ expertize.
+Foucaultův centrální pojem *pouvoir-savoir* ([moc-vědění](@/glossary/power-knowledge.md)), rozvinutý zejména v *Surveiller et punir* (1975) a *Histoire de la sexualité I* (1976), představuje pro [kompendium EA](@/glossary/kompendium-ea.md) **strukturální východisko**: vědění není neutrálním médiem, jež moc instrumentálně zneužívá, ale je **konstitutivně provázáno** s mocenskými praktikami. Tato vazba není primárně represivní (moc potlačuje pravdu), ale **produktivní** — moc generuje specifické režimy pravdy, vědecké diskurzy, klasifikační aparáty a „objektivní“ expertize.
 
 Pro taxonomii EA má tato perspektiva **trojí důsledek**:
 
@@ -33,7 +33,7 @@ Pro taxonomii EA má tato perspektiva **trojí důsledek**:
 
 ### 1.2 Panoptismus a epistemická internalizace
 
-V *Surveiller et punir* Foucault analyzuje **panoptismus** — nikoli pouze Benthamovu architekturu věznice, ale **obecný princip moderní moci**: subjekt internalizuje pohled dohlížitele a stává se vlastním cenzorem. Tato internalizace má pro EA klíčovou diagnostickou hodnotu:
+V *Surveiller et punir* Foucault analyzuje **[panoptismus](@/glossary/panopticism.md)** — nikoli pouze Benthamovu architekturu věznice, ale **obecný princip moderní moci**: subjekt internalizuje pohled dohlížitele a stává se vlastním cenzorem. Tato internalizace má pro EA klíčovou diagnostickou hodnotu:
 
 - Techniky **chronické autocenzury** ([EA chronicity, viz sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)) operují strukturně panoptickým způsobem.
 - Subjekt naučený anticipovat sankce za „nepovolené“ epistemické operace přestává tyto operace vůbec provádět — nikoli proto, že by byl explicitně potlačován, ale protože **internalizoval cenzurní strukturu**.
@@ -43,7 +43,7 @@ V *Surveiller et punir* Foucault analyzuje **panoptismus** — nikoli pouze Bent
 
 Foucaultova analýza biopolitiky (*Naissance de la biopolitique*, přednášky 1978–1979) rozšiřuje analytiku moc-vědění z disciplinárních na **regulační** a **populační** úrovně. Pro EA to znamená:
 
-- Útoky na epistemické kapacity nemusí cílit na jedince — mohou operovat **populačně** skrze statistické nástroje, normalizační křivky, „evidence-based“ politiky a algoritmické filtry.
+- Útoky na epistemické kapacity nemusí cílit na jedince — mohou operovat **populačně** skrze statistické nástroje, normalizační křivky, „[evidence-based](@/glossary/evidence-based.md)“ politiky a algoritmické filtry.
 - Kompendium tuto perspektivu integruje v kategoriích **strukturálních** technik EA — manipulace nikoli skrze **intencionální** akt jednotlivce, ale skrze **architekturu** informačního prostředí.
 - Algoritmická filtrace sociálních sítí představuje paradigmatický případ biopolitické EA: žádný jednotlivec necenzuruje, a přece je výsledný informační prostor systematicky deformován.
 
@@ -116,9 +116,9 @@ Pro EA to znamená:
 
 | Cílová sféra | Charakteristické techniky | Klinický korelát |
 |--------------|---------------------------|-------------------|
-| Mikrosféra | Gaslighting, izolace, betrayal trauma | Komplexní PTSD, narušení primární epistemické důvěry |
+| Mikrosféra | [Gaslighting](@/glossary/gaslighting.md), izolace, [betrayal trauma](@/glossary/betrayal-trauma.md) | Komplexní PTSD, narušení primární epistemické důvěry |
 | Makrosféra | Delegitimizace institucí, podkopávání expertizy | Konspirační myšlení, anomické stavy |
-| Pěna (postmoderna) | Fragmentace, simulakra, hyperrealita | Epistemická dezorientace, rozpad referenčního rámce |
+| Pěna (postmoderna) | Fragmentace, [simulakra](@/glossary/simulacra.md), [hyperrealita](@/glossary/hyperreality.md) | Epistemická dezorientace, rozpad referenčního rámce |
 
 ### 3.3 Antropotechniky a kultivace epistemické rezilience
 
@@ -159,7 +159,7 @@ Pro EA to má **dvojí význam**:
    - **Imunizace proti falsifikaci** porušuje ochotu k revizi
    - **Terminologická mystifikace** porušuje princip transparentnosti
 
-2. **Architektonické**: **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě **algoritmicky implementují** strukturu ISC — Red Team, Blue Team a Purple Team systematicky generují adversariální argumenty, vyžadují symetrickou pozornost a tlačí na falsifikabilitu hypotéz.
+2. **Architektonické**: **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě **algoritmicky implementují** strukturu ISC — [Red Team](@/glossary/red-team.md), [Blue Team](@/glossary/blue-team.md) a [Purple Team](@/glossary/purple-team.md) systematicky generují adversariální argumenty, vyžadují symetrickou pozornost a tlačí na falsifikabilitu hypotéz.
 
 ### 4.3 Diskursivní etika
 
@@ -169,12 +169,12 @@ Habermasova **diskursivní etika** (zejména *Moralbewußtsein und kommunikative
 
 Pro klinickou aplikaci ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) tento princip znamená:
 
-- Terapeutické intervence cílící na epistemické trauma musí být **diskursivně legitimovatelné** — pacient musí být schopen retrospektivně souhlasit s podstatou intervence.
-- Etika vyžaduje **explicitní informovaný souhlas** k epistemické rekonstrukci, nikoli pouze paternalistickou aplikaci „objektivně správného“ rámce.
+- Terapeutické intervence cílící na [epistemické trauma](@/glossary/epistemicke-trauma.md) musí být **diskursivně legitimovatelné** — pacient musí být schopen retrospektivně souhlasit s podstatou intervence.
+- Etika vyžaduje **explicitní [informovaný souhlas](@/glossary/informed-consent.md)** k epistemické rekonstrukci, nikoli pouze paternalistickou aplikaci „objektivně správného“ rámce.
 
 ### 4.4 Lifeworld vs. systém
 
-Habermasovo rozlišení **lebenswelt** (světa života: rodina, kultura, sféra symbolické reprodukce) a **systém** (ekonomika, byrokracie, sféra materiální reprodukce) předjímá analýzu **kolonizace lebensweltu** systémovou racionalitou. Pro EA:
+Habermasovo rozlišení **[lebenswelt](@/glossary/lebenswelt.md)** (světa života: rodina, kultura, sféra symbolické reprodukce) a **systém** (ekonomika, byrokracie, sféra materiální reprodukce) předjímá analýzu **kolonizace lebensweltu** systémovou racionalitou. Pro EA:
 
 - Mnohé současné formy EA operují skrze **kolonizaci epistemického lebensweltu** algoritmickými systémy (sociální sítě, doporučovací enginy, attention economy).
 - Kompendium tuto perspektivu integruje v kategoriích **strukturálních** EA technik.

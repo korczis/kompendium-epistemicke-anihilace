@@ -29,7 +29,7 @@ Glossary entry slouží jako kanonický referenční bod platformy; bridge člá
 Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 03 — Velitelská architektura**: vztah strategic-operational-tactical
-- **Sekce 09 — Decision Doctrine**: strategická doctrína a její implementace
+- **Sekce 09 — Decision [Doctrine](@/glossary/doctrine.md)**: strategická doctrína a její implementace
 - **Per-technique: Strategy Mapping**: operacionalizace strategických cílů
 - **Sekce 08 — Akontabilita**: politický oversight strategické úrovně
 

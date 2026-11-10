@@ -99,7 +99,7 @@ cítit rozdíl mezi „já chci“ a „ode mě se čeká“.
 - **Pojmová diferenciace vs. pedantství:** jemná rozlišení mají smysl, když mění úsudek
   nebo jednání; rozlišování bez funkce je jiný problém.
 - **Klinické hledisko:** potíže s hranicemi self se vyskytují u řady stavů (některé poruchy
-  osobnosti, komplexní trauma). Nízká diferenciace sama není diagnóza; je to dimenze
+  osobnosti, [komplexní trauma](@/glossary/complex-trauma.md)). Nízká diferenciace sama není diagnóza; je to dimenze
   fungování, kterou lze posilovat.
 
 ## Význam pro Kompendium

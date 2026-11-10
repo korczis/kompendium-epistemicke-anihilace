@@ -34,7 +34,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 04 — Security operations**: EASM jako proaktivní defensive layer
 - **Sekce 05 — Prismatic Perimeter**: implementační příklad EASM v platformě
-- **Sekce 06 — Asset discovery**: Censys, Shodan, GreyNoise integrace
+- **Sekce 06 — Asset discovery**: Censys, Shodan, [GreyNoise](@/glossary/greynoise.md) integrace
 - **Sekce 07 — Risk scoring**: CVSS + business context
 - **Per-technique články**: EASM workflow, false positive management
 

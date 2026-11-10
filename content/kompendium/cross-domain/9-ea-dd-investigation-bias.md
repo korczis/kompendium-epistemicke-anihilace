@@ -15,7 +15,7 @@ toc = true
 
 # EA × Due Diligence: Confirmation Bias v DD Procesu
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **Due Diligence**.
+> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **[Due Diligence](@/glossary/due-diligence.md)**.
 
 ## Doména
 

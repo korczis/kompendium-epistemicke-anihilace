@@ -38,7 +38,7 @@ viny. Anna Freudová v knize *Das Ich und die Abwehrmechanismen* (1936) popsala 
 s agresorem jako obranný mechanismus.
 
 V současné traumaterapii, zejména německojazyčné, se ustálil termín *Täterintrojekt*
-(introjekt pachatele). Teorie strukturální disociace (van der Hart, Nijenhuis a Steele, 2006)
+(introjekt pachatele). Teorie strukturální [disociace](@/glossary/disociace.md) (van der Hart, Nijenhuis a Steele, 2006)
 popisuje, že u těžké traumatizace mohou mít takové části podobu oddělených, relativně
 samostatných stavů. Judith Hermanová (*Trauma and Recovery*, 1992) popsala, jak dlouhodobé
 zajetí – v rodině, sektě či vězení – mění vztah oběti k sobě samé a k pachateli; na tyto

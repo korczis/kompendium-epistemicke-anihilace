@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Gestalt shift je akutní změna v percepčním nebo konceptuálním uspořádání, ve které se stejná data rekonfigurují do nové holistické struktury — klasické příklady: kachna/zajíc Wittgensteina, váza/dvě tváře Rubinova. V Kuhnově filosofii vědy: paradigm shift jako kolektivní gestalt shift.
+Gestalt shift je akutní změna v percepčním nebo konceptuálním uspořádání, ve které se stejná data rekonfigurují do nové holistické struktury — klasické příklady: kachna/zajíc Wittgensteina, váza/dvě tváře Rubinova. V Kuhnově filosofii vědy: [paradigm shift](@/glossary/paradigm-shift.md) jako kolektivní gestalt shift.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -54,7 +54,7 @@ Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich v
 
 ## Klinicke a filosoficke implikace
 
-Gestalt shift demonstruje, že percepce není pasivní záznam — je aktivní strukturace. Filosoficky resonates s phenomenology a Wittgensteinovým 'aspect-seeing'. Klinicky: insight moment v terapii je micro gestalt shift. Aplikace v Prismatic Decision Engine: hypothesis-switching v pipeline je strukturovaný gestalt shift — same evidence, různé causal stories.
+Gestalt shift demonstruje, že percepce není pasivní záznam — je aktivní strukturace. Filosoficky resonates s phenomenology a Wittgensteinovým 'aspect-seeing'. Klinicky: insight moment v terapii je micro gestalt shift. Aplikace v Prismatic [Decision Engine](@/glossary/decision-engine.md): hypothesis-switching v pipeline je strukturovaný gestalt shift — same evidence, různé causal stories.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

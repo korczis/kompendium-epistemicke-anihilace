@@ -1,6 +1,6 @@
 +++
 title = "7.12 Feyerabend: Anti-Method a epistemický anarchismus"
-description = "Paul Feyerabendova teze 'anything goes', kritika metodologického monismu a epistemický anarchismus jako produktivní výzva pro taxonomii EA — kde se končí legitimní pluralismus a začíná manipulativní libovůle."
+description = "Paul Feyerabendova teze 'anything goes', kritika metodologického monismu a epistemický anarchismus jako produktivní výzva pro taxonomii EA."
 weight = 12
 insert_anchor_links = "right"
 
@@ -19,7 +19,7 @@ toc = true
 
 Paul Feyerabendova *Against Method* (1975) představuje **nejradikálnější výzvu** epistemologii pravidel: žádná univerzální vědecká metoda neexistuje, a každý pokus o její formulaci se v dějinách vědy ukazuje jako **kontrafaktický**. Feyerabendova teze „*anything goes*“ není normativní doporučení, ale **dějinný diagnostický nález**: vědecký pokrok byl historicky podmíněn **porušováním** všech metodologických pravidel.
 
-Pro kompendium EA představuje Feyerabend **produktivní napětí**: ohrožuje samotnou možnost **normativního měřítka** pro odlišení legitimní inovace od manipulace.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) představuje Feyerabend **produktivní napětí**: ohrožuje samotnou možnost **normativního měřítka** pro odlišení legitimní inovace od manipulace.
 
 ## 1. Proti metodě
 
@@ -33,7 +33,7 @@ Feyerabend systematicky demontuje hlavní metodologické principy:
 Pro EA má tato dekonstrukce **dvojí relevanci**:
 
 1. **Defenzivní**: Útočník může použít Feyerabenda k **obraně každé pseudovědecké pozice**: „Žádná metoda není univerzální, takže má pozice je legitimní jako kterákoli jiná.“
-2. **Konstruktivní**: Kompendium se musí vystříhat **metodologického fundamentalismu** — jeho taxonomie EA musí počítat s historickou proměnlivostí epistemických norem.
+2. **Konstruktivní**: Kompendium se musí vystříhat **metodologického fundamentalismu** — jeho [taxonomie EA](@/glossary/taxonomie-ea.md) musí počítat s historickou proměnlivostí epistemických norem.
 
 ## 2. Kontrainductive principle
 
@@ -52,7 +52,7 @@ Pro kompendium EA je tato pozice **kriticky problematická**:
 
 - Z **Habermasovské perspektivy** ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) tato teze rozkládá **normativní kritérium** odlišení vědecké argumentace od manipulace.
 - Z perspektivy **kritického realismu** ([viz 7.7 Sociální epistemologie](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)) je tato pozice empiricky neudržitelná: některé tradice (moderní medicína) **systematicky redukují utrpení**, jiné nikoli.
-- Kompendium tuto Feyerabendovu pozici **odmítá**, ale absorbuje její **kritický moment**: epistemický pluralismus má hodnotu, leč nikoli neomezenou.
+- Kompendium tuto Feyerabendovu pozici **odmítá**, ale absorbuje její **kritický moment**: epistemický [pluralismus](@/glossary/pluralismus.md) má hodnotu, leč nikoli neomezenou.
 
 ## 4. Anti-method jako produktivní napětí
 
@@ -77,7 +77,7 @@ Kompendium navrhuje následující kritéria pro rozlišení (rozpracováno v [7
 
 | Legitimní pluralismus | Manipulativní libovůle |
 |------------------------|--------------------------|
-| Pozitivní heuristika | Pouze negace existujícího |
+| Pozitivní [heuristika](@/glossary/heuristika.md) | Pouze negace existujícího |
 | Otevřený pro kritiku | Imunizovaný proti kritice |
 | Empiricky angažovaný | Empiricky vyhýbavý |
 | Reflektuje vlastní limity | Předstírá univerzalitu |

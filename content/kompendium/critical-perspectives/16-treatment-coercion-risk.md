@@ -39,7 +39,7 @@ Tato literatura není okrajová — pochází z hlavního proudu odborné diskus
 
 ## Implikace pro EA framework
 
-EA framework musí explicitně **odmítat povinnou léčbu** založenou pouze na klasifikaci. Klasifikace je heuristika, ne mandát. Glossary entries musí obsahovat 'consent required' poznámky.
+EA framework musí explicitně **odmítat povinnou léčbu** založenou pouze na klasifikaci. Klasifikace je [heuristika](@/glossary/heuristika.md), ne mandát. Glossary entries musí obsahovat 'consent required' poznámky.
 
 Konkrétní implementační kroky:
 

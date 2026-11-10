@@ -5,6 +5,9 @@ description = "Váhání a odmítání očkování jako opakující se jev od 19
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"

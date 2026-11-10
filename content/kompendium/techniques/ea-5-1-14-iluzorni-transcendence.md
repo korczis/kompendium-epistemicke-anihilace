@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.14 Iluzorní transcendence"
-description = "Detailní per-technique článek: technika iluzorní transcendence — indukce falešného pocitu překročení běžných epistemických limitů, produkující prožitek vhledu kosmického řádu, který je ve skutečnosti epistemickou regresí. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika iluzorní transcendence — indukce falešného pocitu překročení běžných epistemických limitů, produkující prožitek vhledu kosmického řádu."
 weight = 514
 insert_anchor_links = "right"
 
@@ -47,7 +47,7 @@ Technika operuje v pěti krocích:
 
 ### Krok 1 — Indukce stavu zvýšené sugestibility
 
-Pomocí kombinace technik (dechové cvičení, dlouhodobá meditace, sleep deprivation, rituální struktura, psychoaktivní látky, intenzivní emocionální angažovanost, charismatická autorita) je subjekt přiveden do stavu, v němž jsou **kritické funkce** (diferenciace, falsifikace, kontextualizace) přechodně **utlumeny**.
+Pomocí kombinace technik (dechové cvičení, dlouhodobá meditace, sleep deprivation, rituální struktura, psychoaktivní látky, intenzivní emocionální angažovanost, charismatická autorita) je subjekt přiveden do stavu, v němž jsou **kritické funkce** ([diferenciace](@/glossary/diferenciace.md), [falsifikace](@/glossary/falsifikace.md), kontextualizace) přechodně **utlumeny**.
 
 ### Krok 2 — Prezentace integrující narativy
 
@@ -88,7 +88,7 @@ Co může vidět vnější pozorovatel:
 |--------|----------|
 | Subjekt **nemůže** specifikovat falsifikační podmínky svého vhledu | Imunizace |
 | Vše je interpretováno jako **potvrzení** transcendentní pozice | Konfirmační uzavření |
-| Použití frází *"to nelze pochopit racionálně"*, *"musíš to zažít"* | Apriori delegitimizace kritiky |
+| Použití frází *"to nelze pochopit racionálně"*, *"musíš to zažít"* | Apriori [delegitimizace](@/glossary/delegitimizace.md) kritiky |
 | Kategorie, dříve rozlišované, jsou nyní **slité** ("věda a spiritualita jsou totéž") | Ztráta diferenciace |
 | Subjekt **necituje** specifické zdroje — vše plyne "z vlastního vhledu" | Ztráta provenience |
 | Disproporční jistota vůči **velkým kosmickým tvrzením** | Inflační epistemika |
@@ -199,7 +199,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} inflační detektor** — kalibrační logika **flaguje** rozhodnutí, kde subjektivní jistota je disproporční vůči epistemické opoře, jako kandidáty pro inflační epistemiku.
 - **NABLA Infinity provenance integrity** — každé tvrzení musí mít **dohledatelnou linii**; tvrzení „z vlastního vhledu“ bez dohledatelnosti je flagováno.
-- **Color Teams adversarial check** — Red Team má mandát **falsifikovat** transcendentní tvrzení; Blue Team má povinnost odpovědět na falsifikační test.
+- **Color Teams adversarial check** — [Red Team](@/glossary/red-team.md) má mandát **falsifikovat** transcendentní tvrzení; [Blue Team](@/glossary/blue-team.md) má povinnost odpovědět na falsifikační test.
 
 ## Související
 

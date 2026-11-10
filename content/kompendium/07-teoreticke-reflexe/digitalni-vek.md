@@ -1,6 +1,6 @@
 +++
 title = "7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes"
-description = "Epistemická anihilace v digitálním věku — algoritmické bubliny, AI-mediated manipulace, generativní modely a syntetická média, deepfakes a ontologická eroze, Harariho dataismus, platformový kapitalismus, infrastrukturní zranitelnosti."
+description = "Epistemická anihilace v digitálním věku — algoritmické bubliny, AI-mediated manipulace, generativní modely a syntetická média, deepfakes a ontologická eroze, Harariho dataismus."
 weight = 7
 insert_anchor_links = "right"
 
@@ -17,7 +17,7 @@ toc = true
 
 # 7.7 Epistemická anihilace v digitálním věku
 
-Digitální infrastruktura 21. století zásadně transformovala **podmínky možnosti** epistemické anihilace. Manipulační techniky, jež dříve vyžadovaly institucionální aparát (státní propaganda, masmédia, kulty), jsou nyní **algoritmicky distribuovatelné** a operují v měřítkách dosud nepředstavitelných. Současně vznikají **kvalitativně nové** formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md), jež nemají historický precedent — generativní AI, deepfakes, algoritmické filter bubbles a platformově-mediované kolektivní halucinace.
+Digitální infrastruktura 21. století zásadně transformovala **podmínky možnosti** epistemické anihilace. Manipulační techniky, jež dříve vyžadovaly institucionální aparát (státní [propaganda](@/glossary/propaganda.md), masmédia, kulty), jsou nyní **algoritmicky distribuovatelné** a operují v měřítkách dosud nepředstavitelných. Současně vznikají **kvalitativně nové** formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md), jež nemají historický precedent — generativní AI, deepfakes, algoritmické filter bubbles a platformově-mediované kolektivní halucinace.
 
 Tato kapitola mapuje digitální transformaci epistemické krajiny ze tří perspektiv: **infrastrukturní** (algoritmy, platformy, data), **generativní** (AI, syntetická média) a **filosoficko-antropologická** (Harari, Floridi, Zuboff). Cílem je ukázat, že digitální věk nepředstavuje pouze nové **prostředky** EA, ale **strukturní transformaci** epistemického prostoru, v němž se EA odehrává.
 
@@ -125,7 +125,7 @@ Sumarizace **specifických nových zranitelností**, jež digitální infrastruk
 |--------------|-------------|------------------------|
 | **Algorytmická bublina** | Personalizace odděluje od alternativ | Strukturní [konfirmační bias](@/glossary/konfirmacni-bias.md) |
 | **Virální dezinformace** | Engagement amplifikace | Selektivní expozice v měřítku |
-| **Deepfake erose** | Syntetická média | [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) |
+| **[Deepfake](@/glossary/deepfake.md) erose** | Syntetická média | [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) |
 | **LLM halucinace** | Stochastická generace | Mis-information jako default |
 | **Liar's dividend** | Pravda → fake misclassification | [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
 | **AI parazocialita** | Asymetrická vztahová imitace | [Epistemická alienace](@/glossary/epistemicka-alienace.md) |

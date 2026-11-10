@@ -48,7 +48,7 @@ oznámení](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md).
 - **Dospělá oběť a autonomie.** Oznámení bez souhlasu může oběť vnímat jako zradu důvěry a
   ztrátu kontroly – opakování zkušenosti, kdy o ní rozhodovali druzí.
 - **Riziko eskalace.** Oznámení, o kterém se pachatel dozví, může vést k odvetě.
-- **Děti jako svědci kontroly.** Dítě, které vyrůstá v domácnosti s coercive control, může
+- **Děti jako svědci kontroly.** Dítě, které vyrůstá v domácnosti s [coercive control](@/glossary/coercive-control.md), může
   být ohroženo i bez přímého násilí vůči němu.
 - **Nejasnost skutkové podstaty.** Odborník často neví, zda to, co slyší, naplňuje znaky
   některého z vyjmenovaných trestných činů.

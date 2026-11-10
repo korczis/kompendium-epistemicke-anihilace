@@ -17,7 +17,7 @@ quality_score = 80
 
 ## Definice
 
-**Propaganda** je populačně-měřítkový jev dokumentovaný v sekci 07 Prismatic Kompendia. Sekce 07 se zabývá epistemickými útoky, které operují na úrovni celých skupin, společenství nebo populací — ne jednotlivých interakcí. Mechanismy zahrnují masová média, sociální sítě, vzdělávací systémy, organizační kulturu.
+**[Propaganda](@/glossary/propaganda.md)** je populačně-měřítkový jev dokumentovaný v sekci 07 Prismatic Kompendia. Sekce 07 se zabývá epistemickými útoky, které operují na úrovni celých skupin, společenství nebo populací — ne jednotlivých interakcí. Mechanismy zahrnují masová média, sociální sítě, vzdělávací systémy, organizační kulturu.
 
 ## Mechanismus
 

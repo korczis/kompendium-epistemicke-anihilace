@@ -5,6 +5,9 @@ description = "Nizozemsko 2011: sociální psycholog Diederik Stapel léta vymý
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"
@@ -17,7 +20,7 @@ type = "historical-case"
 
 Diederik Stapel byl uznávaný sociální psycholog, děkan fakulty a autor studií, které se dostaly
 do *Science* i do novin. Jeho podvod nebyl technicky důmyslný; spočíval v tom, že nikdo nechtěl
-vidět surová data. Případ je pro Kompendium cenný jako studie toho, jak charisma, hierarchie
+vidět surová data. Případ je pro Kompendium cenný jako studie toho, jak [charisma](@/glossary/charisma.md), hierarchie
 a důvěra v kolegu nahrazují ověřování – a jak málo stačí k tomu, aby komunita přijímala
 vymyšlenou realitu.
 

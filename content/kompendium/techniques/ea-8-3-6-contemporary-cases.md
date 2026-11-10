@@ -54,7 +54,7 @@ Recent → less peer-reviewed validation. Journalistic vs. clinical depth varies
 
 ## Vztah k jiným zdrojům
 
-Současný validační test pro **EA-8.2.x referenční rámce**. Synergický s **EA-8.3.10 Information Warfare Literature**.
+Současný validační test pro **EA-8.2.x referenční rámce**. Synergický s **[EA-8.3.10](@/kompendium/techniques/ea-8-3-10-information-warfare-literature.md) Information Warfare Literature**.
 
 ## Cross-linky
 

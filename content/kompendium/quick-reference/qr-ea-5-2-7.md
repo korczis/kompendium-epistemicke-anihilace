@@ -37,7 +37,7 @@ toc = false
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Kantův transcendentální argument — bez kategorií není možné poznání ani jeho popření; cvičení v explicitní apliciaci kategorií
-- Strukturní psychiatrická diferenciální dg. — odlišení indukované kategoriální disoluce od depersonalizace či dissociativní poruchy
+- Strukturní psychiatrická diferenciální dg. — odlišení indukované kategoriální disoluce od [depersonalizace](@/glossary/depersonalizace.md) či dissociativní poruchy
 - Praktická obnova — návrat k běžné praxi, kde kategorie jsou nezbytné (matematika, vaření, řízení auta); subjekt znovuobnovuje funkci
 
 ## Příklad

@@ -39,7 +39,7 @@ lidí častým rizikovým faktorem, protože snižuje ostražitost.
 | **Iniciální kontakt** | měsíce 1–3 | setkání s guru, vřelé přijetí, „byla jsi povolána“ |
 | **Perturbace** | měsíce 4–12 | mnohahodinová praxe, půsty, spánková deprivace, dary, řídnutí kontaktu s rodinou |
 | **Rekonfigurace** | roky 1–3 | plné odevzdání, partner z komunity, konec profese, guru jako „otec i učitel“ |
-| **Konsolidace** | roky 3–7 | život v objektu patřícím guru, dvě děti, chronická úzkost a disociace |
+| **Konsolidace** | roky 3–7 | život v objektu patřícím guru, dvě děti, chronická úzkost a [disociace](@/glossary/disociace.md) |
 | **Exit / detekce** | rok 7+ | šeptaná svědectví o sexuálním zneužívání, odchod s dětmi |
 
 V iniciální fázi byla subjekt cílem intenzivního [love bombingu](@/glossary/love-bombing.md):
@@ -125,7 +125,7 @@ vibrací“. Rodina reagovala konfrontací, která izolaci prohloubila – čast
 Použit byl [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) spolu s [post-cult
 protokolem](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md). Jeho stupně (S1 validace a
-mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická obnova, S5
+mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4 hermeneutická obnova, S5
 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu, který proběhl v pěti
 fázích:
 

@@ -54,7 +54,7 @@ Sebereflexe metakognitivních procesů sama závislá na metakognitivní kapacit
 
 ## Vztah k jiným zdrojům
 
-Konceptuálně provázaný s **EA-8.1.5 Epistemic Trust Scale** (oba měří epistemické samoregulační procesy). Doplňuje **EA-8.1.10 Decision-Making Capacity Scale**.
+Konceptuálně provázaný s **[EA-8.1.5](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) Epistemic Trust Scale** (oba měří epistemické samoregulační procesy). Doplňuje **[EA-8.1.10](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md) Decision-Making Capacity Scale**.
 
 ## Cross-linky
 

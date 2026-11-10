@@ -24,7 +24,7 @@ toc = true
 Nacistický režim od roku 1933 ovládl tisk, rozhlas, film i školství; ministerstvo propagandy
 pod vedením Josepha Goebbelse a proces *Gleichschaltung* odstranily veřejný prostor, v němž by
 bylo možné nesouhlasit. Hannah Arendtová v knize *The Origins of Totalitarianism* (1951)
-popsala, jak totalitní propaganda nahrazuje zkušenost uzavřenou fikcí, v níž je fakt
+popsala, jak totalitní [propaganda](@/glossary/propaganda.md) nahrazuje zkušenost uzavřenou fikcí, v níž je fakt
 podřízen ideologii (viz [Arendt: banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)).
 Konečným důsledkem byl holokaust.
 
@@ -115,7 +115,7 @@ paranoidní poruchu (u obětí Zersetzung byly obavy často oprávněné) a komp
 Trestní zákoník (StGB) zná nebezpečné pronásledování (*Nachstellung*, § 238), nátlak
 (*Nötigung*, § 240), výhrůžku (*Bedrohung*, § 241), vydírání (*Erpressung*, § 253) a podněcování
 k nenávisti (*Volksverhetzung*, § 130). Zákon o ochraně před násilím (*Gewaltschutzgesetz*,
-2002) umožňuje civilní ochranné příkazy. Samostatný trestný čin coercive control neexistuje,
+2002) umožňuje civilní ochranné příkazy. Samostatný trestný čin [coercive control](@/glossary/coercive-control.md) neexistuje,
 o jeho zavedení se vede odborná debata. Zákon o vymáhání práva na sociálních sítích (NetzDG,
 2017) byl z velké části nahrazen unijním nařízením o digitálních službách. Německo Istanbulskou
 úmluvu ratifikovalo v roce 2017. Podrobně viz [Německo — EA právní rámec](@/kompendium/international/23-german-law-EA/index.md)

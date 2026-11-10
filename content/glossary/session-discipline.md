@@ -1,10 +1,10 @@
 +++
-title = "Session Discipline"
+title = "Session discipline (disciplína sezení)"
 weight = 69
-description = "Mandatory GitLab tracking, continuous commits, push enforcement for all sessions"
+description = "Protokol P0 Prismatic Platform pro každé vývojové sezení: sledování v GitLabu, průběžné atomické commity, okamžitý push a hooky bez obcházení."
 
 [taxonomies]
-tags = ["glossary", "architecture", "session-discipline", "prismatic"]
+tags = ["glossary", "prismatic", "doctrine", "quality", "architecture"]
 
 [extra]
 category = "architecture"
@@ -13,40 +13,59 @@ author = "Tomas Korcak (korczis)"
 reading_time = "4 min"
 word_count = 822
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Session", "Discipline", "Mandatory", "GitLab", "glossary", "architecture", "Prismatic Platform", "Every"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Session Discipline - Prismatic Platform"
+image_alt = "Session discipline (disciplína sezení) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Session Discipline is a P0 (Absolute) protocol mandating that every development session follows strict operational procedures to ensure traceability, prevent work loss, and maintain continuous quality enforcement. The protocol requires GitLab issue creation for all work items, continuous atomic commits rather than batching, immediate push to remote after each commit, local testing before every commit, all git hooks passing without bypass flags, and session context persistence for cross-session continuity.
+Disciplína sezení (*Session Discipline*) je protokol úrovně P0 (absolutní), který předepisuje,
+aby každé vývojové sezení dodržovalo přísné provozní postupy zajišťující dohledatelnost,
+prevenci ztráty práce a průběžné vynucování kvality. Protokol vyžaduje založení issue v GitLabu
+pro každou pracovní položku, průběžné atomické commity místo dávkování, okamžitý push na
+vzdálený repozitář po každém commitu, lokální testování před každým commitem, průchod všemi git
+hooky bez přepínačů obchvatu a uchování kontextu sezení pro kontinuitu mezi sezeními.
 
-The protocol addresses a fundamental problem in AI-assisted development: sessions are ephemeral but code changes are permanent. Without discipline, a productive session can produce excellent code that is lost to an interrupted connection, an unpushed commit, or an untested change that breaks the build. Session Discipline transforms the inherently volatile nature of development sessions into a reliable, traceable, auditable process where every change is tracked, tested, committed, and pushed as it happens rather than accumulated for a risky batch operation at session end.
+Protokol řeší základní problém vývoje s asistencí umělé inteligence: sezení jsou pomíjivá, ale
+změny kódu jsou trvalé. Bez disciplíny může produktivní sezení vytvořit výborný kód, který se
+ztratí přerušeným spojením, nepushnutým commitem nebo netestovanou změnou, jež rozbije
+sestavení. Disciplína sezení mění přirozeně nestálou povahu vývojových sezení ve spolehlivý,
+dohledatelný a auditovatelný proces, v němž se každá změna sleduje, testuje, commituje
+a pushuje průběžně, místo aby se hromadila na riskantní dávkovou operaci na konci sezení.
 
-Session Discipline is a direct expression of the NO MERCY, NO DOUBTS doctrine applied to development workflow. NO MERCY means zero tolerance for unpushed commits, untested changes, or missing issue tracking. NO DOUBTS means every action is deliberate, verified, and traceable. The protocol is not advisory -- it is enforced through automated hooks, session lifecycle automation, and violation escalation that can trigger L4 Supreme Review for the most serious breaches such as using `--no-verify` flags.
+Disciplína sezení je přímým výrazem doktríny [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)
+uplatněné na vývojový postup. NO MERCY znamená nulovou toleranci k nepushnutým commitům,
+netestovaným změnám a chybějícímu sledování v issue. NO DOUBTS znamená, že každý krok je
+uvážený, ověřený a dohledatelný. Protokol není doporučující – vynucují ho automatické hooky,
+automatizace životního cyklu sezení a eskalace porušení, která u nejzávažnějších prohřešků, jako
+je použití přepínače `--no-verify`, může spustit L4 Supreme Review.
 
-## Technical Deep Dive
+Pro Kompendium je disciplína sezení pojmem z kontextu platformy. Kniha samotná vzniká podobným
+způsobem – v malých ověřených krocích s kontrolou sestavení –, ale heslo se netýká klinických
+„sezení“ ani terapie.
 
-### Protocol Requirements
+## Technický rozbor
 
-The Session Discipline protocol mandates six non-negotiable requirements:
+### Požadavky protokolu
 
-| Requirement | Description | Enforcement |
+Protokol disciplíny sezení předepisuje šest nepodkročitelných požadavků:
+
+| Požadavek | Popis | Vynucení |
 |-------------|-------------|-------------|
-| GitLab Issue Tracking | Every work item has a corresponding GitLab issue | Session BLOCKED without tickets |
-| Continuous Commits | Changes committed atomically and immediately | NO BATCHING allowed |
-| Push to Remote | Every commit pushed to origin immediately | Unpushed work = incomplete session |
-| Local Testing | All changes tested locally before commit | Untested code = rejected |
-| All Hooks Pass | Pre-commit, commit-msg, pre-push hooks pass | NO BYPASS flags |
-| Context Persistence | Session state saved to `.claude/session-context/` | Session context preserved |
+| sledování v GitLabu | každá pracovní položka má odpovídající issue v GitLabu | bez issue je sezení ZABLOKOVÁNO |
+| průběžné commity | změny se commitují atomicky a okamžitě | ŽÁDNÉ DÁVKOVÁNÍ |
+| push na vzdálený repozitář | každý commit se okamžitě pushne na origin | nepushnutá práce = nedokončené sezení |
+| lokální testování | všechny změny se před commitem lokálně otestují | netestovaný kód = odmítnut |
+| všechny hooky projdou | hooky pre-commit, commit-msg a pre-push projdou | ŽÁDNÉ přepínače obchvatu |
+| uchování kontextu | stav sezení se ukládá do `.claude/session-context/` | kontext sezení zůstane zachován |
 
-### Forbidden Actions
+### Zakázané kroky
 
-The protocol explicitly forbids the following actions under any circumstances:
+Protokol za všech okolností výslovně zakazuje tyto kroky:
 
 ```elixir
 defmodule PrismaticClaude.SessionDiscipline do
@@ -84,9 +103,9 @@ defmodule PrismaticClaude.SessionDiscipline do
 end
 ```
 
-### Session Execution Flow
+### Průběh sezení
 
-Every session follows a mandatory three-phase execution flow:
+Každé sezení se řídí povinným třífázovým průběhem:
 
 ```elixir
 defmodule PrismaticClaude.SessionDiscipline.ExecutionFlow do
@@ -134,16 +153,17 @@ defmodule PrismaticClaude.SessionDiscipline.ExecutionFlow do
 end
 ```
 
-### Violation Escalation Protocol
+### Protokol eskalace porušení
 
-Session Discipline violations trigger escalation based on severity:
+Porušení disciplíny sezení spouštějí eskalaci podle závažnosti (obecně viz [Violation
+Protocol](@/glossary/violation-protocol.md)):
 
-| Level | Description | Trigger | Action |
+| Úroveň | Popis | Spouštěč | Akce |
 |-------|-------------|---------|--------|
-| L1 | Minor deviation | Late push, imprecise commit message | Warning + immediate correction |
-| L2 | Workflow violation | Unpushed commits at session end | Block + required push |
-| L3 | Protocol violation | No GitLab ticket, untested commit, batch commit | Rejection + restart from clean state |
-| L4 | Integrity threat | `--no-verify` usage, hook bypass | Supreme Review + investigation |
+| L1 | drobná odchylka | opožděný push, nepřesná zpráva commitu | varování + okamžitá oprava |
+| L2 | porušení postupu | nepushnuté commity na konci sezení | blokace + povinný push |
+| L3 | porušení protokolu | chybí issue v GitLabu, netestovaný commit, dávkový commit | odmítnutí + restart z čistého stavu |
+| L4 | ohrožení integrity | použití `--no-verify`, obejití hooku | Supreme Review + šetření |
 
 ```elixir
 defmodule PrismaticClaude.SessionDiscipline.ViolationHandler do
@@ -185,11 +205,12 @@ defmodule PrismaticClaude.SessionDiscipline.ViolationHandler do
 end
 ```
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### SessionLifecycle GenServer Integration
+### Napojení na GenServer SessionLifecycle
 
-Session Discipline is enforced through the SessionLifecycle GenServer, which automates hook execution at session boundaries:
+Disciplínu sezení vynucuje GenServer SessionLifecycle, který automatizuje spouštění hooků na
+hranicích sezení:
 
 ```elixir
 defmodule PrismaticClaude.SessionLifecycle do
@@ -230,9 +251,9 @@ defmodule PrismaticClaude.SessionLifecycle do
 end
 ```
 
-### Context Persistence Format
+### Formát uchování kontextu
 
-Session context is saved to `.claude/session-context/` in a structured markdown format:
+Kontext sezení se ukládá do `.claude/session-context/` ve strukturovaném formátu Markdown:
 
 ```markdown
 # Session Context: 2026-02-15 Feature Development
@@ -265,9 +286,9 @@ Session context is saved to `.claude/session-context/` in a structured markdown 
 - Add compliance trend charts
 ```
 
-### Atomic Commit Enforcement
+### Vynucení atomických commitů
 
-The protocol enforces atomic commits through pre-commit validation:
+Protokol vynucuje atomické commity validací v pre-commitu:
 
 ```elixir
 defmodule PrismaticClaude.SessionDiscipline.AtomicCommitValidator do
@@ -306,9 +327,9 @@ defmodule PrismaticClaude.SessionDiscipline.AtomicCommitValidator do
 end
 ```
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-### Session Workflow Commands
+### Příkazy pracovního postupu sezení
 
 ```bash
 # Session start (automated via SessionLifecycle)
@@ -324,7 +345,7 @@ git push origin feature/cert-fix                          # Immediate push
 mix autoheal.cycle && mix autoevolve.mega
 ```
 
-### GitLab Integration
+### Napojení na GitLab
 
 ```bash
 # Set GitLab credentials
@@ -341,51 +362,74 @@ glab issue note 1290 --message "Completed filter implementation, starting tests"
 glab issue close 1290 --comment "Session complete. All changes pushed and tested."
 ```
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Create GitLab issues before writing code**. Issue-first development ensures every change is traceable to a requirement and provides the tracking infrastructure for progress updates.
+1. **Zakládat issue v GitLabu dřív, než se začne psát kód.** Vývoj začínající issue zajišťuje,
+   že každou změnu lze dohledat k požadavku, a dává infrastrukturu pro sledování pokroku.
+2. **Commitovat po každé logické změně.** Změny nehromadit. Každá dokončená funkce, opravená
+   chyba nebo přidaný test má být vlastním commitem. To maximalizuje dohledatelnost
+   a minimalizuje riziko.
+3. **Pushovat hned po commitu.** Doba mezi commitem a pushem je oknem zranitelnosti. Výpadek sítě,
+   proudu nebo vypršení sezení v tomto okně může vést ke ztrátě práce.
+4. **Testovat před každým commitem, ne jen na konci sezení.** Spouštění testů před každým
+   commitem zachytí regrese okamžitě, kdy je změna v kontextu čerstvá a snadno se opraví (viz
+   [Regression Test](@/glossary/regression-test.md)).
+5. **Ukládat kontext i u krátkých sezení.** Kontext sezení je mechanismem kontinuity mezi
+   sezeními. I patnáctiminutové sezení má svůj kontext uložit, aby ho další sezení mohlo načíst.
 
-2. **Commit after every logical change**. Do not accumulate changes. Each completed function, fixed bug, or added test should be its own commit. This maximizes traceability and minimizes risk.
+## Časté chyby
 
-3. **Push immediately after committing**. The time between commit and push is a window of vulnerability. Network issues, power failures, or session timeouts during this window can lose work.
+- **Brát disciplínu sezení jako režii**: protokol přidává režii u každého commitu (testy, push),
+  ale odstraňuje mnohem větší náklady ze ztracené práce, rozbitých sestavení a nedohledatelných
+  změn.
+- **Dávkovat „malé“ změny**: neexistuje práh, pod nímž by bylo dávkování přijatelné. I změny
+  jednoho řádku se mají commitovat atomicky, pokud představují úplnou logickou změnu.
+- **Zapomenout pushnout před koncem sezení**: nejčastější porušení. Automatické hooky na konci
+  sezení ho zachytí, ale spoléhání na automatizaci místo návyku vede k selháním, když hooky
+  nejsou aktivní.
+- **Zakládat příliš široké issue**: issue typu „vylepšit platformu“ nemá žádnou hodnotu pro
+  sledování. Issue mají být natolik konkrétní, aby je šlo uzavřít s jasnou definicí hotového.
+- **Vynechat uložení kontextu u „nedůležitých“ sezení**: každé sezení vytváří kontext cenný pro
+  budoucí sezení. Vynechání vytváří mezery v příběhu zlepšování kvality.
 
-4. **Test before every commit, not just at session end**. Running tests before each commit catches regressions immediately, when the change is fresh in context and easy to fix.
+## Meze a souvislosti
 
-5. **Save session context even for short sessions**. Session context is the mechanism for cross-session continuity. Even a 15-minute session should persist its context for the next session to load.
+Protokol popisuje vývojovou praxi platformy v době zápisu (GitLab, hooky, adresář
+`.claude/`). Nástroje se mohou měnit; podstatou je, že výsledek práce má být vždy dohledatelný
+a nikdy nezávislý na paměti jednoho sezení. Navazuje na [Clean Run](@/glossary/clean-run.md),
+[Zero Warning Policy](@/glossary/zero-warning-policy.md) a [QDP](@/glossary/qdp.md).
 
-## Common Pitfalls
+## Související
 
-- **Treating session discipline as overhead**: The protocol adds per-commit overhead (testing, pushing) but eliminates far larger costs from lost work, broken builds, and untraceable changes.
+**Pojmy platformy v tomto glosáři**
 
-- **Batching "small" changes**: There is no threshold below which batching is acceptable. Even single-line changes should be committed atomically if they represent a complete logical change.
+- [NM/ND](@/glossary/nm-nd.md) – řídicí rámec, který standardy sezení předepisuje.
+- [Violation Protocol](@/glossary/violation-protocol.md) – eskalace při porušení disciplíny.
+- [AIAD](@/glossary/aiad.md) – standard agentů se souladem s disciplínou sezení.
+- [Regression Test](@/glossary/regression-test.md) – testy, které se spouštějí před commitem.
+- [QDP](@/glossary/qdp.md) – kvóta dluhu kvality na sezení.
 
-- **Forgetting to push before session end**: The most common violation. Automated session end hooks catch this, but relying on automation rather than habit leads to failures when hooks are not active.
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- **Creating overly broad GitLab issues**: An issue like "improve the platform" provides no tracking value. Issues should be specific enough that they can be closed with a clear definition of done.
+- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/),
+  [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/),
+  [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/),
+  [GitLab CI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gitlab-ci/) –
+  mechanismy vynucení a kontinuity.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Příkazy](https://prismatic-reality-com.github.io/prismatic-promo/commands/).
 
-- **Skipping context persistence for "unimportant" sessions**: Every session produces context valuable for future sessions. Skipping persistence creates gaps in the quality improvement narrative.
+**Kniha**
 
-## Related Concepts
-
-- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) -- Enforcement mechanism within sessions
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Gates enforced at every commit during sessions
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Governing framework mandating session standards
-- [Violation Protocol](@/glossary/violation-protocol.md) -- Escalation for session discipline breaches
-- [AIAD](@/glossary/aiad.md) -- Agent standard with session discipline compliance
-- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) -- Cross-session quality persistence enabled by discipline
-- [GitLab CI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gitlab-ci/) -- CI/CD pipeline integration with session tracking
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Session-related command catalog
+- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – co
+  kniha z platformy přebírá.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

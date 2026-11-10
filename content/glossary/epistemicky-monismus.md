@@ -39,7 +39,7 @@ rozmanitosti hledisek pro spolehlivost poznání. Viz [Sociální epistemologie
 EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md).
 
 V psychologii totalitních systémů popsal Robert J. Lifton (1961) související kritéria
-„posvátné vědy“ (*sacred science*) a „nadřazenosti doktríny nad osobou“ (*doctrine over
+„posvátné vědy“ (*sacred science*) a „nadřazenosti doktríny nad osobou“ (*[doctrine](@/glossary/doctrine.md) over
 person*): učení skupiny je konečnou pravdou a zkušenost jednotlivce, která s ním
 nesouhlasí, je chybou jednotlivce. Kompendium používá „epistemický monismus“ jako pracovní
 pojem pro tuto strukturu bez ohledu na to, zda je měřítkem náboženská autorita, politická
@@ -50,7 +50,7 @@ ideologie, vůdce, algoritmus nebo vlastní teorie.
 - **Otázka „co na to říká…?“** předchází každému úsudku; bez odpovědi měřítka člověk
   nedokáže zaujmout postoj.
 - **Diskvalifikace zdrojů podle původu.** Informace se hodnotí podle toho, odkud pochází,
-  ne podle obsahu: vše „zvenku“ je propaganda, nepochopení nebo útok.
+  ne podle obsahu: vše „zvenku“ je [propaganda](@/glossary/propaganda.md), nepochopení nebo útok.
 - **Podřízení zkušenosti.** Když vlastní prožitek odporuje učení, je vyložen jako
   klam, slabost nebo zkouška.
 - **Jednotný zdroj informací.** Monokultura zdrojů, žádné nezávislé ověřování; viz
@@ -136,7 +136,7 @@ důvěra ve vlastní úsudek je teprve v obnově.
 
 ## Literatura
 
-- Robert J. Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+- Robert J. Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
 - Paul Feyerabend: *Against Method* (1975).
 
 ## Související

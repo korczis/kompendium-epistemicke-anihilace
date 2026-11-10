@@ -26,10 +26,10 @@ Klinická manifestace [epistemické anihilace](@/glossary/epistemicka-anihilace.
 - **Psychotické poruchy** s kognitivními a paranoidními rysy
 - **Generalizovaná úzkostná porucha** s metakognitivní složkou
 
-Bez systematické diferenciace hrozí **dvojí riziko**:
+Bez systematické [diferenciace](@/glossary/diferenciace.md) hrozí **dvojí riziko**:
 
 1. **Pod-diagnostika EA**: pacient je zařazen do PTSD-spektra, ale léčen pouze pro emoční dysregulaci, zatímco strukturální poškození poznávacího aparátu zůstává neošetřené;
-2. **Nad-diagnostika EA**: legitimní trauma-spektrum nebo disociativní porucha je interpretována přes EA optiku, čímž se opomíjí evidence-based protokoly.
+2. **Nad-diagnostika EA**: legitimní trauma-spektrum nebo disociativní porucha je interpretována přes EA optiku, čímž se opomíjí [evidence-based](@/glossary/evidence-based.md) protokoly.
 
 Tato kapitola poskytuje **systematickou diferenciální matrici** pro klinickou praxi.
 
@@ -41,8 +41,8 @@ EA, PTSD/cPTSD a disociativní poruchy se liší **primárním cílem zranění*
 |----------|---------------------|---------------|
 | **PTSD** | Fyzická a emoční integrita | Re-prožívání, hypervigilance, vyhýbání |
 | **cPTSD** | Self-koncept, vztahy, regulace | Disregulace afektu, negativní self-koncept, interpersonální obtíže |
-| **Disociativní poruchy** | Integrace vědomí, paměti, identity | Diskontinuita zkušenosti, depersonalizace, derealizace |
-| **EA** | Poznávací aparát (metakognice, hermeneutika) | Ztráta epistemické autonomie, [epistemická alienace](@/glossary/epistemicka-alienace.md) |
+| **Disociativní poruchy** | Integrace vědomí, paměti, identity | Diskontinuita zkušenosti, [depersonalizace](@/glossary/depersonalizace.md), derealizace |
+| **EA** | Poznávací aparát ([metakognice](@/glossary/metakognice.md), [hermeneutika](@/glossary/hermeneutika.md)) | Ztráta epistemické autonomie, [epistemická alienace](@/glossary/epistemicka-alienace.md) |
 
 Tyto diagnózy **nejsou vzájemně vylučující** — EA často **koexistuje** s cPTSD u obětí dlouhodobé manipulace.
 

@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[narrative-identity](@/glossary/narrative-identity.md) — Narativní identita je pojem (Ricoeur, McAdams), podle nějž si subjekt konstituuje vlastní já skrze příběh, který o sobě vypráví. Příběh integruje minulost, přítomnost a anticipovanou budoucnost do koherentního celku, který umožňuje agency a etickou odpovědnost.
+[narrative-identity](@/glossary/narrative-identity.md) — [Narativní identita](@/glossary/narativni-identita.md) je pojem (Ricoeur, McAdams), podle nějž si subjekt konstituuje vlastní já skrze příběh, který o sobě vypráví. Příběh integruje minulost, přítomnost a anticipovanou budoucnost do koherentního celku, který umožňuje agency a etickou odpovědnost.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

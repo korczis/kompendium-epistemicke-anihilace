@@ -125,7 +125,7 @@ doplněný o prvky [protokolu pro novináře](@/kompendium/techniques/ea-6-4-9-n
   loajalita měla rozumné jádro; mapa situací, kdy byla oprava zablokována.
 - **S2 – Externalizace introjektů.** Oddělení profesní normy („chyba se opravuje“) od
   redakční normy („chyba je zrada“). Subjekt sepsala, které věty šéfredaktora nosí v hlavě.
-- **S3 – Rekonstrukce metakognice.** Znovu přečtené podklady k inkriminovanému textu s
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Znovu přečtené podklady k inkriminovanému textu s
   nezávislým editorem; nácvik oddělení hypotézy od zjištění.
 - **S4 – Hermeneutická obnova.** Návrat k čtení různých médií podle [kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md),
   aby se obnovila profesní kalibrace.

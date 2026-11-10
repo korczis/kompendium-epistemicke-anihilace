@@ -29,7 +29,7 @@ Sekce 07 reflektuje, **proč jsou protokoly takové, jaké jsou** — kdo je sep
 - **Eskalace → reflexe moci** — eskalace je mocenský akt.
 - **Exit → reflexe konce** — co znamená „konec“ v EA kontextu.
 - **Audit → reflexe transparentnosti** — co všechno auditujeme a co ne.
-- **Doctrine NMND → její obhájitelnost** — proč zero-tolerance.
+- **[Doctrine](@/glossary/doctrine.md) NMND → její obhájitelnost** — proč zero-tolerance.
 - **Companion presence → reflexe vztahu** — companion není neutrální pozorovatel.
 - **Multi-stage consent → reflexe autonomie** — kdo dává souhlas a v jakém stavu.
 

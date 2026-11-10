@@ -1,11 +1,11 @@
 +++
-title = "Weaponized Incompetence"
+title = "Weaponized incompetence (strategická neschopnost)"
 weight = 60
 
-description = "Strategic incompetence — performance of inability as a coercion mechanism that transfers labor and accountability to others. Operationally couples with delegitimization techniques in the EA-2.x family."
+description = "Předváděná neschopnost jako donucovací mechanismus, který přesouvá práci, odpovědnost a epistemickou zátěž na druhé; rozpoznání, odlišení a obrana."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "kompendium", "manipulace"]
+tags = ["glossary", "manipulace", "delegitimizace", "behavioral", "kompendium"]
 
 [extra]
 category = "epistemic"
@@ -14,47 +14,140 @@ author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
 word_count = 540
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["weaponized incompetence", "strategic incompetence", "learned helplessness as tactic", "labor transfer", "delegitimization"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Weaponized Incompetence - glossary"
+image_alt = "Weaponized incompetence (strategická neschopnost) – glosář"
 +++
 
-## Definition
+## Definice
 
-**Weaponized incompetence** is the strategic performance of inability — the ostensible inability to perform some task — deployed as a mechanism for transferring labor, accountability, or epistemic burden to another party. The technique is structurally distinct from genuine incompetence: it is *selective*, *durable in the face of training*, and *correlated with task aversiveness rather than task complexity*. Genuine incompetence improves under repeated practice, generalizes across the relevant skill domain, and does not correlate with which family member finds the task most unpleasant.
+**Weaponized incompetence** (strategická, „zbraňová“ neschopnost) je strategické předvádění
+neschopnosti – zdánlivé neschopnosti provést určitý úkol –, které slouží k přesunu práce,
+odpovědnosti nebo epistemické zátěže na jinou osobu. Technika se strukturně liší od skutečné
+neschopnosti: je *výběrová*, *odolná vůči zaučení* a *souvisí s nepříjemností úkolu, ne s jeho
+složitostí*. Skutečná neschopnost se opakovaným cvičením zlepšuje, zobecňuje se napříč
+příslušnou oblastí dovedností a nesouvisí s tím, kterému členu rodiny je úkol nejnepříjemnější.
 
-The term has become standard in domestic-labor literature (Hochschild's *The Second Shift*, 1989, anticipates the analysis without using the term) and has been generalized by recent organizational-behavior research to cover institutional contexts: technical staff "unable" to use the tools their job requires, managers "unable" to read their own dashboards, executives "unable" to follow up on commitments. In each case the structural function is identical: **the inability is the work**.
+Ve všech kontextech je strukturní funkce totožná: **neschopnost je tou prací**.
 
-Three diagnostic markers distinguish weaponized from genuine incompetence: (1) **selective domain** — the incompetence appears in tasks the actor wishes to avoid, not uniformly across cognitively-comparable tasks; (2) **training-resistance** — repeated explanation, training, written instructions, and tool simplification do not produce improvement; (3) **emergence pattern** — the incompetence emerges after the task in question becomes politically or relationally inconvenient, not from initial encounter.
+## Původ a kontext pojmu
 
-The technique is durable because confronting it carries social costs: explicit accusations of feigned incompetence violate strong norms of charitable interpretation, and the accuser can be reframed as cruel, demanding, or unsupportive. This asymmetry is constitutive of the technique's effectiveness.
+Výraz se ustálil v literatuře o neplacené domácí práci (Arlie Hochschildová v knize *The Second
+Shift*, 1989, rozbor předjímá, aniž by termín používala) a novější výzkum organizačního chování
+ho zobecnil na institucionální kontexty: technici, kteří „neumějí“ používat nástroje, jež jejich
+práce vyžaduje, manažeři, kteří „neumějí“ číst vlastní přehledy, vedoucí, kteří „nedokážou“
+dotáhnout své závazky. Kniha fenomén rozpracovává v kapitole [Weaponized
+incompetence](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md).
 
-## Context
+## Jak se projevuje
 
-Within the Prismatic Platform's threat model, weaponized incompetence is catalogued in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md) as a **delegitimization mechanism** in the EA-2.x family. Specifically, sustained weaponized incompetence by a partner, family member, or workplace colleague functions as an EA technique by progressively delegitimizing the target's competence-attributions and reality-tracking: the target eventually doubts whether their initial attribution of competence to the actor was ever well-founded. Documentation: [Kompendium → 04-techniky → weaponized-incompetence](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md).
+Tři diagnostické znaky odlišují strategickou neschopnost od skutečné:
 
-The structural damage is doubled. First, the target absorbs the labor that was supposed to be shared. Second — and more severely from an epistemic-security standpoint — the target's calibration of competence-attributions is corrupted: confronted with persistent failure-where-success-was-expected, the target either downgrades their model of the actor (causing relational rupture) or downgrades their own assessment-capacity (the EA-relevant outcome).
+1. **výběrová oblast** – neschopnost se objevuje u úkolů, kterým se aktér chce vyhnout, ne
+   rovnoměrně u kognitivně srovnatelných úkolů;
+2. **odolnost vůči zaučení** – opakované vysvětlení, zaškolení, písemné návody ani zjednodušení
+   nástrojů nevedou ke zlepšení;
+3. **vzorec vzniku** – neschopnost se objeví až poté, co se úkol stane politicky nebo vztahově
+   nepohodlným, ne při prvním setkání s ním.
 
-The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of pattern-incompetence in repeated-interaction contexts as a calibration signal: the {{ <cross_link path="/hub/dd/decisions/calibration" text="confidence lens" /> }} flags subjects who report sustained gap between attributed competence and demonstrated execution in close relationships or hierarchical work contexts. The technique pairs operationally with [Sealioning](@/glossary/sealioning.md) (just-asking-for-clarification on every task) and [Motte and Bailey](@/glossary/motte-and-bailey.md) (retreating to "I just don't understand" as the motte). Recovery doctrine: [/kompendium/06-zotaveni/incompetence/](@/kompendium/recovery-protocols/incompetence.md).
+Další znaky: úkol je proveden tak špatně, že ho druhý raději udělá sám; po převzetí úkolu druhým
+přichází úleva nebo dokonce kritika jeho provedení; aktér zvládá srovnatelně náročné úkoly, které
+ho baví nebo které jsou vidět.
 
-## See Also
+## Mechanismus
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat framework
-- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) — `EA-X.Y.Z-α` classification
-- [Sealioning](@/glossary/sealioning.md) — Companion bad-faith technique
-- [Motte and Bailey](@/glossary/motte-and-bailey.md) — Companion rhetorical technique
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process damage from sustained exposure
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+Technika je trvanlivá, protože její konfrontace má společenskou cenu: výslovné obvinění
+z předstírané neschopnosti porušuje silné normy vstřícného výkladu a obviňující může být
+přerámován jako krutý, náročný nebo nepodporující. Tato asymetrie patří k podstatě účinnosti
+techniky.
+
+V modelu hrozeb, z něhož kniha vychází, je strategická neschopnost katalogizována v [taxonomii
+Kompendia](@/glossary/taxonomie-ea.md) jako **mechanismus delegitimizace** (původní verze ji
+přiřazovala k rodině EA-2.x). Dlouhodobá strategická neschopnost partnera, člena rodiny nebo
+kolegy funguje jako technika EA tím, že postupně delegitimizuje cílovou osobu v jejím připisování
+kompetencí a ve sledování reality: cíl nakonec pochybuje, zda jeho původní přisouzení kompetence
+aktérovi bylo vůbec oprávněné.
+
+Strukturní škoda je dvojí. Zaprvé cíl přebírá práci, která měla být sdílená. Zadruhé – a z hlediska
+epistemické bezpečnosti vážněji – se poškodí kalibrace přisuzování kompetencí: tváří v tvář
+trvalému selhání tam, kde se čekal úspěch, cíl buď sníží svůj model aktéra (což vede k roztržce
+ve vztahu), nebo sníží důvěru ve vlastní schopnost posuzovat (výsledek relevantní pro EA; srov.
+[delegitimizace](@/glossary/delegitimizace.md)).
+
+Technika se provozně páruje se [sealioningem](@/glossary/sealioning.md) („jen se ptám, jak se to
+dělá“ u každého úkolu) a s [Motte and Bailey](@/glossary/motte-and-bailey.md) (ústup k „já tomu
+prostě nerozumím“ jako k bezpečné pozici). Příbuzné je i [blame shifting](@/glossary/blame-shifting.md).
+
+## Odlišení
+
+- **Od skutečné neschopnosti a poruch učení** – ty jsou konzistentní napříč srovnatelnými úkoly
+  a zlepšují se s vhodnou podporou; u ADHD, dyslexie nebo deprese je potřeba přizpůsobení, ne
+  podezření.
+- **Od vyhoření a vyčerpání** – vyčerpaný člověk selhává plošně a obvykle to prožívá jako problém;
+  strategická neschopnost je výběrová a pro aktéra výhodná.
+- **Od naučené bezmocnosti** – ta vzniká opakovaným neúspěchem a trápí toho, kdo ji má.
+- **Od nejistoty nováčka** – nováček se ptá, učí se a zlepšuje se.
+
+Rozlišení je třeba dělat opatrně: obvinění z předstírání může samo poškodit člověka se skutečným
+omezením.
+
+## Význam pro Kompendium
+
+[Decision Engine](@/glossary/decision-engine.md) platformy považuje zprávy o vzorcové neschopnosti
+v kontextech opakované interakce za kalibrační signál: kalibrační přehled označuje osoby, které
+uvádějí trvalou mezeru mezi přisuzovanou kompetencí a předváděným výkonem v blízkých vztazích nebo
+v hierarchických pracovních kontextech. V knize pojem vysvětluje část kazuistik partnerského
+a pracovního vyčerpání a souvisí se zásadou, že epistemická škoda nemusí vzniknout lží, ale
+i soustavným „nedokážu“.
+
+## Obrana a zotavení
+
+Doktrína zotavení je popsána v protokolu [Incompetence](@/kompendium/recovery-protocols/incompetence.md).
+Prakticky:
+
+- **zaznamenávat vzorec** – které úkoly „nejdou“, které ano, co následuje; vzorec v čase je
+  silnější než jednotlivá epizoda;
+- **přestat úkol přebírat** – vrátit odpovědnost a snést přechodný nepořádek nebo nepohodlí;
+- **dohodnout výslovné standardy** („hotovo znamená…“) a termíny;
+- **v organizaci** – měřit výsledky, ne snahu; jasně přidělit odpovědnost a nedovolit, aby se
+  práce tiše přesouvala na nejspolehlivější lidi (srov. [organizační
+  obrana](@/kompendium/organizational-defense/_index.md));
+- **pro terapeuta** – pracovat s pochybností klienta o vlastním úsudku („možná to opravdu nejde“)
+  a s vyčerpáním z přebírané práce.
+
+## Literatura
+
+- Arlie Russell Hochschild (s Anne Machungovou): *The Second Shift: Working Parents and the
+  Revolution at Home* (1989).
+
+## Související
+
+**Pojmy**
+
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený rámec hrozeb.
+- [Sealioning](@/glossary/sealioning.md) – doprovodná technika ve zlé víře.
+- [Motte and Bailey](@/glossary/motte-and-bailey.md) – doprovodná rétorická technika.
+- [Blame Shifting](@/glossary/blame-shifting.md) – přesun odpovědnosti na druhého.
+- [Delegitimizace](@/glossary/delegitimizace.md) – oslabení důvěry v úsudek cíle.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – poškození kognitivních procesů
+  dlouhodobou expozicí.
+
+**Kniha**
+
+- [Weaponized incompetence](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md) – kapitola
+  o fenoménu.
+- [Protokol Incompetence](@/kompendium/recovery-protocols/incompetence.md) – zotavení.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md), [Kompendium EA](@/glossary/kompendium-ea.md) –
+  klasifikace a úplná reference.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

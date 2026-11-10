@@ -97,7 +97,7 @@ První polovina 20. století přinesla počáteční empirické a klinické stud
 #### Vznik klinické psychologie a disociativní fenomény
 
 - **Charcotovy demonstrace v Salpêtrière** ukázaly, jak **autoritativní rámcování** indukuje fenomenologicky autentické symptomy — první moderní dokumentace **iatrogenní epistemické indukce**.
-- **Janetova psychologická disociace** (*L'Automatisme psychologique*, 1889; rozšířeno 1907) — první systematický popis epistemické fragmentace. Pierre Janet identifikoval „fixní ideje" (*idée fixe*) — izolované epistemické struktury nepodléhající kognitivní integraci. Anticipace moderních modelů **epistemické encysty**.
+- **Janetova psychologická [disociace](@/glossary/disociace.md)** (*L'Automatisme psychologique*, 1889; rozšířeno 1907) — první systematický popis epistemické fragmentace. Pierre Janet identifikoval „fixní ideje" (*idée fixe*) — izolované epistemické struktury nepodléhající kognitivní integraci. Anticipace moderních modelů **epistemické encysty**.
 - **Bleulerovy studie schizofrenní kognice** (1911) popsaly „rozvolnění asociací" — retrospektivně interpretovatelné jako manifestace specifických forem kognitivní anihilace.
 - **Lippsova fenomenologická analýza patologické sugesce** (1921) — první detailní deskripce indukce epistemických distorzí interpersonálními vlivy.
 - **Freudův koncept rezistence** identifikuje aktivní obranné mechanismy proti epistemické rekonstrukci; **přenos** poskytuje rámec pro epistemickou autoritu v terapeutickém vztahu — strukturně analogickou epistemické dependenci v manipulativních systémech.
@@ -115,7 +115,7 @@ Společně etablovaly empirickou bázi pro **sociální mediaci** epistemické p
 
 #### Studium propagandy a masové manipulace
 
-- **Bernaysova analýza propagandistických technik** (*Propaganda*, 1928) — první systematická kategorizace metod masové epistemické manipulace.
+- **Bernaysova analýza propagandistických technik** (*[Propaganda](@/glossary/propaganda.md)*, 1928) — první systematická kategorizace metod masové epistemické manipulace.
 - **Institucionální výzkum válečné propagandy** (1939–1945) vedl k rozvoji sofistikovaných modelů epistemické manipulace na populační úrovni.
 - **Studie antisemitské propagandy** (Lowenthal & Guterman, 1949) identifikovaly lingvistické a kognitivní techniky indukce systematických epistemických distorzí.
 
@@ -124,11 +124,11 @@ Společně etablovaly empirickou bázi pro **sociální mediaci** epistemické p
 V poválečném období došlo k výraznému posunu směrem k systematickému studiu fenoménů souvisejících s epistemickým traumatem a kognitivní anihilací. Toto období bylo charakterizováno snahou o porozumění procesům „vymývání mozků", indoktrinace a dalším formám systematické epistemické manipulace.
 
 #### Totalitní epistemická inženýrství a studia propagandy
-Frankfurtská škola (Adorno, Horkheimer), Hannah Arendtová (*Origins of Totalitarianism*, 1951), Victor Klemperer (*LTI — Lingua Tertii Imperii*, 1947) — systematická analýza **státem indukované epistemické destrukce**. Klemperer zavádí pojem **lingvistické anihilace** — destrukce skrze redefinici klíčových slov. Klempererovo pozorování, že totalitní režim útočí primárně na **slovník** (a teprve sekundárně na konkrétní přesvědčení), předjímá moderní porozumění epistemické anihilaci jako útoku na **infrastruktury poznání** spíše než na jednotlivé poznatky.
+Frankfurtská škola (Adorno, Horkheimer), Hannah Arendtová (*Origins of Totalitarianism*, 1951), Victor Klemperer (*LTI — [Lingua Tertii Imperii](@/glossary/lti-lingua-tertii-imperii.md)*, 1947) — systematická analýza **státem indukované epistemické destrukce**. Klemperer zavádí pojem **lingvistické anihilace** — destrukce skrze redefinici klíčových slov. Klempererovo pozorování, že totalitní režim útočí primárně na **slovník** (a teprve sekundárně na konkrétní přesvědčení), předjímá moderní porozumění epistemické anihilaci jako útoku na **infrastruktury poznání** spíše než na jednotlivé poznatky.
 
 #### Brainwashing, thought reform a programovaná indoktrinace
 
-- **Liftonovy studie programované indoktrinace** (*Thought Reform and the Psychology of Totalism*, 1961) — analýza čínské „myšlenkové reformy". Liftonových **8 kritérií** (milieu control, mystical manipulation, demand for purity, confession, sacred science, loading the language, doctrine over person, dispensing of existence) zůstávají referenčním rámcem.
+- **Liftonovy studie programované indoktrinace** (*[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*, 1961) — analýza čínské „myšlenkové reformy". Liftonových **8 kritérií** ([milieu control](@/glossary/milieu-control.md), mystical manipulation, demand for purity, confession, sacred science, [loading the language](@/glossary/loading-the-language.md), [doctrine](@/glossary/doctrine.md) over person, dispensing of existence) zůstávají referenčním rámcem.
 - **Scheinova analýza „vymývání mozku"** (1961) — třífázový model: *unfreezing → changing → refreezing*. Dodnes fundamentální konceptuální rámec.
 - **Sargantův výzkum náboženské konverze** (*Battle for the Mind*, 1957) identifikoval fyziologické mechanismy epistemické vulnerability: spánková deprivace, emoční přetížení, indukovaná disociace.
 
@@ -160,18 +160,18 @@ V průběhu 80. a 90. let došlo k významné konceptuální konsolidaci v souvi
 
 - **Foucaultova analýza moci a vědění** (*Power/Knowledge*, 1980) — strukturální formy epistemické manipulace skrze diskurzivní režimy a institucionalizované praktiky.
 - **Lyotardova kritika „velkých vyprávění"** (*Postmoderní situace*, 1984) — kolektivní epistemická traumata kolapsu metanarativů moderny.
-- **Baudrillardův koncept „hyperreality"** (*Simulacres et simulation*, 1981) — systematická epistemická distorze proliferací simulaker a disociací znaků od referentů.
+- **Baudrillardův koncept „[hyperreality](@/glossary/hyperreality.md)"** (*Simulacres et simulation*, 1981) — systematická epistemická distorze proliferací simulaker a disociací znaků od referentů.
 
 #### Trauma studia a klinická traumatologie
 
-- **Hermanová a „komplexní trauma"** (*Trauma and Recovery*, 1992) rozšířila porozumění traumatu o epistemické dimenze — narušení kapacity integrovat zkušenost do koherentního autobiografického narativu.
+- **Hermanová a „[komplexní trauma](@/glossary/complex-trauma.md)"** (*Trauma and Recovery*, 1992) rozšířila porozumění traumatu o epistemické dimenze — narušení kapacity integrovat zkušenost do koherentního autobiografického narativu.
 - **Van der Kolkův výzkum neurobiologie traumatu** (1994) — první empirický model neurobiologických mechanismů epistemické fragmentace.
 - **Bremnerovy studie disociativních fenoménů** (1999) — neurobiologické koreláty epistemické disociace (hipokampus, prefrontální kortex).
 
 #### Výzkum kultovní indoktrinace a extrémních skupin
 
 - **Singerův model „systematické manipulace"** (1986) — kategorizace technik epistemické manipulace v kultovních skupinách.
-- **Hassanův „BITE model"** (1988) — kontroly *Behavior*, *Information*, *Thought*, *Emotion* — multidimenzionální povaha manipulace v uzavřených komunitách.
+- **Hassanův „[BITE model](@/glossary/bite-model.md)"** (1988) — kontroly *Behavior*, *Information*, *Thought*, *Emotion* — multidimenzionální povaha manipulace v uzavřených komunitách.
 - **Cialdiniho principy vlivu** (*Influence*, 1984) — šest mechanismů: reciprocita, závazek/konzistence, sociální důkaz, autorita, oblíbenost, vzácnost.
 
 Toto období přineslo konsolidaci studia epistemických traumat a integraci poznatků z klinické psychologie, kognitivní vědy, sociální psychologie, neurověd a filozofie.
@@ -181,7 +181,7 @@ Toto období přineslo konsolidaci studia epistemických traumat a integraci poz
 V průběhu 80. a 90. let probíhal vedle konceptuální konsolidace **paralelní kognitivní obrat**, jenž nakonec konvergoval s ostatními proudy do moderní taxonomie.
 
 #### Kahneman a Tversky
-Programy **heuristik a biasů** (od 1974) systematizují **predikovatelná epistemická selhání**. Dvojsystémová teorie (*System 1 / System 2*) poskytuje mechanistický rámec pro pochopení, **proč** určité manipulativní techniky fungují — exploitují systematické vlastnosti rychlého, asociativního zpracování (System 1), jež jsou evolucí optimalizovány pro rychlost, nikoli pro epistemickou robustnost.
+Programy **heuristik a biasů** (od 1974) systematizují **predikovatelná epistemická selhání**. Dvojsystémová teorie (*[System 1 / System 2](@/glossary/system-1-system-2.md)*) poskytuje mechanistický rámec pro pochopení, **proč** určité manipulativní techniky fungují — exploitují systematické vlastnosti rychlého, asociativního zpracování (System 1), jež jsou evolucí optimalizovány pro rychlost, nikoli pro epistemickou robustnost.
 
 #### Sociální epistemologie
 Práce **Alvina Goldmana** (*Knowledge in a Social World*, 1999), **Mirandy Frickerové** (epistemické nespravedlnosti, 2007) a **Jennifer Nagelové** zavádějí epistemologii jako sociálně situovanou disciplínu. Frickerová poskytuje koncepty **testimonial injustice** (snížení důvěryhodnosti svědectví na základě identitních předsudků) a **hermeneutical injustice** (chybějící konceptuální zdroje pro artikulaci vlastní zkušenosti) jako forem **strukturální epistemické anihilace**.
@@ -231,7 +231,7 @@ Digitální transformace přinesla **strukturálně novou** vrstvu epistemickýc
 Vznikající fenomén **algoritmicky generované epistemické distorze** prostřednictvím LLM, deepfakes a synthetic media. Tato vrstva přidává kvalitativně nové výzvy — vůbec poprvé v dějinách poznání mohou být epistemické artefakty produkovány v měřítku a kvalitě, jež znemožňuje individuální verifikaci.
 
 #### Epistemic security
-Vznikající **interdisciplinární pole** integrující epistemologii, kognitivní vědy, kybernetickou bezpečnost a politickou teorii. Tato taxonomie kompendia se hlásí k tomuto poli jako **plnohodnotné komponentě**. Prismatic Platform sám představuje **operační implementaci** epistemic security principů ve formě [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md) a [Decision Engine](@/glossary/decision-core.md).
+Vznikající **interdisciplinární pole** integrující epistemologii, kognitivní vědy, kybernetickou bezpečnost a politickou teorii. Tato taxonomie kompendia se hlásí k tomuto poli jako **plnohodnotné komponentě**. Prismatic Platform sám představuje **operační implementaci** [epistemic security](@/glossary/epistemic-security.md) principů ve formě [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md) a [Decision Engine](@/glossary/decision-core.md).
 
 ---
 
@@ -309,8 +309,8 @@ Současný taxonomický systém je kulminací této trajektorie — zároveň v�
 Prismatic Platform staví na popsané historické trajektorii a transformuje akumulované poznatky do **operační implementace**:
 
 - **NABLA Infinity (∇∞)** — formalizace epistemického aparátu jako rekursivní reflexe nad přesvědčeními, čerpající z Kantovy distinkce obsahové vs. strukturální úrovně poznání.
-- **Color Teams** — strukturní imitace kontradiktorních epistemických procesů (Red Team challenges, Blue Team defends, Purple Team integrates), navazující na tradici dialektické verifikace od Sokrata po moderní adversariální testování.
-- **Decision Engine** — integrující rámec, jenž kombinuje cognitive bias detection (Kahneman/Tversky), social epistemology (Frickerová), digital epistemic security (Pariser/DiResta) a clinical trauma framework (Hermanová/Van der Kolk).
+- **Color Teams** — strukturní imitace kontradiktorních epistemických procesů ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defends, [Purple Team](@/glossary/purple-team.md) integrates), navazující na tradici dialektické verifikace od Sokrata po moderní adversariální testování.
+- **[Decision Engine](@/glossary/decision-engine.md)** — integrující rámec, jenž kombinuje cognitive bias detection (Kahneman/Tversky), social epistemology (Frickerová), digital epistemic security (Pariser/DiResta) a clinical trauma framework (Hermanová/Van der Kolk).
 
 Detailní vztah k Decision Engine je rozpracován v sekci [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md); rozšíření o NABLA Infinity v [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md).
 

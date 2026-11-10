@@ -54,7 +54,7 @@ Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich v
 
 ## Klinicke a filosoficke implikace
 
-Deepfake destabilizuje epistemiku audiovizuální evidence — co bylo donedávna zlatým standardem důkazu (video CEO podepisuje smlouvu) je nyní kontestabilní. Filosoficky problematizuje koncept přítomnosti a autenticity (Benjamin's aura). Klinicky: deepfake-induced gaslighting je nově dokumentovaný harm pattern.
+Deepfake destabilizuje epistemiku audiovizuální evidence — co bylo donedávna zlatým standardem důkazu (video CEO podepisuje smlouvu) je nyní kontestabilní. Filosoficky problematizuje koncept přítomnosti a autenticity (Benjamin's aura). Klinicky: deepfake-induced [gaslighting](@/glossary/gaslighting.md) je nově dokumentovaný harm pattern.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

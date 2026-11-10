@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.5 Logická diskontinuita"
-description = "Detailní per-technique článek: technika logické diskontinuity — indukovaná neschopnost udržet logické řetězce přes více inferenciálních kroků, kdy každý krok působí v izolaci validně, avšak řetězec jako celek nekomponuje. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika logické diskontinuity — indukovaná neschopnost udržet logické řetězce přes více inferenciálních kroků, kdy každý krok působí v izolaci validně."
 weight = 515
 insert_anchor_links = "right"
 
@@ -110,7 +110,7 @@ Logická diskontinuita je odlišitelná od:
 | **Sleep-deprivation kontexty** (extrémní retreaty, izolace) | Fragmentace pracovní paměti |
 | **Některé akademické proudy** | Obrana proti analytické kritice rétorikou typu "logocentrismus", aniž je nabízena alternativní formální struktura |
 | **Vysoce kontrolní skupiny** | Důsledná devaluace dlouhých argumentů, akceptace doktrinálních rozporů |
-| **Pokročilá deepfake / AI-generovaná média** | Konzumace sekvencí krátkých "smysluplných" útržků bez kompoziční struktury |
+| **Pokročilá [deepfake](@/glossary/deepfake.md) / AI-generovaná média** | Konzumace sekvencí krátkých "smysluplných" útržků bez kompoziční struktury |
 
 ## Neutralizační strategie
 
@@ -183,7 +183,7 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} inferential trace** — každé rozhodnutí má dohledatelný řetězec premis, inferencí a závěru. Diskontinuované řetězce jsou flagovány jako epistemicky nestabilní.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) compositional consistency** — provenance tracking sleduje, zda jsou výsledky jednotlivých kroků kompozičně koherentní s celkovým závěrem; lokální validita ne implikuje globální validitu.
-- **[Color Teams](@/glossary/color-teams.md) compositional adversarial test** — Red Team explicitně testuje, zda argumentace odolá kompozici dílčích kroků pod adversariální kritikou.
+- **[Color Teams](@/glossary/color-teams.md) compositional adversarial test** — [Red Team](@/glossary/red-team.md) explicitně testuje, zda argumentace odolá kompozici dílčích kroků pod adversariální kritikou.
 - **Strukturovaný formát pro kritická rozhodnutí** — platformové kritické rozhodnutí vyžaduje explicitní strukturu (premisy / inference / závěr), nikoli narativní formu, která maskuje diskontinuity.
 
 ## Související

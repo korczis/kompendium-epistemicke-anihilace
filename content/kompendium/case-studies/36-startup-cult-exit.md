@@ -91,7 +91,7 @@ vysvětlit „nepochopením vize“.
   vztahů firma pohltila.
 - **S2 – Externalizace introjektů:** věty „průměrní lidé pracují od devíti do pěti“, „odpočinek
   je pro ty, kdo nevěří“ odděleny od vlastních hodnot.
-- **S3 – Rekonstrukce metakognice:** vlastní měřítka dobré práce nezávislá na misi; učení se
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** vlastní měřítka dobré práce nezávislá na misi; učení se
   posuzovat etiku produktu.
 - **S4 – Hermeneutická obnova:** nový výklad let ve startupu – co se skutečně naučil a co bylo
   iluze.

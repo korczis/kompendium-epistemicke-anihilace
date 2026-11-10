@@ -1,6 +1,6 @@
 +++
 title = "Longitudinální rekonstruktivní protokoly"
-description = "Třicet časově fázovaných protokolů zotavení po expozici epistemické anihilaci — od akutní stabilizace přes subakutní rekonstrukci, středně-dobou rehabilitaci, dlouhodobou kultivaci, až po protokoly pro speciální populace."
+description = "Třicet časově fázovaných protokolů zotavení po expozici epistemické anihilaci — od akutní stabilizace přes subakutní rekonstrukci, středně-dobou rehabilitaci, dlouhodobou kultivaci."
 weight = 9
 sort_by = "weight"
 template = "section.html"
@@ -19,7 +19,7 @@ status = "in-progress"
 
 Tato sekce obsahuje **30 časově fázovaných rekonstruktivních protokolů** pro klinickou práci se survivors [epistemické anihilace](@/glossary/epistemicka-anihilace.md). Každý protokol je strukturován kolem konkrétní časové fáze a specifické rekonstruktivní úlohy.
 
-> **Epistemický status**: Protokoly představují **integraci** evidence-based postupů (trauma-focused CBT, EMDR, narrativní terapie, IFS, somatické přístupy) s **diagnostickou optikou kompendia**. Tam, kde existuje empirická evidence, je explicitně citována. Tam, kde jde o klinicky odůvodněné rozšíření, je status uveden.
+> **Epistemický status**: Protokoly představují **integraci** [evidence-based](@/glossary/evidence-based.md) postupů (trauma-focused CBT, EMDR, narrativní terapie, IFS, somatické přístupy) s **diagnostickou optikou kompendia**. Tam, kde existuje empirická evidence, je explicitně citována. Tam, kde jde o klinicky odůvodněné rozšíření, je status uveden.
 
 ## Strukturace fází
 
@@ -27,7 +27,7 @@ Tato sekce obsahuje **30 časově fázovaných rekonstruktivních protokolů** p
 |------|--------------|-----------------|-------------|
 | **Akutní** | týdny 1–4 | 6 | Stabilizace, bezpečnost, regulace |
 | **Subakutní** | měsíce 1–3 | 6 | Trust, narativ, detekce, smysl |
-| **Středně-dobá** | měsíce 3–12 | 6 | Metakognice, hermeneutika, identita, vokace |
+| **Středně-dobá** | měsíce 3–12 | 6 | [Metakognice](@/glossary/metakognice.md), [hermeneutika](@/glossary/hermeneutika.md), identita, vokace |
 | **Dlouhodobá** | roky 1–3 | 6 | Resilience, prevence relapsu, růst |
 | **Speciální populace** | dle subjektu | 6 | Děti, adolescenti, senioři, kulty, političtí vězni, trafficking |
 

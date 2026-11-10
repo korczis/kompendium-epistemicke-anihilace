@@ -19,7 +19,7 @@ toc = true
 
 Claire Wardle — britská badatelka, zakladatelka organizace First Draft (a navazujícího Information Futures Lab) — formuluje v esejích a zprávách (zejména *Information Disorder*, 2017, s Hossein Derakhshanem) **strukturální typologii** dezinformačního ekosystému.
 
-Pro kompendium EA poskytuje Wardlové typologie nástroj pro **klasifikaci EA na informační úrovni** — strukturální mapping mediálních manipulací.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Wardlové typologie nástroj pro **klasifikaci EA na informační úrovni** — strukturální mapping mediálních manipulací.
 
 ## 1. Information disorder: tři kategorie
 
@@ -111,7 +111,7 @@ Pro EA z toho plyne:
 |--------|-------------|-------------|
 | Disinformation | Úmyslná manipulace | EA-1.x |
 | Misinformation | Nepokrytá ignorance | EA-1.x |
-| Malinformation | Selektivní zveřejnění | EA-1.1.1 |
+| Malinformation | Selektivní zveřejnění | [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) |
 | Satire mislabeling | Zaměnění humoru za fakta | EA-1.x |
 | Manipulated content | Deepfakes, photoshop | Strukturální |
 

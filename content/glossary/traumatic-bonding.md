@@ -1,7 +1,7 @@
 +++
 title = "Traumatic Bonding"
 weight = 100
-description = "Paradoxní silná emoční vazba mezi obětí a agresorem, vznikající v důsledku cyklického střídání zneužívání a pozitivního posílení. Klinický fenomén relevantní pro analýzu manipulačních vzorců, identitních dynamik a epistemických procesů v Prismatic Kompendiu."
+description = "Paradoxní silná emoční vazba mezi obětí a agresorem, vznikající v důsledku cyklického střídání zneužívání a pozitivního posílení."
 
 [taxonomies]
 tags = ["glossary", "psychology", "manipulation", "attachment", "interactive"]
@@ -30,8 +30,8 @@ Traumatická vazba není projevem slabosti ani „špatné volby" oběti — jde
 
 - **Intermitentní posilování** (intermittent reinforcement). Pokud po fázi krutosti nebo zanedbávání následuje překvapivý projev něhy, mozkový dopaminergní systém produkuje silnější odměnu než při stabilní vlídnosti. Tento efekt je experimentálně dokumentovaný od dob B. F. Skinnera a vysvětluje, proč jsou nepředvídatelné odměny návykovější než pravidelné.
 - **Hormonální paradox**. Během traumatické epizody stoupá kortizol a adrenalin (akutní stres). Při následném smíření tělo vyplaví oxytocin a endogenní opioidy — chemicky stejné látky, které vznikají při hluboké citové vazbě. Mozek si vazbu k agresorovi „přepíše" jako vazbu k zachránci.
-- **Erose vlastní identity**. Opakované gaslighting, izolace od podpůrné sítě a ekonomická závislost zužují prostor pro nezávislé vyhodnocení situace. Oběť postupně internalizuje narativ agresora („zasloužím si to", „nikdo jiný mě nechce", „bez něj/ní si neporadím").
-- **Disociace jako obranný mechanismus**. Aby psyche přežila opakované trauma, oddělí emocionální obsah od vědomé reflexe. Výsledkem je, že oběť dokáže racionálně mluvit o zneužívání, ale nedokáže s ním emocionálně **disengage**.
+- **Erose vlastní identity**. Opakované [gaslighting](@/glossary/gaslighting.md), izolace od podpůrné sítě a ekonomická závislost zužují prostor pro nezávislé vyhodnocení situace. Oběť postupně internalizuje narativ agresora („zasloužím si to", „nikdo jiný mě nechce", „bez něj/ní si neporadím").
+- **[Disociace](@/glossary/disociace.md) jako obranný mechanismus**. Aby psyche přežila opakované trauma, oddělí emocionální obsah od vědomé reflexe. Výsledkem je, že oběť dokáže racionálně mluvit o zneužívání, ale nedokáže s ním emocionálně **disengage**.
 
 Tato kombinace — biochemická závislost, narušená identita a disociace — vytváří vazbu, která je z vnějšku „iracionální", ale z vnitřní perspektivy logickým výsledkem opakovaných cyklů.
 
@@ -59,7 +59,7 @@ Z klinické praxe a výzkumné literatury (Carnes 1997, Herman 1992) lze identif
 - **Somatické projevy** — chronická úzkost, poruchy spánku, posttraumatické stresové reaktivity i po skončení vztahu.
 - **Obtíže v následných vztazích** — opakované přitahování k podobným dynamickým vzorcům, dokud není provedena specifická terapeutická práce.
 
-V kontextu **OSINT a digitálních vyšetřování** se vzorce traumatické vazby projevují i online: oběti coercive control, sektářských komunit nebo manipulativních influencerských prostředí vykazují obdobné kognitivní zkreslení.
+V kontextu **OSINT a digitálních vyšetřování** se vzorce traumatické vazby projevují i online: oběti [coercive control](@/glossary/coercive-control.md), sektářských komunit nebo manipulativních influencerských prostředí vykazují obdobné kognitivní zkreslení.
 
 ## Mitigace a terapeutické přístupy
 
@@ -67,7 +67,7 @@ Práce s traumatickou vazbou vyžaduje souběh několika intervencí — samotn�
 
 - **Trauma-focused CBT** (TF-CBT) — restrukturalizace kognitivních zkreslení, expoziční práce s vyhýbavými vzorci.
 - **Somatické a tělesné terapie** (Somatic Experiencing podle Petera Levina, Sensorimotor Psychotherapy podle Pat Ogden) — uvolnění uložených fyziologických reakcí.
-- **EMDR** (Eye Movement Desensitization and Reprocessing) — pro zpracování traumatických vzpomínek bez retraumatizace.
+- **EMDR** (Eye Movement Desensitization and Reprocessing) — pro zpracování traumatických vzpomínek bez [retraumatizace](@/glossary/retraumatizace.md).
 - **Psychoedukace** — pochopení neurobiologie cyklu snižuje sebeobviňování a zvyšuje šanci na trvalou separaci.
 - **Skupinová podpora** přeživších — normalizace zkušenosti, sdílení strategií, oslabení internalizovaného narativu agresora.
 - **Bezpečnostní plán a strukturovaná separace** — odchod je obvykle nejnebezpečnější fáze; vyžaduje koordinaci s krizovým centrem.

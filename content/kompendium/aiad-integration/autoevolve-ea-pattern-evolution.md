@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-AutoEvolve je evoluční engine — generuje, testuje a propaguje nové EA detekční vzory pomocí genetických algoritmů a fitness funkcí proti živé telemetrii. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[AutoEvolve](@/glossary/autoevolve.md) je evoluční engine — generuje, testuje a propaguje nové EA detekční vzory pomocí genetických algoritmů a fitness funkcí proti živé telemetrii. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -29,7 +29,7 @@ Detekce: meta-detekce — **detekuje, kdy aktuální detekční pravidla začnou
 
 ## Operational protocols
 
-Provoz: kontinuální background process. Generační cyklus = 7 dní. Výstup: **kandidátní pravidla** pro Purple Team review před produkčním deploymentem. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Provoz: kontinuální background process. Generační cyklus = 7 dní. Výstup: **kandidátní pravidla** pro [Purple Team](@/glossary/purple-team.md) review před produkčním deploymentem. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
 
 ## Limitations
 
@@ -37,7 +37,7 @@ AutoEvolve může **konvergovat k lokálnímu optimu** — pravidla, která fung
 
 ## Coordination
 
-Konzumuje data z **Purple Teamu** a **Blue Teamu**; produkuje pravidla pro **AutoHeal**; auditováno **White Teamem**.
+Konzumuje data z **Purple Teamu** a **Blue Teamu**; produkuje pravidla pro **[AutoHeal](@/glossary/autoheal.md)**; auditováno **White Teamem**.
 
 ## Cross-linky
 

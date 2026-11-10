@@ -118,7 +118,9 @@ def load_pages() -> list:
 
 
 TERM_INDEX = CONTENT / "kompendium" / "08-prilohy" / "index-pojmu.md"
-TERM_ROW = re.compile(r"^\|\s*\*\*(?:\[)?([^*\]]+?)(?:\]\([^)]*\))?\*\*\s*\|\s*([^|]*)\|\s*([^|]*)\|", re.M)
+TERM_ROW = re.compile(
+    r"^\|\s*\*\*(?:\[)?([^*\]]+?)(?:\]\(@/([^)#\s]+\.md)[^)]*\))?\*\*\s*\|\s*([^|]*)\|\s*([^|]*)\|", re.M
+)
 EA_CODE = re.compile(r"EA-(\d+)\.(\d+)\.(\d+)")
 
 
@@ -132,7 +134,8 @@ def load_terms(pages: list) -> list:
     """The book's terms (rows of the index of terms) and the page each one has, if any.
 
     A term has its own page when a glossary entry carries its name (file slug or title, in
-    Czech or in the English equivalent), when its location column links a glossary,
+    Czech or in the English equivalent), when the term cell links such a page, when its
+    location column links a glossary,
     philosophy or technique page, or when its location names an EA code that has a technique page.
     """
     if not TERM_INDEX.exists():
@@ -150,12 +153,15 @@ def load_terms(pages: list) -> list:
         if m:
             techniques["EA-" + ".".join(m.groups())] = path
     terms = []
-    for cs, en, location in TERM_ROW.findall(TERM_INDEX.read_text(encoding="utf-8")):
+    known = {p["path"] for p in pages}
+    for cs, cell_link, en, location in TERM_ROW.findall(TERM_INDEX.read_text(encoding="utf-8")):
         cs, en = cs.strip(), re.sub(r"\[[=≈~]\]", "", en).strip()
-        page = None
+        # The term cell itself may link the term's page: that is the most direct evidence.
+        page = cell_link if cell_link in known and cell_link.startswith(
+            ("glossary/", "philosophy/", "kompendium/techniques/")) else None
         for key in (slugify(cs), slugify(re.sub(r"\(.*?\)", "", cs)), slugify(en),
                     slugify(re.sub(r"\(.*?\)", "", en))):
-            if key and key in glossary:
+            if page is None and key and key in glossary:
                 page = glossary[key]
                 break
         if page is None:

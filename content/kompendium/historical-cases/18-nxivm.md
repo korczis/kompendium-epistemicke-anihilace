@@ -5,6 +5,9 @@ description = "NXIVM Keitha Ranierea: seberozvojové kurzy jako vstupní brána,
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

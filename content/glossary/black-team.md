@@ -1,10 +1,10 @@
 +++
 title = "Black Team"
 weight = 24
-description = "Maximum isolation theoretical threat modeling team producing abstract models only, operating under the strictest constraints within the Prismatic Platform Color Teams architecture"
+description = "Tým teoretického modelování hrozeb v maximální izolaci v architektuře Color Teams Prismatic Platform; vytváří jen abstraktní modely, nikdy spustitelný obsah."
 
 [taxonomies]
-tags = ["glossary", "security", "black-team", "prismatic", "adversarial", "threat-modeling", "color-teams"]
+tags = ["glossary", "security", "black-team", "prismatic", "color-teams"]
 
 [extra]
 category = "security"
@@ -14,147 +14,224 @@ stability = "mature"
 beam_related = true
 related_terms = ["color-teams", "gray-team", "red-team", "blue-team", "purple-team", "white-team", "nabla-infinity", "trinity-gate", "epistemic-pipeline", "formal-verification", "lean4", "agent-tier", "agent-registry", "consciousness-traits", "threat-intelligence", "penetration-testing"]
 author = "Tomas Korcak (korczis)"
-reading_time = "25 min"
-word_count = 3800
-date_created = "2026-02-23"
-date_modified = "2026-04-02"
-keywords = ["Black Team", "adversarial testing", "threat modeling", "pentesting", "red vs black", "security teams", "glossary", "security", "Prismatic Platform"]
 quality_score = 95
-see_also = ["capabilities", "architecture", "agents", "security"]
-image = "/images/sections/glossary.png"
-image_alt = "Black Team - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-The Black Team is the most restricted operational domain within the Prismatic Platform's six-team [Color Teams](@/glossary/color-teams.md) security architecture. Comprising exactly two agents operating under MAXIMUM isolation constraints, Black Team performs pure epistemic simulation of worst-case adversarial optimization. Its sole output is abstract threat models -- theoretical constructs that describe the shape and dynamics of potential attacks without providing any executable, reproducible, or directly actionable exploit knowledge. The team exists at the boundary between security research and theoretical risk analysis, occupying a space analogous to mathematical threat modeling in academic cryptography.
+**Black Team** je nejvíce omezenou provozní doménou šestičlenné bezpečnostní architektury
+[Color Teams](@/glossary/color-teams.md) Prismatic Platform. Tvoří jej přesně dva agenti,
+kteří pracují pod MAXIMÁLNÍMI omezeními izolace. Black Team provádí čistě epistemickou
+simulaci adversariální optimalizace v nejhorším případě. Jeho jediným výstupem jsou
+abstraktní modely hrozeb – teoretické konstrukce, které popisují tvar a dynamiku možných
+útoků, aniž by poskytovaly jakékoli spustitelné, reprodukovatelné nebo přímo použitelné
+znalosti o zneužití. Tým stojí na hranici mezi bezpečnostním výzkumem a teoretickou analýzou
+rizik, v prostoru obdobném matematickému modelování hrozeb v akademické kryptografii.
 
-The isolation constraints governing Black Team are absolute and non-negotiable. Zero network connectivity, zero access to production data or state, zero capability to produce executable content, and mandatory output filtering through a four-level abstraction pipeline. These constraints are not administrative policies that can be overridden by authority -- they are structural limitations enforced at the runtime level. Even an L5 Supreme authority agent cannot grant Black Team network access, because the access path does not exist in the Black Team execution environment.
+Omezení izolace, jimiž se Black Team řídí, jsou absolutní a nevyjednatelná: nulové síťové
+připojení, nulový přístup k produkčním datům a stavu, nulová schopnost vytvářet spustitelný
+obsah a povinné filtrování výstupu čtyřúrovňovým abstrakčním procesem. Nejde
+o administrativní politiky, které by šlo autoritou přepsat, ale o strukturální omezení
+vynucená za běhu. Ani agent nejvyššího oprávnění L5 nemůže Black Teamu udělit přístup
+k síti, protože cesta k němu v prostředí Black Teamu neexistuje.
 
-The philosophical foundation of Black Team rests on a critical insight: understanding how adversaries think -- their optimization strategies, their exploitation patterns, their strategic priorities -- is essential for building robust defenses, but the knowledge generated during that understanding process must be handled with extreme care. Black Team resolves this tension by operating exclusively at the abstract level, producing threat models that inform defensive strategy without creating a roadmap for actual attacks.
+Filozofickým základem Black Teamu je klíčový poznatek: porozumět tomu, jak protivník myslí
+– jeho optimalizačním strategiím, vzorcům zneužití, strategickým prioritám –, je pro stavbu
+odolné obrany nezbytné, ale vědění vzniklé během tohoto porozumění je třeba zpracovávat
+s krajní opatrností. Black Team toto napětí řeší tím, že pracuje výhradně na abstraktní
+úrovni a vytváří modely hrozeb, které informují obrannou strategii, aniž by vytvořily mapu
+skutečných útoků.
 
-In traditional security operations, the distinction between red team and black team is often informal. Red teams conduct hands-on adversarial simulation -- actual penetration testing, social engineering, and exploit development. Black teams, where they exist, operate at a higher abstraction level: they model the adversary's decision-making process, resource allocation, and strategic objectives without producing any executable artifacts. The Prismatic Platform formalizes this distinction with structural enforcement, ensuring that Black Team output can never cross the boundary from theoretical to operational.
+V tradičních bezpečnostních operacích bývá rozdíl mezi red teamem a black teamem
+neformální. Red teamy provádějí praktickou adversariální simulaci – skutečné penetrační
+testy, sociální inženýrství, vývoj exploitů. Black teamy, kde existují, pracují na vyšší
+úrovni abstrakce: modelují rozhodování protivníka, rozdělení jeho zdrojů a strategické cíle
+bez jakýchkoli spustitelných artefaktů. Platforma tento rozdíl formalizuje strukturálním
+vynucením, takže výstup Black Teamu nemůže překročit hranici od teoretického
+k operačnímu.
 
-## Core Concepts
+**Vztah ke knize:** Black Team patří do kontextu platformy, z níž Kompendium vzešlo, ale
+jeho zásada je i zásadou knihy. Kompendium popisuje mechanismy manipulace jen na úrovni
+struktury, nikdy jako postup – tedy na úrovni, kterou Black Team označuje L1–L2. Viz [Dual-use
+poznání](@/glossary/dual-use-poznani.md), [bezpečnostní
+klasifikaci](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) předmluvy a stránku [Black
+Team: modelování EA](@/kompendium/aiad-integration/black-team-ea-modeling.md).
 
-| Concept | Description | Enforcement Level |
+## Základní pojmy
+
+| Pojem | Popis | Úroveň vynucení |
 |---------|-------------|-------------------|
-| **Abstraction-Only Output** | All output must remain at L1 or L2 abstraction -- no executable, pseudocode, or implementation details | Structural (AbstractionFilter) |
-| **Maximum Isolation** | Zero network, zero production data, zero external communication except through enforcer | Runtime structural |
-| **Epistemic Simulation** | Models adversary cognition and strategy, not adversary tooling or techniques | Agent design constraint |
-| **Weaponization Risk Assessment** | Evaluates theoretical-to-operational conversion risk across feasibility, impact, novelty | Primary analytical output |
-| **Two-Agent Architecture** | Minimal surface area: theorist-commander generates, abstraction-enforcer filters | Topology constraint |
-| **Immutable Audit Trail** | Every operation, output, and filtering decision logged in append-only storage | Continuous monitoring |
-| **Temporal Ethics Checks** | Ethics validation runs every 10-15 seconds during active operations | Continuous monitoring |
-| **One-Directional Signal Flow** | Black Team provides input to Red Team but receives no direct input from any team | Architecture constraint |
-| **Sandbox Execution** | All operations execute within PrismaticDark.Sandbox with process-level isolation | Runtime enforcement |
-| **Safety-Critical Override** | Abstraction enforcer can halt any operation that risks producing sub-threshold content | Agent authority |
+| **Výstup jen v abstrakci** | veškerý výstup musí zůstat na úrovni abstrakce L1 nebo L2 – žádný spustitelný kód, pseudokód ani implementační podrobnosti | strukturální (AbstractionFilter) |
+| **Maximální izolace** | nulová síť, nulová produkční data, nulová vnější komunikace kromě cesty přes vynucovač | strukturální za běhu |
+| **Epistemická simulace** | modeluje poznávání a strategii protivníka, nikoli jeho nástroje či techniky | omezení návrhu agentů |
+| **Hodnocení rizika zbraňového využití** | hodnotí riziko převodu teoretického na operační podle proveditelnosti, dopadu a novosti | hlavní analytický výstup |
+| **Architektura dvou agentů** | minimální plocha: theorist-commander vytváří, abstraction-enforcer filtruje | omezení topologie |
+| **Neměnná auditní stopa** | každá operace, výstup a rozhodnutí filtru se zapisují do úložiště jen pro připojování | nepřetržité sledování |
+| **Průběžné etické kontroly** | etická validace každých 10–15 sekund během aktivních operací | nepřetržité sledování |
+| **Jednosměrný tok signálů** | Black Team dává vstup Red Teamu, ale sám nedostává přímý vstup od žádného týmu | omezení architektury |
+| **Provádění v sandboxu** | všechny operace běží v PrismaticDark.Sandbox s izolací na úrovni procesů | vynucení za běhu |
+| **Bezpečnostní přepsání** | vynucovač abstrakce může zastavit každou operaci, která hrozí vytvořit obsah pod prahem | oprávnění agenta |
 
-### Red Team vs Black Team
+### Red Team a Black Team
 
-The distinction between [Red Team](@/glossary/red-team.md) and Black Team is fundamental to the Color Teams architecture. Understanding this distinction prevents confusion between operational adversarial simulation and theoretical threat modeling.
+Rozdíl mezi [Red Teamem](@/glossary/red-team.md) a Black Teamem je pro architekturu Color
+Teams zásadní. Jeho pochopení brání záměně operační adversariální simulace s teoretickým
+modelováním hrozeb.
 
-| Dimension | Red Team | Black Team |
+| Hledisko | Red Team | Black Team |
 |-----------|----------|------------|
-| **Output Type** | Concrete adversarial scenarios with 5 attack primitives | Abstract threat models at L1-L2 only |
-| **Network Access** | Limited, controlled access for simulation | Zero -- path does not exist |
-| **Data Access** | Synthetic scenarios mimicking real conditions | Synthetic data only, no production state |
-| **Execution** | Actively runs adversarial campaigns | Purely theoretical analysis |
-| **Agent Count** | 5 agents (L3-L4 authority) | 2 agents (L3 authority) |
-| **Attack Primitives** | Truth distortion, confidence manipulation, signal poisoning, drift induction, salience hijacking | None -- no operational capabilities |
-| **Signal Direction** | Receives from Black, sends to Purple | Sends to Red only, receives from none |
-| **Isolation Level** | Controlled isolation | Maximum isolation |
+| **Typ výstupu** | konkrétní adversariální scénáře s 5 útočnými primitivy | jen abstraktní modely hrozeb L1–L2 |
+| **Přístup k síti** | omezený, řízený přístup pro simulaci | nulový – cesta neexistuje |
+| **Přístup k datům** | syntetické scénáře napodobující skutečné podmínky | jen syntetická data, žádný produkční stav |
+| **Provádění** | aktivně vede adversariální kampaně | čistě teoretická analýza |
+| **Počet agentů** | 5 agentů (oprávnění L3–L4) | 2 agenti (oprávnění L3) |
+| **Útočná primitiva** | zkreslení pravdy, manipulace důvěrou, otrávení signálu, vyvolání posunu, únos salience | žádná – bez operačních schopností |
+| **Směr signálu** | přijímá od Black, posílá Purple | posílá jen Red, nepřijímá od nikoho |
+| **Úroveň izolace** | řízená izolace | maximální izolace |
 
-### Penetration Testing Context
+### Kontext penetračního testování
 
-Black Team's relationship to penetration testing is indirect but essential. Traditional penetration testing follows a methodology: reconnaissance, scanning, gaining access, maintaining access, and covering tracks. Black Team operates upstream of this entire process -- it models what classes of vulnerabilities an adversary would prioritize, what attack surfaces offer the highest return on investment, and what defensive gaps create systemic risk. This abstract analysis then informs [Red Team](@/glossary/red-team.md) scenario design and [Blue Team](@/glossary/blue-team.md) defensive prioritization.
+Vztah Black Teamu k penetračnímu testování je nepřímý, ale podstatný. Tradiční penetrační
+test sleduje metodiku: průzkum, skenování, získání přístupu, udržení přístupu a zahlazení
+stop. Black Team působí před celým tímto procesem – modeluje, jaké třídy zranitelností by
+protivník upřednostnil, jaké útočné plochy nabízejí nejvyšší návratnost a jaké mezery
+v obraně vytvářejí systémové riziko. Tato abstraktní analýza pak informuje návrh scénářů
+[Red Teamu](@/glossary/red-team.md) a obranné priority [Blue Teamu](@/glossary/blue-team.md).
 
-| Penetration Testing Phase | Black Team Contribution |
+| Fáze penetračního testu | Příspěvek Black Teamu |
 |--------------------------|------------------------|
-| **Reconnaissance** | Models adversary information requirements and collection priorities |
-| **Vulnerability Analysis** | Classifies vulnerability types by adversary ROI (abstract, no specific CVEs below L2) |
-| **Exploitation Strategy** | Models decision-making under uncertainty -- when to escalate, pivot, or abort |
-| **Post-Exploitation** | Evaluates adversary persistence strategies and lateral movement patterns (abstract) |
-| **Impact Assessment** | Provides weaponization risk scores across feasibility, impact, novelty dimensions |
+| **Průzkum** | modeluje informační potřeby a priority sběru protivníka |
+| **Analýza zranitelností** | třídí typy zranitelností podle návratnosti pro protivníka (abstraktně, bez konkrétních CVE pod L2) |
+| **Strategie zneužití** | modeluje rozhodování za nejistoty – kdy eskalovat, změnit směr nebo ustoupit |
+| **Po zneužití** | hodnotí strategie setrvání a vzorce laterálního pohybu protivníka (abstraktně) |
+| **Hodnocení dopadu** | poskytuje skóre rizika zbraňového využití podle proveditelnosti, dopadu a novosti |
 
-## Technical Deep Dive
+## Technický rozbor
 
-### Agent Architecture
+### Architektura agentů
 
-Black Team maintains the smallest agent composition of any [Color Team](@/glossary/color-teams.md), with exactly two agents. This minimal design is intentional -- it limits the surface area of the most sensitive operational domain while ensuring the necessary separation of concerns between threat theorizing and safety enforcement.
+Black Team má nejmenší složení ze všech [Color Teams](@/glossary/color-teams.md) – přesně
+dva agenty. Minimální návrh je záměrný: omezuje plochu nejcitlivější provozní domény
+a zároveň zajišťuje nutné oddělení odpovědností mezi teoretizováním o hrozbách a vynucováním
+bezpečnosti.
 
 #### black-theorist-commander (L3 Strategic Commander, ISOLATED)
 
-The theorist-commander is responsible for generating abstract threat models through worst-case adversarial optimization analysis. Operating at L3 authority within the [Agent Tier](@/glossary/agent-tier.md) hierarchy, the theorist-commander possesses strategic coordination capabilities but exercises them exclusively within the isolated Black domain. The agent analyzes potential attack vectors, models adversarial decision-making processes, and produces structured threat assessments that describe what classes of attacks are theoretically possible and what defender resources they would consume.
+Theorist-commander vytváří abstraktní modely hrozeb analýzou adversariální optimalizace
+v nejhorším případě. Působí s oprávněním L3 v hierarchii [Agent Tier](@/glossary/agent-tier.md)
+a má schopnosti strategické koordinace, uplatňuje je však výhradně v izolované doméně Black.
+Analyzuje možné útočné vektory, modeluje rozhodovací procesy protivníka a vytváří
+strukturovaná hodnocení hrozeb, která popisují, jaké třídy útoků jsou teoreticky možné a jaké
+zdroje obránce by spotřebovaly.
 
-The ISOLATED designation means the theorist-commander cannot communicate directly with agents outside the Black domain. All output flows through the abstraction enforcer before reaching any external consumer. This communication constraint prevents accidental information leakage from the threat modeling process.
+Označení ISOLATED znamená, že theorist-commander nemůže komunikovat přímo s agenty mimo
+doménu Black. Veškerý výstup prochází vynucovačem abstrakce, než se dostane k jakémukoli
+vnějšímu příjemci. Toto omezení komunikace brání nechtěnému úniku informací z procesu
+modelování hrozeb.
 
 #### black-abstraction-enforcer (L3 Safety-Critical, ISOLATED)
 
-The abstraction enforcer serves as the mandatory output filter for all Black Team production. Every artifact generated by the theorist-commander must pass through the enforcer's L1-L4 AbstractionFilter before it can exit the Black domain. The enforcer carries a safety-critical designation, granting it override authority to halt any Black Team operation that risks producing content below the required abstraction level.
+Vynucovač abstrakce slouží jako povinný filtr veškerého výstupu Black Teamu. Každý artefakt
+od theorist-commandera musí projít jeho filtrem AbstractionFilter L1–L4, než smí opustit
+doménu Black. Vynucovač nese označení kritičnosti pro bezpečnost, a tím oprávnění zastavit
+jakoukoli operaci Black Teamu, která hrozí vytvořit obsah pod požadovanou úrovní abstrakce.
 
-The enforcer implements four abstraction levels, each progressively more concrete. Only L1 (fully abstract) and L2 (structurally abstract) output is permitted to leave the Black domain. L3 (semi-concrete) and L4 (near-executable) content is automatically rejected and logged for audit. The enforcer maintains an immutable record of every filtering decision, creating a complete audit trail of what was produced, what was transmitted, and what was rejected.
+Vynucovač pracuje se čtyřmi úrovněmi abstrakce, z nichž každá je konkrétnější. Doménu Black
+smí opustit jen výstup L1 (plně abstraktní) a L2 (strukturálně abstraktní). Obsah L3
+(polokonkrétní) a L4 (téměř spustitelný) je automaticky odmítnut a zaznamenán pro audit.
+Vynucovač vede neměnný záznam každého rozhodnutí filtru – úplnou auditní stopu toho, co bylo
+vytvořeno, co předáno a co odmítnuto.
 
-### L1-L4 Abstraction Filtering
+### Filtrování abstrakce L1–L4
 
-The AbstractionFilter is the core safety mechanism that distinguishes Black Team from all other security teams. While [Red Team](@/glossary/red-team.md) operates with five concrete attack primitives (truth distortion, confidence manipulation, signal poisoning, drift induction, salience hijacking), Black Team output is stripped of all operational specificity before leaving the domain.
+AbstractionFilter je klíčovým bezpečnostním mechanismem, který Black Team odlišuje od všech
+ostatních bezpečnostních týmů. Zatímco [Red Team](@/glossary/red-team.md) pracuje s pěti
+konkrétními útočnými primitivy, výstup Black Teamu je před opuštěním domény zbaven veškeré
+operační konkrétnosti.
 
-| Level | Name | Description | Permitted to Exit | Example Output |
+| Úroveň | Název | Popis | Smí opustit doménu | Příklad výstupu |
 |-------|------|-------------|-------------------|----------------|
-| **L1** | Fully Abstract | Pure mathematical or logical descriptions of threat classes without any implementation hints | Yes | "Class-3 information asymmetry exploitation pattern" |
-| **L2** | Structurally Abstract | Describes the shape and topology of an attack strategy without specifying techniques or tools | Yes | "Multi-stage trust chain degradation with 3 pivot points" |
-| **L3** | Semi-Concrete | Includes references to specific techniques, protocols, or system components | No -- Rejected | "SQL injection via prepared statement bypass in PostgreSQL 16" |
-| **L4** | Near-Executable | Contains sufficient detail to guide implementation of an attack | No -- Rejected | Step-by-step exploitation procedure |
+| **L1** | plně abstraktní | čistě matematické nebo logické popisy tříd hrozeb bez náznaku implementace | ano | „vzorec zneužití informační asymetrie třídy 3“ |
+| **L2** | strukturálně abstraktní | popisuje tvar a topologii útočné strategie bez technik a nástrojů | ano | „vícestupňová degradace řetězce důvěry se 3 body obratu“ |
+| **L3** | polokonkrétní | obsahuje odkazy na konkrétní techniky, protokoly nebo součásti systému | ne – odmítnuto | konkrétní technika napadení konkrétní verze databáze |
+| **L4** | téměř spustitelné | obsahuje dost podrobností k provedení útoku | ne – odmítnuto | postup krok za krokem |
 
-The filtering is not a simple keyword scan. The abstraction enforcer evaluates the semantic content of each output artifact, assessing whether the information contained could be combined with publicly available knowledge to produce actionable exploit instructions. This evaluation runs continuously during the theorist-commander's output generation, enabling early intervention rather than post-hoc filtering.
+Filtrování není jednoduchým hledáním klíčových slov. Vynucovač hodnotí sémantický obsah
+každého artefaktu a posuzuje, zda by informace mohla být ve spojení s veřejně dostupnými
+znalostmi převedena na použitelný návod. Hodnocení běží průběžně během tvorby výstupu, takže
+umožňuje včasný zásah, nikoli jen dodatečné filtrování.
 
-### Isolation Protocols
+### Protokoly izolace
 
-Black Team's isolation is enforced through multiple independent mechanisms, ensuring that no single point of failure can compromise the domain boundary:
+Izolace Black Teamu je vynucena několika nezávislými mechanismy, takže žádné jediné místo
+selhání nemůže hranici domény narušit:
 
-| Protocol | Mechanism | Enforcement | Bypass Possibility |
+| Protokol | Mechanismus | Vynucení | Možnost obejití |
 |----------|-----------|-------------|-------------------|
-| **Network Isolation** | Zero network connectivity -- no inbound or outbound connections | Runtime structural (path does not exist) | None -- structural |
-| **Data Isolation** | No access to production data, PII, or live system state | Sandbox enforcement with synthetic data only | None -- sandbox enforced |
-| **Communication Isolation** | All output passes through abstraction enforcer; no direct external messaging | Agent topology constraint | None -- topology enforced |
-| **Execution Isolation** | All operations execute within PrismaticDark.Sandbox | Process-level sandboxing | None -- process boundary |
-| **Temporal Isolation** | Ethics checks every 10-15 seconds; operation halt on any anomaly | Continuous monitoring | None -- continuous |
-| **Audit Isolation** | Immutable audit trail for every operation; tamper-evident logging | Append-only storage | None -- append-only |
-| **Escalation Isolation** | Gray Team's `gray-escalation-guard` prevents unauthorized access to Black domain | Cross-team safety override | None -- L4 override |
+| **síťová izolace** | nulové připojení – žádná příchozí ani odchozí spojení | strukturální za běhu (cesta neexistuje) | žádná – strukturální |
+| **datová izolace** | žádný přístup k produkčním datům, osobním údajům ani živému stavu systému | sandbox jen se syntetickými daty | žádná – vynuceno sandboxem |
+| **komunikační izolace** | veškerý výstup přes vynucovač abstrakce; žádné přímé vnější zprávy | omezení topologie agentů | žádná – vynuceno topologií |
+| **izolace provádění** | všechny operace v PrismaticDark.Sandbox | sandbox na úrovni procesů | žádná – hranice procesu |
+| **časová izolace** | etické kontroly každých 10–15 sekund; zastavení při jakékoli anomálii | nepřetržité sledování | žádná – nepřetržité |
+| **auditní izolace** | neměnná auditní stopa každé operace; logování odhalující manipulaci | úložiště jen pro připojování | žádná – jen připojování |
+| **eskalační izolace** | `gray-escalation-guard` Gray Teamu brání neoprávněnému přístupu do domény Black | bezpečnostní přepsání napříč týmy | žádná – přepsání L4 |
 
-The escalation isolation deserves special attention. The Gray Team's boundary exploration activities can sometimes approach territory that overlaps with Black Team's threat modeling domain. The `gray-escalation-guard` agent (L4 Safety-Critical) has explicit override authority to halt any Gray Team operation that risks escalating into Black domain territory. This prevents the less-restricted Gray domain from inadvertently accessing the highly-restricted Black domain.
+Zvláštní pozornost si zaslouží eskalační izolace. Průzkum hranic, který provádí [Gray
+Team](@/glossary/gray-team.md), se někdy může přiblížit území, které se překrývá s doménou
+modelování hrozeb Black Teamu. Agent `gray-escalation-guard` (L4, kritický pro bezpečnost) má
+výslovné oprávnění zastavit každou operaci Gray Teamu, která hrozí eskalovat do domény Black.
+Tím se brání tomu, aby méně omezená doména Gray nechtěně získala přístup do vysoce omezené
+domény Black.
 
-### No Executable Output Policy
+### Zásada nulového spustitelného výstupu
 
-The most fundamental constraint on Black Team is the absolute prohibition on executable content. This policy extends beyond code to encompass any artifact that could serve as a step-by-step guide for conducting an attack:
+Nejzásadnějším omezením Black Teamu je absolutní zákaz spustitelného obsahu. Zásada se
+netýká jen kódu, ale jakéhokoli artefaktu, který by mohl sloužit jako návod k útoku krok za
+krokem:
 
-- No source code, pseudocode, or algorithm implementations
-- No command sequences, API calls, or protocol specifications
-- No tool configurations, payload structures, or injection patterns
-- No specific vulnerability identifiers (CVE references are permitted only at L1 abstraction)
-- No timing information, resource requirements, or infrastructure specifications for attacks
-- No social engineering scripts, phishing templates, or pretexting scenarios
-- No network diagrams showing exploitable paths with specific protocols
+- žádný zdrojový kód, pseudokód ani implementace algoritmů;
+- žádné sekvence příkazů, volání API ani specifikace protokolů;
+- žádné konfigurace nástrojů, struktury payloadů ani vzory injekcí;
+- žádné konkrétní identifikátory zranitelností (odkazy na CVE jen na úrovni abstrakce L1);
+- žádné časování, požadavky na zdroje ani specifikace infrastruktury pro útoky;
+- žádné scénáře sociálního inženýrství, šablony phishingu ani scénáře předstírání;
+- žádné síťové diagramy se zneužitelnými cestami a konkrétními protokoly.
 
-The policy is enforced by the abstraction enforcer at the output boundary and verified by the immutable audit trail. Violations trigger immediate operation halt with escalation to supreme authority review. In the platform's operational history, zero executable content has ever escaped the Black domain.
+Zásadu vynucuje vynucovač abstrakce na výstupní hranici a ověřuje ji neměnná auditní stopa.
+Porušení vede k okamžitému zastavení operace a eskalaci k přezkumu nejvyšší autoritou.
+Podle záznamů platformy z domény Black dosud neunikl žádný spustitelný obsah.
 
-## Usage in Prismatic Platform
+## Použití v Prismatic Platform
 
-### Weaponization Risk Assessment
+### Hodnocení rizika zbraňového využití
 
-Black Team's primary analytical output is weaponization risk assessment -- the evaluation of how theoretical vulnerabilities or attack strategies might be converted into operational weapons by real-world adversaries. This assessment framework operates at three dimensions:
+Hlavním analytickým výstupem Black Teamu je hodnocení rizika zbraňového využití – posouzení,
+jak by skuteční protivníci mohli teoretické zranitelnosti nebo útočné strategie převést na
+operační zbraně. Rámec pracuje ve třech rozměrech:
 
-**Feasibility Dimension**: How technically achievable is the theoretical attack given current publicly available tools and knowledge? This dimension evaluates whether the abstract threat model describes something that is merely theoretically possible or something that a motivated adversary could plausibly execute.
+**Proveditelnost:** jak technicky dosažitelný je teoretický útok při současných veřejně
+dostupných nástrojích a znalostech? Rozměr rozlišuje, zda model popisuje něco jen teoreticky
+možného, nebo něco, co by motivovaný protivník mohl věrohodně provést.
 
-**Impact Dimension**: What would be the consequence if the theoretical attack were successfully weaponized? This dimension evaluates blast radius, reversibility, detection difficulty, and cascading effects on dependent systems.
+**Dopad:** jaký by byl důsledek úspěšného zbraňového využití? Rozměr hodnotí dosah škod,
+vratnost, obtížnost detekce a kaskádové účinky na závislé systémy.
 
-**Novelty Dimension**: Does the threat model describe a known attack class (well-defended) or a novel attack class (potentially undefended)? Novel threats receive elevated priority in the signal flow to [Purple Team](@/glossary/purple-team.md) for synthesis and [Blue Team](@/glossary/blue-team.md) for defensive posture assessment.
+**Novost:** popisuje model známou třídu útoků (dobře bráněnou), nebo novou (možná
+nebráněnou)? Nové hrozby dostávají vyšší prioritu v toku signálů k [Purple
+Teamu](@/glossary/purple-team.md) pro syntézu a k [Blue Teamu](@/glossary/blue-team.md) pro
+posouzení obranného postoje.
 
-The weaponization risk assessment output feeds into the broader [Color Teams](@/glossary/color-teams.md) signal flow, where it informs Red Team scenario generation and Blue Team defensive prioritization -- always at L1-L2 abstraction levels.
+Výstup hodnocení vstupuje do širšího toku signálů [Color Teams](@/glossary/color-teams.md),
+kde informuje tvorbu scénářů Red Teamu a obranné priority Blue Teamu – vždy na úrovních
+abstrakce L1–L2.
 
-### Signal Flow Architecture
+### Architektura toku signálů
 
-Black Team's position in the [Color Teams](@/glossary/color-teams.md) signal flow architecture is deliberately asymmetric. It provides input to [Red Team](@/glossary/red-team.md) through abstract threat models (filtered to L1-L2) but receives no direct input from any other team. This one-directional flow prevents external influence on Black Team's independent analysis.
+Postavení Black Teamu v toku signálů je záměrně asymetrické. Dává vstup [Red
+Teamu](@/glossary/red-team.md) prostřednictvím abstraktních modelů hrozeb (filtrovaných na
+L1–L2), ale sám nedostává přímý vstup od žádného jiného týmu. Jednosměrný tok brání vnějšímu
+ovlivnění nezávislé analýzy.
 
 ```
 Black Team (abstract threat models)
@@ -168,12 +245,16 @@ Purple Team (synthesizes with Blue Team findings)
     v
 Blue Team (builds defensive posture)
 ```
+[White Team](@/glossary/white-team.md) může příležitostně ověřit logickou konzistenci Black
+Teamu formální verifikací pomocí důkazů v Lean4, ale ověření se týká jen abstraktního
+výstupu – White Team nikdy nemá přístup k vnitřním procesům uvažování Black Teamu.
 
-[White Team](@/glossary/white-team.md) may occasionally validate Black Team's logical consistency through [formal verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) using [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, but this verification operates on the abstract output only -- White Team never accesses Black Team's internal reasoning processes.
+Koordinátor [Purple Teamu](@/glossary/purple-team.md) se může na výstup Black Teamu odvolat
+při uzavírání smyčky Red–Blue, ale jen prostřednictvím filtrovaných, abstrahovaných verzí,
+které prošly AbstractionFilter. Purple Team nemá oprávnění žádat po Black Teamu výstup
+s nižší úrovní abstrakce.
 
-The [Purple Team](@/glossary/purple-team.md) coordinator may reference Black Team output when performing Red-Blue loop closure, but only through the filtered, abstracted versions that have passed through the AbstractionFilter. Purple Team has no authority to request lower-abstraction output from Black Team.
-
-## Code Examples
+## Příklady kódu
 
 ```elixir
 defmodule PrismaticDark.BlackTeam.AbstractionFilter do
@@ -332,7 +413,6 @@ defmodule PrismaticDark.BlackTeam.AbstractionFilter do
   end
 end
 ```
-
 ```elixir
 defmodule PrismaticDark.BlackTeam.ThreatModeler do
   @moduledoc """
@@ -407,88 +487,96 @@ defmodule PrismaticDark.BlackTeam.ThreatModeler do
   end
 end
 ```
+## Časté chyby
 
-## Common Pitfalls
-
-| Pitfall | Description | Consequence | Prevention |
+| Chyba | Popis | Důsledek | Prevence |
 |---------|-------------|-------------|------------|
-| **Concrete Leakage** | Allowing L3/L4 content to exit Black domain by weakening filter rules | Actionable exploit information exposed | AbstractionFilter is structural, not configurable |
-| **Red-Black Confusion** | Treating Black Team as a more powerful Red Team with higher access | Misaligned threat models, incorrect assumptions about capabilities | Clear documentation, separate agent registries |
-| **Isolation Bypass Attempts** | Trying to route communication around the abstraction enforcer | Audit trail violation, potential information leak | Topology enforcement, no alternative paths exist |
-| **Over-Abstraction** | Producing L1 output so abstract it provides no defensive value | Wasted analysis cycles, no actionable intelligence for Red/Blue teams | Weaponization risk scoring ensures defensive utility |
-| **Stale Threat Models** | Failing to time-decay old models as threat landscape evolves | Defensive posture based on outdated adversary capabilities | NABLA Time Decay axiom, model expiration timestamps |
-| **Single-Source Reasoning** | Theorist-commander relying on single analytical framework | Narrow threat models missing cross-domain attack vectors | NABLA Signal Plurality axiom requires 2+ reasoning paths |
-| **Ethics Check Fatigue** | Ignoring or suppressing temporal ethics check warnings | Gradual drift toward concrete output | Ethics checks are non-suppressible, halt-on-anomaly |
-| **Audit Trail Gaps** | Failing to log intermediate reasoning steps | Incomplete forensic record, unverifiable output provenance | Append-only storage with continuous write verification |
-| **Cross-Domain Escalation** | Gray Team operations approaching Black domain territory | Unauthorized threat modeling outside isolation constraints | gray-escalation-guard L4 override authority |
-| **Weaponization Score Gaming** | Artificially inflating novelty scores to prioritize models | Skewed defensive resource allocation | Independent scoring validation by Purple Team |
+| **únik konkrétnosti** | dovolit obsahu L3/L4 opustit doménu oslabením pravidel filtru | odhalení použitelných informací o zneužití | AbstractionFilter je strukturální, ne konfigurovatelný |
+| **záměna Red a Black** | považovat Black Team za silnější Red Team s větším přístupem | nesladěné modely hrozeb, chybné předpoklady o schopnostech | jasná dokumentace, oddělené registry agentů |
+| **pokusy obejít izolaci** | směrovat komunikaci mimo vynucovač abstrakce | porušení auditní stopy, možný únik informací | vynucení topologie, alternativní cesty neexistují |
+| **přílišná abstrakce** | výstup L1 tak abstraktní, že nemá obrannou hodnotu | promarněné cykly analýzy, žádné použitelné poznatky pro Red/Blue | skóre rizika zajišťuje obrannou užitečnost |
+| **zastaralé modely** | nestárnutí starých modelů při vývoji prostředí hrozeb | obrana postavená na zastaralých schopnostech protivníka | axiom NABLA Time Decay, časové razítko expirace modelu |
+| **uvažování z jednoho zdroje** | theorist-commander spoléhá na jediný analytický rámec | úzké modely, které přehlédnou útočné vektory napříč doménami | axiom NABLA [Signal Plurality](@/glossary/signal-plurality.md) vyžaduje 2+ cesty uvažování |
+| **únava z etických kontrol** | ignorovat nebo potlačovat varování průběžných etických kontrol | postupný posun ke konkrétnímu výstupu | kontroly nelze potlačit, při anomálii zastavení |
+| **mezery v auditní stopě** | nezaznamenat mezikroky uvažování | neúplný forenzní záznam, neověřitelný původ výstupu | úložiště jen pro připojování s průběžným ověřením zápisu |
+| **eskalace napříč doménami** | operace Gray Teamu se blíží území Black | neoprávněné modelování hrozeb mimo omezení izolace | přepsání L4 agentem gray-escalation-guard |
+| **manipulace se skóre** | uměle navyšovat skóre novosti pro upřednostnění modelů | zkreslené rozdělení obranných zdrojů | nezávislé ověření skóre Purple Teamem |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Maintain strict L1-L2 output discipline** -- every Black Team artifact must be independently verifiable as abstract before transmission to Red Team. When in doubt, classify at L1.
+1. **Držet přísnou kázeň výstupu L1–L2** – každý artefakt musí být před předáním Red Teamu
+   nezávisle ověřitelný jako abstraktní. V pochybnostech klasifikovat jako L1.
+2. **Soustavně používat trojrozměrný rámec rizika** – proveditelnost, dopad a novost se
+   počítají pro každý model hrozby, nejen pro ty s vysokou prioritou. I modely s nízkým skóre
+   dotvářejí obraz prostředí hrozeb.
+3. **Zachovat jednosměrný tok signálů** – Black Team nesmí nikdy dostávat přímý vstup od
+   jiných týmů. Vnější vliv by mohl zkreslit nezávislé modelování a oslabit analytickou
+   hodnotu abstraktního hodnocení.
+4. **Střídat zaměření na třídy hrozeb mezi kampaněmi** – nepřeceňovat jedinou třídu.
+   Informační asymetrie, degradace řetězce důvěry, vyčerpání zdrojů, poškození stavu
+   a manipulace signálem vyžadují každá vlastní analytické cykly.
+5. **Ověřovat úrovně abstrakce formální verifikací White Teamu** – kde je to možné,
+   předložit kritické modely [White Teamu](@/glossary/white-team.md) k důkazu logické
+   konzistence v Lean4. Zachytí se tím chyby uvažování bez odhalení vnitřních procesů.
+6. **Průběžně sledovat úplnost auditní stopy** – mezery v neměnné stopě ukazují na možná
+   selhání vynucení. Každá operace musí mít odpovídající záznam.
+7. **Uplatňovat zachování rozporů NABLA na rozcházející se modely** – vytvoří-li
+   theorist-commander protichůdné modely pro tutéž třídu hrozeb, zachovat oba místo řešení
+   rozporu. Protichůdné modely často odhalí skryté předpoklady.
+8. **Stanovit časové meze kampaní** – kampaně modelování hrozeb mají mít výslovné časové
+   limity, aby se analýza nerozplývala. Operace jsou náročné a těží ze soustředěného,
+   časově ohraničeného provedení.
+9. **Porovnávat skóre rizika s historickými daty** – srovnání s předchozími kampaněmi ukáže
+   trendy ve vývoji schopností protivníka. Rostoucí skóre proveditelnosti v určité třídě
+   hrozeb signalizuje rostoucí riziko ve skutečnosti.
+10. **Nikdy nerozšiřovat počet agentů** – architektura dvou agentů (teoretik a vynucovač) je
+    záměrné omezení návrhu. Další agenti by zvětšili plochu bez úměrného analytického
+    přínosu.
 
-2. **Use the three-dimensional weaponization framework consistently** -- feasibility, impact, and novelty scores must be computed for every threat model, not just high-priority ones. Low-scoring models still inform the threat landscape.
+## Etický rámec
 
-3. **Preserve the one-directional signal flow** -- Black Team must never receive direct input from other teams. External influence could bias independent threat modeling and undermine the analytical value of abstract assessment.
+Operace Black Teamu se řídí přísnými etickými hranicemi, které doplňují technické protokoly
+izolace:
 
-4. **Rotate threat class focus across campaigns** -- avoid over-indexing on a single threat class. Information asymmetry, trust chain degradation, resource exhaustion, state corruption, and signal manipulation each require dedicated analytical cycles.
+- **kontext oprávnění:** všechny operace spadají výhradně do soutěží CTF, obranného
+  bezpečnostního výzkumu a autorizovaných penetračních testů;
+- **jen simulace:** veškerá analýza používá syntetická data a hypotetické scénáře – nikdy
+  skutečné organizace, osoby ani systémy;
+- **obranný účel:** každý model hrozby musí sloužit prokazatelnému obrannému účelu; čistě
+  akademický průzkum bez obranného využití není povolen;
+- **přiměřenost:** hloubka analýzy musí odpovídat obranné potřebě – nejhlubší analýza je
+  vyhrazena pro nejkritičtější mezery v obraně;
+- **požadavky na přezkum:** všechny kampaně podléhají přezkumu po operaci; neměnná auditní
+  stopa zajišťuje úplnou transparentnost.
 
-5. **Validate abstraction levels through White Team formal verification** -- whenever possible, submit critical threat models to [White Team](@/glossary/white-team.md) for [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) logical consistency proof. This catches reasoning errors without exposing internal processes.
+Tato etická omezení se vynucují stejnými mechanismy jako technická: nepřetržitým sledováním,
+neměnnou auditní stopou a bezpečnostním oprávněním vynucovače abstrakce. Výsledkem je
+schopnost modelovat hrozby se skutečnou obrannou hodnotou při zachování nejvyšších etických
+standardů. Stejné zásady – syntetické případy, obranný účel, přiměřenost a přezkum – uplatňuje
+Kompendium u kazuistik a scénářů (viz [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md)).
 
-6. **Monitor audit trail completeness continuously** -- gaps in the immutable audit trail indicate potential enforcement failures. Every operation must have a corresponding audit entry.
+## Související pojmy
 
-7. **Apply NABLA Contradiction Preservation to divergent models** -- when the theorist-commander generates conflicting threat models for the same threat class, preserve both rather than resolving the contradiction. Conflicting models often reveal hidden assumptions.
+Bez vlastního hesla v glosáři knihy: *Formal Verification* a *Lean4* (ověřování logické
+konzistence výstupu), *Threat Intelligence* (strategické zpravodajství odvozené z modelů),
+*Penetration Testing* a *Consciousness Traits*.
 
-8. **Implement campaign-level time bounds** -- threat modeling campaigns should have explicit time limits to prevent analytical drift. Black Team operations are intensive and benefit from focused, time-bounded execution.
+## Související
 
-9. **Cross-reference weaponization scores with historical data** -- compare current campaign scores against previous campaigns to identify trends in adversary capability evolution. Rising feasibility scores in a threat class signal increasing real-world risk.
+**Color Teams**
 
-10. **Never attempt to expand Black Team agent count** -- the two-agent architecture (theorist + enforcer) is a deliberate design constraint. Adding agents increases surface area without proportional analytical benefit.
+- [Color Teams](@/glossary/color-teams.md) – přehled všech šesti týmů.
+- [Gray Team](@/glossary/gray-team.md) – průzkum hranic se strážcem eskalace do domény Black.
+- [Red Team](@/glossary/red-team.md) – adversariální simulace, která abstraktní modely
+  spotřebovává.
+- [Blue Team](@/glossary/blue-team.md) – epistemická obrana informovaná modely hrozeb.
+- [Purple Team](@/glossary/purple-team.md) – syntéza zjištění všech týmů.
+- [White Team](@/glossary/white-team.md) – konstruktivní ověřování logické konzistence.
 
-## Related Terms
+**Platforma a kniha**
 
-- [Color Teams](@/glossary/color-teams.md) -- Full overview of all 6 adversarial-defensive security teams
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration team with escalation guard preventing Black access
-- [Red Team](@/glossary/red-team.md) -- Adversarial simulation team consuming Black Team's abstract threat models
-- [Blue Team](@/glossary/blue-team.md) -- Epistemic defense team building posture informed by threat models
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis team mediating findings across all teams
-- [White Team](@/glossary/white-team.md) -- Constructive verification team validating logical consistency
-- [Agent Tier](@/glossary/agent-tier.md) -- L1-L5 classification system; Black Team agents are L3
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog where Black Team agents are registered
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing abstraction constraints
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate that Black Team output must pass
-- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- Techniques used to validate Black Team logical consistency
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover used in White Team validation of Black output
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- Strategic intelligence derived from Black Team models
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- 16-level pipeline through which filtered output flows
-- [Penetration Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/penetration-testing/) -- Operational testing informed by Black Team analysis
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Platform traits that Black Team threat models help protect
-
-## Ethical Framework
-
-Black Team operations are governed by strict ethical boundaries that complement the technical isolation protocols:
-
-- **Authorization Context**: All Black Team operations fall exclusively under CTF challenges, defensive security research, and authorized penetration testing contexts
-- **Simulation Only**: All analysis uses synthetic data and hypothetical scenarios -- never real organizations, individuals, or systems
-- **Defensive Purpose**: Every threat model must serve a demonstrable defensive purpose; purely academic exploration without defensive application is not permitted
-- **Proportionality**: The depth of threat analysis must be proportional to the defensive need -- maximum-depth analysis is reserved for the most critical defensive gaps
-- **Review Requirements**: All Black Team campaigns are subject to post-operation review, with the immutable audit trail providing complete transparency
-
-These ethical constraints are enforced through the same mechanisms as the technical constraints: continuous monitoring, immutable audit trails, and the abstraction enforcer's safety-critical override authority. The result is a threat modeling capability that provides genuine defensive value while maintaining the highest possible ethical standards.
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Black Team agents
-- {{ <cross_link path="/security/" text="Security" /> }} -- Security architecture and operations
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Agent Tier](@/glossary/agent-tier.md) – agenti Black Teamu mají úroveň L3.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec omezení abstrakce.
+- [Dual-use poznání](@/glossary/dual-use-poznani.md) – etický problém, který abstrakce řeší.
+- [Black Team: modelování EA](@/kompendium/aiad-integration/black-team-ea-modeling.md) –
+  modelování technik EA na úrovni abstrakce.

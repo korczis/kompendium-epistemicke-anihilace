@@ -30,7 +30,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 03 — Architektura intelligence**: vrstvy fúze: data, informace, znalost
 - **Sekce 04 — Multi-source analýza**: vážení důvěryhodnosti zdrojů
-- **Per-technique: Entity Resolution**: deduplikace napříč zdroji
+- **Per-technique: [Entity Resolution](@/glossary/entity-resolution.md)**: deduplikace napříč zdroji
 - **Sekce 06 — Quality assurance**: detekce circular reporting
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.

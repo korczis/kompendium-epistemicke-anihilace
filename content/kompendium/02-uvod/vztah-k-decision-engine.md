@@ -17,7 +17,7 @@ toc = true
 
 # 2.7 Vztah ke Decision Engine a Color Teams
 
-Tato kapitola dokumentuje **operační most** mezi taxonomií epistemické anihilace a [Decision Engine](@/glossary/decision-core.md) Prismatic Platform. Zatímco kapitola [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) tematizuje **epistemickou infrastrukturu** (jak se formují přesvědčení), tato kapitola tematizuje **rozhodovací vrstvu** (jak se z přesvědčení stávají konsekventní akce). Decision Engine je vrstvou, kde taxonomie EA získává **přímou operační relevanci** v due-diligence procesech, intelligence assessmentech a strategickém rozhodování.
+Tato kapitola dokumentuje **operační most** mezi taxonomií epistemické anihilace a [Decision Engine](@/glossary/decision-core.md) Prismatic Platform. Zatímco kapitola [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) tematizuje **epistemickou infrastrukturu** (jak se formují přesvědčení), tato kapitola tematizuje **rozhodovací vrstvu** (jak se z přesvědčení stávají konsekventní akce). [Decision Engine](@/glossary/decision-engine.md) je vrstvou, kde [taxonomie EA](@/glossary/taxonomie-ea.md) získává **přímou operační relevanci** v due-diligence procesech, intelligence assessmentech a strategickém rozhodování.
 
 ## Decision Engine: architektura a doktrína
 
@@ -34,7 +34,7 @@ Decision Engine je 10-stage deterministická pipeline operující nad NABLA-konf
 9. **Recommend** — doporučení akce s podmíněnými variantami
 10. **Explain** — generování vysvětlitelné reasoning trace
 
-Každý stage je **auditovatelný** — výstup obsahuje plnou traceability nazpět ke vstupním signálům. Tato traceabilita je strukturní obrana proti **EA-1.3.3 Tematické diverzi**: rozhodnutí musí být dohledatelné na konkrétní evidenci, nikoli „vyplynou z celkového dojmu“.
+Každý stage je **auditovatelný** — výstup obsahuje plnou traceability nazpět ke vstupním signálům. Tato traceabilita je strukturní obrana proti **[EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) Tematické diverzi**: rozhodnutí musí být dohledatelné na konkrétní evidenci, nikoli „vyplynou z celkového dojmu“.
 
 ## Confidence Calibration jako defenzivní mechanismus
 
@@ -49,10 +49,10 @@ Decision Engine vynucuje **explicitní confidence skóre** na každém klíčov�
 Toto rozlišení je strukturně klíčové: subjekty zranitelné vůči manipulaci typicky **kompresují obě nejistoty** do jednoho skóre, což otvírá prostor pro útoky exploitující mezeru. Decision Engine udržuje obě explicitně oddělené.
 
 ### Obrana proti analysis paralysis
-Confidence score je **monotónní akumulační funkce** evidence. Pokud evidence dosáhne kalibrované thresholdové hodnoty (typicky 0.95 pro kritická rozhodnutí), systém přechází z exploration phase do execution phase. Tento mechanismus předchází **EA-1.3.1 Imunizaci proti falsifikaci** v opačném směru: subjekt nemůže donekonečna odkládat rozhodnutí požadováním „ještě více evidence“.
+Confidence score je **monotónní akumulační funkce** evidence. Pokud evidence dosáhne kalibrované thresholdové hodnoty (typicky 0.95 pro kritická rozhodnutí), systém přechází z exploration phase do execution phase. Tento mechanismus předchází **[EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) Imunizaci proti falsifikaci** v opačném směru: subjekt nemůže donekonečna odkládat rozhodnutí požadováním „ještě více evidence“.
 
 ### Brier Score a kalibrační loop
-Decision Engine kontinuálně monitoruje **Brier score** — kvadratickou odchylku predikované konfidence od realizovaného výsledku. Brier score umožňuje detekci **systematických miscalibrations** — situací, kdy systém je systematicky příliš sebejistý nebo příliš nejistý. Tento feedback loop neutralizuje **EA-1.3.2 Strategickou reinterpretaci** — konfidenční tvrzení nelze zpětně reinterpretovat, jsou kontinuálně testována proti realitě.
+Decision Engine kontinuálně monitoruje **Brier score** — kvadratickou odchylku predikované konfidence od realizovaného výsledku. Brier score umožňuje detekci **systematických miscalibrations** — situací, kdy systém je systematicky příliš sebejistý nebo příliš nejistý. Tento feedback loop neutralizuje **[EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) Strategickou reinterpretaci** — konfidenční tvrzení nelze zpětně reinterpretovat, jsou kontinuálně testována proti realitě.
 
 ## Hypotheses + Falsifikační kritéria
 
@@ -66,7 +66,7 @@ Tento mechanismus operacionalizuje **Popperovský princip**: vědecká (a tudí�
 
 ## Source Diversity Enforcement
 
-Stage 3 (Sources) implementuje strukturní obranu proti **EA-1.1.1 Selektivní expozici**:
+Stage 3 (Sources) implementuje strukturní obranu proti **[EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) Selektivní expozici**:
 
 - **Source plurality requirement** — minimum 2 nezávislé zdroje (NABLA Axiom 1)
 - **Independence verification** — explicitní test, zda zdroje sdílejí společný origin (NABLA Axiom 6)
@@ -93,12 +93,12 @@ Provenance chain umožňuje:
 
 | Tým | Operační role | Vztah k taxonomii |
 |-----|----------------|--------------------|
-| **Gray Team** | Boundary exploration | Identifikuje **mezery** v specifikaci, kde mohou útoky proklouznout |
-| **Red Team** | Adversarial simulation | Implementuje konkrétní EA-techniky proti systému |
-| **Blue Team** | Epistemic defense | Udržuje obrany, syntetizuje signály pod NABLA constraints |
-| **Purple Team** | Synthesis & closure | Mapuje Red findings na Blue defenses, certifikuje closure |
-| **White Team** | Constructive verification | Formálně verifikuje (Lean4) defenzivní invariantní vlastnosti |
-| **Black Team** | Theoretical threat modeling | Modeluje teoretické worst-case útoky, včetně dosud nepozorovaných |
+| **[Gray Team](@/glossary/gray-team.md)** | Boundary exploration | Identifikuje **mezery** v specifikaci, kde mohou útoky proklouznout |
+| **[Red Team](@/glossary/red-team.md)** | Adversarial simulation | Implementuje konkrétní EA-techniky proti systému |
+| **[Blue Team](@/glossary/blue-team.md)** | Epistemic defense | Udržuje obrany, syntetizuje signály pod NABLA constraints |
+| **[Purple Team](@/glossary/purple-team.md)** | Synthesis & closure | Mapuje Red findings na Blue defenses, certifikuje closure |
+| **[White Team](@/glossary/white-team.md)** | Constructive verification | Formálně verifikuje (Lean4) defenzivní invariantní vlastnosti |
+| **[Black Team](@/glossary/black-team.md)** | Theoretical threat modeling | Modeluje teoretické worst-case útoky, včetně dosud nepozorovaných |
 
 ### Red Team útočné primitives
 
@@ -140,7 +140,7 @@ Tato sedmivrstvá architektura představuje **strukturní operační doktrínu**
 ## Reálné případy použití
 
 ### Case 1: Beneficial Ownership Analysis
-Subjekt due-diligence analýzy systematicky maskuje vlastnickou strukturu skrze nominee shareholders, offshore vrstvy a komplexní sub-entitní vztahy (EA-1.2.3 Iluzorní komplexita). Decision Engine reaguje:
+Subjekt due-diligence analýzy systematicky maskuje vlastnickou strukturu skrze nominee shareholders, offshore vrstvy a komplexní sub-entitní vztahy ([EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) Iluzorní komplexita). Decision Engine reaguje:
 
 - Source diversity check identifikuje, že „nezávislé“ zdroje (corporate registries, news, sanctions lists) sdílí společné chybějící informace
 - Pattern Detection (L5) identifikuje strukturní podpis komplexitního maskingu
@@ -156,7 +156,7 @@ Adresát se snaží evadovat sankce skrze rebranding, intermediate entities a fa
 - Confidence calibration explicitně reflektuje vysokou epistemickou nejistotu
 
 ### Case 3: Information Operations Detection
-Mediální landscape obsahuje koordinovanou disinformační kampaň využívající techniky EA-1.1.1 (selektivní expozice) + EA-1.2.2 (falešná ekvivalence) + EA-1.4.x (emocionální modulace). Decision Engine reaguje:
+Mediální landscape obsahuje koordinovanou disinformační kampaň využívající techniky EA-1.1.1 (selektivní expozice) + [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) (falešná ekvivalence) + EA-1.4.x (emocionální modulace). Decision Engine reaguje:
 
 - Source independence verification odhaluje koordinovaný origin
 - Pattern Detection identifikuje signature koordinované kampaně

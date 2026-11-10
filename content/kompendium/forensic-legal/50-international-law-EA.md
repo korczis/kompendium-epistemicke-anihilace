@@ -62,7 +62,7 @@ rozlišovat fakta od fikce. Mezinárodní normy chrání před těmito praktikam
 - **Svoboda myšlení** je absolutní, ale její obsah – co znamená zásah do *forum internum* –
   je málo rozpracovaný.
 - **Soukromí pachatelé** – stát odpovídá jen tehdy, když nesplnil povinnost chránit.
-- **Digitální a informační operace** – nové formy ovlivňování, na které tradiční normy
+- **Digitální a [informační operace](@/glossary/info-ops.md)** – nové formy ovlivňování, na které tradiční normy
   reagují pomalu.
 
 ## Klíčové principy

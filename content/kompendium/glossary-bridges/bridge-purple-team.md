@@ -30,7 +30,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 04 — Bezpečnostní architektura**: vztah k red, blue, white teamům
 - **Per-technique: Purple Engagement**: operativní rytmus a meeting cadence
-- **Sekce 06 — Detekční rozvoj**: převod red team TTPs do detekčních pravidel
+- **Sekce 06 — Detekční rozvoj**: převod [red team](@/glossary/red-team.md) TTPs do detekčních pravidel
 - **Sekce 08 — Metriky**: MTTD, MTTR, coverage skóre
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
@@ -45,7 +45,7 @@ Každý z těchto výskytů přidává specifickou perspektivu — operativní p
 
 ## Bezpečnostní implikace
 
-Hodnota purple teamu spočívá v institucionalizaci učení — bez purple iterace zůstává red team izolovaným pentestem, jehož závěry blue team nemůže absorbovat dostatečně rychle. Continuous purple engagement převádí adversariální tlak na trvalé zlepšování obrany místo cyklu audit → ignorace → další audit.
+Hodnota purple teamu spočívá v institucionalizaci učení — bez purple iterace zůstává red team izolovaným pentestem, jehož závěry [blue team](@/glossary/blue-team.md) nemůže absorbovat dostatečně rychle. Continuous purple engagement převádí adversariální tlak na trvalé zlepšování obrany místo cyklu audit → ignorace → další audit.
 
 ## Cross-linky
 

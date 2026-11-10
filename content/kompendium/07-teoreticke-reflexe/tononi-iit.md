@@ -19,7 +19,7 @@ toc = true
 
 Giulio Tononi — italský neurovědec — formuluje v eseji *An Information Integration Theory of Consciousness* (2004) a v knihách *Phi: A Voyage from the Brain to the Soul* (2012) a *The Feeling of Life Itself* (2018, s Christofem Kochem) **Integrated Information Theory** (IIT) — kvantitativní teorii vědomí.
 
-Pro kompendium EA poskytuje IIT specifický nástroj pro pochopení **strukturálních předpokladů** vědomí a **algoritmických mezí**, jež EA techniky strukturálně modulují.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje IIT specifický nástroj pro pochopení **strukturálních předpokladů** vědomí a **algoritmických mezí**, jež EA techniky strukturálně modulují.
 
 ## 1. Pět fenomenálních axiomů
 
@@ -36,7 +36,7 @@ Tyto axiomy jsou **fenomenologickými** výchozími body, z nichž IIT odvozuje 
 Pro EA z toho plyne:
 
 - **Útok na axiomatickou strukturu vědomí**: techniky, jež **rozkládají** některý z pěti axiomů, strukturálně anihilují vědomí.
-- **Klinický mapping**: dissociace narušuje **integraci**, fragmentace narušuje **kompozici**, gaslighting narušuje **informaci**.
+- **Klinický mapping**: dissociace narušuje **integraci**, fragmentace narušuje **kompozici**, [gaslighting](@/glossary/gaslighting.md) narušuje **informaci**.
 
 ## 2. Phi (Φ) — míra integrované informace
 
@@ -86,7 +86,7 @@ Pro Prismatic platformu má IIT **strukturální** relevanci:
 
 - **NABLA Infinity** ([viz Glosář](@/glossary/nabla-infinity.md)) operuje strukturálně skrze **integraci** — pojem strukturálně rezonuje s IIT.
 - **3NL architektura** (L1/L2/L3): strukturálně podobá vrstvené integraci.
-- **Color Teams**: paralelní vrstvy, jejichž **integrace** může být strukturálně modelována jako Φ.
+- **[Color Teams](@/glossary/color-teams.md)**: paralelní vrstvy, jejichž **integrace** může být strukturálně modelována jako Φ.
 
 ## 6. Mapping na EA techniky
 

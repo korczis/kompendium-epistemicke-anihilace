@@ -22,7 +22,7 @@ toc = false
 
 ## Mechanismus
 
-Aplikace techniky Sealioning ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Aplikace techniky [Sealioning](@/glossary/sealioning.md) ve specifickém kontextu vedoucí k delegitimizaci cíle.
 
 ## Indikatory
 

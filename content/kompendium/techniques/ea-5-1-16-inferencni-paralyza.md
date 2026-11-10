@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.16 Inferenční paralýza"
-description = "Detailní per-technique článek: technika inferenční paralýzy — indukovaná neschopnost provádět inferenční kroky vůbec, a to i z validních premis, kvůli systematickému zpochybňování každého inferenčního pravidla. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika inferenční paralýzy — indukovaná neschopnost provádět inferenční kroky vůbec, a to i z validních premis."
 weight = 516
 insert_anchor_links = "right"
 
@@ -106,7 +106,7 @@ Inferenční paralýza je odlišitelná od **legitimní filozofické skepse**:
 
 | Kontext | Manifestace |
 |---------|-------------|
-| **PhD ve filozofii vědy** | Studenti přebírají Humeovský skepticismus jako trvalý postoj a ztrácejí schopnost vyvozovat |
+| **PhD ve filozofii vědy** | Studenti přebírají Humeovský [skepticismus](@/glossary/skepticismus.md) jako trvalý postoj a ztrácejí schopnost vyvozovat |
 | **Klinická diagnostika** | Lékař se "boji uzavřít" diagnózu, protože "induktivní inference není jistá" |
 | **Soudcovská praxe** | Soudce nedokáže vynést rozsudek, protože každá inference z důkazů je "potenciálně chybná" |
 | **Strategické rozhodování** | Manažer odkládá rozhodnutí donekonečna |
@@ -150,7 +150,7 @@ Studuj **Filozofická zkoumání** (§§185-242) o pravidlech: pravidla nejsou i
 
 ### Případ 1 — Klinik s post-Humeovským zhroucením
 
-Internista po PhD v epistemologii medicíny začal odkládat diferenciální diagnostiku. Každý úsudek „tento pacient pravděpodobně má X“ byl blokován otázkou „ale jak ospravedlním induktivní generalizaci ze studií na jednotlivý případ?“. Po 6 měsících práce s mentorem v evidence-based medicine se obnovila operační rychlost.
+Internista po PhD v epistemologii medicíny začal odkládat diferenciální diagnostiku. Každý úsudek „tento pacient pravděpodobně má X“ byl blokován otázkou „ale jak ospravedlním induktivní generalizaci ze studií na jednotlivý případ?“. Po 6 měsících práce s mentorem v [evidence-based](@/glossary/evidence-based.md) medicine se obnovila operační rychlost.
 
 ### Případ 2 — PhD kandidát ve filozofii
 

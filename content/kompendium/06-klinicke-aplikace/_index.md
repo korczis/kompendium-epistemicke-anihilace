@@ -1,6 +1,6 @@
 +++
 title = "06. Klinické aplikace a diagnostika"
-description = "Praktické využití taxonomie epistemické anihilace v klinické praxi — diagnostické markery, diferenciální diagnostika, terapeutické přístupy, protokoly epistemické rekonstrukce a práce s vulnerabilní populací."
+description = "Praktické využití taxonomie epistemické anihilace v klinické praxi — diagnostické markery, diferenciální diagnostika, terapeutické přístupy."
 weight = 6
 sort_by = "weight"
 template = "kompendium/section.html"
@@ -20,7 +20,7 @@ status = "in-progress"
 
 Tato sekce přechází z **deskriptivního** do **aplikačního** režimu. Zatímco sekce [03 (Základní kategorie)](@/kompendium/03-zakladni-kategorie/_index.md) a [04 (Terminální protokoly)](@/kompendium/04-terminalni-protokoly/_index.md) popisují **co** se děje v procesech epistemické a kognitivní anihilace, sekce 06 odpovídá na otázku **jak rozpoznat, jak intervenovat a jak rekonstruovat** poškozené epistemické struktury u pacientů, klientů a celých vulnerabilních populací.
 
-> **Poznámka k epistemickému statusu**: Klinická aplikace taxonomie [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je **mladá disciplína** v procesu konsolidace. Většina protokolů popsaných v této sekci představuje **integraci** existujících evidence-based postupů (trauma-focused CBT, EMDR, narrativní terapie, rekonstrukce kognitivní mapy) s **novou diagnostickou optikou** zaměřenou na metakognitivní, hermeneutické a ontologické komponenty utrpení. Tam, kde je dostupná empirická evidence, je explicitně citována. Tam, kde jde o klinicky odůvodněné rozšíření, je tento status uveden.
+> **Poznámka k epistemickému statusu**: Klinická aplikace taxonomie [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je **mladá disciplína** v procesu konsolidace. Většina protokolů popsaných v této sekci představuje **integraci** existujících [evidence-based](@/glossary/evidence-based.md) postupů (trauma-focused CBT, EMDR, narrativní terapie, rekonstrukce kognitivní mapy) s **novou diagnostickou optikou** zaměřenou na metakognitivní, hermeneutické a ontologické komponenty utrpení. Tam, kde je dostupná empirická evidence, je explicitně citována. Tam, kde jde o klinicky odůvodněné rozšíření, je tento status uveden.
 
 ## Účel sekce
 
@@ -53,7 +53,7 @@ Sekce 06 zavádí klinický koncept [**epistemického traumatu**](@/glossary/epi
 Klinický pracovník pracující s tímto kompendiem získává sadu **diferenciačních otázek**, které doplňují standardní psychiatrický rozhovor:
 
 - Cíl útoku: byly poškozeny **procesy poznávání** (strukturální EA), nebo specifická **přesvědčení** (obsahová EA)?
-- Časový průběh: šlo o **akutní epizodu** (např. krátký gaslighting) nebo **chronickou expozici** (kult, dlouhodobé partnerské násilí)?
+- Časový průběh: šlo o **akutní epizodu** (např. krátký [gaslighting](@/glossary/gaslighting.md)) nebo **chronickou expozici** (kult, dlouhodobé partnerské násilí)?
 - Vědomí útoku: byl pacient útoku **vědomě vystaven** (ideologická indoktrinace) nebo **implicitně** (akademická manipulace, mediální gaslighting)?
 - Reverzibilita: jsou poškozené struktury **rekonstruovatelné**, nebo došlo k [ontologické anihilaci](@/glossary/ontologicka-anihilace.md)?
 
@@ -100,7 +100,7 @@ Aplikace kompendia v klinické praxi se řídí **rozšířenou interpretací** 
 | Princip | Klinická specifikace |
 |---------|---------------------|
 | **Primum non nocere** | Diagnostická kategorizace nesmí sama o sobě reinscenovat manipulaci. Diagnóza je nástroj, nikoli identita. |
-| **Informovaný souhlas** | Pacient má právo znát teoretický rámec, v němž je jeho utrpení interpretováno. |
+| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Pacient má právo znát teoretický rámec, v němž je jeho utrpení interpretováno. |
 | **Epistemická autonomie** | Cílem terapie **není převod** pacienta z jedné mistrovské narativy do druhé, nýbrž **obnova jeho schopnosti** vlastní narativy. |
 | **Transparentní limitace** | Klinik explicitně sděluje, kdy operuje na hraně empirické evidence a kdy aplikuje klinicky odůvodněnou inovaci. |
 

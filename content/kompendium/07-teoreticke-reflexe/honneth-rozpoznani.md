@@ -19,7 +19,7 @@ toc = true
 
 Axel Honneth — třetí generace Frankfurtské školy — formuluje v *Kampf um Anerkennung* (1992) **teorii rozpoznání** (*Anerkennung*) jako **fundamentální antropologickou** a **socio-politickou** kategorii. Lidský subjekt se konstituuje **skrze** rozpoznání ze strany druhých — selhání rozpoznání (*Mißachtung*, „neuznání“) je strukturálně **anihilační** zkušeností.
 
-Pro kompendium EA poskytuje Honnethová teorie rámec pro pochopení **sociálně-epistemických škod**, jež manipulativní techniky způsobují prostřednictvím **strukturálního odepření uznání**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Honnethová teorie rámec pro pochopení **sociálně-epistemických škod**, jež manipulativní techniky způsobují prostřednictvím **strukturálního odepření uznání**.
 
 ## 1. Tři sféry rozpoznání
 

@@ -54,7 +54,7 @@ Appelbaum & Grisso (1995, 2001), N=498 napříč diagnózami. Inter-rater reliab
 
 ## Vztah k jiným zdrojům
 
-Doplňkový k **EA-8.2.6 ICD-11 Complex Trauma** (post-trauma capacity issues). Vstupní nástroj pro forenzní techniky **EA-6.4.x specializovaných populací**.
+Doplňkový k **[EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) ICD-11 [Complex Trauma](@/glossary/complex-trauma.md)** (post-trauma capacity issues). Vstupní nástroj pro forenzní techniky **EA-6.4.x specializovaných populací**.
 
 ## Cross-linky
 

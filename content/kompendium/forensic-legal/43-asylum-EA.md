@@ -18,7 +18,7 @@ toc = true
 Kapitola z [části o specializovaných oblastech práva](@/kompendium/forensic-legal/_index.md)
 se zabývá řízením o mezinárodní ochraně. Žadatelé často prošli zkušenostmi, které jsou
 epistemickým zneužíváním v nejzávažnější podobě: výslechy zaměřené na zlomení vůle, nucená
-přiznání, převýchovné tábory, propaganda, která přepisovala jejich minulost. Rozhodnutí
+přiznání, převýchovné tábory, [propaganda](@/glossary/propaganda.md), která přepisovala jejich minulost. Rozhodnutí
 přitom stojí převážně na jejich výpovědi. Kapitola je určena rozhodovacím úředníkům,
 soudcům, advokátům, tlumočníkům, lékařům a psychologům pracujícím s žadateli.
 
@@ -42,7 +42,7 @@ konzistenci mezi výpověďmi, soulad s informacemi o zemi původu –, která j
 systematicky oslabena:
 
 - **Fragmentovaná paměť** po mučení a dlouhodobém stresu; neschopnost datovat události.
-- **Disociace a otupění** – výpověď o mučení bez emocí působí na rozhodovatele nevěrohodně
+- **[Disociace](@/glossary/disociace.md) a otupění** – výpověď o mučení bez emocí působí na rozhodovatele nevěrohodně
   (viz [Disociace ve forenzní praxi](@/kompendium/forensic-legal/3-dissociation-forensic.md)).
 - **Přepsaná biografie.** Osoby z prostředí intenzivní ideologické převýchovy mohou mít
   nejistotu o vlastních vzpomínkách, protože jim byla opakovaně vnucována jiná verze.

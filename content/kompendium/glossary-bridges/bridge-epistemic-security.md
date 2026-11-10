@@ -33,7 +33,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 04 — Threat landscape evolution**: od malware k cognitive attacks
-- **Sekce 05 — Defenzivní techniky**: media literacy, source validation, deepfake detection
+- **Sekce 05 — Defenzivní techniky**: media literacy, source validation, [deepfake](@/glossary/deepfake.md) detection
 - **Sekce 06 — Aplikace v DD**: epistemic security audit jako governance check
 - **Sekce 07 — Etické dilema**: epistemic security vs. paternalismus
 - **Per-technique články**: epistemic threat models, response playbooks

@@ -5,6 +5,9 @@ description = "Církev sjednocení San Mjong Muna: hromadné svatby, klamavý n�
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

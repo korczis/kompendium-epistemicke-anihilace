@@ -5,6 +5,9 @@ description = "Falun Gong mezi uzavřenou naukou a státním pronásledováním:
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"
@@ -135,7 +138,7 @@ legitimitu víry. Srov. [politická instrumentalizace](@/kompendium/critical-per
 - Tong, J. W. 2009. *Revenge of the Forbidden City: The Suppression of the Falungong in
   China, 1999–2005*.
 - Penny, B. 2012. *The Religion of Falun Gong*.
-- Lifton, R. J. 1961. *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. 1961. *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 
 ## Související
 

@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Delegitimizace je společensko-politický proces systematického zbavování subjektu (osoby, instituce, idea) nároku na uznanou autoritu, věrohodnost nebo morální status. Operuje skrze diskurzivní strategie (delegitimizing labels, reductio ad absurdum, ad hominem) i strukturální mechanismy (deplatforming, blacklisting, sociální exkomunikace).
+Delegitimizace je společensko-politický proces systematického zbavování subjektu (osoby, instituce, idea) nároku na uznanou autoritu, věrohodnost nebo morální status. Operuje skrze diskurzivní strategie (delegitimizing labels, reductio ad absurdum, ad hominem) i strukturální mechanismy ([deplatforming](@/glossary/deplatforming.md), blacklisting, sociální exkomunikace).
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -34,7 +34,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 07 — Diskurzivní mechanismy**: delegitimizace v politickém diskurzu
 - **Sekce 08 — Online dynamika**: deplatforming, cancel culture, mob rule
-- **Sekce 09 — Aplikace v due diligence**: rozpoznání delegitimizing kampaní proti whistleblowerům
+- **Sekce 09 — Aplikace v [due diligence](@/glossary/due-diligence.md)**: rozpoznání delegitimizing kampaní proti whistleblowerům
 - **Sekce 10 — Filosofie uznání**: Honneth, Fraser, struggle for recognition
 - **Per-technique články**: diskurzivní markéry, longitudinální tracking
 
@@ -47,7 +47,7 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
 | nástroje | Smear campaigns, deplatforming | tactics |
-| souvisí | Epistemická injustice, DARVO | kognitivní napadení |
+| souvisí | [Epistemická injustice](@/glossary/epistemicka-injustice.md), DARVO | kognitivní napadení |
 | kontrastuje | Konstruktivní kritika | polarita |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.

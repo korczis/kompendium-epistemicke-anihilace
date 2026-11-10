@@ -1,10 +1,10 @@
 +++
 title = "Censys"
 weight = 9
-description = "Internet-wide scan data platform providing comprehensive visibility into hosts, certificates, and services across the public internet."
+description = "Platforma dat z celointernetových skenů, která mapuje hostitele, certifikáty a služby veřejného internetu; na Prismatic Platform nezávislý druhý zdroj vedle Shodanu."
 
 [taxonomies]
-tags = ["glossary", "security", "censys", "prismatic"]
+tags = ["glossary", "security", "censys", "prismatic", "osint"]
 
 [extra]
 category = "security"
@@ -27,37 +27,58 @@ prismatic_module = "PrismaticPerimeter.Sources.Censys"
 query_language = "Censys Search Language"
 refresh_rate = "Regular full-internet scans"
 author = "Tomas Korcak (korczis)"
-reading_time = "9 min"
-word_count = 1769
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["Censys", "Internet-wide", "glossary", "security", "Prismatic Platform", "ZMap"]
 quality_score = 90
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Censys - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-Censys is a security intelligence platform that performs continuous internet-wide scans, cataloging hosts, services, certificates, and software across the public internet. Founded in 2013 by Zakir Durumeric, David Adrian, and J. Alex Halderman at the University of Michigan, Censys emerged from academic research on internet-wide network scanning and built upon the ZMap scanner -- a tool capable of scanning the entire IPv4 address space in under 45 minutes. This academic pedigree distinguishes Censys from commercial-first alternatives, bringing rigorous methodology and reproducible scanning practices to the security intelligence domain.
+**Censys** je platforma bezpečnostního zpravodajství, která provádí průběžné skenování celého
+internetu a katalogizuje hostitele, služby, certifikáty a software veřejného internetu.
+Vzešla z akademického výzkumu celointernetového síťového skenování na Michiganské
+univerzitě (Zakir Durumeric, J. Alex Halderman a spolupracovníci): v roce 2013 tam vznikl
+skener ZMap, který dokáže projít celý adresní prostor IPv4 za méně než 45 minut, a v roce
+2015 byl představen vyhledávač Censys postavený na jeho datech. Akademický původ odlišuje
+Censys od alternativ s primárně komerčním zaměřením a přináší do bezpečnostního zpravodajství
+přísnou metodiku a reprodukovatelné postupy skenování.
 
-Censys differentiates itself through its deep focus on TLS/SSL certificate transparency, its structured and strongly-typed data model, and its comprehensive coverage of the X.509 certificate ecosystem. While [Shodan](@/glossary/shodan.md) excels at service and device discovery through banner grabbing, Censys provides superior visibility into the certificate landscape -- tracking certificate issuance, expiration, chain validity, and compliance with certificate transparency (CT) requirements. This complementary focus makes Censys an essential corroborating data source for multi-signal security assessments.
+Censys se odlišuje hlubokým zaměřením na transparentnost certifikátů TLS/SSL, strukturovaným
+a silně typovaným datovým modelem a komplexním pokrytím ekosystému certifikátů X.509.
+Zatímco [Shodan](@/glossary/shodan.md) vyniká v objevování služeb a zařízení sběrem bannerů,
+Censys poskytuje lepší přehled o certifikátech – sleduje jejich vydávání, expiraci, platnost
+řetězců a soulad s požadavky Certificate Transparency (CT). Díky tomuto doplňkovému zaměření
+je Censys nezbytným potvrzujícím zdrojem pro bezpečnostní hodnocení postavená na více
+signálech.
 
-The platform offers both a web interface for interactive exploration and a RESTful API for programmatic integration. Censys continuously refreshes its dataset through regular full-internet scans, maintaining a historical record of how the internet's infrastructure evolves over time. This longitudinal data enables trend analysis, tracking how an organization's [attack surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) changes across weeks, months, and years.
+Platforma nabízí webové rozhraní pro interaktivní průzkum i REST API pro programovou
+integraci. Data průběžně obnovuje pravidelnými skeny celého internetu a uchovává historický
+záznam vývoje internetové infrastruktury. Tato longitudinální data umožňují analýzu trendů
+– jak se útočná plocha organizace mění v týdnech, měsících a letech.
 
-## Scanning Methodology
+**Vztah ke knize:** Censys patří do kontextu platformy, z níž Kompendium vzešlo
+(bezpečnostní modul Prismatic Perimeter, viz [EASM](@/glossary/easm.md)). Pro knihu je
+poučný princip, jímž se jeho data na platformě používají: žádné tvrzení se neopírá o jediný
+zdroj a nezávislé zdroje se navzájem potvrzují nebo vyvracejí (viz [Signal
+Plurality](@/glossary/signal-plurality.md) a [Triangulace
+zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)). Ověřování zdrojů OSINT
+s ohledem na manipulaci popisuje stránka [OSINT: validace
+zdrojů](@/kompendium/aiad-integration/osint-ea-source-validation.md).
 
-Censys's scanning infrastructure is built on ZMap and ZGrab, providing a two-phase approach to internet-wide data collection:
+## Metodika skenování
 
-| Phase | Tool | Purpose | Performance |
+Skenovací infrastruktura Censys stojí na nástrojích ZMap a ZGrab a sbírá data ve dvou fázích:
+
+| Fáze | Nástroj | Účel | Výkon |
 |-------|------|---------|-------------|
-| **Host Discovery** | ZMap | SYN scan across all IPv4 on target ports | Full IPv4 in < 45 minutes |
-| **Service Probing** | ZGrab2 | Application-layer handshake and data collection | Protocol-specific deep inspection |
-| **Certificate Collection** | CT Log Monitors | Certificate Transparency log aggregation | Continuous, near-real-time |
-| **Data Enrichment** | Censys Pipeline | ASN, geolocation, WHOIS, reverse DNS | Automated post-processing |
+| **objevení hostitelů** | ZMap | SYN sken celého IPv4 na cílových portech | celé IPv4 za < 45 minut |
+| **sondování služeb** | ZGrab2 | handshake na aplikační vrstvě a sběr dat | hloubková kontrola podle protokolu |
+| **sběr certifikátů** | monitory logů CT | agregace logů Certificate Transparency | průběžně, téměř v reálném čase |
+| **obohacení dat** | proces Censys | ASN, geolokace, WHOIS, reverzní DNS | automatické dodatečné zpracování |
 
-The two-phase approach first identifies live hosts through rapid TCP SYN scanning (ZMap), then performs detailed application-layer probes (ZGrab2) to collect service banners, TLS certificates, HTTP headers, and protocol-specific metadata. This separation allows Censys to scan efficiently without sacrificing depth of inspection.
+Dvoufázový přístup nejprve rychlým skenováním TCP SYN (ZMap) najde živé hostitele a pak
+podrobnými sondami na aplikační vrstvě (ZGrab2) sbírá bannery služeb, certifikáty TLS,
+hlavičky HTTP a metadata specifická pro protokol. Oddělení fází umožňuje skenovat efektivně
+bez ztráty hloubky.
 
 ```
 ZMap (SYN scan)  -->  Responsive IPs  -->  ZGrab2 (service probes)
@@ -71,38 +92,49 @@ ZMap (SYN scan)  -->  Responsive IPs  -->  ZGrab2 (service probes)
                                                   |
                                          Censys Search Index
 ```
+### Architektura ZMap
 
-### ZMap Architecture
+ZMap dosahuje své rychlosti několika volbami návrhu, které se zásadně liší od tradičních
+skenerů portů jako Nmap. Místo tabulky stavů otevřených spojení (která by v internetovém
+měřítku spotřebovala gigabajty paměti) používá bezstavové skenování založené na cyklických
+multiplikativních grupách. Každý sondovací paket nese svou identitu v polích IP ID
+a sekvenčního čísla TCP, takže ZMap dokáže přiřadit odpovědi bez stavu pro každé spojení.
+Díky tomuto matematickému přístupu je spotřeba paměti stálá bez ohledu na počet
+skenovaných hostitelů.
 
-ZMap achieves its remarkable scanning speed through several design choices that differ fundamentally from traditional port scanners like Nmap. Rather than maintaining a state table of outstanding connections (which would consume gigabytes of memory at internet scale), ZMap uses a stateless scanning approach based on cyclic multiplicative groups. Each probe packet encodes its identity in the IP ID and TCP sequence number fields, allowing ZMap to correlate responses without maintaining per-connection state. This mathematical approach means ZMap's memory usage is constant regardless of the number of hosts being scanned.
+Skenovací proces běží ve třech souběžných fázích: generování paketů, které prochází adresní
+prostor v pseudonáhodném pořadí (aby byl provoz rovnoměrně rozložen mezi sítě), odesílání
+surových paketů SYN rychlostí linky a sběr odpovědí SYN-ACK. Pseudonáhodné pořadí je
+podstatné, aby se provoz nesoustředil na jedinou síť, což by spustilo omezení četnosti nebo
+výstrahy systémů detekce průniku.
 
-The scanning pipeline operates in three concurrent stages: a packet generation stage that iterates through the IP address space in a pseudo-random order (ensuring even distribution across networks), a raw packet transmission stage that sends SYN packets at line rate, and a response collection stage that processes SYN-ACK responses. The pseudo-random iteration order is critical for avoiding concentrating scan traffic on any single network, which would trigger rate limiting or IDS alerts.
+### Sondování služeb ZGrab2
 
-### ZGrab2 Service Probing
+ZGrab2 rozšiřuje objevování hostitelů o analýzu protokolů aplikační vrstvy. U každého
+odpovídajícího hostitele zahájí úplný handshake protokolu a získá podrobné informace
+o službě:
 
-ZGrab2 extends ZMap's host discovery with application-layer protocol analysis. For each responsive host, ZGrab2 initiates full protocol handshakes to extract detailed service information:
-
-| Protocol | Data Collected | Security Relevance |
+| Protokol | Sbíraná data | Bezpečnostní význam |
 |----------|---------------|-------------------|
-| **HTTPS** | TLS version, cipher suites, certificate chain, HTTP headers | Encryption strength, certificate validity |
-| **HTTP** | Response headers, server software, redirect chains | Software versions, misconfiguration |
-| **SSH** | Key exchange algorithms, host key fingerprint | Weak algorithms, key reuse |
-| **SMTP** | Banner, STARTTLS support, authentication methods | Email security posture |
-| **FTP** | Banner, anonymous access, TLS support | Sensitive file exposure |
-| **DNS** | Recursive resolution, zone transfer, DNSSEC | DNS infrastructure assessment |
-| **RDP** | Security negotiation, NLA support | Remote access exposure |
+| **HTTPS** | verze TLS, šifrovací sady, řetězec certifikátů, hlavičky HTTP | síla šifrování, platnost certifikátů |
+| **HTTP** | hlavičky odpovědi, serverový software, řetězce přesměrování | verze softwaru, chybná konfigurace |
+| **SSH** | algoritmy výměny klíčů, otisk klíče hostitele | slabé algoritmy, opakované použití klíčů |
+| **SMTP** | banner, podpora STARTTLS, metody autentizace | bezpečnostní stav e-mailu |
+| **FTP** | banner, anonymní přístup, podpora TLS | vystavení citlivých souborů |
+| **DNS** | rekurzivní překlad, přenos zóny, DNSSEC | posouzení infrastruktury DNS |
+| **RDP** | vyjednání zabezpečení, podpora NLA | vystavení vzdáleného přístupu |
 
-## Data Model
+## Datový model
 
-Censys provides a well-structured data model organized around three primary entities:
+Censys poskytuje dobře strukturovaný datový model uspořádaný kolem tří hlavních entit:
 
-| Entity | Description | Key Fields |
+| Entita | Popis | Klíčová pole |
 |--------|-------------|------------|
-| **Hosts** | Individual IP addresses with all observed services | IP, ports, services, autonomous_system, location, operating_system |
-| **Services** | Port-level service instances on a host | port, transport_protocol, service_name, banner, software, tls |
-| **Certificates** | X.509 certificates observed in the wild | fingerprint, subject, issuer, validity, key_algorithm, ct_logs |
+| **Hosts** | jednotlivé IP adresy se všemi pozorovanými službami | IP, porty, služby, autonomous_system, poloha, operační systém |
+| **Services** | instance služby na portu hostitele | port, transportní protokol, název služby, banner, software, tls |
+| **Certificates** | certifikáty X.509 pozorované v provozu | otisk, subjekt, vydavatel, platnost, algoritmus klíče, logy CT |
 
-### Host Data Structure
+### Struktura dat hostitele
 
 ```json
 {
@@ -139,33 +171,46 @@ Censys provides a well-structured data model organized around three primary enti
   }
 }
 ```
+### Identifikace služeb
 
-### Service Fingerprinting
+Censys používá propracovanou identifikaci služeb (*fingerprinting*), která přesahuje prosté
+porovnání bannerů. Analyzuje více signálů: hlavičky HTTP (Server, X-Powered-By,
+X-AspNet-Version), zvláštnosti implementace TLS (pořadí šifrovacích sad, podpora rozšíření),
+chování specifické pro protokol (preference algoritmů výměny klíčů SSH) a otisky JARM
+(aktivní identifikace serverů TLS). Přístup s více signály dosahuje vyšší přesnosti než
+kterákoli jednotlivá metoda.
 
-Censys applies sophisticated service fingerprinting to identify the software running on each service, going beyond simple banner matching. The fingerprinting engine analyzes multiple signals including HTTP response headers (Server, X-Powered-By, X-AspNet-Version), TLS implementation quirks (cipher suite ordering, extension support), protocol-specific behaviors (SSH key exchange algorithm preferences), and JARM fingerprints (active TLS server fingerprinting). This multi-signal approach achieves higher accuracy than any single identification method.
+## Integrace Certificate Transparency
 
-## Certificate Transparency Integration
+Censys má jednu z nejúplnějších datových sad Certificate Transparency a agreguje certifikáty
+ze všech hlavních logů CT. Pro bezpečnostní sledování je to zásadní:
 
-Censys has one of the most comprehensive Certificate Transparency (CT) datasets, aggregating certificates from all major CT logs. This is critical for security monitoring:
-
-| CT Capability | Description | Security Value |
+| Schopnost CT | Popis | Bezpečnostní hodnota |
 |--------------|-------------|----------------|
-| **Certificate inventory** | All certificates issued for a domain | Detect unauthorized certificate issuance |
-| **Pre-certificate monitoring** | Certificates logged before issuance | Early warning of suspicious certificate requests |
-| **Issuer analysis** | Track which CAs issue certificates for a domain | Detect CA compromise or policy violations |
-| **Expiration tracking** | Monitor certificate lifetimes | Prevent service outages from expired certificates |
-| **SAN enumeration** | Extract Subject Alternative Names | Discover subdomains and related infrastructure |
-| **Historical certificates** | Archived expired and revoked certificates | Investigate past infrastructure configurations |
+| **soupis certifikátů** | všechny certifikáty vydané pro doménu | odhalení neoprávněného vydání certifikátu |
+| **sledování předcertifikátů** | certifikáty zalogované před vydáním | včasné varování před podezřelými žádostmi |
+| **analýza vydavatelů** | které certifikační autority vydávají pro doménu | odhalení kompromitace CA nebo porušení pravidel |
+| **sledování expirace** | sledování platnosti certifikátů | prevence výpadků z prošlých certifikátů |
+| **výčet SAN** | získání alternativních jmen subjektu | objevení subdomén a související infrastruktury |
+| **historické certifikáty** | archiv prošlých a odvolaných certifikátů | šetření dřívějších konfigurací infrastruktury |
 
-Certificate transparency data is particularly valuable for [EASM](@/glossary/easm.md) because it reveals infrastructure that may not be discoverable through port scanning alone. A certificate issued for `internal-staging.example.com` reveals the existence of that subdomain even if the server is not currently accessible.
+Data CT jsou zvlášť cenná pro [EASM](@/glossary/easm.md), protože odhalují infrastrukturu,
+kterou samotné skenování portů nenajde. Certifikát vydaný pro `internal-staging.example.com`
+prozradí existenci této subdomény, i když server právě není dostupný.
 
-### CT Log Processing Pipeline
+### Proces zpracování logů CT
 
-Censys monitors all major Certificate Transparency logs in near-real-time, processing millions of certificates daily. The CT pipeline performs several enrichment steps on each certificate: extracting all Subject Alternative Names (SANs) to build a comprehensive domain-to-certificate mapping, computing certificate chain validity by walking the issuer chain to known root certificates, detecting wildcard certificates that may cover undiscovered subdomains, and identifying certificates with unusually long validity periods that may indicate misconfiguration or policy violations.
+Censys sleduje všechny hlavní logy Certificate Transparency téměř v reálném čase a denně
+zpracuje miliony certifikátů. U každého certifikátu provádí několik kroků obohacení:
+vytahuje všechna alternativní jména subjektu (SAN) a sestavuje úplné mapování domén na
+certifikáty, ověřuje platnost řetězce průchodem k známým kořenovým certifikátům, odhaluje
+wildcard certifikáty, které mohou pokrývat neobjevené subdomény, a hledá certifikáty
+s neobvykle dlouhou platností, které mohou ukazovat na chybnou konfiguraci nebo porušení
+pravidel.
 
-## API Integration
+## Integrace přes API
 
-Censys provides a RESTful Search API (v2) for programmatic access to its dataset:
+Censys poskytuje REST Search API (v2) pro programový přístup k datům:
 
 ```elixir
 # Censys API client for Prismatic EASM
@@ -260,20 +305,21 @@ defmodule PrismaticPerimeter.Sources.Censys do
   defp api_secret, do: Application.get_env(:prismatic_perimeter, :censys_api_secret)
 end
 ```
+## Vyhledávací jazyk Censys
 
-## Censys Search Language
+Censys nabízí strukturovaný dotazovací jazyk. Na rozdíl od jednoduché syntaxe filtrů
+klíč:hodnota u Shodanu podporuje logické operátory, přístup k vnořeným polím, zástupné znaky
+a rozsahy:
 
-Censys provides a structured query language for searching its dataset. Unlike Shodan's simple key:value filter syntax, the Censys Search Language supports boolean operators, nested field access, wildcards, and range queries:
-
-| Query Type | Syntax | Example |
+| Typ dotazu | Syntaxe | Příklad |
 |-----------|--------|---------|
-| **Exact match** | `field: "value"` | `services.http.response.headers.server: "nginx"` |
-| **Boolean AND** | `field1: val1 AND field2: val2` | `location.country_code: "CZ" AND services.port: 443` |
-| **Boolean OR** | `field1: val1 OR field2: val2` | `services.port: 80 OR services.port: 443` |
-| **Negation** | `NOT field: value` | `NOT services.tls.certificates.leaf_data.issuer.organization: "Let's Encrypt"` |
-| **Wildcard** | `field: value*` | `services.tls.certificates.leaf_data.names: *.example.com` |
-| **Range** | `field: [min TO max]` | `services.port: [8000 TO 9000]` |
-| **Existence** | `field: *` | `services.ssh: *` (hosts with SSH) |
+| **přesná shoda** | `field: "value"` | `services.http.response.headers.server: "nginx"` |
+| **logické AND** | `field1: val1 AND field2: val2` | `location.country_code: "CZ" AND services.port: 443` |
+| **logické OR** | `field1: val1 OR field2: val2` | `services.port: 80 OR services.port: 443` |
+| **negace** | `NOT field: value` | `NOT services.tls.certificates.leaf_data.issuer.organization: "Let's Encrypt"` |
+| **zástupný znak** | `field: value*` | `services.tls.certificates.leaf_data.names: *.example.com` |
+| **rozsah** | `field: [min TO max]` | `services.port: [8000 TO 9000]` |
+| **existence** | `field: *` | `services.ssh: *` (hostitelé se SSH) |
 
 ```elixir
 defmodule PrismaticPerimeter.Sources.Censys.QueryBuilder do
@@ -311,26 +357,32 @@ defmodule PrismaticPerimeter.Sources.Censys.QueryBuilder do
   end
 end
 ```
+## Kontext na Prismatic Platform
 
-## Context in Prismatic
+Censys slouží v modulu Prismatic Perimeter jako doplňkový zdroj dat vedle
+[Shodanu](@/glossary/shodan.md). Platforma se Censysu dotazuje na data certifikátů, služby
+hostitelů a údaje o autonomních systémech při objevování útočné plochy. Jak požaduje axiom
+[Signal Plurality](@/glossary/signal-plurality.md), zjištění z Censysu potvrzují nebo
+vyvracejí data ze Shodanu a poskytují nezávislý druhý signál potřebný pro spolehlivé
+bezpečnostní hodnocení.
 
-Censys serves as a complementary data source alongside [Shodan](@/glossary/shodan.md) in the Prismatic Perimeter module. The platform queries Censys for certificate data, host services, and autonomous system information during [attack surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) discovery. As required by the [Signal Plurality](@/glossary/signal-plurality.md) axiom, Censys findings corroborate or contradict Shodan data, providing the independent second signal needed for confident security assessments.
-
-The integration leverages Censys's specific strengths in the multi-source discovery pipeline:
-
-| Use Case | Censys Advantage | Pipeline Role |
+| Použití | Výhoda Censys | Role v procesu |
 |----------|-----------------|---------------|
-| **Certificate discovery** | Deep CT integration, comprehensive cert database | Primary source for certificate-based asset discovery |
-| **TLS assessment** | Detailed cipher suite and protocol analysis | Corroboration of Shodan TLS findings |
-| **Subdomain enumeration** | SAN field extraction from certificates | Complementary to DNS-based enumeration |
-| **Historical analysis** | Longitudinal data on host changes | [Time decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) calibration |
-| **ASN mapping** | Accurate autonomous system attribution | Organization boundary definition |
+| **objevování certifikátů** | hluboká integrace CT, úplná databáze certifikátů | hlavní zdroj pro objevování aktiv podle certifikátů |
+| **posouzení TLS** | podrobná analýza šifrovacích sad a protokolů | potvrzení zjištění TLS ze Shodanu |
+| **výčet subdomén** | získání polí SAN z certifikátů | doplněk k výčtu přes DNS |
+| **historická analýza** | longitudinální data o změnách hostitelů | kalibrace časového stárnutí |
+| **mapování ASN** | přesné přiřazení autonomního systému | vymezení hranice organizace |
 
-When Shodan and Censys agree on a finding (e.g., both detect an expired TLS certificate on the same host), the finding receives a high confidence score. When they disagree, the platform preserves both signals per the [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) axiom and flags the finding for analyst review.
+Shodnou-li se Shodan a Censys na zjištění (např. oba odhalí prošlý certifikát TLS na témže
+hostiteli), dostane zjištění vysoké skóre důvěry. Neshodnou-li se, platforma podle axiomu
+zachování rozporů (*Contradiction Preservation*) zachová oba signály a označí zjištění
+k přezkumu analytikem.
 
-## Multi-Source Correlation Pipeline
+## Proces korelace více zdrojů
 
-The Prismatic Platform uses Censys data as part of a multi-source correlation pipeline that synthesizes findings from multiple OSINT providers:
+Platforma používá data Censys v procesu korelace více zdrojů, který slučuje zjištění od více
+poskytovatelů OSINT:
 
 ```elixir
 defmodule PrismaticPerimeter.CorrelationPipeline do
@@ -381,34 +433,37 @@ defmodule PrismaticPerimeter.CorrelationPipeline do
   end
 end
 ```
+## Srovnání Censys a Shodanu
 
-## Censys vs. Shodan Comparison
-
-| Dimension | Censys | [Shodan](@/glossary/shodan.md) |
+| Hledisko | Censys | [Shodan](@/glossary/shodan.md) |
 |-----------|--------|--------|
-| **Origin** | Academic (University of Michigan) | Independent (John Matherly) |
-| **Scan engine** | ZMap + ZGrab2 (open source) | Proprietary crawlers |
-| **Certificate data** | Deep (CT log integration, full chain analysis) | Basic (certificate extraction only) |
-| **ICS/SCADA** | Moderate coverage | Extensive (Modbus, S7, BACnet, EtherNet/IP) |
-| **Data freshness** | Regular full-internet scans | Continuous crawling |
-| **Query language** | Censys Search Language (structured) | Filter-based (key:value) |
-| **Authentication** | API ID + Secret (HTTP Basic) | API key |
-| **Historical data** | Yes (paid tiers) | Yes (paid tiers) |
-| **Academic usage** | Free academic access program | Limited free tier |
-| **Prismatic role** | Certificate corroboration, TLS assessment | Primary service/device discovery |
-| **IPv6 support** | Growing coverage | Limited |
-| **Aggregate queries** | Built-in aggregation API | Manual post-processing |
+| **původ** | akademický (Michiganská univerzita) | nezávislý (John Matherly) |
+| **skenovací engine** | ZMap + ZGrab2 (open source) | proprietární crawlery |
+| **data certifikátů** | hluboká (integrace logů CT, analýza celého řetězce) | základní (jen získání certifikátu) |
+| **ICS/SCADA** | střední pokrytí | rozsáhlé (Modbus, S7, BACnet, EtherNet/IP) |
+| **aktuálnost dat** | pravidelné skeny celého internetu | průběžné procházení |
+| **dotazovací jazyk** | Censys Search Language (strukturovaný) | filtry (klíč:hodnota) |
+| **autentizace** | API ID + Secret (HTTP Basic) | klíč API |
+| **historická data** | ano (placené úrovně) | ano (placené úrovně) |
+| **akademické využití** | program bezplatného akademického přístupu | omezená bezplatná úroveň |
+| **role na platformě** | potvrzení certifikátů, posouzení TLS | hlavní objevování služeb a zařízení |
+| **podpora IPv6** | rostoucí pokrytí | omezená |
+| **agregační dotazy** | vestavěné agregační API | ruční dodatečné zpracování |
 
-## API Tiers and Rate Limits
+## Úrovně API a limity
 
-| Tier | Queries/Month | Results/Query | Features |
+Úrovně a limity odpovídají stavu v době zápisu a mohou se měnit:
+
+| Úroveň | Dotazů za měsíc | Výsledků na dotaz | Funkce |
 |------|--------------|---------------|----------|
-| **Community** | 250 | 100 | Basic search, limited API |
-| **Solo** | 25,000 | 1,000 | Full API, historical data |
-| **Teams** | 250,000 | 10,000 | Team access, advanced analytics |
-| **Enterprise** | Custom | Unlimited | Dedicated infrastructure, SLA |
+| **Community** | 250 | 100 | základní vyhledávání, omezené API |
+| **Solo** | 25 000 | 1 000 | plné API, historická data |
+| **Teams** | 250 000 | 10 000 | týmový přístup, pokročilá analytika |
+| **Enterprise** | individuálně | neomezeně | vyhrazená infrastruktura, SLA |
 
-The Prismatic Platform implements [rate limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) for Censys API calls using a sliding window algorithm calibrated to the subscription tier. Failed requests due to rate limiting are automatically retried with exponential backoff.
+Platforma omezuje četnost volání API Censys algoritmem klouzavého okna kalibrovaným podle
+úrovně předplatného. Požadavky odmítnuté kvůli limitu se automaticky opakují s exponenciálním
+odkladem.
 
 ```elixir
 defmodule PrismaticPerimeter.Sources.Censys.RateLimiter do
@@ -447,60 +502,58 @@ defmodule PrismaticPerimeter.Sources.Censys.RateLimiter do
   end
 end
 ```
+## Bezpečnostní hlediska
 
-## Security Considerations
-
-When integrating Censys data into security assessments, several considerations apply:
-
-| Consideration | Description | Mitigation |
+| Hledisko | Popis | Zmírnění |
 |--------------|-------------|------------|
-| **Data staleness** | Scan data may be hours or days old | Cross-reference with active probing |
-| **Incomplete coverage** | Not all ports/protocols scanned every cycle | Supplement with Shodan and active scanning |
-| **False positives** | Service identification may be inaccurate | Validate findings with direct connection |
-| **IPv6 gaps** | IPv6 coverage is growing but incomplete | Combine with DNS-based IPv6 enumeration |
-| **CDN masking** | CDN IPs may not reflect origin infrastructure | Use certificate SANs to identify origins |
-| **Geolocation accuracy** | IP geolocation is approximate | Use ASN data for organizational attribution |
+| **zastarání dat** | data skenů mohou být hodiny nebo dny stará | křížová kontrola aktivním sondováním |
+| **neúplné pokrytí** | ne všechny porty a protokoly se skenují v každém cyklu | doplnit Shodanem a aktivním skenováním |
+| **falešně pozitivní výsledky** | identifikace služby může být nepřesná | ověřit přímým spojením |
+| **mezery v IPv6** | pokrytí IPv6 roste, ale je neúplné | kombinovat s výčtem IPv6 přes DNS |
+| **maskování CDN** | IP adresy CDN nemusí odrážet původní infrastrukturu | k určení původu použít SAN certifikátů |
+| **přesnost geolokace** | geolokace IP je přibližná | k přiřazení organizace použít data ASN |
 
-## Best Practices for Censys Integration
+## Osvědčené postupy integrace
 
-When building integrations with the Censys API, the following practices ensure reliable and efficient operation within the Prismatic Platform:
+1. **Upřednostnit objevování podle certifikátů před skenováním hostitelů** – integrace logů CT
+   je ve srovnání s jinými zdroji OSINT nejjedinečnějším přínosem Censysu. Censys používat
+   hlavně pro zpravodajství o certifikátech, Shodan pro objevování služeb.
+2. **Pro široké analýzy používat agregační dotazy** – agregační API poskytuje statistické
+   souhrny bez čerpání kvóty na výsledky. Nejprve pochopit rozložení služeb, ASN nebo verzí
+   softwaru, teprve pak jít k jednotlivým hostitelům.
+3. **Ukládat odpovědi do mezipaměti s TTL podle frekvence skenů** – data Censys se obnovují
+   podle plánu, ne průběžně. Mezipaměť na 6–12 hodin šetří volání bez ztráty významných změn.
+4. **Implementovat jističe pro selhání API** – síťové problémy a limity mohou v procesu
+   objevování vyvolat kaskádová selhání; jistič zajistí řízenou degradaci, když Censys není
+   dostupný.
+5. **Vždy ověřovat důvěru pluralitou signálů** – nikdy se u bezpečnostních tvrzení
+   nespoléhat jen na Censys. Každé zjištění musí potvrdit alespoň jeden nezávislý zdroj.
 
-1. **Prefer certificate-based discovery over host scanning** -- Censys's CT log integration provides the most unique value compared to other OSINT sources. Use Censys primarily for certificate intelligence and leverage [Shodan](@/glossary/shodan.md) for service discovery.
+Etický rámec práce s otevřenými zdroji popisuje heslo [OSINT](@/glossary/osint.md).
 
-2. **Use aggregate queries for broad analysis** -- The aggregation API provides statistical summaries without consuming per-result quota. Use aggregates to understand the distribution of services, ASNs, or software versions before drilling into individual hosts.
+## Související pojmy
 
-3. **Cache responses with TTL matching scan frequency** -- Censys data refreshes on a schedule (not continuously). Caching responses for 6-12 hours avoids redundant API calls without missing significant changes.
+Bez vlastního hesla v glosáři knihy: *Attack Surface* (vnější infrastruktura, kterou Censys
+pomáhá objevit), *TLS*, *Rate Limiting*, *Time Decay*, *Contradiction Preservation* (řešení
+neshod Shodanu a Censysu) a *Knowledge Graph* (grafová databáze korelovaných zjištění).
 
-4. **Implement circuit breakers for API failures** -- Network issues and rate limiting can cause cascade failures in the discovery pipeline. Use circuit breaker patterns to gracefully degrade when Censys is unavailable.
+## Související
 
-5. **Always validate confidence with [Signal Plurality](@/glossary/signal-plurality.md)** -- Never rely on Censys alone for security assertions. Every finding must be corroborated by at least one independent source.
+**Platforma**
 
-## Related Terms
+- [Shodan](@/glossary/shodan.md) – doplňková platforma internetového skenování pro objevování
+  služeb.
+- [EASM](@/glossary/easm.md) – správa útočné plochy, která data Censys využívá.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom, který Censys vyžaduje jako
+  potvrzující zdroj.
+- [GreyNoise](@/glossary/greynoise.md) – klasifikace „šumu“, která zjištění doplňuje.
+- [Risk Score](@/glossary/risk-score.md) – hodnocení vycházející z ověřených zjištění.
+- [Entity Resolution](@/glossary/entity-resolution.md) – propojení dat hostitelů
+  s organizacemi.
 
-- [Shodan](@/glossary/shodan.md) - Complementary internet scanning platform for service discovery
-- [EASM](@/glossary/easm.md) - Attack surface management consuming Censys data
-- [Signal Plurality](@/glossary/signal-plurality.md) - Axiom requiring Censys as corroborating source
-- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) - External infrastructure Censys helps discover
-- [GreyNoise](@/glossary/greynoise.md) - Noise classification complementing Censys findings
-- [TLS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/tls/) - Certificate and protocol analysis from Censys scans
-- [Risk Score](@/glossary/risk-score.md) - Ratings informed by Censys-validated findings
-- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) - API quota management for Censys integration
-- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) - Historical Censys data calibrated for recency
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) - Handling Shodan/Censys disagreements
-- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) - Graph database storing correlated Censys findings
-- [Entity Resolution](@/glossary/entity-resolution.md) - Linking Censys host data to organizational entities
+**Kompendium**
 
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - EASM data source architecture
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - Prismatic Perimeter application
-- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) - Open-source intelligence collection methodology
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [OSINT: validace zdrojů](@/kompendium/aiad-integration/osint-ea-source-validation.md) –
+  ověřování otevřených zdrojů s ohledem na manipulaci.
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – lidský
+  protějšek plurality signálů.

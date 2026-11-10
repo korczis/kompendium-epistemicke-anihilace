@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[session-discipline](@/glossary/session-discipline.md) — Session discipline je doctrinální požadavek Prismatic platformy strukturovat každou pracovní session: GitLab issue, kontinuální commits, push k remote, zákaz --no-verify a regression test pro každý bug fix. Cílem je auditovatelnost a kumulativní progrese.
+[session-discipline](@/glossary/session-discipline.md) — Session discipline je doctrinální požadavek Prismatic platformy strukturovat každou pracovní session: GitLab issue, kontinuální commits, push k remote, zákaz --no-verify a [regression test](@/glossary/regression-test.md) pro každý bug fix. Cílem je auditovatelnost a kumulativní progrese.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

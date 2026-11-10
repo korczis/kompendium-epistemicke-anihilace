@@ -1,103 +1,113 @@
 +++
-title = "Compliance Framework"
+title = "Compliance Framework (rámec souladu)"
 weight = 59
-description = "Structured set of regulatory requirements and controls organizations must satisfy"
+description = "Strukturovaný soubor regulatorních požadavků a kontrolních opatření, které musí organizace splnit (GDPR, NIS2, ISO 27001…); na platformě základ posouzení souladu."
 
 [taxonomies]
-tags = ["glossary", "security", "compliance-framework", "prismatic"]
+tags = ["glossary", "security", "compliance", "prismatic", "legal"]
 
 [extra]
 category = "security"
 related_terms = ["gdpr", "nis2", "zkb", "iso-27001", "security-rating"]
 author = "Tomas Korcak (korczis)"
-reading_time = "5 min"
-word_count = 1016
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["Compliance", "Framework", "Structured", "glossary", "security", "Prismatic Platform", "GDPR", "NUKIB"]
 quality_score = 72
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Compliance Framework - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-A compliance framework is a structured set of guidelines, regulations, and controls that organizations must implement to meet legal, regulatory, or industry requirements. Frameworks define what security controls are needed, how they should be implemented, and how compliance is assessed. Common frameworks include GDPR (data privacy), NIS2 (network security), ISO 27001 (information security management), SOC 2 (service organization controls), and PCI DSS (payment card industry).
+**Rámec souladu** (*compliance framework*) je strukturovaný soubor pokynů, předpisů
+a kontrolních opatření, které musí organizace zavést, aby splnila zákonné, regulatorní nebo
+oborové požadavky. Rámce určují, jaká bezpečnostní opatření jsou potřeba, jak je zavést a jak
+se soulad posuzuje. K běžným rámcům patří GDPR (ochrana osobních údajů), NIS2 (bezpečnost sítí
+a informací), ISO 27001 (řízení bezpečnosti informací), SOC 2 (kontroly servisních
+organizací) a PCI DSS (odvětví platebních karet).
 
-Compliance frameworks serve as the bridge between abstract security goals and concrete, measurable controls. They translate legislative intent ("organizations must protect personal data") into specific technical and organizational requirements ("implement encryption for data at rest and in transit, maintain access logs for 12 months, conduct annual penetration testing"). This translation is critical because it provides a clear, auditable standard against which an organization's security posture can be measured.
+Rámce souladu spojují abstraktní bezpečnostní cíle s konkrétními, měřitelnými opatřeními.
+Převádějí záměr zákonodárce („organizace musí chránit osobní údaje“) na konkrétní technické
+a organizační požadavky („šifrovat data v klidu i při přenosu, uchovávat přístupové logy
+12 měsíců, jednou ročně provádět penetrační test“). Tento převod je zásadní, protože dává
+jasný, auditovatelný standard, podle něhož lze bezpečnostní stav organizace měřit.
 
-The compliance landscape has grown increasingly complex as digital regulation expands globally. Organizations operating across jurisdictions must satisfy multiple overlapping frameworks simultaneously -- GDPR for EU data protection, NIS2 for network security, local regulations like the Czech ZKB, and industry standards like ISO 27001. This multi-framework reality demands automated assessment tools that can map technical findings to multiple regulatory requirements in parallel, which is precisely what [Prismatic Perimeter](@/glossary/easm.md) delivers.
+Prostředí souladu je s rozšiřováním digitální regulace stále složitější. Organizace působící
+ve více jurisdikcích musí současně splnit více překrývajících se rámců – GDPR pro ochranu
+údajů v EU, NIS2 pro kybernetickou bezpečnost, místní předpisy jako český zákon
+o kybernetické bezpečnosti a oborové standardy jako ISO 27001. Tato realita vyžaduje
+automatizované nástroje, které umějí přiřadit technická zjištění k více regulatorním
+požadavkům současně; to je úkolem modulu Prismatic Perimeter (viz [EASM](@/glossary/easm.md)).
 
-## Technical Deep Dive
+**Vztah ke knize:** pojem patří do kontextu platformy, z níž Kompendium vzešlo. Pro knihu je
+důležitá jeho stinná stránka – soulad „na papíře“, který vytváří zdání kontroly bez skutečné
+ochrany (viz [Scam Compliance](@/glossary/scam-compliance.md)). Regulatorní screening
+s ohledem na techniky EA popisuje stránka [Compliance: regulatorní
+screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md); organizační
+obranu kapitola [Organizační obrana](@/kompendium/organizational-defense/_index.md).
 
-### Framework Taxonomy
+## Technický rozbor
 
-Compliance frameworks can be categorized by their origin and enforceability:
+### Taxonomie rámců
 
-| Category | Examples | Enforcement | Penalties |
+| Kategorie | Příklady | Vynucení | Sankce |
 |----------|---------|-------------|-----------|
-| Regulatory (Mandatory) | GDPR, NIS2, ZKB, HIPAA | Legal requirement | Fines up to 2-4% of global revenue |
-| Industry Standard | PCI DSS, SOC 2 | Contractual requirement | Loss of business relationships |
-| Voluntary Standard | ISO 27001, NIST CSF | Self-imposed | Loss of certification |
-| Internal Policy | Company security policies | Organizational | Disciplinary action |
+| regulatorní (povinné) | GDPR, NIS2, zákon o kybernetické bezpečnosti, HIPAA | zákonná povinnost | pokuty až 2–4 % celosvětového obratu |
+| oborový standard | PCI DSS, SOC 2 | smluvní povinnost | ztráta obchodních vztahů |
+| dobrovolný standard | ISO 27001, NIST CSF | dobrovolně přijatý | ztráta certifikace |
+| vnitřní politika | bezpečnostní politiky firmy | organizační | kázeňská opatření |
 
-### Control Categories
+### Kategorie kontrolních opatření
 
-Most frameworks organize controls into common categories:
-
-| Category | Description | Example Controls |
+| Kategorie | Popis | Příklady opatření |
 |----------|-------------|-----------------|
-| Governance | Organizational structure and accountability | Security policy, roles and responsibilities, risk management |
-| Access Control | Who can access what resources | Authentication, authorization, privilege management |
-| Data Protection | Safeguarding data confidentiality and integrity | Encryption, backup, data classification |
-| Network Security | Protecting network infrastructure | Firewalls, segmentation, intrusion detection |
-| Incident Response | Handling security incidents | Detection, containment, notification, recovery |
-| Business Continuity | Maintaining operations during disruptions | DR planning, redundancy, failover |
-| Monitoring | Observing and recording system activity | Logging, alerting, audit trails |
-| Supply Chain | Managing third-party security risks | Vendor assessment, contractual requirements |
+| řízení (governance) | organizační struktura a odpovědnost | bezpečnostní politika, role a odpovědnosti, řízení rizik |
+| řízení přístupu | kdo smí k čemu přistupovat | autentizace, autorizace, správa oprávnění |
+| ochrana dat | důvěrnost a integrita dat | šifrování, zálohy, klasifikace dat |
+| síťová bezpečnost | ochrana síťové infrastruktury | firewally, segmentace, detekce průniku |
+| reakce na incidenty | zvládání bezpečnostních incidentů | detekce, omezení, oznámení, obnova |
+| kontinuita provozu | zachování činnosti při narušení | plánování obnovy, redundance, převzetí služeb |
+| monitoring | sledování a záznam činnosti systémů | logování, výstrahy, auditní stopy |
+| dodavatelský řetězec | řízení rizik třetích stran | posuzování dodavatelů, smluvní požadavky |
 
-### Framework Maturity Levels
+### Úrovně vyspělosti
 
-Organizations progress through maturity levels in their compliance journey:
-
-| Level | Name | Description |
+| Úroveň | Název | Popis |
 |-------|------|-------------|
-| 1 | Initial | Ad hoc controls, no formal framework |
-| 2 | Developing | Framework selected, controls being implemented |
-| 3 | Defined | Controls documented and consistently applied |
-| 4 | Managed | Controls measured and monitored with metrics |
-| 5 | Optimizing | Continuous improvement based on metrics and threat intelligence |
+| 1 | počáteční | nahodilá opatření, bez formálního rámce |
+| 2 | rozvíjející se | rámec zvolen, opatření se zavádějí |
+| 3 | definovaná | opatření zdokumentována a důsledně uplatňována |
+| 4 | řízená | opatření měřena a sledována metrikami |
+| 5 | optimalizující | průběžné zlepšování podle metrik a zpravodajství o hrozbách |
 
-### NIS2 Directive (EU 2022/2555)
+### Směrnice NIS2 (EU 2022/2555)
 
-The Network and Information Security Directive 2 (NIS2) is the EU's primary cybersecurity regulation, replacing the original NIS Directive:
+Směrnice o bezpečnosti sítí a informací 2 (NIS2) je hlavním předpisem EU v oblasti
+kybernetické bezpečnosti a nahrazuje původní směrnici NIS:
 
-| Aspect | Detail |
+| Hledisko | Podrobnost |
 |--------|--------|
-| Scope | Essential and important entities across 18 sectors |
-| Requirements | Risk management, incident reporting, supply chain security |
-| Reporting | Significant incidents reported within 24 hours (early warning), 72 hours (full notification) |
-| Penalties | Up to 10M EUR or 2% of global turnover for essential entities |
-| Effective | October 2024 (member state transposition) |
-| Key Articles | Art. 21 (risk management measures), Art. 23 (incident reporting) |
+| rozsah | základní a důležité subjekty v 18 odvětvích |
+| požadavky | řízení rizik, hlášení incidentů, bezpečnost dodavatelského řetězce |
+| hlášení | významné incidenty: včasné varování do 24 hodin, oznámení do 72 hodin |
+| sankce | u základních subjektů až 10 milionů EUR nebo 2 % celosvětového obratu |
+| účinnost | lhůta pro transpozici členskými státy do října 2024 |
+| klíčové články | čl. 21 (opatření k řízení rizik), čl. 23 (hlášení incidentů) |
 
-### ZKB 264/2025 Sb. (Czech Cybersecurity Act)
+### Český zákon o kybernetické bezpečnosti (ZKB)
 
-The Czech national transposition of NIS2 with additional local requirements:
+Česká transpozice NIS2 s dalšími národními požadavky; platforma ji vede pod označením
+„ZKB 264/2025 Sb.“ (číslo předpisu je údajem platformy, nikoli ověřenou citací této knihy):
 
-| Aspect | Detail |
+| Hledisko | Podrobnost |
 |--------|--------|
-| Scope | Critical infrastructure, essential services, important entities |
-| Registry | NUKIB (National Cyber and Information Security Agency) |
-| Requirements | Security documentation, risk assessment, incident handling |
-| Reporting | Aligned with NIS2 timelines plus NUKIB-specific requirements |
-| Language | Czech language documentation required |
-| Audit | Regular audits by NUKIB-certified auditors |
+| rozsah | kritická infrastruktura, základní služby, důležité subjekty |
+| dozorový orgán | NÚKIB (Národní úřad pro kybernetickou a informační bezpečnost) |
+| požadavky | bezpečnostní dokumentace, posouzení rizik, zvládání incidentů |
+| hlášení | v souladu s lhůtami NIS2 a se zvláštními požadavky NÚKIB |
+| jazyk | dokumentace v češtině |
+| audit | pravidelné audity |
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### Compliance Assessment Engine
+### Engine posouzení souladu
 
 ```elixir
 defmodule PrismaticPerimeter.Compliance.Engine do
@@ -149,8 +159,7 @@ defmodule PrismaticPerimeter.Compliance.Engine do
   end
 end
 ```
-
-### Control Mapping
+### Mapování kontrolních opatření
 
 ```elixir
 defmodule PrismaticPerimeter.Compliance.NIS2 do
@@ -207,8 +216,7 @@ defmodule PrismaticPerimeter.Compliance.NIS2 do
   end
 end
 ```
-
-### Compliance Report Generation
+### Generování zprávy o souladu
 
 ```elixir
 defmodule PrismaticPerimeter.Compliance.Report do
@@ -255,14 +263,14 @@ defmodule PrismaticPerimeter.Compliance.Report do
   end
 end
 ```
+## Použití v Prismatic Platform
 
-## Usage in Prismatic Platform
+Prismatic Perimeter implementuje posouzení souladu pro rámce NIS2 a ZKB s možností rozšíření
+o další rámce.
 
-The Prismatic Perimeter implements compliance assessment for NIS2 and ZKB frameworks, with extensibility for additional frameworks.
+### Dashboard souladu
 
-### Compliance Dashboard
-
-The compliance assessment is accessible via Phoenix LiveView at `/perimeter/compliance`:
+Posouzení souladu je dostupné přes Phoenix LiveView na adrese `/perimeter/compliance`:
 
 ```elixir
 defmodule PrismaticPerimeterWeb.ComplianceLive do
@@ -288,8 +296,7 @@ defmodule PrismaticPerimeterWeb.ComplianceLive do
   end
 end
 ```
-
-### API Integration
+### Integrace přes API
 
 ```bash
 # Assess compliance via REST API
@@ -305,66 +312,67 @@ curl -X POST http://localhost:4004/api/v1/perimeter/assess_compliance \
 #   "zkb": {"passing": 4, "failing": 1, "total": 5}
 # }
 ```
+### Zasazení bezpečnostního hodnocení do kontextu
 
-### Security Rating Contextualization
+Bezpečnostní hodnocení (A–F, viz [Risk Score](@/glossary/risk-score.md)) se vykládá ve vztahu
+ke konkrétním rámcům souladu:
 
-[Security ratings](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) (A-F) are contextualized against specific compliance frameworks:
-
-| Rating | NIS2 Implication | ZKB Implication |
+| Hodnocení | Význam pro NIS2 | Význam pro ZKB |
 |--------|-----------------|-----------------|
-| A (850-900) | Full compliance expected | Full compliance expected |
-| B (700-849) | Minor gaps, likely compliant | Minor gaps, remediation recommended |
-| C (550-699) | Material gaps, partial compliance | Material gaps, NUKIB review risk |
-| D (400-549) | Significant gaps, non-compliant | Significant gaps, enforcement risk |
-| F (300-399) | Critical gaps, enforcement likely | Critical gaps, immediate action required |
+| A (850–900) | očekávaný plný soulad | očekávaný plný soulad |
+| B (700–849) | drobné mezery, pravděpodobně v souladu | drobné mezery, doporučena náprava |
+| C (550–699) | podstatné mezery, částečný soulad | podstatné mezery, riziko přezkumu NÚKIB |
+| D (400–549) | významné mezery, nesoulad | významné mezery, riziko vynucovacích opatření |
+| F (300–399) | kritické mezery, vynucení pravděpodobné | kritické mezery, nutný okamžitý zásah |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Assess against multiple frameworks simultaneously** -- Organizations typically face multiple compliance obligations. Map findings to all applicable frameworks in a single assessment pass.
+1. **Posuzovat více rámců současně** – organizace mají obvykle více povinností; zjištění se
+   v jednom průchodu přiřadí ke všem použitelným rámcům.
+2. **Automatizovat sběr důkazů** – ruční sběr je pomalý, chybový a v době auditu už
+   zastaralý. Ověřování technických opatření je třeba automatizovat.
+3. **Udržovat průběžný soulad** – jednorázová posouzení vytvářejí falešný pocit bezpečí.
+   Průběžné sledování odhalí posun mezi formálními posouzeními.
+4. **Převádět technická zjištění na byznysové riziko** – mezery v souladu sdělovat jazykem
+   regulatorního rizika (pokuty, vynucovací opatření), ne jen technických nedostatků.
+5. **Verzovat politiky** – dokumentace souladu má být verzována, pravidelně revidována
+   a aktualizována při změně předpisů (srov. [Cykly revize
+   politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)).
+6. **Počítat s vývojem rámců** – předpisy se mění. Engine souladu má být rozšiřitelný, aby
+   šlo přidávat nové rámce a požadavky bez změny architektury.
 
-2. **Automate evidence collection** -- Manual evidence gathering is slow, error-prone, and stale by the time auditors review it. Automate technical control verification.
+## Časté chyby
 
-3. **Maintain continuous compliance** -- Point-in-time assessments create a false sense of security. Implement continuous monitoring to detect compliance drift between formal assessments.
+- **Soulad „na odškrtnutí“:** opatření zavedená kvůli auditu, ne kvůli skutečné ochraně.
+  Vytvářejí falešný pocit bezpečí a selhávají při skutečných hrozbách. V krajní podobě jde
+  o předstíraný soulad, který kniha popisuje jako [Scam Compliance](@/glossary/scam-compliance.md).
+- **Bujení rámců:** snaha vyhovět příliš mnoha rámcům najednou bez jednotného mapování
+  opatření. Doporučuje se hlavní rámec (např. NIST CSF), na který se ostatní mapují.
+- **Zastaralá posouzení:** brát jednorázové posouzení jako trvalý stav. Infrastruktura
+  i hrozby se mění průběžně; posouzení se musí opakovat.
+- **Chybějící důkazy:** opatření existují, ale není doloženo, že fungují. Auditoři vyžadují
+  důkaz, ne tvrzení (srov. [Chain of custody](@/glossary/chain-of-custody.md)).
+- **Nevymezený rozsah:** nejasné, které systémy a data spadají pod který rámec. Přílišné
+  rozšíření i zúžení rozsahu vytvářejí rizika.
 
-4. **Map technical findings to business risk** -- Compliance gaps should be communicated in terms of regulatory risk (fines, enforcement actions), not just technical deficiencies.
+## Související pojmy
 
-5. **Version control your policies** -- Compliance documentation should be version-controlled, reviewed regularly, and updated when regulations change.
+Bez vlastního hesla v glosáři knihy: *GDPR*, *NIS2*, *ZKB*, *Security Rating* a *CVE*.
+Plné znění směrnice NIS2 je dostupné na [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2022/2555).
 
-6. **Plan for framework evolution** -- Regulations change. Design your compliance engine to be extensible so new frameworks and updated control requirements can be added without architectural changes.
+## Související
 
-## Common Pitfalls
+**Platforma**
 
-- **Checkbox compliance**: Implementing controls to pass audits rather than to genuinely protect the organization. This creates a false sense of security and fails under real-world threats.
+- [EASM](@/glossary/easm.md) – správa vnější útočné plochy, která dodává data pro soulad.
+- [Risk Score](@/glossary/risk-score.md) – skóre rizika vykládané ve vztahu k rámcům.
+- [Due Diligence](@/glossary/due-diligence.md) – prověrka, v níž je soulad jedním z hledisek.
+- [Sanctions Screening](@/glossary/sanctions-screening.md) – příbuzná regulatorní kontrola.
 
-- **Framework proliferation**: Attempting to comply with too many frameworks simultaneously without a unified control mapping. Use a master control framework (like NIST CSF) and map other frameworks to it.
+**Kompendium**
 
-- **Stale assessments**: Treating a point-in-time compliance assessment as a permanent state. Infrastructure and threats change continuously; assessments must be recurring.
-
-- **Missing evidence**: Having controls in place but no evidence of their operation. Auditors require proof, not assertions.
-
-- **Ignoring scope definition**: Failing to clearly define what systems and data are in scope for each framework. Scope creep or underscoping both create compliance risks.
-
-## Related Concepts
-
-- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) -- EU data protection regulation assessed by the platform
-- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) -- EU network and information security directive
-- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) -- Czech cybersecurity regulation
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Technical score contextualized against compliance frameworks
-- [EASM](@/glossary/easm.md) -- External attack surface management providing compliance data
-- [CVE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cve/) -- Vulnerability identifiers used in compliance assessments
-
-## Further Reading
-
-- [NIS2 Directive Full Text](https://eur-lex.europa.eu/eli/dir/2022/2555) -- Official EU legislation
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Compliance assessment architecture
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Prismatic Perimeter compliance features
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Scam Compliance](@/glossary/scam-compliance.md) – předstíraný soulad jako nástroj klamu.
+- [Compliance: regulatorní screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md)
+  – soulad s ohledem na techniky EA.
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – instituce odolné
+  vůči manipulaci.

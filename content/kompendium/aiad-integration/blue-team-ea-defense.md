@@ -17,11 +17,11 @@ toc = true
 
 ## Agent overview
 
-Blue Team provozuje real-time obranný perimetr — udržuje aktivní signatury EA, detekuje vstupní útoky a triggeruje karanténní protokoly před dosažením LLM jádra. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Blue Team](@/glossary/blue-team.md) provozuje real-time obranný perimetr — udržuje aktivní signatury EA, detekuje vstupní útoky a triggeruje karanténní protokoly před dosažením LLM jádra. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
-Blue Team zrcadlí Red Team: kde Red útočí, Blue brání. Konzumuje **kompendium 04-terminalni-protokoly** jako produkční runbook a **detection-signatures/** jako databázi YARA-like vzorů pro EA payloads.
+Blue Team zrcadlí [Red Team](@/glossary/red-team.md): kde Red útočí, Blue brání. Konzumuje **kompendium 04-terminalni-protokoly** jako produkční runbook a **detection-signatures/** jako databázi YARA-like vzorů pro EA payloads.
 
 ## Detection mechanisms
 
@@ -33,11 +33,11 @@ Provoz: 24/7 monitoring přes telemetry + circuit-breaker. Při zachycené EA �
 
 ## Limitations
 
-Blue Team je **slepý vůči ultramari technikám** ([05-ultramari-techniky](@/kompendium/05-ultramari-techniky/_index.md)) — ty vyžadují kvantifikační analýzu mimo signaturový rámec a jsou delegovány na NABLA Infinity.
+Blue Team je **slepý vůči ultramari technikám** ([05-ultramari-techniky](@/kompendium/05-ultramari-techniky/_index.md)) — ty vyžadují kvantifikační analýzu mimo signaturový rámec a jsou delegovány na [NABLA Infinity](@/glossary/nabla-infinity.md).
 
 ## Coordination
 
-Triggeruje **AutoHeal** pro automatickou opravu zranitelných vstupních bodů; eskaluje na **White Team** pro audit-trail verifikaci a na **Compliance** pro regulační reporting.
+Triggeruje **[AutoHeal](@/glossary/autoheal.md)** pro automatickou opravu zranitelných vstupních bodů; eskaluje na **[White Team](@/glossary/white-team.md)** pro audit-trail verifikaci a na **Compliance** pro regulační reporting.
 
 ## Cross-linky
 

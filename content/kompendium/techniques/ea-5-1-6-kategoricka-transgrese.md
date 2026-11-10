@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.6 Kategorická transgrese"
-description = "Detailní per-technique článek: technika kategorické transgrese — systematické porušování kategoriálních hranic (živé/neživé, reálné/fiktivní, já/druhý, fakt/hodnota), dokud subjekt neztratí schopnost takové základní distinkce udržet. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika kategorické transgrese — systematické porušování kategoriálních hranic (živé/neživé, reálné/fiktivní, já/druhý, fakt/hodnota)."
 weight = 516
 insert_anchor_links = "right"
 
@@ -114,7 +114,7 @@ Kategorická transgrese je odlišitelná od:
 
 - **Filosofická kritika kategoriálních systémů** (kontinentální filosofie, kritická teorie) — explicitní, reflexivní, **udržuje** schopnost rozlišovat. Transgresivní subjekt operuje v **deficitu** klasifikační schopnosti.
 - **Terapeutická imerze** (psychodrama, vizualizace, Internal Family Systems) — prováděná v **rámci** s explicitními začátky a konci; pacient ví, co je rámec a co skutečnost. Transgrese rozpouští samotný rámec.
-- **Mystický prožitek** (autentický) — typicky **lokalizovaný** v čase a prostoru, **neporušuje** schopnost vrátit se k běžné kategorialní struktuře. Transgrese produkuje **strukturální** deficit.
+- **[Mystický prožitek](@/glossary/mysticky-prozitek.md)** (autentický) — typicky **lokalizovaný** v čase a prostoru, **neporušuje** schopnost vrátit se k běžné kategorialní struktuře. Transgrese produkuje **strukturální** deficit.
 - **Psychotická epizoda** — překryv značný, ale psychóza je obvykle **endogenní** a má klinický průběh. Kategorická transgrese je **inducibilní** a vyžaduje **manipulátora**.
 - **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — destrukce **jazyka**, nikoli ontologické struktury. Imploudovaný termín může v zachovaných kategoriích selhávat; transgresivní subjekt ztrácí kategorie samotné.
 
@@ -125,7 +125,7 @@ Kategorická transgrese je odlišitelná od:
 | **Vysoce kontrolní spirituální skupiny** | Systematické rozpouštění hranic já / druhý ("rozplynutí v Mistrovi"), reálné / fiktivní (kosmologie), živé / neživé (panpsychismus) |
 | **Některé psychedelické komunity** bez integrace | Generalizace transgresivních zážitků jako "trvalá pravda" bez návratu do běžné kategorialní struktury |
 | **Pokročilý terapeutický kontext** bez profesionální struktury | "Constellation work", regresní techniky bez explicitního rámce |
-| **Intenzivní deepfake / AI-generovaný kontext** | Erodované rozlišení reálné / fiktivní, autorské / generované, lidské / strojové |
+| **Intenzivní [deepfake](@/glossary/deepfake.md) / AI-generovaný kontext** | Erodované rozlišení reálné / fiktivní, autorské / generované, lidské / strojové |
 | **Politicko-ideologické rétoriky** | Splývání faktu a hodnoty ("je to tak, protože musí být tak") |
 | **Některé akademické proudy** | Postuláty rozpouštění distinkcí (subjekt / objekt) bez explicitní strukturální alternativy |
 | **Pokročilá hypnotická / meditační praxe** bez supervize | Generalizované rozpouštění bez návratných mechanismů |
@@ -207,7 +207,7 @@ Kategorická transgrese je strukturálním motivem pro několik defenzivních me
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} ontological audit** — rozhodovací logika vyžaduje, aby vstupní data byla explicitně klasifikována (fakt / hypotéza / hodnocení / narativ). Klasifikační konfuze je flagována jako epistemická červená vlajka.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) provenance + ontological tagging** — provenance tracking sleduje, **odkud** zkušenost / informace pochází (vlastní vjem, převzatý narativ, model output, historický záznam) a explicitně tag pro detekci memory blending.
-- **[Color Teams](@/glossary/color-teams.md) ontologická forenzika** — Red Team explicitně testuje, zda argumentace odolá auditu kategoriální stability vstupů.
+- **[Color Teams](@/glossary/color-teams.md) ontologická forenzika** — [Red Team](@/glossary/red-team.md) explicitně testuje, zda argumentace odolá auditu kategoriální stability vstupů.
 - **OSINT framework's source ontology** — všechny zdroje jsou explicitně klasifikovány (primary / secondary / interpretive / narrative); platforma ne směšuje narativní a faktická tvrzení.
 
 ## Související

@@ -2,7 +2,7 @@
 title = "Epistemická anihilace"
 weight = 60
 
-description = "Systematický, cílený a graduální proces destrukce epistemických struktur jedince nebo skupiny vedoucí k fundamentálnímu narušení schopnosti poznávat, evaluovat a integrovat informace."
+description = "Systematické a postupné ničení epistemických struktur člověka nebo skupiny, které narušuje samotnou schopnost poznávat, hodnotit a začleňovat informace."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "kompendium", "manipulace"]
@@ -11,53 +11,100 @@ tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 category = "epistemic"
 related_terms = ["kognitivni-anihilace", "taxonomie-ea", "metakognitivni-destrukce", "epistemicka-alienace", "nabla-infinity", "epistemic-pipeline"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "4 min"
-word_count = 720
+reading_time = "5 min"
+word_count = 916
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["epistemická anihilace", "epistemic annihilation", "destrukce poznání", "kompendium", "manipulace", "epistemic security"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Epistemická anihilace - glossary"
+image_alt = "Epistemická anihilace – glosář"
 +++
 
-## Definition
+## Definice
 
-**Epistemická anihilace** is a systematic, intentional, and gradual process of destruction of epistemic structures of an individual or group, leading to fundamental disruption of the ability to **acquire**, **evaluate**, **integrate**, and **use information** in a way that allows construction of a coherent and adequate picture of reality. Unlike ordinary epistemic distortions — which are partial biases within an otherwise functional cognitive apparatus — epistemic annihilation attacks the **foundational structures** that make any form of cognition possible. It is best characterized as **meta-epistemic damage**: it does not merely corrupt specific beliefs, it destroys the very mechanisms by which beliefs are formed, revised, and justified.
+**Epistemická anihilace** je systematický, záměrný a postupný proces ničení epistemických struktur jednotlivce nebo skupiny, který vede k zásadnímu narušení schopnosti informace **získávat**, **hodnotit**, **začleňovat** a **používat** tak, aby si člověk mohl vytvořit soudržný a přiměřený obraz skutečnosti. Na rozdíl od běžných epistemických zkreslení – dílčích předpojatostí uvnitř jinak funkčního poznávacího aparátu – útočí epistemická anihilace na **základní struktury**, které jakékoli poznání vůbec umožňují. Nejlépe ji vystihuje označení **meta-epistemické poškození**: nekazí jen konkrétní přesvědčení, ale ničí samotné mechanismy, jimiž se přesvědčení vytvářejí, revidují a zdůvodňují.
 
-The term is the central concept of the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) — a Czech-language taxonomic system documenting and classifying these phenomena for use by qualified psychiatrists, psychologists, philosophers, and epistemic security researchers. The full Czech-language treatment is at [/kompendium/02-uvod/definice/](@/kompendium/02-uvod/definice.md).
+Pojem je ústředním termínem [Kompendia epistemické a kognitivní anihilace](@/kompendium/_index.md) – českého taxonomického systému, který tyto jevy dokumentuje a třídí pro kvalifikované psychiatry, psychology, filozofy a výzkumníky epistemické bezpečnosti. Úplný výklad je v kapitole [Definice](@/kompendium/02-uvod/definice.md).
 
-Five definitional features distinguish epistemic annihilation from ordinary cognitive failures: **systematicity** (coordinated rather than random), **cumulativity** (effects accelerate with progression), **autoamplification** (the affected subject eventually participates in further destruction of their own epistemic capacity), **meta-epistemic nature** (targets structural principles rather than specific beliefs), and **resistance to correction** (standard corrective mechanisms — evidence, argument, social feedback — lose effectiveness).
+Epistemickou anihilaci odlišuje od běžných kognitivních selhání pět definičních znaků:
 
-## Context
+| znak | co znamená |
+|---|---|
+| **systematičnost** | působení je koordinované, ne náhodné |
+| **kumulativnost** | účinky se s postupem zrychlují |
+| **autoamplifikace** | zasažený člověk se nakonec sám podílí na dalším ničení vlastní poznávací schopnosti |
+| **meta-epistemická povaha** | cílem jsou strukturní principy, ne konkrétní přesvědčení |
+| **odolnost vůči nápravě** | běžné opravné mechanismy – důkaz, argument, sociální zpětná vazba – ztrácejí účinnost |
 
-Within the Prismatic Platform, epistemic annihilation serves as a **threat model** integrated into multiple subsystems:
+## Původ a kontext pojmu
 
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly treats indicators of epistemic manipulation as **negative confidence signals** in calibration — a decision based on inputs from a corrupted epistemic process is itself epistemically suspect, even if formally consistent.
-- The [Color Teams](@/glossary/color-teams.md) framework includes **Red Team** simulations that test platform-level resilience to epistemic adversarial scenarios drawn from the kompendium taxonomy.
-- The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements structural defenses corresponding to the kompendium's neutralization strategies: source diversity checks (defense against EA-1.1.1 selective exposure), explicit falsifiability tracking (defense against EA-1.3.1 immunization), provenance auditing (defense against EA-1.3.3 thematic diversion).
-- The Czech-language Kompendium itself is published at [/kompendium/](@/kompendium/_index.md) as a standalone reference, with per-technique deep-dives at [/kompendium/techniques/](@/kompendium/techniques/_index.md).
+Termín zavádí a rozvíjí Kompendium; netvrdí, že jde o diagnostickou kategorii MKN nebo DSM. Opírá se o několik zavedených tradic: o výzkum reformy myšlení a kontrolujících skupin (Lifton 1961), o klinické poznatky o komplexním traumatu (Herman 1992), o popis [coercive control](@/glossary/coercive-control.md) v blízkých vztazích (Stark 2007) a o sociální epistemologii, zejména o koncept [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md) (Fricker 2007). Nový je důraz na **úroveň struktury**: nezkoumá se, čemu člověk věří, ale co se stalo s jeho schopností věřit na základě důvodů.
 
-The taxonomy assigns each technique an identifier of the form **`EA-X.Y.Z-α`** — a stable, hierarchically readable code that survives URL changes and serves as canonical reference across cross-disciplinary discourse.
+Epistemická anihilace se odlišuje od **doxastické anihilace** – zničení konkrétních přesvědčení (*doxai*), které může být v některých klinických souvislostech žádoucí (například ústup bludného přesvědčení). Epistemická anihilace je naproti tomu vždy destruktivní: poškozuje schopnost samu, ne její obsah.
 
-Epistemic annihilation is distinguished from **doxastic annihilation** — the destruction of specific beliefs (doxai), which can be therapeutically desirable in some clinical contexts. Epistemic annihilation, by contrast, is always destructive: it damages the capacity itself, not its content.
+## Jak se projevuje
 
-## See Also
+Projevy se liší podle rozsahu a fáze, společné jsou tyto pozorovatelné znaky:
 
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Related concept targeting cognitive processes rather than epistemic structures
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) — The classification system in `EA-X.Y.Z-α` notation
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Specific subtype targeting reflective self-awareness
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Alienation from one's own cognitive apparatus
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — Platform-level epistemic framework
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — 16-level epistemic reasoning architecture
-- [Kompendium](@/kompendium/_index.md) — The full Czech-language taxonomy
+- **ztráta kritérií** – člověk nedokáže říct, podle čeho by poznal, že se mýlí;
+- **závislost na jediném zdroji** výkladu skutečnosti (osoba, skupina, kanál), viz [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md);
+- **imunita vůči důkazu** – rozpor se nevyřeší, ale okamžitě vysvětlí z rámce, viz [nevyvratitelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md);
+- **kognitivní mlha**, únava z myšlení, neschopnost udržet souvislý argument ([signatura](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md));
+- **sebepodkopávání** – člověk sám odmítá informace, které by mu pomohly, protože je předem označil za „nepřátelské“.
 
----
+## Mechanismus
 
-## Connect & Contribute
+Taxonomie přiděluje každé technice identifikátor tvaru **`EA-X.Y.Z-α`** – stabilní, hierarchicky čitelný kód, který přežije změny adres a slouží jako kanonický odkaz napříč obory. Strukturu kódů popisuje [Taxonomie EA](@/glossary/taxonomie-ea.md), přehled technik je v [rejstříku technik](@/kompendium/techniques/_index.md).
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Na úrovni struktury probíhá anihilace ve vrstvách: nejprve se zúží vstup (např. [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)), pak se oslabí hodnoticí kritéria (např. [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)), nakonec se zasáhne schopnost reflexe vlastního myšlení ([metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)). Jakmile je zasažena poslední vrstva, přestávají fungovat i obranné mechanismy, které by šlo použít proti prvním dvěma – to je podstata autoamplifikace.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+## Odlišení
+
+- **Od [kognitivní anihilace](@/glossary/kognitivni-anihilace.md):** ta cílí na kognitivní procesy (pozornost, paměť, zpracování), epistemická anihilace na epistemické struktury (kritéria, zdůvodnění, revize).
+- **Od [kognitivního biasu](@/glossary/kognitivni-bias.md):** bias je systematická odchylka uvnitř funkčního aparátu; anihilace je poškození aparátu.
+- **Od přesvědčování a výchovy:** legitimní ovlivnění rozšiřuje schopnost posoudit argument a nechává prostor pro nesouhlas; anihilace ji zužuje.
+- **Od klinických stavů:** kognitivní deficit při neurologickém onemocnění, psychotické poruchy nebo deprese mohou mít podobné projevy, ale jiný původ. Kompendium vyžaduje [diferenciální diagnostiku](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) a upozorňuje na [riziko falešně pozitivních závěrů](@/kompendium/critical-perspectives/5-false-positive-risk.md).
+
+## Význam pro Kompendium
+
+Na platformě Prismatic, z níž kniha vzešla, slouží epistemická anihilace jako **model hrozby** začleněný do několika subsystémů:
+
+- [Decision Engine](@/glossary/decision-engine.md) výslovně považuje známky epistemické manipulace za **negativní signály důvěry** při kalibraci – rozhodnutí založené na vstupech ze zkaženého epistemického procesu je samo epistemicky podezřelé, i když je formálně konzistentní (viz [vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)).
+- Rámec [Color Teams](@/glossary/color-teams.md) zahrnuje simulace [Red Team](@/glossary/red-team.md), které testují odolnost platformy vůči epistemickým nepřátelským scénářům převzatým z taxonomie Kompendia.
+- Epistemická pipeline [NABLA Infinity](@/glossary/nabla-infinity.md) zavádí strukturní obrany odpovídající neutralizačním strategiím Kompendia: kontrolu rozmanitosti zdrojů (obrana proti EA-1.1.1 selektivní expozici), výslovné sledování falzifikovatelnosti (obrana proti EA-1.3.1 imunizaci) a audit původu informací (obrana proti [EA-1.3.3 tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)).
+- Samotné české Kompendium je publikováno jako samostatná příručka, s podrobným rozborem každé techniky v sekci [techniky](@/kompendium/techniques/_index.md).
+
+Pro čtenáře knihy je to pojem, od kterého se odvíjí vše ostatní: každá technika, kazuistika i protokol popisuje jednu cestu, jak se k anihilaci dochází, jak ji rozpoznat, nebo jak se z ní vrátit.
+
+## Obrana a zotavení
+
+Obrana stojí na obnově toho, co anihilace bere: **rozmanitosti zdrojů**, **výslovných kritérií** a **reflexe**. Pro jednotlivce to znamená [triangulaci zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md), [falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) a [metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md). Pro profesionály je výchozí [sekvence zotavení](@/kompendium/recovery-protocols/sekvence.md) a [epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md): nejdřív bezpečí a stabilizace, pak obnova kritérií, nakonec návrat samostatného úsudku.
+
+## Literatura
+
+- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
+- Judith Lewis Herman: *Trauma and Recovery* (1992).
+- Evan Stark: *Coercive Control* (2007).
+- Miranda Fricker: *Epistemic Injustice* (2007).
+
+## Související
+
+**Pojmy**
+
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – příbuzný pojem, cílí na kognitivní procesy místo epistemických struktur.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – klasifikační systém v notaci `EA-X.Y.Z-α`.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – specifický podtyp zaměřený na reflexivní sebeuvědomění.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastního poznávacího aparátu.
+
+**Platforma**
+
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňová architektura epistemického usuzování.
+
+**Kniha**
+
+- [Definice](@/kompendium/02-uvod/definice.md) – úplný výklad pojmu v úvodu.
+- [Techniky](@/kompendium/techniques/_index.md) – rejstřík technik `EA-X.Y.Z`.
+- [Kompendium](@/kompendium/_index.md) – úplná taxonomie.

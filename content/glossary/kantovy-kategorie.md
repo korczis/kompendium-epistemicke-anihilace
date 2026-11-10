@@ -89,7 +89,7 @@ a [EA-5.2.16 Kantovská paradoxie](@/kompendium/techniques/ea-5-2-16-kantovska-p
 - **Filozofická kritika vs. manipulace.** Kantova teorie je předmětem legitimní kritiky (Hegel,
   novokantovci, analytická filozofie). Kritika kategoriální teorie je filozofie; použití
   „kategorie jsou iluze“ k paralýze konkrétního člověka je manipulace.
-- **Vs. psychotická derealizace.** Pocit neskutečnosti může být příznakem disociace, úzkosti
+- **Vs. psychotická derealizace.** Pocit neskutečnosti může být příznakem [disociace](@/glossary/disociace.md), úzkosti
   nebo psychózy; vyžaduje klinické posouzení, ne filozofický výklad.
 
 ## Význam pro Kompendium

@@ -43,7 +43,7 @@ Pobytová závislost vytváří ideální podmínky pro kontrolu nad vnímáním
   tvrzení ověřit.
 - **Jazyková izolace.** Komunikace s úřady, lékaři a školou probíhá přes pachatele.
 - **Zadržování dokladů.** Pas, povolení k pobytu, pojištění.
-- **Sociální izolace.** Žádné kontakty mimo okruh pachatele; komunita, která drží s ním.
+- **[Sociální izolace](@/glossary/socialni-izolace.md).** Žádné kontakty mimo okruh pachatele; komunita, která drží s ním.
 - **Strach z úřadů.** Zkušenost ze země původu, kde instituce nechránily, nebo byly
   nebezpečné.
 - **Kulturní reinterpretace.** „Tady je to normální“, „u nás se to tak dělá“ – použito

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.17 Tautologická imploze"
-description = "Detailní per-technique článek: technika tautologické imploze — vynucení uvažování do sebe-referenčních tautologií, které se zdají smysluplné, avšak poskytují nulový epistemický obsah, čímž vyprazdňují zdánlivé znalosti subjektu. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika tautologické imploze — vynucení uvažování do sebe-referenčních tautologií, které se zdají smysluplné, avšak poskytují nulový epistemický obsah."
 weight = 517
 insert_anchor_links = "right"
 
@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Subkategorie** | 5.1 Epistemická singularita |
 | **Přístupová úroveň** | L4 (ultramarinní — vyžaduje supervizi) |
 | **Riziková úroveň** | Ultramarinní — produkuje subjekta, který "ví hodně", ale nezná nic |
-| **Reverzibilita** | Nízká — subjekt **prožívá** tautologie jako hluboké vhledy, takže odmítá intervenci |
+| **Reverzibilita** | Nízká — subjekt **prožívá** [tautologie](@/glossary/tautologie.md) jako hluboké vhledy, takže odmítá intervenci |
 | **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
@@ -182,7 +182,7 @@ Kruh praktikující „vědomí čistého vědomí“. Adepti po letech reportov
 ### Eskaluje do
 
 - **[EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)** — pokud tautologie zní pouze v subjektu, může se externí svět stát „neexistujícím“
-- **Kolektivní epistemická delegitimizace** — komunity tautologicky implodovaných subjektů ztrácejí schopnost komunikace s vnějším světem
+- **Kolektivní epistemická [delegitimizace](@/glossary/delegitimizace.md)** — komunity tautologicky implodovaných subjektů ztrácejí schopnost komunikace s vnějším světem
 
 ### Alternativy / podobné, ale **distinktivní**
 

@@ -40,7 +40,7 @@ jako cenu za výjimečné výsledky.
 | **Iniciální kontakt** | měsíce 1–6 | přijetí do souboru, „výjimečný talent“, hlavní role, intenzivní pozornost |
 | **Perturbace** | měsíce 7–18 | zkoušky jako „rozbití“ herce, veřejné ponižování, práce s osobními traumaty |
 | **Rekonfigurace** | roky 2–4 | podřízení režisérově vizi, přerušení kontaktu s rodinou, vztah s režisérem |
-| **Konsolidace** | roky 4–8 | soubor jako jediná realita, porucha příjmu potravy, disociace |
+| **Konsolidace** | roky 4–8 | soubor jako jediná realita, porucha příjmu potravy, [disociace](@/glossary/disociace.md) |
 | **Exit / detekce** | rok 8+ | zhroucení na zkoušce, hospitalizace, kontakt s bývalou členkou |
 
 V iniciální fázi byla subjekt cílem intenzivního [love bombingu](@/glossary/love-bombing.md):
@@ -127,7 +127,7 @@ od rodiny a převzetí slovníku, ve kterém se kritika nedala vyslovit.
 
 Použit byl [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md). Jeho stupně (S1
-validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická
+validace a mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4 hermeneutická
 obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu, který proběhl
 v pěti fázích:
 

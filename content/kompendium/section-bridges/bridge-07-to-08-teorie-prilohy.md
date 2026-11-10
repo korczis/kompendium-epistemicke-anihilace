@@ -63,7 +63,7 @@ Klíčové koncepty: **konceptuální mapa**, **terminologický slovník**, **bi
 
 ## 7. Meta-poznámka: referenční aparát jako evidenční vrstva
 
-Sekce 08 (Přílohy) není pouze nástěnka — je **evidenční vrstva** pro sekci 07 (Teoretické reflexe). Bibliografie, citace, konceptuální mapy, seznamy protiargumentů — to vše je **NCLB-validovaný referenční aparát**, který drží sekci 07 v rámci evidence-based přístupu. Bez sekce 08 by sekce 07 byla esejistický akt; s ní je akademický akt. Bridge zdůrazňuje, že **každá teze v sekci 07 musí mít odkaz na evidenční artefakt v sekci 08** — bibliografii, mapu, glossary, kontraargument. Pre-commit hook NCLB validuje tuto vazbu.
+Sekce 08 (Přílohy) není pouze nástěnka — je **evidenční vrstva** pro sekci 07 (Teoretické reflexe). Bibliografie, citace, konceptuální mapy, seznamy protiargumentů — to vše je **NCLB-validovaný referenční aparát**, který drží sekci 07 v rámci [evidence-based](@/glossary/evidence-based.md) přístupu. Bez sekce 08 by sekce 07 byla esejistický akt; s ní je akademický akt. Bridge zdůrazňuje, že **každá teze v sekci 07 musí mít odkaz na evidenční artefakt v sekci 08** — bibliografii, mapu, glossary, kontraargument. Pre-commit hook NCLB validuje tuto vazbu.
 
 ---
 

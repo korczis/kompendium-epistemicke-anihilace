@@ -5,6 +5,9 @@ description = "USA a další země, 80. a 90. léta: morální panika kolem úda
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

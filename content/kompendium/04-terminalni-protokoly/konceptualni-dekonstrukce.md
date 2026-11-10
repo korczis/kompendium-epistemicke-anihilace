@@ -1,6 +1,6 @@
 +++
 title = "Systematická konceptuální dekonstrukce"
-description = "Strukturální analýza terminálního protokolu cíleného na pojmový aparát subjektu — fáze rozpouštění, kotev a referencí, mechanismy semantické destabilizace, srovnání s legitimními pedagogickými praktikami problematizace pojmů a etické limity studia."
+description = "Strukturální analýza terminálního protokolu cíleného na pojmový aparát subjektu — fáze rozpouštění, kotev a referencí, mechanismy semantické destabilizace."
 weight = 4
 insert_anchor_links = "right"
 

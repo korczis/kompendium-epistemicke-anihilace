@@ -22,12 +22,12 @@ toc = true
 
 Senior (65+) v EA-emergency — typicky finanční abuse, kognitivně-targeted scams, izolační kontrola adultním dítětem nebo pečovatelem. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **geriatrická EA-emergency** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
-> **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
 ## 2. Bezprostřední intervence (5 kroků)
 
 1. **Diferencuj EA-symptoms od demence** — důležitá comprehensive geriatric assessment včetně MoCA/MMSE.
-2. **Aktivuj sociálního pracovníka pro elder abuse screening** — APS (Adult Protective Services) ekvivalent v ČR (sociální odbor).
+2. **Aktivuj sociálního pracovníka pro [elder abuse](@/glossary/elder-abuse.md) screening** — APS (Adult Protective Services) ekvivalent v ČR (sociální odbor).
 3. **Zajisti finanční bezpečnost** — freeze účtů s pomocí důvěryhodné rodiny nebo právníka, ne sám/sama.
 4. **Specifické komunikační adaptace** — nízká frekvence řeči, eliminuj background noise, dej čas na odpověď.
 5. **Plánuj care navigation** — geriatr, sociální péče, právník specializovaný na elder abuse, mental health follow-up.

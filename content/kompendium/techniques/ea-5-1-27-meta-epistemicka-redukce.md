@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.27 Meta-epistemická redukce"
-description = "Detailní per-technique článek: technika meta-epistemické redukce — sloučení všech epistemických standardů do jediného nadřazeného meta-standardu dodaného manipulátorem (např. „pravdivé je, co potvrzuje vůdce'), eliminace epistemické plurality."
+description = "Detailní per-technique článek: technika meta-epistemické redukce — sloučení všech epistemických standardů do jediného nadřazeného meta-standardu dodaného manipulátorem (např."
 weight = 527
 insert_anchor_links = "right"
 
@@ -191,9 +191,9 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *„c
 ### Často se kombinuje s
 
 - **[EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md)** — narativní monismus podporuje epistemický monismus.
-- **[EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)** — paradigmatická bezdomovina vytváří optimální půdu pro meta-redukci.
+- **[EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)** — [paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md) vytváří optimální půdu pro meta-redukci.
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — kontrola informací udržuje hermetičnost meta-standardu.
-- **EA-1.3.1 Imunizace proti falsifikaci** — meta-standard je strukturálně neimunizovatelný.
+- **[EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) Imunizace proti falsifikaci** — meta-standard je strukturálně neimunizovatelný.
 
 ### Sourozenecké UM techniky
 
@@ -212,8 +212,8 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *„c
 ## Vztah k Prismatic platformě
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} epistemic-pluralism check** — auditní vrstva ověřující, že rozhodovací proces zahrnuje **více než jeden** epistemický standard a že jakýkoli použitý meta-standard je **falsifikovatelně formulovaný**.
-- **NABLA Infinity falsifiability tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou **falsifikační podmínku**; tvrzení bez ní jsou flagována.
-- **Color Teams adversarial epistemology** — Red Team protokol povinné konfrontace meta-standardů s **alternativními** epistemickými rámci.
+- **NABLA Infinity [falsifiability](@/glossary/falsifikovatelnost.md) tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou **falsifikační podmínku**; tvrzení bez ní jsou flagována.
+- **Color Teams adversarial epistemology** — [Red Team](@/glossary/red-team.md) protokol povinné konfrontace meta-standardů s **alternativními** epistemickými rámci.
 
 ## Související
 

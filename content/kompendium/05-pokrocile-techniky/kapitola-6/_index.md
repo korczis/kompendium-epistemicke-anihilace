@@ -88,7 +88,7 @@ pochybnost. V klastru D je „vhled“ nástrojem autority a jeho přijetí je p
 příslušnosti. Srov. [mystický prožitek](@/glossary/mysticky-prozitek.md)
 a [spiritual bypassing](@/glossary/spiritual-bypassing.md).
 
-**Holistické a systémové myšlení.** Legitimní holismus zachovává úrovně a rozdíly;
+**Holistické a systémové myšlení.** Legitimní [holismus](@/glossary/holismus.md) zachovává úrovně a rozdíly;
 holografická redukce je ruší.
 
 **Bludná porucha a mánie.** Všeobjímající výklad s grandiozitou může být projevem

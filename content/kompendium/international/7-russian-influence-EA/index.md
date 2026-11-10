@@ -15,7 +15,7 @@ toc = true
 # Ruský vliv — vzorce EA
 
 > **Region**: Ruská federace a její vnější informační působení · **Oblast**: státní
-> informační operace
+> [informační operace](@/glossary/info-ops.md)
 > Stránka popisuje praktiky ruského státu a jeho institucí, nikoli obyvatele Ruska nebo
 > rusky mluvící lidi. Ti jsou naopak často prvními oběťmi: domácí propagandy, cenzury
 > a perzekuce. Pro rusky mluvící komunity v sousedních zemích viz

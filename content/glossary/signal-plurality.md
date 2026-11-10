@@ -1,10 +1,10 @@
 +++
-title = "Signal Plurality"
+title = "Signal plurality (pluralita signálů)"
 weight = 33
-description = "Hard-enforced NABLA Infinity axiom requiring a minimum of two independent signals before any belief can be formed, preventing single points of epistemic failure across the Prismatic Platform."
+description = "Tvrdě vynucovaný axiom NABLA Infinity: přesvědčení smí vzniknout až ze dvou nezávislých signálů, aby v Prismatic Platform nevznikalo jediné místo epistemického selhání."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "signal-plurality", "prismatic"]
+tags = ["glossary", "nabla", "evidence", "epistemic", "prismatic", "intelligence"]
 
 [extra]
 category = "epistemic"
@@ -28,52 +28,93 @@ date_created = "2026-02-22"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
 word_count = 1355
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Signal", "Plurality", "Hard-enforced", "NABLA", "Infinity", "Prismatic", "Platform", "glossary", "epistemic", "Prismatic Platform"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Signal Plurality - Prismatic Platform"
+image_alt = "Signal plurality (pluralita signálů) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Signal Plurality is a hard-enforced axiom within the NABLA Infinity epistemic framework requiring a minimum of two independent signals before any belief can be formed, any claim accepted, or any decision made. Single-source claims are insufficient regardless of source credibility, urgency, or authority level. This axiom prevents single points of epistemic failure and ensures all platform knowledge has corroborating evidence from genuinely independent origins.
+Pluralita signálů (*Signal Plurality*) je tvrdě vynucovaný axiom epistemického rámce [NABLA
+Infinity](@/glossary/nabla-infinity.md), který vyžaduje nejméně dva nezávislé signály dřív, než
+může vzniknout jakékoli přesvědčení, být přijato jakékoli tvrzení nebo padnout jakékoli
+rozhodnutí. Tvrzení z jediného zdroje nestačí bez ohledu na věrohodnost zdroje, naléhavost nebo
+úroveň autority. Axiom brání jedinému místu epistemického selhání a zajišťuje, že veškeré vědění
+platformy má potvrzující důkazy ze skutečně nezávislých původů. Je prvním ze sedmi [axiomů
+NABLA](@/glossary/nabla-axioms.md).
 
-The axiom addresses a fundamental vulnerability in knowledge systems: dependence on single sources creates catastrophic failure modes. A single compromised source, a single biased assessment, or a single misconfigured sensor can propagate incorrect beliefs throughout the system if there is no requirement for independent corroboration. Signal Plurality transforms this single-point-of-failure pattern into a distributed verification model where every belief requires at least two independent supporting signals.
+Axiom řeší základní zranitelnost znalostních systémů: závislost na jediném zdroji vytváří
+katastrofální způsoby selhání. Jediný kompromitovaný zdroj, jediné zkreslené posouzení nebo
+jediný chybně nastavený senzor může šířit nesprávná přesvědčení celým systémem, pokud neexistuje
+požadavek nezávislého potvrzení. Pluralita signálů mění tento vzorec jediného místa selhání na
+distribuovaný model ověřování, v němž každé přesvědčení vyžaduje nejméně dva nezávislé podpůrné
+signály.
 
-Signal Plurality is more rigorous than simple "second opinion" requirements found in traditional decision-making frameworks. The axiom requires not just multiple signals but genuinely independent signals -- signals from sources that do not share common upstream dependencies, methodologies, or data feeds. Two signals derived from the same underlying data source count as one signal, regardless of how differently they are presented. This independence requirement prevents the illusion of plurality where multiple nominally different sources all trace back to a single origin.
+Pluralita signálů je přísnější než prostý požadavek „druhého názoru“ v tradičních rozhodovacích
+rámcích. Axiom nevyžaduje jen více signálů, ale signály skutečně nezávislé – ze zdrojů, které
+nesdílejí společné závislosti proti proudu, metodiky ani datové toky. Dva signály odvozené
+z téhož podkladového zdroje dat se počítají jako jeden signál, ať jsou prezentovány jakkoli
+odlišně. Požadavek nezávislosti brání iluzi plurality, kdy více nominálně odlišných zdrojů vede
+k jedinému původu.
 
-Within the Prismatic Platform, Signal Plurality is enforced at the E2 level (block and rejection). Violations are not warnings -- they are hard blocks that prevent the violating claim from entering the belief system. This enforcement applies across all platform systems: OSINT intelligence fusion, [EASM](@/glossary/easm.md) security ratings, Color Team assessments, and quality evaluations.
+V Prismatic Platform se pluralita signálů vynucuje na úrovni E2 (blokace a odmítnutí). Porušení
+nejsou varování – jsou to tvrdé blokace, které nevyhovujícímu tvrzení zabrání vstoupit do
+systému přesvědčení. Vynucení platí ve všech systémech platformy: ve [fúzi
+zpravodajských informací](@/glossary/intelligence-fusion.md) z OSINT, v bezpečnostních
+hodnoceních [EASM](@/glossary/easm.md), v posouzeních [barevných týmů](@/glossary/color-teams.md)
+i v hodnoceních kvality.
 
-## Historical Context and Motivation
+Pro Kompendium je pluralita signálů nejpřímějším mostem mezi platformou a knihou: u lidí je
+přístup k více nezávislým zdrojům a svědkům základní ochranou poznání, a právě ten techniky
+izolace systematicky ruší (viz [sociální izolace](@/glossary/socialni-izolace.md)).
 
-The Signal Plurality axiom draws from multiple intellectual traditions. In intelligence analysis, the principle of "multi-source intelligence" (MULTI-INT) has been practiced since at least World War II, where signals intelligence (SIGINT), human intelligence (HUMINT), and imagery intelligence (IMINT) were cross-referenced to validate assessments. The failure to enforce this principle has led to documented intelligence failures, most notably the reliance on single-source intelligence in the lead-up to the Iraq War (2003), where the "Curveball" source provided uncorroborated information that shaped policy.
+## Historický kontext a motivace
 
-In scientific methodology, the requirement for independent replication serves the same function. A scientific claim is not accepted based on a single experiment; it requires independent replication by separate researchers using different methodologies. The replication crisis in social science (2010s) demonstrated what happens when this standard is relaxed.
+Axiom čerpá z několika intelektuálních tradic. Ve zpravodajské analýze se princip vzájemného
+ověřování z více druhů zpravodajství praktikuje přinejmenším od druhé světové války, kdy se
+porovnávalo signálové (SIGINT), lidské (HUMINT) a obrazové (IMINT) zpravodajství. Nedodržení
+tohoto principu vedlo k doloženým zpravodajským selháním; nejznámější je spoléhání na nepotvrzené
+informace jediného zdroje s krycím jménem „Curveball“ v době před válkou v Iráku (2003), které
+ovlivnily politická rozhodnutí.
 
-In distributed systems engineering, the concept of quorum consensus (requiring agreement from multiple nodes before accepting a write) is the technical analog of Signal Plurality. Systems like Raft and Paxos require majority agreement precisely because individual nodes can fail, be partitioned, or return stale data.
+Ve vědecké metodologii plní stejnou funkci požadavek nezávislé replikace. Vědecké tvrzení se
+nepřijímá na základě jediného experimentu; vyžaduje nezávislou replikaci jinými výzkumníky,
+nejlépe odlišnými metodami. [Replikační krize](@/glossary/replication-crisis.md) ve společenských
+vědách (od 10. let 21. století) ukázala, co se stane, když se tento standard uvolní.
 
-The Prismatic Platform's adoption of Signal Plurality as a hard axiom reflects a recognition that automated systems face the same epistemic risks as human intelligence analysts and distributed databases. When the platform assesses a security posture, classifies a threat, or evaluates code quality, the assessment is only as reliable as the evidence supporting it. Single-source evidence, no matter how authoritative it appears, leaves the assessment vulnerable to source failure.
+V inženýrství distribuovaných systémů je technickou obdobou plurality signálů konsenzus kvora
+(požadavek shody více uzlů před přijetím zápisu). Systémy jako Raft a Paxos vyžadují shodu
+většiny právě proto, že jednotlivé uzly mohou selhat, být odříznuty nebo vracet zastaralá data.
 
-## Technical Deep Dive
+To, že Prismatic Platform přijala pluralitu signálů jako tvrdý axiom, odráží poznání, že
+automatizované systémy čelí stejným epistemickým rizikům jako lidští zpravodajští analytici
+a distribuované databáze. Když platforma posuzuje bezpečnostní postavení, klasifikuje hrozbu
+nebo hodnotí kvalitu kódu, je posouzení jen tak spolehlivé jako důkazy, které ho podporují.
+Důkazy z jediného zdroje, ať působí jakkoli autoritativně, nechávají posouzení zranitelné vůči
+selhání zdroje.
 
-### Axiom Specification
+## Technický rozbor
 
-Signal Plurality is one of seven non-negotiable axioms in the NABLA Infinity framework:
+### Specifikace axiomu
 
-| Property | Value |
+Pluralita signálů je jedním ze sedmi nepodkročitelných axiomů rámce NABLA Infinity:
+
+| Vlastnost | Hodnota |
 |----------|-------|
-| Axiom Number | 1 (Signal Plurality) |
-| Enforcement | HARD -- cannot be bypassed or overridden |
-| Minimum Signals | 2 independent sources |
-| Violation Response | E2 BLOCK -- immediate rejection |
-| Override Authority | None -- no authority level can bypass |
-| Scope | All beliefs, claims, and decisions platform-wide |
+| Číslo axiomu | 1 (pluralita signálů) |
+| Vynucení | TVRDÉ – nelze obejít ani přebít |
+| Minimum signálů | 2 nezávislé zdroje |
+| Reakce na porušení | E2 BLOCK – okamžité odmítnutí |
+| Autorita k přebití | žádná – nemůže ji obejít žádná úroveň oprávnění |
+| Rozsah | všechna přesvědčení, tvrzení a rozhodnutí v celé platformě |
 
-### Independence Verification
+### Ověření nezávislosti
 
-Determining signal independence requires analysis of source provenance. Two signals are independent if and only if they have different origins, no shared upstream sources, and different collection methodologies:
+Určení nezávislosti signálů vyžaduje analýzu provenience zdroje. Dva signály jsou nezávislé
+právě tehdy, mají-li různý původ, žádné sdílené zdroje proti proudu a různé metodiky sběru:
 
 ```elixir
 defmodule Prismatic.Epistemic.SignalPlurality do
@@ -159,25 +200,25 @@ defmodule Prismatic.Epistemic.SignalPlurality do
 end
 ```
 
-## Enforcement Architecture
+## Architektura vynucení
 
-### Platform-Wide Enforcement Points
+### Body vynucení v celé platformě
 
-Signal Plurality is enforced at every point where beliefs or claims are formed:
+Pluralita signálů se vynucuje v každém bodě, kde vznikají přesvědčení nebo tvrzení:
 
-| System | Enforcement Point | Signals Required |
+| Systém | Bod vynucení | Potřebné signály |
 |--------|------------------|-----------------|
-| Intelligence Fusion | OSINT assessment formation | 2+ OSINT providers |
-| Security Ratings | Per-dimension scoring | 2+ evidence sources per dimension |
-| Color Teams | Red Team finding validation | 2+ attack vector confirmations |
-| Blue Team | Defensive posture assessment | 2+ monitoring signals |
-| Quality Assessment | Quality domain scoring | 2+ verification tools |
-| Threat Intelligence | Threat indicator acceptance | 2+ threat feeds |
-| Compliance Assessment | Compliance finding validation | 2+ compliance checks |
+| Fúze zpravodajských informací | vznik posouzení z OSINT | 2+ poskytovatelé OSINT |
+| Bezpečnostní hodnocení | skórování po dimenzích | 2+ zdroje důkazů na dimenzi |
+| Barevné týmy | ověření zjištění Red Teamu | 2+ potvrzení vektoru útoku |
+| Blue Team | posouzení obranného postavení | 2+ monitorovací signály |
+| Posouzení kvality | skórování oblastí kvality | 2+ ověřovací nástroje |
+| Zpravodajství o hrozbách | přijetí indikátoru hrozby | 2+ feedy hrozeb |
+| Posouzení souladu | ověření zjištění souladu | 2+ kontroly souladu |
 
-### Axiom Enforcer Integration
+### Napojení na vynucovač axiomů
 
-Signal Plurality enforcement integrates with the broader NABLA axiom checking system:
+Vynucení plurality signálů je napojeno na širší systém kontroly axiomů NABLA:
 
 ```elixir
 defmodule Prismatic.Epistemic.AxiomEnforcer do
@@ -256,9 +297,11 @@ defmodule Prismatic.Epistemic.AxiomEnforcer do
 end
 ```
 
-## Security Rating Enforcement
+## Vynucení v bezpečnostním hodnocení
 
-The [EASM](@/glossary/easm.md) Security Rating system enforces signal plurality at the dimension level. No dimension score is accepted without at least two independent evidence sources:
+Systém bezpečnostního hodnocení [EASM](@/glossary/easm.md) vynucuje pluralitu signálů na úrovni
+dimenzí. Skóre žádné dimenze se nepřijme bez nejméně dvou nezávislých zdrojů důkazů (viz [Risk
+Score](@/glossary/risk-score.md)):
 
 ```elixir
 defmodule PrismaticPerimeter.Rating.PluralityEnforcer do
@@ -310,9 +353,11 @@ defmodule PrismaticPerimeter.Rating.PluralityEnforcer do
 end
 ```
 
-## Signal Quality Weighting
+## Vážení kvality signálů
 
-Not all signals carry equal weight. While plurality requires at least two signals, the system weights signals based on quality factors. This ensures that while the minimum of two independent signals is always enforced, the resulting belief confidence reflects the quality of the contributing signals:
+Ne všechny signály mají stejnou váhu. Pluralita sice vyžaduje nejméně dva signály, ale systém
+signály váží podle faktorů kvality. Minimum dvou nezávislých signálů se tak vynucuje vždy,
+a výsledná důvěra v přesvědčení přitom odráží kvalitu přispívajících signálů:
 
 ```elixir
 defmodule Prismatic.Epistemic.SignalWeighting do
@@ -373,9 +418,12 @@ defmodule Prismatic.Epistemic.SignalWeighting do
 end
 ```
 
-## Contradiction Handling with Plural Signals
+## Zacházení s rozpory u plurálních signálů
 
-When plural signals contradict each other, the [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) axiom takes precedence. Contradictions between valid signals are preserved as informative data points rather than being resolved by discarding one signal:
+Když si plurální signály odporují, má přednost axiom [zachování
+rozporu](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/).
+Rozpory mezi platnými signály se zachovávají jako informativní datové body, místo aby se řešily
+zahozením jednoho ze signálů:
 
 ```elixir
 defmodule Prismatic.Epistemic.ContradictionHandler do
@@ -430,9 +478,9 @@ defmodule Prismatic.Epistemic.ContradictionHandler do
 end
 ```
 
-## Usage Examples
+## Příklady užití
 
-### Checking Signal Plurality
+### Kontrola plurality signálů
 
 ```elixir
 # Verify plurality before forming a belief about a domain's security posture
@@ -476,79 +524,117 @@ case Prismatic.Epistemic.SignalPlurality.verify_plurality(signals) do
 end
 ```
 
-### Common Integration Patterns
+### Běžné integrační vzory
 
-| Pattern | Implementation | Example |
+| Vzor | Implementace | Příklad |
 |---------|---------------|---------|
-| OSINT Fusion | Multiple provider queries | [Shodan](@/glossary/shodan.md) + [Censys](@/glossary/censys.md) for port scanning |
-| Certificate Validation | Multiple CT log queries | CT transparency + direct SSL scan |
-| DNS Verification | Multiple resolver queries | Public DNS + authoritative nameserver |
-| Reputation Check | Multiple reputation databases | [GreyNoise](@/glossary/greynoise.md) + AbuseIPDB |
-| Compliance Assessment | Multiple compliance checks | NIS2 + ZKB independent assessments |
+| fúze OSINT | dotazy na více poskytovatelů | [Shodan](@/glossary/shodan.md) + [Censys](@/glossary/censys.md) pro skenování portů |
+| ověření certifikátů | dotazy do více logů CT | Certificate Transparency + přímý sken SSL |
+| ověření DNS | dotazy na více resolverů | veřejné DNS + autoritativní jmenný server |
+| kontrola reputace | více reputačních databází | [GreyNoise](@/glossary/greynoise.md) + AbuseIPDB |
+| posouzení souladu | více kontrol souladu | nezávislá posouzení NIS2 a ZKB |
 
-## Relationship to Other NABLA Axioms
+## Vztah k ostatním axiomům NABLA
 
-Signal Plurality does not operate in isolation. It interacts with the other six NABLA axioms in specific ways:
+Pluralita signálů nepůsobí izolovaně. S ostatními šesti axiomy NABLA interaguje konkrétními
+způsoby:
 
-| Axiom | Relationship to Signal Plurality |
+| Axiom | Vztah k pluralitě signálů |
 |-------|----------------------------------|
-| **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | When plural signals contradict, both are preserved |
-| **Absence Informative** | Missing second signal is itself data -- investigated as potential gap |
-| **[Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | Plural signals must be temporally current; aged signals lose weight |
-| **Unknown Valid** | "Insufficient signals" is a valid state; do not fabricate plurality |
-| **Source Independence** | Weighting favors independent sources; shared upstream degrades confidence |
-| **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | Independence verification requires provenance; signals without it are rejected |
+| **[Zachování rozporu](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | když si plurální signály odporují, zachovají se oba |
+| **Informativní absence** | chybějící druhý signál je sám údajem – šetří se jako možná mezera |
+| **[Časový rozpad](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | plurální signály musí být časově aktuální; staré signály ztrácejí váhu |
+| **Platnost neznáma** | „nedostatek signálů“ je platný stav; pluralita se nesmí vymýšlet |
+| **Nezávislost zdrojů** | vážení zvýhodňuje nezávislé zdroje; sdílený zdroj proti proudu snižuje důvěru |
+| **[Povinná provenience](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | ověření nezávislosti vyžaduje provenienci; signály bez ní se odmítají |
 
-## Best Practices
+## Osvědčené postupy
 
-**Design Data Collection for Plurality from the Start**: Do not build single-source systems and try to add plurality later. Multiple independent sources should be the default collection pattern.
+**Navrhovat sběr dat pro pluralitu od začátku**: nestavět systémy s jediným zdrojem a nesnažit
+se pluralitu přidat později. Výchozím vzorem sběru má být více nezávislých zdrojů.
 
-**Verify Independence Rigorously**: Two APIs from the same vendor are not independent. Two analyses of the same dataset are not independent. Independence requires genuinely separate data origins.
+**Důsledně ověřovat nezávislost**: dvě API od téhož dodavatele nejsou nezávislá. Dvě analýzy
+téže datové sady nejsou nezávislé. Nezávislost vyžaduje skutečně oddělený původ dat.
 
-**Document Provenance for All Signals**: Without provenance, independence cannot be verified. Every signal entering the system must carry its origin, methodology, and upstream dependencies.
+**Dokumentovat provenienci všech signálů**: bez provenience nelze nezávislost ověřit. Každý signál
+vstupující do systému musí nést svůj původ, metodiku a závislosti proti proudu.
 
-**Handle the Cost of Plurality Explicitly**: Querying multiple sources takes more time and resources. Design systems with appropriate concurrency and timeout handling for plural collection.
+**Výslovně počítat s cenou plurality**: dotazování více zdrojů stojí více času a prostředků.
+Systémy je třeba navrhnout s přiměřenou souběžností a ošetřením timeoutů pro plurální sběr.
 
-**Do Not Weaken Plurality Requirements Under Pressure**: The axiom is hard-enforced precisely because pressure situations are when single-source errors are most dangerous.
+**Neoslabovat požadavky plurality pod tlakem**: axiom se vynucuje tvrdě právě proto, že pod
+tlakem jsou chyby z jediného zdroje nejnebezpečnější.
 
-## Common Pitfalls
+## Časté chyby
 
-- **Confusing quantity with plurality**: Ten signals from the same source still count as one independent signal. Plurality requires independent origins, not high volume.
+- **Zaměňovat množství s pluralitou**: deset signálů z téhož zdroje se stále počítá jako jeden
+  nezávislý signál. Pluralita vyžaduje nezávislý původ, ne velký objem.
+- **Předpokládat nezávislost API**: různé endpointy téhož poskytovatele sdílejí stejná podkladová
+  data. Nepředstavují nezávislé signály.
+- **Uvolňovat pluralitu u „důvěryhodných“ zdrojů**: žádný zdroj není tak důvěryhodný, aby mohl
+  pluralitu obejít. I nejspolehlivější zdroj může být kompromitován, chybně nastaven nebo
+  zastaralý.
+- **Považovat pluralitu za postačující pro pravdu**: pluralita je nutná, ale ne postačující.
+  Dva nezávislé signály se mohou mýlit oba. Pluralita epistemické riziko snižuje, ale neodstraňuje.
+- **Vymýšlet signály, aby se axiomu vyhovělo**: vytváření umělých signálů ke splnění minima
+  dvou porušuje ducha i účel axiomu. Axiom platnosti neznáma výslovně dovoluje přiznat
+  nedostatek důkazů místo jejich vymýšlení.
 
-- **Assuming API independence**: Different API endpoints from the same provider share the same underlying data. They do not constitute independent signals.
+## Pluralita signálů u lidí
 
-- **Relaxing plurality for "trusted" sources**: No source is trusted enough to bypass plurality. Even the most reliable source can be compromised, misconfigured, or outdated.
+Kompendium přenáší princip na lidské poznávání jako kritérium zdravého informačního prostředí,
+ne jako požadavek „dvou svědků“ pro každou vzpomínku:
 
-- **Treating plurality as sufficient for truth**: Plurality is necessary but not sufficient. Two independent signals can both be wrong. Plurality reduces but does not eliminate epistemic risk.
+- **izolace ruší pluralitu** – když všechny informace o světě i o sobě přicházejí od jediné
+  osoby nebo skupiny, ztrácí člověk možnost cokoli nezávisle ověřit (viz [detekční signaturu
+  Akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md));
+- **falešná pluralita** – skupina, v níž všichni opakují tutéž verzi, vypadá jako mnoho zdrojů,
+  ale je jedním (srov. [High Control Group](@/glossary/high-control-group.md));
+- **obnova plurality** je součástí zotavení – návrat ke starým přátelům, dokumentům a nezávislým
+  odborníkům ([Akutní sociální
+  rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md));
+- **ve forenzní praxi** odpovídá principu potvrzení třetí osobou ([Třetiosobní
+  potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md)), u něhož se ovšem
+  nesmí zapomínat, že mnohé formy psychického násilí probíhají bez svědků a absence potvrzení
+  neznamená nepravdivost výpovědi.
 
-- **Fabricating signals to satisfy the axiom**: Generating artificial signals to meet the minimum of two violates the spirit and purpose of the axiom. The "Unknown Valid" axiom explicitly permits acknowledging insufficient evidence rather than fabricating it.
+## Související
 
-## Related Concepts
+**Pojmy v tomto glosáři**
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Parent epistemic framework defining this axiom
-- [Intelligence Fusion](@/glossary/intelligence-fusion.md) -- Multi-source correlation requiring signal plurality
-- [Blue Team](@/glossary/blue-team.md) -- Signal aggregation with plurality enforcement
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate complementing plurality requirements
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Scoring system for evaluating plural signals
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Handling contradictions between plural signals
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Traceability requirement enabling independence verification
-- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) -- Temporal weighting applied to plural signals
-- [Shodan](@/glossary/shodan.md) -- Primary discovery signal source in EASM
-- [Censys](@/glossary/censys.md) -- Secondary discovery signal source in EASM
-- [GreyNoise](@/glossary/greynoise.md) -- Threat context signal source complementing discovery signals
-- [EASM](@/glossary/easm.md) -- Security domain enforcing signal plurality per rating dimension
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – nadřazený epistemický rámec, který axiom
+  definuje.
+- [Axiomy NABLA](@/glossary/nabla-axioms.md) – všech sedm axiomů a jejich implementace.
+- [Intelligence Fusion](@/glossary/intelligence-fusion.md) – korelace více zdrojů, která
+  pluralitu vyžaduje.
+- [Blue Team](@/glossary/blue-team.md) – agregace signálů s vynucením plurality.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací brána doplňující požadavky plurality.
+- [Shodan](@/glossary/shodan.md), [Censys](@/glossary/censys.md), [GreyNoise](@/glossary/greynoise.md),
+  [EASM](@/glossary/easm.md) – zdroje signálů a oblast, která pluralitu vynucuje po dimenzích.
+- [Sociální izolace](@/glossary/socialni-izolace.md) – lidská obdoba ztráty plurality.
 
-## See Also
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Agent catalog including Blue Team aggregators
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/),
+  [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/),
+  [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/),
+  [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/).
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Agenti](https://prismatic-reality-com.github.io/prismatic-promo/agents/).
+
+**Kniha**
+
+- [EA × OSINT: triangulace napříč zdroji](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) –
+  pluralita v investigativní praxi.
+- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – jak axiomy
+  vstupují do knihy.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

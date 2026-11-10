@@ -1,6 +1,6 @@
 +++
 title = "EA-2.1.1 Expertní disinflace"
-description = "Detailní per-technique článek: technika expertní disinflace — systematické vyfukování (deflace) expertního statusu cílového aktéra prostřednictvím selektivní rekontextualizace jeho prací, kvalifikací a institucionálních afiliací. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika expertní disinflace — systematické vyfukování (deflace) expertního statusu cílového aktéra prostřednictvím selektivní rekontextualizace jeho prací."
 weight = 211
 insert_anchor_links = "right"
 
@@ -74,7 +74,7 @@ Co prožívá oběť expertní disinflace:
 
 - **Kafkovský pocit**, že odpovídání na konkrétní tvrzení nikam nevede — narativ se posouvá
 - **Disonance** mezi vlastním obrazem (kompetentní odborník) a cizím obrazem (problematická postava)
-- **Sociální izolace** — kolegové, kteří se obávají reputačního přenosu
+- **[Sociální izolace](@/glossary/socialni-izolace.md)** — kolegové, kteří se obávají reputačního přenosu
 - **Energetické vyčerpání** z neustálého obhajování pozadí, ke kterému neměli přímý vztah
 - **Postupná internalizace** — pochybnosti, zda kritici nemají v některých bodech pravdu
 - **Hypervigilance** vůči novým útokům, paranoidní orientace v profesním prostředí

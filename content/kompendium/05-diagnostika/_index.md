@@ -21,15 +21,15 @@ postup posouzení rozložen na kroky a u každého je uvedeno, kde je rozpracov�
 
 ## Co se vlastně diagnostikuje
 
-Epistemická anihilace není diagnóza v Mezinárodní klasifikaci nemocí. Posouzení proto
+[Epistemická anihilace](@/glossary/epistemicka-anihilace.md) není diagnóza v Mezinárodní klasifikaci nemocí. Posouzení proto
 neodpovídá na otázku „má pacient EA?“, ale na tři jiné:
 
 1. **Bylo poznávací prostředí člověka systematicky ovládáno?** Jde o popis vnějších
    podmínek: kdo kontroloval informace, vztahy a výklad zkušenosti.
 2. **Jaké stopy to zanechalo?** Změny v metakognici, v interpretaci, v důvěře ke
    zdrojům a v příběhu o sobě.
-3. **Jaké klinické stavy jsou přítomny?** Úzkost, deprese, PTSD a komplexní trauma,
-   disociace, závislosti, psychotické příznaky – ty se diagnostikují a léčí podle běžných
+3. **Jaké klinické stavy jsou přítomny?** Úzkost, deprese, PTSD a [komplexní trauma](@/glossary/complex-trauma.md),
+   [disociace](@/glossary/disociace.md), závislosti, psychotické příznaky – ty se diagnostikují a léčí podle běžných
    klinických standardů.
 
 Rozlišení obsahové a strukturální vrstvy (co člověk věří versus jak poznává) je jádrem

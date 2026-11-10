@@ -1,6 +1,6 @@
 +++
 title = "Section Bridges — propojení sekcí kompendia"
-description = "30 bridge článků propojujících jednotlivé sekce kompendia (01–08, techniques, case studies, quick reference, visualizations, glossary bridges, platform). Doplňuje glossary bridges na úrovni sekce-sekce."
+description = "30 bridge článků propojujících jednotlivé sekce kompendia (01–08, techniques, case studies, quick reference, visualizations, glossary bridges, platform)."
 weight = 97
 sort_by = "weight"
 template = "section.html"
@@ -114,7 +114,7 @@ Každý section bridge článek obsahuje:
 | Mikro-vrstva (200–400 slov) | Mezo-vrstva (400–600 slov) |
 | Definiční ukotvení | Strukturální navigace |
 | Reciprocita: pojem ↔ definice | Reciprocita: kapitola ↔ kapitola |
-| Driver: NCLB doctrine | Driver: čtenářská orientace |
+| Driver: NCLB [doctrine](@/glossary/doctrine.md) | Driver: čtenářská orientace |
 
 Obě vrstvy jsou **komplementární** — glossary bridges drží přesnost na úrovni pojmu, section bridges drží orientaci na úrovni knihy.
 

@@ -122,7 +122,7 @@ před každým nahráváním.
 - **S2 – Externalizace introjektů.** Práce s „cenzorem v hlavě“: pojmenovat ho, popsat, kdy
   promlouvá, a odlišit jeho soudy od vlastních. Užitečné bylo poslouchat surové nahrávky
   společně s terapeutem jako materiál pro [externalizaci](@/kompendium/techniques/ea-6-3-2-externalizacni-faze.md).
-- **S3 – Rekonstrukce metakognice.** Pravidlo „žádné tvrzení bez zdroje, který není součástí
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Pravidlo „žádné tvrzení bez zdroje, který není součástí
   okruhu“ ([triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md));
   [časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)
   místo poslechu „na jeden zátah“.

@@ -5,6 +5,9 @@ description = "Utah 1989: Pons a Fleischmann oznámili jadernou fúzi za pokojov
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

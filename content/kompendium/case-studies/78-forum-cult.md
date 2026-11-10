@@ -123,7 +123,7 @@ Podrobně viz [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/di
   Bezpečnostní plán: změna hesel, kontrola, co o něm fórum ví.
 - **S2 – Externalizace introjektů.** Slovník fóra byl sepsán a přeložen; subjekt sledoval, kdy
   zkratky používá doma a kým tím mluví.
-- **S3 – Rekonstrukce metakognice.** Práce s nenaplněnými předpověďmi: tabulka toho, co bylo
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Práce s nenaplněnými předpověďmi: tabulka toho, co bylo
   předpovězeno, kdy a co se stalo ([falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md),
   [revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md)).
 - **S4 – Hermeneutická obnova.** Čtení archivu vlastních příspěvků jako biografického

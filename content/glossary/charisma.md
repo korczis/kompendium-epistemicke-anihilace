@@ -140,7 +140,7 @@ vůdce nabízí odpovědi na všechny otázky.
 ## Literatura
 
 - Max Weber: *Wirtschaft und Gesellschaft* (1922), část o typech panství.
-- Robert J. Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+- Robert J. Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
 - Margaret T. Singer, Janja Lalich: *Cults in Our Midst* (1995).
 
 ## Související

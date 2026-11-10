@@ -1,6 +1,6 @@
 +++
 title = "7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt"
-description = "Maurice Merleau-Pontyho fenomenologie těla, primát percepce a koncept chair (maso) jako rámec pro analýzu somatické dimenze epistemické anihilace — útoků, jež operují skrze tělo, nikoli pouze skrze rozum."
+description = "Maurice Merleau-Pontyho fenomenologie těla, primát percepce a koncept chair (maso) jako rámec pro analýzu somatické dimenze epistemické anihilace."
 weight = 16
 insert_anchor_links = "right"
 
@@ -17,7 +17,7 @@ toc = true
 
 # 7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt
 
-Maurice Merleau-Pontyho *Phénoménologie de la perception* (1945) představuje **radikální revizi** karteziánsko-husserlovské tradice: vědomí není **bezprostředně transparentní subjekt**, ale je **konstitutivně vtělené**. Pro kompendium EA poskytuje Merleau-Pontyho fenomenologie nástroj pro pochopení **somatické dimenze** epistemické anihilace — útoků, jež operují **skrze tělo**, nikoli pouze skrze racionální argumentaci.
+Maurice Merleau-Pontyho *Phénoménologie de la perception* (1945) představuje **radikální revizi** karteziánsko-husserlovské tradice: vědomí není **bezprostředně transparentní subjekt**, ale je **konstitutivně vtělené**. Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Merleau-Pontyho fenomenologie nástroj pro pochopení **somatické dimenze** epistemické anihilace — útoků, jež operují **skrze tělo**, nikoli pouze skrze racionální argumentaci.
 
 ## 1. Primát percepce
 
@@ -60,7 +60,7 @@ Merleau-Ponty popisuje intersubjektivitu jako **původní vzájemné** zapuště
 
 Pro EA z toho plyne:
 
-- **Útok na sdílený styl** je strukturální technika: rozkládání **bezprostředního porozumění** mezi lidmi (gaslighting, deformace komunikačních pravidel).
+- **Útok na sdílený styl** je strukturální technika: rozkládání **bezprostředního porozumění** mezi lidmi ([gaslighting](@/glossary/gaslighting.md), deformace komunikačních pravidel).
 - **Algoritmické zprostředkování** intersubjektivity (sociální sítě, dating apps) strukturálně **redukuje** styl na **profil** — výřezy, jež nezachycují stylovou jednotu osoby.
 - Klinický korelát: **rozpad důvěry** v primární vztahy je strukturální výstupem útoku na styl.
 

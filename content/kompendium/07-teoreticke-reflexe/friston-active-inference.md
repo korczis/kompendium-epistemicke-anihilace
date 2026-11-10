@@ -19,7 +19,7 @@ toc = true
 
 Karl Friston — britský neurovědec — formuluje **princip volné energie** (*free energy principle*) jako **strukturální princip** organizace všech adaptivních systémů. V navazující teorii **aktivní inference** (*active inference*) Friston rozvíjí jednotný matematický formalismus pro vnímání, jednání a učení.
 
-Pro kompendium EA poskytuje Fristonova teorie nástroj pro pochopení **EA technik operujících skrze manipulaci priors** (a priori přesvědčení) a **chyb predikce**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Fristonova teorie nástroj pro pochopení **EA technik operujících skrze manipulaci priors** ([a priori](@/glossary/apriori.md) přesvědčení) a **chyb predikce**.
 
 ## 1. Princip volné energie
 
@@ -35,8 +35,8 @@ Systém má **dva modus** minimalizace:
 
 Pro EA z toho plyne:
 
-- **Manipulace priors**: techniky, jež **modifikují** subjektovy a priori přesvědčení (gaslighting, indoktrinace), strukturálně **manipulují** základní prediktivní strukturou.
-- **Manipulace senzorických signálů**: techniky, jež **modifikují** prostředí (filter bubbles, propaganda), manipulují **chybou predikce**.
+- **Manipulace priors**: techniky, jež **modifikují** subjektovy a priori přesvědčení ([gaslighting](@/glossary/gaslighting.md), indoktrinace), strukturálně **manipulují** základní prediktivní strukturou.
+- **Manipulace senzorických signálů**: techniky, jež **modifikují** prostředí (filter bubbles, [propaganda](@/glossary/propaganda.md)), manipulují **chybou predikce**.
 - **Klinický korelát**: **schizofrenie** lze interpretovat jako strukturální **dysfunkci** v rovnováze priors/predikce — pacient přestává **kalibrovat** model adekvátně.
 
 ## 2. Aktivní inference

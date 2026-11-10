@@ -33,10 +33,10 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 02 — Úvod do platformy**: 3NL je představen jako základní organizační princip Prismatic agentů
-- **Sekce 03 — Doctrine pillars**: 3NL tvoří první pilíř 18-pillar doctrine vedle NMND, NWB a M5M
-- **Sekce 06 — Klinické aplikace v due diligence**: 3NL slouží jako rámec pro multi-vrstvou validaci OSINT nálezů
+- **Sekce 03 — [Doctrine](@/glossary/doctrine.md) pillars**: 3NL tvoří první pilíř 18-pillar doctrine vedle NMND, NWB a M5M
+- **Sekce 06 — Klinické aplikace v [due diligence](@/glossary/due-diligence.md)**: 3NL slouží jako rámec pro multi-vrstvou validaci OSINT nálezů
 - **Sekce 07 — Teoretické reflexe**: souvislost s tripartitním modelem mysli (Platón, Freud, MacLean)
-- **Per-technique články**: konkrétní implementace ve scoring engine, decision engine a calibration loop
+- **Per-technique články**: konkrétní implementace ve scoring engine, [decision engine](@/glossary/decision-engine.md) a calibration loop
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
 

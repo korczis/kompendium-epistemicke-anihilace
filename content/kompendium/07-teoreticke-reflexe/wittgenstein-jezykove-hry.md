@@ -47,7 +47,7 @@ Pro taxonomii EA z toho plyne:
 
 Jazykové hry nejsou izolovány — jsou **vsazeny** v širších **formách života**, jež zahrnují přesvědčení, hodnoty, instituce, rituály, tělesné praktiky a sdílené reakce. „*Co je třeba přijmout, dané, jsou — jak by se dalo říci — formy života.*“ (PU II.xi)
 
-Pro kompendium EA má tato kategorie **zásadní význam**:
+Pro [kompendium EA](@/glossary/kompendium-ea.md) má tato kategorie **zásadní význam**:
 
 - Útok na epistemické kapacity může být **šitý na míru** specifické formě života. Co funguje jako manipulace v jedné formě života (například apel na autoritu v hierarchické kultuře), může být v jiné formě života neúčinné.
 - **Sférická imunologie** Sloterdijka ([viz 7.1 §3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) strukturálně rezonuje s wittgensteinovskou formou života: oba pojmy popisují **podmínky možnosti** smysluplného fungování.
@@ -69,16 +69,16 @@ Pro EA z toho plyne:
 
 Wittgensteinův argument proti soukromému jazyku (PU §§243–315) ukazuje, že **smyslový jazyk** (mluvení o vlastních pocitech, vjemech, bolesti) není primárně **introspektivní deskripcí**, ale **veřejně naučenou praktikou** s veřejnými kritérii správnosti.
 
-Pro epistemické trauma ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)) má toto argumentaci **klinický význam**:
+Pro [epistemické trauma](@/glossary/epistemicke-trauma.md) ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)) má toto argumentaci **klinický význam**:
 
-- **Gaslighting** je systematickým **rozpojováním** subjektu od veřejných kritérií jeho vlastních zážitků. „Ne, to jsi necítil/a.“ „To se ti zdálo.“ Subjekt je strukturálně odřezáván od jazykové komunity, jež jediná může jeho zážitkům dát význam.
+- **[Gaslighting](@/glossary/gaslighting.md)** je systematickým **rozpojováním** subjektu od veřejných kritérií jeho vlastních zážitků. „Ne, to jsi necítil/a.“ „To se ti zdálo.“ Subjekt je strukturálně odřezáván od jazykové komunity, jež jediná může jeho zážitkům dát význam.
 - **Klinická intervence** musí znovuzavázat subjekt do jazykové hry, v níž jeho zážitky mají interpretovatelnou tvář.
 
 ## 6. Relevance pro taxonomii EA
 
 | Wittgensteinovský pojem | EA technika | Kategorie |
 |--------------------------|-------------|-----------|
-| Jazyková hra | Manipulace kontextu | EA-2.x kategorie |
+| [Jazyková hra](@/glossary/jazykova-hra.md) | Manipulace kontextu | EA-2.x kategorie |
 | Forma života | Sférický útok | EA-3.x strukturální |
 | Pravidlo | Pseudo-pravidlo | EA-1.5 terminologická mystifikace |
 | Sledování pravidla | Falešná interpretace | EA-1.4 chybná aplikace |

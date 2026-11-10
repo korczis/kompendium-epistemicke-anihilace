@@ -5,6 +5,9 @@ description = "Konspirační hnutí, které od roku 2017 vyrostlo z anonymních 
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"

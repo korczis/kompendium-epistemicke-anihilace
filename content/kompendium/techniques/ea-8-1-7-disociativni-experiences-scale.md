@@ -42,7 +42,7 @@ Cut-off ≥30 indikuje pravděpodobnou dissociativní poruchu, ≥45 vysoké riz
 
 ## Aplikace v EA kontextu
 
-Pre-screening pro **EA-6.5.4 Dissociative Acute Protokol** a **EA-6.5.6 Inpatient Stabilization**. Detekce strukturální dissociace u obětí EA-5.x ultrabrutálních technik. Repeat-měření pro monitoring stabilizace.
+Pre-screening pro **[EA-6.5.4](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md) Dissociative Acute Protokol** a **[EA-6.5.6](@/kompendium/techniques/ea-6-5-6-inpatient-stabilizace.md) Inpatient Stabilization**. Detekce strukturální dissociace u obětí EA-5.x ultrabrutálních technik. Repeat-měření pro monitoring stabilizace.
 
 ## Validační status
 
@@ -50,11 +50,11 @@ Carlson & Putnam (1993), Bernstein & Putnam (1986). N=10000+ napříč studiemi.
 
 ## Limitace
 
-False positive při PTSD bez DD, schizofrenii a v období intenzivního stresu. Self-report — pacienti s amnesií mohou nedohlédnout vlastní symptomy.
+False positive při PTSD bez DD, schizofrenii a v období intenzivního stresu. [Self-report](@/glossary/self-report.md) — pacienti s amnesií mohou nedohlédnout vlastní symptomy.
 
 ## Vztah k jiným zdrojům
 
-Doplňkový k **EA-8.2.9 van der Kolk Trauma** a **EA-8.2.7 DSM-5-TR Trauma**. Vždy v páru s **EA-8.1.8 Traumatic Stress Screen**.
+Doplňkový k **[EA-8.2.9](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) van der Kolk Trauma** a **[EA-8.2.7](@/kompendium/techniques/ea-8-2-7-dsm-5-tr-trauma.md) DSM-5-TR Trauma**. Vždy v páru s **[EA-8.1.8](@/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md) Traumatic Stress Screen**.
 
 ## Cross-linky
 

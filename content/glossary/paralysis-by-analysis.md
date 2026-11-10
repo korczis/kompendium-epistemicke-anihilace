@@ -1,10 +1,10 @@
 +++
-title = "Paralysis by Analysis"
+title = "Paralysis by analysis (paralýza analýzou)"
 weight = 5
-description = "Decision-making pathology in which excessive deliberation, information gathering, or option evaluation prevents the actor from reaching any decision at all — common in high-stakes contexts with poorly bounded option spaces"
+description = "Rozhodovací patologie, kdy nadměrné zvažování, sběr informací nebo hodnocení možností zabrání jakémukoli rozhodnutí; obrana, odlišení a zneužití v manipulaci."
 
 [taxonomies]
-tags = ["decision-theory", "psychology", "management", "operations"]
+tags = ["glossary", "psychology", "cognitive", "due-diligence", "kompendium"]
 
 [extra]
 category = "decision-theory"
@@ -21,43 +21,146 @@ keywords = ["paralysis by analysis", "analysis paralysis", "overthinking", "deci
 key_takeaway = "Paralysis by analysis is the failure mode of optimization seekers in environments where optimization is impossible. The remedy is not better analysis but explicit pre-commitment to *satisficing* heuristics — accepting good-enough rather than chasing best-possible."
 see_also = ["bayesian-reasoning", "uncertainty"]
 image = "/images/sections/glossary.png"
-image_alt = "Paralysis by Analysis - Prismatic Platform"
+image_alt = "Paralysis by analysis (paralýza analýzou) – glosář"
 +++
 
-## Definition
+## Definice
 
-Paralysis by analysis (also *analysis paralysis*) is a decision-making pathology in which the actor invests so much effort in gathering information, evaluating options, modeling consequences, or seeking the *best possible* solution that no decision is ever reached, or it is reached too late to be effective. The pattern is structurally distinct from rational deliberation: rational deliberation terminates when expected marginal value of additional analysis falls below its cost; paralysis by analysis fails to recognize this termination point because the perceived stakes inflate analysis value indefinitely.
+**Paralýza analýzou** (*paralysis by analysis*, také *analysis paralysis*) je rozhodovací
+patologie, při níž člověk nebo tým vynaloží tolik úsilí na shromažďování informací,
+hodnocení možností, modelování důsledků nebo hledání *nejlepšího možného* řešení, že
+k rozhodnutí vůbec nedojde, nebo dojde příliš pozdě, než aby bylo účinné.
 
-## Manažerské shrnutí
+Vzorec je strukturně odlišný od racionálního zvažování. Racionální zvažování končí, když
+očekávaná mezní hodnota další analýzy klesne pod její cenu; paralýza analýzou tento bod
+ukončení nerozpozná, protože vnímaná vysoká sázka nafukuje hodnotu další analýzy donekonečna.
 
-V kontextu Prismatic Platform je paralysis by analysis častý anti-vzor především v: (1) **DD case workflow** — analytik nemůže vydat sign-off, dokud neověří *všechny* nálezy, ale objem signálů je nekonečný; (2) **architektonická rozhodnutí** — výběr databázového adapteru se vleče měsíce, zatímco žádná z variant by nezpůsobila katastrofu; (3) **incident response** — operátor v on-call rotaci váhá mezi rollback a forward-fix tak dlouho, že incident eskaluje. Manažersky kritické: explicitní **time-box** pro každou rozhodovací fázi a předem definované *satisficing thresholds* (kdy "dost dobré" stačí). Pilíř M5M (Max 5 Minutes) je institucionalizovaná obrana proti tomuto vzoru — žádné rozhodnutí trvalá více než 5 minut bez explicitní eskalace.
+## Původ a kontext pojmu
 
-## Operational Context
+Herbert A. Simon (1956, 1957) formalizoval v rámci *omezené racionality* (*bounded
+rationality*) protiklad mezi *maximalizací* (hledání optima) a *satisficingem* (přijetí
+prvního řešení, které překročí práh přijatelnosti). Empirický výzkum Sheeny Iyengarové
+a Marka Leppera (2000) o *přetížení volbou* (*choice overload*) ukázal, že nárůst počtu
+možností může pravděpodobnost rozhodnutí *snížit* – ve známé „studii marmelád“ nakoupil
+z nabídky šesti druhů zhruba desetkrát větší podíl zákazníků než z nabídky dvaceti čtyř.
+Barry Schwartz (*The Paradox of Choice*, 2004) rozlišuje *maximizery* (osobnostní styl
+náchylný k paralýze) a *satisficery* (přijímají pragmaticky). Gerd Gigerenzer a Reinhard
+Selten (2001) chápou jednoduché heuristiky jako adaptivní nástroje, ne jako vadu.
 
-Herbert Simon (1956, 1957) formalizoval kontrast mezi *maximizing* (hledání optima) a *satisficing* (akceptace prvního řešení nad acceptance threshold) v rámci *bounded rationality*. Empirický výzkum (Iyengar & Lepper 2000, *Choice overload paradigm*) prokázal, že nárůst počtu možností *snižuje* pravděpodobnost rozhodnutí — slavný "jam study" ukázal 10× vyšší konverzi u 6 marmelád oproti 24. Současná behaviorální ekonomie (Schwartz, *The Paradox of Choice*, 2004) rozlišuje *maximizers* (osobnostní typ trpící paralýzou) od *satisficers* (akceptují pragmaticky). Klinicky se chronická paralysis by analysis překrývá s OCPD (obsessive-compulsive personality disorder) a s GAD (generalized anxiety disorder), ale ne každý případ je psychopatologií — často jde o kulturně podporovaný vzor v profesích vyžadujících *due diligence*.
+Na pozdější replikace efektu přetížení volbou je dobré pamatovat: jeho síla se mezi studiemi
+liší a závisí na podmínkách (srov. heslo [Replication Crisis](@/glossary/replication-crisis.md)).
 
-## Practical Application
+## Jak se projevuje
 
-1. **Time-boxed DD review**: každý DD report má hard deadline pro publikaci first-cut findings (typicky 5 pracovních dní); follow-up upravy probíhají v dalších iteracích, ne formou nekonečného odkládání první verze.
-2. **Architecture Decision Records (ADR)**: nový technický návrh má 2-týdenní debate window, po kterém leadership vynucuje rozhodnutí — buď accept, reject, nebo park-with-explicit-deadline.
-3. **Incident response runbook**: rozhodovací stromy s předem definovanými branch points eliminují potřebu deliberace v stresu — operátor následuje runbook, ne intuici.
-4. **Pre-commitment tactics**: *Ulysses contract* — zavázat se k rozhodnutí dle předem definovaného kritéria (např. "pokud cena > X, nezvažuji"), tím se odstraní možnost donekonečného zvažování.
+- opakované „ještě potřebujeme jedno ověření“ bez předem stanoveného kritéria, kdy ověřování
+  skončí;
+- rozšiřování otázky místo jejího zužování (každá odpověď otevře dvě nové otázky);
+- přesouvání termínů a výrazná úleva při každém odkladu;
+- rostoucí detailnost podkladů bez změny navrhovaného závěru;
+- u jednotlivce úzkost a ruminace před rozhodnutím, únava a vyhýbání se tématu.
 
-## Related Concepts
+V kontextu Prismatic Platform je paralýza analýzou častým antivzorcem zejména:
+(1) v **pracovním postupu due diligence** – analytik nemůže vydat schválení, dokud neověří
+*všechna* zjištění, ale objem signálů je nekonečný; (2) v **architektonických rozhodnutích** –
+výběr databázového adaptéru se vleče měsíce, ačkoli žádná z variant by nezpůsobila katastrofu;
+(3) v **reakci na incidenty** – operátor v pohotovosti váhá mezi rollbackem a opravou vpřed
+tak dlouho, že incident eskaluje.
 
-- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) - Provides termination criterion (when prior is updated enough)
-- [Uncertainty](https://prismatic-reality-com.github.io/prismatic-promo/glossary/uncertainty/) - The substrate driving decision pathology
-- [Anomaly Detection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/anomaly-detection/) - Operational context where rapid decisions are required
-- [Reality Testing](@/glossary/reality-testing.md) - Cognitive function that bounds analysis to relevant signals
+## Mechanismus
 
-## References
+Paralýza vzniká, když tři věci působí současně: nejasně ohraničený prostor možností,
+vnímaná vysoká sázka a chybějící pravidlo ukončení. Každá nová informace pak nezmenšuje
+nejistotu, ale zvětšuje prostor, který je třeba prozkoumat. Osobnostně se k tomu přidává
+strach z chyby a [perfekcionismus](@/glossary/perfekcionismus.md); organizačně rozptýlená
+odpovědnost, v níž se za odklad nikdo nezodpovídá.
 
-- Simon, H. A. *Models of Man: Social and Rational* (Wiley, 1957)
-- Iyengar, S. S. & Lepper, M. R. *When Choice is Demotivating* (J. Personality and Social Psychology, 2000)
-- Schwartz, B. *The Paradox of Choice: Why More Is Less* (Harper, 2004)
-- Kahneman, D. *Thinking, Fast and Slow* (Farrar, Straus and Giroux, 2011)
-- Gigerenzer, G. & Selten, R. eds. *Bounded Rationality: The Adaptive Toolbox* (MIT Press, 2001)
+Pro Kompendium je důležité, že paralýzu lze **navodit zvenčí**. Zahlcení množstvím tvrzení
+([Gish Gallop](@/glossary/gish-gallop.md), [Firehose of
+Falsehood](@/glossary/firehose-of-falsehood.md)), uměle zvyšovaná složitost ([EA-1.2.3
+Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)) nebo vytrvalé
+požadavky na další a další doklady ([sealioning](@/glossary/sealioning.md)) vytvářejí stav,
+v němž oběť nemůže uzavřít úsudek ani jednat. Opačným vzorcem je uměle vyvolaný časový tlak,
+který rozhodnutí naopak uspěchá (viz [detekční signaturu Vytváření časového
+tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)).
 
----
+## Odlišení
 
-*Built with precision. Optimized for AI consumption.*
+- **Od racionální opatrnosti** – opatrnost má pravidlo ukončení a mění se s novými
+  informacemi; paralýza pravidlo nemá.
+- **Od úzkostných poruch a OCPD** – klinicky se chronická paralýza překrývá s obsedantně
+  kompulzivní poruchou osobnosti (srov. [anankastický režim](@/glossary/anankasticky-rezim.md))
+  a s generalizovanou úzkostnou poruchou, ale ne každý případ je psychopatologií; často jde
+  o kulturně podporovaný vzorec v profesích, které vyžadují [due
+  diligence](@/glossary/due-diligence.md).
+- **Od [rekurzivní paralýzy](@/glossary/rekurzivni-paralyza.md)** – ta se týká sebereflexe,
+  která se zacyklí sama na sobě; paralýza analýzou se týká rozhodování o vnějším problému.
+- **Od depresivní abulie** – u deprese chybí energie a motivace, ne rozhodovací kritérium.
+
+## Význam pro Kompendium
+
+Platforma řeší paralýzu dvoufázovým modelem [NABLA Infinity](@/glossary/nabla-infinity.md)
+a [doktríny NM/ND](@/glossary/nm-nd.md): fáze zkoumání má výslovný práh, po jehož dosažení
+se přechází k exekuci. Pilíř M5M (*Max 5 Minutes*) je institucionalizovanou obranou: žádné
+rozhodnutí nemá trvat déle než pět minut bez výslovné eskalace. V knize pojem vysvětluje,
+proč oběti dlouhodobé manipulace často „nemohou odejít“, i když vědí, že by měly – nejde
+o nedostatek informací, ale o rozložené pravidlo ukončení úsudku.
+
+## Obrana a zotavení
+
+Praktické postupy z původní verze hesla:
+
+1. **Časově ohraničený přezkum DD** – každá zpráva due diligence má pevný termín pro
+   zveřejnění prvních zjištění (typicky pět pracovních dní); další úpravy probíhají
+   v následných iteracích, ne nekonečným odkládáním první verze.
+2. **Záznamy architektonických rozhodnutí** (*Architecture Decision Records*, ADR) – nový
+   technický návrh má dvoutýdenní okno na diskusi, po němž vedení vynutí rozhodnutí: přijmout,
+   odmítnout, nebo odložit s výslovným termínem.
+3. **Runbook pro reakci na incidenty** – rozhodovací stromy s předem stanovenými body větvení
+   odstraňují potřebu zvažování ve stresu; operátor postupuje podle runbooku, ne podle intuice.
+4. **Předběžný závazek** – *Odysseova smlouva*: zavázat se k rozhodnutí podle předem
+   stanoveného kritéria (např. „je-li cena vyšší než X, nezvažuji“), čímž odpadne možnost
+   donekonečného zvažování.
+
+Pro jednotlivce: stanovit si předem, co bude „dost dobré“ (*satisficing threshold*), omezit
+počet možností, ohraničit čas a rozhodnutí probrat s důvěryhodnou osobou mimo vliv toho, kdo
+zahlcení vytváří. Je-li paralýza navozena manipulací, je prvním krokem pojmenovat vzorec
+(„požadavky na další důkazy nemají konec“) a přestat hrát podle pravidel, která neumožňují
+skončit. Pro terapeuta: odlišit vnější zdroj zahlcení od vnitřní úzkosti a pracovat
+s tolerancí nejistoty (srov. [epistemická pokora](@/glossary/epistemicka-pokora.md)).
+
+## Literatura
+
+- Herbert A. Simon: *Models of Man: Social and Rational* (Wiley, 1957).
+- Sheena S. Iyengar, Mark R. Lepper: „When Choice is Demotivating“, *Journal of Personality
+  and Social Psychology* (2000).
+- Barry Schwartz: *The Paradox of Choice: Why More Is Less* (Harper, 2004).
+- Daniel Kahneman: *Thinking, Fast and Slow* (Farrar, Straus and Giroux, 2011).
+- Gerd Gigerenzer, Reinhard Selten (eds.): *Bounded Rationality: The Adaptive Toolbox* (MIT
+  Press, 2001).
+
+## Související
+
+**Pojmy**
+
+- [Reality Testing](@/glossary/reality-testing.md) – funkce, která omezuje analýzu na
+  relevantní signály.
+- [Perfekcionismus](@/glossary/perfekcionismus.md) – osobnostní zdroj nekonečného zvažování.
+- [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – zacyklená sebereflexe.
+- [Gish Gallop](@/glossary/gish-gallop.md) – zahlcení, které paralýzu vyvolává zvenčí.
+- [NM/ND](@/glossary/nm-nd.md) – výslovný přechod od zkoumání k exekuci.
+
+**Hesla platformy mimo tuto knihu**
+
+- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) –
+  dává kritérium ukončení (kdy je apriorní odhad dost aktualizovaný).
+- [Uncertainty](https://prismatic-reality-com.github.io/prismatic-promo/glossary/uncertainty/) –
+  podloží rozhodovací patologie.
+- [Anomaly Detection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/anomaly-detection/) –
+  provozní kontext, kde jsou nutná rychlá rozhodnutí.
+
+**Kniha**
+
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) –
+  technika, která paralýzu navozuje.
+- [Detekční signatura: Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) –
+  opačný vzorec uspěchaného rozhodnutí.

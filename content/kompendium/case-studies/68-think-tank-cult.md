@@ -139,7 +139,7 @@ Postupovalo se podle [protokolu epistemické rekonstrukce](@/kompendium/06-klini
 - **S2 – Externalizace introjektů.** Pojmenování vět, které převzal („politik nečte tabulky“,
   „kdo pochybuje, hraje za druhou stranu“), a jejich oddělení od vlastních hodnot, které
   institut z velké části sdílel jen navenek.
-- **S3 – Rekonstrukce metakognice.** Nácvik rozlišení „co tvrdím“, „co ukazují data“ a „čemu
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Nácvik rozlišení „co tvrdím“, „co ukazují data“ a „čemu
   věřím“; použití [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
   při čtení cizích i vlastních starých textů.
 - **S4 – Hermeneutická obnova.** Práce s vlastní minulostí bez sebeodsouzení: subjekt sepsal

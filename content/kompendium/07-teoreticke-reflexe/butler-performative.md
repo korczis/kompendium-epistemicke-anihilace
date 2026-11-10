@@ -1,6 +1,6 @@
 +++
 title = "7.21 Butler: Performativita a politika identity"
-description = "Judith Butlerová a teorie performativity, citačnost subjektivace, gender jako performativní akt — rámec pro analýzu EA technik operujících skrze opakovanou indukci a výkonnou produkci identitárních pozic."
+description = "Judith Butlerová a teorie performativity, citačnost subjektivace, gender jako performativní akt."
 weight = 21
 insert_anchor_links = "right"
 
@@ -19,7 +19,7 @@ toc = true
 
 Judith Butlerová ve svých pracích *Gender Trouble* (1990), *Bodies That Matter* (1993) a *Excitable Speech* (1997) formuluje **teorii performativity** — radikální analýzu, podle níž identitární pozice nejsou **vyjádřením** předem dané esence, ale **performativně produkovány** opakovanou citací norem.
 
-Pro kompendium EA poskytuje Butlerové teorie nástroj pro pochopení **strukturálních mechanismů**, jimiž EA techniky **performativně produkují** subjektové pozice — a způsobů, jak lze tyto produkce **subverze** ovlivňovat.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Butlerové teorie nástroj pro pochopení **strukturálních mechanismů**, jimiž EA techniky **performativně produkují** subjektové pozice — a způsobů, jak lze tyto produkce **subverze** ovlivňovat.
 
 ## 1. Performativita
 
@@ -27,7 +27,7 @@ Butlerová rozšiřuje Austinovu teorii **performativních promluv** (*How to Do
 
 Performativita má **trojstrukturu**:
 
-1. **Citačnost** — performativní akt je vždy **citací** předchozích aktů, nikoli originální tvorbou
+1. **Citačnost** — [performativní akt](@/glossary/performativni-akt.md) je vždy **citací** předchozích aktů, nikoli originální tvorbou
 2. **Iterabilita** — možnost opakování je strukturální podmínkou performativity
 3. **Subverze** — opakování nemůže být perfektní, vždy zanechává **prostor pro odlišnou citaci**
 

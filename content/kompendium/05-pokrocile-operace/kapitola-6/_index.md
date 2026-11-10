@@ -137,6 +137,6 @@ potkává s mocenskou závislostí, potřebují nezávislou supervizi a možnost
 **Pojmy a výuka**
 
 - [Glosář: metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – výsledný stav
-  na úrovni metakognice.
+  na úrovni [metakognice](@/glossary/metakognice.md).
 - [Vzdělávací scénář: detekce hyperreflexivity](@/kompendium/educational-scenarios/22-hyperreflexivity-spot.md)
   – nácvik rozpoznání.

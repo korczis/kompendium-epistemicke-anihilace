@@ -1,6 +1,6 @@
 +++
 title = "3.3 Pokročilá edukativní implementace"
-description = "Strukturované metodologické přístupy pro implementaci poznatků o epistemické anihilaci v edukativním kontextu — třífázový tréninkový protokol, supervizorské kompetence, certifikační požadavky, kontraindikační rámec, integrační cvičení, evaluační metriky a komparativní analýza s analogickými pedagogickými modely (CBT supervize, DBT trénink, etika v medicíně)."
+description = "Strukturované metodologické přístupy pro implementaci poznatků o epistemické anihilaci v edukativním kontextu."
 weight = 3
 insert_anchor_links = "right"
 
@@ -23,7 +23,7 @@ Kapitola operacionalizuje teoretické fundamenty z [Kapitoly 1](@/kompendium/03-
 
 ## Teoretické základy edukativního přístupu
 
-Pokročilá edukativní implementace vychází ze čtyř fundamentálních pedagogických principů, jejichž integrace zajišťuje efektivitu i etickou integritu edukačního procesu.
+Pokročilá [edukativní implementace](@/glossary/edukativni-implementace.md) vychází ze čtyř fundamentálních pedagogických principů, jejichž integrace zajišťuje efektivitu i etickou integritu edukačního procesu.
 
 ### Princip graduální expozice
 
@@ -157,7 +157,7 @@ Následující protokol představuje systematický rámec pro implementaci pozna
 
 | Modul | Obsah | Klíčové metody |
 |-------|-------|----------------|
-| **3.1** Klinická aplikace a diferenciální diagnostika | Práce s anonymizovanými klinickými případy, diferenciace od jiných klinických fenoménů | Supervised case work, ethics consultation, multi-disciplinární diskuse |
+| **3.1** Klinická aplikace a diferenciální diagnostika | Práce s anonymizovanými klinickými případy, [diferenciace](@/glossary/diferenciace.md) od jiných klinických fenoménů | Supervised case work, ethics consultation, multi-disciplinární diskuse |
 | **3.2** Detekce ve vlastním oboru | Aplikace v rámci vlastní disciplíny, identifikace strukturálních vulnerabilit | Disciplinary deep-dive, peer expert review, epistemic audit |
 | **3.3** Edukativní disseminace | Sekundární vzdělávání kolegů a studentů, pedagogické strategie | Pedagogical practicum, supervised teaching, train-the-trainer |
 | **3.4** Reflektivní syntéza | Integrace celé zkušenosti, profesní implikace, plánování kontinuálního rozvoje | Capstone project, integration paper, dlouhodobý rozvojový plán |
@@ -240,7 +240,7 @@ Pro autorizaci k vedení tréninkových programů jsou požadovány:
 |-----------|--------------|
 | **Doctoral level qualification** | PhD nebo ekvivalent v relevantní disciplíně (psychologie, filozofie, sociologie, klinické obory) |
 | **Klinická/výzkumná/pedagogická praxe** | Minimálně 5 let post-doctoral praxe |
-| **Specialized training** | Min. 200 hodin specializovaného tréninku v epistemic security |
+| **Specialized training** | Min. 200 hodin specializovaného tréninku v [epistemic security](@/glossary/epistemic-security.md) |
 | **Personal psychotherapy** | Doložené minimálně 100 hodin osobní psychoterapie |
 | **Ethics committee approval** | Schválení institucionální etickou komisí pro vedení programů |
 | **Continuing education** | 40 hodin CE ročně v relevantních oblastech |
@@ -483,7 +483,7 @@ Při implementaci s potenciálně vulnerabilními populacemi by měly být aplik
 
 #### Scénář 1: Epistemická retraumatizace
 
-**Deskripce**: Student s předchozí zkušeností vykazuje známky retraumatizace.
+**Deskripce**: Student s předchozí zkušeností vykazuje známky [retraumatizace](@/glossary/retraumatizace.md).
 
 **Navigační proces**: okamžitá deeskalace a stabilizace → neodsuzující validace → kolaborativní evaluace pokračování → adaptace plánu → adekvátní následná podpora s případným referralem.
 
@@ -557,7 +557,7 @@ Při implementaci s potenciálně vulnerabilními populacemi by měly být aplik
 | **Detekční přesnost** | Test pre/post — schopnost identifikovat techniky | ≥ 85% post |
 | **Detekční rychlost** | Median time-to-detection ve scénářích | ≤ 15s pro EA-1.* |
 | **Behaviorální transfer** | Aplikace v praxi (3-, 6-, 12-měsíční follow-up) | ≥ 70% reportujících aplikaci |
-| **Epistemic resilience** | Standardizované self-report instrumenty | Statisticky signifikantní zlepšení |
+| **Epistemic resilience** | Standardizované [self-report](@/glossary/self-report.md) instrumenty | Statisticky signifikantní zlepšení |
 | **Profesní integrace** | Reportování případů detekce | ≥ 5 dokumentovaných případů/rok |
 | **Etická compliance** | Adherence k bezpečnostním protokolům | 100% (zero tolerance) |
 
@@ -569,7 +569,7 @@ Pro klinický kontext jsou definována čtyři dodatečná cvičení.
 
 **Cíl**: Diferenciace epistemického traumatu od jiných klinických fenoménů s podobnými manifestacemi.
 
-**Struktura**: případová prezentace → strukturovaná diferenciální diagnostika → evidence-based rozhodování → kolaborativní konzultace → integrativní formulace.
+**Struktura**: případová prezentace → strukturovaná diferenciální diagnostika → [evidence-based](@/glossary/evidence-based.md) rozhodování → kolaborativní konzultace → integrativní formulace.
 
 ### Klinické cvičení 2: Terapeutická integrační laboratoř
 
@@ -741,9 +741,9 @@ Pokročilá edukativní implementace nestojí izolovaně, ale je strukturálně 
 
 [Color Teams](@/glossary/color-teams.md) poskytuje organizační rámec pro kolaborativní analýzu. Pokročilí praktikanti participují v:
 
-- Red team / Blue team simulacích manipulativních scénářů
-- Multi-paradigmatických analýzách v Purple team konfiguracích
-- Etické supervizi skrze White team mechanismy
+- [Red team](@/glossary/red-team.md) / [Blue team](@/glossary/blue-team.md) simulacích manipulativních scénářů
+- Multi-paradigmatických analýzách v [Purple team](@/glossary/purple-team.md) konfiguracích
+- Etické supervizi skrze [White team](@/glossary/white-team.md) mechanismy
 - Strukturální obraně institucí skrze Yellow team aktivitu
 
 ## Pedagogická přípravná infrastruktura
@@ -920,7 +920,7 @@ Absolvent identifikuje manipulativní vzorec v profesní komunitě, jíž je čl
 
 Absolvent identifikuje manipulativní vzorec ve specifickém případě, který by mohl mít širší relevanci jako edukační case study, ale vyžadovalo by to compromise klientské důvěrnosti.
 
-**Navigační framework**: explicitní informed consent, pečlivá anonymizace, využití jen ilustrativních prvků, případně synthetic case studies inspirované, ale ne přímo derivované z konkrétních situací.
+**Navigační framework**: explicitní [informed consent](@/glossary/informed-consent.md), pečlivá anonymizace, využití jen ilustrativních prvků, případně synthetic case studies inspirované, ale ne přímo derivované z konkrétních situací.
 
 ### Dilema 3: Self-disclosure jako edukační nástroj
 
@@ -1087,7 +1087,7 @@ Pokročilá edukativní implementace poznatků o epistemické anihilaci předsta
 
 Komparativní analýza s **CBT supervizí**, **DBT tréninkem** a **bioetickým vzděláváním** ukazuje, že protokol integruje osvědčené pedagogické praktiky a doplňuje je o **distinktní inovace** specifické pro epistemic security: simulační laboratoř s explicitními bezpečnostními protokoly, fenomenologickou senzitizaci, kontraindikační screening a anti-instrumentalizační safeguardy.
 
-Je esenciální zdůraznit, že efektivní edukace v této oblasti nemůže být redukována na transmisi informací. Vyžaduje **transformativní učební zkušenost**, jež simultánně kultivuje kognitivní, metakognitivní, fenomenologické a aplikační kompetence. Tato transformativní zkušenost, je-li facilitována s adekvátní etickou senzitivitou a metodologickou rigorózností, poskytuje fundamentální ochranu proti destruktivním formám epistemické manipulace.
+Je esenciální zdůraznit, že efektivní edukace v této oblasti nemůže být redukována na transmisi informací. Vyžaduje **transformativní učební zkušenost**, jež simultánně kultivuje kognitivní, metakognitivní, fenomenologické a aplikační kompetence. Tato [transformativní zkušenost](@/glossary/transformative-experience.md), je-li facilitována s adekvátní etickou senzitivitou a metodologickou rigorózností, poskytuje fundamentální ochranu proti destruktivním formám epistemické manipulace.
 
 V následujících sekcích kompendia jsou detailně rozpracovány pokročilejší fenomény epistemické a kognitivní anihilace, stavějící na fundamentálních kategoriích a scénářích zde představených.
 

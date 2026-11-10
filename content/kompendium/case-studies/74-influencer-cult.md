@@ -137,7 +137,7 @@ Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-ap
 - **S2 – Externalizace introjektů.** Sepsání slovníku skupiny a přeložení každého výrazu do
   běžné řeči („nízké vibrace“ = „člověk se ptá na peníze“). Externalizující jazyk pomohl
   oddělit vnitřní hlas influencerky od vlastního.
-- **S3 – Rekonstrukce metakognice.** Trénink rozlišování, kdy rozhodnutí vychází z emoční
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Trénink rozlišování, kdy rozhodnutí vychází z emoční
   vlny vyvolané obsahem; [detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)
   a [rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md).
 - **S4 – Hermeneutická obnova.** Práce s tím, co v obsahu bylo skutečně užitečné (pohyb,

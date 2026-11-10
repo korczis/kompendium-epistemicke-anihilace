@@ -214,17 +214,17 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec „Guru a adept“** — gurova mystifikační terminologie etabluje hierarchii a inhibuje adeptovo nezávislé zpracování.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — gurova mystifikační terminologie etabluje hierarchii a inhibuje adeptovo nezávislé zpracování.
 - **Strukturální mystifikace pole** — celé disciplíny mohou být **kolektivně mystifikované**, vyžadujíc vnější intervenci.
 
 ### Hraniční / podobné
 
 - **Legitimní technický jazyk** — obsahem identický, **odlišný** v ochotě vysvětlit a v existence parafráze.
-- **EA-1.2.3 Iluzorní komplexita** — sourozenecká technika, ale strukturálně odlišná: mystifikace inflouje **jazyk**, iluzorní komplexita inflouje **konceptuální strukturu**.
+- **[EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) Iluzorní komplexita** — sourozenecká technika, ale strukturálně odlišná: mystifikace inflouje **jazyk**, iluzorní komplexita inflouje **konceptuální strukturu**.
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine glossary requirement** — klíčové termíny v decision context **musí** mít explicitní definice, jinak je důvěra penalizována.
+- **[Decision Engine](@/glossary/decision-engine.md) glossary requirement** — klíčové termíny v decision context **musí** mít explicitní definice, jinak je důvěra penalizována.
 - **API documentation standards** — Prismatic API standardy vyžadují **plain-language descriptions** pro všechny endpointy, **doplňované** technicky preciznímmi specifikacemi.
 - **OSINT report templates** — templáty obsahují **explicit glossary** sekci pro non-expert konzumenty.
 

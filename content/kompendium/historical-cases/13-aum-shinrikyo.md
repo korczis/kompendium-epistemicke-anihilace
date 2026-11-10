@@ -5,6 +5,9 @@ description = "Apokalyptické hnutí Šókó Asahary a sarinový útok v tokijsk
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"
@@ -135,7 +138,7 @@ odsoudily. Srov. [riziko přehnaného výkladu](@/kompendium/critical-perspectiv
 - Lifton, R. J. 1999. *Destroying the World to Save It: Aum Shinrikyo, Apocalyptic
   Violence, and the New Global Terrorism*.
 - Reader, I. 2000. *Religious Violence in Contemporary Japan: The Case of Aum Shinrikyō*.
-- Lifton, R. J. 1961. *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. 1961. *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 
 ## Související
 

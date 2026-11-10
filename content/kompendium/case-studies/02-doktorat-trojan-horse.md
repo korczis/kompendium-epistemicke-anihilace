@@ -104,7 +104,7 @@ a souběžně s institucionálním řešením:
   korespondence; mapa, kde se téma posouvalo a kdo o tom rozhodl.
 - **S2 – Externalizace introjektů:** oddělení vět „jsem nevděčný“ a „bez projektu nejsem nic“
   od jejich zdroje; pojmenování vděčnosti jako legitimního, ale zneužitého citu.
-- **S3 – Rekonstrukce metakognice:** nácvik rozlišování mezi sjednaným a vynucovaným závazkem;
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik rozlišování mezi sjednaným a vynucovaným závazkem;
   [verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) proti dokumentům.
 - **S4 – Hermeneutická obnova:** znovuvybudování vlastní výzkumné otázky z materiálu, který
   doktorandovi skutečně patřil.

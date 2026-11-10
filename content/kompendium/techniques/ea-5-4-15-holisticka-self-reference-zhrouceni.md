@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.15 Zhroucení holistické self-reference"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukované přesvědčení, že každá část subjektovy mysli je definovatelná jen přes všechny ostatní části — bez exteriéru. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukované přesvědčení, že každá část subjektovy mysli je definovatelná jen přes všechny ostatní části — bez exteriéru."
 weight = 5415
 insert_anchor_links = "right"
 
@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Zhroucení holistické self-reference** je paradoxální metaanihilační protokol, jehož operační jádro tvoří indukované přesvědčení, že každá část subjektovy mysli je definovatelná jen přes všechny ostatní části — bez exteriéru. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají **strukturální paradoxy v subjektově sebehodnotícím aparátu** k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
+**Zhroucení holistické [self-reference](@/glossary/self-reference.md)** je paradoxální metaanihilační protokol, jehož operační jádro tvoří indukované přesvědčení, že každá část subjektovy mysli je definovatelná jen přes všechny ostatní části — bez exteriéru. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají **strukturální paradoxy v subjektově sebehodnotícím aparátu** k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
 Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují **formální infrastrukturu** posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
 
@@ -114,7 +114,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 ### Individuální
 
 1. **Stratifikace meta-úrovní** — subjekt se naučí explicitně oddělovat *objektový jazyk* (v němž se výrok pronáší) od *metajazyka* (v němž se mluví o pronášení); tato Tarskiho separace eliminuje paradoxní zacyklení.
-2. **Pragmatický redukcionismus** — přijetí, že některé výroky **nemají** pravdivostní hodnotu v klasickém smyslu, ale jsou pragmatickými akty (Wittgenstein); paradox v takových výrocích není kognitivní pohromou.
+2. **Pragmatický [redukcionismus](@/glossary/redukcionismus.md)** — přijetí, že některé výroky **nemají** pravdivostní hodnotu v klasickém smyslu, ale jsou pragmatickými akty (Wittgenstein); paradox v takových výrocích není kognitivní pohromou.
 3. **Externí epistemický audit** — důvěryhodný kolega s metalogickou výbavou prochází se subjektem konkrétní paradoxy a explicitně demonstruje úniky.
 4. **Fenomenologická redukce** — návrat k přímému zakoušení **bez** auto-predikace; meditační praxe orientovaná na ne-reflexivní pozornost.
 5. **Specifická intervence**: metodická lokální izolace přesvědčení; epistemický modulární přístup (Fodor).
@@ -145,7 +145,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní filozofická paradoxologie** — zachovává distancí mezi zkoumajícím a zkoumaným, vede k pojmové jemnosti.
 - **Sokratovská elenchos** — destabilizuje **specifická** přesvědčení s cílem rekonstrukce, nikoli evaluativního aparátu jako takového.
 
-Klíčové pojmové kotvy techniky: **holismus významu, Quine-Duhem teze, modulární mysl**.
+Klíčové pojmové kotvy techniky: **[holismus](@/glossary/holismus.md) významu, Quine-Duhem teze, modulární mysl**.
 
 ## Vztah k Prismatic platformě
 

@@ -19,7 +19,7 @@ toc = true
 
 Andy Clark v knize *Natural-Born Cyborgs: Minds, Technologies, and the Future of Human Intelligence* (2003) rozšiřuje thezi rozšířené mysli ([viz 7.41](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)) na **antropologickou tezi**: lidská bytost je **strukturálně kyborgem** — naše inteligence se **strukturálně vyvinula** ve symbiotickém vztahu s **technologiemi**.
 
-Pro kompendium EA poskytuje tato teze nástroj pro pochopení **EA technik využívajících strukturální technologickou závislost** — zejména v digitální éře.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje tato teze nástroj pro pochopení **EA technik využívajících strukturální technologickou závislost** — zejména v digitální éře.
 
 ## 1. Antropologická teze
 

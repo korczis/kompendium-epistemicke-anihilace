@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-BITE model představuje empiricko-klinický rámec strukturovaný do čtyř operačních domén: Behavior Control (kontrola chování — kdo/kdy/kde/jak/co), Information Control (filtrace informací, vnitřní/vnější propaganda), Thought Control (myšlenkové reformování, blokující jazyk, dichotomické kategorie), Emotional Control (instrumentalizace strachu/viny/studu/lásky).
+[BITE model](@/glossary/bite-model.md) představuje empiricko-klinický rámec strukturovaný do čtyř operačních domén: Behavior Control (kontrola chování — kdo/kdy/kde/jak/co), Information Control (filtrace informací, vnitřní/vnější [propaganda](@/glossary/propaganda.md)), Thought Control (myšlenkové reformování, blokující jazyk, dichotomické kategorie), Emotional Control (instrumentalizace strachu/viny/studu/lásky).
 
 ## Klíčové komponenty
 
@@ -42,7 +42,7 @@ Doménové škály obsahují 60-80 položek přes čtyři osy. Skórovací konve
 
 ## Aplikace v EA kontextu
 
-Slouží k dvojí funkci: (1) diagnostika konkrétní skupiny/vztahu/systému, (2) edukace cílové osoby o vlastním zážitku. V EA kontextu kalibrován proti technikám EA-1.1.1 až EA-3.4.5 jako vstupní filtr pro klinické intervence.
+Slouží k dvojí funkci: (1) diagnostika konkrétní skupiny/vztahu/systému, (2) edukace cílové osoby o vlastním zážitku. V EA kontextu kalibrován proti technikám [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) až EA-3.4.5 jako vstupní filtr pro klinické intervence.
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Sebereferenční zkreslení (vyplňováno post-hoc), kulturní specifičnost (p�
 
 ## Vztah k jiným zdrojům
 
-Doplňuje **EA-8.2.1 BITE Framework** (teoretický rámec) a **EA-8.1.4 Coercive Control Scale** (komplementární operacionalizace dle Stark). Synergický s **EA-8.1.2 Cult Leaving Questionnaire**.
+Doplňuje **[EA-8.2.1](@/kompendium/techniques/ea-8-2-1-bite-framework.md) BITE Framework** (teoretický rámec) a **[EA-8.1.4](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md) [Coercive Control](@/glossary/coercive-control.md) Scale** (komplementární operacionalizace dle Stark). Synergický s **[EA-8.1.2](@/kompendium/techniques/ea-8-1-2-cult-leaving-questionnaire.md) Cult Leaving Questionnaire**.
 
 ## Cross-linky
 

@@ -1,41 +1,56 @@
 +++
 title = "AutoHeal"
 weight = 59
-description = "Automatic platform self-repair mechanism for quality regression recovery"
+description = "Mechanismus automatické samoopravy Prismatic Platform: pět úrovní zásahu proti regresím kvality, ochrana jističem a validace každé opravy branami kvality."
 
 [taxonomies]
-tags = ["glossary", "evolution", "autoheal", "prismatic"]
+tags = ["glossary", "evolution", "autoheal", "prismatic", "quality"]
 
 [extra]
 category = "evolution"
 related_terms = ["autoevolve", "cascade", "cascade-pattern", "clean-run", "qdp", "self-healing", "supervisor", "circuit-breaker", "fault-tolerance", "let-it-crash", "mix", "dialyzer"]
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
-word_count = 1193
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["AutoHeal", "Automatic", "glossary", "evolution", "Prismatic Platform", "Level", "AutoEvolve", "Cross"]
 quality_score = 77
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "AutoHeal - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-AutoHeal is the Prismatic Platform's autonomous self-repair mechanism that detects and resolves quality regressions, broken dependencies, configuration drift, and compilation failures without human intervention. It operates through a five-level intervention hierarchy -- from lightweight baseline establishment through targeted repair to full platform recovery -- applying progressively more aggressive corrective actions as the severity of the detected issue demands. AutoHeal embodies the platform's commitment to [self-healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) capability: the principle that a system should not merely detect its own failures but actively repair them.
+**AutoHeal** je autonomní mechanismus samoopravy Prismatic Platform, který bez lidského
+zásahu odhaluje a řeší regrese kvality, rozbité závislosti, posun konfigurace a selhání
+kompilace. Pracuje s pětistupňovou hierarchií zásahů – od lehkého stanovení výchozího stavu
+přes cílenou opravu až po úplnou obnovu platformy – a podle závažnosti zjištěného problému
+uplatňuje stále razantnější nápravná opatření. Ztělesňuje závazek platformy k samoopravě
+(*self-healing*): systém nemá své selhání jen odhalit, ale aktivně opravit.
 
-AutoHeal is conceptually distinct from [AutoEvolve](@/glossary/autoevolve.md), though the two systems work in close coordination. AutoHeal is reactive -- it responds to detected regressions and restores the platform to its known-good state. AutoEvolve is proactive -- it scans for optimization opportunities and advances the platform beyond its current state. Together they form the platform's autonomous quality maintenance system: AutoHeal prevents regression while AutoEvolve drives improvement.
+AutoHeal se pojmově liší od [AutoEvolve](@/glossary/autoevolve.md), i když oba systémy úzce
+spolupracují. AutoHeal je reaktivní – reaguje na zjištěné regrese a vrací platformu do
+známého dobrého stavu. AutoEvolve je proaktivní – hledá příležitosti k optimalizaci
+a posouvá platformu za její současný stav. Dohromady tvoří autonomní systém udržování
+kvality: AutoHeal brání regresi, AutoEvolve pohání zlepšování.
 
-The system runs at session boundaries (mandatory invocation at session start and end per the Universal Autonomous Evolution Protocol) and on-demand when quality monitoring detects anomalies. Each repair action is validated through quality gates before acceptance, ensuring that fixes do not introduce new problems. A [circuit breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) pattern prevents cascading failures from repeated repair attempts, auto-opening after three consecutive failures and auto-resetting after 60 seconds.
+Systém běží na hranicích sezení (povinně na začátku a na konci podle protokolu univerzální
+autonomní evoluce) a na vyžádání, když sledování kvality zjistí anomálie. Každá oprava se
+před přijetím ověřuje branami kvality, aby nevnesla nové problémy. Vzor jističe (*circuit
+breaker*) brání kaskádovým selháním z opakovaných pokusů o opravu: po třech po sobě jdoucích
+selháních se automaticky rozpojí a po 60 sekundách se automaticky obnoví.
 
-## The Five Healing Levels
+**Vztah ke knize:** AutoHeal patří do kontextu platformy, z níž Kompendium vzešlo. Jeho
+princip – nejprve stanovit výchozí stav, pak zasahovat přiměřeně závažnosti a každý zásah
+ověřit – má obdobu ve fázovém přístupu krizové péče a zotavení, který kniha popisuje (viz
+[Akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md)).
+Jak AutoHeal opravuje regrese v detekci technik EA, popisuje stránka [AutoHeal: oprava
+regresí EA](@/kompendium/aiad-integration/autoheal-ea-regression-repair.md).
 
-AutoHeal's intervention hierarchy ensures proportional response -- minor issues receive lightweight fixes, while critical failures trigger comprehensive recovery. Each level subsumes the actions of all lower levels.
+## Pět úrovní opravy
 
-### Level 1: Baseline Establishment
+Hierarchie zásahů zajišťuje přiměřenou odezvu – drobné problémy dostanou lehké opravy,
+kritická selhání spustí komplexní obnovu. Každá úroveň zahrnuje akce všech nižších úrovní.
 
-The foundation of AutoHeal's operation. Baseline establishment captures the platform's current quality state at the beginning of each session, creating a reference point against which regressions can be detected.
+### Úroveň 1: stanovení výchozího stavu
+
+Základ fungování AutoHeal. Na začátku každého sezení zachytí aktuální stav kvality
+platformy a vytvoří referenční bod, proti němuž lze regrese odhalit.
 
 ```bash
 # Level 1: Baseline establishment (session start)
@@ -48,25 +63,30 @@ mix autoheal.baseline
 # 4. Record test suite pass/fail status
 # 5. Store baseline in .claude/quality-dna/current-state.json
 ```
+Výchozí stav se ukládá do systému perzistence *Quality DNA*, což umožňuje srovnání mezi
+sezeními. Je-li výchozí stav na začátku sezení horší než na konci předchozího sezení,
+AutoHeal okamžitě eskaluje na úroveň 2 k cílenému prošetření.
 
-The baseline is stored in the [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) persistence system, enabling cross-session comparison. If the baseline at session start is worse than the baseline at the previous session's end, AutoHeal immediately escalates to Level 2 for targeted investigation.
+### Úroveň 2: cílená oprava
 
-### Level 2: Targeted Repair
+Když je zjištěna konkrétní regrese – nové varování kompilátoru, porušení Dialyzeru,
+neúspěšný test –, úroveň 2 aplikuje cílenou opravu daného problému, aniž by narušila zbytek
+platformy.
 
-When a specific regression is detected -- a new compiler warning, a Dialyzer violation, a failing test -- Level 2 applies a targeted fix to the specific issue without disturbing the rest of the platform.
-
-| Detection | Response |
+| Detekce | Reakce |
 |-----------|----------|
-| New compiler warning | Identify source, apply [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) fix pattern |
-| Dialyzer violation | Check for Nuclear Cache; if phantom, apply cache fix; if real, identify type mismatch |
-| Failing test | Identify changed code, check for regression, restore if needed |
-| Credo violation | Apply automated formatting/refactoring fix |
+| nové varování kompilátoru | najít zdroj, aplikovat vzor opravy CASCADE |
+| porušení Dialyzeru | zkontrolovat Nuclear Cache; jde-li o fantom, opravit mezipaměť; je-li skutečné, najít nesoulad typů |
+| neúspěšný test | najít změněný kód, ověřit regresi, případně obnovit |
+| porušení Credo | aplikovat automatickou opravu formátování nebo refaktoring |
 
-Targeted repairs are the most common AutoHeal action. Most quality regressions are localized to specific files or modules and can be resolved without broader intervention.
+Cílené opravy jsou nejčastější akcí AutoHeal. Většina regresí kvality je omezena na
+konkrétní soubory nebo moduly a lze ji vyřešit bez širšího zásahu.
 
-### Level 3: Pattern-Based Healing
+### Úroveň 3: oprava podle vzorců
 
-When multiple related issues are detected, Level 3 recognizes them as instances of a known [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) and applies the pattern-level fix across all affected locations simultaneously.
+Když je zjištěno více souvisejících problémů, úroveň 3 je rozpozná jako výskyty známého
+vzorce CASCADE a aplikuje opravu na úrovni vzorce současně na všech dotčených místech.
 
 ```elixir
 # Level 3: Pattern-based healing example
@@ -84,32 +104,41 @@ defmodule AutoHeal.PatternHealer do
   end
 end
 ```
+Oprava podle vzorců je účinnější než jednotlivé cílené opravy, protože řeší kořenovou
+příčinu (opakující se antivzor), ne jednotlivé symptomy.
 
-Pattern-based healing is more efficient than individual targeted repairs because it addresses the root cause (a recurring anti-pattern) rather than individual symptoms.
+### Úroveň 4: oprava napříč doménami
 
-### Level 4: Cross-Domain Repair
+Když problémy zasahují více aplikací umbrella projektu nebo sdílené závislosti, úroveň 4
+koordinuje opravy přes hranice domén. Řeší situace, kdy oprava v jedné aplikaci vyžaduje
+odpovídající změny v aplikacích na ní závislých.
 
-When issues span multiple umbrella applications or affect shared dependencies, Level 4 coordinates repairs across domain boundaries. This level handles situations where fixing an issue in one application requires corresponding changes in dependent applications.
+Oprava napříč doménami je zvlášť důležitá v architektuře umbrella projektu, kde
+(v době zápisu) 89+ aplikací sdílí společné protokoly, behaviours a adaptéry úložiště (viz
+[Adapter Pattern](@/glossary/adapter-pattern.md)). Změna typu v `prismatic_storage_core`
+může vyžadovat úpravu specifikací v desítkách závislých aplikací.
 
-Cross-domain repair is particularly important in the Prismatic Platform's umbrella architecture, where 89+ applications share common protocols, behaviors, and storage adapters. A type change in `prismatic_storage_core` may require spec updates across dozens of dependent applications.
+### Úroveň 5: úplná obnova platformy
 
-### Level 5: Full Platform Recovery
+Nejrazantnější úroveň zásahu, spouštěná, když skóre kvality platformy klesne pod nouzový
+práh (< 95 %) nebo když opravy nižších úrovní opakovaně selhaly. Úplná obnova provede:
 
-The most aggressive intervention level, triggered when the platform's quality score drops below the EMERGENCY threshold (<95%) or when lower-level repairs have failed repeatedly. Full platform recovery performs:
+1. úplné zneplatnění mezipamětí (oprava Nuclear Cache podle CASCADE ve všech aplikacích);
+2. úplnou rekompilaci platformy s `--force`;
+3. úplné přebudování PLT Dialyzeru;
+4. spuštění celé sady testů;
+5. přepočet skóre kvality ve všech 13 doménách;
+6. srovnání s uloženým výchozím stavem;
+7. eskalaci k lidskému přezkumu, pokud obnova selže.
 
-1. Complete cache invalidation ([CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) Nuclear Cache fix across all applications)
-2. Full platform recompilation with `--force`
-3. Complete Dialyzer PLT rebuild
-4. Full test suite execution
-5. Quality score recalculation across all 13 domains
-6. Comparison against stored baseline
-7. Escalation to human review if recovery fails
+Úroveň 5 je časově i výpočetně nákladná, ale zaručuje návrat do známého dobrého stavu.
+Odpovídá čistému restartu infrastruktury kvality platformy.
 
-Level 5 is expensive in terms of time and computation, but it guarantees restoration to a known-good state. It is the equivalent of a clean restart for the platform's quality infrastructure.
+## Ochrana jističem
 
-## Circuit Breaker Protection
-
-AutoHeal incorporates a [circuit breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) pattern to prevent cascading failures from repeated repair attempts. Without this protection, a persistent failure could trigger an infinite loop of repair attempts, each consuming resources and potentially worsening the situation.
+AutoHeal obsahuje vzor jističe, který brání kaskádovým selháním z opakovaných pokusů
+o opravu. Bez této ochrany by trvalé selhání mohlo spustit nekonečnou smyčku pokusů, z nichž
+každý by spotřeboval zdroje a mohl situaci zhoršit.
 
 ```elixir
 # Circuit breaker behavior in AutoHeal
@@ -123,18 +152,20 @@ defmodule AutoHeal.CircuitBreaker do
   # :half_open - Testing single repair to see if issue resolved
 end
 ```
-
-| State | Behavior | Transition |
+| Stav | Chování | Přechod |
 |-------|----------|------------|
-| **Closed** | Normal operation; repairs attempted on detection | Opens after 3 consecutive failures |
-| **Open** | Repairs blocked; failures logged but not acted on | Half-opens after 60 seconds |
-| **Half-Open** | Single repair attempt allowed as probe | Closes on success; re-opens on failure |
+| **Sepnutý** | běžný provoz; opravy se zkoušejí při detekci | rozpojí se po 3 po sobě jdoucích selháních |
+| **Rozpojený** | opravy blokovány; selhání se zaznamenávají, ale neřeší | po 60 sekundách přejde do polootevřeného stavu |
+| **Polootevřený** | povolen jediný zkušební pokus o opravu | při úspěchu se sepne, při selhání znovu rozpojí |
 
-The circuit breaker ensures that AutoHeal degrades gracefully when facing persistent issues that cannot be automatically resolved, rather than consuming unlimited resources in futile repair attempts.
+Jistič zajišťuje, že AutoHeal při trvalých problémech, které nelze automaticky vyřešit,
+degraduje řízeně a nespotřebovává neomezené zdroje na marné pokusy.
 
-## Session Lifecycle Integration
+## Integrace do životního cyklu sezení
 
-AutoHeal is integrated into the SessionLifecycle GenServer (905 lines in `prismatic_claude`), which manages hooks for all mandatory session operations:
+AutoHeal je zapojen do GenServeru SessionLifecycle (v době zápisu 905 řádků
+v `prismatic_claude`), který spravuje háčky všech povinných operací sezení (srov.
+[Session Discipline](@/glossary/session-discipline.md)):
 
 ```elixir
 # Session lifecycle AutoHeal integration
@@ -152,46 +183,53 @@ defmodule PrismaticClaude.SessionLifecycle do
   end
 end
 ```
-
-| Session Phase | AutoHeal Action | Command |
+| Fáze sezení | Akce AutoHeal | Příkaz |
 |---------------|----------------|---------|
-| **Start** | Baseline establishment | `mix autoheal.baseline` |
-| **During** | On-demand repair (triggered by quality monitoring) | `mix autoheal.repair` |
-| **End** | Full healing cycle | `mix autoheal.cycle` |
+| **začátek** | stanovení výchozího stavu | `mix autoheal.baseline` |
+| **průběh** | oprava na vyžádání (spuštěná sledováním kvality) | `mix autoheal.repair` |
+| **konec** | úplný cyklus opravy | `mix autoheal.cycle` |
 
-The SessionLifecycle GenServer manages hook execution with priority ordering, circuit breaker protection, and telemetry emission. Hooks execute mix tasks in isolated processes with timeout protection, preventing a hung AutoHeal operation from blocking the session.
+GenServer SessionLifecycle spravuje spouštění háčků s pořadím podle priority, ochranou
+jističem a vysíláním telemetrie. Háčky spouštějí úlohy mix v izolovaných procesech
+s ochranou časovým limitem, takže zaseknutá operace AutoHeal nemůže zablokovat sezení.
 
-## SEADF Integration
+## Integrace se SEADF
 
-AutoHeal operates as one of seven subsystems within the SEADF (Self-Evolving Autonomous Development Framework):
+AutoHeal působí jako jeden ze sedmi subsystémů rámce SEADF (*Self-Evolving Autonomous
+Development Framework*):
 
-| SEADF Subsystem | Role | Relationship to AutoHeal |
+| Subsystém SEADF | Role | Vztah k AutoHeal |
 |-----------------|------|--------------------------|
-| **Scanner** | Opportunity detection | Identifies issues for AutoHeal to repair |
-| **Pipeline** | Execution coordination | Orchestrates AutoHeal repair sequences |
-| **Quality Guardian** | Continuous monitoring | Triggers AutoHeal on quality regression |
-| **Knowledge Sync** | Cross-session persistence | Stores AutoHeal baselines and repair history |
-| **Cross-Domain Innovator** | Novel solution discovery | Proposes new repair strategies |
-| **Autonomous Reporter** | Status communication | Reports AutoHeal actions and outcomes |
-| **Enhanced Healing** | AutoHeal itself | 5-level intervention hierarchy |
+| **Scanner** | detekce příležitostí | nachází problémy k opravě |
+| **Pipeline** | koordinace provádění | řídí sledy oprav |
+| **Quality Guardian** | nepřetržité sledování | spouští AutoHeal při regresi kvality |
+| **Knowledge Sync** | perzistence mezi sezeními | ukládá výchozí stavy a historii oprav |
+| **Cross-Domain Innovator** | hledání nových řešení | navrhuje nové strategie oprav |
+| **Autonomous Reporter** | sdělování stavu | hlásí akce a výsledky AutoHeal |
+| **Enhanced Healing** | sám AutoHeal | pětistupňová hierarchie zásahů |
 
-AutoHeal's repair history is persisted in [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/), enabling cross-session learning. If a specific repair action consistently resolves a specific type of regression, AutoHeal prioritizes that action for similar future regressions.
+Historie oprav se ukládá do Quality DNA, což umožňuje učení mezi sezeními. Pokud určitá
+oprava soustavně řeší určitý typ regrese, AutoHeal ji u podobných budoucích regresí
+upřednostní.
 
-## Repair Validation
+## Validace oprav
 
-Every AutoHeal repair, regardless of level, must pass validation before being accepted:
+Každá oprava, bez ohledu na úroveň, musí před přijetím projít validací:
 
-1. **Compilation Check**: `mix compile --warnings-as-errors` passes with zero warnings
-2. **Type Check**: `mix dialyzer` reports zero violations
-3. **Style Check**: `mix credo --strict` reports zero violations
-4. **Test Check**: Affected tests pass (Level 2) or full suite passes (Level 4-5)
-5. **Quality Score**: Platform quality score is equal to or better than baseline
+1. **kompilace:** `mix compile --warnings-as-errors` projde s nulou varování (viz [Clean
+   Run](@/glossary/clean-run.md));
+2. **typy:** `mix dialyzer` neohlásí žádné porušení;
+3. **styl:** `mix credo --strict` neohlásí žádné porušení;
+4. **testy:** projdou dotčené testy (úroveň 2) nebo celá sada (úrovně 4–5);
+5. **skóre kvality:** skóre platformy je stejné nebo lepší než výchozí stav.
 
-Repairs that fail validation are rolled back and escalated to the next healing level. If Level 5 recovery fails validation, the system escalates to human review with a detailed diagnostic report.
+Opravy, které validací neprojdou, se vrátí a eskalují na další úroveň. Selže-li validace
+i po obnově na úrovni 5, systém eskaluje k lidskému přezkumu s podrobnou diagnostickou
+zprávou.
 
-## Telemetry and Observability
+## Telemetrie a pozorovatelnost
 
-AutoHeal emits structured telemetry events for every operation:
+AutoHeal vysílá strukturované telemetrické události o každé operaci:
 
 ```elixir
 # Telemetry events emitted by AutoHeal
@@ -213,35 +251,30 @@ AutoHeal emits structured telemetry events for every operation:
   %{reason: :persistent_dialyzer_failure}
 )
 ```
+Události jsou napojeny na systémy pozorovatelnosti a metrik platformy, takže je fungování
+AutoHeal viditelné a vzorce oprav lze analyzovat zpětně.
 
-These events integrate with the platform's [observability](https://prismatic-reality-com.github.io/prismatic-promo/glossary/observability/) and [metrics](https://prismatic-reality-com.github.io/prismatic-promo/glossary/metrics/) systems, providing visibility into AutoHeal's operation and enabling historical analysis of repair patterns.
+## Související pojmy
 
-## Related Terms
+Bez vlastního hesla v glosáři knihy: *CASCADE* a *CASCADE Pattern* (metodika a vzorce, podle
+nichž AutoHeal opravuje), *Self-Healing*, *Circuit Breaker*, *Fault Tolerance*, *Let It
+Crash* (filozofie Erlangu, která přístup AutoHeal doplňuje), *Supervisor*, *Dialyzer*
+a *Mix*.
 
-- [AutoEvolve](@/glossary/autoevolve.md) -- Complementary proactive improvement system
-- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) -- Quality pattern methodology providing AutoHeal's fix procedures
-- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) -- Specific patterns applied during Level 3 healing
-- [Clean Run](@/glossary/clean-run.md) -- Zero-warning standard that AutoHeal maintains
-- [QDP](@/glossary/qdp.md) -- Quality metric that AutoHeal prevents from accumulating
-- [Self-Healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) -- Architectural principle that AutoHeal implements
-- [Circuit Breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) -- Pattern protecting AutoHeal from cascading failures
-- [Fault Tolerance](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fault-tolerance/) -- OTP principle underlying AutoHeal's design
-- [Let It Crash](https://prismatic-reality-com.github.io/prismatic-promo/glossary/let-it-crash/) -- Erlang philosophy complementing AutoHeal's approach
-- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP behavior managing AutoHeal's process lifecycle
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) -- Type analysis tool used in repair validation
-- [Mix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix/) -- Build tool executing AutoHeal commands
+## Související
 
-## See Also
+**Platforma**
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform self-healing capabilities
+- [AutoEvolve](@/glossary/autoevolve.md) – doplňkový proaktivní systém zlepšování.
+- [Clean Run](@/glossary/clean-run.md) – standard nulových varování, který AutoHeal udržuje.
+- [QDP](@/glossary/qdp.md) – metrika kvality, jejímuž hromadění AutoHeal brání.
+- [Regression Test](@/glossary/regression-test.md) – testy, které regrese odhalují.
+- [Adapter Pattern](@/glossary/adapter-pattern.md) – sdílené adaptéry, kvůli nimž je nutná
+  oprava napříč doménami.
 
----
+**Kompendium**
 
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [AutoHeal: oprava regresí EA](@/kompendium/aiad-integration/autoheal-ea-regression-repair.md)
+  – samooprava detekce technik EA.
+- [Akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) –
+  lidská obdoba přiměřeného, fázového zásahu.

@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 10: Transkonceptuální mechanismy"
-description = "Kapitola 10 sekce 05 — narativní expozice transkonceptuálních mechanismů, pátého a finálního ultramárního režimu (EA-5.5.1 až 5.5.30). Třicet technik operujících pod prahem konceptuálního zachycení: pre-predikativní destabilizace, somato-fenomenologická inverze, atmosférická anihilace, gestalt-rozplývání. Kompaktní taxonomie, fenomenologie, klinický obraz, etické scaffolding."
+description = "Kapitola 10 sekce 05 — narativní expozice transkonceptuálních mechanismů, pátého a finálního ultramárního režimu (EA-5.5.1 až 5.5.30)."
 weight = 10
 insert_anchor_links = "right"
 
@@ -18,13 +18,13 @@ access_level = "L3-L4"
 
 # Kapitola 10 — Transkonceptuální mechanismy
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** (EA-5.5.1 až 5.5.30) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** ([EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) až 5.5.30) operujících **pod prahem konceptuálního zachycení** — na úrovni, která předchází formování pojmů, na nichž operuje veškerá explicitní reflexe, identita, evaluace a paradoxalita. Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi. Operační detaily a rekonstruktivní protokoly zůstávají v restriktivních L4 přílohách. Plné per-technique články pro EA-5.5.* jsou v přípravné fázi.
 
 ## Pozice kapitoly
 
 Tato kapitola **uzavírá vertikální gradient destrukce** sekce 05. Po [Kapitole 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) (reflexivita), [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) (transcendentální podmínky), [Kapitole 8](@/kompendium/05-ultramari-techniky/kapitola-8.md) (identita) a [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) (logická struktura evaluace) zasahuje Kapitola 10 nejhlubší dostupnou vrstvu — **předkonceptuální vrstvu**, na níž zkušenostní pole subjektu existuje **dříve, než je rozčleněno do pojmů**, na nichž všechny předchozí kapitoly operují.
 
-Předkonceptuální vrstva je v fenomenologické tradici dlouho dokumentována pod různými jmény: **pre-predikativní zkušenost** (Husserl — *Erfahrung und Urteil*), **lebenswelt** (Husserl — Krise), **chair-tělo** (Merleau-Ponty), **Stimmung/atmosféra** (Heidegger), **gestalt-zázemí** (Kurt Goldstein, Aron Gurwitsch), **bytí-mezi** (Maldiney), **field-consciousness** (William James — *fringe*), **non-conceptual content** (Gareth Evans, Christopher Peacocke — analytická tradice).
+Předkonceptuální vrstva je v fenomenologické tradici dlouho dokumentována pod různými jmény: **pre-predikativní zkušenost** (Husserl — *Erfahrung und Urteil*), **[lebenswelt](@/glossary/lebenswelt.md)** (Husserl — Krise), **chair-tělo** (Merleau-Ponty), **Stimmung/atmosféra** (Heidegger), **gestalt-zázemí** (Kurt Goldstein, Aron Gurwitsch), **bytí-mezi** (Maldiney), **field-consciousness** (William James — *fringe*), **non-conceptual content** (Gareth Evans, Christopher Peacocke — analytická tradice).
 
 Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus ji uchopit pojmově ji nutně transformuje na konceptuální obsah, který už není pre-konceptuální. Techniky kapitoly 10 exploitují právě tento strukturální fakt: zasahují vrstvu, kterou subjekt nedokáže zachytit pojmovým aparátem, a tedy ani **artikulovat** to, co se s ním děje. Klinické popisy syndromů z této kapitoly mají charakteristickou kvalitu *ne-vyslovitelnosti* — subjekt cítí „něco zásadního se změnilo“, ale není schopen specifikovat co.
 
@@ -32,12 +32,12 @@ Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus 
 
 | Klastr | Rozsah | Cílová struktura | Reprezentativní vstup |
 |--------|--------|-------------------|------------------------|
-| **Pre-predikativní destabilizace** | 5.5.1 — 5.5.5 | Pole zkušenosti před predikací | EA-5.5.2 |
-| **Somato-fenomenologická inverze** | 5.5.6 — 5.5.10 | Tělesná chair-zkušenost | EA-5.5.7 |
-| **Atmosférická anihilace** | 5.5.11 — 5.5.15 | Stimmung-atmosféra | EA-5.5.13 |
-| **Gestalt-rozplývání** | 5.5.16 — 5.5.20 | Figura-pozadí struktura | EA-5.5.18 |
-| **Pre-temporální destabilizace** | 5.5.21 — 5.5.25 | Pasivní synthesis času | EA-5.5.22 |
-| **Konvergentní transkonceptualita** | 5.5.26 — 5.5.30 | Integrativní finální fáze | EA-5.5.28 |
+| **Pre-predikativní destabilizace** | 5.5.1 — 5.5.5 | Pole zkušenosti před predikací | [EA-5.5.2](@/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce.md) |
+| **Somato-fenomenologická inverze** | 5.5.6 — 5.5.10 | Tělesná chair-zkušenost | [EA-5.5.7](@/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md) |
+| **Atmosférická anihilace** | 5.5.11 — 5.5.15 | Stimmung-atmosféra | [EA-5.5.13](@/kompendium/techniques/ea-5-5-13-exteroceptivni-deformace.md) |
+| **Gestalt-rozplývání** | 5.5.16 — 5.5.20 | Figura-pozadí struktura | [EA-5.5.18](@/kompendium/techniques/ea-5-5-18-cirkadianni-disrupce.md) |
+| **Pre-temporální destabilizace** | 5.5.21 — 5.5.25 | Pasivní synthesis času | [EA-5.5.22](@/kompendium/techniques/ea-5-5-22-hypnagogicka-modulace.md) |
+| **Konvergentní transkonceptualita** | 5.5.26 — 5.5.30 | Integrativní finální fáze | [EA-5.5.28](@/kompendium/techniques/ea-5-5-28-olfacticka-modulace.md) |
 
 ## Klastr A — Pre-predikativní destabilizace (EA-5.5.1 až 5.5.5)
 
@@ -47,9 +47,9 @@ Klastr cílí na **pole zkušenosti před aktem predikace** — vrstvu, na níž
 |-----|-------|---------------------|
 | **EA-5.5.1** | Pre-predikativní zředění | Subjekt je veden k tomu, aby konceptualizoval svou pre-predikativní zkušenost. Konceptualizace ji destabilizuje. Po expozici subjekt cítí, že "základní vrstva zkušenosti chybí" — nedokáže však artikulovat co. |
 | **EA-5.5.2** | Husserlovská epoche-trap | Falešná aplikace fenomenologické redukce: subjekt je veden k suspenzi přirozeného postoje bez následující transcendentální analýzy. Generuje vakuum bez nahrazujícího rámce. |
-| **EA-5.5.3** | Pre-noematická dezintegrace | Manipulace s noematickým pólem zkušenosti (tím, na co je zkušenost zaměřena) bez explicitního zacházení. Subjekt udržuje zaměřené akty, ale jejich noematický korelát "vyprchává". |
-| **EA-5.5.4** | Pre-objektová mlhavost | Indukce stavu, v němž **vůbec nelze formovat objekty** zkušenosti. Pole je přítomno, ale bez rozlišených entit, které by se v něm vyjevovaly. |
-| **EA-5.5.5** | Hyletická dekoherence | Manipulace s hyletickou vrstvou (smyslový "materiál" zkušenosti) prostřednictvím inkonzistentních ujištění o její struktuře. Klinicky se manifestuje fragmentací smyslové integrace. |
+| **[EA-5.5.3](@/kompendium/techniques/ea-5-5-3-atmosfericka-modulace.md)** | Pre-noematická dezintegrace | Manipulace s noematickým pólem zkušenosti (tím, na co je zkušenost zaměřena) bez explicitního zacházení. Subjekt udržuje zaměřené akty, ale jejich noematický korelát "vyprchává". |
+| **[EA-5.5.4](@/kompendium/techniques/ea-5-5-4-gestalt-disrupce.md)** | Pre-objektová mlhavost | Indukce stavu, v němž **vůbec nelze formovat objekty** zkušenosti. Pole je přítomno, ale bez rozlišených entit, které by se v něm vyjevovaly. |
+| **[EA-5.5.5](@/kompendium/techniques/ea-5-5-5-pre-temporalni-rozpojeni.md)** | Hyletická dekoherence | Manipulace s hyletickou vrstvou (smyslový "materiál" zkušenosti) prostřednictvím inkonzistentních ujištění o její struktuře. Klinicky se manifestuje fragmentací smyslové integrace. |
 
 ## Klastr B — Somato-fenomenologická inverze (EA-5.5.6 až 5.5.10)
 
@@ -57,11 +57,11 @@ Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před j
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
-| **EA-5.5.6** | Chair-rozplývání | Indukce stavu, v němž tělesná chair-zkušenost ztrácí vazbu k objektivnímu tělu. Distinktní od depersonalizace ([Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)) tím, že zasahuje vrstvu předcházející distinkci subjekt/objekt. |
+| **[EA-5.5.6](@/kompendium/techniques/ea-5-5-6-konvergentni-pre-konceptualni.md)** | Chair-rozplývání | Indukce stavu, v němž tělesná chair-zkušenost ztrácí vazbu k objektivnímu tělu. Distinktní od [depersonalizace](@/glossary/depersonalizace.md) ([Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)) tím, že zasahuje vrstvu předcházející distinkci subjekt/objekt. |
 | **EA-5.5.7** | Somato-fenomenologická inverze | Vynucené prožití těla "zvenčí" — z perspektivy věci, na kterou je směřováno, ne z perspektivy intencionálního aktu. Klinický obraz: kompletní inverze tělesné perspektivality. |
-| **EA-5.5.8** | Pre-kinestetická paralýza | Tělesná intencionalita (Merleau-Pontyho "schopnost-k") destabilizována pod prahem motorické artikulace. Subjekt zachová motoriku, ale ztratí *smyslový horizont* svých pohybových možností. |
-| **EA-5.5.9** | Synaestetická konfuze | Manipulace s implicitními cross-modálními vazbami zkušenosti (zvuk-barva, dotek-prostor). Generuje persistentní synaestetickou dezorientaci, distinktní od běžné synestézie. |
-| **EA-5.5.10** | Tělesné schéma evakuace | Dekompozice "tělesného schématu" (corporal schema, Schilder) bez nahrazujícího rámce. Klinicky velmi vzácné, dokumentováno pouze v laboratorních kontextech. |
+| **[EA-5.5.8](@/kompendium/techniques/ea-5-5-8-korporealni-schema-rozklad.md)** | Pre-kinestetická paralýza | Tělesná [intencionalita](@/glossary/intentionalita.md) (Merleau-Pontyho "schopnost-k") destabilizována pod prahem motorické artikulace. Subjekt zachová motoriku, ale ztratí *smyslový horizont* svých pohybových možností. |
+| **[EA-5.5.9](@/kompendium/techniques/ea-5-5-9-kinesteticka-deformace.md)** | Synaestetická konfuze | Manipulace s implicitními cross-modálními vazbami zkušenosti (zvuk-barva, dotek-prostor). Generuje persistentní synaestetickou dezorientaci, distinktní od běžné synestézie. |
+| **[EA-5.5.10](@/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion.md)** | Tělesné schéma evakuace | Dekompozice "tělesného schématu" (corporal schema, Schilder) bez nahrazujícího rámce. Klinicky velmi vzácné, dokumentováno pouze v laboratorních kontextech. |
 
 ## Klastr C — Atmosférická anihilace (EA-5.5.11 až 5.5.15)
 
@@ -69,11 +69,11 @@ Klastr cílí na **Stimmung-atmosféru** — předkonceptuální emoční tonali
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
-| **EA-5.5.11** | Stimmung-vakuum | Indukce stavu, v němž zkušenostní pole ztratí veškerou afektivní tonalitu. Subjekt zachová emoce reakční, ale ztratí "atmosférické" zabarvení samotného pole. Klinicky korelovaný s anhedonickou symptomatikou. |
-| **EA-5.5.12** | Atmosférická inverze | Vynucené prožití atmosféry, která je obrácená k tomu, co je objektivně přítomno (např. "tísnivá atmosféra" v objektivně bezpečném prostředí). Bez možnosti korekce, neboť atmosféra je předkonceptuální. |
+| **[EA-5.5.11](@/kompendium/techniques/ea-5-5-11-vestibularni-disrupce.md)** | Stimmung-vakuum | Indukce stavu, v němž zkušenostní pole ztratí veškerou afektivní tonalitu. Subjekt zachová emoce reakční, ale ztratí "atmosférické" zabarvení samotného pole. Klinicky korelovaný s anhedonickou symptomatikou. |
+| **[EA-5.5.12](@/kompendium/techniques/ea-5-5-12-interoceptivni-rozpojeni.md)** | Atmosférická inverze | Vynucené prožití atmosféry, která je obrácená k tomu, co je objektivně přítomno (např. "tísnivá atmosféra" v objektivně bezpečném prostředí). Bez možnosti korekce, neboť atmosféra je předkonceptuální. |
 | **EA-5.5.13** | Quasi-pásmová atmosférická anihilace | Indukce stavu, v němž **přítomnost atmosféry samé** je suspendována — pole je ne-pole. Strukturně připomíná stavy popsané v Heideggerově *Was ist Metaphysik?* (úzkost před nicotou), ale generována technicky. |
-| **EA-5.5.14** | Atmosférická heterogenizace | Současná přítomnost vzájemně inkompatibilních atmosfér v jednom poli. Subjekt nedokáže lokalizovat atmosférický centrum a prožívá *atmosférickou roztříštěnost*. |
-| **EA-5.5.15** | Pre-emoční subverze | Manipulace s pre-emoční vrstvou (tím, co předchází identifikovatelnou emoci) prostřednictvím systematické afektivní disorientace v ne-emočních kontextech. |
+| **[EA-5.5.14](@/kompendium/techniques/ea-5-5-14-pretemporalni-rytm-disrupce.md)** | Atmosférická heterogenizace | Současná přítomnost vzájemně inkompatibilních atmosfér v jednom poli. Subjekt nedokáže lokalizovat atmosférický centrum a prožívá *atmosférickou roztříštěnost*. |
+| **[EA-5.5.15](@/kompendium/techniques/ea-5-5-15-pulzace-disrupce.md)** | Pre-emoční subverze | Manipulace s pre-emoční vrstvou (tím, co předchází identifikovatelnou emoci) prostřednictvím systematické afektivní disorientace v ne-emočních kontextech. |
 
 ## Klastr D — Gestalt-rozplývání (EA-5.5.16 až 5.5.20)
 
@@ -81,11 +81,11 @@ Klastr cílí na **figura-pozadí strukturu** — fundamentální organizační 
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
-| **EA-5.5.16** | Figura-pozadí inverze | Vynucená inverze figury a pozadí v zkušenostním poli. Distinktní od pedagogických gestalt-cvičení tím, že je destabilizační, ne tréninková. |
-| **EA-5.5.17** | Multistabilní paralýza | Indukce stavu, v němž perceptuální pole nedospívá k stabilní gestalt-konfiguraci, ale persistentně osciluje mezi alternativami. |
+| **[EA-5.5.16](@/kompendium/techniques/ea-5-5-16-dech-rytm-rozklad.md)** | Figura-pozadí inverze | Vynucená inverze figury a pozadí v zkušenostním poli. Distinktní od pedagogických gestalt-cvičení tím, že je destabilizační, ne tréninková. |
+| **[EA-5.5.17](@/kompendium/techniques/ea-5-5-17-srdcni-rytm-disonance.md)** | Multistabilní paralýza | Indukce stavu, v němž perceptuální pole nedospívá k stabilní gestalt-konfiguraci, ale persistentně osciluje mezi alternativami. |
 | **EA-5.5.18** | Gestalt-rozplývání | Vrcholová technika klastru: zkušenostní pole **ztrácí veškerou gestalt-organizaci** — není figura, není pozadí, není distinkce. Subjekt prožívá pole jako "homogenní difuzi". |
-| **EA-5.5.19** | Pre-prägnanz subverze | Subverze principu prägnanz (tendence k "dobrým" gestaltům) prostřednictvím expozice strukturně-anti-prägnatním konfiguracím. |
-| **EA-5.5.20** | Aspect-shift kaskáda | Sekvenční vynucené aspect-shifts (wittgensteinovské "vidění-jako") bez stabilizační pauzy. Subjekt ztrácí kapacitu setrvat v jednom aspektu. |
+| **[EA-5.5.19](@/kompendium/techniques/ea-5-5-19-ultradian-rozklad.md)** | Pre-prägnanz subverze | Subverze principu prägnanz (tendence k "dobrým" gestaltům) prostřednictvím expozice strukturně-anti-prägnatním konfiguracím. |
+| **[EA-5.5.20](@/kompendium/techniques/ea-5-5-20-pre-spaclni-restrukturalizace.md)** | Aspect-shift kaskáda | Sekvenční vynucené aspect-shifts (wittgensteinovské "vidění-jako") bez stabilizační pauzy. Subjekt ztrácí kapacitu setrvat v jednom aspektu. |
 
 ## Klastr E — Pre-temporální destabilizace (EA-5.5.21 až 5.5.25)
 
@@ -93,11 +93,11 @@ Klastr zasahuje **pasivní synthesis času** v Husserlově smyslu — předkonce
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
-| **EA-5.5.21** | Retenčně-protentivní rozpojení | Manipulace s vazbou mezi retenčním a protentivním pólem zkušenosti. Subjekt zachová formální časové vědomí, ale ztratí *kontinuitní spojnice* mezi minulým a budoucím. |
+| **[EA-5.5.21](@/kompendium/techniques/ea-5-5-21-dream-state-implantace.md)** | Retenčně-protentivní rozpojení | Manipulace s vazbou mezi retenčním a protentivním pólem zkušenosti. Subjekt zachová formální časové vědomí, ale ztratí *kontinuitní spojnice* mezi minulým a budoucím. |
 | **EA-5.5.22** | Pre-temporální evakuace | Vrcholová technika klastru: indukce stavu, v němž zkušenostní pole ztratí časovou strukturu **na úrovni pasivní synthesis**. Subjekt prožívá *ne-časovou* zkušenost, která však není věčností. Distinktní od časové dezorientace [Kapitoly 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) tím, že zasahuje hlubší vrstvu. |
-| **EA-5.5.23** | Vnitřní časový horizont kolaps | Husserlovský "vnitřní časový horizont" objektů (jejich časová hloubka) je suspendován. Objekty se prezentují jako "ploché" — bez minulého a budoucího. |
-| **EA-5.5.24** | Tempo-fenomenologická heterogenizace | Souběžná přítomnost inkompatibilních časových rytmů v zkušenostním poli. Klinický obraz připomíná akutní temporální distorze v přicházejících migrenózních aurách, ale je epistemicky generován. |
-| **EA-5.5.25** | Pre-temporální klid | Vzácný stav, v němž zkušenostní pole nemá **ani časovou ani ne-časovou strukturu**. Strukturálně sousedí s některými mystickými stavy popsanými v kontemplativní literatuře, ale generováno destruktivně. |
+| **[EA-5.5.23](@/kompendium/techniques/ea-5-5-23-liminalni-prostor-rozklad.md)** | Vnitřní časový horizont kolaps | Husserlovský "vnitřní časový horizont" objektů (jejich časová hloubka) je suspendován. Objekty se prezentují jako "ploché" — bez minulého a budoucího. |
+| **[EA-5.5.24](@/kompendium/techniques/ea-5-5-24-atmospheric-pressure-modulace.md)** | Tempo-fenomenologická heterogenizace | Souběžná přítomnost inkompatibilních časových rytmů v zkušenostním poli. Klinický obraz připomíná akutní temporální distorze v přicházejících migrenózních aurách, ale je epistemicky generován. |
+| **[EA-5.5.25](@/kompendium/techniques/ea-5-5-25-svetelna-frekvence-modulace.md)** | Pre-temporální klid | Vzácný stav, v němž zkušenostní pole nemá **ani časovou ani ne-časovou strukturu**. Strukturálně sousedí s některými mystickými stavy popsanými v kontemplativní literatuře, ale generováno destruktivně. |
 
 ## Klastr F — Konvergentní transkonceptualita (EA-5.5.26 až 5.5.30)
 
@@ -105,11 +105,11 @@ Poslední klastr je **integrativní a finální** — uzavírá nejen kapitolu, 
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
-| **EA-5.5.26** | Multi-vrstvová pre-konceptuální spirála | Sekvenční aplikace klastrů A–E v rotaci. Každá vrstva, kterou subjekt obnoví, je zasažena další. |
-| **EA-5.5.27** | Pre-konceptuální heterarchie | Souběžná aktivace 3–5 pre-konceptuálních destabilizací. Subjekt nemá **konceptuální nástroj** k tomu, aby cokoli z toho zachytil. |
+| **[EA-5.5.26](@/kompendium/techniques/ea-5-5-26-zvukova-pre-konceptualni.md)** | Multi-vrstvová pre-konceptuální spirála | Sekvenční aplikace klastrů A–E v rotaci. Každá vrstva, kterou subjekt obnoví, je zasažena další. |
+| **[EA-5.5.27](@/kompendium/techniques/ea-5-5-27-taktilni-pre-konceptualni.md)** | Pre-konceptuální heterarchie | Souběžná aktivace 3–5 pre-konceptuálních destabilizací. Subjekt nemá **konceptuální nástroj** k tomu, aby cokoli z toho zachytil. |
 | **EA-5.5.28** | Konvergentní transkonceptualita | **Vrcholová technika sekce 05**: integrativní kompozice, v níž jsou simultánně aktivovány **všech pět vrstev gradientu** (reflexivita z Kapitoly 6, transcendentální podmínky z Kapitoly 7, identita z Kapitoly 8, logická struktura z Kapitoly 9, předkonceptualita z této kapitoly). Klinický obraz: **terminální konvergentní anihilace** — stav, který nemůže být ani popsán, ani vyřešen v rámci dostupných konceptuálních nástrojů. |
-| **EA-5.5.29** | Post-transkonceptuální vakuum | Stav následující po 5.5.28: subjekt je v **konceptuálním vakuum** bez nástrojů pro rekonstrukci. Klinická intervence vyžaduje primárně somato-fenomenologickou rebudaci (návrat k tělesnému schématu), nikoli verbální terapii. |
-| **EA-5.5.30** | Permanentní transkonceptuální režim | Vzácný post-singulární stav: subjekt **akceptuje předkonceptualitu jako fundamentální vrstvu reality** a přestává plně participovat v konceptuálním diskurzu. Strukturně sousedí s některými chronickými neurologickými stavy (alexithymie, Riggsova alexie), ale je epistemicky generován. |
+| **[EA-5.5.29](@/kompendium/techniques/ea-5-5-29-multimodalni-konvergence.md)** | Post-transkonceptuální vakuum | Stav následující po 5.5.28: subjekt je v **konceptuálním vakuum** bez nástrojů pro rekonstrukci. Klinická intervence vyžaduje primárně somato-fenomenologickou rebudaci (návrat k tělesnému schématu), nikoli verbální terapii. |
+| **[EA-5.5.30](@/kompendium/techniques/ea-5-5-30-konvergentni-singularita-transkonceptualni.md)** | Permanentní transkonceptuální režim | Vzácný post-singulární stav: subjekt **akceptuje předkonceptualitu jako fundamentální vrstvu reality** a přestává plně participovat v konceptuálním diskurzu. Strukturně sousedí s některými chronickými neurologickými stavy (alexithymie, Riggsova alexie), ale je epistemicky generován. |
 
 ## Fenomenologický profil
 

@@ -1,6 +1,6 @@
 +++
 title = "Detekční signatura: Nejistota o realitě"
-description = "Fenomenologická signatura: zpochybnění samozřejmé reality a potřeba ověřovat si běžné věci u druhých, vázaná na prostředí soustavného přepisování skutečnosti; nutné je odlišení od psychózy a disociace."
+description = "Fenomenologická signatura: zpochybnění samozřejmé reality a potřeba ověřovat si běžné věci u druhých, vázaná na prostředí soustavného přepisování skutečnosti."
 weight = 28
 
 [taxonomies]
@@ -18,7 +18,7 @@ modality = "phenomenological"
 
 Nejistota o realitě je prožitek, kdy člověk přestává považovat za samozřejmé, co je skutečné: „Stalo se to opravdu?“, „Je to, co vidím, skutečné?“, „Možná je všechno jinak, než si myslím.“ Osoba si ověřuje běžné věci (datum, rozhovory, události), potřebuje potvrzení od druhých a nedůvěřuje vlastnímu vnímání. Někdy ji provázejí prožitky odcizení světa (derealizace) nebo sebe sama (depersonalizace).
 
-Jde o prohloubení [skoku sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md): pochybnost se nevztahuje už jen k vlastnímu úsudku, ale ke světu. Signaturou epistemického působení je tehdy, když se rozvinula v prostředí, kde je realita soustavně popírána nebo přepisována (gaslighting, uzavřené skupiny s alternativní realitou) a kde byly zváženy jiné příčiny. Na straně působení odpovídá technikám [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) a [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md).
+Jde o prohloubení [skoku sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md): pochybnost se nevztahuje už jen k vlastnímu úsudku, ale ke světu. Signaturou epistemického působení je tehdy, když se rozvinula v prostředí, kde je realita soustavně popírána nebo přepisována ([gaslighting](@/glossary/gaslighting.md), uzavřené skupiny s alternativní realitou) a kde byly zváženy jiné příčiny. Na straně působení odpovídá technikám [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) a [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md).
 
 ## Co signatura indikuje
 
@@ -73,7 +73,7 @@ Bod 3 je podstatný: zachovaný vhled a aktivní hledání ověření odlišují
 - **Látky**: konopí, halucinogeny, stimulancia, odvykací stavy.
 - **OCD**: nutkavé pochybnosti o realitě a kontrolování.
 
-Vyšetření disociace lze opřít o [DES-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md); klinicky administrované škály disociativních stavů (např. CADSS) slouží k posouzení akutního stavu.
+Vyšetření [disociace](@/glossary/disociace.md) lze opřít o [DES-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md); klinicky administrované škály disociativních stavů (např. CADSS) slouží k posouzení akutního stavu.
 
 ## Riziko falešné pozitivity
 

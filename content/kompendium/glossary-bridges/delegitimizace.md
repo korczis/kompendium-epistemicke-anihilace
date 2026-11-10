@@ -22,7 +22,7 @@ quality_score = 75
 
 ## Definition
 
-Delegitimizace je systematické podkopávání důvěryhodnosti, autority nebo epistemického postavení jednotlivce, instituce, nebo nárokovaného tvrzení. Operuje skrze ad hominem útoky, smear campaigns, projektivní inverzi obvinění (DARVO) a strategické zpochybňování zkušeností. V Prismatic Kompendiu klasifikováno jako EA-1-3 a EA-2-x manipulační vzorce. Charakteristická pro coercive-control vztahy, totalitarian dynamiky, a digitální echo-chamber prostředí.
+[Delegitimizace](@/glossary/delegitimizace.md) je systematické podkopávání důvěryhodnosti, autority nebo epistemického postavení jednotlivce, instituce, nebo nárokovaného tvrzení. Operuje skrze ad hominem útoky, smear campaigns, projektivní inverzi obvinění (DARVO) a strategické zpochybňování zkušeností. V Prismatic Kompendiu klasifikováno jako EA-1-3 a EA-2-x manipulační vzorce. Charakteristická pro coercive-control vztahy, totalitarian dynamiky, a digitální echo-chamber prostředí.
 
 ## See Also
 

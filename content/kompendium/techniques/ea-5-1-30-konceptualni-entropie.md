@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.30 Konceptuální entropie"
-description = "Detailní per-technique článek: technika konceptuální entropie — indukce maximálního chaosu v subjektových konceptuálních strukturách, randomizace dříve distinktních konceptů, rozmazání sousedních kategorií, dezintegrace taxonomických vztahů. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika konceptuální entropie — indukce maximálního chaosu v subjektových konceptuálních strukturách, randomizace dříve distinktních konceptů."
 weight = 530
 insert_anchor_links = "right"
 
@@ -111,7 +111,7 @@ Co prožívá subjekt **uvnitř** konceptuální entropie:
 Konceptuální entropii je nutné odlišit od:
 
 - **Autentické konceptuální komplexity** — autentická komplexita zachovává **lokální distinkci** s explicitním uvědoměním kontextové závislosti; entropie odstraňuje distinkci *bez* uvědomění.
-- **Pluralistické tolerance** — pluralismus *uznává* různé koncepty různých komunit, aniž by jejich vlastní vnitřní distinkce destruoval; entropie destruuje distinkci uvnitř.
+- **Pluralistické tolerance** — [pluralismus](@/glossary/pluralismus.md) *uznává* různé koncepty různých komunit, aniž by jejich vlastní vnitřní distinkce destruoval; entropie destruuje distinkci uvnitř.
 - **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — exfoliace *odstraňuje koncepty samé*; entropie *odstraňuje strukturu mezi koncepty*. Komplementární operace.
 - **[EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)** — singularita *koncentruje* trajektorie do jednoho atraktoru; entropie *rozptyluje* je do šumu.
 

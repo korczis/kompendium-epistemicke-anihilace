@@ -1,10 +1,10 @@
 +++
-title = "OSINT"
+title = "OSINT (zpravodajství z otevřených zdrojů)"
 weight = 27
-description = "Open Source Intelligence gathering and analysis from publicly available sources"
+description = "Sběr a analýza informací z veřejně dostupných zdrojů: zpravodajský cyklus, typy zdrojů, ověřování a etické meze; v Prismatic Platform a axiomy NABLA."
 
 [taxonomies]
-tags = ["osint", "intelligence", "security", "reconnaissance"]
+tags = ["glossary", "osint", "intelligence", "due-diligence", "prismatic", "evidence"]
 
 [extra]
 category = "osint"
@@ -15,52 +15,95 @@ author = "Tomas Korcak (korczis)"
 reading_time = "8 min"
 word_count = 1689
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "OSINT - Prismatic Platform"
+image_alt = "OSINT (zpravodajství z otevřených zdrojů) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Open Source Intelligence (OSINT) is the discipline of collecting, processing, analyzing, and disseminating information from publicly available sources to produce actionable intelligence. Unlike signals intelligence (SIGINT) or human intelligence (HUMINT), OSINT relies exclusively on information that is legally accessible to the public: government records, social media profiles, domain registrations, certificate transparency logs, DNS records, web content, academic publications, financial filings, patent databases, and commercial data services. OSINT emphasizes structured analysis workflows, source verification, and ethical collection methods that respect privacy laws, terms of service, and jurisdictional regulations.
+Zpravodajství z otevřených zdrojů (*Open Source Intelligence*, OSINT) je disciplína sběru,
+zpracování, analýzy a předávání informací z veřejně dostupných zdrojů s cílem vytvořit použitelné
+zpravodajské poznatky. Na rozdíl od signálového (SIGINT) nebo lidského (HUMINT) zpravodajství se
+OSINT opírá výhradně o informace, které jsou veřejnosti legálně přístupné: veřejné rejstříky,
+profily na sociálních sítích, registrace domén, logy Certificate Transparency, záznamy DNS, webový
+obsah, odborné publikace, finanční výkazy, patentové databáze a komerční datové služby. OSINT
+klade důraz na strukturované analytické postupy, ověřování zdrojů a etické metody sběru, které
+respektují zákony o ochraně soukromí, podmínky užití a jurisdikční předpisy.
 
-The history of OSINT predates the digital age. Intelligence analysts have always studied newspapers, radio broadcasts, academic journals, and public records. What has changed is the scale: the digital revolution has created an unprecedented volume of publicly available information. An estimated 2.5 exabytes of data are produced daily, and a significant fraction is publicly accessible. The challenge has shifted from information scarcity to information overload. Modern OSINT practice focuses on automated collection, structured analysis, entity resolution across disparate sources, and confidence-calibrated assessment that acknowledges uncertainty.
+Historie OSINT je starší než digitální věk. Zpravodajští analytici vždy studovali noviny, rozhlasové
+vysílání, odborné časopisy a veřejné záznamy. Změnilo se měřítko: digitální revoluce vytvořila
+bezprecedentní objem veřejně dostupných informací. Problém se posunul od nedostatku informací
+k informačnímu přetížení. Moderní praxe OSINT se soustředí na automatizovaný sběr, strukturovanou
+analýzu, slučování entit napříč nesourodými zdroji a posouzení s kalibrovanou důvěrou, které
+přiznává nejistotu.
 
-OSINT is distinguished from other intelligence disciplines not just by its sources but by its methodology. Traditional intelligence operates on the assumption that important information is hidden and must be obtained through covert means. OSINT operates on the complementary assumption that important information is often already publicly available, but is buried in the noise of massive datasets. The analyst's skill lies not in obtaining access but in identifying relevance, correlating signals across sources, and producing assessments that decision-makers can act upon.
+OSINT se od jiných zpravodajských disciplín neliší jen zdroji, ale i metodikou. Tradiční
+zpravodajství vychází z předpokladu, že důležité informace jsou skryté a je třeba je získat
+skrytými prostředky. OSINT vychází z doplňujícího předpokladu, že důležité informace jsou často už
+veřejně dostupné, ale zapadají v šumu obrovských datových sad. Dovednost analytika nespočívá
+v získání přístupu, ale v rozpoznání relevance, korelaci signálů napříč zdroji a tvorbě posouzení,
+podle nichž mohou rozhodující osoby jednat.
 
-The intelligence cycle for OSINT follows the standard intelligence process: planning and direction (what questions need answering), collection (gathering data from sources), processing (converting raw data into usable format), analysis (interpreting processed data to produce intelligence), and dissemination (delivering intelligence to consumers). Within the Prismatic Platform, each stage of this cycle is supported by specialized tools, agents, and pipelines that automate routine operations while preserving analyst oversight for critical judgments.
+Zpravodajský cyklus OSINT sleduje standardní zpravodajský proces: plánování a řízení (na jaké
+otázky je třeba odpovědět), sběr (získání dat ze zdrojů), zpracování (převod surových dat do
+použitelné podoby), analýza (výklad zpracovaných dat a tvorba poznatků) a předání (doručení
+poznatků spotřebitelům). V Prismatic Platform podporují každou fázi cyklu specializované nástroje,
+agenti a pipeline, které automatizují rutinní operace a zachovávají dohled analytika nad
+kritickými úsudky.
 
-## Historical Context
+Pro Kompendium má OSINT dvojí roli. Je nástrojem ověřování – triangulace zdrojů je přímou obranou
+proti dezinformacím (viz [EA × OSINT: Source Credibility under Epistemic
+Attack](@/kompendium/cross-domain/1-ea-osint-source-credibility.md)). A zároveň je dvojího užití:
+tytéž postupy umožňují pronásledování a [doxing](@/glossary/doxing.md). Kniha popisuje OSINT jen
+v obranném a zákonném rámci; vyhledávání informací o soukromých osobách bez právního důvodu
+nepopisuje.
 
-The formalization of OSINT as a recognized intelligence discipline traces to the late Cold War period, when the Central Intelligence Agency established the Foreign Broadcast Information Service (FBIS) to monitor and translate foreign media. During the 1990s, the rise of the internet exponentially expanded the volume of publicly available information, and by the early 2000s, intelligence agencies worldwide recognized OSINT as a co-equal discipline alongside SIGINT, HUMINT, GEOINT, and MASINT.
+## Historický kontext
 
-The 2004 publication of the US 9/11 Commission Report highlighted the intelligence community's failure to synthesize publicly available information that could have provided warning of the attacks. This catalyzed institutional investment in OSINT capabilities. The creation of the Open Source Center (OSC) in 2005 and its successor, the Open Source Enterprise (OSE), formalized OSINT's role within the US intelligence community.
+Zpravodajská práce s otevřenými zdroji se institucionalizovala už za druhé světové války – ve
+Spojených státech vznikla v roce 1941 služba pro monitorování zahraničního vysílání, později známá
+jako *Foreign Broadcast Information Service* (FBIS), která sledovala a překládala zahraniční média
+a za studené války se stala jádrem práce s otevřenými zdroji. (Původní verze hesla vznik FBIS
+chybně kladla do pozdní studené války.) V 90. letech nástup internetu exponenciálně rozšířil objem
+veřejně dostupných informací a na počátku 21. století zpravodajské služby po celém světě uznaly
+OSINT za rovnocennou disciplínu vedle SIGINT, HUMINT, GEOINT a MASINT.
 
-In the private sector, OSINT techniques gained prominence through cybersecurity research, competitive intelligence, and due diligence investigations. The Prismatic Platform's OSINT capabilities draw from over 20 years of practical intelligence work captured in the [GARDEN](https://prismatic-reality-com.github.io/prismatic-promo/glossary/garden/) knowledge base, particularly the `sig` repository containing 250+ OSINT provider integrations.
+Zpráva americké komise pro 11. září (2004) upozornila na selhání zpravodajské komunity při syntéze
+veřejně dostupných informací, které mohly poskytnout varování před útoky. To podnítilo
+institucionální investice do schopností OSINT. Vznik Open Source Center (OSC) v roce 2005 a jeho
+nástupce Open Source Enterprise (OSE) formalizoval roli OSINT v americké zpravodajské komunitě.
 
-## Technical Deep Dive
+V soukromém sektoru získaly techniky OSINT význam díky výzkumu kybernetické bezpečnosti,
+konkurenčnímu zpravodajství a šetřením v rámci [due diligence](@/glossary/due-diligence.md).
+Schopnosti OSINT v Prismatic Platform podle její dokumentace čerpají z více než dvaceti let
+praktické zpravodajské práce zachycené ve znalostní bázi
+[GARDEN](https://prismatic-reality-com.github.io/prismatic-promo/glossary/garden/), zejména
+v repozitáři `sig`, který v době zápisu obsahoval přes 250 integrací poskytovatelů OSINT.
 
-### OSINT Source Taxonomy
+## Technický rozbor
 
-OSINT sources are categorized by type, reliability, and access method:
+### Taxonomie zdrojů OSINT
 
-| Category | Sources | Reliability | Access Method |
+Zdroje OSINT se třídí podle typu, spolehlivosti a způsobu přístupu:
+
+| Kategorie | Zdroje | Spolehlivost | Způsob přístupu |
 |----------|---------|-------------|---------------|
-| **Domain Intelligence** | DNS records, WHOIS, subdomain enumeration | High | Direct query (DNS protocol) |
-| **Certificate Intelligence** | Certificate Transparency logs, issuer records | Very High | CT log APIs (crt.sh, Censys) |
-| **Network Intelligence** | IP ranges, ASN mappings, port scans | High | Shodan, Censys, passive DNS |
-| **Web Intelligence** | Website content, robots.txt, headers | Medium | HTTP requests, web crawling |
-| **Registry Intelligence** | Business registrations, court records, filings | Very High | Government APIs, web scraping |
-| **Social Intelligence** | Social media profiles, public posts | Low-Medium | Platform APIs, public pages |
-| **Financial Intelligence** | SEC filings, annual reports, patent databases | Very High | EDGAR, patent office APIs |
-| **Academic Intelligence** | Research papers, conference proceedings | High | Academic databases, preprint servers |
-| **Geospatial Intelligence** | Satellite imagery, mapping data, check-ins | Medium | Public mapping APIs, imagery services |
+| **Doménové zpravodajství** | záznamy DNS, WHOIS, výčet subdomén | vysoká | přímý dotaz (protokol DNS) |
+| **Certifikátové zpravodajství** | logy Certificate Transparency, záznamy vydavatelů | velmi vysoká | API logů CT (crt.sh, Censys) |
+| **Síťové zpravodajství** | rozsahy IP, mapování ASN, skeny portů | vysoká | Shodan, Censys, pasivní DNS |
+| **Webové zpravodajství** | obsah webu, robots.txt, hlavičky | střední | požadavky HTTP, procházení webu |
+| **Rejstříkové zpravodajství** | registrace firem, soudní záznamy, podání | velmi vysoká | vládní API, extrakce z webu |
+| **Sociální zpravodajství** | profily na sociálních sítích, veřejné příspěvky | nízká až střední | API platforem, veřejné stránky |
+| **Finanční zpravodajství** | podání SEC, výroční zprávy, patentové databáze | velmi vysoká | EDGAR, API patentových úřadů |
+| **Akademické zpravodajství** | výzkumné články, sborníky konferencí | vysoká | akademické databáze, preprintové servery |
+| **Geoprostorové zpravodajství** | satelitní snímky, mapová data, check-iny | střední | veřejná mapová API, služby snímků |
 
-### Collection Architecture
+### Architektura sběru
 
-The Prismatic Platform implements OSINT collection through a multi-adapter architecture:
+Prismatic Platform implementuje sběr OSINT architekturou s více adaptéry:
 
 ```elixir
 defmodule PrismaticOSINT.Collector do
@@ -161,9 +204,12 @@ defmodule PrismaticOSINT.Collector do
 end
 ```
 
-### Entity Resolution
+### Slučování entit
 
-A core challenge in OSINT is [entity resolution](@/glossary/entity-resolution.md) -- determining whether references from different sources refer to the same real-world entity. Names vary (John Smith, J. Smith, John R. Smith), addresses change, organizations use multiple names, and individuals appear in different contexts:
+Klíčovou výzvou OSINT je [slučování entit](@/glossary/entity-resolution.md) (*entity
+resolution*) – určení, zda odkazy z různých zdrojů označují tutéž entitu reálného světa. Jména se
+liší (John Smith, J. Smith, John R. Smith), adresy se mění, organizace používají více názvů a lidé
+se objevují v různých kontextech:
 
 ```elixir
 defmodule PrismaticOSINT.EntityResolution do
@@ -223,18 +269,21 @@ defmodule PrismaticOSINT.EntityResolution do
 end
 ```
 
-### Czech Legal Intelligence
+Chybné sloučení dvou různých osob se stejným jménem je jednou z nejzávažnějších chyb OSINT,
+protože může poškodit nevinného člověka; proto se sloučení s nízkou jistotou označuje a ověřuje.
 
-The Prismatic Platform has specialized OSINT capabilities for Czech legal and business intelligence:
+### České právní a obchodní zpravodajství
 
-| Source | API/Method | Data Provided |
+Prismatic Platform má specializované schopnosti OSINT pro české právní a obchodní zpravodajství:
+
+| Zdroj | API/metoda | Poskytovaná data |
 |--------|-----------|---------------|
-| **ARES** (Ministry of Finance) | REST API | Company registration, ICO, tax IDs, addresses |
-| **Commercial Register** (Justice.cz) | Web scraping + API | Company officers, shareholders, filings |
-| **Insolvency Register** | REST API | Bankruptcy proceedings, creditor claims |
-| **Trade Register** | Web scraping | Trade licenses, authorized representatives |
-| **Land Registry** (CUZK) | REST API | Property ownership, encumbrances, mortgages |
-| **Court Records** | Web scraping | Judgments, proceedings, enforcement orders |
+| **ARES** (Ministerstvo financí) | REST API | registrace firem, IČO, DIČ, adresy |
+| **Obchodní rejstřík** (Justice.cz) | extrakce z webu + API | statutární orgány, společníci, listiny |
+| **Insolvenční rejstřík** (ISIR) | REST API | insolvenční řízení, přihlášky pohledávek |
+| **Živnostenský rejstřík** | extrakce z webu | živnostenská oprávnění, odpovědní zástupci |
+| **Katastr nemovitostí** (ČÚZK) | REST API | vlastnictví nemovitostí, věcná břemena, zástavy |
+| **Soudní rozhodnutí** | extrakce z webu | rozsudky, řízení, exekuční příkazy |
 
 ```elixir
 defmodule PrismaticOSINT.Adapters.ARES do
@@ -286,23 +335,25 @@ defmodule PrismaticOSINT.Adapters.ARES do
 end
 ```
 
-## NABLA Compliance for OSINT
+## Soulad OSINT s NABLA
 
-All OSINT findings in the Prismatic Platform must comply with [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic axioms:
+Všechna zjištění OSINT v Prismatic Platform musí odpovídat epistemickým axiomům [NABLA
+Infinity](@/glossary/nabla-infinity.md) (podrobně [Axiomy NABLA](@/glossary/nabla-axioms.md)):
 
-| Axiom | OSINT Application | Enforcement |
+| Axiom | Uplatnění v OSINT | Vynucení |
 |-------|-------------------|-------------|
-| **Signal Plurality** | Minimum 2 independent sources for any claim | HARD -- single-source findings marked "unverified" |
-| **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | Conflicting records preserved, not resolved | HARD -- both versions stored with provenance |
-| **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | Every finding traces to its source | HARD -- source URL, timestamp, and method recorded |
-| **Time Decay** | Findings have freshness timestamps | HARD -- stale findings downgraded automatically |
-| **Source Independence** | Cross-verify across independent providers | SOFT -- independent corroboration weighted higher |
+| **Pluralita signálů** | pro každé tvrzení nejméně 2 nezávislé zdroje | TVRDÉ – zjištění z jediného zdroje označena „neověřeno“ |
+| **[Zachování rozporu](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | protichůdné záznamy se zachovají, neřeší se | TVRDÉ – obě verze uloženy s proveniencí |
+| **[Povinná provenience](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | každé zjištění jde dohledat ke zdroji | TVRDÉ – zaznamená se URL zdroje, časové razítko a metoda |
+| **Časový rozpad** | zjištění nesou razítka aktuálnosti | TVRDÉ – zastaralá zjištění se automaticky oslabí |
+| **Nezávislost zdrojů** | křížové ověření napříč nezávislými poskytovateli | MĚKKÉ – nezávislé potvrzení má vyšší váhu |
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### Intelligence Pipeline
+### Zpravodajská pipeline
 
-The OSINT intelligence pipeline follows the standard intelligence cycle with Prismatic-specific automation:
+Zpravodajská pipeline OSINT sleduje standardní zpravodajský cyklus s automatizací specifickou pro
+Prismatic:
 
 ```
 Planning           Collection          Processing         Analysis           Dissemination
@@ -314,9 +365,9 @@ Planning           Collection          Processing         Analysis           Dis
 +-----------+     +-----------+       +-----------+      +-----------+      +-----------+
 ```
 
-### Rate Limiting and Ethical Collection
+### Omezení rychlosti a etický sběr
 
-OSINT collection respects source rate limits and ethical boundaries:
+Sběr OSINT respektuje limity zdrojů a etické meze:
 
 ```elixir
 defmodule PrismaticOSINT.RateLimiter do
@@ -360,110 +411,163 @@ defmodule PrismaticOSINT.RateLimiter do
 end
 ```
 
-## OSINT Toolbox UI
+## Uživatelské rozhraní OSINT Toolbox
 
-The Prismatic Platform exposes 120 OSINT tools through a [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/phoenix-liveview/) interface at `/osint/toolbox`, organized into 7 categories:
+Prismatic Platform v době zápisu zpřístupňovala 120 nástrojů OSINT přes rozhraní
+[LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/phoenix-liveview/) na
+adrese `/osint/toolbox`, uspořádaných do 7 kategorií:
 
-| Category | Tools | Key Sources |
+| Kategorie | Nástroje | Klíčové zdroje |
 |----------|-------|-------------|
-| **Czech** | 28 adapters | ARES, Justice, ISIR, Commercial Register, Trade Register |
-| **Global** | 84 adapters | Shodan, VirusTotal, Censys, Hunter.io, SecurityTrails |
-| **Sanctions** | 3 | EU Sanctions, OFAC SDN, UN Consolidated |
+| **Česko** | 28 adaptérů | ARES, Justice, ISIR, obchodní rejstřík, živnostenský rejstřík |
+| **Globální** | 84 adaptérů | Shodan, VirusTotal, Censys, Hunter.io, SecurityTrails |
+| **Sankce** | 3 | sankce EU, OFAC SDN, konsolidovaný seznam OSN |
 | **EU** | 1 | European Business Register |
-| **UK** | 1 | Companies House |
-| **US** | 1 | SEC EDGAR |
-| **Universal** | 2 | EmailIntelligence, EmailIntelligenceRateLimited |
+| **Spojené království** | 1 | Companies House |
+| **USA** | 1 | SEC EDGAR |
+| **Univerzální** | 2 | EmailIntelligence, EmailIntelligenceRateLimited |
 
-Each tool exposes a consistent interface through the LiveView dashboard: input parameters, execution control, results display, and export capabilities. The UI integrates with the platform's [telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) infrastructure for performance monitoring and rate limit visibility.
+Každý nástroj nabízí v přehledu LiveView jednotné rozhraní: vstupní parametry, řízení běhu,
+zobrazení výsledků a možnosti exportu. Rozhraní je napojeno na infrastrukturu
+[telemetrie](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) platformy
+kvůli sledování výkonu a viditelnosti limitů.
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-The Prismatic Platform has deep OSINT roots extending back to the GARDEN knowledge base's `sig` repository, which contains 250+ OSINT providers accumulated over 20+ years of intelligence work.
+Prismatic Platform má hluboké kořeny v OSINT, sahající ke znalostní bázi GARDEN a jejímu repozitáři
+`sig` s více než 250 poskytovateli OSINT nashromážděnými za více než dvacet let zpravodajské práce.
 
-### Platform OSINT Capabilities
+### Schopnosti OSINT v platformě
 
-| Capability | Application | Integration |
+| Schopnost | Aplikace | Integrace |
 |-----------|-------------|-------------|
-| **Attack Surface Discovery** | `prismatic_perimeter` | DNS, certificates, services, cloud resources |
-| **Visitor Intelligence** | `prismatic_hawkeye` | IP geolocation, organization mapping, threat correlation |
-| **Sanctions Screening** | `prismatic_osint` | EU/US/UN sanctions lists, PEP databases |
-| **Business Intelligence** | `prismatic_osint` | Czech registry, ARES, commercial register |
-| **[Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/)** | `prismatic_osint` | IOC feeds, malware databases, vulnerability correlation |
+| **Objevování útočné plochy** | `prismatic_perimeter` | DNS, certifikáty, služby, cloudové zdroje (viz [EASM](@/glossary/easm.md)) |
+| **Zpravodajství o návštěvnících** | `prismatic_hawkeye` | geolokace IP, mapování organizací, korelace hrozeb (viz [HAWKEYE](@/glossary/hawkeye.md)) |
+| **Sankční prověrka** | `prismatic_osint` | sankční seznamy EU/USA/OSN, databáze PEP (viz [Sanctions Screening](@/glossary/sanctions-screening.md)) |
+| **Obchodní zpravodajství** | `prismatic_osint` | české rejstříky, ARES, obchodní rejstřík |
+| **[Zpravodajství o hrozbách](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/)** | `prismatic_osint` | feedy IOC, databáze malwaru, korelace zranitelností |
 
-### GARDEN OSINT Heritage
+### Dědictví OSINT z GARDEN
 
-The GARDEN knowledge base contributes 250+ OSINT provider integrations from the legacy `sig` repository, organized by domain:
+Znalostní báze GARDEN přispívá více než 250 integracemi poskytovatelů OSINT z původního repozitáře
+`sig`, uspořádanými podle oblastí (počty v době zápisu):
 
-| Domain | Providers | Key Sources |
+| Oblast | Poskytovatelé | Klíčové zdroje |
 |--------|----------|-------------|
-| **Domain/DNS** | 45+ | PassiveDNS, SecurityTrails, VirusTotal, Shodan |
-| **Email** | 30+ | Hunter.io, Have I Been Pwned, EmailRep |
-| **Social** | 25+ | Social media platforms, username enumeration |
-| **Business** | 40+ | OpenCorporates, company registries, SEC/EDGAR |
-| **Threat** | 35+ | AlienVault OTX, abuse.ch, Maltiverse |
-| **Geospatial** | 20+ | MaxMind, IP2Location, Google Maps |
-| **Certificate** | 15+ | crt.sh, Censys, SSL Labs |
-| **Infrastructure** | 40+ | Shodan, Censys, ZoomEye, BinaryEdge |
+| **Domény/DNS** | 45+ | PassiveDNS, SecurityTrails, VirusTotal, Shodan |
+| **E-mail** | 30+ | Hunter.io, Have I Been Pwned, EmailRep |
+| **Sociální sítě** | 25+ | platformy sociálních sítí, výčet uživatelských jmen |
+| **Firmy** | 40+ | OpenCorporates, firemní rejstříky, SEC/EDGAR |
+| **Hrozby** | 35+ | AlienVault OTX, abuse.ch, Maltiverse |
+| **Geoprostor** | 20+ | MaxMind, IP2Location, Google Maps |
+| **Certifikáty** | 15+ | crt.sh, Censys, SSL Labs |
+| **Infrastruktura** | 40+ | Shodan, Censys, ZoomEye, BinaryEdge |
 
-## Comparison with Other Intelligence Disciplines
+## Srovnání s jinými zpravodajskými disciplínami
 
-| Discipline | Sources | Legal Constraints | Automation Potential | Prismatic Coverage |
+| Disciplína | Zdroje | Právní omezení | Potenciál automatizace | Pokrytí v Prismatic |
 |------------|---------|-------------------|---------------------|-------------------|
-| **OSINT** | Public data | Minimal (TOS, privacy) | High | Full (120 tools) |
-| **SIGINT** | Communications | Heavy (warrants) | Medium | Not applicable |
-| **HUMINT** | Human contacts | Heavy (legal/ethical) | Low | Not applicable |
-| **GEOINT** | Imagery/geospatial | Moderate | High | Partial (IP geolocation) |
-| **MASINT** | Measurements/signatures | Heavy | High | Not applicable |
-| **CYBINT** | Cyber operations | Moderate | High | Partial (threat intelligence) |
+| **OSINT** | veřejná data | malá (podmínky užití, soukromí) | vysoký | úplné (120 nástrojů) |
+| **SIGINT** | komunikace | přísná (soudní povolení) | střední | netýká se |
+| **HUMINT** | lidské kontakty | přísná (právní a etická) | nízký | netýká se |
+| **GEOINT** | snímky/geoprostorová data | střední | vysoký | částečné (geolokace IP) |
+| **MASINT** | měření/signatury | přísná | vysoký | netýká se |
+| **CYBINT** | kybernetické operace | střední | vysoký | částečné (zpravodajství o hrozbách) |
 
-## Best Practices
+## Osvědčené postupy
 
-**Verify through multiple independent sources.** Never rely on a single OSINT source for critical intelligence. Cross-reference findings across at least two independent sources. A domain registration record corroborated by certificate transparency logs and DNS records provides much higher confidence than any single source alone.
+**Ověřovat ve více nezávislých zdrojích.** U kritických poznatků se nikdy nespoléhat na jediný zdroj
+OSINT. Zjištění křížově ověřit nejméně ve dvou nezávislých zdrojích ([Signal
+Plurality](@/glossary/signal-plurality.md)). Záznam o registraci domény potvrzený logy Certificate
+Transparency a záznamy DNS dává mnohem vyšší důvěru než kterýkoli zdroj sám.
 
-**Track provenance meticulously.** Every finding must include its source URL, retrieval timestamp, and collection method. [Provenance](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) enables verification, freshness assessment, and legal defensibility. Without provenance, intelligence is indistinguishable from rumor.
+**Pečlivě sledovat provenienci.** Každé zjištění musí obsahovat URL zdroje, časové razítko získání
+a metodu sběru. [Provenience](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)
+umožňuje ověření, posouzení aktuálnosti a právní obhajitelnost. Bez provenience se zpravodajský
+poznatek neliší od fámy.
 
-**Respect rate limits and terms of service.** Aggressive scraping or API abuse damages the OSINT community by causing providers to restrict access. Implement proper rate limiting, honor robots.txt, and comply with API terms of service. Sustainable collection ensures long-term access.
+**Respektovat limity a podmínky užití.** Agresivní extrakce nebo zneužívání API poškozují komunitu
+OSINT, protože vedou poskytovatele k omezení přístupu. Zavést řádné omezení rychlosti, respektovat
+robots.txt a dodržovat podmínky užití API. Udržitelný sběr zajišťuje dlouhodobý přístup.
 
-**Implement time decay on findings.** OSINT data has a shelf life. DNS records change, certificates expire, companies merge, and people move. Implement automatic freshness tracking and re-collection schedules to prevent stale intelligence from contaminating analysis.
+**Uplatňovat časový rozpad na zjištění.** Data OSINT mají trvanlivost. Záznamy DNS se mění,
+certifikáty vyprší, firmy se slučují a lidé se stěhují. Zavést automatické sledování aktuálnosti
+a plány nového sběru, aby zastaralé poznatky nekontaminovaly analýzu.
 
-**Preserve contradictory information.** When sources disagree, preserve both versions with their respective provenance rather than choosing one. Contradictions are informative -- they may indicate data currency differences, deliberate deception, or legitimate ambiguity.
+**Zachovávat protichůdné informace.** Když se zdroje neshodnou, zachovat obě verze s jejich
+proveniencí, místo aby se vybrala jedna. Rozpory jsou informativní – mohou ukazovat na rozdíly
+v aktuálnosti dat, záměrný klam nebo legitimní nejednoznačnost.
 
-## Common Pitfalls
+**Zvažovat přiměřenost u osob.** Sběr informací o fyzických osobách má mít zákonný důvod
+a odpovídat účelu (zásada minimalizace podle GDPR). Kompendium zdůrazňuje, že ani veřejně dostupná
+data nesmějí sloužit k sestavení profilu, který by umožnil pronásledování nebo nátlak.
 
-**Confirmation bias in collection.** The temptation to search only for information supporting a hypothesis is strong. Structure collection plans to include sources that could disconfirm the hypothesis. NABLA's signal plurality axiom requires actively seeking contradictory evidence.
+## Časté chyby
 
-**Conflating data volume with intelligence quality.** Collecting more data does not automatically produce better intelligence. The analysis phase -- where raw data is interpreted, correlated, and assessed -- is where intelligence value is created. Investing in collection without corresponding investment in analysis produces data swamps.
+**Konfirmační bias při sběru.** Pokušení hledat jen informace podporující hypotézu je silné. Plán
+sběru má zahrnovat zdroje, které by hypotézu mohly vyvrátit (srov. [konfirmační
+bias](@/glossary/konfirmacni-bias.md) a [EA × Due Diligence: Confirmation
+Bias](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md)). Axiom plurality signálů v NABLA
+vyžaduje aktivně hledat protichůdné důkazy.
 
-**Ignoring legal and ethical boundaries.** OSINT uses public sources, but "public" has legal nuances. Scraping data behind login walls, accessing cached personal data after deletion requests, or collecting data in jurisdictions with strict privacy laws can create legal exposure. Understand the legal framework of each source.
+**Zaměňovat objem dat s kvalitou poznatků.** Shromáždění více dat automaticky nevede k lepším
+poznatkům. Hodnota vzniká ve fázi analýzy, kde se surová data vykládají, korelují a posuzují.
+Investice do sběru bez odpovídající investice do analýzy vytváří datové bažiny.
 
-**Single-language bias.** OSINT analysis that operates only in English misses intelligence available in other languages. For Czech business intelligence, the most authoritative sources are in Czech. Implement multi-language collection and analysis capabilities.
+**Přehlížet právní a etické meze.** OSINT používá veřejné zdroje, ale „veřejné“ má právní nuance.
+Extrakce dat za přihlašovací bránou, přístup k uloženým osobním údajům po žádosti o výmaz nebo sběr
+dat v jurisdikcích s přísnými zákony o ochraně soukromí mohou vytvořit právní riziko. Je třeba znát
+právní rámec každého zdroje.
 
-**Treating automated collection as final.** Automated OSINT tools are excellent at data gathering but poor at contextual interpretation. Automated findings should be treated as raw input requiring analyst review, not as finished intelligence products.
+**Jednojazyčné zkreslení.** Analýza OSINT, která pracuje jen v angličtině, mine poznatky dostupné
+v jiných jazycích. Pro české obchodní zpravodajství jsou nejautoritativnější zdroje česky. Je třeba
+zavést vícejazyčný sběr a analýzu.
 
-## Related Concepts
+**Chápat automatizovaný sběr jako konečný.** Automatizované nástroje OSINT výborně shromažďují data,
+ale špatně vykládají kontext. Automatizovaná zjištění je třeba brát jako surový vstup vyžadující
+přezkum analytikem, ne jako hotový zpravodajský produkt.
 
-- [Intelligence Fusion](@/glossary/intelligence-fusion.md) -- Multi-source correlation methodology for OSINT data
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- Structured threat information derived from OSINT sources
-- [EASM](@/glossary/easm.md) -- OSINT-powered external attack surface management
-- [Entity Resolution](@/glossary/entity-resolution.md) -- Fuzzy matching across OSINT source variations
-- [GARDEN](https://prismatic-reality-com.github.io/prismatic-promo/glossary/garden/) -- Legacy knowledge base with 250+ OSINT providers
-- [Sanctions Screening](@/glossary/sanctions-screening.md) -- Regulatory compliance using OSINT data sources
-- [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) -- EASM application consuming OSINT intelligence
-- [DNS Enumeration](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dns-enumeration/) -- Domain intelligence collection technique
-- [Vulnerability Assessment](https://prismatic-reality-com.github.io/prismatic-promo/glossary/vulnerability-assessment/) -- Security assessment powered by OSINT data
+## Související
 
-## See Also
+**Pojmy v tomto glosáři**
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- OSINT-specialized AIAD agents
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- OSINT applications in the umbrella
+- [Intelligence Fusion](@/glossary/intelligence-fusion.md) – metodika korelace dat OSINT z více
+  zdrojů.
+- [EASM](@/glossary/easm.md) – správa vnější útočné plochy postavená na OSINT.
+- [Entity Resolution](@/glossary/entity-resolution.md) – neostré porovnávání napříč variantami
+  zdrojů.
+- [Sanctions Screening](@/glossary/sanctions-screening.md) – regulatorní soulad s využitím zdrojů
+  OSINT.
+- [Shodan](@/glossary/shodan.md), [Censys](@/glossary/censys.md) – skenery internetové
+  infrastruktury.
+- [Doxing](@/glossary/doxing.md) – zneužití postupů OSINT proti osobám.
+
+**Hesla a přehledy platformy mimo tuto knihu**
+
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/),
+  [GARDEN](https://prismatic-reality-com.github.io/prismatic-promo/glossary/garden/),
+  [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/),
+  [DNS Enumeration](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dns-enumeration/),
+  [Vulnerability Assessment](https://prismatic-reality-com.github.io/prismatic-promo/glossary/vulnerability-assessment/).
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Agenti](https://prismatic-reality-com.github.io/prismatic-promo/agents/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Aplikace](https://prismatic-reality-com.github.io/prismatic-promo/apps/).
+
+**Kniha**
+
+- [OSINT Agent a detekce EA](@/kompendium/aiad-integration/osint-ea-source-validation.md) – ověřování
+  zdrojů pod epistemickým útokem.
+- [EA × OSINT: triangulace napříč zdroji](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) –
+  pluralita v investigativní praxi.
+- [EA × OSINT: ARES Validation](@/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md) –
+  české rejstříky z pohledu EA.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

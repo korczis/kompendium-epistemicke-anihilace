@@ -5,6 +5,9 @@ description = "SSSR 1930–1965: státem prosazená pseudověda Trofima Lysenka,
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

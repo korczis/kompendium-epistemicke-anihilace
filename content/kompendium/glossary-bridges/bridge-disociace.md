@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Disociace je psychologický mechanismus částečného nebo úplného oddělení mentálních funkcí (paměť, vědomí, identita, percepce) od integrovaného self. Spektrum sahá od denního snění (mírná) přes depersonalizaci/derealizaci (středně těžká) po DID (Dissociative Identity Disorder, dříve MPD). Často spojeno s C-PTSD a betrayal trauma.
+Disociace je psychologický mechanismus částečného nebo úplného oddělení mentálních funkcí (paměť, vědomí, identita, percepce) od integrovaného self. Spektrum sahá od denního snění (mírná) přes depersonalizaci/derealizaci (středně těžká) po DID (Dissociative Identity Disorder, dříve MPD). Často spojeno s C-PTSD a [betrayal trauma](@/glossary/betrayal-trauma.md).
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 

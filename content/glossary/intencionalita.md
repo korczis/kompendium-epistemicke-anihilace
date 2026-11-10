@@ -21,7 +21,7 @@ quality_score = 75
 
 ## Definition
 
-Intencionalita (Husserl) je vlastnost vědomí být *o* něčem — directedness toward an object. Fundamentální pro fenomenologickou analýzu zkušenosti. V Prismatic frameworku slouží jako teoretický základ [epistemic pipeline](@/glossary/epistemic-pipeline.md) — každý epistemický akt má intencionální strukturu (noesis–noema).
+[Intencionalita](@/glossary/intentionalita.md) (Husserl) je vlastnost vědomí být *o* něčem — directedness toward an object. Fundamentální pro fenomenologickou analýzu zkušenosti. V Prismatic frameworku slouží jako teoretický základ [epistemic pipeline](@/glossary/epistemic-pipeline.md) — každý epistemický akt má intencionální strukturu (noesis–noema).
 
 ## See Also
 

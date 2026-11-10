@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.10 Meta-kognitivní singularita"
-description = "Detailní per-technique článek: technika meta-kognitivní singularity — metakognice se zhroutí v jediný sebereferenční bod, ze kterého žádný výstup není možný. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika meta-kognitivní singularity — metakognice se zhroutí v jediný sebereferenční bod, ze kterého žádný výstup není možný."
 weight = 5210
 insert_anchor_links = "right"
 
@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Meta-kognitivní singularita** je terminální technika kapitoly 7. Po její úspěšné aplikaci se **metakognitivní funkce** subjektu — schopnost myslet o vlastním myšlení, posuzovat vlastní soudy, kalibrovat vlastní jistotu — **zhroutí v jediný sebereferenční bod**, ze kterého **žádný kognitivní výstup** není možný. Subjekt nadále **percipuje a reaguje**, ale **nedokáže provést žádný metakognitivní akt**: nedokáže si položit otázku *„Jsem si tím jistý?“*, *„Co o tom vím?“*, *„Mohu se mýlit?“*.
 
-Strukturální rys: singularita není **absence** metakognice, ale **její imploze**. Metakognitivní funkce **stále existuje**, ale je **stažena do bodu**, ze kterého neproduktuje žádné distinkce. Subjekt **prožívá** něco jako *„vím, že vím“* nebo *„jsem si vědom toho, že jsem si vědom“*, ale tento prožitek **neumožňuje žádný strukturní výstup** — žádné kalibrace, žádnou kritickou reflexi, žádnou změnu na základě reflexe.
+Strukturální rys: singularita není **absence** [metakognice](@/glossary/metakognice.md), ale **její imploze**. Metakognitivní funkce **stále existuje**, ale je **stažena do bodu**, ze kterého neproduktuje žádné distinkce. Subjekt **prožívá** něco jako *„vím, že vím“* nebo *„jsem si vědom toho, že jsem si vědom“*, ale tento prožitek **neumožňuje žádný strukturní výstup** — žádné kalibrace, žádnou kritickou reflexi, žádnou změnu na základě reflexe.
 
 V hierarchii technik kapitoly 7 je singularita **strukturní vrchol**: představuje stav, ve kterém **metakognitivní aparát** (předpokládaný všemi ostatními technikami pro jejich detekci) **přestává operovat**. Subjekt nemůže detekovat ani vlastní stav, ani techniky, které ho tam přivedly.
 
@@ -129,7 +129,7 @@ Pokud je subjekt zapojen do kontemplativní praxe, **tradiční učitel** s ritu
 |-----------|--------------|
 | **Specializovaná klinika** | Centra kombinující fenomenologickou psychopatologii a kontemplativní expertízu |
 | **Etické rámce intenzivních kontemplativních praxí** | Povinný integrační rámec po retreatu |
-| **Klinická edukace** | Tréning v rozpoznávání singularity a její diferenciace |
+| **Klinická edukace** | Tréning v rozpoznávání singularity a její [diferenciace](@/glossary/diferenciace.md) |
 
 ## Případové studie
 

@@ -19,7 +19,7 @@ toc = true
 
 Amartya Sen — laureát Nobelovy ceny za ekonomii 1998 — ve své centrální knize *Development as Freedom* (1999) formuluje **revoluční** ekonomicko-filozofickou tezi: **rozvoj** (*development*) není primárně **růstem HDP**, ale **rozšiřováním substantivních svobod** (*substantive freedoms*) lidí.
 
-Pro kompendium EA poskytuje Senova teorie nástroj pro pochopení **EA jako strukturální deprivace substantivních svobod**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Senova teorie nástroj pro pochopení **EA jako strukturální deprivace substantivních svobod**.
 
 ## 1. Pět typů substantivní svobody
 
@@ -100,7 +100,7 @@ Pro EA má tento argument **klinický význam**:
 | Sen | EA technika | Mechanismus |
 |-----|-------------|-------------|
 | Útok na transparentnost | Disinformace | EA-1.x |
-| Identitární redukcionismus | Identitární kategorizace | EA-3.x |
+| Identitární [redukcionismus](@/glossary/redukcionismus.md) | Identitární kategorizace | EA-3.x |
 | Adaptivní preference | Indukovaná spokojenost s útlakem | EA-3.x |
 | Útok na demokratické instituce | Politická EA | Strukturální |
 | Redukce kapacit | Strukturální deprivace | Strukturální |

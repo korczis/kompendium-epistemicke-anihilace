@@ -89,7 +89,7 @@ nebagatelizoval ani nemoralizoval kvůli ideologii; nejdřív se zabýval jeho b
 - **S1 – Validace a mapování:** posouzení [suicidálního rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
   a bezpečnostní plán; uznání samoty jako skutečné bolesti.
 - **S2 – Externalizace introjektů:** biodeterministické věty zapsány a odlišeny od zkušenosti.
-- **S3 – Rekonstrukce metakognice:** [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
   o přitažlivosti a vztazích; práce s tím, co „data“ fóra skutečně říkají.
 - **S4 – Hermeneutická obnova:** terapie zaměřená na mužskou socializaci, kamarádství a samotu
   (inspirováno programy pro muže a skupinami vzájemné podpory mužů).

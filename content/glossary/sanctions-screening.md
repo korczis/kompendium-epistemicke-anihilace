@@ -1,10 +1,10 @@
 +++
-title = "Sanctions Screening"
+title = "Sanctions screening (sankční prověrka)"
 weight = 29
-description = "Automated checking against EU, US, UK, and UN sanctions lists with fuzzy matching and entity resolution in the Prismatic Platform"
+description = "Automatizované prověřování osob a subjektů proti sankčním seznamům EU, USA, Spojeného království a OSN s neostrým porovnáváním a slučováním entit."
 
 [taxonomies]
-tags = ["sanctions", "compliance", "osint", "screening", "aml"]
+tags = ["glossary", "compliance", "osint", "due-diligence", "prismatic"]
 
 [extra]
 category = "osint"
@@ -26,51 +26,97 @@ compliance_frameworks = ["NIS2", "AML5D", "OFAC", "EU Sanctions Regulation"]
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
 word_count = 1356
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Sanctions Screening - Prismatic Platform"
+image_alt = "Sanctions screening (sankční prověrka) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Sanctions screening is the regulatory compliance process of systematically checking individuals, organizations, vessels, addresses, and other entities against official sanctions lists maintained by governmental and supranational authorities. The primary lists include the European Union Consolidated Sanctions List, the United States Office of Foreign Assets Control (OFAC) Specially Designated Nationals (SDN) list, the United Kingdom Office of Financial Sanctions Implementation (OFSI) list, and the United Nations Security Council Consolidated List. The process identifies sanctioned entities, Politically Exposed Persons (PEPs), and entities subject to restrictive measures including asset freezes, travel bans, arms embargoes, and trade restrictions.
+Sankční prověrka (*sanctions screening*) je regulatorní proces systematického porovnávání
+fyzických osob, organizací, plavidel, adres a dalších subjektů s oficiálními sankčními seznamy,
+které vedou státní a nadnárodní orgány. Hlavními seznamy jsou konsolidovaný sankční seznam
+Evropské unie, seznam SDN (*Specially Designated Nationals*) amerického úřadu OFAC (*Office of
+Foreign Assets Control*), seznam britského úřadu OFSI (*Office of Financial Sanctions
+Implementation*) a konsolidovaný seznam Rady bezpečnosti OSN. Proces identifikuje sankcionované
+subjekty, politicky exponované osoby (PEP) a subjekty podléhající restriktivním opatřením,
+včetně zmrazení majetku, zákazů cestování, zbrojních embarg a obchodních omezení.
 
-Sanctions screening operates at the intersection of regulatory compliance, financial crime prevention, and national security. Organizations subject to sanctions regulations -- including financial institutions, insurance companies, trade facilitators, and increasingly technology companies -- must screen counterparties, customers, beneficial owners, and transactions against applicable lists before engaging in business relationships or processing payments. Failure to comply carries severe penalties including criminal prosecution, substantial fines (reaching billions of dollars for major violations), and reputational damage.
+Sankční prověrka stojí na průsečíku regulatorního souladu, prevence finanční kriminality
+a národní bezpečnosti. Organizace, na něž se sankční předpisy vztahují – finanční instituce,
+pojišťovny, zprostředkovatelé obchodu a stále častěji i technologické firmy –, musí před
+navázáním obchodního vztahu nebo zpracováním platby prověřit protistrany, zákazníky, skutečné
+majitele a transakce proti příslušným seznamům. Nesplnění povinností přináší přísné sankce
+včetně trestního stíhání, vysokých pokut (u závažných porušení v řádu miliard dolarů)
+a poškození pověsti. V České republice provádění mezinárodních sankcí upravuje zákon
+č. 69/2006 Sb., o provádění mezinárodních sankcí.
 
-The Prismatic Platform implements sanctions screening as an integrated component of its [OSINT](@/glossary/osint.md) and [intelligence fusion](@/glossary/intelligence-fusion.md) pipeline, leveraging Elixir's concurrency model to perform parallel multi-list screening with sub-second response times. The platform's screening results feed directly into [security ratings](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) and [compliance assessments](@/glossary/compliance-framework.md), providing a unified view of entity risk across regulatory, security, and operational dimensions.
+Prismatic Platform implementuje sankční prověrku jako integrovanou součást své pipeline
+[OSINT](@/glossary/osint.md) a [fúze zpravodajských informací](@/glossary/intelligence-fusion.md)
+a využívá model souběžnosti Elixiru k paralelní prověrce proti více seznamům s odezvou pod
+sekundu. Výsledky prověrek vstupují přímo do [bezpečnostních
+hodnocení](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/)
+a [posouzení souladu](@/glossary/compliance-framework.md) a dávají jednotný pohled na riziko
+subjektu v regulatorní, bezpečnostní i provozní dimenzi.
 
-## Historical Context and Regulatory Landscape
+Pro Kompendium je sankční prověrka pojmem z kontextu platformy. Kniha se jí dotýká tam, kde
+rozhoduje o lidech: shoda jména na seznamu je hypotéza, ne zjištění, a neopatrné závěry mohou
+poškodit nevinné osoby se stejným nebo podobným jménem (viz [EA × OSINT: Sankční seznamy
+a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md)).
 
-The modern sanctions regime traces its origins to the Trading with the Enemy Act of 1917 in the United States and the League of Nations sanctions against Italy in 1935. However, the sanctions landscape as we know it emerged primarily after the September 11, 2001 attacks, when the global financial system was mobilized as a weapon against terrorism financing. The USA PATRIOT Act of 2001 dramatically expanded OFAC's authority and the scope of sanctions compliance obligations for financial institutions.
+## Historický kontext a regulatorní prostředí
 
-In Europe, the European Union developed its own sanctions framework through Common Foreign and Security Policy (CFSP) decisions, implemented through Council Regulations that are directly applicable in all member states. The EU sanctions landscape became dramatically more complex following Russia's annexation of Crimea in 2014 and the subsequent full-scale invasion of Ukraine in 2022, which triggered the most comprehensive sanctions packages in EU history -- over 10 successive packages imposing thousands of individual and entity designations.
+Moderní sankční režim má kořeny v americkém zákoně *Trading with the Enemy Act* z roku 1917
+a v sankcích Společnosti národů proti Itálii v roce 1935. Sankční prostředí v dnešní podobě však
+vzniklo hlavně po útocích z 11. září 2001, kdy byl globální finanční systém mobilizován jako
+zbraň proti financování terorismu. Zákon *USA PATRIOT Act* z roku 2001 výrazně rozšířil
+pravomoci OFAC a rozsah povinností finančních institucí v oblasti sankčního souladu.
 
-The UK's departure from the EU created a third major sanctions regime through the Sanctions and Anti-Money Laundering Act 2018, establishing OFSI as the UK's sanctions enforcement authority. The UN Security Council maintains its own consolidated list, which member states are obligated to implement but which may differ in scope and interpretation from national implementations.
+V Evropě vyvinula Evropská unie vlastní sankční rámec prostřednictvím rozhodnutí v rámci
+společné zahraniční a bezpečnostní politiky (SZBP), prováděných nařízeními Rady, která jsou
+přímo použitelná ve všech členských státech. Sankční prostředí EU se dramaticky zkomplikovalo
+po ruské anexi Krymu v roce 2014 a po plnohodnotné invazi na Ukrajinu v roce 2022, která vyvolala
+nejrozsáhlejší sankční balíčky v dějinách EU – více než deset po sobě jdoucích balíčků
+s tisíci individuálních označení osob a subjektů.
 
-This multi-jurisdictional complexity is the fundamental technical challenge of sanctions screening. An entity may be sanctioned by one authority but not another, or sanctioned under different programs with different restrictions. The Prismatic Platform addresses this by screening against all major lists in parallel and providing a consolidated risk assessment that accounts for the specific regulatory obligations of the screening organization.
+Odchod Spojeného království z EU vytvořil třetí velký sankční režim; jeho právním základem je
+zákon *Sanctions and Anti-Money Laundering Act 2018* a vymáhání finančních sankcí má na starosti
+OFSI při britském ministerstvu financí. Rada bezpečnosti OSN vede vlastní konsolidovaný seznam,
+který jsou členské státy povinny provádět, ale který se rozsahem a výkladem může od národních
+provedení lišit.
 
-## Technical Deep Dive
+Tato víceúrovňová složitost napříč jurisdikcemi je základní technickou výzvou sankční prověrky.
+Subjekt může být sankcionován jedním orgánem, a jiným ne, nebo sankcionován v různých programech
+s různými omezeními. Prismatic Platform to řeší paralelní prověrkou proti všem hlavním seznamům
+a konsolidovaným posouzením rizika, které zohledňuje konkrétní regulatorní povinnosti
+prověřující organizace.
 
-### Matching Algorithms
+## Technický rozbor
 
-Sanctions screening systems employ multiple matching strategies in combination to maximize detection while controlling false positive rates:
+### Algoritmy porovnávání
 
-| Algorithm | Approach | Strength | Weakness | Prismatic Weight |
+Systémy sankční prověrky kombinují více strategií porovnávání, aby maximalizovaly záchyt
+a zároveň udržely míru falešně pozitivních shod pod kontrolou:
+
+| Algoritmus | Přístup | Silná stránka | Slabina | Váha v Prismatic |
 |-----------|----------|----------|----------|-----------------|
-| **Exact Match** | Character-by-character comparison | Zero false positives | Misses any variation | 1.0 |
-| **Soundex/Metaphone** | Phonetic encoding comparison | Catches pronunciation variants | Language-specific, high FP | 0.6 |
-| **Levenshtein Distance** | Edit distance between strings | Catches typos and minor variations | Computationally expensive | 0.8 |
-| **Jaro-Winkler** | Weighted character transposition | Good for name matching | Sensitive to length differences | 0.85 |
-| **N-gram** | Substring overlap measurement | Language-independent | High false positive rate | 0.7 |
-| **Token-based** | Word-level comparison with reordering | Handles name order variations | Misses partial name matches | 0.75 |
+| **Přesná shoda** | porovnání znak po znaku | nula falešně pozitivních | mine jakoukoli variantu | 1,0 |
+| **Soundex/Metaphone** | porovnání fonetického kódu | zachytí výslovnostní varianty | jazykově specifické, vysoká míra FP | 0,6 |
+| **Levenshteinova vzdálenost** | editační vzdálenost řetězců | zachytí překlepy a drobné odchylky | výpočetně náročné | 0,8 |
+| **Jaro-Winkler** | vážené transpozice znaků | dobré pro porovnávání jmen | citlivé na rozdíly délky | 0,85 |
+| **N-gramy** | míra překryvu podřetězců | jazykově nezávislé | vysoká míra falešně pozitivních | 0,7 |
+| **Tokenové** | porovnání slov s přeskupením | zvládá různé pořadí jmen | mine částečné shody jmen | 0,75 |
 
-Production screening systems typically combine multiple algorithms in a scoring pipeline, where each algorithm contributes a weighted score to a composite match confidence. Matches exceeding a configurable threshold (0.85 in the Prismatic Platform default configuration) are flagged for human review, while clear non-matches are passed automatically.
+Produkční systémy obvykle kombinují více algoritmů ve skórovací pipeline, v níž každý algoritmus
+přispívá váženým skóre do složené důvěry shody. Shody nad nastavitelným prahem (ve výchozí
+konfiguraci Prismatic Platform 0,85) se označí k lidskému přezkumu, jasné neshody projdou
+automaticky.
 
-### Name Normalization Pipeline
+### Pipeline normalizace jmen
 
-Before matching, entity names pass through a normalization pipeline that addresses common variations:
+Před porovnáním procházejí jména subjektů normalizační pipeline, která řeší běžné varianty:
 
 ```elixir
 defmodule PrismaticIntel.SanctionsScreening.NameNormalizer do
@@ -132,17 +178,19 @@ defmodule PrismaticIntel.SanctionsScreening.NameNormalizer do
 end
 ```
 
-### List Management and Ingestion
+### Správa a příjem seznamů
 
-Sanctions lists are published in various formats (XML, CSV, PDF, JSON) with different update frequencies and schemas. The platform's ListManager normalizes these heterogeneous sources into a unified internal format:
+Sankční seznamy se zveřejňují v různých formátech (XML, CSV, PDF, JSON) s různou frekvencí
+aktualizací a různými schématy. ListManager platformy převádí tyto různorodé zdroje do
+jednotného interního formátu:
 
-| List | Authority | Update Frequency | Format | Entries (approx.) |
+| Seznam | Orgán | Frekvence aktualizace | Formát | Položky (přibližně, v době zápisu) |
 |------|-----------|-----------------|--------|------------------|
-| **EU Consolidated** | European Commission | Daily | XML (SCSB format) | 10,000+ |
-| **OFAC SDN** | US Treasury | Multiple per week | XML, CSV, PDF | 12,000+ |
-| **OFSI** | UK Treasury | Weekly | CSV, XML | 4,000+ |
-| **UN Consolidated** | UN Security Council | As needed | XML | 800+ |
-| **PEP Lists** | Various providers | Monthly | Proprietary | 1,000,000+ |
+| **EU konsolidovaný** | Evropská komise | denně | XML | 10 000+ |
+| **OFAC SDN** | ministerstvo financí USA | několikrát týdně | XML, CSV, PDF | 12 000+ |
+| **OFSI** | ministerstvo financí Spojeného království | týdně | CSV, XML | 4 000+ |
+| **OSN konsolidovaný** | Rada bezpečnosti OSN | dle potřeby | XML | 800+ |
+| **Seznamy PEP** | různí poskytovatelé | měsíčně | proprietární | 1 000 000+ |
 
 ```elixir
 defmodule PrismaticIntel.SanctionsScreening.ListManager do
@@ -214,9 +262,10 @@ defmodule PrismaticIntel.SanctionsScreening.ListManager do
 end
 ```
 
-## Implementation in Prismatic Platform
+## Implementace v Prismatic Platform
 
-The Prismatic Platform implements sanctions screening as part of its intelligence fusion pipeline, leveraging Elixir's concurrency model for parallel multi-list checking:
+Prismatic Platform implementuje sankční prověrku jako součást pipeline fúze zpravodajských
+informací a pro paralelní kontrolu více seznamů využívá model souběžnosti Elixiru:
 
 ```elixir
 defmodule PrismaticIntel.SanctionsScreening do
@@ -326,34 +375,38 @@ defmodule PrismaticIntel.SanctionsScreening do
 end
 ```
 
-## Integration with Platform Components
+## Napojení na komponenty platformy
 
-The platform's screening results feed into multiple downstream systems:
+Výsledky prověrek vstupují do několika navazujících systémů:
 
-| Component | Integration | Purpose |
+| Komponenta | Integrace | Účel |
 |-----------|------------|---------|
-| [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) | Risk level affects score | Sanctions exposure degrades organization rating |
-| [EASM](@/glossary/easm.md) | Supply chain screening | Identifies sanctioned entities in vendor networks |
-| [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) Compliance | Supply chain risk | NIS2 requires supply chain security assessment |
-| [Intelligence Fusion](@/glossary/intelligence-fusion.md) | Multi-source correlation | Screening results correlated with other OSINT data |
-| [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) | Compliance documentation | All screening decisions logged with full audit trail |
-| [SIEM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/siem/) | Security events | Screening results emitted as security telemetry events |
+| [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) | míra rizika ovlivňuje skóre | sankční expozice zhoršuje hodnocení organizace |
+| [EASM](@/glossary/easm.md) | prověrka dodavatelského řetězce | odhaluje sankcionované subjekty v sítích dodavatelů |
+| soulad s [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) | riziko dodavatelského řetězce | NIS2 vyžaduje posouzení bezpečnosti dodavatelského řetězce |
+| [Intelligence Fusion](@/glossary/intelligence-fusion.md) | korelace více zdrojů | výsledky prověrek se korelují s dalšími daty OSINT |
+| [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) | dokumentace souladu | všechna rozhodnutí z prověrek se zaznamenávají s úplnou auditní stopou |
+| [SIEM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/siem/) | bezpečnostní události | výsledky prověrek se vysílají jako bezpečnostní telemetrie |
 
-## Comparison with Alternatives
+## Srovnání s alternativami
 
-| Approach | Coverage | Speed | Accuracy | Cost |
+| Přístup | Pokrytí | Rychlost | Přesnost | Náklady |
 |----------|----------|-------|----------|------|
-| **In-house screening** | Customizable | Fast (local) | Depends on implementation | Development + maintenance |
-| **Commercial SaaS** (Dow Jones, Refinitiv) | Comprehensive + PEP | API latency | High (tuned models) | Per-query pricing |
-| **Bureau van Dijk/Moody's** | Financial focus | Moderate | Very high | Enterprise licensing |
-| **Open-source lists only** | Government lists only | Fast | Limited (no PEP) | Free (lists) + development |
-| **Prismatic integrated** | Multi-list + OSINT enrichment | Parallel, sub-second | High (fuzzy + resolution) | Platform integrated |
+| **Vlastní prověrka** | přizpůsobitelné | rychlá (lokálně) | závisí na implementaci | vývoj + údržba |
+| **Komerční SaaS** (Dow Jones, Refinitiv) | úplné + PEP | latence API | vysoká (vyladěné modely) | cena za dotaz |
+| **Bureau van Dijk / Moody's** | zaměření na finance | střední | velmi vysoká | podniková licence |
+| **Jen otevřené seznamy** | jen vládní seznamy | rychlá | omezená (bez PEP) | zdarma (seznamy) + vývoj |
+| **Integrace v Prismatic** | více seznamů + obohacení z OSINT | paralelní, pod sekundu | vysoká (neostré porovnání + slučování) | součást platformy |
 
-Commercial screening providers offer broader data coverage (particularly PEP databases, adverse media, and corporate ownership structures) but introduce API dependencies, per-query costs, and data residency concerns. In-house screening provides full control and eliminates per-query costs but requires significant investment in list management, matching algorithm development, and ongoing maintenance.
+Komerční poskytovatelé prověrek nabízejí širší pokrytí dat (zejména databáze PEP, negativní
+mediální zmínky a vlastnické struktury firem), ale přinášejí závislost na API, náklady za dotaz
+a otázky umístění dat. Vlastní prověrka dává plnou kontrolu a odstraňuje náklady za dotaz, ale
+vyžaduje významné investice do správy seznamů, vývoje porovnávacích algoritmů a průběžné údržby.
 
-## Audit Trail and Compliance Documentation
+## Auditní stopa a dokumentace souladu
 
-Every screening operation generates an immutable audit record that documents the screening parameters, results, and disposition:
+Každá operace prověrky vytváří neměnný auditní záznam, který dokumentuje parametry prověrky,
+výsledky a rozhodnutí:
 
 ```elixir
 defmodule PrismaticIntel.SanctionsScreening.AuditLogger do
@@ -384,56 +437,81 @@ defmodule PrismaticIntel.SanctionsScreening.AuditLogger do
 end
 ```
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Calibrate match thresholds based on risk appetite**. Setting thresholds too low generates overwhelming false positives; too high risks missing genuine matches. Start at 0.85 and adjust based on operational experience and regulatory guidance.
+1. **Kalibrovat prahy shody podle ochoty nést riziko.** Příliš nízké prahy vytvářejí zahlcující
+   množství falešně pozitivních shod, příliš vysoké hrozí přehlédnutím skutečných shod. Začít na
+   0,85 a upravovat podle provozní zkušenosti a regulatorních pokynů.
+2. **Aktualizace seznamů uplatňovat neprodleně.** Sankční označení nabývají účinnosti okamžitě po
+   zveřejnění. Automatizované pipeline příjmu s ověřením integrity mají aktualizace zpracovat do
+   několika hodin od zveřejnění.
+3. **Dokumentovat všechna rozhodnutí z prověrek.** Regulátoři očekávají úplné auditní stopy, které
+   dokládají důkladný přezkum shod, zdokumentované zdůvodnění rozhodnutí a uchování záznamů po
+   dobu 5–7 let.
+4. **Prověřovat průběžně, ne jen při navázání vztahu.** Dávková opakovaná prověrka existujících
+   vztahů při každé aktualizaci seznamů zachytí subjekty označené až po úvodním schválení.
+5. **Kombinovat více algoritmů porovnávání.** Žádný jednotlivý algoritmus nezachytí všechny typy
+   variant. Víceúrovňová skórovací pipeline platformy pokrývá transliteraci, fonetickou
+   podobnost i typografické odchylky.
+6. **Slučovat entity napříč seznamy.** Tentýž sankcionovaný subjekt uvedený na více seznamech pod
+   různými variantami jména je třeba sloučit do jediného záznamu, aby bylo posouzení rizika
+   přesné (viz [Entity Resolution](@/glossary/entity-resolution.md)).
 
-2. **Apply list updates promptly**. Sanctions designations take effect immediately upon publication. Automated ingestion pipelines with integrity verification should process updates within hours of publication.
+## Časté chyby
 
-3. **Document all screening decisions**. Regulators expect full audit trails demonstrating thorough review of matches, documented reasoning for dispositions, and records retained for 5-7 years.
+- **Prověrka proti zastaralým seznamům**: používání starých verzí seznamů vytváří mezery v souladu.
+  Zavést automatickou obnovu s výstrahami při zastarání.
+- **Přílišné spoléhání na přesnou shodu**: přesná shoda mine prakticky všechny pokusy o obcházení.
+  Neostré porovnávání je pro smysluplnou detekci povinné.
+- **Přehlížení aliasů a transliteračních variant**: sankcionované subjekty používají aliasy,
+  transliterace a záměrné zamlžování. Normalizace a generování variant jsou nezbytnými kroky
+  předzpracování.
+- **Nezohlednění rozdílů písma**: arabská, cyrilská a čínská jména mají více platných přepisů do
+  latinky. Porovnávání napříč písmy vyžaduje specializovanou práci s transliterací.
+- **Brát prověrku jako jednorázovou kontrolu**: sankční seznamy se průběžně aktualizují. Průběžné
+  monitorování je regulatorním očekáváním, ne volitelným vylepšením.
+- **Zaměnit shodu jména s identitou**: každou shodu nad prahem musí potvrdit další
+  identifikátory (datum narození, státní příslušnost, adresa, registrační čísla) – jinak hrozí
+  újma osobám se shodným jménem.
 
-4. **Screen continuously, not just at onboarding**. Batch re-screening of existing relationships whenever lists are updated catches entities designated after initial clearance.
+## Související
 
-5. **Combine multiple matching algorithms**. No single algorithm catches all variation types. The platform's multi-algorithm scoring pipeline provides comprehensive coverage across transliteration, phonetic similarity, and typographic variation.
+**Pojmy v tomto glosáři**
 
-6. **Implement entity resolution across lists**. The same sanctioned entity appearing on multiple lists under different name variants must be resolved to a single record to provide accurate risk assessment.
+- [OSINT](@/glossary/osint.md) – metodika přístupu k veřejným sankčním datům.
+- [Intelligence Fusion](@/glossary/intelligence-fusion.md) – korelace výsledků prověrek z více
+  zdrojů.
+- [EASM](@/glossary/easm.md) – kontext útočné plochy, který výsledky obohacuje.
+- [Entity Resolution](@/glossary/entity-resolution.md) – technologie deduplikace, na níž stojí
+  přesnost prověrky.
+- [Compliance Framework](@/glossary/compliance-framework.md) – regulatorní požadavky, z nichž
+  povinnost prověrky plyne.
+- [Due Diligence](@/glossary/due-diligence.md) – hlavní kontext užití.
+- [Risk Score](@/glossary/risk-score.md) – skórování rizik, do něhož výsledky vstupují.
 
-## Common Pitfalls
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- **Screening against stale lists**: Using outdated list versions creates compliance gaps. Implement automated refresh with staleness alerts.
+- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/),
+  [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/),
+  [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/),
+  [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/),
+  [SDN List](https://prismatic-reality-com.github.io/prismatic-promo/glossary/sdn-list/).
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Aplikace](https://prismatic-reality-com.github.io/prismatic-promo/apps/).
 
-- **Over-reliance on exact matching**: Exact matching misses virtually all evasion attempts. Fuzzy matching is mandatory for meaningful detection.
+**Kniha**
 
-- **Ignoring alias and transliteration variants**: Sanctioned entities use aliases, transliterations, and deliberate obfuscation. Normalization and variant generation are essential preprocessing steps.
-
-- **Not accounting for script differences**: Arabic, Cyrillic, and Chinese names have multiple valid romanizations. Cross-script matching requires specialized transliteration handling.
-
-- **Treating screening as a one-time check**: Sanctions lists update continuously. Ongoing monitoring is a regulatory expectation, not an optional enhancement.
-
-## Related Concepts
-
-- [OSINT](@/glossary/osint.md) -- Source methodology for accessing public sanctions data
-- [Intelligence Fusion](@/glossary/intelligence-fusion.md) -- Multi-source correlation of screening results
-- [NIS2 Directive](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) -- Compliance framework requiring supply chain screening
-- [EASM](@/glossary/easm.md) -- Attack surface context enriching screening results
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Scores incorporating sanctions screening outcomes
-- [Entity Resolution](@/glossary/entity-resolution.md) -- Deduplication technology underlying screening accuracy
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- External feeds complementing sanctions data
-- [Compliance Framework](@/glossary/compliance-framework.md) -- Regulatory requirements driving screening obligations
-- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable documentation of screening decisions
-- [SDN List](https://prismatic-reality-com.github.io/prismatic-promo/glossary/sdn-list/)
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Application directory
+- [EA × OSINT: Sankční seznamy a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) –
+  zkreslení při práci se sankčními daty.
+- [Compliance Agent a detekce EA](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md) –
+  regulatorní prověrka v detekci EA.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

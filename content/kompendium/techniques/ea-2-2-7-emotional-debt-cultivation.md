@@ -28,7 +28,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 |---------|---------|
 | **EA kód** | EA-2.2.7 |
 | **Název** | Emotional Debt Cultivation |
-| **Kategorie** | 2. Scénáře delegitimizace |
+| **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.2 Pedagogická koercion |
 | **Risk level** | High |
 | **Access level** | L2 |
@@ -86,7 +86,7 @@ Technika **EA-2.2.7** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky 
 
 Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
 
-- **Decision Engine** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
+- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
 - **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
 - **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
 - **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur

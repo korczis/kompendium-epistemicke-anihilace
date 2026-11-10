@@ -51,7 +51,7 @@ Pokles vnitřního trestu po chybě; schopnost přiznat zranitelnost; konec perf
 
 ## Limitace
 
-Hluboká hanba (komplexní trauma, abuse) vyžaduje terapeutickou podporu, samoobsluha nestačí.
+Hluboká hanba ([komplexní trauma](@/glossary/complex-trauma.md), abuse) vyžaduje terapeutickou podporu, samoobsluha nestačí.
 
 ## Cross-linky
 

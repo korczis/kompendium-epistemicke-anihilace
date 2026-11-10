@@ -47,7 +47,7 @@ Tyto metody jsou implementovány v Prismatic Platform jako kombinace determinist
 ## Obranné mechanismy
 
 - SBOM (Software Bill of Materials) mandatory pro all critical dependencies
-- Supplier-risk score with narrative dimension (technical + behavioral + reputational)
+- Supplier-[risk score](@/glossary/risk-score.md) with narrative dimension (technical + behavioral + reputational)
 - Quarterly supplier-trust review
 - Air-gapped staging environment pro critical-dependency updates (72h soak)
 

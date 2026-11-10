@@ -210,7 +210,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 |--------------|-------|
 | **Asymetrický intelektuální vztah** | Mentor/učitel/guru s vyšší pociťovanou kompetencí |
 | **Pocit subjektové intelektuální nedostatečnosti** | Subjekt cítí, že "potřebuje růst" |
-| **Sociální izolace od korektivních vlivů** | Omezený kontakt s alternativními perspektivami |
+| **[Sociální izolace](@/glossary/socialni-izolace.md) od korektivních vlivů** | Omezený kontakt s alternativními perspektivami |
 | **Časová investice** | Pravidelný kontakt v týdenních / denních intervalech |
 | **Etablovaná legitimita "intelektuálního rozvoje"** | Kulturní přijetí, že "hluboké zkoumání" může být nepříjemné |
 

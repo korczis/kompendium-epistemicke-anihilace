@@ -1,6 +1,6 @@
 +++
 title = "6.7 Případová studie: Akademický kontext (anonymizovaná)"
-description = "Detailní klinická případová studie EA-traumatu v akademickém kontextu — anonymizovaný vzdělávací případ K. (32, postgraduální výzkumník) s explicitním mapováním EA technik (EA-1.1.1, EA-1.1.3, EA-1.3.1, EA-1.4.2, EA-1.5.2 + Guru/adept), fenomenologickým průběhem destabilizace, terapeutickou trajektorií 18 měsíců, supervizními rozhodnutími, výsledky a etickou reflexí."
+description = "Detailní klinická případová studie EA-traumatu v akademickém kontextu — anonymizovaný vzdělávací případ K."
 weight = 7
 insert_anchor_links = "right"
 
@@ -22,7 +22,7 @@ access_level = "L2"
 
 ## Kontext
 
-K. (32 let, žena, postgraduální výzkumnice v oboru sociálních věd) byla referována na klinickou supervizi po roce 8 měsíců trvajícího postupného úpadku akademického výkonu, sociální izolace a opakovaných epizod **derealizace** v kontextu nadcházející disertační obhajoby. Iniciální klinické vyhodnocení indikovalo úzkostně-depresivní symptomatologii s prominentními rysy [epistemického traumatu](@/glossary/epistemicke-trauma.md), s anamnézou intenzivního výzkumného mentorského vztahu, který klientka popisovala střídavě jako **„transformativní“** a **„zničující“**.
+K. (32 let, žena, postgraduální výzkumnice v oboru sociálních věd) byla referována na klinickou supervizi po roce 8 měsíců trvajícího postupného úpadku akademického výkonu, [sociální izolace](@/glossary/socialni-izolace.md) a opakovaných epizod **derealizace** v kontextu nadcházející disertační obhajoby. Iniciální klinické vyhodnocení indikovalo úzkostně-depresivní symptomatologii s prominentními rysy [epistemického traumatu](@/glossary/epistemicke-trauma.md), s anamnézou intenzivního výzkumného mentorského vztahu, který klientka popisovala střídavě jako **„transformativní“** a **„zničující“**.
 
 | Pole | Hodnota |
 |------|---------|

@@ -1,10 +1,10 @@
 +++
-title = "Regression Test"
+title = "Regression test (regresní test)"
 weight = 56
-description = "Mandatory test proving a bug fix prevents recurrence of the specific defect"
+description = "Povinný test, který dokazuje, že oprava chyby brání opakování konkrétní vady; v Prismatic Platform neobejitelný protokol úrovně P0."
 
 [taxonomies]
-tags = ["glossary", "quality", "regression-test", "prismatic"]
+tags = ["glossary", "prismatic", "quality", "doctrine", "architecture"]
 
 [extra]
 category = "quality"
@@ -13,46 +13,73 @@ author = "Tomas Korcak (korczis)"
 reading_time = "8 min"
 word_count = 1612
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Regression", "Test", "Mandatory", "glossary", "quality", "Prismatic Platform", "Regression Test", "Step"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Regression Test - Prismatic Platform"
+image_alt = "Regression test (regresní test) – glosář"
 +++
 
-## Definition & Overview
+## Definice a přehled
 
-A Regression Test is a test specifically written to verify that a previously identified and fixed bug does not recur in future development cycles. Unlike general unit tests that verify intended functionality, regression tests target known failure modes -- they encode the exact conditions that triggered a past defect and assert that the system now handles those conditions correctly. The term "regression" refers to the phenomenon where previously working functionality breaks due to new changes, and regression tests serve as automated sentinels against this class of defect.
+Regresní test (*regression test*) je test napsaný speciálně k ověření, že dříve zjištěná
+a opravená chyba se v dalších vývojových cyklech nevrátí. Na rozdíl od běžných jednotkových
+testů, které ověřují zamýšlenou funkčnost, míří regresní testy na známé způsoby selhání –
+zachycují přesné podmínky, které minulou vadu vyvolaly, a ověřují, že systém s nimi nyní
+zachází správně. Výraz „regrese“ označuje jev, kdy se dříve fungující funkčnost rozbije kvůli
+novým změnám, a regresní testy slouží jako automatické hlídky proti této třídě vad.
 
-Regression testing is a foundational practice in software quality assurance, but its effectiveness depends entirely on discipline: every bug fix must be accompanied by a test that would have caught the bug before it was reported. Without this discipline, the same defects recur across releases, eroding user confidence and consuming engineering resources on repeated investigation of known issues.
+Regresní testování je základní praxí zajištění kvality softwaru, jeho účinnost však plně
+závisí na disciplíně: každou opravu chyby musí doprovázet test, který by chybu zachytil dřív,
+než byla nahlášena. Bez této disciplíny se tytéž vady vracejí napříč verzemi, podkopávají
+důvěru uživatelů a spotřebovávají inženýrský čas na opakované šetření známých problémů.
 
-The Prismatic Platform elevates regression testing from a best practice to a non-bypassable protocol. The Mandatory Regression Test Protocol is classified as P0 (Absolute) -- the highest enforcement level -- with doctrine-enforced compliance regardless of urgency, scope, or authority level. A bug fix without a corresponding regression test is treated as an incomplete delivery under the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine.
+Prismatic Platform povyšuje regresní testování z osvědčeného postupu na neobejitelný protokol.
+Povinný protokol regresních testů je klasifikován jako P0 (absolutní) – nejvyšší úroveň
+vynucení – se souladem vynuceným doktrínou bez ohledu na naléhavost, rozsah nebo úroveň
+oprávnění. Oprava chyby bez odpovídajícího regresního testu se podle doktríny [NO
+MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) (viz [NO
+MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)) považuje za neúplnou dodávku.
 
-| Protocol Aspect | Requirement |
+| Hledisko protokolu | Požadavek |
 |-----------------|-------------|
-| **Classification** | P0 Absolute -- non-bypassable |
-| **Scope** | Every bug fix, no exceptions |
-| **Validation** | Test must fail before fix, pass after fix |
-| **Reporting** | Mandatory report with root cause, test path, validation status |
-| **Enforcement** | Commit blocked without regression test |
-| **Authority Override** | None -- not even Supreme Commander can bypass |
+| **Klasifikace** | P0 absolutní – neobejitelné |
+| **Rozsah** | každá oprava chyby, bez výjimek |
+| **Ověření** | test musí před opravou selhat a po opravě projít |
+| **Hlášení** | povinná zpráva s kořenovou příčinou, cestou k testu a stavem ověření |
+| **Vynucení** | commit bez regresního testu je zablokován |
+| **Přebití autoritou** | žádné – obejít ho nemůže ani [Supreme Commander](@/glossary/supreme-commander.md) |
 
-## Technical Deep Dive
+Pro Kompendium je regresní test pojmem z kontextu platformy. Myšlenka „zachytit podmínky,
+které vadu vyvolaly, aby se nevrátila“ má v knize obdobu v prevenci relapsu po zotavení
+(viz [Dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md)).
 
-### The Five-Step Regression Protocol
+## Technický rozbor
 
-The Prismatic Platform enforces a strict five-step protocol for every bug fix operation:
+### Pětikrokový regresní protokol
 
-**Step 1 -- Root Cause Identification**: Before writing any fix, the developer must identify the bug's root cause and failure mode. Superficial fixes that address symptoms rather than causes are rejected as L3 violations (Incomplete Delivery).
+Prismatic Platform vynucuje pro každou opravu chyby přísný pětikrokový protokol:
 
-**Step 2 -- Regression Test Creation**: Write one or more tests that reproduce the exact failure conditions. The test should exercise the specific code path that failed, using inputs that triggered the original defect.
+**Krok 1 – Určení kořenové příčiny**: před napsáním jakékoli opravy musí vývojář určit
+kořenovou příčinu chyby a způsob selhání. Povrchní opravy, které řeší příznaky místo příčin, se
+odmítají jako porušení L3 (neúplná dodávka; viz [Violation Protocol](@/glossary/violation-protocol.md)).
 
-**Step 3 -- Failure Verification**: Run the regression test against the unfixed codebase to confirm it fails. This step proves that the test actually detects the defect. A test that passes against unfixed code is either testing the wrong thing or the bug was already fixed.
+**Krok 2 – Vytvoření regresního testu**: napsat jeden nebo více testů, které reprodukují
+přesné podmínky selhání. Test má procházet konkrétní cestou kódu, která selhala, se vstupy,
+jež původní vadu vyvolaly.
 
-**Step 4 -- Fix Application**: Apply the code fix to resolve the root cause identified in Step 1. The fix should be minimal and targeted -- addressing the root cause without introducing unnecessary changes that complicate review and increase regression risk.
+**Krok 3 – Ověření selhání**: spustit regresní test proti neopravené kódové základně
+a potvrdit, že selže. Tento krok dokazuje, že test vadu skutečně odhaluje. Test, který proti
+neopravenému kódu projde, buď testuje něco jiného, nebo už byla chyba opravena.
 
-**Step 5 -- Pass Verification**: Run the regression test against the fixed codebase to confirm it passes. Additionally, run the full test suite to verify the fix doesn't introduce new regressions elsewhere.
+**Krok 4 – Provedení opravy**: provést opravu kódu, která řeší kořenovou příčinu určenou
+v kroku 1. Oprava má být minimální a cílená – řešit kořenovou příčinu bez zbytečných změn,
+které komplikují přezkum a zvyšují riziko regrese.
+
+**Krok 5 – Ověření průchodu**: spustit regresní test proti opravené kódové základně
+a potvrdit, že projde. Navíc spustit celou sadu testů a ověřit, že oprava nezavádí nové regrese
+jinde.
 
 ```elixir
 defmodule PrismaticQuality.RegressionProtocol do
@@ -109,11 +136,13 @@ defmodule PrismaticQuality.RegressionProtocol do
 end
 ```
 
-### Regression Test Design Patterns
+### Návrhové vzory regresních testů
 
-Effective regression tests follow specific design patterns that maximize their protective value:
+Účinné regresní testy se řídí konkrétními návrhovými vzory, které maximalizují jejich ochrannou
+hodnotu:
 
-**Exact Reproduction Pattern**: The test recreates the exact sequence of operations, inputs, and state that triggered the original bug. This is the most common and most reliable pattern.
+**Vzor přesné reprodukce**: test znovu vytvoří přesný sled operací, vstupů a stavu, který
+původní chybu vyvolal. Je to nejčastější a nejspolehlivější vzor.
 
 ```elixir
 defmodule PrismaticPerimeter.SecurityRatingTest do
@@ -140,7 +169,8 @@ defmodule PrismaticPerimeter.SecurityRatingTest do
 end
 ```
 
-**Boundary Reproduction Pattern**: The test targets the specific boundary condition that the bug violated, testing both sides of the boundary:
+**Vzor reprodukce hranice**: test míří na konkrétní hraniční podmínku, kterou chyba porušila,
+a testuje obě strany hranice:
 
 ```elixir
 describe "regression: empty asset list crash (BUG-1198)" do
@@ -162,7 +192,8 @@ describe "regression: empty asset list crash (BUG-1198)" do
 end
 ```
 
-**Concurrency Reproduction Pattern**: For race condition bugs, the test exercises the concurrent scenario that triggered the defect:
+**Vzor reprodukce souběhu**: u chyb ze souběhu (*race condition*) test prochází souběžným
+scénářem, který vadu vyvolal:
 
 ```elixir
 describe "regression: concurrent session writes causing data loss (BUG-1302)" do
@@ -187,11 +218,14 @@ describe "regression: concurrent session writes causing data loss (BUG-1302)" do
 end
 ```
 
-## Architecture & Implementation
+## Architektura a implementace
 
-### Integration with Quality Gates
+### Napojení na brány kvality
 
-Regression tests integrate into the broader [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) pipeline, which runs on every commit. The quality gates system verifies not only that all tests pass but that recent bug fix commits include corresponding regression test additions:
+Regresní testy se zapojují do širší pipeline [Quality
+Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/), která
+běží u každého commitu. Systém bran kvality ověřuje nejen to, že všechny testy projdou, ale
+i to, že nedávné commity s opravami chyb obsahují odpovídající přírůstky regresních testů:
 
 ```
 Commit --> Pre-Commit Hook --> Quality Gates Pipeline
@@ -208,20 +242,23 @@ Commit --> Pre-Commit Hook --> Quality Gates Pipeline
                                     +-- Coverage Check (100% target)
 ```
 
-### Purple Team Regression Guard
+### Strážce regresí Purple Teamu
 
-The [Purple Team](@/glossary/purple-team.md)'s `purple-regression-guard` agent extends the regression test concept to security findings. When a security vulnerability is identified and remediated, the regression guard ensures that:
+Agent `purple-regression-guard` [Purple Teamu](@/glossary/purple-team.md) rozšiřuje pojem
+regresního testu na bezpečnostní zjištění. Když je bezpečnostní zranitelnost zjištěna
+a odstraněna, strážce regresí zajistí, že:
 
-1. A security regression test validates the remediation
-2. The test is added to the security regression suite
-3. The finding cannot be closed without the regression test
-4. Future deployments re-validate all security regressions
+1. nápravu ověřuje bezpečnostní regresní test;
+2. test je přidán do sady bezpečnostních regresí;
+3. zjištění nelze uzavřít bez regresního testu;
+4. budoucí nasazení znovu ověří všechny bezpečnostní regrese.
 
-This creates a monotonically growing security regression suite that captures every past vulnerability and prevents any from recurring.
+Vzniká tak monotónně rostoucí sada bezpečnostních regresí, která zachycuje každou minulou
+zranitelnost a brání návratu kterékoli z nich.
 
-### Regression Test Organization
+### Organizace regresních testů
 
-Regression tests in the Prismatic Platform follow a consistent organizational structure:
+Regresní testy v Prismatic Platform se řídí jednotnou organizační strukturou:
 
 ```
 apps/
@@ -234,23 +271,34 @@ apps/
       prismatic_perimeter_test.exs
 ```
 
-Each regression test file is named with the bug identifier, making it immediately traceable to the original defect report. The `test/regression/` directory provides a clear inventory of all past defects and their protective tests.
+Každý soubor regresního testu je pojmenován identifikátorem chyby, takže je okamžitě
+dohledatelný k původnímu hlášení vady. Adresář `test/regression/` poskytuje přehledný
+inventář všech minulých vad a jejich ochranných testů.
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-The Mandatory Regression Test Protocol has been instrumental in achieving the platform's quality metrics:
+Povinný protokol regresních testů podle dokumentace platformy výrazně přispěl k jejím
+metrikám kvality (údaje v době zápisu):
 
-**5,864 Test Files**: The platform's comprehensive test suite includes hundreds of regression tests accumulated over 18 generations of evolution. Each test represents a bug that was found, analyzed, fixed, and permanently guarded against.
+**5 864 testovacích souborů**: rozsáhlá sada testů platformy obsahuje stovky regresních testů
+nashromážděných během 18 generací vývoje. Každý test představuje chybu, která byla nalezena,
+analyzována, opravena a trvale ohlídána.
 
-**Zero Regression Incidents**: Since implementing the P0 protocol, the platform has experienced zero regression incidents -- no previously fixed bug has recurred in any subsequent release.
+**Nula regresních incidentů**: od zavedení protokolu P0 platforma nezaznamenala žádný regresní
+incident – žádná dříve opravená chyba se v žádné další verzi nevrátila.
 
-**Quality Floor Guardian Integration**: The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) monitors regression test health as part of its autonomous quality monitoring. If a regression test becomes flaky (intermittently failing), it triggers investigation before the flakiness masks a genuine regression.
+**Napojení na Quality Floor Guardian**: [Quality Floor
+Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/)
+sleduje zdraví regresních testů v rámci autonomního monitorování kvality. Stane-li se regresní
+test nestabilním (občas selhává), spustí šetření dřív, než nestabilita zakryje skutečnou regresi.
 
-**Pre-Commit Enforcement**: The `.githooks/pre-commit` hook validates that commits tagged as bug fixes include corresponding test additions. Commits that fail this validation are blocked at the local development stage, before reaching CI/CD.
+**Vynucení v pre-commitu**: hook `.githooks/pre-commit` ověřuje, že commity označené jako opravy
+chyb obsahují odpovídající přírůstky testů. Commity, které tímto ověřením neprojdou, se
+zablokují už ve fázi lokálního vývoje, dřív než se dostanou do CI/CD.
 
-## Code Examples
+## Příklady kódu
 
-### Complete Regression Test Workflow
+### Úplný postup regresního testu
 
 ```elixir
 defmodule PrismaticStorageEts.RegistryRegressionTest do
@@ -300,7 +348,7 @@ defmodule PrismaticStorageEts.RegistryRegressionTest do
 end
 ```
 
-### Regression Test Generator
+### Generátor regresních testů
 
 ```elixir
 defmodule PrismaticQuality.RegressionGenerator do
@@ -349,81 +397,132 @@ defmodule PrismaticQuality.RegressionGenerator do
 end
 ```
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Name Tests After Bug IDs**: Use the bug tracking identifier in the test name and module. This creates a direct traceability chain from defect report to protective test.
+1. **Pojmenovat testy podle ID chyb**: použít identifikátor ze sledování chyb v názvu testu
+   i modulu. Vzniká přímý řetězec dohledatelnosti od hlášení vady k ochrannému testu.
+2. **Zdokumentovat kořenovou příčinu**: do souboru testu napsat komentář, co chybu způsobilo,
+   ne jen jaký byl příznak. Budoucí vývojáři potřebují pochopit, proč test existuje.
+3. **Testovat hranici, ne jen opravu**: regresní test má pokrýt konkrétní případ selhání
+   a nejméně jednu sousední hraniční podmínku. Chyby se často shlukují kolem hraničních podmínek.
+4. **Udržovat testy rychlé**: regresní testy běží u každého commitu. Vyžaduje-li regresní test
+   drahou přípravu (databáze, síť), zvažte, zda ho lze přestavět tak, aby stejnou logiku
+   procházel s levnější infrastrukturou.
+5. **Nikdy regresní testy nemazat**: regresní testy jsou trvalou součástí sady testů. I když se
+   testovaný kód refaktoruje, test se má upravit tak, aby procházel ekvivalentní logikou
+   v novém kódu.
+6. **Samostatný adresář regresí**: v každé aplikaci udržovat vyhrazený adresář
+   `test/regression/`. Usnadňuje to audit regresního pokrytí a pochopení historie vad platformy.
+7. **Automatizovat protokol**: k automatickému vynucení regresního protokolu používat
+   pre-commit hooky a kontroly CI/CD. Ruční vynucení je pod tlakem termínů nespolehlivé.
 
-2. **Document the Root Cause**: Include a comment in the test file explaining what caused the bug, not just what the symptom was. Future developers need to understand why the test exists.
+## Časté chyby
 
-3. **Test the Boundary, Not Just the Fix**: A regression test should cover the specific failure case and at least one adjacent boundary condition. Bugs often cluster around boundary conditions.
+- **Testovat příznak, ne příčinu**: regresní test, který kontroluje jen viditelný příznak, může
+  projít, i když se kořenová příčina vrátí v trochu jiné podobě. Testujte přímo mechanismus
+  kořenové příčiny.
+- **Vynechat ověření selhání**: bez potvrzení, že test na neopraveném kódu selže, si nelze být
+  jistý, že test vadu skutečně odhaluje. Test, který vždy projde, neposkytuje žádnou ochranu
+  před regresí.
+- **Příliš široké testy**: regresní test, který prochází příliš mnoho kódu, může projít, i když
+  konkrétní oprava regreduje, protože jiné cesty kódu selhání zakryjí. Regresní testy mají být
+  soustředěné a minimální.
+- **Nestabilní regresní testy**: občas selhávající regresní testy jsou horší než žádný test.
+  Vytvářejí únavu z výstrah a mohou vést týmy k přehlížení skutečných regresí. Nestabilní testy
+  okamžitě opravit nebo dát do karantény.
+- **Chybějící kontext ve zprávách**: zpráva o regresi bez analýzy kořenové příčiny nezachytí
+  inženýrské znalosti získané při ladění. Tyto znalosti předcházejí podobným chybám
+  v souvisejícím kódu.
+- **Hromadné opravy bez jednotlivých testů**: při opravě více souvisejících chyb napsat pro
+  každou samostatný regresní test. Spojené testy mohou zakrýt jednotlivé regrese.
 
-4. **Keep Tests Fast**: Regression tests run on every commit. If a regression test requires expensive setup (database, network), consider whether the test can be restructured to exercise the same logic with cheaper infrastructure.
+## Metriky a průběžné zlepšování
 
-5. **Never Delete Regression Tests**: Regression tests are permanent fixtures of the test suite. Even if the code they test is refactored, the test should be updated to exercise the equivalent logic in the new code.
+Prismatic Platform vede podrobné metriky účinnosti regresních testů a průběžně podle nich
+zpřesňuje protokol (hodnoty podle dokumentace v době zápisu):
 
-6. **Separate Regression Directory**: Maintain a dedicated `test/regression/` directory per application. This makes it easy to audit regression coverage and understand the platform's defect history.
+**Pokrytí regresními testy**: procento commitů s opravou chyby, které obsahují regresní testy.
+Cíl: 100 % (od zavedení protokolu 100 %).
 
-7. **Automate the Protocol**: Use pre-commit hooks and CI/CD checks to enforce the regression protocol automatically. Manual enforcement is unreliable under deadline pressure.
+**Míra účinnosti testů**: procento regresních testů, které při ověřovacích cvičeních úspěšně
+odhalí záměrně znovu zavedené chyby. Měsíční audity náhodně vyberou 10 regresních testů
+a dočasně znovu zavedou odpovídající chyby, aby ověřily, že je testy zachytí.
 
-## Common Pitfalls
+**Míra falešně pozitivních výsledků**: procento regresních testů, které selžou kvůli
+nestabilitě, ne kvůli skutečné regresi. Cíl: < 2 % (v době zápisu 1,3 %).
 
-- **Testing the Symptom, Not the Cause**: A regression test that only checks the visible symptom may pass even if the root cause recurs in a slightly different form. Test the root cause mechanism directly.
+**Režie údržby**: čas strávený úpravami regresních testů kvůli refaktoringu nebo
+architektonickým změnám. Sleduje se, aby regresní protokol nevytvářel neudržitelnou zátěž.
 
-- **Skipping Failure Verification**: Without confirming the test fails on unfixed code, you cannot be certain the test actually detects the defect. A test that always passes provides zero regression protection.
+**Míra návratu chyb**: počet dříve opravených chyb, které se vrátí. Cíl: 0 (od zavedení
+protokolu dosaženo).
 
-- **Overly Broad Tests**: A regression test that exercises too much code may pass even when the specific fix regresses, because other code paths mask the failure. Keep regression tests focused and minimal.
+Metriky vstupují do systému Quality DNA, který sleduje trendy kvality napříč generacemi
+a spouští cykly autonomního zlepšování ([AutoEvolve](@/glossary/autoevolve.md)), když se metriky
+odchýlí od cílů.
 
-- **Flaky Regression Tests**: Intermittently failing regression tests are worse than no test at all. They create alert fatigue and may cause teams to ignore genuine regressions. Fix or quarantine flaky tests immediately.
+## Pokročilé vzory a techniky
 
-- **Missing Context in Reports**: A regression report without root cause analysis fails to capture the engineering knowledge gained during debugging. This knowledge prevents similar bugs in related code.
+**Integrace metamorfního testování**: některé regresní testy využívají principy metamorfního
+testování – ověřují, že mezi vstupy a výstupy platí určité vztahy, místo kontroly konkrétních
+výstupních hodnot. To je cenné zejména u regresních testů algoritmů, jejichž přesný výstup se
+může mezi implementacemi lišit.
 
-- **Batch Fixing Without Individual Tests**: When fixing multiple related bugs, write a separate regression test for each bug. Combined tests may mask individual regressions.
+**Regresní testy založené na vlastnostech**: s nástrojem PropCheck nebo podobnými některé
+regresní testy generují stovky testovacích případů podle vlastností, které má opravený kód
+zachovávat. Tento přístup zachytí regrese, k nimž dochází jen při specifických kombinacích
+vstupů, které testy založené na příkladech nepokrývají.
 
-## Metrics and Continuous Improvement
+**Časová detekce regresí**: pokročilé regresní testy obsahují časová tvrzení, která ověřují,
+že oprava nezhoršila výkonové charakteristiky. Například oprava chyby v třídicím algoritmu
+obsahuje výkonové regresní testy, které zajistí, že oprava omylem nezavede chování O(n²) tam,
+kde se očekává O(n log n).
 
-The Prismatic Platform maintains comprehensive metrics on regression test effectiveness to continuously refine the protocol:
+## Analogie v Kompendiu
 
-**Regression Test Coverage**: Percentage of bug fix commits that include regression tests. Target: 100% (currently 100% since protocol implementation).
+Kniha z regresního protokolu přebírá dvě myšlenky. Zaprvé: po zotavení z epistemické anihilace
+je užitečné výslovně pojmenovat podmínky, za nichž manipulace fungovala (izolace, časový tlak,
+závislost na jediném zdroji), aby je člověk příště rozpoznal dřív – to je jádro [subakutního
+detekčního tréninku](@/kompendium/recovery-protocols/subacute-detection-training.md). Zadruhé:
+„oprava příznaku“ (odchod z jedné skupiny) nemusí odstranit „kořenovou příčinu“ (zranitelnost,
+která vede ke vstupu do další). Rozdíl je v tom, že u lidí nejde o testy, ale o podporu
+a svobodnou volbu; o regresi v systémech platformy pojednává [AutoHeal a detekce
+EA](@/kompendium/aiad-integration/autoheal-ea-regression-repair.md).
 
-**Test Effectiveness Rate**: Percentage of regression tests that successfully detect intentionally re-introduced bugs during validation exercises. Monthly audits randomly select 10 regression tests and temporarily reintroduce their corresponding bugs to verify the tests catch them.
+## Související
 
-**False Positive Rate**: Percentage of regression tests that fail due to flakiness rather than genuine regressions. Target: <2% (currently 1.3%).
+**Pojmy platformy v tomto glosáři**
 
-**Maintenance Overhead**: Time spent updating regression tests due to refactoring or architectural changes. Tracked to ensure the regression protocol doesn't create unsustainable maintenance burden.
+- [NM/ND](@/glossary/nm-nd.md) – řídicí rámec, který regresní test vyžaduje u každé opravy.
+- [Violation Protocol](@/glossary/violation-protocol.md) – eskalace při chybějícím regresním
+  testu.
+- [Purple Team](@/glossary/purple-team.md) – bezpečnostní strážce regresí podle téhož principu.
+- [QDP](@/glossary/qdp.md) – chybějící regresní testy jako body dluhu kvality.
+- [Clean Run](@/glossary/clean-run.md) – stav testů a kompilace bez šumu.
 
-**Bug Recurrence Rate**: Number of previously fixed bugs that recur. Target: 0 (achieved since protocol implementation).
+**Hesla a přehledy platformy mimo tuto knihu**
 
-These metrics feed into the Quality DNA system, which tracks quality trends across generations and triggers autonomous improvement cycles when metrics drift from targets.
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/),
+  [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/),
+  [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/),
+  [SEADF](https://prismatic-reality-com.github.io/prismatic-promo/glossary/seadf/) – pipeline
+  vynucení, doktrína, lokální vynucení a samovyvíjející se rámec.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Příkazy](https://prismatic-reality-com.github.io/prismatic-promo/commands/) – přehledy platformy.
 
-## Advanced Patterns and Techniques
+**Kniha**
 
-**Metamorphic Testing Integration**: Some regression tests employ metamorphic testing principles, where the test verifies that certain relationships hold between inputs and outputs rather than checking specific output values. This is particularly valuable for regression tests of algorithms where the exact output may vary between implementations.
-
-**Property-Based Regression Tests**: Using PropCheck or similar tools, some regression tests generate hundreds of test cases based on properties that the fixed code should maintain. This approach catches regressions that might occur only under specific input combinations not covered by example-based tests.
-
-**Temporal Regression Detection**: Advanced regression tests include temporal assertions that verify the fix doesn't degrade performance characteristics. For example, a bug fix for a sorting algorithm includes performance regression tests ensuring the fix doesn't accidentally introduce O(n²) behavior where O(n log n) is expected.
-
-## Related Concepts
-
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) - Enforcement pipeline including regression test validation
-- [NM/ND Doctrine](@/glossary/nm-nd.md) - Governance framework requiring regression tests for every fix
-- [Violation Protocol](@/glossary/violation-protocol.md) - Escalation triggered by missing regression tests
-- [Purple Team](@/glossary/purple-team.md) - Security regression guard applying the same principle
-- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) - Zero tolerance doctrine mandating complete fix coverage
-- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) - Local enforcement mechanism for regression protocol
-- [SEADF](https://prismatic-reality-com.github.io/prismatic-promo/glossary/seadf/) - Self-evolving framework tracking regression test coverage
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) - Quality enforcement commands
+- [Dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md) –
+  lidská obdoba ochrany před návratem.
+- [AutoHeal a detekce EA](@/kompendium/aiad-integration/autoheal-ea-regression-repair.md) –
+  oprava regresí v detekci EA.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

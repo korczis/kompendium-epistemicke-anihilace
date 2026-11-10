@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.26 Schemata rozpad"
-description = "Detailní per-technique článek: technika rozpadu schémat — destrukce kantovských schémat, jež zprostředkovávají mezi kategoriemi rozvažování a smyslovými jevy. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika rozpadu schémat — destrukce kantovských schémat, jež zprostředkovávají mezi kategoriemi rozvažování a smyslovými jevy."
 weight = 5226
 insert_anchor_links = "right"
 
@@ -105,7 +105,7 @@ Schemata rozpad je odlišitelný od:
 
 ### Individuální
 
-1. **Korektní kantovská hermeneutika** — výklad schematismu.
+1. **Korektní kantovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad schematismu.
 2. **Strukturální aplikační cvičení** — vynucená aplikace pojmů na konkrétno.
 3. **Scénářové myšlení** — strukturně cvičená produkce konkrétních situací.
 4. **Manuální praxe** — fyzická práce obnovuje schematickou syntézu.
@@ -133,8 +133,8 @@ Schemata rozpad je odlišitelný od:
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine konkrétní case application** — strukturní vynucování aplikace pojmů na konkrétní rozhodnutí.
-- **NABLA Infinity konkretizační axiom** — epistemická provenience aplikuje obecné na konkrétní.
+- **[Decision Engine](@/glossary/decision-engine.md) konkrétní case application** — strukturní vynucování aplikace pojmů na konkrétní rozhodnutí.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) konkretizační axiom** — epistemická provenience aplikuje obecné na konkrétní.
 - **OSINT case-specific entity matching** — strukturní práce s konkrétními případy obnovuje schematizaci.
 
 ## Související

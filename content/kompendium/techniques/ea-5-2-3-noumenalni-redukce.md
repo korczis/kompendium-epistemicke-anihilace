@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.3 Noumenální redukce"
-description = "Detailní per-technique článek: technika noumenální redukce — kolaps fenomenálně/noumenálního rozlišení, ztráta schopnosti odlišit, jak se věci jeví, od toho, jak jsou. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika noumenální redukce — kolaps fenomenálně/noumenálního rozlišení, ztráta schopnosti odlišit, jak se věci jeví, od toho, jak jsou."
 weight = 523
 insert_anchor_links = "right"
 

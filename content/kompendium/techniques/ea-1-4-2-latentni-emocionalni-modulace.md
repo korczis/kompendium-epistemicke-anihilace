@@ -2,6 +2,7 @@
 title = "EA-1.4.2 Latentní emocionální modulace"
 description = "Detailní per-technique článek: latentní emocionální modulace — subtilní indukce specifických emocionálních stavů (anxiety, frustrace, vina) k modulaci kognitivních procesů a epistemických tendencí."
 weight = 142
+aliases = ["/kompendium/techniques/ea-1-4-2-latent-emotional-modulation/"]
 insert_anchor_links = "right"
 
 [taxonomies]
@@ -128,7 +129,7 @@ Latentní emocionální modulace vs. **legitimní emocionální response**:
 | **Pohovory** | Time pressure + identity threat = poor decisions |
 | **Korporátní leadership** | Leader induce shame jako compliance mechanism |
 | **Sektářské skupiny** | Strukturální použití emocionální modulace |
-| **Gaslighting kontexty** | Specific targeted emocionální destabilizace |
+| **[Gaslighting](@/glossary/gaslighting.md) kontexty** | Specific targeted emocionální destabilizace |
 
 ## Neutralizační strategie
 
@@ -216,23 +217,23 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 
 - **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — sourozenecká: dominance + modulace synergují.
 - **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — neverbální dominance + emocionální modulace = **comprehensive** psychic pressure.
-- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — emocionální cost falsifikace zvyšuje effectiveness imunizace.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — emocionální cost [falsifikace](@/glossary/falsifikace.md) zvyšuje effectiveness imunizace.
 - **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — emocionální tlak na rychlé rozhodnutí v binárním rámci.
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec „Guru a adept“** — emocionální modulace je **klíčový** mechanism establishment dependence.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — emocionální modulace je **klíčový** mechanism establishment dependence.
 - **Sektářská dynamika** — strukturální použití emocionální modulace je defining feature manipulativních skupin.
 
 ### Hraniční / podobné
 
 - **Legitimní emocionální komunikace** — strukturálně podobná, ale **transparentní** o emocionálním obsahu a **bez asymetrické exploitation**.
-- **Therapeutic emotional engagement** — vyžaduje informed consent a explicit ethical framework.
+- **Therapeutic emotional engagement** — vyžaduje [informed consent](@/glossary/informed-consent.md) a explicit ethical framework.
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine emotional context flagging** — kalibrace explicitně penalizuje rozhodnutí přijatá v identifikovaném emocionálním distress.
-- **Color Teams Black Team protocols** — explicit threat modeling pro emocionální adversarial scenarios.
+- **[Decision Engine](@/glossary/decision-engine.md) emotional context flagging** — kalibrace explicitně penalizuje rozhodnutí přijatá v identifikovaném emocionálním distress.
+- **[Color Teams](@/glossary/color-teams.md) [Black Team](@/glossary/black-team.md) protocols** — explicit threat modeling pro emocionální adversarial scenarios.
 - **OSINT investigator wellness protocols** — strukturální obrana proti vicarious emocionální manipulaci dlouhodobou exposure k manipulativním materiálům.
 
 ## Související

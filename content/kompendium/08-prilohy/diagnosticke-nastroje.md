@@ -4,6 +4,9 @@ description = "Adaptované klinické instrumenty pro detekci a měření expozic
 weight = 4
 sort_by = "weight"
 
+[taxonomies]
+tags = ["kompendium", "08-prilohy"]
+
 [extra]
 related_terms = ["bibliografie", "dual-use", "eticky-kodex", "index-pojmu"]
 kompendium = ["08-prilohy"]
@@ -18,7 +21,7 @@ status = "complete"
 
 # Diagnostické dotazníky a nástroje
 
-> **Kurátorovaný výběr klinických instrumentů** adaptovaných pro výzkum a klinickou praxi v doméně epistemické a kognitivní anihilace. Každý nástroj je popsán v rozsahu: účel, struktura, skórování, interpretace, etické předpoklady, primární zdroj. **Žádný z těchto instrumentů nesmí být použit bez kvalifikované klinické supervize.**
+> **Kurátorovaný výběr klinických instrumentů** adaptovaných pro výzkum a klinickou praxi v doméně epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md). Každý nástroj je popsán v rozsahu: účel, struktura, skórování, interpretace, etické předpoklady, primární zdroj. **Žádný z těchto instrumentů nesmí být použit bez kvalifikované klinické supervize.**
 
 ## Etická preambule
 
@@ -38,7 +41,7 @@ Použití bez kvalifikace je v rozporu s [Etickým kodexem](@/kompendium/08-pril
 
 ### Účel
 
-**BITE Model** (Hassan, 1988; rev. 2015) je strukturovaný analytický rámec pro hodnocení **stupně psychologické kontroly** v high-control prostředích. Není to dotazník v klasickém psychometrickém smyslu, ale **diagnostická rastra** s 56 položkami rozdělenými do 4 dimenzí.
+**[BITE Model](@/glossary/bite-model.md)** (Hassan, 1988; rev. 2015) je strukturovaný analytický rámec pro hodnocení **stupně psychologické kontroly** v high-control prostředích. Není to dotazník v klasickém psychometrickém smyslu, ale **diagnostická rastra** s 56 položkami rozdělenými do 4 dimenzí.
 
 ### Struktura
 
@@ -46,7 +49,7 @@ Použití bez kvalifikace je v rozporu s [Etickým kodexem](@/kompendium/08-pril
 |---------|---------|------------------|
 | **B — Behavior control** | ~16 | Regulace času, oblečení, jídla, sexu, sociálních kontaktů. |
 | **I — Information control** | ~12 | Censurování externích zdrojů, klasifikace insider/outsider informací. |
-| **T — Thought control** | ~16 | Loading the language, odmítání kritického myšlení, thought-stopping techniques. |
+| **T — Thought control** | ~16 | [Loading the language](@/glossary/loading-the-language.md), odmítání kritického myšlení, [thought-stopping](@/glossary/thought-stopping.md) techniques. |
 | **E — Emotional control** | ~12 | Indukce viny, strachu, fobií vůči odchodu, manipulace nadějí a útěchou. |
 
 ### Skórování a interpretace
@@ -179,7 +182,7 @@ Weiss, D. S., & Marmar, C. R. (1997). The Impact of Event Scale—Revised. In: W
 
 ### Účel
 
-**DES-II** (Carlson & Putnam, 1993) je 28-položkový self-report instrument pro screening **disociativních zkušeností**. V EA výzkumu slouží k detekci disociativních reakcí na akutní nebo chronickou expozici a k diferenciální diagnostice mezi disociací jako adaptivní reakcí a disociativní poruchou.
+**DES-II** (Carlson & Putnam, 1993) je 28-položkový [self-report](@/glossary/self-report.md) instrument pro screening **disociativních zkušeností**. V EA výzkumu slouží k detekci disociativních reakcí na akutní nebo chronickou expozici a k diferenciální diagnostice mezi disociací jako adaptivní reakcí a disociativní poruchou.
 
 ### Struktura
 
@@ -199,7 +202,7 @@ DES-II měří 4 kategorie disociativních zkušeností:
 | Skóre | Interpretace |
 |-------|--------------|
 | 0 – 10 | Normální, neklinický rozsah |
-| 10 – 20 | Mírná disociace, mohou souviset s běžným stresem |
+| 10 – 20 | Mírná [disociace](@/glossary/disociace.md), mohou souviset s běžným stresem |
 | 20 – 30 | Středně zvýšená, indikováno hlubší vyšetření |
 | > 30 | Klinicky významná, vyžaduje specializované vyšetření DDIS / SCID-D |
 
@@ -242,7 +245,7 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 
 ## Etické a procedurální poznámky
 
-- **Informovaný souhlas** vyžaduje explicitní popis povahy otázek, možnosti přerušení, dostupnosti follow-up péče. Viz [Etický kodex §3](@/kompendium/08-prilohy/eticky-kodex.md).
+- **[Informovaný souhlas](@/glossary/informed-consent.md)** vyžaduje explicitní popis povahy otázek, možnosti přerušení, dostupnosti follow-up péče. Viz [Etický kodex §3](@/kompendium/08-prilohy/eticky-kodex.md).
 - **Re-traumatizační riziko**: zejména IES-R a DES-II mohou aktivovat traumatické vzpomínky. Klinická supervize je nutná.
 - **Sekundární zranění** může vzniknout, pokud výsledky nejsou pacientovi srozumitelně komunikovány nebo pokud detekce EA nevede k navržení konkrétní terapeutické cesty.
 - **Konfliktní motivace**: výzkumný a klinický cíl se mohou rozcházet. V případě konfliktu *vždy* dominuje klinický zájem pacienta.
@@ -258,8 +261,8 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 ## Platformový kontext
 
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — DES-II/IES-R skóre lze integrovat jako negativní signály pro kalibraci důvěry.
-- [Color Teams](@/glossary/color-teams.md) — Blue Team využívá tyto instrumenty pro defenzivní detekci.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení epistemic pipeline.
+- [Color Teams](@/glossary/color-teams.md) — [Blue Team](@/glossary/blue-team.md) využívá tyto instrumenty pro defenzivní detekci.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení [epistemic pipeline](@/glossary/epistemic-pipeline.md).
 
 ## ⚡ Kritický krok
 

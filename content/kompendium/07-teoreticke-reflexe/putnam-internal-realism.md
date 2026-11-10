@@ -19,7 +19,7 @@ toc = true
 
 Hilary Putnam (1926–2016) — pozoruhodný „filozof, jenž často změnil názor“ — prošel během svého života několika fundamentálními pozicemi. V *Reason, Truth and History* (1981) formuloval **vnitřní realismus** (*internal realism*), v *The Collapse of the Fact/Value Dichotomy* (2002) demontoval distinkci faktů a hodnot.
 
-Pro kompendium EA poskytuje Putnamova trajektorie nástroj pro pochopení **EA technik operujících skrze pseudoneutrální fakta** — pojem „fakt“ sám není **strukturálně neutrální**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Putnamova trajektorie nástroj pro pochopení **EA technik operujících skrze pseudoneutrální fakta** — pojem „fakt“ sám není **strukturálně neutrální**.
 
 ## 1. Mozek v kádi (*brain in a vat*)
 
@@ -78,7 +78,7 @@ Pro EA z toho plyne:
 | Putnam | EA technika | Mechanismus |
 |--------|-------------|-------------|
 | Pseudoneutrální fakta | "Just the facts" rétorika | EA-1.5 |
-| Útok na vnitřní realismus | Naivní skepticismus | Strukturální |
+| Útok na vnitřní realismus | Naivní [skepticismus](@/glossary/skepticismus.md) | Strukturální |
 | Falešná hodnota-fakt distinkce | Skrytá normativita | EA-1.x |
 | Inflace funkcionalismu | AI hype | Strukturální |
 | Brain-in-a-vat manipulace | Systémová desreference | Strukturální |

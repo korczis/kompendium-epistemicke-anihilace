@@ -19,7 +19,7 @@ toc = true
 
 Thomas Nagel ve své známé eseji *What Is It Like to Be a Bat?* (1974) a v knize *The View from Nowhere* (1986) formuluje **strukturální paradox objektivity**: ambice **nejosvícenějšího vědeckého obrazu** spočívá v dosáhnutí **pohledu odnikud** (*view from nowhere*) — pohledu, jenž je **maximálně** odkalibrovaný od subjektivních perspektiv. A přece **subjektivní charakter zkušenosti** nelze takovým pohledem **uchopit** — přidává se k němu, nikdy se v něm nerozpouští.
 
-Pro kompendium EA poskytuje Nagelův paradox nástroj pro pochopení **EA technik operujících skrze pseudoobjektivní pohled** — útoků, jež zneužívají rétoriku objektivity k anihilaci subjektivity.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Nagelův paradox nástroj pro pochopení **EA technik operujících skrze pseudoobjektivní pohled** — útoků, jež zneužívají rétoriku objektivity k anihilaci subjektivity.
 
 ## 1. *What Is It Like to Be a Bat?*
 

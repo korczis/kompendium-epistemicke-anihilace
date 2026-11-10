@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 5: Specializované bezpečnostní protokoly"
-description = "Procedurální a institucionální safeguardy pro výzkum a praxi v oblasti terminálních protokolů — pre-engagement screening, real-time monitoring, post-engagement reintegrace, IRB struktura, whistleblower protokoly, dokumentační požadavky a long-term follow-up."
+description = "Procedurální a institucionální safeguardy pro výzkum a praxi v oblasti terminálních protokolů."
 weight = 2
 insert_anchor_links = "right"
 
@@ -30,7 +30,7 @@ Tato kapitola představuje systematickou taxonomii bezpečnostních protokolů, 
 3. Post-engagement reintegrace (epistemická, emocionální, somatická)
 4. Institucionální safeguards (IRB, etická komise, multi-tier review)
 5. Whistleblower a consent withdrawal protokoly
-6. Dokumentační požadavky a chain of custody
+6. Dokumentační požadavky a [chain of custody](@/glossary/chain-of-custody.md)
 7. Long-term follow-up
 8. Failure-mode response protokoly
 
@@ -79,7 +79,7 @@ Následující kritéria vyžadují **klinické zhodnocení a možnou modifikaci
 
 ### Informovaný souhlas
 
-Informovaný souhlas v kontextu terminálních protokolů musí splňovat **rozšířené standardy** beyond běžných výzkumných nebo klinických norem:
+[Informovaný souhlas](@/glossary/informed-consent.md) v kontextu terminálních protokolů musí splňovat **rozšířené standardy** beyond běžných výzkumných nebo klinických norem:
 
 - **Granulární souhlas** — Souhlas pro každou fázi separátně, nikoli jednorázový blanket consent
 - **Iterativní obnovování** — Re-konsent před každou major expozicí
@@ -103,7 +103,7 @@ Během aktivní expozice (simulativní nebo terapeutické) musí být zaveden mu
 | **Behaviorální** | Strukturované pozorování, video review | Kontinuálně |
 | **Verbální** | Strukturované check-in, lingvistická analýza | 5–15 min intervaly |
 | **Kognitivní** | Krátké kognitivní probes (working memory, attention) | 30–60 min intervaly |
-| **Emocionální** | Self-report VAS, observer rating | 15–30 min intervaly |
+| **Emocionální** | [Self-report](@/glossary/self-report.md) VAS, observer rating | 15–30 min intervaly |
 | **Disociativní** | DES-mini, observer rating | 30 min intervaly + on-demand |
 
 ### Trigger criteria pro intervenci
@@ -115,7 +115,7 @@ Real-time systém musí mít **explicitně specifikovaná** trigger criteria pro
 - HRV pokles > 20% baseline
 - Subjektivní stres VAS > 8/10 přetrvávající > 5 min
 - Mírná dezorientace
-- Verbalizace hraniční disociace
+- Verbalizace hraniční [disociace](@/glossary/disociace.md)
 
 **Level 2 — Pause and assess** (pauza, klinické zhodnocení):
 
@@ -297,7 +297,7 @@ Standardní auditní log musí zachycovat:
 - Pro jaký účel
 - Pod jakou autorizací
 
-Integrace s platformovým {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} umožňuje formální evidence-based hodnocení governance compliance.
+Integrace s platformovým {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} umožňuje formální [evidence-based](@/glossary/evidence-based.md) hodnocení governance compliance.
 
 ## 7. Long-term follow-up
 
@@ -399,7 +399,7 @@ Každý adverse event musí vést k **strukturované integraci poznatků** do pr
 
 Robustní bezpečnostní protokoly nejsou pouze procedurálním ukotvením, ale vyžadují integraci s platformovou infrastrukturou:
 
-- **[Color Teams](@/glossary/color-teams.md)** — Strukturovaná vícebarevná evaluace rizikového profilu (red team adversarial probing, blue team defensive analysis, purple team integration); aplikovatelná na review protokolů před implementací.
+- **[Color Teams](@/glossary/color-teams.md)** — Strukturovaná vícebarevná evaluace rizikového profilu ([red team](@/glossary/red-team.md) adversarial probing, [blue team](@/glossary/blue-team.md) defensive analysis, [purple team](@/glossary/purple-team.md) integration); aplikovatelná na review protokolů před implementací.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — Evidence-based formální hodnocení rozhodnutí včetně calibration tracking (Brier score, ECE) pro evaluaci kvality klinických a operačních rozhodnutí.
 - **[NABLA Infinity Framework](@/glossary/nabla-infinity.md)** — Formální reprezentace epistemických trajektorií subjektů; podporuje detekci subtilních epistemických změn, které by jinak unikly standardnímu screeningu.
 - **[Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)** — Filozofický rámec, který informuje cílový stav reintegrace (zachování či rekonstituce epistemické autonomie).

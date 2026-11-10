@@ -39,7 +39,7 @@ Tato literatura není okrajová — pochází z hlavního proudu odborné diskus
 
 ## Implikace pro EA framework
 
-EA framework musí používat **act-based jazyk**: 'použil gaslighting v této situaci' místo 'je gaslighter'. Glossary entries musí systematicky preferovat slovesa nad podstatnými jmény pro lidi.
+EA framework musí používat **act-based jazyk**: 'použil [gaslighting](@/glossary/gaslighting.md) v této situaci' místo 'je gaslighter'. Glossary entries musí systematicky preferovat slovesa nad podstatnými jmény pro lidi.
 
 Konkrétní implementační kroky:
 

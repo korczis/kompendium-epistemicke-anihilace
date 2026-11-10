@@ -5,6 +5,9 @@ description = "KLDR od roku 1948: vůdcovský kult, třídní původ songbun, ko
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"
@@ -51,7 +54,7 @@ doktrínou. Moc přešla dynasticky na Kim Čong-ila (1994) a Kim Čong-una (201
 
 ### Monopol na srovnání
 
-Klíčem není samotná propaganda, ale odstranění alternativ: žádný nezávislý tisk, žádný přístup
+Klíčem není samotná [propaganda](@/glossary/propaganda.md), ale odstranění alternativ: žádný nezávislý tisk, žádný přístup
 k internetu pro běžné obyvatele, zakázané cestování, kriminalizované zahraniční vysílání. Bez
 druhého zdroje nelze rozlišit pravdu od tvrzení – srov.
 [selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) dovedenou na úroveň

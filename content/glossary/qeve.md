@@ -1,10 +1,10 @@
 +++
-title = "QEVE"
+title = "QEVE (kvantifikovaný epistemický ověřovací engine)"
 weight = 3
-description = "Quantified Epistemic Verification Engine combining Lean4 theorem proving, NABLA axioms, and Monte Carlo simulation for formal verification of platform beliefs."
+description = "Quantified Epistemic Verification Engine Prismatic Platform: spojuje dokazování v Lean4, axiomy NABLA a simulace Monte Carlo k formálnímu ověření přesvědčení."
 
 [taxonomies]
-tags = ["glossary", "ai-ml", "qeve", "prismatic"]
+tags = ["glossary", "prismatic", "nabla", "evidence", "epistemic-pipeline"]
 
 [extra]
 category = "ai-ml"
@@ -14,25 +14,44 @@ author = "Tomas Korcak (korczis)"
 reading_time = "11 min"
 word_count = 2244
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["QEVE", "Quantified", "Epistemic", "Verification", "Engine", "Lean4", "NABLA", "glossary", "ai ml", "Prismatic Platform"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "QEVE - Prismatic Platform"
+image_alt = "QEVE (kvantifikovaný epistemický ověřovací engine) – glosář"
 +++
 
-## Definition
+## Definice
 
-QEVE (Quantified Epistemic Verification Engine) is the Prismatic Platform's formal verification framework that synthesizes three complementary methodologies into a unified validation pipeline: Lean4 theorem proving for mathematical certainty, NABLA axiom enforcement for epistemic rigor, and Monte Carlo simulation for probabilistic robustness testing. Unlike conventional validation approaches that rely on a single method, QEVE produces auditable, formally grounded, robustness-tested conclusions with quantified confidence, uncertainty, and stability metrics.
+QEVE (*Quantified Epistemic Verification Engine*, kvantifikovaný epistemický ověřovací engine)
+je rámec formálního ověřování Prismatic Platform, který spojuje tři doplňující se metodiky do
+jedné ověřovací pipeline: dokazování vět v Lean4 pro matematickou jistotu, vynucení [axiomů
+NABLA](@/glossary/nabla-axioms.md) pro epistemickou přísnost a simulace Monte Carlo pro
+testování pravděpodobnostní robustnosti. Na rozdíl od běžných postupů ověřování, které stojí
+na jediné metodě, vytváří QEVE auditovatelné, formálně podložené a na robustnost otestované
+závěry s kvantifikovanou důvěrou, nejistotou a metrikami stability.
 
-The engine occupies a critical position in the platform's epistemic infrastructure. Where [NABLA Infinity](@/glossary/nabla-infinity.md) governs how beliefs are formed and [Trinity Gate](@/glossary/trinity-gate.md) governs whether beliefs are accepted, QEVE provides the verification machinery that bridges the two. Every claim that passes through the epistemic pipeline undergoes QEVE validation before it can influence downstream decisions.
+Engine má v epistemické infrastruktuře platformy klíčové postavení. Zatímco [NABLA
+Infinity](@/glossary/nabla-infinity.md) řídí, jak přesvědčení vznikají, a [Trinity
+Gate](@/glossary/trinity-gate.md), zda se přijmou, QEVE dodává ověřovací aparát, který obojí
+propojuje. Každé tvrzení, které prochází [epistemickou pipeline](@/glossary/epistemic-pipeline.md),
+podstoupí ověření QEVE dřív, než může ovlivnit navazující rozhodnutí.
 
-Most AI systems produce scores. QEVE produces conclusions that answer three questions simultaneously: **Is this logically necessary?** (formal layer), **Is this epistemically sound?** (NABLA layer), and **Is this robust under perturbation?** (Monte Carlo layer). The combination ensures that no conclusion rests on fragile assumptions, hidden contradictions, or untested edge cases.
+Většina systémů umělé inteligence vytváří skóre. QEVE vytváří závěry, které současně odpovídají
+na tři otázky: **Je to logicky nutné?** (formální vrstva), **Je to epistemicky v pořádku?**
+(vrstva NABLA) a **Je to robustní vůči narušení?** (vrstva Monte Carlo). Kombinace zajišťuje,
+že žádný závěr nestojí na křehkých předpokladech, skrytých rozporech nebo neotestovaných
+hraničních případech.
 
-## Architecture
+Pro Kompendium je QEVE pojmem z kontextu platformy. Kniha z něj přebírá užitečnou otázku pro
+klinickou i forenzní práci: *který důkaz nese celý závěr a co by se stalo, kdyby padl?* (viz
+[QEVE a detekce EA](@/kompendium/aiad-integration/qeve-ea-quality-validation.md)).
 
-QEVE operates as a five-stage pipeline where each stage builds on the outputs of the previous one. The stages are not independent checks but a progressive deepening of verification rigor.
+## Architektura
+
+QEVE pracuje jako pětifázová pipeline, v níž každá fáze staví na výstupech předchozí. Fáze
+nejsou nezávislé kontroly, ale postupné prohlubování přísnosti ověření.
 
 ```
 Stage 1: Graph Build (NABLA Layer)
@@ -53,217 +72,329 @@ Stage 5: Monte Carlo Robustness (Stress Testing)
 Output: VerificationResult (confidence, uncertainty, robustness, contradictions)
 ```
 
-The architecture ensures that formal proofs are never applied to structurally unsound belief graphs, and that Monte Carlo simulations are never run against logically inconsistent rule sets. Each stage acts as both a validator and a filter, preventing garbage-in-garbage-out propagation.
+Architektura zajišťuje, že formální důkazy se nikdy neuplatňují na strukturně vadné grafy
+přesvědčení a simulace Monte Carlo se nikdy nespouštějí nad logicky nekonzistentními sadami
+pravidel. Každá fáze je zároveň validátorem i filtrem a brání šíření principu „smetí dovnitř,
+smetí ven“.
 
-## Pipeline Stages
+## Fáze pipeline
 
-### Stage 1: Graph Build (NABLA Layer)
+### Fáze 1: Sestavení grafu (vrstva NABLA)
 
-The pipeline begins by constructing the belief graph from available evidence signals. This stage enforces the seven [NABLA Infinity](@/glossary/nabla-infinity.md) axioms directly:
+Pipeline začíná sestavením grafu přesvědčení z dostupných důkazních signálů. Tato fáze přímo
+vynucuje sedm axiomů [NABLA Infinity](@/glossary/nabla-infinity.md):
 
-- **Build the belief graph** from all available evidence, linking signals to hypotheses through weighted edges
-- **Compute signal plurality** by verifying that every belief node has at least two independent supporting signals (hard enforcement)
-- **Apply time decay** to evidence timestamps, reducing the weight of stale signals according to configurable decay functions
-- **Identify contradictions** between signals and preserve them explicitly in the graph structure rather than resolving them prematurely
-- **Verify provenance chains** ensuring every signal traces back to an identifiable, auditable source
+- **sestavit graf přesvědčení** ze všech dostupných důkazů a propojit signály s hypotézami
+  váženými hranami;
+- **spočítat pluralitu signálů** – ověřit, že každý uzel přesvědčení má nejméně dva nezávislé
+  podpůrné signály (tvrdé vynucení; viz [Signal Plurality](@/glossary/signal-plurality.md));
+- **uplatnit časový rozpad** na časová razítka důkazů a snížit váhu zastaralých signálů podle
+  nastavitelných funkcí rozpadu;
+- **identifikovat rozpory** mezi signály a výslovně je zachovat ve struktuře grafu, místo aby
+  se předčasně řešily;
+- **ověřit řetězce provenience** – každý signál musí jít dohledat k identifikovatelnému,
+  auditovatelnému zdroji.
 
-The output is a weighted, time-decayed belief graph with contradiction annotations and provenance metadata attached to every node and edge.
+Výstupem je vážený graf přesvědčení s časovým rozpadem, s poznámkami o rozporech a s metadaty
+provenience u každého uzlu a hrany.
 
-### Stage 2: Structural Check
+### Fáze 2: Strukturní kontrola
 
-The structural check validates the topological integrity of the belief graph using graph theory:
+Strukturní kontrola ověřuje topologickou integritu grafu přesvědčení pomocí [teorie
+grafů](@/glossary/graph-theory.md):
 
-- **DAG validity**: Confirm the belief network forms a valid directed acyclic graph with no circular dependencies between beliefs
-- **Dependency cycle detection**: Identify and flag any circular reasoning patterns where Belief A supports Belief B which supports Belief A
-- **Orphan signal detection**: Find evidence signals that are not connected to any hypothesis, indicating potential gaps in the analysis
-- **Connectivity analysis**: Verify that the graph is sufficiently connected and that critical conclusions are not hanging from single-threaded evidence chains
+- **platnost DAG**: potvrdit, že síť přesvědčení tvoří platný orientovaný acyklický graf bez
+  kruhových závislostí mezi přesvědčeními;
+- **detekce cyklů závislostí**: najít a označit vzorce kruhového uvažování, kdy přesvědčení
+  A podporuje přesvědčení B, které podporuje přesvědčení A (srov. [kruhová
+  argumentace](@/glossary/cirkularni-argumentace.md));
+- **detekce osiřelých signálů**: najít důkazní signály, které nejsou spojeny s žádnou
+  hypotézou, což ukazuje na možné mezery v analýze;
+- **analýza propojenosti**: ověřit, že graf je dostatečně propojený a že kritické závěry
+  nevisí na jediném vláknu důkazů.
 
-A structural check failure triggers an immediate halt. No amount of logical soundness can compensate for a structurally broken belief graph.
+Selhání strukturní kontroly spouští okamžité zastavení. Žádná logická správnost nemůže
+vyvážit strukturně rozbitý graf přesvědčení.
 
-### Stage 3: Logical Check
+### Fáze 3: Logická kontrola
 
-The logical check applies rule-based evaluation to the structurally valid belief graph:
+Logická kontrola uplatňuje na strukturně platný graf přesvědčení vyhodnocení podle pravidel:
 
-- **Rule engine consistency**: Verify that all inference rules applied in the belief graph are internally consistent and do not produce contradictory conclusions from the same premises
-- **Conflicting rule detection**: Identify cases where two or more rules produce opposing conclusions and flag them for explicit contradiction handling
-- **Assumption leakage detection**: Find cases where assumptions from one domain have leaked into another without proper justification or provenance
-- **Axiom compliance**: Confirm that the inference chain does not violate any of the seven NABLA axioms at any step
+- **konzistence enginu pravidel**: ověřit, že všechna inferenční pravidla použitá v grafu jsou
+  vnitřně konzistentní a z týchž premis nevytvářejí protichůdné závěry;
+- **detekce konfliktních pravidel**: najít případy, kdy dvě nebo více pravidel vedou
+  k opačným závěrům, a označit je k výslovnému ošetření rozporu;
+- **detekce prosakování předpokladů**: najít případy, kdy předpoklady z jedné oblasti
+  prosákly do jiné bez řádného zdůvodnění nebo provenience;
+- **soulad s axiomy**: potvrdit, že inferenční řetězec v žádném kroku neporušuje žádný ze sedmi
+  axiomů NABLA.
 
-### Stage 4: Lean4 Formal Layer
+### Fáze 4: Formální vrstva Lean4
 
-The formal layer uses [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) theorem proving to establish mathematical certainty for the core claims:
+Formální vrstva používá dokazování vět v
+[Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) ke stanovení
+matematické jistoty klíčových tvrzení:
 
-- **Theorem generation**: Translate the critical hypothesis and its supporting evidence chain into a Lean4 theorem statement
-- **Proof search**: Attempt to prove the theorem using Lean4's automated and interactive proving capabilities
-- **Disproof detection**: If the theorem cannot be proved, attempt to construct a counterexample that disproves it
-- **Assumption audit**: Verify that the proof does not depend on hidden assumptions that are not present in the evidence graph
+- **generování věty**: převést kritickou hypotézu a podpůrný řetězec důkazů na tvrzení věty
+  v Lean4;
+- **hledání důkazu**: pokusit se větu dokázat automatizovanými i interaktivními prostředky
+  Lean4;
+- **detekce vyvrácení**: nelze-li větu dokázat, pokusit se sestrojit protipříklad, který ji
+  vyvrací;
+- **audit předpokladů**: ověřit, že důkaz nezávisí na skrytých předpokladech, které v grafu
+  důkazů nejsou.
 
-The formal layer distinguishes between conclusions that are **necessary** (must be true given the evidence) and those that are merely **possible** (could be true but are not forced by the evidence). This distinction is critical for high-stakes decisions where possibility is insufficient.
+Formální vrstva rozlišuje závěry **nutné** (při daných důkazech musí platit) a pouze **možné**
+(mohou platit, ale důkazy je nevynucují). Pro rozhodnutí s vysokými sázkami je toto rozlišení
+zásadní, protože možnost nestačí.
 
-### Stage 5: Monte Carlo Robustness
+### Fáze 5: Robustnost Monte Carlo
 
-The final stage stress-tests the conclusion against perturbation to quantify its stability:
+Poslední fáze zatěžuje závěr narušením a kvantifikuje jeho stabilitu:
 
-- **Weight perturbation**: Randomly adjust evidence weights by +/-20% across 10,000 simulation runs to test sensitivity to evidence strength assumptions
-- **Signal removal**: Systematically remove individual signals and signal combinations to identify which evidence is load-bearing and which is redundant
-- **Failure simulation**: Inject simulated failures at various points in the evidence chain to test conclusion resilience
-- **Distribution analysis**: Aggregate results across all 10,000 scenarios to produce a robustness distribution showing what percentage of perturbations preserve the original conclusion
+- **narušení vah**: náhodně měnit váhy důkazů o ±20 % v 10 000 simulačních bězích a testovat
+  citlivost na předpoklady o síle důkazů;
+- **odebírání signálů**: systematicky odebírat jednotlivé signály a jejich kombinace a zjistit,
+  které důkazy jsou nosné a které nadbytečné;
+- **simulace selhání**: vkládat simulovaná selhání do různých míst řetězce důkazů a testovat
+  odolnost závěru;
+- **analýza rozdělení**: agregovat výsledky všech 10 000 scénářů do rozdělení robustnosti, které
+  ukazuje, jaké procento narušení zachová původní závěr.
 
-The robustness score represents the percentage of Monte Carlo scenarios in which the conclusion survived perturbation. A score of 72% means 7,200 out of 10,000 perturbation scenarios preserved the original conclusion. Scores below 50% indicate a fragile conclusion that should not be acted upon without additional evidence.
+Skóre robustnosti je procento scénářů Monte Carlo, v nichž závěr narušení přežil. Skóre 72 %
+znamená, že 7 200 z 10 000 scénářů narušení zachovalo původní závěr. Skóre pod 50 % ukazuje na
+křehký závěr, podle něhož se bez dalších důkazů nemá jednat.
 
-## Use Case: Due Diligence
+## Případ užití: due diligence
 
-A concrete example illustrates QEVE's value in the `prismatic_dd` (due diligence) application.
+Konkrétní příklad ukazuje hodnotu QEVE v aplikaci `prismatic_dd` ([due
+diligence](@/glossary/due-diligence.md)).
 
-**Scenario**: Firm X is acquiring Firm Y. The platform must assess the risk profile of the target.
+**Scénář**: firma X kupuje firmu Y. Platforma musí posoudit rizikový profil cíle.
 
-**OSINT signals gathered**:
-- Sanctions database hits linking Firm Y's subsidiary to a flagged entity
-- Ownership structure changes in the past 18 months (3 restructurings)
-- Pending lawsuit in a foreign jurisdiction
-- Compliance certification renewal delayed by 6 months
-- Mixed media reputation: positive industry coverage but negative local press
+**Shromážděné signály z [OSINT](@/glossary/osint.md)**:
 
-**QEVE validation pipeline**:
+- zásahy v sankčních databázích spojující dceřinou společnost firmy Y s označeným subjektem
+  (viz [Sanctions Screening](@/glossary/sanctions-screening.md));
+- změny vlastnické struktury za posledních 18 měsíců (3 restrukturalizace);
+- probíhající soudní spor v zahraniční jurisdikci;
+- obnova certifikace souladu zpožděná o 6 měsíců;
+- smíšená mediální pověst: pozitivní oborové zpravodajství, ale negativní místní tisk.
 
-1. **Graph Build**: Constructs a belief graph with 5 primary evidence signals, checks plurality (all hypotheses have 2+ supporting signals), applies time decay (the ownership changes are 14 months old, decayed accordingly), and preserves the contradiction between positive and negative media coverage
-2. **Structural Check**: DAG is valid, no circular reasoning, but flags one orphan signal (the compliance delay is not connected to any risk hypothesis -- requires analyst review)
-3. **Logical Check**: Rules are consistent, but identifies a potential assumption leakage: the sanctions link applies to a subsidiary, not the parent entity. The inference chain assumes subsidiary risk propagates upward without explicit justification
-4. **Lean4 Formal Layer**: Generates a theorem for "Firm Y presents elevated acquisition risk." Proof succeeds with the caveat that subsidiary-to-parent risk propagation is assumed, not proven. This assumption is flagged in the output
-5. **Monte Carlo Robustness**: 10,000 perturbation runs. Conclusion survives in 72% of scenarios. Removing the sanctions signal alone drops survival to 41%, identifying it as the load-bearing evidence
+**Ověřovací pipeline QEVE**:
 
-**QEVE output**:
-- Confidence: 0.87
-- Uncertainty: 0.12
-- Robustness score: 72% of perturbations preserve the conclusion
-- Contradictions: 1 weak (media reputation split)
-- Critical dependency: sanctions link is load-bearing (removal drops robustness below 50%)
-- Flagged assumption: subsidiary-to-parent risk propagation lacks formal justification
+1. **Sestavení grafu**: sestaví graf přesvědčení s 5 primárními důkazními signály, zkontroluje
+   pluralitu (všechny hypotézy mají 2 a více podpůrných signálů), uplatní časový rozpad (změny
+   vlastnictví jsou 14 měsíců staré a podle toho oslabené) a zachová rozpor mezi pozitivním
+   a negativním mediálním obrazem.
+2. **Strukturní kontrola**: DAG je platný, žádné kruhové uvažování, ale označí jeden osiřelý
+   signál (zpoždění certifikace není spojeno s žádnou rizikovou hypotézou – vyžaduje přezkum
+   analytikem).
+3. **Logická kontrola**: pravidla jsou konzistentní, ale odhalí možné prosakování předpokladu:
+   sankční vazba se týká dceřiné společnosti, ne mateřského subjektu. Inferenční řetězec
+   předpokládá, že riziko dceřiné společnosti se přenáší nahoru, bez výslovného zdůvodnění.
+4. **Formální vrstva Lean4**: vygeneruje větu „Firma Y představuje zvýšené akviziční riziko.“
+   Důkaz uspěje s výhradou, že přenos rizika z dceřiné na mateřskou společnost je předpokládán,
+   ne dokázán. Tento předpoklad je ve výstupu označen.
+5. **Robustnost Monte Carlo**: 10 000 běhů s narušením. Závěr přežije v 72 % scénářů. Samotné
+   odebrání sankčního signálu sníží přežití na 41 %, takže jde o nosný důkaz.
 
-The output tells an analyst not just **what** the risk level is, but **why** it is that level, **what would break** the conclusion, and **how stable** the conclusion is under stress. No black-box score. Full auditability.
+**Výstup QEVE**:
 
-## Data Model
+- důvěra: 0,87;
+- nejistota: 0,12;
+- skóre robustnosti: 72 % narušení zachová závěr;
+- rozpory: 1 slabý (rozpolcená mediální pověst);
+- kritická závislost: sankční vazba je nosná (její odebrání sníží robustnost pod 50 %);
+- označený předpoklad: přenos rizika z dceřiné na mateřskou společnost postrádá formální
+  zdůvodnění.
 
-QEVE operates on three core data structures that flow through the pipeline.
+Výstup analytikovi neříká jen, **jaká** je míra rizika, ale **proč** je taková, **co by** závěr
+**zbořilo** a **jak stabilní** je závěr pod tlakem. Žádné skóre z černé skříňky. Úplná
+auditovatelnost. Příklad je ilustrační, ne záznam skutečného případu.
 
-### Evidence
+## Datový model
 
-Each piece of evidence entering the system is represented as a structured signal:
+QEVE pracuje se třemi základními datovými strukturami, které procházejí pipeline.
 
-| Field | Type | Description |
+### Evidence (důkaz)
+
+Každý důkaz vstupující do systému je reprezentován jako strukturovaný signál:
+
+| Pole | Typ | Popis |
 |-------|------|-------------|
-| `signal_type` | atom | Classification of the evidence (e.g., `:sanctions_hit`, `:ownership_change`, `:lawsuit`) |
-| `weight` | float | Strength of the signal (0.0 to 1.0), subject to time decay |
-| `source_id` | string | Unique identifier for the originating source |
-| `independence_group` | string | Grouping for source independence validation (signals from the same group are not independent) |
-| `timestamp` | datetime | When the evidence was collected (used for time decay calculation) |
-| `provenance` | map | Full chain of custody from raw data to processed signal |
-| `raw_data_hash` | string | Cryptographic hash of the original data for integrity verification |
+| `signal_type` | atom | klasifikace důkazu (např. `:sanctions_hit`, `:ownership_change`, `:lawsuit`) |
+| `weight` | float | síla signálu (0,0 až 1,0), podléhá časovému rozpadu |
+| `source_id` | string | jedinečný identifikátor původního zdroje |
+| `independence_group` | string | seskupení pro ověření nezávislosti zdrojů (signály z téže skupiny nejsou nezávislé) |
+| `timestamp` | datetime | kdy byl důkaz shromážděn (pro výpočet časového rozpadu) |
+| `provenance` | map | úplný řetězec úschovy od surových dat po zpracovaný signál |
+| `raw_data_hash` | string | kryptografický otisk původních dat pro ověření integrity |
 
-### Hypothesis
+### Hypothesis (hypotéza)
 
-Each claim or conclusion under evaluation:
+Každé hodnocené tvrzení nebo závěr:
 
-| Field | Type | Description |
+| Pole | Typ | Popis |
 |-------|------|-------------|
-| `statement` | string | The claim being evaluated in natural language |
-| `premises` | list | Evidence signals supporting this hypothesis |
-| `rule_id` | string | The inference rule used to derive this hypothesis from its premises |
-| `risk_level` | atom | Assessed risk level (`:low`, `:medium`, `:high`, `:critical`) |
-| `threshold` | float | Minimum confidence required for this hypothesis to be accepted |
+| `statement` | string | hodnocené tvrzení v přirozeném jazyce |
+| `premises` | list | důkazní signály podporující hypotézu |
+| `rule_id` | string | inferenční pravidlo, jímž byla hypotéza z premis odvozena |
+| `risk_level` | atom | posouzená míra rizika (`:low`, `:medium`, `:high`, `:critical`) |
+| `threshold` | float | minimální důvěra potřebná k přijetí hypotézy |
 
-### VerificationResult
+### VerificationResult (výsledek ověření)
 
-The output of a complete QEVE pipeline run:
+Výstup úplného běhu pipeline QEVE:
 
-| Field | Type | Description |
+| Pole | Typ | Popis |
 |-------|------|-------------|
-| `structural_pass` | boolean | Whether Stage 2 (structural check) passed |
-| `logical_pass` | boolean | Whether Stage 3 (logical check) passed |
-| `formal_pass` | boolean | Whether Stage 4 (Lean4 formal layer) passed |
-| `monte_carlo_distribution` | list | Full distribution of outcomes across 10,000 simulation runs |
-| `confidence` | float | Final confidence score (0.0 to 1.0) |
-| `uncertainty` | float | Quantified uncertainty (0.0 to 1.0) |
-| `robustness_score` | float | Percentage of perturbation scenarios preserving the conclusion |
-| `contradictions` | list | All identified contradictions with severity classification |
+| `structural_pass` | boolean | zda prošla fáze 2 (strukturní kontrola) |
+| `logical_pass` | boolean | zda prošla fáze 3 (logická kontrola) |
+| `formal_pass` | boolean | zda prošla fáze 4 (formální vrstva Lean4) |
+| `monte_carlo_distribution` | list | úplné rozdělení výsledků 10 000 simulačních běhů |
+| `confidence` | float | konečné skóre důvěry (0,0 až 1,0) |
+| `uncertainty` | float | kvantifikovaná nejistota (0,0 až 1,0) |
+| `robustness_score` | float | procento scénářů narušení, které zachovají závěr |
+| `contradictions` | list | všechny zjištěné rozpory s klasifikací závažnosti |
 
-## Confidence Scoring
+## Skórování důvěry
 
-The final confidence score is not a simple average. It is computed using a multiplicative formula that ensures any single weak dimension drags down the overall result:
+Konečné skóre důvěry není prostý průměr. Počítá se multiplikativním vzorcem, který zajišťuje,
+že kterákoli jednotlivá slabá dimenze stáhne celkový výsledek dolů:
 
 ```
 final_confidence = belief_strength x robustness_score x (1 - contradiction_index)
 ```
 
-Where:
+Kde:
 
-- **belief_strength** is the weighted sum of supporting evidence after time decay, normalized to [0, 1]
-- **robustness_score** is the Monte Carlo survival rate (percentage of perturbation scenarios preserving the conclusion)
-- **contradiction_index** is a measure of unresolved contradictions in the belief graph, scaled from 0 (no contradictions) to 1 (fully contradicted)
+- **belief_strength** je vážený součet podpůrných důkazů po časovém rozpadu, normalizovaný na
+  [0, 1];
+- **robustness_score** je míra přežití v Monte Carlo (procento scénářů narušení, které závěr
+  zachovají);
+- **contradiction_index** je míra nevyřešených rozporů v grafu přesvědčení, od 0 (žádné rozpory)
+  po 1 (zcela rozporné).
 
-The multiplicative structure is deliberate. A conclusion with strong evidence (0.95) but poor robustness (0.40) and moderate contradictions (0.15) yields a final confidence of 0.95 x 0.40 x 0.85 = 0.323, which correctly reflects a conclusion that should not be trusted despite strong surface-level evidence. Additive scoring would mask this fragility.
+Multiplikativní struktura je záměrná. Závěr se silnými důkazy (0,95), ale slabou robustností
+(0,40) a středními rozpory (0,15) dá konečnou důvěru 0,95 × 0,40 × 0,85 = 0,323, což správně
+vyjadřuje závěr, kterému se navzdory silným povrchním důkazům nemá věřit. Aditivní skórování by
+tuto křehkost zakrylo.
 
-## Performance Characteristics
+## Výkonové charakteristiky
 
-QEVE is designed to balance verification rigor with practical performance constraints. The engine's multi-stage architecture allows for early failure detection, preventing expensive operations on fundamentally flawed inputs.
+QEVE je navržen tak, aby vyvažoval přísnost ověření s praktickými výkonovými omezeními.
+Vícefázová architektura enginu umožňuje včasné odhalení selhání a brání drahým operacím nad
+zásadně vadnými vstupy.
 
-**Timing profiles** vary significantly by pipeline stage. Graph construction (Stage 1) typically completes in 50-200ms for evidence sets under 1,000 signals. Structural checks (Stage 2) are O(V + E) operations on the belief graph and scale linearly with complexity. The Lean4 formal layer (Stage 4) exhibits the most variable performance, ranging from milliseconds for simple theorems to minutes for complex proofs requiring extensive search.
+**Časové profily** se mezi fázemi pipeline výrazně liší. Sestavení grafu (fáze 1) obvykle
+skončí za 50–200 ms u sad důkazů pod 1 000 signálů. Strukturní kontroly (fáze 2) jsou
+operace O(V + E) nad grafem přesvědčení a škálují lineárně se složitostí. Nejproměnlivější
+výkon má formální vrstva Lean4 (fáze 4) – od milisekund u jednoduchých vět po minuty u složitých
+důkazů vyžadujících rozsáhlé hledání.
 
-**Monte Carlo simulation** (Stage 5) is embarrassingly parallel and scales with available compute resources. Standard configurations run 10,000 simulations across 4-8 CPU cores, completing in 2-5 seconds for typical use cases. The parallelization means additional cores provide near-linear speedup until memory bandwidth becomes the limiting factor.
+**Simulace Monte Carlo** (fáze 5) je triviálně paralelizovatelná a škáluje s dostupným výpočetním
+výkonem. Standardní konfigurace spouští 10 000 simulací na 4–8 jádrech CPU a u typických případů
+skončí za 2–5 sekund. Paralelizace znamená, že další jádra přinášejí téměř lineární zrychlení,
+dokud se omezujícím faktorem nestane propustnost paměti.
 
-**Memory usage** grows with evidence set size and belief graph complexity. Typical runs consume 256MB-2GB of working memory, with the Lean4 formal layer accounting for the majority of allocation due to proof search state management.
+**Spotřeba paměti** roste s velikostí sady důkazů a složitostí grafu přesvědčení. Typické běhy
+spotřebují 256 MB až 2 GB pracovní paměti, přičemž většinu alokace tvoří formální vrstva Lean4
+kvůli správě stavu hledání důkazu.
 
-**Caching optimizations** preserve intermediate results across pipeline runs. Structural checks are cached by belief graph hash, Lean4 proofs are cached by theorem signature, and Monte Carlo distributions are cached by evidence fingerprint. Cache hits can reduce total pipeline time by 60-90% for repeated evaluations with minor evidence changes.
+**Optimalizace cache** uchovávají mezivýsledky mezi běhy pipeline. Strukturní kontroly se
+cachují podle otisku grafu přesvědčení, důkazy Lean4 podle signatury věty a rozdělení Monte Carlo
+podle otisku důkazů. Zásahy cache mohou u opakovaných vyhodnocení s drobnými změnami důkazů
+zkrátit celkový čas pipeline o 60–90 %. (Čísla uvádí dokumentace platformy v době zápisu.)
 
-## Integration Patterns
+## Integrační vzory
 
-QEVE integrates with the broader platform through several well-defined patterns that ensure consistency and reliability across all applications.
+QEVE se zapojuje do širší platformy několika jasně definovanými vzory, které zajišťují
+konzistenci a spolehlivost napříč aplikacemi.
 
-**Synchronous validation** is used for real-time decisions where the cost of waiting outweighs the risk of proceeding without verification. The platform provides circuit breaker protection: if QEVE latency exceeds 30 seconds, the pipeline short-circuits to a simplified validation mode that skips Monte Carlo simulation but preserves structural and logical checks.
+**Synchronní ověřování** se používá u rozhodnutí v reálném čase, kde cena čekání převyšuje
+riziko pokračování bez ověření. Platforma poskytuje ochranu jističem (*circuit breaker*):
+překročí-li latence QEVE 30 sekund, pipeline přejde do zjednodušeného režimu, který vynechá
+simulaci Monte Carlo, ale zachová strukturní a logické kontroly.
 
-**Asynchronous batch processing** handles large-scale verification tasks where throughput matters more than individual latency. The `prismatic_qeve_batch` application queues verification requests and processes them using configurable worker pools. Results are persisted to the graph database and trigger notifications to downstream consumers.
+**Asynchronní dávkové zpracování** obsluhuje rozsáhlé ověřovací úlohy, kde záleží víc na
+propustnosti než na latenci jednotlivých požadavků. Aplikace `prismatic_qeve_batch` řadí
+požadavky na ověření do fronty a zpracovává je nastavitelnými skupinami pracovníků. Výsledky se
+ukládají do grafové databáze a spouštějí upozornění navazujícím spotřebitelům.
 
-**Confidence-based routing** uses QEVE confidence scores to determine processing paths. High-confidence conclusions (≥0.90) flow directly to automated decision systems. Medium-confidence conclusions (0.60-0.89) require human review. Low-confidence conclusions (≤0.59) trigger additional evidence collection before re-evaluation.
+**Směrování podle důvěry** používá skóre důvěry QEVE k určení cesty zpracování. Závěry
+s vysokou důvěrou (≥ 0,90) proudí přímo do automatizovaných rozhodovacích systémů. Závěry se
+střední důvěrou (0,60–0,89) vyžadují lidský přezkum. Závěry s nízkou důvěrou (≤ 0,59) spouštějí
+sběr dalších důkazů před novým vyhodnocením.
 
-**Temporal monitoring** tracks QEVE performance over time to identify degradation patterns. The platform maintains rolling statistics on pipeline latency, success rates, and confidence score distributions. Significant deviations trigger alerts and automatic failover to backup verification methods.
+**Časové monitorování** sleduje výkon QEVE v čase a odhaluje vzorce zhoršování. Platforma vede
+klouzavé statistiky latence pipeline, míry úspěšnosti a rozdělení skóre důvěry. Výrazné
+odchylky spouštějí výstrahy a automatický přechod na záložní ověřovací metody.
 
-## Key Differentiators
+## Klíčové odlišnosti
 
-QEVE distinguishes itself from conventional AI validation approaches in several critical ways:
+QEVE se od běžných postupů ověřování umělé inteligence odlišuje v několika zásadních ohledech:
 
-**Auditability over opacity**. Most AI systems produce a confidence score with no explanation of how it was derived. QEVE produces a full audit trail: which evidence supported the conclusion, which rules were applied, which formal proofs succeeded or failed, and which perturbation scenarios broke the conclusion.
+**Auditovatelnost místo neprůhlednosti.** Většina systémů umělé inteligence vytváří skóre
+důvěry bez vysvětlení, jak vzniklo. QEVE vytváří úplnou auditní stopu: které důkazy závěr
+podpořily, která pravidla byla použita, které formální důkazy uspěly nebo selhaly a které
+scénáře narušení závěr zbořily.
 
-**Robustness over point estimates**. A single confidence number is meaningless without understanding its stability. QEVE's Monte Carlo layer quantifies how sensitive the conclusion is to changes in the underlying evidence, identifying load-bearing signals and fragile assumptions.
+**Robustnost místo bodových odhadů.** Jediné číslo důvěry bez pochopení jeho stability nic
+neříká. Vrstva Monte Carlo kvantifikuje, jak citlivý je závěr na změny podkladových důkazů,
+a odhaluje nosné signály a křehké předpoklady.
 
-**Formal necessity over statistical probability**. The Lean4 formal layer distinguishes between conclusions that are **necessary** (logically forced by the evidence) and those that are merely **probable** (statistically likely but not logically required). For high-stakes decisions, this distinction determines whether a conclusion can be relied upon.
+**Formální nutnost místo statistické pravděpodobnosti.** Formální vrstva Lean4 rozlišuje
+závěry **nutné** (logicky vynucené důkazy) a jen **pravděpodobné** (statisticky
+pravděpodobné, ale logicky nevyžadované). U rozhodnutí s vysokými sázkami toto rozlišení
+určuje, zda se lze na závěr spolehnout.
 
-**Contradiction preservation over resolution**. QEVE does not attempt to resolve contradictions. It preserves them, quantifies their impact, and reports them to the decision-maker. Premature contradiction resolution is one of the most common failure modes in automated reasoning systems.
+**Zachování rozporu místo jeho řešení.** QEVE se rozpory nepokouší řešit. Zachovává je,
+kvantifikuje jejich dopad a hlásí je rozhodující osobě. Předčasné řešení rozporů je jedním
+z nejčastějších selhání automatizovaných systémů uvažování.
 
-**Composability with the epistemic pipeline**. QEVE is not a standalone tool. Its outputs feed directly into [Trinity Gate](@/glossary/trinity-gate.md) validation, and its inputs are governed by [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. This integration ensures that verification is not an afterthought but a structural component of the platform's reasoning infrastructure.
+**Skládatelnost s epistemickou pipeline.** QEVE není samostatný nástroj. Jeho výstupy vstupují
+přímo do ověření [Trinity Gate](@/glossary/trinity-gate.md) a jeho vstupy řídí axiomy [NABLA
+Infinity](@/glossary/nabla-infinity.md). Toto propojení zajišťuje, že ověření není dodatečný
+krok, ale strukturní součást infrastruktury uvažování platformy.
 
-## Related Terms
+## Související
 
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover powering QEVE's formal verification layer
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing QEVE's belief graph construction
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate consuming QEVE outputs for belief acceptance
-- [White Team](@/glossary/white-team.md) -- Constructive verification team that uses QEVE methods extensively
-- [Signal Plurality](@/glossary/signal-plurality.md) -- NABLA axiom enforced in QEVE's graph build stage
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Decision thresholds applied to QEVE confidence scores
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom ensuring QEVE evidence chains are fully traceable
-- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Complementary testing approach used alongside QEVE
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- The 16-level pipeline in which QEVE operates
-- [Color Teams](@/glossary/color-teams.md) -- Security teams whose outputs are validated through QEVE
+**Pojmy platformy v tomto glosáři**
 
-## See Also
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec, který řídí sestavení grafu.
+- [Axiomy NABLA](@/glossary/nabla-axioms.md) – sedm axiomů vynucovaných ve fázi 1.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací brána, která výstupy QEVE přijímá.
+- [White Team](@/glossary/white-team.md) – konstruktivní ověřovací tým, který metody QEVE
+  hojně používá.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom vynucovaný při sestavení grafu.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňová pipeline, v níž
+  QEVE působí.
+- [Color Teams](@/glossary/color-teams.md) – bezpečnostní týmy, jejichž výstupy QEVE ověřuje.
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+**Hesla a přehledy platformy mimo tuto knihu**
+
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/),
+  [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/),
+  [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/),
+  [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) –
+  dokazovač vět, rozhodovací prahy, dohledatelnost a doplňkové testování.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) –
+  přehledy platformy.
+
+**Kniha**
+
+- [QEVE a detekce EA](@/kompendium/aiad-integration/qeve-ea-quality-validation.md) – ověřování
+  kvality signálů epistemického útoku.
+- [EA × Due Diligence: Evidence Quality Tiering](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md) –
+  stupňování kvality důkazů v DD.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

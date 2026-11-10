@@ -17,7 +17,7 @@ quality_score = 80
 
 ## Cílová populace a fáze
 
-**Lifeworld** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, coercive control, gaslighting) v specifické fázi obnovy.
+**Lifeworld** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, [coercive control](@/glossary/coercive-control.md), [gaslighting](@/glossary/gaslighting.md)) v specifické fázi obnovy.
 
 {% <callout type="note"> %}
 Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
@@ -36,7 +36,7 @@ Implementace **Lifeworld** se opírá o standardní strukturu recovery protokol�
 
 ## Hodnotící kritéria
 
-Protokol **Lifeworld** používá týdenní self-report (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+Protokol **Lifeworld** používá týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
 
 - Subjektivní stabilita
 - Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)

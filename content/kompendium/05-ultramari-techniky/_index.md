@@ -1,6 +1,6 @@
 +++
 title = "05. Ultramární techniky fundamentální dekonstrukce"
-description = "Sekce 05 — pět kapitol (6–10), 150 ultramárních technik epistemické anihilace seskupených do pěti operačních režimů: epistemická singularita, metatranscendentální anihilace, hypertransformativní protokoly, paradoxální metaanihilační protokoly a transkonceptuální mechanismy. Přístupová úroveň L3–L4, IRB protokol, etická supervize, výhradně pro kvalifikované výzkumníky."
+description = "Sekce 05 — pět kapitol (6–10), 150 ultramárních technik epistemické anihilace seskupených do pěti operačních režimů: epistemická singularita, metatranscendentální anihilace."
 weight = 5
 sort_by = "weight"
 template = "section.html"
@@ -32,11 +32,11 @@ Sekce sestává z **pěti kapitol**, každá obsahující **30 technik**, což d
 
 | Kapitola | Operační režim | Rozsah kódů | Fokus destrukce |
 |----------|----------------|-------------|------------------|
-| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | Epistemická singularita | EA-5.1.1 — 5.1.30 | Kolaps reflexivních struktur a sebeprůzkumných smyček |
-| **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** | Metatranscendentální anihilace | EA-5.2.1 — 5.2.30 | Suspenze transcendentálních podmínek poznání |
-| **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** | Hypertransformativní protokoly | EA-5.3.1 — 5.3.30 | Vynucená rekurzivní transformace identity poznávajícího |
-| **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** | Paradoxální metaanihilační protokoly | EA-5.4.1 — 5.4.30 | Sebevztažné paradoxy destabilizující rámce evaluace |
-| **[Kapitola 10](@/kompendium/05-ultramari-techniky/kapitola-10.md)** | Transkonceptuální mechanismy | EA-5.5.1 — 5.5.30 | Operace pod prahem konceptuálního zachycení |
+| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | Epistemická singularita | [EA-5.1.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) — 5.1.30 | Kolaps reflexivních struktur a sebeprůzkumných smyček |
+| **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** | Metatranscendentální anihilace | [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) — 5.2.30 | Suspenze transcendentálních podmínek poznání |
+| **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** | Hypertransformativní protokoly | [EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) — 5.3.30 | Vynucená rekurzivní transformace identity poznávajícího |
+| **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** | Paradoxální metaanihilační protokoly | [EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) — 5.4.30 | Sebevztažné paradoxy destabilizující rámce evaluace |
+| **[Kapitola 10](@/kompendium/05-ultramari-techniky/kapitola-10.md)** | Transkonceptuální mechanismy | [EA-5.5.1](@/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace.md) — 5.5.30 | Operace pod prahem konceptuálního zachycení |
 
 ### Vertikální gradient destrukce
 

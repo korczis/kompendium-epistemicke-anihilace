@@ -54,7 +54,7 @@ Některé claims (somatic memory, EMDR mechanism) kontroverzní. Méně rigoróz
 
 ## Vztah k jiným zdrojům
 
-Komplementární k **EA-8.2.6 ICD-11 Complex Trauma** a **EA-8.2.10 Herman Recovery Stages**. Synergický s **EA-8.1.7 DES-II**.
+Komplementární k **[EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) ICD-11 [Complex Trauma](@/glossary/complex-trauma.md)** a **[EA-8.2.10](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) Herman Recovery Stages**. Synergický s **[EA-8.1.7](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md) DES-II**.
 
 ## Cross-linky
 

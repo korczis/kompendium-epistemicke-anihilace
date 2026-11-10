@@ -1,6 +1,6 @@
 +++
 title = "6.1.3 Self-report instrumenty pro EA — kalibrace a interpretace"
-description = "Self-report nástroje pro kalibraci pacientovy vlastní zkušenosti epistemické anihilace: deníky, journalingové protokoly, ekologická momentní asesment (EMA), interpretace v kontextu metakognitivní destrukce."
+description = "Self-report nástroje pro kalibraci pacientovy vlastní zkušenosti epistemické anihilace: deníky, journalingové protokoly, ekologická momentní asesment (EMA)."
 weight = 13
 
 [taxonomies]
@@ -102,7 +102,7 @@ Specifická obtíž EA self-reportu: pacient s pokročilou [metakognitivní dest
 
 | Self-report vzorec | Interpretace |
 |--------------------|--------------|
-| Konzistentně vysoké self-confidence + EMA volatilita | Disociace mezi prezentací a žitou zkušeností |
+| Konzistentně vysoké self-confidence + EMA volatilita | [Disociace](@/glossary/disociace.md) mezi prezentací a žitou zkušeností |
 | Nemožnost odpovědět na otevřené otázky | Klastr A (metakognitivní destrukce) |
 | Repetitivní in-group lexikon | Klastr C (sociálně-epistemické markery) |
 | Hyperinterpretace vlastních pocitů | Klastr B (hermeneutické zhroucení) |

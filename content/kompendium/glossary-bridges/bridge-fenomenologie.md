@@ -35,7 +35,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 - **Sekce 07 — Filosofické tradice**: fenomenologie vs. analytická filosofie
 - **Sekce 08 — Klíčoví autoři**: Husserl, Heidegger, Merleau-Ponty
 - **Sekce 09 — Klinické aplikace**: fenomenologická psychiatrie (Jaspers, Binswanger)
-- **Sekce 10 — Implikace pro AI**: fenomenologie a embodied cognition
+- **Sekce 10 — Implikace pro AI**: fenomenologie a [embodied cognition](@/glossary/embodied-cognition.md)
 - **Per-technique články**: interpretative phenomenological analysis (IPA)
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.

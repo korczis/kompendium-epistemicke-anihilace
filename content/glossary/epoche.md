@@ -2,7 +2,7 @@
 title = "Epoché"
 weight = 60
 
-description = "Husserl's phenomenological reduction: methodical bracketing of the natural attitude to expose the structure of experience itself; usable as a defensive epistemic technique against ontological annihilation."
+description = "Husserlova fenomenologická redukce: metodické uzávorkování přirozeného postoje, které odkrývá strukturu prožitku. V Kompendiu cíl útoku i obranná technika."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
@@ -11,54 +11,86 @@ tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "predictive-processing", "differance"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "3 min"
-word_count = 510
+reading_time = "5 min"
+word_count = 902
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["epoché", "phenomenological reduction", "Husserl", "bracketing", "natural attitude", "phenomenology", "kompendium"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Epoché - glossary"
+image_alt = "Epoché – glosář"
 +++
 
-## Definition
+## Definice
 
-**Epoché** (ἐποχή, "suspension") is the technical term Edmund Husserl adopted from the Greek skeptics to designate the foundational methodological move of phenomenology, articulated in *Ideas I* (1913) and refined throughout the *Cartesian Meditations* and *Crisis of European Sciences*. The epoché is the **suspension of the natural attitude** — the methodical bracketing of all naive ontological commitments, all assumptions about the existence and nature of the world, in order to attend purely to **how phenomena present themselves to consciousness**.
+**Epoché** (řecky ἐποχή, „zdržení se“, „pozastavení“) je odborný termín, který Edmund Husserl převzal od řeckých skeptiků pro základní metodický krok fenomenologie. Formuloval jej v *Ideách I* (1913) a dále rozvíjel v *Karteziánských meditacích* a v *Krizi evropských věd*. Epoché je **pozastavení přirozeného postoje** – metodické uzávorkování všech naivních ontologických závazků a všech předpokladů o existenci a povaze světa, aby se pozornost mohla upřít čistě na to, **jak se jevy podávají vědomí**.
 
-The epoché is not skepticism: Husserl does not claim the world does not exist. He claims that, for the duration of phenomenological inquiry, the question of existence is **placed in parentheses** so that the structure of experience itself — its intentionality, its temporal flow, its constitution of objects — can become visible without contamination from unexamined naturalistic assumptions.
+Epoché není [skepticismus](@/glossary/skepticismus.md): Husserl netvrdí, že svět neexistuje. Tvrdí, že po dobu fenomenologického zkoumání je otázka existence **dána do závorky**, aby se struktura prožitku sama – jeho [intencionalita](@/glossary/intentionalita.md), jeho časový tok, způsob, jímž konstituuje předměty – mohla ukázat bez kontaminace nevyšetřenými naturalistickými předpoklady.
 
-Two further reductions follow: the **eidetic reduction** (from particular experiences to their essential structures) and the **transcendental reduction** (from psychological consciousness to transcendental subjectivity). Together they constitute the **phenomenological method** — a disciplined return "to the things themselves" (*zu den Sachen selbst*).
+Na epoché navazují dvě další redukce: **eidetická redukce** (od jednotlivých prožitků k jejich podstatným strukturám) a **transcendentální redukce** (od psychologického vědomí k transcendentální subjektivitě). Spolu tvoří **fenomenologickou metodu** – ukázněný návrat „k věcem samým“ (*zu den Sachen selbst*).
 
-Later phenomenologists (Heidegger, Merleau-Ponty, Marion) modify and contest the reductions, but the core gesture — disciplined suspension of inherited interpretive frames to recover phenomenal givenness — remains foundational.
+Pozdější fenomenologové (Heidegger, Merleau-Ponty, Marion) redukce upravují a zpochybňují, ale jádro gesta – ukázněné pozastavení zděděných výkladových rámců, aby se znovu získala danost jevů – zůstává základní.
 
-## Context
+## Původ a kontext pojmu
 
-The Kompendium treats epoché as **both target and defense**. As target: certain advanced EA techniques aim precisely at destroying the victim's capacity for any reflective bracketing — reducing them to immersion in a single, manipulator-supplied reality with no leverage point from which to step back. As defense: the methodical practice of epoché provides one of the few **techniques with philosophical pedigree** for surviving sustained reality-distortion campaigns.
+Slovo pochází z antického skepticismu: u pyrrhónských skeptiků, jak je podává Sextos Empeirikos, znamená epoché zdržení se soudu tam, kde mají protichůdné důvody stejnou váhu, a vede k duševnímu klidu (*ataraxia*); viz [pyrrhonismus](@/glossary/pyrrhonismus.md). Husserl slovo přebírá, ale mění jeho funkci: nejde mu o zdržení se soudu kvůli klidu, nýbrž o metodu, která má odhalit, jak se svět vůbec ukazuje. Pojem patří k jádru [fenomenologie](@/glossary/fenomenologie.md) a úzce souvisí s pojmem [Lebenswelt](@/glossary/lebenswelt.md), který Husserl rozvinul v *Krizi*. V Kompendiu jej vykládá kapitola [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md).
 
-Specifically:
+## Jak se projevuje
 
-- The kompendium at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) catalogues phenomenologically-informed therapeutic interventions that teach survivors a clinical analogue of epoché: "what is happening in my experience right now, before I name it, before I evaluate it?" — a structural defense against [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md).
-- Epoché serves as a counter-technique to **EA-2.x metakognitivní attacks** that target the victim's capacity for self-reflection: by making the bracketing operation explicit, methodical, and rule-governed, the epoché restores a stable reflective vantage point.
-- The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements an **architectural epoché**: each pipeline level explicitly tracks the difference between *what the input claims* and *how the input is presenting itself*, refusing to collapse the two without warrant.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Husserlian phenomenology as one of three theoretical foundations (with predictive processing and critical theory) for understanding the structure of epistemic harm.
+Epoché je činnost, ne stav; v klinické a obranné praxi ji lze pozorovat jako schopnost:
 
-## See Also
+- popsat prožitek dřív, než je pojmenován a zhodnocen („cítím sevření v hrudi a myšlenky se zrychlují“ místo „zase přehnaně reaguji“);
+- odlišit to, *co tvrdí* zpráva, od toho, *jak se podává* (naléhavost, tón, kdo ji přináší);
+- zastavit automatické přijetí cizího výkladu a nechat otázku otevřenou;
+- vrátit se k vlastnímu prožitku jako k výchozímu bodu, i když jej okolí zpochybňuje.
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon defended against
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Reflective-capacity damage
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Self-cognitive estrangement
-- [Predictive Processing](@/glossary/predictive-processing.md) — Cognitive-science framing
-- [Différance](@/glossary/differance.md) — Derridean post-phenomenological move
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework
-- [Kompendium](@/kompendium/_index.md) — Full taxonomy
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
+Ztráta této schopnosti se projevuje opačně: každý prožitek je okamžitě překryt výkladem dodaným zvenčí a člověk nemá kam „ustoupit“, aby se podíval.
 
----
+## Mechanismus
 
-## Connect & Contribute
+Kompendium chápe epoché **jako cíl útoku i jako obranu**. Jako cíl: některé pokročilé techniky EA míří právě na zničení schopnosti jakéhokoli reflexivního uzávorkování – na pohlcení člověka jedinou skutečností, kterou dodává manipulátor, bez opěrného bodu, z něhož by bylo možné ustoupit a podívat se. Kompendium popisuje i zvrácené použití samotné redukce, viz [EA-5.2.17 Perverze husserlovské redukce](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md), kde se uzávorkování světa zneužívá k odtržení člověka od jeho skutečných vztahů. Jako obrana: metodická praxe epoché je jednou z mála **technik s filozofickým rodokmenem** pro přežití dlouhodobých kampaní zkreslování skutečnosti.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Obranná síla epoché spočívá v tom, že je **výslovná, metodická a řízená pravidly**. Manipulace pracuje s nereflektovaným přijetím výkladu; epoché vkládá mezi prožitek a výklad mezeru, v níž se výklad může stát předmětem zkoumání.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+## Odlišení
+
+- **Od skepticismu:** epoché nepopírá existenci světa ani možnost poznání; pozastavuje soud o existenci jen pro účely zkoumání.
+- **Od [disociace](@/glossary/disociace.md) a [depersonalizace](@/glossary/depersonalizace.md):** odstup v epoché je dobrovolný, vratný a slouží k lepšímu kontaktu s prožitkem; disociativní odstup je nedobrovolný a kontakt přerušuje.
+- **Od [spiritual bypassing](@/glossary/spiritual-bypassing.md):** „nesoudit“ může sloužit k vyhnutí se bolestným skutečnostem; epoché naopak vede k přesnějšímu popisu toho, co bolí.
+- **Od mindfulness:** obě praxe pracují s pozorováním bez hodnocení a v terapii se doplňují; mindfulness vychází z buddhistické kontemplace, epoché z filozofické metody.
+
+## Význam pro Kompendium
+
+- Kapitola [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) shrnuje fenomenologicky poučené terapeutické zásahy, které přeživší učí klinickou obdobu epoché: „co se právě teď děje v mém prožitku, dřív než to pojmenuji a zhodnotím?“ – strukturní obranu proti [metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md).
+- Epoché slouží jako protitechnika vůči **metakognitivním útokům EA-2.x**, které míří na schopnost sebereflexe (např. [EA-2.5.8 Rekurzivní spirála pochyb](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md)): tím, že je operace uzávorkování výslovná, metodická a řízená pravidly, obnovuje stabilní reflexivní stanoviště.
+- Na platformě Prismatic, z níž kniha vzešla, zavádí epistemická pipeline [NABLA Infinity](@/glossary/nabla-infinity.md) **architektonickou epoché**: každá úroveň pipeline výslovně sleduje rozdíl mezi tím, *co vstup tvrdí*, a tím, *jak se vstup podává*, a bez oprávnění je nesloučí.
+- Část [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) považuje husserlovskou fenomenologii za jeden ze tří teoretických základů porozumění struktuře epistemické újmy – vedle [predictive processing](@/glossary/predictive-processing.md) a kritické teorie.
+
+## Obrana a zotavení
+
+Klinická obdoba epoché se učí v malých krocích: popisné cvičení prožitku bez hodnocení (tělo, emoce, myšlenky), oddělené zapisování „co se stalo“ a „co si o tom myslím“ a [uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md), které vracejí pozornost k přítomnému vnímání. U lidí s výraznou disociací se cvičení zavádí opatrně a až po stabilizaci, protože zaměření na vnitřní prožitek může být zpočátku zahlcující. Navazují [metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) a [somatické uvědomění](@/kompendium/self-defense-guides/13-somatic-awareness.md).
+
+## Literatura
+
+- Edmund Husserl: *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I* (1913).
+- Edmund Husserl: *Cartesianische Meditationen* (1931 franc., něm. vyd. 1950).
+- Edmund Husserl: *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie* (1936).
+
+## Související
+
+**Pojmy**
+
+- [Fenomenologie](@/glossary/fenomenologie.md) – tradice, k jejímuž jádru epoché patří.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – jev, proti němuž epoché chrání.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – poškození reflexivní schopnosti.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastního poznání.
+- [Predictive Processing](@/glossary/predictive-processing.md) – rámec kognitivní vědy.
+- [Différance](@/glossary/differance.md) – Derridův postfenomenologický krok.
+
+**Platforma a kniha**
+
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec s architektonickou epoché.
+- [EA-5.2.17 Perverze husserlovské redukce](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md) – zneužitá podoba.
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
+- [Kompendium](@/kompendium/_index.md) – úplná taxonomie.

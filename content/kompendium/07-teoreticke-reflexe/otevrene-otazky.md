@@ -1,6 +1,6 @@
 +++
 title = "7.9 Otevřené výzkumné otázky a budoucí směry"
-description = "Otevřené výzkumné otázky, metodologické výzvy a budoucí směry pro studium epistemické anihilace — empirická validace taxonomie, neurobiologické fundamenty, dlouhodobé následky, kolektivní subjekty, dual-use etika, mezikulturní variabilita, AI-augmentace."
+description = "Otevřené výzkumné otázky, metodologické výzvy a budoucí směry pro studium epistemické anihilace."
 weight = 9
 insert_anchor_links = "right"
 
@@ -53,7 +53,7 @@ Klíčové otevřené otázky:
 2. **Neuroplastické důsledky** — Jaké jsou dlouhodobé neuroplastické změny po opakované expozici? Lze je reverzovat? V jakém časovém měřítku?
 3. **Genetická predispozice** — Existují polymorfismy zvyšující zranitelnost vůči specifickým technikám?
 4. **Vývojová okna** — Existují kritická vývojová období zvýšené zranitelnosti? Je adolescence (formace identity) zvláště riziková?
-5. **Komorbidita** — Jaké jsou neurobiologické přesahy mezi EA-related stavy a klinickými diagnózami (PTSD, komplexní trauma, disociativní spektrum)?
+5. **Komorbidita** — Jaké jsou neurobiologické přesahy mezi EA-related stavy a klinickými diagnózami (PTSD, [komplexní trauma](@/glossary/complex-trauma.md), disociativní spektrum)?
 
 ### Výzkumné směry
 
@@ -146,7 +146,7 @@ Vznik AI-mediovaných epistemických aktérů (LLM, agentic systémy, multimodá
 Klíčové otázky:
 
 1. **AI-na-AI manipulace** — Jak útoky proti AI systémům (prompt injection, jailbreak, model poisoning) korespondují nebo se odlišují od EA proti lidem?
-2. **AI-amplifikovaná lidská manipulace** — Jak AI zvyšuje sofistikaci útoků (personalized phishing, deepfake, generative impersonation)?
+2. **AI-amplifikovaná lidská manipulace** — Jak AI zvyšuje sofistikaci útoků (personalized phishing, [deepfake](@/glossary/deepfake.md), generative impersonation)?
 3. **Hybridní epistemické subjekty** — Lidé v kontinuální interakci s AI: jaké jsou jejich specifické zranitelnosti? Proteziována nebo protézou substituovaná epistemie?
 4. **AI-mediovaná obrana** — Jak AI lze efektivně využít v obranné konfiguraci? Jaké jsou meta-zranitelnosti tohoto využití?
 
@@ -164,7 +164,7 @@ Klíčové otázky:
 Centrální metodologická výzva: **etika empirického studia EA**. Mnoho relevantních fenoménů nelze experimentálně vyvolat bez způsobování psychologického poškození. Klíčové otázky:
 
 - **Naturalisticky-observační vs. experimentální paradigma** — Existují legitimní cesty k experimentální validaci, jež nepřekračují etické hranice?
-- **Retrospektivní studie** — Limity self-report dat u traumatizovaných subjektů.
+- **Retrospektivní studie** — Limity [self-report](@/glossary/self-report.md) dat u traumatizovaných subjektů.
 - **Simulace a redukce** — Lze etické verze technik laboratorně simulovat tak, aby preservaly relevantní strukturní vlastnosti?
 
 ### Interdisciplinární integrace

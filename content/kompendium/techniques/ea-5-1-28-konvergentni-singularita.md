@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.28 Konvergentní singularita"
-description = "Detailní per-technique článek: technika konvergentní singularity — vynucené sbíhání všech kognitivních trajektorií subjektu k jedinému bodu, totální epistemická monotonie. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika konvergentní singularity — vynucené sbíhání všech kognitivních trajektorií subjektu k jedinému bodu, totální epistemická monotonie."
 weight = 528
 insert_anchor_links = "right"
 

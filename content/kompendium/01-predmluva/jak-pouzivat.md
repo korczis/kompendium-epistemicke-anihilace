@@ -31,7 +31,7 @@ Kompendium je strukturováno do osmi hlavních částí, které následují logi
 |-------|-------|------|------------------------------|
 | **01 Předmluva** | Účel, cílová skupina, etika, metodika | Orientační vstup | L1 |
 | **02 Úvod** | Definice, historie, teorie | Konceptuální základy | L1 |
-| **03 Základní kategorie** | Akademické techniky, delegitimizace | Stavební bloky | L2 |
+| **03 Základní kategorie** | Akademické techniky, [delegitimizace](@/glossary/delegitimizace.md) | Stavební bloky | L2 |
 | **04 Terminální protokoly** | Komplexní destrukční sekvence | Pokročilé techniky | L3 |
 | **05 Ultramární techniky** | 150 technik fundamentální dekonstrukce | Extrémní cases | L4 |
 | **06 Klinické aplikace** | Diagnostika, terapie, prevence | Defenzivní praxe | L2 |
@@ -102,7 +102,7 @@ V závislosti na účelu a kontextu využití kompendia jsou doporučeny násled
 3. Konzultace **anonymizovaných případových studií** s podobným symptomatickým obrazem
 4. Aplikace diagnostických algoritmů ze [Sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)
 5. **Triangulace** s kolegy — interdiskvalifikace mylné diagnózy
-6. Dokumentace diagnostické úvahy podle struktury Decision Engine
+6. Dokumentace diagnostické úvahy podle struktury [Decision Engine](@/glossary/decision-engine.md)
 
 ### Pro výzkumné účely
 
@@ -160,13 +160,13 @@ Pro zvýšení přehlednosti a přesnosti využívá kompendium následující k
 
 Pro přesnou klasifikaci fenoménů epistemické anihilace využívá kompendium standardizovaný notační systém. Každá technika má jednoznačný identifikátor `EA-X.Y.Z-α`:
 
-- `EA` — konstantní prefix (Epistemická anihilace)
+- `EA` — konstantní prefix ([Epistemická anihilace](@/glossary/epistemicka-anihilace.md))
 - `X` — primární kategorie (1–8, odpovídající hlavním částem kompendia)
 - `Y` — subkategorie v rámci dané kategorie
 - `Z` — specifický fenomén v rámci subkategorie
 - `α` — alfabetický sufix indikující variantu fenoménu (volitelný)
 
-Například: **EA-3.2.4-β** označuje beta variantu čtvrtého fenoménu druhé subkategorie ve třetí hlavní kategorii.
+Například: **[EA-3.2.4](@/kompendium/techniques/ea-3-2-4-metacommunication-skill.md)-β** označuje beta variantu čtvrtého fenoménu druhé subkategorie ve třetí hlavní kategorii.
 
 Identifikátor slouží jako **stabilní klíč** pro odkazování — i pokud se prezentační URL změní, EA kód zůstává nezměněn. Tento notační systém umožňuje jednoznačnou identifikaci a klasifikaci fenoménů i v komplexních případech a usnadňuje systematické odkazování v klinické dokumentaci a výzkumných pracích.
 
@@ -194,7 +194,7 @@ V klinickém kontextu by měl být aplikován následující metodický postup:
     - Aplikace rekonstrukčních protokolů odpovídajících specifickému typu epistemického narušení
     - Graduální přístup s kontinuálním monitorováním epistemické integrity
     - Integrace epistemické rekonstrukce s konvenčními psychoterapeutickými přístupy
-    - Systematická prevence retraumatizace a iatrogenního poškození
+    - Systematická prevence [retraumatizace](@/glossary/retraumatizace.md) a iatrogenního poškození
 
 4. **Dlouhodobé sledování a prevence**:
     - Pravidelná evaluace epistemické integrity v průběhu času
@@ -351,7 +351,7 @@ Pro maximální benefit z práce s kompendiem doporučujeme následující obecn
 4. **Kontinuální reflexe** — pravidelné přehodnocování vlastního porozumění a jeho aplikace v praxi
 5. **Kolegiální konzultace** — sdílení poznatků, zkušeností a dilemat s komunitou kvalifikovaných odborníků
 
-Kompendium epistemické a kognitivní anihilace nepředstavuje uzavřený a definitivní korpus vědění, ale spíše systematizovaný základ pro další výzkum, klinickou praxi a vzdělávání v této oblasti. Jeho účinné využití proto předpokládá aktivní, kritický a eticky reflektovaný přístup ze strany všech uživatelů.
+Kompendium epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md) nepředstavuje uzavřený a definitivní korpus vědění, ale spíše systematizovaný základ pro další výzkum, klinickou praxi a vzdělávání v této oblasti. Jeho účinné využití proto předpokládá aktivní, kritický a eticky reflektovaný přístup ze strany všech uživatelů.
 
 ## Vztah k Prismatic Decision Engine
 

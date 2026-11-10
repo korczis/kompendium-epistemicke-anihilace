@@ -70,7 +70,7 @@ pokrývá – zejména poruchy sebepojetí a vztahů –, epistemickou rovinu al
    zneužíváním; výpovědi blízkých (viz [Collateral interview
    protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)).
 3. **Klinické vyšetření.** Strukturovaný rozhovor, standardizované škály pro traumatické
-   symptomy, disociaci, depresi; specifické nástroje pro coercive control a epistemickou
+   symptomy, disociaci, depresi; specifické nástroje pro [coercive control](@/glossary/coercive-control.md) a epistemickou
    důvěru (viz [Epistemic Trust Scale](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)).
 4. **Funkční hodnocení.** Práce, péče o sebe a druhé, rozhodování, sociální vztahy, finance.
 5. **Validita.** Zhodnocení validity symptomů s ohledem na rizika popsaná v kapitole
@@ -98,7 +98,7 @@ z řízení samotného. Řízení může symptomy dočasně zhoršovat – posud
   příčin – oponentura to snadno odhalí.
 - **Podcenění u disimulujících obětí.** Osoba, která své obtíže zlehčuje, může
   v posouzení „vyjít“ jako málo poškozená.
-- **Retraumatizace** opakovaným vyšetřováním různými znalci.
+- **[Retraumatizace](@/glossary/retraumatizace.md)** opakovaným vyšetřováním různými znalci.
 - **Patologizace odporu.** Nedůvěra k institucím po zneužívání není paranoia.
 
 ## Modelová situace (anonymizovaná)

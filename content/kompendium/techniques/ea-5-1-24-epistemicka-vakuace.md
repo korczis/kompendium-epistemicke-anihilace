@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.24 Epistemická vakuace"
-description = "Detailní per-technique článek: technika epistemické vakuace — produkce epistemického vakua, ve kterém subjekt nemá pevné základy pro žádné tvrzení, každý potenciální základ byl destabilizován, výsledkem je totální epistemická bezdomovost."
+description = "Detailní per-technique článek: technika epistemické vakuace — produkce epistemického vakua, ve kterém subjekt nemá pevné základy pro žádné tvrzení, každý potenciální základ byl destabilizován."
 weight = 524
 insert_anchor_links = "right"
 
@@ -185,7 +185,7 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} foundational source check** — kalibrace explicitně vyžaduje **více nezávislých** základen pro vysokou důvěru, čímž strukturálně bloku­je zdrojovou epistemologii.
 - **NABLA Infinity grounding map** — udržuje seznam epistemických základen, na nichž každé tvrzení v pipeline stojí; rovnoměrná destabilizace více základen je flagována.
-- **Color Teams adversarial validation** — Red Team operuje s explicitním protokolem testujícím odolnost klíčových rozhodnutí vůči vakuačním tlakům.
+- **Color Teams adversarial validation** — [Red Team](@/glossary/red-team.md) operuje s explicitním protokolem testujícím odolnost klíčových rozhodnutí vůči vakuačním tlakům.
 
 ## Související
 

@@ -2,70 +2,99 @@
 title = "Kognitivní bias"
 weight = 60
 
-description = "Systematické odchylky lidského úsudku od normativní racionality; primární útočná plocha, kterou techniky epistemické anihilace cíleně využívají."
+description = "Systematické odchylky lidského úsudku od normativní racionality; hlavní útočná plocha, kterou techniky epistemické anihilace cíleně využívají. Mapování a obrana."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "cognitive", "decision"]
+tags = ["glossary", "epistemic", "cognitive", "decision", "kompendium"]
 
 [extra]
 category = "epistemic"
 related_terms = ["konfirmacni-bias", "epistemicka-anihilace", "metakognice", "taxonomie-ea", "kognitivni-anihilace", "decision-engine"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
-word_count = 680
+word_count = 866
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["kognitivní bias", "cognitive bias", "rozhodování", "manipulace", "kompendium", "decision quality"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Kognitivní bias - glossary"
+image_alt = "Kognitivní bias – glosář"
 +++
 
-## Definition
+## Definice
 
-**Kognitivní bias** (*cognitive bias*) is a systematic, predictable deviation of human judgment from a normative standard — typically Bayesian probability, formal logic, or expected-utility decision theory. Biases are not random errors: they are reproducible patterns produced by heuristics that perform well under typical evolutionary conditions but degrade under specific structural pressures (uncertainty, time stress, motivated reasoning, adversarial framing).
+**Kognitivní bias** (*cognitive bias*, kognitivní zkreslení) je systematická, předvídatelná odchylka lidského úsudku od normativního standardu – obvykle bayesovské pravděpodobnosti, formální logiky nebo teorie rozhodování podle očekávaného užitku. Biasy nejsou náhodné chyby: jsou to reprodukovatelné vzorce, které vytvářejí heuristiky. Ty fungují dobře v typických podmínkách, ale selhávají pod určitými strukturními tlaky – v nejistotě, pod časovým tlakem, při motivovaném usuzování a při nepřátelském rámování.
 
-Cognitive biases are central to the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) because **biases are the primary attack surface** that EA techniques exploit. EA does not invent new failure modes; it engineers conditions under which existing biases produce maximum, directed damage to the subject's epistemic structure. The taxonomy at [/kompendium/03-taxonomie/](@/kompendium/03-zakladni-kategorie/_index.md) explicitly maps each technique to the bias-cluster it weaponizes.
+Kognitivní biasy jsou pro [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) ústřední, protože **biasy jsou hlavní útočnou plochou**, kterou techniky EA využívají. EA nevymýšlí nové způsoby selhání; vytváří podmínky, v nichž existující biasy způsobí maximální, cílenou škodu epistemické struktuře člověka.
 
-Key bias-to-technique mappings used in the kompendium:
+## Původ a kontext pojmu
 
-- **Confirmation bias** → EA-1.1.1 (selective exposure), EA-1.1.3 (echo chamber engineering). See [konfirmační bias](@/glossary/konfirmacni-bias.md).
-- **Authority bias** → EA-2.1.x (source delegitimization vs. designation of replacement authority).
-- **Framing effects** → EA-1.3.2 (strategic reinterpretation) and EA-1.4.x (emotional modulation).
-- **Anchoring** → EA-1.2.x (manipulation of reference points and priors).
-- **Availability heuristic** → EA-1.1.2 (saturation tactics — flooding with vivid exemplars).
-- **Sunk cost fallacy** → progression maintenance in advanced stages: subjects continue investing epistemic capital because of prior investment, not present evidence.
-- **Belief perseverance** → EA-1.3.1 (immunization against falsification) — once a belief is installed, it persists past disconfirming evidence.
+Výzkumný program „heuristik a biasů“ založili v 70. letech Amos Tversky a Daniel Kahneman (Tversky a Kahneman 1974, *Science*). Kahneman jej později shrnul v rozlišení rychlého intuitivního a pomalého reflexivního myšlení (*Thinking, Fast and Slow*, 2011). Kritika z tábora „ekologické racionality“ (Gigerenzer) upozornila, že mnohé heuristiky jsou v přirozeném prostředí velmi úspěšné a že „bias“ je často artefaktem laboratorního zadání. Kompendium přebírá obě strany: heuristiky jsou užitečné a selhávají právě tam, kde někdo prostředí záměrně upraví. Teoretický výklad podávají [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) a [EA-7.3.2 Tversky: heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md); přehled biasů v knize je v sekci [Biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-The kompendium's diagnostic principle is that **any single bias is correctable** by trained reflection; what makes EA distinct is the **simultaneous engagement of multiple biases** in mutually reinforcing configuration, plus suppression of [metakognice](@/glossary/metakognice.md) — the corrective layer.
+## Jak se projevuje
 
-## Context
+Hlavní vazby mezi biasy a technikami, s nimiž Kompendium pracuje:
 
-Within the Prismatic Platform, cognitive bias is operationalized as **decision quality input**, not just a content-level signal:
+| bias | jak jej technika využívá | příklad techniky |
+|---|---|---|
+| **konfirmační bias** | zužuje vstup na potvrzující informace | [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md); viz [konfirmační bias](@/glossary/konfirmacni-bias.md) |
+| **bias autority** | delegitimizuje původní zdroje a dosazuje náhradní autoritu | rodina EA-2.1.x, např. [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) |
+| **efekty rámování** | mění význam tím, jak je informace podána | [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), emoční modulace EA-1.4.x |
+| **ukotvení** | posouvá referenční body a výchozí předpoklady | rodina EA-1.2.x, např. [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) |
+| **[heuristika](@/glossary/heuristika.md) dostupnosti** | zahlcuje živými příklady | [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) |
+| **utopené náklady** | udržuje postup v pokročilých stadiích: člověk dál investuje epistemický kapitál kvůli předchozí investici, ne kvůli současným dokladům | dlouhodobé setrvání ve skupině |
+| **přetrvávání přesvědčení** | jednou vštípené přesvědčení přetrvá i po vyvracejících dokladech | [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) |
 
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly tracks bias-relevant decision conditions (time pressure, source diversity, prior commitment, emotional load) and incorporates them into calibration. A confidently held belief formed under high-bias conditions is automatically discounted in the confidence pipeline.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) maintains **per-source diversity metrics** that detect echo-chamber formation early — before a subject's confirmation bias has converted a narrow input distribution into a stable belief.
-- The [Color Teams](@/glossary/color-teams.md) Blue Team simulations include scripted bias-exploitation scenarios drawn from the kompendium taxonomy, validating that platform-level checks (review queues, dissent surfacing, calibration alarms) intercept the patterns.
-- The [3NL architecture](@/glossary/3nl.md) (Logic + Neural + Linguistic) is designed precisely so that bias active at one layer (e.g., Linguistic-layer framing) is checked by the others (Logic-layer formal validity, Neural-layer pattern divergence).
+Na úrovni jednotlivce si zkreslení obvykle neuvědomujeme; pozorovat je lze zpětně (rozhodnutí, která se nepodařilo vysvětlit), u druhých nebo v záznamech.
 
-Bias is **not pathology**: heuristics are typically efficient and only fail under adversarial conditions or unusual base-rates. The platform standard is therefore **bias-aware decision-making** — recognition rather than elimination — combined with structural defenses (diverse inputs, calibration loops, explicit pre-mortems) that compensate where individual reflection is unreliable. Czech-language treatment of cognitive bias in the EA context is at [/kompendium/04-mechanismy/biasy/](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
+## Mechanismus
 
-## See Also
+Diagnostickým principem Kompendia je, že **každý jednotlivý bias lze trénovanou reflexí opravit**; EA se odlišuje **současným zapojením více biasů** ve vzájemně se posilujícím uspořádání a potlačením [metakognice](@/glossary/metakognice.md) – opravné vrstvy. Typická konfigurace: zúžení zdrojů (konfirmační bias) se spojí s autoritou, která jediná vykládá (bias autority), s emočně rámovanými sděleními (rámování) a s postupně rostoucí investicí (utopené náklady). Každá složka sama by byla zvládnutelná; dohromady vytvářejí uzavřený systém.
 
-- [Konfirmační bias](@/glossary/konfirmacni-bias.md) — Most heavily exploited specific bias
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Threat model that weaponizes biases
-- [Metakognice](@/glossary/metakognice.md) — Primary corrective; explicitly targeted by advanced EA
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Bias-to-technique mapping
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive correlate
-- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — Bias hardening as advanced phenomenon
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+## Odlišení
 
----
+- **Bias není patologie:** heuristiky jsou obvykle efektivní a selhávají jen v nepřátelských podmínkách nebo při neobvyklých základních četnostech. Standardem platformy i knihy je proto **rozhodování s vědomím biasů** – rozpoznání, ne odstranění.
+- **Od [epistemické anihilace](@/glossary/epistemicka-anihilace.md):** bias je odchylka uvnitř funkčního aparátu; anihilace je poškození aparátu.
+- **Od klamu v argumentaci:** argumentační klam je chyba v úsudku, kterou lze ukázat v textu; bias je sklon, který se projevuje ve statistice rozhodnutí.
+- **Od [kognitivní anti-rekurzivity](@/glossary/kognitivni-anti-rekurzivita.md):** zatvrdnutí biasu v pokročilém stadiu, kdy už reflexe není dostupná.
 
-## Connect & Contribute
+## Význam pro Kompendium
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Na platformě Prismatic, z níž kniha vzešla, je kognitivní bias převeden na **vstup kvality rozhodnutí**, ne jen na signál na úrovni obsahu:
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Decision Engine](@/glossary/decision-engine.md) výslovně sleduje podmínky rozhodování relevantní pro biasy (časový tlak, rozmanitost zdrojů, předchozí závazek, emoční zátěž) a začleňuje je do kalibrace. Přesvědčení zastávané s jistotou, které vzniklo v podmínkách silného zkreslení, se v pipeline jistoty automaticky snižuje.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) vede **metriky rozmanitosti podle zdrojů**, které včas odhalí vznik ozvěnové komory – dřív, než konfirmační bias promění úzké rozložení vstupů ve stabilní přesvědčení.
+- Simulace [Blue Team](@/glossary/blue-team.md) v rámci [Color Teams](@/glossary/color-teams.md) zahrnují scénáře zneužití biasů převzaté z taxonomie Kompendia a ověřují, že kontroly na úrovni platformy (fronty revizí, zviditelnění nesouhlasu, kalibrační poplachy) tyto vzorce zachytí.
+- Architektura [3NL](@/glossary/3nl.md) (logika + neurální vrstva + lingvistika) je navržena právě tak, aby bias aktivní v jedné vrstvě (např. rámování v lingvistické vrstvě) kontrolovaly ostatní (formální platnost v logické vrstvě, odchylky vzorců v neurální vrstvě).
+
+## Obrana a zotavení
+
+Strukturní obrany vyrovnávají místa, kde individuální reflexe není spolehlivá: rozmanité vstupy, kalibrační smyčky, výslovné *pre-mortem* („představme si, že rozhodnutí selhalo – proč?“).
+
+- **Pro jednotlivce:** [osobní audit biasů](@/kompendium/self-defense-guides/38-bias-audit-personal.md), [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md), odklad důležitých rozhodnutí mimo tlak.
+- **Pro výuku:** scénář [Rozpoznání kognitivních biasů](@/kompendium/educational-scenarios/2-cognitive-bias-recognition.md).
+- **Pro organizace a analytiky:** [prevence konfirmačního biasu v due diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md), [bias při atribuci](@/kompendium/cross-domain/23-ea-security-attribution-bias.md).
+
+## Literatura
+
+- Amos Tversky, Daniel Kahneman: „Judgment under Uncertainty: Heuristics and Biases“, *Science* 185 (1974).
+- Daniel Kahneman: *Thinking, Fast and Slow* (2011).
+- Gerd Gigerenzer: *Gut Feelings* (2007).
+
+## Související
+
+**Pojmy**
+
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – nejvíce zneužívaný konkrétní bias.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – model hrozby, který biasy zneužívá.
+- [Metakognice](@/glossary/metakognice.md) – hlavní opravná vrstva, na kterou pokročilá EA výslovně míří.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – vazby biasů na techniky.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – kognitivní korelát.
+- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – zatvrdnutí biasu jako pokročilý jev.
+
+**Kniha**
+
+- [Biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – sekce základních kategorií.
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – teoretický základ.
+- [Osobní audit biasů](@/kompendium/self-defense-guides/38-bias-audit-personal.md) – obrana jednotlivce.

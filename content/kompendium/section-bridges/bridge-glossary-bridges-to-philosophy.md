@@ -29,7 +29,7 @@ Glossary Bridges jsou **navigační uzly**, ale jsou také **mocenský akt** —
 - **Glossary cross-link → reflexe vztahu pojmů.**
 - **Glossary cardinality → reflexe síťové struktury vědění.**
 - **Glossary jako power act** — pojmenování jako kontrola.
-- **Glossary jako evidence layer** (NCLB) → reflexe evidence-based přístupu.
+- **Glossary jako evidence layer** (NCLB) → reflexe [evidence-based](@/glossary/evidence-based.md) přístupu.
 - **Glossary feedback loop → reflexe epistemické dynamiky.**
 - **Glossary obsolescence → reflexe životnosti pojmů.**
 
@@ -63,7 +63,7 @@ Klíčové koncepty: **glossary jako power act**, **glossary jako evidence layer
 
 ## 7. Meta-poznámka: pojmenování jako akt moci
 
-Glossary je **mocenský akt**, nikoli neutrální infrastruktura. Kdo pojmenovává, ten kontroluje, co existuje a co je vyloučeno. Bridge zdůrazňuje, že sekce 07 (Teoretické reflexe) tuto pravdu reflektuje: glossary není přírodní fakt, ale **konstruovaný artefakt** s genealogií, autorstvím a politickými důsledky. Praktická implikace: každý glossary entry musí mít **autor + revize + cross-platform link**. Bez této transparentnosti se glosář stává krypto-autoritou. NCLB doctrine vyžaduje audit trail pro každou změnu glosáře.
+Glossary je **mocenský akt**, nikoli neutrální infrastruktura. Kdo pojmenovává, ten kontroluje, co existuje a co je vyloučeno. Bridge zdůrazňuje, že sekce 07 (Teoretické reflexe) tuto pravdu reflektuje: glossary není přírodní fakt, ale **konstruovaný artefakt** s genealogií, autorstvím a politickými důsledky. Praktická implikace: každý glossary entry musí mít **autor + revize + cross-platform link**. Bez této transparentnosti se glosář stává krypto-autoritou. NCLB [doctrine](@/glossary/doctrine.md) vyžaduje audit trail pro každou změnu glosáře.
 
 ---
 

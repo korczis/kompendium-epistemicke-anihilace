@@ -38,11 +38,11 @@ Pět domén: intimidation, isolation, control, micro-regulation, deprivation of 
 
 ## Klíčové komponenty
 
-Cut-off ≥84 indikuje klinicky významné coercive control. Doménový profil odhaluje primární kontrolní vektor. Použít s časovou referencí (uplynulých 12 měsíců) pro stabilní skórování.
+Cut-off ≥84 indikuje klinicky významné [coercive control](@/glossary/coercive-control.md). Doménový profil odhaluje primární kontrolní vektor. Použít s časovou referencí (uplynulých 12 měsíců) pro stabilní skórování.
 
 ## Aplikace v EA kontextu
 
-Diagnostický prerekvizit pro **EA-6.4.6 Domestic Abuse Protokol**. Detekuje techniky EA-3.4.x (interpersonální dominance) v rodinných systémech. Slouží i pro forenzní účely (UK Coercive Control Act).
+Diagnostický prerekvizit pro **[EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) Domestic Abuse Protokol**. Detekuje techniky EA-3.4.x (interpersonální dominance) v rodinných systémech. Slouží i pro forenzní účely (UK Coercive Control Act).
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Riziko sub-reportingu během aktivního vztahu. Méně senzitivní pro situace s
 
 ## Vztah k jiným zdrojům
 
-Společný rámec s **EA-8.2.5 Stark Coercive Control** (teoretický základ). Doplňuje **EA-8.1.3 Stalking Behavior Checklist** (pre-/post-separation context).
+Společný rámec s **[EA-8.2.5](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) Stark Coercive Control** (teoretický základ). Doplňuje **[EA-8.1.3](@/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md) Stalking Behavior Checklist** (pre-/post-separation context).
 
 ## Cross-linky
 

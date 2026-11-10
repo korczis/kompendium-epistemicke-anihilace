@@ -19,7 +19,7 @@ toc = true
 
 George Lakoff v knihách *Metaphors We Live By* (1980, s Markem Johnsonem), *Women, Fire, and Dangerous Things* (1987) a *Don't Think of an Elephant!* (2004) formuluje **teorii konceptuální metafory** (*conceptual metaphor theory*) a **frame theory** — strukturální analýzu, jak metafory a rámce **konstruují** lidské myšlení.
 
-Pro kompendium EA poskytuje Lakoffova teorie nástroj pro pochopení **EA jako manipulace metaforickými strukturami a politickými frames**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Lakoffova teorie nástroj pro pochopení **EA jako manipulace metaforickými strukturami a politickými frames**.
 
 ## 1. Konceptuální metafora
 
@@ -46,7 +46,7 @@ Lakoff rozvíjí (s Johnsonem v *Philosophy in the Flesh*, 1999) teorii **embodi
 - „**Pochopit**“ (*grasp*): vychází z motoricé zkušenosti uchopení
 - „**Vidět**“ jako „**vědět**“: vychází z primárního senzorického aktu
 
-Tato pozice strukturálně rezonuje s **embodied cognition** ([Varela, viz 7.45](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)) a Damasiovým somatic marker ([viz 7.36](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)).
+Tato pozice strukturálně rezonuje s **[embodied cognition](@/glossary/embodied-cognition.md)** ([Varela, viz 7.45](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)) a Damasiovým somatic marker ([viz 7.36](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)).
 
 Pro EA z toho plyne:
 

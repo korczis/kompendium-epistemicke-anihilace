@@ -17,7 +17,7 @@ toc = true
 
 # 7.11 Kuhn: Paradigmatické revoluce a inkomensurabilita
 
-Thomas Kuhnova *Struktura vědeckých revolucí* (*The Structure of Scientific Revolutions*, 1962/1970) představuje zlom v historii a filozofii vědy: vědecký pokrok není **lineární kumulací poznatků**, ale **diskontinuálním střídáním paradigmat**. Pro kompendium EA poskytuje Kuhnova analýza nástroj pro pochopení **strukturálních epistemických zlomů** a způsobů, jak lze paradigmatické konflikty **manipulativně instrumentalizovat**.
+Thomas Kuhnova *Struktura vědeckých revolucí* (*The Structure of Scientific Revolutions*, 1962/1970) představuje zlom v historii a filozofii vědy: vědecký pokrok není **lineární kumulací poznatků**, ale **diskontinuálním střídáním paradigmat**. Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Kuhnova analýza nástroj pro pochopení **strukturálních epistemických zlomů** a způsobů, jak lze paradigmatické konflikty **manipulativně instrumentalizovat**.
 
 ## 1. Pojem paradigmatu
 
@@ -36,9 +36,9 @@ Pro EA má pojem paradigmatu **trojí relevanci**:
 
 Kuhn rozlišuje dvě fáze vědecké aktivity:
 
-| Normální věda | Revoluční věda |
+| [Normální věda](@/glossary/normalni-veda.md) | Revoluční věda |
 |----------------|-----------------|
-| Práce uvnitř paradigmatu | Krize a změna paradigmatu |
+| Práce uvnitř paradigmatu | Krize a [změna paradigmatu](@/glossary/paradigm-shift.md) |
 | Řešení "puzzle" | Řešení anomálií |
 | Kumulativní pokrok | Diskontinuální posun |
 | Konsensus | Frakce, debata |
@@ -79,9 +79,9 @@ Pro kompendium EA z toho plyne:
 | Kuhn | EA technika | Kategorie |
 |------|-------------|-----------|
 | Falešný paradigmatický nárok | Pseudo-revoluce | EA-1.6 |
-| Cherry-picking anomálií | Selektivní expozice | EA-1.1.1 |
+| Cherry-picking anomálií | Selektivní expozice | [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) |
 | Inkomensurabilita-jako-zbraň | Imunizace proti kritice | EA-2.5 |
-| Pseudoexemplář | Falešná evidence | EA-1.1.2 |
+| Pseudoexemplář | Falešná evidence | [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) |
 | Postnormální zneužití | Manipulace urgence | EA-3.4 |
 
 ## 6. Primární literatura
@@ -95,7 +95,7 @@ Pro kompendium EA z toho plyne:
 ## 7. Otevřené otázky
 
 - Jak rozlišit **legitimní paradigmatickou krizi** od **fabrikované krize**?
-- Lze inkomensurabilitu **operacionalizovat** algoritmicky (Color Teams, NABLA)?
+- Lze inkomensurabilitu **operacionalizovat** algoritmicky ([Color Teams](@/glossary/color-teams.md), NABLA)?
 - Jak **regulovat** postnormální debaty bez upadnutí do autoritářské imunizace paradigmatu?
 
 ## Související

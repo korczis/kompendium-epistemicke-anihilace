@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.9 Identitní dezintegrace"
-description = "Detailní per-technique článek: ultramární technika identitní dezintegrace — systematická disrupce subjektova prožívání osobní kontinuity a narativní identity, produkující sebefragmentaci, depersonalizaci či radikální sebeodcizení. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: ultramární technika identitní dezintegrace — systematická disrupce subjektova prožívání osobní kontinuity a narativní identity, produkující sebefragmentaci."
 weight = 519
 insert_anchor_links = "right"
 
@@ -97,7 +97,7 @@ V tomto stavu je subjekt **maximálně závislý** na manipulátorovi pro orient
 Co prožívá subjekt **uvnitř** identitní dezintegrace:
 
 - **Sebefragmentace** — *„v různých situacích jsem úplně jiný člověk"*
-- **Depersonalizace** — *„dívám se na sebe zvenčí"*, *„nejsem to úplně já, kdo jedná"*
+- **[Depersonalizace](@/glossary/depersonalizace.md)** — *„dívám se na sebe zvenčí"*, *„nejsem to úplně já, kdo jedná"*
 - **Derealizace** — *„svět je za sklem"*, *„vše je nějak nereálné"*
 - **Autobiografická amnézie** — neschopnost spojit aktuální prožívání s konkrétními minulými událostmi
 - **Cizota vůči vlastním záznamům** — vlastní deníky, fotografie, e-maily se zdají *něčí jiné*
@@ -138,7 +138,7 @@ Hraniční případ: **přechody po závažném traumatu** (těžká nemoc, ztr�
 | **Sektářské formace** | Skupina vyžaduje *„smrt starého já"* a přijetí nové, skupinou definované identity |
 | **High-control vztahy** | Partner systematicky zpochybňuje subjektovo sebepojetí, vzpomínky, motivy |
 | **Reedukační programy** | *Reformační* programy s trvalou disrupcí identity a kontrolovaným vstupem nové |
-| **Kult osobnosti** | Charismatická figura nahrazuje subjektovo *já* mediovaným odrazem skrze sebe |
+| **[Kult osobnosti](@/glossary/kult-osobnosti.md)** | Charismatická figura nahrazuje subjektovo *já* mediovaným odrazem skrze sebe |
 | **Trauma-mining** | Zneužívání skutečné traumatické historie subjektu k systematické dezintegraci |
 | **Narcistické vztahy** | Partner systematicky zrcadlí subjektovi pouze obraz, který slouží partnerovým potřebám |
 
@@ -231,7 +231,7 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) narrative integrity check** — provenance graf každého subjektově-relevantního tvrzení je analyzován na **kontinuitu** s předchozími tvrzeními téhož aktéra; náhlé diskontinuity jsou flagovány.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} self-model audit** — rozhodnutí týkající se vlastní identity (kariérní, vztahové, hodnotové) jsou validována proti dlouhodobému self-model snapshotu; extrémní deviace vyžaduje **dvojí potvrzení**.
-- **Color Teams identity defense protocol** — *Blue Team* aktivně monitoruje high-risk kontexty (mentoring, terapeutické vztahy, intenzivní formace) na markery dezintegrace.
+- **[Color Teams](@/glossary/color-teams.md) identity defense protocol** — *[Blue Team](@/glossary/blue-team.md)* aktivně monitoruje high-risk kontexty (mentoring, terapeutické vztahy, intenzivní formace) na markery dezintegrace.
 
 ## Související
 

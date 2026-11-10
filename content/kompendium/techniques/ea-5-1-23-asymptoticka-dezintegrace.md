@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.23 Asymptotická dezintegrace"
-description = "Detailní per-technique článek: technika asymptotické dezintegrace — pomalý pohyb k totálnímu epistemickému kolapsu, kde každý jednotlivý krok je malý, ale kumulativní trajektorie destruktivní, bez identifikovatelného bodu, kdy lze říci 'toto je už příliš'."
+description = "Detailní per-technique článek: technika asymptotické dezintegrace — pomalý pohyb k totálnímu epistemickému kolapsu, kde každý jednotlivý krok je malý, ale kumulativní trajektorie destruktivní."
 weight = 523
 insert_anchor_links = "right"
 
@@ -175,7 +175,7 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} drift detector** — sleduje, zda **kalibrace** rozhodovacích parametrů u uživatele driftuje konzistentním směrem mimo původní baseline.
 - **NABLA Infinity trajectory tracking** — uchovává časovou řadu pozic, jež subjekt zastával, a flaguje kumulativní posuny pod prahem afektivní detekce.
-- **Color Teams retrospective audit** — Red Team operuje s explicitním protokolem pro retrospektivní audit driftu kultury bezpečnostního týmu.
+- **Color Teams retrospective audit** — [Red Team](@/glossary/red-team.md) operuje s explicitním protokolem pro retrospektivní audit driftu kultury bezpečnostního týmu.
 
 ## Související
 

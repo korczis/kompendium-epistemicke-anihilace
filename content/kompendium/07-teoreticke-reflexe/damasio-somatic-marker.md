@@ -19,7 +19,7 @@ toc = true
 
 Antonio Damasio — portugalsko-americký neurolog — v knihách *Descartes' Error* (1994), *The Feeling of What Happens* (1999) a *Self Comes to Mind* (2010) rozvíjí **hypotézu somatického markeru** (*somatic marker hypothesis*) — strukturální analýzu role **vtělených emocí** v racionálním rozhodování.
 
-Pro kompendium EA poskytuje Damasiova teorie nástroj pro pochopení **EA technik operujících skrze tělesnou dezregulaci** — nikoli pouze skrze kognitivní manipulaci.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Damasiova teorie nástroj pro pochopení **EA technik operujících skrze tělesnou dezregulaci** — nikoli pouze skrze kognitivní manipulaci.
 
 ## 1. Descartes' Error
 
@@ -45,12 +45,12 @@ Mechanismus:
 
 - Subjekt má v paměti **emocionálně tagované** zkušenosti
 - Při rozhodování mozek **rekonstruuje** tělesné aspekty těchto zkušeností
-- **Somatický marker** funguje jako **rychlá heuristika** — narušuje vyhodnocovací prostor
+- **Somatický marker** funguje jako **rychlá [heuristika](@/glossary/heuristika.md)** — narušuje vyhodnocovací prostor
 
 Pro EA má somatic marker **strukturální význam**:
 
-- **Manipulace markerů**: techniky, jež **falsifikují** subjektovy emocionální zkušenosti (gaslighting), strukturálně manipulují **somatické markery**.
-- **Indukce nesprávných markerů**: techniky, jež **pojí** politické nebo ideologické pozice s **emocionálními** zkušenostmi (propaganda), strukturálně manipulují rozhodování.
+- **Manipulace markerů**: techniky, jež **falsifikují** subjektovy emocionální zkušenosti ([gaslighting](@/glossary/gaslighting.md)), strukturálně manipulují **somatické markery**.
+- **Indukce nesprávných markerů**: techniky, jež **pojí** politické nebo ideologické pozice s **emocionálními** zkušenostmi ([propaganda](@/glossary/propaganda.md)), strukturálně manipulují rozhodování.
 
 ## 3. Tři vrstvy self
 
@@ -102,7 +102,7 @@ Pro EA z toho plyne:
 
 | Damasio | EA technika | Mechanismus |
 |---------|-------------|-------------|
-| Manipulace somatic markerů | Gaslighting, falsifikace zkušenosti | EA-4.1 |
+| Manipulace somatic markerů | Gaslighting, [falsifikace](@/glossary/falsifikace.md) zkušenosti | EA-4.1 |
 | Pseudo-racionalismus | "Be rational, don't be emotional" | EA-1.5 |
 | Útok na protoself | Somatické trauma | Klinický |
 | Útok na core self | Dissociace | Klinický |
@@ -122,7 +122,7 @@ Damasiova teorie je strukturálně **kompatibilní** s:
 
 - **Merleau-Ponty** ([viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)): vtělený subjekt
 - **Heidegger** ([viz 7.14](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)): *Befindlichkeit* (afektivní situovanost)
-- **Embodied cognition** (Varela, Thompson): kontinuita biologie/mysli
+- **[Embodied cognition](@/glossary/embodied-cognition.md)** (Varela, Thompson): kontinuita biologie/mysli
 
 ## 9. Primární literatura
 

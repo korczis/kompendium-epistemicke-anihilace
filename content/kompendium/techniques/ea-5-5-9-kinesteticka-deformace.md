@@ -59,7 +59,7 @@ Co prožívá subjekt **uvnitř** techniky:
 |------|-------|
 | **Pohyb se 'děje', ne 'já se hýbu'** | Strukturální projev techniky |
 | **Mizení kinestetické agency** | Postupné vytrácení baseline kapacity |
-| **Doktrinální výklad jako 'rozpuštění ega'** | Patologie maskovaná doktrinálním rámcem jako 'pokrok' |
+| **Doktrinální výklad jako '[rozpuštění ega](@/glossary/ego-death.md)'** | Patologie maskovaná doktrinálním rámcem jako 'pokrok' |
 | **Závislost na manipulátorovi pro výklad pohybu** | Subjekt je funkčně závislý na manipulátorovi pro tuto vrstvu zkušenosti |
 
 ## Detekční markery (pohled pozorovatele)
@@ -71,7 +71,7 @@ Co může vidět vnější pozorovatel:
 | Subjekt popisuje vlastní pohyb v 3. osobě nebo bezosobně | Manifestní deformace |
 | Subjekt cituje doktrinální výklad | Internalizace |
 | Subjektovy pohyby vykazují automatické/rituální kvality | Konsolidovaná struktura |
-| Subjekt vykazuje známky depersonalizace | Hluboká deformace |
+| Subjekt vykazuje známky [depersonalizace](@/glossary/depersonalizace.md) | Hluboká deformace |
 
 ## Neutralizační strategie
 
@@ -116,11 +116,11 @@ Kinestetická percepce koreluje s aktivitou v cerebellu, putamen a SMA. Deformac
 
 ## Diferenciální diagnostika
 
-Klinická diferenciace techniky **kinestetická deformace** od podobných stavů je kritická pro správné rozhodnutí o intervenci.
+Klinická [diferenciace](@/glossary/diferenciace.md) techniky **kinestetická deformace** od podobných stavů je kritická pro správné rozhodnutí o intervenci.
 
-**vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení reality testing s halucinacemi a bludy, zatímco EA-5.5.9 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.9 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.9 absentní.
+**vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.9 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.9 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.9 absentní.
 
-**vs. Disociativní poruchy** (F44): Disociace zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.9 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
+**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.9 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
 
 **vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.9 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.9 klasifikoval jako „anti-mystical“ stav.
 
@@ -132,11 +132,11 @@ Pro **objektivní detekci** aplikace techniky **kinestetická deformace** v post
 
 - **Primární marker**: Akcelerometrie zápěstí: zvýšená frekvence mikropohybů (>5Hz) bez intencionálního cíle — narušení motorické homeostázy.
 - **Sekundární markery**:
-  - Subjektivní self-report s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
+  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
   - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
   - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **Chain of custody**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
 ## Cross-linky (rozšířené)
 

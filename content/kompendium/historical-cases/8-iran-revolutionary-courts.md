@@ -5,6 +5,9 @@ description = "Írán od roku 1979: revoluční soudy s náboženskou legitimito
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

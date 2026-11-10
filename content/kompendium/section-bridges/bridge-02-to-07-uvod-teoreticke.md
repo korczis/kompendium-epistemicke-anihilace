@@ -48,7 +48,7 @@ Sekci 07 čtěte nejdříve **po sekcích 02–06**, ne hned. Teoretické reflex
 
 ## 5. Specifické techniky / koncepty
 
-Klíčové koncepty: **genealogie pojmu**, **epistemologický status**, **metodologická kritika**, **terminologická kritika**, **meta-limitace**. Vážou se na Nabla∞ epistemický framework a Doctrine NCLB (No Claim Left Behind).
+Klíčové koncepty: **genealogie pojmu**, **epistemologický status**, **metodologická kritika**, **terminologická kritika**, **meta-limitace**. Vážou se na Nabla∞ epistemický framework a [Doctrine](@/glossary/doctrine.md) NCLB (No Claim Left Behind).
 
 ## 6. Související
 

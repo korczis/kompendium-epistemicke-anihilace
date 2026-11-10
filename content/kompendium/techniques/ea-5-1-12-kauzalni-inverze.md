@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.12 Kauzální inverze"
-description = "Detailní per-technique článek: ultramární technika kauzální inverze — systematické převrácení atribuce příčin a následků v subjektově chápání událostí, podkopávající základ prediktivního uvažování a odpovědnosti. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: ultramární technika kauzální inverze — systematické převrácení atribuce příčin a následků v subjektově chápání událostí."
 weight = 5112
 insert_anchor_links = "right"
 

@@ -34,8 +34,8 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 02 — Self-improving systems**: AutoEvolve vs. static codebase
 - **Sekce 04 — SEADF framework**: AutoEvolve jako execution layer SEADF
-- **Sekce 05 — Health monitoring**: integrace s mix health.score, autoheal
-- **Sekce 07 — Evolution doctrine**: limity autonomního zlepšování, human-in-the-loop
+- **Sekce 05 — Health monitoring**: integrace s mix health.score, [autoheal](@/glossary/autoheal.md)
+- **Sekce 07 — Evolution [doctrine](@/glossary/doctrine.md)**: limity autonomního zlepšování, human-in-the-loop
 - **Per-technique články**: autoevolve cycles, regresní detekce, claim validation
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.

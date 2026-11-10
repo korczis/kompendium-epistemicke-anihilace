@@ -1,8 +1,11 @@
 +++
 title = "Kompletní rejstřík technik (master index)"
-description = "Tabulkový master index všech technik kompendia EA-X.Y.Z s jednořádkovými popisky a odkazy na detailní per-technique články — kapitola 1 (akademické techniky), kapitola 5 (ultramární techniky) a placeholdery pro kapitoly 7–10."
+description = "Tabulkový master index všech technik kompendia EA-X.Y.Z s jednořádkovými popisky a odkazy na detailní per-technique články."
 weight = 2
 sort_by = "weight"
+
+[taxonomies]
+tags = ["kompendium", "08-prilohy"]
 
 [extra]
 related_terms = ["index-pojmu", "klasifikace", "zkratky", "eticky-kodex"]
@@ -26,7 +29,7 @@ Každá technika je identifikována kódem ve formátu `EA-X.Y.Z[-α]`:
 
 | Komponenta | Význam | Příklad |
 |------------|--------|---------|
-| **EA** | Epistemická anihilace (konstantní prefix) | `EA` |
+| **EA** | [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) (konstantní prefix) | `EA` |
 | **X** | Kapitola / primární kategorie (1–10) | `1` |
 | **Y** | Subkategorie | `1` |
 | **Z** | Specifický fenomén | `1` |
@@ -194,9 +197,9 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 |-----|-------|--------------------|
 | [`EA-7.1.1`](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md) | Foucault: moc a vědění | Vědění a moc se vzájemně podmiňují; kdo určuje, co platí za pravdu, ovládá i prostor možného poznání. |
 | [`EA-7.1.2`](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md) | Foucault: Dohlížet a trestat | Disciplinární instituce formují subjekt dohledem a normalizací; rámec pro totalitní prostředí. |
-| [`EA-7.1.3`](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md) | Adorno: instrumentální rozum | Rozum zúžený na prostředek k cíli ztrácí schopnost ptát se po cílech samých. |
+| [`EA-7.1.3`](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md) | Adorno: [instrumentální rozum](@/glossary/instrumental-reason.md) | Rozum zúžený na prostředek k cíli ztrácí schopnost ptát se po cílech samých. |
 | [`EA-7.1.4`](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) | Habermas: komunikativní jednání | Měřítko nezkreslené komunikace, proti němuž se dá popsat strategické zkreslení rozhovoru. |
-| [`EA-7.1.5`](@/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md) | Arendtová: banalita zla | Zlo vykonané bez myšlení a úsudku; selhání úsudku jako společný jmenovatel. |
+| [`EA-7.1.5`](@/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md) | Arendtová: [banalita zla](@/glossary/banalita-zla.md) | Zlo vykonané bez myšlení a úsudku; selhání úsudku jako společný jmenovatel. |
 | [`EA-7.1.6`](@/kompendium/techniques/ea-7-1-6-sloterdijk-spheres.md) | Sloterdijk: sféry | Člověk žije ve sdílených „bublinách“ smyslu; jejich uzavření je předpoklad epistemické izolace. |
 | [`EA-7.1.7`](@/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md) | Deleuze a Guattari: rhizom | Necentrovaná síť vztahů jako model decentralizovaných a těžko dohledatelných vlivů. |
 | [`EA-7.1.8`](@/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md) | Derrida: dekonstrukce | Rozbor nestability významu; hranice mezi kritickým čtením a rozkladem smyslu. |
@@ -209,9 +212,9 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 |-----|-------|--------------------|
 | [`EA-7.2.1`](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md) | Fricker: epistemická nespravedlnost | Svědectví a hermeneutická nespravedlnost: člověku se nevěří, nebo chybí pojmy pro jeho zkušenost. |
 | [`EA-7.2.2`](@/kompendium/techniques/ea-7-2-2-goldman-veritism.md) | Goldman: veritismus | Sociální praxe se hodnotí podle toho, zda zvyšují podíl pravdivých přesvědčení. |
-| [`EA-7.2.3`](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) | Popper: falsifikace | Teorie, kterou nic nemůže vyvrátit, není poznáním; měřítko pro imunizované doktríny. |
+| [`EA-7.2.3`](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) | Popper: [falsifikace](@/glossary/falsifikace.md) | Teorie, kterou nic nemůže vyvrátit, není poznáním; měřítko pro imunizované doktríny. |
 | [`EA-7.2.4`](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) | Lakatos: výzkumný program | Tvrdé jádro a ochranný pás; rozlišení progresivního a degenerujícího programu. |
-| [`EA-7.2.5`](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md) | Kuhn: změna paradigmatu | Paradigmata určují, co se vidí jako problém; „konverze“ a její zneužití. |
+| [`EA-7.2.5`](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md) | Kuhn: [změna paradigmatu](@/glossary/paradigm-shift.md) | Paradigmata určují, co se vidí jako problém; „konverze“ a její zneužití. |
 | [`EA-7.2.6`](@/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md) | Feyerabend: proti metodě | Kritika jediné metody; zároveň argument, jímž se dá relativizovat jakákoli kontrola. |
 | [`EA-7.2.7`](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md) | Quine: síť přesvědčení | Přesvědčení tvoří celek; změna v jádru sítě se šíří do všech okrajů. |
 | [`EA-7.2.8`](@/kompendium/techniques/ea-7-2-8-davidson-charity.md) | Davidson: princip vstřícnosti | Porozumění předpokládá, že druhý má většinou pravdivá přesvědčení; kdy se princip zneužívá. |
@@ -238,13 +241,13 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 | Č. | Kapitola | Co řeší |
 |----|----------|---------|
 | 7.1 | [Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) | Foucault, Adorno, Sloterdijk a Habermas jako čtyři optiky moci, rozumu a komunikace. |
-| 7.2 | [Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) | Empirická psychotraumatologie: komplexní trauma, trauma ze zrady, disociace. |
+| 7.2 | [Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) | Empirická psychotraumatologie: [komplexní trauma](@/glossary/complex-trauma.md), [trauma ze zrady](@/glossary/betrayal-trauma.md), [disociace](@/glossary/disociace.md). |
 | 7.3 | [Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) | Svědectví, důvěra a epistemická nespravedlnost (Goldman, Fricker, Longino, Anderson). |
 | 7.4 | [EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) | Lyotard, Baudrillard, Derrida: kde kritika metanarativů končí a začíná rozklad poznání. |
-| 7.5 | [Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) | Duální systém, prediktivní zpracování, vtělená kognice jako vysvětlení zranitelnosti. |
+| 7.5 | [Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) | Duální systém, [prediktivní zpracování](@/glossary/predictive-processing.md), [vtělená kognice](@/glossary/embodied-cognition.md) jako vysvětlení zranitelnosti. |
 | 7.6 | [Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) | Formální modely přesvědčení a jejich vztah k platformě. |
 | 7.7 | [EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) | Algoritmy, generativní modely a *deepfakes* jako nové prostředí starých vzorců. |
-| 7.8 | [Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) | Totalitní systémy, propaganda a populismus jako kolektivní rovina jevu. |
+| 7.8 | [Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) | Totalitní systémy, [propaganda](@/glossary/propaganda.md) a populismus jako kolektivní rovina jevu. |
 | 7.9 | [Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md) | Co taxonomie zatím neumí vysvětlit nebo změřit. |
 
 ### 7.C Monografické kapitoly 7.10–7.59
@@ -298,7 +301,7 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 Master rejstřík je propojen s běžícími systémy:
 
 - [Glossary](@/glossary/_index.md) — každý kanonizovaný název má glosářové heslo.
-- [Color Teams](@/glossary/color-teams.md) — Red Team scénáře čerpají z této taxonomie.
+- [Color Teams](@/glossary/color-teams.md) — [Red Team](@/glossary/red-team.md) scénáře čerpají z této taxonomie.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA kódy jako negativní signály.
 - [3NL architektura](@/glossary/three-nested-loops.md) — L1 (logika) ↔ L2 (neurální) ↔ L3 (lingvistika) mapuje kapitoly 1–5 podle dominantní vrstvy.
 

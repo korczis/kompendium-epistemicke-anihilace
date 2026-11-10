@@ -67,7 +67,7 @@ Kantova analýza **transcendentálních iluzí** — systematických zkreslení 
 
 Edmund Husserl ve svých analýzách *konstituce smyslu* (*Logische Untersuchungen*, *Ideen*, *Krisis*) ukazuje, že subjektivní zkušenost není pasivním přijímáním vjemů, ale **aktivní konstitucí významu**. Tato konstituce má strukturální vlastnosti:
 
-- **Intencionalita** — vědomí je vždy vědomím **něčeho**, je strukturně zaměřeno
+- **[Intencionalita](@/glossary/intentionalita.md)** — vědomí je vždy vědomím **něčeho**, je strukturně zaměřeno
 - **Noeticko-noematická korelace** — způsob zaměření (noéze) koreluje s konstituovaným obsahem (noéma)
 - **Pasivní syntézy** — pre-reflexivní úroveň, kde je konstituce již provedena před vědomou reflexí
 - **Intersubjektivita** — konstituce smyslu je strukturálně zakotvena ve vztahu k druhým subjektům
@@ -96,7 +96,7 @@ Pro taxonomii: pokročilé fáze epistemické anihilace strukturně odpovídají
 
 ### Gadamer: hermeneutický kruh
 
-Hans-Georg Gadamer (*Wahrheit und Methode*, 1960) zavádí **hermeneutický kruh** jako strukturu porozumění: každé porozumění části předpokládá předporozumění celku, které je revidováno na základě porozumění části. Klíčové koncepty:
+Hans-Georg Gadamer (*Wahrheit und Methode*, 1960) zavádí **[hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)** jako strukturu porozumění: každé porozumění části předpokládá předporozumění celku, které je revidováno na základě porozumění části. Klíčové koncepty:
 
 - **Wirkungsgeschichte** (dějiny působení) — porozumění je vždy zakotveno v tradici, jež subjekt strukturně předchází
 - **Vorurteile** (předsudky) — pre-strukturní rámce, jež umožňují **jakékoli** porozumění; nelze je odstranit, lze pouze reflektovat
@@ -106,7 +106,7 @@ Pro taxonomii je Gadamerovo přínosem **realistická akceptace, že žádný su
 
 ### Ricoeur: hermeneutika podezření
 
-Paul Ricoeur (*De l'interprétation*, 1965) identifikuje **hermeneutiku podezření** (Marx, Nietzsche, Freud) jako protějšek **hermeneutiky důvěry**. Hermeneutika podezření čte texty jako **maskování** něčeho jiného — ekonomických zájmů, vůle k moci, nevědomých přání.
+Paul Ricoeur (*De l'interprétation*, 1965) identifikuje **hermeneutiku podezření** (Marx, Nietzsche, Freud) jako protějšek **hermeneutiky důvěry**. [Hermeneutika](@/glossary/hermeneutika.md) podezření čte texty jako **maskování** něčeho jiného — ekonomických zájmů, vůle k moci, nevědomých přání.
 
 Pro taxonomii má Ricoeurova distinkce dvojí aplikaci:
 
@@ -117,7 +117,7 @@ Pro taxonomii má Ricoeurova distinkce dvojí aplikaci:
 
 ### Adorno a Horkheimer: dialektika osvícenství
 
-Theodor Adorno a Max Horkheimer (*Dialektik der Aufklärung*, 1947) ukazují, že racionalita osvícenského typu se může **obrátit proti sobě samé** — instrumentální rozum optimalizovaný pro kontrolu přírody a společnosti se stává nástrojem sociální dominance. Klíčové vhledy:
+Theodor Adorno a Max Horkheimer (*Dialektik der Aufklärung*, 1947) ukazují, že racionalita osvícenského typu se může **obrátit proti sobě samé** — [instrumentální rozum](@/glossary/instrumental-reason.md) optimalizovaný pro kontrolu přírody a společnosti se stává nástrojem sociální dominance. Klíčové vhledy:
 
 - **Kulturní průmysl** — masová produkce kulturních artefaktů standardizovaným způsobem produkuje strukturně **homogenní** vědomí
 - **Identifikace** — subjekty internalizují kategorie systému jako vlastní
@@ -132,7 +132,7 @@ Jürgen Habermas (*Theorie des kommunikativen Handelns*, 1981) rozlišuje:
 - **Strategické jednání** — komunikace orientovaná na efekt, kde je druhý objektem
 - **Komunikativní jednání** — komunikace orientovaná na porozumění, kde je druhý subjektem
 
-**Ideální řečová situace** je regulativní ideál — kontext, v němž jsou suspendovány mocenské asymetrie a všichni účastníci mají rovnou možnost zpochybnit a justifikovat tvrzení.
+**[Ideální řečová situace](@/glossary/ideal-speech-situation.md)** je regulativní ideál — kontext, v němž jsou suspendovány mocenské asymetrie a všichni účastníci mají rovnou možnost zpochybnit a justifikovat tvrzení.
 
 Pro taxonomii: epistemická anihilace strukturálně odpovídá **systematické manipulaci podmínek komunikativní racionality** — subjekty operují v zdánlivě otevřené diskuzi, ale strukturní podmínky pro autentický dialog jsou systematicky narušené. Manipulátor předstírá komunikativní jednání, ale operuje strategicky.
 
@@ -142,17 +142,17 @@ Filosofický rámec není dekorativní — strukturně koreluje s konkrétními 
 
 | Filosofická perspektiva | Klíčový koncept | Vztah k EA-taxonomii |
 |--------------------------|------------------|------------------------|
-| **Bacon** | Idoly tržiště | EA-1.1.3 Terminologická mystifikace |
+| **Bacon** | Idoly tržiště | [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) Terminologická mystifikace |
 | **Bacon** | Idoly divadla | Strukturální anihilace (Sekce 04) |
 | **Descartes** | Metodická vs. destruktivní pochybnost | Diferenciální dg. legitimní filosofie vs. manipulace |
 | **Kant** | Transcendentální struktury | Distinkce doxastické vs. epistemické anihilace |
 | **Husserl** | Pasivní syntézy | EA-1.4.x Prosodicko-emocionální techniky |
-| **Merleau-Ponty** | Vtělená kognice | EA-1.5.x Tělesné techniky |
+| **Merleau-Ponty** | [Vtělená kognice](@/glossary/embodied-cognition.md) | EA-1.5.x Tělesné techniky |
 | **Heidegger** | Das Man | Epistemická alienace (Sekce 04) |
 | **Gadamer** | Suspenze reflexivity | EA-1.3.x Inferenční techniky |
 | **Ricoeur** | Hermeneutika podezření | Diagnostický nástroj pro detekci manipulace |
 | **Adorno** | Strukturní homogenizace | Algoritmické bubliny, masová manipulace |
-| **Habermas** | Komunikativní racionalita | Normativní rámec pro detekci strategického jednání |
+| **Habermas** | [Komunikativní racionalita](@/glossary/communicative-rationality.md) | Normativní rámec pro detekci strategického jednání |
 
 ## Filosofické meta-závazky taxonomie
 
@@ -160,7 +160,7 @@ Taxonomie je explicitně zakotvena v několika filosofických závazcích:
 
 1. **Kritický realismus** — existuje epistemicky přístupná realita, ačkoli přístup je vždy mediován
 2. **Strukturní realismus** — epistemické procesy mají strukturní vlastnosti, jež jsou intersubjektivně verifikovatelné
-3. **Pluralismus explanace** — multiple disciplinární perspektivy poskytují **komplementární**, nikoli konkurenční vhledy
+3. **[Pluralismus](@/glossary/pluralismus.md) explanace** — multiple disciplinární perspektivy poskytují **komplementární**, nikoli konkurenční vhledy
 4. **Normativní zakotvenost** — taxonomie není neutrálním deskriptivním aparátem, ale je zakotvena v hodnotě epistemické integrity
 5. **Reflexivní otevřenost** — taxonomie sama podléhá svým vlastním kritériím a je revizibilní
 

@@ -94,7 +94,7 @@ Supervizní skupina má provést audit postupu a navrhnout další kroky.
 - **K otázce 3.** Není. Terapeutický vztah má mocenskou asymetrii a zasahuje do výkladu reality;
   když selžou pojistky, může reprodukovat tytéž struktury – izolaci, závislost, monopol na výklad.
   Úmysl je jiný, funkce podobná; viz [mocenská asymetrie v EA aplikaci](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md).
-- **K otázce 4.** Hned: posoudit bezpečí klientky (disociace, výpadek práce, případné
+- **K otázce 4.** Hned: posoudit bezpečí klientky ([disociace](@/glossary/disociace.md), výpadek práce, případné
   sebepoškozování), zastavit sugestivní techniku, vrátit frekvenci a hranice kontaktu na
   udržitelnou úroveň, doporučit psychiatrické vyšetření. V dalších týdnech: pravidelná
   supervize, revize hypotézy, nabídka druhého názoru klientce, zvážení předání.

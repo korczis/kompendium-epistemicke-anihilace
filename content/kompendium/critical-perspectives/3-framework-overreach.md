@@ -15,7 +15,7 @@ toc = true
 
 # Framework overreach — když EA vysvětluje vše
 
-> **Bucket**: methodological · **Unique angle**: popperovská falzifikační kritika — falsifiability conditions per category
+> **Bucket**: methodological · **Unique angle**: popperovská falzifikační kritika — [falsifiability](@/glossary/falsifikovatelnost.md) conditions per category
 
 ## Kritika nebo alternativa
 

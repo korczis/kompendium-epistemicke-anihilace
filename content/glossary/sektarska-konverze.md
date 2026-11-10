@@ -80,7 +80,7 @@ Meze: konverze nelze předpovídat podle osobnostních rysů; ohroženy jsou sp�
 
 ## Literatura
 
-- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 - Lofland, J., Stark, R. (1965). Becoming a World-Saver: A Theory of Conversion to a Deviant Perspective. *American Sociological Review*, 30.
 - Barker, E. (1984). *The Making of a Moonie: Choice or Brainwashing?*
 - Hassan, S. (1988). *Combatting Cult Mind Control*.

@@ -98,7 +98,7 @@ diagnostika, (3) návrh plánu.
   Metakognitivní kolaps je pozdním důsledkem. Pořadí určuje časová osa, nikoli intenzita.
 - **K otázce 2.** Hyperreflexivita oslabuje schopnost uzavřít úvahu; ontologická teze pak
   nemůže být vyvrácena a rozpouští kotvy (vztahy), které by mohly fungovat jako korekce;
-  bez kotev se ztrácí vnější kalibrace a metakognice kolabuje. Kniha tento sled popisuje jako
+  bez kotev se ztrácí vnější kalibrace a [metakognice](@/glossary/metakognice.md) kolabuje. Kniha tento sled popisuje jako
   konvergenci, viz [EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md).
 - **K otázce 3.** Proti: zachovaný náhled, absence halucinací a bludů v užším smyslu,
   srozumitelná souvislost s prostředím. Hypotézu je třeba znovu otevřít při ztrátě náhledu,

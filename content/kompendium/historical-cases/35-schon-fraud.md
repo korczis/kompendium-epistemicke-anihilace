@@ -5,6 +5,9 @@ description = "Bell Labs 1998–2002: fyzik Jan Hendrik Schön publikoval vymyš
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

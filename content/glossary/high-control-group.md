@@ -31,11 +31,11 @@ spektrum, ne binární kategorie.
 
 ## Původ a kontext pojmu
 
-Odborný základ položil psychiatr Robert J. Lifton v knize *Thought Reform and the
+Odborný základ položil psychiatr Robert J. Lifton v knize *[Thought Reform](@/glossary/thought-reform.md) and the
 Psychology of Totalism* (1961), kde na základě rozhovorů s lidmi, kteří prošli čínskou
 „převýchovou“, popsal osm kritérií ideologického totalismu: kontrolu prostředí (*milieu
 control*), mystickou manipulaci, požadavek čistoty, kult zpovědi, posvátnou vědu,
-zatížený jazyk (*loading the language*), nadřazenost doktríny nad osobou a rozhodování
+zatížený jazyk (*[loading the language](@/glossary/loading-the-language.md)*), nadřazenost doktríny nad osobou a rozhodování
 o tom, kdo má právo existovat (*dispensing of existence*).
 
 Na Liftona navázali Margaret Singerová a Janja Lalichová (*Cults in Our Midst*, 1995)

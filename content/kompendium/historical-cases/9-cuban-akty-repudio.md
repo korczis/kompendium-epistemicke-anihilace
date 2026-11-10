@@ -5,6 +5,9 @@ description = "Kuba od roku 1980: státem organizované „akty zavržení“ p�
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

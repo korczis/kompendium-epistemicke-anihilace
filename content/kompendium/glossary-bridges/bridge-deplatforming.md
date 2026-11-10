@@ -47,7 +47,7 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
 | instance | Content moderation | extreme tier |
-| souvisí | Delegitimizace, cancel culture | broader dynamic |
+| souvisí | [Delegitimizace](@/glossary/delegitimizace.md), cancel culture | broader dynamic |
 | kontrastuje | Free speech absolutism | polarita |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.

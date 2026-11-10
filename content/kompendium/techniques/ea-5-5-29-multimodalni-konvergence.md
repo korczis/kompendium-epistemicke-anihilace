@@ -86,7 +86,7 @@ Co může vidět vnější pozorovatel:
 
 ### Sister UM techniky (subkategorie 5.5 Transkonceptuální mechanismy)
 
-EA-5.5.6 (konvergentní pre-konceptuální), EA-5.5.30 (konvergentní singularita)
+[EA-5.5.6](@/kompendium/techniques/ea-5-5-6-konvergentni-pre-konceptualni.md) (konvergentní pre-konceptuální), EA-5.5.30 (konvergentní singularita)
 
 ### Cross-categorical references
 
@@ -112,15 +112,15 @@ Multimodální konvergence operuje skrze STS, posterior parietal cortex a inzul�
 
 ## Diferenciální diagnostika
 
-Klinická diferenciace techniky **multimodální konvergence** od podobných stavů je kritická pro správné rozhodnutí o intervenci.
+Klinická [diferenciace](@/glossary/diferenciace.md) techniky **multimodální konvergence** od podobných stavů je kritická pro správné rozhodnutí o intervenci.
 
-**vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení reality testing s halucinacemi a bludy, zatímco EA-5.5.29 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.29 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.29 absentní.
+**vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení [reality testing](@/glossary/reality-testing.md) s halucinacemi a bludy, zatímco EA-5.5.29 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.29 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.29 absentní.
 
-**vs. Disociativní poruchy** (F44): Disociace zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.29 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
+**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.29 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
 
 **vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.29 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.29 klasifikoval jako „anti-mystical“ stav.
 
-**vs. Depersonalizace/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.29 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.29 se obvykle resolvuje do 24–72h.
+**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.29 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.29 se obvykle resolvuje do 24–72h.
 
 ## Forensní markery
 
@@ -128,11 +128,11 @@ Pro **objektivní detekci** aplikace techniky **multimodální konvergence** v p
 
 - **Primární marker**: Synesthesia battery: výskyt grafém-barevné synestesie >3 × baseline — zvýšená cross-modal konektivita.
 - **Sekundární markery**:
-  - Subjektivní self-report s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
+  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
   - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
   - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **Chain of custody**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
 ## Cross-linky (rozšířené)
 

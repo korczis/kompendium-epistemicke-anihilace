@@ -1,16 +1,16 @@
 +++
-title = "Informed Consent"
+title = "Informed consent (informovaný souhlas)"
 weight = 5
-description = "Voluntary agreement by a competent person to a proposed intervention, procedure, or data use, given after disclosure of material information including nature, purpose, risks, benefits, alternatives, and the right to withdraw without penalty"
+description = "Dobrovolný souhlas způsobilé osoby se zákrokem, výzkumem nebo zpracováním údajů po poučení o povaze, rizicích, přínosech, alternativách a právu souhlas odvolat."
 
 [taxonomies]
-tags = ["ethics", "legal", "research", "compliance", "data-protection"]
+tags = ["glossary", "ethics", "legal", "research", "compliance", "data-protection"]
 
 [extra]
 category = "ethics"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "7 min"
+reading_time = "5 min"
 difficulty = "intermediate"
 quality_score = 92
 abbreviation = "IC"
@@ -25,39 +25,78 @@ image = "/images/sections/glossary.png"
 image_alt = "Informed Consent - Prismatic Platform"
 +++
 
-## Definition
+## Definice
 
-Informed consent is the formal mechanism by which a competent individual voluntarily authorizes an intervention, procedure, treatment, research participation, or use of personal data, after receiving disclosure of all material information necessary to make a meaningful decision. The doctrine has three constitutive elements: (1) **capacity** — the cognitive ability to understand, appreciate, reason about, and communicate a choice; (2) **voluntariness** — absence of coercion, manipulation, or undue influence; (3) **disclosure** — accurate, intelligible information about the nature of what is proposed, its risks, its expected benefits, reasonable alternatives (including non-action), and the right to refuse or withdraw without penalty.
+**Informovaný souhlas** (*informed consent*) je formální mechanismus, jímž způsobilá osoba dobrovolně schvaluje zákrok, postup, léčbu, účast ve výzkumu nebo použití svých osobních údajů poté, co obdržela všechny podstatné informace potřebné ke smysluplnému rozhodnutí. Doktrína má tři konstitutivní prvky:
 
-## Manažerské shrnutí
+1. **způsobilost** (*capacity*) – kognitivní schopnost porozumět, docenit, zvážit a sdělit volbu;
+2. **dobrovolnost** (*voluntariness*) – nepřítomnost donucení, manipulace a [nepatřičného vlivu](@/glossary/undue-influence.md);
+3. **poučení** (*disclosure*) – přesná a srozumitelná informace o povaze navrhovaného postupu, jeho rizicích, očekávaných přínosech, rozumných alternativách (včetně nečinnosti) a o právu odmítnout nebo odstoupit bez sankce.
 
-Informovaný souhlas je formální mechanismus, kterým způsobilá osoba dobrovolně autorizuje zákrok, výzkumnou participaci nebo zpracování osobních údajů poté, co obdržela všechny podstatné informace. Tři neoddělitelné prvky: *způsobilost* (cognitive capacity), *dobrovolnost* (absence donucení a nepatřičného vlivu), a *řádné poučení* (adequate disclosure). V Prismatic Platform se princip aplikuje napříč klinickým výzkumem, behaviorálními studiemi, AI/ML výzkumem na lidských datech, OSINT operacemi (tam, kde je relevantní souhlas subjektu), a v DD kontextu při získávání informací od zaměstnanců cílové firmy a third-party respondentů. České právo ho zachycuje skrze § 31 zákona o zdravotních službách, GDPR (čl. 6 a 7), a v občanskoprávním rámci přes § 93 OZ a § 96 OZ.
+## Původ a kontext pojmu
 
-## Forensic/Legal Context
+Moderní doktrína vzešla z *Norimberského kodexu* (1947) a rozvinula se v přelomových rozhodnutích – *Salgo v. Stanford* (1957) a *Canterbury v. Spence* (1972) –, která v americké lékařské praxi zavedla standard **rozumného pacienta** (co by chtěl vědět rozumný pacient v postavení skutečného pacienta). Britská doktrína se k tomuto standardu přiblížila rozhodnutím *Montgomery v. Lanarkshire Health Board* (2015). Klinický výzkum v EU upravuje nařízení (EU) č. 536/2014; souhlas se zpracováním osobních údajů upravuje GDPR (čl. 4 bod 11, čl. 6 a 7) s náročným požadavkem, aby byl souhlas „svobodný, konkrétní, informovaný a jednoznačný“. V českém právu upravuje souhlas s poskytnutím zdravotních služeb a poučení pacienta zákon č. 372/2011 Sb., o zdravotních službách (informování pacienta zejména § 31); souhlas se zásahem do integrity člověka upravuje občanský zákoník. Dějiny zneužití, z nichž doktrína vyrostla, připomíná i [Tuskegee](@/kompendium/historical-cases/32-tuskegee.md).
 
-The modern doctrine emerged from the *Nuremberg Code* (1947) and was elaborated through landmark cases — *Salgo v. Stanford* (1957), *Canterbury v. Spence* (1972) — that established the *reasonable patient* standard in U.S. medical practice (what a reasonable patient in the position of the actual patient would want to know). U.K. doctrine moved closer to this standard in *Montgomery v. Lanarkshire Health Board* (2015). EU clinical research is governed by EU 536/2014; data-protection consent is governed by GDPR Article 7 with the demanding requirement that consent be "freely given, specific, informed, and unambiguous." Czech zákon 372/2011 Sb. § 31 codifies medical informed consent; § 93 and § 96 OZ govern personality-rights consent. Common pitfalls include: technical jargon undermining comprehension, blanket consents covering unforeseen uses, time-pressured consent, and structural coercion (employees consenting to employer-sponsored research).
+## Jak se projevuje
 
-## Practical Application
+Platný souhlas poznáme podle toho, že:
 
-A defensible consent form is short enough to be read, written at the participant's reading level (typically 8th-grade for general populations), and supplemented by a verbal conversation in which the participant can ask questions. Key components: purpose, procedures, time commitment, risks (physical, psychological, social, economic), benefits (with honest acknowledgment when none accrue to the participant), alternatives, confidentiality protections, data retention and use, contact information, and a clear statement of the right to withdraw. For research involving transformative interventions, vulnerable populations, or complex data use (genomic, AI training corpora), staged or dynamic consent models are increasingly recommended. In due-diligence operations, informed consent governs participant interviews, employee assessments, and any processing of personal data that does not fall under another GDPR lawful basis.
+- dotyčný dokáže vlastními slovy říct, s čím souhlasí, jaká jsou rizika a co se stane, když odmítne;
+- měl čas a prostor klást otázky;
+- odmítnutí by pro něj nemělo nepřiměřené důsledky;
+- ví, jak a komu souhlas odvolat.
 
-## Related Concepts
+Časté chyby: odborný žargon, který porozumění podkopává; souhrnné souhlasy pokrývající nepředvídaná použití; souhlas pod časovým tlakem; strukturální donucení (zaměstnanci souhlasící s výzkumem, který sponzoruje zaměstnavatel).
 
-- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) - General doctrine of voluntary agreement
-- [IRB Review](@/glossary/irb-review.md) - Body that approves consent forms
-- [Transformative Experience](@/glossary/transformative-experience.md) - Category challenging consent's foundational assumptions
-- [Undue Influence](@/glossary/undue-influence.md) - Doctrine that vitiates consent
-- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) - EU framework defining consent for personal-data processing
-- [Data Protection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-protection/) - Broader compliance domain
-- [Individual Risk Map](@/glossary/individual-risk-map.md) - Tool for personalizing risk disclosure
+## Mechanismus
 
-## References
+Souhlas je epistemický i etický akt: předpokládá, že člověk má přístup k pravdivým informacím a schopnost je zhodnotit. Proto je zvlášť zranitelný v situacích EA. Manipulace může zasáhnout každý ze tří prvků – poučení (informace jsou zkreslené nebo zamlčené, viz [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)), dobrovolnost (souhlas je vynucen závislostí, strachem nebo [love bombingem](@/glossary/love-bombing.md)) i způsobilost (dlouhodobá manipulace narušuje schopnost rozhodovat). Formálně perfektní podpis tak může zakrývat souhlas, který ve skutečnosti nebyl svobodný.
 
-- Faden, R.R. & Beauchamp, T.L. *A History and Theory of Informed Consent* (Oxford University Press, 1986)
-- Beauchamp, T.L. & Childress, J.F. *Principles of Biomedical Ethics* (8th ed., Oxford University Press, 2019)
-- Regulation (EU) 2016/679 (GDPR), Articles 6 & 7
-- Zákon č. 372/2011 Sb., o zdravotních službách, § 31 (informovaný souhlas)
+## Odlišení
 
----
+- **Od pouhého podpisu:** formulář je doklad, ne souhlas; souhlas je proces porozumění.
+- **Od souhlasu za nepatřičného vlivu:** souhlas daný pod [undue influence](@/glossary/undue-influence.md) je vadný, i když byl informovaný; právní doktrínu shrnuje [doktrína nepatřičného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md).
+- **Od souhlasu se [transformativní zkušeností](@/glossary/transformative-experience.md):** u zásahů, které mění samotné preference člověka, nemůže dotyčný předem plně vědět, k čemu souhlasí; to zpochybňuje základní předpoklady doktríny.
+- **Od kapacity v klinickém smyslu:** nízká míra informovanosti neznamená nezpůsobilost; posouzení způsobilosti je samostatný klinický úkon ([škála kapacity rozhodování](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)).
 
-*Built with precision. Optimized for AI consumption.*
+## Význam pro Kompendium
+
+Na platformě Prismatic, z níž kniha vzešla, se princip uplatňuje v klinickém výzkumu, behaviorálních studiích, výzkumu AI a strojového učení na lidských datech, v operacích [OSINT](@/glossary/osint.md) (tam, kde je souhlas subjektu relevantní) a v kontextu [due diligence](@/glossary/due-diligence.md) při získávání informací od zaměstnanců cílové firmy a dalších respondentů.
+
+Hájitelný formulář souhlasu je dost krátký, aby se dal přečíst, je napsán na úrovni čtenářské gramotnosti účastníka (u běžné populace zhruba na úrovni základní školy) a doplněn ústním rozhovorem, v němž se účastník může ptát. Klíčové součásti: účel, postupy, časová náročnost, rizika (fyzická, psychická, sociální, ekonomická), přínosy (s poctivým přiznáním, když účastníkovi žádné neplynou), alternativy, ochrana důvěrnosti, uchování a použití dat, kontakty a jasné prohlášení o právu odstoupit. U výzkumu s transformativními zásahy, zranitelnými populacemi nebo složitým použitím dat (genomika, trénovací korpusy AI) se stále častěji doporučují stupňovité nebo dynamické modely souhlasu. V operacích due diligence se informovaný souhlas týká rozhovorů s účastníky, hodnocení zaměstnanců a každého zpracování osobních údajů, které nespadá pod jiný právní základ GDPR.
+
+Pro knihu je informovaný souhlas zároveň **měřítkem i otevřenou otázkou**. Kompendium se ptá, zda člověk v kontrolující skupině může platně souhlasit se svou účastí – [otázka platnosti souhlasu](@/kompendium/critical-perspectives/15-consent-validity-question.md) –, a zároveň varuje, aby se tato otázka nestala záminkou k upírání autonomie dospělým lidem ([riziko nucené léčby](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)). Ve výzkumu EA platí zvláštní požadavky popsané v [informovaném souhlasu ve výzkumu EA](@/kompendium/research-methodology/informed-consent-EA-research.md) a u [odvolání souhlasu](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md).
+
+## Obrana a zotavení
+
+**Pro jednotlivce:** souhlas je možné odvolat; je legitimní požádat o čas na rozmyšlenou, o kopii dokumentů a o vysvětlení srozumitelnými slovy; podpis pod tlakem lze později napadnout.
+
+**Pro profesionály a instituce:** ověřovat porozumění (požádat účastníka, aby vlastními slovy shrnul, s čím souhlasí); oddělit osobu, která souhlas získává, od osoby, na níž je účastník závislý; u lidí po EA počítat se sklonem vyhovět autoritě a s obtížemi odmítnout; dokumentovat proces, ne jen podpis. Etický rámec knihy shrnují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+
+## Literatura
+
+- Ruth R. Faden, Tom L. Beauchamp: *A History and Theory of Informed Consent* (Oxford University Press, 1986).
+- Tom L. Beauchamp, James F. Childress: *Principles of Biomedical Ethics* (8. vyd., Oxford University Press, 2019).
+- Nařízení (EU) 2016/679 (GDPR), čl. 6 a 7.
+- Zákon č. 372/2011 Sb., o zdravotních službách, § 31.
+
+## Související
+
+**Pojmy**
+
+- [IRB Review](@/glossary/irb-review.md) – orgán, který formuláře souhlasu schvaluje.
+- [Transformative Experience](@/glossary/transformative-experience.md) – kategorie zpochybňující základní předpoklady souhlasu.
+- [Undue Influence](@/glossary/undue-influence.md) – doktrína, která souhlas činí vadným.
+- [Individual Risk Map](@/glossary/individual-risk-map.md) – nástroj pro individualizaci poučení o riziku.
+
+**Kniha**
+
+- [Otázka platnosti souhlasu](@/kompendium/critical-perspectives/15-consent-validity-question.md) – kritická perspektiva.
+- [Informovaný souhlas ve výzkumu EA](@/kompendium/research-methodology/informed-consent-EA-research.md) – metodika.
+- [Doktrína nepatřičného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md) – právní rámec.
+
+**Mimo knihu**
+
+- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) – obecná doktrína dobrovolného souhlasu.
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) – rámec EU pro souhlas se zpracováním údajů.
+- [Data Protection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-protection/) – širší oblast souladu.

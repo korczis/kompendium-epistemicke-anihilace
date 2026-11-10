@@ -5,6 +5,9 @@ description = "USA od roku 1995: schválení OxyContinu s tvrzením o nízkém r
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

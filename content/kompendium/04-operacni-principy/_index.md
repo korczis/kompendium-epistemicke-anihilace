@@ -13,7 +13,7 @@ toc = true
 
 Techniky Kompendia se liší obsahem, prostředím i hloubkou zásahu, ale opakují se v nich
 tytéž strukturní pravidelnosti. Tato stránka je shrnuje jako **principy, podle nichž se dá
-jev rozpoznat**: co mají společného gaslighting v partnerském vztahu, totalizace
+jev rozpoznat**: co mají společného [gaslighting](@/glossary/gaslighting.md) v partnerském vztahu, totalizace
 v doktorském programu i uzavřená online komunita. „Operační“ zde znamená „popisující, jak
 jev působí“, nikoli návod k jeho provedení. Každý princip je proto uveden spolu se znakem,
 podle něhož ho pozorovatel pozná, a s protiopatřením, které ho oslabuje.

@@ -46,7 +46,7 @@ zkušeností a kulturou. U EA jsou zvlášť silné tyto:
 - **„Proč neodešla?“** Neznalost [trauma bondingu](@/glossary/trauma-bonding.md), závislosti
   a eskalace rizika při odchodu.
 - **„Bez modřin nic nebylo.“** Podcenění psychické a ekonomické kontroly.
-- **„Vypadá normálně, takže to nebylo tak zlé.“** Neznalost disociace a disimulace.
+- **„Vypadá normálně, takže to nebylo tak zlé.“** Neznalost [disociace](@/glossary/disociace.md) a disimulace.
 - **„Ten druhý působí sympaticky.“** Přecenění dojmu a výřečnosti.
 - **„Oba jsou stejní.“** Rozmělnění asymetrie moci do „vztahové hádky“.
 
@@ -158,6 +158,6 @@ dostatečné vzdělávání a role předsedy senátu.
 
 **Jurisdikce a kritika**
 
-- [UK – EA právní rámec](@/kompendium/international/24-uk-law-EA/index.md) – porota a coercive control.
+- [UK – EA právní rámec](@/kompendium/international/24-uk-law-EA/index.md) – porota a [coercive control](@/glossary/coercive-control.md).
 - [USA – EA právní rámec](@/kompendium/international/25-us-law-EA/index.md) – poučení poroty v USA.
 - [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md) – mýty, které přenášejí vinu.

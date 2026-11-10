@@ -106,7 +106,7 @@ je odpovědností profesionála.
 - **Mlčenlivost jako štít.** Profesionál odmítá vypovídat s odkazem na mlčenlivost, nebo ji
   naopak porušuje ve svůj prospěch.
 - **Kolegiální loajalita.** Profesní orgány mohou mít sklon chránit vlastní členy.
-- **Retraumatizace v řízení**, kde klient musí podrobně popisovat intimní stránky vztahu.
+- **[Retraumatizace](@/glossary/retraumatizace.md) v řízení**, kde klient musí podrobně popisovat intimní stránky vztahu.
 
 ## Modelová situace (anonymizovaná)
 

@@ -109,7 +109,7 @@ dívka o sobě sdílela vše, o majiteli nevěděla ani skutečné jméno.
   standardního postupu pro hodnocení rizika ([akutní self-harm](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md))
   bez ohledu na to, co ho spustilo.
 - **Sexuální zneužívání.** Je nutné ho aktivně vyloučit, nikoli předpokládat ani přehlížet;
-  forenzní rozhovor vedl specializovaný pracovník.
+  [forenzní rozhovor](@/glossary/forensic-interview.md) vedl specializovaný pracovník.
 
 ## Intervenční strategie
 
@@ -126,7 +126,7 @@ přizpůsobené věku ([rekonstrukční protokol pro adolescenty](@/kompendium/r
   vrátit.
 - **S2 – Externalizace introjektů.** Pojmenování vět majitele, které si opakovala („nikdo jiný
   ti nerozumí“), a jejich odlišení od vlastního hlasu.
-- **S3 – Rekonstrukce metakognice.** Krátké a konkrétní: jak poznat, kdy online vztah
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Krátké a konkrétní: jak poznat, kdy online vztah
   vyžaduje tajemství, a proč je tajemství na žádost dospělého varovným signálem.
 - **S4 – Hermeneutická obnova.** Práce s vinou vůči kamarádce, podpořená setkáním obou dívek
   za přítomnosti psycholožky.

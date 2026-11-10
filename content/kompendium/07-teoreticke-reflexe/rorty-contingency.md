@@ -19,7 +19,7 @@ toc = true
 
 Richard Rorty (1931–2007) v *Philosophy and the Mirror of Nature* (1979) a zejména v *Contingency, Irony, and Solidarity* (1989) formuluje **neopragmatický antifoundacionalismus**: filozofie přestává hledat **fundamenty** poznání v esenci, pravdě nebo v „Naturé“. Filozofie je **kulturně-politickou konverzací**, jejíž hodnota je **performativní**, nikoli **fundacionalistická**.
 
-Pro kompendium EA představuje Rorty **produktivní napětí**: jeho antifoundacionalismus je strukturálně **kompatibilní** s některými foucaultovskými intuicemi ([viz 7.1 §1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)), ale strukturálně **napadá** normativní fundament kompendia.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) představuje Rorty **produktivní napětí**: jeho antifoundacionalismus je strukturálně **kompatibilní** s některými foucaultovskými intuicemi ([viz 7.1 §1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)), ale strukturálně **napadá** normativní fundament kompendia.
 
 ## 1. Trojí kontingence
 
@@ -31,7 +31,7 @@ Rortyho centrální teze: **kontingence** jazyka, self a komunity:
 
 Pro EA z toho plyne:
 
-- **Antifoundacionalistický náhled**: pojmy „EA techniky“, „epistemické trauma“ jsou strukturálně **kontingentními** kategorizacemi — neexistuje „přírodní třída“ EA technik.
+- **Antifoundacionalistický náhled**: pojmy „EA techniky“, „[epistemické trauma](@/glossary/epistemicke-trauma.md)“ jsou strukturálně **kontingentními** kategorizacemi — neexistuje „přírodní třída“ EA technik.
 - **Kompendium si je toho vědomo** (princip transparentní limitace) — taxonomie je **operativní**, nikoli **fundamentalistická**.
 - **Riziko Rortyho pozice**: pokud jsou všechny kategorizace **stejně** kontingentní, **nelze** preferovat jednu nad druhou. Kompendium zde **odbočuje** od Rortyho.
 
@@ -86,7 +86,7 @@ Kompendium absorbuje Rortyho užitečné motivy, ale **odmítá** jeho **silnou*
 | Sentimentální vzdělávání | Counter-EA | Pozitivní |
 | Filter bubbles | Anti-Rorty | Strukturální |
 | Liberální ironik | Model rezilience | Pozitivní |
-| Antifoundacionalistický skepticismus | Pseudo-skepse | EA-1.x |
+| Antifoundacionalistický [skepticismus](@/glossary/skepticismus.md) | Pseudo-skepse | EA-1.x |
 
 ## 7. Otevřené otázky
 

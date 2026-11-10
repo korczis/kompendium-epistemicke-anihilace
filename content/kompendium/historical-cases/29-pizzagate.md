@@ -5,6 +5,9 @@ description = "Konspirace z roku 2016, která z uniklých e-mailů „vyčetla�
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"
@@ -121,7 +124,7 @@ třeba se vyhnout dvojímu zjednodušení: že šlo jen o „hloupost“ jednotl
 
 ## Literatura
 
-- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network Propaganda: Manipulation,
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md): Manipulation,
   Disinformation, and Radicalization in American Politics*.
 - Phillips, W., & Milner, R. M. (2021). *You Are Here: A Field Guide for Navigating Polarized
   Speech, Conspiracy Theories, and Our Polluted Media Landscape*.

@@ -97,7 +97,7 @@ Pokud subjekt **přijme** binární rámec, jeho další uvažování operuje **
 | Problém **iniciálně** prezentován jako binární **bez** zdůvodnění | Strukturální falešné dilema |
 | **Žádné** explicitní vyjmenování alternativ mimo A a B | Vyloučení skrze opomenutí |
 | Subjekt **nemůže** rekonstruovat alternativní pozice | Internalizace falešného rámce |
-| **Aktivní delegitimizace** mezilehlých pozic ("centrism = nepřemýšlení") | Diagnostické chování |
+| **Aktivní [delegitimizace](@/glossary/delegitimizace.md)** mezilehlých pozic ("centrism = nepřemýšlení") | Diagnostické chování |
 | **Time pressure** kombinovaná s binární prezentací | Klasický vzorec |
 | Argumentace operuje **výhradně** v polárních termínech | Konsolidace |
 | Při dotazu na alternativu manipulátor **nemá** strukturovanou odpověď | Indikátor neexistujícího prostoru úvahy |
@@ -216,7 +216,7 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 ### Eskaluje do
 
 - **Kolektivní polarizace** — kolektivní falešné dilema indukuje **strukturální** polarizaci komunity.
-- **EA-1.6.1 Vzorec „Guru a adept“** — guru často rámec etabluje *jako* binární mezi „naším“ a „ostatními“.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru často rámec etabluje *jako* binární mezi „naším“ a „ostatními“.
 
 ### Hraniční / podobné
 
@@ -225,9 +225,9 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine multi-hypothesis tracking** — explicitní strukturální obrana: každé rozhodnutí ukládá **multiple hypotézy**, ne pouze „best vs. rest“.
+- **[Decision Engine](@/glossary/decision-engine.md) multi-hypothesis tracking** — explicitní strukturální obrana: každé rozhodnutí ukládá **multiple hypotézy**, ne pouze „best vs. rest“.
 - **NABLA Infinity epistemic divergence detection** — pokud kandidátní rozhodnutí konverguje na binární rámec přes nuancovanou evidenci, system **flagguje** anomálii.
-- **Color Teams Devil's Advocate role** — Red Team agenty mají strukturální mandát zpochybnit binární rámce.
+- **Color Teams Devil's Advocate role** — [Red Team](@/glossary/red-team.md) agenty mají strukturální mandát zpochybnit binární rámce.
 
 ## Související
 

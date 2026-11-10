@@ -29,7 +29,7 @@ Glossary entry slouží jako kanonický referenční bod platformy; bridge člá
 Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 04 — Adversariální vzorce**: operativní mechanismy rozkladu
-- **Sekce 06 — Klinické aplikace**: diferenciace od PTSD a komplexního traumatu
+- **Sekce 06 — Klinické aplikace**: [diferenciace](@/glossary/diferenciace.md) od PTSD a komplexního traumatu
 - **Sekce 07 — Teoretické pozadí**: vztah k Arendtové totální dominaci
 - **Per-technique: Counter-Anihilation Protocol**: obnova kognitivní suverenity
 
@@ -39,7 +39,7 @@ Každý z těchto výskytů přidává specifickou perspektivu — operativní p
 
 | Subjekt | Vztah | Objekt |
 |---------|-------|--------|
-| **Kognitivní anihilace** | cílí na | Aparát rozlišování (kategorie, paměť, metakognice) |
+| **Kognitivní anihilace** | cílí na | Aparát rozlišování (kategorie, paměť, [metakognice](@/glossary/metakognice.md)) |
 | **Kognitivní anihilace** | produkuje | Neschopnost subjektu formulovat vlastní zkušenost |
 | **Kognitivní anihilace** | kontrastuje s | Dezinformací (která sdílí kognitivní rámec) |
 

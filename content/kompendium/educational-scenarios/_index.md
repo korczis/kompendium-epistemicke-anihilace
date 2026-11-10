@@ -72,7 +72,7 @@ jednotlivě, ale pokročilé předpokládají znalost základních.
 - [Injekce narativu](@/kompendium/educational-scenarios/15-narrative-injection.md) – připravený rámec v obecní diskusi
 - [Detekce deepfake](@/kompendium/educational-scenarios/16-deepfake-detection.md) – technické i kontextové ověření syntetických médií
 - [Koordinace botů](@/kompendium/educational-scenarios/17-bot-coordination.md) – koordinované neautentické chování v datech
-- [Náborové techniky kultu](@/kompendium/educational-scenarios/18-cult-recruitment.md) – fáze náboru a BITE model
+- [Náborové techniky kultu](@/kompendium/educational-scenarios/18-cult-recruitment.md) – fáze náboru a [BITE model](@/glossary/bite-model.md)
 - [Vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md) – soustavné zpochybňování reality ve vztahu
 - [Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) – popření, útok a obrácení rolí při šetření
 

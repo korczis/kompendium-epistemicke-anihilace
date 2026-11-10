@@ -5,6 +5,9 @@ description = "Sin-ťiang od roku 2017: hromadné zadržování Ujgurů a dalš�
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"
@@ -92,7 +95,7 @@ podávali informace. Strach o blízké doma umlčuje svědky venku – nadnárod
 
 ### Spor o realitu
 
-Oficiální propaganda zveřejňovala videa „spokojených absolventů“ a vystoupení příbuzných, kteří
+Oficiální [propaganda](@/glossary/propaganda.md) zveřejňovala videa „spokojených absolventů“ a vystoupení příbuzných, kteří
 popírali výpovědi svých rodinných příslušníků v exilu. Vzniká konflikt verzí, v němž je
 publikum vedeno k závěru, že pravdu nelze zjistit – srov. [indukovanou
 pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md).
@@ -140,7 +143,7 @@ popisuje doložené mechanismy převýchovy a dohledu, nikoli konečné právní
 - Human Rights Watch (2018): *„Eradicating Ideological Viruses“: China's Campaign of Repression Against Xinjiang's Muslims*.
 - Human Rights Watch (2019): *China's Algorithms of Repression*.
 - Darren Byler (2021): *In the Camps: China's High-Tech Penal Colony*.
-- Robert J. Lifton (1961): *Thought Reform and the Psychology of Totalism* – historický rámec čínské převýchovy.
+- Robert J. Lifton (1961): *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* – historický rámec čínské převýchovy.
 
 ## Související
 

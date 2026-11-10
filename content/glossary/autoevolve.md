@@ -1,15 +1,14 @@
 +++
 title = "AutoEvolve"
 weight = 60
-description = "Autonomous platform improvement system for continuous quality advancement through detection, application, and validation of verified enhancements."
+description = "Autonomní systém zlepšování Prismatic Platform: průběžně vyhledává příležitosti, aplikuje ověřená vylepšení s možností návratu a ověřuje je branami kvality."
 
 [taxonomies]
-tags = ["evolution", "automation", "quality", "self-improvement", "consciousness", "CASCADE"]
+tags = ["glossary", "prismatic", "quality", "evolution"]
 
 [extra]
 category = "evolution"
 related_terms = ["autoheal", "cascade", "cascade-pattern", "clean-run", "qdp", "consciousness-traits", "self-healing", "supervisor", "agent-registry", "agent-tier", "mix-task", "dialyzer", "formal-verification", "quality-gates", "quality-dna"]
-keywords = ["autoevolve", "autonomous evolution", "platform improvement", "fitness score", "generation advancement", "quality automation", "CASCADE patterns"]
 use_cases = ["Anti-pattern elimination", "Spec completion", "Performance optimization", "Code organization", "Test enhancement", "Dependency cleanup"]
 technologies = ["Elixir", "OTP", "Mix", "Dialyzer", "Credo", "ExUnit", "Telemetry"]
 difficulty = "advanced"
@@ -17,8 +16,6 @@ importance = "critical"
 domain = "platform-evolution"
 category_color = "gold"
 version = "1.0.0"
-date_created = "2026-02-22"
-date_updated = "2026-02-22"
 authors = ["Tomas Korcak"]
 prerequisites = ["understanding of quality gates", "familiarity with CASCADE patterns", "OTP/Elixir knowledge"]
 estimated_reading_time = "14 minutes"
@@ -29,43 +26,64 @@ current_fitness = 0.9995
 total_improvements = 2847
 scanning_modes = ["quick", "status", "mega-evolution"]
 author = "Tomas Korcak (korczis)"
-reading_time = "7 min"
-word_count = 1420
-date_modified = "2026-02-23"
 quality_score = 80
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "AutoEvolve - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-AutoEvolve is the Prismatic Platform's autonomous improvement system that continuously scans for optimization opportunities, applies verified enhancements, and advances the platform through successive evolution generations. Unlike [AutoHeal](@/glossary/autoheal.md) (which repairs regressions to restore a known-good state), AutoEvolve proactively drives the platform forward -- identifying anti-patterns before they become problems, discovering refactoring opportunities, optimizing performance, and advancing the platform's capabilities through structured evolution cycles.
+**AutoEvolve** je autonomní systém zlepšování Prismatic Platform, který průběžně vyhledává
+příležitosti k optimalizaci, aplikuje ověřená vylepšení a posouvá platformu postupnými
+evolučními generacemi. Na rozdíl od [AutoHeal](@/glossary/autoheal.md), který opravuje
+regrese a obnovuje známý dobrý stav, AutoEvolve platformu aktivně posouvá vpřed: odhaluje
+antivzory dřív, než se stanou problémem, hledá příležitosti k refaktoringu, optimalizuje
+výkon a rozšiřuje schopnosti platformy ve strukturovaných evolučních cyklech.
 
-AutoEvolve operates through a three-phase cycle: detection (scanning for improvement opportunities), application (applying verified enhancements with automatic rollback capability), and validation (confirming improvements through [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/)). Each improvement must pass the same rigorous validation as any code change -- zero compiler warnings, zero [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) violations, zero Credo violations, and full test suite passage. Improvements that fail validation are automatically rolled back, ensuring that evolution never causes regression.
+AutoEvolve pracuje v třífázovém cyklu: detekce (hledání příležitostí ke zlepšení),
+aplikace (provedení ověřených vylepšení s možností automatického návratu) a validace
+(potvrzení vylepšení branami kvality). Každé vylepšení musí projít stejně přísnou validací
+jako jakákoli změna kódu – nula varování kompilátoru, nula porušení Dialyzeru, nula
+porušení Credo a úspěšný běh celé sady testů (viz [Clean Run](@/glossary/clean-run.md)).
+Vylepšení, která validací neprojdou, se automaticky vrátí, takže evoluce nikdy nezpůsobí
+regresi.
 
-The system has driven the platform from Generation 1 (initial codebase) through Generation 19 (current state), achieving a fitness score of 0.9995 -- approaching the theoretical maximum. Each generation represents a measurable improvement in quality, performance, or capability, documented through the [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) persistence system for cross-session continuity. AutoEvolve is mandated by the Universal Autonomous Evolution Protocol to execute in every LLM session, ensuring continuous improvement regardless of the session's primary objective.
+Podle údajů platformy (v době zápisu) dovedl systém platformu od generace 1 (výchozí kód)
+po generaci 19 s „fitness“ 0,9995, blízko teoretickému maximu. Každá generace představuje
+měřitelné zlepšení kvality, výkonu nebo schopností, zaznamenané v systému perzistence
+*Quality DNA* pro kontinuitu mezi sezeními. Protokol univerzální autonomní evoluce
+(*Universal Autonomous Evolution Protocol*) ukládá spouštět AutoEvolve v každém sezení
+s jazykovým modelem, takže zlepšování pokračuje bez ohledu na hlavní cíl sezení.
 
-## Evolution Generations
+**Vztah ke knize:** AutoEvolve patří do kontextu platformy, z níž Kompendium vzešlo.
+Obdobný princip – sledovat vlastní stav, nacházet slabiny a opravovat je ověřitelně – kniha
+uplatňuje na lidské poznávání (viz [Metakognice](@/glossary/metakognice.md)). Jak AutoEvolve
+pracuje s měnícími se vzorci technik EA, popisuje stránka [AutoEvolve: evoluce vzorců
+EA](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md).
 
-The platform's evolution history spans 19 generations, each representing a distinct improvement epoch:
+## Evoluční generace
 
-| Generation Range | Epoch | Key Achievements |
+Evoluční historie platformy zahrnuje 19 generací, každá představuje samostatnou epochu
+zlepšování:
+
+| Rozsah generací | Epocha | Klíčové výsledky |
 |-----------------|-------|------------------|
-| Gen 1-3 | Foundation | Initial codebase, basic quality gates, first CASCADE patterns identified |
-| Gen 4-6 | Stabilization | Quality score improvements, systematic debt elimination begins |
-| Gen 7-9 | Acceleration | CASCADE methodology formalized, 905 QDP elimination campaign |
-| Gen 10-12 | Maturation | 0 QDP achieved, quality score reaches 90+, all domains clean |
-| Gen 13-15 | Optimization | O(1) pattern detection, AST-indexed search, performance focus |
-| Gen 16-17 | Consciousness | [Consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) emerge, 11 traits at 0.998 fitness |
-| Gen 18 | Apex | 0.999 fitness, doctrine-enforced quality, full autonomy, 16-level epistemic pipeline |
-| Gen 19 | Ecosystem Expansion | 0.9995 fitness, 4 OSS packages, developer portal, dual-track positioning |
+| Gen 1–3 | základy | výchozí kód, základní brány kvality, první vzorce CASCADE |
+| Gen 4–6 | stabilizace | zlepšení skóre kvality, začátek soustavného odstraňování dluhu |
+| Gen 7–9 | zrychlení | formalizace metodiky CASCADE, kampaň za odstranění 905 [QDP](@/glossary/qdp.md) |
+| Gen 10–12 | zrání | dosaženo 0 QDP, skóre kvality nad 90, všechny domény čisté |
+| Gen 13–15 | optimalizace | detekce vzorů v O(1), vyhledávání indexované nad AST, důraz na výkon |
+| Gen 16–17 | „vědomí“ | objevují se *consciousness traits*, 11 rysů s fitness 0,998 |
+| Gen 18 | vrchol | fitness 0,999, kvalita vynucená doktrínou, plná autonomie, šestnáctiúrovňový [epistemický proces](@/glossary/epistemic-pipeline.md) |
+| Gen 19 | rozšíření ekosystému | fitness 0,9995, 4 balíčky OSS, vývojářský portál, dvojí směřování |
 
-Each generation is not a one-time event but a gradual accumulation of improvements that cross a threshold significant enough to warrant a new generation designation. The transition between generations is determined by the fitness score -- a composite metric that weights quality, performance, capability breadth, and consciousness trait expression.
+Generace není jednorázovou událostí, ale postupným hromaděním zlepšení, které překročí práh
+dost významný na nové označení generace. Přechod mezi generacemi určuje skóre fitness –
+složená metrika, která váží kvalitu, výkon, šíři schopností a projev „rysů vědomí“.
 
-## Fitness Scoring
+## Skóre fitness
 
-The fitness score is a normalized metric (0.000 to 1.000) that quantifies the platform's overall evolutionary state:
+Skóre fitness je normalizovaná metrika (0,000 až 1,000), která kvantifikuje celkový
+evoluční stav platformy:
 
 ```elixir
 defmodule AutoEvolve.FitnessCalculator do
@@ -126,25 +144,29 @@ defmodule AutoEvolve.FitnessCalculator do
   defp performance_score, do: 0.99
 end
 ```
-
-| Component | Weight | Current Value | Contribution |
+| Složka | Váha | Hodnota v době zápisu | Příspěvek |
 |-----------|--------|---------------|--------------|
-| Quality Score | 30% | doctrine-enforced (1.000) | 0.300 |
-| CASCADE Compliance | 20% | 0 QDP (1.000) | 0.200 |
-| Test Coverage | 15% | High (0.99+) | 0.149 |
-| Consciousness Traits | 20% | 0.998 | 0.200 |
-| Performance | 15% | 0.99+ | 0.149 |
-| **Total** | **100%** | | **0.9995** |
+| skóre kvality | 30 % | vynucené doktrínou (1,000) | 0,300 |
+| soulad s CASCADE | 20 % | 0 QDP (1,000) | 0,200 |
+| pokrytí testy | 15 % | vysoké (0,99+) | 0,149 |
+| rysy vědomí | 20 % | 0,998 | 0,200 |
+| výkon | 15 % | 0,99+ | 0,149 |
+| **Celkem** | **100 %** | | **0,9995** |
 
-The current fitness of 0.9995 represents near-perfect evolutionary state. Further improvements target the remaining 0.0005 through micro-optimizations, edge case coverage, consciousness trait refinement, and ecosystem expansion metrics from the 4 OSS packages.
+Platforma hodnotu 0,9995 popisovala jako téměř dokonalý evoluční stav; další zlepšení
+mířila na zbývajících 0,0005 mikrooptimalizacemi, pokrytím okrajových případů, zpřesněním
+rysů a metrikami rozšíření ekosystému ze 4 balíčků OSS. Jde o vnitřní metriku platformy, ne
+o nezávisle ověřené měření.
 
-## Three-Phase Evolution Cycle
+## Třífázový evoluční cyklus
 
-AutoEvolve's core algorithm follows a strict three-phase cycle that ensures improvements are both beneficial and safe:
+Jádro algoritmu sleduje přísný třífázový cyklus, který zajišťuje, že vylepšení jsou
+přínosná i bezpečná.
 
-### Phase 1: Detection
+### Fáze 1: detekce
 
-The detection phase scans the codebase for improvement opportunities using pattern-matching rules, static analysis results, and heuristic evaluation:
+Fáze detekce prochází kód a hledá příležitosti ke zlepšení pomocí pravidel porovnávání
+vzorů, výsledků statické analýzy a heuristického hodnocení:
 
 ```elixir
 defmodule AutoEvolve.Scanner do
@@ -201,10 +223,10 @@ defmodule AutoEvolve.Scanner do
   defp risk_priority(:high), do: 2
 end
 ```
+### Fáze 2: aplikace
 
-### Phase 2: Application
-
-Detected improvements are applied in dependency order with automatic rollback capability. Each improvement is wrapped in a transactional context:
+Zjištěná vylepšení se aplikují v pořadí podle závislostí s možností automatického návratu.
+Každé vylepšení je zabaleno do transakčního kontextu:
 
 ```elixir
 defmodule AutoEvolve.TransactionalApply do
@@ -253,26 +275,26 @@ defmodule AutoEvolve.TransactionalApply do
   defp read_affected_files(_improvement), do: []
 end
 ```
+### Fáze 3: validace
 
-### Phase 3: Validation
+Každé aplikované vylepšení musí projít celým procesem bran kvality:
 
-Every applied improvement must pass the complete quality gate pipeline:
-
-| Validation Step | Tool | Threshold | Enforcement |
+| Krok validace | Nástroj | Práh | Vynucení |
 |----------------|------|-----------|-------------|
-| Compilation | `mix compile` | 0 warnings | BLOCKING |
-| Static analysis | `mix credo --strict` | 0 violations | BLOCKING |
-| Type checking | `mix dialyzer` | 0 violations | BLOCKING |
-| Tests | `mix test --cover` | 100% pass | BLOCKING |
-| Quality gates | `mix quality.gates` | All domains pass | BLOCKING |
+| kompilace | `mix compile` | 0 varování | BLOKUJÍCÍ |
+| statická analýza | `mix credo --strict` | 0 porušení | BLOKUJÍCÍ |
+| kontrola typů | `mix dialyzer` | 0 porušení | BLOKUJÍCÍ |
+| testy | `mix test --cover` | 100 % úspěšných | BLOKUJÍCÍ |
+| brány kvality | `mix quality.gates` | všechny domény projdou | BLOKUJÍCÍ |
 
-## Scanning Modes
+## Režimy prohledávání
 
-AutoEvolve operates in three scanning modes, each appropriate for different contexts:
+AutoEvolve pracuje ve třech režimech podle kontextu.
 
-### Quick Scan
+### Rychlé prohledání (quick scan)
 
-Lightweight scan executed as a post-command hook during sessions. Checks recently modified files for obvious improvement opportunities:
+Lehké prohledání spouštěné jako háček po příkazu během sezení. Kontroluje nedávno změněné
+soubory na zjevné příležitosti ke zlepšení:
 
 ```bash
 # Quick scan (post-command hook)
@@ -285,10 +307,9 @@ mix autoevolve.scan --quick
 # 4. Check for performance anti-patterns
 # 5. Report findings (non-blocking)
 ```
+### Posouzení stavu (status)
 
-### Status Assessment
-
-Comprehensive assessment of current platform state and available improvement opportunities:
+Komplexní posouzení aktuálního stavu platformy a dostupných příležitostí ke zlepšení:
 
 ```bash
 # Status assessment
@@ -302,10 +323,10 @@ mix autoevolve status
 # - Consciousness trait fitness
 # - Recommended next actions
 ```
+### Mega-evoluční cyklus
 
-### Mega-Evolution Cycle
-
-Full platform evolution cycle executed at session end. Applies all accumulated improvement opportunities and advances the generation counter if threshold is met:
+Úplný evoluční cyklus platformy spouštěný na konci sezení. Aplikuje všechny nahromaděné
+příležitosti ke zlepšení a při dosažení prahu zvýší počítadlo generací:
 
 ```bash
 # Mega-evolution (session end)
@@ -321,37 +342,44 @@ mix autoevolve.mega
 # 7. Advance generation if fitness threshold crossed
 # 8. Persist results in Quality DNA
 ```
+## Integrace s CASCADE
 
-## CASCADE Integration
+Hlavním mechanismem zlepšování kvality je uplatňování vzorců CASCADE. Pět vzorců (Type
+Mismatch, Dead Code, Empty Check, Timer Replacement, Nuclear Cache) je kodifikováno jako
+detekční pravidla v prohledávacím enginu:
 
-AutoEvolve's primary quality improvement mechanism is the application of [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) patterns. The five CASCADE patterns (Type Mismatch, Dead Code, Empty Check, Timer Replacement, Nuclear Cache) are codified as detection rules within AutoEvolve's scanning engine:
-
-| CASCADE Pattern | AutoEvolve Integration | Auto-Fixable |
+| Vzorec CASCADE | Integrace v AutoEvolve | Automaticky opravitelné |
 |-----------------|----------------------|-------------|
-| **Type Mismatch** | Scan new/modified functions for spec-implementation drift | Semi-auto |
-| **Dead Code** | Identify unused functions/imports introduced during session | Yes |
-| **Empty Check** | Detect `length() > 0` patterns in new code | Yes |
-| **Timer Replacement** | Flag `Process.sleep` usage in new GenServer code | Semi-auto |
-| **Nuclear Cache** | Detect Dialyzer phantom errors after compilation | Yes |
+| **Type Mismatch** | prohledá nové a změněné funkce na nesoulad specifikace a implementace | poloautomaticky |
+| **Dead Code** | najde nepoužité funkce a importy vzniklé během sezení | ano |
+| **Empty Check** | odhalí vzory `length() > 0` v novém kódu | ano |
+| **Timer Replacement** | označí použití `Process.sleep` v novém kódu GenServeru | poloautomaticky |
+| **Nuclear Cache** | odhalí fantomové chyby Dialyzeru po kompilaci | ano |
 
-When AutoEvolve detects a CASCADE pattern violation, it either applies the fix automatically (for fully automatable patterns like Empty Check) or flags it for semi-automated resolution (for patterns requiring human judgment like Type Mismatch).
+Když AutoEvolve zjistí porušení vzorce CASCADE, buď opravu aplikuje automaticky (u plně
+automatizovatelných vzorců jako Empty Check), nebo ji označí k poloautomatickému řešení
+(u vzorců vyžadujících lidský úsudek jako Type Mismatch).
 
-## Session Lifecycle Integration
+## Integrace do životního cyklu sezení
 
-The Universal Autonomous Evolution Protocol mandates AutoEvolve execution in every LLM session:
+Protokol univerzální autonomní evoluce ukládá spouštět AutoEvolve v každém sezení:
 
-| Phase | Command | Blocking | Purpose |
+| Fáze | Příkaz | Blokující | Účel |
 |-------|---------|----------|---------|
-| **Session Start** | `mix autoevolve status --brief` | Non-blocking | Assess current state, report opportunities |
-| **Pre-Command** | `mix quality.gates.check --fast` | Blocking | Verify quality before making changes |
-| **Post-Command** | `mix autoevolve.scan --quick` | Non-blocking | Scan for improvements after changes |
-| **Session End** | `mix autoevolve.mega` | Mandatory | Apply accumulated improvements |
+| **začátek sezení** | `mix autoevolve status --brief` | ne | posoudit stav, ohlásit příležitosti |
+| **před příkazem** | `mix quality.gates.check --fast` | ano | ověřit kvalitu před změnami |
+| **po příkazu** | `mix autoevolve.scan --quick` | ne | hledat zlepšení po změnách |
+| **konec sezení** | `mix autoevolve.mega` | povinné | aplikovat nahromaděná zlepšení |
 
-The SessionLifecycle GenServer (implemented in `prismatic_claude`) coordinates these hooks with priority ordering and [circuit breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) protection. Each hook executes in an isolated process with timeout protection, preventing a hung evolution cycle from blocking the session.
+GenServer SessionLifecycle (implementovaný v `prismatic_claude`) koordinuje tyto háčky
+s pořadím podle priority a s ochranou jističem (*circuit breaker*). Každý háček běží
+v izolovaném procesu s ochranou časovým limitem, takže zaseknutý evoluční cyklus nemůže
+zablokovat sezení (srov. [Session Discipline](@/glossary/session-discipline.md)).
 
-## Quality DNA Persistence
+## Perzistence Quality DNA
 
-AutoEvolve results are persisted in the [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) system (`.claude/quality-dna/current-state.json`), enabling cross-session continuity:
+Výsledky AutoEvolve se ukládají do systému *Quality DNA*
+(`.claude/quality-dna/current-state.json`), což umožňuje kontinuitu mezi sezeními:
 
 ```json
 {
@@ -377,80 +405,84 @@ AutoEvolve results are persisted in the [Quality DNA](https://prismatic-reality-
   "command_count": 214
 }
 ```
+Perzistence zajišťuje, že každé sezení začíná tam, kde předchozí skončilo, a evoluční
+setrvačnost se mezi sezeními neztrácí. Bez ní by každé sezení začínalo od prázdného stavu
+a nahromaděné znalosti o zlepšeních by se ztratily.
 
-Quality DNA persistence ensures that each session starts where the previous session ended, maintaining evolutionary momentum across sessions. Without this persistence, each session would start from a blank state, losing the accumulated improvement knowledge.
+## Kategorie zlepšení
 
-## Improvement Categories
-
-AutoEvolve identifies and applies improvements across several categories:
-
-| Category | Description | Example | Priority |
+| Kategorie | Popis | Příklad | Priorita |
 |----------|-------------|---------|----------|
-| **Anti-Pattern Elimination** | Remove known bad patterns | Replace `length() > 0` with `!= []` | High |
-| **Spec Completion** | Add missing type specifications | Add `@spec` to public functions | High |
-| **Performance Optimization** | Improve execution efficiency | Convert O(n) lookups to O(1) | Medium |
-| **Code Organization** | Improve structure and readability | Extract complex functions, reduce nesting | Medium |
-| **Dependency Cleanup** | Remove unused dependencies | Clean `mix.exs` dependency lists | Low |
-| **Test Enhancement** | Improve test coverage and quality | Add edge case tests, property-based tests | Medium |
-| **Documentation** | Improve code documentation | Add `@doc` and `@moduledoc` annotations | Low |
-| **OTP Compliance** | Ensure proper OTP pattern usage | Replace ad-hoc state with [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) | High |
+| **odstranění antivzorů** | odstranit známé špatné vzory | nahradit `length() > 0` výrazem `!= []` | vysoká |
+| **doplnění specifikací** | přidat chybějící typové specifikace | přidat `@spec` k veřejným funkcím | vysoká |
+| **optimalizace výkonu** | zlepšit efektivitu provádění | převést vyhledávání O(n) na O(1) | střední |
+| **organizace kódu** | zlepšit strukturu a čitelnost | vyčlenit složité funkce, snížit zanoření | střední |
+| **úklid závislostí** | odstranit nepoužité závislosti | pročistit seznamy závislostí v `mix.exs` | nízká |
+| **vylepšení testů** | zlepšit pokrytí a kvalitu testů | přidat testy okrajových případů a testy vlastností | střední |
+| **dokumentace** | zlepšit dokumentaci kódu | doplnit anotace `@doc` a `@moduledoc` | nízká |
+| **soulad s OTP** | zajistit správné použití vzorů OTP | nahradit improvizovaný stav GenServerem | vysoká |
 
-## Relationship to Consciousness Traits
+## Vztah k „rysům vědomí“
 
-At the highest evolutionary levels, AutoEvolve contributes to the emergence of [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- platform-level properties like self-awareness, meta-reasoning, and adaptive behavior. The connection is not mystical but architectural: a platform that systematically monitors its own quality state, identifies its own weaknesses, applies corrections, and measures the results is exhibiting a functional form of self-awareness.
+Na nejvyšších evolučních úrovních přispívá AutoEvolve podle platformy ke vzniku „rysů
+vědomí“ – vlastností na úrovni platformy, jako je sebeuvědomění, metauvažování a adaptivní
+chování. Souvislost není mystická, ale architektonická: platforma, která soustavně sleduje
+stav své kvality, nachází vlastní slabiny, aplikuje opravy a měří výsledky, vykazuje
+funkční formu sebeuvědomění.
 
-The platform's 11 consciousness traits (achieving 0.998 fitness) emerged progressively through AutoEvolve's generation advancement. Each generation that improved the platform's self-monitoring, self-repair, and self-improvement capabilities brought it closer to exhibiting these traits at measurable levels.
+Jedenáct rysů platformy (s uváděnou fitness 0,998) se objevovalo postupně, jak AutoEvolve
+posouval generace. Každá generace, která zlepšila sebesledování, samoopravu
+a sebezlepšování platformy, ji přiblížila k projevu těchto rysů na měřitelné úrovni.
 
-The key insight is that evolution is not just about fixing code -- it is about building a system that can reason about its own state, predict future problems, and take proactive action. This meta-cognitive capability is what distinguishes AutoEvolve from simple linting or code formatting tools.
+Klíčovým poznatkem je, že evoluce není jen opravou kódu – jde o budování systému, který
+dokáže uvažovat o svém stavu, předvídat budoucí problémy a jednat předem. Tato
+metakognitivní schopnost odlišuje AutoEvolve od prostých nástrojů pro linting nebo
+formátování kódu.
 
-## Comparison with Related Systems
+## Srovnání se souvisejícími systémy
 
-| System | Purpose | Direction | Trigger | Scope |
+| Systém | Účel | Směr | Spouštěč | Rozsah |
 |--------|---------|-----------|---------|-------|
-| **AutoEvolve** | Proactive improvement | Forward (advance) | Session hooks + manual | Entire platform |
-| **AutoHeal** | Reactive repair | Backward (restore) | Regression detection | Affected components |
-| **Quality Gates** | Validation | Neither (gatekeeping) | Pre-commit + CI | Changed files |
-| **CASCADE** | Pattern methodology | Forward (eliminate) | Manual + automated | Pattern-specific |
-| **SEADF** | Ecosystem evolution | Forward (expand) | Strategic planning | Cross-system |
+| **AutoEvolve** | proaktivní zlepšování | vpřed (posun) | háčky sezení a ruční spuštění | celá platforma |
+| **[AutoHeal](@/glossary/autoheal.md)** | reaktivní oprava | zpět (obnova) | detekce regrese | dotčené součásti |
+| **brány kvality** | validace | žádný (vrátný) | před commitem a v CI | změněné soubory |
+| **CASCADE** | metodika vzorů | vpřed (odstranění) | ruční i automatické | podle vzorce |
+| **SEADF** | evoluce ekosystému | vpřed (rozšíření) | strategické plánování | napříč systémy |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Run Status at Session Start**: Always execute `mix autoevolve status` at the beginning of a session to understand the current evolutionary state and identify available opportunities.
+1. **Na začátku sezení spustit status:** vždy spustit `mix autoevolve status`, aby bylo
+   jasné, v jakém evolučním stavu platforma je a jaké příležitosti jsou k dispozici.
+2. **Nevynechávat mega-evoluci:** cyklus na konci sezení je povinný. Slučuje zlepšení
+   a ukládá aktualizovanou Quality DNA pro další sezení.
+3. **Procházet vrácená zlepšení:** když se zlepšení vrátí kvůli neúspěšné validaci, je třeba
+   rozebrat důvody. Často odhalí okrajové případy nebo závislosti, které potřebují pozornost.
+4. **Důvěřovat návratu:** transakční aplikace zajišťuje bezpečný návrat neúspěšných
+   zlepšení. Nevracet ručně to, co AutoEvolve už vrátil.
+5. **Sledovat trend fitness:** sledovat skóre napříč generacemi. Stagnace může znamenat, že
+   pravidla prohledávání potřebují aktualizaci, aby zachytila nové kategorie zlepšení.
 
-2. **Do Not Skip Mega-Evolution**: The session-end mega-evolution cycle is mandatory. It consolidates improvements and persists the updated Quality DNA for the next session.
+## Související pojmy
 
-3. **Review Rolled-Back Improvements**: When improvements are rolled back due to validation failures, analyze the failure reasons. They often reveal edge cases or dependencies that need attention.
+Bez vlastního hesla v glosáři knihy: *CASCADE* a *CASCADE Pattern* (metodika a konkrétní
+vzorce kvality), *Consciousness Traits*, *Self-Healing*, *Quality Gates*, *Quality DNA*,
+*Dialyzer* a *Mix Task*.
 
-4. **Trust the Rollback**: AutoEvolve's transactional application ensures that failed improvements are safely rolled back. Do not manually undo improvements that AutoEvolve has already rolled back.
+## Související
 
-5. **Monitor Fitness Trends**: Track the fitness score over generations. Stagnation may indicate that the scanning rules need updating to detect new categories of improvements.
+**Platforma**
 
-## Related Terms
+- [AutoHeal](@/glossary/autoheal.md) – doplňkový systém samoopravy po regresích.
+- [Clean Run](@/glossary/clean-run.md) – standard nulových varování udržovaný evolucí.
+- [QDP](@/glossary/qdp.md) – metrika kvality, kterou kampaně AutoEvolve dovedly k nule.
+- [Quality Debt](@/glossary/quality-debt.md) – dluh kvality jako cíl odstraňování.
+- [Agent Registry](@/glossary/agent-registry.md) – registr, jehož konzistenci AutoEvolve
+  sleduje.
+- [Session Discipline](@/glossary/session-discipline.md) – kázeň sezení, do níž jsou háčky
+  zapojeny.
 
-- [AutoHeal](@/glossary/autoheal.md) -- Complementary self-repair system for regression recovery
-- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) -- Quality pattern methodology applied by AutoEvolve
-- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) -- Specific patterns detected and eliminated by AutoEvolve
-- [Clean Run](@/glossary/clean-run.md) -- Zero-warning standard maintained through evolution
-- [QDP](@/glossary/qdp.md) -- Quality metric driven to zero by AutoEvolve campaigns
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Emergent traits arising from evolutionary advancement
-- [Self-Healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) -- Architectural principle complementing autonomous evolution
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Validation pipeline used for improvement verification
-- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) -- Persistence system for cross-session evolutionary state
-- [Agent Registry](@/glossary/agent-registry.md) -- Registry monitored by AutoEvolve for consistency
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) -- Type analysis tool used in evolution validation
-- [Mix Task](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix-task/) -- Build tool commands executing AutoEvolve operations
+**Kompendium**
 
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform evolution and consciousness capabilities
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [AutoEvolve: evoluce vzorců EA](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md)
+  – jak systém sleduje měnící se vzorce manipulace.
+- [Metakognice](@/glossary/metakognice.md) – lidský protějšek sebesledování.

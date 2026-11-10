@@ -1,6 +1,6 @@
 +++
 title = "3.2 Scénáře epistemické delegitimizace"
-description = "Komplexní scénáře A–I systematické delegitimizace epistemických kapacit a autorit jedince i skupiny — koherentní sekvence koordinovaných interakcí narušujících epistemickou integritu, s temporální analýzou pěti fází (incepční, perturbační, rekonfigurační, konsolidační, expanzivní) a strukturálními předpoklady efektivní delegitimizace."
+description = "Komplexní scénáře A–I systematické delegitimizace epistemických kapacit a autorit jedince i skupiny."
 weight = 2
 insert_anchor_links = "right"
 
@@ -21,7 +21,7 @@ Na rozdíl od izolovaných technik [Kapitoly 1](@/kompendium/03-zakladni-kategor
 
 ## Teoretické základy
 
-**Epistemická delegitimizace** = systematický proces zpochybňování, podkopávání a eventuální destrukce epistemické autority, kredibility a kapacity jedince nebo skupiny. Před detailní analýzou scénářů je nezbytné porozumět fundamentálním teoretickým mechanismům — víceúrovňové dynamice, temporálním fázím a strukturálním předpokladům.
+**Epistemická [delegitimizace](@/glossary/delegitimizace.md)** = systematický proces zpochybňování, podkopávání a eventuální destrukce epistemické autority, kredibility a kapacity jedince nebo skupiny. Před detailní analýzou scénářů je nezbytné porozumět fundamentálním teoretickým mechanismům — víceúrovňové dynamice, temporálním fázím a strukturálním předpokladům.
 
 ### Víceúrovňová dynamika
 
@@ -30,7 +30,7 @@ Epistemická delegitimizace operuje simultánně na čtyřech úrovních, jež s
 | Úroveň | Mechanismus | Typický indikátor |
 |--------|-------------|--------------------|
 | **Individuální kognitivní** | Narušení specifických epistemických procesů a self-perception kompetence | Epistemická úzkost, sebepochybnost |
-| **Interpersonální sociální** | Rekonfigurace sociálních epistemických vztahů a důvěryhodnosti | Sociální izolace, ztráta validátorů |
+| **Interpersonální sociální** | Rekonfigurace sociálních epistemických vztahů a důvěryhodnosti | [Sociální izolace](@/glossary/socialni-izolace.md), ztráta validátorů |
 | **Institucionální strukturální** | Modifikace formálních a neformálních legitimizačních mechanismů | Změna evaluačních kritérií, peer review |
 | **Kulturní diskurzivní** | Transformace narativů — co je "validní poznání", kdo je "legitimní subjekt" | Posun klíčových termínů, rámců |
 
@@ -85,7 +85,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 
 **Cíl**: Jednotlivec — typicky odborník nebo svědek s nepříjemnými poznatky.
 
-**Mechanismus**: Systematická diskvalifikace formálních kvalifikací, profesní pověsti a metodologické rigorózity. Často kombinuje EA-1.2.2 (falešná ekvivalence) s ad hominem útoky a institucionálním tlakem. Tento scénář je strukturálně izomorfní s Frickerovým konceptem **testimoniální nespravedlnosti** — předsudečné snížení kredibility svědka — rozšířeným o systematické technické komponenty.
+**Mechanismus**: Systematická diskvalifikace formálních kvalifikací, profesní pověsti a metodologické rigorózity. Často kombinuje [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) (falešná ekvivalence) s ad hominem útoky a institucionálním tlakem. Tento scénář je strukturálně izomorfní s Frickerovým konceptem **testimoniální nespravedlnosti** — předsudečné snížení kredibility svědka — rozšířeným o systematické technické komponenty.
 
 **Strukturální charakteristiky A**:
 
@@ -107,7 +107,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 
 **Cíl**: Student/mentee v asymetrickém vzdělávacím vztahu.
 
-**Mechanismus**: Kompoziční vzorec „Guru a adept“ + EA-1.4.2 (latentní emocionální modulace) + EA-1.1.1 (selektivní expozice ke „schválené“ literatuře). Postupné etablování epistemické závislosti na mentora vede k frequently neproduktivní [epistemické alienaci](@/glossary/epistemicka-alienace.md). Tento scénář je distinktní od Scénáře H (destruktivní kritika) tím, že **primárně cílí na formování epistemické identity** subjektu spíše než na jeho destabilizaci.
+**Mechanismus**: Kompoziční vzorec „Guru a adept“ + [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) (latentní emocionální modulace) + [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) (selektivní expozice ke „schválené“ literatuře). Postupné etablování epistemické závislosti na mentora vede k frequently neproduktivní [epistemické alienaci](@/glossary/epistemicka-alienace.md). Tento scénář je distinktní od Scénáře H (destruktivní kritika) tím, že **primárně cílí na formování epistemické identity** subjektu spíše než na jeho destabilizaci.
 
 **Strukturální charakteristiky B**:
 
@@ -232,7 +232,7 @@ Anonymizovaný případ z historie vědeckého výzkumu: vědecká subdisciplín
 
 1. Identifikace a explicitní pojmenování probíhajících procesů
 2. Reafirmace klíčových standardů a jejich zdůvodnění
-3. Depersonalizace konfliktu, soustředění na substantivní otázky
+3. [Depersonalizace](@/glossary/depersonalizace.md) konfliktu, soustředění na substantivní otázky
 4. Institucionální ochrana klíčových struktur (peer review, publikační standardy)
 5. „Epistemické mosty“ mezi fragmentovanými podskupinami
 
@@ -355,7 +355,7 @@ Devátý scénář, jenž v původní taxonomii není explicitně vyčleněn, re
 
 Po zvážení další expanze taxonomie (scénáře J, K, L) jsme dospěli k závěru, že **další scénáře by byly redundantní** ve dvou ohledech:
 
-1. **Redundance vůči existujícím scénářům**: Hypotetické „Korporátní gaslighting“ nebo „Politická delegitimizace“ jsou strukturálně izomorfní se Scénářem D (institucionální zachycení) aplikovaným na korporátní/politický kontext. Specifika kontextu nevytvářejí novou strukturální dynamiku.
+1. **Redundance vůči existujícím scénářům**: Hypotetické „Korporátní [gaslighting](@/glossary/gaslighting.md)“ nebo „Politická delegitimizace“ jsou strukturálně izomorfní se Scénářem D (institucionální zachycení) aplikovaným na korporátní/politický kontext. Specifika kontextu nevytvářejí novou strukturální dynamiku.
 2. **Redundance vůči Kapitole 1**: Scénáře jako „Akademický mobbing“ jsou aplikací technik EA-1.4.* a EA-1.5.* v interpersonálním kontextu, plně pokryté kompozičním vzorcem „Guru a adept“ s inverzní polaritou.
 
 Devět scénářů A–I tedy reprezentuje **kompletní rozkrytí strukturálního prostoru** epistemické delegitimizace přes tři dimenze: cílovou úroveň (individuál → komunita → instituce → distribuovaná populace), vektor (vnější/vnitřní/auto-) a temporální dynamiku (rapidní/postupná/algoritmická).
@@ -455,7 +455,7 @@ Scénáře nejsou paralelními procesy, ale **synergickými kombinacemi**, jež 
 
 ### Pro postižené komunity (C, F)
 
-- Etablování explicitních epistemic security protocols
+- Etablování explicitních [epistemic security](@/glossary/epistemic-security.md) protocols
 - Diverzifikace zdrojů legitimizace
 - Pravidelný epistemic audit klíčových autorit a procesů
 - Cross-community dialogues s alternativními komunitami

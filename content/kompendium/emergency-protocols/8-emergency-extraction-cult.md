@@ -22,13 +22,13 @@ toc = true
 
 Klient v akutní situaci úniku z high-control skupiny — typicky během prvních 24–72 hodin po fyzickém opuštění; přítomnost akutního strachu z represe a/nebo loading-up. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **emergency extraction z aktivního kultu nebo high-control skupiny** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
-> **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
 ## 2. Bezprostřední intervence (5 kroků)
 
 1. **Zajisti fyzickou bezpečnost** — bezpečné místo neznámé skupině, vypnutý telefon (sledování), nové SIM, ne-vlastní auto.
 2. **Kontaktuj specializovanou cult-recovery organizaci (ICSA, FECRIS, v ČR Společnost pro studium sekt) pro koordinovanou podporu** — Kontaktuj specializovanou cult-recovery organizaci (ICSA, FECRIS, v ČR Společnost pro studium sekt) pro koordinovanou podporu.
-3. **Neprovádět „deprogrammingový" konfrontační rozhovor** — užij metod neagresivního exit counseling (Hassan BITE model).
+3. **Neprovádět „deprogrammingový" konfrontační rozhovor** — užij metod neagresivního exit counseling (Hassan [BITE model](@/glossary/bite-model.md)).
 4. **Zhodnoť suicidalitu a riziko návratu (typické 30–40% v prvních 4 týdnech)** — strukturovaný plán pro 72h.
 5. **Dokumentuj evidenci pro případné právní kroky (manipulace, finanční zneužití, zneužívání) bez tlaku na podání trestního oznámení** — Dokumentuj evidenci pro případné právní kroky (manipulace, finanční zneužití, zneužívání) bez tlaku na podání trestního oznámení.
 

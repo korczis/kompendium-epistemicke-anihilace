@@ -1,10 +1,10 @@
 +++
 title = "HAWKEYE"
 weight = 72
-description = "Visitor Intelligence system with behavioral analysis and threat detection"
+description = "Systém platformy Prismatic pro zpravodajství o návštěvnících webu: otisky, behaviorální analýza a detekce hrozeb s ochranou soukromí podle GDPR. Technický kontext knihy."
 
 [taxonomies]
-tags = ["glossary", "security", "hawkeye", "prismatic"]
+tags = ["glossary", "security", "hawkeye", "prismatic", "osint"]
 
 [extra]
 category = "security"
@@ -32,48 +32,48 @@ umbrella_apps = ["prismatic_visitor_intelligence", "prismatic_hawkeye", "prismat
 response_time = "sub_second"
 false_positive_threshold = "1_percent"
 author = "Tomas Korcak (korczis)"
-reading_time = "7 min"
-word_count = 1452
+reading_time = "9 min"
+word_count = 1759
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["HAWKEYE", "Visitor", "Intelligence", "glossary", "security", "Prismatic Platform", "OSINT", "README"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "HAWKEYE - Prismatic Platform"
+image_alt = "HAWKEYE – platforma Prismatic"
 +++
 
-## Definition
+## Definice
 
-HAWKEYE is the Prismatic Platform's Visitor Intelligence system, a comprehensive security subsystem that performs real-time behavioral analysis of web visitors, correlates visitor patterns with threat intelligence feeds, and provides continuous security posture awareness. The system combines technical fingerprinting, behavioral profiling, session analysis, and Open Source Intelligence (OSINT) enrichment to classify visitors across a risk spectrum and detect potential threats before they can exploit vulnerabilities in the platform's attack surface.
+**HAWKEYE** je systém zpravodajství o návštěvnících (*Visitor Intelligence*) platformy Prismatic, z níž kniha vzešla. Jde o ucelený bezpečnostní subsystém, který v reálném čase provádí behaviorální analýzu návštěvníků webu, koreluje vzorce návštěv s kanály zpravodajství o hrozbách a poskytuje průběžný přehled o bezpečnostním postoji. Systém kombinuje technické otisky (*fingerprinting*), behaviorální profilování, analýzu relací a obohacení z otevřených zdrojů ([OSINT](@/glossary/osint.md)), aby návštěvníky zařadil na škále rizika a odhalil možné hrozby dřív, než mohou zneužít zranitelnosti útočné plochy platformy.
 
-At its core, HAWKEYE operates on the principle that meaningful security insight comes not from isolated data points but from the fusion of multiple behavioral and technical signals. A single HTTP request reveals little about intent, but when correlated with fingerprint data, navigation patterns, request timing, geolocation intelligence, and known threat indicators, a comprehensive visitor profile emerges. This multi-signal approach aligns with the NABLA Infinity framework's Signal Plurality axiom, which mandates a minimum of two independent signals before establishing any belief about visitor classification.
+V jádru vychází HAWKEYE z principu, že smysluplný bezpečnostní poznatek nevzniká z izolovaných údajů, ale ze **spojení více behaviorálních a technických signálů**. Jediný požadavek HTTP o záměru mnoho neprozradí; korelovaný s otiskem, vzorci navigace, časováním požadavků, geolokačními údaji a známými ukazateli hrozeb však vytváří ucelený profil návštěvníka. Tento vícesignálový přístup odpovídá axiomu [Signal Plurality](@/glossary/signal-plurality.md) rámce [NABLA Infinity](@/glossary/nabla-infinity.md), který vyžaduje nejméně dva nezávislé signály, než vznikne jakékoli přesvědčení o zařazení návštěvníka.
 
-The name HAWKEYE reflects the system's role as the platform's vigilant observer -- maintaining constant surveillance of visitor activity while operating invisibly to legitimate users. Unlike traditional Web Application Firewalls (WAFs) that operate on static rule sets, HAWKEYE employs adaptive behavioral models that evolve as threat landscapes change, providing defense-in-depth through intelligence rather than mere pattern matching.
+Název HAWKEYE („jestřábí oko“) vyjadřuje roli bdělého pozorovatele platformy, který neustále sleduje činnost návštěvníků a přitom zůstává pro legitimní uživatele neviditelný. Na rozdíl od tradičních firewallů webových aplikací (WAF), které pracují se statickými sadami pravidel, používá HAWKEYE adaptivní behaviorální modely, které se vyvíjejí se změnami prostředí hrozeb, a poskytuje hloubkovou obranu prostřednictvím zpravodajství, ne pouhého porovnávání vzorů.
 
-## Overview
+## Přehled
 
-Visitor Intelligence represents a paradigm shift from reactive security (blocking known bad actors) to proactive security (understanding visitor intent through behavioral analysis). Traditional security tools operate at the network or application layer, inspecting individual requests against signature databases. HAWKEYE operates at the intelligence layer, building composite visitor profiles that enable nuanced risk assessment.
+Zpravodajství o návštěvnících představuje posun od reaktivní bezpečnosti (blokování známých škodlivých aktérů) k proaktivní bezpečnosti (porozumění záměru návštěvníka pomocí behaviorální analýzy). Tradiční bezpečnostní nástroje působí na síťové nebo aplikační vrstvě a porovnávají jednotlivé požadavky s databázemi signatur. HAWKEYE působí na **zpravodajské vrstvě** a vytváří složené profily návštěvníků, které umožňují jemnější hodnocení rizika.
 
-The system processes visitor interactions through a multi-stage pipeline. Raw HTTP traffic is first subjected to technical fingerprinting -- extracting browser characteristics, TLS parameters, HTTP header patterns, and JavaScript-derived device properties. This technical profile is then enriched with geolocation data, ASN information, IP reputation scores, and OSINT-derived threat intelligence. Behavioral analysis tracks navigation patterns, request timing distributions, form interaction sequences, and session anomalies to distinguish between human visitors, automated scrapers, vulnerability scanners, and sophisticated adversaries.
+Systém zpracovává interakce návštěvníků vícestupňovou pipeline. Surový provoz HTTP nejprve projde technickým otiskováním – extrakcí vlastností prohlížeče, parametrů TLS, vzorců hlaviček HTTP a vlastností zařízení zjištěných JavaScriptem. Technický profil se pak obohatí o geolokační data, informace o ASN, skóre reputace IP a zpravodajství o hrozbách z OSINT. Behaviorální analýza sleduje vzorce navigace, rozložení časování požadavků, posloupnosti práce s formuláři a anomálie relací, aby odlišila lidské návštěvníky, automatizované scrapery, skenery zranitelností a sofistikované protivníky.
 
-HAWKEYE's classification engine assigns visitors to risk categories (benign, suspicious, malicious, unknown) with associated confidence scores. These classifications feed into the platform's broader security ecosystem, providing visitor-level signals that inform access control decisions, rate limiting policies, and incident response workflows. The system's integration with the Color Team security architecture ensures that HAWKEYE findings are consumed by Blue Team defensive agents, correlated by Purple Team synthesis operations, and tested against Red Team adversarial scenarios.
+Klasifikační jádro HAWKEYE zařazuje návštěvníky do kategorií rizika (neškodný, podezřelý, škodlivý, neznámý) s příslušným skóre jistoty. Klasifikace vstupují do širšího bezpečnostního ekosystému platformy jako signály na úrovni návštěvníka pro rozhodování o řízení přístupu, politiky omezování rychlosti a postupy reakce na incidenty. Začlenění do architektury [Color Teams](@/glossary/color-teams.md) zajišťuje, že nálezy HAWKEYE zpracovávají obranní agenti [Blue Team](@/glossary/blue-team.md), korelují syntetické operace [Purple Team](@/glossary/purple-team.md) a testují je nepřátelské scénáře [Red Team](@/glossary/red-team.md).
 
-## Technical Details
+## Technické podrobnosti
 
-### Fingerprinting Architecture
+### Architektura otisků
 
-HAWKEYE employs a layered fingerprinting approach that combines passive and active techniques to build robust visitor profiles resistant to spoofing:
+HAWKEYE používá vrstvený přístup k otiskům, který kombinuje pasivní a aktivní techniky, aby vznikly profily odolné vůči podvržení:
 
-| Layer | Technique | Signals Extracted | Spoofing Difficulty |
+| vrstva | technika | získávané signály | obtížnost podvržení |
 |-------|-----------|-------------------|---------------------|
-| **Network** | TCP/IP analysis | OS fingerprint, MTU, TTL, window size | Medium |
-| **TLS** | JA3/JA3S fingerprinting | TLS client hello parameters, cipher suites | High |
-| **HTTP** | Header analysis | User-Agent, Accept-Language, encoding preferences | Low |
-| **Browser** | JavaScript probing | Canvas fingerprint, WebGL renderer, fonts, plugins | Medium-High |
-| **Behavioral** | Interaction analysis | Mouse movement, keystroke dynamics, scroll patterns | Very High |
+| **síťová** | analýza TCP/IP | otisk OS, MTU, TTL, velikost okna | střední |
+| **TLS** | otisky JA3/JA3S | parametry TLS client hello, šifrovací sady | vysoká |
+| **HTTP** | analýza hlaviček | User-Agent, Accept-Language, preference kódování | nízká |
+| **prohlížeč** | sondování JavaScriptem | otisk canvas, renderer WebGL, písma, pluginy | středně vysoká |
+| **behaviorální** | analýza interakcí | pohyb myši, dynamika stisků kláves, vzorce posouvání | velmi vysoká |
 
-### Signal Processing Pipeline
+### Pipeline zpracování signálů
 
 ```
 Raw Traffic --> Technical Fingerprint --> OSINT Enrichment --> Behavioral Analysis
@@ -92,21 +92,21 @@ Raw Traffic --> Technical Fingerprint --> OSINT Enrichment --> Behavioral Analys
                                     [benign|suspicious|malicious|unknown]
 ```
 
-### Behavioral Profiling Models
+### Modely behaviorálního profilování
 
-HAWKEYE uses statistical models to distinguish between visitor categories based on behavioral patterns:
+HAWKEYE používá statistické modely, které rozlišují kategorie návštěvníků podle behaviorálních vzorců:
 
-| Behavior | Human Pattern | Bot Pattern | Scanner Pattern |
+| chování | vzorec člověka | vzorec bota | vzorec skeneru |
 |----------|---------------|-------------|-----------------|
-| **Request timing** | Variable, Poisson-distributed | Fixed intervals, burst patterns | Rapid sequential |
-| **Navigation** | Follows link structure, backtracking | Systematic crawl, no backtracking | Targeted endpoint probing |
-| **Mouse movement** | Bezier curves, micro-corrections | None or linear | None |
-| **Session duration** | Minutes to hours, variable | Seconds to minutes, predictable | Seconds, systematic |
-| **Error responses** | Rare, accidental | Moderate, systematic | High, intentional |
+| **časování požadavků** | proměnlivé, Poissonovo rozdělení | pevné intervaly, dávky | rychlé sekvenční |
+| **navigace** | sleduje strukturu odkazů, vrací se | soustavné procházení bez návratů | cílené sondování koncových bodů |
+| **pohyb myši** | Bézierovy křivky, mikrokorekce | žádný nebo lineární | žádný |
+| **délka relace** | minuty až hodiny, proměnlivá | sekundy až minuty, předvídatelná | sekundy, soustavná |
+| **chybové odpovědi** | vzácné, náhodné | střední, soustavné | četné, záměrné |
 
-## Implementation in Prismatic Platform
+## Implementace na platformě Prismatic
 
-HAWKEYE is implemented in the `prismatic_visitor_intelligence` application within the Prismatic Platform's umbrella architecture. The system leverages OTP design patterns for concurrent visitor processing, fault-tolerant data collection, and real-time classification:
+HAWKEYE je implementován v aplikaci `prismatic_visitor_intelligence` v rámci umbrella architektury platformy. Systém využívá návrhové vzory OTP pro souběžné zpracování návštěvníků, sběr dat odolný vůči chybám a klasifikaci v reálném čase:
 
 ```elixir
 defmodule PrismaticVisitorIntelligence.Classifier do
@@ -163,9 +163,9 @@ defmodule PrismaticVisitorIntelligence.Classifier do
 end
 ```
 
-### GDPR-Compliant Data Handling
+### Zacházení s daty v souladu s GDPR
 
-HAWKEYE implements privacy-by-design principles to comply with GDPR requirements while maintaining intelligence effectiveness:
+HAWKEYE uplatňuje principy ochrany soukromí již od návrhu (*privacy by design*), aby splnil požadavky GDPR a zároveň zachoval účinnost zpravodajství:
 
 ```elixir
 defmodule PrismaticVisitorIntelligence.Privacy do
@@ -199,75 +199,41 @@ defmodule PrismaticVisitorIntelligence.Privacy do
 end
 ```
 
-## Comparison with Alternatives
+## Srovnání s alternativami
 
-| Feature | HAWKEYE | Traditional WAF | Commercial Bot Detection | SIEM Integration |
+| vlastnost | HAWKEYE | tradiční WAF | komerční detekce botů | integrace SIEM |
 |---------|---------|----------------|--------------------------|------------------|
-| **Behavioral analysis** | Multi-signal fusion with confidence scoring | Rule-based pattern matching | Machine learning models | Log correlation |
-| **OSINT enrichment** | 250+ providers via GARDEN | IP reputation lists only | Limited threat feeds | External feed integration |
-| **Privacy compliance** | GDPR-by-design, data minimization | Varies by vendor | Varies, often opaque | Depends on SIEM |
-| **Integration depth** | Native OTP, Color Team, NABLA | Plugin/middleware | SDK/JavaScript tag | Log forwarding |
-| **Real-time classification** | Sub-second, confidence-weighted | Millisecond, binary allow/deny | Seconds, score-based | Minutes to hours |
-| **Epistemic rigor** | NABLA axiom compliance, provenance tracking | None | Proprietary models | Correlation rules |
+| **behaviorální analýza** | spojení více signálů s hodnocením jistoty | porovnávání vzorů podle pravidel | modely strojového učení | korelace logů |
+| **obohacení OSINT** | přes 250 poskytovatelů přes GARDEN (v době zápisu) | jen seznamy reputace IP | omezené kanály hrozeb | integrace vnějších kanálů |
+| **soulad s ochranou soukromí** | GDPR od návrhu, minimalizace dat | podle dodavatele | podle dodavatele, často neprůhledné | podle SIEM |
+| **hloubka integrace** | nativní OTP, Color Teams, NABLA | plugin/middleware | SDK/JavaScriptový tag | přeposílání logů |
+| **klasifikace v reálném čase** | pod sekundu, vážená jistotou | milisekundy, binární povolit/zakázat | sekundy, podle skóre | minuty až hodiny |
+| **epistemická důslednost** | soulad s [axiomy NABLA](@/glossary/nabla-axioms.md), sledování původu | žádná | proprietární modely | korelační pravidla |
 
-HAWKEYE's primary differentiator is its integration with the Prismatic Platform's epistemic infrastructure. Unlike commercial alternatives that produce opaque risk scores, HAWKEYE classifications carry full provenance metadata, confidence levels, and contributing signal attribution -- enabling analysts to understand not just what was decided but why, satisfying the NABLA framework's Provenance Mandatory axiom.
+Hlavní odlišností HAWKEYE je začlenění do epistemické infrastruktury platformy. Na rozdíl od komerčních alternativ, které vydávají neprůhledné rizikové skóre, nesou klasifikace HAWKEYE úplná metadata o původu, úrovně jistoty a přiřazení přispívajících signálů – analytik tak rozumí nejen tomu, co bylo rozhodnuto, ale i proč, což naplňuje axiom NABLA *Provenance Mandatory* (povinný původ).
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Signal Plurality Compliance**: Never classify a visitor based on a single signal. HAWKEYE enforces the NABLA Signal Plurality axiom by requiring at least two independent signals before establishing any risk assessment. A suspicious IP address alone is insufficient; it must be correlated with behavioral anomalies, fingerprint inconsistencies, or OSINT threat indicators.
+1. **Soulad se Signal Plurality:** nikdy nezařazovat návštěvníka podle jediného signálu. HAWKEYE vynucuje axiom tím, že před jakýmkoli hodnocením rizika vyžaduje nejméně dva nezávislé signály. Podezřelá IP adresa sama nestačí; musí být korelována s behaviorálními anomáliemi, nesrovnalostmi otisku nebo ukazateli hrozeb z OSINT.
+2. **Odstupňovaná reakce:** reagovat úměrně klasifikaci rizika. Neškodní návštěvníci mají neomezený přístup, podezřelí čelí zesílenému sledování a výzvám CAPTCHA, škodliví jsou omezeni nebo zablokováni. Vyhýbat se binárním rozhodnutím povolit/zakázat, která vyvolávají kaskády falešně pozitivních nálezů.
+3. **Průběžná kalibrace modelů:** pravidelně ověřovat přesnost klasifikace proti ověřeným datům. Podíl falešně pozitivních nálezů nad 1 % ukazuje na drift modelu, který vyžaduje rekalibraci. Přesnost klasifikace sleduje jako metriku kvality Quality Floor Guardian.
+4. **Architektura s prioritou soukromí:** sbírat jen minimum dat nutných ke klasifikaci. Osobní identifikátory anonymizovat nebo hašovat už v místě sběru, ne dodatečně. Zavést automatické mazání dat podle nastavitelných dob uchování.
+5. **Rozmanitost zdrojů OSINT:** udržovat různorodé zdroje obohacení, aby nevznikla závislost na jediném zdroji. Znalostní báze GARDEN zpřístupňuje přes 250 poskytovatelů, ale aktivní obměna zdrojů zajišťuje kvalitu zpravodajství i při výpadku nebo zhoršení kvality dat jednotlivých poskytovatelů.
 
-2. **Graduated Response**: Implement proportional responses to risk classifications. Benign visitors receive unrestricted access, suspicious visitors face enhanced monitoring and CAPTCHA challenges, and malicious visitors are rate-limited or blocked. Avoid binary allow/deny decisions that create false positive cascading.
+## Případy užití
 
-3. **Continuous Model Calibration**: Regularly validate classification accuracy against ground truth data. False positive rates above 1% indicate model drift requiring recalibration. The Quality Floor Guardian monitors classification accuracy as a quality metric.
+- **Ochrana útočné plochy:** HAWKEYE rozpoznává průzkumnou činnost (skenování portů, výčet adresářů, sondování zranitelností) podle behaviorálních vzorců skenerů. Včasné odhalení umožní obranu dřív, než dojde k pokusům o zneužití.
+- **Správa botů:** odlišuje užitečné boty (crawlery vyhledávačů, monitorovací služby) od škodlivých (scrapery, *credential stuffing*, spamboti) behaviorálním otiskem, který jde dál než analýza řetězce User-Agent.
+- **Korelace se zpravodajstvím o hrozbách:** IP adresy, ASN a behaviorální vzorce návštěvníků se pomocí OSINT korelují se známou infrastrukturou aktérů hrozeb, což umožňuje přiřadit průzkum konkrétním skupinám nebo kampaním.
+- **Monitoring souladu:** HAWKEYE poskytuje auditní stopy činnosti návštěvníků, které splňují požadavky NIS2 a ISO 27001 na sledování přístupu a detekci incidentů. Rozhodnutí o klasifikaci se zapisují s úplným původem pro regulatorní přezkum.
+- **Signály pro Blue Team:** klasifikace v reálném čase vstupují přímo do agenta `blue-signal-aggregator` modrého týmu a tvoří dimenzi zpravodajství o návštěvnících ve vícevrstvém obranném postoji platformy. Podezřelé vzorce spouštějí vyšetřovací postupy Blue Team.
+- **Vstup do bezpečnostního hodnocení:** zpravodajství o návštěvnících přispívá k celkovému bezpečnostnímu hodnocení platformy; objem a sofistikovanost hrozeb zjištěných vůči aktivu ovlivňují jeho [risk score](@/glossary/risk-score.md) v systému [EASM](@/glossary/easm.md) Prismatic Perimeter.
 
-4. **Privacy-First Architecture**: Collect only the minimum data necessary for classification. Anonymize or hash personal identifiers at the collection point, not as an afterthought. Implement automatic data purging based on configurable retention periods.
+## Pokročilé techniky otisků
 
-5. **OSINT Source Diversity**: Maintain diverse OSINT enrichment sources to avoid single-source dependency. The GARDEN knowledge base provides access to 250+ providers, but active source rotation ensures continued intelligence quality even when individual providers experience outages or data quality degradation.
+Schopnosti otiskování HAWKEYE přesahují tradiční otisky prohlížeče a mají vytvořit identifikaci návštěvníka odolnou vůči pokusům o obejití.
 
-## Use Cases
-
-- **Attack Surface Protection**: HAWKEYE identifies reconnaissance activity (port scanning, directory enumeration, vulnerability probing) by detecting scanner behavioral patterns. Early detection enables proactive defense before exploitation attempts occur.
-
-- **Bot Management**: Distinguishes between beneficial bots (search engine crawlers, monitoring services) and malicious bots (scrapers, credential stuffers, spam bots) through behavioral fingerprinting that goes beyond User-Agent string analysis.
-
-- **Threat Intelligence Correlation**: Visitor IP addresses, ASNs, and behavioral patterns are correlated with known threat actor infrastructure through OSINT enrichment, enabling attribution of reconnaissance to specific threat groups or campaigns.
-
-- **Compliance Monitoring**: HAWKEYE provides audit trails of visitor activity that satisfy NIS2 and ISO 27001 requirements for access monitoring and incident detection. Classification decisions are logged with full provenance for regulatory review.
-
-- **Blue Team Signal Feed**: HAWKEYE's real-time visitor classifications feed directly into the Blue Team's `blue-signal-aggregator` agent, providing the visitor intelligence dimension of the platform's multi-layered defensive posture. Suspicious visitor patterns trigger Blue Team investigation workflows.
-
-- **Security Rating Input**: Visitor intelligence contributes to the platform's overall security rating calculation, where the volume and sophistication of detected threats against an asset influences its risk score in the Prismatic Perimeter EASM system.
-
-## Related Concepts
-
-- [EASM](@/glossary/easm.md) - External attack surface management complementing HAWKEYE's visitor-facing intelligence
-- [OSINT](@/glossary/osint.md) - Intelligence methodology providing visitor data enrichment sources
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) - Structured threat data providing visitor classification context
-- [Blue Team](@/glossary/blue-team.md) - Defensive team consuming HAWKEYE's visitor signal feed
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) - Overall security posture score incorporating visitor intelligence
-- [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework governing classification confidence requirements
-- [Signal Plurality](@/glossary/signal-plurality.md) - NABLA axiom requiring multiple signals for visitor classification
-- [Color Teams](@/glossary/color-teams.md) - Security operations framework integrating HAWKEYE intelligence
-- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) - Privacy regulation governing HAWKEYE's data handling practices
-
-## See Also
-
-- [prismatic_visitor_intelligence](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_visitor_intelligence/README.md) -- HAWKEYE visitor intelligence application
-- [prismatic_hawkeye](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye/README.md) -- HAWKEYE core engine
-- [prismatic_hawkeye_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye_web/README.md) -- HAWKEYE web dashboard
-- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) -- Complementary EASM for external posture
-- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) -- OSINT enrichment for visitor profiles
-- [prismatic_tracking](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_tracking/README.md) -- Behavioral tracking infrastructure
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Security and intelligence capabilities overview
-
----
-
-## Advanced Fingerprinting Techniques
-
-HAWKEYE's fingerprinting capabilities extend beyond traditional browser fingerprinting to create robust visitor identification resistant to evasion attempts.
-
-### Canvas and WebGL Fingerprinting
+### Otisky canvas a WebGL
 
 ```elixir
 defmodule PrismaticVisitorIntelligence.BrowserFingerprint do
@@ -313,7 +279,7 @@ defmodule PrismaticVisitorIntelligence.BrowserFingerprint do
 end
 ```
 
-### Network-Level Fingerprinting
+### Otisky na úrovni sítě
 
 ```elixir
 defmodule PrismaticVisitorIntelligence.NetworkFingerprint do
@@ -359,11 +325,11 @@ defmodule PrismaticVisitorIntelligence.NetworkFingerprint do
 end
 ```
 
-## Machine Learning Models
+## Modely strojového učení
 
-HAWKEYE employs several machine learning models for different aspects of visitor classification:
+HAWKEYE používá pro různé aspekty klasifikace návštěvníků několik modelů strojového učení.
 
-### Behavioral Anomaly Detection
+### Detekce behaviorálních anomálií
 
 ```elixir
 defmodule PrismaticVisitorIntelligence.BehaviorML do
@@ -420,22 +386,22 @@ defmodule PrismaticVisitorIntelligence.BehaviorML do
 end
 ```
 
-## Performance and Scaling Characteristics
+## Výkon a škálování
 
-### Throughput Benchmarks
+### Výsledky zátěžových testů
 
-HAWKEYE has been benchmarked under various load conditions within the Prismatic Platform environment:
+HAWKEYE byl v prostředí platformy testován při různé zátěži (hodnoty v době zápisu):
 
-| Metric | Load Level | Performance | Resource Usage |
+| metrika | úroveň zátěže | výkon | spotřeba prostředků |
 |--------|------------|-------------|----------------|
-| **Classifications/second** | Light (100 visitors/min) | 50 classifications/sec | 2% CPU, 50MB RAM |
-| **Classifications/second** | Medium (1K visitors/min) | 400 classifications/sec | 15% CPU, 200MB RAM |
-| **Classifications/second** | Heavy (10K visitors/min) | 2,500 classifications/sec | 60% CPU, 800MB RAM |
-| **Mean classification time** | All levels | 1.2ms | - |
-| **P99 classification time** | All levels | 8.5ms | - |
-| **Memory per visitor profile** | - | 2.4KB | ETS storage |
+| **klasifikace za sekundu** | lehká (100 návštěvníků/min) | 50 klasifikací/s | 2 % CPU, 50 MB RAM |
+| **klasifikace za sekundu** | střední (1 000 návštěvníků/min) | 400 klasifikací/s | 15 % CPU, 200 MB RAM |
+| **klasifikace za sekundu** | vysoká (10 000 návštěvníků/min) | 2 500 klasifikací/s | 60 % CPU, 800 MB RAM |
+| **průměrná doba klasifikace** | všechny úrovně | 1,2 ms | – |
+| **doba klasifikace P99** | všechny úrovně | 8,5 ms | – |
+| **paměť na profil návštěvníka** | – | 2,4 KB | úložiště ETS |
 
-### Horizontal Scaling Architecture
+### Architektura horizontálního škálování
 
 ```elixir
 defmodule PrismaticVisitorIntelligence.ClusterCoordinator do
@@ -492,9 +458,9 @@ defmodule PrismaticVisitorIntelligence.ClusterCoordinator do
 end
 ```
 
-## Compliance and Auditing
+## Soulad a audit
 
-### GDPR Compliance Implementation
+### Implementace souladu s GDPR
 
 ```elixir
 defmodule PrismaticVisitorIntelligence.GDPRCompliance do
@@ -552,11 +518,11 @@ defmodule PrismaticVisitorIntelligence.GDPRCompliance do
 end
 ```
 
-## Future Enhancements and Roadmap
+## Další vývoj
 
-### Advanced Behavioral Modeling
+### Pokročilé behaviorální modelování
 
-Planned enhancements include deep learning models for more sophisticated behavioral analysis:
+Plánovaná rozšíření zahrnují modely hlubokého učení pro sofistikovanější behaviorální analýzu:
 
 ```elixir
 defmodule PrismaticVisitorIntelligence.DeepLearning do
@@ -574,15 +540,41 @@ defmodule PrismaticVisitorIntelligence.DeepLearning do
 end
 ```
 
-### Federated Learning Integration
+### Federované učení
 
-Future versions will support federated learning across multiple Prismatic Platform deployments while preserving privacy.
+Budoucí verze mají podporovat federované učení napříč více nasazeními platformy Prismatic se zachováním soukromí.
 
----
+## Význam pro Kompendium
 
-## Connect & Contribute
+HAWKEYE je technický pojem platformy, v knize slouží jako příklad dvou věcí. Za prvé ukazuje princip, který Kompendium uplatňuje i na lidskou detekci EA: **žádné zařazení podle jediného signálu**, odstupňovaná reakce místo binárního verdiktu, průběžná kalibrace a záznam důvodů. Za druhé připomíná, že nástroje sledování mají **dvojí použití**: stejná technika, která chrání web před útočníkem, může v jiných rukou sloužit dohledu nad lidmi. Kompendium proto vyžaduje minimalizaci dat a účelové omezení, viz [Dual-use poznání](@/glossary/dual-use-poznani.md), [Panopticism](@/glossary/panopticism.md) a [Zuboff: dohledový kapitalismus](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md). Použití HAWKEYE v kontextu EA popisuje [HAWKEYE a zpravodajství o návštěvnících](@/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence.md).
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+## Související
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+**Platforma**
+
+- [EASM](@/glossary/easm.md) – správa vnější útočné plochy, která doplňuje zpravodajství o návštěvnících.
+- [OSINT](@/glossary/osint.md) – metodika, z níž pocházejí zdroje obohacení.
+- [Blue Team](@/glossary/blue-team.md) – obranný tým, který zpracovává signály HAWKEYE.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec určující požadavky na jistotu klasifikace.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom vyžadující více signálů pro zařazení.
+- [Color Teams](@/glossary/color-teams.md) – rámec bezpečnostních operací, do něhož HAWKEYE patří.
+
+**Kniha**
+
+- [HAWKEYE a zpravodajství o návštěvnících](@/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence.md) – použití v kontextu EA.
+- [Dual-use poznání](@/glossary/dual-use-poznani.md) – etika nástrojů dvojího užití.
+- [Ochrana narativu podle GDPR](@/kompendium/cross-domain/27-ea-compliance-gdpr-narrative-protection.md) – ochrana osobních údajů v kontextu EA.
+
+**Mimo knihu**
+
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) – strukturovaná data o hrozbách.
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) – celkové hodnocení bezpečnostního postoje.
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) – předpis o ochraně údajů, kterým se HAWKEYE řídí.
+- [prismatic_visitor_intelligence](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_visitor_intelligence/README.md) – aplikace zpravodajství o návštěvnících.
+- [prismatic_hawkeye](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye/README.md) – jádro HAWKEYE.
+- [prismatic_hawkeye_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye_web/README.md) – webový přehled HAWKEYE.
+- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) – doplňkový EASM pro vnější postoj.
+- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) – obohacení profilů z OSINT.
+- [prismatic_tracking](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_tracking/README.md) – infrastruktura behaviorálního sledování.
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – bezpečnostní architektura platformy.
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) – přehled bezpečnostních a zpravodajských schopností.

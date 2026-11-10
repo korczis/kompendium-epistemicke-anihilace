@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.10 Temporální dekoherence"
-description = "Detailní per-technique článek: ultramární technika temporální dekoherence — systematické narušení časové integrace zkušenosti, znemožňující subjektu udržovat koherentní narativ napříč minulostí, přítomností a budoucností. Operační modus, fenomenologie, detekční markery, neutralizace, vztahy."
+description = "Detailní per-technique článek: ultramární technika temporální dekoherence — systematické narušení časové integrace zkušenosti, znemožňující subjektu udržovat koherentní narativ napříč minulostí."
 weight = 5110
 insert_anchor_links = "right"
 
@@ -92,7 +92,7 @@ Subjekt často popisuje svůj stav jako „ztrátu kontinuity bez ztráty pamět
 
 Temporální dekoherence se odlišuje od:
 
-- **Disociativní amnézie** — tam chybí *obsah*; zde je obsah dostupný, chybí *syntéza*.
+- **[Disociativní amnézie](@/glossary/dissociativni-amnezie.md)** — tam chybí *obsah*; zde je obsah dostupný, chybí *syntéza*.
 - **PTSD-flashbacků** — flashback je *intruze* minulosti do přítomnosti; dekoherence je *neschopnost je vůbec rozlišit*.
 - **Demence** — demence ztrácí informace; dekoherence zachovává informace, ale ztrácí jejich **integrativní strukturu**.
 - **Filosofické skepse o identitě** — skepse je teoretický postoj; dekoherence je **prožitek bez teoretické distance**.

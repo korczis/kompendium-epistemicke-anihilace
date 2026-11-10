@@ -1,820 +1,36 @@
 {
  "content/about.md": [
-  "tags",
-  "related",
-  "links-out"
+  "related"
  ],
  "content/galerie.md": [
-  "tags",
   "related"
- ],
- "content/glossary/3nl.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/_index.md": [
-  "czech"
- ],
- "content/glossary/adapter-pattern.md": [
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/addiction-recovery.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/agent-registry.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/agent-tier.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/agent.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/aiad.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/anankasticky-rezim.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/anihilacni-fenomeny.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/archer-supreme.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/autoevolve.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/autoheal.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/betrayal-trauma.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/bite-model.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/black-team.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/blue-team.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/bounded-context.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/c-ptsd.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/censys.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/chain-of-custody.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/clean-run.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/coercive-control.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/color-teams.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/communicative-rationality.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/complex-trauma.md": [
-  "description",
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/compliance-framework.md": [
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/darvo.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/decision-core.md": [
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/decision-engine.md": [
-  "czech"
- ],
- "content/glossary/deepfake.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/default-mode-network.md": [
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/delegitimizace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/deplatforming.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/differance.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/disociace.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/double-bind.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/dual-use-poznani.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/due-diligence.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/easm.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/ego-death.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/embodied-cognition.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/entity-resolution.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemic-bubble.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemic-pipeline.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemic-security.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicka-alienace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicka-anihilace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicka-injustice.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicka-pokora.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicke-trauma.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/epoche.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/expert-witness.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/falsifikace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/falsifikovatelnost.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/fenomenologie.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/firehose-of-falsehood.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/forensic-interview.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/four-noble-truths.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/gaslighting.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/gestalt-shift.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/gish-gallop.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/graph-theory.md": [
-  "description",
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/gray-team.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/greynoise.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/hawkeye.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/hermeneutika.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/hyperreality.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/iatrogenic-harm.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/ideal-speech-situation.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/identity-destruction.md": [
-  "czech"
- ],
- "content/glossary/individual-risk-map.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/inference.md": [
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/info-ops.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/informed-consent.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/instrumental-reason.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/intelligence-fusion.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/intentionalita.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/irb-review.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/kognitivni-anihilace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/kognitivni-anti-rekurzivita.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/kognitivni-bias.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/kompendium-ea.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/konfirmacni-bias.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/lakatos-vyzkumny-program.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/lebenswelt.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/mereologicka-rekonstrukce.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/metakognice.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/metakognitivni-destrukce.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/metanarrative-collapse.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/motte-and-bailey.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/mysticky-prozitek.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/nabla-axioms.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/nabla-infinity.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/narativni-identita.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/narrative-identity.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/narrative-trauma.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/nm-nd.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/no-mercy-no-doubts.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/ontologicka-anihilace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/osint.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/panopticism.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/paradigm-shift.md": [
-  "description",
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/paralysis-by-analysis.md": [
-  "description",
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/pattern-evidence.md": [
-  "description",
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/power-knowledge.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/pragmaticka-kompetence.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/predictive-processing.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/propaganda.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/purple-team.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/qdp.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/qeve.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/quality-debt.md": [
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/red-team.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/regression-test.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/replication-crisis.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/risk-score.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/sanctions-screening.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/sealioning.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/semanticka-afazie.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/session-discipline.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/shodan.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/signal-plurality.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/simulacra.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/strategic-command.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/supreme-commander.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/tactical-execution.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/taxonomie-ea.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/theory-of-mind.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/transformative-experience.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/trauma-bonding.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/traumatic-bonding.md": [
-  "description",
-  "links-out"
- ],
- "content/glossary/trinity-gate.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/undue-influence.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/violation-protocol.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/weaponized-incompetence.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/white-team.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/zero-warning-policy.md": [
-  "czech",
-  "related"
- ],
- "content/kompendium/01-zaklady-manipulace/_index.md": [
-  "description"
  ],
  "content/kompendium/02-identitarni-manipulace.md": [
   "links-out"
  ],
- "content/kompendium/02-uvod/teoreticke-zaklady.md": [
-  "description"
- ],
- "content/kompendium/03-manipulacni-vzorce/_index.md": [
-  "description"
- ],
- "content/kompendium/03-zakladni-kategorie/kapitola-1.md": [
-  "description"
- ],
- "content/kompendium/03-zakladni-kategorie/kapitola-2.md": [
-  "description"
- ],
- "content/kompendium/03-zakladni-kategorie/kapitola-3.md": [
-  "description"
- ],
- "content/kompendium/03-zakladni-kategorie/scenar-f.md": [
-  "description"
- ],
- "content/kompendium/03-zakladni-kategorie/scenar-h.md": [
-  "description"
- ],
  "content/kompendium/03-zakladni-kategorie/visualizations.md": [
-  "description",
   "not-orphan"
- ],
- "content/kompendium/04-pokrocile-fenomeny/_index.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/_index.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/kapitola-4.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/kapitola-5.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md": [
-  "description"
- ],
- "content/kompendium/04-terminalni-protokoly/ultimatni-scenar.md": [
-  "description"
  ],
  "content/kompendium/04-terminalni-protokoly/visualizations.md": [
   "not-orphan"
  ],
- "content/kompendium/05-ultramari-techniky/_index.md": [
-  "description"
- ],
- "content/kompendium/05-ultramari-techniky/kapitola-10.md": [
-  "description"
- ],
- "content/kompendium/05-ultramari-techniky/kapitola-6.md": [
-  "description"
- ],
- "content/kompendium/05-ultramari-techniky/kapitola-7.md": [
-  "description"
- ],
- "content/kompendium/05-ultramari-techniky/kapitola-8.md": [
-  "description"
- ],
- "content/kompendium/05-ultramari-techniky/kapitola-9.md": [
-  "description"
- ],
- "content/kompendium/06-intervence-a-obrana/_index.md": [
-  "description"
- ],
- "content/kompendium/06-klinicke-aplikace/_index.md": [
-  "description"
- ],
- "content/kompendium/06-klinicke-aplikace/kolektivni-intervence.md": [
-  "description"
- ],
- "content/kompendium/06-klinicke-aplikace/preventivni-strategie.md": [
-  "description"
- ],
- "content/kompendium/06-klinicke-aplikace/pripad-akademie.md": [
-  "description"
- ],
- "content/kompendium/06-klinicke-aplikace/pripad-doktorat.md": [
-  "description"
- ],
- "content/kompendium/06-klinicke-aplikace/self-report-instrumenty.md": [
-  "description"
- ],
- "content/kompendium/06-klinicke-aplikace/supervizni-ramce.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/_index.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/butler-performative.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/clark-extended-mind.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/computational-epistemology.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/digitalni-vek.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/nussbaum-capabilities.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/otevrene-otazky.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/politicka-ea.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/postmodernismus.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md": [
-  "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md": [
-  "description"
- ],
  "content/kompendium/08-prilohy/bibliografie.md": [
-  "description",
-  "tags",
   "czech"
  ],
  "content/kompendium/08-prilohy/diagnosticke-nastroje.md": [
-  "tags",
   "related"
  ],
  "content/kompendium/08-prilohy/eticky-kodex.md": [
-  "description",
-  "tags",
-  "related"
- ],
- "content/kompendium/08-prilohy/index-pojmu.md": [
-  "tags",
   "related"
  ],
  "content/kompendium/08-prilohy/klasifikace.md": [
-  "description",
-  "tags",
   "related"
  ],
  "content/kompendium/08-prilohy/rejstrik-technik.md": [
-  "description",
-  "tags",
   "related"
  ],
  "content/kompendium/08-prilohy/zkratky.md": [
-  "tags",
   "related"
- ],
- "content/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md": [
-  "not-orphan"
  ],
  "content/kompendium/critical-perspectives/13-victim-blaming-risk.md": [
   "description"
@@ -846,16 +62,10 @@
  "content/kompendium/cross-domain/14-ea-dd-narrative-warfare.md": [
   "not-orphan"
  ],
- "content/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md": [
-  "not-orphan"
- ],
  "content/kompendium/cross-domain/21-ea-security-supply-chain-narrative.md": [
   "not-orphan"
  ],
  "content/kompendium/cross-domain/22-ea-security-incident-response-narrative.md": [
-  "not-orphan"
- ],
- "content/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md": [
   "not-orphan"
  ],
  "content/kompendium/cross-domain/26-ea-compliance-zkb-epistemic-integrity.md": [
@@ -866,15 +76,6 @@
  ],
  "content/kompendium/cross-domain/3-ea-osint-justice-cz-screening.md": [
   "not-orphan"
- ],
- "content/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md": [
-  "not-orphan"
- ],
- "content/kompendium/cross-domain/9-ea-dd-investigation-bias.md": [
-  "not-orphan"
- ],
- "content/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md": [
-  "description"
  ],
  "content/kompendium/emergency-protocols/1-acute-decompensation-EA.md": [
   "related"
@@ -997,9 +198,6 @@
   "related"
  ],
  "content/kompendium/glossary-bridges/bridge-censys.md": [
-  "not-orphan"
- ],
- "content/kompendium/glossary-bridges/bridge-clean-run.md": [
   "not-orphan"
  ],
  "content/kompendium/glossary-bridges/bridge-color-teams.md": [
@@ -1191,9 +389,6 @@
  "content/kompendium/glossary-bridges/bridge-red-team.md": [
   "not-orphan"
  ],
- "content/kompendium/glossary-bridges/bridge-regression-test.md": [
-  "not-orphan"
- ],
  "content/kompendium/glossary-bridges/bridge-replication-crisis.md": [
   "not-orphan"
  ],
@@ -1233,9 +428,6 @@
  "content/kompendium/glossary-bridges/bridge-threshold.md": [
   "czech"
  ],
- "content/kompendium/glossary-bridges/bridge-trinity-gate.md": [
-  "not-orphan"
- ],
  "content/kompendium/glossary-bridges/bridge-violation-protocol.md": [
   "not-orphan"
  ],
@@ -1249,129 +441,6 @@
  "content/kompendium/glossary-bridges/bridge-zero-warning-policy.md": [
   "diacritics",
   "not-orphan"
- ],
- "content/kompendium/historical-cases/1-stalinist-show-trials.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/10-uyghur-reeducation.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/11-jonestown.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/12-heavens-gate.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/13-aum-shinrikyo.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/14-branch-davidians.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/15-rajneesh.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/16-scientology-fair-game.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/17-children-of-god.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/18-nxivm.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/19-moonies.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/2-maoist-cultural-revolution.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/20-falun-gong.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/21-soviet-active-measures.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/22-russian-ira.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/23-cambridge-analytica.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/24-anti-vaxx-aids.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/25-tobacco-doubt.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/26-climate-denial.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/27-vaccine-hesitancy.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/28-qanon.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/29-pizzagate.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/3-khmer-rouge.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/30-deep-state-narrative.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/31-lysenko.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/32-tuskegee.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/33-replication-crisis.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/34-stapel-fraud.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/35-schon-fraud.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/36-cold-fusion.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/37-recovered-memory.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/38-satanic-panic.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/39-vaccine-autism.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/4-north-korean-juche.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/40-fda-opioid.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/5-east-german-zersetzung.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/6-czechoslovak-normalizace.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/7-romanian-secu.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/8-iran-revolutionary-courts.md": [
-  "tags"
- ],
- "content/kompendium/historical-cases/9-cuban-akty-repudio.md": [
-  "tags"
- ],
- "content/kompendium/konceptualni-mapa/_index.md": [
-  "description"
  ],
  "content/kompendium/organizational-defense/1-board-resilience.md": [
   "description",
@@ -1889,9 +958,6 @@
   "diacritics",
   "not-orphan"
  ],
- "content/kompendium/recovery-protocols/_index.md": [
-  "description"
- ],
  "content/kompendium/recovery-protocols/acute-cognitive-anchoring.md": [
   "related"
  ],
@@ -1989,9 +1055,6 @@
   "description"
  ],
  "content/kompendium/research-methodology/meta-analysis-EA.md": [
-  "description"
- ],
- "content/kompendium/section-bridges/_index.md": [
   "description"
  ],
  "content/kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md": [
@@ -2098,8 +1161,7 @@
   "not-orphan"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-visualizations.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/section-bridges/bridge-visualizations-to-clinical.md": [
   "related",
@@ -2194,21 +1256,6 @@
   "description"
  ],
  "content/kompendium/self-defense-guides/9-attention-management.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-1-1-1-selektivni-expozice.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-2-1-1-expertni-disinflation.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md": [
   "description"
  ],
  "content/kompendium/techniques/ea-2-1-3-credentialing-attack.md": [
@@ -2306,366 +1353,6 @@
  ],
  "content/kompendium/techniques/ea-4-4-9-narrative-reconstruction.md": [
   "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-13-hyperreflexivita.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-20-holograficka-redukce.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-4-semanticka-imploze.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-7-referencni-rekurze.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-12-noumenalni-paralyza.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-23-synteticka-paralyza.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-26-schemata-rozpad.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-27-apriorni-deformace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-4-apriorni-saturace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-3-16-fenomenologicka-rekonstituce.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-17-existencialni-rekonfigurace.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-26-core-self-fraktura.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-27-ego-skeletalni-redukce.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-5-temporalne-vyvojova-inverze.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-13-heterolog-self-aplikace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-14-iliada-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-15-holisticka-self-reference-zhrouceni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-18-circular-justification-trap.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-19-self-undermining-claim.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-2-russell-typ-violace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-21-semanticka-vzpoury.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-25-soritska-paradox-zneuziti.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-26-heap-paradox-eskalace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-27-ship-of-theseus-aplikace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-28-trolley-paradox-iterace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-29-newcomb-paradox-implantace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-31-paradox-vsemocnosti.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-32-paradox-tolerance.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-33-paradox-svobody.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-34-paradox-pravdy-prizemni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-35-surprize-test-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-36-unexpected-hanging.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-37-paradox-prediktivni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-38-self-defeating-prediction.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-39-tachyon-anti-causality.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-4-godel-reflexivita.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-40-retrokauzalita-trap.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-42-grandfather-paradox-aplikace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-43-predestiny-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-44-simulation-regress-trap.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-45-cogito-paradox-zhrouceni.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-46-evil-demon-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-47-matrix-paradox-implantace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-48-boltzmannska-paradox-self.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-49-mary-paradox-knowledge.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-5-wittgenstein-pravidlo-rozklad.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-50-zombie-paradox-self.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-51-inverted-spectrum-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-52-ship-of-self-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-53-teleporter-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-54-fission-paradox-self.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-55-fusion-paradox-self.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-56-duplicate-paradox-self.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-57-branch-paradox-self.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-58-trans-temporal-self-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-59-meta-paradox-aplikace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-6-konvergentni-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-60-konvergentni-meta-paradox.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-7-epimenidovska-implantace.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-8-quineho-paradox-vlnoviny.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-5-4-9-cantorova-diagonalizace-aplikace.md": [
-  "description"
  ],
  "content/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md": [
   "description"
@@ -2781,30 +1468,6 @@
  "content/kompendium/techniques/ea-7-3-10-tononi-iit.md": [
   "description"
  ],
- "content/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-8-2-3-singer-six-conditions.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-8-2-5-stark-coercive-control.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-8-2-7-dsm-5-tr-trauma.md": [
-  "description"
- ],
- "content/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-3-1-foundational-readings.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-8-3-10-information-warfare-literature.md": [
   "czech"
  ],
@@ -2812,22 +1475,10 @@
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-8-3-3-philosophical-canon.md": [
-  "description",
-  "czech",
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-3-4-empirical-research-base.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-3-6-contemporary-cases.md": [
-  "not-orphan"
+  "czech"
  ],
  "content/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md": [
-  "czech",
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md": [
-  "not-orphan"
+  "czech"
  ],
  "content/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md": [
   "related"
@@ -2854,8 +1505,7 @@
   "related"
  ],
  "content/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md": [
   "related"
@@ -2899,8 +1549,7 @@
   "related"
  ],
  "content/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-2-9-AI-document-forgery.md": [
   "description",
@@ -3061,151 +1710,20 @@
   "description",
   "related"
  ],
- "content/kompendium/visualizations/_index.md": [
-  "description"
- ],
  "content/philosophy/_index.md": [
-  "description",
   "czech"
  ],
  "content/philosophy/boundary-ethics.md": [
-  "description",
   "czech",
-  "related",
-  "links-out"
+  "related"
  ],
  "content/philosophy/epistemic-integrity.md": [
   "czech",
-  "related",
-  "links-out"
+  "related"
  ],
  "content/philosophy/intellectual-sovereignty.md": [
-  "description",
   "czech",
   "related",
   "links-out"
- ],
- "term:akademicka-technika": [
-  "term-page"
- ],
- "term:akutni-naruseni": [
-  "term-page"
- ],
- "term:banalita-zla": [
-  "term-page"
- ],
- "term:bounded-choice": [
-  "term-page"
- ],
- "term:cynicky-rozum": [
-  "term-page"
- ],
- "term:demarkacni-problem": [
-  "term-page"
- ],
- "term:des-ii": [
-  "term-page"
- ],
- "term:diskursivni-formace": [
-  "term-page"
- ],
- "term:doctrine": [
-  "term-page"
- ],
- "term:doubling": [
-  "term-page"
- ],
- "term:ecri": [
-  "term-page"
- ],
- "term:edukativni-implementace": [
-  "term-page"
- ],
- "term:epistemicka-nespravedlnost": [
-  "term-page"
- ],
- "term:fllm": [
-  "term-page"
- ],
- "term:fuze-horizontu": [
-  "term-page"
- ],
- "term:gitl": [
-  "term-page"
- ],
- "term:habitus": [
-  "term-page"
- ],
- "term:hermeneuticka-marginalizace": [
-  "term-page"
- ],
- "term:heuristika": [
-  "term-page"
- ],
- "term:ies-r": [
-  "term-page"
- ],
- "term:jazykova-hra": [
-  "term-page"
- ],
- "term:know": [
-  "term-page"
- ],
- "term:konfabulace": [
-  "term-page"
- ],
- "term:loading-the-language": [
-  "term-page"
- ],
- "term:lti-lingua-tertii-imperii": [
-  "term-page"
- ],
- "term:m5m": [
-  "term-page"
- ],
- "term:milieu-control": [
-  "term-page"
- ],
- "term:nclb": [
-  "term-page"
- ],
- "term:nmnd": [
-  "term-page"
- ],
- "term:normalni-veda": [
-  "term-page"
- ],
- "term:nwb": [
-  "term-page"
- ],
- "term:performativni-akt": [
-  "term-page"
- ],
- "term:ptsd": [
-  "term-page"
- ],
- "term:seal": [
-  "term-page"
- ],
- "term:system-1-system-2": [
-  "term-page"
- ],
- "term:tach": [
-  "term-page"
- ],
- "term:testimonialni-nespravedlnost": [
-  "term-page"
- ],
- "term:thought-reform": [
-  "term-page"
- ],
- "term:verejna-sfera": [
-  "term-page"
- ],
- "term:zero": [
-  "term-page"
- ],
- "term:zivotni-svet-lebenswelt": [
-  "term-page"
  ]
 }

@@ -5,6 +5,9 @@ description = "Jak tabákový průmysl od roku 1953 desítky let vyráběl pochy
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"

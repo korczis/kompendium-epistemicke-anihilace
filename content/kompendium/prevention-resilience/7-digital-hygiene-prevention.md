@@ -27,7 +27,7 @@ Prevence digitálních forem EA: doomscrolling, social media addiction, parasoci
 
 ## Klíčové komponenty
 
-Time management, notification audit, algoritmus awareness, deepfake detection, parasocial boundaries, OPSEC základy, password hygiene.
+Time management, notification audit, algoritmus awareness, [deepfake](@/glossary/deepfake.md) detection, parasocial boundaries, OPSEC základy, password hygiene.
 
 ---
 

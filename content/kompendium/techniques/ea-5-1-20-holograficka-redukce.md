@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.20 Holografická redukce"
-description = "Detailní per-technique článek: technika holografické redukce — vynucení interpretace, podle níž každá část zkušenosti obsahuje kompletní vzorec celku, eliminující perspektivální diferenciaci a produkující pseudo-totalitní pohled na svět."
+description = "Detailní per-technique článek: technika holografické redukce — vynucení interpretace, podle níž každá část zkušenosti obsahuje kompletní vzorec celku."
 weight = 520
 insert_anchor_links = "right"
 
@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 ## Definice
 
-**Holografická redukce** je technika, která vynucuje u subjektu **interpretační režim**, podle něhož **každý fragment zkušenosti obsahuje kompletní vzorec celku** — analogicky tomu, jak holografická deska obsahuje v každém svém bodu redukovaný obraz celé scény. Subjekt tak ztrácí schopnost **perspektivální diferenciace**: nedokáže rozlišit, co je *celek*, co je *část*, a co je pouze *jedna možná interpretace*.
+**Holografická redukce** je technika, která vynucuje u subjektu **interpretační režim**, podle něhož **každý fragment zkušenosti obsahuje kompletní vzorec celku** — analogicky tomu, jak holografická deska obsahuje v každém svém bodu redukovaný obraz celé scény. Subjekt tak ztrácí schopnost **perspektivální [diferenciace](@/glossary/diferenciace.md)**: nedokáže rozlišit, co je *celek*, co je *část*, a co je pouze *jedna možná interpretace*.
 
 Výsledkem je **pseudo-totalitní pohled na svět**, v němž **veškerá evidence je interpretována jako potvrzující** centrální tezi. Náhodný rozhovor v autobusu, výsledek sportovního zápasu, počasí, ekonomická data, gesta druhých — všechno je čteno jako „fraktální projev“ centrálního vzorce. Subjekt prožívá **enormní explanační moc** svého rámce, zatímco strukturálně tato moc pochází z **eliminace falsifikačních podmínek**.
 

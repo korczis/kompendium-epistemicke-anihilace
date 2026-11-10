@@ -56,7 +56,7 @@ vymýšlení, ambivalenci jako lež, odborné pojmy jako koučování.
 
 - **Kvalitní první výslech.** Nejcennější je výpověď získaná co nejdříve, nesugestivně a se
   záznamem (viz [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md)).
-- **Omezení opakování.** Každý další výslech zvyšuje riziko retraumatizace i kontaminace.
+- **Omezení opakování.** Každý další výslech zvyšuje riziko [retraumatizace](@/glossary/retraumatizace.md) i kontaminace.
 - **Dokumentace vývoje.** U každé výpovědi zaznamenat, co bylo nové a v jaké souvislosti
   se objevilo.
 - **Hodnocení v kontextu.** Nekonzistence posuzovat ve světle povahy zneužívání, nikoli

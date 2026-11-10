@@ -201,14 +201,14 @@ Startup CEO získal $50M funding na základě **highly persuasive** pitch. 18 m�
 Detekce: Post-mortem identifikoval, že:
 
 - CEO byl trained in „executive presence“ — prosodie optimalizovaná
-- Due diligence bylo **superficial** — investors **defaulted** na prosodic confidence
+- [Due diligence](@/glossary/due-diligence.md) bylo **superficial** — investors **defaulted** na prosodic confidence
 - Written business plan byl **vague** v klíčových aspektech
 
 Intervence: VC firma redesigned due diligence — required **detailed written documentation** + **independent technical review** before investment.
 
 ### Případ 3 — Klinická konzultace
 
-Pacient s vážnou diagnózou dostal **authoritative recommendation** pro specifický léčebný plán. **Acceptace** byla rapid, **bez** explicit informed consent process.
+Pacient s vážnou diagnózou dostal **authoritative recommendation** pro specifický léčebný plán. **Acceptace** byla rapid, **bez** explicit [informed consent](@/glossary/informed-consent.md) process.
 
 Detekce: Patient advocate identifikoval vzorec — pacienti accepted recommendations bez exploration alternative.
 
@@ -225,7 +225,7 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec „Guru a adept“** — guru typically má vysoce trained prosodii; **klíčový** mechanism establishment autority.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru typically má vysoce trained prosodii; **klíčový** mechanism establishment autority.
 - **Kolektivní prosodická norma** — strukturální dominance v institucionálním měřítku (např. **executive culture**).
 
 ### Hraniční / podobné
@@ -235,7 +235,7 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
 
 ## Vztah k Prismatic platformě
 
-- **Source weighting in OSINT/Decision Engine** — explicitní strukturální obrana: kvalita zdroje není měřena prosodií, ale dokumentovanou track record + methodological standards.
+- **Source weighting in OSINT/[Decision Engine](@/glossary/decision-engine.md)** — explicitní strukturální obrana: kvalita zdroje není měřena prosodií, ale dokumentovanou track record + methodological standards.
 - **Written-first decision protocol** — klíčová rozhodnutí Prismatic platformy musí mít **written justification** předem, **before** verbal deliberation.
 - **Multi-modal verification** — žádné rozhodnutí nezávisí výhradně na verbal source.
 

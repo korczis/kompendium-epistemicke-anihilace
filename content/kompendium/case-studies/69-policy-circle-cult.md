@@ -132,7 +132,7 @@ byl upraven pro prostředí veřejné správy:
   Teprve s dokumenty byla schopná rozlišit svou odpovědnost od odpovědnosti okruhu.
 - **S2 – Externalizace introjektů.** Oddělení věty „úředníci sabotují“ od vlastní profesní
   identity, která byla patnáct let založena právě na úřední nestrannosti.
-- **S3 – Rekonstrukce metakognice.** Nácvik zpomalení: žádné rozhodnutí pod uměle vytvořeným
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Nácvik zpomalení: žádné rozhodnutí pod uměle vytvořeným
   termínem, nejprve otázka „kdo tento termín stanovil a proč“.
 - **S4 – Hermeneutická obnova.** Přijetí, že okruh nebyl jen manipulací, že v něm byla skutečná
   energie a skutečné výsledky, a že obojí může platit současně.

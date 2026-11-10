@@ -65,7 +65,7 @@ Pojem pomáhá vysvětlit, proč odchod z uzavřené skupiny bývá provázen �
 
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen / Philosophical Investigations*.
 - Kripke, S. A. (1982). *Wittgenstein on Rules and Private Language*.
-- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 
 ## Související
 

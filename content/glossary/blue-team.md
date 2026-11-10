@@ -1,16 +1,15 @@
 +++
 title = "Blue Team"
 weight = 20
-description = "Epistemic defense team producing structured evidence through signal aggregation, drift detection, and NABLA-compliant defensive posture assessments across the Prismatic Platform"
+description = "Tým epistemické obrany v Color Teams Prismatic Platform: slučování signálů, detekce posunu a strukturované důkazy místo výstrah, v souladu s axiomy NABLA."
 
 [taxonomies]
-tags = ["glossary", "security", "color-teams", "epistemic-defense", "signal-aggregation", "drift-detection", "evidence-synthesis", "nabla"]
+tags = ["glossary", "security", "color-teams", "nabla", "prismatic"]
 
 [extra]
 category = "security"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "18 min"
 difficulty = "advanced"
 quality_score = 95
 technical_level = "expert"
@@ -27,79 +26,116 @@ external_resources = ["https://hexdocs.pm/elixir/processes.html", "https://erlan
 version_introduced = "gen-8"
 stability_level = "stable"
 testing_scenarios = ["drift-detection-accuracy", "signal-aggregation-completeness", "evidence-synthesis-quality", "defensive-posture-validation"]
-keywords = ["blue team", "epistemic defense", "signal aggregation", "drift detection", "evidence synthesis", "defensive posture", "NABLA compliance", "color teams"]
 related_terms = ["color-teams", "red-team", "purple-team", "nabla-infinity", "signal-plurality", "white-team", "black-team", "gray-team", "blue-team", "contradiction-preservation", "epistemic-robustness", "confidence-scoring", "drift-detection"]
-word_count = 2613
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Blue Team - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-The Blue Team is a defensive Color Team composed of 4 specialized [agents](@/glossary/agent.md) focused on epistemic defense through evidence synthesis. In traditional cybersecurity, a blue team defends networks against attacks. In the Prismatic Platform, the Blue Team defends the **epistemic integrity** of the platform's knowledge systems -- ensuring that beliefs are well-evidenced, signals are not corrupted, and the platform's reasoning has not drifted from its validated baseline.
+**Blue Team** je obranný tým v rámci [Color Teams](@/glossary/color-teams.md), složený ze
+čtyř specializovaných [agentů](@/glossary/agent.md) zaměřených na epistemickou obranu
+prostřednictvím syntézy důkazů. V tradiční kybernetické bezpečnosti brání blue team sítě
+proti útokům. Na Prismatic Platform brání Blue Team **epistemickou integritu** znalostních
+systémů platformy – stará se o to, aby přesvědčení byla dobře doložena, signály nebyly
+poškozeny a uvažování platformy se neodchýlilo od ověřeného výchozího stavu.
 
-The fundamental distinction between Prismatic's Blue Team and conventional blue teams is the output type. A conventional blue team produces **alerts**: "suspicious login detected," "malware signature found," "anomalous traffic observed." Prismatic's Blue Team produces **structured evidence**: documented observations with [provenance](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/), confidence levels, [signal plurality](@/glossary/signal-plurality.md) compliance, and explicit uncertainty quantification. Alerts are ephemeral and actionable; evidence is persistent and analyzable.
+Zásadní rozdíl mezi Blue Teamem platformy a běžnými blue teamy je v typu výstupu. Běžný
+blue team vytváří **výstrahy**: „zjištěno podezřelé přihlášení“, „nalezen podpis malwaru“,
+„pozorován neobvyklý provoz“. Blue Team platformy vytváří **strukturované důkazy**:
+zdokumentovaná pozorování s původem, mírou důvěry, souladem s pluralitou signálů (viz
+[Signal Plurality](@/glossary/signal-plurality.md)) a výslovnou kvantifikací nejistoty.
+Výstrahy jsou pomíjivé a slouží k okamžité akci; důkazy jsou trvalé a lze je analyzovat.
 
-This shift from alerts to evidence reflects the platform's [NABLA Infinity](@/glossary/nabla-infinity.md) axiom framework. An alert that says "drift detected" is a single signal that may or may not warrant action. A structured evidence artifact that documents the drift, provides multiple independent measurements, preserves contradictory observations, and traces its reasoning back to raw telemetry data is a knowledge claim that can be verified, disputed, refined, and synthesized with other evidence through the [Purple Team](@/glossary/purple-team.md).
+Tento posun od výstrah k důkazům odráží rámec axiomů [NABLA
+Infinity](@/glossary/nabla-infinity.md). Výstraha „zjištěn posun“ je jediný signál, který
+může, ale nemusí vyžadovat akci. Strukturovaný důkazní artefakt, který posun dokumentuje,
+přináší více nezávislých měření, zachovává protichůdná pozorování a vede své uvažování zpět
+k surové telemetrii, je tvrzením o vědění, které lze ověřit, zpochybnit, zpřesnit
+a prostřednictvím [Purple Teamu](@/glossary/purple-team.md) sloučit s jinými důkazy.
 
-## The 4 Blue Team Agents
+**Vztah ke knize:** Blue Team patří do kontextu platformy, z níž Kompendium vzešlo. Jeho
+zásady – víc nezávislých zdrojů pro každé tvrzení, zachování rozporů, sledování postupného
+posunu pod prahem pozornosti – jsou strojovou obdobou obrany, kterou kniha doporučuje lidem
+(viz [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
+a [Detekční signatury](@/kompendium/detection-signatures/_index.md)). Obranu proti technikám
+EA na platformě popisuje stránka [Blue Team: obrana proti
+EA](@/kompendium/aiad-integration/blue-team-ea-defense.md).
 
-The Blue Team operates under the command of a single L3 Strategic Commander with three L2 Operational Specialists. Each agent has a distinct domain responsibility, and together they provide comprehensive defensive coverage across the platform.
+## Čtyři agenti Blue Teamu
+
+Blue Team působí pod velením jediného strategického velitele L3 se třemi provozními
+specialisty L2 (viz [Agent Tier](@/glossary/agent-tier.md)). Každý agent má samostatnou
+doménovou odpovědnost a dohromady poskytují komplexní obranné pokrytí platformy.
 
 ### blue-commander (L3 Strategic Commander)
 
-The blue-commander orchestrates all Blue Team operations. It synthesizes evidence from the three specialists into a unified defensive posture assessment, prioritizes investigation targets, and routes evidence to the [Purple Team](@/glossary/purple-team.md) for synthesis with [Red Team](@/glossary/red-team.md) adversarial findings.
+Blue-commander řídí všechny operace Blue Teamu. Slučuje důkazy od tří specialistů do
+jednotného hodnocení obranného postoje, určuje priority šetření a předává důkazy [Purple
+Teamu](@/glossary/purple-team.md) k syntéze s adversariálními zjištěními [Red
+Teamu](@/glossary/red-team.md).
 
-| Attribute | Value |
+| Atribut | Hodnota |
 |-----------|-------|
-| **Classification** | L3 Strategic Commander |
-| **Authority** | Full Blue Team coordination, evidence synthesis, Purple Team reporting |
-| **Inputs** | Specialist evidence reports, Red Team findings (via Purple), platform telemetry |
-| **Outputs** | Unified defensive posture, investigation directives, evidence packages for Purple |
-| **NABLA Compliance** | Enforces all 7 axioms across all Blue evidence outputs |
+| **Klasifikace** | L3 Strategic Commander |
+| **Oprávnění** | plná koordinace Blue Teamu, syntéza důkazů, hlášení Purple Teamu |
+| **Vstupy** | důkazní zprávy specialistů, zjištění Red Teamu (přes Purple), telemetrie platformy |
+| **Výstupy** | jednotný obranný postoj, pokyny k šetření, důkazní balíčky pro Purple |
+| **Soulad s NABLA** | vynucuje všech 7 axiomů ve všech důkazních výstupech |
 
-The blue-commander's primary output is the **Defensive Posture Assessment** -- a structured document that represents the Blue Team's current understanding of the platform's epistemic health. This assessment includes:
+Hlavním výstupem blue-commandera je **hodnocení obranného postoje** (*Defensive Posture
+Assessment*) – strukturovaný dokument, který zachycuje, jak Blue Team aktuálně rozumí
+epistemickému zdraví platformy. Obsahuje:
 
-- Current belief integrity status across all domains
-- Active drift trends (improving, stable, or degrading)
-- Open contradictions that require Purple Team synthesis
-- Confidence levels for all defensive conclusions
-- Evidence gaps where additional investigation is needed
+- aktuální stav integrity přesvědčení ve všech doménách;
+- aktivní trendy posunu (zlepšení, stabilita, zhoršení);
+- otevřené rozpory, které vyžadují syntézu Purple Teamem;
+- míru důvěry všech obranných závěrů;
+- mezery v důkazech, kde je potřeba další šetření.
 
 ### blue-auth-sentinel (L2 Operational Specialist)
 
-The blue-auth-sentinel monitors authentication and authorization boundaries across the platform. It detects privilege escalation attempts, unauthorized access patterns, and authentication bypass conditions.
+Blue-auth-sentinel sleduje hranice autentizace a autorizace v celé platformě. Odhaluje pokusy
+o eskalaci oprávnění, vzorce neoprávněného přístupu a podmínky, za nichž lze autentizaci
+obejít.
 
-| Attribute | Value |
+| Atribut | Hodnota |
 |-----------|-------|
-| **Classification** | L2 Operational Specialist |
-| **Authority** | Authentication boundary monitoring, read-only platform access |
-| **Focus Areas** | Login patterns, token validation, RBAC enforcement, session integrity |
-| **Detection Methods** | Behavioral analysis, threshold monitoring, pattern matching |
-| **Output Format** | Evidence artifacts with access log provenance |
+| **Klasifikace** | L2 Operational Specialist |
+| **Oprávnění** | sledování hranic autentizace, přístup k platformě jen pro čtení |
+| **Oblasti zaměření** | vzorce přihlašování, validace tokenů, vynucení RBAC, integrita relací |
+| **Metody detekce** | behaviorální analýza, sledování prahů, porovnávání vzorů |
+| **Formát výstupu** | důkazní artefakty s původem v přístupových logech |
 
-The auth-sentinel operates at the boundary between external users and internal platform state. It monitors:
+Auth-sentinel působí na hranici mezi vnějšími uživateli a vnitřním stavem platformy.
+Sleduje:
 
-- **Authentication attempts**: Patterns of failed logins, credential stuffing indicators, brute-force detection
-- **Authorization boundaries**: Requests that test RBAC limits, privilege escalation sequences, role confusion attempts
-- **Token integrity**: [JWT](https://prismatic-reality-com.github.io/prismatic-promo/glossary/jwt/) validation failures, token reuse detection, session fixation indicators
-- **API boundary**: [REST API](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) access patterns, [rate limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) triggers, [OpenAPI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/openapi/) schema violation attempts
+- **pokusy o autentizaci** – vzorce neúspěšných přihlášení, znaky zkoušení ukradených
+  přihlašovacích údajů, detekci útoků hrubou silou;
+- **hranice autorizace** – požadavky, které testují meze RBAC, sledy eskalace oprávnění,
+  pokusy o záměnu rolí;
+- **integritu tokenů** – selhání validace JWT, opakované použití tokenů, znaky fixace relace;
+- **hranici API** – vzorce přístupu k REST API, spouštění omezení četnosti, pokusy
+  o porušení schématu OpenAPI.
 
 ### blue-drift-detector (L2 Operational Specialist)
 
-The blue-drift-detector is the Blue Team's most broadly scoped specialist. It monitors four dimensions of drift across all 90+ umbrella applications, detecting gradual changes that individually fall below alert thresholds but collectively indicate systemic degradation.
+Blue-drift-detector je specialista Blue Teamu s nejširším záběrem. Sleduje čtyři rozměry
+posunu ve všech (v době zápisu 90+) aplikacích umbrella projektu a odhaluje postupné změny,
+které jednotlivě leží pod prahem výstrahy, ale dohromady ukazují na systémové zhoršení.
 
-| Drift Dimension | What It Monitors | Detection Method | Alert Condition |
+| Rozměr posunu | Co sleduje | Metoda detekce | Podmínka výstrahy |
 |-----------------|-----------------|------------------|-----------------|
-| **Behavioral** | Function call patterns, execution paths, output distributions | Statistical comparison against baseline | Distribution shift > 2 standard deviations |
-| **Configuration** | Application config, environment variables, feature flags | Diff against committed configuration | Any unauthorized or undocumented change |
-| **Dependency** | Library versions, external API contracts, data schemas | Version tracking, contract testing | Breaking changes, security advisories |
-| **Performance** | Response latency, throughput, resource utilization | Time-series analysis with seasonal adjustment | Sustained deviation > 20% from baseline |
+| **behaviorální** | vzorce volání funkcí, cesty provádění, rozložení výstupů | statistické srovnání s výchozím stavem | posun rozložení > 2 směrodatné odchylky |
+| **konfigurační** | konfigurace aplikací, proměnné prostředí, přepínače funkcí | rozdíl proti zapsané konfiguraci | jakákoli neoprávněná nebo nezdokumentovaná změna |
+| **závislostní** | verze knihoven, kontrakty vnějších API, datová schémata | sledování verzí, testování kontraktů | zpětně nekompatibilní změny, bezpečnostní upozornění |
+| **výkonnostní** | latence odezvy, propustnost, využití zdrojů | analýza časových řad se sezonní úpravou | trvalá odchylka > 20 % od výchozího stavu |
 
-The drift-detector's critical contribution is detecting **sub-threshold drift**: changes that are individually too small to trigger conventional alerts but accumulate over time into significant degradation. This is analogous to the "boiling frog" problem in physical systems -- gradual temperature increases that never trigger a discrete alarm but eventually become lethal.
+Klíčovým přínosem detektoru je odhalení **posunu pod prahem**: změn, které jsou jednotlivě
+příliš malé na spuštění běžné výstrahy, ale časem se nasčítají do významného zhoršení.
+Odpovídá to známému přirovnání o „vařené žábě“: postupné zvyšování teploty nikdy nespustí
+jednotlivý poplach, a přesto se nakonec stane smrtelným. Stejnou strukturu má mnoho technik
+manipulace, které Kompendium popisuje – posun po malých krocích, z nichž žádný nevypadá jako
+hranice (srov. [Gaslighting](@/glossary/gaslighting.md)).
 
 ```elixir
 defmodule PrismaticSecurity.BlueDriftDetector do
@@ -149,80 +185,91 @@ defmodule PrismaticSecurity.BlueDriftDetector do
   end
 end
 ```
-
 ### blue-signal-aggregator (L2 Operational Specialist)
 
-The blue-signal-aggregator correlates signals across domains, enforcing [signal plurality](@/glossary/signal-plurality.md) (minimum 2 independent signals per belief) and producing synthesized evidence from multiple sources. This agent is the Blue Team's primary interface with the [NABLA Infinity](@/glossary/nabla-infinity.md) axiom framework.
+Blue-signal-aggregator koreluje signály napříč doménami, vynucuje [pluralitu
+signálů](@/glossary/signal-plurality.md) (nejméně 2 nezávislé signály na každé přesvědčení)
+a vytváří syntetizované důkazy z více zdrojů. Je hlavním rozhraním Blue Teamu s rámcem axiomů
+[NABLA Infinity](@/glossary/nabla-infinity.md).
 
-| Attribute | Value |
+| Atribut | Hodnota |
 |-----------|-------|
-| **Classification** | L2 Operational Specialist |
-| **Authority** | Cross-domain signal correlation, read-only access to all domain telemetry |
-| **Primary Function** | Enforce signal plurality, correlate independent signals, produce synthesized evidence |
-| **NABLA Axioms** | Primary enforcer of Signal Plurality and Source Independence |
-| **Output** | Correlated signal packages with plurality certification |
+| **Klasifikace** | L2 Operational Specialist |
+| **Oprávnění** | korelace signálů napříč doménami, přístup k telemetrii všech domén jen pro čtení |
+| **Hlavní funkce** | vynutit pluralitu signálů, korelovat nezávislé signály, vytvářet syntetizované důkazy |
+| **Axiomy NABLA** | hlavní vynucovač Signal Plurality a Source Independence |
+| **Výstup** | balíčky korelovaných signálů s osvědčením plurality |
 
-The signal-aggregator answers a critical question for every Blue Team finding: **Is this observation supported by at least two independent sources?** A single anomalous measurement could be sensor noise. Two independent measurements of the same anomaly from different sources is signal.
+Signal-aggregator odpovídá u každého zjištění Blue Teamu na zásadní otázku: **Opírá se toto
+pozorování alespoň o dva nezávislé zdroje?** Jediné neobvyklé měření může být šum senzoru.
+Dvě nezávislá měření téže anomálie z různých zdrojů jsou signál.
 
-Signal independence tracking requires understanding source correlation:
+Sledování nezávislosti signálů vyžaduje porozumět korelaci zdrojů:
 
-| Source Combination | Independence | Rationale |
+| Kombinace zdrojů | Nezávislost | Zdůvodnění |
 |-------------------|--------------|-----------|
-| Shodan scan + Censys scan | High | Different scanning infrastructure, different methodologies |
-| Two Shodan scans | Low | Same infrastructure, same methodology, different times |
-| Port scan + Service banner | Medium | Same target, different observation types |
-| Telemetry metric + Log entry | High | Different collection systems, different data types |
+| sken [Shodan](@/glossary/shodan.md) + sken [Censys](@/glossary/censys.md) | vysoká | jiná skenovací infrastruktura, jiné metodiky |
+| dva skeny Shodan | nízká | stejná infrastruktura i metodika, jiný čas |
+| sken portů + banner služby | střední | stejný cíl, jiný typ pozorování |
+| telemetrická metrika + záznam v logu | vysoká | jiné sběrné systémy, jiné typy dat |
 
-## Defensive Posture Assessment
+## Hodnocení obranného postoje
 
-The Blue Team's primary deliverable is the Defensive Posture Assessment (DPA), a structured evidence document that represents the current state of the platform's epistemic defenses. The DPA is not a dashboard or a metric -- it is a formal evidence artifact that passes through [Trinity Gate](@/glossary/trinity-gate.md) validation.
+Hlavním výstupem Blue Teamu je hodnocení obranného postoje (DPA), strukturovaný důkazní
+dokument, který zachycuje aktuální stav epistemické obrany platformy. DPA není dashboard ani
+metrika – je to formální důkazní artefakt, který prochází validací v [Trinity
+Gate](@/glossary/trinity-gate.md).
 
-The DPA structure:
-
-| Section | Content | Confidence Requirement |
+| Oddíl | Obsah | Požadovaná důvěra |
 |---------|---------|----------------------|
-| **Integrity Status** | Current belief graph health, axiom compliance rates | >= 0.90 |
-| **Active Drift Trends** | Per-dimension drift analysis across all applications | >= 0.80 |
-| **Open Contradictions** | Unresolved contradictory evidence requiring synthesis | N/A (contradictions are preserved, not resolved) |
-| **Evidence Gaps** | Areas where signal plurality is not met | N/A (gaps are documented, not filled) |
-| **Threat Posture** | Assessment incorporating Red Team findings | >= 0.85 |
-| **Recommendations** | Prioritized actions to strengthen defenses | >= 0.80 |
+| **stav integrity** | zdraví grafu přesvědčení, míra souladu s axiomy | ≥ 0,90 |
+| **aktivní trendy posunu** | analýza posunu podle rozměrů ve všech aplikacích | ≥ 0,80 |
+| **otevřené rozpory** | nevyřešené protichůdné důkazy, které vyžadují syntézu | nepoužije se (rozpory se zachovávají, neřeší) |
+| **mezery v důkazech** | oblasti, kde není splněna pluralita signálů | nepoužije se (mezery se dokumentují, nevyplňují) |
+| **postoj k hrozbám** | hodnocení se zohledněním zjištění Red Teamu | ≥ 0,85 |
+| **doporučení** | prioritizované kroky k posílení obrany | ≥ 0,80 |
 
-The DPA is produced on a regular cadence and on-demand when triggered by significant events (Red Team findings, Purple Team closure failures, platform upgrades). Each DPA is versioned, timestamped, and stored with full provenance, enabling trend analysis over time.
+DPA vzniká v pravidelném rytmu a na vyžádání při významných událostech (zjištění Red Teamu,
+neúspěšné uzavření v Purple Teamu, aktualizace platformy). Každé DPA je verzované, opatřené
+časovým razítkem a uložené s úplným původem, takže lze sledovat vývoj v čase.
 
-## NABLA Axiom Grounding
+## Ukotvení v axiomech NABLA
 
-The Blue Team's evidence production is fundamentally grounded in [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. This grounding is not optional -- it is structurally enforced through the evidence data model:
+Tvorba důkazů Blue Teamu je zásadně ukotvena v axiomech [NABLA
+Infinity](@/glossary/nabla-infinity.md) (viz [NABLA Axioms](@/glossary/nabla-axioms.md)).
+Ukotvení není volitelné – je strukturálně vynuceno datovým modelem důkazů:
 
-| Axiom | Blue Team Application | Enforcement |
+| Axiom | Uplatnění v Blue Teamu | Vynucení |
 |-------|----------------------|-------------|
-| **Signal Plurality** | Every finding requires 2+ independent signals. Signal-aggregator certifies plurality. | HARD -- single-signal findings are quarantined, not published |
-| **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | When one detector finds drift and another finds stability, both observations are preserved | HARD -- contradictions annotated with severity and routed to Purple |
-| **Absence Informative** | Expected signals that are missing are tracked. A service that should emit telemetry but does not is itself a finding | SOFT -- absence logged, investigation triggered |
-| **[Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | Evidence older than the configured staleness threshold receives reduced weight | HARD -- stale evidence decays toward neutral confidence |
-| **Unknown Valid** | When evidence is insufficient for a determination, the Blue Team reports "unknown" rather than guessing | HARD -- forced determinations are forbidden |
-| **Source Independence** | Signal-aggregator tracks source correlation and discounts correlated observations | SOFT -- correlated sources flagged, independence assessment included |
-| **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | Every evidence artifact traces back to raw telemetry through documented processing steps | HARD -- unprovenanced evidence rejected |
+| **Signal Plurality** | každé zjištění vyžaduje 2+ nezávislé signály; signal-aggregator pluralitu osvědčuje | TVRDÉ – zjištění z jediného signálu jsou v karanténě, nezveřejňují se |
+| **Contradiction Preservation** | když jeden detektor zjistí posun a druhý stabilitu, zachovají se obě pozorování | TVRDÉ – rozpory se opatří závažností a předají Purple |
+| **Absence Informative** | sledují se očekávané signály, které chybějí; služba, která by měla vysílat telemetrii, a nevysílá, je sama zjištěním | MĚKKÉ – nepřítomnost se zapíše, spustí se šetření |
+| **Time Decay** | důkazy starší než nastavený práh zastarání mají nižší váhu | TVRDÉ – zastaralé důkazy stárnou k neutrální důvěře |
+| **Unknown Valid** | když důkazy na určení nestačí, Blue Team hlásí „neznámé“, místo aby hádal | TVRDÉ – vynucená určení jsou zakázána |
+| **Source Independence** | signal-aggregator sleduje korelaci zdrojů a snižuje váhu korelovaných pozorování | MĚKKÉ – korelované zdroje se označí, přiloží se hodnocení nezávislosti |
+| **Provenance Mandatory** | každý důkazní artefakt lze vystopovat k surové telemetrii přes zdokumentované kroky zpracování | TVRDÉ – důkazy bez původu se odmítají |
 
-## Evidence Synthesis vs. Alert Generation
+## Syntéza důkazů a generování výstrah
 
-The distinction between evidence synthesis and alert generation is central to understanding the Blue Team's role:
-
-| Dimension | Alert-Based Defense | Evidence-Based Defense (Blue Team) |
+| Hledisko | Obrana založená na výstrahách | Obrana založená na důkazech (Blue Team) |
 |-----------|--------------------|------------------------------------|
-| **Output** | "Anomaly detected at 14:32" | Structured evidence artifact with provenance chain |
-| **Confidence** | Binary (alert or no alert) | Continuous (0.0-1.0 with uncertainty quantification) |
-| **Contradiction Handling** | Alerts may contradict each other with no resolution | Contradictions preserved, annotated, and routed to Purple |
-| **Actionability** | Requires human interpretation | Can be machine-processed by Purple for synthesis |
-| **Persistence** | Typically ephemeral (alert fires and is acknowledged) | Persistent evidence enters the belief graph |
-| **Composability** | Individual alerts, difficult to combine | Evidence packages compose into larger assessments |
-| **NABLA Compliance** | Not applicable | Mandatory -- all evidence satisfies 7 axioms |
+| **Výstup** | „Anomálie zjištěna ve 14:32“ | strukturovaný důkazní artefakt s řetězcem původu |
+| **Důvěra** | binární (výstraha, nebo nic) | spojitá (0,0–1,0 s kvantifikací nejistoty) |
+| **Práce s rozpory** | výstrahy si mohou odporovat bez řešení | rozpory se zachovávají, anotují a předávají Purple |
+| **Použitelnost** | vyžaduje lidský výklad | Purple je může strojově zpracovat k syntéze |
+| **Trvalost** | obvykle pomíjivé (výstraha se spustí a potvrdí) | trvalé důkazy vstupují do grafu přesvědčení |
+| **Skládání** | jednotlivé výstrahy, obtížně kombinovatelné | důkazní balíčky se skládají do větších hodnocení |
+| **Soulad s NABLA** | nepoužije se | povinný – všechny důkazy splňují 7 axiomů |
 
-This approach enables the Purple Team to perform automated synthesis between Blue defensive evidence and Red adversarial findings, closing the adversarial-defensive loop programmatically rather than relying on manual review of alert logs.
+Tento přístup umožňuje Purple Teamu automatickou syntézu obranných důkazů Blue Teamu
+s adversariálními zjištěními Red Teamu, takže smyčka útoku a obrany se uzavírá programově,
+ne ručním procházením logů výstrah.
 
-## Red-Blue Loop Through Purple
+## Smyčka Red–Blue přes Purple
 
-The Blue Team does not interact with the [Red Team](@/glossary/red-team.md) directly. All Red-Blue interaction flows through the [Purple Team](@/glossary/purple-team.md), which serves as the synthesis hub for the adversarial-defensive loop:
+Blue Team s [Red Teamem](@/glossary/red-team.md) nekomunikuje přímo. Veškerá interakce Red–Blue
+prochází [Purple Teamem](@/glossary/purple-team.md), který je syntetizačním uzlem smyčky útoku
+a obrany:
 
 ```
 Red Team                    Purple Team                    Blue Team
@@ -238,121 +285,144 @@ Red Team                    Purple Team                    Blue Team
                    Closure decision
                    (all 4 conditions)
 ```
+Analýza uzavření v Purple Teamu vyžaduje před uzavřením cyklu Red–Blue čtyři podmínky:
 
-The Purple Team's closure analysis requires four conditions before a Red-Blue interaction cycle is considered closed:
+1. **útok reprodukován** – scénář Red Teamu byl reprodukován v sandboxu;
+2. **obrana ověřena** – protiopatření Blue Teamu řeší konkrétní útočný vektor;
+3. **regrese otestována** – obrana nevnáší nové zranitelnosti;
+4. **důkazy úplné** – důkazy Red i Blue splňují axiomy NABLA.
 
-1. **Attack Reproduced**: The Red Team's scenario has been reproduced in the sandbox
-2. **Defense Validated**: The Blue Team's countermeasure addresses the specific attack vector
-3. **Regression Tested**: The defense does not introduce new vulnerabilities
-4. **Evidence Complete**: Both Red and Blue evidence satisfies NABLA axioms
+Příspěvek Blue Teamu je zde zásadní: musí vytvořit důkaz, který není jen reaktivní („výstrahu
+jsme opravili“), ale strukturální („dvěma a více nezávislými signály jsme ověřili, že obrana
+je účinná, s důvěrou 0,92, a řetězec důkazů vede od původního zjištění Red Teamu přes
+implementaci obrany k validačnímu měření“).
 
-The Blue Team's contribution to this loop is critical: it must produce evidence that is not merely reactive ("we fixed the alert") but structural ("we have verified through 2+ independent signals that the defense is effective, with confidence 0.92, and the evidence chain traces from the original Red Team finding through our defense implementation to the validation measurement").
+## Ekosystém Color Teams
 
-## The Color Teams Ecosystem
+Blue Team působí v širším ekosystému 20 agentů v 6 [Color Teams](@/glossary/color-teams.md):
 
-The Blue Team operates within a broader ecosystem of 20 agents across 6 [Color Teams](@/glossary/color-teams.md):
-
-| Team | Role | Interaction with Blue |
+| Tým | Role | Interakce s Blue |
 |------|------|----------------------|
-| **[Gray Team](@/glossary/gray-team.md)** | Boundary exploration | Surfaces edge cases that Blue should monitor |
-| **[Red Team](@/glossary/red-team.md)** | Adversarial simulation | Produces attack scenarios that Blue defends against |
-| **Blue Team** | Epistemic defense | -- |
-| **[Purple Team](@/glossary/purple-team.md)** | Synthesis | Closes Red-Blue loop, validates Blue defenses |
-| **[White Team](@/glossary/white-team.md)** | Constructive verification | Formally verifies Blue Team evidence and defenses |
-| **[Black Team](@/glossary/black-team.md)** | Theoretical threat modeling | Abstract models inform Blue Team threat awareness |
+| **[Gray Team](@/glossary/gray-team.md)** | průzkum hranic | odhaluje okrajové případy, které má Blue sledovat |
+| **[Red Team](@/glossary/red-team.md)** | adversariální simulace | vytváří útočné scénáře, proti nimž se Blue brání |
+| **Blue Team** | epistemická obrana | – |
+| **[Purple Team](@/glossary/purple-team.md)** | syntéza | uzavírá smyčku Red–Blue, ověřuje obranu Blue |
+| **[White Team](@/glossary/white-team.md)** | konstruktivní ověřování | formálně ověřuje důkazy a obranu Blue |
+| **[Black Team](@/glossary/black-team.md)** | teoretické modelování hrozeb | abstraktní modely informují povědomí Blue o hrozbách |
 
-The signal flow follows a specific path: Gray surfaces boundary conditions that may become Red scenarios. Red produces adversarial findings. Purple synthesizes Red findings with Blue defensive evidence. White formally verifies the resulting defense claims. Black provides theoretical models that inform both Red attack generation and Blue defense design. Blue receives signals from all other teams (through Purple) and produces evidence that feeds back into the ecosystem.
+Tok signálů má určenou cestu: Gray odhaluje hraniční podmínky, z nichž se mohou stát scénáře
+Red. Red vytváří adversariální zjištění. Purple je slučuje s obrannými důkazy Blue. White
+formálně ověřuje výsledná tvrzení o obraně. Black poskytuje teoretické modely, které
+informují tvorbu útoků Red i návrh obrany Blue. Blue přijímá signály od všech ostatních týmů
+(přes Purple) a vytváří důkazy, které se vracejí do ekosystému.
 
-## Safety Protocols
+## Bezpečnostní protokoly
 
-All Blue Team operations are subject to the platform's security safety protocols:
-
-| Protocol | Enforcement |
+| Protokol | Vynucení |
 |----------|-------------|
-| **Read-Only Operations** | Blue agents have read-only access to platform state. They observe and measure but never modify. |
-| **Synthetic Data** | All Blue Team testing uses synthetic data. No real PII or production data enters Blue Team analysis. |
-| **Ethics Checks** | Automated validation runs every 10-15 seconds across all Blue agents. |
-| **Audit Logging** | Every Blue Team operation is logged in an immutable audit trail. |
-| **Scope Boundaries** | Blue agents cannot escalate to Gray or Red operations. Scope is strictly defensive. |
+| **operace jen pro čtení** | agenti Blue mají ke stavu platformy přístup jen pro čtení; pozorují a měří, nikdy nemění |
+| **syntetická data** | veškeré testování používá syntetická data; skutečné osobní údaje ani produkční data do analýzy nevstupují |
+| **etické kontroly** | automatická validace každých 10–15 sekund u všech agentů Blue |
+| **auditní logování** | každá operace se zapisuje do neměnné auditní stopy |
+| **hranice rozsahu** | agenti Blue nemohou eskalovat do operací Gray nebo Red; rozsah je přísně obranný |
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Ground every finding in NABLA axioms.** Blue Team evidence must satisfy all seven axioms before publication. Evidence that fails even one hard axiom is quarantined, not published. This discipline prevents the common failure mode where urgency overrides epistemic rigor.
+1. **Ukotvit každé zjištění v axiomech NABLA.** Důkazy musí před zveřejněním splnit všech
+   sedm axiomů. Důkaz, který nesplní jediný tvrdý axiom, jde do karantény. Tato kázeň brání
+   běžnému selhání, kdy naléhavost přebije epistemickou přísnost.
+2. **Udržovat nezávislé zdroje signálů pro každý sledovaný rozměr.** Každý kritický rozměr
+   má mít alespoň dvě nezávislé cesty pozorování – jiné sběrné systémy, jiné metodiky, jiná
+   místa pozorování.
+3. **Výslovně zachovávat rozpory.** Když drift-detector a auth-sentinel hodnotí týž jev
+   protichůdně, obě hodnocení se v DPA zachovají. Syntézu dělá Purple Team, zachování Blue
+   Team.
+4. **Vydávat strukturované důkazy, ne výstrahy.** Pokušení zredukovat důkaz pro jednoduchost
+   na binární výstrahu je třeba odolat – právě struktura umožňuje strojově zpracovatelnou
+   syntézu.
+5. **Sledovat posun pod prahem.** Měření pod prahem výstrahy se mohou nasčítat do
+   významného zhoršení; odhalit tyto postupné, jednotlivě neviditelné změny je hlavní
+   hodnotou detektoru.
+6. **Verzovat a označovat časem všechny důkazy.** Každý artefakt nese čas vzniku, výchozí
+   stav, s nímž byl srovnán, a verzi detektoru, který jej vytvořil.
+7. **Oddělit pozorování od výkladu.** Agenti Blue pozorují a měří, nevykládají a nedoporučují.
+   Výklad je odpovědností Purple Teamu. Oddělení brání tomu, aby obranné důkazy zkreslily
+   předčasné závěry.
 
-2. **Maintain independent signal sources for every active monitoring dimension.** The signal-aggregator requires at least two independent signals per belief. Design monitoring infrastructure so that every critical dimension has at least two independent observation paths -- different collection systems, different methodologies, different observation points.
+## Časté chyby
 
-3. **Preserve contradictions explicitly.** When the drift-detector and the auth-sentinel produce contradictory assessments of the same phenomenon, both assessments must be preserved in the Defensive Posture Assessment. The [Purple Team](@/glossary/purple-team.md) handles synthesis; the Blue Team handles preservation.
+1. **Únava z výstrah při příliš citlivé detekci posunu.** Příliš nízké prahy vytvoří záplavu
+   slabých zjištění, která zahltí analytiky a zastřou skutečné hrozby. Prahy se kalibrují
+   podle historických dat a míry falešných poplachů.
+2. **Zjištění z jediného zdroje vydávaná za důkaz.** Takové zjištění nesplňuje požadavek
+   plurality signálů. Je třeba odolat tlaku zveřejnit je jako „předběžný důkaz“ – musí být
+   výslovně označeno jako neověřené pozorování.
+3. **Směšování obrany Blue s útokem Red.** Agenti Blue mají přístup jen pro čtení a přísně
+   obranný rozsah. Operace, která mění stav systému nebo simuluje útoky, porušila hranici
+   rozsahu a musí být okamžitě zastavena.
+4. **Přehlížení časové dynamiky.** Metrika, která se při hodinovém vzorkování zdá stabilní,
+   může při minutovém rozlišení ukázat výrazný posun. Frekvence vzorkování má odpovídat
+   očekávanému časovému měřítku posunu.
+5. **Brát DPA jako metriku na dashboardu.** DPA je formální důkazní artefakt; jeho redukce
+   na jediné číslo zahodí strukturovanou informaci, která je pro syntézu cenná.
+6. **Neaktualizovat výchozí stav.** Detektor srovnává se zvoleným výchozím stavem; není-li
+   po legitimních změnách aktualizován, vznikají falešné poplachy. Je třeba řízený postup
+   aktualizace výchozího stavu s auditní stopou.
 
-4. **Emit structured evidence, not alerts.** The fundamental output of the Blue Team is structured evidence with provenance, confidence levels, and contradiction annotations. Avoid the temptation to reduce evidence to binary alerts for simplicity -- the structure is what enables machine-processable synthesis.
+## Případy užití
 
-5. **Monitor for sub-threshold drift.** Individual measurements that fall below alert thresholds can accumulate into significant degradation. The drift-detector's primary value is detecting these gradual, individually invisible changes.
+### Sledování kvality platformy
 
-6. **Version and timestamp all evidence artifacts.** Every evidence artifact must carry its creation timestamp, the baseline it was compared against, and the detector version that produced it. This enables trend analysis and retrospective investigation.
+Blue Team sleduje posun ve 13 doménách kvality platformy. Když se změní počet varování
+kompilace, porušení Credo nebo chyb Dialyzeru, drift-detector změnu zachytí,
+signal-aggregator ji dá do souvislosti s nedávnými změnami kódu a blue-commander vytvoří
+důkazní balíček pro strážce minimální kvality.
 
-7. **Separate observation from interpretation.** Blue Team agents observe and measure; they do not interpret or recommend. Interpretation is the [Purple Team](@/glossary/purple-team.md)'s responsibility. This separation ensures that defensive evidence is not biased by premature conclusions.
+### Hodnocení spolehlivosti zdrojů OSINT
 
-## Common Pitfalls
+Když zdroje [OSINT](@/glossary/osint.md) poskytují o téže entitě protichůdná data, Blue Team
+rozpor zachová a vytvoří strukturovaný důkaz, který dokumentuje, které zdroje se rozcházejí,
+jakou důvěru má každý zdroj a jaký může mít rozpor dopad na navazující hodnocení. Důkaz
+vstupuje do výpočtu bezpečnostního hodnocení Prismatic Perimeter (viz [EASM](@/glossary/easm.md)).
 
-1. **Alert fatigue from over-sensitive drift detection.** Setting drift thresholds too low produces a flood of weak findings that overwhelm analysts and obscure genuine threats. Calibrate thresholds using historical baseline data and adjust based on false positive rates.
+### Sledování hranice autentizace
 
-2. **Single-source findings masquerading as evidence.** A finding based on a single signal source does not meet NABLA's signal plurality requirement. Resist the pressure to publish single-source findings as "preliminary evidence" -- they must be explicitly marked as unvalidated observations.
+Auth-sentinel sleduje vzorce autentizace na koncových bodech REST API a LiveView. Když se
+objeví neobvyklé vzorce – nárůst neúspěšných přihlášení z nového rozsahu IP adres, nečekaná
+selhání validace tokenů, znaky fixace relace –, vytvoří důkazní artefakty pro hodnocení
+obranného postoje.
 
-3. **Conflating Blue Team defense with Red Team offense.** Blue agents have read-only access and strictly defensive scope. Any Blue Team operation that modifies system state or simulates attacks has violated its scope boundary and must be immediately halted.
+### Sledování dodavatelského řetězce závislostí
 
-4. **Ignoring temporal dynamics in drift detection.** A metric that appears stable when sampled hourly may show significant drift when sampled at minute resolution. Match sampling frequency to the expected drift timescale for each dimension.
+Drift-detector sleduje verze závislostí ve všech (v době zápisu 115) aplikacích umbrella
+projektu. Když závislost vydá bezpečnostní upozornění, detektor vytvoří důkaz o tom, kterých
+aplikací se týká, jak je závažné a jaký má dopad na stromy supervize OTP. Důkaz umožňuje
+nápravu podle priorit.
 
-5. **Treating the Defensive Posture Assessment as a dashboard metric.** The DPA is a formal evidence artifact, not a number on a dashboard. Reducing it to a single score discards the structured information that makes it valuable for [Purple Team](@/glossary/purple-team.md) synthesis.
+## Související pojmy
 
-6. **Neglecting to update baselines.** The drift-detector compares current state against a baseline. If the baseline is never updated after legitimate changes, drift detection produces false positives. Implement a controlled baseline update process with audit trail.
+Bez vlastního hesla v glosáři knihy: *Contradiction Preservation*, *Provenance Mandatory*,
+*Epistemic Robustness* (míra odolnosti obrany vůči epistemickému útoku) a *Confidence
+Scoring* (kvantifikace nejistoty důkazů).
 
-## Use Cases
+## Související
 
-### Platform Quality Monitoring
+**Color Teams**
 
-The Blue Team monitors the Prismatic Platform's 13 quality domains for drift. When the compilation warning count, [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) violation count, or [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) error count changes, the drift-detector captures the change, the signal-aggregator correlates it with recent code changes, and the blue-commander produces an evidence package for the Quality Floor Guardian.
+- [Red Team](@/glossary/red-team.md) – adversariální protějšek, proti jehož zjištěním se Blue
+  brání.
+- [Purple Team](@/glossary/purple-team.md) – syntetizační uzel smyčky Red–Blue.
+- [White Team](@/glossary/white-team.md) – formální ověřování obrany.
+- [Gray Team](@/glossary/gray-team.md) a [Black Team](@/glossary/black-team.md) – průzkum
+  hranic a teoretické modely hrozeb.
+- [Color Teams](@/glossary/color-teams.md) – přehled všech šesti týmů.
 
-### OSINT Source Reliability Assessment
+**Platforma a kniha**
 
-When OSINT intelligence sources produce conflicting data about the same entity, the Blue Team preserves the contradiction and produces a structured evidence artifact documenting which sources disagree, the confidence levels of each source, and the potential impact on downstream assessments. This evidence feeds into the [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) security rating calculations.
-
-### Authentication Boundary Monitoring
-
-The auth-sentinel monitors authentication patterns across the platform's [REST API](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) and [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/liveview/) endpoints. When unusual patterns emerge -- spike in failed authentications from a new IP range, unexpected token validation failures, session fixation indicators -- the auth-sentinel produces evidence artifacts that feed into the defensive posture assessment.
-
-### Dependency Supply Chain Monitoring
-
-The drift-detector tracks dependency versions across all 115 umbrella applications. When a dependency releases a security advisory, the detector produces evidence documenting which applications are affected, the severity classification, and the [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) supervision tree impact. This evidence enables prioritized remediation.
-
-## Related Terms
-
-- [Red Team](@/glossary/red-team.md) -- Adversarial counterpart whose findings Blue Team defends against
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis hub mediating the Red-Blue adversarial-defensive loop
-- [White Team](@/glossary/white-team.md) -- Constructive verification team formally validating Blue defenses
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration team surfacing edge cases for Blue monitoring
-- [Black Team](@/glossary/black-team.md) -- Theoretical threat modeling informing Blue defense design
-- [Color Teams](@/glossary/color-teams.md) -- Full overview of all 6 security teams and their interactions
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework grounding all Blue Team evidence
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Core axiom enforced by the signal-aggregator
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Axiom requiring preservation of conflicting observations
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom requiring traceable evidence chains
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate that Blue Team evidence must pass
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- Measure of defense resilience to epistemic attack
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Uncertainty quantification for Blue Team evidence
-- [Agent](@/glossary/agent.md) -- Autonomous entities composing the Blue Team
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform defensive capability descriptions
-- [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) -- OTP process model underlying Blue Team agent isolation
-- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) -- Hierarchical organization of Blue Team processes
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec, v němž jsou důkazy
+  ukotveny.
+- [Signal Plurality](@/glossary/signal-plurality.md) – hlavní axiom, který signal-aggregator
+  vynucuje.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací brána důkazů.
+- [Blue Team: obrana proti EA](@/kompendium/aiad-integration/blue-team-ea-defense.md) –
+  obrana proti technikám EA na platformě.

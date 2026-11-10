@@ -1,6 +1,6 @@
 +++
 title = "7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus"
-description = "Politické a ideologické formy epistemické anihilace — totalitní režimy (Arendt, Havel), klasická a moderní propaganda (Ellul, Stanley), populismus a post-pravdivá politika, hybridní informační operace, institucionální dimenze EA."
+description = "Politické a ideologické formy epistemické anihilace — totalitní režimy (Arendt, Havel), klasická a moderní propaganda (Ellul, Stanley), populismus a post-pravdivá politika."
 weight = 8
 insert_anchor_links = "right"
 
@@ -49,12 +49,12 @@ Havlova analýza odhaluje, že politická EA **nepotřebuje individuální přes
 
 | Technika | Mechanismus | Korespondence v taxonomii |
 |----------|-------------|---------------------------|
-| **Newspeak** | Lingvistická redefinice klíčových termínů | Konceptuální mystifikace (EA-1.2.2) |
-| **Memory hole** | Systematické vymazávání minulosti | Zdrojová amnézie (EA-1.4.2) |
+| **[Newspeak](@/glossary/newspeak.md)** | Lingvistická redefinice klíčových termínů | Konceptuální mystifikace ([EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)) |
+| **Memory hole** | Systematické vymazávání minulosti | Zdrojová amnézie ([EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)) |
 | **Show trials** | Performativní destrukce alternativních narativů | [Delegitimizace](@/glossary/delegitimizace.md) |
 | **Self-criticism rituals** | Vynucená sebekritika | [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
 | **Cult of leader** | Nahrazení epistemické autority osobní oddaností | Strukturní [epistemická alienace](@/glossary/epistemicka-alienace.md) |
-| **Doublethink** | Tolerance simultánní inkompatibility | Kontradikce-tolerance (EA-1.4.1) |
+| **Doublethink** | Tolerance simultánní inkompatibility | Kontradikce-tolerance ([EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)) |
 
 Tyto techniky jsou **strukturně izomorfní** s individuálními manifestacemi EA, ale operují na **populační úrovni** skrze institucionální infrastruktury.
 
@@ -62,7 +62,7 @@ Tyto techniky jsou **strukturně izomorfní** s individuálními manifestacemi E
 
 ### Ellul a propagandistická totalita
 
-Jacques Ellul (*Propagandes*, 1962) formuluje radikální tezi: propaganda v moderním smyslu **není redukovatelná** na klamavé vzkazy nebo manipulativní rétoriku. Je **strukturní vlastností** moderních masových společností a nelze před ní uniknout — lze pouze rozumět její povaze.
+Jacques Ellul (*Propagandes*, 1962) formuluje radikální tezi: [propaganda](@/glossary/propaganda.md) v moderním smyslu **není redukovatelná** na klamavé vzkazy nebo manipulativní rétoriku. Je **strukturní vlastností** moderních masových společností a nelze před ní uniknout — lze pouze rozumět její povaze.
 
 Ellulova klíčová rozlišení:
 
@@ -93,7 +93,7 @@ Populismus (definovaný např. Mudde, *Populism: A Very Short Introduction*, 201
 - **Anti-pluralism** — Populismus aspiruje reprezentovat **jedinou pravou vůli lidu**, čímž delegitimizuje pluralistickou demokracii jako fragmentární a kompromisní.
 - **Anti-institucionalismus** — Strukturní nedůvěra k zprostředkujícím institucím (parlament, soudy, akademie, kvalitní žurnalistika), neboť tyto instituce stojí mezi vůdcem a lidem.
 
-Z epistemické perspektivy je populismus **systematickou delegitimizací epistemických autorit**. Tradiční zdroje epistemicky kvalifikované evaluace (vědci, soudci, ekonomové, novináři) jsou označeny jako součást „elity“, a jejich evaluace je proto a priori nedůvěryhodná. Tato strukturní [delegitimizace](@/glossary/delegitimizace.md) ponechává prázdný prostor, jenž zaplňuje populistický vůdce sám.
+Z epistemické perspektivy je populismus **systematickou delegitimizací epistemických autorit**. Tradiční zdroje epistemicky kvalifikované evaluace (vědci, soudci, ekonomové, novináři) jsou označeny jako součást „elity“, a jejich evaluace je proto [a priori](@/glossary/apriori.md) nedůvěryhodná. Tato strukturní [delegitimizace](@/glossary/delegitimizace.md) ponechává prázdný prostor, jenž zaplňuje populistický vůdce sám.
 
 ### Post-pravda
 
@@ -116,7 +116,7 @@ Klíčové strategie:
 
 | Strategie | Mechanismus |
 |-----------|-------------|
-| **Firehose of falsehood** | Vysoký objem + multi-kanálová distribuce; rychlost > konzistence |
+| **[Firehose of falsehood](@/glossary/firehose-of-falsehood.md)** | Vysoký objem + multi-kanálová distribuce; rychlost > konzistence |
 | **Whataboutism** | Deflektivní tematická diverze |
 | **False equivalence** | Příjmaní legitimních zdrojů s manipulačními |
 | **Doubt amplification** | Nikoli "naše verze je pravdivá", ale "žádná verze není pravdivá" |

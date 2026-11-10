@@ -14,7 +14,7 @@ toc = true
 ## Co písmeno K označuje
 
 [Kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) popisuje devět scénářů
-epistemické delegitimizace (A–I) a výslovně zdůvodňuje, proč taxonomie další scénáře
+epistemické [delegitimizace](@/glossary/delegitimizace.md) (A–I) a výslovně zdůvodňuje, proč taxonomie další scénáře
 nepotřebuje: nové kontexty (firma, politika, umělecká škola) nevytvářejí novou strukturu,
 jen nové kulisy. Písmena **K** a **L** proto nejsou desátým a jedenáctým scénářem. Používají
 je [kazuistiky](@/kompendium/case-studies/_index.md) jako **pracovní označení dvou pozdních

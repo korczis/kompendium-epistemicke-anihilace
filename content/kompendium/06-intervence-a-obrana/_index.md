@@ -1,6 +1,6 @@
 +++
 title = "Intervence a obrana"
-description = "Komplexní rámec intervenčních a obranných protokolů pro epistemickou anihilaci — od akutní stabilizace přes střednědobou rekonstrukci až po dlouhodobou rehabilitaci a prevenci recidivy. Most mezi klinickou taxonomií a operativní praxí."
+description = "Komplexní rámec intervenčních a obranných protokolů pro epistemickou anihilaci — od akutní stabilizace přes střednědobou rekonstrukci až po dlouhodobou rehabilitaci a prevenci recidivy."
 weight = 6
 sort_by = "weight"
 template = "section.html"
@@ -96,7 +96,7 @@ Pro specifické cílové skupiny existují kalibrované varianty:
 | Adolescenti | [Recovery adolescent protocol](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md) | Identitární vývoj, peer skupina |
 | Senioři | [Recovery elder protocol](@/kompendium/recovery-protocols/recovery-elder-protocol.md) | Kognitivní rezerva, izolace |
 | Post-kult | [Recovery cult extraction protocol](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md) | Komunitní extrakce, BITE rozpad |
-| Oběti obchodu s lidmi | [Recovery trafficking survivor protocol](@/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md) | Komplexní trauma, právní rovina |
+| Oběti obchodu s lidmi | [Recovery trafficking survivor protocol](@/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md) | [Komplexní trauma](@/glossary/complex-trauma.md), právní rovina |
 | Političtí vězni | [Recovery political prisoner protocol](@/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md) | Ideologická indoktrinace, exil |
 
 ## Defenzivní vrstva — Self-defense

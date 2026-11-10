@@ -17,7 +17,7 @@ toc = true
 
 Tento článek pokrývá **Power Analysis pro EA Designy** v rámci kvantitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
 
-**Specifický metodologický háček EA výzkumu:** A priori power analysis přes G*Power nebo simr (R). Pro detekci medium effect (d=0.5) při α=0.05, power=0.80 → n≈64/skupina. Cluster designy vyžadují inflation factor.
+**Specifický metodologický háček EA výzkumu:** [A priori](@/glossary/apriori.md) power analysis přes G*Power nebo simr (R). Pro detekci medium effect (d=0.5) při α=0.05, power=0.80 → n≈64/skupina. Cluster designy vyžadují inflation factor.
 
 EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
 
@@ -25,7 +25,7 @@ EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani na
 
 1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
 2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat (self-report, behavioral, physiological/observational).
+3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
 4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
 5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
 6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.

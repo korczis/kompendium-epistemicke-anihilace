@@ -28,7 +28,7 @@ Glossary entry slouží jako kanonický referenční bod platformy; bridge člá
 
 Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
-- **Sekce 06 — Klinické aplikace**: diferenciace od PTSD a komplexního traumatu
+- **Sekce 06 — Klinické aplikace**: [diferenciace](@/glossary/diferenciace.md) od PTSD a komplexního traumatu
 - **Per-technique: Trauma-Informed Interview**: respekt k fragmentární výpovědi
 - **Sekce 05 — Narativní rekonstrukce**: podpůrné narativizační techniky
 - **Sekce 09 — Supervize**: etika dlouhodobé práce s narativně traumatizovaným klientem
@@ -45,7 +45,7 @@ Každý z těchto výskytů přidává specifickou perspektivu — operativní p
 
 ## Klinické implikace
 
-Forenzní rozhovor s narativně traumatizovaným svědkem vyžaduje opuštění lineární otázky co se stalo a přijetí nelineárních fragmentů jako legitimního dokumentu. Pokus vynutit chronologickou výpověď retraumatizuje a produkuje konfabulaci; trpělivá narativizace s respektem k tempu klienta je etickým i epistemickým minimem.
+[Forenzní rozhovor](@/glossary/forensic-interview.md) s narativně traumatizovaným svědkem vyžaduje opuštění lineární otázky co se stalo a přijetí nelineárních fragmentů jako legitimního dokumentu. Pokus vynutit chronologickou výpověď retraumatizuje a produkuje konfabulaci; trpělivá narativizace s respektem k tempu klienta je etickým i epistemickým minimem.
 
 ## Cross-linky
 

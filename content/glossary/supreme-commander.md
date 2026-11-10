@@ -1,10 +1,10 @@
 +++
-title = "Supreme Commander"
+title = "Supreme Commander (nejvyšší velitel)"
 weight = 14
-description = "L5 Platform-wide strategic coordination agent with full orchestration authority"
+description = "Agent úrovně L5 v Prismatic Platform s pravomocí strategické koordinace a orchestrace celé platformy; jeho rozhodnutí podléhají auditu a axiomům NABLA."
 
 [taxonomies]
-tags = ["glossary", "agents", "supreme-commander", "prismatic"]
+tags = ["glossary", "prismatic", "agents", "architecture", "doctrine"]
 
 [extra]
 category = "agents"
@@ -30,43 +30,74 @@ author = "Tomas Korcak (korczis)"
 reading_time = "5 min"
 word_count = 1034
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Supreme", "Commander", "Platform-wide", "glossary", "agents", "Prismatic Platform", "Supreme Commander", "Archer Supreme"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Supreme Commander - Prismatic Platform"
+image_alt = "Supreme Commander (nejvyšší velitel) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Supreme Commander is an L5 Supreme authority agent responsible for platform-wide strategic coordination and orchestration across the entire Prismatic Platform ecosystem. Operating at the highest classification level in the agent hierarchy, Supreme Commander manages cross-domain operations, coordinates multiple agent teams simultaneously, ensures strategic alignment across all 115 applications, and provides the ultimate decision-making authority for complex operations that exceed the scope of L4 Strategic Command agents.
+Supreme Commander je agent nejvyšší autority úrovně L5, který odpovídá za strategickou
+koordinaci a orchestraci v celém ekosystému Prismatic Platform. Pracuje na nejvyšší úrovni
+klasifikace v hierarchii agentů: řídí operace napříč doménami, koordinuje současně více týmů
+agentů, zajišťuje strategické sladění všech aplikací (v době zápisu 115) a má konečnou
+rozhodovací pravomoc u složitých operací, které přesahují rozsah agentů L4 [Strategic
+Command](@/glossary/strategic-command.md).
 
-Unlike Archer Supreme, which specializes in crisis intervention and impossible mission execution, Supreme Commander provides ongoing strategic governance for routine complex operations. Where Archer Supreme is activated for emergencies, Supreme Commander is the persistent orchestration layer that ensures the platform's 530+ runtime agents work coherently toward strategic objectives. The distinction is analogous to a standing military command structure (Supreme Commander) versus a special operations force deployed for specific crises (Archer Supreme).
+Na rozdíl od [Archer Supreme](@/glossary/archer-supreme.md), který se specializuje na krizové
+zásahy a „nemožné mise“, zajišťuje Supreme Commander průběžné strategické řízení běžných
+složitých operací. Archer Supreme se aktivuje v nouzi, Supreme Commander je trvalou orchestrační
+vrstvou, která zajišťuje, že běhoví agenti platformy (v době zápisu přes 530) pracují soudržně ke
+strategickým cílům. Rozdíl je obdobný jako mezi stálou vojenskou velitelskou strukturou (Supreme
+Commander) a jednotkou zvláštních operací nasazenou pro konkrétní krize (Archer Supreme).
 
-The L5 classification grants Supreme Commander capabilities unavailable to lower tiers: platform-wide resource allocation, override authority for any L1-L4 agent decision, cross-domain priority management, and the ability to restructure agent coordination patterns in real time. These capabilities come with corresponding accountability -- Supreme Commander decisions are audited through the AIAD registry and subject to NABLA Infinity epistemic requirements.
+Klasifikace L5 dává Supreme Commanderovi schopnosti, které nižší úrovně nemají: přidělování
+zdrojů v celé platformě, pravomoc přebít jakékoli rozhodnutí agenta L1–L4, řízení priorit napříč
+doménami a možnost v reálném čase přestavět vzorce koordinace agentů. S těmito schopnostmi jde
+ruku v ruce odpovídající odpovědnost – rozhodnutí Supreme Commandera se auditují v registru
+[AIAD](@/glossary/aiad.md) a podléhají epistemickým požadavkům [NABLA
+Infinity](@/glossary/nabla-infinity.md).
 
-Supreme Commander is activated via the `/supreme-coordinator` and `/orchestrate` commands. The 10x efficiency claim associated with `/orchestrate` stems from Supreme Commander's ability to identify parallelizable operations across domains and execute them concurrently rather than sequentially, dramatically reducing end-to-end completion time for complex multi-domain workflows.
+Supreme Commander se aktivuje příkazy `/supreme-coordinator` a `/orchestrate`. Desetinásobná
+efektivita, kterou dokumentace s `/orchestrate` spojuje, vychází ze schopnosti Supreme Commandera
+rozpoznat paralelizovatelné operace napříč doménami a provést je souběžně místo postupně, čímž se
+výrazně zkracuje celková doba dokončení složitých vícedoménových postupů. Jde o tvrzení
+dokumentace platformy, ne o nezávisle změřenou hodnotu.
 
-## Agent Hierarchy and Authority Model
+Pro Kompendium je Supreme Commander pojmem z kontextu platformy. Kniha k němu dodává jedinou
+poznámku: i nejvyšší autorita v systému zůstává auditovatelná a vázaná axiomy – opak toho, co
+kniha popisuje u charismatických vůdců uzavřených skupin, jejichž rozhodnutí nelze zpochybnit
+(srov. [kult osobnosti](@/glossary/kult-osobnosti.md) a [charisma](@/glossary/charisma.md)).
 
-The L5 authority level represents the apex of the Prismatic agent hierarchy. Understanding the full hierarchy is essential for grasping the scope of Supreme Commander's authority and the constraints that govern its exercise.
+## Hierarchie agentů a model pravomocí
 
-### Full Hierarchy
+Úroveň L5 je vrcholem hierarchie agentů Prismatic. Pochopení celé hierarchie je nezbytné pro
+pochopení rozsahu pravomoci Supreme Commandera a omezení, jimiž se její výkon řídí.
 
-| Level | Title | Scope | Agent Count | Example |
+### Úplná hierarchie
+
+Počty agentů uvádí dokumentace v době zápisu; mezi hesly platformy se liší (heslo Strategic
+Command uvádí jiné rozložení), proto je berte orientačně.
+
+| Úroveň | Označení | Rozsah | Počet agentů | Příklad |
 |-------|-------|-------|-------------|---------|
-| **L5** | Supreme | Platform-wide | 2 | Supreme Commander, Archer Supreme |
-| **L4** | Strategic Command | Multi-domain (up to 4) | ~10 | Evolution Strategist, Quality Director |
-| **L3** | Team Commander | Single domain | ~50 | Red Commander, Blue Commander, Elixir Architect |
-| **L2** | Specialist | Function-specific | ~200 | Epistemic Attacker, Drift Detector, Contract Validator |
-| **L1** | Worker | Task-specific | ~270 | Individual checkers, formatters, scanners |
+| **L5** | Supreme | celá platforma | 2 | Supreme Commander, Archer Supreme |
+| **L4** | Strategic Command | více domén (až 4) | ~10 | Evolution Strategist, Quality Director |
+| **L3** | Team Commander | jedna doména | ~50 | Red Commander, Blue Commander, Elixir Architect |
+| **L2** | Specialist | konkrétní funkce | ~200 | Epistemic Attacker, Drift Detector, Contract Validator |
+| **L1** | Worker | konkrétní úloha | ~270 | jednotlivé kontroly, formátovače, skenery |
 
-The authority model follows a strict hierarchy where higher-level agents can override, reassign, or terminate operations at lower levels. Supreme Commander alone can override L4 decisions, coordinate all Color Teams simultaneously, and allocate resources across the entire platform without seeking approval from any other agent.
+Model pravomocí sleduje přísnou hierarchii, v níž agenti vyšší úrovně mohou přebít, přeřadit nebo
+ukončit operace na nižších úrovních. Jen Supreme Commander může přebít rozhodnutí L4, koordinovat
+všechny barevné týmy současně a přidělovat zdroje v celé platformě bez schválení kterýmkoli jiným
+agentem (viz [Agent Tier](@/glossary/agent-tier.md)).
 
-### Authority Boundaries
+### Hranice pravomoci
 
-Even at L5, Supreme Commander operates within defined boundaries:
+I na úrovni L5 pracuje Supreme Commander ve vymezených hranicích:
 
 ```elixir
 defmodule PrismaticAgents.SupremeCommander.AuthorityBoundary do
@@ -115,11 +146,11 @@ defmodule PrismaticAgents.SupremeCommander.AuthorityBoundary do
 end
 ```
 
-## Technical Deep Dive
+## Technický rozbor
 
-### L5 Authority Model
+### Model pravomoci L5
 
-Supreme Commander operates with the highest authority level in the platform:
+Supreme Commander pracuje s nejvyšší úrovní pravomoci v platformě:
 
 ```elixir
 defmodule PrismaticAgents.SupremeCommander do
@@ -201,9 +232,9 @@ defmodule PrismaticAgents.SupremeCommander do
 end
 ```
 
-### Parallel Domain Orchestration
+### Paralelní orchestrace domén
 
-The 10x efficiency comes from intelligent parallelization of domain operations:
+Desetinásobná efektivita plyne z inteligentní paralelizace doménových operací:
 
 ```elixir
 defmodule PrismaticAgents.SupremeCommander.ParallelOrchestrator do
@@ -297,9 +328,10 @@ defmodule PrismaticAgents.SupremeCommander.ParallelOrchestrator do
 end
 ```
 
-## Escalation Handling
+## Zpracování eskalací
 
-Supreme Commander receives escalations from L4 Strategic Command agents when operations exceed their scope:
+Supreme Commander přijímá eskalace od agentů L4 Strategic Command, když operace přesáhnou jejich
+rozsah:
 
 ```elixir
 defmodule PrismaticAgents.SupremeCommander.EscalationHandler do
@@ -359,9 +391,11 @@ defmodule PrismaticAgents.SupremeCommander.EscalationHandler do
 end
 ```
 
-## Multi-Team Coordination
+## Koordinace více týmů
 
-Supreme Commander coordinates all Color Teams for platform-wide security operations. This capability is unique to L5 authority -- no lower tier can orchestrate all six teams simultaneously:
+Supreme Commander koordinuje všechny [barevné týmy](@/glossary/color-teams.md) při bezpečnostních
+operacích v celé platformě. Tato schopnost je vyhrazena pravomoci L5 – žádná nižší úroveň nemůže
+řídit všech šest týmů současně:
 
 ```elixir
 defmodule PrismaticAgents.SupremeCommander.ColorTeamCoordinator do
@@ -426,9 +460,9 @@ defmodule PrismaticAgents.SupremeCommander.ColorTeamCoordinator do
 end
 ```
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### Agent Hierarchy Position
+### Pozice v hierarchii agentů
 
 ```
 Supreme Commander (L5)          Archer Supreme (L5)
@@ -448,20 +482,20 @@ Supreme Commander (L5)          Archer Supreme (L5)
                    +-- L2 Subsystem Workers
 ```
 
-### Resource Allocation Authority
+### Pravomoc přidělovat zdroje
 
-| Resource | L4 Budget | L5 Budget |
+| Zdroj | Rozpočet L4 | Rozpočet L5 |
 |----------|----------|----------|
-| Concurrent agents | Up to 20 | Unlimited |
-| Operation duration | Up to 1 week | Unlimited |
-| Domain scope | Up to 4 domains | All 115 apps |
-| Override authority | L2-L3 within scope | All tiers, platform-wide |
-| Quality gate bypass | None | Emergency bypass with audit |
-| Color Team access | Single team | All 6 teams simultaneously |
+| souběžní agenti | až 20 | neomezeně |
+| doba operace | až 1 týden | neomezeně |
+| rozsah domén | až 4 domény | všech 115 aplikací |
+| pravomoc přebít | L2–L3 v rámci rozsahu | všechny úrovně v celé platformě |
+| obejití bran kvality | žádné | nouzové obejití s auditem |
+| přístup k barevným týmům | jeden tým | všech 6 týmů současně |
 
-### Audit Trail
+### Auditní stopa
 
-All Supreme Commander decisions are logged for accountability:
+Všechna rozhodnutí Supreme Commandera se kvůli odpovědnosti zaznamenávají:
 
 ```elixir
 defmodule PrismaticAgents.SupremeCommander.AuditLog do
@@ -508,33 +542,33 @@ defmodule PrismaticAgents.SupremeCommander.AuditLog do
 end
 ```
 
-## Operational Patterns
+## Provozní vzory
 
-### Orchestration Lifecycle
+### Životní cyklus orchestrace
 
-Every Supreme Commander orchestration follows a defined lifecycle:
+Každá orchestrace Supreme Commandera prochází definovaným životním cyklem:
 
-| Phase | Duration | Activity | Failure Handling |
+| Fáze | Trvání | Činnost | Ošetření selhání |
 |-------|----------|----------|-----------------|
-| **Planning** | < 1s | Dependency analysis, layer construction | Reject if cycles detected |
-| **Resource Allocation** | < 1s | Reserve agent slots and compute | Queue if resources unavailable |
-| **Execution** | Variable | Parallel domain operations | Per-domain retry with fallback |
-| **Synthesis** | < 5s | Collect and merge results | Partial results accepted |
-| **Audit** | < 100ms | Record decision and outcome | Fire-and-forget telemetry |
+| **Plánování** | < 1 s | analýza závislostí, sestavení vrstev | odmítnout při zjištění cyklů |
+| **Přidělení zdrojů** | < 1 s | rezervace slotů agentů a výpočetního výkonu | zařadit do fronty, nejsou-li zdroje |
+| **Exekuce** | proměnlivé | paralelní doménové operace | opakování po doménách se záložním postupem |
+| **Syntéza** | < 5 s | sběr a sloučení výsledků | přijmout dílčí výsledky |
+| **Audit** | < 100 ms | zaznamenat rozhodnutí a výsledek | telemetrie „vystřel a zapomeň“ |
 
-### Failure Recovery Patterns
+### Vzory zotavení ze selhání
 
-Supreme Commander implements three failure recovery strategies:
+Supreme Commander implementuje tři strategie zotavení ze selhání:
 
-| Strategy | Trigger | Action |
+| Strategie | Spouštěč | Akce |
 |----------|---------|--------|
-| **Domain Retry** | Single domain failure | Retry failed domain up to 3 times |
-| **Partial Completion** | Multiple domain failures | Accept successful results, report failures |
-| **Full Rollback** | Critical infrastructure failure | Invoke rollback plan, escalate to Archer Supreme |
+| **Opakování domény** | selhání jedné domény | opakovat selhanou doménu až třikrát |
+| **Částečné dokončení** | selhání více domén | přijmout úspěšné výsledky, ohlásit selhání |
+| **Úplný návrat** | selhání kritické infrastruktury | spustit plán návratu, eskalovat k Archer Supreme |
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-### Activation Commands
+### Aktivační příkazy
 
 ```bash
 # Full platform orchestration
@@ -550,7 +584,7 @@ Supreme Commander implements three failure recovery strategies:
 /orchestrate --objective="Quality improvement" --domains=quality,safety,testing
 ```
 
-### Programmatic Usage
+### Programové užití
 
 ```elixir
 # Request orchestration
@@ -567,55 +601,69 @@ IO.puts("Efficiency: #{result.efficiency_multiplier}x")
 IO.puts("Completed: #{result.phases_completed}/#{result.phases_total}")
 ```
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Reserve Supreme Commander for genuinely cross-cutting operations**. Single-domain or two-domain operations are better handled at L3-L4 levels. Overuse of L5 authority dilutes its effectiveness and creates unnecessary audit overhead.
+1. **Vyhradit Supreme Commandera pro skutečně průřezové operace.** Operace jedné nebo dvou domén
+   je lepší řešit na úrovních L3–L4. Nadužívání pravomoci L5 oslabuje její účinnost a vytváří
+   zbytečnou auditní režii.
+2. **U požadavků na orchestraci stanovit výslovná omezení.** Neohraničené operace mohou spotřebovávat
+   zdroje platformy neomezeně dlouho. Vždy uvádět maximální dobu trvání a úroveň priority.
+3. **Sledovat auditní stopu.** Rozhodnutí Supreme Commandera ovlivňují celou platformu. Pravidelný
+   přezkum auditu zajišťuje, že rozhodnutí odpovídají strategickým cílům a souladu s doktrínou.
+4. **Pro desetinásobnou efektivitu používat `/orchestrate`.** Paralelní orchestrační engine přináší
+   největší hodnotu, když operace zahrnují více nezávislých domén, které mohou běžet souběžně.
+5. **Odlišovat řízení od krizové reakce.** Supreme Commander zajišťuje průběžné řízení, Archer
+   Supreme krize. Použití nesprávného agenta pro nesprávnou situaci vede buď k nedostatečné reakci
+   na nouzi, nebo k přehnané reakci na rutinní operace.
+6. **Upřednostňovat cílená posouzení před úplnými.** Funkce `targeted_assessment/2` umožňuje
+   soustředit se na konkrétní bezpečnostní otázky bez mobilizace všech šesti barevných týmů.
 
-2. **Set explicit constraints on orchestration requests**. Unbounded operations can consume platform resources indefinitely. Always specify maximum duration and priority level.
+## Časté chyby
 
-3. **Monitor the audit trail**. Supreme Commander decisions affect the entire platform. Regular audit review ensures decisions align with strategic objectives and doctrine compliance.
+- **Nadužívání nejvyšší pravomoci**: eskaluje-li se každá operace na L5, nemá koordinační hierarchie
+  žádnou hodnotu. Většina operací má skončit na úrovních L2–L4.
+- **Neuvedení omezení operace**: neomezené orchestrace mohou zasahovat do probíhající práce v celé
+  platformě a spotřebovávat neomezené zdroje.
+- **Přehlížení auditní stopy**: kroky Supreme Commandera mají dopad na celou platformu.
+  Nepřezkoumané auditní stopy mohou skrývat systematické problémy v koordinačních rozhodnutích.
+- **Zaměňování Supreme Commandera s Archer Supreme**: sdílejí pravomoc L5, ale slouží odlišným
+  účelům. Použití Supreme Commandera pro krizovou reakci nebo Archer Supreme pro rutinní řízení
+  nesladí schopnosti s potřebami.
+- **Vynechávání bezpečnostních kontrol kvůli rychlosti**: i pod časovým tlakem musí bezpečnostní
+  ověření předcházet operacím na kritické infrastruktuře. Plán návratu není volitelný.
 
-4. **Use `/orchestrate` for the 10x efficiency gain**. The parallel orchestration engine provides the most value when operations span multiple independent domains that can execute concurrently.
+## Související
 
-5. **Distinguish governance from crisis response**. Supreme Commander handles ongoing governance; Archer Supreme handles crises. Using the wrong agent for the wrong situation either under-responds to emergencies or over-responds to routine operations.
+**Pojmy platformy v tomto glosáři**
 
-6. **Leverage targeted assessments over full assessments**. The `targeted_assessment/2` function allows focusing on specific security concerns without mobilizing all six Color Teams.
+- [Archer Supreme](@/glossary/archer-supreme.md) – agent L5 zaměřený na krize.
+- [Strategic Command](@/glossary/strategic-command.md) – koordinační úroveň L4.
+- [Agent Tier](@/glossary/agent-tier.md) – úplná klasifikace L1–L5.
+- [AIAD](@/glossary/aiad.md) – standard definic agentů.
+- [Agent Registry](@/glossary/agent-registry.md) – katalog všech agentů.
+- [Tactical Execution](@/glossary/tactical-execution.md) – specialisté L2 koordinovaní přes
+  hierarchii.
+- [NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md) –
+  epistemický rámec a ověřovací brána rozhodnutí s vysokými sázkami.
 
-## Common Pitfalls
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- **Over-using Supreme authority**: If every operation is escalated to L5, the coordination hierarchy provides no value. Most operations should complete at L2-L4 levels.
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) – chování
+  OTP, které proces Supreme Commandera implementuje.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Agenti](https://prismatic-reality-com.github.io/prismatic-promo/agents/),
+  [Příkazy](https://prismatic-reality-com.github.io/prismatic-promo/commands/).
 
-- **Not specifying operation constraints**: Unconstrained orchestrations can interfere with ongoing work across the platform and consume unbounded resources.
+**Kniha**
 
-- **Ignoring the audit trail**: Supreme Commander actions have platform-wide impact. Unreviewed audit trails can hide systematic issues in coordination decisions.
-
-- **Confusing Supreme Commander with Archer Supreme**: They share L5 authority but serve different purposes. Using Supreme Commander for crisis response or Archer Supreme for routine governance misaligns capabilities with needs.
-
-- **Skipping safety checks for speed**: Even under time pressure, safety verification must precede critical infrastructure operations. The rollback plan is not optional.
-
-## Related Concepts
-
-- [Archer Supreme](@/glossary/archer-supreme.md) -- Crisis-focused L5 agent
-- [Strategic Command](@/glossary/strategic-command.md) -- L4 coordination tier
-- [Agent Tier](@/glossary/agent-tier.md) -- Full L1-L5 classification system
-- [AIAD](@/glossary/aiad.md) -- Agent definition standard governing Supreme Commander
-- [Agent Registry](@/glossary/agent-registry.md) -- Catalog of all agents managed by Supreme Commander
-- [Tactical Execution](@/glossary/tactical-execution.md) -- L2 specialists coordinated through the hierarchy
-- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) -- OTP behavior implementing Supreme Commander's process
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing decision confidence
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate for high-stakes decisions
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Command catalog including `/orchestrate`
+- [Supreme Commander a detekce EA](@/kompendium/aiad-integration/supreme-commander-ea-strategy.md) –
+  strategická koordinace detekce epistemických útoků.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

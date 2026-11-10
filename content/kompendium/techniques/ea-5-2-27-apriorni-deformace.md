@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.27 Apriorní deformace"
-description = "Detailní per-technique článek: technika apriorní deformace — kontinuální zkreslení apriorních forem prostoru a času bez jejich fragmentace. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika apriorní deformace — kontinuální zkreslení apriorních forem prostoru a času bez jejich fragmentace."
 weight = 5227
 insert_anchor_links = "right"
 
@@ -104,7 +104,7 @@ Apriorní deformace je odlišitelná od:
 ### Individuální
 
 1. **Strukturální časoměřičská cvičení** — explicitní měření trvání a vzdálenosti.
-2. **Korektní fyzikální hermeneutika** — výklad fyzikálních konceptů jako formálních modelů.
+2. **Korektní fyzikální [hermeneutika](@/glossary/hermeneutika.md)** — výklad fyzikálních konceptů jako formálních modelů.
 3. **Tělesná zakotvenost** — propriocepce obnovuje homogenní prožitkovou orientaci.
 4. **Strukturální orientační praxe** — mapy, stopwatch, kalibrace odhadů.
 
@@ -131,8 +131,8 @@ Apriorní deformace je odlišitelná od:
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine timestamp validation** — strukturní časomíra obnovuje homogenitu.
-- **NABLA Infinity timestamp axiom** — epistemická provenience pracuje s explicitními časy.
+- **[Decision Engine](@/glossary/decision-engine.md) timestamp validation** — strukturní časomíra obnovuje homogenitu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) timestamp axiom** — epistemická provenience pracuje s explicitními časy.
 - **OSINT timeline reconstruction** — strukturní časová rekonstrukce kompenzuje deformaci.
 
 ## Související

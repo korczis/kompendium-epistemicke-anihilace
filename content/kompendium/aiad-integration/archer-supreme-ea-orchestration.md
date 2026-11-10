@@ -37,7 +37,7 @@ Archer Supreme je **drahý zdroj** — nelze ho použít na rutinní operace. Ta
 
 ## Coordination
 
-Nadřazen všem ostatním agentům v incident kontextu; spolupracuje s **Supreme Commander** na strategickém plánování a **Strategic Command** na taktickém rozdělení.
+Nadřazen všem ostatním agentům v incident kontextu; spolupracuje s **[Supreme Commander](@/glossary/supreme-commander.md)** na strategickém plánování a **[Strategic Command](@/glossary/strategic-command.md)** na taktickém rozdělení.
 
 ## Cross-linky
 

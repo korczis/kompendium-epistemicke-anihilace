@@ -5,6 +5,9 @@ description = "Čína 1966–1976: masové kritické schůze, útok na „čtyř
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"
@@ -54,7 +57,7 @@ z dostupných pramenů stanovit.
 „Malá rudá kniha“ citátů fungovala jako univerzální rozhodčí. Spor se nevedl o fakta, ale o to,
 kdo správněji cituje – a citát ukončoval myšlení dřív, než mohlo začít. Kompendium tento vzorec
 popisuje jako [thought-stopping](@/glossary/thought-stopping.md) a vládu nad jazykem; Lifton jej
-nazval „zatěžkáním jazyka“ (*loading the language*), viz
+nazval „zatěžkáním jazyka“ (*[loading the language](@/glossary/loading-the-language.md)*), viz
 [Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md).
 
 ### Třídní nálepka jako ontologie
@@ -130,7 +133,7 @@ pod politickým tlakem nebo s velkým časovým odstupem.
 
 ## Literatura
 
-- Robert J. Lifton (1961): *Thought Reform and the Psychology of Totalism*.
+- Robert J. Lifton (1961): *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 - Robert J. Lifton (1968): *Revolutionary Immortality: Mao Tse-tung and the Chinese Cultural Revolution*.
 - Roderick MacFarquhar, Michael Schoenhals (2006): *Mao's Last Revolution*.
 - Nien Cheng (1987): *Life and Death in Shanghai* – paměti.

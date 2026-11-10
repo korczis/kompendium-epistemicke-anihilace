@@ -70,7 +70,7 @@ Neschopnost upřesnit může mít i klinické příčiny:
 - **poruchy exekutivních funkcí** a pracovní paměti (ADHD, poranění mozku), kdy mluvčí ztrácí nit a obtížně generuje příklady;
 - **alexithymie** – obtíž pojmenovat a popsat emoce, což se může projevit vágními odpověďmi na otázky o pocitech;
 - **úzkost z hodnocení**, kdy se mluvčí upřesnění vyhýbá ze strachu z chyby;
-- **disociace** během rozhovoru o zatěžujícím tématu.
+- **[disociace](@/glossary/disociace.md)** během rozhovoru o zatěžujícím tématu.
 
 Tyto stavy se liší tím, že mluvčí obvykle sám vnímá potíž jako svou a nepřesouvá ji na tazatele. Přesun odpovědnosti na tazatele je proto užitečným rozlišovacím znakem.
 

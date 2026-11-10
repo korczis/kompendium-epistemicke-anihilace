@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Komunikativní racionalita (Jürgen Habermas, Theorie des kommunikativen Handelns 1981) je forma racionality založená na intersubjektivním dosahu konsensu skrze argumentaci v ideal speech situation. Kontrastuje s instrumentální racionalitou (means-ends) a strategickou racionalitou (zájmově motivovaná manipulace).
+Komunikativní racionalita (Jürgen Habermas, Theorie des kommunikativen Handelns 1981) je forma racionality založená na intersubjektivním dosahu konsensu skrze argumentaci v [ideal speech situation](@/glossary/ideal-speech-situation.md). Kontrastuje s instrumentální racionalitou (means-ends) a strategickou racionalitou (zájmově motivovaná manipulace).
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -54,7 +54,7 @@ Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich v
 
 ## Klinicke a filosoficke implikace
 
-Komunikativní racionalita poskytuje normativní rámec pro hodnocení diskurzu: argument je racionální, pokud by mohl získat konsensus všech kompetentních účastníků za podmínek bez moci. Aplikováno na AI: může LLM splňovat validity claims sincerity? Klinicky: gaslighting je systematické porušování komunikativní racionality.
+Komunikativní racionalita poskytuje normativní rámec pro hodnocení diskurzu: argument je racionální, pokud by mohl získat konsensus všech kompetentních účastníků za podmínek bez moci. Aplikováno na AI: může LLM splňovat validity claims sincerity? Klinicky: [gaslighting](@/glossary/gaslighting.md) je systematické porušování komunikativní racionality.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

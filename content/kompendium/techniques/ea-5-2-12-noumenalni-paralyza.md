@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.12 Noumenální paralýza"
-description = "Detailní per-technique článek: technika noumenální paralýzy — fixace subjektu na nepoznatelnou věc o sobě (Ding an sich) tak, že fenomenální orientace ztrácí motivační sílu. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika noumenální paralýzy — fixace subjektu na nepoznatelnou věc o sobě (Ding an sich) tak, že fenomenální orientace ztrácí motivační sílu."
 weight = 5212
 insert_anchor_links = "right"
 
@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Noumenální paralýza** je metatranscendentální technika, jíž je subjektova **fenomenální orientace** (operující v rámci kantovsky strukturované zkušenosti) systematicky **podlamována odkazem na nepoznatelnou věc o sobě** (*Ding an sich*). Subjekt přijímá tezi, že **fenomény jsou zdánlivé**, zatímco **noumena nepoznatelná** — což praktické jednání zbavuje jakékoli legitimní opory.
+**Noumenální paralýza** je metatranscendentální technika, jíž je subjektova **fenomenální orientace** (operující v rámci kantovsky strukturované zkušenosti) systematicky **podlamována odkazem na nepoznatelnou věc o sobě** (*[Ding an sich](@/glossary/ding-an-sich.md)*). Subjekt přijímá tezi, že **fenomény jsou zdánlivé**, zatímco **noumena nepoznatelná** — což praktické jednání zbavuje jakékoli legitimní opory.
 
 Kant explicitně upozorňoval, že rozum **nemá oprávnění** činit pozitivní soudy o noumenech; pouze je **myslí jako mez** (Grenzbegriff). Noumenální paralýza tuto Kantovu opatrnost převrací: subjekt operuje **jako by** noumenální říše byla **zároveň skutečnější a nedostupnější**, takže veškerá fenomenální zkušenost ztrácí motivační váhu, ale **alternativa není dosažitelná**. Výsledkem je strukturální paralýza: ani ve fenomenálním světě jednat (protože je iluzorní), ani noumenálně dosáhnout (protože je nepoznatelný).
 
@@ -133,8 +133,8 @@ Také odlišitelná od **klinické deprese** — depresivní pacient netvrdí, �
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine actionable outputs** — strukturní vynucování praktických výstupů obnovuje fenomenální angažmá.
-- **NABLA Infinity finitistický axiom** — epistemická provenience odmítá nepoznatelná noumena jako legitimní zdroje.
+- **[Decision Engine](@/glossary/decision-engine.md) actionable outputs** — strukturní vynucování praktických výstupů obnovuje fenomenální angažmá.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) finitistický axiom** — epistemická provenience odmítá nepoznatelná noumena jako legitimní zdroje.
 - **OSINT operacionalita** — explicitní práce s fenomenální evidencí udržuje praktickou kompetenci.
 
 ## Související

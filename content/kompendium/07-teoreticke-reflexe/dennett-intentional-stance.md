@@ -23,7 +23,7 @@ Daniel Dennett v knize *The Intentional Stance* (1987) formuluje **strukturáln�
 - **Designová vrstva** (*design stance*) — popis pomocí účelové struktury
 - **Intencionální vrstva** (*intentional stance*) — popis pomocí přesvědčení a tužeb
 
-Pro kompendium EA poskytuje Dennettova analýza nástroj pro pochopení **strukturálních úrovní**, na nichž EA techniky operují.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Dennettova analýza nástroj pro pochopení **strukturálních úrovní**, na nichž EA techniky operují.
 
 ## 1. Tři vrstvy
 
@@ -40,7 +40,7 @@ Pro EA z toho plyne:
 - **EA techniky operují na všech třech vrstvách**:
   - Fyzikální: manipulace prostředí, hladovění, deprivace spánku
   - Designová: manipulace algoritmických rozhraní, architektury výběru
-  - Intencionální: manipulace přesvědčení, gaslighting, propaganda
+  - Intencionální: manipulace přesvědčení, [gaslighting](@/glossary/gaslighting.md), [propaganda](@/glossary/propaganda.md)
 - **Diferenciální analýza**: kterou vrstvu cílí konkrétní technika?
 
 ## 2. Real Patterns

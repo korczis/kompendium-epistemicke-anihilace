@@ -1,6 +1,6 @@
 +++
 title = "EA-1.1.2 Informační přetížení"
-description = "Detailní per-technique článek: technika informačního přetížení — prezentace excesivního množství dat, která znemožňuje kritické zpracování. Operační modus, fenomenologie, detekce, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika informačního přetížení — prezentace excesivního množství dat, která znemožňuje kritické zpracování."
 weight = 112
 insert_anchor_links = "right"
 
@@ -175,7 +175,7 @@ Pro klíčová rozhodnutí (akademická, klinická, právní, finanční) **vžd
 
 ### Případ 1 — Korporátní akvizice
 
-Senior management dostal 800stránkový due diligence dokument 36 hodin před deadline pro investment committee. Tým analyzoval pouze první 80 stran, zbytek byl heuristicky oklasifikován jako „standardní“. V hloubce dokumentu byla **klauzule, která** retrospektivně byla rozhodující.
+Senior management dostal 800stránkový [due diligence](@/glossary/due-diligence.md) dokument 36 hodin před deadline pro investment committee. Tým analyzoval pouze první 80 stran, zbytek byl heuristicky oklasifikován jako „standardní“. V hloubce dokumentu byla **klauzule, která** retrospektivně byla rozhodující.
 
 Detekce: Post-mortem audit identifikoval, že tempo bylo **strukturálně neudržitelné** a klíčová klauzule byla v **typografically dense** sekci s minimální interpretací.
 
@@ -216,7 +216,7 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine confidence calibration** — explicitně penalizuje rozhodnutí učiněná pod time pressure / s objem materiálu disproprociálně velkým vzhledem k času evaluace.
+- **[Decision Engine](@/glossary/decision-engine.md) confidence calibration** — explicitně penalizuje rozhodnutí učiněná pod time pressure / s objem materiálu disproprociálně velkým vzhledem k času evaluace.
 - **NABLA Infinity 16-level pipeline** — strukturální obrana proti rapid acceptance: **každá** úroveň generuje **explicitní intermediate verifikaci** s časovým labelingem.
 - **OSINT Investigation Pipeline** — defaultně rozkládá komplexní queries na **menší kroky**, aby žádný analytik nemusel pracovat s celkovým objemem najednou.
 

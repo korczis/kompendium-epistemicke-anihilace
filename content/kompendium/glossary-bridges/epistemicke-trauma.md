@@ -22,7 +22,7 @@ quality_score = 75
 
 ## Definition
 
-Epistemické trauma je psychologické poškození systémů získávání poznání, formace přesvědčení a reality-testing mechanismů. Vzniká dlouhodobou expozicí gaslightingu, hermeneutickému outsourcingu nebo institucionální delegitimizaci. Manifestuje se jako ztráta epistemické autonomie, hypervigilance vůči novým informacím, a obtíže v běžných epistemických aktech (rozhodování, hodnocení důkazů). V Prismatic frameworku spojeno s [NABLA Infinity](@/glossary/nabla-infinity.md) axiomatickým narušením a [signal plurality](@/glossary/signal-plurality.md) anti-patternem.
+[Epistemické trauma](@/glossary/epistemicke-trauma.md) je psychologické poškození systémů získávání poznání, formace přesvědčení a reality-testing mechanismů. Vzniká dlouhodobou expozicí gaslightingu, hermeneutickému outsourcingu nebo institucionální delegitimizaci. Manifestuje se jako ztráta epistemické autonomie, hypervigilance vůči novým informacím, a obtíže v běžných epistemických aktech (rozhodování, hodnocení důkazů). V Prismatic frameworku spojeno s [NABLA Infinity](@/glossary/nabla-infinity.md) axiomatickým narušením a [signal plurality](@/glossary/signal-plurality.md) anti-patternem.
 
 ## See Also
 

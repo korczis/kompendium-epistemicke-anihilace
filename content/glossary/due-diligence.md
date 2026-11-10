@@ -1,16 +1,15 @@
 +++
-title = "Due Diligence"
+title = "Due Diligence (náležitá péče, prověrka)"
 weight = 50
-description = "Comprehensive investigation and analysis of a business entity, individual, or asset before a transaction, investment, or partnership, combining automated OSINT collection, entity resolution, sanctions screening, and cross-validated risk assessment."
+description = "Soustavné prověření firmy, osoby nebo aktiva před transakcí či spoluprací: OSINT, entity resolution, sankční screening a křížově ověřené hodnocení rizika."
 
 [taxonomies]
-tags = ["glossary", "intelligence", "compliance", "osint", "kyc", "aml", "risk-assessment", "entity-resolution", "sanctions"]
+tags = ["glossary", "due-diligence", "osint", "compliance", "prismatic"]
 
 [extra]
 category = "intelligence"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "12 min"
 difficulty = "intermediate"
 quality_score = 95
 technical_level = "intermediate-advanced"
@@ -27,45 +26,82 @@ external_resources = ["https://www.fatf-gafi.org/en/publications/Fatfrecommendat
 version_introduced = "0.7.0"
 stability_level = "stable"
 testing_scenarios = ["entity-search-accuracy", "sanctions-hit-detection", "cross-source-validation", "risk-score-calibration", "false-positive-rate"]
-keywords = ["due diligence", "KYC", "AML", "compliance", "entity resolution", "sanctions screening", "beneficial ownership", "risk assessment", "OSINT", "Czech registry", "ARES", "commercial register"]
 related_terms = ["kyc", "aml", "sanctions-screening", "beneficial-ownership", "entity-resolution", "osint", "compliance-framework", "risk-score", "knowledge-graph", "triple-check"]
-word_count = 1728
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Due Diligence - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-Due diligence is the systematic investigation and evaluation of a business entity, individual, or asset conducted prior to entering into a transaction, partnership, investment, or engagement. The process aims to establish an evidence-based understanding of the target's financial health, legal standing, ownership structure, operational resilience, reputational profile, and regulatory compliance posture. Due diligence extends beyond traditional document review to encompass automated intelligence collection from open sources, entity resolution across fragmented datasets, graph-based relationship analysis, temporal pattern detection, sanctions and watchlist screening, and structured risk assessment against applicable regulatory frameworks.
+**Due diligence** (česky *náležitá péče*, v praxi *prověrka*) je soustavné prošetření
+a vyhodnocení firmy, osoby nebo aktiva před uzavřením transakce, partnerství, investice nebo
+spolupráce. Cílem je získat na důkazech založené porozumění finančnímu zdraví, právnímu
+postavení, vlastnické struktuře, provozní odolnosti, pověsti a souladu s předpisy. Dnešní
+prověrka přesahuje tradiční revizi dokumentů: zahrnuje automatizovaný sběr informací
+z otevřených zdrojů, sjednocování entit napříč roztříštěnými datovými sadami (viz [Entity
+Resolution](@/glossary/entity-resolution.md)), analýzu vztahů v grafu, detekci časových
+vzorců, screening sankčních a sledovaných seznamů a strukturované hodnocení rizik podle
+příslušných regulatorních rámců.
 
-Due diligence encompasses several specialized variants: commercial due diligence (market position, competitive landscape, customer concentration), financial due diligence (revenue verification, liability assessment, working capital analysis), legal due diligence (litigation history, regulatory compliance, contractual obligations), technical due diligence (technology stack, IP portfolio, technical debt), and compliance due diligence ([KYC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/kyc/)/[AML](https://prismatic-reality-com.github.io/prismatic-promo/glossary/aml/), [sanctions screening](@/glossary/sanctions-screening.md), PEP identification, [beneficial ownership](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beneficial-ownership/) verification). Modern due diligence platforms automate the data collection and cross-validation phases while preserving human judgment for interpretation and risk assessment.
+Prověrka má několik specializovaných podob: **obchodní** (postavení na trhu, konkurence,
+koncentrace zákazníků), **finanční** (ověření tržeb, posouzení závazků, analýza pracovního
+kapitálu), **právní** (soudní spory, soulad s předpisy, smluvní závazky), **technickou**
+(technologie, duševní vlastnictví, technický dluh) a **compliance** (KYC/AML, [sankční
+screening](@/glossary/sanctions-screening.md), identifikace politicky exponovaných osob,
+ověření skutečných majitelů). Moderní platformy automatizují sběr dat a křížové ověřování
+a lidskému úsudku ponechávají výklad a hodnocení rizika.
 
-In the Prismatic Platform, due diligence is implemented as a comprehensive intelligence subsystem integrating 120+ [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-operations/) source adapters, 30+ Czech public registries, global sanctions databases, and a graph-based [entity resolution](@/glossary/entity-resolution.md) engine backed by KuzuDB.
+Na Prismatic Platform je prověrka implementována jako komplexní zpravodajský subsystém,
+který v době zápisu spojoval 120+ adaptérů zdrojů [OSINT](@/glossary/osint.md), 30+ českých
+veřejných rejstříků, globální sankční databáze a grafový engine pro sjednocování entit
+postavený na KuzuDB.
 
-## Overview
+**Vztah ke knize:** prověrka je jedním z prostředí, pro která byla [taxonomie EA](@/glossary/taxonomie-ea.md) původně
+vytvořena: posuzovatel potřebuje rozpoznat, zda zdroje, výpovědi a dokumenty nenesou stopy
+manipulace. Kniha na prověrku odkazuje v heslech [Anihilační
+fenomény](@/glossary/anihilacni-fenomeny.md), [DARVO](@/glossary/darvo.md) nebo [Ego
+Death](@/glossary/ego-death.md); vážení zdrojů s ohledem na techniky EA popisuje stránka [DD
+engine: vážení zdrojů](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md)
+a práci s českými rejstříky [ARES: screening EA](@/kompendium/aiad-integration/czech-ares-ea-screening.md).
 
-The practice of due diligence has its origins in securities law -- specifically Section 11 of the U.S. Securities Act of 1933, which established a "due diligence defense" for underwriters who could demonstrate they had conducted a reasonable investigation before offering securities. Over the following nine decades, the concept expanded far beyond securities to encompass mergers and acquisitions, venture capital investment, private equity transactions, commercial lending, partnership agreements, vendor onboarding, and regulatory compliance.
+## Přehled
 
-The regulatory landscape driving due diligence has intensified dramatically since the early 2000s:
+Pojem má původ v právu cenných papírů – konkrétně v oddílu 11 amerického Securities Act
+z roku 1933, který zavedl „obhajobu náležitou péčí“ pro upisovatele, kteří prokázali, že
+před nabídkou cenných papírů provedli přiměřené šetření. V dalších desetiletích se pojem
+rozšířil daleko za cenné papíry – na fúze a akvizice, rizikový kapitál, private equity,
+komerční úvěry, partnerské smlouvy, výběr dodavatelů i regulatorní soulad.
 
-**Anti-Money Laundering (AML)**: The Financial Action Task Force (FATF) recommendations, the EU Anti-Money Laundering Directives (AMLD4, AMLD5, AMLD6), and national transpositions require financial institutions and "obliged entities" to perform Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD) on customers, beneficial owners, and transactions.
+Regulatorní tlak na prověrky od počátku 21. století výrazně vzrostl:
 
-**Know Your Customer (KYC)**: Regulatory frameworks including the USA PATRIOT Act, EU AMLD, and local regulations require organizations to verify the identity of their customers, assess their risk profile, and monitor their transactions for suspicious activity.
+**Boj proti praní peněz (AML):** doporučení Finančního akčního výboru (FATF), směrnice EU
+proti praní peněz (AMLD4, AMLD5, AMLD6) a jejich národní provedení ukládají finančním
+institucím a „povinným osobám“ provádět hloubkovou kontrolu klienta (CDD) a zesílenou
+kontrolu (EDD) u klientů, skutečných majitelů a transakcí.
 
-**Sanctions Compliance**: Regulations from OFAC (US), the EU, the UN, and national authorities require screening against sanctions lists, identifying politically exposed persons (PEPs), and detecting sanctioned ownership structures that may be hidden through complex corporate layering.
+**Poznej svého klienta (KYC):** regulatorní rámce včetně amerického USA PATRIOT Act, směrnic
+EU a místních předpisů požadují ověřovat totožnost klientů, posuzovat jejich rizikový profil
+a sledovat jejich transakce kvůli podezřelé činnosti.
 
-**Beneficial Ownership Transparency**: The EU's 5th AMLD and national registers (including the Czech Republic's register of beneficial owners under Act No. 37/2021 Coll.) require identification and verification of ultimate beneficial owners holding more than 25% ownership or control.
+**Sankční soulad:** předpisy OFAC (USA), EU, OSN a národních orgánů požadují screening proti
+sankčním seznamům, identifikaci politicky exponovaných osob a odhalování sankcionovaných
+vlastnických struktur skrytých za složitým vrstvením společností.
 
-The evolution from manual due diligence to automated, intelligence-driven due diligence represents a fundamental shift in capability. Manual processes involving document review by teams of analysts have given way to automated systems that can query hundreds of data sources in parallel, resolve entities across fragmented datasets, map corporate ownership graphs, detect sanctions hits through fuzzy matching, and generate risk scores -- all within minutes rather than weeks.
+**Transparentnost skutečných majitelů:** pátá směrnice AML a národní registry (v Česku
+evidence skutečných majitelů podle zákona č. 37/2021 Sb.) vyžadují identifikaci a ověření
+skutečných majitelů; obvyklým orientačním prahem je podíl nebo kontrola nad 25 %.
 
-## Technical Details
+Přechod od ruční k automatizované, zpravodajsky řízené prověrce je zásadní změnou
+schopností. Ruční procesy s týmy analytiků procházejícími dokumenty nahradily systémy, které
+paralelně dotazují stovky zdrojů, sjednocují entity v roztříštěných datech, mapují grafy
+vlastnictví, odhalují sankční shody přibližným porovnáním a vytvářejí skóre rizika – za
+minuty místo týdnů.
 
-### Due Diligence Pipeline Architecture
+## Technické podrobnosti
 
-The Prismatic Platform implements due diligence as a multi-stage pipeline that progresses from data collection through entity resolution, cross-validation, risk scoring, and report generation:
+### Architektura procesu prověrky
+
+Platforma implementuje prověrku jako vícestupňový proces od sběru dat přes sjednocení entit,
+křížové ověření a skórování rizika až po tvorbu zprávy:
 
 ```elixir
 defmodule PrismaticDD.Pipeline do
@@ -223,10 +259,10 @@ defmodule PrismaticDD.Pipeline do
   end
 end
 ```
+### Integrace českých rejstříků
 
-### Czech Registry Integration
-
-The Prismatic Platform integrates with 30+ Czech public registries, providing comprehensive coverage of the Czech business ecosystem:
+Platforma se napojuje na 30+ českých veřejných rejstříků a pokrývá tak český podnikatelský
+prostor:
 
 ```elixir
 defmodule PrismaticDD.CzechRegistries do
@@ -345,8 +381,7 @@ defmodule PrismaticDD.CzechRegistries do
   defp sort_by_relevance(results, _query), do: results
 end
 ```
-
-### Sanctions Screening
+### Sankční screening
 
 ```elixir
 defmodule PrismaticDD.SanctionsScreener do
@@ -462,132 +497,168 @@ defmodule PrismaticDD.SanctionsScreener do
   defp load_sanctions_list(_list), do: []
 end
 ```
+## Implementace v Prismatic Platform
 
-## Implementation in Prismatic Platform
+### Zpravodajský subsystém DD
 
-The Prismatic Platform implements due diligence as a comprehensive subsystem accessible through multiple interfaces:
+Aplikace OTP `prismatic_dd` poskytuje jádro enginu prověrek: správu případů, sjednocování
+entit, grafovou analýzu v KuzuDB a engine křížového ověření *triple-check* postavený na
+epistemickém rámci [NABLA Infinity](@/glossary/nabla-infinity.md). Rozhodovací část popisuje
+heslo [Decision Core](@/glossary/decision-core.md).
 
-### DD Intelligence Subsystem
+### Integrace zdrojů OSINT
 
-The `prismatic_dd` OTP application provides the core due diligence engine with case management, [entity resolution](@/glossary/entity-resolution.md), graph analysis via KuzuDB, and the [triple-check](https://prismatic-reality-com.github.io/prismatic-promo/glossary/triple-check/) cross-validation engine built on the [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic framework.
+Platforma v době zápisu spojovala 120+ adaptérů zdrojů OSINT v těchto kategoriích:
 
-### OSINT Source Integration
+- **české rejstříky** (28 adaptérů): ARES, Justice.cz (obchodní rejstřík, ISIR), RŽP, ČÚZK,
+  Registr smluv, evidence skutečných majitelů a další;
+- **globální zdroje** (84 adaptérů): [Shodan](@/glossary/shodan.md), VirusTotal,
+  [Censys](@/glossary/censys.md), Hunter.io a poskytovatelé zpravodajství o doménách a IP;
+- **sankční seznamy** (3 adaptéry): konsolidovaný seznam EU, seznam OFAC SDN, konsolidovaný
+  seznam OSN;
+- **regionální zdroje**: European Business Register (EU), Companies House (Spojené
+  království), SEC EDGAR (USA).
 
-The platform integrates 120+ OSINT source adapters organized across categories:
+### Engine skórování rizika
 
-- **Czech Registries** (28 adapters): ARES, Justice.cz (Commercial Register, ISIR), RZP, CUZK, Registr Smluv, Beneficial Owners, and more
-- **Global Sources** (84 adapters): Shodan, VirusTotal, Censys, Hunter.io, and domain/IP intelligence providers
-- **Sanctions Lists** (3 adapters): EU consolidated list, OFAC SDN, UN consolidated list
-- **Regional Sources**: European Business Register (EU), Companies House (UK), SEC EDGAR (US)
+Engine [skóre rizika](@/glossary/risk-score.md) vytváří písmenná hodnocení (A–F) s číselným
+skóre (300–900) přiřazeným k požadavkům NIS2 a českého zákona o kybernetické bezpečnosti
+(viz [Compliance Framework](@/glossary/compliance-framework.md)). Skóre jsou kalibrována podle
+oborových srovnání a obsahují intervaly spolehlivosti, které odrážejí úplnost a konzistenci
+dostupných dat.
 
-### Risk Scoring Engine
+### Webové rozhraní
 
-The [risk scoring](@/glossary/risk-score.md) engine produces letter grades (A-F) with numeric scores (300-900) mapped to NIS2 and [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) compliance requirements. Scores are calibrated against industry benchmarks and include confidence intervals that reflect the completeness and consistency of available data.
+Subsystém DD je dostupný na adrese `/dd` webové aplikace; dlaždice šetření jsou i v dashboardu
+Labs. Rozhraní LiveView podporuje sledování průběhu šetření v reálném čase, interaktivní
+průzkum grafu vlastnických struktur a export zpráv do PDF.
 
-### Web Interface
+### Ověření triple-check
 
-The DD subsystem is accessible at `/dd` in the web application, with investigation tiles available in the {{ <cross_link path="/labs/" text="Labs" /> }} dashboard. The LiveView interface supports real-time progress tracking during investigations, interactive graph exploration of ownership structures, and exportable PDF reports.
+Každé zjištění prochází křížovým ověřením *triple-check*, které vyžaduje potvrzení nejméně
+třemi nezávislými zdroji, než je tvrzení považováno za ověřené. Metodika vychází z axiomu
+[Signal Plurality](@/glossary/signal-plurality.md) rámce NABLA Infinity.
 
-### Triple-Check Validation
+## Srovnání s alternativami
 
-Every due diligence finding undergoes [triple-check](https://prismatic-reality-com.github.io/prismatic-promo/glossary/triple-check/) cross-validation, requiring corroboration from at least three independent sources before establishing a claim as verified. This methodology is grounded in the [NABLA Infinity](@/glossary/nabla-infinity.md) [signal plurality](@/glossary/signal-plurality.md) axiom.
+Ceny konkurenčních služeb, které původní heslo uvádělo, kniha vynechává jako neověřené;
+tabulka srovnává jen zdroje, automatizaci a model provozu.
 
-## Comparison with Alternatives
+| Platforma | Zdroje | Automatizace | Vlastní provoz |
+|----------|---------|------------|-------------|
+| **Prismatic DD** | 120+ adaptérů, 30+ českých rejstříků | automatizace celého procesu | ano |
+| **Refinitiv World-Check** | globální PEP a sankce, média | screening a ruční revize | ne (jen SaaS) |
+| **Dow Jones Risk & Compliance** | globální sankce, negativní zprávy | screening a výstrahy | ne (jen SaaS) |
+| **LexisNexis Risk Solutions** | rejstříky USA a světa, spory | poloautomatizované | ne (jen SaaS) |
+| **OpenSanctions** | globální sankce a PEP | jen data, bez procesu | ano (data) |
+| **Maltego** | transformace OSINT | založené na transformacích | desktopová aplikace |
 
-| Platform | Sources | Automation | Self-Hosted | Pricing |
-|----------|---------|------------|-------------|---------|
-| **Prismatic DD** | 120+ adapters, 30+ CZ registries | Full pipeline automation | Yes | Open source (GHL) |
-| **Refinitiv World-Check** | Global PEP/sanctions, media | Screening + manual review | No (SaaS only) | $25K-250K/year |
-| **Dow Jones Risk & Compliance** | Global sanctions, adverse media | Screening + alerts | No (SaaS only) | $30K-300K/year |
-| **LexisNexis Risk Solutions** | US/global registries, litigation | Semi-automated | No (SaaS only) | $20K-200K/year |
-| **OpenSanctions** | Global sanctions/PEP | Data only, no pipeline | Yes (data) | Free (data), paid (API) |
-| **Maltego** | OSINT transforms | Transform-based | Desktop app | $5K-50K/year |
+## Osvědčené postupy
 
-## Best Practices
+1. **Rozmanitost zdrojů:** u každého údaje dotazovat více nezávislých zdrojů. Zjištění
+   z jediného zdroje je ze své podstaty nespolehlivé; metodika triple-check vyžaduje tři
+   nezávislé potvrzující zdroje.
+2. **Nejdřív sjednotit entity:** před analýzou sjednotit identity entit napříč zdroji. Tatáž
+   entita se může objevovat pod různými jmény, identifikátory a přepisy; bez sjednocení je
+   hodnocení roztříštěné a neúplné.
+3. **Procházet řetězce vlastnictví:** sledovat vlastnictví až ke skutečným majitelům. Složité
+   struktury s fiktivními společnostmi, svěřenskými fondy a nominee uspořádáními mohou být
+   navrženy tak, aby zakryly sankcionované nebo rizikové vlastnictví.
+4. **Časová analýza:** zkoumat nejen současný stav, ale i historické vzorce. Odstoupení
+   členů orgánů krátce před vynucovacími opatřeními, změny vlastnictví v době sankčních
+   rozhodnutí nebo posuny finančních vzorců mohou ukazovat na riziko, které snímek
+   současného stavu nezachytí.
+5. **Kalibrace přibližného porovnání:** pečlivě nastavit prahy sankčního screeningu. Příliš
+   přísný práh (> 0,95) přehlédne varianty přepisu a aliasy, příliš volný (< 0,80) vytvoří
+   nadměrné množství falešných shod. Výchozí hodnota platformy 0,85 vyvažuje citlivost
+   a přesnost.
+6. **Screening negativních zpráv:** vedle rejstříků a sankcí zahrnout strukturovaný screening
+   médií. Negativní zprávy často předcházejí formálním vynucovacím opatřením a dávají včasné
+   varování.
+7. **Průběžné sledování:** prověrka není jednorázovým úkonem. U trvajících vztahů je třeba
+   sledovat změny sankčních seznamů, rejstříků, skutečných majitelů a zpráv.
+8. **Auditní stopa:** vést neměnnou stopu každého dotazu, odpovědi zdroje, rozhodnutí
+   o shodě a hodnocení rizika. Regulátoři vyžadují doložitelný průběh prověrky (srov. [Chain
+   of custody](@/glossary/chain-of-custody.md)).
 
-1. **Source Diversity**: Query multiple independent sources for every data point. Single-source findings are inherently unreliable. The [triple-check](https://prismatic-reality-com.github.io/prismatic-promo/glossary/triple-check/) methodology requires three independent corroborating sources.
+## Časté chyby
 
-2. **Entity Resolution First**: Before analyzing data, resolve entity identities across sources. The same entity may appear under different names, identifiers, and transliterations. Failing to resolve entities leads to fragmented and incomplete assessments.
+1. **Screening jen podle jména:** porovnávat jen hlavní jméno bez aliasů, přepisů, dřívějších
+   jmen a spojených entit. Tak se přehlédnou shody, které používají jiný pravopis nebo jinou
+   podobu jména.
+2. **Přehlížení vlastnických struktur:** prověřit jen přímou protistranu bez řetězců
+   vlastnictví. Sankcionované osoby často působí přes vrstvy fiktivních společností
+   a nominee uspořádání.
+3. **Zastaralá data:** spoléhat na data z mezipaměti nebo zřídka aktualizovaná. Sankční
+   seznamy, rejstříky i evidence skutečných majitelů se mění průběžně.
+4. **Falešná jistota z automatizace:** brát výsledky automatického screeningu jako konečné bez
+   lidské revize. Automatizace vyniká ve sběru dat a porovnávání vzorů, ale nenahradí lidský
+   úsudek při výkladu a hodnocení rizika.
+5. **Slepota k jurisdikcím:** uplatňovat jednu metodiku všude bez ohledu na místní předpisy,
+   dostupné zdroje a zvyklosti pojmenování.
+6. **Strnulé prahy:** používat pevné prahy bez kontextu. Skóre podobnosti 0,87 může být
+   jasnou shodou u krátkého jména („Li Wei“), ale falešnou shodou u dlouhého názvu firmy
+   s běžnými slovy.
+7. **Chybějící negativní indikátory:** soustředit se jen na to, co bylo nalezeno, a ne na to,
+   co chybí. Absence očekávaných záznamů v rejstřících, finančních výkazů nebo webové
+   přítomnosti může být významnější než kterékoli jednotlivé zjištění.
+8. **Nedostatečná dokumentace:** neprovést záznam metodiky, dotázaných zdrojů, zjištění
+   a rozhodnutí. Neúplná dokumentace podkopává regulatorní hodnotu celého procesu.
 
-3. **Ownership Chain Traversal**: Follow ownership chains to their ultimate [beneficial owners](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beneficial-ownership/). Complex corporate structures with shell companies, trusts, and nominee arrangements may be designed to obscure sanctioned or high-risk ownership.
+## Případy užití
 
-4. **Temporal Analysis**: Examine not just current state but historical patterns. Directors who resigned shortly before enforcement actions, ownership changes coinciding with sanctions designations, and financial pattern shifts may indicate risk that snapshot analysis would miss.
+### Prověrka před investicí
 
-5. **Fuzzy Matching Calibration**: Tune sanctions screening thresholds carefully. Too strict (>0.95) misses transliteration variants and aliases. Too loose (<0.80) generates excessive false positives. The platform default of 0.85 balances sensitivity with precision.
+Fondy rizikového kapitálu a private equity prověřují cílové firmy před investicí. Proces
+dotazuje české rejstříky na finanční zdraví, obchodní rejstřík na strukturu společnosti,
+evidenci skutečných majitelů, sankční seznamy kvůli souladu a globální zdroje OSINT kvůli
+pověsti.
 
-6. **Adverse Media Screening**: Include structured media screening alongside registry and sanctions checks. Adverse media often precedes formal enforcement actions and provides early warning of emerging risks.
+### Soulad KYC/AML
 
-7. **Continuous Monitoring**: Due diligence is not a point-in-time exercise. Implement continuous monitoring for changes in sanctions lists, registry data, beneficial ownership, and adverse media for ongoing relationships.
+Finanční instituce a povinné osoby provádějí hloubkovou a zesílenou kontrolu klienta, jak ji
+vyžadují předpisy AML. Automatizovaný proces výrazně zkracuje čas přijetí klienta
+a zachovává regulatorní soulad.
 
-8. **Audit Trail**: Maintain an immutable [audit trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) of every query, source response, matching decision, and risk assessment. Regulators require demonstrable evidence of due diligence processes.
+### Hodnocení rizika dodavatelů
 
-## Common Pitfalls
+Organizace posuzují bezpečnostní stav a soulad dodavatelů. Šetření spojuje bezpečnostní
+hodnocení (přes Prismatic Perimeter, viz [EASM](@/glossary/easm.md)) s prověrkou entity.
 
-1. **Name-Only Screening**: Screening only against primary entity names without considering aliases, transliterations, former names, and associated entities. This misses sanctions hits that use variant spellings or alternative name forms.
+### Prověrka při fúzích a akvizicích
 
-2. **Ignoring Ownership Structures**: Performing due diligence only on the direct counterparty without investigating ownership chains. Sanctioned individuals frequently operate through layers of shell companies and nominee arrangements.
+Fúze a akvizice vyžadují komplexní prošetření cílové firmy po finanční, právní, technické
+i compliance stránce. Sběr z více zdrojů a sjednocování entit zkracuje fázi sběru dat
+z týdnů na hodiny.
 
-3. **Stale Data**: Relying on cached or infrequently updated source data. Sanctions lists, registry data, and beneficial ownership records change continuously. Investigations must use current data.
+### Sledování sankčního souladu
 
-4. **False Confidence from Automation**: Treating automated screening results as definitive without human review. Automated systems excel at data collection and pattern matching but cannot replace human judgment for contextual interpretation and risk assessment.
+Organizace podléhající sankčním předpisům průběžně prověřují protistrany, skutečné majitele
+a účastníky transakcí proti sankčním seznamům EU, OFAC a OSN. Engine přibližného porovnání
+zvládá varianty jmen, přepisy a aliasy.
 
-5. **Jurisdiction Blindness**: Applying a single due diligence methodology across all jurisdictions without accounting for local regulatory requirements, available data sources, and cultural naming conventions.
+## Související pojmy
 
-6. **Threshold Rigidity**: Using fixed risk thresholds without considering context. A sanctions similarity score of 0.87 might be a clear match for a short name ("Li Wei") but a false positive for a long corporate name with common words.
+Bez vlastního hesla v glosáři knihy: *KYC*, *AML*, *Beneficial Ownership* (skuteční majitelé),
+*Triple Check* (křížové ověření třemi zdroji), *Knowledge Graph*, *Security Rating*, *Audit
+Trail* a *Confidence Scoring*.
 
-7. **Missing Negative Indicators**: Focusing only on what is found without considering what is missing. The absence of expected registry entries, financial filings, or web presence can be more significant than any individual finding.
+## Související
 
-8. **Inadequate Documentation**: Performing due diligence without documenting methodology, sources queried, findings, and decisions. Incomplete documentation undermines the regulatory value of the entire process.
+**Platforma**
 
-## Use Cases
+- [Sanctions Screening](@/glossary/sanctions-screening.md) – automatický screening sankčních
+  seznamů.
+- [Entity Resolution](@/glossary/entity-resolution.md) – sjednocování identit napříč zdroji.
+- [Risk Score](@/glossary/risk-score.md) – kvantifikované hodnocení rizika.
+- [Compliance Framework](@/glossary/compliance-framework.md) – regulatorní rámce souladu.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec plurality důkazů
+  a sledování původu.
+- [OSINT](@/glossary/osint.md) – zpravodajství z otevřených zdrojů.
 
-### Pre-Investment Due Diligence
+**Kompendium**
 
-Venture capital and private equity firms use the platform to investigate target companies before investment. The pipeline queries Czech registries for financial health, commercial register for corporate structure, [beneficial ownership](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beneficial-ownership/) registry for UBO identification, sanctions lists for compliance, and global OSINT sources for reputational intelligence.
-
-### KYC/AML Compliance
-
-Financial institutions and obliged entities use the platform to perform Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD) as required by [AML](https://prismatic-reality-com.github.io/prismatic-promo/glossary/aml/) regulations. The automated pipeline significantly reduces the time required for [KYC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/kyc/) onboarding while maintaining regulatory compliance.
-
-### Vendor Risk Assessment
-
-Organizations use the platform to assess the security and compliance posture of vendors and suppliers. The investigation combines [security rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) assessment (via [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/)) with entity investigation for comprehensive vendor risk assessment.
-
-### Merger and Acquisition Due Diligence
-
-M&A transactions require comprehensive investigation of target companies across financial, legal, technical, and compliance dimensions. The platform's multi-source intelligence collection and [entity resolution](@/glossary/entity-resolution.md) capabilities accelerate the data gathering phase from weeks to hours.
-
-### Sanctions Compliance Monitoring
-
-Organizations subject to sanctions regulations use the platform for continuous screening of counterparties, beneficial owners, and transaction participants against EU, OFAC, and UN sanctions lists. The fuzzy matching engine handles name variants, transliterations, and alias detection.
-
-## Related Concepts
-
-- [KYC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/kyc/) -- Know Your Customer compliance requirements for identity verification
-- [AML](https://prismatic-reality-com.github.io/prismatic-promo/glossary/aml/) -- Anti-Money Laundering regulatory framework and detection methodologies
-- [Sanctions Screening](@/glossary/sanctions-screening.md) -- Automated screening against sanctions and watchlists
-- [Beneficial Ownership](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beneficial-ownership/) -- Identification of ultimate beneficial owners behind corporate structures
-- [Entity Resolution](@/glossary/entity-resolution.md) -- Record linkage and identity consolidation across fragmented data sources
-- [Triple Check](https://prismatic-reality-com.github.io/prismatic-promo/glossary/triple-check/) -- Three-source cross-validation methodology for establishing verified claims
-- [Risk Score](@/glossary/risk-score.md) -- Quantified risk assessment output with letter grades and numeric scores
-- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) -- Graph structure storing entity relationships and ownership chains
-- [Compliance Framework](@/glossary/compliance-framework.md) -- Regulatory compliance assessment and enforcement infrastructure
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework enforcing evidence plurality and provenance tracking
-
-## See Also
-
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Quantified security posture assessment for vendor risk
-- [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) -- External Attack Surface Management complementing DD investigations
-- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) -- Czech cybersecurity regulation relevant to compliance due diligence
-- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable logging of investigation steps for regulatory evidence
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Quantified confidence levels for investigation findings
-- [Security Assessment](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-assessment/) -- Technical security evaluation of target entities
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [DD engine: vážení zdrojů](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md)
+  – jak prověrka zohledňuje techniky EA.
+- [Chain of custody](@/glossary/chain-of-custody.md) – dokumentace, která dává prověrce
+  důkazní váhu.

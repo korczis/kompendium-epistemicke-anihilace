@@ -19,7 +19,7 @@ toc = true
 
 Robert Brandom v monumentálním *Making It Explicit* (1994) a populárnější *Articulating Reasons* (2000) rozvíjí **inferenciální sémantiku** — pozici, podle níž je význam tvrzení **konstituován** jeho **inferenciálními** rolemi: **co tvrzení implikuje** a **z čeho vyplývá**.
 
-Pro kompendium EA poskytuje Brandomova teorie nástroj pro pochopení EA technik jako **manipulace deontického skóru** — pozic závazků a oprávnění v **prostoru důvodů**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Brandomova teorie nástroj pro pochopení EA technik jako **manipulace deontického skóru** — pozic závazků a oprávnění v **prostoru důvodů**.
 
 ## 1. Inferenciální sémantika
 
@@ -55,7 +55,7 @@ Když řeknu „*Sníh je bílý*“, **zavazuji** se k důsledkům tohoto tvrze
 Pro EA má pojem deontického skóru **specifickou diagnostickou hodnotu**:
 
 - **Manipulace deontického skóru**: útočník **fabrikuje** závazky druhých („ty jsi přece souhlasil s X“) nebo **odmítá vlastní** závazky („nikdy jsem to neřekl“).
-- **Gaslighting jako deontická manipulace**: systematické přepisování deontického skóru pacienta — „ty jsi řekl/a Y“, „ty jsi cítil/a Z“.
+- **[Gaslighting](@/glossary/gaslighting.md) jako deontická manipulace**: systematické přepisování deontického skóru pacienta — „ty jsi řekl/a Y“, „ty jsi cítil/a Z“.
 - **Algoritmické přepisování deontického skóru**: digitální platformy **přidělují** subjektu závazky (terms of service, předpoklady souhlasu) bez explicitní ratifikace.
 
 ## 4. Pragmatika a kontext
@@ -82,7 +82,7 @@ Pro EA z toho plyne:
 Pro Prismatic platformu má inferencialismus **specifickou** relevanci:
 
 - **NABLA Infinity** ([viz §4.2 7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) operuje **inferenciálně** — udržuje **deontický skór** kontradikcí, jež musí být **explicitně řešeny**.
-- **Color Teams** strukturálně **udržují** prostor důvodů — Red Team sleduje, zda Blue Team **drží** své závazky.
+- **Color Teams** strukturálně **udržují** prostor důvodů — [Red Team](@/glossary/red-team.md) sleduje, zda [Blue Team](@/glossary/blue-team.md) **drží** své závazky.
 - **Decision Core** zaznamenává **inferenční řetězec** — explicitní deontický skór rozhodovacích procesů.
 
 ## 7. Primární literatura

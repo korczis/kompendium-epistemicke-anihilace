@@ -1,10 +1,10 @@
 +++
-title = "Adapter Pattern"
+title = "Adapter Pattern (vzor adaptér)"
 weight = 45
-description = "Unified storage interface abstracting 7 backend technologies through Elixir behaviours and compile-time contract enforcement"
+description = "Jednotné rozhraní úložiště Prismatic Platform, které pomocí behaviours v Elixiru a kontraktů ověřovaných při kompilaci zastírá sedm různých backendových technologií."
 
 [taxonomies]
-tags = ["glossary", "architecture", "design-patterns", "storage", "abstraction", "contracts"]
+tags = ["glossary", "architecture", "design-patterns", "storage", "prismatic"]
 
 [extra]
 category = "storage"
@@ -15,47 +15,72 @@ reading_time = "20 min"
 difficulty = "advanced"
 quality_score = 96
 platforms = ["Prismatic Platform", "BEAM/OTP", "Phoenix LiveView"]
-key_takeaway = "The adapter pattern via Elixir behaviours enables the Prismatic Platform to abstract 7 storage backends behind a unified interface with compile-time contract enforcement and runtime backend selection"
+key_takeaway = "Vzor adaptér realizovaný přes behaviours v Elixiru umožňuje Prismatic Platform skrýt sedm backendů úložiště za jednotné rozhraní s kontraktem ověřovaným při kompilaci a s volbou backendu za běhu."
 date_created = "2026-02-22"
-date_updated = "2026-02-22"
-related_concepts = ["structural design pattern", "interface abstraction", "backend composition", "contract testing", "dependency inversion"]
+date_updated = "2026-11-10"
+related_concepts = ["strukturální návrhový vzor", "abstrakce rozhraní", "skládání backendů", "testování kontraktů", "inverze závislostí"]
 see_also = ["behaviour", "protocol", "ets", "ecto", "kuzudb", "meilisearch"]
-word_count = 1126
-date_modified = "2026-02-23"
-keywords = ["Adapter", "Pattern", "Unified", "Elixir", "glossary", "storage", "Prismatic Platform", "PostgreSQL", "Milliseconds"]
+date_modified = "2026-11-10"
+keywords = ["Adapter", "Pattern", "vzor adaptér", "Elixir", "glosář", "úložiště", "Prismatic Platform", "PostgreSQL"]
 image = "/images/sections/glossary.png"
-image_alt = "Adapter Pattern - Prismatic Platform"
+image_alt = "Adapter Pattern – Prismatic Platform"
 +++
 
-## Definition
+## Definice
 
-The Adapter Pattern is a structural design pattern that defines a uniform interface through which client code interacts with diverse backend implementations. By establishing a contract (the adapter interface) and implementing it for each backend, the pattern decouples application logic from infrastructure concerns: business code depends only on the abstract interface, never on a specific technology. Adapters can be swapped, composed, or layered without modifying the code that consumes them.
+**Vzor adaptér** (*Adapter Pattern*) je strukturální návrhový vzor, který definuje jednotné
+rozhraní, jehož prostřednictvím klientský kód pracuje s různými backendovými
+implementacemi. Zavedením kontraktu (rozhraní adaptéru) a jeho implementací pro každý
+backend vzor odděluje aplikační logiku od infrastruktury: byznysový kód závisí jen na
+abstraktním rozhraní, nikdy na konkrétní technologii. Adaptéry lze vyměňovat, skládat nebo
+vrstvit, aniž by se měnil kód, který je používá.
 
-In the classical Gang of Four formulation, the adapter pattern translates one interface into another that a client expects. In the Prismatic Platform's usage, the pattern goes further: it defines a canonical storage interface via Elixir [behaviours](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) and implements it across seven distinct storage technologies, each optimized for different access patterns. This is not merely interface translation but a full abstraction layer that enables transparent multi-backend operations, layered caching, and contract-driven testing across all storage implementations.
+V klasické formulaci „Gang of Four“ vzor adaptér převádí jedno rozhraní na jiné, které
+klient očekává. Prismatic Platform jde dál: definuje kanonické rozhraní úložiště pomocí
+*behaviours* Elixiru a implementuje je pro sedm různých technologií úložiště, každou
+optimalizovanou pro jiný způsob přístupu. Nejde jen o převod rozhraní, ale o úplnou
+abstrakční vrstvu, která umožňuje průhledné operace nad více backendy, vrstvenou mezipaměť
+a testování řízené kontraktem napříč všemi implementacemi.
 
-The pattern's power in the Prismatic context stems from Elixir's compile-time behaviour verification. When a storage adapter claims to implement the `PrismaticStorage.Core` behaviour, Dialyzer verifies at compile time that all required callbacks are implemented with correct type signatures. This provides the same guarantees as interface implementation in statically typed languages while preserving Elixir's dynamic dispatch flexibility and pattern matching capabilities.
+Síla vzoru v kontextu platformy plyne z ověřování behaviours při kompilaci. Když adaptér
+úložiště prohlásí, že implementuje behaviour `PrismaticStorage.Core`, Dialyzer při
+kompilaci ověří, že jsou implementována všechna požadovaná zpětná volání se správnými
+typovými signaturami. To dává stejné záruky jako implementace rozhraní ve staticky
+typovaných jazycích a přitom zachovává pružnost dynamického volání a porovnávání vzorů
+v Elixiru.
 
-## Storage Architecture Overview
+**Vztah ke knize:** heslo patří do kontextu softwarové platformy, z níž Kompendium
+vzešlo; v architektuře [3NL](@/glossary/3nl.md) je vzor adaptér typickým vzorem úrovně L3.
+Pro čtenáře knihy může posloužit jako technická analogie toho, co Kompendium požaduje od
+poznávání: oddělit úsudek od konkrétního zdroje a každý zdroj podrobit stejnému
+„kontraktu“ ověření (srov. [Triangulace
+zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)).
 
-The Prismatic Platform's storage layer is organized as a set of umbrella applications, each implementing the core storage behaviour for a specific backend technology.
+## Přehled architektury úložiště
 
-| Application | Backend | Optimized For | Latency | Use Case |
+Vrstva úložiště platformy je uspořádána jako soubor aplikací umbrella projektu; každá
+implementuje základní behaviour úložiště pro určitou backendovou technologii.
+
+| Aplikace | Backend | Optimalizováno pro | Latence | Použití |
 |-------------|---------|---------------|---------|----------|
-| `prismatic_storage_ets` | [ETS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ets/) | Key-value, concurrent reads | Microseconds | Hot cache, working memory |
-| `prismatic_storage_ecto` | [PostgreSQL](https://prismatic-reality-com.github.io/prismatic-promo/glossary/postgresql/) via Ecto | Relational queries, transactions | Milliseconds | Persistent storage, ACID |
-| `prismatic_storage_meilisearch` | Meilisearch | Full-text search | Milliseconds | Content discovery, search |
-| `prismatic_storage_kuzudb` | KuzuDB | Graph traversal, path queries | Milliseconds | Relationship graphs, ontology |
-| `prismatic_storage_duckdb` | DuckDB | Analytical OLAP, columnar | Milliseconds | Analytics, aggregation |
-| `prismatic_storage_redis` | [Redis](https://prismatic-reality-com.github.io/prismatic-promo/glossary/redis/) | Pub/sub, distributed cache | Sub-millisecond | Cross-node state, caching |
-| `prismatic_storage_file` | File system | Document storage | Milliseconds | Reports, exports, artifacts |
+| `prismatic_storage_ets` | ETS | klíč–hodnota, souběžné čtení | mikrosekundy | horká mezipaměť, pracovní paměť |
+| `prismatic_storage_ecto` | PostgreSQL přes Ecto | relační dotazy, transakce | milisekundy | trvalé úložiště, ACID |
+| `prismatic_storage_meilisearch` | Meilisearch | fulltextové vyhledávání | milisekundy | objevování obsahu, hledání |
+| `prismatic_storage_kuzudb` | KuzuDB | průchod grafem, dotazy na cesty | milisekundy | grafy vztahů, ontologie |
+| `prismatic_storage_duckdb` | DuckDB | analytické OLAP, sloupcové | milisekundy | analytika, agregace |
+| `prismatic_storage_redis` | Redis | pub/sub, distribuovaná mezipaměť | pod milisekundu | stav napříč uzly, cache |
+| `prismatic_storage_file` | souborový systém | ukládání dokumentů | milisekundy | zprávy, exporty, artefakty |
 
-Each adapter lives in its own umbrella application with independent dependencies, tests, and configuration. This isolation means that adding a new storage backend requires no changes to existing adapters or to application code that uses the abstract interface.
+Každý adaptér žije ve vlastní aplikaci umbrella projektu s nezávislými závislostmi, testy
+a konfigurací. Díky této izolaci přidání nového backendu nevyžaduje žádné změny stávajících
+adaptérů ani aplikačního kódu, který abstraktní rozhraní používá.
 
-## Behaviour-Based Contracts
+## Kontrakty založené na behaviours
 
-The adapter pattern in Prismatic is built on Elixir [behaviours](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/), which provide compile-time contract enforcement through `@callback` declarations.
+Vzor adaptér na platformě stojí na *behaviours* Elixiru, které vynucují kontrakt při
+kompilaci pomocí deklarací `@callback`.
 
-### Core Behaviour Definition
+### Definice základního behaviour
 
 ```elixir
 defmodule PrismaticStorage.Core do
@@ -82,10 +107,10 @@ defmodule PrismaticStorage.Core do
   @optional_callbacks [query: 2, bulk_put: 2, bulk_delete: 2]
 end
 ```
+### Implementace adaptéru
 
-### Adapter Implementation
-
-Each adapter implements the core behaviour, translating the abstract operations into backend-specific calls.
+Každý adaptér implementuje základní behaviour a převádí abstraktní operace na volání
+specifická pro daný backend.
 
 ```elixir
 defmodule PrismaticStorage.ETS do
@@ -134,7 +159,6 @@ defmodule PrismaticStorage.ETS do
   end
 end
 ```
-
 ```elixir
 defmodule PrismaticStorage.Ecto do
   @behaviour PrismaticStorage.Core
@@ -171,10 +195,10 @@ defmodule PrismaticStorage.Ecto do
   # ... remaining callbacks
 end
 ```
+## Testování kontraktu
 
-## Contract Testing
-
-The adapter contract test suite ensures that every adapter implementation satisfies the full interface specification, not just the type signatures checked by Dialyzer.
+Sada testů kontraktu adaptéru zajišťuje, že každá implementace splňuje úplnou specifikaci
+rozhraní, nikoli jen typové signatury kontrolované Dialyzerem.
 
 ```elixir
 defmodule PrismaticStorage.AdapterContractTest do
@@ -236,8 +260,7 @@ defmodule PrismaticStorage.AdapterContractTest do
   end
 end
 ```
-
-This contract test is used by every adapter:
+Tento test kontraktu používá každý adaptér:
 
 ```elixir
 # In prismatic_storage_ets/test/
@@ -249,10 +272,10 @@ use PrismaticStorage.AdapterContractTest, adapter_module: PrismaticStorage.Ecto
 # In prismatic_storage_meilisearch/test/
 use PrismaticStorage.AdapterContractTest, adapter_module: PrismaticStorage.Meilisearch
 ```
+## Volba adaptéru za běhu
 
-## Runtime Adapter Selection
-
-The platform supports runtime adapter selection, enabling configuration-driven backend switching without code changes.
+Platforma podporuje volbu adaptéru za běhu, takže backend lze přepnout konfigurací bez
+změny kódu.
 
 ```elixir
 defmodule PrismaticStorage do
@@ -275,8 +298,7 @@ defmodule PrismaticStorage do
   end
 end
 ```
-
-Configuration-driven adapter selection:
+Volba adaptéru řízená konfigurací:
 
 ```elixir
 # config/dev.exs
@@ -288,12 +310,12 @@ config :prismatic_storage, default_adapter: PrismaticStorage.Ecto
 # config/test.exs
 config :prismatic_storage, default_adapter: PrismaticStorage.ETS
 ```
+## Skládání a vrstvení backendů
 
-## Backend Composition and Layering
+Jednou z nejsilnějších schopností vzoru adaptér na platformě je průhledné skládání
+backendů: adaptéry lze vrstvit a kombinovat tak přednosti více backendů.
 
-One of the adapter pattern's most powerful capabilities in Prismatic is transparent backend composition: adapters can be layered to combine the strengths of multiple backends.
-
-### Write-Through Cache
+### Mezipaměť se zápisem skrz (*write-through*)
 
 ```elixir
 defmodule PrismaticStorage.CacheThrough do
@@ -333,8 +355,7 @@ defmodule PrismaticStorage.CacheThrough do
   end
 end
 ```
-
-### Multi-Backend Query
+### Dotaz nad více backendy
 
 ```elixir
 # Query across graph + relational backends
@@ -363,10 +384,11 @@ defmodule PrismaticStorage.MultiQuery do
   end
 end
 ```
+## Telemetrie a pozorovatelnost
 
-## Telemetry and Observability
-
-The adapter pattern provides a natural instrumentation point. Because all storage operations flow through the adapter interface, telemetry can be attached at the contract level, providing uniform observability across all backends without modifying individual adapter implementations.
+Vzor adaptér nabízí přirozené místo pro instrumentaci. Protože všechny operace úložiště
+procházejí rozhraním adaptéru, lze telemetrii připojit na úrovni kontraktu a získat
+jednotnou pozorovatelnost napříč všemi backendy bez úprav jednotlivých adaptérů.
 
 ```elixir
 defmodule PrismaticStorage.InstrumentedAdapter do
@@ -428,12 +450,17 @@ defmodule PrismaticStorage.InstrumentedAdapter do
   end
 end
 ```
+Instrumentovaný adaptér umožňuje dashboardy s rozložením latence, chybovostí
+a propustností pro každý backend – vše odvozené z jednotného rozhraní adaptéru, bez
+instrumentačního kódu specifického pro backend.
 
-This instrumented adapter enables dashboards that show per-backend latency distributions, error rates, and throughput metrics -- all derived from the uniform adapter interface without any backend-specific instrumentation code.
+## Strategie zpracování chyb
 
-## Error Handling Strategy
-
-The adapter pattern enforces a consistent error handling strategy across all backends. Every adapter must translate backend-specific errors into the platform's standard `{:ok, value} | {:error, reason}` tuple format. This normalization ensures that application code never needs to handle PostgreSQL-specific exceptions, ETS-specific error atoms, or Meilisearch HTTP error codes directly.
+Vzor adaptér vynucuje jednotnou strategii zpracování chyb napříč backendy. Každý adaptér
+musí převést chyby specifické pro backend na standardní formát platformy
+`{:ok, value} | {:error, reason}`. Tato normalizace zajišťuje, že aplikační kód nikdy
+nemusí přímo řešit výjimky PostgreSQL, chybové atomy ETS ani chybové kódy HTTP
+z Meilisearch.
 
 ```elixir
 defmodule PrismaticStorage.ErrorNormalizer do
@@ -467,55 +494,67 @@ defmodule PrismaticStorage.ErrorNormalizer do
   end
 end
 ```
+Když tedy aplikační kód dostane `{:error, :connection_failed}`, může implementovat
+opakování pokusu, aniž by věděl, zda pod ním běží PostgreSQL, Redis, nebo Meilisearch.
+Normalizace chyb je součástí kontraktu adaptéru, nikoli dodatečným nápadem.
 
-This approach means that when application code receives `{:error, :connection_failed}`, it can implement retry logic without knowing whether the underlying backend is PostgreSQL, Redis, or Meilisearch. The error normalization is part of the adapter contract, not an afterthought.
+## Srovnání s jinými abstrakčními vzory
 
-## Comparison with Alternative Abstraction Patterns
-
-| Pattern | Dispatch Mechanism | Best For | Prismatic Usage |
+| Vzor | Mechanismus volání | Nejvhodnější pro | Použití na platformě |
 |---------|-------------------|----------|-----------------|
-| **Adapter (Behaviour)** | Module-level callbacks | Backend abstraction | Storage adapters |
-| **Protocol** | Data type dispatch | Polymorphic data operations | Encoding, formatting |
-| [Plug](https://prismatic-reality-com.github.io/prismatic-promo/glossary/plug/) | Request pipeline | HTTP middleware | Request processing |
-| **Strategy** | Runtime function selection | Algorithm selection | Scoring algorithms |
-| **Repository** | Domain-specific interface | Data access objects | Ecto Repos |
+| **Adaptér (behaviour)** | zpětná volání na úrovni modulu | abstrakce backendu | adaptéry úložiště |
+| **Protokol** | volání podle datového typu | polymorfní operace nad daty | kódování, formátování |
+| **Plug** | řetězec zpracování požadavku | HTTP middleware | zpracování požadavků |
+| **Strategie** | volba funkce za běhu | volba algoritmu | bodovací algoritmy |
+| **Repository** | doménově specifické rozhraní | objekty přístupu k datům | repozitáře Ecto |
 
-The adapter pattern via behaviours was chosen for storage because the dispatch decision is based on the backend type (a module), not on the data type (which would favor protocols). A single data structure (e.g., a security asset record) may be stored in any backend, so module-based dispatch is the natural choice.
+Pro úložiště byl zvolen adaptér přes behaviours, protože rozhodnutí o volání závisí na
+typu backendu (modulu), ne na datovém typu (to by mluvilo pro protokoly). Jedna datová
+struktura (např. záznam o bezpečnostním aktivu) může být uložena v kterémkoli backendu,
+takže volání podle modulu je přirozenou volbou.
 
-## Adding a New Adapter
+## Přidání nového adaptéru
 
-The adapter pattern makes adding a new storage backend a well-defined, low-risk operation.
+Díky vzoru adaptér je přidání nového backendu úložiště dobře definovanou operací s nízkým
+rizikem.
 
-| Step | Action | Verification |
+| Krok | Akce | Ověření |
 |------|--------|-------------|
-| 1 | Create umbrella app `prismatic_storage_new` | `mix new apps/prismatic_storage_new` |
-| 2 | Add `@behaviour PrismaticStorage.Core` | Dialyzer checks callback completeness |
-| 3 | Implement all `@callback` functions | Compiler warns on missing callbacks |
-| 4 | Add `use PrismaticStorage.AdapterContractTest` | Contract tests validate behavior |
-| 5 | Configure in `config/*.exs` | Runtime adapter selection works |
-| 6 | Add [connection pooling](https://prismatic-reality-com.github.io/prismatic-promo/glossary/connection-pooling/) if needed | Pool supervised in app tree |
-| 7 | Document in adapter registry | Discoverable by other components |
+| 1 | vytvořit aplikaci umbrella projektu `prismatic_storage_new` | `mix new apps/prismatic_storage_new` |
+| 2 | přidat `@behaviour PrismaticStorage.Core` | Dialyzer kontroluje úplnost zpětných volání |
+| 3 | implementovat všechny funkce `@callback` | kompilátor varuje před chybějícími voláními |
+| 4 | přidat `use PrismaticStorage.AdapterContractTest` | testy kontraktu ověří chování |
+| 5 | nastavit v `config/*.exs` | volba adaptéru za běhu funguje |
+| 6 | podle potřeby přidat sdružování spojení (*connection pooling*) | pool je supervidován ve stromu aplikace |
+| 7 | zdokumentovat v registru adaptérů | ostatní součásti jej najdou |
 
-No existing adapters or application code need to be modified. The contract test suite guarantees that the new adapter satisfies the same behavioral contract as all existing adapters.
+Žádný stávající adaptér ani aplikační kód není třeba měnit. Sada testů kontraktu zaručuje,
+že nový adaptér splňuje stejný behaviorální kontrakt jako všechny stávající.
 
-## Performance Characteristics
+## Výkonové charakteristiky
 
-| Adapter | Read Latency | Write Latency | Query Capability | Scalability |
+| Adaptér | Latence čtení | Latence zápisu | Možnosti dotazů | Škálovatelnost |
 |---------|-------------|---------------|-----------------|-------------|
-| ETS | < 1 microsecond | < 1 microsecond | Key-value only | Single node |
-| Ecto/PostgreSQL | 1-10 ms | 1-10 ms | Full SQL, joins | Multi-node (replication) |
-| Meilisearch | 5-50 ms | 10-100 ms | Full-text search, facets | Horizontal |
-| KuzuDB | 1-50 ms | 5-50 ms | Graph traversal, Cypher | Single node |
-| DuckDB | 10-100 ms | 10-50 ms | Analytical SQL, columnar | Single node |
-| Redis | < 1 ms | < 1 ms | Key-value, sorted sets | Cluster |
+| ETS | < 1 mikrosekunda | < 1 mikrosekunda | jen klíč–hodnota | jeden uzel |
+| Ecto/PostgreSQL | 1–10 ms | 1–10 ms | plné SQL, spojení | více uzlů (replikace) |
+| Meilisearch | 5–50 ms | 10–100 ms | fulltext, fasety | horizontální |
+| KuzuDB | 1–50 ms | 5–50 ms | průchod grafem, Cypher | jeden uzel |
+| DuckDB | 10–100 ms | 10–50 ms | analytické SQL, sloupcové | jeden uzel |
+| Redis | < 1 ms | < 1 ms | klíč–hodnota, setříděné množiny | cluster |
 
-The performance characteristics inform backend selection. The platform's multi-backend architecture enables choosing the optimal backend for each access pattern: ETS for hot-path reads, PostgreSQL for transactional writes, Meilisearch for search, and KuzuDB for relationship traversal.
+Výkonové charakteristiky (orientační hodnoty platformy) určují volbu backendu.
+Architektura s více backendy umožňuje zvolit pro každý způsob přístupu optimální backend:
+ETS pro čtení na horké cestě, PostgreSQL pro transakční zápisy, Meilisearch pro hledání
+a KuzuDB pro průchod vztahy.
 
-## Migration Between Backends
+## Migrace mezi backendy
 
-The adapter pattern simplifies backend migration because application code depends only on the abstract interface. A migration from one backend to another involves three steps: implementing the new adapter, verifying it passes the contract test suite, and updating the configuration. Application code remains untouched.
+Vzor adaptér zjednodušuje migraci mezi backendy, protože aplikační kód závisí jen na
+abstraktním rozhraní. Migrace z jednoho backendu na jiný má tři kroky: implementovat nový
+adaptér, ověřit, že projde sadou testů kontraktu, a upravit konfiguraci. Aplikační kód
+zůstane nedotčen.
 
-For data migration between backends, the uniform interface enables a generic migration tool:
+Pro migraci dat mezi backendy umožňuje jednotné rozhraní obecný migrační nástroj:
 
 ```elixir
 defmodule PrismaticStorage.Migrator do
@@ -542,35 +581,31 @@ defmodule PrismaticStorage.Migrator do
   end
 end
 ```
+Tento nástroj funguje pro libovolnou dvojici adaptérů, aniž by znal vnitřek kteréhokoli
+backendu, a ukazuje tak plnou sílu abstrakce adaptéru.
 
-This migration tool works for any pair of adapters without knowledge of either backend's internals, demonstrating the full power of the adapter abstraction.
+## Související pojmy
 
-## Related Terms
+Technické pojmy, s nimiž vzor souvisí (bez vlastního hesla v glosáři knihy): *behaviour*
+(mechanismus kontraktu ověřovaný při kompilaci), *typespec* (typové anotace v definicích
+`@callback`), ETS (úložiště v paměti), Ecto (databázová vrstva adaptéru PostgreSQL), KuzuDB
+(grafová databáze), *connection pooling* (správa spojení), Plug (skládání zpracování
+požadavků), Dialyzer (statická analýza kontraktů), testování založené na vlastnostech
+a Redis (distribuovaná mezipaměť).
 
-- [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) - Contract mechanism enforcing adapter compliance at compile time
-- [Typespec](https://prismatic-reality-com.github.io/prismatic-promo/glossary/typespec/) - Type annotations used in `@callback` definitions for adapter contracts
-- [ETS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ets/) - In-memory storage adapter for high-speed caching and working memory
-- [Ecto](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ecto/) - Database wrapper and query builder used by the PostgreSQL adapter
-- [KuzuDB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/kuzudb/) - Graph database adapter for relationship queries and ontology
-- [Connection Pooling](https://prismatic-reality-com.github.io/prismatic-promo/glossary/connection-pooling/) - Resource management for database adapters requiring persistent connections
-- [Plug](https://prismatic-reality-com.github.io/prismatic-promo/glossary/plug/) - Composable request processing pattern, conceptually similar to adapter composition
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) - Static analysis tool verifying adapter contract compliance
-- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) - Testing methodology complementing contract tests
-- [Redis](https://prismatic-reality-com.github.io/prismatic-promo/glossary/redis/) - Distributed cache adapter for cross-node state management
-- [PostgreSQL](https://prismatic-reality-com.github.io/prismatic-promo/glossary/postgresql/) - Primary relational database backend
-- [Prismatic Storage](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-storage/) - The unified storage layer built on the adapter pattern
+## Související
 
-## See Also
+**Platforma**
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview and storage layer design
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details for all storage backends
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - Umbrella applications implementing storage adapters
+- [3NL](@/glossary/3nl.md) – architektura, v níž je vzor adaptér vzorem úrovně L3.
+- [Bounded Context](@/glossary/bounded-context.md) – doménové hranice, které adaptéry
+  respektují.
+- [AIAD](@/glossary/aiad.md) – standard, který mezi typy součástí uvádí i adaptéry.
+- [Entity Resolution](@/glossary/entity-resolution.md) – úloha, která čerpá z více backendů
+  současně.
 
----
+**Kompendium**
 
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) –
+  lidský protějšek jednotného ověřování různých zdrojů.
+- [Glosář](@/glossary/_index.md) – rejstřík hesel.

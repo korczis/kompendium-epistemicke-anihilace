@@ -5,6 +5,9 @@ description = "Rumunsko 1948–1989: převýchova v Pitești, kde se vězni stá
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"
@@ -140,7 +143,7 @@ Statistiky o počtu informátorů je vhodné uvádět jen s odkazem na archivní
 - Virgil Ierunca (1990): *Fenomenul Pitești*.
 - Herta Müller (1994): *Herztier* – román o životě pod dohledem.
 - Katherine Verdery (2018): *My Life as a Spy: Investigations in a Secret Police File*.
-- Robert J. Lifton (1961): *Thought Reform and the Psychology of Totalism* – srovnávací rámec.
+- Robert J. Lifton (1961): *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* – srovnávací rámec.
 
 ## Související
 

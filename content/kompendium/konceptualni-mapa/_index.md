@@ -1,6 +1,6 @@
 +++
 title = "Konceptuální mapa epistemické anihilace"
-description = "Vizuální navigační síť klíčových pojmů, vztahů a doménových přechodů v doktríně epistemické anihilace. Most mezi atomickým slovníkem (Glossary, 1290+ termínů) a strukturní taxonomií kompendia (sekce 01–08)."
+description = "Vizuální navigační síť klíčových pojmů, vztahů a doménových přechodů v doktríně epistemické anihilace."
 weight = 99
 sort_by = "weight"
 template = "section.html"
@@ -62,7 +62,7 @@ Detailní per-pojmové články najdete v [Glossary](@/glossary/_index.md). Most
 
 ## Taxonomický pohled
 
-Pět úrovní abstrakce, na nichž epistemická anihilace operuje:
+Pět úrovní abstrakce, na nichž [epistemická anihilace](@/glossary/epistemicka-anihilace.md) operuje:
 
 ```mermaid
 graph BT
@@ -74,11 +74,11 @@ graph BT
 
 | Úroveň | Příklad | Sekce kompendia |
 |--------|---------|-----------------|
-| **Technika** | Gaslighting, DARVO, sealioning | [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md), [Techniques](@/kompendium/techniques/_index.md) |
-| **Vzorec** | Coercive control, mobbing, dezinformační kaskáda | [03 Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md) |
+| **Technika** | [Gaslighting](@/glossary/gaslighting.md), DARVO, [sealioning](@/glossary/sealioning.md) | [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md), [Techniques](@/kompendium/techniques/_index.md) |
+| **Vzorec** | [Coercive control](@/glossary/coercive-control.md), mobbing, dezinformační kaskáda | [03 Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md) |
 | **Scénář** | Politická kampaň, akademická delegitimizační kampaň | [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) |
 | **Protokol** | Kultovní indoktrinace, terminální protokol | [04 Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md), [05 Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) |
-| **Doktrína** | Totalitní indoktrinace, BITE model | [02 Doktrinální rámec](@/kompendium/02-doktrinalni-ramec/_index.md) |
+| **Doktrína** | Totalitní indoktrinace, [BITE model](@/glossary/bite-model.md) | [02 Doktrinální rámec](@/kompendium/02-doktrinalni-ramec/_index.md) |
 
 ## Funkční pohled
 

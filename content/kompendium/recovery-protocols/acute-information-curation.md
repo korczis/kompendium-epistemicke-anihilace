@@ -16,7 +16,7 @@ phase = "acute"
 
 # Akutní informační kurace
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace evidence-based modalit s diagnostickou optikou kompendia.
+> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
 > **Fáze**: `acute`
 > **Cílový rámec**: Týdny 1–4 po extrakci z EA prostředí.
 
@@ -41,13 +41,13 @@ Týdny 1–4 po extrakci z EA prostředí. Intenzita: denní kontakt v prvním t
 1. **Krizové hodnocení (den 0–1)**: Strukturovaný klinický rozhovor + suicidalita + safety mapping. Přímá detekce aktivních hrozeb (stalking, právní šikana, finance).
 2. **Stabilizační intervence (den 1–7)**: Denní kontakt v prvním týdnu — telefon nebo in-person. Psychoedukace o akutních reakcích jako normálních. Validace bez interpretace.
 3. **Bezpečné prostředí (den 1–14)**: Fyzická separace od pachatele — bydlení, finance, právní oddělení. Změna hesel, dvoufaktorová autentizace, kontrola surveillance aplikací.
-4. **Somatická regulace (denně, týdny 1–4)**: Krátké regulační cvičení 3× denně — orientation, dechové techniky, grounding. Vyhnout se intenzivním tělově-orientovaným technikám (riziko retraumatizace).
+4. **Somatická regulace (denně, týdny 1–4)**: Krátké regulační cvičení 3× denně — orientation, dechové techniky, grounding. Vyhnout se intenzivním tělově-orientovaným technikám (riziko [retraumatizace](@/glossary/retraumatizace.md)).
 5. **Sociální opora (týdny 1–4)**: Identifikace 2–3 bezpečných kontaktů. Aktivace formální podpůrné sítě (krizová linka, krizové centrum).
 6. **Spánek a režim (týdny 1–4)**: Sleep hygiene protokol. Žádné přepracování, žádná velká rozhodnutí. Strukturovaný denní režim jako externalizovaný kontejner.
 
 ## 5. Hodnotící kritéria
 
-- **Subjektivní stabilita** — týdenní self-report (PHQ-9, GAD-7, IES-R weekly).
+- **Subjektivní stabilita** — týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R weekly).
 - **Spánková kontinuita** — sleep diary, cíl: 6+ hodin noční spánek, sleep latency <30 min do týdne 4.
 - **Suicidalita** — žádné aktivní suicidální ideace, pasivní ideace v ústupu.
 - **Safety milestones** — fyzická separace ✓, finanční oddělení ✓, právní status ✓ do týdne 3.
@@ -60,7 +60,7 @@ Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vys
 
 - **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
 - **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
+- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
 - **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
 - **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
 

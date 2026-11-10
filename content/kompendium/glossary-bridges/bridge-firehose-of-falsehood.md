@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Firehose of falsehood (RAND 2016, autoři Paul & Matthews) je propaganda model charakteristický čtyřmi rysy: high volume + multiple channels, rapidní + kontinuální, lacking commitment to objective reality, lacking commitment to consistency. Operacionalizovaný v ruském state-sponsored disinformation operations.
+Firehose of falsehood (RAND 2016, autoři Paul & Matthews) je [propaganda](@/glossary/propaganda.md) model charakteristický čtyřmi rysy: high volume + multiple channels, rapidní + kontinuální, lacking commitment to objective reality, lacking commitment to consistency. Operacionalizovaný v ruském state-sponsored disinformation operations.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -54,7 +54,7 @@ Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich v
 
 ## Klinicke a filosoficke implikace
 
-Firehose model exploituje kognitivní limity: lidský brain nemá kapacitu real-time fact-check tisíce nárokovaných tvrzení. Filosoficky napadá Habermasian ideal speech situation — debata vyžaduje shared commitment k pravdě, kterou firehose model explicitně odmítá. Counter-strategy podle RAND: don't expect to refute, build raise immunity through forewarning.
+Firehose model exploituje kognitivní limity: lidský brain nemá kapacitu real-time fact-check tisíce nárokovaných tvrzení. Filosoficky napadá Habermasian [ideal speech situation](@/glossary/ideal-speech-situation.md) — debata vyžaduje shared commitment k pravdě, kterou firehose model explicitně odmítá. Counter-strategy podle RAND: don't expect to refute, build raise immunity through forewarning.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

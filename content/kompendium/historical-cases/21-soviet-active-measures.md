@@ -5,6 +5,9 @@ description = "Sovětská a východobloková „aktivní opatření“ – padě
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"

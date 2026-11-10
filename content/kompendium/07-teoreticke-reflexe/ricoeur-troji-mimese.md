@@ -17,7 +17,7 @@ toc = true
 
 # 7.17 Ricoeur: Trojí mimésis a narativní identita
 
-Paul Ricoeurova trilogie *Temps et récit* (*Čas a vyprávění*, 1983–1985) představuje **systematickou hermeneutickou analýzu** narativní struktury lidské zkušenosti. Pro kompendium EA poskytuje Ricoeurova teorie nástroj pro pochopení **narativně-strukturálních dimenzí** epistemické anihilace — způsobů, jak **manipulace narativu** anihiluje subjektovu schopnost konstituovat **smysluplnou kontinuitu** vlastní existence.
+Paul Ricoeurova trilogie *Temps et récit* (*Čas a vyprávění*, 1983–1985) představuje **systematickou hermeneutickou analýzu** narativní struktury lidské zkušenosti. Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Ricoeurova teorie nástroj pro pochopení **narativně-strukturálních dimenzí** epistemické anihilace — způsobů, jak **manipulace narativu** anihiluje subjektovu schopnost konstituovat **smysluplnou kontinuitu** vlastní existence.
 
 ## 1. Trojí mimésis
 
@@ -37,7 +37,7 @@ Pro EA z toho plyne:
 
 Ricoeurova centrální teze (rozvinutá v *Soi-même comme un autre*, 1990): **identita osoby** je primárně **narativní**. „Kdo jsem?“ se zodpovídá **vyprávěním příběhu mého života** — nikoli odkazem na pevnou esenci.
 
-Narativní identita má **dvě dimenze**:
+[Narativní identita](@/glossary/narativni-identita.md) má **dvě dimenze**:
 
 - **Idem-identita** (mêmeté) — totožnost ve smyslu **stejnosti**: pevný charakter, opakující se rysy
 - **Ipse-identita** (ipséité) — totožnost ve smyslu **bytí sebou**: schopnost **slibu**, **závazku**, **kontinuity přes čas**

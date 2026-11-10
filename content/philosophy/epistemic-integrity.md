@@ -54,7 +54,7 @@ date_modified = "2026-02-23"
 
 Epistemic integrity is the philosophical commitment to **preserving the truth-value, meaning, and provenance of knowledge** across time, context, and interpretation. In the Prismatic Platform, this manifests as a rigorous framework for ensuring that information maintains its intended meaning from creation through consumption, that contradictions are preserved rather than suppressed, and that every claim can be traced back to its evidential foundations.
 
-This philosophy integrates with the NABLA Infinity epistemic framework, the Trinity Gate verification system, and the General Honest License to create a comprehensive approach to knowledge integrity in software systems.
+This philosophy integrates with the [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic framework, the [Trinity Gate](@/glossary/trinity-gate.md) verification system, and the General Honest License to create a comprehensive approach to knowledge integrity in software systems.
 
 ## The Crisis of Meaning in Software
 
@@ -85,7 +85,7 @@ In a world increasingly mediated by software, epistemic integrity is not merely 
 - **Decision Errors**: Flawed data leads to flawed decisions
 - **Trust Degradation**: Unreliable information erodes institutional trust
 - **Systemic Risk**: Propagated errors create cascading failures
-- **Democratic Erosion**: Manipulated information undermines informed consent
+- **Democratic Erosion**: Manipulated information undermines [informed consent](@/glossary/informed-consent.md)
 
 ## Core Principles of Epistemic Integrity
 
@@ -127,7 +127,7 @@ The second principle requires that contradictions be preserved rather than resol
 
 #### The Addiction to Consistency
 
-Human cognition has a powerful drive to resolve contradictions, even when resolution requires discarding valid evidence. The Prismatic Platform's addiction preservation doctrine addresses this tendency:
+Human cognition has a powerful drive to resolve contradictions, even when resolution requires discarding valid evidence. The Prismatic Platform's addiction preservation [doctrine](@/glossary/doctrine.md) addresses this tendency:
 
 - **Both Sides Maintained**: Contradictory signals are preserved simultaneously
 - **No Premature Resolution**: Contradictions are not resolved until sufficient evidence exists
@@ -210,7 +210,7 @@ Epistemic integrity in the Prismatic Platform is enforced through seven axioms:
 
 | Axiom | Description | Enforcement |
 |-------|-------------|-------------|
-| **Signal Plurality** | Minimum 2 signals for any belief | HARD - blocks until satisfied |
+| **[Signal Plurality](@/glossary/signal-plurality.md)** | Minimum 2 signals for any belief | HARD - blocks until satisfied |
 | **Contradiction Preservation** | Both sides maintained, never discarded | HARD - blocks until acknowledged |
 | **Absence Informative** | Missing signals tracked as data | SOFT - warnings logged |
 | **Time Decay** | Mandatory timestamps on all beliefs | HARD - blocks until provided |

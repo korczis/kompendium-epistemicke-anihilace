@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.21 Subjekt-objekt fúzia"
-description = "Detailní per-technique článek: technika subjekt-objekt fúzie — patologické splynutí subjekt-objektové struktury, kde hranice mezi vnímajícím a vnímaným kolabuje. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika subjekt-objekt fúzie — patologické splynutí subjekt-objektové struktury, kde hranice mezi vnímajícím a vnímaným kolabuje."
 weight = 5221
 insert_anchor_links = "right"
 
@@ -108,8 +108,8 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 ### Individuální
 
-1. **Hranice cvičení** — explicitní strukturní obnovení subjekt-objektové diferenciace.
-2. **Korektní non-duální hermeneutika** — výklad autentických tradic.
+1. **Hranice cvičení** — explicitní strukturní obnovení subjekt-objektové [diferenciace](@/glossary/diferenciace.md).
+2. **Korektní non-duální [hermeneutika](@/glossary/hermeneutika.md)** — výklad autentických tradic.
 3. **Asertivita praxe** — strukturované formulování vlastních potřeb.
 4. **Klinická psychoterapie** — borderline-fokus pro strukturní problémy.
 
@@ -125,7 +125,7 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.19 Merleau-Pontyovská deformace](@/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md)** — opačný extrém: úplná disociace.
+- **[EA-5.2.19 Merleau-Pontyovská deformace](@/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md)** — opačný extrém: úplná [disociace](@/glossary/disociace.md).
 - **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md)** — subjekt **mizí** místo splývá.
 - **[EA-5.2.22 Intencionální rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md)** — paralelní destrukce intencionální struktury.
 - **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md)** — terminální stav.
@@ -136,9 +136,9 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 ## Vztah k Prismatic platformě
 
-- **NABLA Infinity subjekt-objekt distinkce** — epistemická provenience strukturně rozlišuje pozorovatele a pozorovaný.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) subjekt-objekt distinkce** — epistemická provenience strukturně rozlišuje pozorovatele a pozorovaný.
 - **OSINT vyšetřovatel-cíl distance** — strukturní oddělení udržuje epistemickou integritu.
-- **Decision Engine accountability** — vlastnictví rozhodnutí vyžaduje strukturní subjekt.
+- **[Decision Engine](@/glossary/decision-engine.md) accountability** — vlastnictví rozhodnutí vyžaduje strukturní subjekt.
 
 ## Související
 

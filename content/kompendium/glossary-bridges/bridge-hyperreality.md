@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[hyperreality](@/glossary/hyperreality.md) — Hyperrealita je Baudrillardův pojem označující stav, kdy znaky a simulakra nahrazují referent natolik důsledně, že rozdíl mezi reálným a reprezentací se stává nerozhodnutelným. V hyperreálném médiu kopie nepředstavuje originál, nýbrž vytváří svůj vlastní řád pravdivosti odpoutaný od mimoznakové skutečnosti.
+[hyperreality](@/glossary/hyperreality.md) — Hyperrealita je Baudrillardův pojem označující stav, kdy znaky a [simulakra](@/glossary/simulacra.md) nahrazují referent natolik důsledně, že rozdíl mezi reálným a reprezentací se stává nerozhodnutelným. V hyperreálném médiu kopie nepředstavuje originál, nýbrž vytváří svůj vlastní řád pravdivosti odpoutaný od mimoznakové skutečnosti.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
@@ -31,7 +31,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 - **Sekce 03 — Mediální realita**: transition od reprezentace k simulaci
 - **Sekce 06 — Klinické aplikace**: depersonalizační syndromy v digitálním prostředí
 - **Sekce 07 — Filosofické pozadí**: Baudrillard, Eco, Debord o spektakulární společnosti
-- **Per-technique: Deepfake Detection**: operativní hranice mezi autentickým a syntetickým
+- **Per-technique: [Deepfake](@/glossary/deepfake.md) Detection**: operativní hranice mezi autentickým a syntetickým
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 

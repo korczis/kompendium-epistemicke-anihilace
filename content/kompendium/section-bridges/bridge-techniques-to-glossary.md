@@ -30,7 +30,7 @@ Každá technika je ukotvena v **terminologii**. Glossary (jak v kompendiu, tak 
 - **Indikace → indikační glossary.**
 - **Kontraindikace → kontraindikační glossary.**
 - **Riziko → rizikový glossary.**
-- **Doctrine NCLB → glossary jako evidenční vrstva.**
+- **[Doctrine](@/glossary/doctrine.md) NCLB → glossary jako evidenční vrstva.**
 - **Glossary platform vs. kompendium glossary** — synchronizace.
 
 ## 3. Doporučená čtenářská trajektorie

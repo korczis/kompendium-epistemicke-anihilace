@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 |------|---------|
 | **EA kód** | `EA-1.3.2` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.3 Narušení procesů revize a falsifikace |
+| **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — exploituje hermeneutickou flexibilitu **legitimních** teorií |
 | **Reverzibilita** | Střední — vyžaduje předchozí dokumentaci interpretačních principů |
@@ -102,7 +102,7 @@ Strategická reinterpretace vs. **legitimní hermeneutická revize**:
 | **Externí podpora reinterpretace** | Bez externího podkladu | S externím (nový důkaz, nová metodologie) |
 | **Stabilita pravidel interpretace** | Tekutá | Stabilní, modifikovaná dokumentovaně |
 | **Reverzibilita** | Reaktivní k tlaku | Principiální |
-| **Epistemická pokora** | Bez přiznání původní chyby | S přiznáním |
+| **[Epistemická pokora](@/glossary/epistemicka-pokora.md)** | Bez přiznání původní chyby | S přiznáním |
 
 ## Rizikové kontexty
 
@@ -218,8 +218,8 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec „Guru a adept“** — guru kontroluje „správnou“ interpretaci kontinuálně.
-- **Kolektivní strategická reinterpretace** — strukturální delegitimizace pole skrze reinterpretaci celých historických záznamů.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru kontroluje „správnou“ interpretaci kontinuálně.
+- **Kolektivní strategická reinterpretace** — strukturální [delegitimizace](@/glossary/delegitimizace.md) pole skrze reinterpretaci celých historických záznamů.
 
 ### Hraniční / podobné
 
@@ -228,7 +228,7 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine audit log** — explicitní záznam **každé** interpretace evidence; reinterpretace je **strukturálně** dokumentována a flagged.
+- **[Decision Engine](@/glossary/decision-engine.md) audit log** — explicitní záznam **každé** interpretace evidence; reinterpretace je **strukturálně** dokumentována a flagged.
 - **NABLA Infinity provenance tracking** — každé tvrzení má **temporal lineage** s explicit interpretation rules; změny jsou auditovatelné.
 - **OSINT investigation framework** — pre-registered hypotheses s explicit interpretation principles před každou investigation.
 

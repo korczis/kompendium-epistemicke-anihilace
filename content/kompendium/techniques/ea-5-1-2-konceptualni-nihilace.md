@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.2 Konceptuální nihilace"
-description = "Detailní per-technique článek: technika konceptuální nihilace — systematická destrukce kategorií, jimiž subjekt organizuje zkušenost, vedoucí k erozi pojmů pravdy, evidence, identity a agency. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika konceptuální nihilace — systematická destrukce kategorií, jimiž subjekt organizuje zkušenost, vedoucí k erozi pojmů pravdy, evidence, identity a agency."
 weight = 512
 insert_anchor_links = "right"
 
@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Konceptuální nihilace** je ultramární technika, jejímž cílem je **systematická destrukce kategoriálních struktur**, prostřednictvím nichž subjekt organizuje zkušenost. Nejde o pouhou změnu obsahu jednotlivých přesvědčení (jak by mohla působit běžná argumentační manipulace), ale o **erozi samotných pojmů**, na nichž subjektova kognitivní aparatura stojí: pravda, evidence, identita, agency, čas, kauzalita, intencionalita.
+**Konceptuální nihilace** je ultramární technika, jejímž cílem je **systematická destrukce kategoriálních struktur**, prostřednictvím nichž subjekt organizuje zkušenost. Nejde o pouhou změnu obsahu jednotlivých přesvědčení (jak by mohla působit běžná argumentační manipulace), ale o **erozi samotných pojmů**, na nichž subjektova kognitivní aparatura stojí: pravda, evidence, identita, agency, čas, kauzalita, [intencionalita](@/glossary/intentionalita.md).
 
 Po nasazení techniky není subjekt schopen klást otázku *„Co je pravda?“* — protože pojem **pravda** byl destabilizován do té míry, že ztratil operační obsah. Stejně tak otázky *„Kdo jsem?“*, *„Co dělám?“*, *„Co mám dělat?“* ztrácejí formulovatelnost, protože pojmy *já*, *jednání*, *povinnost* byly fragmentovány a vyprázdněny.
 

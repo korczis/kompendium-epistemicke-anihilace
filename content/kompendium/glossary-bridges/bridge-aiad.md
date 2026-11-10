@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-AI-Augmented Development (AIAD) je metodologický standard Prismatic platformy pro systematickou integraci AI asistence do softwarového vývoje. Standard definuje kanonické artefakty (agenty, příkazy, doktríny, politiky), enforcement mechanismy (pre-commit hooks, CI gates, NMND validace) a měřitelné kvalitativní metriky (228 příkazů, 552 agentů, 18 pillar doctrine).
+AI-Augmented Development (AIAD) je metodologický standard Prismatic platformy pro systematickou integraci AI asistence do softwarového vývoje. Standard definuje kanonické artefakty (agenty, příkazy, doktríny, politiky), enforcement mechanismy (pre-commit hooks, CI gates, NMND validace) a měřitelné kvalitativní metriky (228 příkazů, 552 agentů, 18 pillar [doctrine](@/glossary/doctrine.md)).
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 

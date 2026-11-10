@@ -19,7 +19,7 @@ toc = true
 
 Francisco Varela (1946–2001) — chilský neurobiolog a filozof — spoluformuloval s Humberto Maturanou **autopoietickou** teorii a v *The Embodied Mind* (1991, s Evanem Thompsonem a Eleanor Roschovou) **enaktivistickou** teorii kognice.
 
-Pro kompendium EA poskytuje Varelův rámec nástroj pro pochopení **kognice jako vtělené, situované aktivity**, již EA techniky strukturálně narušují.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Varelův rámec nástroj pro pochopení **kognice jako vtělené, situované aktivity**, již EA techniky strukturálně narušují.
 
 ## 1. Enaktivismus
 
@@ -31,7 +31,7 @@ Enaktivistická pozice: organismus **konstruuje** smysluplný svět **skrze akti
 
 Pro EA z toho plyne:
 
-- **Anti-reprezentacionalismus**: techniky operující skrze **manipulaci reprezentací** (například propaganda jako „obrázky v hlavě“) jsou strukturálně **redukcionistické**.
+- **Anti-reprezentacionalismus**: techniky operující skrze **manipulaci reprezentací** (například [propaganda](@/glossary/propaganda.md) jako „obrázky v hlavě“) jsou strukturálně **redukcionistické**.
 - **EA jako strukturální narušení interakce**: techniky, jež **omezují** subjektovu kapacitu **aktivního zacházení** s environmentem, strukturálně podkopávají kognici.
 - **Filter bubbles** strukturálně narušují enaktivistickou interakci — uživatel **nemůže** plně **enactovat** smysluplný svět, neboť environment je předem **kurátorovaný**.
 
@@ -50,7 +50,7 @@ Pro EA má structural coupling **specifický význam**:
 
 Varelova centrální teze: kognice je **strukturálně vtělená**. Tělo není **vehiklem** mysli — je **strukturálně konstitutivní** kognitivních operací.
 
-Embodied cognition má **trojí dimenzi**:
+[Embodied cognition](@/glossary/embodied-cognition.md) má **trojí dimenzi**:
 
 1. **Tělesné schéma** (rezonuje s Merleau-Ponty, [viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md))
 2. **Senzomotorické vazby**: percepce je **akčně** definovaná

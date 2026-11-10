@@ -1,65 +1,107 @@
 +++
-title = "Motte and Bailey"
+title = "Motte and bailey (tvrz a předhradí)"
 weight = 60
 
-description = "Shackel's motte-and-bailey fallacy: switching between an indefensible substantive claim (bailey) and a defensible trivial claim (motte) when challenged. Standard rhetorical EA technique."
+description = "Shackelův klam „tvrz a předhradí“: střídání neobhajitelného podstatného tvrzení a obhajitelného triviálního tvrzení podle toho, zda přijde námitka. Znaky a obrana."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "kompendium", "rhetoric"]
+tags = ["glossary", "epistemic", "kompendium", "rhetoric", "ultramari"]
 
 [extra]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "sealioning", "epistemicka-pokora", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
-word_count = 540
+word_count = 885
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["motte and bailey", "Shackel", "rhetorical fallacy", "doctrine switching", "EA technique"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Motte and Bailey - glossary"
+image_alt = "Motte and Bailey – glosář"
 +++
 
-## Definition
+## Definice
 
-The **motte-and-bailey** is a rhetorical-epistemic fallacy formalized by Nicholas Shackel in *"The Vacuity of Postmodernist Methodology"* (Metaphilosophy, 2005). The name is drawn from medieval castle architecture: a **bailey** is a desirable but poorly-defensible courtyard; a **motte** is a small, fortified, easily-defensible keep. In ordinary use one inhabits the bailey; under attack one retreats to the motte; once the attacker leaves, one re-occupies the bailey.
+**Motte and bailey** (česky volně *tvrz a předhradí*) je rétoricko-epistemický klam, který formalizoval Nicholas Shackel ve stati „The Vacuity of Postmodernist Methodology“ (*Metaphilosophy*, 2005). Název pochází ze středověké hradní architektury: **předhradí** (*bailey*) je žádoucí, ale špatně hájitelný dvůr; **tvrz** (*motte*) je malá, opevněná, snadno hájitelná věž. Za běžného stavu se obývá předhradí; při útoku se ustoupí do tvrze; jakmile útočník odejde, předhradí se znovu obsadí.
 
-The rhetorical structure mirrors this:
+Rétorická struktura je stejná:
 
-- **Bailey** = the substantive, controversial, ambitious claim the speaker actually wants to advance and exploit (e.g., "X is a complete fraud," "Y oppresses everyone," "Z is the cause of all problems").
-- **Motte** = a much weaker, near-trivial claim that few would deny ("X has flaws," "Y has problems," "Z sometimes contributes").
+- **předhradí** = podstatné, sporné, ambiciózní tvrzení, které chce mluvčí skutečně prosadit a využít (např. „X je naprostý podvod“, „Y utlačuje všechny“, „Z je příčinou všech problémů“);
+- **tvrz** = mnohem slabší, téměř triviální tvrzení, které málokdo popře („X má nedostatky“, „Y má problémy“, „Z někdy přispívá“).
 
-When challenged on the **bailey**, the speaker retreats to the **motte** ("All I'm saying is that X has flaws — surely you don't deny that?"), wins a defensive engagement on undefendable ground, and then — once the challenger disengages — returns to operating in the bailey, treating the bailey-claim as established.
+Když je mluvčí napaden v **předhradí**, ustoupí do **tvrze** („Já jen říkám, že X má nedostatky – to přece nepopíráte?“), vyhraje obranný střet na neobhajitelné půdě, a jakmile se oponent stáhne, vrátí se do předhradí a zachází s jeho tvrzením jako s prokázaným.
 
-The fallacy exploits a **conversational asymmetry**: the cost of mounting a sustained challenge is high; the cost of switching motte/bailey is low. Iterated over hundreds of micro-engagements, the motte/bailey switcher accumulates an unearned aggregate persuasion budget — the bailey-claim becomes part of the conversational background without ever being defended.
+## Původ a kontext pojmu
 
-Diagnostic test: **track the strongest-form proposition** the speaker advances when *not* under direct challenge, and the weakest-form proposition they retreat to when *under* challenge. If those are not the same proposition, motte/bailey is operative.
+Shackel pojem zavedl při kritice některých postmoderních metodologií, které podle něj střídaly odvážné teze o sociální konstrukci skutečnosti s banálními tvrzeními o vlivu jazyka. Pojem se pak rozšířil do obecné teorie argumentace a do diskusí o online debatě. V Kompendiu má samostatnou kapitolu [Motte and bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md) mezi ultramarínovými technikami a detekční signaturu [motte-bailey](@/kompendium/detection-signatures/motte-bailey.md).
 
-## Context
+## Jak se projevuje
 
-Within the Prismatic Platform's threat model, the motte-and-bailey is one of the most operationally-common rhetorical EA techniques, classified across multiple positions in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md). It functions as a **delivery mechanism** for many other EA techniques: a technique encoded in a bailey-claim is shielded from challenge by the bailey/motte switching machinery. Documentation: [Kompendium → 04-techniky → motte-bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md).
+Diagnostický test: **sledovat nejsilnější podobu tvrzení**, kterou mluvčí předkládá, když *není* přímo napaden, a nejslabší podobu, do které ustupuje, když napaden *je*. Nejde-li o totéž tvrzení, vzorec působí.
 
-The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} detects motte-and-bailey patterns operationally by **tracking proposition-version drift**: when a single source advances a strong claim in unchallenged context and a weaker claim in challenged context, the source is flagged with a `MOTTE_BAILEY_PATTERN` confidence penalty. The detection runs over conversational logs in the {{ <cross_link path="/hub/dd/cases/" text="Investigation" /> }} workflows and is documented in the [Kompendium → detekce → motte-bailey](@/kompendium/detection-signatures/motte-bailey.md) chapter.
+Další znaky:
 
-The technique pairs naturally with [Sealioning](@/glossary/sealioning.md) (bad-faith inquiry on the motte to exhaust the challenger) and with weaponized [Epistemická pokora](@/glossary/epistemicka-pokora.md) ("I'm only suggesting…"). All three operate by inflating the cost of challenge.
+- výrazná změna tónu a rozsahu mezi „vlastním“ projevem a odpovědí na kritiku;
+- po ústupu do tvrze se mluvčí nevrací k tomu, co říkal předtím, ani to neodvolá;
+- kritik je obviněn, že „překrucuje“ – ačkoli cituje silnou verzi;
+- v pozdější komunikaci se silná verze objevuje znovu jako samozřejmost.
 
-## See Also
+V blízkých vztazích a skupinách má vzorec podobu „já jsem jen říkal, že…“: tvrdá výtka nebo hrozba se po námitce zmenší na nevinnou poznámku, ale její účinek zůstává.
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat framework
-- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) — `EA-X.Y.Z-α` classification
-- [Sealioning](@/glossary/sealioning.md) — Companion bad-faith technique
-- [Epistemická pokora](@/glossary/epistemicka-pokora.md) — Weaponized humility couples with motte/bailey
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process damage from sustained exposure
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+### Obecný příklad
 
----
+*Anonymizovaná, obecná ilustrace; nejde o konkrétní případ.*
 
-## Connect & Contribute
+Na poradě vedoucí prohlásí, že „oddělení X je neschopné a jeho vedoucí sabotuje projekt“. Když se ho kolegyně zeptá, jaké má doklady, odpoví: „Já jen říkám, že termíny se posunuly – to přece nikdo nepopře.“ Kolegyně ustoupí. O týden později vedoucí v e-mailu vedení píše o „známé sabotáži oddělení X“. Obrana spočívá v tom, že kolegyně na poradě požádá o zápis obou verzí, výslovně přijme tu slabší („souhlasím, že se termíny posunuly“) a zeptá se, zda vedoucí stále tvrdí i tu silnější.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+## Mechanismus
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+Klam využívá **konverzační asymetrii**: cena za soustavné zpochybňování je vysoká, cena za přepnutí mezi tvrzí a předhradím nízká. Při opakování ve stovkách drobných střetů získá ten, kdo přepíná, nezasloužený souhrnný „rozpočet přesvědčení“ – tvrzení z předhradí se stane součástí pozadí rozhovoru, aniž by bylo kdy obhájeno.
+
+V modelu hrozby platformy Prismatic, z níž kniha vzešla, patří motte and bailey k provozně nejčastějším rétorickým technikám EA a je zařazen na několika místech [taxonomie Kompendia](@/glossary/taxonomie-ea.md). Funguje jako **doručovací mechanismus** pro mnohé další techniky EA: technika zakódovaná v tvrzení předhradí je chráněna před námitkou mechanismem přepínání mezi předhradím a tvrzí.
+
+Vzorec se přirozeně páruje se [sealioningem](@/glossary/sealioning.md) (nepoctivé vyptávání v tvrzi, které vyčerpá oponenta) a se zneužitou [epistemickou pokorou](@/glossary/epistemicka-pokora.md) („já jen naznačuji…“). Všechny tři působí zvyšováním ceny námitky.
+
+## Odlišení
+
+- **Od upřesnění vlastního tvrzení:** zpřesnit pozici po námitce je poctivé, pokud mluvčí přizná, že původní tvrzení bylo silnější a nyní jej opouští.
+- **Od [Gish Gallop](@/glossary/gish-gallop.md):** tam jde o množství tvrzení; zde o dvě verze jednoho.
+- **Od [sealioningu](@/glossary/sealioning.md):** sealioning zahlcuje otázkami; motte and bailey mění tvrzení.
+- **Od dvojznačnosti:** běžná nejasnost řeči není klam; klam vzniká tehdy, když se nejasnost systematicky využívá podle toho, zda hrozí námitka.
+
+## Význam pro Kompendium
+
+[Decision Engine](@/glossary/decision-engine.md) platformy odhaluje vzorce motte and bailey provozně **sledováním driftu verzí tvrzení**: předkládá-li tentýž zdroj silné tvrzení v kontextu bez námitek a slabší tvrzení v kontextu s námitkou, je zdroj označen penalizací jistoty `MOTTE_BAILEY_PATTERN`. Detekce běží nad konverzačními záznamy ve vyšetřovacích postupech platformy a je popsána v signatuře [motte-bailey](@/kompendium/detection-signatures/motte-bailey.md).
+
+Pro čtenáře knihy je vzorec užitečný hlavně jako nástroj sebeobrany v rozhovoru: když člověk vzorec pojmenuje, přestane jej vyčerpávat. V kazuistikách se objevuje v akademickém prostředí, v politických a online komunitách i v kontrolujících vztazích.
+
+## Obrana a zotavení
+
+- **Zapisovat si silnou verzi:** citovat přesně, co bylo řečeno, a kdy.
+- **Pojmenovat přepnutí:** „Teď říkáte, že X má nedostatky. Předtím jste říkal, že X je podvod. Které z toho tvrdíte?“
+- **Přijmout tvrz výslovně a uzavřít předhradí:** „Souhlasím, že X má nedostatky. Znamená to, že netvrdíte, že je podvod?“ – a toto ujednání zaznamenat.
+- **Nenechat se vtáhnout do obhajoby tvrze**, kterou nikdo nezpochybňoval.
+- Opora: [asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md), [ověřování tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md); po dlouhodobé expozici v blízkém vztahu navazuje práce s [nastavováním hranic](@/kompendium/self-defense-guides/21-boundary-setting.md).
+
+## Literatura
+
+- Nicholas Shackel: „The Vacuity of Postmodernist Methodology“, *Metaphilosophy* 36 (2005).
+
+## Související
+
+**Pojmy**
+
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený rámec hrozby.
+- [Sealioning](@/glossary/sealioning.md) – doprovodná nepoctivá technika.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – zneužitá pokora se s motte and bailey páruje.
+- [Gish Gallop](@/glossary/gish-gallop.md) – jiná podoba zvyšování ceny námitky.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – klasifikace `EA-X.Y.Z-α`.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – poškození kognitivních procesů při dlouhodobé expozici.
+
+**Kniha**
+
+- [Motte and bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md) – kapitola mezi ultramarínovými technikami.
+- [Signatura motte-bailey](@/kompendium/detection-signatures/motte-bailey.md) – detekce.
+- [Kompendium EA](@/glossary/kompendium-ea.md) – úplný taxonomický přehled.

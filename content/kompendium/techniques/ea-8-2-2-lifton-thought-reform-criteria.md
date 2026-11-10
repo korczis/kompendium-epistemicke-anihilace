@@ -1,6 +1,6 @@
 +++
 title = "EA-8.2.2 Lifton Thought Reform Criteria"
-description = "Referenční zdroj — Liftonova klasická osmi-kritériová operacionalizace thought reform — milieu control, mystical manipulation, demand for purity, confession, sacred science, loaded language, doctrine over person, dispensing of existence."
+description = "Referenční zdroj — Liftonova klasická osmi-kritériová operacionalizace thought reform."
 weight = 822
 insert_anchor_links = "right"
 
@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Lifton (1961) na základě studia čínského thought reform (re-education campaigns 1950s). Osm kritérií jako diagnostická matice — přítomnost ≥6 kritérií indikuje totalistický systém. Každé kritérium operacionalizováno pozorovatelnými projevy.
+Lifton (1961) na základě studia čínského [thought reform](@/glossary/thought-reform.md) (re-education campaigns 1950s). Osm kritérií jako diagnostická matice — přítomnost ≥6 kritérií indikuje totalistický systém. Každé kritérium operacionalizováno pozorovatelnými projevy.
 
 ## Klíčové komponenty
 
@@ -42,7 +42,7 @@ Nejvíce vlivný framework v cult studies (1961-2024). Slouží jako gold standa
 
 ## Aplikace v EA kontextu
 
-Teoretický základ pro EA-1.3.x (imunizace), EA-2.4.x (autoritativní citace), EA-3.x (interpersonální dominance). Loaded language → EA-1.1.3 (terminologická mystifikace). Doctrine over person → EA-3.4.x.
+Teoretický základ pro EA-1.3.x (imunizace), EA-2.4.x (autoritativní citace), EA-3.x (interpersonální dominance). Loaded language → [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) (terminologická mystifikace). [Doctrine](@/glossary/doctrine.md) over person → EA-3.4.x.
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Vyvinuto v kontextu státního thought reform — adaptace na malé skupiny vyž
 
 ## Vztah k jiným zdrojům
 
-Předchůdce **EA-8.2.1 BITE Framework**. Komplementární k **EA-8.2.3 Singer Six Conditions**. Historický kontext v **EA-8.3.5 Historical Cases**.
+Předchůdce **[EA-8.2.1](@/kompendium/techniques/ea-8-2-1-bite-framework.md) BITE Framework**. Komplementární k **[EA-8.2.3](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) Singer Six Conditions**. Historický kontext v **[EA-8.3.5](@/kompendium/techniques/ea-8-3-5-historical-cases.md) Historical Cases**.
 
 ## Cross-linky
 

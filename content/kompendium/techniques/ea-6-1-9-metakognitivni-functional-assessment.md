@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Metakognitivní functional assessment** je specializované vyšetření metakognitivních schopností — sebemonitorování myšlení, kalibrace jistoty, detekce vlastních kognitivních zkreslení, mentální flexibility — s důrazem na deficity vznikající po expozici epistemickým útokům (EA-5).
 
-Technika je součástí systematické klinické taxonomie EA-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
+Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
 
 ## Indikace
 
@@ -61,7 +61,7 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
-(1) MCQ-30 self-report (15 min). (2) Confidence calibration tasks — predikce, post-dikce (30 min). (3) Theory of Mind úlohy (30 min). (4) Cognitive flexibility — task switching (20 min). (5) Metacognitive interview — explorace metakognitivních strategií (45 min).
+(1) MCQ-30 [self-report](@/glossary/self-report.md) (15 min). (2) Confidence calibration tasks — predikce, post-dikce (30 min). (3) [Theory of Mind](@/glossary/theory-of-mind.md) úlohy (30 min). (4) Cognitive flexibility — task switching (20 min). (5) Metacognitive interview — explorace metakognitivních strategií (45 min).
 
 Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 
@@ -105,7 +105,7 @@ Technika **EA-6.1.9** se historicky vyvinula z konvergence několika klinických
 
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních evidence-based přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
 
 ## Evidence base
 
@@ -254,7 +254,7 @@ Specifikuje [EA-6.1.5 neuropsychologické vyšetření](@/kompendium/techniques/
 Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
 
 - **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **Decision Engine** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
+- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
 - **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
 - **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
 

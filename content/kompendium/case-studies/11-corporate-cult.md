@@ -68,7 +68,7 @@ balení – teambuilding, mentorský program, „kultura otevřenosti“.
   – vztahy mimo firmu se oslabují, rodina je líčena jako brzda.
 
 Případ odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md) (kolektivní
-delegitimizace odcházejících) a vykazuje všechny čtyři dimenze [modelu BITE](@/glossary/bite-model.md):
+[delegitimizace](@/glossary/delegitimizace.md) odcházejících) a vykazuje všechny čtyři dimenze [modelu BITE](@/glossary/bite-model.md):
 kontrolu chování, informací, myšlení a emocí.
 
 ## 5. Fenomenologický průběh
@@ -98,7 +98,7 @@ Terapie sledovala [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-
   selhání; mapa toho, kdy a jak se zužoval okruh vztahů.
 - **S2 – Externalizace introjektů:** firemní slovník sepsaný a přeložený do běžného jazyka;
   oddělení hodnot, které si klient chce ponechat (pracovitost, péče o tým), od jejich zneužití.
-- **S3 – Rekonstrukce metakognice:** nácvik rozlišení mezi únavou a „špatným mindsetem“,
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik rozlišení mezi únavou a „špatným mindsetem“,
   vlastní kritéria dobré práce.
 - **S4 – Hermeneutická obnova:** nový výklad kariéry; párová terapie pro obnovu důvěry s
   partnerkou.

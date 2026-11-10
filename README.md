@@ -59,7 +59,7 @@ zotavení**.
 | 🎨 | [**Galerie**](https://korczis.github.io/kompendium-epistemicke-anihilace/galerie/) | Generativní grafika kompendia v p5.js: rozpad sítě pojmů, eroze paměti a rekonstituce |  |
 | 📚 | [**Reference**](https://korczis.github.io/kompendium-epistemicke-anihilace/references/) | Literatura citovaná v kompendiu: každá položka jednou, s odkazy na stránky, které ji citují |  |
 
-Web má celkem 1 872 stránek včetně rozcestníků, přibližně 2 220 tisíc slov, 38 825 vnitřních odkazů a 3 369 citovaných pramenů. Úvodní stránka webu a [Stav knihy](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) je počítají při každém sestavení.
+Web má celkem 1 872 stránek včetně rozcestníků, přibližně 2 218 tisíc slov, 38 825 vnitřních odkazů a 3 369 citovaných pramenů. Úvodní stránka webu a [Stav knihy](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) je počítají při každém sestavení.
 <!-- kompendium:readme-oddily:end -->
 
 ## Mapa a stav knihy

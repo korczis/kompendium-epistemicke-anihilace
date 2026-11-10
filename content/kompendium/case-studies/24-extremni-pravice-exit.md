@@ -1,10 +1,12 @@
 +++
-title = "Pripad 24-extremni-pravice-exit: Exit z extremni pravice"
-description = "Anonymizovana pripadova studie — Exit z extremni pravice. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 24: Odchod z extrémní pravice"
+description = "Kompozitní studie muže, kterého organizovaná krajně pravicová skupina získala v dospívání jako náhradní rodinu. Mýtus, tělo, násilí, odchod přes program typu EXIT."
 weight = 24
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["22-online-radikalizace", "23-incel-recovery", "25-extremni-leve-exit", "26-religiozni-fanatismus-exit"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,134 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 24-extremni-pravice-exit: Exit z extremni pravice
+# Případ 24: Odchod z extrémní pravice
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z několika průběhů. Skupiny, symboly, místa a události jsou
+> zobecněny; studie neuvádí nic, co by pomohlo skupiny identifikovat nebo do nich vstoupit.
+> Slouží odborníkům, kteří pracují s lidmi při odchodu a po něm.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 24-extremni-pravice-exit reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **organizovana extremne-pravicova skupina (skinhead/identitarni sit), kombinujici subkulturu, ideologii a nasilnou socializaci**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **organizovanou krajně pravicovou skupinu**, která spojuje subkulturu
+(hudba, oblečení, sport), ideologii rasové nadřazenosti a socializaci přes násilí. Na rozdíl od
+[online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md) zde rozhodují
+fyzická přítomnost, hierarchie a společné činy, které vytvářejí vinu i loajalitu. Zachycení
+muži vstupovali v dospívání a odcházeli mezi pětadvacátým a pětatřicátým rokem.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+## 2. Vstupní modus
 
-## 2. Vstupni modus
+Vstupem bylo **adolescentní hledání „rodiny“ po rozpadu té biologické**. Kontakt přišel přes
+koncert subkulturní hudby a sportovní klub; starší členové nabídli ochranu, uznání a strukturu.
+Ideologie přicházela až po vztahu – nejdřív patřit, potom věřit. Proto byla pro dospívajícího
+neodmítnutelná: odmítnout ideologii znamenalo ztratit jedinou rodinu, kterou měl.
 
-Vstupni vektor v této kohorte byl: **adolescentni hledani 'rodiny' po rozpadu biologicke; nábor pres koncert subkulturni hudby a sportovni klub**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+## 3. Časová osa expozice
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
-
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | tetovani jako loajalni signal, ucast na skoleni a strazich, plnohodnotne zapojeni do násilnych kampaní |
-| **Konsolidace** | roky 2-5 | rasovy mytus jako absolutni vykladovy ramec, kult silných tel, militarizovana hierarchie, eschatologicke vyusteni 'rasove valky' |
-| **Detekce / spousteci udalost** | promenna | narozeni dítete + telefonát od bývaleho clena pracujiciho pro EXIT-program (severoeurop. model) |
-| **Exit / rekonstrukce** | rok 5+ | EXIT-typ program (deradikalizacni protokol s identite-restoration, tattoo-removal, profesionalni rekvalifikace, peer mentorship) |
+| **Počáteční kontakt** | měsíce 1–6 | Koncerty, trénink, ochrana staršími členy, pocit bratrství |
+| **Perturbace** | měsíce 6–18 | Ideologické „školení“, nedůvěra k rodině a škole |
+| **Eskalace** | roky 2–4 | Tetování jako signál loajality, účast na akcích, zapojení do násilí |
+| **Konsolidace** | roky 4–10 | Rasový mýtus jako absolutní výkladový rámec, kult silného těla, militarizovaná hierarchie, eschatologie „rasové války“ |
+| **Detekce** | proměnlivá | Narození dítěte a telefonát od bývalého člena, který pracuje v programu pro odcházející |
+| **Odchod a rekonstrukce** | rok 10+ | Program typu EXIT: obnova identity, odstranění tetování, rekvalifikace, mentoring |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
+  – subkulturní hudba jako emoční nosič ideologie.
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)
+  – tetování a oděv jako znaky, které nelze snadno odložit.
+- [EA-5.1.6 Kategoriální transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)
+  – stírání hranice mezi člověkem a „nepřítelem“.
+- [EA-5.3.23 Konstitutivní mytologizace](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md)
+  – osobní životopis zasazen do rasového mýtu o původu a konci.
+- [EA-5.3.34 Konvergentní identitární tlak](@/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md)
+  – homogenizace identity k jedinému „správnému“ typu.
 
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — subkulturni hudba jako emocni infekcni vektor
-- [EA-1.5.2 Dominantni telesne hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) — tetovaní/uniforma jako semioticka totalizace
-- [EA-5.1.6 Kategoricka transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) — stírání hranice clovek/nepritel
-- [EA-5.3.23 Konstitutivni mytologizace](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md) — osobni biografie zasazena do kosmogonického rasového mytu
-- [EA-5.3.34 Konvergentni identitarni tlak](@/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md) — homogenizace identity ke kanonickemu typu
+Odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénáři G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[scénáři L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md); v pozdní fázi jsou patrné
+všechny dimenze [modelu BITE](@/glossary/bite-model.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **hypervigilance na veřejnosti, tělesné spouštěče na uniformní symboly a vina vůči
+obětem dřívějších akcí**. Během členství převládala jistota a pocit síly, ale pod ní trvalý
+strach – z nepřátel, z policie, z vlastních. Emoční život se zúžil na hněv a loajalitu.
+Typická [inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md):
+„my“ zcela nahradilo „já“, a to i v popisu vlastních pocitů. Po odchodu se dostavily
+[kaskády flashbacků](@/kompendium/emergency-protocols/5-flashback-cascade-EA.md) spojené s
+násilím, jehož byl účastníkem i svědkem.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **hypervigilance v public, telesne triggery na uniformizovane symboly, pocity vinou voci pasivnim obetem minulych aktivit**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Dva podněty se setkaly: **narození dítěte**, které poprvé otevřelo otázku, v jakém světě má
+vyrůstat, a **telefonát bývalého člena**, který skupinu opustil a pracoval pro program na pomoc
+odcházejícím. Bývalý člen nemoralizoval, ale věděl, co odchod obnáší, a nabídl konkrétní pomoc.
+Bez té nabídky by narození dítěte zůstalo jen další chvílí pochybností.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+Program navazoval na severoevropský model programů typu EXIT a na
+[protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md):
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+- **S1 – Validace a mapování:** bezpečnostní plán (riziko odvety), stabilizace, mapa vztahů a
+  závazků ve skupině.
+- **S2 – Externalizace introjektů:** rasový mýtus a dehumanizující jazyk odděleny od vlastního
+  hlasu; práce s vinou za činy.
+- **S3 – Rekonstrukce metakognice:** obnova schopnosti vnímat druhé jako jednotlivce, ne
+  kategorie.
+- **S4 – Hermeneutická obnova:** nový výklad vlastního příběhu včetně odpovědnosti; odstraňování
+  tetování jako tělesná součást odchodu.
+- **S5 – Konsolidace a transfer:** rekvalifikace, nová práce, mentoring a později pomoc jiným
+  odcházejícím.
 
-V této kohorte fungoval detecni bod nasledovne: narozeni dítete + telefonát od bývaleho clena pracujiciho pro EXIT-program (severoeurop. model). Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Po několika letech žil muž mimo skupinu se stálou prací. Přetrvávaly **viditelné stopy (jizvy,
+tetování), omezené kariérní vyhlídky a trvalé riziko odvety** bývalé skupiny. Vina vůči obětem
+zůstávala tématem, které terapie nemohla „vyřešit“, jen pomoci nést; součástí bylo i
+[dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md).
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **organizovana extremne-pravicova skupina (skinhead/identitarni sit), kombinujici subkulturu, ideologii a nasilnou socializaci**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Antisociální porucha osobnosti:** násilí a bezohlednost přítomné napříč kontexty před
+  vstupem a nezávisle na skupině.
+- **[PTSD a C-PTSD](@/glossary/c-ptsd.md):** traumatické symptomy z násilí i z dětství; mohou
+  se s EA překrývat.
+- **Závislost na návykových látkách:** častá komorbidita, která vyžaduje souběžnou léčbu.
+- **Ideologické přesvědčení bez skupinové kontroly:** názory bez totalizujícího rámce.
 
-V této kohorte bylo specifické: EXIT-typ program (deradikalizacni protokol s identite-restoration, tattoo-removal, profesionalni rekvalifikace, peer mentorship). Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Odcházející často čelí trestnímu stíhání za dřívější činy; spolupráce s orgány činnými v
+trestním řízení může zvýšit riziko odvety a souvisí s [ochranou svědků](@/kompendium/forensic-legal/22-fact-witness-protection.md).
+Podpora hnutí směřujícího k potlačení práv a svobod člověka je podle trestního zákoníku trestná.
+Terapeut by měl vědět, kde končí mlčenlivost, viz [povinné hlášení](@/kompendium/forensic-legal/40-mandatory-reporting-state.md).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: viditelne stigmata (jizvy, tetovani), narusene kariéarni vyhlidky, trvale rizíko represálie ze strany byvale skupiny. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Prevence stojí na **dostupných náhradních komunitách pro dospívající** bez rodinného zázemí –
+sport, hudba, mentoring. Pro odchod je rozhodující existence programu a člověka, který skupinu
+zná zevnitř. Kliničtí pracovníci by měli počítat s tím, že odcházející jsou současně pachateli i
+oběťmi a že obě role potřebují místo.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit popisuje muže; role žen ve skupinách je odlišná a méně popsaná. Otevřené zůstává, jak
+spojit odpovědnost za činy s terapeutickou podporou, aniž by jedno ohrožovalo druhé.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [coercive-control](@/glossary/coercive-control.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md), [EA-5.1.6](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md), [EA-5.3.23](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md), [EA-5.3.34](@/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 25 – odchod z extrémní levice](@/kompendium/case-studies/25-extremni-leve-exit.md)
+  (strukturálně příbuzný vzorec), [Případ 22 – online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md),
+  [Případ 59 – zotavení z politického kultu](@/kompendium/case-studies/59-political-cult-recovery.md).
+- **Glosář:** [identity destruction](@/glossary/identity-destruction.md);
+  [internalizovaný pachatel](@/glossary/internalizovany-pachatel.md).
+- **Obnova:** [Středně-dobá vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md).
+- **Krize:** [Witness protection v EA-kontextu](@/kompendium/emergency-protocols/40-witness-protection.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

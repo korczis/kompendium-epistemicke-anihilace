@@ -19,6 +19,7 @@ import pathlib
 import statistics
 import sys
 
+sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from ia_model import ROOT, load_pages  # noqa: E402
 

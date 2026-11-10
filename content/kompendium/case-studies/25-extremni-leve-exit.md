@@ -1,10 +1,12 @@
 +++
-title = "Pripad 25-extremni-leve-exit: Exit z extremni levice (Marxist-Leninist sekta)"
-description = "Anonymizovana pripadova studie — Exit z extremni levice (Marxist-Leninist sekta). Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 25: Odchod z extrémní levice (marxisticko-leninská sekta)"
+description = "Kompozitní studie studentky, kterou malá dogmatická „strana“ získala přes čtenářský kroužek a pomoc chudým. Sebekritika, čistky, odchod a obnova politické identity."
 weight = 25
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["23-incel-recovery", "24-extremni-pravice-exit", "26-religiozni-fanatismus-exit", "27-secular-cult-exit"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,145 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 25-extremni-leve-exit: Exit z extremni levice (Marxist-Leninist sekta)
+# Případ 25: Odchod z extrémní levice (marxisticko-leninská sekta)
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z několika průběhů v malých dogmatických organizacích. Názvy,
+> země, osoby a události jsou změněny. Studie nehodnotí levicové myšlení ani politický
+> aktivismus; popisuje skupinovou strukturu, která je na ideologii nezávislá.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 25-extremni-leve-exit reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **marxisticko-leninska parastranicka organizace s dogmatickou demokratickym centralismem, kult osobnosti zakladatele**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **malou marxisticko-leninskou organizaci stranického typu** s dogmatickým
+„demokratickým centralismem“ a kultem osobnosti zakladatele. Takové skupiny mají desítky až
+stovky členů, vlastní tisk a přísnou hierarchii. Jejich ideologie se liší od
+[krajní pravice](@/kompendium/case-studies/24-extremni-pravice-exit.md), ale strukturální
+mechanismy – monopol na výklad, kontrola vztahů, trest za odchylku – jsou téměř shodné. To je
+důležité pro klinika: posuzuje se struktura skupiny, ne obsah přesvědčení.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Zachycené osoby vstupovaly během vysokoškolského studia, často z idealismu a citlivosti na
+nespravedlnost, a zůstávaly pět až patnáct let.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **univerzitni intelektualní hladovka po systemove kritice; nabor pres reading group a sluzbu chudym**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupem byl **intelektuální hlad po systémové kritice**. Studentka hledala vysvětlení
+nerovností, které viděla kolem sebe, a našla čtenářský kroužek, jehož členové zároveň
+organizovali pomoc lidem bez domova. Spojení myšlení a činu působilo autenticky. Teprve
+později zjistila, že kroužek je náborovou strukturou organizace a že „pomoc chudým“ slouží i
+k výběru nových členů.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | vnitrostranicke 'sebekriticke' sezení, autoritarni teoreticka linie, izolace od 'reformistických' levicovych prosveetí |
-| **Konsolidace** | roky 2-5 | dialekticka logika imuni voci faktum, 'masová linie' nahrazuje individualní úsudek, periodicke cistky a denoncace, kult 'velkého helmsmana' |
-| **Detekce / spousteci udalost** | promenna | pristup ke vnitrnim dokumentum o predesle cistce vedoucí ke samovrazde clenky; pochybnosti se nepodarilo neutralizovat |
-| **Exit / rekonstrukce** | rok 5+ | exit kombinujicí sociology-kult studies-typ vystoupení (po vzoru SAFF/ICSA), psychoterapie zamerena na skupinovy nátlak |
+| **Počáteční kontakt** | měsíce 1–6 | Čtenářský kroužek, dobrovolnictví, pocit smysluplné komunity |
+| **Perturbace** | měsíce 6–18 | Odmítání „reformistických“ směrů, ideologické „prozření“ |
+| **Eskalace** | roky 2–4 | Sebekritická sezení, autoritativní teoretická linie, izolace od jiné levice |
+| **Konsolidace** | roky 4–10 | Dialektika imunní vůči faktům, „masová linie“ místo vlastního úsudku, periodické čistky a udávání, kult vůdce |
+| **Detekce** | proměnlivá | Přístup k vnitřním dokumentům o dřívější čistce, po níž si členka vzala život |
+| **Odchod a rekonstrukce** | rok 10+ | Podpora sítě bývalých členů, psychoterapie zaměřená na skupinový nátlak |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  – dialektický žargon činí doktrínu neprostupnou pro kritiku.
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
+  – nepohodlná fakta jsou „dialekticky“ převrácena.
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  vůdce má privilegovaný přístup ke „správné linii“.
+- [EA-5.2.6 Transcendentální rekursivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)
+  – teorie ospravedlňuje sama sebe; kritika teorie je „třídním postojem“.
+- [EA-5.3.13 Genealogická rekonstrukce](@/kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md)
+  – vlastní minulost se přepisuje do třídního příběhu.
 
-- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — dialekticky zargon imunizuje doktrínu
-- [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — kontrarealni fakta reinterpretována dialekticky
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — vudce drzi privilegovany pristup k ortodoxii
-- [EA-5.2.6 Transcendentalni rekursivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md) — metateoreticky kruh teorie ospravedlnuje sebe samu
-- [EA-5.3.13 Genealogicka rekonstrukce](@/kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md) — minulost subjektu prekladana do tridniho pribehu
+Sebekritická sezení odpovídají kritériím [myšlenkové reformy podle Liftona](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md)
+(1961), zvlášť „kultu vyznání“ a „posvátné vědy“. Strukturálně jde o
+[scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénář H](@/kompendium/03-zakladni-kategorie/scenar-h.md) a
+[scénář K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **nespavost po sebekritických sezeních, panický strach z odhalení „oportunismu“ a
+tělesná úzkost při jakémkoli neideologickém potěšení** – koncert, dovolená, nákup pro sebe.
+Radost se stala podezřelou. Členka popisovala vnitřního „cenzora“, který posuzoval každou myšlenku
+dřív, než ji dokončila; to odpovídá [thought-stopping](@/glossary/thought-stopping.md). V řeči
+se objevoval [odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md)
+– konkrétní otázky se řešily citátem. Ztráta přátel mimo organizaci byla prožívána jako cena za
+věrnost.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **nedospani po sebekritickych sezenich, panicky strach z odhaleni 'oportunismu', somatizovana uzkost pri konfrontaci s libovolnou ne-ideologickou rozkosi**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Při práci v archivu organizace členka narazila na **vnitřní dokumenty o dřívější čistce**, po níž
+si vyloučená členka vzala život. Oficiální verze, kterou znala, mluvila o „zrádkyni, která
+odešla“. Rozpor mezi dokumentem a výkladem nešlo dialekticky převrátit, protože šlo o konkrétního
+člověka, kterého si pamatovala. Pochybnost se nepodařilo neutralizovat ani na dalším
+sebekritickém sezení – poprvé ho prožila jako divadlo.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+- **S1 – Validace a mapování:** uznání idealismu a skutečné nespravedlnosti, které ji přivedly;
+  mapa vztahů, které organizace přerušila.
+- **S2 – Externalizace introjektů:** jazyk sebekritiky („buržoazní individualismus“,
+  „oportunismus“) zapsán a odlišen od vlastní etiky.
+- **S3 – Rekonstrukce metakognice:** obnova schopnosti držet nejistotu a pluralitu názorů
+  ([pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)).
+- **S4 – Hermeneutická obnova:** oddělení hodnot (spravedlnost, solidarita), které si ponechala,
+  od uzavřeného systému, který je zneužil.
+- **S5 – Konsolidace a transfer:** návrat ke studiu, politická angažovanost v otevřené
+  organizaci, podpora bývalých členů.
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Rámec: [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md);
+pro vinu a smutek nad zemřelou členkou [subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md).
 
-V této kohorte fungoval detecni bod nasledovne: pristup ke vnitrnim dokumentum o predesle cistce vedoucí ke samovrazde clenky; pochybnosti se nepodarilo neutralizovat. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Přetrvávala **krize politické identity, hněv nad zneužitím vlastního idealismu a obtížný návrat
+do akademického prostředí**, kde musela dohánět léta. Nejtěžší bylo znovu si dovolit politické
+přesvědčení bez pocitu, že se tím vrací do sekty. Pomohlo jí rozlišení mezi obsahem názoru a
+způsobem, jak je držen.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **marxisticko-leninska parastranicka organizace s dogmatickou demokratickym centralismem, kult osobnosti zakladatele**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Radikální, ale otevřený aktivismus:** silná přesvědčení, ale bez trestu za odchod a bez
+  sebekritických rituálů.
+- **[C-PTSD](@/glossary/c-ptsd.md):** opakovaná ponížení na sezeních mohou vést k traumatické
+  symptomatice, která se s EA překrývá.
+- **Depresivní porucha:** anhedonie zde má ideologický původ (zákaz radosti), ale může přejít v
+  samostatnou depresi.
+- **Morální zranění:** vina za účast na čistkách, bez rozpadu úsudku o faktech.
 
-V této kohorte bylo specifické: exit kombinujicí sociology-kult studies-typ vystoupení (po vzoru SAFF/ICSA), psychoterapie zamerena na skupinovy nátlak. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Politické přesvědčení je chráněno; právně relevantní jsou konkrétní jednání – nátlak, finanční
+vykořisťování (povinné příspěvky, neplacená práce), vyhrožování po odchodu. Sebevražda po
+skupinovém nátlaku může otevřít otázku trestní odpovědnosti, kterou posuzují orgány činné v
+trestním řízení. Pro dokumentaci viz [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: krize politicke identity, hnev nad zneužitím vlastní idealismu, obtizne navrazení do akademie. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Varovné signály pro studenty: **skupina, která monopolizuje výklad nespravedlnosti, odrazuje od
+jiných směrů a zavádí veřejnou sebekritiku**. Univerzitní poradny by měly znát i politické
+skupiny s vysokou kontrolou, nejen náboženské. Kliničtí pracovníci by neměli s klientem polemizovat
+o ideologii; účinnější je mluvit o struktuře.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Malé dogmatické organizace se v čase mění a kompozit zachycuje jejich nejuzavřenější podobu.
+Otevřená zůstává otázka, jak pomoci lidem, kteří odejdou, ale ztratí důvěru v jakoukoli
+kolektivní akci.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [epistemicka-injustice](@/glossary/epistemicka-injustice.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-5.2.6](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md), [EA-5.3.13](@/kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 24 – odchod z extrémní pravice](@/kompendium/case-studies/24-extremni-pravice-exit.md)
+  (strukturální zrcadlo), [Případ 59 – zotavení z politického kultu](@/kompendium/case-studies/59-political-cult-recovery.md),
+  [Případ 65 – aktivistický kult](@/kompendium/case-studies/65-activism-cult.md).
+- **Historie:** [Maoistická kulturní revoluce](@/kompendium/historical-cases/2-maoist-cultural-revolution.md)
+  a [Stalinské monstrprocesy](@/kompendium/historical-cases/1-stalinist-show-trials.md) – historické
+  vzory sebekritiky a čistek.
+- **Glosář:** [high-control group](@/glossary/high-control-group.md);
+  [newspeak](@/glossary/newspeak.md) – jazyk, který znemožňuje kritiku.
+- **Obnova:** [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

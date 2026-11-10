@@ -1,10 +1,12 @@
 +++
 title = "Individualistické kultury — EA"
-description = "Mezinárodní perspektiva — USA, UK, Austrálie, NL, Skandinávie: kulturní, klinické a právní specifika EA."
+description = "Rizika prostředí, která stavějí na autonomii: osamělost, trh se seberozvojem, ekonomika pozornosti, terapeutická kultura a obviňování oběti. Ochrana skrze práva a instituce."
 weight = 19
+
 [taxonomies]
 tags = ["kompendium", "international", "cross-cultural"]
 categories = ["academic", "international"]
+
 [extra]
 parent = "kompendium-international"
 toc = true
@@ -12,88 +14,162 @@ toc = true
 
 # Individualistické kultury — EA
 
-> **Region/jurisdikce**: USA, UK, Austrálie, NL, Skandinávie
-> **Bucket**: cross-cultural
-> **Doctrina**: NMND + NCLB — všechna tvrzení doložitelná, kulturní citlivost povinná.
+> **Oblast**: prostředí, v nichž je já chápáno jako nezávislé a autonomie je hlavní
+> hodnotou (typicky USA, Velká Británie, Austrálie, Nizozemsko, severské státy, ale také
+> městská střední třída kdekoli) · **Typ**: průřezová mezikulturní stránka
+> Stránka ukazuje, že individualismus nechrání před
+> [epistemickou anihilací](@/glossary/epistemicka-anihilace.md), jen mění její podobu.
+> Většina literatury o EA vznikla právě v těchto zemích – a nese jejich slepé skvrny.
 
-## 1. Geografický a jurisdikční kontext
+## 1. Kontext
 
-Hofstede IDV >70, autonomie jako hodnota, právo na privacy, self-actualization, právní formalismus.
+Ve srovnávací psychologii (Hofstede; Markus a Kitayama 1991) stojí individualistické
+prostředí na pojetí já jako samostatné bytosti s vlastními cíli, právy a odpovědností.
+Tato tradice dala světu silná individuální práva, nezávislé soudy, svobodný tisk
+a koncepty, na nichž tato kniha stojí: [coercive control](@/glossary/coercive-control.md)
+(Stark 2007), [epistemickou injustici](@/glossary/epistemicka-injustice.md) (Fricker 2007),
+[betrayal trauma](@/glossary/betrayal-trauma.md) (Freyd 1996) či studium sekt (Hassan 1988).
 
-Tato sekce mapuje **specifika USA, UK, Austrálie, NL, Skandinávie** v evropské/globální typologii EA (epistemic abuse / psychická manipulace s reality-distortion vektorem). Region je zahrnut do kompendia jako **referenční bod** pro klinickou, právní a forenzní praxi platformy Prismatic.
+Zároveň v těchto zemích vznikla řada nejznámějších případů vysoce kontrolních skupin –
+[Jonestown](@/kompendium/historical-cases/11-jonestown.md) (1978),
+[Davidiáni](@/kompendium/historical-cases/14-branch-davidians.md) (1993),
+[Heaven’s Gate](@/kompendium/historical-cases/12-heavens-gate.md) (1997),
+[NXIVM](@/kompendium/historical-cases/18-nxivm.md) – a moderní digitální konspirační
+hnutí jako [QAnon](@/kompendium/historical-cases/28-qanon.md). Autonomie tedy před
+totalismem sama nechrání.
 
-Historický kontext utvářel současné vzorce EA: kolektivní traumata, post-konfliktní dynamiky, právní transplantáty, kulturní idiomy distress.
+## 2. Strukturální zranitelnosti
 
-## 2. Specifické EA vzorce v regionu
+- **Osamělost.** Velká Británie zřídila v roce 2018 funkci ministra pro osamělost
+  a hlavní zdravotník USA v roce 2023 označil osamělost za epidemii. Osamělý člověk je
+  vděčný za každé společenství – i za takové, které ho pak izoluje
+  ([sociální izolace](@/glossary/socialni-izolace.md), [love bombing](@/glossary/love-bombing.md)).
+- **Trh se seberozvojem.** Koučink, „transformační“ semináře a wellness nabízejí vztah
+  a smysl jako zboží; některé fungují jako sekulární kulty
+  ([LGAT](@/kompendium/case-studies/27-secular-cult-exit.md),
+  [self-help kult](@/kompendium/case-studies/14-self-help-cult.md),
+  [MLM](@/kompendium/case-studies/13-mlm-recovery.md)).
+- **Ekonomika pozornosti.** Platformy optimalizované na zapojení posilují obsah, který
+  vyvolává emoce, a vytvářejí personalizované reality
+  ([doporučovací radikalizace](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md),
+  [Zuboffová: sledovací kapitalismus](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)).
+- **Ideologie osobní odpovědnosti.** Přesvědčení, že „každý si tvoří vlastní realitu“,
+  vede oběť k tomu, aby vinu hledala u sebe; manipulátor to jen potvrzuje
+  ([riziko obviňování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)).
+- **Slabé rodinné sítě a mobilita.** Kdo se přestěhoval za prací, nemá v blízkosti nikoho,
+  kdo by si všiml změny – ochranou je pak jen přátelská síť
+  ([diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md)).
 
-Vzorce: 'lone wolf' EA, online harassment scaled, cancel culture, gaslighting individualizované.
+## 3. Typické vzorce EA
 
-**Typologie regionálních EA vektorů:**
+**Izolace dobrovolností.** V individualistickém prostředí se izolace prezentuje jako
+osobní volba: „tvoje rodina tě brzdí“, „toxičtí lidé ti nepřejí růst“. Oběť má pocit, že
+se rozhodla sama, a proto o kontrole nemluví.
 
-1. **Politicko-státní**: instrumentalizace státního aparátu (mediální, justiční, bezpečnostní složky).
-2. **Mediálně-platformní**: koncentrace mediálního vlastnictví, online harassment, koordinované smear.
-3. **Rodinně-komunitní**: klanové struktury, čestné systémy, gendered dynamics.
-4. **Ekonomicko-pracovní**: mobbing, koercitivní kontrola v zaměstnání, whistleblower retaliation.
-5. **Náboženskoidentitní**: sektářství, anti-konvert tlak, blasphemy zákony.
+**Terapeutizace jazyka.** Pojmy jako „gaslighting“, „narcista“ nebo „trauma“ pronikly do
+běžné řeči. Pomáhají pojmenovat zkušenost, ale mohou být i zbraní: manipulátor obviní
+oběť z gaslightingu dřív než ona jeho ([DARVO](@/glossary/darvo.md)). Viz
+[populární terminologie pro veřejnost](@/kompendium/international/38-popular-terminology-public/index.md).
 
-Každý vektor vyžaduje **kulturně senzitivní detekci** — universalistický model selhává.
+**Iatrogenní EA.** Terapeutická kultura sama vytvořila případy kolektivní epistemické újmy:
+hnutí [znovuobjevené paměti](@/kompendium/historical-cases/37-recovered-memory.md)
+a [satanskou paniku](@/kompendium/historical-cases/38-satanic-panic.md) 80. a 90. let, kdy
+sugestivní postupy vedly k falešným vzpomínkám a obviněním
+([iatrogenní újma](@/glossary/iatrogenic-harm.md)).
 
-## 3. Klinické aplikace v regionu
+**Veřejné pranýřování online.** Rychlé hromadné odsouzení na sociálních sítích bez možnosti
+obhajoby ([koordinace davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md),
+[mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md)) ukazuje, že
+i individualistická společnost umí kolektivně trestat.
 
-CBT/DBT dominance, anti-stigma kampaně, peer support legitimní.
+## 4. Ochranné faktory
 
-**Klinické rozhraní EA v regionu** zahrnuje:
+- **Silná individuální práva a nezávislé soudy**, včetně trestnosti psychické kontroly
+  v některých jurisdikcích.
+- **Svobodný tisk a investigativní žurnalistika**, která odhalila zneužívání v církvích,
+  sportu, armádě i korporacích.
+- **Rozvinuté služby pro oběti**, krizové linky a skupiny vzájemné podpory přeživších.
+- **Kultura vyjádření nesouhlasu** – člověk se může od skupiny odklonit bez ztráty
+  existence, pokud má vlastní příjem a bydlení.
+- **Ochrana oznamovatelů** – v EU směrnice (EU) 2019/1937.
 
-- **Skríning**: kulturně adaptované nástroje (např. PCL-5 lokalizovaný, ITQ pro cPTSD ICD-11).
-- **Diagnostika**: pozor na cultural concepts of distress (DSM-5 CFI, ICD-11 přílohy).
-- **Léčba**: trauma-informed care, kulturně-citlivá psychoterapie, peer support.
-- **Forensika**: znalecký posudek dle lokálních standardů, Istanbul Protocol pro mučení.
+## 5. Klinická praxe
 
-Platforma Prismatic poskytuje **adapter-based přístup** — konkrétní region má vlastní configuration profile (terminologie, právní reference, hlášení autoritám).
+**Kontext, ne jen jednotlivec.** Dominantní individuální terapie (KBT, DBT) může přehlížet
+vztahový a společenský kontext potíží. Kulturní formulační rozhovor DSM-5 (CFI) není jen
+pro migranty – i u klienta z většinové společnosti zjistí, jak vysvětluje své potíže
+a jaké má zdroje. Doplňte [collateral interview](@/kompendium/techniques/ea-6-1-3-collateral-interview.md),
+pokud klient souhlasí.
 
-## 4. Právní rámec
+**Pozor na sugesci.** Terapeut nesmí klientovi „objevit“ zneužívání, které klient sám
+nepopsal; vyvarujte se sugestivních otázek a interpretací
+([riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md),
+[hodnocení iatrogenního rizika](@/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md)).
 
-Strong individual rights frameworks, ECHR Art. 8, US 4th Amendment, Privacy Acts.
+**Stud za závislost.** Klient může vnímat to, že byl ovládán, jako osobní selhání
+„nezávislého člověka“. Psychoedukace o mechanismech a práce se studem
+([odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md),
+[sebesoucit](@/kompendium/self-defense-guides/16-self-compassion.md)) zmírňuje sebeobviňování.
+U dlouhodobé kontroly zvažte [komplexní PTSD](@/glossary/c-ptsd.md).
 
-**Aplikační pyramida**:
+## 6. Právní a institucionální rámec
 
-1. **Mezinárodní** — UDHR, ICCPR, CAT, CRPD, regionální (ECHR/ACHR/AfCHPR).
-2. **Nadnárodní** — EU acquis, Council of Europe (Istanbul Convention 2014).
-3. **Národní** — ústava, trestní zákoník, civilní zákoník, zákon o ochraně před násilím.
-4. **Sektorové** — zdravotnické (mental health acts), pracovní, mediální (online safety).
-5. **Lokální** — regionální/komunální opatření, ombudsman.
+Anglie a Wales trestají od roku 2015 kontrolující nebo donucující chování ve vztahu
+(Serious Crime Act 2015, s. 76); Domestic Abuse Act 2021 rozšířil ochranu a definici
+domácího násilí. Skotsko přijalo Domestic Abuse (Scotland) Act 2018, který stojí přímo
+na pojmu coercive control (viz [UK — EA právní rámec](@/kompendium/international/24-uk-law-EA/index.md)).
+V USA chrání první dodatek ústavy svobodu projevu velmi široce, takže regulace dezinformací
+je omezená (viz [USA — EA právní rámec](@/kompendium/international/25-us-law-EA/index.md)).
+V EU se k ochraně jednotlivce přidávají GDPR (nařízení (EU) 2016/679), akt o digitálních
+službách (nařízení (EU) 2022/2065) a akt o umělé inteligenci (nařízení (EU) 2024/1689),
+jehož čl. 5 zakazuje některé manipulativní techniky (viz [EU právo — EA rámec](@/kompendium/international/21-EU-law-EA/index.md)).
 
-## 5. Cross-cultural considerations
+## 7. Modelová situace
 
-- **Etika prvního kontaktu**: respekt k autoritě (kolektivistické) vs. autonomie (individualistické).
-- **Rodinný systém**: zapojit/oddělit dle kulturních očekávání.
-- **Tlumočení**: certifikovaný medical interpreter, ne rodinný příslušník (conflict of interest).
-- **Stigma**: psychiatrická péče v některých kontextech kompromituje rodinnou čest.
-- **Náboženská citlivost**: chaplaincy, halal/kosher, modlitební prostor.
-- **Dokumentace**: pseudonymizace, ochrana svědka, mezinárodní transfery dat (GDPR Capítulo V).
+*Anonymizovaný kompozitní příklad.* Žena kolem pětatřiceti let, která se kvůli práci
+přestěhovala do jiného města, absolvuje víkendový „transformační“ kurz. Lektor jí nabídne
+pokročilý program a říká, že kamarádky, které jsou skeptické, „žijí v nízké vibraci“.
+Během roku utratí úspory, přestane se stýkat s rodinou a cítí se provinile za každou
+pochybnost. Na konzultaci psycholog nezpochybňuje její touhu po růstu. Společně prochází,
+kdo rozhoduje o jejím čase a penězích a co se stane, když lektorovi odporuje; použijí
+[model BITE](@/glossary/bite-model.md) jako neutrální kontrolní seznam. Psycholog podpoří
+obnovu kontaktu s přáteli ([akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md))
+a nabídne kontakt na spotřebitelskou poradnu kvůli smlouvám.
 
-## 6. Cross-linky
+## 8. Meze a otevřené otázky
 
-- [Náboženské menšiny — EA](../17-religious-minority-EA/) — cross-cultural
-- [Kolektivistické kultury — EA](../18-collective-cultures-EA/) — cross-cultural
-- [Kultury cti — EA](../20-honor-cultures-EA/) — cross-cultural
-- [EU právo — EA rámec](../21-EU-law-EA/) — legal
-- [ČR právo — EA rámec](../22-czech-law-EA/) — legal
-- [UK — EA právní rámec](../24-uk-law-EA/) — legal
-- [Kanada — EA právní rámec](../26-canadian-law-EA/) — legal
-- [Lidská práva — EA standardy](../29-human-rights-EA/) — legal
-- [Česká republika — vzorce EA](../1-czech-rep-EA/) — regional
-- [Česko-anglická terminologie EA](../31-cs-en-terminology/) — terminology
+Většina nástrojů v této knize byla vytvořena a ověřena v individualistickém prostředí,
+a tedy hrozí, že jeho normy budou vydávány za univerzální
+([teoretický imperialismus](@/kompendium/critical-perspectives/8-theoretical-imperialism.md),
+[kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)).
+Otevřené zůstává, kde končí svobodná volba dospělého a začíná [nepřípustný vliv](@/glossary/undue-influence.md),
+a jak chránit lidi před manipulativními platformami, aniž by se omezila svoboda projevu.
 
-## 7. Connect
+## Související
 
-- **Kompendium**: [Hub](../../) | [Úvod](../../02-uvod/) | [Základní kategorie](../../03-zakladni-kategorie/)
-- **Forenzně-právní bridge**: [forensic-legal/](../../forensic-legal/) — mezinárodní právní rámce v české aplikaci.
-- **Population Health**: [population-health/](../../population-health/) — globální disease burden EA.
-- **Cross-domain**: [cross-domain/](../../cross-domain/) — propojení s OSINT a CER doménami.
-- **Glossary bridges**: [glossary-bridges/](../../glossary-bridges/) — terminologické mosty napříč jazyky.
+**Srovnání**
 
----
+- [Kolektivistické kultury — EA](@/kompendium/international/18-collective-cultures-EA/index.md)
+  – druhý pól a jeho rizika.
+- [UK — EA právní rámec](@/kompendium/international/24-uk-law-EA/index.md) – nejrozvinutější
+  trestní úprava coercive control.
 
-*International perspective — USA, UK, Austrálie, NL, Skandinávie — bucket: cross-cultural — weight 19.*
-*NMND + NCLB compliance: kulturně citlivé, právně dohledatelné, klinicky aplikovatelné.*
+**Historické případy**
+
+- [Jonestown](@/kompendium/historical-cases/11-jonestown.md) – totalismus v demokratické
+  společnosti.
+- [Hnutí znovuobjevené paměti](@/kompendium/historical-cases/37-recovered-memory.md) –
+  iatrogenní EA v terapeutické kultuře.
+
+**Pojmy**
+
+- [Nepřípustný vliv](@/glossary/undue-influence.md) – hranice mezi přesvědčováním
+  a kontrolou.
+- [Love bombing](@/glossary/love-bombing.md) – nábor osamělých lidí.
+
+**Praxe**
+
+- [Exit ze sekulárního kultu](@/kompendium/case-studies/27-secular-cult-exit.md) –
+  zotavení po „transformačních“ seminářích.
+- [Populární terminologie pro veřejnost](@/kompendium/international/38-popular-terminology-public/index.md)
+  – kdy psychologické pojmy pomáhají a kdy škodí.

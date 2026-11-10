@@ -1,10 +1,12 @@
 +++
 title = "Slovensko — vzorce EA"
-description = "Mezinárodní perspektiva — Slovenská republika: kulturní, klinické a právní specifika EA."
+description = "Epistemická manipulace na Slovensku: dědictví StB a 90. let, útoky na novináře, polarizace, vyloučené romské komunity a místní zdroje odolnosti."
 weight = 2
+
 [taxonomies]
 tags = ["kompendium", "international", "regional"]
 categories = ["academic", "international"]
+
 [extra]
 parent = "kompendium-international"
 toc = true
@@ -12,88 +14,168 @@ toc = true
 
 # Slovensko — vzorce EA
 
-> **Region/jurisdikce**: Slovenská republika
-> **Bucket**: regional
-> **Doctrina**: NMND + NCLB — všechna tvrzení doložitelná, kulturní citlivost povinná.
+> **Region**: Slovenská republika · **Oblast**: regionální vzorce
+> Stránka mapuje podmínky, za nichž se na Slovensku objevují vzorce
+> [epistemické anihilace](@/glossary/epistemicka-anihilace.md), a zdroje, o které se lze
+> v prevenci a léčbě opřít. Nepopisuje „slovenskou povahu“; rozdíly mezi regiony, generacemi
+> a komunitami uvnitř země jsou větší než rozdíly mezi Slovenskem a jeho sousedy.
 
-## 1. Geografický a jurisdikční kontext
+## 1. Kontext
 
-Slovenská post-rozdělení 1993, EU/NATO 2004, klerikálně-konzervativní stopa, mečiarismus.
+Do roku 1992 sdílelo Slovensko s Českem stát, komunistický režim i jeho represivní aparát:
+Státní bezpečnost, cenzuru a období
+[normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md). Slovenská
+zkušenost se přesto v podstatných bodech lišila. Silnější byla role katolické církve
+a podzemní církve, proti níž režim zasahoval obzvlášť tvrdě; symbolem odporu se stala
+svíčková manifestace v Bratislavě v březnu 1988. Od 1. ledna 1993 je Slovensko samostatným
+státem, od roku 2004 členem NATO i EU.
 
-Tato sekce mapuje **specifika Slovenská republika** v evropské/globální typologii EA (epistemic abuse / psychická manipulace s reality-distortion vektorem). Region je zahrnut do kompendia jako **referenční bod** pro klinickou, právní a forenzní praxi platformy Prismatic.
+Pro tuto knihu je klíčové období 90. let. Vláda Vladimíra Mečiara se spojovala se zneužíváním
+tajné služby proti politickým oponentům; nejznámějším případem je únos syna tehdejšího
+prezidenta do Rakouska v roce 1995. Amnestie na dlouhá léta zablokovaly stíhání a veřejnost
+se naučila, že pravda o zjevném zločinu může zůstat oficiálně „neznámá“. Tento zážitek
+institucionálně vynucené nejistoty je blízký tomu, co kniha popisuje jako
+[indukovanou pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) na
+úrovni celé společnosti.
 
-Historický kontext utvářel současné vzorce EA: kolektivní traumata, post-konfliktní dynamiky, právní transplantáty, kulturní idiomy distress.
+Druhým zlomem byla vražda investigativního novináře Jána Kuciaka a jeho snoubenky
+v únoru 2018. Vyvolala největší protesty od roku 1989 a odstoupení vlády, ale také dlouhou
+fázi soupeřících výkladů. V květnu 2024 polarizaci dále vyostřil atentát na předsedu vlády.
 
-## 2. Specifické EA vzorce v regionu
+## 2. Strukturální zranitelnosti
 
-Vzorce: rodinný klanový tlak, 'mafiánské' obchodní EA, polit. populismus Fico/Pellegrini, mediální hon na novináře (Kuciak).
+- **Malý mediální trh a propojení s byznysem.** Na malém trhu je snazší vlastnické propojení
+  médií s politickými a ekonomickými zájmy; útoky na novináře pak nemají jen podobu fyzického
+  ohrožení, ale i soustavné [delegitimizace](@/glossary/delegitimizace.md) a kampaní
+  koordinovaného zesměšňování (viz [koordinace davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)).
+- **Zkušenost s nepotrestanou mocí.** Pokud oběť ví, že stát v minulosti kryl pachatele,
+  nebude snadno věřit, že ji ochrání dnes. Manipulátor tuto nedůvěru využívá větou „stejně
+  ti nikdo neuvěří“ – srov. [epistemickou injustici](@/glossary/epistemicka-injustice.md).
+- **Regionální nerovnost.** Rozdíl mezi Bratislavou a chudšími regiony na východě a jihu se
+  promítá do dostupnosti psychiatrické a psychologické péče, právní pomoci i azylových
+  kapacit. Kde je služba daleko, roste závislost na rodině a místní komunitě, a tím i riziko
+  [sociální izolace](@/glossary/socialni-izolace.md), jakmile se tato síť stane zdrojem kontroly.
+- **Strukturální vyloučení romských komunit.** Segregované lokality, diskriminace ve
+  vzdělávání a zdravotnictví a historie nucených sterilizací romských žen (Evropský soud pro
+  lidská práva ji odsoudil v případu *V. C. proti Slovensku*, 2011) vytvářejí hlubokou
+  a oprávněnou nedůvěru k institucím. Pro kliniku to znamená, že nedůvěra není „nespolupráce“,
+  ale [strukturální trauma](@/glossary/strukturalni-trauma.md).
+- **Pracovní migrace.** Dlouhodobá práce v zahraničí rozděluje rodiny a vytváří závislost na
+  zprostředkovatelích; v krajních případech jde o vzorce blízké
+  [obchodování s lidmi](@/kompendium/forensic-legal/49-trafficking-law-EA.md).
 
-**Typologie regionálních EA vektorů:**
+## 3. Typické vzorce EA
 
-1. **Politicko-státní**: instrumentalizace státního aparátu (mediální, justiční, bezpečnostní složky).
-2. **Mediálně-platformní**: koncentrace mediálního vlastnictví, online harassment, koordinované smear.
-3. **Rodinně-komunitní**: klanové struktury, čestné systémy, gendered dynamics.
-4. **Ekonomicko-pracovní**: mobbing, koercitivní kontrola v zaměstnání, whistleblower retaliation.
-5. **Náboženskoidentitní**: sektářství, anti-konvert tlak, blasphemy zákony.
+**Polarizované informační prostředí.** Slovensko patří v regionálních průzkumech k zemím
+s vysokou mírou přijetí konspiračních výkladů. Kniha to nečte jako vlastnost obyvatel, ale
+jako výsledek prostředí, v němž působí domácí dezinformační weby, provázanost s narativy
+[ruského vlivu](@/kompendium/international/7-russian-influence-EA/index.md) a slabá důvěra
+v instituce. Typickým vzorcem je [záplava nepravd](@/glossary/firehose-of-falsehood.md)
+a [falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) mezi
+ověřenou zprávou a výmyslem.
 
-Každý vektor vyžaduje **kulturně senzitivní detekci** — universalistický model selhává.
+**Útoky na novináře a aktivisty.** Kampaně proti konkrétním lidem kombinují zveřejňování
+osobních údajů ([doxing](@/glossary/doxing.md)), vytrhávání výroků z kontextu a nálepkování.
+Pro práci s oběťmi jsou určeny [protokol pro novináře](@/kompendium/techniques/ea-6-4-9-novinari-protokol.md)
+a [protokol pro aktivisty](@/kompendium/techniques/ea-6-4-10-aktivisti-protokol.md).
 
-## 3. Klinické aplikace v regionu
+**Rodinné a partnerské násilí.** [Coercive control](@/glossary/coercive-control.md) se často
+skrývá za představu, že „co se děje doma, zůstává doma“. Ekonomická závislost v regionech
+s vysokou nezaměstnaností prodlužuje setrvání ve vztahu. Zvláštní riziko představuje
+kombinace kontroly s pracovní migrací partnera, kdy komunikace probíhá jen přes telefon
+a sociální sítě a oběť je doma izolovaná.
 
-PSL/ÚVNŽ Bratislava, Pinel Pezinok; psychiatr. lůžková reforma probíhá.
+**Náboženské a duchovní skupiny.** Vedle tradičních církví, které jsou pro mnoho lidí
+ochranným zdrojem, se objevují uzavřená charismatická společenství i sekulární skupiny
+alternativní léčby. Posuzuje se struktura podle [modelu BITE](@/glossary/bite-model.md),
+nikoli víra sama.
 
-**Klinické rozhraní EA v regionu** zahrnuje:
+## 4. Ochranné faktory
 
-- **Skríning**: kulturně adaptované nástroje (např. PCL-5 lokalizovaný, ITQ pro cPTSD ICD-11).
-- **Diagnostika**: pozor na cultural concepts of distress (DSM-5 CFI, ICD-11 přílohy).
-- **Léčba**: trauma-informed care, kulturně-citlivá psychoterapie, peer support.
-- **Forensika**: znalecký posudek dle lokálních standardů, Istanbul Protocol pro mučení.
+- **Občanská mobilizace.** Protesty po roce 2018 ukázaly schopnost společnosti veřejně
+  pojmenovat lež a požadovat odpovědnost; i to je zdroj smyslu, na který lze v terapii navázat.
+- **Investigativní žurnalistika a ověřovatelé faktů**, včetně občanských iniciativ, které
+  mapují weby šířící dezinformace.
+- **Ústav pamäti národa** zpřístupňuje archivy bezpečnostních složek a umožňuje rodinám
+  doložit, co se stalo – protiváha [mnemonické rekonfiguraci](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md).
+- **Farnosti, sbory a místní spolky** jako sociální síť, pokud nejsou samy zdrojem kontroly
+  (viz [vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)).
+- **Romské a terénní organizace** se zkušeností s prací v segregovaných lokalitách; jejich
+  pracovníci bývají jedinými lidmi, kterým rodina důvěřuje.
 
-Platforma Prismatic poskytuje **adapter-based přístup** — konkrétní region má vlastní configuration profile (terminologie, právní reference, hlášení autoritám).
+## 5. Klinická praxe
 
-## 4. Právní rámec
+V anamnéze stojí za to cíleně zjišťovat zkušenost s mocí, která nebyla potrestána, a s tím
+spojený fatalismus („nemá cenu nic hlásit“). U klientů z romských komunit je třeba počítat
+s oprávněnou nedůvěrou k lékařům a úřadům a budovat vztah pomaleji; užitečné je zapojit
+terénního pracovníka, kterého klient zná. Tlumočení zajišťuje profesionál, nikoli člen
+rodiny, a to i u maďarsky mluvících klientů z jižního Slovenska.
 
-TZ §192 vydieranie, §189 nebezpečné prenasledovanie, OZ §11-13 ochrana osobnosti.
+Diferenciálně je třeba odlišit:
 
-**Aplikační pyramida**:
+- adaptivní nedůvěru vůči institucím od paranoidního prožívání (viz
+  [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)),
+- přijetí konspiračního výkladu jako sociální příslušnosti od uzavřeného systému přesvědčení
+  vázaného na skupinu (srov. [konspirační rekrutace](@/kompendium/case-studies/21-konspiracni-rekrutace.md)),
+- [komplexní PTSD](@/glossary/c-ptsd.md) podle MKN-11 po dlouhodobé domácí kontrole.
 
-1. **Mezinárodní** — UDHR, ICCPR, CAT, CRPD, regionální (ECHR/ACHR/AfCHPR).
-2. **Nadnárodní** — EU acquis, Council of Europe (Istanbul Convention 2014).
-3. **Národní** — ústava, trestní zákoník, civilní zákoník, zákon o ochraně před násilím.
-4. **Sektorové** — zdravotnické (mental health acts), pracovní, mediální (online safety).
-5. **Lokální** — regionální/komunální opatření, ombudsman.
+## 6. Právní a institucionální rámec
 
-## 5. Cross-cultural considerations
+Základem je Trestný zákon (zákon č. 300/2005 Z. z.), který zná mimo jiné týrání blízké
+a svěřené osoby, nebezpečné pronásledování a vydírání; samostatný trestný čin coercive control
+v něm není. Ochranu osobnosti upravuje občanský zákoník z roku 1964 v platném znění.
+Slovensko má samostatný zákon o obětech trestných činů, který provádí
+[směrnici 2012/29/EU](@/kompendium/international/21-EU-law-EA/index.md); jako členský stát
+EU podléhá i nařízení o digitálních službách. Istanbulskou úmluvu podepsalo, ale
+neratifikovalo. Obecné principy přenosu mezi jurisdikcemi shrnuje stránka
+[mezinárodní právo](@/kompendium/forensic-legal/50-international-law-EA.md).
 
-- **Etika prvního kontaktu**: respekt k autoritě (kolektivistické) vs. autonomie (individualistické).
-- **Rodinný systém**: zapojit/oddělit dle kulturních očekávání.
-- **Tlumočení**: certifikovaný medical interpreter, ne rodinný příslušník (conflict of interest).
-- **Stigma**: psychiatrická péče v některých kontextech kompromituje rodinnou čest.
-- **Náboženská citlivost**: chaplaincy, halal/kosher, modlitební prostor.
-- **Dokumentace**: pseudonymizace, ochrana svědka, mezinárodní transfery dat (GDPR Capítulo V).
+## 7. Modelová situace
 
-## 6. Cross-linky
+*Anonymizovaný kompozitní příklad.* Mladá žena z menší obce žije s partnerem, který pracuje
+střídavě v zahraničí. Na dálku kontroluje její telefon, rozhoduje, s kým se smí vídat,
+a opakuje, že úřady „stejně nic neudělají, jako nikdy“. Žena se svěří praktické lékařce
+kvůli nespavosti. Lékařka nehodnotí, zda je partner „zlý“, ale ptá se na strukturu:
+kdo rozhoduje o penězích, co se stane, když žena odmítne, s kým naposledy mluvila bez
+jeho vědomí. Následuje [bezpečnostní plán](@/kompendium/recovery-protocols/acute-safety-establishment.md),
+kontakt na specializovanou poradnu a dokumentace podle zásad
+[forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md). Klíčové je,
+že lékařka výslovně pojmenuje, že to, co žena zažívá, je známý vzorec a že pomoc existuje.
 
-- [Česká republika — vzorce EA](../1-czech-rep-EA/) — regional
-- [Maďarsko — vzorce EA](../3-hungary-EA/) — regional
-- [Polsko — vzorce EA](../4-poland-EA/) — regional
-- [Balkán — vzorce EA](../5-balkan-EA/) — regional
-- [Ruský vliv — vzorce EA](../7-russian-influence-EA/) — regional
-- [Francie — vzorce EA](../9-french-EA/) — regional
-- [Jižní Asie — vzorce EA](../12-south-asian-EA/) — cross-cultural
-- [Východní Asie — vzorce EA](../11-east-asian-EA/) — cross-cultural
-- [EU právo — EA rámec](../21-EU-law-EA/) — legal
-- [Česko-anglická terminologie EA](../31-cs-en-terminology/) — terminology
+## 8. Meze a otevřené otázky
 
-## 7. Connect
+Chybějí reprezentativní data o prevalenci coercive control a o vlivu dezinformačního
+prostředí na duševní zdraví. Průzkumy důvěry v instituce se liší metodou a nelze z nich
+vyvozovat individuální závěry. Zároveň platí, že nálepka „konspirátor“ i „dezinformátor“
+může sloužit k umlčení legitimní kritiky moci (viz
+[politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md));
+klinik má posuzovat strukturu kontroly, ne politické postoje klienta.
 
-- **Kompendium**: [Hub](../../) | [Úvod](../../02-uvod/) | [Základní kategorie](../../03-zakladni-kategorie/)
-- **Forenzně-právní bridge**: [forensic-legal/](../../forensic-legal/) — mezinárodní právní rámce v české aplikaci.
-- **Population Health**: [population-health/](../../population-health/) — globální disease burden EA.
-- **Cross-domain**: [cross-domain/](../../cross-domain/) — propojení s OSINT a CER doménami.
-- **Glossary bridges**: [glossary-bridges/](../../glossary-bridges/) — terminologické mosty napříč jazyky.
+## Související
 
----
+**Sousední regiony**
 
-*International perspective — Slovenská republika — bucket: regional — weight 2.*
-*NMND + NCLB compliance: kulturně citlivé, právně dohledatelné, klinicky aplikovatelné.*
+- [Česká republika — vzorce EA](@/kompendium/international/1-czech-rep-EA/index.md) –
+  společná historie do roku 1992, odlišné 90. léta.
+- [Maďarsko — vzorce EA](@/kompendium/international/3-hungary-EA/index.md) – mediální
+  koncentrace a politika paměti v sousední zemi.
+- [Polsko — vzorce EA](@/kompendium/international/4-poland-EA/index.md) – srovnatelná role
+  církve v době socialismu.
+
+**Historické případy**
+
+- [Československá normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md)
+  – společný historický rámec.
+- [Sovětská aktivní opatření](@/kompendium/historical-cases/21-soviet-active-measures.md) –
+  předobraz dnešních dezinformačních kampaní.
+
+**Pojmy a praxe**
+
+- [Strukturální trauma](@/glossary/strukturalni-trauma.md) – k práci s historicky
+  vyloučenými komunitami.
+- [Mediální útok davu](@/kompendium/case-studies/04-medialni-mob-attack.md) – případová
+  studie kampaně proti jednotlivci.
+- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)
+  – proč nepřenášet kategorie mechanicky.
+- [EU právo — EA rámec](@/kompendium/international/21-EU-law-EA/index.md) – unijní nástroje
+  ochrany obětí.

@@ -1,10 +1,12 @@
 +++
 title = "Kultury cti — EA"
-description = "Mezinárodní perspektiva — Středomoří, Blízký východ, Latinská Amerika, jižní USA, Kavkaz: kulturní, klinické a právní specifika EA."
+description = "Násilí a kontrola ve jménu „cti“: kolektivní pachatel, sledování reputace, nucené sňatky a krevní msta. Proč nemediovat s rodinou, pravidlo jedné šance a právní ochrana."
 weight = 20
+
 [taxonomies]
 tags = ["kompendium", "international", "cross-cultural"]
 categories = ["academic", "international"]
+
 [extra]
 parent = "kompendium-international"
 toc = true
@@ -12,88 +14,153 @@ toc = true
 
 # Kultury cti — EA
 
-> **Region/jurisdikce**: Středomoří, Blízký východ, Latinská Amerika, jižní USA, Kavkaz
-> **Bucket**: cross-cultural
-> **Doctrina**: NMND + NCLB — všechna tvrzení doložitelná, kulturní citlivost povinná.
+> **Oblast**: prostředí, v nichž je postavení člověka a rodiny navázáno na veřejně
+> sdílenou reputaci („čest“) · **Typ**: průřezová mezikulturní stránka
+> Stránka popisuje, jak se kontrola a násilí ve jménu cti stávají formou
+> [epistemické anihilace](@/glossary/epistemicka-anihilace.md) – ovládáním toho, co o člověku
+> smějí vědět druzí i on sám. „Čest“ není vlastnost žádného náboženství ani národa;
+> násilí ve jménu cti se vyskytuje v rodinách různých vyznání i v Evropě.
 
-## 1. Geografický a jurisdikční kontext
+## 1. Kontext
 
-Honor=face=zachování reputace, čestné násilí akceptováno historicky, vendetta tradice.
+Antropologie středomořských společností popsala čest a stud jako dvojici pojmů, která
+organizuje vztahy mezi rodinami. Richard Nisbett a Dov Cohen v knize *Culture of Honor:
+The Psychology of Violence in the South* (1996) vysvětlovali vyšší míru násilí v některých
+oblastech jihu USA kulturou cti vzniklou v pastevecké ekonomice, kde reputace nahrazovala
+slabý stát; jde o vlivnou, ale diskutovanou hypotézu. Společné rysy: čest se získává
+a ztrácí veřejně, patří kolektivu a její ztráta se „napravuje“ činem.
 
-Tato sekce mapuje **specifika Středomoří, Blízký východ, Latinská Amerika, jižní USA, Kavkaz** v evropské/globální typologii EA (epistemic abuse / psychická manipulace s reality-distortion vektorem). Region je zahrnut do kompendia jako **referenční bod** pro klinickou, právní a forenzní praxi platformy Prismatic.
+Kultura cti nebyla v Evropě nikdy cizí. Itálie zrušila zmírnění trestu za „vraždu ze cti“
+a institut „napravujícího sňatku“ v trestním zákoníku až v roce 1981. V severní Albánii
+a v Kosovu se zvykové právo *Kanun* Leky Dukagjiniho a krevní msta dodnes promítají do
+života rodin, jejichž muži se skrývají doma. V Pákistánu zákon z roku 2016 omezil možnost,
+aby rodina pachateli vraždy ze cti „odpustila“ a vyhnula se tak trestu.
 
-Historický kontext utvářel současné vzorce EA: kolektivní traumata, post-konfliktní dynamiky, právní transplantáty, kulturní idiomy distress.
+## 2. Strukturální zranitelnosti
 
-## 2. Specifické EA vzorce v regionu
+- **Reputace jako kolektivní majetek.** Chování dcery, manželky nebo syna se přičítá celé
+  rodině; jednotlivec se tak stává nositelem rizika pro ostatní a kontrola jeho života
+  se vydává za ochranu.
+- **Kolektivní pachatel.** Na kontrole se podílí více lidí – otec, bratři, matka,
+  příbuzní v zahraničí, sousedé. Oběť nemá „bezpečnou“ část rodiny, které by se svěřila.
+- **Ekonomická a pobytová závislost**, zvláště u migrantů a u žen bez vlastního příjmu
+  (viz [právo cizinců](@/kompendium/forensic-legal/42-immigration-EA.md)).
+- **Sexualita a identita jako „hrozba“.** Vztah mimo schválený okruh, rozvod, LGBTQI
+  identita nebo odchod od víry mohou být chápány jako zneuctění
+  ([LGBTQI protokol](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md)).
+- **Komunitní sledování.** Fámy a digitální kanály diaspory umožňují sledovat člověka
+  i v jiné zemi; [doxing](@/glossary/doxing.md) a hrozba zveřejnění fotografií jsou
+  častými nástroji.
 
-Vzorce: čestné vraždy proti dcerám, vendetta, krevní msta (Albánie kanun), 'culture of honor' Nisbett.
+## 3. Typické vzorce EA
 
-**Typologie regionálních EA vektorů:**
+**Kontrola obrazu, ne jen chování.** Pachatelé neovládají jen to, co oběť dělá, ale i to,
+co se o ní říká: kdo ji viděl, s kým, v jakém oblečení. Oběť si osvojí pohled komunity
+a hlídá se sama – [panoptismus](@/glossary/panopticism.md) v rodinném měřítku
+a [internalizovaný pachatel](@/glossary/internalizovany-pachatel.md).
 
-1. **Politicko-státní**: instrumentalizace státního aparátu (mediální, justiční, bezpečnostní složky).
-2. **Mediálně-platformní**: koncentrace mediálního vlastnictví, online harassment, koordinované smear.
-3. **Rodinně-komunitní**: klanové struktury, čestné systémy, gendered dynamics.
-4. **Ekonomicko-pracovní**: mobbing, koercitivní kontrola v zaměstnání, whistleblower retaliation.
-5. **Náboženskoidentitní**: sektářství, anti-konvert tlak, blasphemy zákony.
+**Vynucený souhlas.** Nucený sňatek bývá prezentován jako dobrovolný: oběť je
+přesvědčena, že odmítnutí zabije otce nebo zničí sestře vyhlídky. Klíčová je otázka,
+zda bylo možné říct ne bez trestu (srov. [Kolektivistické kultury — EA](@/kompendium/international/18-collective-cultures-EA/index.md)).
+Typickým scénářem je „prázdninová cesta“ do země původu, z níž se oběť nevrátí.
 
-Každý vektor vyžaduje **kulturně senzitivní detekci** — universalistický model selhává.
+**Přepis biografie.** Oběť, která odešla, je v komunitě prohlášena za mrtvou, nemocnou
+nebo „zkaženou“; její verze událostí přestává existovat
+([delegitimizace](@/glossary/delegitimizace.md),
+[autobiografická dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md)).
 
-## 3. Klinické aplikace v regionu
+**Vendeta a krevní msta.** Kolektivní dluh cti zavazuje i muže, kteří s původním sporem
+nemají nic společného; děti vyrůstají v domácím uvěznění. Jde o
+[strukturální trauma](@/glossary/strukturalni-trauma.md) celé rodiny.
 
-Respekt k rodině jako primární terapeutický rámec, mediation s elders.
+## 4. Ochranné faktory
 
-**Klinické rozhraní EA v regionu** zahrnuje:
+- **Hlasy uvnitř komunit** – náboženští představitelé, kteří veřejně odmítají násilí
+  a nucené sňatky, a organizace vedené samotnými přeživšími.
+- **Spojenci v rodině**, kteří stojí na straně oběti, i když riskují vlastní postavení.
+- **Škola a zdravotnictví** jako místa, kde se oběť může svěřit mimo dohled rodiny.
+- **Specializované služby a azylové domy** se zkušeností s násilím ve jménu cti.
+- **Právní změny v zemích původu**, které ukazují, že tradice není neměnná.
 
-- **Skríning**: kulturně adaptované nástroje (např. PCL-5 lokalizovaný, ITQ pro cPTSD ICD-11).
-- **Diagnostika**: pozor na cultural concepts of distress (DSM-5 CFI, ICD-11 přílohy).
-- **Léčba**: trauma-informed care, kulturně-citlivá psychoterapie, peer support.
-- **Forensika**: znalecký posudek dle lokálních standardů, Istanbul Protocol pro mučení.
+## 5. Klinická praxe
 
-Platforma Prismatic poskytuje **adapter-based přístup** — konkrétní region má vlastní configuration profile (terminologie, právní reference, hlášení autoritám).
+**Pravidlo jedné šance.** Britské vládní pokyny k nuceným sňatkům zdůrazňují, že
+profesionál má možná jen jednu příležitost s obětí mluvit. Nepropouštějte ji bez plánu
+bezpečí a bez možnosti dalšího kontaktu
+([akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md)).
 
-## 4. Právní rámec
+**Nemediovat s rodinou.** Rodinná mediace, „usmíření“ se staršími komunity nebo informování
+rodiny o tom, co oběť řekla, mohou riziko dramaticky zvýšit. Rodinu kontaktujte jen se
+souhlasem oběti a po posouzení rizika – v tom se postup liší od běžné rodinně-systemické
+praxe.
 
-Honor killing kriminalizace nedávná: Pákistán 2016, Jordánsko 2017, debaty pokračují.
+**Tlumočení a důvěrnost.** Tlumočník nesmí být z rodiny ani z úzké komunity a nesmí oběť
+znát; zvažte telefonické tlumočení z jiného regionu. Dokumentaci chraňte tak, aby se
+k ní rodina nemohla dostat ([klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md)).
 
-**Aplikační pyramida**:
+**Diagnostika a léčba.** U dlouhodobé kontroly zvažte [komplexní PTSD](@/glossary/c-ptsd.md);
+u oběti, která odešla, počítejte se ztrátou celé sítě a se zármutkem nad rodinou, kterou
+stále miluje. Pomáhá [narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md)
+a [obnova sociální sítě](@/kompendium/recovery-protocols/acute-social-reconnection.md).
+Riziko sebevraždy je vysoké, včetně sebevraždy vynucené tlakem rodiny – viz
+[suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md).
 
-1. **Mezinárodní** — UDHR, ICCPR, CAT, CRPD, regionální (ECHR/ACHR/AfCHPR).
-2. **Nadnárodní** — EU acquis, Council of Europe (Istanbul Convention 2014).
-3. **Národní** — ústava, trestní zákoník, civilní zákoník, zákon o ochraně před násilím.
-4. **Sektorové** — zdravotnické (mental health acts), pracovní, mediální (online safety).
-5. **Lokální** — regionální/komunální opatření, ombudsman.
+## 6. Právní a institucionální rámec
 
-## 5. Cross-cultural considerations
+Istanbulská úmluva (CETS 210, 2011) v čl. 42 vylučuje „takzvanou čest“ jako ospravedlnění
+trestných činů, v čl. 37 požaduje trestnost nuceného sňatku a v čl. 59 samostatný pobytový
+status pro oběti. V Anglii a Walesu je nucený sňatek trestným činem od roku 2014
+(Anti-social Behaviour, Crime and Policing Act 2014) a vládní Forced Marriage Unit
+poskytuje pomoc i občanům v zahraničí; kontrolu ve vztahu postihuje Serious Crime Act 2015,
+s. 76 (viz [UK — EA právní rámec](@/kompendium/international/24-uk-law-EA/index.md)).
+Směrnice (EU) 2024/1385 o boji proti násilí na ženách a domácímu násilí sjednocuje
+minimální standardy v EU (viz [EU právo — EA rámec](@/kompendium/international/21-EU-law-EA/index.md)).
+Česká úprava je na stránce [ČR právo — EA rámec](@/kompendium/international/22-czech-law-EA/index.md).
 
-- **Etika prvního kontaktu**: respekt k autoritě (kolektivistické) vs. autonomie (individualistické).
-- **Rodinný systém**: zapojit/oddělit dle kulturních očekávání.
-- **Tlumočení**: certifikovaný medical interpreter, ne rodinný příslušník (conflict of interest).
-- **Stigma**: psychiatrická péče v některých kontextech kompromituje rodinnou čest.
-- **Náboženská citlivost**: chaplaincy, halal/kosher, modlitební prostor.
-- **Dokumentace**: pseudonymizace, ochrana svědka, mezinárodní transfery dat (GDPR Capítulo V).
+## 7. Modelová situace
 
-## 6. Cross-linky
+*Anonymizovaný kompozitní příklad.* Sedmnáctiletá studentka řekne učitelce, že rodina
+plánuje na léto cestu „k babičce“ a že zaslechla řeči o svatbě. Bratr kontroluje její
+telefon a matka ji prosí, „ať neudělá ostudu“. Učitelka nezavolá rodičům. Zapíše si
+rozhovor, kontaktuje školního metodika prevence a orgán sociálně-právní ochrany dětí
+a se studentkou dohodne bezpečný způsob, jak se znovu spojit. Vysvětlí jí, že má právo
+odmítnout a že pokud by byla odvezena, existuje pomoc i v zahraničí. Postup odpovídá
+[povinnému oznámení](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md)
+a [protokolu pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md).
 
-- [Kolektivistické kultury — EA](../18-collective-cultures-EA/) — cross-cultural
-- [Individualistické kultury — EA](../19-individualist-cultures-EA/) — cross-cultural
-- [EU právo — EA rámec](../21-EU-law-EA/) — legal
-- [ČR právo — EA rámec](../22-czech-law-EA/) — legal
-- [Německo — EA právní rámec](../23-german-law-EA/) — legal
-- [USA — EA právní rámec](../25-us-law-EA/) — legal
-- [Austrálie — EA právní rámec](../27-australian-law-EA/) — legal
-- [Prevence genocidy — EA](../30-genocide-prevention-EA/) — legal
-- [Česká republika — vzorce EA](../1-czech-rep-EA/) — regional
-- [Česko-anglická terminologie EA](../31-cs-en-terminology/) — terminology
+## 8. Meze a otevřené otázky
 
-## 7. Connect
+Pojem „násilí ze cti“ hrozí tím, že z násilí v menšinách udělá „kulturní“ jev, zatímco
+stejné násilí ve většině se vykládá individuálně (viz [esencialistický klam](@/kompendium/critical-perspectives/9-essentialism-critique.md)
+a [kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)).
+Obráceně: přehlédnout kolektivní rozměr znamená podcenit riziko. Otevřenou otázkou je,
+jak spolupracovat s komunitami na prevenci, aniž by se z nich stali podezřelí, a jak
+chránit oběti krevní msty, které do běžných kategorií obětí násilí nezapadají.
 
-- **Kompendium**: [Hub](../../) | [Úvod](../../02-uvod/) | [Základní kategorie](../../03-zakladni-kategorie/)
-- **Forenzně-právní bridge**: [forensic-legal/](../../forensic-legal/) — mezinárodní právní rámce v české aplikaci.
-- **Population Health**: [population-health/](../../population-health/) — globální disease burden EA.
-- **Cross-domain**: [cross-domain/](../../cross-domain/) — propojení s OSINT a CER doménami.
-- **Glossary bridges**: [glossary-bridges/](../../glossary-bridges/) — terminologické mosty napříč jazyky.
+## Související
 
----
+**Sousední stránky**
 
-*International perspective — Středomoří, Blízký východ, Latinská Amerika, jižní USA, Kavkaz — bucket: cross-cultural — weight 20.*
-*NMND + NCLB compliance: kulturně citlivé, právně dohledatelné, klinicky aplikovatelné.*
+- [Kolektivistické kultury — EA](@/kompendium/international/18-collective-cultures-EA/index.md)
+  – závislost na skupině jako obecný rámec.
+- [Blízký východ — vzorce EA](@/kompendium/international/13-middle-eastern-EA/index.md) –
+  poručnické systémy a rodinná kontrola.
+- [Jižní Asie — vzorce EA](@/kompendium/international/12-south-asian-EA/index.md) –
+  rozšířená rodina a nucené sňatky v diaspoře.
+- [Balkán — vzorce EA](@/kompendium/international/5-balkan-EA/index.md) – postkonfliktní
+  region, v němž se rodinná kontrola prolíná s válečným traumatem.
+
+**Pojmy**
+
+- [Coercive control](@/glossary/coercive-control.md) – rámec, který je třeba rozšířit
+  o více pachatelů.
+- [Panoptismus](@/glossary/panopticism.md) – sebekontrola pod pohledem komunity.
+
+**Právo a praxe**
+
+- [Právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md) –
+  srovnání trestních úprav.
+- [Protokol pro domácí násilí](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md)
+  – posouzení rizika a plán bezpečí.
+- [Ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md) – nezletilé oběti
+  nucených sňatků.

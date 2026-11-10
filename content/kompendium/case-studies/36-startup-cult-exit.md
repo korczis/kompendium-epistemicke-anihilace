@@ -1,10 +1,12 @@
 +++
-title = "Pripad 36-startup-cult-exit: Exit ze startup kultu"
-description = "Anonymizovana pripadova studie — Exit ze startup kultu. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 36: Odchod ze startupového kultu"
+description = "Kompozitní studie mladého vývojáře ve startupu s charismatickým zakladatelem, misí „měníme svět“ a stohodinovými pracovními týdny. Vyhoření, únik dokumentů, odchod a obnova."
 weight = 36
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["34-professorial-totalizace", "35-research-lab-cult", "37-tech-bro-totalizace", "38-management-consulting"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,141 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 36-startup-cult-exit: Exit ze startup kultu
+# Případ 36: Odchod ze startupového kultu
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z několika technologických firem v rané fázi. Produkt, investoři,
+> země a osoby jsou zobecněny; studie nehodnotí žádnou konkrétní firmu ani zakladatele.
+> Popisuje vzorec, který pomáhá rozpoznat hranici mezi nasazením a kontrolou.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 36-startup-cult-exit reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **VC-backed startup s charismatickym founderem, mission-driven kulturou ('changing the world'), 80-100 hod tydenni norma**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **startup financovaný rizikovým kapitálem** s charismatickým zakladatelem a
+kulturou mise: firma „mění svět“, a proto je běžné pracovat osmdesát až sto hodin týdně.
+Startupy přirozeně vyžadují nasazení a mnoho lidí v nich zažije nejintenzivnější a nejcennější
+roky kariéry. Kultovní rysy se objevují, když se mise stane **morálním absolutnem**, které
+ospravedlní cokoli: obětované vztahy, zdraví i etické kompromisy, a když kritika mise znamená
+vyřazení ze „rodiny“.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Na rozdíl od zavedeného [firemního kultu](@/kompendium/case-studies/11-corporate-cult.md) je zde
+vše zhuštěno do několika let a umocněno nadějí na zbohatnutí z podílů. Ta funguje jako finanční
+páka: odejít dřív znamená přijít o nevestované akcie.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **junior software engineer; founder pri náboru promitl 'historickou prilezitost menit svet' + akcie**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupem byl **příslib historické příležitosti**. Mladý vývojář po škole slyšel od zakladatele při
+pohovoru, že dostane šanci „podílet se na něčem, o čem se bude psát v dějinách“, a k tomu
+akciové opce. Nízký plat proti tomu vypadal jako investice. Pro mladého člověka bez rodinných
+závazků bylo neomezené nasazení přirozené – a právě proto nebylo vnímáno jako riziko.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | rocni cyklus burn-out, narativ 'we vs they' (konkurence, regulators, investors), 'family' rétorika, mimo-prace identita zákazana |
-| **Konsolidace** | roky 2-5 | startup=mise=identita; mimoradne osobni vztahy obetovany 'velke prilezitosti'; akcionarska 'lock-up' financne klade lever |
-| **Detekce / spousteci udalost** | promenna | burn-out + leak interních materiálu o ne-eticke business praxi (data harvesting); subjekt zacasl porovnávat verejny narrative s realitou |
-| **Exit / rekonstrukce** | rok 5+ | vyžiadana garden-leave, právní konzultace ohledne vesting/akcii, transfer do mainstream tech firmy s pevnymi hodinami |
+| **Nadšení** | měsíce 1–6 | Rychlé uvedení produktu, pocit poslání, opce |
+| **Nasazení** | měsíce 6–18 | Večery a víkendy v kanceláři, týmové večeře místo soukromého života |
+| **Eskalace** | roky 1–3 | Roční cykly vyhoření, narativ „my proti nim“ (konkurence, regulátoři, investoři), rodinná rétorika, život mimo práci nežádoucí |
+| **Konsolidace** | roky 3–4 | Startup = mise = identita; osobní vztahy obětovány „velké příležitosti“; nevestované podíly jako finanční páka |
+| **Detekce** | rok 4 | Vyhoření a únik interních materiálů o neetické praxi se sběrem dat; srovnání veřejného příběhu s realitou |
+| **Odchod a rekonstrukce** | roky 4–5 | Vyžádané placené volno, právní konzultace k podílům, přechod do zavedené firmy s pevnou pracovní dobou |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
+  – celofiremní setkání se zakladatelem jako emoční katarze.
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  zakladatel jako vizionář, kterému ostatní „ještě nerozumějí“.
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – „mise, nebo
+  průměrnost“.
+- [EA-5.3.42 Totální sebeobjektifikace](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
+  – vlastní hodnota měřená sprinty, cíli a hodnocením výkonu.
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
+  – každý termín je „poslední sprint před změnou světa“.
 
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — founder all-hands jako emocni katarze
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — founder jako vizionar
-- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — 'mise nebo mediocrita'
-- [EA-5.3.42 Self-objektifikace totalni](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md) — self mereny v sprintech, OKR, performance review
-- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — veseky deadline 'last sprint to changing world'
+Strukturálně jde o [scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénář G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[scénář K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Během práce převládala **euforická únava**: vědomí vyčerpání spojené s pocitem, že každá hodina
+má smysl. Po odchodu přišla **prázdnota** („co znamenaly poslední čtyři roky“), přetrvávající
+zvyk kontrolovat firemní chat v noci a vina při práci v běžné pracovní době. Typická byla
+[temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md)
+a [inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md) – „my
+jsme spustili“, „my jsme to přežili“ – i dlouho po odchodu.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **pocit prazdnoty po exit ('what was the meaning of last 4 years'), pretrvavajici zavyk kontroly Slack v noci, somatizovany guilt pri 9-5 jobs**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Dvě věci se sešly. Vývojář po několikátém cyklu vyhoření skončil u lékaře s vážnými poruchami
+spánku. Krátce poté unikly **interní materiály o sběru uživatelských dat**, který byl v rozporu s
+veřejně deklarovanými hodnotami firmy. Mise, kvůli které obětoval roky, se ukázala jako příběh,
+který neodpovídal praxi. Rozpor mezi veřejným narativem a dokumenty byl ověřitelný a nedal se
+vysvětlit „nepochopením vize“.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+- **S1 – Validace a mapování:** léčba spánkových poruch, placené volno, mapa toho, kolik času a
+  vztahů firma pohltila.
+- **S2 – Externalizace introjektů:** věty „průměrní lidé pracují od devíti do pěti“, „odpočinek
+  je pro ty, kdo nevěří“ odděleny od vlastních hodnot.
+- **S3 – Rekonstrukce metakognice:** vlastní měřítka dobré práce nezávislá na misi; učení se
+  posuzovat etiku produktu.
+- **S4 – Hermeneutická obnova:** nový výklad let ve startupu – co se skutečně naučil a co bylo
+  iluze.
+- **S5 – Konsolidace a transfer:** práce s jasnými hranicemi, obnova přátelství.
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+spolu se [středně-dobou vokační integrací](@/kompendium/recovery-protocols/midterm-vocational-integration.md).
 
-V této kohorte fungoval detecni bod nasledovne: burn-out + leak interních materiálu o ne-eticke business praxi (data harvesting); subjekt zacasl porovnávat verejny narrative s realitou. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Odchod znamenal **finanční ztrátu** (nevestované podíly) a šest až dvanáct měsíců zotavování z
+workoholismu. Při dalších nabídkách z rané fáze firem se staré vzorce snadno vracely; vývojář
+proto při výběru práce používal předem sepsaná kritéria. Uchoval si však technické dovednosti a
+sebevědomí, které startup paradoxně také posílil.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **VC-backed startup s charismatickym founderem, mission-driven kulturou ('changing the world'), 80-100 hod tydenni norma**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Intenzivní, ale zdravý startup:** vysoké nasazení časově ohraničené, otevřená diskuse o etice
+  a odchod bez démonizace.
+- **Workoholismus:** osobní vzorec přetrvávající v každém prostředí.
+- **Syndrom vyhoření:** vyčerpání bez identitního splynutí s misí.
+- **Morální zranění:** vina za podíl na neetické praxi; v tomto případě přítomno vedle EA.
 
-V této kohorte bylo specifické: vyžiadana garden-leave, právní konzultace ohledne vesting/akcii, transfer do mainstream tech firmy s pevnymi hodinami. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Pracovní dobu a odpočinek upravuje zákon č. 262/2006 Sb., zákoník práce; podmínky opcí a
+vestingu jsou smluvní a jejich posouzení vyžaduje právníka. Oznámení protiprávní praxe (např.
+ve zpracování osobních údajů) může požívat ochrany podle zákona č. 171/2023 Sb., o ochraně
+oznamovatelů; viz [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
+a [uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: financni hit (akcie ztracene), 6-12 mesicni recovery z workaholismu, casto retraumatizace pri dalsich startup jobs. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Startupy mohou mít misi bez kultu, pokud **správní rada skutečně kontroluje zakladatele**
+([odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)), existuje
+[psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md) pro
+etické námitky a [trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
+po krizích. Zaměstnancům pomáhá ptát se, co by se stalo, kdyby měsíc pracovali čtyřicet hodin
+týdně.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit popisuje mladého muže bez závazků; pro rodiče nebo pro lidi na pracovních vízech je
+páka silnější. Otevřené zůstává, jak oddělit legitimní nadšení raných týmů od kultu, když obojí
+používá stejný jazyk mise.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [addiction-recovery](@/glossary/addiction-recovery.md), [narrative-trauma](@/glossary/narrative-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md), [EA-5.3.42](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 62 – kult zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md)
+  (perspektiva vedení), [Případ 37 – totalizace v technologické firmě](@/kompendium/case-studies/37-tech-bro-totalizace.md),
+  [Případ 12 – kult vůdcovství](@/kompendium/case-studies/12-leadership-cult.md).
+- **Organizace:** [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md),
+  [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md).
+- **Sebeobrana:** [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md).
+- **Glosář:** [coercive control](@/glossary/coercive-control.md) – finanční páka jako forma
+  kontroly.
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

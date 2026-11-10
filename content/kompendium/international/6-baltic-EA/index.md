@@ -1,10 +1,12 @@
 +++
 title = "Pobaltí — vzorce EA"
-description = "Mezinárodní perspektiva — Estonsko, Lotyšsko, Litva: kulturní, klinické a právní specifika EA."
+description = "Epistemická manipulace v Estonsku, Lotyšsku a Litvě: sovětské deportace a umlčená paměť, hybridní působení, postavení rusky mluvících a modely odolnosti."
 weight = 6
+
 [taxonomies]
 tags = ["kompendium", "international", "regional"]
 categories = ["academic", "international"]
+
 [extra]
 parent = "kompendium-international"
 toc = true
@@ -12,88 +14,156 @@ toc = true
 
 # Pobaltí — vzorce EA
 
-> **Region/jurisdikce**: Estonsko, Lotyšsko, Litva
-> **Bucket**: regional
-> **Doctrina**: NMND + NCLB — všechna tvrzení doložitelná, kulturní citlivost povinná.
+> **Region**: Estonsko, Lotyšsko, Litva · **Oblast**: regionální vzorce
+> Tři státy s odlišnými jazyky, náboženskými tradicemi i politickým vývojem sdílejí zkušenost
+> sovětské okupace a dnešní polohu na hranici s Ruskem. Stránka popisuje podmínky poznávání
+> a odolnosti, nikoli „pobaltskou“ nebo „ruskou“ identitu.
 
-## 1. Geografický a jurisdikční kontext
+## 1. Kontext
 
-Postsovětský přechod 1991, NATO/EU 2004, ruskojazyčné menšiny, digitální e-stát Estonsko.
+Tajný dodatkový protokol paktu Molotov–Ribbentrop (1939) přiřadil Pobaltí do sovětské sféry
+vlivu; v roce 1940 byly všechny tři státy okupovány a začleněny do SSSR. Následovala
+německá okupace a holokaust, po válce návrat sovětské moci. Masové deportace do Sibiře
+v červnu 1941 a v březnu 1949 zasáhly desítky tisíc lidí; ozbrojený odboj „lesních bratří“
+pokračoval do 50. let. Sovětský výklad tvrdil, že se pobaltské státy k SSSR připojily
+dobrovolně, a existenci tajného protokolu popíral až do roku 1989.
 
-Tato sekce mapuje **specifika Estonsko, Lotyšsko, Litva** v evropské/globální typologii EA (epistemic abuse / psychická manipulace s reality-distortion vektorem). Region je zahrnut do kompendia jako **referenční bod** pro klinickou, právní a forenzní praxi platformy Prismatic.
+Tento rozpor mezi rodinnou pamětí a oficiální pravdou je pro tuto knihu klíčový. Generace
+vyrůstaly s vědomím, že o deportovaném dědovi se mluví jen doma. Konec přinesla „zpívající
+revoluce“: v srpnu 1989 vytvořily přibližně dva miliony lidí živý řetěz z Tallinnu přes Rigu do Vilniusu
+(Baltská cesta). V lednu 1991 zasáhly sovětské jednotky ve Vilniusu a v Rize; ve Vilniusu
+zahynulo u televizní věže čtrnáct civilistů. Nezávislost byla obnovena v letech 1990–1991,
+od roku 2004 jsou všechny tři státy členy NATO i EU.
 
-Historický kontext utvářel současné vzorce EA: kolektivní traumata, post-konfliktní dynamiky, právní transplantáty, kulturní idiomy distress.
+## 2. Strukturální zranitelnosti
 
-## 2. Specifické EA vzorce v regionu
+- **Dva informační prostory.** Značná část obyvatel Estonska a Lotyšska mluví rusky
+  a dlouho sledovala hlavně média vysílaná z Ruska. Po roce 2022 byla část ruských
+  televizních kanálů v regionu zakázána. Pro rusky mluvící obyvatele tak hrozí dvojí
+  nedůvěra: vůči ruské státní propagandě i vůči státu, v němž žijí a který je může vnímat
+  podezíravě.
+- **Status a příslušnost.** V Lotyšsku existuje zvláštní status „neobčanů“ pro osoby, které po
+  obnovení nezávislosti nezískaly občanství; v Estonsku obdobně žijí lidé s neurčeným
+  občanstvím. Nejistota příslušnosti zvyšuje zranitelnost vůči narativům, které nabízejí
+  „skutečný domov“ jinde – srov. [epistemickou bezdomovost](@/glossary/epistemicka-bezdomovost.md).
+- **Mezigenerační trauma deportací.** Umlčená rodinná historie se přenáší jako nevyslovená
+  úzkost a nedůvěra; viz [reziduální totalitní trauma](@/kompendium/case-studies/09-rezidualni-totalitarni-trauma.md).
+- **Malé jazykové komunity.** Estonština, lotyština i litevština mají malý počet mluvčích;
+  kvalitní odborné zdroje o duševním zdraví a manipulaci často existují jen v angličtině
+  nebo ruštině.
+- **Emigrace.** Odchod velké části mladých lidí do západní Evropy oslabuje rodinné sítě
+  a zanechává starší generaci izolovanou.
 
-Vzorce: ruská hybridní EA proti menšinám, kybernetická EA (estonské útoky 2007), občanství 'non-citizens' Lotyšsko.
+## 3. Typické vzorce EA
 
-**Typologie regionálních EA vektorů:**
+**Hybridní působení.** V roce 2007, po přemístění sovětského pomníku v Tallinnu, zasáhla
+Estonsko rozsáhlá vlna kybernetických útoků na státní a bankovní systémy, provázená
+pouličními nepokoji a mediální kampaní. Šlo o jeden z prvních případů, kdy se kybernetický
+útok, informační operace ([info-ops](@/glossary/info-ops.md)) a mobilizace citlivé
+menšiny spojily v jeden celek. Strukturou navazuje na
+[sovětská aktivní opatření](@/kompendium/historical-cases/21-soviet-active-measures.md)
+a dnešní [ruský vliv](@/kompendium/international/7-russian-influence-EA/index.md).
 
-1. **Politicko-státní**: instrumentalizace státního aparátu (mediální, justiční, bezpečnostní složky).
-2. **Mediálně-platformní**: koncentrace mediálního vlastnictví, online harassment, koordinované smear.
-3. **Rodinně-komunitní**: klanové struktury, čestné systémy, gendered dynamics.
-4. **Ekonomicko-pracovní**: mobbing, koercitivní kontrola v zaměstnání, whistleblower retaliation.
-5. **Náboženskoidentitní**: sektářství, anti-konvert tlak, blasphemy zákony.
+**Historický revizionismus.** Narativy, podle nichž Pobaltí „osvobodila“ Rudá armáda
+a obnovené státy jsou „fašistické“, používají selektivní fakta k popření okupace. Na
+individuální úrovni to zasahuje rodiny deportovaných jako
+[delegitimizace](@/glossary/delegitimizace.md) jejich zkušenosti.
 
-Každý vektor vyžaduje **kulturně senzitivní detekci** — universalistický model selhává.
+**Koordinované neautentické chování.** Síť falešných účtů, kopie webů známých médií
+a [farmy trolů](@/kompendium/techniques/ea-9-4-5-troll-farm-EA.md) se zaměřují na témata
+energetiky, uprchlíků z Běloruska a Ukrajiny a na jazykovou politiku (viz
+[koordinované neautentické chování](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)).
 
-## 3. Klinické aplikace v regionu
+**Soukromé vztahy.** Mimo geopolitiku se v regionu objevují tytéž vzorce jako jinde:
+[coercive control](@/glossary/coercive-control.md) v partnerství, zneužívání seniorů,
+manipulace v uzavřených duchovních skupinách. Alkohol a izolace na venkově zvyšují riziko.
 
-TÜ Kliinikum Tartu, RAKUS Riga, VUL Santaros Vilnius; integrovaná péče s digitálním sdílením.
+## 4. Ochranné faktory
 
-**Klinické rozhraní EA v regionu** zahrnuje:
+- **Kultura ověřování.** Mediální gramotnost je součástí vzdělávání; v Litvě působí
+  dobrovolníci, kteří si říkají „elfové“ a vyhledávají a hlásí dezinformační obsah.
+- **Digitální stát.** Estonský e-government a elektronická identita zvyšují transparentnost
+  a umožňují rychlé ověření úředních informací.
+- **Muzea a archivy okupace**, včetně expozic v bývalých budovách KGB, dávají rodinám
+  možnost doložit svou historii (srov. [paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)).
+- **Mezinárodní odborná centra.** V Rize sídlí Centrum excelence NATO pro strategickou
+  komunikaci, které publikuje analýzy informačních operací.
+- **Tradice zpěvu a nenásilného odporu**, která se stala součástí národní identity
+  a v terapii může sloužit jako zdroj smyslu a sounáležitosti.
+- **Nezávislá ruskojazyčná média v exilu**, která v regionu našla útočiště a poskytují
+  rusky mluvícím alternativu ke státní propagandě.
 
-- **Skríning**: kulturně adaptované nástroje (např. PCL-5 lokalizovaný, ITQ pro cPTSD ICD-11).
-- **Diagnostika**: pozor na cultural concepts of distress (DSM-5 CFI, ICD-11 přílohy).
-- **Léčba**: trauma-informed care, kulturně-citlivá psychoterapie, peer support.
-- **Forensika**: znalecký posudek dle lokálních standardů, Istanbul Protocol pro mučení.
+## 5. Klinická praxe
 
-Platforma Prismatic poskytuje **adapter-based přístup** — konkrétní region má vlastní configuration profile (terminologie, právní reference, hlášení autoritám).
+U rusky mluvících klientů je třeba vyhnout se předpokladu politické loajality podle jazyka.
+Mnozí mají příbuzné v Rusku a válka roztrhla rodiny: jedna část věří ruské televizi, druhá
+ne. Typickým klinickým tématem je ztráta vztahu s rodičem, který „už není on“ – vzorec,
+na nějž se vztahuje [informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
+a [sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md).
 
-## 4. Právní rámec
+U potomků deportovaných pomáhá [biografická rekonstrukce časové osy](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md).
+U uprchlíků z Ukrajiny a Běloruska platí [protokol pro uprchlíky](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md),
+včetně profesionálního tlumočení a citlivosti k tomu, v jakém jazyce chce klient mluvit
+o traumatu.
 
-Stalking criminalized 2017+ EE/LV/LT; EU GDPR jako základ ochrany osobnosti.
+Diferenciálně je třeba odlišit realistickou obavu z vlivových operací od paranoidního
+prožívání a [komplexní PTSD](@/glossary/c-ptsd.md) od depresivní poruchy u izolovaných seniorů.
 
-**Aplikační pyramida**:
+## 6. Právní a institucionální rámec
 
-1. **Mezinárodní** — UDHR, ICCPR, CAT, CRPD, regionální (ECHR/ACHR/AfCHPR).
-2. **Nadnárodní** — EU acquis, Council of Europe (Istanbul Convention 2014).
-3. **Národní** — ústava, trestní zákoník, civilní zákoník, zákon o ochraně před násilím.
-4. **Sektorové** — zdravotnické (mental health acts), pracovní, mediální (online safety).
-5. **Lokální** — regionální/komunální opatření, ombudsman.
+Všechny tři státy jsou členy EU a Rady Evropy; uplatňují směrnici o právech obětí 2012/29/EU,
+nařízení o digitálních službách a GDPR (viz [EU právo — EA rámec](@/kompendium/international/21-EU-law-EA/index.md)).
+Omezení vysílání některých ruských stanic vychází z národních rozhodnutí i ze sankcí EU,
+které od roku 2022 zakazují šíření RT a Sputniku. Tato opatření otevírají otázky vztahu
+bezpečnosti a svobody projevu podle článku 10 Evropské úmluvy o lidských právech (viz
+[lidská práva](@/kompendium/international/29-human-rights-EA/index.md)). Trestní zákoníky
+všech tří zemí postihují nebezpečné pronásledování a domácí násilí; podrobnosti a stav
+ratifikace Istanbulské úmluvy se mezi nimi liší. Pro postavení cizinců a osob bez občanství
+viz [právo cizinců](@/kompendium/forensic-legal/42-immigration-EA.md).
 
-## 5. Cross-cultural considerations
+## 7. Modelová situace
 
-- **Etika prvního kontaktu**: respekt k autoritě (kolektivistické) vs. autonomie (individualistické).
-- **Rodinný systém**: zapojit/oddělit dle kulturních očekávání.
-- **Tlumočení**: certifikovaný medical interpreter, ne rodinný příslušník (conflict of interest).
-- **Stigma**: psychiatrická péče v některých kontextech kompromituje rodinnou čest.
-- **Náboženská citlivost**: chaplaincy, halal/kosher, modlitební prostor.
-- **Dokumentace**: pseudonymizace, ochrana svědka, mezinárodní transfery dat (GDPR Capítulo V).
+*Anonymizovaný kompozitní příklad.* Žena kolem čtyřiceti let, rusky mluvící, žije
+s dětmi v pobaltské metropoli. Její matka v Rusku jí při každém telefonátu opakuje, že
+„na Ukrajině nikdo neumírá“ a že ji „na Západě oblbli“. Hovory končí pláčem; žena začíná
+pochybovat o vlastním úsudku a zároveň se cítí podezřelá v zemi, kde žije. Psycholog
+nevyvrací matčina tvrzení a neřeší politiku. Pomáhá ženě oddělit vztah k matce od sporu
+o fakta, nastavit hranice hovorů ([nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md))
+a najít komunitu lidí s podobnou zkušeností. Cílem je, aby si zachovala vztah i vlastní
+úsudek.
 
-## 6. Cross-linky
+## 8. Meze a otevřené otázky
 
-- [Polsko — vzorce EA](../4-poland-EA/) — regional
-- [Balkán — vzorce EA](../5-balkan-EA/) — regional
-- [Ruský vliv — vzorce EA](../7-russian-influence-EA/) — regional
-- [Německo — vzorce EA](../8-german-EA/) — regional
-- [Francie — vzorce EA](../9-french-EA/) — regional
-- [Východní Asie — vzorce EA](../11-east-asian-EA/) — cross-cultural
-- [Blízký východ — vzorce EA](../13-middle-eastern-EA/) — cross-cultural
-- [Domorodé perspektivy EA](../16-indigenous-perspectives-EA/) — cross-cultural
-- [EU právo — EA rámec](../21-EU-law-EA/) — legal
-- [Česko-anglická terminologie EA](../31-cs-en-terminology/) — terminology
+Bezpečnostní rámec „hybridních hrozeb“ je oprávněný, ale může vést k tomu, že celá jazyková
+menšina bude vnímána jako riziko. To by samo bylo vzorcem
+[epistemické injustice](@/glossary/epistemicka-injustice.md). Otevřená zůstává otázka, jak
+měřit dopad informačních operací na duševní zdraví jednotlivce a jak oddělit legitimní
+politickou kritiku od koordinované kampaně (viz [riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
 
-## 7. Connect
+## Související
 
-- **Kompendium**: [Hub](../../) | [Úvod](../../02-uvod/) | [Základní kategorie](../../03-zakladni-kategorie/)
-- **Forenzně-právní bridge**: [forensic-legal/](../../forensic-legal/) — mezinárodní právní rámce v české aplikaci.
-- **Population Health**: [population-health/](../../population-health/) — globální disease burden EA.
-- **Cross-domain**: [cross-domain/](../../cross-domain/) — propojení s OSINT a CER doménami.
-- **Glossary bridges**: [glossary-bridges/](../../glossary-bridges/) — terminologické mosty napříč jazyky.
+**Sousední regiony**
 
----
+- [Ruský vliv — vzorce EA](@/kompendium/international/7-russian-influence-EA/index.md) –
+  zdroj většiny popsaných kampaní.
+- [Polsko — vzorce EA](@/kompendium/international/4-poland-EA/index.md) – sdílená zkušenost
+  s paktem z roku 1939 a s utajovanou historií.
+- [Česká republika — vzorce EA](@/kompendium/international/1-czech-rep-EA/index.md) – jiná
+  zkušenost se sovětskou mocí v tomtéž bloku.
 
-*International perspective — Estonsko, Lotyšsko, Litva — bucket: regional — weight 6.*
-*NMND + NCLB compliance: kulturně citlivé, právně dohledatelné, klinicky aplikovatelné.*
+**Historické případy**
+
+- [Sovětská aktivní opatření](@/kompendium/historical-cases/21-soviet-active-measures.md) –
+  historický předobraz hybridního působení.
+- [Internet Research Agency](@/kompendium/historical-cases/22-russian-ira.md) – příklad
+  organizované online operace.
+
+**Pojmy a praxe**
+
+- [Epistemická bezpečnost](@/glossary/epistemic-security.md) – rámec odolnosti na úrovni
+  společnosti.
+- [Info-ops](@/glossary/info-ops.md) – informační operace jako pojem.
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) –
+  ochrana před uzavřeným informačním prostorem.
+- [Česko-anglická terminologie EA](@/kompendium/international/31-cs-en-terminology/index.md)
+  – převod pojmů pro mezinárodní spolupráci.

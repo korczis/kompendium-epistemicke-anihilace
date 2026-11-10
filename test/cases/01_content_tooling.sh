@@ -19,6 +19,10 @@ python3 scripts/polish-markdown.py --check
 python3 scripts/normalize-front-matter.py >/dev/null
 python3 scripts/normalize-front-matter.py --check >/dev/null
 
+if [ -f scripts/ia-baseline.json ]; then
+  python3 scripts/check-ia.py >/dev/null   # the committed tree meets its own baseline
+fi
+
 # Seed a page that breaks the architecture: no description, no tags, no links, English.
 mkdir -p content/kompendium/case-01-fixture
 cat > content/kompendium/case-01-fixture/seeded.md <<'PAGE'
@@ -29,9 +33,6 @@ title = "Seeded"
 This page is written in English and it has none of the things the architecture requires.
 It exists only so that the gate has something to refuse, and the case removes it after.
 PAGE
-if [ -f scripts/ia-baseline.json ]; then
-  python3 scripts/check-ia.py >/dev/null   # the committed tree meets its own baseline
-fi
 if python3 scripts/check-ia.py >"$work/ia.out" 2>&1; then
   echo "check-ia passed a seeded violation"; cat "$work/ia.out"; exit 1
 fi

@@ -1,10 +1,12 @@
 +++
 title = "USA — EA právní rámec"
-description = "Mezinárodní perspektiva — USA federal + 50 států: kulturní, klinické a právní specifika EA."
+description = "Americké nástroje proti manipulaci a kontrole: federální a státní právo, delikty, obchodování s lidmi, meze První dodatku a historie sporů o „vymývání mozků“."
 weight = 25
+
 [taxonomies]
 tags = ["kompendium", "international", "legal"]
 categories = ["academic", "international"]
+
 [extra]
 parent = "kompendium-international"
 toc = true
@@ -12,88 +14,167 @@ toc = true
 
 # USA — EA právní rámec
 
-> **Region/jurisdikce**: USA federal + 50 států
-> **Bucket**: legal
-> **Doctrina**: NMND + NCLB — všechna tvrzení doložitelná, kulturní citlivost povinná.
+> **Jurisdikce**: Spojené státy americké (federace a padesát států) · **Oblast**: právní rámce
+> Stránka popisuje typické americké cesty k postihu manipulace a kontroly a jejich hranice.
+> Většina relevantního práva je státní a liší se stát od státu; proto zde zůstáváme
+> u federální úrovně, ústavních mezí a obecných institutů.
 
-## 1. Geografický a jurisdikční kontext
+## 1. Rozsah a povaha rámce
 
-Common law, Bill of Rights 1791, Constitutional protections, federalismus.
+Trestní právo je v USA převážně věcí jednotlivých států; federální právo zasahuje tam,
+kde jde o přeshraniční jednání, komunikaci mezi státy, obchodování s lidmi nebo
+imigraci. Řízení je kontradiktorní, často s porotou, a rozhodující roli hrají soudní
+precedenty. Celý systém navíc prostupuje **První dodatek** ústavy: chrání projev
+a náboženství silněji než evropské právo, a tím zužuje prostor, v němž lze manipulativní
+sdělení postihnout. Silnou vrstvou je naopak **deliktní právo** – civilní žaloby o náhradu
+škody bývají pro oběti realističtější cestou než trestní stíhání.
 
-Tato sekce mapuje **specifika USA federal + 50 států** v evropské/globální typologii EA (epistemic abuse / psychická manipulace s reality-distortion vektorem). Region je zahrnut do kompendia jako **referenční bod** pro klinickou, právní a forenzní praxi platformy Prismatic.
+## 2. Klíčové instituty a pojmy
 
-Historický kontext utvářel současné vzorce EA: kolektivní traumata, post-konfliktní dynamiky, právní transplantáty, kulturní idiomy distress.
+**Federální úroveň**
 
-## 2. Specifické EA vzorce v regionu
+- **Stalking (18 U.S.C. § 2261A)** – zahrnuje i elektronickou komunikaci, která u oběti
+  vyvolá důvodný strach nebo podstatnou emoční tíseň.
+- **Violence Against Women Act** (1994, opakovaně obnovovaný) – financování služeb,
+  uznávání ochranných příkazů mezi státy a ochrana imigrantek, které se staly oběťmi.
+- **Trafficking Victims Protection Act** (2000) – obchodování s lidmi pomocí „síly, podvodu
+  nebo donucení“. Donucení zahrnuje hrozbu vážné újmy, schéma, které má oběť přesvědčit
+  o takové hrozbě, i zneužití právního procesu. U nucené práce (18 U.S.C. § 1589) zahrnuje
+  vážná újma výslovně i újmu psychickou a finanční (viz [právo o obchodování](@/kompendium/forensic-legal/49-trafficking-law-EA.md)).
+- **Crime Victims' Rights Act** (2004) – práva obětí ve federálním trestním řízení.
+- **Elder Justice Act** (2010) – rámec pro ochranu seniorů a podporu služeb ochrany
+  dospělých (srov. [zneužívání seniorů](@/kompendium/forensic-legal/46-elder-abuse-law.md)).
 
-Federal: 18 U.S.C. §2261A (interstate stalking), VAWA 1994+; state-level varies (CA P.C. 646.9).
+**Delikty a civilní instituty**
 
-**Typologie regionálních EA vektorů:**
+- **Úmyslné způsobení citové újmy** – postihuje extrémní a pobuřující jednání, které
+  způsobí vážnou citovou tíseň.
+- **Podvod** a **nepřípustný vliv** v dědickém a smluvním právu – typicky domněnka
+  nepřípustného vlivu při vztahu důvěry a podezřelých okolnostech, například když
+  pečovatel nebo „poradce“ zprostředkuje změnu závěti ve svůj prospěch (viz
+  [doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)).
+- **Pomluva** – u veřejných činitelů vyžaduje od *New York Times v. Sullivan* (1964) důkaz
+  „skutečné zlovůle“, tedy vědomé nepravdy nebo bezohlednosti vůči pravdě
+  (viz [pomluva v EA kontextu](@/kompendium/forensic-legal/14-defamation-EA.md)).
 
-1. **Politicko-státní**: instrumentalizace státního aparátu (mediální, justiční, bezpečnostní složky).
-2. **Mediálně-platformní**: koncentrace mediálního vlastnictví, online harassment, koordinované smear.
-3. **Rodinně-komunitní**: klanové struktury, čestné systémy, gendered dynamics.
-4. **Ekonomicko-pracovní**: mobbing, koercitivní kontrola v zaměstnání, whistleblower retaliation.
-5. **Náboženskoidentitní**: sektářství, anti-konvert tlak, blasphemy zákony.
+**Coercive control.** Na federální úrovni samostatný trestný čin neexistuje. Některé státy
+v posledních letech doplnily [coercive control](@/glossary/coercive-control.md) do
+civilněprávních definic domácího násilí, hlavně pro ochranné příkazy a spory o péči
+o dítě; trestněprávní pojetí je výjimkou a vývoj je rychlý. Aktuální stav je nutné ověřit
+pro konkrétní stát.
 
-Každý vektor vyžaduje **kulturně senzitivní detekci** — universalistický model selhává.
+## 3. Jak rámec zachycuje EA
 
-## 3. Klinické aplikace v regionu
+**Meze Prvního dodatku.** Podněcování je trestné jen tehdy, když směřuje k bezprostřednímu
+protiprávnímu jednání a je k němu způsobilé (*Brandenburg v. Ohio*, 1969). Nepravdivá
+tvrzení jako taková chráněna jsou (*United States v. Alvarez*, 2012). Skutečné výhrůžky
+chráněny nejsou; Nejvyšší soud v *Counterman v. Colorado* (2023) vyžaduje alespoň
+bezohlednost mluvčího vůči výhrůžnému charakteru sdělení. [Gaslighting](@/glossary/gaslighting.md),
+[propaganda](@/glossary/propaganda.md) nebo konspirační kampaně jsou tak právně uchopitelné
+hlavně přes následky – škodu, pomluvu, výhrůžku, podvod.
 
-HIPAA 1996, ADA 1990, Mental Health Parity Act 2008, involuntary commitment per state (LPS Act CA).
+**Platformy.** § 230 zákona o slušnosti komunikace (1996) chrání poskytovatele před
+odpovědností za obsah uživatelů. Koordinované útoky ([mob coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md))
+proto obvykle končí u jednotlivých autorů, pokud je lze identifikovat.
 
-**Klinické rozhraní EA v regionu** zahrnuje:
+**„Vymývání mozků“ před soudem.** Americké soudy se s teorií donucovacího přesvědčování
+setkávaly opakovaně a výsledky jsou poučné:
 
-- **Skríning**: kulturně adaptované nástroje (např. PCL-5 lokalizovaný, ITQ pro cPTSD ICD-11).
-- **Diagnostika**: pozor na cultural concepts of distress (DSM-5 CFI, ICD-11 přílohy).
-- **Léčba**: trauma-informed care, kulturně-citlivá psychoterapie, peer support.
-- **Forensika**: znalecký posudek dle lokálních standardů, Istanbul Protocol pro mučení.
+- obhajoba Patricie Hearstové (1976), založená na tvrzení o vymytí mozku po únosu, neuspěla;
+- Nejvyšší soud Kalifornie v *Molko v. Holy Spirit Association* (1988) připustil žalobu
+  pro podvod proti hnutí, které při náboru zatajovalo svou identitu, odmítl však
+  přezkoumávat samotné náboženské učení (srov. [Moonies](@/kompendium/historical-cases/19-moonies.md));
+- federální soud v *United States v. Fishman* (1990) nepřipustil znalecké svědectví
+  o donucovacím přesvědčování, protože nebylo v oboru obecně přijímáno;
+- [NXIVM](@/kompendium/historical-cases/18-nxivm.md) skončilo odsouzením vůdce v roce 2019
+  mimo jiné za trestné činy podle federálního zákona o organizovaném zločinu (*racketeering*),
+  obchodování s lidmi za účelem sexuálního vykořisťování a spiknutí k nucené práci – tedy přes konkrétní delikty, nikoli přes pojem manipulace.
 
-Platforma Prismatic poskytuje **adapter-based přístup** — konkrétní region má vlastní configuration profile (terminologie, právní reference, hlášení autoritám).
+Ponaučení: americké právo postihuje [uzavřené skupiny](@/glossary/high-control-group.md)
+tehdy, když lze doložit klam, vykořisťování nebo násilí, ne samotnou změnu přesvědčení.
 
-## 4. Právní rámec
+## 4. Dokazování a forenzní praxe
 
-O'Connor v. Donaldson 422 U.S. 563 (1975), Foucha v. Louisiana 504 U.S. 71.
+Federální soudy a většina států posuzují znalecké důkazy podle *Daubert v. Merrell Dow*
+(1993) a pravidla 702 federálních pravidel o důkazech; některé státy dosud užívají starší
+test obecného přijetí (*Frye*, 1923). Znalec k dynamice domácího násilí nebo kontroly proto
+musí opírat výpověď o metodu, nikoli o osobní přesvědčení (viz
+[znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md)). Pravidlo 404(b) omezuje
+důkazy o jiných skutcích k prokázání povahy obviněného, ale připouští je mimo jiné
+k prokázání úmyslu, plánu nebo vyloučení omylu – to je procesní brána pro [pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md).
 
-**Aplikační pyramida**:
+Historie 80. let varuje před opačnou chybou: sugestivní výslechy dětí v kauzách
+[satanské paniky](@/kompendium/historical-cases/38-satanic-panic.md) vedly k obviněním,
+která se nepotvrdila. Strukturované protokoly forenzního rozhovoru vznikly i jako reakce
+na tuto zkušenost (viz [forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md)
+a [sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md)).
 
-1. **Mezinárodní** — UDHR, ICCPR, CAT, CRPD, regionální (ECHR/ACHR/AfCHPR).
-2. **Nadnárodní** — EU acquis, Council of Europe (Istanbul Convention 2014).
-3. **Národní** — ústava, trestní zákoník, civilní zákoník, zákon o ochraně před násilím.
-4. **Sektorové** — zdravotnické (mental health acts), pracovní, mediální (online safety).
-5. **Lokální** — regionální/komunální opatření, ombudsman.
+V civilních sporech umožňuje rozsáhlé předprocesní dokazování (*discovery*) a výpovědi
+pod přísahou získat komunikaci a finanční záznamy (srov. [místopřísežná výpověď](@/kompendium/forensic-legal/24-deposition-EA.md)).
 
-## 5. Cross-cultural considerations
+## 5. Ochrana oběti a procesní práva
 
-- **Etika prvního kontaktu**: respekt k autoritě (kolektivistické) vs. autonomie (individualistické).
-- **Rodinný systém**: zapojit/oddělit dle kulturních očekávání.
-- **Tlumočení**: certifikovaný medical interpreter, ne rodinný příslušník (conflict of interest).
-- **Stigma**: psychiatrická péče v některých kontextech kompromituje rodinnou čest.
-- **Náboženská citlivost**: chaplaincy, halal/kosher, modlitební prostor.
-- **Dokumentace**: pseudonymizace, ochrana svědka, mezinárodní transfery dat (GDPR Capítulo V).
+- Ochranné příkazy vydávají státní soudy; VAWA zajišťuje jejich uznání v ostatních
+  státech.
+- Imigrantky, které partner ovládá hrozbou deportace, mohou za stanovených podmínek
+  podat žádost o pobyt samy, bez součinnosti pachatele; oběti obchodování s lidmi
+  a vybraných trestných činů mají zvláštní víza (srov. [právo cizinců](@/kompendium/forensic-legal/42-immigration-EA.md)).
+- Státy mají vlastní listiny práv obětí, často zakotvené v ústavách.
+- Povinné hlášení se liší podle státu i profese (viz [povinné hlášení](@/kompendium/forensic-legal/40-mandatory-reporting-state.md)).
 
-## 6. Cross-linky
+## 6. Mezery a kritika
 
-- [Německo — EA právní rámec](../23-german-law-EA/) — legal
-- [UK — EA právní rámec](../24-uk-law-EA/) — legal
-- [Kanada — EA právní rámec](../26-canadian-law-EA/) — legal
-- [Austrálie — EA právní rámec](../27-australian-law-EA/) — legal
-- [Mezinárodní trestní právo — EA](../28-international-criminal-EA/) — legal
-- [Prevence genocidy — EA](../30-genocide-prevention-EA/) — legal
-- [Česko-německá terminologie EA](../32-cs-de-terminology/) — terminology
-- [Mezinárodní právní terminologie EA](../35-legal-terminology-international/) — terminology
-- [Česká republika — vzorce EA](../1-czech-rep-EA/) — regional
-- [Východní Asie — vzorce EA](../11-east-asian-EA/) — cross-cultural
+- **Fragmentace.** Ochrana oběti závisí na tom, v kterém státě žije.
+- **Projev a náboženství.** Silná ústavní ochrana omezuje postih manipulativních sdělení
+  a činnosti náboženských skupin (viz [náboženské výjimky](@/kompendium/forensic-legal/48-religious-exemption-EA.md)).
+- **Svépomoc nad rámec práva.** Násilné „deprogramování“ v 70. a 80. letech vedlo
+  k trestním i civilním sporům; žaloba proti organizaci, která zprostředkovala kontakt
+  na deprogramátora, skončila v 90. letech jejím bankrotem (viz [právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md)).
+- **Riziko nadužití pojmů.** Nálepky „kult“ nebo „manipulace“ mohou v rodinných sporech
+  sloužit jako zbraň (srov. [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)).
 
-## 7. Connect
+## 7. Modelová situace
 
-- **Kompendium**: [Hub](../../) | [Úvod](../../02-uvod/) | [Základní kategorie](../../03-zakladni-kategorie/)
-- **Forenzně-právní bridge**: [forensic-legal/](../../forensic-legal/) — mezinárodní právní rámce v české aplikaci.
-- **Population Health**: [population-health/](../../population-health/) — globální disease burden EA.
-- **Cross-domain**: [cross-domain/](../../cross-domain/) — propojení s OSINT a CER doménami.
-- **Glossary bridges**: [glossary-bridges/](../../glossary-bridges/) — terminologické mosty napříč jazyky.
+*Anonymizovaný kompozitní příklad.* Žena, která přišla do USA za manželem, nemá vlastní
+příjem ani přístup k dokladům. Manžel jí opakuje, že bez něj bude „okamžitě vyhoštěna“,
+že policie věří jen občanům a že její vzpomínky na hádky jsou „přehnané“. Lékařka si všimne
+opakovaných úzkostných stavů a zeptá se na bezpečí. Poradna pro oběti domácího násilí ženě
+s tlumočnicí vysvětlí, že její pobyt na manželovi nemusí záviset, a pomůže kontaktovat
+imigrační advokátku. Souběžně se připravuje ochranný příkaz a bezpečnostní plán podle
+[DV protokolu](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md). Klíčovým
+okamžikem je oprava právní dezinformace, na níž kontrola stála.
 
----
+## 8. Doporučení pro praxi
 
-*International perspective — USA federal + 50 států — bucket: legal — weight 25.*
-*NMND + NCLB compliance: kulturně citlivé, právně dohledatelné, klinicky aplikovatelné.*
+1. Nejprve určete stát a federální prvek; teprve pak hledejte instituty.
+2. Překládejte manipulaci do následků: škoda, klam, výhrůžka, vykořisťování.
+3. U znalců počítejte s testem metody a připravte literaturu, o niž se opírají.
+4. Chraňte výpověď dětí a zranitelných dospělých před sugescí.
+5. Prověřte imigrační ochranu u obětí, jejichž pobyt kontroluje pachatel.
+6. Opatrně se slovem „vymývání mozků“: soudy jej jako vědecký pojem obvykle nepřijímají.
+
+## Související
+
+**Právní rámce**
+
+- [Kanada — EA právní rámec](@/kompendium/international/26-canadian-law-EA/index.md) –
+  sousední common law systém s jiným pojetím svobody projevu.
+- [UK — EA právní rámec](@/kompendium/international/24-uk-law-EA/index.md) – kriminalizace
+  kontroly, kterou federální právo USA nezná.
+
+**Historické případy**
+
+- [NXIVM](@/kompendium/historical-cases/18-nxivm.md) – postih skupiny přes konkrétní delikty.
+- [Satanic Panic](@/kompendium/historical-cases/38-satanic-panic.md) – varování před
+  sugestivním dokazováním.
+- [Jonestown](@/kompendium/historical-cases/11-jonestown.md) – extrémní případ, který
+  formoval americkou debatu o skupinách.
+
+**Právo a praxe**
+
+- [Právo o obchodování s lidmi](@/kompendium/forensic-legal/49-trafficking-law-EA.md) –
+  donucení bez řetězů.
+- [Právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md)
+  – etické a právní meze zásahu.
+- [Poučení poroty](@/kompendium/forensic-legal/30-jury-instruction-EA.md) – jak porotě
+  vysvětlit dynamiku kontroly.

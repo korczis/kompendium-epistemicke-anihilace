@@ -1,10 +1,12 @@
 +++
 title = "Populační dopad linek pomoci"
-description = "Populační zdraví a prevence — Měření efektivity helplinek pro oběti manipulace a kultů na populační úrovni."
+description = "Krizové a specializované linky pomoci pro lidi zasažené manipulací, kontrolou a uzavřenými skupinami: funkce, bezpečnost volajících, jak měřit dopad a proč je to tak obtížné."
 weight = 200
+
 [taxonomies]
 tags = ["kompendium", "population-health", "interventions"]
 categories = ["academic", "public-health"]
+
 [extra]
 related_terms = ["18-public-awareness-campaign", "19-bystander-intervention-training", "21-EA-public-policy-framework", "22-regulatory-approach-EA"]
 parent = "kompendium-population-health"
@@ -13,79 +15,131 @@ toc = true
 
 # Populační dopad linek pomoci
 
-> Měření efektivity helplinek pro oběti manipulace a kultů na populační úrovni.
+> Linka pomoci je často prvním místem, kde člověk nahlas řekne, co se mu děje – anonymně,
+> bez objednání a bez závazku. Pro lidi, kterým epistemický útok vzal důvěru ve vlastní
+> vnímání, je to někdy jediný bezpečný způsob, jak si ho ověřit.
 
-## Populační kontext
+## Vymezení a cíl
 
-Populační zdraví v kontextu epistemických útoků (EA) představuje rámec, který přesahuje individuální
-klinickou perspektivu. Tato studie (Populační dopad linek pomoci) sleduje populační vzorek **N = 7,418** subjektů
-ve sledovacím období **13 měsíců**.
+**Linky pomoci** (telefonické, chatové, e-mailové) poskytují okamžitý, anonymní a nízkoprahový
+kontakt. Pro oblast EA jsou relevantní tři typy:
 
-EA jako veřejnozdravotní problém vyžaduje rámec srovnatelný s infekční epidemiologií:
-expozice → latence → manifestace → komplikace → reziduální dopad.
+- **obecné krizové linky** – pro kohokoli v akutní psychické nouzi; v Česku například Linka
+  první psychické pomoci (116 123) a pro děti a dospívající Linka bezpečí (116 111); při
+  bezprostředním ohrožení života tísňové číslo 112 nebo 155;
+- **specializované linky** – pro oběti domácího násilí, obchodování s lidmi, podvodů,
+  pro seniory;
+- **poradenské linky pro otázky uzavřených skupin** – pro současné a bývalé členy a jejich
+  rodiny; v mnoha zemích je provozují nezávislé informační organizace.
 
-## Klíčové parametry / data
+Funkce linky jsou: **krizová intervence** (zvládnutí akutního stavu), **validace a ukotvení**
+(„to, co popisujete, má jméno a není to vaše chyba“), **informace**, **odkaz** na navazující
+služby a u některých linek **opakovaný kontakt**. Pro EA je zvlášť důležitá druhá funkce:
+nezávislý hlas, s nímž lze porovnat vlastní vnímání
+([akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)).
 
-| Metrika | Hodnota | 95% CI |
+## Úroveň prevence a cílová populace
+
+Linky pokrývají sekundární a terciární prevenci: lidi v probíhající expozici, v krizi po ní
+a jejich blízké. Volající z okolí (rodiče, partneři, přátelé) tvoří u témat uzavřených skupin
+významnou část kontaktů; linka je tak i nástrojem [svědecké intervence](@/kompendium/population-health/19-bystander-intervention-training.md).
+
+## Specifika práce s EA na lince
+
+- **Volající pochybuje o vlastním vnímání.** Typická úvodní věta: „Možná si to jen
+  vymýšlím…“ Operátor nevynáší soudy o třetích osobách, ale bere vážně popis zkušenosti
+  a pomáhá ho strukturovat ([kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md),
+  [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)).
+- **Bezpečnost hovoru.** Kontrolující osoba může sledovat telefon nebo historii prohlížeče;
+  operátor se ptá, zda je bezpečné mluvit, a web linky má tlačítko rychlého odchodu.
+- **Rozpoznání akutního rizika** – suicidální myšlenky, násilí, ohrožení dětí – a jasný postup
+  ([krizová linka v EA-emergency](@/kompendium/emergency-protocols/17-crisis-hotline-EA.md),
+  [akutní suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)).
+- **Neutralita vůči přesvědčení.** Operátor nehodnotí víru ani politický názor; zaměřuje se na
+  kontrolu, strach, izolaci a bezpečí.
+- **Odkaz bez ztráty.** Nejrizikovějším místem je předání – volající, který jednou sebral
+  odvahu, nemusí podruhé zavolat jinam. Pomáhá „teplé předání“ nebo domluvený zpětný kontakt.
+
+## Rizika a nežádoucí účinky
+
+- **Nedostupnost.** Nepřijatý hovor může potvrdit přesvědčení, že „pomoc neexistuje“ – tedy
+  přesně to, co tvrdí kontrolující osoba nebo skupina.
+- **Necitlivá odpověď.** Operátor, který nezná vzorce EA, může volajícího nevědomky
+  zpochybnit („Jste si jistý, že to tak bylo?“) a zopakovat [gaslighting](@/glossary/gaslighting.md).
+- **Linky s vlastní agendou.** Linka provozovaná organizací s ideologickým nebo komerčním
+  zájmem (včetně skupin, které samy nabízejí „pomoc“ odcházejícím) může volajícího vést
+  k další závislosti; nezávislost provozovatele je proto kritériem kvality.
+- **Únik dat.** Záznamy hovorů a metadata jsou citlivé
+  ([anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)).
+- **Zátěž operátorů.** Opakované hovory s lidmi v dlouhodobé expozici jsou emočně náročné;
+  supervize je nutnost ([supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)).
+
+## Jak měřit dopad
+
+Linky jsou anonymní, a proto se jejich účinek měří obtížně. Používané úrovně:
+
+| Úroveň | Ukazatel | Omezení |
 |---|---|---|
-| Bodová prevalence | **18.17%** | [14.9, 21.44] |
-| Incidence (na 100k/rok) | **61** | — |
-| Velikost účinku (Cohen's d) | **1.08** | — |
-| Odds ratio (vs. kontrola) | **4.22** | — |
-| NNT (number needed to treat) | **40** | — |
-| Pokrytí intervence | **40%** | — |
-| Drop-out | **8.69%** | — |
-| Náklady na obyvatele | **23 EUR/rok** | — |
+| Dostupnost | Podíl přijatých hovorů, čekací doba | Neříká nic o kvalitě |
+| Dosah | Počet a struktura kontaktů, regiony, věk | Volající se identifikují jen částečně |
+| Okamžitý účinek | Změna tísně během hovoru (hodnocení operátora, krátký dotaz na konci) | Krátkodobé, zkreslené ochotou odpovědět |
+| Navazující péče | Podíl volajících, kteří kontaktovali doporučenou službu (zpětný kontakt se souhlasem) | Malý a vybraný vzorek |
+| Kvalita | Hodnocení záznamů podle standardů, tichý monitoring se souhlasem | Etické a organizační nároky |
+| Populační účinek | Ekologické srovnání regionů nebo období | Mnoho dalších vlivů, slabá kauzalita |
 
-Vzorek je stratifikován podle věku (18-29, 30-44, 45-64, 65+), genderu, urbanizace
-a socioekonomického statusu (5 kvintilů).
+U obecných krizových linek existují studie, které ukazují pokles tísně během hovoru a po něm;
+důkazy o vlivu na populační míru sebevražd jsou nejednoznačné. U specializovaných linek pro EA
+systematická evaluace téměř chybí. Smysl linky proto nelze odvozovat z „populačního dopadu“
+v úzkém smyslu – je součástí sítě služeb a její hodnota spočívá i v tom, že existuje.
 
-## Implementační rámec
+Kontakty na linky slouží také jako **surveillance signál**: nové téma nebo skupina se často
+objeví nejdřív v hovorech. Interpretace však musí zohlednit vliv kampaní a mediální
+pozornosti ([kampaně veřejné informovanosti](@/kompendium/population-health/18-public-awareness-campaign.md),
+[časové řady](@/kompendium/research-methodology/time-series-EA.md)).
 
-1. **Detekce a screening** — populační nástroj s validovanou citlivostí ≥ 0.82.
-2. **Stratifikace rizika** — risk-stratified outreach s prioritizací top decilu.
-3. **Intervenční kaskáda** — stepped care: psychoedukace → krátká intervence → specializovaná péče.
-4. **Datový sběr** — kontinuální monitoring přes integrovaný platformový sběr.
-5. **Evaluace** — předem registrovaná protokol, primární a sekundární endpointy.
+## Modelová situace
 
-**Framework hook (Prismatic)**: Intervence integruje s `PrismaticHelpline` modulem a `Academy` learning loop. M5M doctrine vynucuje task decomposition; každá intervenční session má max 5 minut. Telemetrie přes `:telemetry.span` (OTEL pillar).
+Operátorka chatové linky mluví s dívkou, která píše, že „asi dělá z komára velblouda“: přítel
+jí čte zprávy, rozhoduje, s kým se může vídat, a když se ohradí, tvrdí, že je hysterická.
+Operátorka nejprve ověří, zda je dívka v bezpečí a zda přítel nevidí její obrazovku. Pak
+shrne, co dívka popsala, a pojmenuje, že kontrola zpráv a omezování kontaktů nejsou běžnou
+součástí vztahu. Nabídne kontakt na specializovanou poradnu a domluví se, že pokud dívka
+bude chtít, může se na chat vrátit a operátorka si případ (bez osobních údajů) poznamená.
 
-## Indikátory úspěchu
+## Kontrolní otázky pro praxi
 
-- **Primární endpoint**: redukce incidence EA o ≥ 20% za 13 měsíců.
-- **Sekundární endpointy**: zlepšení mediální gramotnosti (Cohen's d ≥ 1.08),
-  snížení time-to-help-seeking o ≥ 30%, redukce komorbidit.
-- **Procesní indikátory**: pokrytí ≥ 40%, drop-out ≤ 8.69%,
-  cost-per-capita ≤ 23 EUR.
-- **Equity indikátory**: redukce socioekonomického gradientu výsledků.
+- Ověřuje operátor na začátku, zda je pro volajícího bezpečné mluvit?
+- Zná operátor vzorce EA natolik, aby volajícího nevědomky nezpochybnil?
+- Je provozovatel linky nezávislý na skupinách a zájmech, o nichž se volá?
+- Existuje teplé předání nebo zpětný kontakt k navazující službě?
+- Mají operátoři pravidelnou supervizi?
 
-## Limitace
+## Limitace a otevřené otázky
 
-- **Selekční bias** — samoselekce subjektů snižuje externí validitu.
-- **Měřící bias** — self-report instrumenty pro EA nejsou plně validovány napříč jazyky.
-- **Konfaundace** — nepozorované proměnné (sociální podpora, baseline kognitivní rezerva).
-- **Ekologická chyba** — populační vzorce nemusí platit individuálně.
-- **Časová stabilita** — EA fenomenologie evolves with platform changes; pětileté projekce nejisté.
+- Anonymita, která je silou linek, znemožňuje dlouhodobé sledování výsledků.
+- Financování je často krátkodobé a projektové; přerušení provozu poškozuje důvěru.
+- Otevřená otázka: jak školit operátory obecných linek v rozpoznání EA, aniž by se každý
+  vztahový konflikt začal interpretovat jako manipulace?
 
-## Cross-linky
+## Související
 
-- [05-ultramari-techniky](../05-ultramari-techniky/_index.md)
-- [06-klinicke-aplikace](../06-klinicke-aplikace/_index.md)
-- [07-teoreticke-reflexe](../07-teoreticke-reflexe/_index.md)
-- [08-prilohy](../08-prilohy/_index.md)
-- [case-studies](../case-studies/_index.md)
-- [detection-signatures](../detection-signatures/_index.md)
-- [emergency-protocols](../emergency-protocols/_index.md)
-- [forensic-legal](../forensic-legal/_index.md)
-- [glossary-bridges](../glossary-bridges/_index.md)
-- [organizational-defense](../organizational-defense/_index.md)
-- [quick-reference](../quick-reference/_index.md)
+**Sesterské stránky**
 
+- [Kampaně veřejné informovanosti](@/kompendium/population-health/18-public-awareness-campaign.md) – jak lidé o lince vědí.
+- [Politika duševního zdraví a EA](@/kompendium/population-health/27-mental-health-policy-EA.md) – kde jsou linky v systému.
+- [Odhady prevalence](@/kompendium/population-health/01-EA-prevalence-estimates.md) – proč data linek nejsou prevalence.
 
-## Connect footer
+**Akutní péče a zotavení**
 
-- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
-- **API**: `GET /api/v1/epi/ea/helpline-population-impact` (auto-introspecting)
-- **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
-- **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine
+- [Rozpoznání EA pro dispečink 112](@/kompendium/emergency-protocols/16-911-EA-recognition.md) – návaznost na tísňové služby.
+- [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) – první krok po kontaktu.
+- [Akutní krize protokol](@/kompendium/techniques/ea-6-5-1-akutni-krize-protokol.md) – klinický postup.
+
+**Obrana**
+
+- [Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – jak si říct o pomoc.
+
+**Glosář**
+
+- [Reality testing](@/glossary/reality-testing.md) – co linka pomáhá obnovit.
+- [Retraumatizace](@/glossary/retraumatizace.md) – riziko necitlivé odpovědi.

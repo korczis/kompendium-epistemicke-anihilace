@@ -1,10 +1,12 @@
 +++
-title = "Pripad 30-music-conservatory-coercion: Coercion v hudebnim konzervatori"
-description = "Anonymizovana pripadova studie — Coercion v hudebnim konzervatori. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 30: Nátlak na hudební konzervatoři"
+description = "Kompozitní studie hudebně nadaného dítěte, jehož pedagog od deseti let ovládal cvičení, tělo i identitu. Zranění z přetížení, obvinění ze „zrady“ a obnova vztahu k hudbě."
 weight = 30
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["28-academic-philosophy-cult", "29-art-school-totalization", "31-elite-prep-school", "32-graduate-program-totalization"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,134 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 30-music-conservatory-coercion: Coercion v hudebnim konzervatori
+# Případ 30: Nátlak na hudební konzervatoři
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z několika průběhů v hudebním vzdělávání. Nástroj, škola, země a
+> osoby jsou změněny. Protože expozice začala v dětství, je studie psána s ohledem na ochranu
+> dětí a vynechává detaily výuky, které by mohly být zneužity.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 30-music-conservatory-coercion reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **elitni hudebni konzervatoř s dlouhou hierarchickou linií mistr-zak; kontrola nástrojové techniky, repertoáru, ucasti na soutězích**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **elitní hudební vzdělávání s dlouhou hierarchickou linií mistr–žák**, v níž
+pedagog kontroluje techniku, repertoár i účast na soutěžích. Intenzivní cvičení a náročný
+pedagog k vrcholové hudbě patří. Totalizace nastává, když pedagog převezme **celou výchovu
+dítěte** a hudba se stane jediným zdrojem hodnoty, takže selhání v ní znamená selhání jako
+člověk.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Dítě bylo s mimořádným talentem přijato do přípravné třídy v deseti letech; rodiče pedagoga
+požádali, aby „převzal odpovědnost“. Expozice trvala sedm let.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **10-leté ditě s mimoradny talentem prijate do prepripravne tridy; pedagog poveren rodicemi 'prevzít odpovednost'**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstup **nebyl volbou dítěte**, ale rodiny, která v pedagogovi viděla záruku budoucnosti. Pedagog
+s velkou pověstí přijal dítě jako „investici“ a rodiče mu svěřili rozhodování o rozvrhu, prázdninách
+i kamarádech. Pro dítě byl pedagog zároveň autoritou, náhradním rodičem a soudcem jeho hodnoty.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | denne 6-8 hod cviceni pod dohledem, telesna manipulace s ruční techniku 'pro spravne drzeni', psychická humiliace pri chybach |
-| **Konsolidace** | roky 2-5 | hudba = identita, žadne mimo-hudobni vztahy, soutezni úspěch jediny barometer hodnoty, stigma 'zradila/zradil ucitelovou investici' pri pochybnostech |
-| **Detekce / spousteci udalost** | promenna | fyzicke zraneni z pretizeni (focal dystonia) v 17 letech znemoznilo hru; ucitelova reakce - obvinění ze 'zrady' |
-| **Exit / rekonstrukce** | rok 5+ | rehabilitace, transfer k jinemu pedagogu (pluralni evropsky model), terapie zamerena na perfomance trauma |
+| **Počáteční kontakt** | rok 1 | Přijetí do přípravné třídy, pocit výjimečnosti, nadšení rodičů |
+| **Perturbace** | roky 1–2 | Omezení her a kroužků, hudba jako jediný smysl dne |
+| **Eskalace** | roky 2–5 | 6–8 hodin cvičení denně pod dohledem, fyzické korekce držení, ponižování za chyby |
+| **Konsolidace** | roky 5–7 | Hudba = identita, žádné vztahy mimo hudbu, soutěžní úspěch jako jediné měřítko, stigma „zrady učitelovy investice“ |
+| **Detekce** | věk 17 | Zranění z přetížení (fokální dystonie) znemožní hru; pedagog reaguje obviněním ze „zrady“ |
+| **Odchod a rekonstrukce** | věk 17+ | Rehabilitace, přechod k jinému pedagogovi s pluralitním přístupem, terapie zaměřená na trauma z vystupování |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)
+  – fyzické korekce jako trvalé vepsání autority do těla.
+- [EA-1.4.1 Prozodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) –
+  hlasová autorita pedagoga během lekce.
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  pedagog jako strážce „správné“ interpretační linie.
+- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) – ruka a
+  tělo odděleny od já jako „nástroj techniky“.
+- [EA-5.3.39 Antiindividuační půst](@/kompendium/techniques/ea-5-3-39-anti-individuacni-pust.md)
+  – potlačení vlastní interpretace ve prospěch „školy“.
 
-- [EA-1.5.2 Dominantni telesne hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) — telesna manipulace nastrojem
-- [EA-1.4.1 Prosodicka dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) — kantorova hlasova autorita pri lekci
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — učitel jako strazce 'spravne' interpretacni linie
-- [EA-5.3.4 Telesna disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) — ruka/telo separovano od self do 'nastroje techniky'
-- [EA-5.3.39 Anti-individuacni pust](@/kompendium/techniques/ea-5-3-39-anti-individuacni-pust.md) — potlaceni individualni interpretace ve prospech 'skoly'
+Odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md). Protože začala v dětství, ovlivnila
+expozice samotný vývoj [narativní identity](@/glossary/narativni-identita.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **panická úzkost před publikem přetrvávající i po letech, tinnitus z přetížení a
+tělesně prožívaná vina při „nedostatečném“ cvičení**. Mladý hudebník popisoval, že necvičení
+den prožíval jako morální selhání, a bolest ruky dlouho skrýval, protože bolest znamenala slabost.
+Typické bylo [interoceptivní rozpojení](@/kompendium/techniques/ea-5-5-12-interoceptivni-rozpojeni.md)
+a [emocionální otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)
+vůči hudbě samé – hrál bez radosti, jen bez chyb.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **panicka uzkost pred publikem i po letech, tinitus z pretizeni, somatizovana vina pri 'nedostatecnem' cviceni**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+V sedmnácti letech **zranění z přetížení** (fokální dystonie) znemožnilo hru. Pedagog reagoval
+obviněním, že žák „zradil jeho investici“ a že dystonie je důsledkem nedostatku disciplíny.
+Neuroložka a fyzioterapeutka mu vysvětlily, že jde o známé onemocnění hudebníků spojené mimo
+jiné s přetížením. Rozpor mezi lékařským vysvětlením a pedagogovou obžalobou viděli poprvé i
+rodiče – a to bylo rozhodující, protože bez nich odchod nebyl možný.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+Postup kombinoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+s [protokolem pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md):
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+- **S1 – Validace a mapování:** rehabilitace, uznání bolesti; rodinná sezení o tom, jak se
+  rozhodování přesunulo na pedagoga.
+- **S2 – Externalizace introjektů:** pedagogovy věty („bez bolesti není umění“, „zradil jsi
+  mě“) odděleny od vlastního hlasu.
+- **S3 – Rekonstrukce metakognice:** [somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md)
+  a obnova schopnosti hodnotit vlastní hru vlastním uchem.
+- **S4 – Hermeneutická obnova:** nový pedagog s pluralitním přístupem, vlastní interpretace.
+- **S5 – Konsolidace a transfer:** rozhodnutí, zda a jak dál s hudbou – jako profese, nebo
+  záliba.
 
-V této kohorte fungoval detecni bod nasledovne: fyzicke zraneni z pretizeni (focal dystonia) v 17 letech znemoznilo hru; ucitelova reakce - obvinění ze 'zrady'. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Přetrvávalo **trvalé poškození techniky, potřeba znovu vybudovat vztah k hudbě a finanční dluhy
+za soukromé lekce**. Mladý muž popisoval, že nejtěžší bylo zjistit, kým je bez nástroje;
+identitu musel budovat v dospívání podruhé. Rodina prošla vlastní prací s vinou.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **elitni hudebni konzervatoř s dlouhou hierarchickou linií mistr-zak; kontrola nástrojové techniky, repertoáru, ucasti na soutězích**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Náročné, ale zdravé hudební vzdělávání:** vysoké nároky s respektem k tělu, odpočinku a
+  vztahům mimo hudbu.
+- **Úzkost z vystupování bez EA:** běžná u hudebníků; zde vázaná na traumatický vztah.
+- **Perfekcionismus jako osobnostní rys:** srovnej [perfekcionismus](@/glossary/perfekcionismus.md);
+  zde byl vnucen zvenčí v dětství.
+- **[Complex trauma](@/glossary/complex-trauma.md):** dlouhodobá expozice v dětství může vést ke
+  komplexní traumatizaci.
 
-V této kohorte bylo specifické: rehabilitace, transfer k jinemu pedagogu (pluralni evropsky model), terapie zamerena na perfomance trauma. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+U nezletilých má přednost [ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md);
+fyzické tresty a ponižování mohou být předmětem sociálně-právní ochrany dětí a v závažných
+případech trestního řízení. Školy podléhají zákonu č. 561/2004 Sb., školskému zákonu. Rodičovská
+delegace odpovědnosti na pedagoga nezbavuje rodiče jejich povinností.
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: trvale poskozeni techniky, nutnost rekonstruovat vztah k hudbe, financni delky za soukrome lekce. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Prevence stojí na **pluralitě dospělých kolem dítěte**: druhý pedagog, lékař se zkušeností s
+hudebníky, kamarádi mimo hudbu. Rodiče by měli sledovat, zda dítě smí mluvit o bolesti a únavě a
+zda má i jiný zdroj hodnoty než výkon. Školy pomáhají [rotací rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
+a nezávislým hodnocením.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit nehodnotí tradici mistrovské výuky jako celek. Otevřená zůstává otázka, jak spojit
+intenzitu, kterou vrcholová hudba vyžaduje, s ochranou dětí, aniž by se jedno obětovalo druhému.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [narrative-trauma](@/glossary/narrative-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md), [EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-5.3.4](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md), [EA-5.3.39](@/kompendium/techniques/ea-5-3-39-anti-individuacni-pust.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 29 – totalizace na umělecké škole](@/kompendium/case-studies/29-art-school-totalization.md),
+  [Případ 43 – totalizace ve vrcholovém sportu](@/kompendium/case-studies/43-elite-sports-totalizace.md),
+  [Případ 31 – elitní přípravná škola](@/kompendium/case-studies/31-elite-prep-school.md).
+- **Glosář:** [body schema](@/glossary/body-schema.md); [c-ptsd](@/glossary/c-ptsd.md).
+- **Krize:** [Děti v EA-emergency](@/kompendium/emergency-protocols/21-children-emergency-EA.md).
+- **Obnova:** [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

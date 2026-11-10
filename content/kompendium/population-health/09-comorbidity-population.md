@@ -1,10 +1,12 @@
 +++
 title = "Populační komorbidity EA"
-description = "Populační zdraví a prevence — Souběžný výskyt EA s úzkostí, depresí, PTSD a dalšími syndromy."
+description = "Souběžný výskyt následků epistemických útoků s traumatem, depresí, úzkostí, disociací a závislostmi: směry vztahu, zkreslení klinických vzorků a důsledky pro péči."
 weight = 90
+
 [taxonomies]
 tags = ["kompendium", "population-health", "epidemiology"]
 categories = ["academic", "public-health"]
+
 [extra]
 related_terms = ["07-political-EA-prevalence", "08-online-radicalization-prevalence", "10-mortality-EA-attribution", "11-population-screening-EA"]
 parent = "kompendium-population-health"
@@ -13,79 +15,128 @@ toc = true
 
 # Populační komorbidity EA
 
-> Souběžný výskyt EA s úzkostí, depresí, PTSD a dalšími syndromy.
+> Lidé po dlouhodobém epistemickém útoku málokdy přicházejí s jedinou potíží. Přicházejí
+> s nespavostí, úzkostí, depresí, disociací nebo závislostí – a poškození schopnosti věřit
+> vlastnímu úsudku zůstává skryto pod diagnózou, která je vidět.
 
-## Populační kontext
+## Vymezení
 
-Populační zdraví v kontextu epistemických útoků (EA) představuje rámec, který přesahuje individuální
-klinickou perspektivu. Tato studie (Populační komorbidity EA) sleduje populační vzorek **N = 8,412** subjektů
-ve sledovacím období **58 měsíců**.
+**Komorbidita** je současný nebo následný výskyt dvou a více stavů u téže osoby. Pro EA má
+smysl sledovat ji ve dvou rovinách:
 
-EA jako veřejnozdravotní problém vyžaduje rámec srovnatelný s infekční epidemiologií:
-expozice → latence → manifestace → komplikace → reziduální dopad.
+- **klinická komorbidita** – poškození epistemických funkcí (ztráta důvěry ve vnímání,
+  oslabené [testování reality](@/glossary/reality-testing.md),
+  [metakognitivní deficit](@/glossary/metakognitivni-deficit.md)) se vyskytuje spolu
+  s diagnostikovatelnými poruchami;
+- **populační komorbidita** – v populacích s vysokou expozicí (např. po odchodu
+  z [high-control group](@/glossary/high-control-group.md) nebo z kontrolujícího vztahu) jsou
+  častější určité poruchy.
 
-## Klíčové parametry / data
+Protože EA není diagnostická kategorie, „komorbidita EA“ znamená v praxi souběh **expozice
+a jejích epistemických následků** s poruchami podle MKN-11 či DSM-5-TR. Nejčastěji zmiňované
+v klinické literatuře o traumatu a nátlakových skupinách jsou:
 
-| Metrika | Hodnota | 95% CI |
+| Stav | Vztah k EA | Odkaz |
 |---|---|---|
-| Bodová prevalence | **5.05%** | [4.14, 5.96] |
-| Incidence (na 100k/rok) | **618** | — |
-| Velikost účinku (Cohen's d) | **0.17** | — |
-| Odds ratio (vs. kontrola) | **3.48** | — |
-| NNT (number needed to treat) | **20** | — |
-| Pokrytí intervence | **43%** | — |
-| Drop-out | **14.67%** | — |
-| Náklady na obyvatele | **9 EUR/rok** | — |
+| PTSD a komplexní PTSD (MKN-11 6B41) | Dlouhodobé interpersonální trauma je typickým kontextem EA | [C-PTSD](@/glossary/c-ptsd.md), [ICD-11 CPTSD](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) |
+| Disociativní symptomy | Ochranná odpověď na nesnesitelný rozpor; mění vnímání reality | [disociace](@/glossary/disociace.md), [depersonalizace](@/glossary/depersonalizace.md) |
+| Deprese | Bezmoc, sebeobviňování, ztráta smyslu | [existenciální bezmoc](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) |
+| Úzkostné poruchy | Trvalá nejistota, hypervigilance | [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md) |
+| Užívání návykových látek | Regulace stavu, někdy součást kontroly | [substance use v EA-emergency](@/kompendium/emergency-protocols/26-substance-EA.md) |
+| Poruchy příjmu potravy | Typické u skupin kolem diet a těla | [dieta kult](@/kompendium/case-studies/19-dieta-cult.md) |
 
-Vzorek je stratifikován podle věku (18-29, 30-44, 45-64, 65+), genderu, urbanizace
-a socioekonomického statusu (5 kvintilů).
+## Směry vztahu
 
-## Implementační rámec
+Souběžný výskyt neříká nic o směru. Pro EA připadají v úvahu čtyři cesty:
 
-1. **Detekce a screening** — populační nástroj s validovanou citlivostí ≥ 0.82.
-2. **Stratifikace rizika** — risk-stratified outreach s prioritizací top decilu.
-3. **Intervenční kaskáda** — stepped care: psychoedukace → krátká intervence → specializovaná péče.
-4. **Datový sběr** — kontinuální monitoring přes integrovaný platformový sběr.
-5. **Evaluace** — předem registrovaná protokol, primární a sekundární endpointy.
+1. **EA → porucha.** Dlouhodobá kontrola, izolace a popírání vnímání vedou k traumatickým,
+   depresivním a disociativním symptomům.
+2. **Porucha → zranitelnost k EA.** Deprese, úzkost nebo psychotická zkušenost oslabují
+   důvěru ve vlastní úsudek a zvyšují závislost na autoritě, která slibuje jistotu.
+3. **Společná příčina.** Rané nepříznivé zkušenosti (studie ACE, Felitti a kol., 1998),
+   [betrayal trauma](@/glossary/betrayal-trauma.md) a sociální izolace zvyšují riziko obojího.
+4. **Součást mechanismu.** Některé vzorce přímo využívají existující poruchu – například
+   zpochybňování vnímání u člověka s anamnézou psychiatrické léčby („tobě se to zdá, jsi
+   přece nemocný“).
 
-**Framework hook (AIAD)**: Datový pipeline `/api/v1/epi/ea/incidence` zpřístupňuje agregované metriky napříč 552 AIAD agenty. NCLB doctrine zajišťuje, že každé tvrzení v této studii je evidence-backed a dynamicky validované přes `mix nclb.validate`.
+Rozlišení vyžaduje časovou posloupnost, tedy [kohortová data](@/kompendium/population-health/02-cohort-studies-EA.md)
+nebo pečlivou [rekonstrukci biografické časové osy](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md).
 
-## Indikátory úspěchu
+## Zkreslení klinických vzorků
 
-- **Primární endpoint**: redukce incidence EA o ≥ 20% za 58 měsíců.
-- **Sekundární endpointy**: zlepšení mediální gramotnosti (Cohen's d ≥ 0.17),
-  snížení time-to-help-seeking o ≥ 30%, redukce komorbidit.
-- **Procesní indikátory**: pokrytí ≥ 43%, drop-out ≤ 14.67%,
-  cost-per-capita ≤ 9 EUR.
-- **Equity indikátory**: redukce socioekonomického gradientu výsledků.
+- **Berksonovo zkreslení.** Lidé s více potížemi častěji vyhledají péči. V klinickém vzorku se
+  proto komorbidita jeví vyšší než v populaci.
+- **Diagnostické zastínění.** Viditelná diagnóza (deprese, závislost) zastíní kontext
+  kontroly; léčí se symptom a vztah, který ho udržuje, zůstává nepojmenován.
+- **Opačné zastínění.** Rámec EA může zastínit primární psychiatrickou poruchu – například
+  psychotické onemocnění vykládané jako „důsledek manipulace“. Proto je nutná
+  [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)
+  a [EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+- **Měření stejným nástrojem.** Pokud screening EA a screening deprese sdílejí položky
+  (bezmoc, sebeobviňování), korelace je zčásti artefaktem.
 
-## Limitace
+## Síťový pohled
 
-- **Selekční bias** — samoselekce subjektů snižuje externí validitu.
-- **Měřící bias** — self-report instrumenty pro EA nejsou plně validovány napříč jazyky.
-- **Konfaundace** — nepozorované proměnné (sociální podpora, baseline kognitivní rezerva).
-- **Ekologická chyba** — populační vzorce nemusí platit individuálně.
-- **Časová stabilita** — EA fenomenologie evolves with platform changes; pětileté projekce nejisté.
+Místo počítání diagnóz lze sledovat **síť symptomů**: které projevy spolu souvisejí, které
+jsou centrální a které most mezi dvěma poruchami. U EA se jako mostové kandidáty nabízejí
+sebezpochybňování, ztráta důvěry v blízké a izolace. Metodu popisuje článek o
+[síťové analýze](@/kompendium/research-methodology/network-analysis-EA.md); výsledky jsou
+zatím spíš hypotézami pro další výzkum než zjištěními.
 
-## Cross-linky
+## Důsledky pro prevenci a zdravotní systém
 
-- [forensic-legal](../forensic-legal/_index.md)
-- [glossary-bridges](../glossary-bridges/_index.md)
-- [organizational-defense](../organizational-defense/_index.md)
-- [quick-reference](../quick-reference/_index.md)
-- [educational-scenarios](../educational-scenarios/_index.md)
-- [historical-cases](../historical-cases/_index.md)
-- [cross-domain](../cross-domain/_index.md)
-- [aiad-integration](../aiad-integration/_index.md)
-- [03-zakladni-kategorie](../03-zakladni-kategorie/_index.md)
-- [04-terminalni-protokoly](../04-terminalni-protokoly/_index.md)
-- [05-ultramari-techniky](../05-ultramari-techniky/_index.md)
+- **Ptát se na kontext.** Služby pro trauma, závislosti a poruchy příjmu potravy by měly mít
+  krátký, citlivý dotaz na kontrolující vztah nebo skupinu
+  ([trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md),
+  [disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)).
+- **Integrovaná péče.** Léčba komorbidity bez práce s epistemickým poškozením bývá neúplná
+  a naopak; vhodná je postupná struktura od stabilizace k rekonstrukci
+  ([akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md),
+  [metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md)).
+- **Bezpečnost léčby.** Farmakoterapie a hospitalizace mohou být zneužity jako argument
+  „nemocnosti“ ze strany kontrolující osoby; dokumentace a komunikace s pacientem to musí
+  zohlednit ([iatrogenní účinky](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md)).
 
+## Modelová situace
 
-## Connect footer
+Pacientka přichází do ambulance pro závislosti s užíváním sedativ. Při vstupním rozhovoru
+uvede, že partner „spravuje“ její léky i telefon a že si „stejně nic nepamatuje správně“.
+Terapeut léčbu závislosti nezahajuje jako izolovaný problém: zmapuje bezpečí, nabídne
+kontakt na specializovanou službu pro oběti domácího násilí
+([DV protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md)) a do plánu
+péče zařadí práci s důvěrou ve vlastní paměť. V dokumentaci odliší, co je symptom a co je
+kontext.
 
-- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
-- **API**: `GET /api/v1/epi/ea/comorbidity-population` (auto-introspecting)
-- **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
-- **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine
+## Kontrolní otázky pro praxi
+
+- Ptá se služba na kontext kontroly i u pacientů s „jinou“ hlavní diagnózou?
+- Je časová posloupnost poruchy a expozice známá, nebo jen předpokládaná?
+- Nezakrývá rámec EA primární psychiatrické onemocnění?
+- Sdílejí screeningové nástroje položky, které uměle zvyšují korelaci?
+- Může být diagnóza nebo léčba zneužita kontrolující osobou proti pacientovi?
+
+## Limitace a otevřené otázky
+
+- Bez validované míry epistemického poškození zůstává komorbidita odhadem z proxy.
+- Většina dat pochází z klinických a svépomocných vzorků; populační data chybějí.
+- Otevřená otázka: je epistemické poškození samostatným rozměrem, nebo aspektem komplexního
+  traumatu, který stávající klasifikace jen nepojmenovávají?
+
+## Související
+
+**Sesterské stránky**
+
+- [Atribuce mortality k EA](@/kompendium/population-health/10-mortality-EA-attribution.md) – nejzávažnější důsledek komorbidity.
+- [Politika duševního zdraví a EA](@/kompendium/population-health/27-mental-health-policy-EA.md) – kde má péče vzniknout.
+
+**Klinika**
+
+- [Diferenciální diagnostika EA vs. PTSD/cPTSD](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – rozlišení v praxi.
+- [Dissociative Experiences Scale-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md) – nástroj pro disociativní spektrum.
+- [Traumatic Stress Screen](@/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md) – screening traumatu.
+
+**Glosář**
+
+- [Complex trauma](@/glossary/complex-trauma.md) – nejbližší klinický konstrukt.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – pojem kompendia pro poškození poznání.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – proč lidé zůstávají.

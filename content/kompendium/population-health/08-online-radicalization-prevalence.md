@@ -1,10 +1,12 @@
 +++
 title = "Prevalence online radikalizace"
-description = "Populační zdraví a prevence — Internetově zprostředkovaná radikalizace jako populační fenomén."
+description = "Internetově zprostředkovaná radikalizace jako populační fenomén: modely, problém vzácnosti a falešně pozitivních predikcí, rizikové faktory a úrovně prevence."
 weight = 80
+
 [taxonomies]
 tags = ["kompendium", "population-health", "epidemiology"]
 categories = ["academic", "public-health"]
+
 [extra]
 related_terms = ["06-corporate-EA-prevalence", "07-political-EA-prevalence", "09-comorbidity-population", "10-mortality-EA-attribution"]
 parent = "kompendium-population-health"
@@ -13,79 +15,140 @@ toc = true
 
 # Prevalence online radikalizace
 
-> Internetově zprostředkovaná radikalizace jako populační fenomén.
+> Radikalizace není bod, ale proces, a většina lidí, kteří vstoupí do radikálních online
+> prostorů, nikdy nespáchá násilí. Veřejné zdraví proto neřeší „kdo je nebezpečný“, ale jak
+> zmenšit prostředí, které lidi postupně zbavuje schopnosti vidět svět jinak.
 
-## Populační kontext
+## Vymezení
 
-Populační zdraví v kontextu epistemických útoků (EA) představuje rámec, který přesahuje individuální
-klinickou perspektivu. Tato studie (Prevalence online radikalizace) sleduje populační vzorek **N = 19,781** subjektů
-ve sledovacím období **23 měsíců**.
+**Online radikalizace** je proces, v němž člověk pod vlivem online prostředí přijímá stále
+extrémnější výklad světa, uzavírá se vůči alternativám a může dospět k ospravedlnění nebo
+použití násilí. Z pohledu kompendia jde o epistemický útok, který kombinuje
+[doporučovací radikalizaci](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md),
+[memetickou radikalizační pipeline](@/kompendium/techniques/ea-9-5-9-meme-radicalization-pipeline.md),
+[emočně laděné memy](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md)
+a skupinovou dynamiku uzavřených komunit, v nichž pochybnost znamená vyloučení.
 
-EA jako veřejnozdravotní problém vyžaduje rámec srovnatelný s infekční epidemiologií:
-expozice → latence → manifestace → komplikace → reziduální dopad.
+Užitečné je rozlišení Clarka McCauleyho a Sophie Moskalenkové (*American Psychologist*, 2017)
+na **pyramidu názorů** a **pyramidu jednání**: přijetí radikálního názoru a radikální čin jsou
+odlišné procesy s odlišnými prediktory. Většina lidí na vrcholu pyramidy názorů nikdy nejedná.
+Fathali Moghaddam (2005) popsal radikalizaci jako „schodiště“, na němž se s každým patrem
+zužují vnímané možnosti – což odpovídá epistemickému zúžení, které kompendium popisuje jako
+[epistemickou monokulturu](@/glossary/epistemicka-monokultura.md).
 
-## Klíčové parametry / data
+## Problém vzácnosti
 
-| Metrika | Hodnota | 95% CI |
+Násilný extremismus je v populaci vzácný. To má zásadní důsledek, který veřejná debata často
+přehlíží: **i velmi přesný prediktivní nástroj by při nízké prevalenci označil převážně lidi,
+kteří nikdy násilí nespáchají.** Princip ukazuje jednoduchý, čistě ilustrativní výpočet
+(hypotetické hodnoty, nikoli odhad):
+
+- populace 100 000 lidí, z nichž 10 by v daném roce skutečně přešlo k násilí;
+- nástroj s citlivostí 90 % a specificitou 99 %;
+- výsledek: zachytí 9 z 10 skutečných případů, ale zároveň označí přibližně 1 000 lidí, kteří
+  by nikdy nejednali.
+
+Proto je individuální predikce násilí na populační úrovni neproveditelná a eticky
+problematická; podrobněji viz [populační screening](@/kompendium/population-health/11-population-screening-EA.md)
+a [riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md).
+Epidemiologie se proto soustředí na **expozici a proces**, ne na predikci činu.
+
+## Co lze měřit
+
+- **Expozice radikálnímu obsahu** – šetření mezi mládeží a dospělými (s vědomím, že
+  sebehodnocení je nepřesné), analýzy dat platforem dostupných výzkumu.
+- **Struktura online komunit** – síťové analýzy uzavřenosti, rychlosti eskalace jazyka,
+  [cirkularity zdrojů](@/kompendium/detection-signatures/18-network-citation-circularity.md).
+- **Přijetí názorů** – validované škály podpory násilí a dehumanizace skupin.
+- **Kontakt se službami** – exit programy, poradny, školní psychologové.
+- **Doporučovací systémy** – audity, které testují, kam algoritmus vede uživatele. Jejich
+  výsledky nejsou jednoznačné a závisejí na platformě, období a metodě; přehled mechanismů
+  viz [algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md).
+
+## Rizikové a protektivní faktory
+
+**Rizikové** (žádný z nich není sám o sobě prediktivní):
+
+- osamělost, ztráta smyslu a pocit křivdy (osobní nebo skupinové);
+- adolescence a mladá dospělost, kdy se formuje identita;
+- intenzivní pobyt v jedné online komunitě a odpojení od offline vztahů;
+- zkušenost s ponížením, šikanou, diskriminací;
+- komunity, které nabízejí jednoduchý výklad osobních problémů a jasného viníka
+  (viz případy [incel](@/kompendium/case-studies/23-incel-recovery.md) a
+  [QAnon](@/kompendium/case-studies/55-qanon-recovery.md)).
+
+**Protektivní**
+
+- alespoň jeden důvěryhodný dospělý nebo přítel mimo komunitu;
+- smysluplné offline aktivity a příslušnost;
+- [kritické myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md),
+  které nepracuje se zesměšněním, ale s otázkami;
+- dovednosti [digitální hygieny](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md).
+
+## Úrovně prevence
+
+| Úroveň | Cílová skupina | Příklad |
 |---|---|---|
-| Bodová prevalence | **18.37%** | [15.06, 21.68] |
-| Incidence (na 100k/rok) | **338** | — |
-| Velikost účinku (Cohen's d) | **0.75** | — |
-| Odds ratio (vs. kontrola) | **1.37** | — |
-| NNT (number needed to treat) | **31** | — |
-| Pokrytí intervence | **90%** | — |
-| Drop-out | **12.6%** | — |
-| Náklady na obyvatele | **12 EUR/rok** | — |
+| Univerzální (primární) | Všichni žáci, uživatelé | [Školní kurikulum](@/kompendium/population-health/13-school-curriculum-EA.md), [digitální občanství](@/kompendium/population-health/16-digital-citizenship-program.md) |
+| Selektivní | Skupiny se zvýšenou expozicí | Práce s mládeží v online komunitách, podpora rodičů |
+| Indikovaná (sekundární) | Lidé s počínající radikalizací | Mentoring, rodinné poradenství, školní psycholog |
+| Terciární | Lidé uvnitř hnutí nebo po činu | Exit programy, [exit z extrémní pravice](@/kompendium/case-studies/24-extremni-pravice-exit.md) |
 
-Vzorek je stratifikován podle věku (18-29, 30-44, 45-64, 65+), genderu, urbanizace
-a socioekonomického statusu (5 kvintilů).
+Zkušenosti z exit programů (například německého EXIT-Deutschland, působícího od roku 2000)
+ukazují, že odchod je dlouhý proces vyžadující náhradní vztahy a identitu, nejen „opravu
+přesvědčení“.
 
-## Implementační rámec
+## Rizika samotné prevence
 
-1. **Detekce a screening** — populační nástroj s validovanou citlivostí ≥ 0.82.
-2. **Stratifikace rizika** — risk-stratified outreach s prioritizací top decilu.
-3. **Intervenční kaskáda** — stepped care: psychoedukace → krátká intervence → specializovaná péče.
-4. **Datový sběr** — kontinuální monitoring přes integrovaný platformový sběr.
-5. **Evaluace** — předem registrovaná protokol, primární a sekundární endpointy.
+Programy, které radikalizaci rámují bezpečnostně, mohou vést ke **sekuritizaci** celých
+skupin – zejména mládeže a menšin – a k nedůvěře k učitelům a zdravotníkům, kteří mají
+povinnost hlásit. Britská strategie Prevent je v odborné debatě často uváděna jako příklad
+tohoto napětí. Veřejnozdravotní přístup proto odděluje podporu od bezpečnostního hlášení,
+kde to zákon dovoluje, a jasně komunikuje hranice důvěrnosti
+([důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md)).
 
-**Framework hook (AIAD)**: Datový pipeline `/api/v1/epi/ea/incidence` zpřístupňuje agregované metriky napříč 552 AIAD agenty. NCLB doctrine zajišťuje, že každé tvrzení v této studii je evidence-backed a dynamicky validované přes `mix nclb.validate`.
+## Modelová situace
 
-## Indikátory úspěchu
+Školní metodik prevence se od rodičů dozví, že patnáctiletý žák tráví noci na serveru, kde se
+sdílejí ponižující memy o dívkách a „vysvětlení“ jeho osamělosti. Škola nevolá policii – žák
+nikomu nevyhrožoval. Metodik s žákem mluví bez odsuzování, rodičům doporučí udržet kontakt
+a zájem místo zákazů a zprostředkuje mentora z volnočasového klubu. Případ zaeviduje anonymně
+pro vyhodnocení, zda podobné situace na škole přibývají.
 
-- **Primární endpoint**: redukce incidence EA o ≥ 20% za 23 měsíců.
-- **Sekundární endpointy**: zlepšení mediální gramotnosti (Cohen's d ≥ 0.75),
-  snížení time-to-help-seeking o ≥ 30%, redukce komorbidit.
-- **Procesní indikátory**: pokrytí ≥ 90%, drop-out ≤ 12.6%,
-  cost-per-capita ≤ 12 EUR.
-- **Equity indikátory**: redukce socioekonomického gradientu výsledků.
+## Kontrolní otázky pro praxi
 
-## Limitace
+- Rozlišuje program přijetí radikálního názoru od přípravy k násilí?
+- Jaký podíl falešně pozitivních označení by nástroj vytvořil při skutečné prevalenci?
+- Má mladý člověk alespoň jednoho důvěryhodného dospělého mimo online komunitu?
+- Je podpora oddělena od bezpečnostního hlášení tam, kde to zákon dovoluje?
+- Nabízí program náhradní vztahy a identitu, nebo jen „opravu“ přesvědčení?
 
-- **Selekční bias** — samoselekce subjektů snižuje externí validitu.
-- **Měřící bias** — self-report instrumenty pro EA nejsou plně validovány napříč jazyky.
-- **Konfaundace** — nepozorované proměnné (sociální podpora, baseline kognitivní rezerva).
-- **Ekologická chyba** — populační vzorce nemusí platit individuálně.
-- **Časová stabilita** — EA fenomenologie evolves with platform changes; pětileté projekce nejisté.
+## Limitace a otevřené otázky
 
-## Cross-linky
+- Online a offline radikalizaci nelze oddělit; čistě „online“ případy jsou vzácné.
+- Platformy, komunity a symboly se mění rychleji, než výzkum stačí publikovat.
+- Otevřená otázka: jaký je skutečný podíl doporučovacích algoritmů oproti vlastní volbě
+  uživatelů a sociálním sítím offline?
 
-- [08-prilohy](../08-prilohy/_index.md)
-- [case-studies](../case-studies/_index.md)
-- [detection-signatures](../detection-signatures/_index.md)
-- [emergency-protocols](../emergency-protocols/_index.md)
-- [forensic-legal](../forensic-legal/_index.md)
-- [glossary-bridges](../glossary-bridges/_index.md)
-- [organizational-defense](../organizational-defense/_index.md)
-- [quick-reference](../quick-reference/_index.md)
-- [educational-scenarios](../educational-scenarios/_index.md)
-- [historical-cases](../historical-cases/_index.md)
-- [cross-domain](../cross-domain/_index.md)
+## Související
 
+**Sesterské stránky**
 
-## Connect footer
+- [Populační dopad dezinformací](@/kompendium/population-health/04-disinformation-population-impact.md) – širší informační prostředí.
+- [Atribuce mortality k EA](@/kompendium/population-health/10-mortality-EA-attribution.md) – metodika, když proces skončí násilím.
+- [Regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md) – odpovědnost infrastruktury.
 
-- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
-- **API**: `GET /api/v1/epi/ea/online-radicalization-prevalence` (auto-introspecting)
-- **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
-- **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine
+**Případové studie**
+
+- [Online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md) – anonymizovaný průběh.
+- [Discord server jako kult](@/kompendium/case-studies/79-discord-server-cult.md) – uzavřená online komunita.
+
+**Detekce a obrana**
+
+- [Injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md) – síťová signatura.
+- [Detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md) – individuální krok.
+
+**Teorie a historie**
+
+- [Dawkins: mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md) – kulturní replikátory.
+- [QAnon](@/kompendium/historical-cases/28-qanon.md) – doložený případ online hnutí.

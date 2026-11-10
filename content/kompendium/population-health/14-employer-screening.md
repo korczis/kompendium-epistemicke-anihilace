@@ -1,10 +1,12 @@
 +++
 title = "Pracovněprávní screening EA"
-description = "Populační zdraví a prevence — Programy zaměstnavatelů pro detekci a podporu zaměstnanců vystavených EA."
+description = "Programy zaměstnavatelů pro zachycení a podporu zaměstnanců vystavených epistemickým útokům: proč screenovat prostředí, ne lidi, právní a etické meze a evaluace."
 weight = 140
+
 [taxonomies]
 tags = ["kompendium", "population-health", "interventions"]
 categories = ["academic", "public-health"]
+
 [extra]
 related_terms = ["12-community-resilience-program", "13-school-curriculum-EA", "15-media-literacy-program", "16-digital-citizenship-program"]
 parent = "kompendium-population-health"
@@ -13,79 +15,133 @@ toc = true
 
 # Pracovněprávní screening EA
 
-> Programy zaměstnavatelů pro detekci a podporu zaměstnanců vystavených EA.
+> Zaměstnavatel má k zaměstnancům blízko a vidí změny dřív než lékař. Má ale také moc nad
+> jejich obživou. Proto platí pravidlo: zaměstnavatel screenuje **pracovní prostředí**, nikoli
+> duševní stav zaměstnanců – a nabízí důvěrnou pomoc, kterou sám nevidí.
 
-## Populační kontext
+## Vymezení a cíl
 
-Populační zdraví v kontextu epistemických útoků (EA) představuje rámec, který přesahuje individuální
-klinickou perspektivu. Tato studie (Pracovněprávní screening EA) sleduje populační vzorek **N = 3,994** subjektů
-ve sledovacím období **39 měsíců**.
+Pracovní prostředí je pro epistemické útoky dvojím místem. Může být **zdrojem expozice**
+(manipulativní vedoucí, totalizační kultura – viz
+[prevalence EA v korporátním prostředí](@/kompendium/population-health/06-corporate-EA-prevalence.md))
+i **místem, kde se projeví expozice odjinud** – zaměstnankyně v kontrolujícím partnerském
+vztahu, zaměstnanec, kterého skupina tlačí k finančním závazkům. Program zaměstnavatele má
+proto dva cíle:
 
-EA jako veřejnozdravotní problém vyžaduje rámec srovnatelný s infekční epidemiologií:
-expozice → latence → manifestace → komplikace → reziduální dopad.
+1. odhalit a odstranit rizika, která vytváří organizace sama;
+2. zajistit, aby zaměstnanci zasažení odjinud měli snadný a bezpečný přístup k pomoci.
 
-## Klíčové parametry / data
+Slovo „screening“ je zde zavádějící, pokud by znamenalo vyšetřování jednotlivců. Takový postup
+by byl v rozporu s ochranou osobních údajů (údaje o zdraví jsou zvláštní kategorií podle
+čl. 9 GDPR), s důstojností zaměstnanců a s logikou prevence – a v rukou zaměstnavatele by se
+sám mohl stát nástrojem kontroly.
 
-| Metrika | Hodnota | 95% CI |
+## Úroveň prevence a cílová populace
+
+- **Primární prevence (univerzální)** – posouzení psychosociálních rizik organizace, pravidla
+  rozhodování a komunikace, školení vedoucích.
+- **Sekundární prevence (cílená)** – důvěrné kanály pro zaměstnance, kteří sami hledají pomoc;
+  rychlá reakce na signály problémů v konkrétním týmu.
+- **Terciární prevence** – návrat do práce po krizi, úprava pracovních podmínek, ochrana
+  oznamovatelů.
+
+## Co screenovat
+
+| Úroveň | Nástroj | Kdo vidí individuální data |
 |---|---|---|
-| Bodová prevalence | **14.11%** | [11.57, 16.65] |
-| Incidence (na 100k/rok) | **211** | — |
-| Velikost účinku (Cohen's d) | **1.21** | — |
-| Odds ratio (vs. kontrola) | **4.63** | — |
-| NNT (number needed to treat) | **37** | — |
-| Pokrytí intervence | **93%** | — |
-| Drop-out | **7.59%** | — |
-| Náklady na obyvatele | **22 EUR/rok** | — |
+| Organizace | [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md), ukazatele [psychologické bezpečnosti](@/kompendium/organizational-defense/16-psychological-safety.md) | Nikdo – jen agregace s minimální velikostí skupiny |
+| Týmy | Fluktuace, nemocnost, stížnosti, [anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md) | Personální oddělení na úrovni týmu, ne osoby |
+| Vedoucí | [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md), 360° zpětná vazba | Hodnocený a jeho nadřízený, s ochranou hodnotitelů |
+| Jednotlivec | Dobrovolné sebehodnocení u externího poskytovatele | Pouze zaměstnanec a poskytovatel |
 
-Vzorek je stratifikován podle věku (18-29, 30-44, 45-64, 65+), genderu, urbanizace
-a socioekonomického statusu (5 kvintilů).
+Organizační ukazatele, které stojí za pozornost: opakované odchody z jednoho týmu, exit
+interview s podobnými popisy („nevěděl jsem, co platí“), stížnosti, které se ztrácejí,
+neochota mluvit na poradách, rozpory mezi písemnými záznamy a tím, co se „vždycky říkalo“.
 
-## Implementační rámec
+## Komponenty programu
 
-1. **Detekce a screening** — populační nástroj s validovanou citlivostí ≥ 0.82.
-2. **Stratifikace rizika** — risk-stratified outreach s prioritizací top decilu.
-3. **Intervenční kaskáda** — stepped care: psychoedukace → krátká intervence → specializovaná péče.
-4. **Datový sběr** — kontinuální monitoring přes integrovaný platformový sběr.
-5. **Evaluace** — předem registrovaná protokol, primární a sekundární endpointy.
+- **Program pomoci zaměstnancům** s externím, důvěrným poskytovatelem a jasnou informací, že
+  zaměstnavatel nedostává jména ([asistence zaměstnancům](@/kompendium/organizational-defense/35-employee-assistance-EA.md)).
+- **Školení vedoucích** v rozpoznání vzorců EA ve vlastním týmu – a ve vlastním chování;
+  v rozhovoru se zaměstnancem v krizi; v tom, kam odkázat
+  ([trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)).
+- **Onboarding** s informací o právech, kanálech a pravidlech
+  ([onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)).
+- **Kanály pro oznámení** s ochranou před odvetou; v EU je rámcem směrnice 2019/1937
+  o ochraně oznamovatelů a v ČR zákon o ochraně oznamovatelů
+  ([mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
+- **Postup pro řešení podezření** – nezávislé [interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
+  s ochranou oznamovatele i obviněného.
+- **Podpora zaměstnanců zasažených mimo práci** – flexibilní pracovní doba pro návštěvy
+  poraden, bezpečnost na pracovišti (například pokud kontrolující partner dochází do firmy),
+  spolupráce s odbornými službami.
 
-**Framework hook (Prismatic)**: Intervence integruje s `PrismaticHelpline` modulem a `Academy` learning loop. M5M doctrine vynucuje task decomposition; každá intervenční session má max 5 minut. Telemetrie přes `:telemetry.span` (OTEL pillar).
+## Rizika a nežádoucí účinky
 
-## Indikátory úspěchu
+- **Sledování pod záminkou péče.** Programy „detekce rizikových zaměstnanců“ (například
+  v rámci ochrany před vnitřními hrozbami) mohou přerůst v plošný dohled; viz
+  [Insider Threat – behavioral EA](@/kompendium/cross-domain/20-ea-security-insider-threat.md).
+- **Algoritmické hodnocení.** Automatizované analýzy komunikace nebo výkonu mohou nesprávně
+  označit lidi v krizi za problémové ([AI Hiring Narrative](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md)).
+- **Zneužití rámce proti stěžovateli.** Zaměstnanec, který upozorní na manipulativního
+  vedoucího, může být sám označen za „problematického“ – vzorec [DARVO](@/glossary/darvo.md).
+- **Výběr zaměstnanců podle „odolnosti“.** Testování uchazečů na náchylnost k manipulaci
+  je vědecky nepodložené a diskriminační; nepatří do žádného programu.
+- **Porušení důvěrnosti.** Jediný únik informace z programu pomoci zničí důvěru v celý
+  systém.
 
-- **Primární endpoint**: redukce incidence EA o ≥ 20% za 39 měsíců.
-- **Sekundární endpointy**: zlepšení mediální gramotnosti (Cohen's d ≥ 1.21),
-  snížení time-to-help-seeking o ≥ 30%, redukce komorbidit.
-- **Procesní indikátory**: pokrytí ≥ 93%, drop-out ≤ 7.59%,
-  cost-per-capita ≤ 22 EUR.
-- **Equity indikátory**: redukce socioekonomického gradientu výsledků.
+## Evaluace
 
-## Limitace
+- Procesní ukazatele: využívání programu pomoci (anonymně), počet oznámení a doba jejich
+  vyřízení, podíl vyškolených vedoucích.
+- Výsledky: změna ukazatelů psychologické bezpečnosti v opakovaných průzkumech, fluktuace
+  a nemocnost v týmech po intervenci.
+- Škody: stížnosti na porušení důvěrnosti, odvetná opatření vůči oznamovatelům.
+- Omezení: zaměstnavatel je zároveň evaluátorem i hodnoceným; vhodné je nezávislé posouzení.
 
-- **Selekční bias** — samoselekce subjektů snižuje externí validitu.
-- **Měřící bias** — self-report instrumenty pro EA nejsou plně validovány napříč jazyky.
-- **Konfaundace** — nepozorované proměnné (sociální podpora, baseline kognitivní rezerva).
-- **Ekologická chyba** — populační vzorce nemusí platit individuálně.
-- **Časová stabilita** — EA fenomenologie evolves with platform changes; pětileté projekce nejisté.
+## Modelová situace
 
-## Cross-linky
+Zaměstnankyně opakovaně chodí pozdě, je nesoustředěná a na poradách se omlouvá za věci, které
+neudělala. Vedoucí místo kárného pohovoru vede soukromý rozhovor, v němž se ptá, zda něco
+potřebuje, a nabídne kontakt na program pomoci zaměstnancům. Zaměstnankyně později uvede, že
+partner kontroluje její telefon a tvrdí, že „si všechno plete“. Firma jí umožní upravit
+pracovní dobu kvůli návštěvám poradny a recepce dostane pokyn nepouštět do budovy neohlášené
+návštěvy. Do personální složky se nic z toho nezapisuje.
 
-- [cross-domain](../cross-domain/_index.md)
-- [aiad-integration](../aiad-integration/_index.md)
-- [03-zakladni-kategorie](../03-zakladni-kategorie/_index.md)
-- [04-terminalni-protokoly](../04-terminalni-protokoly/_index.md)
-- [05-ultramari-techniky](../05-ultramari-techniky/_index.md)
-- [06-klinicke-aplikace](../06-klinicke-aplikace/_index.md)
-- [07-teoreticke-reflexe](../07-teoreticke-reflexe/_index.md)
-- [08-prilohy](../08-prilohy/_index.md)
-- [case-studies](../case-studies/_index.md)
-- [detection-signatures](../detection-signatures/_index.md)
-- [emergency-protocols](../emergency-protocols/_index.md)
+## Kontrolní otázky pro praxi
 
+- Screenuje program prostředí a týmy, nebo jednotlivé zaměstnance?
+- Je program pomoci zaměstnancům skutečně důvěrný a vědí to zaměstnanci?
+- Kdo vyšetřuje podezření a je nezávislý na dotčeném vedení?
+- Nemůže být program použit proti stěžovateli?
+- Neobsahuje výběrové řízení testy „odolnosti vůči manipulaci“?
 
-## Connect footer
+## Limitace a otevřené otázky
 
-- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
-- **API**: `GET /api/v1/epi/ea/employer-screening` (auto-introspecting)
-- **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
-- **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine
+- Malé firmy nemají kapacitu na externí program pomoci; potřebují sdílené služby.
+- Hranice mezi péčí zaměstnavatele a zásahem do soukromí je citlivá a kulturně proměnlivá.
+- Otevřená otázka: jak hodnotit vedoucí na rizikové vzorce chování spravedlivě, bez vytvoření
+  nového nástroje pro mocenský boj uvnitř firmy?
+
+## Související
+
+**Sesterské stránky**
+
+- [Prevalence EA v korporátním prostředí](@/kompendium/population-health/06-corporate-EA-prevalence.md) – rizikové faktory organizace.
+- [Populační screening EA](@/kompendium/population-health/11-population-screening-EA.md) – obecné meze screeningu.
+- [Tréninky bystander intervencí](@/kompendium/population-health/19-bystander-intervention-training.md) – kolegové jako první svědci.
+
+**Prevence**
+
+- [Vigilance zaměstnavatele](@/kompendium/prevention-resilience/16-employer-vigilance.md) – preventivní rámec.
+- [Pracovní prevence EA](@/kompendium/prevention-resilience/5-workplace-prevention-EA.md) – program na pracovišti.
+
+**Organizace a právo**
+
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md) – postup po zjištění problému.
+- [Pracovní právo a EA](@/kompendium/forensic-legal/44-employment-law-EA.md) – právní souvislosti.
+
+**Glosář**
+
+- [Informed consent](@/glossary/informed-consent.md) – dobrovolnost jako podmínka.
+- [Compliance framework](@/glossary/compliance-framework.md) – kde program zakotvit.

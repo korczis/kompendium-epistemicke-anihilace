@@ -1,10 +1,12 @@
 +++
 title = "Náboženské menšiny — EA"
-description = "Mezinárodní perspektiva — Globální (judaismus, islám, křesťanství v menšině, dharmické tradice): kulturní, klinické a právní specifika EA."
+description = "Náboženské menšiny jako cíl EA zvenčí (konspirační mýty, pronásledování, dehumanizace) i zevnitř (mlčení o zneužívání). Víra jako zdroj opory a odlišení víry od bludu."
 weight = 17
+
 [taxonomies]
 tags = ["kompendium", "international", "cross-cultural"]
 categories = ["academic", "international"]
+
 [extra]
 parent = "kompendium-international"
 toc = true
@@ -12,88 +14,162 @@ toc = true
 
 # Náboženské menšiny — EA
 
-> **Region/jurisdikce**: Globální (judaismus, islám, křesťanství v menšině, dharmické tradice)
-> **Bucket**: cross-cultural
-> **Doctrina**: NMND + NCLB — všechna tvrzení doložitelná, kulturní citlivost povinná.
+> **Oblast**: náboženské menšiny ve světě (židé, muslimové v nemuslimských státech,
+> křesťané v nekřesťanských státech, jezídi, bahá’í, ahmadíjové, sikhové, svědkové
+> Jehovovi, nová náboženská hnutí) · **Typ**: mezikulturní stránka
+> Stránka rozlišuje dva směry [epistemické anihilace](@/glossary/epistemicka-anihilace.md):
+> zvenčí, kdy většina nebo stát o menšině šíří obraz, který ji dehumanizuje, a zevnitř,
+> kdy tlak vnějšího světa ztěžuje odhalit zneužívání v komunitě. Žádné náboženství samo
+> o sobě není „manipulativní“; rozhoduje struktura moci, ne obsah víry.
 
-## 1. Geografický a jurisdikční kontext
+## 1. Kontext
 
-Antisemitismus, islamofobie, perzekuce křesťanů (Open Doors WWL), Rohingya, Ujguři.
+Náboženská menšina je pojem vztahový: muslimové jsou většinou v Pákistánu a menšinou
+v Indii, křesťané většinou v Evropě a menšinou v Egyptě či Číně. Dějiny Evropy jsou
+zároveň dějinami **konspiračních mýtů o menšinách**: středověká krevní pomluva
+proti židům (strukturou blízká pozdější [satanské panice](@/kompendium/historical-cases/38-satanic-panic.md)), padělek *Protokoly sionských
+mudrců*, odhalený jako plagiát už v roce 1921, a nacistická propaganda, která připravila
+holokaust.
 
-Tato sekce mapuje **specifika Globální (judaismus, islám, křesťanství v menšině, dharmické tradice)** v evropské/globální typologii EA (epistemic abuse / psychická manipulace s reality-distortion vektorem). Region je zahrnut do kompendia jako **referenční bod** pro klinickou, právní a forenzní praxi platformy Prismatic.
+Ve 21. století patří k nejzávažnějším případům: vyhnání více než sedmi set tisíc Rohingů
+z Myanmaru v roce 2017, kdy vyšetřovací mise OSN konstatovala, že sociální síť sehrála
+při šíření nenávisti významnou roli; genocida jezídů spáchaná takzvaným Islámským státem
+(2014); [ujgurská převýchovná zařízení](@/kompendium/historical-cases/10-uyghur-reeducation.md);
+pronásledování [Falun Gongu](@/kompendium/historical-cases/20-falun-gong.md) a bahá’í
+v Íránu; v Rusku byli svědkové Jehovovi v roce 2017 označeni za extremistickou organizaci.
 
-Historický kontext utvářel současné vzorce EA: kolektivní traumata, post-konfliktní dynamiky, právní transplantáty, kulturní idiomy distress.
+## 2. Strukturální zranitelnosti
 
-## 2. Specifické EA vzorce v regionu
+- **Konspirační obraz menšiny.** Menšině se připisuje skrytý plán, dvojí loajalita nebo
+  tajné rituály. Mýtus nelze vyvrátit, protože každý protidůkaz „potvrzuje“, jak dobře se
+  skrývá – [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
+- **Zákony o rouhání, odpadlictví a „extremismu“.** Kde je náboženství pod trestní
+  kontrolou, může samo obvinění zničit život člověka a jeho rodiny.
+- **Ochranné mlčení.** Komunita pod tlakem se obává, že odhalení zneužívání posílí
+  předsudky; oběť je pak nabádána „nedělat ostudu“ a řešit věc uvnitř
+  (srov. [betrayal trauma](@/glossary/betrayal-trauma.md)).
+- **Závislost na komunitě.** Práce, bydlení, manželství i škola mohou záviset na obci;
+  odchod znamená [sociální izolaci](@/glossary/socialni-izolace.md) a ztrátu světa.
+- **Jazyková a kulturní bariéra vůči institucím**, nedůvěra k policii, která menšinu
+  v minulosti nechránila, a obava z deportace u migrantů.
+- **Nálepka „sekta“.** Označení skupiny za sektu bez posouzení struktury může sloužit
+  k diskriminaci a zároveň znevěrohodnit skutečné oběti
+  ([politická instrumentalizace](@/kompendium/critical-perspectives/6-political-instrumentalization.md)).
 
-Vzorce: 'blood libel' moderní, hidžáb policy (FR/CN), Rohingya genocida, Ujgurský systém převýchovy, anti-míšeností EA.
+## 3. Typické vzorce EA
 
-**Typologie regionálních EA vektorů:**
+**Dehumanizace zvenčí.** Menšina je líčena jako nákaza nebo hrozba, její členové jako
+zaměnitelní. Postup odpovídá [esencialistické redukci](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md)
+a [algoritmické amplifikaci](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md);
+případ Rohingů ukázal, jak rychle se online nenávist mění v násilí.
 
-1. **Politicko-státní**: instrumentalizace státního aparátu (mediální, justiční, bezpečnostní složky).
-2. **Mediálně-platformní**: koncentrace mediálního vlastnictví, online harassment, koordinované smear.
-3. **Rodinně-komunitní**: klanové struktury, čestné systémy, gendered dynamics.
-4. **Ekonomicko-pracovní**: mobbing, koercitivní kontrola v zaměstnání, whistleblower retaliation.
-5. **Náboženskoidentitní**: sektářství, anti-konvert tlak, blasphemy zákony.
+**Převýchova.** Státní programy „deradikalizace“ či „vzdělávání“, které ve skutečnosti
+nutí lidi zříci se víry, opakují [Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md).
 
-Každý vektor vyžaduje **kulturně senzitivní detekci** — universalistický model selhává.
+**Spirituální zneužívání zevnitř.** Duchovní autorita, která vyžaduje bezvýhradnou
+poslušnost, trestá pochybnosti a monopolizuje výklad textu, vytváří
+[vysoce kontrolní skupinu](@/glossary/high-control-group.md) v jakékoli tradici
+(viz [religiózní leadership](@/kompendium/case-studies/49-religious-leadership.md)).
+Typické jsou [thought-stopping](@/glossary/thought-stopping.md) („pochybnost je pokušení“)
+a [spirituální obcházení](@/glossary/spiritual-bypassing.md) („odpusť a neřeš to“).
 
-## 3. Klinické aplikace v regionu
+**Dvojí past odcházejícího.** Kdo opouští uzavřenou komunitu menšiny, ztrácí rodinu
+a zároveň vstupuje do většinové společnosti, která jeho původ vnímá s předsudky. Hrozí
+[epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md) – nepatří už nikam
+(srov. [exit z fanatických komunit](@/kompendium/case-studies/26-religiozni-fanatismus-exit.md)).
 
-Trauma-informed care s náb. citlivostí; halal/kosher diet ve facility.
+## 4. Ochranné faktory
 
-**Klinické rozhraní EA v regionu** zahrnuje:
+- **Víra jako zdroj zvládání.** Modlitba, rituál, společenství a smysl patří k nejsilnějším
+  zdrojům odolnosti; náboženské zvládání je v traumatu často ochranné.
+- **Obec jako síť pomoci** – sociální služby, vzájemná pomoc, podpora migrantů.
+- **Reformní a kritické hlasy uvnitř tradic**, které otevírají téma zneužívání a dávají
+  obětem jazyk z jejich vlastní víry.
+- **Mezináboženská spolupráce a občanská společnost**, která brání menšiny bez ohledu na
+  vlastní vyznání.
+- **Paměťové instituce** – muzea, archivy svědectví – které dokumentují pronásledování
+  a chrání před popíráním.
 
-- **Skríning**: kulturně adaptované nástroje (např. PCL-5 lokalizovaný, ITQ pro cPTSD ICD-11).
-- **Diagnostika**: pozor na cultural concepts of distress (DSM-5 CFI, ICD-11 přílohy).
-- **Léčba**: trauma-informed care, kulturně-citlivá psychoterapie, peer support.
-- **Forensika**: znalecký posudek dle lokálních standardů, Istanbul Protocol pro mučení.
+## 5. Klinická praxe
 
-Platforma Prismatic poskytuje **adapter-based přístup** — konkrétní region má vlastní configuration profile (terminologie, právní reference, hlášení autoritám).
+**Víra není symptom.** DSM-5 výslovně uvádí, že přesvědčení sdílené kulturní nebo
+náboženskou skupinou nelze považovat za blud; obsahuje také kategorii „náboženský nebo
+spirituální problém“ pro potíže, které nejsou duševní poruchou. Rozhodující je, zda
+přesvědčení člověka izoluje a zda mu ho někdo vnucuje, ne jeho obsah
+(viz [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
 
-## 4. Právní rámec
+**Rozhovor.** Kulturní formulační rozhovor DSM-5 (CFI) obsahuje otázky na roli náboženství
+a duchovní opory. Ptejte se, co by klientova víra řekla o tom, co prožívá, a zda má
+v komunitě někoho, komu věří. Neuvádějte vlastní hodnocení náboženství; u odcházejících
+nepodporujte ani „návrat“, ani „osvobození“, ale vlastní volbu.
 
-Genocide Convention 1948, ICCPR Art. 18, EU FRA monitoring, US IRFA Act 1998.
+**Spolupráce.** S klientovým souhlasem lze zapojit duchovního, který je mimo mocenskou
+strukturu, jež klientovi škodí. U spirituálního zneužívání postupujte podle
+[post-cult protokolu](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md)
+a [subakutní axiologické restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md),
+které pomáhají oddělit víru od zneužívajícího výkladu. U obětí pronásledování zvažte
+[komplexní PTSD](@/glossary/c-ptsd.md) a [protokol pro uprchlíky](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md).
 
-**Aplikační pyramida**:
+## 6. Právní a institucionální rámec
 
-1. **Mezinárodní** — UDHR, ICCPR, CAT, CRPD, regionální (ECHR/ACHR/AfCHPR).
-2. **Nadnárodní** — EU acquis, Council of Europe (Istanbul Convention 2014).
-3. **Národní** — ústava, trestní zákoník, civilní zákoník, zákon o ochraně před násilím.
-4. **Sektorové** — zdravotnické (mental health acts), pracovní, mediální (online safety).
-5. **Lokální** — regionální/komunální opatření, ombudsman.
+Svobodu myšlení, svědomí a náboženství chrání čl. 18 Mezinárodního paktu o občanských
+a politických právech a čl. 9 Evropské úmluvy o lidských právech; Deklarace OSN o odstranění
+všech forem nesnášenlivosti a diskriminace založených na náboženství nebo víře (1981)
+a zvláštní zpravodaj OSN pro svobodu náboženství nebo přesvědčení tvoří mezinárodní
+rámec. Úmluva o genocidě (1948) chrání náboženské skupiny výslovně. V EU zavazuje
+rámcové rozhodnutí 2008/913/SVV státy trestat veřejné podněcování k násilí a nenávisti
+vůči skupinám vymezeným mimo jiné náboženstvím. Kde náboženská autonomie naráží na
+ochranu jednotlivce – mlčenlivost, výchova dětí, odmítání léčby –, viz
+[náboženské výjimky](@/kompendium/forensic-legal/48-religious-exemption-EA.md)
+a [ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md).
 
-## 5. Cross-cultural considerations
+## 7. Modelová situace
 
-- **Etika prvního kontaktu**: respekt k autoritě (kolektivistické) vs. autonomie (individualistické).
-- **Rodinný systém**: zapojit/oddělit dle kulturních očekávání.
-- **Tlumočení**: certifikovaný medical interpreter, ne rodinný příslušník (conflict of interest).
-- **Stigma**: psychiatrická péče v některých kontextech kompromituje rodinnou čest.
-- **Náboženská citlivost**: chaplaincy, halal/kosher, modlitební prostor.
-- **Dokumentace**: pseudonymizace, ochrana svědka, mezinárodní transfery dat (GDPR Capítulo V).
+*Anonymizovaný kompozitní příklad.* Dospívající dívka z malé náboženské obce v evropském
+městě se školní psycholožce svěří, že ji vedoucí mládežnické skupiny obtěžuje. Rodiče jí
+řekli, že pokud to oznámí, „všichni budou říkat, že jsme takoví“. Psycholožka ví, že
+případ podléhá [povinnému oznámení](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md).
+Vysvětlí dívce, co bude následovat, a zdůrazní, že problémem je jeden člověk, ne její víra
+ani komunita. Ve spolupráci s orgánem sociálně-právní ochrany dětí zajistí, aby rodina měla
+podporu a aby kontakt s obcí nebyl automaticky přerušen. Dívka si sama zvolí, s kým z obce
+chce dál mluvit ([vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)).
 
-## 6. Cross-linky
+## 8. Meze a otevřené otázky
 
-- [Latinská Amerika — vzorce EA](../15-latin-american-EA/) — cross-cultural
-- [Domorodé perspektivy EA](../16-indigenous-perspectives-EA/) — cross-cultural
-- [Kolektivistické kultury — EA](../18-collective-cultures-EA/) — cross-cultural
-- [Individualistické kultury — EA](../19-individualist-cultures-EA/) — cross-cultural
-- [Kultury cti — EA](../20-honor-cultures-EA/) — cross-cultural
-- [ČR právo — EA rámec](../22-czech-law-EA/) — legal
-- [UK — EA právní rámec](../24-uk-law-EA/) — legal
-- [Austrálie — EA právní rámec](../27-australian-law-EA/) — legal
-- [Česká republika — vzorce EA](../1-czech-rep-EA/) — regional
-- [EU právo — EA rámec](../21-EU-law-EA/) — legal
+Pojem „kult“ nebo „sekta“ se snadno stává nástrojem většiny proti menšině; kritéria EA
+proto musí hodnotit chování, ne vyznání (viz [esencialistický klam](@/kompendium/critical-perspectives/9-essentialism-critique.md)
+a [riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
+Otevřenou otázkou je, jak chránit oběti zneužívání v menšinových komunitách, aniž by se
+posílily předsudky, a jak rozlišit legitimní náboženskou kázeň od kontroly.
 
-## 7. Connect
+## Související
 
-- **Kompendium**: [Hub](../../) | [Úvod](../../02-uvod/) | [Základní kategorie](../../03-zakladni-kategorie/)
-- **Forenzně-právní bridge**: [forensic-legal/](../../forensic-legal/) — mezinárodní právní rámce v české aplikaci.
-- **Population Health**: [population-health/](../../population-health/) — globální disease burden EA.
-- **Cross-domain**: [cross-domain/](../../cross-domain/) — propojení s OSINT a CER doménami.
-- **Glossary bridges**: [glossary-bridges/](../../glossary-bridges/) — terminologické mosty napříč jazyky.
+**Sousední stránky**
 
----
+- [Blízký východ — vzorce EA](@/kompendium/international/13-middle-eastern-EA/index.md) –
+  jezídi, bahá’í a další menšiny regionu.
+- [Prevence genocidy — EA](@/kompendium/international/30-genocide-prevention-EA/index.md)
+  – včasné varování před dehumanizací.
+- [Východní Asie — vzorce EA](@/kompendium/international/11-east-asian-EA/index.md) –
+  státní převýchova náboženských skupin.
 
-*International perspective — Globální (judaismus, islám, křesťanství v menšině, dharmické tradice) — bucket: cross-cultural — weight 17.*
-*NMND + NCLB compliance: kulturně citlivé, právně dohledatelné, klinicky aplikovatelné.*
+**Historické případy**
+
+- [Ujgurská převýchovná zařízení](@/kompendium/historical-cases/10-uyghur-reeducation.md)
+  – převýchova náboženské menšiny.
+- [Falun Gong](@/kompendium/historical-cases/20-falun-gong.md) – pronásledování
+  duchovního hnutí.
+
+**Pojmy a klinika**
+
+- [Vysoce kontrolní skupina](@/glossary/high-control-group.md) – struktura bez ohledu na
+  vyznání.
+- [Exit z fanatických komunit](@/kompendium/case-studies/26-religiozni-fanatismus-exit.md)
+  – zotavení po odchodu.
+
+**Právo**
+
+- [Náboženské výjimky](@/kompendium/forensic-legal/48-religious-exemption-EA.md) – kde
+  autonomie končí.
+- [Lidská práva — EA standardy](@/kompendium/international/29-human-rights-EA/index.md) –
+  svoboda náboženství a projevu.

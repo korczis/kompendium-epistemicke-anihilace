@@ -1,10 +1,12 @@
 +++
-title = "Pripad 23-incel-recovery: Incel recovery"
-description = "Anonymizovana pripadova studie — Incel recovery. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 23: Zotavení z incel subkultury"
+description = "Kompozitní studie mladého muže v misogynní online subkultuře s deterministickou ideologií „tržní hodnoty“. Fenomenologie, krizový bod, terapie samoty a obnova vztahů."
 weight = 23
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["21-konspiracni-rekrutace", "22-online-radikalizace", "24-extremni-pravice-exit", "25-extremni-leve-exit"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,131 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 23-incel-recovery: Incel recovery
+# Případ 23: Zotavení z incel subkultury
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z několika průběhů. Fóra, místa, věk a osobní údaje jsou zobecněny.
+> Studie popisuje strukturu ideologie jen v rozsahu nutném k rozpoznání a neobsahuje odkazy na
+> konkrétní komunity. Téma zahrnuje sebevraždu; viz krizové protokoly níže.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 23-incel-recovery reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **uzavrené misogynní online subkultury (incel/red-pill/MGTOW) s deterministickou ideologii sexualne-trzni hodnoty**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **uzavřené misogynní online subkultury** (incel, red pill a příbuzné proudy),
+spojené deterministickou ideologií, podle níž je hodnota muže dána vzhledem a „sexuálně-tržním“
+postavením, které nelze změnit. Zachycení muži byli mezi koncem dospívání a třicítkou, s
+dlouhodobou osamělostí a často s neléčenou úzkostí či depresí. Ideologie jim nabídla vysvětlení
+bolesti – a zároveň uzavřela jakoukoli cestu ven, protože změna je v jejím rámci „nemožná“.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Od běžného zklamání v romantických vztazích se vzorec liší **fatalismem a dehumanizací**: ženy
+přestávají být lidmi s vlastní perspektivou a vlastní já se redukuje na měřitelné rysy.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **rana romanticka odmitnutí + neuspesna terapie + algoritmicke odporucení 'sebezlepsovaciho' obsahu, ktery se postupne radikalizoval**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupem byla **série raných romantických odmítnutí, nepovedená terapie a algoritmické
+doporučování „sebezlepšovacího“ obsahu**, který se postupně radikalizoval. Fitness a rady o
+sebevědomí přešly v obsah o „biologické realitě“. Komunita nabídla porozumění, které muž v
+okolí nenašel, a jazyk pro jeho samotu.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | biologizujici doktriny (looksmaxxing, rasove kategorie, kraniofacialni metriky) postupne nahrazujici relacní rámec |
-| **Konsolidace** | roky 2-5 | absolutni biodeterminismus, fatalismus 'cope' / 'rope', misogynní lexikon nahrazujici beznou recovou registraci, izolace od smise pohlavi prostredí |
-| **Detekce / spousteci udalost** | promenna | blizky kamarad zemrel (suicid v komunite); rodina objevila a kontaktovala specializovane sluzby |
-| **Exit / rekonstrukce** | rok 5+ | specializovana terapie zamerena na muzskou socializaci a samotu (po vzoru programů Beyond Equality, Andy's Man Club), dlouhodoba peer skupina mimo digital |
+| **Počáteční kontakt** | měsíce 1–6 | Obsah o sebezlepšení, pocit porozumění, první komunita |
+| **Perturbace** | měsíce 6–12 | Nedůvěra k terapii a „mainstreamovým“ radám, „prozření“ |
+| **Eskalace** | roky 1–2 | Biologizující doktríny (měření obličeje, „looksmaxxing“, rasové kategorie) nahrazují vztahový rámec |
+| **Konsolidace** | roky 2–4 | Absolutní biodeterminismus, fatalismus, misogynní slovník, izolace od smíšeného prostředí |
+| **Detekce** | proměnlivá | Sebevražda blízkého přítele z komunity; rodina kontaktuje odborné služby |
+| **Odchod a rekonstrukce** | rok 4+ | Terapie zaměřená na mužskou socializaci a samotu, dlouhodobá skupina mimo online prostředí |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-2.1.3 Útok na kredibilitu](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) –
+  psychoterapie a odborné rady zesměšněny jako naivní.
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – binární
+  klasifikace mužů bez středu.
+- [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+  – rozpad já na soubor biometrik.
+- [EA-5.3.42 Totální sebeobjektifikace](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
+  – redukce sebe na měřitelné body.
+- [EA-5.2.8 Perspektivistický kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md)
+  – neschopnost vstoupit do perspektivy druhého, viz [theory of mind](@/glossary/theory-of-mind.md).
 
-- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — delegitimizace mainstreamovej psychoterapie jako 'modra pilulka'
-- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — Chad/incel binarni klasifikace bez stredu
-- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — rozklad self do mranic biometrik
-- [EA-5.3.42 Self-objektifikace totalni](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md) — totalni redukce self na merici body
-- [EA-5.2.8 Perspektivisticky kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md) — neschopnost privstoupit cizi perspektivu
+Případ odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénáři G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[scénáři K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typické bylo **obsesivní měření vlastních proporcí, denní kontrola v zrcadle, anhedonie v
+kontaktech a tělesný dyskomfort v přítomnosti žen**. Muž popisoval, že každou interakci
+„vyhodnocuje“ podle naučených kategorií a nedokáže ji prostě prožít. Postupně ztrácel
+schopnost představit si budoucnost jinou než osamělou. V řeči dominovala
+[hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) a
+[nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md)
+o „biologii“. Komunitní fatalismus normalizoval sebevražedné myšlenky, což z tohoto prostředí
+dělá vysoce rizikové.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **obsesivní mereni vlastnich proporcí, denní auditoval mirrors, anhedonie v interakcich, somatizovany dis-comfort pri kontaktu se zenami**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Spouštěčem byla **sebevražda přítele z komunity**, s nímž si denně psal. Reakce fóra – směs
+černého humoru a glorifikace – ho šokovala víc než samotná ztráta. Rodina, která si všimla
+změny, ho přesvědčila k návštěvě krizového centra. Klíčové bylo, že pracovník centra jeho bolest
+nebagatelizoval ani nemoralizoval kvůli ideologii; nejdřív se zabýval jeho bezpečím.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+- **S1 – Validace a mapování:** posouzení [suicidálního rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
+  a bezpečnostní plán; uznání samoty jako skutečné bolesti.
+- **S2 – Externalizace introjektů:** biodeterministické věty zapsány a odlišeny od zkušenosti.
+- **S3 – Rekonstrukce metakognice:** [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
+  o přitažlivosti a vztazích; práce s tím, co „data“ fóra skutečně říkají.
+- **S4 – Hermeneutická obnova:** terapie zaměřená na mužskou socializaci, kamarádství a samotu
+  (inspirováno programy pro muže a skupinami vzájemné podpory mužů).
+- **S5 – Konsolidace a transfer:** dlouhodobá offline skupina, postupné budování vztahů včetně
+  přátelství se ženami.
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Rámec: [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-V této kohorte fungoval detecni bod nasledovne: blizky kamarad zemrel (suicid v komunite); rodina objevila a kontaktovala specializovane sluzby. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Po dvou letech byl muž bez akutního rizika a s malou sítí přátel. Přetrvávala **vztahová úzkost,
+potřeba stavět představu o vztazích mezi pohlavími od základu a hluboká osamělost**, kterou
+ideologie neřešila, jen pojmenovala. Pomáhalo mu, když osamělost přestal vnímat jako „verdikt“.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **uzavrené misogynní online subkultury (incel/red-pill/MGTOW) s deterministickou ideologii sexualne-trzni hodnoty**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Sociální úzkostná porucha:** může předcházet a vyžaduje vlastní léčbu.
+- **Depresivní porucha:** beznaděj a anhedonie mohou být primární; ideologie je zesiluje.
+- **Tělesná dysmorfická porucha:** obsese vzhledem bez ideologického rámce.
+- **Pouhé romantické zklamání:** bez dehumanizace a fatalismu.
 
-V této kohorte bylo specifické: specializovana terapie zamerena na muzskou socializaci a samotu (po vzoru programů Beyond Equality, Andy's Man Club), dlouhodoba peer skupina mimo digital. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Samotná příslušnost k subkultuře není trestná. Výzvy k násilí, podněcování k nenávisti nebo
+nebezpečné vyhrožování mohou být trestně postižitelné; při konkrétním riziku je namístě
+[povinné oznámení](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md). Klinik musí
+oddělit hodnocení rizika pro druhé od terapeutické práce a dokumentovat obojí.
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: trvajici relacni úzkost, nutnost rekonstruovat predstavu o pohlavnich vztazich od základu, hluboka osameelost. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Prevence míří na **osamělost mladých mužů** a dostupnost péče, která je nezahanbuje. Kliničtí
+pracovníci by se u mladých mužů s depresí měli ptát i na online komunity a jejich jazyk. Rodinám
+pomáhá zůstat v kontaktu a nereagovat na šokující výroky jen pohoršením; to komunitě nahrává.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit popisuje muže, který odešel; mnozí zůstávají v trvalé izolaci a do péče se nedostanou.
+Otevřené zůstává, jak oslovit osamělé muže dřív, než je osloví fatalistická komunita.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [narrative-trauma](@/glossary/narrative-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md), [EA-5.3.42](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md), [EA-5.2.8](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 56 – hluboké zotavení z incel subkultury](@/kompendium/case-studies/56-incel-deep-recovery.md),
+  [Případ 57 – zotavení z MRA prostředí](@/kompendium/case-studies/57-mra-recovery.md),
+  [Případ 22 – online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md).
+- **Glosář:** [sociální izolace](@/glossary/socialni-izolace.md);
+  [narativní identita](@/glossary/narativni-identita.md) – příběh o sobě jako cíl obnovy.
+- **Krize:** [Akutní self-harm po EA](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md).
+- **Obnova:** [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

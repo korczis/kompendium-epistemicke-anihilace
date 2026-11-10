@@ -1,10 +1,12 @@
 +++
 title = "Populační dopad dezinformací"
-description = "Populační zdraví a prevence — Měřitelný dopad dezinformačních kampaní na populační kognici, důvěru a rozhodování."
+description = "Jak měřit dopad dezinformačních kampaní na populační kognici, důvěru a zdravotní chování – od expozice přes přesvědčení k jednání – a kde tato měření selhávají."
 weight = 40
+
 [taxonomies]
 tags = ["kompendium", "population-health", "epidemiology"]
 categories = ["academic", "public-health"]
+
 [extra]
 related_terms = ["02-cohort-studies-EA", "03-incidence-cult-exposure", "05-academic-EA-prevalence", "06-corporate-EA-prevalence"]
 parent = "kompendium-population-health"
@@ -13,79 +15,143 @@ toc = true
 
 # Populační dopad dezinformací
 
-> Měřitelný dopad dezinformačních kampaní na populační kognici, důvěru a rozhodování.
+> Dezinformace je epistemický útok vedený na populaci, ne na jednotlivce. Její dopad nelze
+> číst z počtu zobrazení; je třeba sledovat řetězec expozice → přesvědčení → jednání → škoda
+> a u každého článku přiznat, jak málo o něm víme.
 
-## Populační kontext
+## Vymezení
 
-Populační zdraví v kontextu epistemických útoků (EA) představuje rámec, který přesahuje individuální
-klinickou perspektivu. Tato studie (Populační dopad dezinformací) sleduje populační vzorek **N = 48,601** subjektů
-ve sledovacím období **31 měsíců**.
+Claire Wardleová a Hossein Derakhshan (*Information Disorder*, Rada Evropy, 2017) rozlišují
+**misinformaci** (nepravdivý obsah šířený bez úmyslu škodit), **dezinformaci** (nepravdivý
+obsah šířený úmyslně) a **malinformaci** (pravdivý obsah použitý ke škodě); podrobněji viz
+[Wardle: typologie dezinformací](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md).
+Světová zdravotnická organizace od roku 2020 používá pojem **infodemie** pro nadbytek
+informací, včetně nepravdivých, během zdravotní krize, a rozvíjí „infodemický management“ jako
+součást reakce na epidemie.
 
-EA jako veřejnozdravotní problém vyžaduje rámec srovnatelný s infekční epidemiologií:
-expozice → latence → manifestace → komplikace → reziduální dopad.
+V jazyce kompendia jde o expozici celé populace technikám jako
+[algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md),
+[koordinované neautentické chování](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md),
+[kolaps kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md) nebo
+[firehose of falsehood](@/glossary/firehose-of-falsehood.md). Cílem nemusí být přesvědčit
+o konkrétní lži; často jde o vyčerpání, nedůvěru ke všem zdrojům a rezignaci na poznání –
+tedy o populační obdobu [epistemické anihilace](@/glossary/epistemicka-anihilace.md).
 
-## Klíčové parametry / data
+## Řetězec dopadu
 
-| Metrika | Hodnota | 95% CI |
-|---|---|---|
-| Bodová prevalence | **14.34%** | [11.76, 16.92] |
-| Incidence (na 100k/rok) | **127** | — |
-| Velikost účinku (Cohen's d) | **0.14** | — |
-| Odds ratio (vs. kontrola) | **3.92** | — |
-| NNT (number needed to treat) | **26** | — |
-| Pokrytí intervence | **91%** | — |
-| Drop-out | **15.7%** | — |
-| Náklady na obyvatele | **25 EUR/rok** | — |
+| Článek | Otázka | Typické měření | Hlavní problém |
+|---|---|---|---|
+| Expozice | Kdo obsah viděl? | data platforem, panely s měřením prohlížení | přístup k datům, rozdíl mezi zobrazením a pozorností |
+| Přijetí | Kdo mu uvěřil? | šetření, experimenty | expresivní odpovídání (lidé „hlásí tým“, ne přesvědčení) |
+| Jednání | Kdo podle něj jednal? | zdravotní registry, volební a spotřební data | mnoho jiných příčin téhož jednání |
+| Škoda | Co se stalo populaci? | nemocnost, násilí, ztráta důvěry | dlouhé zpoždění, difuzní a kumulativní účinky |
 
-Vzorek je stratifikován podle věku (18-29, 30-44, 45-64, 65+), genderu, urbanizace
-a socioekonomického statusu (5 kvintilů).
+Každý přechod je pravděpodobnostní a podmíněný. Vysoká expozice s nízkým přijetím je běžná;
+nízká expozice v malé, silně propojené skupině může vést k vážnému jednání.
 
-## Implementační rámec
+## Co víme a s jakou jistotou
 
-1. **Detekce a screening** — populační nástroj s validovanou citlivostí ≥ 0.82.
-2. **Stratifikace rizika** — risk-stratified outreach s prioritizací top decilu.
-3. **Intervenční kaskáda** — stepped care: psychoedukace → krátká intervence → specializovaná péče.
-4. **Datový sběr** — kontinuální monitoring přes integrovaný platformový sběr.
-5. **Evaluace** — předem registrovaná protokol, primární a sekundární endpointy.
+- **Šíření**: analýza Vosoughiho, Roye a Arala (*Science*, 2018) ukázala, že nepravdivé zprávy
+  se na Twitteru šířily dál a rychleji než pravdivé, a hnací silou byli spíš lidé než boti.
+- **Koncentrace expozice**: studie z období amerických voleb 2016 (např. Grinberg a kol.,
+  *Science*, 2019) naznačily, že expozice zdrojům nepravdivých zpráv byla silně soustředěna
+  u malé části uživatelů. Průměr za populaci proto skrývá ohniska.
+- **Přetrvávající vliv**: oprava nepravdivé informace její vliv obvykle zcela neodstraní
+  (Lewandowsky a kol., *Psychological Science in the Public Interest*, 2012).
+- **Zdravotní chování**: historie ukazuje, že dlouhodobé kampaně pochybností měly reálné
+  zdravotní důsledky – viz [tabákový průmysl](@/kompendium/historical-cases/25-tobacco-doubt.md)
+  a [aféra vakcíny–autismus](@/kompendium/historical-cases/39-vaccine-autism.md). Velikost
+  účinku jednotlivé kampaně je však obtížně oddělitelná od ostatních příčin.
 
-**Framework hook (AIAD)**: Datový pipeline `/api/v1/epi/ea/incidence` zpřístupňuje agregované metriky napříč 552 AIAD agenty. NCLB doctrine zajišťuje, že každé tvrzení v této studii je evidence-backed a dynamicky validované přes `mix nclb.validate`.
+## Rizikové a protektivní faktory
 
-## Indikátory úspěchu
+**Na úrovni jednotlivce:** nízká důvěra v instituce, zkušenost s jejich selháním, sociální
+izolace, silná skupinová identita spojená s tématem, informační přetížení
+([EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)).
 
-- **Primární endpoint**: redukce incidence EA o ≥ 20% za 31 měsíců.
-- **Sekundární endpointy**: zlepšení mediální gramotnosti (Cohen's d ≥ 0.14),
-  snížení time-to-help-seeking o ≥ 30%, redukce komorbidit.
-- **Procesní indikátory**: pokrytí ≥ 91%, drop-out ≤ 15.7%,
-  cost-per-capita ≤ 25 EUR.
-- **Equity indikátory**: redukce socioekonomického gradientu výsledků.
+**Na úrovni prostředí:** [epistemické bubliny](@/glossary/epistemic-bubble.md), monokultura
+zdrojů ([detekční signatura](@/kompendium/detection-signatures/17-network-source-monoculture.md)),
+oslabená lokální žurnalistika, krize, v nichž je nejistota vysoká a oficiální informace
+pomalé.
 
-## Limitace
+**Protektivní:** důvěryhodné místní zdroje (praktický lékař, učitel, obecní úřad),
+[mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md),
+návyk ověřovat napříč zdroji
+([rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md)),
+transparentní komunikace institucí včetně přiznání nejistoty.
 
-- **Selekční bias** — samoselekce subjektů snižuje externí validitu.
-- **Měřící bias** — self-report instrumenty pro EA nejsou plně validovány napříč jazyky.
-- **Konfaundace** — nepozorované proměnné (sociální podpora, baseline kognitivní rezerva).
-- **Ekologická chyba** — populační vzorce nemusí platit individuálně.
-- **Časová stabilita** — EA fenomenologie evolves with platform changes; pětileté projekce nejisté.
+## Metodologická úskalí
 
-## Cross-linky
+- **Přístup k datům.** Bez dat platforem se expozice odhaduje ze sebehodnocení, které je
+  nespolehlivé. Nařízení EU o digitálních službách (DSA) zavádí mechanismus přístupu
+  prověřených výzkumníků k datům velmi velkých platforem; viz
+  [EU politika](@/kompendium/population-health/23-EU-policy-EA.md).
+- **Kauzalita.** Lidé si vybírají obsah, který odpovídá jejich postojům. Korelace mezi
+  konzumací a přesvědčením je z velké části selekce. Pomáhají přirozené experimenty
+  a [kauzální inference](@/kompendium/research-methodology/causal-inference-EA.md).
+- **Měření přesvědčení.** Souhlas s tvrzením v dotazníku může znamenat skutečné přesvědčení,
+  vtip, provokaci i loajalitu.
+- **Politická citlivost.** Kdo rozhoduje, co je dezinformace? Bez transparentních kritérií
+  se měření stává nástrojem sporu
+  ([politická instrumentalizace](@/kompendium/critical-perspectives/6-political-instrumentalization.md)).
 
-- [05-ultramari-techniky](../05-ultramari-techniky/_index.md)
-- [06-klinicke-aplikace](../06-klinicke-aplikace/_index.md)
-- [07-teoreticke-reflexe](../07-teoreticke-reflexe/_index.md)
-- [08-prilohy](../08-prilohy/_index.md)
-- [case-studies](../case-studies/_index.md)
-- [detection-signatures](../detection-signatures/_index.md)
-- [emergency-protocols](../emergency-protocols/_index.md)
-- [forensic-legal](../forensic-legal/_index.md)
-- [glossary-bridges](../glossary-bridges/_index.md)
-- [organizational-defense](../organizational-defense/_index.md)
-- [quick-reference](../quick-reference/_index.md)
+## Důsledky pro prevenci a zdravotní systém
 
+- **Primární prevence**: [prebunking a inokulace](@/kompendium/population-health/15-media-literacy-program.md),
+  vzdělávání ([školní kurikulum](@/kompendium/population-health/13-school-curriculum-EA.md)).
+- **Sekundární prevence**: monitoring nových narativů ve zdravotní komunikaci a rychlá,
+  srozumitelná reakce důvěryhodných mluvčích.
+- **Strukturální opatření**: požadavky na platformy, transparentnost doporučovacích systémů
+  ([regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md)).
+- **Klinická rovina**: lékaři a psychologové se setkávají s pacienty, jejichž rozhodnutí
+  o léčbě ovlivnila dezinformace; potřebují komunikační postupy, které nezahanbují a nestaví
+  pacienta do obrany.
 
-## Connect footer
+## Modelová situace
 
-- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
-- **API**: `GET /api/v1/epi/ea/disinformation-population-impact` (auto-introspecting)
-- **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
-- **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine
+Během sezónní epidemie zaznamená krajská hygienická stanice nárůst odmítání očkování
+v několika obcích. Analýza ukáže, že místní diskusní skupina sdílí sérii videí s vytrženými
+výroky lékařů. Úřad nereaguje plošnou kampaní, která by narativ zesílila v celém kraji;
+spolupracuje s místními praktickými lékaři, kteří s pacienty mluví osobně, zveřejní
+srozumitelné odpovědi na konkrétní obavy a sleduje, zda se odmítání v obcích mění.
+
+## Kontrolní otázky pro praxi
+
+- Na kterém článku řetězce (expozice, přijetí, jednání, škoda) je tvrzení o dopadu založeno?
+- Je expozice rovnoměrná, nebo soustředěná v malých skupinách?
+- Odlišuje měření skutečné přesvědčení od expresivního odpovídání?
+- Jsou kritéria „dezinformace“ transparentní a použitelná na všechny strany sporu?
+- Nezesílí reakce instituce narativ víc než narativ sám?
+
+## Limitace a otevřené otázky
+
+- Kumulativní účinek dlouhodobé expozice – eroze důvěry „ve všechno“ – je nejvážnější
+  a nejhůře měřitelný.
+- Generativní AI mění cenu tvorby obsahu
+  ([syntetický text](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md),
+  [deepfake](@/glossary/deepfake.md)); dosavadní data o šíření nemusí platit.
+- Přehánění dopadu dezinformací je samo rizikem: podkopává důvěru v informační prostředí
+  obecně a může sloužit jako záminka k omezení svobody projevu.
+
+## Související
+
+**Sesterské stránky**
+
+- [Prevalence online radikalizace](@/kompendium/population-health/08-online-radicalization-prevalence.md) – kdy dezinformace vede k násilí.
+- [Programy mediální gramotnosti](@/kompendium/population-health/15-media-literacy-program.md) – co lze dělat na straně publika.
+- [Regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md) – co lze dělat na straně infrastruktury.
+
+**Techniky a detekce**
+
+- [Engagement optimization](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – proč feedy odměňují pobuřující obsah.
+- [Bot coordination](@/kompendium/detection-signatures/20-network-bot-coordination.md) – rozpoznání koordinovaných kampaní.
+
+**Teorie a historie**
+
+- [Herman & Chomsky: propagandistický model](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md) – strukturální pohled na média.
+- [Internet Research Agency](@/kompendium/historical-cases/22-russian-ira.md) – doložený případ státní kampaně.
+
+**Obrana**
+
+- [Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md) – individuální ochrana.
+- [Kvalita veřejného diskurzu](@/kompendium/prevention-resilience/10-public-discourse-quality.md) – společenská rovina.

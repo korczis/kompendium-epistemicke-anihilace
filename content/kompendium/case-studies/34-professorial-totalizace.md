@@ -1,10 +1,12 @@
 +++
-title = "Pripad 34-professorial-totalizace: Profesorska totalizace junior collegues"
-description = "Anonymizovana pripadova studie — Profesorska totalizace junior collegues. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 34: Profesorská totalizace mladších kolegů"
+description = "Kompozitní studie odborné asistentky, jejíž starší „mentor“ ovládal habilitační dráhu, recenze a granty a postupně i její vědecký hlas. Patronátní síť, odchod a obnova."
 weight = 34
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["32-graduate-program-totalization", "33-postdoc-exploitation", "35-research-lab-cult", "36-startup-cult-exit"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,144 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 34-professorial-totalizace: Profesorska totalizace junior collegues
+# Případ 34: Profesorská totalizace mladších kolegů
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z několika akademických prostředí. Obor, země, kariérní systém
+> (habilitace či *tenure track*) a osoby jsou zobecněny. Studie popisuje strukturu patronátní
+> moci, nikoli konkrétní pracoviště.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 34-professorial-totalizace reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **tenured profesor s rozsahlou patronaci-siti ovladajici juniorske kariéry (assistant prof) skrze tenure committees, recenzni prace, granty**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Na rozdíl od předchozích akademických případů se zde vztah nevede mezi učitelem a studentem,
+ale mezi **dvěma kolegy na různých stupních kariéry**. Kompozit popisuje odbornou asistentku
+v prvních letech dráhy vedoucí ke stálému místu a staršího profesora se stejným oborovým
+zaměřením, který se nabídl jako mentor. Jeho vliv nevycházel z jediné formální pravomoci, ale
+z **patronátní sítě**: zasedal v komisích, recenzoval granty a rukopisy, doporučoval do redakčních
+rad a na konference.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Patronát je v akademii běžný a může být velkorysý. Totalizující se stává, když mentor začne
+ovládat **celý tok uznání** – co se publikuje, s kým se spolupracuje, kde se vystupuje – a
+mladší kolega přestane mít nezávislou cestu k ověření kvality vlastní práce.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **talentovany assistant professor v prvním tenure-track roce; senior profesor 'mentor' s podobnym oborovym fokusem**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupem byla **nabídka ochrany v nejisté fázi**. Asistentka v prvním roce nové pozice dostala od
+uznávaného profesora pozvání ke spolupráci a příslib, že ji „provede“ systémem. Mentorství
+skutečně pomohlo: první grant, první pozvaná přednáška. Vděk a pocit, že bez něj by se v oboru
+neprosadila, se staly základem pozdější závislosti.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | mentor reviduje veskery output pred publikací, diktuje conference attendance, rozhoduje o ko-autorstvi, blokuje zahranicni kolaborace |
-| **Konsolidace** | roky 2-5 | mentor=tenure=kariéra; jakekoli mimo-mentor kontakty vykazany pri tenure review; oborova politika nahrazuje vědecky merit |
-| **Detekce / spousteci udalost** | promenna | prdesvno vyskytly tenure track kolega ze stejne oblasti odhalil ze mentor blokoval jeho přístup k podobne knize-projektu kvuli konkurenci |
-| **Exit / rekonstrukce** | rok 5+ | transfer na jinou univerzitu (lateral move bez tenure), tenure clock reset, právní zastoupeni v autorskych otázkach |
+| **Patronát** | rok 1 | Společný grant, pozvání na konference, doporučení do komisí |
+| **Revize** | roky 1–2 | Mentor čte veškerý výstup před odesláním, „upravuje“ argumenty |
+| **Eskalace** | roky 2–4 | Diktování účasti na konferencích, rozhodování o spoluautorství, blokování zahraničních spoluprací |
+| **Konsolidace** | roky 4–5 | Mentor = stálé místo = kariéra; kontakty mimo něj zmiňovány při hodnocení; oborová politika nahrazuje vědecký přínos |
+| **Detekce** | rok 5 | Kolega na stejném stupni zjistí, že mentor mu kvůli konkurenci blokoval obdobný knižní projekt |
+| **Odchod a rekonstrukce** | roky 5–6 | Přechod na jinou univerzitu bez stálého místa, nový běh kariérních lhůt, právní pomoc v otázkách autorství |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  mentor jako brána ke stálému místu.
+- [EA-2.1.1 Expertní disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)
+  – znehodnocování alternativních oborových směrů, k nimž by se mohla přiklonit.
+- [EA-2.1.3 Útok na kredibilitu](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) –
+  vystoupení bez mentora jsou zlehčována.
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
+  – každý výstup přepracován podle mentorova rámce.
+- [EA-2.4.6 Ovládnutí recenzního řízení](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md)
+  – vliv na recenze a komise jako neviditelná páka.
+- [EA-5.3.36 Identitární singularita](@/kompendium/techniques/ea-5-3-36-identitarni-singularita.md)
+  – akademická identita zhuštěná do „mentorovy linie“.
 
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — mentor jako brana k tenure
-- [EA-2.1.1 Expertni disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) — delegitimizace alternativnich oborovych smeru
-- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — konferencni vystupy bez mentora znevazeny
-- [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — vsechen output pretvorovan podle mentora
-- [EA-5.3.36 Identitarni singularita](@/kompendium/techniques/ea-5-3-36-identitarni-singularita.md) — academicka identita zhustena do 'mentorovy linie'
+Strukturálně jde o [scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénář H](@/kompendium/03-zakladni-kategorie/scenar-h.md) a
+[scénář L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **neschopnost napsat grantovou žádost bez mentorovy předběžné kontroly, panika na
+konferencích, kde mentor nebyl, a výrazný pokles publikační aktivity v prvním roce po odchodu**.
+Asistentka popisovala, že svůj text čte „jeho hlasem“ a v duchu předjímá jeho námitky dřív, než
+vůbec zformuluje vlastní myšlenku. Objevoval se
+[skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)
+před každým odesláním a [posun rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md)
+mentorových zásahů – od formy k obsahu a od obsahu k volbě spolupracovníků.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **neschopnost sepsat granu bez mentor preview, panika pred konferencními setkaními kde mentor neni, vyrazne snizeni publication rate prvni rok po exit**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Kolega na stejném stupni kariéry jí v důvěře řekl, že mentor **blokoval jeho knižní projekt**,
+protože se tematicky překrýval s jeho vlastním. Asistentka si uvědomila, že několik jejích
+zamítnutých nabídek spolupráce mělo stejný vzorec. Šlo o ověřitelnou informaci od člověka bez
+zájmu na jejím odchodu, a proto ji nedokázala odbýt jako pomluvu. Teprve sdílená zkušenost
+proměnila osobní nejistotu v rozpoznání struktury.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+- **S1 – Validace a mapování:** rekonstrukce toho, kdy a kde mentor zasahoval; oddělení
+  skutečné pomoci od kontroly.
+- **S2 – Externalizace introjektů:** vnitřní kritik mluvící mentorovými formulacemi pojmenován a
+  oddělen od vlastního odborného úsudku.
+- **S3 – Rekonstrukce metakognice:** psaní bez předběžné kontroly, nejdřív krátkých textů;
+  zpětná vazba od více nezávislých kolegů.
+- **S4 – Hermeneutická obnova:** obnova vlastní badatelské linie a citační sítě mimo mentorův
+  okruh.
+- **S5 – Konsolidace a transfer:** nová instituce, pravidla spolupráce sepsaná předem, vlastní
+  mentorská role vůči mladším.
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-V této kohorte fungoval detecni bod nasledovne: prdesvno vyskytly tenure track kolega ze stejne oblasti odhalil ze mentor blokoval jeho přístup k podobne knize-projektu kvuli konkurenci. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Přechod znamenal **posunutí kariérních lhůt o několik let**, nutnost znovu vybudovat citační a
+kolegiální síť a často i finanční zátěž spojenou se změnou místa. Asistentka se k publikování
+vrátila po zhruba roce. Přetrvávala opatrnost vůči nabídkám patronátu a sklon odmítat i
+nabídky, které by jí pomohly.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **tenured profesor s rozsahlou patronaci-siti ovladajici juniorske kariéry (assistant prof) skrze tenure committees, recenzni prace, granty**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Dobré mentorství:** mentor podporuje nezávislost, sdílí kontakty a snese, když mentee
+  vybuduje vlastní síť.
+- **Akademická konkurence bez totalizace:** soupeření o zdroje, ale bez kontroly nad celým tokem
+  uznání.
+- **Syndrom podvodníka:** pochybnost o vlastních schopnostech bez vnějšího zdroje, který ji
+  živí; zde ji systematicky zesiloval mentor.
 
-V této kohorte bylo specifické: transfer na jinou univerzitu (lateral move bez tenure), tenure clock reset, právní zastoupeni v autorskych otázkach. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Habilitační a jmenovací řízení upravuje zákon č. 111/1998 Sb., o vysokých školách; pracovní
+vztah zákon č. 262/2006 Sb., zákoník práce. Střet zájmů v recenzních a grantových řízeních je
+předmětem pravidel poskytovatelů a etických kodexů, viz
+[politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md).
+Oznámení zneužívání postavení může spadat pod ochranu oznamovatelů (zákon č. 171/2023 Sb.).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: tenure clock posunut, nutnost rekonstruovat citacní site, často zustatek finansního zatížení. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Fakulty chrání mladší kolegy **rozptýlením patronátu**: více mentorů, hodnoticí komise bez
+přímých konkurentů, transparentní [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+a [rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md) v komisích. Mladým
+akademikům pomáhá [hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md)
+a vědomé budování sítě mimo jeden okruh.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Patronátní moc je často neviditelná a obtížně prokazatelná; kompozit stojí na náhodném odhalení,
+které se v mnoha případech nedostaví. Otevřené zůstává, jak poznat blokování v recenzních
+řízeních, která jsou ze své podstaty anonymní.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [epistemicka-injustice](@/glossary/epistemicka-injustice.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), [EA-5.3.36](@/kompendium/techniques/ea-5-3-36-identitarni-singularita.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 33 – exploatace postdoka](@/kompendium/case-studies/33-postdoc-exploitation.md),
+  [Případ 05 – vědecká disinflation](@/kompendium/case-studies/05-vedecka-disinflation.md)
+  (znehodnocování expertízy), [Případ 66 – kult akademické školy](@/kompendium/case-studies/66-academic-school-cult.md).
+- **Organizace:** [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md),
+  [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md).
+- **Klinika:** [6.7 Případová studie: Akademický kontext](@/kompendium/06-klinicke-aplikace/pripad-akademie.md).
+- **Glosář:** [epistemická injustice](@/glossary/epistemicka-injustice.md) – snížená váha hlasu
+  podle postavení.
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

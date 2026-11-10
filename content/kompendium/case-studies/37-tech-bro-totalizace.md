@@ -1,10 +1,12 @@
 +++
-title = "Pripad 37-tech-bro-totalizace: Tech-bro totalizace (FAANG monoculture)"
-description = "Anonymizovana pripadova studie — Tech-bro totalizace (FAANG monoculture). Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 37: Totalizace v technologické monokultuře"
+description = "Kompozitní studie mladého inženýra ve velké technologické firmě, jehož život pohltila subkultura optimalizace, biohackingu a uzavřené online ideologie. Krize a návrat."
 weight = 37
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["35-research-lab-cult", "36-startup-cult-exit", "38-management-consulting", "39-finance-totalizace"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,139 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 37-tech-bro-totalizace: Tech-bro totalizace (FAANG monoculture)
+# Případ 37: Totalizace v technologické monokultuře
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Anonymizovaný kompozit. Firma, online komunity, autoři a myšlenkové proudy
+> nejsou jmenovány; studie nehodnotí žádnou filozofii ani hnutí jako celek. Zaměřuje se na
+> skupinovou dynamiku, která z myšlenkového rámce činí rámec uzavřený.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 37-tech-bro-totalizace reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **Big Tech (FAANG) firma s vnitrni 'tech-bro' subkulturou: kult productivity hacks, biohackingu, 'rationalist' ideologie, vyhradne maskulinni socialni site**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje mladého inženýra ve **velké technologické firmě**, kde se kolem části
+zaměstnanců vytvořila vnitřní subkultura: kult produktivity, biohackingu, extrémních diet a
+online „racionalistické“ ideologie, převážně v mužském sociálním okruhu. Samotná firma
+nevynucovala nic z toho; totalizace vznikla **na průsečíku pracovní monokultury a uzavřeného
+myšlenkového ekosystému**, který nabízel odpověď na všechno – od výběru jídla po smysl dějin.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Rozdíl proti [startupovému kultu](@/kompendium/case-studies/36-startup-cult-exit.md) je v tom, že
+zde není jeden charismatický zakladatel. Autoritu tvoří síť online autorů a komunit, k nimž se
+kolegové odvolávají, a peníze, které ztěžují odchod (vysoké platy a podíly vázané na setrvání).
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **junior z elitni CS skoly; FAANG vstup s 'team fit' rituály a 'reading list' (rationalist blogosfere, Effective Altruism, postrationalism)**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstup přišel **přes pocit, že konečně patří mezi „chytré lidi“**. Absolvent prestižního oboru
+informatiky dostal při nástupu neformální „seznam četby“ od kolegů a byl přizván do týmových
+aktivit, jejichž součástí byly diskuse o optimalizaci života. Pro introvertního člověka, který se
+dřív cítil odlišný, to byla první komunita, kde jeho způsob myšlení platil jako přednost.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | po pracech 'lifestyle' vyhradne s kolegy: gym, biohack supplementy, polyamory diskurzy, optimization-everything mindset |
-| **Konsolidace** | roky 2-5 | ideologicky uzavreny ekosystem (Lesswrong/SSC/EA forums), kvazi-eschatologicky horizont (AI safety/longtermism), monetary tlak ('Golden handcuffs') |
-| **Detekce / spousteci udalost** | promenna | vážná zdravotní krize z biohackingu (extremni diety + nedostatek sociálního kontaktu mimo skupinu) |
-| **Exit / rekonstrukce** | rok 5+ | lekarska intervence + terapie + zámerne vstup do mimo-tech sociálních prostredí (umelecké, religiózní, dobrovolnicke) |
+| **Přijetí** | měsíce 1–6 | Týmové rituály, seznam četby, pocit intelektuální sounáležitosti |
+| **Optimalizace** | měsíce 6–18 | Sledování spánku a výkonu, doplňky stravy, rozvrh řízený metrikami |
+| **Eskalace** | roky 1–2 | Volný čas výhradně s kolegy (posilovna, biohacking, diskuse o vztazích), „optimalizace všeho“ |
+| **Konsolidace** | roky 2–4 | Ideologicky uzavřený online ekosystém, kvazieschatologický horizont budoucnosti technologií, finanční „zlatá pouta“ |
+| **Detekce** | rok 4 | Vážná zdravotní krize z kombinace extrémní diety, spánkových experimentů a izolace |
+| **Odchod a rekonstrukce** | roky 4–5 | Lékařská péče, terapie, vědomý vstup do prostředí mimo technologie (umění, dobrovolnictví, komunitní život) |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  – slovník „apriorních pravděpodobností“ a „užitku“ vytlačuje běžnou řeč o citech.
+- [EA-2.1.1 Expertní disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) –
+  obory mimo vlastní rámec (psychologie, humanitní vědy, medicína) jsou zlehčovány.
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  vybraní online autoři jako nezpochybnitelné autority.
+- [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) – každý
+  prožitek se převádí na „optimalizační problém“.
+- [EA-5.3.42 Totální sebeobjektifikace](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
+  – já jako „lidský kapitál“ k optimalizaci.
 
-- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — rationalist žargon ('priors', 'updating', 'utility') blokuje normalni rec
-- [EA-2.1.1 Expertni disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) — ne-rationalist obory delegitimizovany
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — Yudkowsky/SSC autori jako post-prophets
-- [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) — kazdy zazitek redukovany na 'optimization vector'
-- [EA-5.3.42 Self-objektifikace totalni](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md) — self jako 'human capital' optimization target
+Strukturálně jde o [scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénář H](@/kompendium/03-zakladni-kategorie/scenar-h.md) a
+[scénář L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md); prostředí vykazuje rysy
+[epistemické monokultury](@/glossary/epistemicka-monokultura.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **neschopnost neinstrumentální konverzace** – rozhovor bez cíle působil jako ztráta
+času –, vina z neproduktivity a postupné odcizení vlastnímu tělu, které se stalo měřicím
+přístrojem. Inženýr popisoval, že dokáže o emocích přesně mluvit, ale ne je prožívat. Typickou
+signaturou byla [hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md)
+a [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md).
+Dlouhé půsty a spánkové experimenty prohlubovaly
+[kognitivní mlhu](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md), kterou
+sám interpretoval jako „přechodný stav adaptace“.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **neschopnost normalni nei-instrumentalni konverzace, biohacking flashbacks, somatizovany pocit zustale productivity guilt**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Spouštěčem byla **vážná zdravotní krize**: kolaps po kombinaci extrémní diety, nedostatku spánku
+a doplňků. Lékař na pohotovosti mu věcně vysvětlil, co se v těle stalo, bez ironie vůči jeho
+přesvědčením. V nemocnici si uvědomil, že kromě kolegů nemá nikoho, komu by mohl zavolat.
+Osamělost v kritické chvíli byla argumentem, který žádný optimalizační model nezahrnoval.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+- **S1 – Validace a mapování:** somatická stabilizace, mapa praktik a jejich zdravotních
+  rizik; uznání intelektuálních potřeb, které skupina naplňovala.
+- **S2 – Externalizace introjektů:** věty „emoce jsou šum“, „všechno je optimalizační úloha“
+  přiřazené konkrétním zdrojům.
+- **S3 – Rekonstrukce metakognice:** [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)
+  – učení se, že jiné obory mají vlastní platné metody.
+- **S4 – Hermeneutická obnova:** vědomý vstup do prostředí mimo technologie, kde se hodnota
+  neměří výkonem.
+- **S5 – Konsolidace a transfer:** nový vztah k práci, pravidelný kontakt s rodinou.
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+a [somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md).
 
-V této kohorte fungoval detecni bod nasledovne: vážná zdravotní krize z biohackingu (extremni diety + nedostatek sociálního kontaktu mimo skupinu). Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Po roce byl zdravotně stabilní a v práci zůstal, ale změnil tým. Přetrvávala **potřeba budovat
+sociální identitu mimo optimalizační myšlení**, záchvěvy viny při odpočinku a hořkost vůči
+komunitě, která mu dlouho dávala pocit domova. Ironií zotavení bylo, že se musel učit „neefektivní“
+věci – rozhovor, hru, nudu.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **Big Tech (FAANG) firma s vnitrni 'tech-bro' subkulturou: kult productivity hacks, biohackingu, 'rationalist' ideologie, vyhradne maskulinni socialni site**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Zaujetí myšlenkovým proudem bez uzavření:** intenzivní zájem, ale otevřenost vůči jiným
+  perspektivám a vztahům.
+- **Poruchy příjmu potravy:** extrémní diety mohou maskovat ortorektní či anorektické vzorce.
+- **Rysy autistického spektra:** preference systematického myšlení není patologie; může však
+  zvyšovat přitažlivost uzavřených systémů.
+- **Workoholismus:** bez ideologické nadstavby.
 
-V této kohorte bylo specifické: lekarska intervence + terapie + zámerne vstup do mimo-tech sociálních prostredí (umelecké, religiózní, dobrovolnicke). Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Zaměstnavatel neodpovídá za soukromé přesvědčení zaměstnanců, ale za pracovní prostředí a
+ochranu zdraví podle zákona č. 262/2006 Sb., zákoníku práce. Pokud subkultura vytváří vylučující
+prostředí pro kolegy (zejména ženy), jde o otázku diskriminace a obtěžování na pracovišti, viz
+[pracovní právo](@/kompendium/forensic-legal/44-employment-law-EA.md).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: rekonstrukce sociálního identity mimo optimization-mindset, casto neformalni resentment voci EA/rationalist scene. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Firmy omezují monokulturu **diverzitou týmů a [rotací týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)**,
+[asistencí zaměstnancům](@/kompendium/organizational-defense/35-employee-assistance-EA.md) a
+[kulturními průzkumy](@/kompendium/organizational-defense/15-culture-survey-EA.md), které sledují
+i neformální skupiny. Lékaři by se u mladých zaměstnanců technologických firem měli ptát na
+doplňky, diety a spánkové experimenty.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit zachycuje extrémní průběh; většina lidí v podobných komunitách si zachová vztahy i
+zdraví. Otevřené zůstává, kdy se z intelektuálního společenství stává uzavřený systém – a zda
+lze kritérium uzavřenosti formulovat tak, aby nediskriminovalo legitimní myšlenkové proudy.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [addiction-recovery](@/glossary/addiction-recovery.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md), [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md), [EA-5.3.42](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 36 – odchod ze startupového kultu](@/kompendium/case-studies/36-startup-cult-exit.md),
+  [Případ 18 – fitness kult](@/kompendium/case-studies/18-fitness-cult.md) (kontrola těla),
+  [Případ 78 – kult fóra](@/kompendium/case-studies/78-forum-cult.md) (online komunita jako autorita).
+- **Glosář:** [instrumental reason](@/glossary/instrumental-reason.md) – rozum redukovaný na
+  nástroj; [epistemic bubble](@/glossary/epistemic-bubble.md).
+- **Sebeobrana:** [Ochrana existenciálního smyslu](@/kompendium/self-defense-guides/48-existential-meaning-protection.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

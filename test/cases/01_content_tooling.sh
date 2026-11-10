@@ -257,6 +257,23 @@ python3 scripts/strip-generated-blocks.py --check >/dev/null || true
 
 python3 scripts/build-graph.py >/dev/null
 python3 scripts/build-graph.py --check >/dev/null
+# categories: a technique node carries typ/rodina/podrodina and the derived cross-cutting
+# dimensions publikum (audience) and pilir (function); a new typeless section fails the build.
+python3 - <<'PY'
+import json
+g = json.load(open("static/data/graph.json")); c = g["categories"]
+for dim in ("typ", "oblast", "rodina", "podrodina", "publikum", "pilir"):
+    assert dim in c and c[dim], dim
+t = [n for n in g["nodes"] if n["path"].startswith("kompendium/techniques/ea-1-1-1")][0]
+assert t["typ"] == "technika" and t["rodina"] == "EA-1" and t["podrodina"] == "EA-1.1", t
+assert "klinik" in t["publikum"] and t["pilir"] == "rozpoznani", t
+PY
+mkdir -p content/case-01-beztypu
+printf '+++\ntitle = "X"\n+++\n\nText.\n' > content/case-01-beztypu/x.md
+if python3 scripts/build-graph.py >/dev/null 2>&1; then
+  echo "build-graph accepted a section with no typ row"; exit 1
+fi
+rm -r content/case-01-beztypu
 printf '\nEin [Link](@/kompendium/_index.md).\n' >> content/about.md
 if python3 scripts/build-graph.py --check >/dev/null 2>&1; then
   echo "build-graph --check missed a content change"; exit 1
@@ -270,6 +287,12 @@ python3 scripts/check-ia.py --list howto | cut -f1 | grep -x 'content/kompendium
 if python3 scripts/check-ia.py --introduce howto >/dev/null 2>&1; then
   echo "--introduce howto accepted"; exit 1; fi
 rm -r content/kompendium/case-01-howto
+# howto also catches a "Krok N" reference inside a technique-page table cell (not a heading).
+mkdir -p content/kompendium/techniques/case-01-cell
+printf '+++\ntitle = "C"\n+++\n\n| Znak | Fáze |\n|---|---|\n| Paralýza | Krok 3 destrukce |\n' \
+  > content/kompendium/techniques/case-01-cell/x.md
+python3 scripts/check-ia.py --list howto | cut -f1 | grep -x 'content/kompendium/techniques/case-01-cell/x.md' >/dev/null
+rm -r content/kompendium/techniques/case-01-cell
 # drug-dose: a dose in prose is refused; the same number in a bibliography title is not.
 mkdir -p content/kompendium/case-01-dose
 printf '+++\ntitle = "D"\n+++\n\nLékař zváží SSRI v dávce 20 mg denně.\n' > content/kompendium/case-01-dose/x.md

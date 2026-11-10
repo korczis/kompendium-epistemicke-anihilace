@@ -260,3 +260,93 @@ slug = "pojmy-a-propojeni"
 label = "Pojmy a propojení"
 description = "Glosář a mosty, které pojmy spojují s kapitolami, technikami a praxí."
 sections = ["glossary", "kompendium/glossary-bridges", "kompendium/section-bridges"]
+
+# Cross-cutting dimensions, derived from a page's typ (owner, 2026-11-10: "add more
+# categories/subcategories, cross-connect everything"): who the page serves (publikum) and which
+# defensive function it fills (pilíř). Each block lists the typ slugs it covers; build-graph.py
+# gives every node `publikum` (list) and `pilir` (single) and indexes them, so the site can
+# cross-connect pages across sections by audience and by function. Every typ is in exactly one pilíř.
+
+[[publikum]]
+slug = "klinik"
+label = "Klinik"
+description = "Psychiatr, psycholog, terapeut: rozpoznání, diagnostika, krize a zotavení v péči."
+types = ["technika", "karta-v-kostce", "detekcni-signatura", "krizovy-protokol", "protokol-zotaveni", "kazuistika", "verejne-zdravi", "prevence", "aiad", "kapitola"]
+
+[[publikum]]
+slug = "vysetrovatel"
+label = "Vyšetřovatel"
+description = "Analytik a vyšetřovatel: rozpoznání vzorců, signatury, případy a atribuce."
+types = ["technika", "detekcni-signatura", "forenzni-pruvodce", "historicky-pripad", "mezinarodni-perspektiva", "kazuistika", "aiad"]
+
+[[publikum]]
+slug = "pravnik"
+label = "Právník"
+description = "Právník a compliance: dokazování, odpovědnost a obrana institucí."
+types = ["forenzni-pruvodce", "organizacni-obrana", "kriticka-perspektiva"]
+
+[[publikum]]
+slug = "vyzkumnik"
+label = "Výzkumník"
+description = "Badatel: pojmy, teorie, metodologie, kritika a doložené případy."
+types = ["pojem", "most-pojmu", "metodologie", "kriticka-perspektiva", "filozofie", "verejne-zdravi", "mezinarodni-perspektiva", "historicky-pripad", "aiad", "kapitola", "vizualizace", "mezioborovy-most"]
+
+[[publikum]]
+slug = "pedagog"
+label = "Pedagog"
+description = "Učitel a lektor: scénáře výuky, návody a prevence rozpoznání a obrany."
+types = ["vzdelavaci-scenar", "navod-sebeobrany", "prevence", "pojem", "karta-v-kostce"]
+
+[[publikum]]
+slug = "zasazeny"
+label = "Zasažený člověk a blízcí"
+description = "Člověk, který jev zažívá, a jeho okolí: sebeobrana, krizová pomoc a zotavení."
+types = ["navod-sebeobrany", "protokol-zotaveni", "krizovy-protokol", "pojem"]
+
+[[publikum]]
+slug = "obecny"
+label = "Obecný čtenář"
+description = "Poučený čtenář bez odborné role: pojmy, přehledy a sebeobrana."
+types = ["pojem", "most-pojmu", "stranka", "kapitola", "navod-sebeobrany", "vizualizace"]
+
+[[pilir]]
+slug = "rozpoznani"
+label = "Rozpoznání"
+description = "Jak jev poznat: techniky, karty a detekční signatury."
+types = ["technika", "karta-v-kostce", "detekcni-signatura"]
+
+[[pilir]]
+slug = "odliseni"
+label = "Odlišení"
+description = "Jak jev odlišit od neškodných a od příbuzných: pojmy, mosty a forenzní rozvaha."
+types = ["most-pojmu", "pojem", "forenzni-pruvodce"]
+
+[[pilir]]
+slug = "obrana"
+label = "Obrana"
+description = "Jak se bránit: sebeobrana, organizační obrana, prevence a ověřování agentů."
+types = ["navod-sebeobrany", "organizacni-obrana", "prevence", "aiad"]
+
+[[pilir]]
+slug = "zotaveni"
+label = "Zotavení"
+description = "Jak pomoci a zotavit se: protokoly zotavení a krizové protokoly."
+types = ["protokol-zotaveni", "krizovy-protokol"]
+
+[[pilir]]
+slug = "prevence"
+label = "Prevence"
+description = "Jak jevu předcházet: vzdělávací scénáře a populační opatření."
+types = ["vzdelavaci-scenar", "verejne-zdravi"]
+
+[[pilir]]
+slug = "teorie"
+label = "Teorie a kritika"
+description = "Čím se jev vysvětluje a jak se kniha sama prověřuje: filozofie, metodologie, kritika, kapitoly a mosty."
+types = ["filozofie", "metodologie", "kriticka-perspektiva", "kapitola", "most-sekci", "mezioborovy-most"]
+
+[[pilir]]
+slug = "kontext"
+label = "Kontext a případy"
+description = "Kde se jev ukázal: kazuistiky, historické a mezinárodní případy, přehledy."
+types = ["kazuistika", "historicky-pripad", "mezinarodni-perspektiva", "vizualizace", "stranka"]

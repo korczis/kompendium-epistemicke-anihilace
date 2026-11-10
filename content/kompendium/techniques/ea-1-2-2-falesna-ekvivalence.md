@@ -40,42 +40,15 @@ Strukturální mechanismus: **exploitace normy nestrannosti** v akademickém dis
 
 Klíčový rozdíl od [EA-1.2.1 Falešného dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md): falešné dilema redukuje volbu na binární; falešná ekvivalence předstírá **ekvivalentní legitimitu** dvou pozic, **které asymetrické jsou**.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování formální paritní struktury
+Falešná ekvivalence je rozpoznatelná podle rozporu mezi formou a obsahem: uspořádání sdělení je souměrné, zastoupené pozice souměrné nejsou. Boykoff a Boykoff (2004) tento rozpor doložili na zpravodajství o změně klimatu — novinářská norma vyváženosti tam vedla k obrazu sporu, který v odborné literatuře v té podobě neexistoval.
 
-Manipulátor předkládá **strukturální paritu**:
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejprve je zachytitelná formální parita: stejný prostor, stejné pořadí, stejná typografie. Pak se ukáže nepoměr v tom, kdo každou stranu zastupuje, takže rétorická zdatnost nahrazuje doloženost. Dále mizejí znaky kvality — způsob recenze, metodologická opora, poměr odborných stanovisek — nebo jsou relativizovány pravdivými, leč nepřípadnými poznámkami o tom, že i konsensus se mění. Nakonec se u čtenáře usazuje heuristika středu: pravda prý leží uprostřed, i tam, kde žádný střed doložen není (Boykoff a Boykoff, 2004). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- „Dvě strany debaty“
-- „Pro a proti“
-- „Mezi obhájci a kritiky panuje neshoda“
-- Symetrické typografické zachycení (obě strany dostávají stejný prostor / čas)
+Detekční markery zachycené níže odpovídají téže struktuře: zasažený člověk nedokáže pozice seřadit podle opory, odmítá zaujmout stanovisko tam, kde je k dispozici, a nepamatuje si žádný údaj o rozložení odborného názoru. Oreskes a Conway (2010) ukazují na archivních dokumentech, že právě udržení dojmu nerozhodnutého sporu bývalo deklarovaným cílem kampaní v otázkách kouření a klimatu, nikoli vedlejším účinkem.
 
-Klíčová charakteristika: **forma** je symetrická, **obsah** je asymetrický.
-
-### Krok 2 — Strategická selekce reprezentantů
-
-Pro pozici **silnější** je vybrán **slabší obhájce** (méně kvalifikovaný expert, méně rigorózní argumentace, kontroverzní osobnost).
-
-Pro pozici **slabší** je vybrán **nejlepší dostupný obhájce** s rétorickými dovednostmi.
-
-Tato asymetrie **nereflektuje** distribuci kvality v reálných pozicích — pokrývá strukturální asymetrii **rétorickou** kompetencí.
-
-### Krok 3 — Suprese kvalitativních markerů
-
-Markery, které by signalizovaly **asymetrii** („vědecký konsensus“, „peer review process“, „metodologická rigorózita“), jsou **systematicky** vyňaty z prezentace nebo **rétoricky neutralizovány**:
-
-- „Konsensus se mění“ (true, ale irelevantní k aktuální distribuci)
-- „Peer review není dokonalý“ (true, ale neimplikuje paritu s non-peer-reviewed)
-- „I etablované teorie byly kdysi okrajové“ (true, ale neimplikuje, že každá okrajová teorie je v pre-etablovaném stavu)
-
-### Krok 4 — Indukce balance heuristiky
-
-Subjekt, vystaven **strukturálně symetrické** prezentaci, aktivuje **balance heuristic**: „asi pravda leží někde uprostřed“. Tato [heuristika](@/glossary/heuristika.md) je **legitimní** v kontextu skutečné parity, **patologická** v kontextu strukturální asymetrie.
-
-### Krok 5 — Konsolidace skrze opakovanou expozici
-
-Opakovaná expozice falešné ekvivalenci konsoliduje **vzorec**: subjekt **automaticky** přiřazuje paritní legitimitu pozicím, **bez kalibrace** vůči skutečné distribuci kvality. V mediálním ekosystému to vede k **strukturální** legitimizaci marginal positions.
+*Interpretace knihy*: vyváženost je ctnost tam, kde si strany odpovídají doloženostní vahou. Rozlišujícím znakem je proto přítomnost kontextu — zda sdělení říká, jak je názor v oboru rozložen a čím je která strana podepřena. Kde tento kontext chybí, nejde o nestrannost, nýbrž o její napodobení (Oreskes a Conway, 2010).
 
 ## Fenomenologické znaky
 
@@ -219,6 +192,11 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 - **OSINT investigation framework** — Triple-verification protocol vyžaduje **kvalitativně srovnatelné** zdroje, nejen „two opinions“.
 - **NABLA Infinity confidence calibration** — pokud kandidátní decision přiřazuje paritní confidence asymetricky-supported hypotézám, system flagguje anomálii.
 
+## Literatura
+
+- Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*, 14(2).
+- Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -232,21 +210,23 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

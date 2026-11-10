@@ -40,45 +40,15 @@ Klíčový mechanismus: **exploitace konverzační fluidity** a **epistemické k
 
 Strukturálně sourozenecká vůči [EA-1.3.1 Imunizaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [EA-1.3.2 Strategické reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — všechny tři brání **revizi a falsifikaci**, ale různými mechanismy: imunizace přidává auxiliární hypotézy; reinterpretace přepisuje meaning; diverze **odsouvá** kontradikci mimo prostor diskuse.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování centrálního problematického bodu
+Tematická diverze se nepozná z jednotlivé věty, nýbrž z osudu položené otázky. Rozhovor působí souvisle a věcně, a přesto na konci chybí odpověď na to, čím začal. Walton (1989) popisuje tento tvar jako odchýlení od sporného bodu: jednotlivé kroky mohou být samy o sobě relevantní a dialog přesto míjí to, co měl rozhodnout.
 
-Diskuse začíná s **jasnou** centrální otázkou — typicky kritickou pro teorii nebo pozici manipulátora. Pozice manipulátora je v této otázce **slabá**.
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Na začátku stojí jasně položená otázka, která je pro bráněnou pozici nepříznivá. Pak přichází plynulý přesun na téma příbuzné, nikoli totožné — ne nesmysl, který by byl nápadný, ale sousední otázka, prohlášená za důležitější nebo za podmínku té původní. Následuje poctivá a často obsažná rozprava o tomto novém tématu. Nakonec, je-li vyžádán návrat, je přislíben a odložen. Hamblin (1970) ukazuje, že právě odchylky tohoto typu unikají výčtům klamů, protože žádný jednotlivý krok v nich není vadný. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Detection of weakness
+Detekční markery zachycené níže odpovídají téže struktuře: účastník si nepamatuje svou původní otázku, zápis z jednání nemá bod, u nějž by stálo rozhodnutí, a žádost o návrat k věci nese sociální cenu. Jowett a O'Donnell (2012) proto u přesvědčovacích kampaní sledují nejen to, co se říká, ale které otázky se v nich systematicky nevyskytují.
 
-Manipulátor identifikuje, že centrální otázka představuje **epistemické riziko**. Možnosti:
-
-- Direct response → přiznání slabosti
-- Strategická reinterpretace → riziko detekce
-- Imunizace → konsolidace ad hoc obran
-- **Tematická diverze** → přesun diskurze do bezpečného terénu
-
-### Krok 3 — Fluidní přesun na související, ale **distinktivní** téma
-
-Manipulátor **plynule** přesouvá diskusi:
-
-- „To je zajímavá otázka, ale **mnohem důležitější** je otázka…“
-- „Předtím, než to budeme řešit, **musíme adresovat**…“
-- „To je vlastně **symptom hlubšího problému**, kterým je…“
-- „**Související** otázkou, která by měla mít prioritu, je…“
-
-Klíčová charakteristika: nové téma je **související**, ale **strukturálně distinktivní**. Není to **non-sequitur** (které by bylo snadno detekovatelné), ale **soft pivot**.
-
-### Krok 4 — Engagement v novém tématu
-
-Manipulátor **detailně** debatuje v novém tématu — typicky v oblasti, kde má **silnou** pozici. Diskuse pokračuje konstruktivně, ale o **jiné** otázce.
-
-### Krok 5 — Zakomponování přesunu do narrative
-
-Pokud subjekt **explicitně** požaduje návrat k původní otázce, manipulátor:
-
-- „Vrátíme se k tomu, jakmile vyřešíme **tento** prerekvizit“
-- „Toto je **integrální** s tou otázkou, kterou jste položil“
-- „Po této stranou-otázce uvidíme původní otázku v novém světle“
-
-V praxi se k původní otázce **nikdy** nevrátíme.
+*Interpretace knihy*: odbočka je v rozhovoru běžná a často užitečná. Rozlišujícím znakem je účetnictví otázek — zda si rozprava pamatuje, co zůstalo nezodpovězeno. Kde se nevyřízené otázky neevidují, stačí k udržení pozice plynulost; nic se nemusí popírat (Walton, 1989).
 
 ## Fenomenologické znaky
 
@@ -235,6 +205,12 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 - **NABLA Infinity provenance tracking** — každé tvrzení má **explicit context lineage**; tematická diverze je detekovatelná jako **discontinuity** v lineage.
 - **OSINT investigation pipeline** — pre-defined investigation queries strukturálně chrání proti scope creep.
 
+## Literatura
+
+- Hamblin, C. L. (1970). *Fallacies*. Methuen.
+- Jowett, G. S., & O'Donnell, V. (2012). *Propaganda and Persuasion* (5th ed.). SAGE.
+- Walton, D. N. (1989). *Informal Logic: A Handbook for Critical Argumentation*. Cambridge University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -248,21 +224,23 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

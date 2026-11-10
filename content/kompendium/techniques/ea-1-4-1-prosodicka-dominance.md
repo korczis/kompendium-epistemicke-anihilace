@@ -38,43 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Strukturálně exploituje **automatické sociální interpretace** prosodických signálů jako indikátorů epistemického statusu a jistoty. Tyto interpretace jsou **evolučně formované** a jen **omezeně** modulovatelné explicitní deliberací.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování prosodické autority
+Prosodická dominance je pozorovatelná jako rozpor mezi tím, jak sdělení zní, a tím, co obstojí při přepisu. Posluchač odchází přesvědčen, ale neumí argument zopakovat; v písemném záznamu téhož vystoupení dojem jistoty mizí. Scherer (2003) shrnuje, že hlasové ukazatele nesou informaci o stavu mluvčího s vysokou spolehlivostí a že posluchač je zpracovává rychle a bez úmyslu — proto se jejich vliv neohlašuje jako vliv.
 
-Manipulátor používá prosodii signalizující **autoritu**:
+Retrospektivně se dá rozlišit, podle čeho se znaky skládají. Nápadná je především neměnnost: stejná rozhodnost provází místa doložená i nedoložená, takže posluchač nemá podle čeho rozlišit, kde je tvrzení pevné a kde ne. Dále se projevuje nepoměr mezi tempem a vahou — nejrychleji bývají míjena místa nejslabší — a uzavírající kadence, po níž se otázka klade hůř. Hall, Coats a Smith LeBeau (2005) v přehledu výzkumu ukazují, že takové hlasové a pohybové znaky jsou v sociálním styku čteny jako znaky postavení, nikoli jako znaky pravdivosti. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- **Nižší frekvenci** hlasu (hluboké, „rozhodné“ tóny)
-- **Klesající kadence** na konci vět (declarative, ne interrogative)
-- **Stabilní tempo** bez váhání
-- **Plnou hlasitost** bez slábnutí
-- **Strategické pauzy** signalizující „důležitost“
-- **Plynulost** bez rytmických přerušení
+Detekční markery zachycené níže odpovídají téže struktuře: posluchač souhlasí a zároveň nedokáže odvození zrekonstruovat, pociťuje nepohodu při vyslovení otázky a tentýž argument přijatý v jiném podání hodnotí jinak. Knapp a Hall (2010) proto doporučují posuzovat obsah odděleně od podání — v přepisu, v jiném hlase, s odstupem.
 
-### Krok 2 — Konzistence napříč obsahem
-
-Prosodická autorita je udržována **konzistentně**, **nezávisle** na epistemické robustnosti substantivního obsahu. **Slabé argumenty** jsou prezentovány **stejně** autoritativně jako **silné**. Subjekt nemůže prosodicky **rozlišit** mezi substantivně silnými a slabými tvrzeními.
-
-### Krok 3 — Inhibice kritického engagement
-
-Prosodická dominance **strukturálně** inhibuje kritické otázky:
-
-- Subjekt prožívá **subtilní sociální tlak** k akceptaci propozic
-- **Dotaz** by působil „neoprávněně“ v kontextu autoritativní prezentace
-- **Resistance** je interpretována (i samotným subjektem) jako „naive“ nebo „ignorantní“
-
-### Krok 4 — Modulace pro specifické cíle
-
-Manipulátor **modulator** prosodii pro specifické rétorické cíle:
-
-- **Critical claim** → silnější autorita
-- **Weak point** → rychlejší tempo, méně pauz (méně času na reflexi)
-- **Manipulace** → softer tone (snižuje detection)
-- **Závěr** → dominantní fall (signalizuje uzavření, inhibuje další otázky)
-
-### Krok 5 — Konsolidace skrze opakovanou expozici
-
-Po opakované expozici subjekt **internalizuje** asociaci mezi **prosodickou autoritou** a **epistemickou autoritou**. Konsoliduje se **defaultní deference** k autoritativně-znějícím zdrojům, **bez** kalibrace vůči substantivní kvalitě.
+*Interpretace knihy*: rozhodný hlas není vadou a jistota v přednesu není klam. Rozlišujícím znakem je kalibrace — zda se způsob podání mění tam, kde se mění doloženost. Kde zní stejně pevně vše, nenese podání informaci; nahrazuje ji (Knapp a Hall, 2010).
 
 ## Fenomenologické znaky
 
@@ -238,6 +210,12 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
 - **Written-first decision protocol** — klíčová rozhodnutí Prismatic platformy musí mít **written justification** předem, **before** verbal deliberation.
 - **Multi-modal verification** — žádné rozhodnutí nezávisí výhradně na verbal source.
 
+## Literatura
+
+- Hall, J. A., Coats, E. J., & Smith LeBeau, L. (2005). Nonverbal behavior and the vertical dimension of social relations: A meta-analysis. *Psychological Bulletin*, 131(6).
+- Knapp, M. L., & Hall, J. A. (2010). *Nonverbal Communication in Human Interaction* (7th ed.). Wadsworth.
+- Scherer, K. R. (2003). Vocal communication of emotion: A review of research paradigms. *Speech Communication*, 40(1–2).
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -257,21 +235,23 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

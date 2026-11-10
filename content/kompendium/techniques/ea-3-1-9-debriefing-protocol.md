@@ -38,16 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Debriefingový protokol** je technika **strukturované postintervenční integrace** po každé expozici nebo simulaci. Standard CISD (Critical Incident Stress Debriefing) je adaptován pro epistemické (nikoli traumatické) události. Bez protokolu se hromadí nezpracované perturbace — kumulativní efekt může destabilizovat i odolné jedince.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Debriefingový protokol je pozorovatelný na tom, co se s prožitou zkušeností stane bezprostředně poté: zda je převedena do slov a uspořádána, nebo zůstává nezpracovaná. Pennebaker (1997) shrnul evidenci, že převedení zkušenosti do souvislého popisu má měřitelný příznivý účinek, a že rozhoduje uspořádání, nikoli pouhé odreagování.
 
-1. **Fact phase** — co se stalo (deskriptivně, bez interpretace).
-2. **Thought phase** — kognitivní reakce (co mi prošlo myslí).
-3. **Reaction phase** — emoční a somatické reakce.
-4. **Symptom phase** — aktuální tělesné/emoční stavy.
-5. **Teaching phase** — normalizace reakcí + psychoeducation.
-6. **Re-entry phase** — explicitní plán návratu k běžné aktivitě + 24h check-in.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se vrstvy objevují: nejdřív popis toho, co se stalo, pak to, co člověku prošlo myslí, dále citová a tělesná odezva, poté pojmenování stavu, v němž je teď, a nakonec návrat k běžné činnosti. Toto vrstvení odpovídá protokolům jednorázového postintervenčního rozboru, jak je shrnují Rose, Bisson, Churchill a Wessely (2002), a má svou logiku — vede od vnějšího k vnitřnímu a zpět. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh je u této techniky doložen nejlépe ze všech v této podkategorii. Rose, Bisson, Churchill a Wessely (2002) v systematickém přehledu nenašli oporu pro to, že by jednorázový rozbor po vážné události předcházel pozdějším obtížím, a upozornili, že u některých lidí může stav zhoršit. Z toho plyne opatrnost: účast, která je povinná nebo tlačí k vyslovení toho, co člověk vyslovit nechce, je riziková.
+
+*Interpretace knihy*: rozlišujícím znakem je dobrovolnost a rozsah. Rozbor edukativní události není klinickou intervencí a nesmí se jí stát; kde se jí stává, patří do rukou s klinickou kvalifikací a pod supervizi (Herman, 1992).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Pennebaker, J. W. (1997). Writing about emotional experiences as a therapeutic process. *Psychological Science*, 8(3).
+- Rose, S., Bisson, J., Churchill, R., & Wessely, S. (2002). Psychological debriefing for preventing post traumatic stress disorder (PTSD). *Cochrane Database of Systematic Reviews*, (2).
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -38,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Recognition trénink** je technika rozvoje **rychlé fenomenologické detekce** manipulativních epistemických vzorců v reálných nebo simulovaných situacích. Cíl není analytická dekonstrukce ex post, ale **pre-attentive marker detection** — schopnost zaznamenat vzorec dříve, než stihne plně rozvinout účinek.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Recognition trénink je pozorovatelný na tom, jak rychle a podle čeho člověk pojmenuje, co se v situaci děje. Klein (1998) na zkušených praktikách ukázal, že rozhodnutí odborníka zpravidla nevzniká porovnáváním variant, nýbrž rozpoznáním typu situace — a že tuto schopnost lze popsat podle toho, čeho si člověk všimne nejdřív.
 
-1. **Saturated exposure** — kurátorovaná knihovna 100+ autentických micro-cases (videoklipy, transkripty, e-mail výměny).
-2. **Rapid identification drill** — 30s pohled, identifikace primární kategorie, justifikace markerů.
-3. **Adversarial cases** — nejednoznačné případy s expert disagreement; trénink kalibrace nejistoty.
-4. **Live shadowing** — pozorování supervizora v reálné konzultaci s real-time pattern annotation.
-5. **Independent assessment** — student samostatně analyzuje nové cases s post-hoc ověřením.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve se mění to, podle čeho učící se třídí případy: od nápadných povrchových rysů k rysům, které rozhodují o povaze situace. Chi, Feltovich a Glaser (1981) tento posun doložili srovnáním začátečníků a odborníků na témže materiálu. Pak přibývá schopnosti pojmenovat vlastní nejistotu u případů, které jsou sporné i mezi zkušenými. Dále se rozpoznání zrychluje a osamostatňuje od přítomnosti vedoucího. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle sebejistoty, která neroste s přesností. Ericsson, Krampe a Tesch-Römer (1993) zdůrazňují, že bez okamžité a pravdivé zpětné vazby vede opakování ke zrychlení, nikoli ke zlepšení — cvičení pak upevňuje chybné rozpoznávání.
+
+*Interpretace knihy*: rozlišujícím znakem je zacházení se sporným případem. Výcvik, který učí říci „nevím, podle čeho se rozhodnout“, chrání; výcvik, který odměňuje rychlý verdikt, vyrábí nálepkování — a tím vlastní podobu epistemické škody (Klein, 1998).
 
 ## Cílová populace
 
@@ -130,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink (EA-3.1.6) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2).
+- Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review*, 100(3).
+- Klein, G. (1998). *Sources of Power: How People Make Decisions*. MIT Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -151,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

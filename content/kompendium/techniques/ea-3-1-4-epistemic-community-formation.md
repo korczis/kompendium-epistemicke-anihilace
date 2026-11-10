@@ -38,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Formace epistemické komunity** je technika strukturovaného budování **trvalých peer-vazeb** mezi účastníky tréninku, jež slouží jako **dlouhodobá distribuovaná podpůrná infrastruktura**. Komunita není vedlejším efektem, ale **explicitní pedagogický cíl** — mnoho odhalených epistemických manipulací je detekovatelných pouze v dialogické triangulaci.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Formace epistemické komunity je pozorovatelná na tom, co se ve skupině smí vyslovit: zda lze přiznat nejistotu, omyl nebo neznalost bez ztráty postavení. Edmondson (1999) ukázala, že právě tato vlastnost — ne složení ani zadání — nejlépe předpovídá, zda se tým učí ze svých chyb.
 
-1. **Cohort onboarding** — strukturované úvodní setkání s explicitními normami.
-2. **Triadic peer assignment** — náhodně přiřazené triády rotující měsíčně.
-3. **Weekly check-ins** — 60min strukturovaný formát (round-robin reflection + dilemma share + commitment).
-4. **Quarterly retreats** — víkendové intenzivní formáty s alumni participací.
-5. **Alumni network maintenance** — po ukončení programu udržovaná infrastruktura (přes [EA-3.3.7](@/kompendium/techniques/ea-3-3-7-alumni-network.md)).
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve vznikají vazby mezi účastníky, které přetrvávají mimo společná setkání. Pak se ustaví způsob, jímž skupina zachází s neshodou, a teprve s ním se objevuje ochota přinést vlastní pochybnost dřív, než se stane jistotou. Dále se role ve skupině proměňují, jak se její členové posouvají od okraje k plné účasti — Lave a Wenger (1991) popsali tento posun jako vlastní mechanismus učení ve společenství praxe. Nakonec je společenství schopno pokračovat bez svého původního vedení (Wenger, 1998). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle toho, že skupina ztvrdne: neshoda z ní vymizí, slovník se sjednotí a nováčci přejímají závěry dřív, než si projdou důvody. Lave a Wenger (1991) připomínají, že společenství praxe předává i své slepé skvrny, a není proto samo zárukou kvality.
+
+*Interpretace knihy*: rozlišujícím znakem je osud menšinového hlasu. Skupina, která snese trvalou neshodu, poskytuje oporu k rozpoznávání; skupina, která ji vstřebá, poskytuje jen pocit jistoty (Edmondson, 1999).
 
 ## Cílová populace
 
@@ -130,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*, 44(2).
+- Lave, J., & Wenger, E. (1991). *Situated Learning: Legitimate Peripheral Participation*. Cambridge University Press.
+- Wenger, E. (1998). *Communities of Practice: Learning, Meaning, and Identity*. Cambridge University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -151,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

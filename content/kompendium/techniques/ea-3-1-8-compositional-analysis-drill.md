@@ -38,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Drill kompoziční analýzy** je technika dekompozice komplexních real-world manipulativních epizod na **konstitutivní techniky EA-1.* + scénáře EA-2.***. Studenti se učí rozeznat, že většina reálných epizod je kombinací 3–7 elementárních technik — nikoli monolitické 'manipulace'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Drill kompoziční analýzy je pozorovatelný na tom, jak jemně člověk rozloží skutečnou epizodu: zda zůstane u souhrnného slova „manipulace“, nebo pojmenuje jednotlivé složky a jejich pořadí. Chi, Feltovich a Glaser (1981) ukázali, že právě způsob třídění materiálu odlišuje odborníka od začátečníka spolehlivěji než množství znalostí.
 
-1. **Case selection** — autentický material (transkripty z ovČřených incidentů s anonymizací).
-2. **Independent analysis** — student samostatně dekomponuje na techniky/scénáře s časovými razítky.
-3. **Peer comparison** — paralelní analýzy 3 studentů jsou cross-validovány.
-4. **Expert ground truth** — porovnání s analýzou panelu certifikovaných analytiků.
-5. **Disagreement resolution** — strukturovaný dialog o interpretačních rozdílech.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve se rozpad epizody na části opírá o nápadné rysy — kdo mluvil ostřeji, co bylo nejvíc vidět. Pak se těžiště přesouvá k rysům, které o povaze epizody skutečně rozhodují. Dále se objevuje srovnání s rozbory druhých a schopnost vydržet, že se liší. Nakonec přibývá ochoty vést spor o výklad věcně, nikoli autoritou. Klein (1998) připomíná, že u zkušených praktiků je právě rozbor sporných případů tím, co rozpoznávání dál zpřesňuje. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle toho, že se rozbor mění v přiřazování kódů. Ericsson, Krampe a Tesch-Römer (1993) zdůrazňují, že bez pravdivé zpětné vazby upevňuje opakování i chybné třídění — a nálepka přiřazená bez opory je sama epistemickou škodou.
+
+*Interpretace knihy*: rozlišujícím znakem je zacházení s neshodou mezi rozbory. Kde je neshoda považována za chybu jednoho z analytiků, mizí z výcviku to podstatné; kde je považována za údaj o obtížnosti případu, zůstává rozbor opravitelný (Chi, Feltovich a Glaser, 1981).
 
 ## Cílová populace
 
@@ -130,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink (EA-3.1.6) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2).
+- Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review*, 100(3).
+- Klein, G. (1998). *Sources of Power: How People Make Decisions*. MIT Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -151,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

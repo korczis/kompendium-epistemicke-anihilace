@@ -22,83 +22,184 @@ image_alt = "Lakatosův výzkumný program – glosář"
 
 ## Definice
 
-**Lakatosův výzkumný program** (*Lakatosian research programme*, metodologie vědeckých výzkumných programů, MSRP) je metodologie vědy, kterou rozvinul Imre Lakatos jako zpřesnění Popperovy [falsifikace](@/glossary/falsifikace.md); souborně vyšla v *The Methodology of Scientific Research Programmes* (1978). Lakatos přijal Quineův-Duhemův postřeh, že jednotlivé hypotézy se netestují izolovaně, ale odmítl relativistický závěr. Místo toho rekonstruoval vědeckou praxi jako vývoj **výzkumných programů** se třemi strukturními prvky:
+**Lakatosův výzkumný program** (*Lakatosian research programme*, metodologie vědeckých
+výzkumných programů) je pojetí vědy, podle něhož není jednotkou hodnocení jednotlivá teorie,
+nýbrž posloupnost teorií spojených týmž jádrem a týmiž pravidly rozvoje (Lakatos, 1970).
+Program má tvrdé jádro, totiž malou množinu tvrzení, která se v daném programu nerevidují;
+ochranný pás pomocných hypotéz, jimiž se pohlcují empirické konflikty; a heuristiku, tedy
+pozitivní pravidla, kudy teorii rozvíjet, a negativní pravidla, které kroky jsou zakázány
+(Lakatos, 1978).
 
-1. **tvrdé jádro** – malá sada základních tvrzení, která nejsou přímo vystavena vyvrácení; identita programu;
-2. **ochranný pás** – pomocné hypotézy, které pohlcují empirické konflikty a mohou být revidovány, aniž by se program opustil;
-3. **[heuristika](@/glossary/heuristika.md)** – pozitivní (cesty rozvoje teorie) a negativní (které kroky jsou zakázány) pravidla omezující revize pásu.
-
-Rozhodující inovací je rozlišení **progresivního a degenerativního posunu**:
-
-- **progresivní posun problému** zavádí pomocné hypotézy, které *předpovídají nová fakta*, dříve neznámá – empirický obsah se záchranou *zvyšuje*;
-- **degenerativní posun problému** zavádí pomocné hypotézy jen k neutralizaci protidokladů, bez nových předpovědí – empirický obsah se záchranou *snižuje* (nebo zůstává stejný).
-
-Týž ochranný krok („přidáme předpoklad, že X“) může být jedním i druhým, podle toho, zda obsah zvyšuje, nebo snižuje. Lakatosovo kritérium je proto **diachronní** (posuzuje se v čase, podle výsledků), ne synchronní (posuzované v okamžiku).
+Rozhodující inovací je rozlišení progresivního a degenerativního posunu problému. Posun je
+progresivní, pokud pomocná hypotéza zavedená kvůli konfliktu předpovídá nová, dosud neznámá
+fakta, takže empirický obsah programu roste; je degenerativní, pokud hypotéza pouze
+neutralizuje protidoklad a žádnou novou předpověď nepřináší (Lakatos, 1970). Týž krok může být
+jedním i druhým podle toho, co z něj dále plyne, takže Lakatosovo kritérium je diachronní:
+posuzuje se v čase a podle výsledků, ne v okamžiku vyslovení.
 
 ## Původ a kontext pojmu
 
-Lakatos (1922–1974), maďarský filozof působící v Londýně, formuloval program v polemice s Popperem a Kuhnem; klíčová stať „Falsification and the Methodology of Scientific Research Programmes“ vyšla ve sborníku *Criticism and the Growth of Knowledge* (1970). Proti Popperovi namítal, že žádná teorie není vyvrácena jediným pokusem; proti Kuhnovi, že změnu paradigmatu nelze ponechat psychologii davu ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)). Kompendium jej vykládá v kapitole [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) a v [EA-7.2.4 Lakatos: výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md); stručnější heslo je [Lakatos Research Programme](@/glossary/lakatos-vyzkumny-program.md).
+Imre Lakatos formuloval metodologii v polemice s dvěma pozicemi. Proti Popperovi namítal, že
+žádná teorie není vyvrácena jediným nesouhlasným pozorováním, protože experiment testuje vždy
+celý svazek předpokladů (Lakatos, 1970); tento postřeh přejal od Duhema a Quina, podle nichž
+lze rozpor s pozorováním vždy umístit do kterékoli části svazku (Quine, 1951). Popperova
+vlastní pozice byla přitom jemnější, než jak ji pozdější učebnice podávaly, a sám připouštěl,
+že rozhodnutí o vyvrácení je metodologickou úmluvou (Popper, 1963); kniha ji vede v heslech
+[falsifikace](@/glossary/falsifikace.md) a [popperianismus](@/glossary/popperianismus.md).
+
+Proti Kuhnovi Lakatos namítal, že změnu velkých rámců nelze přenechat sociologii a psychologii
+vědecké obce, protože by se tím vzdala možnost racionálního hodnocení (Lakatos, 1970). Kuhn
+sám popisoval normální vědu jako řešení hádanek v rámci paradigmatu a krizi jako stav, v němž
+se anomálie nahromadí (Kuhn, 1962); srovnání obou pojetí vede heslo [Kuhnova
+revoluce](@/glossary/kuhnova-revoluce.md). Lakatosovo řešení je kompromisní: rámce se hodnotí,
+ale až zpětně, podle toho, který z nich v čase vytvářel nové předpovědi.
+
+Kritika přišla z obou stran. Feyerabend namítl, že Lakatosova pravidla neříkají, kdy je čas
+program opustit, protože degenerativní program se může po letech zotavit, a že tím ztrácejí
+normativní sílu (Feyerabend, 1975). Laudan k tomu doplnil, že vědecký pokrok lze lépe popsat
+jako řešení problémů než jako růst empirického obsahu, protože programy řeší i problémy
+pojmové (Laudan, 1977). Kniha pojem probírá v kapitole
+[Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) a v kartě [EA-7.2.4 Lakatos: výzkumný
+program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md).
 
 ## Jak se projevuje
 
-Rozdíl lze pozorovat na tom, co se děje po nepříjemném zjištění:
+Rozdíl mezi oběma typy posunu se pozná na tom, co se v programu stane po nepříjemném
+zjištění. Progresivní reakce vyvodí z opravy nový, samostatně ověřitelný důsledek a předloží
+jej ke zkoušce; degenerativní reakce vysvětlí výsledek dodatečnou podmínkou, z níž nic dalšího
+neplyne (Lakatos, 1970). Rozhodující je tedy přírůstek testovatelného obsahu, ne elegance
+vysvětlení.
 
-| situace | progresivní reakce | degenerativní reakce |
+| Situace | Progresivní reakce | Degenerativní reakce |
 |---|---|---|
-| předpověď nevyšla | „naše předpoklady o X byly špatně; z opravy plyne, že by se mělo stát Y – ověřme to“ | „to byla zkouška víry / nepřítel to zmařil / ještě nenastal čas“ |
-| vyvracející doklad | nová pomocná hypotéza s novou testovatelnou předpovědí | nová výjimka bez dalších důsledků |
-| po čase | program předpovídá víc než dřív | program předpovídá stejně nebo méně, jen vysvětluje zpětně |
+| předpověď se nepotvrdila | oprava předpokladu, z níž plyne nový ověřitelný důsledek | výjimka pro tento případ, bez dalších důsledků |
+| protidoklad z nezávislého zdroje | upřesnění podmínek s určením, kde má teorie platit a kde ne | zpochybnění zdroje bez vlastní předpovědi |
+| po několika letech | program předpovídá víc než na začátku | program jen zpětně vysvětluje, co se stalo |
 
-Ve skupinách s vysokou kontrolou je typické, že nesplněná proroctví vedou k degenerativním posunům – a k ještě silnějšímu závazku členů.
+Ve skupinách s vysokou kontrolou se tento vzorec projevuje zřetelně po nesplněném proroctví.
+Festinger a kol. popsali skupinu, která po nesplnění ohlášeného data nejen nezměnila jádro,
+ale posílila nábor a vysvětlila neúspěch dodatečným výkladem (Festinger a kol., 1956). Z
+hlediska metodologie jde o učebnicový degenerativní posun: jádro zůstalo, obsah se nezvýšil
+a závazek členů vzrostl (Lakatos, 1978).
 
 ## Mechanismus
 
-V [Kompendiu epistemické a kognitivní anihilace](@/kompendium/_index.md) je MSRP **kanonickým nástrojem k odlišení legitimního epistemického konzervatismu od imunizace EA-1.3.1** ([EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)). Vzorce EA-1.3.1 jsou přesně degenerativními posuny: každý protidoklad spustí obsahově prázdnou revizi pásu, která zachová tvrdé jádro, ale nevytvoří žádné nové předpovědi. Legitimní věda také reviduje pomocné hypotézy – její revize jsou však progresivní: určují *nové* pozorovatelné důsledky, které z teorie dříve neplynuly.
+Strukturně odpovídá degenerativní posun tomu, co kniha vede jako [imunizaci proti
+falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md): každý protidoklad
+spustí revizi ochranného pásu, která zachová jádro a nevytvoří žádnou novou předpověď
+(*interpretace knihy*). Legitimní věda ochranný pás reviduje rovněž; rozdíl není v tom, že se
+zachraňuje, ale v tom, co ze záchrany dále plyne (Lakatos, 1970).
 
-Rámec také objasňuje, proč naivní falsifikacionismus jako obrana selhává: každý může teorii zachránit revizí pásu, a otázkou není, *zda* je záchrana dovolena, ale *jaká* záchrana to je. Nepoctivou variantou je **skryté tvrdé jádro** – přesvědčení, která se *chovají* jako tvrdé jádro, ale *prezentují* se jako řízená doklady.
+Z toho vyplývá, proč naivní falzifikacionismus jako obrana nestačí. Požadavek „ukaž mi, co by
+tvou teorii vyvrátilo“ lze splnit libovolně a kdykoli znovu, protože svazek předpokladů
+dovoluje přesunout rozpor jinam (Quine, 1951). Užitečnou otázkou proto není, zda je záchrana
+dovolena, nýbrž jaký má záchrana obsah a zda se v čase opakuje bez přírůstku (Lakatos, 1978).
+
+Druhým rozpoznatelným rysem je skryté tvrdé jádro, tedy přesvědčení, které se chová jako
+nerevidovatelné, ale prezentuje se jako řízené doklady. Lakatos zdůrazňoval, že poctivý
+program své jádro vyslovuje otevřeně, protože právě tím umožňuje hodnocení (Lakatos, 1970).
+*Interpretace knihy*: kde je jádro skryto, je rozprava o dokladech zdánlivá, protože žádný
+doklad nemůže mít důsledek, a tím se blíží stavu, který kniha vede jako [kognitivní
+anti-rekurzivitu](@/glossary/kognitivni-anti-rekurzivita.md).
+
+Třetím rysem je zacílení na rozhodovací pravidlo. Konfirmační zkreslení vede k tomu, že se
+protidoklady systematicky vyhodnocují přísněji než doklady podporující; rozdíl mezi programy
+tedy nelze posuzovat podle dojmu účastníků, ale podle zaznamenaného průběhu (Laudan, 1977).
+Kniha k tomu vede heslo [konfirmační bias](@/glossary/konfirmacni-bias.md).
 
 ## Odlišení
 
-- **Od Popperovy falsifikace:** Popper hodnotí teorii podle toho, zda je vyvratitelná a nevyvrácená; Lakatos hodnotí program podle vývoje v čase.
-- **Od [hermeneutiky](@/glossary/hermeneutika.md):** odlišný legitimní rámec pro revize mimo empirickou vědu; analogii progresivní a degenerativní revize lze ale použít i na výklad.
-- **Od víry:** náboženské přesvědčení nemusí být výzkumným programem a nemusí se tak hodnotit; problém nastává, když se nefalzifikovatelné jádro prezentuje jako empirické zjištění.
+Od Popperovy falsifikace se Lakatosovo pojetí liší jednotkou i časovým horizontem: Popper
+hodnotí teorii podle vyvratitelnosti a dosavadního nevyvrácení, Lakatos program podle vývoje
+obsahu v čase (Popper, 1963). Od Kuhnova paradigmatu se liší normativním nárokem: Kuhnův popis
+je především historický a sociologický, Lakatosův má poskytnout měřítko, jímž lze volbu mezi
+programy odůvodnit (Kuhn, 1962).
+
+Od [hermeneutiky](@/glossary/hermeneutika.md) se odlišuje oblastí platnosti. Výklad textu
+nebo jednání nemá za cíl nové předpovědi, takže kritérium přírůstku empirického obsahu na něj
+nelze přenést přímo; analogie progresivní a degenerativní revize je přesto použitelná,
+pokud se měří přírůstkem toho, co výklad umožňuje vidět (Laudan, 1977).
+
+Od víry se odlišuje nárokem, který na sebe program bere. Náboženské přesvědčení nemusí být
+výzkumným programem a nemusí se podle těchto měřítek hodnotit; problém nastává teprve tam, kde
+se nefalzifikovatelné jádro předkládá jako empirické zjištění (Lakatos, 1978). Tento přechod
+sleduje heslo [pseudověda](@/glossary/pseudoscience.md).
 
 ## Význam pro Kompendium
 
-Na platformě Prismatic, z níž kniha vzešla, je Lakatosovo rozlišení převedeno do **metriky změny obsahu** u revizí přesvědčení:
+Pro knihu je metodologie kanonickým nástrojem k odlišení legitimního epistemického
+konzervatismu od imunizace. Člověk ani skupina neupouštějí od přesvědčení po prvním
+protidokladu, a nemají, protože ochranný pás k poznání patří; rozhodující je, zda po revizi
+něco nového vyplývá (Lakatos, 1970). Kniha proto neoznačuje záchranu jako takovou, nýbrž
+záchrany, jejichž výsledek je opakovaně bez obsahu (*interpretace knihy*); zařazení do
+taxonomie vede heslo [taxonomie EA](@/glossary/taxonomie-ea.md).
 
-- [Decision Engine](@/glossary/decision-engine.md) sleduje každou revizi pomocné struktury přesvědčení a počítá **změnu obsahu** – vytváří revize nové testovatelné předpovědi, nebo jen neutralizuje předchozí protidoklad? Revize se zápornou nebo nulovou změnou obsahu se označí jako kandidáti degenerativního posunu a snižují kalibrační skóre přesvědčení. Decision Engine proto neoznačuje záchranu jako takovou – označuje záchrany, jejichž výsledky jsou degenerativní.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) vede **knihy pomocných hypotéz pro každé přesvědčení** s časy a registracemi předpovědí, takže úsudek o progresivnosti lze učinit zpětně podle skutečného záznamu, ne podle narativní rekonstrukce.
-- [Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) výslovně vkládá do usuzování platformy vzorce degenerativních posunů, aby ověřil, že je hradlo změny obsahu zachytí dřív, než zatvrdnou v [kognitivní anti-rekurzivitu](@/glossary/kognitivni-anti-rekurzivita.md).
-- Doplňkem je **poctivé prohlášení tvrdého jádra**: platforma vyžaduje výslovné určení, která přesvědčení jsou jádrem (nepodléhají revizi kvůli jednomu dokladu) a která pásem (revidovatelná). Skrytá tvrdá jádra jsou zdokumentovaným vzorcem EA.
+Druhým užitím je požadavek poctivého prohlášení jádra. Tam, kde skupina nebo instituce
+vysloví, která tvrzení nepodléhají revizi kvůli jedinému dokladu a která ano, je rozprava
+o dokladech možná; kde to vysloveno není, nelze rozhodnout, co by vůbec mohlo mít důsledek
+(Lakatos, 1978). Širší rámec hrozeb vede heslo [epistemická
+anihilace](@/glossary/epistemicka-anihilace.md).
 
 ## Obrana a zotavení
 
-**Pro jednotlivce:** u vlastních i cizích přesvědčení se ptát, co by z nich mělo plynout v budoucnu, a zapisovat si to; po čase zkontrolovat, zda se program „zlepšuje“, nebo jen vysvětluje. Pojmenovat vlastní tvrdé jádro otevřeně je poctivější než předstírat, že žádné nemám.
+Pro jednotlivce je použitelným nástrojem vlastní záznam předpovědí. Zapsat si dopředu, co má
+z přesvědčení plynout, a po čase porovnat zápis se skutečností odstraňuje potíž, kterou
+Lakatos pokládal za podstatnou: progresivnost nelze posoudit z narativní rekonstrukce, protože
+ta se přizpůsobí výsledku (Lakatos, 1978). Pojmenovat vlastní jádro otevřeně je přitom
+poctivější než předstírat, že žádné není (Popper, 1963).
 
-**Pro terapii po odchodu ze skupiny:** zpětný pohled na řadu degenerativních posunů (nesplněné předpovědi a jejich vysvětlení) bývá silnějším argumentem než vyvracení jednotlivých tvrzení – ale jen tehdy, když jej člověk udělá sám a ve vlastním tempu; viz [falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) a [revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md).
+Pro práci s člověkem, který odešel ze skupiny s vysokou kontrolou, je zpětný pohled na řadu
+degenerativních posunů obvykle účinnější než vyvracení jednotlivých tvrzení, protože ukazuje
+vzorec, nikoli jednu chybu; Festinger a kol. však zároveň doložili, že vnější tlak na změnu
+jádra vede k jeho posílení, takže postup musí zůstat na tempu toho, kdo jej dělá (Festinger
+a kol., 1956). Nácvik vede návod [falzifikační
+myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) a [revize
+přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md).
+
+## Meze a kritika pojmu
+
+První mezí je neurčitost okamžiku. Metodologie dokáže posoudit, že program byl v určitém
+období degenerativní, ale neříká, kdy je racionální jej opustit, a historie zná programy, které
+se po dlouhé stagnaci zotavily (Feyerabend, 1975). Z toho plyne praktický důsledek: označení
+„degenerativní“ je popisem dosavadního záznamu, ne rozsudkem o budoucnosti.
+
+Druhou mezí je měřitelnost obsahu. Pojem nových faktů a přírůstku empirického obsahu se
+v konkrétních případech vykládá různě a Laudan namítá, že u pojmových problémů nelze přírůstek
+vůbec takto měřit (Laudan, 1977). Třetí mezí je riziko účelového použití: nálepka
+degenerativního programu je rétoricky silná a lze jí vyřadit oponenta, u něhož by přísné
+uplatnění kritéria vedlo k jinému výsledku, a kniha proto u každého takového soudu žádá
+doložený záznam předpovědí (*interpretace knihy*).
 
 ## Literatura
 
-- Imre Lakatos: „Falsification and the Methodology of Scientific Research Programmes“, in: I. Lakatos, A. Musgrave (eds.): *Criticism and the Growth of Knowledge* (1970).
-- Imre Lakatos: *The Methodology of Scientific Research Programmes. Philosophical Papers, Vol. 1* (1978).
+- Festinger, L., Riecken, H. W., & Schachter, S. (1956). *When Prophecy Fails*. University of Minnesota Press.
+- Feyerabend, P. (1975). *Against Method*. New Left Books.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Lakatos, I. (1970). *Falsification and the Methodology of Scientific Research Programmes*. In: Lakatos, I., & Musgrave, A. (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University Press.
+- Lakatos, I. (1978). *The Methodology of Scientific Research Programmes. Philosophical Papers, Vol. 1*. Cambridge University Press.
+- Laudan, L. (1977). *Progress and Its Problems: Towards a Theory of Scientific Growth*. University of California Press.
+- Popper, K. R. (1963). *Conjectures and Refutations*. Routledge.
+- Quine, W. V. O. (1951). *Two Dogmas of Empiricism*. The Philosophical Review.
 
 ## Související
 
 **Pojmy**
 
-- [Falsifikace](@/glossary/falsifikace.md) – předchozí rámec, který Lakatos zpřesnil.
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – model hrozby, jehož EA-1.3.1 je přesně degenerativním posunem.
-- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – základní zranitelnost.
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) – přiřazuje degenerativní vzorce konkrétním kódům.
+- [Falsifikace](@/glossary/falsifikace.md) – rámec, který Lakatos zpřesnil.
+- [Popperianismus](@/glossary/popperianismus.md) – původní pozice a její pozdější zjednodušení.
+- [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md) – druhý pól polemiky.
+- [Pseudověda](@/glossary/pseudoscience.md) – kde se nerevidovatelné jádro vydává za zjištění.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – zranitelnost, na níž degenerativní posun stojí.
+- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – zatvrdlý koncový stav.
 - [Hermeneutika](@/glossary/hermeneutika.md) – odlišný legitimní rámec pro neempirické revize.
-- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – zatvrdlý koncový stav degenerativního vzorce.
 
 **Kniha**
 
 - [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) – kapitola základních kategorií.
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – technika, kterou rámec odhaluje.
-- [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomie.
+- [EA-7.2.4 Lakatos: výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) – referenční karta.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – zařazení degenerativních vzorců.
+- [Falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – nácvik pro jednotlivce.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

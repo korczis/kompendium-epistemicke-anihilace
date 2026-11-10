@@ -29,7 +29,7 @@ Graf čte fáze přímo z následujícího číslovaného seznamu: tučný náze
 5. **Zotavení** – dlouhodobé upevnění samostatnosti, návrat do práce, učení a společenství a obnova odolnosti a smyslu: [rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md), [vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md), [vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md), [kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md), [rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md), [prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md), [posttraumatický růst](@/kompendium/recovery-protocols/longterm-post-traumatic-growth.md) a [altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md).
 
 <canvas id="section-06-recovery-flow" width="800" height="500"></canvas>
-<div id="recovery-flow-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="recovery-flow-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="section-06-recovery-flow" /> }}
 
 ## Co graf zobrazuje

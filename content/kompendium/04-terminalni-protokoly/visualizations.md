@@ -18,8 +18,8 @@ toc = false
 
 Tato vizualizace patří k [sekci 04](@/kompendium/04-terminalni-protokoly/_index.md), která popisuje terminální protokoly – systémové sekvence, jež mohou vést k hlubokému a dlouhodobému narušení poznávání a identity –, a k ochranným postupům, které je mají včas zachytit: [před-simulačnímu screeningu](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) a [intra-simulačnímu monitoringu](@/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md). Radiální strom ukazuje, kam jednotlivé kapitoly sekce čtenáře posílají: do glosáře, do klinických kapitol, do příloh nebo do filozofického rámce. Je určen těm, kdo odpovídají za bezpečí lidí v intenzivních výcvikových programech, v terapii nebo ve výzkumu a potřebují rychle najít, kde kniha k dané situaci říká víc. Strom je odvozen z odkazů v knize, nikoli z rozhodovacího algoritmu.
 
-<div id="section-04-decision-tree" class="rounded bg-slate-900"></div>
-<div id="tree-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="section-04-decision-tree" class="rounded-lg"></div>
+<div id="tree-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="section-04-decision-tree" /> }}
 
 ## Co strom zobrazuje

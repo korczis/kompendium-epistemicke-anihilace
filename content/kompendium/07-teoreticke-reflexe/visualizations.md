@@ -18,8 +18,8 @@ toc = false
 
 Tato vizualizace patří k [sekci 7](@/kompendium/07-teoreticke-reflexe/_index.md) a zobrazuje její kapitoly – tematické úvahy i kapitoly věnované jednotlivým myslitelům, jejichž práce pomáhají porozumět [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) – jako silově uspořádaný graf. Neslouží jako dějiny filozofie ani jako mapa vlivů mezi mysliteli. Je to orientační mapa knihy: ukazuje, z jakých tradic sekce čerpá, mezi kterými kapitolami kniha sama odkazuje a kde najít podrobný výklad. Uzly, barvy i vazby jsou odvozeny z odkazů a katalogu knihy.
 
-<div id="section-07-framework-map" class="rounded bg-slate-900"></div>
-<div id="framework-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="section-07-framework-map" class="rounded-lg"></div>
+<div id="framework-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="section-07-framework-map" /> }}
 
 ## Co mapa zobrazuje

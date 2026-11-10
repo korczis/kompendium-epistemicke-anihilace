@@ -10,7 +10,8 @@ The dictionary is derived from the content, never written by hand:
 
 On each page the first plain-prose occurrence of a term is linked, unless the page already
 links that target or is that target. Never touched: front matter, fenced and inline code,
-headings, existing links and images, HTML, Tera expressions and URLs. Conservative matching:
+headings, the bibliography (a `## Literatura` section and its synonyms, which names works, not
+terms), existing links and images, HTML, Tera expressions and URLs. Conservative matching:
 whole words only, case-insensitive; a single-word term needs at least 8 letters and must not be
 on the stop list; each target is linked at most once per page, longest terms first, so a
 second run changes nothing.
@@ -52,6 +53,9 @@ PROTECTED = re.compile(
     r"|^[^\[\]\n]*\]\([^)\n]*\)|\[[^\]\n]*$"
 )
 EA = re.compile(r"(?<![\w/-])EA-(\d+)\.(\d+)\.(\d+)(?![\w.]*\d)")
+# A bibliography names works, not the book's terms: "Coercive Control" there is Stark's title.
+BIBLIOGRAPHY = re.compile(r"^#{1,2}\s+(Literatura|Bibliografie|Reference|Zdroje|Prameny)\b", re.I)
+SECTION = re.compile(r"^#{1,2}\s")
 
 
 def dictionary(pages: list) -> tuple:
@@ -105,13 +109,15 @@ def link_page(text: str, own: str, links: set, terms: dict, codes: dict, pattern
     if bold_terms:
         body, linked = link_bold(body, own, bold_terms)
         done |= linked  # a term linked in bold needs no second link in the prose
-    out, in_code = [], False
+    out, in_code, in_bibliography = [], False, False
     for line in body.split("\n"):
         if FENCE.match(line):
             in_code = not in_code
             out.append(line)
             continue
-        if in_code or line.lstrip().startswith("#") or added >= MAX_NEW:
+        if not in_code and SECTION.match(line):
+            in_bibliography = bool(BIBLIOGRAPHY.match(line))
+        if in_code or in_bibliography or line.lstrip().startswith("#") or added >= MAX_NEW:
             out.append(line)
             continue
         pieces, last = [], 0

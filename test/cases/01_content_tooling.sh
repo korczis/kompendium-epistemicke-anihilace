@@ -105,6 +105,26 @@ grep -x 'gaslighting vlivu](@/kompendium/forensic-legal/gaslighting-test.md) zů
   content/kompendium/case-01-links/page.md >/dev/null   # a wrapped link is never relinked
 grep -c '](@/kompendium/techniques/ea-1-6-1-' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null
 python3 scripts/link-terms.py --check content/kompendium/case-01-links >/dev/null
+# A bibliography names works, not terms: a title there is never linked, prose after it is.
+cat > content/kompendium/case-01-links/lit.md <<'PAGE'
++++
+title = "Literatura"
++++
+
+Text bez pojmu.
+
+## Literatura
+
+- Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*.
+
+## Další oddíl
+
+Gaslighting v próze.
+PAGE
+python3 scripts/link-terms.py content/kompendium/case-01-links >/dev/null
+grep -x -- '- Sweet, P. L. (2019). The sociology of gaslighting. \*American Sociological Review\*.' \
+  content/kompendium/case-01-links/lit.md >/dev/null
+grep -x '\[Gaslighting\](@/glossary/gaslighting.md) v próze.' content/kompendium/case-01-links/lit.md >/dev/null
 rm -r content/kompendium/case-01-links
 
 # derive-links: a quick-reference card and its technique link each other in a generated block,

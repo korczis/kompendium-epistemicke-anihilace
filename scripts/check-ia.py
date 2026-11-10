@@ -119,7 +119,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 5, "howto": 0, "drug-dose": 0,
-                "template-figure": 163}  # at 0 a rule stays: never baselined
+                "template-figure": 103}  # at 0 a rule stays: never baselined
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 

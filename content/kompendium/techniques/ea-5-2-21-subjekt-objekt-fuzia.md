@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps subjekt-objektové struktury |
-| **Reverzibilita** | Velmi nízká — 24–48 měsíců, často nereverzibilní bez intenzivní terapie |
+| **Reverzibilita** | Velmi nízká —, často nereverzibilní bez intenzivní terapie |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

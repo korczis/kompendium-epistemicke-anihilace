@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — rozpad samotné kategoriální organizace zkušenosti |
-| **Reverzibilita** | Téměř nulová bez specializované rekategorizační práce, 24–60 měsíců |
+| **Reverzibilita** | Téměř nulová bez specializované rekategorizační práce |
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

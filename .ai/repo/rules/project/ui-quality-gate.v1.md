@@ -22,17 +22,17 @@ odhalí jen prohlížeč.
 
 # Required behaviour
 
-- `scripts/ui-test.sh` sestaví web pod produkčním prefixem cesty
+- `npm run verify` (`scripts/verify-all.sh`) sestaví web pod produkčním prefixem cesty
   (`/kompendium-epistemicke-anihilace/`, jako GitHub Pages) a spustí:
-  - `scripts/smoke-ui.cjs`: každá třída stránek se načte bez chyby JS a sítě; Mermaid,
+  - scénáře v `test/e2e/surfaces.cjs`: každá třída stránek se načte bez chyby JS a sítě; Mermaid,
     Okolí stránky, Mapa, Stav, vizualizace, filtr a fasety glosáře, podstromy sidebaru,
     vyhledávání (Ctrl+K, šipky, Enter, kód EA na prvním místě) a mobilní drawer (fokus
     dovnitř a zpět, zavřený drawer `inert`) fungují;
   - `scripts/audit-ui.cjs`: žádné porušení axe-core WCAG 2.2 AA (375 a 1440 px, světlý i
     tmavý režim), žádná chyba konzole či sítě, žádné vodorovné přetečení (320–1920 px),
     CLS nejvýše 0,1.
-- Nová interaktivní funkce dostane scénář ve `scripts/smoke-ui.cjs`; nová třída stránek
-  řádek v `PAGES` obou skriptů.
+- Nová interaktivní funkce dostane scénář v `test/e2e/surfaces.cjs`; nová třída stránek
+  řádek v seznamu stránek auditu i scénářů.
 - Interaktivní komponenty řídí Flowbite JS; projektový JS jen doplňuje stav přístupnosti
   nebo funkce, které Flowbite nemá (vyhledávání, grafy, vizualizace).
 - Vizualizační knihovny se načítají jen tam, kde je skript stránky volá
@@ -42,7 +42,7 @@ odhalí jen prohlížeč.
 
 # Failure behaviour
 
-Změna, po které `scripts/ui-test.sh` skončí nenulovým kódem, se opraví dřív, než se sloučí.
+Změna, po které `npm run verify` skončí nenulovým kódem, se opraví dřív, než se sloučí.
 CI (job `ui`) běží na každém pull requestu a před nasazením.
 
 # Verification
@@ -50,11 +50,10 @@ CI (job `ui`) běží na každém pull requestu a před nasazením.
 Brána rozšiřuje, nenahrazuje `project.page-polish`: jeden místní vstup pro celé CI.
 
 ```sh
-npm run verify                # scripts/verify-all.sh: zrcadlo CI včetně test/e2e/surfaces.cjs;
-                              # s větví feature/ui-app-shell-v2 přibude krok auditu
-                              # (scripts/ui-test.sh: smoke + axe WCAG 2.2 AA, přetečení, CLS)
+npm run verify                # scripts/verify-all.sh: zrcadlo CI; s větví feature/ui-app-shell-v2
+                              # jeho kroky scripts/audit-ui.cjs (axe WCAG 2.2 AA, přetečení,
+                              # chyby konzole, CLS) a scénáře interaktivity v test/e2e/surfaces.cjs
 npm run verify -- --fast      # rychlá část
 ```
 
-Dokud krok auditu není na `main`, platí audit z větve UI (`scripts/ui-test.sh`) jako podmínka
-jejího sloučení.
+Dokud krok auditu není na `main`, je jeho úspěch ve větvi UI podmínkou jejího sloučení.

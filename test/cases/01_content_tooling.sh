@@ -270,6 +270,17 @@ python3 scripts/check-ia.py --list howto | cut -f1 | grep -x 'content/kompendium
 if python3 scripts/check-ia.py --introduce howto >/dev/null 2>&1; then
   echo "--introduce howto accepted"; exit 1; fi
 rm -r content/kompendium/case-01-howto
+# drug-dose: a dose in prose is refused; the same number in a bibliography title is not.
+mkdir -p content/kompendium/case-01-dose
+printf '+++\ntitle = "D"\n+++\n\nLékař zváží SSRI v dávce 20 mg denně.\n' > content/kompendium/case-01-dose/x.md
+python3 scripts/check-ia.py --list drug-dose | cut -f1 | grep -x 'content/kompendium/case-01-dose/x.md' >/dev/null
+printf '+++\ntitle = "D"\n+++\n\nText bez dávky.\n\n## Literatura\n\n- Frachon, I. (2010). *Mediator 150 mg*. Dialogues.\n' > content/kompendium/case-01-dose/x.md
+if python3 scripts/check-ia.py --list drug-dose | cut -f1 | grep -qx 'content/kompendium/case-01-dose/x.md'; then
+  echo "drug-dose flagged a bibliography title"; exit 1; fi
+if python3 scripts/check-ia.py --introduce drug-dose >/dev/null 2>&1; then
+  echo "--introduce drug-dose accepted"; exit 1; fi
+rm -r content/kompendium/case-01-dose
+
 # technique-name: a heading under a real code with the wrong name is listed; the right name is not.
 first=$(ls content/kompendium/techniques/ea-1-1-1-*.md | head -1)
 code_title=$(grep -m1 '^title' "$first" | sed -E 's/^title = "EA-[0-9.]+ (.*)"/\1/')

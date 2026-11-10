@@ -1,0 +1,114 @@
+{#- Interaktivní rejstřík pojmů (příloha „Index pojmů“). Seznam se skládá při sestavení
+    z glosáře (get_section), nic není vypsáno ručně: název, popis, kategorie (extra.category,
+    pojmenovaná stejně jako v průzkumníku glosáře) a vazby (extra.related_terms). Bez JS zůstává
+    úplný seznam s odkazy; static/js/viz/rejstrik.js přidá filtr textem (bez ohledu na
+    diakritiku), podle kategorie a písmene a kruhový graf shluků (ECharts). Toolbar je adaptace
+    Pro bloku advanced-tables (hledání + Filter dropdown), karty podle admin dashboardu. -#}
+{%- set rj = get_section(path="glossary/_index.md") -%}
+{%- set rj_groups = rj.pages | group_by(attribute="extra.category") -%}
+{%- set_global rj_max = 0 -%}
+{%- for name, ps in rj_groups -%}{%- if ps | length > rj_max -%}{%- set_global rj_max = ps | length -%}{%- endif -%}{%- endfor -%}
+<section id="rejstrik-pojmu" class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="rj-title" data-rejstrik>
+  <div class="mb-4">
+    <h2 id="rj-title" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Interaktivní rejstřík pojmů</h2>
+    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Všechna hesla <a href="{{ rj.permalink }}" class="font-medium text-primary-700 hover:underline dark:text-primary-400">glosáře</a>, odvozená při sestavení webu. Hledání prochází český i anglický název, zkratku a popis a nerozlišuje diakritiku.</p>
+    <dl class="mt-4 grid grid-cols-2 gap-2 sm:gap-4">
+      <div class="min-w-0 rounded-lg border border-gray-200 bg-white p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-800">
+        <dt class="text-xs font-medium text-gray-500 sm:text-sm dark:text-gray-400">Pojmů v glosáři</dt>
+        <dd class="mt-1 text-2xl font-bold leading-none text-gray-900 dark:text-white">{{ rj.pages | length }}</dd>
+      </div>
+      <div class="min-w-0 rounded-lg border border-gray-200 bg-white p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-800">
+        <dt class="text-xs font-medium text-gray-500 sm:text-sm dark:text-gray-400">Kategorií</dt>
+        <dd class="mt-1 text-2xl font-bold leading-none text-gray-900 dark:text-white">{{ rj_groups | length }}</dd>
+      </div>
+    </dl>
+  </div>
+
+  {#- Graf shluků: rezervovaná výška, textovou alternativou je seznam níže. -#}
+  <div class="mb-4 rounded-lg border border-gray-200 bg-white p-4 sm:p-6 dark:border-gray-700 dark:bg-gray-800">
+    <h3 class="mb-1 text-base font-bold text-gray-900 dark:text-white">Jak se pojmy shlukují podle kategorií</h3>
+    <p id="rj-chart-desc" class="mb-4 text-sm text-gray-500 dark:text-gray-400">Každý bod je jedno heslo, barva je jeho kategorie a čáry jsou související pojmy (related_terms). Kategorie leží po obvodu vedle sebe, takže husté svazky čar ukazují vazby uvnitř i mezi kategoriemi. Klepnutím na bod heslo otevřete; z klávesnice graf vyberte tabulátorem, šipkami procházejte hesla a klávesou Enter je otevřete. Textovou alternativou grafu je seznam pojmů pod ním.</p>
+    <div data-rj-chart tabindex="0" role="img" aria-label="Kruhový graf hesel glosáře rozdělených podle kategorií a spojených souvisejícími pojmy" aria-describedby="rj-chart-desc" class="flex h-80 w-full items-center justify-center rounded-lg text-sm text-gray-500 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:h-[28rem] dark:text-gray-400 dark:focus:ring-primary-800">Načítám graf…</div>
+    <p data-rj-current aria-live="polite" class="mt-2 min-h-5 text-sm font-medium text-gray-900 dark:text-white"></p>
+    <ul data-rj-legend class="mt-3 flex min-h-5 flex-wrap gap-x-4 gap-y-1" aria-label="Legenda: barvy kategorií"></ul>
+    <p data-rj-note class="mt-2 min-h-4 text-xs text-gray-500 dark:text-gray-400"></p>
+    <template data-rj-legend-item><li class="inline-flex items-center text-xs text-gray-600 dark:text-gray-400"><span data-rj-swatch class="mr-1.5 h-3 w-3 shrink-0 rounded-full" aria-hidden="true"></span><span data-rj-label></span></li></template>
+  </div>
+
+  {#- Toolbar (hledání, Filter dropdown s kategoriemi, A–Ž) a seznam. -#}
+  <div class="rounded-lg border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800">
+    <div class="space-y-4 border-b border-gray-200 p-4 sm:p-6 dark:border-gray-700">
+      <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+        <div class="w-full md:w-1/2">
+          <label for="rj-q" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Hledat pojem</label>
+          <div class="relative">
+            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+              <svg class="h-5 w-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg>
+            </div>
+            <input id="rj-q" type="search" autocomplete="off" placeholder="např. ukotvení, gaslighting, bias…" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500">
+          </div>
+        </div>
+        <div class="flex w-full flex-col gap-2 sm:flex-row sm:items-center md:w-auto">
+          <button id="rj-cat-button" type="button" data-dropdown-toggle="rj-cat-dropdown" aria-controls="rj-cat-dropdown" class="flex w-full items-center justify-center rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200 md:w-auto dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700">
+            <svg class="mr-2 h-4 w-4 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clip-rule="evenodd"/></svg>
+            Kategorie
+            <span data-rj-cat-count hidden class="ml-2 rounded-md bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"></span>
+            <svg class="ml-1.5 h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path clip-rule="evenodd" fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
+          <div id="rj-cat-dropdown" class="z-10 hidden w-64 max-w-[calc(100vw-2rem)] rounded-lg bg-white p-3 shadow dark:bg-gray-700">
+            <fieldset>
+              <legend class="mb-2 text-sm font-medium text-gray-900 dark:text-white">Zobrazit kategorie</legend>
+              <ul class="max-h-64 space-y-1 overflow-y-auto text-sm">
+                {#- Podle počtu pojmů sestupně, při shodě abecedně. -#}
+                {%- set_global rj_i = 0 %}
+                {%- for k in range(end=rj_max) %}{% set rj_n = rj_max - k %}
+                {%- for name, ps in rj_groups %}{% if ps | length == rj_n %}{% set_global rj_i = rj_i + 1 %}
+                <li class="flex min-h-6 items-center">
+                  <input id="rj-cat-{{ rj_i }}" type="checkbox" value="{{ name }}" data-rj-cat class="h-4 w-4 rounded border-gray-300 bg-gray-100 text-primary-600 focus:ring-2 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-primary-600">
+                  <label for="rj-cat-{{ rj_i }}" class="ml-2 flex flex-1 items-center justify-between gap-2 py-1 text-sm font-medium text-gray-900 dark:text-gray-100"><span class="min-w-0 break-words">{{ name }}</span><span class="shrink-0 text-gray-500 dark:text-gray-300">{{ rj_n }}</span></label>
+                </li>
+                {%- endif %}{% endfor %}
+                {%- endfor %}
+              </ul>
+            </fieldset>
+          </div>
+          <button type="button" data-rj-reset="toolbar" hidden class="w-full rounded-lg border border-gray-300 bg-white px-3 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 md:w-auto dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:focus:ring-gray-700">Zrušit filtr</button>
+        </div>
+      </div>
+      <nav aria-label="Filtr podle počátečního písmene">
+        <ul class="flex flex-wrap gap-1">
+          <li><button type="button" data-rj-letter="" aria-pressed="true" class="flex h-9 min-w-9 items-center justify-center rounded-lg border border-gray-200 bg-white px-2 text-sm font-semibold text-gray-900 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-primary-300 aria-pressed:border-primary-700 aria-pressed:bg-primary-700 aria-pressed:text-white dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-primary-800 dark:aria-pressed:border-primary-600 dark:aria-pressed:bg-primary-600">Vše</button></li>
+          {%- for l in ["#", "A", "B", "C", "Č", "D", "E", "F", "G", "H", "CH", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "Ř", "S", "Š", "T", "U", "V", "W", "X", "Y", "Z", "Ž"] %}
+          <li><button type="button" data-rj-letter="{{ l }}" aria-pressed="false" aria-label="{% if l == '#' %}Pojmy začínající číslicí nebo jiným znakem{% else %}Pojmy na písmeno {{ l }}{% endif %}" class="flex h-9 min-w-9 items-center justify-center rounded-lg border border-gray-200 bg-white px-2 text-sm font-semibold text-gray-900 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-primary-300 aria-pressed:border-primary-700 aria-pressed:bg-primary-700 aria-pressed:text-white disabled:cursor-not-allowed disabled:border-gray-100 disabled:bg-gray-50 disabled:text-gray-400 disabled:hover:bg-gray-50 disabled:hover:text-gray-400 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-primary-800 dark:aria-pressed:border-primary-600 dark:aria-pressed:bg-primary-600 dark:disabled:border-gray-700 dark:disabled:bg-gray-800 dark:disabled:text-gray-500">{% if l == "#" %}0–9{% else %}{{ l }}{% endif %}</button></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      <p data-rj-status role="status" aria-live="polite" class="text-sm text-gray-500 dark:text-gray-400">Pojmů v rejstříku: {{ rj.pages | length }}.</p>
+    </div>
+
+    <ul data-rj-list class="divide-y divide-gray-200 px-4 sm:px-6 dark:divide-gray-700" aria-label="Pojmy glosáře">
+      {%- for p in rj.pages %}
+      {%- set rj_slug = p.relative_path | split(pat="/") | last | replace(from=".md", to="") %}
+      {%- set rj_cat = p.extra.category | default(value="") %}
+      <li data-rj-item data-slug="{{ rj_slug }}" data-category="{{ rj_cat }}" data-related="{{ p.extra.related_terms | default(value=[]) | join(sep=' ') }}" data-q="{{ p.title }} {{ rj_slug }} {{ p.extra.abbreviation | default(value='') }} {{ p.extra.acronym | default(value='') }} {{ p.description | default(value='') }}" class="py-3">
+        <div class="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+          <a href="{{ p.permalink }}" data-rj-title class="min-w-0 break-words text-base font-semibold text-gray-900 hover:text-primary-700 hover:underline dark:text-white dark:hover:text-primary-400">{{ p.title }}</a>
+          {%- if rj_cat %}
+          <span class="inline-flex w-fit max-w-full shrink-0 items-center rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300"><span data-rj-swatch class="mr-1.5 h-2 w-2 shrink-0 rounded-full bg-gray-500" aria-hidden="true"></span><span class="sr-only">Kategorie: </span><span class="truncate">{{ rj_cat }}</span></span>
+          {%- endif %}
+        </div>
+        {%- if p.description %}
+        <p class="mt-1 line-clamp-2 break-words text-sm text-gray-600 dark:text-gray-400">{{ p.description }}</p>
+        {%- endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+    <div data-rj-empty hidden class="flex flex-col items-center justify-center px-4 py-12 text-center">
+      <svg class="mb-3 h-10 w-10 text-gray-500 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+      <p class="text-base font-semibold text-gray-900 dark:text-white">Žádný pojem neodpovídá filtru</p>
+      <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Zkuste kratší výraz, jiné písmeno nebo jinou kategorii.</p>
+      <button type="button" data-rj-reset class="mt-4 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Zobrazit všechny pojmy</button>
+    </div>
+  </div>
+</section>
+<script src="{{ get_url(path='js/viz/rejstrik.js', cachebust=true) }}" defer></script>

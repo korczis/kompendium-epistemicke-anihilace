@@ -131,7 +131,7 @@ překračování hranic.
 
 - Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (1999). *Acceptance and Commitment Therapy: An
   Experiential Approach to Behavior Change*. New York: Guilford Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
 - Rokeach, M. (1973). *The Nature of Human Values*. New York: Free Press.
 - Schwartz, S. H. (1992). Universals in the content and structure of values: Theoretical advances
   and empirical tests in 20 countries. *Advances in Experimental Social Psychology*, 25.

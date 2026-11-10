@@ -128,12 +128,12 @@ přiměřenou asertivitu, je v jiné neúcta, a protokol musí respektovat prost
   four-category model. *Journal of Personality and Social Psychology*, 61(2).
 - Bowlby, J. (1988). *A Secure Base: Parent-Child Attachment and Healthy Human Development*.
   New York: Basic Books.
-- Dutton, D. G., & Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional
+- Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional
   attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Linehan, M. M. (1993). *Skills Training Manual for Treating Borderline Personality Disorder*.
   New York: Guilford Press.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. New York: Oxford
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford
   University Press.
 
 ## Související

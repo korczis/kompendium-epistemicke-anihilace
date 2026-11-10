@@ -78,7 +78,7 @@ Pojmy jako „vymývání mozků“ jsou v odborné literatuře sporné a kniha 
 - Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*. Paris: Gallimard.
 - Goffman, E. (1961). *Asylums*. Garden City, NY: Anchor Books.
 - Honneth, A. (1992). *Kampf um Anerkennung*. Frankfurt am Main: Suhrkamp.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
 - Quine, W. V. O., & Ullian, J. S. (1970). *The Web of Belief*. New York: Random House.
 - Ricœur, P. (1990). *Soi-même comme un autre*. Paris: Seuil.
 - Taylor, C. (1989). *Sources of the Self: The Making of the Modern Identity*. Cambridge, MA: Harvard University Press.

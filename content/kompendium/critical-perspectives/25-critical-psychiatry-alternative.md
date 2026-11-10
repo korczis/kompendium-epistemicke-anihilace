@@ -78,7 +78,7 @@ Může klinická kategorie, která jedná o poškození vztahu k realitě, vůbe
 - Laing, R. D., & Esterson, A. (1964). *Sanity, Madness and the Family*. Tavistock.
 - Moncrieff, J. (2008). *The Myth of the Chemical Cure: A Critique of Psychiatric Drug Treatment*. Palgrave Macmillan.
 - Rosenhan, D. L. (1973). On being sane in insane places. *Science*, 179(4070).
-- Spitzer, R. L. (1975). On [pseudoscience](@/glossary/pseudoscience.md) in science, logic in remission, and psychiatric diagnosis: A critique of Rosenhan's „On being sane in insane places“. *Journal of Abnormal Psychology*, 84(5).
+- Spitzer, R. L. (1975). On pseudoscience in science, logic in remission, and psychiatric diagnosis: A critique of Rosenhan's „On being sane in insane places“. *Journal of Abnormal Psychology*, 84(5).
 - Szasz, T. (1961). *The Myth of Mental Illness*. Hoeber-Harper.
 - United Nations (2006). *Convention on the Rights of Persons with Disabilities*.
 

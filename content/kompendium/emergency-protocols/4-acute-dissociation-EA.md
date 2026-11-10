@@ -242,7 +242,7 @@ pomoci (WHO, 2011).
 - Porges, S. W. (2011). *The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-regulation*. W. W. Norton.
 - Posner, K., Brown, G. K., Stanley, B. a kol. (2011). The Columbia–Suicide Severity Rating Scale: Initial validity and internal consistency findings from three multisite studies with adolescents and adults. *American Journal of Psychiatry*, 168(12), 1266–1277.
 - Spiegel, D., Loewenstein, R. J., Lewis-Fernández, R. a kol. (2011). Dissociative disorders in DSM-5. *Depression and Anxiety*, 28(9), 824–852.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - World Health Organization (WHO), War Trauma Foundation a World Vision International. (2011). *Psychological First Aid: Guide for Field Workers*. WHO.
 
 ## Související

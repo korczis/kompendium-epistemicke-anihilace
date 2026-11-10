@@ -153,7 +153,7 @@ umí vysvětlit, co data skutečně dokládají.
 - Freed, D., Palmer, J., Minchala, D., Levy, K., Ristenpart, T., & Dell, N. (2018). *„A Stalker's Paradise“: How intimate partner abusers exploit technology*. Proceedings of the CHI Conference on Human Factors in Computing Systems.
 - ISO/IEC. (2012). *ISO/IEC 27037:2012 Information technology – Security techniques – Guidelines for identification, collection, acquisition and preservation of digital evidence*. International Organization for Standardization.
 - Loftus, E. F. (2005). *Planting misinformation in the human mind: A 30-year investigation of the malleability of memory*. Learning & Memory.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Sweet, P. L. (2019). *The sociology of gaslighting*. American Sociological Review.
 - Woodlock, D. (2017). *The abuse of technology in domestic violence and stalking*. Violence Against Women.
 - Zákon č. 40/2009 Sb., trestní zákoník (2009).

@@ -167,7 +167,7 @@ kde lze obsah snadno vytvořit uměle.
 
 - Bowen, G. A. (2009). Document analysis as a qualitative research method.
 - Scott, J. (1990). *A Matter of Record: Documentary Sources in Social Research.*
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism.*
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism.*
 
 ## Související
 

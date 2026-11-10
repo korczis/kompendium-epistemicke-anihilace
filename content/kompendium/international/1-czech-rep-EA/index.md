@@ -221,7 +221,7 @@ proto posuzuje strukturu kontroly, nikoli politické postoje klienta.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Havel, V. (1978). *Moc bezmocných*. Samizdat.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
 - Meier, J. S. (2009). A historical perspective on parental alienation syndrome and parental alienation. *Journal of Child Custody*, 6(3–4).
 - Ministerstvo zdravotnictví ČR (2013). *Strategie reformy psychiatrické péče*. Ministerstvo zdravotnictví ČR.
 - Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.

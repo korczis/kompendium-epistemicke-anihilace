@@ -1,6 +1,6 @@
 +++
 title = "7.15 Sartre: Existencialismus, špatná víra a svoboda"
-description = "Jean-Paul Sartrův existencialismus, kategorie mauvaise foi (špatná víra), pour-soi vs."
+description = "Jean-Paul Sartre: bytí o sobě a pro sebe, svoboda v situaci, špatná víra, pohled druhého; kritika absolutní svobody a výklad útěku od svobody v EA."
 weight = 15
 insert_anchor_links = "right"
 
@@ -16,107 +16,183 @@ toc = true
 
 # 7.15 Sartre: Existencialismus, špatná víra a svoboda
 
-Jean-Paul Sartrovo *L'Être et le néant* (*Bytí a nicota*, 1943) představuje **fenomenologicko-existenciální analytiku** lidské svobody. Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Sartrova teorie nástroj pro pochopení **sebeklamných a sebepodřizujících struktur** — způsobů, jak subjekt **sám sebe** vystavuje EA technikám útěkem od vlastní svobody.
+Jean-Paul Sartre (1905–1980), francouzský filozof, romanopisec a dramatik, vypracoval v knize
+*L'Être et le néant* (*Bytí a nicota*) fenomenologickou ontologii lidské svobody. Přednáška
+*L'existentialisme est un humanisme* ji o tři roky později shrnula do věty, která se stala
+heslem celého hnutí: existence předchází esenci (Sartre, 1943; Sartre, 1946a). Člověk podle
+Sartra není předem určen žádnou podstatou; je tím, čím se svým jednáním učiní.
 
-## 1. *Pour-soi* a *en-soi*
+Pro [kompendium EA](@/glossary/kompendium-ea.md) je Sartre důležitý pojmem špatné víry
+(*mauvaise foi*): sebeklamem, jímž člověk utíká před vlastní svobodou tím, že se považuje za věc.
+Kniha z něj odvozuje – jako vlastní interpretaci – popis prostředí, která člověku nabízejí úlevu
+od tíhy rozhodování výměnou za podřízení, i popis zneužití, kdy se svoboda stává zbraní proti
+oběti. Stránka nejprve vykládá Sartra podle primárních děl, pak shrnuje hlavní kritiky
+(Sartre, 1943).
 
-Sartre rozlišuje dva fundamentální mody bytí:
+## Výklad teorie
 
-- **En-soi** („bytí o sobě“) — bytí věcí, jež jsou **identicky to, čím jsou**. Kámen je kámen.
-- **Pour-soi** („bytí pro sebe“) — bytí vědomí, jež **není identicky tím, čím je** — vždy se k sobě **vztahuje**, **přesahuje** se, **projektuje** se.
+### Bytí o sobě a bytí pro sebe
 
-Lidské vědomí je strukturálně **trhlinou** v plnosti bytí — **nicotou** (*néant*), jež zavádí distanci od samotné sebe.
+Sartre rozlišuje dva způsoby bytí. Bytí o sobě (*en-soi*) je bytí věcí: je plné, totožné samo se
+sebou, prostě je tím, čím je. Bytí pro sebe (*pour-soi*) je bytí vědomí, které se vždy vztahuje k
+něčemu jinému než k sobě a nikdy se se sebou úplně neshoduje. Vědomí do plného bytí vnáší nicotu
+(*néant*) – odstup, otázku, možnost. Proto Sartre o člověku říká, že „je tím, čím není, a není
+tím, čím je“ (Sartre, 1943).
 
-Pro EA z toho plyne:
+### Svoboda, úzkost a situace
 
-- **Reifikace pour-soi do en-soi** je strukturální technika: nutit subjekt myslet o sobě jako o **objektu** („ty jsi takový a takový“, „máš tyto vlastnosti“, „patříš do této kategorie“) znamená vystavit ho EA.
-- **Sociální etiketování** — třídní, etnické, genderové, diagnostické — operuje strukturálně skrze tuto reifikaci.
-- **Svoboda pour-soi** je strukturální zdroj **rezilience** vůči EA: subjekt si vědom své svobody je strukturálně méně manipulovatelný.
+Z této ontologie plyne radikální pojetí svobody. Člověk je podle Sartra „odsouzen ke svobodě“:
+nemůže nevolit, protože i rezignace na volbu je volbou, a nese za své volby plnou odpovědnost
+(Sartre, 1943). Vědomí této svobody se ohlašuje jako úzkost (*angoisse*), nikoli jako strach z
+něčeho ve světě, ale jako závrať z toho, že nic mě nezavazuje k tomu, co udělám.
 
-## 2. *Mauvaise foi* (Špatná víra)
+Svoboda je přitom vždy svobodou v situaci. Člověk má svou fakticitu – tělo, minulost, místo,
+druhé lidi – a svobodu uskutečňuje tím, jaký smysl jí dává. Skála je překážkou jen pro toho, kdo
+ji chce přelézt (Sartre, 1943). Přednáška z roku 1946 z toho vyvozuje etický důsledek: když volím
+sebe, volím obraz člověka, jaký by měl být, a jsem tak odpovědný i za druhé (Sartre, 1946a).
 
-Sartrův centrální pojem: **mauvaise foi** — sebeklam, jímž subjekt **utíká** od vlastní svobody, předstíráním, že je **objektem** s pevnou identitou.
+### Špatná víra
 
-Klasické příklady ze *Bytí a nicoty*:
+Špatná víra je lež sobě samému. Na rozdíl od běžné lži, kde lhář zná pravdu a skrývá ji před
+druhým, je zde klamající a klamaný tatáž osoba (Sartre, 1943). Sartre proto odmítá Freudovo
+vysvětlení sebeklamu cenzurou nevědomí: cenzor by musel vědět, co potlačuje, a problém by se jen
+přesunul. Špatná víra podle Sartra těží z dvojakosti člověka, který je zároveň fakticitou i
+přesahem, a pohybuje se mezi nimi tak, aby se vyhnul odpovědnosti.
 
-- **Číšník**, jenž „hraje číšníka“ — nadměrně pohyblivý, přesný, formální, jako by jeho **bytí** bylo identicky **funkcí** „číšníka“.
-- **Žena na rande**, jež nechá svou ruku **být objektem** v ruce muže, aniž by formálně přitakala flirtu — utíká od svobody **rozhodnout**.
-- **Antisemita**, jenž věří, že „Žid“ má pevnou esenci — utíká od svobody **vidět konkrétního člověka**.
+Sartrovy příklady jsou slavné. Číšník, který hraje číšníka příliš dokonale, se snaží být číšníkem
+tak, jako je kalamář kalamářem, a uniká tím vědomí, že by mohl jednat jinak. Žena na schůzce
+nechá svou ruku v ruce muže „jako věc“, aby nemusela rozhodnout, zda nabídku přijme. Muž, který
+odmítá přijmout odpovědnost za své jednání s tím, že „takový ve skutečnosti není“, i jeho
+přítel, který mu naopak vnucuje, aby se ztotožnil s pevnou nálepkou, jednají ve špatné víře
+(Sartre, 1943).
 
-Pro EA má mauvaise foi **trojí relevanci**:
+### Pohled druhého
 
-1. **Predispozice k EA**: subjekt v mauvaise foi je strukturálně **otevřený** EA technikám, neboť už **sám sebe** vystavuje sebeklamu.
-2. **EA jako pozvání k mauvaise foi**: mnohé techniky **nabízejí** subjektu únik od svobody — autoritářská řešení, identitární kategorizace, fatalistické rámce.
-3. **Klinická signatura**: subjekt v mauvaise foi vykazuje specifické znaky — rigidní identita, externalizace zodpovědnosti, popírání možností.
+Třetí část *L'Être et le néant* rozebírá bytí pro druhé. Člověk, který z žárlivosti nahlíží
+klíčovou dírkou, je zcela pohlcen tím, co vidí; když uslyší kroky a uvědomí si, že je pozorován,
+zažije stud a náhle se vidí jako objekt v cizím světě (Sartre, 1943). Pohled druhého (*le
+regard*) mi dává podobu, kterou nemohu ovládnout. Hra *Huis clos* tento motiv dovádí k větě
+„peklo, to jsou ti druzí“, která neznamená, že druzí jsou zlí, ale že nemohu uniknout tomu, jak
+mě vidí; hra měla premiéru v roce 1944 (Sartre, 1945).
 
-## 3. Radikální svoboda
+### Antisemita a volba vášně
 
-Sartrova nejprovokativnější teze: **člověk je odsouzen ke svobodě**. Nelze **nezvolit** — i odmítnutí volby je volbou. Neexistuje žádná **podstata** člověka, jež by předcházela jeho **existenci**: „**Existence předchází esenci**“ (*L'Existentialisme est un humanisme*, 1946).
+V *Réflexions sur la question juive* Sartre aplikuje pojem špatné víry na předsudek. Antisemita
+si podle něj nezvolil názor na základě zkušenosti, ale zvolil vášeň a neprostupnost kamene;
+utíká před nejistotou a odpovědností do pevné kategorie, která mu dává místo ve světě (Sartre,
+1946b). Odtud Sartrova teze, že kdyby Žid neexistoval, antisemita by si ho vymyslel.
 
-Pro EA z toho plyne:
+### Pozdní Sartre
 
-- **Útok na radikální svobodu** je strukturální technika: deterministické rámce („nemůžeš jinak“, „tvoje DNA tě nutí“, „ekonomické zákony to vynucují“) jsou **manipulativní**, i když mají vědecký nátěr.
-- **Defenzivní zneužití** Sartra: „vše je svobodná volba“ může být použito jako **maska pro strukturální násilí** — zatímco systém vytváří podmínky, jednotlivec je obviňován ze „špatné volby“.
-- Kompendium proto **kombinuje** Sartrův důraz na svobodu se **strukturální analýzou** podmínek (Foucault, [viz 7.1 §1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
+V *Critique de la raison dialectique* Sartre své pojetí svobody zmírnil. Popisuje, jak nedostatek
+a materiální prostředí, které nazývá praktickým-inertním, vytvářejí sériové vztahy, v nichž lidé
+jednají jako zaměnitelné jednotky, a jak se z nich může zrodit skupina, která jedná společně
+(Sartre, 1960). Svoboda zůstává východiskem, ale její meze už nejsou jen otázkou volby.
 
-## 4. *Le regard* (Pohled druhého)
+## Kritika a meze teorie
 
-Sartre analyzuje strukturální fenomén **pohledu druhého** (*le regard*): když mě někdo pozoruje, **objektivizuje** mě — strhává mě z mého pour-soi do en-soi pohledu druhého. *Peklo, to jsou ti druzí* (*Huis clos*).
+Maurice Merleau-Ponty v závěrečné kapitole *Phénoménologie de la perception* namítl, že absolutní
+svoboda by nebyla svobodou vůbec: kdyby každá situace byla jen tím, co z ní učiním, nebylo by
+nic, vůči čemu se svoboda uskutečňuje. Jsme zapojeni do světa tělem, zvykem a historií, a proto
+je svoboda vždy částečná a pravděpodobnostní (Merleau-Ponty, 1945).
 
-Pro EA má pohled druhého **specifickou relevanci**:
+Simone de Beauvoirová, Sartrova celoživotní partnerka, v *Pour une morale de l'ambiguïté* ukazuje,
+že útlak může svobodu druhého skutečně omezit a že nelze stejně posuzovat svobodu toho, kdo je
+utlačován, a toho, kdo utlačuje (Beauvoir, 1947). Tím otevírá cestu k analýze nerovných situací,
+kterou Sartrova raná ontologie nedokázala zachytit.
 
-- **[Panoptismus](@/glossary/panopticism.md)** Foucaulta ([viz 7.1 §1.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) je **internalizací** sartrovského pohledu — subjekt internalizuje pohled dohlížitele jako svůj vlastní.
-- **Sociální média** strukturálně **multiplikují** pohled druhého — subjekt je permanentně objektivizován algoritmickým a peer-pohledem.
-- **Klinický korelát**: sociální úzkost, body dysmorphia, performativní self — vše může být interpretováno jako **patologie pohledu druhého**.
+Politická kritika se týká Sartrova angažmá. Raymond Aron v knize *L'Opium des intellectuels*
+kritizoval ochotu francouzských intelektuálů omlouvat sovětský režim ve jménu dějinného smyslu;
+Sartre v letech po roce 1952 patřil k jeho nejznámějším zastáncům, s nímž se rozešel až po
+potlačení maďarského povstání (Aron, 1955). Lekce, kterou z toho kniha čte, je, že ani filozof
+svobody není imunní vůči ideologickému závazku.
 
-## 5. Angažovaný intelektuál
+## Interpretace pro kompendium
 
-Sartre v poválečném období rozvíjí pojem **angažovaného intelektuála** (*intellectuel engagé*) — myslitele, jenž **odmítá pseudoneutrální distanci** a explicitně se zavazuje k politické pozici.
+Následující oddíl je interpretací knihy, nikoli Sartrovým tvrzením.
 
-Pro EA má tato pozice **dvojí relevanci**:
+### Zvěcnění osoby
 
-1. **Proti pseudoneutralitě**: Pozice „objektivního pozorovatele“ je často **mauvaise foi** intelektuála — útěk od zodpovědnosti.
-2. **Riziko angažmá**: Angažovaný intelektuál je strukturálně **otevřený** EA — pokud jeho angažmá ztratí kritickou distanci, stává se **funkcionářem** ideologie. Sartrova vlastní pozice vůči SSSR je **klasickým příkladem** tohoto rizika.
+Prostředí, které člověku soustavně říká, čím „ve skutečnosti je“ – přirozeně slabý, hříšný,
+nemocný, vyvolený –, mění bytí pro sebe v bytí o sobě a odnímá mu přesah (Sartre, 1943).
+Kompendium tento vzorec popisuje jako
+[esencialistickou redukci](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md) a v
+krajní podobě jako [totální sebeobjektifikaci](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md).
+Detekčním znakem je, že člověk o sobě mluví jen ve třetí osobě kategorie, kterou mu přidělila
+skupina.
 
-## 6. Mapping na EA techniky
+### Pozvánka ke špatné víře
 
-| Sartre | EA technika | Mechanismus |
-|--------|-------------|-------------|
-| Reifikace pour-soi | Identitární etiketování | EA-3.x |
-| Pozvání k mauvaise foi | Autoritářské řešení | Strukturální |
-| Útok na radikální svobodu | Deterministický framing | EA-3.x |
-| Pohled druhého | Panoptismus | EA-2.x |
-| Pseudoneutralita | Iluze objektivity | EA-1.5 |
+Erich Fromm popsal sklon moderního člověka utíkat od svobody k autoritě, konformitě nebo
+destrukci (Fromm, 1941). Kompendium spojuje jeho popis se Sartrovou špatnou vírou: skupina s
+vysokou mírou kontroly nabízí úlevu od úzkosti z volby výměnou za to, že rozhoduje doktrína.
+Janja Lalich tento stav nazývá [ohraničenou volbou](@/glossary/bounded-choice.md) – člen volí
+skutečně, ale jen mezi možnostmi, které systém víry připouští (Lalich, 2004). Varovným znakem je
+přesun veškeré odpovědnosti na vůdce nebo nauku.
 
-## 7. Klinický význam
+### Svoboda jako zbraň proti oběti
 
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
+Sartrovo „jsi odsouzen ke svobodě“ lze zneužít opačným směrem: obvinit oběť, že si svou situaci
+„zvolila“, a zakrýt tak tlak, kterému byla vystavena. Beauvoirová ukazuje, proč je tento výklad
+chybný – útlak skutečně zužuje svobodu (Beauvoir, 1947). Kompendium proto v klinické a forenzní
+práci odmítá jazyk volby tam, kde se používá k [přesouvání viny](@/glossary/blame-shifting.md),
+a odkazuje na Lalich (2004), podle níž je ohraničená volba skutečná, a přesto nesvobodná.
 
-- **Detekce mauvaise foi** je diagnostickým úkolem — subjekt v sebeklamu vyžaduje **specifickou** terapeutickou strategii.
-- **Existenciální analýza** (Frankl, Yalom) operuje na sartrovských kategoriích.
-- **Rizikem** je **inflace** existencialismu — všechno přepsat na „svobodnou volbu“, což může vést k obviňování oběti.
+### Trvalý pohled
 
-## 8. Primární literatura
+Sartrova analýza pohledu druhého vysvětluje, proč neustálé sledování mění člověka zevnitř:
+nejde jen o ztrátu soukromí, ale o trvalé prožívání sebe jako objektu cizího hodnocení (Sartre,
+1943). Foucault (1975) popsal institucionální podobu tohoto stavu jako
+[panoptismus](@/glossary/panopticism.md). Kompendium za detekční znak považuje stav, kdy člověk
+hodnotí každé své jednání předem očima skupiny, i když nikdo nepřihlíží.
 
-- Sartre, J.-P. (1943/2006). *Bytí a nicota*. Oikoymenh.
-- Sartre, J.-P. (1946/2004). *Existencialismus je humanismus*. Vyšehrad.
-- Sartre, J.-P. (1944). *S vyloučením veřejnosti* (*Huis clos*). Artur.
-- Detmer, D. (2008). *Sartre Explained*. Open Court.
-- Catalano, J. (1980). *A Commentary on Jean-Paul Sartre's Being and Nothingness*. University of Chicago Press.
+### Obrana a zotavení
 
-## 9. Otevřené otázky
+Existenciální psychoterapie, jak ji formuloval Irvin Yalom, pracuje se svobodou a odpovědností
+jako s jednou ze čtyř základních existenciálních danností, vedle smrti, izolace a smysluplnosti
+(Yalom, 1980). V zotavení kompendium zdůrazňuje, že rozpoznat vlastní dřívější špatnou víru není
+totéž jako obviňovat se; cílem je vrátit člověku vědomí, že může jednat jinak, a k tomu je třeba
+nejdřív obnovit bezpečí a podmínky, v nichž je volba skutečná (Beauvoir, 1947).
 
-- Jak **kombinovat** sartrovskou svobodu se **strukturální analýzou** podmínek?
-- Lze mauvaise foi **algoritmicky detekovat**?
-- Jaký je vztah mauvaise foi a **politické indoktrinace** ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md))?
+## Otevřené otázky
+
+Otevřené zůstává, jak spojit Sartrův důraz na nezcizitelnou svobodu s analýzou podmínek, které ji
+zužují, aniž by se jedno nebo druhé ztratilo (Merleau-Ponty, 1945). Stejně otevřené je, jak v
+praxi rozlišit sebeklam, za který člověk odpovídá, od přizpůsobení, k němuž byl donucen (Lalich,
+2004).
+
+## Literatura
+
+- Aron, R. (1955). *L'Opium des intellectuels*. Calmann-Lévy.
+- Beauvoir, S. de (1947). *Pour une morale de l'ambiguïté*. Gallimard.
+- Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*. Gallimard.
+- Fromm, E. (1941). *Escape from Freedom*. Farrar & Rinehart.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Sartre, J.-P. (1943). *L'Être et le néant: Essai d'ontologie phénoménologique*. Gallimard.
+- Sartre, J.-P. (1945). *Huis clos*. Gallimard.
+- Sartre, J.-P. (1946a). *L'existentialisme est un humanisme*. Nagel.
+- Sartre, J.-P. (1946b). *Réflexions sur la question juive*. Paul Morihien.
+- Sartre, J.-P. (1960). *Critique de la raison dialectique*. Gallimard.
+- Yalom, I. D. (1980). *Existential Psychotherapy*. Basic Books.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.14 Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)
-- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
-- [7.9 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
-- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
-- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
-- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+**Teoretické reflexe**
+
+- [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – rozcestník sekce.
+- [Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md) – existenciální analytika, z níž Sartre vychází.
+- [Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md) – hlavní kritika absolutní svobody.
+- [Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md) – odpovědnost a útěk od úsudku.
+- [Levinas: Jiný](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md) – jiné pojetí setkání s druhým než Sartrův pohled.
+- [Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – ideologický závazek a jeho rizika.
+
+**Glosář a techniky**
+
+- [Bounded choice](@/glossary/bounded-choice.md) – volba skutečná, a přesto nesvobodná.
+- [Panoptismus](@/glossary/panopticism.md) – institucionální podoba trvalého pohledu.
+- [Esencialistická redukce](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md) – zvěcnění osoby nálepkou.
+
+**Klinická praxe**
+
+- [Sekce 06 – Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – existenciální rámec zotavení.

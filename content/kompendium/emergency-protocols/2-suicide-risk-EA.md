@@ -203,14 +203,14 @@ Brown (2012).
 - Joiner, T. (2005). *Why People Die by Suicide*. Harvard University Press.
 - Klonsky, E. D. a May, A. M. (2015). The three-step theory (3ST): A new theory of suicide rooted in the „ideation-to-action“ framework. *International Journal of Cognitive Therapy*, 8(2), 114–129.
 - Large, M., Kaneson, M., Myles, N. a kol. (2016). Meta-analysis of longitudinal cohort studies of suicide risk assessment among psychiatric patients: Heterogeneity in results and lack of improvement over time. *PLoS ONE*, 11(6), e0156322.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Mann, J. J., Apter, A., Bertolote, J. a kol. (2005). Suicide prevention strategies: A systematic review. *JAMA*, 294(16), 2064–2074.
 - National Institute for Health and Care Excellence (NICE). (2022). *Self-harm: assessment, management and preventing recurrence* (NG225). NICE.
 - Posner, K., Brown, G. K., Stanley, B. a kol. (2011). The Columbia–Suicide Severity Rating Scale: Initial validity and internal consistency findings from three multisite studies with adolescents and adults. *American Journal of Psychiatry*, 168(12), 1266–1277.
 - Rudd, M. D., Mandrusiak, M. a Joiner, T. E. (2006). The case against no-suicide contracts: The commitment to treatment statement as a practice alternative. *Journal of Clinical Psychology*, 62(2), 243–251.
 - Stanley, B. a Brown, G. K. (2012). Safety planning intervention: A brief intervention to mitigate suicide risk. *Cognitive and Behavioral Practice*, 19(2), 256–264.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
-- Sweet, P. L. (2019). The sociology of [gaslighting](@/glossary/gaslighting.md). *American Sociological Review*, 84(5), 851–875.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5), 851–875.
 - World Health Organization (WHO), War Trauma Foundation a World Vision International. (2011). *Psychological First Aid: Guide for Field Workers*. WHO.
 - World Health Organization (WHO). (2014). *Preventing Suicide: A Global Imperative*. WHO.
 

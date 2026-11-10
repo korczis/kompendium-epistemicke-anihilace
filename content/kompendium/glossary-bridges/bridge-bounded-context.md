@@ -141,7 +141,7 @@ význam se ve veřejném prostoru mění legitimně, například ve vědě nebo 
 ## Literatura
 
 - Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Shackel, N. (2005). The vacuity of postmodernist methodology. *Metaphilosophy*, 36(3), 295–320.
 - Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley.
 - Walton, D. (1996). *Fallacies Arising from Ambiguity*. Kluwer Academic.

@@ -218,13 +218,13 @@ jak ho popisují Elwyn a kol. (2012).
 
 - Appelbaum, P. S. (2007). Assessment of patients' competence to consent to treatment. *New England Journal of Medicine*, 357(18), 1834–1840.
 - Beauchamp, T. L. a Childress, J. F. (2013). *Principles of Biomedical Ethics* (7. vyd.). Oxford University Press.
-- Davies, J. a Read, J. (2019). A systematic review into the incidence, severity and duration of antidepressant withdrawal effects: Are guidelines [evidence-based](@/glossary/evidence-based.md)? *Addictive Behaviors*, 97, 111–121.
+- Davies, J. a Read, J. (2019). A systematic review into the incidence, severity and duration of antidepressant withdrawal effects: Are guidelines evidence-based? *Addictive Behaviors*, 97, 111–121.
 - Deegan, P. E. a Drake, R. E. (2006). Shared decision making and medication management in the recovery process. *Psychiatric Services*, 57(11), 1636–1639.
 - Elwyn, G., Frosch, D., Thomson, R. a kol. (2012). Shared decision making: A model for clinical practice. *Journal of General Internal Medicine*, 27(10), 1361–1367.
 - Grisso, T. a Appelbaum, P. S. (1998). *Assessing Competence to Consent to Treatment: A Guide for Physicians and Other Health Professionals*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Miller, W. R. a Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). Guilford Press.
 - Motto, J. A. a Bostrom, A. G. (2001). A randomized controlled trial of postcrisis suicide prevention. *Psychiatric Services*, 52(6), 828–833.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

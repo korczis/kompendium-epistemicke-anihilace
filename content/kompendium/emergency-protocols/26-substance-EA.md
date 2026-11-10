@@ -204,7 +204,7 @@ porozuměním funkci látky, jak ji popisuje hypotéza sebemedikace (Khantzian, 
 - Kelly, J. F., Humphreys, K. a Ferri, M. (2020). Alcoholics Anonymous and other 12-step programs for alcohol use disorder. *Cochrane Database of Systematic Reviews*, (3), CD012880.
 - Kelly, J. F. a Westerhoff, C. M. (2010). Does it matter how we refer to individuals with substance-related conditions? A randomized study of two commonly used terms. *International Journal of Drug Policy*, 21(3), 202–207.
 - Khantzian, E. J. (1997). The self-medication hypothesis of substance use disorders: A reconsideration and recent applications. *Harvard Review of Psychiatry*, 4(5), 231–244.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Marlatt, G. A. (1996). Harm reduction: Come as you are. *Addictive Behaviors*, 21(6), 779–788.
 - Miller, W. R. a Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). Guilford Press.
 - Najavits, L. M. (2002). *Seeking Safety: A Treatment Manual for PTSD and Substance Abuse*. Guilford Press.

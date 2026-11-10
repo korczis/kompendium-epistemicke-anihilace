@@ -202,7 +202,7 @@ temnou stránku, takže empirických dat o přechodu od kultury ke kultu je mál
 - Hirschman, A. O. (1970). *Exit, Voice, and Loyalty*. Harvard University Press.
 - Hochschild, A. R. (1983). *The Managed Heart: Commercialization of Human Feeling*. University of California Press.
 - Kunda, G. (1992). *Engineering Culture: Control and Commitment in a High-Tech Corporation*. Temple University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., Stein, N., Delaney, E., a kol. (2009). Moral injury and moral repair in war veterans: A preliminary model and intervention strategy. *Clinical Psychology Review*, 29(8).
 - Maslach, C., a Leiter, M. P. (2016). Understanding the burnout experience. *World Psychiatry*, 15(2).
 - Morrison, E. W., a Milliken, F. J. (2000). Organizational silence: A barrier to change and development in a pluralistic world. *Academy of Management Review*, 25(4).

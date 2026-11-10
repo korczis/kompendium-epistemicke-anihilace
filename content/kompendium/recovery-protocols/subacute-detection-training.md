@@ -133,12 +133,12 @@ dětem.
 ## Literatura
 
 - Cialdini, R. B. (2001). *Influence: Science and Practice* (4th ed.). Boston: Allyn & Bacon.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory.
   *Feminism & Psychology*, 7(1).
 - Hassan, S. (2015). *Combating Cult Mind Control* (25th anniversary ed.). Newton, MA: Freedom of
   Mind Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches.
   *Advances in Experimental Social Psychology*, 1.
 - Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance

@@ -111,7 +111,7 @@ Měřit fragmentaci identity spolehlivě je obtížné; dostupné nástroje zach
 - Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.
 - McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
 - Paul, L. A. (2014). *Transformative Experience*. Oxford University Press.

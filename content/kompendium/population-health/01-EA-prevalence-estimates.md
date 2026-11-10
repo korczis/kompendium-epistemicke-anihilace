@@ -58,7 +58,7 @@ došli do péče). Seriózní zpráva uvádí všechny tři úrovně vedle sebe.
 ## Zdroje dat a metody měření
 
 - **Průřezová populační šetření** s pravděpodobnostním výběrem. Umožňují bodovou prevalenci,
-  ale závisejí na [self-reportu](@/glossary/self-report.md). Lidé uprostřed manipulativního
+  ale závisejí na self-reportu. Lidé uprostřed manipulativního
   vztahu svou situaci často nerozpoznají – samo poškození úsudku snižuje citlivost dotazu.
 - **Klinická a administrativní data** (ambulance, krizová centra, linky pomoci). Zachycují jen
   vrchol ledovce a jsou zkreslená dostupností služeb; viz

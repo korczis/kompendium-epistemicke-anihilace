@@ -215,7 +215,7 @@ Policii České republiky.
 - Glass, N., Laughon, K., Campbell, J. a kol. (2008). Non-fatal strangulation is an important risk factor for homicide of women. *Journal of Emergency Medicine*, 35(3), 329–335.
 - Harsey, S. J., Zurbriggen, E. L. a Freyd, J. J. (2017). Perpetrator responses to victim confrontation: DARVO and victim self-blame. *Journal of Aggression, Maltreatment & Trauma*, 26(6), 644–663.
 - Johnson, M. P. (2008). *A Typology of Domestic Violence: Intimate Terrorism, Violent Resistance, and Situational Couple Violence*. Northeastern University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5), 851–875.
 - World Health Organization (WHO), War Trauma Foundation a World Vision International. (2011). *Psychological First Aid: Guide for Field Workers*. WHO.

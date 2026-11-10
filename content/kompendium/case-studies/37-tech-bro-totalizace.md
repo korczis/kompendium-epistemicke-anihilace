@@ -204,7 +204,7 @@ navrhuje rozlišení bubliny a ozvěnové komory (Nguyen, 2020).
 - Horkheimer, M. (1947). *Eclipse of Reason*. Oxford University Press.
 - Killgore, W. D. S. (2010). Effects of sleep deprivation on cognition. *Progress in Brain
   Research*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*.
 - Sunstein, C. R. (2009). *Going to Extremes: How Like Minds Unite and Divide*. Oxford University
   Press.

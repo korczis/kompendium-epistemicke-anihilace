@@ -182,7 +182,7 @@ však taková evidence zatím neexistuje.
 ## Literatura
 
 - Foucault, M. (1980). *Power/Knowledge: Selected Interviews and Other Writings, 1972–1977*. Pantheon Books.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*.
 - Gabbard, G. O., a Lester, E. P. (1995). *Boundaries and Boundary Violations in Psychoanalysis*. Basic Books.
 - Gutheil, T. G., a Gabbard, G. O. (1993). The concept of boundaries in clinical practice: Theoretical and risk-management dimensions. *American Journal of Psychiatry*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.

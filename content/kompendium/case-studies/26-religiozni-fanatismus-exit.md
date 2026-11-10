@@ -201,7 +201,7 @@ pracovat s dětmi, které ve společenství vyrůstají a neměly možnost volby
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kanter, R. M. (1972). *Commitment and Community: Communes and Utopias in Sociological
   Perspective*. Harvard University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of
   „Brainwashing“ in China*. W. W. Norton.
 - Pargament, K. I. (1997). *The Psychology of Religion and Coping: Theory, Research, Practice*.
   Guilford Press.

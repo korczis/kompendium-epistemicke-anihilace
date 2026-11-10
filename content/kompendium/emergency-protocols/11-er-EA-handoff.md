@@ -223,14 +223,14 @@ plánuje a uzavírá, nikoli nechává na náhodě (Stanley a kol., 2018).
 - Hobfoll, S. E., Watson, P., Bell, C. C. a kol. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*, 70(4), 283–315.
 - Kessels, R. P. C. (2003). Patients' memory for medical information. *Journal of the Royal Society of Medicine*, 96(5), 219–222.
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships* (2. vyd.). Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Luxton, D. D., June, J. D. a Comtois, K. A. (2013). Can postdischarge follow-up contacts prevent suicide and suicidal behavior? A review of the evidence. *Crisis*, 34(1), 32–41.
 - Motto, J. A. a Bostrom, A. G. (2001). A randomized controlled trial of postcrisis suicide prevention. *Psychiatric Services*, 52(6), 828–833.
 - National Institute for Health and Care Excellence (NICE). (2022). *Self-harm: assessment, management and preventing recurrence* (NG225). NICE.
 - Smith, C. P. a Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69(6), 575–587.
 - Stanley, B. a Brown, G. K. (2012). Safety planning intervention: A brief intervention to mitigate suicide risk. *Cognitive and Behavioral Practice*, 19(2), 256–264.
 - Stanley, B., Brown, G. K., Brenner, L. A. a kol. (2018). Comparison of the safety planning intervention with follow-up vs usual care of suicidal patients treated in the emergency department. *JAMA Psychiatry*, 75(9), 894–900.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Starmer, A. J., Spector, N. D., Srivastava, R. a kol. (2014). Changes in medical errors after implementation of a handoff program. *New England Journal of Medicine*, 371(19), 1803–1812.
 - World Health Organization (WHO), War Trauma Foundation a World Vision International. (2011). *Psychological First Aid: Guide for Field Workers*. WHO.
 

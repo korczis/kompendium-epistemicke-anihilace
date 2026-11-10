@@ -153,7 +153,7 @@ přenášejí jen opatrně (Ellison a Munro, 2009).
 ## Literatura
 
 - Burt, M. R. (1980). *Cultural myths and supports for rape*. Journal of Personality and Social Psychology.
-- Dutton, D. G., & Painter, S. L. (1981). *[Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse*. Victimology.
+- Dutton, D. G., & Painter, S. L. (1981). *Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse*. Victimology.
 - Ellison, L., & Munro, V. E. (2009). *Turning mirrors into windows? Assessing the impact of (mock) juror education in rape trials*. British Journal of Criminology.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Kaufmann, G., Drevland, G. C. B., Wessel, E., Overskeid, G., & Magnussen, S. (2003). *The importance of being earnest: Displayed emotions and witness credibility*. Applied Cognitive Psychology.

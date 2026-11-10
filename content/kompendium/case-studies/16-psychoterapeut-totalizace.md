@@ -209,7 +209,7 @@ před nímž varuje Freyd (1996).
 - Gutheil, T. G., & Gabbard, G. O. (1993). The concept of boundaries in clinical practice:
   theoretical and risk-management dimensions. *American Journal of Psychiatry*, 150(2).
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of
   „Brainwashing“ in China*. W. W. Norton.
 - Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on
   Psychological Science*, 2(1).

@@ -80,7 +80,7 @@ Identifikace obětí zůstává hlavní slabinou: mnoho obětí nikdy není rozp
 
 - Bales, K. (1999). *Disposable People: New Slavery in the Global Economy*. University of California Press.
 - Biderman, A. D. (1957). Communist attempts to elicit false confessions from Air Force prisoners of war. *Bulletin of the New York Academy of Medicine*, 33(9).
-- Dutton, D. G., & Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
+- Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
 - Gallagher, A. T. (2010). *The International Law of Human Trafficking*. Cambridge University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hopper, E., & Hidalgo, J. (2006). Invisible chains: Psychological coercion of human trafficking victims. *Intercultural Human Rights Law Review*, 1.

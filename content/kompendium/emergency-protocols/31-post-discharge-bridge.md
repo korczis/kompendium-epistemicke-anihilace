@@ -225,12 +225,12 @@ telefonickými kontakty, jak ho popisují Stanley a kol. (2018).
 ## Literatura
 
 - Chung, D. T., Ryan, C. J., Hadzi-Pavlovic, D. a kol. (2017). Suicide rates after discharge from psychiatric facilities: A systematic review and meta-analysis. *JAMA Psychiatry*, 74(7), 694–702.
-- Dutton, D. G. a Painter, S. L. (1993). Emotional attachments in abusive relationships: A test of [traumatic bonding](@/glossary/traumatic-bonding.md) theory. *Violence and Victims*, 8(2), 105–120.
+- Dutton, D. G. a Painter, S. L. (1993). Emotional attachments in abusive relationships: A test of traumatic bonding theory. *Violence and Victims*, 8(2), 105–120.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hobfoll, S. E., Watson, P., Bell, C. C. a kol. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*, 70(4), 283–315.
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Luxton, D. D., June, J. D. a Comtois, K. A. (2013). Can postdischarge follow-up contacts prevent suicide and suicidal behavior? A review of the evidence. *Crisis*, 34(1), 32–41.
 - Mann, J. J., Apter, A., Bertolote, J. a kol. (2005). Suicide prevention strategies: A systematic review. *JAMA*, 294(16), 2064–2074.
 - Motto, J. A. a Bostrom, A. G. (2001). A randomized controlled trial of postcrisis suicide prevention. *Psychiatric Services*, 52(6), 828–833.

@@ -78,7 +78,7 @@ Lze vůbec vytvořit slovník, který chrání slabší a zároveň neposiluje v
 
 - Bourdieu, P. (1991). *Language and Symbolic Power*. Harvard University Press.
 - Foucault, M. (1980). *Power/Knowledge: Selected Interviews and Other Writings 1972–1977* (C. Gordon, Ed.). Pantheon.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1).
+- Freyd, J. J. (1997). Violations of power, adaptive blindness and betrayal trauma theory. *Feminism & Psychology*, 7(1).
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Hacking, I. (1999). *The Social Construction of What?* Harvard University Press.
 - Haslam, N. (2016). Concept creep: Psychology's expanding concepts of harm and pathology. *Psychological Inquiry*, 27(1).

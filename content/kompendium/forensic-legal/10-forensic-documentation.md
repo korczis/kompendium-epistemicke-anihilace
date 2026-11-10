@@ -190,7 +190,7 @@ i v psychologickém posuzování dlouhodobého zneužívání, zatím doloženo 
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kassin, S. M., Dror, I. E., a Kukucka, J. (2013). The forensic confirmation bias: Problems, perspectives, and proposed solutions. *Journal of Applied Research in Memory and Cognition*.
 - Melton, G. B., Petrila, J., Poythress, N. G., Slobogin, C., Otto, R. K., Mossman, D., a Condie, L. O. (2018). *Psychological Evaluations for the Courts: A Handbook for Mental Health Professionals and Lawyers*. Guilford Press.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

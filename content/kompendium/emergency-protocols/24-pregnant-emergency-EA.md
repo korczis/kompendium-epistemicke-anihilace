@@ -202,7 +202,7 @@ Postup sleduje pořadí bezpečí, soukromí a nabídky pomoci, které doporuču
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Howard, L. M., Molyneaux, E., Dennis, C.-L., Rochat, T., Stein, A. a Milgrom, J. (2014). Non-psychotic mental disorders in the perinatal period. *The Lancet*, 384(9956), 1775–1788.
 - Jones, I., Chandra, P. S., Dazzan, P. a Howard, L. M. (2014). Bipolar disorder, affective psychosis, and schizophrenia in pregnancy and the post-partum period. *The Lancet*, 384(9956), 1789–1799.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - National Institute for Health and Care Excellence (NICE). (2014). *Antenatal and postnatal mental health: clinical management and service guidance* (CG192). NICE.
 - Posner, K., Brown, G. K., Stanley, B. a kol. (2011). The Columbia–Suicide Severity Rating Scale: Initial validity and internal consistency findings from three multisite studies with adolescents and adults. *American Journal of Psychiatry*, 168(12), 1266–1277.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

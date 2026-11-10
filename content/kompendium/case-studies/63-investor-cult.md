@@ -218,7 +218,7 @@ pravidel přitahují právě ty, kdo prodávají příběhy místo informací.
 - Kindleberger, C. P. (1978). *Manias, Panics, and Crashes: A History of Financial Crises*. Basic Books.
 - Konnikova, M. (2016). *The Confidence Game: Why We Fall for It … Every Time*. Viking.
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Shiller, R. J. (2000). *Irrational Exuberance*. Princeton University Press.
 - World Health Organization. (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 

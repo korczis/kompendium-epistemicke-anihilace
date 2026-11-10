@@ -149,7 +149,7 @@ dětmi – a dohledem, který brání vývoji samostatného myšlení.
 
 - Bentham, J. (1791). *Panopticon; or, The Inspection-House*. T. Payne.
 - Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*. Gallimard.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.
 

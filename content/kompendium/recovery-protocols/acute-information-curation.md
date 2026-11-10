@@ -137,8 +137,8 @@ platforem znamenají, že konkrétní kroky se musí stále aktualizovat.
 - Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012).
   Misinformation and its correction: Continued influence and successful debiasing.
   *Psychological Science in the Public Interest*, 13(3).
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. New York: Oxford
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford
   University Press.
 
 ## Související

@@ -233,7 +233,7 @@ pochybení silně závisí na tom, zda oznamovatel vidí v organizaci někoho, k
 - Gabbard, G. O. (2000). Disguise or consent: Problems and recommendations concerning the publication and presentation of clinical material. *International Journal of Psychoanalysis*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Janis, I. L. (1972). *Victims of Groupthink*. Houghton Mifflin.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., & Maguen, S. (2009). Moral injury and moral repair in war veterans: A preliminary model and intervention strategy. *Clinical Psychology Review*.
 - Miceli, M. P., & Near, J. P. (1992). *Blowing the Whistle: The Organizational and Legal Implications for Companies and Employees*. Lexington Books.
 - Milgram, S. (1974). *Obedience to Authority: An Experimental View*. Harper & Row.

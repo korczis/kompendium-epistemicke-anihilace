@@ -201,13 +201,13 @@ ve školním řízení, zůstává otevřenou otázkou.
 - American Psychological Association (2017). *Ethical Principles of Psychologists and Code of Conduct*. APA.
 - Ceci, S. J., a Bruck, M. (1995). *Jeopardy in the Courtroom: A Scientific Analysis of Children's Testimony*. American Psychological Association.
 - Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Freyd, J. J. (1997). Violations of power, adaptive blindness and betrayal trauma theory. *Feminism & Psychology*, 7(1).
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Harsey, S. J., Zurbriggen, E. L., a Freyd, J. J. (2017). Perpetrator responses to victim confrontation: DARVO and victim self-blame. *Journal of Aggression, Maltreatment & Trauma*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Johnson, M. K., Hashtroudi, S., a Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*, 114(1).
-- Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., a Horowitz, D. (2007). A structured [forensic interview](@/glossary/forensic-interview.md) protocol improves the quality and informativeness of investigative interviews with children. *Child Abuse & Neglect*, 31.
+- Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., a Horowitz, D. (2007). A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children. *Child Abuse & Neglect*, 31.
 - Loftus, E. F. (2005). Planting misinformation in the human mind: A 30-year investigation of the malleability of memory. *Learning & Memory*, 12(4).
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2).
 - Smith, C. P., a Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69(6).

@@ -237,7 +237,7 @@ dávno selhala.
 - Gabbard, G. O. (2000). Disguise or consent: Problems and recommendations concerning the publication and presentation of clinical material. *International Journal of Psychoanalysis*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Johnson, D., & VanVonderen, J. (1991). *The Subtle Power of Spiritual Abuse*. Bethany House.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Masters, R. A. (2010). *Spiritual Bypassing: When Spirituality Disconnects Us from What Really Matters*. North Atlantic Books.
 - May, G. G. (2004). *The Dark Night of the Soul: A Psychiatrist Explores the Connection Between Darkness and Spiritual Growth*. HarperSanFrancisco.
 - Oakley, L., & Kinmond, K. (2013). *Breaking the Silence on Spiritual Abuse*. Palgrave Macmillan.

@@ -168,7 +168,7 @@ minulosti mluví.
 - Gudjonsson, G. H. (2003). *The Psychology of Interrogations and Confessions: A Handbook*. Wiley.
 - Herlihy, J., Scragg, P., & Turner, S. (2002). Discrepancies in autobiographical memories – implications for the assessment of asylum seekers: Repeated interviews study. *BMJ*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of „Brainwashing“ in China*. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. Norton.
 - OHCHR (2022). *Istanbul Protocol: Manual on the Effective Investigation and Documentation of Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment* (Professional Training Series No. 8, Rev. 2). United Nations.
 - UNHCR (2013). *Beyond Proof: Credibility Assessment in EU Asylum Systems*. UNHCR.
 - UNHCR (2019). *Handbook on Procedures and Criteria for Determining Refugee Status and Guidelines on International Protection*. UNHCR.

@@ -191,7 +191,7 @@ někteří eskalují, a zda je možné poskytovat intenzivní skupinové program
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive
   Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of
   „Brainwashing“ in China*. W. W. Norton.
 - Maslach, C., & Jackson, S. E. (1981). The measurement of experienced burnout. *Journal of
   Occupational Behaviour*, 2(2).

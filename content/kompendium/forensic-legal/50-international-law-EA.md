@@ -80,7 +80,7 @@ Mezinárodní právo zatím nemá normu, která by výslovně chránila „epist
 - Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace.
 - Cassese, A. (2008). *International Criminal Law* (2nd ed.). Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
 - Melzer, N. (2020). *Report of the Special Rapporteur on torture and other cruel, inhuman or degrading treatment or punishment: Psychological torture* (A/HRC/43/49). Rada OSN pro lidská práva.
 - Nowak, M. (2005). *U.N. Covenant on Civil and Political Rights: CCPR Commentary* (2nd rev. ed.). N. P. Engel.
 - Nowak, M., & McArthur, E. (2008). *The United Nations Convention Against Torture: A Commentary*. Oxford University Press.

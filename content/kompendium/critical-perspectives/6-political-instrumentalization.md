@@ -75,7 +75,7 @@ Jak má kniha reagovat, když její slovník převezme stát nebo platforma k oz
 - Gillespie, T. (2018). *Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media*. Yale University Press.
 - Kahan, D. M. (2013). Ideology, motivated reasoning, and cognitive reflection. *Judgment and Decision Making*, 8(4).
 - Lee, B. X. (Ed.). (2017). *The Dangerous Case of Donald Trump*. St. Martin's Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
 - Lo, B., & Field, M. J. (Eds.). (2009). *Conflict of Interest in Medical Research, Education, and Practice*. National Academies Press.
 - Stanley, J. (2015). *How Propaganda Works*. Princeton University Press.
 - Szasz, T. (1970). *The Manufacture of Madness*. Harper & Row.

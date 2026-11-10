@@ -228,7 +228,7 @@ Otevřená zůstává hranice mezi náročnou školou oboru a totalizací – kr
 - ALLEA – All European Academies (2017). *The European Code of Conduct for Research Integrity* (revidované vydání). ALLEA.
 - American Psychological Association (2017). *Ethical Principles of Psychologists and Code of Conduct*. APA.
 - Clance, P. R., a Imes, S. A. (1978). The imposter phenomenon in high achieving women: Dynamics and therapeutic intervention. *Psychotherapy: Theory, Research & Practice*, 15(3).
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
 - Einarsen, S., Hoel, H., Zapf, D., a Cooper, C. L. (Eds.) (2011). *Bullying and Harassment in the Workplace* (2. vyd.). CRC Press.
 - Festinger, L. (1954). A theory of social comparison processes. *Human Relations*, 7(2).
 - Flavell, J. H. (1979). Metacognition and cognitive monitoring. *American Psychologist*, 34(10).

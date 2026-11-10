@@ -139,7 +139,7 @@ odvety proti nepohodlným. Kniha tuto otázku neuzavírá, ale trvá na procesn�
 - Braithwaite, J. (1989). *Crime, Shame and Reintegration*. Cambridge University Press.
 - Dekker, S. (2007). *Just Culture: Balancing Safety and Accountability*. Ashgate.
 - Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*, 44(2), 350–383.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Reason, J. (1997). *Managing the Risks of Organizational Accidents*. Ashgate.
 
 ## Související

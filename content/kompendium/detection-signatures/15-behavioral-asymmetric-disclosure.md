@@ -114,7 +114,7 @@ V online prostředí lze reciprocitu předstírat: zdroj sdílí smyšlené info
 - Gabbard, G. O., & Lester, E. P. (1995). *Boundaries and Boundary Violations in Psychoanalysis*. Basic Books.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Jourard, S. M. (1971). *The Transparent Self* (rev. ed.). Van Nostrand Reinhold.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Petronio, S. (2002). *Boundaries of Privacy: Dialectics of Disclosure*. State University of New York Press.
 - Whitty, M. T., & Buchanan, T. (2012). The online romance scam: A serious cybercrime. *Cyberpsychology, Behavior, and Social Networking*, 15(3), 181–183.
 

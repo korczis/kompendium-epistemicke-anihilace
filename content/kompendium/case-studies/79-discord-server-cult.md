@@ -217,14 +217,14 @@ k utajování než k bezpečí.
 - Bateson, G., Jackson, D. D., Haley, J., a Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*.
 - boyd, d. (2014). *It's Complicated: The Social Lives of Networked Teens*. Yale University Press.
 - Craven, S., Brown, S., a Gilchrist, E. (2006). Sexual grooming of children: Review of literature and theoretical considerations. *Journal of Sexual Aggression*.
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md). *Victimology*.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding. *Victimology*.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Gabbard, G. O. (2000). Disguise or consent. *International Journal of Psychoanalysis*.
 - Gillespie, T. (2018). *Custodians of the Internet*. Yale University Press.
 - Hawton, K., Saunders, K. E. A., a O'Connor, R. C. (2012). Self-harm and suicide in adolescents. *The Lancet*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., a Horowitz, D. (2007). A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children. *Child Abuse & Neglect*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., et al. (2009). Moral injury and moral repair in war veterans. *Clinical Psychology Review*.
 - Livingstone, S., a Helsper, E. J. (2008). Parental mediation of children's internet use. *Journal of Broadcasting & Electronic Media*.
 - Olweus, D. (1993). *Bullying at School: What We Know and What We Can Do*. Blackwell.

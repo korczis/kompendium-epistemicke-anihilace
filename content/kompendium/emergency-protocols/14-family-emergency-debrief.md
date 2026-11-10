@@ -215,7 +215,7 @@ posiluje loajalitu ke skupině (Singer a Lalich, 1995).
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships* (2. vyd.). Bay Tree Publishing.
 - Langone, M. D. (Ed.). (1993). *Recovery from Cults: Help for Victims of Psychological and Spiritual Abuse*. W. W. Norton.
 - Leff, J. a Vaughn, C. (1985). *Expressed Emotion in Families: Its Significance for Mental Illness*. Guilford Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - McFarlane, W. R. (2002). *Multifamily Groups in the Treatment of Severe Psychiatric Disorders*. Guilford Press.
 - Pharoah, F., Mari, J., Rathbone, J. a Wong, W. (2010). Family intervention for schizophrenia. *Cochrane Database of Systematic Reviews*, CD000088.
 - Seikkula, J. a Arnkil, T. E. (2006). *Dialogical Meetings in Social Networks*. Karnac.

@@ -216,11 +216,11 @@ sledování, ale nikoli jeho psychické následky; tato mezera je otevřenou vý
 - Marczak, B., a kol. (2018). *Hide and Seek: Tracking NSO Group's Pegasus Spyware to Operations in 45 Countries*. Citizen Lab, University of Toronto.
 - OHCHR – Office of the United Nations High Commissioner for Human Rights (2022). *Istanbul Protocol: Manual on the Effective Investigation and Documentation of Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment* (Professional Training Series No. 8/Rev. 2). United Nations.
 - Pargament, K. I. (1997). *The Psychology of Religion and Coping: Theory, Research, Practice*. Guilford Press.
-- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
 - Rada Evropy (2011). *Úmluva Rady Evropy o prevenci a potírání násilí vůči ženám a domácího násilí* (Istanbulská úmluva, CETS No. 210). Rada Evropy.
 - Rishmawi, M. (2005). The revised Arab Charter on Human Rights: A step forward? *Human Rights Law Review*, 5(2).
 - Said, E. W. (1978). *Orientalism*. Pantheon Books.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking*. Council of Europe.
 - Wedeen, L. (1999). *Ambiguities of Domination: Politics, Rhetoric, and Symbols in Contemporary Syria*. University of Chicago Press.
 - World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.

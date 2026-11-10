@@ -240,9 +240,9 @@ ohledu na politický směr.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hirschman, A. O. (1970). *Exit, Voice, and Loyalty*. Harvard University Press.
 - Hoffer, E. (1951). *The True Believer: Thoughts on the Nature of Mass Movements*. Harper & Row.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Singer, M. T., a Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Tourish, D., a Wohlforth, T. (2000). *On the Edge: Political Cults Right and Left*. M. E. Sharpe.
 - Weber, M. (1922). *Wirtschaft und Gesellschaft*. J. C. B. Mohr (Paul Siebeck).

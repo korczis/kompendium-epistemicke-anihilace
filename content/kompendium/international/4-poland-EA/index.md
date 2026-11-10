@@ -202,7 +202,7 @@ vůči veřejnosti.
 - Garton Ash, T. (1983). *The Polish Revolution: Solidarity*. Jonathan Cape.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kubik, J. (1994). *The Power of Symbols Against the Symbols of Power: The Rise of Solidarity and the Fall of State Socialism in Poland*. Pennsylvania State University Press.
-- Paul, C., & Matthews, M. (2016). *The Russian „[Firehose of Falsehood](@/glossary/firehose-of-falsehood.md)“ Propaganda Model*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
 - Porter-Szűcs, B. (2011). *Faith and Fatherland: Catholicism, Modernity, and Poland*. Oxford University Press.
 - Rada Evropy. (2011). *Úmluva Rady Evropy o prevenci a potírání násilí vůči ženám a domácího násilí* (CETS č. 210). Rada Evropy.
 - Rid, T. (2020). *Active Measures: The Secret History of Disinformation and Political Warfare*. Farrar, Straus and Giroux.

@@ -131,7 +131,7 @@ jazyk a kulturní předsudky rozhodují i o tom, zda bude svědectví klienta v�
 - Oyserman, D., Coon, H. M., & Kemmelmeier, M. (2002). Rethinking individualism and collectivism: Evaluation of theoretical assumptions and meta-analyses. *Psychological Bulletin*, 128(1).
 - Rada Evropy (2011). *Úmluva Rady Evropy o prevenci a potírání násilí vůči ženám a domácího násilí* (Istanbulská úmluva, CETS No. 210). Rada Evropy.
 - Said, E. W. (1978). *Orientalism*. Pantheon Books.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Sztompka, P. (1999). *Trust: A Sociological Theory*. Cambridge University Press.
 - World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 

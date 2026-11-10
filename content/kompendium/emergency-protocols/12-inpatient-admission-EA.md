@@ -225,12 +225,12 @@ odpovídá principům bezpečí, transparentnosti a volby, které shrnuje SAMHSA
 - Henderson, C., Flood, C., Leese, M. a kol. (2004). Effect of joint crisis plans on use of compulsory treatment in psychiatry: Single blind randomised controlled trial. *BMJ*, 329(7458), 136.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships* (2. vyd.). Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - National Institute for Health and Care Excellence (NICE). (2022). *Self-harm: assessment, management and preventing recurrence* (NG225). NICE.
 - Smith, C. P. a Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69(6), 575–587.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Substance Abuse and Mental Health Services Administration (SAMHSA). (2014). *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach* (HHS Publication No. (SMA) 14-4884). SAMHSA.
-- Sweeney, A., Filson, B., Kennedy, A. a kol. (2018). A [paradigm shift](@/glossary/paradigm-shift.md): Relationships in trauma-informed mental health services. *BJPsych Advances*, 24(5), 319–333.
+- Sweeney, A., Filson, B., Kennedy, A. a kol. (2018). A paradigm shift: Relationships in trauma-informed mental health services. *BJPsych Advances*, 24(5), 319–333.
 - Thornicroft, G., Farrelly, S., Szmukler, G. a kol. (2013). Clinical outcomes of Joint Crisis Plans to reduce compulsory treatment for people with psychosis: A randomised controlled trial. *The Lancet*, 381(9878), 1634–1641.
 
 ## Související

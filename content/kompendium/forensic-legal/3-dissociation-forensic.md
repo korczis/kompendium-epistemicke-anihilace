@@ -167,7 +167,7 @@ převyprávění paměť mění.
 - Brewin, C. R. (2003). *Posttraumatic Stress Disorder: Malady or Myth?* Yale University Press.
 - Carlson, E. B., & Putnam, F. W. (1993). *An update on the Dissociative Experiences Scale*. Dissociation.
 - Dalenberg, C. J., Brand, B. L., Gleaves, D. H., a kol. (2012). *Evaluation of the evidence for the trauma and fantasy models of dissociation*. Psychological Bulletin.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Giesbrecht, T., Lynn, S. J., Lilienfeld, S. O., & Merckelbach, H. (2008). *Cognitive processes in dissociation: An analysis of core theoretical assumptions*. Psychological Bulletin.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Holmes, E. A., Brown, R. J., Mansell, W., a kol. (2005). *Are there two qualitatively distinct forms of dissociation? A review and some clinical implications*. Clinical Psychology Review.

@@ -98,7 +98,7 @@ Mytologie může zatuhnout v dogma; buďte ochotni nechat staré symboly odejít
 - Campbell, J. (1949). *The Hero with a Thousand Faces*. Pantheon Books.
 - Eliade, M. (1963). *Myth and Reality*. Harper & Row.
 - Feinstein, D., & Krippner, S. (1988). *Personal Mythology: The Psychology of Your Evolving Self*. Jeremy P. Tarcher.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
 
 ## Související

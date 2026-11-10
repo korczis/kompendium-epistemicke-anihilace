@@ -165,7 +165,7 @@ k soudu, který je ústavně chráněným právem každého účastníka.
 ## Literatura
 
 - Bancroft, L., & Silverman, J. G. (2002). *The Batterer as Parent: Addressing the Impact of Domestic Violence on Family Dynamics*. Sage.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*.
 - Gardner, R. A. (1992). *The Parental Alienation Syndrome*. Creative Therapeutics.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Jaffe, P. G., Lemon, N. K. D., & Poisson, S. E. (2003). *Child Custody and Domestic Violence: A Call for Safety and Accountability*. Sage.

@@ -230,7 +230,7 @@ jeho přenos do této oblasti však zatím není ověřen.
 - Joiner, T. (2005). *Why People Die by Suicide*. Harvard University Press.
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., & Maguen, S. (2009). Moral injury and moral repair in war veterans: A preliminary model and intervention strategy. *Clinical Psychology Review*.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3rd ed.). Guilford Press.
-- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
 - Shear, M. K. (2015). Complicated grief. *New England Journal of Medicine*.
 - Sunstein, C. R., & Vermeule, A. (2009). Conspiracy theories: Causes and cures. *Journal of Political Philosophy*.
 - Tangney, J. P., & Dearing, R. L. (2002). *Shame and Guilt*. Guilford Press.

@@ -131,7 +131,7 @@ nebo zničil pachatel.
 
 - Ehlers, A., & Clark, D. M. (2000). A cognitive model of posttraumatic stress disorder.
   *Behaviour Research and Therapy*, 38(4).
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
   Harvard University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 

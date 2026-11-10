@@ -211,7 +211,7 @@ téže soudržnosti elity.
 - Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*. Gallimard.
 - Freud, A. (1936). *Das Ich und die Abwehrmechanismen*. Internationaler Psychoanalytischer
   Verlag.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard
   University Press.
 - Goffman, E. (1961). *Asylums: Essays on the Social Situation of Mental Patients and Other
   Inmates*. Anchor Books.

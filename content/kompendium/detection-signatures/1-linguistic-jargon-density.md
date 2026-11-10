@@ -142,7 +142,7 @@ Hranice mezi oborovou kulturou a uzavírajícím se jazykem skupiny je navíc pl
 - Frankfurt, H. G. (2005). *On Bullshit*. Princeton University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Jaspers, K. (1913). *Allgemeine Psychopathologie*. Springer.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Oppenheimer, D. M. (2006). Consequences of erudite vernacular utilized irrespective of necessity: Problems with using long words needlessly. *Applied Cognitive Psychology*, 20(2), 139–156.
 - Orwell, G. (1946). Politics and the English Language. *Horizon*, 13(76).

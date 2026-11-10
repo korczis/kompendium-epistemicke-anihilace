@@ -112,7 +112,7 @@ Kulturní normy nepřímé komunikace mohou únik připomínat; posuzovat je tř
 - Bavelas, J. B., Black, A., Chovil, N., & Mullett, J. (1990). *Equivocal Communication*. Sage.
 - Bull, P., & Mayer, K. (1993). How not to answer questions in political interviews. *Political Psychology*, 14(4), 651–666.
 - Clayman, S. E. (2001). Answers and evasions. *Language in Society*, 30(3), 403–442.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1), 22–32.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness and betrayal trauma theory. *Feminism & Psychology*, 7(1), 22–32.
 - Harsey, S. J., Zurbriggen, E. L., & Freyd, J. J. (2017). Perpetrator responses to victim confrontation: DARVO and victim self-blame. *Journal of Aggression, Maltreatment & Trauma*, 26(6), 644–663.
 - Rogers, T., & Norton, M. I. (2011). The artful dodger: Answering the wrong question the right way. *Journal of Experimental Psychology: Applied*, 17(2), 139–147.
 

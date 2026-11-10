@@ -155,7 +155,7 @@ dokladů pro vlastní program.
 
 - Bond, C. F., & DePaulo, B. M. (2006). *Accuracy of deception judgments*. Personality and Social Psychology Review.
 - Brewer, N., Potter, R., Fisher, R. P., Bond, N., & Luszcz, M. A. (1999). *Beliefs and data on the relationship between consistency and accuracy of eyewitness testimony*. Applied Cognitive Psychology.
-- Dutton, D. G., & Painter, S. L. (1981). *[Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse*. Victimology.
+- Dutton, D. G., & Painter, S. L. (1981). *Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse*. Victimology.
 - Englich, B., Mussweiler, T., & Strack, F. (2006). *Playing dice with criminal sentences: The influence of irrelevant anchors on experts' judicial decision making*. Personality and Social Psychology Bulletin.
 - Epstein, D., & Goodman, L. A. (2019). *Discounting women: Doubting domestic violence survivors' credibility and dismissing their experiences*. University of Pennsylvania Law Review.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.

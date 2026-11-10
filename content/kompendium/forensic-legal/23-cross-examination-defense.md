@@ -158,10 +158,10 @@ ztrácí možnost reagovat na nové skutečnosti.
 
 ## Literatura
 
-- Dutton, D. G., & Painter, S. L. (1981). *[Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse*. Victimology.
+- Dutton, D. G., & Painter, S. L. (1981). *Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse*. Victimology.
 - Ehrlich, S. (2001). *Representing Rape: Language and Sexual Consent*. Routledge.
 - Ellison, L. (2001). *The Adversarial Process and the Vulnerable Witness*. Oxford University Press.
-- Freyd, J. J. (1997). *Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory*. Feminism & Psychology.
+- Freyd, J. J. (1997). *Violations of power, adaptive blindness, and betrayal trauma theory*. Feminism & Psychology.
 - Gudjonsson, G. H. (1984). *A new scale of interrogative suggestibility*. Personality and Individual Differences.
 - Gudjonsson, G. H. (2003). *The Psychology of Interrogations and Confessions: A Handbook*. Wiley.
 - Harsey, S. J., Zurbriggen, E. L., & Freyd, J. J. (2017). *Perpetrator responses to victim confrontation: DARVO and victim self-blame*. Journal of Aggression, Maltreatment & Trauma.

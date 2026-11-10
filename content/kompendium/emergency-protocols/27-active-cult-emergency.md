@@ -209,7 +209,7 @@ doporučení udržovat s členem kontakt bez konfrontace, které rodinám dává
 - Langone, M. D. (Ed.). (1993). *Recovery from Cults: Help for Victims of Psychological and Spiritual Abuse*. W. W. Norton.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Singer, M. T. a Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - World Health Organization (WHO), War Trauma Foundation a World Vision International. (2011). *Psychological First Aid: Guide for Field Workers*. WHO.
 
 ## Související

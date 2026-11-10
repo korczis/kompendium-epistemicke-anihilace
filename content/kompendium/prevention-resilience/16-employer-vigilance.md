@@ -179,7 +179,7 @@ pracovníci BOZP, odborové organizace, pověřené osoby pro příjem oznámen�
 
 ## Literatura
 
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. New York: Oxford
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford
   University Press.
 
 ---

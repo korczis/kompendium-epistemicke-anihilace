@@ -205,7 +205,7 @@ Kunda (1992) používá stejný jazyk mise a stejné rituály sounáležitosti.
   Perspective*. Harvard University Press.
 - Kunda, G. (1992). *Engineering Culture: Control and Commitment in a High-Tech Corporation*.
   Temple University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., a Maguen, S. (2009).
   Moral injury and moral repair in war veterans: A preliminary model and intervention strategy.
   *Clinical Psychology Review*.

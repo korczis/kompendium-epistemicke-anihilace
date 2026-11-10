@@ -217,7 +217,7 @@ oznámení podle zákona č. 359/1999 Sb. s otevřenou prací na vztahu, jak ji 
 - Lachs, M. S. a Pillemer, K. A. (2015). Elder abuse. *New England Journal of Medicine*, 373(20), 1947–1956.
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W. a Horowitz, D. (2007). A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: A review of research using the NICHD Investigative Interview Protocol. *Child Abuse & Neglect*, 31(11–12), 1201–1231.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Safran, J. D. a Muran, J. C. (2000). *Negotiating the Therapeutic Alliance: A Relational Treatment Guide*. Guilford Press.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Tarasoff v. Regents of the University of California. (1976). 17 Cal. 3d 425. Supreme Court of California.

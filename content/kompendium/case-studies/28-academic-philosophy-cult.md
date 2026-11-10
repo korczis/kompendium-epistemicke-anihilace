@@ -198,7 +198,7 @@ dynamika (Gellner, 1985).
 - Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In
   I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University
   Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of
   „Brainwashing“ in China*. W. W. Norton.
 - Merton, R. K. (1973). *The Sociology of Science: Theoretical and Empirical Investigations*.
   University of Chicago Press.

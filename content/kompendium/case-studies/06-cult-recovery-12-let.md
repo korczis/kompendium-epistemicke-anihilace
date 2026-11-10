@@ -215,7 +215,7 @@ zásahem; obraz zotavení proto závisí i na tom, koho se výzkum ptá.
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Langone, M. D. (Ed.) (1993). *Recovery from Cults: Help for Victims of Psychological and Spiritual Abuse*. W. W. Norton.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Singer, M. T., a Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Stein, A. (2017). *Terror, Love and Brainwashing: Attachment in Cults and Totalitarian Systems*. Routledge.
 - World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.

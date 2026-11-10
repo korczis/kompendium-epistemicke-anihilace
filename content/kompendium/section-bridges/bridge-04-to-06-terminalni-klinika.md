@@ -93,7 +93,7 @@ Fázový rámec péče, který most nabízí, vychází z modelu Hermanové (199
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships* (2nd ed.). Berkeley: Bay Tree Publishing.
 - Langone, M. D. (Ed.) (1993). *Recovery from Cults: Help for Victims of Psychological and Spiritual Abuse*. New York: W. W. Norton.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
 
 ## Související
 

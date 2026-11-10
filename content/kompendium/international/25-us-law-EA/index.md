@@ -223,7 +223,7 @@ je popsat konkrétní mechanismy kontroly podle Liftonových kritérií (Lifton,
 - Citron, D. K. (2014). *Hate Crimes in Cyberspace*. Harvard University Press.
 - Goodmark, L. (2018). *Decriminalizing Domestic Violence: A Balanced Policy Approach to Intimate Partner Violence*. University of California Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Nathan, D., & Snedeker, M. (1995). *Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*. Basic Books.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

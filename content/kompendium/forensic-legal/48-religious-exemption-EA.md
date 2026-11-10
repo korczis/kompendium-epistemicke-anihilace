@@ -85,7 +85,7 @@ Hranice mezi náročnou vírou a epistemickým zneužíváním není ostrá a je
 - Hamilton, M. A. (2005). *God vs. the Gavel: Religion and the Rule of Law*. Cambridge University Press.
 - Hassan, S. (1988). *Combating Cult Mind Control*. Park Street Press.
 - Langone, M. D. (Ed.). (1993). *Recovery from Cults: Help for Victims of Psychological and Spiritual Abuse*. W. W. Norton.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
 - Richardson, J. T. (1993). Definitions of cult: From sociological-technical to popular-negative. *Review of Religious Research*, 34(4).
 - Taylor, P. M. (2005). *Freedom of Religion: UN and European Human Rights Law and Practice*. Cambridge University Press.
 

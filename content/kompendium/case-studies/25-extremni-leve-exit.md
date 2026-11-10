@@ -194,7 +194,7 @@ otázka, jak pomoci lidem, kteří odejdou, ale ztratí důvěru v jakoukoli kol
   Brothers.
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of
   California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of
   „Brainwashing“ in China*. W. W. Norton.
 - Litz, B. T., et al. (2009). Moral injury and moral repair in war veterans: a preliminary model
   and intervention strategy. *Clinical Psychology Review*, 29(8).

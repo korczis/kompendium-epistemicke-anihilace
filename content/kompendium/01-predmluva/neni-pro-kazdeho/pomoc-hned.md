@@ -178,7 +178,7 @@ stránka [Pro koho je kniha](@/kompendium/01-predmluva/neni-pro-kazdeho/pro-koho
 - Dickson-Swift, V., James, E. L., Kippen, S., Liamputtong, P. (2008). *Risk to Researchers in Qualitative Research on Sensitive Topics: Issues and Strategies*. Qualitative Health Research, 18(1), 133–144.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hobfoll, S. E., Watson, P., Bell, C. C., Bryant, R. A., Brymer, M. J., Friedman, M. J. a kol. (2007). *Five Essential Elements of Immediate and Mid-Term Mass Trauma Intervention: Empirical Evidence*. Psychiatry, 70(4), 283–315.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Substance Abuse and Mental Health Services Administration (2014). *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach*. HHS Publication No. (SMA) 14-4884.
 - World Health Organization, War Trauma Foundation, World Vision International (2011). *Psychological First Aid: Guide for Field Workers*. World Health Organization.

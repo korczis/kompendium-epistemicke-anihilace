@@ -259,8 +259,8 @@ zjištěním.
 - Gillespie, T. (2018). *Custodians of the Internet*. Yale University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hirschman, A. O. (1970). *Exit, Voice, and Loyalty*. Harvard University Press.
-- Kraut, R. E., a Resnick, P. (2012). *Building Successful Online Communities: [Evidence-Based](@/glossary/evidence-based.md) Social Design*. MIT Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Kraut, R. E., a Resnick, P. (2012). *Building Successful Online Communities: Evidence-Based Social Design*. MIT Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Matias, J. N. (2019). The civic labor of volunteer moderators online. *Social Media + Society*.
 - Muller, J. Z. (2018). *The Tyranny of Metrics*. Princeton University Press.
 - Pasquale, F. (2015). *The Black Box Society*. Harvard University Press.

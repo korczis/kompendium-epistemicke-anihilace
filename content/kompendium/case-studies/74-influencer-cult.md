@@ -267,7 +267,7 @@ zúžením sítě, nefalsifikovatelností a trestem za odchod.
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Langone, M. D. (Ed.) (1993). *Recovery from Cults*. W. W. Norton.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Marwick, A. E. (2013). *Status Update: Celebrity, Publicity, and Branding in the Social Media Age*. Yale University Press.
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.

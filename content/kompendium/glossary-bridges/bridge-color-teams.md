@@ -143,7 +143,7 @@ mělo smysl.
 
 - Janis, I. L. (1972). *Victims of Groupthink*. Houghton Mifflin.
 - Klein, G. (2007). Performing a project premortem. *Harvard Business Review*, 85(9), 18–19.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1979). *The Belmont Report*. U.S. Department of Health, Education, and Welfare.
 - Nemeth, C., Brown, K., & Rogers, J. (2001). Devil's advocate versus authentic dissent: Stimulating quantity and quality. *European Journal of Social Psychology*, 31(6), 707–720.
 - Schweiger, D. M., Sandberg, W. R., & Ragan, J. W. (1986). Group approaches for improving strategic decision making. *Academy of Management Journal*, 29(1), 51–71.

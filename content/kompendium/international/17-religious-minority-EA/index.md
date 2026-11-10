@@ -220,7 +220,7 @@ a Barker (1984) již dříve varovala, že obecné teorie „vymývání mozků�
 - Independent International Fact-Finding Mission on Myanmar (2018). *Report of the Independent International Fact-Finding Mission on Myanmar* (A/HRC/39/64). United Nations Human Rights Council.
 - Johnson, D., & VanVonderen, J. (1991). *The Subtle Power of Spiritual Abuse*. Bethany House.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Pargament, K. I. (1997). *The Psychology of Religion and Coping: Theory, Research, Practice*. Guilford Press.
 - Smith, C. P., & Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69(6).
 - Victor, J. S. (1993). *Satanic Panic: The Creation of a Contemporary Legend*. Open Court.

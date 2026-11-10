@@ -212,7 +212,7 @@ kdo vážnou újmu skutečně utrpěli.
 - Hofstede, G. (1980). *Culture's Consequences: International Differences in Work-Related Values*. Sage.
 - Home Office (2015). *Controlling or Coercive Behaviour in an Intimate or Family Relationship: Statutory Guidance Framework*. Home Office.
 - Illouz, E. (2008). *Saving the Modern Soul: Therapy, Emotions, and the Culture of Self-Help*. University of California Press.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Loftus, E. F., & Ketcham, K. (1994). *The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse*. St. Martin's Press.
 - Markus, H. R., & Kitayama, S. (1991). Culture and the self: Implications for cognition, emotion, and motivation. *Psychological Review*, 98(2).

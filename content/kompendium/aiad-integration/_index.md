@@ -77,9 +77,9 @@ Popisy agentů vycházejí z dokumentace platformy, jak ji zachycují glosář a
 
 ## Literatura
 
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Cambridge, MA: Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Cambridge, MA: Harvard University Press.
 - Heuer, R. J., Jr. (1999). *Psychology of Intelligence Analysis*. Washington, DC: Center for the Study of Intelligence, Central Intelligence Agency.
-- Zenko, M. (2015). *[Red Team](@/glossary/red-team.md): How to Succeed by Thinking Like the Enemy*. New York: Basic Books.
+- Zenko, M. (2015). *Red Team: How to Succeed by Thinking Like the Enemy*. New York: Basic Books.
 
 ## Související
 

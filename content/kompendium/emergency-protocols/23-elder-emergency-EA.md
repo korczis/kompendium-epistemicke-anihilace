@@ -216,7 +216,7 @@ kognitivního nálezu vyvodí cokoli dalšího (Inouye a kol., 1990).
 - Lachs, M. S. a Pillemer, K. A. (2015). Elder abuse. *New England Journal of Medicine*, 373(20), 1947–1956.
 - Nasreddine, Z. S., Phillips, N. A., Bédirian, V. a kol. (2005). The Montreal Cognitive Assessment, MoCA: A brief screening tool for mild cognitive impairment. *Journal of the American Geriatrics Society*, 53(4), 695–699.
 - Organizace spojených národů (OSN). (2006). *Úmluva o právech osob se zdravotním postižením*. OSN.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5), 851–875.
 - World Health Organization (WHO), War Trauma Foundation a World Vision International. (2011). *Psychological First Aid: Guide for Field Workers*. WHO.
 

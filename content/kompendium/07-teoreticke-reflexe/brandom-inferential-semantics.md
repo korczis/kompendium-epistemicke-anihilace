@@ -1,6 +1,6 @@
 +++
 title = "7.23 Brandom: Inferenciální sémantika a normativita"
-description = "Robert Brandom a inferenciální sémantika, prostor důvodů, normativita argumentu — rámec pro pochopení EA jako manipulace deontického skóru a inferenčních závazků."
+description = "Robert Brandom: inferencialismus, prostor důvodů a deontické skórování podle primárních děl, hlavní námitky a interpretace manipulace jako narušení závazků a oprávnění."
 weight = 23
 insert_anchor_links = "right"
 
@@ -16,91 +16,94 @@ toc = true
 
 # 7.23 Brandom: Inferenciální sémantika a normativita
 
-Robert Brandom v monumentálním *Making It Explicit* (1994) a populárnější *Articulating Reasons* (2000) rozvíjí **inferenciální sémantiku** — pozici, podle níž je význam tvrzení **konstituován** jeho **inferenciálními** rolemi: **co tvrzení implikuje** a **z čeho vyplývá**.
+Robert Brandom, filozof působící na University of Pittsburgh, patří spolu s Johnem McDowellem k takzvané pittsburské škole, která navazuje na Wilfrida Sellarse a na německý idealismus. V rozsáhlé knize *Making It Explicit* (1994) a v kratším úvodu *Articulating Reasons* (2000) rozvíjí inferencialismus: teorii, podle níž je obsah pojmů a tvrzení dán jejich místem v síti usuzování, tedy tím, co z nich plyne, z čeho plynou a s čím jsou neslučitelné (Brandom, 1994; Brandom, 2000). Stránka vykládá jeho teorii z primárních textů, uvádí hlavní námitky a v samostatném oddílu, výslovně jako interpretaci této knihy, ukazuje, proč je pojem deontického skórování užitečný pro rozpoznání manipulace v rozhovoru.
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Brandomova teorie nástroj pro pochopení EA technik jako **manipulace deontického skóru** — pozic závazků a oprávnění v **prostoru důvodů**.
+## Od reprezentace k usuzování
 
-## 1. Inferenciální sémantika
+Tradiční sémantika vychází z pojmu reprezentace: slovo nebo tvrzení má význam proto, že něco označuje. Brandom pořadí obrací a tvrdí, že pojem reprezentace je třeba vysvětlit z praxe usuzování, nikoli naopak (Brandom, 1994). Ilustruje to rozdílem mezi papouškem, který se naučil při pohledu na červený předmět říkat „červené“, a člověkem, který totéž slovo používá: papoušek spolehlivě reaguje, ale nerozumí, protože neví, že z „je červené“ plyne „je barevné“ a že to vylučuje „je zelené“ (Brandom, 2000). Porozumět pojmu znamená ovládat jeho inferenční roli.
 
-Brandomova centrální teze: **význam** tvrzení není primárně **referenciální** (co tvrzení označuje) ani **propoziční** (jakou propozici tvrzení vyjadřuje), ale **inferenciální** — **jak tvrzení funguje** v hierarchii implikací.
+Brandom přitom zdůrazňuje takzvané materiální inference, které nejsou platné díky logické formě, ale díky obsahu pojmů. Z tvrzení, že jedno město leží západně od druhého, plyne, že druhé leží východně od prvního, a z toho, že se blýská, plyne, že brzy zahřmí; tyto přechody podle něj nejsou zkrácené sylogismy, ale samy konstituují obsah příslušných pojmů (Brandom, 2000). Z toho plyne holistický obraz jazyka, v němž změna jednoho přesvědčení může posunout mnoho dalších, jak ukazuje i heslo [holismus](@/glossary/holismus.md) (Sellars, 1956).
 
-Tvrzení „*Toto je červené*“ má smysl díky:
+## Prostor důvodů a hra dávání a žádání důvodů
 
-- Co **z něho** vyplývá: „Toto má barvu“, „Toto není zelené“, „Toto je vidět při denním světle“
-- Co **k němu** vede: „Toto je krev“, „Toto je rajče“, „Toto je signál stop“
+Pojem prostoru důvodů převzal Brandom od Sellarse, který tvrdil, že označit něco za poznání znamená umístit to do logického prostoru důvodů, tedy do prostoru zdůvodňování a schopnosti zdůvodnění podat (Sellars, 1956). Brandom z toho činí základ pragmatiky: jazyk je především „hrou dávání a žádání důvodů“ (*game of giving and asking for reasons*) a tvrzení je tah v této hře (Brandom, 1994). Kdo něco tvrdí, nepopisuje jen stav světa, ale přebírá odpovědnost, kterou mu mohou ostatní připsat a na které mohou stavět.
 
-Pro EA z toho plyne:
+Příbuzná myšlenka pozdního Wittgensteina, že význam je dán užíváním v praxi, se v knize vykládá na stránce [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md). Brandom se od ní liší tím, že praxi popisuje přesně jako normativní strukturu se dvěma základními statusy, a nespokojuje se s obrazem mnoha nesouměřitelných [jazykových her](@/glossary/jazykova-hra.md) (Brandom, 1994; Wittgenstein, 1953).
 
-- **Manipulace inferencí**: útočník může **podkopávat** legitimní inference („z X **nevyplývá** Y“) nebo **fabrikovat** nelegitimní („z X **vyplývá** Y“, ač nevyplývá).
-- **Pseudo-inferencialismus**: imitace argumentu, jež **zachovává formu** inference, ale **rozkládá** její sémantickou váhu.
-- **Klinický korelát**: subjekt vystaven dlouhodobé inferenční manipulaci ztrácí **schopnost důvěřovat vlastním inferencím**.
+## Závazky, oprávnění a deontické skórování
 
-## 2. Prostor důvodů (*space of reasons*)
+Dva normativní statusy, s nimiž Brandom pracuje, jsou závazek (*commitment*) a oprávnění (*entitlement*). Kdo tvrdí, že sníh je bílý, zavazuje se k důsledkům tohoto tvrzení a zároveň vznáší nárok, že je k němu oprávněn, tedy že ho umí v případě potřeby zdůvodnit (Brandom, 1994). Dvě tvrzení jsou neslučitelná, pokud závazek k jednomu vylučuje oprávnění k druhému. Účastníci rozhovoru si podle Brandoma navzájem vedou účet, jaké závazky a oprávnění kdo má; metaforu „skóre“ přebírá od Lewise, který popsal konverzaci jako hru s průběžně aktualizovaným skóre (Lewis, 1979).
 
-Brandom navazuje na Wilfrida Sellarse: **prostor důvodů** je **normativní prostor**, v němž se odehrává argumentace, ospravedlňování, kritika. Pojem znalosti je strukturálně **nepojmovatelný** mimo prostor důvodů — znát něco znamená **být s to** uvést a obhájit důvody.
+Oprávnění má podle Brandoma strukturu výchozího stavu a výzvy (*default and challenge*): mnohá tvrzení jsou oprávněná, dokud je někdo oprávněně nezpochybní, a výzva sama musí mít důvod. Důležitou součástí této struktury je svědectví: kdo tvrdí, opravňuje druhé, aby jeho tvrzení převzali, a odpovědnost za zdůvodnění se pak přesouvá zpět k původnímu mluvčímu (Brandom, 1994). Logické výrazy, například podmínková věta, mají podle něj výrazovou úlohu: umožňují vyslovit, tedy učinit explicitním, k jakým inferencím se zavazujeme, a tím je otevřít kritice. Odtud název hlavní knihy.
 
-Pro EA má prostor důvodů **trojí relevanci**:
+Svou teorii Brandom později rozšířil v analytickém pragmatismu, který zkoumá vztahy mezi tím, co děláme, a tím, co říkáme (Brandom, 2008), a v rozsáhlém výkladu Hegelovy *Fenomenologie ducha*, kde normy chápe jako výsledek vzájemného uznávání a odpouštění v historicky se vyvíjejícím společenství (Brandom, 2019).
 
-1. **EA jako vykolejování z prostoru důvodů**: techniky, jež nutí subjekt **opustit** legitimní argumentaci a uchýlit se k **emocionálním**, **autoritativním** nebo **fyzickým** apelům.
-2. **Pseudo-prostor důvodů**: simulace argumentace, jež nemá strukturální podmínky **autentického** odůvodňování (Habermasovská ideální komunikační situace, [viz 7.1 §4.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
-3. **Klinická restituce**: pacient vystaven EA musí být znovu uveden do prostoru důvodů — schopnost **požadovat** a **dávat** důvody.
+## Hlavní kritiky a meze
 
-## 3. Deontický skór (*deontic score*)
+Fodor a Lepore (2001) namítají, že inferenční role nejsou kompoziční: význam složeného výrazu by měl být určen významy jeho částí, ale inferenční role složeniny nelze z rolí částí spolehlivě odvodit. Pokud je to pravda, inferencialismus nevysvětluje, jak můžeme rozumět neomezenému počtu nových vět. Brandom odpovídá, že kompozicionalita platí jen v omezené podobě a že ji lze rekonstruovat ze substitučních vztahů, spor však zůstává otevřený (Weiss a Wanderer, 2010).
 
-Brandomova nejtechničtější inovace: **deontický skór** — souhrn **závazků** (*commitments*) a **oprávnění** (*entitlements*), jež si účastníci diskurzu **vzájemně přidělují**.
+Starší námitka proti inferencialismu v logice pochází od A. N. Priora, který ukázal (Prior, 1960), že pokud by význam spojky byl dán libovolnými pravidly, dala by se zavést spojka „tonk“, z níž by plynulo cokoli. Belnap (1962) a později Dummett (1991) odpověděli požadavkem, aby pravidla zavedení a vyloučení byla v rovnováze a nové výrazy nerozšiřovaly to, co již bylo odvoditelné. Brandom tento požadavek přijímá pro logické výrazy, ale u materiálních inferencí jeho uplatnění zůstává předmětem diskuse.
 
-Když řeknu „*Sníh je bílý*“, **zavazuji** se k důsledkům tohoto tvrzení a **opravňuji** druhé k tomu, aby na něm stavěli další závěry. Diskurz je strukturálně **deontickou hrou** vzájemného přidělování závazků a oprávnění.
+Habermas (2000) ocenil Brandomovu pragmatiku, ale kritizoval, že normy vyvozuje z postojů účastníků a nedokáže dostatečně vysvětlit objektivitu poznání ani rozdíl mezi tím, co společenství pokládá za správné, a tím, co správné je. Brandom odpověděl, že objektivita je zachycena strukturou perspektiv mezi jednotlivými účastníky, nikoli souhlasem celku (Brandom, 2000a). Z jiné strany lze namítnout, že model idealizuje rozhovor rovných partnerů a nezabývá se mocí, která určuje, komu se oprávnění přiznává; tuto mezeru zaplňuje teorie epistemické nespravedlnosti (Fricker, 2007).
 
-Pro EA má pojem deontického skóru **specifickou diagnostickou hodnotu**:
+## Interpretace pro epistemickou anihilaci
 
-- **Manipulace deontického skóru**: útočník **fabrikuje** závazky druhých („ty jsi přece souhlasil s X“) nebo **odmítá vlastní** závazky („nikdy jsem to neřekl“).
-- **[Gaslighting](@/glossary/gaslighting.md) jako deontická manipulace**: systematické přepisování deontického skóru pacienta — „ty jsi řekl/a Y“, „ty jsi cítil/a Z“.
-- **Algoritmické přepisování deontického skóru**: digitální platformy **přidělují** subjektu závazky (terms of service, předpoklady souhlasu) bez explicitní ratifikace.
+Následující oddíl je interpretací této knihy, nikoli tvrzením Brandoma. Pojem deontického skórování umožňuje popsat řadu manipulativních vzorců v rozhovoru jako narušení účtu závazků a oprávnění. Přisuzování závazků, které druhý nikdy nepřevzal („vždyť jsi s tím souhlasil“), a popírání vlastních dřívějších tvrzení přepisuje skóre bez toho, aby se otevřel spor o důvody. Opakované zpochybňování vlastního vnímání druhého, které kniha popisuje jako [gaslighting](@/glossary/gaslighting.md), lze z této perspektivy chápat jako systematické odnímání oprávnění k vlastním pozorovacím tvrzením (Brandom, 1994; Sweet, 2019).
 
-## 4. Pragmatika a kontext
+Strukturu výchozího stavu a výzvy může narušit i zneužití povinnosti zdůvodňovat. Vzorec, který popisuje heslo [sealioning](@/glossary/sealioning.md), vypadá jako legitimní žádání důvodů, ale výzvy nemají vlastní důvod a jejich smyslem je vyčerpat druhého. Vzorec [motte and bailey](@/glossary/motte-and-bailey.md) střídá silné a slabé tvrzení tak, aby mluvčí nesl závazky jen toho slabšího, když je napaden. Obojí lze rozpoznat tak, že se ptáme, jaké závazky mluvčí skutečně přebírá a čím by se jeho tvrzení dalo vyvrátit (Brandom, 2000; Walton, 2008).
 
-Brandomova teorie je strukturálně **pragmatická** — význam je **konstituován** v **užívání**, nikoli v abstraktní reprezentaci. Tato pozice rezonuje s pozdním Wittgensteinem ([viz 7.10](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)).
+Třetí interpretace navazuje na Frickerovou. [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) znamená, že mluvčímu je kvůli předsudku přiznána menší důvěryhodnost; v Brandomově jazyce mu není přiznáno oprávnění, které by jinému za stejných okolností náleželo, a jeho svědectví nemohou ostatní převzít (Fricker, 2007). Kniha tento posun pokládá za jeden z mechanismů, jimiž se z člověka postupně stává ten, komu se nevěří, a to i ve vlastních očích.
 
-Pro EA z toho plyne:
+V rámci platformy, z níž kniha vzešla, se Brandomova myšlenka zviditelnění závazků promítá do požadavku, aby rozhodovací záznam ([Decision Core](@/glossary/decision-core.md)) uchovával inferenční řetězec a aby rozpory zachycené v systému [NABLA Infinity](@/glossary/nabla-infinity.md) byly řešeny výslovně, nikoli tichým přepsáním. Jde o aplikaci inspirovanou Brandomem, nikoli o jeho vlastní návrh (Brandom, 1994).
 
-- **Kontext-citlivost EA**: techniky operují v specifických **pragmatických hrách** — analyzovat je vyžaduje analyzovat hru.
-- **Manipulace kontextu**: nucené přesouvání tvrzení z jedné pragmatické hry do druhé (například „vědecká hypotéza“ jako „politická pozice“) strukturálně mění deontický skór.
+## Rozpoznání, obrana a klinický rámec
 
-## 5. Mapping na EA techniky
+Z inferencialistické perspektivy jsou rozpoznávacími znaky manipulace v rozhovoru opakovaná nejistota, co člověk vlastně řekl, neochota protistrany vyslovit, k čemu se zavazuje, a výzvy ke zdůvodnění, které se nikdy neuspokojí. Je třeba je odlišit od běžných nedorozumění, od rozdílných jazykových zvyklostí a od legitimní kritiky, která se ptá po důvodech, protože jim chce porozumět (Brandom, 2000; Walton, 2008).
 
-| Brandom | EA technika | Mechanismus |
-|---------|-------------|-------------|
-| Manipulace inferencí | Falešná dedukce | EA-1.x |
-| Pseudo-prostor důvodů | Imitace argumentace | EA-1.5 |
-| Manipulace deontického skóru | Gaslighting | EA-4.1 |
-| Manipulace kontextu | Kontextový shift | EA-2.x |
-| Vykolejování z prostoru důvodů | Apel na emocí | EA-2.x |
+Obranou je to, co Brandom nazývá zviditelněním: vyslovit závazky výslovně, zaznamenat je, ptát se na důsledky a na podmínky vyvrácení a sdílet záznam s nezávislou třetí osobou. Strukturovanému zdůvodňování pomáhá i [Toulminův model argumentace](@/glossary/toulmin-model.md), který odděluje tvrzení, data a oprávnění (Toulmin, 1958). V terapii po dlouhodobé manipulaci kniha z téže úvahy vyvozuje cíl, aby klient znovu získal oprávnění k vlastním tvrzením a schopnost žádat důvody, aniž by se cítil povinen odpovídat na každou výzvu; podrobnosti uvádí sekce [6. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) (Fricker, 2007).
 
-## 6. Algoritmická operacionalizace
+## Otevřené otázky
 
-Pro Prismatic platformu má inferencialismus **specifickou** relevanci:
+Otevřené zůstává, zda lze Brandomovu teorii, vytvořenou pro idealizovaný rozhovor, rozšířit na prostředí, v němž část účastníků tvoří automatizované účty a jazykové modely, které tvrzení vytvářejí bez odpovědnosti za ně. Stejně otevřená je otázka, jak teorii, která normy zakládá ve vzájemném uznání, doplnit o analýzu nerovné moci, aniž by ztratila svou přesnost (Brandom, 2019; Fricker, 2007).
 
-- **NABLA Infinity** ([viz §4.2 7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) operuje **inferenciálně** — udržuje **deontický skór** kontradikcí, jež musí být **explicitně řešeny**.
-- **Color Teams** strukturálně **udržují** prostor důvodů — [Red Team](@/glossary/red-team.md) sleduje, zda [Blue Team](@/glossary/blue-team.md) **drží** své závazky.
-- **Decision Core** zaznamenává **inferenční řetězec** — explicitní deontický skór rozhodovacích procesů.
+## Literatura
 
-## 7. Primární literatura
-
-- Brandom, R. (1994). *Making It Explicit*. Harvard UP.
-- Brandom, R. (2000). *Articulating Reasons*. Harvard UP.
-- Brandom, R. (2008). *Between Saying and Doing*. Oxford UP.
-- Sellars, W. (1956/1997). *Empiricism and the Philosophy of Mind*. Harvard UP.
-- Weiss, B. & Wanderer, J. (eds.) (2010). *Reading Brandom*. Routledge.
+- Belnap, N. D. (1962). Tonk, plonk and plink. *Analysis*, 22(6).
+- Brandom, R. B. (1994). *Making It Explicit: Reasoning, Representing, and Discursive Commitment*. Harvard University Press.
+- Brandom, R. B. (2000). *Articulating Reasons: An Introduction to Inferentialism*. Harvard University Press.
+- Brandom, R. B. (2000a). Facts, norms, and normative facts: A reply to Habermas. *European Journal of Philosophy*, 8(3).
+- Brandom, R. B. (2008). *Between Saying and Doing: Towards an Analytic Pragmatism*. Oxford University Press.
+- Brandom, R. B. (2019). *A Spirit of Trust: A Reading of Hegel's Phenomenology*. Harvard University Press.
+- Dummett, M. (1991). *The Logical Basis of Metaphysics*. Harvard University Press.
+- Fodor, J., a Lepore, E. (2001). Brandom's burdens: Compositionality and inferentialism. *Philosophy and Phenomenological Research*, 63(2).
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Habermas, J. (2000). From Kant to Hegel: On Robert Brandom's pragmatic philosophy of language. *European Journal of Philosophy*, 8(3).
+- Lewis, D. (1979). Scorekeeping in a language game. *Journal of Philosophical Logic*, 8(1).
+- Prior, A. N. (1960). The runabout inference-ticket. *Analysis*, 21(2).
+- Sellars, W. (1956). Empiricism and the philosophy of mind. *Minnesota Studies in the Philosophy of Science*, 1.
+- Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5).
+- Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge University Press.
+- Walton, D. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge University Press.
+- Weiss, B., a Wanderer, J. (eds.) (2010). *Reading Brandom: On Making It Explicit*. Routledge.
+- Wittgenstein, L. (1953). *Philosophische Untersuchungen / Philosophical Investigations*. Blackwell.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.10 Wittgenstein: Jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
-- [7.16 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)
-- [7.24 McDowell: Mind and World](@/kompendium/07-teoreticke-reflexe/mcDowell-mind-and-world.md)
-- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
-- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: Decision Core](@/glossary/decision-core.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Filozofie jazyka**
+
+- [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md) – význam jako užívání.
+- [7.24 McDowell: Mind and World a otevřenost vůči realitě](@/kompendium/07-teoreticke-reflexe/mcDowell-mind-and-world.md) – druhý představitel pittsburské školy.
+- [7.25 Davidson: Radikální interpretace a princip charity](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md) – interpretace a racionalita mluvčího.
+- [7.26 Quine: Síť přesvědčení a holismus](@/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md) – holistický obraz přesvědčení.
+- [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – svědectví a epistemická nespravedlnost.
+
+**Glosář**
+
+- [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) – odepřené oprávnění mluvčího.
+- [Motte and bailey](@/glossary/motte-and-bailey.md) – střídání silného a slabého závazku.
+- [Sealioning](@/glossary/sealioning.md) – zneužití povinnosti zdůvodňovat.
+- [Komunikativní racionalita](@/glossary/communicative-rationality.md) – Habermasův protějšek pragmatiky.
+
+**Platforma**
+
+- [Decision Core](@/glossary/decision-core.md) – záznam inferenčního řetězce rozhodnutí.

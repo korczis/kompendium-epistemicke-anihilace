@@ -210,7 +210,7 @@ pro jiné země a období.
 - Bail, C. A., a kol. (2020). Assessing the Russian Internet Research Agency's impact on the
   political attitudes and behaviors of American Twitter users in late 2017. *Proceedings of the
   National Academy of Sciences*, 117(1).
-- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md): Manipulation, Disinformation,
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network Propaganda: Manipulation, Disinformation,
   and Radicalization in American Politics*. Oxford University Press.
 - DiResta, R., a kol. (2018). *The Tactics & Tropes of the Internet Research Agency*. New Knowledge.
 - Eady, G., a kol. (2023). Exposure to the Russian Internet Research Agency foreign influence

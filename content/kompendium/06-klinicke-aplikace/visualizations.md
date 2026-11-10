@@ -68,7 +68,7 @@ Edward Tufte požaduje, aby každý grafický prvek nesl informaci a nevyvoláva
 ## Literatura
 
 - Cairo, A. (2016). *The Truthful Art: Data, Charts, and Maps for Communication*. New Riders.
-- Courtois, C. A., & Ford, J. D. (Eds.) (2009). *Treating Complex Traumatic Stress Disorders: An [Evidence-Based](@/glossary/evidence-based.md) Guide*. Guilford Press.
+- Courtois, C. A., & Ford, J. D. (Eds.) (2009). *Treating Complex Traumatic Stress Disorders: An Evidence-Based Guide*. Guilford Press.
 - Hassan, S. (2015). *Combating Cult Mind Control* (rev. vyd.). Freedom of Mind Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hobfoll, S. E., Watson, P., Bell, C. C., et al. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*, 70(4).

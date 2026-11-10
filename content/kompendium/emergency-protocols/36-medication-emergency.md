@@ -207,12 +207,12 @@ nichž má klonus u pacienta na serotonergní léčbě ústřední místo (Dunkl
 - American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5. vyd.). American Psychiatric Publishing.
 - Baird-Gunning, J., Lea-Henry, T., Hoegberg, L. C. G. a kol. (2017). Lithium poisoning. *Journal of Intensive Care Medicine*, 32(4), 249–263.
 - Boyer, E. W. a Shannon, M. (2005). The serotonin syndrome. *New England Journal of Medicine*, 352(11), 1112–1120.
-- Dart, R. C., Erdman, A. R., Olson, K. R. a kol. (2006). Acetaminophen poisoning: An [evidence-based](@/glossary/evidence-based.md) consensus guideline for out-of-hospital management. *Clinical Toxicology*, 44(1), 1–18.
+- Dart, R. C., Erdman, A. R., Olson, K. R. a kol. (2006). Acetaminophen poisoning: An evidence-based consensus guideline for out-of-hospital management. *Clinical Toxicology*, 44(1), 1–18.
 - Dunkley, E. J. C., Isbister, G. K., Sibbritt, D. a kol. (2003). The Hunter Serotonin Toxicity Criteria: Simple and accurate diagnostic decision rules for serotonin toxicity. *QJM*, 96(9), 635–642.
 - Gallagher, T. H., Waterman, A. D., Ebers, A. G. a kol. (2003). Patients' and physicians' attitudes regarding the disclosure of medical errors. *JAMA*, 289(8), 1001–1007.
 - Gurrera, R. J., Caroff, S. N., Cohen, A. a kol. (2011). An international consensus study of neuroleptic malignant syndrome diagnostic criteria using the Delphi method. *Journal of Clinical Psychiatry*, 72(9), 1222–1228.
 - Kohn, L. T., Corrigan, J. M. a Donaldson, M. S. (Eds.). (2000). *To Err Is Human: Building a Safer Health System*. National Academy Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Mann, J. J., Apter, A., Bertolote, J. a kol. (2005). Suicide prevention strategies: A systematic review. *JAMA*, 294(16), 2064–2074.
 - Posner, K., Brown, G. K., Stanley, B. a kol. (2011). The Columbia–Suicide Severity Rating Scale: Initial validity and internal consistency findings from three multisite studies with adolescents and adults. *American Journal of Psychiatry*, 168(12), 1266–1277.
 - Sachdev, P. (1995). *Akathisia and Restless Legs*. Cambridge University Press.

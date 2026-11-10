@@ -205,7 +205,7 @@ politického věznění přetrvávají desítky let (Maercker a Schützwohl, 199
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Gieseke, J. (2014). *The History of the Stasi: East Germany's Secret Police, 1945–1990*. Berghahn Books.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Maercker, A. a Schützwohl, M. (1997). Long-term effects of political imprisonment: A group comparison study. *Social Psychiatry and Psychiatric Epidemiology*, 32(8), 435–442.
 - Office of the United Nations High Commissioner for Human Rights (OHCHR). (2004). *Istanbul Protocol: Manual on the Effective Investigation and Documentation of Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment* (Professional Training Series No. 8/Rev.1). United Nations.
 - Organizace spojených národů (OSN). (1984). *Úmluva proti mučení a jinému krutému, nelidskému či ponižujícímu zacházení nebo trestání*. OSN.

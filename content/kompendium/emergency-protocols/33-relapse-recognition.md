@@ -219,16 +219,16 @@ blízcí slouží jako domluvení pozorovatelé a rozhodnutí zůstává pacient
 
 - Birchwood, M., Smith, J., Macmillan, F. a kol. (1989). Predicting relapse in schizophrenia: The development and implementation of an early signs monitoring system using patients and families as observers, a preliminary investigation. *Psychological Medicine*, 19(3), 649–656.
 - Copeland, M. E. (1997). *Wellness Recovery Action Plan*. Peach Press.
-- Dutton, D. G. a Painter, S. L. (1993). Emotional attachments in abusive relationships: A test of [traumatic bonding](@/glossary/traumatic-bonding.md) theory. *Violence and Victims*, 8(2), 105–120.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Dutton, D. G. a Painter, S. L. (1993). Emotional attachments in abusive relationships: A test of traumatic bonding theory. *Violence and Victims*, 8(2), 105–120.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Marlatt, G. A. a Gordon, J. R. (Eds.). (1985). *Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors*. Guilford Press.
 - Nisbett, R. E. a Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review*, 84(3), 231–259.
 - Singer, M. T. a Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Stanley, B. a Brown, G. K. (2012). Safety planning intervention: A brief intervention to mitigate suicide risk. *Cognitive and Behavioral Practice*, 19(2), 256–264.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Witkiewitz, K. a Marlatt, G. A. (2004). Relapse prevention for alcohol and drug problems: That was Zen, this is Tao. *American Psychologist*, 59(4), 224–235.
 
 ## Související

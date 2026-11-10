@@ -218,7 +218,7 @@ znovu stát progresivním – a co to znamená pro vztah k
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
 - Lakatos, I. (1978). *The Methodology of Scientific Research Programmes*. Cambridge University
   Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., a Maguen, S. (2009).
   Moral injury and moral repair in war veterans: A preliminary model and intervention strategy.
   *Clinical Psychology Review*.

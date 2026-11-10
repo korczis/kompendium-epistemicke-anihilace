@@ -97,7 +97,7 @@ Rozlišení mezi rozkladem příběhu a narušením kontinuity toho, kdo příb�
 
 ## Literatura
 
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
 - Ricœur, P. (1990). *Soi-même comme un autre*. Paris: Seuil.
 - Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge: Cambridge University Press.
 

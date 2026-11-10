@@ -149,7 +149,7 @@ vzorců kontrolovat lidským dohledem, aby se z ní nestal netransparentní syst
 - Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry. *American Psychologist*, 34(10), 906–911.
 - Holland, J. H. (1975). *Adaptation in Natural and Artificial Systems*. University of Michigan Press.
 - Humble, J., & Farley, D. (2010). *Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation*. Addison-Wesley.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Strathern, M. (1997). „Improving ratings“: Audit in the British University system. *European Review*, 5(3), 305–321.
 
 ## Související

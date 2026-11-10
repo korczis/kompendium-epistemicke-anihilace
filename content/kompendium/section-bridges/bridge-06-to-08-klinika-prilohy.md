@@ -73,7 +73,7 @@ Přílohy nenabízejí nástroj, který by epistemickou anihilaci měřil přím
 - American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Arlington, VA: American Psychiatric Publishing.
 - Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). New York: Oxford University Press.
 - Bernstein, E. M., & Putnam, F. W. (1986). Development, reliability, and validity of a dissociation scale. *Journal of Nervous and Mental Disease*, 174(12), 727–735.
-- Fraley, R. C., Waller, N. G., & Brennan, K. A. (2000). An item response theory analysis of [self-report](@/glossary/self-report.md) measures of adult attachment. *Journal of Personality and Social Psychology*, 78(2), 350–365.
+- Fraley, R. C., Waller, N. G., & Brennan, K. A. (2000). An item response theory analysis of self-report measures of adult attachment. *Journal of Personality and Social Psychology*, 78(2), 350–365.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester, VT: Park Street Press.
 - Hassan, S. (2015). *Combating Cult Mind Control* (25th anniversary ed.). Newton, MA: Freedom of Mind Press.
 - Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2). *Journal of Personality and Social Psychology*, 113(1), 117–143.

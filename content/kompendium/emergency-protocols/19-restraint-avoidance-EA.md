@@ -234,7 +234,7 @@ individuálním preventivním nástrojům, které popisuje Huckshorn (2004).
 - Substance Abuse and Mental Health Services Administration (SAMHSA). (2014). *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach* (HHS Publication No. (SMA) 14-4884). SAMHSA.
 - Smith, C. P. a Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69(6), 575–587.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
-- Sweeney, A., Filson, B., Kennedy, A. a kol. (2018). A [paradigm shift](@/glossary/paradigm-shift.md): Relationships in trauma-informed mental health services. *BJPsych Advances*, 24(5), 319–333.
+- Sweeney, A., Filson, B., Kennedy, A. a kol. (2018). A paradigm shift: Relationships in trauma-informed mental health services. *BJPsych Advances*, 24(5), 319–333.
 - Thornicroft, G., Farrelly, S., Szmukler, G. a kol. (2013). Clinical outcomes of Joint Crisis Plans to reduce compulsory treatment for people with psychosis: A randomised controlled trial. *The Lancet*, 381(9878), 1634–1641.
 
 ## Související

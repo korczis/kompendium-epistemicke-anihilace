@@ -204,7 +204,7 @@ vrcholová hudba vyžaduje, s ochranou dětí, aniž by se jedno obětovalo druh
   the acquisition of expert performance. *Psychological Review*.
 - Flett, G. L., a Hewitt, P. L. (2002). *Perfectionism: Theory, Research, and Treatment*.
   American Psychological Association.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard
   University Press.
 - Gaunt, H. (2008). One-to-one tuition in a conservatoire: The perceptions of instrumental and
   vocal teachers. *Psychology of Music*.
@@ -213,7 +213,7 @@ vrcholová hudba vyžaduje, s ochranou dětí, aniž by se jedno obětovalo druh
   Conceptualization, assessment, and association with psychopathology. *Journal of Personality
   and Social Psychology*.
 - Kenny, D. T. (2011). *The Psychology of Music Performance Anxiety*. Oxford University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*.
 - Miller, A. (1979). *Das Drama des begabten Kindes*. Suhrkamp.
 - van der Kolk, B. (2014). *The Body Keeps the Score*. Viking.

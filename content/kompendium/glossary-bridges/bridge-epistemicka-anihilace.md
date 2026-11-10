@@ -186,7 +186,7 @@ podrobnosti (viz [Dual-use poznání](@/glossary/dual-use-poznani.md) a
 
 - Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 

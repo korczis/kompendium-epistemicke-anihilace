@@ -229,7 +229,7 @@ Strasburger, Gutheil a Brodsky (1997).
 - Crichton, P., Carel, H. a Kidd, I. J. (2017). Epistemic injustice in psychiatry. *BJPsych Bulletin*, 41(2), 65–70.
 - Croskerry, P. (2003). The importance of cognitive errors in diagnosis and strategies to minimize them. *Academic Medicine*, 78(8), 775–780.
 - Elwyn, G., Frosch, D., Thomson, R. a kol. (2012). Shared decision making: A model for clinical practice. *Journal of General Internal Medicine*, 27(10), 1361–1367.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1), 22–32.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*, 7(1), 22–32.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Graber, M. L., Franklin, N. a Gordon, R. (2005). Diagnostic error in internal medicine. *Archives of Internal Medicine*, 165(13), 1493–1499.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
@@ -239,8 +239,8 @@ Strasburger, Gutheil a Brodsky (1997).
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Maercker, A., Brewin, C. R., Bryant, R. A. a kol. (2013). Diagnosis and classification of disorders specifically associated with stress: Proposals for ICD-11. *World Psychiatry*, 12(3), 198–206.
 - Payne, V. L., Singh, H., Meyer, A. N. D. a kol. (2014). Patient-initiated second opinions: Systematic review of characteristics and impact on diagnosis, treatment, and satisfaction. *Mayo Clinic Proceedings*.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
-- Strasburger, L. H., Gutheil, T. G. a Brodsky, A. (1997). On wearing two hats: Role conflict in serving as both psychotherapist and [expert witness](@/glossary/expert-witness.md). *American Journal of Psychiatry*, 154(4), 448–456.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Strasburger, L. H., Gutheil, T. G. a Brodsky, A. (1997). On wearing two hats: Role conflict in serving as both psychotherapist and expert witness. *American Journal of Psychiatry*, 154(4), 448–456.
 - Tversky, A. a Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 
 ## Související

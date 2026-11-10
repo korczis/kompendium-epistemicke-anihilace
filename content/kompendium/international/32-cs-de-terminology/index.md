@@ -181,7 +181,7 @@ zkušenost zlehčovalo.
 
 - Cao, D. (2007). *Translating Law*. Multilingual Matters.
 - Deutscher Bundestag (1998). *Endbericht der Enquete-Kommission „Sogenannte Sekten und Psychogruppen“*. Deutscher Bundestag.
-- Dutton, D. G., & Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
+- Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
 - Fischer, T. (2024). *Strafgesetzbuch mit Nebengesetzen*. C. H. Beck.
 - Gieseke, J. (2014). *The History of the Stasi: East Germany's Secret Police, 1945–1990*. Berghahn Books.
 - Hassan, S. (1988). *Combating Cult Mind Control*. Park Street Press.

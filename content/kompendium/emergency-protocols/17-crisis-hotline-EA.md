@@ -194,7 +194,7 @@ pořadí bezpečí, kontaktu, ukotvení a plánu, které doporučuje první psyc
 - Gould, M. S., Kalafat, J., Harris Munfakh, J. L. a Kleinman, M. (2007). An evaluation of crisis hotline outcomes. Part 2: Suicidal callers. *Suicide and Life-Threatening Behavior*, 37(3), 338–352.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kalafat, J., Gould, M. S., Harris Munfakh, J. L. a Kleinman, M. (2007). An evaluation of crisis hotline outcomes. Part 1: Nonsuicidal crisis callers. *Suicide and Life-Threatening Behavior*, 37(3), 322–337.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Mishara, B. L., Chagnon, F., Daigle, M. a kol. (2007). Which helper behaviors and intervention styles are related to better short-term outcomes in telephone crisis intervention? Results from a silent monitoring study of calls to the U.S. 1-800-SUICIDE Network. *Suicide and Life-Threatening Behavior*, 37(3), 308–321.
 - Posner, K., Brown, G. K., Stanley, B. a kol. (2011). The Columbia–Suicide Severity Rating Scale: Initial validity and internal consistency findings from three multisite studies with adolescents and adults. *American Journal of Psychiatry*, 168(12), 1266–1277.
 - Roberts, A. R. (Ed.). (2005). *Crisis Intervention Handbook: Assessment, Treatment, and Research* (3. vyd.). Oxford University Press.

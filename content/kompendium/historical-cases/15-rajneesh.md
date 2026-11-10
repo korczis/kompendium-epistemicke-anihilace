@@ -188,7 +188,7 @@ dokumenty, ale kterou nelze vztáhnout na motivy jednotlivých aktérů.
 - Carter, L. F. (1990). *Charisma and Control in Rajneeshpuram: The Role of Shared Values in the Creation of a Community*. Cambridge University Press.
 - FitzGerald, F. (1986). *Cities on a Hill: A Journey Through Contemporary American Cultures*. Simon & Schuster.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Milne, H. (1986). *Bhagwan: The God That Failed*.
 - Török, T. J. a kol. (1997). A large community outbreak of salmonellosis caused by intentional contamination of restaurant salad bars. *JAMA*.
 - Urban, H. B. (2015). *Zorba the Buddha: Sex, Spirituality, and Capitalism in the Global Osho Movement*. University of California Press.

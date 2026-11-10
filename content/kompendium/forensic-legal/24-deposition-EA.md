@@ -175,7 +175,7 @@ v příslušné jurisdikci.
 - Holmes, E. A., Brown, R. J., Mansell, W., a kol. (2005). *Are there two qualitatively distinct forms of dissociation? A review and some clinical implications*. Clinical Psychology Review.
 - Kebbell, M. R., & Johnson, S. D. (2000). *Lawyers' questioning: The effect of confusing questions on witness confidence and accuracy*. Law and Human Behavior.
 - Langbein, J. H. (1985). *The German advantage in civil procedure*. University of Chicago Law Review.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Subrin, S. N. (1987). *How equity conquered common law: The Federal Rules of Civil Procedure in historical perspective*. University of Pennsylvania Law Review.
 - Woodlock, D. (2017). *The abuse of technology in domestic violence and stalking*. Violence Against Women.
 

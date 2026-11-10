@@ -1,6 +1,6 @@
 +++
 title = "7.32 Taylor: Sources of Self a moderní identita"
-description = "Charles Taylor a kniha Sources of the Self, hermeneutika moderní identity, hyperdobrá (hypergoods), expresivismus — rámec pro pochopení strukturálních zdrojů, na něž EA techniky útočí."
+description = "Charles Taylor: silné hodnocení, rámce a hyperdobra, zdroje moderní identity, autenticita a uznání; výklad podle pramenů, kritika a interpretace pro EA."
 weight = 32
 insert_anchor_links = "right"
 
@@ -16,121 +16,182 @@ toc = true
 
 # 7.32 Taylor: Sources of Self a moderní identita
 
-Charles Taylor v monumentálním *Sources of the Self* (1989) předkládá **hermeneutickou genealogii** moderní identity — analýzu **morálních zdrojů**, z nichž současný subjekt čerpá své **závazky**, **ideály** a **smysl pro vlastní hodnotu**.
+Charles Taylor, kanadský filozof dlouhodobě působící na McGill University, patří k hlavním
+představitelům hermeneutické a komunitaristické kritiky liberálního individualismu. Jeho
+nejvlivnější dílo *Sources of the Self: The Making of the Modern Identity* je rozsáhlou
+historickou a filozofickou rekonstrukcí toho, jak vzniklo moderní pojetí sebe sama, a zároveň
+argumentem, že lidská identita je neoddělitelná od představ o dobru (Taylor, 1989). Taylor
+navazuje na Hegela, o němž napsal monografii (Taylor, 1975), na Heideggera a na pozdního
+Wittgensteina, ale vlastní pozici buduje jako kritiku naturalistického pojetí člověka.
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Taylorova analýza **strukturální mapping** zdrojů, na něž EA techniky útočí — a způsobů, jak je možné je **rezilientně** posílit.
+Kapitola nejprve vykládá Taylorovy pojmy podle jeho prací, poté shrnuje hlavní kritiku
+a nakonec v odděleném oddíle předkládá interpretaci [kompendia](@/glossary/kompendium-ea.md). Taylor o [epistemické
+anihilaci](@/glossary/epistemicka-anihilace.md) nepíše; vztažení jeho rámce k technikám
+kompendia je výkladem, nikoli jeho tvrzením (srov. Taylor, 1989). Místo Taylora mezi ostatními rámci ukazuje rozcestník [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md).
 
-## 1. Hermeneutická epistemologie
+## Člověk jako sebeinterpretující bytost
 
-Taylor — kanadský filozof, hluboce ovlivněný Heideggerem, Hegelem a Wittgensteinem — formuluje **hermeneutickou** pozici:
+Výchozí antropologickou tezi Taylor formuloval v esejích o lidském jednání: člověk je
+**sebeinterpretující bytost** (*self-interpreting animal*), jejíž city, touhy a jednání jsou
+částečně utvářeny tím, jak jim sama rozumí (Taylor, 1985). Rozlišil přitom **slabé
+hodnocení**, které váží touhy podle jejich výsledků, od **silného hodnocení** (*strong
+evaluation*), které touhy posuzuje podle kvalitativních rozdílů hodnoty – jako ušlechtilé
+nebo nízké, hluboké nebo povrchní, odvážné nebo zbabělé. Silné hodnocení je podle Taylora
+konstitutivní pro lidské jednání: kdo by je ztratil, ztratil by schopnost rozumět sám sobě
+jako osobě (Taylor, 1985).
 
-- Subjekt je **strukturálně** interpretující bytost
-- **Sebepoznání** je vždy **interpretačním aktem** — interpretuji **sám sebe** v rámci **kulturního horizontu**
-- **Morální horizont** není **konstruktem** subjektu — subjekt **vstupuje** do horizontu, jenž **už** existuje
+Pojem navazuje na [hermeneutiku](@/glossary/hermeneutika.md) Gadamera a Heideggera:
+sebepoznání není pozorováním vnitřního objektu, ale výkladem, který se vždy pohybuje v jazyce
+a v horizontu, jenž člověk nevytvořil sám (Taylor, 1985). Proto Taylor odmítá představu, že
+by identita mohla být čistě soukromou volbou: i odmítnutí tradice se děje pojmy, které tato
+tradice poskytla.
 
-Pro EA z toho plyne:
+## Rámce, morální prostor a hyperdobra
 
-- **EA techniky operují na hermeneutické úrovni** — manipulují **interpretačním rámcem**, v němž subjekt rozumí sám sobě.
-- **Imunizace skrze hermeneutickou reflexivitu**: schopnost **reflektovat** vlastní interpretační rámec je strukturálním zdrojem rezilience.
+První část *Sources of the Self* tvrdí, že lidé nutně žijí v **rámcích** (*frameworks*), tedy
+v artikulovaných nebo implicitních představách o tom, co má hodnotu, a že tyto rámce jsou
+nevyhnutelné (Taylor, 1989). Vědět, kdo jsem, znamená vědět, kde stojím v **morálním
+prostoru**, tedy k čemu se vztahuji jako k dobrému a důležitému. Krize identity je podle
+Taylora v první řadě **ztrátou orientace**: člověk neví, co je pro něj podstatné, a nemá
+z čeho rozhodovat (Taylor, 1989).
 
-## 2. Hyperdobra (*hypergoods*)
+Uvnitř rámce rozlišuje Taylor **hyperdobra** (*hypergoods*), tedy dobra vyššího řádu, z jejichž
+hlediska se poměřují ostatní dobra; příkladem moderního hyperdobra je ideál univerzální
+spravedlnosti a rovné důstojnosti (Taylor, 1989). Hyperdobra jsou zdrojem konfliktu, protože
+přechod k nim vyžaduje přehodnotit dřívější hodnoty, a Taylor tvrdí, že takový přechod lze
+racionálně obhájit jako zisk v porozumění, nikoli jen jako změnu vkusu. K tomu slouží jeho
+**princip nejlepšího výkladu** (*best account*): morální pojmy, bez nichž nedokážeme
+srozumitelně popsat vlastní život, nemáme důvod škrtat jen proto, že se nevejdou do
+naturalistické ontologie. Vztah takových pojmů k formálním modelům poznání rozebírá kapitola
+[7.6 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md).
 
-Taylorův centrální koncept: **hyperdobra** — morální závazky, jež **strukturují** všechna ostatní hodnocení. Hyperdobra jsou **konstitutivní** pro identitu — subjekt **bez nich** ztrácí orientaci.
+Taylor také zdůrazňuje narativní povahu identity. Protože se orientujeme vzhledem k dobru,
+chápeme svůj život jako příběh, který se k dobru přibližuje nebo od něj vzdaluje, a navazuje
+tím na MacIntyrovo pojetí [narativní identity](@/glossary/narativni-identita.md) (MacIntyre,
+1981; Taylor, 1989).
 
-Příklady moderních hyperdober:
+## Tři zdroje moderního já
 
-- **Univerzální lidská důstojnost** (od Kanta)
-- **Autenticita** (od Rousseaua a Herdera, dále Heideggera)
-- **Spravedlnost** (rovnostářské pojetí)
+Historická část knihy sleduje tři rysy moderní identity: **vnitřnost**, tedy představu, že
+morální zdroje leží „uvnitř“ člověka, sledovanou od Platona přes Augustina k Descartovu
+„odpoutanému rozumu“ a Lockovu „bodovému já“; **přitakání obyčejnému životu**, tedy
+reformační přehodnocení práce a rodiny jako místa dobrého života; a **expresivistické pojetí
+přírody** jako vnitřního zdroje, které Taylor spojuje s romantismem a Herderem (Taylor,
+1989). V závěru knihy rozlišuje tři hlavní morální zdroje moderního člověka – teistický,
+naturalismus odpoutaného rozumu a romantický expresivismus – a tvrdí, že moderní kultura žije
+z jejich napětí, které nelze jednoduše vyřešit.
 
-Pro EA má pojem hyperdobra **klíčovou diagnostickou hodnotu**:
+## Autenticita, instrumentální rozum a uznání
 
-- **Útok na hyperdobra** je strukturální technika EA — anihilace fundamentálního orientačního rámce subjektu.
-- **Manipulace hyperdober**: techniky, jež **přesouvají** hyperdobra v rámci subjektovy hierarchie (například instrumentalizace **autenticity** v komercializované self-help kultuře).
-- **Klinický korelát**: subjekt **bez** funkčních hyperdober vykazuje **strukturální dezorientaci** — strukturální analog Heideggerovy ztráty světa ([viz 7.14](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)).
+V knize *The Ethics of Authenticity* Taylor popsal tři „neduhy moderny“: individualismus,
+který ztrácí smysl pro širší horizont, převahu [instrumentálního
+rozumu](@/glossary/instrumental-reason.md), která měří vše efektivitou, a politické odcizení,
+které Tocqueville nazval měkkým despotismem (Taylor, 1991). Ideál **autenticity** podle Taylora
+není sám o sobě úpadkem; úpadkem jsou jeho mělké podoby, které zapomínají, že autentický život
+předpokládá **horizonty významu** a že identita vzniká v **dialogu** s významnými druhými, ne
+v izolaci.
 
-## 3. Expresivismus
+Esej *The Politics of Recognition* z toho vyvozuje politický důsledek: protože identita vzniká
+dialogicky, **nedostatečné nebo zkreslené uznání** (*misrecognition*) není jen nezdvořilost,
+ale může člověku způsobit skutečnou újmu, uvěznit ho ve zúženém a ponižujícím obrazu sebe
+sama (Taylor, 1992). Taylor rozlišuje politiku rovné důstojnosti, která požaduje stejná práva
+pro všechny, a politiku rozdílu, která požaduje uznání jedinečné identity skupin. V knize *A
+Secular Age* pak analyzuje podmínky víry v moderní době a kontrastuje premoderní „porézní já“,
+otevřené vlivům duchů a sil, s moderním „ohraničeným já“ (*buffered self*) uvnitř
+**imanentního rámce** (Taylor, 2007).
 
-Taylorova teze (rozvinutá v *The Ethics of Authenticity*, 1991): moderní identita je **strukturálně expresivistická** — subjekt **vyjadřuje** vnitřní hloubku skrze tvůrčí akt (umění, životní styl, profesní volba).
+## Recepce a kritika
 
-Expresivismus má **dva mody**:
+Skinner v obsáhlé kritice *Sources of the Self* zpochybnil, kdo je oním „my“, k němuž Taylor
+mluví, a upozornil, že kniha tiše upřednostňuje teistický zdroj a nedává naturalistické
+a sekulární etice stejnou šanci (Skinner, 1991). Abbeyová ve shrnující monografii hodnotí
+Taylorův přístup jako přesvědčivý v kritice naturalismu, ale méně jasný v tom, jak mezi
+konkurujícími rámci racionálně rozhodnout (Abbey, 2000).
 
-- **Hluboký expresivismus** — autentická tvorba, jež **odhaluje** něco **strukturálně nového** o lidské zkušenosti
-- **Plytký expresivismus** — performativní self, jež reprodukuje **kulturně dostupné** klišé
+Teorie uznání byla kritizována ze dvou stran. Habermas namítl, že liberální právní stát
+chrání kulturní identity dostatečně prostřednictvím individuálních práv a že politika
+rozdílu riskuje konzervaci kultur proti vůli jejich členů (Habermas, 1994). Fraserová
+odmítla „identitní model“ uznání, protože vede k reifikaci skupin a zakrývá ekonomickou
+nespravedlnost, a navrhla místo něj „statusový model“ (Fraser, 2000). Appiah upozornil, že
+kolektivní identity, které se politika uznání snaží chránit, mohou jednotlivcům vnucovat
+**scénáře** (*scripts*), jak mají žít, a tím omezovat autonomii, kterou měly chránit (Appiah,
+2005).
 
-Pro EA z toho plyne:
+## Interpretace pro kompendium EA
 
-- **Algoritmická amplifikace plytkého expresivismu**: sociální sítě strukturálně **upřednostňují** plytký expresivismus na úkor hlubokého.
-- **Klinický korelát**: chronické vystavení plytké expresi vede ke **strukturální alienaci** od **vlastní hloubky**.
+Následující oddíl je interpretací kompendia. Taylorův popis krize identity jako ztráty
+orientace v morálním prostoru umožňuje přesněji pojmenovat, co se děje při [destrukci
+identity](@/glossary/identity-destruction.md) ve [skupinách s vysokou mírou
+kontroly](@/glossary/high-control-group.md): skupina nenabízí jen jiné názory, ale jiný
+rámec, v němž určuje, co je ušlechtilé a co nízké, a dosazuje vlastní hyperdobro – poslání,
+čistotu, spásu –, z jehož hlediska se znehodnotí dřívější vazby a hodnoty (srov. Taylor,
+1989; Lifton, 1961). Po odchodu ze skupiny pak člověk nezřídka prožívá stav, který kompendium
+nazývá [epistemickou bezdomovostí](@/glossary/epistemicka-bezdomovost.md): starý rámec ztratil
+platnost a nový ještě nevznikl.
 
-## 4. Tři strukturní zdroje moderní identity
+Dialogické pojetí identity vysvětluje, proč je izolace tak účinná: kdo je odříznut od
+významných druhých, ztrácí partnery, v jejichž odpovědi si svou identitu ověřuje (srov.
+Taylor, 1991). Zkreslené uznání má blízko k [delegitimizaci](@/glossary/delegitimizace.md),
+při níž je člověku soustavně vnucován ponižující obraz sebe sama, a k
+[testimoniální nespravedlnosti](@/glossary/testimonialni-nespravedlnost.md), při níž se jeho
+slovu nevěří (srov. Fricker, 2007). Appiahova kritika přitom připomíná, že i ochranné prostředí
+může člověku vnucovat scénář – včetně scénáře „oběti“ –, a terapie proto nesmí jeden vnucený
+rámec nahradit jiným (srov. Appiah, 2005).
 
-Taylor v *Sources of the Self* mapuje **tři hlavní zdroje** moderní identity:
+Pro zotavení z toho plyne cíl, který kompendium popisuje v protokolu [střednědobé
+rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md):
+obnova schopnosti silného hodnocení, tedy schopnosti klienta samostatně rozlišovat, co je pro
+něj důležité, a vlastním jazykem artikulovat vlastní rámec (srov. Taylor, 1985). Narativní
+práce s identitou, kterou rozvíjí kapitola [7.17 Ricoeur: Trojí mimésis a narativní
+identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md), je jedním z prostředků,
+jak takovou artikulaci podpořit.
 
-1. **Theistická tradice** (Augustinian/biblická) — důstojnost subjektu jako obrazu Božího
-2. **Osvícenský naturalismus** — racionální subjekt schopný objektivního poznání
-3. **Romantický expresivismus** — autentický subjekt vyjadřující vnitřní hloubku
+## Meze a otevřené otázky
 
-Tyto tři zdroje jsou **strukturálně napjaté** — v moderní subjektivitě **koexistují**, často **konflikt**.
+Taylorova teorie je normativní a historická, nikoli klinická; neříká, jak identitu obnovit,
+ale co je ztraceno, když se rozpadne (Abbey, 2000). Její použití v klinice nese riziko, že
+terapeut bude klientovi nabízet vlastní představu o dobrém rámci, čímž by opakoval to, proti
+čemu se kompendium staví. Otevřenou otázkou zůstává, jak odlišit legitimní konverzi, při níž
+člověk svobodně přijme nový rámec a nové hyperdobro, od konverze vynucené manipulací; Taylorova
+teorie dává pojmy pro popis obou, ale kritérium rozlišení musí doplnit analýza podmínek, za
+nichž změna proběhla (srov. Lifton, 1961).
 
-Pro EA z toho plyne:
+## Literatura
 
-- **Manipulace skrze konflikt zdrojů**: techniky, jež **amplifikují** konflikt mezi zdroji („věda vs. víra“, „racionalita vs. intuice“), strukturálně **destabilizují** identitu.
-- **Riziko inflace jednoho zdroje**: scientistická redukce ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)), spirituální regrese, romantický eskapismus — všechny strukturálně **nedostatečné**.
-
-## 5. Politika rozpoznání
-
-Taylor v *The Politics of Recognition* (1992) formuluje **politiku rozpoznání** (rezonuje s Honnethem, [viz 7.22](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)): moderní subjekt **požaduje rozpoznání** ze strany sociálních institucí a politické komunity.
-
-Mis-rozpoznání (*misrecognition*) je strukturálně **anihilační**:
-
-- **Obecné misrozpoznání** (denial, neviditelnost)
-- **Specifické misrozpoznání** (stigmatizace, redukce)
-
-Pro EA má politika rozpoznání **trojí relevanci**:
-
-1. **Útok na rozpoznání** je strukturálně klinicky a politicky závažný.
-2. **Algoritmická pseudo-rozpoznávání**: digital platforms strukturálně simulují rozpoznání bez jeho etické hloubky.
-3. **Counter-EA**: politiky autentického rozpoznání jako strukturální rezilience.
-
-## 6. Mapping na EA techniky
-
-| Taylor | EA technika | Mechanismus |
-|--------|-------------|-------------|
-| Útok na hermeneutickou reflexivitu | Frame manipulation | Strukturální |
-| Útok na hyperdobra | Dezorientace | EA-3.x |
-| Plytký expresivismus | Komercializovaný self | Strukturální |
-| Konflikt zdrojů | Amplifikované konflikty | EA-2.x |
-| Misrozpoznání | Stigmatizace | EA-4.x |
-
-## 7. Klinický význam
-
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
-
-- **Hermeneutická terapie**: pacient se učí **reflektovat** vlastní interpretační rámec.
-- **Restituce hyperdober**: pacient identifikuje a **posiluje** své fundamentální závazky.
-- **Hluboký expresivismus**: terapeutická tvorba (umělecká, narativní, životní) jako **counter-mechanism**.
-
-## 8. Sekulární věk
-
-V *A Secular Age* (2007) Taylor rozšiřuje analýzu na **podmínky** moderního sekulárního subjektu — jak je **možné** držet morální závazky **bez** transcendentního ukotvení. Strukturální tažení moderny: **immanentní rámec** (*immanent frame*) jako základní strukturní podmínka.
-
-## 9. Primární literatura
-
-- Taylor, C. (1989/2001). *Sources of the Self: The Making of the Modern Identity*. Harvard UP.
-- Taylor, C. (1991/1992). *The Ethics of Authenticity*. Harvard UP.
-- Taylor, C. (1992). „The Politics of Recognition“. In: *Multiculturalism*. Princeton UP.
-- Taylor, C. (2007). *A Secular Age*. Belknap Press.
 - Abbey, R. (2000). *Charles Taylor*. Acumen.
+- Appiah, K. A. (2005). *The Ethics of Identity*. Princeton University Press.
+- Fraser, N. (2000). *Rethinking recognition*. New Left Review.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Habermas, J. (1994). *Struggles for recognition in the democratic constitutional state*. In: Gutmann, A. (ed.), Multiculturalism. Princeton University Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- MacIntyre, A. (1981). *After Virtue: A Study in Moral Theory*. University of Notre Dame Press.
+- Skinner, Q. (1991). *Who are „we“? Ambiguities of the modern self*. Inquiry.
+- Taylor, C. (1975). *Hegel*. Cambridge University Press.
+- Taylor, C. (1985). *Human Agency and Language: Philosophical Papers 1*. Cambridge University Press.
+- Taylor, C. (1989). *Sources of the Self: The Making of the Modern Identity*. Harvard University Press.
+- Taylor, C. (1991). *The Ethics of Authenticity*. Harvard University Press.
+- Taylor, C. (1992). *The Politics of Recognition*. In: Gutmann, A. (ed.), Multiculturalism and „The Politics of Recognition“. Princeton University Press.
+- Taylor, C. (2007). *A Secular Age*. Belknap Press.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.14 Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)
-- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
-- [7.22 Honneth: Rozpoznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)
-- [7.31 MacIntyre: After Virtue](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md)
-- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
-- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
-- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+**Teoretické reflexe**
+
+- [7.31 MacIntyre: After Virtue a krize morálního jazyka](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md) – narativní pojetí jednoty života.
+- [7.22 Honneth: Rozpoznání a boj o uznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md) – druhá velká teorie uznání.
+- [7.17 Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md) – identita jako vyprávění.
+- [7.14 Heidegger: Být-ve-světě a struktura starosti](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md) – hermeneutický zdroj Taylorovy antropologie.
+
+**Glosář**
+
+- [Hermeneutika](@/glossary/hermeneutika.md) – sebepoznání jako výklad.
+- [Identity destruction](@/glossary/identity-destruction.md) – rozpad rámce, v němž se člověk orientuje.
+- [Epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md) – stav mezi starým a novým rámcem.
+- [Instrumental reason](@/glossary/instrumental-reason.md) – jeden z Taylorových neduhů moderny.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastních hodnoticích měřítek.
+
+**Zotavení a filozofie**
+
+- [Střednědobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – obnova schopnosti silného hodnocení.
+- [Sekce 06 – Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – přenos rámce do péče.
+- [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md) – svrchovanost vlastního úsudku.

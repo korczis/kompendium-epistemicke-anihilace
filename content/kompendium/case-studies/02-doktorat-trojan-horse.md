@@ -223,7 +223,7 @@ ověřitelné zpětně.
 - National Academies of Sciences, Engineering, and Medicine (2019). *The Science of Effective Mentorship in STEMM*. The National Academies Press.
 - Rousseau, D. M. (1995). *Psychological Contracts in Organizations*. Sage.
 - Smith, C. P., a Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69(6).
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - White, M., a Epston, D. (1990). *Narrative Means to Therapeutic Ends*. W. W. Norton.
 
 ## Související

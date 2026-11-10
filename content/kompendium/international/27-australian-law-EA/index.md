@@ -202,7 +202,7 @@ rychlé odstranění obsahu omezuje další újmu (Citron, 2014).
 - Australian Law Reform Commission, & NSW Law Reform Commission (2010). *Family Violence – A National Legal Response* (ALRC Report 114). Australian Law Reform Commission.
 - Citron, D. K. (2014). *Hate Crimes in Cyberspace*. Harvard University Press.
 - Douglas, H. (2021). *Women, Intimate Partner Violence, and the Law*. Oxford University Press.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Human Rights and Equal Opportunity Commission (1997). *Bringing Them Home: Report of the National Inquiry into the Separation of Aboriginal and Torres Strait Islander Children from Their Families*. Human Rights and Equal Opportunity Commission.
 - McMahon, M., & McGorrery, P. (Eds.) (2020). *Criminalising Coercive Control: Family Violence and the Criminal Law*. Springer.

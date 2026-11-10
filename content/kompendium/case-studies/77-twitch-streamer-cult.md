@@ -231,7 +231,7 @@ koordinovaných nájezdů, když obojí vypadá technicky stejně (Gillespie, 20
 - Baym, N. K. (2018). *Playing to the Crowd: Musicians, Audiences, and the Intimate Work of Connection*. New York University Press.
 - Cohen, J. (2004). Parasocial break-up from favorite television characters. *Journal of Social and Personal Relationships*.
 - Coser, L. A. (1974). *Greedy Institutions: Patterns of Undivided Commitment*. Free Press.
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md). *Victimology*.
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding. *Victimology*.
 - Einarsen, S., Hoel, H., Zapf, D., a Cooper, C. L. (Eds.) (2011). *Bullying and Harassment in the Workplace*. CRC Press.
 - Gabbard, G. O. (2000). Disguise or consent. *International Journal of Psychoanalysis*.
 - Gillespie, T. (2018). *Custodians of the Internet*. Yale University Press.
@@ -241,7 +241,7 @@ koordinovaných nájezdů, když obojí vypadá technicky stejně (Gillespie, 20
 - Horton, D., a Wohl, R. R. (1956). Mass communication and para-social interaction. *Psychiatry*.
 - Killgore, W. D. S. (2010). Effects of sleep deprivation on cognition. *Progress in Brain Research*.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., et al. (2009). Moral injury and moral repair in war veterans. *Clinical Psychology Review*.
 - Matias, J. N. (2019). The civic labor of volunteer moderators online. *Social Media + Society*.
 - Milgram, S. (1974). *Obedience to Authority: An Experimental View*. Harper & Row.

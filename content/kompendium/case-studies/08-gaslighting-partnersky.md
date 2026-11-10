@@ -202,8 +202,8 @@ vzorce kontroly nelze jednotlivé incidenty spolehlivě zařadit.
 - American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5. vyd.). American Psychiatric Publishing.
 - American Psychological Association (2017). *Ethical Principles of Psychologists and Code of Conduct*. APA.
 - Campbell, J. C., Webster, D., Koziol-McLain, J., a kol. (2003). Risk factors for femicide in abusive relationships: Results from a multisite case control study. *American Journal of Public Health*, 93(7).
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1).
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness and betrayal trauma theory. *Feminism & Psychology*, 7(1).
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Johnson, M. P. (2008). *A Typology of Domestic Violence: Intimate Terrorism, Violent Resistance, and Situational Couple Violence*. Northeastern University Press.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

@@ -204,7 +204,7 @@ zachycují hlavně ty, kteří zůstali – na tento výběrový problém upozor
   Conduct*. APA.
 - Berry, J. W. (1997). Immigration, acculturation, and adaptation. *Applied Psychology*.
 - Coser, L. A. (1974). *Greedy Institutions: Patterns of Undivided Commitment*. Free Press.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard
   University Press.
 - Goffman, E. (1961). *Asylums: Essays on the Social Situation of Mental Patients and Other
   Inmates*. Anchor Books.
@@ -213,7 +213,7 @@ zachycují hlavně ty, kteří zůstali – na tento výběrový problém upozor
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Levecque, K., Anseel, F., De Beuckelaer, A., Van der Heyden, J., a Gisle, L. (2017). Work
   organization and mental health problems in PhD students. *Research Policy*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Lovitts, B. E. (2001). *Leaving the Ivory Tower: The Causes and Consequences of Departure from
   Doctoral Study*. Rowman & Littlefield.
 - Maslach, C., Schaufeli, W. B., a Leiter, M. P. (2001). Job burnout. *Annual Review of

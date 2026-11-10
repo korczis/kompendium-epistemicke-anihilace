@@ -213,7 +213,7 @@ po odchodu i dlouhodobou nerozhodnost a potřebu vnější jistoty, což může 
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Singer, M. T., a Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Williams, K. D. (2007). Ostracism. *Annual Review of Psychology*, 58.
 - Wright, S. A. (1987). *Leaving Cults: The Dynamics of Defection*. Society for the Scientific Study of Religion.

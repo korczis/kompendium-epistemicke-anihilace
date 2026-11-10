@@ -215,7 +215,7 @@ Urban, 2011). Srov. [náboženské menšiny](@/kompendium/international/17-relig
 - Cooper, P. (1971). *The Scandal of Scientology*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Miller, R. (1987). *Bare-Faced Messiah: The True Story of L. Ron Hubbard*.
 - Pring, G. W., & Canan, P. (1996). *SLAPPs: Getting Sued for Speaking Out*. Temple University Press.
 - Urban, H. B. (2011). *The Church of Scientology: A History of a New Religion*. Princeton University Press.

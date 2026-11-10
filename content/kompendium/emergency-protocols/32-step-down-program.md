@@ -224,7 +224,7 @@ je zde součástí plánu, jak to odpovídá pojetí zotavení jako procesu (Ant
 - Horvath, A. O. a Symonds, B. D. (1991). Relation between working alliance and outcome in psychotherapy: A meta-analysis. *Journal of Counseling Psychology*, 38(2), 139–149.
 - Lalich, J. a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Leamy, M., Bird, V., Le Boutillier, C., Williams, J. a Slade, M. (2011). Conceptual framework for personal recovery in mental health: Systematic review and narrative synthesis. *British Journal of Psychiatry*, 199(6), 445–452.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - National Institute for Health and Care Excellence (NICE). (2016). *Transition between inpatient mental health settings and community or care home settings* (NG53). NICE.
 - Slade, M. (2009). *Personal Recovery and Mental Illness: A Guide for Mental Health Professionals*. Cambridge University Press.
 - Thornicroft, G. a Tansella, M. (2004). Components of a modern mental health service: A pragmatic balance of community and hospital care. *British Journal of Psychiatry*, 185(4), 283–290.

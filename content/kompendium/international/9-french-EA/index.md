@@ -195,7 +195,7 @@ věří, ale zda mu někdo soustavně bere svobodu volby.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hirigoyen, M.-F. (1998). *Le harcèlement moral: la violence perverse au quotidien*. Syros.
 - Lewis-Fernández, R., Aggarwal, N. K., Hinton, L., Hinton, D. E., & Kirmayer, L. J. (Eds.). (2016). *DSM-5 Handbook on the Cultural Formulation Interview*. American Psychiatric Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Marrus, M. R., & Paxton, R. O. (1981). *Vichy France and the Jews*. Basic Books.
 - Marwick, A. E., & boyd, d. (2011). I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience. *New Media & Society*.
 - Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt*. Bloomsbury Press.

@@ -175,7 +175,7 @@ Bergin, 2010).
 - Orth, U. (2002). *Secondary victimization of crime victims by criminal proceedings*. Social Justice Research.
 - Parsons, J., & Bergin, T. (2010). *The impact of criminal justice involvement on victims' mental health*. Journal of Traumatic Stress.
 - Siegel, D. J. (1999). *The Developing Mind: Toward a Neurobiology of Interpersonal Experience*. Guilford Press.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Zákon č. 45/2013 Sb., o obětech trestných činů (2013).
 
 ## Související

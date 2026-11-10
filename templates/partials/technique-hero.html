@@ -1,1 +1,235 @@
-{#- Souhrnná karta stránky techniky (kód, rodina, riziko, výskyt, sousedé, karta v kostce). Vlastní: agent „techniky“. Zatím prázdné. -#}
+{#- Souhrnná karta stránky techniky (Pro card pod hlavičkou stránky): kód, rodina EA-n s pozicí,
+    podskupina, riziko, rozsah, odkazy sem, karta v kostce, předchozí/další technika v rodině
+    a skoky na části stránky. Vlastní: agent „techniky“. Vše je odvozené z cesty souboru,
+    front matter a oddílu technik, nic se nepíše po stránkách. Kód a pořadí v rodině se berou
+    z názvu souboru (ea-1-2-2-….md → EA-1.2.2) stejně jako ve static/js/viz/kontext.js a
+    techniky.js; řazení podle kódu, shody podle cesty. Název rodiny je převažující kategorie
+    jejích stránek (jako v průzkumníku katalogu), zde spočtený jedním průchodem (Boyer–Moore).
+    Živý řádek o výskytu v případech doplní static/js/viz/technika.js; bez JS je karta úplná.
+    Všechny třídy jsou zde, aby je Tailwind našel ve zdrojích šablon. -#}
+{%- set hx_parts = page.components | default(value=[]) -%}
+{%- set_global hx_ok = false -%}
+{%- if hx_parts | length > 2 and hx_parts[0] == "kompendium" and hx_parts[1] == "techniques" -%}
+  {%- set hx_seg = page.relative_path | split(pat="/") | last | replace(from=".md", to="") | split(pat="-") -%}
+  {%- if hx_seg | length > 2 and hx_seg[0] | lower == "ea" -%}
+    {%- set hx_s1 = hx_seg[1] | replace(from="0", to="") | replace(from="1", to="") | replace(from="2", to="") | replace(from="3", to="") | replace(from="4", to="") | replace(from="5", to="") | replace(from="6", to="") | replace(from="7", to="") | replace(from="8", to="") | replace(from="9", to="") -%}
+    {%- set hx_s2 = hx_seg[2] | replace(from="0", to="") | replace(from="1", to="") | replace(from="2", to="") | replace(from="3", to="") | replace(from="4", to="") | replace(from="5", to="") | replace(from="6", to="") | replace(from="7", to="") | replace(from="8", to="") | replace(from="9", to="") -%}
+    {%- if hx_seg[1] and hx_seg[2] and not hx_s1 and not hx_s2 -%}
+      {%- set_global hx_ok = true -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if hx_ok -%}
+{#- Vlastní kód: EA-a.b(.c) a klíč a·10⁶ + b·10³ + c. -#}
+{%- set hx_a = hx_seg[1] | int -%}
+{%- set hx_b = hx_seg[2] | int -%}
+{%- set_global hx_c = 0 -%}
+{%- if hx_seg | length > 3 -%}
+  {%- set hx_s3 = hx_seg[3] | replace(from="0", to="") | replace(from="1", to="") | replace(from="2", to="") | replace(from="3", to="") | replace(from="4", to="") | replace(from="5", to="") | replace(from="6", to="") | replace(from="7", to="") | replace(from="8", to="") | replace(from="9", to="") -%}
+  {%- if hx_seg[3] and not hx_s3 %}{% set_global hx_c = hx_seg[3] | int %}{% endif -%}
+{%- endif -%}
+{%- set hx_key = hx_a * 1000000 + hx_b * 1000 + hx_c -%}
+{%- if hx_c > 0 %}{% set hx_slug = "ea-" ~ hx_a ~ "-" ~ hx_b ~ "-" ~ hx_c %}{% else %}{% set hx_slug = "ea-" ~ hx_a ~ "-" ~ hx_b %}{% endif -%}
+{%- if hx_c > 0 %}{% set hx_derived = "EA-" ~ hx_a ~ "." ~ hx_b ~ "." ~ hx_c %}{% else %}{% set hx_derived = "EA-" ~ hx_a ~ "." ~ hx_b %}{% endif -%}
+{%- if page.extra.ea_code is defined and page.extra.ea_code %}{% set hx_code = page.extra.ea_code %}{% else %}{% set hx_code = hx_derived %}{% endif -%}
+{%- set hx_family = "EA-" ~ hx_a -%}
+{%- set hx_prefix = "kompendium/techniques/ea-" ~ hx_a ~ "-" -%}
+
+{#- Jeden průchod oddílem: jen stránky téže rodiny (prefix cesty), z nich předchůdce, následník,
+    pozice, velikost rodiny a převažující kategorie. -#}
+{%- set hx_sec = get_section(path="kompendium/techniques/_index.md", metadata_only=false) -%}
+{%- set_global hx_prev = "" -%}
+{%- set_global hx_prev_key = -1 -%}
+{%- set_global hx_prev_path = "" -%}
+{%- set_global hx_prev_code = "" -%}
+{%- set_global hx_next = "" -%}
+{%- set_global hx_next_key = 1000000000 -%}
+{%- set_global hx_next_path = "" -%}
+{%- set_global hx_next_code = "" -%}
+{%- set_global hx_count = 0 -%}
+{%- set_global hx_before = 0 -%}
+{%- set_global hx_cat = "" -%}
+{%- set_global hx_cat_votes = 0 -%}
+{%- for p in hx_sec.pages -%}
+  {%- if p.relative_path is starting_with(pat=hx_prefix) -%}
+    {%- set ps = p.relative_path | replace(from=hx_prefix, to="") | replace(from=".md", to="") | split(pat="-") -%}
+    {%- set pb_rest = ps[0] | replace(from="0", to="") | replace(from="1", to="") | replace(from="2", to="") | replace(from="3", to="") | replace(from="4", to="") | replace(from="5", to="") | replace(from="6", to="") | replace(from="7", to="") | replace(from="8", to="") | replace(from="9", to="") -%}
+    {%- if ps[0] and not pb_rest -%}
+      {%- set_global pc = 0 -%}
+      {%- if ps | length > 1 -%}
+        {%- set pc_rest = ps[1] | replace(from="0", to="") | replace(from="1", to="") | replace(from="2", to="") | replace(from="3", to="") | replace(from="4", to="") | replace(from="5", to="") | replace(from="6", to="") | replace(from="7", to="") | replace(from="8", to="") | replace(from="9", to="") -%}
+        {%- if ps[1] and not pc_rest %}{% set_global pc = ps[1] | int %}{% endif -%}
+      {%- endif -%}
+      {%- set pk = hx_a * 1000000 + (ps[0] | int) * 1000 + pc -%}
+      {%- set_global hx_count = hx_count + 1 -%}
+      {%- if p.relative_path != page.relative_path -%}
+        {%- if pk < hx_key or (pk == hx_key and p.relative_path < page.relative_path) -%}
+          {%- set_global hx_before = hx_before + 1 -%}
+          {%- if pk > hx_prev_key or (pk == hx_prev_key and p.relative_path > hx_prev_path) -%}
+            {%- set_global hx_prev = p -%}{%- set_global hx_prev_key = pk -%}{%- set_global hx_prev_path = p.relative_path -%}
+            {%- if pc > 0 %}{% set_global hx_prev_code = hx_family ~ "." ~ ps[0] ~ "." ~ pc %}{% else %}{% set_global hx_prev_code = hx_family ~ "." ~ ps[0] %}{% endif -%}
+          {%- endif -%}
+        {%- elif pk < hx_next_key or (pk == hx_next_key and p.relative_path < hx_next_path) -%}
+          {%- set_global hx_next = p -%}{%- set_global hx_next_key = pk -%}{%- set_global hx_next_path = p.relative_path -%}
+          {%- if pc > 0 %}{% set_global hx_next_code = hx_family ~ "." ~ ps[0] ~ "." ~ pc %}{% else %}{% set_global hx_next_code = hx_family ~ "." ~ ps[0] %}{% endif -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- if p.extra.ea_category is defined and p.extra.ea_category -%}
+        {%- if hx_cat_votes == 0 -%}
+          {%- set_global hx_cat = p.extra.ea_category -%}{%- set_global hx_cat_votes = 1 -%}
+        {%- elif hx_cat == p.extra.ea_category -%}
+          {%- set_global hx_cat_votes = hx_cat_votes + 1 -%}
+        {%- else -%}
+          {%- set_global hx_cat_votes = hx_cat_votes - 1 -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- set hx_cat_parts = hx_cat | split(pat=". ") -%}
+{%- if hx_cat is starting_with(pat=hx_a ~ ". ") and hx_cat_parts | length == 2 %}{% set hx_family_name = hx_cat_parts[1] %}{% elif hx_cat is starting_with(pat=hx_a ~ ". ") %}{% set hx_family_name = hx_cat | replace(from=hx_a ~ ". ", to="") %}{% elif hx_cat %}{% set hx_family_name = hx_cat %}{% else %}{% set hx_family_name = "Rodina " ~ hx_family %}{% endif -%}
+{%- set hx_pos = hx_before + 1 -%}
+{%- set hx_pct = (hx_pos * 100 / hx_count) | round(precision=1) -%}
+{%- if hx_pct < 4 %}{% set hx_pct = 4 %}{% endif -%}
+
+{#- Barva rodiny: stejné pořadí jako KompendiumViz.PALETTE (familyColor v kontext.js). -#}
+{%- set hx_palette = ["#4f46e5", "#0ea5e9", "#10b981", "#f59e0b", "#ef4444", "#a855f7", "#14b8a6", "#f97316", "#ec4899", "#84cc16", "#6366f1", "#06b6d4", "#eab308", "#8b5cf6", "#22c55e", "#64748b"] -%}
+{%- set hx_color = hx_palette[(hx_a + 15) % 16] -%}
+
+{#- Riziko: normalizace a český název jako v průzkumníku katalogu (explorer-techniques.html). -#}
+{%- if page.extra.risk_level is defined and page.extra.risk_level %}{% set hx_risk = page.extra.risk_level | lower | trim %}{% else %}{% set hx_risk = "" %}{% endif -%}
+{%- if hx_risk == "kritická" or hx_risk == "kriticka" %}{% set hx_risk = "critical" %}{% endif -%}
+{%- if hx_risk == "low-moderate" %}{% set hx_risk_label = "nízké až střední" %}{% set hx_risk_tone = "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300" %}{% set hx_risk_dot = "bg-green-500" %}
+{%- elif hx_risk == "moderate" %}{% set hx_risk_label = "střední" %}{% set hx_risk_tone = "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300" %}{% set hx_risk_dot = "bg-blue-500" %}
+{%- elif hx_risk == "moderate-high" %}{% set hx_risk_label = "středně vysoké" %}{% set hx_risk_tone = "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300" %}{% set hx_risk_dot = "bg-yellow-400" %}
+{%- elif hx_risk == "high" %}{% set hx_risk_label = "vysoké" %}{% set hx_risk_tone = "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300" %}{% set hx_risk_dot = "bg-orange-500" %}
+{%- elif hx_risk == "critical" %}{% set hx_risk_label = "kritické" %}{% set hx_risk_tone = "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300" %}{% set hx_risk_dot = "bg-red-500" %}
+{%- elif hx_risk == "extreme" %}{% set hx_risk_label = "extrémní" %}{% set hx_risk_tone = "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300" %}{% set hx_risk_dot = "bg-red-600" %}
+{%- elif hx_risk == "ultramarine" %}{% set hx_risk_label = "ultramarínové" %}{% set hx_risk_tone = "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300" %}{% set hx_risk_dot = "bg-purple-500" %}
+{%- elif hx_risk %}{% set hx_risk_label = hx_risk %}{% set hx_risk_tone = "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300" %}{% set hx_risk_dot = "bg-gray-400" %}
+{%- else %}{% set hx_risk_label = "neuvedeno" %}{% set hx_risk_tone = "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300" %}{% set hx_risk_dot = "bg-gray-400" %}{% endif -%}
+
+{%- set hx_words = page.word_count | default(value=0) -%}
+{#- Rozpracované heslo: pod hranicí pravidla „detail“ ze scripts/check-ia.py (600 slov), nebo
+    s vygenerovaným popisem („pojem v sekci … znalostní báze“), nebo s extra.stub. -#}
+{%- set hx_stub = hx_words < 600 or "znalostní báze Prismatic Platform" in page.description | default(value="") or (page.extra.stub is defined and page.extra.stub) -%}
+{#- Obsah stránky: jediný nadpis H1 (skrytý, opakuje titul) nahradí jeho podkapitoly. -#}
+{%- set hx_toc = page.toc | default(value=[]) -%}
+{%- if hx_toc | length == 1 and hx_toc[0].level == 1 and hx_toc[0].children %}{% set hx_toc = hx_toc[0].children %}{% endif -%}
+{%- set hx_backlinks = page.backlinks | default(value=[]) | length -%}
+{%- set hx_qr = get_page(path="kompendium/quick-reference/qr-" ~ hx_slug ~ ".md", allow_missing=true) -%}
+{%- set hx_catalog = get_url(path='@/kompendium/techniques/_index.md') ~ "?rodina=" ~ hx_family -%}
+{%- if hx_words == 1 %}{% set hx_words_label = "slovo" %}{% elif hx_words >= 2 and hx_words <= 4 %}{% set hx_words_label = "slova" %}{% else %}{% set hx_words_label = "slov" %}{% endif -%}
+{%- if hx_backlinks == 1 %}{% set hx_bl_label = "stránka" %}{% elif hx_backlinks >= 2 and hx_backlinks <= 4 %}{% set hx_bl_label = "stránky" %}{% else %}{% set hx_bl_label = "stránek" %}{% endif -%}
+{%- if hx_count == 1 %}{% set hx_count_label = "technika" %}{% elif hx_count >= 2 and hx_count <= 4 %}{% set hx_count_label = "techniky" %}{% else %}{% set hx_count_label = "technik" %}{% endif -%}
+
+<div class="px-4 pt-6">
+<section id="souhrn-techniky" data-technika="{{ page.relative_path }}" data-technika-color="{{ hx_a }}" data-technika-backlinks="{{ hx_backlinks }}" class="min-w-0 rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="hx-title">
+  {%- if hx_stub %}
+  <div class="mb-4 flex items-start gap-3 rounded-lg border border-yellow-300 bg-yellow-50 p-4 text-sm text-yellow-800 dark:border-yellow-800 dark:bg-gray-800 dark:text-yellow-300" role="note" aria-label="Rozpracované heslo">
+    <svg class="mt-0.5 h-4 w-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/></svg>
+    <p class="min-w-0"><span class="font-medium">Toto heslo se teprve rozpracovává.</span> Zatím má {{ hx_words }} {{ hx_words_label }} a plný popis znaků, detekce a neutralizace teprve vzniká. Mezitím pomohou <a href="{{ hx_catalog }}" class="font-medium underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded-sm">další techniky rodiny {{ hx_family }}</a> nebo <a href="{{ get_url(path='@/stav.md') }}?pravidlo=detail#redakce" class="font-medium underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded-sm">pracovní seznam ve Stavu knihy</a>.</p>
+  </div>
+  {%- endif %}
+
+  <div class="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+    <div class="min-w-0">
+      <h2 id="hx-title" class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">Technika v kostce</h2>
+      <div class="mt-2 flex flex-wrap items-center gap-2">
+        <span class="rounded-md bg-primary-100 px-2.5 py-0.5 font-mono text-sm font-semibold text-primary-800 dark:bg-primary-900 dark:text-primary-300" title="Kód techniky">{{ hx_code }}</span>
+        <a href="{{ hx_catalog }}" class="inline-flex min-w-0 max-w-full items-center gap-1.5 rounded-md border border-gray-200 bg-white px-2.5 py-0.5 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800" aria-label="Rodina {{ hx_family }}, {{ hx_family_name }}: otevřít v katalogu technik" data-hx-family>
+          <span data-hx-dot class="h-2.5 w-2.5 shrink-0 rounded-full" style="background:{{ hx_color }}" aria-hidden="true"></span>
+          <span class="shrink-0 font-mono">{{ hx_family }}</span>
+          <span class="shrink-0 text-gray-400 dark:text-gray-500" aria-hidden="true">·</span>
+          <span class="truncate">{{ hx_family_name }}</span>
+        </a>
+        {%- if page.extra.ea_subcategory is defined and page.extra.ea_subcategory %}
+        <span class="max-w-full truncate rounded-md bg-gray-100 px-2.5 py-0.5 text-sm font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300" title="Podskupina">{{ page.extra.ea_subcategory }}</span>
+        {%- endif %}
+      </div>
+    </div>
+    <div class="flex flex-wrap items-center gap-2 lg:shrink-0 lg:justify-end">
+      {%- if hx_qr %}
+      <a href="{{ hx_qr.permalink }}" class="inline-flex items-center gap-2 rounded-lg bg-primary-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" data-hx-qr>
+        <svg class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5.586a1 1 0 0 1 .707.293l5.414 5.414a1 1 0 0 1 .293.707V19a2 2 0 0 1-2 2Z"/></svg>
+        Karta v kostce
+      </a>
+      {%- endif %}
+      {#- Krátký název souseda: titul bez úvodního kódu („EA-1.2.2 Falešná ekvivalence“ →
+          „Falešná ekvivalence“); holý kód bez názvu (pahýl „EA-1-1-1“) nechá jen kód. -#}
+      {%- set_global hx_prev_name = "" -%}
+      {%- if hx_prev and " " in hx_prev.title -%}
+        {%- if hx_prev.title is starting_with(pat="EA") %}{% set_global hx_prev_name = hx_prev.title | replace(from=hx_prev.title | split(pat=" ") | first ~ " ", to="") %}{% else %}{% set_global hx_prev_name = hx_prev.title %}{% endif -%}
+      {%- endif -%}
+      {%- set_global hx_next_name = "" -%}
+      {%- if hx_next and " " in hx_next.title -%}
+        {%- if hx_next.title is starting_with(pat="EA") %}{% set_global hx_next_name = hx_next.title | replace(from=hx_next.title | split(pat=" ") | first ~ " ", to="") %}{% else %}{% set_global hx_next_name = hx_next.title %}{% endif -%}
+      {%- endif %}
+      <nav class="grid w-full grid-cols-2 sm:w-auto" aria-label="Sousední techniky v rodině {{ hx_family }}">
+        {%- if hx_prev %}
+        <a href="{{ hx_prev.permalink }}" rel="prev" class="flex min-w-0 flex-col gap-0.5 rounded-s-lg border border-gray-200 bg-white px-3 py-1.5 text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:w-48 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800" title="{{ hx_prev.title }}" aria-label="Předchozí technika: {{ hx_prev_code }} {{ hx_prev_name }}" data-hx-prev>
+          <span class="flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400"><svg class="h-3 w-3 shrink-0" fill="none" viewBox="0 0 14 10" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/></svg>Předchozí</span>
+          <span class="truncate text-sm font-medium"><span class="font-mono">{{ hx_prev_code }}</span>{% if hx_prev_name %} <span class="font-normal text-gray-600 dark:text-gray-300">{{ hx_prev_name }}</span>{% endif %}</span>
+        </a>
+        {%- else %}
+        <span class="flex min-w-0 cursor-default flex-col gap-0.5 rounded-s-lg border border-gray-200 bg-gray-50 px-3 py-1.5 text-gray-400 sm:w-48 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-500" data-hx-prev>
+          <span class="text-xs">Předchozí</span>
+          <span class="truncate text-sm font-medium">Začátek rodiny</span>
+        </span>
+        {%- endif %}
+        {%- if hx_next %}
+        <a href="{{ hx_next.permalink }}" rel="next" class="-ms-px flex min-w-0 flex-col items-end gap-0.5 rounded-e-lg border border-gray-200 bg-white px-3 py-1.5 text-right text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:w-48 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800" title="{{ hx_next.title }}" aria-label="Další technika: {{ hx_next_code }} {{ hx_next_name }}" data-hx-next>
+          <span class="flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400">Další<svg class="h-3 w-3 shrink-0" fill="none" viewBox="0 0 14 10" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg></span>
+          <span class="w-full truncate text-sm font-medium"><span class="font-mono">{{ hx_next_code }}</span>{% if hx_next_name %} <span class="font-normal text-gray-600 dark:text-gray-300">{{ hx_next_name }}</span>{% endif %}</span>
+        </a>
+        {%- else %}
+        <span class="-ms-px flex min-w-0 cursor-default flex-col items-end gap-0.5 rounded-e-lg border border-gray-200 bg-gray-50 px-3 py-1.5 text-right text-gray-400 sm:w-48 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-500" data-hx-next>
+          <span class="text-xs">Další</span>
+          <span class="truncate text-sm font-medium">Konec rodiny</span>
+        </span>
+        {%- endif %}
+      </nav>
+    </div>
+  </div>
+
+  <dl class="mt-4 grid grid-cols-2 gap-3 lg:grid-cols-4">
+    <div class="min-w-0 rounded-lg bg-gray-50 p-3 dark:bg-gray-700">
+      <dt class="text-xs font-medium text-gray-500 dark:text-gray-400">Pozice v rodině</dt>
+      <dd class="mt-1 text-sm text-gray-900 dark:text-white"><span class="text-lg font-bold leading-none">{{ hx_pos }}</span> <span class="text-gray-500 dark:text-gray-400">z {{ hx_count }} {{ hx_count_label }}</span></dd>
+      <dd class="mt-2 h-1.5 w-full rounded-full bg-gray-200 dark:bg-gray-600" role="presentation"><div data-hx-bar class="h-1.5 rounded-full" style="width:{{ hx_pct }}%;background:{{ hx_color }}"></div></dd>
+    </div>
+    <div class="min-w-0 rounded-lg bg-gray-50 p-3 dark:bg-gray-700">
+      <dt class="text-xs font-medium text-gray-500 dark:text-gray-400">Riziko</dt>
+      <dd class="mt-1"><span class="inline-flex items-center gap-1.5 rounded-md px-2.5 py-0.5 text-xs font-medium {{ hx_risk_tone }}" data-hx-risk="{{ hx_risk }}"><span class="h-2 w-2 shrink-0 rounded-full {{ hx_risk_dot }}" aria-hidden="true"></span>{{ hx_risk_label }}</span></dd>
+    </div>
+    <div class="min-w-0 rounded-lg bg-gray-50 p-3 dark:bg-gray-700">
+      <dt class="text-xs font-medium text-gray-500 dark:text-gray-400">Rozsah</dt>
+      <dd class="mt-1 text-sm text-gray-900 dark:text-white"><span class="text-lg font-bold leading-none">{{ hx_words }}</span> <span class="text-gray-500 dark:text-gray-400">{{ hx_words_label }}{% if page.reading_time %} · {{ page.reading_time }} min čtení{% endif %}</span></dd>
+    </div>
+    <div class="min-w-0 rounded-lg bg-gray-50 p-3 dark:bg-gray-700">
+      <dt class="text-xs font-medium text-gray-500 dark:text-gray-400">Odkazují sem</dt>
+      <dd class="mt-1 text-sm text-gray-900 dark:text-white"><span class="text-lg font-bold leading-none">{{ hx_backlinks }}</span> <span class="text-gray-500 dark:text-gray-400">{{ hx_bl_label }}</span></dd>
+    </div>
+  </dl>
+  <p data-hx-live hidden aria-live="polite" class="mt-3 flex items-start gap-2 text-sm text-gray-900 dark:text-white">
+    <svg class="mt-0.5 h-4 w-4 shrink-0 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5"/></svg>
+    <span class="min-w-0"><span data-hx-live-text></span> <a href="#kontext-title" class="whitespace-nowrap rounded-sm font-medium text-primary-700 hover:underline focus:outline-none focus:ring-2 focus:ring-primary-300 dark:text-primary-500 dark:focus:ring-primary-800">Zobrazit případy &darr;</a></span>
+  </p>
+
+  <nav class="mt-4 border-t border-gray-200 pt-4 dark:border-gray-700" aria-label="Skok na části stránky">
+    <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">Na této stránce</p>
+    <ul class="flex flex-wrap gap-2">
+      {%- for h in hx_toc %}{% if loop.index <= 5 %}
+      <li class="min-w-0 max-w-full"><a href="#{{ h.id }}" class="inline-flex max-w-full items-center rounded-md border border-gray-200 bg-white px-2.5 py-1 text-xs font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800"><span class="truncate">{{ h.title }}</span></a></li>
+      {%- endif %}{% endfor %}
+      <li hidden data-hx-jump-kontext><a href="#kontext-title" class="inline-flex items-center gap-1.5 rounded-md border border-primary-200 bg-primary-50 px-2.5 py-1 text-xs font-medium text-primary-800 hover:bg-primary-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-primary-800 dark:bg-gray-800 dark:text-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Výskyt v případech</a></li>
+      {%- if hx_backlinks > 0 %}
+      <li><a href="#backlinks-title" class="inline-flex items-center gap-1.5 rounded-md border border-primary-200 bg-primary-50 px-2.5 py-1 text-xs font-medium text-primary-800 hover:bg-primary-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-primary-800 dark:bg-gray-800 dark:text-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Odkazují sem <span class="rounded-full bg-primary-100 px-1.5 text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ hx_backlinks }}</span></a></li>
+      {%- endif %}
+      <li><a href="#okoli-title" class="inline-flex items-center gap-1.5 rounded-md border border-primary-200 bg-primary-50 px-2.5 py-1 text-xs font-medium text-primary-800 hover:bg-primary-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-primary-800 dark:bg-gray-800 dark:text-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Okolí stránky</a></li>
+    </ul>
+  </nav>
+</section>
+</div>
+<script src="{{ get_url(path='js/viz/technika.js', cachebust=true) }}" defer></script>
+{%- endif -%}

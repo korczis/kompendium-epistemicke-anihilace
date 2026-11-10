@@ -42,6 +42,7 @@ Usage:
 """
 import collections
 import json
+import os
 import pathlib
 import sys
 
@@ -206,4 +207,10 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        code = main()
+        sys.stdout.flush()  # surface a closed pipe here, not at interpreter exit
+    except BrokenPipeError:  # a reader such as `grep -q` closed the pipe: not an error
+        os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())
+        code = 0
+    sys.exit(code)

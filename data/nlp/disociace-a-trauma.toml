@@ -1,0 +1,367 @@
+# Rodina NLP-11: Disociace, fobie a trauma (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Klinicky citlivá rodina: stránky popisují strukturu, tvrzení, důkazy a rizika, nikdy postup.
+
+[[pattern]]
+id = "NLP-11.01"
+slug = "rychla-lecba-fobie"
+type = "pattern"
+cs = "Rychlá léčba fobie"
+en = "Fast phobia cure (V-K dissociation)"
+aliases = ["vizuálně-kinestetická disociace", "V-K disociace", "léčba fobie za jedno sezení"]
+use = "terapie"
+risk = "stredni"
+broader = "disociace"
+related = ["dvojita-disociace", "rewind", "filmova-technika", "disociace", "trauma-a-falesne-vzpominky", "submodality-pojem"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vaše válečné vzpomínky zmizí za jedno odpoledne. Žádné roky terapie, žádné léky, stačí jeden víkendový kurz a budete jako nový."
+context = "Reklama semináře NLP oslovuje veterány s posttraumatickými obtížemi."
+benign = false
+marker = "Slib úplného a trvalého vymizení traumatických obtíží za jedno sezení, spojený se zpochybněním ověřené léčby a bez zmínky o vyšetření a rizicích."
+response = "Žádat doklady z kontrolovaných studií, nechat potíže vyšetřit odborníkem a neodcházet od probíhající léčby kvůli slibu rychlého zázraku."
+
+[[pattern.trainer]]
+utterance = "Můžeme zkusit podívat se na tu situaci z odstupu, jako na záznam. Pokud by to pro vás bylo příliš, kdykoli přestaneme a budeme pokračovat jinak."
+context = "Psycholožka v rámci domluvené léčby specifické fobie, po vyšetření a s informovaným souhlasem klienta."
+benign = true
+marker = "Odstup od vzpomínky je nabídnut jako možnost v rámci léčby, s výslovnou kontrolou klienta nad tempem a bez slibu zázračného výsledku."
+response = "Jde o legitimní užití: práce s odstupem je zasazena do vyšetření, souhlasu a klinického rámce, klient může kdykoli přerušit."
+
+[[pattern]]
+id = "NLP-11.02"
+slug = "dvojita-disociace"
+type = "pattern"
+cs = "Dvojitá disociace"
+en = "Double dissociation"
+aliases = ["divák sledující diváka", "disociace druhého řádu"]
+use = "dvoji"
+risk = "stredni"
+broader = "disociace"
+related = ["rychla-lecba-fobie", "disociace", "meta-pozice", "rewind", "dvojita-disociativni-vazba"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
+  "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nedívej se na to, co se ti děje, jako ty. Dívej se na sebe, jak se díváš, a pochopíš, že ten vztek patří někomu jinému, ne tobě."
+context = "Vedoucí uzavřené skupiny reaguje na členku, která se zlobí kvůli ponižujícímu zacházení."
+benign = false
+marker = "Dvojitý odstup se nabízí proto, aby se člověk odpojil od oprávněné emoce nad křivdou a připsal ji „někomu jinému“, místo aby křivdu pojmenoval."
+response = "Brát vlastní hněv jako informaci o tom, co se děje, popsat zacházení konkrétně a probrat je s někým mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Když o té nehodě mluvíte, všímám si, že o sobě říkáte „on“ a díváte se do dálky. Je to pro vás teď způsob, jak to unést?"
+context = "Klinický psycholog během vstupního rozhovoru s pacientem po dopravní nehodě."
+benign = true
+marker = "Odstup se pozoruje a pojmenovává jako možný ochranný projev, ne jako technika, a otázka vrací pacientovi kontrolu nad výkladem."
+response = "Jde o legitimní užití: odborník si všímá disociativních znaků, nehodnotí je a zjišťuje, zda nejde o klinickou disociaci vyžadující vyšetření."
+
+[[pattern]]
+id = "NLP-11.03"
+slug = "reimprinting"
+type = "pattern"
+cs = "Reimprinting"
+en = "Re-imprinting"
+aliases = ["přepis otisku", "práce s otiskem"]
+use = "terapie"
+risk = "vysoke"
+broader = ""
+related = ["imprint", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "percepcni-pozice-pojem", "vekova-regrese", "korenova-pricina"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten pocit, že nejste nic, musí mít kořen v nějakém zážitku z dětství. Nevadí, že si na nic nevzpomínáte, společně ho najdeme a přepíšeme."
+context = "Praktik NLP bez klinického vzdělání v prvním sezení s klientkou, která trpí nízkým sebehodnocením."
+benign = false
+marker = "Předem daná jistota, že existuje zapomenutý formativní zážitek, a slib, že bude nalezen, i když si klient nic nepamatuje: rámec, ve kterém mohou vznikat nepravé vzpomínky."
+response = "Odmítnout hledání vzpomínek „na objednávku“, ptát se po kvalifikaci a supervizi a obrátit se na terapeuta, který s pamětí pracuje opatrně a nesugestivně."
+
+[[pattern.trainer]]
+utterance = "Nemusíme hledat žádnou konkrétní vzpomínku. Zajímá mě spíš, jaké přesvědčení o sobě teď nosíte a odkud podle vás pochází, pokud to víte."
+context = "Kognitivně-behaviorální terapeut při práci s klientovým negativním přesvědčením o sobě."
+benign = true
+marker = "Terapeut výslovně nepředpokládá skrytou vzpomínku a nechává výklad původu na klientovi; pracuje s přesvědčením v přítomnosti."
+response = "Jde o legitimní užití: práce s přesvědčením nevyžaduje rekonstrukci minulosti a nevnáší do ní obsah zvenčí."
+
+[[pattern]]
+id = "NLP-11.04"
+slug = "zmena-osobni-historie"
+type = "pattern"
+cs = "Změna osobní historie"
+en = "Change personal history"
+aliases = ["přepis osobní historie", "change history"]
+use = "terapie"
+risk = "vysoke"
+broader = ""
+related = ["kotveni", "reimprinting", "vekova-regrese", "trauma-a-falesne-vzpominky", "kolaps-kotev", "prenos-zdroje"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Minulost je jen příběh, který si vyprávíš. Když ho přepíšeš tak, že tě otec nikdy nebil, ale jen přísně vedl, budeš konečně volná."
+context = "Lektor osobního rozvoje odpovídá účastnici, která popisuje násilí v dětství."
+benign = false
+marker = "Změna prožitkového zabarvení vzpomínky se zaměňuje za změnu faktů: doložené násilí se má převyprávět jako něco jiného."
+response = "Trvat na rozdílu mezi tím, co se stalo, a tím, jak se to dnes prožívá; s násilím pracovat v terapii, která fakta nepřepisuje."
+
+[[pattern.trainer]]
+utterance = "Co se stalo, změnit nemůžeme. Můžeme ale hledat, s jakou oporou a s jakými znalostmi se na to dnes můžete dívat, a jestli to něco mění na tom, jak se cítíte."
+context = "Terapeutka v pozdější fázi léčby klienta, který se vyrovnává s dávnou ztrátou zaměstnání a ponížením."
+benign = true
+marker = "Výslovné oddělení neměnných událostí od dnešního vztahu k nim; změna se týká opory a prožitku, ne obsahu vzpomínky."
+response = "Jde o legitimní užití: fakta zůstávají nedotčena a klient sám posuzuje, zda mu nový pohled pomáhá."
+
+[[pattern]]
+id = "NLP-11.05"
+slug = "alergicky-vzorec"
+type = "pattern"
+cs = "Alergický vzorec"
+en = "Allergy pattern"
+aliases = ["rychlá léčba alergie", "fast allergy process"]
+use = "terapie"
+risk = "vysoke"
+broader = ""
+related = ["presvedceni-a-zdravi", "rychla-lecba-fobie", "disociace", "mysl-a-telo-jeden-system", "systematicky-prehled-zdravi"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Alergie je jen naučený omyl imunity. Po dnešním sezení už adrenalinové pero nosit nemusíte, a jestli reakce přijde, znamená to, že jste změnu nepřijala."
+context = "Kouč nabízí klientce s alergií na včelí bodnutí „odnaučení“ alergie."
+benign = false
+marker = "Doporučení vzdát se život zachraňující léčby a předem připravené vysvětlení selhání vinou klientky, které tvrzení činí nevyvratitelným."
+response = "Léčbu měnit jen s alergologem, ponechat si předepsané léky a brát přenesení viny za selhání na klienta jako varovný znak."
+
+[[pattern.trainer]]
+utterance = "Stres může příznaky alergie zhoršovat, takže se můžeme věnovat i tomu, jak ho zvládáte. Na léčbě, kterou máte od alergologa, to ale nic nemění."
+context = "Psycholog na alergologické klinice v rámci podpůrné péče."
+benign = true
+marker = "Psychologická podpora je nabídnuta jako doplněk lékařské péče, bez slibu vyléčení a s výslovným zachováním léčby."
+response = "Jde o legitimní užití: psychologická péče nenahrazuje medicínskou a nevznáší tvrzení o přeprogramování imunity."
+
+[[pattern]]
+id = "NLP-11.06"
+slug = "vzorec-zalu"
+type = "pattern"
+cs = "Vzorec zpracování zármutku"
+en = "Resolving grief pattern"
+aliases = ["řešení zármutku", "vzorec truchlení"]
+use = "terapie"
+risk = "stredni"
+broader = ""
+related = ["submodality-pojem", "vzorec-odpusteni", "mapovani-napric", "asociace", "zmena-osobni-historie"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md",
+  "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Smutek po mámě je jen špatně uložený obrázek v hlavě. Za hodinu ho přesuneme a zítra už nebudete plakat. Truchlení je ztráta času."
+context = "Lektor osobního rozvoje oslovuje účastníka semináře dva týdny po úmrtí jeho matky."
+benign = false
+marker = "Přirozený zármutek se označuje za chybu, kterou lze rychle odstranit, a slzy za selhání; tlak na rychlé „vyřešení“ krátce po ztrátě."
+response = "Brát zármutek jako normální reakci na ztrátu, nenechat si určovat jeho délku a obrátit se na odborníka, jen pokud je truchlení dlouhodobě zahlcující."
+
+[[pattern.trainer]]
+utterance = "Je v pořádku, že je vám smutno, a nikam to nespěchá. Jestli chcete, můžeme mluvit o tom, co vám s ní bylo vzácné a co si z toho chcete nést dál."
+context = "Paliativní psycholožka mluví s pozůstalou dcerou na oddělení."
+benign = true
+marker = "Zármutek se potvrzuje jako přiměřený, tempo patří pozůstalé a hovor o hodnotách vztahu je nabídkou, ne nástrojem k ukončení smutku."
+response = "Jde o legitimní užití: provázení zármutkem bez tlaku na jeho odstranění a bez slibu rychlého výsledku."
+
+[[pattern]]
+id = "NLP-11.07"
+slug = "vzorec-odpusteni"
+type = "pattern"
+cs = "Vzorec odpuštění"
+en = "Forgiveness pattern"
+aliases = ["práce s odpuštěním", "uvolnění křivdy"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["vzorec-zalu", "percepcni-pozice-pojem", "pozitivni-zamer-chovani", "reakce-na-kritiku", "druha-pozice"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md",
+  "glossary/complex-trauma.md",
+  "kompendium/case-studies/06-cult-recovery-12-let.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Dokud mu neodpustíš, budeš to ty, kdo rozbíjí rodinu. Podívej se na to jeho očima, on to tak nemyslel. Odpuštění je jediná cesta k uzdravení."
+context = "Příbuzná naléhá na ženu, která odešla od násilného manžela."
+benign = false
+marker = "Odpuštění se vyžaduje jako povinnost a podmínka uzdravení, odpovědnost za rozpad se přenáší na oběť a pohled pachatele se nabízí místo uznání křivdy."
+response = "Odpuštění není podmínkou zotavení; nejdřív bezpečí a uznání toho, co se stalo, a rozhodnutí o odpuštění nechat jen na dotčené osobě."
+
+[[pattern.trainer]]
+utterance = "Odpustit můžete, ale nemusíte. Někomu pomůže, jinému ne. Zajímá mě hlavně, co by vám teď pomohlo cítit se bezpečněji."
+context = "Terapeut v léčbě klientky, která přežila dlouhodobé týrání."
+benign = true
+marker = "Odpuštění je výslovně dobrovolné a podřízené bezpečí; nepředstavuje se jako měřítko úspěchu léčby."
+response = "Jde o legitimní užití: rozhodnutí o odpuštění zůstává klientce a léčba se neopírá o smíření s pachatelem."
+
+[[pattern]]
+id = "NLP-11.08"
+slug = "reakce-na-kritiku"
+type = "pattern"
+cs = "Reakce na kritiku"
+en = "Responding to criticism"
+aliases = ["zpracování kritiky", "disociované přijetí kritiky"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["disociace", "meta-pozice", "sebepojeti", "vzorec-odpusteni", "zmena-kriticke-sebeprezentace"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/scenar-h.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když se moje kritika tak dotkne, je to tvůj problém se zpracováním kritiky. Profesionál by ji vzal s nadhledem a nebral by si ji osobně."
+context = "Vedoucí odpovídá podřízené, která si stěžuje na opakované zesměšňování před týmem."
+benign = false
+marker = "Dovednost zpracovat kritiku se obrací proti člověku: místo posouzení obsahu a formy kritiky se problém přesune do jeho údajně chybné reakce."
+response = "Oddělit otázku formy a oprávněnosti kritiky od otázky vlastní reakce; ponižování před ostatními není kritika, kterou je třeba „zpracovat“."
+
+[[pattern.trainer]]
+utterance = "Než na tu recenzi zareaguješ, zkus si ji přečíst, jako by byla napsaná o cizím rukopisu, a podívat se, jestli je v ní něco užitečného."
+context = "Zkušená kolegyně radí doktorandovi po první ostré recenzi článku."
+benign = true
+marker = "Odstup slouží k posouzení obsahu kritiky; nehodnotí se, zda je pocit dotčení oprávněný, a závěr zůstává na adresátovi."
+response = "Jde o legitimní užití: chvilkový odstup pomáhá oddělit věcné připomínky od tónu, bez popření práva na nesouhlas."
+
+[[pattern]]
+id = "NLP-11.09"
+slug = "sebepojeti"
+type = "pattern"
+cs = "Vzorec sebepojetí"
+en = "Self-concept pattern"
+aliases = ["přestavba sebepojetí", "transformace sebepojetí"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["reakce-na-kritiku", "presvedceni-o-identite", "uroven-identity", "submodality-pojem", "swish"]
+kompendium = [
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+  "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
+  "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten starý obraz sebe, který sis přinesla z domova, je falešný. Tvoje skutečné já je to, které vidíme my, a s naší pomocí se jím staneš."
+context = "Mentor uzavřené rozvojové komunity mluví s novou členkou."
+benign = false
+marker = "Dosavadní sebepojetí se prohlásí za falešné a „pravé já“ definuje skupina; práce na sebepojetí se mění v náhradu identity zvenčí."
+response = "Udržovat si kontakt s lidmi, kteří znají vaši dosavadní identitu, a odmítat autoritu, která si osobuje právo říkat, kdo „skutečně“ jste."
+
+[[pattern.trainer]]
+utterance = "Kdybyste měla popsat, za jakou osobu se považujete, co by tam bylo? A je tam něco, s čím nesouhlasíte, nebo co chybí?"
+context = "Terapeutka v léčbě klientky s chronicky nízkým sebehodnocením."
+benign = true
+marker = "Sebepojetí popisuje klientka sama a sama posuzuje, co v něm chce měnit; terapeutka nevnáší hotový obraz."
+response = "Jde o legitimní užití: práce se sebepojetím zůstává v rukou klientky a nenahrazuje její identitu cizí představou."
+
+[[pattern]]
+id = "NLP-11.10"
+slug = "trauma-a-falesne-vzpominky"
+type = "concept"
+cs = "Práce s traumatem a riziko nepravých vzpomínek"
+en = "Trauma work and the risk of false memories"
+aliases = ["nepravé vzpomínky", "sugerované vzpomínky", "false memory"]
+use = "zadne"
+risk = "vysoke"
+broader = ""
+related = ["vekova-regrese", "reimprinting", "korenova-pricina", "presupozice-ve-vyslechu", "terapie-casove-osy", "rychla-lecba-fobie"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+  "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
+  "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vaše příznaky jsou typické pro lidi, kteří byli v dětství zneužiti. Že si nic nepamatujete, je jen další důkaz, jak hluboko je to vytěsněné."
+context = "Terapeut bez forenzního výcviku v sezení s klientkou, která přišla kvůli úzkosti."
+benign = false
+marker = "Z nespecifických příznaků se vyvozuje konkrétní skrytá událost a absence vzpomínky se vykládá jako její potvrzení: tvrzení nelze vyvrátit a vybízí k hledání vzpomínky."
+response = "Žádat, aby terapeut oddělil příznaky od domněnek o jejich příčině, odmítnout vedené „vybavování“ a v případě pochybností vyhledat druhý odborný názor."
+
+[[pattern.trainer]]
+utterance = "Řekněte mi prosím vlastními slovy, co se tehdy stalo. Pokud si něco nepamatujete nebo si nejste jistý, je úplně v pořádku to tak říct."
+context = "Vyšetřovatel zahajuje forenzní rozhovor se svědkem podle zásad nesugestivního dotazování."
+benign = true
+marker = "Otevřená výzva k volnému vyprávění, výslovné připuštění odpovědi „nevím“ a žádné vložené informace o tom, co se mělo stát."
+response = "Jde o legitimní užití: nesugestivní dotazování chrání vzpomínku před přetvořením otázkou."
+
+[[pattern]]
+id = "NLP-11.11"
+slug = "rewind"
+type = "pattern"
+cs = "Technika přetáčení"
+en = "Rewind technique"
+aliases = ["rewind", "přetáčení vzpomínky"]
+use = "terapie"
+risk = "stredni"
+broader = "rychla-lecba-fobie"
+related = ["rychla-lecba-fobie", "dvojita-disociace", "disociace", "trauma-a-falesne-vzpominky", "filmova-technika"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md",
+  "kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md",
+  "glossary/complex-trauma.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Dlouhá terapie traumatu je přežitek. Tady ti trauma za jedno sezení přetočíme pozpátku a vymažeme, i to, které si zatím ani neuvědomuješ."
+context = "Nabídka na sociální síti od poskytovatele „rychlé traumaterapie“ bez uvedené kvalifikace."
+benign = false
+marker = "Slib vymazání traumatu jedním sezením, zpochybnění ověřené léčby a výslovné rozšíření na „neuvědomované“ trauma, které otevírá prostor sugescím."
+response = "Ověřit kvalifikaci a registraci poskytovatele, žádat doklady o účinnosti a u traumatu volit léčbu s doloženými výsledky a s klinickým vyšetřením."
+
+[[pattern.trainer]]
+utterance = "Tuhle techniku vám nabízím jen jako doplněk léčby, kterou už máme domluvenou. Výzkum k ní je zatím omezený a nemusí vám pomoct."
+context = "Klinický psycholog informuje pacienta s posttraumatickými obtížemi o možnostech léčby."
+benign = true
+marker = "Technika je podána jako doplněk s otevřeně přiznanou omezeností důkazů a bez slibu výsledku; pacient má podklady k informovanému rozhodnutí."
+response = "Jde o legitimní užití: informovaný souhlas zahrnuje i nejistotu účinku a technika nenahrazuje léčbu s doloženými výsledky."

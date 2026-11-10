@@ -65,7 +65,7 @@ popisuje strukturu: člověk je v krátké době veden skrze mnoho vzájemně ne
 výkladových paradigmat. Každé je nejprve předloženo jako přesvědčivé, pak zpochybněno. Rychlost
 nedovolí žádnému rámci zakořenit. Výsledkem není pluralita, ale **vyprázdnění**.
 
-V okamžiku maximální dezorientace bývá nabídnut stabilizující meta-rámec – prezentovaný jako
+V okamžiku maximální dezorientace bývá nabídnut stabilizující [meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – prezentovaný jako
 „nad-paradigmatický“, „za všemi konstrukty“. Přijímá se s minimálním odporem, protože
 jakákoli stabilita je úlevou. Na tomto místě navazuje [EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)
 a výsledným stavem bývá [epistemický monismus](@/glossary/epistemicky-monismus.md). Příbuzný

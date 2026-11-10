@@ -1,0 +1,323 @@
+# Rodina NLP-10: Submodality (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-10.01"
+slug = "elicitace-submodalit"
+type = "pattern"
+cs = "Elicitace submodalit"
+en = "Eliciting submodalities"
+aliases = ["zjišťování submodalit", "dotazování na kvality představ"]
+use = "dvoji"
+risk = "stredni"
+broader = "submodality-pojem"
+related = ["vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kontrastni-analyza", "kalibrace", "elicitace-strategie"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Než se pustíme do dalšího cvičení, popiš skupině co nejpřesněji, jak vidíš svého otce: jak je velký, jak blízko stojí a jak hlasitě k tobě mluví."
+context = "Lektor víkendového semináře osobního rozvoje před plným sálem."
+benign = false
+marker = "Podrobné vyptávání na kvality intimní představy probíhá veřejně, bez kontraktu a bez možnosti odmítnout; vyptávání připravuje zásah, jehož cíl určuje lektor."
+response = "Odmítnout veřejný popis soukromého prožitku a ptát se, k čemu informace poslouží; účastník smí cvičení kdykoli opustit."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že se vám ta scéna vrací. Je to spíš jako fotografie, nebo jako film? Nemusíte odpovídat, pokud o tom nechcete mluvit."
+context = "Klinická psycholožka při vstupním rozhovoru s klientem."
+benign = true
+marker = "Otázka na kvalitu vzpomínky slouží porozumění prožitku, odpověď je výslovně dobrovolná a nenásleduje žádný návrh změny."
+response = "Neškodné zkoumání prožitku v rámci terapeutického kontraktu: klient řídí, co sdělí, a nic se mu nevnucuje."
+
+[[pattern]]
+id = "NLP-10.02"
+slug = "vizualni-submodality"
+type = "concept"
+cs = "Vizuální submodality"
+en = "Visual submodalities"
+aliases = ["kvality zrakové představy"]
+use = "zadne"
+risk = "nizke"
+broader = "submodality-pojem"
+related = ["vizualni-system", "asociace", "disociace", "prostorove-umisteni-obrazu", "submodality-v-reklame"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta tvoje pochybnost je jen malý rozmazaný obrázek někde v rohu. Moje vize je velká, jasná a přímo před tebou, a proto je pravdivá."
+context = "Vůdčí osobnost skupiny odpovídá členovi, který vyslovil nesouhlas."
+benign = false
+marker = "Kvality představy (velikost, ostrost, poloha) se vydávají za doklad pravdivosti obsahu a slouží k zlehčení pochybnosti."
+response = "Oddělit živost představy od její pravdivosti: jasnost obrazu nic nedokazuje, pochybnost se posuzuje podle důvodů a dokladů."
+
+[[pattern.trainer]]
+utterance = "Když na tu situaci myslím, vidím ji jakoby zdálky a bez barev, jako by se to stalo někomu jinému."
+context = "Klient popisuje terapeutovi svou vzpomínku vlastními slovy."
+benign = true
+marker = "Člověk sám a z vlastní iniciativy popisuje vzdálenost a barevnost představy; nikdo mu kvality nenavrhuje ani nemění."
+response = "Neškodný popis prožitku, který může terapeutovi pomoci porozumět; oddálení může být i znakem disociace, a proto si zaslouží citlivé klinické posouzení."
+
+[[pattern]]
+id = "NLP-10.03"
+slug = "auditivni-submodality"
+type = "concept"
+cs = "Auditivní submodality"
+en = "Auditory submodalities"
+aliases = ["kvality sluchové představy", "kvality vnitřního hlasu"]
+use = "zadne"
+risk = "nizke"
+broader = "submodality-pojem"
+related = ["auditivni-system", "vnitrni-dialog", "zmena-vnitrniho-hlasu", "auditivni-swish", "sladeni-hlasu-a-tempa"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten hlásek, který ti říká, že tohle není v pořádku, je jen tichý skřípavý zvuk. Ztlum ho a poslouchej jen to, co říkám já."
+context = "Mentor v uzavřené skupině mluví s členem, který váhá s finančním závazkem."
+benign = false
+marker = "Vnitřní hlas, který nese varování, se popisuje jako pouhá zvuková kvalita, kterou lze ztlumit, a nahrazuje se hlasem autority."
+response = "Brát vnitřní varování jako informaci, ne jako zvuk k ztlumení; rozhodnutí odložit a probrat ho s někým mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Když se kritizuju, slyším to hlasem, který zní hodně nahlas a hodně zblízka, skoro jako by mi někdo křičel do ucha."
+context = "Klientka popisuje v terapii, jak prožívá vlastní sebekritiku."
+benign = true
+marker = "Klientka sama popisuje hlasitost a blízkost vnitřního hlasu; popis slouží porozumění a nikdo jí nic neurčuje."
+response = "Neškodný popis, se kterým lze pracovat v rámci ověřených přístupů ke sebekritice; o cíli případné změny rozhoduje klientka."
+
+[[pattern]]
+id = "NLP-10.04"
+slug = "kinesteticke-submodality"
+type = "concept"
+cs = "Kinestetické submodality"
+en = "Kinaesthetic submodalities"
+aliases = ["kvality tělesného prožitku"]
+use = "zadne"
+risk = "nizke"
+broader = "submodality-pojem"
+related = ["kinesteticky-system", "mysl-a-telo-jeden-system", "kinesteticky-swish", "kinesteticke-kotvy", "stav"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To sevření v žaludku, když mluvíš o odchodu, není strach, je to jen teplo, které se chce rozlít. Nech ho rozlít a zůstaneš s námi."
+context = "Vedoucí komunity mluví se členkou, která uvažuje o odchodu."
+benign = false
+marker = "Tělesný signál úzkosti se přejmenuje na neutrální kvalitu (teplo, rozlití) a jeho význam se přepíše tak, aby podporoval setrvání ve skupině."
+response = "Respektovat tělesný signál jako možné varování; rozhodnutí o odchodu nedělat pod tlakem a probrat ho s důvěryhodnou osobou mimo komunitu."
+
+[[pattern.trainer]]
+utterance = "Kde v těle tu úzkost cítíte? Je to spíš tlak, nebo spíš chvění? Zajímá mě to, abychom věděli, s čím pracujeme."
+context = "Terapeut při úvodním sezení zaměřeném na panické ataky."
+benign = true
+marker = "Otázky na umístění a kvalitu tělesného pocitu slouží porozumění; význam pocitu terapeut nepřepisuje a cíl práce je dohodnutý s klientem."
+response = "Neškodné zkoumání, které odpovídá běžné klinické práci s tělesnými příznaky úzkosti."
+
+[[pattern]]
+id = "NLP-10.05"
+slug = "kriticke-submodality"
+type = "concept"
+cs = "Kritické submodality"
+en = "Critical (driver) submodalities"
+aliases = ["hnací submodality", "driver submodality"]
+use = "dvoji"
+risk = "stredni"
+broader = "submodality-pojem"
+related = ["kontrastni-analyza", "mapovani-napric", "swish", "zmena-presvedceni-submodalitami", "vyhozeni-kompulze"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Našli jsme tvou hnací submodalitu: vzdálenost. Stačí, když tvoje rodina bude v představě dost daleko, a všechno ostatní se změní samo."
+context = "Kouč v programu, který vyžaduje přerušení kontaktu s rodinou."
+benign = false
+marker = "Pojem jediné rozhodující kvality slibuje snadnou a úplnou změnu citového vztahu, jehož oslabení slouží cílům programu, ne člověku."
+response = "Odmítnout, že by vztah k blízkým byl technický parametr; ptát se, komu má změna prospět, a ověřovat vztah přímým kontaktem."
+
+[[pattern.trainer]]
+utterance = "V NLP se tvrdí, že některé kvality představy, třeba vzdálenost, ovlivňují prožitek víc než jiné; kontrolované studie to ale zatím nedoložily."
+context = "Vyučující psychologie na semináři o kritickém hodnocení metod."
+benign = true
+marker = "Pojem se uvádí jako tvrzení oboru spolu s hodnocením stavu důkazů, bez nároku na jeho užití vůči komukoli."
+response = "Neškodný výklad: pojem je popsán, odlišen od doloženého poznání a nikomu se nevnucuje."
+
+[[pattern]]
+id = "NLP-10.06"
+slug = "kontrastni-analyza"
+type = "pattern"
+cs = "Kontrastní analýza"
+en = "Contrastive analysis"
+aliases = ["porovnání submodalit"]
+use = "dvoji"
+risk = "stredni"
+broader = "elicitace-submodalit"
+related = ["kriticke-submodality", "mapovani-napric", "zmena-presvedceni-submodalitami", "od-libosti-k-nechuti", "presvedcovaci-strategie"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Porovnejme, jak vypadá věc, které jsi naprosto jistý, a jak vypadá tvoje pochybnost o našem učení. Ten rozdíl nám ukáže, co je potřeba u pochybnosti změnit."
+context = "Instruktor v ideologicky uzavřeném výcvikovém programu."
+benign = false
+marker = "Srovnání jistoty a pochybnosti neslouží porozumění, ale nalezení rozdílu, který se má u pochybnosti odstranit; cíl změny je předem daný."
+response = "Rozpoznat, že pochybnost je považována za vadu k opravě; trvat na tom, že se posuzuje věcnými důvody, ne kvalitou představy."
+
+[[pattern.trainer]]
+utterance = "Zkoumáme, jestli se lidé při popisu jisté a nejisté vzpomínky liší v tom, jak jasně je vidí; účastníci smějí kdykoli přestat."
+context = "Výzkumnice vysvětluje účastníkům experimentu jeho cíl."
+benign = true
+marker = "Srovnání dvou prožitků slouží poznání a je rámováno souhlasem; nikomu se nenavrhuje měnit přesvědčení."
+response = "Neškodné užití srovnávacího postupu ve výzkumu se souhlasem a bez zásahu do přesvědčení účastníků."
+
+[[pattern]]
+id = "NLP-10.07"
+slug = "mapovani-napric"
+type = "pattern"
+cs = "Mapování napříč"
+en = "Mapping across"
+aliases = ["přenos submodalit", "mapping across"]
+use = "dvoji"
+risk = "vysoke"
+broader = "submodality-pojem"
+related = ["kontrastni-analyza", "kriticke-submodality", "zmena-presvedceni-submodalitami", "vzorec-godiva", "od-libosti-k-nechuti", "nlp-v-sektach"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje nedůvěra k vedení má teď stejnou podobu jako to, čemu už dávno nevěříš. Až ji uvidíš takhle, zmizí a zbude jen důvěra."
+context = "Starší člen skupiny mluví s nováčkem po kritické otázce na finance."
+benign = false
+marker = "Kvality prožitku nedůvěry se přirovnávají k něčemu odbytému, aby se oprávněná otázka přesunula do kategorie překonaného; obsah nedůvěry se neprobírá."
+response = "Vrátit se k obsahu: na otázku o financích se odpovídá doklady, ne změnou toho, jak si člověk nedůvěru představuje."
+
+[[pattern.trainer]]
+utterance = "Technika se jmenuje mapování napříč: tvrdí, že přenesení kvalit jedné představy na druhou změní i její význam. Doklady pro to jsou slabé."
+context = "Lektorka kurzu kritického myšlení vysvětluje pojem posluchačům."
+benign = true
+marker = "Pojem se popisuje s jasným rozlišením mezi tvrzením oboru a stavem důkazů a bez užití na konkrétního člověka."
+response = "Neškodný výklad, který posluchačům pomáhá vzorec rozpoznat, ne ho používat."
+
+[[pattern]]
+id = "NLP-10.08"
+slug = "swish"
+type = "pattern"
+cs = "Swish"
+en = "Swish pattern"
+aliases = ["vzorec swish", "švihnutí"]
+use = "terapie"
+risk = "stredni"
+broader = "submodality-pojem"
+related = ["kinesteticky-swish", "auditivni-swish", "kriticke-submodality", "vyhozeni-kompulze", "kotveni", "budouci-prehravani"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Pokaždé, když si vybavíš ten starý byt a svou matku, rychle to přepni na obraz sebe jako člena našeho týmu. Za týden se ti stýskat nebude."
+context = "Náborář komerční organizace se strukturou skupinového tlaku mluví s novým členem."
+benign = false
+marker = "Struktura swishe (spouštěcí představa rychle nahrazená žádoucím sebeobrazem) se užívá k oslabení stesku po blízkých ve prospěch organizace."
+response = "Rozpoznat, že cílem není úleva člověka, ale jeho odpojení; stesk brát jako informaci o vztazích a o ceně, kterou člověk platí."
+
+[[pattern.trainer]]
+utterance = "Tahle technika se v NLP nazývá swish a slibuje změnu zlozvyku přes práci s představami. Kontrolovaných studií je málo, takže na ni nespoléhejte místo léčby."
+context = "Praktická lékařka odpovídá pacientovi, který se na techniku ptá."
+benign = true
+marker = "Technika se pojmenuje a popíše se stav důkazů; nikdo ji neprovádí a pacient dostává informaci pro vlastní rozhodnutí."
+response = "Neškodná informace, která chrání před přeceněním metody a ponechává rozhodnutí pacientovi."
+
+[[pattern]]
+id = "NLP-10.09"
+slug = "kinesteticky-swish"
+type = "pattern"
+cs = "Kinestetický swish"
+en = "Kinaesthetic swish"
+aliases = ["tělesný swish"]
+use = "terapie"
+risk = "stredni"
+broader = "swish"
+related = ["kinesteticke-submodality", "auditivni-swish", "kinesteticke-kotvy", "kinesteticky-system"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jakmile ucítíš ten odpor v hrudi, když přijde řeč na smlouvu, nech ho odplavit tím příjemným uvolněním, které znáš z našich setkání."
+context = "Obchodní zástupce na opakovaném prodejním setkání s váhavým klientem."
+benign = false
+marker = "Tělesný signál nesouhlasu se má nahradit tělesným pocitem spojeným se setkáními prodejce; náhrada slouží uzavření obchodu, ne klientovi."
+response = "Rozpoznat odpor v těle jako legitimní signál; smlouvu nepodepisovat na místě a vzít si čas na samostatné posouzení."
+
+[[pattern.trainer]]
+utterance = "Některé varianty swishe místo obrazů pracují s tělesnými pocity. Literatura je převážně praktická a výzkum specifický pro ně chybí."
+context = "Supervizorka hovoří s frekventantem psychoterapeutického výcviku o metodách, se kterými se setkal."
+benign = true
+marker = "Varianta se popisuje s výhradou ohledně důkazů a bez užití na kohokoli; jde o odborné informování."
+response = "Neškodná odborná informace, která pomáhá rozlišit praktickou tradici od doloženého postupu."
+
+[[pattern]]
+id = "NLP-10.10"
+slug = "auditivni-swish"
+type = "pattern"
+cs = "Auditivní swish"
+en = "Auditory swish"
+aliases = ["zvukový swish"]
+use = "terapie"
+risk = "stredni"
+broader = "swish"
+related = ["auditivni-submodality", "kinesteticky-swish", "zmena-vnitrniho-hlasu", "vnitrni-dialog", "auditivni-kotvy"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdykoli uslyšíš v hlavě svého bratra, jak tě varuje, ať jeho hlas hned přehluší můj, klidný a jistý. Brzy už ho slyšet nebudeš."
+context = "Duchovní vůdce mluví s následovníkem, jehož rodina skupinu kritizuje."
+benign = false
+marker = "Vnitřní hlas blízkého, který nese varování, se má pravidelně nahrazovat hlasem vůdce; náhrada vytlačuje kritický vnější pohled."
+response = "Rozpoznat, že se nahrazuje hlas, který nese korektiv; s bratrem mluvit přímo a jeho varování posoudit podle obsahu."
+
+[[pattern.trainer]]
+utterance = "Klient sám říká, že mu pomáhá, když místo vlastního kritického hlasu slyší v duchu klidnější tón. Zaznamenám to jako jeho vlastní strategii."
+context = "Terapeutka si po sezení dělá poznámky k průběhu terapie."
+benign = true
+marker = "Změnu tónu vnitřního hlasu volí a popisuje sám klient; terapeutka ji jen zaznamenává a nic nevnucuje."
+response = "Neškodné: jde o vlastní strategii zvládání klienta, kterou terapeutka respektuje a nevydává za ověřenou techniku."

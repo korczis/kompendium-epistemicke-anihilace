@@ -1,0 +1,346 @@
+# Rodina NLP-06: Jazykové presupozice, část b (pravidlo project.nlp-catalog; schéma v
+# scripts/nlp-catalog.py). Tento soubor nese záznamy NLP-06.11 až NLP-06.19.
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-06.11"
+slug = "srovnavaci-presupozice"
+type = "pattern"
+cs = "Srovnávací presupozice"
+en = "Comparatives as presuppositions"
+aliases = ["presupozice srovnání", "komparativ jako předpoklad"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "srovnavaci-delece",
+  "srovnavaci-delece-milton",
+  "kvalifikatory-jen-i",
+  "kontrastni-ramec",
+  "presupozice-v-reklame",
+]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Letos ses zase o něco zhoršila, i když už loni to bylo slabší než u ostatních."
+context = "Vedoucí při ročním hodnocení mluví se zaměstnankyní bez předložení jakýchkoli údajů."
+benign = false
+marker = "Komparativy „zhoršila se o něco“ a „slabší než u ostatních“ předpokládají, že výkon byl špatný už dříve, aniž by to kdy bylo doloženo."
+response = "Vyslovit skrytý předpoklad a žádat měřítko: s čím přesně se srovnává, podle jakých údajů a kdy bylo loňské hodnocení formálně sděleno."
+
+[[pattern.trainer]]
+utterance = "Ve srovnání s minulým měsícem je hodnota cukru v krvi nižší, tady máte obě měření vedle sebe."
+context = "Lékařka ukazuje pacientovi výsledky dvou laboratorních vyšetření."
+benign = true
+marker = "Srovnání předpokládá dřívější hodnotu, ale ta je výslovně předložená a ověřitelná."
+response = "Neškodné užití: obě strany srovnání jsou na stole a pacient může srovnání sám zkontrolovat."
+
+[[pattern]]
+id = "NLP-06.12"
+slug = "otazky-s-presupozici"
+type = "pattern"
+cs = "Otázky s presupozicí"
+en = "Loaded questions"
+aliases = ["komplexní otázka", "otázka s vneseným předpokladem", "kapciózní otázka"]
+use = "dvoji"
+risk = "vysoke"
+broader = "jazykove-presupozice"
+related = [
+  "presupozice-ve-vyslechu",
+  "presupozice-nebo",
+  "vlozene-otazky",
+  "otazky-misto-tvrzeni",
+  "meta-model-jako-vyslychaci-nastroj",
+  "iluze-volby",
+]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Proč jsi o tom svém dluhu celé ty měsíce lhal i svým rodičům?"
+context = "Příbuzný klade otázku při rodinném setkání, aniž by o nějakém dluhu existovala zmínka."
+benign = false
+marker = "Tázací slovo „proč“ předpokládá, že dluh existuje a že o něm dotyčný lhal; každá odpověď na „proč“ oba předpoklady potvrzuje."
+response = "Neodpovídat na „proč“, ale na předpoklad: nejdřív je třeba ukázat, že nějaký dluh existuje a že o něm kdo komu lhal."
+
+[[pattern.trainer]]
+utterance = "Kdy vám bude vyhovovat termín kontroly, který jsme minulý týden společně domluvili?"
+context = "Sestra v ordinaci volá pacientovi kvůli upřesnění data dohodnuté prohlídky."
+benign = true
+marker = "Otázka předpokládá dohodu o kontrole, ta je však společně známá a pacient ji může snadno potvrdit nebo opravit."
+response = "Neškodné užití: předpoklad patří do sdíleného základu rozhovoru a otázka ponechává plnou volnost v tom podstatném."
+
+[[pattern]]
+id = "NLP-06.13"
+slug = "vztazne-vety-presupozice"
+type = "pattern"
+cs = "Vztažné věty jako presupozice"
+en = "Relative clauses"
+aliases = ["presupozice vztažné věty", "vložené vedlejší tvrzení"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "existencni-presupozice",
+  "komentarova-adverbia",
+  "nominalizace",
+  "slovni-baliky",
+]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje kamarádka, která tě odjakživa jen využívá, zase volala, jestli nepřijdeš."
+context = "Partner předává vzkaz a současně hodnotí přítelkyni druhého."
+benign = false
+marker = "Vztažná věta „která tě odjakživa jen využívá“ podává sporné hodnocení jako známé pozadí; hlavní sdělení je jen vzkaz o telefonátu."
+response = "Oddělit vzkaz od vedlejšího tvrzení a to posoudit zvlášť: kdo, kdy a čím by měl být využíván a zda to vůbec bylo kdy řečeno přímo."
+
+[[pattern.trainer]]
+utterance = "Paní Novotná, která u nás vede účetnictví, vám pošle fakturu ještě dnes."
+context = "Majitel malé firmy telefonuje se zákazníkem."
+benign = true
+marker = "Vztažná věta předpokládá ověřitelný a nesporný fakt o pracovní roli a slouží jen k identifikaci osoby."
+response = "Neškodné užití: vedlejší obsah je identifikační, nesporný a snadno ověřitelný."
+
+[[pattern]]
+id = "NLP-06.14"
+slug = "kontrafaktualni-podminky"
+type = "pattern"
+cs = "Kontrafaktuální podmínky"
+en = "Counterfactual conditionals"
+aliases = ["neskutečné podmínky", "podmínky proti skutečnosti"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "ramec-jako-by",
+  "zmena-osobni-historie",
+  "casove-presuny-v-jazyce",
+  "beznadej-bezmoc-nehodnost",
+]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdybys mě tehdy poslechla, nemuseli jsme teď nic z toho řešit."
+context = "Partner reaguje na finanční potíže domácnosti, o kterých rozhodovali oba."
+benign = false
+marker = "Podmínka proti skutečnosti předpokládá, že adresátka neposlechla a že právě to vedlo k potížím; příčinná souvislost se nedokládá."
+response = "Oddělit předpoklad od příčinného tvrzení: co přesně bylo tehdy navrženo, kdo rozhodl a zda by jiný postup výsledek skutečně změnil."
+
+[[pattern.trainer]]
+utterance = "Kdyby byl ten most postaven podle původní normy, nesl by dnes i těžší nákladní vozy."
+context = "Statik v odborném posudku vysvětluje, proč most nevyhovuje novým požadavkům."
+benign = true
+marker = "Kontrafaktuál předpokládá, že most podle původní normy postaven nebyl, a tento fakt je doložen projektovou dokumentací."
+response = "Neškodné užití: předpoklad je ověřitelný a podmínka slouží k vysvětlení technického rozdílu, ne k přisouzení viny."
+
+[[pattern]]
+id = "NLP-06.15"
+slug = "faktivni-slovesa"
+type = "pattern"
+cs = "Faktivní slovesa"
+en = "Factive verbs"
+aliases = ["faktivní predikáty", "emotivní faktiva"]
+use = "dvoji"
+risk = "vysoke"
+broader = "jazykove-presupozice"
+related = [
+  "predikaty-uvedomeni",
+  "komentarova-adverbia",
+  "implikativni-slovesa",
+  "cteni-myslenek",
+  "ztraceny-performativ",
+]
+kompendium = [
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Mrzí mě, že tě to zase tolik rozhodilo, ale tvé výbuchy už opravdu nemůžu snášet."
+context = "Partner reaguje na klidně vznesenou námitku druhého."
+benign = false
+marker = "Emotivní faktivum „mrzí mě, že“ předpokládá, že druhého něco „zase rozhodilo“, a zařadí námitku mezi výbuchy, aniž by to tvrdilo přímo."
+response = "Odmítnout faktivní předpoklad jako nepodložený a vrátit se k obsahu námitky; popis vlastního stavu přísluší tomu, kdo ho prožívá."
+
+[[pattern.trainer]]
+utterance = "Je mi líto, že jste na výsledek čekali tak dlouho; laboratoř měla minulý týden výpadek."
+context = "Lékař se omlouvá pacientce za zpoždění výsledků."
+benign = true
+marker = "Faktivum „je mi líto, že“ předpokládá dlouhé čekání, které je pro obě strany nesporné, a mluvčí ho přiznává jako svůj problém."
+response = "Neškodné užití: předpokládaný fakt je sdílený a slouží k převzetí odpovědnosti, ne k jejímu přesunu na adresáta."
+
+[[pattern]]
+id = "NLP-06.16"
+slug = "implikativni-slovesa"
+type = "pattern"
+cs = "Implikativní slovesa"
+en = "Implicative verbs"
+aliases = ["implikativa", "slovesa pokusu a opomenutí"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "faktivni-slovesa",
+  "slovesa-zmeny-casu",
+  "modalni-operator-nutnosti",
+  "zkusit",
+]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Zase jsi mi zapomněl napsat, kde zrovna jsi, jako obvykle."
+context = "Partnerka komentuje večer, kdy druhý přišel domů o hodinu později."
+benign = false
+marker = "Sloveso „zapomněl napsat“ předpokládá povinnost hlásit pohyb, o níž se nikdy nejednalo; „zase“ a „jako obvykle“ ji vydávají za ustálené pravidlo."
+response = "Vyslovit skrytou povinnost a zeptat se, kdy a kým byla dohodnuta; kontrola pohybu není samozřejmost, ale předmět jednání."
+
+[[pattern.trainer]]
+utterance = "Nakonec se nám podařilo opravit tu chybu v rozvrhu, než ho škola rozeslala rodičům."
+context = "Zástupkyně ředitele informuje sborovnu o průběhu přípravy rozvrhu."
+benign = true
+marker = "„Podařilo se“ předpokládá úsilí a obtíž, což odpovídá skutečnosti, kterou kolegové znají."
+response = "Neškodné užití: předpokládané úsilí je pravdivé a sdílené a věta nikomu nepřipisuje vinu ani povinnost."
+
+[[pattern]]
+id = "NLP-06.17"
+slug = "rozstepene-vety"
+type = "pattern"
+cs = "Vytýkací konstrukce"
+en = "Cleft sentences"
+aliases = ["rozštěpené věty", "vytýkání větného členu", "pseudorozštěpené věty"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "existencni-presupozice",
+  "kvalifikatory-jen-i",
+  "vztazne-vety-presupozice",
+  "otazky-s-presupozici",
+  "analogove-znaceni",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nejde o to, jestli se ty peníze ztratily, jde o to, kdo z vás to vynesl novinářům."
+context = "Ředitel na poradě reaguje na zprávu o chybějících prostředcích."
+benign = false
+marker = "Vytýkací rámec „jde o to, kdo“ předpokládá, že někdo z přítomných informaci vynesl, a odsune otázku po ztrátě peněz stranou."
+response = "Vyslovit oba předpoklady: že vynesení proběhlo a že jde o přítomné; a vrátit na stůl původní otázku, kterou konstrukce vytlačila."
+
+[[pattern.trainer]]
+utterance = "Byla to právě paní Dvořáková, kdo si chyby v rozpočtu všiml jako první, poděkujme jí."
+context = "Starosta na zasedání zastupitelstva oceňuje práci úřednice."
+benign = true
+marker = "Vytýkací konstrukce předpokládá, že si někdo chyby všiml, což je známé a nesporné; konstrukce jen zvýrazňuje, komu patří zásluha."
+response = "Neškodné užití: předpoklad je pravdivý a sdílený a vytýkání slouží k ocenění, ne k vnesení sporného obsahu."
+
+[[pattern]]
+id = "NLP-06.18"
+slug = "presupozice-v-reklame"
+type = "pattern"
+cs = "Presupozice v reklamě"
+en = "Presuppositions in advertising"
+aliases = ["implikovaná reklamní tvrzení", "presupozice v marketingu"]
+use = "vliv"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "nlp-v-reklame",
+  "kotvy-v-reklame",
+  "srovnavaci-presupozice",
+  "predpokladovy-zaver",
+  "metaprogramy-v-marketingu",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Proč se tolik rodin už rozhodlo přejít na náš tarif, který konečně skončil se skrytými poplatky?"
+context = "Text reklamního letáku poskytovatele energií."
+benign = false
+marker = "Otázka „proč“ předpokládá, že přechází „tolik rodin“, a vztažná věta předpokládá, že jiné tarify skryté poplatky mají; ani jedno se netvrdí přímo."
+response = "Přepsat implikovaná tvrzení na přímá a u každého hledat doklad: kolik rodin, ve srovnání s čím a které poplatky přesně."
+
+[[pattern.trainer]]
+utterance = "Nový model spotřebuje podle testu výrobce 5,2 litru na sto kilometrů, metodika testu je na našem webu."
+context = "Text inzerátu automobilky."
+benign = true
+marker = "Tvrzení je podáno přímo, s uvedeným zdrojem a metodikou, takže nic podstatného není skryto v předpokladu."
+response = "Neškodné užití: tvrzení je výslovné a ověřitelné; zbývá jen posoudit, zda test výrobce odpovídá běžnému provozu."
+
+[[pattern]]
+id = "NLP-06.19"
+slug = "presupozice-ve-vyslechu"
+type = "pattern"
+cs = "Presupozice ve výslechu a svědectví"
+en = "Presuppositions in questioning and testimony"
+aliases = ["sugestivní otázky", "návodné otázky", "kapciózní otázky ve výslechu"]
+use = "vliv"
+risk = "vysoke"
+broader = "jazykove-presupozice"
+related = [
+  "otazky-s-presupozici",
+  "meta-model-jako-vyslychaci-nastroj",
+  "nlp-ve-vyslechu",
+  "trauma-a-falesne-vzpominky",
+  "detekce-lzi-v-nlp",
+]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-6-1-3-collateral-interview.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jak rychle jelo to modré auto, když projíždělo na červenou?"
+context = "Vyšetřovatel se ptá svědka dopravní nehody, který zatím barvu semaforu ani auta nezmínil."
+benign = false
+marker = "Otázka předpokládá barvu vozu i jízdu na červenou, tedy okolnosti, které se měly teprve z výpovědi zjistit; odpověď o rychlosti je mlčky potvrzuje."
+response = "Svědek má právo říct, že předpoklady otázky sám neviděl; v záznamu je třeba odlišit, co uvedl sám a co do výpovědi vnesla otázka."
+
+[[pattern.trainer]]
+utterance = "Popište mi, prosím, vlastními slovy všechno, co jste ten večer na křižovatce viděl a slyšel."
+context = "Policistka zahajuje výslech svědka podle zásad forenzního rozhovoru."
+benign = true
+marker = "Otevřená výzva k volnému vyprávění nevnáší žádný obsah, který by svědek sám neuvedl."
+response = "Legitimní postup: otevřená výzva chrání výpověď před vneseným obsahem a ponechává svědkovi kontrolu nad tím, co vypoví."

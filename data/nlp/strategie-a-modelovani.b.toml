@@ -1,0 +1,331 @@
+# Rodina NLP-14: Strategie a modelování, část b (NLP-14.11 až NLP-14.20).
+# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-14.11"
+slug = "novy-kod"
+type = "concept"
+cs = "Nový kód NLP"
+en = "NLP New Code"
+aliases = ["New Code", "nový kód"]
+use = "terapie"
+risk = "stredni"
+broader = ""
+related = ["stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni", "modelovani-nevedomim", "uptime-a-downtime", "ekologicka-kontrola"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje pochybnosti jsou jen starý kód, vědomá mysl, která překáží. Přestaň to rozebírat a nech nevědomí, ať si vybere. Kdo tu metodu analyzuje, ten ji nepochopil."
+context = "Lektor rozvojového semináře odpovídá účastníkovi, který se ptá, jak metodu ověřit."
+benign = false
+marker = "Odkaz na nevědomou volbu se používá k odmítnutí otázky po ověření: kritické myšlení se označí za překážku a analýza metody za důkaz jejího nepochopení."
+response = "Trvat na tom, že otázka, jak se metoda ověřuje, je legitimní, a požadovat popis toho, podle čeho se pozná, že nefunguje."
+
+[[pattern.trainer]]
+utterance = "Nový kód je jeden ze směrů NLP z osmdesátých let. Přináší zajímavé nápady o pozornosti a stavu, ale kontrolované studie, které by ho podpořily, k dispozici nemám."
+context = "Psycholožka odpovídá klientovi, který se ptá, zda je Nový kód vědecky ověřený."
+benign = true
+marker = "Mluvčí popisuje směr věcně, odlišuje jeho myšlenky od doložených účinků a přiznává chybějící důkazy."
+response = "Neškodné užití: informace je přesná, nezamlčuje stav výzkumu a nechává rozhodnutí na klientovi."
+
+[[pattern]]
+id = "NLP-14.12"
+slug = "stav-vysokeho-vykonu"
+type = "pattern"
+cs = "Stav vysokého výkonu"
+en = "High-performance state"
+aliases = ["high performance state", "stav nejvyšší výkonnosti"]
+use = "dvoji"
+risk = "stredni"
+broader = "novy-kod"
+related = ["periferni-videni", "stav-nevedeni", "abecedni-hra", "stav", "zdrojovy-stav", "velke-seminare"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/scenar-k/_index.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten pocit, který teď cítíte, je váš skutečný potenciál. Mimo tenhle sál ho ztratíte, a proto se většina lidí hlásí rovnou do dalšího stupně kurzu, dokud jsou ve stavu."
+context = "Řečník na velkém motivačním semináři v závěru večerního bloku."
+benign = false
+marker = "Navozený stav vzrušení se vydává za „skutečné já“ a jeho pomíjivost se využívá jako argument pro okamžité rozhodnutí o koupi."
+response = "Oddělit rozhodnutí od stavu: o koupi nebo závazku rozhodovat až po odeznění vzrušení, s odstupem a s informacemi o ceně a výsledcích."
+
+[[pattern.trainer]]
+utterance = "Před výkonem se mi osvědčilo pár minut rozcvičky, při které vnímám celý prostor a nic neřeším. Jestli je to nějaký zvláštní stav, nevím, ale soustředí mě to."
+context = "Hudebnice popisuje kolegovi svou přípravu před koncertem."
+benign = true
+marker = "Člověk sám pro sebe používá rituál přípravy, popisuje ho skromně a nepřipisuje mu prokázanou zvláštní moc."
+response = "Neškodné užití: jde o osobní přípravu bez nároku na pravdu a bez vlivu na druhé; případný účinek si ověřuje vlastní zkušeností."
+
+[[pattern]]
+id = "NLP-14.13"
+slug = "abecedni-hra"
+type = "pattern"
+cs = "Abecední hra"
+en = "Alphabet game"
+aliases = ["alphabet game"]
+use = "terapie"
+risk = "nizke"
+broader = "novy-kod"
+related = ["stav-vysokeho-vykonu", "preruseni-vzorce", "vnitrni-dialog", "indukce-pretizenim"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Po té hře máte hlavu konečně prázdnou, a právě teď je ta správná chvíle podepsat přihlášku. Kdo by o tom začal zase přemýšlet, vrátí se do starého vzorce."
+context = "Prodejce výcvikového programu bezprostředně po ukázce koordinační hry."
+benign = false
+marker = "Krátké zahlcení pozornosti a následná úleva se spojí s výzvou k závaznému rozhodnutí a přemýšlení se označí za návrat do „starého vzorce“."
+response = "Odložit každé rozhodnutí na dobu, kdy pomine únava a úleva po cvičení, a promyslet ho bez přítomnosti prodejce."
+
+[[pattern.trainer]]
+utterance = "Ta hra s písmeny a rukama je docela zábavná koordinační rozcvička. Že by měnila stav nervového systému, bych netvrdil, studie o ní neznám."
+context = "Trenér týmu komentuje cvičení, které účastníci viděli na workshopu."
+benign = true
+marker = "Cvičení se popisuje jako hra a rozcvička, nikoli jako zásah s doloženým účinkem, a mluvčí otevřeně uvádí, že důkazy nezná."
+response = "Neškodné užití: tvrzení odpovídá stavu poznání a nikoho k ničemu nezavazuje."
+
+[[pattern]]
+id = "NLP-14.14"
+slug = "stav-nevedeni"
+type = "pattern"
+cs = "Stav nevědění"
+en = "Know-nothing state"
+aliases = ["know-nothing state", "stav nevím nic"]
+use = "dvoji"
+risk = "stredni"
+broader = "novy-kod"
+related = ["periferni-videni", "uptime-a-downtime", "vnitrni-dialog", "trans-pojem", "guru-efekt"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md",
+  "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všechno, co jsi věděl předtím, tě sem jen dovedlo. Odlož to, buď v nevědění a přijímej, co ti dává skupina. Kdo se ptá, ještě se nevzdal svého ega."
+context = "Vedoucí uzavřené rozvojové skupiny k novému členovi."
+benign = false
+marker = "Pozorovací postoj „nevědění“ se mění v požadavek vzdát se vlastního úsudku a otázky se označují za známku ega."
+response = "Rozlišit otevřenost vůči novému od vzdání se úsudku: trvat na právu ptát se a ověřovat to, co skupina předkládá."
+
+[[pattern.trainer]]
+utterance = "Než začnu s rozborem, zkusím se na to chvíli dívat bez hotového vysvětlení a jen sbírat, co vidím. Teorii si nechám na potom."
+context = "Etnografka popisuje, jak vstupuje do terénu."
+benign = true
+marker = "Odklad výkladu je dočasný, slouží pozorování a mluvčí se k analýze výslovně vrací."
+response = "Neškodné užití: odložení předpokladů zlepšuje pozorování a úsudek se neruší, jen se odkládá."
+
+[[pattern]]
+id = "NLP-14.15"
+slug = "periferni-videni"
+type = "pattern"
+cs = "Periferní vidění"
+en = "Peripheral vision"
+aliases = ["rozostřený pohled", "široké vidění"]
+use = "dvoji"
+risk = "stredni"
+broader = "stav-vysokeho-vykonu"
+related = ["uptime-a-downtime", "trans-pojem", "smyslova-ostrost", "stav-nevedeni"]
+kompendium = [
+  "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md",
+  "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nechte oči rozostřit a vnímejte celý sál najednou. Čím víc se rozostřujete, tím méně potřebujete rozumět tomu, co říkám, a tím hlouběji to do vás vstupuje."
+context = "Řečník na semináři osobního rozvoje během dlouhého monologu."
+benign = false
+marker = "Pokyn k širokému vidění se spojuje s tvrzením, že porozumění není potřeba a sdělení „vstupuje“ obcházením úsudku."
+response = "Vrátit pozornost k obsahu: vědomě zaostřit, sledovat, co je skutečně tvrzeno, a zapsat si to pro pozdější posouzení."
+
+[[pattern.trainer]]
+utterance = "Při jízdě na kole v provozu se snažím nedívat jen na jedno auto, ale vnímat celé okolí, abych zachytila pohyb i z boku."
+context = "Cyklistka vysvětluje kamarádce, jak jezdí ve městě."
+benign = true
+marker = "Široké vnímání slouží orientaci a bezpečnosti, ne vlivu na druhého, a netvrdí se o něm nic mimořádného."
+response = "Neškodné užití: jde o běžnou dovednost pozornosti, kterou zná dopravní výchova i sport."
+
+[[pattern]]
+id = "NLP-14.16"
+slug = "instalace-strategie"
+type = "pattern"
+cs = "Instalace strategie"
+en = "Strategy installation"
+aliases = ["installing a strategy"]
+use = "dvoji"
+risk = "vysoke"
+broader = "strategie-pojem"
+related = ["elicitace-strategie", "utilizace-strategie", "kotveni", "budouci-prehravani", "strategie-uceni"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-3-singer-six-conditions.md",
+  "kompendium/techniques/ea-8-1-1-bite-model-detail.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Od dneška už nebudeš nad ničím dlouho dumat. Když zaváháš, vybavíš si můj hlas a uděláš, co by udělal tým. Budeme to opakovat, dokud to nepůjde samo."
+context = "Vedoucí prodejní skupiny při individuálním koučování nového člena."
+benign = false
+marker = "Nový rozhodovací postup se opakováním a vazbou na hlas autority zavádí tak, aby nahradil vlastní zvažování člověka."
+response = "Všimnout si, čí kritéria nový postup obsahuje, a ponechat si právo zvažovat; rozhodovací pravidlo, které nejde zpochybnit, je varovný znak."
+
+[[pattern.trainer]]
+utterance = "Než slovo napíšeš, zkus si ho chvíli představit a pak zkontroluj, jestli vypadá správně. Jestli ti to nesedí, klidně to dělej po svém."
+context = "Učitelka nabízí žákovi jeden z možných postupů při psaní diktátu."
+benign = true
+marker = "Postup je nabídnut jako možnost, s otevřeným souhlasem a s výslovnou volbou ho nepřijmout."
+response = "Neškodné užití: učení nové dovednosti s možností odmítnutí; účinek si může ověřit sám žák i učitelka."
+
+[[pattern]]
+id = "NLP-14.17"
+slug = "utilizace-strategie"
+type = "pattern"
+cs = "Využití strategie druhého"
+en = "Strategy utilisation"
+aliases = ["utilizace strategie", "strategy utilization"]
+use = "vliv"
+risk = "vysoke"
+broader = "strategie-pojem"
+related = ["elicitace-strategie", "presvedcovaci-strategie", "rozhodovaci-strategie", "utilizace", "metaprogramy-v-marketingu", "nlp-v-prodeji"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md",
+  "kompendium/case-studies/63-investor-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkal jste, že se rozhodujete, až když něco třikrát uvidíte na vlastní oči. Tak se podívejte: tady, tady a tady. Třikrát. Takže je to rozhodnuté, ne?"
+context = "Obchodník s investičními produkty v druhé schůzce s klientem."
+benign = false
+marker = "Mluvčí zopakuje klientovo vlastní kritérium rozhodování a nabídku přizpůsobí jeho formě, aniž by kritérium naplnil obsahem; forma nahrazuje ověření."
+response = "Oddělit formu od obsahu: posoudit, zda „tři důkazy“ jsou nezávislé a relevantní, a rozhodnutí odložit mimo schůzku."
+
+[[pattern.trainer]]
+utterance = "Vím, že vám pomáhají obrázky, takže jsem vám průběh léčby nakreslila. Podstatné je, abyste rozuměl rizikům, a ta vám teď projdu jedno po druhém."
+context = "Lékařka vysvětluje pacientovi plánovaný zákrok."
+benign = true
+marker = "Forma vysvětlení se přizpůsobuje tomu, jak pacient nejlépe rozumí, a slouží úplnosti informace, ne obejití jeho úsudku."
+response = "Neškodné užití: přizpůsobení formy zvyšuje porozumění a pacient dostává i nepříznivé informace."
+
+[[pattern]]
+id = "NLP-14.18"
+slug = "generator-noveho-chovani"
+type = "pattern"
+cs = "Generátor nového chování"
+en = "New behaviour generator"
+aliases = ["new behavior generator"]
+use = "terapie"
+risk = "nizke"
+broader = "strategie-pojem"
+related = ["budouci-prehravani", "disociace", "asociace", "tote-model", "instalace-strategie"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Představ si, jak se v té situaci chováš přesně tak, jak bych chtěl já. Dokud to nebude vypadat podle mě, budeme to přehrávat znovu a znovu."
+context = "Partner „pomáhá“ druhému změnit chování vůči své rodině."
+benign = false
+marker = "Kritérium, podle kterého se nové chování posuzuje, patří mluvčímu, ne člověku, který si chování představuje; nácvik slouží cizímu cíli."
+response = "Ptát se, čí měřítko nové chování naplňuje, a rozhodovat o svém chování podle vlastních hodnot, ne podle schválení druhého."
+
+[[pattern.trainer]]
+utterance = "Než půjdu na to jednání, chci si v duchu projít, jak bych chtěl reagovat, když mi skočí do řeči. Pak si to zkusím nahlas s tebou."
+context = "Zaměstnanec se připravuje s kolegou na těžký rozhovor."
+benign = true
+marker = "Představivá příprava slouží vlastnímu cíli mluvčího, ten ji řídí sám a ověřuje ji zkouškou v realitě."
+response = "Neškodné užití: mentální příprava podle vlastních kritérií, doplněná nácvikem s druhým člověkem."
+
+[[pattern]]
+id = "NLP-14.19"
+slug = "smyckove-strategie"
+type = "concept"
+cs = "Smyčkové strategie"
+en = "Looping strategies"
+aliases = ["strategie bez výstupu", "looping"]
+use = "zadne"
+risk = "stredni"
+broader = "strategie-pojem"
+related = ["tote-model", "rozhodovaci-strategie", "presvedcovaci-strategie", "vnitrni-dialog", "elicitace-strategie"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md",
+  "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ještě nejsi připravená odejít. Až budeš opravdu připravená, poznáš to. A jestli pochybuješ, znamená to, že připravená ještě nejsi."
+context = "Mentor v uzavřené skupině odpovídá člence, která zvažuje odchod."
+benign = false
+marker = "Test, který má smyčku ukončit, je nastaven tak, že ho nelze splnit: každá pochybnost se vykládá jako důkaz nepřipravenosti a rozhodování se točí dokola."
+response = "Pojmenovat nesplnitelné kritérium a nahradit ho vlastním, konkrétním a ověřitelným, nejlépe s podporou člověka mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Všimla jsem si, že u výběru bytu pořád srovnávám dokola a nikdy nejsem spokojená. Stanovím si tři podmínky a termín, a pak se rozhodnu."
+context = "Žena popisuje kamarádce, jak se dostala z nekonečného váhání."
+benign = true
+marker = "Člověk sám rozpozná, že jeho rozhodování nemá výstupní test, a doplní ho o konkrétní kritéria a časovou hranici."
+response = "Neškodné užití: pojem smyčky slouží k sebepozorování a k vlastnímu stanovení výstupu."
+
+[[pattern]]
+id = "NLP-14.20"
+slug = "modelovani-nevedomim"
+type = "pattern"
+cs = "Nevědomé modelování"
+en = "Unconscious uptake modelling"
+aliases = ["unconscious uptake", "modelování nevědomým převzetím"]
+use = "dvoji"
+risk = "stredni"
+broader = "modelovani-excelence"
+related = ["modelovani-pojem", "zrcadleni", "guru-efekt", "stav-nevedeni", "novy-kod"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-5-3-21-character-transposition.md",
+  "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nesnaž se tomu rozumět. Dívej se, jak mluvím, jak stojím a jak se rozhoduju, a dělej to stejně. Až budeš jako já, pochopíš, proč to tak má být."
+context = "Zakladatel podnikatelské komunity ke svému „žákovi“."
+benign = false
+marker = "Napodobování bez porozumění se nabízí jako cesta k pravdě a cílem je připodobnění osobě autority, ne zvládnutí konkrétní dovednosti."
+response = "Vymezit, kterou dovednost se člověk učí a podle čeho se pozná její zvládnutí, a nepřebírat s ní hodnoty, úsudky a identitu učitele."
+
+[[pattern.trainer]]
+utterance = "Při učení na housle jsem dlouho jen napodobovala, jak učitel drží smyčec, a teprve později jsem pochopila, proč to dělá právě tak."
+context = "Studentka konzervatoře popisuje, jak se učila technice."
+benign = true
+marker = "Napodobení se týká ohraničené dovednosti, má ověřitelný výsledek a vede k pozdějšímu porozumění, ne k převzetí osobnosti učitele."
+response = "Neškodné užití: učení nápodobou je běžná cesta k dovednosti; porozumění a vlastní styl přicházejí později."

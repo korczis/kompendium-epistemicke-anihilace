@@ -1,0 +1,299 @@
+# Rodina NLP-08: Reframing a rámce (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-08.01"
+slug = "reframing"
+type = "pattern"
+cs = "Reframing"
+en = "Reframing"
+aliases = ["přerámování", "změna rámce"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["ramec-pojem", "sleight-of-mouth", "manipulativni-reframing-ve-vztazich", "som-redefinice", "selhani-jako-zpetna-vazba-vzorec", "deframing"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-9-5-6-frame-war-coordination.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tomu, co nazýváš křikem, já říkám upřímnost. Kdybys mě opravdu chápala, brala bys to jako důkaz, že mi na nás záleží."
+context = "Partner reaguje na výtku, že během hádky křičí."
+benign = false
+marker = "Ubližující chování dostává nový, lichotivý význam, který stížnost ruší a přesouvá odpovědnost na toho, kdo si stěžuje."
+response = "Držet se popisu chování a jeho dopadu; nový výklad lze odmítnout a trvat na tom, že o vlastním prožitku rozhoduje ten, kdo ho prožil."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že jste při zkoušce selhal, protože vás roztřásla tréma. Napadá mě i jiné čtení: tělo se mobilizovalo, protože vám na výsledku záleží. Sedí vám to?"
+context = "Psycholog v poradně pro studenty."
+benign = true
+marker = "Nový výklad se nabízí jako hypotéza, klient ho může odmítnout a fakta o zkoušce zůstávají nezpochybněna."
+response = "Legitimní užití: alternativní význam rozšiřuje možnosti porozumění, o jeho přijetí rozhoduje klient a nic se jím neomlouvá."
+
+[[pattern]]
+id = "NLP-08.02"
+slug = "kontextovy-reframing"
+type = "pattern"
+cs = "Kontextový reframing"
+en = "Context reframing"
+aliases = ["přerámování kontextu"]
+use = "dvoji"
+risk = "stredni"
+broader = "reframing"
+related = ["obsahovy-reframing", "kontext-cile", "pozitivni-zamer-chovani", "manipulativni-reframing-ve-vztazich", "som-model-sveta"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-2-context-collapse.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tam venku by se to, že ti beru výplatu, možná jmenovalo kontrola. U nás doma je to prostě péče o rodinu, tak to tak ber."
+context = "Partner odpovídá na námitku proti tomu, že spravuje všechny peníze domácnosti."
+benign = false
+marker = "Měřítko, podle kterého se chování posuzuje, se přesune do uzavřeného kontextu, kde vnější normy neplatí a kde pravidla určuje mluvčí."
+response = "Posuzovat chování i podle měřítek mimo vztah nebo skupinu a ověřit si u lidí zvenčí, zda by stejné jednání jinde považovali za přijatelné."
+
+[[pattern.trainer]]
+utterance = "Vaše puntičkářství vás v týmu zdržuje, to je pravda. Při kontrole smluv před podpisem by ale bylo velkou výhodou. Nechcete zkusit tu práci?"
+context = "Vedoucí při hodnoticím rozhovoru se zaměstnancem."
+benign = true
+marker = "Vlastnost se nepopírá ani neomlouvá; hledá se kontext, kde je užitečná, a návrh lze odmítnout."
+response = "Legitimní užití: kontext se mění otevřeně a dobrovolně, dosavadní problém zůstává pojmenovaný."
+
+[[pattern]]
+id = "NLP-08.03"
+slug = "obsahovy-reframing"
+type = "pattern"
+cs = "Významový reframing"
+en = "Content (meaning) reframing"
+aliases = ["obsahový reframing", "reframing významu"]
+use = "dvoji"
+risk = "vysoke"
+broader = "reframing"
+related = ["kontextovy-reframing", "som-redefinice", "som-zamer", "manipulativni-reframing-ve-vztazich", "selhani-jako-zpetna-vazba-vzorec"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Že ti nevolám a neodpovídám, neznamená, že tě odmítám. Učím tě samostatnosti, a jednou mi za to poděkuješ."
+context = "Mentor duchovní skupiny vysvětluje člence, proč s ní přestal komunikovat."
+benign = false
+marker = "Chování, které člověka zraňuje, dostává význam výchovného daru, takže bolest se mění ve vděčnost a stížnost v nevděk."
+response = "Rozlišit chování od jeho výkladu a posuzovat ho podle dopadu; výklad, který z ublížení dělá dar, je znakem, že je dobré hledat oporu mimo vztah."
+
+[[pattern.trainer]]
+utterance = "Pláčete na každém sezení a říkáte, že je to slabost. Já to vidím také tak, že konečně dovolíte sám sobě truchlit. Jak to vnímáte vy?"
+context = "Terapeut v rozhovoru s pozůstalým klientem."
+benign = true
+marker = "Nový význam se týká vlastního prožitku klienta, je nabídnut jako otázka a nic neomlouvá cizí chování."
+response = "Legitimní užití: přerámování snižuje stud za přirozenou reakci; klient má prostor nový výklad nepřijmout."
+
+[[pattern]]
+id = "NLP-08.04"
+slug = "sestikrokovy-reframing"
+type = "pattern"
+cs = "Šestikrokový reframing"
+en = "Six-step reframing"
+aliases = ["reframing šesti kroků"]
+use = "terapie"
+risk = "stredni"
+broader = "reframing"
+related = ["pozitivni-zamer-chovani", "elicitace-pozitivniho-zameru", "integrace-casti", "ekologicka-kontrola", "jadrova-transformace", "vyjednavani-casti"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta tvoje část, která pořád pochybuje o naší skupině, tě vlastně chrání. Až pochopí, že tady jsi v bezpečí, pochybnosti samy odejdou."
+context = "Vedoucí rozvojové skupiny reaguje na členku, která uvažuje o odchodu."
+benign = false
+marker = "Jazyk „částí“ a jejich dobrého záměru se použije na kritické myšlení, které se tím mění ve vnitřní problém určený k utišení."
+response = "Brát pochybnost jako informaci o skupině, ne jako poruchu; ověřit si její důvody u lidí, kteří ve skupině nejsou."
+
+[[pattern.trainer]]
+utterance = "Když mluvíte o té části sebe, která chce pořád všechno kontrolovat, zní to, jako by se o vás bála. Chcete o tom chvíli přemýšlet, nebo raději jinak?"
+context = "Psychoterapeutka v sezení s klientkou s úzkostnou poruchou."
+benign = true
+marker = "Metafora částí slouží k porozumění vlastnímu chování klientky, nabízí volbu a nezpochybňuje její úsudek o vnějším světě."
+response = "Legitimní užití v rámci terapie: klientka může metaforu odmítnout a terapeutka ji nevydává za ověřený mechanismus."
+
+[[pattern]]
+id = "NLP-08.05"
+slug = "ramec-souhlasu"
+type = "pattern"
+cs = "Rámec souhlasu"
+en = "Agreement frame"
+aliases = ["souhlasný rámec", "rámec „souhlasím a“"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-pojem"
+related = ["pacing-a-leading", "ale-a-a", "ramec-zpetneho-shrnuti", "raport", "kalibrace"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Naprosto s vámi souhlasím, že bezpečnost je na prvním místě, a právě proto podepíšete dnes, dokud platí tahle cena."
+context = "Prodejce zabezpečovacích systémů u zákazníka, který chtěl nabídku zvážit."
+benign = false
+marker = "Souhlas se týká jen obecné hodnoty, ne námitky; spojka „a právě proto“ pak k němu připojí opak toho, co zákazník chtěl."
+response = "Oddělit souhlas s hodnotou od rozhodnutí: zopakovat původní námitku a trvat na čase na rozmyšlenou."
+
+[[pattern.trainer]]
+utterance = "Souhlasím, že termín je těsný, a vidím i to, že nemáme dost lidí. Pojďme probrat, jestli ho posunout, nebo zúžit zadání."
+context = "Projektová manažerka na poradě reaguje na námitku člena týmu."
+benign = true
+marker = "Souhlas se týká skutečného obsahu námitky a vede k řešení, které námitku bere vážně, včetně možnosti změnit plán."
+response = "Legitimní užití: uznání námitky není zástěrkou, protože z něj plyne změna, ne pokračování beze změny."
+
+[[pattern]]
+id = "NLP-08.06"
+slug = "ramec-jako-by"
+type = "pattern"
+cs = "Rámec „jako by“"
+en = "As-if frame"
+aliases = ["rámec jako by", "hypotetický rámec"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-pojem"
+related = ["kontrafaktualni-podminky", "predstavte-si", "ramec-vysledku", "budouci-prehravani", "budouci-prehravani-v-prodeji"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md",
+  "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jenom si to zkuste: jako byste si na tu noc přece jen vzpomínal. Co by tam asi bylo? Nemusí to být pravda, jen to nechte přijít."
+context = "Neodborný „terapeut“ v rozhovoru o údajně potlačené vzpomínce."
+benign = false
+marker = "Hypotetický rámec se uplatní na minulou událost, kterou má člověk teprve „najít“, a představa se mění v podklad pro vzpomínku."
+response = "Odmítnout domýšlení vzpomínek; představa vytvořená na výzvu není doklad, a u podezření na trauma vyhledat odborníka, který nepoužívá sugestivní postupy."
+
+[[pattern.trainer]]
+utterance = "Kdybyste věděla, že vás kolegové nebudou soudit, co byste na poradě řekla jako první?"
+context = "Koučka v rozhovoru s klientkou, která se bojí mluvit před týmem."
+benign = true
+marker = "Hypotetický rámec se týká budoucího jednání klientky a slouží k vyjasnění, co chce, ne k vytvoření dojmu o minulosti nebo k uzavření dohody."
+response = "Legitimní užití: rámec „jako by“ otevírá úvahu o vlastních možnostech a klientka sama posoudí, zda je uskutečnitelná."
+
+[[pattern]]
+id = "NLP-08.07"
+slug = "ramec-vysledku"
+type = "pattern"
+cs = "Rámec výsledku"
+en = "Outcome frame"
+aliases = ["rámec cíle", "výsledkový rámec"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-pojem"
+related = ["dobre-formulovany-vysledek", "od-problemu-k-vysledku", "otazky-vysledku", "ramec-ekologie", "ramec-jako-by"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nechci slyšet, kdo za tu chybu může. U nás se díváme jen dopředu: co chceš udělat, abys byl příště lepší?"
+context = "Ředitel reaguje na zaměstnance, který upozorňuje na porušení předpisů nadřízeným."
+benign = false
+marker = "Otázka po cíli se použije k zablokování otázky po příčině a odpovědnosti; oznámení problému se mění v úkol pro toho, kdo ho oznámil."
+response = "Trvat na tom, že pojmenování příčiny a odpovědnosti je samostatná věc, a oznámení zaznamenat písemně nebo předat jinému orgánu."
+
+[[pattern.trainer]]
+utterance = "Rozumím, co vás na současné práci trápí. Až to doprobereme, rád bych slyšel i to, jak by vypadal den, se kterým byste byla spokojená."
+context = "Kariérní poradce na prvním setkání s klientkou."
+benign = true
+marker = "Problém se nejprve vyslechne a otázka po výsledku ho doplňuje, nenahrazuje."
+response = "Legitimní užití: rámec výsledku pomáhá zformulovat směr a nebrání pojmenovat, co je špatně."
+
+[[pattern]]
+id = "NLP-08.08"
+slug = "ramec-ekologie"
+type = "pattern"
+cs = "Rámec ekologie"
+en = "Ecology frame"
+aliases = ["ekologický rámec"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-pojem"
+related = ["ekologie-zmeny", "ekologicka-kontrola", "ekologie-cile", "ramec-vysledku", "sestikrokovy-reframing"]
+kompendium = [
+  "kompendium/techniques/ea-4-2-6-consent-withdrawal.md",
+  "kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md",
+  "kompendium/techniques/ea-6-4-2-post-cult-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Než odejdeš, zvaž ekologii celého systému. Je opravdu v souladu s tvou rodinou, s námi i s tvým posláním takhle všechno zahodit?"
+context = "Vedoucí komunity mluví s členem, který oznámil, že skupinu opouští."
+benign = false
+marker = "Otázka po důsledcích pro celek se použije jako brzda odchodu; „systém“ je definován tak, že skupina je jeho součástí a její zájem váží nejvíc."
+response = "Posoudit důsledky odchodu s lidmi mimo skupinu; otázka po souladu se systémem neopravňuje nikoho rozhodovat za člověka, který odchází."
+
+[[pattern.trainer]]
+utterance = "Než se rozhodnete pro nabídku v zahraničí, možná stojí za to promyslet, co by to znamenalo pro vaši rodinu a zdraví. Rozhodnutí je samozřejmě vaše."
+context = "Praktický lékař v rozhovoru s pacientem, který zvažuje změnu práce."
+benign = true
+marker = "Otázka po důsledcích pro celek je otevřená, nehodnotí předem, co je správné, a výslovně ponechává rozhodnutí člověku."
+response = "Legitimní užití: úvaha o širších důsledcích podporuje informované rozhodnutí, o kterém rozhoduje ten, koho se týká."
+
+[[pattern]]
+id = "NLP-08.09"
+slug = "ramec-zpetneho-shrnuti"
+type = "pattern"
+cs = "Rámec zpětného shrnutí"
+en = "Backtrack frame"
+aliases = ["backtrack", "rámec rekapitulace"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-pojem"
+related = ["zpetne-shrnuti", "ramec-souhlasu", "kalibrace", "raport", "presupozice-ve-vyslechu"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-3-quote-mining.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Takže jestli to dobře shrnu, ten večer jste byla unavená, trochu jste pila a vlastně si přesně nepamatujete, jak to začalo. Je to tak?"
+context = "Vyšetřovatel na konci výpovědi oznamovatelky násilí, která o únavě a alkoholu nemluvila takto."
+benign = false
+marker = "Shrnutí se tváří jako věrné, ale vybírá a přeskládává výpověď tak, že vznikne nový obraz, který má mluvčí jen potvrdit."
+response = "Opravit shrnutí vlastními slovy, trvat na doslovném záznamu výpovědi a nepotvrzovat formulace, které jste neřekla."
+
+[[pattern.trainer]]
+utterance = "Shrnu, co jsem slyšel, a opravte mě: chcete zůstat v bytě, potřebujete dva měsíce na stěhování a nejvíc vás trápí, že majitel nekomunikuje."
+context = "Mediátor ve sporu nájemníka s pronajímatelem."
+benign = true
+marker = "Shrnutí používá slova mluvčího, odděluje jednotlivé body a výslovně zve k opravě."
+response = "Legitimní užití: rekapitulace ověřuje porozumění a ponechává konečné slovo tomu, kdo mluvil."

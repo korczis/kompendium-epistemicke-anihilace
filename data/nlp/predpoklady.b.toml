@@ -1,0 +1,390 @@
+# Rodina NLP-01: Předpoklady NLP, část b (NLP-01.12 až NLP-01.21).
+# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py.
+
+[[pattern]]
+id = "NLP-01.12"
+slug = "kdyz-to-nefunguje-udelej-neco-jineho"
+type = "principle"
+cs = "Když něco nefunguje, udělej něco jiného"
+en = "If it is not working, do something else"
+aliases = ["princip pružnosti jednání"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "zakon-pozadovane-variety",
+  "tote-model",
+  "neni-selhani-jen-zpetna-vazba",
+  "vyznam-komunikace-je-reakce",
+  "odpovednost-za-komunikaci",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Dobře, tak to vezmeme z jiné strany. Když ne kvůli penězům, tak to udělej kvůli dětem. Nebo aspoň kvůli mně, když už nic jiného."
+context = "Příbuzný opakovaně přemlouvá člověka, který už žádost dvakrát odmítl."
+benign = false
+marker = "Po odmítnutí se nemění cíl, jen obal žádosti: nový argument, nová emoce, menší verze téže prosby, dokud druhý neustoupí."
+response = "Pojmenovat, že jde o tutéž žádost v jiné podobě, a trvat na tom, že odmítnutí je platný výsledek rozhovoru, ne překážka k obejití."
+
+[[pattern.trainer]]
+utterance = "Vidím, že vám můj výklad nedává smysl. Zkusím to vysvětlit jinak, a když ani to nepomůže, můžeme to klidně nechat na příště."
+context = "Vyučující na konzultaci se studentem, který nerozumí látce."
+benign = true
+marker = "Mění se způsob vysvětlení, ale cíl slouží druhému a mluvčí výslovně nechává prostor rozhovor ukončit."
+response = "Benigní užití: pružnost metody ve prospěch porozumění druhého, bez nátlaku na souhlas a s otevřeným výstupem z rozhovoru."
+
+[[pattern]]
+id = "NLP-01.13"
+slug = "modelovatelnost-excelence"
+type = "principle"
+cs = "Co dokáže jeden, lze se naučit"
+en = "Excellence can be modelled"
+aliases = ["co dokáže jeden, dokáže každý"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "modelovani-excelence",
+  "modelovani-pojem",
+  "strategie-geniality",
+  "guru-efekt",
+  "trh-certifikaci-nlp",
+  "zkusenost-ma-strukturu",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/case-studies/63-investor-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když to dokázal on z garsonky na sídlišti, dokážeš to taky. Stačí převzít jeho myšlení. Kdo neuspěje, ten prostě nemodeloval pořádně."
+context = "Lektor drahého kurzu osobního rozvoje před publikem."
+benign = false
+marker = "Z možnosti učit se od zdatnějších se dělá slib, že výsledek je dostupný každému, a neúspěch se přičítá výhradně žákovi."
+response = "Ptát se, kolik účastníků výsledku skutečně dosáhlo a jak se to měřilo, a oddělit dovednost, kterou lze trénovat, od okolností, které přenést nejde."
+
+[[pattern.trainer]]
+utterance = "Sledujme, jak zkušená sestra vede rozhovor s úzkostným pacientem, a pak spolu probereme, co z toho se dá naučit a co je dané její praxí."
+context = "Supervizorka při zaškolování nových zdravotníků."
+benign = true
+marker = "Učení pozorováním se odvolává na zkušenějšího, ale výslovně počítá s tím, že ne všechno je přenositelné."
+response = "Benigní užití: modelování jako běžná forma učení s realistickým očekáváním a bez slibu, že každý dosáhne téhož."
+
+[[pattern]]
+id = "NLP-01.14"
+slug = "nelze-nekomunikovat"
+type = "principle"
+cs = "Nelze nekomunikovat"
+en = "One cannot not communicate"
+aliases = ["první axiom komunikace"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "komunikace-vedoma-a-nevedoma",
+  "cteni-myslenek",
+  "kalibrace",
+  "cteni-reci-tela",
+  "vyznam-komunikace-je-reakce",
+]
+kompendium = [
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md",
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nemusíš nic říkat, tvoje mlčení mluví jasně. Celý večer jsi mi dávala najevo, co si o mně myslíš, takže se teď nediv, jak reaguju."
+context = "Partner vysvětluje svůj výbuch tím, co údajně vyčetl z chování druhé."
+benign = false
+marker = "Z toho, že každé chování něco sděluje, se vyvozuje, že mluvčí ví co, a jeho výklad mlčení se stává obviněním i omluvou vlastní reakce."
+response = "Oddělit pozorované chování od jeho výkladu a trvat na tom, že význam mlčení může potvrdit jen ten, kdo mlčel; výklad druhého není důkaz."
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že jste při té otázce ztichla a podívala se stranou. Nevím, co to znamená, tak se radši zeptám: je to pro vás těžké téma?"
+context = "Terapeut v úvodním rozhovoru s klientkou."
+benign = true
+marker = "Chování se bere jako sdělení, ale jeho význam se nevyvozuje, nýbrž ověřuje otázkou u člověka, o kterého jde."
+response = "Benigní užití: pozornost k neverbálnímu projevu vede k ověřující otázce, ne k domněnce, kterou by druhý musel vyvracet."
+
+[[pattern]]
+id = "NLP-01.15"
+slug = "volba-je-lepsi-nez-zadna-volba"
+type = "principle"
+cs = "Mít volbu je lepší než ji nemít"
+en = "Having a choice is better than having none"
+aliases = ["princip rozšiřování voleb"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "iluze-volby",
+  "alternativni-zaver",
+  "nejlepsi-dostupna-volba",
+  "zakon-pozadovane-variety",
+  "sugesce-pokryvajici-vsechny-moznosti",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md",
+  "kompendium/quick-reference/qr-ea-1-2-1.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nechci tě do ničeho tlačit, volba je jen tvoje. Můžeš se přihlásit na víkendový kurz, nebo rovnou na celý roční program, co ti víc sedí?"
+context = "Náborář komerčního programu osobního rozvoje při osobní schůzce."
+benign = false
+marker = "Mluvčí zdůrazňuje svobodu volby, ale nabízí jen varianty, které všechny slouží jeho cíli; možnost nepřihlásit se nezazní."
+response = "Doplnit chybějící možnost nahlas, tedy nepřihlásit se vůbec nebo si to rozmyslet, a hodnotit nabídku teprve s ní."
+
+[[pattern.trainer]]
+utterance = "Máme tři možnosti léčby a jednou z nich je zatím nic nedělat a sledovat, jak se to vyvíjí. Probereme výhody a rizika každé z nich."
+context = "Lékař při rozhodování s pacientem o dalším postupu."
+benign = true
+marker = "Rozšíření voleb zahrnuje i možnost nic nepodniknout a každá varianta je představena s riziky."
+response = "Benigní užití: skutečné rozšíření prostoru rozhodnutí, ve kterém rozhoduje pacient a odmítnutí je jednou z rovnocenných variant."
+
+[[pattern]]
+id = "NLP-01.16"
+slug = "zkusenost-ma-strukturu"
+type = "principle"
+cs = "Zkušenost má strukturu"
+en = "Experience has a structure"
+aliases = ["struktura subjektivní zkušenosti"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "strategie-pojem",
+  "tote-model",
+  "submodality-pojem",
+  "modelovatelnost-excelence",
+  "hluboka-a-povrchova-struktura",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvůj smutek není nic tajemného, je to jen špatně poskládaný obraz v hlavě. Já ti ho přeskládám a za deset minut bude pryč."
+context = "Účastník kurzu NLP mluví s kamarádem, který truchlí po ztrátě."
+benign = false
+marker = "Teze o struktuře zkušenosti se mění v nárok, že mluvčí zná strukturu cizího prožitku lépe než ten, kdo ho prožívá, a slibuje rychlou změnu."
+response = "Trvat na tom, že o vlastním prožitku a jeho tempu rozhoduje člověk sám, a u zármutku nebo traumatu hledat odborníka s ověřenou metodou."
+
+[[pattern.trainer]]
+utterance = "Když se vám ta panika vrací, zkusme spolu popsat, co jí obvykle předchází: myšlenky, tělesné pocity, situace. Možná v tom najdeme nějaký vzorec."
+context = "Psycholog při kognitivně behaviorální terapii."
+benign = true
+marker = "Předpoklad, že prožitek má pravidelnosti, slouží společnému zkoumání, v němž je klient zdrojem údajů a ne objektem přestavby."
+response = "Benigní užití: hledání vzorce ve spolupráci s klientem, s otevřeným výsledkem a metodou, která má empirickou oporu."
+
+[[pattern]]
+id = "NLP-01.17"
+slug = "zkusenost-je-kodovana-smysly"
+type = "principle"
+cs = "Zkušenost je kódována smysly"
+en = "Experience is coded in the senses"
+aliases = ["smyslové kódování zkušenosti"]
+use = "dvoji"
+risk = "stredni"
+broader = "zkusenost-ma-strukturu"
+related = [
+  "reprezentacni-systemy",
+  "preferovany-reprezentacni-system",
+  "ocni-pristupove-signaly",
+  "predikaty",
+  "submodality-pojem",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podle toho, kam se díváte, když přemýšlíte, poznám, jestli si vzpomínáte, nebo si to vymýšlíte. Takže mi neříkejte, že to tak bylo."
+context = "Vedoucí týmu zpochybňuje vysvětlení podřízeného."
+benign = false
+marker = "Z předpokladu smyslového kódování se vyvozuje schopnost číst pravdivost z očních pohybů, kterou výzkum nepotvrdil, a používá se jako důkaz proti druhému."
+response = "Odmítnout oční pohyby jako důkaz a požádat o posouzení podle ověřitelných skutečností; výzkum spojení očních pohybů se lhaním nepodpořil."
+
+[[pattern.trainer]]
+utterance = "Když si vybavíte to místo, zkuste mi popsat, co tam bylo vidět a slyšet. Pomůže nám to pochopit, proč pro vás bylo tak důležité."
+context = "Terapeutka pracuje s klientem na vzpomínce, kterou klient sám přinesl."
+benign = true
+marker = "Smyslový popis zkušenosti slouží k porozumění a klient určuje, co a kolik sdělí; z popisu se nevyvozují skryté pravdy."
+response = "Benigní užití: smyslově konkrétní popis jako běžný terapeutický prostředek bez nároku na čtení myšlenek; u traumatických vzpomínek s ohledem na tempo klienta."
+
+[[pattern]]
+id = "NLP-01.18"
+slug = "komunikace-vedoma-a-nevedoma"
+type = "principle"
+cs = "Komunikace probíhá vědomě i nevědomě"
+en = "Communication is both conscious and unconscious"
+aliases = ["dvouúrovňová komunikace"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = [
+  "nelze-nekomunikovat",
+  "konverzacni-hypnoza",
+  "vlozene-prikazy",
+  "vedome-nevedoma-dvojna-vazba",
+  "milton-model",
+  "trans-pojem",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje vědomá mysl teď možná protestuje, ale tvoje nevědomí už dávno ví, že sem patříš. Ten odpor je jen hluk na povrchu."
+context = "Vedoucí duchovní skupiny k člence, která uvažuje o odchodu."
+benign = false
+marker = "Vědomý nesouhlas se prohlašuje za povrchní a mluvčí si přisvojuje přístup k nevědomé vrstvě, která údajně souhlasí s ním."
+response = "Trvat na tom, že platí to, co člověk vědomě rozhodne a řekne; tvrzení o cizím nevědomí nelze ověřit a slouží k obejití nesouhlasu."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že jste v pohodě, ale celou dobu svíráte ruce. Nevím, jestli to něco znamená. Chcete se u toho zastavit, nebo jít dál?"
+context = "Psychoterapeutka při sezení s klientem."
+benign = true
+marker = "Nesoulad mezi slovy a tělesným projevem se pojmenuje, ale výklad zůstává otevřený a o dalším postupu rozhoduje klient."
+response = "Benigní užití: upozornění na nesoulad jako nabídka, ne jako tvrzení o tom, co si klient nevědomě myslí."
+
+[[pattern]]
+id = "NLP-01.19"
+slug = "ekologie-zmeny"
+type = "principle"
+cs = "Změna má respektovat celek systému"
+en = "Change must respect the whole system (ecology)"
+aliases = ["ekologie", "ekologický předpoklad"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "ekologicka-kontrola",
+  "ramec-ekologie",
+  "ekologie-cile",
+  "pozitivni-zamer-chovani",
+  "mysl-a-telo-jeden-system",
+]
+kompendium = [
+  "kompendium/08-prilohy/eticky-kodex.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-6-3-8-relacni-restaurace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty pochybnosti o skupině jsou jen část tebe, která se bojí změny. Ekologické je jít dál, staré vztahy to prostě nevydrží a to je v pořádku."
+context = "Mentor v intenzivním rozvojovém programu k účastníkovi, kterého rodina varuje."
+benign = false
+marker = "Slovník ekologie se obrací naruby: místo zkoumání dopadů změny na vztahy a život se varovné signály prohlašují za překážku a ztráta vztahů za přirozenou."
+response = "Ptát se, kdo a podle čeho rozhoduje, co je ekologické, a brát varování blízkých jako údaj, který je třeba zvážit, ne jako odpor k překonání."
+
+[[pattern.trainer]]
+utterance = "Než se rozhodnete z té práce odejít, pojďme projít, co by to znamenalo pro finance, pro rodinu i pro vás. Možná to vyjde, možná ne."
+context = "Poradkyně při kariérním poradenství."
+benign = true
+marker = "Zvažování dopadů na celý život člověka je otevřené, včetně výsledku, že ke změně nedojde."
+response = "Benigní užití: posouzení důsledků změny, ve kterém o výsledku rozhoduje klient a nikdo nemá zájem na konkrétní odpovědi."
+
+[[pattern]]
+id = "NLP-01.20"
+slug = "predpoklady-jako-pracovni-hypotezy"
+type = "principle"
+cs = "Předpoklady jako pracovní hypotézy"
+en = "Presuppositions as working assumptions"
+aliases = ["jednat, jako by předpoklady platily"]
+use = "zadne"
+risk = "stredni"
+broader = ""
+related = [
+  "mapa-neni-uzemi",
+  "falzifikovatelnost-nlp",
+  "jak-cist-tvrzeni-nlp",
+  "ramec-jako-by",
+  "nlp-jako-pseudoveda",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-7-2-3-popper-falsification.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nikdo netvrdí, že je to vědecky dokázané, jsou to jen užitečné předpoklady. Ale kdo jim nevěří, ten si zavírá dveře k vlastnímu úspěchu."
+context = "Lektor kurzu NLP odpovídá účastníkovi na otázku po důkazech."
+benign = false
+marker = "Mluvčí střídá dvě polohy: při otázce po důkazech jde o pouhou pracovní hypotézu, při pochybnosti o pravdu, jejíž odmítnutí člověka poškozuje."
+response = "Držet mluvčího u jedné polohy: buď jde o hypotézu, pak smí selhat a pochybnost je legitimní, nebo o tvrzení, pak se musí doložit."
+
+[[pattern.trainer]]
+utterance = "Pro účely tohoto cvičení budeme předpokládat, že každý z vás má dobrý důvod pro své názory. Neříkám, že je to vždy pravda, jen nám to usnadní rozhovor."
+context = "Facilitátor na začátku diskuse ve skupině se sporem."
+benign = true
+marker = "Předpoklad je výslovně označen jako dočasný, omezený na situaci a jeho platnost se nevyžaduje mimo ni."
+response = "Benigní užití: přiznaná pracovní dohoda pro rozhovor, kterou lze kdykoli zpochybnit a která neslouží jako pravda o lidech."
+
+[[pattern]]
+id = "NLP-01.21"
+slug = "odpovednost-za-komunikaci"
+type = "principle"
+cs = "Za výsledek komunikace odpovídá komunikátor"
+en = "The communicator is responsible for the communication"
+aliases = ["odpovědnost komunikátora"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "vyznam-komunikace-je-reakce",
+  "odpor-jako-nedostatek-raportu",
+  "nelze-nekomunikovat",
+  "kdyz-to-nefunguje-udelej-neco-jineho",
+  "odpovednost",
+]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdybys mi to řekla jasně a pořádně, nikdy bych to neudělal. Za to, jak to dopadlo, si můžeš sama, nedokázala ses vyjádřit."
+context = "Muž vysvětluje partnerce, proč překročil hranici, kterou předtím vyslovila."
+benign = false
+marker = "Odpovědnost za výsledek komunikace se přesouvá na toho, kdo hranici vyslovil, a jednání mluvčího se líčí jako důsledek její nedostatečné komunikace."
+response = "Rozlišit odpovědnost za srozumitelnost od odpovědnosti za vlastní čin: vyslovené ne platí a za překročení hranice odpovídá ten, kdo ji překročil."
+
+[[pattern.trainer]]
+utterance = "Vidím, že jsem vás svým vysvětlením spíš vyděsil. To je moje chyba, zkusím to říct srozumitelněji a pak se zeptám, co z toho vám zůstalo nejasné."
+context = "Lékař po sdělení diagnózy, které pacienta zaskočilo."
+benign = true
+marker = "Odpovědnost za porozumění bere na sebe ten, kdo má ve vztahu větší moc a odbornost, a nepřenáší ji na posluchače."
+response = "Benigní užití: profesní odpovědnost za srozumitelnost, která chrání slabší stranu a nedává mluvčímu mandát vymáhat určitou reakci."

@@ -51,7 +51,7 @@ Manipulátor mapuje, které kantovské kategorie subjekt používá nejčastěji
 
 ### Krok 2 — Pseudo-osvícenecká delegitimizace
 
-Subjekt je veden k přesvědčení, že kategorie samy jsou **kulturně podmíněné konstrukty**, nikoli apriorní formy. Klíčová formulace: *„Kauzalita je iluze západního myšlení — skutečnost je akauzální.“* Tímto se etabluje meta-pozice nad kategoriálním aparátem.
+Subjekt je veden k přesvědčení, že kategorie samy jsou **kulturně podmíněné konstrukty**, nikoli apriorní formy. Klíčová formulace: *„Kauzalita je iluze západního myšlení — skutečnost je akauzální.“* Tímto se etabluje [meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) nad kategoriálním aparátem.
 
 ### Krok 3 — Systematická dekonstrukce jednotlivých kategorií
 

@@ -1,0 +1,230 @@
+# Rodina NLP-16: Přesvědčení (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-16.01"
+slug = "cyklus-zmeny-presvedceni"
+type = "pattern"
+cs = "Cyklus změny přesvědčení"
+en = "Belief change cycle"
+aliases = ["přirozený cyklus změny přesvědčení"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "zmena-presvedceni-submodalitami", "sleight-of-mouth"]
+kompendium = [
+  "kompendium/techniques/ea-7-2-7-quine-web-belief.md",
+  "kompendium/case-studies/06-cult-recovery-12-let.md",
+  "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje pochybnosti jsou jen fáze cyklu, kterou prochází každý, kdo roste. Kdo v té fázi odejde, nikdy nedojde k tomu, čemu tady věříme my."
+context = "Vedoucí rozvojové skupiny reaguje na člena, který začal zpochybňovat učení skupiny."
+benign = false
+marker = "Model fází změny přesvědčení se použije k tomu, aby pochybnost dostala předem určený cíl: nevede k přezkoumání, ale k přijetí přesvědčení skupiny."
+response = "Brát pochybnost jako legitimní stav, který může skončit i odmítnutím učení, a ověřit si, zda skupina připouští odchod bez sankcí a bez ztráty vztahů."
+
+[[pattern.trainer]]
+utterance = "Je v pořádku, že si teď nejste jistý. Názory se během života mění a nemusíte se rozhodnout dnes; můžeme si jen popsat, co vás drží a co vás znejišťuje."
+context = "Psycholog s klientem, který pochybuje o dlouholetém přesvědčení o své neschopnosti."
+benign = true
+marker = "Mluvčí uznává, že přesvědčení se mění v čase, ale nestanoví, k jakému novému přesvědčení má klient dojít, a ponechává rozhodnutí na něm."
+response = "Legitimní užití: popis proměny přesvědčení slouží k normalizaci nejistoty, ne k jejímu nasměrování na předem vybraný obsah."
+
+[[pattern]]
+id = "NLP-16.02"
+slug = "muzeum-starych-presvedceni"
+type = "pattern"
+cs = "Muzeum starých přesvědčení"
+en = "Museum of old beliefs"
+aliases = ["muzeum minulých přesvědčení"]
+use = "terapie"
+risk = "stredni"
+broader = "cyklus-zmeny-presvedceni"
+related = ["limitujici-presvedceni", "presvedceni-o-identite", "zmena-osobni-historie", "stepeni-ja-v-manipulaci", "guru-efekt"]
+kompendium = [
+  "kompendium/case-studies/10-sektarske-vychazeni.md",
+  "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md",
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To, co sis myslela, než jsi k nám přišla, patří do muzea. Tehdejší ty už neexistuje, tak proč by ses měla ptát na její názor?"
+context = "Starší členka komunity mluví s nováčkem, kterému rodina vyčítá změnu chování."
+benign = false
+marker = "Předchozí přesvědčení i předchozí já se prohlásí za uzavřenou minulost, takže jejich hlas ztrácí váhu jako možný korektiv současného učení."
+response = "Považovat dřívější názory za živý zdroj srovnání, ne za exponát; mluvit s lidmi, kteří člověka znali dřív, a ptát se, proč by se k nim nemělo smět vrátit."
+
+[[pattern.trainer]]
+utterance = "Kdysi jsem si myslel, že bez dokonalého výkonu nemám cenu. Dnes to vidím jako něco, co mi tehdy dávalo smysl, a už se tím neřídím."
+context = "Bývalý vrcholový sportovec popisuje v podpůrné skupině svou zkušenost."
+benign = true
+marker = "Mluvčí sám a dobrovolně označuje vlastní dřívější přesvědčení za minulé a uznává, že tehdy mělo svůj důvod; nikdo mu tento výklad nepředepisuje."
+response = "Benigní užití: vlastní ohlédnutí za překonaným přesvědčením, které zachovává kontinuitu životního příběhu a nevyžaduje převzetí cizího učení."
+
+[[pattern]]
+id = "NLP-16.03"
+slug = "audit-presvedceni"
+type = "pattern"
+cs = "Audit přesvědčení"
+en = "Belief audit"
+aliases = ["posouzení přesvědčení", "hodnocení přesvědčení o cíli"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["limitujici-presvedceni", "beznadej-bezmoc-nehodnost", "dobre-formulovany-vysledek", "ekologie-cile", "cyklus-zmeny-presvedceni"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na škále od jedné do deseti, jak moc si zasloužíš být bohatý? Šestka? Tak tady vidíš, proč stojíš na místě. Ta čtyři chybějící čísla odstraní až pokročilý program."
+context = "Lektor motivačního semináře s účastníkem před celým sálem."
+benign = false
+marker = "Hodnocení přesvědčení se vede veřejně, nízké číslo se vydává za diagnózu a jako jediné řešení se nabízí placené pokračování kurzu."
+response = "Rozlišit sebehodnocení od diagnózy: odmítnout veřejné hodnocení vlastní hodnoty a rozhodovat o dalším kurzu až mimo sál, podle ověřitelných výsledků."
+
+[[pattern.trainer]]
+utterance = "Než se pustíte do studia při práci, zkuste si sám pro sebe projít, jestli to opravdu chcete, jestli to považujete za proveditelné a co by to stálo vaši rodinu."
+context = "Kariérní poradkyně na konzultaci s dospělým uchazečem o studium."
+benign = true
+marker = "Otázky na žádoucnost, proveditelnost a dopady cíle slouží rozhodnutí samotného člověka; poradkyně nevyhodnocuje odpovědi a nic za ně neprodává."
+response = "Benigní užití: strukturovaná sebereflexe před rozhodnutím, jejíž výsledek patří tazateli a může vést i k odložení cíle."
+
+[[pattern]]
+id = "NLP-16.04"
+slug = "limitujici-presvedceni"
+type = "concept"
+cs = "Limitující přesvědčení"
+en = "Limiting beliefs"
+aliases = ["omezující přesvědčení"]
+use = "dvoji"
+risk = "vysoke"
+broader = "presvedceni-jako-mapa"
+related = ["beznadej-bezmoc-nehodnost", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "modalni-operator-moznosti", "velke-seminare"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/case-studies/51-new-age-recovery.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Že nechceš podepsat, není rozumná úvaha, ale tvoje limitující přesvědčení o penězích. Úspěšní lidé se nerozhodují podle starých strachů."
+context = "Prodejce koučovacího programu odpovídá zájemci, který si chce smlouvu promyslet."
+benign = false
+marker = "Každá námitka se přejmenuje na limitující přesvědčení, takže opatrnost i rozumná kritika ztrácejí platnost dřív, než se posoudí jejich obsah."
+response = "Trvat na tom, že námitka se posuzuje podle obsahu: požádat o písemné podmínky, vzít si čas a zeptat se, jaký důkaz by prodejce uznal za oprávněnou pochybnost."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že na matematiku nemáte hlavu. Můžeme se podívat, odkud to přesvědčení máte a jestli vaše známky v posledním roce s ním opravdu souhlasí?"
+context = "Školní psycholožka se studentem před maturitou."
+benign = true
+marker = "Přesvědčení se pojmenuje jako hypotéza a porovná se s konkrétními doklady; výsledkem může být i zjištění, že přesvědčení je přiměřené."
+response = "Benigní užití: přesvědčení se testuje proti zkušenosti, nikoli se automaticky prohlásí za chybu, a student si závěr dělá sám."
+
+[[pattern]]
+id = "NLP-16.05"
+slug = "presvedceni-o-pricine"
+type = "concept"
+cs = "Přesvědčení o příčině"
+en = "Beliefs about cause"
+aliases = ["kauzální přesvědčení"]
+use = "zadne"
+risk = "stredni"
+broader = ""
+related = ["pricina-a-nasledek", "presvedceni-o-vyznamu", "presvedceni-o-identite", "struktura-presvedceni-som", "limitujici-presvedceni"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdybys mě nerozčiloval, nemusel bych křičet. Takhle to vždycky způsobíš ty, tak se nediv, co se pak děje."
+context = "Partner po hádce vysvětluje druhému, proč došlo k výbuchu."
+benign = false
+marker = "Příčina vlastního jednání se přesune na druhého a zobecní se na „vždycky“, takže odpovědnost za násilné chování nese ten, kdo ho snáší."
+response = "Oddělit spouštěč od rozhodnutí: vlastní pocit nikoho neopravňuje ke křiku; vést si záznam událostí a hledat oporu mimo vztah."
+
+[[pattern.trainer]]
+utterance = "Myslím, že mě ta zkouška rozhodila hlavně proto, že jsem tři noci skoro nespal. Příště to zkusím naplánovat jinak a uvidím, jestli to pomůže."
+context = "Student si se spolužákem rozebírá nepovedený test."
+benign = true
+marker = "Kauzální vysvětlení je formulováno jako hypotéza, týká se vlastního jednání a nabízí ověření při další příležitosti."
+response = "Benigní užití: přesvědčení o příčině zůstává otevřené ověření a nevede k přenášení viny na druhé."
+
+[[pattern]]
+id = "NLP-16.06"
+slug = "presvedceni-o-vyznamu"
+type = "concept"
+cs = "Přesvědčení o významu"
+en = "Beliefs about meaning"
+aliases = ["přesvědčení o tom, co věci znamenají"]
+use = "zadne"
+risk = "stredni"
+broader = ""
+related = ["komplexni-ekvivalence", "presvedceni-o-pricine", "presvedceni-o-identite", "obsahovy-reframing", "struktura-presvedceni-som"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když tě to, co říká mistr, bolí, znamená to, že to tvé ego potřebuje slyšet. Bolest je důkaz, že učení zabírá."
+context = "Mentor duchovní skupiny vysvětluje členovi jeho nepříjemné pocity po veřejném pokárání."
+benign = false
+marker = "Prožitek (bolest) se pevně spojí s významem, který potvrzuje učení; jakákoli reakce člena se tím stává dokladem pro skupinu, nikdy proti ní."
+response = "Zeptat se, jaký prožitek by naopak ukázal, že učení škodí; pokud žádný, je význam postaven tak, aby nešel vyvrátit, a vyžaduje pohled zvenčí."
+
+[[pattern.trainer]]
+utterance = "Pro mě je to, že spolu po hádce mluvíme, znamení, že nám na sobě záleží. Ale chápu, jestli to pro tebe znamená spíš únavu, tak si to řekněme."
+context = "Jeden z partnerů v klidném rozhovoru o tom, jak oba prožívají konflikty."
+benign = true
+marker = "Mluvčí výslovně označí význam jako svůj vlastní a připustí, že druhý může stejné události přisuzovat jiný význam."
+response = "Benigní užití: přesvědčení o významu se sdílí jako osobní výklad a otevírá se rozhovoru, ne vnucuje."
+
+[[pattern]]
+id = "NLP-16.07"
+slug = "presvedceni-o-identite"
+type = "concept"
+cs = "Přesvědčení o identitě"
+en = "Beliefs about identity"
+aliases = ["identitní přesvědčení"]
+use = "zadne"
+risk = "vysoke"
+broader = ""
+related = ["uroven-identity", "presvedceni-o-vyznamu", "beznadej-bezmoc-nehodnost", "stepeni-ja-v-manipulaci", "clovek-neni-sve-chovani", "presvedceni-o-pricine"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
+  "kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md",
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty nejsi člověk, který udělal chybu. Ty jsi chyba. Jedině tady se z tebe může stát někdo, kdo za něco stojí."
+context = "Vedoucí uzavřené skupiny při skupinovém „rozboru“ jednoho z členů."
+benign = false
+marker = "Jednotlivý čin se povýší na výrok o celé osobě a jediná cesta k hodnotě se spojí se setrváním ve skupině."
+response = "Oddělit čin od osoby a odmítnout podmíněnou hodnotu; jde o znak kontroly identity, který vyžaduje oporu mimo skupinu a případně odbornou pomoc."
+
+[[pattern.trainer]]
+utterance = "To, že jste tu zprávu odevzdal pozdě, neznamená, že jste nespolehlivý člověk. Pojďme se podívat, co se ten týden stalo."
+context = "Vedoucí týmu při hodnoticím rozhovoru se zaměstnancem."
+benign = true
+marker = "Mluvčí výslovně brání tomu, aby se jedno chování proměnilo v přesvědčení o identitě, a vrací rozhovor k situaci."
+response = "Benigní užití: rozlišení chování a identity chrání sebehodnocení a umožňuje řešit konkrétní problém."

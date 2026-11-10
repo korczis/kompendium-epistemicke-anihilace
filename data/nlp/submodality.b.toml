@@ -1,0 +1,331 @@
+# Rodina NLP-10: Submodality, část b (NLP-10.11 až NLP-10.20; pravidlo project.nlp-catalog).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-10.11"
+slug = "vyhozeni-kompulze"
+type = "pattern"
+cs = "Rozbití kompulze"
+en = "Compulsion blowout"
+aliases = ["compulsion blowout", "přetažení nutkání za práh"]
+use = "terapie"
+risk = "stredni"
+broader = ""
+related = ["kriticke-submodality", "prahovy-vzorec", "od-libosti-k-nechuti", "swish", "mapovani-napric"]
+kompendium = [
+  "glossary/addiction-recovery.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Za jedno sezení vám to nutkání rozbijeme tak, že po alkoholu už nikdy nesáhnete. Tu odvykací léčbu, kterou vám doporučil lékař, pak klidně můžete zrušit."
+context = "Soukromý „kouč změny“ na úvodní konzultaci s člověkem, který se léčí ze závislosti."
+benign = false
+marker = "Slib trvalého vyléčení závislosti za jedno sezení spojený s odrazováním od léčby, která má doložený účinek."
+response = "Nepřerušovat doporučenou léčbu, požádat o doklady účinnosti a jakoukoli doplňkovou metodu konzultovat s ošetřujícím lékařem."
+
+[[pattern.trainer]]
+utterance = "Popisujete, že se vám to nutkání vrací jako stále bližší a jasnější obraz. To je užitečné pozorování a budeme ho sledovat spolu s plánem léčby, který máte od lékaře."
+context = "Psychoterapeutka v adiktologické ambulanci."
+benign = true
+marker = "Popis smyslových kvalit nutkání slouží jako pozorování v rámci standardní léčby, bez slibu okamžitého vyléčení."
+response = "Jde o legitimní užití: klientčin popis prožitku se bere vážně a doplňuje léčbu, místo aby ji nahrazoval."
+
+[[pattern]]
+id = "NLP-10.12"
+slug = "vzorec-godiva"
+type = "pattern"
+cs = "Vzorec Godiva"
+en = "Godiva chocolate pattern"
+aliases = ["Godiva chocolate pattern", "motivační vzorec Godiva"]
+use = "dvoji"
+risk = "stredni"
+broader = "mapovani-napric"
+related = ["mapovani-napric", "kriticke-submodality", "motivacni-strategie", "swish", "kotvy-v-reklame"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Víkendové směny pro firmu máte prožívat se stejnou chutí jako to, co máte v životě nejraději. Kdo se ptá na příplatky, ten to ještě opravdu necítí."
+context = "Vedoucí týmu na interním motivačním workshopu."
+benign = false
+marker = "Intenzita prožitku spojeného s tím, co člověk miluje, se přenáší na neplacenou práci a otázka odměny se vykládá jako nedostatek správného pocitu."
+response = "Oddělit pocit od pracovních podmínek: trvat na písemné dohodě o odměně a posuzovat nabídku podle podmínek, ne podle navozeného nadšení."
+
+[[pattern.trainer]]
+utterance = "Ten referát vás nebaví. Co vás na podobné práci někdy bavilo? Možná v úkolu najdeme část, která je vám bližší, a začnete právě tou."
+context = "Studijní poradkyně na konzultaci se studentem, který o pomoc s prokrastinací sám požádal."
+benign = true
+marker = "Úkol se propojuje se zdroji zájmu, které jmenuje sám student; poradkyně nic nevnucuje a nepracuje s tlakem."
+response = "Jde o legitimní užití: hledání vlastní motivace je dobrovolné, týká se cíle, který si člověk zvolil, a nic nezakrývá."
+
+[[pattern]]
+id = "NLP-10.13"
+slug = "od-libosti-k-nechuti"
+type = "pattern"
+cs = "Od libosti k nechuti"
+en = "Like-to-dislike pattern"
+aliases = ["like to dislike", "přenos nechuti"]
+use = "dvoji"
+risk = "vysoke"
+broader = "mapovani-napric"
+related = ["mapovani-napric", "kontrastni-analyza", "vyhozeni-kompulze", "kotveni-v-kontrolujicich-vztazich", "vzorec-godiva"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md",
+  "kompendium/techniques/ea-2-2-2-mentee-isolation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všimni si, že když teď myslíš na svou sestru, je ten obraz šedý, vzdálený a dělá se ti z něj zle. To je dobré znamení, že se od starého života opravdu osvobozuješ."
+context = "Vedoucí uzavřené skupiny v rozhovoru s novým členem o jeho rodině."
+benign = false
+marker = "Smyslové kódování něčeho odpudivého se přenáší na blízkou osobu mimo skupinu a vzniklá nechuť se vydává za osvobození."
+response = "Rozpoznat navozenou averzi vůči vztahům, udržet kontakt s rodinou a o vlastních pocitech k ní mluvit s někým mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Chcete omezit sladkosti. Můžeme prozkoumat, jak odlišně si představujete jídlo, které vám chutná, a jídlo, které vám nechutná; co s tím uděláte, je na vás."
+context = "Nutriční poradkyně s klientem, který o změnu stravovacího návyku sám požádal."
+benign = true
+marker = "Cílem je návyk zvolený samotným klientem, ne člověk ani vztah, a rozhodnutí o změně zůstává klientovi."
+response = "Jde o legitimní užití: práce s představami se týká vlastního zvoleného cíle a respektuje autonomii klienta."
+
+[[pattern]]
+id = "NLP-10.14"
+slug = "zmena-presvedceni-submodalitami"
+type = "pattern"
+cs = "Změna přesvědčení přes submodality"
+en = "Belief change through submodalities"
+aliases = ["belief change pattern", "od přesvědčení k pochybnosti"]
+use = "dvoji"
+risk = "vysoke"
+broader = "mapovani-napric"
+related = ["mapovani-napric", "kontrastni-analyza", "muzeum-starych-presvedceni", "cyklus-zmeny-presvedceni", "limitujici-presvedceni", "presvedceni-jako-mapa"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md",
+  "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všimněte si, jak vaše jistota, že vás vedoucí šikanuje, bledne a vzdaluje se, jako když člověk přestává věřit pověře. Za chvíli vám bude připadat stejně nesmyslná."
+context = "Externí „kouč“ najatý firmou hovoří se zaměstnankyní, která podala stížnost."
+benign = false
+marker = "Přesvědčení o skutečných událostech se zachází jako s obrazem, jehož jas a vzdálenost lze ztlumit, a to místo posouzení důkazů a v zájmu toho, kdo kouče platí."
+response = "Přesvědčení o faktech se ověřují důkazy, ne kvalitou představ: vést si záznamy, trvat na řádném prošetření stížnosti a nepřijímat „práci na přesvědčení“ od strany sporu."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že jste si jistá, že vám zkouška nepůjde, a přitom jste podobné zkoušky dvakrát složila. Podívejme se, z čeho ta jistota vychází a co ji podporuje."
+context = "Psychoterapeutka u studentky s úzkostí ze zkoušek."
+benign = true
+marker = "Přesvědčení se zkoumá vůči zkušenosti a důkazům a hodnotí ho sama klientka; nikdo se nesnaží měnit jeho prožitkovou kvalitu zvenčí."
+response = "Jde o legitimní užití: ověřování přesvědčení proti důkazům posiluje vlastní úsudek, místo aby ho obcházelo."
+
+[[pattern]]
+id = "NLP-10.15"
+slug = "prahovy-vzorec"
+type = "pattern"
+cs = "Prahový vzorec"
+en = "Threshold pattern"
+aliases = ["threshold pattern", "poslední kapka"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["vyhozeni-kompulze", "kriticke-submodality", "zmena-presvedceni-submodalitami", "kotveni-v-kontrolujicich-vztazich", "limitujici-rozhodnuti"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-2-mentee-isolation.md",
+  "kompendium/case-studies/10-sektarske-vychazeni.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty křivdy od rodičů se ti vrší jedna na druhou, až to jednou přeteče. Až se to stane, už se k nim nikdy nevrátíš a skupina bude tvoje jediná rodina."
+context = "Člen vedení skupiny v rozhovoru s mladým adeptem."
+benign = false
+marker = "Vrstvení negativních vzpomínek směřuje k nevratnému zlomu ve vztahu mimo skupinu a skupina se nabízí jako náhrada."
+response = "Všímat si slibů nevratnosti a nahrazování vztahů: rozhodnutí o rodině nechat dozrát ve vlastním čase a probrat je s lidmi mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že po té poslední hádce jste věděla, že je konec. Takové zlomy lidé popisují často; promysleme spolu, co teď potřebujete, ať se rozhodnete jakkoli."
+context = "Pracovnice poradny pro lidi zažívající domácí násilí."
+benign = true
+marker = "Zlom popsaný samotnou klientkou se bere vážně, ale nikdo ho neposouvá ani neurychluje a rozhodnutí zůstává jí."
+response = "Jde o legitimní užití: poradkyně pojmenuje zkušenost prahu a podporuje bezpečí klientky bez tlaku jakýmkoli směrem."
+
+[[pattern]]
+id = "NLP-10.16"
+slug = "zmena-vnitrniho-hlasu"
+type = "pattern"
+cs = "Změna vnitřního hlasu"
+en = "Changing the inner voice"
+aliases = ["změna vnitřního dialogu", "submodality vnitřního hlasu"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["auditivni-submodality", "auditivni-swish", "zmena-kriticke-sebeprezentace", "kriticke-submodality", "auditivni-kotvy"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když v sobě uslyšíš pochybnost, nahraď ji mým hlasem. Můj hlas je ten pravý vnitřní hlas; ten tvůj tě jen klame a drží tě v malosti."
+context = "Vůdce seberozvojové skupiny na večerním setkání."
+benign = false
+marker = "Vlastní vnitřní hlas, který nese pochybnost, se prohlašuje za klamný a nahrazuje se hlasem vůdce."
+response = "Brát vlastní pochybnosti jako legitimní informaci a všímat si, kdy se ve vlastním vnitřním dialogu začne ozývat cizí hlas s cizími pokyny."
+
+[[pattern.trainer]]
+utterance = "Ten hlas, který vám říká, že to nezvládnete, prý zní jako váš bývalý trenér. Zajímá mě, co přesně říká a nakolik mu dnes věříte."
+context = "Psycholog ve sportovní poradně."
+benign = true
+marker = "Kvalita a původ vnitřního hlasu se zkoumají, aby se od něj klient mohl odstoupit; směr změny určuje klient."
+response = "Jde o legitimní užití: rozlišení vlastního úsudku od převzatého hlasu posiluje autonomii klienta."
+
+[[pattern]]
+id = "NLP-10.17"
+slug = "filmova-technika"
+type = "pattern"
+cs = "Filmová technika"
+en = "Movie theatre technique"
+aliases = ["kinosál", "promítání zážitku na plátno", "vizuálně-kinestetická disociace"]
+use = "terapie"
+risk = "stredni"
+broader = ""
+related = ["rychla-lecba-fobie", "dvojita-disociace", "vizualni-submodality", "prostorove-umisteni-obrazu", "kinesteticke-submodality"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-2-emdr-protokol.md",
+  "glossary/complex-trauma.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje vzpomínka na tu noc je jen starý černobílý film. Když se na něj podíváš z poslední řady, zjistíš, že se vlastně nic tak hrozného nestalo, a nemusíš o tom s nikým mluvit."
+context = "Laický „terapeut“ v duchovní skupině mluví s členkou, která se svěřila se zneužitím."
+benign = false
+marker = "Odstup filmového plátna se používá k zlehčení traumatické události a k odrazení od toho, aby o ní člověk mluvil s někým dalším."
+response = "Odstup od vzpomínky není výrok o tom, co se stalo: vyhledat odborníka na traumaterapii a zachovat si právo o události mluvit a oznámit ji."
+
+[[pattern.trainer]]
+utterance = "Pokud je pro vás příliš těžké mluvit o té události zevnitř, můžete ji popsat z odstupu, jako pozorovatel. Kdykoli můžeme přestat."
+context = "Psychoterapeut v traumaterapii po fázi stabilizace."
+benign = true
+marker = "Odstup se nabízí jako možnost regulace, se souhlasem klienta a s výslovnou možností kdykoli přestat."
+response = "Jde o legitimní užití: distancovaný popis slouží zvládnutí afektu a nic nezlehčuje ani nezamlčuje."
+
+[[pattern]]
+id = "NLP-10.18"
+slug = "prostorove-umisteni-obrazu"
+type = "pattern"
+cs = "Prostorové umístění představ"
+en = "Spatial location of images"
+aliases = ["umístění obrazu v zorném poli", "prostorové kódování představ"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["vizualni-submodality", "prostorove-kotveni", "zmena-tvaru-casove-osy", "filmova-technika", "casove-kodovani"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md",
+  "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Váš dosavadní život je tady dole za vámi, malý a temný, a budoucnost s námi je přímo před vámi, velká a jasná. Stačí se podívat, kam patříte."
+context = "Náborář prodejní sítě při rozhovoru doprovází slova gesty dolů za sebe a nahoru před sebe."
+benign = false
+marker = "Gesta a slova rozmísťují alternativy v prostoru (minulost dole a vzadu, nabídka nahoře a vpředu) a prostorová metafora nahrazuje věcné srovnání."
+response = "Převést obrazy zpět na tvrzení a ptát se na fakta: kolik se skutečně vydělá, za jakých podmínek a co říkají lidé, kteří odešli."
+
+[[pattern.trainer]]
+utterance = "Když mluvíte o budoucnosti, ukazujete před sebe, a minulost máte za zády. Lidé takhle o čase mluví často; zajímá mě, co v té budoucnosti vidíte vy."
+context = "Kariérní poradce v rozhovoru s klientem o změně zaměstnání."
+benign = true
+marker = "Poradce si všímá spontánního prostorového kódování klienta a nic mu nevnucuje ani nepřesouvá."
+response = "Jde o legitimní užití: pojmenování běžné prostorové metafory otevírá rozhovor o klientových vlastních cílech."
+
+[[pattern]]
+id = "NLP-10.19"
+slug = "submodality-v-reklame"
+type = "pattern"
+cs = "Submodality v reklamě a médiích"
+en = "Submodalities in advertising and media"
+aliases = ["vizuální rétorika reklamy", "práce s obrazem a zvukem v médiích"]
+use = "vliv"
+risk = "stredni"
+broader = "nlp-v-reklame"
+related = ["nlp-v-reklame", "kotvy-v-reklame", "vizualni-submodality", "auditivni-submodality", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/case-studies/74-influencer-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podívejte se, jak je jejich město šedé, rozmazané a vzdálené, a to naše jasné, blízké a plné světla. Rozhodněte se sami."
+context = "Hlas komentátora v předvolebním spotu nad dvojicí upravených záběrů."
+benign = false
+marker = "Kontrast jasu, ostrosti a vzdálenosti obrazů nahrazuje srovnání programů a výzva k samostatnému rozhodnutí zakrývá, že rozhodnutí bylo předem obrazově připraveno."
+response = "Ptát se, jaká věcná tvrzení zůstanou, když se obrazy a hudba odmyslí, a porovnat programy podle ověřitelných údajů."
+
+[[pattern.trainer]]
+utterance = "Zpomalený záběr a hudba v tomto dokumentu zvýrazňují emoci. Pod obrazem je ale vždy uveden zdroj dat a datum, takže si tvrzení můžete ověřit."
+context = "Lektor mediální výchovy komentuje se studenty dokumentární film."
+benign = true
+marker = "Estetické prostředky se otevřeně pojmenovávají a provázejí je ověřitelné zdroje tvrzení."
+response = "Jde o legitimní užití: výrazové prostředky média jsou přiznané a divák má možnost obsah ověřit nezávisle na jejich účinku."
+
+[[pattern]]
+id = "NLP-10.20"
+slug = "zmena-kriticke-sebeprezentace"
+type = "pattern"
+cs = "Vzorec vnitřního kritika"
+en = "Inner critic pattern"
+aliases = ["práce s vnitřním kritikem", "změna kritické sebeprezentace"]
+use = "dvoji"
+risk = "stredni"
+broader = "zmena-vnitrniho-hlasu"
+related = ["zmena-vnitrniho-hlasu", "auditivni-submodality", "reakce-na-kritiku", "elicitace-pozitivniho-zameru", "auditivni-swish"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/03-zakladni-kategorie/scenar-h.md",
+  "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+  "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten tvůj vnitřní kritik, který ti říká, že na kurz za sto tisíc nemáš, je jen omezující část tebe. Ztiš ho a podepiš to, dokud tu sílu cítíš."
+context = "Lektor na závěr víkendového seberozvojového semináře."
+benign = false
+marker = "Oprávněná vnitřní opatrnost se přejmenuje na „vnitřního kritika“, kterého je třeba umlčet, a to ve službě nákupu pod časovým tlakem."
+response = "Odlišit sebekritiku od prozíravosti: vzít si čas, prostudovat smlouvu doma a rozhodnutí probrat s někým, kdo na prodeji nevydělává."
+
+[[pattern.trainer]]
+utterance = "Ten hlas, který vám po každé prezentaci říká, že jste byl trapný, je hodně přísný. Co by vám k té prezentaci řekl laskavý, ale poctivý kolega?"
+context = "Psychoterapeutka u klienta se sociální úzkostí."
+benign = true
+marker = "Zmírňuje se tón vnitřního hlasu, ale poctivá zpětná vazba zůstává; cíl si stanovil sám klient."
+response = "Jde o legitimní užití: změkčení krutého vnitřního hlasu nevylučuje kritickou reflexi, jen ji zbavuje ponižování."

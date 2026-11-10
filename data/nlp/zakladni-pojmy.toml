@@ -1,0 +1,430 @@
+# Rodina NLP-02: Základní pojmy NLP (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Tento soubor drží záznamy NLP-02.01 až NLP-02.11; další části rodiny jsou v souborech
+# data/nlp/zakladni-pojmy.<část>.toml.
+
+[[pattern]]
+id = "NLP-02.01"
+slug = "reprezentacni-systemy"
+type = "concept"
+cs = "Reprezentační systémy"
+en = "Representational systems"
+aliases = ["VAKOG", "smyslové modality", "reprezentační soustavy"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "predikaty",
+  "ocni-pristupove-signaly",
+  "preferovany-reprezentacni-system",
+  "submodality-pojem",
+  "strategie-pojem",
+  "vyzkum-preferovaneho-systemu",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podle toho, jak mluvíte, jste jasně vizuální typ. Proto vám porady nejdou a proto musíte projít mým kurzem, jinak se nezměníte."
+context = "Lektor osobního rozvoje po krátkém rozhovoru s účastníkem semináře."
+benign = false
+marker = "Pojem reprezentačních systémů slouží jako diagnóza osobnosti a jako zdůvodnění placené závislosti na mluvčím, aniž by šlo o ověřené měření."
+response = "Odmítnout typologii jako diagnózu, zeptat se, na jakém ověřeném měření stojí, a rozhodovat o kurzu podle doložených výsledků, ne podle zařazení."
+
+[[pattern.trainer]]
+utterance = "Někomu pomůže nákres, někomu to, když si to sám vyzkouší. Klidně si vyberte, co vám teď vyhovuje víc."
+context = "Instruktor v dílně při vysvětlování nového postupu."
+benign = true
+marker = "Smyslové cesty se nabízejí jako volitelné formy výkladu, nikoli jako pevná kategorie člověka."
+response = "Benigní užití: nabídka více forem výkladu ponechává volbu posluchači a nic o něm netvrdí."
+
+[[pattern]]
+id = "NLP-02.02"
+slug = "vizualni-system"
+type = "concept"
+cs = "Vizuální reprezentační systém"
+en = "Visual representational system"
+aliases = ["V", "zrakový systém"]
+use = "dvoji"
+risk = "nizke"
+broader = "reprezentacni-systemy"
+related = [
+  "ocni-pristupove-signaly",
+  "vizualni-submodality",
+  "predikaty",
+  "auditivni-system",
+  "kinesteticky-system",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vidím, že vám to pořád není jasné. Vy jste vizuál, takže si to představte přesně tak, jak to kreslím já, a pak to podepíšete."
+context = "Prodejce finančního produktu na schůzce s klientem."
+benign = false
+marker = "Vizuální predikáty a nálepka „vizuál“ se spojují s požadavkem převzít obraz mluvčího a uzavřít rozhodnutí."
+response = "Oddělit představu od rozhodnutí, vyžádat si písemné podmínky a čas na jejich posouzení bez prodejce."
+
+[[pattern.trainer]]
+utterance = "Zkusím to nakreslit na tabuli, protože slovy se mi ten tok dat vysvětluje špatně."
+context = "Programátorka vysvětluje kolegům architekturu systému."
+benign = true
+marker = "Vizuální forma se volí podle obsahu sdělení, ne podle údajného typu posluchače."
+response = "Benigní užití: schéma zpřehledňuje složitý obsah a nikoho nezařazuje."
+
+[[pattern]]
+id = "NLP-02.03"
+slug = "auditivni-system"
+type = "concept"
+cs = "Auditivní reprezentační systém"
+en = "Auditory representational system"
+aliases = ["A", "sluchový systém", "auditivně tonální systém"]
+use = "dvoji"
+risk = "nizke"
+broader = "reprezentacni-systemy"
+related = [
+  "auditivne-digitalni-system",
+  "auditivni-submodality",
+  "vnitrni-dialog",
+  "sladeni-hlasu-a-tempa",
+  "predikaty",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/detection-signatures/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Slyším, že to s vámi rezonuje. Ten tón ve vašem hlase mi říká, že jste vlastně už rozhodnutý, jen to ještě nevíte."
+context = "Náborář na prezentaci multilevelové obchodní sítě."
+benign = false
+marker = "Sluchové predikáty a údajné čtení tónu hlasu nahrazují výslovný souhlas tvrzením o nevědomém rozhodnutí."
+response = "Trvat na tom, že o rozhodnutí vypovídá jen výslovná odpověď, a výklad vlastního hlasu druhou stranou nepřijímat."
+
+[[pattern.trainer]]
+utterance = "Pusťte si tu nahrávku ještě jednou. Na druhý poslech je ten rozdíl v rytmu slyšet mnohem líp."
+context = "Učitel hudby se žákem nad nahrávkou cvičení."
+benign = true
+marker = "Sluchová pozornost se vztahuje ke skutečnému zvukovému materiálu, který si posluchač může sám ověřit."
+response = "Benigní užití: jde o práci se zvukem, ne o výklad osobnosti ani o tlak k rozhodnutí."
+
+[[pattern]]
+id = "NLP-02.04"
+slug = "kinesteticky-system"
+type = "concept"
+cs = "Kinestetický reprezentační systém"
+en = "Kinaesthetic representational system"
+aliases = ["K", "pocitový systém", "tělesný systém"]
+use = "dvoji"
+risk = "stredni"
+broader = "reprezentacni-systemy"
+related = [
+  "kinesteticke-submodality",
+  "kotva-pojem",
+  "stav",
+  "synestezie",
+  "predikaty",
+]
+kompendium = [
+  "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md",
+  "kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten tlak na hrudi, který teď cítíš, je důkaz, že se tvoje tělo brání pravdě. Až povolí, uvidíš, že máme pravdu my."
+context = "Vedoucí uzavřené skupiny při rozhovoru s pochybujícím členem."
+benign = false
+marker = "Tělesný pocit se vykládá jako odpor a jeho odeznění jako potvrzení doktríny, takže tělo přestává být zdrojem vlastní informace."
+response = "Pocit brát jako signál, který patří člověku samému, ne jako důkaz cizí pravdy, a vzdálit se z tlakové situace dřív, než se o čemkoli rozhoduje."
+
+[[pattern.trainer]]
+utterance = "Když vás při tom pohybu začne pálit rameno, řekněte a hned přestaneme. Bolest je pro nás informace, ne překážka."
+context = "Fyzioterapeutka během rehabilitačního cvičení."
+benign = true
+marker = "Tělesný vjem zůstává informací klienta, která řídí postup, a ne prostředkem k jeho přesvědčení."
+response = "Benigní užití: kinestetický signál má přednost před plánem cvičení a klient o něm rozhoduje sám."
+
+[[pattern]]
+id = "NLP-02.05"
+slug = "olfaktorni-a-gustatorni-system"
+type = "concept"
+cs = "Čichový a chuťový systém"
+en = "Olfactory and gustatory systems"
+aliases = ["O/G", "olfaktorní systém", "gustatorní systém"]
+use = "dvoji"
+risk = "nizke"
+broader = "reprezentacni-systemy"
+related = [
+  "kinesteticky-system",
+  "kotva-pojem",
+  "submodality-pojem",
+  "submodality-v-reklame",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Cítíte tu vůni? Tak voní úspěch. Kdo jednou ucítí, jak voní naše centrála, už nikdy nechce zpátky do obyčejné práce."
+context = "Organizátor náborového večera obchodní sítě v provoněném sále."
+benign = false
+marker = "Čichový vjem se spojuje s příslibem identity a s odporem k dosavadnímu životu, aby nahradil věcné posouzení nabídky."
+response = "Oddělit příjemný smyslový zážitek od obsahu nabídky a nabídku posoudit později, mimo prostředí, které ho vyvolává."
+
+[[pattern.trainer]]
+utterance = "Ta vůně skořice mi vždycky připomene babiččinu kuchyni, i když už je to přes třicet let."
+context = "Člověk v rozhovoru s přítelem při vaření."
+benign = true
+marker = "Vůně spontánně vybavuje osobní vzpomínku; nikdo ji nepoužívá k ovlivnění druhého."
+response = "Benigní užití: jde o běžnou čichovou asociaci s pamětí, která nenese žádný tlak ani cizí výklad."
+
+[[pattern]]
+id = "NLP-02.06"
+slug = "auditivne-digitalni-system"
+type = "concept"
+cs = "Auditivně digitální systém"
+en = "Auditory digital system"
+aliases = ["Ad", "auditivně digitální", "vnitřní řeč"]
+use = "dvoji"
+risk = "stredni"
+broader = "reprezentacni-systemy"
+related = [
+  "vnitrni-dialog",
+  "auditivni-system",
+  "zmena-vnitrniho-hlasu",
+  "meta-model",
+  "preferovany-reprezentacni-system",
+]
+kompendium = [
+  "kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty pořád přemýšlíš a analyzuješ, to je tvůj auditivně digitální filtr. Dokud ho nevypneš, nemůžeš pochopit, co ti tu dáváme."
+context = "Instruktor intenzivního víkendového semináře k účastníkovi, který klade otázky."
+benign = false
+marker = "Kritické uvažování se přejmenuje na vadný „filtr“, který je třeba vypnout, aby se obsah přijal bez prověření."
+response = "Považovat vlastní otázky za legitimní nástroj posouzení a vzít jako varovný signál prostředí, které je označuje za překážku."
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že si v duchu pořád opakuju, že to nezvládnu. Zkusím si to napsat a podívat se, jestli je to vůbec pravda."
+context = "Klient na sezení kognitivně behaviorální terapie popisuje vlastní myšlenky."
+benign = true
+marker = "Vnitřní slovní komentář je pojmenován samotným člověkem a podroben jeho vlastnímu ověření."
+response = "Benigní užití: práce s vnitřní řečí posiluje sebereflexi a nechává úsudek člověku."
+
+[[pattern]]
+id = "NLP-02.07"
+slug = "vedouci-system"
+type = "concept"
+cs = "Vedoucí systém"
+en = "Lead system"
+aliases = ["přístupový systém", "lead system"]
+use = "dvoji"
+risk = "stredni"
+broader = "reprezentacni-systemy"
+related = [
+  "preferovany-reprezentacni-system",
+  "ocni-pristupove-signaly",
+  "strategie-pojem",
+  "elicitace-strategie",
+  "synestezie",
+]
+kompendium = [
+  "kompendium/critical-perspectives/_index.md",
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vaše oči jdou nejdřív nahoru, takže vedete obrazem. Teď už přesně vím, jak vaše hlava rozhoduje, a vím, co vám nabídnout."
+context = "Obchodník trénovaný v prodejních technikách na schůzce se zákazníkem."
+benign = false
+marker = "Údajné určení vedoucího systému z pohybu očí se vydává za privilegovaný přístup k rozhodování druhého."
+response = "Nepřipisovat mluvčímu vhled do vlastního myšlení, posuzovat nabídku podle jejích parametrů a schůzku přerušit, pokud se vede podle „čtení“ zákazníka."
+
+[[pattern.trainer]]
+utterance = "Když si vzpomínám na čísla, nejdřív si vybavím, jak vypadala tabulka, a teprve potom ta čísla."
+context = "Účastnice výzkumu paměti popisuje vlastní vybavování."
+benign = true
+marker = "Člověk sám popisuje pořadí, v jakém si vybavuje informace; nikdo ho nezařazuje ani z toho nic nevyvozuje."
+response = "Benigní užití: introspektivní popis vlastního vybavování je data pro výzkum, ne nástroj vlivu."
+
+[[pattern]]
+id = "NLP-02.08"
+slug = "preferovany-reprezentacni-system"
+type = "concept"
+cs = "Preferovaný reprezentační systém"
+en = "Preferred representational system"
+aliases = ["PRS", "primární reprezentační systém", "dominantní smyslový kanál"]
+use = "dvoji"
+risk = "stredni"
+broader = "reprezentacni-systemy"
+related = [
+  "predikaty",
+  "shoda-predikatu",
+  "vyzkum-preferovaneho-systemu",
+  "vedouci-system",
+  "metaprogramy-pojem",
+  "stav-dukazu-nlp",
+]
+kompendium = [
+  "kompendium/critical-perspectives/_index.md",
+  "kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Náš test ukázal, že jste kinestetik, a kinestetici se v analytických rolích neudrží. Proto vám povýšení nedoporučíme."
+context = "Personalista oznamuje zaměstnanci výsledek „osobnostní“ diagnostiky."
+benign = false
+marker = "Neověřená typologie preferovaného systému slouží jako zdůvodnění rozhodnutí o kariéře člověka."
+response = "Žádat validitu a spolehlivost použitého nástroje, odvolat se proti rozhodnutí opřenému o neověřenou typologii a doložit skutečný pracovní výkon."
+
+[[pattern.trainer]]
+utterance = "Mně osobně se líp učí z textu než z videa, ale u praktických věcí mi nejvíc dá, když si to zkusím."
+context = "Student v rozhovoru o tom, jak se připravuje na zkoušky."
+benign = true
+marker = "Osobní preference se vztahuje k druhu obsahu a mění se podle úkolu; nevydává se za neměnný typ."
+response = "Benigní užití: vědomá preference formy učení není diagnóza a nikdo z ní neodvozuje rozhodnutí o člověku."
+
+[[pattern]]
+id = "NLP-02.09"
+slug = "predikaty"
+type = "concept"
+cs = "Predikáty"
+en = "Predicates"
+aliases = ["smyslové predikáty", "procesní slova"]
+use = "dvoji"
+risk = "stredni"
+broader = "reprezentacni-systemy"
+related = [
+  "shoda-predikatu",
+  "preferovany-reprezentacni-system",
+  "raport",
+  "pacing-a-leading-pojem",
+  "slovni-baliky",
+]
+kompendium = [
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Chápu, že to vidíte jasně, a já to vidím úplně stejně jako vy. Vidíme to spolu, takže teď už jen podpis."
+context = "Realitní makléř při jednání o podpisu rezervační smlouvy."
+benign = false
+marker = "Mluvčí okázale opakuje zrakové predikáty druhého, aby vytvořil dojem shody, a hned ho využije k uzavření."
+response = "Všimnout si, že jazyková shoda nic neříká o obsahu smlouvy, a oddělit pocit porozumění od rozhodnutí o podpisu."
+
+[[pattern.trainer]]
+utterance = "Rozumím vám dobře, jen si nejsem jistá, jestli jsem správně slyšela, co je pro vás nejdůležitější."
+context = "Lékařka na konci vstupního rozhovoru s pacientem."
+benign = true
+marker = "Sluchové obraty jsou běžná součást řeči a slouží k ověření porozumění, ne k vytvoření dojmu shody."
+response = "Benigní užití: otevřená kontrolní otázka vrací slovo pacientovi a nic mu nevnucuje."
+
+[[pattern]]
+id = "NLP-02.10"
+slug = "ocni-pristupove-signaly"
+type = "concept"
+cs = "Oční přístupové signály"
+en = "Eye accessing cues"
+aliases = ["pohyby očí v NLP", "eye accessing cues", "očí jako ukazatel myšlení"]
+use = "dvoji"
+risk = "vysoke"
+broader = "reprezentacni-systemy"
+related = [
+  "vyzkum-ocnich-signalu",
+  "detekce-lzi-v-nlp",
+  "cteni-reci-tela",
+  "kalibrace",
+  "vedouci-system",
+]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když jste odpovídal, díval jste se nahoru doprava, a to znamená, že si to vymýšlíte. Takže to zkusíme ještě jednou a pravdivě."
+context = "Personální bezpečnostní pracovník při interním „rozhovoru“ se zaměstnancem."
+benign = false
+marker = "Směr pohledu se vydává za důkaz lži, ačkoli kontrolovaný výzkum tuto souvislost nepotvrdil, a slouží k vyvíjení tlaku na změnu výpovědi."
+response = "Odmítnout pohyb očí jako důkaz, trvat na věcných dokladech a na přítomnosti zástupce nebo na písemném záznamu rozhovoru."
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že při té otázce často hledíte z okna. Je to pro vás těžké téma, nebo jen přemýšlíte?"
+context = "Psycholog v terapeutickém rozhovoru."
+benign = true
+marker = "Pozorované chování se jen popíše a jeho význam se nechá na klientovi, bez tvrzení o tom, co pohled „znamená“."
+response = "Benigní užití: popis bez výkladu otevírá rozhovor a ponechává interpretaci klientovi."
+
+[[pattern]]
+id = "NLP-02.11"
+slug = "synestezie"
+type = "concept"
+cs = "Synestezie v NLP"
+en = "Synaesthesia (NLP sense)"
+aliases = ["synestetický okruh", "vizuálně-kinestetická smyčka", "V-K synestezie"]
+use = "terapie"
+risk = "nizke"
+broader = "reprezentacni-systemy"
+related = [
+  "kinesteticky-system",
+  "vedouci-system",
+  "disociace",
+  "submodality-pojem",
+  "kotva-pojem",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vaše úzkost je jen vizuálně-kinestetická synestezie, žádná nemoc. Lékaře nepotřebujete, odpojíme vám ji u nás za jedno odpoledne."
+context = "Nabídka soukromého „praktika“ na webu pro lidi s úzkostnými potížemi."
+benign = false
+marker = "Pojem synestezie se použije k přejmenování klinické potíže na technickou závadu a k odrazení od odborné péče slibem rychlého řešení."
+response = "Ponechat posouzení úzkosti lékaři nebo psychologovi, ověřit kvalifikaci nabízejícího a nebrat slib jednorázového „odpojení“ jako doložený."
+
+[[pattern.trainer]]
+utterance = "Když vidím fotku toho místa, skoro cítím na kůži ten mořský vítr. Zvláštní, jak se to vybaví."
+context = "Člověk se dívá s přítelkyní na fotografie z dovolené."
+benign = true
+marker = "Obraz spontánně vybaví tělesný pocit; jde o běžnou vazbu mezi smysly, kterou nikdo nevyužívá."
+response = "Benigní užití: přirozená asociace mezi obrazem a pocitem bez cizího výkladu a bez tlaku."

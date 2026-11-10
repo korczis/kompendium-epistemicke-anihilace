@@ -1,0 +1,329 @@
+# Rodina NLP-04: Milton-model (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Část milton-model: NLP-04.01 až NLP-04.10. Pořadí záznamů je pořadí identifikátorů;
+# identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-04.01"
+slug = "milton-model"
+type = "pattern"
+cs = "Milton-model"
+en = "Milton Model"
+aliases = ["hypnotické jazykové vzorce", "inverzní meta-model"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["meta-model", "ericksonovska-hypnoza", "umyslna-vagnost", "konverzacni-hypnoza", "vlozene-prikazy", "jazykove-presupozice"]
+kompendium = [
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "A jak tu tak sedíte, můžete začít cítit, že některé věci se dají pochopit jinak, a to porozumění se prohlubuje samo."
+context = "Řečník na placeném motivačním semináři chvíli před nabídkou navazujícího kurzu."
+benign = false
+marker = "Hromadění vágních slov bez obsahu (věci, porozumění), spojka „a“, která vytváří zdání příčinné souvislosti, a předpoklad, že změna už probíhá."
+response = "Ptát se po konkrétním obsahu (jaké věci, co přesně pochopit jinak) a rozhodnutí o nabídce odložit na dobu a místo mimo sál."
+
+[[pattern.trainer]]
+utterance = "Až budete připravená, můžete se pohodlně usadit a zavřít oči, nebo je klidně nechat otevřené, jak je vám to příjemnější."
+context = "Klinická psycholožka s hypnoterapeutickým výcvikem na začátku předem domluveného relaxačního sezení."
+benign = true
+marker = "Permisivní a vágní jazyk se objevuje uvnitř postupu, který byl předem vysvětlen a odsouhlasen, a ponechává výslovnou volbu."
+response = "Jde o legitimní užití: informovaný souhlas, průhledný terapeutický cíl a možnost sezení kdykoli přerušit."
+
+[[pattern]]
+id = "NLP-04.02"
+slug = "vlozene-prikazy"
+type = "pattern"
+cs = "Vložené příkazy"
+en = "Embedded commands"
+aliases = ["skryté příkazy", "vnořené příkazy"]
+use = "vliv"
+risk = "vysoke"
+broader = "milton-model"
+related = ["analogove-znaceni", "vlozene-otazky", "negativni-prikazy", "konverzacni-hypnoza", "technika-prolozeni"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-2-2-5-recommendation-coercion.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nevím, jestli se rozhodnete hned teď, nebo až zítra, ale lidé, kteří se rozhodnou hned teď, toho obvykle nelitují."
+context = "Prodejce finančního produktu na schůzce v domácnosti klienta."
+benign = false
+marker = "Opakovaná rozkazovací fráze (rozhodnout se hned teď) zabudovaná do vět, které se tváří jako nezávazná úvaha mluvčího o vlastní nevědomosti."
+response = "Vyslovit vloženou frázi nahlas jako požadavek, který skutečně zazněl, a odpovědět na něj přímo: dnes se rozhodovat nebudu."
+
+[[pattern.trainer]]
+utterance = "Mnoho studentů zjistí, že když se před zkouškou pořádně vyspí, píšou klidněji, tak to klidně zkuste i vy."
+context = "Učitel ve třídě den před maturitní zkouškou."
+benign = true
+marker = "Doporučení zazní otevřeně jako rada, jeho obsah slouží posluchači a nic se neskrývá v podřadné části věty."
+response = "Jde o benigní případ: přímá rada, kterou lze přijmout i odmítnout, bez zastírání a bez zájmu mluvčího na výsledku."
+
+[[pattern]]
+id = "NLP-04.03"
+slug = "vlozene-otazky"
+type = "pattern"
+cs = "Vložené otázky"
+en = "Embedded questions"
+aliases = ["nepřímé otázky"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = ["vlozene-prikazy", "konverzacni-postulaty", "otazky-s-presupozici", "pripojene-otazky"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-5-recommendation-coercion.md",
+  "kompendium/detection-signatures/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jsem zvědavý, kolik byste byl ochoten měsíčně investovat do své budoucnosti, kdybyste věděl, že se vám to vrátí."
+context = "Telefonický prodejce investičního produktu při prvním hovoru."
+benign = false
+marker = "Otázka je zabalená do oznamovací věty, formálně nevyžaduje odpověď, ale vybízí k ní a mlčky předpokládá, že investovat budete."
+response = "Neodpovídat na nevyslovenou otázku, říct, že žádnou částku zatím nezvažujete, a vyžádat si písemné podmínky produktu."
+
+[[pattern.trainer]]
+utterance = "Zajímalo by mě, co vám z dnešní přednášky utkvělo nejvíc, ale klidně to nechte na příští hodinu."
+context = "Vyučující na konci univerzitního semináře."
+benign = true
+marker = "Nepřímá otázka je zdvořilostní formou, výslovně dává možnost neodpovídat a nevnáší žádný předpoklad, z něhož by plynul závazek."
+response = "Jde o benigní případ: otevřená, nenaléhavá otázka v rámci výuky, odpověď slouží zpětné vazbě, ne rozhodnutí posluchače."
+
+[[pattern]]
+id = "NLP-04.04"
+slug = "analogove-znaceni"
+type = "pattern"
+cs = "Analogové značení"
+en = "Analogue marking"
+aliases = ["hlasové vyznačení", "značení tónem"]
+use = "vliv"
+risk = "stredni"
+broader = "milton-model"
+related = ["vlozene-prikazy", "technika-prolozeni", "sladeni-hlasu-a-tempa", "citace"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Spousta lidí v téhle situaci váhá, jestli mi věřit, a je to úplně pochopitelné."
+context = "Kouč na úvodní konzultaci; slova „mi věřit“ pronese tišeji, pomaleji a s přímým pohledem."
+benign = false
+marker = "Úsek věty je oddělen změnou tónu, tempa a pohledu, takže tvoří samostatné sdělení uvnitř nevinného konstatování o druhých lidech."
+response = "Všimnout si nesouladu mezi obsahem věty a zdůrazněným úsekem a důvěryhodnost posuzovat podle doložitelné kvalifikace, ne podle dojmu."
+
+[[pattern.trainer]]
+utterance = "Tohle je nejdůležitější věta dnešního školení: dávka léku se vždycky kontroluje dvakrát."
+context = "Školitelka zdravotních sester, která klíčovou větu řekne pomaleji a důrazněji."
+benign = true
+marker = "Zdůraznění hlasem je otevřeně ohlášené a shoduje se s obsahem věty, nevzniká žádné skryté druhé sdělení."
+response = "Jde o benigní případ: běžná didaktická prozodie, kterou posluchač vnímá a chápe stejně jako mluvčí."
+
+[[pattern]]
+id = "NLP-04.05"
+slug = "konverzacni-postulaty"
+type = "pattern"
+cs = "Konverzační postuláty"
+en = "Conversational postulates"
+aliases = ["nepřímé řečové akty"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = ["vlozene-otazky", "pripojene-otazky", "implikovane-direktivum", "otazky-misto-tvrzeni"]
+kompendium = [
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Dokážete si představit, jak by vám bylo, kdybyste ty bolesti zad měl konečně za sebou?"
+context = "Prodejce doplňku stravy na předváděcí akci pro seniory."
+benign = false
+marker = "Otázka formálně zjišťuje schopnost (dokážete si…?), ale funguje jako výzva vytvořit si živou představu úlevy spojenou s výrobkem."
+response = "Odpovědět na doslovnou otázku a vrátit hovor k faktům: představit si to dokážu, teď prosím doklady o účinku a cenu."
+
+[[pattern.trainer]]
+utterance = "Mohl byste mi prosím podat tu modrou složku z poličky?"
+context = "Kolega v kanceláři během porady."
+benign = true
+marker = "Běžná zdvořilá nepřímá žádost, jejíž smysl obě strany chápou stejně a kterou lze bez potíží odmítnout."
+response = "Jde o benigní případ: zdvořilostní konvence jazyka, žádný skrytý cíl ani tlak na rozhodnutí."
+
+[[pattern]]
+id = "NLP-04.06"
+slug = "pripojene-otazky"
+type = "pattern"
+cs = "Připojené otázky"
+en = "Tag questions"
+aliases = ["dovětkové otázky", "tázací dovětky"]
+use = "vliv"
+risk = "stredni"
+broader = "milton-model"
+related = ["ano-sada", "konverzacni-postulaty", "presupozice-ve-vyslechu", "kalibrace-ano-ne"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vy jste toho večera přece odcházel jako poslední, že ano?"
+context = "Vyšetřující v neformálním rozhovoru se svědkem, který se nezaznamenává."
+benign = false
+marker = "Tvrzení s připojeným dovětkem „že ano?“ předjímá odpověď a ztěžuje nesouhlas, obsah výpovědi tak pochází od tazatele, ne od svědka."
+response = "Odpovídat vlastními slovy a jen tím, co si svědek skutečně pamatuje, požádat o otevřenou otázku a o pořízení záznamu."
+
+[[pattern.trainer]]
+utterance = "Dneska je ale zima, co?"
+context = "Soused na autobusové zastávce v lednu."
+benign = true
+marker = "Dovětek je sociální pozvání k rozhovoru o zjevném a nesporném, nic se nerozhoduje a nic se nepřisvojuje."
+response = "Jde o benigní případ: fatická funkce jazyka, nesouhlas nic nestojí a odpověď nemá žádné důsledky."
+
+[[pattern]]
+id = "NLP-04.07"
+slug = "truismy"
+type = "pattern"
+cs = "Truismy"
+en = "Truisms"
+aliases = ["samozřejmosti", "nesporná tvrzení"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = ["ano-sada", "pacing-aktualni-zkusenosti", "pacing-a-leading", "umyslna-vagnost"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Každý z nás někdy cítil, že by ze svého života mohl vytěžit víc, a právě proto jste dnes tady."
+context = "Úvod náborové přednášky skupiny nabízející „osobní transformaci“."
+benign = false
+marker = "Nevyvratitelné obecné tvrzení, se kterým souhlasí každý, je napojeno na závěr, který z něj neplyne (proto patříte sem)."
+response = "Oddělit souhlas s banalitou od souhlasu se závěrem a ptát se, co konkrétně skupina nabízí, za kolik a jak to doloží."
+
+[[pattern.trainer]]
+utterance = "Po dlouhé nemoci se tělo obvykle zotavuje postupně, ne naráz."
+context = "Praktická lékařka při kontrole po zápalu plic."
+benign = true
+marker = "Obecné tvrzení odpovídá odbornému poznání a slouží realistickému očekávání, nevede k žádnému skrytému závěru ani závazku."
+response = "Jde o benigní případ: věcná informace, kterou lze ověřit a která pacientovi nic nevnucuje."
+
+[[pattern]]
+id = "NLP-04.08"
+slug = "ano-sada"
+type = "pattern"
+cs = "Řada souhlasů"
+en = "Yes set"
+aliases = ["ano-sada", "souhlasná řada"]
+use = "vliv"
+risk = "stredni"
+broader = "milton-model"
+related = ["truismy", "pripojene-otazky", "pacing-a-leading", "retezeni-sugesci", "predpokladovy-zaver"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-5-recommendation-coercion.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Bezpečí rodiny je pro vás důležité, klid taky, takže to podepíšeme ještě dnes."
+context = "Pojišťovací zprostředkovatel při první schůzce v kuchyni klienta."
+benign = false
+marker = "Dvě tvrzení, se kterými nelze nesouhlasit, předcházejí požadavku, který se veze na jejich souhlasu, ačkoli z nich nijak neplyne."
+response = "Oddělit souhlas s hodnotami od rozhodnutí o smlouvě, vyžádat si čas na rozmyšlenou a srovnání s jinými nabídkami."
+
+[[pattern.trainer]]
+utterance = "Shodneme se, že vás koleno bolí a chcete zase chodit, a teď probereme všechny možnosti, včetně té, že zatím počkáme."
+context = "Ortoped při konzultaci o možné operaci."
+benign = true
+marker = "Shrnutí společného základu nevede k předem danému závěru, ale k otevřenému výčtu možností včetně odkladu."
+response = "Jde o benigní případ: ověření porozumění před sdíleným rozhodováním, souhlas s fakty nezavazuje k žádné volbě."
+
+[[pattern]]
+id = "NLP-04.09"
+slug = "citace"
+type = "pattern"
+cs = "Citace"
+en = "Quotes"
+aliases = ["vzorec citace", "vložená citace"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = ["muj-pritel-john", "vlozene-prikazy", "analogove-znaceni", "ztraceny-performativ-milton", "terapeuticka-metafora"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Můj učitel mi kdysi řekl: přestaň pochybovat a prostě důvěřuj tomu, kdo tě vede."
+context = "Vedoucí meditační skupiny na večerním setkání nových členů."
+benign = false
+marker = "Výzva mířící na posluchače je vložena do citace cizích slov, takže za ni mluvčí formálně neodpovídá a posluchač ji těžko odmítne jako požadavek."
+response = "Rozpoznat, komu citát ve skutečnosti míří, zeptat se mluvčího, zda totéž požaduje on sám, a posoudit to jako jeho požadavek."
+
+[[pattern.trainer]]
+utterance = "Jak říkala moje babička, pomalu se dál dojde, tak si to učení rozvrhněte na víc týdnů."
+context = "Studijní poradkyně při konzultaci se studentem před zkouškovým obdobím."
+benign = true
+marker = "Citát je přiznaná ilustrace a doporučení vzápětí zazní otevřeně jako vlastní rada mluvčí, za kterou nese odpovědnost."
+response = "Jde o benigní případ: citát nezakrývá autora rady a doporučení lze přijmout nebo odmítnout přímo."
+
+[[pattern]]
+id = "NLP-04.10"
+slug = "poruseni-selekcnich-omezeni"
+type = "pattern"
+cs = "Porušení selekčních omezení v Milton-modelu"
+en = "Selectional restriction violation (Milton Model)"
+aliases = ["sémantická anomálie"]
+use = "dvoji"
+risk = "nizke"
+broader = "milton-model"
+related = ["poruseni-selekcnich-omezeni-meta", "citace", "konfuzni-technika", "terapeuticka-metafora"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje pochybnosti tě jen chtějí ochránit, ale teď už mohou odejít, protože jsi tady v bezpečí."
+context = "Facilitátor víkendového „transformačního“ kurzu k účastnici, která zpochybnila program."
+benign = false
+marker = "Abstraktním pochybnostem se připisuje vůle a schopnost odejít, takže kritické myšlení se mění v cizí bytost, kterou lze propustit."
+response = "Vrátit pochybnostem jejich obsah: pojmenovat, o čem přesně pochybuji, a trvat na věcné odpovědi místo jejich „odchodu“."
+
+[[pattern.trainer]]
+utterance = "Ten starý dům na návsi vypráví příběh celé vesnice."
+context = "Průvodce při exkurzi po venkovské památkové zóně."
+benign = true
+marker = "Neživému předmětu je připsána řeč jako zjevná básnická metafora, kterou posluchač chápe jako obrazné vyjádření."
+response = "Jde o benigní případ: běžná metafora bez skrytého sdělení, nic se jí nevnucuje ani nezakrývá."

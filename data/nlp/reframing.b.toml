@@ -1,0 +1,263 @@
+# Rodina NLP-08: Reframing a rámce, část b (NLP-08.10 až NLP-08.17).
+# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-08.10"
+slug = "kontrastni-ramec"
+type = "pattern"
+cs = "Kontrastní rámec"
+en = "Contrast frame"
+aliases = ["rámec kontrastu", "srovnávací rámec"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-pojem"
+related = ["kontrastni-analyza", "kotveni-versus-ukotveni-odhadu", "srovnavaci-delece", "predramcovani", "obsahovy-reframing"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdybyste šel jinam, zaplatíte za takovou smlouvu dvojnásobek a ještě budete čekat půl roku. U nás je to vlastně skoro zadarmo."
+context = "Obchodník na schůzce s klientem, který váhá nad cenou."
+benign = false
+marker = "Cena se neposuzuje sama o sobě, ale proti zvolenému a neověřenému horšímu srovnání, které ji nechá vypadat výhodně."
+response = "Požádat o konkrétní srovnatelné nabídky a posoudit cenu podle vlastního rozpočtu a potřeby, ne podle srovnání, které vybral prodávající."
+
+[[pattern.trainer]]
+utterance = "Abychom věděli, jestli se léčba osvědčila, porovnáme vaše letošní výsledky s těmi loňskými, změřenými stejným způsobem."
+context = "Lékařka při kontrole chronického onemocnění."
+benign = true
+marker = "Srovnání je předem dané, symetrické a měřené stejnou metodou, takže kontrast nese informaci, a ne dojem."
+response = "Legitimní užití: kontrast slouží k posouzení změny podle stálého měřítka, které může pacient sám ověřit."
+
+[[pattern]]
+id = "NLP-08.11"
+slug = "vyzva-k-relevanci"
+type = "pattern"
+cs = "Výzva k relevanci"
+en = "Relevancy challenge"
+aliases = ["otázka po relevanci", "test relevance"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-vysledku"
+related = ["otevreny-ramec", "ramec-zpetneho-shrnuti", "dodatecne-ramcovani", "meta-model"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jak přesně souvisí vaše poznámka o bezpečnosti s cílem dnešní porady? Pokud nijak, nebudeme ji tu probírat."
+context = "Vedoucí projektu na poradě, kde technik upozorňuje na závadu."
+benign = false
+marker = "Měřítko relevance určuje jen vedoucí a slouží k vyřazení nepohodlné námitky, aniž by se posoudil její obsah."
+response = "Trvat na zápisu námitky a na tom, kde a kdy se projedná; zeptat se, kdo a podle čeho rozhodl, že bezpečnost k cíli nepatří."
+
+[[pattern.trainer]]
+utterance = "To je důležitý bod, ale na dnešní program nepatří. Zapíšu ho a dám mu prostor na čtvrteční schůzce."
+context = "Moderátorka pracovní skupiny s předem schváleným programem."
+benign = true
+marker = "Výzva k relevanci odkazuje na společně dohodnutý cíl a téma se neruší, jen se mu přidělí jiný čas."
+response = "Legitimní užití: relevance se posuzuje podle sdíleného programu a námitka zůstává zachována a dohledatelná."
+
+[[pattern]]
+id = "NLP-08.12"
+slug = "otevreny-ramec"
+type = "pattern"
+cs = "Otevřený rámec"
+en = "Open frame"
+aliases = ["volný rámec", "otevřené kolo"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-pojem"
+related = ["vyzva-k-relevanci", "ramec-vysledku", "raport-se-skupinou", "ramec-zpetneho-shrnuti"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tady je bezpečný prostor, můžete říct úplně cokoli, co vás trápí, i to, co jste ještě nikomu neřekli. Všichni jsme tu jedna rodina."
+context = "Vedoucí uzavřené skupiny při večerním sdílení nových členů."
+benign = false
+marker = "Otevřenost se nabízí bez pravidel o tom, co se se sdělením stane, a spojuje se s tlakem na důvěrná přiznání vůči skupině, která má moc."
+response = "Zjistit předem, kdo sdělení uslyší, zda se zapisují a jak se s nimi naloží; osobní věci sdílet jen tam, kde je důvěrnost zaručená a odmítnutí nemá následky."
+
+[[pattern.trainer]]
+utterance = "Než skončíme, máme deset minut na cokoli, co se do programu nevešlo. Kdo nechce nic říct, nemusí."
+context = "Facilitátor na konci pracovního workshopu."
+benign = true
+marker = "Otevřený prostor je časově ohraničený, dobrovolný a týká se pracovních témat; mlčení nemá žádnou cenu."
+response = "Legitimní užití: otevřený rámec zachytí opomenutá témata, aniž by vytvářel tlak na sebeodhalení."
+
+[[pattern]]
+id = "NLP-08.13"
+slug = "ramec-dukazu"
+type = "pattern"
+cs = "Rámec důkazu"
+en = "Evidence frame"
+aliases = ["důkazní rámec", "rámec ověření"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-vysledku"
+related = ["smyslove-dukazy-cile", "dukazni-procedura", "falzifikovatelnost-nlp", "kalibrace", "selhani-jako-zpetna-vazba-vzorec"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Poznáš, že to funguje, až přestaneš pochybovat. Dokud pochybuješ, je to důkaz, že ještě nejsi dost daleko."
+context = "Lektor seminářového programu odpovídá účastníkovi, který nevidí žádnou změnu."
+benign = false
+marker = "Důkazem úspěchu je stav, který vylučuje kritiku, a pochybnost sama se počítá jako důkaz pro metodu, takže žádný výsledek ji nemůže vyvrátit."
+response = "Požádat o vnější a předem určené měřítko, které by ukázalo i neúspěch, a bez něj tvrzení o účinku nepřijmout."
+
+[[pattern.trainer]]
+utterance = "Jak poznáme, že se spánek zlepšil? Navrhuji, abyste dva týdny zapisovala, kdy usínáte a kolikrát se v noci probudíte."
+context = "Psycholožka na začátku krátké intervence pro nespavost."
+benign = true
+marker = "Důkaz je konkrétní, pozorovatelný a stanovený předem, takže může ukázat i to, že intervence nepomohla."
+response = "Legitimní užití: rámec důkazu tu chrání klientku před dojmem změny a umožňuje oběma stranám hodnotit výsledek poctivě."
+
+[[pattern]]
+id = "NLP-08.14"
+slug = "predramcovani"
+type = "pattern"
+cs = "Předrámcování"
+en = "Pre-framing"
+aliases = ["předběžné rámování", "pre-frame"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ramec-pojem"
+related = ["dodatecne-ramcovani", "seeding", "jazykove-presupozice", "kontrastni-ramec", "nlp-v-sektach"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+  "kompendium/techniques/ea-2-2-2-mentee-isolation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Až o nás tvoje rodina začne mluvit špatně, pamatuj si, že přesně tohle říkají lidé, kteří se bojí, že tě ztratí."
+context = "Starší člen skupiny mluví s nováčkem před jeho návštěvou doma."
+benign = false
+marker = "Budoucí kritika je předem označena za projev strachu nebo zlé vůle, takže když přijde, nováček ji neposuzuje, ale chápe jako potvrzení skupiny."
+response = "Posoudit kritiku podle jejího obsahu, ne podle předem přidělené nálepky, a všimnout si, že skupina zneplatnila argumenty dřív, než zazněly."
+
+[[pattern.trainer]]
+utterance = "Ukážu vám teď tři varianty rozpočtu. Upozorňuji předem, že žádná není bez nevýhod a u každé řeknu, co stojí."
+context = "Finanční ředitelka před prezentací pro zastupitelstvo."
+benign = true
+marker = "Předrámcování ohlašuje strukturu a omezení sdělení a nepředurčuje, jak má posluchač hodnotit námitky."
+response = "Legitimní užití: rámec předem zvyšuje průhlednost a nechává posluchačům plný prostor pro vlastní soud."
+
+[[pattern]]
+id = "NLP-08.15"
+slug = "dodatecne-ramcovani"
+type = "pattern"
+cs = "Dodatečné rámcování"
+en = "Post-framing"
+aliases = ["zpětné rámování", "post-frame"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ramec-pojem"
+related = ["predramcovani", "ramec-zpetneho-shrnuti", "obsahovy-reframing", "manipulativni-reframing-ve-vztazich", "trauma-a-falesne-vzpominky"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten křik včera nebyl hádka. Byla to zkouška, jestli mi věříš, a ty jsi ji, bohužel, nezvládla."
+context = "Partner den po konfliktu vykládá, co se stalo."
+benign = false
+marker = "Událost dostává zpětně nový význam, který mluvčího zbavuje odpovědnosti a přesouvá vinu na druhého; vlastní vzpomínka adresáta se nebere v potaz."
+response = "Držet se vlastního záznamu toho, co se stalo, oddělit popis od výkladu a nepřijmout zpětnou definici, kterou nabízí ten, koho událost usvědčuje."
+
+[[pattern.trainer]]
+utterance = "Když se teď ohlédnete za tím rokem, co z toho vidíte jinak než tehdy? Nemusí to být nic pozitivního."
+context = "Terapeutka v závěrečném sezení s klientem po náročném období."
+benign = true
+marker = "Nový výklad vytváří klient sám, otázka nepředepisuje odpověď a ponechává možnost, že zkušenost zůstane bolestná."
+response = "Legitimní užití: dodatečné ohlédnutí slouží integraci zkušenosti a nepřepisuje, co se stalo."
+
+[[pattern]]
+id = "NLP-08.16"
+slug = "deframing"
+type = "pattern"
+cs = "Rozrámcování"
+en = "De-framing"
+aliases = ["de-framing", "rozložení rámce"]
+use = "dvoji"
+risk = "stredni"
+broader = "ramec-pojem"
+related = ["som-rozlozeni", "chunking-dolu", "meta-model", "reframing", "mapa-neni-uzemi"]
+kompendium = [
+  "kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md",
+  "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md",
+  "kompendium/techniques/ea-6-3-2-externalizacni-faze.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje zásady? To je jen pár vět, které ti v dětství vtloukli rodiče. Rozeber si je a uvidíš, že tam nic tvého není."
+context = "Mentor v osobnostním programu reaguje na účastníka, který odmítá jeho požadavek."
+benign = false
+marker = "Rozkládá se právě ten rámec, který člověka chrání před požadavkem mluvčího, a místo něj se nenabízí vlastní volba, ale rámec mluvčího."
+response = "Rozlišit zkoumání vlastních hodnot od jejich zneplatnění na objednávku druhého; zásady lze přezkoumat později, sám a bez tlaku konkrétního požadavku."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že jste úplně neschopný. Můžeme se podívat, z čeho se to přesvědčení skládá a kdy přesně se objevuje?"
+context = "Kognitivně-behaviorální terapeut v sezení s klientem s depresí."
+benign = true
+marker = "Rozkládá se rámec, který klientovi škodí, s jeho souhlasem a za účelem ověření, ne aby se nahradil názorem terapeuta."
+response = "Legitimní užití: rozložení zobecnění na konkrétní situace a důkazy klientovi vrací možnost úsudku."
+
+[[pattern]]
+id = "NLP-08.17"
+slug = "selhani-jako-zpetna-vazba-vzorec"
+type = "pattern"
+cs = "Přerámování selhání na zpětnou vazbu"
+en = "Failure into feedback"
+aliases = ["selhání jako zpětná vazba", "failure into feedback"]
+use = "dvoji"
+risk = "stredni"
+broader = "obsahovy-reframing"
+related = ["neni-selhani-jen-zpetna-vazba", "tote-model", "limitujici-presvedceni", "falzifikovatelnost-nlp", "guru-efekt", "ramec-dukazu"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/03-zakladni-kategorie/scenar-h.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Že se ti po kurzu nic nezměnilo, není selhání, je to zpětná vazba: potřebuješ pokročilý stupeň. Přihláška je na stole."
+context = "Prodejce navazujícího kurzu osobního rozvoje mluví s absolventem."
+benign = false
+marker = "Neúspěch metody se přerámuje na zpětnou vazbu o uživateli a hned se spojí s nabídkou dalšího placeného kroku; metoda sama se nikdy nehodnotí."
+response = "Zeptat se, jaký výsledek by ukázal, že metoda nefunguje, a rozhodnout se o dalším kurzu až po nezávislém posouzení dosavadních výsledků."
+
+[[pattern.trainer]]
+utterance = "Ta zkouška nevyšla. Podívejme se, které typy úloh ti chyběly, a podle toho upravíme přípravu, nebo i termín."
+context = "Vyučující se studentkou po neúspěšné zkoušce."
+benign = true
+marker = "Neúspěch se rozkládá na konkrétní informaci, která může vést ke změně postupu i cíle, a nepopírá, že výsledek byl neúspěšný."
+response = "Legitimní užití: zpětná vazba se týká postupu, ne osoby, a nevede automaticky k dalšímu opakování téhož."

@@ -59,7 +59,7 @@ Kritéria 1–3 jsou nutná; kritérium 4 určuje závažnost.
 ## Odlišení od benigních podob
 
 - **Legitimní přehodnocení**: lidé mění výklad událostí, když získají nové informace nebo odstup. Rozdíl je v tom, že to otevřeně řeknou a důvod lze pojmenovat.
-- **Terapeutické přerámování**: v terapii se rámec mění záměrně, transparentně a ve prospěch klienta (*reframing*); klient o změně ví a může ji odmítnout.
+- **Terapeutické přerámování**: v terapii se rámec mění záměrně, transparentně a ve prospěch klienta (*[reframing](@/kompendium/nlp-vzorce/reframing/reframing.md)*); klient o změně ví a může ji odmítnout.
 - **Rozdílné perspektivy**: dva účastníci téže události ji legitimně vidí různě. Signatura se týká posunu *u jednoho zdroje* v čase nebo podle publika.
 - **Žurnalistická a právní praxe** volí rámec vždy; podstatné je, zda zachovává identifikovatelnost aktérů a ověřitelnost.
 

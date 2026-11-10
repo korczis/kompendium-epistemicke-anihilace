@@ -1,0 +1,325 @@
+# Rodina NLP-20: Jazykové vzorce, část b (NLP-20.11 až NLP-20.20).
+# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-20.11"
+slug = "terapeuticka-metafora"
+type = "pattern"
+cs = "Terapeutická metafora"
+en = "Therapeutic metaphor"
+aliases = ["terapeutický příběh", "metaforický příběh"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["izomorfni-metafora", "muj-pritel-john", "vnorene-smycky", "seeding", "som-analogie"]
+kompendium = [
+  "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Znal jsem kdysi ženu, která pořád pochybovala, a celý život jí utekl. Až když přestala klást otázky a svěřila se vedení, konečně se jí ulevilo."
+context = "Vedoucí duchovní skupiny vypráví příběh novému členovi, který se ptá na finance skupiny."
+benign = false
+marker = "Příběh přichází jako odpověď na konkrétní otázku a jeho poučení míří proti tázání samotnému; závěr se nevysloví jako požadavek, takže se k němu nedá přímo vyjádřit."
+response = "Vrátit se k původní otázce a trvat na přímé odpovědi; příběh vzít jako názor vypravěče, ne jako argument."
+
+[[pattern.trainer]]
+utterance = "Napadá mě obraz horolezce, který si před těžkým úsekem odpočine na plošině. Nevím, jestli vám sedí; pokud ne, klidně ho zahoďte."
+context = "Terapeut v sezení s klientem, který mluví o vyčerpání z dlouhé léčby."
+benign = true
+marker = "Metafora je nabídnuta otevřeně, s výslovnou možností ji odmítnout, a nesměřuje k rozhodnutí, které by bylo výhodné pro mluvčího."
+response = "Benigní užití: obraz slouží klientovu vlastnímu porozumění, je transparentní a klient si jeho význam určuje sám."
+
+[[pattern]]
+id = "NLP-20.12"
+slug = "izomorfni-metafora"
+type = "pattern"
+cs = "Izomorfní metafora"
+en = "Isomorphic metaphor"
+aliases = ["izomorfismus metafory", "strukturně shodný příběh"]
+use = "dvoji"
+risk = "stredni"
+broader = "terapeuticka-metafora"
+related = ["terapeuticka-metafora", "vnorene-smycky", "utilizace", "som-analogie"]
+kompendium = [
+  "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Byl jednou mladý strom, který chtěl růst po svém, a tak ho vítr zlomil. Ty stromy, co se opřely o starší kmen, stojí dodnes."
+context = "Partner vypráví příběh druhému, který zvažuje, že se odstěhuje a najde si vlastní práci."
+benign = false
+marker = "Postavy příběhu přesně kopírují vztah mluvčího a posluchače a rozuzlení trestá samostatnost; posluchač dostává závěr, aniž by se o něm mohl otevřeně přít."
+response = "Pojmenovat paralelu nahlas a převést ji zpět do přímé řeči: o čem konkrétně mluvčí mluví a proč to neřekne přímo."
+
+[[pattern.trainer]]
+utterance = "Vaše situace mi připomíná správce, který má na starosti příliš mnoho klíčů. Sedí to nějak, nebo to vidíte jinak?"
+context = "Supervizor při rozhovoru s přetíženou vedoucí týmu."
+benign = true
+marker = "Strukturní podobnost příběhu se situací je vyslovena a hned podrobena ověření, posluchačka může paralelu opravit nebo odmítnout."
+response = "Benigní užití: izomorfie slouží jako hypotéza k porozumění a není skrytým nositelem rozhodnutí."
+
+[[pattern]]
+id = "NLP-20.13"
+slug = "ale-a-a"
+type = "pattern"
+cs = "Záměna „ale“ za „a“"
+en = "But versus and"
+aliases = ["ale a a", "spojka ale"]
+use = "dvoji"
+risk = "nizke"
+broader = ""
+related = ["spojky-a-implikovana-pricinnost", "apozice-protikladu", "zatim", "ramec-souhlasu", "obsahovy-reframing"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Máš pravdu, že jsem ti slíbil, že to přestanu dělat, a zároveň je to tvoje přecitlivělost, kvůli které o tom pořád mluvíme."
+context = "Partner reaguje na výčitku porušeného slibu."
+benign = false
+marker = "Spojka „a“ klade uznání slibu a přesun viny na stejnou úroveň, takže kontrast, který by spojka „ale“ přiznala, mizí a obvinění se tváří jako pokračování souhlasu."
+response = "Rozdělit výrok na dvě samostatná tvrzení a každé posoudit zvlášť: slib byl porušen; tvrzení o přecitlivělosti je jiná věc."
+
+[[pattern.trainer]]
+utterance = "Ta práce je pečlivě udělaná a v kapitole o metodě bych ještě doplnil popis vzorku."
+context = "Vedoucí diplomové práce dává studentovi zpětnou vazbu."
+benign = true
+marker = "Uznání i výhrada jsou konkrétní a pravdivé; spojka „a“ jen nebrání tomu, aby výhrada pohltila uznání."
+response = "Benigní užití: obě části sdělení platí a příjemce je může ověřit; spojka nezakrývá rozpor ani přesun odpovědnosti."
+
+[[pattern]]
+id = "NLP-20.14"
+slug = "protoze"
+type = "pattern"
+cs = "Slovo „protože“"
+en = "Because"
+aliases = ["placebový důvod", "magické protože"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["spojky-a-implikovana-pricinnost", "pricina-a-nasledek", "slovni-baliky", "ramec-dukazu"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podepište to prosím ještě dnes, protože to tak potřebujeme mít podepsané."
+context = "Obchodník předkládá klientovi smlouvu na konci schůzky."
+benign = false
+marker = "Věta má tvar zdůvodnění, ale část za „protože“ jen opakuje žádost; jde o placebový důvod, který spoléhá na to, že posluchač tvar důvodu nezkontroluje."
+response = "Zeptat se, jaký je věcný důvod spěchu, a bez odpovědi s obsahem si podpis odložit."
+
+[[pattern.trainer]]
+utterance = "Termín posouváme na pátek, protože dodavatel potvrdil zpoždění zásilky o tři dny."
+context = "Projektová manažerka informuje tým o změně harmonogramu."
+benign = true
+marker = "Za „protože“ následuje konkrétní a ověřitelná informace, která změnu skutečně vysvětluje."
+response = "Benigní užití: důvod má obsah, lze ho ověřit a posluchač ho může přijmout nebo zpochybnit."
+
+[[pattern]]
+id = "NLP-20.15"
+slug = "zatim"
+type = "pattern"
+cs = "Slovo „zatím“"
+en = "Yet"
+aliases = ["ještě ne", "zatím ne"]
+use = "dvoji"
+risk = "nizke"
+broader = ""
+related = ["slovesa-zmeny-casu", "limitujici-presvedceni", "casove-presuny-v-jazyce", "ale-a-a", "zkusit"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty pochybnosti máš proto, že zatím nejsi na té úrovni. Až budeš, pochopíš, proč se o tom nemluví."
+context = "Starší člen skupiny odpovídá nováčkovi, který se ptá na pravidla skupiny."
+benign = false
+marker = "„Zatím“ odsouvá odpověď do neurčité budoucnosti, jejíž dosažení určuje skupina; otázka se tím mění v doklad nezralosti tazatele."
+response = "Trvat na tom, že otázka má odpověď už teď, a sledovat, zda se „úroveň“, na níž by odpověď přišla, s časem neposouvá stále dál."
+
+[[pattern.trainer]]
+utterance = "Tohle zatím neumím, ale za měsíc cvičení to bude jiné."
+context = "Pacient po úrazu v rehabilitaci mluví s fyzioterapeutem o chůzi bez berlí."
+benign = true
+marker = "„Zatím“ otevírá změnu v čase, kterou má mluvčí sám v rukou, a nenahrazuje realistický odhad pokroku."
+response = "Benigní užití: slovo vyjadřuje naději spojenou s konkrétní prací, ne slib, o jehož splnění rozhoduje někdo jiný."
+
+[[pattern]]
+id = "NLP-20.16"
+slug = "zkusit"
+type = "pattern"
+cs = "Slovo „zkusit“"
+en = "Try"
+aliases = ["zkus", "pokusit se"]
+use = "dvoji"
+risk = "nizke"
+broader = ""
+related = ["zatim", "negativni-prikazy", "presupozice-milton", "implikativni-slovesa"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nefunguje ti to, protože to pořád jen zkoušíš. Kdo opravdu chce, ten nezkouší, ten to prostě udělá."
+context = "Lektor motivačního kurzu odpovídá účastníkovi, kterému metoda nepomohla."
+benign = false
+marker = "Slovo „zkoušet“ se použije jako vysvětlení neúspěchu metody: chyba se přesouvá na nedostatečnou vůli účastníka a metoda zůstává nevyvratitelná."
+response = "Oddělit otázku účinnosti metody od otázky snahy a zeptat se, jaký výsledek by lektor uznal za doklad, že metoda nefunguje."
+
+[[pattern.trainer]]
+utterance = "Zkusíme ten lék dva týdny a pak se podíváme, jestli vám pomáhá, nebo zvolíme jiný."
+context = "Lékař domlouvá s pacientem nasazení nové léčby."
+benign = true
+marker = "„Zkusit“ tu otevřeně označuje pokus s nejistým výsledkem, s předem daným časem a kritériem hodnocení."
+response = "Benigní užití: slovo poctivě vyjadřuje nejistotu a vyhodnocení nezávisí na tom, jak moc se pacient snažil."
+
+[[pattern]]
+id = "NLP-20.17"
+slug = "predstavte-si"
+type = "pattern"
+cs = "Výzva „představte si“"
+en = "Imagine"
+aliases = ["výzva k představě", "představ si"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["budouci-prehravani", "budouci-prehravani-v-prodeji", "ramec-jako-by", "vlozene-prikazy", "pseudoorientace-v-case"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Představte si, jak se ráno probudíte v tomhle bytě a z okna vidíte park. Cítíte ten klid? Takový byt už druhý nenajdete."
+context = "Realitní makléř při prohlídce bytu, jehož cenu klient ještě nezná."
+benign = false
+marker = "Výzva k představě předchází informacím, podle kterých se má rozhodovat, a živý obraz vlastnictví je hned spojen s tlakem nedostatku."
+response = "Vrátit se od představy k údajům: cena, stav, smlouva a srovnání s jinými nabídkami, a rozhodnutí odložit, dokud nejsou známé."
+
+[[pattern.trainer]]
+utterance = "Představte si, že jste v situaci, kdy vám hasiči zavolají v noci evakuaci. Co by vám v tu chvíli chybělo nejvíc?"
+context = "Lektorka kurzu civilní ochrany pomáhá účastníkům sestavit si evakuační zavazadlo."
+benign = true
+marker = "Představa slouží k plánování v zájmu posluchače, nesměřuje k nákupu ani závazku vůči mluvčímu a otázka po ní je otevřená."
+response = "Benigní užití: imaginace pomáhá připravit se na reálné riziko a výsledek si určuje účastník."
+
+[[pattern]]
+id = "NLP-20.18"
+slug = "otazky-misto-tvrzeni"
+type = "pattern"
+cs = "Otázky místo tvrzení"
+en = "Questions instead of statements"
+aliases = ["řečnické otázky", "sugestivní otázky"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["otazky-s-presupozici", "vlozene-otazky", "pripojene-otazky", "presupozice-ve-vyslechu", "konverzacni-postulaty"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Neptám se, jestli kandidát bral úplatky. Ptám se jen, proč na tu otázku pořád odmítá odpovědět?"
+context = "Moderátor publicistického pořadu uvádí reportáž o politikovi."
+benign = false
+marker = "Tvrzení o úplatcích se pronese ve formě otázky, takže mluvčí za ně nenese odpovědnost, a otázka navíc předpokládá, že kandidát odpověď odmítá."
+response = "Převést otázku na tvrzení a zeptat se, jaké doklady pro ně mluvčí má; ověřit i předpoklad, že kandidát skutečně odmítl odpovědět."
+
+[[pattern.trainer]]
+utterance = "Co by pro vás muselo být jinak, abyste měl pocit, že se změna vyplatila?"
+context = "Poradkyně v motivačním rozhovoru s klientem, který váhá se změnou životosprávy."
+benign = true
+marker = "Otázka je otevřená, nepodsouvá odpověď ani skryté tvrzení a obsah odpovědi zůstává na klientovi."
+response = "Benigní užití: otázka slouží k vyjádření klientových vlastních důvodů, ne k předání názoru tazatele v nenapadnutelné formě."
+
+[[pattern]]
+id = "NLP-20.19"
+slug = "slovni-baliky"
+type = "pattern"
+cs = "Hodnotově nabitá slova"
+en = "Loaded words"
+aliases = ["nabitý jazyk", "hodnotově zatížené výrazy"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["nominalizace", "komentarova-adverbia", "presupozice-v-reklame", "nlp-v-politicke-reci", "nlp-v-sektach", "protoze"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje pochybnosti jsou jen negativní energie starého já. Kdo je skutečně probuzený, nepotřebuje to rozebírat."
+context = "Člen skupiny osobního rozvoje odpovídá jinému členovi, který vyjádřil nesouhlas s pravidlem."
+benign = false
+marker = "Výrazy „negativní energie“, „staré já“ a „probuzený“ předem rozhodují o hodnotě pochybnosti a ukončují rozhovor dřív, než se k obsahu dostane."
+response = "Přeložit nabitý výraz do neutrálního popisu („nesouhlasím s tímto pravidlem“) a trvat na rozhovoru o obsahu nesouhlasu."
+
+[[pattern.trainer]]
+utterance = "V textu píšu „zásah policie“, ne „brutální útok“ ani „nutné opatření“, protože jsem u toho nebyla a znám jen protokol."
+context = "Novinářka vysvětluje redaktorovi volbu slov ve zprávě."
+benign = true
+marker = "Mluvčí si nabité výrazy uvědomuje a vědomě volí co nejneutrálnější popis odpovídající tomu, co je doloženo."
+response = "Benigní kontrast: vědomá volba neutrálního slova je obranou proti hodnotovému zatížení, ne jeho použitím."
+
+[[pattern]]
+id = "NLP-20.20"
+slug = "casove-presuny-v-jazyce"
+type = "pattern"
+cs = "Časové posuny v jazyce"
+en = "Verb tense shifts"
+aliases = ["posuny slovesného času", "přesun do minulého času"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["pseudoorientace-v-case", "zatim", "presupozice-casovych-vet", "casove-kodovani", "slovesa-zmeny-casu", "zmena-osobni-historie"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md",
+  "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To, že jsem na tebe křičel, bylo tehdy. Teď už jsme jinde, tak proč pořád žiješ v minulosti?"
+context = "Partner reaguje na zmínku o incidentu, ke kterému došlo minulý týden."
+benign = false
+marker = "Minulý čas a slovo „tehdy“ posouvají nedávnou a možná trvající událost do uzavřené minulosti a jejímu připomenutí se přisuzuje vada posluchače."
+response = "Vrátit se k datu a k faktům: kdy se to stalo, zda se to opakuje, a rozlišit, co je skutečně uzavřené a co trvá."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že jste dřív měla záchvaty paniky skoro denně. Jak často se objevují teď?"
+context = "Klinická psycholožka při kontrolním vyšetření pacientky po léčbě."
+benign = true
+marker = "Minulý čas odpovídá tomu, co pacientka sama popsala, a hned následuje otevřená otázka na současný stav, která připouští i odpověď, že potíže trvají."
+response = "Benigní užití: časové rozlišení slouží přesnému popisu průběhu, ne podsunutí, že problém už skončil."

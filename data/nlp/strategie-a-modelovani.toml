@@ -1,0 +1,335 @@
+# Rodina NLP-14: Strategie a modelování (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-14.01"
+slug = "elicitace-strategie"
+type = "pattern"
+cs = "Elicitace strategie"
+en = "Strategy elicitation"
+aliases = ["odhalování strategie", "vyvolání strategie"]
+use = "dvoji"
+risk = "stredni"
+broader = "strategie-pojem"
+related = ["tote-model", "kalibrace", "ocni-pristupove-signaly", "predikaty", "utilizace-strategie", "instalace-strategie"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Než vám ukážu ceník, ještě mě zajímá: když jste naposledy kupoval něco dražšího, co přesně se dělo těsně předtím, než jste si řekl, že je to ono? Spíš jste to viděl, nebo vám to někdo popsal?"
+context = "Obchodník v showroomu před předložením nabídky."
+benign = false
+marker = "Otázky na pořadí vnitřních kroků posledního rozhodnutí nepatří k obsahu nabídky; jejich účelem je zjistit, v jakém sledu podat informace, aby vyvolaly souhlas."
+response = "Odpovídat o tom, co od výrobku potřebuji, ne o tom, jak se rozhoduji; trvat na cenách, podmínkách a srovnání s alternativami a rozhodnutí si nechat na později."
+
+[[pattern.trainer]]
+utterance = "Když se vám učení na zkoušku daří, jak to obvykle probíhá? Nejdřív si to přečtete, nebo si to zkusíte vysvětlit nahlas? Chci pochopit, co vám funguje, abychom to mohli použít i u statistiky."
+context = "Studijní poradkyně na konzultaci se studentem, který o ni sám požádal."
+benign = true
+marker = "Dotaz na vlastní postup slouží cíli, který si student zvolil, a zjištění zůstává jemu k dispozici; nic se nepoužívá k prosazení cizího zájmu."
+response = "Benigní užití: sebepoznání ve službě vlastního cíle, s otevřeným výsledkem a bez skryté nabídky, kterou by měl student přijmout."
+
+[[pattern]]
+id = "NLP-14.02"
+slug = "pravopisna-strategie"
+type = "pattern"
+cs = "Pravopisná strategie"
+en = "Spelling strategy"
+aliases = ["vizuální strategie psaní slov"]
+use = "terapie"
+risk = "nizke"
+broader = "strategie-pojem"
+related = ["strategie-uceni", "ocni-pristupove-signaly", "vizualni-system", "vyzkum-ocnich-signalu", "instalace-strategie"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/critical-perspectives/_index.md",
+  "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vaše dcera dělá chyby jen proto, že při psaní kouká dolů místo nahoru doleva. Za deset lekcí jí to přeprogramujeme a diktáty bude psát bez chyby, zaručeně."
+context = "Lektor placeného kurzu pro rodiče dítěte s obtížemi v pravopisu."
+benign = false
+marker = "Směr pohledu se vydává za příčinu chyb a změna strategie za zaručené řešení; chybí vyšetření a nabízí se jediná placená cesta."
+response = "Nechat obtíže posoudit pedagogicko-psychologickou poradnou a ptát se po doložených výsledcích metody, ne po příbězích úspěchu."
+
+[[pattern.trainer]]
+utterance = "Zkus si to slovo napsat, chvilku se na ně dívej a pak ho napiš zpaměti. Některým lidem pomáhá si slovo představit, jiným spíš hláskování nahlas; uvidíme, co sedí tobě."
+context = "Učitelka při doučování pravopisu."
+benign = true
+marker = "Představa slova se nabízí jako jedna z možností vedle jiných, bez nároku na zaručený výsledek a bez výkladu o pohybech očí."
+response = "Benigní užití: běžná pedagogická opora, která respektuje rozdíly mezi žáky a ověřuje se tím, zda žákovi pomáhá."
+
+[[pattern]]
+id = "NLP-14.03"
+slug = "rozhodovaci-strategie"
+type = "pattern"
+cs = "Rozhodovací strategie"
+en = "Decision strategy"
+aliases = ["strategie rozhodování", "nákupní strategie"]
+use = "dvoji"
+risk = "stredni"
+broader = "strategie-pojem"
+related = ["presvedcovaci-strategie", "motivacni-strategie", "nlp-v-prodeji", "utilizace-strategie", "tote-model"]
+kompendium = [
+  "kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md",
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkal jste, že se rozhodujete, až když to vidíte na vlastní oči a máte z toho dobrý pocit. Tak se podívejte na tenhle model, sedněte si do něj, a ten dobrý pocit, který teď máte, to je přesně vaše rozhodnutí."
+context = "Prodejce automobilů při zkušební jízdě."
+benign = false
+marker = "Dříve zjištěné pořadí kroků zákazníka se zrcadlí v podání nabídky a výsledný pocit se rovnou prohlásí za hotové rozhodnutí."
+response = "Oddělit pocit z prohlídky od rozhodnutí: vyžádat si písemnou nabídku, srovnat ji s jinými a rozhodnout až mimo prodejnu."
+
+[[pattern.trainer]]
+utterance = "Když se rozhodujete o léčbě, pomáhá vám víc mít všechno napsané, nebo si to probrat s rodinou? Můžu vám dát podklady domů a sejít se znovu za týden."
+context = "Lékařka nabízí pacientovi dvě možnosti léčby."
+benign = true
+marker = "Otázka na způsob rozhodování slouží k tomu, aby pacient dostal informace ve vhodné formě a měl čas; výsledek rozhodnutí zůstává otevřený."
+response = "Benigní užití: přizpůsobení formy informací podporuje informovaný souhlas, ne určitou volbu."
+
+[[pattern]]
+id = "NLP-14.04"
+slug = "motivacni-strategie"
+type = "pattern"
+cs = "Motivační strategie"
+en = "Motivation strategy"
+aliases = ["strategie motivace"]
+use = "dvoji"
+risk = "stredni"
+broader = "strategie-pojem"
+related = ["k-cili-a-od-problemu", "rozhodovaci-strategie", "nlp-v-koucinku", "velke-seminare", "submodality-pojem"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/case-studies/63-investor-cult.md",
+  "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Představ si, jak budeš za rok vypadat, když dnes nepodepíšeš: stejná práce, stejný strach, stejný účet. A teď si představ tu druhou verzi. Cítíš ten rozdíl? Ten pocit tě má pohnout k podpisu hned teď."
+context = "Lektor na prodejní akci motivačního programu."
+benign = false
+marker = "Vyvolaný obraz hrozby a obraz odměny se střídají tak, aby se pocit z jejich kontrastu přenesl na okamžitý podpis; obsah nabídky se nehodnotí."
+response = "Nechat pocit odeznít a posoudit nabídku podle faktů: cena, podmínky odstoupení, doložené výsledky; podpis za vyvolaného napětí odmítnout."
+
+[[pattern.trainer]]
+utterance = "Co vás v minulosti opravdu dostalo z gauče, když jste začínal s pohybem? Ne co by mělo, ale co skutečně fungovalo. Z toho můžeme vyjít."
+context = "Fyzioterapeut se ptá pacienta, který chce začít cvičit."
+benign = true
+marker = "Dotaz na vlastní zdroje motivace vychází z cíle, který si pacient stanovil, a odpověď slouží jemu."
+response = "Benigní užití: podobně jako v motivačním rozhovoru se hledají vlastní důvody člověka, bez nátlaku a s možností odmítnout."
+
+[[pattern]]
+id = "NLP-14.05"
+slug = "presvedcovaci-strategie"
+type = "pattern"
+cs = "Strategie přesvědčení o pravdivosti"
+en = "Convincer strategy"
+aliases = ["strategie přesvědčení", "convincer"]
+use = "dvoji"
+risk = "stredni"
+broader = "strategie-pojem"
+related = ["kanal-presvedceni", "rezim-presvedceni", "strategie-reality", "som-strategie-reality", "rozhodovaci-strategie"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkala jste, že potřebujete slyšet tři lidi, kterým to pomohlo. Tady máte první, druhou a třetí paní, všechny jsou z vašeho kraje. Teď už víte, že to funguje."
+context = "Zástupce prodejce doplňků stravy na předváděcí akci."
+benign = false
+marker = "Počet a druh příkladů, které člověk sám označil za přesvědčivé, se dodají přesně podle zadání a jejich splnění se prohlásí za důkaz účinku."
+response = "Uvědomit si, že vlastní kritérium bylo naplněno na objednávku; požádat o nezávislé doklady, například výsledky kontrolovaných studií, a ne o další svědectví."
+
+[[pattern.trainer]]
+utterance = "Než tomu výsledku uvěříme, chtěla bych ho vidět zopakovaný na jiném vzorku a přečíst si metodiku. Dva pěkné grafy mi zatím nestačí."
+context = "Vedoucí výzkumné skupiny na poradě nad předběžnými daty."
+benign = true
+marker = "Kritérium přesvědčení je stanoveno předem, nezávisí na tom, kdo výsledek předkládá, a vyžaduje nezávislé ověření."
+response = "Benigní užití: vědomě nastavené a veřejné kritérium důkazu chrání před tím, aby přesvědčení vzniklo jen opakováním nebo sympatiemi."
+
+[[pattern]]
+id = "NLP-14.06"
+slug = "strategie-uceni"
+type = "pattern"
+cs = "Strategie učení"
+en = "Learning strategy"
+aliases = ["strategie zapamatování"]
+use = "dvoji"
+risk = "nizke"
+broader = "strategie-pojem"
+related = ["pravopisna-strategie", "vyzkum-preferovaneho-systemu", "modelovani-excelence", "novy-kod", "stav-nevedeni"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Že jsi u zkoušky neprošel, není tím, že ses málo učil. Tvoje strategie učení je od dětství nastavená špatně a dokud neabsolvuješ celý náš výcvik, nic se nezmění."
+context = "Lektor rozvojového programu hovoří s vysokoškolákem po neúspěchu."
+benign = false
+marker = "Neúspěch se přičte skryté vadě vnitřní strategie, kterou umí opravit jen nabízející, a jediným řešením je jeho placený program."
+response = "Rozebrat neúspěch konkrétně, tedy čas, látku a způsob opakování, a obrátit se na studijní poradenství, které nepodmiňuje pomoc koupí výcviku."
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že si látku pamatuji líp, když si ji večer zkusím někomu vysvětlit. Tak to teď dělám s kamarádem před každou písemkou."
+context = "Student popisuje spolužákovi, jak se připravuje."
+benign = true
+marker = "Vlastní postup učení si člověk všiml sám, ověřuje ho výsledky a nikomu jinému ho nevnucuje."
+response = "Benigní užití: reflexe vlastního učení, kterou podporuje i běžná pedagogická psychologie, bez nároku na zvláštní techniku."
+
+[[pattern]]
+id = "NLP-14.07"
+slug = "strategie-reality"
+type = "pattern"
+cs = "Strategie reality"
+en = "Reality strategy"
+aliases = ["strategie skutečnosti", "test reality"]
+use = "dvoji"
+risk = "vysoke"
+broader = "strategie-pojem"
+related = ["som-strategie-reality", "presvedcovaci-strategie", "trauma-a-falesne-vzpominky", "submodality-pojem", "mapa-neni-uzemi"]
+kompendium = [
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všimni si, že ta vzpomínka je rozmazaná a vidíš ji zvenku. Skutečné věci si lidé pamatují ostře a zevnitř. Takže tohle se nestalo, jen sis to vyprávěl tak dlouho, až tomu věříš."
+context = "Partner reaguje na připomínku hádky, kterou druhý pamatuje jinak."
+benign = false
+marker = "Vlastnosti vnitřní představy, ostrost a úhel pohledu, se vydávají za spolehlivé měřítko toho, zda se událost stala, a slouží k popření vzpomínky druhého."
+response = "Vědět, že jasnost vzpomínky o její pravdivosti nerozhoduje; opřít se o vnější stopy, tedy zprávy, zápisky a svědky, a nepřijímat výklad mluvčího jako rozhodnutí o realitě."
+
+[[pattern.trainer]]
+utterance = "Nejsem si jistá, jestli jsem tu fakturu poslala, nebo jsem to jen měla v plánu. Podívám se raději do odeslané pošty, než to někomu potvrdím."
+context = "Účetní při kontrole uzávěrky."
+benign = true
+marker = "Rozlišení vzpomínky a záměru se opírá o vnější záznam, ne o pocit jistoty nebo o úsudek jiné osoby."
+response = "Benigní užití: přirozené ověřování reality vnější stopou, které chrání před záměnou představy a vzpomínky."
+
+[[pattern]]
+id = "NLP-14.08"
+slug = "strategie-lasky"
+type = "pattern"
+cs = "Strategie lásky"
+en = "Love strategy"
+aliases = ["strategie pocitu, že jsem milován"]
+use = "vliv"
+risk = "vysoke"
+broader = "strategie-pojem"
+related = ["kotveni-v-kontrolujicich-vztazich", "nlp-v-komunite-svadeni", "utilizace-strategie", "manipulativni-reframing-ve-vztazich", "motivacni-strategie"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Už na druhém rande mi přesně popsal, že se cítím milovaná, když mi někdo každý den píše a chválí mě před ostatními. Od té doby to dělal pořád. A když jsem nesouhlasila, najednou přestal, dokud jsem se neomluvila."
+context = "Klientka popisuje terapeutce začátek vztahu, ze kterého odešla."
+benign = false
+marker = "Zjištěný kanál, kterým člověk prožívá náklonnost, se nejprve zahltí a pak se jeho odnímáním trestá nesouhlas; náklonnost se stává pákou."
+response = "Pojmenovat cyklus zahlcení a odnímání jako znak kontrolujícího vztahu, hledat oporu mimo vztah a posuzovat partnera podle jednání v nesouhlasu, ne podle intenzity projevů."
+
+[[pattern.trainer]]
+utterance = "Asi jsem ti málokdy řekl nahlas, že tě mám rád, a ty to potřebuješ slyšet víc než já. Zkusím na to myslet, ale řekni mi, když to přeženu."
+context = "Partner v párové terapii po rozhovoru o tom, jak kdo vyjadřuje náklonnost."
+benign = true
+marker = "Poznání toho, jak druhý prožívá náklonnost, slouží jeho potřebě, je oboustranně vyjednané a nesouhlas se netrestá."
+response = "Benigní užití: vzájemné porozumění způsobům, jimiž partneři vyjadřují a přijímají náklonnost, bez podmiňování a bez skryté páky."
+
+[[pattern]]
+id = "NLP-14.09"
+slug = "strategie-geniality"
+type = "pattern"
+cs = "Strategie geniality"
+en = "Strategies of genius"
+aliases = ["strategie génia", "modelování géniů"]
+use = "dvoji"
+risk = "nizke"
+broader = "modelovani-excelence"
+related = ["disneyova-strategie", "modelovani-excelence", "guru-efekt", "tote-model", "strategie-uceni"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/critical-perspectives/_index.md",
+  "kompendium/case-studies/62-startup-founder-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Mozart, Einstein a Disney mysleli přesně takhle, je to zmapované. Kdo projde naším víkendem a převezme jejich strategii, bude myslet jako oni. Pochybovat o tom můžou jen ti, kdo to nezkusili."
+context = "Prodejní stránka víkendového semináře osobního rozvoje."
+benign = false
+marker = "Výkladová rekonstrukce myšlení slavných osobností se podává jako doložená mapa a příslib přenosu geniality; pochybnost se předem označí za nedostatek zkušenosti."
+response = "Rozlišit interpretaci životopisných textů od empirického důkazu a ptát se, jak byl přenos schopností ověřen a na kom."
+
+[[pattern.trainer]]
+utterance = "Ten Diltsův rozbor Disneyho čtu jako zajímavou interpretaci. Rozdělit si poradu na fázi nápadů a fázi kritiky nám může pomoct, ale nečekám, že z nás udělá Disneyho."
+context = "Vedoucí týmu představuje kolegům inspiraci pro brainstorming."
+benign = true
+marker = "Rekonstrukce se bere jako heuristika a inspirace, bez nároku na přenos schopností a s vědomím, že jde o výklad."
+response = "Benigní užití: práce s rozborem jako s pracovní pomůckou, jejíž hodnota se posuzuje podle užitku v konkrétní práci."
+
+[[pattern]]
+id = "NLP-14.10"
+slug = "modelovani-excelence"
+type = "pattern"
+cs = "Modelování excelence"
+en = "Modelling excellence"
+aliases = ["modelování", "modeling"]
+use = "dvoji"
+risk = "stredni"
+broader = "modelovani-pojem"
+related = ["modelovani-pojem", "modelovatelnost-excelence", "novy-kod", "modelovani-nevedomim", "koreny-nlp", "kargokultovni-psychologie"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/case-studies/62-startup-founder-cult.md",
+  "kompendium/case-studies/66-academic-school-cult.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nesnaž se tomu rozumět, to jen brzdí. Dívej se, jak to dělá zakladatel, mluv jako on, sedni si jako on, a až budeš jako on, výsledky přijdou samy."
+context = "Starší člen obchodní sítě vede nováčka."
+benign = false
+marker = "Napodobení vnějších projevů vůdčí osoby se nabízí jako cesta k úspěchu a vlastní úsudek se označuje za překážku; modelování se mění v připodobnění k autoritě."
+response = "Ptát se, jakými výsledky se úspěch měří a kolik lidí jich napodobením skutečně dosáhlo, a zachovat si vlastní kritické myšlení jako součást učení."
+
+[[pattern.trainer]]
+utterance = "Chodím k té zkušené chirurgyni na sál, dívám se, jak volí přístup, a po operaci se jí ptám, proč to udělala zrovna tak. Pak to probíráme s mým školitelem."
+context = "Lékař v přípravě popisuje, jak se učí novou operační techniku."
+benign = true
+marker = "Učení napodobením probíhá pod dohledem, s otázkami po důvodech a s nezávislou kontrolou; vzor není autoritou nad úsudkem učícího se."
+response = "Benigní užití: běžné učení od zkušenějšího v praxi, které spojuje pozorování, vysvětlení a ověření výsledků."

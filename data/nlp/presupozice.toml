@@ -1,0 +1,380 @@
+# Rodina NLP-06: Jazykové presupozice (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Tento soubor nese záznamy NLP-06.01 až NLP-06.10; další záznamy rodiny mohou být v částech
+# data/nlp/presupozice.<část>.toml.
+
+[[pattern]]
+id = "NLP-06.01"
+slug = "jazykove-presupozice"
+type = "pattern"
+cs = "Jazykové presupozice"
+en = "Linguistic presuppositions"
+aliases = ["presupozice", "předpoklady výpovědi", "spouštěče presupozic"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = [
+  "presupozice-milton",
+  "presupozice-v-meta-modelu",
+  "otazky-s-presupozici",
+  "presupozice-ve-vyslechu",
+  "faktivni-slovesa",
+]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Než začneme řešit, proč jsi celý tým podrazil, chci vědět, kdo další o tom věděl."
+context = "Vedoucí na schůzce se zaměstnancem, o jehož pochybení zatím nikdo nerozhodl."
+benign = false
+marker = "Sporné tvrzení (podrazil jsi tým) je uloženo ve vedlejší větě a v otázce na další osoby, takže se o něm nejedná, jen se z něj vychází."
+response = "Vytáhnout předpoklad na povrch a odmítnout ho jako hotovou věc: nejdřív je třeba ověřit, zda k podrazu vůbec došlo, a teprve potom řešit, kdo o čem věděl."
+
+[[pattern.trainer]]
+utterance = "Když jsi minulý týden přinesl ten návrh rozpočtu, všiml jsem si dvou chyb ve výpočtu DPH."
+context = "Kolega komentuje dokument, který skutečně odevzdaný byl a je k dispozici."
+benign = true
+marker = "Výrok sice obsahuje presupozice (návrh existuje, byl přinesen), ale jsou ověřitelné a obě strany je sdílejí jako společný základ."
+response = "Jde o běžné užití: presupozice jen odkazuje na společně známou skutečnost a sporný obsah (dvě chyby) je vyslovený otevřeně, takže ho lze zkontrolovat."
+
+[[pattern]]
+id = "NLP-06.02"
+slug = "existencni-presupozice"
+type = "pattern"
+cs = "Existenční presupozice"
+en = "Existential presupposition"
+aliases = ["presupozice existence", "určitá deskripce"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "nominalizace",
+  "nespecifikovany-referencni-index",
+  "vztazne-vety-presupozice",
+  "otazky-s-presupozici",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje hysterie kolem té věci s penězi už začíná být problém pro celou rodinu."
+context = "Partner reaguje na otázku, kam zmizely společné úspory."
+benign = false
+marker = "Přivlastňovací spojení „tvoje hysterie“ vydává za existující věc něco, co je jen hodnocení, a otázka po penězích se tím mění v „tu věc“."
+response = "Odmítnout, že označená věc existuje jen proto, že byla pojmenována, a vrátit hovor k ověřitelnému obsahu: kde jsou peníze a kdo s nimi nakládal."
+
+[[pattern.trainer]]
+utterance = "Ta zpráva z kontroly, kterou jsme dostali v pondělí, má na straně tři chybu v datu."
+context = "Úřednice upozorňuje kolegu na konkrétní dokument v jejich společné složce."
+benign = true
+marker = "Určité spojení „ta zpráva z kontroly“ předpokládá existenci dokumentu, který je ale dohledatelný a oběma známý."
+response = "Jde o neškodné užití: existence věci je sdílená a ověřitelná, presupozice jen šetří slova."
+
+[[pattern]]
+id = "NLP-06.03"
+slug = "presupozice-casovych-vet"
+type = "pattern"
+cs = "Presupozice časových vět"
+en = "Subordinate clauses of time"
+aliases = ["časové vedlejší věty", "presupozice spojek než, až, když"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "slovesa-zmeny-casu",
+  "budouci-prehravani",
+  "implikovane-direktivum",
+  "casove-presuny-v-jazyce",
+  "presupozice-milton",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Až konečně pochopíš, proč tě skupina potřebuje celého, budeš se za dnešní pochybnosti stydět."
+context = "Starší člen skupiny mluví s nováčkem, který váhá s dalším závazkem."
+benign = false
+marker = "Spojka „až“ vydává budoucí pochopení za jisté; spor se přesouvá na to, kdy k němu dojde, a pochybnost je předem označena za něco, za co se člověk bude stydět."
+response = "Zaznamenat, že „až“ obsahuje nevyslovené tvrzení, a postavit ho jako otázku: zda k pochopení vůbec dojde a podle čeho by se poznalo, že pochybnosti byly oprávněné."
+
+[[pattern.trainer]]
+utterance = "Až dorazí výsledky krevních testů, zavolám vám a domluvíme další postup léčby."
+context = "Lékařka po odběru krve v ambulanci."
+benign = true
+marker = "Časová věta předpokládá, že výsledky dorazí, což je běžná a ověřitelná součást postupu."
+response = "Jde o neškodné užití: presupozice se týká zavedené procedury, nikoli sporného hodnocení člověka, a slib je kontrolovatelný."
+
+[[pattern]]
+id = "NLP-06.04"
+slug = "poradove-cislovky"
+type = "pattern"
+cs = "Pořadové číslovky"
+en = "Ordinal numerals"
+aliases = ["presupozice řady", "první, další, poslední"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "opakovaci-slova",
+  "iluze-volby",
+  "retezeni-sugesci",
+  "budouci-prehravani-v-prodeji",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jaká bude první věc, kterou ve svém životě změníš, až se rozhodneš pro náš program?"
+context = "Prodejce drahého kurzu osobního rozvoje na úvodním setkání."
+benign = false
+marker = "Číslovka „první“ předpokládá celou řadu změn a spojka „až“ předpokládá rozhodnutí, o kterém dosud nepadlo ani slovo."
+response = "Oddělit otázku na pořadí od otázky, zda řada vůbec existuje: nejprve se rozhoduje o tom, zda program dává smysl, a teprve pak o tom, co by se měnilo."
+
+[[pattern.trainer]]
+utterance = "Toto je druhá ze tří přednášek kurzu; první byla minulý týden a záznam najdete na webu."
+context = "Vyučující na začátku semináře s veřejně dostupným rozvrhem."
+benign = true
+marker = "Pořadová číslovka předpokládá řadu přednášek, která je ale předem ohlášená a ověřitelná v rozvrhu."
+response = "Jde o neškodné užití: řada skutečně existuje a posluchač si ji může zkontrolovat."
+
+[[pattern]]
+id = "NLP-06.05"
+slug = "presupozice-nebo"
+type = "pattern"
+cs = "Presupozice spojky „nebo“"
+en = "Use of „or“"
+aliases = ["presupozice disjunkce", "volba mezi dvěma variantami téhož"]
+use = "dvoji"
+risk = "vysoke"
+broader = "jazykove-presupozice"
+related = [
+  "iluze-volby",
+  "terapeuticka-dvojna-vazba",
+  "sugesce-pokryvajici-vsechny-moznosti",
+  "otazky-s-presupozici",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Chceš o tom mluvit s rodiči sama dnes večer, nebo jim to zítra řeknu já?"
+context = "Partner tlačí druhou osobu ke sdělení rozhodnutí, se kterým nesouhlasila."
+benign = false
+marker = "Obě varianty spojené „nebo“ předpokládají, že se rodičům sdělí totéž; na výběr je jen kdo a kdy, nikoli zda."
+response = "Pojmenovat chybějící třetí možnost (nic se zatím neříká, protože rozhodnutí neplatí) a vrátit spor k tomu, o čem se skutečně nerozhodlo."
+
+[[pattern.trainer]]
+utterance = "Můžeme se sejít v úterý, nebo ve čtvrtek; jestli se vám nehodí ani jedno, navrhněte jiný den."
+context = "Asistentka domlouvá schůzku, o které se obě strany předem dohodly."
+benign = true
+marker = "Disjunkce nabízí jen termíny schůzky, na které už je souhlas, a výslovně ponechává otevřenou i třetí možnost."
+response = "Jde o neškodné užití: rozhodnutí o setkání už padlo svobodně a nabídka nevylučuje odmítnutí obou variant."
+
+[[pattern]]
+id = "NLP-06.06"
+slug = "predikaty-uvedomeni"
+type = "pattern"
+cs = "Predikáty uvědomění"
+en = "Awareness predicates"
+aliases = ["slovesa vědění a uvědomění", "víš, že…"]
+use = "dvoji"
+risk = "vysoke"
+broader = "jazykove-presupozice"
+related = [
+  "faktivni-slovesa",
+  "cteni-myslenek",
+  "cteni-myslenek-milton",
+  "truismy",
+]
+kompendium = [
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Sám dobře víš, že bez mě bys tu práci nikdy nedostal, tak se nedivím, že se bojíš odejít."
+context = "Nadřízený v rozhovoru s podřízeným, který zmínil nabídku od jiné firmy."
+benign = false
+marker = "Sloveso „víš, že“ vydává sporné tvrzení o závislosti za pravdu, kterou adresát už zná, a navíc mu připisuje strach."
+response = "Oddělit predikát od obsahu: mluvčí neví, co adresát ví, a tvrzení o jeho závislosti je třeba posoudit samostatně podle faktů o tom, jak práci získal."
+
+[[pattern.trainer]]
+utterance = "Víte, že ordinace bude od pondělí zavřená? Visí to na dveřích a poslali jsme i e-mail."
+context = "Sestra se při telefonátu ujišťuje, že pacient dostal oznámení."
+benign = true
+marker = "Predikát uvědomění předpokládá pravdivost oznámení, které je však doložené a ověřitelné, a otázka skutečně zjišťuje, zda o něm pacient ví."
+response = "Jde o neškodné užití: presupozice se týká veřejně oznámené skutečnosti a nehodnotí adresáta."
+
+[[pattern]]
+id = "NLP-06.07"
+slug = "komentarova-adverbia"
+type = "pattern"
+cs = "Komentářová příslovce a přídavná jména"
+en = "Commentary adverbs and adjectives"
+aliases = ["hodnoticí příslovce", "naštěstí, samozřejmě, bohužel"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "ztraceny-performativ",
+  "ztraceny-performativ-milton",
+  "truismy",
+  "komplexni-ekvivalence",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Samozřejmě chápu, že máš strach, ale naštěstí ti nakonec dojde, jak dětinsky ses choval."
+context = "Člověk ve vedoucí roli komentuje stížnost, kterou na něj druhý podal."
+benign = false
+marker = "Příslovce „samozřejmě“ a „naštěstí“ vydávají hodnocení za samozřejmost a za příznivou okolnost, takže dětinskost i budoucí prozření jsou předpokládány, ne tvrzeny."
+response = "Přeložit příslovce zpět na tvrzení a zeptat se, kdo hodnotí: je vůbec jisté, že šlo o dětinské chování, a pro koho je „naštěstí“ to, že by stížnost padla?"
+
+[[pattern.trainer]]
+utterance = "Bohužel se zkouška musí přesunout, protože se v budově opravuje topení."
+context = "Studijní oddělení oznamuje změnu termínu."
+benign = true
+marker = "Příslovce „bohužel“ předpokládá, že přesun je nepříjemný, ale jen vyjadřuje lítost nad doloženou okolností a nehodnotí adresáty."
+response = "Jde o neškodné užití: hodnocení je zjevně postoj mluvčího, důvod je vyslovený a ověřitelný."
+
+[[pattern]]
+id = "NLP-06.08"
+slug = "slovesa-zmeny-casu"
+type = "pattern"
+cs = "Slovesa změny času a stavu"
+en = "Change-of-time verbs and adverbs"
+aliases = ["slovesa změny stavu", "přestat, začít, ještě, už"]
+use = "dvoji"
+risk = "vysoke"
+broader = "jazykove-presupozice"
+related = [
+  "presupozice-casovych-vet",
+  "opakovaci-slova",
+  "otazky-s-presupozici",
+  "casove-presuny-v-jazyce",
+  "presupozice-ve-vyslechu",
+]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Už jsi přestala dělat ze sebe oběť, nebo ti to pořád ještě chvíli vydrží?"
+context = "Partner v hádce reaguje na to, že druhá osoba popsala, co ji zranilo."
+benign = false
+marker = "„Přestat“ a „pořád ještě“ předpokládají, že se adresátka jako oběť stavěla a dál staví; každá přímá odpověď tento předpoklad potvrdí."
+response = "Neodpovídat v rámci otázky a odmítnout předpoklad, že popis zranění je „dělání ze sebe oběti“; vrátit hovor k tomu, co se stalo."
+
+[[pattern.trainer]]
+utterance = "Pokračujete ještě v užívání toho léku na tlak, který vám předepsal kardiolog?"
+context = "Praktický lékař při kontrole s doloženou zdravotní dokumentací."
+benign = true
+marker = "„Pokračovat ještě“ předpokládá dřívější užívání léku, které je však doloženo v dokumentaci a není sporné."
+response = "Jde o neškodné užití: předpoklad se opírá o záznam a otázka nechává obě odpovědi stejně snadné."
+
+[[pattern]]
+id = "NLP-06.09"
+slug = "opakovaci-slova"
+type = "pattern"
+cs = "Opakovací slova"
+en = "Repetitive cue words"
+aliases = ["iterativa", "zase, znovu, opět, také"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "slovesa-zmeny-casu",
+  "kvalifikatory-jen-i",
+  "univerzalni-kvantifikator",
+  "kotveni-v-kontrolujicich-vztazich",
+]
+kompendium = [
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Zase jsi to všechno pokazila, přesně jako vždycky, když na tebe někdo spoléhá."
+context = "Rodič komentuje drobný nezdar dospělé dcery."
+benign = false
+marker = "„Zase“ předpokládá řadu dřívějších selhání, která nikdo nejmenuje, a spojení s „vždycky“ dělá z jednoho nezdaru potvrzení trvalé vlastnosti."
+response = "Oddělit současnou událost od předpokládané řady: zeptat se, o která dřívější selhání má jít, a posoudit dnešní nezdar samostatně."
+
+[[pattern.trainer]]
+utterance = "Kontrola našla tu samou chybu v účetnictví znovu, stejně jako loni, takže se jí budeme věnovat."
+context = "Vedoucí účtárny na poradě s doloženou zprávou z obou kontrol."
+benign = true
+marker = "„Znovu“ předpokládá dřívější výskyt chyby, který je doložen loňskou zprávou."
+response = "Jde o neškodné užití: opakování je zaznamenané a slouží k nápravě postupu, ne k hodnocení osoby."
+
+[[pattern]]
+id = "NLP-06.10"
+slug = "kvalifikatory-jen-i"
+type = "pattern"
+cs = "Částice „jen“, „i“, „dokonce“"
+en = "Qualifiers only, even, too"
+aliases = ["vytýkací částice", "fokalizátory", "jen, i, dokonce, kromě"]
+use = "dvoji"
+risk = "stredni"
+broader = "jazykove-presupozice"
+related = [
+  "opakovaci-slova",
+  "srovnavaci-presupozice",
+  "srovnavaci-delece",
+  "komentarova-adverbia",
+]
+kompendium = [
+  "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Dokonce i ty bys měl vidět, že tvůj návrh nikdo z týmu nebere vážně."
+context = "Vedoucí odmítá návrh pracovníka před dalšími kolegy."
+benign = false
+marker = "„Dokonce i ty“ předpokládá, že ostatní to už vidí, a že adresát patří k nejméně chápavým; souhlas týmu se nedokládá, jen se z něj vychází."
+response = "Rozložit částici na skryté tvrzení a ověřit ho: kdo z týmu se k návrhu vyjádřil a co přesně řekl."
+
+[[pattern.trainer]]
+utterance = "Na seminář jsou zváni i studenti prvního ročníku, nejen doktorandi."
+context = "Pozvánka katedry na otevřenou přednášku."
+benign = true
+marker = "Částice „i“ předpokládá, že zváni jsou i další (doktorandi), což text výslovně uvádí."
+response = "Jde o neškodné užití: předpokládaná skupina je jmenovaná a presupozice jen rozšiřuje okruh pozvaných."

@@ -72,7 +72,7 @@ Po několika cyklech subjekt zažívá **kognitivní vyčerpání**: každý nov
 
 ### Krok 5 — Nabídnutí „konečného“ rámce
 
-V momentu maximální paradigmatické bezdomoviny manipulátor nabízí **stabilizující meta-rámec** — typicky prezentovaný jako *„nad-paradigmatický“*, *„za všemi paradigmaty“*, *„přímo pravda za vším konstruktem“*. Subjekt akceptuje s **minimální kritickou rezistencí**, protože jakákoli stabilizace je preferovaná před pokračující bezdomovinou.
+V momentu maximální paradigmatické bezdomoviny manipulátor nabízí **stabilizující [meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md)** — typicky prezentovaný jako *„nad-paradigmatický“*, *„za všemi paradigmaty“*, *„přímo pravda za vším konstruktem“*. Subjekt akceptuje s **minimální kritickou rezistencí**, protože jakákoli stabilizace je preferovaná před pokračující bezdomovinou.
 
 Akceptovaný meta-rámec je obvykle **doktrinální** — vyžaduje submisivitu vůči konkrétnímu zdroji autority (manipulátor, skupina, text).
 

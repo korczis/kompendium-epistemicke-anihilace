@@ -1,0 +1,399 @@
+# Rodina NLP-17: Metaprogramy (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-17.01"
+slug = "k-cili-a-od-problemu"
+type = "concept"
+cs = "K cíli a od problému"
+en = "Toward and away from"
+aliases = ["směr motivace", "k a od"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["pozitivni-formulace-cile", "od-problemu-k-vysledku", "motivacni-strategie", "metaprogramy-v-marketingu", "proaktivni-a-reaktivni"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vy přece nechcete skončit jako ti ostatní, kterým to celé spadlo na hlavu. Proto se musíte rozhodnout ještě dnes, jinak už vás nic neochrání."
+context = "Prodejce finančního produktu na schůzce s váhajícím zájemcem."
+benign = false
+marker = "Nabídka se rámuje výhradně jako únik před hrozbou, která se zveličuje, a strach z ní se spojuje s časovým tlakem, místo aby se popsalo, co produkt skutečně přináší."
+response = "Odložit rozhodnutí, požádat o písemný popis výnosů i rizik a posoudit hrozbu podle nezávislých údajů, ne podle obrazu, který vykreslil prodejce."
+
+[[pattern.trainer]]
+utterance = "Řekl jste mi hlavně, čeho se chcete zbavit. Zkusme si teď popsat i to, jak by vypadal den, kdy už vás to netrápí."
+context = "Psycholog v úvodním rozhovoru s klientem, který mluví jen o potížích."
+benign = true
+marker = "Terapeut si všímá převahy formulací ve směru od problému a nabízí doplnit obraz žádoucího stavu, aniž by klientovi vnucoval vlastní cíl."
+response = "Benigní užití: rozšiřuje popis o pozitivně formulovaný cíl, ponechává rozhodnutí klientovi a nepracuje se strachem ani s nátlakem."
+
+[[pattern]]
+id = "NLP-17.02"
+slug = "vnitrni-a-vnejsi-reference"
+type = "concept"
+cs = "Vnitřní a vnější referenční rámec"
+en = "Internal and external reference"
+aliases = ["zdroj hodnocení", "vnitřní a vnější reference"]
+use = "dvoji"
+risk = "vysoke"
+broader = "metaprogramy-pojem"
+related = ["guru-efekt", "kriteria", "kanal-presvedceni", "ja-a-druzi", "nlp-v-sektach"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Svému úsudku zatím nevěř, ještě nejsi tak daleko. Až budeš mít pochybnosti, přijď za mnou a já ti řeknu, jestli to děláš dobře."
+context = "Vedoucí rozvojové skupiny k novému členovi po prvním měsíci."
+benign = false
+marker = "Mluvčí systematicky přesouvá zdroj hodnocení z člověka na sebe a jeho vlastní soudnost označuje za nespolehlivou, čímž pěstuje závislost na vnější referenci."
+response = "Rozpoznat, že nejde o zpětnou vazbu, ale o přenos autority; udržet si vlastní kritéria, porovnávat výsledky s vnějšími standardy a hledat názor lidí mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Než vám řeknu, co si o tom myslím já, zajímalo by mě, podle čeho sám poznáte, že se vám ten projekt povedl."
+context = "Školitel doktoranda při konzultaci rozpracované kapitoly."
+benign = true
+marker = "Otázka zve druhého, aby nejdřív formuloval vlastní měřítko úspěchu, a vnější hodnocení nabízí až potom jako doplněk."
+response = "Benigní užití: posiluje vnitřní referenci a samostatnost a vlastní názor školitele nezamlčuje, jen jej neklade na první místo."
+
+[[pattern]]
+id = "NLP-17.03"
+slug = "moznosti-a-postupy"
+type = "concept"
+cs = "Možnosti a postupy"
+en = "Options and procedures"
+aliases = ["důvod volby"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["iluze-volby", "strategie-pojem", "struktura-pravidel", "alternativni-zaver", "nlp-v-sektach"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/case-studies/62-startup-founder-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nemusíte nad tím přemýšlet, systém funguje u každého, kdo ho dodrží přesně. Kdo se odchýlí, ten si za neúspěch může sám."
+context = "Lektor víkendového kurzu podnikání k účastníkům, kteří se ptají na rizika."
+benign = false
+marker = "Postup se nabízí jako hotová a neomylná cesta, otázky se odkazují na jeho dodržování a selhání se předem přičítá odchylce účastníka, ne postupu."
+response = "Žádat doklady o výsledcích postupu včetně neúspěšných případů a posoudit, zda je vůbec možné, aby postup selhal sám o sobě; nevyvratitelný systém je varovný znak."
+
+[[pattern.trainer]]
+utterance = "K té operaci vám mohu dát přesný postup přípravy, a když budete chtít, probereme i jiné možnosti léčby, které připadají v úvahu."
+context = "Lékař vysvětluje pacientovi plánovaný zákrok."
+benign = true
+marker = "Mluvčí nabízí jak strukturovaný postup, tak výčet skutečných alternativ a nechává pacienta, aby si zvolil, co potřebuje."
+response = "Benigní užití: přizpůsobuje formu informace potřebě pacienta, alternativy jsou skutečné a rozhodnutí zůstává na něm."
+
+[[pattern]]
+id = "NLP-17.04"
+slug = "obecne-a-specificke"
+type = "concept"
+cs = "Obecné a specifické"
+en = "General and specific"
+aliases = ["rozsah", "velikost celku"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["chunking", "chunking-nahoru", "chunking-dolu", "umyslna-vagnost", "hierarchie-idei"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Detaily teď neřešme, to by nás jen zdržovalo. Podstatné je, že jde o velkou vizi a vy u toho chcete být od začátku."
+context = "Zakladatel nového projektu k investorovi, který se ptá na čísla."
+benign = false
+marker = "Otázka po konkrétních údajích se odmítá jako malichernost a rozhovor se vrací na úroveň obecné vize, ve které nelze nic ověřit."
+response = "Trvat na konkrétních údajích jako podmínce dalšího jednání; vize a čísla se nevylučují a kdo odmítá dát čísla, nedává důvod k důvěře."
+
+[[pattern.trainer]]
+utterance = "Nejdřív vám řeknu, o co v celém plánu jde, a pak projdeme jednotlivé body, ať máte přehled i podrobnosti."
+context = "Projektová manažerka představuje týmu nový harmonogram."
+benign = true
+marker = "Mluvčí střídá obecnou a konkrétní úroveň a obě dává posluchačům k dispozici, aniž by jednu z nich zakrývala."
+response = "Benigní užití: přechod mezi úrovněmi slouží porozumění, podrobnosti jsou dostupné a lze je ověřit."
+
+[[pattern]]
+id = "NLP-17.05"
+slug = "shoda-a-rozdil"
+type = "concept"
+cs = "Shoda a rozdíl"
+en = "Sameness and difference"
+aliases = ["rozhodovací faktory", "vztah ke změně", "hledání shody a hledání rozdílu"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["kontrastni-ramec", "integrace-polarit", "rezim-presvedceni", "obecne-a-specificke", "metaprogramy-v-marketingu"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty přece vždycky děláš všechno jinak než ostatní. Tohle by sis ale stejně nikdy netroufl, to zvládne jen pár lidí."
+context = "Známý přemlouvá člověka, o kterém ví, že rád odporuje, k riskantní sázce."
+benign = false
+marker = "Mluvčí využívá sklon druhého reagovat opakem: výzvu formuluje jako zákaz nebo pochybnost, aby odpor sám vedl k žádanému jednání."
+response = "Všimnout si, že rozhodnutí je řízeno vzdorem vůči formulaci, ne posouzením věci; oddělit otázku, zda to chci, od otázky, zda mi to někdo upírá."
+
+[[pattern.trainer]]
+utterance = "Většina toho, co znáte, zůstane stejná. Mění se jen způsob objednávání materiálu, ten vám ukážu na konkrétním příkladu."
+context = "Vedoucí směny vysvětluje zaměstnancům úpravu pracovního postupu."
+benign = true
+marker = "Mluvčí pravdivě odlišuje, co zůstává stejné a co se mění, a tím snižuje nejistotu ze změny bez zkreslení jejího rozsahu."
+response = "Benigní užití: popis shody i rozdílu odpovídá skutečnosti a slouží orientaci, ne zakrytí rozsahu změny."
+
+[[pattern]]
+id = "NLP-17.06"
+slug = "proaktivni-a-reaktivni"
+type = "concept"
+cs = "Proaktivní a reaktivní"
+en = "Proactive and reactive"
+aliases = ["úroveň aktivity", "iniciativa a vyčkávání"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["k-cili-a-od-problemu", "predpokladovy-zaver", "nlp-v-prodeji", "odpovednost", "pracovni-styl"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/case-studies/63-investor-cult.md",
+  "kompendium/techniques/ea-2-2-6-time-control-academic.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Úspěšní lidé neváhají a nečekají na další informace. Kdo teď začne zkoumat podmínky, ten už prohrál dřív, než začal."
+context = "Řečník na motivačním semináři před nabídkou drahého programu."
+benign = false
+marker = "Zvažování a sběr informací se označuje za slabost a jednání bez rozmyslu za ctnost, takže uvážlivost se mění v důvod k okamžitému souhlasu."
+response = "Rozpoznat, že nátlak na rychlost brání ověření; dát si lhůtu, nabídku si nechat poslat a rozhodovat až po přečtení podmínek."
+
+[[pattern.trainer]]
+utterance = "Než začneme, chci si ještě ověřit, jak na tom jsme s rozpočtem. Pak se do toho můžeme pustit naplno."
+context = "Člen týmu na poradě k zahájení nového projektu."
+benign = true
+marker = "Mluvčí spojuje uvážení s odhodláním jednat; vyčkávání má jasný účel a omezenou délku."
+response = "Benigní užití: kombinace rozvahy a iniciativy, kterou nikdo nevyužívá k tlaku ani k zahanbení."
+
+[[pattern]]
+id = "NLP-17.07"
+slug = "kriteria"
+type = "concept"
+cs = "Kritéria"
+en = "Criteria"
+aliases = ["hodnotová slova", "rozhodovací kritéria"]
+use = "dvoji"
+risk = "vysoke"
+broader = "metaprogramy-pojem"
+related = ["som-hierarchie-kriterii", "sladeni-hodnot", "slovni-baliky", "uroven-presvedceni-a-hodnot", "vnitrni-a-vnejsi-reference"]
+kompendium = [
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+  "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkal jste, že pro vás je nejdůležitější svoboda a rodina. Právě proto je tahle smlouva přesně pro vás: svoboda pro vás a jistota pro rodinu."
+context = "Zprostředkovatel investice po úvodním rozhovoru o hodnotách klienta."
+benign = false
+marker = "Mluvčí vrací klientovi jeho vlastní hodnotová slova a spojuje je s produktem, aniž by doložil, jak produkt tyto hodnoty skutečně naplňuje."
+response = "Všimnout si, že slyším vlastní slova, ne argument; ptát se, jak konkrétně smlouva naplní to, na čem mi záleží, a ověřit to v textu smlouvy."
+
+[[pattern.trainer]]
+utterance = "Co pro vás bude při výběru nového bydlení rozhodující? Sepišme si to, ať můžete nabídky porovnávat podle svých měřítek."
+context = "Sociální pracovnice pomáhá klientce vybírat mezi nabídkami nájmu."
+benign = true
+marker = "Kritéria se zjišťují proto, aby je klientka mohla sama použít jako měřítko, ne proto, aby se jimi obalila konkrétní nabídka."
+response = "Benigní užití: kritéria zůstávají v rukou klientky a slouží k porovnání více možností."
+
+[[pattern]]
+id = "NLP-17.08"
+slug = "kanal-presvedceni"
+type = "concept"
+cs = "Kanál přesvědčení"
+en = "Convincer channel"
+aliases = ["kanál přesvědčovatele"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["rezim-presvedceni", "presvedcovaci-strategie", "ramec-dukazu", "smyslove-dukazy-cile", "reprezentacni-systemy"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/case-studies/63-investor-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nemusíte nic číst, stačí, když se podíváte na ta videa spokojených klientů. Když to vidíte na vlastní oči, víte, že to funguje."
+context = "Náborář prodejní sítě k zájemci, který se ptá na smlouvu."
+benign = false
+marker = "Mluvčí odvádí od kanálu, v němž lze nabídku ověřit (text smlouvy), ke kanálu, v němž působí vybrané a neověřitelné ukázky."
+response = "Trvat na tom, že rozhodnu až po přečtení smlouvy a ověření údajů; působivé ukázky nejsou doklad o průměrném výsledku."
+
+[[pattern.trainer]]
+utterance = "Pošlu vám k tomu písemné shrnutí a pokud chcete, můžete si zařízení nejdřív vyzkoušet na oddělení, než se rozhodnete."
+context = "Dodavatel zdravotnické techniky jedná s primářem."
+benign = true
+marker = "Mluvčí nabízí více kanálů ověření najednou, včetně kanálu, v němž lze tvrzení kontrolovat, a nechává volbu na druhé straně."
+response = "Benigní užití: různé cesty k přesvědčení se doplňují a žádná z nich nenahrazuje ověřitelný doklad."
+
+[[pattern]]
+id = "NLP-17.09"
+slug = "rezim-presvedceni"
+type = "concept"
+cs = "Režim přesvědčení"
+en = "Convincer mode"
+aliases = ["způsob přesvědčení", "režim přesvědčovatele"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["kanal-presvedceni", "presvedcovaci-strategie", "dukazni-procedura", "shoda-a-rozdil", "ano-sada"]
+kompendium = [
+  "kompendium/case-studies/63-investor-cult.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Už třikrát jsem vám vyplatil zisk přesně podle slibu. Víc důkazů snad nepotřebujete, teď je čas vložit opravdovou částku."
+context = "Provozovatel investičního schématu k dlouholetému drobnému vkladateli."
+benign = false
+marker = "Několik malých splněných slibů se předkládá jako dostatečný počet důkazů, aby se ospravedlnil velký a nevratný krok."
+response = "Uvědomit si, že malé výplaty mohou být součástí schématu; posoudit původ výnosů, regulaci a možnost výběru celé částky, ne počet opakování."
+
+[[pattern.trainer]]
+utterance = "Než to nasadíme na celou nemocnici, vyzkoušíme to tři měsíce na jednom oddělení a vyhodnotíme výsledky."
+context = "Náměstek pro kvalitu představuje nový postup vedení."
+benign = true
+marker = "Délka a rozsah ověřování jsou stanoveny předem podle povahy rozhodnutí, ne podle toho, kolik opakování stačí k přesvědčení konkrétního člověka."
+response = "Benigní užití: přesvědčení se opírá o plánované ověření s možností výsledek odmítnout."
+
+[[pattern]]
+id = "NLP-17.10"
+slug = "ja-a-druzi"
+type = "concept"
+cs = "Já a druzí"
+en = "Self and other"
+aliases = ["směr pozornosti"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["kalibrace", "pseudoempatie", "vnitrni-a-vnejsi-reference", "lide-a-veci", "raport"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vidím na tobě, jak tě mrzí, že jsem z toho smutný. Ty přece nechceš, abych se takhle cítil, tak to pro mě uděláš, viď?"
+context = "Partner ve vztahu s rysy kontroly, když druhý odmítá jeho požadavek."
+benign = false
+marker = "Mluvčí využívá citlivost druhého na emoční signály: vlastní smutek předkládá jako závazek, který má druhý odčinit vyhověním."
+response = "Rozlišit soucit od povinnosti; je možné vnímat smutek druhého a přesto trvat na svém rozhodnutí, a opakující se vzorec stojí za probrání s nezávislým odborníkem."
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že jste při té zprávě zbledl. Chcete si dát chvilku pauzu, nebo mám pokračovat?"
+context = "Lékař sděluje pacientovi výsledek vyšetření."
+benign = true
+marker = "Pozornost k neverbálním signálům druhého slouží k tomu, aby měl pacient kontrolu nad tempem rozhovoru, ne k tomu, aby byl k něčemu dotlačen."
+response = "Benigní užití: vnímavost k druhému vrací volbu jemu a nevytváří žádný závazek."
+
+[[pattern]]
+id = "NLP-17.11"
+slug = "reakce-na-stres"
+type = "concept"
+cs = "Reakce na stres"
+en = "Stress response"
+aliases = ["emoční reakce na stres"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["emocni-zvladani", "stav", "disociace", "asociace", "pracovni-styl"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md",
+  "kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md",
+  "kompendium/techniques/ea-6-1-2-self-report-instrument.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podle profilu jste typ, který se ve stresu hroutí do emocí. Takže na tu vedoucí pozici se nehodíte a nemá smysl to dál řešit."
+context = "Personalista sděluje uchazečce výsledek dotazníku vytvořeného podle metaprogramů."
+benign = false
+marker = "Jediný údaj z neověřeného profilu se vydává za trvalou vlastnost osoby a slouží k uzavření rozhodnutí bez dalšího posouzení."
+response = "Požádat o popis nástroje, jeho ověření a o kritéria výběru; rozhodnutí o lidech nemá stát na jedné kategorii z nevalidovaného dotazníku."
+
+[[pattern.trainer]]
+utterance = "Když na vás při práci něco spadne najednou, jak to obvykle prožíváte a co vám v tu chvíli pomáhá?"
+context = "Supervizorka v rozhovoru s mladým sociálním pracovníkem."
+benign = true
+marker = "Otázka se ptá na prožitek a na zdroje zvládání v konkrétním kontextu a nezařazuje člověka do kategorie."
+response = "Benigní užití: slouží porozumění a podpoře, ne třídění a vyřazování."
+
+[[pattern]]
+id = "NLP-17.12"
+slug = "pracovni-styl"
+type = "concept"
+cs = "Pracovní styl"
+en = "Working style"
+aliases = ["styl spolupráce", "samostatnost, blízkost a spolupráce"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["lide-a-veci", "ja-a-druzi", "metaprogramy-v-naboru", "proaktivni-a-reaktivni", "reakce-na-stres"]
+kompendium = [
+  "kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md",
+  "kompendium/organizational-defense/_index.md",
+  "kompendium/techniques/ea-2-2-2-mentee-isolation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty jsi samostatný typ, ostatní by tě jen brzdili. Pracuj na tom jen se mnou a s týmem to vůbec neprobírej."
+context = "Nadřízený k nově přijatému odborníkovi při přidělení citlivého úkolu."
+benign = false
+marker = "Domnělý pracovní styl se používá jako zdůvodnění izolace od kolegů a zúžení komunikace na jediný vztah s nadřízeným."
+response = "Rozpoznat, že samostatnost nevyžaduje odstřižení od týmu; udržovat pracovní vztahy, zapisovat zadání a sdílet informace v rámci běžných pravidel organizace."
+
+[[pattern.trainer]]
+utterance = "Někdo z vás pracuje nejradši sám, někdo potřebuje průběžnou domluvu. Zkusme práci rozdělit tak, aby to šlo oběma způsoby."
+context = "Vedoucí výzkumné skupiny při plánování nového grantu."
+benign = true
+marker = "Rozdíly ve stylu práce se berou jako preference, se kterými lze organizačně počítat, ne jako nálepky určující hodnotu člověka."
+response = "Benigní užití: přizpůsobení organizace práce bez škatulkování a bez omezení kontaktu."

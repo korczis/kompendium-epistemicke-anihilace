@@ -1,0 +1,356 @@
+# Rodina NLP-03: Meta-model (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Tento soubor nese NLP-03.01 až NLP-03.09; další záznamy rodiny mohou být v dalších částech.
+
+[[pattern]]
+id = "NLP-03.01"
+slug = "meta-model"
+type = "pattern"
+cs = "Meta-model"
+en = "Meta Model"
+aliases = ["metamodel", "meta-model jazyka"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = [
+  "hluboka-a-povrchova-struktura",
+  "vypousteni",
+  "zkreslovani",
+  "zobecnovani",
+  "milton-model",
+  "mapa-neni-uzemi",
+]
+kompendium = [
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty pořád říkáš, že ti něco vadí. Co přesně? Kdy přesně? Kdo přesně? Dokud to neřekneš přesně, nemáš o čem mluvit."
+context = "Partner v hádce odpovídá na stížnost druhého řadou upřesňujících otázek."
+benign = false
+marker = "Upřesňující otázky meta-modelu chrlí jedna za druhou bez zájmu o odpověď a slouží k tomu, aby stížnost druhého neobstála, ne aby byla pochopena."
+response = "Pojmenovat, že se otázky staly výslechem, a odpovídat vlastním tempem; nárok na vyslyšení nezávisí na tom, zda člověk napoprvé najde dokonale přesná slova."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že se to v práci zhoršilo. Můžete popsat nějakou nedávnou situaci, kdy jste to zhoršení poznala?"
+context = "Psycholožka v úvodním rozhovoru s klientkou."
+benign = true
+marker = "Jediná otevřená otázka vrací obecné tvrzení ke konkrétní zkušenosti a nechává klientce volbu, co a jak podrobně popíše."
+response = "Jde o legitimní užití: upřesnění slouží porozumění mluvčímu, je vedeno v jeho tempu a nenahrazuje jeho výklad výkladem tazatele."
+
+[[pattern.trainer]]
+utterance = "Všichni vědí, že tohle se nedělá. Musíš se rozhodnout, jestli k nám patříš."
+context = "Vedoucí skupiny k členovi, který vyjádřil pochybnost."
+benign = false
+marker = "Věta kupí několik kategorií, na které meta-model upozorňuje: neurčené „všichni“, soud bez původce a nutnost bez uvedeného důvodu."
+response = "Rozložit větu na otázky pro sebe: kdo přesně to ví, kdo to pravidlo stanovil a co by se doopravdy stalo, kdyby člověk volil jinak."
+
+[[pattern]]
+id = "NLP-03.02"
+slug = "nominalizace"
+type = "pattern"
+cs = "Nominalizace"
+en = "Nominalisation"
+aliases = ["nominalizace procesu"]
+use = "dvoji"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "zkreslovani",
+  "nominalizace-milton",
+  "slovni-baliky",
+  "nespecifikovane-sloveso",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-5-1-4-semanticka-imploze.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje nedůvěra ničí náš vztah. Dokud ji nepřekonáš, nemůže mezi námi být žádná blízkost."
+context = "Partner reaguje na otázku druhého, kde trávil noc."
+benign = false
+marker = "Konkrétní jednání (ptát se, pochybovat) se mění v podstatné jméno „nedůvěra“, které vypadá jako trvalá vlastnost jednoho z partnerů, a mizí, kdo komu čím nedůvěru vyvolal."
+response = "Vrátit podstatné jméno zpět do děje: o jakou konkrétní otázku šlo, co jí předcházelo a zda je otázka po místě pobytu sama o sobě něco, co je třeba „překonat“."
+
+[[pattern.trainer]]
+utterance = "Rozhodnutí o přestěhování je pořád ve hře, ještě se o něm budeme bavit oba."
+context = "Manželka mluví s manželem o plánech na příští rok."
+benign = true
+marker = "Podstatné jméno „rozhodnutí“ nese probíhající děj, ale obě strany vědí, kdo rozhoduje, a výslovně zůstává otevřené."
+response = "Jde o běžnou nominalizaci: zkracuje řeč, nezakrývá aktéry a nepředstírá, že děj je hotová věc mimo vliv mluvčích."
+
+[[pattern]]
+id = "NLP-03.03"
+slug = "nespecifikovane-sloveso"
+type = "pattern"
+cs = "Nespecifikované sloveso"
+en = "Unspecified verb"
+aliases = ["nespecifikovaný děj"]
+use = "dvoji"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "vypousteni",
+  "nespecifikovana-slovesa-milton",
+  "nominalizace",
+  "presupozice-ve-vyslechu",
+]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ona mě prostě vyprovokovala, tak jsem to s ní vyřešil."
+context = "Muž vysvětluje sociální pracovnici incident v domácnosti."
+benign = false
+marker = "Slovesa „vyprovokovala“ a „vyřešil“ neříkají, co se fyzicky stalo; obecný děj zakrývá konkrétní jednání a podsouvá výklad, že šlo o reakci."
+response = "Ptát se po pozorovatelném ději (co kdo udělal, čím, v jakém pořadí) a zapisovat odpověď vlastními slovy mluvčího, bez převzetí jeho slovesa jako popisu."
+
+[[pattern.trainer]]
+utterance = "Kolega mi pomohl s tabulkou, zkontroloval vzorce a opravil dva odkazy na buňky."
+context = "Zaměstnankyně popisuje vedoucí, kdo se podílel na výkazu."
+benign = true
+marker = "Obecné sloveso „pomohl“ je hned upřesněno konkrétními ději, takže posluchač ví, co se stalo."
+response = "Jde o benigní užití: obecné sloveso uvádí popis, který sám doplňuje chybějící podrobnosti."
+
+[[pattern]]
+id = "NLP-03.04"
+slug = "nespecifikovany-referencni-index"
+type = "pattern"
+cs = "Nespecifikovaný referenční index"
+en = "Unspecified referential index"
+aliases = ["chybějící referenční index", "neurčený činitel"]
+use = "dvoji"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "vypousteni",
+  "nespecifikovany-index-milton",
+  "univerzalni-kvantifikator",
+  "ztraceny-performativ",
+]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Lidi si o tobě na oddělení povídají ledacos. Na tvém místě bych byl opatrnější."
+context = "Kolega k nově přijaté zaměstnankyni na chodbě."
+benign = false
+marker = "„Lidi“ nemají jméno ani počet; neurčený původce dodává hrozbě váhu většiny a znemožňuje ji ověřit."
+response = "Neopírat rozhodnutí o anonymní „lidi“: zeptat se, kdo konkrétně a co konkrétně, a pokud odpověď nepřijde, zacházet s výrokem jako s názorem jednoho mluvčího."
+
+[[pattern.trainer]]
+utterance = "Někdo nechal v kuchyňce zapnutou varnou konvici, tak ji prosím při odchodu zkontrolujte."
+context = "Správce budovy v e-mailu všem zaměstnancům."
+benign = true
+marker = "Neurčité „někdo“ tu chrání před zbytečným jmenováním viníka a nic nehodnotí ani nevynucuje."
+response = "Jde o benigní užití: neurčitost je ohleduplná, sdělení je ověřitelné a nežádá souhlas s žádným soudem o konkrétní osobě."
+
+[[pattern]]
+id = "NLP-03.05"
+slug = "prosta-delece"
+type = "pattern"
+cs = "Prosté vypuštění"
+en = "Simple deletion"
+aliases = ["prostá delece"]
+use = "dvoji"
+risk = "nizke"
+broader = "meta-model"
+related = [
+  "vypousteni",
+  "srovnavaci-delece",
+  "nespecifikovany-referencni-index",
+  "umyslna-vagnost",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Víš moc dobře, čím jsi mě zklamal. Nebudu to opakovat, přemýšlej o tom sám."
+context = "Rodič k dospívajícímu po rodinné večeři."
+benign = false
+marker = "Předmět výčitky je vypuštěn a doplnění se přenáší na adresáta, který si pak výčitku sám vyplní tím nejhorším, co si o sobě myslí."
+response = "Nevyplňovat chybějící obsah domněnkou: požádat o pojmenování konkrétní věci a do té doby nepřijímat vinu za něco, co nebylo řečeno."
+
+[[pattern.trainer]]
+utterance = "Jsem dneska unavená, půjdu spát dřív."
+context = "Spolubydlící večer v kuchyni."
+benign = true
+marker = "Vypuštěno je jen to, čím je mluvčí unavená; nic se od posluchače nežádá a chybějící údaj pro situaci není podstatný."
+response = "Jde o běžné vypuštění podle pravidla přiměřené informace; doptávat se není nutné, pokud o to mluvčí nestojí."
+
+[[pattern]]
+id = "NLP-03.06"
+slug = "srovnavaci-delece"
+type = "pattern"
+cs = "Srovnávací vypuštění"
+en = "Comparative deletion"
+aliases = ["srovnávací delece", "nespecifikované srovnání"]
+use = "vliv"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "prosta-delece",
+  "srovnavaci-delece-milton",
+  "srovnavaci-presupozice",
+  "nlp-v-reklame",
+]
+kompendium = [
+  "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje práce je dobrá, ale mohla by být lepší. Ostatní na tom jsou o dost dál."
+context = "Školitel doktorandky při konzultaci bez písemného hodnocení."
+benign = false
+marker = "Srovnání „lepší“ a „dál“ nemají měřítko ani srovnávací skupinu, takže se nedá zjistit, co by stačilo, a laťka se může libovolně posouvat."
+response = "Vyžádat si měřítko: lepší v čem, ve srovnání s kým a podle jakého kritéria; bez odpovědi zacházet s výrokem jako s neurčitým dojmem, ne s hodnocením."
+
+[[pattern.trainer]]
+utterance = "Nová verze aplikace je o třetinu rychlejší než loňská při načítání stejné sady dat."
+context = "Vývojář v poznámkách k vydání."
+benign = true
+marker = "Srovnání uvádí obě strany (letošní a loňská verze), veličinu i podmínky, takže je ověřitelné."
+response = "Jde o úplné srovnání: měřítko je uvedeno a tvrzení lze zkontrolovat."
+
+[[pattern]]
+id = "NLP-03.07"
+slug = "ztraceny-performativ"
+type = "pattern"
+cs = "Ztracený performativ"
+en = "Lost performative"
+aliases = ["soud bez původce"]
+use = "dvoji"
+risk = "vysoke"
+broader = "meta-model"
+related = [
+  "zkreslovani",
+  "ztraceny-performativ-milton",
+  "modalni-operator-nutnosti",
+  "nlp-v-sektach",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Je sobecké myslet na sebe, když společenství potřebuje každou ruku."
+context = "Starší člen hnutí k nováčkovi, který si chce vzít volný víkend."
+benign = false
+marker = "Hodnotící soud „je sobecké“ je podán jako neosobní fakt; chybí, kdo ho vynáší a podle jakého měřítka, takže se s ním nedá polemizovat jako s názorem."
+response = "Vrátit soudu původce: kdo to tak hodnotí a podle čeho; teprve pak lze posoudit, zda jde o sdílenou hodnotu, nebo o požadavek konkrétní osoby."
+
+[[pattern.trainer]]
+utterance = "Myslím si, že by bylo fér rozdělit noční služby rovnoměrně, ale chci slyšet i váš názor."
+context = "Vrchní sestra na poradě oddělení."
+benign = true
+marker = "Hodnotící soud má výslovného původce („myslím si“) a je nabídnut k diskusi."
+response = "Jde o benigní protějšek: performativ není ztracen, soud je přiznán jako názor mluvčí a lze s ním nesouhlasit."
+
+[[pattern]]
+id = "NLP-03.08"
+slug = "univerzalni-kvantifikator"
+type = "pattern"
+cs = "Univerzální kvantifikátor"
+en = "Universal quantifier"
+aliases = ["univerzální kvantifikátory", "absolutní zobecnění"]
+use = "dvoji"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "zobecnovani",
+  "univerzalni-kvantifikatory-milton",
+  "modalni-operator-nutnosti",
+  "nespecifikovany-referencni-index",
+]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty nikdy nic nedotáhneš do konce. Vždycky to tak bylo a vždycky to tak bude."
+context = "Partner při sporu o nezaplacenou fakturu."
+benign = false
+marker = "Slova „nikdy“, „nic“ a „vždycky“ mění jednu nedokončenou věc v trvalou vlastnost osoby a uzavírají budoucnost."
+response = "Hledat výjimky a držet se konkrétní události: o kterou fakturu jde a co je potřeba udělat teď, místo obhajoby celé osobnosti."
+
+[[pattern.trainer]]
+utterance = "Všichni účastníci kurzu musí mít platnou zdravotní prohlídku, jinak je pojišťovna nepojistí."
+context = "Organizátor horolezeckého kurzu v pokynech."
+benign = true
+marker = "Univerzální „všichni“ odpovídá skutečnému pravidlu s uvedeným důvodem a ověřitelným zdrojem."
+response = "Jde o benigní užití: zobecnění je přesné, vztahuje se na vymezenou skupinu a jeho důvod lze zkontrolovat."
+
+[[pattern]]
+id = "NLP-03.09"
+slug = "modalni-operator-nutnosti"
+type = "pattern"
+cs = "Modální operátor nutnosti"
+en = "Modal operator of necessity"
+aliases = ["modální operátory nutnosti"]
+use = "dvoji"
+risk = "vysoke"
+broader = "meta-model"
+related = [
+  "zobecnovani",
+  "modalni-operator-moznosti",
+  "modalni-operatory-milton",
+  "ztraceny-performativ",
+  "univerzalni-kvantifikator",
+]
+kompendium = [
+  "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Musíš mi hned říct, s kým si píšeš. Partneři před sebou nesmějí mít tajemství."
+context = "Partner vyžaduje přístup k telefonu druhého."
+benign = false
+marker = "„Musíš“ a „nesmějí“ podávají požadavek jedné osoby jako nutnost bez uvedeného důvodu a důsledku; pravidlo se vydává za samozřejmost vztahu."
+response = "Rozlišit nutnost od přání: co by se doopravdy stalo, kdyby člověk odmítl, a kdo pravidlo stanovil; soukromí v komunikaci je legitimní hranice, ne porušení pravidla."
+
+[[pattern.trainer]]
+utterance = "Lék musíte brát s jídlem, nalačno vám může podráždit žaludek."
+context = "Lékárnice při výdeji léku."
+benign = true
+marker = "Nutnost je spojena s uvedeným důvodem a důsledkem, který lze ověřit v příbalové informaci."
+response = "Jde o benigní užití: „musíte“ označuje podmínku účinku a bezpečí, důvod je řečen a pacient může rozhodnout informovaně."

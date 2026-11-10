@@ -1,0 +1,394 @@
+# Rodina NLP-04: Milton-model, část b (NLP-04.11 až NLP-04.20).
+# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-04.11"
+slug = "fonologicka-dvojznacnost"
+type = "pattern"
+cs = "Fonologická dvojznačnost"
+en = "Phonological ambiguity"
+aliases = ["zvuková dvojznačnost", "homofonní dvojznačnost"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = [
+  "syntakticka-dvojznacnost",
+  "rozsahova-dvojznacnost",
+  "interpunkcni-dvojznacnost",
+  "vlozene-prikazy",
+  "analogove-znaceni",
+  "konfuzni-technika",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-5-1-4-semanticka-imploze.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Čím déle tu s námi zůstáváš, tím víc víš, že stoupáš výš než ti, kdo odešli."
+context = "Vedoucí uzavřené skupiny v rozhovoru se členem, který zvažuje odchod."
+benign = false
+marker = "Zvukově shodná slova „víš“ a „výš“ stojí těsně vedle sebe, takže věta o poznání splývá s obrazem vzestupu, který skupina spojuje se setrváním."
+response = "Rozepsat si větu do písemné podoby a ptát se, co přesně tvrdí; zvuková shoda slov není argument a výrok o „vzestupu“ nemá žádný ověřitelný obsah."
+
+[[pattern.trainer]]
+utterance = "Pozor, tohle je led, ne let, na tom zítřejším výletu po horách budeme chodit po zamrzlé cestě."
+context = "Instruktor turistického kurzu upřesňuje program účastníkům."
+benign = true
+marker = "Mluvčí sám upozorní na zvukovou shodu slov „led“ a „let“ a dvojznačnost výslovně rozřeší."
+response = "Jde o neškodné užití: dvojznačnost je pojmenovaná a odstraněná, aby jí posluchač neporozuměl chybně."
+
+[[pattern]]
+id = "NLP-04.12"
+slug = "syntakticka-dvojznacnost"
+type = "pattern"
+cs = "Syntaktická dvojznačnost"
+en = "Syntactic ambiguity"
+aliases = ["skladební dvojznačnost", "strukturní dvojznačnost"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = [
+  "fonologicka-dvojznacnost",
+  "rozsahova-dvojznacnost",
+  "interpunkcni-dvojznacnost",
+  "umyslna-vagnost",
+  "konfuzni-technika",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/techniques/ea-5-1-4-semanticka-imploze.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Rozhodnutí podpořit vás to místo bude stát, pokud se k tomu vedení nepostaví čelem."
+context = "Nadřízený v neformálním rozhovoru se zaměstnancem, který podal stížnost."
+benign = false
+marker = "Zájmeno „vás“ lze přiřadit ke slovesu „podpořit“ i ke spojení „bude stát“: buď podpora zaměstnance bude stát místo někoho jiného, nebo rozhodnutí kohokoli podpořit bude stát místo právě zaměstnance; hrozba zůstává nevyslovená."
+response = "Požádat o přeformulování jednoznačnou větou a zapsat si obě možná čtení; skrytá hrozba ztrácí sílu, jakmile je vyslovena přímo a dá se k ní vyjádřit."
+
+[[pattern.trainer]]
+utterance = "Ta věta „Dítě vidí kotě“ je v češtině dvojznačná, protože nevíme, kdo je podmět a kdo předmět."
+context = "Vyučující syntaxe na semináři o slovosledu."
+benign = true
+marker = "Dvojznačnost je předmětem výkladu: mluvčí ji ukazuje a vysvětluje, místo aby ji využíval."
+response = "Jde o neškodné užití: rozbor dvojznačné stavby učí posluchače takové věty rozpoznat."
+
+[[pattern]]
+id = "NLP-04.13"
+slug = "rozsahova-dvojznacnost"
+type = "pattern"
+cs = "Rozsahová dvojznačnost"
+en = "Scope ambiguity"
+aliases = ["dvojznačnost dosahu"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = [
+  "syntakticka-dvojznacnost",
+  "interpunkcni-dvojznacnost",
+  "presupozice-milton",
+  "otazky-s-presupozici",
+  "fonologicka-dvojznacnost",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nabízíme vám prodloužení smlouvy a bezplatné služby navíc pro věrné a dlouholeté zákazníky."
+context = "Operátor zákaznické linky při telefonické nabídce."
+benign = false
+marker = "Není jasné, zda se omezení „pro věrné a dlouholeté zákazníky“ vztahuje jen na služby navíc, nebo i na prodloužení; výhoda se zdá širší, než je."
+response = "Ptát se, na co přesně se podmínka vztahuje, a trvat na písemném znění nabídky dřív, než se cokoli odsouhlasí."
+
+[[pattern.trainer]]
+utterance = "Stipendium je určeno studentům a doktorandům do třiceti let; věková hranice platí pro obě skupiny."
+context = "Studijní referentka vysvětluje pravidla stipendia."
+benign = true
+marker = "Mluvčí sám rozřeší, na co se omezení vztahuje, a tím rozsahovou dvojznačnost odstraní."
+response = "Jde o neškodné užití: dosah podmínky je výslovně určen a posluchač ví, zda se ho týká."
+
+[[pattern]]
+id = "NLP-04.14"
+slug = "interpunkcni-dvojznacnost"
+type = "pattern"
+cs = "Interpunkční dvojznačnost"
+en = "Punctuation ambiguity"
+aliases = ["přesahová věta", "nesprávně umístěná pauza", "nedokončená věta"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = [
+  "fonologicka-dvojznacnost",
+  "syntakticka-dvojznacnost",
+  "vlozene-prikazy",
+  "analogove-znaceni",
+  "konfuzni-technika",
+  "preruseni-vzorce",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vidím, že jste unavená z celého dne a teď prostě souhlasit je to nejjednodušší, co můžete udělat pro klid doma."
+context = "Podomní prodejce na konci dlouhé prezentace."
+benign = false
+marker = "Věta přechází bez hranice z popisu stavu posluchačky do výzvy „souhlasit“, která není syntakticky začleněna; konec jedné výpovědi splývá se začátkem druhé."
+response = "Zpomalit rozhovor, požádat o zopakování a rozhodnutí odložit; únava je důvod k odkladu, ne k souhlasu."
+
+[[pattern.trainer]]
+utterance = "Promiň, začal jsem jednu větu a skočil do druhé, řeknu to znovu a pořádně: zítra nepřijdu."
+context = "Kolega v běžném rozhovoru opravuje vlastní přeřeknutí."
+benign = true
+marker = "Přesah dvou vět vznikl nechtěně a mluvčí ho sám pojmenuje a opraví."
+response = "Jde o neškodný jev běžné řeči: nedokončené a přerušené věty jsou v mluveném projevu časté a samy o sobě nejsou známkou vlivu."
+
+[[pattern]]
+id = "NLP-04.15"
+slug = "umyslna-vagnost"
+type = "pattern"
+cs = "Úmyslná vágnost"
+en = "Artful vagueness"
+aliases = ["obratná vágnost", "záměrná nejasnost"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = [
+  "nominalizace-milton",
+  "nespecifikovana-slovesa-milton",
+  "nespecifikovany-index-milton",
+  "meta-model",
+  "slovni-baliky",
+  "otevrena-sugesce",
+]
+kompendium = [
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Něco v tobě už ví, že ta změna přichází, a určité věci se teď začnou dávat do pohybu, jakmile se otevřeš procesu."
+context = "Lektor placeného rozvojového semináře k účastníkovi, který váhá s dalším stupněm kurzu."
+benign = false
+marker = "Výpověď neobsahuje nic ověřitelného: „něco“, „ta změna“, „určité věci“ a „proces“ nemají určený obsah, který si posluchač dosazuje sám."
+response = "Ptát se, co konkrétně se má změnit, podle čeho se to pozná a v jakém čase; kde odpověď nepřijde, nemá výpověď obsah, za který by stálo platit."
+
+[[pattern.trainer]]
+utterance = "Nevím ještě, jak to dopadne, a nechci slibovat víc, než vím; podrobnosti budu znát až po vyšetření."
+context = "Lékař před výsledky vyšetření."
+benign = true
+marker = "Nejasnost odpovídá skutečné nejistotě a mluvčí ji přiznává, místo aby ji vydával za skryté poznání."
+response = "Jde o legitimní vyjádření nejistoty: vágnost je poctivá, ohraničená a slibuje doplnění, až budou údaje k dispozici."
+
+[[pattern]]
+id = "NLP-04.16"
+slug = "cteni-myslenek-milton"
+type = "pattern"
+cs = "Čtení myšlenek v Milton-modelu"
+en = "Mind reading (Milton Model)"
+aliases = ["předpokládané vnitřní stavy"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = [
+  "cteni-myslenek",
+  "pacing-aktualni-zkusenosti",
+  "ztraceny-performativ-milton",
+  "umyslna-vagnost",
+  "cteni-reci-tela",
+  "pseudoempatie",
+]
+kompendium = [
+  "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vím, že v hloubi duše už tušíš, že tvoje rodina tvůj růst nepodporuje, i když si to zatím nechceš přiznat."
+context = "Mentor duchovní skupiny k novému členovi."
+benign = false
+marker = "Mluvčí si přisvojuje znalost vnitřního stavu posluchače, který nebyl vysloven, a nesouhlas předem označuje za nepřiznané vědění."
+response = "Odmítnout, že druhý zná vaše myšlenky lépe než vy, a říct vlastními slovy, co si skutečně myslíte; přisuzovaný pocit je hypotéza mluvčího, ne fakt."
+
+[[pattern.trainer]]
+utterance = "Možná se pletu, ale působíte na mě napjatě; je to tak, nebo to čtu špatně?"
+context = "Terapeutka na začátku sezení."
+benign = true
+marker = "Domněnka o vnitřním stavu je označena jako domněnka a vrácena klientce k potvrzení nebo opravě."
+response = "Jde o legitimní užití: hypotéza je vyslovena otevřeně a poslední slovo o vlastním prožitku má ten, kdo ho prožívá."
+
+[[pattern]]
+id = "NLP-04.17"
+slug = "ztraceny-performativ-milton"
+type = "pattern"
+cs = "Ztracený performativ v Milton-modelu"
+en = "Lost performative (Milton Model)"
+aliases = ["hodnocení bez hodnotitele"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = [
+  "ztraceny-performativ",
+  "cteni-myslenek-milton",
+  "univerzalni-kvantifikatory-milton",
+  "citace",
+  "truismy",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Je správné, když se člověk vzdá svých pochybností a důvěřuje procesu, a je dobré, že to právě teď cítíš."
+context = "Vedoucí intenzivního víkendového kurzu k účastnici, která vznesla námitku."
+benign = false
+marker = "Hodnocení „je správné“ a „je dobré“ nemá uvedeného hodnotitele ani kritérium; názor mluvčího se podává jako neosobní norma."
+response = "Ptát se, kdo to tvrdí a podle čeho, a své pochybnosti brát jako informaci, ne jako chybu; norma bez autora se nedá ověřit ani vyvrátit."
+
+[[pattern.trainer]]
+utterance = "Podle mého názoru je lepší s tím rozhodnutím den počkat, ale je to jen můj pohled a rozhodnete vy."
+context = "Kamarádka radí před větším nákupem."
+benign = true
+marker = "Hodnocení má uvedeného autora („podle mého názoru“) a rozhodnutí zůstává posluchači."
+response = "Jde o neškodné užití: zdroj soudu je přiznán, a proto se k němu dá zaujmout vlastní postoj."
+
+[[pattern]]
+id = "NLP-04.18"
+slug = "spojky-a-implikovana-pricinnost"
+type = "pattern"
+cs = "Spojky a implikovaná příčinnost"
+en = "Conjunctions and implied causatives"
+aliases = ["příčinné spojování", "kauzální modelování", "spojování sugescí"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = [
+  "pricina-a-nasledek",
+  "retezeni-sugesci",
+  "pacing-aktualni-zkusenosti",
+  "komplexni-ekvivalence-milton",
+  "protoze",
+  "slozena-sugesce",
+]
+kompendium = [
+  "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Sedíte tady, posloucháte a díváte se na ty čísla, a zatímco je čtete, začíná vám být jasné, že tahle investice dává smysl."
+context = "Zprostředkovatel rizikové investice na osobní schůzce."
+benign = false
+marker = "Ověřitelné popisy („sedíte“, „posloucháte“, „čtete“) jsou spojkami „a“ a „zatímco“ připojeny k závěru, který z nich nijak neplyne."
+response = "Oddělit popis situace od tvrzení o investici a ptát se na skutečné důvody: výnos, riziko, poplatky, regulace; to, že sedíte a čtete, nedokazuje nic."
+
+[[pattern.trainer]]
+utterance = "Protože prší, zápas se odkládá na zítřek; pořadatel to oznámil ráno na webu."
+context = "Trenér informuje rodiče hráčů."
+benign = true
+marker = "Příčinná spojka „protože“ spojuje dvě ověřitelné skutečnosti a souvislost má doložený zdroj."
+response = "Jde o neškodné užití: příčinný vztah je skutečný a dá se ověřit."
+
+[[pattern]]
+id = "NLP-04.19"
+slug = "komplexni-ekvivalence-milton"
+type = "pattern"
+cs = "Komplexní ekvivalence v Milton-modelu"
+en = "Complex equivalence (Milton Model)"
+aliases = ["rovnítko mezi chováním a významem"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = [
+  "komplexni-ekvivalence",
+  "spojky-a-implikovana-pricinnost",
+  "cteni-myslenek-milton",
+  "presvedceni-o-vyznamu",
+  "pacing-aktualni-zkusenosti",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To, že pořád kladeš otázky, znamená, že ještě nejsi připravená přijmout pravdu, kterou tady sdílíme."
+context = "Starší člen skupiny k nové člence, která se ptá na finance skupiny."
+benign = false
+marker = "Pozorovatelné chování (kladení otázek) se klade rovnítkem s vnitřním stavem (nepřipravenost), takže otázka sama se mění v důkaz proti tazatelce."
+response = "Oddělit chování od přisouzeného významu: ptát se je běžný způsob ověřování; trvat na odpovědi na položenou otázku."
+
+[[pattern.trainer]]
+utterance = "Když se ti zrychlí dech a zčervenáš, může to být strach, ale i vzrušení; co z toho to bylo u tebe?"
+context = "Psycholožka s klientem při rozboru situace před vystoupením."
+benign = true
+marker = "Spojení tělesného projevu s významem je nabídnuto jako jedna z možností a výklad zůstává klientovi."
+response = "Jde o legitimní užití: význam chování se neurčuje zvenčí, ale ověřuje s tím, kdo ho prožil."
+
+[[pattern]]
+id = "NLP-04.20"
+slug = "univerzalni-kvantifikatory-milton"
+type = "pattern"
+cs = "Univerzální kvantifikátory v Milton-modelu"
+en = "Universal quantifiers (Milton Model)"
+aliases = ["zobecňující slova", "všeobecné výroky"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = [
+  "univerzalni-kvantifikator",
+  "truismy",
+  "ztraceny-performativ-milton",
+  "modalni-operatory-milton",
+  "ano-sada",
+]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-8-1-1-bite-model-detail.md",
+  "kompendium/techniques/ea-2-2-2-mentee-isolation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všichni, kdo od nás kdy odešli, toho do roka litovali, a nikdo venku ti nikdy nebude rozumět tak jako my."
+context = "Vedoucí skupiny k členovi, který zvažuje odchod."
+benign = false
+marker = "Slova „všichni“, „nikdo“ a „nikdy“ podávají neověřené tvrzení jako bezvýjimečné pravidlo a uzavírají možnost protipříkladu."
+response = "Hledat protipříklady (lidi, kteří odešli a daří se jim) a ptát se, odkud mluvčí zná osud všech; bezvýjimečné tvrzení padá jediným protipříkladem."
+
+[[pattern.trainer]]
+utterance = "Každý člověk občas zapomene, kam si dal klíče; to se stává úplně všem."
+context = "Praktický lékař uklidňuje staršího pacienta."
+benign = true
+marker = "Univerzální kvantifikátor shrnuje běžnou a ověřitelnou zkušenost a nevede posluchače k žádnému rozhodnutí."
+response = "Jde o neškodné užití: zobecnění je přibližně pravdivé, slouží k normalizaci běžného jevu a nic od posluchače nežádá."

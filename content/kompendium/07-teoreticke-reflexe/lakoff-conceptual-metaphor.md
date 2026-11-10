@@ -97,7 +97,7 @@ Pro EA z toho plyne:
 
 | Lakoff | EA technika | Mechanismus |
 |--------|-------------|-------------|
-| Manipulace metafor | Reframing | EA-1.x |
+| Manipulace metafor | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) | EA-1.x |
 | Útok na tělesné fundamenty | Digitální alienace | Strukturální |
 | Aktivace negativních frame | Negativní kampaně | EA-3.x |
 | Strict Father instrumentalizace | Autoritářská rétorika | EA-3.x |

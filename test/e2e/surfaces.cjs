@@ -26,6 +26,9 @@ const FIXED = [
   { path: 'tags/', painted: 1, note: 'štítky (treemap)' },
   { path: 'kompendium/case-studies/', painted: 1, note: 'přehled oddílu' },
   { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (Chart.js, p5)' },
+  { path: 'kompendium/nlp-vzorce/', painted: 1, note: 'průzkumník katalogu NLP (ECharts graf vazeb)' },
+  { path: 'kompendium/nlp-vzorce/milton-model/', painted: 1, note: 'průzkumník rodiny NLP s předvybranou rodinou' },
+  { path: 'kompendium/nlp-vzorce/trener/', painted: 0, count: ['[data-trener-msg]', 2], note: 'trenér rozpoznávání NLP vzorců' },
 ];
 
 // Nejodkazovanější stránka oddílu: stabilní reprezentant, který se mění jen s obsahem.

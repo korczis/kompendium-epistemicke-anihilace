@@ -1,0 +1,329 @@
+# Rodina NLP-02: Základní pojmy NLP, část d (NLP-02.33 až NLP-02.42).
+# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py. Pořadí je pořadí identifikátorů.
+
+[[pattern]]
+id = "NLP-02.33"
+slug = "vypousteni"
+type = "concept"
+cs = "Vypouštění"
+en = "Deletion"
+aliases = ["delece", "výběrová pozornost"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "prosta-delece", "srovnavaci-delece", "meta-model"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/techniques/ea-2-3-2-context-collapse.md",
+  "kompendium/techniques/ea-2-3-3-quote-mining.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na poradě se rozhodlo, že tvůj projekt končí. Kdo to navrhl a proč, to už teď není podstatné."
+context = "Nadřízený oznamuje zaměstnanci rozhodnutí, na kterém se sám podílel."
+benign = false
+marker = "Z výpovědi je vypuštěn původce rozhodnutí i jeho důvody a mluvčí zároveň prohlašuje, že na nich nezáleží, takže vypuštění chrání jeho samého."
+response = "Klidně se doptat na chybějící údaje: kdo rozhodl, na základě čeho a kde je to zapsané; právo na tyto informace nezaniká tím, že je mluvčí označí za nepodstatné."
+
+[[pattern.trainer]]
+utterance = "Ze včerejší schůzky vám posílám jen tři závěry, které se týkají vašeho týmu. Celý zápis najdete ve sdílené složce."
+context = "Vedoucí oddělení rozesílá shrnutí jednání."
+benign = true
+marker = "Výběr informací je ohlášený a úplný zdroj zůstává dostupný, takže vypuštění slouží přehlednosti, ne skrývání."
+response = "Jde o běžné a legitimní zkrácení: příjemce ví, že čte výběr, a může si kdykoli ověřit celek."
+
+[[pattern]]
+id = "NLP-02.34"
+slug = "zkreslovani"
+type = "concept"
+cs = "Zkreslování"
+en = "Distortion"
+aliases = ["distorze"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["vypousteni", "zobecnovani", "nominalizace", "cteni-myslenek", "pricina-a-nasledek", "komplexni-ekvivalence"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když jsi včera večer mlčel, bylo jasné, že mě nenávidíš. Takže si za tu hádku můžeš sám."
+context = "Partner obviňuje druhého po společném večeru."
+benign = false
+marker = "Mlčení je bez ověření vyloženo jako nenávist (čtení myšlenek) a z tohoto výkladu se pak vyvozuje vina, takže zkreslení slouží k přenesení odpovědnosti."
+response = "Oddělit pozorování (mlčel jsem) od výkladu (nenávidíš mě) a odmítnout přijmout výklad, který nikdo neověřil; vlastní důvod mlčení popsat sám."
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že jste dnes skoro nemluvila, a napadlo mě, jestli vás něco netrápí. Je to tak, nebo se pletu?"
+context = "Terapeut na konci sezení."
+benign = true
+marker = "Mluvčí svůj výklad výslovně označuje za domněnku a vrací ho druhému k potvrzení či odmítnutí."
+response = "Legitimní užití: výklad je nabídnut jako hypotéza a o jeho platnosti rozhoduje ten, o koho jde."
+
+[[pattern]]
+id = "NLP-02.35"
+slug = "zobecnovani"
+type = "concept"
+cs = "Zobecňování"
+en = "Generalisation"
+aliases = ["generalizace"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["vypousteni", "zkreslovani", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "limitujici-presvedceni"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty nikdy nic nedotáhneš do konce. Vždycky to tak bylo a vždycky to tak bude, s tím se nedá nic dělat."
+context = "Rodič komentuje opožděný úkol dospívajícího."
+benign = false
+marker = "Jediná událost je povýšena na trvalou vlastnost osoby slovy „nikdy“ a „vždycky“ a uzavřena tvrzením, že změna není možná."
+response = "Hledat protipříklady a vrátit řeč k jedné konkrétní situaci; zobecnění o celé osobě nemusí člověk přijmout jako popis sebe sama."
+
+[[pattern.trainer]]
+utterance = "Ve třech posledních zakázkách jsme nestihli termín kvůli dodavateli. Vypadá to na opakující se problém, ověříme to u dalších."
+context = "Projektová manažerka na poradě."
+benign = true
+marker = "Zobecnění je opřeno o vyjmenované případy, je omezené na konkrétní oblast a výslovně čeká na ověření."
+response = "Legitimní indukce: zobecnění slouží jako pracovní hypotéza a zůstává otevřené dalším údajům."
+
+[[pattern]]
+id = "NLP-02.36"
+slug = "hluboka-a-povrchova-struktura"
+type = "concept"
+cs = "Hluboká a povrchová struktura"
+en = "Deep and surface structure"
+aliases = ["hloubková struktura"]
+use = "dvoji"
+risk = "nizke"
+broader = ""
+related = ["vypousteni", "meta-model", "transderivacni-hledani", "nominalizace"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Já vím, co jsi tou větou ve skutečnosti myslel. Na tom, co jsi řekl doslova, nesejde, tvoje hluboká struktura je jasná."
+context = "Kolega v rámci koučovacího výcviku vykládá výrok druhého."
+benign = false
+marker = "Pojem hluboké struktury slouží jako licence k tomu, aby mluvčí sám dosadil obsah, který druhý neřekl, a doslovné znění prohlásil za nepodstatné."
+response = "Trvat na tom, že o úplném významu výroku rozhoduje ten, kdo ho pronesl; nabídnutý výklad lze přijmout nebo odmítnout."
+
+[[pattern.trainer]]
+utterance = "Řekl jste, že vás to zklamalo. Můžete popsat, co konkrétně se stalo a koho se to týkalo?"
+context = "Mediátor vede rozhovor se stranou sporu."
+benign = true
+marker = "Otázky směřují k doplnění vypuštěných údajů a obsah doplňuje sám mluvčí, ne tazatel."
+response = "Legitimní upřesňující otázka: rozšiřuje popis, aniž by do něj tazatel vkládal vlastní výklad."
+
+[[pattern]]
+id = "NLP-02.37"
+slug = "modelovani-pojem"
+type = "concept"
+cs = "Modelování"
+en = "Modelling (concept)"
+aliases = ["modeling"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["modelovani-excelence", "modelovatelnost-excelence", "strategie-pojem", "novy-kod", "modelovani-nevedomim"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Úspěch se nedá vysvětlit, dá se jen převzít. Dělej všechno přesně jako já, mluv jako já, a za rok budeš tam, kde jsem já."
+context = "Vedoucí seminářové komunity mluví k novému členovi."
+benign = false
+marker = "Modelování je zúženo na úplnou nápodobu jedné autority a výsledek je slíben bez ověření, takže metoda slouží k připoutání žáka."
+response = "Ptát se, čím je slibovaný výsledek doložen a u kolika lidí nastal; učit se lze od více vzorů a ponechat si vlastní úsudek, co z nich převzít."
+
+[[pattern.trainer]]
+utterance = "Natočili jsme si, jak zkušená sestra vede rozhovor s úzkostným pacientem, a teď společně rozebíráme, co přesně dělá a co z toho pomáhá."
+context = "Klinická supervize na oddělení."
+benign = true
+marker = "Pozorování dovedného jednání je otevřené, rozebírané a jeho přínos se posuzuje, místo aby se přejímalo celé."
+response = "Legitimní učení z modelu: jde o popis dovednosti, který zůstává předmětem kritické diskuse."
+
+[[pattern]]
+id = "NLP-02.38"
+slug = "vnitrni-dialog"
+type = "concept"
+cs = "Vnitřní dialog"
+en = "Internal dialogue"
+aliases = ["vnitřní řeč", "vnitřní hlas"]
+use = "terapie"
+risk = "stredni"
+broader = ""
+related = ["auditivne-digitalni-system", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace", "uptime-a-downtime"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md",
+  "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten hlas, co ti říká, že odsud máš odejít, není tvůj. To mluví tvoje stará zraněná část. Tvůj skutečný hlas mluví jako já."
+context = "Vedoucí uzavřené skupiny mluví se členem, který pochybuje."
+benign = false
+marker = "Vnitřní řeč, která skupinu zpochybňuje, je prohlášena za cizí nebo nemocnou a za „skutečný“ hlas je vydán hlas autority."
+response = "Pochybnost je legitimní součást vlastního úsudku; je užitečné ji promyslet s někým mimo skupinu, ne ji nechat přeznačit autoritou, které se týká."
+
+[[pattern.trainer]]
+utterance = "Když si před zkouškou v duchu opakujete, že to nezvládnete, zkuste si všimnout, čí slova to připomínají a jestli odpovídají vašim výsledkům."
+context = "Školní psycholožka mluví se studentem o trémě."
+benign = true
+marker = "Vnitřní dialog je zkoumán jako myšlenka, kterou lze porovnat s fakty, a rozhodnutí o ní zůstává studentovi."
+response = "Legitimní užití: obdoba práce s automatickými myšlenkami, která posiluje vlastní úsudek, ne závislost na terapeutovi."
+
+[[pattern]]
+id = "NLP-02.39"
+slug = "uptime-a-downtime"
+type = "concept"
+cs = "Uptime a downtime"
+en = "Uptime and downtime"
+aliases = ["vnější a vnitřní zaměření pozornosti"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["trans-pojem", "vnitrni-dialog", "smyslova-ostrost", "kalibrace", "periferni-videni"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Teď nepřemýšlej, jen se nech unášet tím, co ti říkám. Podmínky smlouvy si přečteš později, až se budeš cítit dobře."
+context = "Prodejce na prezentaci investičního produktu."
+benign = false
+marker = "Mluvčí odvádí pozornost posluchače dovnitř, k pocitům, právě ve chvíli, kdy by měl vnímat a posuzovat vnější údaje, tedy podmínky smlouvy."
+response = "Vrátit pozornost ven: požádat o písemné podmínky, číst je v klidu a rozhodnutí odložit mimo situaci, kterou řídí prodejce."
+
+[[pattern.trainer]]
+utterance = "Než budeme pokračovat, chvíli se jen dívejte kolem sebe a pojmenujte pět věcí, které v místnosti vidíte."
+context = "Krizová pracovnice s klientem, který se zahlcuje vzpomínkami."
+benign = true
+marker = "Pozornost je vedena ven k přítomnému prostředí, aby se člověk vrátil do situace, ne aby ztratil kontrolu nad úsudkem."
+response = "Legitimní stabilizační postup: zaměření na vnější vjemy podporuje orientaci a člověk ho může kdykoli přerušit."
+
+[[pattern]]
+id = "NLP-02.40"
+slug = "trans-pojem"
+type = "concept"
+cs = "Trans"
+en = "Trance (concept)"
+aliases = ["tranz", "hypnotický stav"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["ericksonovska-hypnoza", "uptime-a-downtime", "transderivacni-hledani", "konverzacni-hypnoza", "disociace", "utilizace"]
+kompendium = [
+  "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+  "kompendium/case-studies/51-new-age-recovery.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdo se nechá při meditaci úplně unést a přestane hodnotit, ten je připravený. Pochybnosti jsou jen ego, které se bojí transu."
+context = "Vedoucí duchovní skupiny na večerním setkání."
+benign = false
+marker = "Stav zúžené pozornosti je vydáván za podmínku přijetí a kritické hodnocení je předem označeno za překážku, kterou je třeba odložit."
+response = "Kritický úsudek nemusí odkládat nikdo, kdo nesouhlasí; rozhodnutí o skupině patří do chvíle mimo setkání a mimo jeho atmosféru."
+
+[[pattern.trainer]]
+utterance = "Před hypnózou vám vysvětlím, co se bude dít, můžete ji kdykoli ukončit a dál budete vnímat, co se kolem děje."
+context = "Klinický psycholog před hypnoterapeutickým sezením pro zvládání bolesti."
+benign = true
+marker = "Účel je předem vysvětlen, souhlas je informovaný a odvolatelný a mýtus o ztrátě kontroly je výslovně opraven."
+response = "Legitimní klinický rámec: jasný účel, informovaný souhlas a možnost kdykoli skončit."
+
+[[pattern]]
+id = "NLP-02.41"
+slug = "transderivacni-hledani"
+type = "concept"
+cs = "Transderivační hledání"
+en = "Transderivational search"
+aliases = ["TDS"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["hluboka-a-povrchova-struktura", "trans-pojem", "umyslna-vagnost", "nominalizace-milton", "nespecifikovana-slovesa-milton"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Víš, jak to je, když člověk konečně pochopí, co mu celou dobu chybělo. A ty to teď cítíš, viď, to staré prázdno, které naplní jen tohle společenství."
+context = "Náborář skupiny mluví s návštěvníkem úvodního setkání."
+benign = false
+marker = "Vágní slova bez konkrétního obsahu nutí posluchače dosadit vlastní zkušenost a ta se pak připíše skupině jako něco, co jen ona může naplnit."
+response = "Ptát se, co konkrétně se myslí: jaké prázdno, co přesně skupina nabízí a čím je to doloženo; vlastní dosazený obsah mluvčímu nepatří."
+
+[[pattern.trainer]]
+utterance = "Ve verši se mluví jen o cestě domů. Každý čtenář si pod ní představí něco jiného a o tom bude dnešní seminář."
+context = "Učitelka literatury v hodině."
+benign = true
+marker = "Otevřenost textu je výslovně pojmenována a dosazení vlastní zkušenosti je předmětem společné reflexe, ne nástrojem vlivu."
+response = "Legitimní práce s mnohoznačností: čtenář ví, že význam doplňuje sám, a nikdo si jeho dosazený obsah nepřivlastňuje."
+
+[[pattern]]
+id = "NLP-02.42"
+slug = "pacing-a-leading-pojem"
+type = "concept"
+cs = "Pacing a leading"
+en = "Pacing and leading (concept)"
+aliases = ["přizpůsobení a vedení", "doprovázení a vedení"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["pacing-a-leading", "raport", "zrcadleni", "pacing-aktualni-zkusenosti", "vedeni-v-raportu", "raport-jako-nastroj-vlivu"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Sedíte tady, posloucháte mě, cítíte, že je pozdě, a víte, že tahle nabídka platí jen dnes večer, takže podpis je teď jediný rozumný krok."
+context = "Prodejce na večerní prezentaci pro pozvané hosty."
+benign = false
+marker = "Řada nesporných popisů přítomné situace vytváří souhlas, na který je bez přerušení napojeno tvrzení, které nesporné není, a výzva k okamžitému rozhodnutí."
+response = "Všimnout si, kde končí ověřitelný popis a začíná sporné tvrzení; souhlas s prvními větami nezavazuje k závěru a rozhodnutí lze odložit."
+
+[[pattern.trainer]]
+utterance = "Rozumím, že vás ta diagnóza vyděsila a že máte spoustu otázek. Projdeme je jednu po druhé, a co nestihneme dnes, probereme příště."
+context = "Lékařka při sdělování závažné diagnózy."
+benign = true
+marker = "Uznání prožitku pacienta otevírá rozhovor, ale nevede k žádnému závěru, který by pacient neměl možnost zvážit a odmítnout."
+response = "Legitimní empatické naladění: tempo i obsah zůstávají pod kontrolou pacienta a neslouží k vynucení rozhodnutí."

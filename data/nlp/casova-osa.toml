@@ -1,0 +1,390 @@
+# Rodina NLP-12: Časová osa (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-12.01"
+slug = "elicitace-casove-osy"
+type = "pattern"
+cs = "Elicitace časové osy"
+en = "Eliciting the timeline"
+aliases = ["zjišťování časové osy"]
+use = "dvoji"
+risk = "nizke"
+broader = "casova-osa-pojem"
+related = ["casova-osa-pojem", "v-case-a-mimo-cas", "elicitace-submodalit", "kalibrace", "casova-orientace"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že když mluvíte o příštím roce, ukazujete doprava. Tam taky necháme ležet tu smlouvu, ať ji máte pořád před sebou jako svou budoucnost."
+context = "Obchodní zástupce na schůzce s váhajícím zákazníkem."
+benign = false
+marker = "Pozorované prostorové umístění budoucnosti se využívá k tomu, aby nabídka splynula s představou vlastní budoucnosti zákazníka."
+response = "Oddělit gesto od rozhodnutí: posuzovat smlouvu podle obsahu a podmínek, ne podle toho, kde leží, a vyžádat si čas na rozmyšlenou."
+
+[[pattern.trainer]]
+utterance = "Když si představíte loňské léto a pak příští Vánoce, kam byste je zhruba umístili? Zajímá nás jen to, jak lidé o čase přemýšlejí, správná odpověď neexistuje."
+context = "Výzkumnice v psychologické laboratoři při studii prostorové představy času."
+benign = true
+marker = "Otázka na prostorové umístění času je otevřená, bez výkladu a bez navazujícího rozhodnutí, které by z odpovědi plynulo."
+response = "Legitimní užití: popis jevu prostorového myšlení o čase s informovaným souhlasem, bez závěrů o povaze nebo minulosti účastníka."
+
+[[pattern]]
+id = "NLP-12.02"
+slug = "v-case-a-mimo-cas"
+type = "concept"
+cs = "„V čase“ a „mimo čas“"
+en = "In time and through time"
+aliases = ["in time", "through time"]
+use = "dvoji"
+risk = "nizke"
+broader = "casova-osa-pojem"
+related = ["elicitace-casove-osy", "casova-orientace", "metaprogramy-pojem", "asociace", "disociace", "casova-perspektiva"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jste typický člověk ‚v čase‘, žijete přítomností, proto vám nejdou termíny. Na vedoucí místo potřebujeme někoho ‚mimo čas‘, to je prostě vaše nastavení."
+context = "Personalista vysvětluje uchazečce zamítnutí povýšení."
+benign = false
+marker = "Typologie časové osy se používá jako pevná povahová nálepka a jako zdůvodnění personálního rozhodnutí bez ověřených dat o výkonu."
+response = "Žádat hodnocení podle doložených pracovních výsledků; typologie časové osy není validovaný nástroj pro výběr ani hodnocení lidí."
+
+[[pattern.trainer]]
+utterance = "Někdo prožívá čas spíš tak, že jím prochází, jiný ho vidí jako řadu před sebou. Berte to jako metaforu k přemýšlení o plánování, ne jako test osobnosti."
+context = "Lektor kurzu o organizaci času na úvod semináře."
+benign = true
+marker = "Rozlišení je výslovně označeno za metaforu a odděleno od tvrzení o osobnosti člověka."
+response = "Legitimní užití: popisná metafora, která může podnítit reflexi, aniž by z ní plynulo hodnocení nebo nálepka."
+
+[[pattern]]
+id = "NLP-12.03"
+slug = "terapie-casove-osy"
+type = "pattern"
+cs = "Terapie časové osy"
+en = "Time Line Therapy"
+aliases = ["Time Line Therapy", "TLT"]
+use = "terapie"
+risk = "vysoke"
+broader = "casova-osa-pojem"
+related = ["korenova-pricina", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "zmena-osobni-historie", "trauma-a-falesne-vzpominky", "stav-dukazu-nlp"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md",
+  "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Za jedno odpoledne na časové ose se zbavíte všech starých emocí i úzkostí. Psychoterapie trvá roky, tohle funguje hned a výsledky jsou trvalé."
+context = "Propagační přednáška certifikovaného praktika před víkendovým kurzem."
+benign = false
+marker = "Slib rychlého a trvalého vyléčení spojený se zlehčováním ověřených léčebných přístupů, bez jakéhokoli doložení účinku."
+response = "Ptát se po nezávislých studiích a po kvalifikaci průvodce; u úzkostí a traumatu vyhledat odborníka s ověřenou metodou a možností následné péče."
+
+[[pattern.trainer]]
+utterance = "V kurzu se dozvíte, co terapie časové osy tvrdí a jak vznikla. Pro léčbu úzkosti ale doporučujeme metody, jejichž účinek byl ověřen v kontrolovaných studiích."
+context = "Vyučující semináře o psychoterapeutických směrech pro studenty psychologie."
+benign = true
+marker = "Metoda je představena jako předmět studia a výslovně odlišena od léčebného doporučení."
+response = "Legitimní užití: výklad metody s uvedením stavu důkazů, který čtenáře nevede k neověřené léčbě."
+
+[[pattern]]
+id = "NLP-12.04"
+slug = "uvolneni-negativnich-emoci"
+type = "pattern"
+cs = "Uvolnění negativních emocí na časové ose"
+en = "Releasing negative emotions on the timeline"
+aliases = ["uvolnění emocí"]
+use = "terapie"
+risk = "stredni"
+broader = "terapie-casove-osy"
+related = ["korenova-pricina", "disociace", "rychla-lecba-fobie", "vzorec-odpusteni", "trauma-a-falesne-vzpominky"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "glossary/complex-trauma.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten vztek na otce jste právě pustil, je pryč. Jestli se ještě někdy vrátí, znamená to jen, že se mu v hloubi duše bráníte a neuvolnil jste ho doopravdy."
+context = "Průvodce po sezení na skupinovém kurzu osobního rozvoje."
+benign = false
+marker = "Okamžitý úspěch je vyhlášen předem a každý budoucí návrat emoce se předem přičítá selhání klienta, takže metodu nelze vyvrátit."
+response = "Brát návrat emoce jako běžnou informaci, ne jako vinu; vyhledat odborníka, který s emocemi pracuje bez slibu okamžitého zmizení."
+
+[[pattern.trainer]]
+utterance = "Je možné, že se vám při vzpomínce trochu uleví a časem se vztek znovu ozve. To je normální a budeme s tím pracovat dál vaším tempem."
+context = "Psychoterapeutka po sezení zaměřeném na zlost spojenou se zapamatovanou událostí."
+benign = true
+marker = "Očekávání jsou realistická, návrat emoce se nepřičítá klientovi a tempo určuje klient."
+response = "Legitimní užití: práce s emocí ke vzpomínce, kterou si klient pamatuje, bez slibu zázračného výsledku a bez imunizace metody."
+
+[[pattern]]
+id = "NLP-12.05"
+slug = "limitujici-rozhodnuti"
+type = "pattern"
+cs = "Limitující rozhodnutí"
+en = "Limiting decisions"
+aliases = ["omezující rozhodnutí"]
+use = "terapie"
+risk = "stredni"
+broader = "terapie-casove-osy"
+related = ["limitujici-presvedceni", "imprint", "korenova-pricina", "reimprinting", "presvedceni-o-pricine"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md",
+  "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Někdy v dětství jste se rozhodla, že si úspěch nezasloužíte. Proto teď pochybujete o našem programu. Kdo to rozhodnutí zruší, ten u nás zůstane."
+context = "Vedoucí rozvojové skupiny reaguje na pochybnosti členky o placeném programu."
+benign = false
+marker = "Pochybnost o skupině se vykládá jako dávné limitující rozhodnutí a jeho zrušení se podmiňuje setrváním ve skupině."
+response = "Oddělit otázku hodnoty programu od výkladu vlastního dětství; pochybnost posuzovat podle faktů o programu, ne podle diagnózy, kterou nabízí vedoucí."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že ‚na matematiku prostě nejste‘. Pojďme se podívat, kdy jste si to začal myslet a jestli to dnes ještě odpovídá tomu, co umíte."
+context = "Studijní poradkyně mluví se studentem před opravnou zkouškou."
+benign = true
+marker = "Přesvědčení se pojmenuje jako hypotéza a ověřuje se proti současným dokladům, bez hledání skryté dávné příčiny."
+response = "Legitimní užití: přesvědčení se zkoumá jako pracovní domněnka v duchu kognitivní terapie a student si o výsledku rozhoduje sám."
+
+[[pattern]]
+id = "NLP-12.06"
+slug = "vlozeni-budouciho-cile"
+type = "pattern"
+cs = "Vložení cíle do budoucnosti"
+en = "Placing a goal in the future"
+aliases = ["umístění cíle na časovou osu"]
+use = "dvoji"
+risk = "stredni"
+broader = "terapie-casove-osy"
+related = ["dobre-formulovany-vysledek", "budouci-prehravani", "pseudoorientace-v-case", "ramec-jako-by", "casova-perspektiva"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten dům u moře už na vaší časové ose je, viděla jste ho. Teď stačí podepsat vyšší úroveň programu, jinak tu budoucnost sama zahodíte."
+context = "Lektorka drahého programu osobního rozvoje na konci skupinové vizualizace."
+benign = false
+marker = "Živě představený cíl se vydává za jistou budoucnost a jeho ztráta se podmiňuje okamžitým nákupem."
+response = "Rozlišit představu od plánu: ověřit, čím program k cíli prokazatelně přispívá, a odmítnout rozhodovat pod tlakem bezprostředně po vizualizaci."
+
+[[pattern.trainer]]
+utterance = "Zkuste si popsat, jak by vypadal váš běžný den, až dokončíte rekvalifikaci. Pak se podíváme, co je reálné a co by to stálo."
+context = "Kariérní poradce s klientkou, která zvažuje změnu oboru."
+benign = true
+marker = "Představa budoucnosti slouží k ujasnění cíle a hned se spojuje s realistickým posouzením nákladů a možností."
+response = "Legitimní užití: představa cíle je podkladem k plánování, ne nástrojem tlaku na okamžité rozhodnutí."
+
+[[pattern]]
+id = "NLP-12.07"
+slug = "korenova-pricina"
+type = "pattern"
+cs = "Hledání kořenové příčiny"
+en = "Root cause"
+aliases = ["první událost", "root cause", "hledání první příčiny"]
+use = "dvoji"
+risk = "vysoke"
+broader = "terapie-casove-osy"
+related = ["trauma-a-falesne-vzpominky", "vekova-regrese", "imprint", "presupozice-ve-vyslechu", "presvedceni-o-pricine", "reimprinting"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md",
+  "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md",
+  "kompendium/techniques/ea-5-3-13-genealogicka-rekonstrukce.md",
+  "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nemusíte si to pamatovat, vaše nevědomí to ví. Cokoli se vám teď vybaví, je ta první událost, a to, co uvidíte, se opravdu stalo."
+context = "Průvodce při sezení s představou návratu do raného dětství."
+benign = false
+marker = "Absence vzpomínky se překonává ujištěním, že cokoli se vybaví, je pravdivá událost; představa se předem prohlašuje za fakt."
+response = "Trvat na rozlišení představy a vzpomínky; obsah vybavený v sugestivní situaci nepovažovat za doklad o minulosti ani o jiných lidech bez nezávislého potvrzení."
+
+[[pattern.trainer]]
+utterance = "Řekněte mi, co si z té doby skutečně pamatujete. Když si něco nevybavíte, je to v pořádku a nebudeme mezery domýšlet."
+context = "Klinická psycholožka při anamnéze klienta s úzkostnými potížemi."
+benign = true
+marker = "Otázka je otevřená a nesugestivní, nevybavení se přijímá jako informace a mezery se nevyplňují výkladem."
+response = "Legitimní užití: pracuje se jen se zapamatovaným obsahem a riziko vytvoření nepravé vzpomínky se vědomě snižuje."
+
+[[pattern]]
+id = "NLP-12.08"
+slug = "zmena-tvaru-casove-osy"
+type = "pattern"
+cs = "Změna tvaru časové osy"
+en = "Changing the shape of the timeline"
+aliases = ["přeuspořádání časové osy"]
+use = "terapie"
+risk = "nizke"
+broader = "casova-osa-pojem"
+related = ["elicitace-casove-osy", "submodality-pojem", "prostorove-umisteni-obrazu", "casove-kodovani", "v-case-a-mimo-cas"]
+kompendium = [
+  "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vaše časová osa je zkroucená, proto se vám nedaří. Dokud ji u mě nenarovnáte, nemá smysl řešit práci ani vztahy, všechno ostatní je jen důsledek."
+context = "Kouč na úvodní konzultaci s klientem, který přišel kvůli konfliktům v práci."
+benign = false
+marker = "Tvar vnitřní představy času se prohlašuje za příčinu všech potíží a jeho úprava u průvodce za podmínku jakéhokoli dalšího řešení."
+response = "Žádat, aby se konkrétní potíže řešily přímo; tvar časové představy není doložená příčina pracovních ani vztahových problémů."
+
+[[pattern.trainer]]
+utterance = "Někomu pomáhá představit si týdny jako řadu krabic na stole, aby viděl, co ho čeká. Jestli vám to nesedí, klidně použijte obyčejný kalendář."
+context = "Ergoterapeutka s klientem po úrazu, který se učí plánovat týden."
+benign = true
+marker = "Prostorová představa času je nabídnuta jako pomůcka k plánování s výslovnou alternativou, bez nároku na léčebný účinek."
+response = "Legitimní užití: volitelná pomůcka k orientaci v čase, kterou klient může odmítnout bez následků."
+
+[[pattern]]
+id = "NLP-12.09"
+slug = "casove-kodovani"
+type = "concept"
+cs = "Časové kódování zkušenosti"
+en = "Temporal coding of experience"
+aliases = ["kódování času"]
+use = "zadne"
+risk = "nizke"
+broader = "casova-osa-pojem"
+related = ["submodality-pojem", "zkusenost-je-kodovana-smysly", "slovesa-zmeny-casu", "casove-presuny-v-jazyce", "zmena-tvaru-casove-osy"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta hádka už je daleko za vámi, malá a vybledlá, skoro jako by se nestala. Takže už nemá smysl o ní mluvit, ani s tím, kdo tam byl."
+context = "Partner uzavírá rozhovor o dřívějším konfliktu, za který nesl odpovědnost."
+benign = false
+marker = "Jazyk časové vzdálenosti a vyblednutí se používá k tomu, aby se událost prohlásila za bezvýznamnou a uzavřela se možnost ji projednat."
+response = "Oddělit časovou vzdálenost od významu: událost může být minulá, a přesto potřebuje pojmenování, omluvu nebo nápravu."
+
+[[pattern.trainer]]
+utterance = "Všimněte si, že o té nehodě mluvíte v přítomném čase, jako by se děla teď. To se u silných zážitků stává a je to užitečná informace."
+context = "Terapeut při vstupním rozhovoru s klientem po dopravní nehodě."
+benign = true
+marker = "Pozorování časové formy řeči slouží k porozumění prožitku, ne ke změně obsahu vzpomínky."
+response = "Legitimní užití: časové rysy vyprávění se pojmenují jako klinická informace a další postup zůstává na ověřené léčbě."
+
+[[pattern]]
+id = "NLP-12.10"
+slug = "budouci-prehravani"
+type = "pattern"
+cs = "Budoucí přehrávání"
+en = "Future pacing"
+aliases = ["future pacing", "přehrání do budoucnosti"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["budouci-prehravani-v-prodeji", "vlozeni-budouciho-cile", "posthypnoticka-sugesce", "predpokladovy-zaver", "testovani-kotvy", "pseudoorientace-v-case"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md",
+  "kompendium/techniques/ea-2-2-5-recommendation-coercion.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Představte si, že je za rok a vaše děti jsou díky tomuhle pojištění v bezpečí. Jak se cítíte? Přesně ten pocit si dnes odnesete s podpisem."
+context = "Finanční poradce na schůzce v domácnosti rodiny."
+benign = false
+marker = "Živá představa budoucího prožitku se spojí s dnešním podpisem a nahrazuje srovnání podmínek a cen."
+response = "Odložit rozhodnutí, vyžádat si písemné podmínky a srovnat je s jinými nabídkami bez představ, které poradce navodil."
+
+[[pattern.trainer]]
+utterance = "Než skončíme, projděme si, kdy příští týden přijde ta těžká situace v práci a co v ní uděláte jinak. Kdyby to nešlo, probereme to příště."
+context = "Psycholog na konci sezení zaměřeného na zvládání stresu."
+benign = true
+marker = "Představa budoucí situace slouží k přenosu dovednosti do života klienta a připouští neúspěch bez obviňování."
+response = "Legitimní užití: nácvik přenosu do budoucích situací, při němž se nic nekupuje a klient může plán upravit."
+
+[[pattern]]
+id = "NLP-12.11"
+slug = "casova-perspektiva"
+type = "concept"
+cs = "Časová perspektiva"
+en = "Time perspective"
+aliases = ["orientace v čase"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["casova-orientace", "v-case-a-mimo-cas", "casova-osa-pojem", "beznadej-bezmoc-nehodnost", "vlozeni-budouciho-cile"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+  "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md",
+  "kompendium/06-klinicke-aplikace/preventivni-strategie.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje minulost venku byla jen ztracený čas a budoucnost tam žádná není. Skutečná budoucnost existuje jen tady, s námi, a začíná dnes."
+context = "Starší člen uzavřené skupiny k nováčkovi, který uvažuje o odchodu."
+benign = false
+marker = "Minulost mimo skupinu se znehodnocuje a budoucnost se vymezuje výhradně uvnitř skupiny, čímž se zužuje časová perspektiva člověka."
+response = "Obnovit vlastní časovou perspektivu: připomenout si konkrétní hodnoty a vztahy z minulosti a možnosti budoucnosti mimo skupinu, s oporou lidí zvenčí."
+
+[[pattern.trainer]]
+utterance = "Když jste teď ve stresu, svět se zúží na dnešek. Zkusme spolu připomenout, co vás dřív drželo, a co by pro vás mohlo mít smysl za rok."
+context = "Krizová interventka s klientkou po ztrátě zaměstnání."
+benign = true
+marker = "Zúžení časové perspektivy se pojmenuje jako běžný důsledek stresu a perspektiva se rozšiřuje z vlastních zdrojů klientky."
+response = "Legitimní užití: podpora rozšíření časové perspektivy bez vnucování obsahu budoucnosti zvenčí."
+
+[[pattern]]
+id = "NLP-12.12"
+slug = "pruchod-casovou-osou"
+type = "pattern"
+cs = "Procházení časové osy"
+en = "Timeline walk"
+aliases = ["časová osa na podlaze", "chůze po časové ose"]
+use = "terapie"
+risk = "stredni"
+broader = "casova-osa-pojem"
+related = ["prostorove-kotveni", "reimprinting", "zmena-osobni-historie", "korenova-pricina", "percepcni-pozice-pojem"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Celá skupina vás teď uvidí jít zpátky do dětství. Nezastavujte se, dokud to nevyjde ven, emoce, které tu ukážete, jsou důkaz, že to funguje."
+context = "Vedoucí velkého víkendového semináře před účastníky."
+benign = false
+marker = "Veřejné procházení minulosti před skupinou, silná emoce vydávaná za důkaz účinku a tlak nepřerušovat cvičení."
+response = "Mít právo cvičení kdykoli přerušit; silná emoce není důkaz pravdivosti ani účinku a práce s minulostí patří do bezpečného terapeutického rámce."
+
+[[pattern.trainer]]
+utterance = "Rozložili jsme na podlahu kartičky s hlavními obdobími vašeho života. Můžete se k nim postavit, nebo je jen popisovat ze židle, jak vám bude příjemnější."
+context = "Terapeutka v poradně pro rodiny při práci s životním příběhem dospívajícího."
+benign = true
+marker = "Prostorové uspořádání slouží k přehledu zapamatovaných období, účast je dobrovolná a forma volitelná."
+response = "Legitimní užití: názorná pomůcka k vyprávění vlastního příběhu bez hledání skrytých událostí a bez tlaku na emoční projev."

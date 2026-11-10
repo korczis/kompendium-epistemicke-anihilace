@@ -491,7 +491,7 @@ Při implementaci s potenciálně vulnerabilními populacemi by měly být aplik
 
 **Deskripce**: Student projevuje zájem o využití technik manipulativně.
 
-**Navigační proces**: neodsuzující explorace motivací → reframing zdůrazňující etické implikace → explicitní adresování rizik → evaluace kompatibility cílů → v případě perzistence dočasné/trvalé vyloučení.
+**Navigační proces**: neodsuzující explorace motivací → [reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) zdůrazňující etické implikace → explicitní adresování rizik → evaluace kompatibility cílů → v případě perzistence dočasné/trvalé vyloučení.
 
 #### Scénář 3: Epistemická paralýza
 

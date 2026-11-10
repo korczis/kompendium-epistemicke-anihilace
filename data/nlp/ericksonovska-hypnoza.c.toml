@@ -1,0 +1,294 @@
+# Rodina NLP-05: Ericksonovská hypnóza, část c (NLP-05.20 až NLP-05.28; pravidlo project.nlp-catalog;
+# schéma v scripts/nlp-catalog.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-05.20"
+slug = "apozice-protikladu"
+type = "pattern"
+cs = "Apozice protikladů"
+en = "Apposition of opposites"
+aliases = ["spojení protikladů", "kladení protikladů vedle sebe"]
+use = "dvoji"
+risk = "stredni"
+broader = "slozena-sugesce"
+related = ["slozena-sugesce", "paradoxni-intervence", "terapeuticka-dvojna-vazba", "konfuzni-technika"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Čím víc se teď bráníš, tím jasněji je vidět, jak moc ti na tom ve skutečnosti záleží a jak moc tu chceš zůstat."
+context = "Vedoucí uzavřené skupiny reaguje na člena, který ohlásil odchod."
+benign = false
+marker = "Dvě protichůdné veličiny (odpor a touha zůstat) jsou spojeny vztahem „čím víc…, tím víc…“, takže každý projev nesouhlasu se vykládá jako důkaz opaku."
+response = "Oddělit obě veličiny a trvat na doslovném významu vlastního sdělení: odpor znamená odpor; rozhodnutí o odchodu nepotřebuje souhlas výkladu druhé strany."
+
+[[pattern.trainer]]
+utterance = "Je normální, že napětí a úleva se po náročném dni střídají; může se stát, že si dnes všimnete obojího."
+context = "Psycholog popisuje klientovi běžný průběh zotavení po stresové události."
+benign = true
+marker = "Protiklady jsou zmíněny jako dva možné stavy bez kauzálního svázání; nic z toho neslouží k tomu, aby se nesouhlas proměnil v souhlas."
+response = "Jde o neškodné užití: normalizace kolísání prožitku, která nechává klientovi jeho vlastní popis a nic z jeho reakcí nepřevrací v opak."
+
+[[pattern]]
+id = "NLP-05.21"
+slug = "slozena-sugesce"
+type = "pattern"
+cs = "Složená sugesce"
+en = "Compound suggestion"
+aliases = ["sdružená sugesce"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["ano-sada", "spojky-a-implikovana-pricinnost", "retezeni-sugesci", "truismy", "implikovane-direktivum"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Sedíte tady s námi, posloucháte, co nabízíme, a proto už víte, že tahle smlouva je pro vaši rodinu to nejlepší."
+context = "Prodejce na prezentaci finančního produktu."
+benign = false
+marker = "Dvě nesporná pozorování (sedíte, posloucháte) jsou spojkou „a proto“ svázána s tvrzením, které z nich vůbec neplyne; souhlas s pravdivou částí se přenáší na nepravdivou."
+response = "Rozpojit větu na jednotlivá tvrzení a hodnotit každé zvlášť: to, že posloucháte, nic neříká o kvalitě smlouvy; požádat o písemné podmínky a čas na rozmyšlenou."
+
+[[pattern.trainer]]
+utterance = "Zatím jste dokončili první dvě kapitoly a pochopili základní pojmy, takže příště můžeme začít s příklady."
+context = "Vyučující shrnuje postup kurzu."
+benign = true
+marker = "Spojka váže skutečný předpoklad (dokončené kapitoly) s návrhem, který z něj věcně vyplývá a který si posluchači mohou ověřit."
+response = "Neškodné: vazba mezi částmi je doložitelná a slouží orientaci, ne přenesení souhlasu na nesouvisející tvrzení."
+
+[[pattern]]
+id = "NLP-05.22"
+slug = "implikovane-direktivum"
+type = "pattern"
+cs = "Implikované direktivum"
+en = "Implied directive"
+aliases = ["implikovaný pokyn"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["ideomotoricka-signalizace", "presupozice-milton", "vlozene-prikazy", "presupozice-casovych-vet", "slozena-sugesce"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jakmile pochopíš, že rodina tě jen brzdí, ucítíš konečně tu lehkost, o které ti tu všichni vyprávějí."
+context = "Starší člen skupiny mluví s nováčkem o jeho vztazích s příbuznými."
+benign = false
+marker = "Časová spojka „jakmile“ předpokládá, že posluchač dojde k závěru o rodině, a připojený tělesný signál (lehkost) má sloužit jako potvrzení, že k němu došel."
+response = "Všimnout si, že věta neobsahuje žádný argument, jen předpoklad a slib pocitu; ptát se, proč by pocit měl dokazovat tvrzení o rodině, a ověřit vztahy přímo s rodinou."
+
+[[pattern.trainer]]
+utterance = "Až si projdete dotazník a budete mít pocit, že jste odpověděli na všechno, dejte mi prosím vědět."
+context = "Sestra v ordinaci předává pacientovi vstupní dotazník."
+benign = true
+marker = "Časová vazba spojuje konkrétní úkol a jeho viditelné dokončení; nic se v ní nepředpokládá o přesvědčení pacienta."
+response = "Neškodné: jde o běžnou organizační instrukci, jejíž obsah i cíl jsou otevřené a dobrovolné."
+
+[[pattern]]
+id = "NLP-05.23"
+slug = "otevrena-sugesce"
+type = "pattern"
+cs = "Otevřená sugesce"
+en = "Open-ended suggestion"
+aliases = ["neurčitá sugesce"]
+use = "dvoji"
+risk = "nizke"
+broader = "ericksonovska-hypnoza"
+related = ["umyslna-vagnost", "sugesce-pokryvajici-vsechny-moznosti", "utilizace", "iluze-volby"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Každý z vás během dnešního večera nějakým svým způsobem pocítí, že vás Mistr osobně zná, ať už to přijde jako teplo, klid nebo náhlé dojetí."
+context = "Organizátor duchovního setkání před vystoupením vůdce."
+benign = false
+marker = "Sugesce nechává formu prožitku otevřenou, ale pevně stanoví jeho výklad (Mistr vás zná); jakýkoli běžný pocit se tak předem označí za důkaz."
+response = "Oddělit prožitek od výkladu: teplo, klid nebo dojetí jsou běžné reakce na hudbu a skupinovou atmosféru a nic nedokládají o vztahu k vůdci."
+
+[[pattern.trainer]]
+utterance = "Řekněte mi prosím vlastními slovy, co se tehdy stalo, cokoli si vybavíte, v jakémkoli pořadí."
+context = "Vyšetřovatel zahajuje rozhovor se svědkem."
+benign = true
+marker = "Otevřenost se týká obsahu i formy výpovědi a výzva neobsahuje žádný předem daný výklad ani očekávaný detail."
+response = "Neškodné a žádoucí: otevřená výzva bez vloženého obsahu snižuje riziko, že svědek převezme informace od tazatele."
+
+[[pattern]]
+id = "NLP-05.24"
+slug = "sugesce-pokryvajici-vsechny-moznosti"
+type = "pattern"
+cs = "Sugesce pokrývající všechny možnosti"
+en = "Suggestion covering all possibilities"
+aliases = ["sugesce pokrývající celou třídu odpovědí"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["iluze-volby", "terapeuticka-dvojna-vazba", "otevrena-sugesce", "presupozice-nebo", "utilizace"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Po té meditaci se ti buď uleví, nebo se ti vynoří staré bolesti, nebo neucítíš nic, protože se to teprve zpracovává. Každá z těch možností znamená, že to funguje."
+context = "Lektor placeného kurzu „energetického čištění“ vysvětluje účastníkům, co mají čekat."
+benign = false
+marker = "Výčet pokrývá všechny myslitelné reakce včetně žádné a každou předem prohlašuje za potvrzení účinku; tvrzení tím přestává být ověřitelné."
+response = "Zeptat se, jaký výsledek by ukázal, že metoda nefunguje; pokud žádný neexistuje, tvrzení o účinku nic neříká a nelze o něj opřít rozhodnutí platit za další kurzy."
+
+[[pattern.trainer]]
+utterance = "Po očkování můžete mít zarudlé místo vpichu, mírnou teplotu, nebo nic; když se objeví něco jiného, zavolejte nám."
+context = "Lékařka informuje pacienta o běžných reakcích na očkování."
+benign = true
+marker = "Výčet je úplný jen v rozsahu běžných reakcí a výslovně ponechává prostor pro výsledek, který by vyžadoval jiný postup; nic se v něm nevykládá jako důkaz čehokoli."
+response = "Neškodné: informace o očekávaných reakcích, která zachovává ověřitelnost (existuje výsledek, který znamená problém)."
+
+[[pattern]]
+id = "NLP-05.25"
+slug = "ideomotoricka-signalizace"
+type = "pattern"
+cs = "Ideomotorická signalizace"
+en = "Ideomotor signalling"
+aliases = ["ideomotorické signály", "prstové signály"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["levitace-ruky", "sestikrokovy-reframing", "vekova-regrese", "trans-pojem", "kalibrace-ano-ne"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md",
+  "kompendium/forensic-legal/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vědomě si nic takového nepamatujete, ale váš prst se zvedl, a to je odpověď vašeho nevědomí. Tělo nelže."
+context = "Terapeut, který „odkrývá potlačené vzpomínky“, vykládá klientce pohyb prstu."
+benign = false
+marker = "Drobný nevědomý pohyb se vydává za přímý přístup k pravdě o minulosti; výrok „tělo nelže“ vyřazuje vědomé svědectví klientky jako méně spolehlivé."
+response = "Vědět, že ideomotorické pohyby reagují na očekávání a kontext rozhovoru a nejsou detektorem pravdy; nevyvozovat z nich závěry o minulých událostech a hledat nezávislé doklady."
+
+[[pattern.trainer]]
+utterance = "Ten pohyb kyvadla vzniká z drobných pohybů vaší ruky, kterých si nevšimnete; ukazuje, jak očekávání ovlivňuje tělo, ne žádnou skrytou odpověď."
+context = "Vyučující psychologie předvádí studentům ideomotorický jev."
+benign = true
+marker = "Jev je pojmenován a vysvětlen včetně svého mechanismu a výslovně se popírá, že by nesl skrytou informaci."
+response = "Neškodné: demonstrace, která učí ideomotorický jev rozpoznat, a tím chrání před jeho výkladem jako „hlasu nevědomí“."
+
+[[pattern]]
+id = "NLP-05.26"
+slug = "frakcionace"
+type = "pattern"
+cs = "Frakcionace"
+en = "Fractionation"
+aliases = ["frakcionovaná hypnóza", "střídání stavů"]
+use = "vliv"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["trans-pojem", "preruseni-vzorce", "posthypnoticka-sugesce", "nlp-v-komunite-svadeni", "velke-seminare"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Včera jsi byla úžasná, dnes mě zklamala, ale vím, že zítra mi zase ukážeš, kdo doopravdy jsi."
+context = "Partner v kontrolujícím vztahu po další výměně vřelosti a chladu."
+benign = false
+marker = "Opakované střídání silné náklonnosti a jejího odnětí; návrat vřelosti je podmíněn a vázán na „pravou“ identitu, kterou určuje mluvčí."
+response = "Všimnout si rytmu, ne jednotlivých okamžiků: zapisovat si střídání vřelosti a chladu, mluvit o nich s někým mimo vztah a nehodnotit sebe podle toho, ve které fázi cyklu se právě nachází."
+
+[[pattern.trainer]]
+utterance = "Dáme si teď přestávku, protáhněte se a napijte se; po pauze projdeme další kapitolu stejným tempem."
+context = "Lektor na celodenním odborném školení."
+benign = true
+marker = "Přerušení je ohlášené, má praktický účel a návrat k práci není spojen se slibem hlubšího stavu ani s emoční odměnou."
+response = "Neškodné: běžná přestávka, která podporuje pozornost a nemá vytvářet střídání emočních vrcholů a propadů."
+
+[[pattern]]
+id = "NLP-05.27"
+slug = "indukce-pretizenim"
+type = "pattern"
+cs = "Indukce přetížením"
+en = "Overload induction"
+aliases = ["přetížení pozornosti", "smyslové přetížení"]
+use = "vliv"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["konfuzni-technika", "preruseni-vzorce", "transderivacni-hledani", "vrstveni-realit", "trans-pojem"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Sledujte čísla na obrazovce, poslouchejte můj hlas, počítejte nádechy a zároveň si vybavte, kolik vás stojí váš dosavadní život, a podpis dole je pak jen formalita."
+context = "Moderátor prodejní akce v sále se světelnými efekty a hlasitou hudbou."
+benign = false
+marker = "Několik souběžných úkolů pro pozornost je vrstveno najednou a na konci, kdy kapacita pro posouzení klesá, se připojí požadavek rozhodnutí."
+response = "Zastavit tok podnětů: odejít ze sálu nebo požádat o materiály s sebou a nepodepisovat nic v prostředí, kde nelze v klidu číst."
+
+[[pattern.trainer]]
+utterance = "Je toho dnes hodně najednou, tak to rozdělíme: teď jen tabulka výsledků, zítra rozbor a rozhodnutí příští týden."
+context = "Vedoucí projektu na poradě po náročném čtvrtletí."
+benign = true
+marker = "Mluvčí přetížení rozpoznává a záměrně ho snižuje; rozhodnutí se odkládá na dobu, kdy posluchači mohou informace zpracovat."
+response = "Neškodné: opak indukce přetížením, který chrání kapacitu posluchačů k samostatnému úsudku."
+
+[[pattern]]
+id = "NLP-05.28"
+slug = "amnezie-sugesci"
+type = "pattern"
+cs = "Navozená amnézie"
+en = "Suggested amnesia"
+aliases = ["sugerovaná amnézie", "strukturovaná amnézie", "posthypnotická amnézie"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["posthypnoticka-sugesce", "vekova-regrese", "konfuzni-technika", "technika-prolozeni", "nlp-v-sektach"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na detaily dnešního rozhovoru nemusíš myslet, stejně si je nebudeš pamatovat, důležité je jen to, jak se teď cítíš."
+context = "Vedoucí „osobního rozvoje“ na konci soukromého sezení s účastnicí."
+benign = false
+marker = "Mluvčí předem oznamuje zapomnění obsahu a přesouvá pozornost na pocit; obsah rozhovoru se tím odvádí z dosahu pozdější kontroly."
+response = "Zapsat si hned po setkání, co bylo řečeno a co bylo požadováno, a probrat to s důvěryhodnou osobou; to, co si podle mluvčího „nemáte pamatovat“, je právě to, co stojí za zápis."
+
+[[pattern.trainer]]
+utterance = "Po zákroku si z doby sedace pravděpodobně nebudete pamatovat skoro nic; je to účinek léku a všechno důležité vám dáme písemně."
+context = "Anesteziolog před ambulantním zákrokem."
+benign = true
+marker = "Amnézie je otevřeně vysvětlena jako vedlejší účinek léku a mezera v paměti je vyvážena písemnou informací, nikoli využita."
+response = "Neškodné: informovaný souhlas, který mezeru v paměti pojmenuje a doplní ji ověřitelným záznamem."

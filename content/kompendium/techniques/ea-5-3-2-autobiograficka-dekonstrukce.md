@@ -152,7 +152,7 @@ Diferenciální klíč: přítomnost identifikovatelného **externího agenta**,
 
 Pozorovatelné indikátory přítomnosti této techniky v klinické anamnéze:
 
-epizodická paměťová mlha pro klíčové biografické milníky, neschopnost rekonstruovat časové sekvence vlastních rozhodnutí, retrospektivní reframing dříve smysluplných epizod jako 'iluze', fragmenty v první osobě střídané s odcizenou třetí osobou, sebepopis jako 'kdo jsem byl' bez integrace s 'kdo jsem'.
+epizodická paměťová mlha pro klíčové biografické milníky, neschopnost rekonstruovat časové sekvence vlastních rozhodnutí, retrospektivní [reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) dříve smysluplných epizod jako 'iluze', fragmenty v první osobě střídané s odcizenou třetí osobou, sebepopis jako 'kdo jsem byl' bez integrace s 'kdo jsem'.
 
 Tyto markery jsou kumulativní — žádný jednotlivý nemá diagnostickou specificitu, ale jejich konvergence při anamnéze přítomnosti high-control vztahu nebo izolačního prostředí zvyšuje prediktivní hodnotu. Doporučená klinická cesta zahrnuje longitudinální anamnézu (před/po hraniční bod), konfrontaci s externí dokumentací (deníky, fotografie, korespondence), a strukturované interview se zaměřením na narativní koherenci pre-manipulační fáze.
 

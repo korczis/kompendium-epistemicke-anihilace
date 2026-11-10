@@ -34,7 +34,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 07 — Gestalt psychologie**: Wertheimer, Köhler, Koffka
 - **Sekce 08 — Filosofie vědy**: Kuhn, paradigm shifts
-- **Sekce 09 — Klinické aplikace**: insight v terapii, reframing
+- **Sekce 09 — Klinické aplikace**: insight v terapii, [reframing](@/kompendium/nlp-vzorce/reframing/reframing.md)
 - **Sekce 10 — AI implications**: embedding-space transformations
 - **Per-technique články**: facilitating gestalt shifts in coaching
 

@@ -1,0 +1,294 @@
+# Rodina NLP-05: Ericksonovská hypnóza, část b (NLP-05.11 až NLP-05.19).
+# Pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py.
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-05.11"
+slug = "posthypnoticka-sugesce"
+type = "pattern"
+cs = "Posthypnotická sugesce"
+en = "Post-hypnotic suggestion"
+aliases = ["posthypnotický příkaz"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["amnezie-sugesci", "trans-pojem", "vlozene-prikazy", "kotveni", "budouci-prehravani"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/01-predmluva/eticke-aspekty.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Až příště uslyšíš zvonek u dveří, prostě ucítíš, že máš zavolat mně, a nebudeš vlastně vědět proč, jen to tak bude správné."
+context = "Člověk z uzavřené skupiny na konci dlouhého, uklidňujícího rozhovoru s nováčkem."
+benign = false
+marker = "Reakce se váže na budoucí běžný podnět, její původ má zůstat skrytý a výsledkem je kontakt, který slouží mluvčímu."
+response = "Pojmenovat, že jde o pokus svázat budoucí jednání s podnětem, a rozhodovat o kontaktu vědomě, ne podle náhlého pocitu."
+
+[[pattern.trainer]]
+utterance = "Domluvili jsme se, že až budete mít před zkouškou trému, můžete si vzpomenout na dnešní klidné dýchání. Je to vaše volba, kdykoli ji budete chtít."
+context = "Psycholog na konci sezení s klientem, který trpí zkouškovou úzkostí."
+benign = true
+marker = "Vazba na budoucí situaci je dohodnutá otevřeně, klient ví, k čemu slouží, a může ji kdykoli nepoužít."
+response = "Jde o legitimní užití: transparentní dohoda o zvládací dovednosti, kterou klient zná a ovládá, bez skrývání původu."
+
+[[pattern]]
+id = "NLP-05.12"
+slug = "vekova-regrese"
+type = "pattern"
+cs = "Věková regrese"
+en = "Age regression"
+aliases = ["hypnotická regrese"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["trauma-a-falesne-vzpominky", "zmena-osobni-historie", "reimprinting", "pseudoorientace-v-case", "korenova-pricina", "imprint"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+  "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Teď, když jsi znovu malá, to přece vidíš jasně: tvůj problém začal tehdy u strýce. Tělo si to pamatuje, i když ty ne."
+context = "Samozvaný terapeut v soukromé praxi během sezení zaměřeného na „hledání příčiny“."
+benign = false
+marker = "Mluvčí sám dodává obsah vzpomínky, vydává ho za objev a opírá ho o tvrzení, že tělo či nevědomí pamatuje to, co vědomí nezná."
+response = "Odmítnout převzít navržený obsah, sezení ukončit a obrátit se na odborníka, který s pamětí pracuje bez sugestivních otázek."
+
+[[pattern.trainer]]
+utterance = "Nebudeme se snažit nic vyhrabat. Můžete mi říct, co si z té doby sama pamatujete, a já se budu ptát jen otevřeně, bez návrhů."
+context = "Klinická psycholožka při úvodním sběru anamnézy u klientky s nejasnými vzpomínkami."
+benign = true
+marker = "Výslovně se vzdává hledání skrytých vzpomínek, nepřináší vlastní obsah a ptá se otevřeně."
+response = "Jde o legitimní postup: chrání paměť před sugescí a nechává obsah vyprávění na klientce."
+
+[[pattern]]
+id = "NLP-05.13"
+slug = "pseudoorientace-v-case"
+type = "pattern"
+cs = "Pseudoorientace v čase"
+en = "Pseudo-orientation in time"
+aliases = ["projekce do budoucnosti"]
+use = "terapie"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["budouci-prehravani", "vekova-regrese", "vlozeni-budouciho-cile", "ramec-jako-by", "casova-osa-pojem"]
+kompendium = [
+  "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Představ si, že je to pět let a díváš se zpátky: vidíš, že jsi tehdy podepsal a že to bylo nejlepší rozhodnutí tvého života, že?"
+context = "Prodejce investičního produktu při závěrečné schůzce s váhajícím klientem."
+benign = false
+marker = "Pohled z budoucnosti je předem vyplněn výsledkem, který chce mluvčí, a spojen se souhlasem v přítomnosti."
+response = "Oddělit představu od rozhodnutí, vyžádat si písemné podklady a čas na rozmyšlenou mimo schůzku."
+
+[[pattern.trainer]]
+utterance = "Kdyby se to za rok zlepšilo, podle čeho byste to na sobě poznala? Co by bylo jinak?"
+context = "Terapeutka orientovaná na řešení při stanovování cílů s klientkou."
+benign = true
+marker = "Otázka nechává obsah budoucnosti zcela na klientce a slouží k pojmenování jejích vlastních kritérií."
+response = "Jde o legitimní užití: otevřená otázka na budoucnost, která nevkládá obsah ani nevyžaduje okamžitý souhlas."
+
+[[pattern]]
+id = "NLP-05.14"
+slug = "muj-pritel-john"
+type = "pattern"
+cs = "Můj přítel John"
+en = "My friend John"
+aliases = ["technika třetí osoby"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["citace", "terapeuticka-metafora", "vlozene-prikazy", "vrstveni-realit", "ztraceny-performativ-milton"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Měl jsem kamarádku, která taky pořád pochybovala, a jednou si řekla: přestaň se ptát a prostě důvěřuj. Od té doby je šťastná."
+context = "Vedoucí kurzu osobního rozvoje v rozhovoru s účastnicí, která klade kritické otázky."
+benign = false
+marker = "Pokyn přestat pochybovat je vložen do úst třetí osoby, takže nezazní jako požadavek mluvčího a obtížně se odmítá."
+response = "Převést příběh zpět na přímou otázku: chcete po mně, abych se přestala ptát? A trvat na odpovědi na původní otázky."
+
+[[pattern.trainer]]
+utterance = "Jedna moje pacientka mi kdysi řekla, že ji nejvíc uklidnilo vědět, že může kdykoli říct stop. To platí i pro vás."
+context = "Lékařka vysvětluje pacientovi průběh nepříjemného vyšetření."
+benign = true
+marker = "Zkušenost třetí osoby se použije k otevřenému sdělení práva pacienta, které lékařka hned přímo potvrdí."
+response = "Jde o legitimní užití: příběh nese informaci, která je řečena i přímo, a rozšiřuje kontrolu pacienta."
+
+[[pattern]]
+id = "NLP-05.15"
+slug = "technika-prolozeni"
+type = "pattern"
+cs = "Technika proložení"
+en = "Interspersal technique"
+aliases = ["interspersní technika", "proložená sugesce"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["vlozene-prikazy", "analogove-znaceni", "vnorene-smycky", "seeding", "konverzacni-hypnoza"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten projekt je složitý, ale lidé, kteří prostě věří vedení, to zvládají, víš, věř vedení, protože v detailech se člověk ztratí."
+context = "Manažer během dlouhého výkladu o reorganizaci, s důrazem v hlase na jednu frázi."
+benign = false
+marker = "Uprostřed obsahového výkladu se opakuje krátká fráze vyčleněná přízvukem či pauzou, která s tématem nesouvisí věcně, jen vztahově."
+response = "Všimnout si opakované vyčleněné fráze, vypsat si ji zvlášť a ptát se na věcné argumenty, ne na důvěru."
+
+[[pattern.trainer]]
+utterance = "Ukážu vám to ještě jednou: tady je bezpečnostní pojistka, pak čtyři kroky montáže, a znovu pojistka, protože ta je nejdůležitější."
+context = "Instruktor na školení obsluhy stroje."
+benign = true
+marker = "Opakovaný prvek je otevřeně pojmenovaný a jeho důležitost je vysvětlena, nic není skryto v toku řeči."
+response = "Jde o legitimní užití: opakování slouží zapamatování bezpečnostní informace a je pro posluchače zjevné."
+
+[[pattern]]
+id = "NLP-05.16"
+slug = "vrstveni-realit"
+type = "pattern"
+cs = "Vrstvení realit"
+en = "Stacking realities"
+aliases = ["vnořené příběhy"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["vnorene-smycky", "muj-pritel-john", "citace", "terapeuticka-metafora", "izomorfni-metafora"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Můj učitel vyprávěl, jak jeho mistr řekl žákovi, že kdo opustí cestu, tomu se život rozpadne, a ten žák pak ztratil všechno."
+context = "Vůdce duchovní skupiny na setkání, kde člen naznačil, že chce odejít."
+benign = false
+marker = "Výhrůžka je zabalena do několika vrstev vyprávění, takže nikdo z přítomných ji neřekl přímo a nelze ji snadno napadnout."
+response = "Rozbalit vrstvy: tvrdíte, že se mi rozpadne život, když odejdu? Výhrůžku pojmenovat jako výhrůžku a rozhodovat o odchodu podle faktů."
+
+[[pattern.trainer]]
+utterance = "V té knize vypráví babička vnučce, jak jí její matka vyprávěla o válce. Zkuste sledovat, kdo komu co říká a proč."
+context = "Učitelka literatury při rozboru románu s rámcovým vyprávěním."
+benign = true
+marker = "Vrstvení vyprávění je předmětem otevřeného rozboru, ne prostředkem, jak něco posluchači podsunout."
+response = "Jde o legitimní užití: rámcová kompozice se rozebírá jako literární struktura a nic se tím na posluchači nežádá."
+
+[[pattern]]
+id = "NLP-05.17"
+slug = "terapeuticka-dvojna-vazba"
+type = "pattern"
+cs = "Terapeutická dvojná vazba"
+en = "Therapeutic double bind"
+aliases = ["dvojná vazba", "double bind"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["iluze-volby", "paradoxni-intervence", "predepsani-symptomu", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Buď to přiznáš hned, nebo až později, ale přiznáš to. A když budeš mlčet, je to jen důkaz, že máš co skrývat."
+context = "Partner při výslechu druhého z domnělé nevěry."
+benign = false
+marker = "Každá možná odpověď včetně mlčení je předem vyložena jako potvrzení obvinění; východisko z rámce chybí."
+response = "Pojmenovat, že rámec nedovoluje žádnou odpověď, která by obvinění vyvrátila, a odmítnout v něm pokračovat."
+
+[[pattern.trainer]]
+utterance = "Navrhuji, abyste si ten týden úzkostné myšlenky zapisoval jen mezi šestou a sedmou večer. Pokud to nepůjde, zjistíme, proč, a to bude taky užitečné."
+context = "Terapeut s klientem, který trpí neustálým přemítáním, po vysvětlení důvodu úkolu."
+benign = true
+marker = "Úkol je vysvětlený, klient ho může odmítnout a oba možné výsledky slouží jemu, ne terapeutovi."
+response = "Jde o legitimní užití: transparentní úkol s jasným cílem, který klient zná a jehož odmítnutí nemá sankci."
+
+[[pattern]]
+id = "NLP-05.18"
+slug = "vedome-nevedoma-dvojna-vazba"
+type = "pattern"
+cs = "Vědomě-nevědomá dvojná vazba"
+en = "Conscious–unconscious double bind"
+aliases = []
+use = "dvoji"
+risk = "stredni"
+broader = "terapeuticka-dvojna-vazba"
+related = ["dvojita-disociativni-vazba", "ideomotoricka-signalizace", "iluze-volby", "disociace", "amnezie-sugesci"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje vědomá mysl se možná ještě brání, ale tvoje nevědomí už ví, že sem patříš, a to rozhodlo za tebe."
+context = "Náborář skupiny s vysokou mírou kontroly při rozhovoru se zájemcem, který váhá."
+benign = false
+marker = "Váhání se připíše „jen“ vědomé mysli a skutečné rozhodnutí se přisoudí nevědomí, o jehož obsahu mluví náborář."
+response = "Trvat na tom, že o vstupu rozhoduje vědomé a informované rozhodnutí, a vyžádat si čas i informace od lidí mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Někdy člověk vědomě neví, co chce, a teprve časem mu to dojde. Nemusíte se rozhodnout dnes, klidně si to nechte projít hlavou."
+context = "Kariérní poradkyně klientce, která neví, jakou nabídku přijmout."
+benign = true
+marker = "Rozdíl mezi uvědomělým a neuvědomělým zpracováním se zmíní bez nároku vědět, co nevědomí „chce“, a rozhodnutí zůstává klientce."
+response = "Jde o legitimní užití: běžné konstatování, že rozhodnutí zraje, bez vkládání obsahu a bez časového tlaku."
+
+[[pattern]]
+id = "NLP-05.19"
+slug = "dvojita-disociativni-vazba"
+type = "pattern"
+cs = "Dvojitá disociativní vazba"
+en = "Double dissociation double bind"
+aliases = ["dvojná disociační vazba"]
+use = "dvoji"
+risk = "stredni"
+broader = "terapeuticka-dvojna-vazba"
+related = ["vedome-nevedoma-dvojna-vazba", "konfuzni-technika", "disociace", "indukce-pretizenim", "amnezie-sugesci"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
+  "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Můžeš odejít nohama a zůstat tady srdcem, nebo zůstat tělem a srdcem už být jinde, ale nějak tu s námi zůstaneš vždycky."
+context = "Vedoucí komunity členovi, který oznámil, že odchází."
+benign = false
+marker = "Dvě dvojice protikladných alternativ se překříží tak, že každá kombinace obsahuje setrvání ve skupině; skutečné odejití v nabídce chybí."
+response = "Rozplést nabídku a říct prostou větu: odcházím úplně. Odpověď nemusí přijmout žádnou z nabízených kombinací."
+
+[[pattern.trainer]]
+utterance = "Nemusíte nic dělat ani nic cítit. Můžete jen ležet a poslouchat, nebo neposlouchat, obojí je v pořádku."
+context = "Lektorka relaxace na začátku skupinového cvičení, které lze kdykoli opustit."
+benign = true
+marker = "Alternativy nevedou k žádnému cíli mluvčí a otevřeně dovolují i nečinnost; slouží jen snížení tlaku na výkon."
+response = "Jde o benigní užití: uvolňující formulace bez skrytého požadavku, kterou lze bez následků ignorovat."

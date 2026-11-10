@@ -72,7 +72,7 @@ Klíčová součást techniky — **inhibice** subjektova požadavku na pomalej�
 - **Sociální tlak**: ostatní (skutečně či domněle) tempo zvládají
 - **Status threat**: požadavek na zpomalení = signál nedostatečné kompetence
 - **Time pressure**: „musíme to dokončit dnes“ / „rozhodnutí potřebujeme do pátku“
-- **Reframing of pace**: „rychlé tempo je standardní“ / „ostatní si stěžovat nepotřebovali“
+- **[Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) of pace**: „rychlé tempo je standardní“ / „ostatní si stěžovat nepotřebovali“
 
 ### Krok 5 — Konsolidace vzorce
 

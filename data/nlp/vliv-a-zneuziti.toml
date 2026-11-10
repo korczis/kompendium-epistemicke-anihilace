@@ -1,0 +1,329 @@
+# Rodina NLP-21: Vliv a zneužití NLP (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Rodina s nejvyšším rizikem zneužití: záznamy popisují rozpoznání, škody, kontext a obranu,
+# nikdy formulace, pořadí ani taktiku použitelnou vůči komukoli.
+
+[[pattern]]
+id = "NLP-21.01"
+slug = "konverzacni-hypnoza"
+type = "pattern"
+cs = "Konverzační hypnóza"
+en = "Conversational (covert) hypnosis"
+aliases = ["skrytá hypnóza", "covert hypnosis"]
+use = "vliv"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["milton-model", "vlozene-prikazy", "utilizace", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky", "trans-pojem"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nemusíte se teď rozhodovat, jen si všimněte, jak se vám s každým dalším slovem sedí pohodlněji, a ta správná odpověď k vám přijde sama."
+context = "Řečník na placeném semináři o „skrytém ovlivňování“ mluví k účastníkovi, který váhá s objednávkou dalšího kurzu."
+benign = false
+marker = "Obchodní rozhovor přechází do hypnotického rejstříku: popis tělesného pocitu se spojuje s rozhodnutím a rozhodnutí se vydává za něco, co přijde samo, bez vědomé úvahy."
+response = "Pojmenovat posun rozhovoru, vrátit se k věcným otázkám (cena, obsah, storno) a rozhodnutí odložit mimo místnost a mimo přítomnost mluvčího."
+
+[[pattern.trainer]]
+utterance = "Dnešní sezení bude hypnotické, jak jsme se domluvili. Kdykoli budete chtít přestat, stačí otevřít oči a říct to, a probereme, co se dělo."
+context = "Klinický psycholog s výcvikem v hypnóze zahajuje předem dohodnuté terapeutické sezení."
+benign = true
+marker = "Hypnóza je ohlášená, dohodnutá a vratná: klient ví, co se děje, souhlasil s tím a má výslovnou možnost kdykoli skončit."
+response = "Legitimní užití: otevřený rámec, informovaný souhlas a klinický kontext jsou přesným opakem skryté konverzační hypnózy."
+
+[[pattern]]
+id = "NLP-21.02"
+slug = "nlp-v-prodeji"
+type = "pattern"
+cs = "NLP v prodeji"
+en = "NLP in sales"
+aliases = ["NLP selling", "neurolingvistický prodej"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji", "raport-jako-nastroj-vlivu", "hodnoty-pri-koupi", "metaprogramy-v-marketingu"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/organizational-defense/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vidím, že jste člověk, který se rozhoduje rychle a nenechá si utéct dobrou věc. Takových klientů je málo a pro ně máme podmínky, které jinak nenabízíme."
+context = "Obchodní zástupce na prezentaci finančního produktu v soukromé domácnosti."
+benign = false
+marker = "Mluvčí přisoudí kupujícímu vlastnost (rychlé rozhodování), která se shoduje s tím, co od něj chce, a spojí ji s exkluzivitou nabídky; souhlas se tak stává potvrzením vlastní identity."
+response = "Oddělit hodnocení osoby od hodnocení produktu, vyžádat si písemné podmínky a srovnání s jinými nabídkami a rozhodnout až po odchodu prodejce."
+
+[[pattern.trainer]]
+utterance = "Tady máte srovnání tří variant včetně poplatků a sankcí za předčasné ukončení. Vezměte si ho domů a ozvěte se, až si to projdete, nabídka platí měsíc."
+context = "Poradce na pobočce banky končí schůzku s klientem."
+benign = true
+marker = "Prodejce poskytuje úplné a srovnatelné informace, nechává čas a neváže rozhodnutí na okamžik ani na vztah."
+response = "Benigní kontrast: prodej podporuje informované rozhodnutí; nic neomezuje čas ani možnost odmítnout."
+
+[[pattern]]
+id = "NLP-21.03"
+slug = "predpokladovy-zaver"
+type = "pattern"
+cs = "Předpokládané uzavření"
+en = "Assumptive close"
+aliases = ["předpokladový závěr", "uzavření předpokladem"]
+use = "vliv"
+risk = "stredni"
+broader = "nlp-v-prodeji"
+related = ["alternativni-zaver", "presupozice-milton", "jazykove-presupozice", "otazky-s-presupozici"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Výborně, tak si jen ujasníme, na jakou adresu budeme posílat smlouvu a od kterého dne vám služba poběží."
+context = "Telefonní operátor po krátké prezentaci, ve které zákazník souhlas s nákupem nevyslovil."
+benign = false
+marker = "Mluvčí přeskočí otázku, zda zákazník chce koupit, a mluví o podrobnostech provedení, jako by rozhodnutí už padlo; nákup je jen presupozicí otázky."
+response = "Vrátit rozhovor k nevyřčené otázce, výslovně říct, že rozhodnutí zatím nepadlo, a nepodávat údaje potřebné k uzavření smlouvy."
+
+[[pattern.trainer]]
+utterance = "Řekl jste, že si objednávku přejete potvrdit. Než vyplníme adresu, chcete ještě něco změnit nebo se na něco zeptat?"
+context = "Prodavač v obchodě po výslovném souhlasu zákazníka s nákupem."
+benign = true
+marker = "Rozhodnutí bylo výslovně vysloveno zákazníkem; mluvčí na něj jen odkazuje a nechává prostor ke změně."
+response = "Benigní kontrast: presupozice se opírá o skutečný souhlas a zákazník má otevřenou možnost změny."
+
+[[pattern]]
+id = "NLP-21.04"
+slug = "alternativni-zaver"
+type = "pattern"
+cs = "Alternativní uzavření"
+en = "Alternative close"
+aliases = ["alternativní závěr", "volba mezi dvěma ano"]
+use = "vliv"
+risk = "stredni"
+broader = "nlp-v-prodeji"
+related = ["iluze-volby", "presupozice-nebo", "predpokladovy-zaver", "ano-sada"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vyhovuje vám víc roční, nebo dvouletý závazek? Většina lidí ve vaší situaci volí ten delší, vychází výhodněji."
+context = "Prodejce předplatného na stánku v nákupním centru oslovuje kolemjdoucího."
+benign = false
+marker = "Nabízí se volba jen mezi dvěma podobami souhlasu; možnost nekoupit vůbec v otázce chybí a doplňuje ji odkaz na většinu jako sociální důkaz."
+response = "Rozpoznat vypuštěnou třetí možnost a pojmenovat ji: nejdřív odpovědět, zda závazek vůbec chci, a teprve pak řešit jeho podobu."
+
+[[pattern.trainer]]
+utterance = "Můžeme se domluvit na úterý nebo na čtvrtek, a když vám nevyhovuje ani jedno, navrhněte jiný den, případně schůzku zrušíme."
+context = "Asistentka ordinace domlouvá s pacientem kontrolu, kterou si sám vyžádal."
+benign = true
+marker = "Volba mezi variantami je nabídnuta otevřeně, je výslovně doplněna o další možnosti včetně odmítnutí a týká se věci, o kterou pacient sám stojí."
+response = "Benigní kontrast: alternativy usnadňují domluvu, ale nevylučují odmítnutí ani jinou volbu."
+
+[[pattern]]
+id = "NLP-21.05"
+slug = "budouci-prehravani-v-prodeji"
+type = "pattern"
+cs = "Budoucí přehrávání v prodeji"
+en = "Future pacing in sales"
+aliases = ["future pacing v prodeji", "představa vlastnictví"]
+use = "vliv"
+risk = "stredni"
+broader = "nlp-v-prodeji"
+related = ["budouci-prehravani", "vlozeni-budouciho-cile", "kotvy-v-reklame", "predpokladovy-zaver"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Představte si, že je za půl roku neděle ráno, sedíte na své nové terase, děti si hrají na zahradě a vy víte, že jste to dokázal. Jaký je to pocit?"
+context = "Developer provádí zájemce vzorovým domem a ještě nezmínil cenu ani podmínky úvěru."
+benign = false
+marker = "Živá smyslová představa budoucího vlastnictví a otázka na pocit předcházejí informacím o ceně a rizicích; emoční prožitek zaujímá místo, kde má být posouzení."
+response = "Všimnout si, že představa předběhla fakta, a vrátit se k číslům: celková cena, splátky, sankce a srovnání s jinou nabídkou, posuzované bez prohlídky a s odstupem."
+
+[[pattern.trainer]]
+utterance = "Než podepíšete, zkuste si projít, jak by vypadal váš rozpočet, kdyby vám příjem na tři měsíce klesl. Splátku byste i tak zvládl?"
+context = "Nezávislý finanční poradce před podpisem hypotéky."
+benign = true
+marker = "Představa budoucnosti slouží k testování rizika, ne k vyvolání příjemného pocitu, a zahrnuje i nepříznivý scénář."
+response = "Benigní kontrast: budoucí scénář je nástrojem posouzení a otevírá možnost od smlouvy ustoupit."
+
+[[pattern]]
+id = "NLP-21.06"
+slug = "nlp-v-komunite-svadeni"
+type = "pattern"
+cs = "NLP v komunitě „umění svádění“"
+en = "NLP in the seduction community"
+aliases = ["pickup", "speed seduction"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["raport-jako-nastroj-vlivu", "zrcadleni", "kotveni-v-kontrolujicich-vztazich", "vlozene-prikazy", "manipulativni-reframing-ve-vztazich", "falesne-zrcadleni-v-podvodech"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jsi jiná než ostatní, hned jsem to poznal. S nikým se mi takhle rychle nemluvilo, je to skoro, jako bychom se znali odjakživa."
+context = "Muž při prvním setkání s ženou, kterou oslovil v baru, deset minut po začátku rozhovoru."
+benign = false
+marker = "Okamžitě deklarovaná výjimečnost a pocit dávné známosti vznikají bez jakéhokoli společného času; intimita se zrychluje dřív, než ji mohla vytvořit skutečná zkušenost."
+response = "Měřit blízkost časem a činy, ne intenzitou pocitu; zpomalit, nepřijímat rozhodnutí o odchodu, alkoholu nebo soukromí pod tlakem náhlé blízkosti a mít vlastní cestu domů."
+
+[[pattern.trainer]]
+utterance = "Líbilo se mi s tebou mluvit. Jestli budeš chtít, tady je moje číslo, a jestli ne, taky v pohodě."
+context = "Účastník kurzu tance se loučí s partnerkou z lekce."
+benign = true
+marker = "Zájem je vyjádřen přímo, rozhodnutí o dalším kontaktu je ponecháno druhé osobě a odmítnutí je předem přijato bez nátlaku."
+response = "Benigní kontrast: otevřená nabídka bez skrytého cíle a s respektem k odmítnutí."
+
+[[pattern]]
+id = "NLP-21.07"
+slug = "nlp-v-sektach"
+type = "pattern"
+cs = "NLP v sektách a kultovních skupinách"
+en = "NLP in cults"
+aliases = ["NLP v kultech"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["guru-efekt", "velke-seminare", "kotveni-ve-skupine", "raport-se-skupinou", "konverzacni-hypnoza"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-8-2-3-singer-six-conditions.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+  "kompendium/techniques/ea-6-4-2-post-cult-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty pochybnosti nejsou tvoje, to mluví tvoje stará programace. Všimni si, jak se ti sevře žaludek, kdykoli o odchodu jen pomyslíš, to je důkaz, že sem patříš."
+context = "Vedoucí skupiny osobního rozvoje mluví s členem, který ohlásil, že zvažuje odchod."
+benign = false
+marker = "Pochybnost se přejmenuje na cizí „programaci“, tělesná úzkost spojená s odchodem se vykládá jako důkaz správnosti setrvání; vlastní úsudek člověka je vyřazen jako svědek."
+response = "Rozpoznat uzavřený výklad, v němž každý signál potvrzuje doktrínu; probrat pochybnosti s lidmi mimo skupinu a brát úzkost jako přirozenou reakci na tlak, ne jako důkaz."
+
+[[pattern.trainer]]
+utterance = "Kurz končí dnes a nic dalšího nenabízíme. Pokud vám něco nesedělo, napište to do zpětné vazby, nikdo ji nebude číst před vámi."
+context = "Lektorka víkendového kurzu komunikace v závěru kurzu."
+benign = true
+marker = "Uzavřený rozsah, žádný tlak na další stupeň, prostor pro kritiku bez veřejného přiznání před skupinou."
+response = "Benigní kontrast: skupina nevytváří závislost, neváže člověka na další stupně a nepracuje s veřejným přiznáním."
+
+[[pattern]]
+id = "NLP-21.08"
+slug = "nlp-ve-vyslechu"
+type = "pattern"
+cs = "NLP ve výslechu a vyjednávání"
+en = "NLP in interrogation and negotiation"
+aliases = ["NLP ve vyšetřování"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["meta-model-jako-vyslychaci-nastroj", "presupozice-ve-vyslechu", "detekce-lzi-v-nlp", "vyzkum-ocnich-signalu", "kalibrace"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/forensic-legal/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když jste odpovídal na otázku, kde jste byl ve středu večer, díval jste se doprava nahoru. To znamená, že si to vymýšlíte, tak to zkusme znovu."
+context = "Vyšetřovatel s krátkým výcvikem v NLP při výslechu podezřelého."
+benign = false
+marker = "Směr pohledu se vydává za doklad lži, ačkoli výzkum tuto souvislost nepotvrdil; z nepodloženého znaku se vyvozuje vina a tlak na změnu výpovědi."
+response = "Trvat na přítomnosti obhájce a na záznamu výslechu; pro odborné posouzení odkázat na výzkum, který spojení očních pohybů s lhaním vyvrátil."
+
+[[pattern.trainer]]
+utterance = "Popište mi prosím vlastními slovy, co se ten večer dělo, od chvíle, kdy jste přišel, a klidně i věci, které se vám zdají nedůležité."
+context = "Vyšetřovatel zahajuje vytěžovací rozhovor se svědkem."
+benign = true
+marker = "Otevřená, neutrální výzva k volnému vyprávění bez presupozic a bez návrhu odpovědi."
+response = "Benigní kontrast: otevřená otázka chrání paměť svědka před kontaminací a odpovídá doporučením forenzního rozhovoru."
+
+[[pattern]]
+id = "NLP-21.09"
+slug = "nlp-v-politicke-reci"
+type = "pattern"
+cs = "NLP v politické řeči"
+en = "NLP in political speech"
+aliases = ["politická rétorika a NLP"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["nominalizace-milton", "umyslna-vagnost", "slovni-baliky", "predramcovani", "univerzalni-kvantifikatory-milton"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-9-5-6-frame-war-coordination.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všichni slušní lidé v této zemi už cítí, že přichází změna. Otázka nezní, jestli ji podpoříte, ale jak brzy pochopíte, že je i vaše."
+context = "Projev kandidáta na předvolebním mítinku."
+benign = false
+marker = "Univerzální kvantifikátor a čtení myšlenek („všichni slušní lidé cítí“) spojené s presupozicí, podle níž je souhlas jen otázkou času; nesouhlas je mlčky vyloučen ze „slušnosti“."
+response = "Převést výrok na ověřitelná tvrzení (kdo, co konkrétně, podle čeho), všimnout si, kdo je z „všech“ vyloučen, a hodnotit program, ne pocit sounáležitosti."
+
+[[pattern.trainer]]
+utterance = "Navrhujeme zvýšit tento poplatek o deset procent. Vybrané peníze půjdou na opravy silnic a odhadujeme, že to rozpočet obce zatíží takto."
+context = "Starosta představuje návrh na zasedání zastupitelstva."
+benign = true
+marker = "Konkrétní návrh, uvedený účel a odhad dopadů; posluchač může každé tvrzení ověřit nebo s ním nesouhlasit."
+response = "Benigní kontrast: politická řeč, která dává podklady k posouzení místo pocitu a nevylučuje nesouhlas."
+
+[[pattern]]
+id = "NLP-21.10"
+slug = "nlp-v-reklame"
+type = "pattern"
+cs = "NLP v reklamě"
+en = "NLP in advertising"
+aliases = ["NLP v marketingu"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["presupozice-v-reklame", "kotvy-v-reklame", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online", "neuro-zargon"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Až poprvé ucítíte, jak lehce se vám s naší matrací vstává, budete se divit, že jste to tak dlouho odkládali. Jen dnes a jen pro prvních sto zákazníků."
+context = "Rozhlasová reklama na matrace."
+benign = false
+marker = "Časová věta předpokládá nákup jako jistý („až poprvé ucítíte“), slibuje tělesný prožitek místo vlastnosti výrobku a doplňuje to umělým nedostatkem."
+response = "Oddělit presupozici od tvrzení: co přesně výrobek dělá a čím je to doloženo; časové a množstevní omezení brát jako tlak a srovnat cenu jinde."
+
+[[pattern.trainer]]
+utterance = "Matrace ze studené pěny, tvrdost H3, rozměr 90 × 200 cm, záruka deset let a třicet dní na vrácení bez udání důvodu."
+context = "Popis výrobku v internetovém obchodě."
+benign = true
+marker = "Výčet ověřitelných vlastností a podmínek bez presupozic, bez slibu prožitku a bez časového tlaku."
+response = "Benigní kontrast: reklama, která informuje a nechává rozhodnutí na posouzení zákazníka."

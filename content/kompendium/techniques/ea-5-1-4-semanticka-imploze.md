@@ -106,7 +106,7 @@ Sémantická imploze je odlišitelná od:
 |---------|-------------|
 | **Pseudo-filosofické komunity** | Klíčové termíny ("autenticita", "vědomí", "energie") používané v rotujících významech bez explikace |
 | **Vysoce kontrolní skupiny** | Systematická redefinice běžných slov ("svoboda" = poslušnost; "rodina" = skupina; "pravda" = doktrína) |
-| **Pokročilé NLP/coaching paradigma** | Reframing technika eskalovaná do plošné destrukce sémantického pole |
+| **Pokročilé NLP/coaching paradigma** | [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) technika eskalovaná do plošné destrukce sémantického pole |
 | **Některé terapeutické školy** | Klíčové pojmy ("já", "potřeba", "trauma") používané v inkonzistentních významech, prezentovaných jako "úroveň pochopení" |
 | **Politicko-ideologické rétoriky** | "Demokracie", "lid", "reforma" jako prázdné significanty pro libovolný obsah |
 | **Některé akademické proudy** | Žargon, který v jednom textu slouží jako technický termín a v dalším jako metafora bez signalizace |

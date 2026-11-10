@@ -1,0 +1,140 @@
+# Rodiny katalogu NLP vzorců (pravidlo project.nlp-catalog).
+#
+# Pořadí rodin je pořadí v tomto souboru; `code` je neměnná dvoumístná část identifikátoru
+# NLP-FF.NN všech vzorců rodiny. Vzorce rodiny jsou v data/nlp/<slug>.toml, jejich stránky v
+# content/kompendium/nlp-vzorce/<slug>/. Nic z toho se nepíše na stránky ručně: front matter,
+# literatura, oddíl Související, výpisy rodin a data trenéru odvozuje scripts/nlp-catalog.py.
+
+schema = 1
+
+[[family]]
+slug = "predpoklady"
+code = "01"
+title = "Předpoklady NLP"
+en = "NLP presuppositions"
+
+[[family]]
+slug = "zakladni-pojmy"
+code = "02"
+title = "Základní pojmy NLP"
+en = "Core NLP concepts"
+
+[[family]]
+slug = "meta-model"
+code = "03"
+title = "Meta-model"
+en = "Meta Model"
+
+[[family]]
+slug = "milton-model"
+code = "04"
+title = "Milton-model"
+en = "Milton Model"
+
+[[family]]
+slug = "ericksonovska-hypnoza"
+code = "05"
+title = "Ericksonovská hypnóza"
+en = "Ericksonian hypnosis"
+
+[[family]]
+slug = "presupozice"
+code = "06"
+title = "Jazykové presupozice"
+en = "Linguistic presuppositions"
+
+[[family]]
+slug = "sleight-of-mouth"
+code = "07"
+title = "Sleight of Mouth"
+en = "Sleight of Mouth"
+
+[[family]]
+slug = "reframing"
+code = "08"
+title = "Reframing a rámce"
+en = "Reframing and frames"
+
+[[family]]
+slug = "kotveni"
+code = "09"
+title = "Kotvení"
+en = "Anchoring"
+
+[[family]]
+slug = "submodality"
+code = "10"
+title = "Submodality"
+en = "Submodalities"
+
+[[family]]
+slug = "disociace-a-trauma"
+code = "11"
+title = "Disociace, fobie a trauma"
+en = "Dissociation, phobia and trauma patterns"
+
+[[family]]
+slug = "casova-osa"
+code = "12"
+title = "Časová osa"
+en = "Timeline patterns"
+
+[[family]]
+slug = "urovne-a-pozice"
+code = "13"
+title = "Logické úrovně a percepční pozice"
+en = "Logical levels and perceptual positions"
+
+[[family]]
+slug = "strategie-a-modelovani"
+code = "14"
+title = "Strategie a modelování"
+en = "Strategies and modelling"
+
+[[family]]
+slug = "integrace-casti"
+code = "15"
+title = "Práce s částmi"
+en = "Parts work"
+
+[[family]]
+slug = "presvedceni"
+code = "16"
+title = "Přesvědčení"
+en = "Belief patterns"
+
+[[family]]
+slug = "metaprogramy"
+code = "17"
+title = "Metaprogramy"
+en = "Meta-programs"
+
+[[family]]
+slug = "raport-a-kalibrace"
+code = "18"
+title = "Raport a kalibrace"
+en = "Rapport and calibration"
+
+[[family]]
+slug = "cile-a-vysledky"
+code = "19"
+title = "Cíle a výsledky"
+en = "Outcomes"
+
+[[family]]
+slug = "jazykove-vzorce"
+code = "20"
+title = "Jazykové vzorce"
+en = "Language patterns"
+
+[[family]]
+slug = "vliv-a-zneuziti"
+code = "21"
+title = "Vliv a zneužití NLP"
+en = "Influence and misuse of NLP"
+
+[[family]]
+slug = "kriticke-hodnoceni"
+code = "22"
+title = "Kritické hodnocení NLP"
+en = "Critical appraisal of NLP"

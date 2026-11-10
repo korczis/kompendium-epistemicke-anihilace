@@ -81,7 +81,7 @@ Atribuce **nikdy** nesměřuje k legitimnímu **„manipulátor je nepřesný / 
 
 - **Sociální cena**: vypadat jako „ne-expert“
 - **Status threat**: ve formálních kontextech (peer review, doktorské obhajoby) request o vyjasnění může být kódován jako „naivní“
-- **Reframing**: „Pokud chcete, můžeme se k základům vrátit, ale to nás zbytečně zdrží“ → request demaskován jako neefektivnost
+- **[Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md)**: „Pokud chcete, můžeme se k základům vrátit, ale to nás zbytečně zdrží“ → request demaskován jako neefektivnost
 
 ### Krok 5 — Internalizace
 

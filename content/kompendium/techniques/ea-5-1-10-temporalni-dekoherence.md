@@ -107,7 +107,7 @@ Hraniční případ: ne každá temporální turbulence je výsledkem manipulace
 | **Vysoce kontrolní organizace** | Sdílená narativa kolidují s osobní pamětí; sdílená vyhrává |
 | **Forenzní vyšetřování** | Opakované rekonstrukce vyústí v indukovanou dekoherenci u svědků |
 | **Dlouhodobá institucionalizace** | Ztráta vnějších kotev biografického času |
-| **Některé terapeutické přístupy** *(neopatrně aplikované)* | "Reframing" prováděný bez ukotvení může indukovat dekoherenci |
+| **Některé terapeutické přístupy** *(neopatrně aplikované)* | "[Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md)" prováděný bez ukotvení může indukovat dekoherenci |
 | **Krize identit profesionálních** | Lidé s prudkými kariérními zlomy bez podpory bývají náchylní |
 | **Manipulace skrze sociální média** | Algoritmicky řízená retrospektiva vlastního obsahu |
 

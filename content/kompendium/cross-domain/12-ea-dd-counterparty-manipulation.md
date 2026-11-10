@@ -61,7 +61,7 @@ DD target: data room měl 847 dokumentů, ale request log ukázal 1,203 requeste
 
 ### Scénář 2
 
-Management interview: CEO odpověděl na 'litigation' otázku rehearsed scriptem — adversarial reframing odhalil 4 undisclosed disputes
+Management interview: CEO odpověděl na 'litigation' otázku rehearsed scriptem — adversarial [reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) odhalil 4 undisclosed disputes
 
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 

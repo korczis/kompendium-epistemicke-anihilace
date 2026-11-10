@@ -1,0 +1,324 @@
+# Rodina NLP-19: Cíle a výsledky (pravidlo project.nlp-catalog; schéma v scripts/nlp-catalog.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Každá podmínka dobře formulovaného výsledku má vlastní stránku.
+
+[[pattern]]
+id = "NLP-19.01"
+slug = "dobre-formulovany-vysledek"
+type = "pattern"
+cs = "Dobře formulovaný výsledek"
+en = "Well-formed outcome"
+aliases = ["podmínky dobře formulovaného cíle", "well-formed outcome"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["ramec-vysledku", "ekologicka-kontrola", "tote-model", "nlp-v-koucinku", "otazky-vysledku", "od-problemu-k-vysledku"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na začátku kurzu jsi sám řekl, že chceš finanční svobodu a že nic nesmí stát v cestě. Tak proč teď váháš s přihláškou do mistrovského programu?"
+context = "Lektor osobního rozvoje mluví s účastníkem po skončení základního semináře."
+benign = false
+marker = "Cíl, který člověk formuloval v jiné situaci, se vrací jako závazek a měřítko důslednosti; o tom, co cíli slouží, rozhoduje mluvčí, který na rozhodnutí vydělá."
+response = "Oddělit vlastní cíl od nabízeného prostředku, posoudit nabídku samostatně a s odstupem a připomenout si, že cíl lze kdykoli přeformulovat nebo opustit."
+
+[[pattern.trainer]]
+utterance = "Než začneme, zkusme spolu popsat, co by se ve vašem životě mělo změnit, podle čeho byste to poznal a zda by to někomu blízkému neuškodilo. Kdykoli to můžeme upravit."
+context = "Psycholog v úvodu spolupráce s klientem po rozvodu."
+benign = true
+marker = "Cíl formuluje klient, odborník jen nabízí hlediska; formulace zůstává otevřená změně a nevztahuje se k žádnému prodeji ani závazku vůči odborníkovi."
+response = "Legitimní užití: struktura pomáhá ujasnit zakázku a klient si podrží kontrolu nad tím, co a proč chce."
+
+[[pattern]]
+id = "NLP-19.02"
+slug = "pozitivni-formulace-cile"
+type = "concept"
+cs = "Kladná formulace cíle"
+en = "Stated in the positive"
+aliases = ["pozitivní formulace cíle", "formulace k cíli"]
+use = "dvoji"
+risk = "stredni"
+broader = "dobre-formulovany-vysledek"
+related = ["k-cili-a-od-problemu", "negativni-prikazy", "od-problemu-k-vysledku", "smyslove-dukazy-cile"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-7-self-cancelation.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "U nás se nemluví o tom, co nechceš. Kdo pořád opakuje, co ho trápí, programuje si neúspěch a stahuje dolů celý tým."
+context = "Vedoucí týmu reaguje na zaměstnankyni, která upozorňuje na přetížení."
+benign = false
+marker = "Požadavek kladné formulace se mění v zákaz pojmenovat problém; stížnost se vykládá jako vada mluvčí, ne jako informace o situaci."
+response = "Trvat na tom, že popis problému je legitimní informace, zaznamenat jej písemně a žádat odpověď na věc, ne na způsob formulace."
+
+[[pattern.trainer]]
+utterance = "Rozumím, že už nechcete mít z porad strach. Napadá vás, jak byste se na nich chtěla cítit a co byste tam chtěla dělat jinak?"
+context = "Kouč s klientkou, která sama přišla s potížemi při poradách."
+benign = true
+marker = "Kouč nejprve přijímá formulaci od problému a jen nabízí doplnění žádaného stavu; klientka může odpovědět i tak, že teď chce jen, aby strach přestal."
+response = "Legitimní užití: kladná formulace je nabídka, ne podmínka; problém zůstává vysloven a uznán."
+
+[[pattern]]
+id = "NLP-19.03"
+slug = "smyslove-dukazy-cile"
+type = "concept"
+cs = "Smyslové důkazy dosažení"
+en = "Sensory-based evidence"
+aliases = ["smyslově ověřitelné kritérium", "důkaz dosažení cíle"]
+use = "dvoji"
+risk = "stredni"
+broader = "dobre-formulovany-vysledek"
+related = ["smyslova-ostrost", "kalibrace", "dukazni-procedura", "nominalizace", "ramec-dukazu"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Že jsi opravdu na cestě, poznáš podle toho, že tě rodina přestane chápat. Čím víc se diví, tím víc se měníš."
+context = "Vedoucí rozvojové skupiny vysvětluje novému členovi, podle čeho pozná pokrok."
+benign = false
+marker = "Důkaz dosažení určuje skupina, a to tak, že odcizení blízkých se počítá jako známka úspěchu; kritérium nelze vyvrátit, protože každá námitka je dalším důkazem."
+response = "Ptát se, kdo kritérium úspěchu stanovil a co by ho vyvrátilo; varovné signály od blízkých posoudit jako informaci, ne jako potvrzení."
+
+[[pattern.trainer]]
+utterance = "Poznáme, že se spánek zlepšuje, když budete podle deníku usínat do půl hodiny a v týdnu se méně často budit. Deník si vedete vy a čteme ho spolu."
+context = "Lékařka domlouvá s pacientem hodnocení léčby nespavosti."
+benign = true
+marker = "Kritérium je pozorovatelné, vztažené k cíli pacienta a zaznamenávané jím samým; nepříznivý výsledek je stejně platný jako příznivý."
+response = "Legitimní užití: ověřitelné kritérium chrání před sebeklamem obou stran a umožňuje léčbu změnit, když nefunguje."
+
+[[pattern]]
+id = "NLP-19.04"
+slug = "cil-pod-vlastni-kontrolou"
+type = "concept"
+cs = "Cíl pod vlastní kontrolou"
+en = "Self-initiated and self-maintained"
+aliases = ["cíl zahájený a udržovaný vlastními silami", "vlastní dosah cíle"]
+use = "dvoji"
+risk = "vysoke"
+broader = "dobre-formulovany-vysledek"
+related = ["odpovednost", "proaktivni-a-reaktivni", "lide-maji-potrebne-zdroje", "ekologie-cile"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md",
+  "kompendium/03-zakladni-kategorie/scenar-k/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jeho chování neovlivníš, ovlivníš jen sebe. Když se doma bude cítit klidný a vítaný, nebude mít důvod se zlobit, a to máš plně ve svých rukou."
+context = "Známá radí ženě, která popisuje výbuchy vzteku a výhrůžky partnera."
+benign = false
+marker = "Podmínka vlastní kontroly se uplatní tak, že odpovědnost za násilí druhého přechází na ohroženou osobu; bezpečí se mění v úkol jejího sebezdokonalení."
+response = "Pojmenovat, že za násilí odpovídá ten, kdo je páchá; za cíl v dosahu ohrožené osoby pokládat bezpečí, podporu a ochranu, ne usmíření partnera."
+
+[[pattern.trainer]]
+utterance = "Rozhodnutí komise ovlivnit nemůžete, ale můžete ovlivnit, jak připravíte žádost a s kým ji před odesláním proberete. Na co z toho se chcete zaměřit?"
+context = "Mentor s doktorandkou před podáním grantové žádosti."
+benign = true
+marker = "Rozlišení toho, co je a co není v dosahu člověka, se používá k zaměření úsilí, ne k přenesení viny za výsledek, který závisí na jiných."
+response = "Legitimní užití: neúspěch u komise by nebyl prohlášen za selhání doktorandky, protože výsledek otevřeně leží mimo její kontrolu."
+
+[[pattern]]
+id = "NLP-19.05"
+slug = "kontext-cile"
+type = "concept"
+cs = "Kontext cíle"
+en = "Context of the outcome"
+aliases = ["kdy, kde a s kým", "kontextové vymezení cíle"]
+use = "dvoji"
+risk = "stredni"
+broader = "dobre-formulovany-vysledek"
+related = ["kontextovy-reframing", "ramec-pojem", "ekologie-cile", "uroven-prostredi"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/scenar-k/_index.md",
+  "kompendium/case-studies/62-startup-founder-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Výkon tady není věc pracovní doby. Kdo to s cílem myslí vážně, žije ho i o víkendu, doma i na dovolené."
+context = "Zakladatel firmy na celofiremní schůzce."
+benign = false
+marker = "Cíl se odmítá vymezit kontextem a rozšiřuje se na celý život; hranice mezi rolemi se prohlašují za nedostatek odhodlání."
+response = "Výslovně vymezit, v jakých situacích a v jakém čase cíl platí, a chránit oblasti života, na které se vztahovat nemá."
+
+[[pattern.trainer]]
+utterance = "Takže víc se prosazovat chcete hlavně na poradách s vedením, ale doma s dětmi vám současný klidný styl vyhovuje?"
+context = "Terapeutka shrnuje zakázku klienta."
+benign = true
+marker = "Shrnutí vymezuje, kde žádaná změna platí a kde ne, a chrání oblast, v níž dosavadní chování funguje."
+response = "Legitimní užití: kontextové vymezení brání tomu, aby se změna potřebná v jedné roli přenesla tam, kde by škodila."
+
+[[pattern]]
+id = "NLP-19.06"
+slug = "zdroje-cile"
+type = "concept"
+cs = "Zdroje pro dosažení cíle"
+en = "Resources for the outcome"
+aliases = ["zdroje výsledku", "vnitřní a vnější zdroje"]
+use = "dvoji"
+risk = "stredni"
+broader = "dobre-formulovany-vysledek"
+related = ["lide-maji-potrebne-zdroje", "zdrojovy-stav", "prenos-zdroje", "kotveni"]
+kompendium = [
+  "kompendium/case-studies/63-investor-cult.md",
+  "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Peníze ani čas ti nechybí, to jsou jen výmluvy tvé mysli. Všechno, co potřebuješ, už v sobě máš, a dnešní rozhodnutí to dokáže."
+context = "Prodejce na závěr bezplatného webináře o investování."
+benign = false
+marker = "Vnější omezení se prohlašují za vnitřní překážky a jediným uznaným zdrojem se stává ochota rozhodnout se hned, tedy koupit."
+response = "Sepsat skutečné vnější zdroje a omezení (peníze, čas, závazky), odložit rozhodnutí a prověřit nabídku nezávisle."
+
+[[pattern.trainer]]
+utterance = "Kromě vlastní vytrvalosti budete potřebovat čas na rehabilitaci a někoho, kdo vás první týdny odveze. Kdo by to mohl být a co z toho zatím chybí?"
+context = "Fyzioterapeut plánuje s pacientem návrat do práce po operaci."
+benign = true
+marker = "Zdroje zahrnují vnitřní i vnější podmínky a chybějící zdroj se pojmenuje jako skutečná překážka, ne jako vada pacienta."
+response = "Legitimní užití: realistický přehled zdrojů snižuje riziko selhání a neklade na člověka odpovědnost za podmínky, které nemá."
+
+[[pattern]]
+id = "NLP-19.07"
+slug = "ekologie-cile"
+type = "concept"
+cs = "Ekologie cíle"
+en = "Ecology of the outcome"
+aliases = ["ekologická podmínka cíle", "dopady cíle na celek"]
+use = "dvoji"
+risk = "stredni"
+broader = "dobre-formulovany-vysledek"
+related = ["ekologicka-kontrola", "ekologie-zmeny", "ramec-ekologie", "pozitivni-zamer-chovani", "integrace-casti"]
+kompendium = [
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+  "kompendium/case-studies/43-elite-sports-totalizace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ekologii jsme prověřili: ta tvoje část, která se bojí o rodinu, jen brání změně. Až ji integrujeme, obavy partnera tě přestanou brzdit."
+context = "Lektor výcviku k účastníkovi, který zvažuje velkou půjčku na další stupeň kurzu."
+benign = false
+marker = "Ekologická námitka i obava blízkých se přeloží na vnitřní část, kterou je třeba odstranit; o tom, co je ekologické, rozhoduje lektor."
+response = "Brát obavy blízkých a vlastní váhání jako informaci o reálných důsledcích a probrat je s lidmi mimo výcvik dřív, než padne rozhodnutí."
+
+[[pattern.trainer]]
+utterance = "Kdybyste tu práci v zahraničí vzal, co by to znamenalo pro vaši ženu a pro tátu, o kterého se staráte? A co byste ztratil z toho, co vám teď dobře funguje?"
+context = "Poradce s klientem, který zvažuje nabídku zaměstnání."
+benign = true
+marker = "Otázky otevírají skutečné důsledky pro druhé a ztráty přínosů současného stavu, aniž by poradce naznačil, jaká odpověď je správná."
+response = "Legitimní užití: ekologická úvaha rozšiřuje rozhodování o hlediska, která by jinak zůstala stranou, a rozhodnutí ponechává klientovi."
+
+[[pattern]]
+id = "NLP-19.08"
+slug = "dukazni-procedura"
+type = "pattern"
+cs = "Důkazní procedura"
+en = "Evidence procedure"
+aliases = ["test splnění kritéria", "jak poznám, že"]
+use = "dvoji"
+risk = "vysoke"
+broader = "smyslove-dukazy-cile"
+related = ["kanal-presvedceni", "rezim-presvedceni", "kriteria", "tote-model", "strategie-pojem"]
+kompendium = [
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdybys mě opravdu milovala, nepotřebovala bys chodit na ty večery s kolegyněmi. Láska se pozná podle toho, čeho se člověk vzdá."
+context = "Partner reaguje na plán partnerky jít večer ven s kolegyněmi."
+benign = false
+marker = "Mluvčí jednostranně stanovuje, podle čeho se pozná láska, a důkazní test nastavuje tak, že jej lze splnit jen omezováním vlastních vztahů."
+response = "Pojmenovat, že kritérium stanovil jeden z partnerů, a odmítnout test, který měří vztah mírou izolace; při opakování hledat podporu mimo vztah."
+
+[[pattern.trainer]]
+utterance = "Jak poznáme, že je překlad hotový? Navrhuji, že ho přečte rodilý mluvčí a zkontrolujeme terminologii proti glosáři. Chcete něco přidat?"
+context = "Vedoucí projektu domlouvá s překladatelkou kritéria převzetí práce."
+benign = true
+marker = "Test splnění se dohaduje předem, otevřeně a oboustranně a je vztažen k věci, ne k loajalitě nebo k citům."
+response = "Legitimní užití: sdílené kritérium převzetí brání pozdějšímu svévolnému posouvání laťky."
+
+[[pattern]]
+id = "NLP-19.09"
+slug = "otazky-vysledku"
+type = "pattern"
+cs = "Otázky výsledku"
+en = "Outcome questions"
+aliases = ["otázky na žádaný stav", "otázky k cíli"]
+use = "dvoji"
+risk = "stredni"
+broader = "dobre-formulovany-vysledek"
+related = ["otazky-s-presupozici", "meta-model", "budouci-prehravani-v-prodeji", "nlp-v-prodeji", "ramec-vysledku"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "A co přesně by se ve vašem životě změnilo, kdybyste konečně měl klidné stáří bez strachu o peníze? Jak by to bylo, kdybyste to už dnes měl jisté?"
+context = "Finanční poradce při první schůzce se seniorem, ještě před představením produktu."
+benign = false
+marker = "Otázky na žádaný stav slouží k zesílení touhy a obav dřív, než padne jakákoli informace o produktu, nákladech a rizicích; odpovědi se pak vracejí jako argumenty pro podpis."
+response = "Vrátit rozhovor k faktům (náklady, rizika, smluvní podmínky), nepodepisovat při první schůzce a nabídku konzultovat s nezávislým člověkem."
+
+[[pattern.trainer]]
+utterance = "Co byste si od naší spolupráce přála a podle čeho byste za pár měsíců poznala, že vám pomohla? Klidně i to, že teď ještě nevíte."
+context = "Terapeut na první konzultaci."
+benign = true
+marker = "Otázky jsou otevřené, připouštějí nejistotu i odpověď „nevím“ a slouží zakázce klientky, ne prodeji ani závazku."
+response = "Legitimní užití: otázky výsledku ujasňují, kam má spolupráce směřovat, a umožní později poznat, že nepomáhá."
+
+[[pattern]]
+id = "NLP-19.10"
+slug = "od-problemu-k-vysledku"
+type = "pattern"
+cs = "Od problému k výsledku"
+en = "Problem to outcome"
+aliases = ["přechod z rámce problému do rámce výsledku", "problem frame a outcome frame"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["ramec-vysledku", "k-cili-a-od-problemu", "budouci-prehravani", "pozitivni-formulace-cile", "dobre-formulovany-vysledek"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nechme minulost minulostí. Proč se pořád vracet k tomu, co ti udělal? Důležité je jen to, co chceš teď."
+context = "Starší člen komunity reaguje na ženu, která chce mluvit o zneužití ze strany vedoucího."
+benign = false
+marker = "Přechod k výsledku slouží k uzavření tématu, které usvědčuje autoritu; popis toho, co se stalo, se odmítá jako ulpívání na problému."
+response = "Trvat na právu popsat, co se stalo, a hledat místo mimo komunitu, kde lze událost vyslovit, doložit a případně oznámit."
+
+[[pattern.trainer]]
+utterance = "Slyším, jak vás ty hádky vyčerpávají, a chci tomu ještě rozumět víc. Až budete chtít, můžeme se podívat i na to, jak by vypadal večer, který by vám vyhovoval."
+context = "Rodinná poradkyně s párem, který přišel kvůli opakovaným konfliktům."
+benign = true
+marker = "Popis problému je přijat a dokončen; posun k žádanému stavu je nabídnut jako možnost, kterou klienti mohou odmítnout nebo odložit."
+response = "Legitimní užití: přechod k výsledku následuje po vyslechnutí problému a nenahrazuje ho."

@@ -77,6 +77,8 @@ jobs:
         run: python3 scripts/link-terms.py --check
       - name: Information architecture does not regress
         run: python3 scripts/check-ia.py
+      - name: NLP catalogue, its pages and trainer data agree
+        run: python3 scripts/nlp-catalog.py --check
       - name: Content tooling tests
         run: bash test/run.sh
       - name: Build (internal links are errors)

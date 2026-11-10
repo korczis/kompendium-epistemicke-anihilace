@@ -14,6 +14,7 @@
 #   scripts/verify-content.sh --help     this text
 #
 # Gates: migrate-content, normalize-front-matter, polish-markdown, link-terms, check-ia,
+# nlp-catalog,
 # build-references, build-graph, zola build, test/run.sh. The export is deleted afterwards.
 set -euo pipefail
 
@@ -58,10 +59,12 @@ step "normalize-front-matter"     python3 scripts/normalize-front-matter.py --ch
 step "polish-markdown"            python3 scripts/polish-markdown.py --check
 step "link-terms"                 python3 scripts/link-terms.py --check
 if [ "$fix" = --fix ]; then
+  step "nlp-catalog"              python3 scripts/nlp-catalog.py
   step "build-references"         python3 scripts/build-references.py
   step "build-graph"              python3 scripts/build-graph.py
 fi
 step "check-ia"                   python3 scripts/check-ia.py
+step "nlp-catalog --check"        python3 scripts/nlp-catalog.py --check
 step "build-references --check"   python3 scripts/build-references.py --check
 step "build-graph --check"        python3 scripts/build-graph.py --check
 step "zola build"                 zola build --force -o "$work/.out"
@@ -72,6 +75,13 @@ if [ "$fix" = --fix ]; then
   python3 scripts/check-ia.py --update-baseline >/dev/null
   cp scripts/ia-baseline.json "$root/scripts/ia-baseline.json"
   cp static/data/*.json "$root/static/data/"
+  if [ -d content/kompendium/nlp-vzorce ]; then
+    (cd content/kompendium/nlp-vzorce && find . -name '*.md' -print0) | while IFS= read -r -d '' f; do
+      cmp -s "content/kompendium/nlp-vzorce/$f" "$root/content/kompendium/nlp-vzorce/$f" \
+        || cp "content/kompendium/nlp-vzorce/$f" "$root/content/kompendium/nlp-vzorce/$f"
+    done
+    (cd "$root" && git add content/kompendium/nlp-vzorce)
+  fi
   cp content/references.md "$root/content/references.md"
   (cd "$root" && git add scripts/ia-baseline.json static/data content/references.md)
   echo "verify-content: derived files regenerated from the staged tree and staged"

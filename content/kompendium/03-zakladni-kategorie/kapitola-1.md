@@ -233,7 +233,7 @@ Vedle základních technik kompendium identifikuje **kompoziční vzorce** — k
 
 1. Etablování iniciální, obecně akceptovatelné pozice
 2. Sekvence minimálních modifikací, každá prezentována jako triviální extenze
-3. Kontinuální reframing aktuální pozice jako „jen mírně odlišné“ od předchozí
+3. Kontinuální [reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) aktuální pozice jako „jen mírně odlišné“ od předchozí
 4. Exploitace epistemické setrvačnosti a avoidance diskomfortu
 5. Eventuální arrival na pozici, která by byla rejected při přímé prezentaci
 

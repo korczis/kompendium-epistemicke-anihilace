@@ -1,10 +1,12 @@
 +++
 title = "Programy mediální gramotnosti"
-description = "Populační zdraví a prevence — Populačně škálovatelné kurzy mediální gramotnosti s měřenou účinností."
+description = "Populačně škálovatelné programy mediální gramotnosti: inokulace a prebunking, laterální čtení, měření schopnosti rozlišovat místo skepse, slábnutí účinku a rizika."
 weight = 150
+
 [taxonomies]
 tags = ["kompendium", "population-health", "interventions"]
 categories = ["academic", "public-health"]
+
 [extra]
 related_terms = ["13-school-curriculum-EA", "14-employer-screening", "16-digital-citizenship-program", "17-vulnerable-population-outreach"]
 parent = "kompendium-population-health"
@@ -13,79 +15,136 @@ toc = true
 
 # Programy mediální gramotnosti
 
-> Populačně škálovatelné kurzy mediální gramotnosti s měřenou účinností.
+> Mediální gramotnost je populační „očkování“ proti epistemickým útokům v informačním
+> prostředí. Jako u očkování záleží na tom, proti čemu chrání, jak dlouho účinek trvá, kolik
+> lidí zasáhne – a zda nemá vedlejší účinky, například všeobecnou nedůvěru.
 
-## Populační kontext
+## Vymezení a cíl
 
-Populační zdraví v kontextu epistemických útoků (EA) představuje rámec, který přesahuje individuální
-klinickou perspektivu. Tato studie (Programy mediální gramotnosti) sleduje populační vzorek **N = 30,672** subjektů
-ve sledovacím období **7 měsíců**.
+**Mediální gramotnost** je soubor dovedností potřebných k tomu, aby člověk dokázal mediální
+obsah vyhledat, porozumět mu, posoudit ho a vytvářet ho. UNESCO používá širší pojem *mediální
+a informační gramotnost*. Pro prevenci EA jsou rozhodující dvě schopnosti:
 
-EA jako veřejnozdravotní problém vyžaduje rámec srovnatelný s infekční epidemiologií:
-expozice → latence → manifestace → komplikace → reziduální dopad.
+- **rozpoznat strukturu manipulace** – falešné dilema
+  ([EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)), falešnou ekvivalenci
+  ([EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)), vytržení z kontextu
+  ([quote mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md)), záplavu tvrzení
+  ([Gish gallop](@/glossary/gish-gallop.md)), podvržené autority, emoční nátlak;
+- **kalibrovat důvěru** – rozlišit spolehlivé zdroje od nespolehlivých, ne odmítat všechny.
 
-## Klíčové parametry / data
+Cílem populačního programu je posunout tyto schopnosti u velkého počtu lidí, včetně dospělých
+a seniorů, kteří školní [kurikulum](@/kompendium/population-health/13-school-curriculum-EA.md)
+nikdy neabsolvovali.
 
-| Metrika | Hodnota | 95% CI |
+## Úroveň prevence a cílová populace
+
+Univerzální primární prevence se selektivními variantami: senioři (vyšší riziko podvodů, méně
+zkušeností s algoritmickými platformami), lidé s nižším vzděláním, nově příchozí migranti
+s omezenou znalostí místního mediálního prostředí, profesní skupiny s multiplikačním účinkem
+(učitelé, knihovníci, zdravotníci, novináři).
+
+## Přístupy s doloženou podporou
+
+**Inokulace a prebunking.** Inokulační teorie Williama McGuira (60. léta) předpokládá, že
+předběžné vystavení oslabenému argumentu s vyvrácením zvyšuje odolnost. Roozenbeek a van der
+Linden ukázali v online hře *Bad News* (2019), že hraní role tvůrce dezinformací snižuje
+vnímanou věrohodnost manipulativních příspěvků. Prebunking se dnes šíří i jako krátká videa
+před reklamou na platformách. Výhodou je škálovatelnost; výzvou slábnutí účinku.
+
+**Laterální čtení.** Výzkum Sama Wineburga a Sarah McGrewové ze Stanfordu porovnával studenty,
+historiky a profesionální ověřovatele faktů. Ověřovatelé místo důkladného čtení stránky
+okamžitě otevírali jiné zdroje, aby zjistili, kdo za stránkou stojí. Tato dovednost se dá
+naučit rychle a je přenositelná
+([triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)).
+
+**Pobídky k přesnosti.** Studie Gordona Pennycooka a Davida Randa naznačují, že prosté
+připomenutí přesnosti před sdílením zlepšuje kvalitu sdíleného obsahu – lidé často sdílejí
+nepravdivé informace ne z přesvědčení, ale z nepozornosti.
+
+**Vyvracení (debunking).** Oprava funguje lépe, když nabídne alternativní vysvětlení, nejen
+popření, a když přichází od důvěryhodného zdroje. Přetrvávající vliv dezinformace však
+zůstává (Lewandowsky a kol., 2012).
+
+## Komponenty programu
+
+- krátké, opakované formáty (videa, hry, interaktivní kvízy) místo jednorázových kurzů;
+- nácvik na reálném materiálu z různých politických a tematických oblastí
+  ([neutralizační praktikum](@/kompendium/techniques/ea-3-1-7-neutralization-practicum.md),
+  [drill kompoziční analýzy](@/kompendium/techniques/ea-3-1-8-compositional-analysis-drill.md));
+- moduly o syntetických médiích ([detekce deepfake](@/kompendium/educational-scenarios/16-deepfake-detection.md),
+  [detekce AI obsahu](@/kompendium/self-defense-guides/40-ai-content-detection.md));
+- moduly o emocích a pozornosti – proč pobuřující obsah sdílíme
+  ([řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md));
+- multiplikátoři: školení knihovníků, učitelů, zdravotníků a sociálních pracovníků;
+- distribuce tam, kde lidé jsou – na platformách, v knihovnách, ve zdravotnických čekárnách.
+
+## Rizika a nežádoucí účinky
+
+- **Všeobecná skepse.** Program může snížit víru v nepravdivé zprávy i v pravdivé. Měřit je
+  třeba **schopnost rozlišovat** (discernment), ne jen pokles důvěry.
+- **Bumerangový efekt.** Opakování mýtu při vyvracení ho může zesílit, zvláště u lidí, kteří
+  ho neznali.
+- **Paternalismus a politizace.** Program, který označuje konkrétní média za „dezinformační“,
+  ztratí důvěru části populace; zaměření na techniky je odolnější než zaměření na zdroje.
+- **Přesun odpovědnosti.** Mediální gramotnost nenahrazuje odpovědnost platforem
+  ([regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md)); vložit
+  celou tíhu na jednotlivce je samo strukturálním problémem.
+
+## Evaluace
+
+| Rozměr | Měření | Úskalí |
 |---|---|---|
-| Bodová prevalence | **10.34%** | [8.48, 12.2] |
-| Incidence (na 100k/rok) | **125** | — |
-| Velikost účinku (Cohen's d) | **0.16** | — |
-| Odds ratio (vs. kontrola) | **1.44** | — |
-| NNT (number needed to treat) | **25** | — |
-| Pokrytí intervence | **76%** | — |
-| Drop-out | **16.52%** | — |
-| Náklady na obyvatele | **39 EUR/rok** | — |
+| Rozlišovací schopnost | Hodnocení sady pravdivých a nepravdivých příspěvků | Umělé testové prostředí |
+| Chování | Sdílení v simulaci nebo (s povolením) na platformě | Přístup k datům |
+| Trvání | Opakované měření po týdnech a měsících | Úbytek respondentů |
+| Dosah | Podíl cílové populace, který program absolvoval | Samovýběr motivovaných |
+| Nežádoucí účinky | Důvěra ve spolehlivé zdroje, cynismus | Málokdy se měří |
 
-Vzorek je stratifikován podle věku (18-29, 30-44, 45-64, 65+), genderu, urbanizace
-a socioekonomického statusu (5 kvintilů).
+Laboratorní účinek bývá větší než v terénu; o populačním dopadu rozhoduje dosah a opakování.
 
-## Implementační rámec
+## Modelová situace
 
-1. **Detekce a screening** — populační nástroj s validovanou citlivostí ≥ 0.82.
-2. **Stratifikace rizika** — risk-stratified outreach s prioritizací top decilu.
-3. **Intervenční kaskáda** — stepped care: psychoedukace → krátká intervence → specializovaná péče.
-4. **Datový sběr** — kontinuální monitoring přes integrovaný platformový sběr.
-5. **Evaluace** — předem registrovaná protokol, primární a sekundární endpointy.
+Síť městských knihoven nabídne seniorům šestitýdenní cyklus krátkých setkání. Každé setkání
+začíná příkladem, který si účastníci sami přinesli – podezřelá SMS, video se „zázračnou
+léčbou“, řetězový e-mail. Knihovnice ukazují, jak si během minuty ověřit, kdo za zprávou stojí.
+Na konci cyklu účastníci hodnotí sadu příspěvků, z nichž polovina je pravdivá; knihovny
+sledují, zda se zlepšilo rozlišování, ne jen zda účastníci „méně věří internetu“.
 
-**Framework hook (Prismatic)**: Intervence integruje s `PrismaticHelpline` modulem a `Academy` learning loop. M5M doctrine vynucuje task decomposition; každá intervenční session má max 5 minut. Telemetrie přes `:telemetry.span` (OTEL pillar).
+## Kontrolní otázky pro praxi
 
-## Indikátory úspěchu
+- Měří evaluace schopnost rozlišovat pravdivé a nepravdivé, nebo jen pokles důvěry?
+- Je obsah zaměřen na techniky, nebo na seznam „špatných“ zdrojů?
+- Počítá program s opakováním, když účinek slábne?
+- Dosáhne program i na skupiny, které školní výuku neabsolvovaly?
+- Neopakuje vyvracení mýtus tak, že ho šíří?
 
-- **Primární endpoint**: redukce incidence EA o ≥ 20% za 7 měsíců.
-- **Sekundární endpointy**: zlepšení mediální gramotnosti (Cohen's d ≥ 0.16),
-  snížení time-to-help-seeking o ≥ 30%, redukce komorbidit.
-- **Procesní indikátory**: pokrytí ≥ 76%, drop-out ≤ 16.52%,
-  cost-per-capita ≤ 39 EUR.
-- **Equity indikátory**: redukce socioekonomického gradientu výsledků.
+## Limitace a otevřené otázky
 
-## Limitace
+- Účinky slábnou; není jasné, jak často a v jaké formě opakovat.
+- Generativní AI mění podobu manipulativního obsahu rychleji než učební materiály.
+- Otevřená otázka: chrání mediální gramotnost i před epistemickými útoky ve vztazích
+  a skupinách, nebo jen v informačním prostředí?
 
-- **Selekční bias** — samoselekce subjektů snižuje externí validitu.
-- **Měřící bias** — self-report instrumenty pro EA nejsou plně validovány napříč jazyky.
-- **Konfaundace** — nepozorované proměnné (sociální podpora, baseline kognitivní rezerva).
-- **Ekologická chyba** — populační vzorce nemusí platit individuálně.
-- **Časová stabilita** — EA fenomenologie evolves with platform changes; pětileté projekce nejisté.
+## Související
 
-## Cross-linky
+**Sesterské stránky**
 
-- [historical-cases](../historical-cases/_index.md)
-- [cross-domain](../cross-domain/_index.md)
-- [aiad-integration](../aiad-integration/_index.md)
-- [03-zakladni-kategorie](../03-zakladni-kategorie/_index.md)
-- [04-terminalni-protokoly](../04-terminalni-protokoly/_index.md)
-- [05-ultramari-techniky](../05-ultramari-techniky/_index.md)
-- [06-klinicke-aplikace](../06-klinicke-aplikace/_index.md)
-- [07-teoreticke-reflexe](../07-teoreticke-reflexe/_index.md)
-- [08-prilohy](../08-prilohy/_index.md)
-- [case-studies](../case-studies/_index.md)
-- [detection-signatures](../detection-signatures/_index.md)
+- [Populační dopad dezinformací](@/kompendium/population-health/04-disinformation-population-impact.md) – co má program měnit.
+- [Programy digitálního občanství](@/kompendium/population-health/16-digital-citizenship-program.md) – širší digitální kompetence.
+- [Kampaně veřejné informovanosti](@/kompendium/population-health/18-public-awareness-campaign.md) – masová komunikace.
 
+**Prevence a obrana**
 
-## Connect footer
+- [Mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md) – preventivní rámec.
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – osobní postup.
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) – dlouhodobý návyk.
 
-- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
-- **API**: `GET /api/v1/epi/ea/media-literacy-program` (auto-introspecting)
-- **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
-- **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine
+**Výuka**
+
+- [Vážení důkazů](@/kompendium/educational-scenarios/7-evidence-weighting.md) – výukový scénář.
+- [Koordinace botů](@/kompendium/educational-scenarios/17-bot-coordination.md) – rozpoznání neautentických kampaní.
+
+**Teorie a glosář**
+
+- [Boyd: sociotechnický pohled na dezinformace](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md) – kritika úzce pojaté gramotnosti.
+- [Motte and bailey](@/glossary/motte-and-bailey.md) – typická argumentační struktura.

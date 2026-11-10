@@ -1,10 +1,12 @@
 +++
 title = "Prevalence EA v akademickém prostředí"
-description = "Populační zdraví a prevence — Výskyt epistemických útoků v univerzitních a výzkumných populacích."
+description = "Výskyt epistemických útoků mezi doktorandy, výzkumníky a akademiky: strukturální rizikové faktory, měření, odlišení od legitimní kritiky a institucionální prevence."
 weight = 50
+
 [taxonomies]
 tags = ["kompendium", "population-health", "epidemiology"]
 categories = ["academic", "public-health"]
+
 [extra]
 related_terms = ["03-incidence-cult-exposure", "04-disinformation-population-impact", "06-corporate-EA-prevalence", "07-political-EA-prevalence"]
 parent = "kompendium-population-health"
@@ -13,79 +15,141 @@ toc = true
 
 # Prevalence EA v akademickém prostředí
 
-> Výskyt epistemických útoků v univerzitních a výzkumných populacích.
+> Akademie je prostředí, jehož hlavním produktem je poznání – a proto je útok na schopnost
+> poznávat v ní obzvlášť zákeřný. Kdo ztratí důvěru ve vlastní úsudek, ztrácí zde nejen
+> sebevědomí, ale i profesi.
 
-## Populační kontext
+## Vymezení
 
-Populační zdraví v kontextu epistemických útoků (EA) představuje rámec, který přesahuje individuální
-klinickou perspektivu. Tato studie (Prevalence EA v akademickém prostředí) sleduje populační vzorek **N = 38,099** subjektů
-ve sledovacím období **46 měsíců**.
+Akademické prostředí má strukturu, která epistemické útoky usnadňuje: **koncentrace moci
+v rukou jedné osoby** (školitel, vedoucí laboratoře, předseda komise), dlouhé období závislosti
+(doktorské studium, postdoktorandské smlouvy) a oficiální role, v níž je kritika úsudku
+druhého legitimní a žádoucí. Hranice mezi náročným vedením a systematickým podkopáváním
+schopnosti myslet proto není na první pohled vidět.
 
-EA jako veřejnozdravotní problém vyžaduje rámec srovnatelný s infekční epidemiologií:
-expozice → latence → manifestace → komplikace → reziduální dopad.
+Kompendium popisuje akademické techniky ve dvou skupinách. První míří na **pověst a postavení**
+– [expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md),
+[publikační blokace](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md),
+[útok na financování](@/kompendium/techniques/ea-2-1-6-funding-attack.md). Druhá působí uvnitř
+vztahu školitel–školenec:
+[self-totalizace mentora](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md),
+[izolace školence](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md),
+[kultivace emočního dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md),
+[nátlak přes doporučení](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md).
+Teoretické pozadí tvoří kapitola
+[3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md).
 
-## Klíčové parametry / data
+## Co a jak měřit
 
-| Metrika | Hodnota | 95% CI |
-|---|---|---|
-| Bodová prevalence | **4.72%** | [3.87, 5.57] |
-| Incidence (na 100k/rok) | **658** | — |
-| Velikost účinku (Cohen's d) | **0.96** | — |
-| Odds ratio (vs. kontrola) | **4.38** | — |
-| NNT (number needed to treat) | **41** | — |
-| Pokrytí intervence | **72%** | — |
-| Drop-out | **24.43%** | — |
-| Náklady na obyvatele | **12 EUR/rok** | — |
+Spolehlivé údaje o prevalenci akademických EA neexistují. Dostupné jsou blízké ukazatele:
 
-Vzorek je stratifikován podle věku (18-29, 30-44, 45-64, 65+), genderu, urbanizace
-a socioekonomického statusu (5 kvintilů).
+- šetření wellbeingu a pracovních podmínek doktorandů a mladých výzkumníků, která se ptají
+  na šikanu, ponižování, zneužití autorství a obavy z odvety;
+- záznamy ombudsmanů, etických komisí a stížnostních mechanismů univerzit;
+- exit interview s těmi, kdo studium nebo akademickou dráhu opustili
+  ([exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md));
+- kvalitativní studie, které popisují mechanismy, ne četnosti
+  ([tematická analýza](@/kompendium/research-methodology/thematic-analysis-EA.md),
+  [grounded theory](@/kompendium/research-methodology/grounded-theory-EA.md)).
 
-## Implementační rámec
+Pro EA specificky je třeba ptát se nejen na chování („byl/a jste veřejně zesměšněn/a“), ale
+na epistemický dopad: zda respondent přestal důvěřovat vlastnímu hodnocení dat, zda se bojí
+formulovat vlastní hypotézy, zda „ví, co si školitel myslí“ dřív, než si utvoří vlastní názor.
 
-1. **Detekce a screening** — populační nástroj s validovanou citlivostí ≥ 0.82.
-2. **Stratifikace rizika** — risk-stratified outreach s prioritizací top decilu.
-3. **Intervenční kaskáda** — stepped care: psychoedukace → krátká intervence → specializovaná péče.
-4. **Datový sběr** — kontinuální monitoring přes integrovaný platformový sběr.
-5. **Evaluace** — předem registrovaná protokol, primární a sekundární endpointy.
+## Rizikové faktory
 
-**Framework hook (AIAD)**: Datový pipeline `/api/v1/epi/ea/incidence` zpřístupňuje agregované metriky napříč 552 AIAD agenty. NCLB doctrine zajišťuje, že každé tvrzení v této studii je evidence-backed a dynamicky validované přes `mix nclb.validate`.
+**Strukturální**
 
-## Indikátory úspěchu
+- jediný školitel bez spoluškolitele a bez fungující oborové rady;
+- kumulace rolí: školitel zároveň zaměstnavatel, hodnotitel, autor doporučení a garant víza;
+- prekérní krátkodobé smlouvy a závislost kariéry na jednom doporučujícím dopise;
+- izolované pracovní skupiny s vlastním „jazykem“ a malým kontaktem s okolím
+  ([výzkumná laboratoř jako kult](@/kompendium/case-studies/35-research-lab-cult.md));
+- kultura, která zátěž a ponížení vykládá jako nutnou součást formace.
 
-- **Primární endpoint**: redukce incidence EA o ≥ 20% za 46 měsíců.
-- **Sekundární endpointy**: zlepšení mediální gramotnosti (Cohen's d ≥ 0.96),
-  snížení time-to-help-seeking o ≥ 30%, redukce komorbidit.
-- **Procesní indikátory**: pokrytí ≥ 72%, drop-out ≤ 24.43%,
-  cost-per-capita ≤ 12 EUR.
-- **Equity indikátory**: redukce socioekonomického gradientu výsledků.
+**Situační a individuální**
 
-## Limitace
+- zahraniční studenti s pobytovým statusem vázaným na studium;
+- první generace v akademii bez rodinné znalosti „pravidel hry“;
+- osoby po předchozí zkušenosti s [epistemickou nespravedlností](@/glossary/epistemicka-injustice.md)
+  – jejich svědectví bývá brané méně vážně (Fricker 2007).
 
-- **Selekční bias** — samoselekce subjektů snižuje externí validitu.
-- **Měřící bias** — self-report instrumenty pro EA nejsou plně validovány napříč jazyky.
-- **Konfaundace** — nepozorované proměnné (sociální podpora, baseline kognitivní rezerva).
-- **Ekologická chyba** — populační vzorce nemusí platit individuálně.
-- **Časová stabilita** — EA fenomenologie evolves with platform changes; pětileté projekce nejisté.
+## Odlišení od legitimní kritiky
 
-## Cross-linky
+| Legitimní akademická kritika | Epistemický útok |
+|---|---|
+| Míří na argument, data, metodu | Míří na schopnost osoby myslet („na to nemáš“) |
+| Je konkrétní a umožňuje opravu | Je vágní, pohyblivá, nelze ji splnit |
+| Připouští nesouhlas a vlastní cestu | Trestá nezávislé závěry |
+| Je konzistentní v čase | Kritéria se mění podle potřeby ([posun cílů](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md)) |
+| Podporuje kontakt s dalšími odborníky | Izoluje a monopolizuje spolupráci |
 
-- [quick-reference](../quick-reference/_index.md)
-- [educational-scenarios](../educational-scenarios/_index.md)
-- [historical-cases](../historical-cases/_index.md)
-- [cross-domain](../cross-domain/_index.md)
-- [aiad-integration](../aiad-integration/_index.md)
-- [03-zakladni-kategorie](../03-zakladni-kategorie/_index.md)
-- [04-terminalni-protokoly](../04-terminalni-protokoly/_index.md)
-- [05-ultramari-techniky](../05-ultramari-techniky/_index.md)
-- [06-klinicke-aplikace](../06-klinicke-aplikace/_index.md)
-- [07-teoreticke-reflexe](../07-teoreticke-reflexe/_index.md)
-- [08-prilohy](../08-prilohy/_index.md)
+Podrobný rozbor nabízí scénář
+[destruktivní „konstruktivní“ kritiky](@/kompendium/03-zakladni-kategorie/scenar-h.md)
+a výukové scénáře o [přesazích mentora](@/kompendium/educational-scenarios/12-mentor-overreach.md).
 
+## Důsledky pro prevenci a instituce
 
-## Connect footer
+Primární prevence v akademii je převážně **organizační**:
 
-- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
-- **API**: `GET /api/v1/epi/ea/academic-EA-prevalence` (auto-introspecting)
-- **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
-- **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine
+1. povinné spoluškolitelství nebo školicí komise s pravidelným hodnocením průběhu;
+2. oddělení rolí: hodnocení pokroku nezávislé na osobě, která rozhoduje o financování;
+3. nezávislý ombudsman a anonymní kanál s ochranou před odvetou
+   ([role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md),
+   [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md));
+4. jasná pravidla autorství a přenositelnosti dat při změně školitele;
+5. vzdělávání školitelů a supervize vedení
+   ([akademický dohled](@/kompendium/prevention-resilience/17-academic-supervision-prevention.md)).
+
+Sekundární prevence znamená včasné zachycení: kdo si všimne, že doktorand přestal chodit na
+semináře, přestal publikovat nebo mluví o vlastní práci výhradně slovy školitele? Terciární
+prevence zahrnuje možnost změnit školitele bez ztráty dat a let práce a dostupnou
+psychologickou péči ([vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md)).
+
+## Modelová situace
+
+Fakulta zavede v rámci roční evaluace doktorského studia krátký anonymní dotazník, který vedle
+spokojenosti zjišťuje, zda doktorandi mohou otevřeně nesouhlasit se školitelem a zda mají
+kontakt s dalšími odborníky. U jednoho oboru se opakovaně objeví nízké skóre a zmínky
+o strachu z odvety. Děkanát nevyšetřuje jednotlivce na základě anonymních dat; zavede pro obor
+povinné školicí komise, nabídne doktorandům konzultace s externím ombudsmanem a po roce
+dotazník zopakuje.
+
+## Kontrolní otázky pro praxi
+
+- Kolik rolí (školitel, zaměstnavatel, hodnotitel, garant víza) spočívá v jedné osobě?
+- Má doktorand nebo postdok kontakt s nezávislými odborníky mimo svou skupinu?
+- Může změnit školitele bez ztráty dat, autorství a let práce?
+- Existuje kanál pro stížnosti chráněný před odvetou a skutečně se využívá?
+- Rozlišuje instituce kritiku práce od útoku na schopnost člověka myslet?
+
+## Limitace a otevřené otázky
+
+- Malé obory a pracoviště: anonymita je iluzorní, respondenti se bojí odpovídat.
+- Riziko zneužití: obvinění z „manipulace“ může být použito proti náročnému, ale korektnímu
+  školiteli ([riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
+- Otevřená otázka: jak měřit epistemický dopad (ztrátu důvěry ve vlastní úsudek) odděleně od
+  obecného vyhoření?
+
+## Související
+
+**Sesterské stránky**
+
+- [Prevalence EA v korporátním prostředí](@/kompendium/population-health/06-corporate-EA-prevalence.md) – obdobné struktury mimo akademii.
+- [Vzdělávací politika a EA](@/kompendium/population-health/26-educational-policy-EA.md) – systémová opatření.
+
+**Případové studie**
+
+- [Akademická supervize a totalizace](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md) – anonymizovaný průběh.
+- [Postdoc exploitation](@/kompendium/case-studies/33-postdoc-exploitation.md) – prekérní pozice.
+- [Doktorské vedení (klinický případ)](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md) – klinický pohled.
+
+**Prevence a obrana**
+
+- [Hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md) – co může udělat sám doktorand.
+- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md) – organizační pojistky.
+
+**Glosář**
+
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – kdo je slyšen a kdo ne.
+- [Power-knowledge](@/glossary/power-knowledge.md) – moc nad tím, co platí za vědění.

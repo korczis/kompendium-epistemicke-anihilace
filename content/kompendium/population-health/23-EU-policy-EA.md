@@ -1,10 +1,12 @@
 +++
 title = "EU politika k epistemickým útokům"
-description = "Populační zdraví a prevence — DSA, DMA, AI Act a další evropské regulace v kontextu EA prevence."
+description = "Nařízení o digitálních službách, AI Act, akt o digitálních trzích a další evropské předpisy z pohledu prevence epistemických útoků: co ukládají, co nepokrývají a jaká nesou rizika."
 weight = 230
+
 [taxonomies]
 tags = ["kompendium", "population-health", "policy"]
 categories = ["academic", "public-health"]
+
 [extra]
 related_terms = ["21-EA-public-policy-framework", "22-regulatory-approach-EA", "24-WHO-EA-framework", "25-platform-regulation-EA"]
 parent = "kompendium-population-health"
@@ -13,79 +15,145 @@ toc = true
 
 # EU politika k epistemickým útokům
 
-> DSA, DMA, AI Act a další evropské regulace v kontextu EA prevence.
+> Evropská unie nemá politiku „epistemických útoků“. Má však soubor předpisů, které poprvé
+> ukládají povinnosti těm, kdo navrhují informační infrastrukturu – a tím zasahují do
+> podmínek, v nichž se manipulace v populaci šíří.
 
-## Populační kontext
+## Vymezení
 
-Populační zdraví v kontextu epistemických útoků (EA) představuje rámec, který přesahuje individuální
-klinickou perspektivu. Tato studie (EU politika k epistemickým útokům) sleduje populační vzorek **N = 1,974** subjektů
-ve sledovacím období **20 měsíců**.
+Unijní právo se epistemickým útokům věnuje nepřímo, v několika oblastech: regulace
+digitálních služeb, umělé inteligence, ochrany osobních údajů, spotřebitelů, médií, obětí
+trestných činů a duševního zdraví. Tato stránka shrnuje relevantní nástroje z pohledu
+veřejného zdraví. Právní detaily a vztah k vnitrostátnímu právu popisuje stránka
+[EU právo – EA rámec](@/kompendium/international/21-EU-law-EA/index.md).
 
-EA jako veřejnozdravotní problém vyžaduje rámec srovnatelný s infekční epidemiologií:
-expozice → latence → manifestace → komplikace → reziduální dopad.
+## Hlavní nástroje
 
-## Klíčové parametry / data
+**Nařízení o digitálních službách (DSA, nařízení (EU) 2022/2065)**
 
-| Metrika | Hodnota | 95% CI |
+- Velmi velké online platformy a vyhledávače musí pravidelně posuzovat **systémová rizika**
+  svých služeb – mimo jiné pro občanskou diskusi, volební procesy, veřejnou bezpečnost,
+  základní práva a pro fyzické a duševní zdraví – a přijímat opatření k jejich zmírnění
+  (čl. 34 a 35).
+- Platformy nesmí používat rozhraní, která uživatele klamou nebo manipulují jejich
+  rozhodnutími (tzv. temné vzorce, čl. 25).
+- Doporučovací systémy musí být transparentní a velmi velké platformy musí nabízet variantu
+  bez profilování (čl. 27 a 38).
+- Platformy přístupné nezletilým musí zajistit vysokou úroveň jejich soukromí, bezpečí
+  a ochrany (čl. 28).
+- Prověření výzkumníci mají získat přístup k datům velmi velkých platforem pro studium
+  systémových rizik (čl. 40) – zásadní pro [populační výzkum dezinformací](@/kompendium/population-health/04-disinformation-population-impact.md).
+
+**Akt o umělé inteligenci (AI Act, nařízení (EU) 2024/1689)**
+
+- Zakazuje systémy AI, které používají podprahové, záměrně manipulativní nebo klamavé
+  techniky podstatně narušující rozhodování člověka a způsobující mu značnou újmu, a systémy
+  zneužívající zranitelnosti dané věkem, zdravotním postižením nebo sociální či ekonomickou
+  situací (čl. 5). Zákazy se uplatňují od února 2025.
+- Ukládá povinnosti transparentnosti: lidé mají vědět, že komunikují s AI, a uměle vytvořený
+  nebo upravený obsah (deepfake) má být označen (čl. 50); viz
+  [Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md),
+  [AI Personhood Claim](@/kompendium/techniques/ea-9-2-10-AI-personhood-claim.md).
+
+**Akt o digitálních trzích (DMA, nařízení (EU) 2022/1925)** – míří na tržní moc
+„strážců přístupu“; pro EA je relevantní nepřímo, například omezením kombinování osobních
+údajů napříč službami bez souhlasu.
+
+**Další předpisy**
+
+- obecné nařízení o ochraně osobních údajů (GDPR) – profilování, zvláštní kategorie údajů;
+- směrnice o nekalých obchodních praktikách (2005/29/ES) – agresivní praktiky vůči
+  spotřebitelům;
+- evropský akt o svobodě médií (nařízení (EU) 2024/1083) – nezávislost a pluralita médií;
+- nařízení o transparentnosti a cílení politické reklamy (nařízení (EU) 2024/900);
+- směrnice o právech obětí (2012/29/EU) a směrnice o boji proti násilí na ženách a domácímu
+  násilí (2024/1385), která mimo jiné postihuje formy kybernetického násilí;
+- směrnice o ochraně oznamovatelů (2019/1937);
+- revidovaná směrnice o audiovizuálních mediálních službách (2018) s povinnostmi v oblasti
+  mediální gramotnosti.
+
+**Měkké nástroje** – kodex zásad proti šíření dezinformací (2018, posílený 2022, začleňovaný
+do rámce DSA), Akční plán pro evropskou demokracii (2020), síť Evropské observatoře
+digitálních médií (EDMO), strategie pro lepší internet pro děti a sdělení Komise
+o komplexním přístupu k duševnímu zdraví (2023).
+
+## Co EU politika pokrývá a co ne
+
+| Oblast EA | Pokrytí | Mezera |
 |---|---|---|
-| Bodová prevalence | **16.82%** | [13.79, 19.85] |
-| Incidence (na 100k/rok) | **358** | — |
-| Velikost účinku (Cohen's d) | **0.95** | — |
-| Odds ratio (vs. kontrola) | **1.41** | — |
-| NNT (number needed to treat) | **27** | — |
-| Pokrytí intervence | **31%** | — |
-| Drop-out | **15.89%** | — |
-| Náklady na obyvatele | **56 EUR/rok** | — |
+| Infrastruktura šíření (platformy, algoritmy) | Silné: DSA, AI Act | Vymáhání, rychlost, malé platformy a uzavřené skupiny |
+| Manipulativní AI | Zákaz nejzávažnějších praktik | Vysoký práh „značné újmy“, obtížné dokazování |
+| Kontrolující vztahy a skupiny | Nepřímo: oběti, násilí na ženách | Kompetence členských států, chybí obecný rámec |
+| Pracoviště a akademie | Ochrana oznamovatelů | Psychosociální rizika řeší převážně státy |
+| Služby duševního zdraví | Doporučení, financování projektů | Organizace péče je národní kompetencí |
 
-Vzorek je stratifikován podle věku (18-29, 30-44, 45-64, 65+), genderu, urbanizace
-a socioekonomického statusu (5 kvintilů).
+## Aktéři a odpovědnosti
 
-## Implementační rámec
+Evropská komise dozoruje velmi velké platformy podle DSA; koordinátoři digitálních služeb
+v členských státech dozorují ostatní poskytovatele. Úřad pro AI a vnitrostátní orgány dozoru
+vymáhají AI Act. Pro veřejné zdraví je podstatné, aby se do posuzování systémových rizik
+zapojili i odborníci na duševní zdraví a aby výsledky byly dostupné výzkumu.
 
-1. **Detekce a screening** — populační nástroj s validovanou citlivostí ≥ 0.82.
-2. **Stratifikace rizika** — risk-stratified outreach s prioritizací top decilu.
-3. **Intervenční kaskáda** — stepped care: psychoedukace → krátká intervence → specializovaná péče.
-4. **Datový sběr** — kontinuální monitoring přes integrovaný platformový sběr.
-5. **Evaluace** — předem registrovaná protokol, primární a sekundární endpointy.
+## Rizika a pojistky
 
-**Framework hook (Policy)**: Rámec se mapuje na `prismatic_cer` (CER/NIS2 compliance), GITL traceability vynucuje conventional commits u všech regulatorních artefaktů. DEPS doctrine zajišťuje audit trail závislostí napříč policy stackem.
+- **Svoboda projevu.** Povinnost zmírňovat rizika může vést platformy k nadměrnému
+  odstraňování obsahu; DSA proto obsahuje procesní záruky (odůvodnění, stížnosti,
+  mimosoudní řešení sporů).
+- **Politizace dozoru.** Kdo rozhoduje, co je „riziko pro občanskou diskusi“? Transparentnost
+  metodik a nezávislý audit jsou nutné ([politická instrumentalizace](@/kompendium/critical-perspectives/6-political-instrumentalization.md)).
+- **Iluze vyřešeného problému.** Regulace infrastruktury nenahrazuje vzdělávání, komunity
+  a služby ([rámec veřejné politiky](@/kompendium/population-health/21-EA-public-policy-framework.md)).
 
-## Indikátory úspěchu
+## Evaluace
 
-- **Primární endpoint**: redukce incidence EA o ≥ 20% za 20 měsíců.
-- **Sekundární endpointy**: zlepšení mediální gramotnosti (Cohen's d ≥ 0.95),
-  snížení time-to-help-seeking o ≥ 30%, redukce komorbidit.
-- **Procesní indikátory**: pokrytí ≥ 31%, drop-out ≤ 15.89%,
-  cost-per-capita ≤ 56 EUR.
-- **Equity indikátory**: redukce socioekonomického gradientu výsledků.
+DSA a AI Act obsahují mechanismy přezkumu a hodnocení. Z pohledu veřejného zdraví by se
+mělo sledovat: zda zprávy o systémových rizicích obsahují i dopady na duševní zdraví a na
+zranitelné skupiny; zda přístup výzkumníků k datům funguje v praxi; jak se mění expozice
+uživatelů manipulativním vzorcům; a zda nedochází k nepřiměřenému omezování legitimního
+obsahu.
 
-## Limitace
+## Modelová situace
 
-- **Selekční bias** — samoselekce subjektů snižuje externí validitu.
-- **Měřící bias** — self-report instrumenty pro EA nejsou plně validovány napříč jazyky.
-- **Konfaundace** — nepozorované proměnné (sociální podpora, baseline kognitivní rezerva).
-- **Ekologická chyba** — populační vzorce nemusí platit individuálně.
-- **Časová stabilita** — EA fenomenologie evolves with platform changes; pětileté projekce nejisté.
+Výzkumný tým chce zjistit, zda doporučovací systém velké videoplatformy vede dospívající
+k obsahu o extrémních dietách. Podá žádost o přístup k datům podle čl. 40 DSA, předloží
+protokol schválený etickou komisí a plán ochrany dat. Výsledky zveřejní a Komise je může
+využít při posuzování, zda platforma zmírňuje rizika pro duševní zdraví nezletilých.
 
-## Cross-linky
+## Kontrolní otázky pro praxi
 
-- [historical-cases](../historical-cases/_index.md)
-- [cross-domain](../cross-domain/_index.md)
-- [aiad-integration](../aiad-integration/_index.md)
-- [03-zakladni-kategorie](../03-zakladni-kategorie/_index.md)
-- [04-terminalni-protokoly](../04-terminalni-protokoly/_index.md)
-- [05-ultramari-techniky](../05-ultramari-techniky/_index.md)
-- [06-klinicke-aplikace](../06-klinicke-aplikace/_index.md)
-- [07-teoreticke-reflexe](../07-teoreticke-reflexe/_index.md)
-- [08-prilohy](../08-prilohy/_index.md)
-- [case-studies](../case-studies/_index.md)
-- [detection-signatures](../detection-signatures/_index.md)
+- Obsahují zprávy o systémových rizicích i dopady na duševní zdraví a zranitelné skupiny?
+- Funguje v praxi přístup výzkumníků k datům platforem?
+- Jsou metodiky dozoru transparentní a přezkoumatelné?
+- Pokrývají opatření i uzavřené skupiny a menší platformy?
+- Doplňují národní politiky regulaci infrastruktury vzděláváním a službami?
 
+## Limitace a otevřené otázky
 
-## Connect footer
+- Vymáhání vůči globálním platformám je pomalé a nákladné.
+- Uzavřené komunikační kanály (soukromé skupiny, šifrované zprávy) stojí mimo většinu
+  povinností – a právě tam se odehrává mnoho epistemických útoků.
+- Otevřená otázka: změní regulace infrastruktury expozici populace měřitelně, nebo se
+  manipulativní praktiky přesunou jinam?
 
-- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
-- **API**: `GET /api/v1/epi/ea/EU-policy-EA` (auto-introspecting)
-- **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
-- **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine
+## Související
+
+**Sesterské stránky**
+
+- [Regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md) – podrobněji o povinnostech platforem.
+- [Mezinárodní spolupráce](@/kompendium/population-health/28-international-cooperation-EA.md) – EU v globálním kontextu.
+- [Regulatorní přístup k EA](@/kompendium/population-health/22-regulatory-approach-EA.md) – národní právní nástroje.
+
+**Cross-domain a compliance**
+
+- [EA × Compliance: NIS2](@/kompendium/cross-domain/25-ea-compliance-nis2-integrity.md) – informační integrita v kybernetické bezpečnosti.
+- [EA × Compliance: GDPR](@/kompendium/cross-domain/27-ea-compliance-gdpr-narrative-protection.md) – ochrana osobních narativů.
+
+**Techniky**
+
+- [Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) – co má DSA zmírňovat.
+- [Koordinované neautentické chování](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) – typické systémové riziko.
+
+**Teorie a glosář**
+
+- [Floridi: Čtvrtá revoluce](@/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md) – infosféra jako prostor regulace.
+- [Deepfake](@/glossary/deepfake.md) – pojem.

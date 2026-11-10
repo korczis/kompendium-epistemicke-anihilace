@@ -8,6 +8,7 @@ description = "Vzorec, v němž je odmítnut každý způsob, jak poznání uspo
 tags = ["glossary", "epistemic", "kompendium"]
 
 [extra]
+aliases = ["Kognitivní anti-architektonika"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "integrative-collapse", "loading-the-language", "double-bind", "redukcionismus", "metakognice"]
 author = "Tomáš Korcak (korczis)"

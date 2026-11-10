@@ -8,6 +8,7 @@ description = "Vlastní pojem knihy z původní taxonomie (2025): sebeaplikace m
 tags = ["glossary", "kompendium", "epistemic", "self-reference"]
 
 [extra]
+aliases = ["Absolutní metakognitivní implosivita"]
 category = "epistemic"
 related_terms = ["self-reference", "kognitivni-anti-rekurzivita", "metakognice", "rekurzivni-epistemicka-negace", "epistemicka-imploze", "russell-paradox"]
 author = "Tomáš Korcak (korczis)"

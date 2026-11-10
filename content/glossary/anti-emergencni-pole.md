@@ -8,6 +8,7 @@ description = "Prostředí, v němž smí platit jen rozbor částí a mluvit o 
 tags = ["glossary", "epistemic", "kompendium"]
 
 [extra]
+aliases = ["Absolutní kognitivní anti-emergentní implosivita", "Absolutní epistemické anti-emergenční pole"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "redukcionismus", "holismus", "newspeak", "integrative-collapse", "pluralismus"]
 author = "Tomáš Korcak (korczis)"

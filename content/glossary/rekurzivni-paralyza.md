@@ -7,6 +7,7 @@ description = "Rekurzivní paralýza: stav, kdy se myšlení o myšlení zacykl�
 tags = ["glossary", "kompendium", "psychology", "cognitive", "clinical"]
 
 [extra]
+aliases = ["Absolutní superkognitivní paralýza"]
 category = "psychology"
 related_terms = ["paralysis-by-analysis", "infinitni-regress", "metakognitivni-destrukce", "kognitivni-anti-rekurzivita", "anankasticky-rezim", "predreflexivni-vedomi"]
 author = "Tomas Korcak (korczis)"

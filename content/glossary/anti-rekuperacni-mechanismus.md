@@ -8,6 +8,7 @@ description = "Vzorec, v němž je každý pokus o obnovu po epistemické krizi 
 tags = ["glossary", "epistemic", "kompendium"]
 
 [extra]
+aliases = ["Absolutní kognitivní anti-rekuperace"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "epistemicke-trauma", "socialni-izolace", "coercive-control", "betrayal-trauma", "epistemicka-regrese"]
 author = "Tomáš Korcak (korczis)"

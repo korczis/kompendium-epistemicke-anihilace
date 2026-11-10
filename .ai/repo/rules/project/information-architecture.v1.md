@@ -77,7 +77,11 @@ strany `scripts/derive-links.py` do generovaného oddílu „Strukturní vazby�
 Odvozená data se negenerují ručně: `scripts/build-graph.py` zapisuje
 `static/data/graph.json` (stránky a jejich odkazy) a `static/data/metrics.json` (čísla pro
 přehledy); šablony a vizualizace čtou jen tato data. `scripts/normalize-front-matter.py`
-opraví umístění popisu a štítků a převede YAML na TOML beze změny čehokoli jiného.
+opraví umístění popisu a štítků a převede YAML na TOML beze změny čehokoli jiného. Hlavička nenese
+nic, co se odvozuje nebo co nic nečte: `extra.word_count`, `extra.reading_time`,
+`extra.quality_score`, `extra.ref_count_at_creation` (počítá je Zola a `build-graph.py`)
+a `extra.parent` (hierarchii dává strom adresářů) vynucuje `normalize-front-matter --check`,
+které je odmítne, a `--fix` je odstraní.
 
 # Failure behaviour
 

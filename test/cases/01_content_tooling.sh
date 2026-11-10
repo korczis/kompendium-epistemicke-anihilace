@@ -3,6 +3,8 @@
 # majordomus-skill: kompendium-page-expansion
 #
 #  - polish-markdown.py and normalize-front-matter.py are idempotent (second run: no change);
+#  - normalize-front-matter.py refuses derived [extra] keys (word_count, reading_time,
+#    quality_score, ref_count_at_creation, parent) under --check and removes them under --fix;
 #  - check-ia.py passes on the tree with its baseline and fails on a seeded violation;
 #  - build-graph.py --check passes on a regenerated tree and fails after a content change.
 set -euo pipefail
@@ -26,6 +28,56 @@ python3 scripts/polish-markdown.py --check
 
 python3 scripts/normalize-front-matter.py >/dev/null
 python3 scripts/normalize-front-matter.py --check >/dev/null
+
+# Derived or unread [extra] keys are refused by --check and removed by --fix; nothing else moves,
+# an [extra] they leave empty goes, and a second run is a no-op.
+mkdir -p content/kompendium/case-01-fm
+cat > content/kompendium/case-01-fm/derived.md <<'PAGE'
++++
+title = "Odvozená metadata"
+description = "Fixtura: klíče, které jen opakují odvozená data nebo které nic nečte."
+
+[taxonomies]
+tags = ["kompendium"]
+
+[extra]
+category = "metodologie"
+word_count = 1234
+reading_time = 6
+quality_score = 75
+ref_count_at_creation = 3
++++
+
+Text.
+PAGE
+cat > content/kompendium/case-01-fm/parent.md <<'PAGE'
++++
+title = "Rodič"
+description = "Fixtura: extra.parent nečte žádná šablona, hierarchii dává strom adresářů."
+
+[taxonomies]
+tags = ["kompendium"]
+
+[extra]
+parent = "kompendium/_index.md"
++++
+
+Text.
+PAGE
+for f in derived parent; do
+  if python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm/$f.md >/dev/null; then
+    echo "normalize-front-matter --check accepted derived keys in $f.md"; exit 1; fi
+done
+python3 scripts/normalize-front-matter.py --fix content/kompendium/case-01-fm >/dev/null
+if grep -E '^(word_count|reading_time|quality_score|ref_count_at_creation|parent) *=' \
+    content/kompendium/case-01-fm/*.md; then echo "a derived key survived --fix"; exit 1; fi
+grep -x 'category = "metodologie"' content/kompendium/case-01-fm/derived.md >/dev/null
+if grep -qx '\[extra\]' content/kompendium/case-01-fm/parent.md; then echo "empty [extra] left behind"; exit 1; fi
+cp content/kompendium/case-01-fm/derived.md "$work/derived.once"
+python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm >/dev/null
+python3 scripts/normalize-front-matter.py content/kompendium/case-01-fm >/dev/null
+cmp -s content/kompendium/case-01-fm/derived.md "$work/derived.once"
+rm -r content/kompendium/case-01-fm
 
 if [ -f scripts/ia-baseline.json ]; then
   python3 scripts/check-ia.py >/dev/null   # the committed tree meets its own baseline

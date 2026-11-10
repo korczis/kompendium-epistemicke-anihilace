@@ -17,13 +17,22 @@ Two values are inferred where the page has none that fits the architecture:
   - a description longer than 200 characters is shortened at the last sentence or clause
     boundary that fits (or at a word boundary with an ellipsis).
 
+Keys that only duplicate what Zola and static/data/graph.json compute, or that no template
+reads, are removed from [extra] (an [extra] table they leave empty goes with them):
+
+  - extra.word_count, extra.reading_time (Zola's page.word_count and page.reading_time),
+    extra.quality_score, extra.ref_count_at_creation (scripts/build-graph.py derives the
+    metrics);
+  - extra.parent (the hierarchy is the directory tree; no template reads it).
+
 It changes nothing else: the result is parsed again and must equal the original apart from
-the moved and inferred keys, or the page is left untouched and reported.
+the moved, inferred and removed keys, or the page is left untouched and reported.
 
 Usage:
   scripts/normalize-front-matter.py [path ...]   normalise content/ (or the given files and
-                                                 directories)
-  scripts/normalize-front-matter.py --check      exit 1 when a page would change
+                                                 directories); --fix says the same explicitly
+  scripts/normalize-front-matter.py --check      exit 1 when a page would change (this is the
+                                                 enforcement: a removed key written again fails)
 """
 import json
 import pathlib
@@ -172,6 +181,10 @@ def set_scalar(lines: list, key: str, value: str) -> bool:
     return False
 
 
+# [extra] keys that duplicate derived data or that nothing reads: never written by hand.
+DERIVED_EXTRA = ("word_count", "reading_time", "quality_score", "ref_count_at_creation", "parent")
+
+
 # Controlled values of extra.risk_level: the codes the templates read. A Czech spelling of a
 # code is mapped to the code, so a page and the hero card cannot disagree.
 RISK_ALIASES = {"kritická": "critical", "kriticka": "critical", "kritické": "critical"}
@@ -212,6 +225,10 @@ def normalise_toml(fm: str, is_section: bool, rel: str = "") -> str:
     risk = (extra.get("risk_level") if isinstance(extra, dict) else None)
     if isinstance(risk, str) and risk.strip().lower() in RISK_ALIASES and "extra" in tables_by_name:
         set_scalar(tables_by_name["extra"], "risk_level", RISK_ALIASES[risk.strip().lower()])
+    if isinstance(extra, dict) and "extra" in tables_by_name:
+        removed = [take_key(tables_by_name["extra"], key) for key in DERIVED_EXTRA if key in extra]
+        if any(removed) and not any(l.strip() for l in tables_by_name["extra"]):
+            tables[:] = [(n, l) for n, l in tables if n != "extra"]
     while top and not top[-1].strip():
         top.pop()
     out = list(top)
@@ -240,6 +257,9 @@ def expected(before: dict, is_section: bool, rel: str = "") -> dict:
         data.setdefault("taxonomies", {})["tags"] = extra.pop("tags")
     elif rel and not is_section and not tax.get("tags"):
         data.setdefault("taxonomies", {})["tags"] = infer_tags(rel, before)
+    removed = [extra.pop(key) for key in DERIVED_EXTRA if key in extra]
+    if removed and "extra" in data and not data["extra"]:
+        del data["extra"]
     if "extra" in data and not data["extra"] and "extra" not in before:
         del data["extra"]
     return data
@@ -271,11 +291,11 @@ def main() -> int:
     if any(a in ("-h", "--help") for a in sys.argv[1:]):
         print(__doc__.strip())
         return 0
-    unknown = [a for a in sys.argv[1:] if a.startswith("-") and a != "--check"]
+    unknown = [a for a in sys.argv[1:] if a.startswith("-") and a not in ("--check", "--fix")]
     if unknown:
         print(f"normalize-front-matter: unknown option {unknown[0]}; see --help", file=sys.stderr)
         return 2
-    args = [a for a in sys.argv[1:] if a != "--check"]
+    args = [a for a in sys.argv[1:] if a not in ("--check", "--fix")]
     check = "--check" in sys.argv[1:]
     paths = []
     for arg in args:

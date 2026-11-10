@@ -83,8 +83,8 @@ nic, co se odvozuje nebo co nic nečte: `extra.word_count`, `extra.reading_time`
 a `extra.parent` (hierarchii dává strom adresářů) vynucuje `normalize-front-matter --check`,
 které je odmítne, a `--fix` je odstraní.
 
-Schéma hlavičky je jediný strojově čitelný zdroj: `SCHEMA` ve
-`scripts/normalize-front-matter.py` má pro každý klíč řádek s oddílem (`top`, `taxonomies`,
+Schéma hlavičky je jediný strojově čitelný zdroj: `data/front-matter.toml` (čte ho
+`scripts/normalize-front-matter.py` i další nástroje) má pro každý klíč řádek s oddílem (`top`, `taxonomies`,
 `extra`), třídami stránek (odvozenými z cesty, `ia_model.PAGE_CLASSES`), povahou (autorský,
 odvozený s generátorem, zakázaný), typem a povolenými hodnotami tam, kde jsou řízené.
 `normalize-front-matter --check` odmítne zakázaný klíč i hodnotu mimo povolené; klíč nebo třídu
@@ -133,7 +133,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `api_type` | glossary | autorský | str |  |
 | extra | `api_version` | glossary | autorský | str |  |
 | extra | `architecture_layer` | glossary | autorský | str |  |
-| extra | `audience` | section, glossary | autorský | list|str |  |
+| extra | `audience` | section, glossary | autorský | list, str |  |
 | extra | `audit_capabilities` | glossary | autorský | list |  |
 | extra | `audit_requirement` | glossary | autorský | str |  |
 | extra | `audit_trail_complete` | glossary | autorský | bool |  |
@@ -150,7 +150,10 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `blocking_methods` | glossary | autorský | list |  |
 | extra | `bypass_mechanisms` | glossary | autorský | str |  |
 | extra | `call_sign` | glossary | autorský | str |  |
+| extra | `canonical` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/catalogs.py`) | str |  |
 | extra | `cascade_phases` | glossary | autorský | int |  |
+| extra | `catalog` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/catalogs.py`) | str |  |
+| extra | `catalog_*` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/catalogs.py`) | str, int, bool, list, table |  |
 | extra | `categories` | nlp-index | odvozený (`scripts/nlp-catalog.py`) | list |  |
 | extra | `categories` | page, section | autorský | list |  |
 | extra | `categories_count` | section | autorský | int |  |
@@ -160,7 +163,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `clearance` | glossary | autorský | str |  |
 | extra | `closure_conditions` | glossary | autorský | int |  |
 | extra | `closure_model` | glossary | autorský | str |  |
-| extra | `code_examples` | glossary | autorský | bool|list|str |  |
+| extra | `code_examples` | glossary | autorský | bool, list, str |  |
 | extra | `color` | page | autorský | str |  |
 | extra | `color_team_integration` | glossary | autorský | bool |  |
 | extra | `commander` | glossary | autorský | str |  |
@@ -173,7 +176,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `compliance_relevance` | glossary | autorský | list |  |
 | extra | `compliance_relevant` | glossary | autorský | bool |  |
 | extra | `confidence_scoring` | glossary | autorský | bool |  |
-| extra | `confidence_threshold` | glossary | autorský | float|str |  |
+| extra | `confidence_threshold` | glossary | autorský | float, str |  |
 | extra | `content_type` | section | autorský | list |  |
 | extra | `content_version` | page, section | autorský | str |  |
 | extra | `coordination_model` | glossary | autorský | str |  |
@@ -194,7 +197,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `detection_techniques` | glossary | autorský | list |  |
 | extra | `dialyzer_violations` | glossary | autorský | str |  |
 | extra | `difficulty` | page, section, glossary | autorský | str |  |
-| extra | `difficulty_rating` | glossary | autorský | int|str |  |
+| extra | `difficulty_rating` | glossary | autorský | int, str |  |
 | extra | `discovery_patterns` | glossary | autorský | list |  |
 | extra | `doctrine` | glossary | autorský | str |  |
 | extra | `documentation_quality` | glossary | autorský | str |  |
@@ -269,7 +272,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `layer` | glossary | autorský | str |  |
 | extra | `lead` | section | autorský | str |  |
 | extra | `learning_outcomes` | glossary | autorský | list |  |
-| extra | `learning_path` | glossary | autorský | list|str |  |
+| extra | `learning_path` | glossary | autorský | list, str |  |
 | extra | `level` | page | autorský | str |  |
 | extra | `license_framework` | page, section | autorský | str |  |
 | extra | `matching_algorithms` | glossary | autorský | list |  |
@@ -283,7 +286,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `monitoring` | glossary | autorský | list |  |
 | extra | `nabla_compliance` | glossary | autorský | str |  |
 | extra | `nabla_compliant` | glossary | autorský | bool |  |
-| extra | `nlp_*` | nlp, nlp-index | odvozený (`scripts/nlp-catalog.py`) | str|int|bool|list|table |  |
+| extra | `nlp_*` | nlp, nlp-index | odvozený (`scripts/nlp-catalog.py`) | str, int, bool, list, table |  |
 | extra | `notation` | section | autorský | str |  |
 | extra | `og_type` | page, section | autorský | str |  |
 | extra | `origin` | glossary | autorský | str |  |
@@ -323,12 +326,12 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `process_model` | glossary | autorský | str |  |
 | extra | `programming_languages` | glossary | autorský | list |  |
 | extra | `qdp_eliminated` | glossary | autorský | str |  |
-| extra | `quality_domains` | glossary | autorský | int|str |  |
+| extra | `quality_domains` | glossary | autorský | int, str |  |
 | extra | `quality_domains_clean` | glossary | autorský | str |  |
 | extra | `quality_gates` | glossary | autorský | list |  |
 | extra | `quality_impact` | glossary | autorský | str |  |
 | extra | `quality_metrics` | glossary | autorský | list |  |
-| extra | `quality_score` | page, section, glossary, technique | zakázaný | int|str |  |
+| extra | `quality_score` | page, section, glossary, technique | zakázaný | int, str |  |
 | extra | `query_language` | glossary | autorský | str |  |
 | extra | `reading_time` | page, section, glossary | zakázaný | str |  |
 | extra | `real_time_classification` | glossary | autorský | bool |  |
@@ -350,7 +353,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `risk_level` | nlp | odvozený (`scripts/nlp-catalog.py`) | str | `low`, `moderate`, `high` |
 | extra | `risk_level` | page, technique, quick-reference | autorský | str | `low-moderate`, `moderate`, `moderate-high`, `high`, `critical`, `extreme`, `ultramarine` |
 | extra | `runtime_agents` | glossary | autorský | str |  |
-| extra | `safety_critical_agents` | glossary | autorský | int|list |  |
+| extra | `safety_critical_agents` | glossary | autorský | int, list |  |
 | extra | `safety_level` | glossary | autorský | str |  |
 | extra | `scalability` | glossary | autorský | str |  |
 | extra | `scan_engine` | glossary | autorský | str |  |
@@ -403,7 +406,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `toc` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/nlp-catalog.py`) | bool |  |
 | extra | `toc` | page, section, technique, quick-reference | autorský | bool |  |
 | extra | `tools` | glossary | autorský | list |  |
-| extra | `total_agents` | glossary | autorský | int|str |  |
+| extra | `total_agents` | glossary | autorský | int, str |  |
 | extra | `total_eliminated` | glossary | autorský | int |  |
 | extra | `total_improvements` | glossary | autorský | int |  |
 | extra | `total_qdp` | glossary | autorský | int |  |

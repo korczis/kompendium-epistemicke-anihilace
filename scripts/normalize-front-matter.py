@@ -36,13 +36,14 @@ Usage:
                                                  or carries a wrong controlled value
   scripts/normalize-front-matter.py --list unknown-keys
                                                  keys (or page classes) the schema has no row
-                                                 for: report only; add a row to SCHEMA
+                                                 for: report only; add a row to
+                                                 data/front-matter.toml
   scripts/normalize-front-matter.py --doc        print the schema as a Markdown table
   scripts/normalize-front-matter.py --doc --check / --doc --fix
                                                  fail when the copy in the rule
                                                  information-architecture.v1.md is stale / write it
 
-Every key is a row of SCHEMA below (where it lives, page classes, authored / derived /
+Every key is a row of data/front-matter.toml (where it lives, page classes, authored / derived /
 forbidden, type, controlled values): --check refuses forbidden keys and wrong controlled values
 (any mode exits 1 on a wrong value: only a person can choose the right one).
 """
@@ -197,377 +198,43 @@ def set_scalar(lines: list, key: str, value: str) -> bool:
 
 
 # ---------------------------------------------------------------------------------------------
-# The front-matter schema: one row per key the book's pages carry. It is the single source for
-# what --check enforces (forbidden keys, controlled values), for `--list unknown-keys` (a key or
-# a page class with no row: report only, so a new key is added by adding a row) and for the
-# table `--doc` prints into .ai/repo/rules/project/information-architecture.v1.md.
-#
-#   where    top (Zola's own keys), taxonomies or extra
-#   key      the key; a trailing * is a prefix pattern (one row for a generator's family)
-#   type     the TOML types seen, "|"-separated (str, int, float, bool, list, table, date)
-#   classes  the page classes it belongs to (ia_model.PAGE_CLASSES, inferred from the path),
-#            space-separated; * is every class. A row naming the class wins over a * row.
-#   kind     authored (written by hand), derived (written by the script in `derived`; edit
-#            the generator, not the page) or forbidden (duplicates derived data or nothing reads
-#            it: --check refuses it, --fix removes it); `inferred` names a script that writes
-#            the value when the page has none
-#   values / pattern   the controlled values; any other value is refused by --check
-#
-# Seeded 2026-11-10 from a census of every key in content/ (each one present got a row); the
-# kompendium/nlp-vzorce rows describe what scripts/nlp-catalog.py writes there.
-
-# extra.risk_level: the codes templates/partials/technique-hero.html renders.
-RISK_LEVELS = ("low-moderate", "moderate", "moderate-high", "high", "critical", "extreme",
-               "ultramarine")
-ANCHOR_LINKS = ("left", "right", "heading", "none")  # Zola's insert_anchor_links
-SORT_BY = ("date", "update_date", "title", "title_bytes", "weight", "slug", "none")  # Zola
-NLP_PREFIX = "nlp_"  # the NLP catalogue's own extra keys (a rename is this one line)
-NLP_GENERATOR = "scripts/nlp-catalog.py"
+# The front-matter schema lives in data/front-matter.toml (its header documents the fields): one
+# row per key the book's pages carry. It is the single source for what --check enforces
+# (forbidden keys, controlled values), for `--list unknown-keys` (a key or page class with no
+# row: report only, so a new key is added by adding a row) and for the table `--doc` prints into
+# .ai/repo/rules/project/information-architecture.v1.md.
+SCHEMA_FILE = ROOT / "data" / "front-matter.toml"
+ROW_FIELDS = {"where", "key", "type", "classes", "kind", "derived", "inferred", "values",
+              "pattern"}
 
 
-def row(where, key, type_, classes, forbidden=False, derived=None, inferred=None, values=None,
-        pattern=None) -> dict:
-    kind = "forbidden" if forbidden else "derived" if derived else "authored"
-    return {"where": where, "key": key, "type": type_, "classes": classes.split(), "kind": kind,
-            "derived": derived, "inferred": inferred, "values": values, "pattern": pattern}
+def load_schema(path: pathlib.Path = SCHEMA_FILE) -> list:
+    data = tomllib.loads(path.read_text(encoding="utf-8"))
+    sets = data.get("values", {})
+    rows = []
+    for i, raw in enumerate(data.get("keys", [])):
+        stray = set(raw) - ROW_FIELDS
+        missing = {"where", "key", "type", "classes"} - set(raw)
+        if stray or missing or raw["where"] not in ("top", "taxonomies", "extra"):
+            raise SystemExit(f"normalize-front-matter: {path.relative_to(ROOT)} row {i + 1} "
+                             f"({raw.get('key')}): bad fields {sorted(stray | missing)}")
+        values = raw.get("values")
+        if isinstance(values, str):
+            if values not in sets:
+                raise SystemExit(f"normalize-front-matter: row {raw['key']}: no value set {values}")
+            values = sets[values]
+        kind = raw.get("kind") or ("derived" if raw.get("derived") else "authored")
+        if kind not in ("authored", "derived", "forbidden"):
+            raise SystemExit(f"normalize-front-matter: row {raw['key']}: unknown kind {kind}")
+        rows.append({"where": raw["where"], "key": raw["key"], "type": raw["type"],
+                     "classes": raw["classes"].split(), "kind": kind,
+                     "derived": raw.get("derived"), "inferred": raw.get("inferred"),
+                     "values": tuple(values) if values is not None else None,
+                     "pattern": raw.get("pattern")})
+    return rows
 
 
-def nlp(where, key, type_, classes, **opts) -> dict:
-    return row(where, key, type_, classes, derived=NLP_GENERATOR, **opts)
-
-
-SCHEMA = [
-    row("top", "description", "str", "*"),
-    row("top", "title", "str", "*"),
-    row("top", "weight", "int", "*"),
-    row("top", "insert_anchor_links", "str", "page section technique", values=ANCHOR_LINKS),
-    row("top", "draft", "bool", "page section"),
-    row("top", "date", "date", "page glossary"),
-    row("top", "sort_by", "str", "page section", values=SORT_BY),
-    row("top", "template", "str", "page section"),
-    row("top", "aliases", "list", "page technique", derived="scripts/merge-duplicate.py"),
-    row("top", "page_template", "str", "section"),
-    row("top", "generate_feeds", "bool", "section"),
-    row("taxonomies", "tags", "list", "page glossary technique quick-reference",
-        inferred="scripts/normalize-front-matter.py"),
-    row("taxonomies", "categories", "list", "page technique quick-reference"),
-    row("extra", "related_terms", "list", "page glossary technique quick-reference"),
-    row("extra", "toc", "bool", "page section technique quick-reference"),
-    row("extra", "parent", "str", "page section technique quick-reference", forbidden=True),
-    row("extra", "section_icon", "str", "page section technique"),
-    row("extra", "access_level", "str", "page section technique quick-reference",
-        pattern=r"^L[1-5](?:-L[1-5])?$"),
-    row("extra", "ea_code", "str", "page technique quick-reference"),
-    row("extra", "risk_level", "str", "page technique quick-reference", values=RISK_LEVELS),
-    row("extra", "ea_category", "str", "technique"),
-    row("extra", "parent_chapter", "str", "technique"),
-    row("extra", "ea_subcategory", "str", "technique"),
-    row("extra", "category", "str", "page section glossary technique"),
-    row("extra", "author", "str", "page section glossary technique"),
-    row("extra", "quality_score", "int|str", "page section glossary technique", forbidden=True),
-    row("extra", "date_created", "str", "page section glossary technique"),
-    row("extra", "date_modified", "str", "page section glossary technique"),
-    row("extra", "keywords", "list", "page section glossary"),
-    row("extra", "image", "str", "page section glossary"),
-    row("extra", "image_alt", "str", "page section glossary"),
-    row("extra", "reading_time", "str", "page section glossary", forbidden=True),
-    row("extra", "see_also", "list", "page section glossary"),
-    row("extra", "ref_count_at_creation", "int", "glossary technique", forbidden=True),
-    row("extra", "glossary_target", "str", "page"),
-    row("extra", "word_count", "int", "page section glossary", forbidden=True),
-    row("extra", "anonymized", "bool", "page"),
-    row("extra", "type", "str", "page"),
-    row("extra", "status", "str", "page section glossary"),
-    row("extra", "tags", "list", "section"),
-    row("extra", "difficulty", "str", "page section glossary"),
-    row("extra", "categories", "list", "page section"),
-    row("extra", "date_updated", "str", "page section glossary"),
-    row("extra", "abbreviation", "str", "glossary"),
-    row("extra", "level", "str", "page"),
-    row("extra", "modality", "str", "page"),
-    row("extra", "phase", "str", "page"),
-    row("extra", "importance", "str", "glossary"),
-    row("extra", "key_takeaway", "str", "glossary"),
-    row("extra", "draft", "bool", "section"),
-    row("extra", "prerequisites", "list", "glossary"),
-    row("extra", "complexity", "str", "glossary"),
-    row("extra", "domain", "str", "glossary"),
-    row("extra", "insert_anchor_links", "str", "page section"),
-    row("extra", "audience", "list|str", "section glossary"),
-    row("extra", "platforms", "list", "glossary"),
-    row("extra", "version", "str", "glossary"),
-    row("extra", "kompendium", "list", "page section"),
-    row("extra", "prilohy", "list", "page section"),
-    row("extra", "use_cases", "list", "glossary"),
-    row("extra", "authority_level", "str", "glossary"),
-    row("extra", "enforcement_level", "str", "glossary"),
-    row("extra", "platform_relevance", "str", "glossary"),
-    row("extra", "related_articles", "list", "page section"),
-    row("extra", "related_concepts", "list", "glossary"),
-    row("extra", "academic_tier", "str", "page section"),
-    row("extra", "code_examples", "bool|list|str", "glossary"),
-    row("extra", "content_version", "str", "page section"),
-    row("extra", "glossary_terms", "list", "page section"),
-    row("extra", "last_enhanced", "str", "page section"),
-    row("extra", "learning_path", "list|str", "glossary"),
-    row("extra", "maturity", "str", "glossary"),
-    row("extra", "og_type", "str", "page section"),
-    row("extra", "platform_integration", "str", "glossary"),
-    row("extra", "related_apps", "list", "glossary"),
-    row("extra", "stub", "bool", "section"),
-    row("extra", "twitter_card", "str", "page section"),
-    row("extra", "acronym", "str", "glossary"),
-    row("extra", "citation_style", "str", "page section"),
-    row("extra", "difficulty_rating", "int|str", "glossary"),
-    row("extra", "doi_placeholder", "str", "page section"),
-    row("extra", "domain_category", "str", "glossary"),
-    row("extra", "external_resources", "list", "glossary"),
-    row("extra", "implementation_status", "str", "glossary"),
-    row("extra", "interactive_demos", "list", "glossary"),
-    row("extra", "peer_reviewed", "bool", "page section"),
-    row("extra", "philosophy_level", "str", "page section"),
-    row("extra", "stability_level", "str", "glossary"),
-    row("extra", "technical_level", "str", "glossary"),
-    row("extra", "testing_scenarios", "list", "glossary"),
-    row("extra", "version_introduced", "str", "glossary"),
-    row("extra", "color", "str", "page"),
-    row("extra", "documentation_required", "bool", "glossary"),
-    row("extra", "ea_codes", "list", "page"),
-    row("extra", "icon", "str", "page"),
-    row("extra", "key_benefits", "list", "glossary"),
-    row("extra", "last_updated", "str", "glossary"),
-    row("extra", "layer", "str", "glossary"),
-    row("extra", "license_framework", "str", "page section"),
-    row("extra", "paradigm", "str", "glossary"),
-    row("extra", "prismatic_usage", "str", "glossary"),
-    row("extra", "quality_impact", "str", "glossary"),
-    row("extra", "related_app", "str", "glossary"),
-    row("extra", "safety_level", "str", "glossary"),
-    row("extra", "sovereignty_model", "str", "page section"),
-    row("extra", "tier", "str", "glossary"),
-    row("extra", "academic_paper", "bool", "section"),
-    row("extra", "acronyms", "list", "glossary"),
-    row("extra", "agent_count", "int", "glossary"),
-    row("extra", "beam_related", "bool", "glossary"),
-    row("extra", "complexity_level", "str", "glossary"),
-    row("extra", "confidence_threshold", "float|str", "glossary"),
-    row("extra", "content_type", "list", "section"),
-    row("extra", "date", "str", "section"),
-    row("extra", "founded", "str", "glossary"),
-    row("extra", "landing_page", "bool", "section"),
-    row("extra", "language", "str", "section"),
-    row("extra", "platform_adoption", "str", "glossary"),
-    row("extra", "prismatic_module", "str", "glossary"),
-    row("extra", "quality_domains", "int|str", "glossary"),
-    row("extra", "related_patterns", "list", "glossary"),
-    row("extra", "safety_critical_agents", "int|list", "glossary"),
-    row("extra", "scope", "str", "glossary"),
-    row("extra", "section_type", "str", "section"),
-    row("extra", "signal_flow", "str", "glossary"),
-    row("extra", "stability", "str", "glossary"),
-    row("extra", "standards", "list", "glossary"),
-    row("extra", "subcategory", "str", "glossary"),
-    row("extra", "testing_strategy", "str", "glossary"),
-    row("extra", "tier_levels", "list", "glossary"),
-    row("extra", "tools", "list", "glossary"),
-    row("extra", "total_agents", "int|str", "glossary"),
-    row("extra", "activation_channels", "list", "glossary"),
-    row("extra", "activation_commands", "list", "glossary"),
-    row("extra", "agent_classifications", "list", "glossary"),
-    row("extra", "agent_tiers", "list", "glossary"),
-    row("extra", "agents_governed", "str", "glossary"),
-    row("extra", "anti_metric_enforcement", "bool", "glossary"),
-    row("extra", "api_type", "str", "glossary"),
-    row("extra", "api_version", "str", "glossary"),
-    row("extra", "architecture_layer", "str", "glossary"),
-    row("extra", "audit_capabilities", "list", "glossary"),
-    row("extra", "audit_requirement", "str", "glossary"),
-    row("extra", "audit_trail_complete", "bool", "glossary"),
-    row("extra", "authentication", "str", "glossary"),
-    row("extra", "authors", "list", "glossary"),
-    row("extra", "axiom_number", "int", "glossary"),
-    row("extra", "beam_specific", "bool", "glossary"),
-    row("extra", "behavioral_analysis", "bool", "glossary"),
-    row("extra", "benefits", "list", "glossary"),
-    row("extra", "best_practices", "str", "glossary"),
-    row("extra", "blocking_methods", "list", "glossary"),
-    row("extra", "bypass_mechanisms", "str", "glossary"),
-    row("extra", "call_sign", "str", "glossary"),
-    row("extra", "cascade_phases", "int", "glossary"),
-    row("extra", "categories_count", "int", "section"),
-    row("extra", "category_color", "str", "glossary"),
-    row("extra", "clearance", "str", "glossary"),
-    row("extra", "closure_conditions", "int", "glossary"),
-    row("extra", "closure_model", "str", "glossary"),
-    row("extra", "color_team_integration", "bool", "glossary"),
-    row("extra", "commander", "str", "glossary"),
-    row("extra", "communication_patterns", "list", "glossary"),
-    row("extra", "compiler_warnings", "str", "glossary"),
-    row("extra", "compliance", "str", "glossary"),
-    row("extra", "compliance_frameworks", "list", "glossary"),
-    row("extra", "compliance_relevance", "list", "glossary"),
-    row("extra", "compliance_relevant", "bool", "glossary"),
-    row("extra", "confidence_scoring", "bool", "glossary"),
-    row("extra", "coordination_model", "str", "glossary"),
-    row("extra", "creator", "str", "glossary"),
-    row("extra", "credo_violations", "str", "glossary"),
-    row("extra", "current_count", "str", "glossary"),
-    row("extra", "current_fitness", "float", "glossary"),
-    row("extra", "current_generation", "int", "glossary"),
-    row("extra", "current_status", "str", "glossary"),
-    row("extra", "data_freshness", "str", "glossary"),
-    row("extra", "data_model", "str", "glossary"),
-    row("extra", "design_principles", "list", "glossary"),
-    row("extra", "detection_strategy", "str", "glossary"),
-    row("extra", "detection_techniques", "list", "glossary"),
-    row("extra", "dialyzer_violations", "str", "glossary"),
-    row("extra", "discovery_patterns", "list", "glossary"),
-    row("extra", "doctrine", "str", "glossary"),
-    row("extra", "documentation_quality", "str", "glossary"),
-    row("extra", "domains", "str", "glossary"),
-    row("extra", "domains_covered", "int", "glossary"),
-    row("extra", "elimination_status", "str", "glossary"),
-    row("extra", "elixir_libraries", "list", "glossary"),
-    row("extra", "elixir_module", "str", "glossary"),
-    row("extra", "elixir_modules", "list", "glossary"),
-    row("extra", "enforcement_layers", "int", "glossary"),
-    row("extra", "entries", "int", "page"),
-    row("extra", "epistemic_framework", "str", "page"),
-    row("extra", "escalation_target", "str", "glossary"),
-    row("extra", "estimated_reading_time", "str", "glossary"),
-    row("extra", "ethics_check_interval", "str", "glossary"),
-    row("extra", "evolution_support", "str", "glossary"),
-    row("extra", "false_negative_impact", "str", "glossary"),
-    row("extra", "false_positive_impact", "str", "glossary"),
-    row("extra", "false_positive_threshold", "str", "glossary"),
-    row("extra", "fingerprinting_layers", "int", "glossary"),
-    row("extra", "first_introduced", "str", "glossary"),
-    row("extra", "framework", "str", "glossary"),
-    row("extra", "gdpr_compliant", "bool", "glossary"),
-    row("extra", "generation", "int", "glossary"),
-    row("extra", "governance_model", "str", "glossary"),
-    row("extra", "historical_peak", "str", "glossary"),
-    row("extra", "implementation_guide", "str", "glossary"),
-    row("extra", "implementation_patterns", "list", "glossary"),
-    row("extra", "independence_requirement", "str", "glossary"),
-    row("extra", "index_command", "str", "glossary"),
-    row("extra", "industry_comparison", "str", "glossary"),
-    row("extra", "industry_usage", "str", "glossary"),
-    row("extra", "integration_pattern", "str", "glossary"),
-    row("extra", "integration_points", "list", "glossary"),
-    row("extra", "integration_systems", "list", "glossary"),
-    row("extra", "interactive", "str", "glossary"),
-    row("extra", "isolation_level", "str", "glossary"),
-    row("extra", "key_agents", "list", "glossary"),
-    row("extra", "key_benefit", "str", "glossary"),
-    row("extra", "key_technologies", "list", "glossary"),
-    row("extra", "lead", "str", "section"),
-    row("extra", "learning_outcomes", "list", "glossary"),
-    row("extra", "matching_algorithms", "list", "glossary"),
-    row("extra", "matching_strategies", "list", "glossary"),
-    row("extra", "measurement_approach", "str", "glossary"),
-    row("extra", "measurement_precision", "str", "glossary"),
-    row("extra", "minimum_signals", "int", "glossary"),
-    row("extra", "mission_types", "list", "glossary"),
-    row("extra", "monitoring", "list", "glossary"),
-    row("extra", "nabla_compliance", "str", "glossary"),
-    row("extra", "nabla_compliant", "bool", "glossary"),
-    row("extra", "notation", "str", "section"),
-    row("extra", "origin", "str", "glossary"),
-    row("extra", "osint_enrichment", "bool", "glossary"),
-    row("extra", "osint_relevant", "bool", "glossary"),
-    row("extra", "otp_behaviour", "bool", "glossary"),
-    row("extra", "override_authority", "str", "glossary"),
-    row("extra", "override_capability", "str", "glossary"),
-    row("extra", "pattern_type", "str", "glossary"),
-    row("extra", "performance_critical", "bool", "glossary"),
-    row("extra", "phoenix_component", "bool", "glossary"),
-    row("extra", "phoenix_integration", "str", "glossary"),
-    row("extra", "pipeline_model", "str", "glossary"),
-    row("extra", "platform_component", "str", "glossary"),
-    row("extra", "platform_version", "str", "glossary"),
-    row("extra", "pre_commit_phases", "str", "glossary"),
-    row("extra", "prerequisite_concepts", "list", "glossary"),
-    row("extra", "prerequisite_knowledge", "list", "glossary"),
-    row("extra", "prevention_mechanism", "str", "glossary"),
-    row("extra", "prismatic_components", "list", "glossary"),
-    row("extra", "prismatic_modules", "list", "glossary"),
-    row("extra", "privacy_by_design", "bool", "glossary"),
-    row("extra", "process_model", "str", "glossary"),
-    row("extra", "programming_languages", "list", "glossary"),
-    row("extra", "qdp_eliminated", "str", "glossary"),
-    row("extra", "quality_domains_clean", "str", "glossary"),
-    row("extra", "quality_gates", "list", "glossary"),
-    row("extra", "quality_metrics", "list", "glossary"),
-    row("extra", "query_language", "str", "glossary"),
-    row("extra", "real_time_classification", "bool", "glossary"),
-    row("extra", "refresh_rate", "str", "glossary"),
-    row("extra", "registry_file", "str", "glossary"),
-    row("extra", "related_architectures", "list", "glossary"),
-    row("extra", "related_disciplines", "list", "glossary"),
-    row("extra", "remediation_approach", "str", "glossary"),
-    row("extra", "requires_knowledge", "list", "glossary"),
-    row("extra", "response_time", "str", "glossary"),
-    row("extra", "risk_categories", "list", "glossary"),
-    row("extra", "runtime_agents", "str", "glossary"),
-    row("extra", "scalability", "str", "glossary"),
-    row("extra", "scan_engine", "str", "glossary"),
-    row("extra", "scanning_modes", "list", "glossary"),
-    row("extra", "screening_threshold", "float", "glossary"),
-    row("extra", "section", "str", "section"),
-    row("extra", "section_id", "str", "section"),
-    row("extra", "security_domain", "str", "glossary"),
-    row("extra", "security_relevant", "bool", "glossary"),
-    row("extra", "session_protocol", "str", "glossary"),
-    row("extra", "signal_plurality_enforced", "bool", "glossary"),
-    row("extra", "similarity_metrics", "list", "glossary"),
-    row("extra", "since_generation", "int", "glossary"),
-    row("extra", "specification_directory", "str", "glossary"),
-    row("extra", "specification_format", "str", "glossary"),
-    row("extra", "static_agents", "str", "glossary"),
-    row("extra", "supported_lists", "list", "glossary"),
-    row("extra", "teams_coordinated", "list", "glossary"),
-    row("extra", "technical_domain", "str", "glossary"),
-    row("extra", "techniques_published", "int", "section"),
-    row("extra", "technologies", "list", "glossary"),
-    row("extra", "technology_type", "str", "glossary"),
-    row("extra", "telemetry_enabled", "bool", "glossary"),
-    row("extra", "telemetry_namespace", "str", "glossary"),
-    row("extra", "testing_approach", "list", "glossary"),
-    row("extra", "threat_actor_attribution", "bool", "glossary"),
-    row("extra", "time_to_learn", "str", "glossary"),
-    row("extra", "total_eliminated", "int", "glossary"),
-    row("extra", "total_improvements", "int", "glossary"),
-    row("extra", "total_qdp", "int", "glossary"),
-    row("extra", "total_teams", "int", "glossary"),
-    row("extra", "total_techniques_planned", "int", "section"),
-    row("extra", "total_terms", "int", "section"),
-    row("extra", "transition_mechanism", "str", "glossary"),
-    row("extra", "umbrella_apps", "list", "glossary"),
-    row("extra", "verification_model", "str", "page"),
-    row("extra", "violation_levels", "list", "glossary"),
-    row("extra", "violation_response", "str", "glossary"),
-    row("extra", "weighting_model", "str", "glossary"),
-    # kompendium/nlp-vzorce: every key but description is written by the NLP generator.
-    nlp("top", "title", "str", "nlp nlp-index nlp-trainer"),
-    nlp("top", "weight", "int", "nlp nlp-index nlp-trainer"),
-    nlp("top", "insert_anchor_links", "str", "nlp nlp-index", values=ANCHOR_LINKS),
-    nlp("top", "sort_by", "str", "nlp-index", values=SORT_BY),
-    nlp("top", "template", "str", "nlp-index nlp-trainer"),
-    nlp("top", "page_template", "str", "nlp-index"),
-    nlp("taxonomies", "tags", "list", "nlp nlp-trainer"),
-    nlp("taxonomies", "categories", "list", "nlp nlp-trainer"),
-    nlp("extra", "tags", "list", "nlp-index"),
-    nlp("extra", "categories", "list", "nlp-index"),
-    nlp("extra", "toc", "bool", "nlp nlp-index nlp-trainer"),
-    nlp("extra", "risk_level", "str", "nlp", values=("low", "moderate", "high")),
-    nlp("extra", "lang", "str", "nlp nlp-index"),
-    nlp("extra", "keywords", "list", "nlp nlp-index"),
-    nlp("extra", "schema_type", "str", "nlp", values=("DefinedTerm",)),
-    nlp("extra", "schema_type", "str", "nlp-index", values=("DefinedTermSet",)),
-    nlp("extra", "section_icon", "str", "nlp-index"),
-    nlp("extra", NLP_PREFIX + "*", "str|int|bool|list|table", "nlp nlp-index"),
-]
+SCHEMA = load_schema()
 FORBIDDEN_EXTRA = tuple(r["key"] for r in SCHEMA
                         if r["kind"] == "forbidden" and r["where"] == "extra")
 WHERE_ORDER = {"top": 0, "taxonomies": 1, "extra": 2}
@@ -622,8 +289,10 @@ def schema_doc() -> str:
             kind += f", chybí-li, doplní `{r['inferred']}`"
         allowed = ", ".join(f"`{v}`" for v in r["values"]) if r["values"] else (
             f"`{r['pattern']}`" if r["pattern"] else "")
+        allowed = allowed.replace("|", "\\|")
         classes = "všechny" if r["classes"] == ["*"] else ", ".join(r["classes"])
-        lines.append(f"| {r['where']} | `{r['key']}` | {classes} | {kind} | {r['type']} | "
+        types = ", ".join(r["type"].split("|"))  # a | would split the Markdown cell
+        lines.append(f"| {r['where']} | `{r['key']}` | {classes} | {kind} | {types} | "
                      f"{allowed} |")
     return "\n".join(lines) + "\n"
 

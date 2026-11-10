@@ -80,7 +80,7 @@ python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm 
 python3 scripts/normalize-front-matter.py content/kompendium/case-01-fm >/dev/null
 cmp -s content/kompendium/case-01-fm/derived.md "$work/derived.once"
 
-# The schema (SCHEMA in normalize-front-matter.py): a wrong controlled value is refused in
+# The schema (data/front-matter.toml): a wrong controlled value is refused in
 # either mode; a key with no schema row is listed, not refused; the rule's table is generated.
 sed 's/^category = "metodologie"$/category = "metodologie"\nrisk_level = "obrovské"/' \
   content/kompendium/case-01-fm/derived.md > content/kompendium/case-01-fm/value.md
@@ -97,6 +97,13 @@ python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm/
 python3 scripts/normalize-front-matter.py --list unknown-keys content/kompendium/case-01-fm > "$work/unknown"
 grep -qx "content/kompendium/case-01-fm/unknown.md	extra.fixture_key	page" "$work/unknown"
 [ "$(wc -l < "$work/unknown")" -eq 1 ] || { echo "unexpected unknown keys"; cat "$work/unknown"; exit 1; }
+# Data driven: a row added to data/front-matter.toml makes the key known.
+cp data/front-matter.toml "$work/schema.orig"
+sed -i.bak 's/^keys = \[$/keys = [\n  { where = "extra", key = "fixture_key", type = "int", classes = "page" },/' \
+  data/front-matter.toml && rm -f data/front-matter.toml.bak
+python3 scripts/normalize-front-matter.py --list unknown-keys content/kompendium/case-01-fm > "$work/unknown"
+[ ! -s "$work/unknown" ] || { echo "a schema row did not make the key known"; cat "$work/unknown"; exit 1; }
+cp "$work/schema.orig" data/front-matter.toml
 rm -r content/kompendium/case-01-fm
 python3 scripts/normalize-front-matter.py --doc --check >/dev/null
 rule=.ai/repo/rules/project/information-architecture.v1.md

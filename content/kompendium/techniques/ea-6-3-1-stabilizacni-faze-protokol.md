@@ -66,23 +66,21 @@ Každý krok je dokumentován v klinickém záznamu s časovými razítky, klí�
 
 ## Trvání a frekvence
 
-**Typická délka:** Variabilní 4-16 týdnů; mediánová délka 8-12 týdnů.
-
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
+Kompendium pro tuto fázi neuvádí normu délky ani počtu sezení. Herman (1992) popisuje zotavení jako sled fází, které se opakovaně vracejí a prolínají; tempo se odvozuje od obnovené kapacity člověka, nikoli z rozvrhu. Údaje o délce a frekvenci patří do manuálu použité modality a do supervizního záznamu konkrétního případu.
 
 ## Hodnotící kritéria
 
 Klinická efektivita techniky je posuzována podle následujících outcome metrik:
 
-Snížená klinická symptomatologie (PCL-5 < 50), zvýšená self-efficacy, stabilní spánek, terapeutická aliance (WAI > 5).
+Snížená klinická symptomatologie, zvýšená self-efficacy, stabilní spánek, nosná terapeutická aliance.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významná změna je definována jako Cohenovo d ≥ 0.5 nebo redukce primárního skóru o ≥ 30%.
+Kvantifikace patří manuálu použitého nástroje a supervizi, nikoli této knize. Jediným publikovaným kritériem, které kompendium uvádí, je index spolehlivé změny (RCI > 1.96) a postterapeutický skór v rozmezí 1 SD normy netraumatizované populace (Jacobson a Truax, 1991).
 
 ## Adaptace pro specifické EA kategorie
 
 Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně, ke které je aplikována:
 
-[EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) post-cult: prodloužená stabilizace 12-24 týdnů. EA-6.5 krizové: rapid stabilization v ER kontextu. [EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) DV: prioritní safety planning.
+[EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) post-cult: prodloužená stabilizační fáze. EA-6.5 krizové: rapid stabilization v ER kontextu. [EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) DV: prioritní safety planning.
 
 Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
 
@@ -100,8 +98,6 @@ Technika **EA-6.3.1** se historicky vyvinula z konvergence několika klinických
 
 **Klinické zacílení**: fázový rekonstrukční rámec pro post-EA-trauma populaci s důrazem na bezpečí, externalizaci, integraci a konsolidaci nového epistemicko-afektivního architektury klienta. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající ICD-11 6B41 Complex PTSD (primární), F62.0 (trvalá změna osobnosti), Z73.3, Z71.9 jako sekundární doprovodné kódy. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
@@ -110,47 +106,50 @@ Technika **EA-6.3.1** se historicky vyvinula z konvergence několika klinických
 
 Aplikace techniky **EA-6.3.1** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
 **Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT trénink dovedností) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-## Outcome měření
 
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
+## Kdy je rámec legitimní
 
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
+Stabilizační práce je péčí tehdy, když jejím cílem je vlastní kapacita člověka, a ne jeho vstřícnost vůči programu. Herman (1992) klade obnovení bezpečí a opory na začátek zotavení právě proto, že teprve v bezpečí lze rozlišit souhlas od přizpůsobení; dokud člověk nemá kam odejít, nelze jeho spolupráci číst jako volbu.
 
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+Druhým znakem je odvolatelnost. Souhlas se stabilizační prací je proces, který se obnovuje, a jeho odvolání nesmí mít cenu v podobě ztráty péče, bydlení nebo kontaktu s blízkými. Že i dobře míněná intervence může poškodit a že se to pozná jen průběžným sledováním, shrnul Lilienfeld (2007).
 
-**Sekundární outcome**:
+Třetím znakem je zápis, do něhož smí dotčený člověk nahlédnout: co se pozorovalo, co bylo sporné a za jakých podmínek se mělo zastavit. Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
+Čtvrtým znakem je, že se stabilizace nestává cílem sama pro sebe. Herman (1992) popisuje první fázi jako přípravu na další práci; tam, kde se příprava nikdy neuzavře, ztrácí svůj důvod a dotčený člověk zůstává v péči bez perspektivy.
 
-**Benchmarks pro úspěch intervence**:
+## Odlišení
 
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+Obsahem se stabilizační fáze od běžné podpory neodlišuje — spánek, jídlo, pohyb a stabilní vztahy jsou samy o sobě obyčejné. Odlišuje se tím, že je vedena jako první část léčby traumatu a že rozhodnutí o posunu k práci se vzpomínkami se odvozuje od obnovené kapacity, nikoli od uplynulého času (Herman, 1992).
+
+Od [externalizační fáze](@/kompendium/techniques/ea-6-3-2-externalizacni-faze.md) se odlišuje tím, že se nepracuje s obsahem traumatické zkušenosti ani s vnitřním hlasem pachatele; předmětem je regulace a opora. Dovednosti, o které se stabilizace opírá, pocházejí z tradice, kterou popsala Linehan (1993).
+
+Od zdánlivě podobného tlaku na „zklidnění“ ji odlišuje, komu stabilita slouží: zda člověku, nebo prostředí, které jeho rozrušení vnímá jako problém. Tělesná složka rozrušení, kterou popisuje van der Kolk (2014), přitom domluvou neustupuje.
+
+Rozlišení má praktický důsledek pro pozorovatele: klinická stabilizace po sobě zanechává záznam o tom, co se sledovalo a co se změnilo, a změnu posuzuje podle publikovaného kritéria, nikoli podle dojmu (Jacobson a Truax, 1991).
+
+*Interpretace knihy*: stabilizace, která se nemá kam posunout, přestává být fází a stává se způsobem, jak člověka držet na místě.
+
+## Rizikové kontexty
+
+Nejčastěji je tento rámec zneužit tam, kde totéž prostředí o člověku zároveň pečuje a rozhoduje — zařízení, zaměstnavatel nebo komunita, která sama uložila „práci na sobě“. Herman (1992) popisuje, že v uzavřeném prostředí se potřeba bezpečí snadno obrací do závislosti na tom, kdo prostředí ovládá.
+
+Druhým rizikovým kontextem je neurčitá délka bez supervize. Kde chybí vnější pohled, posouvá se cíl od kapacity člověka k jeho setrvání v péči; dokumentované případy poškození dobře míněnou intervencí mají tento rys společný (Lilienfeld, 2007).
+
+Třetím je prostředí, kde se stabilita měří vstřícností k programu, nikoli tím, co člověk zvládne sám.
+
+Čtvrtým rizikovým kontextem je souběh péče a hodnocení v jedné osobě — klinik, který zároveň podává zprávu zaměstnavateli, soudu nebo skupině. Herman (1992) takový souběh popisuje jako poměr, v němž dotčený člověk nemůže mluvit otevřeně o tom, co se s ním děje.
 
 ## Vztah k jiným technikám
 
@@ -159,6 +158,8 @@ Předchází [EA-6.3.2 externalizační fázi](@/kompendium/techniques/ea-6-3-2-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Jacobson, N. S., & Truax, P. (1991). Clinical significance: a statistical approach to defining meaningful change in psychotherapy research. *Journal of Consulting and Clinical Psychology*.
+- Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*.
 - Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.
 - van der Kolk, B. A. (2014). *The Body Keeps the Score*. Viking.
 

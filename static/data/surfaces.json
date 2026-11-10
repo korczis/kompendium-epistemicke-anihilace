@@ -11,8 +11,8 @@
    "data": [
     "static/data/charts/trauma-bonding-cycle.json",
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -117,8 +117,8 @@
    "data": [
     "static/data/charts/kompendium-distribution.json",
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -193,8 +193,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -394,8 +394,8 @@
    ],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -538,8 +538,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -780,8 +780,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1124,8 +1124,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1308,8 +1308,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1439,8 +1439,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1516,8 +1516,8 @@
    ],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1609,8 +1609,8 @@
    ],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1700,8 +1700,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1777,8 +1777,8 @@
    ],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1900,8 +1900,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -1973,8 +1973,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2046,8 +2046,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2119,8 +2119,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2195,8 +2195,8 @@
    ],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2290,8 +2290,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2363,8 +2363,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2438,8 +2438,8 @@
    ],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2522,8 +2522,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2650,8 +2650,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2723,8 +2723,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2796,8 +2796,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2869,8 +2869,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -2942,8 +2942,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -3015,8 +3015,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -3088,8 +3088,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -3161,8 +3161,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -3241,8 +3241,8 @@
    ],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -3504,8 +3504,8 @@
    "covered_views": [],
    "data": [
     "static/data/graph.json",
-    "static/data/ia.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],
@@ -3587,6 +3587,7 @@
     "static/data/ia.json",
     "static/data/metrics.json",
     "static/data/nav.json",
+    "static/data/pokracovat.json",
     "static/data/terms.json",
     "static/data/viz-deps.json"
    ],

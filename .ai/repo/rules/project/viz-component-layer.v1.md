@@ -7,7 +7,7 @@ description: Grafy, sítě, diagramy, simulace a 3D pohledy webu vznikají jen p
 statement: Stav každou vizualizaci v static/js/ přes komponentovou vrstvu (KompendiumVrstva.p5/three/kniha, KompendiumViz.echarts/cytoscape, K.chart, Mermaid v site.js) nad odvozenými daty knihy, mobile first a responzivně, a ověř to scripts/check-viz-layer.py a npm run verify.
 status: active
 class: blocking
-depends_on: [project.ui-quality-gate@1, project.site-derived-surfaces@2, project.content-defensive-frame@1]
+depends_on: [project.ui-quality-gate@1, project.site-derived-surfaces@3, project.content-defensive-frame@1]
 tags: [ui, visualization, accessibility, responsive]
 ---
 
@@ -39,7 +39,7 @@ tématu existovaly ve dvou kopiích; jedna z nich měla na tmavém povrchu kontr
   `role="img"` s českým popiskem. Barvy jsou z tokenů vrstvy a mají kontrast aspoň 3:1 vůči
   povrchu (1.4.11), text 4,5:1.
 - Data jsou odvozená (graf knihy, katalogy, tabulky v textu), ne vymyšlená
-  (project.site-derived-surfaces@2). Simulace ilustrují mechanismus pro rozpoznání a obranu,
+  (project.site-derived-surfaces@3). Simulace ilustrují mechanismus pro rozpoznání a obranu,
   nikdy postup provedení (project.content-defensive-frame@1).
 - Nová vizualizace = nový soubor ve `static/js/viz/` nebo `static/js/kompendium/`, který volá
   vrstvu; chybí-li vrstvě schopnost, rozšíří se vrstva, ne skript.

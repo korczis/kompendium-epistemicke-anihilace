@@ -262,7 +262,7 @@ Toto kompendium je **explicitním pokusem** o konvergenci těchto čtyř proudů
 Historická perspektiva ukazuje několik konstantních motivů, jež překračují konkrétní paradigmata:
 
 - **Strukturní invariance** — Techniky popsané v inkvizičních manuálech (14. století), v Liftonových kritériích thought reformu (20. století) a v moderní digitální dezinformaci sdílejí překvapivě stabilní **strukturní jádro**.
-- **Asymetrická akcelerace** — **Detekční** techniky se vyvíjí pomaleji než **manipulační** techniky. Tato asymetrie je systémovou výzvou pro každou současnou taxonomii.
+- **Asymetrická akcelerace** — Detekční techniky se vyvíjí pomaleji než **manipulační** techniky. Tato asymetrie je systémovou výzvou pro každou současnou taxonomii.
 - **Reaktivní povaha pole** — Systematické studium epistemických traumat typicky reaguje na **konkrétní krize** (totalitarismus, sektářství, dezinformace). Pole zůstává **definováno svými objekty** spíše než stabilní teoretickou základnou.
 
 ## Budoucí směry výzkumu

@@ -109,7 +109,7 @@ kontroly kontrolu komunikace ([milieu control](@/glossary/milieu-control.md)) a 
 oslabují schopnost člověka ověřovat si realitu vlastním úsudkem; Stark (2007) ukazuje obdobné
 omezování svobody v partnerském vztahu.
 
-**Kapacita** k rozhodnutí se posuzuje ke konkrétnímu rozhodnutí, ne obecně: zda pacient rozumí
+Kapacita k rozhodnutí se posuzuje ke konkrétnímu rozhodnutí, ne obecně: zda pacient rozumí
 informacím, chápe jejich význam pro svou situaci, dokáže o možnostech uvažovat a vyjádřit volbu.
 Těchto čtyř schopností se drží klinický standard posuzování způsobilosti k souhlasu
 (Appelbaum, 2007). Rozrušení a nejistota po EA samy o sobě kapacitu nevylučují.

@@ -25,7 +25,7 @@ toc = false
 
 [Trinity Gate](@/glossary/trinity-gate.md) je ověřovací mechanismus platformy, z níž Kompendium vzešlo,
 jímž musí projít každé přesvědčení, rozhodnutí a závěr, než je přijato. Skládá se ze tří nezávislých
-bran – **strukturní konzistence** (kontrola grafu důvodů pomocí [teorie grafů](@/glossary/graph-theory.md)),
+bran – strukturní konzistence (kontrola grafu důvodů pomocí [teorie grafů](@/glossary/graph-theory.md)),
 **logické konzistence** (vyhodnocení podle pravidel) a **formální nutnosti** ([modální logika](@/glossary/modalni-logika.md)
 a důkazy v systému Lean 4) – a z metavrstvy, která ověřuje správnost brány samotné. Na platformě
 tvoří přechod mezi zkoumáním podle rámce [NABLA Infinity](@/glossary/nabla-infinity.md) a jednáním.

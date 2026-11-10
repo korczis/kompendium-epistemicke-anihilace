@@ -26,7 +26,7 @@ toc = false
 [NABLA Infinity](@/glossary/nabla-infinity.md) (zapisováno ∇∞) je základní epistemický rámec platformy,
 z níž Kompendium vzešlo. Stanoví sedm axiomů, které musí splnit každý agent, každý zpracovatelský
 proces a každé rozhodnutí: **pluralitu signálů**, **zachování rozporu**, **informativní absenci**,
-**časový rozpad**, **platnost neznáma**, **nezávislost zdrojů** a **povinnou provenienci**. Pět axiomů se
+**[časový rozpad](@/glossary/nabla-axioms.md)**, **[platnost neznáma](@/glossary/nabla-axioms.md)**, **nezávislost zdrojů** a **povinnou provenienci**. Pět axiomů se
 vynucuje tvrdě – porušení zablokuje další zpracování –, dva měkce, varováním a šetřením. Axiomy
 podrobně rozebírá heslo [Axiomy NABLA](@/glossary/nabla-axioms.md); programově se uplatňují v
 [epistemickém procesu](@/glossary/epistemic-pipeline.md), ověřují se rámcem [QEVE](@/glossary/qeve.md)
@@ -47,19 +47,19 @@ NABLA patří k druhému proudu: neklade nároky na „čistotu“ jednotlivce, 
 
 **Pluralita a nezávislost zdrojů** odpovídají tomu, co kniha doporučuje v návodu
 [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md): potvrzení má váhu jen
-tehdy, když zdroje nečerpají z téhož původu. **Povinná provenience** odpovídá praxi „laterálního čtení“,
+tehdy, když zdroje nečerpají z téhož původu. **[Povinná provenience](@/glossary/nabla-axioms.md)** odpovídá praxi „laterálního čtení“,
 kterou popsali Wineburg a McGrew (2019): zkušení ověřovatelé faktů neposuzují zdroj podle jeho vzhledu,
 ale nejprve zjišťují, kdo za ním stojí a co o něm říkají jiní.
 
 **Zachování rozporu** je odpovědí na sklon, který Festinger (1957) popsal jako snižování kognitivní
 disonance: lidé mají tendenci odstranit nepříjemný rozpor tím, že jednu stranu zkreslí nebo přehlédnou.
 Manipulace tento sklon využívá – nabídne výklad, který rozpor „vyřeší“, a člověk ho přijme s úlevou.
-**Informativní absence** připomíná, že chybějící doklad může být sám dokladem, ale jen za určitých
+**[Informativní absence](@/glossary/nabla-axioms.md)** připomíná, že chybějící doklad může být sám dokladem, ale jen za určitých
 podmínek; Oaksford a Hahn (2004) ukázali, že síla argumentu z neznalosti závisí na tom, jak
 pravděpodobné by bylo doklad najít, kdyby tvrzení platilo.
 
-**Časový rozpad** vyjadřuje, že informace stárne. Arbesman (2012) popsal, že i vědecká fakta mají
-v různých oborech různý „poločas“, po němž se značná část z nich reviduje. **Platnost neznáma** pak
+**[Časový rozpad](@/glossary/nabla-axioms.md)** vyjadřuje, že informace stárne. Arbesman (2012) popsal, že i vědecká fakta mají
+v různých oborech různý „poločas“, po němž se značná část z nich reviduje. **[Platnost neznáma](@/glossary/nabla-axioms.md)** pak
 dovoluje závěr „nevím“ jako legitimní výsledek, nikoli jako selhání. Kniha tuto zásadu spojuje
 s [epistemickou pokorou](@/glossary/epistemicka-pokora.md).
 

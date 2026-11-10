@@ -71,7 +71,7 @@ Friston (*The free-energy principle*, 2010) a Clark (*Surfing Uncertainty*, 2016
 
 Klíčové komponenty prediktivního zpracování:
 
-1. **Hierarchický generativní model** — Mozek udržuje multi-úrovňový model světa, od abstraktních konceptů po nízko-úrovňové percepční primitives.
+1. **[Hierarchický generativní model](@/glossary/predictive-processing.md)** — Mozek udržuje multi-úrovňový model světa, od abstraktních konceptů po nízko-úrovňové percepční primitives.
 2. **Top-down predikce** — Vyšší vrstvy generují predikce pro nižší.
 3. **Bottom-up prediction errors** — Diskrepance mezi predikcí a aktuálním vstupem propagují vzhůru.
 4. **Update belief** — Síla prediction error moduluje rozsah revize generativního modelu.

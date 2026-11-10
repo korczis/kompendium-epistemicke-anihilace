@@ -117,7 +117,7 @@ H](@/kompendium/03-zakladni-kategorie/scenar-h.md).
 
 ### 3. Vývoj účinných intervencí
 
-Znalost mechanismů epistemické destrukce je **předpokladem** pro vytvoření účinných
+Znalost mechanismů epistemické destrukce je předpokladem pro vytvoření účinných
 terapeutických a preventivních intervencí. [Sekce
 06](@/kompendium/06-klinicke-aplikace/_index.md) systematizuje rekonstrukční postupy
 a opírá se o model léčby po fázích, v němž stabilizace a bezpečí předcházejí zpracování

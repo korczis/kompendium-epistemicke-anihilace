@@ -24,9 +24,9 @@ toc = false
 ## Pojem
 
 [Doktrína NM/ND](@/glossary/nm-nd.md) (*NO MERCY, NO DOUBTS*, „bez slitování, bez pochybností“) je
-řídicí rámec platformy Prismatic, z níž kniha vzešla. Spojuje dva principy. **NO MERCY** požaduje, aby
+řídicí rámec platformy Prismatic, z níž kniha vzešla. Spojuje dva principy. **[NO MERCY](@/glossary/no-mercy-no-doubts.md)** požaduje, aby
 každá práce byla od okamžiku vzniku připravena do provozu, s nulovou tolerancí k nedokončeným
-implementacím, netestovanému kódu a odkládaným opravám kvality. **NO DOUBTS** vyžaduje důkladné šetření
+implementacím, netestovanému kódu a odkládaným opravám kvality. **[NO DOUBTS](@/glossary/no-mercy-no-doubts.md)** vyžaduje důkladné šetření
 před jednáním, rozhodnutí podložená důkazy a rozhodný závazek, jakmile důkazy rozhodnutí podporují.
 Doktrína se podle hesla glosáře týká softwarových artefaktů a strojově ověřitelných kritérií;
 prosazuje ji [Zero Warning Policy](@/glossary/zero-warning-policy.md) a porušení řeší

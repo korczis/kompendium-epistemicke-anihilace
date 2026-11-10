@@ -47,7 +47,7 @@ trestají a odchod činí nákladným –, a proto bývá odchod z nich tak obt�
 
 ## Dobrovolné a nucené formy pomoci
 
-V USA se v 70. a 80. letech rozšířilo **nucené deprogramování** – únos a zadržení člena skupiny
+V USA se v 70. a 80. letech rozšířilo nucené deprogramování – únos a zadržení člena skupiny
 s cílem ho „přeprogramovat“. Praxe byla eticky odsouzena a soudy ji opakovaně posuzovaly jako
 protiprávní omezení svobody. Na její místo nastoupily **dobrovolné** přístupy (*exit counseling*,
 *[thought reform](@/glossary/thought-reform.md) consultation*), v nichž člověk o rozhovoru ví a

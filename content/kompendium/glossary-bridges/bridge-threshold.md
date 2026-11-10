@@ -52,7 +52,7 @@ kde je v sázce život, se práh pro jednání posouvá níž; tam, kde hrozí n
 
 ## Typy prahů v knize
 
-**Detekční** práh určuje, kdy pozorovatel považuje vzorec za doložený; kniha ho rozvádí ve sbírce
+Detekční práh určuje, kdy pozorovatel považuje vzorec za doložený; kniha ho rozvádí ve sbírce
 [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md), kde je každá signatura
 svazkem znaků, nikoli jediným spouštěčem. **Screeningový** práh vede k doporučení podrobnějšího
 vyšetření; nástroje a jejich hraniční hodnoty popisuje [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)

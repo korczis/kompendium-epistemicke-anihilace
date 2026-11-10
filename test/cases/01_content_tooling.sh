@@ -125,6 +125,24 @@ grep -x 'aliases = \["/kompendium/case-01-dup/x/"\]' content/kompendium/case-01-
 grep -F '](@/kompendium/case-01-dup/x-plna.md#a)' content/kompendium/case-01-dup/ref.md >/dev/null
 rm -r content/kompendium/case-01-dup
 
+# strip-generated-blocks: the hand-copied footer goes in both languages, the derived block and
+# the text before it stay, and --check then passes.
+mkdir -p content/kompendium/case-01-strip
+for h in 'Connect & Contribute' 'Kontakt a příspěvky'; do
+  f="content/kompendium/case-01-strip/$(echo "$h" | tr -cd 'A-Za-z').md"
+  printf '+++\ntitle = "S"\n+++\n\nText zůstane.\n\n---\n\n## %s\n\n- [GitHub](https://x)\n' "$h" > "$f"
+  printf '\n## Související\n\n- [Hub](@/kompendium/_index.md)\n' >> "$f"
+  printf '\n<!-- kompendium:odvozene-vazby:begin -->\nB\n<!-- kompendium:odvozene-vazby:end -->\n' >> "$f"
+done
+python3 scripts/strip-generated-blocks.py content/kompendium/case-01-strip >/dev/null
+python3 scripts/strip-generated-blocks.py --check content/kompendium/case-01-strip >/dev/null
+for f in content/kompendium/case-01-strip/*.md; do
+  grep -x 'Text zůstane.' "$f" >/dev/null && grep -x 'B' "$f" >/dev/null
+  grep -x '## Související' "$f" >/dev/null  # a section after the footer survives
+  if grep -E '^## (Connect|Kontakt)' "$f" >/dev/null; then echo "footer kept in $f"; exit 1; fi
+done
+rm -r content/kompendium/case-01-strip
+
 python3 scripts/build-graph.py >/dev/null
 python3 scripts/build-graph.py --check >/dev/null
 printf '\nEin [Link](@/kompendium/_index.md).\n' >> content/about.md

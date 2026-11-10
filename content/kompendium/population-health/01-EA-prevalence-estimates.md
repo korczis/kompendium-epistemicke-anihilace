@@ -83,7 +83,7 @@ pořadí otázek a terminologie („manipulace“, „sekta“) mění odpovědi
 Faktory jsou rizikové pro *expozici* nebo pro *přechod od expozice k poškození*. Nejde
 o vlastnosti „slabých“ lidí; většina z nich je situační.
 
-**Rizikové faktory**
+Rizikové faktory
 
 - životní přechody a krize: ztráta práce, rozvod, migrace, úmrtí blízkého, nástup na studia;
 - [sociální izolace](@/glossary/socialni-izolace.md) a ztráta nezávislých zdrojů informací;

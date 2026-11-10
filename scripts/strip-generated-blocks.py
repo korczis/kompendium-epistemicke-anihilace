@@ -4,7 +4,7 @@
 Two kinds are removed:
 
   - the platform's "NLLB auto block" (below);
-  - the hand-copied page footer: a `## Connect…` section ("Connect & Contribute") with the
+  - the hand-copied page footer: a `## Connect…` or `## Kontakt a příspěvky` section ("Connect & Contribute") with the
     author line, licence link and repository/wiki/LinkedIn/contact links, or a lone
     "**Created by [Tomáš Korcak (korczis)](…)** | … [GHL](…)" line. The site footer
     (templates) already carries author and licence; a copy on every page goes stale.
@@ -32,8 +32,10 @@ BLOCK = re.compile(
 )
 
 
-# "## Connect & Contribute" (or "## Connect") up to the derived-links block or the end of file.
-CONNECT = re.compile(r"\n+(?:---\n+)?##\s+Connect\b[^\n]*\n.*?(?=\n<!-- kompendium:odvozene-vazby:begin|\Z)", re.S)
+# "## Connect & Contribute", "## Connect" or the Czech "## Kontakt a příspěvky" up to the next
+# section heading, the derived-links block or the end of file.
+CONNECT = re.compile(r"\n+(?:---\n+)?##\s+(?:Connect\b|Kontakt a příspěvky)[^\n]*\n.*?"
+                     r"(?=\n## |\n<!-- kompendium:odvozene-vazby:begin|\Z)", re.S)
 # A lone author/licence line, optionally after a horizontal rule.
 CREATED = re.compile(r"\n+(?:---\n+)?\*\*Created by \[[^\n]*\n?")
 

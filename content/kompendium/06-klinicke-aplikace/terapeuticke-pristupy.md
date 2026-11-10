@@ -38,7 +38,7 @@ Terapeutická intervence stojí na třech vzájemně provázaných pilířích:
 
 - Snížit akutní symptomy úzkosti, disregulace, suicidality;
 - Zajistit **fyzickou bezpečnost** (zejména u klientů s pokračujícím vystavením manipulátorovi);
-- Zajistit **epistemickou bezpečnost** — přístup k důvěryhodným zdrojům, omezení kontaktu s manipulativním prostředím.
+- Zajistit **[epistemickou bezpečnost](@/glossary/epistemic-security.md)** — přístup k důvěryhodným zdrojům, omezení kontaktu s manipulativním prostředím.
 
 ### Klíčové intervence
 
@@ -205,7 +205,7 @@ Terapeutický vztah u klientů po EA má **kvalitativně odlišnou** dynamiku:
 Empirická evidence pro EA-specifické intervence je **omezená** (mladá disciplína), ale související oblasti (post-kult terapie, terapie obětí gaslightingu) ukazují příznivé prognostické faktory:
 
 - **Včasná identifikace** — rychlejší zotavení;
-- **Bezpečí** — odpojení od manipulativního prostředí;
+- Bezpečí — odpojení od manipulativního prostředí;
 - **Sociální podpora** — alespoň jedna stabilní non-manipulativní vazba;
 - **Epistemická resilience** — předchozí vzdělání nebo zkušenost s reflexivním myšlením;
 - **Adekvátní terapie** — sekvenční respekt k pilířům.

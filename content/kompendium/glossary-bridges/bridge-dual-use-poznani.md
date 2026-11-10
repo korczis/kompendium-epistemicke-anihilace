@@ -49,7 +49,7 @@ Obecnější rámec nabídl Bostrom (2011) pojmem *informačních rizik* – šk
 právě z šíření pravdivých informací. S nástupem strojového učení se diskuse přenesla i na umělou
 inteligenci; zpráva Brundage a kol. (2018) upozornila, že tytéž schopnosti, které pomáhají
 odhalovat podvody, mohou usnadnit jejich páchání. Kompendium přenáší tuto tradici na
-**epistemickou bezpečnost** – na poznání o tom, jak se dá poškodit lidské poznávání (viz
+**[epistemickou bezpečnost](@/glossary/epistemic-security.md)** – na poznání o tom, jak se dá poškodit lidské poznávání (viz
 [Bridge: Epistemic security](@/kompendium/glossary-bridges/bridge-epistemic-security.md)).
 
 ## Jak kniha s dvojím užitím zachází

@@ -76,7 +76,7 @@ neprojevuje jen jednotlivými incidenty, ale soustavným omezováním svobody dr
 v takovém vztahu předpokládá rovnost stran, která neexistuje, a to, co kontrolovaná osoba v sezení
 řekne, může mít doma následky. Proto kniha doporučuje nejprve samostatné posouzení každého z partnerů.
 
-Obdobně kniha řadí mezi nepřijatelné postupy **nucené „deprogramování“** osob ze skupin s vysokou
+Obdobně kniha řadí mezi nepřijatelné postupy nucené „deprogramování“ osob ze skupin s vysokou
 kontrolou. Singer a Lalich (1995) rozlišují mezi dobrovolným poradenstvím při odchodu a nuceným zadržením,
 které samo opakuje vzorec kontroly a je v mnoha právních řádech trestné; právní stránku rozebírá
 kapitola [Právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md).

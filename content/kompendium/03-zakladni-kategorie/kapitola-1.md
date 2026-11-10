@@ -370,19 +370,24 @@ Jürgen Habermas rozlišuje **strategickou** a **komunikativní** akci — strat
 
 Imre Lakatos rozlišuje **progresivní** a **degenerativní** výzkumné programy. EA-1.3.* (techniky imunizace a reinterpretace) odpovídají strategiím **degenerativních ad hoc rescue operations**, které charakterizují epistemicky problematické výzkumné programy.
 
-## Empirická validační infrastruktura
+## Empirická validace taxonomie
 
-Taxonomie EA-1.* by neměla být přijímána jako apriorní; vyžaduje **empirickou validaci** prostřednictvím systematického výzkumu. Současná validační infrastruktura zahrnuje:
+Taxonomie EA-1.* by neměla být přijímána jako apriorní; jako každé klasifikační schéma v
+behaviorálních vědách potřebuje empirickou validaci, a ta zatím provedena nebyla. Kniha proto
+popisuje, jakými cestami by validace měla jít, a nevydává je za probíhající výzkum. Prvním
+krokem je shoda nezávislých hodnotitelů, kteří klasifikují techniky v autentickém materiálu;
+míru shody nad rámec náhody vyjadřuje Cohenova kappa (Cohen, 1960) a pro více hodnotitelů
+Fleissova kappa (Fleiss, 1971). Teprve shodná klasifikace dovoluje ptát se, zda kategorie
+odpovídají něčemu ve světě, a ne jen ve slovníku hodnotitelů.
 
-| Validační metoda | Aplikace | Status |
-|------------------|----------|--------|
-| **Inter-rater reliability studie** | Klasifikace technik nezávislými hodnotiteli v autentickém materiálu | Pilotní fáze |
-| **Fenomenologické interview** | Subjektivní reporty účastníků manipulativních interakcí | Probíhá |
-| **Historicko-archivní analýza** | Identifikace technik v dokumentovaných případech akademických skandálů | Probíhá |
-| **Experimentální simulace** | Kontrolované expozice s měřením efektů | Plánováno |
-| **Cross-cultural validace** | Aplikovatelnost taxonomie napříč kulturními kontexty | Plánováno |
-
-Tato validační infrastruktura je integrována do platformového nástroje {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }} a využívá analytický rámec [Nabla Infinity](@/glossary/nabla-infinity.md) pro kvantifikaci epistemické nejistoty diagnostických soudů.
+Druhou cestou jsou fenomenologické rozhovory s lidmi, kteří manipulativní interakce zažili, a
+historicko-archivní analýza dokumentovaných případů akademických skandálů; obě metody prověřují,
+zda taxonomie zachycuje, jak se techniky skutečně projevují, a obě vyžadují etický dohled nad
+výzkumem se zranitelnými účastníky (Dickson-Swift a kol., 2008). Třetí cestou je
+mezikulturní ověření, protože kategorie vzniklé v jednom akademickém prostředí nemusí platit
+jinde; metodologii jazykové a kulturní adaptace nástrojů popisují Beaton a kol. (2000).
+Experimentální navozování manipulace u lidí kniha nedoporučuje: tam, kde by šlo o skutečnou
+expozici, převažuje riziko újmy nad poznávacím ziskem (Beauchamp a Childress, 2019).
 
 ## Závěr
 
@@ -391,6 +396,14 @@ Akademické techniky intelektuální manipulace představují signifikantní epi
 Je esenciální zdůraznit, že porozumění těmto technikám není pouze defenzivní kompetencí, ale **fundamentální součástí epistemické resilience a akademické integrity**. Kritická epistemická vigilance by však nikdy neměla degenerovat v hyperskepticismus, paranoidní epistemologie nebo reflexivní odmítání legitimně challenging idejí. Cílem taxonomie není kultivovat suspici, ale **kalibrovanou diskriminační schopnost** — kapacitu rozlišovat manipulativní a legitimní formy epistemického vyzývání.
 
 V následující [Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) jsou analyzovány **scénáře epistemické delegitimizace** — komplexní aplikace základních technik v koordinovaných sekvencích. [Kapitola 3](@/kompendium/03-zakladni-kategorie/kapitola-3.md) následně specifikuje **edukativní implementaci** poznatků této taxonomie skrze třífázový strukturovaný protokol.
+
+## Literatura
+
+- Beaton, D. E., Bombardier, C., Guillemin, F., & Ferraz, M. B. (2000). Guidelines for the process of cross-cultural adaptation of [self-report](@/glossary/self-report.md) measures. *Spine*, 25(24), 3186–3191.
+- Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). New York: Oxford University Press.
+- Cohen, J. (1960). A coefficient of agreement for nominal scales. *Educational and Psychological Measurement*, 20(1), 37–46.
+- Dickson-Swift, V., James, E. L., Kippen, S., & Liamputtong, P. (2008). *Undertaking Sensitive Research in the Health and Social Sciences*. Cambridge: Cambridge University Press.
+- Fleiss, J. L. (1971). Measuring nominal scale agreement among many raters. *Psychological Bulletin*, 76(5), 378–382.
 
 ## Související
 

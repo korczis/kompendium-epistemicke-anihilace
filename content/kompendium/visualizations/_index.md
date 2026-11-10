@@ -21,7 +21,7 @@ Tři položky (5, 6 a 9) nejsou grafy dat, ale didaktické simulace: modelují j
 
 ## Jak vizualizace číst
 
-Všechny grafy používají stejný slovník. **Uzel** nebo bod je stránka knihy a klepnutí na něj vede k detailu s odkazem na tuto stránku; žádný uzel není ozdobou bez cíle. **Hrana** mezi dvěma uzly znamená, že mezi jejich stránkami vede v knize odkaz – jedním, nebo oběma směry. **Barva** kóduje kategorii (rodinu EA, podrodinu, oddíl knihy, fázi podle rejstříku), nikdy pořadí nebo míru. Jacques Bertin ukázal, že barevný tón je vhodný k rozlišení skupin, kdežto pořadí a množství se lépe čtou z polohy a velikosti (Bertin 1967); grafy se toho drží. Kde velikost nese počet, roste plocha bubliny úměrně počtu, ne její poloměr, aby graf nepřeháněl rozdíly – Edward Tufte takové zkreslení nazývá „faktorem lži“ (Tufte 1983).
+Všechny grafy používají stejný slovník. **Uzel** nebo bod je stránka knihy a klepnutí na něj vede k detailu s odkazem na tuto stránku; žádný uzel není ozdobou bez cíle. **Hrana** mezi dvěma uzly znamená, že mezi jejich stránkami vede v knize odkaz – jedním, nebo oběma směry. Barva kóduje kategorii (rodinu EA, podrodinu, oddíl knihy, fázi podle rejstříku), nikdy pořadí nebo míru. Jacques Bertin ukázal, že barevný tón je vhodný k rozlišení skupin, kdežto pořadí a množství se lépe čtou z polohy a velikosti (Bertin 1967); grafy se toho drží. Kde velikost nese počet, roste plocha bubliny úměrně počtu, ne její poloměr, aby graf nepřeháněl rozdíly – Edward Tufte takové zkreslení nazývá „faktorem lži“ (Tufte 1983).
 
 Interakce sleduje Shneidermanovu zásadu „nejdřív přehled, potom přiblížení a filtr, podrobnosti na vyžádání“ (Shneiderman 1996): graf ukáže celek, klepnutí vybere část a okno pod grafem vypíše stránky s odkazy. Grafy, které vybírají „nejodkazovanější“ stránky, řadí podle počtu stránek knihy, které na danou stránku odkazují. Počet příchozích odkazů je v teorii sítí obvyklým, ale hrubým ukazatelem významu (Kleinberg 1999; Newman 2010): říká, jak často se k pojmu text vrací, ne jak je pojem důležitý pro konkrétního člověka.
 
@@ -181,12 +181,16 @@ Alberto Cairo připomíná, že poctivá vizualizace má sdělit i nejistotu sv�
 
 ## Vizualizace jednotlivých sekcí
 
-Vedle tohoto přehledu mají čtyři sekce knihy vlastní vizualizaci, která čte data z kontextu své sekce:
-
-- [Sekce 03 – techniky EA-1 podle podrodiny a rizika](@/kompendium/03-zakladni-kategorie/visualizations.md) – stránky technik jedné rodiny, jejich úrovně rizika a vazby.
-- [Sekce 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md) – kam kapitoly o terminálních protokolech čtenáře posílají.
-- [Sekce 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md) – fáze péče, jejich stránky a odkazy mezi nimi.
-- [Sekce 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md) – kapitoly teoretické sekce podle tradic a odkazů.
+Vedle tohoto přehledu mají čtyři sekce knihy vlastní vizualizaci, která čte data z kontextu
+své sekce. [Vizualizace sekce 03](@/kompendium/03-zakladni-kategorie/visualizations.md) ukazuje
+techniky EA-1 podle podrodiny a úrovně rizika, tedy stránky jedné rodiny a jejich vazby;
+[vizualizace sekce 04](@/kompendium/04-terminalni-protokoly/visualizations.md) kreslí strom
+odkazů terminálních protokolů, z něhož je vidět, kam kapitoly čtenáře posílají;
+[vizualizace sekce 06](@/kompendium/06-klinicke-aplikace/visualizations.md) sleduje klinickou
+cestu zotavení po fázích péče, jejich stránkách a odkazech mezi nimi; a
+[vizualizace sekce 07](@/kompendium/07-teoreticke-reflexe/visualizations.md) mapuje kapitoly
+teoretické sekce podle tradic a vzájemných odkazů. Všechny čtyři sdílejí zásadu celé stránky:
+zobrazují strukturu odkazů knihy, ne empirická data (Munzner, 2014).
 
 ## Literatura
 

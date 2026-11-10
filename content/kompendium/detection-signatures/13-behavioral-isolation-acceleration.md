@@ -22,7 +22,7 @@ Izolace je jedním z nejlépe doložených prvků nátlakových prostředí. Bid
 
 ## Co signatura indikuje
 
-Sociální síť plní epistemickou funkci: lidé kolem nás nám poskytují srovnání („tohle není normální“), alternativní výklady a praktickou pomoc. Izolace odstraňuje tyto korektivy a zdroj se stává jediným, kdo určuje, co je normální. Proto je izolace často **předpokladem** dalších signatur – [gaslighting](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) bez svědků funguje snáz, [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) se vytváří zúžením přístupu.
+Sociální síť plní epistemickou funkci: lidé kolem nás nám poskytují srovnání („tohle není normální“), alternativní výklady a praktickou pomoc. Izolace odstraňuje tyto korektivy a zdroj se stává jediným, kdo určuje, co je normální. Proto je izolace často předpokladem dalších signatur – [gaslighting](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) bez svědků funguje snáz, [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) se vytváří zúžením přístupu.
 
 Zrychlení je důležitým varovným znakem: v pozdějších fázích zbývá méně lidí, kteří by změnu zaznamenali, a tedy i méně lidí, kteří by mohli pomoci. Ztráta sítě zároveň zvyšuje cenu odchodu – osoba by odcházela do prázdna.
 

@@ -79,7 +79,7 @@ zkušenost myšlenkové reformy.
    případně s bývalými členy, kde člověk dostane informace o skupině a o technikách vlivu
    a sám je posoudí (Langone 1993; Hassan 2015). Setkání je transparentní a člověk ho
    může kdykoli ukončit.
-3. **Nucené „deprogramování“** – zadržení člověka proti jeho vůli – je eticky i právně
+3. Nucené „deprogramování“ – zadržení člověka proti jeho vůli – je eticky i právně
    nepřijatelné a protokol ho odmítá; viz [Právní rámec deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md).
 
 **Odchod a první měsíce**

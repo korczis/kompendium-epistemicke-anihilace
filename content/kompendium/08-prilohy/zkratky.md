@@ -143,7 +143,7 @@ Bez specifické notace; používá běžné citační formáty.
 
 ### Sekce 03 — Základní kategorie
 
-Notace EA-X.Y.Z plně zavedena. Tabulky obsahují sloupce: **Kód**, **Název**, **Riziko**, **Reverzibilita**, **Status publikace**.
+Notace EA-X.Y.Z plně zavedena. Tabulky obsahují sloupce: **Kód**, **Název**, Riziko, **Reverzibilita**, **Status publikace**.
 
 ### Sekce 04 — Terminální protokoly
 
@@ -268,12 +268,3 @@ Místo lineární četby:
 
 - [Taxonomie EA](@/glossary/taxonomie-ea.md) – systém kódů technik.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – pojem za zkratkou EA.
-
----
-
-## Kontakt a příspěvky
-
-**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -13,7 +13,7 @@
 #                                        there, as an index-only blob when someone is editing it
 #   scripts/verify-content.sh --help     this text
 #
-# Gates: migrate-content, normalize-front-matter, polish-markdown, link-terms, check-ia,
+# Gates: migrate-content, normalize-front-matter (and its schema table), polish-markdown, link-terms, check-ia,
 # build-references, build-graph, zola build, graph urls resolve, test/run.sh. The export is deleted afterwards.
 set -euo pipefail
 
@@ -55,6 +55,7 @@ if [ "$fix" = --fix ]; then
 fi
 step "migrate-content --check"    python3 scripts/migrate-content.py --check
 step "normalize-front-matter"     python3 scripts/normalize-front-matter.py --check
+step "front-matter schema doc"   python3 scripts/normalize-front-matter.py --doc --check
 step "polish-markdown"            python3 scripts/polish-markdown.py --check
 step "link-terms"                 python3 scripts/link-terms.py --check
 if [ "$fix" = --fix ]; then

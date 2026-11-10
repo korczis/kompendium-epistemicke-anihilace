@@ -1,90 +1,163 @@
 +++
-title = "Pouceni poroty EA"
-description = "Forenzni a pravni rozmer EA — pouceni poroty ea."
+title = "Poučení poroty v kauzách EA"
+description = "Jak se v systémech s porotou poučují laičtí rozhodovatelé o mýtech kolem obětí psychického zneužívání a co z toho plyne pro české přísedící."
 weight = 30
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "court-testimony"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["29-judicial-education", "3-dissociation-forensic", "31-clinical-documentation-EA", "32-evidence-preservation"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Pouceni poroty EA
+# Poučení poroty v kauzách EA
 
-## Pravni / forenzni kontext
+Kapitola uzavírá [část o soudním svědectví](@/kompendium/forensic-legal/_index.md).
+Zabývá se tím, jak soudy v zemích s porotou poučují laické rozhodovatele, aby nepodléhali
+mýtům o chování obětí, a jak se tato zkušenost dá přenést na české přísedící a na
+veřejnost. Je určena advokátům s mezinárodní praxí, soudcům, lektorům a výzkumníkům.
 
-Specializovane jury instructions o EA dynamice (postupne disclosure, trauma bonding) jsou klicove pro spravedlivy verdict. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+V systémech common law rozhoduje o vině v závažných trestních věcech porota složená
+z laiků, kterou soudce na konci řízení poučí o právu a o tom, jak hodnotit důkazy (*jury
+directions* nebo *jury instructions*). V Anglii a Walesu obsahují soudcovské příručky vzorové
+pokyny, které porotce upozorňují například na to, že opožděné oznámení, absence emocí při
+výpovědi nebo pokračující kontakt s obviněným samy o sobě neznamenají, že výpověď je
+nepravdivá. Obdobné pokyny existují v dalších zemích, často v souvislosti se sexuálním a
+domácím násilím. Po zavedení trestného činu kontrolujícího a donucujícího chování (Serious
+Crime Act 2015, s. 76) roste i potřeba vysvětlovat porotám, co je vzorec kontroly.
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+Česká republika porotu nemá. Laický prvek představují **přísedící**, kteří rozhodují spolu
+se soudcem v senátech okresních a krajských soudů v prvním stupni. Formální poučení
+přísedících o mýtech česká procesní úprava nezná; znalosti získávají ze vzdělávání a od
+předsedy senátu při poradě.
+
+## Specifika epistemického zneužívání
+
+Laičtí rozhodovatelé přinášejí do síně představy, které jsou utvářeny médii, vlastní
+zkušeností a kulturou. U EA jsou zvlášť silné tyto:
+
+- **„Inteligentní člověk by se nenechal.“** Přehlíží, že EA nepůsobí přes nedostatek
+  inteligence, ale přes vztah, izolaci a postupnost.
+- **„Proč neodešla?“** Neznalost [trauma bondingu](@/glossary/trauma-bonding.md), závislosti
+  a eskalace rizika při odchodu.
+- **„Bez modřin nic nebylo.“** Podcenění psychické a ekonomické kontroly.
+- **„Vypadá normálně, takže to nebylo tak zlé.“** Neznalost disociace a disimulace.
+- **„Ten druhý působí sympaticky.“** Přecenění dojmu a výřečnosti.
+- **„Oba jsou stejní.“** Rozmělnění asymetrie moci do „vztahové hádky“.
+
+Tyto představy mohou vést k tomu, že porotce posuzuje oběť podle toho, nakolik odpovídá
+stereotypu, nikoli podle důkazů – typická podoba [epistemické
+nespravedlnosti](@/glossary/epistemicka-injustice.md) ve smyslu Frickerové (2007).
+
+## Klíčové principy
+
+- **Pokyn ne o vině, ale o způsobu hodnocení.** Poučení nesmí naznačovat, jak má porota
+  rozhodnout; jen upozorňuje na chybné inference.
+- **Vyváženost.** Mýty existují na obou stranách – i představa, že každá oběť je
+  automaticky věrohodná, je nesprávná.
+- **Srozumitelnost.** Pokyn v jazyce laiků, bez odborného žargonu.
+- **Opora ve výzkumu a judikatuře**, nikoli v názoru soudce.
 
 ## Procedurální postup
 
-Proposed instructions on coercive control, trauma response, pattern evidence; objection preservation. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+Pro jurisdikce s porotou (srovnávací přehled):
+
+1. **Návrh pokynů** stranami a soudcem s ohledem na konkrétní kauzu.
+2. **Volba načasování.** Některé soudy poučují porotu již před výpovědí oběti, aby mýty
+   neovlivnily vnímání od počátku; jiné až v závěrečném shrnutí.
+3. **Znalecký důkaz vs. pokyn.** Rozhodnutí, zda obecné poznatky o chování obětí podá
+   znalec, nebo soudce v pokynu; obě cesty mají výhody i rizika.
+4. **Kontrola odvolacím soudem.** Chybné nebo jednostranné poučení je důvodem k napadení
+   rozsudku.
+
+Pro českou praxi (přenos zkušeností):
+
+1. **Vzdělávání přísedících** o základních mechanismech EA a o mýtech (viz [Vzdělávání
+   soudců](@/kompendium/forensic-legal/29-judicial-education.md)).
+2. **Porada senátu** jako prostor, kde předseda senátu může upozornit na chybné inference.
+3. **Odůvodnění rozsudku**, které výslovně odděluje styl projevu od obsahu výpovědi.
+
+## Markery a diferenciální úvahy
+
+Na vliv mýtů v rozhodování ukazuje:
+
+- odůvodnění, které staví na tom, že oběť „neodešla“ nebo „se nebránila“;
+- hodnocení věrohodnosti podle emočního projevu;
+- přehlížení vzorce ve prospěch posouzení jednotlivých incidentů;
+- zdůrazňování profesní pověsti nebo sympatičnosti obviněného.
+
+Diferenciálně je třeba odlišit legitimní pochybnosti, které vycházejí z důkazů – rozpory
+v jádru výpovědi, alternativní vysvětlení podložené listinami –, od pochybností, které
+vycházejí ze stereotypu.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Pokyn jako podpora jedné strany.** Příliš silné poučení může působit jako předjímání viny.
+- **Pokyn bez obsahu.** Obecné „nehodnoťte podle stereotypů“ bez konkrétních příkladů
+  nemá účinek.
+- **Pozdní poučení**, když už si porotci vytvořili názor.
+- **Neschopnost rozpoznat vlastní předpoklady** – porotci často nevědí, že stereotyp
+  používají.
+- **Přenesení do českého prostředí bez kontextu** – český systém má jiné záruky a jiné
+  slabiny.
+
+## Modelová situace (anonymizovaná)
+
+V zahraničním řízení o kontrolující a donucující chování v partnerském vztahu soudce před
+výpovědí oběti krátce poučí porotu: lidé reagují na dlouhodobou kontrolu různě, někteří
+vypovídají s emocemi, jiní bez nich; pokračující kontakt s obviněným nebo opožděné oznámení
+samy o sobě neznamenají, že výpověď je nepravdivá; je na porotě, aby výpověď hodnotila
+spolu s ostatními důkazy. V závěrečném shrnutí soudce stejný pokyn zopakuje a připomene
+porotě i to, že nesmí odsoudit jen proto, že obviněný působí nesympaticky. Odvolací soud
+pokyn shledá vyváženým.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro advokáty v jurisdikcích s porotou
 
-## Cross-linky
+- Navrhujte vyvážené pokyny včas; zvažte, zda je vhodnější znalecký důkaz.
+- Sledujte, zda odůvodnění nestojí na stereotypech, a uplatněte to v opravném prostředku.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro české soudce a přísedící
 
+- Při poradě se vědomě ptejte, zda závěr vychází z důkazů, nebo z představy o „typické
+  oběti“.
+- V odůvodnění oddělujte styl projevu od obsahu.
 
-## Connect
+### Pro lektory a veřejnost
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Vzdělávejte o mýtech kolem obětí psychického zneužívání, ale i o riziku opačného
+  stereotypu.
 
+## Limity a otevřené otázky
+
+Výzkum účinku poučení poroty ukazuje smíšené výsledky; obecné pokyny mají menší účinek než
+konkrétní, a načasování hraje roli. Přenositelnost na český systém je omezená, protože
+přísedící rozhodují spolu s profesionálním soudcem a musí své závěry odůvodnit. Otevřenou
+otázkou je, zda by česká úprava měla výslovně počítat s poučením přísedících, nebo zda je
+dostatečné vzdělávání a role předsedy senátu.
+
+## Související
+
+**V této sekci**
+
+- [Vzdělávání soudců](@/kompendium/forensic-legal/29-judicial-education.md) – profesionální protějšek poučení poroty.
+- [Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) – kde mýty působí nejsilněji.
+- [Výpověď oběti](@/kompendium/forensic-legal/25-victim-statement.md) – typické rysy výpovědí obětí EA.
+
+**Glosář**
+
+- [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – předsudek vůči svědkovi.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – proč oběť neodchází.
+- [Kognitivní bias](@/glossary/kognitivni-bias.md) – systematické chyby úsudku.
+
+**Jurisdikce a kritika**
+
+- [UK – EA právní rámec](@/kompendium/international/24-uk-law-EA/index.md) – porota a coercive control.
+- [USA – EA právní rámec](@/kompendium/international/25-us-law-EA/index.md) – poučení poroty v USA.
+- [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md) – mýty, které přenášejí vinu.

@@ -1,81 +1,94 @@
 +++
 title = "Tautologie"
 weight = 100
-description = "Tautologie — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Tautologie v logice a v řeči: výrok pravdivý svou formou, který nic nevylučuje, a jeho role v uzavírání myšlení, sebepotvrzujících doktrínách a obraně."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "philosophy", "paradox", "jazyk"]
 
 [extra]
-category = "architecture"
-related_terms = ["adaptive-learning", "adversarial-architecture", "adversarial-conditions", "addiction-recovery", "accuracy", "adapter-pattern"]
+category = "logic"
+related_terms = ["cirkularni-argumentace", "synteticke-analyticke", "falsifikovatelnost", "thought-stopping", "self-reference", "newspeak"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Tautologie** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Tautologie** má dva příbuzné významy.
 
-## See Also
+- V **logice** je to výrok (formule), který je pravdivý při jakémkoli přiřazení pravdivostních hodnot svým složkám, například „prší, nebo neprší“. Je pravdivý svou formou, nikoli tím, jak je svět.
+- V **rétorice a běžné řeči** je to výrok, který opakuje totéž jinými slovy nebo vypadá jako vysvětlení, ačkoli nic nevysvětluje: „je to tak, jak to je“, „zákon je zákon“, „pravda je to, co je pravdivé“.
 
-- [Glossary index](@/glossary/_index.md)
+Společným rysem je, že tautologie **nic nevylučuje**. Proto je jistá – a proto o světě nic nesděluje. Pro Kompendium je důležitá ve chvíli, kdy se její jistota propůjčí tvrzení, které o světě mluvit má, nebo kdy slouží k ukončení myšlení.
 
----
+## Původ a kontext pojmu
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+V moderní logice pojem upřesnil Ludwig Wittgenstein v *Traktátu* (1921): tautologie a kontradikce jsou mezními případy výroků, které „neříkají nic“ – tautologie připouští všechny možné stavy světa, kontradikce žádný (4.46–4.461). Logický pozitivismus z toho vyvodil, že logické a matematické pravdy jsou tautologické, tedy analytické (viz [syntetické a analytické soudy](@/glossary/synteticke-analyticke.md)). V rétorice je tautologie odedávna známá jako vada stylu i jako účinný prostředek: krátký, jistě znějící výrok, s nímž nelze nesouhlasit.
 
-## Manažerské shrnutí
+Robert J. Lifton (1961) popsal v analýze myšlenkové reformy jev, který nazval **klišé ukončující myšlení** (*thought-terminating cliché*): krátké, často tautologické formule, které zhušťují složité otázky do snadno zapamatovatelných vět a slouží k zastavení dalšího uvažování. Jde o jeden z projevů „zatížení jazyka“ v totalitních prostředích.
 
-**Tautologie** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
+Rozpoznatelné podoby tautologie v komunikaci:
 
-## Koncepční síť
+- **uzavírací formule** – „tak to prostě je“, „učení je učení“, „kdo to nechápe, ten to nechápe“;
+- **sebepotvrzující vysvětlení** – „ten, kdo odejde, nebyl připravený; poznáme to podle toho, že odešel“;
+- **zdání příčiny** – „neuspěl, protože nebyl úspěšný“, „trpíš, protože trpíš“;
+- **opakování místo argumentu** – stejná věta odpovídá na různé otázky;
+- **reakce na otázku „a co by to vyvrátilo?“** – nepochopení nebo pohoršení, protože tvrzení vyvrátit nelze.
 
-Vizualizace propojení **Tautologie** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Obecný, anonymizovaný příklad: člen skupiny se po letech zeptá, proč se slíbená proměna u nikoho nedostavila. Dostane odpověď: „Proměna přichází k těm, kdo jsou připraveni.“ Na otázku, jak se pozná připravenost, slyší: „Podle toho, že proměna přišla.“ Obě věty spolu tvoří uzavřený kruh. Nic v nich není nepravdivé v tom smyslu, že by je šlo vyvrátit – a právě proto nemohou nic vysvětlit. Tazatel přitom odchází s pocitem, že chyba je v něm, protože odpověď zněla jistě a on ji „nepochopil“.
 
-```mermaid
-graph TD
-    C0["Tautologie"]
-    N1["Adaptive Learning"]
-    N2["Adversarial Architecture"]
-    N3["Adversarial Conditions"]
-    N4["Addiction Recovery"]
-    N5["Accuracy"]
-    N6["Adapter Pattern"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Mechanismus
 
-## Související pojmy
+Jednotlivá tautologie je neškodná. Manipulativní potenciál vzniká **v systému**: když je doktrína vystavěna tak, že každý její výrok je pravdivý z definice a námitky se vykládají jako doklad nepochopení, vzniká uzavřená síť, která je vnitřně konzistentní a zvenčí nedotknutelná. Kompendium tento stav popisuje jako [tautologickou implozi (EA-5.1.17)](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) a v nejzazší podobě jako [konvergentní singularitu (EA-5.1.28)](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md), kdy se veškeré uvažování stahuje do jediného sebepotvrzujícího bodu. Na úrovni jazyka se stejný princip objevuje jako [implantace kruhových definic (EA-5.4.16)](@/kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md) a jako detekční signatura [cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md).
 
-- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/) — slug `accuracy`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
+Psychologicky tautologie poskytuje **úlevu**: uzavírá nejistotu, a tím odměňuje přestání myslet. To je důvod, proč se klišé ukončující myšlení snadno stávají zvykem a fungují podobně jako [thought-stopping](@/glossary/thought-stopping.md).
 
-## Navigace
+## Odlišení
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- **Logická pravda.** V logice a matematice je tautologie legitimní a užitečná; nikdo z ní nevyvozuje nic o světě.
+- **Definice.** Ujasňuje význam slova a je otevřeně stanovena; tautologie vydávaná za zjištění význam zakrývá.
+- **[Cirkulární argumentace](@/glossary/cirkularni-argumentace.md).** Závěr je skryt v premise; tautologie je zvláštním, nejprostším případem.
+- **Nefalsifikovatelné tvrzení.** Může mít obsah, jen ho nelze testovat; tautologie obsah nemá (viz [falsifikovatelnost](@/glossary/falsifikovatelnost.md)).
+- **Zvládací hesla.** Krátké formule v podpůrných skupinách nebo terapii („jeden den po druhém“) mohou pomáhat; rozhoduje, zda slouží k unesení situace, nebo k zákazu přemýšlení.
+- **Klinické jevy.** Perseverace a stereotypní opakování frází u neurologických a psychiatrických stavů nejsou rétorickým nástrojem.
+
+## Význam pro Kompendium
+
+Tautologie je nejjednodušším příkladem toho, jak může jazyk vytvářet jistotu bez poznání. Pomáhá vysvětlit, proč jsou některé doktríny tak odolné: nejsou silné tím, co tvrdí, ale tím, že netvrdí nic, co by šlo vyvrátit. Souvisí s [newspeakem](@/glossary/newspeak.md) jako cíleným zúžením jazyka i se [sebereferencí](@/glossary/self-reference.md) uzavřených systémů.
+
+## Obrana a zotavení
+
+- **Otázka po vyloučeném.** „Co by muselo platit, aby to nebyla pravda?“ Pokud nic, výrok nic neříká.
+- **Rozvinout formuli.** Požádat o vysvětlení vlastními slovy, na příkladu, s výjimkou; tautologie se při rozvinutí obvykle rozpadne.
+- **Sledovat vlastní slovník.** Po odchodu z uzavřené skupiny si zapsat formule, které se opakovaly, a zkoumat, k čemu sloužily; viz [hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md).
+- **Pro profesionála:** neodpovídat na tautologii tautologií („tak to cítíš“); nabídnout konkrétnost a otázky po zkušenosti.
+
+## Literatura
+
+- Wittgenstein, L. (1921). *Tractatus Logico-Philosophicus*.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+
+## Související
+
+**Glosář**
+
+- [Cirkulární argumentace](@/glossary/cirkularni-argumentace.md) – závěr v premise.
+- [Syntetické a analytické soudy](@/glossary/synteticke-analyticke.md) – pravda z formy a pravda ze světa.
+- [Thought-stopping](@/glossary/thought-stopping.md) – zastavování myšlení jako zvyk.
+- [Newspeak](@/glossary/newspeak.md) – jazyk, který znemožňuje nesouhlas.
+
+**Techniky a detekce**
+
+- [EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) – doktrína jako sebepotvrzující síť.
+- [EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md) – stažení myšlení do jednoho bodu.
+- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – jazykový marker.
+
+**Obrana**
+
+- [Středně-dobý hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) – práce se slovníkem po odchodu.

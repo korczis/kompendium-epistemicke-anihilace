@@ -1,90 +1,164 @@
 +++
-title = "Cross-examination"
-description = "Forenzni a pravni rozmer EA — cross-examination."
+title = "Křížový výslech"
+description = "Jak se v křížovém výslechu projevují diskreditační vzorce známé z EA, kde je hranice legitimní obhajoby a jak chránit oběť i kvalitu její výpovědi."
 weight = 23
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "court-testimony"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["21-expert-witness-EA", "22-fact-witness-protection", "24-deposition-EA", "25-victim-statement"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Cross-examination
+# Křížový výslech
 
-## Pravni / forenzni kontext
+Kapitola z [části o soudním svědectví](@/kompendium/forensic-legal/_index.md) se zabývá
+výslechem svědka stranou, která ho nenavrhla – v anglosaském pojetí *cross-examination*.
+Křížový výslech je legitimním a nezbytným nástrojem obhajoby; zároveň je situací, v níž
+oběť epistemického zneužívání může prožít opakování toho, co zažívala ve vztahu. Kapitola
+je určena soudcům, obhájcům, zmocněncům obětí a státním zástupcům.
 
-Krizovy vyslech obeti EA byva re-traumatizujici a vyzaduje pripravenou strategii ground&recover techniques. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+Právo obviněného klást otázky svědkům obžaloby patří k základům spravedlivého procesu
+(EÚLP, čl. 6). V českém trestním řízení může předseda senátu přenechat výslech svědka
+straně, která ho navrhla, a druhá strana pak klade otázky; pravidla trestního řádu zakazují
+otázky klamavé a návodné a předseda
+senátu má povinnost nepřípustné otázky nepřipustit. Zákon č. 45/2013 Sb., o obětech
+trestných činů, omezuje otázky do intimní sféry oběti na nezbytně nutný rozsah a
+zvlášť zranitelným obětem poskytuje další ochranu. Systémy common law dávají křížovému
+výslechu větší prostor, ale i tam soudy omezují otázky, které jsou šikanující nebo
+nepřiměřeně ponižující.
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+## Specifika epistemického zneužívání
+
+Taktiky, které v křížovém výslechu slouží ke zpochybnění svědka, se strukturálně podobají
+mechanismům EA. Nejde o tvrzení, že obhajoba zneužívá; jde o upozornění, že pro oběť EA
+mají tyto taktiky zvláštní účinek:
+
+- **Zpochybnění paměti** („jste si jistá, že to bylo v úterý?“) navazuje na roky
+  [gaslightingu](@/glossary/gaslighting.md) a může vyvolat okamžitý kolaps sebedůvěry.
+- **Opakování otázky** po nežádoucí odpovědi signalizuje, že odpověď byla špatná, a u
+  [sugestibilního](@/kompendium/forensic-legal/5-suggestibility-assessment.md) svědka vede
+  ke změně.
+- **Zúžená volba** („ano, nebo ne?“) neumožňuje popsat ambivalenci, která je u vztahů
+  kontroly typická.
+- **Obrácení rolí** – otázky, které staví oběť do role agresora, odpovídají vzorci
+  [DARVO](@/glossary/darvo.md).
+- **Útok na duševní zdraví** – terapie, léky, diagnóza použité jako důkaz nevěrohodnosti.
+- **Konfrontace s vlastními slovy** – zprávy, v nichž oběť pachatele chválila nebo se
+  mu omlouvala, prezentované bez kontextu.
+
+## Klíčové principy
+
+- **Právo na obhajobu i ochrana svědka.** Obě hodnoty jsou legitimní; soud je vyvažuje.
+- **Otázky slouží zjištění pravdy**, nikoli ponížení nebo destabilizaci.
+- **Svědek smí říct „nevím“.** Je to pravdivá odpověď, nikoli přiznání.
+- **Kontext je součástí odpovědi.** Svědek má mít možnost vysvětlit, proč odpověď nelze
+  zúžit na ano či ne.
 
 ## Procedurální postup
 
-Pre-rehearsal s podpurnym therapeutem, ground techniques, signal pause word, frequent breaks. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+**Před jednáním** (zmocněnec, státní zástupce): připravit svědka na průběh, nikoli na
+obsah (viz [Příprava svědka v kontextu EA](@/kompendium/forensic-legal/8-witness-prep-EA.md));
+vysvětlit typy otázek, které mohou přijít; podat návrhy na ochranná opatření (výslech bez
+vizuálního kontaktu, přestávky, vyloučení veřejnosti).
+
+**Během výslechu** (soud): sledovat opakované, návodné, klamavé a ponižující otázky;
+umožnit svědkovi doplnit kontext; nařídit přestávku při známkách
+[disociace](@/kompendium/forensic-legal/3-dissociation-forensic.md) nebo dekompenzace.
+
+**Během výslechu** (zmocněnec, státní zástupce): vznášet námitky proti nepřípustným otázkám
+věcně a včas; nepřerušovat svědka zbytečně, aby nevznikl dojem koučování.
+
+**Během výslechu** (obhájce): klást otázky, které testují výpověď, nikoli osobu; vyhnout
+se otázkám na intimní život bez souvislosti s věcí; uvědomovat si, že agresivní postup
+může u soudu působit kontraproduktivně.
+
+**Po výslechu**: svědek dostane prostor pro debriefing; zmocněnec zaznamená průběh a
+případné nepřipuštěné otázky.
+
+## Markery a diferenciální úvahy
+
+Známky, že výslech přestává sloužit zjištění pravdy:
+
+- opakování téže otázky v různých formulacích bez nového obsahu;
+- otázky, které předpokládají nedoložené skutečnosti;
+- otázky zaměřené na duševní zdraví bez vztahu k výpovědní způsobilosti;
+- tón a tempo, které svědkovi neumožňují odpovědět.
+
+Diferenciálně je třeba rozlišit **legitimní zpochybnění** – upozornění na skutečné rozpory,
+konfrontaci s listinnými důkazy, otázky na motiv – od **destabilizace**. Rozpor ve výpovědi
+je legitimní téma; způsob, jakým se na něj ptá, může být nepřípustný.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Kolaps výpovědi**, který soud vyhodnotí jako nevěrohodnost, ačkoli jde o reakci na tlak.
+- **Retraumatizace** a pozdější odmítnutí další spolupráce s orgány.
+- **Nečinnost soudu**, který otázky připouští ve snaze nezasahovat do obhajoby.
+- **Přehnaná ochrana**, která obhajobu omezí natolik, že je řízení nespravedlivé.
+- **Kontrast projevu** – obviněný klidný, svědkyně rozrušená; soud hodnotí dojem.
+
+## Modelová situace (anonymizovaná)
+
+Obhájce se svědkyně, která obvinila bývalého partnera z dlouhodobé kontroly, opakovaně
+ptá, proč mu psala „miluji tě“ ještě měsíc před oznámením. Po třetí formulaci téže otázky
+svědkyně odpoví: „Asi jsem to tedy přeháněla.“ Zmocněnkyně vznese námitku proti opakování.
+Předseda senátu ji připustí a vyzve svědkyni, aby vysvětlila, co tím myslí. Ta popíše, že
+zprávy psala po hádkách, aby se partner uklidnil, a že to „tak fungovalo vždycky“. Soud
+v odůvodnění rozsudku uvede, že ambivalentní projevy oběti vůči pachateli nejsou v rozporu
+s jejím popisem kontroly.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro dotčenou osobu
 
-## Cross-linky
+- Můžete požádat o zopakování nebo vysvětlení otázky.
+- Pokud odpověď nelze zúžit na ano či ne, řekněte to.
+- Nemusíte souhlasit s tvrzením jen proto, že je řečeno s jistotou.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro soudce
 
+- Nepřipouštějte opakované a ponižující otázky; ponechte prostor pro kontext.
+- Hodnoťte obsah výpovědi, ne projev pod tlakem (viz [Vzdělávání
+  soudců](@/kompendium/forensic-legal/29-judicial-education.md)).
 
-## Connect
+### Pro obhájce
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Testujte výpověď, ne psychickou odolnost svědka.
+- Pracujte s rozpory věcně; agresivita může oslabit vaši pozici.
 
+### Pro zmocněnce a státní zástupce
+
+- Připravujte svědka na průběh a vznášejte námitky včas.
+
+## Limity a otevřené otázky
+
+Napětí mezi právem obviněného na obhajobu a ochranou zranitelného svědka nemá definitivní
+řešení; každé posílení ochrany může být vnímáno jako oslabení obhajoby. Otevřenou otázkou je,
+zda by soudy měly být výslovně poučovány o účincích typických taktik na oběti EA a jak tomu
+zabránit, aby se to obrátilo v předpojatost vůči obviněnému. Diskutuje se také o širším
+využití předem nahraných výpovědí, které by opakovaný křížový výslech omezily.
+
+## Související
+
+**V této sekci**
+
+- [Příprava svědka v kontextu EA](@/kompendium/forensic-legal/8-witness-prep-EA.md) – co lze se svědkem legitimně připravit.
+- [Sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md) – proč opakované otázky mění odpovědi.
+- [Dekompenzace u soudu](@/kompendium/forensic-legal/28-courtroom-decompensation.md) – když tlak přesáhne kapacitu svědka.
+- [Místopřísežná výpověď](@/kompendium/forensic-legal/24-deposition-EA.md) – křížový výslech mimo soudní síň.
+
+**Glosář**
+
+- [DARVO](@/glossary/darvo.md) – obrácení rolí.
+- [Gaslighting](@/glossary/gaslighting.md) – zpochybňování paměti.
+- [Sealioning](@/glossary/sealioning.md) – vyčerpávání protistrany opakovanými dotazy.
+
+**Kritika**
+
+- [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md) – přenos viny na oběť.
+- [Mocenská asymetrie v EA aplikaci](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md) – kdo má v řízení moc nad výkladem.

@@ -1,81 +1,107 @@
 +++
-title = "Sektarska Konverze"
+title = "Sektářská konverze"
 weight = 100
-description = "Sektarska Konverze — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Sektářská konverze jako proces přijetí identity a pohledu na svět uzavřené skupiny: modely konverze, znaky, odlišení od náboženské konverze a obrana."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "psychology", "manipulace", "kult"]
 
 [extra]
-category = "architecture"
-related_terms = ["3nl", "adapter-pattern", "adversarial-architecture", "adversarial-conditions", "adversarial-drift", "accreditation"]
+category = "psychology"
+related_terms = ["high-control-group", "bite-model", "love-bombing", "charisma", "transformative-experience", "socialni-izolace"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Sektarska Konverze** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Sektářská konverze** je proces, jímž člověk přijímá pohled na svět, normy a identitu skupiny s vysokou mírou kontroly ([high-control group](@/glossary/high-control-group.md)) tak, že dosavadní vztahy, hodnoty a zdroje poznání ztrácejí váhu a skupina se stává hlavním či jediným rámcem výkladu reality. Nejde o jednorázové rozhodnutí, ale o **postupnou přestavbu**: z návštěvníka se stává sympatizant, z něj člen, z člena člověk, jehož životopis se začíná vyprávět jako „před“ a „po“.
 
-## See Also
+Pojem „sektářská“ zde neoznačuje náboženský obsah – stejný proces se objevuje v politických, terapeutických, obchodních, wellness i online skupinách. Rozhodující je **struktura kontroly**, nikoli víra.
 
-- [Glossary index](@/glossary/_index.md)
+## Původ a kontext pojmu
 
----
+Sociologie náboženství zkoumá konverzi od 60. let 20. století. John Lofland a Rodney Stark (1965) na základě pozorování malé apokalyptické skupiny formulovali model, podle něhož ke konverzi vede souběh dlouhodobého napětí, hledačství, životního zlomu, **citových vazeb na členy** a **oslabení vazeb mimo skupinu**, završený intenzivní interakcí. Lewis Rambo (*Understanding Religious Conversion*, 1993) popsal konverzi jako proces o několika fázích – kontext, krize, hledání, setkání, interakce, závazek, důsledky. Eileen Barker (*The Making of a Moonie*, 1984) ukázala, že naprostá většina účastníků náborových seminářů se ke skupině nepřidala, a zpochybnila tím jednoduchou představu „vymývání mozků“.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Psychiatrická a psychologická tradice naopak zdůraznila strukturální rysy prostředí: Robert J. Lifton (1961) popsal osm kritérií ideologického totalismu, Steven Hassan (1988) model [BITE](@/glossary/bite-model.md) – kontrolu chování, informací, myšlení a emocí. Obě tradice se dnes doplňují: konverze je aktivní volba člověka, ale činěná za podmínek, které skupina řídí.
 
-## Manažerské shrnutí
+## Jak se projevuje
 
-**Sektarska Konverze** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Pozorovatelné znaky u konvertujícího člověka a v jeho okolí:
 
+- **rychlá výměna slovníku** – nová slova pro staré věci, uzavřený skupinový jazyk (viz [privátní jazyk](@/glossary/privatni-jazyk.md));
+- **přepsání životopisu** – minulost se líčí jako prázdná, zmatená nebo „nevědomá“;
+- **zúžení vztahů** na členy skupiny, oslabení kontaktu s rodinou a přáteli;
+- **rostoucí čas, peníze a energie** věnované skupině;
+- **odmítání vnějších informací** jako „nižší úrovně“ nebo „útoků“;
+- **euforie a pocit smyslu** v počáteční fázi, později únava, úzkost a skrývané pochybnosti;
+- **neschopnost mluvit o pochybnostech** bez pocitu viny.
 
-## Koncepční síť
+## Mechanismus
 
-Vizualizace propojení **Sektarska Konverze** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Strukturálně se v konverzi do uzavřené skupiny dají rozpoznat tři vrstvy.
 
-```mermaid
-graph TD
-    C0["Sektarska Konverze"]
-    N1["3NL"]
-    N2["Adapter Pattern"]
-    N3["Adversarial Architecture"]
-    N4["Adversarial Conditions"]
-    N5["Adversarial Drift"]
-    N6["Accreditation"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+1. **Vztahová vrstva.** Intenzivní přijetí a pozornost ([love bombing](@/glossary/love-bombing.md)) vytvoří vazbu dřív, než člověk zná doktrínu. Rozhodnutí zůstat je pak rozhodnutím o vztazích, ne o myšlenkách.
+2. **Epistemická vrstva.** Skupina nabídne výklad, který vysvětluje všechno, a zároveň znevýhodní všechny ostatní zdroje. Vzorec [guru a adept (EA-1.6.1)](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) ustaví jednoho nositele pravdy; [iluzorní transcendence (EA-5.1.14)](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) slibuje vyšší úroveň vědomí dosažitelnou jen uvnitř.
+3. **Identitní vrstva.** Postupné závazky, veřejná svědectví a přerušení mostů ven dělají návrat nákladným. Člověk nejen věří, ale „je“ členem; pochybnost se pak prožívá jako ohrožení sebe.
 
-## Související pojmy
+Konverze je zpravidla nejrychlejší v životních zlomech – po ztrátě, rozchodu, přestěhování, nemoci – kdy je potřeba smyslu a společenství nejvyšší.
 
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
-- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
+## Odlišení
 
-## Navigace
+- **Náboženská nebo světonázorová konverze.** Může být hluboká a celoživotní, ale zachovává vztahy mimo společenství, umožňuje pochybnosti a odchod bez trestu.
+- **[Transformativní zkušenost](@/glossary/transformative-experience.md).** Zásadní změna perspektivy (rodičovství, nemoc, studium) bez vnější kontroly informací a vztahů.
+- **[Mystický prožitek](@/glossary/mysticky-prozitek.md) a [ego death](@/glossary/ego-death.md).** Prožitek sám není konverzí; problémem je, když ho skupina monopolizuje a vykládá.
+- **Psychotická epizoda s náboženským obsahem.** Přesvědčení nejsou sdílená skupinou, objevují se další příznaky; vyžaduje psychiatrické vyšetření.
+- **Radikalizace.** Příbuzný proces s politickým cílem a často s přijetím násilí; viz [online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md).
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Význam pro Kompendium
+
+Sektářská konverze je vstupní branou do většiny dlouhodobých forem epistemické anihilace. Historické případy [Moonies](@/kompendium/historical-cases/19-moonies.md), [NXIVM](@/kompendium/historical-cases/18-nxivm.md) a [Scientologie](@/kompendium/historical-cases/16-scientology-fair-game.md) ukazují rozdílné podoby téže struktury; kazuistiky [sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) a [LGAT](@/kompendium/case-studies/27-secular-cult-exit.md) zachycují cestu zpět. Rozpoznávání nácviku slouží scénář [náborové techniky](@/kompendium/educational-scenarios/18-cult-recruitment.md), epidemiologický rámec přináší [incidence expozice kultům](@/kompendium/population-health/03-incidence-cult-exposure.md).
+
+## Obrana a zotavení
+
+Prevence a pro blízké:
+
+- **Udržet most.** Nejdůležitější ochranou je vztah s blízkými, který přežije nesouhlas; ultimáta a výsměch skupině nepomáhají.
+- **Klást otázky na strukturu, ne na víru:** Mohu odejít bez trestu? Smím číst kritiku? Kdo kontroluje vedoucího? Užitečný je [model BITE](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md).
+- **Odložit velké závazky** (majetek, ukončení studia či vztahů) o pevně danou dobu.
+
+Pro profesionála:
+
+- Pracovat s potřebami, které skupina naplnila (smysl, příslušnost, struktura), a s identitou, ne jen s doktrínou.
+- Respektovat autonomii: nátlakové „deprogramování“ je eticky i právně problematické ([právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md)); preferovat dobrovolné poradenství.
+- Po odchodu využít [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) a [protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md); v krizi [emergency u bývalého člena](@/kompendium/emergency-protocols/28-ex-cult-emergency.md).
+
+Meze: konverze nelze předpovídat podle osobnostních rysů; ohroženy jsou spíše lidé v přechodných životních situacích než „slabé povahy“.
+
+## Literatura
+
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Lofland, J., Stark, R. (1965). Becoming a World-Saver: A Theory of Conversion to a Deviant Perspective. *American Sociological Review*, 30.
+- Barker, E. (1984). *The Making of a Moonie: Choice or Brainwashing?*
+- Hassan, S. (1988). *Combatting Cult Mind Control*.
+- Rambo, L. R. (1993). *Understanding Religious Conversion*.
+
+## Související
+
+**Glosář**
+
+- [High-control group](@/glossary/high-control-group.md) – prostředí, do něhož konverze vede.
+- [BITE model](@/glossary/bite-model.md) – rámec pro posouzení kontroly.
+- [Love bombing](@/glossary/love-bombing.md) – vztahová vrstva náboru.
+- [Thought-stopping](@/glossary/thought-stopping.md) – udržování konverze potlačením pochybností.
+
+**Techniky**
+
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – ustavení jediného nositele pravdy.
+- [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) – slib vyšší úrovně dostupné jen uvnitř.
+
+**Případy a zotavení**
+
+- [Historický případ: Moonies](@/kompendium/historical-cases/19-moonies.md) – klasický předmět výzkumu konverze.
+- [Případ 10: Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – cesta ven.
+- [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md) – strukturovaná následná péče.

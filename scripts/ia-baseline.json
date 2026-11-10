@@ -618,15 +618,6 @@
   "related",
   "links-out"
  ],
- "content/glossary/perfekcionismus.md": [
-  "czech"
- ],
- "content/glossary/pluralismus.md": [
-  "czech"
- ],
- "content/glossary/popperianismus.md": [
-  "czech"
- ],
  "content/glossary/power-knowledge.md": [
   "description",
   "czech",
@@ -641,25 +632,13 @@
   "czech",
   "related"
  ],
- "content/glossary/predreflexivni-vedomi.md": [
-  "czech"
- ],
- "content/glossary/privatni-jazyk.md": [
-  "czech"
- ],
  "content/glossary/propaganda.md": [
   "czech",
   "related"
  ],
- "content/glossary/pseudoscience.md": [
-  "czech"
- ],
  "content/glossary/purple-team.md": [
   "czech",
   "related"
- ],
- "content/glossary/pyrrhonismus.md": [
-  "czech"
  ],
  "content/glossary/qdp.md": [
   "czech",
@@ -678,15 +657,9 @@
   "czech",
   "related"
  ],
- "content/glossary/redukcionismus.md": [
-  "czech"
- ],
  "content/glossary/regression-test.md": [
   "czech",
   "related"
- ],
- "content/glossary/rekurzivni-paralyza.md": [
-  "czech"
  ],
  "content/glossary/replication-crisis.md": [
   "description",
@@ -697,29 +670,14 @@
   "czech",
   "related"
  ],
- "content/glossary/russell-paradox.md": [
-  "czech"
- ],
  "content/glossary/sanctions-screening.md": [
   "czech",
   "related"
- ],
- "content/glossary/scam-compliance.md": [
-  "czech"
  ],
  "content/glossary/sealioning.md": [
   "description",
   "czech",
   "related"
- ],
- "content/glossary/sektarska-konverze.md": [
-  "czech"
- ],
- "content/glossary/self-reference.md": [
-  "czech"
- ],
- "content/glossary/self-report.md": [
-  "czech"
  ],
  "content/glossary/semanticka-afazie.md": [
   "description",
@@ -743,18 +701,6 @@
   "czech",
   "related"
  ],
- "content/glossary/skepticismus.md": [
-  "czech"
- ],
- "content/glossary/socialni-izolace.md": [
-  "czech"
- ],
- "content/glossary/solipsismus.md": [
-  "czech"
- ],
- "content/glossary/spiritual-bypassing.md": [
-  "czech"
- ],
  "content/glossary/strategic-command.md": [
   "czech",
   "related"
@@ -763,15 +709,9 @@
   "czech",
   "related"
  ],
- "content/glossary/synteticke-analyticke.md": [
-  "czech"
- ],
  "content/glossary/tactical-execution.md": [
   "czech",
   "related"
- ],
- "content/glossary/tautologie.md": [
-  "czech"
  ],
  "content/glossary/taxonomie-ea.md": [
   "czech",
@@ -781,12 +721,6 @@
   "description",
   "czech",
   "related"
- ],
- "content/glossary/thought-stopping.md": [
-  "czech"
- ],
- "content/glossary/toulmin-model.md": [
-  "czech"
  ],
  "content/glossary/transformative-experience.md": [
   "description",
@@ -811,15 +745,9 @@
   "czech",
   "related"
  ],
- "content/glossary/via-negativa.md": [
-  "czech"
- ],
  "content/glossary/violation-protocol.md": [
   "czech",
   "related"
- ],
- "content/glossary/vnitrni-casovost.md": [
-  "czech"
  ],
  "content/glossary/weaponized-incompetence.md": [
   "description",
@@ -829,9 +757,6 @@
  "content/glossary/white-team.md": [
   "czech",
   "related"
- ],
- "content/glossary/zenon-paradox.md": [
-  "czech"
  ],
  "content/glossary/zero-warning-policy.md": [
   "czech",
@@ -1253,193 +1178,6 @@
  ],
  "content/kompendium/emergency-protocols/9-mandatory-reporting-EA.md": [
   "related"
- ],
- "content/kompendium/forensic-legal/1-forensic-interview-protocol.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/10-forensic-documentation.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/11-undue-influence-doctrine.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/12-coercive-control-law.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/13-cult-deprogramming-legal.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/14-defamation-EA.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/15-witness-tampering.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/16-civil-conspiracy-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/17-fraud-EA-element.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/18-medical-malpractice-EA.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/19-professional-misconduct-EA.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/2-credibility-assessment.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/20-criminal-conspiracy-EA.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/21-expert-witness-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/22-fact-witness-protection.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/23-cross-examination-defense.md": [
-  "description",
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/forensic-legal/24-deposition-EA.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/25-victim-statement.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/26-impact-statement.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/27-trial-prep.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/28-courtroom-decompensation.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/29-judicial-education.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/3-dissociation-forensic.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/30-jury-instruction-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/31-clinical-documentation-EA.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/32-evidence-preservation.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/33-timeline-reconstruction.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/34-chain-evidence-narrative.md": [
-  "description",
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/forensic-legal/35-electronic-evidence-EA.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/36-recording-protocols.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/37-third-party-corroboration.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/38-pattern-evidence.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/39-incident-reporting.md": [
-  "description",
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/forensic-legal/4-malingering-detection.md": [
-  "description",
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/forensic-legal/40-mandatory-reporting-state.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/41-family-court-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/42-immigration-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/43-asylum-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/44-employment-law-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/45-disability-law-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/46-elder-abuse-law.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/47-child-protection-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/48-religious-exemption-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/49-trafficking-law-EA.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/5-suggestibility-assessment.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/50-international-law-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/6-trauma-disclosure.md": [
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/7-evidence-chain-of-custody.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/8-witness-prep-EA.md": [
-  "description",
-  "diacritics"
- ],
- "content/kompendium/forensic-legal/9-victim-impact-assessment.md": [
-  "description",
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/forensic-legal/_index.md": [
-  "czech"
  ],
  "content/kompendium/glossary-bridges/bridge-censys.md": [
   "not-orphan"
@@ -3561,8 +3299,7 @@
  ],
  "content/kompendium/techniques/ea-9-6-9-AI-immigration-decision.md": [
   "description",
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/visualizations/_index.md": [
   "description"
@@ -3587,5 +3324,128 @@
   "czech",
   "related",
   "links-out"
+ ],
+ "term:akademicka-technika": [
+  "term-page"
+ ],
+ "term:akutni-naruseni": [
+  "term-page"
+ ],
+ "term:banalita-zla": [
+  "term-page"
+ ],
+ "term:bounded-choice": [
+  "term-page"
+ ],
+ "term:cynicky-rozum": [
+  "term-page"
+ ],
+ "term:demarkacni-problem": [
+  "term-page"
+ ],
+ "term:des-ii": [
+  "term-page"
+ ],
+ "term:diskursivni-formace": [
+  "term-page"
+ ],
+ "term:doctrine": [
+  "term-page"
+ ],
+ "term:doubling": [
+  "term-page"
+ ],
+ "term:ecri": [
+  "term-page"
+ ],
+ "term:edukativni-implementace": [
+  "term-page"
+ ],
+ "term:epistemicka-nespravedlnost": [
+  "term-page"
+ ],
+ "term:fllm": [
+  "term-page"
+ ],
+ "term:fuze-horizontu": [
+  "term-page"
+ ],
+ "term:gitl": [
+  "term-page"
+ ],
+ "term:habitus": [
+  "term-page"
+ ],
+ "term:hermeneuticka-marginalizace": [
+  "term-page"
+ ],
+ "term:heuristika": [
+  "term-page"
+ ],
+ "term:ies-r": [
+  "term-page"
+ ],
+ "term:jazykova-hra": [
+  "term-page"
+ ],
+ "term:know": [
+  "term-page"
+ ],
+ "term:konfabulace": [
+  "term-page"
+ ],
+ "term:loading-the-language": [
+  "term-page"
+ ],
+ "term:lti-lingua-tertii-imperii": [
+  "term-page"
+ ],
+ "term:m5m": [
+  "term-page"
+ ],
+ "term:milieu-control": [
+  "term-page"
+ ],
+ "term:nclb": [
+  "term-page"
+ ],
+ "term:nmnd": [
+  "term-page"
+ ],
+ "term:normalni-veda": [
+  "term-page"
+ ],
+ "term:nwb": [
+  "term-page"
+ ],
+ "term:performativni-akt": [
+  "term-page"
+ ],
+ "term:ptsd": [
+  "term-page"
+ ],
+ "term:seal": [
+  "term-page"
+ ],
+ "term:system-1-system-2": [
+  "term-page"
+ ],
+ "term:tach": [
+  "term-page"
+ ],
+ "term:testimonialni-nespravedlnost": [
+  "term-page"
+ ],
+ "term:thought-reform": [
+  "term-page"
+ ],
+ "term:verejna-sfera": [
+  "term-page"
+ ],
+ "term:zero": [
+  "term-page"
+ ],
+ "term:zivotni-svet-lebenswelt": [
+  "term-page"
  ]
 }

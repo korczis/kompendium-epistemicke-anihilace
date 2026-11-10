@@ -69,6 +69,8 @@ jobs:
         run: python3 scripts/build-references.py --check
       - name: Link graph and metrics are current
         run: python3 scripts/build-graph.py --check
+      - name: Front matter is normalised
+        run: python3 scripts/normalize-front-matter.py --check
       - name: Information architecture does not regress
         run: python3 scripts/check-ia.py
       - name: Content tooling tests

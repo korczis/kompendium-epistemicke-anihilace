@@ -1,81 +1,101 @@
 +++
-title = "Thought Stopping"
+title = "Thought-stopping (zastavování myšlenek)"
 weight = 100
-description = "Thought Stopping — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Thought-stopping: od behaviorální techniky k nástroji kontroly myšlení ve skupinách. Znaky, mechanismus, odlišení od meditace a OCD rituálů, obrana."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "psychology", "manipulace", "clinical"]
 
 [extra]
-category = "architecture"
-related_terms = ["adapter-pattern", "academy", "adaptive-learning", "adversarial-architecture", "access-control", "adversarial-drift"]
+category = "psychology"
+related_terms = ["bite-model", "high-control-group", "tautologie", "newspeak", "sektarska-konverze", "metakognice"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Thought Stopping** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Thought-stopping** (zastavování myšlenek) označuje záměrné přerušení myšlenky v okamžiku, kdy se objeví – vnitřním povelem, opakovanou formulí, modlitbou, mantrou, zpěvem nebo jinou rutinou. Pojem má dvě historie, které je třeba rozlišovat:
 
-## See Also
+- v **behaviorální terapii** šlo o techniku, jíž si klient sám přerušoval nežádoucí, obtěžující myšlenky;
+- v **literatuře o vysoce kontrolujících skupinách** označuje naučené rutiny, které člen používá k zablokování pochybností, kritických otázek a informací, jež by ohrozily víru ve skupinu nebo vedoucího.
 
-- [Glossary index](@/glossary/_index.md)
+V Kompendiu se pojem užívá především v druhém smyslu: jako mechanismus, který zevnitř udržuje kontrolu myšlení i v nepřítomnosti autority.
 
----
+## Původ a kontext pojmu
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Jako terapeutická technika se thought-stopping rozšířil v behaviorální terapii v polovině 20. století (spojuje se zejména s Josephem Wolpem). Pozdější výzkum potlačování myšlenek, především experimenty Daniela Wegnera a spolupracovníků s pokynem „nemyslete na bílého medvěda“ (Wegner, 1989), ukázal, že záměrné potlačování myšlenku často posiluje (tzv. efekt odrazu). Současná kognitivně-behaviorální a metakognitivní terapie proto u obsedantních a úzkostných myšlenek doporučuje spíše odstup a přijetí než potlačení.
 
-## Manažerské shrnutí
+V kontextu manipulace popsal Robert J. Lifton (1961) **klišé ukončující myšlení** jako součást „zatížení jazyka“ v prostředích myšlenkové reformy. Steven Hassan (*Combatting Cult Mind Control*, 1988) zařadil techniky zastavování myšlenek do kontroly myšlení v modelu [BITE](@/glossary/bite-model.md): člen se učí, že pochybnost je znamením slabosti, pokušení nebo „negativity“, a má na ni reagovat rutinou, nikoli úvahou.
 
-**Thought Stopping** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
+Pozorovatelné znaky u člověka v kontrolujícím prostředí:
 
-## Koncepční síť
+- **automatická rutina při pochybnosti** – opakování formule, modlitby, mantry, zpěvu, počítání, často bez vědomého rozhodnutí;
+- **slogany místo odpovědí** – na otázku zvenčí odpovídá ustálenou frází (viz [tautologie](@/glossary/tautologie.md));
+- **úzkost, vina nebo stud** při vlastní kritické myšlence, prožívané jako tělesný neklid;
+- **neschopnost udržet kritickou myšlenku** do konce; rozhovor o pochybnostech se rychle uzavře;
+- **vyhýbání se informacím**, které by pochybnost mohly vyvolat;
+- po odchodu ze skupiny přetrvávající **reflexivní rutiny**, které se spouštějí samy, a pocit, že „neumím přemýšlet“.
 
-Vizualizace propojení **Thought Stopping** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Mechanismus
 
-```mermaid
-graph TD
-    C0["Thought Stopping"]
-    N1["Adapter Pattern"]
-    N2["Academy"]
-    N3["Adaptive Learning"]
-    N4["Adversarial Architecture"]
-    N5["Access Control"]
-    N6["Adversarial Drift"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Strukturálně jde o **naučenou vazbu**: pochybnost → nepříjemné napětí (strach, vina) → rutina → úleva. Úleva rutinu posiluje, a tak se z ní stává automatismus. Skupina k tomu přidává **výklad**, který pochybnost předem označuje za nepřítele („to mluví ego“, „to je útok“, „to je negativní energie“), a **jazyk**, jenž nabízí hotové formule. Výsledkem je, že kontrola myšlení se přesouvá dovnitř: člověk si cenzuru vykonává sám, i když ho nikdo nesleduje.
 
-## Související pojmy
+Vzorec navazuje na [sektářskou konverzi](@/glossary/sektarska-konverze.md) a udržuje ji; v historických případech se objevuje mimo jiné u [Heaven's Gate](@/kompendium/historical-cases/12-heavens-gate.md), [Radžníše](@/kompendium/historical-cases/15-rajneesh.md), [Scientologie](@/kompendium/historical-cases/16-scientology-fair-game.md), v kolektivní podobě v [maoistické kulturní revoluci](@/kompendium/historical-cases/2-maoist-cultural-revolution.md) a v online prostředí [QAnon](@/kompendium/historical-cases/28-qanon.md). Strukturální kritéria shrnují [EA-8.2.2 Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) a [EA-8.1.1 BITE model](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md).
 
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
-- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
-- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
+## Odlišení
 
-## Navigace
+- **Meditace a modlitba.** Samy o sobě jsou legitimní praxí; rozhodující je funkce. Praxe, která pomáhá zklidnit mysl a k myšlenkám se pak vrátit, se liší od praxe, která má myšlenku zakázat a jejíž vynechání je trestáno.
+- **Kognitivní odstup a všímavost.** Terapeutické přístupy učí myšlenky pozorovat a nechat odejít, nikoli je potlačovat; jejich cílem je svoboda myšlení, ne jeho omezení.
+- **Neutralizační rituály u OCD.** Mají podobnou strukturu (myšlenka → úzkost → rituál → úleva), ale vznikají bez vnější autority a myšlenky jsou prožívány jako cizí; léčí se jako porucha.
+- **Disociace.** Odpojení od obtížného obsahu může být automatickou reakcí na trauma (viz [disociace](@/glossary/disociace.md)).
+- **Zvládací strategie při intruzích.** Dočasné odvedení pozornosti u flashbacků je legitimní stabilizační technika.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Význam pro Kompendium
+
+Thought-stopping vysvětluje, proč lidé ve skupinách s vysokou mírou kontroly „nevidí“ rozpory, které jsou zvenčí zřejmé: rozpor se objeví, ale je přerušen dřív, než se z něj stane úvaha. Je proto důležitým bodem pro [detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md) i pro pochopení, proč přímá konfrontace s fakty často nepomáhá – spouští právě rutinu, která konfrontaci neutralizuje.
+
+## Obrana a zotavení
+
+Pro postiženého:
+
+- **Všimnout si spouštěče.** Kdy se rutina spustila? Jaká myšlenka jí předcházela? Samo pojmenování oslabuje automatismus; pomáhá [metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md).
+- **Nechat myšlenku doběhnout** v bezpečném prostředí – zapsat ji, domyslet, prodiskutovat s důvěryhodnou osobou.
+- **Odpustit si pochybnost.** Vina za myšlení je naučená; postupně slábne, když pochybnost nevede k trestu.
+
+Pro profesionála:
+
+- **Nepotlačovat potlačování.** Zákaz rutin nepomáhá; účinnější je porozumět jejich funkci a nabídnout jiné způsoby zvládání úzkosti.
+- Využít [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) a [metakognitivní terapii](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md); u přetrvávajících automatismů zvážit přístupy založené na přijetí.
+- Počítat s tím, že návrat „schopnosti myslet“ bývá pomalý a provázený úzkostí; viz [středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md).
+
+## Literatura
+
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Hassan, S. (1988). *Combatting Cult Mind Control*.
+- Wegner, D. M. (1989). *White Bears and Other Unwanted Thoughts*.
+
+## Související
+
+**Glosář**
+
+- [BITE model](@/glossary/bite-model.md) – rámec, v němž je thought-stopping složkou kontroly myšlení.
+- [Tautologie](@/glossary/tautologie.md) – formule, které myšlení uzavírají.
+- [Sektářská konverze](@/glossary/sektarska-konverze.md) – proces, který thought-stopping udržuje.
+- [Spiritual bypassing](@/glossary/spiritual-bypassing.md) – duchovní varianta potlačení obtížného obsahu.
+
+**Techniky a kritéria**
+
+- [EA-8.2.2 Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – zatížení jazyka a klišé ukončující myšlení.
+- [EA-8.1.1 BITE model detail](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) – posouzení kontroly myšlení.
+
+**Případy a zotavení**
+
+- [Historický případ: Heaven's Gate](@/kompendium/historical-cases/12-heavens-gate.md) – kolektivní kontrola myšlení.
+- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – léčba po odchodu ze skupiny.
+- [Subakutní detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md) – nácvik rozpoznání vlastních rutin.

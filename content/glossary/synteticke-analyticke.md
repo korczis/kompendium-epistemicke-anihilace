@@ -1,81 +1,89 @@
 +++
-title = "Synteticke Analyticke"
+title = "Syntetické a analytické soudy"
 weight = 100
-description = "Synteticke Analyticke — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Kantovo rozlišení analytických a syntetických soudů, jeho kritika a jak záměna „pravdy z definice“ a „pravdy ze zkušenosti“ slouží manipulaci."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "philosophy", "epistemologie"]
 
 [extra]
-category = "architecture"
-related_terms = ["actor-model", "adversarial-conditions", "adapter", "adaptive-learning", "addiction-recovery", "acid-transactions"]
+category = "philosophy"
+related_terms = ["apriori", "kantovy-kategorie", "tautologie", "cirkularni-argumentace", "falsifikovatelnost", "holismus"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Synteticke Analyticke** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Analytický soud** je takový, jehož pravdivost plyne ze samotného významu pojmů: predikát je již obsažen v subjektu („každý mládenec je neženatý“, „všechna tělesa jsou rozprostraněná“). **Syntetický soud** k subjektu přidává něco, co v jeho pojmu obsaženo není, a jeho pravdivost proto nelze zjistit rozborem slov („všechna tělesa jsou těžká“, „tento lék snižuje tlak“). Rozlišení se kříží s druhým: soudy **a priori** platí nezávisle na zkušenosti, soudy **a posteriori** jsou na ní založeny (viz [apriori](@/glossary/apriori.md)).
 
-## See Also
+Analytické soudy jsou jisté, ale o světě nic nového neříkají; syntetické soudy o světě vypovídají, ale lze je zkušeností vyvrátit. Pro Kompendium je rozlišení užitečné proto, že jeho **záměna** – vydávání empirického tvrzení za pravdu z definice a naopak – je častým a nenápadným nástrojem uzavírání diskuse.
 
-- [Glossary index](@/glossary/_index.md)
+## Původ a kontext pojmu
 
----
+Rozlišení systematicky zavedl Immanuel Kant v *Kritice čistého rozumu* (1781, 2. vyd. 1787). Jeho klíčovou otázkou bylo, jak jsou možné **syntetické soudy a priori** – tvrzení, která rozšiřují poznání, a přesto jsou nutná – a za takové považoval matematiku a základní principy přírodovědy, například princip kauzality. Odpověď hledal v [kategoriích](@/glossary/kantovy-kategorie.md) a formách názoru, které poznávající mysl do zkušenosti vnáší.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Logický pozitivismus 20. století rozlišení převzal a zjednodušil: smysluplné jsou buď analytické výroky (logika, matematika, definice), nebo empiricky ověřitelné výroky. W. V. O. Quine v článku *Two Dogmas of Empiricism* (1951) zpochybnil, že by mezi analytickým a syntetickým existovala ostrá hranice: význam slov a přesvědčení o světě tvoří jednu síť, kterou zkušenost testuje jako celek (viz [Quine: síť přesvědčení](@/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md) a [holismus](@/glossary/holismus.md)). Saul Kripke (*Naming and Necessity*, 1980) ukázal, že nutnost a apriornost nejsou totéž: některé nutné pravdy se poznávají až zkušeností.
 
-## Manažerské shrnutí
+## Jak se projevuje
 
-**Synteticke Analyticke** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+V běžné argumentaci se rozlišení uplatňuje, i když se nepojmenovává. Problematické podoby mají rozpoznatelné znaky:
 
+- **empirické tvrzení převlečené za definici** – „skutečný přítel by tohle udělal“, „kdo opravdu miluje, nepochybuje“, „pravý vědec tohle nezpochybňuje“; protipříklad se vyřadí tím, že „nebyl skutečný“;
+- **definice vydávaná za objev** – skupina si stanoví, co slovo znamená, a pak prezentuje výsledek jako zjištěnou pravdu o světě;
+- **posouvání významu** během rozhovoru, aby tvrzení zůstalo pravdivé bez ohledu na fakta;
+- **otázka „co by to vyvrátilo?“** vyvolá odpověď „to nemůže nastat“, protože tvrzení je ve skutečnosti definicí.
 
-## Koncepční síť
+## Mechanismus
 
-Vizualizace propojení **Synteticke Analyticke** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Strukturálně jde o přepínání mezi dvěma druhy pravdy podle potřeby. Když hrozí empirické vyvrácení, tvrzení se stáhne do roviny definice, kde je nevyvratitelné; když je potřeba, aby tvrzení něco říkalo o světě a o člověku, vrátí se do roviny zkušenosti. Výsledkem je výrok, který má autoritu analytické jistoty a zároveň dosah syntetického soudu – kombinace, kterou žádný poctivý výrok mít nemůže. Jde o blízkého příbuzného [cirkulární argumentace](@/glossary/cirkularni-argumentace.md) a [tautologie](@/glossary/tautologie.md); detekční signatura [cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) zachycuje jeho jazykovou stopu.
 
-```mermaid
-graph TD
-    C0["Synteticke Analyticke"]
-    N1["Actor Model"]
-    N2["Adversarial Conditions"]
-    N3["Adapter"]
-    N4["Adaptive Learning"]
-    N5["Addiction Recovery"]
-    N6["ACID Transactions"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Kompendium popisuje hlubší zneužití této roviny v technikách metatranscendentální anihilace: [apriorní saturace (EA-5.2.4)](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md) zahlcuje člověka údajně nutnými pravdami, [syntetická paralýza (EA-5.2.23)](@/kompendium/techniques/ea-5-2-23-synteticka-paralyza.md) narušuje schopnost spojovat pojmy se zkušeností a [analytická anihilace (EA-5.2.24)](@/kompendium/techniques/ea-5-2-24-analyticka-anihilace.md) rozkládá důvěru v samotný význam pojmů.
 
-## Související pojmy
+## Odlišení
 
-- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) — slug `actor-model`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
-- [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
+- **Legitimní spor o definici.** Ujasnit si, co slovo znamená, je nutná součást každé diskuse; problémem je až skrytá záměna definice a faktu.
+- **Odborná terminologie.** Disciplíny oprávněně zavádějí technické definice; ty jsou explicitní a nikdo z nich nevyvozuje empirické závěry bez dat.
+- **Axiomatické systémy.** Matematika a logika pracují s výslovně stanovenými axiomy a nevydávají je za zjištění o světě.
+- **Quineova kritika.** To, že hranice není ostrá, neznamená, že rozdíl neexistuje; v praxi zůstává užitečný.
+- **Klinická rovina.** Nejde o kognitivní poruchu; konkretismus myšlení nebo potíže s abstrakcí u některých stavů mají jinou povahu a posuzují se klinicky.
 
-## Navigace
+## Význam pro Kompendium
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Rozlišení dává čtenáři jednoduchý test pro mnoho manipulačních obratů: je toto tvrzení pravdivé proto, co slova znamenají, nebo proto, jak je svět? Pokud mluvčí odpovídá podle toho, co se mu zrovna hodí, jde o vzorec, který stojí za pozornost. Teoretický kontext rozvíjí [Kantova paradoxie (EA-5.2.16)](@/kompendium/techniques/ea-5-2-16-kantovska-paradoxie.md) a kapitola [7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md).
+
+## Obrana a zotavení
+
+- **Zeptat se na druh pravdy.** „Myslíš to jako definici, nebo jako zjištění? Co by to vyvrátilo?“
+- **Trvat na stálém významu** klíčových slov během rozhovoru; posun významu pojmenovat.
+- **Hledat protipříklady** a sledovat, zda jsou vyřazeny argumentem, nebo předefinováním; pomáhá [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md).
+- **Pro profesionála:** u klientů z uzavřených skupin rozlišovat, která „pravidla“ byla definicemi skupiny a která zkušenostmi; ta první lze bezpečně odložit, ta druhá je třeba prozkoumat.
+
+## Literatura
+
+- Kant, I. (1781/1787). *Kritik der reinen Vernunft*.
+- Quine, W. V. O. (1951). Two Dogmas of Empiricism. *The Philosophical Review*, 60.
+- Kripke, S. A. (1980). *Naming and Necessity*.
+
+## Související
+
+**Glosář**
+
+- [Apriori](@/glossary/apriori.md) – druhé Kantovo rozlišení.
+- [Kantovy kategorie](@/glossary/kantovy-kategorie.md) – podmínky syntetických soudů a priori.
+- [Tautologie](@/glossary/tautologie.md) – analytická pravda, která nic neříká.
+- [Cirkulární argumentace](@/glossary/cirkularni-argumentace.md) – závěr skrytý v premise.
+
+**Techniky**
+
+- [EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md) – zahlcení údajně nutnými pravdami.
+- [EA-5.2.23 Syntetická paralýza](@/kompendium/techniques/ea-5-2-23-synteticka-paralyza.md) – narušení vazby pojmu a zkušenosti.
+- [EA-5.2.24 Analytická anihilace](@/kompendium/techniques/ea-5-2-24-analyticka-anihilace.md) – rozklad důvěry ve význam.
+
+**Teorie a detekce**
+
+- [7.26 Quine: Síť přesvědčení a holismus](@/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md) – kritika ostré hranice.
+- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – jazyková stopa záměny.

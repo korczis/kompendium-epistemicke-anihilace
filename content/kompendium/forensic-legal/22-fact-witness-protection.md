@@ -1,90 +1,164 @@
 +++
-title = "Ochrana svedku"
-description = "Forenzni a pravni rozmer EA — ochrana svedku."
+title = "Ochrana svědků"
+description = "Procesní a faktické nástroje ochrany obětí a svědků v kauzách EA – od výslechu bez vizuálního kontaktu po ochranu soukromí a digitální bezpečnost."
 weight = 22
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "court-testimony"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["20-criminal-conspiracy-EA", "21-expert-witness-EA", "23-cross-examination-defense", "24-deposition-EA"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Ochrana svedku
+# Ochrana svědků
 
-## Pravni / forenzni kontext
+Kapitola z [části o soudním svědectví](@/kompendium/forensic-legal/_index.md) popisuje,
+jak chránit oběti a svědky v kauzách epistemického zneužívání před zastrašováním,
+ovlivňováním a druhotnou újmou. Zabývá se především svědky skutkovými – lidmi, kteří něco
+viděli, slyšeli nebo prožili –, nikoli znalci. Je určena policistům, státním zástupcům,
+soudcům, zmocněncům obětí a podpůrným organizacím.
 
-Svedek EA potrebuje ochranu proti retaliation, doxxing a pokracujicimu psychickemu napadu pred i po vypovedi. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+Ochrana svědků v českém právu má několik úrovní:
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+- **Ochrana podle zákona č. 45/2013 Sb., o obětech trestných činů** – právo na doprovod
+  důvěrníka, na informace o propuštění nebo útěku obviněného, na ochranu soukromí a před
+  druhotnou újmou. **Zvlášť zranitelné oběti** (mimo jiné děti, osoby se zdravotním
+  postižením, oběti obchodování s lidmi a za určitých podmínek oběti násilných a sexuálních
+  trestných činů se zvýšeným rizikem druhotné újmy) mají právo na výslech osobou, která je k tomu vyškolena, na zamezení
+  vizuálního kontaktu s pachatelem a na omezení opakovaných výslechů.
+- **Procesní opatření podle trestního řádu** – možnost utajení totožnosti svědka při
+  vážném ohrožení, vyloučení veřejnosti, výslech prostřednictvím videokonference.
+- **Zvláštní ochrana svědka** podle zákona č. 137/2001 Sb. – v nejzávažnějších případech
+  fyzická ochrana, změna pobytu a identity.
+- **Ochranná opatření mimo trestní řízení** – policejní vykázání (zákon č. 273/2008 Sb.,
+  § 44) a předběžné opatření soudu při domácím násilí.
+
+Směrnice 2012/29/EU o právech obětí stanoví minimální standardy, které tyto nástroje
+promítají.
+
+## Specifika epistemického zneužívání
+
+V kauzách EA směřuje ohrožení svědků méně často k fyzickému napadení a častěji k jejich
+vnímání a pověsti:
+
+- **Přepisování vzpomínek** – kontakt s obviněným, který „připomíná, jak to bylo“ (viz
+  [Ovlivňování svědků](@/kompendium/forensic-legal/15-witness-tampering.md)).
+- **Diskreditace** – šíření informací o duševním zdraví, minulosti nebo motivech svědka.
+- **Sociální tlak** – rodina, komunita nebo skupina, která svědka vyloučí nebo zahrnuje
+  výčitkami.
+- **Digitální expozice** – [doxing](@/glossary/doxing.md), sledování účtů, falešné profily,
+  online kampaně.
+- **Využití dětí a společných záležitostí** jako kanálu tlaku.
+
+Proto musí ochrana zahrnovat i soukromí, digitální bezpečnost a podporu sociální sítě, nikoli
+jen fyzické bezpečí.
+
+## Klíčové principy
+
+- **Posouzení rizika na začátku**, ne až po incidentu.
+- **Individualizace.** Opatření se volí podle konkrétního ohrožení a potřeb svědka.
+- **Kontinuita.** Ochrana pokračuje i po skončení řízení, pokud riziko trvá.
+- **Informovanost.** Svědek ví, jaká opatření existují a o která může požádat.
+- **Minimalizace expozice.** Co nejméně výslechů, co nejméně osob s přístupem k osobním
+  údajům.
 
 ## Procedurální postup
 
-Sealed identity petition, no-contact order, security plan, post-trial monitoring, threat assessment. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+1. **Vyhodnocení rizika.** Historie výhrůžek, přístup obviněného ke svědkovi, sdílené
+   bydlení, děti, závislost, digitální expozice, chování obviněného po oznámení.
+2. **Posouzení statusu zvlášť zranitelné oběti** a poučení o právech z něj plynoucích.
+3. **Volba opatření** – vykázání, zákaz kontaktu, podmínky stíhání na svobodě, utajení
+   údajů, výslech bez vizuálního kontaktu, doprovod důvěrníka.
+4. **Ochrana osobních údajů.** Kontrola, které údaje o svědkovi jsou ve spisu přístupné
+   obviněnému; žádost o jejich ochranu tam, kde je to možné.
+5. **Digitální bezpečnost.** Změna hesel, kontrola sdílení polohy a zařízení, nastavení
+   soukromí účtů (viz [Elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md)).
+6. **Kanál pro hlášení incidentů.** Svědek ví, komu a jak hlásit pokusy o kontakt.
+7. **Revize opatření** v klíčových momentech – propuštění obviněného, hlavní líčení,
+   vyhlášení rozsudku.
+
+## Markery a diferenciální úvahy
+
+Na rostoucí riziko pro svědka ukazuje:
+
+- pokusy o kontakt přes třetí osoby a nové účty;
+- změny chování svědka – stahování, odmítání spolupráce, náhlé zlehčování;
+- zveřejnění osobních informací o svědkovi;
+- eskalace v klíčových fázích řízení;
+- výhrůžky sebepoškozením ze strany obviněného jako forma tlaku.
+
+Diferenciálně je třeba odlišit legitimní kontakt (například při předávání dětí podle
+rozhodnutí soudu) od kontaktu, který tlak vyvíjí. I legitimní kontakt lze upravit tak, aby
+neposkytoval prostor k ovlivnění.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Adresa ve spisu.** Údaje o bydlišti oběti, ke kterým má obviněný přístup.
+- **Společné prostory** – chodby soudu, čekárny, kde se oběť potká s obviněným.
+- **Ukončení ochrany s koncem řízení**, ačkoli riziko trvá.
+- **Přehlížení svědků z okolí** – ochrana se soustředí na oběť, zatímco tlak míří na její
+  blízké.
+- **Mediální pozornost** – zveřejnění identity svědka v médiích nebo na sociálních sítích.
+
+## Modelová situace (anonymizovaná)
+
+Bývalá členka uzavřené skupiny je klíčovou svědkyní v řízení proti jejímu vedoucímu.
+Po podání výpovědi zaznamená na sociálních sítích falešné profily, které rozšiřují její
+fotografie a tvrzení o jejím „psychiatrickém onemocnění“. Zmocněnkyně požádá o status zvlášť
+zranitelné oběti, výslech bez vizuálního kontaktu a ochranu údajů ve spisu. Podpůrná
+organizace pomůže s digitální bezpečností. Policie zajistí obsah falešných profilů a
+posuzuje jej jako samostatný skutek. Svědkyně u hlavního líčení vypovídá prostřednictvím
+videokonference z jiné místnosti.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro dotčenou osobu a svědky
 
-## Cross-linky
+- Ptejte se, jaká ochranná opatření jsou k dispozici, a žádejte o ně.
+- Zkontrolujte svá zařízení a účty; omezte sdílení polohy.
+- Zapisujte každý pokus o kontakt nebo zveřejnění informací.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro policii a státní zastupitelství
 
+- Hodnoťte riziko včetně digitálního a reputačního ohrožení.
+- Chraňte osobní údaje svědků ve spisu.
+- Informujte oběť o propuštění obviněného bez zbytečného odkladu.
 
-## Connect
+### Pro soudy
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Zajistěte oddělené čekací prostory a výslech bez vizuálního kontaktu tam, kde je to
+  indikováno.
+- Reagujte na zastrašování v jednací síni (pohledy, gesta, poznámky).
 
+## Limity a otevřené otázky
+
+Ochranná opatření jsou navržena hlavně pro fyzické ohrožení a hůře reagují na
+diskreditační a digitální kampaně. Zvláštní ochrana svědka podle zákona č. 137/2001 Sb.
+se v kauzách psychického zneužívání uplatní jen výjimečně. Otevřenou otázkou je i
+rovnováha mezi ochranou svědka a právem obviněného na obhajobu, včetně přístupu ke spisu a
+možnosti klást svědkovi otázky.
+
+## Související
+
+**V této sekci**
+
+- [Ovlivňování svědků](@/kompendium/forensic-legal/15-witness-tampering.md) – před čím ochrana chrání.
+- [Dekompenzace u soudu](@/kompendium/forensic-legal/28-courtroom-decompensation.md) – ochrana duševního zdraví v jednací síni.
+- [Příprava na proces](@/kompendium/forensic-legal/27-trial-prep.md) – plánování ochranných opatření předem.
+
+**Glosář**
+
+- [Doxing](@/glossary/doxing.md) – zveřejnění osobních údajů.
+- [Retraumatizace](@/glossary/retraumatizace.md) – druhotná újma v řízení.
+
+**Protokoly a techniky**
+
+- [Witness protection v EA-kontextu](@/kompendium/emergency-protocols/40-witness-protection.md) – akutní postup.
+- [Doxxing Epistemický](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md) – mechanismus expozice.
+- [Stalking Behavior Checklist](@/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md) – posouzení pronásledování.
+- [EU právo – EA rámec](@/kompendium/international/21-EU-law-EA/index.md) – evropské standardy práv obětí.

@@ -35,6 +35,7 @@ odchozí a příchozí odkazy):
 | `links-out` | aspoň 3 vnitřní odkazy `@/` na existující stránky |
 | `not-orphan` | aspoň jedna jiná stránka sem odkazuje |
 | `broken-link` | žádný odkaz `@/` na neexistující stránku |
+| `term-page` | každý pojem z rejstříku `08-prilohy/index-pojmu.md` má vlastní stránku: heslo glosáře (podle názvu nebo anglického ekvivalentu), esej ve `philosophy/` nebo stránku techniky (podle kódu EA) |
 
 Odvozená data se negenerují ručně: `scripts/build-graph.py` zapisuje
 `static/data/graph.json` (stránky a jejich odkazy) a `static/data/metrics.json` (čísla pro
@@ -45,7 +46,9 @@ opraví umístění popisu a štítků a převede YAML na TOML beze změny čeho
 
 `scripts/check-ia.py` skončí kódem 1 při každém porušení, které není v
 `scripts/ia-baseline.json`. Základ obsahuje jen stav z doby zavedení pravidla a smí se jen
-zmenšovat (`--update-baseline` odmítne cokoli přidat). Commit, který pravidlo poruší, se
+zmenšovat (`--update-baseline` odmítne cokoli přidat). Nový požadavek se zavádí jednou a
+výslovně: `--introduce <požadavek>` přidá do základu jeho tehdejší porušení a podruhé už to
+neudělá. Commit, který pravidlo poruší, se
 opraví dřív, než se sloučí do `main`.
 
 # Verification

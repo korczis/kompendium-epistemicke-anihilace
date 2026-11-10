@@ -1,81 +1,105 @@
 +++
-title = "Scam Compliance"
+title = "Scam compliance (podvolení podvodu)"
 weight = 100
-description = "Scam Compliance — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie security."
+description = "Scam compliance: proč lidé vyhoví podvodníkovi navzdory varovným signálům. Psychologické páky, znaky, právní rámec, prevence a péče o oběti."
 
 [taxonomies]
-tags = ["glossary", "security", "interactive"]
+tags = ["glossary", "kompendium", "psychology", "security", "legal"]
 
 [extra]
-category = "security"
-related_terms = ["adapter", "adversarial-architecture", "adapter-pattern", "addiction-recovery", "accreditation", "adaptive-testing"]
+category = "psychology"
+related_terms = ["undue-influence", "elder-abuse", "love-bombing", "trauma-bonding", "socialni-izolace", "coercive-control"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Scam Compliance** is a security-domain term used in the Prismatic Platform context — relevant to threat modeling, OWASP risk analysis, [security posture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-posture/) assessment, or compliance gates. This entry is a structural stub — full treatment with attack vectors, detection patterns, and mitigation recipes is part of the security knowledge-base buildout.
+**Scam compliance** (podvolení podvodu) označuje chování oběti podvodu, která vyhoví požadavkům podvodníka – převede peníze, sdělí přístupové údaje, podepíše smlouvu, zatají jednání před blízkými – navzdory varovným signálům, které by za jiných okolností rozpoznala. Pojem přesouvá otázku z „proč byl ten člověk tak naivní“ na „jaké podmínky vytvořil podvod, aby se běžné rozhodování dočasně vypnulo“.
 
-## See Also
+Kompendium pojem zařazuje mezi jevy epistemické povahy: podvod nespoléhá jen na nepravdivou informaci, ale na **řízení podmínek, za nichž člověk informace vyhodnocuje** – čas, emoce, izolaci a důvěru.
 
-- [Glossary index](@/glossary/_index.md)
+## Původ a kontext pojmu
 
----
+Pojem vychází z viktimologie podvodů, z psychologie sociálního vlivu a z bezpečnosti informačních systémů. Robert Cialdini v knize *Influence* (1984) popsal principy, na nichž stojí běžné i zneužité ovlivňování: reciprocitu, závazek a konzistenci, sociální důkaz, autoritu, sympatii a vzácnost. Frank Stajano a Paul Wilson (2011) na základě analýzy podvodných schémat formulovali principy, které podvody využívají, a ukázali, že jde o systematické zranitelnosti lidského rozhodování, nikoli o selhání jednotlivců. Z praxe obětí je známé, že oběti mají často vysoké vzdělání i zkušenost a že stud vede k tomu, že podvody bývají hlášeny jen zčásti.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Jak se projevuje
 
-## Manažerské shrnutí
+Varovné znaky pro blízké, banky a profesionály:
 
-**Scam Compliance** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+- **náhlé utajování** finančních operací a komunikace, vysvětlované pokynem třetí osoby („nikomu to neříkejte, ani v bance“);
+- **časový tlak a naléhavost**, které neumožňují poradit se ([vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md));
+- **silná emoční aktivace** – strach (ohrožený účet, policie, nemoc), naděje (výnos, výhra) nebo náklonnost (online vztah);
+- **eskalace** od malých částek k velkým a opakované „poslední“ platby;
+- **odmítání pochybností blízkých** a obrana podvodníka, někdy s hněvem;
+- **ztráta kontaktu** s dosavadními poradci a přáteli ([akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md));
+- po odhalení **stud, sebeobviňování a riziko opakované viktimizace** „pomocníky“, kteří slibují vrácení peněz.
 
+## Mechanismus
 
-## Koncepční síť
+Popis je strukturální a slouží rozpoznání. Podvodné schéma typicky kombinuje čtyři prvky:
 
-Vizualizace propojení **Scam Compliance** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+1. **Rámec autority nebo vztahu.** Podvodník vystupuje jako instituce, odborník nebo blízká osoba; tím přebírá roli zdroje pravdy. U romantických podvodů se vazba buduje intenzivní pozorností připomínající [love bombing](@/glossary/love-bombing.md) a může přejít v [traumatickou vazbu](@/glossary/trauma-bonding.md).
+2. **Emoční zúžení.** Strach nebo touha zúží pozornost na jediný cíl a odsunou kritické hodnocení.
+3. **Izolace od korekce.** Pokyn mlčet a nevěřit blízkým odstraní nezávislé hlasy, které by podvod rozpoznaly; jde o tutéž strukturu jako [sociální izolace](@/glossary/socialni-izolace.md) v jiných kontextech.
+4. **Postupný závazek.** Každý další krok je obhajobou předchozího; přiznat podvod znamená přiznat ztrátu, a tak je snazší pokračovat.
 
-```mermaid
-graph TD
-    C0["Scam Compliance"]
-    N1["Adapter"]
-    N2["Adversarial Architecture"]
-    N3["Adapter Pattern"]
-    N4["Addiction Recovery"]
-    N5["Accreditation"]
-    N6["Adaptive Testing"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Stejná struktura se objevuje v [MLM schématech](@/kompendium/case-studies/13-mlm-recovery.md) a [finančních kultech](@/kompendium/case-studies/20-finance-cult.md), kde se podvodné prvky mísí se skupinovou identitou. Technologická rovina (podvržený hlas, cílené zprávy) je popsána v [EA-9.2.2 Voice cloning](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md) a v mostu [social engineering](@/kompendium/cross-domain/17-ea-security-social-engineering.md).
 
-## Související pojmy
+## Odlišení
 
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
-- [Adaptive Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-testing/) — slug `adaptive-testing`
+- **Důvěřivost jako rys.** Podvolení podvodu není důkazem hlouposti ani trvalé důvěřivosti; jde o situačně vyvolaný stav, kterému podléhají i odborníci.
+- **Snížená rozhodovací způsobilost.** U kognitivního úpadku nebo demence je třeba posoudit kapacitu (viz [EA-8.1.10 Decision-Making Capacity Scale](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)); ochranná opatření se pak liší.
+- **Nepřípustný vliv.** U [undue influence](@/glossary/undue-influence.md) jde o dlouhodobou vazbu, v níž osoba zneužívá důvěru (např. pečovatel, „duchovní rádce“); podvod bývá kratší a anonymnější.
+- **Zneužívání seniorů a domácí ekonomická kontrola.** Finanční vykořisťování blízkou osobou patří do rámce [zneužívání seniorů](@/glossary/elder-abuse.md) nebo [coercive control](@/glossary/coercive-control.md).
+- **Riskantní, ale svobodná investice** nebo patologické hráčství – rozdíl je v tom, zda byla rozhodnutí vědomá a informovaná.
 
-## Navigace
+## Právní rámec
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+V českém právu je základní skutkovou podstatou **podvod podle § 209 trestního zákoníku** (zákon č. 40/2009 Sb.): obohacení sebe nebo jiného tím, že někoho uvede v omyl, využije jeho omylu nebo zamlčí podstatné skutečnosti, a způsobí tak na cizím majetku škodu. Pro posuzování je podstatné doložit průběh komunikace a sled operací; viz [podvod jako element EA](@/kompendium/forensic-legal/17-fraud-EA-element.md), [uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md) a u starších osob [právo o zneužívání seniorů](@/kompendium/forensic-legal/46-elder-abuse-law.md). Konkrétní postup závisí na jurisdikci a vyžaduje právní poradenství.
+
+## Význam pro Kompendium
+
+Scam compliance ukazuje v malém měřítku a krátkém čase tytéž prvky, které jinde působí roky: substituci zdroje pravdy, izolaci, emoční zúžení a eskalaci závazku. Je proto vhodným vstupem do výuky rozpoznávání a do [organizační prevence](@/kompendium/prevention-resilience/12-warning-sign-recognition.md).
+
+## Obrana a zotavení
+
+Pro jednotlivce a rodiny:
+
+- **Pravidlo pauzy:** žádná instituce nepožaduje okamžitý převod ani utajení před blízkými. Naléhavost a mlčenlivost jsou samy o sobě důvodem zastavit se.
+- **Ověření jiným kanálem** – zavěsit a zavolat na známé číslo instituce, ne na číslo ze zprávy.
+- **Domluvená „druhá osoba“** pro finanční rozhodnutí nad určitou částku; viz [kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md).
+
+Pro profesionály:
+
+- **Nevyčítat.** Stud je hlavní překážkou nahlášení a hlavním rizikem opakované viktimizace; viz [riziko obviňování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md).
+- **Stabilizace a obnova důvěry v sebe** – oběť často ztrácí důvěru ve vlastní úsudek obecně; u seniorů viz [rekonstrukční protokol pro seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md).
+- **Varovat před „vymahači“,** kteří po podvodu nabízejí vrácení peněz za poplatek.
+
+## Literatura
+
+- Cialdini, R. B. (1984). *Influence: The Psychology of Persuasion*.
+- Stajano, F., Wilson, P. (2011). Understanding scam victims: seven principles for systems security. *Communications of the ACM*, 54.
+
+## Související
+
+**Glosář**
+
+- [Undue influence](@/glossary/undue-influence.md) – dlouhodobé zneužití důvěry.
+- [Elder abuse](@/glossary/elder-abuse.md) – zranitelná skupina s vysokým rizikem.
+- [Love bombing](@/glossary/love-bombing.md) – mechanismus romantických podvodů.
+- [Sociální izolace](@/glossary/socialni-izolace.md) – odstranění korekce blízkými.
+
+**Detekce a případy**
+
+- [Detekční signatura: Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) – klíčový marker.
+- [Případ 13: MLM recovery](@/kompendium/case-studies/13-mlm-recovery.md) – podvod spojený se skupinovou identitou.
+- [EA × Security: Social Engineering 2.0](@/kompendium/cross-domain/17-ea-security-social-engineering.md) – organizační rovina.
+
+**Právo a zotavení**
+
+- [Podvod jako element EA](@/kompendium/forensic-legal/17-fraud-EA-element.md) – právní posouzení.
+- [Rekonstrukční protokol pro seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md) – následná péče.

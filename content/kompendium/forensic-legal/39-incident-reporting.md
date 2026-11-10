@@ -1,90 +1,154 @@
 +++
-title = "Hlaseni incidentu"
-description = "Forenzni a pravni rozmer EA — hlaseni incidentu."
+title = "Hlášení incidentů"
+description = "Jak v organizacích nastavit a vést hlášení incidentů epistemického zneužívání – od prvního oznámení po šetření – tak, aby chránilo oznamovatele i férovost vůči obviněnému."
 weight = 39
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "documentation-standards"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["37-third-party-corroboration", "38-pattern-evidence", "4-malingering-detection", "40-mandatory-reporting-state"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Hlaseni incidentu
+# Hlášení incidentů
 
-## Pravni / forenzni kontext
+Kapitola z [části o standardech dokumentace](@/kompendium/forensic-legal/_index.md) se
+zabývá oznamováním incidentů uvnitř organizací – firem, škol, univerzit, zdravotnických
+zařízení, sportovních klubů, náboženských společenství – a jejich předáním vnějším orgánům.
+Epistemické zneužívání v organizacích má často podobu soustavného zpochybňování, izolace a
+přepisování událostí ze strany nadřízeného, školitele nebo vedoucího. Kapitola je určena
+personalistům, compliance a etickým útvarům, vedení organizací, ombudsmanům a oznamovatelům.
 
-Real-time incident reporting EA (police reports, ER records, helpline calls) vytvari contemporaneous corroboration. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+Zákon č. 171/2023 Sb., o ochraně oznamovatelů, ukládá vybraným zaměstnavatelům zřídit
+vnitřní oznamovací systém a chrání oznamovatele protiprávního jednání před odvetnými
+opatřeními; oznámení lze podat také Ministerstvu spravedlnosti. Zákon se vztahuje na
+oznámení protiprávního jednání v rozsahu, který vymezuje; ne každý případ psychického
+zneužívání do něj spadá. Zaměstnavatel má podle zákoníku práce (zákon č. 262/2006 Sb.)
+povinnost zajistit rovné zacházení a bezpečné pracovní prostředí, a antidiskriminační zákon
+(zákon č. 198/2009 Sb.) chrání před obtěžováním. V oblasti vzdělávání, zdravotnictví a
+sportu existují vlastní vnitřní předpisy a etické kodexy. Pokud incident naplňuje znaky
+trestného činu, může vzniknout i oznamovací povinnost (viz [Povinné
+hlášení](@/kompendium/forensic-legal/40-mandatory-reporting-state.md)).
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+## Specifika epistemického zneužívání
+
+Organizační EA se špatně hlásí, protože:
+
+- **Oznamovatel pochybuje o sobě.** Po měsících zpochybňování si není jistý, zda nejde
+  o „normální náročnost“ nebo o jeho vlastní selhání.
+- **Pachatel má institucionální moc** – hodnotí, doporučuje, rozhoduje o kariéře.
+- **Jednotlivé incidenty jsou banální** – poznámka na poradě, nepozvání na schůzku,
+  „zapomenutý“ e-mail.
+- **Hrozí odveta** – horší hodnocení, ztráta projektů, diskreditace (viz [Pomluva v kontextu
+  EA](@/kompendium/forensic-legal/14-defamation-EA.md)).
+- **Organizace chrání sebe.** Interní šetření může sloužit k uzavření problému, ne k jeho
+  vyřešení.
+
+## Klíčové principy
+
+- **Dostupnost.** Více kanálů, včetně anonymního, a jasné informace, jak je použít.
+- **Nezávislost.** Oznámení neprošetřuje osoba, která je s obviněným ve vztahu podřízenosti
+  nebo blízkosti.
+- **Ochrana před odvetou.** Aktivní, ne jen formální.
+- **Férovost vůči obviněnému.** Presumpce neviny, právo vyjádřit se, důvěrnost.
+- **Dokumentace.** Záznam o přijetí, krocích, zjištěních a výsledku.
 
 ## Procedurální postup
 
-Multi-channel reporting (911/IPV hotline/medical), report numbers retained, follow-up documentation. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+1. **Přijetí oznámení.** Potvrzení přijetí, informace o dalším postupu a o ochraně;
+   zaznamenat obsah doslovně.
+2. **Posouzení naléhavosti.** Bezpečnost oznamovatele a dalších osob, riziko pro zdraví,
+   možný trestný čin.
+3. **Předběžná opatření.** Úprava vztahu podřízenosti, změna hodnotitele, oddělení
+   pracovišť – tak, aby nezatěžovala oznamovatele.
+4. **Šetření.** Nezávislý šetřitel, rozhovory s oznamovatelem, obviněným a svědky,
+   shromáždění dokumentů; pozornost vzorci, ne jen jednotlivým incidentům (viz [interní
+   šetření](@/kompendium/organizational-defense/32-internal-investigation.md)).
+5. **Závěr a opatření.** Zjištění, právní a personální opatření, nápravná opatření
+   v organizaci.
+6. **Informování oznamovatele** o výsledku v rozsahu, který je možný.
+7. **Monitoring odvety** v dalších měsících.
+8. **Předání vnějším orgánům**, pokud jde o trestný čin nebo pokud to vyžaduje zákon.
+
+## Markery a diferenciální úvahy
+
+Na organizační EA ukazuje:
+
+- opakované stížnosti na tutéž osobu od různých lidí;
+- vysoká fluktuace v týmu, odchody bez vysvětlení;
+- izolace jednotlivců od informací a rozhodování;
+- přepisování zápisů z porad a popírání dohod;
+- hodnocení, které se zhoršuje po projevech nesouhlasu.
+
+Diferenciálně je třeba odlišit **náročné vedení** s jasnými a spravedlivými nároky,
+**pracovní konflikt** bez asymetrie moci, **legitimní kritiku výkonu** a **účelové
+oznámení**, které má poškodit kolegu. Šetření musí všechny možnosti zvážit stejně pečlivě.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Šetření vedené nadřízeným obviněného** nebo osobou s konfliktem zájmů.
+- **Formální vyřízení** bez skutečného šetření.
+- **Únik identity oznamovatele.**
+- **Odveta skrytá v běžném řízení** – nižší odměny, odebrání projektů, horší hodnocení.
+- **Konfrontace** oznamovatele s obviněným bez souhlasu a přípravy.
+
+## Modelová situace (anonymizovaná)
+
+Ve výzkumném ústavu podají během roku tři doktorandi stížnosti na stejného vedoucího
+skupiny: zpochybňování jejich práce před ostatními, přepisování autorství, výroky typu „tohle
+jste si vymysleli“. Ombudsmanka ústavu je eviduje a poté, co se objeví třetí, iniciuje
+nezávislé šetření vedené externím odborníkem. Šetření zjistí vzorec a doloží ho zápisy
+z porad a e-maily. Ústav změní školitele, zavede pravidla pro autorství a sleduje, zda
+doktorandi nejsou znevýhodňováni. Vedoucí dostane možnost se ke zjištěním vyjádřit;
+jeho vyjádření je součástí zprávy.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro oznamovatele
 
-## Cross-linky
+- Zapisujte konkrétní události s datem a svědky; uchovávejte e-maily a zápisy.
+- Zjistěte, jaké kanály a jaká ochrana jsou ve vaší organizaci k dispozici.
+- Odveta je protiprávní; dokumentujte i ji.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro organizace
 
+- Nastavte více nezávislých kanálů a aktivní ochranu před odvetou.
+- Šetření svěřte osobám bez konfliktu zájmů a s porozuměním vzorcům kontroly.
+- Zajistěte férový proces i pro obviněného.
 
-## Connect
+### Pro právníky a compliance
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Posuzujte, zda oznámení spadá pod zákon o ochraně oznamovatelů, a postupujte podle toho.
+- Při podezření z trestného činu zvažte oznamovací povinnost.
 
+## Limity a otevřené otázky
+
+Interní systémy mají omezené prostředky k šetření a mohou být ovlivněny zájmem organizace
+na pověsti. Zákon o ochraně oznamovatelů pokrývá jen část jednání, která lze označit za
+epistemické zneužívání. Otevřenou otázkou je, jak organizace mohou rozpoznat vzorec dříve,
+než se objeví formální stížnost – například analýzou fluktuace nebo anonymních průzkumů –,
+aniž by vytvořily systém plošného sledování.
+
+## Související
+
+**V této sekci**
+
+- [Povinné hlášení](@/kompendium/forensic-legal/40-mandatory-reporting-state.md) – kdy hlášení vnějším orgánům není volbou.
+- [Pracovní právo](@/kompendium/forensic-legal/44-employment-law-EA.md) – pracovněprávní rámec.
+- [Pomluva v kontextu EA](@/kompendium/forensic-legal/14-defamation-EA.md) – odveta diskreditací.
+
+**Organizační obrana**
+
+- [Whistleblower mechanismus](@/kompendium/organizational-defense/4-whistleblower-mechanism.md) – nastavení oznamovacího systému.
+- [Interní šetření](@/kompendium/organizational-defense/32-internal-investigation.md) – vedení šetření.
+- [Incident response EA](@/kompendium/organizational-defense/31-incident-response-EA.md) – reakce organizace.
+- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md) – nezávislý kanál.
+
+**Případy**
+
+- [Postdoc exploitace](@/kompendium/case-studies/33-postdoc-exploitation.md) – anonymizovaný případ z akademického prostředí.

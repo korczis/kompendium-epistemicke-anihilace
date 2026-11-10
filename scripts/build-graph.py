@@ -21,7 +21,7 @@ import sys
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from ia_model import ROOT, load_pages  # noqa: E402
+from ia_model import ROOT, load_pages, load_terms  # noqa: E402
 
 OUT = ROOT / "static" / "data"
 SCHEMA = "kompendium-graph/v1"
@@ -64,6 +64,7 @@ def build() -> dict:
             "with_related": sum(1 for p in group if p["has_related"]),
         })
     total_words = sum(p["words"] for p in pages)
+    terms = load_terms(pages)
     metrics = {
         "schema": "kompendium-metrics/v1",
         "pages": len(pages),
@@ -75,6 +76,9 @@ def build() -> dict:
         "pages_without_diacritics": sum(s["without_diacritics"] for s in sections),
         "pages_with_related": sum(s["with_related"] for s in sections),
         "thin_pages": sum(1 for p in pages if p["words"] < 600 and not p["is_index"]),
+        "terms": len(terms),
+        "terms_with_page": sum(1 for t in terms if t["page"]),
+        "terms_without_page": sorted(t["term"] for t in terms if not t["page"]),
         "sections": sections,
     }
     graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges}

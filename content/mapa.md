@@ -3,6 +3,7 @@ title = "Mapa knihy"
 description = "Interaktivní graf všech stránek kompendia a odkazů mezi nimi: oddíly, štítky a okolí každé stránky."
 template = "mapa.html"
 weight = 901
+
 [taxonomies]
 tags = ["kompendium", "informacni-architektura", "graf", "navigace"]
 

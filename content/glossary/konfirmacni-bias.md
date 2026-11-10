@@ -2,7 +2,7 @@
 title = "Konfirmační bias"
 weight = 60
 
-description = "Sklon vyhledávat, vykládat a pamatovat si informace tak, aby potvrzovaly to, čemu už věříme; nejvíce zneužívaná zranitelnost ze všech kognitivních zkreslení."
+description = "Sklon vyhledávat, vykládat a pamatovat si informace tak, aby potvrzovaly zastávané přesvědčení: Wasonovy pokusy, mechanismus, odlišení, strukturní obrana a meze pojmu."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "cognitive", "kompendium"]
@@ -21,68 +21,174 @@ image_alt = "Konfirmační bias – glosář"
 
 ## Definice
 
-**Konfirmační bias** (*confirmation bias*) je systematický lidský sklon vyhledávat, vykládat, vážit a pamatovat si informace tak, aby potvrzovaly již zastávaná přesvědčení, a souměrně podceňovat, přehlížet nebo špatně si pamatovat informace, které je vyvracejí. Bias působí ve všech třech fázích zpracování přesvědčení:
+**Konfirmační bias** (*confirmation bias*) je systematický sklon vyhledávat, vykládat, vážit
+a pamatovat si informace tak, aby potvrzovaly již zastávané přesvědčení, a souměrně
+podceňovat nebo přehlížet informace, které je vyvracejí. Nickerson jej v přehledové práci
+popsal jako jev, který se projevuje v laboratoři, v medicíně, v soudnictví i ve vědě, a to
+i u lidí s výcvikem v kritickém myšlení (Nickerson, 1998).
 
-1. **získávání** – které zdroje člověk vyhledá;
-2. **výklad** – jak čte nejednoznačné doklady;
-3. **uchování** – která zjištění si zapamatuje.
+Bias působí ve třech fázích zpracování přesvědčení. V získávání rozhoduje o tom, které zdroje
+člověk vyhledá; ve výkladu o tom, jak čte nejednoznačné doklady; v uchování o tom, co si
+zapamatuje. Lord, Ross a Lepper experimentálně ukázali, že tytéž smíšené doklady posílí
+u zastánců obou stran jejich původní postoj, protože každá strana přijme vyhovující studii
+a u nevyhovující hledá metodologické vady (Lord a kol., 1979).
 
-Všechny tři fáze se navzájem posilují: včerejší zkreslené získávání se stává dnešním zkresleným výchozím přesvědčením.
-
-V [Kompendiu epistemické a kognitivní anihilace](@/kompendium/_index.md) je konfirmační bias **nejvíce zneužívanou jednotlivou zranitelností** v celé taxonomii. Je strukturním předpokladem rodiny EA-1.1 (manipulace informačního prostředí).
+Všechny tři fáze se navzájem posilují: včerejší zkreslené získávání se stává dnešním výchozím
+přesvědčením. Právě tato smyčka dělá z biasu strukturní, a nikoli pouze okamžikovou chybu
+(Nickerson, 1998). V [Kompendiu epistemické a kognitivní anihilace](@/kompendium/_index.md) je
+proto veden jako nejčastěji zneužívaná zranitelnost a jako strukturní předpoklad technik
+manipulace s informačním prostředím (*interpretace knihy*, viz [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)).
 
 ## Původ a kontext pojmu
 
-Termín se ustálil po experimentech Petera Wasona v 60. letech (úloha „2-4-6“ a výběrová úloha), které ukázaly, že lidé testují hypotézy hledáním potvrzení, ne vyvrácení. Raymond Nickerson (1998) shrnul rozsáhlou literaturu a ukázal, že bias se projevuje v laboratoři, v medicíně, v soudnictví i ve vědě. Jde o jeden z nejlépe doložených jevů výzkumu [kognitivních biasů](@/glossary/kognitivni-bias.md). V knize jej podrobně rozebírá stránka [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md).
+Jev se ustálil po Wasonových pokusech. V úloze s číselnou řadou účastníci zkoušeli hypotézu
+převážně příklady, které jí odpovídaly, a jen málokdo hledal příklad, který by ji vyvrátil
+(Wason, 1960); ve výběrové úloze s podmíněným pravidlem většina lidí obracela karty, které
+pravidlo potvrzují, a nikoli tu, která je může vyvrátit (Wason, 1968).
+
+Klayman a Ha pojem zpřesnili a tím i zkrotili. Ukázali, že to, co se jeví jako honba za
+potvrzením, je často obecná strategie pozitivního testu — zkoušet případy, u nichž hypotéza
+předpokládá výskyt —, a že taková strategie je v mnoha prostředích informačně rozumná
+(Klayman a Ha, 1987). Rozhodující proto není směr testu, nýbrž diagnostičnost dokladu, tedy
+nakolik by se doklad objevil i tehdy, kdyby hypotéza neplatila.
+
+Pojem se pak rozvětvil. Kunda popsala motivované usuzování, u něhož výsledek určuje přání,
+a odlišila je od zkreslení bez zájmu na výsledku (Kunda, 1990). Souhrn celé oblasti je
+v Nickersonově přehledu (Nickerson, 1998); v knize pojem rozebírá stránka [Konfirmační
+bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md) a zasazuje jej do rodiny
+[kognitivních biasů](@/glossary/kognitivni-bias.md).
 
 ## Jak se projevuje
 
-- člověk sleduje jen zdroje, které „mají pravdu“, a ostatní nečte, protože jsou „zaujaté“;
-- nejednoznačná událost je okamžitě vyložena ve prospěch vlastního názoru;
-- vzpomínky na „zásahy“ jsou živé, na „minely“ chybějí;
-- vysoká vnitřní soudržnost přesvědčení provázená nízkou rozmanitostí zdrojů;
-- ve skupině: [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) a [epistemická bublina](@/glossary/epistemic-bubble.md).
+Nejnápadnějším projevem je sledování jen těch zdrojů, které „mají pravdu“, a nečtení
+ostatních, protože jsou „zaujaté“. Nguyen takové prostředí odlišuje od pouhé bubliny: v echo
+komoře nejde o chybějící informace, nýbrž o aktivní znehodnocení vnějších zdrojů (Nguyen,
+2020).
+
+Druhým projevem je okamžitý výklad nejednoznačné události ve prospěch vlastního názoru,
+doprovázený asymetrickou přísností k dokladům: vyhovující studie se čte vstřícně, nevyhovující
+se pitvá (Lord a kol., 1979).
+
+Třetím projevem je paměťová asymetrie — živé vzpomínky na „zásahy“ a chybějící vzpomínky na
+„minely“ —, kterou Nickerson řadí k nejlépe doloženým složkám jevu (Nickerson, 1998). Ve
+skupině se k ní přidává nízká rozmanitost zdrojů při vysoké vnitřní soudržnosti přesvědčení;
+v knize jí odpovídá signatura [monokultury
+zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) a heslo
+[epistemická bublina](@/glossary/epistemic-bubble.md).
 
 ## Mechanismus
 
-Techniky EA využívají konfirmační bias v několika vrstvách:
+Techniky popsané v knize podle jejího výkladu využívají bias ve více vrstvách. [EA-1.1.1
+Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) působí ve fázi
+získávání, [EA-1.1.2 Informační
+přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) ve fázi výkladu
+a [EA-1.3.1 Imunizace proti
+falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) ve fázi
+uchování, protože vyvracející doklad přesměruje jako další potvrzení. Vrstvení je výkladem
+knihy; doložena je zranitelnost sama (Nickerson, 1998).
 
-- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** – přímo využívá bias ve fázi získávání: člověk si sám podává vybranou informační stravu, protože vyvracející zdroje působí kognitivně nepříjemně.
-- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** – využívá dostupnost spolu s konfirmací: živé potvrzující příklady se snadno vybaví, vyvracející statistiky ne.
-- **budování ozvěnové komory** – sociální prostředí se upraví tak, aby i letmé křížové ověření vracelo potvrzující výsledky; tím mizí přirozená oprava, kterou rozmanité sociální sítě běžně poskytují (viz [izolace](@/glossary/socialni-izolace.md) a [urychlená izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)).
-- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** – vštěpuje myšlenkové kroky („to by přece řekli, ne?“), které vyvracející doklady přesměrují jako další potvrzení.
+Sociální složka je přitom silnější než individuální. Sunstein a Vermeule popsali, že uzavřené
+skupiny s omezeným přístupem k informacím vytvářejí „ochromenou epistemologii“, v níž se
+přesvědčení nemohou opravit (Sunstein a Vermeule, 2009), a Nguyen k tomu dodává, že
+nejúčinnější není informace odepřít, nýbrž znehodnotit její zdroj (Nguyen, 2020). V knize
+k tomu patří heslo [sociální izolace](@/glossary/socialni-izolace.md) a signatura [urychlené
+izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md).
 
-Diagnostický princip Kompendia zní: konfirmační bias je **univerzální** a **na úrovni jednotlivce nevyléčitelný**. Obrana vyžaduje strukturní, ne psychologická opatření – předem sjednané vystavení vyvracejícím informacím, kalibrační hodnocení a vnější revizi.
+Z toho plyne základní diagnostická zásada: bias je univerzální a na úrovni jednotlivého
+rozhodnutí se vůlí nepotlačí. Lilienfeld, Ammirati a Landfield přehledně ukázali, jak omezené
+jsou výsledky nácviku odstraňování zkreslení a jak málo se přenášejí mimo laboratoř
+(Lilienfeld a kol., 2009). Obrana proto musí být strukturní.
 
 ## Odlišení
 
-- **Od rozumné stability přesvědčení:** nevzdat se dobře podloženého názoru kvůli jedné anomálii není bias; bias je nevidět anomálie vůbec.
-- **Od [motivovaného usuzování](@/glossary/kognitivni-bias.md):** příbuzný jev, v němž výsledek usuzování určuje přání; konfirmační bias působí i bez zvláštního přání.
-- **Od [imunizace](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md):** konfirmační bias je přirozený sklon; imunizace je jeho vštípené zesílení, které z něj dělá uzavřený systém.
-- **Od klinických stavů:** bludné přesvědčení je také selektivní vůči dokladům, ale jeho vznik a odolnost mají jiný charakter.
+Od rozumné stability přesvědčení se bias liší tím, že anomálie nejsou vidět. Nevzdat se dobře
+podloženého názoru kvůli jedné anomálii je racionální; Lakatos takový postup popsal jako
+legitimní ochranu jádra výzkumného programu, dokud program přináší nové předpovědi (Lakatos,
+1970).
 
-## Význam pro Kompendium
+Od motivovaného usuzování se liší přítomností zájmu na výsledku: konfirmační zkreslení působí
+i tam, kde člověku na výsledku nezáleží, zatímco motivované usuzování je vedeno přáním (Kunda,
+1990).
 
-Na platformě Prismatic, z níž kniha vzešla, je konfirmační bias **strukturním problémem prvního řádu**, ne osobní slabostí:
+Od pozitivní testovací strategie se liší hodnocením diagnostičnosti. Hledat případy, které
+hypotéza předpovídá, není chyba; chybou je nevšímat si, že tytéž případy by nastaly i při
+neplatnosti hypotézy (Klayman a Ha, 1987).
 
-- [Decision Engine](@/glossary/decision-engine.md) výslovně sleduje **rozmanitost zdrojů** ve svém informačním grafu: rozhodnutí založené na málo rozmanité sadě zdrojů dostane snížení jistoty bez ohledu na vnitřní soudržnost. Vysoká soudržnost spolu s nízkou rozmanitostí je signaturou konfirmačního biasu, ne silou.
-- Kalibrační smyčka platformy porovnává předpovězené a skutečné výsledky právě proto, aby odhalila soustavnou přehnanou sebejistotu, kterou bias vytváří. Subjekt, jehož potvrzující předpovědi „vycházejí“ lépe než vyvracející, vykazuje signaturu biasu i bez analýzy obsahu.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) zavádí **povinné vyvracející dotazy**: každé přesvědčení s vysokou jistotou musí být spárováno s výslovným seznamem zdrojů, které by je vyvrátily; jejich absence je sama poplachem.
-- [Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) staví nepřátelská informační prostředí, aby ověřil, že kontroly rozmanitosti na úrovni platformy obstojí i při záměrném obcházení.
+Od klinických stavů je rozdíl v mechanismu a odolnosti: bludné přesvědčení je také selektivní
+vůči dokladům, ale jeho vznik, průběh a reakce na doklady jsou jiné a jeho hodnocení patří
+klinikovi podle kritérií (American Psychiatric Association, 2022).
 
-Principiální obrana, odvozená z [falsifikace](@/glossary/falsifikace.md) (Popper) a [Lakatosových výzkumných programů](@/glossary/lakatos-vyzkumny-program.md), zní: **dávat přednost pokusům o vyvrácení před hledáním potvrzení**. Zjištění, že přesvědčení přežilo vážný pokus o vyvrácení, váží epistemicky víc než deset potvrzujících příkladů. Rozhraní platformy tuto asymetrii zviditelňuje: vyvracející záznamy váží v hodnocení Decision Engine víc než potvrzující záznamy stejné kvality zdroje. Odpovídá to teorii pravděpodobnosti: potvrzení má váhu jen tehdy, když by se doklad při neplatnosti hypotézy pravděpodobně neobjevil, tedy když je poměr P(E|H) ku P(E|¬H) vysoký; běžná „potvrzení“, která by se objevila tak jako tak, nevypovídají téměř nic.
+## Klinický a forenzní rámec
+
+V medicíně je bias popsán jako jedna z hlavních příčin diagnostických chyb: lékař se přikloní
+k hypotéze a následná vyšetření ji už jen potvrzují. Croskerry proto doporučuje postupy, které
+nutí uvažovat alternativy nezávisle na první hypotéze (Croskerry, 2003).
+
+Ve zpravodajské a vyšetřovací praxi existuje k témuž problému rozpracovaný postup: analýza
+konkurenčních hypotéz, při níž se důkazy hodnotí podle toho, nakolik mezi hypotézami rozlišují
+(Heuer, 1999). V knize k tomu patří [prevence konfirmačního biasu v due
+diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md) a [bias ve
+vyšetřování](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md).
+
+Pro kliniku a pro práci s knihou samotnou platí totéž pravidlo zpětně: kdo hledá manipulaci,
+najde ji. Právě proto jsou v diagnostice potřebné postupy, které alternativní vysvětlení
+vynutí (Croskerry, 2003); v knize na to upozorňuje [riziko kruhového
+uvažování](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md).
 
 ## Obrana a zotavení
 
-- **Pro jednotlivce:** sledovat záměrně alespoň jeden kvalitní zdroj s opačným pohledem; u důležitých přesvědčení si zapsat, co by je vyvrátilo; [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md), [kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md), [osobní audit biasů](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
-- **Pro analytiky a organizace:** „ďáblův advokát“ s mandátem, analýza konkurenčních hypotéz, oddělení sběru od hodnocení; viz [prevence konfirmačního biasu v due diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md) a [bias ve vyšetřování](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md).
-- **Pro kliniky:** pamatovat, že bias se týká i diagnostiky EA samotné – kdo hledá manipulaci, najde ji ([riziko kruhového uvažování](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)).
+Principiální obrana je asymetrická: dát přednost pokusům o vyvrácení před hledáním potvrzení.
+Popper z této asymetrie udělal kritérium vědecké práce (Popper, 1963) a Lakatos ji zpřesnil
+na rozlišení mezi programem, který nové předpovědi vytváří, a programem, který už jen uhýbá
+(Lakatos, 1970); v knize k tomu patří [falsifikace](@/glossary/falsifikace.md) a [Lakatosův
+výzkumný program](@/glossary/lakatos-vyzkumny-program.md).
+
+Pro jednotlivce z toho plyne pravidlo nejméně jednoho kvalitního zdroje s opačným pohledem
+a zapsání toho, co by přesvědčení vyvrátilo; zapsání předem je podstatné, protože zpětně se
+podmínka vždy přizpůsobí (Nickerson, 1998). V knize k tomu vedou průvodci [triangulace
+zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md), [kurátorství
+zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) a [osobní audit
+biasů](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
+
+Pro organizace je účinnější uspořádání než výcvik: oddělit sběr od hodnocení, zadat roli
+oponenta s mandátem a hodnotit hypotézy proti sobě (Heuer, 1999). Důvod je empirický —
+individuální nácvik odstraňování zkreslení má malý a málo přenositelný účinek (Lilienfeld
+a kol., 2009), a strukturní opatření proto nesou víc než osobní bdělost.
+
+## Meze a kritika
+
+Pojem se snadno přetáhne. Mercier a Sperber argumentují, že stranické usuzování není
+poruchou, ale funkcí: rozum se vyvinul pro argumentaci ve skupině, kde je výhodné hledat
+důvody pro vlastní pozici a kritizovat cizí, a skupina se tím koriguje lépe než jednotlivec
+(Mercier a Sperber, 2011).
+
+Mercier dále zpochybnil obraz člověka jako snadno ovlivnitelného: lidé podle jeho přehledu
+důkazů bývají k přesvědčovacím pokusům spíš odolní, než ochotní, a plošná tvrzení o masové
+manipulovatelnosti jsou přeháněná (Mercier, 2020). Kniha z toho vyvozuje, že konfirmační bias
+vysvětluje zranitelnost, ale nikoli nutný výsledek, a že se jím nemá vysvětlovat každý
+nesouhlas (*interpretace knihy*, viz [etické
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)). Koncový stav zatvrdlého přesvědčení
+popisuje heslo [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md).
 
 ## Literatura
 
-- Peter C. Wason: „On the Failure to Eliminate Hypotheses in a Conceptual Task“, *Quarterly Journal of Experimental Psychology* 12 (1960).
-- Raymond S. Nickerson: „Confirmation Bias: A Ubiquitous Phenomenon in Many Guises“, *Review of General Psychology* 2 (1998).
-- Karl R. Popper: *Conjectures and Refutations* (1963).
+- American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
+- Croskerry, P. (2003). *The importance of cognitive errors in diagnosis and strategies to minimize them*. Academic Medicine.
+- Heuer, R. J. (1999). *Psychology of Intelligence Analysis*. Center for the Study of Intelligence.
+- Klayman, J., & Ha, Y.-W. (1987). *Confirmation, disconfirmation, and information in hypothesis testing*. Psychological Review.
+- Kunda, Z. (1990). *The case for motivated reasoning*. Psychological Bulletin.
+- Lakatos, I. (1970). *Falsification and the methodology of scientific research programmes*. In Criticism and the Growth of Knowledge. Cambridge University Press.
+- Lilienfeld, S. O., Ammirati, R., & Landfield, K. (2009). *Giving debiasing away: Can psychological research on correcting cognitive errors promote human welfare?*. Perspectives on Psychological Science.
+- Lord, C. G., Ross, L., & Lepper, M. R. (1979). *Biased assimilation and attitude polarization: The effects of prior theories on subsequently considered evidence*. Journal of Personality and Social Psychology.
+- Mercier, H. (2020). *Not Born Yesterday: The Science of Who We Trust and What We Believe*. Princeton University Press.
+- Mercier, H., & Sperber, D. (2011). *Why do humans reason? Arguments for an argumentative theory*. Behavioral and Brain Sciences.
+- Nguyen, C. T. (2020). *Echo chambers and epistemic bubbles*. Episteme.
+- Nickerson, R. S. (1998). *Confirmation bias: A ubiquitous phenomenon in many guises*. Review of General Psychology.
+- Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge.
+- Sunstein, C. R., & Vermeule, A. (2009). *Conspiracy theories: Causes and cures*. Journal of Political Philosophy.
+- Wason, P. C. (1960). *On the failure to eliminate hypotheses in a conceptual task*. Quarterly Journal of Experimental Psychology.
+- Wason, P. C. (1968). *Reasoning about a rule*. Quarterly Journal of Experimental Psychology.
 
 ## Související
 
@@ -90,14 +196,15 @@ Principiální obrana, odvozená z [falsifikace](@/glossary/falsifikace.md) (Pop
 
 - [Kognitivní bias](@/glossary/kognitivni-bias.md) – nadřazený pojem.
 - [Falsifikace](@/glossary/falsifikace.md) – principiální oprava podle Poppera.
-- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – rozlišuje legitimní a degenerativní ochranu přesvědčení.
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – model hrozby, který bias zneužívá.
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) – zejména rodina EA-1.1.x.
-- [Metakognice](@/glossary/metakognice.md) – reflexivní vrstva, která aktivní bias zachytí.
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – legitimní versus degenerativní ochrana.
+- [Epistemická bublina](@/glossary/epistemic-bubble.md) – chybějící zdroje versus znehodnocené zdroje.
+- [Sociální izolace](@/glossary/socialni-izolace.md) – sociální složka smyčky.
+- [Metakognice](@/glossary/metakognice.md) – vrstva, která aktivní bias zachytí.
 - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – zatvrdlý koncový stav.
 
-**Kniha**
+**Kniha a obrana**
 
 - [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md) – podrobný výklad v základních kategoriích.
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – nejpřímější zneužití.
 - [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – obrana jednotlivce.
+- [Riziko kruhového uvažování](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md) – bias v diagnostice samotné.

@@ -40,6 +40,8 @@ internal_level = "error"
 external_level = "warn"
 
 [extra]
+# Hranice pravidla IA „detail“ (slova); jediný zdroj pro šablony i scripts/check-ia.py.
+ia_detail_words = 600
 repo_url = "https://github.com/korczis/kompendium-epistemicke-anihilace"
 wiki_url = "https://github.com/korczis/kompendium-epistemicke-anihilace/wiki"
 origin_site = "https://prismatic-reality-com.github.io/prismatic-promo"

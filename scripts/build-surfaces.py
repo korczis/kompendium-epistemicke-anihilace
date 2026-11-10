@@ -110,8 +110,11 @@ GENERIC_VIEWS = {
     "viz/okoli": "graf okolí pod každou stránkou (page.html)",
     "viz/oddil": "obecný přehled každého oddílu (partials/section-overview.html)",
 }
-# Loaded by the shell on every page, or a library the views share: not a view of a page.
-NOT_VIEWS = {"viz/paleta", "viz/kompendium-viz"}
+# Loaded by the shell on every page, or the component layer the views draw through
+# (scripts/check-viz-layer.py: vrstva.js for p5/three canvases, kompendium-viz.js for
+# ECharts/cytoscape, kniha.js for Chart.js): not a view of a page. A view's canvas made through
+# the layer still counts, under the view's own script.
+NOT_VIEWS = {"viz/paleta", "viz/kompendium-viz", "viz/vrstva", "kompendium/kniha"}
 # A scenario that paints nothing covers only the view its interaction or Mermaid check names.
 INTERACT_VIEWS = {"kostka": "viz/kostka", "faseta": "viz/glosar", "rejstrik": "viz/rejstrik"}
 RENDER_CHECKS = ("painted", "count", "counts", "text")

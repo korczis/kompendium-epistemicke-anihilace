@@ -88,7 +88,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -162,7 +163,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -231,7 +233,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -295,7 +298,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -346,7 +350,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -428,7 +433,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -480,7 +486,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -552,7 +559,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -605,7 +613,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -654,7 +663,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -703,7 +713,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -775,7 +786,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -827,7 +839,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -876,7 +889,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -925,7 +939,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -974,7 +989,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1023,7 +1039,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1089,7 +1106,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1139,7 +1157,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1188,7 +1207,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -1260,7 +1280,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -1313,7 +1334,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1377,7 +1399,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1447,7 +1470,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -1534,7 +1558,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -1602,7 +1627,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1692,7 +1718,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -1759,7 +1786,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1824,7 +1852,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1889,7 +1918,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -1954,7 +1984,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2019,7 +2050,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2084,7 +2116,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2149,7 +2182,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2226,7 +2260,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -2294,7 +2329,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2344,7 +2380,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "uncovered",
    "templates": {
@@ -2410,7 +2447,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2475,7 +2513,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2540,7 +2579,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2605,7 +2645,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2670,7 +2711,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2735,7 +2777,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2800,7 +2843,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2865,7 +2909,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -2968,7 +3013,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -3093,7 +3139,8 @@
     "js/viz/kostka.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -3176,7 +3223,8 @@
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
-    "js/viz/techniky.js"
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
    ],
    "status": "no-view",
    "templates": {
@@ -3191,11 +3239,13 @@
     "p5/grafika",
     "viz/mapa",
     "viz/matice",
+    "viz/prehled",
     "viz/redakce",
     "viz/stav"
    ],
    "data": [
     "static/data/graph.json",
+    "static/data/ia.json",
     "static/data/metrics.json",
     "static/data/nav.json",
     "static/data/terms.json",
@@ -3211,6 +3261,8 @@
     "partials/footer.html",
     "partials/header.html",
     "partials/index-pojmu.html",
+    "partials/landing-carousel.html",
+    "partials/landing-intro.html",
     "partials/nav.html",
     "partials/page-context.html",
     "partials/pager.html",
@@ -3233,15 +3285,21 @@
       [
        "#upozorneni-title",
        1
+      ],
+      [
+       "[data-landing-block]",
+       4
       ]
      ],
      "covers": [
-      "p5/grafika"
+      "p5/grafika",
+      "viz/prehled"
      ],
-     "note": "úvod: p5 síť pojmů, upozornění s kontakty pomoci",
+     "interact": "landing",
+     "note": "úvod: p5 síť pojmů, upozornění, rizika, karusel, přehled knihy (ECharts)",
      "origin": "fixed",
      "page": "_index.md",
-     "painted": 1,
+     "painted": 2,
      "path": ""
     },
     {
@@ -3307,10 +3365,12 @@
     "js/viz/matice.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
+    "js/viz/prehled.js",
     "js/viz/redakce.js",
     "js/viz/rejstrik.js",
     "js/viz/stav.js",
-    "js/viz/technika.js"
+    "js/viz/technika.js",
+    "js/viz/vrstva.js"
    ],
    "status": "covered",
    "templates": {
@@ -3324,6 +3384,7 @@
     "p5/grafika": 2,
     "viz/mapa": 1,
     "viz/matice": 1,
+    "viz/prehled": 1,
     "viz/redakce": 1,
     "viz/stav": 1
    }

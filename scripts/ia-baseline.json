@@ -1677,106 +1677,81 @@
   "weak-link"
  ],
  "content/kompendium/aiad-integration/_index.md": [
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/aiad-integration/archer-supreme-ea-orchestration.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/autoheal-ea-regression-repair.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/black-team-ea-modeling.md": [
-  "detail",
-  "weak-link"
+  "detail"
  ],
  "content/kompendium/aiad-integration/blue-team-ea-defense.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/compliance-ea-regulatory-screening.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/czech-ares-ea-screening.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/dd-engine-ea-source-weighting.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/decision-engine-ea-calibration.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/gray-team-ea-edge-cases.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/operational-execution-ea-deployment.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/osint-ea-source-validation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/perimeter-ea-attack-surface.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/purple-team-ea-synthesis.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/qeve-ea-quality-validation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/quality-monitor-ea-tracking.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/red-team-ea-detection.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/strategic-command-ea-coordination.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/supreme-commander-ea-strategy.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/tactical-execution-ea-operations.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/trinity-gate-ea-verification.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/aiad-integration/white-team-ea-verification.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/case-studies/01-akademicka-supervize-totalizace.md": [
@@ -2288,133 +2263,103 @@
   "weak-link"
  ],
  "content/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/11-behavioral-topic-evasion.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md": [
   "weak-link"
  ],
  "content/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/16-behavioral-emotional-modulation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/17-network-source-monoculture.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/18-network-citation-circularity.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/19-network-amplification-asymmetry.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/2-linguistic-circular-definitions.md": [
   "weak-link"
  ],
  "content/kompendium/detection-signatures/20-network-bot-coordination.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/21-network-platform-coordination.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/22-network-narrative-injection.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/23-network-reputation-laundering.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/24-network-deplatforming-cascade.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/4-linguistic-framing-shift.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/7-linguistic-scope-creep.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/8-linguistic-semantic-erosion.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/detection-signatures/_index.md": [
   "weak-link"
  ],
  "content/kompendium/detection-signatures/epistemicka-kalibrace.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/motte-bailey.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/tom-kalibrace.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/educational-scenarios/1-basic-detection.md": [
   "weak-link",
@@ -2904,10 +2849,6 @@
  "content/kompendium/forensic-legal/_index.md": [
   "weak-link"
  ],
- "content/kompendium/glossary-bridges/_index.md": [
-  "detail",
-  "weak-link"
- ],
  "content/kompendium/glossary-bridges/bridge-3nl.md": [
   "detail",
   "weak-link"
@@ -2949,11 +2890,9 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-betrayal-trauma.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-bite-model.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-black-team.md": [
@@ -2969,7 +2908,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-c-ptsd.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-censys.md": [
@@ -2981,7 +2919,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-coercive-control.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-color-teams.md": [
@@ -2989,7 +2926,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-communicative-rationality.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-companion.md": [
@@ -2997,7 +2933,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-darvo.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-decision-engine.md": [
@@ -3005,23 +2940,18 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-deepfake.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-delegitimizace.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-deplatforming.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-differance.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-disociace.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-dual-use-poznani.md": [
@@ -3053,27 +2983,21 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-alienace.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-anihilace.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-injustice.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-pokora.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicke-trauma.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-epoche.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-eticky-ramec.md": [
@@ -3085,15 +3009,12 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-falsifikace.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-fenomenologie.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-firehose-of-falsehood.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-four-noble-truths.md": [
@@ -3101,15 +3022,12 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-gaslighting.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-gestalt-shift.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-gish-gallop.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-gray-team.md": [
@@ -3125,27 +3043,21 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-hermeneutika.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-hyperreality.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-iatrogenic-harm.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-ideal-speech-situation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-info-ops.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-instrumental-reason.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-intelligence-fusion.md": [
@@ -3153,15 +3065,12 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-intentionalita.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-kognitivni-anihilace.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-kognitivni-anti-rekurzivita.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-kompendium-ea.md": [
@@ -3173,11 +3082,9 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-lakatos-vyzkumny-program.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-lebenswelt.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md": [
@@ -3185,19 +3092,15 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-metakognice.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-metakognitivni-destrukce.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-metanarrative-collapse.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-motte-and-bailey.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-nabla-infinity.md": [
@@ -3205,11 +3108,9 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-identity.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-trauma.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-nclb/_index.md": [
@@ -3220,7 +3121,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-ontologicka-anihilace.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-osint.md": [
@@ -3228,11 +3128,9 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-panopticism.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-power-knowledge.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-predictive-processing.md": [
@@ -3240,7 +3138,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-propaganda.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-purple-team.md": [
@@ -3272,7 +3169,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-replication-crisis.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-risk-score.md": [
@@ -3284,7 +3180,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-sealioning.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-session-discipline.md": [
@@ -3296,7 +3191,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-simulacra.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-strategic-command.md": [
@@ -3316,7 +3210,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-theory-of-mind.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-threshold.md": [
@@ -3332,7 +3225,6 @@
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-weaponized-incompetence.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/glossary-bridges/bridge-white-team.md": [
@@ -3969,11 +3861,9 @@
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/1-childhood-resilience-foundation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/10-public-discourse-quality.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/11-early-screening-EA.md": [
@@ -3981,7 +3871,6 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/12-warning-sign-recognition.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/13-rapid-response-protocol.md": [
@@ -3989,38 +3878,24 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/14-de-escalation-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/15-relationship-monitoring.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/16-employer-vigilance.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/17-academic-supervision-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/18-clinical-vigilance-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/19-pastoral-vigilance-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/2-school-based-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/20-peer-vigilance-prevention.md": [
@@ -4028,8 +3903,6 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/21-relapse-prevention-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md": [
@@ -4037,8 +3910,6 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/23-skills-rebuilding-program.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/24-meaning-restoration-prevention.md": [
@@ -4046,13 +3917,9 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/26-family-reintegration-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/27-community-reintegration-prevention.md": [
@@ -4068,45 +3935,30 @@
   "detail"
  ],
  "content/kompendium/prevention-resilience/3-family-resilience-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/30-trauma-informed-citizenship.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/4-community-resilience-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/5-workplace-prevention-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/6-media-literacy-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/7-digital-hygiene-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/8-critical-thinking-curriculum.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/9-civic-education-prevention.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/prevention-resilience/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/quick-reference/_index.md": [
@@ -4482,37 +4334,24 @@
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-cognitive-anchoring.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-information-curation.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-safety-establishment.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-social-reconnection.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-somatic-regulation.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/acute-stabilization-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/duvera.md": [
@@ -4528,63 +4367,39 @@
   "detail"
  ],
  "content/kompendium/recovery-protocols/longterm-altruistic-channeling.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-community-rebuilding.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-meaning-deepening.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-post-traumatic-growth.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-relapse-prevention.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/longterm-resilience-cultivation.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-educational-reintegration.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-hermeneutic-reset.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-identity-reconstruction.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-metacognitive-rehab.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-skill-rebuilding.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/midterm-vocational-integration.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/narativ.md": [
@@ -4604,33 +4419,21 @@
   "detail"
  ],
  "content/kompendium/recovery-protocols/recovery-adolescent-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-children-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-elder-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/sealioning.md": [
@@ -4642,33 +4445,21 @@
   "detail"
  ],
  "content/kompendium/recovery-protocols/subacute-axiological-restoration.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-detection-training.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-meaning-reconstruction.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-narrative-externalization.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-relational-restructuring.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/subacute-trust-rebuilding.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/recovery-protocols/trauma.md": [
@@ -4772,375 +4563,247 @@
   "detail"
  ],
  "content/kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-01-to-04-eticky-ramec-protokoly.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-01-to-05-eticky-ramec-ultramari.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-02-to-03-uvod-zakladni-kategorie.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-02-to-07-uvod-teoreticke.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-03-to-04-zakladni-terminalni.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-03-to-05-zakladni-ultramari.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-03-to-06-techniky-klinika.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-03-to-07-techniky-teorie.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-04-to-05-terminalni-ultramari.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-04-to-06-terminalni-klinika.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-04-to-07-terminalni-teorie.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-05-to-06-ultramari-klinika.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-05-to-08-ultramari-prilohy.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-06-to-07-klinika-teorie.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-06-to-08-klinika-prilohy.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-07-to-08-teorie-prilohy.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-case-studies-to-clinical.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-platform-decision-engine-to-kompendium.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-quick-reference-to-glossary.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-case-studies.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-glossary.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-quick-reference.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-visualizations.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-visualizations-to-clinical.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/bridge-visualizations-to-techniques.md": [
-  "related",
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/1-metacognitive-monitoring.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/10-cognitive-load-management.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/11-emotional-regulation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/12-trigger-recognition.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/13-somatic-awareness.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/14-grounding-techniques.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/15-emotional-distancing.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/16-self-compassion.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/17-anger-management.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/18-shame-resilience.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/19-fear-processing.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/2-evidence-evaluation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/20-emotional-debt-recognition.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/21-boundary-setting.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/22-relationship-audit.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/23-trust-calibration.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/24-communication-assertiveness.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/25-network-diversification.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/26-isolation-prevention.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/27-mentor-evaluation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/28-community-engagement.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/29-conflict-resolution.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/3-source-triangulation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/30-support-mobilization.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/31-source-curation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/32-feed-detoxification.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/33-information-diet.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/34-attention-budget.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/35-deep-reading-practice.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/36-cross-source-routine.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/37-time-locked-evaluation.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/38-bias-audit-personal.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/39-information-fasting.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/4-claim-verification.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/40-ai-content-detection.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/41-narrative-stewardship.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/42-relational-anchors.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/43-memory-archive.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/44-axiology-clarification.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/45-life-story-integration.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/46-multiple-self-management.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/47-identity-resilience-training.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/48-existential-meaning-protection.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/49-temporal-self-stitching.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/5-falsification-thinking.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/50-personal-mythology-defense.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/6-paradigm-pluralism.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/7-belief-revision.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/8-cognitive-flexibility.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/9-attention-management.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/self-defense-guides/_index.md": [
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/techniques/_index.md": [
   "weak-link"
@@ -6621,9 +6284,6 @@
  "content/kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md": [
   "weak-link"
  ],
- "content/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md": [
-  "weak-link"
- ],
  "content/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md": [
   "weak-link"
  ],
@@ -6676,9 +6336,6 @@
   "weak-link"
  ],
  "content/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md": [
-  "weak-link"
- ],
- "content/kompendium/techniques/ea-9-5-10-meme-attribution-laundering.md": [
   "weak-link"
  ],
  "content/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md": [

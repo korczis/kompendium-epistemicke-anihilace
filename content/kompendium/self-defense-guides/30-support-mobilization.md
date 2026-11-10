@@ -19,9 +19,7 @@ V krizi je nejtěžší vzpomenout si, komu zavolat. Člověk vystavený manipul
 
 ## Pro koho je návod
 
-- Pro člověka, který „nikoho nechce obtěžovat“ a v těžkých chvílích zůstává sám.
-- Pro ty, kdo se připravují na odchod z kontrolujícího vztahu nebo skupiny.
-- Pro lidi s opakovanými krizemi, kteří chtějí mít plán.
+Návod je pro člověka, který „nikoho nechce obtěžovat“ a v těžkých chvílích zůstává sám, pro ty, kdo se připravují na odchod z kontrolujícího vztahu nebo skupiny, a pro lidi s opakovanými krizemi, kteří chtějí mít plán připravený dřív, než ho budou potřebovat.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá při odchodu z násilného vztahu, při odchodu ze skupiny s vysokou ko
 
 ## Varovné signály
 
-- Nemáte nikoho, komu byste v noci zavolali.
-- Žádost o pomoc ve vás vyvolává silný stud nebo strach.
-- Jediný člověk, na kterého se můžete obrátit, je ten, kdo vám ubližuje.
-- Odmítáte nabídky pomoci, i když je potřebujete.
-- Krize trvají déle a mají horší následky, protože o nich nikdo neví.
+Na nedostatek dostupné podpory ukazuje nejjednodušší test: nemáte nikoho, komu byste v noci zavolali. Další signály jsou vnitřní – žádost o pomoc ve vás vyvolává silný stud nebo strach a odmítáte nabídky pomoci, i když je potřebujete. Nejzávažnější je situace, kdy jediný člověk, na kterého se můžete obrátit, je ten, kdo vám ubližuje; závislost na pachateli je jedním z hlavních důvodů, proč lidé v kontrolujících vztazích zůstávají (Herman 1992).
+
+Varovný je i průběh krizí: trvají déle a mají horší následky, protože o nich nikdo neví. Liang et al. (2005) popsali hledání pomoci u lidí zažívajících partnerské násilí jako proces o několika krocích – rozpoznat problém, rozhodnout se pomoc hledat a vybrat, u koho – a ukázali, že na každém kroku mohou působit překážky, od studu přes strach z reakce okolí až po zkušenost, že pomoc dříve selhala.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Pomáhá při odchodu z násilného vztahu, při odchodu ze skupiny s vysokou ko
 ## Cíl dovednosti
 
 Naučit se v krizi efektivně požádat o pomoc a přijmout ji – a mít síť lidí a institucí připravenou dřív, než krize přijde.
+
+## Odborné východisko
+
+Výzkum sociální opory rozlišuje mezi oporou, kterou člověk skutečně dostal, a oporou, o které věří, že by ji dostal, kdyby ji potřeboval. Cohen a Wills (1985) v přehledu studií ukázali, že právě vnímaná dostupnost opory chrání před dopady stresu – takzvaný nárazníkový efekt. To je pro mobilizaci podpory zásadní: už vědomí, že mám komu zavolat, zmírňuje zátěž, a příprava seznamu kontaktů proto pomáhá dřív, než je použit.
+
+Uchino (2004) shrnul důkazy o souvislosti sociální opory s tělesným zdravím a upozornil, že rozhoduje nejen množství, ale i kvalita vztahů; vztahy plné napětí mohou zátěž spíše zvyšovat. Z toho plyne druhá zásada návodu: mapa podpory má obsahovat lidi, po jejichž kontaktu se cítíte lépe, ne jen ty, kdo jsou „po ruce“.
+
+Model hledání pomoci, který popsali Liang et al. (2005), vysvětluje, proč konkrétní žádost funguje lépe než obecná. Kdo v krizi řekne „je mi zle“, nechává na druhém, aby odhadl, co dělat; kdo řekne „můžeš u mě dnes večer být dvě hodiny?“, odstraňuje překážku nejistoty na obou stranách. Herman (1992) připomíná, že zotavení z traumatu se odehrává ve vztazích; mobilizace podpory je proto nejen krizovým nástrojem, ale i první částí obnovy.
 
 ## Pět praktických cvičení
 
@@ -89,13 +93,23 @@ Tento návod je celý o tom. Pravidlo: když si nejste jistí, zda je situace �
 
 ## Čeho se vyvarovat
 
-- Nesvěřujte plán odchodu lidem, kteří by ho mohli prozradit osobě, od níž odcházíte.
-- Nespoléhejte na jediného zachránce.
-- Neodmítejte odbornou pomoc jen proto, že vám ji někdo dříve rozmlouval.
+Nesvěřujte plán odchodu lidem, kteří by ho mohli prozradit osobě, od níž odcházíte. Nespoléhejte na jediného zachránce: i nejochotnější člověk může onemocnět, odjet nebo se vyčerpat, a síť je odolnější než jediný pilíř.
+
+Neodmítejte ani odbornou pomoc jen proto, že vám ji někdo dříve rozmlouval. Rozmlouvání pomoci zvenčí patří k typickým znakům kontrolujícího prostředí, ne k radám, kterým je dobré věřit.
 
 ## Meze svépomoci
 
 Některá traumata a krize vyžadují odborníka, ne přítele; přátelé a rodina jsou opora, ne náhrada léčby. A někdy pomoc z okolí selže – lidé neuvěří nebo nevědí, jak pomoci. Proto je důležité mít v mapě i instituce, které jsou na takové situace připravené.
+
+Výzkum navíc připomíná, že ne každá pomoc působí příznivě. Bolger, Zuckerman a Kessler (2000) zjistili, že opora, kterou příjemce výrazně vnímal jako poskytnutou, mohla souviset s horším prožíváním stresu, kdežto opora poskytnutá nenápadně působila příznivěji; pomoc může zatěžovat pocitem dluhu nebo selhání. Proto je rozumné domluvit se s blízkými předem, jakou podobu pomoci chcete, a ponechat si právo říct, co vám nepomáhá. Otevřenou otázkou zůstává, jak podporu mobilizovat u lidí, jejichž síť byla zničena téměř úplně; tam má rozhodující roli síť institucí a svépomocných skupin, která nahrazuje chybějící osobní vazby.
+
+## Literatura
+
+- Bolger, N., Zuckerman, A., & Kessler, R. C. (2000). Invisible support and adjustment to stress. *Journal of Personality and Social Psychology*, 79(6), 953–961.
+- Cohen, S., & Wills, T. A. (1985). Stress, social support, and the buffering hypothesis. *Psychological Bulletin*, 98(2), 310–357.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Liang, B., Goodman, L., Tummala-Narra, P., & Weintraub, S. (2005). A theoretical framework for understanding help-seeking processes among survivors of intimate partner violence. *American Journal of Community Psychology*, 36(1–2), 71–84.
+- Uchino, B. N. (2004). *Social Support and Physical Health: Understanding the Health Consequences of Relationships*. Yale University Press.
 
 ## Související
 

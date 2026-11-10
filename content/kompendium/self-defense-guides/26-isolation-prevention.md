@@ -19,9 +19,7 @@ Izolace je jedním z nejspolehlivějších předpokladů manipulace. Člověk be
 
 ## Pro koho je návod
 
-- Pro člověka, který si všiml, že se s přáteli a rodinou vídá stále méně, a neví přesně proč.
-- Pro ty, jimž partner nebo skupina naznačují, že ostatní lidé „škodí“.
-- Pro seniory, pečující a lidi s dlouhodobou nemocí, kteří jsou izolací ohroženi z praktických důvodů.
+Návod je pro člověka, který si všiml, že se s přáteli a rodinou vídá stále méně, a neví přesně proč, i pro ty, jimž partner nebo skupina naznačují, že ostatní lidé „škodí“. Slouží také seniorům, pečujícím a lidem s dlouhodobou nemocí, kteří jsou izolací ohroženi z praktických důvodů a pro které je udržování kontaktů otázkou zdraví.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,12 +27,9 @@ Pomáhá na začátku vztahu, kde partner chce trávit „všechen čas jen spol
 
 ## Varovné signály
 
-- Ubývá pozvánek a vy je přestáváte opětovat.
-- Setkání s přáteli vyvolávají doma konflikt, výčitky nebo „nemoc“ partnera.
-- Někdo kontroluje váš telefon, zprávy nebo s kým mluvíte.
-- Přátelé jsou zesměšňováni nebo označováni za nepřátele.
-- Přestali jste chodit do práce, na kroužky, do kostela nebo na místa, kde jste dřív bývali.
-- Rodina vám říká, že „jste se změnili“ a že se s vámi nedá spojit.
+Plíživá izolace se ohlašuje úbytkem: ubývá pozvánek a vy je přestáváte opětovat; přestali jste chodit do práce, na kroužky, do kostela nebo na místa, kde jste dřív bývali; rodina vám říká, že „jste se změnili“ a že se s vámi nedá spojit. Každý z těchto znaků může mít nevinné vysvětlení, ale jejich souběh stojí za pozornost.
+
+Vynucená izolace má navíc aktivního původce. Setkání s přáteli vyvolávají doma konflikt, výčitky nebo „nemoc“ partnera; někdo kontroluje váš telefon, zprávy nebo s kým mluvíte; přátelé jsou zesměšňováni nebo označováni za nepřátele. Biderman (1957) zařadil izolaci na první místo svého rozboru nátlakových metod užívaných vůči válečným zajatcům, protože zbavuje člověka sociální opory a činí ho závislým na tom, kdo ho drží. Stark (2007) i Herman (1992) popisují tutéž logiku v kontrolujících vztazích: izolace není vedlejší důsledek, ale nástroj.
 
 ## Modelová situace
 
@@ -43,6 +38,14 @@ Muž po osmdesátce začal po smrti manželky přijímat pomoc od sousedky, kter
 ## Cíl dovednosti
 
 Aktivně bránit postupné i vynucené izolaci, rozpoznat její rané znaky a udržet nebo obnovit kontakt s lidmi mimo kontrolující prostředí.
+
+## Odborné východisko
+
+Izolace není jen nepříjemný stav, ale prokazatelné zdravotní riziko. Metaanalýza prospektivních studií zjistila, že slabé sociální vztahy souvisejí s vyšším rizikem úmrtí za sledované období, a to v míře srovnatelné s jinými známými rizikovými faktory (Holt-Lunstad, Smith a Layton 2010). Cacioppo a Patrick (2008) popisují osamělost jako signál podobný hladu: upozorňuje na nedostatek, ale pokud trvá, mění vnímání – osamělý člověk bývá ostražitější vůči odmítnutí a snáz si vykládá nejednoznačné situace jako nepřátelské, což další kontakt ztěžuje.
+
+Tento začarovaný kruh je pro sebe-obranu klíčový. Kdo je izolovaný, potřebuje kontakt nejvíc, ale zároveň je k němu nejméně ochotný a nejsnáze uvěří, že ho ostatní nechtějí. Manipulativní prostředí do kruhu vstupuje dvojím způsobem: nabízí sebe jako jediný zdroj přijetí a zároveň potvrzuje, že ostatní jsou nebezpeční nebo lhostejní. Herman (1992) proto zdůrazňuje, že zotavení z traumatu probíhá ve vztazích, nikoli v izolaci.
+
+Prevence izolace tedy stojí na malých, pravidelných krocích, které nevyžadují velké odhodlání – krátká zpráva, pravidelná schůzka, docházka na jedno místo. Taková struktura funguje i ve chvílích, kdy vnitřní motivace chybí, a udržuje alespoň jedno vlákno, po kterém se dá vrátit.
 
 ## Pět praktických cvičení
 
@@ -82,13 +85,21 @@ Týdenní minimum průběžně, měsíčně čtvrthodinová kontrola, okamžitý
 
 ## Čeho se vyvarovat
 
-- Neobnovujte kontakty nápadně a bez plánu, pokud by to mohlo vyvolat násilí; použijte bezpečný telefon nebo místo.
-- Nevyčítejte si, že jste se nechali izolovat; izolace postupuje tak, aby byla nenápadná.
-- Nepovažujte samotu, kterou si sami volíte a která vám dělá dobře, za problém.
+Neobnovujte kontakty nápadně a bez plánu, pokud by to mohlo vyvolat násilí; použijte bezpečný telefon nebo místo a poraďte se s intervenčním centrem. Nevyčítejte si, že jste se nechali izolovat; izolace postupuje tak, aby byla nenápadná, a kdo ji prožil, nenese za ni vinu.
+
+Nepovažujte ani samotu, kterou si sami volíte a která vám dělá dobře, za problém. Rozhodující není počet setkání, ale to, zda samota je vaší volbou, nebo výsledkem kontroly.
 
 ## Meze svépomoci
 
 Někteří lidé skutečně potřebují víc samoty než jiní; nejde o to vnutit všem extrovertní normu, ale o to, aby samota byla volbou, ne výsledkem kontroly. Pokud izolace trvá dlouho a doprovází ji deprese, svépomoc nestačí a je potřeba odborná podpora.
+
+## Literatura
+
+- Biderman, A. D. (1957). Communist attempts to elicit false confessions from Air Force prisoners of war. *Bulletin of the New York Academy of Medicine*, 33(9), 616–625.
+- Cacioppo, J. T., & Patrick, W. (2008). *Loneliness: Human Nature and the Need for Social Connection*. W. W. Norton.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. *PLoS Medicine*, 7(7), e1000316.
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

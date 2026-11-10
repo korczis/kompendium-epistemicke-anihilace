@@ -26,6 +26,8 @@ Myšlení potřebuje volnou kapacitu pozornosti a pracovní paměti. Trvalá hyp
 
 V nátlakových prostředích byla vyčerpanost a oslabení dlouhodobě popisována jako jeden z prvků, které snižují odpor (Biderman 1957 uvádí navozené oslabení, *induced debility*). Mlha může být i disociativní reakcí na ohrožení – mysl se „vzdálí“ od situace, kterou nemůže změnit.
 
+Kognitivní věda tento obraz dobře podkládá. Baddeley a Hitch (1974) popsali pracovní paměť jako systém s omezenou kapacitou, na němž stojí uvažování, porozumění i rozhodování; cokoli, co tuto kapacitu trvale zatěžuje, oslabuje i složitější myšlení. Teorie řízení pozornosti (Eysenck et al., 2007) ukazuje, že úzkost přesouvá pozornost k ohrožujícím podnětům a snižuje účinnost výkonných funkcí, zejména schopnost potlačit rušivé myšlenky a přepínat mezi úkoly. Arnsten (2009) shrnula neurobiologické doklady, že i mírný nekontrolovatelný stres rychle zhoršuje funkce prefrontální kůry, na nichž závisí pracovní paměť a plánování. Lim a Dinges (2010) v metaanalýze doložili, že krátkodobý nedostatek spánku zhoršuje zejména pozornost a bdělost. Mullainathan a Shafir (2013) popsali, jak trvalý nedostatek – času, peněz nebo jistoty – zužuje „šířku pásma“ mysli. Farber, Harlow a West (1957) shrnuli v pojmu DDD (*debility, dependency, dread*) vyčerpání, závislost a strach jako stav, který v podmínkách zajetí oslaboval odpor; kognitivní mlha je jeho subjektivní stránkou.
+
 ## Pozorovatelné markery
 
 ### Subjektivní výpověď
@@ -58,24 +60,25 @@ Bez bodu 3 nelze signaturu uzavřít. Bez bodu 4 jde o kontextově vázanou mlhu
 
 ## Odlišení od běžných stavů
 
-Mlhu běžně působí únava, přepracování, akutní stres, smutek po ztrátě, nedostatek spánku u rodičů malých dětí, nadměrné množství obrazovkového času nebo monotónní práce. Tyto stavy obvykle mají zřejmou příčinu, kterou osoba sama uvede, a mlha se zlepší po odpočinku bez ohledu na kontakt s konkrétní osobou.
+Mlhu běžně působí únava, přepracování, akutní stres, smutek po ztrátě, nedostatek spánku u rodičů malých dětí, nadměrné množství obrazovkového času nebo monotónní práce. Tyto stavy obvykle mají zřejmou příčinu, kterou osoba sama uvede, a mlha se zlepší po odpočinku bez ohledu na kontakt s konkrétní osobou. Rozlišujícím znakem signatury je proto vazba na prostředí: mlha je výraznější během kontaktu nebo po něm, ustupuje při odstupu, a to i tehdy, když se nemění spánek ani pracovní zátěž.
+
+Je třeba také počítat s tím, že běžné příčiny a vliv prostředí se často sčítají. Rodič malého dítěte, který zároveň žije ve vztahu s trvalou nejistotou, prožívá mlhu, na níž se podílí obojí. Signatura v takové situaci neslouží k rozhodnutí „buď – nebo“, ale k tomu, aby vliv prostředí nebyl přehlédnut jen proto, že existuje i zjevnější vysvětlení.
 
 ## Klinická diferenciální diagnostika
 
-Princip zní: **nejprve vyloučit zdravotní příčiny**. Kognitivní mlhu mohou způsobovat mimo jiné:
+Princip zní: **nejprve vyloučit zdravotní příčiny**. Kognitivní mlhu mohou způsobovat somatické stavy, například poruchy štítné žlázy, anémie, nedostatek vitaminu B12, poruchy spánku včetně spánkové apnoe, postvirové stavy včetně stavů po covidu-19, hormonální změny jako perimenopauza, diabetes nebo autoimunitní onemocnění. Další skupinou jsou léky a látky – sedativa, některá antihistaminika, analgetika, alkohol, konopí – a také odvykací stavy. Mezi neurologické příčiny patří poranění mozku, migréna a počínající neurodegenerativní onemocnění.
 
-- **somatické stavy**: poruchy štítné žlázy, anémie, nedostatek vitaminu B12, poruchy spánku včetně spánkové apnoe, postvirové stavy (včetně stavů po covidu-19), hormonální změny (např. perimenopauza), diabetes, autoimunitní onemocnění;
-- **léky a látky**: sedativa, některá antihistaminika, analgetika, alkohol, konopí, odvykací stavy;
-- **neurologické příčiny**: poranění mozku, migréna, počínající neurodegenerativní onemocnění;
-- **psychické stavy**: deprese (kde je mlha častým příznakem), úzkostné poruchy, ADHD, PTSD a [komplexní trauma](@/glossary/complex-trauma.md), disociativní stavy (srov. [disociace](@/glossary/disociace.md)).
+Ze psychických stavů je třeba zvážit především depresi, u níž jsou kognitivní obtíže častým příznakem; Snyder (2013) v metaanalýze doložila u depresivní poruchy široké oslabení výkonných funkcí. Dále úzkostné poruchy, ADHD, PTSD a [komplexní trauma](@/glossary/complex-trauma.md) a disociativní stavy (srov. [disociace](@/glossary/disociace.md)). Mnohé z těchto stavů mohou být samy následkem dlouhodobého působení prostředí, a jejich zjištění proto signaturu nevylučuje.
 
-Posouzení by mělo zahrnovat anamnézu, základní laboratorní vyšetření podle uvážení lékaře a v případě potřeby [neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md). Rámec diferenciální diagnostiky viz [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+Posouzení by mělo zahrnovat anamnézu, základní laboratorní vyšetření podle uvážení lékaře a v případě potřeby [neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md). Rámec diferenciální diagnostiky viz [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md). Indikace vyšetření i diagnostický závěr přísluší lékaři.
 
 ## Riziko falešné pozitivity
 
-- **Přehlédnutí zdravotní příčiny** je nejzávažnější chybou: připsat mlhu manipulaci a nevyšetřit štítnou žlázu nebo spánek může pacienta poškodit.
-- **Iatrogenní riziko**: sdělení „jste obětí manipulace“ může u sugestibilního člověka vytvořit vysvětlení, které pak organizuje celé prožívání (srov. [iatrogenic harm](@/glossary/iatrogenic-harm.md)).
-- Zlepšení mimo prostředí může mít jiné důvody (více spánku, méně práce) – podporuje environmentální příčinu, ale nedokazuje manipulaci.
+Nejzávažnější chybou je **přehlédnutí zdravotní příčiny**. Připsat mlhu manipulaci a nevyšetřit štítnou žlázu, krevní obraz nebo spánek může pacienta poškodit, protože léčitelný stav zůstane bez léčby. U kognitivní mlhy proto platí, že environmentální výklad přichází na řadu až po základním zdravotním posouzení, nikoli místo něj.
+
+Druhým rizikem je **iatrogenní škoda**. Sdělení „jste obětí manipulace“ může u sugestibilního člověka vytvořit vysvětlení, které pak organizuje celé prožívání a zastíní jiné možnosti; Lilienfeld (2007) upozornil, že i dobře míněné psychologické intervence mohou škodit (srov. [iatrogenic harm](@/glossary/iatrogenic-harm.md)). Hodnotitel proto signaturu formuluje jako hypotézu, kterou spolu s osobou ověřuje.
+
+Třetím rizikem je přecenění zlepšení mimo prostředí. Zlepšení může mít jiné důvody – více spánku, méně práce, změnu stravy – a podporuje environmentální příčinu, ale samo nedokazuje manipulaci. Užitečné je proto sledovat průběh opakovaně a zaznamenávat i ostatní změny, které současně nastaly.
 
 ## Validační test
 
@@ -99,9 +102,21 @@ Zapisovat výpověď osoby jejími slovy, výsledky somatického vyšetření, u
 
 ## Limity a otevřené otázky
 
-- Kognitivní mlha nemá jednotnou definici ani zlatý standard měření.
-- Subjektivní výpověď a objektivní testy si často neodpovídají.
-- Souvislost s kontaktem nevylučuje, že osoba má zároveň jinou poruchu, která ji činí zranitelnější.
+Kognitivní mlha nemá jednotnou definici ani zlatý standard měření; termín se užívá v různých oborech pro příbuzné, ale ne totožné prožitky. Subjektivní výpověď a objektivní neuropsychologické testy si navíc často neodpovídají: člověk může prožívat výraznou mlhu a v krátkém testu obstát, protože test na krátkou dobu mobilizuje rezervy, které v běžném životě chybějí.
+
+Souvislost s kontaktem nevylučuje, že osoba má zároveň jinou poruchu, která ji činí zranitelnější, a signatura tak vždy popisuje příspěvek prostředí, nikoli jedinou příčinu. Otevřenou otázkou zůstává, jak dlouho po ukončení zatěžujícího vztahu trvá návrat kognitivních funkcí a zda lze tento návrat využít jako zpětné potvrzení hypotézy o vlivu prostředí.
+
+## Literatura
+
+- Arnsten, A. F. T. (2009). Stress signalling pathways that impair prefrontal cortex structure and function. *Nature Reviews Neuroscience*, 10(6), 410–422.
+- Baddeley, A. D., & Hitch, G. (1974). Working memory. In G. H. Bower (Ed.), *The Psychology of Learning and Motivation* (Vol. 8, s. 47–89). Academic Press.
+- Biderman, A. D. (1957). Communist attempts to elicit false confessions from Air Force prisoners of war. *Bulletin of the New York Academy of Medicine*, 33(9), 616–625.
+- Eysenck, M. W., Derakshan, N., Santos, R., & Calvo, M. G. (2007). Anxiety and cognitive performance: Attentional control theory. *Emotion*, 7(2), 336–353.
+- Farber, I. E., Harlow, H. F., & West, L. J. (1957). Brainwashing, conditioning, and DDD (debility, dependency, and dread). *Sociometry*, 20(4), 271–285.
+- Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*, 2(1), 53–70.
+- Lim, J., & Dinges, D. F. (2010). A meta-analysis of the impact of short-term sleep deprivation on cognitive variables. *Psychological Bulletin*, 136(3), 375–389.
+- Mullainathan, S., & Shafir, E. (2013). *Scarcity: Why Having Too Little Means So Much*. Times Books.
+- Snyder, H. R. (2013). Major depressive disorder is associated with broad impairments on neuropsychological measures of executive function: A meta-analysis and review. *Psychological Bulletin*, 139(1), 81–132.
 
 ## Související
 

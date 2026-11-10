@@ -19,9 +19,7 @@ Osobní mytologie je soubor příběhů, postav, symbolů a rituálů, které č
 
 ## Pro koho je návod
 
-- Pro člověka, jehož osobní symboly a příběhy převzala skupina nebo vůdce a dal jim nový výklad.
-- Pro ty, kdo hledají duchovní a symbolický život a chtějí ho chránit před zneužitím.
-- Pro lidi po odchodu ze skupiny, kteří se snaží odlišit vlastní symboly od těch, které jim byly vnuceny.
+Návod je určen člověku, jehož osobní symboly a příběhy převzala skupina nebo vůdce a dal jim nový výklad, a těm, kdo hledají duchovní a symbolický život a chtějí ho chránit před zneužitím. Pomůže i lidem po odchodu ze skupiny, kteří se snaží odlišit vlastní symboly od těch, které jim byly vnuceny.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá ve spirituálních a esoterických skupinách, které vykládají sny a
 
 ## Varovné signály
 
-- Vaše sny, symboly a „znamení“ vykládá vždy někdo jiný – a vždy stejným směrem.
-- Vůdce nebo partner se stal ústřední postavou vašeho vnitřního příběhu.
-- Symboly, které jste měli rádi, vám skupina zakázala nebo označila za „temné“.
-- Rituály, které vám patřily (rodinné svátky, výročí), byly nahrazeny rituály skupiny.
-- Cítíte, že bez skupiny by váš vnitřní svět „neměl obsah“.
+Přivlastnění osobní mytologie se pozná podle toho, kdo vykládá. Vaše sny, symboly a „znamení“ vykládá vždy někdo jiný – a vždy stejným směrem; vůdce nebo partner se stal ústřední postavou vašeho vnitřního příběhu. Lifton (1961) popsal v totalistickém prostředí „mystickou manipulaci“: skupina dává událostem v životě člena vyšší, zdánlivě spontánní smysl, který ve skutečnosti potvrzuje její poslání a vede člověka k tomu, aby jí přičítal vše dobré, co se mu přihodí.
+
+Další signály ukazují na výměnu symbolů. Symboly, které jste měli rádi, vám skupina zakázala nebo označila za „temné“; rituály, které vám patřily – rodinné svátky, výročí –, byly nahrazeny rituály skupiny; a cítíte, že bez skupiny by váš vnitřní svět „neměl obsah“. Posledním znakem je závislost: vnitřní svět, který má jen jednoho vypravěče, nepatří tomu, kdo v něm žije.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Muž si odmalička nosil kamínek z potoka u dědova domu jako symbol klidu. V e
 ## Cíl dovednosti
 
 Vědomě pečovat o symboly, příběhy a rituály, které tvoří hluboké jádro vaší identity, a chránit je před erozí a kolonizací cizími výklady – a přitom je nechat živé a proměnlivé.
+
+## Odborné východisko
+
+Pojem osobní mytologie rozpracovali Feinstein a Krippner (1988) jako soubor vnitřních příběhů a obrazů, jimiž člověk vykládá svět a své místo v něm; podle nich lze mytologii vědomě poznávat a obnovovat, když přestane sloužit. McAdams (1993) chápe identitu jako „osobní mýtus“ – příběh s postavami, tématy a obrazy, který člověk postupně vytváří, aby dal životu jednotu a smysl. Obě pojetí se shodují v tom, že symbolický život není iracionální příměs, ale nosná část identity.
+
+Srovnávací studium mýtů ukázalo, že některé vzorce se opakují napříč kulturami. Campbell (1949) popsal „monomýtus“ cesty hrdiny – odchod, zkoušky, proměnu a návrat –, a Eliade (1963) zdůraznil, že mýtus v tradičních společnostech poskytuje vzor pro jednání a pocit, že život má posvátný řád. Právě tato síla je důvodem, proč se mýty dají zneužít: kdo přesvědčí člověka, že jeho život je kapitolou ve velkém příběhu skupiny, získá nad ním moc, kterou žádný argument nedokáže.
+
+Bruner (1990) připomíná, že význam je vždy utvářen v kultuře a ve vztazích, a není proto „čistě soukromý“. Obrana osobní mytologie tedy neznamená uzavřít se před cizími příběhy, ale udržet si autorství: rozhodovat sám, které symboly přijmu, jak je vyložím a komu dovolím, aby se mnou o nich mluvil.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,22 @@ Jednou měsíčně hodina reflexe, rituály v klíčových chvílích, denně kr
 
 ## Čeho se vyvarovat
 
-- Nenechte nikoho vykládat své sny a symboly jako „jediný správný výklad“.
-- Neodevzdávejte předměty a symboly s osobním významem jako cenu za přijetí.
-- Nepřeměňujte osobní mytologii v dogma, které musíte bránit za každou cenu.
+Nenechte nikoho vykládat své sny a symboly jako „jediný správný výklad“; výklad je nabídka, kterou můžete přijmout i odmítnout. Neodevzdávejte předměty a symboly s osobním významem jako cenu za přijetí – taková podmínka nesvědčí o duchovní hloubce, ale o kontrole.
+
+A nepřeměňujte osobní mytologii v dogma, které musíte bránit za každou cenu. Mytologie, která nesmí růst, se mění v klec stejně jako ta, kterou vám vnutil někdo jiný.
 
 ## Meze svépomoci
 
 Mytologie může zatuhnout v dogma; buďte ochotni nechat staré symboly odejít, když přestanou sloužit, a přijmout nové. Osobní mytologie není empirické tvrzení a nepatří pod [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – ale ani nemá nahrazovat ověřování faktů tam, kde jde o zdraví, peníze nebo bezpečí.
+
+## Literatura
+
+- Bruner, J. (1990). *Acts of Meaning*. Harvard University Press.
+- Campbell, J. (1949). *The Hero with a Thousand Faces*. Pantheon Books.
+- Eliade, M. (1963). *Myth and Reality*. Harper & Row.
+- Feinstein, D., & Krippner, S. (1988). *Personal Mythology: The Psychology of Your Evolving Self*. Jeremy P. Tarcher.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
 
 ## Související
 

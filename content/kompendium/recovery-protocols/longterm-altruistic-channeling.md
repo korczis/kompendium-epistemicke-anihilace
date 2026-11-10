@@ -1,6 +1,6 @@
 +++
 title = "Dlouhodobé altruistické kanalizování"
-description = "Longitudinální rekonstruktivní protokol — kanalizování zkušenosti do služby druhým."
+description = "Dlouhodobý protokol pomoci druhým jako součásti zotavení po epistemické anihilaci: princip pomáhajícího, hranice, sekundární traumatizace a ochrana před novou oddaností."
 weight = 24
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "longterm"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["incompetence", "lifeworld", "longterm-community-rebuilding", "longterm-meaning-deepening"]
+related_terms = ["longterm-community-rebuilding", "longterm-meaning-deepening", "30-trauma-informed-citizenship", "incompetence", "lifeworld"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
@@ -16,97 +16,138 @@ phase = "longterm"
 
 # Dlouhodobé altruistické kanalizování
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `longterm`
-> **Cílový rámec**: Roky 1–3.
+> **Status**: fázový protokol dlouhodobé fáze; občanský a institucionální rozměr popisuje stránka
+> [Trauma-informované občanství](@/kompendium/prevention-resilience/30-trauma-informed-citizenship.md).
+> **Fáze**: `longterm`.
+> **Cíl**: aby pomoc druhým posilovala zotavení klienta – a nestala se novou formou sebeobětování,
+> kterou zná z prostředí EA.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Klienti v pokročilé fázi recovery (rok 2+), kteří mají vůli i kapacitu pomáhat druhým survivorům — jako peer supporters, advokační aktivisté, výcvikoví specialisté, autoři, edukátoři. Riziko: re-traumatizace, kompasní únava, identita postavená výhradně na pomoci druhým (nový [hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md) jiného typu).
+Část lidí po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) (EA) v dlouhodobé
+fázi cítí potřebu pomáhat druhým: lidem, kteří stojí na začátku podobné cesty, rodinám, které
+mají někoho ve skupině, obětem partnerské kontroly, nebo komukoli, kdo potřebuje pomoc.
+„Kanalizování“ zde znamená, že energie zkušenosti – bolest, hněv, porozumění – dostane směr,
+který přináší užitek druhým i klientovi samotnému. Protokol je určen klientům, kteří o takové
+roli uvažují nebo ji už zastávají, a terapeutům, kteří je v tom doprovázejí. Nejde o povinnou
+fázi zotavení; klient, který pomáhat nechce, nemá žádný deficit.
 
-## 2. Časový rámec
+## 2. Klinický obraz
 
-Roky 1–3. Intenzita: měsíčně po prvním roce, kvartálně po druhém. **Booster sessions** dle potřeby. Doplňkové: peer support, podpůrné skupiny, somatic praxe.
+Riessman (1965) popsal **princip pomáhajícího** (*helper therapy principle*): ten, kdo pomáhá,
+z pomoci často sám těží – posiluje vlastní kompetenci, nachází smysl a upevňuje změnu, kterou
+sám prošel. Na tomto principu stojí svépomocné skupiny. Staub a Vollhardtová (2008) popsali
+altruismus zrozený z utrpení: lidé, kteří prošli násilím, jsou za určitých podmínek – zvlášť
+když sami zažili pomoc a když své utrpení zpracovali – ochotnější pomáhat druhým. Herman (1992)
+mluví o poslání přeživšího a připomíná, že může být zdrojem smyslu i únikem před vlastním
+truchlením.
+
+Pro EA má altruismus zvláštní riziko. Prostředí, z něhož klient odešel, často vyžadovalo
+sebeobětování ve jménu vyššího cíle: práci bez hranic, „službu“, potlačení vlastních potřeb.
+Klient může pomoc druhým nevědomky prožívat podle stejného vzorce – jako povinnost, jako
+důkaz hodnoty, jako cestu k přijetí. Klinicky se pak objevuje neschopnost odmítnout,
+vyčerpání, ztráta hranic mezi vlastním a cizím příběhem a sekundární traumatizace. Figley
+(1995) popsal únavu ze soucitu u pomáhajících profesí; Pearlmanová a Saakvitneová (1995)
+popsaly zástupnou traumatizaci, kdy pomáhající pod vlivem cizích příběhů mění vlastní pohled
+na svět. U pomáhajícího, který sám prošel EA, je toto riziko vyšší, protože cizí příběhy
+oživují vlastní.
+
+Epistemický rozměr pomoci je pro EA zvlášť cenný. Člověk, který zná zevnitř, jak vypadá
+přepisování reality, rozpozná u druhého věci, které by vnější pomáhající přehlédl: frázi
+naučenou ve skupině, strach z vlastní paměti, omlouvání pachatele. Jeho porozumění je
+zkušenostní znalostí, kterou Fricker (2007) řadí k těm, jež bývají společností soustavně
+podceňovány. V roli pomáhajícího ji může uplatnit a zažít, že jeho slovo má váhu. Zároveň
+však musí snést, že druhý člověk může jít jinou cestou, než šel on – a že pomoc neznamená
+vést, ale doprovázet. Pomáhající, který druhému vysvětluje, „jak to doopravdy je“, se snadno
+ocitne v roli vykladače, kterou zná z prostředí EA, jen z opačné strany. Proto protokol
+klade důraz na to, aby pomoc vracela úsudek pomáhanému, ne aby jej nahrazovala.
 
 ## 3. Cíle protokolu
 
-1. Kultivace **epistemické robustnosti** převyšující pre-traumatický baseline.
-2. Systematická prevence relapsu (návratu k pachateli/kultu/ideologii).
-3. Transformace traumatu skrze posttraumatický růst do generativní podoby.
-4. Vybudování stabilní organické komunity jako dlouhodobá ochrana.
-5. Volitelná integrace zkušenosti do strukturované služby druhým survivorům.
+Cílem je zjistit motivaci klienta k pomoci a odlišit svobodnou volbu od přeneseného vzorce
+sebeobětování; najít formu pomoci, která odpovídá jeho možnostem a stavu zotavení; nastavit
+hranice času, rolí a sdílení vlastního příběhu; připravit ho na setkání s příběhy, které
+připomínají jeho vlastní; a předcházet únavě ze soucitu a zástupné traumatizaci.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Roční follow-up (rok 1)**: Komprehenzivní reassessment — kvantitativní (baseline instrumenty) + kvalitativní (narativní interview). Identifikace dlouhodobých vzorců.
-2. **Resilience kultivace (rok 1–2)**: Strukturované budování **post-traumatické robustnosti** — meditační praxe, somatic literacy, kognitivní flexibilita, emoční granularita.
-3. **Relapse prevention (rok 1–3)**: Identifikace high-risk situací, budování krizového plánu, **emergency contact list**, periodické „check-in“ sezení (kvartálně po prvním roce).
-4. **Komunitní integrace (rok 1–3)**: Postupný přechod od formální podpory k organické komunitě. Identifikace 3–5 dlouhodobých vztahů jako „epistemic peer review“.
-5. **Smyslová prohloubení (rok 2–3)**: Existenciální/spirituální práce — logoterapie, ACT, kontemplativní praxe. Budování generativního smyslu.
-6. **Volitelné altruistické kanalizování (rok 2+)**: Pro klienty s vůlí a kapacitou — peer support, advokační aktivity, edukace. **Pouze** po důkladné kontraindikační analýze (riziko sekundární [retraumatizace](@/glossary/retraumatizace.md)).
+1. **Motivace** – rozhovor o tom, proč chce klient pomáhat: z čeho to vychází, co od toho
+   čeká, co by se stalo, kdyby pomáhat nemohl.
+2. **Připravenost** – posouzení, zda je zotavení dostatečně stabilní; vlastní spouštěče
+   a jak by na ně klient reagoval.
+3. **Volba formy** – od neformální pomoci (rozhovor s člověkem v podobné situaci) přes
+   dobrovolnictví až po vrstevnickou práci v organizaci; forma odpovídá stavu, ne ambici.
+4. **Příprava** – kurz pro dobrovolníky nebo vrstevnické pracovníky; znalost hranic role
+   a toho, kdy předat odborníkovi.
+5. **Hranice** – pevně stanovený čas, kontakt jen v určených kanálech, rozhodnutí, co
+   z vlastního příběhu klient sdílí.
+6. **Supervize** – pravidelná reflexe s někým mimo vztah pomoci; u organizací povinná.
+7. **Péče o sebe** – vlastní zdroje mimo pomáhání: vztahy, zájmy, odpočinek.
+8. **Vyhodnocení** – po několika měsících: co pomoc klientovi dává, co bere, zda pokračovat.
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – vzorec oddanosti.** Pokud klient nedokáže odmítnout, pracuje bez hranic
+nebo pomoc nahrazuje vlastní život, pomoc se omezí a pracuje se se vzorcem sebeobětování.
+**Rozhodovací bod B – zástupná traumatizace.** Pokud se vrací vlastní příznaky po setkáních
+s cizími příběhy, je třeba přestávka a terapeutická práce. **Rozhodovací bod C – organizace
+se strukturou kontroly.** Pokud organizace, v níž klient pomáhá, vykazuje znaky totalizace,
+klient má právo odejít a terapeut ho v tom podpoří.
 
-- **Resilience metrics** — Connor-Davidson Resilience Scale (CD-RISC), score nad 75. percentilem.
-- **Bez relapsu** — žádný návrat k pachateli/kultu/ideologii v sledovaném období.
-- **Posttraumatic Growth Inventory (PTGI)** — pozitivní skóre v ≥ 3 z 5 domén.
-- **Komunitní integrace** — alespoň 3 stabilní dlouhodobé vztahy + komunitní zapojení.
-- **Generativní markery** — kvalitativně dokumentované — kreativita, mentorství, smysluplná práce.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se, zda klient prožívá pomoc jako svobodnou a obohacující, zda dodržuje stanovené
+hranice, zda se nevracejí jeho vlastní příznaky, zda má supervizi a zdroje mimo pomáhání
+a zda dokáže pomoc přerušit, když potřebuje. Lze použít ověřené dotazníky únavy ze soucitu
+a profesní kvality života v čase u daného klienta; validované normy pro EA neexistují.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Protokol není vhodný v dřívějších fázích zotavení. Rizikem je **předčasná pomoc**, která slouží
+k obcházení vlastního truchlení; **přenos vzorce sebeobětování**; **přenos vlastního příběhu**
+na pomáhaného („u tebe je to stejně jako u mě“) a **organizace, které využívají přeživší** jako
+neplacenou práci nebo jako příběh pro kampaně. Terapeut by měl také sledovat, zda klient nepomáhá
+hlavně proto, aby si dokázal, že „není jako oni“ – i to je vázanost na původní prostředí.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Klient nedosáhl středně-dobých milestones; reaktivace symptomatologie vyžadující kratší fáze; nestabilní psychiatrická medikace; aktivní právní/finanční krize bránící dlouhodobé práci.
+Žena po padesátce, která před šesti lety odešla z kontrolujícího manželství, začne odpovídat
+na zprávy žen ve facebookové skupině pro oběti domácího násilí. Po půl roce tráví ve skupině
+každý večer do noci, nespí a sní o konkrétních ženách. Na posilovacím sezení řekne, že „nemůže
+přestat, protože ji potřebují“. Terapeutka se zeptá, odkud tu větu zná. Žena si uvědomí, že
+přesně tak mluvila o manželovi. Rozhodne se skupinu opustit a přihlásí se jako dobrovolnice do
+intervenčního centra, kde má dvě směny měsíčně, školení a supervizi. Říká, že pomáhá „méně,
+ale líp – a pak jdu domů“.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Princip pomáhajícího (Riessman 1965) a altruismus zrozený z utrpení (Staub a Vollhardt 2008)
+jsou dobře popsané, ale jejich podmínky u lidí po EA nejsou zkoumané. Otevřená je otázka, jak
+odlišit zdravou pomoc od přeneseného vzorce oddanosti jinak než klinickým úsudkem, a jak
+zajistit, aby organizace pracující s přeživšími chránily i své vrstevnické pracovníky.
 
-### Sesterské protokoly
-- [Rekonstrukční protokol pro děti](@/kompendium/recovery-protocols/recovery-children-protocol.md)
-- [Rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md)
-- [Dlouhodobý posttraumatický růst](@/kompendium/recovery-protocols/longterm-post-traumatic-growth.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Figley, C. R. (Ed.) (1995). *Compassion Fatigue: Coping with Secondary Traumatic Stress Disorder
+  in Those Who Treat the Traumatized*. New York: Brunner/Mazel.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford
+  University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Pearlman, L. A., & Saakvitne, K. W. (1995). *Trauma and the Therapist: Countertransference and
+  Vicarious Traumatization in Psychotherapy with Incest Survivors*. New York: W. W. Norton.
+- Riessman, F. (1965). The „helper“ therapy principle. *Social Work*, 10(2).
+- Staub, E., & Vollhardt, J. (2008). Altruism born of suffering: The roots of caring and helping
+  after victimization and other trauma. *American Journal of Orthopsychiatry*, 78(3).
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské a průřezové protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md) – pomoc jako forma příslušnosti.
+- [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md) – smysl skrze pomoc.
+- [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md) – sdílený svět každodennosti.
+- [Incompetence](@/kompendium/recovery-protocols/incompetence.md) – obnovená kompetence jako základ pomoci.
 
----
+**Prevence a organizace**
 
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Trauma-informované občanství](@/kompendium/prevention-resilience/30-trauma-informed-citizenship.md) – občanský rozměr zkušenosti.
+- [Peer vigilance](@/kompendium/prevention-resilience/20-peer-vigilance-prevention.md) – vrstevnická pozornost.
+- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md) – jak organizace chrání své pracovníky.

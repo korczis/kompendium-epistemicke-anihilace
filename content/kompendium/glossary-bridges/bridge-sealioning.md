@@ -1,71 +1,176 @@
 +++
-title = "Bridge: sealioning"
-description = "Glossary bridge — propojeni kompendia s glossary entry sealioning."
+title = "Bridge: Sealioning (lachtaní dotazování)"
+description = "Most mezi heslem sealioning a knihou: zdvořilé, ale neustávající žádosti o důkazy jako forma obtěžování, jeho znaky, odlišení od skutečné otázky a obrana jednotlivce i moderátora."
 weight = 1
 
 [taxonomies]
-tags = ["kompendium", "glossary-bridge", "sealioning", "cross-link"]
+tags = ["glossary-bridge", "kompendium", "cross-link", "sealioning", "rétorika"]
 categories = ["academic", "reference"]
 
 [extra]
-related_terms = ["bridge-risk-score", "bridge-sanctions-screening", "bridge-session-discipline", "bridge-shodan"]
+category = "kompendium-bridge"
+related_terms = ["sealioning", "gish-gallop", "motte-and-bailey", "delegitimizace", "paralysis-by-analysis", "bridge-gish-gallop"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "sealioning"
 toc = false
 +++
 
-# Bridge — sealioning
+# Bridge: Sealioning (lachtaní dotazování)
 
-**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
+> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> rozpoznání, obraně a zotavení. Přehled všech mostů je v rejstříku
+> [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
-## Definice z glossary
+## Pojem
 
-[sealioning](@/glossary/sealioning.md) — Sealioning je manipulativní strategie předstírané dobré víry, v níž útočník vyžaduje neustálé vysvětlování, citace a důkazy v tónu zdvořilého zájmu. Cílem je vyčerpání oběti a paralýza diskuze, zatímco navenek působí jako legitimní debata.
+[Sealioning](@/glossary/sealioning.md) je vzorec, v němž se někdo vytrvale a zdánlivě zdvořile
+domáhá důkazů, vysvětlení a debaty od člověka, který o ni nestojí, a každou odpověď použije jako
+důvod k dalším otázkám. Název pochází z webového komiksu Davida Malkiho *Wondermark* (2014), v němž
+lachtan neodbytně pronásleduje dvojici s požadavkem, aby mu „jen slušně“ vysvětlila svou poznámku.
 
-Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
+Pro knihu je sealioning ukázkou toho, jak lze formu racionální debaty použít proti jejímu smyslu.
+Žádost o důkaz je ve vědě i v běžném životě legitimní a cenná. Sealioning ji ale mění ve
+vyčerpávající nástroj: otázky neslouží k porozumění, ale k tomu, aby se druhá strana unavila,
+vypadala nezdvořile, když odmítne, nebo se vzdala vlastního názoru. Kniha mu věnuje samostatnou
+stránku [Sealioning](@/kompendium/05-ultramari-techniky/sealioning.md) v části o pokročilých
+technikách a mediální variantu [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md).
 
-## Pozice v kompendiu
+## Vzorec očima knihy
 
-Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
+Sealioning stojí na asymetrii nákladů podobně jako [Gish gallop](@/glossary/gish-gallop.md): položit
+otázku je levné, odpovědět na ni pečlivě je drahé. Rozdíl je v tom, že sealioning zahlcuje
+**požadavky**, ne tvrzeními. Walton (1989) v neformální logice rozlišuje dialogy podle cílu –
+zjišťování, vyjednávání, spor – a ukazuje, že tytéž tahy mohou v různých dialozích plnit různou
+funkci. Otázka „a máte pro to důkaz?“ je ve zjišťovacím dialogu tahem k porozumění; v sealioningu
+je tahem ve sporu, jehož cílem je druhou stranu vyčerpat.
 
-- **Sekce 04 — Adversariální vzorce**: taxonomie online manipulačních technik
-- **Sekce 05 — Detekční metody**: indikátory sealioning vs. legitimní dotaz
-- **Per-technique: Engagement Triage**: kdy ignorovat, kdy odpovědět, kdy moderovat
-- **Sekce 07 — Teoretické pozadí**: vztah k JAQing off a goldfishingu
+Kniha k tomu přidává sociální rovinu. Kdo sealioning odmítne, riskuje, že bude vypadat, jako by se
+bál debaty nebo neměl argumenty. Tím se zdvořilost obrací proti tomu, kdo ji dodržuje. Na veřejných
+platformách se vzorec často kombinuje s koordinací: více účtů klade podobné otázky téže osobě, až
+její prostor pro vlastní projev zcela zmizí. Odtud vede cesta k [delegitimizaci](@/glossary/delegitimizace.md)
+– zasažený je vykreslen jako ten, kdo „neumí obhájit“ svůj názor.
 
-Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
+## Proč je obtížné se bránit
 
-## Konceptuální mapa
+Sealioning je zvlášť zrádný pro lidi, kteří si cení racionální debaty – vědce, učitele, novináře.
+Jejich profesní etika jim říká, že na otázky se má odpovídat. Vzorec tuto etiku využívá: každé
+odmítnutí se jim jeví jako porušení vlastních norem. Kniha proto zdůrazňuje, že **povinnost
+odpovídat není neomezená**. Platí v dialogu, jehož cílem je porozumění, a zaniká tam, kde otázky
+slouží k vyčerpání. Rozpoznat tento přechod je první a nejdůležitější obranný krok.
 
-| Subjekt | Vztah | Objekt |
-|---------|-------|--------|
-| **Sealioning** | kombinuje | Předstíranou dobrou víru + nekonečné dotazy |
-| **Sealioning** | produkuje | Vyčerpání oběti a paralýzu diskuze |
-| **Sealioning** | kontrastuje s | Legitimní zvídavostí (omezené, integrující) |
+## Kde se pojem v knize vyskytuje
 
-## Bezpečnostní implikace
+Mechanismus vyčerpání rozebírá [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md),
+odvádění od tématu [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md).
+Detekčně souvisí se signaturou [Odpor proti vyjasnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md):
+paradoxně ten, kdo stále žádá vysvětlení, sám odmítá vyjasnit, co by ho přesvědčilo. Zotavení po
+dlouhodobém vystavení popisuje protokol [Sealioning](@/kompendium/recovery-protocols/sealioning.md).
 
-Operativní obrana nespočívá v lepších argumentech — sealioner nechce odpověď, chce čas oběti. Discipinovaná reakce je triage: jednou odpovědět odkazem na základní zdroje, podruhé moderovat, potřetí ignorovat. Veřejná moderace s dokumentací slouží jako precedent pro další případy a chrání komunitní diskurz před erozí.
+## Od pojmu k praxi
 
-## Cross-linky
+### Rozpoznání
 
-- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
-- **Glossary entry**: [/glossary/sealioning/](@/glossary/sealioning.md)
-- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
-- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
-- **Per-technique články**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
-- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](@/kompendium/02-uvod/_index.md)
-- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](@/kompendium/07-teoreticke-reflexe/_index.md)
-- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](@/kompendium/08-prilohy/_index.md)
-- **Glossary hub**: [/glossary/](@/glossary/_index.md)
+Sealioning prozrazují čtyři znaky: otázky přicházejí bez pozvání a do prostoru, kde o debatu nikdo
+nežádal; nekončí, ať jsou odpovědi jakkoli úplné; tazatel nikdy neřekne, co by ho přesvědčilo; a
+odmítnutí debaty je vykládáno jako důkaz slabosti. Užitečný test je zeptat se tazatele, jaká odpověď
+by pro něj věc uzavřela. Skutečný tazatel odpoví; sealioning se tomu vyhne.
 
----
+### Obrana
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Obranou je **stanovit hranici, ne vyhrát debatu**. Kniha doporučuje krátké, klidné odmítnutí („na
+toto téma debatu nevedu“), případně odkaz na zdroj, kde si tazatel může informace najít sám, a
+dále neodpovídat. Pokud tazatel pokračuje, jde o obtěžování a lze využít nástroje platformy nebo
+instituce. Pomáhá také vědět předem, že odmítnutí není porážkou.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+Užitečné je mít připravenou jednu větu, kterou člověk použije pokaždé stejně. Opakovaná stejná
+odpověď nedává tazateli nový materiál a zároveň chrání zasaženého před tím, aby v každé výměně
+znovu zvažoval, zda odpovědět.
+
+### Pro moderátory a instituce
+
+Moderátoři diskusí mohou sealioning omezit pravidly, která rozlišují mezi otázkou a obtěžováním:
+omezení počtu opakovaných dotazů, požadavek uvést, co by tazatele přesvědčilo, a ochrana lidí, kteří
+o debatu nežádali. Organizace, jejichž zaměstnanci vystupují veřejně, by jim měly poskytnout
+podporu a jasně dát najevo, že nemají povinnost odpovídat na každý dotaz.
+
+### Pro jednotlivce v blízkých vztazích
+
+Vzorec se objevuje i v soukromí: partner nebo rodič, který na každé rozhodnutí odpoví sérií „a
+proč?“, „a jak to víš?“, „a dokážeš to?“, dokud se druhý nevzdá. Obrana je obdobná: jasná hranice a
+vědomí, že vlastní rozhodnutí nemusí člověk obhajovat donekonečna.
+
+### Zotavení
+
+Lidé dlouho vystavení sealioningu často ztrácejí ochotu se veřejně vyjadřovat. Zotavení zahrnuje
+obnovu přesvědčení, že mají právo na názor bez neustálé obhajoby, a nácvik hranic. Pomáhá také
+sdílení zkušenosti s kolegy, kteří prošli podobným tlakem.
+
+### Rámec pro profesionály
+
+Pro vědce a odborníky kniha doporučuje rozlišovat mezi kritikou, na kterou je třeba odpovědět v
+odborném fóru, a sealioningem, na který odpovídat netřeba. Kritika má podobu, v níž lze odpovědět
+jednou a úplně; sealioning ne.
+
+## Odlišení od příbuzných jevů
+
+Sealioning se liší od skutečné zvídavosti tím, že zvídavý tazatel přijme odpověď nebo řekne, co mu
+chybí. Od [Gish gallopu](@/glossary/gish-gallop.md) se liší tím, že zahlcuje otázkami, ne tvrzeními. A
+od [motte and bailey](@/glossary/motte-and-bailey.md) tím, že tazatel nezastává žádné vlastní tvrzení,
+které by mohl kdo zpochybnit.
+
+## Časté omyly
+
+Častým omylem je, že odmítnout otázku je vždy nerozumné nebo nezdvořilé. Rozumnost odpovědi závisí na
+cíli dialogu. Druhým omylem je opačný extrém – označit za sealioning každou nepříjemnou otázku. To by
+z pojmu udělalo nástroj umlčení kritiky.
+
+## Příklad (anonymizovaný kompozit)
+
+Klimatoložka zveřejní krátký komentář k nové studii. Během dne jí desítky účtů pokládají zdvořilé
+otázky na metody, data a financování, a když odpoví, přijdou další. Kolega jí poradí, aby napsala
+jedno shrnutí s odkazy na zdroje a dál neodpovídala. Komentáře, že „se bojí debaty“, utichnou za
+dva dny. Klimatoložka říká, že nejtěžší bylo překonat pocit, že porušuje vlastní profesní etiku.
+
+Příklad ukazuje, že obrana nespočívala v lepší odpovědi, ale v rozhodnutí odpovědět jednou a úplně
+a pak debatu ukončit. Shrnutí s odkazy splnilo legitimní nárok veřejnosti na informace; další
+odpovědi by už sloužily jen vzorci. Klimatoložčin pocit viny je typický a kniha ho považuje za
+součást škody, kterou sealioning působí: zasažený si vyčítá, že dodržel hranici, místo aby si
+uvědomil, že hranici překročil tazatel.
+
+## Meze a otevřené otázky
+
+Hranice mezi oprávněným dotazováním a sealioningem závisí na kontextu a kniha ji nemůže stanovit
+mechanicky. Otevřená zůstává otázka, jak chránit veřejně vystupující odborníky, aniž by se tím
+oslabila legitimní veřejná kontrola jejich práce.
+
+Otevřená je také role platforem: jejich nástroje proti obtěžování obvykle reagují na urážky, ne na
+zdvořilé, ale neodbytné dotazy, a sealioning proto často zůstává mimo jejich pravidla.
+
+## Literatura
+
+- Malki, D. (2014). „The Terrible Sea Lion“. *Wondermark* (webový komiks).
+- Walton, D. N. (1989). *Informal Logic: A Handbook for Critical Argumentation*. Cambridge University Press.
+
+## Související
+
+**Glosář**
+
+- [Gish gallop](@/glossary/gish-gallop.md) – zahlcení tvrzeními.
+- [Motte and bailey](@/glossary/motte-and-bailey.md) – vyhýbání se vlastnímu tvrzení.
+- [Delegitimizace](@/glossary/delegitimizace.md) – kam vzorec může vést.
+- [Paralysis by analysis](@/glossary/paralysis-by-analysis.md) – vyčerpání nekonečným rozborem.
+
+**Kniha**
+
+- [Sealioning](@/kompendium/05-ultramari-techniky/sealioning.md) – podrobný rozbor.
+- [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) – veřejná varianta.
+- [Odpor proti vyjasnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md) – detekční znak.
+- [Protokol Sealioning](@/kompendium/recovery-protocols/sealioning.md) – zotavení.
+
+**Sesterské mosty**
+
+- [Bridge: Gish gallop](@/kompendium/glossary-bridges/bridge-gish-gallop.md) – příbuzný vzorec.
+- [Bridge: Motte and bailey](@/kompendium/glossary-bridges/bridge-motte-and-bailey.md) – další rétorický vzorec.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

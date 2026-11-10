@@ -19,9 +19,7 @@ Změna názoru je známkou živého myšlení – ale ne každá změna je zdrav
 
 ## Pro koho je návod
 
-- Pro člověka, který po čase zjišťuje, že zastává názory, které by dřív odmítl, a neumí říct, co ho přesvědčilo.
-- Pro ty, kdo mají potíž změnit názor, protože každá změna jim připadá jako porážka nebo zrada.
-- Pro lidi po odchodu ze skupiny, kteří revidují celé balíky převzatých přesvědčení.
+Návod pomůže člověku, který po čase zjišťuje, že zastává názory, které by dřív odmítl, a neumí říct, co ho přesvědčilo. Je i pro ty, kdo mají potíž změnit názor, protože každá změna jim připadá jako porážka nebo zrada, a pro lidi po odchodu ze skupiny, kteří revidují celé balíky převzatých přesvědčení a potřebují v tom postupovat bez paniky.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá při postupné radikalizaci online ([případ online radikalizace](@/ko
 
 ## Varovné signály
 
-- Nedokážete říct, jaký doklad změnil váš názor; víte jen, kdo vám ho opakoval.
-- Názor se změnil po období vyčerpání, izolace nebo strachu.
-- Nové přesvědčení vás odděluje od lidí, kteří vám dřív byli blízcí.
-- Změnu názoru po vás někdo vyžaduje jako projev loajality.
-- Naopak: na žádný nový doklad za poslední roky jste nezměnili nic.
+Nejdůležitější otázka zní, *čím* se názor změnil. Varovné je, když nedokážete říct, jaký doklad vaše přesvědčení posunul, a víte jen, kdo vám ho opakoval; když se názor změnil po období vyčerpání, izolace nebo strachu; a když vás nové přesvědčení odděluje od lidí, kteří vám dřív byli blízcí. Zvlášť výmluvné je, vyžaduje-li po vás někdo změnu názoru jako projev loajality – pak už nejde o poznání, ale o příslušnost.
+
+Postupný posun má dobře popsanou dynamiku. Kdo jednou udělá malý ústupek, snáze přistoupí na větší, protože chce zůstat konzistentní se svým předchozím jednáním (Freedman a Fraser 1966). Tavris a Aronson (2007) popisují, jak se dva lidé s podobným výchozím postojem mohou po sérii drobných rozhodnutí a jejich sebeospravedlnění ocitnout na opačných stranách a oba být přesvědčeni, že k tomu dospěli rozumem. Varovný je ale i opak: na žádný nový doklad za poslední roky jste nezměnili nic. Strnulost není stabilita.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Dospívající chlapec během jednoho roku přešel od zájmu o posilování k p
 ## Cíl dovednosti
 
 Vybudovat zdravý vztah ke změně názoru – ne jako k selhání, ale jako ke známce epistemické vitality – a umět rozlišit revizi z dokladů od revize z tlaku.
+
+## Odborné východisko
+
+Teorie kognitivní disonance vysvětluje, proč je revize přesvědčení emočně náročná: když jednání nebo nová informace odporuje tomu, co si myslíme, vzniká nepříjemné napětí, které lidé často řeší úpravou přesvědčení tak, aby ospravedlnilo už vykonané (Festinger 1957). Čím víc člověk do přesvědčení investoval – času, peněz, vztahů –, tím silnější je tlak ho uhájit. To platí stejně pro zdravé jako pro manipulované přesvědčení; rozdíl je v tom, zda revizi vede doklad, nebo potřeba snížit napětí.
+
+Kunda (1990) shrnula výzkum motivovaného usuzování: lidé nemohou věřit čemukoli, co si přejí, protože potřebují zdání racionálního zdůvodnění, ale přání ovlivňuje, které doklady hledají, jak přísně je posuzují a kdy přestanou hledat. Manipulace této vlastnosti využívá tím, že spojí žádoucí závěr s přijetím, bezpečím nebo láskou. Užitečným protijedem je představa, kterou Quine a Ullian (1970) nazvali sítí přesvědčení: přesvědčení nejsou izolované body, ale propojená síť, v níž se okrajová tvrzení mění snadno a ústřední jen s velkými náklady. Zdravá revize začíná na okraji a postupuje ke středu jen tehdy, když to doklady vyžadují.
+
+Konečně výzkum oprav dezinformací připomíná, že staré přesvědčení se neodstraní tím, že se prohlásí za mylné; potřebuje náhradní vysvětlení, které zaplní vzniklou mezeru (Lewandowsky et al. 2012). Proto cvičení vedou k formulaci toho, *čím* staré přesvědčení nahrazujete, ne jen čeho se vzdáváte.
 
 ## Pět praktických cvičení
 
@@ -80,13 +84,22 @@ Hodina měsíčně na revizi a mapu obratů, průběžně při každém střetu 
 
 ## Čeho se vyvarovat
 
-- Neoznamujte změnu názoru osobě nebo skupině, která za „odpadnutí“ trestá, dokud nemáte zajištěnou oporu a bezpečí.
-- Neměňte celé balíky přesvědčení najednou; postupná revize je stabilnější.
-- Nedovolte, aby revize přesvědčení byla podmínkou přijetí ve vztahu nebo ve skupině.
+Neoznamujte změnu názoru osobě nebo skupině, která za „odpadnutí“ trestá, dokud nemáte zajištěnou oporu a bezpečí. Revize přesvědčení je vaše vnitřní práce a nemusí být nikomu hned předložena.
+
+Neměňte ani celé balíky přesvědčení najednou; postupná revize je stabilnější a chrání před tím, abyste jeden uzavřený systém vyměnili za jiný. A nedovolte, aby revize přesvědčení byla podmínkou přijetí ve vztahu nebo ve skupině – názor, který se mění na objednávku, není váš.
 
 ## Meze svépomoci
 
 Příliš snadná revize hraničí s nestálostí: přesvědčení potřebují určitou setrvačnost, jinak nelze jednat ani nést závazky. U rozsáhlé revize po odchodu z prostředí s vysokou kontrolou jde o proces, který přesahuje sebe-obranu a patří do rámce [rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md).
+
+## Literatura
+
+- Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford University Press.
+- Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The foot-in-the-door technique. *Journal of Personality and Social Psychology*, 4(2), 195–202.
+- Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
+- Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. *Psychological Science in the Public Interest*, 13(3), 106–131.
+- Quine, W. V. O., & Ullian, J. S. (1970). *The Web of Belief*. Random House.
+- Tavris, C., & Aronson, E. (2007). *Mistakes Were Made (But Not by Me)*. Harcourt.
 
 ## Související
 

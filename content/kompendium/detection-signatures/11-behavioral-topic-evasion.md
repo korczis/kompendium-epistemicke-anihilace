@@ -32,6 +32,8 @@ Každý rozhovor má omezenou kapacitu pozornosti. Kdo dokáže tuto kapacitu od
 
 Pro zasaženou osobu vede opakovaný únik k tomu, že nedokáže uzavřít žádnou zkušenost – nikdy se nedozví odpověď, a proto si ji začne domýšlet nebo přestane klást otázky vůbec. V partnerských vztazích je únik součástí vzorce [DARVO](@/glossary/darvo.md), kde protiútok přechází v obrácení role oběti.
 
+Empiricky nejlépe doloženou vlastností úniku je jeho nenápadnost. Rogers a Norton (2011) ukázali, že posluchači často nepostřehnou, že mluvčí odpověděl na jinou otázku, než jaká byla položena, pokud je odpověď plynulá a týká se příbuzného tématu; únik se odhalí teprve tehdy, když má posluchač původní otázku před očima. To vysvětluje, proč validační test spočívá v zápisu otázek. Výzkum politických rozhovorů dospěl k podobným závěrům: Bull a Mayer (1993) sestavili typologii způsobů, jak se politici vyhýbají odpovědi, a Clayman (2001) popsal, jak mluvčí úniky maskují konverzačními prostředky, které vytvářejí dojem odpovědi. Freyd (1997) v pojmu DARVO zachytila nejvyhrocenější podobu: popření, útok a obrácení rolí oběti a pachatele, přičemž Harsey, Zurbriggen a Freyd (2017) doložili, že vystavení takové reakci souvisí se sebeobviňováním oběti.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -63,25 +65,21 @@ Kritérium 4 je diagnosticky nejcennější: odlišuje strategický únik od obe
 
 ## Odlišení od benigních podob
 
-- **Asociativní styl řeči**: někteří lidé obecně odbíhají, ale ochotně se vrátí, když je otázka připomenuta.
-- **Ochrana soukromí**: člověk má právo na některá témata nemluvit; poctivě to řekne („o tom mluvit nechci“) místo maskovaného úniku.
-- **Trauma**: zasažená osoba se může vyhýbat tématům, která jsou pro ni retraumatizující. To je obrana, ne manipulace, a zasluhuje respekt.
-- **Pracovní a právní důvody**: probíhající řízení nebo mlčenlivost mohou bránit odpovědi; poctivý zdroj tento důvod uvede.
+**Asociativní styl řeči** je běžnou osobní vlastností: někteří lidé obecně odbíhají, ale ochotně se vrátí, když je otázka připomenuta, a jejich odbočky nejsou soustředěny kolem témat vlastní odpovědnosti. Bavelas et al. (1990) navíc ukázali, že vyhýbavá, nejednoznačná komunikace (*equivocation*) vzniká často v situacích, kdy každá přímá odpověď by někomu ublížila; jde tedy o reakci na komunikační dilema, nikoli nutně o manipulaci.
+
+**Ochrana soukromí** je legitimní: člověk má právo na některá témata nemluvit. Poctivý mluvčí to ovšem řekne („o tom mluvit nechci“) místo maskovaného úniku, a tazatel tak ví, na čem je. Zvláštním případem je **trauma**: zasažená osoba se může vyhýbat tématům, která jsou pro ni retraumatizující. To je obrana, ne manipulace, a zasluhuje respekt; vyžadovat od ní odpověď by bylo profesní chybou. Konečně **pracovní a právní důvody**, například probíhající řízení nebo mlčenlivost, mohou odpovědi bránit; poctivý zdroj tento důvod uvede.
 
 ## Klinická diferenciální diagnostika
 
-- **Vyhýbání se podnětům** spojeným s traumatem je jedním z charakteristických příznaků posttraumatické stresové poruchy – u zasažené osoby jde o symptom, nikoli o signaturu manipulace.
-- **Tangencialita a rozvolnění asociací** u psychotických stavů nebo manických epizod postihují řeč obecně, nikoli selektivně.
-- **Poruchy pozornosti** vedou k odbíhání bez vztahu k obsahu otázky.
-- **Sociální úzkost** se může projevit vyhýbáním se přímým odpovědím ze strachu z hodnocení.
+**Vyhýbání se podnětům** spojeným s traumatem patří mezi charakteristické příznaky posttraumatické stresové poruchy; DSM-5-TR je řadí do samostatného kritéria (American Psychiatric Association, 2022). U zasažené osoby jde o symptom, nikoli o signaturu manipulace, a zaměnit jedno za druhé je závažná chyba. **Tangencialita a rozvolnění asociací** u psychotických stavů nebo manických epizod postihují řeč obecně, nikoli selektivně podle obsahu otázky. **Poruchy pozornosti** vedou k odbíhání bez vztahu k tomu, zda se otázka týká odpovědnosti mluvčího. **Sociální úzkost** se může projevit vyhýbáním se přímým odpovědím ze strachu z hodnocení; osoba je přitom obvykle sama nespokojená s tím, že neodpověděla.
 
-Rozhodujícím rozlišovacím znakem je opět selektivita podle tématu odpovědnosti a přítomnost protiútoku na tazatele.
+Rozhodujícím rozlišovacím znakem je selektivita podle tématu odpovědnosti a přítomnost protiútoku na tazatele. Klinické stavy se projevují nezávisle na tom, zda otázka mluvčího ohrožuje, a nepřesouvají vinu na toho, kdo se ptá. Posouzení konkrétní osoby přísluší kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 
-- Únik oběti od traumatického tématu může být mylně hodnocen jako vyhýbání se odpovědnosti – to je závažná chyba, zejména ve forenzním prostředí.
-- Politická a mediální komunikace je plná úniků; ne každý je manipulací v klinickém smyslu.
-- Hodnotitel může vnímat jako únik odpověď, která jen nesplnila jeho očekávání.
+Nejzávažnějším omylem je, že únik oběti od traumatického tématu se mylně hodnotí jako vyhýbání se odpovědnosti. Ve forenzním prostředí to může vést ke zpochybnění výpovědi, která je ve skutečnosti typická pro traumatizovanou osobu, a k sekundární viktimizaci. Signatura se proto vztahuje k tématům odpovědnosti *zdroje*, nikoli k tématům bolestným pro zasaženou osobu.
+
+Druhým rizikem je přenesení měřítka z jiného žánru. Politická a mediální komunikace je plná úniků, které výzkum dokumentuje jako běžnou rétorickou praxi (Bull & Mayer, 1993); ne každý takový únik je manipulací v klinickém smyslu a signatura z něj nedělá závěr o osobě. Třetím rizikem je hodnotitel sám: může vnímat jako únik odpověď, která jen nesplnila jeho očekávání nebo byla delší, než by chtěl. Doslovný zápis otázky a odpovědi tento omyl omezuje.
 
 ## Validační test
 
@@ -105,9 +103,19 @@ Ideální je doslovný záznam nebo přepis (při respektování pravidel nahrá
 
 ## Limity a otevřené otázky
 
-- Selektivitu úniku lze doložit jen při dostatečném množství materiálu.
-- Ve vícečlenných rozhovorech (porady, rodinná setkání) je obtížné určit, kdo únik způsobil.
-- Kulturní normy nepřímé komunikace mohou připomínat únik; posuzovat je třeba vůči normě dané skupiny.
+Selektivitu úniku lze doložit jen při dostatečném množství materiálu, a to v různých situacích a tématech. Z jednoho rozhovoru nelze poznat, zda mluvčí odbíhá vždy, nebo jen u otázek týkajících se jeho odpovědnosti. Ve vícečlenných rozhovorech, jako jsou porady nebo rodinná setkání, je navíc obtížné určit, kdo únik způsobil, protože téma může změnit kterýkoli účastník.
+
+Kulturní normy nepřímé komunikace mohou únik připomínat; posuzovat je třeba vůči normě dané skupiny, jak upozorňuje výzkum zdvořilosti a nepřímého vyjadřování. Otevřenou otázkou zůstává, jak měřit únik v písemné komunikaci, kde lze nepříjemnou zprávu jednoduše nechat bez odpovědi; mlčení je zde obtížně odlišitelné od přehlédnutí.
+
+## Literatura
+
+- American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+- Bavelas, J. B., Black, A., Chovil, N., & Mullett, J. (1990). *Equivocal Communication*. Sage.
+- Bull, P., & Mayer, K. (1993). How not to answer questions in political interviews. *Political Psychology*, 14(4), 651–666.
+- Clayman, S. E. (2001). Answers and evasions. *Language in Society*, 30(3), 403–442.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1), 22–32.
+- Harsey, S. J., Zurbriggen, E. L., & Freyd, J. J. (2017). Perpetrator responses to victim confrontation: DARVO and victim self-blame. *Journal of Aggression, Maltreatment & Trauma*, 26(6), 644–663.
+- Rogers, T., & Norton, M. I. (2011). The artful dodger: Answering the wrong question the right way. *Journal of Experimental Psychology: Applied*, 17(2), 139–147.
 
 ## Související
 

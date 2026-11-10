@@ -19,9 +19,7 @@ toc = true
 
 ## Pro koho je návod
 
-- Pro člověka, který své dřívější já odmítá nebo se za něj stydí.
-- Pro ty, kdo si nedokážou představit budoucnost mimo vztah nebo skupinu.
-- Pro lidi, kterým se po traumatu zdá, že čas „stojí“ nebo se rozpadá.
+Návod je pro člověka, který své dřívější já odmítá nebo se za něj stydí, pro ty, kdo si nedokážou představit budoucnost mimo vztah nebo skupinu, a pro lidi, kterým se po traumatu zdá, že čas „stojí“ nebo se rozpadá.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá po odchodu ze skupiny, která přepsala vaši minulost; při zotavován
 
 ## Varovné signály
 
-- Vaše minulé já vám připadá cizí, hloupé nebo zkažené.
-- Budoucnost si nedokážete představit, nebo jen tak, jak ji líčí skupina či partner.
-- Máte pocit, že čas se zastavil, nebo že dny splývají.
-- Datum, roční období a výročí ztrácejí význam.
-- Zlom „před a po“ je spojen se vstupem do vztahu nebo skupiny.
+Přetržená časová souvislost se projevuje ve vztahu k minulosti i budoucnosti. Minulé já vám připadá cizí, hloupé nebo zkažené; budoucnost si nedokážete představit, nebo jen tak, jak ji líčí skupina či partner. Nejvýmluvnějším znakem je zlom „před a po“ spojený se vstupem do vztahu nebo skupiny – minulost se tím stává temným prologem a budoucnost pokračováním, jehož scénář píše někdo jiný.
+
+Další signály se týkají prožívání času samotného: máte pocit, že čas se zastavil, nebo že dny splývají, a datum, roční období a výročí ztrácejí význam. Zimbardo a Boyd (1999) popsali, že lidé se liší v tom, jak se vztahují k minulosti, přítomnosti a budoucnosti, a že některé profily – například převaha negativního pohledu na minulost nebo fatalistický pohled na přítomnost – souvisejí s horší pohodou. Kde se takový profil objeví náhle a v souvislosti s určitým vztahem, je dobré se ptát, odkud přišel.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Dospívající dívka strávila tři roky v online komunitě, která ji přesvě
 ## Cíl dovednosti
 
 Aktivně propojovat minulé, současné a budoucí já v souvislý časový tok, aby se identita nerozpadla na odříznuté úseky a aby ji nikdo nemohl odříznout od vlastní minulosti ani budoucnosti.
+
+## Odborné východisko
+
+Fenomenologická tradice, kterou založil Edmund Husserl, popsala, že vědomí přítomnosti vždy obsahuje „dozvuk“ právě minulého a „předjímání“ právě přicházejícího, a že teprve toto propojení vytváří zkušenost trvání (Husserl 1928). Filozofie osobní identity se ptá, co činí člověka v různých okamžicích života týmž člověkem; Parfit (1984) zdůraznil, že pro to, na čem nám záleží, je podstatná psychologická souvislost – paměť, záměry, přetrvávající přesvědčení a povahové rysy –, a že tato souvislost může být silnější nebo slabší.
+
+Psychologický výzkum ukazuje, že pocit souvislosti s budoucím já má praktické důsledky. Hershfield (2011) shrnul studie, podle nichž lidé, kteří vnímají své budoucí já jako sobě bližší, se rozhodují s větším ohledem na budoucnost – například více spoří. Chandler et al. (2003) zjistili, že dospívající, kteří nedokázali vysvětlit, jak jsou přes všechny změny stále týmiž lidmi, patřili častěji ke skupině se sebevražedným jednáním; ztráta časové souvislosti tedy není jen filozofický problém, ale může souviset s vážným ohrožením.
+
+Model autobiografické paměti Conwaye a Pleydell-Pearce (2000) popisuje, že vzpomínky jsou uspořádány podle životních období a cílů a že současné cíle ovlivňují, co si z minulosti vybavíme a jak. Prostředí, které člověku vnutí nové cíle, proto mění i jeho minulost. Časové sešívání pracuje obráceně: obnovuje vlastní cíle a jejich prostřednictvím i přístup k minulosti, která k nim patří.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,22 @@ Jednou měsíčně půl hodiny na rozhovor s budoucím já, jednou ročně dopis
 
 ## Čeho se vyvarovat
 
-- Nepoužívejte dopisy minulému já k sebetrestání.
-- Nevracejte se k nejbolestnějším obdobím bez opory.
-- Nepřebírejte budoucnost, kterou vám někdo líčí jako jedinou možnou.
+Nepoužívejte dopisy minulému já k sebetrestání; mají vést k porozumění, ne k dalšímu odsouzení. Nevracejte se k nejbolestnějším obdobím bez opory.
+
+A nepřebírejte budoucnost, kterou vám někdo líčí jako jedinou možnou. Budoucnost, která má jen jednu verzi, je proroctví, ne plán – a proroctví slouží tomu, kdo ho vyslovil.
 
 ## Meze svépomoci
 
 Časové sešívání může narazit na traumata z minulosti, která nejsou zpracovaná; pak nejde o čistě rozumové cvičení, ale o práci pro terapii. U výrazné dezorientace v čase je potřeba vyloučit i zdravotní příčiny (neurologické, spánkové, užívání látek).
+
+## Literatura
+
+- Chandler, M. J., Lalonde, C. E., Sokol, B. W., & Hallett, D. (2003). Personal persistence, identity development, and suicide: A study of native and non-native North American adolescents. *Monographs of the Society for Research in Child Development*, 68(2).
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2), 261–288.
+- Hershfield, H. E. (2011). Future self-continuity: How conceptions of the future self transform intertemporal choice. *Annals of the New York Academy of Sciences*, 1235, 30–43.
+- Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (M. Heidegger, Ed.). Max Niemeyer.
+- Parfit, D. (1984). *Reasons and Persons*. Clarendon Press.
+- Zimbardo, P. G., & Boyd, J. N. (1999). Putting time in perspective: A valid, reliable individual-differences metric. *Journal of Personality and Social Psychology*, 77(6), 1271–1288.
 
 ## Související
 

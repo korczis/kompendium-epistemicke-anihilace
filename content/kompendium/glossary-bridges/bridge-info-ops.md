@@ -1,71 +1,185 @@
 +++
-title = "Bridge: info-ops"
-description = "Glossary bridge — propojeni kompendia s glossary entry info-ops."
+title = "Bridge: Info-Ops (informační operace)"
+description = "Most mezi heslem informační operace a knihou: koordinované působení na informační prostředí, typologie dezinformací, historické a síťové případy, atribuce a obrana společnosti."
 weight = 1
 
 [taxonomies]
-tags = ["kompendium", "glossary-bridge", "info-ops", "cross-link"]
+tags = ["glossary-bridge", "kompendium", "cross-link", "info-ops", "dezinformace"]
 categories = ["academic", "reference"]
 
 [extra]
-related_terms = ["bridge-iatrogenic-harm", "bridge-ideal-speech-situation", "bridge-instrumental-reason", "bridge-intelligence-fusion"]
+category = "kompendium-bridge"
+related_terms = ["info-ops", "propaganda", "firehose-of-falsehood", "deepfake", "osint", "epistemic-security"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "info-ops"
 toc = false
 +++
 
-# Bridge — info-ops
+# Bridge: Info-Ops (informační operace)
 
-**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
+> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> rozpoznání, obraně a zotavení. Přehled všech mostů je v rejstříku
+> [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
-## Definice z glossary
+## Pojem
 
-[info-ops](@/glossary/info-ops.md) — Information Operations (Info Ops) označují koordinované využití informací k ovlivnění rozhodování protivníka při současné ochraně vlastních informačních procesů. Zahrnuje psychologické operace, electronic warfare, military deception, OPSEC a computer network operations integrované do jednotného doctrinálního rámce.
+[Informační operace](@/glossary/info-ops.md) jsou koordinované aktivity, jejichž cílem je ovlivnit
+informační prostředí protivníka nebo veřejnosti – co lidé vědí, čemu věří a jak se rozhodují.
+Pojem pochází z vojenské a bezpečnostní terminologie a zahrnuje propagandu, dezinformace, klamání,
+psychologické operace i útoky na infrastrukturu, která informace přenáší.
 
-Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
+Pro knihu jsou informační operace **nejširším měřítkem** epistemické anihilace. Kde se u
+jednotlivce rozebírají techniky zúžení informačního pole nebo podkopání důvěry, popisují informační
+operace totéž v měřítku celých společností, s organizací, rozpočtem a strategickým cílem. Kniha je
+popisuje výhradně z obranné perspektivy: jak je rozpoznat, analyzovat a jak se jim bránit.
 
-## Pozice v kompendiu
+## Informační operace očima knihy
 
-Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
+Wardleová a Derakhshan (2017) navrhli rámec „informační poruchy“, který rozlišuje tři typy
+obsahu: **dezinformaci** (nepravdivou a šířenou se záměrem škodit), **misinformaci** (nepravdivou,
+ale šířenou bez záměru) a **malinformaci** (pravdivou, ale použitou ke škodě, například únik
+soukromých údajů). Kniha rámec přebírá, protože ukazuje, že informační operace nepracují jen se
+lží. Často využívají pravdivé informace vytržené z kontextu nebo zesilují existující spory.
 
-- **Sekce 03 — Operativní vzorce**: doktrinální rámec NATO AJP-3.10
-- **Sekce 05 — Detekční metody**: indikátory koordinované kampaně
-- **Sekce 07 — Teoretické pozadí**: Gerasimovova doktrína a hybridní konflikt
-- **Per-technique: Narrative Mapping**: rekonstrukce informačního pole protivníka
+Rid (2020) ve své historii „aktivních opatření“ ukázal, že informační operace mají dlouhou tradici
+a že jejich hlavním cílem často není přesvědčit o konkrétní nepravdě, ale prohloubit rozpory ve
+společnosti a podkopat důvěru v instituce. Benkler, Faris a Roberts (2018) pak na analýze
+amerického mediálního prostředí doložili, že účinek operací závisí na struktuře domácího
+informačního ekosystému: polarizované prostředí s oslabenými institucemi je zranitelnější než
+prostředí s fungujícími korekčními mechanismy. Kniha z toho vyvozuje, že obrana proti informačním
+operacím je především péčí o vlastní epistemické instituce.
 
-Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
+### Proč jde o epistemickou, ne jen komunikační hrozbu
 
-## Konceptuální mapa
+Informační operace se často posuzují podle toho, kolik lidí oslovily nebo přesvědčily. Kniha
+navrhuje jiné měřítko: zda oslabily schopnost společnosti rozlišovat, opravovat chyby a dohodnout
+se na faktech. Operace, která nikoho nepřesvědčí, ale rozšíří přesvědčení, že „všichni lžou“, je z
+tohoto pohledu úspěšná. Tím se informační operace přímo napojují na pojem
+[epistemické bezpečnosti](@/glossary/epistemic-security.md).
 
-| Subjekt | Vztah | Objekt |
-|---------|-------|--------|
-| **Info Ops** | integruje | PsyOps, EW, MILDEC, OPSEC, CNO |
-| **Info Ops** | cílí na | Rozhodovací cyklus (OODA) protivníka |
-| **Info Ops** | vyžaduje | Long-horizon attribution a counter-narrative kapacity |
+### Most mezi kolektivní a individuální rovinou
 
-## Bezpečnostní implikace
+Informační operace působí na populace, ale škodu nesou jednotliví lidé. Kniha proto sleduje, jak se
+kolektivní kampaň promítá do individuální zkušenosti: novinářka, která se stala terčem
+koordinovaného obtěžování, rodina rozdělená podle zdrojů, které sledují, starší člověk, který po
+měsících vystavení začne pochybovat o všem, co slyší v médiích. V těchto případech se objevují tytéž
+mechanismy jako u interpersonální manipulace – izolace, zahlcení, zpochybnění vlastního úsudku –,
+jen jejich zdrojem není jedna osoba, ale anonymní síť. Pro kliniky je důležité na tuto možnost
+myslet, protože zasažený často nedokáže svou zkušenost pojmenovat a cítí se „jen unavený ze
+zpráv“.
 
-Demokratické společnosti čelí Info Ops s asymetrickou nevýhodou — autoritativní aktéři kombinují ofenzivní kampaně bez vnitřních brzd, zatímco demokracie musí balancovat protiopatření se svobodou projevu. Operativní obrana spojuje technickou attribution, mediální gramotnost a institucionální transparenci jako vrstvy odolnosti.
+## Kde se pojem v knize vyskytuje
 
-## Cross-linky
+Historické případy [Sovětská aktivní opatření](@/kompendium/historical-cases/21-soviet-active-measures.md),
+[Ruská Internet Research Agency](@/kompendium/historical-cases/22-russian-ira.md) a
+[Cambridge Analytica](@/kompendium/historical-cases/23-cambridge-analytica.md) ukazují různé podoby
+a měřítka; kniha u nich odlišuje doložená fakta od interpretací. Síťové mechanismy rozebírají
+techniky [EA-9.4.2 Koordinované neautentické chování](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
+a [EA-9.4.3 Síť loutkových účtů](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md), detekčně
+signatury [Koordinace botů](@/kompendium/detection-signatures/20-network-bot-coordination.md) a
+[Vkládání narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md).
 
-- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
-- **Glossary entry**: [/glossary/info-ops/](@/glossary/info-ops.md)
-- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
-- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
-- **Per-technique články**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
-- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](@/kompendium/02-uvod/_index.md)
-- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](@/kompendium/07-teoreticke-reflexe/_index.md)
-- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](@/kompendium/08-prilohy/_index.md)
-- **Glossary hub**: [/glossary/](@/glossary/_index.md)
+Na úrovni institucí se obraně věnují [Obrana proti dezinformacím](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md)
+a [Ověřování zpravodajství o hrozbách](@/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md),
+na úrovni analýzy [Zkreslení při atribuci](@/kompendium/cross-domain/23-ea-security-attribution-bias.md).
+Teoretický rámec nabízí [Wardleová: typologie dezinformací](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
+a [Boyd: věk dezinformací](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md).
 
----
+## Od pojmu k praxi
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+### Rozpoznání
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+Informační operaci prozrazuje koordinace, která neodpovídá přirozenému šíření: mnoho účtů s
+podobným chováním, synchronní zveřejňování, opakování týchž formulací, nepoměr mezi skutečným
+zájmem a umělým zesílením. Důležitý je kontext – načasování vůči volbám, krizím nebo konfliktům. Pro
+analytika je zásadní rozlišit, co je doloženo (koordinace), od toho, co je odvozeno (aktér a záměr).
+
+### Obrana
+
+Obrana stojí na třech vrstvách. Technická vrstva zahrnuje odhalování koordinovaných sítí a
+transparentnost platforem. Institucionální vrstva zahrnuje rychlou a důvěryhodnou komunikaci veřejných
+institucí a nezávislá média. Společenská vrstva zahrnuje mediální gramotnost a schopnost obyvatel
+rozpoznat techniky. Kniha zdůrazňuje, že obrana nesmí sklouznout k cenzuře legitimního nesouhlasu;
+to by samo poškodilo epistemické instituce, které má chránit.
+
+### Pro jednotlivce
+
+Jednotlivec nemůže informační operaci zastavit, ale může snížit její účinek na sebe a své okolí:
+nesdílet obsah, který vyvolává silnou emoci, dřív než ho ověří; sledovat zdroje s různou
+perspektivou; a všímat si, kdy se diskuse v jeho okolí náhle zaplní novými účty se stejnými názory.
+Svépomocné nástroje nabízí [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md).
+
+### Zotavení
+
+Na úrovni společnosti je zotavení obnovou důvěry v instituce, které se ukážou jako spolehlivé, a
+obnovou společné faktické půdy. Na úrovni jednotlivců – například novinářů nebo aktivistů, kteří
+byli cílem kampaní – zahrnuje i psychologickou podporu; viz
+[EA-6.4.9 Protokol pro novináře](@/kompendium/techniques/ea-6-4-9-novinari-protokol.md).
+
+### Rámec pro profesionály
+
+Pro analytiky platí zásada opatrnosti při atribuci: přičíst kampaň konkrétnímu státu nebo
+organizaci vyžaduje silné důkazy a mělo by být odlišeno od pouhého zjištění koordinace. Pro
+výzkumníky platí etika práce s daty o uživatelích. A pro všechny platí, že pojem „informační
+operace“ by neměl sloužit k diskreditaci každého nepohodlného názoru.
+
+## Odlišení od příbuzných jevů
+
+Informační operace se liší od [propagandy](@/glossary/propaganda.md) šíří: propaganda je jednou z
+jejich součástí. Od běžné politické kampaně se liší skrytostí a neautentičností – legitimní kampaň
+vystupuje pod vlastním jménem. A od spontánního šíření fám se liší koordinací a záměrem, které je
+třeba doložit.
+
+## Časté omyly
+
+Častým omylem je přeceňování: ne každá vlna dezinformací je státní operací a ne každá operace je
+úspěšná. Opačným omylem je podceňování: operace nemusí nikoho přesvědčit, aby působila škodu. Třetím
+omylem je představa, že stačí fakta vyvracet; vyvracení je nutné, ale bez péče o instituce nestačí.
+
+## Příklad (anonymizovaný kompozit)
+
+Regionální redakce zaznamená, že pod články o místní nemocnici se během několika dní objeví stovky
+komentářů z nových účtů se stejnými formulacemi o „utajovaných úmrtích“. Redakce nevyvrací každý
+komentář; zveřejní analýzu vzorce, ověřené údaje od nemocnice a vysvětlení, jak koordinaci poznala.
+Zájem o komentáře opadne. Kdo kampaň řídil, redakce netvrdí – nemá pro to důkazy. Případ ukazuje
+zásadu, kterou kniha opakuje: popsat vzorec a doložená fakta, atribuci ponechat tam, kde jsou
+důkazy.
+
+## Meze a otevřené otázky
+
+Měření skutečného účinku informačních operací je obtížné a výzkum přináší smíšené výsledky. Otevřené
+je, jak se operace promění s generativními modely, které mohou obsah vytvářet ve velkém, a jak
+vyvážit obranu se svobodou projevu.
+
+Kniha také ponechává otevřené, jak hodnotit operace, které vedou demokratické státy navenek; obranný
+rámec knihy se na ně vztahuje stejně, i když politická debata o nich bývá asymetrická.
+
+## Literatura
+
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network Propaganda: Manipulation, Disinformation, and Radicalization in American Politics*. Oxford University Press.
+- Rid, T. (2020). *Active Measures: The Secret History of Disinformation and Political Warfare*. Farrar, Straus and Giroux.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.
+
+## Související
+
+**Glosář**
+
+- [Propaganda](@/glossary/propaganda.md) – součást informačních operací.
+- [Firehose of falsehood](@/glossary/firehose-of-falsehood.md) – konkrétní model.
+- [Deepfake](@/glossary/deepfake.md) – technologický nástroj.
+- [Epistemic security](@/glossary/epistemic-security.md) – obranný rámec.
+
+**Kniha**
+
+- [Sovětská aktivní opatření](@/kompendium/historical-cases/21-soviet-active-measures.md) – historický případ.
+- [EA-9.4.2 Koordinované neautentické chování](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) – síťový mechanismus.
+- [Obrana proti dezinformacím](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md) – institucionální obrana.
+- [Zkreslení při atribuci](@/kompendium/cross-domain/23-ea-security-attribution-bias.md) – analytická opatrnost.
+
+**Sesterské mosty**
+
+- [Bridge: Propaganda](@/kompendium/glossary-bridges/bridge-propaganda.md) – součást rámce.
+- [Bridge: Deepfake](@/kompendium/glossary-bridges/bridge-deepfake.md) – technologický nástroj.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

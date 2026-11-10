@@ -26,6 +26,8 @@ Sociální síť plní epistemickou funkci: lidé kolem nás nám poskytují sro
 
 Zrychlení je důležitým varovným znakem: v pozdějších fázích zbývá méně lidí, kteří by změnu zaznamenali, a tedy i méně lidí, kteří by mohli pomoci. Ztráta sítě zároveň zvyšuje cenu odchodu – osoba by odcházela do prázdna.
 
+Epistemickou funkci sociální sítě popsal už Festinger (1954) v teorii sociálního srovnávání: tam, kde chybí objektivní měřítko, posuzujeme správnost vlastních názorů a schopností podle druhých lidí. Kdo přijde o rozmanitou síť, přijde i o rozmanitost srovnání, a zbylý okruh – často jediný zdroj – tak získá monopol na definici normality. Biderman (1957) u izolace zdůraznil, že zbavuje vězně veškeré sociální opory jeho schopnosti odolávat a rozvíjí intenzivní zaujetí sebou samým a závislost na vyslýchajícím. Lalich (2004) v pojmu ohraničené volby ukazuje, že v uzavřeném prostředí nejde jen o fyzickou izolaci, ale o postupné zužování světa, v němž se člověk rozhoduje. Zdravotní rozměr dokládá metaanalýza Holt-Lunstadové, Smitha a Laytona (2010), podle níž je síla sociálních vztahů významně spojena s rizikem úmrtnosti; Cacioppo a Patrick (2008) zase popsali, jak chronická osamělost zvyšuje ostražitost vůči sociálním hrozbám a zkresluje vnímání druhých. Izolace tedy neoslabuje jen přístup k informacím, ale i kapacitu je zpracovat.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -58,23 +60,25 @@ Pozitivní při splnění bodů 1, 2 a alespoň jednoho z bodů 3–4.
 
 ## Odlišení od benigních podob
 
-- **Přirozené životní přechody**: stěhování, rodičovství, nová práce nebo nemoc zužují síť bez vnějšího tlaku.
-- **Oprávněné hranice**: rozhodnutí omezit kontakt s osobou, která skutečně škodí, je legitimní; rozlišuje se podle toho, zda je rozhodnutí vlastní a selektivní, nebo vnucené a plošné.
-- **Intenzivní počáteční fáze vztahu**: zamilovanost vede k soustředění na partnera, obvykle však bez nepřátelství vůči ostatním a s postupným návratem k síti.
-- **Náročný výcvik nebo program** (vojenský, sportovní, klášterní) s dočasnou izolací, která je předem známá, časově omezená a z níž lze odejít.
+**Přirozené životní přechody**, jako je stěhování, rodičovství, nová práce nebo nemoc, zužují síť bez vnějšího tlaku. Rozlišuje se podle toho, zda osoba zúžení popisuje jako důsledek okolností, s nimiž počítá, a zda se kontakty obnovují, když okolnosti pominou. Signatura naopak předpokládá zúžení zdůvodňované potřebami vztahu nebo skupiny a provázené nepřátelstvím vůči těm, kdo zůstali venku.
+
+**Oprávněné hranice** jsou legitimní a mnohdy ozdravné. Rozhodnutí omezit kontakt s osobou, která skutečně škodí, je součástí zotavení po násilí, jak ji popisuje Herman (1992). Rozlišuje se podle toho, zda je rozhodnutí vlastní a selektivní, nebo vnucené a plošné, a zda se osoba může o něm volně bavit s lidmi mimo vztah.
+
+**Intenzivní počáteční fáze vztahu** vede k soustředění na partnera, obvykle však bez nepřátelství vůči ostatním a s postupným návratem k síti. Konečně **náročný výcvik nebo program** – vojenský, sportovní či klášterní – může zahrnovat dočasnou izolaci, která je ale předem známá, časově omezená a z níž lze odejít bez trestu. Právě předem známé podmínky a možnost odchodu jsou rozhodujícím rozdílem.
 
 ## Klinická diferenciální diagnostika
 
-- **Deprese** vede ke stažení se z kontaktů z nedostatku energie a radosti; stažení je obvykle plošné a osoba ho popisuje jako vlastní neschopnost, ne jako požadavek někoho jiného (srov. [sociální izolace](@/glossary/socialni-izolace.md)).
-- **Sociální úzkost** a **vyhýbavá porucha osobnosti** vedou k omezení kontaktů ze strachu z hodnocení, dlouhodobě a bez vazby na jeden vztah.
-- **Paranoidní stavy** mohou vést k přerušení kontaktů z podezření vůči ostatním, vznikají ale bez vnějšího zdroje, který by podezření živil.
-- **Psychotická porucha nebo demence** u staršího člověka mohou izolaci způsobit a zároveň ho učinit zranitelným vůči izolaci zvenčí (srov. [elder abuse](@/glossary/elder-abuse.md)).
+**Deprese** vede ke stažení se z kontaktů z nedostatku energie a radosti. Stažení je obvykle plošné a osoba ho popisuje jako vlastní neschopnost, ne jako požadavek někoho jiného (srov. [sociální izolace](@/glossary/socialni-izolace.md)). **Sociální úzkost** a **vyhýbavá porucha osobnosti** vedou k omezení kontaktů ze strachu z hodnocení; tento vzorec je dlouhodobý, předchází současnému vztahu a není vázán na jednu osobu.
+
+**Paranoidní stavy** mohou vést k přerušení kontaktů z podezření vůči ostatním. Na rozdíl od signatury však vznikají bez vnějšího zdroje, který by podezření živil, a podezření se často vztahuje i na samotný „chránící“ vztah. **Psychotická porucha nebo demence** u staršího člověka mohou izolaci způsobit a zároveň ho učinit zranitelným vůči izolaci zvenčí; tyto stavy se proto nevylučují se signaturou, ale mohou s ní koexistovat (srov. [elder abuse](@/glossary/elder-abuse.md)).
+
+Nátlaková kontrola (*coercive control*), v jejímž rámci se izolace často objevuje, není klinická diagnóza, ale popis vzorce jednání (Stark, 2007). Klinické posouzení zasažené osoby proto hledá spíše následky – depresivní, úzkostné nebo traumatické reakce – a jejich souvislost s prostředím. Diagnostický závěr náleží kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 
-- Rodina, která o osobu přišla, může mít zájem vykládat její rozhodnutí jako izolaci, i když jde o legitimní odpoutání.
-- U dospívajících je přesun důležitosti od rodiny k vrstevníkům vývojově normální.
-- Kulturní a náboženské komunity mohou mít silné vnitřní vazby, aniž by bránily kontaktům ven; rozhodující je možnost odejít bez sankce.
+Rodina, která o osobu přišla, může mít zájem vykládat její rozhodnutí jako izolaci, i když jde o legitimní odpoutání. Bolest z přerušeného kontaktu je skutečná, ale sama nedokládá, že za ním stojí cizí vliv. Hodnotitel by proto měl vycházet především z výpovědi samotné osoby a z vývoje celé její sítě, nikoli jen z perspektivy jedné opuštěné skupiny.
+
+U dospívajících je přesun důležitosti od rodiny k vrstevníkům vývojově normální. Steinberg a Monahan (2007) ukázali, že odolnost vůči vlivu vrstevníků se mezi dospíváním a ranou dospělostí postupně zvyšuje; přechodné zúžení kontaktu s rodinou v tomto období tedy signaturu nezakládá. Kulturní a náboženské komunity mohou mít silné vnitřní vazby, aniž by bránily kontaktům ven; rozhodující je možnost odejít bez sankce a možnost udržovat vztahy mimo komunitu bez trestu nebo vyloučení.
 
 ## Validační test
 
@@ -100,9 +104,21 @@ Zaznamenat časovou osu ztrát kontaktu, důvody uváděné osobou a případně
 
 ## Limity a otevřené otázky
 
-- Mapa sítě závisí na výpovědi, která může být ovlivněna jak zdrojem, tak blízkými.
-- Online kontakty komplikují měření: osoba může mít mnoho kontaktů, které jsou však všechny uvnitř téže skupiny.
-- Mezi dobrovolným odpoutáním a vnucenou izolací existuje šedá zóna, kterou nelze rozhodnout zvenčí.
+Mapa sítě závisí na výpovědi, která může být ovlivněna jak zdrojem, tak blízkými. Zasažená osoba může kontakty, o něž přišla, bagatelizovat, protože převzala jejich výklad jako „škodlivých“; blízcí mohou naopak zveličovat dřívější blízkost. Proto je užitečné opírat mapu o vnější doklady, jako je komunikace v čase.
+
+Online kontakty komplikují měření: osoba může mít mnoho kontaktů, které jsou však všechny uvnitř téže skupiny, a početně „bohatá“ síť tak může být epistemicky stejně chudá jako malá. Mezi dobrovolným odpoutáním a vnucenou izolací navíc existuje šedá zóna, kterou nelze rozhodnout zvenčí. Otevřenou otázkou zůstává, jak dlouho po odchodu z izolujícího prostředí trvá obnova sítě a které kontakty jsou pro zotavení nejdůležitější.
+
+## Literatura
+
+- Biderman, A. D. (1957). Communist attempts to elicit false confessions from Air Force prisoners of war. *Bulletin of the New York Academy of Medicine*, 33(9), 616–625.
+- Cacioppo, J. T., & Patrick, W. (2008). *Loneliness: Human Nature and the Need for Social Connection*. W. W. Norton.
+- Festinger, L. (1954). A theory of social comparison processes. *Human Relations*, 7(2), 117–140.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. *PLoS Medicine*, 7(7), e1000316.
+- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Steinberg, L., & Monahan, K. C. (2007). Age differences in resistance to peer influence. *Developmental Psychology*, 43(6), 1531–1543.
 
 ## Související
 

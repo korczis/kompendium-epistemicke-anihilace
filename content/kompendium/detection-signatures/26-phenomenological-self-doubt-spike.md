@@ -26,6 +26,8 @@ Zdravá pochybnost je epistemická ctnost – umožňuje opravit omyl. Skok sebe
 
 Pochybnost se může stát **rekurzivní**: člověk pochybuje i o svých pochybnostech, a nedokáže proto pochybnost uzavřít ani rozhodnutím (srov. [rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md)). Ztráta [epistemické agentnosti](@/glossary/epistemicka-agentnost.md) je pak hlubší než jednotlivé omyly.
 
+Filozofie a psychologie popisují tento stav z několika stran. Govier (1993) chápe důvěru v sebe jako podmínku autonomie: kdo nedůvěřuje vlastnímu vnímání a úsudku, nemůže samostatně jednat, a je proto náchylný přijmout úsudek druhých. Abramson (2014) vidí právě v podkopání této sebedůvěry cíl gaslightingu – nejde o to, aby člověk přijal jinou verzi, ale aby přestal být tím, kdo verze posuzuje. Bandura (1977) ukázal, že vnímaná vlastní účinnost určuje, zda se člověk pustí do úkolu a vytrvá v něm, a že ji oslabuje zejména opakovaná zkušenost selhání interpretovaná jako osobní nedostatek. Experimentální výzkum dokládá, že sebedůvěru v paměť lze měnit i zvenčí: Kassin a Kiechel (1996) ukázali, že část účastníků byla po předložení falešného svědectví ochotna přiznat chybu, kterou neudělala, a některé z nich si ji dokonce „vybavily“. Van den Hout a Kindt (2003) zjistili, že opakované kontrolování snižuje jistotu ve vlastní vzpomínku, aniž by se zhoršila její přesnost – mechanismus, který vysvětluje, proč neustálé ověřování u druhých pochybnost spíše prohlubuje.
+
 ## Pozorovatelné markery
 
 ### Subjektivní výpověď
@@ -59,25 +61,25 @@ Pozitivní při splnění všech čtyř bodů. Bez bodu 3 jde o sebepochybnost s
 
 ## Odlišení od běžných stavů
 
-- **Přechodné období**: nová práce, studium, rodičovství přinášejí nejistotu, která s rostoucí zkušeností ustupuje.
-- **Reakce na skutečnou chybu**: po vážném omylu je přechodná nejistota přiměřená.
-- **Zdravá pokora**: ochota připustit omyl bez ztráty schopnosti rozhodovat (srov. [epistemická pokora](@/glossary/epistemicka-pokora.md)).
-- **Adolescence**: kolísání sebedůvěry je vývojově normální.
+**Přechodné období**, jako je nová práce, studium nebo rodičovství, přináší nejistotu, která je přiměřená novosti situace a s rostoucí zkušeností ustupuje. Signatura se od něj liší tím, že pochybnost nemizí s kompetencí, ale roste s trváním vztahu a týká se i oblastí, v nichž osoba dříve jistá byla.
+
+**Reakce na skutečnou chybu** je přiměřená: po vážném omylu je přechodná nejistota zdravým signálem, že člověk bere důsledky vážně. **Zdravá pokora**, tedy ochota připustit omyl bez ztráty schopnosti rozhodovat, je epistemickou ctností (srov. [epistemická pokora](@/glossary/epistemicka-pokora.md)); od skoku sebepochybnosti ji odlišuje to, že pochybnost se vztahuje k jednotlivým tvrzením a lze ji uzavřít ověřením. Konečně v **adolescenci** je kolísání sebedůvěry vývojově normální a samo o sobě signaturu nezakládá.
+
+Ve všech těchto případech chybí to, co je pro signaturu podstatné: vazba na určitý vztah nebo prostředí a přesun úsudku k jedné osobě, která pochybnost sama vyvolává.
 
 ## Klinická diferenciální diagnostika
 
-- **Deprese**: snížené sebehodnocení, pocity viny a nerozhodnost jsou častými příznaky; bývají plošné, nikoli vázané na jeden vztah, a provázejí je další příznaky (anhedonie, změny spánku a chuti k jídlu).
-- **Obsedantně-kompulzivní porucha**: patologická pochybnost („co když jsem nezamkl“) s kontrolováním; osoba ji obvykle vnímá jako nesmyslnou a cizí, což je rozlišovací znak.
-- **Úzkostné poruchy**: obavy z chyby a z hodnocení.
-- **Fenomén podvodníka** (Clance & Imes 1978): přesvědčení, že vlastní úspěchy jsou nezasloužené; může být dlouhodobým rysem nebo může být vnějším působením zesílen.
-- **Počínající kognitivní porucha**: u starších osob je třeba vyloučit, že pochybnost o paměti má reálný základ v jejím úbytku – a zároveň nepřehlédnout, že pochybnost může být zneužita (srov. [elder abuse](@/glossary/elder-abuse.md)).
-- **PTSD a [komplexní trauma](@/glossary/complex-trauma.md)**: narušený sebeobraz a pocit méněcennosti jsou součástí obrazu komplexní posttraumatické stresové poruchy podle MKN-11 (viz [EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md)).
+**Deprese** se projevuje sníženým sebehodnocením, pocity viny a nerozhodností; Beck et al. (1979) popsali negativní pohled na sebe jako součást kognitivní triády deprese. Tyto příznaky bývají plošné, nikoli vázané na jeden vztah, a provázejí je další projevy, jako je anhedonie a změny spánku a chuti k jídlu. **Obsedantně-kompulzivní porucha** zahrnuje patologickou pochybnost („co když jsem nezamkl“) s kontrolováním; Rachman (2002) popsal, jak zvýšený pocit odpovědnosti a pochybnost o vlastní paměti udržují kompulzivní kontrolování. Osoba obvykle pochybnost vnímá jako nesmyslnou a cizí, což je důležitý rozlišovací znak.
+
+**Úzkostné poruchy** zahrnují obavy z chyby a z hodnocení, které nejsou vázány na jednoho zdroje. **Fenomén podvodníka** popsaný Clanceovou a Imesovou (1978) je přesvědčení, že vlastní úspěchy jsou nezasloužené; může být dlouhodobým rysem nebo může být vnějším působením zesílen. U starších osob je třeba zvážit **počínající kognitivní poruchu** a vyloučit, že pochybnost o paměti má reálný základ v jejím úbytku – a zároveň nepřehlédnout, že taková pochybnost může být zneužita (srov. [elder abuse](@/glossary/elder-abuse.md)).
+
+Konečně **PTSD a [komplexní trauma](@/glossary/complex-trauma.md)**: narušený sebeobraz a pocit méněcennosti jsou součástí obrazu komplexní posttraumatické stresové poruchy podle MKN-11 (World Health Organization, 2019; viz [EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md)). Diagnostický závěr náleží kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 
-- Připsání deprese nebo OCD vnějšímu působení může oddálit účinnou léčbu.
-- Iatrogenní riziko: klient může převzít vysvětlení „za všechno může on“ a tím nahradit jednu vnější autoritu druhou.
-- Okolí (rodina, bývalý partner) může mít zájem vykládat sebepochybnost osoby jako důsledek nového vztahu.
+Připsání deprese nebo obsedantně-kompulzivní poruchy vnějšímu působení může oddálit účinnou léčbu. Obě poruchy mají ověřené terapeutické postupy, a pokud se klinik soustředí jen na vztah, může klient zůstat bez nich. Signatura a klinická diagnóza se přitom nevylučují: depresivní porucha může být následkem dlouhodobého působení a vyžaduje léčbu bez ohledu na příčinu.
+
+Iatrogenním rizikem je, že klient převezme vysvětlení „za všechno může on“ a tím nahradí jednu vnější autoritu druhou – tentokrát terapeuta nebo knihu. Cílem práce je obnova vlastního úsudku, nikoli nový výklad, který se přijímá bez ověření. Konečně okolí – rodina nebo bývalý partner – může mít zájem vykládat sebepochybnost osoby jako důsledek nového vztahu; hodnotitel proto vychází z výpovědi osoby a z doložitelného průběhu, ne z interpretace třetích stran.
 
 ## Validační test
 
@@ -101,9 +103,21 @@ Zaznamenat výpovědi o sobě doslovně, včetně převzatých formulací, a jej
 
 ## Limity a otevřené otázky
 
-- Výchozí stav se rekonstruuje zpětně, a proto je ovlivněn současným stavem.
-- Sebepochybnost a deprese se často navzájem podmiňují; oddělit je nelze vždy.
-- Měření epistemické sebedůvěry nemá zatím ustálené nástroje.
+Výchozí stav se rekonstruuje zpětně, a proto je ovlivněn současným stavem: osoba v hluboké pochybnosti si může pamatovat i svou minulost jako nejistou. Pomáhají vnější doklady, jako jsou dřívější pracovní hodnocení, zápisky nebo výpovědi blízkých.
+
+Sebepochybnost a deprese se často navzájem podmiňují a oddělit je nelze vždy; v praxi je užitečnější sledovat, zda pochybnost ustupuje s odstupem od zdroje a s léčbou deprese. Měření epistemické sebedůvěry navíc nemá zatím ustálené nástroje; existující škály vlastní účinnosti (Bandura, 1977) nebo sebehodnocení zachycují příbuzné, ale ne totožné konstrukty. Otevřenou otázkou zůstává, jak takový nástroj sestavit, aby odlišil zdravou pochybnost od patologické a aby ho nebylo možné zneužít k dalšímu zpochybňování zasažené osoby.
+
+## Literatura
+
+- Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, 84(2), 191–215.
+- Abramson, K. (2014). Turning up the lights on [gaslighting](@/glossary/gaslighting.md). *Philosophical Perspectives*, 28(1), 1–30.
+- Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. Guilford Press.
+- Clance, P. R., & Imes, S. A. (1978). The imposter phenomenon in high achieving women: Dynamics and therapeutic intervention. *Psychotherapy: Theory, Research & Practice*, 15(3), 241–247.
+- Govier, T. (1993). Self-trust, autonomy, and self-esteem. *Hypatia*, 8(1), 99–120.
+- Kassin, S. M., & Kiechel, K. L. (1996). The social psychology of false confessions: Compliance, internalization, and confabulation. *Psychological Science*, 7(3), 125–128.
+- Rachman, S. (2002). A cognitive theory of compulsive checking. *Behaviour Research and Therapy*, 40(6), 625–639.
+- van den Hout, M., & Kindt, M. (2003). Repeated checking causes memory distrust. *Behaviour Research and Therapy*, 41(3), 301–316.
+- World Health Organization. (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 
 ## Související
 

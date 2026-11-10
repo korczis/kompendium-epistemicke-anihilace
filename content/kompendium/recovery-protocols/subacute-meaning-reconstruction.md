@@ -1,6 +1,6 @@
 +++
 title = "Subakutní rekonstrukce smyslu"
-description = "Longitudinální rekonstruktivní protokol — obnovení smyslové struktury života."
+description = "Subakutní protokol práce se ztrátou smyslu po epistemické anihilaci: otřesené základní předpoklady, truchlení nad ztracenými lety a první vlastní odpovědi na otázku proč."
 weight = 11
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "subacute"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["subacute-axiological-restoration", "subacute-detection-training", "subacute-narrative-externalization", "subacute-relational-restructuring"]
+related_terms = ["subacute-axiological-restoration", "longterm-meaning-deepening", "subacute-narrative-externalization", "hodnotova-destrukce", "metanarrative-collapse"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "subacute"
@@ -16,97 +16,149 @@ phase = "subacute"
 
 # Subakutní rekonstrukce smyslu
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `subacute`
-> **Cílový rámec**: Měsíce 1–3 po dosažení akutní stabilizace.
+> **Status**: fázový protokol subakutní fáze; dlouhodobé pokračování popisuje
+> [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md).
+> **Fáze**: `subacute`.
+> **Cíl**: pomoci klientovi unést ztrátu smyslu, kterou mu poskytovalo prostředí EA,
+> a začít hledat smysl, který mu patří.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Klienti procházející existenciální krizí po EA expozici — pachatel/kult dodávali kompenzační smysl (mise, identita, budoucnost), který se zhroutil. Vakuum smyslu vytváří riziko **patologického nahrazení** (jiný kult, sekta, ideologie). Subakutní fáze umožňuje řízenou rekonstrukci.
+Manipulativní prostředí často nabízí silný smysl: poslání, spásu, výjimečnost, „pravdu, kterou
+ostatní nevidí“, lásku, jakou „nikdo jiný nedá“. Odchod z něj proto neznamená jen úlevu, ale
+i ztrátu – prázdnotu na místě, kde dříve stálo vysvětlení všeho. Protokol je určen klientům
+v subakutní fázi, kteří po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) (EA)
+prožívají ztrátu smyslu: nevědí, proč by měli něco dělat, cítí se jako „bez kompasu“,
+truchlí nad lety, které „ztratili“, nebo se ptají, zda vůbec něco smysl má.
 
-## 2. Časový rámec
+Ztráta smyslu bývá jedním z nejsilnějších důvodů k návratu. Prostředí, které klient opustil,
+mu nabízí hotové odpovědi; svět venku nabízí otázky.
 
-Měsíce 1–3 po dosažení akutní stabilizace. Intenzita: 1–2 sezení týdně. Délka sezení: 50–60 min standard, 90 min pro EMDR/TF-CBT bloky.
+## 2. Klinický obraz
+
+Janoff-Bulmanová (1992) popsala, že trauma otřásá základními předpoklady, na nichž člověk
+staví: že svět je v zásadě dobrý, že má smysl a že já jsem hodnotný člověk. U EA je otřes
+dvojí. Nejprve prostředí soustavně přepsalo tyto předpoklady podle vlastní ideologie („svět
+venku je zlý“, „smysl má jen naše cesta“, „bez nás jsi nic“). Po odchodu se zhroutí i tato
+náhrada a člověk stojí bez obou. Kniha tento stav popisuje pojmy [hodnotová destrukce](@/glossary/hodnotova-destrukce.md)
+a [kolaps metanarativu](@/glossary/metanarrative-collapse.md).
+
+Parková (2010) shrnula výzkum tvorby smyslu po zátěži jako proces, v němž člověk porovnává
+smysl konkrétní události s obecným, globálním smyslem svého života; rozpor mezi nimi vyvolává
+tíseň a podněcuje hledání. Neimeyer (2001) popsal truchlení jako rekonstrukci smyslu: ztráta
+nutí člověka přepsat příběh vlastního života. U lidí po EA se truchlí nad mnoha věcmi zároveň –
+nad vztahem nebo skupinou, nad iluzí, nad časem, nad vztahy, které kvůli prostředí přerušili,
+a často i nad vírou nebo ideály, které byly skutečně jejich, ale prostředí je zneužilo.
+
+Klinicky se objevuje prázdnota, apatie, cynismus („všechno je to stejně podvod“), nebo naopak
+horečné hledání nového velkého smyslu – nové skupiny, učení, poslání. Frankl (1959) popsal
+existenciální vakuum jako stav, kdy člověku chybí smysl a kdy se snadno přimkne k čemukoli,
+co jej nabízí.
+
+Herman (1992) zdůrazňuje, že truchlení je nezbytnou, i když nejtěžší částí zotavení: přeživší
+musí oplakat nejen to, co mu bylo vzato, ale i iluze, které mu pomáhaly přežít. U EA k nim
+patří i iluze vlastní výjimečnosti, kterou prostředí pěstovalo („ty jsi vyvolený“, „jen ty
+mi rozumíš“). Ztráta této výjimečnosti bývá bolestnější, než by okolí čekalo, a klient se za
+ni stydí. Protokol s ní pracuje otevřeně, protože právě ona je místem, kam míří nabídky
+nových totalizujících prostředí.
 
 ## 3. Cíle protokolu
 
-1. Strukturovaná dekonstrukce internalizovaných pachatelských obsahů (narativy, hodnoty, hlasy).
-2. Vývoj **epistemic vigilance** — schopnost detekovat manipulativní vzorce v reálném čase.
-3. Rekonstrukce primárních hodnotových orientací autentickou cestou.
-4. Zpracování klíčových traumatických memorií skrze evidence-based modality (EMDR, TF-CBT).
-5. Příprava na středně-dobou fázi rehabilitace kognitivních a sociálních funkcí.
+Cílem je pojmenovat ztrátu smyslu jako pochopitelnou součást zotavení, ne jako selhání;
+umožnit truchlení nad tím, co klient ztratil, včetně let a vztahů; oddělit hodnoty a ideály,
+které byly klientovy, od způsobu, jakým je prostředí zneužilo; najít první malé, každodenní
+zdroje smyslu, které nevyžadují velký celkový výklad; a chránit klienta před rychlým přijetím
+nového totalizujícího smyslu.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Hloubkové hodnocení (týden 5–6)**: Klinické instrumenty (PCL-5, ITQ, IES-R), kognitivní baseline, narativní mapování. Identifikace primárních manipulačních vzorců.
-2. **Strukturovaná psychoedukace (měsíc 2)**: Vzdělávací moduly o specifických technikách EA, kterým byl klient vystaven. **Kontrolovaná dávka** — psychoedukace musí být tolerována bez [retraumatizace](@/glossary/retraumatizace.md).
-3. **Narativní práce (měsíce 1–3)**: Týdenní sezení zaměřená na konstrukci koherentní traumatické narace. Externalizace pachatelského hlasu (technika „pojmenuj postavu“). Postupné přepisování klíčových scén.
-4. **Trauma-focused intervence (měsíce 2–3)**: Zahájení EMDR nebo TF-CBT, jakmile dostatečná stabilizace. Cíl: zpracování klíčových traumatických memorií, ne celého spektra.
-5. **Detekční trénink (měsíc 3)**: Strukturované cvičení rozpoznávání manipulativních vzorců — hypotetické scénáře, role-play, video case studies. Budování **epistemic vigilance**.
-6. **Hodnotová inventarizace (měsíc 3)**: Strukturovaná práce s hodnotovým systémem — co je autentické, co implantované, co potřeba rekonstruovat.
+1. **Pojmenování ztráty** – co přesně klient ztratil: lidi, roli, jistotu, víru, budoucnost,
+   kterou si představoval.
+2. **Truchlení** – prostor pro smutek a hněv nad ztracenými lety; terapeut neurychluje
+   „pozitivní přerámování“.
+3. **Rozlišení hodnoty a zneužití** – klient si sepíše, co ho ke skupině nebo vztahu přitáhlo
+   (touha pomáhat, hledání pravdy, láska) a co z toho prostředí udělalo; hodnota může zůstat,
+   i když forma odejde. Navazuje [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md).
+4. **Malé zdroje smyslu** – každodenní činnosti a vztahy, které klientovi přinášejí pocit, že
+   na něčem záleží (péče o někoho, práce rukama, příroda, učení); smysl se hledá v malém,
+   ne v celkovém výkladu.
+5. **Otevřené otázky** – klient se učí snést, že na velké otázky nemá hned odpověď; nejistota
+   není znakem, že je „ztracený“.
+6. **Psaní a vyprávění** – navazuje na [narativní externalizaci](@/kompendium/recovery-protocols/subacute-narrative-externalization.md):
+   jak klient chce, aby jeho příběh pokračoval.
+7. **Duchovní rozměr** – pokud jde o náboženskou nebo spirituální skupinu, nabídnout možnost
+   konzultace s duchovním mimo prostředí skupiny nebo se sekulárním poradcem, podle volby
+   klienta; viz [Spirituální obnova](@/kompendium/prevention-resilience/28-spiritual-restoration-prevention.md).
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – deprese a suicidalita.** Pokud prázdnota přechází v depresi
+s beznadějí nebo sebevražednými myšlenkami, má přednost léčba deprese a posouzení rizika podle
+[Sebevražedného rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md).
+**Rozhodovací bod B – nový totalizující smysl.** Pokud klient rychle vstupuje do nového hnutí
+nebo učení s výrazným vůdcem, pracuje se s tím otevřeně a pomocí osobních signálů z detekčního
+tréninku. **Rozhodovací bod C – komplikovaný zármutek.** Pokud truchlení stagnuje dlouhodobě
+a ochromuje fungování, zváží se specifická léčba zármutku.
 
-- **PCL-5 redukce** o ≥ 30 % oproti baseline do měsíce 3.
-- **Narativní koherence** — Linguistic Inquiry and Word Count (LIWC) ukazuje **decreased self-discrepancy markers** + **increased coherence markers**.
-- **Detekční accuracy** — strukturované scénáře, cíl ≥ 75 % správných identifikací manipulativních vzorců.
-- **Interpersonal Reactivity Index (IRI)** — obnovení normativní empatie bez fawn response markers.
-- **Hodnotová koherence** — Schwartz Values Survey, klient identifikuje ≥ 5 autentických hodnot.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se, zda klient dokáže ztrátu pojmenovat a mluvit o ní bez úplného zahlcení, zda má
+alespoň několik každodenních zdrojů smyslu, zda odlišuje vlastní hodnoty od jejich zneužití,
+zda snáší otevřené otázky a zda nehledá rychlou náhradu v novém totalizujícím prostředí.
+Lze využít ověřené dotazníky prožívání smysluplnosti života, interpretované v čase u daného
+klienta; validované normy pro EA neexistují.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Protokol není vhodný v akutní fázi, kdy je třeba nejdřív bezpečí a regulace. Hlavním rizikem
+je **předčasné nabízení smyslu**: terapeut, který klientovi vysvětlí, „k čemu to všechno
+bylo“, nabízí další cizí výklad. Dalším rizikem je **tlak na růst** – představa, že z utrpení
+musí vzejít něco dobrého, může klienta zatížit dalším selháním. Konečně je třeba citlivě
+zacházet s vírou: cílem není klienta od víry odvést ani k ní vrátit.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Nedokončená akutní stabilizace; aktivní substance use disorder bez paralelní léčby; aktivní psychóza; pokud klient dosud žije v EA prostředí — protokol nelze aplikovat, přechod do akutní fáze.
+Žena po padesátce, která dvacet let patřila k hnutí, jež slibovalo „proměnu světa“, popisuje
+po odchodu, že „nemá důvod ráno vstát“. Všechny její přítelkyně zůstaly v hnutí, děti jsou
+dospělé a jejích dvacet let práce pro hnutí se jí zdá „k ničemu“. Terapeutka nespěchá. Několik
+sezení je věnováno smutku a hněvu nad ztraceným časem. Pak spolu sepíší, co ji do hnutí
+přivedlo: touha pomáhat lidem v nouzi. Žena si uvědomí, že tuto hodnotu nikdo nezneužil
+natolik, aby ji ztratila. Přihlásí se jako dobrovolnice do místní potravinové banky, nejdřív
+na jeden den v týdnu. Na otázku po smyslu života zatím nemá odpověď a říká, že to „poprvé
+nevadí“.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Výzkum tvorby smyslu je rozsáhlý (Park 2010), ale specifický výzkum u lidí po EA chybí.
+Otevřená je otázka, jak pracovat s klienty, kteří do skupiny vstoupili jako děti a nemají
+žádný „předchozí“ smysl, k němuž by se vraceli, a jak odlišit zdravé hledání nového
+společenství od přenosu závislosti. Kulturní a náboženské rozdíly vyžadují, aby terapeut
+nevnucoval vlastní představu o tom, co je smysluplný život.
 
-### Sesterské protokoly
-- [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md)
-- [Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md)
-- [Subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Frankl, V. E. (1959). *Man's Search for Meaning*. Boston: Beacon Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. New York:
+  Free Press.
+- Neimeyer, R. A. (Ed.) (2001). *Meaning Reconstruction and the Experience of Loss*. Washington, DC:
+  American Psychological Association.
+- Park, C. L. (2010). Making sense of the meaning literature: An integrative review of meaning
+  making and its effects on adjustment to stressful life events. *Psychological Bulletin*, 136(2).
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md) – oddělení hodnot od jejich zneužití.
+- [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md) – vlastní příběh jako nosič smyslu.
+- [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md) – dlouhodobé pokračování.
 
----
+**Prevence a svépomoc**
 
-## Connect & Contribute
+- [Obnova smyslu](@/kompendium/prevention-resilience/24-meaning-restoration-prevention.md) – terciární prevence.
+- [Ochrana existenciálního smyslu](@/kompendium/self-defense-guides/48-existential-meaning-protection.md) – svépomocná příručka.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Pojmy a teorie**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Hodnotová destrukce](@/glossary/hodnotova-destrukce.md) – rozpad hodnotového rámce.
+- [Kolaps metanarativu](@/glossary/metanarrative-collapse.md) – zhroucení velkého výkladu.
+- [Taylor: Zdroje já](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md) – filozofický rámec smyslu a identity.

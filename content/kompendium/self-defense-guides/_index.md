@@ -17,7 +17,7 @@ status = "complete"
 
 # Praktické návody sebe-obrany
 
-Padesát praktických návodů uspořádaných do pěti pilířů sebe-obrany. Jsou psané pro člověka, který je vystaven epistemické manipulaci nebo se z ní zotavuje, a pro ty, kdo ho doprovázejí. Každý návod říká, pro koho je a v jaké situaci pomáhá, jaké jsou varovné signály, uvádí anonymizovanou modelovou situaci, cíl dovednosti a pět konkrétních cvičení, radí, jak si vést záznam, kdy a koho požádat o pomoc, čeho se vyvarovat a kde jsou meze svépomoci.
+Padesát praktických návodů uspořádaných do pěti pilířů sebe-obrany. Jsou psané pro člověka, který je vystaven epistemické manipulaci nebo se z ní zotavuje, a pro ty, kdo ho doprovázejí. Každý návod říká, pro koho je a v jaké situaci pomáhá, jaké jsou varovné signály, uvádí anonymizovanou modelovou situaci a cíl dovednosti, v oddílu Odborné východisko shrnuje výzkum, o který se dovednost opírá, a nabízí pět konkrétních cvičení; dále radí, jak si vést záznam, kdy a koho požádat o pomoc, čeho se vyvarovat a kde jsou meze svépomoci. Každý návod končí seznamem literatury, na kterou se v textu odkazuje.
 
 Sebe-obrana zde není fyzická, ale **epistemická, emocionální, sociální, informační a identitní** – pět vrstev odolnosti vůči manipulaci, vyhoření, kognitivnímu úpadku a erozi identity v moderním prostředí.
 
@@ -96,6 +96,14 @@ Správa narativu, vztahových kotev, paměťového archivu, hodnot a osobní myt
 9. [Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md)
 10. [Obrana osobní mytologie](@/kompendium/self-defense-guides/50-personal-mythology-defense.md)
 
+## Odborné východisko návodů
+
+Návody nejsou souborem osvědčených triků, ale převádějí do každodenní praxe poznatky z několika oborů. Kognitivní pilíř vychází z výzkumu metakognice, úsudku za nejistoty a hodnocení zdrojů: lidé dokážou sledovat a opravovat vlastní myšlení (Flavell 1979), ale jejich rychlé, intuitivní úsudky podléhají soustavným zkreslením, která lze zmírnit spíše změnou postupu než předsevzetím (Kahneman 2011). Emocionální pilíř stojí na modelech regulace emocí a na klinické zkušenosti s léčbou traumatu, podle nichž záleží na tom, kdy a jakým způsobem do průběhu emoce zasáhneme (Gross 1998), a na tom, aby zpracování bolestných zkušeností předcházelo zajištění bezpečí (Herman 1992).
+
+Sociální pilíř se opírá o výzkum sociální opory a o analýzy kontrolujících vztahů. Opora, o které člověk ví, že je dostupná, zmírňuje dopady stresu (Cohen a Wills 1985), a naopak izolace a regulace každodenního života patří k hlavním nástrojům kontroly (Stark 2007). Pilíř informační hygieny vychází z výzkumu šíření dezinformací a pozornosti v digitálním prostředí (Vosoughi, Roy a Aral 2018) a pilíř ochrany identity z psychologie narativní identity, podle níž si lidé skládají své já jako vnitřní příběh, který lze přepsat, ale i obnovit (McAdams 2001).
+
+Výběr literatury je záměrně střídmý: návody citují jen díla, o jejichž existenci a obsahu není pochyb, a tam, kde výzkum přináší smíšené výsledky, to otevřeně říkají. Žádný návod nenahrazuje odbornou péči; jejich smyslem je pomoci rozpoznat, co se děje, posílit vlastní úsudek a vědět, kdy a kam se obrátit.
+
 ## Jak používat
 
 1. **Začněte od jednoho pilíře.** Nezačínejte všech padesát najednou. Vyberte pilíř, kde cítíte největší zranitelnost – nebo návod, který odpovídá situaci, v níž právě jste.
@@ -109,6 +117,17 @@ Správa narativu, vztahových kotev, paměťového archivu, hodnot a osobní myt
 Návody nikdy nedoporučují konfrontaci, která by vás ohrozila. Pokud vám v blízkém vztahu, v rodině nebo ve skupině hrozí násilí, výhrůžky nebo pronásledování, má přednost bezpečnostní plán a odborná pomoc – intervenční centrum, Linka pomoci obětem kriminality a domácího násilí 116 006, Policie ČR 158. V psychické krizi volejte Linku první psychické pomoci 116 123, děti a mladí lidé Linku bezpečí 116 111. V bezprostředním ohrožení zdraví nebo života volejte 112 nebo zdravotnickou záchrannou službu 155. Přehled kontaktů a postup, jak si síť pomoci připravit předem, obsahuje návod [Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md); akutní situace popisují [Akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md).
 
 Záznamy, které si podle návodů vedete, ukládejte tam, kam osoba, která vás ohrožuje, nemá přístup. Pokud je chcete použít v řízení, postupujte podle [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) a poraďte se s právníkem.
+
+## Literatura
+
+- Cohen, S., & Wills, T. A. (1985). Stress, social support, and the buffering hypothesis. *Psychological Bulletin*, 98(2), 310–357.
+- Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry. *American Psychologist*, 34(10), 906–911.
+- Gross, J. J. (1998). The emerging field of emotion regulation: An integrative review. *Review of General Psychology*, 2(3), 271–299.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*, 359(6380), 1146–1151.
 
 ## Související
 

@@ -26,6 +26,8 @@ Uzavřený pojmový systém má pro toho, kdo ho kontroluje, dvě výhody. Zaprv
 
 Pro zasaženou osobu to znamená postupnou ztrátu „výstupních bodů“: pokusí-li se pochybnost formulovat, musí to udělat slovy systému, která pochybnost předem vykládají jako omyl. Jde o jeden z mechanismů, jimiž vzniká [epistemická bublina](@/glossary/epistemic-bubble.md) na úrovni jazyka.
 
+Logika tento vzorec zná dlouho jako *petitio principii*, kdy závěr je předpokládán už v premisách. Hamblin (1970) ve svém klasickém rozboru klamů ukázal, že kruhovost není vždy formální chybou – platný úsudek může být kruhový – ale že selhává jako **dialektický nástroj**: nepřesvědčí nikoho, kdo závěr dosud nepřijímá. Walton (1991) na tom založil chápání kruhové argumentace jako taktiky, jejímž účinkem je uzavřít diskusi, nikoli ji posunout. Pro tuto signaturu je podstatné právě toto pragmatické hledisko: kruh v definicích je problémem tehdy, když brání posluchači klást otázky zvenčí. Nguyen (2020) popisuje podobnou strukturu na úrovni důvěry – ozvěnovou komoru, v níž jsou vnější zdroje předem zdiskreditovány – a pojmový kruh lze chápat jako její jazykový protějšek. Lalich (2004) v pojmu ohraničené volby (*[bounded choice](@/glossary/bounded-choice.md)*) ukazuje, že uzavřený pojmový svět nemusí člověku brát svobodu násilím; stačí, když jsou všechny dostupné volby vymezeny pojmy, které vedou zpět k doktríně.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -59,26 +61,23 @@ Pomocným, nikoli nutným kritériem je reakce na pokus kruh pojmenovat – obra
 
 ## Odlišení od benigních podob
 
-- **Formální systémy.** Matematika a logika pracují s primitivními pojmy a axiomy, které se nedefinují. Rozdíl je v tom, že to **otevřeně deklarují** a že systém nevznáší nárok na popis světa, dokud není interpretován.
-- **Slovníky.** Každý slovník je v posledku kruhový; uživatel však jazyk zná ze zkušenosti, takže kruh nikoho neuzavírá.
-- **Hermeneutický kruh.** Porozumění celku a části se vzájemně podmiňuje (viz [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)); tento kruh je ale otevřený novým zkušenostem a textům, ne uzavřený proti nim.
-- **Rodící se obory.** Nový obor často krátce pracuje s vágními a provázanými pojmy, ale aktivně hledá operacionalizaci.
+Ne každý definiční kruh je signaturou. **Formální systémy**, jako je matematika a logika, pracují s primitivními pojmy a axiomy, které se nedefinují. Rozdíl je v tom, že to otevřeně deklarují a že systém nevznáší nárok na popis světa, dokud není interpretován; navíc jsou jejich axiomy veřejně přístupné a lze je zkoumat. Také **slovníky** jsou v posledku kruhové, protože každé slovo se vysvětluje jinými slovy; uživatel však jazyk zná ze zkušenosti, takže kruh nikoho neuzavírá a vždy vede k ukázání, příkladu nebo vnímání.
+
+Zvláštní pozornost zasluhuje **hermeneutický kruh**, v němž se porozumění celku a části vzájemně podmiňuje. Gadamer (1960) jej popsal jako podmínku každého porozumění, nikoli jako vadu; tento kruh je ale otevřený novým zkušenostem a textům, které mohou původní předporozumění opravit, ne uzavřený proti nim (viz [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)). Konečně **rodící se obory** často krátce pracují s vágními a vzájemně provázanými pojmy; na rozdíl od signatury však aktivně hledají operacionalizaci a vítají, když je někdo nutí pojmy upřesnit.
 
 ## Klinická diferenciální diagnostika
 
-U zasažené osoby, která kruhový systém převzala, je třeba odlišit:
+U zasažené osoby, která kruhový systém převzala, je třeba odlišit **naučené přesvědčení** od **bludného systému**. Blud je obvykle idiosynkratický a nesdílený, kdežto převzatý kruh sdílí skupina a jeho obsah je doložitelný v jejích materiálech. Jaspers (1913) kladl důraz na nepochopitelnost primárního bludu z životních souvislostí; převzatý pojmový systém je naopak z životní historie osoby dobře pochopitelný – lze ukázat, kdy, od koho a v jakém vztahu se ho naučila.
 
-- **naučené přesvědčení** od **bludného systému**: blud je obvykle idiosynkratický a nesdílený, kdežto převzatý kruh sdílí skupina a jeho obsah je doložitelný v jejích materiálech;
-- **obsedantní ruminace**, v níž se myšlenky točí v kruhu z úzkosti, ne z naučeného pojmového systému – osoba kruh obvykle vnímá jako trýznivý a cizí;
-- **poruchy abstraktního myšlení** (například po poranění mozku), kde jde o deficit tvorby definic obecně, nikoli o specifický převzatý slovník.
+Dále je třeba odlišit **obsedantní ruminaci**, v níž se myšlenky točí v kruhu z úzkosti, ne z naučeného pojmového systému. Osoba takový kruh obvykle vnímá jako trýznivý a cizí, zatímco převzatý pojmový systém prožívá jako vlastní a smysluplný. Třetí možností jsou **poruchy abstraktního myšlení**, například po poranění mozku, kde jde o obecný deficit tvorby definic, nikoli o specifický převzatý slovník; projeví se i mimo témata skupiny a ukáže se při neuropsychologickém vyšetření.
 
-Rozhodující je kontext získání: kdy, od koho a v jakém vztahu se osoba pojmy naučila (viz [biografická časová osa](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)).
+Rozhodující je tedy kontext získání pojmů, který pomůže zmapovat [biografická časová osa](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md). Diagnostický závěr přísluší kvalifikovanému klinikovi; signatura mu dodává podklad, nikoli diagnózu.
 
 ## Riziko falešné pozitivity
 
-- Hodnotitel nezná obor a zaměňuje odbornou terminologii s kruhem; pomůže konzultace se znalcem oboru.
-- Rychlý rozhovor nedává prostor pro příklady; kruh je třeba ověřit na písemných materiálech, ne na jedné větě.
-- Náboženské a filozofické systémy obsahují pojmy, které definici vzdorují záměrně (apofatické tradice, viz [via negativa](@/glossary/via-negativa.md)). To samo není signaturou; je jí až použití takového systému k uzavření kritiky a ke kontrole osob.
+Prvním zdrojem omylu je hodnotitel, který nezná obor a zaměňuje odbornou terminologii s kruhem. Každá disciplína má pojmy, jejichž definice odkazují na jiné pojmy téže disciplíny; teprve znalec rozpozná, zda řetězec někde vychází ke zkušenosti nebo měření. Konzultace s odborníkem z dané oblasti je proto nezbytnou součástí posouzení. Druhým zdrojem omylu je časová tíseň: rychlý rozhovor nedává prostor pro příklady a mluvčí, který by pojem doložil, k tomu nemusí dostat příležitost. Kruh je třeba ověřit na písemných materiálech a v delším časovém úseku, ne na jedné větě.
+
+Třetí riziko se týká náboženských a filozofických systémů, které obsahují pojmy záměrně vzdorující definici, jako jsou apofatické tradice (viz [via negativa](@/glossary/via-negativa.md)). To samo signaturou není a hodnotitel nesmí zaměňovat teologickou nebo metafyzickou pozici za manipulaci. Signaturou se stává až použití takového systému k uzavření kritiky a ke kontrole osob, tedy ve chvíli, kdy nedefinovatelnost začne sloužit k tomu, aby se nesouhlas nedal vyslovit.
 
 ## Validační test
 
@@ -107,9 +106,20 @@ V organizačním a právním kontextu má mapa definic hodnotu tam, kde se posuz
 
 ## Limity a otevřené otázky
 
-- Kde přesně končí legitimní teoretický holismus a začíná uzavřený kruh, je filozoficky sporné (srov. [holismus](@/glossary/holismus.md)).
-- Mapa definic je pracná a závisí na úplnosti materiálu; ústní systémy se mapují obtížně.
-- Kruh sám neříká nic o úmyslu: může vzniknout i z nedbalosti nebo z neschopnosti autora.
+Kde přesně končí legitimní teoretický holismus a začíná uzavřený kruh, je filozoficky sporné. Quine (1951) ukázal, že naše přesvědčení čelí zkušenosti jako celek, nikoli jednotlivě, a že každý pojmový systém je do jisté míry provázaný sám se sebou (srov. [holismus](@/glossary/holismus.md)). Signatura proto nemůže tvrdit, že provázanost pojmů je sama o sobě vadou; tvrdí jen, že systém, který se nikde nedotýká zkušenosti a který dotazy na tuto kotvu trestá, se chová jinak než otevřený holistický celek. Popper (1963) by stejný rozdíl formuloval jako rozdíl mezi teorií, která riskuje vyvrácení, a teorií, která se před ním imunizuje.
+
+Praktickým omezením je pracnost mapy definic a její závislost na úplnosti materiálu; ústní systémy, které se předávají v rozhovorech a nikdy nebyly sepsány, se mapují obtížně. Kruh navíc sám o sobě neříká nic o úmyslu: může vzniknout z nedbalosti, z neschopnosti autora nebo z upřímného, ale nekritického myšlení. Otázka záměru proto do detekce nepatří a je předmětem jiného, například forenzního posouzení.
+
+## Literatura
+
+- Gadamer, H.-G. (1960). *Wahrheit und Methode: Grundzüge einer philosophischen Hermeneutik*. J. C. B. Mohr (Paul Siebeck).
+- Hamblin, C. L. (1970). *Fallacies*. Methuen.
+- Jaspers, K. (1913). *Allgemeine Psychopathologie*. Springer.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*, 17(2), 141–161.
+- Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge & Kegan Paul.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
+- Walton, D. N. (1991). *Begging the Question: Circular Reasoning as a Tactic of Argumentation*. Greenwood Press.
 
 ## Související
 

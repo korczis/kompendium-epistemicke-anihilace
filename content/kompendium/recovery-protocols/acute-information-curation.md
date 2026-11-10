@@ -1,6 +1,6 @@
 +++
 title = "Akutní informační kurace"
-description = "Longitudinální rekonstruktivní protokol — informační hygiena po EA expozici."
+description = "Akutní protokol úpravy informačního prostředí po epistemické anihilaci: omezení kanálů pachatele a skupiny, ochrana pozornosti a postupný přístup k jiným zdrojům."
 weight = 6
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "acute"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["acute-cognitive-anchoring", "acute-safety-establishment", "acute-social-reconnection", "acute-somatic-regulation"]
+related_terms = ["acute-stabilization-protocol", "acute-cognitive-anchoring", "acute-safety-establishment", "bite-model", "firehose-of-falsehood"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "acute"
@@ -16,98 +16,148 @@ phase = "acute"
 
 # Akutní informační kurace
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `acute`
-> **Cílový rámec**: Týdny 1–4 po extrakci z EA prostředí.
+> **Status**: dílčí protokol akutní fáze v rámci [Akutního stabilizačního protokolu](@/kompendium/recovery-protocols/acute-stabilization-protocol.md).
+> **Fáze**: `acute`; navazuje [Subakutní detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md).
+> **Cíl**: chránit vyčerpaný úsudek před proudem obsahů, které jej dříve formovaly, a přitom
+> nevytvořit novou informační kontrolu.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Pacienti, jejichž informační prostředí bylo systematicky kontaminováno pachatelem — sociální sítě, šifrované kanály, sdílené účty, surveillance aplikace, propojení s manipulativními online komunitami (kulty, konspirační sítě, [doxing](@/glossary/doxing.md) skupiny). Mnozí trpí **informační bulimií** — nutkavé čtení o pachateli/kultu/ideologii.
+Protokol je určen lidem, jejichž [epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+(EA) probíhala z velké části přes informační kanály: skupinové chaty, videa vůdce, uzavřená
+fóra, každodenní zprávy partnera, kampaně na sociálních sítích. Po odchodu tyto kanály často
+nepřestanou fungovat. Telefon je dál plný zpráv, algoritmy dál nabízejí stejný obsah a člověk
+z návyku i z úzkosti kontroluje, „co se tam děje“. Každý takový kontakt vrací starý výklad
+v době, kdy je úsudek nejméně odolný.
 
-## 2. Časový rámec
+## 2. Klinický obraz
 
-Týdny 1–4 po extrakci z EA prostředí. Intenzita: denní kontakt v prvním týdnu, 2–3× týdně ve druhém, týdně ve 3.–4. týdnu. Délka sezení: krátká (30–45 min) v prvních dnech, postupně delší.
+Lifton (1961) označil kontrolu prostředí (*[milieu control](@/glossary/milieu-control.md)*) – ovládání toho, co člověk vidí,
+slyší a s kým mluví – za první znak totalistického prostředí. Hassan (1988; 2015) ve svém
+modelu [BITE](@/glossary/bite-model.md) řadí kontrolu informací vedle kontroly chování,
+myšlení a emocí: skupina omezuje přístup k vnějším zdrojům, vytváří vnitřní propagandu
+a rozlišuje mezi informacemi pro členy a pro veřejnost. Po odchodu člověk nemá zkušenost se
+samostatným výběrem zdrojů a zároveň v sobě nese pravidla, podle nichž jsou vnější zdroje
+„lživé“.
+
+Klinicky se to projevuje nutkavou kontrolou kanálů skupiny nebo profilů pachatele, nočním
+čtením zpráv a komentářů, prudkými výkyvy nálady podle toho, co si člověk přečte, a zahlcením
+při pokusu číst „druhou stranu“. Lewandowsky a kolegové (2012) shrnuli, že vyvrácení
+dezinformace často nestačí: původní tvrzení zůstává v paměti a opakování, i v rámci vyvracení,
+může jeho známost posílit. U lidí po EA to platí zvlášť – pokus „přečíst si všechno, co
+vyvrací skupinu“, může v akutní fázi spíš zahltit než osvobodit. Strategie [záplavy nepravd](@/glossary/firehose-of-falsehood.md)
+navíc pracuje s vyčerpáním: cílem není přesvědčit, ale vyvolat pocit, že pravdu nelze zjistit.
+
+Kurace informací v akutní fázi tedy není cenzurou ani převýchovou. Je to dočasná ochrana
+pozornosti, podobně jako člověk po operaci nezvedá těžká břemena. Jejím smyslem je uvolnit
+místo pro klid, spánek a vztahy.
+
+Specifickou podobu má informační prostředí u partnerské EA. Tam nejde o kanály skupiny, ale
+o jednu osobu, která píše desítky zpráv denně, střídá výčitky, prosby, výhrůžky a sliby
+a obvykle ví, které věty zasáhnou. Stark (2007) popisuje, že kontrola po rozchodu často
+pokračuje právě komunikací, která udržuje druhého v trvalé pohotovosti. Každá přečtená
+zpráva tak znovu otevírá starý vztah k výkladu – kdo je vinen, co se stalo, kdo je
+„nemocný“. Kurace zde znamená hlavně oddělit nutné informace (děti, majetek, soud) od
+proudu, jehož funkcí je udržet kontrolu.
 
 ## 3. Cíle protokolu
 
-1. Akutní stabilizace fyziologického a emočního stavu — redukce hyperarousal, prevence dissociativních epizod.
-2. Zajištění bezprostřední bezpečnosti — fyzické, právní, finanční, informační.
-3. Prevence epistemického relapsu (návratu k pachateli) v kritické 0–30 denní periodě.
-4. Etablování pracovní terapeutické aliance jako kotvy reality testingu.
-5. Připravení podmínek pro přechod do subakutní fáze (měsíc 2+).
+Cílem je omezit příjem obsahů pachatele nebo skupiny na minimum potřebné pro bezpečí
+a právní kroky; snížit nutkavou kontrolu kanálů; obnovit pravidelný rytmus bez nočního čtení;
+zachovat informace potřebné pro důkazy, aniž by je klient musel číst; a zavést první, klidné
+a nesouvisející zdroje informací, které nejsou vázané na téma skupiny nebo vztahu.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Krizové hodnocení (den 0–1)**: Strukturovaný klinický rozhovor + suicidalita + safety mapping. Přímá detekce aktivních hrozeb (stalking, právní šikana, finance).
-2. **Stabilizační intervence (den 1–7)**: Denní kontakt v prvním týdnu — telefon nebo in-person. Psychoedukace o akutních reakcích jako normálních. Validace bez interpretace.
-3. **Bezpečné prostředí (den 1–14)**: Fyzická separace od pachatele — bydlení, finance, právní oddělení. Změna hesel, dvoufaktorová autentizace, kontrola surveillance aplikací.
-4. **Somatická regulace (denně, týdny 1–4)**: Krátké regulační cvičení 3× denně — orientation, dechové techniky, grounding. Vyhnout se intenzivním tělově-orientovaným technikám (riziko [retraumatizace](@/glossary/retraumatizace.md)).
-5. **Sociální opora (týdny 1–4)**: Identifikace 2–3 bezpečných kontaktů. Aktivace formální podpůrné sítě (krizová linka, krizové centrum).
-6. **Spánek a režim (týdny 1–4)**: Sleep hygiene protokol. Žádné přepracování, žádná velká rozhodnutí. Strukturovaný denní režim jako externalizovaný kontejner.
+1. **Inventura kanálů** – klient s terapeutem sepíše, odkud mu přicházejí zprávy a obsahy
+   spojené s pachatelem nebo skupinou (aplikace, skupiny, kanály, e-maily, společní známí).
+2. **Rozhodnutí o každém kanálu** – zablokovat, ztlumit, odhlásit, nebo předat správu
+   důvěryhodné osobě; volí klient podle toho, co zvládne.
+3. **Správce zpráv** – pokud je kontakt nutný (děti, soud), přítel nebo advokát zprávy
+   třídí a předává jen to podstatné; ostatní se ukládá bez čtení do složky pro případné důkazy.
+4. **Ochrana spánku** – telefon mimo ložnici nebo v nočním režimu, žádné čtení zpráv skupiny
+   po určité hodině.
+5. **Algoritmy** – vymazat historii doporučení, odhlásit sledované účty, případně dočasně
+   omezit používání platformy.
+6. **Nahrazení, ne vakuum** – vybrat jeden nebo dva klidné zdroje, které nesouvisejí
+   s tématem (kniha, rozhlas, zájmová stránka), aby po omezení nezůstala prázdnota.
+7. **Odklad „velkého čtení“** – rozbor nauky skupiny, kritických knih a svědectví bývalých
+   členů se plánuje až na subakutní fázi, kdy je úsudek stabilnější.
+8. **Svépomocné opory** – příručky [Detox informačního kanálu](@/kompendium/self-defense-guides/32-feed-detoxification.md)
+   a [Informační půst](@/kompendium/self-defense-guides/39-information-fasting.md).
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – výhrůžky.** Pokud kanály přinášejí výhrůžky, informace se nezahazují;
+předávají se do bezpečnostního plánu podle [Akutního zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md).
+**Rozhodovací bod B – klient chce „všemu rozumět“.** Pokud klient trvá na intenzivním čtení
+kritických zdrojů, terapeut jej nezakazuje, ale domluví časový rámec a sleduje dopad na spánek
+a náladu. **Rozhodovací bod C – kampaň proti klientovi.** Probíhá-li veřejná kampaň nebo
+[doxing](@/glossary/doxing.md), monitorování přebírá jiná osoba a klient je vystaven jen
+souhrnům.
 
-- **Subjektivní stabilita** — týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R weekly).
-- **Spánková kontinuita** — sleep diary, cíl: 6+ hodin noční spánek, sleep latency <30 min do týdne 4.
-- **Suicidalita** — žádné aktivní suicidální ideace, pasivní ideace v ústupu.
-- **Safety milestones** — fyzická separace ✓, finanční oddělení ✓, právní status ✓ do týdne 3.
-- **Reduktivní prevence relapsu** — žádný kontakt s pachatelem v týdnech 2–4.
-- **Trvalá terapeutická aliance** — Working Alliance Inventory (WAI) ≥ 5/7 do týdne 4.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se, kolikrát denně klient kontroluje kanály pachatele nebo skupiny (vlastní záznam)
+a jak se to mění, zda se zlepšuje spánek, zda klesají výkyvy nálady vázané na čtení zpráv,
+zda má klient alespoň jeden nesouvisející zdroj, ke kterému se vrací, a zda nevzniká nová
+jednostranná informační závislost (například na komunitě kritiků skupiny). Validované normy
+pro EA neexistují.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Hlavním rizikem je **nová informační kontrola**: pokud terapeut nebo rodina rozhodují, co
+klient smí číst, opakují strukturu, z níž odešel. Kurace proto vychází z rozhodnutí klienta
+a je dočasná. Druhým rizikem je **ztráta důležitých informací** (soudní obsílky, zprávy
+o dětech); proto se zprávy neodstraňují, ale přesměrovávají. Třetím rizikem je **izolace**,
+pokud klient s kanály odstřihne i jediné lidi, se kterými byl v kontaktu; viz
+[Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md).
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Aktivní psychóza neléčená; akutní intoxikace; aktivní suicidalita vyžadující hospitalizaci; klient stále v aktivním kontaktu s pachatelem (vyžaduje napřed safety planning); těžká dissociativní porucha bez stabilizace.
+Muž po padesátce, který dva roky žil v online komunitě šířící konspirační výklad světa, se
+po zdravotní krizi rozhodne skončit. Telefon je ale plný skupin, kde ho bývalí přátelé
+označují za „zrádce“. Čte je v noci a ráno je vyčerpaný. S terapeutem projde všechny kanály:
+ze čtyř skupin odejde, dvě ztlumí, protože v nich je jeho bratr, a e-mailové zpravodaje
+odhlásí. Telefon dává večer do kuchyně. Vybere si jeden starý zájem – historii železnic – a
+každý večer si o ní čte. Po třech týdnech říká, že poprvé usnul „bez cizích hlasů v hlavě“.
+Rozbor tvrzení komunity odloží s terapeutem na později.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Informační kurace je v léčbě EA zatím spíše klinickou praxí než ověřenou intervencí; staví
+na poznatcích o kontrole informací v totalistických prostředích (Lifton 1961; Hassan 2015)
+a o tom, jak působí dezinformace a jejich korekce (Lewandowsky a kol. 2012). Otevřená je
+otázka, jak dlouhá má být akutní ochrana a jak zvládnout situace, kdy pracovní nebo rodinné
+povinnosti vyžadují pobyt v informačním prostoru, který klienta poškozoval. Rychlé změny
+platforem znamenají, že konkrétní kroky se musí stále aktualizovat.
 
-### Sesterské protokoly
-- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md)
-- [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md)
-- [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Hassan, S. (1988). *Combating Cult Mind Control*. Rochester: Park Street Press.
+- Hassan, S. (2015). *Combating Cult Mind Control* (25th anniversary ed.). Newton, MA: Freedom of
+  Mind Press.
+- Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012).
+  Misinformation and its correction: Continued influence and successful debiasing.
+  *Psychological Science in the Public Interest*, 13(3).
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. New York: Oxford
+  University Press.
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) – rámec akutní fáze.
+- [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) – vnější kotvy orientace.
+- [Subakutní detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md) – pozdější práce s obsahem a technikami.
 
----
+**Svépomoc a prevence**
 
-## Connect & Contribute
+- [Detox informačního kanálu](@/kompendium/self-defense-guides/32-feed-detoxification.md) – pročištění zdrojů.
+- [Informační půst](@/kompendium/self-defense-guides/39-information-fasting.md) – dočasné omezení příjmu informací.
+- [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md) – dlouhodobé návyky.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Pojmy**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [BITE model](@/glossary/bite-model.md) – kontrola informací jako součást kontroly myšlení.
+- [Firehose of falsehood](@/glossary/firehose-of-falsehood.md) – strategie vyčerpání.
+- [Epistemic bubble](@/glossary/epistemic-bubble.md) – uzavřený informační prostor.

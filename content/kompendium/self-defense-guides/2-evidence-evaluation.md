@@ -19,9 +19,7 @@ Kdo s druhými manipuluje, zřídka lže přímo. Častěji nabízí *vybrané* 
 
 ## Pro koho je návod
 
-- Pro člověka, kterému někdo opakovaně „dokazuje“, že je špatný partner, neschopný zaměstnanec nebo nevděčný člen skupiny, a předkládá k tomu útržky.
-- Pro ty, kdo stojí před velkým rozhodnutím (odchod ze vztahu, z práce, ze skupiny, investice) a jsou pod časovým tlakem.
-- Pro každého, kdo chce rozhodovat podle doložitelného, ne podle toho, kdo mluví nejhlasitěji.
+Návod je psán pro člověka, kterému někdo opakovaně „dokazuje“, že je špatný partner, neschopný zaměstnanec nebo nevděčný člen skupiny, a předkládá k tomu vytržené útržky. Hodí se také těm, kdo stojí před velkým rozhodnutím – odchodem ze vztahu, z práce či ze skupiny, investicí – a jsou pod časovým tlakem, a obecně každému, kdo chce rozhodovat podle toho, co je doložitelné, ne podle toho, kdo mluví nejhlasitěji.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá tam, kde se proti vám skládá „případ“ z vytržených epizod, k
 
 ## Varovné signály
 
-- K závěru o vás se dochází vždy z jednoho, dávno minulého incidentu.
-- Doklady pro tvrzení „existují“, ale nikdy je nevidíte.
-- Kdo se ptá na zdroj, je označen za nedůvěřivého nebo nepřátelského.
-- Každá protiinformace je předem vysvětlena jako útok nepřátel.
-- Rozhodnutí musí padnout dřív, než stihnete cokoli ověřit ([vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)).
+Prvním signálem je struktura obvinění: k závěru o vás se dochází vždy z jednoho, dávno minulého incidentu, který se vrací jako trvalý „důkaz“ vaší povahy. Psychologie úsudku popisuje, proč to funguje – živý a snadno vybavitelný příklad má v mysli větší váhu, než odpovídá jeho skutečné četnosti (Tversky a Kahneman 1974). Druhým signálem jsou doklady, které „existují“, ale nikdy je nevidíte, a třetím postoj k otázkám: kdo se ptá na zdroj, je označen za nedůvěřivého nebo nepřátelského.
+
+Zvlášť výmluvné je, když je každá protiinformace předem vysvětlena jako útok nepřátel. Taková imunizace dělá z tvrzení přesvědčení, které nelze vyvrátit ničím, a tedy ani ověřit. Klasický experiment ukázal, že lidé hodnotí tytéž smíšené doklady jako silnější, pokud podporují jejich dosavadní postoj, a slabší, pokud mu odporují (Lord, Ross a Lepper 1979); prostředí, které tuto tendenci soustavně posiluje, ji mění v pravidlo. Posledním signálem je spěch: rozhodnutí musí padnout dřív, než stihnete cokoli ověřit ([vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)).
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Mladý zaměstnanec slyšel od vedoucího, že „všichni v týmu si stěžují
 ## Cíl dovednosti
 
 Vyvinout systematický, ale nenáročný přístup k posuzování kvality, váhy a relevance důkazů, na nichž stojí vaše přesvědčení a rozhodnutí – a umět ho použít i ve stresu.
+
+## Odborné východisko
+
+Hodnocení důkazů v osobním životě stojí na rozlišení, které je ve vědě samozřejmé, ale v každodenním sporu se snadno ztrácí: rozdílu mezi pozorováním, jeho výkladem a závěrem, který z výkladu plyne. Kahneman (2011) ukazuje, že rychlé intuitivní myšlení tyto vrstvy slévá do jediného dojmu a že „to, co vidíte, je všechno, co existuje“ – mysl nevnímá chybějící informace jako chybějící. Manipulace tuto vlastnost využívá tím, že předloží souvislý příběh z vybraných útržků; obranou je ptát se, co v příběhu chybí, ne jen co v něm je.
+
+Výzkum heuristik a zkreslení popisuje opakující se chyby, které nastávají i bez cizího zásahu: přeceňování živých případů, ukotvení na první předložené číslo nebo zanedbávání základní četnosti jevu (Tversky a Kahneman 1974). Gigerenzer (2014) přitom zdůrazňuje, že lidé zvládají nejistotu výrazně lépe, když je informace podána srozumitelně – například jako přirozené četnosti („tři z deseti případů“) místo abstraktních pravděpodobností. Cvičení v tomto návodu proto vedou k převádění tvrzení do konkrétních, počitatelných podob.
+
+Pro situace, kde jde o vztah nebo skupinu, je důležitý ještě jeden poznatek: síla dokladu nezávisí na síle emoce, s níž je předložen. Kdo hodnotí doklady pod tlakem viny nebo strachu, posuzuje je asymetricky (Lord, Ross a Lepper 1979). Proto návod doporučuje oddělit sběr dokladů od rozhodování časem i místem.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,20 @@ Průběžně u rozhodnutí s finančním, vztahovým nebo pracovním dopadem; p�
 
 ## Čeho se vyvarovat
 
-- Nepředkládejte své doklady osobě, která vás ovládá, s cílem „vyhrát“ spor. Kdo manipuluje, obvykle neuzná žádný doklad a může reagovat eskalací ([DARVO](@/glossary/darvo.md)).
-- Nepropadněte opačnému extrému, v němž nic není dost doložené – i to je forma paralýzy.
-- Neopírejte se o jediný zdroj, ani o ten, kterému důvěřujete nejvíc.
+Nepředkládejte své doklady osobě, která vás ovládá, s cílem „vyhrát“ spor. Kdo manipuluje, obvykle neuzná žádný doklad a může reagovat eskalací nebo převrácením rolí ([DARVO](@/glossary/darvo.md)); vaše bezpečí je důležitější než výsledek debaty. Doklady slouží vám, poradci nebo případnému řízení, ne konfrontaci.
+
+Nepropadněte ani opačnému extrému, v němž nic není dost doložené – i to je forma paralýzy, při níž se rozhodnutí odkládá donekonečna a o výsledku nakonec rozhodne ten, kdo tlačí. A neopírejte se o jediný zdroj, ani o ten, kterému důvěřujete nejvíc: i spolehlivý zdroj se může mýlit a jediný kanál je nejsnáze zneužitelný.
 
 ## Meze svépomoci
 
 Důkazy lze hodnotit, jen pokud existují a jsou dostupné. V oblastech s vysokou nejistotou (budoucnost, motivy druhých, vlastní psychika) je nutné kombinovat posuzování dokladů s úsudkem, zkušeností a radou druhých. Pokud máte podezření, že jste byli dlouhodobě vystaveni systematickému zkreslování, pomůže vedená rekonstrukce, jak ji popisují [protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
+
+## Literatura
+
+- Gigerenzer, G. (2014). *Risk Savvy: How to Make Good Decisions*. Viking.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- Lord, C. G., Ross, L., & Lepper, M. R. (1979). Biased assimilation and attitude polarization: The effects of prior theories on subsequently considered evidence. *Journal of Personality and Social Psychology*, 37(11), 2098–2109.
+- Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 
 ## Související
 

@@ -26,6 +26,8 @@ Narativ je silnější než jednotlivé tvrzení: dává smysl mnoha událostem 
 
 Injekce využívá důvěru, kterou lidé chovají k uzlům svého prostředí. Když narativ vysloví oblíbený moderátor nebo respektovaný kolega, posluchač ho hodnotí podle důvěry k němu, nikoli podle původu sdělení. Tím se narativ „pere“ – souvisí to se signaturou [praní reputace](@/kompendium/detection-signatures/23-network-reputation-laundering.md).
 
+Komunikační výzkum vysvětluje obě složky mechanismu. Fisher (1984) navrhl chápat člověka jako bytost, která hodnotí sdělení podle narativní soudržnosti a věrohodnosti, a ne jen podle logické správnosti jednotlivých tvrzení; přesvědčivý příběh proto obstojí i tam, kde by jednotlivé tvrzení neprošlo. Katz a Lazarsfeld (1955) ukázali v modelu dvoustupňového toku komunikace, že mediální sdělení se k lidem často dostávají přes názorové vůdce v jejich bezprostředním okolí, jimž věří. Hovland a Weiss (1951) doložili, že důvěryhodnost zdroje silně ovlivňuje okamžitý přesvědčovací účinek sdělení, a metaanalýza Kumkaleové a Albarracínové (2004) potvrdila tzv. efekt spáče: když se informace o původu sdělení oddělí od jeho obsahu, může vliv sdělení časem vzrůst. Skrytý původ tedy není jen okolností, ale podmínkou účinku. Rid (2020) a Bittman (1985) popsali, že vkládání příběhů přes zdánlivě nezávislé prostředníky patřilo k ustáleným postupům aktivních opatření; tato kniha je uvádí jako historicky doložený vzorec k rozpoznání, nikoli jako návod.
+
 ## Pozorovatelné markery
 
 ### Obsahové a lingvistické
@@ -57,22 +59,23 @@ Pozitivní při splnění bodů 1–3; bod 4 posiluje signaturu, ale je nutné h
 
 ## Odlišení od benigních podob
 
-- **Nové myšlenky** vstupují do diskurzu běžně a často přes vlivné osobnosti; rozdíl je v transparentnosti původu a v absenci skrytých vazeb.
-- **Odhalení a investigativní žurnalistika** přinášejí nové narativy s doloženými zdroji.
-- **Kulturní trendy** se šíří od vlivných uzlů dolů organicky a bez zadavatele.
-- **Osvětové kampaně** záměrně zavádějí nové rámce (např. veřejné zdraví), ale otevřeně.
+**Nové myšlenky** vstupují do diskurzu běžně a často přes vlivné osobnosti; tak se šíří vědecké objevy, umělecké směry i politické návrhy. Rozdíl oproti signatuře spočívá v transparentnosti původu a v absenci skrytých vazeb mezi původcem a těmi, kdo myšlenku šíří. Kdo nový narativ převezme a uvede, odkud ho má, nevytváří signaturu.
+
+**Odhalení a investigativní žurnalistika** přinášejí nové narativy, které mohou zásadně změnit výklad událostí, ale opírají se o doložené zdroje a podrobují se kontrole. **Kulturní trendy** se šíří od vlivných uzlů dolů organicky a bez zadavatele; Katz a Lazarsfeld (1955) ostatně popsali vliv názorových vůdců jako běžnou součást společenského života, nikoli jako manipulaci. Konečně **osvětové kampaně** záměrně zavádějí nové rámce, například v oblasti veřejného zdraví, ale činí tak otevřeně a pod jménem zadavatele.
 
 ## Dopad na jednotlivce a klinický rozměr
 
-U jednotlivce injekce narativu mění výklad vlastní zkušenosti: osoba začne vlastní život vysvětlovat příběhem, který převzala („všechny moje problémy způsobili…“). To může být úlevné a současně izolující. Pokud je narativ namířen proti konkrétní osobě (v rodině, na pracovišti, v komunitě), zažívá tato osoba ztrátu důvěry okolí, aniž by věděla proč – to je typická zkušenost cíle pomluvy.
+U jednotlivce injekce narativu mění výklad vlastní zkušenosti: osoba začne vlastní život vysvětlovat příběhem, který převzala („všechny moje problémy způsobili…“). To může být úlevné, protože příběh dává chaosu smysl, a současně izolující, protože odděluje osobu od lidí, kteří příběh nesdílejí. McAdams (1993) popisuje životní příběh jako jádro identity, a převzatý narativ tak může zasáhnout hlouběji než jednotlivé přesvědčení.
 
-Při klinickém posouzení je třeba odlišit převzatý skupinový narativ od bludného systému: převzatý narativ lze dohledat ve zdrojích, které osoba sleduje, a sdílí ho s ostatními (srov. [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)). U osoby, která tvrdí, že o ní koluje vsazený příběh, je třeba ověřit, zda pro to existují doklady, a nebagatelizovat ji.
+Pokud je narativ namířen proti konkrétní osobě v rodině, na pracovišti nebo v komunitě, zažívá tato osoba ztrátu důvěry okolí, aniž by věděla proč. To je typická zkušenost cíle pomluvy; Allport a Postman (1947) popsali, jak se fáma při šíření zjednodušuje, přizpůsobuje očekáváním posluchačů a stává se tak hůře vyvratitelnou.
+
+Při klinickém posouzení je třeba odlišit převzatý skupinový narativ od bludného systému: převzatý narativ lze dohledat ve zdrojích, které osoba sleduje, a sdílí ho s ostatními (srov. [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)). U osoby, která tvrdí, že o ní koluje vsazený příběh, je třeba ověřit, zda pro to existují doklady, a nebagatelizovat ji. Diagnostické závěry přísluší kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 
-- Každý nový narativ, s nímž hodnotitel nesouhlasí, může působit jako „vsazený“.
-- Vazby uzlů na zájmové strany mohou být legitimní a přiznané.
-- Organická popularita myšlenky může mít podobu rychlého šíření přes vlivné uzly.
+Každý nový narativ, s nímž hodnotitel nesouhlasí, může působit jako „vsazený“. Tvrzení o skrytém původu je navíc samo o sobě narativem, který vysvětluje nepříjemný názor bez nutnosti se jím zabývat; hodnotitel, který ho přijme bez dokladů, opakuje vzorec, který chce odhalit.
+
+Vazby uzlů na zájmové strany mohou být legitimní a přiznané – odborník, který spolupracuje s průmyslem a uvádí to, nevytváří signaturu. Organická popularita myšlenky může mít podobu rychlého šíření přes vlivné uzly, a samotná rychlost a vliv šiřitelů proto o injekci nevypovídají. Signaturu podporuje teprve doložená skrytá vazba a časová shoda, s níž narativ vstoupil přes více na sobě zdánlivě nezávislých uzlů.
 
 ## Validační test
 
@@ -98,9 +101,21 @@ Zachytit rané výskyty s metadaty a vazbami uzlů; uchovat zdroje, na které se
 
 ## Limity a otevřené otázky
 
-- Původ narativu je často nedohledatelný; signatura pak zůstává na úrovni podezření.
-- Injekce může být úspěšná právě proto, že narativ vystihuje skutečný problém – rozpoznání původu neznamená vyvrácení obsahu.
-- Generativní AI usnadňuje vytváření variant téhož narativu a ztěžuje sledování obsahové shody.
+Původ narativu je často nedohledatelný, a signatura pak zůstává na úrovni podezření. Historické případy, které Rid (2020) popisuje, byly odhaleny často až s odstupem let, díky archivům nebo výpovědím účastníků.
+
+Injekce může být úspěšná právě proto, že narativ vystihuje skutečný problém. Rozpoznání původu proto neznamená vyvrácení obsahu, a obranná práce s narativem musí oddělit otázku „odkud to je“ od otázky „je to pravda“. Lewandowsky et al. (2012) navíc ukázali, že oprava dezinformace je účinnější, když nabízí alternativní vysvětlení, než když jen popírá; prosté odhalení původu nemusí převzatý narativ oslabit. Generativní umělá inteligence konečně usnadňuje vytváření variant téhož narativu a ztěžuje sledování obsahové shody; otevřenou otázkou zůstává, zda lze injekci rozpoznat podle struktury příběhu, nikoli podle jeho doslovného znění.
+
+## Literatura
+
+- Allport, G. W., & Postman, L. (1947). *The Psychology of Rumor*. Henry Holt.
+- Bittman, L. (1985). *The KGB and Soviet Disinformation: An Insider's View*. Pergamon-Brassey's.
+- Fisher, W. R. (1984). Narration as a human communication paradigm: The case of public moral argument. *Communication Monographs*, 51(1), 1–22.
+- Hovland, C. I., & Weiss, W. (1951). The influence of source credibility on communication effectiveness. *Public Opinion Quarterly*, 15(4), 635–650.
+- Katz, E., & Lazarsfeld, P. F. (1955). *Personal Influence: The Part Played by People in the Flow of Mass Communications*. Free Press.
+- Kumkale, G. T., & Albarracín, D. (2004). The sleeper effect in persuasion: A meta-analytic review. *Psychological Bulletin*, 130(1), 143–172.
+- Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. *Psychological Science in the Public Interest*, 13(3), 106–131.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
+- Rid, T. (2020). *Active Measures: The Secret History of Disinformation and Political Warfare*. Farrar, Straus and Giroux.
 
 ## Související
 

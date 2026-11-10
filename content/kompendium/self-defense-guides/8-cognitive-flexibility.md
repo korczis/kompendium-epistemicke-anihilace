@@ -19,9 +19,7 @@ Kognitivní flexibilita je schopnost přepnout pozornost, pravidlo nebo perspekt
 
 ## Pro koho je návod
 
-- Pro člověka, který si všiml, že v určitých situacích „ztuhne“ a reaguje stále stejně, i když to nefunguje.
-- Pro ty, kdo vycházejí z prostředí s pevnými rituály a pravidly a mají potíž přizpůsobit se otevřenému světu.
-- Pro lidi v dlouhodobém stresu, kteří chtějí udržet pružnost myšlení.
+Návod je pro člověka, který si všiml, že v určitých situacích „ztuhne“ a reaguje stále stejně, i když to nefunguje. Pomůže i těm, kdo vycházejí z prostředí s pevnými rituály a pravidly a mají potíž přizpůsobit se otevřenému světu, a lidem v dlouhodobém stresu, kteří chtějí udržet pružnost myšlení.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá, když skupina používá tzv. [thought-stopping](@/glossary/thought-st
 
 ## Varovné signály
 
-- Na pochybnost automaticky reagujete naučenou frází, ne vlastní úvahou.
-- Změna plánu ve vás vyvolá nepřiměřenou úzkost nebo vztek.
-- Nedokážete si představit jiné řešení, než které vám předkládá druhá strana.
-- Myšlení vám připadá „úzké“ a pomalé, zejména po kontaktu s konkrétní osobou nebo skupinou.
+Ztráta flexibility se ohlašuje automatismy. Na pochybnost reagujete naučenou frází, ne vlastní úvahou; změna plánu ve vás vyvolá nepřiměřenou úzkost nebo vztek; nedokážete si představit jiné řešení, než které vám předkládá druhá strana. Lifton (1961) popsal v prostředí myšlenkové reformy jazyk plný frází ukončujících přemýšlení – kdo je převezme, má po ruce odpověď dřív, než si položí otázku.
+
+Dalším signálem je pocit, že myšlení je „úzké“ a pomalé, zejména po kontaktu s konkrétní osobou nebo skupinou. Nejde nutně o rys povahy: výzkum stresu ukazuje, že i krátkodobý, nekontrolovatelný stres oslabuje funkce prefrontální kůry, na nichž flexibilní myšlení stojí, a posouvá řízení chování k zautomatizovaným vzorcům (Arnsten 2009). Ztuhlost je proto často stopou prostředí, ne osobním selháním.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Bývalá členka náboženské komunity si po odchodu všimla, že na každou po
 ## Cíl dovednosti
 
 Trénovat schopnost přepínat mezi úlohami, perspektivami a řešeními bez zbytečné únavy a umět vědomě vystoupit z rámce, který nabízí jen špatné možnosti.
+
+## Odborné východisko
+
+Kognitivní flexibilita patří spolu s inhibicí a pracovní pamětí k jádrovým exekutivním funkcím (Diamond 2013). Miyake et al. (2000) ukázali, že tyto funkce spolu souvisejí, ale nejsou totožné: schopnost přepnout mezi úlohami nebo pravidly („shifting“) lze odlišit od schopnosti potlačit automatickou reakci i od udržování informací v mysli. Pro sebe-obranu je to užitečné rozlišení – člověk může mít dobrou paměť i sebeovládání, a přesto mít potíž opustit naučený rámec, a cvičení se proto zaměřují právě na přepínání perspektiv a pravidel.
+
+Klinická psychologie pracuje s širším pojmem psychologické flexibility: schopnosti přizpůsobit myšlení a jednání měnícím se situacím a vlastním hodnotám, místo aby je řídily strnulé vzorce vyhýbání. Kashdan a Rottenberg (2010) ji ve svém přehledu popisují jako základní aspekt duševního zdraví. Terapie přijetí a závazku na této myšlence staví celý přístup: cílem není zbavit se nepříjemných myšlenek, ale nepodléhat jim automaticky (Hayes, Strosahl a Wilson 1999).
+
+Opatrnost je na místě u slibů rychlého zlepšení. Rozsáhlý přehled výzkumu komerčních programů „tréninku mozku“ dospěl k závěru, že zlepšení se obvykle týká trénovaných úloh a do běžného života se přenáší jen omezeně (Simons et al. 2016). Proto návod volí cvičení ve skutečných situacích – v rozhovorech, rozhodnutích a změnách plánu –, ne v abstraktních hrách.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,23 @@ Denně deset minut krátkých cvičení, týdně hodina hlubšího tréninku (p�
 
 ## Čeho se vyvarovat
 
-- Netrénujte flexibilitu na úkor bezpečí: pokud je v kontrolujícím vztahu bezpečnější držet se předvídatelného chování, je to legitimní strategie přežití, ne selhání.
-- Nehodnoťte se příkře za automatické reakce; vznikly jako ochrana.
-- Neočekávejte od mozkových „tréninkových aplikací“ zázraky – přenos z her do života je omezený.
+Netrénujte flexibilitu na úkor bezpečí: pokud je v kontrolujícím vztahu bezpečnější držet se předvídatelného chování, je to legitimní strategie přežití, ne selhání. Nové způsoby reagování zkoušejte nejprve tam, kde vám za ně nic nehrozí.
+
+Nehodnoťte se příkře za automatické reakce; vznikly jako ochrana a jejich uvolňování trvá. A neočekávejte od mozkových „tréninkových aplikací“ zázraky – přenos z her do života je omezený (Simons et al. 2016).
 
 ## Meze svépomoci
 
 Flexibilita bez zaměření plodí povrchnost; hluboké zvládnutí věcí vyžaduje i období soustředěné, pevné práce. Výrazné omezení flexibility po dlouhodobém traumatu má často tělesnou a emoční složku, kterou samotná kognitivní cvičení neodstraní; tam je vhodná kombinace s [emoční regulací](@/kompendium/self-defense-guides/11-emotional-regulation.md) a odbornou péčí.
+
+## Literatura
+
+- Arnsten, A. F. T. (2009). Stress signalling pathways that impair prefrontal cortex structure and function. *Nature Reviews Neuroscience*, 10(6), 410–422.
+- Diamond, A. (2013). Executive functions. *Annual Review of Psychology*, 64, 135–168.
+- Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (1999). *Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change*. Guilford Press.
+- Kashdan, T. B., & Rottenberg, J. (2010). Psychological flexibility as a fundamental aspect of health. *Clinical Psychology Review*, 30(7), 865–878.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Miyake, A., Friedman, N. P., Emerson, M. J., Witzki, A. H., Howerter, A., & Wager, T. D. (2000). The unity and diversity of executive functions and their contributions to complex „frontal lobe“ tasks: A latent variable analysis. *Cognitive Psychology*, 41(1), 49–100.
+- Simons, D. J., Boot, W. R., Charness, N., Gathercole, S. E., Chabris, C. F., Hambrick, D. Z., & Stine-Morrow, E. A. L. (2016). Do „brain-training“ programs work? *Psychological Science in the Public Interest*, 17(3), 103–186.
 
 ## Související
 

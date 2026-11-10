@@ -15,6 +15,10 @@ cd "$(majordomus worktree path feature/content-<vlna>)"
 majordomus start "Vlna <n>: <adresáře>" --scope content --scope scripts --scope static/data
 ```
 
+Úkol s užším rozsahem než celé `content/` (jen několik adresářů) musí zahrnout i
+`content/references.md` a `scripts/ia-baseline.json`: `verify-content.sh --fix` je přegeneruje
+a zmenší, a `majordomus check` jinak odmítne.
+
 `static/data/` patří do rozsahu úkolu: vlna mění obsah, a tedy i odvozený graf a metriky, které
 CI kontroluje (`build-graph.py --check`); bez něj `majordomus finish` odmítne.
 

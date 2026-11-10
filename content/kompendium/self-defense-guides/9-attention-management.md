@@ -19,9 +19,7 @@ Pozornost je omezený zdroj: co dostane, to roste; co ji nedostane, to mizí ze 
 
 ## Pro koho je návod
 
-- Pro člověka, kterému partner, skupina nebo nadřízený „vyplňuje“ celý den – zprávami, telefonáty, kontrolou dostupnosti.
-- Pro ty, kdo tráví hodiny scrollováním a cítí se po něm vyčerpaní a rozladění.
-- Pro každého, kdo chce mít čas na hluboké myšlení, které je předpokladem nezávislého úsudku.
+Návod je určen člověku, kterému partner, skupina nebo nadřízený „vyplňuje“ celý den – zprávami, telefonáty, kontrolou dostupnosti. Pomůže i těm, kdo tráví hodiny scrollováním a cítí se po něm vyčerpaní a rozladění, a každému, kdo chce mít čas na hluboké myšlení, které je předpokladem nezávislého úsudku.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá, když od vás někdo vyžaduje okamžitou dostupnost a nepřítomnost 
 
 ## Varovné signály
 
-- Nedokážete číst souvislý text déle než pár minut, i když dřív šlo o běžnou věc.
-- Pocit povinnosti odpovědět na zprávu okamžitě, jinak „něco hrozí“.
-- Telefon kontrolujete bezděčně a nevíte proč.
-- Na koníčky, přátele a odpočinek nezbývá čas, přestože nic smysluplného nestíháte.
-- Kontrola vaší dostupnosti druhou osobou (polohy, stavu „online“) – možný znak [coercive control](@/glossary/coercive-control.md).
+Zahlcená pozornost se nejdřív projeví na schopnosti vydržet u jedné věci: nedokážete číst souvislý text déle než pár minut, i když dřív šlo o běžnou věc, a telefon kontrolujete bezděčně, aniž víte proč. Výzkum naznačuje, že i pouhá přítomnost vlastního telefonu v dosahu může snižovat dostupnou kognitivní kapacitu, a to i tehdy, když ho člověk nepoužívá (Ward et al. 2017). Ke ztrátě soustředění tedy nemusí docházet vlastní vinou.
+
+Vztahově podmíněné zahlcení má další znaky: pocit povinnosti odpovědět na zprávu okamžitě, jinak „něco hrozí“, a stav, kdy na koníčky, přátele a odpočinek nezbývá čas, přestože nic smysluplného nestíháte. Nejzávažnějším signálem je kontrola vaší dostupnosti druhou osobou (polohy, stavu „online“). Stark (2007) popisuje sledování a regulaci každodenního života jako jádro [coercive control](@/glossary/coercive-control.md) – nejde o jednotlivé zprávy, ale o vzorec, který obsazuje čas a pozornost druhého.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Muž v novém vztahu dostával od partnerky desítky zpráv denně a za odpově�
 ## Cíl dovednosti
 
 Získat zpět kontrolu nad vlastní pozorností: rozhodovat, čemu ji věnujete, chránit si čas pro soustředění a rozpoznat, kdy ji někdo cíleně zabírá.
+
+## Odborné východisko
+
+Kognitivní neurověda rozlišuje v pozornosti několik systémů – udržování bdělosti, orientaci na podnět a výkonnou kontrolu, která volí, čemu dát přednost (Posner a Petersen 1990). Manipulativní prostředí a návrh mnoha aplikací cílí hlavně na druhý z nich: nové upozornění, zvuk nebo blikající ikona pozornost spolehlivě přitáhnou a výkonná kontrola pak musí vynaložit úsilí, aby ji vrátila. Herbert Simon (1971) tuto ekonomiku vystihl postřehem, že bohatství informací vytváří chudobu pozornosti.
+
+Přepínání mezi úlohami má cenu, i když je krátké. Leroy (2009) popsala „reziduum pozornosti“: po přerušení zůstává část mysli u předchozí úlohy a výkon v nové úloze klesá. Studie lidí, kteří intenzivně souběžně používají více médií, zjistila, že si hůře poradili s filtrováním nepodstatných podnětů (Ophir, Nass a Wagner 2009). Souvislost nemusí být příčinná, ale je dostatečně konzistentní, aby se vyplatilo s pozorností zacházet opatrně.
+
+Pro sebe-obranu je podstatné, že pozornost je předpokladem všech ostatních dovedností tohoto pilíře: ověřování, srovnávání zdrojů i [metakognice](@/glossary/metakognice.md) potřebují souvislé úseky času. Kdo pozornost někomu přenechává, přenechává mu i to, o čem bude přemýšlet. Cvičení proto pracují víc s prostředím než s vůlí – vůle je vyčerpatelná, prostředí působí trvale.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,22 @@ Denně jeden blok hluboké činnosti a několik bloků soustředění; jednou m�
 
 ## Čeho se vyvarovat
 
-- Neměňte náhle a nápadně své návyky dostupnosti, pokud vás kontroluje partner, u něhož hrozí násilí; nejprve si s odborníkem promyslete bezpečný postup.
-- Nespoléhejte jen na vůli; upravte prostředí (telefon mimo dosah, vypnutá upozornění).
-- Neberte selhání jako důkaz slabosti: prostředí je navrženo tak, aby vás odvádělo.
+Neměňte náhle a nápadně své návyky dostupnosti, pokud vás kontroluje partner, u něhož hrozí násilí; nejprve si s odborníkem promyslete bezpečný postup. Nečekaná změna může být vnímána jako vzdor a vést k eskalaci.
+
+Nespoléhejte jen na vůli; upravte prostředí (telefon mimo dosah, vypnutá upozornění). A neberte selhání jako důkaz slabosti: prostředí je navrženo tak, aby vás odvádělo, a každý návrat k soustředění je úspěch, ne prohra.
 
 ## Meze svépomoci
 
 Řízení pozornosti stojí na návycích a prostředí víc než na vůli; samotná „disciplína“ obvykle nestačí. Některé potíže s pozorností mají zdravotní příčinu (například ADHD, deprese, poruchy spánku) a vyžadují odborné vyšetření. Pokud je zahlcení pozornosti součástí kontrolujícího vztahu, je hlavním problémem vztah, ne vaše schopnost soustředit se.
+
+## Literatura
+
+- Leroy, S. (2009). Why is it so hard to do my work? The challenge of attention residue when switching between work tasks. *Organizational Behavior and Human Decision Processes*, 109(2), 168–181.
+- Ophir, E., Nass, C., & Wagner, A. D. (2009). Cognitive control in media multitaskers. *Proceedings of the National Academy of Sciences*, 106(37), 15583–15587.
+- Posner, M. I., & Petersen, S. E. (1990). The attention system of the human brain. *Annual Review of Neuroscience*, 13, 25–42.
+- Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), *Computers, Communications, and the Public Interest* (pp. 37–72). Johns Hopkins Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: The mere presence of one's own smartphone reduces available cognitive capacity. *Journal of the Association for Consumer Research*, 2(2), 140–154.
 
 ## Související
 

@@ -1,6 +1,6 @@
 +++
 title = "Akutní kognitivní ukotvení"
-description = "Longitudinální rekonstruktivní protokol — obnovení reality testingu."
+description = "Akutní protokol obnovy základní orientace v realitě po epistemické anihilaci: externí kotvy, záznamy, sdílené testování reality a odklad velkých rozhodnutí."
 weight = 4
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "acute"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["acute-information-curation", "acute-safety-establishment", "acute-social-reconnection"]
+related_terms = ["acute-stabilization-protocol", "acute-information-curation", "reality-testing", "gaslighting", "hermeneuticka-eroze", "duvera"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "acute"
@@ -16,98 +16,142 @@ phase = "acute"
 
 # Akutní kognitivní ukotvení
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `acute`
-> **Cílový rámec**: Týdny 1–4 po extrakci z EA prostředí.
+> **Status**: dílčí protokol akutní fáze v rámci [Akutního stabilizačního protokolu](@/kompendium/recovery-protocols/acute-stabilization-protocol.md).
+> **Fáze**: `acute`; navazuje na něj subakutní a středně-dobá práce s výkladem.
+> **Cíl**: obnovit minimální jistotu v tom, co se děje teď – bez sporu o to, co se dělo dřív.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Klienti se značnou [hermeneutickou erozí](@/glossary/hermeneuticka-eroze.md), narušeným reality testingem a aktivně přetrvávajícími manipulačními kognitivními skripty. Typicky po dlouhodobém [gaslightingu](@/glossary/gaslighting.md), kultovní indoktrinaci nebo high-conflict rozvodu s manipulativním partnerem.
+Protokol je určen lidem, u nichž dlouhodobá [epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+(EA) narušila základní orientaci: nevědí, zda si událost pamatují správně, nedůvěřují vlastním
+záznamům, nejsou schopni samostatně rozhodnout o drobnostech a jejich výklad přítomnosti stále
+řídí rámec pachatele nebo skupiny. Typicky jde o lidi po dlouhodobém [gaslightingu](@/glossary/gaslighting.md),
+po pobytu ve [vysoce kontrolující skupině](@/glossary/high-control-group.md) nebo po
+vleklém konfliktním rozchodu s manipulativním partnerem.
 
-## 2. Časový rámec
+Kognitivní ukotvení v akutní fázi neusiluje o „správný výklad minulosti“. Jeho úkolem je
+vytvořit několik pevných bodů – vnějších, ověřitelných a klidných –, o které se člověk může
+opřít, než bude schopen pracovat s tím, co se stalo.
 
-Týdny 1–4 po extrakci z EA prostředí. Intenzita: denní kontakt v prvním týdnu, 2–3× týdně ve druhém, týdně ve 3.–4. týdnu. Délka sezení: krátká (30–45 min) v prvních dnech, postupně delší.
+## 2. Klinický obraz
+
+Typickým projevem je to, co kniha nazývá [hermeneutickou erozí](@/glossary/hermeneuticka-eroze.md):
+člověk ztratil schopnost samostatně vykládat situace a automaticky sahá po výkladu pachatele
+(srov. [hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md)). Ptá se sám sebe
+„co by na to řekl on?“ a teprve podle toho se rozhoduje, co si myslí. K tomu přistupuje
+nejistota v paměti – „možná jsem to přehnala“, „možná se to nestalo“ – a zvýšená sugestibilita:
+kdokoli s jistým hlasem může nabídnout nový výklad a člověk ho přijme.
+
+Ehlers a Clark (2000) ve svém kognitivním modelu posttraumatické stresové poruchy popsali,
+že trauma bývá v paměti uloženo fragmentovaně a bez časového kontextu, a proto se vrací jako
+přítomné ohrožení. U EA k tomu přistupuje cílené přepisování paměti zvenčí: pachatel
+soustavně popíral, co se stalo, a člověk se naučil vlastní paměti nevěřit. Freydová (1996)
+ukázala, že zapomínání a „nevidění“ zrady může být adaptivní strategií udržení vztahu, na
+kterém člověk závisí. Po odchodu tato strategie přestává být nutná, ale nezmizí sama.
+
+Tento obraz má i vztahovou stránku. Herman (1992) popisuje, že lidé po dlouhodobém
+zajetí – v rodině, ve vztahu, ve skupině – si odnášejí zvláštní vztah k autoritě: buď ji
+vyhledávají a podřizují se jí, nebo ji odmítají a testují. V akutní fázi se to projevuje tím,
+že klient chce, aby mu terapeut „řekl, jak to bylo“, a zároveň každé jeho tvrzení zpochybňuje.
+Kognitivní ukotvení proto nestaví na tom, co terapeut ví, ale na tom, co klient může sám
+vidět a ověřit: na vlastním záznamu, dokumentu, kalendáři, fotografii. Terapeut je svědkem
+tohoto ověřování, ne jeho rozhodčím.
 
 ## 3. Cíle protokolu
 
-1. Akutní stabilizace fyziologického a emočního stavu — redukce hyperarousal, prevence dissociativních epizod.
-2. Zajištění bezprostřední bezpečnosti — fyzické, právní, finanční, informační.
-3. Prevence epistemického relapsu (návratu k pachateli) v kritické 0–30 denní periodě.
-4. Etablování pracovní terapeutické aliance jako kotvy reality testingu.
-5. Připravení podmínek pro přechod do subakutní fáze (měsíc 2+).
+Cílem je zavést vnější kotvy orientace (datovaný deník, denní rozvrh, uložené dokumenty);
+obnovit [testování reality](@/glossary/reality-testing.md) jako sdílenou, klidnou dovednost,
+ne jako výslech; odložit velká rozhodnutí do doby, kdy bude úsudek stabilnější; omezit
+příjem nových výkladů od kohokoli s jistým hlasem, včetně pomáhajících; a navázat
+terapeutický vztah, v němž klient zažívá, že jeho vnímání je bráno vážně.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Krizové hodnocení (den 0–1)**: Strukturovaný klinický rozhovor + suicidalita + safety mapping. Přímá detekce aktivních hrozeb (stalking, právní šikana, finance).
-2. **Stabilizační intervence (den 1–7)**: Denní kontakt v prvním týdnu — telefon nebo in-person. Psychoedukace o akutních reakcích jako normálních. Validace bez interpretace.
-3. **Bezpečné prostředí (den 1–14)**: Fyzická separace od pachatele — bydlení, finance, právní oddělení. Změna hesel, dvoufaktorová autentizace, kontrola surveillance aplikací.
-4. **Somatická regulace (denně, týdny 1–4)**: Krátké regulační cvičení 3× denně — orientation, dechové techniky, grounding. Vyhnout se intenzivním tělově-orientovaným technikám (riziko [retraumatizace](@/glossary/retraumatizace.md)).
-5. **Sociální opora (týdny 1–4)**: Identifikace 2–3 bezpečných kontaktů. Aktivace formální podpůrné sítě (krizová linka, krizové centrum).
-6. **Spánek a režim (týdny 1–4)**: Sleep hygiene protokol. Žádné přepracování, žádná velká rozhodnutí. Strukturovaný denní režim jako externalizovaný kontejner.
+1. **Datovaný deník** – krátké záznamy toho, co klient dnes viděl, slyšel a udělal, oddělené
+   od výkladu; žádný rozbor minulosti. Navazuje [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md).
+2. **Denní rozvrh** – jednoduchá struktura dne (vstávání, jídlo, pohyb, kontakt, spánek)
+   napsaná na papíře; rozvrh je vnější kontejner, ne cíl.
+3. **Ukotvení v přítomnosti** – na začátku každého sezení krátké shrnutí: kde jsme, jaký je
+   den, co se od minula stalo; klient mluví, terapeut zrcadlí.
+4. **Sdílené testování reality** – pokud si klient není jistý, co se stalo, terapeut se neptá
+   „jste si jistý?“, ale „co máte k dispozici, co by nám pomohlo to zjistit?“ – zprávu,
+   fotografii, svědka.
+5. **Odklad rozhodnutí** – dohoda, že velká rozhodnutí (návrat, rozvod, majetek, víra)
+   se v akutní fázi nedělají, pokud nejsou nutná pro bezpečí.
+6. **Pojmenování hlasu pachatele** – když se ozve vnitřní výklad pachatele, klient se učí
+   říct „to je jeho věta, ne moje“; zatím bez rozboru obsahu.
+7. **Ochrana před novými autoritami** – terapeut se vyhýbá verdiktům o minulosti a varuje
+   klienta před lidmi a skupinami, které nabízejí rychlé a úplné vysvětlení.
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – psychotické příznaky.** Pokud se nejistota v realitě rozšiřuje mimo
+vztah k pachateli (bludné přesvědčení, halucinace), je nutné psychiatrické vyšetření a odlišení
+podle oddílu [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+**Rozhodovací bod B – akutní kognitivní ochromení.** Pokud klient není schopen ani drobných
+rozhodnutí, postupuje se podle [Akutní kognitivní paralýzy](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md).
+**Rozhodovací bod C – tlak na verdikt.** Žádá-li klient od terapeuta, aby mu „řekl, jak to
+bylo“, terapeut tuto potřebu uzná, ale verdikt nenabídne; vrátí se k dokladům a k deníku.
 
-- **Subjektivní stabilita** — týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R weekly).
-- **Spánková kontinuita** — sleep diary, cíl: 6+ hodin noční spánek, sleep latency <30 min do týdne 4.
-- **Suicidalita** — žádné aktivní suicidální ideace, pasivní ideace v ústupu.
-- **Safety milestones** — fyzická separace ✓, finanční oddělení ✓, právní status ✓ do týdne 3.
-- **Reduktivní prevence relapsu** — žádný kontakt s pachatelem v týdnech 2–4.
-- **Trvalá terapeutická aliance** — Working Alliance Inventory (WAI) ≥ 5/7 do týdne 4.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se, zda klient vede deník a dokáže se k němu vracet, zda se v sezeních zkracuje doba
+potřebná k ukotvení v přítomnosti, zda klient zvládá drobná každodenní rozhodnutí bez
+ujišťování, zda dokáže rozpoznat a pojmenovat vnitřní hlas pachatele a zda nevzniká nová
+závislost na výkladu terapeuta nebo jiné autority. Validované normy pro EA neexistují;
+hodnotí se vývoj u konkrétního klienta a kvalitativní popis.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Hlavním rizikem je **předčasná konfrontace**: vyvracení přesvědčení skupiny nebo výkladu
+pachatele v akutní fázi vede často k obraně a k návratu. Druhým rizikem je **nahrazení jedné
+autority druhou** – terapeut, který přesvědčivě vysvětlí, „co se doopravdy stalo“, opakuje
+strukturu původního vztahu (srov. [iatrogenní poškození](@/glossary/iatrogenic-harm.md)).
+Třetím rizikem je **zaměnit EA za psychózu** nebo naopak; nejistota v realitě, která je vázaná
+na vztah a slábne s odstupem, se liší od bludného přesvědčení, ale odlišení vyžaduje odborné
+posouzení.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Aktivní psychóza neléčená; akutní intoxikace; aktivní suicidalita vyžadující hospitalizaci; klient stále v aktivním kontaktu s pachatelem (vyžaduje napřed safety planning); těžká dissociativní porucha bez stabilizace.
+Muž po čtyřicítce odchází z dlouhého vztahu s partnerkou, která mu pravidelně tvrdila, že
+„zapomíná“, a přesvědčila jeho rodinu, že má potíže s pamětí. Do terapie přichází s tím, že se
+bojí demence. Neuropsycholog vyloučí kognitivní poruchu. Terapeutka mu navrhne datovaný deník
+a krátké ranní shrnutí dne. Po dvou týdnech si muž všimne, že to, co si zapsal, si pamatuje
+přesně. Když mu partnerka napíše, že „zase zapomněl“ předat dětem věci, vezme deník
+a zjistí, že je předal. Neodpoví jí. Na sezení řekne, že poprvé po letech má „něco, co
+nepatří jí“. O tom, jak se vztah vyvíjel, se zatím nemluví; to je práce subakutní fáze.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Kognitivní ukotvení je ověřováno spíše klinickou zkušeností než kontrolovanými studiemi;
+protokol staví na principech práce s traumatickou pamětí (Ehlers a Clark 2000) a na
+poznatcích o slepotě ke zradě (Freyd 1996), jejich přenos na EA je klinicky odůvodněný.
+Otevřená je otázka, jak dlouho udržovat odklad rozhodnutí, když okolí a soudní řízení
+rozhodnutí vyžadují, a jak pracovat s lidmi, jejichž zdroje (fotografie, zprávy) kontroloval
+nebo zničil pachatel.
 
-### Sesterské protokoly
-- [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
-- [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
-- [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Ehlers, A., & Clark, D. M. (2000). A cognitive model of posttraumatic stress disorder.
+  *Behaviour Research and Therapy*, 38(4).
+- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
+  Harvard University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské a průřezové protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) – rámec akutní fáze.
+- [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md) – omezení nových výkladů zvenčí.
+- [Důvěra](@/kompendium/recovery-protocols/duvera.md) – navazující obnova důvěry ve vlastní vnímání.
+- [Středně-dobý hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) – pozdější obnova vlastního výkladu.
 
----
+**Krize a detekce**
 
-## Connect & Contribute
+- [Akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md) – když rozhodování selhává úplně.
+- [Nejistota reality](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) – fenomenologická signatura.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Pojmy**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Reality testing](@/glossary/reality-testing.md) – sdílené ověřování reality.
+- [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md) – ztráta vlastního výkladu.
+- [Gaslighting](@/glossary/gaslighting.md) – nejčastější zdroj nejistoty v paměti.

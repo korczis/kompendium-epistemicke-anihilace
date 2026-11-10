@@ -19,9 +19,7 @@ Konflikty patří k každému vztahu. Zdravý konflikt má dvě strany, které o
 
 ## Pro koho je návod
 
-- Pro člověka, který se konfliktům vyhýbá a pak hromadí křivdy.
-- Pro ty, jejichž konflikty se opakují ve stejném kruhu bez výsledku.
-- Pro lidi, kteří si nejsou jistí, zda prožívají běžné hádky, nebo něco horšího.
+Návod je určen člověku, který se konfliktům vyhýbá a pak hromadí křivdy, a těm, jejichž konflikty se opakují ve stejném kruhu bez výsledku. Pomůže i lidem, kteří si nejsou jistí, zda prožívají běžné hádky, nebo něco horšího – pro ně je nejdůležitější následující oddíl o rozlišení.
 
 ## Situace, ve kterých pomáhá
 
@@ -31,13 +29,13 @@ Pomáhá při běžných neshodách v rodině, v práci, mezi sousedy nebo přá
 
 Konflikt: obě strany mohou vyslovit svůj pohled, nikdo se nebojí následků, dohody platí, spor se týká konkrétní věci. Kontrola: jedna strana se bojí, „vyhrává“ vždy stejná strana, dohody se mění podle potřeby silnějšího, spory se rozšiřují na vaši osobu, přichází trest (mlčení, výhrůžky, násilí, odebrání peněz), druhá strana obrací role a vy jste ten „agresivní“ ([DARVO](@/glossary/darvo.md)).
 
+Toto rozlišení má oporu ve výzkumu. Johnson (2008) ukázal, že pod společným označením „domácí násilí“ se skrývají odlišné vzorce: násilí vyrůstající z eskalovaných konfliktů dvou rovnocenných stran a násilí jako součást soustavné kontroly nad partnerem. Upozornil také, že tyto vzorce vyžadují odlišnou odpověď – co může pomoci v prvním případě, může ve druhém uškodit. Stark (2007) přidává, že kontrola se nemusí projevovat fyzickým násilím vůbec; jejím jádrem je omezování svobody a každodenní regulace života druhého.
+
 ## Varovné signály
 
-- Před rozhovorem cítíte strach, ne jen nepohodlí.
-- Po každém sporu se omlouváte vy, i když jste začátek nezpůsobili.
-- Druhá strana popírá, co řekla, nebo tvrdí, že si to „vymýšlíte“.
-- Spor se týká vaší hodnoty („jsi neschopný“), ne věci.
-- Konflikty se stupňují a přidává se fyzické zastrašování.
+Na kontrolu místo konfliktu ukazuje především strach: před rozhovorem cítíte strach, ne jen nepohodlí. Dalším znakem je asymetrie výsledku – po každém sporu se omlouváte vy, i když jste začátek nezpůsobili – a zpochybňování reality, kdy druhá strana popírá, co řekla, nebo tvrdí, že si to „vymýšlíte“.
+
+Výzkum párových interakcí popsal, že ke zvlášť škodlivým vzorcům sporu patří kritika celé osoby místo konkrétního chování a pohrdání (Gottman 1994). Pokud se spor týká vaší hodnoty („jsi neschopný“), ne věci, a pokud se konflikty stupňují a přidává se fyzické zastrašování, nejde už o nedorozumění, které by vyřešila lepší komunikace, ale o situaci, v níž má přednost bezpečí.
 
 ## Modelová situace
 
@@ -46,6 +44,14 @@ Dva sourozenci se léta přeli o péči o nemocnou matku. Konflikty se opakovaly
 ## Cíl dovednosti
 
 Vyvinout schopnost konstruktivně procházet běžné konflikty místo jejich vyhýbání nebo eskalace – a rozpoznat situace, kdy nejde o konflikt, ale o kontrolu, která vyžaduje bezpečí a pomoc.
+
+## Odborné východisko
+
+Teorie řešení konfliktů rozlišuje spor kooperativní, v němž strany sledují i společný zájem a výsledek může být výhodný pro obě, a spor kompetitivní, v němž zisk jedné strany je ztrátou druhé a komunikace slouží k získání převahy (Deutsch 1973). Deutsch ukázal, že kooperativní spory mají tendenci vést k řešení a posilovat vztah, kdežto kompetitivní se rozšiřují a eskalují. Cvičení v tomto návodu směřují k prvnímu typu – ale předpokládají, že druhá strana o něj aspoň zčásti stojí.
+
+Fisher a Ury (1981) formulovali principy vyjednávání, které lze použít i v osobním sporu: oddělit lidi od problému, soustředit se na zájmy, ne na pozice, hledat více možností řešení a dohodnout se na objektivních kritériích. Rozlišení zájmů a pozic je zvlášť užitečné ve vleklých sporech, kde se strany přou o řešení („musíš přestat chodit ven“), aniž by pojmenovaly, co za ním stojí („bojím se, že tě ztratím“).
+
+Gottman (1994) v dlouhodobých studiích párů zjistil, že stabilitu vztahu předpovídá méně to, zda se pár hádá, a více to, *jak* se hádá – zda dokáže spor zmírnit, opravit napětí a vyhnout se pohrdání. To je pro sebe-obranu dvojí poselství: hádky samy o sobě nejsou známkou špatného vztahu, ale soustavné pohrdání a odmítání opravy jsou varovné.
 
 ## Pět praktických cvičení
 
@@ -85,13 +91,21 @@ V reálném čase při konfliktech; jednou měsíčně půlhodinová reflexe nad
 
 ## Čeho se vyvarovat
 
-- Neřešte „konflikt“ s násilnou osobou o samotě a na místě, odkud nemůžete odejít.
-- Nepřistupujte na mediaci nebo párovou terapii, pokud se partnera bojíte; v takových případech může společné sezení zvýšit riziko.
-- Nevyhýbejte se konfliktům za každou cenu tam, kde je bezpečné je řešit.
+Neřešte „konflikt“ s násilnou osobou o samotě a na místě, odkud nemůžete odejít. Nepřistupujte na mediaci nebo párovou terapii, pokud se partnera bojíte; v takových případech může společné sezení zvýšit riziko a o vhodném postupu je lepší se poradit s intervenčním centrem (srov. Johnson 2008).
+
+Nevyhýbejte se však konfliktům za každou cenu tam, kde je bezpečné je řešit. Odkládané spory se hromadí a jejich pozdější řešení bývá těžší.
 
 ## Meze svépomoci
 
 Některé konflikty vyřešit nelze, jen ukončit vztah nebo omezit kontakt; naučit se to rozpoznat je součástí dovednosti. Komunikační techniky nemohou vyrovnat nerovnováhu moci – tam pomáhá spíš ochrana, právo a vnější podpora.
+
+## Literatura
+
+- Deutsch, M. (1973). *The Resolution of Conflict: Constructive and Destructive Processes*. Yale University Press.
+- Fisher, R., & Ury, W. (1981). *Getting to Yes: Negotiating Agreement Without Giving In*. Houghton Mifflin.
+- Gottman, J. M. (1994). *What Predicts Divorce? The Relationship Between Marital Processes and Marital Outcomes*. Lawrence Erlbaum.
+- Johnson, M. P. (2008). *A Typology of Domestic Violence: Intimate Terrorism, Violent Resistance, and Situational Couple Violence*. Northeastern University Press.
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

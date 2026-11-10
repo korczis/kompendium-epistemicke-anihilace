@@ -19,9 +19,7 @@ Triangulace je postup, při kterém tutéž informaci ověřujete z několika zd
 
 ## Pro koho je návod
 
-- Pro člověka, jehož informační svět se zúžil na jednu osobu nebo skupinu („jen my víme, jak to je“).
-- Pro ty, kdo se rozhodují o zdraví, penězích nebo vztazích na základě zpráv z internetu.
-- Pro rodiče, učitele a další, kdo chtějí návyk předávat dál; navazuje na [mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md).
+Návod pomůže člověku, jehož informační svět se zúžil na jednu osobu nebo skupinu („jen my víme, jak to je“), i těm, kdo se rozhodují o zdraví, penězích nebo vztazích na základě zpráv z internetu. Je užitečný také pro rodiče, učitele a další, kdo chtějí návyk ověřování předávat dál; v tom navazuje na [mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md).
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Triangulace pomáhá, když skupina tvrdí, že všechny vnější zdroje lžou;
 
 ## Varovné signály
 
-- Všechny vaše zdroje mají stejný tón, slovník a nepřátele ([monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md)).
-- Ověřování „mimo“ je zakázáno, zesměšňováno nebo označeno za zradu.
-- Tři „různé“ zdroje vedou při dohledání k jedinému původnímu příspěvku.
-- Ptát se u jiných lidí na vlastní vztah je vám předem vyčítáno jako „pomlouvání“.
+Nejzřetelnějším signálem je stejnorodost: všechny vaše zdroje mají stejný tón, slovník a nepřátele ([monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md)). Druhým je sankce – ověřování „mimo“ je zakázáno, zesměšňováno nebo označeno za zradu, a ptát se u jiných lidí na vlastní vztah je vám předem vyčítáno jako „pomlouvání“. Takové pravidlo neříká nic o pravdivosti tvrzení, ale hodně o tom, jak málo snese srovnání.
+
+Třetí signál odhalí až dohledávání: tři „různé“ zdroje vedou k jedinému původnímu příspěvku. Opakované setkání s týmž tvrzením přitom zvyšuje jeho zdánlivou věrohodnost, i když za ním nestojí nový doklad – jev známý jako efekt iluzorní pravdy (Hasher, Goldstein a Toppino 1977). Kdo počítá zdroje, a ne jejich nezávislost, snadno zaměňuje ozvěnu za potvrzení.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Senior dostával od nového „přítele“ z internetu zprávy o tom, že jeho 
 ## Cíl dovednosti
 
 Naučit se ověřovat důležité informace z nejméně tří nezávislých zdrojů s odlišnými předpoklady a zájmy a rozeznat zdánlivou nezávislost od skutečné.
+
+## Odborné východisko
+
+Pojem triangulace převzala metodologie sociálních věd ze zeměměřictví: polohu bodu nelze určit z jediného stanoviště, ale ze dvou či tří ano. Denzin (1970) rozlišil několik druhů triangulace – podle dat, podle badatelů, podle teorií a podle metod – a jejich společným jmenovatelem je, že závěr je silnější, když k němu vedou cesty s odlišnými slabinami. Pro osobní život z toho plyne jednoduché pravidlo: ověřovat nestačí víckrát, je třeba ověřovat *jinak* – jiným člověkem, jiným typem zdroje, jiným druhem dokladu.
+
+Filozofie svědectví dodává, proč nezávislost rozhoduje. Goldman (2001) ukazuje, že shoda mnoha hlasů zvyšuje oprávněnost přesvědčení jen tehdy, když tyto hlasy nedospěly k závěru tím, že převzaly názor jednoho z nich; skupina, která opakuje svého vůdce, má epistemickou váhu jediného svědka. Výzkum hodnocení zdrojů na internetu pak popisuje praktickou podobu téže myšlenky: profesionální ověřovatelé faktů neposuzují stránku podle jejího vzhledu, ale rychle ji opustí a zjišťují, co o jejím původci říkají jiné, nezávislé zdroje – takzvané laterální čtení (Wineburg a McGrew 2019).
+
+Triangulace tedy není nedůvěra ke všemu, ale strukturovaná důvěra: zdroji věříme natolik, nakolik obstojí ve srovnání s jinými, které s ním nesdílejí zájem ani metodu.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,20 @@ U každého klíčového rozhodnutí třicet až šedesát minut na ověření; 
 
 ## Čeho se vyvarovat
 
-- Neověřujte potají, pokud by odhalení mohlo vést k násilí nebo trestu; vaše bezpečí má přednost. Ověřujte z bezpečného zařízení a místa.
-- Nezaměňujte počet zdrojů za nezávislost – deset přeposlaných kopií je stále jeden zdroj.
-- Nepropadněte relativismu, v němž je všechno „jen názor“. Některé zdroje jsou skutečně spolehlivější než jiné.
+Neověřujte potají, pokud by odhalení mohlo vést k násilí nebo trestu; vaše bezpečí má přednost. Ověřujte z bezpečného zařízení a na bezpečném místě, a pokud nevíte, zda je zařízení sledováno, poraďte se nejprve s intervenčním centrem.
+
+Nezaměňujte počet zdrojů za nezávislost – deset přeposlaných kopií je stále jeden zdroj. A nepropadněte relativismu, v němž je všechno „jen názor“: některé zdroje jsou skutečně spolehlivější než jiné, protože mají ověřitelné postupy, odpovědnost za omyly a ochotu je opravit.
 
 ## Meze svépomoci
 
 Úplná nezávislost zdrojů je v dnešní propojené mediální ekonomice spíš ideál než pravidlo a důkladná triangulace stojí čas. Proto ji vyhraďte pro rozhodnutí, na nichž záleží. Pokud jste byli dlouho izolováni v uzavřeném informačním prostředí, samotné vystavení jiným zdrojům může být zprvu ohrožující; v takovém případě postupujte podle [akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md), ideálně s odborníkem.
+
+## Literatura
+
+- Denzin, N. K. (1970). *The Research Act: A Theoretical Introduction to Sociological Methods*. Aldine.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*, 63(1), 85–110.
+- Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*, 16(1), 107–112.
+- Wineburg, S., & McGrew, S. (2019). Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information. *Teachers College Record*, 121(11), 1–40.
 
 ## Související
 

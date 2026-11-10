@@ -19,9 +19,7 @@ Spouštěč je podnět – slovo, tón, situace, vůně, datum –, který vyvol
 
 ## Pro koho je návod
 
-- Pro člověka, který reaguje na určité poznámky prudce a pak se stydí nebo omlouvá.
-- Pro ty, kdo si všimli, že jejich slabá místa zná a využívá někdo blízký.
-- Pro lidi po traumatické zkušenosti, kteří chtějí rozumět vlastním reakcím.
+Návod je pro člověka, který reaguje na určité poznámky prudce a pak se stydí nebo omlouvá, i pro ty, kdo si všimli, že jejich slabá místa zná a využívá někdo blízký. Slouží také lidem po traumatické zkušenosti, kteří chtějí rozumět vlastním reakcím a přestat je považovat za selhání.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá, když se hádky opakují podle stejného scénáře a vy pokaždé „
 
 ## Varovné signály
 
-- Reakce je silnější, než by odpovídalo situaci, a vy to sami cítíte.
-- Druhá strana „ví, kam píchnout“ – a používá to zejména ve sporech.
-- Po reakci jste vy ten, kdo se omlouvá, a původní problém mizí ze stolu ([DARVO](@/glossary/darvo.md)).
-- Vybavují se vám obrazy nebo pocity z minulosti tak živě, jako by se děly teď.
+Spouštěč se pozná podle nepoměru: reakce je silnější, než by odpovídalo situaci, a vy to sami cítíte. Ve vztahu přistupuje znak, který ukazuje na zneužití – druhá strana „ví, kam píchnout“ a používá to zejména ve sporech. Výsledkem bývá převrácení rolí: po reakci jste vy ten, kdo se omlouvá, a původní problém mizí ze stolu ([DARVO](@/glossary/darvo.md)).
+
+U traumatických spouštěčů se objevuje ještě jeden znak: vybavují se vám obrazy nebo pocity z minulosti tak živě, jako by se děly teď. Kognitivní model posttraumatické stresové poruchy vysvětluje, že traumatické vzpomínky bývají špatně zasazené do časového kontextu, takže podnět podobný původní situaci vyvolá prožitek přítomného ohrožení, nikoli vzpomínku na minulé (Ehlers a Clark 2000). Tento pocit „teď“ je tedy příznakem, ne důkazem, že nebezpečí opravdu trvá.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Pomáhá, když se hádky opakují podle stejného scénáře a vy pokaždé „
 ## Cíl dovednosti
 
 Identifikovat vlastní emoční spouštěče tak přesně, abyste je viděli přicházet dřív, než se emoce rozvine – a mít připravenou reakci, která vás ochrání.
+
+## Odborné východisko
+
+Teorie duální reprezentace rozlišuje dva druhy paměťových stop traumatu: verbálně dostupné vzpomínky, které lze vědomě vybavit a vyprávět, a situačně dostupné, smyslové stopy, které se aktivují automaticky při setkání s podobným podnětem (Brewin, Dalgleish a Joseph 1996). Spouštěč tak působí dřív, než si člověk uvědomí, co se děje. Odtud plyne logika mapování spouštěčů: přesouvá to, co probíhá automaticky, do oblasti, kterou lze slovy pojmenovat, předvídat a postupně zpracovat.
+
+Ehlers a Clark (2000) dále popsali, že k přetrvávání reakce přispívá i to, jak člověk sám sebe a svou reakci hodnotí („jsem slabý“, „zbláznil jsem se“), a strategie, které mají úlevu přinést, ale zpracování brání – například vyhýbání nebo potlačování vzpomínek. Mapa spouštěčů proto nemá vést k tomu, abyste se všem podnětům vyhýbali, ale k pochopení, co reakci vyvolává a co ji udržuje.
+
+Praktickým nástrojem je takzvaná analýza řetězce chování z dialekticko-behaviorální terapie: rozložení epizody na podnět, zranitelnost, myšlenky, tělesné pocity, impulz a jednání, aby bylo vidět, kde lze řetězec přerušit (Linehan 1993). V kontextu manipulace má tato analýza ještě jednu funkci – ukáže, zda se podnět objevuje náhodně, nebo opakovaně v okamžicích, kdy druhá strana potřebuje odvést pozornost od sebe.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,20 @@ Denně pět minut zápisů, týdně půl hodiny přehledu; mapa se ustálí za n
 
 ## Čeho se vyvarovat
 
-- Nesvěřujte mapu svých spouštěčů osobě, která vám ubližuje, ani v dobré víře, že to „pomůže vztahu“.
-- Nevystavujte se spouštěčům záměrně „pro otužení“ bez odborného vedení; expozice patří do terapie.
-- Neobviňujte se za to, že spouštěče máte; nejsou slabostí, ale stopou zkušenosti.
+Nesvěřujte mapu svých spouštěčů osobě, která vám ubližuje, ani v dobré víře, že to „pomůže vztahu“. Kdo zranitelná místa zneužívá, získá podrobnou mapu, kam mířit.
+
+Nevystavujte se spouštěčům záměrně „pro otužení“ bez odborného vedení; expozice patří do terapie, kde je strukturovaná a bezpečně vedená (Foa, Hembree a Rothbaum 2007). A neobviňujte se za to, že spouštěče máte; nejsou slabostí, ale stopou zkušenosti, kterou vaše mysl uložila na ochranu.
 
 ## Meze svépomoci
 
 Mapa spouštěčů je nástroj sebepoznání, ne léčba. U traumatických spouštěčů hrozí, že samostatné „rýpání“ do minulosti vyvolá [retraumatizaci](@/glossary/retraumatizace.md). Pokud práce se spouštěči vede k zhoršení stavu, zastavte se a pokračujte s odborníkem.
+
+## Literatura
+
+- Brewin, C. R., Dalgleish, T., & Joseph, S. (1996). A dual representation theory of posttraumatic stress disorder. *Psychological Review*, 103(4), 670–686.
+- Ehlers, A., & Clark, D. M. (2000). A cognitive model of posttraumatic stress disorder. *Behaviour Research and Therapy*, 38(4), 319–345.
+- Foa, E. B., Hembree, E. A., & Rothbaum, B. O. (2007). *Prolonged Exposure Therapy for PTSD: Emotional Processing of Traumatic Experiences – Therapist Guide*. Oxford University Press.
+- Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.
 
 ## Související
 

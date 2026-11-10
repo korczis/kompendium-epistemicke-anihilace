@@ -19,9 +19,7 @@ Téměř každá forma manipulace pracuje s časem. Podvodník tvrdí, že úče
 
 ## Pro koho je návod
 
-- Pro každého, kdo se už rozhodl pod tlakem a pak toho litoval.
-- Pro seniory a jejich blízké, kteří chtějí předejít telefonickým a online podvodům.
-- Pro lidi ve vztazích nebo skupinách, kde se rozhodnutí vyžadují „hned“.
+Návod je pro každého, kdo se už rozhodl pod tlakem a pak toho litoval, a zvlášť pro seniory a jejich blízké, kteří chtějí předejít telefonickým a online podvodům. Pomůže také lidem ve vztazích nebo skupinách, kde se rozhodnutí vyžadují „hned“ a kde je odklad vykládán jako nedůvěra nebo zrada.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá u telefonátů od „banky“ nebo „policie“, které žádají pře
 
 ## Varovné signály
 
-- „Musíte se rozhodnout hned / dnes / do hodiny.“
-- „Nikomu o tom neříkejte.“
-- „Pokud teď zaváháte, přijdete o všechno.“
-- Volající odmítá, abyste zavěsili a zavolali zpět na oficiální číslo.
-- Silná emoce (strach, nadšení, vina) a tlak přicházejí současně.
+Časový tlak má rozpoznatelný slovník: „Musíte se rozhodnout hned / dnes / do hodiny.“ „Nikomu o tom neříkejte.“ „Pokud teď zaváháte, přijdete o všechno.“ Spojení naléhavosti s požadavkem mlčení je zvlášť výmluvné, protože odstraňuje obě obvyklé pojistky – čas na rozmyšlenou i radu druhého. Cialdini (1984) popsal princip vzácnosti: příležitost, která se zdá omezená časem nebo množstvím, se jeví cennější, a lidé jsou ochotnější jednat bez rozmyslu.
+
+U telefonických podvodů je typický ještě jeden znak: volající odmítá, abyste zavěsili a zavolali zpět na oficiální číslo. Nejobecnějším signálem je pak souběh silné emoce (strach, nadšení, vina) a tlaku. Langenderfer a Shimp (2001) popsali, že podvody často pracují s „viscerálními“ vlivy – vidinou velkého zisku nebo hrozbou ztráty –, které snižují pozornost věnovanou varovným signálům; čím silnější emoce, tím důležitější je odklad.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Starší pán dostal telefonát od „bezpečnostního oddělení banky“: jeho
 ## Cíl dovednosti
 
 Naučit se nereagovat na informace a požadavky ihned, ale dát jim čas usadit se, ověřit je a vyzrát dřív, než podle nich jednáte – a mít pro to předem stanovená pravidla.
+
+## Odborné východisko
+
+Loewenstein (1996) popsal, jak „viscerální“ stavy – hlad, strach, vzrušení, akutní bolest – mění rozhodování: v jejich vlivu lidé jednají jinak, než by sami chtěli v klidu, a zároveň v klidu podceňují, jak silně je tyto stavy ovlivní. Tento rozdíl mezi „horkým“ a „studeným“ stavem vysvětluje, proč předem stanovené pravidlo funguje lépe než rozhodnutí na místě: pravidlo vzniká ve studeném stavu a chrání před rozhodnutím v horkém.
+
+Janis a Mann (1977) v teorii rozhodování pod stresem popsali, že při velkém riziku a nedostatku času lidé často přecházejí do „hypervigilance“ – zbrklého, chaotického hledání úniku, při kterém přehlížejí alternativy a chytají se prvního nabízeného řešení. Podmínkou kvalitního rozhodnutí je podle nich vědomí, že na rozmyšlení je dost času. Manipulace, která vytváří umělou naléhavost, tak cíleně vede rozhodování do režimu, v němž je nejsnáze ovlivnitelné.
+
+Princip odkladu je zakotven i v právu. Evropská směrnice o právech spotřebitelů (2011/83/EU) dává spotřebiteli u smluv uzavřených na dálku a mimo obchodní prostory zpravidla čtrnáctidenní lhůtu na odstoupení – právě proto, že prodej mimo běžné prostředí bývá spojen s tlakem a překvapením. Osobní pravidlo odkladu přenáší tuto logiku do každodenních situací, kde žádná zákonná lhůta neplatí.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,20 @@ Pravidla průběžně u všech důležitých rozhodnutí; délka odkladu podle v
 
 ## Čeho se vyvarovat
 
-- Nevysvětlujte podvodníkovi, proč nechcete jednat hned; prostě zavěste.
-- Neodkládejte rozhodnutí tam, kde jde o bezpečí – odchod z nebezpečné situace nebo přivolání pomoci se neodkládá.
-- Nenechte se přesvědčit, že „tentokrát je to výjimka“.
+Nevysvětlujte podvodníkovi, proč nechcete jednat hned; prostě zavěste a ověřte věc sami na oficiálním čísle. Vysvětlování dává druhé straně prostor k dalšímu nátlaku.
+
+Neodkládejte však rozhodnutí tam, kde jde o bezpečí – odchod z nebezpečné situace nebo přivolání pomoci (112, 155) se neodkládá. A nenechte se přesvědčit, že „tentokrát je to výjimka“: pravidlo, které má výjimky na požádání, přestává chránit.
 
 ## Meze svépomoci
 
 Některé příležitosti skutečně trvají jen chvíli a pravidlo odkladu je zmaří; rozlišujte typ rozhodnutí. Odklad také nepomůže, pokud se ve stavu rozhodujete opakovaně a pod trvalým tlakem – pak je třeba změnit prostředí. U seniorů pomáhá, když mají pravidla domluvená s rodinou a banka má nastavené limity.
+
+## Literatura
+
+- Cialdini, R. B. (1984). *Influence: The Psychology of Persuasion*. William Morrow.
+- Janis, I. L., & Mann, L. (1977). *Decision Making: A Psychological Analysis of Conflict, Choice, and Commitment*. Free Press.
+- Langenderfer, J., & Shimp, T. A. (2001). Consumer vulnerability to scams, swindles, and fraud: A new theory of visceral influences on persuasion. *Psychology & Marketing*, 18(7), 763–783.
+- Loewenstein, G. (1996). Out of control: Visceral influences on behavior. *Organizational Behavior and Human Decision Processes*, 65(3), 272–292.
 
 ## Související
 

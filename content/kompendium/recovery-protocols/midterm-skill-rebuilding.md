@@ -1,6 +1,6 @@
 +++
 title = "Středně-dobé obnovení kompetencí"
-description = "Longitudinální rekonstruktivní protokol — rekonstrukce praktických životních dovedností."
+description = "Středně-dobý protokol obnovy kompetencí po epistemické anihilaci: exekutivní funkce, rozhodování, praktická autonomie a vnímaná vlastní účinnost v klinickém rámci."
 weight = 16
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "midterm"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["midterm-identity-reconstruction", "midterm-metacognitive-rehab", "midterm-vocational-integration", "narativ"]
+related_terms = ["midterm-vocational-integration", "midterm-metacognitive-rehab", "incompetence", "23-skills-rebuilding-program", "weaponized-incompetence"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "midterm"
@@ -16,97 +16,149 @@ phase = "midterm"
 
 # Středně-dobé obnovení kompetencí
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `midterm`
-> **Cílový rámec**: Měsíce 3–12.
+> **Status**: fázový protokol středně-dobé fáze; průřezové téma naučené neschopnosti rozvádí
+> protokol [Incompetence](@/kompendium/recovery-protocols/incompetence.md), programovou
+> úroveň stránka [Obnova dovedností](@/kompendium/prevention-resilience/23-skills-rebuilding-program.md).
+> **Fáze**: `midterm`.
+> **Cíl**: aby klient znovu zažil, že věci zvládá sám – a aby tato zkušenost nahradila
+> přesvědčení o vlastní neschopnosti, které mu prostředí EA vštěpovalo.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Pacienti s atrofií **executive functions** a praktických dovedností — finanční gramotnost (po finančním zneužívání), profesní kompetence (po pracovní izolaci), self-care, řízení domácnosti, navigace byrokratickými systémy. Typické po dlouhodobé [coercive control](@/glossary/coercive-control.md).
+Protokol je určen klientům ve středně-dobé fázi, u nichž [epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+(EA) vedla ke ztrátě nebo nerozvinutí kompetencí: plánování a organizace, samostatné
+rozhodování, finanční a administrativní dovednosti, péče o zdraví, orientace v institucích.
+Na rozdíl od programové úrovně terciární prevence se zde pracuje individuálně a klinicky:
+s posouzením kognitivních funkcí, s vazbou na psychické obtíže a s přímou prací s přesvědčením
+o vlastní neschopnosti.
 
-## 2. Časový rámec
+## 2. Klinický obraz
 
-Měsíce 3–12. Intenzita: týdně, postupně 1× za 14 dní u stabilizovaných klientů. Délka: 50–60 min. Zahrnuje skill-building skupiny + individuální práci.
+Klinický obraz má tři vrstvy. **Kognitivní vrstva**: obtíže se soustředěním, pamětí
+a plánováním, které mohou souviset s chronickým stresem, depresí, poruchami spánku
+a s dlouhodobým nevyužíváním exekutivních funkcí, protože o všem rozhodoval někdo jiný.
+**Behaviorální vrstva**: klient se vyhýbá úkolům, v nichž by mohl selhat, odkládá je nebo
+je přenechává druhým. **Přesvědčení**: klient je přesvědčen, že „to neumí“, „na to nemá“,
+„vždycky to pokazí“ – často doslova slovy pachatele, který mu tuto neschopnost připisoval
+(srov. [weaponized incompetence](@/glossary/weaponized-incompetence.md) jako zrcadlový vzorec).
+
+Seligman (1975) popsal naučenou bezmocnost jako stav, v němž opakovaná zkušenost nezávislosti
+výsledku na vlastním jednání vede k pasivitě i v situacích, kde člověk vliv má. Bandura (1977)
+ukázal, že vnímaná vlastní účinnost (*self-efficacy*) se nejsilněji obnovuje vlastní zkušeností
+úspěchu, dále pozorováním druhých, slovním povzbuzením a regulací emočního stavu. Ryan a Deci
+(2000) v teorii sebeurčení zdůraznili, že pro motivaci a pohodu je klíčové uspokojení potřeby
+autonomie, kompetence a vztahovosti. U lidí po EA byly všechny tři potřeby soustavně
+frustrovány: autonomie potlačena, kompetence zpochybňována a vztahovost podmíněna poslušností.
+
+Stark (2007) ve své analýze [donucující kontroly](@/glossary/coercive-control.md) zdůraznil,
+že kontrola zasahuje do „mikroregulace“ každodenního života – kdo nakupuje, kdo řídí, kdo
+mluví s lékařem, kdo má přístup k účtu. To má pro obnovu kompetencí dva důsledky. Zaprvé
+klient často dovednost neztratil, ale nesměl ji používat; po letech se cítí nejistý, ale
+učí se rychleji, než sám čeká. Zadruhé je s každou dovedností spojena vzpomínka na zákaz
+nebo zesměšnění, takže první pokus vyvolává úzkost, která nesouvisí s obtížností úkolu.
+Protokol proto pracuje s oběma vrstvami současně: s praktickou dovedností i s emocí, kterou
+vyvolává.
+
+Epistemický rozměr kompetence je stejně podstatný. Kdo se považuje za neschopného, snadno
+přenechá úsudek druhým i v oblastech, kde je kompetentní – „on tomu rozumí líp“. Obnova
+kompetencí tak není jen praktickou rehabilitací, ale i obnovou práva mít vlastní názor
+na věci, které člověk zvládá. Každý samostatně zvládnutý úkol je dokladem, který lze
+postavit proti větě „ty na to nemáš“, a protokol tyto doklady vědomě sbírá a ukládá.
 
 ## 3. Cíle protokolu
 
-1. Obnovení vyšších metakognitivních a hermeneutických funkcí narušených EA.
-2. Rekonstrukce stabilní identitní struktury nezávislé na pachatelových implantátech.
-3. Praktická rehabilitace — vokační, finanční, vzdělávací reintegrace.
-4. Vybudování zdravých interpersonálních vzorců s funkčním detekčním filtrem.
-5. Příprava klienta na dlouhodobou autonomní fázi.
+Cílem je posoudit kognitivní funkce a odlišit organické příčiny od důsledků stresu a nevyužívání;
+obnovit exekutivní dovednosti (plánování, organizace, kontrola) na reálných úkolech; zvýšit
+vnímanou vlastní účinnost v konkrétních oblastech; obnovit samostatné rozhodování v oblastech,
+kde dříve rozhodoval pachatel; a podpořit autonomii klienta i ve vztahu k pomáhajícím.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Komprehenzivní reassessment (měsíc 3–4)**: Re-administrace baseline instrumentů. Identifikace **reziduálních deficitů** vs. nově se objevujících potřeb.
-2. **Metakognitivní trénink (měsíce 4–8)**: Specifický program (např. **Metacognitive Reflection and Insight Therapy** — MERIT). Cíl: obnovení kapacity reflektovat vlastní procesy myšlení.
-3. **Hermeneutický reset (měsíce 4–8)**: Strukturovaná práce s interpretačními rámci — identifikace internalizovaných pachatelových rámců, jejich oddělení, konstrukce vlastního.
-4. **Identitní rekonstrukce (měsíce 4–10)**: Práce s **possible selves** (Markus & Nurius), [narativní identita](@/glossary/narativni-identita.md) (McAdams), values clarification. Postupné budování koherentního self-konceptu.
-5. **Kompetence a vokace (měsíce 6–12)**: Praktický skill-building — finanční gramotnost, profesní rekvalifikace, vzdělávání. Návrat na trh práce nebo studia.
-6. **Reintegrace vztahů (měsíce 6–12)**: Obnovení vztahů s rodinou (kde bezpečné), budování nových vztahů s **detekčním filtrem** — schopnost rozpoznat varovné signály při novém vztahu.
+1. **Posouzení** – klinický rozhovor, případně neuropsychologické vyšetření při výrazných
+   kognitivních obtížích; vyloučení somatických příčin; posouzení deprese a poruch spánku.
+2. **Mapa kompetencí** – co klient zvládá, co ne a co si netroufá; u každé oblasti, kdo o ní
+   dříve rozhodoval.
+3. **Odstupňované úkoly** – úkoly od nejjednodušších, s jasným cílem a krátkou dobou; úspěch
+   se zaznamená a pojmenuje (Bandura 1977).
+4. **Externí opory** – kalendář, seznamy, připomínky, rozdělení úkolů na kroky; opory se
+   postupně zmenšují.
+5. **Kognitivní trénink** – tam, kde je indikován, s propojením na reálné úkoly; kognitivní
+   remediace vykázala v metaanalýze mírný účinek u schizofrenie (Wykes a kol. 2011), u EA je
+   její použití odvozené.
+6. **Práce s přesvědčením** – zápis a zkoumání vět „to neumím“: odkud pocházejí, co je
+   potvrzuje a co vyvrací; navazuje na protokol [Incompetence](@/kompendium/recovery-protocols/incompetence.md).
+7. **Autonomie v pomoci** – klient rozhoduje o tom, s čím chce pomoc a s čím ne; pomáhající
+   doprovází, nepřebírá.
+8. **Emoční regulace** – dovednosti zvládání úzkosti při úkolech (Linehan 1993), protože
+   úzkost z chyby bývá větší překážkou než chybějící dovednost.
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – organická porucha.** Pokud vyšetření ukáže organickou kognitivní
+poruchu, protokol se upraví podle neurologického nebo psychiatrického doporučení.
+**Rozhodovací bod B – deprese.** Výrazná deprese snižuje kapacitu pro trénink; má přednost
+její léčba. **Rozhodovací bod C – závislost na pomáhajícím.** Pokud klient přenáší rozhodování
+na terapeuta nebo sociálního pracovníka, pracuje se s tím otevřeně jako s opakováním vzorce.
 
-- **Metakognitivní funkce** — Metacognitions Questionnaire (MCQ-30), pokles maladaptivních metakognic o ≥ 40 %.
-- **Identitní integrace** — Self-Concept Clarity Scale (SCC), nárůst o ≥ 1 SD.
-- **Funkční status** — WHODAS 2.0, redukce disability o ≥ 50 %.
-- **Vokační reintegrace** — návrat na práci/studium, ekonomická soběstačnost.
-- **Vztahy** — alespoň 2 stabilní zdravé vztahy bez idealizace-devalvace dynamiky.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se rozsah činností, které klient zvládá samostatně, vnímaná vlastní účinnost
+v konkrétních oblastech (slovní hodnocení nebo ověřená škála obecné self-efficacy v čase),
+výsledky opakovaného kognitivního vyšetření, pokud bylo provedeno, míra využívání externích
+opor a zda klient sám rozhoduje o dalších krocích. Validované normy pro EA neexistují;
+porovnává se s výchozím stavem klienta.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Protokol není vhodný v akutní fázi. Rizikem je **infantilizace** – postup, který s dospělým
+jedná jako s dítětem, posiluje přesvědčení o neschopnosti. Dalším rizikem je **přetížení**:
+příliš mnoho úkolů najednou vede k selhání, které potvrdí staré přesvědčení. A konečně
+**přehlédnutí organické příčiny**: ne všechny kognitivní obtíže jsou důsledkem EA.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Reziduální akutní symptomatologie (vyžaduje návrat k akutní/subakutní fázi); nezpracované klíčové trauma memory (EMDR/TF-CBT není dokončeno); aktivní suicidalita; aktivní substance use; klient nedosáhl základní funkční stabilizace.
+Muž po šedesátce, jehož manželka po třicet let spravovala veškeré finance a tvrdila mu, že „na
+peníze nemá hlavu“, po jejím odchodu nedokáže zaplatit nájem. Bojí se, že má demenci.
+Neuropsychologické vyšetření ukáže mírně sníženou pozornost odpovídající depresi, ne demenci.
+S terapeutkou sestaví mapu kompetencí: peníze, úřady, vaření. Začnou nejjednodušším – jednou
+týdně zkontroluje zůstatek na účtu. Za měsíc si sám nastaví trvalý příkaz na nájem. Když
+poprvé vyplní daňové přiznání s pomocí poradny, řekne, že mu „třicet let tvrdili, že to
+nedokážu, a já tomu věřil“. Depresivní příznaky se s léčbou a s rostoucí samostatností zmírní.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Opora pro kognitivní remediaci a trénink self-efficacy pochází z jiných populací; u EA chybí
+kontrolované studie. Otevřená je otázka, jak odlišit kognitivní obtíže způsobené EA od
+počínající neurodegenerace u starších klientů, a jak dlouho trvá obnova kompetencí, které
+klient nikdy neměl příležitost rozvinout (u lidí, kteří do prostředí EA vstoupili mladí).
 
-### Sesterské protokoly
-- [Středně-dobá vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md)
-- [Středně-dobá vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md)
-- [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change.
+  *Psychological Review*, 84(2).
+- Linehan, M. M. (1993). *Skills Training Manual for Treating Borderline Personality Disorder*.
+  New York: Guilford Press.
+- Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic
+  motivation, social development, and well-being. *American Psychologist*, 55(1).
+- Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. San Francisco:
+  W. H. Freeman.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford
+  University Press.
+- Wykes, T., Huddy, V., Cellard, C., McGurk, S. R., & Czobor, P. (2011). A meta-analysis of
+  cognitive remediation for schizophrenia. *American Journal of Psychiatry*, 168(5).
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské a průřezové protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Incompetence](@/kompendium/recovery-protocols/incompetence.md) – průřezový protokol naučené neschopnosti.
+- [Středně-dobá vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md) – navazující návrat do práce.
+- [Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – hodnocení vlastního úsudku.
 
----
+**Prevence a svépomoc**
 
-## Connect & Contribute
+- [Obnova dovedností](@/kompendium/prevention-resilience/23-skills-rebuilding-program.md) – programová úroveň.
+- [Řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md) – práce s přetížením.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Pojmy a detekce**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Weaponized incompetence](@/glossary/weaponized-incompetence.md) – zrcadlový vzorec zneužité neschopnosti.
+- [Kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md) – fenomenologická signatura.

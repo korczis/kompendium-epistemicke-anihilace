@@ -5,22 +5,11 @@
 // Klik na sloupec → popis fáze z rejstříku a její protokoly.
 (function () {
   'use strict';
-  var SRC = document.currentScript && document.currentScript.src;
   // Zdroj dat: rejstřík oddílu protokolů zotavení (cesta v grafu knihy).
   var SOURCE = 'kompendium/recovery-protocols/_index.md';
 
-  function kniha() {
-    if (!window.__kniha) {
-      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
-        var s = document.createElement('script');
-        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
-        s.onload = ok;
-        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
-        document.head.appendChild(s);
-      })).then(function () { return window.KompendiumKniha.ready(); });
-    }
-    return window.__kniha;
-  }
+  // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
+  var kniha = window.KompendiumVrstva.kniha;
 
   function failed(el, e) {
     if (window.console) console.warn('vizualizace knihy:', e);
@@ -57,7 +46,7 @@
       K.clear(detail);
       detail.appendChild(K.h('h4', 'font-bold text-lg mb-2', s.group.title));
       if (s.group.text) detail.appendChild(K.h('p', 'mb-3', s.group.text));
-      detail.appendChild(K.h('h5', 'font-semibold mb-1 text-slate-300', 'Protokoly fáze podle rejstříku (' + s.ids.length + '):'));
+      detail.appendChild(K.h('h5', 'font-semibold mb-1 text-gray-700 dark:text-gray-300', 'Protokoly fáze podle rejstříku (' + s.ids.length + '):'));
       detail.appendChild(K.list(s.group.nodes));
     }
 

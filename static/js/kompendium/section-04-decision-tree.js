@@ -2,22 +2,13 @@
 // první prstenec = její stránky, druhý = oddíly knihy, na které daná stránka odkazuje (počet
 // odkazů v závorce); vše z grafu knihy. Klik na uzel → stránka nebo seznam odkazovaných stránek
 // oddílu s odkazy. Rozhodovací logika se z dat knihy odvodit nedá, proto ji strom netvrdí.
+// Plátno zakládá komponentová vrstva (vrstva.js): šířka podle hostitele, čtvercová plocha
+// v mezích výšky; poloměry prstenců se počítají z kratší strany plátna.
 (function() {
   'use strict';
-  var SRC = document.currentScript && document.currentScript.src;
 
-  function kniha() {
-    if (!window.__kniha) {
-      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
-        var s = document.createElement('script');
-        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
-        s.onload = ok;
-        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
-        document.head.appendChild(s);
-      })).then(function () { return window.KompendiumKniha.ready(); });
-    }
-    return window.__kniha;
-  }
+  // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
+  var kniha = window.KompendiumVrstva.kniha;
 
   function failed(el, e) {
     if (window.console) console.warn('vizualizace knihy:', e);
@@ -77,15 +68,15 @@
 
   function setDetail(K, container, node) {
     K.clear(container);
-    container.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', node.full || node.label));
+    container.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', node.full || node.label));
     if (node.targets) {
-      container.appendChild(K.h('p', 'text-slate-400 text-sm', 'Stránka „' + node.from.title + '“ sem odkazuje ' +
+      container.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', 'Stránka „' + node.from.title + '“ sem odkazuje ' +
         node.targets.length + '×:'));
       container.appendChild(K.list(node.targets));
       return;
     }
     if (node.children) {
-      container.appendChild(K.h('p', 'text-slate-400 text-sm', node._depth === 0
+      container.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', node._depth === 0
         ? node.children.length + ' stránek kapitoly'
         : 'Odkazuje do ' + node.children.length + ' oddílů knihy.'));
     }
@@ -98,7 +89,7 @@
 
   function init() {
     const host = document.getElementById('section-04-decision-tree');
-    if (!host || typeof p5 === 'undefined') return;
+    if (!host || typeof window.p5 === 'undefined') return;
     const detail = document.getElementById('tree-detail');
     kniha().then(function (K) { draw(K, buildTree(K), host, detail); }).catch(function (e) { failed(detail, e); });
   }
@@ -108,27 +99,35 @@
     layout(TREE, 0, -Math.PI, Math.PI, flatList);
     if (detail) {
       K.clear(detail);
-      detail.appendChild(K.h('p', 'text-slate-300 text-sm', 'Vnitřní prstenec: ' + TREE.children.length +
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', 'Vnitřní prstenec: ' + TREE.children.length +
         ' stránek kapitoly; vnější: oddíly knihy, na které odkazují (barva = oddíl). Klikněte na uzel.'));
     }
 
-    // sketch
-    new p5(function(p) {
-      let w = host.clientWidth || 800; let h = 600;
+    // Strom je statický: kreslí se jen při změně (najetí, klik, velikost, téma), bez smyčky.
+    window.KompendiumVrstva.p5(host, function (p, k) {
       let cx, cy;
-      const R = Math.min(w, h) / 2 - 30;
-      let radii = [0, R * 0.48, R * 0.95];
+      let radii = [0, 0, 0];
       let hovered = null;
 
+      // Geometrie podle skutečné velikosti plátna (vrstva ji přepočítá při změně šířky).
+      function geometry() {
+        const R = Math.min(p.width, p.height) / 2 - 30;
+        cx = p.width / 2; cy = p.height / 2;
+        radii = [0, R * 0.48, R * 0.95];
+      }
+
       p.setup = function() {
-        const cnv = p.createCanvas(w, h);
-        cnv.parent(host);
-        cx = w / 2; cy = h / 2;
+        k.canvas();
+        geometry();
+      };
+
+      p.resized = function() {
+        geometry();
       };
 
       p.draw = function() {
         p.background(15, 23, 42);
-        // Draw edges first
+        // Nejdřív hrany
         p.strokeWeight(1.2);
         p.noFill();
         flatList.forEach((node) => {
@@ -146,7 +145,9 @@
           });
         });
 
-        // Draw nodes
+        // Uzly; popisky jsou světlé na tmavém pozadí plátna (kontrast > 4.5:1). Na úzkém
+        // plátně se zkracují víc, aby se popisky prvního prstence méně překrývaly.
+        const maxChars = p.width < 560 ? 16 : 26;
         flatList.forEach((node) => {
           const r = radii[node._depth];
           const x = cx + r * Math.cos(node._angle);
@@ -162,27 +163,31 @@
             p.fill(241, 245, 249);
             p.textAlign(p.CENTER, p.CENTER);
             p.textSize(node._depth === 0 ? 12 : (node._depth === 1 ? 11 : 10));
-            const tx = node._depth === 0 ? x : x;
             const ty = node._depth === 0 ? y + baseR + 10 : y - baseR - 8;
-            p.text(node.label.length > 26 ? node.label.slice(0, 25) + '…' : node.label, tx, ty);
+            const text = node.label.length > maxChars
+              ? node.label.slice(0, maxChars - 1) + '…' : node.label;
+            p.text(text, x, ty);
           }
         });
 
-        // hovered tooltip
+        // bublina u uzlu pod ukazatelem
         if (hovered) {
+          const w = p.width;
           p.fill(15, 23, 42, 230);
           p.stroke(148, 163, 184, 180);
           p.strokeWeight(1);
           p.textSize(11);
-          const tw = Math.min(w - 20, Math.max(180, p.textWidth(hovered.full || hovered.label) + 30));
-          const tx = Math.min(p.mouseX + 10, w - tw - 4);
-          p.rect(tx, p.mouseY + 10, tw, 40, 4);
+          const tip = hovered.full || hovered.label;
+          const tw = Math.min(w - 20, Math.max(180, p.textWidth(tip) + 30));
+          const tx = Math.max(4, Math.min(p.mouseX + 10, w - tw - 4));
+          const ty = Math.min(p.mouseY + 10, p.height - 44);
+          p.rect(tx, ty, tw, 40, 4);
           p.noStroke();
           p.fill(241, 245, 249);
           p.textAlign(p.LEFT, p.TOP);
-          p.text(hovered.full || hovered.label, tx + 8, p.mouseY + 16, tw - 16, 14);
+          p.text(tip, tx + 8, ty + 6, tw - 16, 14);
           p.fill(148, 163, 184);
-          p.text('Klik pro detail', tx + 8, p.mouseY + 30);
+          p.text('Klik pro detail', tx + 8, ty + 20);
         }
       };
 
@@ -200,13 +205,22 @@
       }
 
       p.mouseMoved = function() {
+        const before = hovered;
         hovered = pickNodeAt(p.mouseX, p.mouseY);
+        // překreslit jen při změně nebo když bublina sleduje ukazatel
+        if (hovered || before) p.redraw();
       };
 
       p.mousePressed = function() {
         const node = pickNodeAt(p.mouseX, p.mouseY);
         if (node && detail) setDetail(K, detail, node);
+        if (node) { hovered = node; p.redraw(); }
       };
+    }, {
+      animate: false, aspect: 1, minHeight: 360, maxHeight: 640,
+      label: 'Radiální strom odkazů sekce ' + (TREE.label || '') + ': kořen uprostřed, vnitřní ' +
+        'prstenec ' + TREE.children.length + ' stránek kapitoly, vnější prstenec oddíly knihy, ' +
+        'na které jednotlivé stránky odkazují (barva = oddíl).',
     });
   }
 

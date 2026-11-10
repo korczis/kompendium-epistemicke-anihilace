@@ -4,362 +4,307 @@
     "depth": 2,
     "edges": [
       {
-        "from": "glossary/_index.md",
+        "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "glossary/coercive-control.md"
+        "to": "kompendium/argumentacni-fauly/_index.md"
       },
       {
-        "from": "glossary/_index.md",
+        "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "glossary/_index.md",
+        "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "glossary/delegitimizace.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/_index.md",
+        "from": "kompendium/argumentacni-fauly/_index.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "kompendium/_index.md"
       },
       {
-        "from": "glossary/_index.md",
+        "from": "kompendium/argumentacni-fauly/_index.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "kompendium/argumentacni-fauly/relevance/_index.md"
       },
       {
-        "from": "glossary/_index.md",
+        "from": "kompendium/argumentacni-fauly/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md"
       },
       {
-        "from": "glossary/_index.md",
+        "from": "kompendium/argumentacni-fauly/_index.md",
         "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "glossary/coercive-control.md",
+        "from": "kompendium/argumentacni-fauly/_index.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/coercive-control.md",
+        "from": "kompendium/argumentacni-fauly/relevance/_index.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "kompendium/argumentacni-fauly/_index.md"
       },
       {
-        "from": "glossary/coercive-control.md",
+        "from": "kompendium/argumentacni-fauly/relevance/_index.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md"
       },
       {
-        "from": "glossary/coercive-control.md",
+        "from": "kompendium/argumentacni-fauly/relevance/_index.md",
         "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/coercive-control.md",
+        "from": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
         "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
+        "to": "kompendium/argumentacni-fauly/_index.md"
       },
       {
-        "from": "glossary/color-teams.md",
+        "from": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/color-teams.md",
+        "from": "kompendium/nlp-vzorce/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "kompendium/_index.md"
       },
       {
-        "from": "glossary/delegitimizace.md",
+        "from": "kompendium/nlp-vzorce/_index.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "kompendium/argumentacni-fauly/_index.md"
       },
       {
-        "from": "glossary/delegitimizace.md",
+        "from": "kompendium/nlp-vzorce/_index.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "kompendium/nlp-vzorce/meta-model/meta-model.md"
       },
       {
-        "from": "glossary/delegitimizace.md",
+        "from": "kompendium/nlp-vzorce/_index.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "kompendium/nlp-vzorce/milton-model/_index.md"
       },
       {
-        "from": "glossary/delegitimizace.md",
+        "from": "kompendium/nlp-vzorce/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "kompendium/nlp-vzorce/milton-model/milton-model.md"
       },
       {
-        "from": "glossary/delegitimizace.md",
+        "from": "kompendium/nlp-vzorce/_index.md",
         "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
+        "to": "kompendium/nlp-vzorce/zakladni-pojmy/_index.md"
       },
       {
-        "from": "glossary/epistemicka-anihilace.md",
+        "from": "kompendium/nlp-vzorce/_index.md",
         "kind": "link",
-        "to": "glossary/coercive-control.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/epistemicka-anihilace.md",
+        "from": "kompendium/nlp-vzorce/meta-model/meta-model.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "glossary/epistemicka-anihilace.md",
+        "from": "kompendium/nlp-vzorce/meta-model/meta-model.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "kompendium/nlp-vzorce/milton-model/milton-model.md"
       },
       {
-        "from": "glossary/epistemicka-anihilace.md",
+        "from": "kompendium/nlp-vzorce/meta-model/meta-model.md",
         "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/gaslighting.md",
+        "from": "kompendium/nlp-vzorce/milton-model/_index.md",
         "kind": "link",
-        "to": "glossary/coercive-control.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "glossary/gaslighting.md",
+        "from": "kompendium/nlp-vzorce/milton-model/_index.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "kompendium/nlp-vzorce/meta-model/meta-model.md"
       },
       {
-        "from": "glossary/gaslighting.md",
+        "from": "kompendium/nlp-vzorce/milton-model/_index.md",
         "kind": "link",
-        "to": "glossary/delegitimizace.md"
+        "to": "kompendium/nlp-vzorce/milton-model/milton-model.md"
       },
       {
-        "from": "glossary/gaslighting.md",
+        "from": "kompendium/nlp-vzorce/milton-model/_index.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/gaslighting.md",
+        "from": "kompendium/nlp-vzorce/milton-model/milton-model.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "glossary/nabla-infinity.md",
+        "from": "kompendium/nlp-vzorce/milton-model/milton-model.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "kompendium/nlp-vzorce/meta-model/meta-model.md"
       },
       {
-        "from": "glossary/nabla-infinity.md",
+        "from": "kompendium/nlp-vzorce/milton-model/milton-model.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "kompendium/nlp-vzorce/milton-model/_index.md"
       },
       {
-        "from": "glossary/nabla-infinity.md",
+        "from": "kompendium/nlp-vzorce/milton-model/milton-model.md",
         "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/taxonomie-ea.md",
+        "from": "kompendium/nlp-vzorce/zakladni-pojmy/_index.md",
         "kind": "link",
-        "to": "glossary/_index.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "glossary/taxonomie-ea.md",
+        "from": "kompendium/nlp-vzorce/zakladni-pojmy/_index.md",
         "kind": "link",
-        "to": "glossary/delegitimizace.md"
+        "to": "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md"
       },
       {
-        "from": "glossary/taxonomie-ea.md",
+        "from": "kompendium/nlp-vzorce/zakladni-pojmy/_index.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "glossary/taxonomie-ea.md",
+        "from": "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md",
         "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "kompendium/nlp-vzorce/zakladni-pojmy/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md",
         "kind": "link",
-        "to": "glossary/delegitimizace.md"
+        "to": "kompendium/trener.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/trener.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "kompendium/argumentacni-fauly/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/trener.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "kompendium/argumentacni-fauly/relevance/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/trener.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/trener.md",
         "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
+        "to": "kompendium/nlp-vzorce/milton-model/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "from": "kompendium/trener.md",
         "kind": "link",
-        "to": "glossary/coercive-control.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/color-teams.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/color-teams.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/delegitimizace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/nabla-infinity.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
+        "to": "kompendium/nlp-vzorce/zakladni-pojmy/_index.md"
       }
     ],
     "limit": 10,
     "nodes": [
       {
-        "class": "glossary",
+        "class": "kompendium",
         "distance": 0,
-        "in": 563,
-        "path": "glossary/epistemicka-anihilace.md",
-        "title": "Epistemická anihilace"
+        "in": 586,
+        "path": "kompendium/trener.md",
+        "title": "Trenér rozpoznávání"
       },
       {
-        "class": "glossary",
+        "class": "kompendium/nlp-vzorce",
         "distance": 1,
-        "in": 397,
-        "path": "glossary/nabla-infinity.md",
-        "title": "NABLA Infinity (∇∞)"
+        "in": 439,
+        "path": "kompendium/nlp-vzorce/_index.md",
+        "title": "NLP vzorce"
       },
       {
-        "class": "glossary",
+        "class": "kompendium/argumentacni-fauly",
         "distance": 1,
-        "in": 380,
-        "path": "glossary/taxonomie-ea.md",
-        "title": "Taxonomie EA"
+        "in": 152,
+        "path": "kompendium/argumentacni-fauly/_index.md",
+        "title": "Argumentační fauly"
       },
       {
-        "class": "kompendium/06-klinicke-aplikace",
+        "class": "kompendium",
         "distance": 1,
-        "in": 350,
-        "path": "kompendium/06-klinicke-aplikace/_index.md",
-        "title": "06. Klinické aplikace a diagnostika"
+        "in": 121,
+        "path": "kompendium/_index.md",
+        "title": "Kompendium epistemické a kognitivní anihilace"
       },
       {
-        "class": "glossary",
+        "class": "kompendium/nlp-vzorce",
         "distance": 1,
-        "in": 333,
-        "path": "glossary/_index.md",
-        "title": "Glosář"
+        "in": 85,
+        "path": "kompendium/nlp-vzorce/meta-model/meta-model.md",
+        "title": "Meta-model"
       },
       {
-        "class": "glossary",
+        "class": "kompendium/argumentacni-fauly",
         "distance": 1,
-        "in": 325,
-        "path": "glossary/color-teams.md",
-        "title": "Color Teams (barevné týmy)"
+        "in": 62,
+        "path": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+        "title": "Pragma-dialektika"
       },
       {
-        "class": "glossary",
+        "class": "kompendium/nlp-vzorce",
         "distance": 1,
-        "in": 296,
-        "path": "glossary/coercive-control.md",
-        "title": "Coercive control (donucující kontrola)"
+        "in": 59,
+        "path": "kompendium/nlp-vzorce/milton-model/milton-model.md",
+        "title": "Milton-model"
       },
       {
-        "class": "kompendium/06-klinicke-aplikace",
+        "class": "kompendium/nlp-vzorce",
         "distance": 1,
-        "in": 271,
-        "path": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "title": "6.6 Supervizní rámce v klinické praxi EA"
+        "in": 45,
+        "path": "kompendium/nlp-vzorce/zakladni-pojmy/_index.md",
+        "title": "Základní pojmy NLP"
       },
       {
-        "class": "kompendium/06-klinicke-aplikace",
+        "class": "kompendium/nlp-vzorce",
         "distance": 1,
-        "in": 261,
-        "path": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "title": "6.1 Diagnostické indikátory a markery EA"
+        "in": 35,
+        "path": "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md",
+        "title": "Kalibrace"
       },
       {
-        "class": "glossary",
+        "class": "kompendium/nlp-vzorce",
         "distance": 1,
-        "in": 260,
-        "path": "glossary/delegitimizace.md",
-        "title": "Delegitimizace"
+        "in": 34,
+        "path": "kompendium/nlp-vzorce/milton-model/_index.md",
+        "title": "Milton-model"
       },
       {
-        "class": "glossary",
+        "class": "kompendium/argumentacni-fauly",
         "distance": 1,
-        "in": 251,
-        "path": "glossary/gaslighting.md",
-        "title": "Gaslighting"
+        "in": 33,
+        "path": "kompendium/argumentacni-fauly/relevance/_index.md",
+        "title": "Klamy relevance"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
-    "path": "glossary/epistemicka-anihilace.md",
+    "path": "kompendium/trener.md",
     "schema": "kompendium-engine/v1",
-    "total": 1852,
+    "total": 961,
     "truncated": true
   },
   "input": {
     "depth": 2,
     "limit": 10,
     "op": "neighbourhood",
-    "path": "glossary/epistemicka-anihilace.md"
+    "path": "kompendium/trener.md"
   }
 }

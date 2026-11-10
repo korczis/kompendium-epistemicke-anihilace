@@ -4,26 +4,6 @@
     "depth": 2,
     "edges": [
       {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/nabla-infinity.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
-        "to": "kompendium/_index.md"
-      },
-      {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
         "to": "glossary/nabla-infinity.md"
@@ -51,42 +31,12 @@
       {
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
-        "to": "glossary/_index.md"
-      },
-      {
-        "from": "glossary/taxonomie-ea.md",
-        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
-      },
-      {
-        "from": "glossary/taxonomie-ea.md",
-        "kind": "link",
         "to": "kompendium/_index.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
-        "to": "glossary/nabla-infinity.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
-        "to": "kompendium/_index.md"
-      },
-      {
-        "from": "kompendium/_index.md",
-        "kind": "link",
-        "to": "glossary/_index.md"
       },
       {
         "from": "kompendium/_index.md",
@@ -101,12 +51,27 @@
       {
         "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
-        "from": "mapa.md",
+        "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "glossary/_index.md"
+        "to": "kompendium/trener.md"
+      },
+      {
+        "from": "kompendium/nlp-vzorce/_index.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "kompendium/nlp-vzorce/_index.md",
+        "kind": "link",
+        "to": "kompendium/trener.md"
+      },
+      {
+        "from": "kompendium/trener.md",
+        "kind": "link",
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
         "from": "mapa.md",
@@ -137,6 +102,11 @@
         "from": "matice.md",
         "kind": "link",
         "to": "stav.md"
+      },
+      {
+        "from": "references.md",
+        "kind": "link",
+        "to": "kompendium/nlp-vzorce/_index.md"
       },
       {
         "from": "stav.md",
@@ -171,7 +141,7 @@
       {
         "class": "kompendium",
         "distance": 1,
-        "in": 119,
+        "in": 121,
         "path": "kompendium/_index.md",
         "title": "Kompendium epistemické a kognitivní anihilace"
       },
@@ -204,11 +174,25 @@
         "title": "Případy × techniky"
       },
       {
+        "class": "kompendium",
+        "distance": 2,
+        "in": 586,
+        "path": "kompendium/trener.md",
+        "title": "Trenér rozpoznávání"
+      },
+      {
         "class": "glossary",
         "distance": 2,
-        "in": 563,
+        "in": 564,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
+      },
+      {
+        "class": "kompendium/nlp-vzorce",
+        "distance": 2,
+        "in": 439,
+        "path": "kompendium/nlp-vzorce/_index.md",
+        "title": "NLP vzorce"
       },
       {
         "class": "glossary",
@@ -223,27 +207,13 @@
         "in": 380,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
-      },
-      {
-        "class": "kompendium/06-klinicke-aplikace",
-        "distance": 2,
-        "in": 350,
-        "path": "kompendium/06-klinicke-aplikace/_index.md",
-        "title": "06. Klinické aplikace a diagnostika"
-      },
-      {
-        "class": "glossary",
-        "distance": 2,
-        "in": 333,
-        "path": "glossary/_index.md",
-        "title": "Glosář"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
     "path": "stav.md",
     "schema": "kompendium-engine/v1",
-    "total": 1103,
+    "total": 1240,
     "truncated": true
   },
   "input": {

@@ -1,39 +1,29 @@
 {
   "category": "code",
   "expected": {
-    "code": "EA-7.2.1",
+    "code": "EA-7.3.2",
     "hits": [
       {
-        "code": "EA-7.2.1",
-        "in": 17,
+        "code": "EA-7.3.2",
+        "in": 43,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md",
+        "path": "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
         "tier": 1,
-        "title": "EA-7.2.1 Fricker: Epistemická nespravedlnost",
-        "url": "/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice/",
+        "title": "EA-7.3.2 Tversky a Kahneman: Heuristiky",
+        "url": "/kompendium/techniques/ea-7-3-2-tversky-heuristics/",
         "why": "exact_code"
-      },
-      {
-        "code": "EA-7.2.10",
-        "in": 3,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere.md",
-        "tier": 4,
-        "title": "EA-7.2.10 Nagel: Pohled odnikud",
-        "url": "/kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere/",
-        "why": "title_prefix"
       }
     ],
     "limit": 12,
-    "normalised": "ea-7.2.1",
+    "normalised": "ea-7.3.2",
     "ok": true,
     "op": "search",
-    "query": "ea 7.2.1",
+    "query": "ea 7.3.2",
     "schema": "kompendium-engine/v1",
-    "total": 2
+    "total": 1
   },
   "input": {
     "op": "search",
-    "query": "ea 7.2.1"
+    "query": "ea 7.3.2"
   }
 }

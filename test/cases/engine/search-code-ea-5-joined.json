@@ -45,7 +45,7 @@
       },
       {
         "code": "EA-5.1.10",
-        "in": 24,
+        "in": 26,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md",
         "tier": 4,
@@ -61,6 +61,16 @@
         "tier": 4,
         "title": "EA-5.1.14 Iluzorní transcendence",
         "url": "/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.12",
+        "in": 19,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+        "tier": 4,
+        "title": "EA-5.1.12 Kauzální inverze",
+        "url": "/kompendium/techniques/ea-5-1-12-kauzalni-inverze/",
         "why": "title_prefix"
       },
       {
@@ -104,18 +114,8 @@
         "why": "title_prefix"
       },
       {
-        "code": "EA-5.1.12",
-        "in": 11,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
-        "tier": 4,
-        "title": "EA-5.1.12 Kauzální inverze",
-        "url": "/kompendium/techniques/ea-5-1-12-kauzalni-inverze/",
-        "why": "title_prefix"
-      },
-      {
         "code": "EA-5.1.11",
-        "in": 8,
+        "in": 12,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
         "tier": 4,

@@ -5,135 +5,25 @@
     "hits": [
       {
         "code": null,
-        "in": 563,
-        "kind": "Pojem",
-        "path": "glossary/epistemicka-anihilace.md",
-        "tier": 6,
-        "title": "Epistemická anihilace",
-        "url": "/glossary/epistemicka-anihilace/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 174,
-        "kind": "Pojem",
-        "path": "glossary/kognitivni-anihilace.md",
-        "tier": 6,
-        "title": "Kognitivní anihilace",
-        "url": "/glossary/kognitivni-anihilace/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 173,
+        "in": 586,
         "kind": "Kapitola",
-        "path": "kompendium/04-terminalni-protokoly/_index.md",
+        "path": "kompendium/trener.md",
         "tier": 6,
-        "title": "04. Terminální protokoly",
-        "url": "/kompendium/04-terminalni-protokoly/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 172,
-        "kind": "Kapitola",
-        "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
-        "tier": 6,
-        "title": "3.2 Scénáře epistemické delegitimizace",
-        "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 134,
-        "kind": "Kapitola",
-        "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
-        "tier": 6,
-        "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
-        "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
-        "why": "description"
-      },
-      {
-        "code": "EA-1.3.2",
-        "in": 78,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
-        "tier": 6,
-        "title": "EA-1.3.2 Strategická reinterpretace",
-        "url": "/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/",
-        "why": "description"
-      },
-      {
-        "code": "EA-5.2.1",
-        "in": 71,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md",
-        "tier": 6,
-        "title": "EA-5.2.1 Meta-epistemická inverze",
-        "url": "/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/",
-        "why": "description"
-      },
-      {
-        "code": "EA-1.3.3",
-        "in": 54,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
-        "tier": 6,
-        "title": "EA-1.3.3 Tematická diverze",
-        "url": "/kompendium/techniques/ea-1-3-3-tematicka-diverze/",
-        "why": "description"
-      },
-      {
-        "code": "EA-2.1.1",
-        "in": 50,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-2-1-1-expertni-disinflation.md",
-        "tier": 6,
-        "title": "EA-2.1.1 Expertní disinflace",
-        "url": "/kompendium/techniques/ea-2-1-1-expertni-disinflation/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 45,
-        "kind": "Pojem",
-        "path": "glossary/narrative-identity.md",
-        "tier": 6,
-        "title": "Narrative identity (narativní identita – filosofické pojetí)",
-        "url": "/glossary/narrative-identity/",
-        "why": "description"
-      },
-      {
-        "code": "EA-1.4.1",
-        "in": 45,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
-        "tier": 6,
-        "title": "EA-1.4.1 Prosodická dominance",
-        "url": "/kompendium/techniques/ea-1-4-1-prosodicka-dominance/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 31,
-        "kind": "Kapitola",
-        "path": "kompendium/organizational-defense/40-post-incident-learning.md",
-        "tier": 6,
-        "title": "Učení po incidentu",
-        "url": "/kompendium/organizational-defense/40-post-incident-learning/",
+        "title": "Trenér rozpoznávání",
+        "url": "/kompendium/trener/",
         "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "systematicke",
+    "normalised": "katalogy",
     "ok": true,
     "op": "search",
-    "query": "systematicke",
+    "query": "katalogy",
     "schema": "kompendium-engine/v1",
-    "total": 27
+    "total": 1
   },
   "input": {
     "op": "search",
-    "query": "systematicke"
+    "query": "katalogy"
   }
 }

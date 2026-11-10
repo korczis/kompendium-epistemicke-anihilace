@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 296,
+        "in": 311,
         "kind": "Pojem",
         "path": "glossary/coercive-control.md",
         "tier": 4,
@@ -25,7 +25,7 @@
       },
       {
         "code": "EA-8.2.5",
-        "in": 17,
+        "in": 42,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
         "tier": 5,
@@ -35,7 +35,7 @@
       },
       {
         "code": "EA-8.1.4",
-        "in": 13,
+        "in": 16,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-8-1-4-coercive-control-scale.md",
         "tier": 5,
@@ -55,22 +55,32 @@
       },
       {
         "code": null,
+        "in": 15,
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md",
+        "tier": 6,
+        "title": "Manipulativní reframing v blízkých vztazích",
+        "url": "/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich/",
+        "why": "description"
+      },
+      {
+        "code": "EA-8.3.1",
+        "in": 7,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
+        "tier": 6,
+        "title": "EA-8.3.1 Základní literatura",
+        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
+        "why": "description"
+      },
+      {
+        "code": null,
         "in": 6,
         "kind": "Kapitola",
         "path": "kompendium/international/27-australian-law-EA/index.md",
         "tier": 6,
         "title": "Austrálie — EA právní rámec",
         "url": "/kompendium/international/27-australian-law-ea/",
-        "why": "description"
-      },
-      {
-        "code": "EA-8.3.1",
-        "in": 6,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
-        "tier": 6,
-        "title": "EA-8.3.1 Základní literatura",
-        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
         "why": "description"
       }
     ],
@@ -80,7 +90,7 @@
     "op": "search",
     "query": "Coe",
     "schema": "kompendium-engine/v1",
-    "total": 7
+    "total": 8
   },
   "input": {
     "op": "search",

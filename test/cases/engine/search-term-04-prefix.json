@@ -14,6 +14,16 @@
         "why": "title_prefix"
       },
       {
+        "code": "EA-2.3.2",
+        "in": 34,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-2-3-2-context-collapse.md",
+        "tier": 5,
+        "title": "EA-2.3.2 Kolaps kontextu (context collapse)",
+        "url": "/kompendium/techniques/ea-2-3-2-context-collapse/",
+        "why": "title_word"
+      },
+      {
         "code": null,
         "in": 29,
         "kind": "Kapitola",
@@ -24,18 +34,8 @@
         "why": "title_word"
       },
       {
-        "code": "EA-2.3.2",
-        "in": 28,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-2-3-2-context-collapse.md",
-        "tier": 5,
-        "title": "EA-2.3.2 Kolaps kontextu (context collapse)",
-        "url": "/kompendium/techniques/ea-2-3-2-context-collapse/",
-        "why": "title_word"
-      },
-      {
         "code": "EA-6.1.3",
-        "in": 17,
+        "in": 18,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-6-1-3-collateral-interview.md",
         "tier": 5,

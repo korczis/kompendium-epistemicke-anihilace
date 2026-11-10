@@ -35,6 +35,16 @@
       },
       {
         "code": null,
+        "in": 38,
+        "kind": "Kapitola",
+        "path": "kompendium/02-uvod/filosoficky-ramec.md",
+        "tier": 6,
+        "title": "2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika",
+        "url": "/kompendium/02-uvod/filosoficky-ramec/",
+        "why": "description"
+      },
+      {
+        "code": null,
         "in": 29,
         "kind": "Kapitola",
         "path": "kompendium/02-uvod/vztah-k-decision-engine.md",
@@ -51,16 +61,6 @@
         "tier": 6,
         "title": "2.6 Vztah ke Prismatic NABLA Infinity (∇∞)",
         "url": "/kompendium/02-uvod/vztah-k-nabla/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 24,
-        "kind": "Kapitola",
-        "path": "kompendium/02-uvod/filosoficky-ramec.md",
-        "tier": 6,
-        "title": "2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika",
-        "url": "/kompendium/02-uvod/filosoficky-ramec/",
         "why": "description"
       },
       {

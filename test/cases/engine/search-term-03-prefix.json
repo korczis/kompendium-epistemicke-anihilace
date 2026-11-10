@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 28,
+        "in": 43,
         "kind": "Kapitola",
         "path": "kompendium/02-uvod/metodologicke-poznamky.md",
         "tier": 5,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 119,
+        "in": 121,
         "kind": "Kapitola",
         "path": "kompendium/_index.md",
         "tier": 6,
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 45,
+        "in": 50,
         "kind": "Kapitola",
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "tier": 6,
@@ -115,12 +115,12 @@
       },
       {
         "code": null,
-        "in": 35,
+        "in": 38,
         "kind": "Kapitola",
-        "path": "kompendium/01-predmluva/vztah-k-platforme.md",
+        "path": "kompendium/02-uvod/filosoficky-ramec.md",
         "tier": 6,
-        "title": "1.6 Vztah ke Prismatic Platformě",
-        "url": "/kompendium/01-predmluva/vztah-k-platforme/",
+        "title": "2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika",
+        "url": "/kompendium/02-uvod/filosoficky-ramec/",
         "why": "description"
       }
     ],

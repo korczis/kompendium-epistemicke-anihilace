@@ -23,115 +23,118 @@ type = "educational-scenario"
 Manipulace málokdy vytváří zkreslení z ničeho. Častěji využívá ta, která si posuzovatel přináší
 sám. Tento scénář ukazuje dvě nejběžnější – **halo efekt** (přenos dojmu ze statusu autora na
 kvalitu jeho tvrzení) a **ukotvení** (přilnutí k prvnímu číslu nebo odhadu) – a to na vlastních
-číslech účastníků, ne v učebnicovém příkladu. Navazuje na
+číslech účastníků, ne v učebnicovém příkladu. Oba jevy mají dlouhou doloženou historii: halo
+efekt jako systematickou chybu v posuzování popsal už Thorndike a ukotvení patří mezi základní
+heuristiky úsudku za nejistoty (Tversky & Kahneman, 1974). Scénář navazuje na
 [Základní detekci](@/kompendium/educational-scenarios/1-basic-detection.md), kde apel na status
 vystupoval jako signál tlaku.
 
-## Učební cíle
+## Učební cíle a jejich zdůvodnění
 
-Účastník po cvičení:
-
-1. popíše halo efekt a ukotvení jako mechanismy, které působí i u zkušených odborníků;
-2. na vlastních datech změří, o kolik se jeho hodnocení posunulo v závislosti na nepodstatné
-   informaci;
-3. použije dvě korekční techniky: oddělené hodnocení obsahu a autora a vlastní odhad před
-   seznámením s cizím;
-4. rozliší zkreslení (systematickou chybu) od legitimního využití předchozí znalosti
-   o spolehlivosti zdroje.
+Cvičení směřuje k tomu, aby účastník popsal halo efekt a ukotvení jako mechanismy, které působí
+i u zkušených odborníků, a aby na vlastních datech změřil, o kolik se jeho hodnocení posunulo
+v závislosti na nepodstatné informaci. Měření na vlastních číslech je zvoleno záměrně: pouhá
+znalost zkreslení před ním nechrání, protože introspektivní přístup k procesu vlastního úsudku je
+omezený a lidé obvykle „vědí víc, než dokážou říci“ o tom, co jejich hodnocení skutečně ovlivnilo
+(Nisbett & Wilson, 1977). Dalším cílem je osvojit si dvě korekční techniky – oddělené hodnocení
+obsahu a autora a zapsání vlastního odhadu dříve, než se účastník seznámí s cizím – a nakonec
+odlišit zkreslení coby systematickou chybu od legitimního využití předchozí znalosti
+o spolehlivosti zdroje.
 
 ## Scénář
 
 Facilitátor rozdělí skupinu náhodně na dvě poloviny. Obě dostanou totéž dvoustránkové odborné
 stanovisko k fiktivnímu sporu na pracovišti: zaměstnankyně tvrdí, že jí vedoucí opakovaně
-zpochybňoval vnímání událostí; stanovisko posuzuje, zda popis odpovídá vzorci
+zpochybňoval vnímání událostí, a stanovisko posuzuje, zda popis odpovídá vzorci
 [gaslightingu](@/glossary/gaslighting.md). Text obsahuje dva dobře doložené argumenty, jeden
-slabý a jeden logicky chybný.
+slabý a jeden logicky chybný. Skupina A vidí stanovisko podepsané renomovaným profesorem s dlouhým
+seznamem funkcí, skupina B vidí totéž stanovisko bez autora, označené jako „podklad od studenta“.
+Každý účastník ohodnotí přesvědčivost stanoviska na stupnici 1–10 a odhadne v procentech
+pravděpodobnost, že popis odpovídá vzorci gaslightingu. Před odhadem je v zadání mimochodem
+uvedeno, že „předběžný interní odhad činil 85 %“ (skupina A) nebo „15 %“ (skupina B). Po sběru
+dat facilitátor odhalí design a promítne průměry obou skupin; následuje druhé kolo, v němž
+všichni dostanou stanovisko bez autora i bez čísla a hodnotí každý argument zvlášť. Dvě verze
+podkladu fungují jako kvaziexperiment, v němž se rozdíl mezi skupinami dá přičíst právě té jediné
+proměnné, kterou facilitátor obměnil; díky tomu scénář zviditelní rychlý, automatický vliv dojmu
+a kotvy, který by si účastník sám nepřiznal (Kahneman, 2011).
 
-- **Skupina A** vidí stanovisko podepsané renomovaným profesorem s dlouhým seznamem funkcí.
-- **Skupina B** vidí totéž stanovisko bez autora, označené jako „podklad od studenta“.
+## Jak se vzorec pozná
 
-Každý účastník ohodnotí přesvědčivost stanoviska na stupnici 1–10 a odhadne, s jakou
-pravděpodobností (v procentech) popis odpovídá vzorci gaslightingu. Před odhadem je v zadání
-mimochodem uvedeno, že „předběžný interní odhad činil 85 %“ (skupina A) nebo „15 %“
-(skupina B).
+Signály tohoto druhu neleží v textu, ale uvnitř posuzovatele, a proto je nutné je hledat
+v průběhu vlastního úsudku. Prvním je rychlost jistoty: hodnocení „je to přesvědčivé“ vzniklo
+dřív, než účastník dočetl argumenty, což je typický otisk statusové heuristiky, kdy celkový dojem
+z osoby zabarví posouzení jednotlivých kvalit (Nisbett & Wilson, 1977). Druhým je přilnutí
+k číslu, tedy vlastní odhad, který leží blízko uvedené hodnoty a liší se od ní méně, než by
+odpovídalo síle argumentů; ukotvení působí i tehdy, když hodnotitel ví, že kotva byla zvolena
+náhodně (Tversky & Kahneman, 1974). Třetím signálem je asymetrie kritiky – chybný argument se
+u autority omlouvá („asi to myslel jinak“), u neznámého autora tvrdě penalizuje – a čtvrtým zpětné
+zdůvodnění, kdy účastník umí vysvětlit, proč hodnotil vysoko, ale vysvětlení se netýká obsahu,
+nýbrž formy a autora. Pátým a neobvyklým signálem je samotné nepohodlí při odhalení: obranná
+reakce „mě to neovlivnilo“ je dobře doloženým projevem slepé skvrny vůči vlastnímu zkreslení,
+kterou lidé u sebe vidí hůře než u druhých (Pronin, Lin & Ross, 2002). Navazující katalog
+zkreslení je v kapitole [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) a
+v hesle [kognitivní bias](@/glossary/kognitivni-bias.md).
 
-Po sběru dat facilitátor odhalí design a promítne průměry obou skupin. Následuje druhé kolo:
-všichni dostanou stanovisko bez autora i bez čísla a hodnotí každý argument zvlášť.
+## Odlišení zkreslení od legitimního úsudku
 
-## Signály, kterých si všimnout
+Ne každé přihlédnutí k autorovi je halo efekt a ne každá kotva je manipulace. Předchozí
+spolehlivost zdroje je legitimní apriorní informace, pokud se týká právě té oblasti, o níž zdroj
+mluví, a pokud ji po přečtení argumentů aktualizujeme; halo efekt nastává teprve tam, kde status
+nahrazuje hodnocení argumentu nebo se přenáší mimo obor. Podobně většina kotev vzniká náhodně a
+teprve jejich vědomé předřazení před důvody z nich dělá nástroj vlivu. Strukturálně jde v obou
+případech o předřazení statusu nebo „předběžného závěru“ před argumentaci, takže pro obránce
+z toho plyne pravidlo: kdo uvádí číslo nebo autoritu dřív než důvody, vyžaduje zvláštní pozornost
+(Nickerson, 1998). Odlišení je důležité i proto, že nadměrná korekce – systematická nedůvěra vůči
+autoritám po odhalení – je jen zkreslením s opačným znaménkem, nikoli nápravou (Wilson & Brekke, 1994).
+Praktickou technikou je [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+jako protějšek, jemuž cvičení učí vzdorovat.
 
-Signály tu leží uvnitř posuzovatele, proto je třeba je hledat v průběhu vlastního úsudku:
+## Obrana a zotavení
 
-- **Rychlost jistoty.** Hodnocení „je to přesvědčivé“ vzniklo dřív, než účastník dočetl
-  argumenty – typický otisk statusové heuristiky.
-- **Přilnutí k číslu.** Vlastní odhad leží blízko uvedené hodnoty a liší se od ní méně, než
-  odpovídá síle argumentů.
-- **Asymetrie kritiky.** Chybný argument je u autority omlouván („asi to myslel jinak“),
-  u neznámého autora tvrdě penalizován.
-- **Zpětné zdůvodnění.** Účastník umí vysvětlit, proč hodnotil vysoko, ale vysvětlení se
-  netýká obsahu, ale formy a autora.
-- **Pocit nepohodlí při odhalení.** Obranná reakce („mě to neovlivnilo“) je sama užitečným
-  signálem, že zkreslení zasáhlo sebeobraz.
-
-Navazující katalog zkreslení je v kapitole [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md)
-a v hesle [kognitivní bias](@/glossary/kognitivni-bias.md).
-
-## Diskusní otázky
-
-1. Jak se lišily průměry obou skupin a o kolik bodů se posunul váš vlastní odhad?
-2. Který argument jste u „profesora“ omluvili a u „studenta“ ne?
-3. Kdy je legitimní přihlížet k autorovi? Čím se to liší od halo efektu?
-4. Proč ukotvení funguje i tehdy, když víme, že číslo bylo zvoleno náhodně?
-5. Jak lze tato zkreslení zneužít v komunikaci, jejímž cílem je vnutit určitý závěr?
-6. Jaký postup zavést v komisi, aby se zkreslení neuplatnila už při prvním čtení?
-
-## Modelové odpovědi
-
-- **K otázce 1–2.** Rozdíl mezi skupinami bývá patrný i při malé skupině. Důležitější než
-  velikost rozdílu je jeho směr: skupina A má sklon omlouvat chybný argument, skupina B
-  podceňovat ty silné. Popsané mechanismy odpovídají klasickým heuristikám
-  [Tverskyho a Kahnemana](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md).
-- **K otázce 3.** Předchozí spolehlivost zdroje je legitimní *apriorní* informace, pokud se
-  týká právě té oblasti, o níž zdroj mluví, a pokud ji po přečtení argumentů aktualizujeme.
-  Halo efekt nastává, když status nahrazuje hodnocení argumentu nebo se přenáší mimo obor.
-- **K otázce 4.** Kotva nastavuje výchozí bod, od něhož se úsudek posouvá nedostatečně;
-  vědomí o náhodnosti kotvy její vliv oslabuje jen částečně.
-- **K otázce 5.** Strukturálně jde o předřazení statusu nebo „předběžného závěru“ před
-  argumentaci. Pro obránce z toho plyne pravidlo: kdo uvádí číslo nebo autoritu před důvody,
-  vyžaduje zvláštní pozornost; viz [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md).
-- **K otázce 6.** Slepé první čtení (bez autora), samostatný zápis vlastních odhadů před
-  diskusí, hodnocení argument po argumentu a až poté celkový verdikt.
-
-## Časté chyby
-
-- **„Mě se to netýká.“** Znalost zkreslení před ním nechrání; chrání postup, který mu nedává
-  příležitost.
-- **Přehnaná korekce.** Někteří účastníci po odhalení začnou autoritám systematicky nedůvěřovat.
-  To je jen jiné zkreslení – opačné znaménko téže chyby.
-- **Moralizace.** Zkreslení není charakterová vada. Pokud debriefing vyzní jako zahanbení,
-  účastníci si příště budou svá čísla upravovat.
-- **Záměna se záměrem.** Ne každé ukotvení je manipulace; většina kotev vzniká náhodně.
-  Rozhodující je, zda ji někdo vědomě předřazuje před argumenty.
+Obranou není snaha „být objektivnější“ vůlí, protože introspekce sama zkreslení nezachytí, ale
+postup, který mu nedává příležitost: slepé první čtení bez autora, samostatný písemný zápis
+vlastních odhadů před diskusí, hodnocení argument po argumentu a teprve poté celkový verdikt.
+Tyto kroky fungují jako vnější lešení úsudku, které obchází omezení vědomé sebekontroly
+(Wilson & Brekke, 1994). Pro posuzovatelské týmy z toho plyne návrh pravidel: oddělit identitu
+autora od obsahu ve fázi prvního čtení a zaznamenat individuální odhady, než zazní první společný
+názor, jenž by jinak posloužil jako kotva. Zotavení v tomto případě neznamená terapeutický
+proces, ale obnovu důvěry ve vlastní úsudek po zjištění, že byl ovlivněn; klíčové je rámovat
+nález jako obecný rys poznávání, nikoli jako osobní selhání, protože náchylnost ke zkreslení
+nesouvisí s inteligencí a nelze ji „přerůst“ chytrostí (Stanovich, 2009). Pro soustavnou práci
+slouží [osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md) a
+[revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md).
 
 ## Debriefing pro facilitátora
 
-Odhalení designu je citlivý moment: část skupiny zjistí, že byla „ovlivněna“. Představte to
-jako potvrzení, že cvičení funguje, ne jako test inteligence. Data prezentujte agregovaně,
-nikdy po jménech. Pak přejděte od „co se stalo“ k „jaký postup by to zachytil“ a nechte
-skupinu sepsat tři pravidla pro vlastní posuzovací praxi.
+Odhalení designu je citlivý moment, protože část skupiny zjistí, že byla „ovlivněna“. Facilitátor
+to představí jako potvrzení, že cvičení funguje, nikoli jako test inteligence, a data prezentuje
+agregovaně, nikdy po jménech. Pak přejde od otázky „co se stalo“ k otázce „jaký postup by to
+zachytil“ a nechá skupinu sepsat tři pravidla pro vlastní posuzovací praxi. Moralizace je zde
+kontraproduktivní: pokud debriefing vyzní jako zahanbení, účastníci si příště budou svá čísla
+upravovat, a cvičení tím ztratí diagnostickou hodnotu (Gilovich, 1991). Pochází-li skupina
+z jedné instituce, je namístě opatrnost s příklady autorit z vlastního prostředí, protože
+cvičení nemá zpochybnit konkrétní lidi, ale postup.
 
-Pokud skupina pochází z jedné instituce, buďte opatrní s příklady autorit z vlastního prostředí;
-cvičení nemá zpochybnit konkrétní lidi, ale postup. Pro hlubší práci odkažte na
-[osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
+## Meze a otevřené otázky
 
-## Rozšiřující úkoly
+Scénář cílí na dvě zkreslení a dva korekční postupy; nenahrazuje systematické školení o celé
+rodině heuristik ani netrénuje jejich rozpoznání v reálné časové tísni, kdy je kapacita pro
+pomalé uvažování nejmenší (Kahneman, 2011). Otevřenou otázkou zůstává, nakolik se korekce naučená
+na jednom typu podkladu přenáší na jiné úlohy a jak dlouho vydrží bez opakování. Diskutovat je
+také třeba hranici mezi zdravou kalibrací důvěry ke zdrojům a přehnanou korekcí, protože obě se
+navenek projevují nedůvěrou k autoritě, liší se však tím, zda vycházejí z posouzení argumentů,
+nebo je nahrazují.
 
-1. **Deník kotev.** Po dobu týdne zapisujte, kdy jste slyšeli číslo nebo odhad dřív, než jste
-   si udělali vlastní. Odhadněte, jak by vypadal váš úsudek bez něj.
-2. **Slepá recenze.** Ohodnoťte dva texty z vašeho oboru bez znalosti autora a pak se podívejte,
-   kdo je napsal. Zapište, co vás překvapilo.
-3. **Návrh pravidla.** Navrhněte jednostránkové pravidlo pro komisi, v níž působíte, inspirované
-   [prevencí konfirmačního zkreslení v due diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md).
+## Literatura
+
+- Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. Free Press.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- Nickerson, R. S. (1998). Confirmation Bias: A Ubiquitous Phenomenon in Many Guises. *Review of General Psychology*, 2(2).
+- Nisbett, R. E., & Wilson, T. D. (1977). The Halo Effect: Evidence for Unconscious Alteration of Judgments. *Journal of Personality and Social Psychology*, 35(4).
+- Pronin, E., Lin, D. Y., & Ross, L. (2002). The Bias Blind Spot: Perceptions of Bias in Self Versus Others. *Personality and Social Psychology Bulletin*, 28(3).
+- Stanovich, K. E. (2009). *What Intelligence Tests Miss: The Psychology of Rational Thought*. Yale University Press.
+- Tversky, A., & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. *Science*, 185(4157).
+- Wilson, T. D., & Brekke, N. (1994). Mental Contamination and Mental Correction. *Psychological Bulletin*, 116(1).
 
 ## Související
 

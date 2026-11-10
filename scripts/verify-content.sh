@@ -40,6 +40,10 @@ cd "$work"
 if [ "$fix" = --fix ]; then
   # A new glossary entry extends the dictionary, so pages anywhere may gain a link.
   python3 scripts/link-terms.py >/dev/null
+  # link-terms injects link markup that polish-markdown would normalise; polish here, before the
+  # staging loop and the polish-markdown --check (below), so a relinked page stages already
+  # polished instead of failing the check it cannot otherwise reach (the --fix apply is later).
+  python3 scripts/polish-markdown.py >/dev/null
   relinked=0
   while IFS= read -r -d '' f; do
     rel=${f#./}

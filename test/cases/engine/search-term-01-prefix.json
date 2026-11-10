@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 600,
+        "in": 603,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 4,
@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 179,
+        "in": 176,
         "kind": "Pojem",
         "path": "glossary/epistemicke-trauma.md",
         "tier": 4,
@@ -35,7 +35,7 @@
       },
       {
         "code": null,
-        "in": 131,
+        "in": 128,
         "kind": "Pojem",
         "path": "glossary/epistemicka-injustice.md",
         "tier": 4,
@@ -55,7 +55,7 @@
       },
       {
         "code": null,
-        "in": 99,
+        "in": 98,
         "kind": "Pojem",
         "path": "glossary/epistemicka-alienace.md",
         "tier": 4,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 78,
+        "in": 76,
         "kind": "Pojem",
         "path": "glossary/epistemic-bubble.md",
         "tier": 4,
@@ -75,7 +75,7 @@
       },
       {
         "code": null,
-        "in": 65,
+        "in": 64,
         "kind": "Pojem",
         "path": "glossary/epistemicka-pokora.md",
         "tier": 4,
@@ -85,7 +85,7 @@
       },
       {
         "code": null,
-        "in": 57,
+        "in": 56,
         "kind": "Pojem",
         "path": "glossary/epistemicka-monokultura.md",
         "tier": 4,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 35,
+        "in": 36,
         "kind": "Pojem",
         "path": "glossary/epistemic-security.md",
         "tier": 4,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 402
+    "total": 407
   },
   "input": {
     "op": "search",

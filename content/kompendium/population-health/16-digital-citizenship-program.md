@@ -20,81 +20,94 @@ toc = true
 
 ## Vymezení a cíl
 
-**Digitální občanství** zahrnuje znalosti, dovednosti a postoje potřebné k bezpečné,
-odpovědné a aktivní účasti na digitální společnosti. Rada Evropy rozvíjí program vzdělávání
-k digitálnímu občanství; Evropská komise používá rámec digitálních kompetencí občanů
-(DigComp). Pro prevenci EA jsou podstatné čtyři oblasti:
+Digitální občanství zahrnuje znalosti, dovednosti a postoje potřebné k bezpečné, odpovědné
+a aktivní účasti na digitální společnosti. Rada Evropy rozvíjí program vzdělávání
+k digitálnímu občanství a Evropská komise používá rámec digitálních kompetencí občanů
+(DigComp); obojí sdílí předpoklad, že digitální prostředí není neutrální scéna, ale
+sociotechnický prostor, v němž identita i vztahy vznikají pod tlakem platformní
+architektury (boyd, 2014). Pro prevenci epistemických útoků je rozhodující, že v tomto
+prostoru je jedinec současně cílem i nástrojem: tím, co o sobě zveřejní, usnadňuje cílení,
+a tím, co sdílí nebo zesílí, spoluurčuje, co uvidí druzí.
 
-1. **Soukromí a bezpečnost** – co o sobě zveřejňuji a jak to může být použito k cílení,
-   nátlaku nebo [doxingu](@/glossary/doxing.md).
-2. **Účast a zesilování** – kdy se sdílením, lajkem nebo komentářem stávám součástí
-   [koordinovaného útoku davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md),
-   [masového nahlašování](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md)
-   nebo šíření [pseudo-kontroverze](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md).
-3. **Porozumění infrastruktuře** – jak fungují doporučovací systémy, [engagement optimization](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-   a [personalizace feedu](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md);
-   proč vidím to, co vidím.
-4. **Péče o sebe a druhé** – pozornost, spánek, hranice; podpora člověka, který je online
-   terčem útoku.
-
-Cílem není „správné chování“ v moralistickém smyslu, ale schopnost rozpoznat, kdy online
-prostředí oslabuje vlastní úsudek nebo kdy mě využívá k oslabení úsudku jiných.
+Z toho plynou čtyři oblasti kompetencí. První je soukromí a bezpečnost – uvědomění, co o sobě
+zveřejňuji a jak to může být použito k cílení, nátlaku nebo [doxingu](@/glossary/doxing.md).
+Druhou je účast a zesilování: rozpoznání okamžiku, kdy se sdílením, lajkem nebo komentářem
+stávám součástí [koordinovaného útoku davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md),
+[masového nahlašování](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md) nebo
+šíření [pseudo-kontroverze](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md).
+Třetí je porozumění infrastruktuře – tomu, jak fungují doporučovací systémy,
+[engagement optimization](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) a
+[personalizace feedu](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md), a tedy
+proč vidím právě to, co vidím (Zuboff, 2019). Čtvrtou je péče o sebe a o druhé: pozornost,
+spánek, hranice a podpora člověka, který je online terčem útoku. Cílem programu není „správné
+chování“ v moralistickém smyslu, ale schopnost rozpoznat, kdy online prostředí oslabuje
+vlastní úsudek nebo kdy mě využívá k oslabení úsudku jiných.
 
 ## Úroveň prevence a cílová populace
 
-Univerzální primární prevence pro děti, dospívající, rodiče a dospělé. Selektivní varianty:
-rodiče malých dětí (sdílení fotografií dětí, nastavení zařízení), senioři (podvody, falešné
-profily), lidé s veřejnou rolí (učitelé, úředníci, místní politici), kteří jsou častým terčem
-obtěžování.
+Jde o univerzální primární prevenci pro děti, dospívající, rodiče a dospělé, protože expozice
+síťovému prostředí je dnes téměř všeobecná a riziko spočívá spíše v rozložení drobných
+každodenních rozhodnutí než ve vzácné patologii menšiny; tím odpovídá logice populační
+strategie, podle níž má plošný posun běžného chování větší dopad než soustředění jen na
+nejrizikovější jedince (Rose, 1992). Selektivní varianty míří na rodiče malých dětí (sdílení
+fotografií dětí, nastavení zařízení), na seniory (podvody, falešné profily) a na lidi
+s veřejnou rolí – učitele, úředníky, místní politiky –, kteří jsou častým terčem obtěžování.
 
 ## Logika intervence
 
-Epistemický útok v síťovém prostředí potřebuje **zesilovače** – lidi, kteří obsah
-nepromyšleně sdílejí, připojí se k davu nebo poskytnou informace o sobě a druhých. Program
-snižuje ochotu a pohotovost být zesilovačem a zvyšuje schopnost poskytnout protiváhu
-(podpořit terč, nahlásit koordinaci, nesdílet). Zároveň posiluje ochranu vlastního úsudku
-před ekonomikou pozornosti.
+Epistemický útok v síťovém prostředí potřebuje zesilovače: lidi, kteří obsah nepromyšleně
+sdílejí, připojí se k davu nebo poskytnou informace o sobě a o druhých. Výzkum sdílení
+ukazuje, že lidé často šíří obsah, který by po krátké úvaze sami vyhodnotili jako nevěrohodný,
+protože rozhodují rychle a odměnou je sociální reakce, nikoli přesnost (Pennycook a Rand,
+2021). Program proto snižuje pohotovost být zesilovačem a zvyšuje schopnost poskytnout
+protiváhu – podpořit terč, nahlásit koordinaci, nesdílet – a zároveň posiluje ochranu
+vlastního úsudku před ekonomikou pozornosti.
 
 ## Komponenty programu
 
-- **Moduly o soukromí**: nastavení účtů, stopa dat, rizika sdílení polohy a rodinných
-  informací; proč i nevinné údaje usnadňují cílení.
-- **Moduly o davu**: rozbor případů online obtěžování a [kolapsu kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md),
-  diskuse o tom, jak se z jednoho sdílení stane [deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md);
-  nácvik, jak se nepřidat a jak podpořit terč.
-- **Moduly o algoritmech**: proč feed odměňuje pobouření; experiment se změnou vlastního
-  feedu ([detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)).
-- **Moduly o pozornosti a zdraví**: [rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md),
-  [informační půst](@/kompendium/self-defense-guides/39-information-fasting.md), spánek.
-- **Moduly o syntetickém obsahu a botech**: [sock puppet sítě](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md),
-  hlasové klony, deepfaky – jak reagovat, když se objeví obsah o mně.
-- **Rodinná složka**: rodiče a děti spolu nastavují pravidla, místo jednostranného dohledu.
+Moduly o soukromí učí nastavení účtů, uvědomění datové stopy a rizika sdílení polohy
+a rodinných informací; klíčové je, že i zdánlivě nevinné údaje usnadňují cílení, protože
+hodnota dat vzniká až jejich agregací a predikcí chování (Zuboff, 2019). Moduly o davu
+pracují s rozborem případů online obtěžování a
+[kolapsu kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md) a ukazují, jak se
+z jednoho sdílení stane [deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md);
+jádrem je nácvik, jak se nepřidat a jak podpořit terč. Moduly o algoritmech vysvětlují, proč
+feed odměňuje pobouření, a nechávají účastníky experimentovat se změnou vlastního feedu
+([detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)). Moduly
+o pozornosti a zdraví zavádějí [rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md),
+[informační půst](@/kompendium/self-defense-guides/39-information-fasting.md) a péči o spánek.
+Moduly o syntetickém obsahu a botech probírají [sock puppet sítě](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md),
+hlasové klony a deepfaky a to, jak reagovat, objeví-li se obsah o mně. Účinnějším formátem
+než jednostranná přednáška je společná dohoda: rodinná složka vede rodiče a děti k tomu, aby
+pravidla nastavovali spolu, protože vzdělávání založené na posílení vlastní účinnosti mění
+chování spolehlivěji než samotné varování (Roozenbeek a van der Linden, 2019).
 
 ## Rizika a nežádoucí účinky
 
-- **Přesun odpovědnosti na jednotlivce.** Program může nepřímo sdělovat, že za škodlivé
-  prostředí mohou uživatelé. Je třeba otevřeně mluvit i o odpovědnosti platforem a státu
-  ([regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md)).
-- **Moralizace.** Kázání o „slušnosti online“ dospívající odmítají; účinnější je rozbor
-  mechanismů a vlastní zkušenosti.
-- **Rodičovský dohled jako kontrola.** Aplikace na sledování dětí mohou učit, že kontrola je
-  normální součást vztahu; to je v rozporu s cílem prevence
-  ([panoptismus](@/glossary/panopticism.md)).
-- **Digitální propast.** Programy nejsnáze zasáhnou ty, kdo už mají dobré kompetence;
-  selektivní složky musí aktivně oslovit ostatní.
-- **Zneužití pojmu.** „Odpovědné chování“ nesmí znamenat sebecenzuru legitimních názorů.
+Nejvážnějším rizikem je přesun odpovědnosti na jednotlivce. Program může nepřímo sdělovat, že
+za škodlivé prostředí mohou uživatelé, přestože rozhodující proměnné – design doporučování
+a obchodní model pozornosti – leží mimo jejich dosah; proto je nutné otevřeně mluvit
+i o odpovědnosti platforem a státu (Zuboff, 2019;
+[regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md)). Druhým
+rizikem je moralizace: kázání o „slušnosti online“ dospívající odmítají, a účinnější je rozbor
+mechanismů a vlastní zkušenosti, protože identita v síti vzniká ve vztahu k vrstevníkům a je
+na normativní tlak zvenčí citlivá (boyd, 2014). Třetím je rodičovský dohled jako kontrola:
+aplikace na sledování dětí mohou učit, že nepřetržitý dohled je normální součástí vztahu, což
+je v rozporu s cílem prevence ([panoptismus](@/glossary/panopticism.md)). Dále hrozí digitální
+propast – programy nejsnáze zasáhnou ty, kdo už mají dobré kompetence, takže selektivní složky
+musí ostatní aktivně oslovit, podobně jako u prevence založené na sociálních normách, kde
+nesprávně zarámované sdělení může posílit právě nežádoucí chování (Cialdini, 2009). Konečně je
+tu zneužití pojmu: „odpovědné chování“ nesmí znamenat sebecenzuru legitimních názorů.
 
 ## Evaluace
 
-- **Znalosti a dovednosti**: praktické úlohy (nastavení soukromí, rozpoznání koordinované
-  kampaně), ne jen dotazník.
-- **Chování**: sebehodnocení sdílení a účasti na konfliktech, ideálně doplněné o data
-  z prostředí (například počet incidentů ve škole).
-- **Klima**: ve školách a organizacích – výskyt online šikany a ochota ji nahlásit.
-- **Dlouhodobost**: návyky se mění pomalu; měření po roce má větší výpovědní hodnotu než
-  po týdnu.
-- **Nežádoucí účinky**: pocit bezmoci („stejně s tím nic neudělám“), nárůst kontrolujícího
-  chování rodičů.
+Evaluace musí měřit praktické dovednosti, nikoli jen deklarované postoje: úlohy na nastavení
+soukromí a rozpoznání koordinované kampaně mají vyšší výpovědní hodnotu než dotazník. Na
+úrovni chování se sleduje sebehodnocení sdílení a účasti na konfliktech, ideálně doplněné
+o data z prostředí (například počet incidentů ve škole), a na úrovni klimatu výskyt online
+šikany a ochota ji nahlásit. Protože návyky se mění pomalu, měření po roce vypovídá víc než
+měření po týdnu; sledovat je třeba i nežádoucí účinky, zejména pocit bezmoci („stejně s tím
+nic neudělám“) a nárůst kontrolujícího chování rodičů.
 
 ## Modelová situace
 
@@ -115,10 +128,20 @@ věcem přidávají.
 
 ## Limitace a otevřené otázky
 
-- Digitální prostředí se mění rychleji než osnovy; program potřebuje průběžnou aktualizaci.
-- Chování online je silně ovlivněno designem platforem; vzdělávání ho mění jen částečně.
-- Otevřená otázka: jak učit odpovědnost za zesilování obsahu, aniž by vznikl strach z jakékoli
-  účasti na veřejné debatě?
+Digitální prostředí se mění rychleji než osnovy, takže program potřebuje průběžnou
+aktualizaci, a chování online je silně určováno designem platforem, který vzdělávání mění jen
+částečně – mez, kterou sdílí každá intervence cílená na jednotlivce v prostředí utvářeném
+ekonomikou pozornosti (Zuboff, 2019). Otevřenou otázkou zůstává, jak učit odpovědnost za
+zesilování obsahu, aniž by vznikl strach z jakékoli účasti na veřejné debatě.
+
+## Literatura
+
+- boyd, d. (2014). *It's Complicated: The Social Lives of Networked Teens*. Yale University Press.
+- Cialdini, R. B. (2009). *Influence: Science and Practice*. Pearson.
+- Pennycook, G., & Rand, D. G. (2021). The Psychology of Fake News. *Trends in Cognitive Sciences*, 25(5).
+- Roozenbeek, J., & van der Linden, S. (2019). Fake News Game Confers Psychological Resistance Against Online Misinformation. *Palgrave Communications*, 5.
+- Rose, G. (1992). *The Strategy of Preventive Medicine*. Oxford University Press.
+- Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.
 
 ## Související
 

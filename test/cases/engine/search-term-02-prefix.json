@@ -75,22 +75,22 @@
       },
       {
         "code": null,
+        "in": 14,
+        "kind": "Kapitola",
+        "path": "kompendium/educational-scenarios/18-cult-recruitment.md",
+        "tier": 5,
+        "title": "Vzdělávací scénář: Náborové techniky kultu",
+        "url": "/kompendium/educational-scenarios/18-cult-recruitment/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
         "in": 13,
         "kind": "Kazuistika",
         "path": "kompendium/case-studies/26-religiozni-fanatismus-exit.md",
         "tier": 5,
         "title": "Případ 26: Odchod z vysoce kontrolujícího náboženského společenství",
         "url": "/kompendium/case-studies/26-religiozni-fanatismus-exit/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 13,
-        "kind": "Kapitola",
-        "path": "kompendium/educational-scenarios/18-cult-recruitment.md",
-        "tier": 5,
-        "title": "Vzdělávací scénář: Náborové techniky kultu",
-        "url": "/kompendium/educational-scenarios/18-cult-recruitment/",
         "why": "title_word"
       },
       {

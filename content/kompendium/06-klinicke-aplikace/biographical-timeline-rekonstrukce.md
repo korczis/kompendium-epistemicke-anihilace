@@ -22,115 +22,120 @@ date_modified = "2026-11-10"
 
 ## Účel a klinická pozice
 
-Rekonstrukce biografické časové osy je strukturovaný postup, jímž klient s klinikem sestaví
-chronologii svého života: místa, vztahy, události, rozhodnutí a období expozice manipulativnímu
-prostředí. Slouží třem účelům:
-
-1. **Diagnostickému** – ukazuje, kdy a jak se měnilo fungování, vztahy a sebepojetí, a pomáhá odlišit
-   změny vázané na expozici od dlouhodobých rysů a od jiných příčin.
-2. **Terapeutickému** – obnovuje kontinuitu příběhu, která bývá po [narativním traumatu](@/kompendium/05-ultramari-techniky/narrativni-trauma.md)
-   rozpadlá, a vrací klientovi přístup k minulosti před expozicí.
-3. **Dokumentačnímu** – poskytuje přehled, o který se může opřít další péče, a v odůvodněných
-   případech i forenzní posouzení.
-
-Postup navazuje na [Semi-strukturovaný klinický rozhovor](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
+Rekonstrukce biografické časové osy je strukturovaný postup, jímž klient s klinikem sestaví chronologii
+svého života: místa, vztahy, události, rozhodnutí a období expozice manipulativnímu prostředí. Slouží
+třem účelům, které se vzájemně doplňují. Diagnosticky ukazuje, kdy a jak se měnilo fungování, vztahy a
+sebepojetí, a pomáhá odlišit změny vázané na expozici od dlouhodobých rysů a od jiných příčin.
+Terapeuticky obnovuje kontinuitu příběhu, která bývá po
+[narativním traumatu](@/kompendium/05-ultramari-techniky/narrativni-trauma.md) rozpadlá; McAdams (1993)
+ukázal, že souvislý životní příběh je nosnou strukturou identity, a jeho obnova proto vrací klientovi
+přístup k minulosti před expozicí. Dokumentačně poskytuje přehled, o který se může opřít další péče a
+v odůvodněných případech i forenzní posouzení. Postup navazuje na
+[Semi-strukturovaný klinický rozhovor](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
 a doplňuje se [Kolaterálním rozhovorem](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md).
 
 ## Podmínky a příprava
 
-- **Stabilizace**: klient není v akutní krizi, má bezpečné bydlení a základní denní rytmus. Jinak
-  má přednost [akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md).
-- **Informovaný souhlas**: klient ví, k čemu osa slouží, kdo ji uvidí a že může kdykoli přestat;
-  viz [Informed consent](@/glossary/informed-consent.md).
-- **Forenzní kontext**: pokud běží nebo hrozí soudní řízení, je třeba předem zvážit, zda a jak bude
-  osa použita, a koordinovat postup s právním zástupcem, aby terapeutická práce neovlivnila výpověď.
-- **Materiály**: klient může přinést fotografie, dopisy, deníky, zprávy, dokumenty ze školy a
-  zaměstnání. Nic z toho není podmínkou.
+Postup předpokládá stabilizaci: klient není v akutní krizi, má bezpečné bydlení a základní denní rytmus,
+jinak má přednost [akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md),
+neboť Herman (1992) klade bezpečí před každou práci se vzpomínkami. Nezbytný je informovaný souhlas, v němž
+klient ví, k čemu osa slouží, kdo ji uvidí a že může kdykoli přestat (viz
+[Informed consent](@/glossary/informed-consent.md)). V forenzním kontextu, běží-li nebo hrozí-li soudní
+řízení, je třeba předem zvážit, zda a jak bude osa použita, a koordinovat postup s právním zástupcem, aby
+terapeutická práce neovlivnila výpověď; Loftus (1993) upozornila, že nevhodně vedená vzpomínková práce může
+výpověď znehodnotit. Klient může přinést fotografie, dopisy, deníky, zprávy a dokumenty ze školy a
+zaměstnání, žádný z těchto materiálů však není podmínkou.
 
 ## Postup
 
-### Modul 1 – kostra
+Práce probíhá v několika modulech. V prvním se sestavuje kostra z velkých orientačních bodů — bydliště,
+škola, zaměstnání, vztahy, narození dětí, úmrtí, stěhování — s cílem získat hrubou chronologii, ne
+podrobnosti; klinik se ptá otevřeně („co se dělo potom?“), nikoli návodně, protože podle Loftus (1993)
+sugestivní otázky utvářejí obsah vzpomínky. Ve druhém modulu se mapuje období expozice: kdy a jak začal
+kontakt se skupinou, partnerem nebo prostředím, jak se měnil denní program, vztahy, slovník, zdraví a
+finance a kdy a jak kontakt skončil. Klinik přitom sleduje změny v přístupu k informacím, ve vztazích mimo
+prostředí a v sebepopisu, což odpovídá modulům semi-strukturovaného rozhovoru.
 
-Velké orientační body: bydliště, škola, zaměstnání, vztahy, narození dětí, úmrtí, stěhování. Cílem
-je hrubá chronologie, ne podrobnosti. Klinik se ptá otevřeně („co se dělo potom?“), ne návodně.
-
-### Modul 2 – období expozice
-
-Kdy a jak začal kontakt se skupinou, partnerem nebo prostředím; jak se měnil denní program, vztahy,
-slovník, zdraví a finance; kdy a jak kontakt skončil. Klinik sleduje změny v **přístupu
-k informacím**, ve **vztazích mimo prostředí** a v **sebepopisu**. Tyto oblasti odpovídají modulům
-semi-strukturovaného rozhovoru.
-
-### Modul 3 – minulost před expozicí
-
-Klient se vrací k dovednostem, zájmům, vztahům a hodnotám, které měl dřív. Tento modul má
-terapeutickou hodnotu sám o sobě: často odhalí zdroje, na něž klient zapomněl.
-
-### Modul 4 – opora v dokladech
-
-Ke klíčovým bodům se přiřazují doklady (fotografie, zprávy, výpovědi blízkých). Mezery se
-**označují jako mezery** a nevyplňují se domněnkami. Rozpory mezi vzpomínkou a dokladem se
-zapisují bez hodnocení.
-
-### Modul 5 – dvě vrstvy
-
-U zásadních událostí se zapisuje zvlášť, **co se stalo**, a **jak to bylo vykládáno** (klientem
-tehdy, prostředím, klientem dnes). Rozlišení vrstev je základem externalizace cizího výkladu; viz
-protokol [Narativ](@/kompendium/recovery-protocols/narativ.md).
+Třetí modul se vrací k minulosti před expozicí, k dovednostem, zájmům, vztahům a hodnotám, které klient
+měl dřív; tento modul má terapeutickou hodnotu sám o sobě, protože podle McAdamse (1993) obnovuje spojení
+s dřívější identitou a často odhalí zdroje, na něž klient zapomněl. Čtvrtý modul přiřazuje ke klíčovým bodům
+doklady — fotografie, zprávy, výpovědi blízkých — přičemž mezery se označují jako mezery a nevyplňují se
+domněnkami a rozpory mezi vzpomínkou a dokladem se zapisují bez hodnocení; Loftus (1993) právě toto
+pravidlo pokládá za hlavní ochranu proti vytváření falešných vzpomínek. Pátý modul zapisuje u zásadních
+událostí zvlášť, co se stalo, a jak to bylo vykládáno — klientem tehdy, prostředím a klientem dnes —
+protože rozlišení těchto vrstev je základem externalizace cizího výkladu (viz protokol
+[Narativ](@/kompendium/recovery-protocols/narativ.md)).
 
 ## Co sledovat
 
-- Náhlé zlomy ve fungování, vztazích a sebepojetí a jejich souvislost s expozicí.
-- Postupné vymizení kontaktů a činností mimo prostředí.
-- Změny slovníku v sebepopisu.
-- Úseky, o nichž klient nedokáže mluvit, nebo které popisuje jen slovy autority.
-- Fragmentaci a časovou dezorientaci; viz [Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md).
+Klinik sleduje náhlé zlomy ve fungování, vztazích a sebepojetí a jejich souvislost s expozicí, protože
+podle McAdamse (1993) jsou právě diskontinuity v příběhu významným ukazatelem. Všímá si postupného
+vymizení kontaktů a činností mimo prostředí, změn slovníku v sebepopisu a úseků, o nichž klient nedokáže
+mluvit nebo které popisuje jen slovy autority. Pozornost věnuje fragmentaci a časové dezorientaci (viz
+[Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)), které
+Herman (1992) řadí mezi typické důsledky chronického traumatu.
+
+Zvláštní pozornost patří tempu: osa se sestavuje po krocích, přes několik sezení, a nikdy se nevynucuje
+úplnost. Herman (1992) varuje, že snaha o rychlé „zacelení“ chronologie bývá sama retraumatizující, protože
+tlačí klienta do vzpomínek dřív, než má dost bezpečí. Klinik proto pracuje s tím, co klient sám přináší,
+a prázdná místa nechává prázdná; teprve opakovaným návratem k ose se mezery někdy spontánně zaplní doklady
+nebo svědectvím třetích osob, aniž by je kdokoli dosazoval zpaměti (Loftus, 1993).
 
 ## Interpretace a odlišení
 
-Časová osa nedokazuje manipulaci; ukazuje **průběh**. Je nutné odlišit:
-
-- změny vázané na jiné životní okolnosti (nemoc, ztráta, migrace, ekonomická krize);
-- dlouhodobé rysy a poruchy, které předcházely expozici;
-- disociativní mezery, které vyžadují samostatné vyšetření (viz [Disociativní amnézie](@/glossary/dissociativni-amnezie.md));
-- organické příčiny výpadků paměti.
-
-Podrobný rámec odlišení podává [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+Časová osa nedokazuje manipulaci, nýbrž ukazuje průběh, a je nutné odlišit změny vázané na jiné životní
+okolnosti, jako je nemoc, ztráta, migrace nebo ekonomická krize, od změn vázaných na expozici. Je rovněž
+třeba odlišit dlouhodobé rysy a poruchy, které expozici předcházely, disociativní mezery vyžadující
+samostatné vyšetření (viz [Disociativní amnézie](@/glossary/dissociativni-amnezie.md)) a organické příčiny
+výpadků paměti; Loftus (1993) připomíná, že mezera v paměti sama o sobě nic nedokládá a nelze ji vykládat
+jako „potlačenou“ událost. Podrobný rámec odlišení podává
+[Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
 ## Dokumentace
 
-Osa se vede jako pracovní dokument v klinické dokumentaci. Zapisují se zdroje každého údaje
-(klient, doklad, třetí osoba), mezery a rozpory. Pro forenzní využití platí přísnější pravidla –
-viz [Klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md) a
-[Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md).
+Osa se vede jako pracovní dokument v klinické dokumentaci, v němž se zapisují zdroje každého údaje (klient,
+doklad, třetí osoba), mezery a rozpory; Herman (1992) pokládá datovaný záznam za nástroj, který vrací oběti
+kontrolu nad vlastním příběhem. Pro forenzní využití platí přísnější pravidla (viz
+[Klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md) a
+[Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)).
 
 ## Etické limity a rizika
 
-- **Sugesce**: klinik nesmí navrhovat obsahy, které klient nepopsal, ani interpretovat mezery jako
-  „potlačené“ události. Historie [hnutí znovuobjevených vzpomínek](@/kompendium/historical-cases/37-recovered-memory.md)
-  ukazuje, jak sugestivní postupy vytvářejí falešné vzpomínky.
-- **[Retraumatizace](@/glossary/retraumatizace.md)**: nejtěžší události se neprobírají podrobně v rámci osy; zpracovávají se
-  zvlášť, ověřenými metodami a v tempu klienta.
-- **Nová autorita**: klinik nevynáší verdikty o tom, „jak to bylo“; osa patří klientovi.
+Hlavním rizikem je sugesce: klinik nesmí navrhovat obsahy, které klient nepopsal, ani interpretovat mezery
+jako „potlačené“ události. Loftus (1993) na dějinách
+[hnutí znovuobjevených vzpomínek](@/kompendium/historical-cases/37-recovered-memory.md) doložila, jak
+sugestivní postupy vytvářejí falešné, ale subjektivně přesvědčivé vzpomínky. Druhým rizikem je
+[retraumatizace](@/glossary/retraumatizace.md): nejtěžší události se v rámci osy neprobírají podrobně, nýbrž
+zpracovávají zvlášť, ověřenými metodami a v tempu klienta, jak vyžaduje fázový model Herman (1992). Třetím
+rizikem je vznik nové autority — klinik nevynáší verdikty o tom, „jak to bylo“, protože osa patří klientovi.
 
 ## Kontraindikace
 
-Akutní suicidalita, psychotická dekompenzace, aktivní kontakt s pachatelem bez bezpečnostního
-plánu, těžká disociativní symptomatika bez stabilizace.
+Postup se nepoužívá u akutní suicidality, psychotické dekompenzace, aktivního kontaktu s pachatelem bez
+bezpečnostního plánu a u těžké disociativní symptomatiky bez stabilizace; ve všech těchto případech má
+podle Herman (1992) přednost zajištění bezpečí.
 
 ## Příklad (anonymizovaný kompozit)
 
-Klientka po deseti letech v podnikatelské „rodině“ prodejní sítě si nedokáže vybavit, kdy přerušila
-kontakt se sestrou a proč. Kostra osy ukáže, že k přerušení došlo půl roku po vstupu, v době, kdy
-skupina zavedla „uzavřená setkání“. Doklady (zprávy sestře, fotografie) potvrdí, že vztah byl do té
-doby blízký. Ve vrstvě výkladu klientka zjistí, že důvod přerušení („sestra mi nepřeje úspěch“)
-převzala od vedoucí skupiny. Osa jí umožní kontakt se sestrou obnovit s vlastním vysvětlením.
+Klientka po letech v podnikatelské „rodině“ prodejní sítě si nedokáže vybavit, kdy přerušila kontakt se
+sestrou a proč. Kostra osy ukáže, že k přerušení došlo půl roku po vstupu, v době, kdy skupina zavedla
+„uzavřená setkání“, a doklady (zprávy sestře, fotografie) potvrdí, že vztah byl do té doby blízký. Ve
+vrstvě výkladu klientka zjistí, že důvod přerušení („sestra mi nepřeje úspěch“) převzala od vedoucí skupiny;
+v řeči McAdamse (1993) jde o cizí narativní prvek vložený do jejího příběhu. Osa jí umožní kontakt se
+sestrou obnovit s vlastním vysvětlením.
 
 ## Meze a otevřené otázky
 
-Postup je klinicky odůvodněný, ale jako specifická metoda nebyl validován ve studiích; opírá se o
-obecné principy narativní práce a forenzního rozhovoru. Otevřené zůstává, jak pracovat s klienty,
-kteří v uzavřeném prostředí vyrostli a nemají „minulost před expozicí“.
+Postup je klinicky odůvodněný, ale jako specifická metoda nebyl validován ve studiích; opírá se o obecné
+principy narativní práce (McAdams, 1993) a o zásady bezsugestivního rozhovoru (Loftus, 1993). Otevřené
+zůstává, jak pracovat s klienty, kteří v uzavřeném prostředí vyrostli a nemají „minulost před expozicí“,
+k níž by se osa mohla vracet.
+
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery.* New York: Basic Books.
+- Loftus, E. F. (1993). The reality of repressed memories. *American Psychologist*, 48(5), 518–537.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self.* New York: Guilford Press.
 
 ## Související
 

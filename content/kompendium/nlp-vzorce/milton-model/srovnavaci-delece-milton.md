@@ -110,8 +110,7 @@ referenční bod na posluchači, a kdo ho zároveň naznačí, posluchače k ně
 
 Vzorec má čtyři prvky. Prvním je srovnávací nebo stupňovací tvar: víc, méně, lépe, hlouběji,
 snáz, nejvíc. Druhým je chybějící druhý člen srovnání: není řečeno, než co nebo než kdo.
-Třetím je chybějící kritérium: není řečeno, v čem se srovnává. Čtvrtým je naznačený směr,
-který srovnání dává pohyb nahoru nebo dolů. Posluchač vypuštěné prvky doplní z toho, co je
+Třetím je chybějící kritérium: není řečeno, v čem se srovnává. Čtvrtým je naznačený směr, který srovnání dává pohyb nahoru nebo dolů (Bandler a Grinder 1975). Posluchač vypuštěné prvky doplní z toho, co je
 v jeho mysli nejdostupnější: z vlastní minulosti, z ideálu, který o sobě má, nebo z obrazu
 druhých lidí, který mu předložilo okolí.
 
@@ -121,7 +120,7 @@ s výsledkem, a posluchač proto nemůže zjistit, zda byl splněn. Znehodnocuj�
 sestup: posluchač je pozadu, zvládá méně, spokojuje se s málem. Protože chybí srovnávaná osoba
 i měřítko, posluchač si dosadí tu nejúspěšnější osobu, kterou zná, nebo ideál, kterého nikdo
 nedosáhne. Obě podoby se často střídají a vytvářejí dynamiku, v níž je posluchač stále
-nedostatečný a stále na cestě k lepšímu, o kterém rozhoduje mluvčí.
+nedostatečný a stále na cestě k lepšímu, o kterém rozhoduje mluvčí. Zda člověk výsledek prožívá jako zisk, nebo ztrátu, závisí na referenčním bodu, a ten lze formulací posunout (Tversky a Kahneman 1981).
 
 Proč posluchač dosazuje právě bolestné srovnání, vysvětluje princip kontrastu. Tatáž
 vlastnost nebo výkon působí slabší, když je člověk posuzuje bezprostředně po vzoru, který je
@@ -165,8 +164,7 @@ mohl vnímat jako úspěch (Bandler a Grinder 1975b).
 Manipulativní užití se rozpoznává podle toho, kdo určuje měřítko a k čemu srovnání slouží.
 Rozhodující otázky jsou tři. Je druhý člen srovnání a kritérium posluchači k dispozici, nebo
 je musí hádat? Slouží srovnání k informaci, nebo k vyvolání pocitu nedostatečnosti či
-nenaplněné touhy? A má mluvčí zájem na tom, aby se posluchač cítil pozadu, protože mu pak může
-nabídnout cestu vpřed?
+nenaplněné touhy? A má mluvčí zájem na tom, aby se posluchač cítil pozadu, protože mu pak může nabídnout cestu vpřed? První otázka odpovídá otázce meta-modelu „ve srovnání s čím?“, kterou se vypuštěný člen srovnání vrací do řeči (Bandler a Grinder 1975).
 
 ## Stav důkazů
 

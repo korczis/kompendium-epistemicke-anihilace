@@ -124,14 +124,16 @@ na opaku. Konečně se ze zrušitelného závěru stává konečný: místo „j
 přijmout“ zazní „je to dokázané a nelze o tom diskutovat“.
 
 V klamavé podobě bývá autorita doplněna symboly, které ji zesilují, aniž by k ní cokoli
-přidaly: tituly, uniformy, instituce v pozadí, odborná slova. Zesilující symboly působí
+přidaly: tituly, uniformy, instituce v pozadí, odborná slova. Výzkum sociálního vlivu
+popisuje tituly a oblečení jako vnější znaky autority, které vyvolávají poslušnost i bez
+vztahu k odbornosti (Cialdini 2009). Zesilující symboly působí
 tím silněji, čím méně má posluchač možnost obsah ověřit. Z formálního hlediska ale zůstává
 argument stejně slabý jako jeho nejslabší premisa.
 
 ## Varianty
 
 Odvolání na celebritu přenáší popularitu známé osobnosti na tvrzení, ke kterému nemá žádnou
-odbornou kvalifikaci, a je běžné v reklamě i v kampaních. Odvolání na titul využívá
+odbornou kvalifikaci, a je běžné v reklamě i v kampaních (Copi, Cohen a McMahon 2014). Odvolání na titul využívá
 akademický nebo profesní titul mimo obor, ve kterém byl získán. Odvolání na úřad nebo
 instituci považuje rozhodnutí za správné proto, že ho vydal nadřízený, úřad nebo vedení, a
 ne proto, že bylo zdůvodněno. Odvolání na zakladatele, typické pro uzavřené skupiny a
@@ -172,6 +174,9 @@ Odlišit je třeba i odmítnutí autority, které je samo klamem. Kdo odmítá o
 jen proto, že jde o konsenzus, nebo kdo se dovolává osamělých vědců pronásledovaných v
 minulosti, aby podpořil vlastní okrajový názor, dopouští se zrcadlového omylu, který katalog
 popisuje jako [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md).
+Shoda s ostatními odborníky je přitom jednou z kritických otázek samotného schématu
+argumentu odborností (Walton, Reed a Macagno 2008), a kdo ji obrací v námitku, mění
+podmínku spolehlivosti v důvod nedůvěry.
 
 ## Stav poznání
 

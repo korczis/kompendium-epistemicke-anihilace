@@ -85,7 +85,7 @@ zobecnění, vedle dostatečné velikosti vzorku (Govier 2010). Porušení prvn�
 zkresleným výběrem, porušení druhého souvisí s [vírou v zákon malých čísel](@/kompendium/argumentacni-fauly/statisticke/zakon-malych-cisel.md).
 
 Klam se objevuje jako chyba tam, kde je reprezentativní vzorek obtížné získat, a jako
-taktika tam, kde mluvčí vědomě vybírá vzorek, který mu dá žádaný výsledek. Ankety mezi
+taktika tam, kde mluvčí vědomě vybírá vzorek, který mu dá žádaný výsledek (Huff 1954). Ankety mezi
 příznivci, průzkumy na vlastním webu nebo svědectví vybraných klientů jsou běžnými
 podobami taktického užití.
 
@@ -97,7 +97,7 @@ historickým příkladem je předvolební anketa amerického časopisu Literary 
 prezidentských voleb. Vzorek byl sestaven ze seznamů, které zvýhodňovaly zámožnější
 voliče, a odpovídal na něj jen ten, kdo chtěl. Menší, ale lépe sestavené průzkumy tehdy
 výsledek odhadly správně. Případ se stal učebnicovým dokladem toho, že velikost vzorku
-nenahradí jeho reprezentativnost.
+nenahradí jeho reprezentativnost (Huff 1954).
 
 Huff ve své knize o zavádějící statistice věnoval vzorku se zabudovaným zkreslením úvodní
 kapitolu a ukázal, jak běžně se v novinách a reklamě objevují údaje, za nimiž stojí
@@ -111,15 +111,14 @@ které spolu v populaci nesouvisejí.
 
 ## Struktura argumentu
 
-Argument má tuto stavbu. První premisa uvádí, že ve vzorku S má podíl p případů vlastnost
-V. Závěr tvrdí, že přibližně podíl p případů v populaci P má vlastnost V. Úsudek je
-oprávněný jen tehdy, když S zastupuje P, tedy když se každý člen P mohl do S dostat
-způsobem, který nesouvisí s V. Zkreslení vzniká několika mechanismy. Při samovýběru se do
-vzorku dostávají ti, kdo chtějí odpovědět, a jejich ochota souvisí s jejich názorem. Při
-výběru podle dostupnosti se zkoumají ti, kdo jsou po ruce: studenti, uživatelé jedné
-služby, čtenáři jednoho média. Při výběru podle sítka se zkoumají ti, kdo prošli určitou
-institucí, a jejich složení určila tato instituce. Při ztrátě v průběhu se vzorek zmenšuje
-nenáhodně, protože odcházejí právě ti, jejichž výsledek je jiný.
+Argument má tuto stavbu. První premisa uvádí, že ve vzorku S má podíl p případů vlastnost V. Závěr
+tvrdí, že přibližně podíl p případů v populaci P má vlastnost V. Úsudek je oprávněný jen tehdy, když
+S zastupuje P, tedy když se každý člen P mohl do S dostat způsobem, který nesouvisí s V (Govier
+2010). Zkreslení vzniká několika mechanismy. Při samovýběru se do vzorku dostávají ti, kdo chtějí
+odpovědět, a jejich ochota souvisí s jejich názorem. Při výběru podle dostupnosti se zkoumají ti,
+kdo jsou po ruce: studenti, uživatelé jedné služby, čtenáři jednoho média. Při výběru podle sítka se
+zkoumají ti, kdo prošli určitou institucí, a jejich složení určila tato instituce. Při ztrátě v
+průběhu se vzorek zmenšuje nenáhodně, protože odcházejí právě ti, jejichž výsledek je jiný.
 
 Zvláštní podobou je [zkreslení přežitím](@/kompendium/argumentacni-fauly/statisticke/zkresleni-preziti.md),
 kde sítem je samotný výsledek, o jehož příčinách se usuzuje. Jinou příbuznou chybou je
@@ -135,7 +134,7 @@ hlasování, dobrovolné svědectví. Třetím znakem je populace, která se li�
 mluví: průzkum mezi členy sdružení se vydává za názor veřejnosti, zkušenost pacientů jedné
 kliniky za obraz nemoci, data uživatelů jedné aplikace za chování všech. Čtvrtým znakem je
 důraz na velikost vzorku jako náhradu reprezentativnosti: „odpovědělo nám přes deset tisíc
-lidí“. Pátým znakem je, že výsledek přesně odpovídá zájmu toho, kdo vzorek sestavil.
+lidí“ (Huff 1954). Pátým znakem je, že výsledek přesně odpovídá zájmu toho, kdo vzorek sestavil.
 
 Ve vlivových operacích je zkreslený výběr nástrojem vytváření zdání většiny. Organizované
 hlasování v online anketách, citování jen souhlasných ohlasů nebo prezentace vybraných
@@ -190,10 +189,11 @@ výsledek zkresleného vzorku používá jako doklad vůle většiny, je možné
 vzorek vznikl, a tím přenést debatu od čísla k otázce, co číslo vůbec měří. Taková odpověď
 nevyžaduje vlastní data; stačí ukázat, že předložená data na položenou otázku neodpovídají.
 
-Pro odborníky, kteří sami data sbírají, platí tatáž obrana obráceně. Kdo předem popíše, jak
-bude vzorek získán, kdo do něj nemohl vstoupit a jaké zkreslení z toho může plynout, chrání
-čtenáře i sebe před tím, aby se dílčí výsledek později vydával za obraz celku. Takový popis
-omezení není slabinou studie, ale podmínkou toho, aby se její závěry daly správně použít.
+Pro odborníky, kteří sami data sbírají, platí tatáž obrana obráceně. Kdo předem popíše, jak bude
+vzorek získán, kdo do něj nemohl vstoupit a jaké zkreslení z toho může plynout, chrání čtenáře i
+sebe před tím, aby se dílčí výsledek později vydával za obraz celku. Takový popis omezení není
+slabinou studie, ale podmínkou toho, aby se její závěry daly správně použít: jen z něj může čtenář
+posoudit, zda vzorek zastupuje populaci v rysech, které by mohly výsledek ovlivnit (Govier 2010).
 
 ## Literatura
 

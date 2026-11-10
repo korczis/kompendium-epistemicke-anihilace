@@ -44,10 +44,10 @@ catalog_prev = "hodnoty-pri-koupi"
 catalog_next = "duvera"
 catalog_position = 18
 catalog_family_size = 23
-catalog_sources = ["beck-1976", "charvet-1997", "freedman-fraser-1966", "hall-bodenhamer-1997", "herman-1992", "lifton-1961", "passmore-rowson-2019", "satir-1972", "stark-2007", "witkowski-2010"]
+catalog_sources = ["beck-1976", "charvet-1997", "cialdini-2009", "freedman-fraser-1966", "hall-bodenhamer-1997", "herman-1992", "lifton-1961", "passmore-rowson-2019", "satir-1972", "stark-2007", "witkowski-2010"]
 catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
 catalog_sources_roots = ["satir-1972"]
-catalog_sources_critical = ["beck-1976", "freedman-fraser-1966", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "freedman-fraser-1966", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -121,7 +121,7 @@ o druhých a o smůle. NLP pak z rozpoznaného pólu vyvozuje, jak s člověkem 
 (Hall a Bodenhamer 1997).
 
 Pro analýzu vlivu je klíčová struktura, v níž se sklon k přílišné odpovědnosti využívá. Má
-obvykle tři prvky. Za prvé se vlastnost pojmenuje a ocení: „ty jsi ten zodpovědný“. Za druhé se
+obvykle tři prvky. Za prvé se vlastnost pojmenuje a ocení: „ty jsi ten zodpovědný“. Výzkum vlivu ukazuje, že nálepka, která člověku přisuzuje určitou vlastnost, zvyšuje jeho ochotu jednat v souladu s ní (Cialdini 2009). Za druhé se
 k ní připojí odpovědnost, která člověku nepatří, například za chod celého týmu, za city
 partnera nebo za pověst skupiny. Za třetí se jakékoli jednání, které by tuto připsanou
 odpovědnost odmítlo, líčí jako zrada vlastní povahy. Sklon člověka se tak obrací proti němu:
@@ -181,7 +181,7 @@ odpovědnosti je třeba posuzovat v kontextu prostředí, ne jako vlastnost pova
 
 Základní obranou je rozlišit, co člověk skutečně ovlivňuje. Užitečné je u každé připsané
 odpovědnosti položit si otázku, kdo o věci rozhoduje, kdo má prostředky ji změnit a kdo z ní
-má prospěch; odpovědnost bez rozhodovací pravomoci je obvykle znakem přesunu, ne povinnosti.
+má prospěch; odpovědnost bez rozhodovací pravomoci je obvykle znakem přesunu, ne povinnosti. Kognitivní terapie popisuje sklon vztahovat na sebe odpovědnost za události, které člověk neovlivňuje, jako personalizaci (Beck 1976).
 Pochvala za spolehlivost, za kterou bezprostředně následuje nový závazek, je signálem k
 odstupu. Je legitimní odmítnout odpovědnost za city druhého, i když jsou skutečné: druhý za ně
 odpovídá sám, stejně jako za své jednání. Rozhodnutí odejít ze vztahu nebo z práce nezakládá
@@ -199,6 +199,7 @@ kontroly](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md).
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt.
+- Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The foot-in-the-door technique. *Journal of Personality and Social Psychology*, 4(2), 195–202.
 - Hall, L. M., & Bodenhamer, B. G. (1997). *Figuring Out People: Design Engineering with Meta-Programs*. Carmarthen: Crown House Publishing.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

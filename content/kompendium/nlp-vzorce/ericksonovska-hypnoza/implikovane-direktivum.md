@@ -107,7 +107,8 @@ protože ohlášeným signálem bývá často drobný mimovolní pohyb.
 
 ## Struktura vzorce
 
-Strukturálně má implikované direktivum tři prvky. První prvek je vazba na čas nebo podmínku,
+Strukturálně má implikované direktivum tři prvky, které odpovídají popisu Ericksona a Rossiho
+(Erickson, Rossi a Rossi 1976). První prvek je vazba na čas nebo podmínku,
 vyjádřená spojkami jako „až“, „jakmile“, „když“ nebo „ve chvíli, kdy“. Druhý prvek je
 předpokládaný vnitřní proces: porozumění, rozhodnutí, nalezení odpovědi, uvolnění,
 zapomenutí. Tento proces se netvrdí, ale presuponuje; věta ho bere jako něco, co nastane, a

@@ -109,7 +109,8 @@ k takzvaným jádrovým stavům, jako je klid nebo pocit bytí (Andreas a Andrea
 Strukturálně jde o tři kroky interpretace, které se v rozhovoru často odehrají mlčky. Za prvé
 se chování odpojí od svého účinku na druhé a posuzuje se jen z perspektivy toho, kdo jedná. Za
 druhé se mu přisoudí účel, který je z této perspektivy hodnotný. Za třetí se hledá jiné
-chování, které by stejný účel naplnilo s menšími škodami. V terapii, kde klient sám zkoumá
+chování, které by stejný účel naplnilo s menšími škodami (Bandler a Grinder 1982). V terapii, kde
+klient sám zkoumá
 vlastní chování, má tento postup jasnou logiku: snižuje stud a dává klientovi důvod ke změně,
 aniž by se musel zříct potřeby, kterou chování plnilo. Úplně jinak působí, když se uplatní na
 chování jiné osoby, zejména osoby, která má nad mluvčím nebo nad posluchačem moc. Pak první
@@ -159,7 +160,7 @@ doklad o tom dobrém záměru, nebo je jen domyšlen, protože to předpoklad vy
 dobrý záměr přisuzuje bez dokladu a na úkor toho, kdo nese škody, princip slouží k
 [manipulativnímu přerámování v blízkých
 vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md), ne k
-terapii.
+terapii, protože zakrývá cílenost kontrolujícího chování (Stark 2007).
 
 ## Stav důkazů
 
@@ -183,7 +184,9 @@ ukončení není podmíněno pochopením. Druhou obranou je odmítnout jednostra
 hledat dobrý záměr ve vlastním chování je možné, ale nikdo nemá povinnost hledat ho v chování
 druhého, aby ho mohl dál snášet. Třetí obranou je vnější pohled. Lidé mimo vztah nebo skupinu,
 poradny pro oběti násilí a odborníci, kteří znají dynamiku kontroly, mohou pomoci popsat
-situaci bez omlouvacího výkladu; kompendium k tomu odkazuje na [protokol pro práci s obětmi
+situaci bez omlouvacího výkladu, a zotavení po zkušenosti s nadvládou se podle Herman
+neodehrává v izolaci, ale ve vztazích, které člověku vracejí oporu (Herman 1992); kompendium k tomu
+odkazuje na [protokol pro práci s obětmi
 domácího násilí](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md).
 
 V zotavení je důležité, aby člověk znovu získal právo na hněv a na pojmenování škody. Herman

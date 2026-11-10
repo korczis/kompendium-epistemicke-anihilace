@@ -44,10 +44,10 @@ catalog_prev = "nominalizace-milton"
 catalog_next = "nespecifikovany-index-milton"
 catalog_position = 23
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "kirsch-lynn-1995", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "popper-1959", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
-catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975"]
-catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "kirsch-lynn-1995", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "popper-1959"]
+catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -120,8 +120,7 @@ V manipulativním rámci se vzorec obvykle spojuje s dalšími prvky. Nespecifik
 otevře prostor, posluchač ho naplní vlastním prožitkem a mluvčí mu poté vyloží, co ten
 prožitek „znamená“. Výklad už specifický je: smutek znamená, že se uvolňují staré zábrany,
 neklid znamená, že ego se brání. Tím se pořadí obrací. Neurčité je jen to, co by šlo ověřit,
-totiž ohlášený děj, kdežto výklad, který posluchače zavazuje, je určitý a pochází od
-autority. Kompendium popisuje nevyvratitelné rámce tohoto typu u
+totiž ohlášený děj, kdežto výklad, který posluchače zavazuje, je určitý a pochází od autority. Lifton popsal obdobné podřízení vlastního prožitku výkladu doktríny jako nadřazenost doktríny nad člověkem (Lifton 1961). Kompendium popisuje nevyvratitelné rámce tohoto typu u
 [pasti epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md)
 a u [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 
@@ -130,8 +129,7 @@ a u [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-pro
 Pozorovatel si všímá sloves vnitřní změny, která nemají uvedený způsob ani kritérium, a
 zejména toho, co následuje po nich. Varovným znakem je, když se po neurčitém ohlášení
 každá reakce posluchače vykládá jako jeho naplnění, včetně reakcí opačných. Dalším znakem je,
-že mluvčí na otázku „jak se pozná, že se to nestalo“ nedokáže nebo nechce odpovědět, nebo
-odpoví, že i nepřítomnost změny je druh změny. Třetím znakem je dodatečný výklad tělesných a
+že mluvčí na otázku „jak se pozná, že se to nestalo“ nedokáže nebo nechce odpovědět, nebo odpoví, že i nepřítomnost změny je druh změny; tvrzení, které připouští každé možné pozorování, nelze vyvrátit (Popper 1959). Třetím znakem je dodatečný výklad tělesných a
 emočních vjemů, který posluchači nesdělí nic nového o vjemech samých, ale přisoudí jim smysl
 v rámci mluvčího. Člověk, který je takovému jazyku vystaven dlouhodobě, přestává důvěřovat
 vlastnímu výkladu svých pocitů a čeká, až mu je vyloží někdo jiný. To je posun, který
@@ -199,7 +197,9 @@ na klientovi, i když by mu jeho vlastní připadal přesnější (Rogers 1951).
 - Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Kirsch, I., & Lynn, S. J. (1995). The altered state of hypnosis: Changes in the theoretical landscape. *American Psychologist*, 50(10), 846–858.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.

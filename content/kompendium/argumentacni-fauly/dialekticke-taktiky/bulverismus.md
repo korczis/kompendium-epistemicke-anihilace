@@ -110,8 +110,10 @@ který přesouvá posuzování přesvědčení k otázce jeho původu.
 Rekonstruovaný argument má tři kroky. Mluvčí B zastává tvrzení T. B má vlastnost nebo zájem
 M, který by ho k zastávání T mohl vést. Tedy T je nepravdivé, nebo se jím není třeba zabývat.
 Druhý krok může být pravdivý a často je; problém je v přechodu ke třetímu. I kdyby B zastával
-T z motivu M, nic to neříká o tom, zda je T pravdivé, protože pravdivá tvrzení lze zastávat i
-ze zištných nebo osobních důvodů. Navíc vysvětlení motivem je k dispozici vždy: každý má
+T z motivu M, nic to neříká o tom, zda je T pravdivé, protože pravdivá tvrzení lze zastávat i ze
+zištných nebo osobních důvodů. Logické učebnice popisují obecnější vzorec, okolnostní útok na osobu,
+který místo tvrzení posuzuje okolnosti jeho zastánce (Copi, Cohen a McMahon 2014). Navíc vysvětlení
+motivem je k dispozici vždy: každý má
 nějakou příslušnost, nějaký zájem a nějakou historii. Proto se bulverismus dá namířit proti
 jakémukoli názoru, a právě tato univerzálnost ukazuje, že nic nedokazuje.
 

@@ -44,10 +44,10 @@ catalog_prev = "mapa-neni-uzemi"
 catalog_next = "neni-selhani-jen-zpetna-vazba"
 catalog_position = 2
 catalog_family_size = 21
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "bateson-1972", "cialdini-2009", "druckman-swets-1988", "grice-1975", "levinson-1983", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1967", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "bateson-1972", "cialdini-2009", "druckman-swets-1988", "grice-1975", "herman-1992", "levinson-1983", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1967", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "grice-1975", "levinson-1983", "watzlawick-1967"]
-catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -150,7 +150,8 @@ druhých, odmítá posuzovat vlastní ublížení podle reakce zraněného: v tu
 pro [strategickou
 reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md). U člověka, na
 kterého je takto působeno dlouhodobě, se může objevit nejistota, zda vlastní reakce vůbec má
-platnost, a sklon připisovat vinu za každé nedorozumění sobě.
+platnost, a sklon připisovat vinu za každé nedorozumění sobě, což odpovídá sebeobviňování,
+které Herman popisuje u lidí pod dlouhodobou kontrolou (Herman 1992).
 
 ## Legitimní a manipulativní užití
 
@@ -201,7 +202,9 @@ to, co druhým způsobil.
 
 Pro člověka, který delší dobu žil ve vztahu, kde se jeho reakce brala jen jako surovina pro
 působení, je součástí zotavení obnova přesvědčení, že vlastní reakce je platná informace a že
-nesouhlas není chyba, kterou je třeba vysvětlovat. Odborník, který s principem pracuje, by ho
+nesouhlas není chyba, kterou je třeba vysvětlovat; Herman řadí obnovu důvěry ve vlastní
+vnímání a úsudek k jádru zotavení po zkušenosti s nadvládou (Herman 1992). Odborník, který s
+principem pracuje, by ho
 měl držet v jeho užší a obhajitelné podobě: jako odpovědnost za to, aby mu druhý rozuměl, ne
 jako oprávnění dosáhnout u druhého čehokoli, co „funguje“.
 
@@ -213,6 +216,7 @@ jako oprávnění dosáhnout u druhého čehokoli, co „funguje“.
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Druckman, D., & Swets, J. A. (Eds.) (1988). *Enhancing Human Performance: Issues, Theories, and Techniques*. Washington, DC: National Academy Press.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.

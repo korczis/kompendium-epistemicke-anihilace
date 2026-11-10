@@ -44,10 +44,10 @@ catalog_prev = "otevreny-ramec"
 catalog_next = "predramcovani"
 catalog_position = 13
 catalog_family_size = 17
-catalog_sources = ["bandler-grinder-1975", "beck-1976", "gilovich-1991", "lilienfeld-2015", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "gilovich-1991", "herman-1992", "lilienfeld-2015", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "popper-1959", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-catalog_sources_roots = ["miller-galanter-pribram-1960"]
-catalog_sources_critical = ["beck-1976", "gilovich-1991", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "popper-1959"]
+catalog_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -115,7 +115,8 @@ které může zkontrolovat i někdo jiný, o vnitřní prožitek, který zná je
 autority, která „pozná“, že ke změně došlo. Druhá je volba času: zda je důkaz stanoven předem,
 nebo až po výsledku. Třetí je volba symetrie: zda může důkaz ukázat jak úspěch, tak neúspěch.
 Legitimní rámec důkazu volí vnější nebo alespoň popsatelné kritérium, stanoví ho předem a
-připouští oba výsledky. V takové podobě funguje jako ochrana proti tomu, aby si klient nebo
+připouští oba výsledky; požadavek, aby tvrzení mohli prověřit i jiní a aby ho některý možný
+výsledek mohl vyvrátit, formuloval Popper jako podmínku empirické vědy (Popper 1959). V takové podobě funguje jako ochrana proti tomu, aby si klient nebo
 praktik namluvili změnu, která nenastala.
 
 Manipulativní varianta mění alespoň jednu z voleb. Důkaz je čistě vnitřní a navíc takový, že
@@ -147,7 +148,9 @@ se posuzuje výkon nebo kvalita, se změní tak, aby určitý výsledek předem 
 mechanismus popisuje u
 [přepisu hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md).
 Ve vztazích s kontrolou se projevuje tak, že jeden z partnerů určuje, co se počítá jako důkaz
-lásky, věrnosti nebo změny chování, a měřítko se posouvá vždy, když je druhý splní. U člověka
+lásky, věrnosti nebo změny chování, a měřítko se posouvá vždy, když je druhý splní. Herman u
+dlouhodobé kontroly popisuje libovolné vymáhání drobných pravidel, které u oběti prohlubuje strach
+a bezmoc (Herman 1992). U člověka
 vystaveného takovému vzorci dlouhodobě se objevuje bezradnost, protože nemá jak poznat, zda
 požadavek splnil, a postupně přestává věřit vlastnímu posouzení výsledku.
 
@@ -185,7 +188,8 @@ hodnocení intervencí.
 ## Obrana a zotavení
 
 Nejúčinnější obranou je položit otázku, kterou by si rámec důkazu měl klást sám: jaký výsledek
-by ukázal, že to nefunguje? Kdo tuto otázku položí před začátkem kurzu, terapie nebo programu,
+by ukázal, že to nefunguje? Je to otázka po podmínkách vyvrácení, kterou Popper postavil do
+středu empirického ověřování (Popper 1959). Kdo tuto otázku položí před začátkem kurzu, terapie nebo programu,
 získá kritérium, podle kterého může později rozhodnout sám. Druhou obranou je zapisovat si
 výchozí stav a vývoj vlastními slovy a s daty, která nejsou závislá na výkladu toho, kdo
 intervenci nabízí. Třetí obranou je trvat na tom, aby důkaz mohl posoudit i někdo nezávislý,
@@ -206,9 +210,11 @@ důkaz může ukázat i neúspěch jeho vlastní metody.
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.

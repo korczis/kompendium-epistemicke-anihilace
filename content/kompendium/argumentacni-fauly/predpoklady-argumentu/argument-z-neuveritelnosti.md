@@ -109,7 +109,9 @@ vůbec neposuzují.
 
 Struktura má podobu: nedokážu si představit nebo pochopit, jak by P mohlo platit; tedy P
 neplatí. Mezi premisou a závěrem chybí most, který by ukázal, že mluvčího představivost je
-spolehlivým měřítkem možného. Premisa je výpovědí o mluvčím, závěr výpovědí o světě. Argument
+spolehlivým měřítkem možného. Premisa je výpovědí o mluvčím, závěr výpovědí o světě. Psychologie
+úsudku popisuje příbuzný sklon posuzovat pravděpodobnost události podle toho, jak snadno si lze
+představit případy nebo scénáře, které k ní vedou (Tversky a Kahneman 1974). Argument
 tak nepozorovaně mění předmět řeči: z psychologického faktu o tom, kdo mluví, vyvozuje
 fyzikální, biologický nebo historický fakt. Častá je i rozšířená podoba, v níž se z
 neuvěřitelnosti jednoho vysvětlení vyvozuje pravdivost alternativy: „nedovedu si představit,

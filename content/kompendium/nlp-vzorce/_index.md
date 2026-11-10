@@ -48,7 +48,9 @@ o nich říká výzkum, je méně zranitelný vůči vlivu i vůči falešným s
 ## Co katalog obsahuje
 
 Katalog má více než čtyři sta hesel ve dvaadvaceti rodinách. Hesla jsou tří druhů. Principy
-jsou výchozí předpoklady, se kterými NLP pracuje, například předpoklad, že [mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md),
+jsou výchozí předpoklady, se kterými NLP pracuje, například předpoklad, že
+[mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md), převzatý z obecné
+sémantiky (Korzybski 1933),
 nebo že [každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md). Pojmy jsou výkladové kategorie oboru, například
 [reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md), submodality, raport nebo metaprogramy. Vzorce jsou konkrétní
 jazykové a interakční struktury a postupy, od jednotlivých kategorií meta-modelu a
@@ -71,8 +73,10 @@ vymezuje heslo, Původ a souvislosti ukazuje, odkud pochází a s čím souvisí
 popisuje mechanismus tak, aby ho pozorovatel poznal, nikdy jako postup, který by šlo
 provést. Detekční znaky říkají, co je v rozhovoru vidět a slyšet. Oddíl Legitimní a
 manipulativní užití odlišuje použití, které rozšiřuje volbu a úsudek člověka, od použití,
-které je obchází. Stav důkazů shrnuje, co o tvrzeních oboru zjistil výzkum. Obrana a
-zotavení popisuje, jak se vzorci bránit a jak se zotavit z jeho dlouhodobého působení.
+které je obchází. Stav důkazů shrnuje, co o tvrzeních oboru zjistil výzkum. Obrana a zotavení
+popisuje, jak se vzorci bránit a jak se zotavit z jeho dlouhodobého působení. Jak s touto stavbou
+pracovat při čtení, vysvětluje stránka
+[jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 Tato stavba odpovídá obrannému rámci celé knihy. Mnohé vzorce NLP mají legitimní použití v
 terapii a komunikaci a mnohé jsou jen novým pojmenováním jevů, které popsala lingvistika,
@@ -134,12 +138,14 @@ průběžné integraci odmítne heslo bez stránky, stránku bez hesla, citaci d
 ověřené bibliografii, povinný oddíl bez citace, formulaci, která by se dala číst jako návod,
 i jakoukoli zastaralou odvozenou část. Vazby mezi hesly se zapisují jednou a skript je
 zrcadlí na obě strany. Díky tomu zůstává katalog provázaný se zbytkem knihy, s technikami,
-hesly glosáře, kapitolami a kazuistikami, i když se rozšiřuje.
+hesly glosáře, kapitolami a kazuistikami, i když se rozšiřuje. Zásady, na nichž taxonomie knihy
+stojí, popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 Texty hesel napsali agenti podle jednotného zadání a čekají na odbornou recenzi; stav
 recenze uvádí identifikační tabulka každé stránky. Kde si pisatel nebyl jistý, co přesně
-dílo tvrdí, formuloval výrok obecně, místo aby zdroj dotvářel, jak to vyžaduje pravidlo
-ověřitelných zdrojů celé knihy.
+dílo tvrdí, formuloval výrok obecně, místo aby zdroj dotvářel, jak to vyžaduje pravidlo ověřitelných
+zdrojů celé knihy. Závazky, které z toho pro práci se zdroji plynou, shrnuje
+[etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 

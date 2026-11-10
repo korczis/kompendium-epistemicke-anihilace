@@ -44,10 +44,10 @@ catalog_prev = "reprezentacni-systemy"
 catalog_next = "auditivni-system"
 catalog_position = 2
 catalog_family_size = 42
-catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988", "herman-1992", "lakoff-johnson-1980", "roderique-davies-2009", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
 catalog_sources_roots = []
-catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lakoff-johnson-1980", "roderique-davies-2009", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -132,7 +132,7 @@ vnitřními obrazy: se submodalitami, s představami budoucnosti, s přemístěn
 nebo s „filmovým“ odstupem od vzpomínky. Ve vlivovém prostředí se tytéž prostředky objevují v
 podobě, kterou kompendium popisuje u technik vytváření dojmu odbornosti a složitosti: výklad o
 tom, jak „vaše mysl ukládá obrazy“, zní vědecky, ale nelze ho ověřit a slouží k tomu, aby
-posluchač přijal autoritu mluvčího. Pro rozpoznání je užitečné sledovat, zda se mluvčí odvolává
+posluchač přijal autoritu mluvčího (Roderique-Davies 2009). Pro rozpoznání je užitečné sledovat, zda se mluvčí odvolává
 na doložený výzkum představivosti, nebo jen na vlastní systém pojmů, který si sám potvrzuje.
 
 ## Detekční znaky
@@ -209,6 +209,7 @@ a v [kritických perspektivách](@/kompendium/critical-perspectives/_index.md).
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press.
+- Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.

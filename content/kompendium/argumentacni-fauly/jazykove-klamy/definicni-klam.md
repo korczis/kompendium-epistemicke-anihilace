@@ -125,8 +125,10 @@ Pokud se definice mění podle toho, co je zrovna potřeba dokázat, přechází
 ## Varianty
 
 V etice a politice se definiční klam objevuje nejčastěji jako ztotožnění hodnoty s
-měřitelnou vlastností: spravedlnost s výsledkem hlasování, dobro s užitkem, svoboda s
-absencí zákonů. Ve zdravotnictví a v alternativní medicíně jako ztotožnění zdraví s
+měřitelnou vlastností: spravedlnost s výsledkem hlasování, dobro s užitkem, svoboda s absencí
+zákonů. Moore tento typ ztotožnění rozebral na pojmu dobra, které podle něj nelze definovat žádnou
+přirozenou vlastností (Moore 1903). Ve zdravotnictví a v alternativní medicíně jako ztotožnění
+zdraví s
 přirozeností nebo s nepřítomností „chemie“. V řízení institucí jako ztotožnění kvality s
 ukazatelem, který ji měl jen přibližně zachytit, takže zlepšení ukazatele se vydává za
 zlepšení kvality. V uzavřených skupinách jako ztotožnění pravdy s učením vedení nebo zdraví

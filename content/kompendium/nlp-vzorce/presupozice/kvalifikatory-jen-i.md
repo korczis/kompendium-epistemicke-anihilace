@@ -131,7 +131,7 @@ nevyslovené. Adresát nevidí, s kým je srovnáván ani jaké jiné výklady b
 nemůže proto srovnání ani vyloučení zpochybnit. Vzorec je příbuzný
 [srovnávací presupozici](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md), která
 předpokládá měřítko srovnání, a [srovnávacímu vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md),
-při kterém se srovnání vysloví bez toho, s čím se srovnává.
+při kterém se srovnání vysloví bez toho, s čím se srovnává (Bandler a Grinder 1975).
 
 ## Varianty
 
@@ -173,7 +173,7 @@ existují (Grice 1975).
 Manipulativní užití staví do předpokladu konsenzus, který neexistuje, nebo vylučuje výklad,
 který by mluvčího usvědčoval. Je typické v nátlakových rozhovorech na pracovišti, v
 kontrolujících vztazích po zraňujícím výroku a v uzavřených skupinách, které vylučují vnější
-zdroje pomoci. Jeho podstatou je, že srovnání nebo vyloučení se neprojednává, protože se
+zdroje pomoci (Singer a Lalich 1995). Jeho podstatou je, že srovnání nebo vyloučení se neprojednává, protože se
 nikdy nevysloví.
 
 ## Stav důkazů

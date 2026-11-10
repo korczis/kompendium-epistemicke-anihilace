@@ -158,7 +158,8 @@ aby se o druhém něco zjistilo bez jeho vědomí, ale ke společnému popisu to
 sděluje.
 
 Manipulativní užití staví na horní vrstvě a mění ji v nástroj autority. Kdo tvrdí, že z očí
-pozná lež, získává zdánlivý přístup k pravdě, kterou druhý nemůže zpochybnit. Kdo
+pozná lež, ačkoli kontrolované studie tuto schopnost nepotvrdily (Wiseman a kol. 2012), získává
+zdánlivý přístup k pravdě, kterou druhý nemůže zpochybnit. Kdo
 systematicky zrcadlí smyslový slovník druhého, aby obešel jeho úsudek, používá předpoklad k
 vytváření důvěry, která neodpovídá skutečnému vztahu. Riziko je nejvyšší tam, kde jsou
 vysoké sázky: při posuzování výpovědí, v pracovních pohovorech, při vyšetřování nebo v

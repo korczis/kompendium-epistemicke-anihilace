@@ -140,7 +140,8 @@ Souvisí s ním heslo o [štěpení já v manipulativních skupinách](@/kompend
 
 U člověka, na kterého je takový tlak uplatňován, se objevují změny sebepojetí. Mluví o sobě
 převzatými kategoriemi, které nepoužíval dřív, a když se ho někdo zeptá, kým je, odpovídá
-rolí ve skupině nebo vztahu. Obtížně si vybavuje, kým byl předtím a co měl rád. Myšlenka na
+rolí ve skupině nebo vztahu. Obtížně si vybavuje, kým byl předtím a co měl rád; Hassan tyto změny
+popisuje jako překrytí původní identity identitou skupinovou (Hassan 1988). Myšlenka na
 odchod v něm vyvolává nejen strach z následků, ale i pocit, že by přestal existovat jako
 osoba. Kompendium tento stav v krajní podobě popisuje v kapitole o
 [identitní dekonstrukci](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md).

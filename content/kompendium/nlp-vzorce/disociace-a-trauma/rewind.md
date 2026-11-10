@@ -138,7 +138,8 @@ zmizí za jedno nebo několik sezení, že není třeba o něm mluvit ani ho pod
 dlouhodobá léčba je „zbytečná“. Slib, že nikdo nemusí trauma vyprávět, je pro lidi, kteří se
 stydí nebo bojí, zvlášť lákavý a sám o sobě nemusí být varovný; varovné je jeho spojení s
 příslibem jistého výsledku. Dalšími varovnými znaky jsou chybějící vstupní vyšetření, užití u
-komplexního nebo vztahového traumatu bez stabilizace, rozšíření na trauma, které si klient
+komplexního nebo vztahového traumatu bez stabilizace, kterou klinický model zotavení staví na
+první místo (Herman 1992), rozšíření na trauma, které si klient
 „neuvědomuje“, a výklad neúspěchu jako klientova odporu.
 
 U člověka, u kterého byla technika použita nevhodně, se mohou objevit vtíravé vzpomínky,
@@ -190,7 +191,9 @@ Pro člověka, který techniku zvažuje, je první obranou zeptat se na kvalifik
 na jeho registraci v profesní komoře nebo zdravotnickém systému, na to, zda proběhne vyšetření,
 a na to, jak by poskytovatel postupoval, kdyby se stav zhoršil. Nabídka, která slibuje jistý
 výsledek, odrazuje od ověřené léčby nebo nemá odpověď na otázku po důkazech, zaslouží
-nedůvěru. U posttraumatických obtíží je rozumné nejprve vyhledat odborníka, který může
+nedůvěru. Přehnaná tvrzení a vyhýbání se nezávislému ověřování řadí kritická literatura mezi
+varovné znaky pseudovědeckých postupů v klinické psychologii (Lilienfeld, Lynn a Lohr 2015). U
+posttraumatických obtíží je rozumné nejprve vyhledat odborníka, který může
 nabídnout léčbu s doloženou účinností, a techniku přetáčení posuzovat jen jako jednu z možností
 v rámci jeho péče.
 

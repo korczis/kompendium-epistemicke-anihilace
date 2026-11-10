@@ -118,7 +118,7 @@ zdraví seznam léčebných postupů a diagnostických testů na škále od „v
 „jistě zdiskreditovaný“ (Norcross, Koocher a Garofalo 2006).
 
 Pro správné čtení výsledku je podstatné, co průzkum měří. Měří úsudek odborníků o tom, zda je
-postup zdiskreditován, ne účinnost postupu samotného. Úsudek odborníků se může opírat o
+postup zdiskreditován, ne účinnost postupu samotného (Norcross, Koocher a Garofalo 2006). Úsudek odborníků se může opírat o
 experimentální data, o klinickou zkušenost, o teoretickou nepravděpodobnost nebo o kombinaci
 těchto zdrojů. Silný konsenzus je proto vážným signálem, zvlášť pokud odpovídá přehledům
 výzkumu, ale nenahrazuje kontrolovanou studii. Tato povaha delfského průzkumu je jeho silou i
@@ -149,7 +149,9 @@ Legitimní užití výsledku je informační a ochranné. Klinik, který pacient
 nedoporučuje terapii NLP, může průzkum uvést jako jeden z podkladů vedle přehledů výzkumu.
 Profesní komory, pojišťovny a vzdělávací instituce mohou výsledek využít při rozhodování, které
 postupy podporovat nebo hradit. Legitimní je také užití ve výuce, kde průzkum slouží jako
-příklad toho, jak se formuje a dokumentuje odborný konsenzus. Kompendium na stránce o
+příklad toho, jak se formuje a dokumentuje odborný konsenzus. Takové užití odpovídá účelu, kvůli
+němuž průzkum vznikl: doplnit seznamy podložených postupů o seznam postupů, kterým se má praxe
+vyhýbat (Norcross, Koocher a Garofalo 2006). Kompendium na stránce o
 [terapeutických přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md)
 popisuje postupy, které mají na rozdíl od NLP oporu ve výzkumu.
 
@@ -193,7 +195,8 @@ hodnocení, je důležité, aby informace nevedla k sebeobviňování. Rozhodnut
 správné; problém je v nabídce, která slibovala víc, než mohla doložit. Klinik by měl zjistit, zda
 jejich obtíže přetrvávají, a nabídnout postup s doloženou účinností. Pokud léčba NLP oddálila
 péči o závažný stav, například o úzkostnou poruchu nebo o následky traumatu, je vhodné se tomuto
-zpoždění věnovat výslovně. Související otázku zdravotních výsledků rozebírá stránka
+zpoždění věnovat výslovně, protože oddálení účinné péče patří k hlavním škodám neověřených
+postupů (Lilienfeld, Lynn a Lohr 2015). Související otázku zdravotních výsledků rozebírá stránka
 [systematický přehled účinků na
 zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md).
 

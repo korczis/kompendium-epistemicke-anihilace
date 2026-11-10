@@ -114,7 +114,7 @@ půdu: popisuje rozhodnutí od počátku jako součást řady.
 Vzorec má tři složky. První je řada, která se nevysloví jako tvrzení: kurzů, úrovní, kroků,
 změn, ústupků nebo plateb. Druhá je prvek, na který se upře pozornost, typicky první nebo
 nejbližší další, a otázka, která se k němu váže. Třetí je přesun rozhodování z úrovně celku
-na úroveň pořadí. Adresát, který odpoví „nejdřív bych asi změnil jídelníček“, vybral prvek
+na úroveň pořadí (Bandler a Grinder 1975b). Adresát, který odpoví „nejdřív bych asi změnil jídelníček“, vybral prvek
 řady, a tím mlčky přijal, že řada existuje a že do ní vstupuje. V obchodních a náborových
 rozhovorech se struktura často kombinuje s
 [časovou větou](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) („až
@@ -171,7 +171,7 @@ Rollnick 2013).
 
 Manipulativní užití vyvolává řadu, kterou adresát nezná, a nabízí mu volbu jejího pořadí
 místo volby, zda do ní vstoupit. Je typické pro prodej vícestupňových kurzů a předplatných,
-pro nábor do skupin s hierarchií úrovní a pro kontrolující vztahy, ve kterých se nároky
+pro nábor do skupin s hierarchií úrovní (Singer a Lalich 1995) a pro kontrolující vztahy, ve kterých se nároky
 předkládají jednotlivě. Strukturu nabídky, ve které je volba omezena na prvky předem dané
 množiny, popisuje kompendium obecně u [falešného dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md).
 

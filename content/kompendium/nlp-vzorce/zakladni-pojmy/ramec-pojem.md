@@ -44,9 +44,9 @@ catalog_prev = "ekologicka-kontrola"
 catalog_next = "chunking"
 catalog_position = 28
 catalog_family_size = 42
-catalog_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "kahneman-2011", "lakoff-johnson-1980", "levinson-1983", "lifton-1961", "mcguire-1964", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "kahneman-2011", "lakoff-johnson-1980", "levinson-1983", "lifton-1961", "mcguire-1964", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1967", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
 catalog_sources_primary = ["bandler-grinder-1982"]
-catalog_sources_roots = ["bateson-1972", "levinson-1983", "watzlawick-1974"]
+catalog_sources_roots = ["bateson-1972", "levinson-1983", "watzlawick-1967", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Rámec a mocenská asymetrie", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -93,7 +93,7 @@ Skryté nebo vnucené rámcování se pozná podle několika znaků. Na začátk
 
 ## Rámec a mocenská asymetrie
 
-Možnost nastavit rámec není rozdělena rovnoměrně. V rozhovoru mezi lékařem a pacientem, lektorem a účastníkem, vyšetřovatelem a vyslýchaným nebo vedoucím a podřízeným má jedna strana institucionální oprávnění určit, o čem se bude mluvit, a druhá strana se rámci obvykle přizpůsobí, aniž by o tom přemýšlela. Tato asymetrie sama o sobě není manipulací; bez ní by profesní rozhovory nemohly fungovat. Stává se jí tehdy, když strana s mocí rámec používá k vlastnímu prospěchu a zároveň brání tomu, aby byl pojmenován. Pro posouzení konkrétní situace je proto užitečné zjistit, kdo rámec nastavil, zda k tomu měl oprávnění, zda ho vyslovil a zda druhá strana měla reálnou možnost navrhnout jiný. Čím větší je mocenský rozdíl a čím méně je rámec vysloven, tím vyšší je riziko, že slouží jen jedné straně.
+Možnost nastavit rámec není rozdělena rovnoměrně. V rozhovoru mezi lékařem a pacientem, lektorem a účastníkem, vyšetřovatelem a vyslýchaným nebo vedoucím a podřízeným má jedna strana institucionální oprávnění určit, o čem se bude mluvit, a druhá strana se rámci obvykle přizpůsobí, aniž by o tom přemýšlela. Tato asymetrie sama o sobě není manipulací; bez ní by profesní rozhovory nemohly fungovat; teorie komunikace takové vztahy popisuje jako komplementární, tedy založené na rozdílu postavení, který sám o sobě není dobrý ani špatný (Watzlawick, Beavin a Jackson 1967). Stává se jí tehdy, když strana s mocí rámec používá k vlastnímu prospěchu a zároveň brání tomu, aby byl pojmenován. Pro posouzení konkrétní situace je proto užitečné zjistit, kdo rámec nastavil, zda k tomu měl oprávnění, zda ho vyslovil a zda druhá strana měla reálnou možnost navrhnout jiný. Čím větší je mocenský rozdíl a čím méně je rámec vysloven, tím vyšší je riziko, že slouží jen jedné straně.
 
 ## Legitimní a manipulativní užití
 
@@ -119,6 +119,7 @@ Základní obranou je rámec pojmenovat a vrátit do rozhovoru otázky, které v
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.

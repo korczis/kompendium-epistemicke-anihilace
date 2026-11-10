@@ -44,8 +44,8 @@ catalog_prev = "odvolani-na-nevedomost"
 catalog_next = "odvolani-na-bohatstvi"
 catalog_position = 23
 catalog_family_size = 28
-catalog_sources = ["cialdini-2009", "damer-2009", "govier-2010", "kunda-1990", "petty-cacioppo-1986", "roozenbeek-2022", "singer-lalich-1995", "walton-1995", "walton-2008", "eemeren-grootendorst-2004"]
-catalog_sources_primary = ["damer-2009", "govier-2010", "walton-1995", "walton-2008", "eemeren-grootendorst-2004"]
+catalog_sources = ["cialdini-2009", "copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "kunda-1990", "petty-cacioppo-1986", "roozenbeek-2022", "singer-lalich-1995", "walton-1995", "walton-2008", "eemeren-grootendorst-2004"]
+catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "walton-1995", "walton-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "kunda-1990", "petty-cacioppo-1986", "roozenbeek-2022", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
@@ -121,7 +121,8 @@ příbuzná je technika, kterou katalog NLP popisuje jako
 projevy porozumění používají k vytvoření důvěry, jež pak slouží jinému cíli.
 
 Lichotka má i časový rozměr. V jednorázovém sporu nahrazuje argument; v dlouhodobém vztahu
-vytváří dluh. Kdo opakovaně dostává uznání od autority, má potíž jí oponovat, protože
+vytváří dluh, podobný závazku, který podle pravidla reciprocity vzniká z přijatého daru nebo
+laskavosti (Cialdini 2009). Kdo opakovaně dostává uznání od autority, má potíž jí oponovat, protože
 oponování ohrožuje obraz, který mu autorita nabídla. Tento mechanismus kompendium popisuje u
 [pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md).
 
@@ -131,7 +132,9 @@ Lichotka se v argumentaci objevuje v několika rozpoznatelných podobách. Pří
 spojuje pochvalu adresáta s výzvou k souhlasu v jediném výroku. Elitářská podoba vytváří
 skupinu zasvěcených, kteří „to chápou“, a nabízí adresátovi členství v ní za cenu přijetí
 tvrzení; blízko má k [odvolání na většinu](@/kompendium/argumentacni-fauly/relevance/ad-populum.md),
-jen s obráceným znaménkem, protože místo početnosti se zdůrazňuje výlučnost. Předjímající
+jen s obráceným znaménkem, protože místo početnosti se zdůrazňuje výlučnost; učebnice
+logiky popisují apel na ješitnost a snobství jako nepřímé podoby odvolání na většinu
+(Copi, Cohen a McMahon 2014). Předjímající
 podoba připisuje adresátovi souhlas dřív, než ho vyslovil, například obratem „člověk vašeho
 formátu jistě souhlasí“. Kolektivní podoba chválí celou skupinu posluchačů, publikum, národ
 nebo profesi, a předložený návrh vydává za výraz jejích ctností. Sebelichotka konečně
@@ -202,6 +205,7 @@ kol. 2022).
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.

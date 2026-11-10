@@ -87,7 +87,7 @@ kde data žádnou závislost neukazují (Gilovich, Vallone a Tversky 1985).
 
 Heslo je v katalogu zvláštní tím, že jeho empirický základ prošel revizí. Pro defenzivní
 účely na tom nic podstatného nemění: rozhodující je rozdíl mezi dojmem ze série a změřenou
-závislostí, a ten zůstává.
+závislostí, a ten zůstává (Gilovich, Vallone a Tversky 1985).
 
 ## Původ a souvislosti
 
@@ -110,23 +110,22 @@ jedna očekává, že se série obrátí, druhá, že bude pokračovat. Kahneman
 víry vycházejí z téhož sklonu intuitivního myšlení hledat v datech příčinný příběh
 (Kahneman 2011).
 
-V posledním desetiletí ekonomové Joshua Miller a Adam Sanjurjo ukázali, že metoda, kterou
-klasická studie porovnávala úspěšnost po sérii zásahů a po sérii minutí, obsahuje jemné
-statistické zkreslení: v konečných řadách vychází podíl zásahů po sérii zásahů v průměru
-nižší, než by laik čekal, i když jsou pokusy nezávislé. Po opravě tohoto zkreslení
-ukázala část původních dat měřitelný efekt horké ruky. Debata o velikosti efektu
-v různých sportech a činnostech pokračuje.
+V posledním desetiletí ekonomové Joshua Miller a Adam Sanjurjo ukázali, že metoda, kterou klasická
+studie (Gilovich, Vallone a Tversky 1985) porovnávala úspěšnost po sérii zásahů a po sérii minutí,
+obsahuje jemné statistické zkreslení: v konečných řadách vychází podíl zásahů po sérii zásahů v
+průměru nižší, než by laik čekal, i když jsou pokusy nezávislé. Po opravě tohoto zkreslení ukázala
+část původních dat měřitelný efekt horké ruky. Debata o velikosti efektu v různých sportech a
+činnostech pokračuje.
 
 ## Struktura argumentu
 
-Klamavý argument má tuto stavbu. První premisa uvádí, že osoba nebo systém dosáhli v
-posledních pokusech řady úspěchů. Druhá, nevyslovená premisa tvrdí, že taková řada by při
-nezávislých pokusech byla nepravděpodobná. Závěr tvrdí, že osoba je ve stavu, který
-zvyšuje pravděpodobnost dalšího úspěchu, a že na tomto základě je rozumné rozhodnout:
-přihrát jí míč, svěřit jí případ, investovat do fondu. Vadná bývá druhá premisa. Série
-určité délky jsou v delších řadách náhodných pokusů běžné, takže jejich výskyt sám o sobě
-nic nedokládá. Doklad by vyžadoval srovnání: jak často se taková série objevuje u téže
-osoby, u jiných osob a v řadě, o které víme, že je náhodná.
+Klamavý argument má tuto stavbu. První premisa uvádí, že osoba nebo systém dosáhli v posledních
+pokusech řady úspěchů. Druhá, nevyslovená premisa tvrdí, že taková řada by při nezávislých pokusech
+byla nepravděpodobná. Závěr tvrdí, že osoba je ve stavu, který zvyšuje pravděpodobnost dalšího
+úspěchu, a že na tomto základě je rozumné rozhodnout: přihrát jí míč, svěřit jí případ, investovat
+do fondu. Vadná bývá druhá premisa. Série určité délky jsou v delších řadách náhodných pokusů běžné,
+takže jejich výskyt sám o sobě nic nedokládá (Gilovich 1991). Doklad by vyžadoval srovnání: jak
+často se taková série objevuje u téže osoby, u jiných osob a v řadě, o které víme, že je náhodná.
 
 Argument má i druhou slabinu, která je důležitá i po revizi klasické studie. I když efekt
 existuje, bývá malý, a rozhodnutí se v klamu opírá o představu velkého efektu. Pozorovatel

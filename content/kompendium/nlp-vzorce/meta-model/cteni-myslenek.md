@@ -131,7 +131,7 @@ domýšlení je běžná chyba, systematické přepisování cizích stavů je v
 
 V jednotlivém výroku se čtení myšlenek pozná podle slovesa vnitřního stavu (myslí,
 cítí, chce, zamýšlí, ví), které je spojeno s jinou osobou a podáno bez zdroje a bez
-výhrady. Častým doprovodem je obrat „ve skutečnosti“: „ve skutečnosti se ti to líbí“,
+výhrady (Bandler a Grinder 1975). Častým doprovodem je obrat „ve skutečnosti“: „ve skutečnosti se ti to líbí“,
 „ve skutečnosti mi chceš ublížit“. V rozhovoru je důležitější reakce mluvčího na opravu.
 Pokud adresát řekne, že to tak není, a mluvčí výklad opraví, šlo o běžný omyl. Pokud
 mluvčí na výkladu trvá a opravu označí za obranu, popírání nebo nedostatek sebereflexe,

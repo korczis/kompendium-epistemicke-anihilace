@@ -121,7 +121,7 @@ Srovnávací bod je druhá věc postavená vedle ní: dražší nabídka, horš�
 představa katastrofy. Kritérium je měřítko, které určí, co je na rozdílu podstatné, například
 cena, bezpečí, rychlost nebo morální hodnota. Strukturálně se vzorec pozná podle toho, že
 srovnávací bod do rozhovoru nevstoupil sám, ale byl vybrán, a že výběr předurčuje směr
-úsudku. Pozorovatel by si měl klást otázku, jaké jiné srovnání by bylo stejně oprávněné a k
+úsudku: tatáž věc se jeví jinak podle toho, co jí bylo postaveno vedle (Cialdini 2009). Pozorovatel by si měl klást otázku, jaké jiné srovnání by bylo stejně oprávněné a k
 jakému závěru by vedlo.
 
 Manipulativní varianta obvykle kombinuje kontrast s vynecháním. Posuzovaná věc je srovnána s

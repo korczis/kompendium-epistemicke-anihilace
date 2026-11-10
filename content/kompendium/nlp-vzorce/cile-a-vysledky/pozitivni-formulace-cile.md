@@ -114,7 +114,8 @@ tomto rámci pokusem vyvést člověka z kruhu stále stejných pokusů o řeše
 Strukturálně jde o transformaci popisu: věta se záporem nebo se slovesem odstranění se
 převádí na větu, která popisuje přítomnost žádaného stavu. Transformace má tři možné
 výsledky. Někdy zpřesní cíl, protože odhalí, co člověk skutečně chce místo problému. Někdy
-cíl změní, protože kladná formulace zvolená druhou stranou posune jeho obsah. A někdy cíl
+cíl změní, protože kladná formulace zvolená druhou stranou posune jeho obsah; že formulace
+mění rozhodnutí i u logicky shodné volby, ukázal výzkum rámcování (Tversky a Kahneman 1981). A někdy cíl
 zakryje, protože vyřadí z rozhovoru informaci o tom, co je špatně. Pozorovatel by měl
 sledovat, který z těchto výsledků nastal a kdo o něm rozhodl.
 

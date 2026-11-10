@@ -114,7 +114,8 @@ budoucnosti, který katalog popisuje v hesle
 
 Vzorec spojuje dvě věty, které mají v rozhovoru odlišný status. Hlavní věta nese tvrzení,
 pokyn nebo otázku a na ni se soustředí pozornost. Vedlejší časová věta nese obsah, který je
-třeba přijmout, aby hlavní věta měla smysl. Manipulativní užití umísťuje do vedlejší věty
+třeba přijmout, aby hlavní věta měla smysl, a to i tehdy, když se hlavní věta popře nebo
+zpochybní (Levinson 1983). Manipulativní užití umísťuje do vedlejší věty
 právě to, o čem se má rozhodnout: souhlas, pochopení, přiznání, vstup do závazku. Posluchač,
 který odpoví na hlavní větu, například řekne „zavolám zítra“, zároveň mlčky přijme, že se
 rozhodne. Dalším strukturním prvkem je časový posun: výpověď mluví o okamžiku po rozhodnutí,
@@ -141,7 +142,7 @@ přemýšlíš“, „během toho, co posloucháš“) spojuje děj, který prá
 dějem, který se teprve má dostavit, a vytváří dojem, že druhý plyne z prvního. Tato třetí
 podoba se překrývá s tím, co katalog popisuje jako
 [spojky a implikovanou příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md):
-souběh v čase se mlčky vydává za vztah příčiny a následku. Ve všech třech podobách zůstává
+souběh v čase se mlčky vydává za vztah příčiny a následku (Bandler a Grinder 1975b). Ve všech třech podobách zůstává
 jádro stejné: obsah, o kterém by se mělo jednat, je uložen do části věty, o které se
 nejedná.
 
@@ -175,7 +176,7 @@ Manipulativní užití staví do časové věty rozhodnutí, které slouží mlu
 odmítnutí cosi nepřirozeného. Ve vztahu guru a žáka, který kompendium popisuje jako
 [vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), se budoucí
 přijetí doktríny často předkládá jako nevyhnutelné dozrání a pochybnost jako dočasný
-nedostatek zralosti. V prodeji se časová věta užívá k tomu, aby se hovor přesunul od otázky,
+nedostatek zralosti (Singer a Lalich 1995). V prodeji se časová věta užívá k tomu, aby se hovor přesunul od otázky,
 zda koupit, k otázce, co zákazník udělá po koupi.
 
 ## Stav důkazů

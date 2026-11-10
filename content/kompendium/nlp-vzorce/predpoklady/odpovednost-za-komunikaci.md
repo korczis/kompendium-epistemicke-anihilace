@@ -111,7 +111,8 @@ to, jak z něj vyvozuje význam (Grice 1975).
 ## Struktura vzorce
 
 Předpoklad stojí na pojmu odpovědnosti, který může znamenat tři odlišné věci. Odpovědnost za
-srozumitelnost znamená, že mluvčí se má snažit, aby mu druhý rozuměl. Odpovědnost za reakci
+srozumitelnost znamená, že mluvčí se má snažit, aby mu druhý rozuměl, jak to v rozhovoru
+předpokládá zásada spolupráce (Grice 1975). Odpovědnost za reakci
 znamená, že mluvčí odpovídá za to, jak druhý na sdělení zareaguje. Odpovědnost za jednání
 znamená, kdo nese morální a právní odpovědnost za to, co kdo udělal. NLP v běžných
 formulacích tyto významy neodlišuje, a právě v jejich splývání leží riziko.
@@ -156,7 +157,8 @@ podmínek porozumění, ale směr změny ponechává klientovi (Rogers 1951).
 
 Manipulativní užití buď rozšiřuje odpovědnost mluvčího za reakci na mandát k vymáhání, nebo
 přenáší odpovědnost za jednání na toho, kdo se bránil. V prvním případě se předpoklad pojí s
-vytrvalým nátlakem, ve druhém s obviňováním oběti. Oba směry spojuje to, že odmítnutí druhého
+vytrvalým nátlakem, ve druhém s obviňováním oběti, které Stark řadí k běžným součástem
+donucující kontroly (Stark 2007). Oba směry spojuje to, že odmítnutí druhého
 přestává být platným sdělením: buď je ho třeba překonat, nebo je vinou toho, kdo ho
 vyslovil. Rozhodujícím kritériem pro pozorovatele je, zda předpoklad posiluje odpovědnost
 silnější strany, nebo ji přesouvá na slabší.
@@ -184,7 +186,8 @@ odmítnutí platí, i když nebylo dokonalé, a za jeho překročení odpovídá
 Pokud mluvčí po překročení hranice obrací rozhovor k tomu, jak byla hranice formulována, je
 legitimní vrátit se k činu a odmítnout debatu o formulaci jako náhradu za uznání. Pomáhá také
 vnější pohled: lidé mimo vztah obvykle snáze rozpoznají, že požadavek na „dokonalou
-komunikaci“ je nesplnitelný a slouží k přesunu viny.
+komunikaci“ je nesplnitelný a slouží k přesunu viny, který literatura o násilí v blízkých
+vztazích popisuje jako opakující se rys dlouhodobé kontroly (Herman 1992; Stark 2007).
 
 U lidí, kteří dlouho nesli odpovědnost za reakce druhého, je součástí zotavení její vrácení
 tam, kam patří. Herman popisuje obnovu realistického pohledu na vlastní odpovědnost jako

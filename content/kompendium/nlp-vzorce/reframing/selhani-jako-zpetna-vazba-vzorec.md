@@ -44,10 +44,10 @@ catalog_prev = "deframing"
 catalog_next = ""
 catalog_position = 17
 catalog_family_size = 17
-catalog_sources = ["bateson-1972", "beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "herman-1992", "miller-galanter-pribram-1960", "norcross-2006", "oconnor-seymour-1990", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources = ["arkes-blumer-1985", "bateson-1972", "beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "miller-galanter-pribram-1960", "norcross-2006", "oconnor-seymour-1990", "popper-1959", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
-catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
-catalog_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "norcross-2006", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
+catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960", "popper-1959"]
+catalog_sources_critical = ["arkes-blumer-1985", "beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "norcross-2006", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -113,7 +113,8 @@ pracovních přesvědčení, se kterými má praktik přistupovat ke změně (O'
 Vzorec má tři strukturní pohyby. Prvním je oddělení: výsledek se přestane vztahovat k identitě
 a vztáhne se k jednání, tedy místo „jsem neschopný“ se hovoří o tom, co se v dané situaci
 stalo. Druhým je převedení na informaci: neúspěch se popíše jako údaj o tom, který prvek postupu
-neodpovídal situaci. Třetím je otevření dalšího kroku: z informace plyne, co lze udělat jinak.
+neodpovídal situaci, tedy jako neshoda testu s cílem v kybernetickém smyslu (Miller, Galanter a
+Pribram 1960). Třetím je otevření dalšího kroku: z informace plyne, co lze udělat jinak.
 Pro analýzu je rozhodující, na co může zpětná vazba ukázat. V plné podobě může ukázat na postup
 člověka, na zvolený cíl, na prostředí i na metodu nebo na toho, kdo radil. V zúžené podobě
 ukazuje vždy jen na jednu z těchto možností, obvykle na člověka a jeho nedostatečné úsilí.
@@ -135,7 +136,9 @@ Neúspěch je vždy informací o slabší straně, nikdy o metodě, programu neb
 přichází okamžitě a v pevné formulaci, takže neúspěch se nestihne posoudit. Po přerámování
 následuje konkrétní nabídka nebo požadavek, často placený nebo spojený s vyšším závazkem.
 Kritika, kterou vznesla slabší strana, se naopak jako zpětná vazba nebere: když účastník řekne,
-že mu metoda nepomohla, nepovažuje se to za informaci o metodě, ale za projev jeho odporu.
+že mu metoda nepomohla, nepovažuje se to za informaci o metodě, ale za projev jeho odporu. Lifton tento obrat popsal
+jako nadřazení doktríny nad člověka: rozpor mezi zkušeností a učením se vykládá jako chyba
+člověka, ne učení (Lifton 1961).
 Skutečné škody, například finanční ztráta, zhoršení zdraví nebo poškozené vztahy, se v tomto
 rámci nemohou objevit jako selhání, protože selhání podle definice neexistuje.
 
@@ -161,7 +164,9 @@ připouští i závěr, že cíl byl nereálný, že prostředí bylo nepřátel
 
 Manipulativní užití chrání metodu nebo autoritu a váže člověka k dalšímu kroku. Rozlišuje se
 podle tří otázek. Může zpětná vazba ukázat i na metodu, cíl nebo vedoucího? Je možné, aby
-dalším krokem bylo skončit? A připouští rámec, že neúspěch způsobil skutečnou škodu? Kompendium
+dalším krokem bylo skončit? A připouští rámec, že neúspěch způsobil skutečnou škodu? Druhá otázka je důležitá proto, že
+lidé mají sklon pokračovat v tom, do čeho už investovali, i když další investice nedává smysl
+(Arkes a Blumer 1985). Kompendium
 v rodině vlivových vzorců popisuje i
 [guru efekt](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md), se kterým se tento vzorec
 často pojí: autorita vedoucího je chráněna právě tím, že neúspěchy jeho žáků vypovídají jen o
@@ -189,7 +194,7 @@ nebo o radě, kterou dostal, a zda by někdy mohla vést k závěru, že je rozu
 obranou je oddělit přerámování od nabídky: rozhodnutí o dalším kurzu, investici nebo ústupku se
 nemá dělat ve stejném rozhovoru, ve kterém byl neúspěch přerámován, ale až po odstupu a ideálně
 po konzultaci s někým, kdo z rozhodnutí neprofituje. Pomáhá předem si stanovit, jaký výsledek by
-znamenal, že metoda nefunguje, jak to rozebírá stránka o
+znamenal, že metoda nefunguje, tedy vlastní podmínku vyvrácení (Popper 1959), jak to rozebírá stránka o
 [rámci důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md).
 
 V zotavení po dlouhodobém vystavení zneužitému vzorci jde o obnovu práva nazvat neúspěch
@@ -202,6 +207,7 @@ jeho vlastní metodě.
 
 ## Literatura
 
+- Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124–140.
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Dilts, R. (1990). *Changing Belief Systems with NLP*. Cupertino: Meta Publications.
@@ -209,9 +215,11 @@ jeho vlastní metodě.
 - Ellis, A. (1962). *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart.
 - Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford: Stanford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.

@@ -44,10 +44,10 @@ catalog_prev = "delfska-studie"
 catalog_next = "databaze-vyzkumu-nlp"
 catalog_position = 6
 catalog_family_size = 14
-catalog_sources = ["bandler-1985", "beck-1976", "dilts-hallbom-smith-1990", "gilovich-1991", "heap-1988", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources = ["bandler-1985", "beck-1976", "dilts-hallbom-smith-1990", "gilovich-1991", "heap-1988", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["bandler-1985", "dilts-hallbom-smith-1990"]
 catalog_sources_roots = []
-catalog_sources_critical = ["beck-1976", "gilovich-1991", "heap-1988", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_critical = ["beck-1976", "gilovich-1991", "heap-1988", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -117,7 +117,7 @@ spolupracovníků postupoval tímto způsobem a do závěrečného souboru zařa
 kontrolovaných studií, které se týkaly různých zdravotních obtíží (Sturt a kol. 2012).
 
 Pro výsledek je rozhodující posouzení kvality. Studie, které přehled našel, byly podle autorů
-malé, různorodé a metodologicky slabé, takže z nich nebylo možné vyvodit spolehlivý závěr.
+malé, různorodé a metodologicky slabé, takže z nich nebylo možné vyvodit spolehlivý závěr (Sturt a kol. 2012).
 Autoři proto formulovali závěr opatrně: nenašli doklady, že by intervence NLP zlepšovaly
 zdravotní výsledky, a upozornili, že jde o důsledek nedostatku kvalitního výzkumu, nikoli o
 přesvědčivý doklad, že NLP nemá žádný účinek. Toto rozlišení mezi „nedostatkem důkazů o účinku“
@@ -151,7 +151,9 @@ nemocného viníkem jeho nemoci.
 Legitimní užití přehledu je rozhodování o péči. Praktický lékař, psycholog nebo koordinátor
 programu podpory zdraví může přehled využít jako podklad pro rozhodnutí, zda metodu doporučit,
 hradit nebo zařadit do programu. Legitimní je také užití v informovaném souhlasu: pokud se
-pacient chce podrobit intervenci NLP, má právo vědět, že její účinek není doložen. Kompendium
+pacient chce podrobit intervenci NLP, má právo vědět, že její účinek není doložen. Sami autoři přehledu z něj vyvodili, že dostupné
+důkazy neopravňují vynakládat prostředky zdravotní péče na NLP mimo výzkumné účely (Sturt a
+kol. 2012). Kompendium
 na stránce o [populačním zdraví a
 prevenci](@/kompendium/population-health/_index.md) zasazuje taková rozhodnutí do širšího rámce
 péče o veřejné zdraví.
@@ -194,7 +196,8 @@ terapie, která vychází z kognitivního modelu emočních poruch (Beck 1976).
 Lidé, kteří podstoupili intervenci NLP bez účinku a slyšeli, že je to jejich vina, potřebují
 především slyšet, že neúspěch metody nevypovídá o jejich vůli ani charakteru. Zotavení zahrnuje
 návrat k péči, která má oporu ve výzkumu, a někdy také zpracování studu nebo hněvu z toho, že byli
-uvedeni v omyl. Klinik by měl tuto zkušenost brát vážně a zároveň se vyhnout zesměšňování, které
+uvedeni v omyl. Klinik by měl tuto zkušenost brát vážně a přijímat ji bez hodnocení, jak to
+popisuje přístup zaměřený na klienta (Rogers 1951), a zároveň se vyhnout zesměšňování, které
 by u pacienta mohlo posílit nedůvěru k odborné péči. Souhrnné postavení přehledu mezi ostatními
 hodnoceními popisuje stránka [stav důkazů o
 NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md), postupy s doloženou oporou
@@ -210,6 +213,7 @@ přehled [terapeutických přístupů](@/kompendium/06-klinicke-aplikace/terapeu
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
+- Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.

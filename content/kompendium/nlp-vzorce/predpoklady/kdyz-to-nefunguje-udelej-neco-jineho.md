@@ -150,7 +150,8 @@ ale zcela nepružný v cíli, a od druhého naopak očekává pružnost v postoj
 
 V seminářích a v terapeutických kontextech se objevuje institucionální varianta. Když
 technika u účastníka nezabere, nevyvozuje se z toho nic o technice, jen se nasadí jiná.
-Metoda tak nemůže selhat, protože každý neúspěch se převede na pokyn k výměně postupu.
+Metoda tak nemůže selhat, protože každý neúspěch se převede na pokyn k výměně postupu;
+obdobné zacházení s negativními výsledky studií popsal přehled výzkumu NLP (Sharpley 1987).
 Tento mechanismus souvisí s tím, co kompendium popisuje jako
 [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md),
 a s příbuzným předpokladem, že

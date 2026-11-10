@@ -130,10 +130,10 @@ rozpoznávání smyslových slov v řeči druhého. Další podobou je přebír�
 raportu, která se v katalogu popisuje v rodině raportu a kalibrace. Třetí podobou je takzvaný
 překlad mezi systémy: mluvčí převede sdělení z jednoho smyslového slovníku do druhého,
 například když na „necítím se s tím dobře“ odpoví „pojďme se podívat, jak by to mohlo vypadat
-jinak“, a tím má podle NLP druhého „převést“ do jiného zpracování. Čtvrtou podobou je vědomé
+jinak“, a tím má podle NLP druhého „převést“ do jiného zpracování (Bandler a Grinder 1979). Čtvrtou podobou je vědomé
 míchání predikátů v textu určeném mnoha lidem, například v reklamě nebo v projevu. Všechny tyto
 podoby sdílejí stejný předpoklad, že smyslová slova jsou oknem do mysli, a sdílejí i jeho
-slabinu. Pro pozorovatele je užitečné sledovat zejména třetí podobu, protože převádí rozhovor z
+slabinu (Sharpley 1984). Pro pozorovatele je užitečné sledovat zejména třetí podobu, protože převádí rozhovor z
 tématu, o kterém druhý mluví, k tématu, kam ho chce vést mluvčí.
 
 ## Detekční znaky

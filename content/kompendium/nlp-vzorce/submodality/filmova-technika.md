@@ -133,11 +133,13 @@ přeskakuje.
 
 Problematické užití filmové techniky lze rozpoznat podle několika znaků. Poskytovatel slibuje,
 že trauma nebo fobie zmizí za jedno sezení, a to bez předchozího posouzení stavu člověka, bez
-zjištění, zda je v bezpečí, a bez informace o rizicích. Práce se vzpomínkou začíná okamžitě a
+zjištění, zda je v bezpečí, a bez informace o rizicích, ačkoli literatura o traumatu klade na
+začátek léčby nastolení bezpečí (Herman 1992). Práce se vzpomínkou začíná okamžitě a
 nedává prostor k zastavení. Varovným znakem je, když se odstup od vzpomínky spojuje s výroky o
 tom, že událost „nebyla tak hrozná“, že je „minulostí, která už neexistuje“ nebo že o ní „už
 není třeba mluvit“. Takové výroky mohou mít v určitém prostředí jasnou funkci: odradit člověka
-od toho, aby událost oznámil nebo o ní mluvil s někým dalším.
+od toho, aby událost oznámil nebo o ní mluvil s někým dalším. Mlčení a utajení patří podle
+Hermanové k prvním obranám toho, kdo ublížil (Herman 1992).
 
 U člověka, na kterého je technika uplatněna nevhodně, se může objevit krátkodobá úleva, ale
 také zhoršení disociativních příznaků, pocit odcizení od vlastní zkušenosti nebo pocit, že
@@ -150,7 +152,9 @@ a další navozování odstupu může prohloubit odcizení od vlastního proží
 
 Legitimní užití prvku odstupu je součástí odborné traumaterapie. Terapeut, který klientovi po
 fázi stabilizace nabídne, že může o události mluvit z [pozice pozorovatele](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md), a výslovně mu dá
-možnost kdykoli přestat, používá odstup jako regulační nástroj. Takové užití nic neříká o
+možnost kdykoli přestat, používá odstup jako regulační nástroj; stabilizace a bezpečí
+předcházejí práci se vzpomínkou i v modelu zotavení z traumatu (Herman 1992). Takové užití nic
+neříká o
 závažnosti události, nevylučuje její oznámení a je zasazeno do širšího plánu léčby. Podobně
 pracují uznávané postupy, které kompendium popisuje u
 [EMDR](@/kompendium/techniques/ea-6-2-2-emdr-protokol.md) a u terapií zaměřených na trauma.
@@ -184,7 +188,8 @@ rychlého vyléčení traumatu oporu v datech nemá.
 
 ## Obrana a zotavení
 
-Obranou je hledat péči, která začíná posouzením a stabilizací. Člověk, kterému je nabízena
+Obranou je hledat péči, která začíná posouzením a stabilizací, jak to odpovídá postupnému
+modelu zotavení z traumatu (Herman 1992). Člověk, kterému je nabízena
 filmová technika po traumatu, se může zeptat, jaké vzdělání v traumaterapii poskytovatel má,
 jak posoudí, zda je na práci se vzpomínkou připraven, co se stane, pokud se mu během sezení
 přitíží, a zda může kdykoli přestat. Pokud poskytovatel slibuje vyléčení za jedno sezení nebo

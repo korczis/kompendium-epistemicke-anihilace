@@ -134,7 +134,8 @@ o „návratu“ k dřívějším situacím, o „přinesení zdroje“ do minul
 pevná“ a lze ji „změnit“. Rozhodující varovné znaky nejsou v technice, ale v tom, co se mění.
 Varovné je, když se mluví o změně událostí, nikoli o změně prožitku, když se v sezení objevují
 nové podrobnosti minulých situací, které člověk dříve neznal, a když praktik podává změněnou
-vzpomínku jako pravdivější než původní.
+vzpomínku jako pravdivější než původní. Experimentální výzkum ukázal, že sugestivní podněty po
+události mohou do vzpomínky vnést podrobnosti, které se nestaly (Loftus a Palmer 1974).
 
 Mimo terapii se myšlenka, že minulost je „jen příběh“ a lze ji přepsat, objevuje v
 kontrolujících vztazích a skupinách. Kdo má ve vztahu moc, nabízí výklad minulých událostí,
@@ -164,7 +165,9 @@ Mezi oběma póly leží šedá zóna, kterou je třeba posuzovat podle okolnost
 koučink a semináře osobního rozvoje, kde se intervence nabízí lidem bez vyšetření a kde
 lektor nemusí poznat, že se za „nepříjemným pocitem z minulosti“ skrývá traumatický zážitek.
 I při dobrém úmyslu může taková práce vyvolat vzpomínky, se kterými účastník nemá jak naložit,
-a nechat ho s nimi bez další péče. Rozhodujícím kritériem proto není jen záměr praktika, ale i
+a nechat ho s nimi bez další péče. Klinický model zotavení staví zajištění bezpečí a
+stabilizaci před práci s traumatickými vzpomínkami (Herman 1992). Rozhodujícím kritériem proto
+není jen záměr praktika, ale i
 to, zda je schopen rozpoznat hranice své kompetence a zajistit návaznou odbornou pomoc.
 
 ## Stav důkazů
@@ -186,7 +189,9 @@ o tom, co se během ní stalo s obsahem vzpomínek.
 
 Obranou je trvat na rozdílu mezi událostí a jejím prožíváním. Výrok „to se nestalo tak, jak si
 to pamatuješ“ je jiný druh výroku než „můžeš se na to dnes dívat jinak“ a zaslouží si jinou
-odpověď: první vyžaduje ověření, druhý je nabídkou, kterou lze přijmout nebo odmítnout. Kdo si
+odpověď: první vyžaduje ověření, druhý je nabídkou, kterou lze přijmout nebo odmítnout. Rozlišení
+mezi událostí a jejím výkladem je také základem kognitivní terapie, podle níž emoční reakci určuje
+především význam, který člověk události přisuzuje (Beck 1976). Kdo si
 není jistý, zda se jeho vzpomínky pod tlakem nemění, může si vést záznamy, opírat se o
 dokumenty z doby událostí a mluvit s lidmi, kteří u nich byli, ale nepatří do vztahu, ve kterém
 tlak vzniká.

@@ -44,8 +44,8 @@ catalog_prev = ""
 catalog_next = "chunking-nahoru"
 catalog_position = 1
 catalog_family_size = 20
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "beck-1976", "dilts-1999", "korzybski-1933", "lifton-1961", "mcguire-1964", "miller-1956", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
-catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1999", "oconnor-seymour-1990"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "beck-1976", "copi-cohen-mcmahon-2014", "dilts-1999", "korzybski-1933", "lifton-1961", "mcguire-1964", "miller-1956", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "copi-cohen-mcmahon-2014", "dilts-1999", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "korzybski-1933", "miller-1956", "miller-galanter-pribram-1960", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -88,7 +88,7 @@ V samotném NLP se dva zakládající jazykové modely dají číst jako dva sm�
 
 ## Struktura vzorce
 
-Pro analýzu je nejdůležitější, že žebříček obecnosti není jeden. V řeči se pod společným obrazem „nahoru a dolů“ mísí nejméně tři různé vztahy. Prvním je vztah třídy a členu: jablko je ovoce. Druhým je vztah celku a části: kolo je součástí auta. Třetím je vztah účelu a prostředku: auto slouží k cestování. Každý z nich má jinou logiku. Co platí o třídě, platí o každém členu jen tehdy, jde-li o vlastnost, kterou třída skutečně vymezuje. Co platí o celku, nemusí platit o částech. A z účelu prostředek neplyne vůbec: k cestování slouží i vlak, kolo nebo chůze. Tréninkové podání NLP tyto vztahy obvykle neodlišuje a mluví prostě o „větších“ a „menších“ celcích.
+Pro analýzu je nejdůležitější, že žebříček obecnosti není jeden. V řeči se pod společným obrazem „nahoru a dolů“ mísí nejméně tři různé vztahy. Prvním je vztah třídy a členu: jablko je ovoce. Druhým je vztah celku a části: kolo je součástí auta. Třetím je vztah účelu a prostředku: auto slouží k cestování. Každý z nich má jinou logiku. Co platí o třídě, platí o každém členu jen tehdy, jde-li o vlastnost, kterou třída skutečně vymezuje. Co platí o celku, nemusí platit o částech (Copi, Cohen a McMahon 2014). A z účelu prostředek neplyne vůbec: k cestování slouží i vlak, kolo nebo chůze. Tréninkové podání NLP tyto vztahy obvykle neodlišuje a mluví prostě o „větších“ a „menších“ celcích.
 
 Druhou strukturní vlastností je asymetrie směrů. Od konkrétního případu vede nahoru v každém vztahu jen málo cest, ale od obecné hodnoty vede dolů cest mnoho. Kdo přejde od hodnoty k jednomu konkrétnímu kroku, provedl volbu, i když ji nemusí přiznat. Třetí vlastností je výměna přesnosti za shodu. Na vyšších úrovních se lidé shodnou snáz, protože obecné výroky skoro nic nevylučují; na nižších úrovních jsou výroky ověřitelné, ale také sporné. Čtvrtou vlastností je, že tentýž pojem leží v několika hierarchiích najednou: pes je savec, domácí zvíře, majetek i člen rodiny. Volba hierarchie je volbou rámce a Tversky a Kahneman ukázali, že už samotný způsob popisu téže volby mění rozhodnutí lidí (Tversky a Kahneman 1981). Pozorovatel se proto ptá nejen na úroveň, ale i na to, v jaké hierarchii se úroveň měří.
 
@@ -118,6 +118,7 @@ U lidí, kteří byli dlouho vystaveni prostředí s obecnými hesly a vynucený
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Dilts, R. (1999). *Sleight of Mouth: The Magic of Conversational Belief Change*. Capitola: Meta Publications.
 - Korzybski, A. (1933). *Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics*. Lancaster: International Non-Aristotelian Library.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.

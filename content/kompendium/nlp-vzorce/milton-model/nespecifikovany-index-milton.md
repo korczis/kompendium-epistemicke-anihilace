@@ -109,8 +109,7 @@ toho, co dělají nebo si myslí druzí, zejména druzí jim podobní (Cialdini 
 
 Vzorec pracuje dvěma mechanismy. Prvním je sebe-přiřazení. Neurčitý podmět je prázdné místo,
 které posluchač obsadí. Výrok o tom, co „člověk někdy cítí“, nežádá souhlas, a proto
-nevyvolává ani nesouhlas; posluchač si však ve chvíli porozumění vybaví vlastní zkušenost, a
-výrok se tak stane výrokem o něm. Na rozdíl od přímého oslovení neklade otázku, na kterou by
+nevyvolává ani nesouhlas; posluchač si však ve chvíli porozumění vybaví vlastní zkušenost, a výrok se tak stane výrokem o něm (Bandler a Grinder 1975b). Na rozdíl od přímého oslovení neklade otázku, na kterou by
 bylo možné odpovědět „ne“. Druhým mechanismem je anonymní autorita. Neurčitá skupina se
 vydává za nositele vědění nebo normy: lidé, kteří prošli programem, „vědí“, zkušení „tuší“,
 ti, kdo to myslí vážně, „nepochybují“. Výrok formálně popisuje skupinu, ale fakticky stanoví

@@ -31,7 +31,7 @@ catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-196
 ## Co rodina zahrnuje
 
 Rodina jazykových presupozic shromažďuje vzorce, ve kterých výpověď nepodává sporný obsah
-jako tvrzení, ale jako předpoklad, ze kterého se vychází. Zastřešující heslo
+jako tvrzení, ale jako předpoklad, ze kterého se vychází (Levinson 1983). Zastřešující heslo
 [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md) popisuje
 mechanismus obecně; další hesla se věnují jednotlivým gramatickým cestám, kterými se
 předpoklad do věty dostává. Patří k nim pojmenování a přivlastnění, která předpokládají
@@ -54,9 +54,10 @@ hesla, která sledují presupozice v konkrétních prostředích: v reklamě a v
 
 Rodina se překrývá se dvěma jinými rodinami katalogu. [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) obsahuje heslo
 [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md),
-které popisuje, jak se má předpoklad v řeči klienta rozpoznat a zpochybnit, a [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md)
+které popisuje, jak se má předpoklad v řeči klienta rozpoznat a zpochybnit (Bandler a Grinder
+1975), a [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md)
 obsahuje heslo [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md),
-které popisuje opačný směr, tedy jak se předpoklady používají v hypnotickém jazyce. Tato
+které popisuje opačný směr, tedy jak se předpoklady používají v hypnotickém jazyce (Bandler a Grinder 1975b). Tato
 rodina stojí mezi nimi: popisuje jazykový mechanismus samotný, nezávisle na tom, kdo ho
 používá a s jakým záměrem.
 

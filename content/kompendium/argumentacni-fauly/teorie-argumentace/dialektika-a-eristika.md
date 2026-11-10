@@ -168,8 +168,9 @@ Matthews 2016).
 
 ## Vztah k technikám kompendia
 
-Kompendium opakovaně popisuje situace, ve kterých jedna strana vede eristiku proti druhé, jež o
-tom neví. V politickém prostředí, kterému se věnuje kapitola
+Kompendium opakovaně popisuje situace, ve kterých jedna strana vede eristiku proti druhé, jež o tom
+neví. Cílem hádky přitom není rozhodnout spornou otázku podle důvodů, ale zasáhnout protivníka a
+ukázat se v lepším světle (Walton 2008). V politickém prostředí, kterému se věnuje kapitola
 [politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md), se z
 veřejné debaty stává soutěž o pozornost, ve které se argumenty měří dosahem. V osobních
 vztazích se eristika projevuje tím, že každá výměna končí přiznáním chyby jen na jedné straně,

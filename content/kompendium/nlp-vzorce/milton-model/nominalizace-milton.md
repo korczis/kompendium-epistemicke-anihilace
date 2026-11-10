@@ -111,8 +111,7 @@ krátkých abstraktních formulí, které ukončují přemýšlení dřív, než
 Nominalizace v sugestivní řeči má tři vlastnosti, které společně vytvářejí její účinek.
 První je vypuštění účastníků: není řečeno, kdo co chápe nebo mění, takže se posluchač do
 role subjektu dosadí sám. Druhá je zmrazení procesu do stavu. Děj, který by měl začátek,
-průběh a konec, se mění ve věc, kterou člověk má nebo nemá, a tedy i ve věc, kterou mu
-někdo může dát, slíbit nebo upřít. Třetí je hodnotový náboj. Kladné nominalizace jako
+průběh a konec, se mění ve věc, kterou člověk má nebo nemá, a tedy i ve věc, kterou mu někdo může dát, slíbit nebo upřít (Bandler a Grinder 1975; Lakoff a Johnson 1980). Třetí je hodnotový náboj. Kladné nominalizace jako
 svoboda, růst, probuzení nebo celistvost slibují stav, k němuž má posluchač dospět. Záporné
 nominalizace jako rezistence, ego, strach nebo závislost označují to, co mu v cestě stojí.
 Když se posluchačova pochybnost pojmenuje jako „rezistence“, přestává být úsudkem, který

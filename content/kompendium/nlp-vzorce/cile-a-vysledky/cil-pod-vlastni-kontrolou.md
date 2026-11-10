@@ -112,7 +112,8 @@ vlastním jednáním vyřešit a že systém může být nastaven tak, aby změn
 
 Strukturálně jde o rozdělení světa na to, co člověk ovlivňuje, a co ne, a o přesunutí cíle
 do první oblasti. Toto rozdělení má dvě strany. První strana je praktická: zaměřuje úsilí
-tam, kde může něco změnit, a chrání před čekáním na změnu druhých. Druhá strana je morální:
+tam, kde může něco změnit, a chrání před čekáním na změnu druhých, jak podmínku zdůvodňují
+úvodní učebnice oboru (O'Connor a Seymour 1990). Druhá strana je morální:
 přiděluje odpovědnost. Když se cíl přesune do vlastní oblasti člověka, přesune se tam i
 odpovědnost za jeho dosažení, a pokud se cíle nedosáhne, nabízí se výklad, že člověk selhal.
 Rozdělení samo neříká, kde leží hranice mezi tím, co člověk ovlivní, a co ne. O tom

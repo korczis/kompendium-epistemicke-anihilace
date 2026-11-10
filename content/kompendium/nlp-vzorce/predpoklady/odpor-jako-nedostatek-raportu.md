@@ -44,9 +44,9 @@ catalog_prev = "nejlepsi-dostupna-volba"
 catalog_next = "kdyz-to-nefunguje-udelej-neco-jineho"
 catalog_position = 11
 catalog_family_size = 21
-catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "haley-1973", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "watzlawick-1967", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
-catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -86,9 +86,8 @@ které z odporu dělá klientovu poruchu, má předpoklad svou hodnotu. Pro komp
 předpokladům s vysokým rizikem zneužití, protože stejná logika může z odmítnutí udělat
 technický problém. Pokud „ne“ znamená jen to, že ještě není dost raportu, pak řešením není ne
 respektovat, ale vztah prohloubit a pokračovat. Souhlas druhého tím přestává být podmínkou a
-stává se cílem, ke kterému se má mluvčí dopracovat.
-
-Předpoklad stojí na pojmu raportu, který úvodní učebnice NLP popisují jako základ veškeré
+stává se cílem, ke kterému se má mluvčí dopracovat. Předpoklad stojí na pojmu raportu, který úvodní
+učebnice NLP popisují jako základ veškeré
 účinné komunikace a jeho navazování jako jednu z prvních dovedností praktika (O'Connor a
 Seymour 1990). Z toho plyne, proč má odpor v NLP tak výraznou roli: pokud je raport podmínkou
 vlivu, každé odmítnutí lze vyložit jako jeho nedostatek. Rozdíl mezi signálem, který vede k
@@ -111,7 +110,9 @@ jako signál, na který má reagovat terapeut (Miller a Rollnick 2013).
 
 ## Struktura vzorce
 
-Strukturálně jde o přeřazení odmítnutí z roviny obsahu do roviny vztahu. Když člověk řekne ne,
+Strukturálně jde o přeřazení odmítnutí z roviny obsahu do roviny vztahu, tedy mezi dvěma
+aspekty, které podle pragmatické teorie komunikace nese každé sdělení (Watzlawick, Beavin a
+Jackson 1967). Když člověk řekne ne,
 lze jeho výpověď číst jako rozhodnutí o věci: nechci koupit, nechci pokračovat, nesouhlasím.
 Předpoklad ji čte jako výpověď o vztahu: necítím se pochopen, nedůvěřuji ti. Obě čtení mohou
 být pravdivá a v terapii je druhé čtení často užitečné, protože vede terapeuta k sebereflexi.
@@ -146,7 +147,8 @@ požadavku po odmítnutí většího, aby ho obrátili v souhlas (Cialdini 2009)
 U člověka, na kterého je takto působeno, se objevuje pocit, že jeho ne nestačí, že musí
 odmítnutí zdůvodňovat a obhajovat, a vyčerpání z rozhovorů, které nekončí, dokud neustoupí.
 Dlouhodobě může vzniknout přesvědčení, že vlastní hranice jsou známkou nedostatečné
-otevřenosti.
+otevřenosti. Herman popisuje, jak soustavné potlačování autonomie v podmínkách nadvlády
+narušuje i schopnost člověka chránit se v dalších vztazích (Herman 1992).
 
 ## Legitimní a manipulativní užití
 
@@ -162,7 +164,8 @@ Manipulativní užití se rozpoznává podle tří otázek. Vede vnímaný odpor
 tlaku, nebo že ho zvýší? Má druhá strana možnost odmítnout tak, aby to mluvčí přijal jako
 konečné rozhodnutí? A slouží práce na vztahu porozumění druhému, nebo dosažení cíle, který
 druhý odmítl? Pokud odmítnutí vede vždy jen k další práci na raportu, předpoklad ruší význam
-souhlasu.
+souhlasu; motivační rozhovor naopak trvá na tom, že rozhodnutí o změně patří klientovi (Miller a
+Rollnick 2013).
 
 ## Stav důkazů
 
@@ -183,7 +186,9 @@ Základní obranou je brát vlastní odmítnutí jako platné rozhodnutí, kter�
 zdůvodnění. Kdo opakovaně slyší, že jeho ne je jen znakem chybějícího naladění, může ne
 zopakovat a rozhovor ukončit; nemá povinnost vysvětlovat, proč nechce. Druhou obranou je všímat
 si, kdy po odmítnutí nastává zesílení působení: větší vřelost, nové argumenty, odvolávky na
-vlastní hodnoty nebo časový tlak. Takové zesílení je informace o úmyslu mluvčího, ne o kvalitě
+vlastní hodnoty nebo časový tlak, tedy prostředky, které výzkum vyhovění popisuje jako běžné
+nástroje profesionálů v přesvědčování (Cialdini 2009). Takové zesílení je informace o úmyslu
+mluvčího, ne o kvalitě
 vztahu. Kompendium rozebírá etiku hranic a souhlasu v obecnější rovině na stránce o [etice
 hranic](@/philosophy/boundary-ethics.md).
 
@@ -208,6 +213,7 @@ pokračovat proti vůli druhého.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

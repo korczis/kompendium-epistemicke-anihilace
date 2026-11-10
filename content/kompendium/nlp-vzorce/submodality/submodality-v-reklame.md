@@ -44,10 +44,10 @@ catalog_prev = "prostorove-umisteni-obrazu"
 catalog_next = "zmena-kriticke-sebeprezentace"
 catalog_position = 19
 catalog_family_size = 20
-catalog_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "hasher-1977", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "roozenbeek-2022", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
 catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = []
-catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_critical = ["cialdini-2009", "hasher-1977", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "roozenbeek-2022", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -137,7 +137,8 @@ oporu v obsahu. Divák si může všimnout, že jedna strana sporu je zobrazena 
 zblízka, druhá ve tmě a z dálky, i když záběry nic neříkají o jejich argumentech. Varovným
 znakem je, když komentář vyzývá k „samostatnému rozhodnutí“, ale obrazová složka rozhodnutí
 předem připravila. Dalším znakem je, že po zhlédnutí si divák pamatuje především pocit a
-obrazy, ale nedokáže zopakovat žádné věcné tvrzení. U online obsahu je typický rychlý střih,
+obrazy, ale nedokáže zopakovat žádné věcné tvrzení; postoj se pak opírá o periferní podněty, ne
+o argumenty (Petty a Cacioppo 1986). U online obsahu je typický rychlý střih,
 neustálá změna podnětů a hudba, která udržuje napětí, a to i u obsahů, jejichž věcná složka je
 minimální.
 
@@ -155,7 +156,8 @@ zpomaleným záběrem a hudbou zvýrazňuje emoci, nemanipuluje, pokud jeho tvrz
 a pokud estetické prostředky slouží obsahu, nikoli jeho náhradě. Podobně reklama, která
 produkt ukazuje v přitažlivém světle, je běžnou komunikací, pokud nezamlčuje podstatné
 informace a nepracuje s klamem. Mediální výchova může prostředky obrazové rétoriky otevřeně
-pojmenovávat a tím divákům pomoci je rozpoznat; to je v podstatě obranné užití téhož poznání.
+pojmenovávat a tím divákům pomoci je rozpoznat; to je v podstatě obranné užití téhož poznání
+(van der Linden 2023).
 
 Manipulativní užití nastává, když formální kontrast nahrazuje věcné srovnání a když je
 záměrně zakrýváno, že obrazová složka nese hodnocení, které obsah nedokládá. V politické
@@ -192,20 +194,25 @@ tvrzení v něm zůstanou, když se odmyslí obrazy a hudba, a tato tvrzení ov�
 
 U lidí, kteří byli dlouhodobě vystaveni intenzivnímu mediálnímu prostředí, například
 uzavřenému proudu obsahů určité skupiny nebo influencera, pomáhá vědomé rozšíření zdrojů a
-omezení opakovaného kontaktu s týmiž obrazy. Odstup od proudu obsahů umožní, aby pocit
+omezení opakovaného kontaktu s týmiž obrazy, protože opakování samo zvyšuje, jak věrohodně
+sdělení působí (Hasher, Goldstein a Toppino 1977). Odstup od proudu obsahů umožní, aby pocit
 blízkosti a důvěry, vytvořený formou, vybledl a aby se znovu objevila otázka, co mluvčí vlastně
 tvrdí. Pro pedagogy a odborníky z toho plyne, že mediální výchova by měla pojmenovávat nejen
-dezinformace, ale i formální prostředky, které jim dávají přesvědčivost.
+dezinformace, ale i formální prostředky, které jim dávají přesvědčivost; výzkum psychologické
+inokulace ukazuje, že poučení o manipulativních technikách zlepšuje jejich rozpoznávání
+(Roozenbeek a kol. 2022).
 
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
+- Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*, 16(1), 107–112.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
+- Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.

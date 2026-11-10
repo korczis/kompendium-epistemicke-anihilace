@@ -192,8 +192,9 @@ vyhýbavě nebo slibuje rychlou změnu citu, který dotazovaný měnit nechce, j
 popisu nepokračovat. Druhou obranou je odmítnout veřejné zkoumání soukromých prožitků.
 Semináře a skupiny, ve kterých se intimní představy popisují před ostatními, vytvářejí
 sociální tlak, a odejít z cvičení je legitimní volba. Třetí obranou je hlídat formulace:
-otevřená otázka „jak to vypadá“ dává prostor vlastnímu popisu, otázka nabízející hotové
-kvality ho vede. Kdo si všimne, že přebírá popis tazatele, může se vrátit k vlastním slovům.
+otevřená otázka „jak to vypadá“ dává prostor vlastnímu popisu, otázka nabízející hotové kvality
+ho vede; už volba slova v otázce mění, co dotazovaný vypoví (Loftus a Palmer 1974). Kdo si
+všimne, že přebírá popis tazatele, může se vrátit k vlastním slovům.
 
 U lidí, jejichž prožitky byly v nátlakovém prostředí soustavně mapovány a přelaďovány, se
 zotavení opírá o obnovu vlastnictví prožitku. Herman zdůrazňuje, že po zkušenosti kontroly je

@@ -23,7 +23,7 @@ catalog_en = "Fallacies of presumption"
 catalog_size = 20
 catalog_members = ["kruhovy-argument", "sugestivni-otazka", "falesne-dilema", "slozena-otazka", "zadny-pravy-skot", "zvlastni-vyjimka", "ukvapene-zobecneni", "prilis-siroke-zobecneni", "vyber-tresnicek", "falesna-ekvivalence", "zamlceni-dukazu", "falesny-kompromis", "nefalzifikovatelnost", "posouvani-branek", "presun-dukazniho-bremene", "nirvana-klam", "argument-z-neuveritelnosti", "kluzky-svah", "klam-utopenych-nakladu", "dokaz-tvrzenim"]
 catalog_types = ["informal", "tactic"]
-catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "nickerson-1998", "roozenbeek-2022", "tversky-kahneman-1974", "walton-1995", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "nickerson-1998", "popper-1959", "roozenbeek-2022", "tversky-kahneman-1974", "walton-1995", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 +++
 
 # Klamy předpokladu
@@ -54,6 +54,8 @@ místem je heslo glosáře o cirkulární argumentaci,
 [zvláštní výjimka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md),
 [nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md)
 a [posouvání branek](@/kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md).
+Společný mechanismus této skupiny, záchranu tvrzení před vyvrácením dodatečnými hypotézami nebo
+změnou definic, popsala filozofie vědy (Popper 1959).
 Třetí skupinu tvoří klamy zobecnění a výběru:
 [ukvapené zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md),
 [příliš široké zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/prilis-siroke-zobecneni.md),
@@ -113,8 +115,10 @@ vnesly otázky; souvislosti s výslechem kompendium rozebírá v hesle
 [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md).
 Pro výzkumníka to znamená ptát se, zda soubor dokladů byl sestaven nezávisle na výsledku a
 zda zobecnění odpovídá vzorku. Pro všechny čtenáře platí, že klamy předpokladu nejsou vždy
-úmyslné. Kruhový argument, ukvapené zobecnění i výběr dokladů vznikají často spontánně z
-přesvědčení mluvčího, a hesla proto rozlišují chybu uvažování od taktiky. Rozlišení má význam
+úmyslné. Kruhový argument, ukvapené zobecnění i výběr dokladů vznikají často spontánně z přesvědčení
+mluvčího; u výběru dokladů popisuje psychologie úsudku právě takovou neuvědomělou selektivitu při
+hledání a hodnocení důkazů (Nickerson 1998). Hesla proto rozlišují chybu uvažování od taktiky.
+Rozlišení má význam
 pro odpověď: na chybu stačí upozornit, kdežto taktika se obvykle vrací v jiné podobě a vyžaduje
 trvalejší pozornost. Každé heslo odlišuje klam od platné argumentace, protože otázky s
 předpoklady, zobecnění i výběr dokladů jsou v rozumném rozhovoru nezbytné a klamem se stávají
@@ -263,6 +267,7 @@ flowchart LR
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Johnson, R. H., & Blair, J. A. (1977). *Logical Self-Defense*. Toronto: McGraw-Hill Ryerson.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.

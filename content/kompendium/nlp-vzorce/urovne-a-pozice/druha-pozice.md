@@ -44,8 +44,8 @@ catalog_prev = "prvni-pozice"
 catalog_next = "treti-pozice"
 catalog_position = 10
 catalog_family_size = 16
-catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "dilts-delozier-2000", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "perls-1969", "rogers-1951", "sharpley-1987", "stark-2007", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-delozier-1987"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "chartrand-bargh-1999", "dilts-delozier-2000", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "perls-1969", "rogers-1951", "sharpley-1987", "stark-2007", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "dilts-delozier-2000", "grinder-delozier-1987"]
 catalog_sources_roots = ["perls-1969"]
 catalog_sources_critical = ["chartrand-bargh-1999", "gilovich-1991", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -130,7 +130,7 @@ Druhým směrem je vynucené vcítění: člověk je vyzván, aby se vcítil do 
 vcítění je stanoven předem a mluvčí sám do pozice druhého nevstupuje. Třetím směrem je nárok
 na druhou pozici: mluvčí tvrdí, že přesně ví, co druhý prožívá a potřebuje, a tím si osobuje
 právo za něj rozhodovat. Tento nárok má strukturu, kterou [meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) popisuje jako
-[čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md). Kompendium
+[čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) (Bandler a Grinder 1975). Kompendium
 příbuzné mechanismy rozebírá v technice
 [mentalizační disrupce](@/kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md).
 
@@ -205,6 +205,7 @@ dokud o to klient sám nestojí.
 
 ## Literatura
 
+- Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
 - Chartrand, T. L., & Bargh, J. A. (1999). The chameleon effect: The perception–behavior link and social interaction. *Journal of Personality and Social Psychology*, 76(6), 893–910.
 - Dilts, R., & DeLozier, J. (2000). *Encyclopedia of Systemic Neuro-Linguistic Programming and NLP New Coding*. Scotts Valley: NLP University Press.

@@ -156,8 +156,9 @@ nejistoty. Ve forenzním prostředí, které kompendium probírá v oddílu
 [forenzní a právní rozměr](@/kompendium/forensic-legal/_index.md), se tytéž vady objevují v
 posudcích, kde se obecný poznatek oboru vydává za oprávnění k závěru o konkrétní osobě, ačkoli
 jeho podpora se týká jen průměru skupiny. Toulminova mřížka v takových případech nedává
-hotovou odpověď, ale ukazuje, kde se má ptát: zda oprávnění odpovídá oboru, zda jeho podpora
-pokrývá daný případ a zda byly zváženy výjimky. Tím se rozbor posouvá od dojmu přesvědčivosti
+hotovou odpověď, ale ukazuje, kde se má ptát: zda oprávnění odpovídá oboru, zda jeho podpora pokrývá
+daný případ a zda byly zváženy výjimky. Právě tyto tři otázky odpovídají Toulminovu rozlišení
+oprávnění, jeho podpory a výhrad (Toulmin 1958). Tím se rozbor posouvá od dojmu přesvědčivosti
 k otázce, co přesně argument nese a co ne.
 
 ## Stav poznání

@@ -135,7 +135,7 @@ vysvětlují neúspěchy, nemoci nebo konflikty jako následek nedostatečné v�
 Manipulativní užití přesvědčení o příčině se pozná podle toho, že výklad příčin systematicky
 přesouvá odpovědnost od mluvčího k druhému. Typické jsou věty, v nichž mluvčí vlastní
 reakci popisuje jako nevyhnutelný důsledek cizího jednání („nutíš mě“, „kvůli tobě“), a
-zároveň zobecnění na „vždycky“ nebo „pokaždé“. Dalším znakem je jednosměrnost: chyby
+zároveň zobecnění na „vždycky“ nebo „pokaždé“ (Bandler a Grinder 1975). Dalším znakem je jednosměrnost: chyby
 druhého jsou příčinou všeho, co se stalo, ale chyby mluvčího jsou následkem okolností. Ve
 skupinách se kauzální výklad opírá o učení: utrpení je důsledkem odporu, nemoc důsledkem
 myšlení, neúspěch důsledkem nedostatečného nasazení. Takový výklad nelze vyvrátit, protože

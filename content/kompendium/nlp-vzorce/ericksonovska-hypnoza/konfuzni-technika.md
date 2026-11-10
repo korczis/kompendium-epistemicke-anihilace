@@ -117,7 +117,8 @@ ale nedají se zpracovat do jednoznačného významu. Sdělení na sebe navazuj�
 posluchač nestihne požádat o vysvětlení, a často se týkají věcí, které jsou pro orientaci
 důležité: času, místa, toho, kdo co udělal. Ve druhé fázi se nabízí uzavření. Mluvčí
 podá jednoduché, srozumitelné sdělení, typicky pokyn, výklad nebo rozhodnutí, a to
-přichází jako úleva od napětí z nejasnosti.
+přichází jako úleva od napětí z nejasnosti. Sled odpovídá Ericksonovu pozorování, že posluchač,
+který nerozumí, se chytí první srozumitelné nabídky (Erickson, Rossi a Rossi 1976).
 
 Psychologický mechanismus lze popsat bez odkazu na hypnózu. Pracovní paměť má omezenou
 kapacitu a při jejím zahlcení klesá schopnost současně sledovat obsah a hodnotit ho
@@ -136,7 +137,8 @@ plynule a sebejistě, ale z jeho slov nelze sestavit srozumitelnou výpověď. V
 zamotané časové údaje, dvojité zápory, nedokončené věty nebo nečekané odbočky a na
 otázku po vysvětlení přichází další, ještě složitější vrstva místo zjednodušení. Typický
 je ostrý kontrast mezi nesrozumitelnou částí a následným jednoduchým pokynem, který bývá
-pronesen pomaleji, důrazněji nebo jiným tónem. Posluchač zažívá tělesné a myšlenkové
+pronesen pomaleji, důrazněji nebo jiným tónem; takové vyčlenění pokynu změnou hlasu popsali
+Bandler a Grinder v Ericksonově řeči jako analogové označení (Bandler a Grinder 1975b). Posluchač zažívá tělesné a myšlenkové
 znaky zmatení: pocit, že „ztratil nit“, mírnou úzkost, touhu situaci uzavřít a stud za
 to, že nerozumí. Právě stud bývá rozhodující, protože brání zeptat se. Kompendium
 příbuzný mechanismus na úrovni textů a odborné komunikace popisuje jako

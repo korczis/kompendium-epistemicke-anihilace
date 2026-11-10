@@ -44,9 +44,9 @@ catalog_prev = "myslenkovy-virus"
 catalog_next = "presvedceni-jako-mapa"
 catalog_position = 12
 catalog_family_size = 14
-catalog_sources = ["beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
+catalog_sources = ["beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "popper-1959", "sturt-2012", "witkowski-2010"]
 catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
-catalog_sources_roots = []
+catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["beck-1976", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -128,7 +128,8 @@ osobního rozvoje se objevuje otevřeně. Je to stejný mechanismus, který komp
 přesvědčení typu
 [beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md),
 jen obrácený: místo aby se nemocnému naděje brala, slibuje se mu, a za nesplnění slibu nese
-vinu on.
+vinu on. Konstrukce je zároveň nevyvratitelná: žádný průběh nemoci ji nemůže vyvrátit, a podle
+Popperova kritéria proto nejde o empiricky testovatelné tvrzení (Popper 1959).
 
 ## Detekční znaky
 
@@ -201,6 +202,7 @@ slib nese ten, kdo ho dal, ne ten, kdo mu uvěřil.
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 

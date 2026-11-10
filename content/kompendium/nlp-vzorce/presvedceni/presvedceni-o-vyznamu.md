@@ -139,7 +139,7 @@ druhého výklad, aniž by se ptal, jak je prožívá on sám, a výklad podáv�
 jsou nastaveny tak, že protichůdné jevy vedou ke stejnému závěru: pokud člověk souhlasí,
 znamená to, že pochopil; pokud nesouhlasí, znamená to, že se brání. Ve skupině se výklady
 opakují ve stálých frázích a žargonu, který zvenčí působí nesrozumitelně a uvnitř nahrazuje
-popis zkušenosti. Kompendium tento znak rozebírá jako
+popis zkušenosti (Lifton 1961). Kompendium tento znak rozebírá jako
 [hustotu žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md). Dalším
 znakem je asymetrie: chování mluvčího má vždy příznivý význam, chování druhého vždy
 nepříznivý nebo vyžadující nápravu.

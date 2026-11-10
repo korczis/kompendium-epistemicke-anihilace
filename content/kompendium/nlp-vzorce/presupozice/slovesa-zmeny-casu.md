@@ -114,7 +114,8 @@ angličtině.
 Vzorec spojuje dva časové body. Pozdější bod, o kterém výpověď mluví, nese tvrzení nebo
 otázku. Dřívější bod, stav před změnou, se předpokládá. Manipulativní užití staví do
 dřívějšího bodu sporný obsah, nejčastěji obvinění nebo negativní vlastnost, a do pozdějšího
-bodu otázku, na kterou se dá snadno odpovědět. Kdo odpoví na pozdější bod, potvrdí dřívější.
+bodu otázku, na kterou se dá snadno odpovědět. Kdo odpoví na pozdější bod, potvrdí dřívější, protože předpoklad slovesa změny stavu
+přetrvává v otázce i pod záporem (Levinson 1983).
 Příslovce „pořád“ a „ještě“ přidávají další vrstvu: předpokládají nejen dřívější stav, ale i
 to, že trvá, a tím z jedné události dělají vlastnost. Příslovce „konečně“ naopak předpokládá,
 že změna byla dlouho očekávána, a vkládá do výpovědi hodnocení dosavadního stavu jako
@@ -133,7 +134,7 @@ Vzorec má tři hlavní podoby. Ukončovací slovesa („přestat“, „skonči
 dřívější děj a typicky slouží k obvinění, které se nevysloví. Počáteční slovesa („začít“,
 „dostat se k“, „objevit se“) předpokládají předchozí absenci a v terapeutickém jazyce slouží
 k tomu, aby se o žádoucí změně mluvilo jako o probíhající, například „kdy jste začal
-pozorovat první zlepšení“. Trvací slova („pokračovat“, „pořád“, „ještě“, „stále“) předpokládají
+pozorovat první zlepšení“ (Bandler a Grinder 1975b). Trvací slova („pokračovat“, „pořád“, „ještě“, „stále“) předpokládají
 dřívější i současný stav a v obviňující řeči mění jednotlivou událost v trvalý rys. Úzce s
 nimi souvisejí [opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md),
 která předpokládají dřívější výskyt téhož děje, a [časové věty](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md),
@@ -167,7 +168,7 @@ stav odpovídá zkušenosti klienta a zda klient může předpoklad bez obtíž�
 Manipulativní užití vkládá do předpokladu obvinění, diagnózu nebo trvalou negativní
 vlastnost. Je typické v obviňujících rozhovorech v rodině a v partnerství, v nátlakových
 rozhovorech na pracovišti a ve výslechu vedeném s předem hotovou verzí událostí. Jeho
-nebezpečnost spočívá v tom, že adresát, který na otázku odpoví, předpoklad potvrdí, a ten
+nebezpečnost spočívá v tom, že adresát, který na otázku odpoví, předpoklad potvrdí (Levinson 1983), a ten
 se pak může objevit v pozdějším shrnutí jako jeho vlastní výpověď.
 
 ## Stav důkazů

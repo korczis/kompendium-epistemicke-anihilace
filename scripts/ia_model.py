@@ -77,12 +77,27 @@ def url_of(rel: pathlib.PurePosixPath) -> str:
     return "/" + "/".join(parts) + ("/" if parts else "")
 
 
+def _catalogue_classes() -> list:
+    """The page classes of the catalogue sections, derived from data/catalogs.toml (the
+    declaration scripts/catalogs.py reads): a new [[catalog]] block is a new section of the
+    classes catalog-index / catalog, and its pages need no new schema row."""
+    path = ROOT / "data" / "catalogs.toml"
+    if not path.is_file():
+        return []
+    decl = tomllib.loads(path.read_text(encoding="utf-8"))
+    sections = "|".join(re.escape(c["section"]) for c in decl.get("catalog", []))
+    out = []
+    if decl.get("trainer"):
+        out.append(("catalog-trainer", re.compile("^" + re.escape(decl["trainer"]) + "$")))
+    if sections:
+        out.append(("catalog-index", re.compile(rf"^(?:{sections})/(?:.+/)?_index\.md$")))
+        out.append(("catalog", re.compile(rf"^(?:{sections})/.+\.md$")))
+    return out
+
+
 # Page classes, inferred from the path only (first match wins). The front-matter schema of
 # scripts/normalize-front-matter.py says which keys each class carries.
-PAGE_CLASSES = [
-    ("nlp-index", re.compile(r"^kompendium/nlp-vzorce/(?:.+/)?_index\.md$")),
-    ("nlp-trainer", re.compile(r"^kompendium/nlp-vzorce/trener\.md$")),
-    ("nlp", re.compile(r"^kompendium/nlp-vzorce/.+\.md$")),
+PAGE_CLASSES = _catalogue_classes() + [
     ("section", re.compile(r"(?:^|/)_index\.md$")),
     ("glossary", re.compile(r"^glossary/")),
     ("technique", re.compile(r"^kompendium/techniques/")),

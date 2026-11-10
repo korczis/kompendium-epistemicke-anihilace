@@ -123,7 +123,9 @@ přeformulovává třetí rovinu tak, aby ochranný záměr zůstal naplněn jin
 
 Z pohledu kompendia je právě toto rozvržení citlivé. Pokud se obsah kritiky nezkoumá, nelze
 rozlišit, zda vnitřní kritik říká něco mylného a ponižujícího, nebo něco pravdivého a
-užitečného. Hlas, který po každé prezentaci říká „byl jsi trapný“, je krutý a obvykle
+užitečného. Kognitivní terapie proto obsah sebekritických myšlenek nejdřív posuzuje a teprve
+pak je označí za zkreslené (Beck 1976). Hlas, který po každé prezentaci říká „byl jsi trapný“,
+je krutý a obvykle
 nepřesný. Hlas, který před podpisem drahé smlouvy říká „na to nemáš“, může být rozumný. Vzorec
 mezi nimi sám nerozlišuje. Kdo rozhoduje, který vnitřní hlas je „kritik“ a který „moudrost“, tím
 rozhoduje o tom, které myšlenky člověk smí brát vážně. V prostředích, která potřebují oslabit
@@ -144,7 +146,7 @@ U člověka, na kterého je vzorec dlouhodobě uplatňován, se objevuje oslaben
 sebereflexe a opatrnosti, které se paradoxně může snoubit s hlubší nejistotou. Když každá
 vnitřní pochybnost dostane nálepku „kritik“, člověk přestane věřit vlastnímu hodnocení
 situací, ale současně nezíská jistotu, protože ji nahradí jen autorita, která pochybnosti
-odbyla. Kompendium tuto dynamiku popisuje u
+odbyla (Lifton 1961). Kompendium tuto dynamiku popisuje u
 [pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) a u
 [zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md),
 kde se vnitřní hodnocení systematicky přebírá zvenčí. Opačnou formou téhož mechanismu je
@@ -186,7 +188,8 @@ neodporuje, ale jeho specifický přínos nebyl prokázán.
 
 ## Obrana a zotavení
 
-Obranou je zkoumat obsah vnitřního kritika dřív, než se rozhodne o jeho umlčení. Užitečná je
+Obranou je zkoumat obsah vnitřního kritika dřív, než se rozhodne o jeho umlčení (Beck 1976).
+Užitečná je
 otázka, zda kritik říká něco nepřesného a ponižujícího, nebo něco, co je třeba zvážit, a zda ho
 někdo vybízí k umlčení právě ve chvíli, kdy z toho má prospěch. Rozhodnutí o penězích, závazcích
 a vstupu do skupin je rozumné odložit, prostudovat podmínky doma a probrat je s někým, kdo na

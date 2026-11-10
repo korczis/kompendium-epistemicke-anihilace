@@ -161,7 +161,7 @@ nevyužívá jej k tlaku; zároveň připouští, že se lidé podle situace mě
 
 Manipulativní užití převádí vnější tlak na vnitřní potřebu. Realitní makléř, který zájemci při
 prohlídce řekne, že je typ, který se potřebuje rozhodnout hned, a že je lepší to uzavřít, ať to
-má z hlavy, mění vlastní zájem na rychlém obchodu v péči o pohodlí zájemce. Kategorie se tu
+má z hlavy, mění vlastní zájem na rychlém obchodu v péči o pohodlí zájemce; jde o variantu tlaku lhůtou, který výzkum vlivu popisuje u principu nedostatku (Cialdini 2009). Kategorie se tu
 nevyužívá k porozumění, ale k tomu, aby se běžná nejistota před velkým rozhodnutím označila za
 problém, který řeší podpis. Rozhodující otázky jsou: Kdo vytváří časový tlak? Má lhůta věcný
 důvod? A je odklad rozhodnutí líčen jako opatrnost, nebo jako vada?
@@ -187,7 +187,7 @@ Základní obranou je oddělit vlastní preferenci od tlaku, který vytváří d
 věci uzavřené, nemusí uzavírat rozhodnutí, k němuž nemá dost informací; nepohodlí z otevřené
 otázky je menší cenou než chybné rozhodnutí. Pokud mluvčí přisuzuje „potřebu rozhodnout hned“,
 je legitimní odpovědět, že rozhodnutí přijde, až bude připravené, a že lhůta bez věcného důvodu
-není důvodem ke spěchu. Proti opačné podobě pomáhá trvat na tom, že podmínky dohody platí tak,
+není důvodem ke spěchu (Cialdini 2009). Proti opačné podobě pomáhá trvat na tom, že podmínky dohody platí tak,
 jak byly sjednány, a že pružnost v plánování neznamená souhlas s jednostrannými změnami.
 Užitečné je mít pro velká rozhodnutí vlastní pravidlo, například že se nepodepisuje v den první
 schůzky; takové pravidlo chrání bez ohledu na to, jaký typ člověk údajně je.

@@ -113,7 +113,9 @@ přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) (Cha
 ## Struktura vzorce
 
 Strukturálně má důkazní procedura tři prvky: kritérium (co se posuzuje), test (podle čeho se
-to pozná) a autora testu (kdo test stanovil). V běžném životě jsou testy většinou nevyslovené
+to pozná) a autora testu (kdo test stanovil). Pojem testu pochází z kybernetického modelu
+jednání, v němž test rozhoduje o pokračování nebo ukončení činnosti (Miller, Galanter a
+Pribram 1960). V běžném životě jsou testy většinou nevyslovené
 a člověk si je uvědomí, až když je druhý nesplní. Zpřesnění, které NLP nabízí, spočívá v
 tom, že test se vysloví, a tím se stane předmětem dohody. To je jádro legitimního užití: dvě
 strany, které se shodnou, podle čeho poznají splnění, se později méně přou o to, zda splnění
@@ -157,7 +159,8 @@ stranami, mohou být změněny a nemají měřit míru oběti. Manipulativní u�
 jako nástroj kontroly nebo přesvědčení. Rozpoznává se podle otázek: kdo test stanovil a mohl
 ho druhý odmítnout? Je test splnitelný, nebo se posouvá? Měří skutečnost, kterou má
 dokládat, nebo jen její vnější znaky? A neměří míru, v jaké se člověk vzdává vlastních
-vztahů, času nebo úsudku? Opakované zpochybňování vlastních měřítek člověka vede ke stavu,
+vztahů, času nebo úsudku? Právě takové testy, jimiž se oddanost měří omezováním vlastních
+vztahů a svobody, popisuje výzkum kontrolujících vztahů (Stark 2007). Opakované zpochybňování vlastních měřítek člověka vede ke stavu,
 který kompendium popisuje jako [pěstování
 sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md).
 

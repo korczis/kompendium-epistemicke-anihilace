@@ -23,7 +23,7 @@ catalog_en = "Submodalities"
 catalog_size = 20
 catalog_members = ["elicitace-submodalit", "vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kriticke-submodality", "kontrastni-analyza", "mapovani-napric", "swish", "kinesteticky-swish", "auditivni-swish", "vyhozeni-kompulze", "vzorec-godiva", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami", "prahovy-vzorec", "zmena-vnitrniho-hlasu", "filmova-technika", "prostorove-umisteni-obrazu", "submodality-v-reklame", "zmena-kriticke-sebeprezentace"]
 catalog_types = ["concept", "pattern"]
-catalog_sources = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-1980", "druckman-swets-1988", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-1980", "druckman-swets-1988", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 +++
 
 # Submodality
@@ -32,7 +32,8 @@ catalog_sources = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-
 
 Rodina NLP-10 shromažďuje hesla, která v neurolingvistickém programování pracují se
 submodalitami, tedy s kvalitami vnitřních představ: s velikostí, jasem a vzdáleností obrazu, s
-hlasitostí a tónem vnitřního hlasu, s umístěním, teplotou a pohybem tělesného pocitu. Obecný
+hlasitostí a tónem vnitřního hlasu, s umístěním, teplotou a pohybem tělesného pocitu (Bandler
+1985; Andreas a Andreas 1987). Obecný
 pojem submodalit popisuje heslo
 [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) v rodině základních
 pojmů. Tato rodina navazuje na něj a sdružuje pojmy a vzorce, které z něj vycházejí. Tvoří ji
@@ -54,8 +55,10 @@ variantou, techniky změny chutí a nutkání, práce s přesvědčeními a s vn
 technika, prostorové umístění představ, vzorec vnitřního kritika a heslo o užití submodalit v
 reklamě a médiích.
 
-Rodina je v katalogu jednou z nejpočetnějších a zároveň jednou z nejméně empiricky
-podložených. Je to i rodina, ve které je nejzřetelnější dvojí povaha NLP: tytéž vzorce, které
+Rodina je v katalogu jednou z nejpočetnějších a zároveň jednou z nejméně empiricky podložených;
+už o NLP jako celku dospěl rozbor kontrolovaných studií k závěru, že jeho tvrzení většinou
+nepodporují (Witkowski 2010). Je to i rodina, ve které je nejzřetelnější dvojí povaha NLP:
+tytéž vzorce, které
 se nabízejí k úlevě od fobie nebo zlozvyku, lze bez jakékoli úpravy použít k oslabení citů a
 pochybností, které jsou nepohodlné pro někoho jiného. Kompendium proto čte celou rodinu
 defenzivně, jako soubor struktur, které má pozorovatel umět rozpoznat.
@@ -89,8 +92,9 @@ Pro pozorovatele má rodina společnou strukturu, kterou lze rozpoznat bez ohled
 vzorec. Na začátku stojí zjišťování: mluvčí se ptá na podobu představy, ne na její obsah. Pak
 následuje porovnání nebo hledání páky: které kvality jsou „rozhodující“. Nakonec přichází
 návrh změny: představu zmenšit, oddálit, ztlumit, přesunout, nahradit. Klíčová otázka zní, kdo o
-cíli změny rozhoduje. Pokud člověk sám, jde o jeho volbu, i když metoda nemá doloženou
-účinnost. Pokud mluvčí, skupina nebo organizace, mění se slovník submodalit v nástroj, jak
+cíli změny rozhoduje. Pokud člověk sám, jde o jeho volbu, kterou i ověřené přístupy ke změně
+chování ponechávají na něm (Miller a Rollnick 2013), i když metoda nemá doloženou účinnost.
+Pokud mluvčí, skupina nebo organizace, mění se slovník submodalit v nástroj, jak
 zasáhnout do citů, pochybností a vztahů druhého pod zdáním technické úpravy představy.
 
 Druhým společným rysem je odpojení formy od obsahu. Vzorce rodiny pracují s tím, jak člověk
@@ -269,6 +273,7 @@ flowchart LR
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
+- Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.

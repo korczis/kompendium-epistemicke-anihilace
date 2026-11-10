@@ -125,9 +125,9 @@ tobě jsem přišel o práci“), k přítomnosti („teď mě rozčiluješ“) 
 odejdeš, zničíš mě“). Budoucí podoba je zvlášť silná, protože činí adresáta odpovědným za
 něco, co se ještě nestalo, a jeho rozhodnutí tak zatěžuje předem. V nejvyhrocenější
 podobě se objevuje jako výhrůžka sebepoškozením, za které má nést vinu ten, kdo odchází.
-Třetí osou je opakování a rozsah: jediný výrok je běžnou součástí hádky, systematické
-připisování vlastních stavů a činů druhému tvoří vzorec kontroly, který kompendium
-rozebírá u [kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
+Třetí osou je opakování a rozsah: jediný výrok je běžnou součástí hádky, kdežto soustavné
+připisování vlastních stavů a činů druhému zapadá do donucující kontroly, v níž jedna strana
+ovládá a vykládá každodenní život druhé (Stark 2007); kompendium tento vzorec rozebírá u [kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
 
 ## Detekční znaky
 
@@ -144,7 +144,7 @@ dlouhodobého traumatu (Herman 1992).
 
 U člověka, na kterého je vzorec uplatňován, se objevuje hypervigilance vůči náladám
 druhého, předběžné omlouvání a přizpůsobování se, aby „nevyprovokoval“ reakci, a
-přesvědčení, že bezpečí vztahu závisí na jeho dokonalém chování. Takové projevy jsou pro
+přesvědčení, že bezpečí vztahu závisí na jeho dokonalém chování (Herman 1992). Takové projevy jsou pro
 klinika i vyšetřovatele důležitým signálem, protože často předcházejí tomu, než člověk
 dokáže situaci sám pojmenovat jako násilí.
 

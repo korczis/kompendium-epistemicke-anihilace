@@ -171,6 +171,8 @@ opatření; nebezpečí kriminality existuje, a přesto z něj neplyne vina konk
 Klam zde nespočívá v přehánění hrozby, ale v přeskoku od hrozby k řešení, které s ní
 nesouvisí nebo jehož účinnost nebyla doložena. Rozbor proto musí posuzovat dvě otázky
 odděleně: zda hrozba existuje a zda navrhované jednání je vůči ní přiměřené a účinné.
+Obě otázky patří mezi kritické otázky schématu strachového apelu (Walton, Reed
+a Macagno 2008).
 
 ## Stav poznání
 

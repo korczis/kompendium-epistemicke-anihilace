@@ -121,7 +121,7 @@ Struktura předepsání symptomu má tři prvky. Prvním je přerámování symp
 nepopisuje jako něco, co klienta přemáhá, ale jako chování, které má určité podmínky,
 průběh a případně i funkci. Druhým je předpis: klient dostane úkol, který symptom
 nezakazuje, ale nějak upravuje, například jeho načasování, místo, délku nebo vědomé
-sledování. Třetím je změna vztahu ke kontrole: ať klient úkol splní, nebo ne, mění se jeho
+sledování, jak to Haley popisuje u Ericksonových případů (Haley 1973). Třetím je změna vztahu ke kontrole: ať klient úkol splní, nebo ne, mění se jeho
 zkušenost s tím, zda symptom ovládá. Pokud ho dokáže vyvolat, zjišťuje, že má nad ním
 určitý vliv; pokud ho vyvolat nedokáže, symptom ustupuje.
 

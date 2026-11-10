@@ -56,7 +56,8 @@ hodnot. Třetí skupinu tvoří vzorce přechodu a řízení vztahu: obecný vzo
 raportu, záměrné přerušení raportu a raport se skupinou. Čtvrtou skupinu tvoří vzorce, které
 se týkají čtení druhého a zneužití vztahu: [kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md),
 tvrzení NLP o rozpoznávání lži a o čtení řeči těla, raport jako nástroj vlivu a předstíraná
-empatie.
+empatie. Prostředky shody, provázení a vedení i kalibraci popisují už úvodní učebnice NLP
+jako základní dovednosti oboru (O'Connor a Seymour 1990).
 
 ## Původ
 
@@ -127,10 +128,10 @@ negativní výsledek (Wiseman a kol. 2012).
 
 Z toho plyne závěr, který je pro čtenáře kompendia důležitý v obou směrech. Nelze tvrdit,
 že vzorce rodiny „nefungují“, protože jevy, na nichž stojí, jsou skutečné a lidé na
-blízkost a pozornost reagují. Nelze ale ani přejímat tvrzení kurzů, že vzorce spolehlivě
+blízkost a pozornost reagují (Chartrand a Bargh 1999). Nelze ale ani přejímat tvrzení kurzů, že vzorce spolehlivě
 a neodhalitelně vytvářejí důvěru nebo umožňují číst myšlenky. Skutečné riziko neleží v
 tajemné síle techniky, ale v obyčejném lidském sklonu důvěřovat tomu, kdo nám dává najevo
-porozumění, a v tom, že tento sklon lze vědomě využít.
+porozumění, a v tom, že tento sklon lze vědomě využít (Cialdini 2009).
 
 ## Obrana
 

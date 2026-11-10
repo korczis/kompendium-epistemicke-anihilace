@@ -88,7 +88,16 @@ Pravopisná strategie vznikla v rámci obecného programu NLP, který chtěl zji
 
 Strukturálně má pravopisná strategie podobu jednoduché smyčky. Vstupem je slyšené nebo zamýšlené slovo. Operací je vybavení jeho psané podoby jako vnitřního obrazu. Testem je porovnání obrazu s pocitem, zda je podoba známá a správná. Výstupem je zápis, nebo návrat k operaci, pokud test neuspěje. Tato stavba přesně odpovídá smyčce testu a operace, kterou kognitivní psychologie navrhla jako základní jednotku plánovaného chování (Miller, Galanter a Pribram 1960). NLP k ní přidává tři doplňující tvrzení. Za prvé, že dobrý pisatel provádí vybavení typicky s pohledem vzhůru. Za druhé, že špatný pisatel tuto smyčku nemá a místo ní slovo zvukově rozkládá. Za třetí, že strategii lze nacvičit a tím pravopis rychle zlepšit (O'Connor a Seymour 1990).
 
-Pro pozorovatele je podstatné, že první z těchto doplňků se snadno mění v diagnostiku. Pokud se směr pohledu pokládá za ukazatel správného zpracování, pak dítě, které při psaní hledí dolů, je podle výkladu „nastavené špatně“. Takové usuzování přeskočí všechno, co odborná diagnostika obtíží v psaní zvažuje: vývojové poruchy učení, zrak a sluch, jazykové prostředí, pozornost i kvalitu dosavadní výuky. Úzký model se tak stává příčinným vysvětlením, které neumožňuje hledat skutečné příčiny. Je také dobré si všimnout, že smyčka sama o sobě nic neříká o tom, odkud se správný obraz slova vezme. Pokud ho žák nikdy pořádně neviděl, nemá co vybavit, a žádná změna strategie mu chybějící zkušenost s psanou podobou slova nenahradí. Zlepšení, které se po nácviku objeví, tak může plynout prostě z toho, že se žák slovům více a pozorněji věnoval.
+Pro pozorovatele je podstatné, že první z těchto doplňků se snadno mění v diagnostiku. Pokud se směr
+pohledu pokládá za ukazatel správného zpracování, pak dítě, které při psaní hledí dolů, je podle
+výkladu „nastavené špatně“. Výzkum přitom tvrzení NLP, že směr pohledu prozrazuje druh vnitřního
+zpracování, nepodpořil (Sharpley 1984; Wiseman a kol. 2012). Takové usuzování přeskočí všechno, co
+odborná diagnostika obtíží v psaní zvažuje: vývojové poruchy učení, zrak a sluch, jazykové
+prostředí, pozornost i kvalitu dosavadní výuky. Úzký model se tak stává příčinným vysvětlením, které
+neumožňuje hledat skutečné příčiny. Je také dobré si všimnout, že smyčka sama o sobě nic neříká o
+tom, odkud se správný obraz slova vezme. Pokud ho žák nikdy pořádně neviděl, nemá co vybavit, a
+žádná změna strategie mu chybějící zkušenost s psanou podobou slova nenahradí. Zlepšení, které se po
+nácviku objeví, tak může plynout prostě z toho, že se žák slovům více a pozorněji věnoval.
 
 ## Detekční znaky
 

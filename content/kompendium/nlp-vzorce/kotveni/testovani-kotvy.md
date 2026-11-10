@@ -126,7 +126,8 @@ očekávání, náhody a vzájemného přizpůsobení obou stran.
 ## Detekční znaky
 
 V rozhovoru se testování kotvy pozná podle charakteristické změny tématu, po níž se znovu
-objeví gesto, dotyk, slovo nebo tón, které se dříve objevily ve chvíli silného prožitku.
+objeví gesto, dotyk, slovo nebo tón, které se dříve objevily ve chvíli silného prožitku
+(Bandler a Grinder 1979).
 Praktik přitom nápadně pozorně sleduje tvář a tělo druhého a po jeho reakci často následuje
 komentář, že „to funguje“. Mimo terapeutický rámec, například v kurzech prodejní nebo
 vlivové komunikace a v komunitě takzvaného umění svádění, se testování objevuje jako

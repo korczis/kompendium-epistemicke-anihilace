@@ -32,7 +32,7 @@ catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "druck
 
 Rodina kotvení shrnuje vzorce neurolingvistického programování, které pracují s jedinou
 myšlenkou: že vnější nebo vnitřní podnět, opakovaně nebo ve vhodné chvíli spojený s určitým
-stavem člověka, může tento stav později znovu vyvolat. Základní podobu popisuje heslo
+stavem člověka, může tento stav později znovu vyvolat (Bandler a Grinder 1979). Základní podobu popisuje heslo
 [kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md). Na ni navazují vzorce, které se liší
 tím, kdo spojení vytváří, jakým smyslem podnět působí a jak se s více kotvami zachází. Do
 první skupiny patří [samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md), v němž
@@ -79,7 +79,7 @@ jednu z prvních dovedností kurzu praktika a odvodily z něj většinu vzorců 
 ## Kde NLP přesahuje klasické podmiňování
 
 Pro čtenáře kompendia je nejdůležitější rozlišit, co NLP z Pavlovova odkazu převzalo a co k
-němu přidalo. Převzalo základní schéma: podnět, reakci a jejich spojení. Toto schéma je
+němu přidalo. Převzalo základní schéma: podnět, reakci a jejich spojení (Pavlov 1927). Toto schéma je
 doloženo lépe než téměř cokoli jiného v psychologii. K němu však NLP připojilo tvrzení, která z
 výzkumu podmiňování neplynou a která nebyla samostatně ověřena.
 
@@ -108,7 +108,8 @@ mohl provádět. Pro defenzivní čtení jsou užitečné tři otázky, které s
 heslech. Ví člověk, že se spojení mezi podnětem a stavem vytváří? Kdo podnět ovládá, on sám,
 nebo druhá strana? A čemu vyvolaný stav slouží, rozhodnutí v zájmu člověka, nebo cíli toho, kdo
 spojení vytvořil? Legitimní užití bývá otevřené a podnět zůstává v rukou člověka. Manipulativní
-užití bývá skryté nebo nevysvětlené a podnět ovládá druhá strana.
+užití bývá skryté nebo nevysvětlené a podnět ovládá druhá strana. Proč kompendium vzorce
+popisuje jen z této strany, vysvětlují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Druhé pravidlo defenzivního čtení zní, že nejsilnější kotvy v reálném světě nevznikají
 tajnou technikou, ale opakováním. Cialdini popisuje princip asociace, podle něhož se hodnocení

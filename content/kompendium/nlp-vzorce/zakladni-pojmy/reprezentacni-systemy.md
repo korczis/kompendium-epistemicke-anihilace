@@ -139,7 +139,7 @@ zpracování, a dále rozlišení, která na nich stojí: vedoucí systém, pref
 predikáty, oční signály a synestezii. Kdo čte tyto stránky defenzivně, měl by u každé z nich
 sledovat, ve které ze tří vrstev se tvrzení pohybuje. Čím dál od popisu prožitku a čím blíže k
 typologii a k ovlivňování druhého, tím slabší je opora ve výzkumu a tím větší je prostor pro
-zneužití. Stejné rozlišení se hodí i u odvozených technik z jiných rodin katalogu, například u
+zneužití; kritické přehledy ukazují, že právě typologické nároky, jako je určení preferovaného systému, výzkum nepodpořil (Sharpley 1987; Witkowski 2010). Stejné rozlišení se hodí i u odvozených technik z jiných rodin katalogu, například u
 práce se submodalitami nebo u strategií.
 
 ## Detekční znaky

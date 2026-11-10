@@ -125,8 +125,8 @@ naučený a vztahově zabarvený signál než jako spínač.
 
 Kinestetická složka se v NLP vztahuje i ke kinestetickému reprezentačnímu systému, tedy
 k představě, že lidé ukládají zkušenost v tělesných pocitech
-([kinestetický systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md)).
-Vazba na tělo dává vzorci intuitivní přesvědčivost. Mnoho lidí skutečně zná situace, kdy
+([kinestetický systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md)); s reprezentačními systémy zakladatelé pracovali od raných
+seminářů (Bandler a Grinder 1979). Vazba na tělo dává vzorci intuitivní přesvědčivost. Mnoho lidí skutečně zná situace, kdy
 určitý dotyk, objetí nebo držení těla vyvolá vzpomínku a náladu. Z běžné zkušenosti
 asociativní paměti však nevyplývá, že by druhá osoba mohla takové spojení cíleně a spolehlivě
 vytvořit a pak používat podle svého uvážení.

@@ -44,10 +44,10 @@ catalog_prev = "manipulativni-reframing-ve-vztazich"
 catalog_next = "neuro-zargon"
 catalog_position = 17
 catalog_family_size = 20
-catalog_sources = ["bandler-grinder-1975b", "kirsch-lynn-1995", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources = ["bandler-grinder-1975b", "kirsch-lynn-1995", "lilienfeld-2015", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = []
-catalog_sources_critical = ["kirsch-lynn-1995", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_critical = ["kirsch-lynn-1995", "lilienfeld-2015", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -155,7 +155,8 @@ naopak blíží [konverzační hypnóze](@/kompendium/nlp-vzorce/vliv-a-zneuziti
 tam, kde se hypnotický jazyk vydává za běžný rozhovor, a [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md)
 tam, kde se jeho prvky skládají do reklamního sdělení. Zvláštní kategorii tvoří obsah,
 který slibuje léčbu duševních nebo tělesných potíží pomocí nahrávek, a odrazuje od
-odborné péče; tam vzniká přímé riziko poškození zdraví.
+odborné péče; tam vzniká přímé riziko poškození zdraví, protože nepodložená léčba může
+odvádět od léčby účinné (Lilienfeld, Lynn a Lohr 2015).
 
 ## Legitimní a manipulativní užití
 
@@ -209,6 +210,7 @@ platformách, a nalezení spolehlivých zdrojů pomoci, jak je kompendium popisu
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Kirsch, I., & Lynn, S. J. (1995). The altered state of hypnosis: Changes in the theoretical landscape. *American Psychologist*, 50(10), 846–858.
+- Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.

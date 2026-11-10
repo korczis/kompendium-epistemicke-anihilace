@@ -200,7 +200,8 @@ právě vložení neplatného kroku mezi kroky platné. Kapitola o
 [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) vysvětluje,
 proč únava, spěch a citová zátěž snižují schopnost takový krok zachytit. Formální klam je
 proto často chybou posluchače stejně jako mluvčího: mluvčí ho nemusí volit záměrně, stačí, že
-ho posluchač pod tlakem nezkontroluje.
+ho posluchač pod tlakem nezkontroluje: když je kontrolující myšlení zaměstnané nebo unavené,
+projde intuitivní soud bez prověření snáz (Kahneman 2011).
 
 ## Obrana a odpověď
 

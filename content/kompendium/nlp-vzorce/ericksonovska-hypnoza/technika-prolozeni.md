@@ -174,8 +174,8 @@ osmdesátých let posuzovalo techniky ke zlepšení lidského výkonu včetně N
 vlivová tvrzení NLP dostatečnou oporu (Druckman a Swets 1988). Heap ve svém průběžném
 hodnocení z perspektivy klinické hypnózy dospěl k závěru, že tvrzení NLP o jazykových
 vzorcích jsou empiricky nepodložená (Heap 1988). Obecné mechanismy, na nichž vzorec stojí,
-jsou však doložené: vliv rozptýlení na zpracování přesvědčovacích sdělení (Petty a Cacioppo
-1986) a vliv opakování na pocit pravdivosti (Kahneman 2011). Střízlivý závěr zní, že
+jsou však doložené: vliv rozptýlení na zpracování přesvědčovacích sdělení
+(Petty a Cacioppo 1986) a vliv opakování na pocit pravdivosti (Kahneman 2011). Střízlivý závěr zní, že
 proložení může nenápadně posílit motiv, který posluchač už zná, ale neexistuje doklad, že by
 dokázalo vnutit obsah, který posluchač odmítá.
 

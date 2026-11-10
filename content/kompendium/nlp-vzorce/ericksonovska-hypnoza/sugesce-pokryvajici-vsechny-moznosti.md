@@ -108,7 +108,8 @@ liší se od nich tím, že nenabízí dvě alternativy, ale vyčerpávající v
 
 Vzorec má tři složky. První je vymezení třídy odpovědí, například toho, co se může stát s
 pocitem v ruce, s dechem nebo s náladou. Druhou složkou je výčet, který třídu pokryje
-úplně: zvýšení, snížení, změna kvality i absence změny. Třetí složkou je společný rámec,
+úplně: zvýšení, snížení, změna kvality i absence změny, jak ukazují příklady, které uvádějí
+Erickson a Rossi (Erickson, Rossi a Rossi 1976). Třetí složkou je společný rámec,
 který všem položkám výčtu přiřadí stejný význam, obvykle význam „správné“ nebo „užitečné“
 reakce. V klinickém užití se rámec týká procesu: ať se stane cokoli, sezení pokračuje a
 klient se nemusí obávat, že zklamal. V problematickém užití se rámec týká pravdivosti

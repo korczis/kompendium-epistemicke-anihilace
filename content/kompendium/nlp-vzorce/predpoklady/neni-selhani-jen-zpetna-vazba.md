@@ -44,10 +44,10 @@ catalog_prev = "vyznam-komunikace-je-reakce"
 catalog_next = "pozitivni-zamer-chovani"
 catalog_position = 3
 catalog_family_size = 21
-catalog_sources = ["bateson-1972", "beck-1976", "festinger-1957", "gilovich-1991", "lifton-1961", "lilienfeld-2015", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources = ["arkes-blumer-1985", "bateson-1972", "beck-1976", "festinger-1957", "gilovich-1991", "lifton-1961", "lilienfeld-2015", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sources_primary = ["oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
-catalog_sources_critical = ["beck-1976", "festinger-1957", "gilovich-1991", "lifton-1961", "lilienfeld-2015", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_critical = ["arkes-blumer-1985", "beck-1976", "festinger-1957", "gilovich-1991", "lifton-1961", "lilienfeld-2015", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -140,13 +140,15 @@ o [vzorci guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
 
 U člověka, na kterého se princip uplatňuje asymetricky, se objevuje chronické sebeobviňování,
 ztráta schopnosti pojmenovat, že něco nefunguje, a pocit, že odchod by byl „selháním“, které v
-systému neexistuje, a tudíž je nemyslitelný.
+systému neexistuje, a tudíž je nemyslitelný. Trvalý pocit viny, který v uzavřených systémech
+plyne z požadavku dokonalosti, jemuž nikdo nemůže dostát, popsal Lifton (Lifton 1961).
 
 Na rovině jazyka se asymetrie projevuje i tím, že slovo „selhání“ je ve skupině tabu, zatímco
 slova jako „blok“, „odpor“ nebo „nepřipravenost“ se používají volně. Jazyková pravidla tohoto
 druhu nejsou neškodnou zvláštností slovníku: určují, co lze v rozhovoru vůbec vyslovit, a tím i
 to, co lze zpochybnit. Kdo nemá slovo pro neúspěch metody, nemůže ho ani sdílet s ostatními
-účastníky, a každý z nich proto může nabýt dojmu, že selhal jen on sám.
+účastníky, a každý z nich proto může nabýt dojmu, že selhal jen on sám. Lifton popsal tento
+jev jako zatížení jazyka, které zužuje, co lze ve skupině myslet a vyslovit (Lifton 1961).
 
 ## Legitimní a manipulativní užití
 
@@ -194,12 +196,15 @@ přesvědčení vyvracely (Gilovich 1991); vnější pohled tento sklon vyvažuj
 
 Pro člověka, který z takového prostředí odchází, je součástí zotavení obnova práva říct, že
 něco nefungovalo, a nepřijímat to jako osobní selhání. Pomáhá rekonstrukce, kolik času, peněz a
-důvěry do systému vložil a jakými výklady byla tato investice průběžně ospravedlňována.
+důvěry do systému vložil a jakými výklady byla tato investice průběžně ospravedlňována, protože
+čím víc člověk do rozhodnutí vložil, tím silněji má sklon v něm pokračovat a dodatečně ho
+obhajovat (Festinger 1957; Arkes a Blumer 1985).
 Odborník, který princip používá, by ho měl uplatňovat i na vlastní metodu, jinak se z postoje k
 učení stává nástroj, který chrání autoritu před zpětnou vazbou.
 
 ## Literatura
 
+- Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124–140.
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford: Stanford University Press.

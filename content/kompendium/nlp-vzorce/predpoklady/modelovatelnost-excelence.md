@@ -44,10 +44,10 @@ catalog_prev = "kdyz-to-nefunguje-udelej-neco-jineho"
 catalog_next = "nelze-nekomunikovat"
 catalog_position = 13
 catalog_family_size = 21
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "gilovich-1991", "grinder-bandler-1976", "grinder-bostic-2001", "kahneman-2011", "lifton-1961", "miller-galanter-pribram-1960", "passmore-rowson-2019", "perls-1969", "roderique-davies-2009", "satir-1972", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "gilovich-1991", "grinder-bandler-1976", "grinder-bostic-2001", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "miller-galanter-pribram-1960", "passmore-rowson-2019", "perls-1969", "roderique-davies-2009", "satir-1972", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dilts-1994", "dilts-1980", "grinder-bandler-1976", "grinder-bostic-2001"]
 catalog_sources_roots = ["miller-galanter-pribram-1960", "perls-1969", "satir-1972"]
-catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -126,7 +126,9 @@ Ve vlivové podobě předpokladu se k sylogismu přidávají dva prvky. Prvním 
 obvykle sám mluvčí nebo jeho učitel, jehož úspěch se prezentuje jako doklad metody. Druhým
 je atribuce neúspěchu: pokud žák výsledku nedosáhne, nezpochybňuje to metodu, jen kvalitu
 jeho modelování nebo jeho vnitřní bloky. Kombinace obou prvků vytváří uzavřený systém, ve
-kterém úspěch potvrzuje metodu a neúspěch potvrzuje, že žák potřebuje další kurz. Tato
+kterém úspěch potvrzuje metodu a neúspěch potvrzuje, že žák potřebuje další kurz. Ochranu
+tvrzení pomocnými hypotézami, které je činí nevyvratitelnými, řadí literatura o pseudovědě
+mezi její varovné znaky (Lilienfeld, Lynn a Lohr 2015). Tato
 struktura odpovídá vztahu, který kompendium popisuje jako
 [vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md).
 
@@ -213,6 +215,7 @@ dlouho to trvá a co přenést nelze, a neprezentovat vlastní úspěch jako dů
 - Grinder, J., & Bostic St. Clair, C. (2001). *Whispering in the Wind*. Scotts Valley: J & C Enterprises.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
+- Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Perls, F. S. (1969). *Gestalt Therapy Verbatim*. Lafayette: Real People Press.

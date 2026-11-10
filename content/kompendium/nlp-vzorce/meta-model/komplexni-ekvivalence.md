@@ -133,7 +133,8 @@ gramatickým nosičem takových frází.
 ## Detekční znaky
 
 Jazykovými znaky jsou spony a slovesa významu („to znamená“, „to je důkaz“, „tím
-ukazuješ“), konstrukce „kdo X, ten Y“ a podmínkové věty, které z chování činí test
+ukazuješ“), jimiž se podle autorů meta-modelu dva popisy spojují v jedno rovnítko
+(Bandler a Grinder 1975), dále konstrukce „kdo X, ten Y“ a podmínkové věty, které z chování činí test
 vnitřního postoje („kdybys mě miloval, udělal bys…“). Dalším znakem je chybějící
 alternativní výklad: mluvčí nepřipouští, že tentýž znak může mít více významů, například
 že pozdní příchod může znamenat dopravní zácpu. V interakci se manipulativní užití pozná

@@ -44,8 +44,8 @@ catalog_prev = "levitace-ruky"
 catalog_next = "seeding"
 catalog_position = 7
 catalog_family_size = 28
-catalog_sources = ["gordon-1978", "lakoff-johnson-1980", "mcguire-1964", "miller-1956", "passmore-rowson-2019", "petty-cacioppo-1986", "rosen-1982", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-catalog_sources_primary = ["gordon-1978"]
+catalog_sources = ["bandler-grinder-1975b", "gordon-1978", "lakoff-johnson-1980", "mcguire-1964", "miller-1956", "passmore-rowson-2019", "petty-cacioppo-1986", "rosen-1982", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "gordon-1978"]
 catalog_sources_roots = ["miller-1956", "rosen-1982"]
 catalog_sources_critical = ["lakoff-johnson-1980", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -104,8 +104,9 @@ uzavíraných příběhů, se v NLP a v ericksonovské psychoterapii rozvinul v 
 letech; terapeuti Stephen a Carol Lanktonovi pro něj používali označení vícenásobně
 vnořená metafora. NLP strukturu převzalo do výuky Milton-modelu a spojilo ji s
 [vloženými příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md), tedy s
-tvrzením, že sdělení umístěné do vnitřního příběhu lze zvýraznit tónem a působí jako
-pokyn. Pozdější výuka NLP vnořené smyčky prezentuje i jako nástroj prezentace a
+tvrzením, které Bandler a Grinder formulovali v rozboru Ericksonovy řeči: sdělení zvýrazněné
+tónem působí jako pokyn (Bandler a Grinder 1975b). Vnořené smyčky k tomu přidávají představu,
+že takové sdělení je nejlépe umístit do vnitřního příběhu. Pozdější výuka NLP vnořené smyčky prezentuje i jako nástroj prezentace a
 přesvědčování, nikoli pouze terapie. Příbuzný vzorec, kterým se
 téma připravuje dopředu, rozebírá stránka
 [Zasévání myšlenky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md).
@@ -116,7 +117,9 @@ Struktura vnořených smyček má tři části. První je otevírání: příbě
 místě, kde by posluchač očekával pointu nebo rozuzlení, mluvčí odbočí k jinému příběhu.
 Každá odbočka bývá zdůvodněná, například tím, že „to připomíná“ jinou událost, takže
 působí přirozeně. Druhá je jádro: v nejvnitřnějším příběhu se objeví sdělení, které má
-pro mluvčího význam, často jako výrok postavy příběhu, a ne jako výrok mluvčího. Třetí je
+pro mluvčího význam, často jako výrok postavy příběhu, a ne jako výrok mluvčího; i Ericksonovy
+vyučující příběhy podle Rosena nechávaly posluchače, aby si jejich smysl vztáhl na sebe sám
+(Rosen 1982). Třetí je
 uzavírání: příběhy se dokončují v opačném pořadí, takže posluchač zažije postupné
 vyřešení napětí. Struktura připomíná vnořené závorky, kde vnější vrstvy rámují vnitřní.
 
@@ -138,7 +141,8 @@ nedělá, nebo se vrací až mnohem později. Odbočky jsou zdůvodněné asocia
 logikou výkladu. Uprostřed vrstvy příběhů se objeví výrok, který je výrazně konkrétnější,
 direktivnější nebo emocionálně nabitější než okolí, a bývá pronesen jiným tónem. Po
 skončení posluchač dobře vybavuje příběhy, ale obtížně rekonstruuje, co přesně bylo
-řečeno uprostřed a proč. Na seminářích osobního rozvoje nebo na prodejních prezentacích
+řečeno uprostřed a proč, protože sledování mnoha otevřených linií zatěžuje omezenou kapacitu
+krátkodobého zpracování (Miller 1956). Na seminářích osobního rozvoje nebo na prodejních prezentacích
 bývá vzorec spojen s emočním nabuzením publika a s časovým tlakem na rozhodnutí na konci.
 Kompendium příbuzný mechanismus, při kterém složitost textu zakrývá jeho obsah, popisuje
 jako [iluzorní komplexitu](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) a
@@ -209,6 +213,7 @@ výslovná tvrzení a jejich ověřování (Singer a Lalich 1995).
 
 ## Literatura
 
+- Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Gordon, D. (1978). *Therapeutic Metaphors: Helping Others through the Looking Glass*. Cupertino: Meta Publications.
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.

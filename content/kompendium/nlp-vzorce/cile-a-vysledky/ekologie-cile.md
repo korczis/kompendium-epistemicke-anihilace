@@ -116,7 +116,9 @@ Strukturálně jde o rozšíření rámce posuzování. Cíl se nejprve posuzuje
 žádoucí a dosažitelný, a pak v širším rámci: co způsobí jinde. Ekologická úvaha má tři
 roviny. První je osobní, tedy dopady na zdraví, čas, hodnoty a jiné cíle člověka. Druhá je
 vztahová, tedy dopady na blízké, na partnera, děti, rodiče, kolegy. Třetí je funkční, tedy
-otázka, jakou užitečnou funkci plní současný stav a jak ji zajistit i po změně. Ekologická
+otázka, jakou užitečnou funkci plní současný stav a jak ji zajistit i po změně; tuto rovinu
+rozpracovalo přerámcování, které pro chování hledá náhradu zachovávající jeho užitečnou
+funkci a změnu před přijetím ověřuje (Bandler a Grinder 1982). Ekologická
 podmínka je splněna, když člověk zná důsledky ve všech třech rovinách a přijímá je.
 
 Rozhodující je, jak se zachází s námitkou. Námitka může přijít zevnitř, jako váhání,

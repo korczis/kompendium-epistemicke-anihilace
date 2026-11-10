@@ -39,15 +39,15 @@ catalog_related = ["texasky-strelec", "klam-regrese", "magicke-mysleni", "horka-
 catalog_related_declared = ["horka-ruka", "zakon-malych-cisel", "klam-regrese", "magicke-mysleni", "texasky-strelec"]
 catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/statisticke/horka-ruka.md", "kompendium/argumentacni-fauly/statisticke/zakon-malych-cisel.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md", "kompendium/argumentacni-fauly/statisticke/horka-ruka.md", "kompendium/argumentacni-fauly/statisticke/zakon-malych-cisel.md"]
 catalog_prev = "klam-konjunkce"
 catalog_next = "horka-ruka"
 catalog_position = 3
 catalog_family_size = 16
-catalog_sources = ["damer-2009", "gilovich-1991", "kahneman-2011", "tversky-kahneman-1971", "tversky-kahneman-1974"]
+catalog_sources = ["arkes-blumer-1985", "damer-2009", "gilovich-1991", "kahneman-2011", "tversky-kahneman-1971", "tversky-kahneman-1974"]
 catalog_sources_primary = ["damer-2009"]
 catalog_sources_roots = []
-catalog_sources_critical = ["gilovich-1991", "kahneman-2011", "tversky-kahneman-1971", "tversky-kahneman-1974"]
+catalog_sources_critical = ["arkes-blumer-1985", "gilovich-1991", "kahneman-2011", "tversky-kahneman-1971", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 3
 catalog_trainer_benign = 1
@@ -87,7 +87,9 @@ rozřeďují (Tversky a Kahneman 1974).
 
 Klam je převážně chybou uvažování, ale má i vlivovou podobu. Prodejci loterií, sázkové
 kanceláře nebo podvodné investiční nabídky pracují s představou, že po sérii ztrát „musí
-přijít výhra“, a udržují tak člověka ve hře déle, než by sám chtěl. V obou podobách jde o
+přijít výhra“, a udržují tak člověka ve hře déle, než by sám chtěl. Vlivové užití stojí na tom, že
+intuice o samoopravné náhodě je rozšířená a sdílejí ji i lidé se statistickým vzděláním
+(Tversky a Kahneman 1971). V obou podobách jde o
 tutéž strukturu, a proto ji lze rozpoznat stejnými otázkami.
 
 ## Původ a souvislosti
@@ -125,7 +127,7 @@ ji následující pokusy vyrovnávaly (Tversky a Kahneman 1974).
 Rozhodující podmínkou je nezávislost. Klam vzniká jen u událostí, které na sobě opravdu
 nezávisejí: férová mince, férová ruleta, losování s vracením. Kde události na sobě závisejí,
 například při tahání karet bez vracení nebo u opotřebení stroje, minulost o budoucnosti
-skutečně něco vypovídá a úvaha z ní je oprávněná. Strukturálně je proto klam spojen s
+skutečně něco vypovídá a úvaha z ní je oprávněná (Damer 2009). Strukturálně je proto klam spojen s
 mlčky přijatým předpokladem o mechanismu: mluvčí jedná, jako by náhodný proces měl paměť a
 cíl, ačkoli žádný mechanismus takové paměti neuvádí.
 
@@ -143,25 +145,25 @@ sobě, má sklon další zamítnout, jako by měl „vyrovnat poměr“, i když
 posouzena samostatně. Tento sklon odpovídá tomu, co výzkum popisuje jako očekávání, že i
 krátký úsek řady má vypadat vyváženě (Tversky a Kahneman 1971).
 
-V institucionálním prostředí se klam projevuje i tam, kde se neúspěšné kroky obhajují
-tím, že „teď už to musí vyjít“, a kde se z řady nezdarů vyvozuje blížící se úspěch, místo
-aby se přezkoumalo, zda je zvolený postup vůbec funkční.
+V institucionálním prostředí se klam projevuje i tam, kde se neúspěšné kroky obhajují tím, že „teď
+už to musí vyjít“, a kde se z řady nezdarů vyvozuje blížící se úspěch, místo aby se přezkoumalo, zda
+je zvolený postup vůbec funkční. Taková obhajoba se často prolíná s
+[klamem utopených nákladů](@/kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md):
+výzkum ukázal, že lidé pokračují v neúspěšném podniku tím spíš, čím víc do něj už vložili (Arkes a
+Blumer 1985).
 
 ## Odlišení od platné argumentace
 
-Platná úvaha o tom, že minulé výsledky mění pravděpodobnost budoucích, se opírá o
-mechanismus závislosti. Kdo ví, že v balíčku karet zbývá méně es, protože es už několik
-padlo, usuzuje správně. Kdo ví, že stroj se po opakovaných poruchách opotřebovává, usuzuje
-správně, když očekává další poruchu. Kdo z dlouhé řady jednoho výsledku vyvodí, že mince
-nebo ruleta nejsou férové, také nemusí chybovat: u dost dlouhé série je rozumné zpochybnit
-předpoklad nezávislosti a férovosti. Takový závěr ale míří opačným směrem než hráčský klam,
-protože očekává, že série bude pokračovat, nikoli že se obrátí.
-
-Rozumné je také očekávat, že podíl výsledků ve velmi dlouhé řadě se přiblíží teoretické
-hodnotě. Klamem se tato úvaha stává teprve tehdy, když se z ní vyvozuje, že nejbližší
-pokusy budou odchylku kompenzovat (Tversky a Kahneman 1974). Učebnice neformální logiky
-proto zdůrazňují, že posouzení klamu vyžaduje nejprve otázku, zda jsou události skutečně
-nezávislé (Damer 2009).
+Platná úvaha o tom, že minulé výsledky mění pravděpodobnost budoucích, se opírá o mechanismus
+závislosti. Kdo ví, že v balíčku karet zbývá méně es, protože es už několik padlo, usuzuje správně.
+Kdo ví, že stroj se po opakovaných poruchách opotřebovává, usuzuje správně, když očekává další
+poruchu. Kdo z dlouhé řady jednoho výsledku vyvodí, že mince nebo ruleta nejsou férové, také nemusí
+chybovat: u dost dlouhé série je rozumné zpochybnit předpoklad nezávislosti a férovosti. Takový
+závěr ale míří opačným směrem než hráčský klam, protože očekává, že série bude pokračovat, nikoli že
+se obrátí. Rozumné je také očekávat, že podíl výsledků ve velmi dlouhé řadě se přiblíží teoretické
+hodnotě. Klamem se tato úvaha stává teprve tehdy, když se z ní vyvozuje, že nejbližší pokusy budou
+odchylku kompenzovat (Tversky a Kahneman 1974). Učebnice neformální logiky proto zdůrazňují, že
+posouzení klamu vyžaduje nejprve otázku, zda jsou události skutečně nezávislé (Damer 2009).
 
 ## Stav poznání
 
@@ -199,6 +201,7 @@ hodnocení výkonu, statistik nehodovosti nebo trhů.
 
 ## Literatura
 
+- Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124–140.
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.

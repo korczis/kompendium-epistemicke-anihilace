@@ -44,10 +44,10 @@ catalog_prev = "nabity-jazyk"
 catalog_next = "eufemismus-a-dysfemismus"
 catalog_position = 10
 catalog_family_size = 13
-catalog_sources = ["bentham-1824", "cook-lewandowsky-ecker-2017", "damer-2009", "grice-1975", "langer-1978", "levinson-1983", "petty-cacioppo-1986", "popper-1959", "eemeren-grootendorst-2004"]
+catalog_sources = ["bentham-1824", "cook-lewandowsky-ecker-2017", "damer-2009", "gigerenzer-2002", "grice-1975", "langer-1978", "levinson-1983", "petty-cacioppo-1986", "popper-1959", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["damer-2009", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["bentham-1824", "grice-1975", "levinson-1983", "popper-1959"]
-catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "langer-1978", "petty-cacioppo-1986"]
+catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "gigerenzer-2002", "langer-1978", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -128,8 +128,10 @@ odebírají. První podoba odebírá původce: trpný rod a neosobní obraty (�
 shoduje. Druhá podoba odebírá sílu: slovesa a příslovce jako „může“, „zřejmě“, „do jisté
 míry“ nebo „v některých případech“ ponechávají tvrzení v pásmu, kde je nelze vyvrátit.
 Třetí podoba odebírá měřítko: číslo bez jmenovatele, procento bez výchozí hodnoty nebo
-horní mez bez typické hodnoty vyvolá představu velkého účinku, kterou skutečné rozložení
-nepotvrdí. Čtvrtá podoba odebírá tvrzení samo: otázka nebo náznak („nabízí se otázka, zda…“,
+horní mez bez typické hodnoty vyvolá představu velkého účinku, kterou skutečné rozložení nepotvrdí.
+Gigerenzer to ukazuje na sdělování rizik: relativní pokles rizika bez údaje o výchozí hodnotě působí
+mnohem větším dojmem než tentýž výsledek vyjádřený absolutně (Gigerenzer 2002). Čtvrtá podoba
+odebírá tvrzení samo: otázka nebo náznak („nabízí se otázka, zda…“,
 „někteří se ptají, proč…“) zasévá podezření, aniž by mluvčí cokoli tvrdil, a je proto
 příbuzná taktice
 [„jen se ptám“](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md). Pátá
@@ -204,6 +206,7 @@ doslovnému znění (van Eemeren a Grootendorst 2004).
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
 - Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
+- Gigerenzer, G. (2002). *Calculated Risks: How to Know When Numbers Deceive You*. New York: Simon & Schuster.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Langer, E. J., Blank, A., & Chanowitz, B. (1978). The mindlessness of ostensibly thoughtful action: The role of „placebic“ information in interpersonal interaction. *Journal of Personality and Social Psychology*, 36(6), 635–642.
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.

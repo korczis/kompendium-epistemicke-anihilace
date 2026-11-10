@@ -138,7 +138,8 @@ nepřidá hned, ten „zaspí dobu“.
 V prostředích, která kompendium popisuje, slouží odvolání na novost dvěma účelům. Prvním je
 prodej. Placené výcviky, koučovací programy a alternativní terapie se často prezentují jako
 nejnovější poznatek, který zastarává vše předchozí, a tím odrazují klienta od srovnání se
-zavedenou a ověřenou péčí. Druhým účelem je [delegitimizace](@/glossary/delegitimizace.md). Kdo upozorní na chybějící
+zavedenou a ověřenou péčí, které by mimořádná tvrzení musela ustát (Lilienfeld, Lynn a
+Lohr 2015). Druhým účelem je [delegitimizace](@/glossary/delegitimizace.md). Kdo upozorní na chybějící
 doklady, ten je označen za konzervativce, který „nerozumí novému paradigmatu“, a jeho
 námitka se tak přesouvá z roviny dat do roviny osobního postoje. Tato varianta se blíží
 [Galileovu gambitu](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md),

@@ -34,11 +34,17 @@ Rodina NLP-11 shromažďuje intervence neurolingvistického programování, kter
 bolestnými zkušenostmi: se strachem, s traumatickými vzpomínkami, se ztrátou, s křivdou, s
 kritikou a s obrazem sebe sama. Je to klinicky nejcitlivější část katalogu. Lidé, kterým jsou
 tyto intervence nabízeny, bývají v tísni, a zásah do vzpomínek nebo do sebepojetí u nich může
-pomoci i uškodit. Hesla proto popisují strukturu intervencí, tvrzení, která je provázejí, jejich
-stav důkazů a rizika. Nepopisují postupy a nelze je za postupy považovat.
+pomoci i uškodit; Herman upozorňuje, že práce s traumatickými vzpomínkami pomáhá jen tam, kde
+jí předchází zajištění bezpečí (Herman 1992). Hesla proto popisují strukturu intervencí,
+tvrzení, která je provázejí, jejich
+stav důkazů a rizika. Nepopisují postupy a nelze je za postupy považovat. Proč kompendium takové
+intervence popisuje jen z obranné strany, vysvětlují [etické
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Jádrem rodiny jsou intervence založené na odstupu od vzpomínky. Patří k nim
-[rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md), její
+[rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md), kterou
+spolu se vzorci pro zármutek a pro reakci na kritiku popsali Andreasovi (Andreas a Andreas 1989),
+její
 stavební prvek [dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md)
 a odnož, která se rozšířila mimo NLP jako
 [technika přetáčení](@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md). Druhou skupinu tvoří
@@ -128,7 +134,9 @@ obávaného obsahu v bezpečném kontextu a tlumení tělesné reakce. Liší se
 a sliby rychlého výsledku, výkladem účinku pomocí submodalit, který nebyl nezávisle ověřen, a
 chybějícím důrazem na stabilizaci a na vyšetření. Rozumnou hypotézou, kterou hesla podávají
 jako interpretaci, je, že případné účinky intervencí NLP plynou z prvků sdílených s expozicí a z
-očekávání, nikoli ze specifického mechanismu, který NLP tvrdí.
+očekávání, nikoli ze specifického mechanismu, který NLP tvrdí. Obdobný argument vede kritická
+literatura u desenzitizace pomocí očních pohybů, jejíž účinek připisuje spíše expozici než očním
+pohybům (Lilienfeld, Lynn a Lohr 2015).
 
 ## Stav důkazů
 

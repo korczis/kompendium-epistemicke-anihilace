@@ -109,10 +109,12 @@ kde se signály objevovaly v souvislosti s prací se vzpomínkami.
 
 Strukturálně se ve vzorci propojují tři vrstvy. První vrstvou je fyziologický jev: drobný
 pohyb, který vzniká bez vědomého záměru a je jako mimovolní prožíván. Druhou vrstvou je
-kód, tedy přiřazení pohybů k významům, který vznikne v rozhovoru mezi praktikem a klientem.
+kód, tedy přiřazení pohybů k významům, který vznikne v rozhovoru mezi praktikem a klientem, jak
+ho popisuje ericksonovská literatura (Erickson, Rossi a Rossi 1976).
 Třetí vrstvou je výklad zdroje: tvrzení, odkud signál „přichází“ a jakou má autoritu. První
 vrstva je dobře popsaná. Druhá vrstva je vždy produktem interakce a nese stopy očekávání
-obou účastníků. Třetí vrstva je teoretický předpoklad, který empiricky ověřen nebyl.
+obou účastníků, protože očekávání odpovědi samo spoluurčuje hypnotické reakce (Kirsch a Lynn
+1995). Třetí vrstva je teoretický předpoklad, který empiricky ověřen nebyl.
 
 Pro analýzu je podstatné, že pohyb prožívaný jako mimovolní není totéž co pohyb nezávislý
 na kontextu. Výzkum hypnózy zdůrazňuje, že očekávání a pochopení toho, co se v situaci

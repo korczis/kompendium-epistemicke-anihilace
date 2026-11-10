@@ -44,8 +44,8 @@ catalog_prev = "vlozene-otazky"
 catalog_next = "konverzacni-postulaty"
 catalog_position = 4
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "bateson-1956", "chartrand-bargh-1999", "ekman-2003", "grinder-delozier-bandler-1977", "herman-1992", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-delozier-bandler-1977"]
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "bateson-1956", "chartrand-bargh-1999", "copi-cohen-mcmahon-2014", "ekman-2003", "grinder-delozier-bandler-1977", "herman-1992", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "copi-cohen-mcmahon-2014", "grinder-delozier-bandler-1977"]
 catalog_sources_roots = ["bateson-1972", "bateson-1956", "watzlawick-1967"]
 catalog_sources_critical = ["chartrand-bargh-1999", "ekman-2003", "herman-1992", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -120,11 +120,11 @@ rozhovoru skutečně vzniká, je otázka, kterou NLP empiricky nedoložilo.
 
 Analogové značení se opírá o skutečnou vlastnost řeči. Prozodie, tedy melodie, důraz a tempo,
 je v každém jazyce součástí významu: mění, co je ve větě nové a co známé, co je hlavní a co
-vedlejší, i to, zda je výpověď myšlena vážně, ironicky nebo jako otázka. Posluchač prozodii
+vedlejší, i to, zda je výpověď myšlena vážně, ironicky nebo jako otázka (Watzlawick, Beavin a Jackson 1967). Posluchač prozodii
 zpracovává automaticky a obvykle si ji nepamatuje odděleně od slov. Analogové značení tuto
 automatičnost využívá k tomu, aby důraz padl na úsek, který podle digitálního obsahu věty
 důraz nepotřebuje. V psaném textu odpovídají analogovému značení typografické prostředky,
-například tučné písmo, velká písmena nebo samostatné řádky uvnitř delšího textu.
+například tučné písmo, velká písmena nebo samostatné řádky uvnitř delšího textu; logika posun významu způsobený důrazem, mluveným i typografickým, popisuje jako klam akcentu (Copi, Cohen a McMahon 2014).
 
 ## Detekční znaky
 
@@ -200,6 +200,7 @@ slabosti klienta.
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
 - Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4), 251–264.
 - Chartrand, T. L., & Bargh, J. A. (1999). The chameleon effect: The perception–behavior link and social interaction. *Journal of Personality and Social Psychology*, 76(6), 893–910.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Ekman, P. (2003). *Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life*. New York: Times Books.
 - Grinder, J., DeLozier, J., & Bandler, R. (1977). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 2*. Cupertino: Meta Publications.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

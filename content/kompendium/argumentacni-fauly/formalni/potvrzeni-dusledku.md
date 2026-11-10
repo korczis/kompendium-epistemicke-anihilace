@@ -181,7 +181,8 @@ V technikách manipulace se potvrzení důsledku objevuje tam, kde se člověku 
 vlastních projevů. Kdo „má problém se vztekem“, ten se brání kritice; člověk se brání, a tím
 prý problém potvrdil. Taková stavba je zvlášť účinná proto, že každá reakce oběti se stává
 dalším potvrzením. Heslo o [heuristikách úsudku](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)
-popisuje, jak prostředí soustavně využívá úsudek podle podobnosti; potvrzení důsledku je jeho
+popisuje, jak prostředí soustavně využívá úsudek podle podobnosti, který Tversky a Kahneman
+popsali jako heuristiku reprezentativnosti (Tversky a Kahneman 1974); potvrzení důsledku je jeho
 logická kostra. Příbuzným formálním klamem je
 [popření předchůdce](@/kompendium/argumentacni-fauly/formalni/popreni-predchudce.md), které
 z podmínky usuzuje obráceně na druhé straně.

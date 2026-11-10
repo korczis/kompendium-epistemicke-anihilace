@@ -112,7 +112,7 @@ ovlivnit.
 
 Vzorec lze rozložit na tři struktury, které mají odlišné funkce. První je popisná: slovo
 „zkusit“ vyjadřuje nejistotu výsledku. Lékař, který navrhne „zkusíme tento lék“, poctivě
-sděluje, že účinek není zaručený. Druhá je výzvová: slovo „zkus“ se spojuje s úkolem, o
+sděluje, že účinek není zaručený (Levinson 1983). Druhá je výzvová: slovo „zkus“ se spojuje s úkolem, o
 kterém mluvčí předpokládá, že se nezdaří, a nezdar se pak vydá za důkaz jeho tvrzení. V
 hypnóze jde o výzvu k pohybu, o kterém předtím zaznělo, že nepůjde provést; v každodenní řeči se
 podobná struktura objevuje ve výhrůžce „zkus mi odporovat“, která předpokládá, že odpor

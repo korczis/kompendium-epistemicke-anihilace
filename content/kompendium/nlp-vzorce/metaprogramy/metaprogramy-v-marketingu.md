@@ -162,7 +162,7 @@ informací, ale nevyužívá je k obejití úsudku.
 Manipulativní užití profiluje příjemce bez jeho vědomí, ladí sdělení na jeho obavy a odděluje
 jej od informací, které by umožnily srovnání. Reklamní e-mail pojišťovny, který příjemci
 zařazenému podle dřívějšího chování jako „opatrný“ připomíná, že jeho rodina může zůstat bez
-ochrany, a spojuje to s výzvou k rozhodnutí ještě dnes, nepracuje s produktem, ale s profilem.
+ochrany, a spojuje to s výzvou k rozhodnutí ještě dnes, nepracuje s produktem, ale s profilem; spojuje rámování ztrátou s časovým tlakem, tedy dva dobře popsané mechanismy rozhodování a vlivu (Tversky a Kahneman 1981; Cialdini 2009).
 Riziko je nejvyšší u skupin, jejichž obavy jsou snadno vyvolatelné, například u starších lidí, u
 lidí v zadlužení nebo u rodičů. Rozhodující otázky jsou: Ví příjemce, že je profilován? Dostává
 úplné informace, nebo jen důrazy laděné na jeho profil? A je časový tlak odůvodněn produktem,
@@ -200,7 +200,7 @@ zapojení](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md). Na �
 je obranou průhlednost cílení a spotřebitelská gramotnost, která učí rozpoznat, kdy sdělení
 mluví k profilu, a ne k věci. Zotavení po nevýhodném rozhodnutí, k němuž vedlo sdělení laděné na
 obavy, zahrnuje hlavně oddělení studu od poučení: vědomí, že na rámování a na obavu ze ztráty
-reaguje každý, a že chyba nebyla ve slabosti úsudku, ale ve sdělení, které bylo navrženo tak,
+reaguje každý (Tversky a Kahneman 1981; Kahneman 2011), a že chyba nebyla ve slabosti úsudku, ale ve sdělení, které bylo navrženo tak,
 aby jej obešlo.
 
 ## Literatura

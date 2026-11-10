@@ -44,9 +44,9 @@ catalog_prev = "audit-presvedceni"
 catalog_next = "presvedceni-o-pricine"
 catalog_position = 4
 catalog_family_size = 14
-catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "gilovich-1991", "lilienfeld-2015", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "gilovich-1991", "lilienfeld-2015", "popper-1959", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990"]
-catalog_sources_roots = []
+catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "gilovich-1991", "lilienfeld-2015", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -130,7 +130,9 @@ jen pokud cílem je koupě kurzu. Kdo určuje cíl, ten také určuje, které p�
 limitující. Pokud cíl určuje jiný člověk než ten, kdo přesvědčení drží, může pojem sloužit
 jako nástroj k odstranění právě těch přesvědčení, která člověka chrání: opatrnosti,
 skepse, loajality k blízkým nebo vlastních hodnot. Taková struktura činí tvrzení mluvčího
-nevyvratitelným, protože každá námitka se vykládá jako další doklad téhož problému. Kompendium
+nevyvratitelným, protože každá námitka se vykládá jako další doklad téhož problému;
+podle Popperova kritéria nelze tvrzení, které připouští každý výsledek, empiricky testovat
+(Popper 1959). Kompendium
 tento mechanismus obecně rozebírá v hesle o
 [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 
@@ -146,7 +148,6 @@ rozhovory koučovacích programů, kde se odstranění limitujících přesvěd�
 závazkem. Singer a Lalich popsaly, že skupiny s vysokou mírou kontroly obvykle vykládají
 pochybnosti členů jako osobní slabost nebo překážku růstu, nikoli jako informaci (Singer a
 Lalich 1995).
-
 U člověka, na kterého je pojem dlouhodobě uplatňován, se objevuje nedůvěra k vlastní
 opatrnosti. Začne své zdráhání automaticky považovat za „limit“, který má překonat, a
 přestane ho používat jako signál. Lidé, kteří prošli takovým prostředím, někdy popisují, že
@@ -201,7 +202,8 @@ přijaté mimo sál a po rozhovoru s blízkými je méně zranitelné vůči sit
 Zotavení po dlouhodobém působení tohoto vzorce zahrnuje obnovu důvěry ve vlastní opatrnost
 a v signály, které člověka chrání. Pomáhá rozlišovat mezi přesvědčením, které skutečně brání
 smysluplnému cíli, a přesvědčením, které vyjadřuje oprávněnou hranici. Pokud se při tom
-objevuje výrazná beznaděj nebo pocit bezcennosti, patří do péče odborníka; souvislosti
+objevuje výrazná beznaděj nebo pocit bezcennosti, patří do péče odborníka, protože u deprese patří k jádrovým projevům (Beck 1976);
+souvislosti
 popisuje heslo
 [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md)
 a v širším rámci kompendia heslo o
@@ -218,6 +220,7 @@ a v širším rámci kompendia heslo o
 - Ellis, A. (1962). *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.

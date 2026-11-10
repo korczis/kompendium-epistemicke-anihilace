@@ -146,7 +146,7 @@ vlastním signálům vůbec rozumějí, a sklon žádat o jejich výklad autorit
 Legitimní užití je popisné a dobrovolné. Terapeut, který klientovi vysvětlí, že napětí a
 úleva se v průběhu zotavení střídají a že přítomnost jednoho nevylučuje druhé, mu dává
 rámec pro snášení kolísání, aniž by mu bral právo napětí pojmenovat jako napětí. V
-klinické hypnóze lze tutéž konstrukci použít ke zmírnění strachu z vlastních reakcí během
+klinické hypnóze, ze které konstrukce pochází (Erickson, Rossi a Rossi 1976), lze ji použít ke zmírnění strachu z vlastních reakcí během
 sezení, pokud klient rámec zná a může ho kdykoli odmítnout. Rozhodující je, že vazba zůstává nabídkou, nikoli pravidlem výkladu, a že
 nepříjemný pól si zachovává svou informační hodnotu. Pokud bolest znamená zranění, žádný
 rámec ji nemá proměnit v ohlášení zlepšení.

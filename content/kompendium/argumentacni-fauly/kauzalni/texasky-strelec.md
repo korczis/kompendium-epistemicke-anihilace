@@ -172,7 +172,9 @@ shluky se rozlišuje jen s pomocí předem stanovených pravidel a srovnání.
 ## Vztah k technikám kompendia
 
 V kontextu kompendia se klam objevuje v uzavřených skupinách a v kultu osobnosti, kde se
-naplněná předpověď vůdce připomíná, kdežto nenaplněné se zapomínají nebo dodatečně přeloží. Stejně
+naplněná předpověď vůdce připomíná, kdežto nenaplněné se zapomínají nebo dodatečně přeloží. Jde o
+výběrové zacházení s doklady, které Nickerson popsal jako jeden z projevů potvrzovacího zkreslení
+(Nickerson 1998). Stejně
 působí výklad „znamení“, při kterém se v životě člena hledají události, jež lze vztáhnout k
 doktríně. Souvisí to s [magickým myšlením](@/kompendium/argumentacni-fauly/kauzalni/magicke-mysleni.md),
 které shluku přisuzuje smysl a záměr. Ve forenzním prostředí se klam projevuje tak, že se ze

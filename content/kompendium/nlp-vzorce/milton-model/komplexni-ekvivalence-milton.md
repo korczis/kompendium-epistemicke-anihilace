@@ -44,9 +44,9 @@ catalog_prev = "spojky-a-implikovana-pricinnost"
 catalog_next = "univerzalni-kvantifikatory-milton"
 catalog_position = 19
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "erickson-rossi-1979", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "erickson-rossi-1979", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "popper-1959", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-catalog_sources_roots = ["erickson-rossi-1979"]
+catalog_sources_roots = ["erickson-rossi-1979", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "mcguire-1964", "passmore-rowson-2019", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -115,7 +115,7 @@ a Rossi 1979).
 Strukturálně má komplexní ekvivalence tři prvky. Prvním je pozorovatelný znak: chování,
 tělesný projev, okolnost nebo slovo. Druhým je přisouzený význam, nejčastěji vnitřní stav,
 postoj nebo vlastnost osoby. Třetím je spona, která oba prvky ztotožní: „znamená“, „je
-znamením“, „ukazuje, že“, „to je přece“, nebo jen jejich prosté postavení vedle sebe. Klíčové
+znamením“, „ukazuje, že“, „to je přece“, nebo jen jejich prosté postavení vedle sebe (O'Connor a Seymour 1990). Klíčové
 je, že vztah mezi znakem a významem se netvrdí jako hypotéza, ale jako samozřejmost, a že
 výklad podává ten, kdo z něj má prospěch.
 
@@ -141,8 +141,7 @@ zájem, je tomuto sklonu vystaven dvojnásob.
 Prvním znakem je gramatický tvar „to, že…, znamená, že…“ nebo jeho kratší podoby, v nichž se
 pozorovatelná věc bez vysvětlení ztotožní s vnitřním stavem. Druhým znakem je jednostrannost
 výkladu: mluvčí vykládá chování posluchače, ale ne své vlastní, a posluchačův výklad
-vlastního chování nepřijímá. Třetím znakem je nevyvratitelnost: každá možná reakce posluchače
-se vyloží ve prospěch mluvčího. Kdo souhlasí, potvrzuje; kdo nesouhlasí, potvrzuje také,
+vlastního chování nepřijímá. Třetím znakem je nevyvratitelnost: každá možná reakce posluchače se vyloží ve prospěch mluvčího, a výklad tak nelze vyvrátit žádným pozorováním (Popper 1959). Kdo souhlasí, potvrzuje; kdo nesouhlasí, potvrzuje také,
 protože nesouhlas „znamená“ odpor. Čtvrtým znakem je výhodnost výkladu pro mluvčího nebo pro
 skupinu, kterou zastupuje.
 
@@ -219,6 +218,7 @@ je jádrem zotavení z dlouhodobé kontroly (Herman 1992).
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.

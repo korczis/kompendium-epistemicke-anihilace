@@ -44,9 +44,9 @@ catalog_prev = "odvolani-na-dusledky"
 catalog_next = "slameny-panak"
 catalog_position = 19
 catalog_family_size = 28
-catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "grice-1975", "johnson-blair-1977", "kahneman-2011", "mercier-sperber-2011", "petty-cacioppo-1986", "satir-1972", "walton-2008", "whately-1826", "eemeren-grootendorst-1992"]
-catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "johnson-blair-1977", "walton-2008", "eemeren-grootendorst-1992"]
-catalog_sources_roots = ["grice-1975", "satir-1972", "whately-1826"]
+catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "grice-1975", "johnson-blair-1977", "kahneman-2011", "mercier-sperber-2011", "petty-cacioppo-1986", "satir-1972", "walton-1995", "walton-2008", "watzlawick-1967", "whately-1826", "eemeren-grootendorst-1992"]
+catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "johnson-blair-1977", "walton-1995", "walton-2008", "eemeren-grootendorst-1992"]
+catalog_sources_roots = ["grice-1975", "satir-1972", "watzlawick-1967", "whately-1826"]
 catalog_sources_critical = ["kahneman-2011", "mercier-sperber-2011", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
@@ -121,7 +121,8 @@ Emoční podoba vloží silný příběh nebo obraz, který posluchače zaujme n
 původní otázku zapomenou. Ve všech podobách je společné, že vložené téma nevyvrací
 námitku ani nepodporuje stanovisko, o které jde.
 
-Pro rozbor je užitečné rozlišit červeného sledě jako chybu a jako taktiku. Jako chyba
+Pro rozbor je užitečné rozlišit červeného sledě jako chybu a jako taktiku, jak pragmatická
+teorie klamů rozlišuje mezi chybou uvažování a sofistickou taktikou (Walton 1995). Jako chyba
 vzniká, když mluvčí sám ztratí nit, například pod časovým tlakem nebo ve stresu, a
 odpoví na otázku, kterou si myslí, že slyšel. V takovém případě se po upozornění obvykle
 sám k otázce vrátí. Jako taktika se pozná podle toho, že se odbočka opakuje i po
@@ -155,7 +156,9 @@ Ve spojení s [informačním přetížením](@/kompendium/techniques/ea-1-1-2-in
 vytváří prostředí, ve kterém je pozornost trvale roztříštěná a žádný spor nedojde k
 závěru. V partnerských a rodinných konfliktech se klam projevuje tím, že rozhovor o
 konkrétním jednání se vždy změní v rozhovor o něčem jiném, například o minulých chybách
-toho, kdo se ptá. Na pracovištích a v institucích slouží k tomu, aby se kritika vyčerpala
+toho, kdo se ptá. Pragmatika lidské komunikace popisuje náhlé změny tématu a odbočky jako
+jeden ze způsobů, jak sdělení druhého zneplatnit, aniž by bylo nutné ho přijmout nebo
+otevřeně odmítnout (Watzlawick, Beavin a Jackson 1967). Na pracovištích a v institucích slouží k tomu, aby se kritika vyčerpala
 dřív, než dostane odpověď. Pro vyšetřovatele a právníky je důležité, že soustavné
 odbočování u určitého typu otázek může být samo informací: ukazuje, kde se nachází
 téma, kterému se mluvčí vyhýbá.
@@ -213,7 +216,9 @@ důvěry, že jejich otázky byly oprávněné a že nezodpovězená otázka nen
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.
+- Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 

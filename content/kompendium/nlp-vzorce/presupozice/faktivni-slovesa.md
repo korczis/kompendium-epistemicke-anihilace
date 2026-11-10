@@ -115,7 +115,8 @@ stránka popisuje faktivní výrazy obecně a zvlášť výrazy citové a hodnot
 Výpověď s faktivním výrazem má dvě patra. Horní patro vyjadřuje postoj mluvčího: lítost,
 radost, údiv, poznání. Dolní patro, vedlejší věta, obsahuje tvrzení, ke kterému se postoj
 vztahuje. Rozhovor se přirozeně vede o horním patře; posluchač může projevit soucit,
-odmítnout lítost nebo se ohradit proti hodnocení, ale dolní patro tím nezpochybní. Pokud
+odmítnout lítost nebo se ohradit proti hodnocení, ale dolní patro tím nezpochybní, protože
+předpoklad faktivní vedlejší věty přetrvá i popření postoje (Levinson 1983). Pokud
 dolní patro obsahuje hodnocení posluchače, například jeho přehnanou reakci, vinu nebo
 nevědomost, přijímá ho posluchač právě tím, že reaguje na postoj mluvčího.
 
@@ -171,7 +172,8 @@ Manipulativní užití staví do faktivní vedlejší věty obsah, který adres�
 odmítl. Nejčastěji jde o přisouzení emoční reakce („mrzí mě, že jsi to tak přehnaně vzala“),
 viny („je smutné, že ti nedošlo, co jsi způsobil“) nebo nevědomosti („chápu, že tomu
 nerozumíš“). Manipulace spočívá v tom, že adresát, který se brání, se brání proti postoji
-mluvčího, a fakt v pozadí tím potvrzuje. V kontrolujících vztazích se tyto věty často
+mluvčího, a fakt v pozadí tím potvrzuje, protože ten zůstává zachován i pod záporem
+(Levinson 1983). V kontrolujících vztazích se tyto věty často
 kombinují s projevy zdánlivé péče, takže odmítnout je působí nevděčně. Rozlišujícím kritériem
 je, zda by mluvčí byl ochoten obsah vedlejší věty vyslovit jako samostatné tvrzení a nést za
 něj odpovědnost.

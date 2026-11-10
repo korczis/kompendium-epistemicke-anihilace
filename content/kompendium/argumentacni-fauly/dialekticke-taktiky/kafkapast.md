@@ -44,10 +44,10 @@ catalog_prev = "myslenkove-ukoncujici-klise"
 catalog_next = "bulverismus"
 catalog_position = 7
 catalog_family_size = 16
-catalog_sources = ["herman-1992", "kunda-1990", "lifton-1961", "nickerson-1998", "popper-1959", "walton-2008", "eemeren-grootendorst-2004"]
+catalog_sources = ["hahn-oaksford-2007", "herman-1992", "kunda-1990", "lifton-1961", "nickerson-1998", "popper-1959", "walton-2008", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["walton-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["popper-1959"]
-catalog_sources_critical = ["herman-1992", "kunda-1990", "lifton-1961", "nickerson-1998"]
+catalog_sources_critical = ["hahn-oaksford-2007", "herman-1992", "kunda-1990", "lifton-1961", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -113,7 +113,10 @@ Argument lze rekonstruovat jako dvě větve, které se sbíhají. První větev:
 přiznává; tedy je vinen. Druhá větev: obviněný vinu popírá; popření je projevem viny, protože
 vinný by popíral; tedy je vinen. Klam se skrývá v druhé větvi. Z toho, že vinný by popíral,
 neplyne, že kdo popírá, je vinný, protože popírat by stejně tak nevinný. Popření je tedy
-vzhledem k otázce viny neinformativní, a kafkovská past ho přesto počítá jako doklad. Jde o
+vzhledem k otázce viny neinformativní, a kafkovská past ho přesto počítá jako doklad.
+Pravděpodobnostní pojetí neformálních argumentů vyjadřuje totéž obecně: doklad posiluje hypotézu jen
+tehdy, je-li za její platnosti pravděpodobnější než za její neplatnosti (Hahn a Oaksford 2007). Jde
+o
 obdobu formálně neplatného [potvrzení
 důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md), jen převedenou do
 roviny psychologického výkladu.
@@ -208,6 +211,7 @@ která podle Hermanové probíhá ve vztahu, kde je výpověď brána vážně (
 
 ## Literatura
 
+- Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.

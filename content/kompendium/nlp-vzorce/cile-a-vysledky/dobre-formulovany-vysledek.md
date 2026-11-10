@@ -123,7 +123,9 @@ kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md)
 kým má platit ([kontext](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md)); co k němu
 potřebuje ([zdroje](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md)); a co jeho
 dosažení udělá s ostatními oblastmi života a s lidmi kolem
-([ekologie](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md)). Testy se v praxi
+([ekologie](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md)). Takový výčet podmínek,
+v jednotlivých učebnicích různě dlouhý, uvádí například úvodní učebnice oboru (O'Connor a
+Seymour 1990). Testy se v praxi
 uplatňují v podobě [otázek
 výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md), které formulaci
 postupně zužují a zpřesňují.

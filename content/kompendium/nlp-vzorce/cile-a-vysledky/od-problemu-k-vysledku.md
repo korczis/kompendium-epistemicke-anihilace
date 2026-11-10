@@ -110,7 +110,8 @@ s konkrétními úkoly (Beck 1976).
 
 Strukturálně jde o změnu časové orientace a typu otázek. Rámec problému je orientován k
 minulosti a ptá se po příčinách; rámec výsledku je orientován k budoucnosti a ptá se po
-cílech a cestách. Přechod mezi nimi může být měkký, kdy se po vyslechnutí problému nabídne
+cílech a cestách. Takto oba rámce staví proti sobě úvodní učebnice oboru (O'Connor a Seymour
+1990). Přechod mezi nimi může být měkký, kdy se po vyslechnutí problému nabídne
 otázka na žádaný stav, nebo tvrdý, kdy se rozhovor o problému přeruší a další mluvení o něm
 se označí za neužitečné. Měkký přechod popis problému dokončí a přidá k němu směr. Tvrdý
 přechod popis problému nahradí.

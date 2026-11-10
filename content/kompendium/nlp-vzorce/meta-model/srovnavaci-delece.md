@@ -44,9 +44,9 @@ catalog_prev = "prosta-delece"
 catalog_next = "ztraceny-performativ"
 catalog_position = 6
 catalog_family_size = 17
-catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "grice-1975", "herman-1992", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "grice-1975", "herman-1992", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "popper-1959", "sharpley-1987", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
-catalog_sources_roots = ["grice-1975"]
+catalog_sources_roots = ["grice-1975", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -129,7 +129,8 @@ Druhým strukturálním rysem je posuvnost měřítka. Protože měřítko není
 může měnit, aniž by si toho posluchač všiml. Kdo splní jednu představu „lepšího“, slyší, že
 „to ještě není ono“, protože srovnávací člen se mezitím posunul. Třetím rysem je
 asymetrie odpovědnosti: mluvčí nic konkrétního netvrdil, a nemůže být tedy přistižen při
-chybě, kdežto posluchač nese břemeno nekonečného zlepšování. V kombinaci se srovnávacími
+chybě, kdežto posluchač nese břemeno nekonečného zlepšování. Jde o obecnou vlastnost výroků
+bez obsahu: tvrzení, které nic nevylučuje, nelze vyvrátit (Popper 1959). V kombinaci se srovnávacími
 presupozicemi, kdy věta předpokládá, že srovnání už proběhlo („ještě lepší“), se mezera
 zakrývá ještě účinněji; podrobněji ji rozebírá heslo
 [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md).
@@ -207,6 +208,7 @@ druhý soustavně určoval hodnotu člověka, probíhá postupně, ve vztazích,
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.

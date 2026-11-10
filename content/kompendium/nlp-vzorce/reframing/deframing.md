@@ -39,15 +39,15 @@ catalog_related = ["mapa-neni-uzemi", "ramec-pojem", "meta-model", "som-rozlozen
 catalog_related_declared = ["som-rozlozeni", "chunking-dolu", "meta-model", "reframing", "mapa-neni-uzemi"]
 catalog_kompendium = ["kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-6-3-2-externalizacni-faze.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-6-3-2-externalizacni-faze.md"]
+catalog_links_prose = ["kompendium/01-predmluva/eticke-aspekty.md", "kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md", "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md", "kompendium/techniques/ea-6-3-2-externalizacni-faze.md"]
 catalog_prev = "dodatecne-ramcovani"
 catalog_next = "selhani-jako-zpetna-vazba-vzorec"
 catalog_position = 16
 catalog_family_size = 17
-catalog_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1999", "ellis-1962", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1999", "ellis-1962", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilts-1999"]
 catalog_sources_roots = ["watzlawick-1974"]
-catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -117,8 +117,10 @@ Rozrámcování má tři strukturní fáze, které pozorovatel pozná v průběh
 rámce, rozklad a ponechání bez náhrady. Vyjmutí rámce znamená, že se přesvědčení nebo hodnota
 přestane brát jako samozřejmé východisko a stane se předmětem zkoumání. Rozklad znamená, že se
 celek rozdělí na části: na zkušenosti, ze kterých vzešel, na slova, která ho nesou, na
-kontexty, ve kterých platí. Ponechání bez náhrady odlišuje rozrámcování od přerámování: místo
-nového výkladu zůstává prázdné místo, které má člověk zaplnit sám.
+kontexty, ve kterých platí; k takovému rozkladu zobecnění vedou otázky meta-modelu (Bandler a
+Grinder 1975). Ponechání bez náhrady odlišuje rozrámcování od přerámování, které starý význam
+nahrazuje novým (Bandler a Grinder 1982): místo nového výkladu zůstává prázdné místo, které má
+člověk zaplnit sám.
 
 Pro analýzu je podstatné, kdo prázdné místo zaplní. V legitimním užití je to dotyčný, který
 přesvědčení přezkoumal a rozhodl, co si z něj ponechá. V manipulativním užití je prázdné místo
@@ -136,7 +138,9 @@ které brání účastníkovi přijmout nabídku, závazky vůči rodině, kter�
 nebo morální intuice, která varuje před jednáním. Rozklad přichází v okamžiku konfliktu, ne v
 klidném zkoumání, a jeho tempo určuje mluvčí. Rozebírané hodnoty se popisují pejorativně, jako
 „naprogramování“, „podmínění“ nebo „cizí hlasy“, a jejich původ se líčí tak, aby nic z nich
-nepatřilo samotnému člověku. Vlastní rámec mluvčího přitom zůstává mimo zkoumání.
+nepatřilo samotnému člověku. Vlastní rámec mluvčího přitom zůstává mimo zkoumání, podobně
+jako doktrína, kterou Lifton u totálních prostředí popsal jako posvátnou vědu, o níž se
+nepochybuje (Lifton 1961).
 
 Kompendium podobný mechanismus na rovině celého pojmového aparátu popisuje u
 [konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md)
@@ -180,13 +184,16 @@ výzkumem.
 ## Obrana a zotavení
 
 Základní obranou je rozlišit zkoumání vlastních hodnot od jejich zneplatnění na objednávku
-druhého. Hodnoty a přesvědčení lze přezkoumat, ale rozumné je to dělat ve vlastním tempu, bez
+druhého, v duchu principu epistemické autonomie, z něhož kniha vychází
+([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)). Hodnoty a přesvědčení lze přezkoumat, ale rozumné je to dělat ve vlastním tempu, bez
 přítomnosti konkrétního požadavku, kterému hodnota brání, a s někým, kdo z výsledku neprofituje.
 Když někdo rozebírá zásadu přesně ve chvíli, kdy brání jeho návrhu, je legitimní zkoumání
 odložit. Druhou obranou je trvat na symetrii: pokud jsou vaše hodnoty „podmíněné“, jsou
 podmíněné i hodnoty mluvčího, a jeho nabídka tedy nemá přednost jen proto, že ji nabízí on.
 Třetí obranou je všímat si, kdo zaplňuje prázdné místo, a nepřijímat nový rámec v okamžiku
-dezorientace, kterou rozklad vyvolal.
+dezorientace, kterou rozklad vyvolal: když je schopnost pečlivě posoudit sdělení snížena,
+například rozptýlením, rozhodují o jeho přijetí spíš okrajové podněty než síla argumentů (Petty a
+Cacioppo 1986).
 
 V zotavení po dlouhodobém rozkladu hodnot jde o znovunalezení vlastních orientačních bodů.
 Klinická literatura o zotavení po kontrole zdůrazňuje obnovu autonomie a vlastního úsudku v
@@ -199,6 +206,7 @@ pokušení zaplnit ho vlastním výkladem.
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
+- Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Dilts, R. (1999). *Sleight of Mouth: The Magic of Conversational Belief Change*. Capitola: Meta Publications.
 - Ellis, A. (1962). *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart.
@@ -206,6 +214,7 @@ pokušení zaplnit ho vlastním výkladem.
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
+- Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.

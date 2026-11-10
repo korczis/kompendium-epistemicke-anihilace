@@ -44,10 +44,10 @@ catalog_prev = "vzorec-odpusteni"
 catalog_next = "sebepojeti"
 catalog_position = 8
 catalog_family_size = 11
-catalog_sources = ["andreas-andreas-1989", "bandler-grinder-1975", "beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "satir-1972", "witkowski-2010"]
+catalog_sources = ["andreas-andreas-1989", "bandler-grinder-1975", "beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "satir-1972", "stark-2007", "witkowski-2010"]
 catalog_sources_primary = ["andreas-andreas-1989", "bandler-grinder-1975"]
 catalog_sources_roots = ["satir-1972"]
-catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -143,6 +143,8 @@ objevuje typická dvojí nejistota: pochybuje o sobě kvůli obsahu kritiky a z�
 emocích, protože i ty jsou prohlášeny za chybu. Postupně přestává rozlišovat oprávněnou výtku od
 ponižování a sklon hledat chybu u sebe se stává automatickým. Tento proces kompendium popisuje v
 hesle o [pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md).
+Herman popisuje sebeobviňování a nejistotu ve vlastním úsudku jako časté následky dlouhodobě
+ponižujících a kontrolujících vztahů (Herman 1992).
 
 ## Legitimní a manipulativní užití
 
@@ -181,7 +183,8 @@ kritika oprávněná a přiměřená a jak na ni člověk reaguje. Obě otázky 
 musí být zodpovězena dřív, než se lze bavit o druhé. Ponižování, zesměšňování před ostatními a
 útoky na osobu nejsou kritikou, kterou by bylo třeba „zvládnout“, ale jednáním, které lze
 pojmenovat a odmítnout. Užitečné je zapisovat si konkrétní výroky a situace, protože záznam
-pomáhá posoudit, zda jde o jednotlivé výtky, nebo o vzorec.
+pomáhá posoudit, zda jde o jednotlivé výtky, nebo o vzorec. Soustavné ponižování popisuje Stark
+jako jednu ze složek nátlakové kontroly ve vztazích (Stark 2007).
 
 Zotavení u lidí, kteří byli dlouhodobě vystaveni kritice spojené s výtkou za vlastní reakci,
 spočívá v obnově schopnosti rozlišovat oprávněné od neoprávněného a v obnově důvěry ve vlastní
@@ -203,6 +206,7 @@ a souvislost se sebeobrazem rozebírá heslo
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

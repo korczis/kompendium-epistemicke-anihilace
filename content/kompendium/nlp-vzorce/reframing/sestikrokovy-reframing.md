@@ -83,9 +83,9 @@ příznakem jako s projevem „části“ osobnosti. Této části se připisuje
 chování slouží, a cílem je najít jiné způsoby jednání, které by stejnému záměru sloužily
 lépe a neměly nežádoucí důsledky. Název odkazuje na počet fází, do nichž zakladatelé NLP
 vzorec rozčlenili; v kompendiu se popisuje jen jeho struktura a předpoklady, nikoli postup.
-Vzorec byl představen v přednáškových přepisech z konce sedmdesátých let (Bandler a Grinder
-1979) a podrobněji rozpracován v knize, která přerámování věnuje celou (Bandler a Grinder
-1982). Od běžného [reframingu](@/kompendium/nlp-vzorce/reframing/reframing.md) se liší
+Vzorec byl představen v přednáškových přepisech z konce sedmdesátých let
+(Bandler a Grinder 1979) a podrobněji rozpracován v knize, která přerámování věnuje celou
+(Bandler a Grinder 1982). Od běžného [reframingu](@/kompendium/nlp-vzorce/reframing/reframing.md) se liší
 tím, že nový význam nevzniká v rozhovoru mezi dvěma lidmi, ale v jakémsi vnitřním
 vyjednávání, které terapeut strukturuje. Pro kompendium je významný dvojím způsobem: jako
 příklad terapeutické techniky s velmi slabým ověřením a jako zdroj jazyka „částí“ a

@@ -117,7 +117,9 @@ z nich samotná (Tversky a Kahneman 1983).
 
 Precedentní podoba má strukturu: pokud povolíme A, budeme z důvodu konzistence muset povolit
 i B, které se od A liší jen nepatrně, a tak dále. Pojmová podoba tvrdí, že mezi A a Z
-neexistuje přesná hranice, a proto nelze přijmout A, aniž bychom přijali Z. Obě podoby
+neexistuje přesná hranice, a proto nelze přijmout A, aniž bychom přijali Z. Katalog argumentačních
+schémat uvádí kauzální, precedentní a pojmovou podobu kluzkého svahu jako samostatná schémata, každé
+s vlastními kritickými otázkami (Walton, Reed a Macagno 2008). Obě podoby
 předpokládají, že rozhodovatel nemá k dispozici rozlišení, na jehož základě by se mohl
 zastavit; legitimita argumentu proto závisí na tom, zda taková rozlišení skutečně chybějí.
 Kluzký svah se často pojí s odvoláním na strach, protože poslední článek řetězu bývá popsán

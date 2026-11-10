@@ -128,7 +128,9 @@ nábojem zahrne i něco, co by do něj běžně nepatřilo, například když se
 nazve „útokem“ nebo „násilím“, aby se na ni přenesla závažnost, kterou toto slovo má.
 Zužující variantou se ze slova s kladným nábojem vyloučí vše, co mluvčímu nevyhovuje, takže
 „skutečnou vědou“ je jen výzkum s žádoucími výsledky a „pravým přítelem“ jen ten, kdo nikdy
-neodporuje. Zužující varianta se často setkává s obranou typu
+neodporuje. Obě varianty slouží témuž účelu, který logické učebnice připisují přesvědčovacím
+definicím obecně: přenést citový náboj slova na obsah, který mu mluvčí přisoudí (Copi, Cohen a
+McMahon 2014). Zužující varianta se často setkává s obranou typu
 [žádný pravý Skot](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zadny-pravy-skot.md),
 kdy se nepohodlný protipříklad vyřadí změnou definice. V jazyce neurolingvistického
 programování odpovídá technice

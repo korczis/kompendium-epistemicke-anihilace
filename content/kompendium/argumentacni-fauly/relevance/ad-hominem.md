@@ -44,10 +44,10 @@ catalog_prev = ""
 catalog_next = "okolnostni-ad-hominem"
 catalog_position = 1
 catalog_family_size = 28
-catalog_sources = ["bentham-1824", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022", "tindale-2007", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources = ["bentham-1824", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "hasher-1977", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022", "tindale-2007", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-1970", "tindale-2007", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["bentham-1824", "whately-1826"]
-catalog_sources_critical = ["hahn-oaksford-2007", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022"]
+catalog_sources_critical = ["hahn-oaksford-2007", "hasher-1977", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -122,7 +122,6 @@ svědka, jehož tvrzení stojí jen na jeho vlastním vnímání, se argument m�
 zpochybnění důvěryhodnosti (Walton 2008). Damer proto řadí útok na osobu mezi selhání při
 vyvracení: místo odpovědi na nejsilnější podobu protiargumentu se odpovídá na otázku, kdo
 ho vyslovil (Damer 2009).
-
 Ve skutečném rozhovoru je stavba obvykle zkrácená. Závěr „proto T neplatí“ se nevysloví,
 protože by jeho slabost byla zřejmá. Místo toho mluvčí změní téma na osobu a nechá posluchače,
 aby závěr doplnil sám. Útok může mít podobu otázky („a kdo vůbec jste?“), ironie, nálepky
@@ -145,6 +144,8 @@ při kterém celkový dojem z člověka zabarvuje hodnocení všeho, co dělá a
 
 Pozornost si zaslouží i opakování a kontext. Jednorázová urážka v prudké hádce je jiný jev
 než soustavná kampaň, v níž se tatáž osoba označuje za nespolehlivou ve všech tématech.
+Opakované tvrzení se přitom posluchačům zdá pravdivější jen proto, že ho už slyšeli, takže
+nálepka nabývá na věrohodnosti, aniž by k ní přibyl důkaz (Hasher, Goldstein a Toppino 1977).
 Soustavná podoba se v kompendiu objevuje u technik, které rozkládají pověst odborníka nebo
 oběti tak dlouho, až se jí přestane věřit bez ohledu na to, co říká. Frickerová pro tento
 stav zavedla pojem svědecké nespravedlnosti, kdy předsudek vůči skupině, k níž mluvčí patří,
@@ -162,7 +163,6 @@ připomíná, že hodnocení vyžaduje rozlišit, zda argument stojí na osobě,
 které by platily bez ohledu na to, kdo je vyslovil (Tindale 2007). Pokud argument obsahuje
 data, výpočty nebo ověřitelné odkazy, vlastnosti autora nemohou nahradit jejich kontrolu.
 Pokud stojí jen na slovu autora, jeho důvěryhodnost je legitimním tématem.
-
 Druhou hranicí je rozdíl mezi hodnocením osoby a hodnocením tvrzení. Je legitimní říct, že
 člověk se v minulosti mýlil, a proto jeho dnešní tvrzení vyžaduje důkladnější ověření. Není
 legitimní vyvodit z téže premisy, že dnešní tvrzení je nepravdivé. Konečně je třeba odlišit
@@ -207,6 +207,7 @@ kdy zazní dřív, než napadený vůbec promluví.
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
+- Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*, 16(1), 107–112.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.

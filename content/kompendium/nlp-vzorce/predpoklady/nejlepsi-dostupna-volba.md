@@ -108,7 +108,8 @@ ani jen mapa rozhodujícího, ale i ten, kdo možnosti předkládá.
 Strukturálně jde o výklad volby ze dvou hledisek. Hledisko „nejlepší“ říká, že volba dává smysl
 zevnitř, z perspektivy toho, kdo volí. Hledisko „dostupné“ říká, že volba proběhla v určitých
 mezích: v mezích toho, co člověk věděl, co si dovedl představit, čeho se bál a co mu okolnosti
-dovolovaly. V ochranném užití se obě hlediska drží pohromadě. Člověk, který se obviňuje za
+dovolovaly; vnitřní meze tohoto druhu vykládal raný model NLP jako ochuzení modelu světa
+(Bandler a Grinder 1975). V ochranném užití se obě hlediska drží pohromadě. Člověk, který se obviňuje za
 dávné rozhodnutí, slyší, že tehdy jednal podle toho, co měl k dispozici, a že dnešní znalost
 nelze vztahovat zpětně na tehdejší situaci. Předpoklad tak mírní sebeobviňování a zároveň
 otevírá pohled na nové možnosti.
@@ -137,7 +138,8 @@ strachem z vnějšího světa, takže formální svoboda odejít neodpovídá sk
 možnosti (Singer a Lalich 1995).
 
 Na straně člověka, na kterého je takový výklad uplatňován, se objevuje sebeobviňování („mohla
-jsem odejít dřív“), stud za vlastní „volby“ a neschopnost pojmenovat, že šlo o volby vynucené.
+jsem odejít dřív“), stud za vlastní „volby“ a neschopnost pojmenovat, že šlo o volby vynucené;
+nepřiměřenou vinu a stud u lidí po zkušenosti s nadvládou popisuje Herman (Herman 1992).
 Kompendium popisuje obecnou strukturu situací, ve kterých je volba nabídnuta tak, že žádná její
 varianta nevede ven, na stránce o [paradoxu totální
 volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md).
@@ -162,7 +164,8 @@ Manipulativní užití se rozpoznává podle tří otázek. Kdo předpoklad upla
 volby, nebo jiný na volby, jejichž podmínky sám vytvořil? Mluví se jen o tom, že volba
 proběhla, nebo i o tom, jaké možnosti byly skutečně dostupné? A vede výklad k úlevě toho, kdo
 volil, nebo k vyvinění toho, kdo podmínky určoval? Pokud se předpoklad používá k tomu, aby z
-volby v omezených možnostech vznikl doklad souhlasu, jde o zneužití.
+volby v omezených možnostech vznikl doklad souhlasu, jde o zneužití, protože výklad zakrývá
+právě to omezování možností, které Stark popsal jako jádro kontrolujícího chování (Stark 2007).
 
 ## Stav důkazů
 
@@ -182,7 +185,8 @@ co bylo dostupné.
 
 Základní obranou je pojmenovat podmínky volby. Pokud někdo tvrdí, že šlo o svobodné rozhodnutí,
 je legitimní popsat, jaké možnosti byly skutečně k dispozici, kdo je omezoval a co by se stalo
-při volbě jiné možnosti: závislost, výhrůžky, izolace, ztráta bydlení nebo vztahů. Druhou
+při volbě jiné možnosti: závislost, výhrůžky, izolace, ztráta bydlení nebo vztahů (Stark
+2007). Druhou
 obranou je rozlišit volbu od souhlasu. To, že člověk v omezených možnostech zvolil nejméně
 nebezpečnou variantu, neznamená, že s ní souhlasil, ani že za její důsledky odpovídá. Třetí
 obranou je nevztahovat dnešní znalost na minulou situaci. Co je dnes zřejmé, tehdy zřejmé být

@@ -39,15 +39,15 @@ catalog_related = ["auditivne-digitalni-system", "vnitrni-dialog", "auditivni-ko
 catalog_related_declared = ["auditivni-submodality", "auditivni-swish", "zmena-kriticke-sebeprezentace", "kriticke-submodality", "auditivni-kotvy"]
 catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
+catalog_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/submodality/auditivni-submodality.md", "kompendium/nlp-vzorce/submodality/auditivni-swish.md", "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
 catalog_prev = "prahovy-vzorec"
 catalog_next = "filmova-technika"
 catalog_position = 16
 catalog_family_size = 20
-catalog_sources = ["bandler-1985", "beck-1976", "ellis-1962", "heap-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "perls-1969", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources = ["bandler-1985", "beck-1976", "ellis-1962", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "passmore-rowson-2019", "perls-1969", "singer-lalich-1995", "witkowski-2010"]
 catalog_sources_primary = ["bandler-1985", "oconnor-seymour-1990"]
 catalog_sources_roots = ["perls-1969"]
-catalog_sources_critical = ["beck-1976", "ellis-1962", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "ellis-1962", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -116,7 +116,8 @@ Obsah sdělení přitom zůstává stejný; mění se jen to, jak silně působ�
 
 Z této struktury plyne rozlišení, které je pro kompendium klíčové. Vnitřní hlas může nést
 převzaté hodnocení, třeba hlas dávného trenéra nebo rodiče, které už neodpovídá skutečnosti, a
-pak může jeho oslabení pomoci. Může však nést i vlastní oprávněnou pochybnost, varování nebo
+pak může jeho oslabení pomoci (Perls 1969). Může však nést i vlastní oprávněnou pochybnost,
+varování nebo
 svědomí. Vzorec mezi nimi sám nerozlišuje. Pokud o tom, který hlas je „škodlivý“, rozhoduje
 někdo jiný než sám člověk, může vzorec sloužit k umlčení vlastního úsudku. V nejzazší podobě se
 pak vlastní hlas nejen oslabuje, ale nahrazuje hlasem autority, která tím získává přímý přístup
@@ -131,7 +132,9 @@ znakem je, když se pochybnost, opatrnost nebo nesouhlas člověka označují za
 „hlas strachu“ nebo „hlas ega“ a když se doporučuje je ztlumit, aniž by se zkoumalo, co říkají.
 Dalším znakem je, když se jako náhrada nabízí hlas mluvčího, vůdce nebo skupiny: „až uslyšíš
 pochybnost, vzpomeň si na můj hlas“. Mluvčí může vlastní hlas klienta zesměšňovat nebo ho
-spojovat s nepříjemnými obrazy a svůj vlastní hlas s klidem a bezpečím.
+spojovat s nepříjemnými obrazy a svůj vlastní hlas s klidem a bezpečím. Literatura o kultech
+popisuje příbuzné techniky [zastavování myšlenek](@/glossary/thought-stopping.md), kterými se pochybnost přeruší dřív, než ji
+člověk domyslí (Hassan 1988).
 
 U člověka, na kterého je vzorec dlouhodobě uplatňován, se objevuje oslabení vlastní vnitřní
 reflexe. Pochybnosti přicházejí méně často, a když přijdou, okamžitě je překryje převzatý hlas,
@@ -173,7 +176,8 @@ hlasu, ověřeno nebylo.
 
 ## Obrana a zotavení
 
-Obranou je zkoumat obsah vnitřního hlasu dřív, než se ho člověk rozhodne ztlumit. Užitečné
+Obranou je zkoumat obsah vnitřního hlasu dřív, než se ho člověk rozhodne ztlumit (Beck 1976).
+Užitečné
 otázky zní: co přesně ten hlas říká, má pro to důvody, a komu ten hlas patří. Pokud někdo
 navrhuje vlastní pochybnosti „vypnout“ a nahradit je jeho hlasem, je to důvod k opatrnosti.
 Vlastní pochybnosti jsou legitimní informací, i když nejsou vždy správné, a jejich posouzení
@@ -191,6 +195,7 @@ jsou převzaté a které vlastní, aniž by do vnitřního dialogu klienta vklá
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Ellis, A. (1962). *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.

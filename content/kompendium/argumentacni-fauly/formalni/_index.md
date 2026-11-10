@@ -87,7 +87,9 @@ logika tyto chyby uspořádala do soustavy pravidel sylogismu, kterou učebnice 
 Třetí větev se týká chyb, které tradiční sylogistika nezachytila a které popsala až moderní
 logika. [Záměna kvantifikátorů](@/kompendium/argumentacni-fauly/formalni/zamena-kvantifikatoru.md)
 přehazuje pořadí výroků „pro každé“ a „existuje“, takže z toho, že každý má nějakou příčinu,
-se vyvodí, že existuje jedna příčina všeho.
+se vyvodí, že existuje jedna příčina všeho. Učebnice logiky vykládají teorii kvantifikace jako
+rozšíření, které zachycuje i vícenásobně obecné výroky, na něž sylogistika nestačí
+(Copi, Cohen a McMahon 2014).
 [Klam modálního rozsahu](@/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md)
 zaměňuje nutnost vztahu mezi premisou a závěrem za nutnost samotného závěru.
 [Klam maskovaného muže](@/kompendium/argumentacni-fauly/formalni/klam-maskovaneho-muze.md)

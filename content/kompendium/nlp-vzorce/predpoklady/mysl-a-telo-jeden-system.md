@@ -44,10 +44,10 @@ catalog_prev = "lide-maji-potrebne-zdroje"
 catalog_next = "zakon-pozadovane-variety"
 catalog_position = 6
 catalog_family_size = 21
-catalog_sources = ["bandler-grinder-1979", "bateson-1972", "beck-1976", "dilts-hallbom-smith-1990", "ekman-2003", "gilovich-1991", "herman-1992", "oconnor-seymour-1990", "perls-1969", "sturt-2012", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1979", "bateson-1972", "beck-1976", "dilts-hallbom-smith-1990", "ekman-2003", "gilovich-1991", "herman-1992", "lilienfeld-2015", "oconnor-seymour-1990", "perls-1969", "sturt-2012", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "perls-1969"]
-catalog_sources_critical = ["beck-1976", "ekman-2003", "gilovich-1991", "herman-1992", "sturt-2012", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "ekman-2003", "gilovich-1991", "herman-1992", "lilienfeld-2015", "sturt-2012", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -112,7 +112,8 @@ ovlivňují prožívání; tato podoba je v souladu s běžnými poznatky o stre
 Střední podoba říká, že prací s pozorností, představami a významem lze ovlivnit tělesné
 prožívání, například vnímání bolesti nebo napětí; i tato podoba má v psychologii oporu, ale jen
 pro omezené účinky. Silná podoba říká, že nemoc je výsledkem přesvědčení nebo nezpracovaného
-konfliktu a že změna přesvědčení nemoc vyléčí. Tato podoba nemá oporu a právě v ní se
+konfliktu a že změna přesvědčení nemoc vyléčí. Tato podoba nemá oporu v kontrolovaném výzkumu
+(Sturt a kol. 2012) a právě v ní se
 předpoklad stává nebezpečným.
 
 Pozorovatel by měl sledovat, ke které podobě se mluvčí posouvá a zda se posun děje mlčky.
@@ -120,7 +121,8 @@ Typická struktura je taková, že se nejdřív uvedou nesporné příklady slab
 zhoršuje spánek, strach zrychluje tep) a pak se z nich bez dalšího zdůvodnění vyvodí silná
 podoba (nemoc vytvořila mysl, mysl ji také odstraní). Druhou strukturou, kterou je třeba
 sledovat, je čtení těla jako zdroje pravdy nadřazené slovům: „tvé tělo říká něco jiného než
-ty“. Pozorovací podoba předpokladu se tak mění v nárok na to, že mluvčí ví lépe než sám člověk,
+ty“, ačkoli neverbální projevy jsou slabým vodítkem k pravdivosti výpovědi (Vrij 2008).
+Pozorovací podoba předpokladu se tak mění v nárok na to, že mluvčí ví lépe než sám člověk,
 co prožívá. O tom, jak spolehlivé je takové čtení, pojednává stránka o [čtení řeči těla v
 NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md).
 
@@ -137,12 +139,16 @@ tvrdí, že konkrétní onemocnění vzniklo z určitého přesvědčení, emoce
 vyvozuje, že léčba spočívá v jejich změně. Na to navazuje zpochybňování lékařské péče („operace
 bude zbytečná“, „léky jen potlačují“) a vysvětlování neúspěchu nedostatečnou vnitřní prací
 pacienta. Dalším znakem je nárok mluvčího číst z těla druhého skryté pravdy: lež, potlačenou
-vzpomínku, „skutečný“ postoj. Takový nárok bývá spojen se ziskem autority, protože člověk se
+vzpomínku, „skutečný“ postoj, přestože kontrolované studie nepotvrdily ani nejznámější z těchto
+nároků, čtení lži z pohybů očí (Wiseman a kol. 2012). Takový nárok bývá spojen se ziskem autority,
+protože člověk se
 pak musí spolehnout na výklad mluvčího, ne na vlastní výpověď.
 
 U člověka, na kterého je takto působeno, se objevuje vina za vlastní nemoc, odkládání nebo
 odmítání léčby, úzkostné sledování vlastních tělesných projevů jako „důkazů“ nezpracovaných
-problémů a nedůvěra k vlastnímu popisu prožitku. Kompendium popisuje, jak se zásahy do
+problémů a nedůvěra k vlastnímu popisu prožitku. Odklon od účinné léčby patří k hlavním
+rizikům nedoložených metod v klinické praxi (Lilienfeld, Lynn a Lohr 2015). Kompendium popisuje,
+jak se zásahy do
 tělesného prožívání mohou stát součástí rozkladu identity, na stránce o [somatické
 rekodifikaci](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md).
 
@@ -167,7 +173,8 @@ výklad je příčinou tělesných nemocí (Beck 1976).
 
 Manipulativní užití se rozpoznává podle tří otázek. Tvrdí mluvčí přímou příčinnou souvislost
 mezi přesvědčením a konkrétní nemocí? Odrazuje od lékařského vyšetření nebo léčby? A činí si
-nárok číst z těla druhého pravdu, kterou nadřazuje jeho vlastní výpovědi? Kladná odpověď na
+nárok číst z těla druhého pravdu, kterou nadřazuje jeho vlastní výpovědi, ačkoli výzkum
+detekce lži takové čtení nepodporuje (Vrij 2008)? Kladná odpověď na
 kteroukoli z nich je varovným znakem bez ohledu na to, jak laskavě je sdělení podáno.
 
 ## Stav důkazů
@@ -191,7 +198,8 @@ změna přesvědčení. Druhou obranou je trvat na lékařském posouzení těle
 rozhodovat s ošetřujícím lékařem; psychická podpora může být cennou součástí péče, ale nikoli
 její náhradou. Třetí obranou je odmítnout nárok druhého číst z vašeho těla pravdu nadřazenou
 vaší výpovědi. Vlastní popis prožitku je legitimní zdroj informací a jeho zpochybňování „tělem,
-které mluví jinak“ je třeba brát jako tvrzení mluvčího, ne jako pozorování.
+které mluví jinak“ je třeba brát jako tvrzení mluvčího, ne jako pozorování, protože z
+tělesného projevu emoce nelze vyčíst její příčinu (Ekman 2003).
 
 V zotavení je důležité zbavit se viny za nemoc a obnovit důvěru k vlastnímu vnímání těla bez
 úzkostného hledání skrytých významů. Herman popisuje, jak zotavení začíná obnovou bezpečí,
@@ -208,6 +216,7 @@ odmítat jeho užití jako náhrady léčby.
 - Ekman, P. (2003). *Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life*. New York: Times Books.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Perls, F. S. (1969). *Gestalt Therapy Verbatim*. Lafayette: Real People Press.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.

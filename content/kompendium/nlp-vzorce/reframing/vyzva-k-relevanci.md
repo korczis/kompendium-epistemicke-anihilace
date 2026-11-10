@@ -39,15 +39,15 @@ catalog_related = ["cerveny-sled", "kontrola-tonu", "irelevantni-zaver", "meta-m
 catalog_related_declared = ["otevreny-ramec", "ramec-zpetneho-shrnuti", "dodatecne-ramcovani", "meta-model"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md", "kompendium/nlp-vzorce/reframing/ramec-vysledku.md", "kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md"]
 catalog_prev = "kontrastni-ramec"
 catalog_next = "otevreny-ramec"
 catalog_position = 11
 catalog_family_size = 17
-catalog_sources = ["grice-1975", "herman-1992", "levinson-1983", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
-catalog_sources_primary = ["oconnor-seymour-1990"]
+catalog_sources = ["grice-1975", "herman-1992", "kunda-1990", "levinson-1983", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010", "eemeren-grootendorst-2004"]
+catalog_sources_primary = ["oconnor-seymour-1990", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975", "levinson-1983", "watzlawick-1967"]
-catalog_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["herman-1992", "kunda-1990", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -123,7 +123,9 @@ V legitimní podobě je referenční cíl sdílený a známý předem, otázka j
 odpověď, která souvislost ukáže, a nerelevantní téma se neruší, jen přesouvá. V manipulativní
 podobě se měřítko relevance mění podle potřeby rozhovoru. Cíl se formuluje úzce právě tehdy,
 když se objeví nepohodlná námitka, otázka je řečnická a odpověď se nehodnotí, a vyřazené téma
-se už nikdy nevrátí. Strukturálně se tak vzorec blíží
+se už nikdy nevrátí. V pragma-dialektickém pojetí kritické diskuse takový tah porušuje základní
+pravidlo, podle něhož strany nesmějí jedna druhé bránit vznést námitku nebo zpochybnit stanovisko
+(van Eemeren a Grootendorst 2004). Strukturálně se tak vzorec blíží
 [tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md), s tím rozdílem, že
 diverze rozhovor odvádí jinam, kdežto výzva k relevanci ho od nepohodlného tématu brání. V
 obou případech se kontrola tématu stává kontrolou toho, co lze vědět.
@@ -131,7 +133,9 @@ obou případech se kontrola tématu stává kontrolou toho, co lze vědět.
 ## Detekční znaky
 
 Manipulativní výzvu k relevanci prozrazuje několik znaků. Otázka po relevanci zazní selektivně:
-u námitek, které ohrožují mluvčího nebo jeho plán, ale ne u odboček, které mu vyhovují. Cíl
+u námitek, které ohrožují mluvčího nebo jeho plán, ale ne u odboček, které mu vyhovují. Je to
+obdoba motivovaného uvažování, při kterém lidé přísněji prověřují to, co ohrožuje žádoucí závěr
+(Kunda 1990). Cíl
 rozhovoru nebyl předem výslovně dohodnut, nebo se jeho vymezení během rozhovoru zúží. Námitka
 se nezapíše a nedostane jiné místo ani čas. Otázka je položena tónem, který odpověď nečeká, a
 když přesto přijde, není posouzena. Typickou oblastí jsou varování před riziky, upozornění na
@@ -185,7 +189,8 @@ kdo ji používá a k čemu.
 
 Nejúčinnější obranou je trvat na tom, aby měřítko relevance bylo výslovné. Kdo je vyzván, aby
 obhájil souvislost svého příspěvku, může se zeptat, podle jakého cíle se relevance posuzuje a
-kdo ho stanovil. Druhou obranou je zajistit dohledatelnost: požádat o zápis námitky do zápisu
+kdo ho stanovil. [Pragma-dialektika](@/kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md) obdobně žádá, aby se strany na výchozích bodech a pravidlech
+diskuse shodly předem, v takzvané úvodní fázi (van Eemeren a Grootendorst 2004). Druhou obranou je zajistit dohledatelnost: požádat o zápis námitky do zápisu
 porady, poslat ji písemně nebo ji předložit tam, kde se o daném riziku rozhoduje. Informace,
 která byla vyřazena jako nerelevantní, ale je zapsaná, zůstává k dispozici pro pozdější
 posouzení a chrání i toho, kdo ji vyslovil. Třetí obranou je hledat druhé fórum, tedy jinou
@@ -204,6 +209,7 @@ neuplatňuje právě na témata, která jsou nepohodlná jemu samému.
 
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
@@ -212,6 +218,7 @@ neuplatňuje právě na témata, která jsou nepohodlná jemu samému.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+- van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 

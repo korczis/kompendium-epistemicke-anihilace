@@ -118,7 +118,6 @@ druhému jeho slova, často ve formě
 nárok na shodnou zkušenost: „prožil jsem přesně totéž“, „vím přesně, jak se cítíte“. Čtvrtým
 prvkem je převod: v okamžiku, kdy druhý prožívá úlevu z pochopení, se objeví návrh, který
 slouží mluvčímu, a soucit se k němu připne jako záruka.
-
 Mechanismus stojí na dvou silných lidských potřebách. První je potřeba být pochopen. Kdo
 prožívá bolest, vnímá porozumění jako dar a má sklon ho oplatit. Cialdini popsal reciprocitu
 jako jeden ze základních principů vlivu: přijatá laskavost vytváří pocit závazku, který
@@ -158,7 +157,9 @@ nemá, a neslibuje, že rozumí úplně.
 Manipulativní užití odpojuje projevy empatie od zájmu o druhého a používá je jako vstupní
 bránu. Typickým prostředím jsou podvody, ve kterých se cílí na lidi po ztrátě, na osamělé
 seniory nebo na lidi v krizi, dále prodej drahých rozvojových programů a nábor do
-uzavřených skupin. Zvláště citlivé je užití v pomáhajících profesích, kde klient
+uzavřených skupin. Literatura o kultech uvádí, že lidé bývají nejsnáze
+získáni v přechodných a zranitelných obdobích, například po ztrátě blízkého, rozchodu nebo
+stěhování (Singer a Lalich 1995). Zvláště citlivé je užití v pomáhajících profesích, kde klient
 očekává, že porozumění je opravdové, a kde zneužití důvěry zasahuje hluboko. Kompendium proto
 pokládá za manipulativní každé užití, ve kterém by se vzorec rozpadl, kdyby mluvčí otevřeně
 řekl, k čemu porozumění slouží.

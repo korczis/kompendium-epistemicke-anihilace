@@ -23,7 +23,7 @@ catalog_en = "Core NLP concepts"
 catalog_size = 42
 catalog_members = ["reprezentacni-systemy", "vizualni-system", "auditivni-system", "kinesteticky-system", "olfaktorni-a-gustatorni-system", "auditivne-digitalni-system", "vedouci-system", "preferovany-reprezentacni-system", "predikaty", "ocni-pristupove-signaly", "synestezie", "submodality-pojem", "kalibrace", "smyslova-ostrost", "raport", "stav", "zdrojovy-stav", "strategie-pojem", "tote-model", "logicke-urovne-pojem", "percepcni-pozice-pojem", "meta-pozice", "asociace", "disociace", "kongruence", "inkongruence", "ekologicka-kontrola", "ramec-pojem", "chunking", "casova-osa-pojem", "metaprogramy-pojem", "kotva-pojem", "vypousteni", "zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "modelovani-pojem", "vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "transderivacni-hledani", "pacing-a-leading-pojem"]
 catalog_types = ["concept"]
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "chartrand-bargh-1999", "chomsky-1965", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "grinder-bandler-1976", "heap-1988", "loftus-palmer-1974", "miller-galanter-pribram-1960", "norcross-2006", "perls-1969", "roderique-davies-2009", "satir-1972", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "chartrand-bargh-1999", "chomsky-1965", "cialdini-2009", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "grinder-bandler-1976", "heap-1988", "loftus-palmer-1974", "miller-galanter-pribram-1960", "norcross-2006", "oconnor-seymour-1990", "perls-1969", "roderique-davies-2009", "rogers-1951", "satir-1972", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010"]
 +++
 
 # Základní pojmy NLP
@@ -32,7 +32,7 @@ catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-gri
 
 Rodina základních pojmů shromažďuje slovník, ze kterého se skládají všechny ostatní části
 katalogu. Nejde o techniky v užším smyslu, ale o pojmy, kterými neurolingvistické programování
-popisuje lidskou zkušenost, komunikaci a změnu. Kdo jim rozumí, rozumí i tomu, jak jsou
+popisuje lidskou zkušenost, komunikaci a změnu (O'Connor a Seymour 1990; Dilts a DeLozier 2000). Kdo jim rozumí, rozumí i tomu, jak jsou
 postaveny vzorce meta-modelu, milton-modelu, kotvení, submodalit nebo reframingu, a dokáže je
 rozpoznat i tam, kde se jejich původ nezmiňuje. Pojmy lze rozdělit do několika skupin. První
 skupinu tvoří [reprezentační
@@ -47,7 +47,7 @@ asociace a [disociace](@/glossary/disociace.md), kongruence a inkongruence, upti
 tvoří pojmy struktury myšlení a jednání: strategie, model TOTE, logické úrovně, percepční
 pozice, metaprogramy, časová osa, chunking a rámec. Pátou skupinu tvoří jazykové pojmy převzaté
 z lingvistiky: hluboká a povrchová struktura a tři univerzální procesy modelování, tedy
-[vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md), zkreslování a zobecňování.
+[vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md), zkreslování a zobecňování (Bandler a Grinder 1975).
 Na pomezí stojí pojmy, které popisují samotnou metodu NLP: modelování, ekologická kontrola a
 kotva.
 
@@ -79,7 +79,7 @@ to vše jsou pozorování, která mají oporu i mimo NLP. Druhou vrstvou je diag
 pojem má umožnit poznat z vnějších znaků něco, co se odehrává uvnitř druhého člověka, například
 jeho preferovaný smyslový systém, jeho strategii nebo to, zda mluví pravdu. Třetí vrstvou je
 intervenční nárok: pojem má umožnit druhého vést, změnit nebo ovlivnit. Čím dál od první vrstvy
-se tvrzení nachází, tím slabší je jeho opora ve výzkumu a tím větší je prostor pro zneužití.
+se tvrzení nachází, tím slabší je jeho opora ve výzkumu a tím větší je prostor pro zneužití; kritické přehledy výzkumu nenašly oporu právě pro diagnostické nároky, jako je určení preferovaného smyslového systému z řeči nebo z pohybů očí (Sharpley 1987; Witkowski 2010).
 Pro pozorovatele z toho plyne jednoduchá otázka: týká se tvrzení toho, co člověk sám prožívá a
 může popsat, nebo toho, co o něm tvrdí někdo jiný? Druhý případ by měl vzbudit opatrnost,
 zejména pokud se z něj vyvozuje rozhodnutí o člověku nebo pokud slouží jako argument autority.
@@ -141,7 +141,7 @@ pochybnosti opustit.
 
 Pro odborníky, kteří se s pojmy NLP setkávají v praxi, platí doplňující zásada. Kdo pojmy této
 rodiny používá, měl by je používat jako otázky, ne jako odpovědi: ptát se klienta, jak svou
-zkušenost prožívá, místo aby mu sděloval, jak ji prožívá. Takové užití je slučitelné s etikou
+zkušenost prožívá, místo aby mu sděloval, jak ji prožívá; takový postup odpovídá zásadě, že nejlepším východiskem k porozumění člověku je jeho vlastní vnitřní referenční rámec (Rogers 1951). Takové užití je slučitelné s etikou
 pomáhajících profesí a nevyžaduje přijetí nedoložených tvrzení. Kompendium popisuje obecné
 principy obrany v kapitole o [obraně a kalibraci](@/kompendium/06-obrana/_index.md) a meze
 rámců, které si nárokují vhled do mysli druhého, v [kritických
@@ -345,6 +345,7 @@ flowchart LR
 - Chartrand, T. L., & Bargh, J. A. (1999). The chameleon effect: The perception–behavior link and social interaction. *Journal of Personality and Social Psychology*, 76(6), 893–910.
 - Chomsky, N. (1965). *Aspects of the Theory of Syntax*. Cambridge, MA: MIT Press.
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
+- Dilts, R., & DeLozier, J. (2000). *Encyclopedia of Systemic Neuro-Linguistic Programming and NLP New Coding*. Scotts Valley: NLP University Press.
 - Dilts, R., Grinder, J., Bandler, R., & DeLozier, J. (1980). *Neuro-Linguistic Programming: Volume I. The Study of the Structure of Subjective Experience*. Cupertino: Meta Publications.
 - Druckman, D., & Swets, J. A. (Eds.) (1988). *Enhancing Human Performance: Issues, Theories, and Techniques*. Washington, DC: National Academy Press.
 - Grinder, J., & Bandler, R. (1976). *The Structure of Magic II: A Book about Communication and Change*. Palo Alto: Science and Behavior Books.
@@ -352,8 +353,10 @@ flowchart LR
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
+- O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Perls, F. S. (1969). *Gestalt Therapy Verbatim*. Lafayette: Real People Press.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
+- Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.

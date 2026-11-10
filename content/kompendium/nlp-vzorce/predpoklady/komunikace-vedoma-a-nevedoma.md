@@ -112,7 +112,8 @@ určené pro výuku (Grinder a Bandler 1981). Katalog se jim věnuje v rodině
 
 Předpoklad má strukturu rozdělení posluchače na dva adresáty. Vědomý adresát slyší obsah a
 může s ním souhlasit nebo nesouhlasit. Nevědomý adresát vnímá vše ostatní a podle NLP s ním
-lze komunikovat odděleně. Z tohoto rozdělení plynou tři pracovní tvrzení. Nesoulad mezi
+lze komunikovat odděleně (Bandler a Grinder 1975b; Grinder, DeLozier a Bandler 1977). Z tohoto
+rozdělení plynou tři pracovní tvrzení. Nesoulad mezi
 slovy a neverbálním projevem je informací o tom, že úrovně nejsou v souladu. Sdělení na
 nevědomé úrovni může mít jiný obsah než sdělení vědomé. A konečně nevědomí „ví“ a „chce“
 něco, co vědomí nemusí uznat.
@@ -160,8 +161,9 @@ umění svádění a v online obsahu se nabízí „skrytá hypnóza“ jako zp�
 souhlasu bez vědomí druhého; katalog tyto praktiky popisuje na stránce
 [konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md). Ve
 vztazích a skupinách slouží odvolání na nevědomí k tomu, aby se nesouhlas druhého
-nebral vážně. I tam, kde skryté sugesce samy nemají účinek, který se jim připisuje,
-škodí rámec, v němž se vědomé rozhodnutí člověka prohlašuje za druhořadé.
+nebral vážně. I tam, kde skryté sugesce samy nemají účinek, který se jim připisuje, protože
+kontrolovaný výzkum klíčová tvrzení NLP nepotvrdil (Witkowski 2010), škodí rámec, v němž se vědomé
+rozhodnutí člověka prohlašuje za druhořadé.
 
 ## Stav důkazů
 

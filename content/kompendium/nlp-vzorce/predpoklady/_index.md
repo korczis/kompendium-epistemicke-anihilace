@@ -55,7 +55,8 @@ zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potreb
 [lidé volí nejlepší dostupnou
 volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) a [odpor jako znak
 chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md).
-Systémový okruh konečně tvoří předpoklady převzaté z kybernetiky a systemického myšlení: [mysl
+Systémový okruh konečně tvoří předpoklady převzaté z kybernetiky a systemického myšlení
+(Bateson 1972): [mysl
 a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md),
 [nejpružnější prvek řídí
 systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) a požadavek, aby změna
@@ -89,7 +90,8 @@ bývají solidní, a jejich podobou v NLP, která je volnou interpretací těcht
 ## Jak rodinu číst defenzivně
 
 Pro účely kompendia mají předpoklady zvláštní význam. Nepopisují konkrétní jazykový vzorec,
-který by šlo v rozhovoru zachytit, ale určují rámec, ve kterém se rozhovor vykládá. Kdo
+který by šlo v rozhovoru zachytit, ale jako východiska praktika (O'Connor a Seymour 1990)
+určují rámec, ve kterém se rozhovor vykládá. Kdo
 převezme předpoklad, převezme i výklad, který z něj plyne: co je neúspěch, kdo za něj odpovídá,
 co znamená odmítnutí, co je „pravé já“ člověka. Proto se vyplatí sledovat tři mechanismy, které
 se v rodině opakují.
@@ -98,7 +100,9 @@ Prvním je asymetrie. Téměř každý předpoklad má symetrickou podobu, ve kt
 účastníky stejně, a asymetrickou podobu, ve které se uplatní jen na jednu stranu. Mapa druhého
 je „jen mapa“, ale mapa mluvčího je území; neúspěch účastníka je zpětná vazba o účastníkovi,
 ale neúspěch metody je také zpětná vazba o účastníkovi; respekt k modelu světa se žádá pro
-skupinu, ale ne pro kritika. Asymetrie je nejspolehlivějším znakem manipulativního užití a dá
+skupinu, ale ne pro kritika. Druhý z těchto vzorců odpovídá tomu, co Lifton popsal jako
+nadřazení doktríny osobě (Lifton 1961). Asymetrie je nejspolehlivějším znakem manipulativního užití
+a dá
 se zachytit jednoduchou otázkou: platí tento výrok i pro toho, kdo ho právě vyslovil?
 
 Druhým mechanismem je přesun odpovědnosti. Předpoklady o zdrojích, o nejlepší dostupné volbě a

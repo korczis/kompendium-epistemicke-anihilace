@@ -39,13 +39,13 @@ catalog_related = ["chunking", "som-analogie", "hierarchie-idei", "chunking-naho
 catalog_related_declared = ["som-analogie", "terapeuticka-metafora", "izomorfni-metafora", "chunking-nahoru"]
 catalog_kompendium = ["kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md", "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md", "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md"]
 catalog_prev = "chunking-dolu"
 catalog_next = "kategorie-satirove"
 catalog_position = 4
 catalog_family_size = 20
-catalog_sources = ["bateson-1972", "dilts-1999", "gilovich-1991", "gordon-1978", "haley-1973", "herman-1992", "lakoff-johnson-1980", "oconnor-seymour-1990", "passmore-rowson-2019", "rosen-1982", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
-catalog_sources_primary = ["dilts-1999", "gordon-1978", "oconnor-seymour-1990"]
+catalog_sources = ["bateson-1972", "copi-cohen-mcmahon-2014", "dilts-1999", "gilovich-1991", "gordon-1978", "haley-1973", "herman-1992", "lakoff-johnson-1980", "oconnor-seymour-1990", "passmore-rowson-2019", "rosen-1982", "tosey-mathison-2009", "tversky-kahneman-1974", "walton-reed-macagno-2008", "witkowski-2010"]
+catalog_sources_primary = ["copi-cohen-mcmahon-2014", "dilts-1999", "gordon-1978", "oconnor-seymour-1990", "walton-reed-macagno-2008"]
 catalog_sources_roots = ["bateson-1972", "haley-1973", "rosen-1982"]
 catalog_sources_critical = ["gilovich-1991", "herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -88,7 +88,7 @@ Mimo NLP se metaforám věnuje kognitivní lingvistika. Lakoff a Johnson ukázal
 
 ## Struktura vzorce
 
-Laterální chunking má tři strukturní prvky. Prvním je výchozí případ, o kterém se mluví. Druhým je společná třída, přes kterou se přechází; ta často zůstává nevyslovená. Třetím je cílový případ, ke kterému rozhovor dorazí. Účinek pohybu závisí na tom, jak vysoko leží společná třída. Je-li nízko, srovnávané případy jsou si blízké a srovnání nese skutečnou informaci: dvě operace téhož typu, dvě smlouvy s podobnými podmínkami. Je-li vysoko, případy spolu sdílejí jen velmi obecnou vlastnost a srovnání neříká skoro nic, i když může působit přesvědčivě.
+Laterální chunking má tři strukturní prvky. Prvním je výchozí případ, o kterém se mluví. Druhým je společná třída, přes kterou se přechází; ta často zůstává nevyslovená. Třetím je cílový případ, ke kterému rozhovor dorazí. Účinek pohybu závisí na tom, jak vysoko leží společná třída. Je-li nízko, srovnávané případy jsou si blízké a srovnání nese skutečnou informaci: dvě operace téhož typu, dvě smlouvy s podobnými podmínkami. Je-li vysoko, případy spolu sdílejí jen velmi obecnou vlastnost a srovnání neříká skoro nic, i když může působit přesvědčivě; logické příručky proto sílu analogie poměřují tím, zda jsou sdílené vlastnosti pro závěr relevantní a jaké rozdíly mezi případy existují (Copi, Cohen a McMahon 2014).
 
 Přesvědčivost analogie souvisí s tím, že lidé posuzují pravděpodobnost a příslušnost k třídě podle podobnosti. Tversky a Kahneman popsali heuristiku reprezentativnosti, při níž se úsudek opírá o to, jak moc se jedna věc podobá jiné, a přehlíží se přitom základní četnosti a jiné podstatné údaje (Tversky a Kahneman 1974). Gilovich ukázal, jak snadno lidé spatřují souvislosti a vzorce tam, kde jsou jen náhodné shody (Gilovich 1991). Analogie, která zvýrazní nápadnou podobnost a zamlčí podstatné rozdíly, tak využívá běžný a jinak užitečný způsob usuzování.
 
@@ -108,13 +108,14 @@ Výzkum metafory a analogického usuzování je rozsáhlý a dobře doložený, 
 
 ## Obrana a zotavení
 
-Základní obranou proti manipulativní analogii je zviditelnit společnou třídu a zeptat se na rozdíly. V čem jsou srovnávané případy stejné? A v čem se liší rozsahem, úmyslem, odpovědností a důsledky? Pokud je společná vlastnost velmi obecná, srovnání nic nedokazuje a je legitimní ho odmítnout jako odpověď. Druhou obranou je vrátit rozhovor k výchozímu případu: i kdyby jiní jednali stejně, otázka zněla, co se stalo zde. Třetí obranou je číst metafory, které mluvčí používá, jako rámce, ne jako popisy. Kdo si všimne, že pochybnost se v rozhovoru opakovaně nazývá „nemocí“ nebo kritika „útokem“, může metaforu nahradit neutrálním popisem a posoudit, zda hodnocení, které nesla, odpovídá skutečnosti.
+Základní obranou proti manipulativní analogii je zviditelnit společnou třídu a zeptat se na rozdíly. V čem jsou srovnávané případy stejné? A v čem se liší rozsahem, úmyslem, odpovědností a důsledky? Teorie argumentace řadí otázku po rozdílech, které oslabují sílu podobnosti, mezi [kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md) argumentu z analogie (Walton, Reed a Macagno 2008). Pokud je společná vlastnost velmi obecná, srovnání nic nedokazuje a je legitimní ho odmítnout jako odpověď. Druhou obranou je vrátit rozhovor k výchozímu případu: i kdyby jiní jednali stejně, otázka zněla, co se stalo zde. Třetí obranou je číst metafory, které mluvčí používá, jako rámce, ne jako popisy. Kdo si všimne, že pochybnost se v rozhovoru opakovaně nazývá „nemocí“ nebo kritika „útokem“, může metaforu nahradit neutrálním popisem a posoudit, zda hodnocení, které nesla, odpovídá skutečnosti.
 
 U lidí, kteří se dlouho pohybovali ve skupině nebo ve vztahu, kde se každá výtka relativizovala srovnáním s jinými, může být součástí zotavení znovunabytí schopnosti posuzovat jednotlivý čin sám o sobě. Pomáhá rozhovor s někým mimo vztah, kdo dokáže říct, že tento konkrétní čin je nepřijatelný bez ohledu na to, co dělají jiní. Herman zdůrazňuje, že pojmenování toho, co se stalo, a uznání jeho závažnosti druhými lidmi patří k základům obnovy po traumatu (Herman 1992).
 
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Dilts, R. (1999). *Sleight of Mouth: The Magic of Conversational Belief Change*. Capitola: Meta Publications.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Gordon, D. (1978). *Therapeutic Metaphors: Helping Others through the Looking Glass*. Cupertino: Meta Publications.
@@ -126,6 +127,7 @@ U lidí, kteří se dlouho pohybovali ve skupině nebo ve vztahu, kde se každá
 - Rosen, S. (Ed.) (1982). *My Voice Will Go with You: The Teaching Tales of Milton H. Erickson*. New York: W. W. Norton.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+- Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

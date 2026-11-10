@@ -44,10 +44,10 @@ catalog_prev = "zpetne-shrnuti"
 catalog_next = "vedeni-v-raportu"
 catalog_position = 8
 catalog_family_size = 16
-catalog_sources = ["bandler-grinder-1979", "ekman-2003", "erickson-rossi-rossi-1976", "herman-1992", "kahneman-2011", "lifton-1961", "oconnor-seymour-1990", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1979", "ekman-2003", "erickson-rossi-rossi-1976", "gilovich-1991", "herman-1992", "kahneman-2011", "lifton-1961", "oconnor-seymour-1990", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
-catalog_sources_critical = ["ekman-2003", "herman-1992", "kahneman-2011", "lifton-1961", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_critical = ["ekman-2003", "gilovich-1991", "herman-1992", "kahneman-2011", "lifton-1961", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -126,7 +126,7 @@ doptat. Druhým je silnější nárok, že lze spolehlivě rozpoznat souhlas a n
 člověk nevyslovil. Třetím je nejsilnější nárok, že neverbální „ano“ nebo „ne“ je
 pravdivější než vyslovené slovo. První nárok je rozumný. Druhý je nejistý, protože stejné
 neverbální projevy mají mnoho příčin, například únavu, bolest, rozpaky nebo kulturní
-zvyklosti. Třetí nárok je epistemicky i eticky problematický, protože staví výklad
+zvyklosti (Vrij 2008). Třetí nárok je epistemicky i eticky problematický, protože staví výklad
 pozorovatele nad výpověď člověka o sobě samém.
 
 ## Detekční znaky
@@ -138,7 +138,9 @@ chceš“, „tvoje tělo říká něco jiného“, „poznám, že lžeš“. D
 výklad těla se uplatní jen tam, kde podporuje cíl mluvčího, a když tělo „říká ne“, mluvčí to
 přejde. V prodeji se vzorec projevuje tím, že prodejce reaguje na drobné projevy váhání
 okamžitým přeformulováním nabídky, a v jednání tím, že se váhání vykládá jako „skrytý
-souhlas“, který stačí jen vyslovit.
+souhlas“, který stačí jen vyslovit. Selektivní výklad tohoto druhu odpovídá
+obecnému sklonu vykládat nejednoznačné podněty ve prospěch hypotézy, kterou už pozorovatel
+má (Gilovich 1991).
 
 Nejzávažnější podobu vzorec má ve vztazích, kde se čtení těla použije k popření výslovného
 odmítnutí, zvláště v oblasti intimity. Výrok, že „ústa říkají ne, ale tělo říká ano“, je
@@ -207,6 +209,7 @@ a nechat klientovi poslední slovo.
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
 - Ekman, P. (2003). *Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life*. New York: Times Books.
 - Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.
+- Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.

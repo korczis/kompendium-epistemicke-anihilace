@@ -103,8 +103,8 @@ prostě je (Bandler a Grinder 1975; Chomsky 1965). Spojení „naše komunikace�
 závislost“ tak předpokládá existenci hotového předmětu, o kterém lze mluvit, místo vztahu
 nebo chování, které je třeba popsat.
 
-Pro češtinu má téma zvláštní rozměr. Anglický seznam spouštěčů se opírá o určitý člen, který
-čeština nemá. Určitost se v češtině vyjadřuje ukazovacími zájmeny („ta chyba“), přivlastňovacími
+Pro češtinu má téma zvláštní rozměr. Anglický seznam spouštěčů začíná určitými deskripcemi, tedy
+spojeními s určitým členem (Levinson 1983), a ten čeština nemá. Určitost se v češtině vyjadřuje ukazovacími zájmeny („ta chyba“), přivlastňovacími
 zájmeny („tvoje lež“) a slovosledem: co stojí na začátku věty jako známé východisko, bývá
 chápáno jako už dané. Překlady příruček NLP tuto odlišnost většinou nereflektují a přejímají
 anglické příklady, takže čtenář by měl počítat s tím, že v češtině se existenční předpoklad
@@ -175,7 +175,8 @@ mezi událostí a jejím výkladem, a tím zpochybňuje nálepky, které si o so
 Manipulativní užití se pozná podle toho, že předpokládaná věc je sporná, slouží mluvčímu a
 nikdy nebyla vyslovena jako tvrzení, ke kterému by se dalo vyjádřit. Vztah, ve kterém jedna
 strana mluví o „tvé hysterii“ nebo „tvém dluhu vůči nám“, vytváří v řeči předměty, které
-druhá strana nemůže odmítnout, aniž by opustila téma. Podobný princip popisuje kompendium u
+druhá strana nemůže odmítnout, aniž by opustila téma, protože prosté popření výpovědi
+předpoklad nechává stát (Levinson 1983). Podobný princip popisuje kompendium u
 [terminologické mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md),
 kde pojem bez jasného obsahu slouží jako předmět, o kterém se mluví, ale který nelze
 přezkoumat.

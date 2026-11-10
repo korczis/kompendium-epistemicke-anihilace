@@ -86,7 +86,16 @@ NLP se partnerskými vztahy zabývalo od svých počátků. Leslie Cameron-Bandl
 
 ## Struktura vzorce
 
-Strukturálně má strategie lásky podle tohoto výkladu dvě složky. První je kanál, kterým musí náklonnost přicházet, aby byla rozpoznána: zrakový, sluchový nebo tělesný. Druhou je kritérium, tedy konkrétní podoba projevu, kterou člověk zažil jako přesvědčivou, často v raném období vztahu nebo v dětství. Pocit, že je milován, vzniká, když projev odpovídá kanálu i kritériu. Ve vlivovém užití se tato stavba stává mapou. Kdo kanál a kritérium zjistí, ať přímými otázkami, nebo pozorováním, může je naplnit tak intenzivně, že vznikne pocit výjimečného porozumění, a může je pak cíleně odebírat. Sled zahlcení a odnímání má výraznou strukturu: náklonnost přichází přesně tam, kde ji člověk potřebuje, a mizí právě ve chvílích, kdy nesouhlasí, odmítá nebo se stýká s jinými lidmi.
+Strukturálně má strategie lásky podle tohoto výkladu dvě složky. První je kanál, kterým musí
+náklonnost přicházet, aby byla rozpoznána: zrakový, sluchový nebo tělesný. Druhou je kritérium, tedy
+konkrétní podoba projevu, kterou člověk zažil jako přesvědčivou, často v raném období vztahu nebo v
+dětství. Pocit, že je milován, vzniká, když projev odpovídá kanálu i kritériu. Ve vlivovém užití se
+tato stavba stává mapou. Kdo kanál a kritérium zjistí, ať přímými otázkami, nebo pozorováním, může
+je naplnit tak intenzivně, že vznikne pocit výjimečného porozumění, a může je pak cíleně odebírat.
+Sled zahlcení a odnímání má výraznou strukturu: náklonnost přichází přesně tam, kde ji člověk
+potřebuje, a mizí právě ve chvílích, kdy nesouhlasí, odmítá nebo se stýká s jinými lidmi. Takové
+nepředvídatelné střídání přízně a jejího odnětí popisuje literatura o traumatu jako jeden z
+prostředků, jimiž pachatel oběť váže na sebe a odděluje ji od ostatních (Herman 1992).
 
 Pozorovatel by měl vidět, že tento sled nevyžaduje teorii NLP, ale dává jí nebezpečně přesný jazyk. Střídání odměny a jejího odnímání patří k dobře popsaným mechanismům kontrolujících vztahů. Stark ukazuje, že [donucující kontrola](@/glossary/coercive-control.md) v partnerských vztazích nespočívá v jednotlivých incidentech, ale ve vzorci, který postupně omezuje svobodu, kontakty a sebeurčení oběti, a že se kontrola prolíná s běžným partnerským životem, takže zvenčí často nevypadá jako násilí (Stark 2007). Kompendium tento mechanismus popisuje u [pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md). Katalog jeho souvislost s podmiňováním rozebírá v hesle [kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md).
 

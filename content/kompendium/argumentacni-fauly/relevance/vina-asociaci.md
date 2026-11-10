@@ -44,10 +44,10 @@ catalog_prev = "otraveni-studny"
 catalog_next = "odvolani-na-autoritu"
 catalog_position = 6
 catalog_family_size = 28
-catalog_sources = ["bentham-1824", "cialdini-2009", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hasher-1977", "johnson-blair-1977", "kahneman-2011", "tindale-2007", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
+catalog_sources = ["bentham-1824", "cialdini-2009", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hasher-1977", "johnson-blair-1977", "kahneman-2011", "nickerson-1998", "robinson-1950", "tindale-2007", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "johnson-blair-1977", "tindale-2007", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["bentham-1824"]
-catalog_sources_critical = ["cialdini-2009", "hahn-oaksford-2007", "hasher-1977", "kahneman-2011"]
+catalog_sources_critical = ["cialdini-2009", "hahn-oaksford-2007", "hasher-1977", "kahneman-2011", "nickerson-1998", "robinson-1950"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -120,7 +120,6 @@ znaku neplyne sdílení všech znaků, a z toho, že B má vlastnost V, neplyne,
 cokoli, co je s B v nějakém vztahu (Copi, Cohen a McMahon 2014). Argument se často opírá o
 jediný společný bod, který je vytržen z kontextu, a zbytek podobnosti si posluchač doplní
 sám.
-
 V nejvyhrocenější podobě se argument řetězí. A je spojen s B, B je spojen s C, C je
 spojen s něčím obecně odsuzovaným, a A je tak po několika krocích prohlášen za součást
 odsuzovaného. Každý článek řetězu může být pravdivý, ale vazba slábne s každým krokem, a
@@ -136,7 +135,8 @@ s kým mluvil, kdo co podepsal, kdo komu dal rozhovor nebo kdo se s kým objevil
 fotografii, a z toho přechází k hodnocení. Druhým znakem je slabost a nespecifičnost vazby.
 Spojení bývá jednorázové, dávné nebo nepřímé a nesouvisí s tím, o čem se rozhoduje. Třetím
 znakem je selektivita: hledá se nejhorší možné spojení a jiná spojení, která by svědčila
-opačně, se přehlížejí. Tato selektivita je příbuzná
+opačně, se přehlížejí, což odpovídá obecnému sklonu hledat jen doklady pro předem zvolený
+závěr (Nickerson 1998). Tato selektivita je příbuzná
 [vybírání podivínů](@/kompendium/argumentacni-fauly/dialekticke-taktiky/vybirani-podivinu.md),
 kdy se celá skupina posuzuje podle svých nejextrémnějších členů. Čtvrtým znakem je
 [vytržení z kontextu](@/kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md). Fotografie, citát nebo podpis se prezentují bez okolností, za nichž
@@ -167,7 +167,8 @@ nějaký jiný (Tindale 2007).
 
 Platná je také statistická úvaha o skupinách, pokud se netvrdí víc, než data dovolují.
 Je legitimní říct, že v určité organizaci se opakovaně objevovaly určité problémy, a proto
-je na místě opatrnost. Není legitimní vyvodit, že každý její člen se jich dopustil. Hranice
+je na místě opatrnost. Není legitimní vyvodit, že každý její člen se jich dopustil, protože korelace zjištěná na
+úrovni skupin nedovoluje usuzovat na jednotlivce (Robinson 1950). Hranice
 mezi oběma úvahami je mezi odhadem pravděpodobnosti a připsáním viny.
 
 ## Stav poznání
@@ -210,6 +211,8 @@ vlastnostmi člověka, ne jeho okolím.
 - Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*, 16(1), 107–112.
 - Johnson, R. H., & Blair, J. A. (1977). *Logical Self-Defense*. Toronto: McGraw-Hill Ryerson.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
+- Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. *American Sociological Review*, 15(3), 351–357.
 - Tindale, C. W. (2007). *Fallacies and Argument Appraisal*. Cambridge: Cambridge University Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.

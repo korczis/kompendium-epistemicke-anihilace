@@ -184,7 +184,7 @@ jeho posuzování.
 Základní obranou je oddělit důvěru k člověku od ověření tvrzení. Lze důvěřovat a zároveň si
 smlouvu vzít domů, nechat ji posoudit třetí osobou a rozhodnout až potom; poctivý partner takový
 postup přijme, kdo jej odrazuje, dává najevo, že ověření nesnese. Rychle vzniklý pocit blízkosti
-je signálem ke zpomalení, zvlášť pokud po něm následuje žádost o peníze nebo podpis. Užitečné je
+je signálem ke zpomalení, zvlášť pokud po něm následuje žádost o peníze nebo podpis; výzkum vlivu doporučuje právě v takové chvíli oddělit pocit sympatie k mluvčímu od posouzení jeho nabídky (Cialdini 2009). Užitečné je
 mít předem domluvenou osobu, se kterou člověk každé větší rozhodnutí probere. Proti zneužití
 nedůvěry pomáhá kontrolní otázka, zda je nedůvěra rozložena rovnoměrně: kdo nedůvěřuje všem
 vnějším zdrojům, ale bezvýhradně věří jednomu mluvčímu, nevidí svět kriticky, ale skrze jeho

@@ -44,10 +44,10 @@ podle reprezentativnosti a podle dostupnosti příkladů (Tversky a Kahneman 197
 Rodina má v katalogu zvláštní postavení. Klamy relevance nebo jazyka se dají rozpoznat
 pozorným čtením argumentu. Statistické klamy často zůstávají skryté i pozornému čtenáři,
 protože čísla, na kterých stojí, mohou být správná. Chyba nespočívá v datech, ale v tom,
-co se z nich vyvozuje, nebo v tom, co v nich chybí. Proto se tato rodina nejvíce dotýká
+co se z nich vyvozuje, nebo v tom, co v nich chybí (Huff 1954). Proto se tato rodina nejvíce dotýká
 profesí, pro které kompendium vzniklo: lékařů interpretujících výsledky testů, znalců a
 soudců vážících statistické důkazy, vyšetřovatelů hodnotících shody a profily a výzkumníků
-čtoucích výsledky studií.
+čtoucích výsledky studií (Gigerenzer 2002).
 
 ## Tři zdroje chyb
 
@@ -110,28 +110,29 @@ užití tak účinné. Kdo předkládá jen přesnost testu a mlčí o základn�
 na pravděpodobnost viny, nemusí lhát. Využívá mezeru, kterou posluchač sám nezaplní, protože
 ji nevidí.
 
-Katalog proto u většiny hesel uvádí užití „chyba i taktika“. Rozlišení mezi oběma podobami
-nezávisí na struktuře argumentu, ale na tom, zda mluvčí chybějící údaj zná a zamlčuje, nebo
-ho sám přehlíží. Pro posluchače, který se brání, na tom rozlišení prakticky nezáleží: v obou
-případech je odpovědí doplnit chybějící veličinu. Pro posouzení odpovědnosti, například v
-profesní etice znalců nebo v hodnocení reklamy, je rozlišení naopak podstatné.
+Katalog proto u většiny hesel uvádí užití „chyba i taktika“. Rozlišení mezi oběma podobami nezávisí
+na struktuře argumentu, ale na tom, zda mluvčí chybějící údaj zná a zamlčuje, nebo ho sám přehlíží.
+Pro posluchače, který se brání, na tom rozlišení prakticky nezáleží: v obou případech je odpovědí
+doplnit chybějící veličinu (Gigerenzer 2002). Pro posouzení odpovědnosti, například v profesní etice
+znalců nebo v hodnocení reklamy, je rozlišení naopak podstatné.
 
 ## Proč na tom záleží v kompendiu
 
 Kompendium se zabývá procesy, které rozkládají schopnost člověka nebo skupiny poznávat a
 rozhodovat. Statistické klamy do nich vstupují dvojím způsobem. Za prvé jsou nástrojem
 vytváření falešné jistoty: podrobný příběh, vybrané případy nebo nápadné číslo z malého
-vzorku dodávají tvrzení zdání doloženosti. Za druhé jsou nástrojem stigmatizace: kdo
+vzorku dodávají tvrzení zdání doloženosti (Tversky a Kahneman 1971; Tversky a Kahneman
+1983). Za druhé jsou nástrojem stigmatizace: kdo
 přisuzuje člověku nebezpečnost, vinu nebo nemoc na základě jediného „sedícího“ znaku a
 přehlíží, kolik dalších lidí ho sdílí, dopouští se zanedbání základní míry s důsledky pro
 konkrétní život. U soudních omylů, v nichž sehrála roli záměna podmíněných
-pravděpodobností, je tento druhý rozměr zvlášť zřetelný.
+pravděpodobností, je tento druhý rozměr zvlášť zřetelný (Gigerenzer 2002).
 
-Rodina se také dotýká ochrany odborníků samotných. Klinik, jehož zkušenost se skládá z
-pacientů, kteří se vrátili, pracuje se zkresleným výběrem. Vyšetřovatel, kterému vyšlo
-několik případů po sobě, je vystaven dojmu horké ruky. Výzkumník, který věří výsledku malé
-pilotní studie, podléhá zákonu malých čísel. Znalost těchto klamů je tak i nástrojem
-profesní sebereflexe a supervize, nejen obrany proti cizím argumentům.
+Rodina se také dotýká ochrany odborníků samotných. Klinik, jehož zkušenost se skládá z pacientů,
+kteří se vrátili, pracuje se zkresleným výběrem. Vyšetřovatel, kterému vyšlo několik případů po
+sobě, je vystaven dojmu horké ruky. Výzkumník, který věří výsledku malé pilotní studie, podléhá
+zákonu malých čísel (Tversky a Kahneman 1971). Znalost těchto klamů je tak i nástrojem profesní
+sebereflexe a supervize, nejen obrany proti cizím argumentům.
 
 ## Jak se proti nim bránit
 
@@ -166,10 +167,10 @@ West 2000). Bayesovské pojetí argumentace přidává, že mnohé úvahy, kter�
 statistické klamy, mohou být za určitých podmínek rozumné, a že o tom rozhoduje obsah,
 nikoli forma (Hahn a Oaksford 2007).
 
-Pro čtenáře kompendia z toho plyne opatrnost v obou směrech. Označit úvahu za statistický
-klam vyžaduje ukázat, která veličina chybí nebo je zaměněna, ne jen připomenout, že se
-lidé v pravděpodobnosti mýlí. A odmítnout statistický důkaz kvůli tomu, že čísla mohou
-klamat, je stejnou chybou jako přijmout ho bez ověření. Hesla této rodiny proto u každého
+Pro čtenáře kompendia z toho plyne opatrnost v obou směrech. Označit úvahu za statistický klam
+vyžaduje ukázat, která veličina chybí nebo je zaměněna, ne jen připomenout, že se lidé v
+pravděpodobnosti mýlí (Hahn a Oaksford 2007). A odmítnout statistický důkaz kvůli tomu, že čísla
+mohou klamat, je stejnou chybou jako přijmout ho bez ověření. Hesla této rodiny proto u každého
 klamu popisují i to, kdy podobná úvaha klamem není.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

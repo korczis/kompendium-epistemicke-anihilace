@@ -44,9 +44,9 @@ catalog_prev = "posouvani-branek"
 catalog_next = "nirvana-klam"
 catalog_position = 15
 catalog_family_size = 20
-catalog_sources = ["hahn-oaksford-2007", "hamblin-1970", "lilienfeld-2015", "mercier-sperber-2011", "walton-2008", "eemeren-grootendorst-1992"]
+catalog_sources = ["hahn-oaksford-2007", "hamblin-1970", "lilienfeld-2015", "mercier-sperber-2011", "popper-1959", "walton-2008", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["hamblin-1970", "walton-2008", "eemeren-grootendorst-1992"]
-catalog_sources_roots = []
+catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["hahn-oaksford-2007", "lilienfeld-2015", "mercier-sperber-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
@@ -117,7 +117,9 @@ daném dialogu nese břemeno, protože bez ní nelze rozhodnout, zda je úsudek 
 2008).
 
 Klam má zvláštní sílu u tvrzení, která je obtížné nebo nemožné vyvrátit: u negativních
-existenčních tvrzení, u tvrzení o skrytých úmyslech, u vágních obvinění. Kdo tvrdí, že
+existenčních tvrzení, u tvrzení o skrytých úmyslech, u vágních obvinění. Popper ukázal, že čistě
+existenční tvrzení typu „někde existuje X“ nelze žádným konečným souborem pozorování vyvrátit
+(Popper 1959). Kdo tvrdí, že
 někde existuje skrytá síť vlivu, a požaduje, aby druhý dokázal, že neexistuje, staví ho do
 pozice, kterou nelze splnit, a z jejího nesplnění pak čerpá zdání oprávnění. Proto klam
 často spolupracuje s [důkazem tvrzením](@/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md),
@@ -197,6 +199,7 @@ vysvětluje, proč tvrzení, které nelze testovat, nemůže být nikdy doložen
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 

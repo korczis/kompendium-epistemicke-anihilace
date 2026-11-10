@@ -111,8 +111,10 @@ Struktura se nejčastěji objevuje ve dvou podobách. Ve formální podobě je t
 podmíněné nebo pravděpodobnostní tak, že každé pozorování lze vyložit jako jeho projev: „v
 pravý čas se vše ukáže“, „energie působí, jak potřebuje“. V procedurální podobě je tvrzení na
 počátku testovatelné, ale každý nepříznivý výsledek vyvolá dodatečný výklad. Tvrzení T
-předpovídá výsledek R. Nastane ne-R. Místo opuštění T zazní pomocná hypotéza H, podle níž
-ne-R ve skutečnosti T potvrzuje nebo s ním aspoň neodporuje. Typickým případem v oblasti
+předpovídá výsledek R. Nastane ne-R. Místo opuštění T zazní pomocná hypotéza H, podle níž ne-R ve
+skutečnosti T potvrzuje nebo s ním aspoň neodporuje. Popper takový postup popsal jako záchranu
+teorie dodatečnými hypotézami, které nezvyšují, ale snižují její testovatelnost (Popper 1959).
+Typickým případem v oblasti
 vlivových metod je výklad selhání jako zpětné vazby nebo odporu klienta, který kompendium
 popisuje u předpokladu [není selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md).
 Zvláštní a nebezpečnou variantou je sebeuzavírající struktura, v níž se samotná pochybnost
@@ -135,7 +137,9 @@ tvrzení. Oba tahy mají společné to, že výsledek zkoušky se nikdy nepromí
 
 Kromě obecné struktury lze rozlišit několik podob, se kterými se kliničtí a vyšetřovací
 pracovníci setkávají častěji. Terapeutická varianta vykládá každé zhoršení jako „krizi
-uzdravování“ a každé nezlepšení jako hlubší vrstvu problému. Doktrinální varianta, typická
+uzdravování“ a každé nezlepšení jako hlubší vrstvu problému. Přehled pseudovědeckých postupů v
+klinické psychologii řadí takové dodatečné výklady, které tvrzení chrání před vyvrácením, mezi
+typické varovné znaky (Lilienfeld, Lynn a Lohr 2015). Doktrinální varianta, typická
 pro uzavřené skupiny, připisuje nepříznivé události zkoušce víry nebo vnějšímu nepříteli.
 Diagnostická varianta přiřazuje člověku vlastnost, kterou potvrzuje jeho souhlas i nesouhlas.
 Konspirační varianta vykládá chybějící důkazy jako doklad dokonalého utajení. Ve všech

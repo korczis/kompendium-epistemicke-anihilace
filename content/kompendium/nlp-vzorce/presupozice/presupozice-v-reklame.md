@@ -118,7 +118,7 @@ Reklamní presupozice mají obvykle tři složky. První je doslovné tvrzení, 
 nebo dostatečně vágní, aby nebylo možné ho vyvrátit. Druhá je předpoklad, který text nese
 přes spouštěč: slova „konečně“, „už“, „zase“, „nový“, „ještě“, otázku s tázacím slovem,
 vztažnou větu nebo srovnání bez měřítka. Třetí je konverzační závěr, který si spotřebitel
-doplní, protože předpokládá, že reklama mluví k věci. Teprve třetí složka obsahuje vlastní
+doplní, protože předpokládá, že reklama mluví k věci (Grice 1975). Teprve třetí složka obsahuje vlastní
 obchodní sdělení: výrobek je lepší, konkurence je horší, mnoho lidí ho už zvolilo.
 
 Psychologie přesvědčování vysvětluje, proč tato stavba v reklamě funguje. Model
@@ -175,7 +175,8 @@ Manipulativní užití staví na tom, že předpoklad by jako výslovné tvrzen�
 výrobky skvrny nezanechávají, počet přešlých zákazníků je zanedbatelný, srovnání proběhlo s
 nejhorším možným výrobkem. Zvlášť problematické je užití vůči zranitelným skupinám, například
 v reklamě na doplňky stravy nebo na finanční produkty pro seniory, kde otázky typu „proč
-stále trpíte…?“ předpokládají potíže a nabízejí řešení, aniž by jeho účinek tvrdily. Takové
+stále trpíte…?“ předpokládají potíže a nabízejí řešení, aniž by jeho účinek tvrdily; závěr o účinku si
+spotřebitel doplní sám jako konverzační implikaturu (Grice 1975). Takové
 užití souvisí s technikou [selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md),
 protože spotřebitel dostává jen tu část informací, která vede k žádanému závěru.
 

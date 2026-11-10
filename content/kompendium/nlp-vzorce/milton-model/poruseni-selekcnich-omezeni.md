@@ -113,9 +113,8 @@ tedy stojí na obecné vlastnosti lidského myšlení, ne na zvláštní hypnoti
 
 Strukturu vzorce tvoří tři prvky. Prvním je predikát, který vyžaduje určitou kategorii
 podmětu, například vnímající, cítící nebo jednající bytost. Druhým je podmět, který do této
-kategorie nepatří: předmět, abstrakce, část těla, příznak nebo [vnitřní stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md). Třetím je
-výkladová práce posluchače, který anomálii vyřeší tím, že jí přiřadí smysl, nejčastěji
-metaforický nebo osobní. Z hlediska vlivu je podstatné, že smysl si posluchač vytváří sám, a
+kategorie nepatří: předmět, abstrakce, část těla, příznak nebo [vnitřní stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) (Chomsky 1965). Třetím je
+výkladová práce posluchače, který anomálii vyřeší tím, že jí přiřadí smysl, nejčastěji metaforický nebo osobní (Lakoff a Johnson 1980). Z hlediska vlivu je podstatné, že smysl si posluchač vytváří sám, a
 proto ho prožívá jako vlastní myšlenku. Mluvčí tak může zprostředkovat sdělení o
 posluchačově citu nebo záměru, aniž by ho vyslovil.
 

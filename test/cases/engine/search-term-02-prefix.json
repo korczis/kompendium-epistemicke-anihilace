@@ -27,6 +27,16 @@
         "code": null,
         "in": 14,
         "kind": "Kapitola",
+        "path": "kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md",
+        "tier": 4,
+        "title": "Nabitý jazyk",
+        "url": "/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 14,
+        "kind": "Kapitola",
         "path": "kompendium/forensic-legal/48-religious-exemption-EA.md",
         "tier": 4,
         "title": "Náboženské výjimky",
@@ -65,12 +75,22 @@
       },
       {
         "code": null,
-        "in": 22,
+        "in": 23,
         "kind": "Kapitola",
         "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
         "tier": 5,
         "title": "7.6 Computational epistemology a NABLA",
         "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 22,
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md",
+        "tier": 5,
+        "title": "Hodnotově nabitá slova",
+        "url": "/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky/",
         "why": "title_word"
       },
       {
@@ -86,16 +106,6 @@
       {
         "code": null,
         "in": 13,
-        "kind": "Kapitola",
-        "path": "kompendium/educational-scenarios/18-cult-recruitment.md",
-        "tier": 5,
-        "title": "Vzdělávací scénář: Náborové techniky kultu",
-        "url": "/kompendium/educational-scenarios/18-cult-recruitment/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 12,
         "kind": "Kazuistika",
         "path": "kompendium/case-studies/49-religious-leadership.md",
         "tier": 5,
@@ -105,22 +115,12 @@
       },
       {
         "code": null,
-        "in": 6,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-nabla-infinity.md",
-        "tier": 5,
-        "title": "Bridge: NABLA Infinity (∇∞)",
-        "url": "/kompendium/glossary-bridges/bridge-nabla-infinity/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 3,
+        "in": 13,
         "kind": "Kapitola",
-        "path": "kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md",
+        "path": "kompendium/educational-scenarios/18-cult-recruitment.md",
         "tier": 5,
-        "title": "Most: NABLA Infinity platformy → Kompendium",
-        "url": "/kompendium/section-bridges/bridge-platform-nabla-to-kompendium/",
+        "title": "Vzdělávací scénář: Náborové techniky kultu",
+        "url": "/kompendium/educational-scenarios/18-cult-recruitment/",
         "why": "title_word"
       }
     ],
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "NAB",
     "schema": "kompendium-engine/v1",
-    "total": 40
+    "total": 60
   },
   "input": {
     "op": "search",

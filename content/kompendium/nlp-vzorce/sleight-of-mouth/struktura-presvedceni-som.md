@@ -136,7 +136,9 @@ terapie do rámce běžného rozhovoru.
 
 Model má i časový rozměr. Spojení, které dnes působí jako samozřejmé, obvykle vzniklo z
 konkrétních zkušeností, opakovaných výroků blízkých lidí nebo pravidel prostředí, ve kterém
-člověk vyrůstal či pracoval. Kdo spojení přijal v situaci závislosti, například jako dítě
+člověk vyrůstal či pracoval. Kognitivní terapie i Diltsovy práce o přesvědčeních hledají
+původ přesvědčení v raných zkušenostech a ve výrocích významných druhých (Beck 1976; Dilts
+1990). Kdo spojení přijal v situaci závislosti, například jako dítě
 nebo jako nový člen skupiny, často si nepamatuje, odkud pochází, a prožívá ho jako vlastní
 poznání. Rozbor struktury proto otevírá i otázku původu: kdo spojení poprvé vyslovil a
 komu sloužilo.

@@ -122,7 +122,8 @@ protože se námitka předem zbavuje možnosti být posouzena (Damer 2009).
 
 Sebeuzavírající varianta přidává další premisu: pokud Z tvrdí, že vlastnost V nemá, potvrzuje
 to, že ji má. Tím se vytváří struktura, kterou nelze vyvrátit, protože každý protidůkaz se
-vykládá jako doklad. Tato varianta je blízká
+vykládá jako doklad. Neformální logika vidí v této variantě nejzřetelnější případ toho, jak
+otrávení studny uzavírá dialog (Walton 2008). Tato varianta je blízká
 [kafkovské pasti](@/kompendium/argumentacni-fauly/dialekticke-taktiky/kafkapast.md), ve které
 se popření obvinění považuje za projev viny. Strukturně jde o tah, který mění pravidla
 dialogu dřív, než dialog začne, a v tom je jeho síla i jeho zvláštní nebezpečnost.
@@ -130,10 +131,11 @@ dialogu dřív, než dialog začne, a v tom je jeho síla i jeho zvláštní neb
 ## Varianty
 
 Osobní varianta míří na jednoho člověka: na svědka, kritika, bývalého partnera nebo
-kolegu, o kterém se předem šíří, že je nespolehlivý, pomstychtivý nebo nemocný. Skupinová
+kolegu, o kterém se předem šíří, že je nespolehlivý, pomstychtivý nebo
+nemocný (Herman 1992). Skupinová
 varianta znehodnocuje celou třídu zdrojů najednou, například všechny novináře, všechny
 odborníky jednoho oboru nebo všechny lidi mimo skupinu, a tím vytváří informační hranici,
-přes kterou se nic nedostane. Institucionální varianta se objevuje tam, kde se před
+přes kterou se nic nedostane (Lifton 1961; Hassan 1988). Institucionální varianta se objevuje tam, kde se před
 vyšetřováním, auditem nebo soudním řízením předem rozšiřuje, že výsledek bude „politický“
 nebo „objednaný“, takže jakýkoli nepříznivý nález je předem zpochybněn. Sebeuzavírající
 varianta, popsaná výše, může mít kteroukoli z těchto podob. Ve všech variantách je společné,
@@ -167,7 +169,8 @@ zdrojem, který má doloženou historii vymýšlení, pokud se vztahuje k ověř
 nevylučuje, že zdroj tentokrát mluví pravdu.
 
 Zvláštním případem je takzvaná předběžná vyvracecí strategie, kdy se posluchači předem
-upozorňují na manipulační techniky, se kterými se mohou setkat. Toto předběžné varování
+upozorňují na manipulační techniky, se kterými se mohou setkat (McGuire 1964; Cook,
+Lewandowsky a Ecker 2017). Toto předběžné varování
 nemíří na osoby, ale na struktury argumentů, a dává posluchači nástroje, jak argument
 posoudit sám. V tom se liší od otrávení studny, které posluchači posouzení naopak bere.
 

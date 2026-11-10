@@ -111,8 +111,7 @@ stránka o [terapeutické dvojné vazbě](@/kompendium/nlp-vzorce/ericksonovska-
 
 Strukturálně má iluze volby čtyři prvky. Prvním je předpokládaný výsledek, který se nevyslovuje
 jako tvrzení ani jako požadavek, ale je společným předpokladem všech nabízených možností.
-Druhým jsou alternativy na nižší logické úrovni: liší se v tom, kdy, kde nebo jak, nikoli
-v tom, zda. Třetím prvkem je chybějící nulová možnost, tedy možnost odmítnout, odložit nebo
+Druhým jsou alternativy na nižší logické úrovni: liší se v tom, kdy, kde nebo jak, nikoli v tom, zda (Erickson, Rossi a Rossi 1976). Třetím prvkem je chybějící nulová možnost, tedy možnost odmítnout, odložit nebo
 rozhodnout jinak, než mluvčí nabízí. Čtvrtým prvkem je často rámec ohleduplnosti: volba se
 předkládá jako vstřícnost k posluchači, k jeho pohodlí a preferencím, což ztěžuje odmítnutí,
 protože by působilo jako odmítnutí laskavosti.
@@ -136,7 +135,7 @@ nesouhlasil. Druhým znakem je posun otázky: místo „chcete to?“ zazní „
 chcete?“, a to ve chvíli, kdy posluchač ještě souhlas nevyjádřil. Třetím znakem je reakce na
 odmítnutí obou možností. Pokud mluvčí místo přijetí odmítnutí nabídne novou dvojici
 alternativ se stejným předpokladem, jde o vzorec, ne o náhodnou formulaci. Čtvrtým znakem je
-časový tlak a zdvořilostní rámec, které spolu působí proti tomu, aby si posluchač vzal čas.
+časový tlak a zdvořilostní rámec, které spolu působí proti tomu, aby si posluchač vzal čas; nabídku s uměle krátkou lhůtou popisuje výzkum vlivu jako taktiku nedostatku (Cialdini 2009).
 
 V blízkých vztazích se vzorec objevuje v podobě, kdy obě nabízené možnosti předpokládají vinu
 nebo podřízení posluchače: liší se jen v tom, jak nebo kdy se má omluvit nebo vyhovět. Taková
@@ -160,7 +159,7 @@ nebo o ní rozhoduje mluvčí za něj? Je nulová možnost skutečně k dispozic
 vyslovena, a přijal by ji mluvčí bez nátlaku? A má mluvčí na výsledku vlastní zájem, který
 posluchači neoznámil? Obchodní zástupce, který nabízí podpis dnes nebo do pátku, rozhoduje
 o podpisu za zákazníka a má na něm zájem; terapeut, který nabízí, zda začít tím či oním
-tématem, a přijme i odpověď „ani jedním“, nikoli.
+tématem, a přijme i odpověď „ani jedním“, nikoli, protože rozhodnutí ponechává klientovi (Miller a Rollnick 2013).
 
 ## Stav důkazů
 

@@ -44,10 +44,10 @@ catalog_prev = "stav-dukazu-nlp"
 catalog_next = "vyzkum-ocnich-signalu"
 catalog_position = 2
 catalog_family_size = 14
-catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "grinder-bandler-1976", "heap-1988", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "grinder-bandler-1976", "heap-1988", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1976", "oconnor-seymour-1990"]
 catalog_sources_roots = []
-catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "heap-1988", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "heap-1988", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -119,7 +119,6 @@ analýza predikátů, pozorování pohybů očí a sebehodnocení. Třetí otáz
 predikátů přináší slibovaný efekt, tedy zda se klient cítí lépe pochopen, poradci více důvěřuje
 nebo dosahuje lepších výsledků. Teprve kladná odpověď na všechny tři otázky by tvrzení NLP
 potvrdila.
-
 Sharpley ve svém prvním přehledu dospěl k závěru, že výzkum neposkytl oporu pro žádnou z těchto
 částí: způsoby určování preferovaného systému se mezi sebou neshodovaly a sladění predikátů
 nevedlo konzistentně k lepšímu hodnocení poradce (Sharpley 1984). Ve druhém přehledu shrnul
@@ -191,7 +190,9 @@ by učinil stejné rozhodnutí, kdyby mluvčí byl méně sympatický (Cialdini 
 odděluje obsah nabídky od atmosféry rozhovoru.
 
 Pro učitele, poradce a terapeuty, kteří se s konceptem setkali ve výcviku, je užitečné zachovat
-jeho zdravé jádro, tedy pozornost k jazyku klienta, a opustit typologii a sliby účinku. Klient,
+jeho zdravé jádro, tedy pozornost k jazyku klienta, kterou bez typologie rozvíjí například
+reflektivní naslouchání v motivačních rozhovorech (Miller a Rollnick 2013), a opustit typologii
+a sliby účinku. Klient,
 který byl dlouhodobě veden k tomu, že je „určitý typ“ a že se proto musí učit nebo rozhodovat
 určitým způsobem, může potřebovat znovu objevit vlastní rozmanitost. Kompendium na stránce o
 [empirické výzkumné bázi](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) popisuje
@@ -206,6 +207,7 @@ přístupových signálů](@/kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocn
 - Druckman, D., & Swets, J. A. (Eds.) (1988). *Enhancing Human Performance: Issues, Theories, and Techniques*. Washington, DC: National Academy Press.
 - Grinder, J., & Bandler, R. (1976). *The Structure of Magic II: A Book about Communication and Change*. Palo Alto: Science and Behavior Books.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
+- Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.

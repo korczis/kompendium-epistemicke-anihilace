@@ -116,11 +116,12 @@ Výpověď s implikativním slovesem má popředí a pozadí. V popředí je tvr
 stalo nebo nestalo, a to bývá pravdivé: člověk skutečně nezavolal, skutečně přišel pozdě,
 skutečně něco udělal. V pozadí je předpoklad o normě, ke které se jednání vztahuje: měl
 zavolat, měl přijít včas, nesměl to udělat bez svolení. Pokud adresát reaguje na popředí,
-například vysvětlením, proč nezavolal, přijímá tím normu v pozadí. Implikativní sloveso tak
+například vysvětlením, proč nezavolal, přijímá tím normu v pozadí; předpoklad implikativního slovesa
+zůstává zachován i tehdy, když se popředí popírá (Levinson 1983). Implikativní sloveso tak
 umožňuje zavést pravidlo, o kterém se nikdy nejednalo, a zároveň hodnotit jeho porušení.
 
 Jednotlivá slovesa nesou různé druhy norem. „Zapomenout“ a „opomenout“ předpokládají
-povinnost nebo úmysl. „Dovolit si“ a „odvážit se“ předpokládají hierarchii, v níž jednání
+povinnost nebo úmysl (Levinson 1983). „Dovolit si“ a „odvážit se“ předpokládají hierarchii, v níž jednání
 podléhá svolení. „Obtěžovat se“ a „namáhat se“ předpokládají, že jednání bylo očekávané a
 zdráhavě nebo vůbec neprovedené. „Podařit se“ a „stihnout“ předpokládají obtíž, což může
 být uznáním úsilí, ale také nevysloveným tvrzením, že úspěch byl nepravděpodobný.

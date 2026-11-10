@@ -128,7 +128,8 @@ kdežto vypuštěná možnost se liší zásadně.
 ## Detekční znaky
 
 Hlavní znak je jazykový: otázka obsahuje spojku „nebo“ a obě nabídnuté možnosti znamenají
-souhlas. Kontrolní otázka pro kupujícího zní: je mezi možnostmi i ta, že nechci nic? Pokud
+souhlas; jde o obchodní obdobu ericksonovské volby mezi možnostmi, z nichž každá vede k
+žádané reakci (Erickson, Rossi a Rossi 1976). Kontrolní otázka pro kupujícího zní: je mezi možnostmi i ta, že nechci nic? Pokud
 není a zákazník předtím nevyslovil úmysl koupit, jde o alternativní uzavření. Dalšími znaky
 jsou rychlé tempo, kdy otázka přichází bezprostředně po prezentaci, opakování alternativní
 otázky v různých podobách, když zákazník odpoví vyhýbavě, a reakce na odpověď „ani jedno“,

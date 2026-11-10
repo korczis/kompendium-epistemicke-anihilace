@@ -36,7 +36,8 @@ prostředí, kde slouží k získání souhlasu, peněz, poslušnosti, informac�
 Většina ostatních rodin katalogu popisuje jednotlivé techniky, například jazykové vzorce,
 kotvení nebo práci s představami. Tato rodina popisuje kontexty: místa, kde se techniky
 setkávají s konkrétním zájmem, mocí a zranitelností. Proto je také rodinou s nejvyšším
-rizikem zneužití a proto se její stránky drží nejpřísněji obranného rámce kompendia.
+rizikem zneužití a proto se její stránky drží nejpřísněji [obranného rámce
+kompendia](@/kompendium/01-predmluva/eticke-aspekty.md).
 Popisují, jak vzorec rozpoznat, co působí, jaké škody přináší a jak se bránit, a nikdy
 nepopisují, jak ho provést.
 
@@ -58,7 +59,9 @@ tvoří stránky o obraně proti vlivovým vzorcům a o rozpoznání praktiky NL
 shrnují, co mají ostatní stránky společného. Na pomezí stojí [konverzační
 hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md), která je spíše
 obchodním slibem než technikou, ale prostupuje téměř všemi okruhy. Úplný přehled položek
-rodiny s jejich kódy podává tabulka na konci této stránky.
+rodiny s jejich kódy podává tabulka na konci této stránky. Rozdělení do okruhů je pracovní
+pomůckou katalogu; zásady, podle nichž kompendium hesla třídí, vykládají [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Proč samostatná rodina
 
@@ -115,7 +118,9 @@ osobní rozvoj nebo zdvořilý rozhovor. Stránky rodiny proto popisují struktu
 doplňují o detekční znaky, o odlišení od neškodných jevů, o stav výzkumu a o obranu. Žádná
 stránka neobsahuje formulace k použití, pořadí kroků ani rady, jak účinek zesílit nebo
 skrýt. Výroky, které stránky uvádějí v trenéru rozpoznávání, jsou krátké, obecné a vždy
-doplněné neškodným protějškem, aby čtenář viděl, že rozhoduje kontext, ne slova.
+doplněné neškodným protějškem, aby čtenář viděl, že rozhoduje kontext, ne slova. Tento postup
+naplňuje princip primární defenzivnosti, který stanoví [etické
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) kompendia.
 
 ## Stav důkazů
 

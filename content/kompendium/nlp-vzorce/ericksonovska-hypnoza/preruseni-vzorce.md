@@ -39,13 +39,13 @@ catalog_related = ["kdyz-to-nefunguje-udelej-neco-jineho", "stav", "interpunkcni
 catalog_related_declared = ["indukce-podanim-ruky", "konfuzni-technika", "stav", "kdyz-to-nefunguje-udelej-neco-jineho"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md"]
 catalog_prev = "konfuzni-technika"
 catalog_next = "indukce-podanim-ruky"
 catalog_position = 4
 catalog_family_size = 28
-catalog_sources = ["beck-1976", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "haley-1973", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "sturt-2012", "watzlawick-1974"]
-catalog_sources_primary = ["grinder-bandler-1981"]
+catalog_sources = ["beck-1976", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "haley-1973", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "sturt-2012", "watzlawick-1974", "eemeren-grootendorst-2004"]
+catalog_sources_primary = ["grinder-bandler-1981", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "sturt-2012"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -156,7 +156,9 @@ učí všímat si jich a zkoumat je, tedy posiluje jeho vlastní kontrolu (Beck 
 
 Manipulativní přerušení slouží mluvčímu. Přerušuje se výtka, otázka nebo požadavek,
 které jsou pro mluvčího nepříjemné, a do vzniklé mezery se vkládá jiné téma, obvinění
-nebo pokyn. V kontrolujících vztazích se takto opakovaně odklání rozhovor o chování
+nebo pokyn. Z hlediska teorie argumentace jde o tah, který druhé straně brání vznést nebo
+dokončit námitku, a porušuje tak [první pravidlo kritické diskuse](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md) (van Eemeren a Grootendorst
+2004). V kontrolujících vztazích se takto opakovaně odklání rozhovor o chování
 jednoho z partnerů, takže se o něm nikdy nedomluví. V prodeji a v podvodech přerušení
 slouží k tomu, aby člověk na chvíli ztratil přehled a přijal nabídnutý další krok. Rozdíl
 mezi oběma užitími lze testovat otázkou, zda se po přerušení vrací původní téma, a zda
@@ -216,6 +218,7 @@ dovedeno do konce, a obnovu důvěry, že vlastní stížnost je legitimní (Her
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
+- van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 

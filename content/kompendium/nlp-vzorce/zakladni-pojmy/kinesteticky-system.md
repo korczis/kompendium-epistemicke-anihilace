@@ -44,10 +44,10 @@ catalog_prev = "auditivni-system"
 catalog_next = "olfaktorni-a-gustatorni-system"
 catalog_position = 4
 catalog_family_size = 42
-catalog_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "heap-1988", "herman-1992", "lifton-1961", "pavlov-1927", "perls-1969", "satir-1972", "sharpley-1984", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "pavlov-1927", "perls-1969", "satir-1972", "sharpley-1984", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980"]
 catalog_sources_roots = ["pavlov-1927", "perls-1969", "satir-1972"]
-catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "sharpley-1984", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_critical = ["beck-1976", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "sharpley-1984", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -127,7 +127,7 @@ které obraz nebo zvuk okamžitě vyvolá tělesný pocit.
 Kinestetický systém propojuje katalog NLP s těmi částmi kompendia, které se zabývají tělem jako
 místem, kde se manipulace i trauma projevují nejdříve. Tělesná únava, nedostatek spánku,
 vyčerpávající program nebo dlouhé sezení v přeplněném sále mění tělesný stav a s ním i
-schopnost posuzovat; tyto vlivy se v popisech uzavřených skupin opakují. Pojmy NLP zde
+schopnost posuzovat; tyto vlivy se v popisech uzavřených skupin opakují (Singer a Lalich 1995; Hassan 1988). Pojmy NLP zde
 nepřinášejí nový mechanismus, ale slovník, kterým lze tělesné změny vykládat jako „proces“ nebo
 „průlom“. Pro rozpoznání je užitečné rozlišovat mezi tělesným stavem, který vyvolalo prostředí,
 a výkladem, který k němu přidává mluvčí. Stav je fakt, výklad je tvrzení, které lze odmítnout.
@@ -203,6 +203,7 @@ jako legitimní teoretický rámec, nikoli jako techniku vlivu.
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Dilts, R., Grinder, J., Bandler, R., & DeLozier, J. (1980). *Neuro-Linguistic Programming: Volume I. The Study of the Structure of Subjective Experience*. Cupertino: Meta Publications.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.

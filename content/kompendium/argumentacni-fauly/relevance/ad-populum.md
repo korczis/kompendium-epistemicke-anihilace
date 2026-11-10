@@ -44,10 +44,10 @@ catalog_prev = "anonymni-autorita"
 catalog_next = "rozjety-vlak"
 catalog_position = 9
 catalog_family_size = 28
-catalog_sources = ["cialdini-2009", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "mercier-sperber-2011", "paul-matthews-2016", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
+catalog_sources = ["cialdini-2009", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hassan-1988", "lifton-1961", "mercier-sperber-2011", "paul-matthews-2016", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = []
-catalog_sources_critical = ["cialdini-2009", "hahn-oaksford-2007", "mercier-sperber-2011", "paul-matthews-2016"]
+catalog_sources_critical = ["cialdini-2009", "hahn-oaksford-2007", "hassan-1988", "lifton-1961", "mercier-sperber-2011", "paul-matthews-2016"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -98,7 +98,6 @@ nesouvisejí, například společné obavy, výchovu nebo autoritu. John Stuart 
 svobodě, napsané v polovině devatenáctého století, pak přidal argument, proč ani jednomyslné
 mínění nemá umlčovat nesouhlasného jednotlivce: umlčený názor může být pravdivý, a i když
 pravdivý není, střet s ním udržuje pravdu živou a srozumitelnou.
-
 Současná teorie argumentace popisuje argument z obecného mínění jako zrušitelné schéma:
 pokud velká většina v nějaké skupině přijímá tvrzení, vzniká předpoklad v jeho prospěch,
 který však padá, jakmile se ukáže, že většina neměla dobré důvody nebo že její názor nebyl
@@ -113,7 +112,8 @@ kapitola o [politické a ideologické EA](@/kompendium/07-teoreticke-reflexe/pol
 
 Rozložený argument má tuto stavbu. Většina lidí, případně mnoho lidí, věří T. Proto je T
 pravdivé. Chybí premisa, podle níž je přesvědčení většiny spolehlivým ukazatelem pravdy v
-dané otázce, a tato premisa platí jen za zvláštních podmínek. Podle Condorcetovy věty o
+dané otázce, a tato premisa platí jen za zvláštních podmínek (Walton, Reed
+a Macagno 2008). Podle Condorcetovy věty o
 porotě se pravděpodobnost správného rozhodnutí většiny blíží jistotě, pokud každý člen
 skupiny má o něco větší než poloviční šanci se nemýlit a pokud členové rozhodují nezávisle.
 Obě podmínky jsou v běžných sporech porušeny: lidé svůj názor často přebírají od ostatních,
@@ -134,7 +134,7 @@ izolační. Člověk, který o něčem pochybuje, slyší, že „všichni ostat
 pochybnost se tím mění v osobní selhání: nejde o to, zda má pravdu, ale o to, proč je jediný,
 kdo nesouhlasí. V uzavřených skupinách a v kontrolujících vztazích se tato funkce posiluje
 tím, že člověk nemá přístup k nikomu, kdo by jeho pochybnost sdílel, a tvrzení o jednomyslnosti
-proto nemůže ověřit. Druhá funkce je legitimizační. Rozhodnutí, opatření nebo výklad událostí
+proto nemůže ověřit (Lifton 1961; Hassan 1988). Druhá funkce je legitimizační. Rozhodnutí, opatření nebo výklad událostí
 se prezentují jako vůle většiny, a kdo je zpochybňuje, staví se zdánlivě proti všem. V obou
 funkcích je klíčové, že tvrzení o většině samo zůstává neověřené. Odpovědí je proto otázka,
 o jakou většinu jde, jak byla zjištěna a zda by její názor obstál i tehdy, kdyby se
@@ -205,6 +205,8 @@ jedním člověkem, se kterým lze názor otevřeně probrat bez obavy z vylouč
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
 - Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. Santa Monica: RAND Corporation.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.

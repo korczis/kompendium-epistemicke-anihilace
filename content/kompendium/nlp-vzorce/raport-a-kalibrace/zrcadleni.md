@@ -151,7 +151,8 @@ protože lidé se napodobují i spontánně (Chartrand a Bargh 1999).
 
 Dalším znakem je kontext. Zrcadlení jako vědomá technika se vyučuje v kurzech prodeje,
 vyjednávání a svádění, a výskyt dalších vzorců z těchto kurzů, například řady souhlasů nebo
-okamžitého přechodu k uzavření obchodu, zvyšuje pravděpodobnost, že shoda není náhodná.
+okamžitého přechodu k uzavření obchodu, zvyšuje pravděpodobnost, že shoda není náhodná. Do obchodních a manažerských kurzů se zrcadlení dostalo z učebnic, které je
+podávaly jako jednoduchý návod ke sblížení s kýmkoli (O'Connor a Seymour 1990).
 Katalog popisuje podvodnou podobu jevu v hesle [zrcadlení v podvodech](@/kompendium/nlp-vzorce/vliv-a-zneuziti/falesne-zrcadleni-v-podvodech.md).
 U člověka, vůči němuž bylo zrcadlení použito, se objevuje pocit, že „si s tím člověkem
 neuvěřitelně rozumí“, a zároveň potíž vysvětlit, na čem toto porozumění stojí.
@@ -170,7 +171,8 @@ není mostem k rozhodnutí, které slouží především tomu, kdo zrcadlí.
 
 Manipulativní užití staví zrcadlení na začátek vlivové sekvence. Shoda se vytváří proto,
 aby se snížila ostražitost a aby se rozhodnutí přesunulo z obsahu nabídky na vztah k
-mluvčímu. V kompendiu tento mechanismus souvisí s technikou [pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md),
+mluvčímu. Využívá se přitom sklon vyhovět spíše tomu, koho máme rádi a kdo se nám
+zdá podobný (Cialdini 2009). V kompendiu tento mechanismus souvisí s technikou [pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md),
 kde vyrobená blízkost zakládá pozdější pocit závazku, a s rozborem [neverbální dominance](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md),
 který ukazuje opačnou stranu téhož kanálu: tělo může stejně dobře sloužit nastolení
 hierarchie jako předstírané rovnosti.

@@ -44,9 +44,9 @@ catalog_prev = "ctyri-terminy"
 catalog_next = "potvrzeni-disjunktu"
 catalog_position = 8
 catalog_family_size = 14
-catalog_sources = ["copi-cohen-mcmahon-2014", "hamblin-1970", "kahneman-2011", "kunda-1990", "lifton-1961", "stanovich-west-2000", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources = ["copi-cohen-mcmahon-2014", "hamblin-1970", "kahneman-2011", "kunda-1990", "levinson-1983", "lifton-1961", "stanovich-west-2000", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
-catalog_sources_roots = ["whately-1826"]
+catalog_sources_roots = ["levinson-1983", "whately-1826"]
 catalog_sources_critical = ["kahneman-2011", "kunda-1990", "lifton-1961", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
@@ -90,7 +90,8 @@ být náhodou pravdivý, ačkoli z premis neplyne.
 Pro čtenáře kompendia je existenční klam důležitý méně jako školní chyba a více jako
 nenápadný přenos víry v existenci. Věta „každý, kdo zradil, ponese následky“ zní jako
 pravidlo, ale v rozhovoru často funguje jako tvrzení, že zrádci jsou. Formální rozbor
-ukazuje, že pravidlo o třídě a zjištění, že třída má členy, jsou dvě různé věci.
+ukazuje, že pravidlo o třídě a zjištění, že třída má členy, jsou dvě různé věci: obecný výrok
+v booleovském výkladu existenci členů netvrdí (Copi, Cohen a McMahon 2014).
 
 ## Původ a souvislosti
 
@@ -122,7 +123,8 @@ existenci S ani M. Závěr naproti tomu tvrdí, že aspoň jedno S existuje. Pok
 prázdná, jsou premisy pravdivé a závěr nepravdivý, což je přesně definice neplatnosti.
 Obdobně se klam objevuje u záporných forem: z vět „žádný M není P“ a „každý S je M“ se
 vyvozuje „někteří S nejsou P“. Platný závěr by byl obecný („žádný S není P“) a o existenci
-by mlčel.
+by mlčel. Učebnice logiky proto uvádějí, že tyto oslabené tvary jsou v booleovském výkladu
+platné jen s přidanou premisou o existenci (Copi, Cohen a McMahon 2014).
 
 Druhou podobou je přímé podřazení bez sylogismu: z „každý uchazeč, který splní podmínky,
 bude přijat“ se vyvozuje „někteří uchazeči budou přijati“. V praxi tu není chyba v řetězu
@@ -134,7 +136,8 @@ U existenčního klamu je touto nevyslovenou premisou právě tvrzení „takov�
 
 Blízkou souvislost má klam s tím, co NLP katalogizuje jako
 [existenční presupozici](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md):
-jmenná fráze ve větě předpokládá, že označovaná věc existuje. Existenční klam je formální
+jmenná fráze ve větě předpokládá, že označovaná věc existuje; lingvistická pragmatika tento
+jev popisuje jako existenční presupozici určitých popisů (Levinson 1983). Existenční klam je formální
 obdobou téhož jevu na úrovni úsudku. Tam, kde presupozice vnáší existenci do jedné věty,
 vnáší ji klam do závěru, který se opírá o věty, jež ji neobsahovaly.
 
@@ -153,7 +156,9 @@ světa a lidí v něm (Lifton 1961).
 
 Ve vyšetřování a v odborném posudku se klam projevuje jemněji. Kritérium („každý případ s
 těmito znaky je případem X“) se uvede v textu posudku a čtenář má dojem, že posudek tvrdí
-výskyt X, ačkoli nic takového nezjistil. Kniha popisuje podobné posuny mezi kritériem a
+výskyt X, ačkoli nic takového nezjistil. Čtenář tu obecné kritérium mlčky čte v tradičním
+výkladu, který neprázdnost třídy předpokládá, zatímco samo kritérium o výskytu nic netvrdí
+(Copi, Cohen a McMahon 2014). Kniha popisuje podobné posuny mezi kritériem a
 zjištěním v kapitole o
 [akademických technikách intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md).
 
@@ -172,7 +177,9 @@ mluvčí ji místo doložení přenese do závěru z pravidla.
 Od příbuzné chyby, kterou katalog popisuje jako
 [vylučující premisy](@/kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md), se
 existenční klam liší tím, že premisy mohou být kladné i záporné. Vada neleží v jejich
-kvalitě, ale v kvantitě: ve skoku od obecného k částečnému.
+kvalitě, ale v kvantitě: ve skoku od obecného k částečnému. Pravidla sylogismu obě vady
+uvádějí odděleně, jednu u záporných premis a druhou u částečného závěru z obecných premis
+(Copi, Cohen a McMahon 2014).
 
 ## Stav poznání
 
@@ -212,6 +219,7 @@ pravidlo?“, ztrácí sklon tiše doplňovat premisu, kterou mu nikdo nedoloži
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
+- Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? *Behavioral and Brain Sciences*, 23(5), 645–665.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.

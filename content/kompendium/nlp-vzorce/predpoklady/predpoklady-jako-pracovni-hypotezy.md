@@ -110,7 +110,8 @@ předpoklady popisuje jako základní přesvědčení, na kterých obor stojí (
 ## Struktura vzorce
 
 Metapředpoklad má podobu dvou poloh, mezi kterými lze přecházet. V první, skromné poloze
-předpoklad tvrdí jen to, že je užitečné jednat, jako by platil. Takové tvrzení se těžko
+předpoklad tvrdí jen to, že je užitečné jednat, jako by platil; v této podobě je předkládají i
+úvodní učebnice oboru (O'Connor a Seymour 1990). Takové tvrzení se těžko
 napadá, protože nic netvrdí o světě. Ve druhé, silné poloze předpoklad tvrdí něco o
 skutečnosti: že lidé opravdu mají zdroje, které potřebují, že chování opravdu má
 [pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md), že selhání opravdu neexistuje. Silná poloha je přitažlivější, protože

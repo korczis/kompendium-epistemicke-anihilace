@@ -121,8 +121,7 @@ součást jiné věty, otázky, citace nebo konstatování. Sem patří
 [vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md),
 [konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) a
 [citace](@/kompendium/nlp-vzorce/milton-model/citace.md). Třetím principem je napojení
-na souhlas: řeč začíná tím, co posluchač nemůže popřít, a teprve na to navazuje tím, co má
-přijmout. Této stránce odpovídají
+na souhlas: řeč začíná tím, co posluchač nemůže popřít, a teprve na to navazuje tím, co má přijmout; model tento postup nazývá pacingem a vedením (Bandler a Grinder 1975b). Této stránce odpovídají
 [truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) a
 [řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md).
 

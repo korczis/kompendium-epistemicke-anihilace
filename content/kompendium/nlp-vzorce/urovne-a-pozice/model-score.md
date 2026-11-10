@@ -122,7 +122,8 @@ objevuje.
 
 Pro obranné čtení je podstatné, kdo jednotlivé prvky pojmenovává. Model je neutrální osnova,
 ale každý jeho prvek je místem, kde lze do rozhovoru vložit výklad. Nejcitlivějším místem jsou
-příčiny. Kdo určí příčinu, určuje zároveň, jaký zdroj bude zapotřebí. Pokud se příčina umístí
+příčiny. Kdo určí příčinu, určuje zároveň, jaký zdroj bude zapotřebí (Watzlawick, Weakland a Fisch
+1974). Pokud se příčina umístí
 do rysu osoby, například do „nedostatku sebevědomí“ nebo „blokace“, a ne do okolností, pak se i
 zdroj hledá v osobě, a nejčastěji v produktu, který ji má změnit. Druhým citlivým místem jsou
 efekty: když se dlouhodobé důsledky výsledku líčí přehnaně, například jako proměna celého

@@ -44,10 +44,10 @@ catalog_prev = "odvolani-na-bohatstvi"
 catalog_next = "dve-kriva-jedno-pravo"
 catalog_position = 25
 catalog_family_size = 28
-catalog_sources = ["bentham-1824", "damer-2009", "kunda-1990", "lifton-1961", "nickerson-1998", "popper-1959", "toulmin-1958"]
+catalog_sources = ["bentham-1824", "damer-2009", "kunda-1990", "lifton-1961", "nickerson-1998", "popper-1959", "singer-lalich-1995", "toulmin-1958"]
 catalog_sources_primary = ["damer-2009", "toulmin-1958"]
 catalog_sources_roots = ["bentham-1824", "popper-1959"]
-catalog_sources_critical = ["kunda-1990", "lifton-1961", "nickerson-1998"]
+catalog_sources_critical = ["kunda-1990", "lifton-1961", "nickerson-1998", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -129,7 +129,9 @@ V prostředí, které kompendium popisuje, se chronologický snobismus uplatňuj
 nástroj oddělení člověka od jeho dřívějších opor. Nový systém přesvědčení, ať už jde o
 skupinu, hnutí, firemní kulturu nebo terapeutický směr, se prezentuje jako „nové poznání“ a
 vše, čemu člověk věřil dříve, včetně hodnot rodiny, profesních standardů a vlastních
-zkušeností, se označí za překonané. Nálepka zastaralosti tak plní funkci, kterou by jinak
+zkušeností, se označí za překonané. Studie myšlenkové reformy a uzavřených skupin popisují,
+jak se dřívější život a přesvědčení člena přehodnocují jako omyl, od něhož se má
+distancovat (Lifton 1961; Singer a Lalich 1995). Nálepka zastaralosti tak plní funkci, kterou by jinak
 musel plnit argument, a člověk se vzdává myšlenek, které nikdo nevyvrátil. Podobně se v
 akademických sporech někdy odmítají celé myšlenkové tradice jako „předparadigmatické“, aniž
 by se ukázalo, které jejich tvrzení neobstálo. Kompendium tyto spory sleduje v kapitole o
@@ -205,6 +207,7 @@ i když se jejich teoretický rámec změnil (Lifton 1961).
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
+- Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

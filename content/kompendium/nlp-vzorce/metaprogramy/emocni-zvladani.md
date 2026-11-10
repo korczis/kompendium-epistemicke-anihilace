@@ -125,7 +125,7 @@ Pro analýzu vlivu je klíčové, co se s takovým výkladem dále děje. V asym
 emoční styl druhého snadno přemění v argument proti jeho úsudku. Věta „ty to emočně nezvládáš“
 mění otázku, o čem se rozhoduje, na otázku, kdo smí rozhodovat, a vylučuje druhého z
 rozhovoru právě ve chvíli, kdy je pro něj nejdůležitější. Opačná podoba se týká odstupu: kdo
-mluví klidně a věcně, bývá prohlášen za „chladného“ a jeho výpověď za nevěrohodnou. V obou
+mluví klidně a věcně, bývá prohlášen za „chladného“ a jeho výpověď za nevěrohodnou (Vrij 2008). V obou
 případech se z popisu stylu stává soud o platnosti toho, co člověk říká. Kompendium podobný
 mechanismus popisuje u [latentní emocionální
 modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), kdy se u druhého nenápadně vyvolávají emoce, jako úzkost, frustrace nebo vina, a ty pak ovlivňují jeho úsudek.
@@ -183,7 +183,7 @@ k jejímu posuzování.
 ## Obrana a zotavení
 
 Základní obranou je oddělit emoci od platnosti úsudku. Silný pocit neznamená, že člověk nemůže
-rozhodovat, a klid neznamená, že lže. Pokud druhá strana komentuje emoci místo obsahu, je
+rozhodovat, a klid neznamená, že lže; výzkum klamu ukazuje, že vystupování člověka není spolehlivým vodítkem k pravdivosti jeho výpovědi (Vrij 2008). Pokud druhá strana komentuje emoci místo obsahu, je
 legitimní vrátit rozhovor k obsahu a navrhnout, aby se pokračovalo později, nikoli aby
 rozhodování převzal ten, kdo emoci komentuje. Užitečné je také všímat si, zda emoce nebyla
 vyvolána záměrně; kdo nejprve provokuje a pak upozorňuje na reakci, používá emoci jako past, ne

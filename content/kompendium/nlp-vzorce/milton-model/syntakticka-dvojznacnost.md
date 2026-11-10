@@ -44,8 +44,8 @@ catalog_prev = "fonologicka-dvojznacnost"
 catalog_next = "rozsahova-dvojznacnost"
 catalog_position = 12
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1981", "herman-1992", "kahneman-2011", "levinson-1983", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "stark-2007"]
-catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1981", "oconnor-seymour-1990"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "copi-cohen-mcmahon-2014", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1981", "herman-1992", "kahneman-2011", "levinson-1983", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "stark-2007"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "copi-cohen-mcmahon-2014", "grinder-bandler-1981", "oconnor-seymour-1990"]
 catalog_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
 catalog_sources_critical = ["druckman-swets-1988", "herman-1992", "kahneman-2011", "mcguire-1964", "passmore-rowson-2019", "sharpley-1987", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -113,8 +113,7 @@ mu nabízí kontext, a mluvčí si ponechá druhé jako zadní vrátka.
 
 ## Struktura vzorce
 
-Vzorec má čtyři strukturní prvky. Prvním je věta, která je gramaticky správná při obou
-rozborech, takže nezní chybně. Druhým je zjevné čtení, které podporuje kontext a které je
+Vzorec má čtyři strukturní prvky. Prvním je věta, která je gramaticky správná při obou rozborech, takže nezní chybně (Chomsky 1965). Druhým je zjevné čtení, které podporuje kontext a které je
 neškodné nebo neutrální. Třetím je druhé čtení, které nese skutečné sdělení: hrozbu, slib,
 pokyn nebo obvinění. Čtvrtým je popiratelnost, tedy možnost, že se mluvčí při dotazu přihlásí
 jen k prvnímu čtení. Typická místa, kde dvojznačnost v češtině vzniká, jsou zájmena a
@@ -135,7 +134,7 @@ formy, která slouží zakrytí obsahu.
 ## Detekční znaky
 
 Prvním znakem je věta, která se dá pochopit dvěma způsoby, přičemž méně zjevné čtení dává v
-dané situaci překvapivě dobrý smysl, například jako varování nebo nabídka. Druhým znakem je
+dané situaci překvapivě dobrý smysl, například jako varování nebo nabídka; logika takovou dvojznačnost plynoucí ze stavby věty popisuje jako amfibolii (Copi, Cohen a McMahon 2014). Druhým znakem je
 nejasnost aktérů: z věty nelze s jistotou poznat, kdo komu co udělá, kdo o čem rozhoduje nebo
 kdo nese následky. Třetím znakem je umístění: dvojznačné věty se objevují právě v klíčových
 okamžicích rozhovoru, při jednání o podmínkách, při odmítnutí, při rozchodu nebo při
@@ -165,8 +164,7 @@ které by při jasné formulaci odmítl.
 Manipulativní užití je jednostranné. Mluvčí ví o obou čteních, posluchač o druhém neví nebo
 ho nemůže doložit. Typicky jde o skryté hrozby na pracovišti, o sliby v prodeji, které se
 při reklamaci ukážou jako „nikdy nevyslovené“, o formulace v pravidlech skupiny, které lze
-vyložit přísněji, když se to vedení hodí, nebo o výroky partnera, které posluchače zastraší,
-ale nedají se citovat. Rozlišovacím kritériem je tedy nejen přítomnost dvojznačnosti, ale i
+vyložit přísněji, když se to vedení hodí, nebo o výroky partnera, které posluchače zastraší, ale nedají se citovat, a patří tak k zastrašování v rámci donucující kontroly (Stark 2007). Rozlišovacím kritériem je tedy nejen přítomnost dvojznačnosti, ale i
 asymetrie vědomí a to, komu nejasnost slouží.
 
 ## Stav důkazů
@@ -211,6 +209,7 @@ v kontaktu s takovým klientem má mluvit jednoznačně a ověřovat, jak byl po
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Chomsky, N. (1965). *Aspects of the Theory of Syntax*. Cambridge, MA: MIT Press.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Druckman, D., & Swets, J. A. (Eds.) (1988). *Enhancing Human Performance: Issues, Theories, and Techniques*. Washington, DC: National Academy Press.
 - Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.

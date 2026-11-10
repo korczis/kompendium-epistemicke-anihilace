@@ -130,7 +130,8 @@ chtějí nebo cítí druzí, a vlastní vjemy si ověřuje u autority. Manipulac
 krajnostmi současně. Mluvčí, který sám uvízl v první pozici, ji používá jako nástroj
 dominance, protože počítá se jen jeho prožitek. Druhá strana je přitom soustavně vytlačována
 z vlastní první pozice: její pocity se označují za přehnané, potřeby za sobecké a vnímání za
-chybné. Kompendium tento mechanismus popisuje v technikách
+chybné. Literatura o dlouhodobém zneužívání popisuje, jak takové soustavné zpochybňování
+narušuje autonomii oběti a její důvěru ve vlastní vnímání (Herman 1992). Kompendium tento mechanismus popisuje v technikách
 [pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) a
 [perspektivní substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md).
 Vztah k ostatním pozicím rozebírají hesla

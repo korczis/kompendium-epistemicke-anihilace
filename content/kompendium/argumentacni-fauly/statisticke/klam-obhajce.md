@@ -110,15 +110,14 @@ manipulace, kde se o váze důkazů rozhoduje s vážnými důsledky pro konkré
 
 ## Struktura argumentu
 
-Argument má obvykle tři kroky úvahy. Nejprve se uvede, jak častý je znak v populaci. Potom se
-z této četnosti spočítá nebo naznačí, kolik lidí by mu v dané oblasti odpovídalo. Nakonec se
-z velkého počtu vyvodí, že obviněný je jen jedním z mnoha a že shoda proto o jeho vině nic
-neříká. Vadný je třetí krok. Z toho, že důkaz sám nestačí k usvědčení, neplyne, že nemá
-žádnou váhu. Zúžení okruhu z celé populace na její malou část je informace, která
-pravděpodobnost hypotézy mění, a její skutečný význam se ukáže až ve spojení s ostatními
-důkazy: s přítomností na místě, s motivem, s časovou osou nebo s dalšími stopami. Klam tedy
-mlčky zachází s důkazem, jako by byl jediný, a jeho izolovanou slabost vydává za
-bezvýznamnost.
+Argument má obvykle tři kroky úvahy. Nejprve se uvede, jak častý je znak v populaci. Potom se z této
+četnosti spočítá nebo naznačí, kolik lidí by mu v dané oblasti odpovídalo. Nakonec se z velkého
+počtu vyvodí, že obviněný je jen jedním z mnoha a že shoda proto o jeho vině nic neříká (Thompson a
+Schumann 1987). Vadný je třetí krok. Z toho, že důkaz sám nestačí k usvědčení, neplyne, že nemá
+žádnou váhu. Zúžení okruhu z celé populace na její malou část je informace, která pravděpodobnost
+hypotézy mění, a její skutečný význam se ukáže až ve spojení s ostatními důkazy: s přítomností na
+místě, s motivem, s časovou osou nebo s dalšími stopami. Klam tedy mlčky zachází s důkazem, jako by
+byl jediný, a jeho izolovanou slabost vydává za bezvýznamnost.
 
 V bayesovském pohledu je síla důkazu dána tím, o kolik je pravděpodobnější pozorovat shodu,
 je-li obviněný pachatelem, než je-li jím někdo jiný. Takový poměr může být velký i u znaku,

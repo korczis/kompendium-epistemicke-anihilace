@@ -44,10 +44,10 @@ catalog_prev = "auditivni-swish"
 catalog_next = "vzorec-godiva"
 catalog_position = 11
 catalog_family_size = 20
-catalog_sources = ["andreas-andreas-1987", "bandler-1985", "haley-1973", "miller-rollnick-2013", "norcross-2006", "pavlov-1927", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010", "wolpe-1958"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "gilovich-1991", "haley-1973", "miller-rollnick-2013", "norcross-2006", "pavlov-1927", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = ["haley-1973", "pavlov-1927", "watzlawick-1974"]
-catalog_sources_critical = ["miller-rollnick-2013", "norcross-2006", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
+catalog_sources_critical = ["gilovich-1991", "miller-rollnick-2013", "norcross-2006", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -144,7 +144,9 @@ nebo „nedošel za práh“. Taková formulace činí metodu nevyvratitelnou, p
 přičítá klientovi (Sharpley 1987).
 
 U člověka, který intervenci podstoupil, se může objevit krátkodobá úleva provázená silným
-přesvědčením, že je problém vyřešen. Pokud se nutkání vrátí, následuje často stud a pocit
+přesvědčením, že je problém vyřešen. Přesvědčení o účinku však samo nedokládá, že zásah
+působil, protože obtíže přirozeně kolísají (Gilovich 1991). Pokud se nutkání vrátí, následuje
+často stud a pocit
 osobního selhání, který snižuje ochotu vyhledat další pomoc. Kompendium tento průběh popisuje
 obecněji u [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md):
 metoda, která nemůže selhat, přesouvá veškerou vinu na toho, komu měla pomoci.
@@ -189,7 +191,8 @@ je zajímavá hypotéza, slib trvalého rozbití kompulze za jedno sezení ale o
 
 Základní obranou je nenechat se od doložené léčby odvést slibem rychlého řešení. Člověk, kterému
 je rozbití kompulze nabízeno, se může ptát, jaké výsledky má metoda po půl roce a po roce, kdo
-je změřil a zda poskytovatel spolupracuje s lékařem. Pokud poskytovatel odrazuje od medikace
+je změřil a zda poskytovatel spolupracuje s lékařem; systematický přehled účinků NLP na zdraví
+dostatek takových dokladů nenašel (Sturt a kol. 2012). Pokud poskytovatel odrazuje od medikace
 nebo od adiktologické péče, je to důvod spolupráci ukončit. U alkoholu a některých léků může
 být náhlé přerušení užívání zdravotně nebezpečné, a proto rozhodnutí o odvykání patří do rukou
 lékaře. Kompendium shrnuje principy epistemické bdělosti při zotavení ze závislostí v hesle
@@ -207,6 +210,7 @@ dokladem trvalé změny.
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
+- Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Haley, J. (1973). *Uncommon Therapy: The Psychiatric Techniques of Milton H. Erickson, M.D.* New York: W. W. Norton.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.

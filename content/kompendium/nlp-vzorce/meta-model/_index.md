@@ -66,7 +66,8 @@ a jaký účinek to má, detekční znaky ukazují, podle čeho se nátlaková p
 a na člověku, na kterého působí, a závěrečné oddíly rozlišují legitimní a manipulativní užití,
 shrnují stav důkazů a popisují obranu a zotavení. Hesla nepopisují postupy, jak kategorie
 používat vůči druhým; popisují, jak je rozpoznat a jak se jim bránit. Tam, kde se hesla
-odvolávají na terapeutické užití, jde o popis tvrzení a jejich opory, nikoli o návod.
+odvolávají na terapeutické užití, jde o popis tvrzení a jejich opory, nikoli o návod; rámec
+vysvětluje oddíl [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Původ
 
@@ -133,8 +134,8 @@ samostatná skupina nefigurují.
 Hodnota rodiny pro kompendium proto stojí jinde než na důkazech o NLP. Jednotlivé kategorie se
 kryjí s jevy, které mají vlastní a lépe podloženou tradici: s referencí, presupozicí a
 implikaturou v pragmatice (Levinson 1983), s přehnaným zobecňováním a rigidními pravidly v
-kognitivní terapii (Beck 1976), s absolutistickými požadavky v racionálně emoční terapii (Ellis
-1962) a s vlivem formulace otázky na svědeckou paměť (Loftus a Palmer 1974). Kde hesla rodiny
+kognitivní terapii (Beck 1976), s absolutistickými požadavky v racionálně emoční terapii
+(Ellis 1962) a s vlivem formulace otázky na svědeckou paměť (Loftus a Palmer 1974). Kde hesla rodiny
 odkazují na tyto tradice, opírají se o ně, a ne o meta-model jako metodu. Teoretický základ
 meta-modelu navíc zastaral, protože pojetí hloubkové struktury, ze kterého vycházel, generativní
 lingvistika v pozdějších desetiletích opustila. Kategorie tedy čtenáři slouží jako popisný

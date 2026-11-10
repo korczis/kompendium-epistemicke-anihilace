@@ -196,7 +196,9 @@ je hodnotitel zároveň zainteresovanou stranou.
 Pro klinickou a poradenskou praxi má pojem ještě jeden význam. Lidé, kteří prošli
 manipulativním vztahem nebo uzavřenou skupinou, se často obviňují, že „viděli jen to, co
 chtěli vidět“. Takové sebeobviňování je třeba brát s opatrností. Motivované uvažování je běžná
-lidská výbava, nikoli osobní selhání, a manipulativní prostředí ho cíleně využívá tím, že
+lidská výbava, nikoli osobní selhání, jak ukazuje přehled výzkumu, podle něhož přání dospět k
+určitému závěru ovlivňuje uvažování lidí obecně a bez jejich vědomí (Kunda 1990), a manipulativní
+prostředí ho cíleně využívá tím, že
 spojuje určitý závěr s přijetím, bezpečím nebo identitou. Rozpoznat, které motivace závěr
 podpíraly, je proto součástí zotavení, ne důvodem k hanbě. Širší souvislosti kognitivních
 zkreslení kompendium shrnuje v oddílu

@@ -44,10 +44,10 @@ catalog_prev = "disneyova-strategie"
 catalog_next = ""
 catalog_position = 16
 catalog_family_size = 16
-catalog_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "herman-1992", "korzybski-1933", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "herman-1992", "korzybski-1933", "lifton-1961", "nickerson-1998", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
 catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
 catalog_sources_roots = ["bateson-1972", "bateson-1956", "korzybski-1933", "watzlawick-1967"]
-catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "nickerson-1998", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 3
 catalog_trainer_benign = 1
@@ -128,7 +128,8 @@ obranného hlediska z toho plyne, že povýšení a přeskok jsou nejúčinněj�
 
 Pro obranné čtení je důležité, že povýšení dělá výrok neopravitelným. Chybu v chování lze
 napravit dalším chováním. Soud o identitě dalším chováním napravit nelze, protože každé nové
-jednání se vyloží ve světle již daného soudu. Proto je předpoklad, že
+jednání se vyloží ve světle již daného soudu: lidé mají sklon hledat a vykládat doklady tak, aby
+potvrzovaly to, co už předpokládají (Nickerson 1998). Proto je předpoklad, že
 [člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md),
 užitečný jako obranné rozlišení. Kompendium mechanismus povýšení popisuje v technice
 [esencialistická redukce](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md) a
@@ -214,6 +215,7 @@ vrstev člověka.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Korzybski, A. (1933). *Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics*. Lancaster: International Non-Aristotelian Library.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.

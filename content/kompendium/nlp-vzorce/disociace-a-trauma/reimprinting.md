@@ -144,7 +144,9 @@ U člověka, s nímž se takto pracovalo, se může objevit náhlá jistota o ud
 předtím neznal, změna vztahu k rodině nebo k osobě, kterou „vzpomínka“ obviňuje, a zhoršení
 psychického stavu. Pro forenzní praxi je důležité, že vzpomínka vzniklá nebo přetvořená v
 takovém procesu nemusí mít hodnotu svědectví, protože nelze odlišit, co v ní pochází z události
-a co z procesu vybavování. Kompendium zásady nesugestivního dotazování popisuje v hesle o
+a co z procesu vybavování. Experiment Loftusové a Palmera ukázal, že už formulace otázky po
+události mění, co si svědek vybaví, a může vést i k vybavení podrobností, které se nestaly (Loftus
+a Palmer 1974). Kompendium zásady nesugestivního dotazování popisuje v hesle o
 [forenzním rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md).
 
 ## Legitimní a manipulativní užití
@@ -162,7 +164,9 @@ bez klinického vzdělání, kteří slibují nalezení příčiny, sezení, ve 
 regrese, [sugestivní otázky](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) a silná emoční aktivace, a výklad, podle kterého klientův odpor proti
 nalezené „vzpomínce“ dokazuje její pravdivost. Manipulativní potenciál má také nucené přijetí
 perspektivy pachatele: pokud se z pozitivního záměru stane podmínka uzdravení, posiluje to
-zlehčování násilí, které kompendium popisuje u kontrolujících vztahů.
+zlehčování násilí, které kompendium popisuje u kontrolujících vztahů. Herman ukázala, že pachatel
+se opírá o zlehčování a popírání toho, co způsobil, a že okolí jeho výklad snadno přijímá (Herman
+1992).
 
 ## Stav důkazů
 
@@ -187,7 +191,7 @@ vytvořilo. Pokud praktik předem tvrdí, že obtíž musí mít skrytý kořen,
 najde, je to důvod k opatrnosti. Užitečné je ptát se po kvalifikaci, po supervizi a po tom,
 jak praktik zachází s riziky sugesce. Nově vybavená vzpomínka by neměla být podkladem pro
 zásadní rozhodnutí, například pro přerušení vztahů nebo pro obvinění, dokud ji neposoudí
-odborník, který rozumí rekonstruktivní povaze paměti.
+odborník, který rozumí rekonstruktivní povaze paměti (Loftus a Palmer 1974).
 
 Zotavení po zkušenosti se sugestivní prací s pamětí je klinicky náročné. Člověk může být v
 zajetí vzpomínky, kterou prožívá jako skutečnou, a zároveň ztratit oporu ve vztazích, které

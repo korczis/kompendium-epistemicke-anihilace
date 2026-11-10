@@ -44,9 +44,9 @@ catalog_prev = "okolnostni-ad-hominem"
 catalog_next = "genetic-klam"
 catalog_position = 3
 catalog_family_size = 28
-catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "festinger-1957", "hamblin-1970", "kunda-1990", "mercier-sperber-2011", "miller-rollnick-2013", "tindale-2007", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "festinger-1957", "hamblin-1970", "kunda-1990", "mercier-sperber-2011", "miller-rollnick-2013", "tindale-2007", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "watzlawick-1967", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-1970", "tindale-2007", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
-catalog_sources_roots = ["whately-1826"]
+catalog_sources_roots = ["watzlawick-1967", "whately-1826"]
 catalog_sources_critical = ["festinger-1957", "kunda-1990", "mercier-sperber-2011", "miller-rollnick-2013"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
@@ -131,7 +131,9 @@ změna odkládá.
 ## Varianty
 
 Osobní podoba míří na soukromé jednání kritika, jako v případě rodiče, partnera nebo
-kolegy, a v blízkých vztazích se snadno mění v opakovaný vzorec. Institucionální podoba
+kolegy, a v blízkých vztazích se snadno mění v opakovaný vzorec vzájemných obvinění, v němž
+každá strana začíná sled událostí jinde a vlastní jednání vidí jako reakci na jednání
+druhé (Watzlawick, Beavin a Jackson 1967). Institucionální podoba
 odmítá kritiku státu, firmy nebo organizace poukazem na to, že kritizující instituce se
 dopouští téhož, a v mezinárodní politice tak vzniká řetězec protivýtek, v němž se žádné
 provinění neprojedná. Časová podoba vytahuje dávné jednání kritika a staví ho proti jeho
@@ -165,7 +167,6 @@ není tak snadno splnitelná, jak tvrdí, protože ji nedodržuje ani on. Tím s
 proveditelnost doporučení, ne jeho správnost (Walton 2008). Tindale upozorňuje, že
 hodnocení argumentu vyžaduje sledovat, k jakému závěru poukaz na osobu míří, protože tentýž
 poukaz může být v jednom kontextu relevantní a v jiném ne (Tindale 2007).
-
 Platný je také argument z nekonzistence uvnitř stanoviska: pokud mluvčí tvrdí dvě věci,
 které nemohou být zároveň pravdivé, poukaz na rozpor míří na obsah, ne na osobu. A
 konečně je legitimní upozornit na dvojí metr, pokud se jedna pravidla uplatňují na jednu
@@ -215,6 +216,7 @@ whataboutismu ho často ještě prodlužuje.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.

@@ -39,15 +39,15 @@ catalog_related = ["mysl-a-telo-jeden-system", "disociace", "rychla-lecba-fobie"
 catalog_related_declared = ["presvedceni-a-zdravi", "rychla-lecba-fobie", "disociace", "mysl-a-telo-jeden-system", "systematicky-prehled-zdravi"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/disociace.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+catalog_links_prose = ["glossary/disociace.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/08-prilohy/eticky-kodex.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
 catalog_prev = "zmena-osobni-historie"
 catalog_next = "vzorec-zalu"
 catalog_position = 5
 catalog_family_size = 11
-catalog_sources = ["beck-1976", "dilts-hallbom-smith-1990", "herman-1992", "norcross-2006", "pavlov-1927", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources = ["beck-1976", "cialdini-2009", "dilts-hallbom-smith-1990", "gilovich-1991", "herman-1992", "norcross-2006", "pavlov-1927", "popper-1959", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["dilts-hallbom-smith-1990"]
-catalog_sources_roots = ["pavlov-1927"]
-catalog_sources_critical = ["beck-1976", "herman-1992", "norcross-2006", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
+catalog_sources_roots = ["pavlov-1927", "popper-1959"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "gilovich-1991", "herman-1992", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -125,6 +125,8 @@ lékařský dohled je u lidí s rizikem závažné reakce nebezpečné, a to i t
 proběhne „úspěšně“. Slabá reakce při jednom kontaktu nic nevypovídá o reakci při dalším,
 protože intenzita alergické reakce kolísá v závislosti na dávce, cestě kontaktu, únavě, infekci
 a dalších okolnostech. Pocit, že „to zabralo“, tedy může vést k rozhodnutí, které ohrozí život.
+Gilovich popsal, že přirozené kolísání příznaků a jejich spontánní zlepšení vedou lidi k
+přesvědčení o účinku léčebných postupů, které neúčinkují (Gilovich 1991).
 
 ## Detekční znaky
 
@@ -143,7 +145,10 @@ Sharpley stejnou vlastnost uvedl jako jeden z hlavních metodologických problé
 U lidí, na které nabídka cílí, je zvláštní zranitelnost. Rodiče alergických dětí, lidé s
 těžkým astmatem nebo s opakovanými závažnými reakcemi bývají vyčerpaní, a slib, že se obtíž
 dá „odnaučit“, je pro ně mimořádně lákavý. Kompendium se problematice zranitelných skupin
-věnuje v kapitole o [práci s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
+věnuje v kapitole o [práci s vulnerabilní
+populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md). Výzkum nátlakových skupin
+ukazuje, že vnímavost k nabídkám slibujícím rychlé řešení souvisí spíše s obdobím zátěže a
+vyčerpání než s osobností člověka (Singer a Lalich 1995).
 
 ## Legitimní a manipulativní užití
 
@@ -161,13 +166,16 @@ nahrazuje doklady; kompendium vztah, v němž autorita nahrazuje ověřování, 
 [vzorec guru a adepta](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md). Zvlášť
 škodlivé je spojení s výkladem, podle kterého nemoc vyjadřuje psychický konflikt a klient si ji
 „drží“. Takový výklad mění nemocného ve viníka vlastní nemoci a ztěžuje mu hledání pomoci.
+Svědectví spokojených klientů a autorita lektora působí jako zkratky úsudku, které Cialdini popsal
+jako principy sociálního důkazu a autority (Cialdini 2009).
 
 Odpovědnost nese i ten, kdo intervenci nabízí v dobré víře. Praktik bez zdravotnického
 vzdělání nemusí vědět, že u některých lidí může závažná reakce přijít i po letech bez obtíží,
 že astma a alergie se mohou navzájem zhoršovat nebo že psychické příznaky, které připomínají
 alergii, mohou mít jinou tělesnou příčinu. Dobrý úmysl proto nenahrazuje kompetenci. U
 intervence, jejíž neúspěch může ohrozit život, je jediným přijatelným rámcem spolupráce s
-lékařem a výzkumné ověření, nikoli kurz nebo seminář.
+lékařem a výzkumné ověření, nikoli kurz nebo seminář. Zásady odpovědnosti vůči lidem, kterých se
+popisované postupy týkají, shrnuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ## Stav důkazů
 
@@ -190,7 +198,8 @@ pomoc, může ji přijmout jako doplněk, ale neměl by na jejím základě vysa
 autoinjektor ani zkoušet kontakt s alergenem mimo lékařský dohled. Užitečné je ptát se
 poskytovatele, jaké má zdravotnické vzdělání, jak by rozpoznal závažnou reakci, jakými studiemi
 doloží účinek a co se stane, když intervence nezabere. Pokud odpověď na poslední otázku zní, že
-selhání bude vinou klienta, je to dostatečný důvod nabídku odmítnout.
+selhání bude vinou klienta, je to dostatečný důvod nabídku odmítnout. Tvrzení, které předem
+vysvětlí jakýkoli výsledek, nelze podle Popperova kritéria empiricky testovat (Popper 1959).
 
 Zotavení se týká hlavně dvou oblastí. Zdravotní: obnovit léčbu, kterou klient přerušil, a
 případně podstoupit nové alergologické vyšetření. Psychologickou: zpracovat stud a pocit
@@ -204,11 +213,15 @@ Odborník by měl klientovi vysvětlit, že kolísání alergických příznaků
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
+- Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Dilts, R., Hallbom, T., & Smith, S. (1990). *Beliefs: Pathways to Health and Well-Being*. Portland: Metamorphous Press.
+- Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
 - Pavlov, I. P. (1927). *Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex*. London: Oxford University Press.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
+- Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.

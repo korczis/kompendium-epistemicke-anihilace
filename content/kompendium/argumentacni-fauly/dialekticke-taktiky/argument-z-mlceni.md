@@ -173,7 +173,9 @@ mimořádnou opatrnost a nemá nahrazovat zkoumání dostupných stop.
 V kontextu kompendia se argument z mlčení objevuje především ve dvou podobách. První je
 výslech nebo rozhovor, v němž se mlčení či váhání vykládá jako přiznání nebo jako doklad
 nepravdy; [forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md)
-proto pracuje s otevřenými otázkami a nevyvozuje závěry z toho, co osoba neřekla. Druhá je
+proto pracuje s otevřenými otázkami a nevyvozuje závěry z toho, co osoba neřekla. Výzkum detekce lži
+k tomu dodává, že váhání, pauzy a podobné projevy jsou jen slabými a nespolehlivými ukazateli
+nepravdy (Vrij 2008). Druhá je
 institucionální: nepřítomnost stížností se vykládá jako doklad, že problém neexistuje,
 ačkoli stížnosti nepřicházejí, protože jejich podání je riskantní nebo bezvýsledné. Úzce
 souvisí se [zamlčením

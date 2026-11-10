@@ -113,7 +113,8 @@ cokoli podstatného ví (Singer a Lalich 1995; Hassan 1988).
 Strukturálně má instrumentální raport čtyři prvky. Prvním je předem daný cíl, který druhý
 nezná nebo zná jen částečně. Druhým je rychle a intenzivně budovaná blízkost: napodobování,
 přitakávání, ocenění, nápadná shoda v zájmech a hodnotách, sdílení osobních příběhů, které
-mají vzbudit důvěru. Třetím prvkem je převod blízkosti na žádost. V okamžiku, kdy druhý
+mají vzbudit důvěru; podobnost, ocenění a
+spolupráce patří k hlavním zdrojům sympatie, které popisuje výzkum vlivu (Cialdini 2009). Třetím prvkem je převod blízkosti na žádost. V okamžiku, kdy druhý
 prožívá souznění, přichází nabídka, prosba nebo požadavek, často s časovým tlakem a s
 odkazem na vztah: „dělám to jen pro tebe“, „mezi námi“. Čtvrtým prvkem je podmíněnost: pokud
 druhý odmítne, vřelost slábne nebo se mění ve zklamání a výčitky, a tím se odmítnutí stává
@@ -157,7 +158,8 @@ cítil dobře, protože to usnadňuje spolupráci.
 
 Manipulativní užití staví na utajení cíle a na přenosu důvěry z osoby na věc. Druhý věří
 nabídce proto, že věří člověku, a člověku věří proto, že byl zrcadlen, oceňován a
-poslouchán. Pokud by cíl byl vysloven, například „buduji s vámi blízkost, abyste mi
+poslouchán; sympatie ke zdroji tak působí jako periferní vodítko, které nahrazuje posouzení
+obsahu (Petty a Cacioppo 1986). Pokud by cíl byl vysloven, například „buduji s vámi blízkost, abyste mi
 převedla úspory“, vzorec by se rozpadl. Mezi těmito póly leží šedá zóna obchodu a
 vyjednávání, kde je cíl zřejmý, ale raport se používá k oslabení kritického posouzení.
 Kompendium ji nepovažuje za neškodnou: i tam platí, že čím více raport nahrazuje informace,

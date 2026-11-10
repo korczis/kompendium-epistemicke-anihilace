@@ -44,10 +44,10 @@ catalog_prev = "vizualni-submodality"
 catalog_next = "kinesteticke-submodality"
 catalog_position = 3
 catalog_family_size = 20
-catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sharpley-1984", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "beck-1976", "dilts-1980", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "satir-1972", "sharpley-1984", "sharpley-1987", "watzlawick-1967", "witkowski-2010"]
 catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1980"]
 catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
-catalog_sources_critical = ["beck-1976", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -124,13 +124,15 @@ Zvláštní místo mají v katalogu kvality, které neoznačují zvuk, ale vztah
 jaké pozice mluví. V praktické literatuře NLP se často uvádí, že vnitřní kritik zní hlasem
 rodiče, učitele nebo jiné autority z minulosti a že člověk tento hlas slyší, jako by k němu
 stále mluvila tatáž osoba. Tato poznámka je klinicky srozumitelná a odpovídá tomu, co
-popisují i jiné školy: vnitřní hodnocení se utváří ve vztazích a nese jejich stopu. Z
+popisují i jiné školy: vnitřní hodnocení se utváří ve vztazích a nese jejich stopu (Rogers
+1951; Satir 1972). Z
 hlediska kompendia je důležité, že stejně tak se může utvořit i nově. Kdo má k člověku
 dlouhodobý a citově silný přístup, může se stát hlasem, který v něm hodnotí, a to i tehdy,
 když s ním už není ve styku.
 
 Pro pozorovatele je podstatné, že vnitřní hlas má v psychickém životě různé funkce. Může
-nést nepřiměřenou sebekritiku, která člověka trápí a kterou má smysl zmírnit. Může však nést
+nést nepřiměřenou sebekritiku, která člověka trápí a kterou má smysl zmírnit (Beck 1976). Může
+však nést
 i oprávněné varování, morální úsudek nebo hlas blízkého člověka, jehož pohled je cenný.
 Slovník auditivních submodalit tyto funkce nerozlišuje: hlas je v něm jen soubor kvalit, které
 lze měnit. To je zdrojem jeho dvojí povahy. Zmírnění tónu krutého vnitřního kritika může být
@@ -217,6 +219,7 @@ práva na vlastní úsudek a vlastní slova (Herman 1992).
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
+- Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.

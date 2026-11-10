@@ -134,13 +134,16 @@ Spouštěči presupozic jsou v češtině zejména časové věty („než“, �
 opakovací výrazy („zase“, „znovu“, „pořád“), slovesa změny stavu („přestat“, „začít“),
 faktivní slovesa („uvědomit si“, „vědět“, „litovat“), pořadové výrazy („první věc, kterou
 změníš“), srovnání („ještě horší“) a vztažné věty, které o někom něco mimochodem tvrdí
-(„ten tvůj kamarád, co tě zneužívá“). Otázky s „proč“ předpokládají fakt, na jehož
+(„ten tvůj kamarád, co tě zneužívá“); přehled takových spouštěčů podává pragmatika
+(Levinson 1983). Otázky s „proč“ předpokládají fakt, na jehož
 důvod se ptají. Výběrové otázky („chceš to podepsat dnes, nebo zítra?“) předpokládají, že
 k podpisu dojde. Tento poslední typ kompendium rozebírá u [falešného dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md).
 
 V interakci je hlavním znakem hromadění předpokladů, které adresát nikdy výslovně
 nepřijal, ale o které se rozhovor opírá. Typické je, že pokud adresát předpoklad
-zpochybní, mluvčí reaguje, jako by šlo o odbočku od tématu nebo vytáčku. U člověka, kterému
+zpochybní, mluvčí reaguje, jako by šlo o odbočku od tématu nebo vytáčku. Psychologie svědectví ukazuje, že
+předpoklad vložený do otázky se může stát součástí pozdější vzpomínky (Loftus a Palmer
+1974). U člověka, kterému
 jsou presupozice vkládány soustavně, se může objevit nejistota, odkud se některé jeho
 představy o sobě vzaly, a pocit, že se o věcech „vždycky vědělo“, ačkoli je nikdo
 nevyslovil.
@@ -170,7 +173,7 @@ obchodní komunikaci se presupozice používá k předpokládanému uzavření o
 souvislého obrazu viny („až se zase začneš chovat jako tvoje matka“). Nejvyšší riziko
 nesou presupozice v rozhovorech, jejichž výsledek má důsledky pro svědectví nebo právní
 posouzení. Otázka, která předpokládá okolnost, o níž svědek nemluvil, může tuto okolnost do
-jeho výpovědi vložit; proto forenzní standardy dávají přednost otevřeným otázkám bez
+jeho výpovědi vložit (Loftus a Palmer 1974); proto forenzní standardy dávají přednost otevřeným otázkám bez
 sugestivních předpokladů, jak popisuje stránka o [forenzním rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md).
 
 ## Stav důkazů

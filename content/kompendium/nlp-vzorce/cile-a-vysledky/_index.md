@@ -53,12 +53,17 @@ něhož člověk pozná, že je určité kritérium splněno. Třetí okruh tvo�
 se podmínky uplatňují: [otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md)
 a [přesun od problému k
 výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md). Úplný přehled
-položek rodiny s jejich kódy podává tabulka na konci této stránky.
+položek rodiny s jejich kódy podává tabulka na konci této stránky. Rozdělení do okruhů je
+pracovní pomůckou kompendia, ne členěním převzatým z literatury NLP; zásady, podle nichž
+katalog hesla třídí, vykládají [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 Rodina má blízké sousedy v jiných částech katalogu. [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) a [rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) patří mezi
 rámce a přerámcování, [ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) mezi základní pojmy, orientace [k cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md)
 mezi metaprogramy a vkládání cíle do budoucnosti do práce s časovou osou. Tyto vazby uvádí
-oddíl Související na každé stránce.
+oddíl Související na každé stránce. Vazby mezi rodinami jsou rozhodnutím katalogu o tom, co se
+má číst spolu, a vycházejí z téhož třídění, které popisují [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Původ
 
@@ -138,13 +143,15 @@ kdežto mechanismy, kterými lze tytéž vzorce zneužít, jsou doloženy dobře
 
 Obrana proti zneužití vzorců této rodiny stojí na několika jednoduchých zásadách. Cíl patří
 tomu, kdo ho formuloval, a lze jej kdykoli přeformulovat nebo opustit, aniž by to bylo
-selhání. Vlastní cíl je třeba oddělit od nabízeného prostředku a nabídku posoudit samostatně,
+selhání; i přístupy, které s cílem v terapii pracují, ponechávají rozhodnutí o něm klientovi
+(Miller a Rollnick 2013). Vlastní cíl je třeba oddělit od nabízeného prostředku a nabídku posoudit samostatně,
 s odstupem v čase a s lidmi, kteří na výsledku nemají zájem. Kritéria pokroku je rozumné
 stanovit si sám, zapsat si je a zahrnout mezi ně i náklady a škody. Hranice cíle, tedy kde,
 kdy a vůči komu platí, je třeba vymezit výslovně a chránit oblasti života, na které se cíl
 vztahovat nemá. Obavy blízkých a vlastní váhání jsou informací o důsledcích, ne překážkou. A
 popis problému, zejména popis křivdy nebo násilí, je legitimní a má být vysloven celý dřív,
-než se rozhovor obrátí k budoucnosti.
+než se rozhovor obrátí k budoucnosti. I léčba traumatu počítá s tím, že vyslovení toho, co se
+stalo, má v zotavení vlastní fázi, kterou nelze přeskočit (Herman 1992).
 
 Výzkum odolnosti vůči přesvědčování ukazuje, že kdo předem pozná strukturu tlaku a promyslí
 protiargumenty, snáze mu odolá (McGuire 1964). Právě k tomu slouží stránky této rodiny: popisují

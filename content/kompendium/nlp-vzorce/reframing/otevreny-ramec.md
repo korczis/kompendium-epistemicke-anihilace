@@ -39,7 +39,7 @@ catalog_related = ["ramec-vysledku", "ramec-zpetneho-shrnuti", "vyzva-k-relevanc
 catalog_related_declared = ["vyzva-k-relevanci", "ramec-vysledku", "raport-se-skupinou", "ramec-zpetneho-shrnuti"]
 catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
+catalog_links_prose = ["glossary/informed-consent.md", "kompendium/08-prilohy/eticky-kodex.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
 catalog_prev = "vyzva-k-relevanci"
 catalog_next = "ramec-dukazu"
 catalog_position = 12
@@ -115,7 +115,8 @@ včetně osobního života. Příslib říká, co se se sdělením stane, např�
 nebude hodnoceno nebo bude zapsáno. Naložení se sdělením je to, co se s ním skutečně stane
 později. Pro pozorovatele je podstatné, že první tři prvky jsou slovní a viditelné, kdežto
 čtvrtý se projeví až s odstupem, a že právě rozdíl mezi příslibem a pozdějším naložením odlišuje
-legitimní užití od manipulativního.
+legitimní užití od manipulativního. Lifton u kultu přiznání popsal přesně takový rozpor: přiznání
+se nabízí jako cesta k očistě, a pak slouží jako nástroj kontroly (Lifton 1961).
 
 Manipulativní varianta má charakteristické nastavení prvků. Vymezení je široké nebo chybí, a
 otevřenost se tak vztahuje i na intimní a citlivé oblasti. Příslib je emocionální, nikoli
@@ -140,7 +141,8 @@ přiznání (Lifton 1961).
 V organizacích má zneužitý otevřený rámec často podobu konzultace, jejíž výsledek je předem
 rozhodnut. Účastníci jsou vyzváni, aby řekli cokoli, ale jejich námitky nemají vliv na
 rozhodnutí; slouží jen k tomu, aby vedení mohlo prohlásit, že se o věci otevřeně mluvilo a že
-panuje shoda. Tento mechanismus kompendium popisuje u
+panuje shoda. Prohlášená shoda pak působí jako sociální důkaz, podle kterého se lidé v nejistotě
+řídí (Cialdini 2009). Tento mechanismus kompendium popisuje u
 [vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).
 Znakem je, že po otevřené diskusi nenásleduje žádný záznam o tom, co zaznělo, ani zdůvodnění,
 proč námitky nebyly přijaty. U jednotlivce, na kterého je vzorec uplatňován dlouhodobě, se
@@ -181,8 +183,12 @@ facilitační praxe, jejíž hodnota i riziko závisejí na pravidlech, která h
 
 Obrana stojí na tom, že se čtvrtý prvek rámce, tedy naložení se sdělením, vyjasní předem. Kdo je
 vyzván k otevřenému sdílení, může se zeptat, kdo sdělení uslyší, zda se zapisují, komu se předávají
-a co se s nimi stane, a rozhodnout se podle odpovědi. Kde důvěrnost zaručuje jen ujištění vedoucího,
-ne pravidlo nebo profesní povinnost, je rozumné osobní informace nesdílet. Pomáhá také rozlišovat
+a co se s nimi stane, a rozhodnout se podle odpovědi; jde o tytéž podmínky, [informovaný souhlas](@/glossary/informed-consent.md)
+a výslovná pravidla důvěrnosti, které kniha vyžaduje od každého, kdo s cizími sděleními pracuje
+([etický kodex](@/kompendium/08-prilohy/eticky-kodex.md)). Kde důvěrnost zaručuje jen ujištění vedoucího,
+ne pravidlo nebo profesní povinnost, je rozumné osobní informace nesdílet, protože právě taková
+sdělení se ve skupinách s vysokou kontrolou stávají nástrojem kontroly (Lifton 1961; Singer a
+Lalich 1995). Pomáhá také rozlišovat
 pracovní a osobní otevřenost: k pracovní poradě patří pracovní námitky, ne přiznání ze soukromého
 života. U organizačních konzultací chrání písemné vyjádření, které zůstane dohledatelné i tehdy,
 když se výsledek diskuse prezentuje jinak.

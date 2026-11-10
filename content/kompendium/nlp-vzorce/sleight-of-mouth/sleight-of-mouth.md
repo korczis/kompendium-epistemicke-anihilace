@@ -178,9 +178,9 @@ Passmore a Rowson 2019). Systematický přehled účinků NLP na zdraví nenaše
 pro doporučení jeho intervencí (Sturt a kol. 2012). Kritické hodnocení NLP pro oblast řízení
 a rozvoje upozorňuje, že síla oboru leží spíše v rétorické přesvědčivosti jeho modelů než v
 jejich empirickém ověření (Tosey a Mathison 2009). Jednotlivé mechanismy, o které se vzorce
-opírají, jsou ovšem dobře doloženy mimo NLP: vliv rámování na volbu (Tversky a Kahneman
-1981) nebo rozdíl mezi důkladným a povrchním zpracováním přesvědčovacího sdělení (Petty a
-Cacioppo 1986). Z toho plyne opatrný závěr: vzorce zachycují skutečné rétorické pohyby, ale
+opírají, jsou ovšem dobře doloženy mimo NLP: vliv rámování na volbu (Tversky a
+Kahneman 1981) nebo rozdíl mezi důkladným a povrchním zpracováním přesvědčovacího sdělení
+(Petty a Cacioppo 1986). Z toho plyne opatrný závěr: vzorce zachycují skutečné rétorické pohyby, ale
 tvrzení, že spolehlivě a trvale mění přesvědčení, empiricky doloženo není.
 
 ## Obrana a zotavení

@@ -125,6 +125,9 @@ Příčinná varianta tvrdí nebo naznačuje, že náklad plyne z nosiče. Podm�
 náklad na událost, která nastane tak jako tak, a tím ho činí zdánlivě nevyhnutelným; tuto
 podobu podrobněji rozebírá stránka o [implikovaném
 direktivu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md).
+Aditivní a podmíněná varianta odpovídají tomu, co Erickson a Rossi uvádějí mezi složenými
+sugescemi jako řadu souhlasů a podmíněné sugesce (Erickson, Rossi a Rossi 1976); příčinnou
+variantu Bandler a Grinder popsali jako implikovanou příčinnost (Bandler a Grinder 1975b).
 Společné všem variantám je, že síla věty neleží v jejím argumentu, ale v její stavbě.
 
 ## Detekční znaky

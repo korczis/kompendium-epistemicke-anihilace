@@ -23,7 +23,7 @@ catalog_en = "Ericksonian hypnosis"
 catalog_size = 28
 catalog_members = ["ericksonovska-hypnoza", "utilizace", "konfuzni-technika", "preruseni-vzorce", "indukce-podanim-ruky", "levitace-ruky", "vnorene-smycky", "seeding", "predepsani-symptomu", "paradoxni-intervence", "posthypnoticka-sugesce", "vekova-regrese", "pseudoorientace-v-case", "muj-pritel-john", "technika-prolozeni", "vrstveni-realit", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba", "apozice-protikladu", "slozena-sugesce", "implikovane-direktivum", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "amnezie-sugesci"]
 catalog_types = ["pattern"]
-catalog_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "norcross-2006", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "watzlawick-1974", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "norcross-2006", "petty-cacioppo-1986", "roozenbeek-2022", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "watzlawick-1974", "witkowski-2010"]
 +++
 
 # Ericksonovská hypnóza
@@ -51,11 +51,13 @@ narativní a časově rozložené vzorce: [vnořené smyčky](@/kompendium/nlp-v
 [zasévání myšlenky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md), vzorec
 „můj přítel John“, technika proložení a vrstvení realit. Čtvrtou skupinu tvoří formy
 nepřímé sugesce, jak je popsali Erickson a Rossi: terapeutické dvojné vazby, apozice
-protikladů, složené, otevřené a implikované sugesce a sugesce pokrývající všechny možnosti.
+protikladů, složené, otevřené a implikované sugesce a sugesce pokrývající všechny možnosti
+(Erickson, Rossi a Rossi 1976).
 Pátou skupinu tvoří hypnotické jevy, jako je posthypnotická sugesce, věková regrese,
 pseudoorientace v čase a navozená amnézie, a strategické postupy, tedy
 [paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) a
-[předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md).
+[předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md)
+(Haley 1973).
 
 ## Původ
 
@@ -104,7 +106,9 @@ co popisuje Ericksonova klinická literatura, co tvrdí NLP a co říká nezávi
 Stránky této rodiny popisují vzorce tak, aby je čtenář dokázal rozpoznat, nikoli provést.
 Neobsahují popisy indukcí, formulace určené k použití na druhého ani rady, jak účinek
 zesílit nebo skrýt. Tento přístup odpovídá etickému rámci kompendia, který je popsán v
-[etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md). U každého vzorce se
+[etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md), a opírá se i o výzkum
+psychologické imunizace, podle něhož k odolnosti stačí naučit se manipulativní techniky
+rozpoznat, nikoli je umět použít (Roozenbeek a kol. 2022). U každého vzorce se
 popisuje jeho struktura, detekční znaky, rozdíl mezi legitimním a manipulativním užitím,
 stav důkazů a možnosti obrany a zotavení.
 
@@ -310,6 +314,7 @@ flowchart LR
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
+- Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.

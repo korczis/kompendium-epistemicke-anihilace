@@ -114,7 +114,7 @@ technice však výzkum nepotvrdil.
 Vzorec má čtyři prvky. Prvním jsou popisy, které jsou smyslově konkrétní, týkají se přítomné
 chvíle a posluchač si je může okamžitě ověřit. Druhým je tichý souhlas posluchače, který
 nevyžaduje odpověď: posluchač si jen v duchu potvrdí, že popis odpovídá. Třetím prvkem je
-přechod, obvykle spojka nebo časová vazba, která na řadu popisů naváže výrok jiného druhu.
+přechod, obvykle spojka nebo časová vazba, která na řadu popisů naváže výrok jiného druhu (Bandler a Grinder 1975b).
 Čtvrtým prvkem je samotné vedení: výrok o vnitřním stavu, který posluchač teprve má zažít,
 o pravdivosti sdělení, o tom, co posluchač „už ví“, nebo o rozhodnutí, které „cítí“. Pro pozorovatele
 je podstatné, že první dva prvky jsou pravdivé a poslední dva nikoli nutně, a že výrok jako
@@ -160,8 +160,7 @@ na aktuální zkušenost legitimní součástí indukce (Erickson, Rossi a Rossi
 Manipulativní užití se rozpoznává podle toho, kam sledování vede. Rozhodující otázky jsou
 tři. Navazuje na popisy přítomné zkušenosti tvrzení, které posluchač nemůže ověřit, a je mu
 předkládáno jako něco, co z popisů plyne? Má mluvčí na tom, co posluchač přijme, vlastní zájem?
-A dal posluchač souhlas s tím, že bude veden, nebo neví, že k vedení dochází? Empatická reflexe
-zůstává u zkušenosti druhého; manipulativní pacing ji používá jako odrazový můstek k cíli
+A dal posluchač souhlas s tím, že bude veden, nebo neví, že k vedení dochází? Empatická reflexe zůstává u zkušenosti druhého (Rogers 1951; Miller a Rollnick 2013); manipulativní pacing ji používá jako odrazový můstek k cíli
 mluvčího.
 
 ## Stav důkazů

@@ -110,8 +110,11 @@ jen přidává další ztráty.
 Struktura má podobu: do jednání J bylo vloženo N; ukončení J by znamenalo, že N bylo
 vynaloženo zbytečně; tedy je třeba v J pokračovat. Mezi premisami a závěrem chybí srovnání
 budoucnosti obou možností. Hodnota N je stejná v obou větvích rozhodnutí, protože se nevrátí
-ani při pokračování, ani při ukončení. Pokračování nemění minulost, mění jen budoucnost, a ta
-v argumentu vůbec nefiguruje. Klam tedy spočívá v záměně dvou otázek: „bylo dosavadní úsilí
+ani při pokračování, ani při ukončení. Pokračování nemění minulost, mění jen budoucnost, a ta v
+argumentu vůbec nefiguruje. Výzkum efektu utopených nákladů vychází právě z tohoto normativního
+měřítka, podle něhož mají rozhodnutí záviset jen na budoucích nákladech a přínosech, a dokládá, že
+lidé po vložení peněz, času nebo úsilí přesto častěji v jednání pokračují (Arkes a Blumer 1985).
+Klam tedy spočívá v záměně dvou otázek: „bylo dosavadní úsilí
 zbytečné?“ a „vyplatí se další úsilí?“. Na první otázku nemusí existovat dobrá odpověď a
 ani není pro rozhodnutí podstatná; na druhé otázce rozhodnutí závisí.
 

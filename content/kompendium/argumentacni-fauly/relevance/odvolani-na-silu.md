@@ -138,7 +138,8 @@ nejistota ve vlastním úsudku a sklon souhlasit dřív, než je hrozba vysloven
 Apel na sílu je v systémech epistemické anihilace méně viditelný, než by se dalo čekat,
 protože jeho nejúčinnější podoba hrozbu nevyslovuje. Školitel, který ovládá doporučující
 dopisy, vedoucí, který rozhoduje o prodloužení smlouvy, nebo partner, který kontroluje
-finance, nemusí hrozit. Stačí, že obě strany vědí, co je ve hře. Spor o fakta se tak
+finance, nemusí hrozit. Stačí, že obě strany vědí, co je ve hře, jak ukazuje výzkum donucující kontroly, v níž
+oběť jedná podle očekávání druhého i bez vyslovené hrozby (Stark 2007). Spor o fakta se tak
 nevede vůbec, protože slabší strana ho raději nezahájí. Tím se apel na sílu spojuje s
 technikami, které kompendium popisuje jako institucionální vyloučení, publikační blokaci
 nebo kontrolu zdrojů. V rodinném prostředí se k hrozbě často přidává obrácení
@@ -159,7 +160,6 @@ přispívá k přijatelnosti závěru, nebo jen k ochotě ho navenek přijmout (
 jednání a vyjednávání je oznámení vlastních alternativ, například odchodu od jednacího
 stolu, legitimní součástí procesu, pokud se netvrdí, že z něj plyne pravdivost
 stanoviska. Klam začíná tam, kde hrozba vstupuje do sporu o to, co je pravda.
-
 Hraniční případy vznikají tam, kde je pravidlo formálně známé, ale jeho uplatnění je
 výběrové. Vedení, které disciplinárně stíhá jen ty zaměstnance, kteří kritizovali
 rozhodnutí, a stejné porušení u ostatních přehlíží, formálně vymáhá normu, ve skutečnosti

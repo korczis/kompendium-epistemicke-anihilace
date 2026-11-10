@@ -129,8 +129,11 @@ skutečných zastánců určitého názoru toho nejméně schopného nebo nejmé
 podání vydává za názor celé skupiny; příbuzným jevem je
 [vybírání podivínů](@/kompendium/argumentacni-fauly/dialekticke-taktiky/vybirani-podivinu.md).
 Dutý panák jde ještě dál a vyvrací stanovisko, které nikdo nezastává, přičemž ho připisuje
-neurčitým „některým lidem“. Ocelový panák se staví proti všem těmto podobám tím, že hledá
-nejlepšího skutečného nebo možného zastánce. Rozlišuje se také mezi slabší a silnější verzí
+neurčitým „některým lidem“. Ocelový panák se staví proti všem těmto podobám tím, že hledá nejlepšího
+skutečného nebo možného zastánce. Pragma-dialektika řadí připisování smyšleného stanoviska i
+zkreslení stanoviska skutečného k porušením pravidla stanoviska, a pod ně tak spadá dutý panák
+stejně jako slaměný (van Eemeren a Grootendorst 2004). Rozlišuje se také mezi slabší a silnější
+verzí
 ocelového panáka. Slabší verze jen opravuje nepřesnosti formulace a doplňuje zjevné premisy,
 silnější verze přidává důvody, které autor sám neuvedl. Teprve silnější verze naráží na
 problém věrnosti, a proto u ní platí požadavek výslovně odlišit vlastní doplnění od toho, co
@@ -183,8 +186,10 @@ argumentu je užitečné při jeho posouzení, ale nesmí se zaměňovat s rovno
 V kompendiu se opakovaně objevují techniky, které pracují s obrazem protějšku, například
 [argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md), při
 kterém se stanovisko člověka systematicky zobrazuje ve slabší podobě, než jakou má, až ho sám
-přestane umět hájit. Ocelový panák je obranným zrcadlem této techniky: obnovuje nejsilnější
-věrnou podobu stanoviska a vrací ho tam, kde se dá posoudit. Ve vzdělávacím prostředí se
+přestane umět hájit. Ocelový panák je obranným zrcadlem této techniky: obnovuje nejsilnější věrnou
+podobu stanoviska a vrací ho tam, kde se dá posoudit. Odpovídá to zásadě, podle níž se stanovisko
+posuzuje v nejsilnější podobě, kterou jeho autor uzná za svou (Damer 2009). Ve vzdělávacím prostředí
+se
 používá jako cvičení, ve kterém účastníci musí shrnout názor, s nímž nesouhlasí, tak, aby ho
 jeho zastánce přijal; taková cvičení kompendium řadí mezi
 [vzdělávací scénáře](@/kompendium/educational-scenarios/_index.md).

@@ -44,8 +44,8 @@ catalog_prev = "iluze-volby"
 catalog_next = "pacing-aktualni-zkusenosti"
 catalog_position = 26
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975b", "erickson-rossi-1979", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "watzlawick-1974", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975b"]
+catalog_sources = ["bandler-grinder-1975b", "damer-2009", "erickson-rossi-1979", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "damer-2009"]
 catalog_sources_roots = ["erickson-rossi-1979", "watzlawick-1974"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -115,7 +115,7 @@ spoléhá na to, že posluchač jeho funkci nepozná.
 Strukturálně má záporný příkaz tři vrstvy. První vrstvou je obsah, který zápor formálně
 odmítá: představa, rozhodnutí, pocit nebo podezření. Druhou vrstvou je zápor samotný, který
 obsahu odebírá podobu požadavku nebo tvrzení. Třetí vrstvou je zvýraznění, kterým mluvčí
-obsah oddělí od záporu, například přízvukem, pauzou nebo opakováním. Výsledkem je výrok, jehož
+obsah oddělí od záporu, například přízvukem, pauzou nebo opakováním (Bandler a Grinder 1975b). Výsledkem je výrok, jehož
 doslovný význam je neutrální nebo dokonce ohleduplný, ale jehož obsah je přítomen a zabírá
 posluchačovu pozornost.
 
@@ -130,8 +130,7 @@ posluchač od situace očekává (Kirsch a Lynn 1995).
 V manipulativním užití má největší význam varianta paralipse. Mluvčí uvede obsah, který by
 přímo nemohl tvrdit, protože by ho musel doložit, a zápor mu poskytne krytí: nechce nic
 naznačovat, jen nechce, aby si posluchač myslel, že… Podezření, výčitka nebo strach jsou
-vyřčeny a zůstanou v posluchačově mysli, ale mluvčí může kdykoli říct, že nic takového
-netvrdil. Kompendium popisuje tento typ skrytého emočního vlivu u
+vyřčeny a zůstanou v posluchačově mysli, ale mluvčí může kdykoli říct, že nic takového netvrdil. Logika neformálních argumentů popisuje tento postup jako argument náznakem, který závěr sugeruje, aniž by ho tvrdil (Damer 2009). Kompendium popisuje tento typ skrytého emočního vlivu u
 [latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 a roli hlasového zvýraznění u
 [prosodické dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md).
@@ -163,7 +162,7 @@ Fisch 1974).
 Manipulativní užití se rozpoznává podle toho, zda zápor slouží k vnesení obsahu, za který
 mluvčí nechce nést odpovědnost. Rozhodující otázky jsou dvě. Zazněl by obsah v rozhovoru i bez
 záporu, protože k věci patří? A byl by mluvčí ochoten obsah vyslovit kladně a obhájit ho?
-Pokud ne, zápor neslouží srozumitelnosti, ale krytí. Varianta „nemusíte se rozhodnout hned“ je
+Pokud ne, zápor neslouží srozumitelnosti, ale krytí, tedy naznačování bez tvrzení (Damer 2009). Varianta „nemusíte se rozhodnout hned“ je
 legitimní, když je odklad skutečně k dispozici a mluvčí ho respektuje; manipulativní je, když
 slouží jen k tomu, aby posluchač ztratil ostražitost, zatímco tlak pokračuje jinými prostředky.
 
@@ -199,6 +198,7 @@ rozlišit, co mluvčí řekl a co si posluchač domyslel.
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
+- Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Erickson, M. H., & Rossi, E. L. (1979). *Hypnotherapy: An Exploratory Casebook*. New York: Irvington.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

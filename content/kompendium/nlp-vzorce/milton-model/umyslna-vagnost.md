@@ -115,7 +115,7 @@ skrytou hloubku, a hledá smysl, který by výpověď mohla mít. Na tom vzorec 
 
 Strukturálně má úmyslná vágnost čtyři složky. První je forma určitosti: sebejistý tón,
 přítomný čas, slova, která evokují konkrétní zkušenost, a oslovení posluchače ve druhé osobě.
-Druhou je nepřítomnost ověřitelného obsahu: chybí, kdo, co, kdy, jak a podle čeho se to pozná.
+Druhou je nepřítomnost ověřitelného obsahu: chybí, kdo, co, kdy, jak a podle čeho se to pozná (Bandler a Grinder 1975b).
 Třetí je citové zabarvení, obvykle příslib, naděje nebo naopak náznak ohrožení. Čtvrtou je
 kontext, který posluchači dává motiv mezery zaplnit: touha po změně, nejistota, vztah k
 autoritě nebo skupině.

@@ -62,7 +62,8 @@ pozornost k [záměru](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md), k
 [meta-rámci](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md), k
 [modelu světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) nebo ke
 [strategii reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md), tedy
-k tomu, jak člověk dospěl k jistotě, že je přesvědčení pravdivé.
+k tomu, jak člověk dospěl k jistotě, že je přesvědčení pravdivé. Popisy jednotlivých vzorců
+v této i v dalších skupinách vycházejí z Diltsova výkladu (Dilts 1999).
 
 ## Původ
 
@@ -83,7 +84,8 @@ přesvědčeními se Dilts zabýval i v dřívějších knihách, kde je spojova
 identitou a zdravím (Dilts 1990; Dilts, Hallbom a Smith 1990).
 
 Na rozdíl od většiny technik NLP soubor nevyžaduje trans, smyslovou práci ani zvláštní
-uspořádání rozhovoru. Je čistě verbální, a proto se snadno přenesl do koučinku, prodeje,
+uspořádání rozhovoru. Je čistě verbální, jak naznačuje už podtitul Diltsovy knihy o
+konverzační změně přesvědčení (Dilts 1999), a proto se snadno přenesl do koučinku, prodeje,
 vyjednávání, veřejné debaty a politické rétoriky. Tato přenositelnost je pro kompendium
 důvodem, proč rodině věnuje samostatnou pozornost: vzorce se v běžném rozhovoru objevují
 často i u lidí, kteří o NLP nikdy neslyšeli, protože odpovídají přirozeným rétorickým
@@ -95,7 +97,9 @@ Stránky rodiny popisují vzorce tak, aby je pozorovatel poznal, ne tak, aby je 
 použít. U každého vzorce se proto rozlišuje legitimní a manipulativní užití podle
 několika obecných kritérií. Prvním je směr: mění se přesvědčení, které škodí tomu, kdo ho
 drží, nebo přesvědčení, které je nepohodlné pro mluvčího? Druhým je tempo a prostor: má
-posluchač čas nový rámec posoudit a možnost ho bez následků odmítnout? Třetím je návrat k
+posluchač čas nový rámec posoudit a možnost ho bez následků odmítnout? Na čase a možnosti
+sdělení zpracovat závisí, zda o jeho působení rozhodují argumenty, nebo vnější vodítka (Petty
+a Cacioppo 1986). Třetím je návrat k
 věci: vrací se rozhovor po přerámování k původní otázce, nebo ta otázka zmizí? Čtvrtým je
 symetrie: uplatňuje mluvčí tytéž vzorce i na vlastní přesvědčení, nebo jen na přesvědčení
 druhých?

@@ -44,10 +44,10 @@ catalog_prev = "odvolani-na-novost"
 catalog_next = "odvolani-na-strach"
 catalog_position = 13
 catalog_family_size = 28
-catalog_sources = ["beck-1976", "copi-cohen-mcmahon-2014", "damer-2009", "ekman-2003", "hamblin-1970", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022", "tindale-2007", "walton-2008", "eemeren-grootendorst-1992", "van-der-linden-2023"]
+catalog_sources = ["beck-1976", "copi-cohen-mcmahon-2014", "damer-2009", "ekman-2003", "hamblin-1970", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022", "tindale-2007", "tversky-kahneman-1981", "walton-2008", "eemeren-grootendorst-1992", "van-der-linden-2023"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-1970", "tindale-2007", "walton-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = []
-catalog_sources_critical = ["beck-1976", "ekman-2003", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022", "van-der-linden-2023"]
+catalog_sources_critical = ["beck-1976", "ekman-2003", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022", "tversky-kahneman-1981", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -120,7 +120,9 @@ nehájí, jen ho emočně podbarví (van Eemeren a Grootendorst 1992).
 
 Rozbor struktury pomáhá i u složitějších případů, kdy emoce a argument nejsou oddělitelné na
 první pohled. Mluvčí může předložit skutečné, ověřitelné údaje a teprve jejich rámování
-emočně zatížit, takže posluchač přijme závěr, který z údajů neplyne. Typickým příkladem je
+emočně zatížit, takže posluchač přijme závěr, který z údajů neplyne. Výzkum rámování
+ukázal, že tatáž informace podaná v jiném rámci vede k jiným rozhodnutím (Tversky a
+Kahneman 1981). Typickým příkladem je
 statistika o jedné tragické události, která se podá tak, aby vzbudila hněv vůči celé
 skupině lidí. Údaj je pravdivý, emoce je pochopitelná, ale závěr o skupině nemá oporu. Kdo
 argument analyzuje, má proto oddělit tři vrstvy: co se skutečně stalo, jaký pocit to
@@ -131,7 +133,9 @@ třetí vrstvou, nikoli v pocitu samém.
 
 Klam má několik typických podob podle toho, jakou emoci využívá. Odvolání na strach staví
 na představě hrozby, odvolání na soucit na utrpení, lichotka na sebeúctě posluchače a
-odvolání na rozhořčení na morálním hněvu vůči skupině, která se označí za viníka. Další
+odvolání na rozhořčení na morálním hněvu vůči skupině, která se označí za viníka; hledání
+obětních beránků výzkum inokulace sledoval jako samostatnou manipulační techniku
+(Roozenbeek a kol. 2022). Další
 podobou je apel na hrdost nebo příslušnost, kdy se přijetí tvrzení spojuje s tím, být
 „jedním z nás“. Varianty se liší i formou. Přímý apel emoci pojmenovává a vyzývá k ní.
 Nepřímý apel ji vyvolává obrazem, hudbou, kamerovým záběrem nebo výběrem slov; tomu se
@@ -207,6 +211,7 @@ iracionalitu, ale jako stopu působení, které se dá popsat a postupně odbour
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.
 - Tindale, C. W. (2007). *Fallacies and Argument Appraisal*. Cambridge: Cambridge University Press.
+- Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.

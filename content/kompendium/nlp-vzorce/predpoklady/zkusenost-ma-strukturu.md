@@ -44,10 +44,10 @@ catalog_prev = "volba-je-lepsi-nez-zadna-volba"
 catalog_next = "zkusenost-je-kodovana-smysly"
 catalog_position = 16
 catalog_family_size = 21
-catalog_sources = ["bandler-1985", "bandler-grinder-1975", "beck-1976", "chomsky-1965", "dilts-1980", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "miller-galanter-pribram-1960", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
+catalog_sources = ["bandler-1985", "bandler-grinder-1975", "beck-1976", "chomsky-1965", "dilts-1980", "ekman-2003", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "miller-galanter-pribram-1960", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
 catalog_sources_primary = ["bandler-1985", "bandler-grinder-1975", "dilts-1980"]
 catalog_sources_roots = ["chomsky-1965", "miller-galanter-pribram-1960"]
-catalog_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "ekman-2003", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -161,7 +161,8 @@ Manipulativní užití dělá z formy způsob, jak obsah odstavit. Prožitek se 
 kódování a jeho odstranění za cíl, aniž by se zkoumalo, na co prožitek upozorňuje. Kdo má
 moc určovat, co je „správná struktura“, získává moc nad tím, které prožitky druhého jsou
 oprávněné. V populárních kurzech se k tomu přidává slib rychlých změn, který může vést k
-tomu, že lidé odkládají odbornou péči o vážné potíže.
+tomu, že lidé odkládají odbornou péči o vážné potíže, což literatura o pseudovědě v klinické
+psychologii řadí k hlavním rizikům nedoložených metod (Lilienfeld, Lynn a Lohr 2015).
 
 ## Stav důkazů
 
@@ -183,7 +184,8 @@ struktura je taková, jak ji popisuje NLP, ani že ji lze změnit tak, jak NLP s
 Základní obranou je trvat na tom, že obsah prožitku je důležitý. Pokud mluvčí odvádí
 rozhovor od toho, co se stalo, k tomu, jak to člověk „reprezentuje“, je legitimní vrátit se
 k událostem a zeptat se, zda je reakce vzhledem k nim přiměřená. Emoce jsou mimo jiné
-informace o situaci, a jejich odstranění bez porozumění může člověka připravit o varovný
+informace o situaci, protože vznikají jako rychlé vyhodnocení toho, co je pro člověka důležité
+(Ekman 2003), a jejich odstranění bez porozumění může člověka připravit o varovný
 signál. Další obranou je zachovat si autoritu nad vlastním prožitkem: o tom, jak se cítím a
 proč, mám první slovo já, a výklad druhého je nabídka, ne diagnóza. U slibů rychlého
 odstranění zármutku, traumatu nebo úzkosti pomáhá vyžádat si doklad, že metoda byla
@@ -205,12 +207,14 @@ kognitivní souvislosti v kapitole o
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Chomsky, N. (1965). *Aspects of the Theory of Syntax*. Cambridge, MA: MIT Press.
 - Dilts, R., Grinder, J., Bandler, R., & DeLozier, J. (1980). *Neuro-Linguistic Programming: Volume I. The Study of the Structure of Subjective Experience*. Cupertino: Meta Publications.
+- Ekman, P. (2003). *Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life*. New York: Times Books.
 - Ellis, A. (1962). *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
+- Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.

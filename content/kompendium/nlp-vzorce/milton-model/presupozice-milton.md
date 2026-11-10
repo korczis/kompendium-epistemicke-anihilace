@@ -44,8 +44,8 @@ catalog_prev = "srovnavaci-delece-milton"
 catalog_next = ""
 catalog_position = 30
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "grice-1975", "herman-1992", "levinson-1983", "loftus-palmer-1974", "tosey-mathison-2009", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "copi-cohen-mcmahon-2014", "grice-1975", "herman-1992", "levinson-1983", "loftus-palmer-1974", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "copi-cohen-mcmahon-2014"]
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["herman-1992", "loftus-palmer-1974", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -114,8 +114,7 @@ viděli rozbité sklo, které na místě nebylo (Loftus a Palmer 1974).
 
 Strukturálně má presupozice v sugestivní řeči tři prvky. Prvním je předpokládaný obsah, tedy
 to, co má posluchač přijmout. Druhým je jazykový spouštěč, který obsah přesune do pozadí věty:
-časová věta, faktivní sloveso, sloveso změny stavu, otázka, která se ptá na podrobnost, nebo
-disjunkce, jejíž obě strany sdílejí týž předpoklad. Třetím prvkem je popředí výroku, tedy to,
+časová věta, faktivní sloveso, sloveso změny stavu, otázka, která se ptá na podrobnost, nebo disjunkce, jejíž obě strany sdílejí týž předpoklad (Levinson 1983; Bandler a Grinder 1975b). Třetím prvkem je popředí výroku, tedy to,
 o čem se zdánlivě jedná a na co posluchač reaguje: kdy se něco stane, jak rychle, jakým
 způsobem, kterou z možností si vybere.
 
@@ -160,7 +159,7 @@ které by mohly ovlivnit paměť svědka; zásady takového rozhovoru shrnuje st
 oprávněnost dokládá výzkum vlivu formulace otázek na výpověď (Loftus a Palmer 1974).
 
 Manipulativní užití se rozpoznává podle tří otázek. Je předpokládaný obsah doložen, nebo
-dohodnut, nebo jde o sporné tvrzení, které by mluvčí jako výslovné nemohl obhájit? Slouží
+dohodnut, nebo jde o sporné tvrzení, které by mluvčí jako výslovné nemohl obhájit? Otázka, která předpokládá sporné a neprokázané tvrzení, odpovídá tomu, co logika popisuje jako složenou otázku (Copi, Cohen a McMahon 2014). Slouží
 presupozice k tomu, aby posluchač přijal obsah, o kterém by jinak sám rozhodl jinak? A má
 mluvčí na přijetí předpokladu zájem, například proto, že ho vzdaluje od blízkých, přepisuje
 jeho minulost nebo ho zavazuje k jednání? Kompendium popisuje, jak se dodatečným přepisem
@@ -200,6 +199,7 @@ důvěry ve vlastní paměť a úsudek (Herman 1992).
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.

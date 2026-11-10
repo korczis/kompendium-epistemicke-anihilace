@@ -44,8 +44,8 @@ catalog_prev = "disociace"
 catalog_next = "inkongruence"
 catalog_position = 25
 catalog_family_size = 42
-catalog_sources = ["cialdini-2009", "ekman-2003", "grinder-bandler-1976", "rogers-1951", "satir-1972", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
-catalog_sources_primary = ["grinder-bandler-1976"]
+catalog_sources = ["cialdini-2009", "ekman-2003", "grinder-bandler-1976", "oconnor-seymour-1990", "rogers-1951", "satir-1972", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["grinder-bandler-1976", "oconnor-seymour-1990"]
 catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "ekman-2003", "rogers-1951", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Kongruence, raport a důvěra", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -89,7 +89,7 @@ Kongruence se posuzuje jako vztah mezi kanály, nikoli jako vlastnost jednoho z 
 
 ## Kongruence, raport a důvěra
 
-V NLP se kongruence úzce váže na dva další pojmy. Prvním je [raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md), tedy vztah vzájemné důvěry a naladění. Podle NLP se raport snáze buduje s mluvčím, jehož projev je souladný, protože posluchač nemusí řešit rozpor mezi tím, co slyší a co vidí. Druhým je [kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md), tedy pozorné sledování drobných změn v projevu druhého, které má prozradit jeho souhlas nebo nesouhlas. Spojením obou pojmů vzniká představa mluvčího, který sám působí souladně a zároveň čte nesoulad u druhých. V pomáhajících profesích je taková kombinace užitečná, pokud slouží porozumění. Ve vlivových kontextech vytváří asymetrii: jedna strana vědomě řídí svůj projev a sleduje projev druhé, zatímco druhá strana o tom neví a reaguje na dojem. Důvěra, která v takovém vztahu vzniká, se opírá o vystupování, ne o zkušenost s tím, zda mluvčí dodržuje, co slibuje. Proto je dobré rozlišovat důvěru získanou dojmem od důvěry ověřené časem a jednáním.
+V NLP se kongruence úzce váže na dva další pojmy. Prvním je [raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md), tedy vztah vzájemné důvěry a naladění. Podle NLP se raport snáze buduje s mluvčím, jehož projev je souladný, protože posluchač nemusí řešit rozpor mezi tím, co slyší a co vidí. Druhým je [kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md), tedy pozorné sledování drobných změn v projevu druhého, které má prozradit jeho souhlas nebo nesouhlas (O'Connor a Seymour 1990). Spojením obou pojmů vzniká představa mluvčího, který sám působí souladně a zároveň čte nesoulad u druhých. V pomáhajících profesích je taková kombinace užitečná, pokud slouží porozumění. Ve vlivových kontextech vytváří asymetrii: jedna strana vědomě řídí svůj projev a sleduje projev druhé, zatímco druhá strana o tom neví a reaguje na dojem. Důvěra, která v takovém vztahu vzniká, se opírá o vystupování, ne o zkušenost s tím, zda mluvčí dodržuje, co slibuje. Proto je dobré rozlišovat důvěru získanou dojmem od důvěry ověřené časem a jednáním.
 
 ## Detekční znaky
 
@@ -112,6 +112,7 @@ Základní obranou je oddělit dojem z mluvčího od hodnocení tvrzení. Užite
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Ekman, P. (2003). *Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life*. New York: Times Books.
 - Grinder, J., & Bandler, R. (1976). *The Structure of Magic II: A Book about Communication and Change*. Palo Alto: Science and Behavior Books.
+- O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.

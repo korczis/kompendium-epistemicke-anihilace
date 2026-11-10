@@ -44,9 +44,9 @@ catalog_prev = "kinesteticke-submodality"
 catalog_next = "kontrastni-analyza"
 catalog_position = 5
 catalog_family_size = 20
-catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bateson-1972", "beck-1976", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "roderique-davies-2009", "sharpley-1987", "witkowski-2010"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "bateson-1972", "beck-1976", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "popper-1959", "roderique-davies-2009", "sharpley-1987", "witkowski-2010"]
 catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "oconnor-seymour-1990"]
-catalog_sources_roots = ["bateson-1972"]
+catalog_sources_roots = ["bateson-1972", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "roderique-davies-2009", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -187,8 +187,9 @@ kvalitách, jak je formuluje NLP.
 Základní obranou je nedůvěřovat příslibu jediné páky. Kdo slyší, že stačí změnit jednu kvalitu
 představy a jeho vztah k blízkým nebo k pochybnosti se změní sám, má se ptát, proč by se tento
 vztah měl měnit a komu to prospěje. Druhou obranou je trvat na falzifikovatelnosti: pokud
-zásah nezabere, je rozumné to brát jako doklad, že nefunguje, a ne jako výzvu k dalšímu
-hledání. Třetí obranou je nepřijímat výklad o sobě, který druhý „objevil“, jako poznání lepší
+zásah nezabere, je rozumné to brát jako doklad, že nefunguje, a ne jako výzvu k dalšímu hledání
+(Popper 1959; Sharpley 1987). Třetí obranou je nepřijímat výklad o sobě, který druhý „objevil“,
+jako poznání lepší
 než vlastní. Každý takový výklad je hypotéza, kterou lze odmítnout.
 
 U lidí, kteří prošli opakovanými pokusy o „přeladění“ svých citů a jimž byl neúspěch
@@ -210,6 +211,7 @@ nikdy nepřipisovat klientovi.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.

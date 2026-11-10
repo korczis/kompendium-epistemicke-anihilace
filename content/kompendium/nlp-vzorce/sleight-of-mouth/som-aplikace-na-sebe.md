@@ -39,13 +39,13 @@ catalog_related = ["tu-quoque", "whataboutism", "som-protipriklad", "som-model-s
 catalog_related_declared = ["som-meta-ramec", "som-protipriklad", "som-model-sveta"]
 catalog_kompendium = ["kompendium/techniques/ea-5-4-19-self-undermining-claim.md", "kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md", "kompendium/techniques/ea-5-4-19-self-undermining-claim.md", "kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md", "kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md", "kompendium/techniques/ea-5-4-19-self-undermining-claim.md", "kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md"]
 catalog_prev = "som-hierarchie-kriterii"
 catalog_next = "som-meta-ramec"
 catalog_position = 14
 catalog_family_size = 16
-catalog_sources = ["bateson-1972", "beck-1976", "dilts-1999", "ellis-1962", "heap-1988", "herman-1992", "roderique-davies-2009", "watzlawick-1967", "witkowski-2010"]
-catalog_sources_primary = ["dilts-1999"]
+catalog_sources = ["bateson-1972", "beck-1976", "copi-cohen-mcmahon-2014", "dilts-1999", "ellis-1962", "heap-1988", "herman-1992", "roderique-davies-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources_primary = ["copi-cohen-mcmahon-2014", "dilts-1999"]
 catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "ellis-1962", "heap-1988", "herman-1992", "roderique-davies-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -88,7 +88,7 @@ Myšlenka, že tvrzení lze testovat tím, že se aplikuje samo na sebe, je v d�
 
 Vzorec má tři složky. První je přesvědčení nebo výtka, která vyjadřuje určitý vztah nebo kritérium, například že zobecnění jsou nespolehlivá, že nátlak je nepřijatelný nebo že kritika druhých je neuctivá. Druhou je aplikace tohoto vztahu nebo kritéria na samotný výrok nebo na jednání toho, kdo ho vyslovil. Třetí je závěr, který z aplikace mluvčí vyvodí. V obsahové podobě je závěr omezený: tvrzení je nekonzistentní a je třeba ho zpřesnit. V personální podobě je závěr rozsáhlý: protože mluvčí sám jedná podle toho, co kritizuje, nemá právo kritizovat, a jeho výtka tím padá. Dilts uvádí, že vzorec může přesvědčení oslabit i posílit podle toho, zda aplikace na sebe odhalí nesoulad, nebo naopak ukáže, že přesvědčení svému vlastnímu měřítku vyhovuje (Dilts 1999).
 
-Kritickým místem vzorce je přechod od obsahové k personální podobě. Zatímco obsahová aplikace na sebe posuzuje logickou stavbu tvrzení, personální aplikace posuzuje morální pozici mluvčího a jeho výtku zneplatňuje bez ohledu na to, zda je oprávněná. Vzorec navíc často stírá rozdíl mezi jednáním a jeho popisem: vyslovení stížnosti na nátlak se prohlásí za nátlak, i když jde o jednání zcela jiného druhu. Kompendium popisuje logickou podobu sebepopírajících výroků jako [samopodkopávající tvrzení](@/kompendium/techniques/ea-5-4-19-self-undermining-claim.md) a jejich záměrné vyvolávání v rozhovoru jako [indukci performativního rozporu](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md). Obě stránky pomáhají rozlišit, kdy aplikace na sebe odhaluje skutečnou nekonzistenci a kdy ji vyrábí.
+Kritickým místem vzorce je přechod od obsahové k personální podobě. Zatímco obsahová aplikace na sebe posuzuje logickou stavbu tvrzení, personální aplikace posuzuje morální pozici mluvčího a jeho výtku zneplatňuje bez ohledu na to, zda je oprávněná. Logika tento krok popisuje jako [útok na osobu](@/kompendium/argumentacni-fauly/relevance/ad-hominem.md) v podobě „ty taky“ (tu quoque), z něhož o oprávněnosti výtky nic neplyne (Copi, Cohen a McMahon 2014). Vzorec navíc často stírá rozdíl mezi jednáním a jeho popisem: vyslovení stížnosti na nátlak se prohlásí za nátlak, i když jde o jednání zcela jiného druhu. Kompendium popisuje logickou podobu sebepopírajících výroků jako [samopodkopávající tvrzení](@/kompendium/techniques/ea-5-4-19-self-undermining-claim.md) a jejich záměrné vyvolávání v rozhovoru jako [indukci performativního rozporu](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md). Obě stránky pomáhají rozlišit, kdy aplikace na sebe odhaluje skutečnou nekonzistenci a kdy ji vyrábí.
 
 ## Detekční znaky
 
@@ -110,6 +110,7 @@ Základní obranou je oddělit obsah výtky od osoby, která ji vyslovila. I kdy
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Dilts, R. (1999). *Sleight of Mouth: The Magic of Conversational Belief Change*. Capitola: Meta Publications.
 - Ellis, A. (1962). *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.

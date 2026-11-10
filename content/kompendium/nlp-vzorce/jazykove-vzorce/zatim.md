@@ -110,7 +110,7 @@ posunu: z konečného soudu se stává popis současného stavu.
 ## Struktura vzorce
 
 Vzorec má dvě složky: popis omezení a časový operátor, který omezení umisťuje do přítomnosti a
-předpokládá jeho konec. Rozhodující je, kdo o konci rozhoduje a podle čeho. V první podobě
+předpokládá jeho konec (Bandler a Grinder 1975b). Rozhodující je, kdo o konci rozhoduje a podle čeho. V první podobě
 říká člověk „zatím“ o sobě a má změnu ve vlastních rukou: „zatím neumím plavat“ vyjadřuje
 naději spojenou s cvičením, o jehož výsledku rozhoduje on sám a realita. V druhé podobě říká
 „zatím“ terapeut nebo učitel o klientovi a nabízí mu tím jiný výklad jeho zkušenosti; klient

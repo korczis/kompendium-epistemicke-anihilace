@@ -114,8 +114,7 @@ Struktura řady souhlasů má tři části. První tvoří výroky, které jsou 
 nesporné: popis situace, ve které se nachází, obecně pravdivé výroky nebo hodnoty, se
 kterými souhlasí každý. Druhou tvoří přechod, ve kterém se výroky postupně posouvají od
 nesporného ke spornějšímu, často tak, že poslední nesporný výrok už obsahuje část závěru.
-Třetí tvoří cílový výrok nebo požadavek, který se gramaticky i rytmicky napojuje na
-předchozí řadu, jako by z ní plynul. Typickým spojením je „a“, „takže“ nebo „a proto“,
+Třetí tvoří cílový výrok nebo požadavek, který se gramaticky i rytmicky napojuje na předchozí řadu, jako by z ní plynul (Erickson, Rossi a Rossi 1976). Typickým spojením je „a“, „takže“ nebo „a proto“,
 přičemž logická souvislost mezi řadou a cílovým výrokem obvykle chybí. Z hodnoty, že
 člověku záleží na bezpečí rodiny, neplyne, že má podepsat konkrétní smlouvu.
 

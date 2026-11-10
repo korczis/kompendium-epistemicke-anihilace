@@ -44,10 +44,10 @@ catalog_prev = "presvedcovaci-definice"
 catalog_next = "vyhybava-slova"
 catalog_position = 9
 catalog_family_size = 13
-catalog_sources = ["bentham-1824", "cook-lewandowsky-ecker-2017", "govier-2010", "hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "petty-cacioppo-1986", "roozenbeek-2022", "toulmin-1958", "tversky-kahneman-1981", "eemeren-grootendorst-1992"]
+catalog_sources = ["bentham-1824", "cook-lewandowsky-ecker-2017", "govier-2010", "hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "nickerson-1998", "petty-cacioppo-1986", "roozenbeek-2022", "toulmin-1958", "tversky-kahneman-1981", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["govier-2010", "toulmin-1958", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["bentham-1824"]
-catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "petty-cacioppo-1986", "roozenbeek-2022", "tversky-kahneman-1981"]
+catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "nickerson-1998", "petty-cacioppo-1986", "roozenbeek-2022", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -134,8 +134,10 @@ Pro odborné čtenáře kompendia je důležitá ještě varianta institucionál
 policejních záznamech, zdravotnické dokumentaci nebo personálních hodnoceních se nabitý
 výraz snadno usadí jako zdánlivě odborný popis: klient je „nespolupracující“, matka
 „hysterická“, zaměstnanec „problematický“. Takové slovo se pak přenáší z dokumentu do
-dokumentu a další čtenáři ho přebírají jako zjištění, ačkoli vzniklo jako dojem jednoho
-pisatele v jedné situaci. Protože dokument působí neutrálně, zabarvení se v něm hůře
+dokumentu a další čtenáři ho přebírají jako zjištění, ačkoli vzniklo jako dojem jednoho pisatele v
+jedné situaci. Čtenář, který dokument otevře s hotovým označením, navíc vykládá nejednoznačné
+chování posuzovaného spíš ve shodě s ním, jak to popisuje výzkum konfirmačního zkreslení (Nickerson
+1998). Protože dokument působí neutrálně, zabarvení se v něm hůře
 rozpoznává než v politické řeči, a přitom může mít pro posuzovaného člověka vážné
 následky. Klam zde nespočívá v tom, že by pisatel lhal, ale v tom, že hodnocení vydává za
 popis a že se nedá zpětně zjistit, na jakém pozorování stálo.
@@ -208,6 +210,7 @@ mechanismy emočního působení rozebírá kompendium u
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.

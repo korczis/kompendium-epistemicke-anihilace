@@ -116,7 +116,8 @@ kauzalita](@/kompendium/argumentacni-fauly/kauzalni/obracena-kauzalita.md): Y p�
 Z působí X i Y. Třetí je výběr: souvislost vznikla tím, jak byli do dat zařazeni lidé nebo
 případy, například proto, že se do nemocnice dostanou jen ti, u nichž se sešly dva problémy.
 Čtvrtá je náhoda, zvlášť pravděpodobná tam, kde se z velkého množství proměnných vybere ta
-dvojice, která spolu náhodou souvisí. Třetí krok, doporučení, pak přenáší chybu do jednání. Je-li
+dvojice, která spolu náhodou souvisí (Huff 1954). Třetí krok, doporučení, pak přenáší chybu do
+jednání. Je-li
 souvislost dána společnou příčinou, zásah do X na Y nic nezmění, a pokud je obrácená, může
 dokonce uškodit.
 

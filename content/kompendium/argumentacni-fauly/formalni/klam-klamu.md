@@ -44,8 +44,8 @@ catalog_prev = "klam-maskovaneho-muze"
 catalog_next = ""
 catalog_position = 14
 catalog_family_size = 14
-catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "hahn-oaksford-2007", "hamblin-1970", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "roozenbeek-2022", "walton-1995", "eemeren-grootendorst-2004"]
-catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "walton-1995", "eemeren-grootendorst-2004"]
+catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "roozenbeek-2022", "walton-1995", "eemeren-grootendorst-2004"]
+catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-1970", "walton-1995", "eemeren-grootendorst-2004"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hahn-oaksford-2007", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "roozenbeek-2022"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
@@ -87,7 +87,7 @@ to, že argument závěr nedokazuje.
 
 Formálně je klam klamu zvláštním případem popření předchůdce. Platí, že je-li argument pro P
 dobrý, je P pravdivé. Argument dobrý není. Tedy P pravdivé není. Takový tvar je neplatný,
-jak katalog vysvětluje v hesle
+jak učebnice logiky ukazují u popření předchůdce obecně (Copi, Cohen a McMahon 2014) a jak katalog vysvětluje v hesle
 [popření předchůdce](@/kompendium/argumentacni-fauly/formalni/popreni-predchudce.md): P může
 být pravdivé z jiných důvodů, než jaké uvedl mluvčí.
 
@@ -122,7 +122,9 @@ vlastní obhajobu (van Eemeren a Grootendorst 2004).
 Klam má i taktickou podobu, v níž jde méně o úsudek a více o řízení rozhovoru. Názvy klamů
 se používají jako zbraň: mluvčí vyjmenuje latinské termíny, prohlásí argument za
 diskvalifikovaný a odmítne se zabývat věcí. Rozhovor se tak přesouvá od otázky, co je
-pravda, k otázce, kdo lépe ovládá terminologii. Takový přesun popisuje kniha jako
+pravda, k otázce, kdo lépe ovládá terminologii. Takové užití stojí na tom, co Hamblin vytkl
+učebnicovým seznamům: klam se v nich podává jako hotová nálepka, ne jako zdůvodněný posudek
+konkrétního argumentu (Hamblin 1970). Takový přesun popisuje kniha jako
 [tematickou diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md): pozornost se
 odvede od problematického jádra k něčemu, co je pro mluvčího snáze obhajitelné. Příbuzná je
 i taktika, kterou katalog popisuje jako
@@ -136,7 +138,8 @@ Věta „tvůj argument je vadný“ je následována větou „takže je to nep
 jakýkoli údaj o věci samé. Druhým znakem je, že kritik se zabývá jen nejslabším z uvedených
 argumentů a ostatní pomíjí; jeho postup se tak blíží útoku na slaměného panáka. Třetím znakem
 je hromadění názvů klamů namísto vysvětlení, v čem vada spočívá. Čtvrtým znakem je asymetrie:
-vlastní argumenty mluvčí touto přísností nezkoumá.
+vlastní argumenty mluvčí touto přísností nezkoumá, což odpovídá zjištění, že lidé hledají
+slabiny v cizích argumentech mnohem snáz než ve vlastních (Mercier a Sperber 2011).
 
 Zvláštní pozornost si zaslouží situace, kdy laik, pacient nebo oběť předkládá oprávněnou
 stížnost neobratně. Jeho argument může obsahovat chybu, například zobecnění z vlastní
@@ -153,7 +156,7 @@ ji hledat chtějí.
 Platnou reakcí na vadný argument je říci, že argument závěr nedokazuje, a ponechat otázku
 pravdivosti otevřenou nebo ji posoudit podle jiných podkladů. „Tvůj argument z jednoho
 měsíce nevyvozuje trend; to neznamená, že ceny nerostou, jen že z toho to neplyne“ je
-korektní kritika. Platné je také snížit důvěru v tvrzení, pokud byl vadný argument jediným
+korektní kritika, protože neplatný argument může mít pravdivý závěr (Copi, Cohen a McMahon 2014). Platné je také snížit důvěru v tvrzení, pokud byl vadný argument jediným
 důvodem, proč mu věřit: kdo tvrzení přijal jen kvůli tomuto argumentu, má po jeho
 vyvrácení důvod svůj souhlas pozastavit.
 
@@ -195,7 +198,9 @@ oponenta (van Eemeren a Grootendorst 2004).
 Kdo sám kritizuje cizí argumenty, se klamu vyhne, když svou kritiku formuluje jako výhradu k
 argumentu, ne jako vyvrácení tvrzení, a když se pokusí argument druhé strany zformulovat v
 nejsilnější podobě, kterou připouští. Tento postup katalog popisuje jako
-[ocelového panáka](@/kompendium/argumentacni-fauly/teorie-argumentace/ocelovy-panak.md).
+[ocelového panáka](@/kompendium/argumentacni-fauly/teorie-argumentace/ocelovy-panak.md); v
+zásadách intelektuálního chování ho Damer uvádí jako princip vstřícnosti, podle něhož se cizí
+argument má rekonstruovat v nejsilnější podobě (Damer 2009).
 Instituce, které přijímají stížnosti, mohou chránit lidi před důsledky klamu tím, že
 posuzují obsah stížnosti odděleně od kvality její argumentace. Obecnou obranou proti
 přesunům diskuse od věci k terminologii se kniha zabývá v části o
@@ -205,6 +210,7 @@ přesunům diskuse od věci k terminologii se kniha zabývá v části o
 
 - Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
+- Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.

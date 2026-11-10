@@ -149,7 +149,8 @@ svědectví a anekdoty místo kontrolovaného ověření (Lilienfeld, Lynn a Loh
 ## Legitimní a manipulativní užití
 
 Legitimní užití je úzké. Klinická hypnóza rychlé indukce s fyzickým přerušením
-nepotřebuje a většina klinických postupů stojí na pomalé a vysvětlené indukci se
+nepotřebuje, protože reakce na sugesce závisí víc na očekávání a ochotě spolupracovat než na
+druhu indukce (Kirsch a Lynn 1995), a většina klinických postupů stojí na pomalé a vysvětlené indukci se
 souhlasem pacienta. Výukově může mít smysl ukázka na odborném semináři o historii a
 psychologii hypnózy, pokud je předem ohlášená, účast je dobrovolná a výklad zdůrazní roli
 očekávání a společenského tlaku. I tehdy je fyzický kontakt bez předchozí dohody eticky

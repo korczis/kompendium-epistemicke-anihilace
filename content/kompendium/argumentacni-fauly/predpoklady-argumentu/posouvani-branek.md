@@ -39,7 +39,7 @@ catalog_related = ["zadny-pravy-skot", "zvlastni-vyjimka", "nefalzifikovatelnost
 catalog_related_declared = ["nefalzifikovatelnost", "zadny-pravy-skot", "zvlastni-vyjimka", "presun-dukazniho-bremene", "sealioning"]
 catalog_kompendium = ["kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md", "kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md", "kompendium/techniques/ea-2-3-9-sealioning-medialni.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md", "kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md", "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md", "kompendium/techniques/ea-2-3-9-sealioning-medialni.md", "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md"]
 catalog_prev = "nefalzifikovatelnost"
 catalog_next = "presun-dukazniho-bremene"
 catalog_position = 14
@@ -119,7 +119,9 @@ nechává na správné straně, ale stává se nesplnitelnou.
 
 Druhá podoba struktury mění místo kritéria jeho předmět. Strana B nepožaduje přísnější
 důkaz téhož, ale prohlásí, že spor byl celou dobu o něčem jiném: o úmyslu, o celkovém
-dojmu, o tom, zda je A „ten správný člověk“, aby věc tvrdil. Taková změna předmětu se blíží
+dojmu, o tom, zda je A „ten správný člověk“, aby věc tvrdil. [Pragma-dialektika](@/kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md) takový tah posuzuje
+podle pravidla, podle něhož se útok musí týkat stanoviska, které druhá strana skutečně předložila
+(van Eemeren a Grootendorst 2004). Taková změna předmětu se blíží
 [odvedení pozornosti](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) a v kombinaci s nevyvratitelnou formulací vede k tomu, co heslo
 [nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md)
 popisuje z opačné strany: tam si mluvčí chrání vlastní tvrzení, zde znemožňuje obhajobu

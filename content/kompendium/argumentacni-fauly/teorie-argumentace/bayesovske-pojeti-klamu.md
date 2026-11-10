@@ -155,7 +155,9 @@ manipulativní techniky pracují s tím, že posunou výchozí přesvědčení o
 tvrzením, že její vnímání je nespolehlivé, a pak každý nejednoznačný doklad vykládají jako
 potvrzení. Bayesovský pohled ukazuje, kde je chyba: nejednoznačný doklad, který by byl stejně
 pravděpodobný v obou případech, by přesvědčení neměl posouvat vůbec, a přesto se mu připisuje
-rozhodující váha. Kapitola [kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+rozhodující váha. V bayesovském rámci totiž o síle dokladu rozhoduje poměr jeho pravděpodobnosti za
+platnosti hypotézy a za její neplatnosti (Hahn a Oaksford 2007). Kapitola
+[kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
 probírá pravděpodobnostní modely mysli, ze kterých tento pohled vychází.
 
 ## Stav poznání

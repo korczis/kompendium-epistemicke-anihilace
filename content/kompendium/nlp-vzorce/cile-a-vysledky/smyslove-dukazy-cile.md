@@ -44,9 +44,9 @@ catalog_prev = "pozitivni-formulace-cile"
 catalog_next = "cil-pod-vlastni-kontrolou"
 catalog_position = 3
 catalog_family_size = 10
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "mcguire-1964", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "sharpley-1984", "sharpley-1987", "witkowski-2010", "wolpe-1958"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "mcguire-1964", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "popper-1959", "sharpley-1984", "sharpley-1987", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "oconnor-seymour-1990"]
-catalog_sources_roots = ["miller-galanter-pribram-1960"]
+catalog_sources_roots = ["miller-galanter-pribram-1960", "popper-1959"]
 catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "mcguire-1964", "sharpley-1984", "sharpley-1987", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -114,7 +114,9 @@ Strukturálně jde o přiřazení kritéria k cíli. Kritérium má tři vlastno
 jeho povaze. První je pozorovatelnost: zda je znakem něco, co lze zaznamenat, nebo jen
 celkový dojem. Druhá je autorství: kdo kritérium stanovil, zda člověk sám, nebo odborník,
 skupina či druhá strana vztahu. Třetí je vyvratitelnost: zda kritérium může ukázat i
-neúspěch, nebo je nastaveno tak, že každý vývoj se dá vyložit jako potvrzení. Legitimní
+neúspěch, nebo je nastaveno tak, že každý vývoj se dá vyložit jako potvrzení. Pojem je převzat
+z filozofie vědy, kde odlišuje tvrzení, která může zkušenost vyvrátit, od tvrzení, s nimiž je
+slučitelný jakýkoli výsledek (Popper 1959). Legitimní
 kritérium je pozorovatelné, vlastní a vyvratitelné. Manipulativní kritérium bývá stanoveno
 zvenčí a nastaveno tak, že jej nelze nesplnit, nebo naopak tak, že jej nelze splnit nikdy.
 
@@ -206,6 +208,7 @@ měřítek a o postupné vracení důvěry ve vlastní pozorování; v tomto bez
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.

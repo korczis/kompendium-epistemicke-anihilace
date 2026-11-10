@@ -23,7 +23,7 @@ catalog_en = "Belief patterns"
 catalog_size = 14
 catalog_members = ["cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "beznadej-bezmoc-nehodnost", "retezeni-presvedceni", "kartezske-otazky", "myslenkovy-virus", "presvedceni-a-zdravi", "presvedceni-jako-mapa", "imprint"]
 catalog_types = ["concept", "pattern", "principle"]
-catalog_sources = ["bandler-1985", "bandler-grinder-1975", "bateson-1972", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources = ["bandler-1985", "bandler-grinder-1975", "bateson-1972", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "popper-1959", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Přesvědčení
@@ -61,7 +61,8 @@ do [historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) a 
 s člověkem, detekční znaky ukazují, podle čeho se pozná nátlaková podoba, a závěrečné oddíly
 rozlišují legitimní a manipulativní užití, shrnují stav důkazů a popisují obranu a
 zotavení. Hesla nepopisují postupy, jak měnit přesvědčení druhých lidí; popisují, jak takové
-pokusy rozpoznat a jak se jim bránit.
+pokusy rozpoznat a jak se jim bránit; rámec vysvětluje oddíl
+[jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Původ
 
@@ -90,7 +91,7 @@ metafor a postupů, nikoli nová zjištění.
 Přesvědčení jsou místem, kde se rozhoduje o autonomii člověka. Kdo dokáže určit, která
 přesvědčení jsou „limitující“, co co způsobuje, co co znamená a kým člověk je, získává
 vliv na jeho úsudek, vztahy i rozhodnutí. Proto mají všechna hesla rodiny dvojí tvář. V
-terapii a poradenství mohou pomoci člověku přezkoumat přesvědčení, která mu škodí, za
+terapii a poradenství mohou pomoci člověku přezkoumat přesvědčení, která mu škodí (Beck 1976), za
 předpokladu, že cíl změny určuje on sám. V prodejních, motivačních a uzavřených skupinových
 prostředích tytéž pojmy a modely slouží k tomu, aby se námitky, pochybnosti a vlastní
 zkušenost člověka vyřadily z rozhovoru dřív, než se posoudí jejich obsah.
@@ -117,7 +118,9 @@ vystavuje riziku.
 
 Třetím defenzivním hlediskem je nevyvratitelnost. Mnohá tvrzení této části NLP jsou
 formulována tak, že každý výsledek je potvrzuje: pokud změna nastane, technika fungovala;
-pokud nenastane, klient má další, hlubší přesvědčení, které je třeba odstranit. Tento obrat
+pokud nenastane, klient má další, hlubší přesvědčení, které je třeba odstranit. Tvrzení,
+které připouští každý výsledek, nelze podle Popperova kritéria empiricky testovat (Popper
+1959). Tento obrat
 kompendium obecně popisuje v hesle o
 [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 V oblasti zdraví může být nebezpečný, protože přenáší odpovědnost za průběh nemoci na
@@ -255,6 +258,7 @@ flowchart LR
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.

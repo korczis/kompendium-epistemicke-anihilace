@@ -44,8 +44,8 @@ catalog_prev = "ztraceny-performativ-milton"
 catalog_next = "komplexni-ekvivalence-milton"
 catalog_position = 18
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "levinson-1983", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "copi-cohen-mcmahon-2014", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "levinson-1983", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "copi-cohen-mcmahon-2014"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
 catalog_sources_critical = ["herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -116,7 +116,7 @@ sám.
 
 Vzorec má tři prvky. Prvním je ověřitelná výpověď, nejčastěji popis toho, co posluchač
 právě dělá, vidí nebo slyší, nebo obecně přijímaná pravda. Druhým je spojovací prvek, jehož
-síla určuje stupeň vzorce: souřadicí spojka, časová spojka, nebo výslovné příčinné sloveso.
+síla určuje stupeň vzorce: souřadicí spojka, časová spojka, nebo výslovné příčinné sloveso (Bandler a Grinder 1975b).
 Třetím je neověřitelná výpověď, která nese sdělení mluvčího: pocit, rozhodnutí, závěr nebo
 hodnocení. Klíčová je asymetrie: první část je pravdivá a posluchač ji potvrdí, druhá je
 nová, ale díky spojení přebírá část důvěryhodnosti té první.
@@ -135,8 +135,7 @@ mluvčího druhému člověku.
 
 Prvním znakem je řetěz pravdivých a triviálních popisů, na jehož konci stojí tvrzení jiného
 druhu, nejčastěji hodnotící nebo vyzývající. Druhým znakem je časová spojka tam, kde by se
-slušelo zdůvodnění: „zatímco o tom přemýšlíte, začíná vám být jasné…“ naznačuje vztah, který
-není vysvětlen. Třetím znakem je neúměrnost: drobná, ověřitelná okolnost (sedíte, posloucháte,
+slušelo zdůvodnění: „zatímco o tom přemýšlíte, začíná vám být jasné…“ naznačuje vztah, který není vysvětlen; vyvozovat příčinu z pouhé následnosti je klasický klam post hoc (Copi, Cohen a McMahon 2014). Třetím znakem je neúměrnost: drobná, ověřitelná okolnost (sedíte, posloucháte,
 čtete) je spojena s velkým závěrem (rozhodnutí o investici, o setrvání ve skupině, o změně
 života). Čtvrtým znakem je opakování: v nátlakové řeči se spojení vracejí v pravidelném
 rytmu a tvoří to, co Milton-model nazývá řetězením sugescí. Pátým znakem je reakce na
@@ -204,6 +203,7 @@ podstatným krokem k obnově vlastní hodnoty (Herman 1992).
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

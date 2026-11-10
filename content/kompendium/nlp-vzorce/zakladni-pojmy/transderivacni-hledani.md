@@ -123,8 +123,8 @@ nominalizacích v Milton-modelu.
 
 Podstatná je asymetrie, kterou tato struktura vytváří. Mluvčí neřekl nic, co by šlo vyvrátit,
 protože neřekl nic konkrétního. Posluchač přitom prožívá sdělení jako osobně trefné, protože
-obsah pochází z jeho vlastního života. Pokud se později ukáže, že sdělení nebylo pravdivé,
-mluvčí může odpovědět, že nic takového netvrdil, a má pravdu. Vágní řeč tak přenáší
+obsah pochází z jeho vlastního života (Bandler a Grinder 1975b). Pokud se později ukáže, že sdělení nebylo pravdivé,
+mluvčí může odpovědět, že nic takového netvrdil, a má pravdu; teorie konverzace popisuje, že to, co bylo jen naznačeno, může mluvčí na rozdíl od řečeného popřít (Grice 1975). Vágní řeč tak přenáší
 odpovědnost za obsah na posluchače, zatímco vliv zůstává mluvčímu. Tato asymetrie je důvodem,
 proč je mechanismus tak účinný v náboru do skupin, v prodeji i v ezoterních výkladech.
 

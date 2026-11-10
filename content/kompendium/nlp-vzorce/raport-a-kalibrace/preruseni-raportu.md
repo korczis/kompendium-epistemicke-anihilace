@@ -110,7 +110,7 @@ se podobný efekt využívá k vyvolání krátkého zmatení, zde jde o signál
 Strukturálně má vzorec dvě podoby. První je jednorázové ukončení: mluvčí v určitém okamžiku
 přestane sladění udržovat, rozhovor tím ztrácí plynulost a obě strany ho ukončí. Tato podoba
 je ve všedním styku běžná a lidé ji používají bez znalosti NLP, když se otočí ke dveřím nebo
-se podívají na hodinky. Druhá podoba je opakovaná a podmíněná. Mluvčí raport střídavě
+se podívají na hodinky (O'Connor a Seymour 1990). Druhá podoba je opakovaná a podmíněná. Mluvčí raport střídavě
 nabízí a odnímá a odnímání spojuje s konkrétním chováním druhého, typicky s námitkou,
 nesouhlasem nebo projevem samostatnosti. Druhý pak zažívá cyklus, ve kterém blízkost
 přichází jako odměna za vstřícnost a chlad jako odpověď na vlastní názor.
@@ -149,7 +149,8 @@ tím dále oslabuje.
 Legitimní přerušení raportu chrání hranice. Člověk, který se nechce dál nechat strhávat
 cizím rozrušením, má právo se z něj vyvázat, a terapeut, který přestane následovat klientovo
 zrychlené tempo, může rozhovor zpomalit a zklidnit. Rovněž ukončení rozhovoru, který se
-protahuje, je běžnou a zdvořilou součástí společenského styku. Legitimní užití má tři rysy:
+protahuje, je běžnou a zdvořilou součástí společenského styku a tréninková literatura ji uvádí jako
+užitečnou dovednost (O'Connor a Seymour 1990). Legitimní užití má tři rysy:
 je jednorázové nebo zjevně vázané na situaci, není podmíněné poslušností a druhá strana z
 něj vyčte, co se děje, nebo se to dozví slovy.
 

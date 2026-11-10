@@ -113,7 +113,7 @@ a [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-oso
 
 ## Struktura vzorce
 
-Kontrafaktuální podmínka má tři vrstvy. První je předpoklad, že se něco nestalo; ten je
+Kontrafaktuální podmínka má tři vrstvy. První je předpoklad, že se něco nestalo (Levinson 1983); ten je
 obvykle pravdivý, a proto nevyvolává odpor. Druhá je příčinná vazba mezi tím, co se
 nestalo, a tím, co následovalo; ta je nejčastěji sporná, ale protože je zabalena do podoby
 podmínky, nepůsobí jako tvrzení, které je třeba dokládat. Třetí vrstva je implicitní
@@ -178,7 +178,8 @@ Manipulativní užití používá kontrafaktuál k přisouzení viny nebo dluhu 
 příčinná souvislost sporná, a k uzavření společné minulosti do jediného výkladu. Objevuje
 se v partnerských konfliktech, v rodinných vyprávěních, v nichž se jeden člen stane
 příčinou všech potíží, a v institucích, kde se odpovědnost za kolektivní rozhodnutí zpětně
-přesune na jednotlivce. Souvislost se sebeobviňováním a s pocitem bezmoci popisuje heslo
+přesune na jednotlivce. Souvislost se sebeobviňováním, které u lidí vystavených dlouhodobé kontrole popisuje klinická
+literatura (Herman 1992), a s pocitem bezmoci popisuje heslo
 [Beznaděj, bezmoc a pocit bezcennosti](@/kompendium/nlp-vzorce/presvedceni/beznadej-bezmoc-nehodnost.md)
 a technika [pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md).
 

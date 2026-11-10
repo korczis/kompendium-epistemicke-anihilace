@@ -166,8 +166,9 @@ politických sporech nebo v online diskusi, je stále předmětem výzkumu.
 ## Vztah k technikám kompendia
 
 Argumentační teorie uvažování pomáhá porozumět tomu, proč jsou uzavřené skupiny a vztahy, které
-kompendium popisuje, tak účinné v udržování přesvědčení. Pokud uvažování funguje dobře hlavně
-ve výměně mezi lidmi různého názoru, pak prostředí, které takovou výměnu znemožní, nevypíná jen
+kompendium popisuje, tak účinné v udržování přesvědčení. Pokud uvažování funguje dobře hlavně ve
+výměně mezi lidmi různého názoru (Mercier a Sperber 2011), pak prostředí, které takovou výměnu
+znemožní, nevypíná jen
 přísun informací, ale i opravný mechanismus rozumu. Izolace od kritiků, zákaz pochybností a
 odměňování souhlasu vedou k tomu, že člověk dál uvažuje, ale jen v roli obhájce, nikdy v roli
 posuzovatele. Kapitola [Kahneman: systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)

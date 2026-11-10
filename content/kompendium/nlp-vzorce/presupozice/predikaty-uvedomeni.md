@@ -113,7 +113,8 @@ obojí spojuje: předpokládá pravdivost obsahu a zároveň tvrdí, že adresá
 
 Vzorec má dvě části: predikát, který se týká mysli adresáta, a obsah, jehož pravdivost se
 předpokládá. Pozornost rozhovoru se upírá na predikát, tedy na to, zda adresát ví, vidí nebo
-chápe. Obsah zůstává mimo diskusi. Pro adresáta se tím mění volba odpovědí. Kdo chce
+chápe. Obsah zůstává mimo diskusi, protože předpoklad faktivního slovesa přetrvává v otázce
+i pod záporem (Levinson 1983). Pro adresáta se tím mění volba odpovědí. Kdo chce
 odmítnout obsah, musí nejprve odmítnout rámec otázky, což v rozhovoru působí jako vyhýbání
 se odpovědi. Kdo odpoví v rámci otázky, potvrzuje obsah. Vzniká tak výpověď, ve které je
 nesouhlas převeden na nedostatek: kdo s tvrzením nesouhlasí, „ještě si to neuvědomil“.
@@ -130,7 +131,8 @@ jednotlivém rozhovoru vytváří.
 
 Vzorec se vyskytuje ve třech hlavních podobách. První je otázka na uvědomění („uvědomuješ
 si, že…?“, „všiml sis, že…?“), která ponechává adresátovi jen volbu, zda předpoklad přizná s
-pochopením, nebo bez něj. Druhá je tvrzení o vědění adresáta („sám dobře víš, že…“, „oba víme,
+pochopením, nebo bez něj; otázky tohoto typu uvádí i přehled Milton-modelu (Bandler a
+Grinder 1975b). Druhá je tvrzení o vědění adresáta („sám dobře víš, že…“, „oba víme,
 že…“), které obsah předkládá jako společné tajemství a nesouhlas staví do role nepoctivosti.
 Třetí je budoucí uvědomění („jednou pochopíš, že…“, „časem uvidíš, že…“), které kombinuje
 faktivní sloveso s [časovou větou](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md)
@@ -165,7 +167,8 @@ by to bylo vyloženo jako odpor.
 
 Manipulativní užití staví do pozice předpokladu hodnocení adresáta, tvrzení o jeho závislosti
 nebo o postoji jiných lidí k němu. Je typické v kontrolujících vztazích („sám víš, že bez
-mě…“), v uzavřených skupinách („každý, kdo je upřímný, vidí, že…“) a v nátlakových
+mě…“), v uzavřených skupinách („každý, kdo je upřímný, vidí, že…“), kde se nesouhlas vykládá jako
+chyba člověka, ne doktríny (Lifton 1961), a v nátlakových
 rozhovorech na pracovišti. Jeho společným rysem je, že mluvčí si přisvojuje přístup k pravdě
 i k mysli adresáta a adresátovi zbývá jen přiznat, že pravdu zná.
 

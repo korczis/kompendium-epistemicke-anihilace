@@ -23,7 +23,7 @@ catalog_en = "Causal fallacies"
 catalog_size = 9
 catalog_members = ["post-hoc", "korelace-a-kauzalita", "jedina-pricina", "obracena-kauzalita", "prehlizena-spolecna-pricina", "texasky-strelec", "klam-regrese", "zjednodusena-kauzalita", "magicke-mysleni"]
 catalog_types = ["concept", "informal"]
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cook-lewandowsky-ecker-2017", "gilovich-1991", "herman-1992", "huff-1954", "kahneman-2011", "kunda-1990", "lifton-1961", "lilienfeld-2015", "mercier-sperber-2011", "mill-1843", "popper-1959", "robinson-1950", "simpson-1951", "tversky-kahneman-1974", "watzlawick-1967", "whately-1826"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cook-lewandowsky-ecker-2017", "damer-2009", "gilovich-1991", "herman-1992", "huff-1954", "kahneman-2011", "kunda-1990", "lifton-1961", "lilienfeld-2015", "mercier-sperber-2011", "mill-1843", "popper-1959", "robinson-1950", "simpson-1951", "tversky-kahneman-1974", "watzlawick-1967", "whately-1826"]
 +++
 
 # Kauzální klamy
@@ -36,7 +36,8 @@ to stalo“ provází téměř každé rozhodnutí: o léčbě, o vině, o polit
 důvěřovat. Příčinné tvrzení má navíc praktickou sílu, kterou jiná tvrzení nemají. Kdo určí
 příčinu, určuje také, co je třeba změnit a kdo nese odpovědnost. Proto se kauzální klamy
 vyskytují jak jako poctivé omyly, tak jako nástroje vlivu, a rodina je v katalogu zařazena
-samostatně.
+samostatně. Také učebnice neformální logiky vedou kauzální klamy jako samostatnou skupinu chyb
+usuzování (Damer 2009).
 
 Hesla rodiny lze uspořádat do tří okruhů. První okruh tvoří klamy, které zaměňují souvislost s
 působením. Klam [po tom, tedy kvůli tomu](@/kompendium/argumentacni-fauly/kauzalni/post-hoc.md)
@@ -49,7 +50,8 @@ příčina](@/kompendium/argumentacni-fauly/kauzalni/prehlizena-spolecna-pricina
 okolnost, která působí na oba jevy. Druhý okruh tvoří klamy, které zaměňují náhodu s příčinou.
 [Texaský střelec](@/kompendium/argumentacni-fauly/kauzalni/texasky-strelec.md) vybírá shluk až po
 pohledu na data a [klam regrese](@/kompendium/argumentacni-fauly/kauzalni/klam-regrese.md)
-připisuje zásahu návrat extrémních hodnot k průměru. Třetí okruh tvoří klamy, které zkreslují
+připisuje zásahu návrat extrémních hodnot k průměru (Tversky a Kahneman 1974). Třetí okruh tvoří
+klamy, které zkreslují
 stavbu příčinného vysvětlení. [Jediná
 příčina](@/kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md) stahuje vysvětlení do
 jednoho bodu, [zjednodušená
@@ -222,6 +224,7 @@ flowchart LR
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
+- Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Huff, D. (1954). *How to Lie with Statistics*. New York: W. W. Norton.

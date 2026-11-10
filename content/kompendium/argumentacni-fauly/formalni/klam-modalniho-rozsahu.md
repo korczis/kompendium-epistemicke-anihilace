@@ -39,13 +39,13 @@ catalog_related = ["zamena-kvantifikatoru", "klam-maskovaneho-muze", "magicke-my
 catalog_related_declared = ["modalni-operator-nutnosti", "modalni-operator-moznosti", "zamena-kvantifikatoru", "rozsahova-dvojznacnost", "magicke-mysleni"]
 catalog_kompendium = ["kompendium/techniques/ea-5-1-11-modalni-dezorientace.md", "kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/modalni-logika.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md"]
+catalog_links_prose = ["glossary/modalni-logika.md", "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md", "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md"]
 catalog_prev = "zamena-kvantifikatoru"
 catalog_next = "klam-maskovaneho-muze"
 catalog_position = 12
 catalog_family_size = 14
-catalog_sources = ["beck-1976", "ellis-1962", "hamblin-1970", "herman-1992", "kahneman-2011", "walton-2008", "eemeren-grootendorst-1992"]
-catalog_sources_primary = ["hamblin-1970", "walton-2008", "eemeren-grootendorst-1992"]
+catalog_sources = ["bandler-grinder-1975", "beck-1976", "copi-cohen-mcmahon-2014", "ellis-1962", "hamblin-1970", "herman-1992", "kahneman-2011", "walton-2008", "eemeren-grootendorst-1992"]
+catalog_sources_primary = ["bandler-grinder-1975", "copi-cohen-mcmahon-2014", "hamblin-1970", "walton-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "kahneman-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
@@ -84,7 +84,8 @@ se vztahuje na celé podmíněné spojení, nebo jen na jeho druhou část. Stř
 rozlišení užívala dvojici nutnost důsledku a nutnost následku: necessitas consequentiae a
 necessitas consequentis. Klasický příklad zní: nutně platí, že je-li někdo ženatý, má
 manželku; z toho však neplyne, že ženatý člověk má manželku nutně, jako by nemohl být
-svobodný.
+svobodný. Jde o formální vadu v tom smyslu, v jakém ji vymezují učebnice logiky: neplatnost
+plyne ze tvaru úsudku, ne z jeho obsahu (Copi, Cohen a McMahon 2014).
 
 Pro kompendium je klam důležitý proto, že vytváří dojem nevyhnutelnosti. Kdo ho přijme,
 slyší „nemohlo to být jinak“ tam, kde pravdivě zaznělo jen „pokud se stalo tohle, stalo se i
@@ -112,7 +113,9 @@ Moderní [modální logika](@/glossary/modalni-logika.md) rozsah zachycuje symbo
 různé formule s různými podmínkami pravdivosti. Mimo formální logiku je třeba
 počítat s tím, že slova jako „musí“ a „nemůže“ nesou v rozhovoru různé druhy nutnosti:
 logickou, fyzickou, normativní i pouhou subjektivní jistotu mluvčího. Zaměnit tyto druhy je
-stejně snadné jako zaměnit rozsah, a obě záměny se v praxi často spojují.
+stejně snadné jako zaměnit rozsah, a obě záměny se v praxi často spojují. Zvláště „musím“ a
+„nesmí se stát“ často nevyjadřují nutnost ve světě, ale absolutistický požadavek mluvčího,
+jak ukázala klinická práce s iracionálními přesvědčeními (Ellis 1962).
 
 ## Struktura argumentu
 
@@ -132,13 +135,15 @@ se tu přenáší na samotnou událost. Normativní: „Když jsi souhlasila, mu
 konce“, kde se nutnost podmíněného vztahu (souhlas zavazuje) zaměňuje za neodvolatelnost
 závazku za všech okolností. S jazykovými prostředky nutnosti pracuje i katalog NLP v hesle o
 [modálním operátoru nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md),
-které se ptá, co by se stalo, kdyby „musím“ neplatilo.
+které se ptá, co by se stalo, kdyby „musím“ neplatilo; [meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) tuto otázku zavedl pro
+modální operátory, které vymezují hranice mluvčího modelu světa (Bandler a Grinder 1975).
 
 ## Detekční znaky
 
 Prvním znakem je slovo nutnosti připojené k jednotlivé události nebo k jednomu tvrzení
 mluvčího („muselo se to stát“, „nemůže to být jinak“, „nevyhnutelně“), ačkoli argument
-dokládá jen podmíněné spojení. Druhým znakem je funkce v rozhovoru: nutnost ukončuje
+dokládá jen podmíněné spojení; zpětně se taková věta vnucuje snadno, protože známý výsledek
+se po události jeví jako předvídatelný (Kahneman 2011). Druhým znakem je funkce v rozhovoru: nutnost ukončuje
 diskusi, a to právě ve chvíli, kdy by bylo na místě ptát se po alternativách. Třetím znakem
 je asymetrie. Nutnost se přisuzuje tomu, co mluvčímu vyhovuje (jeho výkladu, jeho rozhodnutí,
 výsledku, který si přál), kdežto tvrzení druhé strany zůstávají „jen možná“.
@@ -161,7 +166,9 @@ mlčí; kdyby byla jiná, účinek by nenastal. Úsudek „nutně B“ je opráv
 nutné i A, například když jde o logickou pravdu nebo o fyzikální zákon, který nelze obejít.
 Za platné nelze považovat ani opačné přehánění: z toho, že něco nebylo nutné, neplyne, že to
 bylo snadné odvrátit nebo že za to někdo nese vinu. Klam modálního rozsahu má i tuto
-zrcadlovou podobu, kdy se z kontingence vyvozuje odpovědnost.
+zrcadlovou podobu, kdy se z kontingence vyvozuje odpovědnost. Zpětný pohled k ní svádí,
+protože rozhodnutí se posuzuje podle výsledku, který v době rozhodování nebyl znám (Kahneman
+2011).
 
 Rozumné je i běžné užití slov „musí“ a „nemůže“ jako výrazů silné jistoty nebo pravidla,
 pokud je zřejmé, o jaký druh nutnosti jde. Neformální logika připomíná, že posouzení závisí
@@ -199,7 +206,9 @@ zabývá v kapitole o
 
 ## Literatura
 
+- Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Ellis, A. (1962). *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart.
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

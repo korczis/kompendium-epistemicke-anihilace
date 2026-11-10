@@ -116,7 +116,8 @@ obrácenou podobu popisuje heslo
 ## Struktura vzorce
 
 Strukturálně je univerzální kvantifikátor výrok o celé třídě případů, který se opírá o
-několik z nich. Má tři rysy. Prvním je ztráta výjimek: jakmile je něco „vždycky“, výjimka
+několik z nich; kognitivní terapie tento krok popisuje jako přehnané zobecnění (Beck 1976).
+Má tři rysy. Prvním je ztráta výjimek: jakmile je něco „vždycky“, výjimka
 se buď nevšimne, nebo se vyloží jako náhoda, která pravidlo potvrzuje. Druhým je přesun z
 jednání na podstatu: věta „nikdy nic nedotáhneš“ už nemluví o konkrétní nedokončené věci,
 ale o povaze člověka. Třetím je uzavření budoucnosti: univerzální výrok o minulosti se tiše

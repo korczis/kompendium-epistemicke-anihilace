@@ -125,7 +125,9 @@ Pozorovatel by měl vidět, že ve sluchovém kanálu je otázka, čí je žádo
 citlivější než u obrazů. Pokud si klidnější tón vnitřní řeči vytváří člověk sám, jde o jeho
 vlastní strategii zvládání. Pokud se má žádoucím hlasem stát hlas konkrétní osoby, například
 terapeuta, kouče nebo vůdce, vkládá se do vnitřní řeči člověka cizí autorita, která pak hodnotí
-a rozhoduje zevnitř. Druhým citlivým místem je spouštěcí hlas. Varianta nerozlišuje mezi
+a rozhoduje zevnitř. Literatura o myšlenkové reformě popisuje, jak si člověk osvojí měřítka
+skupiny a začne jimi sám sebe posuzovat (Lifton 1961). Druhým citlivým místem je spouštěcí
+hlas. Varianta nerozlišuje mezi
 nepřiměřenou sebekritikou a oprávněným varováním: obojí je jen zvuk se svými kvalitami. Kdo
 rozhoduje, který hlas je „nežádoucí“, rozhoduje i o tom, který vnitřní korektiv se oslabí.
 Kompendium popisuje vnější podobu ovládání posluchače hlasem, intonací a tempem, jako

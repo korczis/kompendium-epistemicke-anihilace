@@ -115,7 +115,7 @@ neurčitost, protože posluchač si je naplní vlastním obsahem (Bandler a Grin
 Strukturálně má nominalizace tři vlastnosti, které je dobré rozlišovat. Za prvé mizí
 aktéři: ve větě „rozhodnutí padlo“ není řečeno, kdo rozhodl, a ve větě „došlo ke ztrátě
 důvěry“ není řečeno, kdo komu přestal věřit a proč. Za druhé mizí čas a průběh: děj, který
-probíhá a mohl by probíhat jinak, se podává jako uzavřený stav. Za třetí vzniká zdání
+probíhá a mohl by probíhat jinak, se podává jako uzavřený stav (Bandler a Grinder 1975). Za třetí vzniká zdání
 věcnosti a objektivity: podstatné jméno vypadá jako název pozorovatelné skutečnosti, i když
 označuje výklad. Tyto tři vlastnosti se mohou spojit s dalšími kategoriemi meta-modelu.
 Nominalizace se často pojí se

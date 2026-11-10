@@ -116,7 +116,7 @@ neutralizuje a že výsledek trvá.
 
 Strukturálně má vzorec dva kotvené stavy, jejich souběžné spuštění a tvrzený výsledek. NLP
 klade důraz na to, aby byl žádoucí stav silnější než nepříjemný, protože jinak by podle
-oboru převážil nepříjemný a výsledek by byl horší než výchozí stav. Po spuštění se podle
+oboru převážil nepříjemný a výsledek by byl horší než výchozí stav (Bandler a Grinder 1979). Po spuštění se podle
 popisu objeví přechodný zmatek, střídání výrazů a nakonec uvolnění, které praktik vykládá
 jako znak integrace. Výsledek se pak ověřuje tím, že se spustí samotná kotva nepříjemného
 stavu a sleduje se, zda reakce zeslábla, což katalog popisuje v hesle

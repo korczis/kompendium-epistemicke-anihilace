@@ -137,7 +137,8 @@ vyhraněnější než původní sdělení (Gilovich 1991). U veřejně činných
 tím, že se musí opakovaně distancovat od názorů, které nikdy nevyslovili.
 
 Při posuzování konkrétního případu je užitečné porovnat tři texty: původní výrok, jeho
-shrnutí kritikem a vyvrácení. Mezi prvním a druhým se hledají vypuštěné podmínky, přidaná
+shrnutí kritikem a vyvrácení, protože rozpoznání klamu vyžaduje znát původní stanovisko v
+jeho vlastním znění (Johnson a Blair 1977). Mezi prvním a druhým se hledají vypuštěné podmínky, přidaná
 zobecnění, posunutý rozsah a změněná slovesa, například „zvážit“ přepsané na „prosadit“.
 Mezi druhým a třetím se ověřuje, zda vyvrácení míří na shrnutí, nebo na něco, co z něj
 plyne. Pokud vyvrácení obstojí jen proti shrnutí a proti původnímu výroku nikoli, jde o
@@ -154,7 +155,9 @@ výklady svých slov, ztrácí čas i jistotu a nakonec raději přestane mluvit
 prostředí se klam spojuje s těžbou citátů a s kolapsem kontextu, kdy se z delšího výroku
 vybere věta, která izolovaně zní jinak. V partnerských konfliktech se projevuje
 opakovaným připisováním úmyslů, které druhá strana popírá, takže rozhovor o konkrétním
-problému se mění v obhajobu proti obvinění. Zvláštní příbuznou taktikou je
+problému se mění v obhajobu proti obvinění. Druhá strana tak musí hájit stanovisko, které
+nezaujala, a právě to zakazuje pravidlo stanoviska kritické diskuse (van Eemeren a
+Grootendorst 1992). Zvláštní příbuznou taktikou je
 [motte-and-bailey](@/glossary/motte-and-bailey.md), v níž mluvčí sám střídá silnou a slabou
 podobu vlastního stanoviska; slaměný panák se týká stanoviska druhého, motte-and-bailey
 stanoviska vlastního. Obě taktiky spojuje práce s mezerou mezi tím, co bylo řečeno, a tím,

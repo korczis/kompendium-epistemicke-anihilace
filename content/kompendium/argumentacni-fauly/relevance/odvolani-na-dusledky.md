@@ -44,10 +44,10 @@ catalog_prev = "odvolani-na-prirozenost"
 catalog_next = "cerveny-sled"
 catalog_position = 18
 catalog_family_size = 28
-catalog_sources = ["gilovich-1991", "hahn-oaksford-2007", "hamblin-1970", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "toulmin-1958", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
+catalog_sources = ["gilovich-1991", "hahn-oaksford-2007", "hamblin-1970", "herman-1992", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "toulmin-1958", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["hamblin-1970", "toulmin-1958", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = []
-catalog_sources_critical = ["gilovich-1991", "hahn-oaksford-2007", "kunda-1990", "mercier-sperber-2011", "nickerson-1998"]
+catalog_sources_critical = ["gilovich-1991", "hahn-oaksford-2007", "herman-1992", "kunda-1990", "mercier-sperber-2011", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -145,7 +145,9 @@ poškozený stává hrozbou pro instituci a jeho výpověď se zpochybňuje kvů
 způsobila. Kompendium tyto mechanismy rozebírá v kapitole o
 [sociální epistemologii](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md),
 kde se ukazuje, jak zájem skupiny ovlivňuje, čí svědectví se přijímá. V rodinách se klam
-projevuje jako odmítání pravdy o zneužití, protože by „rozbila rodinu“. V politice se
+projevuje jako odmítání pravdy o zneužití, protože by „rozbila rodinu“; klinická literatura
+o traumatu popisuje, jak okolí i rodina raději popřou výpověď oběti, než aby čelily jejím
+důsledkům (Herman 1992). V politice se
 nepohodlná data odmítají, protože by „nahrála nepříteli“. Ve všech případech platí, že
 cenu za klam neplatí ten, kdo ho používá, ale ten, jehož zkušenost se kvůli důsledkům
 neuzná. Politickou podobu tohoto mechanismu sleduje kapitola o
@@ -202,6 +204,7 @@ poškozených, je třeba trvat na tom, aby se jejich výpověď posoudila podle 
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.

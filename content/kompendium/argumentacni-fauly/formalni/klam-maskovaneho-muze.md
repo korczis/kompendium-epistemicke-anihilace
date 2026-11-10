@@ -44,10 +44,10 @@ catalog_prev = "klam-modalniho-rozsahu"
 catalog_next = "klam-klamu"
 catalog_position = 13
 catalog_family_size = 14
-catalog_sources = ["herman-1992", "kahneman-2011", "korzybski-1933", "loftus-palmer-1974", "tversky-kahneman-1981", "walton-2008", "eemeren-grootendorst-1992"]
-catalog_sources_primary = ["walton-2008", "eemeren-grootendorst-1992"]
+catalog_sources = ["copi-cohen-mcmahon-2014", "hamblin-1970", "herman-1992", "kahneman-2011", "korzybski-1933", "kunda-1990", "loftus-palmer-1974", "tversky-kahneman-1981", "walton-2008", "eemeren-grootendorst-1992"]
+catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "walton-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["korzybski-1933"]
-catalog_sources_critical = ["herman-1992", "kahneman-2011", "loftus-palmer-1974", "tversky-kahneman-1981"]
+catalog_sources_critical = ["herman-1992", "kahneman-2011", "kunda-1990", "loftus-palmer-1974", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -89,7 +89,9 @@ obsahuje krok, který platný není, ačkoli se opírá o platný princip (van E
 Grootendorst 1992). Proto je klam přesvědčivý. Kdo ho slyší, rozpozná správnost principu a
 přehlédne, že byl použit na nesprávný druh vlastnosti.
 
-Klam patří do rodiny formálních klamů, protože jeho neplatnost nezávisí na obsahu: kdykoli
+Klam patří do rodiny formálních klamů ve smyslu, v jakém učebnice logiky formální klam
+vymezují: vada leží ve tvaru úsudku, ne v obsahu premis (Copi, Cohen a McMahon 2014). Jeho neplatnost
+nezávisí na obsahu: kdykoli
 se do úsudku o totožnosti dosadí sloveso vědění, víry, poznání, strachu nebo přání,
 přestává zákon totožnosti fungovat tak, jak by fungoval u vlastností jako výška nebo místo
 pobytu. Pro kompendium je důležitý zejména ve forenzní praxi, kde se rozhoduje, kdo je kdo,
@@ -104,7 +106,9 @@ Leibnize jako nerozlišitelnost totožného. Gottlob Frege na konci devatenáct�
 vysvětlil, proč selhává: výrazy „Jitřenka“ a „Večernice“ označují tutéž planetu, ale mají
 různý smysl, takže věta „starověcí astronomové věděli, že Jitřenka je Večernice“ nebyla
 pravdivá, ačkoli věta „Jitřenka je Jitřenka“ pravdivá byla. Ve dvacátém století pro takové
-kontexty zavedl W. V. O. Quine označení referenčně neprůhledné.
+kontexty zavedl W. V. O. Quine označení referenčně neprůhledné. Kořeny ustáleného výkladu
+klamů sahají k Aristotelovu rozboru sofistických vyvrácení, tedy k prostředí sporů, v němž se
+takové hádanky předváděly (Hamblin 1970).
 
 Z ověřené literatury se k jádru klamu nejvíce blíží obecná sémantika. Korzybski upozorňoval,
 že slovo není věc, kterou označuje, a že zaměňování jména a popisu s věcí samou je zdrojem
@@ -118,7 +122,9 @@ tedy osobě samé. Kompendium tuto souvislost rozvádí v hesle
 Platný tvar zákona totožnosti zní: A má vlastnost F; B vlastnost F nemá; tedy A není B. Klam
 vzniká, když na místo F dosadíme vlastnost, která ve skutečnosti obsahuje postoj nějakého
 subjektu: „svědkyně ví, že je to násilník“, „vedení věří, že je to důvěryhodný člověk“,
-„oběť poznává jeho hlas“. Takové výrazy jsou citlivé na popis. Vedení může věřit, že kolega,
+„oběť poznává jeho hlas“. Takové výrazy jsou citlivé na popis; že postoje lidí k téže věci
+závisejí na popisu, pod nímž je jim předložena, dokládá i výzkum rámcování (Tversky a
+Kahneman 1981). Vedení může věřit, že kolega,
 kterého zná dvacet let, je důvěryhodný, a zároveň nevěřit, že je důvěryhodný člověk popsaný
 ve stížnosti, aniž by tušilo, že jde o téhož člověka. Z rozdílu postojů tedy neplyne rozdíl
 osob.
@@ -140,7 +146,8 @@ víře nebo uznání, ne ve vlastnostech osoby: „my ho známe“, „ona by ho
 by to do něj neřekl“. Druhým znakem je, že úsudek končí vyloučením totožnosti, které má
 praktické následky, například zastavení šetření nebo odmítnutí výpovědi. Třetím znakem je
 emoční nebo sociální vazba mluvčího k jedné z obou podob: respektovaný kolega, milovaný
-partner, uznávaný učitel.
+partner, uznávaný učitel. Výzkum motivovaného uvažování ukazuje, že závěr, který si člověk
+nepřeje, prověřuje přísněji než závěr vítaný (Kunda 1990).
 
 V institucích se klam projevuje jako neochota uvěřit, že člověk, kterého známe pod jedním
 popisem, je tím, kdo jedná podle jiného popisu. Herman popisuje tlak, pod nímž se okolí
@@ -194,9 +201,12 @@ by měla obě podoby nechat vedle sebe, ne jednu z nich popírat (Herman 1992).
 
 ## Literatura
 
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
+- Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Korzybski, A. (1933). *Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics*. Lancaster: International Non-Aristotelian Library.
+- Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.

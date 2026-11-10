@@ -44,10 +44,10 @@ catalog_prev = "samokotveni"
 catalog_next = "kolaps-kotev"
 catalog_position = 3
 catalog_family_size = 19
-catalog_sources = ["cialdini-2009", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "ekman-2003", "herman-1992", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "pavlov-1927", "petty-cacioppo-1986", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources = ["cialdini-2009", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "ekman-2003", "herman-1992", "miller-galanter-pribram-1960", "oconnor-seymour-1990", "pavlov-1927", "petty-cacioppo-1986", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980", "oconnor-seymour-1990"]
 catalog_sources_roots = ["miller-galanter-pribram-1960", "pavlov-1927"]
-catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "ekman-2003", "herman-1992", "petty-cacioppo-1986", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "ekman-2003", "herman-1992", "petty-cacioppo-1986", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -162,7 +162,8 @@ komu slouží a jaký vztah moci mezi praktikem a člověkem vytvářejí (Tosey
 Manipulativní užití je takové, kdy cílový stav určuje druhá strana a ten stav je zároveň
 okamžikem rozhodnutí v její prospěch. V prodeji, při náboru nebo na velkých seminářích se
 sled stavů buduje záměrně a cílový stav se načasuje na podpis smlouvy, platbu nebo veřejný
-závazek. Vzorec je zvlášť účinný ve spojení s [vrstvením kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md),
+závazek; Singer a Lalich popisují, jak velké skupinové tréninky využívají silné emoční
+zážitky k získání účastníků pro další programy (Singer a Lalich 1995). Vzorec je zvlášť účinný ve spojení s [vrstvením kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md),
 kdy se opakováním během několika dnů zesiluje každý článek řady.
 
 ## Stav důkazů
@@ -205,6 +206,7 @@ doklady chybějí.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Pavlov, I. P. (1927). *Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex*. London: Oxford University Press.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
+- Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.

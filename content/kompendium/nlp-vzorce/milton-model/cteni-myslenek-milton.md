@@ -124,8 +124,7 @@ se vykládá jako důkaz, že posluchač si pravdu „ještě nepřiznal“. Tak
 nevyvratitelné, protože je potvrzuje souhlas i nesouhlas, a nese tak znak, který kritici
 NLP opakovaně vytýkali celému oboru: teorii, kterou nelze testovat (Sharpley 1987).
 
-Funkce vzorce se mění s rámcem. V hypnotickém pacingu slouží k vytvoření dojmu souladu, na
-který navazuje sugesce. Ve vlivovém užití mimo hypnózu slouží k ustavení epistemické
+Funkce vzorce se mění s rámcem. V hypnotickém pacingu slouží k vytvoření dojmu souladu, na který navazuje sugesce (Bandler a Grinder 1975b). Ve vlivovém užití mimo hypnózu slouží k ustavení epistemické
 autority: kdo ví o mém nitru víc než já, má nárok rozhodovat, co je pro mě dobré. V
 asymetrických vztazích tak čtení myšlenek přechází v mechanismus, který kompendium popisuje
 v [detekční signatuře gaslightingu](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md):
@@ -138,8 +137,7 @@ stavu („cítíš“, „víš“, „uvědomuješ si“, „pochybuješ“), b
 přišel. Druhým znakem je zdrženlivost ve formě: měkké modální výrazy jako „možná“, „asi“ nebo
 „začínáš“, které tvrzení chrání před odmítnutím, ale přesto ho podávají jako pravděpodobné.
 Třetím znakem je reakce na nesouhlas. Rozdíl mezi poctivou domněnkou a manipulativním čtením
-myšlenek se nejlépe ukáže, když posluchač řekne „ne, tak to nemám“. Poctivý mluvčí domněnku
-opraví; manipulativní ji podrží a nesouhlas vyloží jako odpor, strach nebo nevědomost.
+myšlenek se nejlépe ukáže, když posluchač řekne „ne, tak to nemám“. Poctivý mluvčí domněnku opraví, jak to u reflexí předpokládá i motivační rozhovor (Miller a Rollnick 2013); manipulativní ji podrží a nesouhlas vyloží jako odpor, strach nebo nevědomost.
 Čtvrtým znakem je obsah: přisuzované myšlenky a pocity se podezřele často shodují s tím, co
 mluvčí potřebuje, například s pochybnostmi o rodině, o odchodu ze skupiny nebo o vlastním
 úsudku.

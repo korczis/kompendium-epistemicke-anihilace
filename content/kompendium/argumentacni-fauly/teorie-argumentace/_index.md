@@ -140,7 +140,9 @@ uvádějí fauly, které ho porušují, a odkazují na jejich hesla v ostatních
 [klamů relevance](@/kompendium/argumentacni-fauly/relevance/_index.md) po
 [formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md). Zároveň u každého pravidla
 popisují, kde se jeho uplatnění láme: kdy je omezení diskuse oprávněné, kdy je odvolání na autoritu
-v pořádku a kdy je nejasnost poctivým přiznáním nejistoty. Toto odlišení je pro obranný rámec
+v pořádku a kdy je nejasnost poctivým přiznáním nejistoty. Pragmatická teorie klamu tento přístup
+zdůvodňuje: tentýž typ argumentu může být v jednom užití rozumný a v jiném klamný, a výtka klamu se
+proto musí opřít o rozbor konkrétního užití (Walton 1995). Toto odlišení je pro obranný rámec
 kompendia podstatné. Kdo zná jen seznam klamů, snadno ho začne používat jako zbraň a každý
 nepohodlný argument označí za klam; kdo zná pravidla, ví, že výtka faulu je sama tahem v diskusi,
 který musí být zdůvodněn.

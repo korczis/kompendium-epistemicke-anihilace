@@ -115,7 +115,8 @@ Vzorec má tři složky. První je současná událost, o které se mluví a kte
 nastala. Druhá je opakovací slovo, které k ní připojuje nevyslovenou řadu dřívějších výskytů.
 Třetí je hodnocení nebo závěr, který se opírá o řadu, a ne o současnou událost. Adresát, který
 reaguje na současnou událost, například se omluví za dnešní zapomnění, mimoděk přijme i řadu,
-protože ji nezpochybnil. Síla vzorce roste s opakováním. Kdo slyší „zase“ o každé drobné
+protože ji nezpochybnil a předpoklad dřívějšího výskytu přetrvá i popření současné
+události (Levinson 1983). Síla vzorce roste s opakováním. Kdo slyší „zase“ o každé drobné
 chybě, slyší nakonec nepřetržitý příběh selhávání, i když jednotlivé chyby by samy o sobě
 nebyly ničím zvláštním.
 
@@ -130,7 +131,8 @@ souvislost katalog sleduje u [kotvení v kontrolujících vztazích](@/kompendiu
 ## Varianty
 
 Vzorec se objevuje ve třech podobách. Iterativní příslovce („zase“, „znovu“, „opět“) se
-vztahují k ději a v obviňující řeči slouží k připomenutí řady selhání. Slovesa návratu
+vztahují k ději a v obviňující řeči slouží k připomenutí řady selhání; lingvistický přehled je uvádí mezi
+iterativními spouštěči spolu se slovesy návratu a opakování (Levinson 1983). Slovesa návratu
 („vrátit se k“, „zase sklouznout do“, „spadnout zpátky“) předpokládají dřívější stav a v
 terapeutickém nebo náboženském jazyce se jimi popisuje recidiva, kterou mluvčí předpokládá,
 ale nedokládá. Aditivní částice („také“, „taky“, „i ty“) předpokládají, že se děj týkal
@@ -143,8 +145,8 @@ jako vždycky“), které z řady činí pravidlo.
 
 Opakovací slova je třeba odlišit od doloženého opakování. Kdo uvádí, že se událost stala
 znovu, a dokáže dřívější výskyty jmenovat, nevytváří řadu, jen na ni odkazuje; v klinické
-anamnéze nebo v auditu je takové odkazování nutné. Od univerzálního kvantifikátoru se
-opakovací slovo liší tím, že netvrdí pravidlo, jen předpokládá precedens, a proto je méně
+anamnéze nebo v auditu je takové odkazování nutné. Od univerzálního kvantifikátoru, kterým meta-model popisuje
+zobecnění zkušenosti na pravidlo (Bandler a Grinder 1975), se opakovací slovo liší tím, že netvrdí pravidlo, jen předpokládá precedens, a proto je méně
 nápadné a obtížněji se odmítá. Od [sloves změny stavu](@/kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md)
 se liší tím, že nepředpokládá jiný předchozí stav, ale tentýž děj v minulosti. Pro
 pozorovatele je proto rozhodující, zda předpokládaný precedens je sdílený a doložitelný, nebo
@@ -177,7 +179,8 @@ Manipulativní užití vytváří řadu, která není doložena, a staví na ní
 typické pro kontrolující partnerské a rodinné vztahy, pro nátlakové prostředí na pracovišti a
 pro skupiny, ve kterých se odchylky člena od normy popisují jako opakující se selhání. Jeho
 podstatou je, že jednotlivé události se nehodnotí samy o sobě, ale vždy jako další článek
-řady, kterou nikdo nevyslovil.
+řady, kterou nikdo nevyslovil. Zvenčí tak podporuje přílišné zobecňování, které kognitivní
+terapie popisuje jako typické zkreslení usuzování (Beck 1976).
 
 ## Stav důkazů
 

@@ -111,7 +111,8 @@ NLP, nikoli převzatým Batesonovým pojmem.
 
 ## Struktura vzorce
 
-Strukturálně jde o přiřazení hranic k cíli. Hranice mají tři rozměry: situační (při jakých
+Strukturálně jde o přiřazení hranic k cíli; úvodní učebnice podmínku kontextu formulují
+otázkami, kde, kdy a s kým má být cíl dosažen (O'Connor a Seymour 1990). Hranice mají tři rozměry: situační (při jakých
 činnostech a na jakých místech), časový (od kdy, do kdy, jak často) a vztahový (vůči komu).
 Každý rozměr lze vymezit kladně, tedy kde cíl platí, a záporně, tedy kde neplatí. Teprve
 záporné vymezení chrání oblasti života, v nichž dosavadní chování funguje a změna by

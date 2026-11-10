@@ -158,7 +158,8 @@ Manipulativní užití nastává, když se pod jménem samokotvení předává c
 lektor „naučí“ člověka spojit klid s heslem skupiny, s fotografií vůdce nebo s pokynem, který
 zní jako jeho hlas. Navenek jde o samostatnou dovednost, ve skutečnosti o vazbu, kterou
 vlastní skupina. Zvlášť rizikové je spojení s technikami, které se učí uplatnit právě ve
-chvíli pochybnosti: pochybnost se pak nezkoumá, ale okamžitě utlumí. Tento mechanismus
+chvíli pochybnosti: pochybnost se pak nezkoumá, ale okamžitě utlumí, jak to Hassan popisuje u technik
+zastavování myšlenek (Hassan 1988). Tento mechanismus
 kompendium rozebírá na stránce [obrana a kalibrace](@/kompendium/06-obrana/_index.md) jako
 jeden ze způsobů, jak se rozkládá schopnost samostatného úsudku.
 

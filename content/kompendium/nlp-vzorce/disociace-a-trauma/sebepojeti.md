@@ -186,7 +186,9 @@ pravé já“ si zaslouží otázku, kdo toto pravé já definuje a podle čeho.
 hodnotám skupiny nebo lektora, je namístě opatrnost. Užitečné je udržovat kontakt s lidmi, kteří
 člověka znají dlouho a mohou mu připomenout, kým byl, a vést si záznamy o vlastních hodnotách a
 rozhodnutích, které nejsou ovlivněny skupinou. Změnu sebepojetí, která vyžaduje přerušit
-dosavadní vztahy, je rozumné považovat za varovný znak.
+dosavadní vztahy, je rozumné považovat za varovný znak. Hassan popisuje omezování styku s rodinou
+a dřívějšími přáteli jako jeden ze způsobů, jimiž nátlakové skupiny kontrolují své členy (Hassan
+1988).
 
 Zotavení po náhradě identity je dlouhý proces, ve kterém člověk znovu nachází kontinuitu mezi
 tím, kým byl před vstupem do skupiny, kým byl v ní a kým je teď. Herman popisuje obnovu

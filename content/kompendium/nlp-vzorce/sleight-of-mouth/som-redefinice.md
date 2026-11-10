@@ -129,7 +129,8 @@ je důvod, proč je v dlouhodobých vztazích tak účinná.
 
 Redefinice se pozná podle toho, že se v rozhovoru mění slova, ale ne fakta. Posluchač
 popíše, co se stalo, a mluvčí odpoví stejným popisem s jinými slovy, obvykle s mírnějšími,
-pokud jde o jeho chování, a s ostřejšími, pokud jde o chování posluchače. Typické jsou
+pokud jde o jeho chování, a s ostřejšími, pokud jde o chování posluchače. Právě tak Dilts
+vzorec vymezuje: nové slovo označuje podobnou věc, ale nese jiné hodnocení (Dilts 1999). Typické jsou
 dvojice jako izolace a ochrana, kontrola a péče, žárlivost a láska, kritika a útok,
 otázka a nedůvěra. Dalším znakem je, že nové slovo se v rozhovoru rychle ustálí a původní
 slovo posluchače se začne vykládat jako přehánění („zase dramatizuješ“). V organizacích a

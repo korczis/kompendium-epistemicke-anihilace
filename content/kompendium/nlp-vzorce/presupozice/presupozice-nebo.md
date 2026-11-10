@@ -116,7 +116,7 @@ Vzorec má tři vrstvy. Nejvyšší je společný předpoklad, o kterém se má 
 rozhodovat: zda podepsat, zda se omluvit, zda vstoupit, zda něco přiznat. Prostřední vrstvou
 jsou nabízené možnosti, které se liší jen v podružném rozměru, například v čase, místě,
 formě nebo osobě, která čin vykoná. Nejnižší vrstvou je otázka, která se soustředí na rozdíl
-mezi možnostmi a tím odvádí pozornost od toho, co mají společné. Adresát, který přemýšlí,
+mezi možnostmi a tím odvádí pozornost od toho, co mají společné (Bandler a Grinder 1975b). Adresát, který přemýšlí,
 zda je výhodnější pondělí, nebo úterý, přemýšlí o tom, co nabídka zvýrazňuje, a nevidí to, co
 nabídka předpokládá.
 
@@ -138,7 +138,8 @@ nebezpečná zejména v obviňujícím rozhovoru, protože obě odpovědi jsou p
 osoby („řekneš to ty, nebo já“) předpokládá, že se něco stane, a ponechává volbu jen
 vykonavatele. Rozšířenou podobou je nabídka, která vyjmenuje všechny myslitelné reakce a
 každou předem vyloží jako potvrzení téhož; katalog ji popisuje jako
-[sugesci pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md).
+[sugesci pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md)
+(Erickson, Rossi a Rossi 1976).
 Opačným pólem je ultimátum „buď, anebo“, ve kterém obě možnosti představují ztrátu a
 společným předpokladem je, že adresát nemá právo situaci odmítnout. Ve všech podobách
 platí, že rámec nabídky určil mluvčí a adresát vybírá uvnitř něj.
@@ -173,8 +174,9 @@ Manipulativní užití staví do společného předpokladu rozhodnutí, které a
 a které slouží mluvčímu. Typické je v prodeji, kde se otázka „zda koupit“ nahradí otázkou
 „kterou variantu“, ve vyšetřovacích rozhovorech, kde se otázka „zda jste to udělal“ nahradí
 otázkou „udělal jste to úmyslně, nebo omylem“, a v kontrolujících vztazích, kde se volí jen
-způsob, jakým se druhý podřídí. Ve vyšetřování je takové užití zvlášť rizikové, protože obě
-odpovědi představují přiznání činu.
+způsob, jakým se druhý podřídí. Ve vyšetřování je takové užití zvlášť rizikové, protože alternativní
+otázka předpokládá, že platí jedna z nabídnutých možností (Levinson 1983), a obě odpovědi
+proto představují přiznání činu.
 
 ## Stav důkazů
 

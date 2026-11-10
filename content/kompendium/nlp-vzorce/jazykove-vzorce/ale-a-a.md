@@ -112,7 +112,7 @@ výroku, jehož obě části jsou pravdivé a slučitelné: „práce je pečliv
 vzorku“. Tím se jen odstraní naznačený kontrast, který by pochvalu proměnil v úvod ke
 kritice. V druhé podobě se spojka „a“ použije mezi dvěma částmi, které jsou ve skutečném
 napětí, a toto napětí se tím přizná jako ambivalence: „chcete přestat a zároveň vám to
-pomáhá zvládat stres“. Obě strany zůstávají viditelné a ani jedna nepřebíjí druhou. Ve třetí
+pomáhá zvládat stres“. Obě strany zůstávají viditelné a ani jedna nepřebíjí druhou (Miller a Rollnick 2013). Ve třetí
 podobě se spojka „a“, často ve spojení „a právě proto“ nebo „a zároveň“, klade mezi části,
 které si odporují nebo z nichž druhá první popírá, a slouží k tomu, aby posluchač rozpor
 nepostřehl. Výrok „chápu tvoje obavy, a právě proto bys měl podepsat“ proměňuje námitku v

@@ -23,7 +23,7 @@ catalog_en = "Fallacies of language and ambiguity"
 catalog_size = 13
 catalog_members = ["ekvivokace", "amfibolie", "klam-duraznu", "klam-skladani", "klam-deleni", "reifikace", "etymologicky-klam", "presvedcovaci-definice", "nabity-jazyk", "vyhybava-slova", "eufemismus-a-dysfemismus", "vytrzeni-z-kontextu", "definicni-klam"]
 catalog_types = ["informal", "tactic"]
-catalog_sources = ["bentham-1824", "copi-cohen-mcmahon-2014", "damer-2009", "grice-1975", "hahn-oaksford-2007", "hamblin-1970", "lakoff-johnson-1980", "loftus-palmer-1974", "mill-1843", "robinson-1950", "roozenbeek-2022", "tversky-kahneman-1981", "walton-1995", "eemeren-grootendorst-1992"]
+catalog_sources = ["bandler-grinder-1975b", "bentham-1824", "copi-cohen-mcmahon-2014", "damer-2009", "grice-1975", "hahn-oaksford-2007", "hamblin-1970", "lakoff-johnson-1980", "loftus-palmer-1974", "mill-1843", "robinson-1950", "roozenbeek-2022", "tversky-kahneman-1981", "walton-1995", "eemeren-grootendorst-1992"]
 +++
 
 # Klamy jazyka a dvojznačnosti
@@ -125,8 +125,8 @@ rozhodování.
 Kniha se jazykovým mechanismům věnuje i mimo tento katalog. Katalog NLP vzorců popisuje
 záměrnou dvojznačnost v takzvaném Milton-modelu, kde se
 [syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md)
-nebo [nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) užívají k
-navození neurčitosti, a kapitola o technikách epistemické anihilace popisuje
+nebo [nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) užívají k navození
+neurčitosti (Bandler a Grinder 1975b), a kapitola o technikách epistemické anihilace popisuje
 [narušování stability významů](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md)
 jako dlouhodobou strategii, při níž oběť ztrácí jistotu, co slova znamenají. Hesla této
 rodiny popisují tytéž jevy z hlediska teorie argumentace: jako vady, které lze v konkrétním
@@ -229,6 +229,7 @@ flowchart LR
 
 ## Literatura
 
+- Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.

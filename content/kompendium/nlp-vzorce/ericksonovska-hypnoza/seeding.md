@@ -157,7 +157,9 @@ vzorec kompendium popisuje jako
 Legitimní předznamenání je v komunikaci běžné a užitečné. Učitel, který na začátku kurzu
 ohlásí, k čemu se bude později dostávat, pomáhá studentům vytvořit si mapu látky.
 Terapeut, který klienta předem upozorní, že v určité fázi terapie může přijít obtížné
-téma, mu dává čas se připravit a rozhodnout, zda do něj chce vstoupit. Rozdíl od
+téma, mu dává čas se připravit a rozhodnout, zda do něj chce vstoupit. Ericksonova práce předznamenání používala proto, aby
+terapeutický krok nepřišel nečekaně (Haley 1973); legitimní podoba si tento účel ponechává a
+přidává k němu průhlednost. Rozdíl od
 manipulativního zasévání je v transparentnosti. Legitimní předznamenání je ohlášené jako
 takové, posluchač ví, že se téma bude opakovat, a může ho zpochybnit už v okamžiku první
 zmínky.

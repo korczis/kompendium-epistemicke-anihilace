@@ -126,7 +126,8 @@ který odchylkou. Když se srovnává jistota a pochybnost, je v rámci implicit
 je žádoucí stav a pochybnost nedostatek, který lze napravit. Otázka, zda je pochybnost
 oprávněná, se v kontrastní analýze neklade, protože analyzuje formu prožitku, ne jeho důvody.
 Druhým rozhodujícím místem je výběr kritických kvalit, ve kterém hraje roli interpretace
-tazatele. Výsledná mapa rozdílu je tak v různé míře společným dílem obou stran, i když se
+tazatele; výzkum výpovědí ukázal, že už formulace otázky mění, co dotazovaný popíše (Loftus a
+Palmer 1974). Výsledná mapa rozdílu je tak v různé míře společným dílem obou stran, i když se
 předkládá jako objektivní popis vnitřního světa dotazovaného.
 
 ## Detekční znaky

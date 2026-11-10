@@ -44,9 +44,9 @@ catalog_prev = "nlp-v-koucinku-vyzkum"
 catalog_next = "historie-nlp"
 catalog_position = 10
 catalog_family_size = 14
-catalog_sources = ["bandler-grinder-1979", "dilts-1980", "festinger-1957", "gilovich-1991", "hassan-1988", "lilienfeld-2015", "oconnor-seymour-1990", "sharpley-1984", "sharpley-1987", "sturt-2012", "wiseman-2012", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1979", "dilts-1980", "festinger-1957", "gilovich-1991", "hassan-1988", "lilienfeld-2015", "oconnor-seymour-1990", "popper-1959", "sharpley-1984", "sharpley-1987", "sturt-2012", "wiseman-2012", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymour-1990"]
-catalog_sources_roots = []
+catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["festinger-1957", "gilovich-1991", "hassan-1988", "lilienfeld-2015", "sharpley-1984", "sharpley-1987", "sturt-2012", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Tři druhy tvrzení", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -146,11 +146,11 @@ učebnice a výcviky je však do velké míry nepromítají.
 
 Pro posouzení falzifikovatelnosti je užitečné tvrzení NLP třídit do tří skupin. První
 skupinu tvoří filozofická východiska, například že [mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) nebo že zkušenost má
-strukturu. Ta nejsou empirickými hypotézami a falzifikace na ně nedopadá; lze je posuzovat
+strukturu. Ta nejsou empirickými hypotézami a falzifikace na ně nedopadá (Popper 1959); lze je posuzovat
 jen podle vnitřní soudržnosti a podle toho, zda z nich něco plyne. Druhou skupinu tvoří
 popisná tvrzení o lidech: že smyslová slova odrážejí převládající systém, že pohyby očí
 souvisejí s druhem vybavování nebo že lidé mají stálé metaprogramy. Ta jsou testovatelná a
-právě jich se týká většina výzkumu. Třetí skupinu tvoří tvrzení o účinku technik, například
+právě jich se týká většina výzkumu (Sharpley 1984; Sharpley 1987). Třetí skupinu tvoří tvrzení o účinku technik, například
 že určitý postup odstraní fobii nebo změní přesvědčení. I ta jsou testovatelná, ale vyžadují
 náročnější studie s kontrolní skupinou a sledováním. Imunizace spočívá v tom, že se tvrzení
 druhé a třetí skupiny při kritice stáhnou do první skupiny („jde jen o užitečný model“) a v
@@ -209,6 +209,7 @@ kritériím toho, co je zlepšení (Hassan 1988).
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.

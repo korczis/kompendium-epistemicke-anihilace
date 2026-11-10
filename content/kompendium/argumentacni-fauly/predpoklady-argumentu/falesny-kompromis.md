@@ -114,7 +114,6 @@ pro výpočet středu. Kompendium jinde popisuje příbuzný jev jako
 postavení nesrovnatelných věcí na roveň. Falešný kompromis je jejím častým důsledkem: kdo
 nejprve přijme, že dvě stanoviska jsou rovnocenná, snadno přijme i to, že pravda je mezi
 nimi.
-
 Z této struktury plyne zranitelnost, kterou je třeba znát. Protože střed se určuje podle
 krajních stanovisek, lze ho posunout tím, že se jedno z nich posune. Strana, která na
 počátku zaujme extrémní stanovisko, tím posouvá i střed, který bude posléze vypadat
@@ -147,8 +146,11 @@ jednom kontextu obstojí a v jiném klamou (Walton 2008).
 
 Faktická varianta hledá střed mezi tvrzeními o tom, jak se věci mají: mezi naměřenou a
 odhadnutou hodnotou, mezi doloženou a nedoloženou příčinou, mezi odborným a laickým
-výkladem. Je nejsnáze rozpoznatelná, protože u faktu lze ukázat, že pravda na poloze
-stanovisek nezávisí. Morální varianta hledá střed mezi hodnotovými stanovisky a je
+výkladem. Je nejsnáze rozpoznatelná, protože u faktu lze ukázat, že pravda na poloze stanovisek
+nezávisí. Rozbor tiskového zpravodajství o globálním oteplování ukázal, že novinářská norma
+vyváženosti, která dávala srovnatelný prostor vědeckému konsenzu i jeho odpůrcům, vedla ke
+zkreslenému obrazu stavu poznání (Boykoff a Boykoff 2004). Morální varianta hledá střed mezi
+hodnotovými stanovisky a je
 nebezpečnější, protože v etice skutečně existují otázky, kde je umírněnost moudrá. Klam
 nastává, když se střed hledá i tam, kde jedna strana navrhuje porušení základních práv
 druhých: polovina újmy není spravedlivým řešením sporu o to, zda újmu způsobit. Procedurální

@@ -131,7 +131,9 @@ výklad účinku opírá o předpoklady o submodalitách, které nebyly nezávis
 ## Detekční znaky
 
 Nabídka vzorce zpracování zármutku se v praxi pozná podle několika znaků. Zármutek se popisuje
-jako „zaseknutý obraz“, „špatně uložená vzpomínka“ nebo „program“, který lze přepsat. Slibuje
+jako „zaseknutý obraz“, „špatně uložená vzpomínka“ nebo „program“, který lze přepsat. Primární
+literatura popisuje vzorec jako práci s vnitřní představou zesnulého a se smyslovými vlastnostmi
+této představy (Andreas a Andreas 1989). Slibuje
 se rychlé ukončení smutku, často během jednoho sezení. Úspěch se měří tím, že člověk přestane
 plakat nebo že „necítí bolest“, když si zesnulého představí. Pro defenzivní čtení jsou
 důležitější znaky rámce: nabídka přichází krátce po ztrátě, kdy je truchlení přirozeně
@@ -182,7 +184,9 @@ mylného přesvědčení o účinnosti metod (Lilienfeld, Lynn a Lohr 2015).
 ## Obrana a zotavení
 
 Obranou je trvat na právu na vlastní zármutek. Truchlení nemá předepsanou délku a jeho
-intenzita sama o sobě není známkou poruchy. Kdo je pod tlakem, aby smutek rychle „vyřešil“, se
+intenzita sama o sobě není známkou poruchy. Klinická literatura o traumatu považuje oplakání
+ztráty za nezbytnou součást zotavení, nikoli za překážku, kterou je třeba co nejrychleji odstranit
+(Herman 1992). Kdo je pod tlakem, aby smutek rychle „vyřešil“, se
 může ptát, komu rychlé vyřešení slouží a co by se stalo, kdyby si na smutek dal čas. Užitečnými
 oporami jsou lidé, kteří zesnulého znali a s nimiž lze vzpomínat, a rituály rozloučení, které
 dávají truchlení tvar. Pokud je zármutek dlouhodobě zahlcující, brání běžnému fungování nebo

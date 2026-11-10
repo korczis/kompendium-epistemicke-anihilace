@@ -129,12 +129,12 @@ knihy, totiž epistemické autonomie. Vnitřní řeč je nástroj, kterým člov
 pochybuje a vyvozuje; kdo ji ovládne nebo zdiskredituje, ovládá jeho poznávání. Kompendium
 popisuje řadu technik, které tuto funkci napadají jinými cestami: zahlcením odborně znějícími
 pojmy, iluzí složitosti, která má odradit od samostatného posouzení, nebo nálepkami, které z
-pochybnosti dělají známku nevyspělosti. Slovník NLP se do těchto technik vkládá snadno, protože
+pochybnosti dělají známku nevyspělosti (Hassan 1988). Slovník NLP se do těchto technik vkládá snadno, protože
 nabízí technické pojmenování pro to, co by jinak znělo jako prostá výzva k poslušnosti.
 Rozpoznání proto začíná u otázky, co přesně má být „vypnuto“ a komu to prospěje. Souvislost s
 [terminologickou mystifikací](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
 je přímá: odborně znějící slovo nahrazuje argument a zároveň umlčuje toho, kdo by se na
-argument zeptal.
+argument zeptal (Lifton 1961).
 
 ## Detekční znaky
 

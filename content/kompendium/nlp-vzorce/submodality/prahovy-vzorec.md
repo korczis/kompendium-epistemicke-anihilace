@@ -44,10 +44,10 @@ catalog_prev = "zmena-presvedceni-submodalitami"
 catalog_next = "zmena-vnitrniho-hlasu"
 catalog_position = 15
 catalog_family_size = 20
-catalog_sources = ["andreas-andreas-1987", "bandler-1985", "druckman-swets-1988", "hassan-1988", "miller-rollnick-2013", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "watzlawick-1974", "witkowski-2010"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "miller-rollnick-2013", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1974", "watzlawick-1974", "witkowski-2010"]
 catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = ["watzlawick-1974"]
-catalog_sources_critical = ["druckman-swets-1988", "hassan-1988", "miller-rollnick-2013", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "hassan-1988", "miller-rollnick-2013", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -126,11 +126,12 @@ změně (Miller a Rollnick 2013), se tu nezkoumá, ale přeskakuje.
 
 Navozování prahu v cizím zájmu se rozpoznává podle několika rysů. Mluvčí opakovaně vyvolává
 vzpomínky na negativní zkušenosti s určitou osobou nebo institucí, a to v řadě za sebou, bez
-vyváženého pohledu, a spojuje je obrazy přetékání, vršení nebo zátěže. Současně mluví o
+vyváženého pohledu, a spojuje je obrazy přetékání, vršení nebo zátěže. Co si člověk opakovaně
+vybavuje, to mu připadá častější a typičtější (Tversky a Kahneman 1974). Současně mluví o
 blížícím se zlomu jako o osvobození a o tom, že po něm už nebude cesty zpět. Ke zlomu bývá
 připojena nabídka náhrady: skupina, nový vztah nebo nový systém přesvědčení, který zaujme
 uvolněné místo. Varovným znakem je i časový tlak, kdy se rozhodnutí žádá hned, „dokud je to
-jasné“.
+jasné“, což je známá podoba tlaku termínem (Cialdini 2009).
 
 U člověka se pak objevuje náhlé, silné rozhodnutí přerušit vztah s rodinou, přáteli, partnerem
 nebo dřívějším prostředím, které nevyplynulo z konkrétní nové události, ale z rozhovorů s
@@ -143,7 +144,8 @@ připoutaly k sobě (Singer a Lalich 1995).
 
 Legitimní užití je především pojmenování zlomu, který člověk prožil nebo prožívá sám. Poradkyně,
 která slyší, že klientka po poslední hádce „věděla, že je konec“, může tento zážitek uznat a
-pomoci jí promyslet bezpečí a další kroky, ať se rozhodne jakkoli. Podobně lidé, kteří opouštějí
+pomoci jí promyslet bezpečí a další kroky, ať se rozhodne jakkoli, a rozhodnutí tak ponechává
+na ní (Miller a Rollnick 2013). Podobně lidé, kteří opouštějí
 kult, často popisují práh, za nímž se jim systém přesvědčení rozpadl; kompendium tuto zkušenost
 zachycuje u případu [sektářského vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md).
 Terapeut v takové situaci zlom nevyrábí, ale doprovází. Pokud se vzorec používá u zlozvyku, který
@@ -177,7 +179,8 @@ Obranou je všímat si, kdo vybírá vzpomínky a kam míří. Pokud člověk zj
 opakovaně probírá jen negativní zkušenosti s jeho blízkými a že ho to vede k rozhodnutí je
 opustit, je užitečné se zastavit a vybavit si i jiné zkušenosti, dobré i špatné, a zeptat se,
 co by k situaci řekli lidé mimo vztah nebo skupinu. Zásadní rozhodnutí o vztazích je rozumné
-nechat dozrát ve vlastním čase, bez tlaku na okamžité jednání. Sliby, že „pak už nebude cesty
+nechat dozrát ve vlastním čase, bez tlaku na okamžité jednání (Cialdini 2009). Sliby, že „pak
+už nebude cesty
 zpět“, jsou spíše důvodem k opatrnosti než k rychlosti.
 
 Zotavení po navozeném zlomu často zahrnuje obnovu vztahů, které byly přerušeny, a zpracování
@@ -190,12 +193,14 @@ schopnost vidět ve vztahu dobré i špatné, a teprve z ní vycházet při dal�
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
+- Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Druckman, D., & Swets, J. A. (Eds.) (1988). *Enhancing Human Performance: Issues, Theories, and Techniques*. Washington, DC: National Academy Press.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
+- Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 

@@ -44,10 +44,10 @@ catalog_prev = "zakon-pozadovane-variety"
 catalog_next = "clovek-neni-sve-chovani"
 catalog_position = 8
 catalog_family_size = 21
-catalog_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "cialdini-2009", "haley-1973", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "satir-1972", "sharpley-1984", "tosey-mathison-2009"]
+catalog_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "cialdini-2009", "haley-1973", "hassan-1988", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "satir-1972", "sharpley-1984", "singer-lalich-1995", "tosey-mathison-2009"]
 catalog_sources_primary = ["bandler-grinder-1975"]
 catalog_sources_roots = ["haley-1973", "satir-1972"]
-catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "tosey-mathison-2009"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "singer-lalich-1995", "tosey-mathison-2009"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 3
 catalog_trainer_benign = 1
@@ -115,7 +115,9 @@ sympatie zvyšují ochotu vyhovět požadavku (Cialdini 2009); kdo předvede, ž
 sdílí jeho hodnoty, získává tím výhodu, ať je jeho porozumění opravdové, nebo ne.
 
 Ve třetí podobě je respekt štítem. Mluvčí nebo skupina požaduje respekt ke svému modelu světa a
-vykládá jakoukoli kritiku, otázku nebo požadavek na doklad jako neúctu. Rozdíl mezi přijetím
+vykládá jakoukoli kritiku, otázku nebo požadavek na doklad jako neúctu, podobně jako uzavřené
+systémy, které podle Liftona činí svou doktrínu posvátnou a její zpochybnění neuctivým (Lifton
+1961). Rozdíl mezi přijetím
 člověka a přijetím jeho tvrzení se tím stírá. Tato podoba je blízká mechanismu, který
 kompendium popisuje jako [internalizaci radikálního
 relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md): pokud jsou
@@ -140,7 +142,9 @@ Užití respektu jako štítu se pozná podle jednostrannosti. Skupina nebo jedn
 ke svému modelu, ale model kritika označí za nevědomost, negativitu nebo nepřipravenost. Otázky
 se vykládají jako útok a požadavek na doklad jako projev nedůvěry, která je sama o sobě chybou.
 U člověka, na kterého se takto působí, se objevuje váhání vyslovit pochybnost, aby nebyl
-neuctivý, a postupná ztráta schopnosti odlišit respekt k člověku od souhlasu s jeho tvrzeními.
+neuctivý, tedy potlačování pochybností, které literatura o manipulativních skupinách popisuje
+jako jeden z jejich hlavních účinků (Singer a Lalich 1995), a postupná ztráta schopnosti odlišit
+respekt k člověku od souhlasu s jeho tvrzeními.
 
 ## Legitimní a manipulativní užití
 
@@ -154,7 +158,8 @@ vstřícnosti](@/kompendium/techniques/ea-7-2-8-davidson-charity.md): porozumět
 předpokládat, že jeho výroky dávají smysl, ale neznamená to souhlasit s nimi.
 
 Manipulativní užití se rozpoznává podle tří otázek. Trvá respekt i ve chvíli, kdy druhý
-odmítne? Slouží porozumění hodnotám druhého k tomu, aby se jim lépe vyhovělo, nebo k tomu, aby
+odmítne, jak to vyžaduje respekt k autonomii v motivačním rozhovoru (Miller a Rollnick 2013)?
+Slouží porozumění hodnotám druhého k tomu, aby se jim lépe vyhovělo, nebo k tomu, aby
 se jich využilo pro cíl mluvčího? A je respekt vzájemný, tedy smí i kritik požadovat, aby jeho
 model byl brán vážně? Pokud porozumění končí odmítnutím, hodnoty se mění v páku a respekt se
 žádá jen jedním směrem, předpoklad slouží vlivu, ne vztahu.
@@ -177,7 +182,8 @@ užitečných přesvědčení, jejichž etický rozměr závisí na tom, jak se 
 Základní obranou je rozlišit respekt k člověku od přijetí jeho tvrzení. Lze uznat, že druhý
 vidí věci jinak a že jeho pohled má své důvody, a zároveň trvat na právu klást otázky, žádat
 doklady a nesouhlasit. Druhou obranou je všímat si okamžiku, kdy se po projevu porozumění
-objeví požadavek, zvláště spojený s časovým tlakem. V takové chvíli pomáhá oddělit vlastní
+objeví požadavek, zvláště spojený s časovým tlakem, který výzkum vyhovění popisuje jako
+osvědčený prostředek, jak zkrátit uvažování (Cialdini 2009). V takové chvíli pomáhá oddělit vlastní
 hodnoty od rozhodnutí: to, že mi záleží na rodině, neznamená, že musím dnes podepsat smlouvu,
 která se na rodinu odvolává. Třetí obranou je trvat na vzájemnosti: kdo žádá respekt ke svému
 modelu, má respektovat i model toho, kdo se ptá.
@@ -193,7 +199,8 @@ Pro odborníky, kteří s předpokladem pracují, plyne z rozlišení tří podo
 Porozumění klientovu modelu světa, které získají v terapii, koučinku nebo poradenství, nesmí
 sloužit cílům, jež klient nesdílí, a jeho hodnoty nesmějí být použity jako páka k rozhodnutí,
 které by jinak neudělal. Respekt k modelu světa zahrnuje i respekt k tomu, že klient smí
-odmítnout nabízenou změnu. Tam, kde praktik z porozumění klientovi profituje, například
+odmítnout nabízenou změnu (Miller a Rollnick 2013). Tam, kde praktik z porozumění klientovi
+profituje, například
 prodejem dalších služeb, je namístě zvláštní opatrnost a ochota nechat si vlastní postup
 posoudit nezávislou supervizí.
 
@@ -204,12 +211,14 @@ posoudit nezávislou supervizí.
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Haley, J. (1973). *Uncommon Therapy: The Psychiatric Techniques of Milton H. Erickson, M.D.* New York: W. W. Norton.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
+- Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

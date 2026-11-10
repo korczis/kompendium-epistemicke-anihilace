@@ -121,8 +121,10 @@ milovanému prožitku. NLP tento proces chápe, stejně jako jiné případy map
 Z této struktury plyne důležité rozlišení. Pokud si člověk zdroj i cíl vybírá sám a jde o úkol,
 který sám chce zvládnout, je vzorec formou sebemotivace podobnou běžným strategiím, kdy si lidé
 spojují nepříjemnou práci s odměnou. Pokud však cíl volí někdo jiný, třeba zaměstnavatel,
-prodejce nebo vůdce skupiny, stává se vzorec nástrojem, který vyrábí chuť pro cizí zájem a
-obchází otázku, zda je ten zájem pro člověka výhodný. Struktura je v obou případech stejná,
+prodejce nebo vůdce skupiny, stává se vzorec nástrojem, který vyrábí chuť pro cizí zájem
+spojením s tím, co má člověk rád, podobně jako reklama spojuje produkt s oblíbenými podněty
+(Cialdini 2009), a obchází otázku, zda je ten zájem pro člověka výhodný. Struktura je v obou
+případech stejná,
 rozdíl je v tom, kdo rozhoduje o cíli, a v tom, zda je spojení otevřeně pojmenováno. Podobný
 rozdíl popisuje kompendium u
 [latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md),
@@ -132,7 +134,8 @@ kde je emoční náboj sdělení řízen tak, aby příjemce nevnímal, odkud po
 
 Užití vzorce v cizím zájmu se rozpoznává podle několika znaků. Mluvčí opakovaně spojuje
 požadovanou činnost s obrazy toho, co má posluchač nejraději, se zálibami, s rodinou, s
-dovolenou nebo s vysněným životem, a to bez věcné vazby mezi nimi. Mluví se o tom, jak má
+dovolenou nebo s vysněným životem, a to bez věcné vazby mezi nimi (Cialdini 2009). Mluví se o
+tom, jak má
 člověk úkol „cítit“, místo o tom, co mu přinese. Otázky po podmínkách, odměně nebo riziku se
 vykládají jako známka nedostatečného zapálení, chybějícího „správného pocitu“ nebo „omezujícího
 přesvědčení“. Ve skupinovém prostředí se nadšení pro úkol veřejně oceňuje a jeho absence
@@ -160,7 +163,8 @@ nábor dalších lidí do prodejní sítě nebo služba skupině na úkor vlastn
 organizacích s kultovními rysy se navozené nadšení pro práci stává měřítkem loajality a
 kompendium tyto mechanismy rozebírá na případu
 [kultu vedení v korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md). Riziko
-vzorce není v jeho síle, ta je nejistá, ale v tom, že legitimizuje nahrazování důvodů pocity.
+vzorce není v jeho síle, ta je nejistá, ale v tom, že legitimizuje nahrazování důvodů pocity,
+tedy postoj utvořený periferní cestou místo posouzení argumentů (Petty a Cacioppo 1986).
 
 ## Stav důkazů
 
@@ -181,7 +185,8 @@ má specifický a trvalý účinek. Pokud vzorec v praxi pomůže, může jít o
 
 Obranou je vracet rozhodnutí z roviny pocitu do roviny důvodů. Když člověk cítí silnou chuť do
 něčeho, co mu někdo nabídl, může si položit otázku, zda by se rozhodl stejně, kdyby o nabídce
-jen četl suchý popis podmínek. Pomáhá vzít si čas, odejít z prostředí, kde nadšení vzniklo, a
+jen četl suchý popis podmínek, a oddělit tak pocit od posouzení nabídky samotné (Cialdini
+2009). Pomáhá vzít si čas, odejít z prostředí, kde nadšení vzniklo, a
 nechat si podmínky dát písemně. U pracovních vztahů je užitečné oddělit otázku smyslu práce od
 otázky odměny a trvat na tom, že nadšení nenahrazuje smlouvu.
 

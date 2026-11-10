@@ -113,10 +113,9 @@ mluvčí ji nastavuje.
 
 Vzorec má dva póly, které se v praxi často kombinují. Prvním je permisivní možnost. Výrok
 dává posluchači svolení, ale svolení se týká jen toho, zda a kdy si všimne určitého
-prožitku, nikoli toho, zda prožitek nastane. Formálně zůstává volba otevřená, prakticky je
+prožitku, nikoli toho, zda prožitek nastane (Erickson, Rossi a Rossi 1976). Formálně zůstává volba otevřená, prakticky je
 pozornost nasměrována a předpoklad přijat. Druhým pólem jsou operátory nutnosti a
-nemožnosti. Vytvářejí pravidla, která mají podobu popisu skutečnosti: něco „nejde“, něco
-„se nedělá“, něco „člověk musí“. Chybí v nich původce pravidla i důsledek jeho porušení, a
+nemožnosti. Vytvářejí pravidla, která mají podobu popisu skutečnosti: něco „nejde“, něco „se nedělá“, něco „člověk musí“ (Bandler a Grinder 1975). Chybí v nich původce pravidla i důsledek jeho porušení, a
 pravidlo proto nelze vyjednat, jen dodržet nebo porušit. V meta-modelu se tomuto chybění
 původce říká [ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) a obvykle se s modálními operátory vyskytuje společně.
 
@@ -163,8 +162,7 @@ Manipulativní užití se rozpoznává podle tří otázek. Je volba, kterou per
 nabízí, skutečná, tedy lze odmítnout bez trestu? Má pravidlo vyjádřené jazykem nutnosti
 konkrétního autora, kterého lze oslovit a s nímž lze vyjednávat? A je rozložení modality
 symetrické, nebo se možnost váže jen k žádoucí odpovědi a nemožnost jen k odchodu,
-nesouhlasu a pochybnostem? Kde odpovědi vycházejí v neprospěch posluchače, jde o vytváření
-hranic, ne o jejich zkoumání.
+nesouhlasu a pochybnostem? Kde odpovědi vycházejí v neprospěch posluchače, jde o vytváření hranic, ne o jejich zkoumání; nevyjednatelná pravidla vymáhaná sankcí patří k jádru donucující kontroly (Stark 2007).
 
 ## Stav důkazů
 

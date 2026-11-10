@@ -91,7 +91,7 @@ hodnocení výchozího stavu, aniž by ho mluvčí vyslovil, a tím ho vyjmout z
 Přesnost vyžaduje jedno rozlišení. Samotný druhý stupeň přídavného jména presupozici o
 kladné vlastnosti obvykle nenese: „Petr je vyšší než Pavel“ neříká, že kdokoli z nich je
 vysoký. Předpoklad vzniká teprve tam, kde srovnání obsahuje podstatné jméno, které přisuzuje
-roli nebo vlastnost oběma stranám, nebo kde přistoupí částice typu „ještě“, „dokonce“ či
+roli nebo vlastnost oběma stranám (Levinson 1983), nebo kde přistoupí částice typu „ještě“, „dokonce“ či
 „zase“. Proto tato stránka úzce souvisí s heslem o
 [částicích „jen“, „i“ a „dokonce“](@/kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i.md).
 
@@ -119,7 +119,7 @@ oběma pohledy: nejde jen o to, co chybí, ale o to, co se mlčky přijímá za 
 
 Srovnávací výpověď má tři složky: srovnávaný předmět, měřítko a vlastnost, podle níž se
 srovnává. Výslovně se jedná jen o vztah mezi předmětem a měřítkem, tedy o to, zda je jedno
-víc nebo méně než druhé. Vlastnost měřítka a jeho existence tvoří pozadí. Když vedoucí
+víc nebo méně než druhé. Vlastnost měřítka a jeho existence tvoří pozadí (Levinson 1983). Když vedoucí
 řekne, že výkon „letos ještě poklesl“, debata se svádí k velikosti poklesu, zatímco to, že
 byl výkon nízký už předtím, se přijme bez projednání. Strukturálně tedy srovnání přesouvá
 hodnocení z popředí do pozadí výpovědi.
@@ -167,7 +167,9 @@ nebo zpráva, která uvádí výchozí hodnotu i metodu, srovnávají otevřeně
 srovnání nese, je sdílený a ověřitelný, a posluchač může srovnání odmítnout, když měřítko
 považuje za nepřiměřené. V terapeutické práci se srovnání používá i k zaznamenání pokroku,
 například když klient sám popisuje, že se mu „daří o něco lépe“; tam presupozice vychází z
-jeho vlastní zkušenosti, ne z přisouzení zvenčí.
+jeho vlastní zkušenosti, ne z přisouzení zvenčí. Takové srovnání odpovídá
+maximě kvantity, protože podává tolik informací, kolik posluchač k posouzení potřebuje
+(Grice 1975).
 
 Manipulativní srovnání se pozná podle toho, že měřítko je skryté, volené ve prospěch
 mluvčího a že předpokládá hodnocení, které by adresát při výslovném vyslovení zpochybnil.

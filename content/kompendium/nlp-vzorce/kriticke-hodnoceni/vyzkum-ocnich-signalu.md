@@ -137,7 +137,8 @@ argument pro nebo proti věrohodnosti výpovědi, často bez ohledu na obsah, ko
 nezávislé doklady. Při hodnocení rozhovorů se zaznamenávají pohyby očí jako „indikátory“ a
 výsledky se interpretují podle schématu. V náborových, prodejních nebo vyšetřovacích kurzech se
 schéma vyučuje jako dovednost odhalování klamu. Všechny tyto znaky mají společné, že se
-pozorování, které má nanejvýš slabou souvislost s myšlením, mění v závěr o člověku.
+pozorování, které má nanejvýš slabou souvislost s myšlením, mění v závěr o člověku, ačkoli
+experimenty souvislost směru pohledu se lží nenašly (Wiseman a kol. 2012).
 
 Pro posuzovatele výpovědí je podstatný i opačný znak: přirozené odvrácení pohledu při
 přemýšlení, při vzpomínání na bolestnou událost nebo z kulturních důvodů může být mylně
@@ -164,7 +165,8 @@ Tento postup je příbuzný se vztahem [guru a
 adepta](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), kde domnělá zvláštní schopnost
 vůdce slouží k ospravedlnění jeho výkladů. Druhá podoba je zneužití schématu k hodnocení
 věrohodnosti: k odmítnutí stížnosti, svědectví nebo výpovědi oběti. Tato podoba může způsobit
-vážnou škodu, protože se opírá o zdánlivě odborný argument, který nemá empirický základ.
+vážnou škodu, protože se opírá o zdánlivě odborný argument, který nemá empirický základ (Vrij 2008; Wiseman a
+kol. 2012).
 Forenzní standardy vedení rozhovoru proto pracují s obsahem výpovědi a jeho ověřováním, ne s
 výkladem pohybů očí; podrobněji je popisuje stránka o [forenzním
 rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md).
@@ -189,8 +191,8 @@ spolehlivě ukazoval lež (Vrij 2008).
 
 ## Obrana a zotavení
 
-Obranou je především znalost výsledků. Kdo ví, že směr pohledu nic neříká o pravdivosti, nenechá
-se zviklat tvrzením, že ho druhý „prokoukl“. V situacích, kde se rozhoduje o věrohodnosti, je
+Obranou je především znalost výsledků. Kdo ví, že směr pohledu nic neříká o pravdivosti (Wiseman a
+kol. 2012), nenechá se zviklat tvrzením, že ho druhý „prokoukl“. V situacích, kde se rozhoduje o věrohodnosti, je
 legitimní a vhodné výslovně požadovat, aby hodnocení vycházelo z obsahu a dokladů, a namítnout,
 že výklad pohybů očí nemá oporu ve výzkumu. U posudků a protokolů je možné žádat odstranění
 takových „indikátorů“ nebo připojit vyjádření, které na stav výzkumu odkazuje.

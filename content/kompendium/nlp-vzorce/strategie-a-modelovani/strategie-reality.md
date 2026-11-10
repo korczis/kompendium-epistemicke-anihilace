@@ -88,7 +88,17 @@ Pojem vznikl v rámci strategické práce NLP, která popisovala vnitřní zprac
 
 Strukturálně má strategie reality podle NLP podobu testu se třemi složkami. První složkou je vybavená reprezentace, tedy vzpomínka nebo představa. Druhou je vnitřní měřítko, podle něhož člověk pozná „skutečné“, typicky určitá kombinace jasu, detailu, smyslového bohatství a úhlu pohledu. Třetí je výstup v podobě pocitu jistoty nebo nejistoty, tedy ukončení smyčky ve smyslu modelu TOTE (Miller, Galanter a Pribram 1960). Pro pozorovatele je podstatné, že takový test je vnitřní a neověřuje nic mimo samotnou reprezentaci. Rozhoduje se podle toho, jak vzpomínka vypadá, ne podle toho, zda existují stopy události. Právě v tom spočívá zranitelnost. Pokud se vlastnosti představy změní, ať opakovaným vyprávěním, sugestivními otázkami, nebo cíleným výkladem, může se změnit i pocit jistoty, a to oběma směry.
 
-Vlivové zneužití využívá obou směrů. V prvním se pravá vzpomínka znejistí: mluvčí tvrdí, že rozmazanost nebo vnější pohled dokazuje, že se událost nestala, a vzpomínku označí za výplod fantazie. Ve druhém se představa posílí: opakované a detailní popisování domnělé události jí dodá smyslovou bohatost, kterou vnitřní test přijme za známku skutečnosti. Oba směry nevyžadují zvláštní techniku; stačí autorita, opakování a izolace od vnějších stop. Kompendium první směr popisuje jako [gaslighting](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md), druhý souvisí s rizikem nepravých vzpomínek v terapii, které katalog rozebírá v hesle [práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md).
+Vlivové zneužití využívá obou směrů. V prvním se pravá vzpomínka znejistí: mluvčí tvrdí, že
+rozmazanost nebo vnější pohled dokazuje, že se událost nestala, a vzpomínku označí za výplod
+fantazie. Ve druhém se představa posílí: opakované a detailní popisování domnělé události jí dodá
+smyslovou bohatost, kterou vnitřní test přijme za známku skutečnosti. Že už formulace otázky může do
+vzpomínky vnést podrobnost, která se nestala, ukázal pokus, v němž svědci po otázce s důraznějším
+slovesem častěji uváděli rozbité sklo, které na místě nebylo (Loftus a Palmer 1974). Oba směry
+nevyžadují zvláštní techniku; stačí autorita, opakování a izolace od vnějších stop. Kompendium první
+směr popisuje jako
+[gaslighting](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md), druhý souvisí
+s rizikem nepravých vzpomínek v terapii, které katalog rozebírá v hesle
+[práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md).
 
 ## Detekční znaky
 

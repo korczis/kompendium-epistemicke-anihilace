@@ -44,8 +44,8 @@ catalog_prev = "dve-kriva-jedno-pravo"
 catalog_next = "irelevantni-zaver"
 catalog_position = 27
 catalog_family_size = 28
-catalog_sources = ["grice-1975", "herman-1992", "kunda-1990", "petty-cacioppo-1986", "vrij-2008", "walton-1995", "watzlawick-1967", "eemeren-grootendorst-2004"]
-catalog_sources_primary = ["walton-1995", "eemeren-grootendorst-2004"]
+catalog_sources = ["govier-2010", "grice-1975", "herman-1992", "kunda-1990", "petty-cacioppo-1986", "vrij-2008", "walton-1995", "watzlawick-1967", "eemeren-grootendorst-2004"]
+catalog_sources_primary = ["govier-2010", "walton-1995", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975", "watzlawick-1967"]
 catalog_sources_critical = ["herman-1992", "kunda-1990", "petty-cacioppo-1986", "vrij-2008"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
@@ -122,7 +122,8 @@ Taktika se vyskytuje ve třech podobách. Odkladná podoba projednání neodmít
 klidem, který nemusí nikdy nastat. Diskreditační podoba tvrdí, že emoce dokazuje
 nespolehlivost mluvčího, například že je „hysterický“ nebo „nevyrovnaný“. Strategická podoba
 radí mluvčímu, že by byl úspěšnější, kdyby mluvil jinak, a tím ho činí odpovědným za to, že
-není vyslyšen. Ve všech podobách se obsah stížnosti nepřímo vyřazuje z jednání. Kompendium
+není vyslyšen. Ve všech podobách se obsah stížnosti nepřímo vyřazuje z jednání, což je podle
+pragma-dialektiky porušení pravidla svobody (van Eemeren a Grootendorst 2004). Kompendium
 popisuje příbuznou redukci emočního projevu na jediný stav definovaný druhou stranou u
 [afektivně-tonální redukce](@/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md).
 
@@ -161,7 +162,9 @@ Kontrola tónu má i genderový a kulturní rozměr, který je užitečné znát
 být u jednoho mluvčího vnímán jako rozhodnost a u jiného jako agresivita, podle toho, jaká
 očekávání se k jeho skupině vážou. Pozorovatel, který posuzuje, zda jde o taktiku, by proto
 měl sledovat nejen výrok o tónu, ale také to, komu je určen a zda by zazněl i vůči jinému
-mluvčímu ve stejné situaci. Tato asymetrie je často nejspolehlivějším vodítkem.
+mluvčímu ve stejné situaci. Tato asymetrie je často nejspolehlivějším vodítkem. Test
+odpovídá obecnému požadavku konzistence, podle něhož se podobné případy mají posuzovat
+podobně (Govier 2010).
 
 ## Stav poznání
 
@@ -196,6 +199,7 @@ námitku nesmí být podmíněno ničím, co nesouvisí s jejím obsahem (van Ee
 
 ## Literatura
 
+- Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.

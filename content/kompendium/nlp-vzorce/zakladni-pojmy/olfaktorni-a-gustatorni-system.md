@@ -130,7 +130,7 @@ společná jídla, půsty, zvláštní vůně při obřadech nebo na semináří
 pohoštění. Tyto prvky samy nejsou manipulací; patří k běžnému společenskému životu a k mnoha
 legitimním tradicím. Stávají se součástí vlivového vzorce, když se systematicky spojují s
 přijetím do skupiny a jejich odepření s nesouhlasem, nebo když se nedostatek jídla a spánku
-používá k oslabení odolnosti. Pro rozpoznání je užitečné sledovat, zda se dostupnost příjemných
+používá k oslabení odolnosti (Singer a Lalich 1995). Pro rozpoznání je užitečné sledovat, zda se dostupnost příjemných
 smyslových zážitků mění podle toho, jak se člověk chová vůči skupině nebo vůči mluvčímu. Taková
 podmíněnost je silnějším znakem než samotná přítomnost vůně nebo jídla.
 

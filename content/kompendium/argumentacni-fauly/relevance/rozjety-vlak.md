@@ -124,7 +124,8 @@ stanovisko, je povinen ho na požádání obhájit, a takový přesun je proto s
 pravidel kritické diskuse (van Eemeren a Grootendorst 2004).
 
 Rozjetý vlak má zvláštní dynamiku, protože se sám posiluje. Každý, kdo se přidá, zvětšuje
-počet, kterým se pak argumentuje vůči dalším. Rozhodnutí jednotlivců tak přestávají být
+počet, kterým se pak argumentuje vůči dalším, protože podle principu sociálního důkazu se
+názor zdá tím správnější, čím víc lidí ho přijímá (Cialdini 2009). Rozhodnutí jednotlivců tak přestávají být
 nezávislá a skupinová volba odráží spíš pořadí, v jakém se lidé přidávali, než jejich
 vlastní posouzení. Proto může rozjetý vlak vést ke kolektivním omylům, při nichž se velké
 množství lidí přidá k něčemu, co by jednotlivě nepřijal. Tato dynamika se objevuje u
@@ -139,8 +140,8 @@ Rozjetý vlak se v praxi zřídka objevuje osamoceně. S
 spojuje představa, že to, co přichází a šíří se, je lepší než to, co už existuje. S
 odvoláním na strach ho spojuje hrozba, že kdo se nepřidá, utrpí ztrátu. S argumentem
 opakováním ho spojuje to, že sdělení se šíří mnoha kanály a stále znovu, až se zdá
-samozřejmé. A s palbou nepravd ho spojuje vysoký objem a rychlost, které nedávají prostor k
-ověření. Rozlišení těchto prvků pomáhá při rozboru konkrétní kampaně, protože každý z nich
+samozřejmé (Hasher, Goldstein a Toppino 1977). A s palbou nepravd ho spojuje vysoký objem
+a rychlost, které nedávají prostor k ověření (Paul a Matthews 2016). Rozlišení těchto prvků pomáhá při rozboru konkrétní kampaně, protože každý z nich
 má jinou odpověď: na novost se odpovídá otázkou po výsledcích, na strach otázkou po
 skutečném riziku, na opakování otázkou po zdroji a na rozjetý vlak otázkou, proč je věc
 dobrá nezávisle na počtu stoupenců.
@@ -173,7 +174,9 @@ rozšířenost součástí důvodu, ne jeho náhražkou.
 
 Odlišit je třeba i skutečný časový limit od vyrobeného. Uzávěrka grantu, lhůta pro odvolání
 nebo konec registrace jsou skutečné a lze je ověřit. Lhůta, která se opakovaně prodlužuje,
-není nikde doložena nebo je stanovena jen tím, kdo nabídku prodává, je součástí tlaku.
+není nikde doložena nebo je stanovena jen tím, kdo nabídku prodává, je součástí tlaku;
+Cialdini takto vyrobenou uzávěrku popisuje jako taktiku založenou na principu vzácnosti
+(Cialdini 2009).
 
 ## Stav poznání
 

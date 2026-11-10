@@ -121,12 +121,13 @@ tedy hlasovou podobou obecného schématu [pacing a leading](@/kompendium/nlp-vz
 a často se kombinuje s verbální [shodou predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md).
 
 Pozorovatel by měl rozlišit dva směry, kterými se hlas v rozhovoru používá. Hlasová shoda
-vytváří dojem podobnosti a rovnosti. Hlasová dominance, kterou kompendium rozebírá u
+vytváří dojem podobnosti a rovnosti, podobně jako bezděčné napodobování, které zvyšuje
+vzájemnou sympatii (Chartrand a Bargh 1999). Hlasová dominance, kterou kompendium rozebírá u
 [prosodické dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), naopak
 vytváří dojem autority a potlačuje [kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md). Ve vlivových sekvencích se oba směry
 střídají: nejprve shoda, která sníží ostražitost, potom změna tónu, která nastolí vedení. V
 hypnotickém kontextu se k tomu přidává zvýraznění některých slov tónem nebo pauzou, jímž se
-z věty vyčleňuje skryté sdělení; katalog tyto jazykové prostředky popisuje v rodině
+z věty vyčleňuje skryté sdělení (Bandler a Grinder 1975b); katalog tyto jazykové prostředky popisuje v rodině
 [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md).
 
 ## Detekční znaky
@@ -138,7 +139,8 @@ po prvních větách volaného přejde do jeho tempa, například výrazně zpom
 člověka. Takové přizpůsobení samo o sobě není podezřelé, protože srozumitelnost je
 legitimní cíl. Varovné je jeho spojení s dalšími znaky: mluvčí zdůrazňuje podobnost
 („mluvíme stejně“, „jsme na stejné vlně“), přejímá vaše výrazy a vedení přichází v podobě
-změny tónu, po které následuje žádost.
+změny tónu, po které následuje žádost. Zdůrazňování podobnosti patří k obvyklým
+prostředkům, jimiž se ve vlivových situacích vytváří sympatie (Cialdini 2009).
 
 Dalším znakem je zvýrazňování jednotlivých slov, které neodpovídá běžnému důrazu věty, a
 pauzy, po nichž následuje sugestivní obrat. Kompendium tento mechanismus spojuje s

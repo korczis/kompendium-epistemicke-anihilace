@@ -111,7 +111,7 @@ Strukturálně má vzorec tři fáze. V první fázi se hodnoty zjišťují: mlu
 co je pro druhého v dané oblasti důležité, co by musel mít, aby byl spokojený, a co by ho
 naopak odradilo. Pozornost se soustředí na přesná slova a na jejich pořadí. Ve druhé fázi
 mluvčí tato slova vrací, často doslovně, a spojuje je s vlastním návrhem: nabídka „přináší
-svobodu“, skupina „je rodina“, pracovní místo „dává bezpečí“. Ve třetí fázi se shoda
+svobodu“, skupina „je rodina“, pracovní místo „dává bezpečí“ (Charvet 1997). Ve třetí fázi se shoda
 hodnotových slov vykládá jako shoda věcná. Druhý slyší, že jeho nejdůležitější hodnoty jsou
 naplněny, a protože slova jsou jeho vlastní, má sklon jim věřit.
 

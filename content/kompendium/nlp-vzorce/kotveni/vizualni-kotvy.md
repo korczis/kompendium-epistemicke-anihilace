@@ -164,7 +164,8 @@ zároveň hodnocení, které by druhá strana nebyla ochotna obhájit slovy. V p
 komunikaci se tak symboly, barvy a obrazy spojují s emocemi strachu nebo hrdosti a pak se
 používají místo argumentů; kompendium tyto mechanismy rozebírá na stránce
 [politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md). V uzavřených
-skupinách slouží symbol k připomínání příslušnosti a k vyvolání úzkosti při představě odchodu.
+skupinách slouží symbol k připomínání příslušnosti a k vyvolání úzkosti při představě odchodu; Hassan
+popisuje, že strach z odchodu bývá v manipulativních skupinách cíleně vštěpován (Hassan 1988).
 
 ## Stav důkazů
 

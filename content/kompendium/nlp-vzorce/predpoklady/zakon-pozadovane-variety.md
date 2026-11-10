@@ -107,7 +107,9 @@ převládá zjednodušená podoba.
 ## Struktura vzorce
 
 Strukturálně jde o přenos pojmu mezi obory, při kterém se ponechá jeho vědecká autorita a změní
-se jeho obsah. Výchozí zákon popisuje regulaci: aby systém zůstal v určitých mezích, musí jeho
+se jeho obsah, tedy o přejímání vnější podoby vědeckého jazyka bez metod, které by tvrzení
+ověřovaly (Roderique-Davies 2009). Výchozí zákon popisuje regulaci: aby systém zůstal v určitých
+mezích, musí jeho
 řídicí část disponovat dostatečnou rozmanitostí odpovědí. Formulace NLP z toho dělá výrok o
 hierarchii mezi účastníky: ten, kdo má víc možností chování, je „řídicím prvkem“. Mezi oběma
 tvrzeními je několik nevyslovených kroků. Účastníci rozhovoru se chápou jako prvky jediného
@@ -137,11 +139,15 @@ logika spojuje s přesvědčením, že každý odpor lze obejít, pokud má mluv
 prostředí pojednává stránka o [NLP v komunitě „umění
 svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md). Ve vztahu
 vedoucího a skupiny se předpoklad objevuje jako zdůvodnění, proč má vedoucí „právo“ určovat
-směr: je nejpružnější, a tedy přirozeně řídí. Kompendium popisuje takové vztahy na stránce o
+směr: je nejpružnější, a tedy přirozeně řídí. Lifton popsal, jak uzavřené systémy nárokují
+pro svou doktrínu autoritu vědy, aby ji vyňaly z kritiky (Lifton 1961). Kompendium popisuje takové
+vztahy na stránce o
 [vzorci guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md).
 
 U člověka, na kterého je předpoklad uplatňován, se může objevit pocit, že jeho jasné ne nestačí
 a že musí být „pružnější“, aby obstál, a vyčerpání z rozhovorů, které nekončí, dokud neustoupí.
+Výzkum vyhovění ukazuje, že ústup k jiné podobě žádosti po odmítnutí zvyšuje pravděpodobnost,
+že druhý nakonec vyhoví (Cialdini 2009).
 
 Odvolávka na vědu přitom plní roli, kterou výzkum vlivu dobře zná. Cialdini popisuje, jak
 symboly odbornosti, například tituly, zvyšují ochotu lidí vyhovět požadavku, aniž by obsah
@@ -163,7 +169,8 @@ prostředí (Bateson 1972).
 Manipulativní užití se rozpoznává podle tří otázek. Slouží pružnost potřebám druhého, nebo cíli
 mluvčího, který druhý nesdílí? Mění se přístup mluvčího po odmítnutí proto, aby lépe porozuměl,
 nebo proto, aby odmítnutí obešel? A uvádí mluvčí vědecký pojem, aniž by vysvětlil jeho původní
-obsah a meze? Pokud pružnost slouží obcházení odmítnutí a vědecký pojem zastírá prostý nárok na
+obsah a meze, a spoléhá tak na autoritu, kterou výzkum vyhovění popisuje jako zkratku k souhlasu
+(Cialdini 2009)? Pokud pružnost slouží obcházení odmítnutí a vědecký pojem zastírá prostý nárok na
 vliv, jde o vlivové užití, které kompendium popisuje v souvislosti s [raportem jako nástrojem
 vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md).
 
@@ -190,7 +197,9 @@ jde o rétoriku, ne o argument. Druhou obranou je trvat na tom, že odmítnutí 
 porucha, kterou má druhý odstranit větší pružností. Není nutné být „pružnější“ než ten, kdo
 naléhá; stačí opakovat odmítnutí a ukončit rozhovor. Třetí obranou je všímat si, kdy je
 interakce rámována jako soutěž, a odmítnout účast v ní: rozhovor, ve kterém jeden z účastníků
-usiluje o nadřazenou pozici, se nemusí vést až do konce.
+usiluje o nadřazenou pozici, se nemusí vést až do konce. Pragmatická teorie komunikace
+popisuje, jak se symetrické soupeření o pozici snadno stupňuje (Watzlawick, Beavin a Jackson
+1967).
 
 Pro člověka, který z prostředí, kde se tento předpoklad pěstoval, odchází, je součástí zotavení
 oddělit pružnost jako osobní dovednost od pružnosti jako povinnosti ustupovat. Pružnost, která

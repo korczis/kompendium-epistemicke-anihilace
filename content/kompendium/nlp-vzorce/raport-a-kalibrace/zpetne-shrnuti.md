@@ -113,7 +113,7 @@ z výroků zákazníka sestaví zdůvodnění rozhodnutí, ke kterému ho prodej
 Strukturálně má zpětné shrnutí dvě části. První je výběr: z toho, co druhý řekl, se vybere
 to, co se zopakuje. Druhá je podání: vybrané prvky se zopakují slovy druhého, často s jeho
 intonací a v pořadí, které jim dá nový smysl. V legitimní podobě je výběr reprezentativní a
-shrnutí je nabídnuto ke kontrole, s otázkou, zda je přesné. V manipulativní podobě je výběr
+shrnutí je nabídnuto ke kontrole, s otázkou, zda je přesné (Miller a Rollnick 2013). V manipulativní podobě je výběr
 selektivní: zopakují se ty výroky, které podporují cíl mluvčího, a ostatní se vynechají.
 Výsledné shrnutí zní jako věrné, protože se skládá ze slov druhého, ale jeho celkový smysl
 je smyslem mluvčího. Shrnutí pak slouží jako první část vzorce
@@ -143,7 +143,9 @@ nejsilnějších zdrojů ochoty vyhovět (Cialdini 2009).
 
 V institucionálním prostředí, například ve výsleších, pohovorech nebo v sepisování
 výpovědí, se selektivní shrnutí může projevit v zápisu, který se skládá ze slov vyslýchaného,
-ale vyznívá jinak, než zamýšlel. Kompendium podobný mechanismus popisuje obecně jako
+ale vyznívá jinak, než zamýšlel. Výzkum výpovědí svědků přitom ukazuje, že na
+formulaci záleží: slova, jimiž se tazatel ptá, mění, co svědek uvede i co si později
+vybaví (Loftus a Palmer 1974). Kompendium podobný mechanismus popisuje obecně jako
 [strategickou reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md);
 katalog pak v hesle [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md)
 rozebírá, jak se vzorce provázení uplatňují v těchto kontextech.
@@ -164,7 +166,8 @@ slouží shrnutí ke „sestavení“ důvodů ke koupi z výroků zákazníka, 
 zafixování ústupků druhé strany a v kontrolujících vztazích k přepisování toho, co druhý
 řekl: „Sám jsi přece řekl, že…“, přičemž se vynechá podmínka nebo kontext. V posledním případě
 se zpětné shrnutí stýká s mechanismy, které kompendium popisuje u zpochybňování paměti a
-vlastního úsudku.
+vlastního úsudku. Ve všech těchto podobách se využívá tlak ke konzistenci s tím, co
+člověk sám dříve řekl (Cialdini 2009).
 
 ## Stav důkazů
 
@@ -186,7 +189,8 @@ které selektivní shrnutí využívá.
 Nejjednodušší obranou je shrnutí opravit, a to vlastními slovy. Pokud mluvčí shrne, co
 jste řekli, je legitimní a užitečné doplnit, co v shrnutí chybí: „Řekl jsem také, že si to
 chci rozmyslet a že mi vadí cena.“ Oprava vrací do shrnutí výhrady a ruší zdánlivou
-logiku, která z něj měla vést k závěru. Druhou obranou je oddělit souhlas se shrnutím
+logiku, která z něj měla vést k závěru. Odpovídá to měřítku, podle kterého má úplné
+shrnutí zahrnovat i výhrady a důvody proti (Miller a Rollnick 2013). Druhou obranou je oddělit souhlas se shrnutím
 přání od souhlasu s návrhem: chtít jistotu neznamená chtít konkrétní produkt. Třetí obranou,
 zejména v institucionálním prostředí, je trvat na tom, že zápis výpovědi musí obsahovat i
 výhrady a podmínky, a nepodepisovat shrnutí, které neodpovídá tomu, co člověk řekl.

@@ -44,8 +44,8 @@ catalog_prev = "hierarchie-otazek-meta-modelu"
 catalog_next = "poruseni-selekcnich-omezeni-meta"
 catalog_position = 16
 catalog_family_size = 17
-catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "druckman-swets-1988", "herman-1992", "loftus-palmer-1974", "oconnor-seymour-1990", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
+catalog_sources = ["bandler-grinder-1975", "cialdini-2009", "druckman-swets-1988", "herman-1992", "loftus-palmer-1974", "oconnor-seymour-1990", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "walton-1995", "wiseman-2012", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990", "walton-1995"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -150,7 +150,9 @@ definici“ a „konkrétní důkaz“ ke každému slovu protistrany, který se
 tazatel porozuměl, ale aby protistrana vypadala nepřipravená. Kompendium tuto podobu
 popisuje jako [mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md).
 Společným znakem všech podob je, že otázka po přesnosti neslouží k doplnění informace,
-ale k vyčerpání a zdiskreditování dotazovaného.
+ale k vyčerpání a zdiskreditování dotazovaného. Teorie argumentace takový tah popisuje obecně:
+krok, který formálně patří ke kritické diskusi, se užívá tak, že cíl dialogu místo naplnění
+zablokuje (Walton 1995).
 
 ## Legitimní a manipulativní užití
 
@@ -214,6 +216,7 @@ zpochybňována za nepřesnost (Herman 1992).
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
+- Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 

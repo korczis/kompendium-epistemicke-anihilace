@@ -44,8 +44,8 @@ catalog_prev = "kruhovy-argument"
 catalog_next = "falesne-dilema"
 catalog_position = 2
 catalog_family_size = 20
-catalog_sources = ["hahn-oaksford-2007", "hamblin-1970", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "tversky-kahneman-1981", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
-catalog_sources_primary = ["hamblin-1970", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources = ["copi-cohen-mcmahon-2014", "hahn-oaksford-2007", "hamblin-1970", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "tversky-kahneman-1981", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["levinson-1983"]
 catalog_sources_critical = ["hahn-oaksford-2007", "lifton-1961", "loftus-palmer-1974", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Varianty", "Stav poznání", "Obrana a odpověď"]
@@ -157,9 +157,11 @@ nepřiznává.
 ## Varianty
 
 Vedle klasické otázky se skrytým přiznáním se objevuje několik dalších podob. Otázka po
-příčině předpokládá skutečnost, jejíž příčinu hledá („Proč vám kolegové nevěří?“). Otázka
-volby nabízí dvě odpovědi, které obě obsahují týž předpoklad, a blíží se tak
-[falešnému dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md). Otázka ve formě
+příčině předpokládá skutečnost, jejíž příčinu hledá („Proč vám kolegové nevěří?“). Otázka volby
+nabízí dvě odpovědi, které obě obsahují týž předpoklad, a blíží se tak
+[falešnému dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md). Učebnicová tradice tento
+tvar řadí ke klamu složené otázky: každá přímá odpověď přijímá předpoklad, o kterém se v rozhovoru
+nerozhodlo (Copi, Cohen a McMahon 2014). Otázka ve formě
 zdvořilého ověření („Uvědomujete si, jak tím ubližujete rodině?“) předpokládá jak ubližování,
 tak to, že je odpovídající dosud neviděl. Řečnická otázka v médiích nebo v diskusi
 předpoklad šíří, aniž by na ni někdo měl odpovědět, a mluvčí se pak může hájit, že se „jen
@@ -202,6 +204,7 @@ totalitních skupin (Lifton 1961).
 
 ## Literatura
 
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.

@@ -88,8 +88,8 @@ Gilovich ukazuje, že lidé jen výjimečně myslí na data, která chybějí, a
 neúplných dat je jedním z hlavních zdrojů mylných přesvědčení v běžném životě (Gilovich
 1991).
 
-Klam je chybou i taktikou. Spontánně vzniká proto, že neúspěšné případy jsou neviditelné.
-Záměrně se uplatňuje v marketingu, v náboru do skupin a v prodeji kurzů, kde se předvádějí
+Klam je chybou i taktikou. Spontánně vzniká proto, že neúspěšné případy jsou neviditelné (Gilovich
+1991). Záměrně se uplatňuje v marketingu, v náboru do skupin a v prodeji kurzů, kde se předvádějí
 ti, kterým se dařilo, a ostatní se nezmiňují.
 
 ## Původ a souvislosti
@@ -100,7 +100,9 @@ letadla vracející se z misí. Podstatou jeho úvahy bylo, že soubor vrácený
 neobsahuje ta, která byla zasažena na nejzranitelnějších místech, protože se nevrátila.
 Místa bez zásahů na vrácených letadlech proto mohou být právě ta, kde zásah znamenal
 ztrátu. Populární podání příběh zjednodušuje a Waldova skutečná práce byla matematicky
-složitější, ale jádro úvahy je přesné: chybějící data jsou součástí dat.
+složitější, ale jádro úvahy je přesné: chybějící data jsou součástí dat. Intuitivní úsudek k nim sám
+nesměřuje; Kahneman tento sklon shrnuje zkratkou „co vidíš, je vše, co existuje“, protože
+rychlé myšlení staví příběh jen z informací, které má před sebou (Kahneman 2011).
 
 V literatuře o zavádějící statistice popisuje Huff obecnější problém vzorku se zabudovaným
 zkreslením. Jedním z jeho příkladů je průzkum příjmů absolventů jedné univerzity, který
@@ -114,14 +116,13 @@ vybraných firem se navíc často vrací k průměru, což ukazuje, jak velký p
 
 ## Struktura argumentu
 
-Argument má tuto stavbu. První premisa popisuje soubor případů, které mají výsledek V:
-úspěšné podnikatele, dlouho stojící stavby, vyléčené pacienty. Druhá premisa uvádí, že
-tyto případy mají společný rys R: absolvovali určitý kurz, byly postaveny starou technikou,
-užívali určitý přípravek. Závěr tvrdí, že R vede k V. Chybí v něm údaj, jak časté je R u
-případů, které V nemají, a kolik případů s R skončilo bez V. Protože soubor byl vybrán
-podle V, nelze z něj rozhodnout, zda R s V souvisí. Kdyby všichni úspěšní podnikatelé
-nosili brýle, nevyplývalo by z toho nic, dokud nevíme, kolik neúspěšných podnikatelů nosí
-brýle také.
+Argument má tuto stavbu. První premisa popisuje soubor případů, které mají výsledek V: úspěšné
+podnikatele, dlouho stojící stavby, vyléčené pacienty. Druhá premisa uvádí, že tyto případy mají
+společný rys R: absolvovali určitý kurz, byly postaveny starou technikou, užívali určitý přípravek.
+Závěr tvrdí, že R vede k V. Chybí v něm údaj, jak časté je R u případů, které V nemají, a kolik
+případů s R skončilo bez V (Gilovich 1991). Protože soubor byl vybrán podle V, nelze z něj
+rozhodnout, zda R s V souvisí. Kdyby všichni úspěšní podnikatelé nosili brýle, nevyplývalo by z toho
+nic, dokud nevíme, kolik neúspěšných podnikatelů nosí brýle také.
 
 Zvláštní podobou je argument z trvání: „vydrželo to staletí, tedy je to dobré“. Staré
 stavby, tradiční postupy nebo dlouho fungující instituce jsou výběrem těch, které
@@ -132,15 +133,15 @@ vybrána způsobem souvisejícím se závěrem (Damer 2009).
 
 ## Detekční znaky
 
-Prvním znakem je soubor vybraný podle výsledku: příběhy úspěchu, svědectví spokojených
-klientů, galerie absolventů, seznam firem, které „to dokázaly“. Druhým znakem je chybějící
-jmenovatel. Mluvčí uvádí, kolik lidí uspělo, ale ne kolik to zkoušelo; kolik pacientů se
-uzdravilo, ale ne kolik jich léčbu přerušilo. Třetím znakem je otázka, kterou nelze
-zodpovědět, protože data neexistují: kde jsou ti, kdo neuspěli? Pokud na ni mluvčí
-odpovídá, že „to nedělali správně“, přesouvá neúspěšné případy mimo soubor a činí tvrzení
-nevyvratitelným. Čtvrtým znakem je argument z dlouhověkosti, v němž trvání nahrazuje
-srovnání. Pátým znakem je prostředí, kde neúspěch odchází tiše: firmy zanikají, studenti
-odcházejí, členové skupin mizí a nikdo je nepočítá.
+Prvním znakem je soubor vybraný podle výsledku: příběhy úspěchu, svědectví spokojených klientů,
+galerie absolventů, seznam firem, které „to dokázaly“. Druhým znakem je chybějící jmenovatel. Mluvčí
+uvádí, kolik lidí uspělo, ale ne kolik to zkoušelo; kolik pacientů se uzdravilo, ale ne kolik jich
+léčbu přerušilo; právě případy, které hledaný výsledek nemají, lidé při posuzování souvislostí
+soustavně přehlížejí (Gilovich 1991). Třetím znakem je otázka, kterou nelze zodpovědět, protože data
+neexistují: kde jsou ti, kdo neuspěli? Pokud na ni mluvčí odpovídá, že „to nedělali správně“,
+přesouvá neúspěšné případy mimo soubor a činí tvrzení nevyvratitelným. Čtvrtým znakem je argument z
+dlouhověkosti, v němž trvání nahrazuje srovnání. Pátým znakem je prostředí, kde neúspěch odchází
+tiše: firmy zanikají, studenti odcházejí, členové skupin mizí a nikdo je nepočítá.
 
 V oblasti, které se kompendium věnuje, je klam typickým prvkem náboru do uzavřených skupin
 a do nákladných programů osobního rozvoje. Předvádění vybraných úspěšných členů na

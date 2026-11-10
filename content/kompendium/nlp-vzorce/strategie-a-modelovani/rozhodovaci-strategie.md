@@ -88,7 +88,15 @@ Pojem vychází ze snahy rané kognitivní psychologie vysvětlit cílené jedn�
 
 Strukturálně se rozhodovací strategie podle NLP skládá ze vstupu, z řetězce porovnání a z výstupního kritéria. Vstupem je vnější podnět, například nabídka, kterou člověk vidí nebo slyší. Řetězec porovnání tvoří vnitřní operace, kterými člověk nabídku zpracovává: vybavuje si podobné situace, představuje si důsledky, mluví sám se sebou. Výstupním kritériem je stav, podle něhož pozná, že je rozhodnuto, typicky pocit jistoty nebo klidu (Dilts a kol. 1980). Vlivové užití stojí na tom, že se tento sled nejprve zjistí a pak se nabídka podá ve stejném pořadí, které má po krocích vést až k výstupnímu pocitu. Pozorovatel by měl vidět, že taková konstrukce převrací vztah mezi obsahem a formou: rozhoduje se o tom, jak nabídku podat, aby vyvolala výstupní pocit, ne o tom, zda je pro člověka dobrá.
 
-Důležité je i to, co model vynechává. Rozhodnutí v něm vystupuje jako vnitřní mechanismus, který se spustí, když dostane správné vstupy. Chybí v něm vnější okolnosti, které rozhodování u zdravého člověka skutečně ovlivňují: čas na rozmyšlenou, možnost poradit se, srovnat alternativy a odmítnout bez následků. Kompendium tyto okolnosti rozebírá u [posouzení schopnosti rozhodovat](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md), kde se schopnost rozhodnutí posuzuje podle porozumění informacím, jejich zvážení a vyjádření volby, nikoli podle toho, zda člověk dosáhl určitého pocitu.
+Důležité je i to, co model vynechává. Rozhodnutí v něm vystupuje jako vnitřní mechanismus, který se
+spustí, když dostane správné vstupy. Chybí v něm vnější okolnosti, které rozhodování u zdravého
+člověka skutečně ovlivňují: čas na rozmyšlenou, možnost poradit se, srovnat alternativy a odmítnout
+bez následků. Výzkum přesvědčování ukazuje, že pečlivé zvážení sdělení vyžaduje vedle motivace i
+příležitost, tedy čas a nepřítomnost rozptýlení, a že bez nich se lidé řídí spíš okrajovými vodítky
+(Petty a Cacioppo 1986). Kompendium tyto okolnosti rozebírá u
+[posouzení schopnosti rozhodovat](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md),
+kde se schopnost rozhodnutí posuzuje podle porozumění informacím, jejich zvážení a vyjádření volby,
+nikoli podle toho, zda člověk dosáhl určitého pocitu.
 
 ## Detekční znaky
 

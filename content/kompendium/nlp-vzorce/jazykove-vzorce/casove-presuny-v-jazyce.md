@@ -112,7 +112,7 @@ Vzorec lze rozložit na tři pohyby. První je odsunutí do minulosti: přítomn
 pojmenuje minulým časem nebo se k němu připojí výraz „tehdy“, „dřív“, „to bylo“. Druhý je
 předjímání budoucnosti: žádoucí stav se popíše budoucím časem jako jistý („až to budete
 umět“) nebo minulým časem z pohledu budoucnosti („až budete vyprávět, jak jste to
-překonal“). Třetí je přerámování trvání: opakující se jev se popíše jako jednotlivá
+překonal“) (Bandler a Grinder 1975b). Třetí je přerámování trvání: opakující se jev se popíše jako jednotlivá
 událost („ten jeden incident“), nebo naopak jednotlivá událost jako trvalý rys („ty pořád“).
 Ve všech třech pohybech mluvčí určuje, kde na časové ose zkušenost leží, a posluchač, který
 odpovídá na obsah věty, toto umístění zpravidla přijímá bez povšimnutí.

@@ -44,10 +44,10 @@ catalog_prev = "detekce-lzi-v-nlp"
 catalog_next = "pseudoempatie"
 catalog_position = 15
 catalog_family_size = 16
-catalog_sources = ["bandler-grinder-1979", "ekman-2003", "gilovich-1991", "heap-1988", "oconnor-seymour-1990", "satir-1972", "sharpley-1987", "vrij-2008", "watzlawick-1967", "wiseman-2012", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1979", "ekman-2003", "gilovich-1991", "heap-1988", "lifton-1961", "oconnor-seymour-1990", "satir-1972", "sharpley-1987", "vrij-2008", "watzlawick-1967", "wiseman-2012", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
-catalog_sources_critical = ["ekman-2003", "gilovich-1991", "heap-1988", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
+catalog_sources_critical = ["ekman-2003", "gilovich-1991", "heap-1988", "lifton-1961", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -162,7 +162,9 @@ pozorovateli a slova druhého se tím znehodnocují. V prodeji a vyjednávání 
 „čtení“ k přizpůsobení tlaku: kdo se domnívá, že druhý váhá, přidá argument nebo zkrátí
 čas. V kontrolujících vztazích slouží k tomu, aby měl jeden partner vždy poslední slovo o
 prožívání druhého. Ve skupinách vedených charismatickým vůdcem se schopnost „vidět do
-lidí“ připisuje vůdci a podporuje jeho autoritu.
+lidí“ připisuje vůdci a podporuje jeho autoritu. Lifton u systémů myšlenkové reformy popsal
+obdobné nadřazení doktríny osobě, v němž výklad skupiny má přednost před vlastní zkušeností
+člena (Lifton 1961).
 
 ## Stav důkazů
 
@@ -202,6 +204,7 @@ Příbuzné omyly rozebírá stránka o
 - Ekman, P. (2003). *Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life*. New York: Times Books.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.

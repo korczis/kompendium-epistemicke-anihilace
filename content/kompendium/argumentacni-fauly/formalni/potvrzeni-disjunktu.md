@@ -44,10 +44,10 @@ catalog_prev = "existencni-klam"
 catalog_next = "vylucujici-premisy"
 catalog_position = 9
 catalog_family_size = 14
-catalog_sources = ["copi-cohen-mcmahon-2014", "grice-1975", "kahneman-2011", "levinson-1983", "nickerson-1998", "stark-2007", "walton-2008", "eemeren-grootendorst-1992"]
-catalog_sources_primary = ["copi-cohen-mcmahon-2014", "walton-2008", "eemeren-grootendorst-1992"]
+catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "grice-1975", "kahneman-2011", "kunda-1990", "levinson-1983", "nickerson-1998", "stark-2007", "walton-2008", "eemeren-grootendorst-1992"]
+catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "walton-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
-catalog_sources_critical = ["kahneman-2011", "nickerson-1998", "stark-2007"]
+catalog_sources_critical = ["kahneman-2011", "kunda-1990", "nickerson-1998", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -89,7 +89,8 @@ platí B. Ten nevyžaduje žádný předpoklad o výlučnosti.
 Klam je zrádný tím, že jeho závěr často zní rozumně. Kdo zjistí jednu příčinu potíže, cítí,
 že hledání skončilo. Úsudek „je to buď hardware, nebo software; hardware je vadný; software
 je tedy v pořádku“ působí jako úspora času, ale ve skutečnosti uzavírá otázku, kterou nikdo
-neprověřil.
+neprověřil. Rychlé intuitivní myšlení se spokojí s vysvětlením, které je po ruce, a neúplnost
+podkladů nevnímá (Kahneman 2011).
 
 ## Původ a souvislosti
 
@@ -107,7 +108,8 @@ zrušit, aniž by mluvčí odporoval sám sobě (Grice 1975). Lingvistická prag
 „nebo“ do škály výrazů, mezi nimiž slabší člen implikuje popření silnějšího (Levinson 1983).
 
 Potvrzení disjunktu tedy vzniká na styku logiky a pragmatiky. Implikatura „ne obojí“ je
-v běžném rozhovoru užitečná zkratka. Klam nastává tehdy, když se tato zkratka použije jako
+v běžném rozhovoru užitečná zkratka, kterou posluchač vyvozuje z kooperativního principu a
+kterou lze zrušit (Grice 1975; Levinson 1983). Klam nastává tehdy, když se tato zkratka použije jako
 pevná premisa v úsudku, na jehož závěru něco záleží: v diagnóze, ve vyšetřování nebo v
 rozhodnutí o odpovědnosti. Historie stoického tvaru ukazuje, že spor se nevede o logiku
 samu, ale o to, které čtení spojky premisa skutečně tvrdí.
@@ -123,7 +125,7 @@ rekonstruovat a posoudit, zda ji mluvčí může obhájit (van Eemeren a Grooten
 
 Klam se často spojuje s jinou vadou, s
 [falešným dilematem](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md). Falešné dilema
-zužuje prostor možností na dvě, ačkoli jich je víc; potvrzení disjunktu pak mezi dvěma
+zužuje prostor možností na dvě, ačkoli jich je víc (Damer 2009); potvrzení disjunktu pak mezi dvěma
 zbylými možnostmi předstírá výlučnost. Obě vady se mohou sčítat: nejprve se svět zúží na
 „buď je to tvá chyba, nebo moje“, a pak se z doložení jedné chyby vyvodí nevina druhé
 strany. Jazykově blízký je vzorec, který katalog NLP popisuje jako
@@ -139,7 +141,8 @@ výběr mezi příčinami, které se v daném oboru běžně vyskytují společn
 příčina potíží, lidská a technická příčina nehody, úmysl a nedbalost. Třetím znakem je
 asymetrie zájmu. Mluvčí, kterému prospívá vyloučení jedné možnosti, potvrdí druhou a dál se
 neptá. Kdo hájí obsluhu zařízení, rád zjistí softwarovou chybu; kdo hájí dodavatele
-softwaru, rád zjistí chybu obsluhy.
+softwaru, rád zjistí chybu obsluhy. Výzkum motivovaného uvažování popisuje, že lidé prověřují
+přísněji závěry, které si nepřejí, než závěry vítané (Kunda 1990).
 
 Zvláštní pozornost si zaslouží klinický kontext. U pacientů se známou psychiatrickou
 diagnózou se tělesné obtíže někdy připisují této diagnóze a tělesná příčina se dál
@@ -159,7 +162,8 @@ postupně omezuje svobodu a sebeurčení druhého, nikoli jako sled oddělených
 oběma způsoby), nebo z fyzické nemožnosti souběhu (v jednom okamžiku na jednom ze dvou
 vzdálených míst). V těchto případech je závěr o vyloučení druhé možnosti oprávněný a není
 důvod v něm hledat chybu. Platný je také disjunktivní sylogismus, který postupuje opačně:
-nevyvozuje nic z potvrzení, ale z vyloučení jedné možnosti.
+nevyvozuje nic z potvrzení, ale z vyloučení jedné možnosti; učebnice logiky ho uvádějí jako
+platný tvar právě proto, že se opírá jen o zahrnující smysl disjunkce (Copi, Cohen a McMahon 2014).
 
 Neformální teorie argumentace upozorňuje, že ne každý závěr „tedy spíš ne B“ je klamný.
 Pokud jedna nalezená příčina plně vysvětluje pozorovaný stav, může být rozumné snížit
@@ -200,8 +204,10 @@ otevřenou otázku, kterou by potvrzení disjunktu předčasně uzavřelo.
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
+- Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
+- Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.

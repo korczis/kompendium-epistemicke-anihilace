@@ -122,7 +122,7 @@ nevyplývá, ale je k ní připojen spojkou nebo spojovacím slovem, například
 [pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md).
 
 Neverbální podoba stojí na zrcadlení a sladění rytmů a přechází k vedení tím, že mluvčí
-změní vlastní chování a sleduje, zda ho druhý následuje. Obě podoby spojuje logika
+změní vlastní chování a sleduje, zda ho druhý následuje (Bandler a Grinder 1979). Obě podoby spojuje logika
 asymetrického přenosu: shoda vznikne v oblasti, kde je pravdivá a levná, a použije se v
 oblasti, kde jde o skutečné rozhodnutí. Pozorovatel by měl sledovat právě tento bod spoje.
 Rozhodující otázkou je, zda vedení navazuje na cíle druhého a nechává mu volbu, nebo zda
@@ -134,7 +134,8 @@ přípravy, nikoli porozumění.
 Verbální provázení a vedení se pozná podle nahromadění popisů, se kterými nelze nesouhlasit,
 po nichž bez argumentu následuje závěr. Typickým znakem je spojka, která předstírá příčinnou
 souvislost: několik popisů přítomné situace posluchače, které jsou zjevně pravdivé, se
-spojí slovem „a proto“ s tvrzením, že nastal čas se rozhodnout. Druhým znakem je rytmus: provázení bývá několikanásobné, často trojí, a
+spojí slovem „a proto“ s tvrzením, že nastal čas se rozhodnout; literatura oboru tyto spojky popisuje jako
+jazykové propojení, které má přenést souhlas z jednoho výroku na druhý (Bandler a Grinder 1975b). Druhým znakem je rytmus: provázení bývá několikanásobné, často trojí, a
 vedení přichází na konci řady, kdy už se vytvořil zvyk přitakávat. Třetím znakem je obsah
 popisů. Mluvčí popisuje tělesné a smyslové prožitky, které jsou v dané chvíli téměř
 jisté, nebo obecné pocity, které má většina lidí, a tím vytváří dojem, že druhého
@@ -161,7 +162,9 @@ směr pohybu určuje klient, a možnost nesouhlasit zůstává otevřená.
 
 Manipulativní užití obrací vztah: provázení slouží jako prostředek, který má cíl mluvčího
 převléct za pokračování zkušenosti druhého. V prodeji vede k uzavření obchodu, v náboru ke
-vstupu do skupiny, v mocensky nerovných vztazích k převzetí výkladu autority. V kompendiu
+vstupu do skupiny, v mocensky nerovných vztazích k převzetí výkladu autority. Literatura o vlivu i o náboru do
+skupin s vysokou mírou kontroly popisuje, jak pozornost a souhlas na začátku připravují
+pozdější žádost (Cialdini 2009; Hassan 1988). V kompendiu
 odpovídá tato dynamika [vzorci guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md),
 kde počáteční porozumění zakládá pozdější výlučné právo autority hodnotit, a technice
 [pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md),

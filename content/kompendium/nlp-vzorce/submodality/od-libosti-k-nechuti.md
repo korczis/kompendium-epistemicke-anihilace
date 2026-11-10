@@ -133,7 +133,8 @@ Pro rozpoznání zneužití je klíčové sledovat, na co se nechuť přenáší
 se v rozhovoru opakovaně vyvolávají představy blízkých osob, bývalých přátel nebo dřívějších
 zálib v ponížené, šedé, vzdálené nebo odpudivé podobě, a to s komentářem, který tuto podobu
 vydává za „pravdu“ nebo za projev osvobození. Dalším znakem je, že se odpor k vnějším lidem nebo
-institucím ve skupině odměňuje a jeho absence se vykládá jako připoutanost ke starému životu.
+institucím ve skupině odměňuje a jeho absence se vykládá jako připoutanost ke starému životu
+(Singer a Lalich 1995; Hassan 1988).
 Mluvčí může nechuť doprovázet tělesnými obrazy, například že se z určité osoby „dělá zle“, a
 tím prožitek ukotvit v těle.
 

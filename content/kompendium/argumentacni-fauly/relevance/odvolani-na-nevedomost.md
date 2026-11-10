@@ -133,7 +133,8 @@ určitý jev, má platit vysvětlení, které nabízí mluvčí. Tato podoba se 
 mezer“ a od čistého odvolání na nevědomost se liší tím, že mezera v poznání má sloužit jako
 kladný doklad pro konkrétní alternativu. Bezpečnostní varianta tvrdí, že látka, technologie
 nebo postup jsou neškodné, protože škodlivost nebyla zjištěna, ačkoli ji nikdo soustavně
-nehledal. Osobní varianta se objevuje v konfliktech a vyšetřováních: obviněný je nevinný,
+nehledal; právě na důkladnost hledání míří kritické otázky schématu (Walton, Reed a
+Macagno 2008). Osobní varianta se objevuje v konfliktech a vyšetřováních: obviněný je nevinný,
 protože proti němu nejsou svědci, nebo naopak vinný, protože se nedokázal obhájit. Zvláštní
 podobou je požadavek, aby druhá strana prokázala zápornou existenční větu, například že
 neexistuje žádný skrytý vliv. Takový požadavek nelze splnit, a jeho nesplnění proto nic

@@ -88,7 +88,9 @@ modelových trestních věcech (Thompson a Schumann 1987).
 Název neznamená, že klam používají jen žalobci. Dopouštějí se ho znalci, soudci, novináři
 i vyšetřovatelé, a jeho logická podoba se objevuje i mimo soudní síň: v medicíně, v
 bezpečnostním prověřování a všude, kde se z nízké pravděpodobnosti důkazu za určité
-hypotézy vyvozuje nízká pravděpodobnost hypotézy samotné.
+hypotézy vyvozuje nízká pravděpodobnost hypotézy samotné. Gigerenzer dokládá záměnu
+podmíněných pravděpodobností u znalců i u lékařů interpretujících výsledky testů (Gigerenzer
+2002).
 
 ## Původ a souvislosti
 
@@ -131,12 +133,14 @@ pravděpodobnosti viny rozhoduje jejich poměr, ne vzácnost jedné z nich. Thom
 Schumann ukazují, že právě vynechání těchto veličin dělá z korektního údaje o četnosti
 znaku nekorektní závěr o vině (Thompson a Schumann 1987).
 
-Častým doprovodným krokem je chybné násobení pravděpodobností dílčích událostí, které se
-považují za nezávislé, ačkoli nezávislé nejsou. Sdílené genetické nebo prostředí podmíněné
-rizikové faktory mohou zvyšovat pravděpodobnost druhé události, pokud nastala první.
-Takový výpočet je zároveň příbuzný [klamu konjunkce](@/kompendium/argumentacni-fauly/statisticke/klam-konjunkce.md)
-v tom, že pracuje se souběhem událostí, jen opačným směrem: místo přeceňování souběhu ho
-podceňuje tím, že přehlíží jeho vnitřní souvislost.
+Častým doprovodným krokem je chybné násobení pravděpodobností dílčích událostí, které se považují za
+nezávislé, ačkoli nezávislé nejsou. Sdílené genetické nebo prostředí podmíněné rizikové faktory
+mohou zvyšovat pravděpodobnost druhé události, pokud nastala první. Takový výpočet je zároveň
+příbuzný [klamu konjunkce](@/kompendium/argumentacni-fauly/statisticke/klam-konjunkce.md) v tom, že
+pracuje se souběhem událostí, jen opačným směrem: místo přeceňování souběhu ho podceňuje tím, že
+přehlíží jeho vnitřní souvislost. Výsledný součin navíc bývá podán jako jediné nápadné číslo, a
+Gigerenzer ukazuje, že i správně spočtená pravděpodobnost náhodné shody se snadno chápe jako
+pravděpodobnost neviny (Gigerenzer 2002).
 
 ## Detekční znaky
 

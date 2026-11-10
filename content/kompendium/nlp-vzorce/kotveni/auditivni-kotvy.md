@@ -165,8 +165,8 @@ hypnóze, s níž klient souhlasil a jejímž cílem byla jeho úleva (Bandler a
 
 Manipulativní užití nastává, když se zvukový podnět stává nástrojem kontroly. V
 kontrolujícím vztahu je tonální signál součástí systému, v němž oběť předvídá trest z drobných
-znaků, a sám tón pak udržuje poslušnost. V uzavřené skupině slouží nabité slovo k tomu, aby
-pochybnost umlkla dřív, než se vysloví. Kompendium tuto strukturu rozebírá v hesle
+znaků, a sám tón pak udržuje poslušnost (Herman 1992). V uzavřené skupině slouží nabité slovo k tomu, aby
+pochybnost umlkla dřív, než se vysloví (Lifton 1961). Kompendium tuto strukturu rozebírá v hesle
 [Liftonova kritéria myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md)
 a příbuzné zužování emočního pole v hesle
 [afektivně-tonální redukce](@/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md).

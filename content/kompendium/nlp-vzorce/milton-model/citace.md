@@ -44,8 +44,8 @@ catalog_prev = "ano-sada"
 catalog_next = "poruseni-selekcnich-omezeni"
 catalog_position = 9
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "lakoff-johnson-1980", "levinson-1983", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "rosen-1982", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-1977"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "lakoff-johnson-1980", "levinson-1983", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "rosen-1982", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-delozier-bandler-1977"]
 catalog_sources_roots = ["haley-1973", "levinson-1983", "rosen-1982"]
 catalog_sources_critical = ["cialdini-2009", "hassan-1988", "heap-1988", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -119,9 +119,8 @@ mluvčí v tu chvíli změní hlas nebo se na něj podívá.
 
 Citace navíc přesouvá autoritu. Citát může pocházet od učitele, mistra, uznávaného
 odborníka, zesnulého předka nebo neurčité postavy, jejíž autoritu posluchač nemůže ověřit.
-Mluvčí si autoritu citované osoby vypůjčuje, a přitom nemusí ručit za to, zda dotyčná osoba
-citovaný výrok skutečně pronesla. Tím se vzorec blíží jevu, který NLP v meta-modelu nazývá
-ztraceným performativem, tedy hodnocení bez uvedeného původce, a který Milton-model naopak
+Lidé mají sklon vyhovět autoritě i tehdy, když ji znají jen z jejích vnějších znaků (Cialdini 2009). Mluvčí si autoritu citované osoby vypůjčuje, a přitom nemusí ručit za to, zda dotyčná osoba
+citovaný výrok skutečně pronesla. Tím se vzorec blíží jevu, který NLP v meta-modelu nazývá ztraceným performativem, tedy hodnocení bez uvedeného původce (Bandler a Grinder 1975), a který Milton-model naopak
 využívá. Vzniká sdělení, za které nikdo neodpovídá: mluvčí jen cituje, citovaná osoba
 nemluví k posluchači a posluchač má sdělení přijmout jako obecnou moudrost.
 
@@ -197,6 +196,7 @@ se kterými lze souhlasit nebo nesouhlasit.
 
 ## Literatura
 
+- Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Grinder, J., DeLozier, J., & Bandler, R. (1977). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 2*. Cupertino: Meta Publications.

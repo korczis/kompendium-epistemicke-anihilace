@@ -86,10 +86,10 @@ stereotypem a údaj o četnostech téměř nepoužijí (Tversky a Kahneman 1974)
 závažnější, čím vzácnější je hledaný jev: u vzácné nemoci, vzácného trestného činu nebo
 vzácného rizika může i velmi přesný test vést k závěru, který je častěji mylný než správný.
 
-V argumentaci se klam objevuje dvojím způsobem. Jako chyba vzniká spontánně, protože
-názorný důkaz je živější než abstraktní podíl. Jako taktika se objevuje tam, kde mluvčí
-předkládá přesnost testu, svědectví nebo profilu a mlčí o tom, jak často se hledaný jev
-vůbec vyskytuje, protože by tato informace jeho závěr oslabila.
+V argumentaci se klam objevuje dvojím způsobem. Jako chyba vzniká spontánně, protože názorný důkaz
+je živější než abstraktní podíl (Kahneman 2011). Jako taktika se objevuje tam, kde mluvčí předkládá
+přesnost testu, svědectví nebo profilu a mlčí o tom, jak často se hledaný jev vůbec vyskytuje,
+protože by tato informace jeho závěr oslabila.
 
 ## Původ a souvislosti
 
@@ -121,7 +121,8 @@ premisa konstatuje, že u zkoumaného jednotlivce byl D zjištěn. Závěr tvrd�
 má H s vysokou pravděpodobností. Chybí v něm dvě veličiny: jak často se D vyskytuje u těch,
 kdo H nemají, a jak častá je H v populaci, z níž jednotlivec pochází. Bez nich závěr
 nevyplývá. Pokud je H vzácná, pak i malý podíl falešně pozitivních nálezů mezi velkým
-počtem lidí bez H může převážit nad skutečně pozitivními nálezy mezi malým počtem lidí s H.
+počtem lidí bez H může převážit nad skutečně pozitivními nálezy mezi malým počtem lidí s H
+(Gigerenzer 2002).
 
 Představme si pro ilustraci, že porucha postihuje jednoho člověka z tisíce, test ji
 zachytí téměř vždy a u zdravých se mýlí jen v malém zlomku případů. Mezi tisícem

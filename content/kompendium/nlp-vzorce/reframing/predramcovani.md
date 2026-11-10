@@ -114,7 +114,9 @@ identitu nebo vztah. Budoucí událost je to, co teprve přijde: prezentace, sez
 rodinou, pochybnost, nepříjemný pocit. Předem přidělený význam je výklad, který mluvčí nabídne
 dřív, než událost nastane, například „to bude jen tvůj strach“ nebo „to říkají lidé, kteří
 nerozumějí“. Vazba na identitu nebo vztah spojí přijetí výkladu s tím, kým posluchač je nebo ke
-komu patří: kdo by kritice uvěřil, ukázal by, že ještě nedospěl, nebo by zradil skupinu.
+komu patří: kdo by kritice uvěřil, ukázal by, že ještě nedospěl, nebo by zradil skupinu. Hassan
+popisuje, jak skupiny s vysokou kontrolou spojují pochybnosti a kritiku se slabostí člena nebo s
+nevěrností vůči skupině (Hassan 1988).
 
 Strukturálně je důležité, že předrámcování mění pořadí úsudku. Za normálních okolností člověk
 nejprve slyší argument a pak ho posuzuje. Po předrámcování nejprve ví, co argument znamená, a
@@ -130,7 +132,8 @@ formule připravuje pro budoucí použití.
 Manipulativní předrámcování se pozná podle toho, že se týká budoucí kritiky, pochybnosti nebo
 nepříjemné zkušenosti a předem jim přiděluje význam, který chrání mluvčího. Typické jsou výroky,
 že lidé zvenčí nebudou rozumět, že pochybnosti jsou znakem odporu nebo vývoje, že zhoršení stavu
-je známkou toho, že metoda „začíná působit“, nebo že ten, kdo odejde, to později bude litovat.
+je známkou toho, že metoda „začíná působit“, nebo že ten, kdo odejde, to později bude litovat;
+tento poslední typ Hassan popisuje jako vštěpování fobie z odchodu (Hassan 1988).
 Předrámcování bývá emočně nabité a spojené s ujištěním o vztahu: varování přichází od někoho,
 kdo se vydává za ochránce. Dalším znakem je selektivita, kdy se předem zneplatňují právě ty
 zdroje informací, které by mohly mluvčího nebo skupinu kontrolovat.
@@ -157,7 +160,9 @@ techniky, nikoli o tom, kdo je důvěryhodný (van der Linden 2023).
 Manipulativní předrámcování předem odnímá posluchači možnost posoudit budoucí informaci podle
 jejího obsahu. Rozlišuje se podle tří otázek. Týká se předem přidělený význam struktury sdělení,
 nebo budoucích argumentů a lidí? Učí posluchače, jak informace ověřit, nebo jak je odmítnout bez
-ověření? A chrání výklad posluchače, nebo mluvčího? Kompendium tento vzorec řadí k mechanismům,
+ověření? A chrání výklad posluchače, nebo mluvčího? Druhá otázka odpovídá rozdílu, na kterém
+stojí předběžné vyvracení: legitimní imunizace učí rozpoznávat manipulativní techniky, ne
+nedůvěřovat určitým lidem (van der Linden 2023). Kompendium tento vzorec řadí k mechanismům,
 které popisují [Hassanova kritéria](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) a
 také [izolace svěřence](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) v mentorských
 vztazích, kde se vnější rádci předem líčí jako nepřejícní nebo nekompetentní.

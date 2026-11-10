@@ -138,7 +138,8 @@ zazní otázka „jak to vidíte a jak by to mohlo vypadat jinak“. Mluvčí m�
 slovy o blednutí, vzdalování a mizení jistoty a výsledné oslabení vykládat jako známku
 uzdravení nebo zralosti. Zvlášť podezřelé je, když vzorec používá někdo, kdo má na oslabení
 daného přesvědčení zájem: zaměstnavatel u stížnosti, vůdce skupiny u pochybností člena nebo
-partner u vzpomínek na své chování.
+partner u vzpomínek na své chování; ten, kdo ublížil, má podle literatury o traumatu zájem
+zpochybnit důvěryhodnost oběti (Herman 1992).
 
 U člověka se pak objevuje typický posun: přestává si být jistý tím, co dříve jasně věděl, a
 nedokáže říct proč. Nejistota není výsledkem nových informací, ale ztráty pocitu jistoty. To je
@@ -162,7 +163,13 @@ Manipulativní užití nastává tam, kde se oslabuje přesvědčení, které je
 oprávněné, a kde o změně rozhoduje někdo jiný než nositel přesvědčení. Patří sem „koučink“
 zaměstnanců, kteří si stěžují, „práce na přesvědčení“ u členů skupiny, kteří pochybují o vůdci,
 nebo terapie, která oběti domácího násilí pomáhá „pustit staré obrazy“ dřív, než je zajištěno
-její bezpečí. Ve všech těchto případech se z epistemického problému dělá problém prožitkový a otázka pravdy mizí z rozhovoru. Pro posouzení konkrétní situace pomáhají tři otázky. Kdo navrhl, které přesvědčení se má změnit? Zkoumal někdo, zda je pravdivé, dřív než se začalo pracovat s jeho prožitkovou podobou? A kdo z oslabení přesvědčení těží? Pokud odpověď na první a třetí otázku zní „druhá strana sporu“ a na druhou „ne“, nejde o terapii, ale o zásah do úsudku člověka v cizím zájmu, který kompendium popisuje obecněji u [axiologické inverze](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md).
+její bezpečí (Herman 1992). Ve všech těchto případech se z epistemického problému dělá problém
+prožitkový a otázka pravdy mizí z rozhovoru. Pro posouzení konkrétní situace pomáhají tři
+otázky. Kdo navrhl, které přesvědčení se má změnit? Zkoumal někdo, zda je pravdivé, dřív než se
+začalo pracovat s jeho prožitkovou podobou? A kdo z oslabení přesvědčení těží? Pokud odpověď na
+první a třetí otázku zní „druhá strana sporu“ a na druhou „ne“, nejde o terapii, ale o zásah do
+úsudku člověka v cizím zájmu, který kompendium popisuje obecněji u [axiologické
+inverze](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md).
 
 ## Stav důkazů
 
@@ -182,7 +189,8 @@ empirickou oporu.
 
 ## Obrana a zotavení
 
-Obranou je trvat na tom, že přesvědčení o faktech se posuzují podle důkazů. Když někdo navrhne
+Obranou je trvat na tom, že přesvědčení o faktech se posuzují podle důkazů (Beck 1976). Když
+někdo navrhne
 „pracovat“ s přesvědčením o tom, co se stalo, je legitimní se zeptat, zda nejdřív posoudí, jestli
 je pravdivé. Pomáhají písemné záznamy událostí, které nezávisí na tom, jak jistě člověk prožívá
 vzpomínku, a nezávislí svědci nebo instituce, které mohou situaci prošetřit. Kdo pociťuje

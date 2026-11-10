@@ -165,7 +165,7 @@ NLP lze akademicky studovat jako kulturní a profesní jev, aniž se přijímaj�
 Manipulativní užití stavu důkazů má dvě podoby. První je zkreslení ve prospěch NLP: vydávání
 metody za ověřenou, zamlčování negativních přehledů a nabízení „vědecké“ legitimity, která
 neexistuje. Tato podoba je nebezpečná zejména tam, kde se NLP nabízí lidem se zdravotními
-obtížemi nebo v krizi, protože může oddálit účinnou péči. Druhá podoba je zkreslení proti
+obtížemi nebo v krizi, protože může oddálit účinnou péči (Lilienfeld, Lynn a Lohr 2015). Druhá podoba je zkreslení proti
 čemukoli, co se s NLP spojí: označení každého rozhovorového postupu za „manipulaci NLP“, aby se
 diskreditoval člověk, který ho používá. I tato podoba je epistemicky nepoctivá, protože
 nerozlišuje mezi prvky převzatými z ověřených přístupů a vlastními tvrzeními NLP. Obě podoby
@@ -207,7 +207,8 @@ schopnost jim odolat (McGuire 1964; van der Linden 2023).
 Pro lidi, kteří do NLP investovali čas, peníze a důvěru, je setkání se stavem důkazů často
 nepříjemné. Je užitečné oddělit dvě věci: zkušenost, že jim kurz nebo sezení pomohly, může být
 skutečná, ale její příčinou nemusí být specifický mechanismus, který NLP tvrdí. Pozornost,
-naděje, struktura a vztah s lektorem působí i v jiných rámcích. Klinik by měl tuto zkušenost
+naděje, struktura a vztah s lektorem působí i v jiných rámcích, a zlepšení, které by nastalo i bez
+zásahu, lidé snadno připíší metodě, kterou právě podstoupili (Gilovich 1991). Klinik by měl tuto zkušenost
 respektovat a zároveň nabídnout péči s doloženým účinkem. U lidí, kteří byli pomocí autority NLP
 vedeni k rozhodnutím proti vlastnímu zájmu, se pracuje s obnovou důvěry ve vlastní úsudek a s
 rozlišením mezi tím, co jim bylo řečeno, a tím, co je doloženo. K orientaci v tom, jak číst

@@ -130,7 +130,8 @@ a podmínky, a představa je výrazně podrobnější než informace o výrobku.
 otázky na pocity v představené situaci, zapojení blízkých osob do představy („co by na to
 řekla vaše rodina?“), přítomný čas tam, kde jde o budoucnost, a zájmena, která mluví o
 výrobku jako o zákazníkově, dřív než ho koupil. Představa bývá výlučně příjemná a
-nepřipouští otázky, co se stane, když se něco pokazí. V prodeji kurzů a seminářů osobního
+nepřipouští otázky, co se stane, když se něco pokazí; intuitivní úsudek přitom pracuje s tím,
+co má před sebou, a s chybějícími informacemi nepočítá (Kahneman 2011). V prodeji kurzů a seminářů osobního
 rozvoje má představa často podobu nového života, který kurz slibuje, a dotýká se identity:
 kupující si nepředstavuje jen užívání služby, ale sebe jako jiného, úspěšnějšího člověka.
 Taková představa je nejsilnější tam, kde se dotýká nesplněných přání, a tedy nejrizikovější

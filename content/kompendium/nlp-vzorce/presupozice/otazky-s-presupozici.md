@@ -114,7 +114,7 @@ a [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto
 
 Otázka s presupozicí má otevřenou a uzavřenou část. Otevřená část je mezera, kterou má
 tázaný vyplnit, například čas, důvod, počet nebo způsob. Uzavřená část je vše ostatní a
-tvoří předpoklad. Tázaný, který se soustředí na vyplnění mezery, uzavřenou část akceptuje,
+tvoří předpoklad (Levinson 1983). Tázaný, který se soustředí na vyplnění mezery, uzavřenou část akceptuje,
 protože na ni otázka nežádá reakci. Aby ji odmítl, musí udělat krok, kterému se v
 pragmatice říká odmítnutí předpokladu: místo odpovědi na otázku pojmenovat, co otázka
 předpokládá, a říct, že to neplatí. Tento krok je kognitivně náročnější, sociálně
@@ -170,7 +170,7 @@ koupě je už rozhodnutá (viz [Alternativní uzavření](@/kompendium/nlp-vzorc
 v mediálních a politických debatách, kde jediná otázka může publiku předat obvinění, které by
 jako tvrzení vyžadovalo doklad, a v kontrolujících vztazích, kde výslech „proč jsi zase…“
 vytváří obraz opakovaného selhání. Nejzávažnější je užití ve vyšetřování a v soudní síni,
-kde předpoklad otázky může vstoupit do výpovědi; proto standardy
+kde předpoklad otázky může vstoupit do výpovědi (Loftus a Palmer 1974); proto standardy
 [forenzního rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md)
 dávají přednost otevřeným výzvám bez vneseného obsahu. Tomuto kontextu se věnuje heslo
 [Presupozice ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md).

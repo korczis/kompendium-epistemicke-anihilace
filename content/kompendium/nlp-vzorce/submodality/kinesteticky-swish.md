@@ -126,7 +126,8 @@ výkladu původního zrakového vzorce (Bandler 1985). Struktura se tím přibli
 tělesný podnět spojuje se stavem.
 
 Pozorovatel by měl vidět, co se v této struktuře děje s významem pocitu. Spouštěcí pocit není
-jen tělesný vjem; nese informaci o tom, jak tělo hodnotí situaci. Sevření v hrudi před podpisem
+jen tělesný vjem; nese informaci o tom, jak tělo hodnotí situaci (Ekman 2003). Sevření v hrudi
+před podpisem
 smlouvy může být zlozvykem úzkostného člověka, ale také rozumnou reakcí na tlak. Varianta
 pracuje s pocitem jako s podnětem k přesměrování, ne jako s informací ke zkoumání. U zlozvyku,
 který člověk sám chce změnit, to může být přijatelné; u pocitu, který varuje, to znamená ztrátu
@@ -186,7 +187,8 @@ Základní obranou je brát tělesný nesouhlas jako signál, který si zaslouž
 odpor, nevolnost nebo neklid objeví u důležitého rozhodnutí, je rozumné rozhodnutí odložit a
 zjistit, na co tělo reaguje, místo aby se pocit „odplavil“. Druhou obranou je všímat si, s čím
 má být žádoucí stav spojen. Pokud je příjemné uvolnění vázáno na osobu, která něco požaduje,
-nebo na skupinu, ze které člověk uvažuje odejít, je namístě ostražitost. Třetí obranou je
+nebo na skupinu, ze které člověk uvažuje odejít, je namístě ostražitost a je užitečné oddělit
+pocit vůči tomu, kdo žádá, od posouzení samotné žádosti (Cialdini 2009). Třetí obranou je
 omezit opakovaná setkání, na kterých se spojení vytváří, a rozhodovat v klidu a o samotě nebo
 s někým, kdo nemá na výsledku zájem.
 

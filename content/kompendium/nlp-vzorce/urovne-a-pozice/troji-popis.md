@@ -44,10 +44,10 @@ catalog_prev = "ctvrta-pozice"
 catalog_next = "model-score"
 catalog_position = 13
 catalog_family_size = 16
-catalog_sources = ["bateson-1972", "dilts-delozier-2000", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
+catalog_sources = ["bateson-1972", "dilts-delozier-2000", "gilovich-1991", "grinder-delozier-1987", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "passmore-rowson-2019", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010"]
 catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
 catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
-catalog_sources_critical = ["gilovich-1991", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["gilovich-1991", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -126,7 +126,8 @@ které si o nich vytváří ten, kdo trojí popis provádí. Trojí popis proto 
 tom smyslu, v jakém ji zná vyšetřování nebo výzkum, kde se porovnávají nezávislé zdroje.
 Pokud je vytváření popisů vedeno někým dalším, například lektorem nebo vedoucím skupiny, a ten
 popisy usměrňuje dotazy, opravami nebo hodnocením, mohou se všechny tři pohledy sbíhat k
-závěru, který byl stanoven dopředu. Jejich shoda se pak vydává za doklad, že „ze všech stran“
+závěru, který byl stanoven dopředu; výzkum sugestivních otázek ukazuje, že už formulace dotazu
+dokáže posunout popis toho, co člověk sám viděl (Loftus a Palmer 1974). Jejich shoda se pak vydává za doklad, že „ze všech stran“
 vychází totéž. Tento mechanismus souvisí s tím, co kompendium popisuje jako
 [perspektivistický kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md), kdy
 se pluralita pohledů navenek zachovává, ale fakticky se zredukuje na jediný.
@@ -206,6 +207,7 @@ možností se k vlastnímu pohledu vrátit.
 - Grinder, J., & DeLozier, J. (1987). *Turtles All the Way Down: Prerequisites to Personal Genius*. Scotts Valley: Grinder & Associates.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
+- Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.

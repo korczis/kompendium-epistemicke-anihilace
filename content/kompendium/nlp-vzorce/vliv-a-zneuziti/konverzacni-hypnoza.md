@@ -130,7 +130,9 @@ poselství nepřímé a posluchač si ho vztahuje k sobě sám (Rosen 1982).
 Podstatné je, že žádný z těchto prvků není sám o sobě hypnotický ani manipulativní. Vágní
 jazyk, příběhy, změny tempa i odkazy na pocity patří k běžné řeči a k dobré rétorice.
 Konverzační hypnózu nedefinuje jazykový prvek, ale jejich kombinace s utajeným cílem a s
-nároky na to, že posluchač nad účinkem nemá kontrolu. Z obranného hlediska je proto
+nároky na to, že posluchač nad účinkem nemá kontrolu. Výzkum hypnózy ostatně ukazuje, že
+odpověď na sugesci závisí hlavně na očekávání, motivaci a ochotě spolupracovat a nevyžaduje
+zvláštní stav vědomí (Kirsch a Lynn 1995). Z obranného hlediska je proto
 užitečnější sledovat funkci rozhovoru než jednotlivá slova: kam rozhovor směřuje, kdo určuje
 jeho tempo a zda se od posluchače chce rozhodnutí, ke kterému by po věcném rozboru nedošel.
 Kompendium popisuje příbuznou dimenzi hlasu a tempa jako [prozodickou

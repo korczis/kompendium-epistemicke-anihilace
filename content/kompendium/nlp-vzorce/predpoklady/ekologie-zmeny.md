@@ -157,7 +157,7 @@ Manipulativní užití deklaruje ohled na celek, ale ve skutečnosti chrání c�
 „zkontrolována“, se zdá bezpečná, i když kontrola byla formální. Riziko je nejvyšší v
 intenzivních seminářích a programech, kde se rozhodnutí přijímají ve vypjatém stavu a kde
 námitky účastníků nemají prostor, a v uzavřených skupinách, kde je odcizení od rodiny
-součástí struktury.
+součástí struktury (Singer a Lalich 1995).
 
 ## Stav důkazů
 

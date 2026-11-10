@@ -23,7 +23,7 @@ catalog_en = "Critical appraisal of NLP"
 catalog_size = 14
 catalog_members = ["stav-dukazu-nlp", "vyzkum-preferovaneho-systemu", "vyzkum-ocnich-signalu", "nlp-jako-pseudoveda", "delfska-studie", "systematicky-prehled-zdravi", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "nlp-v-koucinku-vyzkum", "falzifikovatelnost-nlp", "historie-nlp", "koreny-nlp", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
 catalog_types = ["concept"]
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "walton-2008", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 
 # Kritické hodnocení NLP
@@ -31,7 +31,8 @@ catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swe
 ## Co rodina zahrnuje
 
 Rodina kritického hodnocení se od ostatních rodin katalogu liší tím, že nepopisuje vzorce, které
-NLP učí, ale to, co o nich zjistil výzkum a jak je hodnotí metodologie psychologie. Ostatní
+NLP učí, ale to, co o nich zjistil výzkum a jak je hodnotí metodologie psychologie, která
+rozlišuje vědecky ověřené a pseudovědecké postupy (Lilienfeld, Lynn a Lohr 2015). Ostatní
 rodiny popisují strukturu jazykových vzorců, technik a pojmů a v oddílu o stavu důkazů se k
 výzkumu vždy jen krátce vracejí. Tato rodina dává výzkumu vlastní prostor: popisuje jednotlivé
 linie hodnocení, jejich metody, výsledky a meze, aby se na ně ostatní stránky mohly odvolávat a
@@ -49,7 +50,8 @@ souhrnných hodnocení zahrnuje [delfskou studii zdiskreditovaných
 metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md), [systematický přehled
 účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) a
 rozbor [databáze výzkumu NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md),
-spolu s posudkem Národní rady pro výzkum USA a přehledem výzkumu v koučinku. Metodologický okruh
+spolu s posudkem Národní rady pro výzkum USA (Druckman a Swets 1988) a přehledem výzkumu v
+koučinku (Passmore a Rowson 2019). Metodologický okruh
 tvoří stránka [NLP jako pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md)
 a položky o falzifikovatelnosti a o přirovnání NLP ke kargokultu. Historický okruh popisuje
 vznik NLP a jeho kořeny v díle terapeutů, které zakladatelé modelovali. Rodinu uzavírá položka o
@@ -80,7 +82,8 @@ kulturní a profesní jev, aniž přijímají jeho nároky na účinnost (Tosey 
 
 Pro účely kompendia je tato rodina nástrojem epistemické obrany. Mnoho manipulativních užití NLP
 se opírá o autoritu: o pověst metody, o certifikáty, o slovo „vědecký“, o seznam studií nebo o
-jména slavných uživatelů. Znalost toho, co výzkum skutečně zjistil, tuto autoritu odbourává a
+jména slavných uživatelů, tedy o zkratku, kterou výzkum vlivu popisuje jako ochotu podřídit se
+symbolům autority místo posouzení věci (Cialdini 2009). Znalost toho, co výzkum skutečně zjistil, tuto autoritu odbourává a
 vrací rozhodování tomu, kdo se rozhoduje. Při čtení rodiny se vyplatí sledovat tři rozlišení.
 
 Prvním rozlišením je druh důkazu. Experimentální test konkrétního tvrzení, přehled studií,
@@ -96,7 +99,8 @@ Tvrzení, která jsou pro NLP specifická, jsou zároveň ta, která výzkum nep
 
 Rodina zároveň chrání před opačným zneužitím. Označení „NLP“ se v konfliktech někdy používá jako
 nálepka, která má diskreditovat člověka bez posouzení toho, co říká nebo dělá. I to je
-epistemicky nepoctivé. Spravedlivé hodnocení se týká konkrétních tvrzení a konkrétních postupů, a
+epistemicky nepoctivé: teorie argumentace takový tah řadí k útokům na osobu, které nahrazují
+posouzení tvrzení soudem o tom, kdo je pronáší (Walton 2008). Spravedlivé hodnocení se týká konkrétních tvrzení a konkrétních postupů, a
 proto je rodina strukturována podle nich, ne podle obecného soudu o NLP jako celku. Kompendium
 tuto zásadu uplatňuje i na sebe: stránka [kritických
 perspektiv](@/kompendium/critical-perspectives/_index.md) popisuje meze jeho vlastního rámce.
@@ -145,7 +149,8 @@ přesvědčovacích postupů zvyšuje schopnost jim odolat (McGuire 1964; van de
 Pro klinika, terapeuta, kouče nebo vyšetřovatele, kteří se s NLP setkali ve výcviku, je rodina
 podkladem k revizi vlastní praxe: co z naučeného je převzato z ověřených přístupů a lze to
 zachovat, co je specifickým tvrzením NLP bez opory a mělo by se opustit, a co nebylo nikdy
-zkoumáno a mělo by se používat jen s výslovnou výhradou. Pro klienty a pacienty je rodina
+zkoumáno a mělo by se používat jen s výslovnou výhradou, protože důkazní břemeno nese ten,
+kdo metodu nabízí (Lilienfeld, Lynn a Lohr 2015). Pro klienty a pacienty je rodina
 podkladem k informovanému rozhodnutí a pro ty, kdo byli autoritou NLP vedeni k rozhodnutím proti
 vlastnímu zájmu, oporou při obnově důvěry ve vlastní úsudek. Obecné principy posuzování
 empirické literatury, které rodina uplatňuje, popisuje stránka o [empirické výzkumné
@@ -230,6 +235,7 @@ flowchart LR
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
+- Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Druckman, D., & Swets, J. A. (Eds.) (1988). *Enhancing Human Performance: Issues, Theories, and Techniques*. Washington, DC: National Academy Press.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press.
@@ -240,6 +246,7 @@ flowchart LR
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
+- Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.

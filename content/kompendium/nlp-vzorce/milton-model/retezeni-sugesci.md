@@ -44,10 +44,10 @@ catalog_prev = "pacing-aktualni-zkusenosti"
 catalog_next = "srovnavaci-delece-milton"
 catalog_position = 28
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grinder-bandler-1981", "herman-1992", "kahneman-2011", "langer-1978", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
+catalog_sources = ["arkes-blumer-1985", "bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grinder-bandler-1981", "herman-1992", "kahneman-2011", "langer-1978", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
-catalog_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "kahneman-2011", "langer-1978", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
+catalog_sources_critical = ["arkes-blumer-1985", "cialdini-2009", "freedman-fraser-1966", "herman-1992", "kahneman-2011", "langer-1978", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -115,7 +115,7 @@ děje a co posluchač nemůže popřít. Druhým druhem jsou pravděpodobné vni
 posluchač může, ale nemusí zažívat. Třetím druhem je cíl, tedy sugesce, výklad nebo závazek.
 Vazbami jsou jednak prosté spojky, které jen kladou děje vedle sebe a nechávají posluchače, aby
 si souvislost domyslel, jednak vazby příčinné a srovnávací, které souvislost tvrdí: něco se
-děje „a tím“ nastává něco jiného, „čím víc“ jednoho, „tím víc“ druhého. Rozhodující rys stavby
+děje „a tím“ nastává něco jiného, „čím víc“ jednoho, „tím víc“ druhého (Bandler a Grinder 1975b). Rozhodující rys stavby
 je, že tvrzení o souvislosti se nevyslovuje jako tvrzení, které by bylo třeba doložit, ale je
 obsaženo v gramatice věty.
 
@@ -158,7 +158,7 @@ zastavit, aniž by ztratil to, co už vykonal.
 Manipulativní užití se pozná podle toho, že alespoň jeden z těchto znaků chybí. Souvislost mezi
 články je jen gramatická, ne věcná. Cíl řetězu se posluchači odhalí teprve na konci, kdy už je
 vtažen do pohybu. A přerušení řetězu je spojeno se ztrátou: předchozí kroky by tím přišly
-nazmar, a posluchač proto pokračuje, aby je neztratil.
+nazmar, a posluchač proto pokračuje, aby je neztratil. Sklon pokračovat v započatém jen proto, že do něj už bylo vloženo úsilí, popsal výzkum jako efekt utopených nákladů (Arkes a Blumer 1985).
 
 ## Stav důkazů
 
@@ -193,6 +193,7 @@ podstatně. Klinik může tuto rekonstrukci podpořit a zároveň dbát, aby se 
 
 ## Literatura
 
+- Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124–140.
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.

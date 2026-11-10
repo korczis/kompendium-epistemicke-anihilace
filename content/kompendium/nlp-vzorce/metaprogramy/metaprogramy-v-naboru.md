@@ -108,7 +108,7 @@ praktičnosti a srozumitelnosti, a zároveň upozorňují na jeho slabou empiric
 Kontext personalistiky je pro posouzení podstatný. Výběr zaměstnanců patří k oblastem, kde má
 psychologie dlouhou tradici ověřování nástrojů: u testů a strukturovaných postupů se zkoumá,
 zda měří spolehlivě, zda měří to, co tvrdí, a zda předpovídají pracovní výkon. Metaprogramy se
-do této oblasti dostaly mimo tuto tradici, jako praktická pomůcka z kurzů komunikace. Kompendium
+do této oblasti dostaly mimo tuto tradici, jako praktická pomůcka z kurzů komunikace (Charvet 1997). Kompendium
 podobný přenos nástroje mimo jeho ověřovací rámec popisuje i u [narativu AI v
 náboru](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md), kde nástroje pro třídění
 uchazečů vydávají své predikce „vhodnosti“ za objektivní výběr.
@@ -162,7 +162,7 @@ Manipulativní užití má tři podoby. První je pseudopsychometrický výběr:
 nahrazuje doložené pracovní výsledky a dovednosti a uchazeč nemá možnost ho zpochybnit. Druhou
 je skryté profilování: z odpovědí se vytváří profil bez vědomí uchazeče a používá se k
 rozhodnutí, o jehož kritériích se nedozví. Třetí je řízení obavami: zaměstnanci, o nichž se
-usoudilo, že je motivuje vyhýbání se problémům, se vedou převážně hrozbami a ztrátami, což může
+usoudilo, že je motivuje vyhýbání se problémům (Charvet 1997), se vedou převážně hrozbami a ztrátami, což může
 zvyšovat úzkost a závislost na uznání vedoucího. Kompendium popisuje, jak se změna hodnoticích
 kritérií stává nástrojem moci, na stránce o [přepisu hodnoticích
 kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md). Rozhodující otázky
@@ -191,7 +191,7 @@ ale jako výběrový nástroj nemají oporu.
 Pro uchazeče je základní obranou žádat, aby rozhodnutí bylo zdůvodněno doloženými požadavky
 pozice a výsledky jeho práce. Pokud zamítnutí odkazuje na „profil“ nebo „typ“, je legitimní se
 ptát, jak byl profil zjištěn, jaká je jeho souvislost s výkonem v dané práci a zda je tato
-souvislost doložena. Užitečné je také rozpoznat, že otázky na styl uvažování nejsou otázkami na
+souvislost doložena; kritický přehled výzkumu NLP upozorňuje, že nástroje oboru se často používají, jako by byly ověřené, ačkoli doklady chybějí (Passmore a Rowson 2019). Užitečné je také rozpoznat, že otázky na styl uvažování nejsou otázkami na
 zkušenost, a odpovídat na ně s vědomím, že se z nich může vyvozovat víc, než se zdá. Kdo se
 setká s motivováním převážně obavami, může je pojmenovat a žádat jasná kritéria hodnocení, která
 nezávisejí na dojmu vedoucího.

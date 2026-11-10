@@ -129,7 +129,8 @@ Stejná záměna se objevuje i mimo blízké vztahy, kdykoli se jediný případ
 poznatku o pravděpodobnosti. Věta „můj děda kouřil celý život a dožil se devadesáti“ je
 protipříkladem k tvrzení, které nikdo nevyslovil, totiž že kouření zabíjí každého.
 Skutečné tvrzení se týká rizika v populaci a jediný případ ho nevyvrací, ale v rozhovoru
-působí názorněji než jakákoli statistika. V reklamě, v prodeji léčebných metod a v
+působí názorněji než jakákoli statistika: živý a osobně známý případ se vybavuje snáz než
+číslo a dostupnost příkladů ovlivňuje odhad pravděpodobnosti (Tversky a Kahneman 1974). V reklamě, v prodeji léčebných metod a v
 argumentaci proti odborným doporučením se takové protipříklady používají často, protože
 nevyžadují žádnou znalost dat. Pro pozorovatele je proto užitečné u každého protipříkladu
 zjistit, zda výchozí tvrzení bylo absolutní, nebo jen pravděpodobnostní, a zda výjimka

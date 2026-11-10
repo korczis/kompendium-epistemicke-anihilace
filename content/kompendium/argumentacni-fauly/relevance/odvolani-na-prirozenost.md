@@ -140,7 +140,8 @@ Pátým znakem je moralizace, kdy se nesouhlas s „přirozeným řádem“ vykl
 V oblastech, které kompendium sleduje, slouží odvolání na přirozenost třem účelům. V
 oblasti zdraví odvádí pacienty od ověřené léčby k produktům a postupům bez dokladů, často
 spolu s nedůvěrou k lékařům, kteří jsou vykresleni jako služebníci „chemického“
-průmyslu. Populační dopady takových přesvědčení na veřejné zdraví rozebírá sekce
+průmyslu. Gilovich rozebírá, proč lidé věří neověřeným alternativním zdravotním postupům
+a jak je taková víra může odvést od účinné léčby (Gilovich 1991). Populační dopady takových přesvědčení na veřejné zdraví rozebírá sekce
 [Populační zdraví a prevence](@/kompendium/population-health/_index.md). V oblasti morálky
 a politiky se odvolání na přirozenost používá k ospravedlnění hierarchií a k vyloučení
 skupin, jejichž život se označí za „nepřirozený“; tím se morální spor mění ve spor o

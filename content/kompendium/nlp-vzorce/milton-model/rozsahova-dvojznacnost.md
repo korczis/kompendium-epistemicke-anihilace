@@ -44,10 +44,10 @@ catalog_prev = "syntakticka-dvojznacnost"
 catalog_next = "interpunkcni-dvojznacnost"
 catalog_position = 13
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975b", "chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1981", "heap-1988", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
+catalog_sources = ["bandler-grinder-1975b", "chomsky-1965", "copi-cohen-mcmahon-2014", "erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1981", "heap-1988", "herman-1992", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975b", "copi-cohen-mcmahon-2014", "grinder-bandler-1981"]
 catalog_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
-catalog_sources_critical = ["heap-1988", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
+catalog_sources_critical = ["heap-1988", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -116,8 +116,7 @@ spojený se slovesem a příslovečným určením, kvantifikátor typu „všich
 na konci věty nebo vztažná věta za výčtem. Druhým prvkem jsou dvě možné domény působnosti,
 úzká a široká, které dávají odlišný význam. Třetím je kontext, který na povrchu podporuje jedno
 čtení, nejčastěji to, které je pro posluchače přijatelnější. Dvojznačnost nevzniká chybou v
-gramatice, ale tím, že jazyk dosah operátorů obvykle výslovně nevyznačuje a spoléhá na
-spolupráci posluchače.
+gramatice, ale tím, že jazyk dosah operátorů obvykle výslovně nevyznačuje a spoléhá na spolupráci posluchače (Grice 1975; Bandler a Grinder 1975b).
 
 Zvláštní případ představuje [složená otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/slozena-otazka.md). Tazatel spojí dvě tvrzení do jedné otázky, na kterou
 je možné odpovědět jediným „ano“, a tím vznikne nejasnost, zda odpověď platí pro obě části,
@@ -136,12 +135,10 @@ podmínky připojené na konec dlouhé věty („…pro věrné zákazníky“, 
 zápory spojené s časovým určením („nemusíte hned“, „není nutné teď“) a kvantifikátory, které
 lze vztáhnout k různým skupinám. V mluvené řeči se k tomu přidává prozódie: důraz může jedno
 čtení zesílit a druhé ztlumit. Silným znakem je situace, kdy se mluvčí později dovolává užšího
-čtení, než jaké posluchač pochopil, a tvrdí, že „to přece bylo řečeno“. Ve výslechu je znakem
-otázka obsahující víc tvrzení najednou, na kterou je očekávána jednoslovná odpověď.
+čtení, než jaké posluchač pochopil, a tvrdí, že „to přece bylo řečeno“. Ve výslechu je znakem otázka obsahující víc tvrzení najednou, na kterou je očekávána jednoslovná odpověď, tedy složená otázka (Copi, Cohen a McMahon 2014).
 
 U posluchače se vzorec projevuje až zpětně, typicky zklamáním: nabídka byla užší, závazek
-širší, souhlas obsáhlejší, než se zdálo. Takový rozdíl mezi slyšeným a „platným“ obsahem je
-strukturně příbuzný s tím, co kompendium popisuje jako
+širší, souhlas obsáhlejší, než se zdálo. Takový rozdíl mezi slyšeným a „platným“ obsahem odpovídá rozlišení mezi tím, co je doslovně řečeno, a tím, co posluchač z výpovědi vyvodí (Grice 1975), a je strukturně příbuzný s tím, co kompendium popisuje jako
 [iluzorní komplexitu](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md); u rozsahové
 dvojznačnosti ale nejde o množství textu, nýbrž o jeden přesně umístěný operátor.
 
@@ -202,17 +199,19 @@ který snižuje vliv okrajových podnětů (Petty a Cacioppo 1986).
 Zotavení se týká hlavně situací, kdy člověk kvůli rozsahové dvojznačnosti přijal závazek,
 který by při jasné formulaci odmítl. Kromě právní a finanční pomoci je důležité i
 psychologické zpracování: lidé mají sklon vinit se z „hlouposti“, přestože dvojznačnost byla
-vytvořena právě tak, aby ji běžný posluchač nezachytil. Pojmenování mechanismu pomáhá přesunout
+vytvořena právě tak, aby ji běžný posluchač nezachytil. Sklon obviňovat sebe místo toho, kdo situaci vytvořil, popisuje i literatura o zotavení po zneužití (Herman 1992). Pojmenování mechanismu pomáhá přesunout
 odpovědnost tam, kam patří, a obnovit důvěru ve vlastní úsudek.
 
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
 - Chomsky, N. (1965). *Aspects of the Theory of Syntax*. Cambridge, MA: MIT Press.
+- Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Grinder, J., & Bandler, R. (1981). *Trance-formations: Neuro-Linguistic Programming and the Structure of Hypnosis*. Moab: Real People Press.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.

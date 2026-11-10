@@ -59,8 +59,9 @@ uvažování (van Eemeren a Grootendorst 2004; Toulmin 1958; Kunda 1990).
 
 Několik hesel kniha už popisuje jinde, například falešné dilema, falešnou ekvivalenci nebo
 taktiku [Gish gallop](@/glossary/gish-gallop.md). Katalog pro ně nevytváří druhou stránku. Heslo v katalogu existuje,
-objevuje se v průzkumníku i v trenéru, ale vede na stránku, kterou kniha má, aby se odkazy
-a čtenáři nedělili mezi dvě stránky o témž.
+objevuje se v průzkumníku i v trenéru, ale vede na stránku, kterou kniha má, aby se odkazy a čtenáři
+nedělili mezi dvě stránky o témž. Jak se v knize pohybovat mezi katalogy, kapitolami a glosářem,
+popisuje stránka [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Rodiny katalogu v přehledu
 
@@ -139,7 +140,8 @@ hesla, druhou stránku pro pojem, který kniha už má, citaci díla mimo ověř
 povinný oddíl bez citace i formulaci, která by se dala číst jako návod. Vazby mezi hesly
 vedou i do katalogu NLP vzorců, protože mnohé jazykové vzorce NLP jsou z pohledu teorie
 argumentace právě klamy relevance nebo předpokladu. Texty hesel napsali agenti a čekají na
-odbornou recenzi; stav recenze uvádí identifikační tabulka každé stránky.
+odbornou recenzi; stav recenze uvádí identifikační tabulka každé stránky. Zásady, na nichž taxonomie
+knihy stojí, popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 

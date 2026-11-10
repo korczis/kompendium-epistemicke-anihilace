@@ -143,7 +143,9 @@ strach k tomu, aby člen přestal vnímat zneužívání jako zneužívání a o
 
 U člověka, na kterého je takový tlak vyvíjen, se objevuje vina za vlastní hněv, pochybnosti o
 tom, zda bylo ublížení skutečně vážné, a sklon vracet se do vztahu, ve kterém mu hrozí další
-újma. V náboženských a duchovních skupinách se požadavek odpuštění může stát nástrojem, který
+újma. Herman popisuje sebeobviňování a pochybnosti o závažnosti vlastní zkušenosti jako časté
+následky zneužívání, zvlášť když okolí stojí na straně pachatele (Herman 1992). V náboženských a
+duchovních skupinách se požadavek odpuštění může stát nástrojem, který
 umlčuje oběti zneužívání uvnitř skupiny. Kompendium tyto mechanismy popisuje mimo jiné v
 případové studii o [zotavení po dvanácti letech v kultu](@/kompendium/case-studies/06-cult-recovery-12-let.md)
 a v hesle o [komplexním traumatu](@/glossary/complex-trauma.md).
@@ -180,7 +182,9 @@ spíše brzdit, a staví na první místo bezpečí, uznání a truchlení (Herm
 ## Obrana a zotavení
 
 Obranou proti zneužití je jasné rozlišení tří věcí, které se v požadavku odpuštění často
-slévají: odpuštění jako vnitřního postoje, uznání toho, co se stalo, a obnovení vztahu. Lze se
+slévají: odpuštění jako vnitřního postoje, uznání toho, co se stalo, a obnovení vztahu. Herman
+upozorňuje, že skutečné odpuštění předpokládá, že pachatel ublížení uzná a usiluje o nápravu
+(Herman 1992). Lze se
 rozhodnout pro jedno bez druhého a nikdo nemá právo vyžadovat kterékoli z nich. Kdo je pod
 tlakem, aby odpustil, se může ptát, kdo tlak vyvíjí a co by odpuštěním získal, zda bylo
 ublížení uznáno a zda by odpuštění znamenalo návrat do nebezpečí. Hněv nad křivdou je

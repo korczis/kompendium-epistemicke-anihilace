@@ -110,7 +110,9 @@ Struktura je prostá: P; na námitku „proč P?“ následuje opět P, případ
 „P, protože to říkám já“. Argument nemá premisy odlišné od závěru, a proto nemá ani logickou
 sílu. Jeho rétorická síla plyne z jiných zdrojů. Prvním je sebejistota, která se v běžné
 komunikaci spojuje s kompetencí. Druhým je postavení mluvčího, které posluchače odrazuje od
-dalšího tázání. Třetím je opakování, které tvrzení činí známým, a tím i věrohodnějším. Čtvrtým
+dalšího tázání. Třetím je opakování, které tvrzení činí známým, a tím i věrohodnějším: výroky, které
+lidé slyšeli opakovaně, hodnotí jako pravdivější než výroky nové (Hasher, Goldstein a Toppino 1977).
+Čtvrtým
 je sociální rámec: pokud tvrzení opakuje více lidí, vzniká dojem shody, kterou kompendium
 popisuje u techniky [vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).
 Pátým je přesun povinnosti: kdo tvrzení zpochybní, je vyzván, aby ho vyvrátil, a taktika tak

@@ -118,7 +118,6 @@ nepřijatelná. Klam nirvány přidá k reálným možnostem jednu nereálnou a 
 všechny ostatní. Ve schématu praktického usuzování jde o selhání u kritické otázky po
 alternativách: za alternativu se dosadí stav, který žádným dostupným jednáním nelze
 přivodit (Walton, Reed a Macagno 2008).
-
 Druhá podoba struktury mění ideál v pohyblivé měřítko. Kdykoli opatření dosáhne určité
 úrovně, ideál se vzdálí, a opatření tak zůstává stále stejně daleko od přijatelnosti. Tato
 podoba se překrývá s [posouváním branek](@/kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md):

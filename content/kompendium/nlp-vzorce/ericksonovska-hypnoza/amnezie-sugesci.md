@@ -39,7 +39,7 @@ catalog_related = ["konfuzni-technika", "vnorene-smycky", "posthypnoticka-sugesc
 catalog_related_declared = ["posthypnoticka-sugesce", "vekova-regrese", "konfuzni-technika", "technika-prolozeni", "nlp-v-sektach"]
 catalog_kompendium = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/dissociativni-amnezie.md", "glossary/informed-consent.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md"]
+catalog_links_prose = ["glossary/dissociativni-amnezie.md", "glossary/informed-consent.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md"]
 catalog_prev = "indukce-pretizenim"
 catalog_next = ""
 catalog_position = 28
@@ -112,7 +112,9 @@ a Lynn 1995). V tomto rámci se amnézie vykládá jako jev, na kterém se podí
 Vzorec má z hlediska pozorovatele tři složky. První je ohlášení: mluvčí výslovně nebo
 nepřímo naznačí, že určitý obsah „nebude důležité si pamatovat“, „může zůstat stranou“ nebo
 „se ztratí jako sen“. Druhou složkou je přesměrování pozornosti, nejčastěji na pocit, na
-nové téma nebo na drobnou úlohu, které obsah vytlačí z dalšího zpracování. Třetí složkou je
+nové téma nebo na drobnou úlohu, které obsah vytlačí z dalšího zpracování; ericksonovská
+literatura popisuje [odvedení pozornosti](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) jako jeden z nepřímých prostředků amnézie (Erickson,
+Rossi a Rossi 1976). Třetí složkou je
 absence opakování: obsah se po skončení rozhovoru nezopakuje, neshrne a nezapíše, takže
 chybí obvyklé příležitosti, při kterých se vzpomínka upevňuje. Výsledkem nemusí být
 skutečné vymazání, ale menší dostupnost vzpomínky a nejistota o jejích podrobnostech.

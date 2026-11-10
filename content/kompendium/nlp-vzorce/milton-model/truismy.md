@@ -110,7 +110,7 @@ souhlas vytváří zvláštní stav vnímavosti, ve kterém se kritické zvažov
 Strukturu truismu jako vlivového vzorce tvoří tři prvky. Prvním je obecnost: výrok se týká
 „lidí“, „každého“, „většiny z nás“ nebo zkušenosti, kterou nelze popřít, aniž by se posluchač
 vyčlenil z lidského společenství. Druhým je nevyvratitelnost: výrok je formulován tak volně,
-že se na něj dá vztáhnout téměř jakákoli zkušenost, a proto ho nelze vyvrátit. Třetím je
+že se na něj dá vztáhnout téměř jakákoli zkušenost, a proto ho nelze vyvrátit (Erickson, Rossi a Rossi 1976). Třetím je
 napojení: na truismus navazuje výrok, který má jinou povahu, například hodnocení, závěr o
 posluchači nebo výzva, a spojení se vytvoří spojkou, časovou vazbou nebo prostou
 následností. Spojení přitom bývá logicky prázdné. Z toho, že každý někdy pochyboval, neplyne,
@@ -138,7 +138,7 @@ smyslu nebo obavy o blízké. Takové výroky jsou pravdivé pro každého, ale 
 vyvolávají pocit, že mluvčí mluví „přesně o něm“. Tento efekt připomíná mechanismus, kterým
 působí obecné osobnostní popisy, jež lidé hodnotí jako výstižné, ačkoli by se hodily na
 kohokoli. V náborových a seminářových prostředích se truismy kombinují s autoritou řečníka a s
-přítomností publika, které souhlasí, takže nesouhlas je o to obtížnější. Pozorovatel může
+přítomností publika, které souhlasí, takže nesouhlas je o to obtížnější, protože lidé v nejistotě odvozují správné jednání z jednání ostatních (Cialdini 2009). Pozorovatel může
 každý truismus oddělit od toho, co po něm přišlo, a ptát se, zda by závěr obstál bez něj.
 
 Sociální kontext síly truismu dále zvyšuje. Když publikum kolem posluchače souhlasně

@@ -110,7 +110,8 @@ dotazovaného; tomuto užití se věnuje stránka [meta-model jako výslechový 
 ## Struktura vzorce
 
 Strukturálně má pojem tři roviny. První je výběr: z řady kategorií přítomných ve výroku
-tazatel reaguje na jednu, a tím určuje, který aspekt zkušenosti se bude dál rozvíjet.
+tazatel reaguje na jednu, a tím určuje, který aspekt zkušenosti se bude dál rozvíjet
+(Bandler a Grinder 1975).
 Reakce na [univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md)
 („nikdy“) posune rozhovor k výjimkám, reakce na [nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) k popisu
 konkrétního jednání. Druhou rovinou je sled: otázky na sebe navazují a každá otázka
@@ -135,7 +136,9 @@ Pozorovatelné znaky problematického užití jsou soustředěny v rovině tempa
 Otázky „kdo přesně“, „jak přesně“, „podle čeho to víš“ a „co by se stalo, kdyby“
 přicházejí v rychlém sledu, často bez čekání na úplnou odpověď. Tazatel neshrnuje, co
 slyšel, ale rovnou se ptá dál. Dotazovaný začíná odpovídat stále kratšími větami, opravuje
-se, omlouvá za nepřesnost nebo ztichne. Sled otázek vyústí v závěr, který tazatel vyslovuje
+se, omlouvá za nepřesnost nebo ztichne. Motivační rozhovory
+tento sled popisují jako past otázek a odpovědí, v níž dotazovaný přechází do pasivní role
+a odpovídá stále stručněji (Miller a Rollnick 2013). Sled otázek vyústí v závěr, který tazatel vyslovuje
 místo dotazovaného, například že dotazovaný „vlastně nic neví“ nebo „si to celé vymyslel“.
 Tento vzorec má blízko k mechanismu, který kompendium popisuje jako [informační
 přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md): počet a rychlost

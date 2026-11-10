@@ -44,9 +44,9 @@ catalog_prev = "pocitac"
 catalog_next = "vyrovnany"
 catalog_position = 9
 catalog_family_size = 20
-catalog_sources = ["grice-1975", "grinder-bandler-1976", "herman-1992", "levinson-1983", "satir-1972", "tosey-mathison-2009", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
+catalog_sources = ["erickson-rossi-rossi-1976", "grice-1975", "grinder-bandler-1976", "herman-1992", "levinson-1983", "satir-1972", "tosey-mathison-2009", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
 catalog_sources_primary = ["grinder-bandler-1976"]
-catalog_sources_roots = ["grice-1975", "levinson-1983", "satir-1972", "watzlawick-1967"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983", "satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["herman-1992", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -96,7 +96,7 @@ V rodinném systému může rozptylování plnit funkci, kterou si nikdo z člen
 
 ## Detekční znaky
 
-Pro pozorovatele je podstatné odlišit úmyslné odvádění pozornosti od úzkostného rozptylování a od jiných příčin, proč člověk nemluví k věci. Úmyslné odvádění pozornosti se pozná podle selektivity: člověk mluví k věci, dokud téma nezačne být pro něj nepříjemné, a rozptyluje právě tehdy, když se rozhovor přiblíží k jeho odpovědnosti. Typické jsou odbočky, které vypadají jako odpověď, ale na otázku neodpovídají, a záplava informací, ve které se odpověď ztratí. Kompendium tyto mechanismy popisuje u [tematické diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) a u [informačního přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md).
+Pro pozorovatele je podstatné odlišit úmyslné odvádění pozornosti od úzkostného rozptylování a od jiných příčin, proč člověk nemluví k věci. Úmyslné odvádění pozornosti se pozná podle selektivity: člověk mluví k věci, dokud téma nezačne být pro něj nepříjemné, a rozptyluje právě tehdy, když se rozhovor přiblíží k jeho odpovědnosti. Typické jsou odbočky, které vypadají jako odpověď, ale na otázku neodpovídají (Watzlawick, Beavin a Jackson 1967), a záplava informací, ve které se odpověď ztratí. Kompendium tyto mechanismy popisuje u [tematické diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) a u [informačního přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md).
 
 Úzkostné rozptylování se naopak objevuje plošně, v mnoha situacích napětí, a člověk sám bývá ze své reakce nešťastný. Od obou je nutné odlišit stavy, které s komunikačním postojem nesouvisejí: obtíže s pozorností, únavu, jazykovou bariéru nebo disociaci. Lidé, kteří prošli traumatem, mohou při připomínce traumatické události ztrácet nit, protože jejich pozornost je zahlcena nebo se od tématu odpojí; Herman takové reakce popisuje jako součást obrazu posttraumatické zátěže (Herman 1992). U takových lidí je výklad rozptylování jako úmyslu nespravedlivý a škodlivý. Rozhodující otázkou je, zda se rozptylování objevuje jen u témat, která se týkají odpovědnosti mluvčího, nebo plošně a bez zjevného prospěchu.
 
@@ -104,7 +104,7 @@ Pro pozorovatele je podstatné odlišit úmyslné odvádění pozornosti od úzk
 
 Přerušení rozhovoru nebo změna tématu mohou být legitimní a užitečné. Kdo ve vyhroceném sporu navrhne pauzu, pojmenuje důvod a slíbí návrat k tématu, nerozptyluje, ale reguluje konflikt. Humor může v napjaté situaci uvolnit napětí a umožnit pokračovat. V terapii dětí a rodin se s rozptylováním pracuje jako se signálem, že téma je pro někoho příliš těžké, a hledá se cesta, jak se k němu vrátit bezpečněji (Satir 1972). Legitimní přerušení se pozná podle toho, že je ohlášené a že se k tématu skutečně vrací.
 
-Manipulativní užití má jiné rysy. Rozptylování slouží k tomu, aby otázka nebyla zodpovězena a aby si toho nikdo nevšiml. V politických rozhovorech a při výsleších se projevuje jako odpověď na jinou otázku, než byla položena, a jako zahlcení posluchače nepodstatnými údaji. V blízkých vztazích se objevuje jako soustavné vyhýbání se rozhovoru o problému, který druhá strana opakovaně otevírá. V ericksonovské tradici se zmatení popisuje jako prostředek, který oslabuje kritické hodnocení a zvyšuje vnímavost k následujícímu sdělení; kompendium se příbuznému jevu věnuje na stránce o [úmyslné vágnosti](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md).
+Manipulativní užití má jiné rysy. Rozptylování slouží k tomu, aby otázka nebyla zodpovězena a aby si toho nikdo nevšiml. V politických rozhovorech a při výsleších se projevuje jako odpověď na jinou otázku, než byla položena, a jako zahlcení posluchače nepodstatnými údaji. V blízkých vztazích se objevuje jako soustavné vyhýbání se rozhovoru o problému, který druhá strana opakovaně otevírá. V ericksonovské tradici se zmatení popisuje jako prostředek, který oslabuje kritické hodnocení a zvyšuje vnímavost k následujícímu sdělení (Erickson, Rossi a Rossi 1976); kompendium se příbuznému jevu věnuje na stránce o [úmyslné vágnosti](@/kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md).
 
 ## Stav důkazů
 
@@ -112,12 +112,13 @@ Rozptylující postoj je klinickým popisem Satirové, ne výsledkem kontrolovan
 
 ## Obrana a zotavení
 
-Proti úmyslnému rozptylování je nejúčinnější obranou klidně a opakovaně vracet rozhovor k původní otázce. Pomáhá pojmenovat, co se stalo: otázka zněla takto, odpověď se týkala něčeho jiného. V písemné komunikaci a při jednáních pomáhá zapisovat otázky a to, zda na ně bylo odpovězeno, protože rozptylování se v záznamu ukáže zřetelněji než v živém rozhovoru. Je také užitečné nenechat se strhnout novými tématy a odložit je na později. Pokud rozptylování v blízkém vztahu trvá a důležitý problém se nikdy nedostane na pořad, je na místě pojmenovat vzorec sám, nikoli jen jednotlivé odbočky.
+Proti úmyslnému rozptylování je nejúčinnější obranou klidně a opakovaně vracet rozhovor k původní otázce. Pomáhá pojmenovat, co se stalo: otázka zněla takto, odpověď se týkala něčeho jiného; pojmenování zviditelní porušení zásady relevance, se kterou posluchač jinak mlčky počítá (Grice 1975). V písemné komunikaci a při jednáních pomáhá zapisovat otázky a to, zda na ně bylo odpovězeno, protože rozptylování se v záznamu ukáže zřetelněji než v živém rozhovoru. Je také užitečné nenechat se strhnout novými tématy a odložit je na později. Pokud rozptylování v blízkém vztahu trvá a důležitý problém se nikdy nedostane na pořad, je na místě pojmenovat vzorec sám, nikoli jen jednotlivé odbočky.
 
 Pro člověka, který u sebe rozptylující postoj rozpozná, je cestou naučit se zůstat u tématu, i když je nepříjemné, a dát najevo, kdy je pro něj příliš těžké, místo aby od něj utekl. V terapii se k tomu přistupuje postupně, protože rozptylování dlouho chránilo před pocity, které člověk nedokázal unést (Herman 1992). Vyrovnaná alternativa nespočívá v tom, že člověk o všem mluví hned a naplno, ale v tom, že otevřeně řekne, co potřebuje, třeba čas nebo bezpečnější chvíli. Takovou podobu komunikace popisuje stránka o [vyrovnaném postoji](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md).
 
 ## Literatura
 
+- Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Grinder, J., & Bandler, R. (1976). *The Structure of Magic II: A Book about Communication and Change*. Palo Alto: Science and Behavior Books.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

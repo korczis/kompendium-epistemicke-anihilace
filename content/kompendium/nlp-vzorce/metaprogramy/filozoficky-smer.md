@@ -44,8 +44,8 @@ catalog_prev = "duvera"
 catalog_next = "adaptace"
 catalog_position = 20
 catalog_family_size = 23
-catalog_sources = ["bandler-grinder-1975", "hall-bodenhamer-1997", "heap-1988", "langer-1978", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "watzlawick-1974", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975", "hall-bodenhamer-1997"]
+catalog_sources = ["bandler-grinder-1975", "damer-2009", "hall-bodenhamer-1997", "heap-1988", "langer-1978", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "watzlawick-1974", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "damer-2009", "hall-bodenhamer-1997"]
 catalog_sources_roots = ["watzlawick-1974"]
 catalog_sources_critical = ["heap-1988", "langer-1978", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -105,7 +105,7 @@ kontextu (Hall a Bodenhamer 1997). Konkrétní podobu kategorie zde popisujeme o
 nepřipisujeme ji jednomu dílu, protože se v literatuře oboru objevuje v různých obměnách.
 
 Je důležité vidět, že důraz krátké terapie na „jak“ před „proč“ vznikl v terapeutickém
-kontextu, kde jde o úlevu klienta, a ne v kontextu, kde jde o zjištění odpovědnosti. Mimo
+kontextu, kde jde o úlevu klienta (Watzlawick, Weakland a Fisch 1974), a ne v kontextu, kde jde o zjištění odpovědnosti. Mimo
 terapii má otázka „proč“ jiný význam: v právu, ve vyšetřování nehod, v medicíně nebo ve vědě je
 zjištění příčiny podmínkou dobrého řešení i spravedlnosti. Přenos terapeutického důrazu do
 těchto oblastí je tak sám o sobě riskantní.
@@ -124,7 +124,7 @@ styl myšlení, za „filozofování“ nebo za „lpění na minulosti“, a ro
 Tím se zablokuje zjištění příčiny, a tedy i odpovědnosti; kdo se ptá, proč došlo k úrazu, je
 odkázán na to, že „je praktik“ a má se bavit o tom, jak dál. Kompendium příbuzný mechanismus
 popisuje u [tematické diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md), kdy se
-pozornost od nepříjemného tématu odvádí k jinému. Ve druhé podobě se naopak otázka „jak“
+pozornost od nepříjemného tématu odvádí k jinému; teorie argumentace takový tah zná jako odvádění pozornosti od sporné otázky (Damer 2009). Ve druhé podobě se naopak otázka „jak“
 odsouvá nekonečným rozebíráním příčin: místo rozhodnutí, které by něco změnilo, se vede další
 analýza, a status quo se tím udržuje. Obě podoby mají společné to, že styl druhého slouží jako
 argument, proč jeho otázka nemá odpověď.
@@ -181,7 +181,7 @@ Základní obranou je trvat na tom, že zjištění příčiny je podmínkou dob
 kde jde o odpovědnost, bezpečnost nebo opakování škody. Pokud mluvčí odbude otázku „proč“
 poukazem na styl tazatele, je legitimní odpovědět, že nejde o styl, ale o věc, a požádat o
 řádné vyšetření nebo písemné zdůvodnění. Užitečné je ptát se, zda navrhované řešení souvisí s
-příčinou: řešení, které příčinu nezná, nedává záruku, že se událost nebude opakovat. Naopak tam,
+příčinou: řešení, které příčinu nezná, nedává záruku, že se událost nebude opakovat. Terapeutický argument, že ke změně není nutné znát příčinu, byl formulován pro potíže, které chce změnit sám klient (Watzlawick, Weakland a Fisch 1974), ne pro zjišťování odpovědnosti za škodu. Naopak tam,
 kde se rozhodnutí opakovaně odkládá dalším zkoumáním příčin, je legitimní žádat, aby se
 rozhodlo na základě toho, co je známo, a aby se stanovilo, jaké další zjištění by rozhodnutí
 změnilo. Kompendium se obecnému rámci otázek po smyslu a příčinách věnuje i v kapitole o
@@ -196,6 +196,7 @@ lidmi, kteří na otázky neodpovídají diskvalifikací tazatele, ale argumenty
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
+- Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Hall, L. M., & Bodenhamer, B. G. (1997). *Figuring Out People: Design Engineering with Meta-Programs*. Carmarthen: Crown House Publishing.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Langer, E. J., Blank, A., & Chanowitz, B. (1978). The mindlessness of ostensibly thoughtful action: The role of „placebic“ information in interpersonal interaction. *Journal of Personality and Social Psychology*, 36(6), 635–642.

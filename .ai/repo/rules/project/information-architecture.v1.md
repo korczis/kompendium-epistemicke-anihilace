@@ -100,21 +100,21 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | top | `description` | všechny | autorský | str |  |
 | top | `draft` | page, section | autorský | bool |  |
 | top | `generate_feeds` | section | autorský | bool |  |
-| top | `insert_anchor_links` | nlp, nlp-index | odvozený (`scripts/nlp-catalog.py`) | str | `left`, `right`, `heading`, `none` |
+| top | `insert_anchor_links` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | str | `left`, `right`, `heading`, `none` |
 | top | `insert_anchor_links` | page, section, technique | autorský | str | `left`, `right`, `heading`, `none` |
-| top | `page_template` | nlp-index | odvozený (`scripts/nlp-catalog.py`) | str |  |
+| top | `page_template` | catalog-index | odvozený (`scripts/catalogs.py`) | str |  |
 | top | `page_template` | section | autorský | str |  |
-| top | `sort_by` | nlp-index | odvozený (`scripts/nlp-catalog.py`) | str | `date`, `update_date`, `title`, `title_bytes`, `weight`, `slug`, `none` |
+| top | `sort_by` | catalog-index | odvozený (`scripts/catalogs.py`) | str | `date`, `update_date`, `title`, `title_bytes`, `weight`, `slug`, `none` |
 | top | `sort_by` | page, section | autorský | str | `date`, `update_date`, `title`, `title_bytes`, `weight`, `slug`, `none` |
-| top | `template` | nlp-index, nlp-trainer | odvozený (`scripts/nlp-catalog.py`) | str |  |
+| top | `template` | catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str |  |
 | top | `template` | page, section | autorský | str |  |
 | top | `title` | všechny | autorský | str |  |
-| top | `title` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/nlp-catalog.py`) | str |  |
+| top | `title` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str |  |
 | top | `weight` | všechny | autorský | int |  |
-| top | `weight` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/nlp-catalog.py`) | int |  |
-| taxonomies | `categories` | nlp, nlp-trainer | odvozený (`scripts/nlp-catalog.py`) | list |  |
+| top | `weight` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | int |  |
+| taxonomies | `categories` | catalog, catalog-trainer | odvozený (`scripts/catalogs.py`) | list |  |
 | taxonomies | `categories` | page, technique, quick-reference | autorský | list |  |
-| taxonomies | `tags` | nlp, nlp-trainer | odvozený (`scripts/nlp-catalog.py`) | list |  |
+| taxonomies | `tags` | catalog, catalog-trainer | odvozený (`scripts/catalogs.py`) | list |  |
 | taxonomies | `tags` | page, glossary, technique, quick-reference | autorský, chybí-li, doplní `scripts/normalize-front-matter.py` | list |  |
 | extra | `abbreviation` | glossary | autorský | str |  |
 | extra | `academic_paper` | section | autorský | bool |  |
@@ -150,11 +150,12 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `blocking_methods` | glossary | autorský | list |  |
 | extra | `bypass_mechanisms` | glossary | autorský | str |  |
 | extra | `call_sign` | glossary | autorský | str |  |
-| extra | `canonical` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/catalogs.py`) | str |  |
+| extra | `canonical` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str |  |
 | extra | `cascade_phases` | glossary | autorský | int |  |
-| extra | `catalog` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/catalogs.py`) | str |  |
-| extra | `catalog_*` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/catalogs.py`) | str, int, bool, list, table |  |
-| extra | `categories` | nlp-index | odvozený (`scripts/nlp-catalog.py`) | list |  |
+| extra | `catalog` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str |  |
+| extra | `catalog_*` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str, int, bool, list, table |  |
+| extra | `catalogs` | catalog-trainer | odvozený (`scripts/catalogs.py`) | list |  |
+| extra | `categories` | catalog-index | odvozený (`scripts/catalogs.py`) | list |  |
 | extra | `categories` | page, section | autorský | list |  |
 | extra | `categories_count` | section | autorský | int |  |
 | extra | `category` | page, section, glossary, technique | autorský | str |  |
@@ -261,11 +262,11 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `key_benefits` | glossary | autorský | list |  |
 | extra | `key_takeaway` | glossary | autorský | str |  |
 | extra | `key_technologies` | glossary | autorský | list |  |
-| extra | `keywords` | nlp, nlp-index | odvozený (`scripts/nlp-catalog.py`) | list |  |
+| extra | `keywords` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | list |  |
 | extra | `keywords` | page, section, glossary | autorský | list |  |
 | extra | `kompendium` | page, section | autorský | list |  |
 | extra | `landing_page` | section | autorský | bool |  |
-| extra | `lang` | nlp, nlp-index | odvozený (`scripts/nlp-catalog.py`) | str |  |
+| extra | `lang` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | str |  |
 | extra | `language` | section | autorský | str |  |
 | extra | `last_enhanced` | page, section | autorský | str |  |
 | extra | `last_updated` | glossary | autorský | str |  |
@@ -286,7 +287,6 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `monitoring` | glossary | autorský | list |  |
 | extra | `nabla_compliance` | glossary | autorský | str |  |
 | extra | `nabla_compliant` | glossary | autorský | bool |  |
-| extra | `nlp_*` | nlp, nlp-index | odvozený (`scripts/nlp-catalog.py`) | str, int, bool, list, table |  |
 | extra | `notation` | section | autorský | str |  |
 | extra | `og_type` | page, section | autorský | str |  |
 | extra | `origin` | glossary | autorský | str |  |
@@ -350,7 +350,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `requires_knowledge` | glossary | autorský | list |  |
 | extra | `response_time` | glossary | autorský | str |  |
 | extra | `risk_categories` | glossary | autorský | list |  |
-| extra | `risk_level` | nlp | odvozený (`scripts/nlp-catalog.py`) | str | `low`, `moderate`, `high` |
+| extra | `risk_level` | catalog | odvozený (`scripts/catalogs.py`) | str | `low`, `moderate`, `high` |
 | extra | `risk_level` | page, technique, quick-reference | autorský | str | `low-moderate`, `moderate`, `moderate-high`, `high`, `critical`, `extreme`, `ultramarine` |
 | extra | `runtime_agents` | glossary | autorský | str |  |
 | extra | `safety_critical_agents` | glossary | autorský | int, list |  |
@@ -358,12 +358,12 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `scalability` | glossary | autorský | str |  |
 | extra | `scan_engine` | glossary | autorský | str |  |
 | extra | `scanning_modes` | glossary | autorský | list |  |
-| extra | `schema_type` | nlp | odvozený (`scripts/nlp-catalog.py`) | str | `DefinedTerm` |
-| extra | `schema_type` | nlp-index | odvozený (`scripts/nlp-catalog.py`) | str | `DefinedTermSet` |
+| extra | `schema_type` | catalog | odvozený (`scripts/catalogs.py`) | str | `DefinedTerm` |
+| extra | `schema_type` | catalog-index | odvozený (`scripts/catalogs.py`) | str | `DefinedTermSet` |
 | extra | `scope` | glossary | autorský | str |  |
 | extra | `screening_threshold` | glossary | autorský | float |  |
 | extra | `section` | section | autorský | str |  |
-| extra | `section_icon` | nlp-index | odvozený (`scripts/nlp-catalog.py`) | str |  |
+| extra | `section_icon` | catalog-index | odvozený (`scripts/catalogs.py`) | str |  |
 | extra | `section_icon` | page, section, technique | autorský | str |  |
 | extra | `section_id` | section | autorský | str |  |
 | extra | `section_type` | section | autorský | str |  |
@@ -386,7 +386,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `stub` | section | autorský | bool |  |
 | extra | `subcategory` | glossary | autorský | str |  |
 | extra | `supported_lists` | glossary | autorský | list |  |
-| extra | `tags` | nlp-index | odvozený (`scripts/nlp-catalog.py`) | list |  |
+| extra | `tags` | catalog-index | odvozený (`scripts/catalogs.py`) | list |  |
 | extra | `tags` | section | autorský | list |  |
 | extra | `teams_coordinated` | glossary | autorský | list |  |
 | extra | `technical_domain` | glossary | autorský | str |  |
@@ -403,7 +403,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `tier` | glossary | autorský | str |  |
 | extra | `tier_levels` | glossary | autorský | list |  |
 | extra | `time_to_learn` | glossary | autorský | str |  |
-| extra | `toc` | nlp, nlp-index, nlp-trainer | odvozený (`scripts/nlp-catalog.py`) | bool |  |
+| extra | `toc` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | bool |  |
 | extra | `toc` | page, section, technique, quick-reference | autorský | bool |  |
 | extra | `tools` | glossary | autorský | list |  |
 | extra | `total_agents` | glossary | autorský | int, str |  |

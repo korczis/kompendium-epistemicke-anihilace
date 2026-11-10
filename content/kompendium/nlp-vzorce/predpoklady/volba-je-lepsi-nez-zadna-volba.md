@@ -115,9 +115,8 @@ rámec, ve kterém jsou podány, a připsání odpovědnosti za výsledek. Skute
 mění první prvek tak, že do množiny přibudou možnosti, které člověk dříve neviděl, včetně
 možnosti nic neměnit. Inscenovaná volba ponechává množinu úzkou, ale mění rámec a připsání
 odpovědnosti. Rámec zdůrazňuje svobodu („je to na tobě“), a protože se člověk „rozhodl
-sám“, nese i odpovědnost za výsledek.
-
-Výzkum rozhodování ukazuje, proč na rámci záleží. Tversky a Kahneman prokázali, že tatáž
+sám“, nese i odpovědnost za výsledek. Výzkum rozhodování ukazuje, proč na rámci záleží. Tversky a
+Kahneman prokázali, že tatáž
 volba podaná jako zisk nebo jako ztráta vede k odlišným preferencím, přestože se objektivně
 nic nemění (Tversky a Kahneman 1981). Způsob, jakým jsou možnosti uspořádány, tedy sám
 spoluurčuje rozhodnutí. K tomu přistupuje mechanismus závazku: lidé se cítí vázáni
@@ -158,7 +157,8 @@ skryté náklady.
 
 Manipulativní užití deklaruje svobodu, ale vytváří jen její obraz. V prodeji jde o výběr mezi
 dvěma balíčky téhož produktu, ve skupinách o výběr mezi dvěma podobami angažmá, ve vztazích o
-výběr mezi dvěma způsoby, jak vyhovět. Kompendium popisuje krajní podobu tohoto
+výběr mezi dvěma způsoby, jak vyhovět, tedy o omezení prostoru jednání, které Stark popisuje
+u donucující kontroly (Stark 2007). Kompendium popisuje krajní podobu tohoto
 mechanismu jako [paradox totální volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md),
 v němž člověk nese plnou odpovědnost za rozhodnutí, jehož rámec určil někdo jiný. Kritériem
 pro pozorovatele je, zda by mluvčí přijal i rozhodnutí, které nenabídl, a zda by za něj druhého

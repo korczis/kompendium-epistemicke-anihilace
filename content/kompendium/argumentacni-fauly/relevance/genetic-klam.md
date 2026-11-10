@@ -124,7 +124,8 @@ předpoklad, že kdo zná příčinu přesvědčení, nemusí zkoumat jeho důvo
 
 V pozitivní podobě má argument stejnou stavbu s opačným znaménkem. Zvyk, text nebo instituce
 mají úctyhodný původ, proto jsou správné. Tato varianta se překrývá s odvoláním na tradici a
-na starobylost. Obě podoby spojuje to, že hodnocení se odehrává na začátku příběhu, ne na
+na starobylost; vymezení genetického klamu jako přenosu hodnocení z dřívějšího kontextu na
+předmět v současnosti zahrnuje kladné hodnocení stejně jako záporné (Damer 2009). Obě podoby spojuje to, že hodnocení se odehrává na začátku příběhu, ne na
 jeho současném stavu.
 
 ## Varianty
@@ -137,7 +138,8 @@ Psychologická podoba hodnotí přesvědčení podle motivu nebo zkušenosti, ze
 tvrdí, že názor vzniklý ze strachu, zájmu nebo křivdy je tím samým nepravdivý. Jazyková
 podoba hodnotí slovo podle jeho původního významu a v katalogu odpovídá etymologickému
 klamu. Kladná podoba konečně připisuje hodnotu tomu, co má úctyhodný počátek. Všechny podoby
-mají stejné slabé místo: přeskakují otázku, jaké vlastnosti má předmět dnes.
+mají stejné slabé místo: přeskakují otázku, jaké vlastnosti má předmět dnes, tedy otázku
+zdůvodnění, kterou filozofie vědy odlišuje od otázky vzniku (Popper 1959).
 
 ## Detekční znaky
 
@@ -166,7 +168,8 @@ zkoumání otevírá otázku, zda dnešní důvody obstojí samy o sobě.
 
 Konečně je třeba odlišit genetický klam od kauzálního vysvětlení. Vědec, který vysvětluje,
 proč se v určité skupině rozšířila pověra, nedělá klam, protože netvrdí, že vysvětlením
-pověru vyvrátil. Pověru vyvracejí data. Klamem by bylo, kdyby vysvětlení vzniku považoval
+pověru vyvrátil. Pověru vyvracejí data, protože o přijatelnosti tvrzení rozhoduje jeho zkouška, ne historie
+jeho vzniku (Popper 1959). Klamem by bylo, kdyby vysvětlení vzniku považoval
 za dostatečný důkaz její nepravdivosti.
 
 ## Stav poznání

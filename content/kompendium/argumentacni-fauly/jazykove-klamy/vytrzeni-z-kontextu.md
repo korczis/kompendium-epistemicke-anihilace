@@ -131,8 +131,10 @@ pronesl jako hypotézu, ironii či předpověď cizího názoru. Třetí variant
 kdy se starý výrok předkládá jako současné stanovisko, ačkoli ho mluvčí mezitím výslovně
 opustil. Čtvrtou variantou je spojení úryvků, kdy se dvě části z různých míst textu spojí
 tak, že vytvoří tvrzení, které v textu není. V audiovizuální podobě odpovídá tomu střih,
-který vynechá otázku, na niž mluvčí odpovídal, takže odpověď působí jako spontánní
-prohlášení. Zvláštní variantou je
+který vynechá otázku, na niž mluvčí odpovídal, takže odpověď působí jako spontánní prohlášení.
+Učebnicový výklad klamu důrazu počítá všechny tyto varianty k jedné skupině: citát zbavený okolí
+mění význam výroku, aniž by změnil jediné jeho slovo (Copi, Cohen a McMahon 2014). Zvláštní
+variantou je
 [kolaps kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md), kdy výrok určený
 úzkému publiku se znalostí souvislostí doputuje k širokému publiku, které tyto souvislosti
 nemá, a je posuzován podle jeho měřítek.

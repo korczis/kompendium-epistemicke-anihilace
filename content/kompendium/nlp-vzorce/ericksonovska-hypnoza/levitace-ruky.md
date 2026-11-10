@@ -107,7 +107,7 @@ Do NLP se levitace dostala jako součást seminářové výuky hypnózy a jako j
 na nichž se ukazovalo propojení jazyka, představ a tělesných reakcí. Na rozdíl od jiných technik převzatých od Ericksona
 však levitace nikdy nebyla výlučně „ericksonovská“. Ideomotorické položky jsou součástí
 standardizovaných škál hypnability, které vznikly v experimentální hypnóze nezávisle na
-NLP, a výzkum jevu se proto vede v hlavním proudu psychologie. Pro čtenáře je to výhoda:
+NLP (Kirsch a Lynn 1995), a výzkum jevu se proto vede v hlavním proudu psychologie. Pro čtenáře je to výhoda:
 o levitaci víme víc než o většině vzorců této rodiny. Širší rámec popisuje stránka
 [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md).
 
@@ -116,7 +116,7 @@ o levitaci víme víc než o většině vzorců této rodiny. Širší rámec po
 Levitace má tři strukturní složky. První je zaměření pozornosti na tělesné pocity v ruce,
 například lehkost, teplo nebo drobné záchvěvy, které jsou při soustředění vnímatelné u
 každého. Druhá je očekávání, že se z těchto pocitů může vyvinout pohyb, vytvářené
-nejčastěji obrazným jazykem a permisivními formulacemi. Třetí je zpětná vazba: každý
+nejčastěji obrazným jazykem a permisivními formulacemi (Erickson, Rossi a Rossi 1976). Třetí je zpětná vazba: každý
 drobný pohyb se pojmenuje a potvrdí, což očekávání posiluje a pohyb pokračuje. Výsledkem
 je zážitek, že se tělo pohybuje samo.
 
@@ -165,7 +165,7 @@ se objevuje v neodborných terapiích, které hledají „skryté vzpomínky“,
 skupinách, kde se pohyb vykládá jako působení vyšší síly, a v seminářích, kde slouží jako
 důkaz účinnosti lektora. Nejzávažnější je to tam, kde se z ideomotorických „odpovědí“
 vyvozují závěry o minulosti, protože sugestivní postupy mohou vytvářet přesvědčivé, ale
-nepravdivé vzpomínky.
+nepravdivé vzpomínky (Lilienfeld, Lynn a Lohr 2015).
 
 ## Stav důkazů
 

@@ -44,8 +44,8 @@ catalog_prev = "som-aplikace-na-sebe"
 catalog_next = "som-zmena-velikosti-ramce"
 catalog_position = 15
 catalog_family_size = 16
-catalog_sources = ["bateson-1972", "beck-1976", "dilts-1999", "hassan-1988", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "sharpley-1987", "singer-lalich-1995", "watzlawick-1967"]
-catalog_sources_primary = ["dilts-1999"]
+catalog_sources = ["bateson-1972", "beck-1976", "damer-2009", "dilts-1999", "hassan-1988", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "sharpley-1987", "singer-lalich-1995", "watzlawick-1967"]
+catalog_sources_primary = ["damer-2009", "dilts-1999"]
 catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "hassan-1988", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "sharpley-1987", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -86,7 +86,7 @@ Rozlišení úrovní komunikace má v teorii, z níž NLP čerpalo, pevné míst
 
 ## Struktura vzorce
 
-Vzorec má tři složky. První je přesvědčení nebo námitka. Druhou je výrok o tomto přesvědčení, který mu přisuzuje původ, motiv nebo funkci: věříte tomu, protože, říkáte to jen proto, že, to z vás mluví. Třetí je mlčky provedený závěr, že vysvětlením původu je přesvědčení vyřízeno. Klíčové je, že výrok o původu může být i pravdivý, a přesto z něj neplyne nic o tom, zda je přesvědčení oprávněné. Člověk, který má zkušenost se zneužitím důvěry, může být podezíravější, a zároveň může mít v konkrétním případě pravdu.
+Vzorec má tři složky. První je přesvědčení nebo námitka. Druhou je výrok o tomto přesvědčení, který mu přisuzuje původ, motiv nebo funkci: věříte tomu, protože, říkáte to jen proto, že, to z vás mluví. Třetí je mlčky provedený závěr, že vysvětlením původu je přesvědčení vyřízeno. Klíčové je, že výrok o původu může být i pravdivý, a přesto z něj neplyne nic o tom, zda je přesvědčení oprávněné; usuzování z původu přesvědčení na jeho platnost popisuje teorie argumentace jako genetický klam (Damer 2009). Člověk, který má zkušenost se zneužitím důvěry, může být podezíravější, a zároveň může mít v konkrétním případě pravdu.
 
 Pro analýzu je rozhodující, kdo meta-rámec vytváří a k čemu slouží. V reflexivní podobě ho vytváří sám člověk nebo ho nabízí terapeut jako hypotézu ke společnému zkoumání, a obsah přesvědčení zůstává otevřený. V manipulativní podobě ho vytváří druhá strana, které obsah námitky vadí, a meta-rámec funguje jako imunizace: každá další námitka se stává dalším dokladem téhož příznaku, takže výklad mluvčího nelze vyvrátit. Kompendium tento mechanismus popisuje v obecnější podobě jako [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md). V uzavřených skupinách se meta-rámec často ustálí v podobě hotových vysvětlení, jimiž se pochybnosti členů přičítají jejich slabosti, minulosti nebo vnějším vlivům, a tím se zastaví jejich zkoumání. Lifton popsal jazyk takových systémů jako zatížený ustálenými frázemi, které ukončují myšlení dřív, než se může rozvinout (Lifton 1961).
 
@@ -110,6 +110,7 @@ Základní obranou je trvat na tom, že původ pochybnosti nerozhoduje o její o
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
+- Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Dilts, R. (1999). *Sleight of Mouth: The Magic of Conversational Belief Change*. Capitola: Meta Publications.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.

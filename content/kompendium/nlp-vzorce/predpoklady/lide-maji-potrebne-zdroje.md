@@ -112,7 +112,8 @@ přístup k tomu, co už existuje, ne získání něčeho nového, ať už jde o
 čas nebo ochranu. A nedostupnost zdroje se vysvětluje vnitřní překážkou, kterou lze odstranit
 správnou technikou nebo správným rozhodnutím. V terapeutickém rozhovoru, kde se předpoklad
 uplatní jako jedna z hypotéz a vedle něj se zkoumají i vnější podmínky, je tento přesun
-užitečný: posiluje vědomí vlastní kompetence a brání tomu, aby se člověk viděl jen jako souhrn
+užitečný: posiluje vědomí vlastní kompetence (Miller a Rollnick 2013) a brání tomu, aby se člověk
+viděl jen jako souhrn
 deficitů.
 
 Rizikovým se předpoklad stává tehdy, když se uplatní jako obecné pravidlo bez výjimek. Pak se
@@ -120,7 +121,9 @@ skutečný nedostatek, například nemoc, chudoba, izolace nebo nebezpečí, př
 vnitřní blokace a od člověka se čeká, že ho překoná vlastním rozhodnutím. Pozorovatel by měl
 sledovat, zda se v rozhovoru vedle vnitřních zdrojů mluví i o vnějších podmínkách, a zda má
 mluvčí z výkladu nějaký prospěch, typicky prodej dalšího kurzu, sezení nebo „pokročilého
-stupně“, který má zdroj konečně zpřístupnit.
+stupně“, který má zdroj konečně zpřístupnit; nabídku navazujících kurzů jako součást struktury
+velkých tréninkových seminářů popisuje literatura o manipulativních skupinách (Singer a Lalich
+1995).
 
 Důležitý je i rozdíl mezi zdrojem, který člověku chybí, protože ho nikdy neměl, a zdrojem,
 který mu někdo vzal. Ve vztazích s vysokou mírou kontroly bývá nedostupnost peněz, přátel,
@@ -134,7 +137,9 @@ porozuměním terapeuta (Rogers 1951), a ne s pouhým rozhodnutím klienta.
 
 Manipulativní užití se pozná podle toho, že předpoklad slouží k odmítnutí jiné pomoci. Typickým
 znakem je tvrzení, že léky, lékařská péče nebo psychoterapie „jen oddalují“ to, co člověk
-dokáže sám, pokud se rozhodne. Dalším znakem je výklad neúspěchu jako nedostatku vůle, odvahy
+dokáže sám, pokud se rozhodne. Literatura o pseudovědě v klinické psychologii upozorňuje, že
+nedoložené metody, které odvádějí od účinné léčby, škodí i tehdy, když samy nic nezpůsobí
+(Lilienfeld, Lynn a Lohr 2015). Dalším znakem je výklad neúspěchu jako nedostatku vůle, odvahy
 nebo „připravenosti“: když zdroje podle definice existují, jejich nedostupnost je vina toho,
 kdo k nim nenašel cestu. V prostředí velkých motivačních seminářů se předpoklad spojuje s
 vyprávěním o lidech, kteří „všechno změnili jediným rozhodnutím“, a s tlakem na okamžité
@@ -145,8 +150,9 @@ zdroje“ a zaslouží si kritiku.
 
 U člověka, na kterého je takto působeno, se objevuje stud za potřebu pomoci, odkládání nebo
 přerušení léčby, sebeobviňování za příznaky nemoci a pocit, že vnější podpora je známka
-slabosti. U lidí se závažnějšími psychickými obtížemi může tento vývoj vést k nebezpečnému
-zhoršení stavu, na což upozorňuje kapitola kompendia o [práci se zranitelnými
+slabosti. U lidí se závažnějšími psychickými obtížemi může odklon od účinné léčby vést k
+nebezpečnému zhoršení stavu (Lilienfeld, Lynn a Lohr 2015), na což upozorňuje kapitola kompendia o
+[práci se zranitelnými
 populacemi](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
 
 Lifton popsal, jak požadavek dokonalosti v uzavřených systémech udržuje u členů trvalý pocit
@@ -198,7 +204,8 @@ traumatu nelze uskutečnit v izolaci a že vyžaduje bezpečné vztahy a podporu
 1992).
 
 Pro člověka, který z takového prostředí odchází, je součástí zotavení oddělit stud od potřeby
-pomoci a znovu přijmout, že vyhledat péči není selhání. Odborník, který s principem pracuje, by
+pomoci a znovu přijmout, že vyhledat péči není selhání, protože zotavení stojí na podpoře
+druhých, ne na osamělém výkonu (Herman 1992). Odborník, který s principem pracuje, by
 ho měl formulovat jako hypotézu o klientových silných stránkách, nikoli jako záruku, že klient
 nic dalšího nepotřebuje.
 

@@ -44,9 +44,9 @@ catalog_prev = "komplexni-ekvivalence-milton"
 catalog_next = "modalni-operatory-milton"
 catalog_position = 20
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "cialdini-2009", "ellis-1962", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "levinson-1983", "mcguire-1964", "oconnor-seymour-1990", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "cialdini-2009", "ellis-1962", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "levinson-1983", "mcguire-1964", "oconnor-seymour-1990", "popper-1959", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990"]
-catalog_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -115,7 +115,7 @@ mnoho; tvrdí, že výjimka neexistuje.
 Vzorec má čtyři prvky. Prvním je kvantifikátor, vyjádřený zájmenem, příslovcem nebo záporem
 typu „nikdo“ či „nic“. Druhým je doména, na kterou se vztahuje, a která často mlčky zahrnuje
 posluchače nebo jeho okolí: „každý člověk“, „všichni, kdo odešli“, „nikdo venku“. Třetím je
-tvrzení, jehož bezvýjimečnost nelze ověřit, protože mluvčí nemůže znát všechny případy. Čtvrtým
+tvrzení, jehož bezvýjimečnost nelze ověřit, protože mluvčí nemůže znát všechny případy (Bandler a Grinder 1975). Čtvrtým
 je funkce, kterou tvrzení v rozhovoru plní. Lze rozlišit funkci zahrnující, kdy obecný výrok
 platí i pro posluchače a vytváří souhlas („každý někdy pocítí únavu“); funkci nevyhnutelnosti,
 kdy se určitý vývoj podává jako osud („dříve nebo později to pochopí každý“); funkci
@@ -140,8 +140,7 @@ nátlakové řeči hromadí kolem rozhodnutí, která mluvčí potřebuje ovlivn
 odchodu, koupě, podpisu nebo přerušení kontaktu s blízkými. Čtvrtým znakem je spojení se
 ztraceným performativem a s modálními výrazy nutnosti („každý, kdo to myslí vážně, musí…“).
 Pátým znakem je reakce na protipříklad: mluvčí, který protipříklad odmítne jako výjimku
-potvrzující pravidlo nebo jako člověka, který „to ve skutečnosti nezvládl“, činí své tvrzení
-nevyvratitelným.
+potvrzující pravidlo nebo jako člověka, který „to ve skutečnosti nezvládl“, činí své tvrzení nevyvratitelným, a tím ho zbavuje empirického obsahu (Popper 1959).
 
 Na straně posluchače se dlouhodobé působení projevuje přejímáním bezvýjimečných tvrzení do
 vlastní řeči a myšlení: „nikdy to nezvládnu“, „nikdo mě nebere vážně“, „venku je to všude
@@ -215,6 +214,7 @@ obnova spojení s ostatními je jeho nezbytnou součástí (Herman 1992).
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.

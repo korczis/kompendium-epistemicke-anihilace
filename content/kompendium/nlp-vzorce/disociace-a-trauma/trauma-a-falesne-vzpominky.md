@@ -153,7 +153,9 @@ Na straně klienta se riziko projevuje tím, že se jeho životní příběh v p
 mění, že nové vzpomínky jsou provázeny silnou jistotou, ale chybí jim nezávislé potvrzení, a že
 se jeho stav po „objevech“ spíše zhoršuje, než zlepšuje. Pro forenzní posuzování je podstatné,
 že výpověď opřená o vzpomínky, které vznikly v takovém procesu, nemusí mít důkazní hodnotu,
-protože nelze odlišit, co v ní pochází z události a co z procesu vybavování. Zásady
+protože nelze odlišit, co v ní pochází z události a co z procesu vybavování. Experimentální výzkum
+ukázal, že informace podaná po události může vést k vybavení podrobností, které se nestaly (Loftus
+a Palmer 1974). Zásady
 nesugestivního dotazování kompendium popisuje v hesle o
 [forenzním rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) a jazykové
 mechanismy sugestivních otázek v hesle
@@ -204,7 +206,7 @@ terapie, může se zeptat, jak terapeut pracuje se vzpomínkami, zda používá 
 a jak by postupoval, kdyby si klient na něco nevzpomínal. Opatrnost je na místě u každého
 praktika, který předem ví, co se stalo, a u každé techniky, která slibuje „najít“ příčinu.
 Nové vzpomínky by neměly být podkladem pro zásadní rozhodnutí, dokud je neposoudí odborník,
-který rozumí rekonstruktivní povaze paměti.
+který rozumí rekonstruktivní povaze paměti (Loftus a Palmer 1974).
 
 Pro odborníka a vyšetřovatele platí zásada neutrality: nepřidávat obsah, ptát se otevřeně,
 oddělovat to, co si člověk pamatoval dříve, od toho, co se objevilo později, a dokumentovat

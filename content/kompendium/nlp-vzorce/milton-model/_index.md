@@ -55,7 +55,7 @@ začínají tím, co posluchač nemůže popřít:
 [řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md),
 [pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md)
 a [řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md). Třetí skupinu
-tvoří vzorce neurčitosti, které jsou zrcadlovými obrazy kategorií meta-modelu: úmyslná
+tvoří vzorce neurčitosti, které jsou zrcadlovými obrazy kategorií meta-modelu (Bandler a Grinder 1975; Bandler a Grinder 1975b): úmyslná
 vágnost, nominalizace, nespecifikovaná slovesa a referenční indexy, [čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md), ztracený
 performativ, [komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md), [univerzální kvantifikátory](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md), modální operátory,
 [srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) a presupozice. Úvod do této skupiny dává heslo
@@ -93,8 +93,7 @@ Mathison 2009); u Milton-modelu je tento rozpor zvlášť výrazný, protože vz
 Hesla této rodiny popisují strukturu vzorců tak, aby je pozorovatel poznal: co je v řeči
 slyšet, jak výrok funguje, co dělá s posluchačem a kde leží rozdíl mezi legitimním a
 manipulativním užitím. Neobsahují postupy ani formulace k použití a příklady výroků, které
-katalog uvádí v trenéru rozpoznávání, slouží k tréninku detekce. Čtenář by měl mít na
-paměti tři zásady.
+katalog uvádí v trenéru rozpoznávání, slouží k tréninku detekce, protože seznámení s oslabenou podobou vlivu posiluje odolnost vůči němu (McGuire 1964); toto omezení vychází z principu primární defenzivnosti, který vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Čtenář by měl mít na paměti tři zásady.
 
 První zásadou je, že žádný jednotlivý jazykový tvar sám o sobě nic nedokazuje. Nepřímé
 otázky, dovětky, citace, metafory i neurčitá slova jsou běžnou součástí zdvořilé a obrazné
@@ -106,9 +105,10 @@ soustavně a záměrně využívá ty, které existují.
 Druhou zásadou je, že o manipulaci svědčí souběh: hustota vzorců, jejich obsah, zájem
 mluvčího a situace posluchače. Když se v krátkém úseku hromadí neurčitá slova, skryté
 požadavky a souhlasné řady, když obsah, ke kterému řeč vede, slouží mluvčímu a když
-posluchač stojí před rozhodnutím, je na místě zpozornět. Kompendium popisuje obdobné souběhy
+posluchač stojí před rozhodnutím, je na místě zpozornět. Už v přepisech Ericksonových sezení, z nichž model vzešel, se vzorce
+objevují ve shlucích, často několik v jediné větě (Bandler a Grinder 1975b). Kompendium popisuje obdobné souběhy
 u [pasti epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md)
-a u [vzorce guru a adepta](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md).
+a u [vzorce guru a adepta](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md). Požadavek, aby se závěr opíral o souběh více znaků, a ne o jediný, patří k principu validační triangulace, který popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 Třetí zásadou je, že klíčovým rozlišovacím znakem je asymetrie vědění a souhlasu. V
 legitimní hypnoterapii klient ví, že se s ním pracuje hypnotickým jazykem, souhlasil s tím a
@@ -144,8 +144,7 @@ a sociálního tlaku, které soustavně využívají.
 ## Obrana
 
 Obrana proti vzorcům Milton-modelu má společné jádro: návrat ke konkrétnímu obsahu a k
-výslovnému rozhodnutí. Otázky meta-modelu, tedy kdo, co, jak konkrétně a podle čeho, vracejí
-neurčitou řeč k tvrzením, za která mluvčí musí ručit. Skryté požadavky se dají převést na
+výslovnému rozhodnutí. Otázky meta-modelu, tedy kdo, co, jak konkrétně a podle čeho, vracejí neurčitou řeč k tvrzením, za která mluvčí musí ručit (Bandler a Grinder 1975). Skryté požadavky se dají převést na
 výslovné a odpovědět na ně přímo. Souhlas s nesporným výrokem se dá oddělit od souhlasu se
 závěrem, který z něj neplyne. Rozhodnutí, ke kterému člověk cítí tah, ale nedokáže říct proč,
 se dá odložit a prověřit mimo situaci, ve které vzniklo.

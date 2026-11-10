@@ -44,10 +44,10 @@ catalog_prev = "ad-hominem"
 catalog_next = "tu-quoque"
 catalog_position = 2
 catalog_family_size = 28
-catalog_sources = ["bentham-1824", "copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "hahn-oaksford-2007", "hamblin-1970", "kunda-1990", "mercier-sperber-2011", "petty-cacioppo-1986", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "whately-1826", "woods-walton-1989", "eemeren-grootendorst-1992"]
+catalog_sources = ["bentham-1824", "copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "hahn-oaksford-2007", "hamblin-1970", "herman-1992", "kunda-1990", "mercier-sperber-2011", "petty-cacioppo-1986", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "whately-1826", "woods-walton-1989", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "hamblin-1970", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "woods-walton-1989", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["bentham-1824", "whately-1826"]
-catalog_sources_critical = ["hahn-oaksford-2007", "kunda-1990", "mercier-sperber-2011", "petty-cacioppo-1986"]
+catalog_sources_critical = ["hahn-oaksford-2007", "herman-1992", "kunda-1990", "mercier-sperber-2011", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -123,7 +123,8 @@ námitku ty taky.
 Okolnostní útok bývá zabalen do zdánlivě analytického jazyka. Neříká „je to lhář“, ale „je
 třeba vidět, kdo za tím stojí“ nebo „podívejme se, komu to prospívá“. Otázka po prospěchu
 je sama o sobě legitimní nástroj vyšetřování. Klamavou se stává tehdy, když odpověď na ni
-nahradí posouzení důkazů a když se položí jen jedné straně sporu. Jde o příbuzný jev
+nahradí posouzení důkazů a když se položí jen jedné straně sporu, protože zájem zvyšuje
+nárok na důkaz, ale tvrzení nezamítá (Walton 2008). Jde o příbuzný jev
 [bulverismu](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md), kde se místo
 prokázání chyby rovnou vysvětluje, proč se odpůrce mýlí.
 
@@ -136,7 +137,8 @@ profesi, generaci, národnosti nebo straně a z jednotlivého mluvčího dělá 
 skupinového zájmu. Životní podoba využívá osobní situaci: rodič „to vidí citově“, nemocný
 „to nemůže posoudit objektivně“, oběť „je zaujatá svým zážitkem“. Tato podoba je v
 kontextu kompendia zvlášť závažná, protože dokáže zneplatnit svědectví právě těch lidí,
-kteří mají o věci nejpřímější zkušenost. Ve všech podobách zůstává společné jádro: okolnost
+kteří mají o věci nejpřímější zkušenost; klinická literatura o traumatu popisuje
+zpochybňování věrohodnosti oběti jako běžnou obranu pachatele (Herman 1992). Ve všech podobách zůstává společné jádro: okolnost
 se nepoužívá jako důvod k pečlivějšímu ověření, ale jako důvod, proč ověřovat není třeba.
 
 ## Detekční znaky
@@ -164,7 +166,6 @@ postaví doporučení. V obou případech zájem zvyšuje nárok na důkaz, ale 
 svědectví nebo odbornosti, a mezi nimi uvádí i to, zda zdroj nemá důvod tvrzení zkreslit
 (Govier 2010). Hranicí tedy je, zda se ze zájmu vyvozuje opatrnost a požadavek na ověření,
 nebo nepravdivost.
-
 Druhou hranicí je otevřenost vůči datům. Pokud zaujatý zdroj zveřejní metody, vstupy a
 výpočty, lze je posoudit bez ohledu na jeho zájem, a odmítnutí jen kvůli zájmu je klamem.
 Pokud zdroj data skrývá, zájem je legitimním důvodem k nedůvěře, protože nic jiného, o co
@@ -208,6 +209,7 @@ podoby, kterou katalog popisuje jako
 - Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth.
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.

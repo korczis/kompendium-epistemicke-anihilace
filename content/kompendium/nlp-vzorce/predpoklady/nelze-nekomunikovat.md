@@ -44,10 +44,10 @@ catalog_prev = "modelovatelnost-excelence"
 catalog_next = "volba-je-lepsi-nez-zadna-volba"
 catalog_position = 14
 catalog_family_size = 21
-catalog_sources = ["bandler-grinder-1979", "bateson-1972", "bateson-1956", "ekman-2003", "grice-1975", "herman-1992", "oconnor-seymour-1990", "vrij-2008", "watzlawick-1967", "wiseman-2012"]
+catalog_sources = ["bandler-grinder-1979", "bateson-1972", "bateson-1956", "ekman-2003", "grice-1975", "herman-1992", "oconnor-seymour-1990", "stark-2007", "vrij-2008", "watzlawick-1967", "wiseman-2012"]
 catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "bateson-1956", "grice-1975", "watzlawick-1967"]
-catalog_sources_critical = ["ekman-2003", "herman-1992", "vrij-2008", "wiseman-2012"]
+catalog_sources_critical = ["ekman-2003", "herman-1992", "stark-2007", "vrij-2008", "wiseman-2012"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -159,7 +159,9 @@ ověřování.
 
 Manipulativní užití přetváří pozornost v kontrolu. Druhý ztrácí právo na neutrální chování,
 protože každý jeho projev je předmětem výkladu, a ztrácí i právo na vlastní výklad, protože
-ten mluvčího nezajímá. Habermasovská perspektiva, kterou kompendium rozvádí na stránce o
+ten mluvčího nezajímá. Soustavné sledování a regulaci drobností každodenního chování druhého
+popisuje Stark jako součást kontrolujícího chování v blízkých vztazích (Stark 2007).
+Habermasovská perspektiva, kterou kompendium rozvádí na stránce o
 [komunikativním jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md),
 pomáhá rozdíl pojmenovat: v jednom případě jde o hledání porozumění, které obě strany mohou
 zpochybnit, ve druhém o strategické jednání, které porozumění jen předstírá. Rozhodujícím
@@ -208,6 +210,7 @@ zásada pokory: kalibrace neverbálního projevu je hypotéza, nikoli vhled do c
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.

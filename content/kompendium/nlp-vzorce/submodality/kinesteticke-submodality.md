@@ -123,8 +123,9 @@ kdo obraz změní, změní i pocit. Kinestetické kvality jsou tak v NLP chápá
 účinku technik i jako jejich samostatný cíl.
 
 Pro pozorovatele je podstatné, co se v této struktuře stává s významem pocitu. Tělesný
-pocit nese informaci: úzkost může signalizovat nebezpečí, sevření žaludku nesouhlas, tíha
-na hrudi zármutek. Slovník kinestetických submodalit tuto informaci odkládá a pracuje jen s
+pocit nese informaci: úzkost může signalizovat nebezpečí, sevření žaludku nesouhlas, tíha na
+hrudi zármutek; emoce jsou odpovědí na to, co člověk vyhodnotí jako pro sebe důležité (Ekman
+2003). Slovník kinestetických submodalit tuto informaci odkládá a pracuje jen s
 formou. Pokud se pocit „sevření“ přejmenuje na „teplo, které se chce rozlít“, nemění se jen
 popis; mění se i to, zda ho člověk chápe jako varování. Tento krok je jádrem rizika celého
 pojmu. Kompendium popisuje cílené ovlivňování citových stavů, které člověk sám nevolí, jako
@@ -189,7 +190,9 @@ u důležitého rozhodnutí objeví sevření, tíha nebo neklid, je rozumné ro
 zeptat se, na co pocit reaguje. Kdo slyší, že jeho úzkost je „jen energie“ nebo „blok“, může se
 vrátit k obsahu: čeho se obává a jsou pro to důvody? Druhou obranou je nedělat závažná
 rozhodnutí ve stavu vyčerpání, nedostatku spánku nebo po dlouhém intenzivním programu, kdy se
-tělesné pocity snadno vykládají cizím slovníkem. Třetí obranou je hledat výklad svých
+tělesné pocity snadno vykládají cizím slovníkem; vyčerpání a nedostatek spánku patří k
+podmínkám, které popisuje literatura o nátlakových skupinách (Singer a Lalich 1995). Třetí
+obranou je hledat výklad svých
 tělesných stavů u lidí mimo situaci, kteří nemají zájem na určitém rozhodnutí.
 
 U lidí, kterým byly tělesné signály dlouhodobě přejmenovávány, bývá narušena důvěra ve

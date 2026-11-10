@@ -44,9 +44,9 @@ catalog_prev = "predramcovani"
 catalog_next = "deframing"
 catalog_position = 15
 catalog_family_size = 17
-catalog_sources = ["bandler-grinder-1982", "beck-1976", "erickson-rossi-rossi-1976", "festinger-1957", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "stark-2007", "sturt-2012", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1982", "beck-1976", "erickson-rossi-rossi-1976", "festinger-1957", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "popper-1959", "stark-2007", "sturt-2012", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1982"]
-catalog_sources_roots = ["erickson-rossi-rossi-1976", "watzlawick-1967", "watzlawick-1974"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "popper-1959", "watzlawick-1967", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "festinger-1957", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "stark-2007", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -124,7 +124,9 @@ platit, nebo ji nahrazuje.
 Manipulativní varianta má typickou konfiguraci. Výklad přichází od toho, koho událost
 usvědčuje nebo komu výklad prospívá. Nový význam přesouvá odpovědnost: agrese se stává zkouškou
 důvěry, kontrola péčí, porušení dohody nedorozuměním, za které může druhý. Výklad se opakuje,
-dokud ho druhý nepřijme, a jeho vlastní popis se označuje za zkreslený. Tím se dodatečné
+dokud ho druhý nepřijme, a jeho vlastní popis se označuje za zkreslený. Herman popisuje tutéž
+obranu u pachatelů, kteří tvrdí, že se nic nestalo, že oběť přehání nebo že si za to může sama
+(Herman 1992). Tím se dodatečné
 rámcování přibližuje vzorci, který kompendium popisuje jako
 [gaslighting](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md): nejde
 jen o jiný výklad, ale o postupné odebírání důvěry ve vlastní paměť. Na rovině skupin a institucí
@@ -140,7 +142,9 @@ rozporu s tím, co si dotyčný pamatuje, a vykladač tento rozpor neřeší ov�
 zatěžuje. Výklady se v čase mění, ale každý nový je podáván se stejnou jistotou jako předchozí.
 V seminářovém a terapeutickém prostředí se vzorec objevuje tak, že každý prožitek, včetně
 nepříjemného nebo škodlivého, je na konci zpětně označen za důkaz účinku: pláč za uvolnění,
-zmatek za průlom, zhoršení za očistu.
+zmatek za průlom, zhoršení za očistu. Výklad, který jakýkoli výsledek čte jako potvrzení,
+nelze ničím vyvrátit, a právě nevyvratitelnost Popper považoval za znak tvrzení, která
+nesplňují nárok empirické vědy (Popper 1959).
 
 Stark popisuje donucující kontrolu jako vzorec, ve kterém pachatel izoluje oběť a ovládá její
 každodenní život (Stark 2007); zpětné přepisování událostí do tohoto vzorce zapadá, protože oběti
@@ -189,7 +193,9 @@ než jako ověřený terapeutický nástroj.
 
 Nejúčinnější obranou je zachovat vlastní záznam události dřív, než přijde cizí výklad. Kdo si
 po důležitém rozhovoru, konfliktu nebo zážitku zapíše, co se stalo, vlastními slovy a s
-časovým údajem, má oporu, kterou pozdější výklad nerozloží. Druhou obranou je oddělit popis od
+časovým údajem, má oporu, kterou pozdější výklad nerozloží; výzkum paměti ukazuje, že
+pozdější formulace otázky dokáže posunout i to, co si svědek události vybaví (Loftus a Palmer
+1974). Druhou obranou je oddělit popis od
 výkladu: na otázku, co se stalo, odpovídat fakty, a výklad posuzovat jako jednu z možných
 hypotéz. Třetí obranou je všímat si, komu výklad prospívá, a nepřijímat zpětnou definici
 události od toho, koho událost usvědčuje, bez nezávislého ověření. Pomáhá také svěřit se někomu
@@ -212,6 +218,7 @@ dobře míněný výklad z autority může vzpomínku přetvořit.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.

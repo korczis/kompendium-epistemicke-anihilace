@@ -120,15 +120,13 @@ Druhou strukturální vlastností je popiratelnost. Protože mluvčí formálně
 zvědavost, nemůže být obviněn z vtíravého vyptávání, a pokud posluchač neodpoví, rozhovor
 plyne dál bez zjevného napětí. Třetí vlastností je spojení s dalšími vzorci. Vložená
 otázka se často kombinuje s vloženým příkazem, kdy závislá věta obsahuje i výzvu, a s
-[konverzačními postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md), u
-nichž otázka po schopnosti funguje jako žádost. Výsledkem je řeč, ve které se požadavky a
+[konverzačními postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md), u nichž otázka po schopnosti funguje jako žádost (Bandler a Grinder 1975b). Výsledkem je řeč, ve které se požadavky a
 otázky prolínají s konstatováními tak, že posluchač ztrácí přehled o tom, co bylo
 skutečně řečeno a co si domyslel.
 
 ## Detekční znaky
 
-Vloženou otázku poznáme podle hlavní věty vyjadřující vnitřní stav mluvčího, po které
-následuje tázací obsah, a to opakovaně v krátkém úseku rozhovoru. Varovným znakem je, když
+Vloženou otázku poznáme podle hlavní věty vyjadřující vnitřní stav mluvčího, po které následuje tázací obsah (Bandler a Grinder 1975b), a to opakovaně v krátkém úseku rozhovoru. Varovným znakem je, když
 tázací obsah předpokládá rozhodnutí, které posluchač ještě neučinil, tedy když se
 mluvčí „zajímá“, jak velká bude investice, kdy se posluchač přidá nebo jak se bude cítit,
 až to udělá. Dalším znakem je, že mluvčí po takové větě zmlkne a čeká, čímž z

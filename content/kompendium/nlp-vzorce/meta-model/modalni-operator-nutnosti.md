@@ -130,7 +130,7 @@ asymetrie: v kontrolujících vztazích a skupinách platí nutnosti jen pro jed
 druhá strana si ponechává volnost, kterou první nemá. Čtvrtým rysem je kumulace. Jednotlivé
 „musíš“ může být banální, ale soustava drobných nutností, které se týkají oblékání, času,
 peněz, kontaktů a komunikace, vytváří prostředí, v němž člověk ztrácí představu, že by mohl
-jednat jinak. Kompendium tento mechanismus z pohledu modální logiky rozebírá u
+jednat jinak (Stark 2007). Kompendium tento mechanismus z pohledu modální logiky rozebírá u
 [modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md).
 
 ## Detekční znaky

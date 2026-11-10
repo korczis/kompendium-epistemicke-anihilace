@@ -39,7 +39,7 @@ catalog_related = ["ztraceny-performativ", "komplexni-ekvivalence", "truismy", "
 catalog_related_declared = ["ztraceny-performativ", "ztraceny-performativ-milton", "truismy", "komplexni-ekvivalence"]
 catalog_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md", "kompendium/nlp-vzorce/milton-model/truismy.md", "kompendium/nlp-vzorce/presupozice/existencni-presupozice.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md", "kompendium/nlp-vzorce/milton-model/truismy.md", "kompendium/nlp-vzorce/presupozice/existencni-presupozice.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
 catalog_prev = "predikaty-uvedomeni"
 catalog_next = "slovesa-zmeny-casu"
 catalog_position = 7
@@ -112,7 +112,9 @@ hodnotí a kdo je hodnocen.
 
 ## Struktura vzorce
 
-Vzorec má tři složky. První je obsah věty, který se předpokládá a nezpochybňuje. Druhá je
+Vzorec má tři složky. První je obsah věty, který se předpokládá a nezpochybňuje; právě kvůli
+němu řadí přehled Milton-modelu komentářová příslovce mezi presupozice (Bandler a Grinder
+1975b). Druhá je
 komentář, který obsah hodnotí z pozice mluvčího, ale bez výslovného „já si myslím“. Třetí je
 vlastní tvrzení věty, často podružné, ke kterému se pozornost adresáta upírá. U příslovcí
 samozřejmosti („samozřejmě“, „zjevně“, „pochopitelně“) přistupuje ještě čtvrtý prvek:
@@ -131,7 +133,8 @@ komentářová příslovce jsou jedním z jejích jazykových prostředků.
 ## Varianty
 
 Lze rozlišit tři skupiny. Příslovce hodnocení („naštěstí“, „bohužel“, „bohudík“, „zaplaťpánbůh“)
-určují emoční znaménko události. Příslovce samozřejmosti a jistoty („samozřejmě“, „zjevně“,
+určují emoční znaménko události; odpovídají anglickým příkladům, které uvádí přehled
+Milton-modelu (Bandler a Grinder 1975b). Příslovce samozřejmosti a jistoty („samozřejmě“, „zjevně“,
 „nepochybně“, „jak každý ví“) předkládají obsah jako nesporný a nesouhlas jako výstřednost.
 Hodnoticí přívlastky („tvoje zbytečná hysterie“, „ta nešťastná chyba“, „tvoje pochopitelná
 nejistota“) vkládají hodnocení přímo do pojmenování a spojují se tak s
@@ -145,8 +148,8 @@ reakce, kterou lze shovívavě přejít.
 Komentářová příslovce je třeba odlišit od několika podobných prostředků. Zmírňující výrazy
 jako „možná“, „snad“ nebo „zdá se mi“ hodnocení nepředpokládají, ale naopak oslabují a dávají
 posluchači prostor nesouhlasit; jsou to v jistém smyslu opačné nástroje. Ironie užívá
-hodnoticích slov s obráceným významem a posluchač ji zpravidla rozpozná jako hru, ne jako
-předpoklad. Otevřeně vyslovený názor („myslím si, že to byla chyba“) hodnocení nese, ale nese
+hodnoticích slov s obráceným významem a posluchač ji zpravidla rozpozná jako hru, tedy jako
+zjevné porušení požadavku pravdivosti, ne jako předpoklad (Grice 1975). Otevřeně vyslovený názor („myslím si, že to byla chyba“) hodnocení nese, ale nese
 ho jako tvrzení s uvedeným hodnotitelem, ke kterému se lze vyjádřit. Od
 [komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md), která
 výslovně spojuje chování s významem („když mlčíš, znamená to, že…“), se komentářové příslovce
@@ -181,7 +184,8 @@ něj rámec, ve kterém se o věci mluví. Je typické v konfliktech, ve kterýc
 hodnotí druhou („samozřejmě zase přeháníš“), v institucích, které komentují kritiku („tato
 bohužel nepodložená stížnost“), a v rétorice, která vydává sporná tvrzení za obecně známá
 („jak samozřejmě všichni víme“). Jeho společným rysem je, že hodnotitel zůstává skrytý a
-hodnocení nelze odmítnout, aniž by se rozhovor stočil ke slovům místo k věci.
+hodnocení nelze odmítnout, aniž by se rozhovor stočil ke slovům místo k věci; hodnocení bez
+uvedeného hodnotitele popisuje [meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) jako ztracený performativ (Bandler a Grinder 1975).
 
 ## Stav důkazů
 

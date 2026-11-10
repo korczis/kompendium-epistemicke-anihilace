@@ -84,7 +84,8 @@ psycholozích, a ukázali, že i oni přeceňují stabilitu výsledků z malých
 podceňují, jak silně takové výsledky kolísají (Tversky a Kahneman 1971).
 
 Heslo je v katalogu vedeno převážně jako chyba uvažování, protože jeho typickou podobou
-není taktika, ale přirozený sklon. Jeho důsledky však vlivové užití snadno přebírá: kdo
+není taktika, ale přirozený sklon, kterému podléhají i statisticky vzdělaní výzkumníci
+(Tversky a Kahneman 1971). Jeho důsledky však vlivové užití snadno přebírá: kdo
 předloží výsledek malého pilotního projektu, jednu úspěšnou obec nebo pár spokojených
 klientů jako doklad účinku, staví na tom, že posluchač malým číslům věří víc, než by měl.
 
@@ -141,10 +142,11 @@ vzorkem a jeho přesvědčivost plyne z názornosti, ne z vypovídací hodnoty. 
 upozorňuje, že lidé vyvozují z málo dat příliš mnoho zejména tehdy, když data potvrzují
 to, co už si myslí (Gilovich 1991).
 
-V odborném prostředí se klam projevuje i jako přeceňování jednotlivých studií. Mediální
-zprávy o „průlomovém“ výsledku malé studie, který se později nepotvrdí, jsou typickým
-dokladem; kniha k obecnějším otázkám spolehlivosti poznatků odkazuje v [metodologických
-poznámkách k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md).
+V odborném prostředí se klam projevuje i jako přeceňování jednotlivých studií, protože i odborníci
+přeceňují, s jakou pravděpodobností se výsledek malého vzorku zopakuje (Tversky a Kahneman 1971).
+Mediální zprávy o „průlomovém“ výsledku malé studie, který se později nepotvrdí, jsou typickým
+dokladem; kniha k obecnějším otázkám spolehlivosti poznatků odkazuje v
+[metodologických poznámkách k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Odlišení od platné argumentace
 
@@ -158,11 +160,12 @@ vzorku podává jako spolehlivý odhad populace nebo jako jistá předpověď re
 Kahneman 1971). Rozumný posuzovatel proto rozlišuje mezi tím, co malý vzorek naznačuje, a
 tím, co dokazuje.
 
-Existuje i opačná chyba, kterou je dobré odlišit. Kdo odmítá každý výsledek jen proto, že
-vzorek je malý, a nepožaduje přitom žádná lepší data, nepoužívá kritiku k ověřování, ale k
-odmítnutí nepohodlného zjištění. Námitka velikosti vzorku je oprávněná tehdy, když vede k
-otázce, jaký vzorek by stačil a kdo ho může získat; tehdy slouží poznání, ne obraně
-předem přijatého názoru.
+Existuje i opačná chyba, kterou je dobré odlišit. Kdo odmítá každý výsledek jen proto, že vzorek je
+malý, a nepožaduje přitom žádná lepší data, nepoužívá kritiku k ověřování, ale k odmítnutí
+nepohodlného zjištění. Gilovich popisuje tuto asymetrii obecně: u vítaného závěru se lidé ptají, zda
+mu mohou věřit, u nevítaného, zda mu věřit musí, a přísnější měřítko pak nacházejí právě v metodě
+(Gilovich 1991). Námitka velikosti vzorku je oprávněná tehdy, když vede k otázce, jaký vzorek by
+stačil a kdo ho může získat; tehdy slouží poznání, ne obraně předem přijatého názoru.
 
 ## Stav poznání
 

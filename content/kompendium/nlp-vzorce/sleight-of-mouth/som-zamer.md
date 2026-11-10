@@ -44,9 +44,9 @@ catalog_prev = "struktura-presvedceni-som"
 catalog_next = "som-redefinice"
 catalog_position = 3
 catalog_family_size = 16
-catalog_sources = ["bandler-grinder-1982", "cialdini-2009", "dilts-1999", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "sharpley-1987", "stark-2007", "watzlawick-1974", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1982", "cialdini-2009", "dilts-1999", "herman-1992", "levinson-1983", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "sharpley-1987", "stark-2007", "watzlawick-1974", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1982", "dilts-1999", "oconnor-seymour-1990"]
-catalog_sources_roots = ["satir-1972", "watzlawick-1974"]
+catalog_sources_roots = ["levinson-1983", "satir-1972", "watzlawick-1974"]
 catalog_sources_critical = ["cialdini-2009", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -127,7 +127,8 @@ zachovávat soulad mezi tím, s čím člověk souhlasil, a dalším jednáním 
 
 Vzorec se v rozhovoru objevuje i ve skryté podobě, kdy záměr není vysloven, ale je
 presuponován. Věta „vím, že ses jen snažil pomoct, ale…“ uznává dobrý úmysl jako danou
-věc a teprve potom připojuje výhradu, která pak působí slaběji. Opačná skrytá podoba
+věc, protože sloveso vědět patří k výrazům, které pravdivost připojené věty presuponují
+(Levinson 1983), a teprve potom připojuje výhradu, která pak působí slaběji. Opačná skrytá podoba
 přisuzuje posluchači záměr, který nikdo nevyslovil („už zase se chceš jen litovat“), a
 námitka se tím mění v projev charakteru. Obě podoby jsou těžko napadnutelné, protože o
 přisouzeném úmyslu se nedá vést spor bez toho, aby se rozhovor stočil k obhajobě vlastních
@@ -205,6 +206,7 @@ při kterém se pozornost obrací od úmyslu k účinkům.
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Dilts, R. (1999). *Sleight of Mouth: The Magic of Conversational Belief Change*. Capitola: Meta Publications.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.

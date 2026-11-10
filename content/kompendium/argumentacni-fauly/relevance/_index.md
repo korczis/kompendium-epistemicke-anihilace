@@ -23,7 +23,7 @@ catalog_en = "Fallacies of relevance"
 catalog_size = 28
 catalog_members = ["ad-hominem", "okolnostni-ad-hominem", "tu-quoque", "genetic-klam", "otraveni-studny", "vina-asociaci", "odvolani-na-autoritu", "anonymni-autorita", "ad-populum", "rozjety-vlak", "odvolani-na-tradici", "odvolani-na-novost", "odvolani-na-emoce", "odvolani-na-strach", "odvolani-na-soucit", "odvolani-na-silu", "odvolani-na-prirozenost", "odvolani-na-dusledky", "cerveny-sled", "slameny-panak", "whataboutism", "odvolani-na-nevedomost", "lichotka", "odvolani-na-bohatstvi", "chronologicky-snobismus", "dve-kriva-jedno-pravo", "kontrola-tonu", "irelevantni-zaver"]
 catalog_types = ["informal", "tactic"]
-catalog_sources = ["bentham-1824", "cialdini-2009", "cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "kahneman-2011", "kunda-1990", "mercier-sperber-2011", "petty-cacioppo-1986", "roozenbeek-2022", "walton-1995", "walton-reed-macagno-2008", "whately-1826", "eemeren-grootendorst-1992"]
+catalog_sources = ["bentham-1824", "cialdini-2009", "cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "kahneman-2011", "kunda-1990", "mercier-sperber-2011", "paul-matthews-2016", "petty-cacioppo-1986", "roozenbeek-2022", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "whately-1826", "eemeren-grootendorst-1992"]
 +++
 
 # Klamy relevance
@@ -49,12 +49,14 @@ nebo postavení mluvčího, námitka [ty taky](@/kompendium/argumentacni-fauly/r
 která napadá jeho nekonzistenci, [otrávení
 studny](@/kompendium/argumentacni-fauly/relevance/otraveni-studny.md), které ho diskredituje
 předem, a [vina asociací](@/kompendium/argumentacni-fauly/relevance/vina-asociaci.md), která ho
-hodnotí podle toho, s kým je spojen. Obecnějším příbuzným tohoto okruhu je
+hodnotí podle toho, s kým je spojen. Neformální logika popisuje okolnostní útok, námitku ty
+taky i otrávení studny jako varianty útoku na osobu (Walton 2008). Obecnějším příbuzným tohoto okruhu je
 [genetický klam](@/kompendium/argumentacni-fauly/relevance/genetic-klam.md), který hodnotí
 jakoukoli myšlenku, metodu nebo instituci podle jejího původu.
 
 Druhý okruh tvoří náhražky důvodů, které místo posouzení věci nabízejí vnější znak její
-správnosti. Patří sem [odvolání na nepatřičnou
+správnosti; příručky neformální logiky je popisují jako irelevantní apely, které se obracejí
+k něčemu jinému než k důvodům ve věci (Damer 2009). Patří sem [odvolání na nepatřičnou
 autoritu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md) a jeho zvláštní
 případ, [anonymní autorita](@/kompendium/argumentacni-fauly/relevance/anonymni-autorita.md),
 dále [odvolání na většinu](@/kompendium/argumentacni-fauly/relevance/ad-populum.md) a
@@ -74,7 +76,8 @@ podob: [odvolání na strach](@/kompendium/argumentacni-fauly/relevance/odvolani
 [odvolání na soucit](@/kompendium/argumentacni-fauly/relevance/odvolani-na-soucit.md),
 [lichotku](@/kompendium/argumentacni-fauly/relevance/lichotka.md) a v krajní podobě
 [odvolání na sílu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-silu.md), kde důvod
-nahrazuje hrozba. Čtvrtý okruh tvoří úvahy, které místo pravdivosti posuzují něco jiného:
+nahrazuje hrozba. Učebnice logiky řadí apel na emoce i apel na sílu mezi klamy relevance
+(Copi, Cohen a McMahon 2014). Čtvrtý okruh tvoří úvahy, které místo pravdivosti posuzují něco jiného:
 [odvolání na přirozenost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-prirozenost.md),
 [odvolání na důsledky](@/kompendium/argumentacni-fauly/relevance/odvolani-na-dusledky.md),
 které pravdivost tvrzení odvozuje od toho, zda jsou jeho důsledky žádoucí, a [odvolání na
@@ -96,10 +99,10 @@ dokazuje něco jiného, než co měl dokázat, a vydává to za vyvrácení prot
 chápat jako obecný vzor celé rodiny. John Locke v Eseji o lidském rozumu zavedl latinská jména
 argumentů ad hominem, ad verecundiam a ad ignorantiam, která se pak stala základem
 novověkých seznamů klamů, ačkoli je sám chápal jinak než pozdější učebnice. Richard Whately
-rozebíral argument ad hominem i irelevantní závěr jako typické chyby veřejného sporu (Whately
-1826) a Jeremy Bentham sestavil katalog klamů, jimiž se v parlamentní rozpravě obchází
-posouzení návrhu, od dovolávání se autority předků po útoky na osobu navrhovatele (Bentham
-1824).
+rozebíral argument ad hominem i irelevantní závěr jako typické chyby veřejného sporu
+(Whately 1826) a Jeremy Bentham sestavil katalog klamů, jimiž se v parlamentní rozpravě
+obchází posouzení návrhu, od dovolávání se autority předků po útoky na osobu navrhovatele
+(Bentham 1824).
 
 Ve dvacátém století se klamy relevance staly pevnou součástí učebnic logiky, ale Hamblin v
 kritice takzvaného standardního pojetí ukázal, že výklady jsou nejednotné, příklady
@@ -127,7 +130,6 @@ konkrétním dialogu, ne jako chybnou formu (Walton 1995; Walton, Reed a Macagno
 Bayesovské pojetí k tomu dodává, že informace o zdroji, o shodě ostatních nebo o
 důsledcích může legitimně měnit odhad pravděpodobnosti tvrzení a že klam vzniká přeceněním
 její váhy, ne jejím použitím (Hahn a Oaksford 2007).
-
 Z toho plyne praktický důsledek pro čtenáře katalogu. Pojmenování klamu není vyvrácením.
 Kdo na každou námitku k osobě odpoví „to je ad hominem“, dopouští se vlastní chyby, protože
 přeskakuje otázku, zda je napadaná vlastnost relevantní. Hesla rodiny proto vždy obsahují
@@ -170,7 +172,9 @@ prvky rozsáhlejších technik. Útok na osobu a otrávení studny tvoří jádr
 rozkládají pověst odborníka, svědka nebo oběti, například [útoku na
 kvalifikaci](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md). Odvolání na autoritu
 a na většinu se objevují u technik, které vytvářejí zdání odborné shody nebo masové podpory,
-jako je [vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).
+jako je [vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md);
+analýza propagandistických modelů ukazuje, že zdání široké podpory lze vytvořit sdělením
+šířeným mnoha zdánlivě nezávislými kanály (Paul a Matthews 2016).
 Taktiky odvádění pozornosti jsou základem [tematické
 diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md). Rozdíl mezi jednotlivým klamem
 a technikou spočívá v soustavnosti: jednou vyslovený útok na osobu je chybou v rozhovoru,
@@ -322,9 +326,11 @@ flowchart LR
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. Santa Monica: RAND Corporation.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
+- Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.

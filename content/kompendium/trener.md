@@ -24,11 +24,13 @@ přibude v deklaraci katalogů. U každého výroku nejdřív posoudíte, zda jd
 nátlakové nebo chybné užití, nebo o neškodný či platný kontrast. Potom určíte heslo katalogu,
 které ve výroku poznáváte, buď výběrem ze čtyř možností, nebo napsáním názvu. Trenér k
 napsanému názvu jen navrhne shody a hodnotí až vaši volbu. Po odpovědi uvidíte detekční znak,
-obrannou odpověď a odkaz na stránku hesla.
+obrannou odpověď a odkaz na stránku hesla; jak s knihou a jejími nástroji pracovat, popisuje
+[jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 Výběr můžete zúžit na jeden katalog nebo jednu rodinu. Příklady, které se vám nedaří, se
 vracejí častěji; příklad je zvládnutý, když ho třikrát po sobě správně posoudíte i určíte.
-Pokrok se ukládá jen ve vašem prohlížeči.
+Pokrok se ukládá jen ve vašem prohlížeči. Proč trenér pracuje s neškodnými kontrasty a
+kde jsou meze takového výcviku, vysvětlují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## K čemu trenér slouží a k čemu ne
 
@@ -37,7 +39,8 @@ osobu a netvoří posloupnost, kterou by šlo opakovat. Každý manipulativní n
 má vedle sebe neškodný či platný kontrast, protože stejné jazykové prostředky a podobné
 struktury úvahy se objevují i v běžné řeči a v poctivé argumentaci. Rozhoduje kontext,
 symetrie a to, komu užití slouží. Výklad každého hesla, stav poznání a obranu najdete na jeho
-stránce.
+stránce; obranný rámec celé knihy shrnují
+[etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 

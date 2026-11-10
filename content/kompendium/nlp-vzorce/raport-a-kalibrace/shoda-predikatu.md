@@ -125,7 +125,7 @@ je verbální podobou provázení, po němž má následovat vedení, a v tomto 
 
 Pro pozorovatele je užitečné rozlišit dvě věci, které se pod názvem vzorce mísí. Přejímání
 slov druhého, aby se ověřilo porozumění, je běžná a dobře doložená součást aktivního
-naslouchání; nevyžaduje žádnou teorii smyslových systémů. Typologie lidí podle predikátů je
+naslouchání (Rogers 1951; Miller a Rollnick 2013); nevyžaduje žádnou teorii smyslových systémů. Typologie lidí podle predikátů je
 naproti tomu specifické tvrzení NLP, podle kterého lze z několika slov rozpoznat „vizuální
 typ“ nebo „kinestetický typ“ a na tomto základě s člověkem jednat. Právě tato typologie je
 nositelem manipulativního rizika. Umožňuje mluvčímu vystupovat jako ten, kdo druhého
@@ -137,7 +137,7 @@ Vzorec se pozná podle toho, že mluvčí neobvykle často opakuje smyslová slo
 použil druhý, a podle nápadné jednotvárnosti jeho slovníku: všechno se najednou „ukazuje“,
 „vidí“ a „rýsuje“, nebo naopak „cítí“, „uchopuje“ a „sedí“. Silnějším znakem je výslovné
 zařazení do typu: „Vy jste vizuální typ“, „jste kinestetik, potřebujete si to osahat“. Takový
-výrok má podobu diagnózy, ale stojí na několika slovech a na teorii, která nebyla potvrzena.
+výrok má podobu diagnózy, ale stojí na několika slovech a na teorii, která nebyla potvrzena (Sharpley 1984).
 Ve vlivovém kontextu se k typologii zpravidla připojuje tvrzení, že nabídka je „šitá na míru“
 smyslovému typu druhého, což má posílit dojem, že je pro něj vhodná.
 
@@ -161,9 +161,9 @@ Legitimní užití nepotřebuje typologii a nezakládá na ní žádné závěry
 Manipulativní užití spojuje přizpůsobení slovníku s typologií a s nabídkou. Mluvčí se
 staví do role toho, kdo druhého „čte“, a zároveň podává nabídku jako přizpůsobenou jeho
 typu. Riziko vzorce je nízké, pokud jde o samotný jazykový vliv, protože výzkum nenašel,
-že by shoda predikátů výrazně zvyšovala důvěru. Vyšší je riziko epistemické: typologie dává
+že by shoda predikátů výrazně zvyšovala důvěru (Sharpley 1984). Vyšší je riziko epistemické: typologie dává
 mluvčímu zdánlivou autoritu nad tím, jak druhý myslí, a selhání vzorce lze vždy vysvětlit
-tím, že byl typ „špatně určen“. Kompendium tento mechanismus popisuje obecně jako
+tím, že byl typ „špatně určen“ (Sharpley 1987). Kompendium tento mechanismus popisuje obecně jako
 [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 
 ## Stav důkazů

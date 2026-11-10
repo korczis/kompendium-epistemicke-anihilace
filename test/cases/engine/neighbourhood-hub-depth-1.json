@@ -16,12 +16,12 @@
       {
         "from": "glossary/_index.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "glossary/disociace.md"
       },
       {
         "from": "glossary/_index.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "glossary/_index.md",
@@ -42,11 +42,6 @@
         "from": "glossary/coercive-control.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/coercive-control.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
       },
       {
         "from": "glossary/coercive-control.md",
@@ -61,12 +56,17 @@
       {
         "from": "glossary/color-teams.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
+        "to": "glossary/nabla-infinity.md"
       },
       {
-        "from": "glossary/color-teams.md",
+        "from": "glossary/disociace.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "glossary/disociace.md",
+        "kind": "link",
+        "to": "kompendium/06-klinicke-aplikace/_index.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
@@ -77,11 +77,6 @@
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
         "to": "glossary/color-teams.md"
-      },
-      {
-        "from": "glossary/epistemicka-anihilace.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
@@ -99,34 +94,9 @@
         "to": "kompendium/01-predmluva/eticke-aspekty.md"
       },
       {
-        "from": "glossary/gaslighting.md",
-        "kind": "link",
-        "to": "glossary/coercive-control.md"
-      },
-      {
-        "from": "glossary/gaslighting.md",
-        "kind": "link",
-        "to": "glossary/color-teams.md"
-      },
-      {
-        "from": "glossary/gaslighting.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/gaslighting.md",
-        "kind": "link",
-        "to": "glossary/nabla-infinity.md"
-      },
-      {
         "from": "glossary/nabla-infinity.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/nabla-infinity.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
       },
       {
         "from": "glossary/nabla-infinity.md",
@@ -181,11 +151,6 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "glossary/gaslighting.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
         "to": "glossary/nabla-infinity.md"
       },
       {
@@ -209,11 +174,6 @@
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
-      },
-      {
         "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
         "kind": "link",
         "to": "glossary/color-teams.md"
@@ -222,11 +182,6 @@
         "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "kind": "link",
-        "to": "glossary/gaslighting.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
@@ -254,7 +209,7 @@
       {
         "class": "glossary",
         "distance": 0,
-        "in": 603,
+        "in": 604,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
@@ -296,44 +251,44 @@
       {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
-        "in": 294,
+        "in": 303,
         "path": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "title": "6.1 Diagnostické indikátory a markery EA"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 283,
+        "in": 298,
         "path": "glossary/coercive-control.md",
         "title": "Coercive control (donucující kontrola)"
       },
       {
         "class": "kompendium/01-predmluva",
         "distance": 1,
-        "in": 275,
+        "in": 286,
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "title": "1.3 Etické aspekty a upozornění"
       },
       {
-        "class": "kompendium/06-klinicke-aplikace",
-        "distance": 1,
-        "in": 272,
-        "path": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
-        "title": "6.6 Supervizní rámce v klinické praxi EA"
-      },
-      {
         "class": "glossary",
         "distance": 1,
-        "in": 267,
-        "path": "glossary/gaslighting.md",
-        "title": "Gaslighting"
+        "in": 277,
+        "path": "glossary/disociace.md",
+        "title": "Disociace"
+      },
+      {
+        "class": "kompendium/06-klinicke-aplikace",
+        "distance": 1,
+        "in": 277,
+        "path": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+        "title": "6.6 Supervizní rámce v klinické praxi EA"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
     "path": "glossary/epistemicka-anihilace.md",
     "schema": "kompendium-engine/v1",
-    "total": 619,
+    "total": 620,
     "truncated": true
   },
   "input": {

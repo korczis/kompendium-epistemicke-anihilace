@@ -44,8 +44,8 @@ catalog_prev = "cteni-myslenek-milton"
 catalog_next = "spojky-a-implikovana-pricinnost"
 catalog_position = 17
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "druckman-swets-1988", "ellis-1962", "erickson-rossi-rossi-1976", "hassan-1988", "heap-1988", "herman-1992", "levinson-1983", "lifton-1961", "oconnor-seymour-1990", "tosey-mathison-2009", "witkowski-2010"]
-catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "cialdini-2009", "druckman-swets-1988", "ellis-1962", "erickson-rossi-rossi-1976", "hassan-1988", "heap-1988", "herman-1992", "levinson-1983", "lifton-1961", "oconnor-seymour-1990", "tosey-mathison-2009", "walton-2008", "witkowski-2010"]
+catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oconnor-seymour-1990", "walton-2008"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "ellis-1962", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -112,7 +112,7 @@ vlastnost zdrojem rizika.
 
 Strukturálně má ztracený performativ čtyři prvky. Prvním je hodnotící predikát: dobré,
 správné, důležité, zdravé, přirozené, zralé, nebo jejich záporné protějšky. Druhým je vypuštěný
-hodnotitel: chybí „podle mě“, „podle lékaře“, „podle pravidel organizace“. Třetím je vypuštěné
+hodnotitel: chybí „podle mě“, „podle lékaře“, „podle pravidel organizace“ (Bandler a Grinder 1975). Třetím je vypuštěné
 měřítko: není řečeno, vzhledem k čemu je věc dobrá a podle čeho by se dalo poznat, že není.
 Čtvrtým je neosobní konstrukce, kterou čeština nabízí v mnoha podobách: „je dobré“, „je
 třeba“, „člověk by měl“, „ví se“, „to se nedělá“, pasivum bez původce. Vzorec se často
@@ -134,7 +134,7 @@ Prvním znakem je gramatika: hodnotící věta bez podmětu, který by hodnotil,
 zazní v rozhovoru, v němž by se dal hodnotitel snadno uvést. Druhým znakem je výhodnost normy:
 neosobní pravidlo se podezřele často kryje s tím, co mluvčí od posluchače potřebuje, například
 s poslušností, s vytrváním v kurzu, se souhlasem s nabídkou nebo s odložením pochybností.
-Třetím znakem je reakce na otázku „kdo to tvrdí a podle čeho?“. Kde mluvčí odpoví, že „to
+Třetím znakem je reakce na otázku „kdo to tvrdí a podle čeho?“, kterou meta-model ztracený performativ zpochybňuje (Bandler a Grinder 1975). Kde mluvčí odpoví, že „to
 prostě tak je“, že „to ví každý“ nebo že otázka svědčí o neochotě, zůstává norma bez
 autora i bez měřítka. Čtvrtým znakem je hromadění neosobních soudů v uzavřeném prostředí, kde
 postupně tvoří ucelený soubor pravidel, o nichž nikdo nerozhodl, a přesto platí.
@@ -149,8 +149,7 @@ tento rámec rozvádí ve stránce o
 ## Legitimní a manipulativní užití
 
 Neosobní hodnocení je v běžné řeči často neškodné, protože zdroj normy je zřejmý z kontextu a
-dá se ověřit. Když lékař řekne „je dobré hodně pít“, stojí za tím odborné doporučení, na
-které se lze doptat. V terapii má neosobní formulace i ochranný smysl: věta, že je v pořádku
+dá se ověřit. Když lékař řekne „je dobré hodně pít“, stojí za tím odborné doporučení, na které se lze doptat; argument z odborného názoru je oprávněný právě tehdy, když lze ověřit, kdo je odborník a co přesně tvrdí (Walton 2008). V terapii má neosobní formulace i ochranný smysl: věta, že je v pořádku
 cítit smutek po ztrátě, normalizuje prožitek a nic od klienta nežádá. Legitimní užití
 spojuje to, že hodnotitel lze snadno doplnit, že měřítko je ověřitelné, a že norma slouží
 posluchači, ne mluvčímu.
@@ -214,6 +213,7 @@ mluvit v první osobě a dávat najevo, že jeho hodnocení je jeho hodnocení.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
+- Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

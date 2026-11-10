@@ -44,10 +44,10 @@ catalog_prev = "meta-model-jako-vyslychaci-nastroj"
 catalog_next = ""
 catalog_position = 17
 catalog_family_size = 17
-catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
 catalog_sources_roots = ["chomsky-1965"]
-catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -125,7 +125,6 @@ si nikdo neuvědomuje („čas utíká“); ta obvykle nic nezakrývá. Druhá j
 terapeutický obraz, jehož obraznost je zřejmá a který slouží výrazu nebo porozumění. Třetí
 je institucionální nebo vztahová personifikace, která připisuje rozhodnutí entitě, jež
 nemůže být oslovena ani pohnána k odpovědnosti, a tím chrání toho, kdo skutečně rozhodl.
-
 Pro defenzivní analýzu je podstatná třetí podoba. Strukturně se v ní spojují dvě
 kategorie meta-modelu: porušení selekčních omezení a [nespecifikovaný referenční
 index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md). Výrok
@@ -151,7 +150,9 @@ rozhodnutí o jeho životě dělají neosobní síly, se kterými nelze vyjedná
 institucionálním kontextu se pak projevuje rezignace na stížnost a odvolání, protože
 není jasné, komu by měly být adresovány. Tento efekt souvisí s mechanismem, který
 kompendium popisuje u [terminologické mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md):
-jazyk, který se tváří jako popis, ve skutečnosti uzavírá prostor pro otázky.
+jazyk, který se tváří jako popis, ve skutečnosti uzavírá prostor pro otázky. Lifton popsal
+podobný účinek u nabitého jazyka totalistických prostředí, jehož definitivně znějící fráze
+ukončují přemýšlení dřív, než se otázka vysloví (Lifton 1961).
 
 ## Legitimní a manipulativní užití
 
@@ -210,6 +211,7 @@ rozhodovali, místo k abstrakcím, se kterými se vyrovnat nelze (Herman 1992).
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kirsch, I., & Lynn, S. J. (1995). The altered state of hypnosis: Changes in the theoretical landscape. *American Psychologist*, 50(10), 846–858.
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.

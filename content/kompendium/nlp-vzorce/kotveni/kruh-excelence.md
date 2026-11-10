@@ -167,7 +167,7 @@ Manipulativní užití nastává, když se ze soukromého nástroje stane veřej
 seminářích se kruh excelence může stát rituálem, v němž účastník před skupinou předvádí
 proměnu, a tlak publika nahrazuje dobrovolnost. Výsledný zážitek pak neposiluje samostatnost
 účastníka, ale jeho vazbu na lektora a skupinu, a vytváří dojem, že síla patří kruhu, a tedy
-metodě, nikoli člověku. Kompendium tuto strukturu přesunu zdroje síly do vztahu k autoritě
+metodě, nikoli člověku (Singer a Lalich 1995). Kompendium tuto strukturu přesunu zdroje síly do vztahu k autoritě
 popisuje u [vzorce guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md).
 
 ## Stav důkazů

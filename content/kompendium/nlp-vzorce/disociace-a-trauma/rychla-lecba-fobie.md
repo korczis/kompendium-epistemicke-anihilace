@@ -155,7 +155,9 @@ očekávání publika nedokazuje trvalou změnu. Veřejný závazek a sledován�
 Na člověku, u kterého byla intervence použita nevhodně, se mohou objevit znaky, které
 klinici znají z předčasné nebo nechráněné práce s traumatem: návrat vtíravých vzpomínek po
 sezení, zhoršení spánku, pocit odcizení od těla nebo od okolí a stud, že „technika na mě
-nefungovala“. Posledně jmenovaný znak je pro kompendium zvlášť důležitý, protože přenáší
+nefungovala“. Herman upozorňuje, že odkrývání traumatického obsahu dřív, než je zajištěno bezpečí
+a stabilizace, může obtíže zhoršit (Herman 1992). Posledně jmenovaný znak je pro kompendium zvlášť
+důležitý, protože přenáší
 selhání metody na klienta.
 
 ## Legitimní a manipulativní užití
@@ -175,7 +177,8 @@ tísni, o odvádění od účinné léčby a o přenos odpovědnosti za neúspě
 seminářích slouží rychlá „léčba“ dobrovolníka jako důkaz síly lektora a metody a posiluje
 autoritu, kterou kompendium popisuje u vztahu guru a adepta. Odborně je problematické také
 užití u lidí s komplexním traumatem nebo disociativní poruchou, u nichž může náhlé vybavení
-traumatického obsahu bez stabilizace vyvolat zhoršení. To je riziko i tehdy, když praktik
+traumatického obsahu bez stabilizace vyvolat zhoršení (Herman 1992). To je riziko i tehdy, když
+praktik
 jedná v dobré víře.
 
 ## Stav důkazů
@@ -202,7 +205,9 @@ technikou a rámcem. Rozhodující otázky se týkají toho, kdo intervenci nab�
 kvalifikací, zda proběhne vyšetření, zda poskytovatel umí rozpoznat posttraumatickou nebo
 disociativní poruchu a co se stane, pokud se stav zhorší. Nabídka, která slibuje jistý
 výsledek, odrazuje od pokračování v léčbě nebo neumí odpovědět na otázku po důkazech, by měla
-vzbudit nedůvěru. Druhou obranou je trvat na tom, že neúspěch metody není selháním klienta.
+vzbudit nedůvěru. Kritická literatura o pseudovědě v klinické psychologii řadí přehnaná tvrzení a
+opírání se o svědectví místo kontrolovaných studií mezi její varovné znaky (Lilienfeld, Lynn a
+Lohr 2015). Druhou obranou je trvat na tom, že neúspěch metody není selháním klienta.
 
 Zotavení po nevhodně vedené práci se vzpomínkou na trauma vychází ze stejných zásad jako jiná
 léčba traumatu: nejprve bezpečí a stabilizace, potom teprve zpracování vzpomínek a nakonec

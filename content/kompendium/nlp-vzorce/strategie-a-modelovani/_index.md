@@ -30,7 +30,44 @@ catalog_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "cialdini-200
 
 ## Co rodina zahrnuje
 
-Rodina strategií a modelování shromažďuje vzorce, které neurolingvistické programování odvozuje ze dvou svých nejobecnějších nároků. Prvním je nárok, že lidská [zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md): rozhodnutí, motivace, přesvědčení o pravdivosti, učení i pocit, že jsme milováni, vznikají podle tohoto předpokladu sledem vnitřních kroků, který lze popsat jako [strategii](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md). Druhým je nárok, že strukturu vynikajícího výkonu lze zachytit a předat jiným, tedy [modelovat](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md). Do rodiny proto patří tři skupiny vzorců. První skupinu tvoří obecné operace se strategiemi: [elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md), tedy její zjištění, [instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md), tedy její vytvoření nebo změna, a [využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md), tedy podání sdělení v pořadí, které odpovídá zjištěnému postupu. Patří sem i pojem [smyčkových strategií](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md), které nemají jasné kritérium ukončení. Druhou skupinu tvoří popisy jednotlivých typů strategií: [rozhodovací](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md), [motivační](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md), [strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md), [strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md), [strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) s dílčí [pravopisnou strategií](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) a [strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md). Třetí skupinu tvoří modelování a jeho pozdější podoby: [modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md), Diltsovy [strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md), [nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md), [generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) a takzvaný [nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) se svými stavy a hrami, mezi něž patří [stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md), [abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md), [stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) a [periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md).
+Rodina strategií a modelování shromažďuje vzorce, které neurolingvistické programování odvozuje ze
+dvou svých nejobecnějších nároků. Prvním je nárok, že lidská
+[zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md): rozhodnutí,
+motivace, přesvědčení o pravdivosti, učení i pocit, že jsme milováni, vznikají podle tohoto
+předpokladu sledem vnitřních kroků, který lze popsat jako
+[strategii](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md). Druhým je nárok, že
+strukturu vynikajícího výkonu lze zachytit a předat jiným, tedy
+[modelovat](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md). Oba nároky formuluje rané
+souborné dílo oboru, které subjektivní zkušenost popisuje jako sled smyslových reprezentací s testy
+a operacemi (Dilts a kol. 1980). Do rodiny proto patří tři skupiny vzorců. První skupinu tvoří
+obecné operace se strategiemi:
+[elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md), tedy
+její zjištění,
+[instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md), tedy
+její vytvoření nebo změna, a
+[využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md),
+tedy podání sdělení v pořadí, které odpovídá zjištěnému postupu. Patří sem i pojem
+[smyčkových strategií](@/kompendium/nlp-vzorce/strategie-a-modelovani/smyckove-strategie.md), které
+nemají jasné kritérium ukončení. Druhou skupinu tvoří popisy jednotlivých typů strategií:
+[rozhodovací](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md),
+[motivační](@/kompendium/nlp-vzorce/strategie-a-modelovani/motivacni-strategie.md),
+[strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md),
+[strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md),
+[strategie učení](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni.md) s dílčí
+[pravopisnou strategií](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) a
+[strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md). Třetí skupinu
+tvoří modelování a jeho pozdější podoby:
+[modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md),
+Diltsovy
+[strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md),
+[nevědomé modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-nevedomim.md),
+[generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md)
+a takzvaný [nový kód NLP](@/kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md) se svými stavy
+a hrami, mezi něž patří
+[stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md),
+[abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md),
+[stav nevědění](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-nevedeni.md) a
+[periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md).
 
 Rodinu spojuje společná kostra. Každá strategie se v NLP zapisuje jako sled smyčkových jednotek, které kognitivní psychologie popsala jako [model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md): test porovná současný stav s kritériem, operace se pokusí rozdíl zmenšit, opakovaný test ověří výsledek a smyčka skončí výstupem, až je kritérium splněno (Miller, Galanter a Pribram 1960). Kdo rozumí této kostře, rozumí i tomu, kde v každém vzorci leží moc: u toho, kdo stanovuje kritérium testu, a u toho, kdo rozhoduje, kdy je smyčka uzavřena.
 
@@ -40,7 +77,12 @@ Pojem strategie převzalo NLP z kognitivní psychologie konce padesátých let. 
 
 ## Jak rodinu číst defenzivně
 
-Vzorce této rodiny mají zvláštní postavení, protože se netýkají jednotlivých slov nebo gest, ale samotných postupů, kterými člověk rozhoduje, věří a jedná. Kdo tvrdí, že zná strategii druhého, tvrdí, že ví, za jakých podmínek druhý souhlasí, uvěří nebo se pohne k činu. Pro defenzivní čtení jsou proto užitečné tři otázky, které lze položit u každého vzorce rodiny.
+Vzorce této rodiny mají zvláštní postavení, protože se netýkají jednotlivých slov nebo gest, ale
+samotných postupů, kterými člověk rozhoduje, věří a jedná. Kdo tvrdí, že zná strategii druhého,
+tvrdí, že ví, za jakých podmínek druhý souhlasí, uvěří nebo se pohne k činu. Primární literatura NLP
+to formuluje výslovně: znalost strategie má umožnit podat sdělení v pořadí, které strategie druhého
+očekává (Dilts a kol. 1980). Pro defenzivní čtení jsou proto užitečné tři otázky, které lze položit
+u každého vzorce rodiny.
 
 První otázka zní, kdo zná mapu. Pokud strategii zkoumá člověk sám, například student, který přemýšlí, jak se nejlépe učí, nebo pár, který hledá, jak si navzájem lépe rozumět, slouží pojem sebepoznání. Pokud mapu drží někdo jiný a druhý o ní neví, mění se strategie v mapu slabých míst. Druhá otázka zní, kdo stanoví kritérium testu. Ve stavbě modelu TOTE skončí smyčka, až je kritérium splněno; pokud kritérium stanoví druhá strana, může smyčku udržovat bez konce, takže člověk se snaží, dokazuje a zlepšuje, ale nikdy nedojde k výstupu. Tento mechanismus je dobře znám z kontrolujících vztahů a uzavřených skupin. Třetí otázka zní, zda se forma nabídky nevydává za její obsah. Podání, které kopíruje zjištěné pořadí kroků, dodá přesně ten počet příkladů nebo vyvolá přesně ten pocit, který člověk potřebuje, může vyvolat souhlas, aniž by poskytlo důvody. Psychologie úsudku přitom ukazuje, že lidé mají k vlastním rozhodovacím procesům jen omezený přístup a že jejich popisy vlastního postupu jsou často dodatečnou rekonstrukcí (Kahneman 2011). Strategie, kterou někdo „odhalil“ z několika odpovědí, je tedy hypotéza, ne klíč.
 

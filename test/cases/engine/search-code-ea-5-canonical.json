@@ -45,7 +45,7 @@
       },
       {
         "code": "EA-5.1.10",
-        "in": 27,
+        "in": 29,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md",
         "tier": 4,
@@ -71,6 +71,16 @@
         "tier": 4,
         "title": "EA-5.1.17 Tautologická imploze",
         "url": "/kompendium/techniques/ea-5-1-17-tautologicka-imploze/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.12",
+        "in": 20,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+        "tier": 4,
+        "title": "EA-5.1.12 Kauzální inverze",
+        "url": "/kompendium/techniques/ea-5-1-12-kauzalni-inverze/",
         "why": "title_prefix"
       },
       {
@@ -104,18 +114,8 @@
         "why": "title_prefix"
       },
       {
-        "code": "EA-5.1.12",
-        "in": 12,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
-        "tier": 4,
-        "title": "EA-5.1.12 Kauzální inverze",
-        "url": "/kompendium/techniques/ea-5-1-12-kauzalni-inverze/",
-        "why": "title_prefix"
-      },
-      {
         "code": "EA-5.1.11",
-        "in": 9,
+        "in": 13,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
         "tier": 4,

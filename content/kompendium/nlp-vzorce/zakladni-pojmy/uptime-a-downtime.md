@@ -39,13 +39,13 @@ catalog_related = ["kalibrace", "smyslova-ostrost", "vnitrni-dialog", "trans-poj
 catalog_related_declared = ["trans-pojem", "vnitrni-dialog", "smyslova-ostrost", "kalibrace", "periferni-videni"]
 catalog_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/cerveny-sled.md", "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md", "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md", "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md"]
 catalog_prev = "vnitrni-dialog"
 catalog_next = "trans-pojem"
 catalog_position = 39
 catalog_family_size = 42
-catalog_sources = ["cialdini-2009", "dilts-delozier-2000", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "oconnor-seymour-1990", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
-catalog_sources_primary = ["dilts-delozier-2000", "oconnor-seymour-1990"]
+catalog_sources = ["cialdini-2009", "dilts-delozier-2000", "grinder-bandler-1981", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "oconnor-seymour-1990", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_primary = ["dilts-delozier-2000", "grinder-bandler-1981", "oconnor-seymour-1990"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
@@ -124,10 +124,10 @@ neměly by se zaměňovat za [čtení myšlenek](@/kompendium/nlp-vzorce/meta-mo
 Pro analýzu vlivu je podstatné, že směr pozornosti lze ovlivnit zvenčí. Otázka „vzpomeňte
 si, jaké to bylo, když…“ vede pozornost dovnitř. Výzva „podívejte se, co tu leží na stole“
 ji vede ven. Řeč plná vágních slov, která vyžadují dosazení vlastní zkušenosti, vede
-posluchače do downtime, protože ho nutí hledat význam ve vlastních vzpomínkách. Pomalé,
+posluchače do downtime, protože ho nutí hledat význam ve vlastních vzpomínkách (Grinder a Bandler 1981). Pomalé,
 monotónní tempo řeči a uzavřené prostředí bez rušivých podnětů působí podobně. Tato
 struktura sama o sobě není manipulativní. Manipulativní se stává ve chvíli, kdy je
-pozornost člověka cíleně odváděna dovnitř právě tehdy, když by měl posuzovat vnější údaje.
+pozornost člověka cíleně odváděna dovnitř právě tehdy, když by měl posuzovat vnější údaje; výzkum přesvědčování ukazuje, že [odvedení pozornosti](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) snižuje schopnost posoudit kvalitu argumentů (Petty a Cacioppo 1986).
 
 ## Detekční znaky
 
@@ -206,6 +206,7 @@ nad tím, kam jeho pozornost směřuje (Herman 1992).
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Dilts, R., & DeLozier, J. (2000). *Encyclopedia of Systemic Neuro-Linguistic Programming and NLP New Coding*. Scotts Valley: NLP University Press.
+- Grinder, J., & Bandler, R. (1981). *Trance-formations: Neuro-Linguistic Programming and the Structure of Hypnosis*. Moab: Real People Press.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.

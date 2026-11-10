@@ -117,7 +117,8 @@ upozornil i na metodologické slabiny části prací.
 
 Třetí rovinou je kvalita. I tam, kde studie výsledek příznivý pro NLP přinesla, je třeba se ptát,
 jak byla velká, zda měla kontrolní skupinu, zda hodnotitelé věděli, kdo jakou intervenci dostal,
-a zda byla publikována v recenzovaném časopise. Seznam, v němž se tyto otázky nekladou, může
+a zda byla publikována v recenzovaném časopise, tedy otázky, které metodologie klinické
+psychologie klade každému tvrzení o účinnosti (Lilienfeld, Lynn a Lohr 2015). Seznam, v němž se tyto otázky nekladou, může
 vytvářet dojem výzkumné báze, která ve skutečnosti chybí. Obecně platí, že počet záznamů v seznamu literatury nevypovídá o
 síle důkazů; rozhoduje počet a kvalita studií a jejich výsledek. Kompendium tento princip
 uplatňuje i na stránce o [empirické výzkumné
@@ -131,7 +132,8 @@ empirických a co zjistily. Druhým je směšování druhů textů: disertace, p
 oborových zpravodajích a recenzované studie se uvádějí jako rovnocenné. Třetím je citace bez
 výsledku: dílo se uvede jako „výzkum NLP“, ačkoli jeho výsledek tvrzení NLP nepodporuje.
 Čtvrtým je chybějící zmínka o přehledech: seznam neobsahuje souhrnná hodnocení, nebo je odbývá
-jako zaujatá. Pátým je odkaz na databázi bez odkazu na její rozbor.
+jako zaujatá. Pátým je odkaz na databázi bez odkazu na její rozbor, který ukázal, že empirické studie tvoří
+menšinu záznamů (Witkowski 2010).
 
 Tyto znaky odpovídají obecným zkreslením úsudku. Dlouhý seznam působí přesvědčivě díky
 heuristice dostupnosti a dojmu konsenzu, a lidé mají sklon přijímat informace, které potvrzují
@@ -162,7 +164,8 @@ odpovídající svým nárokům (Tosey a Mathison 2009).
 
 Manipulativní užití nastává tam, kde se databáze uvádí jako doklad účinnosti. V propagaci
 výcviků a terapií se objevuje tvrzení, že metoda je „podložena stovkami studií“, a odkaz na
-databázi má tento dojem posílit. Čtenář, který nemá čas ani přístup k literatuře, nemůže tvrzení
+databázi má tento dojem posílit; právě takové užití míní otázka, zda databáze není jen
+pseudovědeckou dekorací (Witkowski 2010). Čtenář, který nemá čas ani přístup k literatuře, nemůže tvrzení
 ověřit a spolehne se na jeho rozsah. Tento postup je příbuzný s vytvářením zdání odborné
 hloubky, které kompendium popisuje jinde. Opačným zneužitím je paušální odmítnutí všech prací v
 databázi jako bezcenných, ačkoli mezi nimi jsou i kvalitní studie, a to právě ty, které tvrzení
@@ -182,7 +185,7 @@ Mezi rozboru je třeba přiznat. Klasifikace studií na podpůrné a nepodpůrn�
 jiný hodnotitel by mohl některé práce zařadit jinak. Databáze odráží stav k určitému okamžiku a
 nové práce mohly přibýt. Tyto meze však nemění hlavní zjištění, protože by k jeho zvrácení
 bylo zapotřebí, aby přibyly kvalitní studie s podpůrným výsledkem, a takové pozdější přehledy
-nezaznamenaly. Stav celého výzkumu shrnuje stránka [stav důkazů o
+nezaznamenaly (Sturt a kol. 2012; Passmore a Rowson 2019). Stav celého výzkumu shrnuje stránka [stav důkazů o
 NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md).
 
 ## Obrana a zotavení
@@ -195,7 +198,8 @@ ne seznamy sestavené poskytovatelem služby. Výzkum odolnosti vůči přesvěd
 předem získaná znalost typických argumentačních postupů snižuje jejich účinek (McGuire 1964).
 
 Pro odborníky, kteří se na databázi v minulosti odvolávali v dobré víře, je užitečné vědět, že
-omyl nebyl ojedinělý a že dlouhý seznam literatury přesvědčí i vzdělané čtenáře. Náprava spočívá
+omyl nebyl ojedinělý a že dlouhý seznam literatury přesvědčí i vzdělané čtenáře: sklon přijímat
+doklady pro to, čemu chceme věřit, se netýká jen laiků (Gilovich 1991). Náprava spočívá
 v tom, že se odkaz na databázi nahradí odkazem na rozbor a na přehledy a že se klientům a
 kolegům otevřeně sdělí, co výzkum zjistil. Taková oprava posiluje důvěru více než lpění na
 argumentu, který neobstál. Souvislost s obecnými kritérii pseudovědy rozebírá stránka [NLP jako

@@ -44,10 +44,10 @@ catalog_prev = "odvolani-na-autoritu"
 catalog_next = "ad-populum"
 catalog_position = 8
 catalog_family_size = 28
-catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "gilovich-1991", "govier-2010", "hasher-1977", "huff-1954", "langer-1978", "petty-cacioppo-1986", "walton-2008", "walton-reed-macagno-2008", "van-der-linden-2023"]
+catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "gilovich-1991", "govier-2010", "hasher-1977", "huff-1954", "langer-1978", "petty-cacioppo-1986", "walton-2008", "walton-reed-macagno-2008", "van-der-linden-2023"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "walton-2008", "walton-reed-macagno-2008"]
 catalog_sources_roots = []
-catalog_sources_critical = ["gilovich-1991", "hasher-1977", "huff-1954", "langer-1978", "petty-cacioppo-1986", "van-der-linden-2023"]
+catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "gilovich-1991", "hasher-1977", "huff-1954", "langer-1978", "petty-cacioppo-1986", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -125,14 +125,17 @@ oboru, do něhož otázka patří, a u anonymní autority nelze posoudit ani tut
 se shodují“. Tím se k neověřitelnému zdroji přidá ještě neověřitelný počet a vzniká obraz
 jednotného odborného názoru, který nemusí existovat. Opačnou podobou je anonymní kritika:
 „mnozí odborníci pochybují“ se používá k vytvoření zdání sporu tam, kde obor žádný spor
-nevede. V obou podobách zůstává struktura stejná: tvrzení o autoritě je samo neověřené a
+nevede; výzkum inokulace popsal tuto techniku falešných odborníků na dezinformacích o
+vědecké shodě (Cook, Lewandowsky a Ecker 2017). V obou podobách zůstává struktura stejná: tvrzení o autoritě je samo neověřené a
 nese celou váhu argumentu.
 
 ## Varianty
 
 Reklamní varianta spojuje neurčenou autoritu s výrobkem: „doporučováno odborníky“,
 „klinicky testováno“, „vyvinuto ve spolupráci s lékaři“. Posluchač se nedozví, kdo testoval,
-s jakým výsledkem a kdo zaplatil. Zpravodajská varianta se opírá o „zdroje blízké“ nějaké
+s jakým výsledkem a kdo zaplatil; Huff na reklamních tvrzeních tohoto druhu ukazoval, jak
+se za odkazem na nejmenovanou laboratoř nebo „lékaře“ může skrývat malý vzorek nebo zájem
+zadavatele (Huff 1954). Zpravodajská varianta se opírá o „zdroje blízké“ nějaké
 instituci, aniž by čtenář věděl, zda redakce zdroj ověřila a zda je jich víc. Institucionální
 varianta mluví jménem neurčeného celku: „vedení si přeje“, „komise usoudila“, „bylo
 rozhodnuto“, takže nelze zjistit, kdo za rozhodnutím stojí a koho se ptát. Digitální
@@ -165,7 +168,6 @@ jakou váhu tvrzení má, a za ověření ručí redakce, která může být za 
 odpovědnosti. Podobně je legitimní shrnout odborný konsenzus obecně, například „podle
 převažujícího názoru epidemiologů“, pokud je shrnutí na požádání doložitelné odkazem na
 přehledovou studii nebo stanovisko odborné společnosti (Govier 2010).
-
 Rozhodující je tedy dohledatelnost a otevřenost. Pokud lze zdroj na požádání určit, nebo pokud
 je anonymita přiznána a zdůvodněna a nejistota je vyznačena, nejde o klam. Pokud anonymita
 slouží k tomu, aby tvrzení nemohlo být ověřeno, a je doprovázena sebejistým tónem a přesnými
@@ -203,6 +205,7 @@ je důvodem dohledat konkrétní práci, ne důvodem tvrzení přijmout (Walton 
 
 ## Literatura
 
+- Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.

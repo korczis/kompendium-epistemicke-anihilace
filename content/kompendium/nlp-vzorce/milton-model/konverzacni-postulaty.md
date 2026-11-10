@@ -44,9 +44,9 @@ catalog_prev = "analogove-znaceni"
 catalog_next = "pripojene-otazky"
 catalog_position = 5
 catalog_family_size = 30
-catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grice-1975", "grinder-delozier-bandler-1977", "heap-1988", "langer-1978", "levinson-1983", "mcguire-1964", "stark-2007", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975b", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grice-1975", "grinder-delozier-bandler-1977", "heap-1988", "langer-1978", "levinson-1983", "mcguire-1964", "stark-2007", "tversky-kahneman-1974", "watzlawick-1967", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-1977"]
-catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
+catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "freedman-fraser-1966", "heap-1988", "langer-1978", "mcguire-1964", "stark-2007", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -111,8 +111,7 @@ určitým směrem (Erickson, Rossi a Rossi 1976).
 
 Struktura konverzačního postulátu se skládá z otázky po některém z předpokladů jednání a
 z jednání, které se z ní vyvozuje. Předpokladem může být schopnost (zda posluchač něco
-dokáže), ochota (zda by chtěl), možnost (zda je to možné) nebo připravenost (zda je
-připraven). Doslovná odpověď na takovou otázku je triviální, a proto ji posluchač
+dokáže), ochota (zda by chtěl), možnost (zda je to možné) nebo připravenost (zda je připraven); pragmatika takové otázky popisuje jako nepřímé řečové akty (Levinson 1983). Doslovná odpověď na takovou otázku je triviální, a proto ji posluchač
 přeskakuje a reaguje na vyvozenou žádost. Z hlediska vlivu mají tyto otázky dvě výhody.
 Zaprvé posluchač, který na žádost reaguje, ji prožívá jako vlastní rozhodnutí, protože
 formálně nebyl nikým vyzván. Zadruhé mluvčí může kdykoli ustoupit k doslovnému smyslu a
@@ -134,7 +133,7 @@ rozhovoru určitým směrem posunul, aniž by o tom rozhodl.
 
 Pro analýzu je proto užitečné rozlišovat tři roviny téže výpovědi. Doslovná rovina se týká
 schopnosti nebo ochoty a je obvykle triviální. Vyvozená rovina obsahuje žádost, kterou
-posluchač pochopí bez vysvětlování. Vztahová rovina určuje, jak nákladné je žádost odmítnout.
+posluchač pochopí bez vysvětlování. Vztahová rovina určuje, jak nákladné je žádost odmítnout. Rozlišení doslovného a vyvozeného významu pochází z pragmatiky (Levinson 1983), rozlišení obsahu a vztahu z teorie komunikace, podle níž každé sdělení nese obojí (Watzlawick, Beavin a Jackson 1967).
 Manipulativní užití se pozná podle toho, že mezi těmito rovinami vzniká záměrný nepoměr:
 doslovná rovina dává mluvčímu alibi, vyvozená nese požadavek a vztahová ztěžuje odmítnutí.
 
@@ -216,6 +215,7 @@ autonomie.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

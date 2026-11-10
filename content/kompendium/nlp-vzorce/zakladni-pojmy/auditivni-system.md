@@ -44,10 +44,10 @@ catalog_prev = "vizualni-system"
 catalog_next = "kinesteticky-system"
 catalog_position = 3
 catalog_family_size = 42
-catalog_sources = ["bandler-1985", "bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "dilts-1980", "erickson-rossi-rossi-1976", "heap-1988", "herman-1992", "rogers-1951", "sharpley-1984", "vrij-2008", "witkowski-2010"]
+catalog_sources = ["bandler-1985", "bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "dilts-1980", "erickson-rossi-rossi-1976", "heap-1988", "herman-1992", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "vrij-2008", "witkowski-2010"]
 catalog_sources_primary = ["bandler-1985", "bandler-grinder-1975b", "bandler-grinder-1979", "dilts-1980"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
-catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "heap-1988", "herman-1992", "rogers-1951", "sharpley-1984", "vrij-2008", "witkowski-2010"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "heap-1988", "herman-1992", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -129,7 +129,7 @@ vrstvu.
 Sluchový kanál je v kompendiu přítomen všude, kde se vliv šíří mluveným slovem: na seminářích,
 v telefonickém prodeji, v náboženských nebo politických shromážděních a v podcastech. Společným
 rysem těchto prostředí je, že posluchač nemá čas se k sdělení vrátit, jak to umožňuje psaný
-text, a že tempo, rytmus a melodie řeči působí dřív, než se obsah stačí posoudit. Pro
+text, a že tempo, rytmus a melodie řeči působí dřív, než se obsah stačí posoudit. Výzkum přesvědčování popisuje, že když posluchač nemá příležitost sdělení důkladně zpracovat, rozhodují o jeho působení spíše vnější znaky sdělení než kvalita argumentů (Petty a Cacioppo 1986). Pro
 rozpoznání je proto užitečné převést důležité mluvené sdělení do písemné podoby a přečíst si ho
 znovu bez hlasu, který ho nesl. Co v přepisu zní prázdně, opakovaně nebo protiřečivě, působilo
 v živém projevu především formou. Tento jednoduchý test odděluje sílu hlasu od síly argumentu a
@@ -206,6 +206,7 @@ tak, že ho bez rozlišení umlčí.
 - Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.
 - Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.

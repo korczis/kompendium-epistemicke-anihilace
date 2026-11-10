@@ -39,13 +39,13 @@ catalog_related = ["vedecky-zargon", "predpoklady-jako-pracovni-hypotezy", "trh-
 catalog_related_declared = ["falzifikovatelnost-nlp", "kargokultovni-psychologie", "delfska-studie", "databaze-vyzkumu-nlp", "stav-dukazu-nlp"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/pseudoscience.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
+catalog_links_prose = ["glossary/pseudoscience.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md", "kompendium/argumentacni-fauly/relevance/ad-hominem.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
 catalog_prev = "vyzkum-ocnich-signalu"
 catalog_next = "delfska-studie"
 catalog_position = 4
 catalog_family_size = 14
-catalog_sources = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lifton-1961", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
-catalog_sources_primary = []
+catalog_sources = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lifton-1961", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "walton-2008", "witkowski-2010", "van-der-linden-2023"]
+catalog_sources_primary = ["walton-2008"]
 catalog_sources_roots = []
 catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lifton-1961", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
@@ -150,6 +150,8 @@ Opačným znakem, který rovněž stojí za pozornost, je nepřesná kritika. Oz
 „pseudovědu NLP“ jen proto, že to vypadá podobně, je stejně nepoctivé jako nadsazená propagace.
 Spravedlivé hodnocení rozlišuje mezi konkrétním tvrzením, které bylo testováno a neobstálo,
 tvrzením, které testováno nebylo, a prvkem, který NLP převzalo z jiného, ověřeného přístupu.
+Takové rozlišení uplatňují i autoři, kteří NLP studují jako kulturní a profesní jev a jeho
+nároky na účinnost nepřijímají (Tosey a Mathison 2009).
 
 ## Legitimní a manipulativní užití
 
@@ -167,7 +169,8 @@ užívání vydávají za důkaz zaujatosti „establishmentu“ a stylizují NL
 inovace. Takový rámec dělí svět na zasvěcené a nevědomé a posiluje skupinovou soudržnost
 výcvikového prostředí. Druhou podobou je zneužití nálepky k diskreditaci člověka: v konfliktu se
 o protistraně řekne, že „používá NLP“, a tím se zpochybní vše, co říká, bez posouzení obsahu.
-Obě podoby nahrazují posouzení konkrétního tvrzení identitou nebo nálepkou.
+Obě podoby nahrazují posouzení konkrétního tvrzení identitou nebo nálepkou, tedy tahem, který
+teorie argumentace popisuje jako [útok na osobu](@/kompendium/argumentacni-fauly/relevance/ad-hominem.md) místo posouzení argumentu (Walton 2008).
 
 ## Stav důkazů
 
@@ -218,6 +221,7 @@ o myšlenkové reformě (Lifton 1961).
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
+- Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
 

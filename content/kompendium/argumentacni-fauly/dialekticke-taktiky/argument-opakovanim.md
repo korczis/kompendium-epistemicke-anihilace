@@ -115,7 +115,9 @@ nebylo umlčeno; tedy T platí. Druhá premisa často zaměňuje umlčení s vyv
 oponenti přestanou odpovídat, mluvčí to vykládá jako souhlas. Struktura je tedy blízká
 [důkazu tvrzením](@/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md),
 od kterého se liší časovým rozměrem. Důkaz tvrzením předkládá tvrzení jako samozřejmé
-jednou, argument opakováním ho samozřejmým činí postupně.
+jednou, argument opakováním ho samozřejmým činí postupně. Psychologie tento postupný účinek
+doložila: výroky, které lidé slyšeli opakovaně, hodnotí jako pravdivější než výroky nové (Hasher,
+Goldstein a Toppino 1977).
 
 V rozhovoru lze rozlišit tři podoby. Individuální opakování je situace, kdy tentýž mluvčí
 vrací tvrzení do diskuse bez ohledu na odpovědi, které dostal. Distribuované opakování je

@@ -178,8 +178,10 @@ na české poměry opatrně.
 
 V individuální rovině se falešná vyváženost může stát vnitřním postojem. Člověk, který je
 opakovaně vystavován dojmu, že ke každé otázce existují dvě rovnocenné strany, může ztratit
-schopnost rozlišovat mezi doloženým a nedoloženým a začít vnímat každé rozhodnutí jako
-předčasné. Tento posun kompendium popisuje jako [internalizaci falešné
+schopnost rozlišovat mezi doloženým a nedoloženým a začít vnímat každé rozhodnutí jako předčasné.
+Experimenty, v nichž informace o vědeckém konsenzu ztrácela účinek vedle zdánlivě rovnocenného
+protinázoru, ukazují, jak se tento dojem promítá do úsudku jednotlivých čtenářů (Cook, Lewandowsky a
+Ecker 2017). Tento posun kompendium popisuje jako [internalizaci falešné
 vyváženosti](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md). V kolektivní
 rovině se taktika pojí s argumentem pronásledovaného menšinového génia, který popisuje heslo
 [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md):

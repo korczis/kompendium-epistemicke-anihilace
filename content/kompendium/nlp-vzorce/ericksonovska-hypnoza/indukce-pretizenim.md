@@ -123,7 +123,8 @@ jednoduchost návrhu, a ne kvalita argumentu (Petty a Cacioppo 1986).
 
 Rozdíl mezi hypnotickým a vlivovým užitím je v obsahu nabídky úniku. V hypnóze je jím
 zaměření pozornosti na jediný podnět nebo uvolnění. Ve vlivovém prostředí je jím podpis,
-platba, souhlas s výkladem nebo přijetí role. Kompendium popisuje příbuznou konstrukci u
+platba, souhlas s výkladem nebo přijetí role, tedy rozhodnutí, o kterém při nízké kapacitě ke
+zpracování rozhodují spíš periferní vodítka než argumenty (Petty a Cacioppo 1986). Kompendium popisuje příbuznou konstrukci u
 [iluzorní komplexity](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md), kde se
 zahlcení nevytváří smyslovými podněty, ale nepřehlednou složitostí argumentace, a
 jednoduchý závěr se nabízí jako jediný schůdný výklad. V katalogu má vzorec blízko také k

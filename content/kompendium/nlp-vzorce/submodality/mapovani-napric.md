@@ -126,7 +126,9 @@ nezkoumá, zda je pro jistotu důvod. Pokud se přitažlivost přestavuje do pod
 nezkoumá se, zda přitažlivost něco neříká o hodnotách člověka. Vzorec je ve své logice
 lhostejný k pravdě a k hodnotě: mění formu prožitku, ne jeho vztah ke světu. Ekologická
 kontrola tuto mezeru zčásti zakrývá, protože ji provádí tentýž praktik, který změnu navrhl, a
-v podmínkách, ve kterých jsou pochybnosti o změně snadno vykládány jako odpor.
+v podmínkách, ve kterých jsou pochybnosti o změně snadno vykládány jako odpor; literatura o
+myšlenkové reformě popisuje prostředí, která pochybnost soustavně vykládají jako selhání
+jednotlivce (Lifton 1961).
 
 ## Detekční znaky
 
@@ -185,7 +187,8 @@ dostat podobu, ve které přestanou působit, je rozumné nejdřív zjistit, co 
 říkají, a probrat to s někým, kdo na výsledku nemá zájem. Druhou obranou je odmítnout převod
 otázky „je to pravda?“ na otázku „jak to prožívat?“. Na otázku o financích skupiny se odpovídá
 doklady, na pochybnost o vztahu rozhovorem, ne přestavbou představy. Třetí obranou je
-nepodléhat tlaku skupinové ukázky: oznámená změna před sálem nedokazuje nic o trvalém účinku a
+nepodléhat tlaku skupinové ukázky: oznámená změna před sálem nedokazuje nic o trvalém účinku,
+protože reakce na sugesci ovlivňuje očekávání i sociální kontext (Kirsch a Lynn 1995), a
 odmítnutí účasti je legitimní.
 
 U lidí, u nichž byly pochybnosti a city soustavně „mapovány“ jinam, se zotavení opírá o

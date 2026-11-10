@@ -125,7 +125,9 @@ kritika. Strategie funguje jen tehdy, když kritická fáze skutečně proběhne
 rozhodnutí a když může nápad zastavit nebo změnit. Pokud o přechodu mezi fázemi rozhoduje
 vedoucí, který má na nápadu zájem, může fázi snění prodloužit až za okamžik rozhodnutí a
 kritickou fázi zkrátit nebo vypustit. Pravidlo, že role se nemají míchat, se pak obrátí v
-zákaz námitek: kdo se ozve s rizikem, „porušuje pravidla“ a „kazí tvůrčí atmosféru“. Druhým
+zákaz námitek: kdo se ozve s rizikem, „porušuje pravidla“ a „kazí tvůrčí atmosféru“. Výzkum rozhodování přitom popisuje, že potlačení
+pochybností ve skupině, kde mají hlas jen příznivci plánu, vede k přehnané sebedůvěře, a
+doporučuje námitkám naopak vytvořit legitimní prostor (Kahneman 2011). Druhým
 zneužitím je personalizace rolí: místo toho, aby každý člověk procházel všemi třemi rolemi,
 se role přidělí lidem natrvalo a ten, komu připadne role kritika, se stane terčem nelibosti.
 Kompendium příbuznou dynamiku, kdy se kritika formálně připouští, ale fakticky znehodnocuje,

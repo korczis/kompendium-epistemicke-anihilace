@@ -44,10 +44,10 @@ catalog_prev = "rychla-lecba-fobie"
 catalog_next = "reimprinting"
 catalog_position = 2
 catalog_family_size = 11
-catalog_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
+catalog_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "ekman-2003", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
 catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
-catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "ekman-2003", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -149,7 +149,8 @@ mezery v paměti na emočně důležité události a otupělost. Kompendium tyto
 hesle o [tělesné disociaci](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) a jejich
 měření v hesle o [škále disociativních zážitků](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md).
 Pokud se takové znaky objeví, nejde o „úspěch techniky“, ale o stav, který vyžaduje odborné
-vyšetření.
+vyšetření. Herman popisuje otupělost, odcizení a mezery v paměti jako projevy disociativní obrany
+u lidí vystavených opakované zátěži (Herman 1992).
 
 ## Legitimní a manipulativní užití
 
@@ -187,7 +188,9 @@ nikoli s jejich vyřešením (Herman 1992).
 Obranou proti zneužití je všímat si funkce odstupu. Kdo je vyzván, aby se na svůj hněv nebo
 strach díval „zvenčí“, může se zeptat, komu odstup slouží: zda pomáhá jemu samotnému unést
 těžký obsah, nebo zda pomáhá druhé straně vyhnout se tomu, na co emoce upozorňuje. Emoce je
-informace a v situaci křivdy nebo ohrožení je to informace důležitá. Užitečné je popsat
+informace a v situaci křivdy nebo ohrožení je to informace důležitá. Ekman popisuje emoci jako
+proces, v němž člověk zaznamená, že se děje něco důležitého pro jeho blaho (Ekman 2003). Užitečné
+je popsat
 situaci konkrétně a mimo vztah, ve kterém se odstup nabízí, například s důvěryhodnou osobou,
 která do skupiny nepatří.
 
@@ -206,6 +209,7 @@ příběhu, ve kterém mají jeho emoce své místo (Beck 1976; Herman 1992).
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
+- Ekman, P. (2003). *Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life*. New York: Times Books.
 - Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

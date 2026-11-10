@@ -44,10 +44,10 @@ catalog_prev = "toulminuv-model"
 catalog_next = "ocelovy-panak"
 catalog_position = 13
 catalog_family_size = 20
-catalog_sources = ["damer-2009", "grice-1975", "johnson-blair-1977", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources = ["damer-2009", "grice-1975", "herman-1992", "johnson-blair-1977", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["damer-2009", "johnson-blair-1977", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975"]
-catalog_sources_critical = ["kunda-1990", "mercier-sperber-2011", "nickerson-1998"]
+catalog_sources_critical = ["herman-1992", "kunda-1990", "mercier-sperber-2011", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Meze a zneužití principu", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -153,7 +153,9 @@ argumentu udělá správný, a jeho skutečná chyba, na kterou by bylo třeba u
 Zásada lidskosti naopak dovoluje uznat, že mluvčí se mýlí, a přesto mu porozumět. Druhou mezí
 je asymetrie. V nerovných vztazích bývá shovívavost rozdělena nerovnoměrně: výroky silnější
 strany se vykládají v nejlepším světle, kdežto stížnosti slabší strany se čtou jako přehnané,
-zmatené nebo zlovolné. Tento vzorec je dobře známý z prostředí, kde se oběti nevěří, a
+zmatené nebo zlovolné. Tento vzorec je dobře známý z prostředí, kde se oběti nevěří, kde podle
+Hermanové pachatel útočí na důvěryhodnost oběti a okolí se snáze přikloní k jeho výkladu (Herman
+1992), a
 kompendium ho rozebírá v souvislosti s epistemickou nespravedlností. Princip shovívavosti
 proto není neutrální, pokud se uplatňuje jen jedním směrem; jeho férová podoba vyžaduje
 symetrii. Třetí mezí je zneužití principu jako štítu. Kdo na kritiku opakovaně odpovídá, že
@@ -198,6 +200,7 @@ téma (Walton 2008).
 
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Johnson, R. H., & Blair, J. A. (1977). *Logical Self-Defense*. Toronto: McGraw-Hill Ryerson.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.

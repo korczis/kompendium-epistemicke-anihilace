@@ -108,7 +108,7 @@ svědci později uváděli, že viděli rozbité sklo, které na místě nebylo 
 ## Struktura vzorce
 
 Vzorec má několik podob, které spojuje stejná struktura: obsah, který mluvčí chce předat, je
-umístěn do předpokladu otázky, ne do jejího tázacího jádra. Řečnická otázka předpokládá
+umístěn do předpokladu otázky, ne do jejího tázacího jádra (Levinson 1983). Řečnická otázka předpokládá
 jedinou přijatelnou odpověď: „kdo by nechtěl pro své děti to nejlepší?“ [Insinuační otázka](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md)
 předpokládá skutečnost, o které nemluví: „proč na to pořád odmítá odpovědět?“ předpokládá
 odmítání. [Sugestivní otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/sugestivni-otazka.md) ve výslechu vkládá informaci, kterou svědek neuvedl: „jakou barvu

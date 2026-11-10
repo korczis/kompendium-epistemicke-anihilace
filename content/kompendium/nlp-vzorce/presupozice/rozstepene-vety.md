@@ -114,7 +114,8 @@ Grinder 1975b).
 Vytýkací konstrukce rozděluje výpověď na ohnisko a pozadí. Ohnisko odpovídá na nevyslovenou
 otázku, pozadí tu otázku tvoří. Věta „byl to Petr, kdo rozbil okno“ odpovídá na otázku
 „kdo rozbil okno?“, a tím předpokládá, že ji lze položit. Kdo se chce bránit, nabízí jiné
-ohnisko („nebyl to Petr, byla to Jana“), a pozadí tím potvrzuje. Kdo chce zpochybnit
+ohnisko („nebyl to Petr, byla to Jana“), a pozadí tím potvrzuje, protože předpoklad vytýkací
+konstrukce přetrvává i v záporu (Levinson 1983). Kdo chce zpochybnit
 pozadí, musí opustit rámec otázky, kterou vytýkací konstrukce postavila, a to je v rozhovoru
 stejně obtížné jako u [otázek s presupozicí](@/kompendium/nlp-vzorce/presupozice/otazky-s-presupozici.md).
 

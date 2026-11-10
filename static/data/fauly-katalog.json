@@ -768,6 +768,11 @@
   },
   {
    "from": "zamena-kvantifikatoru",
+   "to": "kompendium/nlp-vzorce/meta-model/meta-model.md",
+   "type": "prose"
+  },
+  {
+   "from": "zamena-kvantifikatoru",
    "to": "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md",
    "type": "prose"
   },
@@ -829,6 +834,11 @@
   {
    "from": "klam-modalniho-rozsahu",
    "to": "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md",
+   "type": "prose"
+  },
+  {
+   "from": "klam-modalniho-rozsahu",
+   "to": "kompendium/nlp-vzorce/meta-model/meta-model.md",
    "type": "prose"
   },
   {
@@ -3993,6 +4003,11 @@
   },
   {
    "from": "posouvani-branek",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+   "type": "prose"
+  },
+  {
+   "from": "posouvani-branek",
    "to": "kompendium/techniques/ea-2-3-9-sealioning-medialni.md",
    "type": "prose"
   },
@@ -5150,6 +5165,11 @@
    "from": "hracsky-klam",
    "to": "kompendium/03-zakladni-kategorie/biasy/_index.md",
    "type": "kompendium"
+  },
+  {
+   "from": "hracsky-klam",
+   "to": "kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md",
+   "type": "prose"
   },
   {
    "from": "hracsky-klam",
@@ -10158,7 +10178,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 24,
+   "citations": 25,
    "cs": "Formální klam",
    "data": "data/fauly/formalni.toml",
    "depth": 0,
@@ -10324,7 +10344,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/formalni-klam/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1568
+   "words": 1582
   },
   {
    "aliases": [
@@ -10336,7 +10356,7 @@
    ],
    "broader": "formalni-klam",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Potvrzení důsledku",
    "data": "data/fauly/formalni.toml",
    "depth": 1,
@@ -10475,7 +10495,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1319
+   "words": 1330
   },
   {
    "aliases": [
@@ -11223,7 +11243,7 @@
    ],
    "broader": "formalni-klam",
    "canonical": "",
-   "citations": 12,
+   "citations": 17,
    "cs": "Existenční klam",
    "data": "data/fauly/formalni.b.toml",
    "depth": 1,
@@ -11294,6 +11314,7 @@
     "hamblin-1970",
     "kahneman-2011",
     "kunda-1990",
+    "levinson-1983",
     "lifton-1961",
     "stanovich-west-2000",
     "whately-1826",
@@ -11313,6 +11334,7 @@
     "eemeren-grootendorst-2004"
    ],
    "sources_roots": [
+    "levinson-1983",
     "whately-1826"
    ],
    "trainer": [
@@ -11338,7 +11360,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/existencni-klam/",
    "use": "chyba",
    "use_cs": "převážně chyba uvažování",
-   "words": 1328
+   "words": 1420
   },
   {
    "aliases": [
@@ -11350,7 +11372,7 @@
    ],
    "broader": "formalni-klam",
    "canonical": "",
-   "citations": 12,
+   "citations": 18,
    "cs": "Potvrzení disjunktu",
    "data": "data/fauly/formalni.b.toml",
    "depth": 1,
@@ -11418,8 +11440,10 @@
    "slug": "potvrzeni-disjunktu",
    "sources": [
     "copi-cohen-mcmahon-2014",
+    "damer-2009",
     "grice-1975",
     "kahneman-2011",
+    "kunda-1990",
     "levinson-1983",
     "nickerson-1998",
     "stark-2007",
@@ -11428,11 +11452,13 @@
    ],
    "sources_critical": [
     "kahneman-2011",
+    "kunda-1990",
     "nickerson-1998",
     "stark-2007"
    ],
    "sources_primary": [
     "copi-cohen-mcmahon-2014",
+    "damer-2009",
     "walton-2008",
     "eemeren-grootendorst-1992"
    ],
@@ -11463,7 +11489,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/potvrzeni-disjunktu/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1172
+   "words": 1238
   },
   {
    "aliases": [
@@ -11475,7 +11501,7 @@
    ],
    "broader": "formalni-klam",
    "canonical": "",
-   "citations": 12,
+   "citations": 16,
    "cs": "Vylučující premisy",
    "data": "data/fauly/formalni.b.toml",
    "depth": 1,
@@ -11590,7 +11616,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/vylucujici-premisy/",
    "use": "chyba",
    "use_cs": "převážně chyba uvažování",
-   "words": 1210
+   "words": 1285
   },
   {
    "aliases": [
@@ -11602,7 +11628,7 @@
    ],
    "broader": "formalni-klam",
    "canonical": "",
-   "citations": 12,
+   "citations": 17,
    "cs": "Záměna kvantifikátorů",
    "data": "data/fauly/formalni.b.toml",
    "depth": 1,
@@ -11630,6 +11656,7 @@
    "links_prose": [
     "kompendium/07-teoreticke-reflexe/politicka-ea.md",
     "kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md",
+    "kompendium/nlp-vzorce/meta-model/meta-model.md",
     "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md",
     "kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md"
    ],
@@ -11672,6 +11699,7 @@
    ],
    "slug": "zamena-kvantifikatoru",
    "sources": [
+    "bandler-grinder-1975",
     "cook-lewandowsky-ecker-2017",
     "copi-cohen-mcmahon-2014",
     "gilovich-1991",
@@ -11691,6 +11719,7 @@
     "van-der-linden-2023"
    ],
    "sources_primary": [
+    "bandler-grinder-1975",
     "copi-cohen-mcmahon-2014",
     "walton-1995",
     "eemeren-grootendorst-1992",
@@ -11722,7 +11751,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/zamena-kvantifikatoru/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1197
+   "words": 1279
   },
   {
    "aliases": [
@@ -11734,7 +11763,7 @@
    ],
    "broader": "formalni-klam",
    "canonical": "",
-   "citations": 10,
+   "citations": 15,
    "cs": "Klam modálního rozsahu",
    "data": "data/fauly/formalni.b.toml",
    "depth": 1,
@@ -11762,6 +11791,7 @@
    "links_prose": [
     "glossary/modalni-logika.md",
     "kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md",
+    "kompendium/nlp-vzorce/meta-model/meta-model.md",
     "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md",
     "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md"
    ],
@@ -11772,7 +11802,7 @@
    "path": "content/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md",
    "position": 12,
    "prev": "zamena-kvantifikatoru",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "zamena-kvantifikatoru",
     "klam-maskovaneho-muze",
@@ -11803,7 +11833,9 @@
    ],
    "slug": "klam-modalniho-rozsahu",
    "sources": [
+    "bandler-grinder-1975",
     "beck-1976",
+    "copi-cohen-mcmahon-2014",
     "ellis-1962",
     "hamblin-1970",
     "herman-1992",
@@ -11818,6 +11850,8 @@
     "kahneman-2011"
    ],
    "sources_primary": [
+    "bandler-grinder-1975",
+    "copi-cohen-mcmahon-2014",
     "hamblin-1970",
     "walton-2008",
     "eemeren-grootendorst-1992"
@@ -11846,7 +11880,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1243
+   "words": 1343
   },
   {
    "aliases": [
@@ -11858,7 +11892,7 @@
    ],
    "broader": "formalni-klam",
    "canonical": "",
-   "citations": 10,
+   "citations": 14,
    "cs": "Klam maskovaného muže",
    "data": "data/fauly/formalni.b.toml",
    "depth": 1,
@@ -11926,9 +11960,12 @@
    ],
    "slug": "klam-maskovaneho-muze",
    "sources": [
+    "copi-cohen-mcmahon-2014",
+    "hamblin-1970",
     "herman-1992",
     "kahneman-2011",
     "korzybski-1933",
+    "kunda-1990",
     "loftus-palmer-1974",
     "tversky-kahneman-1981",
     "walton-2008",
@@ -11937,10 +11974,13 @@
    "sources_critical": [
     "herman-1992",
     "kahneman-2011",
+    "kunda-1990",
     "loftus-palmer-1974",
     "tversky-kahneman-1981"
    ],
    "sources_primary": [
+    "copi-cohen-mcmahon-2014",
+    "hamblin-1970",
     "walton-2008",
     "eemeren-grootendorst-1992"
    ],
@@ -11970,7 +12010,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/klam-maskovaneho-muze/",
    "use": "chyba",
    "use_cs": "převážně chyba uvažování",
-   "words": 1189
+   "words": 1268
   },
   {
    "aliases": [
@@ -11982,7 +12022,7 @@
    ],
    "broader": "formalni-klam",
    "canonical": "",
-   "citations": 12,
+   "citations": 17,
    "cs": "Klam klamu",
    "data": "data/fauly/formalni.b.toml",
    "depth": 1,
@@ -12059,6 +12099,7 @@
    "sources": [
     "cook-lewandowsky-ecker-2017",
     "copi-cohen-mcmahon-2014",
+    "damer-2009",
     "hahn-oaksford-2007",
     "hamblin-1970",
     "kunda-1990",
@@ -12078,6 +12119,7 @@
    ],
    "sources_primary": [
     "copi-cohen-mcmahon-2014",
+    "damer-2009",
     "hamblin-1970",
     "walton-1995",
     "eemeren-grootendorst-2004"
@@ -12106,7 +12148,7 @@
    "url": "kompendium/argumentacni-fauly/formalni/klam-klamu/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1182
+   "words": 1270
   },
   {
    "aliases": [
@@ -12117,7 +12159,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Útok na osobu",
    "data": "data/fauly/relevance.toml",
    "depth": 0,
@@ -12204,6 +12246,7 @@
     "damer-2009",
     "hahn-oaksford-2007",
     "hamblin-1970",
+    "hasher-1977",
     "kahneman-2011",
     "petty-cacioppo-1986",
     "roozenbeek-2022",
@@ -12217,6 +12260,7 @@
    ],
    "sources_critical": [
     "hahn-oaksford-2007",
+    "hasher-1977",
     "kahneman-2011",
     "petty-cacioppo-1986",
     "roozenbeek-2022"
@@ -12259,7 +12303,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/ad-hominem/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1302
+   "words": 1330
   },
   {
    "aliases": [
@@ -12272,7 +12316,7 @@
    ],
    "broader": "ad-hominem",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Okolnostní útok na osobu",
    "data": "data/fauly/relevance.toml",
    "depth": 1,
@@ -12353,6 +12397,7 @@
     "govier-2010",
     "hahn-oaksford-2007",
     "hamblin-1970",
+    "herman-1992",
     "kunda-1990",
     "mercier-sperber-2011",
     "petty-cacioppo-1986",
@@ -12365,6 +12410,7 @@
    ],
    "sources_critical": [
     "hahn-oaksford-2007",
+    "herman-1992",
     "kunda-1990",
     "mercier-sperber-2011",
     "petty-cacioppo-1986"
@@ -12407,7 +12453,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/okolnostni-ad-hominem/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1259
+   "words": 1282
   },
   {
    "aliases": [
@@ -12420,7 +12466,7 @@
    ],
    "broader": "ad-hominem",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Ty taky",
    "data": "data/fauly/relevance.toml",
    "depth": 1,
@@ -12509,6 +12555,7 @@
     "walton-1995",
     "walton-2008",
     "walton-reed-macagno-2008",
+    "watzlawick-1967",
     "whately-1826",
     "eemeren-grootendorst-1992",
     "eemeren-grootendorst-2004"
@@ -12531,6 +12578,7 @@
     "eemeren-grootendorst-2004"
    ],
    "sources_roots": [
+    "watzlawick-1967",
     "whately-1826"
    ],
    "trainer": [
@@ -12556,7 +12604,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/tu-quoque/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1260
+   "words": 1283
   },
   {
    "aliases": [
@@ -12566,7 +12614,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 12,
+   "citations": 15,
    "cs": "Genetický klam",
    "data": "data/fauly/relevance.toml",
    "depth": 0,
@@ -12691,7 +12739,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/genetic-klam/",
    "use": "chyba",
    "use_cs": "převážně chyba uvažování",
-   "words": 1253
+   "words": 1296
   },
   {
    "aliases": [
@@ -12703,7 +12751,7 @@
    ],
    "broader": "ad-hominem",
    "canonical": "",
-   "citations": 13,
+   "citations": 19,
    "cs": "Otrávení studny",
    "data": "data/fauly/relevance.toml",
    "depth": 1,
@@ -12835,7 +12883,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/otraveni-studny/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1217
+   "words": 1240
   },
   {
    "aliases": [
@@ -12847,7 +12895,7 @@
    ],
    "broader": "ad-hominem",
    "canonical": "",
-   "citations": 13,
+   "citations": 15,
    "cs": "Vina asociací",
    "data": "data/fauly/relevance.toml",
    "depth": 1,
@@ -12930,6 +12978,8 @@
     "hasher-1977",
     "johnson-blair-1977",
     "kahneman-2011",
+    "nickerson-1998",
+    "robinson-1950",
     "tindale-2007",
     "walton-2008",
     "walton-reed-macagno-2008",
@@ -12939,7 +12989,9 @@
     "cialdini-2009",
     "hahn-oaksford-2007",
     "hasher-1977",
-    "kahneman-2011"
+    "kahneman-2011",
+    "nickerson-1998",
+    "robinson-1950"
    ],
    "sources_primary": [
     "copi-cohen-mcmahon-2014",
@@ -12976,7 +13028,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/vina-asociaci/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1208
+   "words": 1231
   },
   {
    "aliases": [
@@ -12987,7 +13039,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 18,
    "cs": "Odvolání na nepatřičnou autoritu",
    "data": "data/fauly/relevance.toml",
    "depth": 0,
@@ -13128,7 +13180,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1302
+   "words": 1356
   },
   {
    "aliases": [
@@ -13141,7 +13193,7 @@
    ],
    "broader": "odvolani-na-autoritu",
    "canonical": "",
-   "citations": 13,
+   "citations": 15,
    "cs": "Anonymní autorita",
    "data": "data/fauly/relevance.toml",
    "depth": 1,
@@ -13216,6 +13268,7 @@
    ],
    "slug": "anonymni-autorita",
    "sources": [
+    "cook-lewandowsky-ecker-2017",
     "copi-cohen-mcmahon-2014",
     "damer-2009",
     "gilovich-1991",
@@ -13229,6 +13282,7 @@
     "van-der-linden-2023"
    ],
    "sources_critical": [
+    "cook-lewandowsky-ecker-2017",
     "gilovich-1991",
     "hasher-1977",
     "huff-1954",
@@ -13267,7 +13321,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/anonymni-autorita/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1239
+   "words": 1279
   },
   {
    "aliases": [
@@ -13278,7 +13332,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 12,
+   "citations": 15,
    "cs": "Odvolání na většinu",
    "data": "data/fauly/relevance.toml",
    "depth": 0,
@@ -13362,6 +13416,8 @@
     "copi-cohen-mcmahon-2014",
     "damer-2009",
     "hahn-oaksford-2007",
+    "hassan-1988",
+    "lifton-1961",
     "mercier-sperber-2011",
     "paul-matthews-2016",
     "walton-2008",
@@ -13371,6 +13427,8 @@
    "sources_critical": [
     "cialdini-2009",
     "hahn-oaksford-2007",
+    "hassan-1988",
+    "lifton-1961",
     "mercier-sperber-2011",
     "paul-matthews-2016"
    ],
@@ -13405,7 +13463,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/ad-populum/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1282
+   "words": 1288
   },
   {
    "aliases": [
@@ -13418,7 +13476,7 @@
    ],
    "broader": "ad-populum",
    "canonical": "",
-   "citations": 13,
+   "citations": 17,
    "cs": "Rozjetý vlak",
    "data": "data/fauly/relevance.toml",
    "depth": 1,
@@ -13543,7 +13601,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/rozjety-vlak/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1322
+   "words": 1357
   },
   {
    "aliases": [
@@ -13691,7 +13749,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Odvolání na novost",
    "data": "data/fauly/relevance.b.toml",
    "depth": 0,
@@ -13818,7 +13876,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-novost/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1217
+   "words": 1227
   },
   {
    "aliases": [
@@ -13828,7 +13886,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Odvolání na emoce",
    "data": "data/fauly/relevance.b.toml",
    "depth": 0,
@@ -13918,6 +13976,7 @@
     "petty-cacioppo-1986",
     "roozenbeek-2022",
     "tindale-2007",
+    "tversky-kahneman-1981",
     "walton-2008",
     "eemeren-grootendorst-1992",
     "van-der-linden-2023"
@@ -13928,6 +13987,7 @@
     "kahneman-2011",
     "petty-cacioppo-1986",
     "roozenbeek-2022",
+    "tversky-kahneman-1981",
     "van-der-linden-2023"
    ],
    "sources_primary": [
@@ -13962,7 +14022,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-emoce/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1211
+   "words": 1241
   },
   {
    "aliases": [
@@ -13974,7 +14034,7 @@
    ],
    "broader": "odvolani-na-emoce",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Odvolání na strach",
    "data": "data/fauly/relevance.b.toml",
    "depth": 1,
@@ -14104,7 +14164,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-strach/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1235
+   "words": 1248
   },
   {
    "aliases": [
@@ -14115,7 +14175,7 @@
    ],
    "broader": "odvolani-na-emoce",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Odvolání na soucit",
    "data": "data/fauly/relevance.b.toml",
    "depth": 1,
@@ -14238,7 +14298,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-soucit/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1233
+   "words": 1256
   },
   {
    "aliases": [
@@ -14248,7 +14308,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Odvolání na sílu",
    "data": "data/fauly/relevance.b.toml",
    "depth": 0,
@@ -14374,7 +14434,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-silu/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1252
+   "words": 1269
   },
   {
    "aliases": [
@@ -14384,7 +14444,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Odvolání na přirozenost",
    "data": "data/fauly/relevance.b.toml",
    "depth": 0,
@@ -14500,7 +14560,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-prirozenost/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1211
+   "words": 1231
   },
   {
    "aliases": [
@@ -14509,7 +14569,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Odvolání na důsledky",
    "data": "data/fauly/relevance.b.toml",
    "depth": 0,
@@ -14587,6 +14647,7 @@
     "gilovich-1991",
     "hahn-oaksford-2007",
     "hamblin-1970",
+    "herman-1992",
     "kunda-1990",
     "mercier-sperber-2011",
     "nickerson-1998",
@@ -14599,6 +14660,7 @@
    "sources_critical": [
     "gilovich-1991",
     "hahn-oaksford-2007",
+    "herman-1992",
     "kunda-1990",
     "mercier-sperber-2011",
     "nickerson-1998"
@@ -14635,7 +14697,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-dusledky/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1224
+   "words": 1243
   },
   {
    "aliases": [
@@ -14647,7 +14709,7 @@
    ],
    "broader": "irelevantni-zaver",
    "canonical": "",
-   "citations": 14,
+   "citations": 16,
    "cs": "Červený sleď",
    "data": "data/fauly/relevance.b.toml",
    "depth": 1,
@@ -14689,7 +14751,7 @@
    "path": "content/kompendium/argumentacni-fauly/relevance/cerveny-sled.md",
    "position": 19,
    "prev": "odvolani-na-dusledky",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "slameny-panak",
     "whataboutism",
@@ -14732,7 +14794,9 @@
     "mercier-sperber-2011",
     "petty-cacioppo-1986",
     "satir-1972",
+    "walton-1995",
     "walton-2008",
+    "watzlawick-1967",
     "whately-1826",
     "eemeren-grootendorst-1992"
    ],
@@ -14745,12 +14809,14 @@
     "copi-cohen-mcmahon-2014",
     "damer-2009",
     "johnson-blair-1977",
+    "walton-1995",
     "walton-2008",
     "eemeren-grootendorst-1992"
    ],
    "sources_roots": [
     "grice-1975",
     "satir-1972",
+    "watzlawick-1967",
     "whately-1826"
    ],
    "trainer": [
@@ -14776,7 +14842,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/cerveny-sled/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1274
+   "words": 1316
   },
   {
    "aliases": [
@@ -14786,7 +14852,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 17,
    "cs": "Slaměný panák",
    "data": "data/fauly/relevance.b.toml",
    "depth": 0,
@@ -14920,7 +14986,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/slameny-panak/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1234
+   "words": 1268
   },
   {
    "aliases": [
@@ -15064,7 +15130,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Odvolání na nevědomost",
    "data": "data/fauly/relevance.c.toml",
    "depth": 0,
@@ -15197,7 +15263,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1279
+   "words": 1291
   },
   {
    "aliases": [
@@ -15209,7 +15275,7 @@
    ],
    "broader": "odvolani-na-emoce",
    "canonical": "",
-   "citations": 13,
+   "citations": 15,
    "cs": "Lichotka",
    "data": "data/fauly/relevance.c.toml",
    "depth": 1,
@@ -15281,6 +15347,7 @@
    "slug": "lichotka",
    "sources": [
     "cialdini-2009",
+    "copi-cohen-mcmahon-2014",
     "damer-2009",
     "govier-2010",
     "kunda-1990",
@@ -15299,6 +15366,7 @@
     "singer-lalich-1995"
    ],
    "sources_primary": [
+    "copi-cohen-mcmahon-2014",
     "damer-2009",
     "govier-2010",
     "walton-1995",
@@ -15329,7 +15397,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/lichotka/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1206
+   "words": 1237
   },
   {
    "aliases": [
@@ -15339,7 +15407,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 12,
+   "citations": 14,
    "cs": "Odvolání na bohatství nebo chudobu",
    "data": "data/fauly/relevance.c.toml",
    "depth": 0,
@@ -15417,6 +15485,7 @@
     "govier-2010",
     "hamblin-1970",
     "kahneman-2011",
+    "lifton-1961",
     "petty-cacioppo-1986",
     "walton-2008",
     "walton-reed-macagno-2008",
@@ -15425,6 +15494,7 @@
    "sources_critical": [
     "cialdini-2009",
     "kahneman-2011",
+    "lifton-1961",
     "petty-cacioppo-1986"
    ],
    "sources_primary": [
@@ -15460,7 +15530,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/odvolani-na-bohatstvi/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1251
+   "words": 1288
   },
   {
    "aliases": [
@@ -15469,7 +15539,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 11,
+   "citations": 13,
    "cs": "Chronologický snobismus",
    "data": "data/fauly/relevance.c.toml",
    "depth": 0,
@@ -15544,12 +15614,14 @@
     "lifton-1961",
     "nickerson-1998",
     "popper-1959",
+    "singer-lalich-1995",
     "toulmin-1958"
    ],
    "sources_critical": [
     "kunda-1990",
     "lifton-1961",
-    "nickerson-1998"
+    "nickerson-1998",
+    "singer-lalich-1995"
    ],
    "sources_primary": [
     "damer-2009",
@@ -15582,7 +15654,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/chronologicky-snobismus/",
    "use": "chyba",
    "use_cs": "převážně chyba uvažování",
-   "words": 1211
+   "words": 1237
   },
   {
    "aliases": [
@@ -15723,7 +15795,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 11,
+   "citations": 13,
    "cs": "Kontrola tónu",
    "data": "data/fauly/relevance.c.toml",
    "depth": 0,
@@ -15798,6 +15870,7 @@
    ],
    "slug": "kontrola-tonu",
    "sources": [
+    "govier-2010",
     "grice-1975",
     "herman-1992",
     "kunda-1990",
@@ -15814,6 +15887,7 @@
     "vrij-2008"
    ],
    "sources_primary": [
+    "govier-2010",
     "walton-1995",
     "eemeren-grootendorst-2004"
    ],
@@ -15844,7 +15918,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/kontrola-tonu/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1229
+   "words": 1255
   },
   {
    "aliases": [
@@ -15855,7 +15929,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 17,
    "cs": "Irelevantní závěr",
    "data": "data/fauly/relevance.c.toml",
    "depth": 0,
@@ -15900,7 +15974,7 @@
    "path": "content/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md",
    "position": 28,
    "prev": "kontrola-tonu",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "cerveny-sled",
     "slameny-panak",
@@ -15940,6 +16014,7 @@
     "grice-1975",
     "hamblin-1970",
     "kahneman-2011",
+    "lifton-1961",
     "stanovich-west-2000",
     "toulmin-1958",
     "walton-1995",
@@ -15950,6 +16025,7 @@
    ],
    "sources_critical": [
     "kahneman-2011",
+    "lifton-1961",
     "stanovich-west-2000"
    ],
    "sources_primary": [
@@ -15988,7 +16064,7 @@
    "url": "kompendium/argumentacni-fauly/relevance/irelevantni-zaver/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1267
+   "words": 1302
   },
   {
    "aliases": [
@@ -16091,7 +16167,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Sugestivní otázka",
    "data": "data/fauly/predpoklady-argumentu.toml",
    "depth": 0,
@@ -16170,6 +16246,7 @@
    ],
    "slug": "sugestivni-otazka",
    "sources": [
+    "copi-cohen-mcmahon-2014",
     "hahn-oaksford-2007",
     "hamblin-1970",
     "levinson-1983",
@@ -16187,6 +16264,7 @@
     "tversky-kahneman-1981"
    ],
    "sources_primary": [
+    "copi-cohen-mcmahon-2014",
     "hamblin-1970",
     "walton-2008",
     "eemeren-grootendorst-1992",
@@ -16218,7 +16296,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/sugestivni-otazka/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1269
+   "words": 1293
   },
   {
    "aliases": [
@@ -17245,7 +17323,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 15,
    "cs": "Zamlčení důkazů",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -17371,7 +17449,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/zamlceni-dukazu/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1252
+   "words": 1300
   },
   {
    "aliases": [
@@ -17382,7 +17460,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 11,
+   "citations": 12,
    "cs": "Falešný kompromis",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -17491,7 +17569,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/falesny-kompromis/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1329
+   "words": 1358
   },
   {
    "aliases": [
@@ -17502,7 +17580,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 15,
    "cs": "Nefalzifikovatelné tvrzení",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -17545,7 +17623,7 @@
    "path": "content/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md",
    "position": 13,
    "prev": "falesny-kompromis",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "odvolani-na-nevedomost",
     "kruhovy-argument",
@@ -17633,7 +17711,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1268
+   "words": 1307
   },
   {
    "aliases": [
@@ -17644,7 +17722,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 12,
+   "citations": 13,
    "cs": "Posouvání branek",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -17675,6 +17753,7 @@
     "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md",
     "kompendium/argumentacni-fauly/relevance/cerveny-sled.md",
     "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
     "kompendium/techniques/ea-2-3-9-sealioning-medialni.md",
     "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md"
    ],
@@ -17767,7 +17846,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1227
+   "words": 1250
   },
   {
    "aliases": [
@@ -17778,7 +17857,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 11,
+   "citations": 12,
    "cs": "Přesun důkazního břemene",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -17858,6 +17937,7 @@
     "hamblin-1970",
     "lilienfeld-2015",
     "mercier-sperber-2011",
+    "popper-1959",
     "walton-2008",
     "eemeren-grootendorst-1992"
    ],
@@ -17871,7 +17951,9 @@
     "walton-2008",
     "eemeren-grootendorst-1992"
    ],
-   "sources_roots": [],
+   "sources_roots": [
+    "popper-1959"
+   ],
    "trainer": [
     {
      "benign": false,
@@ -17895,7 +17977,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1226
+   "words": 1243
   },
   {
    "aliases": [
@@ -18026,7 +18108,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 9,
+   "citations": 10,
    "cs": "Argument z neuvěřitelnosti",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -18136,7 +18218,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/argument-z-neuveritelnosti/",
    "use": "chyba",
    "use_cs": "převážně chyba uvažování",
-   "words": 1201
+   "words": 1226
   },
   {
    "aliases": [
@@ -18147,7 +18229,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 11,
+   "citations": 12,
    "cs": "Kluzký svah",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -18261,7 +18343,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1242
+   "words": 1265
   },
   {
    "aliases": [
@@ -18273,7 +18355,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 11,
+   "citations": 12,
    "cs": "Klam utopených nákladů",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -18383,7 +18465,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1253
+   "words": 1292
   },
   {
    "aliases": [
@@ -18394,7 +18476,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Důkaz tvrzením",
    "data": "data/fauly/predpoklady-argumentu.b.toml",
    "depth": 0,
@@ -18516,7 +18598,7 @@
    "url": "kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1184
+   "words": 1199
   },
   {
    "aliases": [
@@ -18673,7 +18755,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Záměna korelace a kauzality",
    "data": "data/fauly/kauzalni.toml",
    "depth": 0,
@@ -18804,7 +18886,7 @@
    "url": "kompendium/argumentacni-fauly/kauzalni/korelace-a-kauzalita/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1340
+   "words": 1341
   },
   {
    "aliases": [
@@ -19216,7 +19298,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Texaský střelec",
    "data": "data/fauly/kauzalni.toml",
    "depth": 0,
@@ -19332,7 +19414,7 @@
    "url": "kompendium/argumentacni-fauly/kauzalni/texasky-strelec/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1248
+   "words": 1264
   },
   {
    "aliases": [
@@ -19736,7 +19818,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 17,
    "cs": "Zanedbání základní míry",
    "data": "data/fauly/statisticke.toml",
    "depth": 0,
@@ -19853,7 +19935,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/zanedbani-zakladni-miry/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1345
+   "words": 1347
   },
   {
    "aliases": [
@@ -19863,7 +19945,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 18,
    "cs": "Klam konjunkce",
    "data": "data/fauly/statisticke.toml",
    "depth": 0,
@@ -19978,7 +20060,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/klam-konjunkce/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1205
+   "words": 1252
   },
   {
    "aliases": [
@@ -19990,7 +20072,7 @@
    ],
    "broader": "zakon-malych-cisel",
    "canonical": "",
-   "citations": 15,
+   "citations": 18,
    "cs": "Hráčský klam",
    "data": "data/fauly/statisticke.toml",
    "depth": 1,
@@ -20015,6 +20097,7 @@
     "kompendium/03-zakladni-kategorie/biasy/_index.md"
    ],
    "links_prose": [
+    "kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md",
     "kompendium/argumentacni-fauly/statisticke/horka-ruka.md",
     "kompendium/argumentacni-fauly/statisticke/zakon-malych-cisel.md"
    ],
@@ -20055,6 +20138,7 @@
    ],
    "slug": "hracsky-klam",
    "sources": [
+    "arkes-blumer-1985",
     "damer-2009",
     "gilovich-1991",
     "kahneman-2011",
@@ -20062,6 +20146,7 @@
     "tversky-kahneman-1974"
    ],
    "sources_critical": [
+    "arkes-blumer-1985",
     "gilovich-1991",
     "kahneman-2011",
     "tversky-kahneman-1971",
@@ -20101,7 +20186,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/hracsky-klam/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1214
+   "words": 1266
   },
   {
    "aliases": [
@@ -20111,7 +20196,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 17,
    "cs": "Horká ruka",
    "data": "data/fauly/statisticke.toml",
    "depth": 0,
@@ -20222,7 +20307,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/horka-ruka/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1183
+   "words": 1192
   },
   {
    "aliases": [
@@ -20234,7 +20319,7 @@
    ],
    "broader": "zkresleny-vyber",
    "canonical": "",
-   "citations": 11,
+   "citations": 15,
    "cs": "Zkreslení přežitím",
    "data": "data/fauly/statisticke.toml",
    "depth": 1,
@@ -20346,7 +20431,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/zkresleni-preziti/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1193
+   "words": 1238
   },
   {
    "aliases": [
@@ -20356,7 +20441,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 11,
+   "citations": 16,
    "cs": "Zkreslený výběr",
    "data": "data/fauly/statisticke.toml",
    "depth": 0,
@@ -20480,7 +20565,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/zkresleny-vyber/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1181
+   "words": 1203
   },
   {
    "aliases": [
@@ -20490,7 +20575,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 18,
    "cs": "Zákon malých čísel",
    "data": "data/fauly/statisticke.toml",
    "depth": 0,
@@ -20613,7 +20698,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/zakon-malych-cisel/",
    "use": "chyba",
    "use_cs": "převážně chyba uvažování",
-   "words": 1190
+   "words": 1244
   },
   {
    "aliases": [
@@ -20623,7 +20708,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 16,
    "cs": "Klam žalobce",
    "data": "data/fauly/statisticke.toml",
    "depth": 0,
@@ -20736,7 +20821,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/klam-zalobce/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1219
+   "words": 1259
   },
   {
    "aliases": [
@@ -20745,7 +20830,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Klam obhájce",
    "data": "data/fauly/statisticke.b.toml",
    "depth": 0,
@@ -20852,7 +20937,7 @@
    "url": "kompendium/argumentacni-fauly/statisticke/klam-obhajce/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1350
+   "words": 1353
   },
   {
    "aliases": [
@@ -22615,7 +22700,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Přesvědčovací definice",
    "data": "data/fauly/jazykove-klamy.b.toml",
    "depth": 0,
@@ -22750,7 +22835,7 @@
    "url": "kompendium/argumentacni-fauly/jazykove-klamy/presvedcovaci-definice/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1272
+   "words": 1298
   },
   {
    "aliases": [
@@ -22761,7 +22846,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Nabitý jazyk",
    "data": "data/fauly/jazykove-klamy.b.toml",
    "depth": 0,
@@ -22846,6 +22931,7 @@
     "lakoff-johnson-1980",
     "lifton-1961",
     "loftus-palmer-1974",
+    "nickerson-1998",
     "petty-cacioppo-1986",
     "roozenbeek-2022",
     "toulmin-1958",
@@ -22859,6 +22945,7 @@
     "lakoff-johnson-1980",
     "lifton-1961",
     "loftus-palmer-1974",
+    "nickerson-1998",
     "petty-cacioppo-1986",
     "roozenbeek-2022",
     "tversky-kahneman-1981"
@@ -22894,7 +22981,7 @@
    "url": "kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1240
+   "words": 1264
   },
   {
    "aliases": [
@@ -22904,7 +22991,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Vyhýbavá slova",
    "data": "data/fauly/jazykove-klamy.b.toml",
    "depth": 0,
@@ -22981,6 +23068,7 @@
     "bentham-1824",
     "cook-lewandowsky-ecker-2017",
     "damer-2009",
+    "gigerenzer-2002",
     "grice-1975",
     "langer-1978",
     "levinson-1983",
@@ -22990,6 +23078,7 @@
    ],
    "sources_critical": [
     "cook-lewandowsky-ecker-2017",
+    "gigerenzer-2002",
     "langer-1978",
     "petty-cacioppo-1986"
    ],
@@ -23026,7 +23115,7 @@
    "url": "kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1201
+   "words": 1225
   },
   {
    "aliases": [
@@ -23037,7 +23126,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Eufemismus a dysfemismus",
    "data": "data/fauly/jazykove-klamy.b.toml",
    "depth": 0,
@@ -23161,7 +23250,7 @@
    "url": "kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1204
+   "words": 1219
   },
   {
    "aliases": [
@@ -23174,7 +23263,7 @@
    ],
    "broader": "klam-duraznu",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Vytržení z kontextu",
    "data": "data/fauly/jazykove-klamy.b.toml",
    "depth": 1,
@@ -23304,7 +23393,7 @@
    "url": "kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1181
+   "words": 1208
   },
   {
    "aliases": [
@@ -23314,7 +23403,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Definiční klam",
    "data": "data/fauly/jazykove-klamy.b.toml",
    "depth": 0,
@@ -23431,7 +23520,7 @@
    "url": "kompendium/argumentacni-fauly/jazykove-klamy/definicni-klam/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1251
+   "words": 1268
   },
   {
    "aliases": [
@@ -23832,7 +23921,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 20,
+   "citations": 21,
    "cs": "Argument opakováním",
    "data": "data/fauly/dialekticke-taktiky.toml",
    "depth": 0,
@@ -23876,7 +23965,7 @@
    "path": "content/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md",
    "position": 5,
    "prev": "jen-se-ptam",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "anonymni-autorita",
     "ad-populum",
@@ -23954,7 +24043,7 @@
    "url": "kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1286
+   "words": 1306
   },
   {
    "aliases": [
@@ -23966,7 +24055,7 @@
    ],
    "broader": "nabity-jazyk",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Myšlenkově ukončující klišé",
    "data": "data/fauly/dialekticke-taktiky.toml",
    "depth": 1,
@@ -24008,7 +24097,7 @@
    "path": "content/kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise.md",
    "position": 6,
    "prev": "argument-opakovanim",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "otraveni-studny",
     "irelevantni-zaver",
@@ -24084,7 +24173,7 @@
    "url": "kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1294
+   "words": 1313
   },
   {
    "aliases": [
@@ -24096,7 +24185,7 @@
    ],
    "broader": "nefalzifikovatelnost",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Kafkovská past",
    "data": "data/fauly/dialekticke-taktiky.toml",
    "depth": 1,
@@ -24172,6 +24261,7 @@
    ],
    "slug": "kafkapast",
    "sources": [
+    "hahn-oaksford-2007",
     "herman-1992",
     "kunda-1990",
     "lifton-1961",
@@ -24181,6 +24271,7 @@
     "eemeren-grootendorst-2004"
    ],
    "sources_critical": [
+    "hahn-oaksford-2007",
     "herman-1992",
     "kunda-1990",
     "lifton-1961",
@@ -24216,7 +24307,7 @@
    "url": "kompendium/argumentacni-fauly/dialekticke-taktiky/kafkapast/",
    "use": "vliv",
    "use_cs": "převážně záměrná taktika",
-   "words": 1271
+   "words": 1296
   },
   {
    "aliases": [
@@ -24228,7 +24319,7 @@
    ],
    "broader": "okolnostni-ad-hominem",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Bulverismus",
    "data": "data/fauly/dialekticke-taktiky.toml",
    "depth": 2,
@@ -24345,7 +24436,7 @@
    "url": "kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1280
+   "words": 1300
   },
   {
    "aliases": [
@@ -24357,7 +24448,7 @@
    ],
    "broader": "falesna-ekvivalence",
    "canonical": "",
-   "citations": 12,
+   "citations": 13,
    "cs": "Falešná vyváženost",
    "data": "data/fauly/dialekticke-taktiky.b.toml",
    "depth": 1,
@@ -24472,7 +24563,7 @@
    "url": "kompendium/argumentacni-fauly/dialekticke-taktiky/falesna-vyvazenost/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1238
+   "words": 1265
   },
   {
    "aliases": [
@@ -24738,7 +24829,7 @@
    ],
    "broader": "odvolani-na-nevedomost",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Argument z mlčení",
    "data": "data/fauly/dialekticke-taktiky.b.toml",
    "depth": 1,
@@ -24848,7 +24939,7 @@
    "url": "kompendium/argumentacni-fauly/dialekticke-taktiky/argument-z-mlceni/",
    "use": "dvoji",
    "use_cs": "chyba i taktika",
-   "words": 1195
+   "words": 1215
   },
   {
    "aliases": [
@@ -28084,7 +28175,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Toulminův model argumentu",
    "data": "data/fauly/teorie-argumentace.b.toml",
    "depth": 0,
@@ -28198,7 +28289,7 @@
    "url": "kompendium/argumentacni-fauly/teorie-argumentace/toulminuv-model/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1215
+   "words": 1228
   },
   {
    "aliases": [
@@ -28208,7 +28299,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Princip shovívavosti",
    "data": "data/fauly/teorie-argumentace.b.toml",
    "depth": 0,
@@ -28284,6 +28375,7 @@
    "sources": [
     "damer-2009",
     "grice-1975",
+    "herman-1992",
     "johnson-blair-1977",
     "kunda-1990",
     "mercier-sperber-2011",
@@ -28293,6 +28385,7 @@
     "eemeren-grootendorst-2004"
    ],
    "sources_critical": [
+    "herman-1992",
     "kunda-1990",
     "mercier-sperber-2011",
     "nickerson-1998"
@@ -28330,7 +28423,7 @@
    "url": "kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1197
+   "words": 1214
   },
   {
    "aliases": [
@@ -28343,7 +28436,7 @@
    ],
    "broader": "princip-shovivavosti",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Ocelový panák",
    "data": "data/fauly/teorie-argumentace.b.toml",
    "depth": 1,
@@ -28382,7 +28475,7 @@
    "path": "content/kompendium/argumentacni-fauly/teorie-argumentace/ocelovy-panak.md",
    "position": 14,
    "prev": "princip-shovivavosti",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "slameny-panak",
     "falesna-vyvazenost",
@@ -28459,7 +28552,7 @@
    "url": "kompendium/argumentacni-fauly/teorie-argumentace/ocelovy-panak/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1277
+   "words": 1323
   },
   {
    "aliases": [
@@ -28611,7 +28704,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Dialektika a eristika",
    "data": "data/fauly/teorie-argumentace.b.toml",
    "depth": 0,
@@ -28729,7 +28822,7 @@
    "url": "kompendium/argumentacni-fauly/teorie-argumentace/dialektika-a-eristika/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1221
+   "words": 1240
   },
   {
    "aliases": [
@@ -28739,7 +28832,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Bayesovské pojetí klamů",
    "data": "data/fauly/teorie-argumentace.b.toml",
    "depth": 0,
@@ -28861,7 +28954,7 @@
    "url": "kompendium/argumentacni-fauly/teorie-argumentace/bayesovske-pojeti-klamu/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1157
+   "words": 1178
   },
   {
    "aliases": [
@@ -28871,7 +28964,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Motivované uvažování",
    "data": "data/fauly/teorie-argumentace.b.toml",
    "depth": 0,
@@ -28991,7 +29084,7 @@
    "url": "kompendium/argumentacni-fauly/teorie-argumentace/motivovane-uvazovani/",
    "use": "chyba",
    "use_cs": "převážně chyba uvažování",
-   "words": 1232
+   "words": 1252
   },
   {
    "aliases": [
@@ -29127,7 +29220,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Argumentační teorie uvažování",
    "data": "data/fauly/teorie-argumentace.b.toml",
    "depth": 0,
@@ -29238,7 +29331,7 @@
    "url": "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1195
+   "words": 1198
   }
  ],
  "families": [

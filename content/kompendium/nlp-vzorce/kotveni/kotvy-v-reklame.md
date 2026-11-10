@@ -153,6 +153,9 @@ se podnět záměrně umisťuje do okamžiku rozhodnutí tak, aby úvahu přeru�
 je spojování výrobků, které poškozují zdraví, s obrazy svobody, sounáležitosti nebo úspěchu.
 Hranice se dá vyjádřit otázkou: rozhodl bych se stejně, kdybych dostal jen věcné informace o
 výrobku a ceně, bez hudby a obrazů? Pokud ne, je dobré vědět, co rozhodnutí skutečně řídilo.
+Otázka odpovídá rozlišení centrální a periferní cesty přesvědčování: postoj, který vznikl
+posouzením argumentů, je stálejší než postoj nesený jen průvodními podněty (Petty a
+Cacioppo 1986).
 
 Stejná struktura se neomezuje na zboží. Politické kampaně, ideologická hnutí i uzavřené
 skupiny pracují se znělkami, barvami, symboly a hesly, které spojují s pocitem příslušnosti,

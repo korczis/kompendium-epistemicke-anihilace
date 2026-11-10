@@ -112,9 +112,9 @@ Strukturálně má vzorec dvě části: požadavek nebo tvrzení a připojený d
 je vztah mezi nimi, který může mít tři podoby. Skutečný důvod přidává informaci, kterou
 posluchač neměl a která požadavek vysvětluje: „posunujeme termín, protože dodavatel ohlásil
 zpoždění“. Placebový důvod nepřidává nic, jen přeformuluje požadavek nebo konstatuje
-samozřejmost: „podepište to dnes, protože to potřebujeme podepsané“. Falešný důvod přidává
+samozřejmost: „podepište to dnes, protože to potřebujeme podepsané“ (Langer, Blank a Chanowitz 1978). Falešný důvod přidává
 informaci, která je nepravdivá nebo s požadavkem nesouvisí, ale zní věrohodně: „musíte se
-rozhodnout hned, protože zítra to už nebude platit“, aniž by existovala jakákoli lhůta.
+rozhodnout hned, protože zítra to už nebude platit“, aniž by existovala jakákoli lhůta; takové umělé lhůty popisuje Cialdini jako využití vzácnosti (Cialdini 2009).
 Druhá a třetí podoba spoléhají na to, že posluchač kontroluje tvar sdělení, ne jeho obsah.
 
 Mechanismus vysvětlují teorie dvojího zpracování. Model pravděpodobnosti elaborace

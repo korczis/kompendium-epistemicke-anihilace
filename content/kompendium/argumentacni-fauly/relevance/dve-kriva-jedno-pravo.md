@@ -112,7 +112,6 @@ které s K1 nemají nic společného. [Pragma-dialektika](@/kompendium/argumenta
 nevhodného argumentačního schématu: k obhajobě stanoviska „mé jednání bylo přípustné“ se
 nepoužívá argument o povaze jednání, ale argument o jednání někoho jiného (van Eemeren a
 Grootendorst 2004).
-
 Klam má několik podob. Odvetná podoba ospravedlňuje K2 jako odpověď na K1, i když K2 není
 přiměřenou ani nezbytnou obranou. Preventivní podoba ospravedlňuje K2 tím, že by se B mohl
 K1 dopustit v budoucnu. Kolektivní podoba ospravedlňuje jednání skupiny tím, že jiná skupina

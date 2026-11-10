@@ -44,9 +44,9 @@ catalog_prev = "obvinovatel"
 catalog_next = "rozptylovac"
 catalog_position = 8
 catalog_family_size = 20
-catalog_sources = ["bandler-grinder-1975", "grinder-bandler-1976", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "rogers-1951", "satir-1972", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975", "grinder-bandler-1976", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "oconnor-seymour-1990", "rogers-1951", "satir-1972", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "oconnor-seymour-1990"]
-catalog_sources_roots = ["satir-1972"]
+catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["kahneman-2011", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
@@ -90,7 +90,7 @@ NLP převzalo postoj s celou typologií Satirové (Grinder a Bandler 1976) a spo
 
 Superrozumný postoj má rozpoznatelnou podobu ve slovech, hlase a těle. Ve slovech převažují neosobní konstrukce, trpný rod a podstatná jména místo sloves: „bylo rozhodnuto“, „došlo k optimalizaci“, „vznikla situace“. Kdo rozhodl, kdo optimalizoval a koho se to dotklo, zůstává skryto. [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) NLP takové konstrukce popisuje jako nominalizace a vypouštění, které ze sdělení odstraňují aktéry a děje (Bandler a Grinder 1975). Dále se objevují obecná pravidla místo osobních postojů („tak se to dělá“), odborné výrazy tam, kde by stačilo běžné slovo, a odkazy na logiku, racionalitu nebo objektivitu, které mají ukončit diskusi. V hlase převažuje vyrovnanost bez výkyvů, ve které chybí odezva na citové projevy druhé strany. V těle se postoj projevuje strnulostí, omezenou gestikulací a nehybnou mimikou.
 
-Systémově postoj funguje jako bariéra. Kdo mluví superrozumně, nedává najevo, co cítí, a tím nedává druhé straně nic, na co by mohla odpovědět. City, které druhá strana vyjádří, se pak jeví jako nepatřičné, protože se vymykají rámci, který mluvčí nastavil. Rozhovor se tak posouvá do roviny, ve které má převahu ten, kdo lépe ovládá abstraktní jazyk. Kompendium podobné vyřazování z rozhovoru prostřednictvím slovníku popisuje u [terminologické mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) a jeho měřitelnou stopu u [hustoty žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md).
+Systémově postoj funguje jako bariéra. Kdo mluví superrozumně, nedává najevo, co cítí, a tím nedává druhé straně nic, na co by mohla odpovědět. City, které druhá strana vyjádří, se pak jeví jako nepatřičné, protože se vymykají rámci, který mluvčí nastavil. V pojmech teorie komunikace mluvčí odpovídá jen na obsahovou rovinu sdělení a vztahovou rovinu, na které druhá strana dává najevo, jak situaci prožívá, nechává bez odpovědi (Watzlawick, Beavin a Jackson 1967). Rozhovor se tak posouvá do roviny, ve které má převahu ten, kdo lépe ovládá abstraktní jazyk. Kompendium podobné vyřazování z rozhovoru prostřednictvím slovníku popisuje u [terminologické mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) a jeho měřitelnou stopu u [hustoty žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md).
 
 ## Detekční znaky
 
@@ -102,7 +102,7 @@ Věcnost je v mnoha profesích nezbytná. Lékař, soudce, krizový pracovník n
 
 Manipulativní užití se pozná podle toho, k čemu věcnost slouží. Pokud slouží k umlčení, k tomu, aby city druhé strany nebyly brány jako legitimní informace o dopadu rozhodnutí, jde o nátlak. Pokud slouží k zakrytí odpovědnosti, kdy neosobní jazyk skrývá, kdo co rozhodl, jde o vyhýbání se odpovědnosti. A pokud se vědomě volí jako role, která má mluvčímu dodat autoritu a druhému vzít odvahu nesouhlasit, jde o strategické užití postoje. Kahneman připomíná, že pocit, že úsudek je racionální, ještě neznamená, že racionální skutečně je (Kahneman 2011). Rozum, který odmítá vzít v úvahu důležité informace, včetně citů lidí, kterých se rozhodnutí týká, je méně racionální, ne více.
 
-Superrozumný jazyk se neomezuje na jednotlivce. Instituce jej používají v oznámeních o propouštění, v odpovědích na stížnosti nebo ve zprávách o pochybeních, kde neosobní formulace a odborné výrazy rozmělní, kdo co rozhodl a koho se to dotklo. Takový jazyk může být výsledkem zvyku a právní opatrnosti, ale jeho účinek na adresáta je podobný jako u jednotlivce: dopad na člověka se v něm neobjeví, a proto se o něm nedá jednat.
+Superrozumný jazyk se neomezuje na jednotlivce. Instituce jej používají v oznámeních o propouštění, v odpovědích na stížnosti nebo ve zprávách o pochybeních, kde neosobní formulace a odborné výrazy rozmělní, kdo co rozhodl a koho se to dotklo; jde o tytéž nominalizace a vypouštění aktérů, které popisuje meta-model (Bandler a Grinder 1975). Takový jazyk může být výsledkem zvyku a právní opatrnosti, ale jeho účinek na adresáta je podobný jako u jednotlivce: dopad na člověka se v něm neobjeví, a proto se o něm nedá jednat.
 
 ## Stav důkazů
 
@@ -110,7 +110,7 @@ Superrozumný postoj je klinickým popisem Satirové, ne výsledkem systematick�
 
 ## Obrana a zotavení
 
-Obranou proti superrozumnému nátlaku je trvat na tom, že city jsou legitimní informace. Pokud někdo prohlásí vaše emoce za irelevantní, je možné klidně odpovědět, že popisují dopad rozhodnutí, o kterém se mluví, a že rozhodnutí, které dopad nebere v úvahu, není úplné. Druhou obranou je vracet do řeči aktéry: kdo přesně rozhodl, kdo za to odpovídá, koho se to týká. Neosobní konstrukce lze klidně přeložit do osobní podoby. Třetí obranou je žádat vysvětlení v běžném jazyce. Kdo věci skutečně rozumí, dokáže ji vysvětlit bez žargonu; kdo to nedokáže nebo nechce, používá žargon k jinému účelu.
+Obranou proti superrozumnému nátlaku je trvat na tom, že city jsou legitimní informace. Pokud někdo prohlásí vaše emoce za irelevantní, je možné klidně odpovědět, že popisují dopad rozhodnutí, o kterém se mluví, a že rozhodnutí, které dopad nebere v úvahu, není úplné. Druhou obranou je vracet do řeči aktéry: kdo přesně rozhodl, kdo za to odpovídá, koho se to týká (Bandler a Grinder 1975). Neosobní konstrukce lze klidně přeložit do osobní podoby. Třetí obranou je žádat vysvětlení v běžném jazyce. Kdo věci skutečně rozumí, dokáže ji vysvětlit bez žargonu; kdo to nedokáže nebo nechce, používá žargon k jinému účelu.
 
 Pro člověka, který u sebe superrozumný postoj rozpozná, je cestou k vyrovnanější komunikaci znovu připustit vlastní prožitek a naučit se ho vyjádřit, aniž by to ohrozilo jeho schopnost uvažovat. V terapii se k tomu často přistupuje pozvolna, protože postoj dlouho chránil před zranitelností, kterou člověk nechtěl nebo nemohl ukázat (Rogers 1951). Pro člověka, který byl dlouho vystaven prostředí, kde se city druhých prohlašovaly za nepatřičné, bývá součástí zotavení znovu se naučit své city brát vážně a nepovažovat je za doklad vlastní iracionality. Cílem je [vyrovnaná komunikace](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md), ve které má místo rozum i cit.
 
@@ -127,6 +127,7 @@ Pro člověka, který u sebe superrozumný postoj rozpozná, je cestou k vyrovna
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

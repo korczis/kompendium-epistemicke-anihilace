@@ -84,11 +84,12 @@ pravidlem extenze a ukázali, že intuitivní úsudek ho porušuje soustavně, j
 podmínka udělá popis věrohodnějším, ucelenějším nebo lépe odpovídajícím představě o tom, jak
 věci obvykle chodí (Tversky a Kahneman 1983).
 
-V argumentaci se klam objevuje všude tam, kde se pravděpodobnost posuzuje podle kvality
-příběhu. Podrobný scénář s motivem, prostředkem a návazností kroků působí přesvědčivěji než
-[holé tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md), a přitom je každým přidaným detailem méně pravděpodobný. Klam je proto
-zvláštním nebezpečím pro vyšetřování, předpovědi, krizové plánování i veřejné spory o to,
-co se „doopravdy stalo“.
+V argumentaci se klam objevuje všude tam, kde se pravděpodobnost posuzuje podle kvality příběhu.
+Podrobný scénář s motivem, prostředkem a návazností kroků působí přesvědčivěji než
+[holé tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md), a přitom je
+každým přidaným detailem méně pravděpodobný (Tversky a Kahneman 1983). Klam je proto zvláštním
+nebezpečím pro vyšetřování, předpovědi, krizové plánování i veřejné spory o to, co se „doopravdy
+stalo“.
 
 ## Původ a souvislosti
 
@@ -113,13 +114,14 @@ podrobněji rozebírá v pasáži o [dvou systémech myšlení](@/kompendium/tec
 ## Struktura argumentu
 
 Klamavý argument má dvě podoby. V první, srovnávací podobě se tvrdí, že scénář A a B je
-pravděpodobnější než samotné A, obvykle proto, že B dodává A vysvětlení. Úvaha „je
-nepravděpodobné, že by to byla náhoda; spíš to někdo naplánoval a zakryl“ srovnává jedno
-holé tvrzení s podrobnějším příběhem, který ho obsahuje, a podrobnějšímu příběhu dává
-přednost. Ve druhé, řetězové podobě se tvrdí, že sled kroků A, potom B, potom C je
-pravděpodobný, protože každý z kroků sám o sobě je věrohodný. Pravděpodobnost celého
-řetězu je přitom při nezávislosti kroků součinem jejich pravděpodobností a s každým
-článkem klesá, i když každý článek působí přijatelně.
+pravděpodobnější než samotné A, obvykle proto, že B dodává A vysvětlení (Tversky a Kahneman 1983).
+Úvaha „je nepravděpodobné, že by to byla náhoda; spíš to někdo naplánoval a zakryl“ srovnává jedno
+holé tvrzení s podrobnějším příběhem, který ho obsahuje, a podrobnějšímu příběhu dává přednost. Ve
+druhé, řetězové podobě se tvrdí, že sled kroků A, potom B, potom C je pravděpodobný, protože každý z
+kroků sám o sobě je věrohodný. Pravděpodobnost celého řetězu je přitom při nezávislosti kroků
+součinem jejich pravděpodobností a s každým článkem klesá, i když každý článek působí přijatelně.
+Výzkum heuristik ukázal, že pravděpodobnost takových řetězových událostí lidé soustavně přeceňují
+(Tversky a Kahneman 1974).
 
 Řetězová podoba je strukturálně příbuzná argumentu kluzkého svahu, který také skládá řadu
 dílčích přechodů v jeden závěr. Hahn a Oaksford ukazují, že takové argumenty nejsou samy o
@@ -148,12 +150,14 @@ porozumět (Kahneman 2011).
 ## Odlišení od platné argumentace
 
 Klamem není každá úvaha, v níž podrobnější hypotéza vítězí. Pokud přidaný detail vysvětluje
-pozorovaná data lépe, může být podrobnější hypotéza po zvážení důkazů lépe podložená než
-jednodušší alternativa, se kterou se srovnává; srovnání se však pak netýká A proti A a B,
-ale dvou různých vysvětlení téhož pozorování. Také je legitimní říci, že scénář A a B
-stojí za pozornost kvůli svým důsledkům, i když je méně pravděpodobný než samotné A:
-krizové plánování se zabývá i málo pravděpodobnými, ale závažnými řetězy událostí.
-Rozhodující je, aby se závažnost nezaměňovala za pravděpodobnost.
+pozorovaná data lépe, může být podrobnější hypotéza po zvážení důkazů lépe podložená než jednodušší
+alternativa, se kterou se srovnává; srovnání se však pak netýká A proti A a B, ale dvou různých
+vysvětlení téhož pozorování. V bayesovském pojetí argumentace o síle takového srovnání rozhoduje,
+jak pravděpodobná jsou pozorovaná data při každé z hypotéz a jak pravděpodobné jsou hypotézy předem
+(Hahn a Oaksford 2007). Také je legitimní říci, že scénář A a B stojí za pozornost kvůli svým
+důsledkům, i když je méně pravděpodobný než samotné A: krizové plánování se zabývá i málo
+pravděpodobnými, ale závažnými řetězy událostí. Rozhodující je, aby se závažnost nezaměňovala za
+pravděpodobnost.
 
 Odlišení komplikuje i řeč. Kritici upozornili, že v běžném rozhovoru se slovo
 „pravděpodobný“ nepoužívá vždy v matematickém smyslu a že nabídka dvou možností, z nichž

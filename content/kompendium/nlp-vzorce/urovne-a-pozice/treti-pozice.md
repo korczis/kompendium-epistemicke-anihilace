@@ -127,7 +127,8 @@ zaměňuje: kdo je součástí konfliktu, prohlásí svůj pohled za „nezaujat
 druhého za zaujatý. Druhé zneužití se týká odstupu samotného. Od člověka, kterému bylo
 ublíženo, se požaduje, aby se na věc díval „s nadhledem“, „bez emocí“ nebo „jako na film“, a
 jeho citová reakce se pokládá za důkaz zkreslení. Tím se z odstupu stává podmínka, bez níž
-není jeho stížnost slyšena. Kompendium příbuzný mechanismus popisuje v technice
+není jeho stížnost slyšena. Literatura o traumatu popisuje, jak snadno se svědectví poškozeného
+zpochybní a jak okolí na něj tlačí, aby to, co se stalo, nechal za sebou (Herman 1992). Kompendium příbuzný mechanismus popisuje v technice
 [internalizace falešné vyváženosti](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md),
 kde se nadhled mění v povinnost dávat oběma stranám stejnou váhu bez ohledu na fakta. Krajní
 podobu, kdy se odstup od vlastního těla a prožitku stává trvalým, rozebírá technika

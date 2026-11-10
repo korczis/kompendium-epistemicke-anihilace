@@ -34,8 +34,10 @@ Rodina Rétorické a dialogické taktiky shromažďuje fauly, u kterých chyba n
 úsudku, ale v tom, jak se v rozhovoru zachází s druhou stranou, s důkazním břemenem a s
 publikem. [Formální klam](@/kompendium/argumentacni-fauly/formalni/formalni-klam.md) lze ukázat na jediném sylogismu a klam relevance na jediném
 odstavci. Taktiky této rodiny se zpravidla ukážou až na sledu tahů: na tom, co mluvčí udělá s
-odpovědí, kterou dostal, kolik prostoru nechá oponentovi a jak se změní jeho stanovisko, když
-přijde námitka. Proto jsou to také fauly, které se nejhůře zachycují v citátu a nejsnáze se
+odpovědí, kterou dostal, kolik prostoru nechá oponentovi a jak se změní jeho stanovisko, když přijde
+námitka. Pragmatická teorie klamu proto posuzuje každý tah v souvislosti s tahy, které mu v dialogu
+předcházejí a následují (Walton 1995). Proto jsou to také fauly, které se nejhůře zachycují v citátu
+a nejsnáze se
 popírají. Kdo je použije, může téměř vždy tvrdit, že se jen ptal, jen opakoval, jen upozornil
 nebo jen vyjádřil starost.
 
@@ -43,8 +45,10 @@ Pro přehled lze rodinu rozdělit do čtyř okruhů. První okruh tvoří taktik
 vyčerpání, které využívají nepoměru mezi cenou tvrzení a cenou jeho prověření: [Gish
 gallop](@/glossary/gish-gallop.md), [sealioning](@/glossary/sealioning.md), [argument
 opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md) a na
-úrovni celých kampaní [palba
-nepravd](@/kompendium/argumentacni-fauly/dialekticke-taktiky/palba-nepravd.md). Druhý okruh
+úrovni celých kampaní
+[palba nepravd](@/kompendium/argumentacni-fauly/dialekticke-taktiky/palba-nepravd.md). Model palby
+nepravd popisuje právě tento nepoměr: velký objem rychle a opakovaně šířených sdělení, u nichž se
+nedbá na pravdivost ani na soudržnost (Paul a Matthews 2016). Druhý okruh
 tvoří taktiky vyhýbání se závazku, kdy mluvčí sdělí víc, než je ochoten obhájit:
 [motte-and-bailey](@/glossary/motte-and-bailey.md), [„jen se
 ptám“](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md), [předstíraná
@@ -86,7 +90,9 @@ svobody](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md)
 Druhý důvod je praktický. Čtenáři kompendia se s těmito taktikami setkávají v prostředích, kde
 na rozhovoru něco závisí: v soudní síni, ve vyšetřování, v terapeutické místnosti, v
 recenzním řízení, ve veřejné debatě o zdraví. Tam nestačí poznat, že úsudek je chybný; je
-třeba poznat, že rozhovor byl převeden na jinou kolej, a vědět, jak ho vrátit zpět.
+třeba poznat, že rozhovor byl převeden na jinou kolej, a vědět, jak ho vrátit zpět. Walton takový
+posun popisuje jako nepřípustný přechod od jednoho typu dialogu k jinému, například od kritické
+diskuse k hádce nebo k vyjednávání (Walton 1995).
 
 ## Původ
 
@@ -118,8 +124,10 @@ odlišení od legitimní argumentace a odpověď. Příklady v trenéru rozpozn�
 dvojice: výrok, ve kterém taktika působí, a výrok, který se jí podobá, ale je legitimní. Tento
 kontrast je podstatou defenzivního čtení. Téměř každá taktika této rodiny má poctivé dvojče:
 kontrolní dotaz je dvojčetem otázky „jen se ptám“, upozornění na střet zájmů dvojčetem
-bulverismu, připomenutí nevyřízené námitky dvojčetem argumentu opakováním, zúžení teze po
-kritice dvojčetem ústupu do tvrze. Kdo pozná jen taktiku, ale ne její dvojče, začne podezírat
+bulverismu, připomenutí nevyřízené námitky dvojčetem argumentu opakováním, zúžení teze po kritice
+dvojčetem ústupu do tvrze. Odpovídá to pragmatické teorii klamu, podle níž je tentýž typ tahu v
+jednom užití rozumný a v jiném klamný (Walton 1995). Kdo pozná jen taktiku, ale ne její dvojče,
+začne podezírat
 každou otázku a každou opakovanou námitku, a tím sám poškodí rozhovor.
 
 Druhou zásadou je posuzovat strukturu, nikoli úmysl. U většiny taktik nelze z jediného výroku

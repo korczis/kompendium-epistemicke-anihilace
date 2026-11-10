@@ -44,10 +44,10 @@ catalog_prev = "lichotka"
 catalog_next = "chronologicky-snobismus"
 catalog_position = 24
 catalog_family_size = 28
-catalog_sources = ["bentham-1824", "cialdini-2009", "govier-2010", "hamblin-1970", "kahneman-2011", "petty-cacioppo-1986", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
+catalog_sources = ["bentham-1824", "cialdini-2009", "govier-2010", "hamblin-1970", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["govier-2010", "hamblin-1970", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["bentham-1824"]
-catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "petty-cacioppo-1986"]
+catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -119,7 +119,8 @@ podnikání se vydává za odbornost v ekonomické teorii, medicíně nebo polit
 
 Existuje i negativní varianta obou podob, která se blíží útoku na osobu. Tvrzení se odmítá,
 protože ho vyslovuje bohatý člověk, který „nemůže vědět, jak žijí obyčejní lidé“, nebo
-chudý člověk, který „nic nedokázal“. Tato varianta se uplatňuje i v institucionálním
+chudý člověk, který „nic nedokázal“. Tvrzení se tak odmítá kvůli vlastnosti mluvčího, a ne
+kvůli jeho obsahu, což je stavba útoku na osobu (Walton 2008). Tato varianta se uplatňuje i v institucionálním
 prostředí, kde se hlas lidí bez prostředků systematicky podceňuje. Kompendium tento jev
 spojuje s pojmem epistemické nespravedlnosti, jak ho rozpracovala Miranda Fricker: snížená
 důvěryhodnost svědectví, která vychází z předsudku vůči sociální skupině mluvčího, viz
@@ -130,7 +131,8 @@ důvěryhodnost svědectví, která vychází z předsudku vůči sociální sku
 V kontextu epistemické anihilace má odvolání na majetek dvě typické funkce. První funkcí je
 budování nedotknutelné autority. Vůdčí osobnost skupiny, kouč nebo „mentor“ prezentuje svůj
 majetek jako hmatatelný důkaz, že jeho učení funguje, a pochybnosti členů se vykládají jako
-projev jejich vlastního neúspěchu. Majetek tak plní roli, kterou by jinak musely plnit
+projev jejich vlastního neúspěchu, podobně jako v uzavřených skupinách, kde se rozpor mezi
+zkušeností člena a učením vykládá jako selhání člena (Lifton 1961). Majetek tak plní roli, kterou by jinak musely plnit
 ověřitelné výsledky, a kritika se mění v otázku osobního selhání kritika. Druhou funkcí je
 umlčování. Hlas člověka bez prostředků, vzdělání nebo postavení se odmítá dřív, než je
 vyslechnut, a jeho svědectví se v institucích nezaznamenává nebo se mu nevěří. Tato funkce
@@ -206,6 +208,7 @@ Grootendorst 2004).
 - Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth.
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.

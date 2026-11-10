@@ -114,7 +114,9 @@ tato struktura skrývá za čísly: průměr bez rozptylu, procento bez základu
 kontrolní skupiny nebo graf bez nepříznivé části časové řady (Huff 1954).
 
 Od příbuzného výběru třešniček se zamlčení liší důrazem. Výběr třešniček popisuje aktivní vyhledávání příznivých příkladů,
-zamlčení popisuje vynechání nepříznivých. V praxi jde často o dvě strany téže operace. Od
+zamlčení popisuje vynechání nepříznivých. V praxi jde často o dvě strany téže operace. Výzkum
+konfirmačního zkreslení popisuje obě strany jako projevy téhož sklonu: vyhledávání příznivých údajů
+a přehlížení nebo přísnější posuzování nepříznivých (Nickerson 1998). Od
 [argumentu z neuvěřitelnosti](@/kompendium/argumentacni-fauly/predpoklady-argumentu/argument-z-neuveritelnosti.md)
 se liší tím, že nepřipouští mezeru v poznání, ale zakrývá poznání, které existuje. Na úrovni
 celých informačních prostředí odpovídá zamlčení technice, kterou kompendium popisuje jako
@@ -175,7 +177,9 @@ a kompendium ho bez konkrétního zdroje neuvádí.
 V prostředích, kde jedna strana kontroluje přístup k informacím, se zamlčení důkazů mění z
 jednotlivého klamu v systém. Instituce, která rozhoduje, co se publikuje, kdo je citován a
 které výsledky se zmíní ve zprávě, může dosáhnout stejného účinku jako výslovná nepravda,
-aniž by kdo řekl nepravdivou větu. Kompendium tyto vzorce popisuje u
+aniž by kdo řekl nepravdivou větu. Mechanismus je stejný jako u jednotlivé výpovědi: posluchač
+předpokládá, že mluvčí sdělil tolik informací, kolik účel rozhovoru vyžaduje, a z mlčení proto
+vyvozuje, že nic podstatného nechybí (Grice 1975). Kompendium tyto vzorce popisuje u
 [potlačování citací](@/kompendium/techniques/ea-2-1-5-citation-suppression.md) a v oddíle o
 [forenzním a právním rozměru](@/kompendium/forensic-legal/_index.md), kde je úplnost
 důkazního materiálu podmínkou spravedlivého řízení.

@@ -131,7 +131,7 @@ nepožadoval a jen popisoval.
 Prvním znakem je opakování. Stejné sloveso s doplněním se vrací v několika větách s
 různými obaly, například v úvaze o tom, co dělají jiní lidé, v otázce a v popisu budoucnosti.
 Druhým znakem je nesoulad prozodie a obsahu: mluvčí v neutrální větě zpomalí, ztiší nebo
-zdůrazní úsek, který podle smyslu věty důraz nepotřebuje, což popisuje i heslo kompendia o
+zdůrazní úsek, který podle smyslu věty důraz nepotřebuje (Bandler a Grinder 1975b), což popisuje i heslo kompendia o
 [prozodické dominanci](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md). Třetím
 znakem je, že vložený úsek mívá podobu přímého oslovení posluchače uvnitř věty, která se
 formálně týká někoho jiného. Čtvrtým znakem je obsah: vložené úseky se v manipulativním

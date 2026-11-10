@@ -114,7 +114,9 @@ přibližně takto: tvoje otázka patří do kategorie K; o věcech kategorie K 
 uvažovat; tedy o tvé otázce není třeba dál uvažovat. První premisa se nikdy nedokládá,
 protože kategorie je definována tak široce, že do ní spadne jakákoli námitka, například
 „projevy ega“, „negativita“ nebo „vliv nepřítele“. Druhá premisa je součástí doktríny nebo
-lidové moudrosti a zpochybnit ji znamená vystoupit z rámce rozhovoru. Proto je klišé
+lidové moudrosti a zpochybnit ji znamená vystoupit z rámce rozhovoru. Lifton u takových frází
+popsal, že nejsložitější lidské otázky stlačují do krátkých, definitivně znějících a snadno
+zapamatovatelných formulí (Lifton 1961). Proto je klišé
 z logického hlediska blízké [nabitému
 jazyku](@/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md), do jehož širší
 skupiny v katalogu patří, a [kafkovské

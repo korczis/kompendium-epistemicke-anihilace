@@ -44,10 +44,10 @@ catalog_prev = "filmova-technika"
 catalog_next = "submodality-v-reklame"
 catalog_position = 18
 catalog_family_size = 20
-catalog_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "herman-1992", "james-woodsmall-1988", "lakoff-johnson-1980", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources = ["andreas-andreas-1987", "bandler-1985", "cialdini-2009", "herman-1992", "james-woodsmall-1988", "lakoff-johnson-1980", "loftus-palmer-1974", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsmall-1988"]
 catalog_sources_roots = []
-catalog_sources_critical = ["cialdini-2009", "herman-1992", "lakoff-johnson-1980", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
+catalog_sources_critical = ["cialdini-2009", "herman-1992", "lakoff-johnson-1980", "loftus-palmer-1974", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -134,7 +134,9 @@ ale o umístění významů.
 Komunikační užití vzorce v přesvědčování lze rozpoznat podle soustavné vazby mezi gesty a
 hodnocením. Mluvčí ukazuje stále na stejná místa: dosavadní život posluchače, kritické hlasy
 nebo konkurenční možnosti umisťuje dolů, dozadu nebo stranou, nabídku, skupinu nebo sebe nahoru
-a dopředu. Slova sledují stejné schéma: minulost je „malá a temná“, budoucnost „velká a jasná“.
+a dopředu. Schéma využívá orientační metafory běžného jazyka, v nichž dobré a žádoucí leží
+nahoře (Lakoff a Johnson 1980). Slova sledují stejné schéma: minulost je „malá a temná“,
+budoucnost „velká a jasná“.
 Varovným znakem je, že prostorový kontrast nahrazuje věcné srovnání. Posluchač má „vidět, kam
 patří“, místo aby porovnal fakta. Ve skupinovém prostředí může být prostorové schéma posíleno i
 uspořádáním místnosti, kde nováčci, vedení a „starý svět“ mají svá místa.
@@ -151,7 +153,9 @@ opatrnost.
 ## Legitimní a manipulativní užití
 
 Legitimní užití vychází z pozorování spontánního prostorového kódování klienta. Poradce, který
-si všimne, že klient při řeči o budoucnosti ukazuje před sebe a minulost má za zády, může tento
+si všimne, že klient při řeči o budoucnosti ukazuje před sebe a minulost má za zády, jak
+spontánní prostorové kódování času popisuje i literatura o časové ose (James a Woodsmall 1988),
+může tento
 způsob mluvení pojmenovat a využít k rozhovoru o klientových cílech, aniž by mu cokoli vnucoval.
 V terapii může být užitečné, když klient sám zjistí, že určitou zátěžovou vzpomínku má „pořád
 před očima“, a sám si přeje, aby ji mohl vnímat jako minulou. Takové užití respektuje jeho
@@ -187,8 +191,9 @@ Obranou proti komunikačnímu užití je převádět prostorové obrazy zpět na
 ukazuje, že dosavadní život je „dole a vzadu“ a jeho nabídka „nahoře a vpředu“, je užitečné se
 zeptat, co to znamená konkrétně: kolik se vydělá, za jakých podmínek, co říkají lidé, kteří
 odešli, a jaké jsou alternativy. Pomáhá i prosté uvědomění, že gesto není argument. Kdo si
-všimne, že na něj mluvčí soustavně působí prostorovým schématem, získává odstup, který mu umožní
-nabídku posoudit věcně.
+všimne, že na něj mluvčí soustavně působí prostorovým schématem, získává odstup, který mu
+umožní nabídku posoudit věcně, tedy podle kvality argumentů, a ne podle periferních podnětů
+(Petty a Cacioppo 1986).
 
 U vnitřní podoby vzorce je obranou nechat si kontrolu nad vlastními vzpomínkami a přesvědčeními.
 Pokud někdo navrhuje „přesunout“ vzpomínku nebo přesvědčení, je rozumné se nejdřív zeptat, zda je
@@ -206,6 +211,7 @@ využít jako jazyk rozhovoru, ale neměl by ho měnit bez výslovné dohody a b
 - James, T., & Woodsmall, W. (1988). *Time Line Therapy and the Basis of Personality*. Cupertino: Meta Publications.
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press.
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
+- Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.

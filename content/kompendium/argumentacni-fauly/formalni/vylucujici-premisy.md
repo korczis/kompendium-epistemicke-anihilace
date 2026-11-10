@@ -88,7 +88,9 @@ je-li jedna z premis záporná, musí být záporný i závěr.
 
 Formálně jde o jeden z nejprůhlednějších klamů. Prakticky se však objevuje v podobě, která
 na sylogismus nevypadá: jako řetěz vyloučení, kde každé vyloučení samo o sobě platí, a
-dohromady se z nich skládá závěr, který z nich neplyne.
+dohromady se z nich skládá závěr, který z nich neplyne. Učebnice logiky proto učí převádět
+argumenty běžné řeči do standardní podoby sylogismu a řetězy úsudků rozkládat na jednotlivé
+sylogismy, v nichž je vadný krok vidět (Copi, Cohen a McMahon 2014).
 
 ## Původ a souvislosti
 
@@ -114,7 +116,8 @@ nebylo“, a závěr z nich se vyvodí v rámci vyprávění, které chybějíc�
 Úplná podoba klamu zní: žádný M není P; žádný S není M; tedy žádný S není P. Protipříklad
 stejné stavby je snadný. Žádná kočka není pes; žádný jezevčík není kočka; tedy žádný
 jezevčík není pes. Obě premisy jsou pravdivé, závěr nepravdivý, a úsudek je proto neplatný,
-ať už se dosadí jakékoli termíny. Stejně neplatné jsou kombinace s částečnou zápornou premisou („někteří M
+ať už se dosadí jakékoli termíny; takové vyvrácení logickou analogií je běžnou učebnicovou
+metodou (Copi, Cohen a McMahon 2014). Stejně neplatné jsou kombinace s částečnou zápornou premisou („někteří M
 nejsou P; žádný S není M“), protože žádná z nich nepřisuzuje střední termín žádné z
 krajních tříd.
 
@@ -126,7 +129,6 @@ by platný úsudek. Rozdíl je nenápadný a právě proto je důležitý. [Prag
 argument posuzovala podle pravidla platnosti a hledala by nevyslovenou premisu, kterou by
 mluvčí musel přidat, aby úsudek platil (van Eemeren a Grootendorst 1992). Tady by to byla
 premisa typu „kdo nebyl v kanceláři, nebyl ani na místě činu“, a ta je zjevně nepravdivá.
-
 Klam se podobá vadě, kterou kniha popisuje jako
 [logickou diskontinuitu](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md): každý
 krok řetězu působí v izolaci správně, ale spojení mezi kroky chybí. Vylučující premisy jsou
@@ -145,7 +147,8 @@ rekonstruovaly dřív, než se argument přijme nebo odmítne (van Eemeren a Gro
 
 Klam se objevuje i v posuzování příslušnosti ke skupině. „Nikdo z našeho týmu nepracuje pro
 konkurenci; nikdo, kdo pracuje pro konkurenci, neměl přístup k dokumentu; nikdo z týmu tedy
-k dokumentu přístup neměl.“ Oba výroky mohou být pravdivé a závěr přesto nepravdivý. Ve
+k dokumentu přístup neměl.“ Oba výroky mohou být pravdivé a závěr přesto nepravdivý, protože
+ze dvou záporných premis podle pravidel sylogismu žádný závěr neplyne (Copi, Cohen a McMahon 2014). Ve
 vyšetřování to vede k předčasnému vyloučení skupiny osob, která měla být prověřena. Na
 opačné straně je podobná chyba, kdy z nedostatku zjištění vyplývá závěr o nevině nebo vině;
 tu katalog popisuje jako
@@ -154,7 +157,8 @@ tu katalog popisuje jako
 ## Odlišení od platné argumentace
 
 Platný sylogismus se zápornou premisou má vždy jednu premisu kladnou: „pachatel byl ve
-skladu; obžalovaný ve skladu nebyl; obžalovaný tedy pachatelem není“. Kladná premisa
+skladu; obžalovaný ve skladu nebyl; obžalovaný tedy pachatelem není“, což odpovídá pravidlu,
+podle něhož je-li jedna premisa záporná, musí být záporný i závěr (Copi, Cohen a McMahon 2014). Kladná premisa
 přisuzuje střední termín jedné krajní třídě a záporná ho druhé upírá, takže mezi nimi
 vznikne oddělení. Platné jsou také úsudky, kde se dvě záporná zjištění doplní třetím,
 kladným, například údajem o úplnosti výčtu: „pachatel mohl být jen v kanceláři nebo ve

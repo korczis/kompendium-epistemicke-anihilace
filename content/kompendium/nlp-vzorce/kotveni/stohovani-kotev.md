@@ -167,6 +167,8 @@ popisuje u [vzorce guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-
 němž se pocit vlastní hodnoty postupně přesouvá do vztahu k autoritě. Na velkých seminářích
 se vrstvení obvykle kombinuje s řetězením stavů a s časovým tlakem, takže nejsilnější
 nahromaděný pocit připadne na chvíli, kdy se nabízí další, dražší program.
+Singer a Lalich popisují, že velké skupinové tréninky silné emoční zážitky navozené skupinovou
+dynamikou využívají k získání účastníků pro další, dražší programy (Singer a Lalich 1995).
 
 ## Stav důkazů
 

@@ -116,7 +116,9 @@ Strukturálně má vzorec tři prvky: stav, jehož intenzita se může měnit, p
 předpoklad, že mezi nimi platí přímá úměra. Podle popisu v literatuře NLP se stav spojí s
 dotekem ve chvíli, kdy postupně sílí, a dotek se přitom posouvá nebo zesiluje souběžně s ním,
 takže každému bodu škály má odpovídat určitá intenzita prožitku. Opačný pohyb má stav
-oslabovat. Vzorec bývá spojen s [kalibrací](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md),
+oslabovat. Předpoklad úměry vzorec přebírá z práce se submodalitami, podle níž lze
+intenzitu prožitku plynule měnit podobně jako jas obrazu nebo hlasitost zvuku (Bandler 1985).
+Vzorec bývá spojen s [kalibrací](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md),
 tedy se sledováním drobných tělesných změn, podle nichž praktik usuzuje, jak silný stav u
 člověka právě je.
 
@@ -174,7 +176,8 @@ používá jako nástroj přibližování. V takové podobě vzorec slouží k p
 tělesných hranic pod záminkou techniky a k vytváření dojmu, že pocit důvěry nebo
 přitažlivosti vychází z člověka samotného. Zvlášť rizikové je užití v nerovném vztahu, kde
 odmítnutí doteku vyžaduje odvahu, například mezi lektorem a účastníkem kurzu nebo mezi
-samozvaným terapeutem a klientem. Příbuzné využívání tělesných signálů k vnucení cizího
+samozvaným terapeutem a klientem. Herman připomíná, že pomáhající vztah nese nerovnováhu
+moci, kterou pomáhající nesmí obrátit ve vlastní prospěch (Herman 1992). Příbuzné využívání tělesných signálů k vnucení cizího
 významu kompendium rozebírá v hesle
 [afektivně-tonální redukce](@/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md).
 

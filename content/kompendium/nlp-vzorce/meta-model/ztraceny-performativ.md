@@ -117,7 +117,7 @@ prohlašuje za chybnou (Lifton 1961).
 
 Strukturálně má ztracený performativ tři složky. První složkou je hodnotící výraz: „špatné“,
 „správné“, „sobecké“, „zralé“, „normální“. Druhou složkou je neosobní forma, která skrývá
-původce: „je“, „platí“, „se ví“, „správný člověk“. Třetí složkou je chybějící měřítko:
+původce: „je“, „platí“, „se ví“, „správný člověk“ (Bandler a Grinder 1975). Třetí složkou je chybějící měřítko:
 není řečeno, podle čeho je něco špatné nebo správné, takže se soud nedá prověřit ani v
 rámci hodnot, ke kterým se hlásí. Ztracený performativ se často pojí s
 [nespecifikovaným referenčním indexem](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md)

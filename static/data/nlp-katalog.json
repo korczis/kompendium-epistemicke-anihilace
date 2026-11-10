@@ -4083,6 +4083,11 @@
   },
   {
    "from": "uptime-a-downtime",
+   "to": "kompendium/argumentacni-fauly/relevance/cerveny-sled.md",
+   "type": "prose"
+  },
+  {
+   "from": "uptime-a-downtime",
    "to": "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md",
    "type": "prose"
   },
@@ -7843,6 +7848,11 @@
   },
   {
    "from": "preruseni-vzorce",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md",
+   "type": "prose"
+  },
+  {
+   "from": "preruseni-vzorce",
    "to": "kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md",
    "type": "prose"
   },
@@ -9428,6 +9438,11 @@
   },
   {
    "from": "amnezie-sugesci",
+   "to": "kompendium/argumentacni-fauly/relevance/cerveny-sled.md",
+   "type": "prose"
+  },
+  {
+   "from": "amnezie-sugesci",
    "to": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
    "type": "prose"
   },
@@ -9889,6 +9904,11 @@
   {
    "from": "komentarova-adverbia",
    "to": "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md",
+   "type": "prose"
+  },
+  {
+   "from": "komentarova-adverbia",
+   "to": "kompendium/nlp-vzorce/meta-model/meta-model.md",
    "type": "prose"
   },
   {
@@ -11703,6 +11723,11 @@
   },
   {
    "from": "som-aplikace-na-sebe",
+   "to": "kompendium/argumentacni-fauly/relevance/ad-hominem.md",
+   "type": "prose"
+  },
+  {
+   "from": "som-aplikace-na-sebe",
    "to": "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md",
    "type": "prose"
   },
@@ -12628,6 +12653,11 @@
   },
   {
    "from": "vyzva-k-relevanci",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+   "type": "prose"
+  },
+  {
+   "from": "vyzva-k-relevanci",
    "to": "kompendium/nlp-vzorce/reframing/ramec-vysledku.md",
    "type": "prose"
   },
@@ -12680,6 +12710,16 @@
    "from": "otevreny-ramec",
    "to": "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
    "type": "kompendium"
+  },
+  {
+   "from": "otevreny-ramec",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
+  },
+  {
+   "from": "otevreny-ramec",
+   "to": "kompendium/08-prilohy/eticky-kodex.md",
+   "type": "prose"
   },
   {
    "from": "otevreny-ramec",
@@ -12940,6 +12980,11 @@
    "from": "deframing",
    "to": "kompendium/techniques/ea-6-3-2-externalizacni-faze.md",
    "type": "kompendium"
+  },
+  {
+   "from": "deframing",
+   "to": "kompendium/01-predmluva/eticke-aspekty.md",
+   "type": "prose"
   },
   {
    "from": "deframing",
@@ -15513,6 +15558,11 @@
   },
   {
    "from": "zmena-vnitrniho-hlasu",
+   "to": "glossary/thought-stopping.md",
+   "type": "prose"
+  },
+  {
+   "from": "zmena-vnitrniho-hlasu",
    "to": "kompendium/nlp-vzorce/submodality/auditivni-submodality.md",
    "type": "prose"
   },
@@ -16279,6 +16329,11 @@
   {
    "from": "alergicky-vzorec",
    "to": "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md",
+   "type": "prose"
+  },
+  {
+   "from": "alergicky-vzorec",
+   "to": "kompendium/08-prilohy/eticky-kodex.md",
    "type": "prose"
   },
   {
@@ -26123,6 +26178,11 @@
   },
   {
    "from": "lateralni-chunking",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md",
+   "type": "prose"
+  },
+  {
+   "from": "lateralni-chunking",
    "to": "kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md",
    "type": "prose"
   },
@@ -28988,6 +29048,11 @@
   },
   {
    "from": "nlp-jako-pseudoveda",
+   "to": "kompendium/argumentacni-fauly/relevance/ad-hominem.md",
+   "type": "prose"
+  },
+  {
+   "from": "nlp-jako-pseudoveda",
    "to": "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",
    "type": "prose"
   },
@@ -29842,7 +29907,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Význam komunikace je reakce, kterou vyvolá",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -29915,6 +29980,7 @@
     "cialdini-2009",
     "druckman-swets-1988",
     "grice-1975",
+    "herman-1992",
     "levinson-1983",
     "mcguire-1964",
     "miller-rollnick-2013",
@@ -29930,6 +29996,7 @@
    "sources_critical": [
     "cialdini-2009",
     "druckman-swets-1988",
+    "herman-1992",
     "mcguire-1964",
     "miller-rollnick-2013",
     "petty-cacioppo-1986",
@@ -29973,7 +30040,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1307
+   "words": 1336
   },
   {
    "aliases": [
@@ -29982,7 +30049,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 17,
    "cs": "Neexistuje selhání, jen zpětná vazba",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -30018,7 +30085,7 @@
    "position": 3,
    "prev": "vyznam-komunikace-je-reakce",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "nefalzifikovatelnost",
     "kdyz-to-nefunguje-udelej-neco-jineho",
@@ -30049,6 +30116,7 @@
    ],
    "slug": "neni-selhani-jen-zpetna-vazba",
    "sources": [
+    "arkes-blumer-1985",
     "bateson-1972",
     "beck-1976",
     "festinger-1957",
@@ -30062,6 +30130,7 @@
     "witkowski-2010"
    ],
    "sources_critical": [
+    "arkes-blumer-1985",
     "beck-1976",
     "festinger-1957",
     "gilovich-1991",
@@ -30101,7 +30170,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1249
+   "words": 1306
   },
   {
    "aliases": [
@@ -30110,7 +30179,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 18,
    "cs": "Každé chování má pozitivní záměr",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -30244,7 +30313,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1197
+   "words": 1226
   },
   {
    "aliases": [
@@ -30253,7 +30322,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 18,
    "cs": "Lidé mají zdroje, které potřebují",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -30290,7 +30359,7 @@
    "position": 5,
    "prev": "pozitivni-zamer-chovani",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "nejlepsi-dostupna-volba",
     "zdrojovy-stav",
@@ -30378,7 +30447,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1260
+   "words": 1323
   },
   {
    "aliases": [
@@ -30387,7 +30456,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 19,
    "cs": "Mysl a tělo tvoří jeden systém",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -30467,6 +30536,7 @@
     "ekman-2003",
     "gilovich-1991",
     "herman-1992",
+    "lilienfeld-2015",
     "oconnor-seymour-1990",
     "perls-1969",
     "sturt-2012",
@@ -30479,6 +30549,7 @@
     "ekman-2003",
     "gilovich-1991",
     "herman-1992",
+    "lilienfeld-2015",
     "sturt-2012",
     "vrij-2008",
     "wiseman-2012",
@@ -30516,7 +30587,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1230
+   "words": 1298
   },
   {
    "aliases": [
@@ -30526,7 +30597,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 12,
+   "citations": 17,
    "cs": "Nejpružnější prvek řídí systém",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -30565,7 +30636,7 @@
    "position": 7,
    "prev": "mysl-a-telo-jeden-system",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "kdyz-to-nefunguje-udelej-neco-jineho",
     "volba-je-lepsi-nez-zadna-volba",
@@ -30649,7 +30720,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1262
+   "words": 1342
   },
   {
    "aliases": [
@@ -30658,7 +30729,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 18,
    "cs": "Respekt k modelu světa druhého",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -30735,23 +30806,27 @@
     "cialdini-2009",
     "haley-1973",
     "hassan-1988",
+    "lifton-1961",
     "mcguire-1964",
     "miller-rollnick-2013",
     "passmore-rowson-2019",
     "rogers-1951",
     "satir-1972",
     "sharpley-1984",
+    "singer-lalich-1995",
     "tosey-mathison-2009"
    ],
    "sources_critical": [
     "chartrand-bargh-1999",
     "cialdini-2009",
     "hassan-1988",
+    "lifton-1961",
     "mcguire-1964",
     "miller-rollnick-2013",
     "passmore-rowson-2019",
     "rogers-1951",
     "sharpley-1984",
+    "singer-lalich-1995",
     "tosey-mathison-2009"
    ],
    "sources_primary": [
@@ -30791,7 +30866,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1214
+   "words": 1274
   },
   {
    "aliases": [
@@ -30800,7 +30875,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 20,
    "cs": "Člověk není své chování",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -30922,7 +30997,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1240
+   "words": 1266
   },
   {
    "aliases": [
@@ -30931,7 +31006,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 17,
    "cs": "Lidé volí nejlepší dostupnou volbu",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -31051,7 +31126,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1206
+   "words": 1250
   },
   {
    "aliases": [
@@ -31060,7 +31135,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 18,
    "cs": "Odpor jako znak chybějícího raportu",
    "data": "data/nlp/predpoklady.toml",
    "depth": 0,
@@ -31145,6 +31220,7 @@
     "oconnor-seymour-1990",
     "passmore-rowson-2019",
     "rogers-1951",
+    "watzlawick-1967",
     "witkowski-2010"
    ],
    "sources_critical": [
@@ -31164,7 +31240,8 @@
    ],
    "sources_roots": [
     "erickson-rossi-rossi-1976",
-    "haley-1973"
+    "haley-1973",
+    "watzlawick-1967"
    ],
    "trainer": [
     {
@@ -31189,7 +31266,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1177
+   "words": 1240
   },
   {
    "aliases": [
@@ -31198,7 +31275,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 20,
+   "citations": 21,
    "cs": "Když něco nefunguje, udělej něco jiného",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -31323,7 +31400,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1438
+   "words": 1449
   },
   {
    "aliases": [
@@ -31332,7 +31409,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 22,
+   "citations": 23,
    "cs": "Co dokáže jeden, lze se naučit",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -31417,6 +31494,7 @@
     "grinder-bostic-2001",
     "kahneman-2011",
     "lifton-1961",
+    "lilienfeld-2015",
     "miller-galanter-pribram-1960",
     "passmore-rowson-2019",
     "perls-1969",
@@ -31432,6 +31510,7 @@
     "gilovich-1991",
     "kahneman-2011",
     "lifton-1961",
+    "lilienfeld-2015",
     "passmore-rowson-2019",
     "roderique-davies-2009",
     "singer-lalich-1995",
@@ -31474,7 +31553,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1215
+   "words": 1235
   },
   {
    "aliases": [
@@ -31483,7 +31562,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Nelze nekomunikovat",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -31559,6 +31638,7 @@
     "grice-1975",
     "herman-1992",
     "oconnor-seymour-1990",
+    "stark-2007",
     "vrij-2008",
     "watzlawick-1967",
     "wiseman-2012"
@@ -31566,6 +31646,7 @@
    "sources_critical": [
     "ekman-2003",
     "herman-1992",
+    "stark-2007",
     "vrij-2008",
     "wiseman-2012"
    ],
@@ -31602,7 +31683,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1240
+   "words": 1258
   },
   {
    "aliases": [
@@ -31611,7 +31692,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Mít volbu je lepší než ji nemít",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -31735,7 +31816,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1200
+   "words": 1212
   },
   {
    "aliases": [
@@ -31744,7 +31825,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Zkušenost má strukturu",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -31817,12 +31898,14 @@
     "beck-1976",
     "chomsky-1965",
     "dilts-1980",
+    "ekman-2003",
     "ellis-1962",
     "gilovich-1991",
     "heap-1988",
     "herman-1992",
     "kahneman-2011",
     "lifton-1961",
+    "lilienfeld-2015",
     "miller-galanter-pribram-1960",
     "sharpley-1984",
     "sharpley-1987",
@@ -31830,12 +31913,14 @@
    ],
    "sources_critical": [
     "beck-1976",
+    "ekman-2003",
     "ellis-1962",
     "gilovich-1991",
     "heap-1988",
     "herman-1992",
     "kahneman-2011",
     "lifton-1961",
+    "lilienfeld-2015",
     "sharpley-1984",
     "sharpley-1987",
     "witkowski-2010"
@@ -31872,7 +31957,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1238
+   "words": 1267
   },
   {
    "aliases": [
@@ -31883,7 +31968,7 @@
    ],
    "broader": "zkusenost-ma-strukturu",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Zkušenost je kódována smysly",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 1,
@@ -32005,7 +32090,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1181
+   "words": 1190
   },
   {
    "aliases": [
@@ -32014,7 +32099,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 19,
+   "citations": 22,
    "cs": "Komunikace probíhá vědomě i nevědomě",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -32143,7 +32228,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1203
+   "words": 1219
   },
   {
    "aliases": [
@@ -32153,7 +32238,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Změna má respektovat celek systému",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -32273,7 +32358,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/ekologie-zmeny/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1164
+   "words": 1167
   },
   {
    "aliases": [
@@ -32282,7 +32367,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Předpoklady jako pracovní hypotézy",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -32410,7 +32495,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1183
+   "words": 1196
   },
   {
    "aliases": [
@@ -32419,7 +32504,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 19,
    "cs": "Za výsledek komunikace odpovídá komunikátor",
    "data": "data/nlp/predpoklady.b.toml",
    "depth": 0,
@@ -32537,7 +32622,7 @@
    "url": "kompendium/nlp-vzorce/predpoklady/odpovednost-za-komunikaci/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1159
+   "words": 1192
   },
   {
    "aliases": [
@@ -32548,7 +32633,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 22,
+   "citations": 24,
    "cs": "Reprezentační systémy",
    "data": "data/nlp/zakladni-pojmy.toml",
    "depth": 0,
@@ -32601,7 +32686,7 @@
    "position": 1,
    "prev": "",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "zkusenost-je-kodovana-smysly",
     "preferovany-reprezentacni-system",
@@ -32701,7 +32786,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1295
+   "words": 1311
   },
   {
    "aliases": [
@@ -32713,7 +32798,7 @@
    ],
    "broader": "reprezentacni-systemy",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Vizuální reprezentační systém",
    "data": "data/nlp/zakladni-pojmy.toml",
    "depth": 1,
@@ -32794,6 +32879,7 @@
     "heap-1988",
     "herman-1992",
     "lakoff-johnson-1980",
+    "roderique-davies-2009",
     "sharpley-1984",
     "singer-lalich-1995",
     "tversky-kahneman-1974",
@@ -32806,6 +32892,7 @@
     "heap-1988",
     "herman-1992",
     "lakoff-johnson-1980",
+    "roderique-davies-2009",
     "sharpley-1984",
     "singer-lalich-1995",
     "tversky-kahneman-1974",
@@ -32843,7 +32930,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1237
+   "words": 1239
   },
   {
    "aliases": [
@@ -32856,7 +32943,7 @@
    ],
    "broader": "reprezentacni-systemy",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Auditivní reprezentační systém",
    "data": "data/nlp/zakladni-pojmy.toml",
    "depth": 1,
@@ -32938,6 +33025,7 @@
     "erickson-rossi-rossi-1976",
     "heap-1988",
     "herman-1992",
+    "petty-cacioppo-1986",
     "rogers-1951",
     "sharpley-1984",
     "vrij-2008",
@@ -32948,6 +33036,7 @@
     "cialdini-2009",
     "heap-1988",
     "herman-1992",
+    "petty-cacioppo-1986",
     "rogers-1951",
     "sharpley-1984",
     "vrij-2008",
@@ -32985,7 +33074,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1215
+   "words": 1240
   },
   {
    "aliases": [
@@ -32998,7 +33087,7 @@
    ],
    "broader": "reprezentacni-systemy",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Kinestetický reprezentační systém",
    "data": "data/nlp/zakladni-pojmy.toml",
    "depth": 1,
@@ -33078,6 +33167,7 @@
     "bandler-grinder-1979",
     "beck-1976",
     "dilts-1980",
+    "hassan-1988",
     "heap-1988",
     "herman-1992",
     "lifton-1961",
@@ -33092,6 +33182,7 @@
    ],
    "sources_critical": [
     "beck-1976",
+    "hassan-1988",
     "heap-1988",
     "herman-1992",
     "lifton-1961",
@@ -33134,7 +33225,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1231
+   "words": 1235
   },
   {
    "aliases": [
@@ -33147,7 +33238,7 @@
    ],
    "broader": "reprezentacni-systemy",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Čichový a chuťový systém",
    "data": "data/nlp/zakladni-pojmy.toml",
    "depth": 1,
@@ -33268,7 +33359,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1249
+   "words": 1252
   },
   {
    "aliases": [
@@ -33281,7 +33372,7 @@
    ],
    "broader": "reprezentacni-systemy",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Auditivně digitální systém",
    "data": "data/nlp/zakladni-pojmy.toml",
    "depth": 1,
@@ -33406,7 +33497,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1204
+   "words": 1206
   },
   {
    "aliases": [
@@ -33691,7 +33782,7 @@
    ],
    "broader": "reprezentacni-systemy",
    "canonical": "",
-   "citations": 19,
+   "citations": 21,
    "cs": "Predikáty",
    "data": "data/nlp/zakladni-pojmy.toml",
    "depth": 1,
@@ -33822,7 +33913,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/predikaty/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1226
+   "words": 1230
   },
   {
    "aliases": [
@@ -34111,7 +34202,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Submodality",
    "data": "data/nlp/zakladni-pojmy.b.toml",
    "depth": 0,
@@ -34259,7 +34350,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1336
+   "words": 1340
   },
   {
    "aliases": [
@@ -34269,7 +34360,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Kalibrace",
    "data": "data/nlp/zakladni-pojmy.b.toml",
    "depth": 0,
@@ -34423,7 +34514,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/kalibrace/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1260
+   "words": 1264
   },
   {
    "aliases": [
@@ -35330,7 +35421,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Logické úrovně",
    "data": "data/nlp/zakladni-pojmy.b.toml",
    "depth": 0,
@@ -35465,7 +35556,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1268
+   "words": 1271
   },
   {
    "aliases": [
@@ -35475,7 +35566,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Percepční pozice",
    "data": "data/nlp/zakladni-pojmy.b.toml",
    "depth": 0,
@@ -35614,7 +35705,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1275
+   "words": 1278
   },
   {
    "aliases": [
@@ -36005,7 +36096,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Kongruence",
    "data": "data/nlp/zakladni-pojmy.c.toml",
    "depth": 0,
@@ -36090,6 +36181,7 @@
     "cialdini-2009",
     "ekman-2003",
     "grinder-bandler-1976",
+    "oconnor-seymour-1990",
     "rogers-1951",
     "satir-1972",
     "vrij-2008",
@@ -36104,7 +36196,8 @@
     "witkowski-2010"
    ],
    "sources_primary": [
-    "grinder-bandler-1976"
+    "grinder-bandler-1976",
+    "oconnor-seymour-1990"
    ],
    "sources_roots": [
     "satir-1972",
@@ -36133,7 +36226,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/kongruence/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1243
+   "words": 1247
   },
   {
    "aliases": [
@@ -36281,7 +36374,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Ekologická kontrola",
    "data": "data/nlp/zakladni-pojmy.c.toml",
    "depth": 0,
@@ -36410,7 +36503,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1279
+   "words": 1282
   },
   {
    "aliases": [
@@ -36420,7 +36513,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Rámec",
    "data": "data/nlp/zakladni-pojmy.c.toml",
    "depth": 0,
@@ -36476,7 +36569,7 @@
    "position": 28,
    "prev": "ekologicka-kontrola",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "reframing",
     "ramec-jako-by",
@@ -36520,6 +36613,7 @@
     "mcguire-1964",
     "tosey-mathison-2009",
     "tversky-kahneman-1981",
+    "watzlawick-1967",
     "watzlawick-1974",
     "witkowski-2010",
     "van-der-linden-2023"
@@ -36541,6 +36635,7 @@
    "sources_roots": [
     "bateson-1972",
     "levinson-1983",
+    "watzlawick-1967",
     "watzlawick-1974"
    ],
    "trainer": [
@@ -36566,7 +36661,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1279
+   "words": 1303
   },
   {
    "aliases": [
@@ -36712,7 +36807,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 17,
    "cs": "Časová osa",
    "data": "data/nlp/zakladni-pojmy.c.toml",
    "depth": 0,
@@ -36798,6 +36893,7 @@
    "slug": "casova-osa-pojem",
    "sources": [
     "andreas-andreas-1987",
+    "hassan-1988",
     "herman-1992",
     "james-woodsmall-1988",
     "kirsch-lynn-1995",
@@ -36809,6 +36905,7 @@
     "witkowski-2010"
    ],
    "sources_critical": [
+    "hassan-1988",
     "herman-1992",
     "kirsch-lynn-1995",
     "lakoff-johnson-1980",
@@ -36846,7 +36943,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1279
+   "words": 1283
   },
   {
    "aliases": [
@@ -37698,7 +37795,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Modelování",
    "data": "data/nlp/zakladni-pojmy.d.toml",
    "depth": 0,
@@ -37827,7 +37924,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1251
+   "words": 1284
   },
   {
    "aliases": [
@@ -37970,7 +38067,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Uptime a downtime",
    "data": "data/nlp/zakladni-pojmy.d.toml",
    "depth": 0,
@@ -37994,6 +38091,7 @@
     "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md"
    ],
    "links_prose": [
+    "kompendium/argumentacni-fauly/relevance/cerveny-sled.md",
     "kompendium/nlp-vzorce/meta-model/cteni-myslenek.md",
     "kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md",
@@ -38009,7 +38107,7 @@
    "position": 39,
    "prev": "vnitrni-dialog",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "kalibrace",
     "smyslova-ostrost",
@@ -38044,6 +38142,7 @@
    "sources": [
     "cialdini-2009",
     "dilts-delozier-2000",
+    "grinder-bandler-1981",
     "heap-1988",
     "herman-1992",
     "kahneman-2011",
@@ -38065,6 +38164,7 @@
    ],
    "sources_primary": [
     "dilts-delozier-2000",
+    "grinder-bandler-1981",
     "oconnor-seymour-1990"
    ],
    "sources_roots": [],
@@ -38091,7 +38191,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1287
+   "words": 1304
   },
   {
    "aliases": [
@@ -38244,7 +38344,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 16,
    "cs": "Transderivační hledání",
    "data": "data/nlp/zakladni-pojmy.d.toml",
    "depth": 0,
@@ -38368,7 +38468,7 @@
    "url": "kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1239
+   "words": 1260
   },
   {
    "aliases": [
@@ -38724,7 +38824,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Nominalizace",
    "data": "data/nlp/meta-model.toml",
    "depth": 1,
@@ -38858,7 +38958,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/nominalizace/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1234
+   "words": 1237
   },
   {
    "aliases": [
@@ -39293,7 +39393,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Srovnávací vypuštění",
    "data": "data/nlp/meta-model.toml",
    "depth": 1,
@@ -39377,6 +39477,7 @@
     "mcguire-1964",
     "oconnor-seymour-1990",
     "passmore-rowson-2019",
+    "popper-1959",
     "sharpley-1987",
     "tversky-kahneman-1974",
     "tversky-kahneman-1981",
@@ -39400,7 +39501,8 @@
     "oconnor-seymour-1990"
    ],
    "sources_roots": [
-    "grice-1975"
+    "grice-1975",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -39425,7 +39527,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/srovnavaci-delece/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1235
+   "words": 1249
   },
   {
    "aliases": [
@@ -39436,7 +39538,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Ztracený performativ",
    "data": "data/nlp/meta-model.toml",
    "depth": 1,
@@ -39569,7 +39671,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/ztraceny-performativ/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1238
+   "words": 1241
   },
   {
    "aliases": [
@@ -39581,7 +39683,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 20,
+   "citations": 21,
    "cs": "Univerzální kvantifikátor",
    "data": "data/nlp/meta-model.toml",
    "depth": 1,
@@ -39718,7 +39820,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1208
+   "words": 1217
   },
   {
    "aliases": [
@@ -39729,7 +39831,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 20,
+   "citations": 21,
    "cs": "Modální operátor nutnosti",
    "data": "data/nlp/meta-model.toml",
    "depth": 1,
@@ -39855,7 +39957,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1219
+   "words": 1220
   },
   {
    "aliases": [
@@ -40007,7 +40109,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Čtení myšlenek",
    "data": "data/nlp/meta-model.b.toml",
    "depth": 1,
@@ -40137,7 +40239,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/cteni-myslenek/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1261
+   "words": 1264
   },
   {
    "aliases": [
@@ -40149,7 +40251,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Příčina a následek",
    "data": "data/nlp/meta-model.b.toml",
    "depth": 1,
@@ -40280,7 +40382,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1236
+   "words": 1251
   },
   {
    "aliases": [
@@ -40292,7 +40394,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 20,
+   "citations": 21,
    "cs": "Komplexní ekvivalence",
    "data": "data/nlp/meta-model.b.toml",
    "depth": 1,
@@ -40432,7 +40534,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1277
+   "words": 1293
   },
   {
    "aliases": [
@@ -40444,7 +40546,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 21,
    "cs": "Presupozice v meta-modelu",
    "data": "data/nlp/meta-model.b.toml",
    "depth": 1,
@@ -40568,7 +40670,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1248
+   "words": 1274
   },
   {
    "aliases": [
@@ -40580,7 +40682,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 14,
+   "citations": 16,
    "cs": "Pořadí otázek meta-modelu",
    "data": "data/nlp/meta-model.b.toml",
    "depth": 1,
@@ -40707,7 +40809,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/hierarchie-otazek-meta-modelu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1246
+   "words": 1273
   },
   {
    "aliases": [
@@ -40719,7 +40821,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Meta-model jako výslechový nástroj",
    "data": "data/nlp/meta-model.b.toml",
    "depth": 1,
@@ -40803,6 +40905,7 @@
     "sharpley-1987",
     "tosey-mathison-2009",
     "vrij-2008",
+    "walton-1995",
     "wiseman-2012",
     "witkowski-2010"
    ],
@@ -40819,7 +40922,8 @@
    ],
    "sources_primary": [
     "bandler-grinder-1975",
-    "oconnor-seymour-1990"
+    "oconnor-seymour-1990",
+    "walton-1995"
    ],
    "sources_roots": [],
    "trainer": [
@@ -40845,7 +40949,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1234
+   "words": 1257
   },
   {
    "aliases": [
@@ -40857,7 +40961,7 @@
    ],
    "broader": "meta-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Porušení selekčních omezení",
    "data": "data/nlp/meta-model.b.toml",
    "depth": 1,
@@ -40934,6 +41038,7 @@
     "herman-1992",
     "kirsch-lynn-1995",
     "lakoff-johnson-1980",
+    "lifton-1961",
     "passmore-rowson-2019",
     "tosey-mathison-2009",
     "witkowski-2010"
@@ -40943,6 +41048,7 @@
     "herman-1992",
     "kirsch-lynn-1995",
     "lakoff-johnson-1980",
+    "lifton-1961",
     "passmore-rowson-2019",
     "tosey-mathison-2009",
     "witkowski-2010"
@@ -40977,7 +41083,7 @@
    "url": "kompendium/nlp-vzorce/meta-model/poruseni-selekcnich-omezeni-meta/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1214
+   "words": 1235
   },
   {
    "aliases": [
@@ -40987,7 +41093,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 25,
+   "citations": 26,
    "cs": "Milton-model",
    "data": "data/nlp/milton-model.toml",
    "depth": 0,
@@ -41175,7 +41281,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/milton-model/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1271
+   "words": 1282
   },
   {
    "aliases": [
@@ -41187,7 +41293,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Vložené příkazy",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -41325,7 +41431,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/vlozene-prikazy/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1173
+   "words": 1177
   },
   {
    "aliases": [
@@ -41336,7 +41442,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 15,
+   "citations": 17,
    "cs": "Vložené otázky",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -41457,7 +41563,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/vlozene-otazky/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1182
+   "words": 1190
   },
   {
    "aliases": [
@@ -41469,7 +41575,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Analogové značení",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -41545,6 +41651,7 @@
     "bateson-1972",
     "bateson-1956",
     "chartrand-bargh-1999",
+    "copi-cohen-mcmahon-2014",
     "ekman-2003",
     "grinder-delozier-bandler-1977",
     "herman-1992",
@@ -41566,6 +41673,7 @@
    "sources_primary": [
     "bandler-grinder-1975b",
     "bandler-grinder-1979",
+    "copi-cohen-mcmahon-2014",
     "grinder-delozier-bandler-1977"
    ],
    "sources_roots": [
@@ -41596,7 +41704,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/analogove-znaceni/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1192
+   "words": 1212
   },
   {
    "aliases": [
@@ -41607,7 +41715,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 21,
    "cs": "Konverzační postuláty",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -41687,6 +41795,7 @@
     "mcguire-1964",
     "stark-2007",
     "tversky-kahneman-1974",
+    "watzlawick-1967",
     "witkowski-2010"
    ],
    "sources_critical": [
@@ -41707,7 +41816,8 @@
    "sources_roots": [
     "erickson-rossi-rossi-1976",
     "grice-1975",
-    "levinson-1983"
+    "levinson-1983",
+    "watzlawick-1967"
    ],
    "trainer": [
     {
@@ -41732,7 +41842,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/konverzacni-postulaty/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1219
+   "words": 1254
   },
   {
    "aliases": [
@@ -41744,7 +41854,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Připojené otázky",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -41864,7 +41974,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/pripojene-otazky/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1174
+   "words": 1191
   },
   {
    "aliases": [
@@ -41876,7 +41986,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Truismy",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -42004,7 +42114,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/truismy/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1216
+   "words": 1231
   },
   {
    "aliases": [
@@ -42016,7 +42126,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Řada souhlasů",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -42150,7 +42260,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/ano-sada/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1231
+   "words": 1235
   },
   {
    "aliases": [
@@ -42162,7 +42272,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Citace",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -42234,6 +42344,7 @@
    ],
    "slug": "citace",
    "sources": [
+    "bandler-grinder-1975",
     "bandler-grinder-1975b",
     "cialdini-2009",
     "grinder-delozier-bandler-1977",
@@ -42261,6 +42372,7 @@
     "witkowski-2010"
    ],
    "sources_primary": [
+    "bandler-grinder-1975",
     "bandler-grinder-1975b",
     "grinder-delozier-bandler-1977"
    ],
@@ -42292,7 +42404,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/citace/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1193
+   "words": 1212
   },
   {
    "aliases": [
@@ -42303,7 +42415,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Porušení selekčních omezení v Milton-modelu",
    "data": "data/nlp/milton-model.toml",
    "depth": 1,
@@ -42426,7 +42538,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1157
+   "words": 1161
   },
   {
    "aliases": [
@@ -42583,7 +42695,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 20,
    "cs": "Syntaktická dvojznačnost",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -42654,6 +42766,7 @@
     "bandler-grinder-1975",
     "bandler-grinder-1975b",
     "chomsky-1965",
+    "copi-cohen-mcmahon-2014",
     "druckman-swets-1988",
     "erickson-rossi-rossi-1976",
     "grice-1975",
@@ -42679,6 +42792,7 @@
    "sources_primary": [
     "bandler-grinder-1975",
     "bandler-grinder-1975b",
+    "copi-cohen-mcmahon-2014",
     "grinder-bandler-1981",
     "oconnor-seymour-1990"
    ],
@@ -42711,7 +42825,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1261
+   "words": 1286
   },
   {
    "aliases": [
@@ -42722,7 +42836,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 15,
+   "citations": 20,
    "cs": "Rozsahová dvojznačnost",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -42794,10 +42908,12 @@
    "sources": [
     "bandler-grinder-1975b",
     "chomsky-1965",
+    "copi-cohen-mcmahon-2014",
     "erickson-rossi-rossi-1976",
     "grice-1975",
     "grinder-bandler-1981",
     "heap-1988",
+    "herman-1992",
     "levinson-1983",
     "loftus-palmer-1974",
     "mcguire-1964",
@@ -42807,6 +42923,7 @@
    ],
    "sources_critical": [
     "heap-1988",
+    "herman-1992",
     "loftus-palmer-1974",
     "mcguire-1964",
     "petty-cacioppo-1986",
@@ -42815,6 +42932,7 @@
    ],
    "sources_primary": [
     "bandler-grinder-1975b",
+    "copi-cohen-mcmahon-2014",
     "grinder-bandler-1981"
    ],
    "sources_roots": [
@@ -42846,7 +42964,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1226
+   "words": 1271
   },
   {
    "aliases": [
@@ -42859,7 +42977,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Interpunkční dvojznačnost",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -42989,7 +43107,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1226
+   "words": 1244
   },
   {
    "aliases": [
@@ -43001,7 +43119,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 21,
+   "citations": 22,
    "cs": "Úmyslná vágnost",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -43151,7 +43269,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/umyslna-vagnost/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1242
+   "words": 1246
   },
   {
    "aliases": [
@@ -43162,7 +43280,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Čtení myšlenek v Milton-modelu",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -43200,7 +43318,7 @@
    "position": 16,
    "prev": "umyslna-vagnost",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "cteni-myslenek",
     "umyslna-vagnost",
@@ -43293,7 +43411,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1289
+   "words": 1304
   },
   {
    "aliases": [
@@ -43304,7 +43422,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Ztracený performativ v Milton-modelu",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -43389,6 +43507,7 @@
     "lifton-1961",
     "oconnor-seymour-1990",
     "tosey-mathison-2009",
+    "walton-2008",
     "witkowski-2010"
    ],
    "sources_critical": [
@@ -43405,7 +43524,8 @@
    "sources_primary": [
     "bandler-grinder-1975",
     "bandler-grinder-1975b",
-    "oconnor-seymour-1990"
+    "oconnor-seymour-1990",
+    "walton-2008"
    ],
    "sources_roots": [
     "erickson-rossi-rossi-1976",
@@ -43434,7 +43554,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/ztraceny-performativ-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1172
+   "words": 1203
   },
   {
    "aliases": [
@@ -43447,7 +43567,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Spojky a implikovaná příčinnost",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -43523,6 +43643,7 @@
    "sources": [
     "bandler-grinder-1975",
     "bandler-grinder-1975b",
+    "copi-cohen-mcmahon-2014",
     "erickson-rossi-rossi-1976",
     "grice-1975",
     "herman-1992",
@@ -43547,7 +43668,8 @@
    ],
    "sources_primary": [
     "bandler-grinder-1975",
-    "bandler-grinder-1975b"
+    "bandler-grinder-1975b",
+    "copi-cohen-mcmahon-2014"
    ],
    "sources_roots": [
     "erickson-rossi-rossi-1976",
@@ -43577,7 +43699,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1185
+   "words": 1203
   },
   {
    "aliases": [
@@ -43588,7 +43710,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Komplexní ekvivalence v Milton-modelu",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -43670,6 +43792,7 @@
     "mcguire-1964",
     "oconnor-seymour-1990",
     "passmore-rowson-2019",
+    "popper-1959",
     "rogers-1951",
     "stark-2007",
     "vrij-2008",
@@ -43697,7 +43820,8 @@
     "oconnor-seymour-1990"
    ],
    "sources_roots": [
-    "erickson-rossi-1979"
+    "erickson-rossi-1979",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -43722,7 +43846,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1231
+   "words": 1243
   },
   {
    "aliases": [
@@ -43734,7 +43858,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 20,
+   "citations": 22,
    "cs": "Univerzální kvantifikátory v Milton-modelu",
    "data": "data/nlp/milton-model.b.toml",
    "depth": 1,
@@ -43817,6 +43941,7 @@
     "levinson-1983",
     "mcguire-1964",
     "oconnor-seymour-1990",
+    "popper-1959",
     "sharpley-1987",
     "sturt-2012",
     "tversky-kahneman-1974",
@@ -43841,7 +43966,8 @@
    ],
    "sources_roots": [
     "erickson-rossi-rossi-1976",
-    "levinson-1983"
+    "levinson-1983",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -43866,7 +43992,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1177
+   "words": 1187
   },
   {
    "aliases": [
@@ -43878,7 +44004,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 21,
    "cs": "Modální operátory v Milton-modelu",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -44001,7 +44127,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/modalni-operatory-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1209
+   "words": 1226
   },
   {
    "aliases": [
@@ -44012,7 +44138,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 19,
+   "citations": 21,
    "cs": "Nominalizace v Milton-modelu",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -44134,7 +44260,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/nominalizace-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1165
+   "words": 1171
   },
   {
    "aliases": [
@@ -44145,7 +44271,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Nespecifikovaná slovesa v Milton-modelu",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -44217,7 +44343,9 @@
     "erickson-rossi-rossi-1976",
     "grice-1975",
     "kirsch-lynn-1995",
+    "lifton-1961",
     "miller-rollnick-2013",
+    "popper-1959",
     "rogers-1951",
     "sharpley-1987",
     "singer-lalich-1995",
@@ -44227,6 +44355,7 @@
     "beck-1976",
     "druckman-swets-1988",
     "kirsch-lynn-1995",
+    "lifton-1961",
     "miller-rollnick-2013",
     "rogers-1951",
     "sharpley-1987",
@@ -44239,7 +44368,8 @@
    ],
    "sources_roots": [
     "erickson-rossi-rossi-1976",
-    "grice-1975"
+    "grice-1975",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -44264,7 +44394,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/nespecifikovana-slovesa-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1174
+   "words": 1197
   },
   {
    "aliases": [
@@ -44276,7 +44406,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Nespecifikovaný referenční index v Milton-modelu",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -44391,7 +44521,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1191
+   "words": 1195
   },
   {
    "aliases": [
@@ -44403,7 +44533,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Iluze volby",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -44534,7 +44664,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/iluze-volby/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1235
+   "words": 1258
   },
   {
    "aliases": [
@@ -44546,7 +44676,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 12,
+   "citations": 15,
    "cs": "Záporné příkazy",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -44615,6 +44745,7 @@
    "slug": "negativni-prikazy",
    "sources": [
     "bandler-grinder-1975b",
+    "damer-2009",
     "erickson-rossi-1979",
     "heap-1988",
     "herman-1992",
@@ -44631,7 +44762,8 @@
     "witkowski-2010"
    ],
    "sources_primary": [
-    "bandler-grinder-1975b"
+    "bandler-grinder-1975b",
+    "damer-2009"
    ],
    "sources_roots": [
     "erickson-rossi-1979",
@@ -44660,7 +44792,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/negativni-prikazy/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1223
+   "words": 1249
   },
   {
    "aliases": [
@@ -44672,7 +44804,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 20,
    "cs": "Pacing aktuální zkušenosti",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -44806,7 +44938,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1165
+   "words": 1173
   },
   {
    "aliases": [
@@ -44818,7 +44950,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Řetězení sugescí",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -44889,6 +45021,7 @@
    ],
    "slug": "retezeni-sugesci",
    "sources": [
+    "arkes-blumer-1985",
     "bandler-grinder-1975b",
     "cialdini-2009",
     "erickson-rossi-rossi-1976",
@@ -44903,6 +45036,7 @@
     "wolpe-1958"
    ],
    "sources_critical": [
+    "arkes-blumer-1985",
     "cialdini-2009",
     "freedman-fraser-1966",
     "herman-1992",
@@ -44943,7 +45077,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/retezeni-sugesci/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1160
+   "words": 1186
   },
   {
    "aliases": [
@@ -44954,7 +45088,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 18,
+   "citations": 21,
    "cs": "Srovnávací vypuštění v Milton-modelu",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -45069,7 +45203,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/srovnavaci-delece-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1237
+   "words": 1281
   },
   {
    "aliases": [
@@ -45080,7 +45214,7 @@
    ],
    "broader": "milton-model",
    "canonical": "",
-   "citations": 14,
+   "citations": 17,
    "cs": "Presupozice v Milton-modelu",
    "data": "data/nlp/milton-model.c.toml",
    "depth": 1,
@@ -45163,6 +45297,7 @@
    "sources": [
     "bandler-grinder-1975",
     "bandler-grinder-1975b",
+    "copi-cohen-mcmahon-2014",
     "grice-1975",
     "herman-1992",
     "levinson-1983",
@@ -45178,7 +45313,8 @@
    ],
    "sources_primary": [
     "bandler-grinder-1975",
-    "bandler-grinder-1975b"
+    "bandler-grinder-1975b",
+    "copi-cohen-mcmahon-2014"
    ],
    "sources_roots": [
     "grice-1975",
@@ -45207,7 +45343,7 @@
    "url": "kompendium/nlp-vzorce/milton-model/presupozice-milton/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1225
+   "words": 1249
   },
   {
    "aliases": [
@@ -45526,7 +45662,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Konfuzní technika",
    "data": "data/nlp/ericksonovska-hypnoza.toml",
    "depth": 1,
@@ -45661,7 +45797,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1192
+   "words": 1228
   },
   {
    "aliases": [
@@ -45673,7 +45809,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Přerušení vzorce",
    "data": "data/nlp/ericksonovska-hypnoza.toml",
    "depth": 1,
@@ -45698,6 +45834,7 @@
     "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md"
    ],
    "links_prose": [
+    "kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md",
@@ -45759,7 +45896,8 @@
     "rogers-1951",
     "singer-lalich-1995",
     "sturt-2012",
-    "watzlawick-1974"
+    "watzlawick-1974",
+    "eemeren-grootendorst-2004"
    ],
    "sources_critical": [
     "beck-1976",
@@ -45773,7 +45911,8 @@
     "sturt-2012"
    ],
    "sources_primary": [
-    "grinder-bandler-1981"
+    "grinder-bandler-1981",
+    "eemeren-grootendorst-2004"
    ],
    "sources_roots": [
     "erickson-rossi-rossi-1976",
@@ -45803,7 +45942,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1205
+   "words": 1231
   },
   {
    "aliases": [
@@ -45816,7 +45955,7 @@
    ],
    "broader": "preruseni-vzorce",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Indukce podáním ruky",
    "data": "data/nlp/ericksonovska-hypnoza.toml",
    "depth": 2,
@@ -45934,7 +46073,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1178
+   "words": 1196
   },
   {
    "aliases": [
@@ -45946,7 +46085,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 11,
+   "citations": 14,
    "cs": "Levitace ruky",
    "data": "data/nlp/ericksonovska-hypnoza.toml",
    "depth": 1,
@@ -46055,7 +46194,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1209
+   "words": 1220
   },
   {
    "aliases": [
@@ -46067,7 +46206,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Vnořené smyčky",
    "data": "data/nlp/ericksonovska-hypnoza.toml",
    "depth": 1,
@@ -46138,6 +46277,7 @@
    ],
    "slug": "vnorene-smycky",
    "sources": [
+    "bandler-grinder-1975b",
     "gordon-1978",
     "lakoff-johnson-1980",
     "mcguire-1964",
@@ -46159,6 +46299,7 @@
     "witkowski-2010"
    ],
    "sources_primary": [
+    "bandler-grinder-1975b",
     "gordon-1978"
    ],
    "sources_roots": [
@@ -46188,7 +46329,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1213
+   "words": 1262
   },
   {
    "aliases": [
@@ -46201,7 +46342,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Zasévání myšlenky",
    "data": "data/nlp/ericksonovska-hypnoza.toml",
    "depth": 1,
@@ -46321,7 +46462,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1193
+   "words": 1215
   },
   {
    "aliases": [
@@ -46333,7 +46474,7 @@
    ],
    "broader": "paradoxni-intervence",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Předepsání symptomu",
    "data": "data/nlp/ericksonovska-hypnoza.toml",
    "depth": 1,
@@ -46444,7 +46585,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1170
+   "words": 1178
   },
   {
    "aliases": [
@@ -47851,7 +47992,7 @@
    ],
    "broader": "slozena-sugesce",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Apozice protikladů",
    "data": "data/nlp/ericksonovska-hypnoza.c.toml",
    "depth": 2,
@@ -47970,7 +48111,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1164
+   "words": 1171
   },
   {
    "aliases": [
@@ -47981,7 +48122,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Složená sugesce",
    "data": "data/nlp/ericksonovska-hypnoza.c.toml",
    "depth": 1,
@@ -48105,7 +48246,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1254
+   "words": 1291
   },
   {
    "aliases": [
@@ -48116,7 +48257,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Implikované direktivum",
    "data": "data/nlp/ericksonovska-hypnoza.c.toml",
    "depth": 1,
@@ -48233,7 +48374,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1208
+   "words": 1218
   },
   {
    "aliases": [
@@ -48244,7 +48385,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 20,
+   "citations": 22,
    "cs": "Otevřená sugesce",
    "data": "data/nlp/ericksonovska-hypnoza.c.toml",
    "depth": 1,
@@ -48363,7 +48504,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/otevrena-sugesce/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1237
+   "words": 1259
   },
   {
    "aliases": [
@@ -48374,7 +48515,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Sugesce pokrývající všechny možnosti",
    "data": "data/nlp/ericksonovska-hypnoza.c.toml",
    "depth": 1,
@@ -48494,7 +48635,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1162
+   "words": 1174
   },
   {
    "aliases": [
@@ -48506,7 +48647,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 13,
+   "citations": 15,
    "cs": "Ideomotorická signalizace",
    "data": "data/nlp/ericksonovska-hypnoza.c.toml",
    "depth": 1,
@@ -48629,7 +48770,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1241
+   "words": 1260
   },
   {
    "aliases": [
@@ -48764,7 +48905,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 20,
+   "citations": 21,
    "cs": "Indukce přetížením",
    "data": "data/nlp/ericksonovska-hypnoza.c.toml",
    "depth": 1,
@@ -48888,7 +49029,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1225
+   "words": 1243
   },
   {
    "aliases": [
@@ -48901,7 +49042,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Navozená amnézie",
    "data": "data/nlp/ericksonovska-hypnoza.c.toml",
    "depth": 1,
@@ -48931,6 +49072,7 @@
     "glossary/dissociativni-amnezie.md",
     "glossary/informed-consent.md",
     "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+    "kompendium/argumentacni-fauly/relevance/cerveny-sled.md",
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md"
@@ -49025,7 +49167,7 @@
    "url": "kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1211
+   "words": 1226
   },
   {
    "aliases": [
@@ -49202,7 +49344,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Existenční presupozice",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -49326,7 +49468,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/existencni-presupozice/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1272
+   "words": 1285
   },
   {
    "aliases": [
@@ -49338,7 +49480,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 17,
+   "citations": 20,
    "cs": "Presupozice časových vět",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -49376,7 +49518,7 @@
    "position": 3,
    "prev": "existencni-presupozice",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "presupozice-milton",
     "implikovane-direktivum",
@@ -49455,7 +49597,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1290
+   "words": 1309
   },
   {
    "aliases": [
@@ -49467,7 +49609,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 20,
+   "citations": 22,
    "cs": "Pořadové číslovky",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -49589,7 +49731,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/poradove-cislovky/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1269
+   "words": 1276
   },
   {
    "aliases": [
@@ -49601,7 +49743,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 15,
+   "citations": 18,
    "cs": "Presupozice spojky „nebo“",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -49724,7 +49866,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/presupozice-nebo/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1217
+   "words": 1237
   },
   {
    "aliases": [
@@ -49736,7 +49878,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Predikáty uvědomění",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -49859,7 +50001,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1189
+   "words": 1222
   },
   {
    "aliases": [
@@ -49871,7 +50013,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 16,
+   "citations": 20,
    "cs": "Komentářová příslovce a přídavná jména",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -49897,6 +50039,7 @@
    ],
    "links_prose": [
     "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md",
+    "kompendium/nlp-vzorce/meta-model/meta-model.md",
     "kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md",
     "kompendium/nlp-vzorce/milton-model/truismy.md",
     "kompendium/nlp-vzorce/presupozice/existencni-presupozice.md",
@@ -49993,7 +50136,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/komentarova-adverbia/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1232
+   "words": 1279
   },
   {
    "aliases": [
@@ -50005,7 +50148,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 17,
+   "citations": 20,
    "cs": "Slovesa změny času a stavu",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -50129,7 +50272,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1160
+   "words": 1177
   },
   {
    "aliases": [
@@ -50141,7 +50284,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 16,
+   "citations": 20,
    "cs": "Opakovací slova",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -50263,7 +50406,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/opakovaci-slova/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1226
+   "words": 1275
   },
   {
    "aliases": [
@@ -50276,7 +50419,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 19,
+   "citations": 21,
    "cs": "Částice „jen“, „i“, „dokonce“",
    "data": "data/nlp/presupozice.toml",
    "depth": 1,
@@ -50398,7 +50541,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/kvalifikatory-jen-i/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1235
+   "words": 1241
   },
   {
    "aliases": [
@@ -50410,7 +50553,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 20,
+   "citations": 23,
    "cs": "Srovnávací presupozice",
    "data": "data/nlp/presupozice.b.toml",
    "depth": 1,
@@ -50451,7 +50594,7 @@
    "position": 11,
    "prev": "kvalifikatory-jen-i",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "srovnavaci-delece",
     "srovnavaci-delece-milton",
@@ -50533,7 +50676,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1291
+   "words": 1308
   },
   {
    "aliases": [
@@ -50546,7 +50689,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 21,
+   "citations": 23,
    "cs": "Otázky s presupozicí",
    "data": "data/nlp/presupozice.b.toml",
    "depth": 1,
@@ -50590,7 +50733,7 @@
    "position": 12,
    "prev": "srovnavaci-presupozice",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "sugestivni-otazka",
     "slozena-otazka",
@@ -50691,7 +50834,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/otazky-s-presupozici/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1298
+   "words": 1302
   },
   {
    "aliases": [
@@ -50834,7 +50977,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 19,
+   "citations": 21,
    "cs": "Kontrafaktuální podmínky",
    "data": "data/nlp/presupozice.b.toml",
    "depth": 1,
@@ -50874,7 +51017,7 @@
    "position": 14,
    "prev": "vztazne-vety-presupozice",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "ramec-jako-by",
     "zmena-osobni-historie",
@@ -50955,7 +51098,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/kontrafaktualni-podminky/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1296
+   "words": 1307
   },
   {
    "aliases": [
@@ -50967,7 +51110,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Faktivní slovesa",
    "data": "data/nlp/presupozice.b.toml",
    "depth": 1,
@@ -51008,7 +51151,7 @@
    "position": 15,
    "prev": "kontrafaktualni-podminky",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "ztraceny-performativ",
     "cteni-myslenek",
@@ -51090,7 +51233,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/faktivni-slovesa/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1288
+   "words": 1306
   },
   {
    "aliases": [
@@ -51102,7 +51245,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Implikativní slovesa",
    "data": "data/nlp/presupozice.b.toml",
    "depth": 1,
@@ -51218,7 +51361,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/implikativni-slovesa/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1228
+   "words": 1241
   },
   {
    "aliases": [
@@ -51231,7 +51374,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Vytýkací konstrukce",
    "data": "data/nlp/presupozice.b.toml",
    "depth": 1,
@@ -51352,7 +51495,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/rozstepene-vety/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1302
+   "words": 1311
   },
   {
    "aliases": [
@@ -51364,7 +51507,7 @@
    ],
    "broader": "jazykove-presupozice",
    "canonical": "",
-   "citations": 20,
+   "citations": 22,
    "cs": "Presupozice v reklamě",
    "data": "data/nlp/presupozice.b.toml",
    "depth": 1,
@@ -51487,7 +51630,7 @@
    "url": "kompendium/nlp-vzorce/presupozice/presupozice-v-reklame/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1283
+   "words": 1295
   },
   {
    "aliases": [
@@ -51810,7 +51953,7 @@
    ],
    "broader": "sleight-of-mouth",
    "canonical": "",
-   "citations": 19,
+   "citations": 21,
    "cs": "Struktura přesvědčení v Sleight of Mouth",
    "data": "data/nlp/sleight-of-mouth.toml",
    "depth": 1,
@@ -51940,7 +52083,7 @@
    "url": "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1235
+   "words": 1255
   },
   {
    "aliases": [
@@ -51951,7 +52094,7 @@
    ],
    "broader": "sleight-of-mouth",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Záměr",
    "data": "data/nlp/sleight-of-mouth.toml",
    "depth": 1,
@@ -52026,6 +52169,7 @@
     "cialdini-2009",
     "dilts-1999",
     "herman-1992",
+    "levinson-1983",
     "miller-rollnick-2013",
     "oconnor-seymour-1990",
     "passmore-rowson-2019",
@@ -52050,6 +52194,7 @@
     "oconnor-seymour-1990"
    ],
    "sources_roots": [
+    "levinson-1983",
     "satir-1972",
     "watzlawick-1974"
    ],
@@ -52076,7 +52221,7 @@
    "url": "kompendium/nlp-vzorce/sleight-of-mouth/som-zamer/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1247
+   "words": 1259
   },
   {
    "aliases": [
@@ -52088,7 +52233,7 @@
    ],
    "broader": "sleight-of-mouth",
    "canonical": "",
-   "citations": 20,
+   "citations": 21,
    "cs": "Redefinice",
    "data": "data/nlp/sleight-of-mouth.toml",
    "depth": 1,
@@ -52217,7 +52362,7 @@
    "url": "kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1215
+   "words": 1230
   },
   {
    "aliases": [
@@ -52634,7 +52779,7 @@
    ],
    "broader": "sleight-of-mouth",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Protipříklad",
    "data": "data/nlp/sleight-of-mouth.toml",
    "depth": 1,
@@ -52752,7 +52897,7 @@
    "url": "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1214
+   "words": 1233
   },
   {
    "aliases": [
@@ -53164,7 +53309,7 @@
    ],
    "broader": "sleight-of-mouth",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Strategie reality",
    "data": "data/nlp/sleight-of-mouth.b.toml",
    "depth": 1,
@@ -53281,7 +53426,7 @@
    "url": "kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1225
+   "words": 1226
   },
   {
    "aliases": [
@@ -53293,7 +53438,7 @@
    ],
    "broader": "sleight-of-mouth",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Hierarchie kritérií",
    "data": "data/nlp/sleight-of-mouth.b.toml",
    "depth": 1,
@@ -53413,7 +53558,7 @@
    "url": "kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1224
+   "words": 1225
   },
   {
    "aliases": [
@@ -53424,7 +53569,7 @@
    ],
    "broader": "sleight-of-mouth",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Aplikace na sebe",
    "data": "data/nlp/sleight-of-mouth.b.toml",
    "depth": 1,
@@ -53449,6 +53594,7 @@
    ],
    "links_prose": [
     "kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md",
+    "kompendium/argumentacni-fauly/relevance/ad-hominem.md",
     "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md",
     "kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md",
     "kompendium/techniques/ea-5-4-19-self-undermining-claim.md",
@@ -53492,6 +53638,7 @@
    "sources": [
     "bateson-1972",
     "beck-1976",
+    "copi-cohen-mcmahon-2014",
     "dilts-1999",
     "ellis-1962",
     "heap-1988",
@@ -53509,6 +53656,7 @@
     "witkowski-2010"
    ],
    "sources_primary": [
+    "copi-cohen-mcmahon-2014",
     "dilts-1999"
    ],
    "sources_roots": [
@@ -53538,7 +53686,7 @@
    "url": "kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1224
+   "words": 1249
   },
   {
    "aliases": [
@@ -53550,7 +53698,7 @@
    ],
    "broader": "sleight-of-mouth",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Meta-rámec",
    "data": "data/nlp/sleight-of-mouth.b.toml",
    "depth": 1,
@@ -53623,6 +53771,7 @@
    "sources": [
     "bateson-1972",
     "beck-1976",
+    "damer-2009",
     "dilts-1999",
     "hassan-1988",
     "kahneman-2011",
@@ -53642,6 +53791,7 @@
     "singer-lalich-1995"
    ],
    "sources_primary": [
+    "damer-2009",
     "dilts-1999"
    ],
    "sources_roots": [
@@ -53671,7 +53821,7 @@
    "url": "kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1203
+   "words": 1217
   },
   {
    "aliases": [
@@ -55110,7 +55260,7 @@
    ],
    "broader": "ramec-pojem",
    "canonical": "",
-   "citations": 24,
+   "citations": 25,
    "cs": "Kontrastní rámec",
    "data": "data/nlp/reframing.b.toml",
    "depth": 1,
@@ -55249,7 +55399,7 @@
    "url": "kompendium/nlp-vzorce/reframing/kontrastni-ramec/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1351
+   "words": 1364
   },
   {
    "aliases": [
@@ -55262,7 +55412,7 @@
    ],
    "broader": "ramec-vysledku",
    "canonical": "",
-   "citations": 14,
+   "citations": 17,
    "cs": "Výzva k relevanci",
    "data": "data/nlp/reframing.b.toml",
    "depth": 2,
@@ -55287,6 +55437,7 @@
     "kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md"
    ],
    "links_prose": [
+    "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
     "kompendium/nlp-vzorce/reframing/ramec-vysledku.md",
     "kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md",
     "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
@@ -55334,6 +55485,7 @@
    "sources": [
     "grice-1975",
     "herman-1992",
+    "kunda-1990",
     "levinson-1983",
     "lifton-1961",
     "miller-rollnick-2013",
@@ -55341,10 +55493,12 @@
     "passmore-rowson-2019",
     "tosey-mathison-2009",
     "watzlawick-1967",
-    "witkowski-2010"
+    "witkowski-2010",
+    "eemeren-grootendorst-2004"
    ],
    "sources_critical": [
     "herman-1992",
+    "kunda-1990",
     "lifton-1961",
     "miller-rollnick-2013",
     "passmore-rowson-2019",
@@ -55352,7 +55506,8 @@
     "witkowski-2010"
    ],
    "sources_primary": [
-    "oconnor-seymour-1990"
+    "oconnor-seymour-1990",
+    "eemeren-grootendorst-2004"
    ],
    "sources_roots": [
     "grice-1975",
@@ -55382,7 +55537,7 @@
    "url": "kompendium/nlp-vzorce/reframing/vyzva-k-relevanci/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1232
+   "words": 1298
   },
   {
    "aliases": [
@@ -55394,7 +55549,7 @@
    ],
    "broader": "ramec-pojem",
    "canonical": "",
-   "citations": 16,
+   "citations": 20,
    "cs": "Otevřený rámec",
    "data": "data/nlp/reframing.b.toml",
    "depth": 1,
@@ -55419,6 +55574,8 @@
     "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"
    ],
    "links_prose": [
+    "glossary/informed-consent.md",
+    "kompendium/08-prilohy/eticky-kodex.md",
     "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
     "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
     "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"
@@ -55431,7 +55588,7 @@
    "position": 12,
    "prev": "vyzva-k-relevanci",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "ramec-vysledku",
     "ramec-zpetneho-shrnuti",
@@ -55510,7 +55667,7 @@
    "url": "kompendium/nlp-vzorce/reframing/otevreny-ramec/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1246
+   "words": 1322
   },
   {
    "aliases": [
@@ -55523,7 +55680,7 @@
    ],
    "broader": "ramec-vysledku",
    "canonical": "",
-   "citations": 14,
+   "citations": 17,
    "cs": "Rámec důkazu",
    "data": "data/nlp/reframing.b.toml",
    "depth": 2,
@@ -55597,9 +55754,11 @@
     "bandler-grinder-1975",
     "beck-1976",
     "gilovich-1991",
+    "herman-1992",
     "lilienfeld-2015",
     "miller-galanter-pribram-1960",
     "oconnor-seymour-1990",
+    "popper-1959",
     "roderique-davies-2009",
     "sharpley-1984",
     "sharpley-1987",
@@ -55610,6 +55769,7 @@
    "sources_critical": [
     "beck-1976",
     "gilovich-1991",
+    "herman-1992",
     "lilienfeld-2015",
     "roderique-davies-2009",
     "sharpley-1984",
@@ -55623,7 +55783,8 @@
     "oconnor-seymour-1990"
    ],
    "sources_roots": [
-    "miller-galanter-pribram-1960"
+    "miller-galanter-pribram-1960",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -55648,7 +55809,7 @@
    "url": "kompendium/nlp-vzorce/reframing/ramec-dukazu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1242
+   "words": 1295
   },
   {
    "aliases": [
@@ -55660,7 +55821,7 @@
    ],
    "broader": "ramec-pojem",
    "canonical": "",
-   "citations": 19,
+   "citations": 22,
    "cs": "Předrámcování",
    "data": "data/nlp/reframing.b.toml",
    "depth": 1,
@@ -55785,7 +55946,7 @@
    "url": "kompendium/nlp-vzorce/reframing/predramcovani/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1177
+   "words": 1230
   },
   {
    "aliases": [
@@ -55797,7 +55958,7 @@
    ],
    "broader": "ramec-pojem",
    "canonical": "",
-   "citations": 18,
+   "citations": 21,
    "cs": "Dodatečné rámcování",
    "data": "data/nlp/reframing.b.toml",
    "depth": 1,
@@ -55836,7 +55997,7 @@
    "position": 15,
    "prev": "predramcovani",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "obsahovy-reframing",
     "ramec-zpetneho-shrnuti",
@@ -55874,6 +56035,7 @@
     "herman-1992",
     "kahneman-2011",
     "loftus-palmer-1974",
+    "popper-1959",
     "stark-2007",
     "sturt-2012",
     "watzlawick-1967",
@@ -55895,6 +56057,7 @@
    ],
    "sources_roots": [
     "erickson-rossi-rossi-1976",
+    "popper-1959",
     "watzlawick-1967",
     "watzlawick-1974"
    ],
@@ -55921,7 +56084,7 @@
    "url": "kompendium/nlp-vzorce/reframing/dodatecne-ramcovani/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1278
+   "words": 1344
   },
   {
    "aliases": [
@@ -55933,7 +56096,7 @@
    ],
    "broader": "ramec-pojem",
    "canonical": "",
-   "citations": 17,
+   "citations": 21,
    "cs": "Rozrámcování",
    "data": "data/nlp/reframing.b.toml",
    "depth": 1,
@@ -55959,6 +56122,7 @@
     "kompendium/techniques/ea-6-3-2-externalizacni-faze.md"
    ],
    "links_prose": [
+    "kompendium/01-predmluva/eticke-aspekty.md",
     "kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md",
     "kompendium/nlp-vzorce/meta-model/meta-model.md",
     "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md",
@@ -56007,6 +56171,7 @@
    "slug": "deframing",
    "sources": [
     "bandler-grinder-1975",
+    "bandler-grinder-1982",
     "beck-1976",
     "dilts-1999",
     "ellis-1962",
@@ -56014,6 +56179,7 @@
     "lakoff-johnson-1980",
     "lifton-1961",
     "passmore-rowson-2019",
+    "petty-cacioppo-1986",
     "sharpley-1987",
     "tosey-mathison-2009",
     "watzlawick-1974",
@@ -56026,12 +56192,14 @@
     "lakoff-johnson-1980",
     "lifton-1961",
     "passmore-rowson-2019",
+    "petty-cacioppo-1986",
     "sharpley-1987",
     "tosey-mathison-2009",
     "witkowski-2010"
    ],
    "sources_primary": [
     "bandler-grinder-1975",
+    "bandler-grinder-1982",
     "dilts-1999"
    ],
    "sources_roots": [
@@ -56060,7 +56228,7 @@
    "url": "kompendium/nlp-vzorce/reframing/deframing/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1165
+   "words": 1234
   },
   {
    "aliases": [
@@ -56073,7 +56241,7 @@
    ],
    "broader": "obsahovy-reframing",
    "canonical": "",
-   "citations": 17,
+   "citations": 21,
    "cs": "Přerámování selhání na zpětnou vazbu",
    "data": "data/nlp/reframing.b.toml",
    "depth": 2,
@@ -56148,6 +56316,7 @@
    ],
    "slug": "selhani-jako-zpetna-vazba-vzorec",
    "sources": [
+    "arkes-blumer-1985",
     "bateson-1972",
     "beck-1976",
     "dilts-1990",
@@ -56155,19 +56324,23 @@
     "ellis-1962",
     "festinger-1957",
     "herman-1992",
+    "lifton-1961",
     "miller-galanter-pribram-1960",
     "norcross-2006",
     "oconnor-seymour-1990",
+    "popper-1959",
     "roderique-davies-2009",
     "singer-lalich-1995",
     "sturt-2012",
     "witkowski-2010"
    ],
    "sources_critical": [
+    "arkes-blumer-1985",
     "beck-1976",
     "ellis-1962",
     "festinger-1957",
     "herman-1992",
+    "lifton-1961",
     "norcross-2006",
     "roderique-davies-2009",
     "singer-lalich-1995",
@@ -56181,7 +56354,8 @@
    ],
    "sources_roots": [
     "bateson-1972",
-    "miller-galanter-pribram-1960"
+    "miller-galanter-pribram-1960",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -56206,7 +56380,7 @@
    "url": "kompendium/nlp-vzorce/reframing/selhani-jako-zpetna-vazba-vzorec/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1225
+   "words": 1290
   },
   {
    "aliases": [
@@ -56379,7 +56553,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Samokotvení",
    "data": "data/nlp/kotveni.toml",
    "depth": 1,
@@ -56494,7 +56668,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/samokotveni/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1171
+   "words": 1180
   },
   {
    "aliases": [
@@ -56506,7 +56680,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Řetězení kotev",
    "data": "data/nlp/kotveni.toml",
    "depth": 1,
@@ -56585,6 +56759,7 @@
     "oconnor-seymour-1990",
     "pavlov-1927",
     "petty-cacioppo-1986",
+    "singer-lalich-1995",
     "stark-2007",
     "tosey-mathison-2009",
     "witkowski-2010"
@@ -56595,6 +56770,7 @@
     "ekman-2003",
     "herman-1992",
     "petty-cacioppo-1986",
+    "singer-lalich-1995",
     "stark-2007",
     "tosey-mathison-2009",
     "witkowski-2010"
@@ -56631,7 +56807,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/retezeni-kotev/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1193
+   "words": 1214
   },
   {
    "aliases": [
@@ -56643,7 +56819,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Kolaps kotev",
    "data": "data/nlp/kotveni.toml",
    "depth": 1,
@@ -56769,7 +56945,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/kolaps-kotev/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1204
+   "words": 1207
   },
   {
    "aliases": [
@@ -56781,7 +56957,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Vrstvení kotev",
    "data": "data/nlp/kotveni.toml",
    "depth": 1,
@@ -56897,7 +57073,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/stohovani-kotev/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1189
+   "words": 1214
   },
   {
    "aliases": [
@@ -57044,7 +57220,7 @@
    ],
    "broader": "prostorove-kotveni",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Kruh excelence",
    "data": "data/nlp/kotveni.toml",
    "depth": 2,
@@ -57163,7 +57339,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/kruh-excelence/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1214
+   "words": 1217
   },
   {
    "aliases": [
@@ -57175,7 +57351,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Posuvná kotva",
    "data": "data/nlp/kotveni.toml",
    "depth": 1,
@@ -57292,7 +57468,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/posuvna-kotva/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1238
+   "words": 1277
   },
   {
    "aliases": [
@@ -57305,7 +57481,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 19,
+   "citations": 21,
    "cs": "Auditivní a tonální kotvy",
    "data": "data/nlp/kotveni.toml",
    "depth": 1,
@@ -57436,7 +57612,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/auditivni-kotvy/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1264
+   "words": 1266
   },
   {
    "aliases": [
@@ -57448,7 +57624,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Vizuální kotvy",
    "data": "data/nlp/kotveni.toml",
    "depth": 1,
@@ -57569,7 +57745,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/vizualni-kotvy/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1195
+   "words": 1208
   },
   {
    "aliases": [
@@ -57581,7 +57757,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Kinestetické kotvy",
    "data": "data/nlp/kotveni.b.toml",
    "depth": 1,
@@ -57710,7 +57886,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1174
+   "words": 1185
   },
   {
    "aliases": [
@@ -57998,7 +58174,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 12,
+   "citations": 13,
    "cs": "Testování kotvy",
    "data": "data/nlp/kotveni.b.toml",
    "depth": 1,
@@ -58125,7 +58301,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/testovani-kotvy/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1189
+   "words": 1192
   },
   {
    "aliases": [
@@ -58276,7 +58452,7 @@
    ],
    "broader": "kotveni",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Kotvy v reklamě a značkách",
    "data": "data/nlp/kotveni.b.toml",
    "depth": 1,
@@ -58401,7 +58577,7 @@
    "url": "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1238
+   "words": 1262
   },
   {
    "aliases": [
@@ -58818,7 +58994,7 @@
    ],
    "broader": "submodality-pojem",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Elicitace submodalit",
    "data": "data/nlp/submodality.toml",
    "depth": 1,
@@ -58949,7 +59125,7 @@
    "url": "kompendium/nlp-vzorce/submodality/elicitace-submodalit/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1321
+   "words": 1333
   },
   {
    "aliases": [
@@ -59100,7 +59276,7 @@
    ],
    "broader": "submodality-pojem",
    "canonical": "",
-   "citations": 19,
+   "citations": 22,
    "cs": "Auditivní submodality",
    "data": "data/nlp/submodality.toml",
    "depth": 1,
@@ -59185,6 +59361,7 @@
     "mcguire-1964",
     "passmore-rowson-2019",
     "petty-cacioppo-1986",
+    "rogers-1951",
     "satir-1972",
     "sharpley-1984",
     "sharpley-1987",
@@ -59200,6 +59377,7 @@
     "mcguire-1964",
     "passmore-rowson-2019",
     "petty-cacioppo-1986",
+    "rogers-1951",
     "sharpley-1984",
     "sharpley-1987",
     "witkowski-2010"
@@ -59237,7 +59415,7 @@
    "url": "kompendium/nlp-vzorce/submodality/auditivni-submodality/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1266
+   "words": 1269
   },
   {
    "aliases": [
@@ -59248,7 +59426,7 @@
    ],
    "broader": "submodality-pojem",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Kinestetické submodality",
    "data": "data/nlp/submodality.toml",
    "depth": 1,
@@ -59370,7 +59548,7 @@
    "url": "kompendium/nlp-vzorce/submodality/kinesteticke-submodality/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1237
+   "words": 1266
   },
   {
    "aliases": [
@@ -59382,7 +59560,7 @@
    ],
    "broader": "submodality-pojem",
    "canonical": "",
-   "citations": 15,
+   "citations": 17,
    "cs": "Kritické submodality",
    "data": "data/nlp/submodality.toml",
    "depth": 1,
@@ -59468,6 +59646,7 @@
     "lifton-1961",
     "miller-rollnick-2013",
     "oconnor-seymour-1990",
+    "popper-1959",
     "roderique-davies-2009",
     "sharpley-1987",
     "witkowski-2010"
@@ -59488,7 +59667,8 @@
     "oconnor-seymour-1990"
    ],
    "sources_roots": [
-    "bateson-1972"
+    "bateson-1972",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -59513,7 +59693,7 @@
    "url": "kompendium/nlp-vzorce/submodality/kriticke-submodality/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1224
+   "words": 1226
   },
   {
    "aliases": [
@@ -59525,7 +59705,7 @@
    ],
    "broader": "elicitace-submodalit",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Kontrastní analýza",
    "data": "data/nlp/submodality.toml",
    "depth": 2,
@@ -59654,7 +59834,7 @@
    "url": "kompendium/nlp-vzorce/submodality/kontrastni-analyza/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1235
+   "words": 1249
   },
   {
    "aliases": [
@@ -59666,7 +59846,7 @@
    ],
    "broader": "submodality-pojem",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Mapování napříč",
    "data": "data/nlp/submodality.toml",
    "depth": 1,
@@ -59804,7 +59984,7 @@
    "url": "kompendium/nlp-vzorce/submodality/mapovani-napric/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1180
+   "words": 1206
   },
   {
    "aliases": [
@@ -59816,7 +59996,7 @@
    ],
    "broader": "submodality-pojem",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Swish",
    "data": "data/nlp/submodality.toml",
    "depth": 1,
@@ -59952,7 +60132,7 @@
    "url": "kompendium/nlp-vzorce/submodality/swish/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1245
+   "words": 1249
   },
   {
    "aliases": [
@@ -59964,7 +60144,7 @@
    ],
    "broader": "swish",
    "canonical": "",
-   "citations": 14,
+   "citations": 16,
    "cs": "Kinestetický swish",
    "data": "data/nlp/submodality.toml",
    "depth": 2,
@@ -60086,7 +60266,7 @@
    "url": "kompendium/nlp-vzorce/submodality/kinesteticky-swish/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1173
+   "words": 1188
   },
   {
    "aliases": [
@@ -60098,7 +60278,7 @@
    ],
    "broader": "swish",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Auditivní swish",
    "data": "data/nlp/submodality.toml",
    "depth": 2,
@@ -60232,7 +60412,7 @@
    "url": "kompendium/nlp-vzorce/submodality/auditivni-swish/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1244
+   "words": 1262
   },
   {
    "aliases": [
@@ -60242,7 +60422,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Rozbití kompulze",
    "data": "data/nlp/submodality.b.toml",
    "depth": 0,
@@ -60312,6 +60492,7 @@
    "sources": [
     "andreas-andreas-1987",
     "bandler-1985",
+    "gilovich-1991",
     "haley-1973",
     "miller-rollnick-2013",
     "norcross-2006",
@@ -60325,6 +60506,7 @@
     "wolpe-1958"
    ],
    "sources_critical": [
+    "gilovich-1991",
     "miller-rollnick-2013",
     "norcross-2006",
     "roderique-davies-2009",
@@ -60366,7 +60548,7 @@
    "url": "kompendium/nlp-vzorce/submodality/vyhozeni-kompulze/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1258
+   "words": 1285
   },
   {
    "aliases": [
@@ -60379,7 +60561,7 @@
    ],
    "broader": "mapovani-napric",
    "canonical": "",
-   "citations": 15,
+   "citations": 19,
    "cs": "Vzorec Godiva",
    "data": "data/nlp/submodality.b.toml",
    "depth": 2,
@@ -60496,7 +60678,7 @@
    "url": "kompendium/nlp-vzorce/submodality/vzorec-godiva/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1199
+   "words": 1236
   },
   {
    "aliases": [
@@ -60509,7 +60691,7 @@
    ],
    "broader": "mapovani-napric",
    "canonical": "",
-   "citations": 15,
+   "citations": 17,
    "cs": "Od libosti k nechuti",
    "data": "data/nlp/submodality.b.toml",
    "depth": 2,
@@ -60632,7 +60814,7 @@
    "url": "kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1211
+   "words": 1215
   },
   {
    "aliases": [
@@ -60645,7 +60827,7 @@
    ],
    "broader": "mapovani-napric",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Změna přesvědčení přes submodality",
    "data": "data/nlp/submodality.b.toml",
    "depth": 2,
@@ -60777,7 +60959,7 @@
    "url": "kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1219
+   "words": 1234
   },
   {
    "aliases": [
@@ -60787,7 +60969,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 12,
+   "citations": 16,
    "cs": "Prahový vzorec",
    "data": "data/nlp/submodality.b.toml",
    "depth": 0,
@@ -60858,22 +61040,26 @@
    "sources": [
     "andreas-andreas-1987",
     "bandler-1985",
+    "cialdini-2009",
     "druckman-swets-1988",
     "hassan-1988",
     "miller-rollnick-2013",
     "singer-lalich-1995",
     "stark-2007",
     "tosey-mathison-2009",
+    "tversky-kahneman-1974",
     "watzlawick-1974",
     "witkowski-2010"
    ],
    "sources_critical": [
+    "cialdini-2009",
     "druckman-swets-1988",
     "hassan-1988",
     "miller-rollnick-2013",
     "singer-lalich-1995",
     "stark-2007",
     "tosey-mathison-2009",
+    "tversky-kahneman-1974",
     "witkowski-2010"
    ],
    "sources_primary": [
@@ -60906,7 +61092,7 @@
    "url": "kompendium/nlp-vzorce/submodality/prahovy-vzorec/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1213
+   "words": 1244
   },
   {
    "aliases": [
@@ -60916,7 +61102,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 18,
    "cs": "Změna vnitřního hlasu",
    "data": "data/nlp/submodality.b.toml",
    "depth": 0,
@@ -60941,6 +61127,7 @@
     "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"
    ],
    "links_prose": [
+    "glossary/thought-stopping.md",
     "kompendium/nlp-vzorce/submodality/auditivni-submodality.md",
     "kompendium/nlp-vzorce/submodality/auditivni-swish.md",
     "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md",
@@ -60992,6 +61179,7 @@
     "bandler-1985",
     "beck-1976",
     "ellis-1962",
+    "hassan-1988",
     "heap-1988",
     "herman-1992",
     "lifton-1961",
@@ -61004,6 +61192,7 @@
    "sources_critical": [
     "beck-1976",
     "ellis-1962",
+    "hassan-1988",
     "heap-1988",
     "herman-1992",
     "lifton-1961",
@@ -61041,7 +61230,7 @@
    "url": "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1178
+   "words": 1198
   },
   {
    "aliases": [
@@ -61052,7 +61241,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 18,
    "cs": "Filmová technika",
    "data": "data/nlp/submodality.b.toml",
    "depth": 0,
@@ -61096,7 +61285,7 @@
    "position": 17,
    "prev": "zmena-vnitrniho-hlasu",
    "provenance": "inferred",
-   "reading_minutes": 6,
+   "reading_minutes": 7,
    "related": [
     "vizualni-submodality",
     "kinesteticke-submodality",
@@ -61174,7 +61363,7 @@
    "url": "kompendium/nlp-vzorce/submodality/filmova-technika/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1294
+   "words": 1341
   },
   {
    "aliases": [
@@ -61184,7 +61373,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 15,
+   "citations": 18,
    "cs": "Prostorové umístění představ",
    "data": "data/nlp/submodality.b.toml",
    "depth": 0,
@@ -61264,6 +61453,7 @@
     "james-woodsmall-1988",
     "lakoff-johnson-1980",
     "loftus-palmer-1974",
+    "petty-cacioppo-1986",
     "sharpley-1987",
     "tosey-mathison-2009",
     "witkowski-2010"
@@ -61273,6 +61463,7 @@
     "herman-1992",
     "lakoff-johnson-1980",
     "loftus-palmer-1974",
+    "petty-cacioppo-1986",
     "sharpley-1987",
     "tosey-mathison-2009",
     "witkowski-2010"
@@ -61306,7 +61497,7 @@
    "url": "kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1194
+   "words": 1236
   },
   {
    "aliases": [
@@ -61318,7 +61509,7 @@
    ],
    "broader": "nlp-v-reklame",
    "canonical": "",
-   "citations": 17,
+   "citations": 21,
    "cs": "Submodality v reklamě a médiích",
    "data": "data/nlp/submodality.b.toml",
    "depth": 1,
@@ -61400,10 +61591,12 @@
     "andreas-andreas-1987",
     "bandler-1985",
     "cialdini-2009",
+    "hasher-1977",
     "kahneman-2011",
     "mcguire-1964",
     "petty-cacioppo-1986",
     "roderique-davies-2009",
+    "roozenbeek-2022",
     "tosey-mathison-2009",
     "tversky-kahneman-1974",
     "witkowski-2010",
@@ -61411,10 +61604,12 @@
    ],
    "sources_critical": [
     "cialdini-2009",
+    "hasher-1977",
     "kahneman-2011",
     "mcguire-1964",
     "petty-cacioppo-1986",
     "roderique-davies-2009",
+    "roozenbeek-2022",
     "tosey-mathison-2009",
     "tversky-kahneman-1974",
     "witkowski-2010",
@@ -61448,7 +61643,7 @@
    "url": "kompendium/nlp-vzorce/submodality/submodality-v-reklame/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1219
+   "words": 1262
   },
   {
    "aliases": [
@@ -61460,7 +61655,7 @@
    ],
    "broader": "zmena-vnitrniho-hlasu",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Vzorec vnitřního kritika",
    "data": "data/nlp/submodality.b.toml",
    "depth": 1,
@@ -61586,7 +61781,7 @@
    "url": "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1204
+   "words": 1222
   },
   {
    "aliases": [
@@ -61600,7 +61795,7 @@
    ],
    "broader": "disociace",
    "canonical": "",
-   "citations": 20,
+   "citations": 23,
    "cs": "Rychlá léčba fobie",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 2,
@@ -61736,7 +61931,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1382
+   "words": 1426
   },
   {
    "aliases": [
@@ -61749,7 +61944,7 @@
    ],
    "broader": "disociace",
    "canonical": "",
-   "citations": 19,
+   "citations": 21,
    "cs": "Dvojitá disociace",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 2,
@@ -61829,6 +62024,7 @@
     "bandler-1985",
     "bandler-grinder-1979",
     "beck-1976",
+    "ekman-2003",
     "erickson-rossi-rossi-1976",
     "hassan-1988",
     "herman-1992",
@@ -61839,6 +62035,7 @@
    ],
    "sources_critical": [
     "beck-1976",
+    "ekman-2003",
     "hassan-1988",
     "herman-1992",
     "kirsch-lynn-1995",
@@ -61876,7 +62073,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1204
+   "words": 1240
   },
   {
    "aliases": [
@@ -61886,7 +62083,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 18,
+   "citations": 21,
    "cs": "Reimprinting",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 0,
@@ -62012,7 +62209,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/reimprinting/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1214
+   "words": 1267
   },
   {
    "aliases": [
@@ -62022,7 +62219,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 17,
+   "citations": 20,
    "cs": "Změna osobní historie",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 0,
@@ -62153,7 +62350,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1234
+   "words": 1290
   },
   {
    "aliases": [
@@ -62163,7 +62360,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 12,
+   "citations": 16,
    "cs": "Alergický vzorec",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 0,
@@ -62191,6 +62388,7 @@
    "links_prose": [
     "glossary/disociace.md",
     "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md",
+    "kompendium/08-prilohy/eticky-kodex.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
     "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md",
     "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md",
@@ -62237,20 +62435,27 @@
    "slug": "alergicky-vzorec",
    "sources": [
     "beck-1976",
+    "cialdini-2009",
     "dilts-hallbom-smith-1990",
+    "gilovich-1991",
     "herman-1992",
     "norcross-2006",
     "pavlov-1927",
+    "popper-1959",
     "sharpley-1987",
+    "singer-lalich-1995",
     "sturt-2012",
     "witkowski-2010",
     "wolpe-1958"
    ],
    "sources_critical": [
     "beck-1976",
+    "cialdini-2009",
+    "gilovich-1991",
     "herman-1992",
     "norcross-2006",
     "sharpley-1987",
+    "singer-lalich-1995",
     "sturt-2012",
     "witkowski-2010",
     "wolpe-1958"
@@ -62259,7 +62464,8 @@
     "dilts-hallbom-smith-1990"
    ],
    "sources_roots": [
-    "pavlov-1927"
+    "pavlov-1927",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -62284,7 +62490,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1208
+   "words": 1299
   },
   {
    "aliases": [
@@ -62294,7 +62500,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 16,
    "cs": "Vzorec zpracování zármutku",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 0,
@@ -62410,7 +62616,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1180
+   "words": 1220
   },
   {
    "aliases": [
@@ -62420,7 +62626,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Vzorec odpuštění",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 0,
@@ -62542,7 +62748,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1183
+   "words": 1219
   },
   {
    "aliases": [
@@ -62552,7 +62758,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Reakce na kritiku",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 0,
@@ -62634,6 +62840,7 @@
     "passmore-rowson-2019",
     "rogers-1951",
     "satir-1972",
+    "stark-2007",
     "witkowski-2010"
    ],
    "sources_critical": [
@@ -62642,6 +62849,7 @@
     "herman-1992",
     "passmore-rowson-2019",
     "rogers-1951",
+    "stark-2007",
     "witkowski-2010"
    ],
    "sources_primary": [
@@ -62674,7 +62882,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1186
+   "words": 1216
   },
   {
    "aliases": [
@@ -62684,7 +62892,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Vzorec sebepojetí",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 0,
@@ -62810,7 +63018,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1175
+   "words": 1195
   },
   {
    "aliases": [
@@ -62821,7 +63029,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 20,
+   "citations": 22,
    "cs": "Práce s traumatem a riziko nepravých vzpomínek",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 0,
@@ -62957,7 +63165,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1385
+   "words": 1407
   },
   {
    "aliases": [
@@ -62971,7 +63179,7 @@
    ],
    "broader": "rychla-lecba-fobie",
    "canonical": "",
-   "citations": 19,
+   "citations": 21,
    "cs": "Technika přetáčení",
    "data": "data/nlp/disociace-a-trauma.toml",
    "depth": 3,
@@ -63096,7 +63304,7 @@
    "url": "kompendium/nlp-vzorce/disociace-a-trauma/rewind/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1216
+   "words": 1247
   },
   {
    "aliases": [
@@ -63239,7 +63447,7 @@
    ],
    "broader": "casova-osa-pojem",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "„V čase“ a „mimo čas“",
    "data": "data/nlp/casova-osa.toml",
    "depth": 1,
@@ -63359,7 +63567,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1178
+   "words": 1181
   },
   {
    "aliases": [
@@ -63371,7 +63579,7 @@
    ],
    "broader": "casova-osa-pojem",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Terapie časové osy",
    "data": "data/nlp/casova-osa.toml",
    "depth": 1,
@@ -63510,7 +63718,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1187
+   "words": 1202
   },
   {
    "aliases": [
@@ -63522,7 +63730,7 @@
    ],
    "broader": "terapie-casove-osy",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Uvolnění negativních emocí na časové ose",
    "data": "data/nlp/casova-osa.toml",
    "depth": 2,
@@ -63642,7 +63850,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1171
+   "words": 1174
   },
   {
    "aliases": [
@@ -63654,7 +63862,7 @@
    ],
    "broader": "terapie-casove-osy",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Limitující rozhodnutí",
    "data": "data/nlp/casova-osa.toml",
    "depth": 2,
@@ -63776,7 +63984,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1189
+   "words": 1192
   },
   {
    "aliases": [
@@ -63788,7 +63996,7 @@
    ],
    "broader": "terapie-casove-osy",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Vložení cíle do budoucnosti",
    "data": "data/nlp/casova-osa.toml",
    "depth": 2,
@@ -63903,7 +64111,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1168
+   "words": 1171
   },
   {
    "aliases": [
@@ -63917,7 +64125,7 @@
    ],
    "broader": "terapie-casove-osy",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Hledání kořenové příčiny",
    "data": "data/nlp/casova-osa.toml",
    "depth": 2,
@@ -64052,7 +64260,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/korenova-pricina/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1263
+   "words": 1277
   },
   {
    "aliases": [
@@ -64063,7 +64271,7 @@
    ],
    "broader": "casova-osa-pojem",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Změna tvaru časové osy",
    "data": "data/nlp/casova-osa.toml",
    "depth": 1,
@@ -64179,7 +64387,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1186
+   "words": 1189
   },
   {
    "aliases": [
@@ -64190,7 +64398,7 @@
    ],
    "broader": "casova-osa-pojem",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Časové kódování zkušenosti",
    "data": "data/nlp/casova-osa.toml",
    "depth": 1,
@@ -64314,7 +64522,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/casove-kodovani/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1188
+   "words": 1199
   },
   {
    "aliases": [
@@ -64324,7 +64532,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Budoucí přehrávání",
    "data": "data/nlp/casova-osa.toml",
    "depth": 0,
@@ -64457,7 +64665,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/budouci-prehravani/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1239
+   "words": 1242
   },
   {
    "aliases": [
@@ -64466,7 +64674,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Časová perspektiva",
    "data": "data/nlp/casova-osa.toml",
    "depth": 0,
@@ -64587,7 +64795,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/casova-perspektiva/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1157
+   "words": 1172
   },
   {
    "aliases": [
@@ -64599,7 +64807,7 @@
    ],
    "broader": "casova-osa-pojem",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Procházení časové osy",
    "data": "data/nlp/casova-osa.toml",
    "depth": 1,
@@ -64724,7 +64932,7 @@
    "url": "kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1150
+   "words": 1162
   },
   {
    "aliases": [
@@ -65874,7 +66082,7 @@
    ],
    "broader": "percepcni-pozice-pojem",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "První pozice",
    "data": "data/nlp/urovne-a-pozice.b.toml",
    "depth": 1,
@@ -66015,7 +66223,7 @@
    "url": "kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1455
+   "words": 1474
   },
   {
    "aliases": [
@@ -66027,7 +66235,7 @@
    ],
    "broader": "percepcni-pozice-pojem",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Druhá pozice",
    "data": "data/nlp/urovne-a-pozice.b.toml",
    "depth": 1,
@@ -66106,6 +66314,7 @@
    ],
    "slug": "druha-pozice",
    "sources": [
+    "bandler-grinder-1975",
     "bandler-grinder-1979",
     "chartrand-bargh-1999",
     "dilts-delozier-2000",
@@ -66132,6 +66341,7 @@
     "witkowski-2010"
    ],
    "sources_primary": [
+    "bandler-grinder-1975",
     "bandler-grinder-1979",
     "dilts-delozier-2000",
     "grinder-delozier-1987"
@@ -66169,7 +66379,7 @@
    "url": "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1339
+   "words": 1342
   },
   {
    "aliases": [
@@ -66181,7 +66391,7 @@
    ],
    "broader": "percepcni-pozice-pojem",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Třetí pozice",
    "data": "data/nlp/urovne-a-pozice.b.toml",
    "depth": 1,
@@ -66312,7 +66522,7 @@
    "url": "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1313
+   "words": 1338
   },
   {
    "aliases": [
@@ -66470,7 +66680,7 @@
    ],
    "broader": "percepcni-pozice-pojem",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Trojí popis",
    "data": "data/nlp/urovne-a-pozice.b.toml",
    "depth": 1,
@@ -66553,6 +66763,7 @@
     "grinder-delozier-1987",
     "herman-1992",
     "kahneman-2011",
+    "loftus-palmer-1974",
     "passmore-rowson-2019",
     "tosey-mathison-2009",
     "watzlawick-1967",
@@ -66562,6 +66773,7 @@
     "gilovich-1991",
     "herman-1992",
     "kahneman-2011",
+    "loftus-palmer-1974",
     "passmore-rowson-2019",
     "tosey-mathison-2009",
     "witkowski-2010"
@@ -66597,7 +66809,7 @@
    "url": "kompendium/nlp-vzorce/urovne-a-pozice/troji-popis/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1228
+   "words": 1247
   },
   {
    "aliases": [
@@ -66607,7 +66819,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Model SCORE",
    "data": "data/nlp/urovne-a-pozice.b.toml",
    "depth": 0,
@@ -66729,7 +66941,7 @@
    "url": "kompendium/nlp-vzorce/urovne-a-pozice/model-score/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1243
+   "words": 1247
   },
   {
    "aliases": [
@@ -66743,7 +66955,7 @@
    ],
    "broader": "strategie-geniality",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Disneyova strategie",
    "data": "data/nlp/urovne-a-pozice.b.toml",
    "depth": 3,
@@ -66867,7 +67079,7 @@
    "url": "kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1243
+   "words": 1270
   },
   {
    "aliases": [
@@ -66879,7 +67091,7 @@
    ],
    "broader": "logicke-urovne-pojem",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Záměna logických úrovní",
    "data": "data/nlp/urovne-a-pozice.b.toml",
    "depth": 1,
@@ -66965,6 +67177,7 @@
     "herman-1992",
     "korzybski-1933",
     "lifton-1961",
+    "nickerson-1998",
     "passmore-rowson-2019",
     "tosey-mathison-2009",
     "watzlawick-1967",
@@ -66974,6 +67187,7 @@
     "beck-1976",
     "herman-1992",
     "lifton-1961",
+    "nickerson-1998",
     "passmore-rowson-2019",
     "tosey-mathison-2009",
     "witkowski-2010"
@@ -67018,7 +67232,7 @@
    "url": "kompendium/nlp-vzorce/urovne-a-pozice/zamena-logickych-urovni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1363
+   "words": 1378
   },
   {
    "aliases": [
@@ -67175,7 +67389,7 @@
    ],
    "broader": "strategie-pojem",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Pravopisná strategie",
    "data": "data/nlp/strategie-a-modelovani.toml",
    "depth": 1,
@@ -67303,7 +67517,7 @@
    "url": "kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1182
+   "words": 1198
   },
   {
    "aliases": [
@@ -67315,7 +67529,7 @@
    ],
    "broader": "strategie-pojem",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Rozhodovací strategie",
    "data": "data/nlp/strategie-a-modelovani.toml",
    "depth": 1,
@@ -67443,7 +67657,7 @@
    "url": "kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1197
+   "words": 1227
   },
   {
    "aliases": [
@@ -67738,7 +67952,7 @@
    ],
    "broader": "strategie-pojem",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Strategie učení",
    "data": "data/nlp/strategie-a-modelovani.toml",
    "depth": 1,
@@ -67861,7 +68075,7 @@
    "url": "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-uceni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1162
+   "words": 1180
   },
   {
    "aliases": [
@@ -67873,7 +68087,7 @@
    ],
    "broader": "strategie-pojem",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Strategie reality",
    "data": "data/nlp/strategie-a-modelovani.toml",
    "depth": 1,
@@ -68000,7 +68214,7 @@
    "url": "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1204
+   "words": 1237
   },
   {
    "aliases": [
@@ -68011,7 +68225,7 @@
    ],
    "broader": "strategie-pojem",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Strategie lásky",
    "data": "data/nlp/strategie-a-modelovani.toml",
    "depth": 1,
@@ -68132,7 +68346,7 @@
    "url": "kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1180
+   "words": 1207
   },
   {
    "aliases": [
@@ -71194,7 +71408,7 @@
    ],
    "broader": "cyklus-zmeny-presvedceni",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Muzeum starých přesvědčení",
    "data": "data/nlp/presvedceni.toml",
    "depth": 1,
@@ -71319,7 +71533,7 @@
    "url": "kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1238
+   "words": 1265
   },
   {
    "aliases": [
@@ -71329,7 +71543,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Audit přesvědčení",
    "data": "data/nlp/presvedceni.toml",
    "depth": 0,
@@ -71399,6 +71613,7 @@
     "beck-1976",
     "cialdini-2009",
     "dilts-hallbom-smith-1990",
+    "hassan-1988",
     "mcguire-1964",
     "miller-rollnick-2013",
     "oconnor-seymour-1990",
@@ -71411,6 +71626,7 @@
    "sources_critical": [
     "beck-1976",
     "cialdini-2009",
+    "hassan-1988",
     "mcguire-1964",
     "miller-rollnick-2013",
     "passmore-rowson-2019",
@@ -71447,7 +71663,7 @@
    "url": "kompendium/nlp-vzorce/presvedceni/audit-presvedceni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1237
+   "words": 1271
   },
   {
    "aliases": [
@@ -71459,7 +71675,7 @@
    ],
    "broader": "presvedceni-jako-mapa",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Limitující přesvědčení",
    "data": "data/nlp/presvedceni.toml",
    "depth": 2,
@@ -71557,6 +71773,7 @@
     "ellis-1962",
     "gilovich-1991",
     "lilienfeld-2015",
+    "popper-1959",
     "roderique-davies-2009",
     "singer-lalich-1995",
     "tosey-mathison-2009",
@@ -71579,7 +71796,9 @@
     "dilts-1999",
     "dilts-hallbom-smith-1990"
    ],
-   "sources_roots": [],
+   "sources_roots": [
+    "popper-1959"
+   ],
    "trainer": [
     {
      "benign": false,
@@ -71603,7 +71822,7 @@
    "url": "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1216
+   "words": 1236
   },
   {
    "aliases": [
@@ -71612,7 +71831,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 21,
+   "citations": 22,
    "cs": "Přesvědčení o příčině",
    "data": "data/nlp/presvedceni.toml",
    "depth": 0,
@@ -71741,7 +71960,7 @@
    "url": "kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1213
+   "words": 1216
   },
   {
    "aliases": [
@@ -71750,7 +71969,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Přesvědčení o významu",
    "data": "data/nlp/presvedceni.toml",
    "depth": 0,
@@ -71883,7 +72102,7 @@
    "url": "kompendium/nlp-vzorce/presvedceni/presvedceni-o-vyznamu/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1235
+   "words": 1236
   },
   {
    "aliases": [
@@ -71892,7 +72111,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 23,
+   "citations": 24,
    "cs": "Přesvědčení o identitě",
    "data": "data/nlp/presvedceni.toml",
    "depth": 0,
@@ -72026,7 +72245,7 @@
    "url": "kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1198
+   "words": 1209
   },
   {
    "aliases": [
@@ -72575,7 +72794,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Přesvědčení a zdraví v NLP",
    "data": "data/nlp/presvedceni.b.toml",
    "depth": 0,
@@ -72654,6 +72873,7 @@
     "lilienfeld-2015",
     "norcross-2006",
     "passmore-rowson-2019",
+    "popper-1959",
     "sturt-2012",
     "witkowski-2010"
    ],
@@ -72669,7 +72889,9 @@
     "dilts-1990",
     "dilts-hallbom-smith-1990"
    ],
-   "sources_roots": [],
+   "sources_roots": [
+    "popper-1959"
+   ],
    "trainer": [
     {
      "benign": false,
@@ -72693,7 +72915,7 @@
    "url": "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1172
+   "words": 1193
   },
   {
    "aliases": [
@@ -74972,7 +75194,7 @@
    ],
    "broader": "metaprogramy-pojem",
    "canonical": "",
-   "citations": 14,
+   "citations": 16,
    "cs": "Emoční zvládání",
    "data": "data/nlp/metaprogramy.b.toml",
    "depth": 1,
@@ -75088,7 +75310,7 @@
    "url": "kompendium/nlp-vzorce/metaprogramy/emocni-zvladani/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1247
+   "words": 1262
   },
   {
    "aliases": [
@@ -75229,7 +75451,7 @@
    ],
    "broader": "metaprogramy-pojem",
    "canonical": "",
-   "citations": 17,
+   "citations": 19,
    "cs": "Odpovědnost",
    "data": "data/nlp/metaprogramy.b.toml",
    "depth": 1,
@@ -75299,6 +75521,7 @@
    "sources": [
     "beck-1976",
     "charvet-1997",
+    "cialdini-2009",
     "freedman-fraser-1966",
     "hall-bodenhamer-1997",
     "herman-1992",
@@ -75310,6 +75533,7 @@
    ],
    "sources_critical": [
     "beck-1976",
+    "cialdini-2009",
     "freedman-fraser-1966",
     "herman-1992",
     "lifton-1961",
@@ -75347,7 +75571,7 @@
    "url": "kompendium/nlp-vzorce/metaprogramy/odpovednost/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1229
+   "words": 1264
   },
   {
    "aliases": [
@@ -75358,7 +75582,7 @@
    ],
    "broader": "metaprogramy-pojem",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Důvěra",
    "data": "data/nlp/metaprogramy.b.toml",
    "depth": 1,
@@ -75474,7 +75698,7 @@
    "url": "kompendium/nlp-vzorce/metaprogramy/duvera/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1199
+   "words": 1216
   },
   {
    "aliases": [
@@ -75486,7 +75710,7 @@
    ],
    "broader": "metaprogramy-pojem",
    "canonical": "",
-   "citations": 13,
+   "citations": 16,
    "cs": "Proč a jak",
    "data": "data/nlp/metaprogramy.b.toml",
    "depth": 1,
@@ -75550,6 +75774,7 @@
    "slug": "filozoficky-smer",
    "sources": [
     "bandler-grinder-1975",
+    "damer-2009",
     "hall-bodenhamer-1997",
     "heap-1988",
     "langer-1978",
@@ -75569,6 +75794,7 @@
    ],
    "sources_primary": [
     "bandler-grinder-1975",
+    "damer-2009",
     "hall-bodenhamer-1997"
    ],
    "sources_roots": [
@@ -75597,7 +75823,7 @@
    "url": "kompendium/nlp-vzorce/metaprogramy/filozoficky-smer/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1228
+   "words": 1272
   },
   {
    "aliases": [
@@ -75609,7 +75835,7 @@
    ],
    "broader": "metaprogramy-pojem",
    "canonical": "",
-   "citations": 13,
+   "citations": 15,
    "cs": "Usuzování a vnímání",
    "data": "data/nlp/metaprogramy.b.toml",
    "depth": 1,
@@ -75725,7 +75951,7 @@
    "url": "kompendium/nlp-vzorce/metaprogramy/adaptace/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1267
+   "words": 1281
   },
   {
    "aliases": [
@@ -75736,7 +75962,7 @@
    ],
    "broader": "metaprogramy-pojem",
    "canonical": "",
-   "citations": 13,
+   "citations": 16,
    "cs": "Metaprogramy v náboru a řízení",
    "data": "data/nlp/metaprogramy.b.toml",
    "depth": 1,
@@ -75854,7 +76080,7 @@
    "url": "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1314
+   "words": 1337
   },
   {
    "aliases": [
@@ -75865,7 +76091,7 @@
    ],
    "broader": "metaprogramy-pojem",
    "canonical": "",
-   "citations": 19,
+   "citations": 23,
    "cs": "Metaprogramy v marketingu",
    "data": "data/nlp/metaprogramy.b.toml",
    "depth": 1,
@@ -75992,7 +76218,7 @@
    "url": "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1257
+   "words": 1279
   },
   {
    "aliases": [
@@ -76005,7 +76231,7 @@
    ],
    "broader": "pacing-a-leading",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Zrcadlení",
    "data": "data/nlp/raport-a-kalibrace.toml",
    "depth": 2,
@@ -76146,7 +76372,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1321
+   "words": 1362
   },
   {
    "aliases": [
@@ -76160,7 +76386,7 @@
    ],
    "broader": "zrcadleni",
    "canonical": "",
-   "citations": 15,
+   "citations": 18,
    "cs": "Křížové zrcadlení",
    "data": "data/nlp/raport-a-kalibrace.toml",
    "depth": 3,
@@ -76282,7 +76508,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1222
+   "words": 1225
   },
   {
    "aliases": [
@@ -76294,7 +76520,7 @@
    ],
    "broader": "pacing-a-leading-pojem",
    "canonical": "",
-   "citations": 20,
+   "citations": 24,
    "cs": "Pacing a leading",
    "data": "data/nlp/raport-a-kalibrace.toml",
    "depth": 1,
@@ -76439,7 +76665,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/pacing-a-leading/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1188
+   "words": 1236
   },
   {
    "aliases": [
@@ -76452,7 +76678,7 @@
    ],
    "broader": "pacing-a-leading",
    "canonical": "",
-   "citations": 16,
+   "citations": 21,
    "cs": "Shoda predikátů",
    "data": "data/nlp/raport-a-kalibrace.toml",
    "depth": 2,
@@ -76579,7 +76805,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1161
+   "words": 1168
   },
   {
    "aliases": [
@@ -76593,7 +76819,7 @@
    ],
    "broader": "zrcadleni",
    "canonical": "",
-   "citations": 14,
+   "citations": 17,
    "cs": "Sladění dechu",
    "data": "data/nlp/raport-a-kalibrace.toml",
    "depth": 3,
@@ -76676,7 +76902,8 @@
     "kirsch-lynn-1995",
     "rogers-1951",
     "singer-lalich-1995",
-    "witkowski-2010"
+    "witkowski-2010",
+    "wolpe-1958"
    ],
    "sources_critical": [
     "chartrand-bargh-1999",
@@ -76686,7 +76913,8 @@
     "kirsch-lynn-1995",
     "rogers-1951",
     "singer-lalich-1995",
-    "witkowski-2010"
+    "witkowski-2010",
+    "wolpe-1958"
    ],
    "sources_primary": [
     "bandler-grinder-1975b",
@@ -76719,7 +76947,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1192
+   "words": 1241
   },
   {
    "aliases": [
@@ -76733,7 +76961,7 @@
    ],
    "broader": "zrcadleni",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Sladění hlasu a tempa",
    "data": "data/nlp/raport-a-kalibrace.toml",
    "depth": 3,
@@ -76861,7 +77089,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1194
+   "words": 1223
   },
   {
    "aliases": [
@@ -76874,7 +77102,7 @@
    ],
    "broader": "pacing-a-leading",
    "canonical": "",
-   "citations": 17,
+   "citations": 21,
    "cs": "Zpětné shrnutí",
    "data": "data/nlp/raport-a-kalibrace.toml",
    "depth": 2,
@@ -76997,7 +77225,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1186
+   "words": 1249
   },
   {
    "aliases": [
@@ -77009,7 +77237,7 @@
    ],
    "broader": "kalibrace",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Kalibrace souhlasu a nesouhlasu",
    "data": "data/nlp/raport-a-kalibrace.toml",
    "depth": 1,
@@ -77089,6 +77317,7 @@
     "bandler-grinder-1979",
     "ekman-2003",
     "erickson-rossi-rossi-1976",
+    "gilovich-1991",
     "herman-1992",
     "kahneman-2011",
     "lifton-1961",
@@ -77101,6 +77330,7 @@
    ],
    "sources_critical": [
     "ekman-2003",
+    "gilovich-1991",
     "herman-1992",
     "kahneman-2011",
     "lifton-1961",
@@ -77140,7 +77370,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1215
+   "words": 1234
   },
   {
    "aliases": [
@@ -77293,7 +77523,7 @@
    ],
    "broader": "raport",
    "canonical": "",
-   "citations": 15,
+   "citations": 17,
    "cs": "Přerušení raportu",
    "data": "data/nlp/raport-a-kalibrace.b.toml",
    "depth": 1,
@@ -77412,7 +77642,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1222
+   "words": 1238
   },
   {
    "aliases": [
@@ -77424,7 +77654,7 @@
    ],
    "broader": "raport",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Raport se skupinou",
    "data": "data/nlp/raport-a-kalibrace.b.toml",
    "depth": 1,
@@ -77506,6 +77736,7 @@
     "mcguire-1964",
     "oconnor-seymour-1990",
     "petty-cacioppo-1986",
+    "rogers-1951",
     "singer-lalich-1995",
     "witkowski-2010"
    ],
@@ -77515,6 +77746,7 @@
     "festinger-1957",
     "mcguire-1964",
     "petty-cacioppo-1986",
+    "rogers-1951",
     "singer-lalich-1995",
     "witkowski-2010"
    ],
@@ -77547,7 +77779,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1180
+   "words": 1222
   },
   {
    "aliases": [
@@ -77559,7 +77791,7 @@
    ],
    "broader": "raport",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Sladění hodnot",
    "data": "data/nlp/raport-a-kalibrace.b.toml",
    "depth": 1,
@@ -77682,7 +77914,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1182
+   "words": 1183
   },
   {
    "aliases": [
@@ -77694,7 +77926,7 @@
    ],
    "broader": "raport",
    "canonical": "",
-   "citations": 21,
+   "citations": 23,
    "cs": "Raport jako nástroj vlivu",
    "data": "data/nlp/raport-a-kalibrace.b.toml",
    "depth": 1,
@@ -77836,7 +78068,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1233
+   "words": 1262
   },
   {
    "aliases": [
@@ -77982,7 +78214,7 @@
    ],
    "broader": "kalibrace",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Čtení řeči těla v NLP",
    "data": "data/nlp/raport-a-kalibrace.b.toml",
    "depth": 1,
@@ -78064,6 +78296,7 @@
     "ekman-2003",
     "gilovich-1991",
     "heap-1988",
+    "lifton-1961",
     "oconnor-seymour-1990",
     "satir-1972",
     "sharpley-1987",
@@ -78076,6 +78309,7 @@
     "ekman-2003",
     "gilovich-1991",
     "heap-1988",
+    "lifton-1961",
     "sharpley-1987",
     "vrij-2008",
     "wiseman-2012",
@@ -78112,7 +78346,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1199
+   "words": 1220
   },
   {
    "aliases": [
@@ -78125,7 +78359,7 @@
    ],
    "broader": "raport-jako-nastroj-vlivu",
    "canonical": "",
-   "citations": 19,
+   "citations": 20,
    "cs": "Předstíraná empatie",
    "data": "data/nlp/raport-a-kalibrace.b.toml",
    "depth": 2,
@@ -78258,7 +78492,7 @@
    "url": "kompendium/nlp-vzorce/raport-a-kalibrace/pseudoempatie/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1187
+   "words": 1211
   },
   {
    "aliases": [
@@ -78268,7 +78502,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Dobře formulovaný výsledek",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 0,
@@ -78418,7 +78652,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1194
+   "words": 1211
   },
   {
    "aliases": [
@@ -78430,7 +78664,7 @@
    ],
    "broader": "dobre-formulovany-vysledek",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Kladná formulace cíle",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 1,
@@ -78556,7 +78790,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1182
+   "words": 1197
   },
   {
    "aliases": [
@@ -78568,7 +78802,7 @@
    ],
    "broader": "dobre-formulovany-vysledek",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Smyslové důkazy dosažení",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 1,
@@ -78652,6 +78886,7 @@
     "mcguire-1964",
     "miller-galanter-pribram-1960",
     "oconnor-seymour-1990",
+    "popper-1959",
     "sharpley-1984",
     "sharpley-1987",
     "witkowski-2010",
@@ -78674,7 +78909,8 @@
     "oconnor-seymour-1990"
    ],
    "sources_roots": [
-    "miller-galanter-pribram-1960"
+    "miller-galanter-pribram-1960",
+    "popper-1959"
    ],
    "trainer": [
     {
@@ -78699,7 +78935,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1157
+   "words": 1179
   },
   {
    "aliases": [
@@ -78711,7 +78947,7 @@
    ],
    "broader": "dobre-formulovany-vysledek",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Cíl pod vlastní kontrolou",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 1,
@@ -78835,7 +79071,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1227
+   "words": 1237
   },
   {
    "aliases": [
@@ -78847,7 +79083,7 @@
    ],
    "broader": "dobre-formulovany-vysledek",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Kontext cíle",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 1,
@@ -78972,7 +79208,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1195
+   "words": 1214
   },
   {
    "aliases": [
@@ -78984,7 +79220,7 @@
    ],
    "broader": "dobre-formulovany-vysledek",
    "canonical": "",
-   "citations": 14,
+   "citations": 16,
    "cs": "Zdroje pro dosažení cíle",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 1,
@@ -79109,7 +79345,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1229
+   "words": 1261
   },
   {
    "aliases": [
@@ -79121,7 +79357,7 @@
    ],
    "broader": "dobre-formulovany-vysledek",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Ekologie cíle",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 1,
@@ -79254,7 +79490,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1167
+   "words": 1188
   },
   {
    "aliases": [
@@ -79267,7 +79503,7 @@
    ],
    "broader": "smyslove-dukazy-cile",
    "canonical": "",
-   "citations": 13,
+   "citations": 15,
    "cs": "Důkazní procedura",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 2,
@@ -79396,7 +79632,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1255
+   "words": 1292
   },
   {
    "aliases": [
@@ -79549,7 +79785,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Od problému k výsledku",
    "data": "data/nlp/cile-a-vysledky.toml",
    "depth": 0,
@@ -79674,7 +79910,7 @@
    "url": "kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1175
+   "words": 1188
   },
   {
    "aliases": [
@@ -79686,7 +79922,7 @@
    ],
    "broader": "chunking",
    "canonical": "",
-   "citations": 21,
+   "citations": 22,
    "cs": "Hierarchie myšlenek",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 1,
@@ -79770,6 +80006,7 @@
     "bandler-grinder-1975b",
     "bateson-1972",
     "beck-1976",
+    "copi-cohen-mcmahon-2014",
     "dilts-1999",
     "korzybski-1933",
     "lifton-1961",
@@ -79797,6 +80034,7 @@
    "sources_primary": [
     "bandler-grinder-1975",
     "bandler-grinder-1975b",
+    "copi-cohen-mcmahon-2014",
     "dilts-1999",
     "oconnor-seymour-1990"
    ],
@@ -79830,7 +80068,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1350
+   "words": 1354
   },
   {
    "aliases": [
@@ -79843,7 +80081,7 @@
    ],
    "broader": "hierarchie-idei",
    "canonical": "",
-   "citations": 17,
+   "citations": 21,
    "cs": "Chunking nahoru",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 2,
@@ -79980,7 +80218,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1215
+   "words": 1226
   },
   {
    "aliases": [
@@ -79993,7 +80231,7 @@
    ],
    "broader": "hierarchie-idei",
    "canonical": "",
-   "citations": 19,
+   "citations": 23,
    "cs": "Chunking dolů",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 2,
@@ -80131,7 +80369,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1189
+   "words": 1202
   },
   {
    "aliases": [
@@ -80144,7 +80382,7 @@
    ],
    "broader": "hierarchie-idei",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Laterální chunking",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 2,
@@ -80170,6 +80408,7 @@
     "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md"
    ],
    "links_prose": [
+    "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md",
     "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
@@ -80215,6 +80454,7 @@
    "slug": "lateralni-chunking",
    "sources": [
     "bateson-1972",
+    "copi-cohen-mcmahon-2014",
     "dilts-1999",
     "gilovich-1991",
     "gordon-1978",
@@ -80226,6 +80466,7 @@
     "rosen-1982",
     "tosey-mathison-2009",
     "tversky-kahneman-1974",
+    "walton-reed-macagno-2008",
     "witkowski-2010"
    ],
    "sources_critical": [
@@ -80238,9 +80479,11 @@
     "witkowski-2010"
    ],
    "sources_primary": [
+    "copi-cohen-mcmahon-2014",
     "dilts-1999",
     "gordon-1978",
-    "oconnor-seymour-1990"
+    "oconnor-seymour-1990",
+    "walton-reed-macagno-2008"
    ],
    "sources_roots": [
     "bateson-1972",
@@ -80270,7 +80513,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1189
+   "words": 1233
   },
   {
    "aliases": [
@@ -80281,7 +80524,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Komunikační kategorie Virginie Satirové",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 0,
@@ -80413,7 +80656,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1203
+   "words": 1233
   },
   {
    "aliases": [
@@ -80425,7 +80668,7 @@
    ],
    "broader": "kategorie-satirove",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Usmiřovatel",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 1,
@@ -80545,7 +80788,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/smirovatel/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1169
+   "words": 1171
   },
   {
    "aliases": [
@@ -80557,7 +80800,7 @@
    ],
    "broader": "kategorie-satirove",
    "canonical": "",
-   "citations": 20,
+   "citations": 25,
    "cs": "Obviňovatel",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 1,
@@ -80686,7 +80929,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1172
+   "words": 1180
   },
   {
    "aliases": [
@@ -80699,7 +80942,7 @@
    ],
    "broader": "kategorie-satirove",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Počítač",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 1,
@@ -80782,6 +81025,7 @@
     "sharpley-1987",
     "tosey-mathison-2009",
     "vrij-2008",
+    "watzlawick-1967",
     "witkowski-2010"
    ],
    "sources_critical": [
@@ -80800,7 +81044,8 @@
     "oconnor-seymour-1990"
    ],
    "sources_roots": [
-    "satir-1972"
+    "satir-1972",
+    "watzlawick-1967"
    ],
    "trainer": [
     {
@@ -80825,7 +81070,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/pocitac/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1209
+   "words": 1256
   },
   {
    "aliases": [
@@ -80838,7 +81083,7 @@
    ],
    "broader": "kategorie-satirove",
    "canonical": "",
-   "citations": 18,
+   "citations": 21,
    "cs": "Rozptylovač",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 1,
@@ -80907,6 +81152,7 @@
    ],
    "slug": "rozptylovac",
    "sources": [
+    "erickson-rossi-rossi-1976",
     "grice-1975",
     "grinder-bandler-1976",
     "herman-1992",
@@ -80927,6 +81173,7 @@
     "grinder-bandler-1976"
    ],
    "sources_roots": [
+    "erickson-rossi-rossi-1976",
     "grice-1975",
     "levinson-1983",
     "satir-1972",
@@ -80955,7 +81202,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1197
+   "words": 1217
   },
   {
    "aliases": [
@@ -80968,7 +81215,7 @@
    ],
    "broader": "kategorie-satirove",
    "canonical": "",
-   "citations": 18,
+   "citations": 20,
    "cs": "Vyrovnaný",
    "data": "data/nlp/jazykove-vzorce.toml",
    "depth": 1,
@@ -81097,7 +81344,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1189
+   "words": 1191
   },
   {
    "aliases": [
@@ -81374,7 +81621,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Záměna „ale“ za „a“",
    "data": "data/nlp/jazykove-vzorce.b.toml",
    "depth": 0,
@@ -81489,7 +81736,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1268
+   "words": 1271
   },
   {
    "aliases": [
@@ -81499,7 +81746,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 18,
    "cs": "Slovo „protože“",
    "data": "data/nlp/jazykove-vzorce.b.toml",
    "depth": 0,
@@ -81608,7 +81855,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/protoze/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1271
+   "words": 1284
   },
   {
    "aliases": [
@@ -81618,7 +81865,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Slovo „zatím“",
    "data": "data/nlp/jazykove-vzorce.b.toml",
    "depth": 0,
@@ -81733,7 +81980,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/zatim/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1279
+   "words": 1283
   },
   {
    "aliases": [
@@ -81743,7 +81990,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 14,
+   "citations": 15,
    "cs": "Slovo „zkusit“",
    "data": "data/nlp/jazykove-vzorce.b.toml",
    "depth": 0,
@@ -81857,7 +82104,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/zkusit/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1276
+   "words": 1277
   },
   {
    "aliases": [
@@ -81867,7 +82114,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Výzva „představte si“",
    "data": "data/nlp/jazykove-vzorce.b.toml",
    "depth": 0,
@@ -81985,7 +82232,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1275
+   "words": 1276
   },
   {
    "aliases": [
@@ -81995,7 +82242,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Otázky místo tvrzení",
    "data": "data/nlp/jazykove-vzorce.b.toml",
    "depth": 0,
@@ -82119,7 +82366,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1295
+   "words": 1296
   },
   {
    "aliases": [
@@ -82275,7 +82522,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Časové posuny v jazyce",
    "data": "data/nlp/jazykove-vzorce.b.toml",
    "depth": 0,
@@ -82392,7 +82639,7 @@
    "url": "kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce/",
    "use": "dvoji",
    "use_cs": "terapeutické i vlivové",
-   "words": 1261
+   "words": 1265
   },
   {
    "aliases": [
@@ -82404,7 +82651,7 @@
    ],
    "broader": "ericksonovska-hypnoza",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Konverzační hypnóza",
    "data": "data/nlp/vliv-a-zneuziti.toml",
    "depth": 1,
@@ -82543,7 +82790,7 @@
    "url": "kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1318
+   "words": 1342
   },
   {
    "aliases": [
@@ -82702,7 +82949,7 @@
    ],
    "broader": "nlp-v-prodeji",
    "canonical": "",
-   "citations": 15,
+   "citations": 16,
    "cs": "Předpokládané uzavření",
    "data": "data/nlp/vliv-a-zneuziti.toml",
    "depth": 1,
@@ -82823,7 +83070,7 @@
    "url": "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1235
+   "words": 1249
   },
   {
    "aliases": [
@@ -82835,7 +83082,7 @@
    ],
    "broader": "nlp-v-prodeji",
    "canonical": "",
-   "citations": 17,
+   "citations": 18,
    "cs": "Alternativní uzavření",
    "data": "data/nlp/vliv-a-zneuziti.toml",
    "depth": 1,
@@ -82962,7 +83209,7 @@
    "url": "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1232
+   "words": 1251
   },
   {
    "aliases": [
@@ -82974,7 +83221,7 @@
    ],
    "broader": "nlp-v-prodeji",
    "canonical": "",
-   "citations": 16,
+   "citations": 17,
    "cs": "Budoucí přehrávání v prodeji",
    "data": "data/nlp/vliv-a-zneuziti.toml",
    "depth": 1,
@@ -83100,7 +83347,7 @@
    "url": "kompendium/nlp-vzorce/vliv-a-zneuziti/budouci-prehravani-v-prodeji/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1245
+   "words": 1261
   },
   {
    "aliases": [
@@ -84628,7 +84875,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 13,
+   "citations": 14,
    "cs": "Hypnotický jazyk v online obsahu",
    "data": "data/nlp/vliv-a-zneuziti.b.toml",
    "depth": 0,
@@ -84706,6 +84953,7 @@
    "sources": [
     "bandler-grinder-1975b",
     "kirsch-lynn-1995",
+    "lilienfeld-2015",
     "petty-cacioppo-1986",
     "tversky-kahneman-1981",
     "witkowski-2010",
@@ -84713,6 +84961,7 @@
    ],
    "sources_critical": [
     "kirsch-lynn-1995",
+    "lilienfeld-2015",
     "petty-cacioppo-1986",
     "tversky-kahneman-1981",
     "witkowski-2010",
@@ -84745,7 +84994,7 @@
    "url": "kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online/",
    "use": "vliv",
    "use_cs": "převážně vlivové",
-   "words": 1251
+   "words": 1263
   },
   {
    "aliases": [
@@ -85174,7 +85423,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 31,
+   "citations": 33,
    "cs": "Stav důkazů o NLP",
    "data": "data/nlp/kriticke-hodnoceni.toml",
    "depth": 0,
@@ -85320,7 +85569,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1400
+   "words": 1420
   },
   {
    "aliases": [
@@ -85332,7 +85581,7 @@
    ],
    "broader": "stav-dukazu-nlp",
    "canonical": "",
-   "citations": 20,
+   "citations": 21,
    "cs": "Výzkum preferovaného reprezentačního systému",
    "data": "data/nlp/kriticke-hodnoceni.toml",
    "depth": 1,
@@ -85410,6 +85659,7 @@
     "druckman-swets-1988",
     "grinder-bandler-1976",
     "heap-1988",
+    "miller-rollnick-2013",
     "oconnor-seymour-1990",
     "passmore-rowson-2019",
     "rogers-1951",
@@ -85422,6 +85672,7 @@
     "cialdini-2009",
     "druckman-swets-1988",
     "heap-1988",
+    "miller-rollnick-2013",
     "passmore-rowson-2019",
     "rogers-1951",
     "sharpley-1984",
@@ -85458,7 +85709,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1159
+   "words": 1172
   },
   {
    "aliases": [
@@ -85469,7 +85720,7 @@
    ],
    "broader": "stav-dukazu-nlp",
    "canonical": "",
-   "citations": 19,
+   "citations": 23,
    "cs": "Výzkum očních přístupových signálů",
    "data": "data/nlp/kriticke-hodnoceni.toml",
    "depth": 1,
@@ -85593,7 +85844,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1177
+   "words": 1195
   },
   {
    "aliases": [
@@ -85602,7 +85853,7 @@
    "ancestors": [],
    "broader": "",
    "canonical": "",
-   "citations": 24,
+   "citations": 26,
    "cs": "NLP jako pseudověda",
    "data": "data/nlp/kriticke-hodnoceni.toml",
    "depth": 0,
@@ -85630,6 +85881,7 @@
    "links_prose": [
     "glossary/pseudoscience.md",
     "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md",
+    "kompendium/argumentacni-fauly/relevance/ad-hominem.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md",
     "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
@@ -85695,6 +85947,7 @@
     "sharpley-1987",
     "sturt-2012",
     "tosey-mathison-2009",
+    "walton-2008",
     "witkowski-2010",
     "van-der-linden-2023"
    ],
@@ -85714,7 +85967,9 @@
     "witkowski-2010",
     "van-der-linden-2023"
    ],
-   "sources_primary": [],
+   "sources_primary": [
+    "walton-2008"
+   ],
    "sources_roots": [],
    "trainer": [
     {
@@ -85739,7 +85994,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1215
+   "words": 1251
   },
   {
    "aliases": [
@@ -85751,7 +86006,7 @@
    ],
    "broader": "stav-dukazu-nlp",
    "canonical": "",
-   "citations": 17,
+   "citations": 20,
    "cs": "Delfská studie zdiskreditovaných metod",
    "data": "data/nlp/kriticke-hodnoceni.toml",
    "depth": 1,
@@ -85867,7 +86122,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1157
+   "words": 1199
   },
   {
    "aliases": [
@@ -85879,7 +86134,7 @@
    ],
    "broader": "stav-dukazu-nlp",
    "canonical": "",
-   "citations": 16,
+   "citations": 19,
    "cs": "Systematický přehled účinků na zdraví",
    "data": "data/nlp/kriticke-hodnoceni.toml",
    "depth": 1,
@@ -85956,6 +86211,7 @@
     "lilienfeld-2015",
     "norcross-2006",
     "passmore-rowson-2019",
+    "rogers-1951",
     "sharpley-1987",
     "sturt-2012",
     "witkowski-2010",
@@ -85968,6 +86224,7 @@
     "lilienfeld-2015",
     "norcross-2006",
     "passmore-rowson-2019",
+    "rogers-1951",
     "sharpley-1987",
     "sturt-2012",
     "witkowski-2010",
@@ -86001,7 +86258,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1188
+   "words": 1226
   },
   {
    "aliases": [
@@ -86012,7 +86269,7 @@
    ],
    "broader": "stav-dukazu-nlp",
    "canonical": "",
-   "citations": 18,
+   "citations": 24,
    "cs": "Databáze výzkumu NLP",
    "data": "data/nlp/kriticke-hodnoceni.toml",
    "depth": 1,
@@ -86131,7 +86388,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1184
+   "words": 1239
   },
   {
    "aliases": [
@@ -86282,7 +86539,7 @@
    ],
    "broader": "stav-dukazu-nlp",
    "canonical": "",
-   "citations": 18,
+   "citations": 19,
    "cs": "Výzkum NLP v koučinku",
    "data": "data/nlp/kriticke-hodnoceni.b.toml",
    "depth": 1,
@@ -86401,7 +86658,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-v-koucinku-vyzkum/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1244
+   "words": 1262
   },
   {
    "aliases": [
@@ -86413,7 +86670,7 @@
    ],
    "broader": "nlp-jako-pseudoveda",
    "canonical": "",
-   "citations": 17,
+   "citations": 20,
    "cs": "Falzifikovatelnost NLP",
    "data": "data/nlp/kriticke-hodnoceni.b.toml",
    "depth": 1,
@@ -86498,6 +86755,7 @@
     "hassan-1988",
     "lilienfeld-2015",
     "oconnor-seymour-1990",
+    "popper-1959",
     "sharpley-1984",
     "sharpley-1987",
     "sturt-2012",
@@ -86520,7 +86778,9 @@
     "dilts-1980",
     "oconnor-seymour-1990"
    ],
-   "sources_roots": [],
+   "sources_roots": [
+    "popper-1959"
+   ],
    "trainer": [
     {
      "benign": false,
@@ -86544,7 +86804,7 @@
    "url": "kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp/",
    "use": "zadne",
    "use_cs": "výkladový pojem",
-   "words": 1199
+   "words": 1202
   },
   {
    "aliases": [
@@ -87835,6 +88095,11 @@
    "entry": "Andreas, C., & Andreas, T. (1994). *Core Transformation: Reaching the Wellspring Within*. Moab: Real People Press.",
    "group": "primary"
   },
+  "arkes-blumer-1985": {
+   "cite": "Arkes a Blumer 1985",
+   "entry": "Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124–140.",
+   "group": "critical"
+  },
   "bandler-1985": {
    "cite": "Bandler 1985",
    "entry": "Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.",
@@ -87900,6 +88165,16 @@
    "entry": "Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.",
    "group": "critical"
   },
+  "copi-cohen-mcmahon-2014": {
+   "cite": "Copi, Cohen a McMahon 2014",
+   "entry": "Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.",
+   "group": "primary"
+  },
+  "damer-2009": {
+   "cite": "Damer 2009",
+   "entry": "Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.",
+   "group": "primary"
+  },
   "dilts-1980": {
    "cite": "Dilts a kol. 1980",
    "entry": "Dilts, R., Grinder, J., Bandler, R., & DeLozier, J. (1980). *Neuro-Linguistic Programming: Volume I. The Study of the Structure of Subjective Experience*. Cupertino: Meta Publications.",
@@ -87934,6 +88209,11 @@
    "cite": "Druckman a Swets 1988",
    "entry": "Druckman, D., & Swets, J. A. (Eds.) (1988). *Enhancing Human Performance: Issues, Theories, and Techniques*. Washington, DC: National Academy Press.",
    "group": "critical"
+  },
+  "eemeren-grootendorst-2004": {
+   "cite": "van Eemeren a Grootendorst 2004",
+   "entry": "van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.",
+   "group": "primary"
   },
   "ekman-2003": {
    "cite": "Ekman 2003",
@@ -88015,6 +88295,11 @@
    "entry": "Hall, L. M., & Bodenhamer, B. G. (1997). *Figuring Out People: Design Engineering with Meta-Programs*. Carmarthen: Crown House Publishing.",
    "group": "primary"
   },
+  "hasher-1977": {
+   "cite": "Hasher, Goldstein a Toppino 1977",
+   "entry": "Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*, 16(1), 107–112.",
+   "group": "critical"
+  },
   "hassan-1988": {
    "cite": "Hassan 1988",
    "entry": "Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.",
@@ -88049,6 +88334,11 @@
    "cite": "Korzybski 1933",
    "entry": "Korzybski, A. (1933). *Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics*. Lancaster: International Non-Aristotelian Library.",
    "group": "roots"
+  },
+  "kunda-1990": {
+   "cite": "Kunda 1990",
+   "entry": "Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.",
+   "group": "critical"
   },
   "lakoff-johnson-1980": {
    "cite": "Lakoff a Johnson 1980",
@@ -88105,6 +88395,11 @@
    "entry": "Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.",
    "group": "critical"
   },
+  "nickerson-1998": {
+   "cite": "Nickerson 1998",
+   "entry": "Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.",
+   "group": "critical"
+  },
   "norcross-2006": {
    "cite": "Norcross, Koocher a Garofalo 2006",
    "entry": "Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.",
@@ -88135,6 +88430,11 @@
    "entry": "Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.",
    "group": "critical"
   },
+  "popper-1959": {
+   "cite": "Popper 1959",
+   "entry": "Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.",
+   "group": "roots"
+  },
   "roderique-davies-2009": {
    "cite": "Roderique-Davies 2009",
    "entry": "Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.",
@@ -88143,6 +88443,11 @@
   "rogers-1951": {
    "cite": "Rogers 1951",
    "entry": "Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.",
+   "group": "critical"
+  },
+  "roozenbeek-2022": {
+   "cite": "Roozenbeek a kol. 2022",
+   "entry": "Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.",
    "group": "critical"
   },
   "rosen-1982": {
@@ -88209,6 +88514,21 @@
    "cite": "Vrij 2008",
    "entry": "Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.",
    "group": "critical"
+  },
+  "walton-1995": {
+   "cite": "Walton 1995",
+   "entry": "Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.",
+   "group": "primary"
+  },
+  "walton-2008": {
+   "cite": "Walton 2008",
+   "entry": "Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.",
+   "group": "primary"
+  },
+  "walton-reed-macagno-2008": {
+   "cite": "Walton, Reed a Macagno 2008",
+   "entry": "Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.",
+   "group": "primary"
   },
   "watzlawick-1967": {
    "cite": "Watzlawick, Beavin a Jackson 1967",

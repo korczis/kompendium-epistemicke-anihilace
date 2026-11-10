@@ -44,10 +44,10 @@ catalog_prev = "kontrola-tonu"
 catalog_next = ""
 catalog_position = 28
 catalog_family_size = 28
-catalog_sources = ["copi-cohen-mcmahon-2014", "grice-1975", "hamblin-1970", "kahneman-2011", "stanovich-west-2000", "toulmin-1958", "walton-1995", "walton-2008", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources = ["copi-cohen-mcmahon-2014", "grice-1975", "hamblin-1970", "kahneman-2011", "lifton-1961", "stanovich-west-2000", "toulmin-1958", "walton-1995", "walton-2008", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "toulmin-1958", "walton-1995", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975", "whately-1826"]
-catalog_sources_critical = ["kahneman-2011", "stanovich-west-2000"]
+catalog_sources_critical = ["kahneman-2011", "lifton-1961", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -121,7 +121,8 @@ vyvrací jiné stanovisko, než jaké protivník zastává.
 [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) zavádí téma, které
 odvádí pozornost od sporu. [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md)
 přenáší diskusi na provinění kritika. Útoky na osobu a apely na emoce posuzují mluvčího nebo
-posluchače místo stanoviska. Společné je jim to, že argumentace se vztahuje k jinému
+posluchače místo stanoviska; už Whately podřazoval irelevantnímu závěru argumenty obracející
+se k osobě nebo k citům posluchačů (Whately 1826). Společné je jim to, že argumentace se vztahuje k jinému
 stanovisku, než k jakému byla přizvána. Kompendium popisuje soustavné přesměrování diskuse k
 snáze obhajitelným tvrzením jako [tematickou diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md).
 
@@ -132,7 +133,9 @@ vyhnout odpovědnosti, aniž by bylo nutné cokoli popřít. Instituce, která �
 konkrétního člověka poškodila, odpovídá výkladem o svých hodnotách, o kvalitě svých postupů
 nebo o závažnosti problému, s nímž se potýká, a výtka zůstává bez odpovědi. Mentor nebo
 vedoucí skupiny na otázku po konkrétním jednání odpovídá připomenutím, jak důležité je
-poslání, jemuž všichni slouží. V obou případech jsou premisy často pravdivé, a proto se
+poslání, jemuž všichni slouží. Lifton popsal v uzavřených ideologických prostředích zásadu
+nadřazení doktríny osobě, podle níž se konkrétní zkušenost člověka podřizuje nárokům
+ideologie (Lifton 1961). V obou případech jsou premisy často pravdivé, a proto se
 posluchači těžko brání: nesouhlas s argumentem vypadá jako nesouhlas s hodnotami nebo s
 posláním. Kompendium popisuje příbuzný vzorec u
 [argumentačního oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md), kde se
@@ -207,6 +210,7 @@ samostatné (van Eemeren a Grootendorst 2004).
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? *Behavioral and Brain Sciences*, 23(5), 645–665.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.

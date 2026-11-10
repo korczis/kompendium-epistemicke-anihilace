@@ -168,7 +168,9 @@ ztrátě práce, při konfliktu na pracovišti, v osobní krizi nebo pod tlakem 
 který koučink platí. V takové situaci je vnímavější k příslibu rychlé změny a méně ochotný
 zpochybňovat autoritu, které se svěřil. Pokud kouč nerozpozná, že problém klienta přesahuje
 rámec koučinku, například jde o depresi nebo o důsledky traumatu, může technika slibující
-„přeprogramování“ oddálit vhodnou odbornou pomoc. Tato rizika nejsou specifická pro NLP,
+„přeprogramování“ oddálit vhodnou odbornou pomoc, a právě oddálení účinné péče řadí
+metodologie klinické psychologie k hlavním škodám neověřených postupů (Lilienfeld, Lynn a Lohr
+2015). Tato rizika nejsou specifická pro NLP,
 ale nadsazená tvrzení o účinnosti je zvětšují, protože posilují dojem, že kouč disponuje
 metodou, která si poradí s čímkoli.
 

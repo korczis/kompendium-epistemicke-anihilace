@@ -145,7 +145,8 @@ identita vnímá jako cizí a nebezpečná (Hassan 1988). Souvisí s tím heslo 
 U člověka, na kterého je vzorec uplatňován, se projevuje přerušení životního příběhu. Mluví
 o svém dřívějším životě s odstupem, který neodpovídá času, jenž uplynul, a někdy s lehkým
 pohrdáním, které nepůsobí jako jeho vlastní. Obtížně si vybavuje, proč dříve zastával
-určité hodnoty, a vysvětlení přebírá od skupiny. Když se vztahy z minulosti pokusí
+určité hodnoty, a vysvětlení přebírá od skupiny, jak to odpovídá Liftonovu popisu
+totalistického prostředí, které přepisuje osobní minulost člena (Lifton 1961). Když se vztahy z minulosti pokusí
 obnovit kontakt, reaguje s nejistotou, zda vůbec patří do jeho současnosti. To odpovídá
 popisu náhrady osobního narativu cizím rámcem, kterou kompendium rozebírá v hesle o
 [nahrazení vlastního životního příběhu](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md).
@@ -197,7 +198,8 @@ něm (Herman 1992).
 
 V klinické práci s lidmi, kteří opouštějí kontrolující skupinu, se proto obvykle postupuje
 opačně, než by naznačovalo manipulativní užití vzorce: dřívější já se z muzea „vrací“ a
-s ním hodnoty, schopnosti a vztahy, které skupina odsunula. Obnovu identity po takové
+s ním hodnoty, schopnosti a vztahy, které skupina odsunula; Hassan popisuje odchod ze skupiny jako posilování
+původní identity, kterou skupinová identita překryla (Hassan 1988). Obnovu identity po takové
 zkušenosti popisuje heslo o
 [identitní rekonstituci](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md).
 Teprve když je kontinuita obnovena, může člověk sám rozhodnout, která přesvědčení skupiny

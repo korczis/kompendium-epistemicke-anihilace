@@ -129,7 +129,8 @@ Institucionální eufemismus chrání organizaci: selhání péče se v interní
 „nežádoucí událostí“, propuštění „restrukturalizací“ a únik dat „bezpečnostním
 incidentem“, takže odpovědnost se rozplývá v procesu. Vztahový eufemismus chrání toho, kdo
 ubližuje: kontrola se nazývá „starostí“, žárlivost „láskou“, výbuch vzteku „ztrátou
-nervů“, a člověk, který násilí zažívá, ho pak sám obtížně pojmenuje. Válečný a
+nervů“, a člověk, který násilí zažívá, ho pak sám obtížně pojmenuje. Hermanová popisuje, jak
+pachatel vlastní násilí zlehčuje a jak toto zlehčení přebírá i okolí (Herman 1992). Válečný a
 bezpečnostní eufemismus vzdaluje posluchače od obrazu zraněných a mrtvých. Na druhé straně
 stojí dysfemismus, který slouží vylučování: kritik se stává „štváčem“, pacient
 „simulantem“, oběť „hysterkou“. Zvláštní variantou je přepínání mezi oběma směry v jedné

@@ -39,13 +39,13 @@ catalog_related = ["existencni-klam", "klam-modalniho-rozsahu", "texasky-strelec
 catalog_related_declared = ["univerzalni-kvantifikator", "rozsahova-dvojznacnost", "klam-skladani", "klam-modalniho-rozsahu", "texasky-strelec"]
 catalog_kompendium = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md"]
+catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md", "kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md"]
 catalog_prev = "vylucujici-premisy"
 catalog_next = "klam-modalniho-rozsahu"
 catalog_position = 11
 catalog_family_size = 14
-catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "gilovich-1991", "kahneman-2011", "popper-1959", "tversky-kahneman-1983", "walton-1995", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004", "van-der-linden-2023"]
-catalog_sources_primary = ["copi-cohen-mcmahon-2014", "walton-1995", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
+catalog_sources = ["bandler-grinder-1975", "cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "gilovich-1991", "kahneman-2011", "popper-1959", "tversky-kahneman-1983", "walton-1995", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004", "van-der-linden-2023"]
+catalog_sources_primary = ["bandler-grinder-1975", "copi-cohen-mcmahon-2014", "walton-1995", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "gilovich-1991", "kahneman-2011", "tversky-kahneman-1983", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
@@ -87,7 +87,9 @@ ukazuje, že vícenásobně obecné výroky nelze bez ztráty smyslu číst libo
 McMahon 2014).
 
 V běžném jazyce se kvantifikátory nevyjadřují symboly, ale slovy jako „každý“, „někdo“,
-„nějaký“, „vždy“ a „jeden“, a pořadí, v jakém se mají číst, často neurčuje slovosled. Proto
+„nějaký“, „vždy“ a „jeden“; učebnice logiky proto věnují zvláštní pozornost převodu takových
+slov do symbolického zápisu (Copi, Cohen a McMahon 2014). Pořadí, v jakém se mají číst, často neurčuje
+slovosled. Proto
 je klam snadno přehlédnutelný a proto má v kompendiu místo: z věty, která tvrdí rozptýlenou
 rozmanitost příčin, dělá větu o jediné skryté příčině.
 
@@ -125,7 +127,8 @@ selhání mělo nějakou příčinu, tedy existuje jedna kořenová příčina, 
 Personální: „každý z incidentů zavinil někdo z oddělení, tedy je v oddělení jeden viník“.
 Normativní: „pro každý problém existuje řešení, tedy existuje řešení všech problémů“, často
 s nabídkou, že ho mluvčí zná. Ve všech případech se z rozptýleného tvrzení „ke každému
-nějaké“ stává soustředěné tvrzení „jedno ke všem“.
+nějaké“ stává soustředěné tvrzení „jedno ke všem“. Všechny tyto podoby vycházejí vstříc sklonu
+vidět ve shlucích událostí společnou příčinu i tam, kde jde o náhodu (Gilovich 1991).
 
 Jazyková stránka souvisí s tím, co katalog NLP popisuje jako
 [rozsahovou dvojznačnost](@/kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md):
@@ -133,12 +136,15 @@ věta připouští dvojí čtení podle toho, jak daleko sahá působnost slova.
 kvantifikátorů je tato dvojznačnost mezi „každý“ a „nějaký“, a posluchač, který si vybere
 silnější čtení, má dojem, že slyšel důkaz. S meta-modelem NLP sdílí klam i zájem o
 [univerzální kvantifikátory](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md),
-tedy o slova typu „všichni“ a „vždy“, jejichž rozsah je v rozhovoru nejasný.
+tedy o slova typu „všichni“ a „vždy“, jejichž rozsah je v rozhovoru nejasný; [meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) je
+uvádí jako zobecnění, které vymazává výjimky z mluvčího modelu světa (Bandler a Grinder 1975).
 
 ## Detekční znaky
 
 Hlavním znakem je přechod od množného k jednotnému: série jednotlivých případů, každý se
-svým vysvětlením, se v závěru shrne pod jedno jméno, jednu skupinu nebo jednu příčinu. Druhým
+svým vysvětlením, se v závěru shrne pod jedno jméno, jednu skupinu nebo jednu příčinu. Takové shrnutí působí
+přesvědčivě, protože intuitivní myšlení dává přednost soudržnému příběhu a neúplnost podkladů
+nevnímá (Kahneman 2011). Druhým
 znakem je, že společný prvek v premisách doložen není; doložena je jen existence nějakého
 prvku v každém případě zvlášť. Třetím znakem je funkce závěru: jediný původce je často
 pojmenován jako nepřítel, [jediná příčina](@/kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md) jako něco, co lze jedním zásahem odstranit, a
@@ -158,7 +164,9 @@ prošly jednou plnicí linkou, všechny incidenty se staly za směny téhož čl
 dokumenty podepsal tentýž úředník. Pak tvrzení „existuje jedno y pro všechna x“ není
 odvozeno, ale zjištěno, a hledání v tomto místě je rozumné. Rozumná je i hypotéza o společné
 příčině, která se předkládá jako hypotéza a je otevřena testování: když se několik incidentů
-podobá, je legitimní se ptát, zda nemají společný zdroj, a pak to ověřit.
+podobá, je legitimní se ptát, zda nemají společný zdroj, a pak to ověřit. Hypotéza má
+empirickou hodnotu právě tím, že ji lze podrobit zkoušce, která ji může vyvrátit (Popper
+1959).
 
 Rozdíl je tedy v epistemickém postavení závěru. Klam vydává jedinou příčinu za důsledek
 premis; platný postup ji vydává za možnost, kterou je třeba prověřit. Teorie kritické
@@ -200,6 +208,7 @@ zavádějícího argumentu a pak ji pozná i v nové podobě (van der Linden 202
 
 ## Literatura
 
+- Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
 - Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.

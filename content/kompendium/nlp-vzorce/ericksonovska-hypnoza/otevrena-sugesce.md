@@ -108,7 +108,7 @@ snadno působí jako potvrzené (Gilovich 1991).
 ## Struktura vzorce
 
 Otevřená sugesce se skládá ze dvou vrstev, které je třeba v analýze rozlišovat. První vrstva
-je otevřená forma: neurčité výrazy jako „nějak“, „něco“, „svým vlastním způsobem“, „možná“,
+je otevřená forma, jak ji popisují Erickson a Rossi (Erickson, Rossi a Rossi 1976): neurčité výrazy jako „nějak“, „něco“, „svým vlastním způsobem“, „možná“,
 „dříve nebo později“ a výčty, které naznačují rozmanitost možností. Druhá vrstva je rámec
 výkladu, tedy to, co mluvčí říká o významu kterékoli z otevřených možností. V čistě otevřené
 sugesci druhá vrstva chybí nebo je rovněž otevřená: posluchač si vybírá jak zkušenost, tak
@@ -153,7 +153,8 @@ autoritu nad významem jeho zkušenosti (Rogers 1951).
 
 Manipulativní užití nastává, když otevřená forma slouží jako síť, která zachytí jakýkoli
 prožitek, a uzavřený výklad ho pak přivlastní mluvčímu nebo skupině. V takovém užití
-otevřenost neslouží autonomii posluchače, ale zvyšuje šanci, že sugesce „vyjde“. Člověk má
+otevřenost neslouží autonomii posluchače, ale zvyšuje šanci, že sugesce „vyjde“, protože
+mnohoznačný prožitek lidé snadno čtou jako potvrzení toho, co očekávají (Gilovich 1991). Člověk má
 přitom silný dojem, že prožitek je jeho vlastní, protože jeho podobu si skutečně vybral sám;
 nevšimne si, že výklad si nevybral. Tato asymetrie činí manipulativní otevřenou sugesci
 odolnou proti kritice: pochybující účastník slyší, že jeho prožitek „byl jen jiný“, nikoli

@@ -125,7 +125,7 @@ považuje za přechod od provázení k vedení a zahrnuje ho do obecného schém
 Z hlediska pozorovatele je podstatné, že vzorec je navržen tak, aby obešel vědomou
 pozornost. Na rozdíl od otevřeného přizpůsobení, kdy terapeut zpomalí řeč a řekne, že
 zpomaluje, je u křížového zrcadlení cílem právě to, aby si druhý souvislosti nevšiml. Tím
-se odlišuje od běžných projevů empatie, které bývají viditelné a lze o nich mluvit. Skrytost
+se odlišuje od běžných projevů empatie, které bývají viditelné a lze o nich mluvit (Rogers 1951). Skrytost
 sama o sobě neznamená, že technika účinkuje. Znamená však, že pokud účinkuje, odehrává se
 mimo souhlas druhého, a tím vstupuje do oblasti, kterou kompendium popisuje u
 manipulace prostorem a tělem v kapitole o [strategické proxemice](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md).
@@ -147,7 +147,7 @@ běžnému ověřování (Lilienfeld, Lynn a Lohr 2015).
 Pro účastníka rozhovoru je přímé pozorování obtížné a nemělo by se na něj spoléhat. Spíše
 lze sledovat vlastní stav. Pokud se v rozhovoru s neznámým člověkem objeví neobvykle silné
 uvolnění, pocit, že „všechno plyne“, a zároveň tlak k rozhodnutí, je rozumné rozhovor
-zpomalit nebo přerušit. Odborník, který hodnotí, zda byl klient vystaven systematickému
+zpomalit nebo přerušit (Cialdini 2009). Odborník, který hodnotí, zda byl klient vystaven systematickému
 vlivu, se může opřít o pozorovací postupy popsané v kompendiu u
 [pozorovacího hodnocení](@/kompendium/techniques/ea-6-1-4-observational-assessment.md), kde
 se pozornost věnuje celému vzorci interakce, ne jednotlivým gestům.
@@ -191,7 +191,7 @@ ovlivňují, jak příjemně interakci prožíváme.
 Protože se křížové zrcadlení špatně odhaluje, neměla by obrana stát na pozorování gest.
 Účinnější je chránit rozhodování. Když se v krátkém rozhovoru objeví silný pocit souladu a k
 němu žádost, nabídka nebo nátlak na rychlé rozhodnutí, je vhodné rozhodnutí odložit,
-požádat o písemné podklady a posoudit je s odstupem. Pomáhá také změnit rytmus rozhovoru
+požádat o písemné podklady a posoudit je s odstupem (Cialdini 2009). Pomáhá také změnit rytmus rozhovoru
 vlastním rozhodnutím: vstát, udělat přestávku, přejít k psaní poznámek. Takové přerušení
 nevyžaduje, aby člověk techniku rozpoznal, a přesto narušuje podmínky, za nichž by mohla
 působit; katalog jev popisuje v hesle [přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md).

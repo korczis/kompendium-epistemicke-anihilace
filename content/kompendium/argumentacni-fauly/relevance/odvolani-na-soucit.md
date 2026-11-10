@@ -139,7 +139,9 @@ nečinnost usnadňuje (Herman 1992). Příbuzný jev v rozhovoru kompendium popi
 V systémech dlouhodobé kontroly se odvolání na soucit neobjevuje jako jednotlivý argument,
 ale jako trvalá atmosféra. Kontrolující osoba se vykresluje jako ta, kdo nejvíce trpí, kdo
 je nepochopen a kdo nese největší břemeno. Druhá strana se tak učí potlačovat vlastní
-potřeby i vlastní vnímání, protože jejich vyslovení by „ublížilo“. Na pracovištích se
+potřeby i vlastní vnímání, protože jejich vyslovení by „ublížilo“. Klinická literatura o traumatu popisuje, jak se
+pozornost člověka v dlouhodobě kontrolujícím vztahu soustředí na potřeby a nálady druhého
+na úkor vlastních (Herman 1992). Na pracovištích se
 podobný vzorec objevuje u vedoucích, kteří kritiku svého řízení vykládají jako osobní
 útok a odkazují na svou přepracovanost. V uzavřených skupinách se soucit váže na vůdce
 nebo na skupinu jako celek, která je údajně pronásledována, takže pochybnosti člena se
@@ -162,7 +164,6 @@ Rétorický přístup připomíná, že hodnocení apelu závisí na publiku a s
 emoce, například lítost, jsou součástí morálního úsudku, a ne jeho poruchou (Tindale
 2007). Klam se tedy nepozná podle síly soucitu, ale podle toho, zda soucit odpovídá
 otázce, kterou má pomoci rozhodnout.
-
 Užitečným testem je záměna osob. Kdyby stejné tvrzení předložil někdo, kdo netrpí, změnil
 by se jeho věcný obsah? Pokud ne, utrpení k pravdivosti tvrzení nic nepřidává a jeho
 zdůraznění slouží k jinému účelu. Pokud ano, například proto, že se rozhoduje právě o

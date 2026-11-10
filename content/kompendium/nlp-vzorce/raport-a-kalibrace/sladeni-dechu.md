@@ -44,10 +44,10 @@ catalog_prev = "shoda-predikatu"
 catalog_next = "sladeni-hlasu-a-tempa"
 catalog_position = 5
 catalog_family_size = 16
-catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "grinder-bandler-1981"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
-catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -102,7 +102,8 @@ zpomalení a uvolnění (Grinder a Bandler 1981). Ericksonovi spolupracovníci z
 tyto postupy byly součástí klinického vztahu, v němž pacient přišel s žádostí o pomoc, a
 nikoli technikami použitelnými bez jeho vědomí (Erickson, Rossi a Rossi 1976).
 
-Mimo NLP pracují s dechem mnohé terapeutické přístupy, od relaxačních technik přes
+Mimo NLP pracují s dechem a tělesným uvolněním mnohé terapeutické přístupy, od
+relaxačních technik, v nichž se klient učí uvolnění, kterým sám tlumí úzkost (Wolpe 1958), přes
 programy založené na všímavosti až po tělově orientované terapie traumatu. Tyto přístupy se
 od vzorce NLP liší v jednom podstatném ohledu: dech je v nich předmětem vědomé pozornosti
 klienta, který se učí vlastní regulaci, a ne kanálem, kterým terapeut nenápadně působí.
@@ -126,7 +127,8 @@ a v hypnotickém kontextu je spojen s jazykovými vzorci, které katalog popisuj
 Pozorovatel by měl odlišit skutečný fyziologický jev od tvrzení o jeho využití. Je běžnou
 zkušeností, že klidný hlas a pomalý rytmus druhého člověka mohou zklidnit, a že úzkost se v
 rozhovoru přenáší. Z toho však neplyne, že sladění dechu představuje spolehlivou páku vlivu
-na rozhodnutí. Vzorec propojuje tělesné uvolnění s obsahem sdělení: sdělení se má dostavit
+na rozhodnutí; hodnocení technik NLP pro americkou Národní radu pro výzkum doklady o
+takovém vlivovém účinku nenašlo (Druckman a Swets 1988). Vzorec propojuje tělesné uvolnění s obsahem sdělení: sdělení se má dostavit
 v okamžiku, kdy je druhý nejvíce uvolněný, typicky na výdech. Manipulativní potenciál leží v
 tomto propojení, protože uvolnění, které je přirozenou součástí dýchání, se má prožít jako
 souhlas.
@@ -137,7 +139,8 @@ Sladění dechu se z pozice účastníka rozhovoru pozoruje obtížně. Zvenčí
 rozboru videozáznamu, lze sledovat, zda mluvčí mluví pravidelně ve fázi výdechu druhého,
 zda jeho pauzy odpovídají nádechům partnera a zda se jeho tempo mění, když se mění dýchání
 partnera. Dalším znakem je postupné zpomalování řeči, ztišování hlasu a prodlužování pauz,
-které nemá zjevný důvod v obsahu rozhovoru. Ve vlivových kontextech se k tomu přidává
+které nemá zjevný důvod v obsahu rozhovoru; právě takové zpomalování popisuje
+literatura oboru jako vedení druhého k uvolnění při indukci transu (Grinder a Bandler 1981). Ve vlivových kontextech se k tomu přidává
 přechod k obrazným popisům uvolnění, bezpečí a pohody, které se pak spojí s nabídkou nebo
 s požadavkem; tento přechod je typický pro to, co se v kurzech prodává jako
 [konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md).
@@ -214,6 +217,7 @@ zotavení z traumatu, které Herman popisuje jako návrat moci a spojení (Herma
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+- Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 

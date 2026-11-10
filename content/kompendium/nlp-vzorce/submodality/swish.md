@@ -124,7 +124,8 @@ výkladu je i takzvaná [ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-
 
 Pozorovatel by měl vidět dvě stránky této struktury. První je, že swish nepracuje s důvody
 reakce, ale s jejím spouštěčem: neptá se, proč člověk zlozvyk má a jakou funkci plní, ale snaží
-se ho přesměrovat. U zlozvyku, který člověk sám chce změnit, to může být přijatelné; u reakce,
+se ho přesměrovat (Bandler 1985). U zlozvyku, který člověk sám chce změnit, to může být
+přijatelné; u reakce,
 která nese informaci, to znamená ztrátu této informace. Druhá je, že žádoucí sebeobraz musí
 někdo vytvořit. Pokud ho vytváří člověk sám, odpovídá jeho hodnotám; pokud ho navrhuje praktik,
 skupina nebo organizace, vkládá se do automatické reakce jejich obraz toho, jakým by měl
@@ -190,8 +191,8 @@ určuje někdo jiný a pokud se změna týká citů k blízkým, k domovu nebo k
 namístě odmítnout. Stesk, lítost a nedůvěra nejsou zlozvyky; nesou informaci o vztazích a o
 ceně, kterou člověk platí. Druhou obranou je nepřijímat sliby rychlé a trvalé změny. Kdo slyší,
 že „za týden se mu stýskat nebude“, má se ptát, proč by to mělo být žádoucí. Třetí obranou je
-omezit opakované vystavení skupinovým cvičením a nahrávkám, které změnu posilují; odstup obnovuje
-schopnost vlastního hodnocení.
+omezit opakované vystavení skupinovým cvičením a nahrávkám, které změnu posilují; odstup
+obnovuje schopnost vlastního hodnocení (Singer a Lalich 1995).
 
 U lidí, u nichž byly city k blízkým soustavně přelaďovány, se po odchodu často objevuje
 zmatek: stesk se vrací spolu s pocitem viny, že „cvičení selhalo“. Zotavení zahrnuje pochopení,

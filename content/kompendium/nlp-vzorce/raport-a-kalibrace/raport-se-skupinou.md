@@ -44,10 +44,10 @@ catalog_prev = "preruseni-raportu"
 catalog_next = "sladeni-hodnot"
 catalog_position = 11
 catalog_family_size = 16
-catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "festinger-1957", "grinder-bandler-1981", "mcguire-1964", "oconnor-seymour-1990", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "festinger-1957", "grinder-bandler-1981", "mcguire-1964", "oconnor-seymour-1990", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1981", "oconnor-seymour-1990"]
 catalog_sources_roots = []
-catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "festinger-1957", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "festinger-1957", "mcguire-1964", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -114,7 +114,8 @@ pojmenovává to, co posluchači zjevně zažívají, únavu, napětí, zvědavo
 že je vidí. Tato vrstva odpovídá jazykovému vzorci
 [pacingu aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md),
 jen je adresována mnoha lidem najednou. Druhá vrstva je synchronizace: společné tleskání,
-vstávání, opakování hesel, zvedání rukou nebo hudba, které sjednocují tělesný stav sálu.
+vstávání, opakování hesel, zvedání rukou nebo hudba, které sjednocují tělesný stav sálu; společné zpěvy a rituály
+popisuje literatura o kultech jako prostředek náboru a upevnění příslušnosti (Singer a Lalich 1995).
 Třetí vrstva je převod společného stavu na společný názor. Řečník mluví v první osobě
 množného čísla, „všichni to tu cítíme“, a odlišuje skupinu od těch venku, kteří „to
 nepochopí“. Tak se emoční souznění mění v identitu a z identity v závazek.
@@ -154,7 +155,9 @@ Legitimní práce s publikem je každodenní součástí výuky, přednášení 
 pozná, že třída je unavená, a zařadí přestávku nebo změnu činnosti, se skupině přizpůsobuje.
 Přednášející, který navazuje na zkušenost posluchačů a mluví jejich jazykem, zlepšuje
 srozumitelnost. Takové užití nesměřuje k rozhodnutí, které by měli posluchači udělat na
-místě, a nechává jim prostor nesouhlasit, ptát se a odejít.
+místě, a nechává jim prostor nesouhlasit, ptát se a odejít. Rogers podobné pojetí výuky popsal
+jako vyučování zaměřené na studenta, v němž učitel vytváří podmínky pro vlastní učení
+posluchačů, místo aby jim vnucoval závěry (Rogers 1951).
 
 Manipulativní užití staví na tom, že rozhodnutí přijde v okamžiku, kdy je jednotlivec
 nejvíce pohlcen atmosférou a nejméně schopen zvažovat. Singer a Lalich popsaly, jak
@@ -204,6 +207,7 @@ zpracovává v obranných a klinických kapitolách, včetně
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
+- Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 

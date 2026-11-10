@@ -44,10 +44,10 @@ catalog_prev = "muzeum-starych-presvedceni"
 catalog_next = "limitujici-presvedceni"
 catalog_position = 3
 catalog_family_size = 14
-catalog_sources = ["beck-1976", "cialdini-2009", "dilts-hallbom-smith-1990", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources = ["beck-1976", "cialdini-2009", "dilts-hallbom-smith-1990", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sources_primary = ["dilts-hallbom-smith-1990", "oconnor-seymour-1990"]
 catalog_sources_roots = []
-catalog_sources_critical = ["beck-1976", "cialdini-2009", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
+catalog_sources_critical = ["beck-1976", "cialdini-2009", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -144,7 +144,8 @@ U člověka, na kterého je vzorec uplatňován, se objevuje zvláštní druh se
 své pocity převádět na čísla a hodnotit se podle stupnice, kterou mu někdo nabídl. Když
 nedosáhne „desítky“, vnímá to jako osobní selhání, nikoli jako přirozenou nejistotu. Někdy
 se objevuje i pocit, že vlastní opatrnost, například vůči ceně kurzu, je jen dalším
-příznakem nízkého přesvědčení o zasloužení. Takový vývoj odpovídá popisu soustavného
+příznakem nízkého přesvědčení o zasloužení; Hassan podobně popisuje, jak kontrolující skupiny
+učí členy vykládat vlastní pochybnosti jako vnitřní selhání (Hassan 1988). Takový vývoj odpovídá popisu soustavného
 oslabování důvěry v sebe, které kompendium rozebírá v hesle o
 [pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md).
 
@@ -194,7 +195,9 @@ Lidé, kteří prošli opakovaným veřejným „auditem“ na seminářích, n�
 pocit, že nejsou dost přesvědčení, dost odhodlaní nebo dost hodni úspěchu. Zotavení zahrnuje
 návrat k hodnocení podle vlastních kritérií a k rozlišení mezi oprávněnou opatrností a
 „nízkým přesvědčením“. Pokud se v průběhu objevuje beznaděj nebo myšlenky na bezcennost,
-patří do péče kvalifikovaného odborníka, který je posoudí jako klinický příznak. Souvislosti
+patří do péče kvalifikovaného odborníka, který je posoudí jako klinický příznak; kognitivní
+terapie řadí beznaděj a pocit bezcennosti u deprese k jádrovým projevům negativního pohledu
+na sebe a budoucnost (Beck 1976). Souvislosti
 s diagnostikou popisuje kapitola o
 [diagnostických indikátorech](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md).
 
@@ -203,6 +206,7 @@ s diagnostikou popisuje kapitola o
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
 - Dilts, R., Hallbom, T., & Smith, S. (1990). *Beliefs: Pathways to Health and Well-Being*. Portland: Metamorphous Press.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press.
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.

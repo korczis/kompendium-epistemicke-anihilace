@@ -113,7 +113,8 @@ Strukturálně jde o rozdíl mezi tím, co cíl vyžaduje, a tím, co je k dispo
 lze vyložit dvojím způsobem. Při prvním výkladu se chybějící zdroj pojmenuje jako skutečná
 překážka, kterou je třeba vyřešit: získat čas, informace, peníze nebo pomoc, případně cíl
 zmenšit nebo odložit. Při druhém výkladu se chybějící zdroj prohlásí za iluzi, protože vše
-potřebné člověk „už v sobě má“, a překážkou se stává jen jeho přesvědčení. Oba výklady mají
+potřebné člověk „už v sobě má“, a překážkou se stává jen jeho přesvědčení; tento výklad
+opakuje předpoklad NLP, že lidé mají zdroje, které potřebují (O'Connor a Seymour 1990). Oba výklady mají
 své místo; první je na místě u vnějších omezení, druhý u situací, kdy člověk skutečně
 podceňuje vlastní schopnosti. Problém vzniká, když se druhý výklad uplatní na první
 situaci, tedy když se vnější omezení vydává za vnitřní blok.
@@ -121,7 +122,9 @@ situaci, tedy když se vnější omezení vydává za vnitřní blok.
 Druhým strukturálním rysem je otázka, odkud chybějící zdroj přijde. V legitimním rozhovoru
 je odpověď otevřená a často mimo vztah, v němž rozhovor probíhá: rodina, přátelé, instituce,
 vlastní úspory. V manipulativním rozhovoru vede odpověď k mluvčímu. Jediným zdrojem, který
-chybí, je právě nabízený kurz, produkt, investice nebo vztah s autoritou. Struktura tak spojí
+chybí, je právě nabízený kurz, produkt, investice nebo vztah s autoritou. Singerová a
+Lalichová popsaly, jak velké skupinové výcviky vedou účastníky k dalším, dražším programům
+(Singer a Lalich 1995). Struktura tak spojí
 dvě věci: popření vnějších omezení („peníze nejsou problém“) a nabídku zdroje, který peníze
 stojí. Tato kombinace je pro vlivové užití typická, protože odstraní námitku dřív, než ji
 člověk vysloví.

@@ -106,7 +106,8 @@ chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md).
 ## Struktura vzorce
 
 Strukturálně jde o rozdělení jednoho popisu do dvou rovin. Rovina chování obsahuje to, co
-člověk dělá, rovina identity to, kým je. Předpoklad stanoví, že úsudek o chování se nemá
+člověk dělá, rovina identity to, kým je (Dilts 1990). Předpoklad stanoví, že úsudek o chování se
+nemá
 automaticky přenášet do roviny identity. Toto rozdělení může fungovat ve dvou směrech, které
 vedou k opačným důsledkům. V ochranném směru brání tomu, aby se z jednotlivé chyby stal soud o
 celé osobě („udělal jsi chybu“, ne „jsi neschopný“), a tím snižuje zahanbení a otevírá prostor
@@ -136,7 +137,8 @@ izolované události, z nichž žádná „nevypovídá“ o tom, kým pachatel 
 
 Užití, které popírá vlastní reakce člověka, se pozná podle toho, že se mluvčí nebo skupina
 staví do role toho, kdo ví, jaké je pravé já druhého. Kritika, smutek nebo nesouhlas se
-nevykládají jako legitimní součást člověka, ale jako cosi, co mu nepatří a čeho se má zbavit. U
+nevykládají jako legitimní součást člověka, ale jako cosi, co mu nepatří a čeho se má zbavit,
+tedy podle vzorce nadřazení doktríny osobě (Lifton 1961). U
 člověka, na kterého je takto působeno, se objevuje odcizení vlastním pocitům, nejistota, které
 reakce jsou „jeho“, a sklon přenechat výklad vlastního nitra autoritě. Kompendium tyto následky
 popisuje v souvislosti s [identitní
@@ -157,11 +159,12 @@ odpovědnosti, nebo k jejímu zrušení? Kdo nese náklady výkladu, ten, kdo je
 bylo ublíženo? A určuje „pravé já“ člověk sám, nebo ho za něj určuje jiný, kdo z toho má
 prospěch? Pokud se výklad používá k návratu oběti do nebezpečného vztahu, nebo k tomu, aby
 člověk přestal důvěřovat vlastním reakcím, předpoklad přestává sloužit ochraně a slouží
-kontrole.
+kontrole, kterou Stark popsal jako soustavné omezování autonomie druhého (Stark 2007).
 
 Pro praxi je užitečné všímat si i opačné chyby, před kterou předpoklad v legitimní podobě
 chrání. Ve vztazích s nadvládou se běžně objevuje globalizující kritika, ve které se jednotlivá
-chyba mění v soud o celé osobě: „jsi k ničemu“, „vždycky všechno zkazíš“. Takové výroky útočí
+chyba mění v soud o celé osobě: „jsi k ničemu“, „vždycky všechno zkazíš“; ponižování patří
+k běžným prostředkům kontrolujícího chování (Stark 2007). Takové výroky útočí
 přímo na identitu a jejich opakování vede k pocitu bezcennosti. Předpoklad, že člověk není své
 chování, zde může sloužit jako obrana: odmítnout přenesení výtky z konkrétního činu na celou
 osobu je legitimní i tehdy, když je výtka sama oprávněná.
@@ -192,7 +195,8 @@ důvěřovat vlastnímu vnímání a úsudku (Herman 1992).
 
 Pro člověka, který odchází ze skupiny nebo vztahu, kde se jeho reakce vykládaly jako „nepravé“,
 je součástí zotavení rekonstrukce vlastní identity zevnitř, nikoli podle definice, kterou mu
-někdo vnutil. Odborník, který s předpokladem pracuje, by ho měl používat v ochranném směru,
+někdo vnutil (Herman 1992). Odborník, který s předpokladem pracuje, by ho měl používat v ochranném
+směru,
 tedy ke snížení zahanbení, a nikdy k tomu, aby klient přijal ubližující chování druhých jako
 něco, co o nich „nevypovídá“.
 

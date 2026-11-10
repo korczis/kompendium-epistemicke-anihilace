@@ -113,8 +113,7 @@ odlišením určité části výpovědi hlasem, a s vloženými příkazy, kter�
 
 ## Struktura vzorce
 
-Všechny tři podoby mají společnou strukturu: posluchač očekává hranici výpovědi na jednom
-místě a mluvčí ji umístí jinam nebo ji vůbec neuzavře. U přesahové věty je klíčovým prvkem
+Všechny tři podoby mají společnou strukturu: posluchač očekává hranici výpovědi na jednom místě a mluvčí ji umístí jinam nebo ji vůbec neuzavře (Bandler a Grinder 1975b). U přesahové věty je klíčovým prvkem
 překryvný úsek, slovo nebo spojení, které gramaticky patří k oběma větám. U nesprávně
 umístěné pauzy je klíčovým prvkem odtržení části věty od jejího syntaktického kontextu,
 takže odtržený úsek zazní jako samostatná výpověď. U nedokončené věty je klíčovým prvkem
@@ -148,8 +147,7 @@ krátkém úseku řeči; už rozbory Ericksonových přepisů, z nichž Milton-m
 jednotlivé vzorce spíše ve shlucích než osamoceně (Bandler a Grinder 1975b).
 
 Na straně posluchače se vzorec projevuje pocitem mírné dezorientace, ztrátou souvislosti
-rozhovoru a dojmem, že „neví, kde přesně se to stočilo“. Po rozhovoru si člověk často
-pamatuje jednotlivé fráze lépe než celkový argument. Takové stopy jsou užitečné jako
+rozhovoru a dojmem, že „neví, kde přesně se to stočilo“. Po rozhovoru si člověk často pamatuje jednotlivé fráze lépe než celkový argument, což odpovídá zjištění, že rozptýlení snižuje schopnost posluchače argumenty sdělení posoudit (Petty a Cacioppo 1986). Takové stopy jsou užitečné jako
 signál, že rozhovor neprobíhal jen na úrovni obsahu.
 
 ## Legitimní a manipulativní užití

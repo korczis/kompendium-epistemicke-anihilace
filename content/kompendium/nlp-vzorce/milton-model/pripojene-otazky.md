@@ -121,8 +121,7 @@ zvážit obsah. Řada takových tvrzení za sebou vytváří rytmus souhlasů, v
 naladí na odpovídání „ano“. Teprve uvnitř tohoto rytmu přichází tvrzení, které by samo o sobě
 vyvolalo pochybnost. Ve výslechové situaci se k tomu přidává autorita tazatele a nejistota
 vyslýchaného ohledně toho, co si přesně pamatuje. Takový člověk může souhlasit s tvrzením
-tazatele, protože nejistotu vyřeší přijetím cizí verze, a souhlas se pak stává součástí
-jeho výpovědi i vzpomínky. Proto je připojená otázka příbuzná
+tazatele, protože nejistotu vyřeší přijetím cizí verze, a souhlas se pak může stát součástí jeho výpovědi i vzpomínky; že znění otázky dokáže pozměnit pozdější vzpomínku, ukázal experiment se svědky dopravní nehody (Loftus a Palmer 1974). Proto je připojená otázka příbuzná
 [presupozicím ve výslechu a svědectví](@/kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md).
 
 ## Detekční znaky

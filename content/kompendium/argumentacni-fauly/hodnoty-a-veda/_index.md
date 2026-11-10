@@ -23,7 +23,7 @@ catalog_en = "Fallacies of value, nature and science"
 catalog_size = 9
 catalog_members = ["naturalisticky-klam", "je-a-ma-byt", "moralisticky-klam", "odvolani-na-starobylost", "vedecky-zargon", "jeden-studie", "odvolani-na-anekdotu", "klam-rovnovahy-dukazu", "klam-placebo"]
 catalog_types = ["concept", "informal", "tactic"]
-catalog_sources = ["boykoff-boykoff-2004", "cook-lewandowsky-ecker-2017", "gilovich-1991", "hamblin-1970", "lilienfeld-2015", "mcguire-1964", "mill-1843", "moore-1903", "popper-1959", "tversky-kahneman-1974", "eemeren-grootendorst-1992"]
+catalog_sources = ["boykoff-boykoff-2004", "cook-lewandowsky-ecker-2017", "gilovich-1991", "hamblin-1970", "lilienfeld-2015", "mcguire-1964", "mill-1843", "moore-1903", "popper-1959", "roozenbeek-2022", "tversky-kahneman-1974", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 +++
 
 # Klamy hodnot, přírody a vědy
@@ -34,8 +34,10 @@ Rodina klamů hodnot, přírody a vědy sdružuje chyby, které vznikají na dvo
 lidského uvažování. První hranice odděluje tvrzení o tom, jak věci jsou, od tvrzení o tom, jak by
 být měly. Druhá hranice odděluje doklady, které o tvrzení skutečně něco vypovídají, od vnějších
 znaků, které jen budí dojem podloženosti. Obě hranice se v běžné řeči snadno překračují, protože
-jazyk faktů a jazyk hodnot se mísí a protože vědecká prestiž se dá napodobit, aniž by se
-napodobily kontrolní mechanismy vědy. Klamy této rodiny proto nejsou výsadou neinformovaných;
+jazyk faktů a jazyk hodnot se mísí a protože vědecká prestiž se dá napodobit, aniž by se napodobily
+kontrolní mechanismy vědy. Přehled pseudovědy v klinické psychologii ji popisuje právě jako soubor
+tvrzení, která přebírají vnější znaky vědy, ale postrádají její mechanismy sebeopravy (Lilienfeld,
+Lynn a Lohr 2015). Klamy této rodiny proto nejsou výsadou neinformovaných;
 dopouštějí se jich odborníci, instituce i média, a často v dobré víře.
 
 Rodinu tvoří tři okruhy. Okruh hranice mezi fakty a hodnotami zahrnuje [problém „je“ a „má
@@ -53,7 +55,9 @@ studií](@/kompendium/argumentacni-fauly/hodnoty-a-veda/jeden-studie.md), [odvol
 anekdotu](@/kompendium/argumentacni-fauly/hodnoty-a-veda/odvolani-na-anekdotu.md), [klam rovnováhy
 důkazů](@/kompendium/argumentacni-fauly/hodnoty-a-veda/klam-rovnovahy-dukazu.md) a [klam
 placeba](@/kompendium/argumentacni-fauly/hodnoty-a-veda/klam-placebo.md). Tyto čtyři chyby spojuje
-to, že doklad v nich existuje a bývá i pravdivý, ale přisuzuje se mu váha, kterou nemá. Úplný
+to, že doklad v nich existuje a bývá i pravdivý, ale přisuzuje se mu váha, kterou nemá. Gilovich to
+ukázal na víře v neúčinné léčebné postupy: skutečně prožité zlepšení, které by nastalo i bez léčby,
+se snadno vyloží jako doklad jejího účinku (Gilovich 1991). Úplný
 přehled hesel s kódy podává tabulka na konci stránky.
 
 ## Původ a souvislosti
@@ -89,7 +93,10 @@ klamů se v praxi uplatňuje ve sporech o zdraví, o bezpečnost a o hodnotách 
 omyl nebo manipulace mají vážné následky. Klam placeba a odvolání na anekdotu se objevují v
 marketingu neúčinných léčebných postupů, které mohou člověka odvést od léčby s prokázaným účinkem.
 Klam rovnováhy důkazů a argument jedinou studií slouží ve veřejných sporech k vytváření dojmu, že
-„věda neví“, a tím k odkladu rozhodnutí. Vědecký žargon a odvolání na starobylost se uplatňují ve
+„věda neví“, a tím k odkladu rozhodnutí. Rozbor amerického tisku ukázal, že vyvážené podání
+klimatické vědy přispělo k rozchodu veřejné debaty s vědeckým poznáním a usnadnilo odklad
+politických opatření (Boykoff a Boykoff 2004). Vědecký žargon a odvolání na starobylost se uplatňují
+ve
 skupinách, které staví autoritu vůdce na údajně vědeckém nebo prastarém učení. Naturalistický a
 moralistický klam se uplatňují tam, kde skupina přepisuje hodnotová měřítka svých členů nebo
 popírá doložené zneužití jen proto, že neodpovídá jejímu obrazu o sobě.
@@ -99,7 +106,9 @@ přisvojuje váhu, kterou nemá. Na druhé straně jde o to, aby kritika klamů 
 zbraň. Kdo každou osobní výpověď odbude jako anekdotu, každý odkaz na hodnoty jako moralismus a
 každé technické vysvětlení jako žargon, nepáchá o nic menší chybu než ten, koho kritizuje. Pro
 kompendium je zvlášť důležité, že svědectví člověka o tom, co zažil, je legitimním dokladem o této
-události; klamem je teprve zobecnění, které z něj vyvozuje víc, než nese. Každé heslo rodiny proto
+události; klamem je teprve zobecnění, které z něj vyvozuje víc, než nese. Teorie argumentace řadí
+svědectví mezi presumptivně oprávněná argumentační schémata, jejichž síla závisí na odpovědích na
+[kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md) (Walton, Reed a Macagno 2008). Každé heslo rodiny proto
 obsahuje oddíl, který odlišuje klam od platné argumentace, a příklady v trenéru vždy zahrnují i
 neškodný kontrast.
 
@@ -112,7 +121,10 @@ tradici](@/kompendium/argumentacni-fauly/relevance/odvolani-na-tradici.md), kter
 mezi klamy relevance. Vědecký žargon je příbuzný [odvolání na nepatřičnou autoritu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md). Argument
 jedinou studií a odvolání na anekdotu stojí vedle ukvapeného zobecnění z rodiny klamů předpokladu
 a vedle zákona malých čísel a zavádějící živosti z rodiny statistických klamů. Klam placeba je
-zvláštním případem kauzálních klamů, zejména úsudku „[po tom, tedy kvůli tomu](@/kompendium/argumentacni-fauly/kauzalni/post-hoc.md)“ a klamu regrese.
+zvláštním případem kauzálních klamů, zejména úsudku
+„[po tom, tedy kvůli tomu](@/kompendium/argumentacni-fauly/kauzalni/post-hoc.md)“ a klamu regrese.
+Gilovich popisuje, že lidé vyhledávají léčbu obvykle tehdy, když jsou obtíže nejhorší, a následné
+zlepšení, které by přišlo i samo, připíší léčbě (Gilovich 1991).
 Klam rovnováhy důkazů má protějšek ve falešné vyváženosti z rodiny rétorických a dialogických
 taktik. Rozdíl mezi rodinami je v úhlu pohledu: tato rodina sdružuje klamy podle oblasti, ve které
 vznikají, tedy podle hranice faktů a hodnot a podle hodnocení vědeckých dokladů, kdežto jiné
@@ -155,7 +167,9 @@ tom, jak staře nebo odborně zní? U argumentů vážení dokladů je to otázk
 doklad zapadá do toho, co se o věci ví, s čím byl srovnán a kolik dalších dokladů ukazuje stejným
 nebo opačným směrem? Tyto otázky nevyžadují odborné vzdělání v daném oboru a nezpochybňují
 upřímnost toho, kdo argumentuje. Vyžadují jen to, aby se argument dal rozložit na části a aby se
-každá část posoudila zvlášť.
+každá část posoudila zvlášť. Odpovídá to přístupu teorie argumentace, která ke každému
+argumentačnímu schématu přiřazuje kritické otázky, jimiž se jeho užití prověřuje (Walton, Reed a
+Macagno 2008).
 
 V institucích, kde se rozhoduje o lidech, se obrana uplatňuje především požadavkem na oddělení
 faktických zjištění od hodnotových kritérií a na výslovné uvedení, o jaké doklady se rozhodnutí
@@ -164,7 +178,9 @@ poctivým vysvětlením, co z ní lze a nelze vyvodit. Pro čtenáře, který se
 němž se fakta podřizovala ideálu skupiny nebo v němž se autorita opírala o neověřitelné učení,
 může být užitečné vědět, že otázka „jak to víme?“ není projevem nedůvěry ani neúcty, ale základním
 nástrojem poznání, ke kterému má právo každý. Hesla rodiny ukazují, jak tuto otázku formulovat u
-jednotlivých klamů, a trenér rozpoznávání umožňuje procvičit ji na příkladech.
+jednotlivých klamů, a trenér rozpoznávání umožňuje procvičit ji na příkladech. Výzkum psychologické
+inokulace naznačuje, že předběžné seznámení s manipulativními technikami zlepšuje schopnost lidí je
+rozpoznat (Roozenbeek a kol. 2022).
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
@@ -232,7 +248,9 @@ flowchart LR
 - Mill, J. S. (1843). *A System of Logic, Ratiocinative and Inductive*. London: John W. Parker.
 - Moore, G. E. (1903). *Principia Ethica*. Cambridge: Cambridge University Press.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
+- Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+- Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->

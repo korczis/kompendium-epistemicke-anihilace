@@ -125,7 +125,7 @@ k představě vytváří zkušenost vlastnictví dříve, než posluchač cokoli
 podobné působení na emoční stav pod prahem pozornosti popisuje u
 [latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md).
 V terapeutickém kontextu se stejný mechanismus využívá opačně: představa slouží k tomu, aby
-klient mohl bezpečně prožít situaci, kterou zatím nezvládá, a připravit se na ni.
+klient mohl bezpečně prožít situaci, kterou zatím nezvládá, a připravit se na ni (Wolpe 1958).
 
 ## Detekční znaky
 

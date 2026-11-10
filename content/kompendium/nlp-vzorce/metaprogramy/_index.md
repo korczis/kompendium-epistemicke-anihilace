@@ -33,7 +33,7 @@ catalog_sources = ["charvet-1997", "cialdini-2009", "freedman-fraser-1966", "gil
 Metaprogramy jsou v neurolingvistickém programování kategorie, které mají popisovat ne to, o
 čem člověk přemýšlí, ale jak přemýšlí: čeho si všímá nejdřív, kde hledá měřítko správnosti,
 jakou úroveň podrobnosti potřebuje, jakou cestou nabývá jistoty a jak reaguje na změnu a
-zátěž. Obecný pojem a jeho postavení v NLP popisuje stránka [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md)
+zátěž (Charvet 1997; Hall a Bodenhamer 1997). Obecný pojem a jeho postavení v NLP popisuje stránka [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md)
 v rodině základních pojmů. Tato rodina se věnuje jednotlivým metaprogramům, každému na
 samostatné stránce, a dvěma oblastem jejich praktického užití. Motivační kategorie zahrnují
 [směr motivace k cíli nebo od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md),
@@ -56,8 +56,7 @@ Většina stránek rodiny má stejnou stavbu. Popisuje kategorii tak, jak ji př
 literatura NLP, uvádí, odkud pochází a s čím v psychologii souvisí, a pak se ptá, k čemu se
 kategorie v přesvědčování a v kontrolujících vztazích používá, jak se to pozná a jak se tomu
 bránit. Všechny metaprogramy mají v katalogu druh „pojem“, protože nepopisují jazykový obrat
-ani postup, ale způsob, jakým obor třídí lidi. Riziko jejich zneužití však není nízké: právě
-jako nástroj třídění se dostávají do prodeje, náboru a skupin s vysokou kontrolou.
+ani postup, ale způsob, jakým obor třídí lidi. Riziko jejich zneužití však není nízké: právě jako nástroj třídění se dostávají do prodeje a náboru, pro které je praktická literatura výslovně nabízí (Charvet 1997), i do skupin s vysokou kontrolou.
 
 ## Původ
 
@@ -73,7 +72,6 @@ pokusili se je uspořádat podle toho, zda se týkají myšlení, emocí, vůle 
 Bodenhamer 1997). Učebnice NLP určené širokému publiku metaprogramy představovaly jako
 pomůcku k porozumění druhým a jako způsob, jak „mluvit jejich jazykem“ (O'Connor a Seymour
 1990).
-
 Je důležité vidět, z čeho metaprogramy nevznikly. Nejsou výsledkem psychometrického
 výzkumu, ve kterém by se kategorie odvodily ze statistické analýzy odpovědí velkého počtu
 lidí a pak ověřovaly. Vznikly z pozorování praktiků, kteří si všímali opakujících se rozdílů
@@ -94,8 +92,7 @@ periferní cestou, tedy pocitem souladu, a ne silou argumentů (Petty a Cacioppo
 že nabídka „sedí“, se pak snadno zamění za pocit, že je dobrá.
 
 Za druhé popisují jednotlivé metaprogramy roviny, na kterých pracují techniky epistemické
-anihilace. Přesun zdroje hodnocení z člověka na autoritu je jádrem kategorie vnitřní a vnější
-reference. Přepis měřítek, podle kterých člověk posuzuje sám sebe, se týká kritérií. Budování
+anihilace. Kategorie vnitřní a vnější reference rozlišuje, zda člověk měřítko správnosti hledá v sobě, nebo u druhých (Charvet 1997), a přesun zdroje hodnocení z člověka na autoritu je přesně její rovinou. Přepis měřítek, podle kterých člověk posuzuje sám sebe, se týká kritérií. Budování
 důvěry řadou malých splněných slibů je rovinou režimu přesvědčení. Izolace zdůvodněná
 domnělým pracovním stylem je rovinou pracovního stylu. Kompendium proto u každé kategorie
 popisuje, jak se dá zneužít, a odkazuje na stránky, kde jsou příbuzné techniky popsány v
@@ -105,8 +102,7 @@ nebo na [pěstování pochybností o sobě](@/kompendium/techniques/ea-2-5-3-sel
 Defenzivní čtení se opírá o několik otázek, které platí pro celou rodinu. Ví člověk, že je
 profilován, a k čemu profil slouží? Nabízí se mu kategorie jako hypotéza, kterou může
 odmítnout, nebo jako fakt o jeho osobě? Rozhoduje se na jejím základě o něm, například o
-přijetí do práce, o roli ve skupině nebo o tom, jaké informace dostane? A slouží ladění
-sdělení porozumění, nebo obejití jeho úsudku? Tyto otázky odlišují legitimní užití, například
+přijetí do práce, o roli ve skupině nebo o tom, jaké informace dostane? A slouží ladění sdělení porozumění, nebo obejití jeho úsudku periferní cestou, na kterou upozorňuje výzkum přesvědčování (Petty a Cacioppo 1986)? Tyto otázky odlišují legitimní užití, například
 v poradenství nebo ve výuce komunikace, od manipulativního.
 
 ## Vztah k validovanému výzkumu osobnosti

@@ -88,7 +88,13 @@ NLP navázalo na kognitivní psychologii, která vykládala cílené jednání p
 
 Strukturálně má strategie učení podle NLP tři fáze. Fáze příjmu určuje, jakou formou informace přichází a jak ji člověk zpracuje do vnitřní reprezentace. Fáze uložení určuje, jak si ji upevní, například opakováním, převyprávěním nebo spojením s představou. Fáze vybavení určuje, podle čeho si ji později najde a jak pozná, že si ji vybavil správně. Každá fáze má podobu smyčky testu a operace a celek tvoří vnořenou hierarchii (Dilts a kol. 1980). Na úrovni pojmů se tato stavba dobře shoduje s tím, co pedagogická psychologie popisuje jako fáze kódování, uchování a vybavení. Rozdíl je v nároku: NLP tvrdí, že pořadí smyslových kroků je u každého člověka specifické a že jeho zjištěním a úpravou lze učení výrazně zlepšit.
 
-Pozorovatel by si měl všimnout, jak se tato stavba mění ve výklad neúspěchu. Pokud je učení výsledkem strategie, pak neúspěch znamená vadnou strategii, a kdo ji umí „přeprogramovat“, má klíč k řešení. Takový výklad obchází běžné a dobře známé příčiny obtíží: nedostatek času, únavu, úzkost, nevhodnou výuku, nedostatek předchozích znalostí nebo vývojovou poruchu učení. Výklad přitom dobře zapadá do vlivového vztahu, v němž lektor vystupuje jako ten, kdo vidí do mysli učícího se hlouběji než on sám.
+Pozorovatel by si měl všimnout, jak se tato stavba mění ve výklad neúspěchu. Pokud je učení
+výsledkem strategie, pak neúspěch znamená vadnou strategii, a kdo ji umí „přeprogramovat“, má klíč k
+řešení. Takový výklad obchází běžné a dobře známé příčiny obtíží: nedostatek času, únavu, úzkost,
+nevhodnou výuku, nedostatek předchozích znalostí nebo vývojovou poruchu učení. Kritika NLP
+upozorňuje, že výklady, které každý neúspěch připíší nesprávnému provedení techniky, činí tvrzení
+oboru prakticky nevyvratitelnými (Sharpley 1987). Výklad přitom dobře zapadá do vlivového vztahu, v
+němž lektor vystupuje jako ten, kdo vidí do mysli učícího se hlouběji než on sám.
 
 ## Detekční znaky
 

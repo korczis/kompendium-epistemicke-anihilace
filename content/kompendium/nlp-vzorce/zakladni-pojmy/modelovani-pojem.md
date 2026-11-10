@@ -127,7 +127,7 @@ struktury.
 Pozorovatel by měl rozlišovat dvě podoby modelování. Analytická podoba popisuje dovednost,
 rozebírá ji na části a nechává otevřené, které z nich jsou podstatné; výsledek je popis,
 který se dá kritizovat a testovat. Imitační podoba přejímá vzor celý, včetně jeho řeči,
-postoje a hodnocení, a odkládá otázku, proč to funguje. Imitační podoba může být užitečná
+postoje a hodnocení, a odkládá otázku, proč to funguje. Blízko k ní má i první fáze modelování, jak ji popisují Grinder a Bostic St. Clairová: vzor se nejprve přebírá nápodobou bez vědomého rozboru, který přichází až později (Grinder a Bostic St. Clair 2001). Imitační podoba může být užitečná
 při učení tělesných dovedností. Přenesená do oblasti přesvědčení, hodnot a vztahu k autoritě
 však vytváří závislost, protože žák přejímá i to, co by měl posoudit. Na tento posun
 navazuje stránka o [modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md).

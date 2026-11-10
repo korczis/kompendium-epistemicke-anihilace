@@ -44,10 +44,10 @@ catalog_prev = "chunking"
 catalog_next = "metaprogramy-pojem"
 catalog_position = 30
 catalog_family_size = 42
-catalog_sources = ["andreas-andreas-1987", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources = ["andreas-andreas-1987", "hassan-1988", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
 catalog_sources_primary = ["andreas-andreas-1987", "james-woodsmall-1988"]
 catalog_sources_roots = []
-catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
+catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Časová osa a budoucnost", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 catalog_trainer_items = 2
 catalog_trainer_benign = 1
@@ -89,7 +89,7 @@ Pojem má popisnou a intervenční vrstvu. Popisná vrstva zjišťuje, kde a jak
 
 ## Časová osa a budoucnost
 
-Práce s časovou osou se netýká jen minulosti. Druhou oblastí je budoucnost, kde NLP pracuje s představou, že cíl lze „umístit“ na časovou osu a tím ho učinit živějším a dosažitelnějším. V poradenství může taková představa pomoci ujasnit si, co člověk chce a kdy. Ve vlivových kontextech se však podobná práce s budoucností objevuje jako prostředek tlaku. Prodejce, který zákazníka vede, aby si živě představil, jak bude za rok spokojeně využívat koupený produkt, spojuje budoucí prožitek s dnešním rozhodnutím a tím zkracuje zvažování; kompendium tento mechanismus popisuje na stránce o [budoucím přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md). V uzavřených skupinách se zase budoucnost rámuje jako hrozba nebo slib, které závisejí na setrvání ve skupině. V obou případech je užitečné rozlišit představu budoucnosti, kterou si člověk vytváří sám, od představy, kterou mu někdo vkládá spolu s rozhodnutím, jež má udělat hned.
+Práce s časovou osou se netýká jen minulosti. Druhou oblastí je budoucnost, kde NLP pracuje s představou, že cíl lze „umístit“ na časovou osu a tím ho učinit živějším a dosažitelnějším (James a Woodsmall 1988). V poradenství může taková představa pomoci ujasnit si, co člověk chce a kdy. Ve vlivových kontextech se však podobná práce s budoucností objevuje jako prostředek tlaku. Prodejce, který zákazníka vede, aby si živě představil, jak bude za rok spokojeně využívat koupený produkt, spojuje budoucí prožitek s dnešním rozhodnutím a tím zkracuje zvažování; kompendium tento mechanismus popisuje na stránce o [budoucím přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md). V uzavřených skupinách se zase budoucnost rámuje jako hrozba nebo slib, které závisejí na setrvání ve skupině (Hassan 1988). V obou případech je užitečné rozlišit představu budoucnosti, kterou si člověk vytváří sám, od představy, kterou mu někdo vkládá spolu s rozhodnutím, jež má udělat hned.
 
 ## Detekční znaky
 
@@ -110,6 +110,7 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - James, T., & Woodsmall, W. (1988). *Time Line Therapy and the Basis of Personality*. Cupertino: Meta Publications.
 - Kirsch, I., & Lynn, S. J. (1995). The altered state of hypnosis: Changes in the theoretical landscape. *American Psychologist*, 50(10), 846–858.

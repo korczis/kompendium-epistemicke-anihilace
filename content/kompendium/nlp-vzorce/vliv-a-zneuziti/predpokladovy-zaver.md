@@ -146,7 +146,8 @@ Zákazník, který přišel do obchodu s jasným úmyslem a řekl, co chce, nepo
 odpovídat na otázku, zda koupit, a otázky na podrobnosti mu šetří čas. Legitimní je také
 předpokládat spolupráci v situaci, kterou si člověk zvolil, například v ordinaci, kam se
 objednal. Manipulativní užití nastává, když presupozice nahrazuje souhlas, který nezazněl,
-a když se staví do cesty jeho odmítnutí. Pozná se podle toho, že zákazník musí vynaložit
+a když se staví do cesty jeho odmítnutí; obsah presupozice se v rozhovoru nepředkládá k
+posouzení, ale bere se za daný (Levinson 1983). Pozná se podle toho, že zákazník musí vynaložit
 úsilí, aby se k otázce „zda“ vůbec vrátil, a že návrat k ní je prezentován jako
 komplikace, zdržení nebo nezdvořilost. Kde se k tomu přidá zamlčení ceny nebo podmínek,
 mění se obrat v klamavou obchodní praktiku. Kompendium popisuje příbuzný mechanismus

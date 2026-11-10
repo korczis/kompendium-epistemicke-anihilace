@@ -165,6 +165,12 @@
    "source_sha256": "1f8c83e421bec6d3f5a680790f72dd9a44356dd61ac8a54493eaa4561382f6cb",
    "width": 1200
   },
+  "og-kompendium-argumentacni-fauly.png": {
+   "height": 630,
+   "sha256": "ffb1f53bbcfaac381cdb04cee4beff386fd303d59555a33ba9c92391871af4ef",
+   "source_sha256": "be229836ec3620302eebb64fb1f70c4d45daec7d746f63f6ebe03d11d10e8dac",
+   "width": 1200
+  },
   "og-kompendium-case-studies.png": {
    "height": 630,
    "sha256": "9aaea930a629a4a3ac56c55e5e36118899370c386f58dfb1b890a26fc7c9a03b",
@@ -229,6 +235,12 @@
    "height": 630,
    "sha256": "646e49305c2bdb2de3b7aac948237f239df7215deeb25b28e54e1f282e3ca5de",
    "source_sha256": "4016d4e4d51cfbb376a27598daef63a2ad28360d4253014ffde62c280042c979",
+   "width": 1200
+  },
+  "og-kompendium-nlp-vzorce.png": {
+   "height": 630,
+   "sha256": "d0b0ab1187ea16e29f4aadab4dbcab6244f70f0b6efdc979ac7a330c68347c80",
+   "source_sha256": "a9a53e504c88b5011e483b8165c8ebdd7a2df189eee5008c4f43290ffefa4990",
    "width": 1200
   },
   "og-kompendium-organizational-defense.png": {
@@ -299,8 +311,8 @@
   },
   "og-kompendium.png": {
    "height": 630,
-   "sha256": "817f4b82aac4b151dc637c922396eae648a2b1ebb4af1ee70247b1867c014ee7",
-   "source_sha256": "904f91dca3ce4fbf1bb2e074b302c35864467899610a1d5c8af12acd0112875c",
+   "sha256": "70d71bf4af73e52e26916edbf6fce0186158d13d5c04e336eea13dbce12d8c09",
+   "source_sha256": "4d7fcd36cf2aeac2a5829760b2cded7d5fc6d8bb763542a2ef71895c263624aa",
    "width": 1200
   },
   "og-philosophy.png": {
@@ -378,6 +390,9 @@
   "section-kompendium-aiad-integration.svg": {
    "sha256": "89e90ee3280938cedfde2d54e7360a0af31f6001007dca9b2767c76965423045"
   },
+  "section-kompendium-argumentacni-fauly.svg": {
+   "sha256": "7fc5d90bab7e1ee106b60a583648f9b3acb60fb9934b9fe9c99745c8e5762cb1"
+  },
   "section-kompendium-case-studies.svg": {
    "sha256": "62c09121cf2c1260161e72dab91857170d77b87306f94758d6b3b557ea40def1"
   },
@@ -410,6 +425,9 @@
   },
   "section-kompendium-konceptualni-mapa.svg": {
    "sha256": "ef4af9346f3ccf9fea37595ea145ef6feb07d125762062956e5dae3e51213101"
+  },
+  "section-kompendium-nlp-vzorce.svg": {
+   "sha256": "6290a0f1945d59aa3f517365bb7037b6d3aa869523bf8400413519e2015e4ac5"
   },
   "section-kompendium-organizational-defense.svg": {
    "sha256": "6f7a4d39815d5a355cd2d7cff385c6476e9625ffbfbe780fb3a3604323bc0ddb"
@@ -445,7 +463,7 @@
    "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
   },
   "section-kompendium.svg": {
-   "sha256": "1aee8633bcca396249c9d0be95cf334a6713953f516540d8edbd3971c79f2baf"
+   "sha256": "c41fc98966666635c5534ac552bad1ef03a8c2df9782d836565065181bee8357"
   },
   "section-philosophy.svg": {
    "sha256": "dc474292cf3cbb149c0b0f003661040c977973cac75f46dde6b5159b9cbfddae"

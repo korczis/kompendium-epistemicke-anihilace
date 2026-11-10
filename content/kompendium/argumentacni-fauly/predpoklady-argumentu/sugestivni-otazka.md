@@ -200,8 +200,6 @@ prostředí, například ve skupině s vysokou mírou kontroly, slouží často 
 vlastní minulosti; kompendium tento rámec popisuje v souvislosti se zpovědní praxí
 totalitních skupin (Lifton 1961).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
@@ -213,6 +211,8 @@ totalitních skupin (Lifton 1961).
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

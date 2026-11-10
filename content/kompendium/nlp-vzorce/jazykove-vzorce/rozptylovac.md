@@ -116,8 +116,6 @@ Proti úmyslnému rozptylování je nejúčinnější obranou klidně a opakovan
 
 Pro člověka, který u sebe rozptylující postoj rozpozná, je cestou naučit se zůstat u tématu, i když je nepříjemné, a dát najevo, kdy je pro něj příliš těžké, místo aby od něj utekl. V terapii se k tomu přistupuje postupně, protože rozptylování dlouho chránilo před pocity, které člověk nedokázal unést (Herman 1992). Vyrovnaná alternativa nespočívá v tom, že člověk o všem mluví hned a naplno, ale v tom, že otevřeně řekne, co potřebuje, třeba čas nebo bezpečnější chvíli. Takovou podobu komunikace popisuje stránka o [vyrovnaném postoji](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
@@ -129,6 +127,8 @@ Pro člověka, který u sebe rozptylující postoj rozpozná, je cestou naučit 
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -199,8 +199,6 @@ Herman zdůrazňuje, že obnova autonomie po dlouhodobé kontrole zahrnuje i zno
 vlastního úsudku o tom, co je správné (Herman 1992). Odborník by měl v takové práci sám
 mluvit v první osobě a dávat najevo, že jeho hodnocení je jeho hodnocení.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -217,6 +215,8 @@ mluvit v první osobě a dávat najevo, že jeho hodnocení je jeho hodnocení.
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

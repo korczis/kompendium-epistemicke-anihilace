@@ -194,8 +194,6 @@ strany vykládat formulace druhé strany co nejpřesněji a nikoli co nejvýhodn
 (van Eemeren a Grootendorst 1992). Kdo se s amfibolií setkává opakovaně u téhož protějšku,
 má důvod žádat písemné a jednoznačné potvrzení dohod.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -208,6 +206,8 @@ má důvod žádat písemné a jednoznačné potvrzení dohod.
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

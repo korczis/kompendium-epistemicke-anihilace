@@ -193,8 +193,6 @@ která jim nepatřila, a obnovení důvěry ve zdravotní péči. Odborníci by 
 odsuzování, protože hledání naděje v těžké nemoci je pochopitelné, a odpovědnost za klamavý
 slib nese ten, kdo ho dal, ne ten, kdo mu uvěřil.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -205,6 +203,8 @@ slib nese ten, kdo ho dal, ne ten, kdo mu uvěřil.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

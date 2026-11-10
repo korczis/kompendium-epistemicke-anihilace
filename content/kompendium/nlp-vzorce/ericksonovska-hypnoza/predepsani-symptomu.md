@@ -199,8 +199,6 @@ jejichž stížnosti byly v dlouhodobém vztahu opakovaně zlehčovány ironick�
 mohou ztratit důvěru v oprávněnost vlastních potřeb. Zotavení vede přes vztahy, v nichž
 jsou stížnosti brány vážně, a přes postupné obnovení práva na vlastní hlas (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4), 251–264.
@@ -212,6 +210,8 @@ jsou stížnosti brány vážně, a přes postupné obnovení práva na vlastní
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

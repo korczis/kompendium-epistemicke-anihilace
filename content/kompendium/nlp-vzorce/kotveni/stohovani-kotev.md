@@ -199,8 +199,6 @@ Lalich 1995). Při zotavení
 pomáhá budovat zdroje síly, které nejsou vázány na jednu osobu nebo skupinu: vztahy,
 činnosti, vlastní úspěchy a odborně vedenou podporu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -212,6 +210,8 @@ pomáhá budovat zdroje síly, které nejsou vázány na jednu osobu nebo skupin
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

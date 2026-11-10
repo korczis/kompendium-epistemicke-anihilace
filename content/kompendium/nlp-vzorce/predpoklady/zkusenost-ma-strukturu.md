@@ -198,8 +198,6 @@ uznáním jeho obsahu a zajištěním bezpečí, v němž lze o prožitku mluvit
 kognitivní souvislosti v kapitole o
 [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
@@ -217,6 +215,8 @@ kognitivní souvislosti v kapitole o
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

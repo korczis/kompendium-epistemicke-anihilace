@@ -199,8 +199,6 @@ dalšími technikami přepisování obrazů (Herman 1992). Kompendium se k vlivu
 vrací v kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
 a v [kritických perspektivách](@/kompendium/critical-perspectives/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -217,6 +215,8 @@ a v [kritických perspektivách](@/kompendium/critical-perspectives/_index.md).
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -106,8 +106,6 @@ Specifické tvrzení, že směr pohledu ukazuje, ve kterém smyslovém systému 
 
 Pro rodiče a učitele je hlavní obranou trvat na odborném posouzení. Obtíže v psaní mohou mít řadu příčin a jejich rozlišení patří do pedagogicko-psychologické poradny nebo k odborníkovi na poruchy učení, ne do víkendového kurzu. Druhou obranou je ptát se po dokladech: zda existují kontrolované studie, kolik dětí metodou prošlo, jak se měřil výsledek a co se stalo s dětmi, kterým nepomohla. Svědectví spokojených rodin jsou důkazem nejslabší kategorie, protože neúspěchy se do nich nedostanou (Gilovich 1991). Třetí obranou je chránit dítě před výkladem, že je „špatně nastavené“. Obtíže s pravopisem jsou dovednostní problém, ne vada osobnosti, a dítě by mělo slyšet, že existuje více cest k lepšímu psaní. Pokud již kurz proběhl a nepomohl, je užitečné výslovně pojmenovat, že nejde o selhání dítěte ani rodičů, a vrátit se k ověřeným postupům, které poradna doporučí. Pro odborníky, kteří s modelem pracují, platí, že ho mohou nabízet jako jednu z pomůcek, ale nemají ho prezentovat jako diagnostiku ani jako zaručenou léčbu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -123,6 +121,8 @@ Pro rodiče a učitele je hlavní obranou trvat na odborném posouzení. Obtíž
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

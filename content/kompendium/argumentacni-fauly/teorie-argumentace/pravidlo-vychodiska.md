@@ -191,8 +191,6 @@ dohoda brání oběma typům porušení, protože pozdější posuny jsou zřejm
 výpovědi obsah, jenž svědek sám neuvedl; výzkum vlivu formulace otázky na výpověď ukazuje, proč na
 této zásadě záleží (Loftus a Palmer 1974).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
@@ -203,6 +201,8 @@ této zásadě záleží (Loftus a Palmer 1974).
 - Woods, J., & Walton, D. (1989). *Fallacies: Selected Papers 1972–1982*. Dordrecht: Foris.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -196,8 +196,6 @@ apelu, ten ho snáz pozná i v nové podobě (van der Linden 2023). Pro odborní
 s lidmi pod dlouhodobým emočním tlakem, je podstatné nevnímat jejich silné reakce jako
 iracionalitu, ale jako stopu působení, které se dá popsat a postupně odbourat.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -212,6 +210,8 @@ iracionalitu, ale jako stopu působení, které se dá popsat a postupně odbour
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

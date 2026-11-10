@@ -219,6 +219,8 @@ flowchart LR
   click n9 "@/kompendium/argumentacni-fauly/hodnoty-a-veda/klam-placebo.md"
 ```
 
+<!-- kompendium:katalog-vazby:end -->
+
 ## Literatura
 
 - Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*, 14(2), 125–136.
@@ -232,6 +234,8 @@ flowchart LR
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

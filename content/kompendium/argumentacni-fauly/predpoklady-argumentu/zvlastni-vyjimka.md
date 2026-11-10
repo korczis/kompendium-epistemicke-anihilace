@@ -189,8 +189,6 @@ protože jeho dlouhodobé působení vede k tomu, že člověk považuje nerovno
 vlastní nároky za neoprávněné (Stark 2007). Kompendium souvisejícím mechanismům věnuje
 přehled [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
@@ -202,6 +200,8 @@ přehled [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

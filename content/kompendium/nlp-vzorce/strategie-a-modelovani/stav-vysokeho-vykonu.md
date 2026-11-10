@@ -104,8 +104,6 @@ Pro tvrzení, že existuje specifický stav vysokého výkonu s vlastnostmi pops
 
 Základní obranou je oddělit prožitek od rozhodnutí. Silný pocit síly nebo jasnosti na semináři je skutečný prožitek, ale není informací o tom, zda je nabízený kurz dobrou investicí nebo zda se změna udrží. Rozhodnutí o penězích a závazcích je rozumné odkládat na dobu, kdy prožitek odezní, a dělat je mimo prostor, kde působí řečník a skupina. Druhou obranou je ptát se po měřítku. Pokud se tvrdí, že stav zvyšuje výkon, lze se ptát, podle čeho se to pozná, v jakém časovém horizontu a zda existují údaje o lidech, kterým to nepomohlo. Třetí obranou je odmítnout stav jako normu. Únava, pochybnost a pokles výkonu patří k běžnému lidskému fungování a nejsou osobním selháním. U lidí, kteří léta žili v prostředí vyžadujícím trvalé „vrcholové nasazení“, se v klinické praxi objevuje vyčerpání, stud za běžné výkyvy a závislost na vnějším potvrzení. Zotavení zahrnuje obnovu realistických měřítek, odpočinku a vztahů, v nichž hodnota člověka nezávisí na výkonu (Herman 1992). Prevence spočívá v předem získaném povědomí o tom, jak skupinové prostředí a časový tlak ovlivňují úsudek; takové „očkování“ proti přesvědčování snižuje účinek tlaku, když přijde (McGuire 1964).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -121,6 +119,8 @@ Základní obranou je oddělit prožitek od rozhodnutí. Silný pocit síly nebo
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

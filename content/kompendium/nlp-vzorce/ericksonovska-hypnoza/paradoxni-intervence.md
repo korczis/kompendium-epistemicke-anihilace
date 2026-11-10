@@ -210,8 +210,6 @@ struktury, obnovu důvěry ve vlastní volby a postupnou zkušenost rozhodnutí,
 předem vyložena jako selhání (Herman 1992). V terapii je ochranou [informovaný souhlas](@/glossary/informed-consent.md) a
 možnost zeptat se terapeuta, proč doporučuje neobvyklý postup.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -225,6 +223,8 @@ možnost zeptat se terapeuta, proč doporučuje neobvyklý postup.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

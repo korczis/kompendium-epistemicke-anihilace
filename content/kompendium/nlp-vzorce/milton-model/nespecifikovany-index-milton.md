@@ -189,8 +189,6 @@ ukazuje, že předchozí seznámení s mechanismem vlivu zvyšuje schopnost mu o
 pochybnosti, které člověk pokládal za výjimečné, měli i jiní, a obnova vztahů mimo skupinu, ve
 kterých lze o pochybnostech mluvit otevřeně (Hassan 1988).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -201,6 +199,8 @@ kterých lze o pochybnostech mluvit otevřeně (Hassan 1988).
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Rosen, S. (Ed.) (1982). *My Voice Will Go with You: The Teaching Tales of Milton H. Erickson*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

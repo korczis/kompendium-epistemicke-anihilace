@@ -197,14 +197,14 @@ mohou být ti, kterým léčba nepomohla, a zkušenost terapeuta se tak může p
 příznivějšímu obrazu, než jaký odpovídá skutečnosti. Pravidelné sledování všech
 případů, nejen těch, kteří se ozvou, je proto nejlepší ochranou i pro odborníka.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
 - Huff, D. (1954). *How to Lie with Statistics*. New York: W. W. Norton.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -200,8 +200,6 @@ vztah, v němž je zkušenost uznána a v němž má člověk kontrolu nad tempe
 Terapeut, který s filmovou technikou pracuje, by ji měl nabízet jako jednu z možností regulace,
 nikoli jako samostatnou léčbu, a jejímu užití by mělo předcházet pečlivé posouzení.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
@@ -213,6 +211,8 @@ nikoli jako samostatnou léčbu, a jejímu užití by mělo předcházet pečliv
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

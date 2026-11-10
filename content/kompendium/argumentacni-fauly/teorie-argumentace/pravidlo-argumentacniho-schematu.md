@@ -199,8 +199,6 @@ znalec uváděl, z jakých podkladů a jakou metodou dospěl k závěru, takže 
 doplněno možností přezkumu (van Eemeren a Grootendorst 2004). Kdo argumentaci sleduje zvenčí, může
 si u každého důvodu poznamenat, o jaký druh spojení se opírá, a teprve pak posuzovat jeho sílu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -211,6 +209,8 @@ si u každého důvodu poznamenat, o jaký druh spojení se opírá, a teprve pa
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -105,8 +105,6 @@ O samotné možnosti zlepšit pozornost a rozlišovací schopnost cvičením nen
 
 Obrana proti zneužití pojmu spočívá v trvání na oddělení vjemu a výkladu. Když někdo tvrdí, že na vás „vidí“ něco, co popíráte, je legitimní požádat ho o popis toho, co konkrétně viděl, a připomenout, že výklad téhož projevu může být jiný. Je také užitečné vědět, že sebejistota pozorovatele neříká nic o jeho přesnosti a že ani odborníci nečtou lež z chování spolehlivě (Vrij 2008). Druhou obranou je všímat si, kdy se pozornost druhého zostřuje: pokud je vnímavost protistrany nejvyšší ve chvílích, kdy jste unavení nebo dojatí, a právě tehdy přichází návrh nebo žádost, je rozumné rozhodnutí odložit. Třetí obranou je vlastní smyslová ostrost obrácená k situaci: všímat si, jak se cítím, když s tímto člověkem mluvím, a brát tento pocit jako informaci. U lidí, kterým bylo dlouho vykládáno jejich vlastní tělo, se zotavení opírá o obnovu důvěry ve vlastní prožitky a o vztahy, ve kterých jejich slovo o sobě platí (Herman 1992). Odborníci by měli při výcviku pozornosti stejně důkladně učit i meze výkladu, jinak z dovednosti vychovávají sebejisté čtenáře myšlenek.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -119,6 +117,8 @@ Obrana proti zneužití pojmu spočívá v trvání na oddělení vjemu a výkla
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

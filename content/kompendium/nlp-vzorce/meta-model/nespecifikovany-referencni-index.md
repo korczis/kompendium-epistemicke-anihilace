@@ -195,8 +195,6 @@ protože neurčité „vedení rozhodlo“ připravuje adresáta o možnost obr�
 toho, kdo rozhodnutí skutečně nese. Průhledná reference není jen otázkou zdvořilosti, ale
 podmínkou toho, aby se rozhodnutí dalo zpochybnit legitimní cestou.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -211,6 +209,8 @@ podmínkou toho, aby se rozhodnutí dalo zpochybnit legitimní cestou.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

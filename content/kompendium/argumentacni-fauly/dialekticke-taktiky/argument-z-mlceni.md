@@ -195,8 +195,6 @@ posuzuje v kontextu a že váhu má obsah výpovědi a její soulad s nezávisl�
 (Vrij 2008). Obecně platí, že závěr z mlčení se formuluje v míře pravděpodobnosti, nikdy
 jako jistota, a že jeho síla se odvozuje z citlivosti pramene (Hahn a Oaksford 2007).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -205,6 +203,8 @@ jako jistota, a že jeho síla se odvozuje z citlivosti pramene (Hahn a Oaksford
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

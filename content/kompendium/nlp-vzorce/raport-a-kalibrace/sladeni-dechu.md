@@ -200,8 +200,6 @@ smysl každé techniky a ponechat klientovi plnou kontrolu nad tím, zda a jak d
 Obnova pocitu, že vlastní tělo patří člověku a ne skupině nebo autoritě, je součástí
 zotavení z traumatu, které Herman popisuje jako návrat moci a spojení (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -216,6 +214,8 @@ zotavení z traumatu, které Herman popisuje jako návrat moci a spojení (Herma
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

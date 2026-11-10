@@ -206,8 +206,6 @@ posluchače veřejného sporu je nejjednodušší ochranou zjistit, co o otázce
 společnost nebo přehledová studie příslušného oboru, a teprve potom posuzovat jednotlivé
 hlasy.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -223,6 +221,8 @@ hlasy.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - Woods, J., & Walton, D. (1989). *Fallacies: Selected Papers 1972–1982*. Dordrecht: Foris.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -189,8 +189,6 @@ skutečně řečeno. Úzce souvisí [nerozložený střední termín](@/kompendi
 protože dvojznačný střední termín bývá zároveň nerozložený, a obecný výklad rodiny v hesle
 [formální klam](@/kompendium/argumentacni-fauly/formalni/formalni-klam.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -204,6 +202,8 @@ protože dvojznačný střední termín bývá zároveň nerozložený, a obecn�
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

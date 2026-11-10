@@ -103,8 +103,6 @@ Obecné tvrzení, že lidé mívají k věcem smíšený vztah a že se to můž
 
 Základní obranou je trvat na platnosti výslovného sdělení. Pokud někdo vykládá vaši mimiku nebo tón proti vašim slovům, je legitimní odpovědět, že platí, co jste řekli, a že pokud chce vědět víc, může se zeptat. Druhou obranou je vrátit výklad do roviny hypotézy: „to, co vidíte, může mít mnoho důvodů“. Třetí obranou, zejména ve vztazích a skupinách, je všímat si, zda výklad vašeho nesouladu vždy vyznívá ve prospěch toho, kdo ho podává. Pokud ano, nejde o porozumění, ale o nástroj. Kdo zažil dlouhodobé přepisování svých slov, může mít potíž věřit vlastním postojům a říkat je nahlas. Zotavení se opírá o vztahy, ve kterých jsou výslovná sdělení respektována, a o postupné obnovení důvěry ve vlastní úsudek; klinická literatura o traumatu z kontrolujících vztahů zdůrazňuje právě obnovu autonomie a vlastního hlasu (Herman 1992). V terapii pomáhá přístup, který s ambivalencí pracuje otevřeně a nechává rozhodnutí na klientovi (Miller a Rollnick 2013).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -117,6 +115,8 @@ Základní obranou je trvat na platnosti výslovného sdělení. Pokud někdo vy
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -200,8 +200,6 @@ schopnost rozhodovat podle vlastních hodnot a posuzuje převzaté pojmy „harm
 „souladu“ podle toho, komu ve skutečnosti sloužily (Herman 1992). Kompendium se postupům
 pro tuto fázi věnuje u [práce s lidmi po odchodu ze skupiny](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -217,6 +215,8 @@ pro tuto fázi věnuje u [práce s lidmi po odchodu ze skupiny](@/kompendium/tec
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

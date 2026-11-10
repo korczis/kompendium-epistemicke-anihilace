@@ -197,8 +197,6 @@ informace, které měl k dispozici, nikoli tam, kde mu byly zadrženy. U smluv u
 obchodní prostory nebo na dálku lze využít zákonnou lhůtu k odstoupení a u závazků
 uzavřených pod nátlakem se obrátit na spotřebitelskou poradnu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -212,6 +210,8 @@ uzavřených pod nátlakem se obrátit na spotřebitelskou poradnu.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

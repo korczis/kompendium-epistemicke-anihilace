@@ -205,8 +205,6 @@ skupině je užitečné vypsat budoucí body, které byly ve vztahu předpoklád
 kolik z nich se kdy naplnilo a kolik se jen posouvalo dál. Taková rekonstrukce pomáhá
 rozlišit vlastní cíle od cílů, které byly člověku vloženy jako jisté (Singer a Lalich 1995).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -218,6 +216,8 @@ rozlišit vlastní cíle od cílů, které byly člověku vloženy jako jisté (
 - Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

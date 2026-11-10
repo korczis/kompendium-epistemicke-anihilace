@@ -199,8 +199,6 @@ skromnost (Petty a Cacioppo 1986). [Pragma-dialektika](@/kompendium/argumentacni
 stanovisko, nese povinnost ho obhájit, a nemůže se z něj vyvléct tím, že se stáhne k
 doslovnému znění (van Eemeren a Grootendorst 2004).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -212,6 +210,8 @@ doslovnému znění (van Eemeren a Grootendorst 2004).
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

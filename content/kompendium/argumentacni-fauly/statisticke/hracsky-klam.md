@@ -197,8 +197,6 @@ pravidelnosti klást si otázku, jak by vypadala řada, kdyby šlo o čistou ná
 od pozorované řady lišila (Gilovich 1991). Tato otázka je stejně užitečná u rulety jako u
 hodnocení výkonu, statistik nehodovosti nebo trhů.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
@@ -206,6 +204,8 @@ hodnocení výkonu, statistik nehodovosti nebo trhů.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Tversky, A., & Kahneman, D. (1971). Belief in the law of small numbers. *Psychological Bulletin*, 76(2), 105–110.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

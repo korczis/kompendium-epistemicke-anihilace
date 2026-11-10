@@ -103,8 +103,6 @@ Pro integraci částí jako konkrétní postup NLP neexistují kontrolované stu
 
 Základní obranou je vrátit si autorství vlastních částí. Pokud někdo jiný rozděluje vaši zkušenost na stránky a určuje, která z nich je pravá, je legitimní odmítnout jeho výklad a trvat na tom, že pochybnost, kritika i přání odejít jsou součástí vlastního úsudku, ne porucha, kterou je třeba odstranit. Druhou obranou je převést řeč o částech zpět do jazyka faktů a rozhodnutí: co konkrétně se stalo, co se požaduje, jaké jsou možnosti a jaké následky. Třetí obranou je hledat rozhovor mimo vztah nebo skupinu, ve kterém se metafora uplatňuje, protože vnější pohled pomáhá rozlišit přirozenou ambivalenci od vnuceného rozštěpu. V klinické péči je zvláštní opatrnost na místě u lidí s komplexním traumatem nebo s disociativními obtížemi. Herman zdůrazňuje, že zotavení začíná obnovou bezpečí a stability a že roztříštěné prožívání po traumatu se zceluje ve vztahu, který respektuje autonomii klienta (Herman 1992). Práce s částmi u takových klientů vyžaduje odbornou diagnostiku a rozlišení, které kompendium popisuje v kapitole o [diferenciální diagnostice](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md). U lidí, na které byla metafora uplatněna manipulativně, se v zotavení nepracuje s další „integrací“, ale s obnovou důvěry ve vlastní pochybnost, s rozpoznáním, kdo a k čemu jejich vnitřní rozdělení používal, a s postupným znovuspojením vlastního příběhu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -122,6 +120,8 @@ Základní obranou je vrátit si autorství vlastních částí. Pokud někdo ji
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

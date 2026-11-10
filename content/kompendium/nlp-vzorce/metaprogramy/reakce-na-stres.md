@@ -191,8 +191,6 @@ zvenku jeví jako slabost, jsou pochopitelnou odpovědí na dlouhodobé ohrožen
 Kognitivní přístup pak může pomoci rozpoznat výklady, které si člověk z takového prostředí
 odnesl, a ověřit je proti současné zkušenosti (Beck 1976).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -204,6 +202,8 @@ odnesl, a ověřit je proti současné zkušenosti (Beck 1976).
 - Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

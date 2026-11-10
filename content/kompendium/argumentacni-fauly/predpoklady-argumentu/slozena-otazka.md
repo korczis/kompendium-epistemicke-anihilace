@@ -196,8 +196,6 @@ rozdělení odpovědí, kompendium odkazuje na popis
 [forenzního rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md), které
 dávají vypovídajícímu právo otázku odmítnout v podobě, v níž byla položena.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -208,6 +206,8 @@ dávají vypovídajícímu právo otázku odmítnout v podobě, v níž byla pol
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Woods, J., & Walton, D. (1989). *Fallacies: Selected Papers 1972–1982*. Dordrecht: Foris.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

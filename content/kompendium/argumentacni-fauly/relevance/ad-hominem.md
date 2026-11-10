@@ -200,8 +200,6 @@ toho, co bylo skutečně doloženo. Útok na osobu se často vrací v podobě
 [preventivní diskreditace](@/kompendium/argumentacni-fauly/relevance/otraveni-studny.md),
 kdy zazní dřív, než napadený vůbec promluví.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -219,6 +217,8 @@ kdy zazní dřív, než napadený vůbec promluví.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

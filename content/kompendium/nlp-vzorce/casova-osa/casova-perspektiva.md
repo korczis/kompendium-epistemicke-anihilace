@@ -105,8 +105,6 @@ Legitimní užití pojmu je diagnostické a terapeutické. Krizová interventka,
 
 Základní obranou je chránit vlastní časovou perspektivu. Kdo si udržuje vzpomínky na to, co ho v minulosti drželo, vztahy mimo jediný vztah nebo skupinu a plány, které na nich nezávisejí, má oporu, kterou zužování nerozloží. Druhou obranou je všímat si výroků, které znehodnocují minulost nebo monopolizují budoucnost, a pojmenovat je jako tvrzení druhé strany, ne jako fakt. Třetí obranou je hledat lidi zvenčí, kteří znají člověka z doby před vztahem nebo skupinou a mohou mu připomenout, kým byl a co chtěl. U lidí po odchodu z uzavřené skupiny nebo z kontrolujícího vztahu je obnova časové perspektivy jednou z hlavních úloh zotavení. Minulost před vstupem je třeba znovu získat jako vlastní a budoucnost znovu otevřít jako prostor možností (Singer a Lalich 1995). Herman popisuje tuto fázi jako znovunavázání spojení se světem a s vlastním životním příběhem (Herman 1992). Pokud zúžení budoucnosti dosáhne podoby beznaděje nebo myšlenek, že budoucnost nemá cenu žít, je namístě neodkladná odborná péče, protože beznaděj patří ke klinicky nejzávažnějším znakům. Kompendium obecné strategie prevence popisuje v kapitole o [preventivních strategiích](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -119,6 +117,8 @@ Základní obranou je chránit vlastní časovou perspektivu. Kdo si udržuje vz
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

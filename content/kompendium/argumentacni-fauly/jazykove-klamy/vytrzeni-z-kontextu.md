@@ -196,8 +196,6 @@ a uvádět citace s odkazem na místo v záznamu. Pro redakce a výzkumníky je 
 pragma-dialektická povinnost přesného výkladu a princip shovívavosti: posuzovat, co
 mluvčí skutečně tvrdil, ne co lze z jeho slov vyrobit (van Eemeren a Grootendorst 2004).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
@@ -212,6 +210,8 @@ mluvčí skutečně tvrdil, ne co lze z jeho slov vyrobit (van Eemeren a Grooten
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

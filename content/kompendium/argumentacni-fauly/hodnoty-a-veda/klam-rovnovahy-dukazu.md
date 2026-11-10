@@ -199,8 +199,6 @@ spolu s dílčími spory, nikoli místo nich, a zvát do debat odborníky v pom�
 poznání. Pro čtenáře, který se setká s tvrzením, že „existují studie pro i proti“, je
 nejjednodušší obranou hledat souhrnný přehled a podívat se, kam ukazuje celek, a ne jednotlivosti.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*, 14(2), 125–136.
@@ -213,6 +211,8 @@ nejjednodušší obranou hledat souhrnný přehled a podívat se, kam ukazuje ce
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

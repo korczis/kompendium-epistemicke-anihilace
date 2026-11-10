@@ -104,8 +104,6 @@ Specifický účinek jádrové transformace nebyl, pokud je z dostupných přehl
 
 Obranou je především rozlišovat mezi prožitkem a nárokem. Prožitek míru nebo přijetí je hodnotný sám o sobě a nezakládá žádný závazek vůči tomu, kdo ho pomohl vyvolat. Pokud se z něj odvozuje, že jen určitá skupina, učitel nebo program dokáže takový stav zprostředkovat, je na místě zpozornět a hledat nezávislé informace. Druhou obranou je trvat na konkrétnosti. Výhradu, například k penězům, k pravidlům nebo k jednání vedoucího, je legitimní posuzovat v její vlastní podobě, nikoli jako symptom hlubší touhy. Hněv na nespravedlnost je často přiměřená reakce, ne překážka vnitřního míru. Třetí obranou je udržet souvislost s odbornou péčí: u závažných psychických potíží nemá žádný vzorec nahrazovat ověřenou léčbu, jakou kompendium shrnuje v přehledu [terapeutických přístupů](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). V zotavení po zkušenosti s duchovně laděnými skupinami, které s podobnou řečí pracovaly, se nepracuje s dalším hledáním jádra, ale s obnovou oprávněnosti vlastních emocí, včetně hněvu, a s rozpoznáním, jak byla touha po míru použita proti zájmům člověka. Herman popisuje, že zotavení po zneužití vyžaduje bezpečný vztah, ve kterém má člověk znovu právo na vlastní pocity a jejich pojmenování (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, C., & Andreas, S. (1989). *Heart of the Mind: Engaging Your Inner Power to Change with Neuro-Linguistic Programming*. Moab: Real People Press.
@@ -119,6 +117,8 @@ Obranou je především rozlišovat mezi prožitkem a nárokem. Prožitek míru 
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

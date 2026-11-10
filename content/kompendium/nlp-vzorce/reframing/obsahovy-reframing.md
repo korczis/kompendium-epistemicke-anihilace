@@ -200,8 +200,6 @@ vlastní příběh vlastními slovy patří k prvním stadiím zotavení po trau
 (Herman 1992). Klinik, který s takovým klientem pracuje, se proto vyhýbá nabízení dalších
 „pozitivních“ výkladů ublížení a nejprve pomáhá klientovi ustálit popis toho, co se stalo.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -221,6 +219,8 @@ vlastní příběh vlastními slovy patří k prvním stadiím zotavení po trau
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -202,8 +202,6 @@ kteří si falešnou vyváženost osvojili jako postoj, je cestou zpět učit se
 jejich kvality a počtu a připustit, že mnoho otázek nemá dvě rovnocenné odpovědi
 (Boykoff a Boykoff 2004).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*, 14(2), 125–136.
@@ -212,6 +210,8 @@ jejich kvality a počtu a připustit, že mnoho otázek nemá dvě rovnocenné o
 - Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

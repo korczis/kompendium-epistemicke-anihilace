@@ -201,8 +201,6 @@ u obětí, jejichž zkušenost nebyla zaznamenána, protože ji nikdo nehledal. 
 klamu tedy nespočívá v nedůvěře k jakémukoli negativnímu nálezu, ale v tom, že se u každého
 z nich ptáme, jak byl získán a co přesně dovoluje tvrdit.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -216,6 +214,8 @@ z nich ptáme, jak byl získán a co přesně dovoluje tvrdit.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - Woods, J., & Walton, D. (1989). *Fallacies: Selected Papers 1972–1982*. Dordrecht: Foris.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

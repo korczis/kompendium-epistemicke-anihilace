@@ -103,8 +103,6 @@ Asociativní učení a podmiňování patří k nejlépe doloženým jevům v ps
 
 Základní obranou je pojmenovat vazbu. Kdo si všimne, že určitý podnět spojený s druhou osobou v něm vyvolává nepřiměřený strach nebo úlevu, udělal první krok k tomu, aby vazbu oddělil od jejího významu: reakce je naučená, ne důkazem, že člověk bez druhé osoby nemůže být v pořádku. Druhou obranou je všímat si, zda druhá osoba na takovou vazbu odkazuje nebo ji vědomě vyvolává. Pokud ano, jde o prostředek kontroly, který kompendium popisuje u kontrolujících vztahů, a je namístě hledat podporu mimo vztah (Stark 2007). Třetí obranou je postupné vytváření vlastních zdrojů klidu a bezpečí, které nejsou vázány na jednu osobu nebo skupinu: vztahy s blízkými, místa, činnosti a rituály, které člověk ovládá sám. U lidí po traumatu je práce se spouštěči úkolem odborné péče. Klinická literatura zdůrazňuje bezpečí, stabilizaci a postupné, dávkované zpracování, nikoli rychlé „přepisování kotev“ (Herman 1992). Zavedené terapeutické přístupy, které kompendium shrnuje v [přehledu terapeutických přístupů](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), s naučenými reakcemi pracují s oporou ve výzkumu. Bývalým členům skupin pomáhá vědět, že silné reakce na hudbu, hesla nebo rituály skupiny jsou známým jevem a že s časem a podporou slábnou (Singer a Lalich 1995).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -119,6 +117,8 @@ Základní obranou je pojmenovat vazbu. Kdo si všimne, že určitý podnět spo
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

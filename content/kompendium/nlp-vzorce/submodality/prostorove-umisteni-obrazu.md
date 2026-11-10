@@ -197,8 +197,6 @@ spočívá v obnově vlastního popisu událostí, opřeného o záznamy a svěd
 člověk sám své zkušenosti uspořádává (Herman 1992). Terapeut může prostorové kódování klienta
 využít jako jazyk rozhovoru, ale neměl by ho měnit bez výslovné dohody a bez zkoumání obsahu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -211,6 +209,8 @@ využít jako jazyk rozhovoru, ale neměl by ho měnit bez výslovné dohody a b
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

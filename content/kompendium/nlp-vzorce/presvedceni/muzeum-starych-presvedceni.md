@@ -203,8 +203,6 @@ zkušenosti popisuje heslo o
 Teprve když je kontinuita obnovena, může člověk sám rozhodnout, která přesvědčení skupiny
 chce mít jen jako vzpomínku na období, kterým prošel.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
@@ -220,6 +218,8 @@ chce mít jen jako vzpomínku na období, kterým prošel.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

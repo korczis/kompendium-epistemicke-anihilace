@@ -200,8 +200,6 @@ Kompendium mechanismy, které ukvapené zobecnění živí, souhrnně popisuje v
 Znalost heuristik sama o sobě chybám nezabrání, ale usnadňuje jejich rozpoznání, a to
 snáze v úsudcích druhých než ve vlastních (Kahneman 2011).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
@@ -217,6 +215,8 @@ snáze v úsudcích druhých než ve vlastních (Kahneman 2011).
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -116,8 +116,6 @@ Obranou proti zneužití vyrovnanosti je rozlišovat formu od nároku. Otevřeno
 
 V terapii je vyrovnaná komunikace spíše výsledkem než prostředkem. Člověk, který dlouho používal ochranné postoje, k ní dospívá postupně, jak se obnovuje jeho sebeúcta a jak zjišťuje, že vlastní pohled může vyjádřit bez ohrožení. Herman popisuje obnovu po dlouhodobém nátlaku jako postupné znovuzískávání vlastního hlasu ve vztazích, které jsou bezpečné (Herman 1992). Kompendium obecné zásady obrany a kalibrace shrnuje v oddílu [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4), 251–264.
@@ -131,6 +129,8 @@ V terapii je vyrovnaná komunikace spíše výsledkem než prostředkem. Člově
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -194,8 +194,6 @@ kteří prošli skupinou pracující s NLP, je užitečné také „překládat�
 běžného jazyka, protože žargon může udržovat její výklad světa i po odchodu. Klinický
 postup popisuje stránka [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
@@ -205,6 +203,8 @@ postup popisuje stránka [post-cult protokol](@/kompendium/techniques/ea-6-4-2-p
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

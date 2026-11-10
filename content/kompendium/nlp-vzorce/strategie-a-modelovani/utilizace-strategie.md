@@ -104,8 +104,6 @@ Pro využití strategií v podobě, jak ho popisuje NLP, nejsou k dispozici kont
 
 Hlavní obranou je oddělit formu od obsahu. Když nabídka „splní“ vlastní kritéria, je užitečné se ptát, zda je splnila doopravdy: jsou tři důkazy nezávislé, nebo pocházejí z jednoho zdroje? Je odborník, na kterého se nabídka odvolává, nezávislý? Pocit, že něco „sedí“, je informace o shodě s vlastním postupem, ne o kvalitě nabídky. Druhou obranou je opatrnost při sdílení vlastních rozhodovacích postupů s lidmi, kteří na rozhodnutí mají zájem. Na otázku, podle čeho se člověk rozhoduje, není povinné odpovídat a je legitimní ji odbýt. Třetí obranou je zapojit třetí stranu. Strategie je individuální; nabídka přizpůsobená jednomu člověku často přestane působit, když ji posoudí někdo jiný, kdo nemá tytéž testy. Čtvrtou obranou je čas: rozhodnutí odložené mimo schůzku ztrácí oporu v bezprostřední ozvěně vlastních slov. Výzkum očkování proti přesvědčování ukazuje, že předem získané povědomí o způsobu působení a vyzkoušené protiargumenty snižují náchylnost k pozdějšímu tlaku (McGuire 1964; van der Linden 2023). Lidé, kteří na takovou nabídku přistoupili, se často stydí, protože měli pocit, že se rozhodli sami. Pomáhá jim vysvětlit, že vzorec cíleně využívá jejich vlastní kritéria, a že pocit vlastního rozhodnutí je právě tím, co je na něm nejzrádnější.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt.
@@ -121,6 +119,8 @@ Hlavní obranou je oddělit formu od obsahu. Když nabídka „splní“ vlastn�
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

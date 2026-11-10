@@ -105,8 +105,6 @@ Model logických úrovní nebyl empiricky ověřen jako popis struktury lidské 
 
 Základní obranou je vracet kritiku na úroveň, kam patří. Když někdo z jedné chyby vyvozuje, kým člověk je, je legitimní odpovědět, že se mluví o konkrétním činu, a zeptat se, co přesně by mělo být jinak. Druhou obranou je ostražitost vůči nabídkám nové identity a poslání, které přicházejí rychle a výměnou za loajalitu: identita, kterou člověk dostane od skupiny, může být odebrána, kdykoli skupina chce. Třetí obranou je udržovat úroveň prostředí a chování ve vlastních rukou: čas, peníze, vztahy a každodenní rozhodování jsou oblasti, kde se nejrychleji projeví, že vyšší rámec začal člověka vyčerpávat. U lidí, kteří prošli skupinou nebo vztahem, kde byla jejich identita soustavně přepisována, je zotavení dlouhodobé. Kompendium ho popisuje v hesle [identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md). Herman zdůrazňuje, že po zkušenosti dlouhodobé kontroly je třeba znovu vystavět pocit vlastní identity a že to probíhá ve vztazích, kde je člověk přijímán bez podmínek loajality (Herman 1992). Odborníci, kteří s modelem pracují, by měli mít na paměti, že otázky na identitu a poslání se dotýkají nejcitlivějších vrstev člověka, a proto vyžadují výslovný souhlas a opatrnost.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -121,6 +119,8 @@ Základní obranou je vracet kritiku na úroveň, kam patří. Když někdo z je
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

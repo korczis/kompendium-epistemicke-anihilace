@@ -196,8 +196,6 @@ Odborníci by měli při práci s klientem nejprve ověřit, v jakém prostřed�
 potom interpretovat jeho obtíže jako věc vnitřních obsahů. Navazující úroveň popisuje heslo
 [úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -213,6 +211,8 @@ potom interpretovat jeho obtíže jako věc vnitřních obsahů. Navazující ú
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

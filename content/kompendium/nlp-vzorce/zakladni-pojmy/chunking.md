@@ -103,8 +103,6 @@ Millerův poznatek o seskupování informací do celků patří k základům kog
 
 Základní obranou je oddělit souhlas s cílem od souhlasu s prostředkem. Pokud mluvčí přechází od hodnoty, se kterou souhlasíte, k jednomu konkrétnímu kroku, je na místě se zeptat, jaké jiné kroky k témuž cíli vedou a proč by měl být zvolen právě tento. Druhou obranou je trvat na odpovědi na úrovni, na které byla položena otázka. Na otázku po ceně je odpovědí částka, ne popis toho, jak důležitá je pro vás rodina. Na otázku po důkazu je odpovědí doklad, ne výčet hodnot, které mluvčí sdílí. Třetí obranou je všímat si postupného sestupu k větším závazkům a vracet se k tomu, s čím jste skutečně souhlasili na začátku. Zapsat si, co přesně bylo dohodnuto, pomáhá rozpoznat, kdy se rozsah dohody posunul. Lidé, kteří byli takto vedeni k závazkům, například finančním, mívají později pocit, že „nevědí, jak se to stalo“. Pomáhá jim rekonstruovat jednotlivé přesuny a rozpoznat, že souhlas s obecnou hodnotou nebyl souhlasem s tím, co z něj druhá strana vyvodila. U skupin s vlastním slovníkem, jak je popisuje Lifton, je zotavení spojeno i s návratem ke konkrétnímu, ověřitelnému jazyku místo obecných hesel (Lifton 1961).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -116,6 +114,8 @@ Základní obranou je oddělit souhlas s cílem od souhlasu s prostředkem. Poku
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -197,8 +197,6 @@ popírá, a zachycuje vzorec, který se v jednotlivých incidentech ztrácí (St
 opatrně: „nalezli jsme příčinu A; příčinu B jsme dosud nevyloučili“. Taková věta drží
 otevřenou otázku, kterou by potvrzení disjunktu předčasně uzavřelo.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -209,6 +207,8 @@ otevřenou otázku, kterou by potvrzení disjunktu předčasně uzavřelo.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

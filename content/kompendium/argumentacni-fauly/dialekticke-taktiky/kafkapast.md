@@ -206,8 +206,6 @@ obvinění od posouzení a dávají obviněnému právo vyjádřit se k dokladů
 lidmi, kteří byli pasti vystaveni dlouhodobě, je klíčová obnova důvěry ve vlastní výpověď,
 která podle Hermanové probíhá ve vztahu, kde je výpověď brána vážně (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
@@ -217,6 +215,8 @@ která podle Hermanové probíhá ve vztahu, kde je výpověď brána vážně (
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

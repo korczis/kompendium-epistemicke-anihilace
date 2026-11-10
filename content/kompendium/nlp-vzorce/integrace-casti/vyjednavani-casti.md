@@ -104,8 +104,6 @@ Pro vyjednávání mezi částmi jako specifický postup NLP nejsou známy kontr
 
 Základní obranou je položit si otázku, mezi kým spor ve skutečnosti probíhá. Pokud konflikt vznikl tím, že někdo jiný klade požadavky, které člověk nechce nebo nemůže splnit, je legitimní odmítnout jeho přepis na vnitřní spor a vrátit vyjednávání tam, kam patří: k jednání s tím, kdo požadavky klade, s jasně vyslovenými podmínkami a s možností odmítnout. Druhou obranou je nepřipustit, aby za vlastní stránky mluvil někdo jiný. Tvrzení typu „tvoje část už souhlasila“ nemá žádnou váhu, pokud člověk souhlas sám nevyslovil, a je možné ho výslovně odmítnout. Třetí obranou je posoudit dohodu podle výsledku: pokud „vnitřní dohoda“ vždy končí tím, že člověk ustoupí druhému a přijde o čas, kontakty nebo zdroje, nejde o řešení vnitřního konfliktu, ale o ústupek pod tlakem. V pracovních a vztahových situacích, kde se tento vzorec opakuje, pomáhá zapisovat si požadavky druhé strany a vlastní odpovědi, aby bylo zřejmé, kdo co navrhl a kdo co odmítl. Zotavení po vztazích, ve kterých byla vlastní vůle soustavně vydávána za vnitřní spor, vyžaduje obnovu schopnosti rozlišit vlastní přání od přání druhého, k čemuž kompendium nabízí oporu v kapitole [obrany a kalibrace](@/kompendium/06-obrana/_index.md) a v literatuře o zotavení po zneužití (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -118,6 +116,8 @@ Základní obranou je položit si otázku, mezi kým spor ve skutečnosti probí
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

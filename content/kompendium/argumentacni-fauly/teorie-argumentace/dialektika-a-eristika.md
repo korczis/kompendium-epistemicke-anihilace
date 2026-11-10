@@ -192,8 +192,6 @@ obsahu, protože taková odpověď je kratší a obecně použitelná. Konečně
 sebereflexe: eristika je pokušení obou stran a nejspolehlivějším znakem dialektického postoje
 je ochota uznat dobrý důvod, i když pochází od protivníka.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
@@ -204,6 +202,8 @@ je ochota uznat dobrý důvod, i když pochází od protivníka.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

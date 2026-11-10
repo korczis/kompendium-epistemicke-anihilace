@@ -197,8 +197,6 @@ důvěru ve vlastní úsudek a rozlišit, kdy jeho váhání bylo oprávněnou o
 hodnocení konkrétních rozhodnutí podle jejich výsledků, ne podle rychlosti, a prostředí, v němž
 je možné požádat o čas bez obav z nálepky. Obecným otázkám práce s taxonomiemi se kompendium věnuje v [metodologických poznámkách k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md). Pro vlastní posouzení pomáhá připomínat si, že pozorovatel snadno nachází potvrzení kategorie, kterou očekává, a přehlíží doklady proti ní (Gilovich 1991).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -211,6 +209,8 @@ je možné požádat o čas bez obav z nálepky. Obecným otázkám práce s tax
 - Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

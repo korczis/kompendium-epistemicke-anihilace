@@ -197,8 +197,6 @@ skupina, od jeho původní identity a jejich rozlišení považuje za důležito
 (Hassan 1988). Odborníci, kteří s klienty po odchodu ze skupin pracují, by
 se měli vyhnout tomu, aby staré soudy bez původce nahradili novými, jen s jiným obsahem.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -214,6 +212,8 @@ se měli vyhnout tomu, aby staré soudy bez původce nahradili novými, jen s ji
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

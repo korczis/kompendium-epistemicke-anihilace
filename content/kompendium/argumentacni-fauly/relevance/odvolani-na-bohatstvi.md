@@ -199,8 +199,6 @@ tehdy, když je obhájeno vhodným argumentačním schématem, které je správn
 společenské postavení mluvčího takovým schématem samo o sobě není (van Eemeren a
 Grootendorst 2004).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -212,6 +210,8 @@ Grootendorst 2004).
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -104,8 +104,6 @@ Pro integraci polarit jako specifický postup NLP nejsou známy kontrolované st
 
 Obranou je trvat na tom, že obě stránky rozporu patří člověku a že žádná z nich není sama o sobě slabá nebo nečistá. Pokud někdo rozděluje vaši osobnost na silnou a slabou polovinu a silnou ztotožňuje s tím, co požaduje on nebo skupina, je legitimní jeho výklad odmítnout a popsat rozpor vlastními slovy. Druhou obranou je sledovat obsah pólů: pokud do slabého pólu padá všechno, co spojuje člověka se světem mimo vztah nebo skupinu, nejde o vnitřní integraci, ale o odpojování od vnějších opor. Třetí obranou je hledat rozhovor s lidmi mimo tento rámec, kteří mohou připomenout, že pochybnosti, vazby na rodinu a potřeba soukromí jsou běžnou a zdravou součástí života. V zotavení po zkušenosti, ve které bylo vlastní já soustavně štěpeno na dobré a špatné, se pracuje s obnovou celistvosti, tedy s tím, aby člověk mohl znovu uznat i stránky, které skupina nebo vztah označily za nečisté. Herman popisuje, že zotavení po dlouhodobém zneužití vede k obnově souvislé identity a ke znovunavázání vztahů, které byly přerušeny (Herman 1992). Kompendium k tomu nabízí oporu v protokolu [identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md). Odborníci, kteří s polaritami pracují, by měli dbát, aby žádný pól nehodnotili a aby výsledek práce zůstal v rukou klienta.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford: Stanford University Press.
@@ -121,6 +119,8 @@ Obranou je trvat na tom, že obě stránky rozporu patří člověku a že žád
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

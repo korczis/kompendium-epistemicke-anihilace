@@ -198,8 +198,6 @@ rozlišení, kdy byla emoce přiměřenou reakcí na nepřiměřenou situaci, a 
 práva cítit hněv, smutek nebo strach, aniž by to znamenalo ztrátu hlasu. Rogers zdůrazňoval, že
 přijetí prožitku bez hodnocení je podmínkou změny, nikoli její překážkou (Rogers 1951).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -212,6 +210,8 @@ přijetí prožitku bez hodnocení je podmínkou změny, nikoli její překážk
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

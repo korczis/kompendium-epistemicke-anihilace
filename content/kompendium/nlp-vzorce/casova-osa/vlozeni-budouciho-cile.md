@@ -106,8 +106,6 @@ Pro tvrzení, že prostorové umístění cíle na časovou osu zvyšuje pravdě
 
 Základní obranou je oddělit představu od rozhodnutí. Po živé představě budoucnosti, zvláště ve skupině nebo pod vedením někoho, kdo něco prodává, je rozumné nerozhodovat hned. Odstup několika dní, písemné podmínky a srovnání s jinými možnostmi narušují emoční spojení, na kterém tlak stojí (Cialdini 2009). Druhou obranou je doplnit představu o překážky: co by mohlo cíl zkomplikovat, kolik to bude stát a jaké jsou jiné cesty k němu. Takové doplnění není sebesabotáž, ale součást rozumného plánování. Třetí obranou je posoudit, zda je cíl skutečně váš. Představa budoucnosti, kterou někdo vytvořil za vás, a cíl, který slouží jeho zájmům, nejsou vaším cílem jen proto, že jste si je živě představili. Lidé, kteří v takovém stavu udělali finanční nebo životní rozhodnutí a později ho litují, se často stydí, že „se nechali unést“. Pomáhá pochopit, že živá představa ovlivňuje úsudek u každého, a obrátit se na lidi mimo situaci, kteří mohou pomoci rozhodnutí přehodnotit a hledat nápravu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -118,6 +116,8 @@ Základní obranou je oddělit představu od rozhodnutí. Po živé představě 
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

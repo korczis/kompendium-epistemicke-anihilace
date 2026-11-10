@@ -106,8 +106,6 @@ Vzorec změna velikosti rámce nebyl samostatně empiricky testován; Dilts ho d
 
 Základní obranou je všímat si, kdo velikost rámce určuje a proč se mění. Pokud mluvčí u svého jednání rámec zvětšuje a u jednání adresáta zmenšuje, jde o asymetrii, kterou lze pojmenovat. Pomáhá vrátit se k rámci, v němž se jednání skutečně děje: nejde o jednu hádku, ale o opakovaný vzorec, a jeho dopad se posuzuje v přítomnosti, ne z představy budoucnosti. Druhou obranou je vedení záznamu. Kdo si zapisuje jednotlivé události s datem a popisem, má podklad, který zmenšení rámce na jeden incident nerozloží, protože opakování je na první pohled vidět. Takový záznam je užitečný i pro odborníky, kteří situaci posuzují, protože jim umožní vidět průběh, a ne jen jednotlivé epizody (Stark 2007). Třetí obranou je opora mimo vztah, tedy lidé, kteří mohou potvrdit, že reakce adresáta je přiměřená tomu, co se děje. U lidí, kteří dlouhodobě zažívali zlehčování opakované újmy, zahrnuje zotavení obnovu schopnosti vidět vzorec a důvěřovat vlastnímu odhadu jeho závažnosti. Herman zdůrazňuje, že rekonstrukce vlastního příběhu jako souvislého celku je důležitou součástí zotavení po dlouhodobém traumatu (Herman 1992); u tohoto vzorce to znamená vrátit jednotlivým epizodám jejich místo v celku, ze kterého byly vytrženy.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -121,6 +119,8 @@ Základní obranou je všímat si, kdo velikost rámce určuje a proč se mění
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

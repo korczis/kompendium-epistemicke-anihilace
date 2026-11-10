@@ -197,8 +197,6 @@ odvozovat pravděpodobnost dalších kroků (Kahneman 2011). V rozhovoru, kde po
 příběhu slouží jako náhražka důkazů, pomáhá klidně oddělit, co je doloženo, od toho, co
 je dovyprávěno, a ponechat dovyprávěné části otevřené jako hypotézy, nikoli jako závěry.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press.
@@ -207,6 +205,8 @@ je dovyprávěno, a ponechat dovyprávěné části otevřené jako hypotézy, n
 - Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? *Behavioral and Brain Sciences*, 23(5), 645–665.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Tversky, A., & Kahneman, D. (1983). Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment. *Psychological Review*, 90(4), 293–315.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

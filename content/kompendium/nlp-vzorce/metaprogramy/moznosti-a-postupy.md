@@ -194,8 +194,6 @@ Pomáhá postupné obnovování vlastních voleb v malých věcech a podpora, kt
 neomylný systém. Příklad prostředí, kde se podobná dynamika rozvinula v podnikání, popisuje
 kazuistika [kultu zakladatele startupu](@/kompendium/case-studies/62-startup-founder-cult.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt.
@@ -209,6 +207,8 @@ kazuistika [kultu zakladatele startupu](@/kompendium/case-studies/62-startup-fou
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

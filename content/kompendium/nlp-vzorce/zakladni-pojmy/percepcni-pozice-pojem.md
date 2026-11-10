@@ -105,8 +105,6 @@ Pro obecné tvrzení, že schopnost vnímat situaci z perspektivy druhého a z o
 
 Základní obranou je trvat na symetrii a na návratu. Kdo je vyzván, aby se vžil do druhého, může to udělat a zároveň říci, že jeho vlastní pohled tím nepřestává platit, a požádat o totéž druhou stranu. Druhou obranou je odmítnout předem daný výsledek: vcítění do druhého neznamená souhlas s ním a nemusí vést ke stažení stížnosti nebo k omluvě. Třetí obranou je zpochybnit nárok na objektivitu. Kdo tvrdí, že vidí situaci zvenčí, je stále účastníkem a jeho pohled je jedním z pohledů, ne rozhodčím. Užitečné je hledat skutečně nezúčastněné třetí strany, tedy lidi mimo vztah nebo instituci. U lidí, kteří dlouho žili ve vztahu, kde se jejich perspektiva soustavně přepisovala, bývá zotavení spojeno s obnovou první pozice: s učením se vnímat vlastní city a potřeby a brát je vážně. Herman zdůrazňuje, že základem zotavení je, aby zkušenost člověka byla uznána a aby získal zpět vlastní hledisko (Herman 1992). Teprve na tomto základě může mít smysl rozšiřovat pohled o perspektivy jiných, a to vždy dobrovolně a s možností se vrátit.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Dilts, R., & DeLozier, J. (2000). *Encyclopedia of Systemic Neuro-Linguistic Programming and NLP New Coding*. Scotts Valley: NLP University Press.
@@ -119,6 +117,8 @@ Základní obranou je trvat na symetrii a na návratu. Kdo je vyzván, aby se v�
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

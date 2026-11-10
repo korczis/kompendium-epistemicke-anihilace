@@ -192,8 +192,6 @@ slouží i pro sebekontrolu: kdo ji použije na vlastní argument, často zjist�
 stojí na oprávnění, které nikdy nevyslovil, a právě tam se nejčastěji uplatní
 [motivované uvažování](@/kompendium/argumentacni-fauly/teorie-argumentace/motivovane-uvazovani.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
@@ -204,6 +202,8 @@ stojí na oprávnění, které nikdy nevyslovil, a právě tam se nejčastěji u
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

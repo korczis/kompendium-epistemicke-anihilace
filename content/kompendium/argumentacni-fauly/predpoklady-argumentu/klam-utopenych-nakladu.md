@@ -191,8 +191,6 @@ mechanismu, který je držel, a že pocit, že „všechno bylo k ničemu“, je
 není důvodem k návratu (Singer a Lalich 1995). Zotavení často zahrnuje i truchlení nad
 ztraceným časem, které je třeba umožnit, místo aby se z něj stal argument pro setrvání.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124–140.
@@ -202,6 +200,8 @@ ztraceným časem, které je třeba umožnit, místo aby se z něj stal argument
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

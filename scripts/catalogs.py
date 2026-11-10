@@ -102,6 +102,7 @@ HEAD_BLOCK = re.compile(r"<!-- kompendium:(?:katalog|nlp)-hlavicka:begin.*?"
 BLOCK = re.compile(r"<!-- kompendium:(?:katalog|nlp)-vazby:begin.*?"
                    r"<!-- kompendium:(?:katalog|nlp)-vazby:end -->", re.S)
 TOML_FM = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
+LITERATURE_TAIL = re.compile(r"(?:\A|\n)## Literatura\n(?:(?!\n## ).)*\Z", re.S)
 H1 = re.compile(r"\A\s*# [^\n]*\n")
 H2 = re.compile(r"^## +(.+?)\s*$", re.M)
 WORD = re.compile(r"[A-Za-zÀ-ž]+")
@@ -377,6 +378,10 @@ def split_page(text: str) -> tuple:
     body = HEAD_BLOCK.sub("", body)
     body = BLOCK.sub("", body)
     body = H1.sub("", body, count=1)
+    # The derived `## Literatura` stands outside the marker blocks (the IA model reads the
+    # bibliography of a page only outside generated blocks); writers never write it, so the
+    # engine owns every Literatura section that ends a page and rewrites it.
+    body = LITERATURE_TAIL.sub("", body.rstrip("\n"))
     return front, body.strip("\n")
 
 
@@ -520,7 +525,8 @@ def entry_page(ctx: dict, e: dict, prose: str, description: str) -> str:
     head = [HEAD_BEGIN, "", "| Pole | Hodnota |", "|------|---------|"]
     head += [f"| **{k}** | {v} |" for k, v in rows] + ["", HEAD_END]
 
-    lines = [BEGIN, ""] + literature(keys, sources) + ["## Související", ""]
+    lit = literature(keys, sources)
+    lines = [BEGIN, "", "## Související", ""]
     lines += ["**Rodina a hierarchie**", "",
               f"- [{fam['title']}]({link(cat.family_index(e['family']))}) – rodina, do níž "
               "heslo patří, s přehledem všech jejích hesel"]
@@ -551,7 +557,7 @@ def entry_page(ctx: dict, e: dict, prose: str, description: str) -> str:
     lines.append(trainer_link(ctx, "procvičení rozpoznání tohoto hesla na příkladech výroků"))
     lines += ["", END]
     return (front + "\n" + f"# {e['cs']}\n\n" + "\n".join(head) + "\n\n" + prose.strip()
-            + "\n\n" + "\n".join(lines) + "\n")
+            + "\n\n" + "\n".join(lit) + "\n" + "\n".join(lines) + "\n")
 
 
 def slug_of(text: str) -> str:
@@ -584,7 +590,8 @@ def family_page(ctx: dict, cat: Catalog, fam: dict, prose: str, description: str
     for e in fam["entries"]:
         lines.append(f"| `{e['id']}` | [{e['cs']}]({link(e['path'])}) | {e['en']} | "
                      f"{cat.types[e['type']]} | {cat.uses[e['use']]} | {cat.risks[e['risk']]} |")
-    lines += [""] + family_diagram(fam) + literature(keys, sources) + ["## Související", ""]
+    lines += [""] + family_diagram(fam) + [END, ""] + literature(keys, sources)
+    lines += [BEGIN, "", "## Související", ""]
     lines.append(f"- [{cat.title}]({link(cat.index)}) – celý katalog a jeho rodiny")
     order = [f["slug"] for f in cat.families]
     i = order.index(fam["slug"])
@@ -649,7 +656,7 @@ def section_page(ctx: dict, cat: Catalog, prose: str, description: str, title: s
               + (f" {len(cat.entries) - own} z nich má v knize jinou kanonickou stránku a "
                  "katalog na ni odkazuje." if own < len(cat.entries) else "")
               + " Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.", ""]
-    lines += literature(keys, sources) + ["## Související", ""]
+    lines += [END, ""] + literature(keys, sources) + [BEGIN, "", "## Související", ""]
     lines.append(trainer_link(ctx, "interaktivní procvičení rozpoznání hesel všech katalogů"))
     for other in ctx["catalogs"]:
         if other is not cat:

@@ -200,8 +200,6 @@ psychologické zdroje klamu v přehledu
 použito k tomu, aby se výpověď oběti nemusela posuzovat, má jeho rozpoznání přímý dopad na
 ochranu dotčené osoby (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -213,6 +211,8 @@ ochranu dotčené osoby (Herman 1992).
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

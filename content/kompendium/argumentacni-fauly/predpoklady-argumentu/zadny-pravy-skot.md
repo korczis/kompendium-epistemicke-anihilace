@@ -188,8 +188,6 @@ kontrola informací a myšlení jednou z hlavních dimenzí (Hassan 1988). Obran
 logickou analýzu s uznáním, že svědectví bývalého člena je třeba posuzovat podle jeho obsahu,
 a ne podle dodatečně udělené či odepřené příslušnosti.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
@@ -201,6 +199,8 @@ a ne podle dodatečně udělené či odepřené příslušnosti.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

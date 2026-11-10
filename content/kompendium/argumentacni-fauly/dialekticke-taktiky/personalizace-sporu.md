@@ -201,8 +201,6 @@ důležité vědět, že tento posun je znakem taktiky, ne důkazem vlastního s
 oporu u lidí, kteří posoudí doklady (Herman 1992). Rozpoznání, že spor byl personalizován,
 je samo prvním krokem k jeho věcnému řešení (Walton 2008).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -212,6 +210,8 @@ je samo prvním krokem k jeho věcnému řešení (Walton 2008).
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -106,8 +106,6 @@ Vzorec meta-rámec nebyl samostatně empiricky testován; Dilts ho dokládá vý
 
 Základní obranou je trvat na tom, že původ pochybnosti nerozhoduje o její oprávněnosti. I kdyby pochybnost měla kořeny v minulé zkušenosti, otázka, kterou klade, zůstává otázkou o současné situaci a zaslouží si věcnou odpověď: kam jdou peníze, kdo rozhoduje, co se stalo. Užitečné je pojmenovat přesun úrovně: mluvíme teď o mně, a ne o tom, na co jsem se ptal. Druhou obranou je vnější ověření. Pochybnost, kterou druhá strana psychologizuje, lze probrat s lidmi mimo vztah nebo skupinu, kteří nemají zájem na jejím zneplatnění. Třetí obranou je znát znaky nevyvratitelného výkladu: pokud žádná odpověď nemůže výklad mluvčího vyvrátit, nejde o hypotézu, ale o nástroj. Pro lidi, kteří odcházejí z prostředí, kde se jejich pochybnosti soustavně vykládaly jako příznaky, je zotavení často dlouhé. Zahrnuje obnovu důvěry, že vlastní pochybnosti jsou informací, a ne vadou, a postupné vracení se k otázkám, které dříve nesměly být položeny. Hassan zdůrazňuje, že bývalým členům pomáhá pochopit mechanismy, jimiž byla jejich kritická schopnost oslabena, protože to snižuje stud a sebeobviňování (Hassan 1988). V klinické práci je proto důležité, aby terapeut sám nepoužíval psychologizaci pochybností klienta, i když by byla míněna dobře.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -120,6 +118,8 @@ Základní obranou je trvat na tom, že původ pochybnosti nerozhoduje o její o
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

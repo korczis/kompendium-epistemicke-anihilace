@@ -196,8 +196,6 @@ vlastní uvažování, často s podporou terapie, která pracuje s obsahem myšl
 vypínáním (Hassan 1988). Přehled ověřených přístupů nabízí stránka o [terapeutických
 přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -211,6 +209,8 @@ přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md).
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

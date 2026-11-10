@@ -203,8 +203,6 @@ rozhoduje ta druhá (Cook, Lewandowsky a Ecker 2017). Konečně má ocelový pan
 sebekontrola. Kdo nedokáže stanovisko protivníka shrnout tak, aby ho ten přijal, ještě
 nerozumí sporu dost dobře na to, aby ho mohl rozhodnout.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*, 14(2), 125–136.
@@ -215,6 +213,8 @@ nerozumí sporu dost dobře na to, aby ho mohl rozhodnout.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

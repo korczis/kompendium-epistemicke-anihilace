@@ -201,8 +201,6 @@ jim někdo vložil do paměti jako varování. Herman popisuje, jak se při zota
 jeho výklad není podřízen výkladu někoho jiného (Herman 1992). Totéž platí pro zotavení z
 prostředí, kde se výklad předával příběhy, jejichž smysl směl znát jen vypravěč.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -217,6 +215,8 @@ prostředí, kde se výklad předával příběhy, jejichž smysl směl znát je
 - Rosen, S. (Ed.) (1982). *My Voice Will Go with You: The Teaching Tales of Milton H. Erickson*. New York: W. W. Norton.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -202,8 +202,6 @@ terapie zaměřené na trauma. Z pojetí donucující kontroly jako omezení svo
 možnosti rozhodovat o vlastním čase, penězích, kontaktech a těle je stejně důležitou
 součástí zotavení jako léčba psychických následků (Stark 2007).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
@@ -211,6 +209,8 @@ součástí zotavení jako léčba psychických následků (Stark 2007).
 - Pavlov, I. P. (1927). *Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex*. London: Oxford University Press.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

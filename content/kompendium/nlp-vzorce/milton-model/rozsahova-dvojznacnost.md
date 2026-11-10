@@ -205,8 +205,6 @@ psychologické zpracování: lidé mají sklon vinit se z „hlouposti“, přes
 vytvořena právě tak, aby ji běžný posluchač nezachytil. Pojmenování mechanismu pomáhá přesunout
 odpovědnost tam, kam patří, a obnovit důvěru ve vlastní úsudek.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -221,6 +219,8 @@ odpovědnost tam, kam patří, a obnovit důvěru ve vlastní úsudek.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

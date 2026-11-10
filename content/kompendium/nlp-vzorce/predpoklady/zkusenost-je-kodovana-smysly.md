@@ -198,8 +198,6 @@ zotavení obnova přesvědčení, že vlastní tělo a pohled nejsou svědky pro
 zdůrazňuje, že návrat pocitu kontroly nad vlastním tělem a projevem patří k základům obnovy
 po dlouhodobé kontrole (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
@@ -215,6 +213,8 @@ po dlouhodobé kontrole (Herman 1992).
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

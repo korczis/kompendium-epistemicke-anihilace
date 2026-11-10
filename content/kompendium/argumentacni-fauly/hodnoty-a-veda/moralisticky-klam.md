@@ -193,8 +193,6 @@ přináší, je chráněn před odvetou. Pro člověka, kterému okolí opakovan
 přálo, aby svět vypadal. Odborník, který s takovým člověkem pracuje, může jeho zkušenost posoudit
 podle dokladů a vlastního ověření, aniž by ji předem podřídil ideálu prostředí, z něhož přichází.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -208,6 +206,8 @@ podle dokladů a vlastního ověření, aniž by ji předem podřídil ideálu p
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

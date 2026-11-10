@@ -196,8 +196,6 @@ je model blízký struktuře řízení a dobře se hodí k rozboru výslechů a 
 že pravidla zavazují obě strany. Kdo je používá jen k obviňování protějšku, mění kritickou
 diskusi ve spor o pravidla, který je sám formou eristiky (van Eemeren a Grootendorst 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
@@ -208,6 +206,8 @@ diskusi ve spor o pravidla, který je sám formou eristiky (van Eemeren a Groote
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

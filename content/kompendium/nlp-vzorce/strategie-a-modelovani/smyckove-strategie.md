@@ -104,8 +104,6 @@ Pojem smyčkové strategie je popisný a nebyl předmětem samostatného kontrol
 
 Proti vnitřní smyčce pomáhá doplnit chybějící výstup: stanovit konkrétní, splnitelná kritéria a časovou hranici, po níž se rozhodne podle toho, co je k dispozici. Užitečné je uvědomit si, že úplná jistota není dosažitelná a že rozumné rozhodnutí se dělá při rozumné míře informací. Pokud přemítání přetrvává a narušuje spánek, práci nebo vztahy, je vhodné vyhledat odbornou pomoc, protože může jít o projev úzkostné nebo depresivní poruchy. Proti smyčce nastavené zvenčí je hlavní obranou pojmenovat nesplnitelné kritérium. Otázka „podle čeho přesně poznám, že jsem připravená“ často odhalí, že odpověď neexistuje nebo že se mění. Druhou obranou je převzít kritérium zpět: rozhodnout se podle vlastních, konkrétních měřítek, nikoli podle toho, zda to druhý uzná. Třetí obranou je vnější pohled. Člověk mimo vztah nebo skupinu může snáze vidět, že měřítko je posouváno, a potvrdit, že pochybnost není důkazem nepřipravenosti, ale běžnou součástí každého závažného rozhodnutí. U lidí, kteří v takové smyčce žili dlouhodobě, přetrvává po odchodu sklon k sebeobviňování a k pocitu, že nikdy nejsou dost dobří. V zotavení pomáhá postupné obnovování realistických měřítek a zkušenost, že rozhodnutí lze udělat a unést i bez úplné jistoty (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -119,6 +117,8 @@ Proti vnitřní smyčce pomáhá doplnit chybějící výstup: stanovit konkrét
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -104,8 +104,6 @@ Kompendiu nejsou známy kontrolované studie, které by zkoumaly abecední hru j
 
 Protože riziko samotné hry je nízké, obrana se týká hlavně jejího rámce. Kdo se účastní cvičení tohoto typu, může si ponechat jednoduché pravidlo: po hře, ukázce nebo silném prožitku nepřijímat závazky na místě, ale nechat rozhodnutí odležet a posoudit je mimo skupinu. Druhou obranou je rozlišovat prožitek a výklad. Úleva po soustředěné činnosti je skutečná, ale tvrzení, že se tím přeprogramovala reakce na problém, je jiný nárok, který vyžaduje doklad. Je legitimní ptát se lektora, z čeho takové tvrzení vychází a jak se ověřovalo. Třetí obranou je právo odmítnout. Kdo se ve skupině cítí zahanben tím, že hru nezvládá, nemá důvod pokračovat, a výklad, že se „brání“, není argument, ale tlak. Předem získané povědomí o tom, jak tyto rámce působí, pomáhá rozpoznat je v okamžiku, kdy přicházejí (McGuire 1964). Pro odborníky, kteří hru používají, platí, že ji mají uvádět jako nedoloženou rozcvičku a nespojovat ji s tvrzeními o mozku ani s prodejem dalších služeb.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -120,6 +118,8 @@ Protože riziko samotné hry je nízké, obrana se týká hlavně jejího rámce
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -106,8 +106,6 @@ Vzorec model světa nebyl samostatně testován v kontrolovaných studiích. Dil
 
 Základní obranou je trvat na symetrii a na rozlišení výkladu od faktu. Pokud mluvčí označí výklad adresáta za jeden z modelů, je legitimní připomenout, že i jeho výklad je modelem, a navrhnout, aby se oba porovnaly s tím, co se stalo. Pokud se relativizace dotkne faktu nebo újmy, je na místě říct, že odlišné modely mohou měnit význam, ale nemění, co se stalo a jak to člověka zasáhlo. Užitečné je také ptát se, o jaké „jiné lidi“ nebo „jiné kultury“ jde a zda jejich údajný postoj lze ověřit. Druhou obranou je opora mimo vztah: lidé, kteří situaci znají a mohou potvrdit, že adresátův popis je v běžném rozsahu. Herman zdůrazňuje, že obnova schopnosti pojmenovat vlastní zkušenost probíhá ve vztahu, který tuto zkušenost uznává (Herman 1992). Pro lidi, kteří byli dlouhodobě vystaveni asymetrické relativizaci, proto klinická práce nezačíná dalším nabízením alternativních perspektiv, ale validací toho, co prožili, a obnovou rozlišení mezi tím, co se stalo, a tím, jak to lze vykládat. Teprve na této pevné půdě může mít práce s jinými modely světa smysl, a to jako volba klienta, ne jako požadavek druhé strany.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -121,6 +119,8 @@ Základní obranou je trvat na symetrii a na rozlišení výkladu od faktu. Poku
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

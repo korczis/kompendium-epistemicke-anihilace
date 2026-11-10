@@ -191,8 +191,6 @@ která k nim přístup nemá. Kompendium k obecnému principu odkazuje také na 
 [Popperově falsifikaci](@/kompendium/techniques/ea-7-2-3-popper-falsification.md), která
 vysvětluje, proč tvrzení, které nelze testovat, nemůže být nikdy doloženo pouhým nevyvrácením.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
@@ -201,6 +199,8 @@ vysvětluje, proč tvrzení, které nelze testovat, nemůže být nikdy doložen
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

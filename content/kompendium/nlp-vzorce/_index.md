@@ -172,6 +172,8 @@ ověřitelných zdrojů celé knihy.
 
 Katalog má 414 hesel: 129 × pojem, 22 × princip, 263 × vzorec. 1 z nich má v knize jinou kanonickou stránku a katalog na ni odkazuje. Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.
 
+<!-- kompendium:katalog-vazby:end -->
+
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -198,6 +200,8 @@ Katalog má 414 hesel: 129 × pojem, 22 × princip, 263 × vzorec. 1 z nich má 
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

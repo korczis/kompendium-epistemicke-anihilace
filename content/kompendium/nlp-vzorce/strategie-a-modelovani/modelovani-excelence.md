@@ -106,8 +106,6 @@ Historické tvrzení, že NLP vzniklo popisem práce Perlse, Satirové a Erickso
 
 Základní obranou je trvat na nezávislém měření výsledků. Pokud kurz nebo skupina tvrdí, že napodobením vzoru dosáhnete jeho úspěchu, je rozumné ptát se, kolik lidí to skutečně dokázalo, jak se to měřilo a co se stalo s těmi, kdo neuspěli. Druhou obranou je zachovat si právo na otázky a nesouhlas. Dobré učení od vzoru je zve; prostředí, které je označuje za překážku, se od učení vzdaluje. Třetí obranou je všímat si, co napodobujete. Převzetí postupu, který lze vysvětlit a ověřit, je učení; převzetí řeči, gest a životního stylu jiného člověka bez vztahu k dovednosti je připodobnění, které posiluje vazbu na vzor, ne schopnosti. U lidí, kteří po letech napodobování vůdčí osoby skupinu opustili, bývá zotavení spojeno s otázkou, co z jejich řeči, postojů a návyků je jejich vlastní. Hassan popisuje, jak se po odchodu ze skupiny postupně obnovuje původní identita, kterou skupinová identita překryla (Hassan 1988). Pomáhá trpělivé rozlišování mezi dovednostmi, které člověk skutečně získal a může si je ponechat, a mezi vnějšími znaky příslušnosti, které může odložit. Odborníci, kteří modelování používají ve vzdělávání, by měli vždy oddělovat učení dovednosti od napodobení osoby a výsledky ověřovat nezávisle na vzoru.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -124,6 +122,8 @@ Základní obranou je trvat na nezávislém měření výsledků. Pokud kurz neb
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

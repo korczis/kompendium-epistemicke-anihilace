@@ -107,8 +107,6 @@ Rámcové efekty jsou v psychologii rozhodování mezi nejlépe doloženými jev
 
 Základní obranou je rámec pojmenovat a vrátit do rozhovoru otázky, které vylučuje. Pokud lektor na začátku semináře řekne, že se neptáme, zda metoda funguje, je na místě se zeptat právě na to. Pokud je volba představena jako výběr ze dvou možností, je užitečné se ptát, co dalšího je možné, včetně možnosti nic nevybrat. Druhou obranou je všímat si předrámcování: kdo předem označí kritiku za projev závisti nebo odporu, chrání svůj výklad před ověřením. Taková ochrana je sama o sobě varovným znakem, jak kompendium popisuje u [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md). Třetí obranou je předběžná znalost: výzkum očkování proti přesvědčování ukazuje, že lidé, kteří předem znají podobu manipulativního argumentu a vědí, proč je chybný, mu odolávají lépe (McGuire 1964; van der Linden 2023). U lidí, kteří dlouho žili uvnitř jednoho rámce, například ve skupině s vlastním slovníkem, je zotavení spojeno s postupným osvojováním alternativních pojmů a výkladů. Pomáhá jim čtení, rozhovory s lidmi mimo skupinu a odborná podpora, která jim umožní znovu klást otázky, jež skupina vylučovala (Lifton 1961). Postupy, které rámec vědomě rozkládají, kompendium popisuje na stránce o [deframingu](@/kompendium/nlp-vzorce/reframing/deframing.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -124,6 +122,8 @@ Základní obranou je rámec pojmenovat a vrátit do rozhovoru otázky, které v
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -197,8 +197,6 @@ nepravdy (Cook, Lewandowsky a Ecker 2017). Pro čtenáře kompendia z toho plyne
 vzorce „novější, tedy lepší“ chrání účinněji než spor o každou jednotlivou novinku. V
 institucích pomáhá trvat na tom, aby nové i zavedené postupy podléhaly stejnému hodnocení.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -213,6 +211,8 @@ institucích pomáhá trvat na tom, aby nové i zavedené postupy podléhaly ste
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

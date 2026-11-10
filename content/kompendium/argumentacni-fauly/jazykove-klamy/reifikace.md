@@ -187,8 +187,6 @@ porucha“ namísto ztotožnění člověka s kategorií. Obrana proti reifikaci
 se abstrakcí a metafor; znamená udržet vědomí, že jde o nástroje popisu, a vracet se k
 otázce, kdo jedná a kdo za jednání odpovídá (Kahneman 2011).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -198,6 +196,8 @@ otázce, kdo jedná a kdo za jednání odpovídá (Kahneman 2011).
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Korzybski, A. (1933). *Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics*. Lancaster: International Non-Aristotelian Library.
 - Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

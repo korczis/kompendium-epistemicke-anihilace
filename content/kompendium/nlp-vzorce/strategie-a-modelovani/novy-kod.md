@@ -103,8 +103,6 @@ O Novém kódu jako celku neexistují kontrolované studie, které by prokázaly
 
 První obranou je rozlišovat myšlenku od institucionální praxe, v níž se šíří. Je možné souhlasit s tím, že vědomý plán vidí jen část celku, a přesto trvat na tom, že metoda musí umět říct, podle čeho se pozná její neúspěch. Kdo se na semináři setká s odpovědí, že otázky jsou projevem „starého kódu“, má dobrý důvod odstoupit a hledat informace mimo okruh lidí, kteří na výcviku vydělávají. Druhou obranou je oddělovat stav od rozhodnutí. Cvičení, která navozují uvolněné a soustředěné rozpoložení, mohou být příjemná, ale rozhodnutí o penězích, závazcích a vztazích patří do doby, kdy stav odezní a člověk má čas zvážit fakta. Výzkum přesvědčování ukazuje, že když klesá schopnost nebo motivace k pečlivému zvažování, rozhodují se lidé víc podle povrchových vodítek, jako je nadšení okolí nebo autorita řečníka (Petty a Cacioppo 1986). Třetí obranou je vrátit vědomému úsudku jeho roli. Vědomé zvažování není nepřítel změny, ale nástroj, kterým člověk ověřuje, zda změna odpovídá jeho hodnotám. U lidí, kteří dlouhodobě pobývali v prostředí, kde se kritické myšlení soustavně znevažovalo, se v klinické praxi pracuje s obnovou důvěry ve vlastní úsudek v bezpečném vztahu, nikoli s dalšími technikami obcházejícími vědomí (Herman 1992). Odborník, který s Novým kódem pracuje, by měl jeho předpoklady sdělovat jako hypotézy, nabízet cvičení jako dobrovolná a výslovně podporovat klientovo právo metodu zpochybnit.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -121,6 +119,8 @@ První obranou je rozlišovat myšlenku od institucionální praxe, v níž se �
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

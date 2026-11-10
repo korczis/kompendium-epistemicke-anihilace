@@ -191,8 +191,6 @@ Zotavení spočívá v postupném hledání vlastních zdrojů radosti a zájmu,
 která je dříve určovala. Herman zdůrazňuje, že obnova autonomie po zkušenosti kontroly vyžaduje
 vztahy, v nichž člověk znovu sám rozhoduje o svých cílech (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -205,6 +203,8 @@ vztahy, v nichž člověk znovu sám rozhoduje o svých cílech (Herman 1992).
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

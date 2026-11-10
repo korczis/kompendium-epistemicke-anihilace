@@ -200,8 +200,6 @@ potvrzené a co předběžné. Čtenář, který se setká s titulkem „nová s
 rozhodovat hned; počkat na opakování je u většiny otázek rozumnější než přijmout nebo zavrhnout
 výsledek podle jedné zprávy.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -214,6 +212,8 @@ výsledek podle jedné zprávy.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Tversky, A., & Kahneman, D. (1971). Belief in the law of small numbers. *Psychological Bulletin*, 76(2), 105–110.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

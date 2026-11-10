@@ -104,8 +104,6 @@ Model strategií je srozumitelný a navazuje na zavedené kybernetické a behavi
 
 První obranou je ptát se po kritériích. Když někdo nabízí nový způsob, jak se rozhodovat, hodnotit nebo reagovat, je užitečné zjistit, podle čeho nový postup pozná, že je hotovo, a zda jsou tato měřítka vlastní, nebo patří někomu jinému. Postup, jehož součástí je „hlas vedoucího“ nebo „co by řekla skupina“, přenáší autoritu dovnitř úsudku. Druhou obranou je chránit pochybnost. Zvažování a váhání nejsou vady, které je třeba odstranit, ale funkce, které umožňují zastavit se před chybou. Postup, který je slibuje „vypnout“, zasahuje do schopnosti sebeochrany. Třetí obranou je zkouška reverzibility: legitimní dovednost lze kdykoli odložit nebo upravit bez ztráty vztahu či postavení. Kde to nejde, jde o kontrolu. U lidí, kteří odešli z prostředí, kde byly takové postupy zaváděny dlouhodobě, se po odchodu často objevují automatické reakce, například [vnitřní hlas](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) bývalého vedoucího při rozhodování. V péči o ně pomáhá tyto reakce pojmenovat jako naučené, a tedy změnitelné, a postupně obnovovat vlastní měřítka v bezpečném vztahu (Herman 1992). Předem získané povědomí o tom, jak takové zavádění probíhá, usnadňuje jeho rozpoznání v počátcích (McGuire 1964).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -122,6 +120,8 @@ První obranou je ptát se po kritériích. Když někdo nabízí nový způsob,
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

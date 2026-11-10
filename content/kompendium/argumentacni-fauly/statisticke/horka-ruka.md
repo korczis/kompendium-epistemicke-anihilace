@@ -195,8 +195,6 @@ nebo zdroje podle výkonu, pomáhá hodnotit výkon za delší období a s ohled
 úkolů, aby se krátkodobé série nepromítaly do rozhodnutí víc, než si zaslouží (Gilovich
 1991).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
@@ -204,6 +202,8 @@ nebo zdroje podle výkonu, pomáhá hodnotit výkon za delší období a s ohled
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Tversky, A., & Kahneman, D. (1971). Belief in the law of small numbers. *Psychological Bulletin*, 76(2), 105–110.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

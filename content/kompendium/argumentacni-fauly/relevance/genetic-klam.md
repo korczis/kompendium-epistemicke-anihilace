@@ -199,8 +199,6 @@ vykládají jako projev jeho minulosti či nezralosti, jde o vzorec, který komp
 u [argumentačního oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) a
 který zbavuje člověka možnosti, aby jeho námitky byly posouzeny jako námitky.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -214,6 +212,8 @@ který zbavuje člověka možnosti, aby jeho námitky byly posouzeny jako námit
 - Tindale, C. W. (2007). *Fallacies and Argument Appraisal*. Cambridge: Cambridge University Press.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

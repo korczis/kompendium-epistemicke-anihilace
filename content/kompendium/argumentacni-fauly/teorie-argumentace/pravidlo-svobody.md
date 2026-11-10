@@ -196,8 +196,6 @@ obranu rozvádí v oddílu o [obraně a kalibraci](@/kompendium/06-obrana/_index
 rozhoduje, zda vůbec namítnout, může vycházet z toho, že úplná absence námitek ve skupině není
 známkou shody, ale spíše známkou toho, že námitky nemají kudy zaznít (Lifton 1961).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -209,6 +207,8 @@ známkou shody, ale spíše známkou toho, že námitky nemají kudy zaznít (Li
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

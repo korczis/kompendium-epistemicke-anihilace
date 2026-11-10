@@ -193,8 +193,6 @@ sloužit i jako obrana proti bolestné pravdě: člověk, kterému se zdá nemys
 blízká osoba poškozovala, může tuto nepředstavitelnost používat jako důvod nevěřit vlastní
 zkušenosti, a v takovém případě je potřeba postupovat citlivě a s ohledem na jeho bezpečí.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
@@ -202,6 +200,8 @@ zkušenosti, a v takovém případě je potřeba postupovat citlivě a s ohledem
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? *Behavioral and Brain Sciences*, 23(5), 645–665.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

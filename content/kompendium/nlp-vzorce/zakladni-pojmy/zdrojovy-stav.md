@@ -106,8 +106,6 @@ Důkazy o specifických technikách NLP, které pracují se zdrojovým stavem, j
 
 Obranou proti posunuté struktuře zdroje je pravidelně si ověřovat, kde vlastní síla vzniká. Kdo si dokáže vybavit situace mimo vztah, skupinu nebo kurz, ve kterých byl klidný, schopný a radostný, má protiváhu vůči tvrzení, že zdroj se mu otevřel teprve tam. Užitečné je všímat si, zda po akcích přichází prázdnota, kterou může zaplnit jen další akce, a zda se pocit vlastní hodnoty mění podle přítomnosti autority. To jsou znaky závislosti, ne růstu. Druhou obranou je ostražitost vůči slibům rychlé proměny minulosti. Pokud technika slibuje, že staré bolestné vzpomínky budou po jednom sezení prožívány jinak, je rozumné ptát se po důkazech a po kvalifikaci toho, kdo ji nabízí. U lidí, kteří odešli ze skupiny, kde byl jejich pocit síly vázán na vůdce, je zotavení spojeno s postupným znovuobjevováním vlastních zdrojů: vztahů, činností a míst, kde se cítili dobře dřív. Hassan popisuje, že návrat k dřívější identitě a ke vztahům mimo skupinu je důležitou součástí odchodu (Hassan 1988). Terapie v této fázi stojí na stabilizaci a bezpečí, ne na dalším navozování intenzivních stavů (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -121,6 +119,8 @@ Obranou proti posunuté struktuře zdroje je pravidelně si ověřovat, kde vlas
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

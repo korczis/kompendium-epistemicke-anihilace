@@ -206,8 +206,6 @@ opakované tvrzení o nich samých dlouhodobě uplatňováno, se obrana nemůže
 potřebují prostředí, ve kterém mohou svou zkušenost ověřit u lidí mimo vztah nebo skupinu, a
 čas, během něhož se naučený popis sebe sama znovu otevře zkoumání.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -218,6 +216,8 @@ potřebují prostředí, ve kterém mohou svou zkušenost ověřit u lidí mimo 
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. Santa Monica: RAND Corporation.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

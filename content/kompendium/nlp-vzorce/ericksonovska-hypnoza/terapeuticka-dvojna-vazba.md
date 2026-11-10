@@ -198,8 +198,6 @@ zpracovávat to, co se dělo (Herman 1992). Terapeut, který s vazebnými interv
 by měl být připraven svůj rámec klientovi kdykoli vysvětlit; intervence, kterou nelze
 vysvětlit bez ztráty smyslu, si zaslouží zvláštní etickou kontrolu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -216,6 +214,8 @@ vysvětlit bez ztráty smyslu, si zaslouží zvláštní etickou kontrolu.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

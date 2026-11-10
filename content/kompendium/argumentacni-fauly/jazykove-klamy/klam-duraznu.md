@@ -197,8 +197,6 @@ užitečné rozlišovat nadpis od zprávy a zprávu od zdroje, protože důraz s
 úrovní může posunout (Huff 1954). Obrana proti klamu důrazu nespočívá v podezřívavosti vůči
 každému zvýraznění, ale v návyku vracet se k celku, než se z části vyvodí závěr.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -213,6 +211,8 @@ každému zvýraznění, ale v návyku vracet se k celku, než se z části vyvo
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -105,8 +105,6 @@ Empirická opora pojmu je slabá. Kontrolovaných studií, které by testovaly s
 
 Základní obranou je trvat na tom, že o změně vlastních citů rozhoduje člověk sám. Pokud někdo navrhuje „zmenšit“ nebo „odsunout“ vzpomínku na blízkého člověka, na křivdu nebo na pochybnost, je namístě zeptat se, proč by tento cit měl zmizet a komu to prospěje. City, které jsou pro mluvčího nepohodlné, nesou často důležitou informaci o vztahu nebo situaci. Druhou obranou je oddělit popis od slibu. Je v pořádku mluvit o tom, jak člověk vzpomínku prožívá; slib, že se tím během minut změní vztah k rodině nebo k vlastní minulosti, je důvodem k ostražitosti. Třetí obranou je hledat ověřené postupy, pokud člověk opravdu trpí dotěrnými vzpomínkami nebo úzkostí: kognitivně behaviorální terapie a další přístupy s doloženou účinností pracují i s představami, ale v rámci, který lze kontrolovat (Beck 1976). U lidí, kteří prošli skupinou, kde se jejich city soustavně „přepisovaly“, se zotavení opírá o obnovu práva na vlastní prožitek. Herman zdůrazňuje, že po zkušenosti kontroly je základem uzdravení obnova autonomie a bezpečného vztahu, ve kterém člověk smí cítit, co cítí (Herman 1992). Odborník, který s pojmem pracuje, by měl jeho popisnou vrstvu jasně oddělit od nároků na mechanismus a klientovi otevřeně říci, že účinnost technik postavených na submodalitách není prokázána.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -122,6 +120,8 @@ Základní obranou je trvat na tom, že o změně vlastních citů rozhoduje čl
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

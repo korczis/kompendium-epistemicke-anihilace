@@ -197,8 +197,6 @@ zdrženlivě, aby jeden cizí slovník nenahradil jiným. Příbuzný vzorec
 [zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) nepřejmenovává
 prvek přesvědčení, ale přesouvá ho do širší kategorie.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -214,6 +212,8 @@ prvek přesvědčení, ale přesouvá ho do širší kategorie.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

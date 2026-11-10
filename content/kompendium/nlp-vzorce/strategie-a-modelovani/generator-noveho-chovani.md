@@ -104,8 +104,6 @@ Pro generátor nového chování jako specifický formát NLP nejsou k dispozici
 
 Protože riziko samotného vzorce je nízké, obrana spočívá hlavně v udržení vlastnictví cíle a kritérií. Když někdo nabízí představivý nácvik nového chování, je užitečné si položit otázku, zda by si člověk takové chování zvolil sám a zda ho posuzuje podle svých hodnot, nebo podle toho, jak by reagoval druhý. Pokud nácvik vede k tomu, že má člověk snášet něco, co mu škodí, nejde o rozvoj, ale o přizpůsobení. Druhou obranou je ověřování v realitě. Představa může být užitečná jako příprava, ale nemá nahrazovat skutečný rozhovor o tom, co je ve vztahu nebo v práci přijatelné. Třetí obranou je možnost nácvik kdykoli ukončit; nekonečné opakování spojené s hodnocením „ještě nejsi připravená“ je varovným signálem. U lidí, kteří odešli z kontrolujícího vztahu, se často objevují naučené představy o tom, „jak se mají chovat“, aby se vyhnuli konfliktu. V péči o ně se představivá příprava může použít obráceně, k nácviku vlastních hranic a k přípravě na situace, v nichž budou hájit své zájmy, jak kompendium popisuje u [identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md). Herman zdůrazňuje, že zotavení zahrnuje obnovu schopnosti jednat podle vlastních rozhodnutí a že se tato schopnost obnovuje postupně, v bezpečných vztazích (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
@@ -118,6 +116,8 @@ Protože riziko samotného vzorce je nízké, obrana spočívá hlavně v udrže
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

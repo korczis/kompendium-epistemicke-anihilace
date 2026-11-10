@@ -105,8 +105,6 @@ Obecný předpoklad, že chování je řízeno plány a že pořadí kroků zpra
 
 Základní obranou je vědět, že nikdo nemá přístup k vašemu rozhodování lépe než vy sami, a že ani vy k němu nemáte přístup úplný. Kdo tvrdí, že zná vaši strategii, nabízí hypotézu, kterou lze odmítnout. Druhou obranou je oddělit formu nabídky od jejího obsahu. Pokud je podání nápadně přizpůsobené, s obrázky, příběhy o tom, co říkají ostatní, a výzvou k pocitu, je užitečné vrátit se k otázkám, které forma obchází: kolik to stojí, jaká jsou rizika, jaké jsou alternativy a co se stane, když odmítnu. Třetí obranou je zpomalení: rozhodovací postup, který mluvčí „dokončuje“ za vás, lze přerušit odkladem a konzultací s někým nezávislým. Výzkum zpracování přesvědčivých sdělení ukazuje, že pečlivé posouzení argumentů vyžaduje čas a motivaci a že zkratky převládají tam, kde chybí (Petty a Cacioppo 1986). U lidí, kteří byli dlouho vystaveni vztahu, kde jejich rozhodování někdo „obsluhoval“, bývá zotavení spojeno s obnovou důvěry ve vlastní úsudek a s praktickým nácvikem rozhodování bez tlaku, nejlépe ve vztazích, kde je odmítnutí přijatelné.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -120,6 +118,8 @@ Základní obranou je vědět, že nikdo nemá přístup k vašemu rozhodování
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

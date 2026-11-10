@@ -206,8 +206,6 @@ pochopení, že prožitky uvnitř skupiny byly skutečné, ale jejich výklad by
 přisvojen (Hassan 1988). U lidí s dlouhodobou zkušeností může být nezbytná odborná pomoc,
 například terapeuta se zkušeností s následky pobytu v manipulativních skupinách.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -221,6 +219,8 @@ například terapeuta se zkušeností s následky pobytu v manipulativních skup
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -210,8 +210,6 @@ Ve vztahových situacích, kde se posloupnost používá k připsání viny, pom
 časové ose a k vnějším záznamům a trvat na tom, že to, co následovalo po mém jednání, ještě
 není jeho důsledkem (Kahneman 2011).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -228,6 +226,8 @@ není jeho důsledkem (Kahneman 2011).
 - Tversky, A., & Kahneman, D. (1971). Belief in the law of small numbers. *Psychological Bulletin*, 76(2), 105–110.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

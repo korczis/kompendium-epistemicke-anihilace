@@ -106,8 +106,6 @@ Obecné poznatky, že emoce, rámování a kontrast ovlivňují ochotu jednat, j
 
 Základní obranou je rozpoznat, že obraz budoucnosti, který právě prožíváte, vytvořil někdo jiný. Představa sebe sama za rok v horší situaci je konstrukce mluvčího, ne předpověď. Druhou obranou je oddělit emoční vrchol od rozhodnutí: pocit, který nabídka vyvolala, je skutečný, ale rozhodnutí lze přijmout až po jeho odeznění, nejlépe druhý den a po rozhovoru s někým, kdo u nabídky nebyl. Třetí obranou je vrátit se k vlastním cílům a ptát se, zda nabízený čin k nim vede a zda by k nim nevedla i jiná, levnější a méně riziková cesta. Výzkum zpracování přesvědčivých sdělení ukazuje, že silné emoce a časový tlak snižují pečlivost posuzování argumentů (Petty a Cacioppo 1986). Lidé, kteří opakovaně podlehli takovým výzvám, často prožívají stud a připisují si slabou vůli. Zotavení zahrnuje pojmenování mechanismu jako obecné zranitelnosti, obnovu vlastních cílů a hledání motivace v prostředí, kde se nepracuje se strachem a hanbou. Odborníci, kteří s motivačními strategiemi pracují, by měli dbát na to, aby obraz budoucnosti vytvářel klient sám a aby měl kdykoli možnost říci ne.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
@@ -123,6 +121,8 @@ Základní obranou je rozpoznat, že obraz budoucnosti, který právě prožív�
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

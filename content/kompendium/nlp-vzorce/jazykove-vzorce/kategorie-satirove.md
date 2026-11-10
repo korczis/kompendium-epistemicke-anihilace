@@ -111,8 +111,6 @@ Obranou proti zneužití typologie je trvat na tom, že postoj je reakce na situ
 
 V terapii se s postoji pracuje tak, že člověk znovu získává přístup k tomu, co postoj chránil: k vlastním pocitům, potřebám a právu na nesouhlas. Herman zdůrazňuje, že po dlouhodobém nátlaku se schopnost samostatného úsudku a sebeprosazení obnovuje v bezpečném vztahu, kde člověk není trestán za vlastní hlas (Herman 1992). Vyrovnaná komunikace pak není technikou, kterou se člověk naučí, ale důsledkem toho, že přestal potřebovat ochranu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -126,6 +124,8 @@ V terapii se s postoji pracuje tak, že člověk znovu získává přístup k to
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -106,8 +106,6 @@ Obecné poznatky, na nichž přesvědčovací strategie stojí, jsou dobře dolo
 
 Základní obranou je oddělit vlastní kritérium přesvědčení od toho, kdo ho naplňuje. Pokud jste řekli, že potřebujete tři příklady, a tři příklady vám dodal prodejce, kritérium bylo splněno formálně, ne věcně. Je legitimní požádat o doklady, které prodejce nevybral: nezávislé recenze, výsledky kontrolovaných studií, zkušenost lidí, které znáte sami. Druhou obranou je stanovit si kritérium předem a nezávisle na rozhovoru, nejlépe písemně, a nemluvit o něm s tím, kdo vás přesvědčuje. Třetí obranou je hledat protipříklady: kdo z lidí, kteří věc vyzkoušeli, neuspěl, a proč o nich nevíme. Myšlenka očkování proti přesvědčování ukazuje, že člověk, který dopředu zná typ argumentu a jeho slabiny, je vůči němu odolnější (McGuire 1964). U lidí, kteří v uzavřené skupině nebo ve vztahu ztratili vlastní kritéria pravdivosti a přijali kritéria druhé strany, zahrnuje zotavení obnovu důvěry ve vlastní úsudek, postupné znovuzavedení vnějšího ověřování a práci s pocitem studu za to, čemu dříve věřili. Odborníci by měli kritéria přesvědčení s klientem otevřeně sdílet a nikdy je nepoužít k dodání přesvědčení, které neprošlo nezávislou kontrolou.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt.
@@ -122,6 +120,8 @@ Základní obranou je oddělit vlastní kritérium přesvědčení od toho, kdo 
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

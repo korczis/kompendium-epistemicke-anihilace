@@ -203,8 +203,6 @@ Kahneman 1974); v knize je shrnuje stránka [Tversky a Kahneman:
 heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) a souvislosti s veřejným
 zdravím rozebírá stránka [populační zdraví a prevence](@/kompendium/population-health/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Gigerenzer, G. (2002). *Calculated Risks: How to Know When Numbers Deceive You*. New York: Simon & Schuster.
@@ -218,6 +216,8 @@ zdravím rozebírá stránka [populační zdraví a prevence](@/kompendium/popul
 - Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. *American Sociological Review*, 15(3), 351–357.
 - Simpson, E. H. (1951). The interpretation of interaction in contingency tables. *Journal of the Royal Statistical Society, Series B*, 13(2), 238–241.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -107,8 +107,6 @@ Ekologická kontrola není empiricky testovaná technika, ale pracovní zásada,
 
 Základní obranou je nepovažovat žádnou proběhlou proceduru za závaznou. Souhlas je odvolatelný a pochybnost, která přijde po rozhodnutí, je platnou informací, ne „starým vzorcem“. Kdo má pocit, že byl k závazku dotlačen, může se k rozhodnutí vrátit s odstupem, v klidu a s lidmi, kteří na něm nemají zájem. Druhou obranou je posuzovat vnější důsledky, ne jen vnitřní pocit. Užitečné je si sepsat, co rozhodnutí znamená finančně, časově a pro vztahy, a toto shrnutí probrat s někým mimo situaci. Třetí obranou je všímat si, zda „ekologické“ je vždy to, co chce druhá strana. Pokud ano, nejde o ověření, ale o legitimizaci. Lidé, kteří po intenzivních kurzech nebo ve skupinách přijali závazky, jež později litovali, mívají pocit selhání a viny. Zotavení se opírá o rozpoznání tlaku, kterému byli vystaveni, o obnovení vztahů mimo skupinu a o návrat k vlastnímu úsudku (Singer a Lalich 1995). Odborník, který ekologickou kontrolu používá, by ji měl vést tak, aby výsledek „nevím“ nebo „ne“ byl stejně přijatelný jako „ano“.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -121,6 +119,8 @@ Základní obranou je nepovažovat žádnou proběhlou proceduru za závaznou. S
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

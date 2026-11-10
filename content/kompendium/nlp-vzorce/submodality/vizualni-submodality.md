@@ -203,8 +203,6 @@ paměti a důvěry ve vlastní vnímání probíhá v bezpečném vztahu a ne ry
 1992). Odborník, který slovník vizuálních submodalit používá, by měl klientovi říci, že jde o
 užitečný jazyk pro popis prožitku, nikoli o doložený mechanismus.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -222,6 +220,8 @@ užitečný jazyk pro popis prožitku, nikoli o doložený mechanismus.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

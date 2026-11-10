@@ -107,8 +107,6 @@ Pojem kongruence má pevné místo v humanistické psychologii, kde Rogers popsa
 
 Základní obranou je oddělit dojem z mluvčího od hodnocení tvrzení. Užitečné je položit si po rozhovoru otázku, co přesně bylo řečeno a čím to bylo doloženo, a odpověď si zapsat bez ohledu na to, jak přesvědčivě mluvčí působil. Pokud jediným dokladem zůstává jeho jistota, tvrzení zůstává neověřené (Vrij 2008). Druhou obranou je nepřijímat výklad vlastní pochybnosti jako vady. Pochybnost před důležitým rozhodnutím je přiměřená reakce a její „vyřešení“ souhlasem není kongruence, ale podvolení. Třetí obranou, zejména ve skupinách s výraznou autoritou, je hledat názor lidí mimo skupinu, na které projev vedoucího nepůsobí. U lidí, kteří ve skupině dlouho poměřovali vlastní hodnotu tím, jak „kongruentně“ působí, se při zotavení objevuje stud za nejistotu a obava ji projevit. Pomáhá jim rozpoznat, že nejistota patří k poctivému myšlení a že právo pochybovat je součástí jejich [epistemické samostatnosti](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md). Odborník, který s pojmem pracuje, by měl vlastní kongruenci chápat jako opravdovost, nikoli jako techniku, jak působit přesvědčivěji (Satir 1972).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -119,6 +117,8 @@ Základní obranou je oddělit dojem z mluvčího od hodnocení tvrzení. Užite
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

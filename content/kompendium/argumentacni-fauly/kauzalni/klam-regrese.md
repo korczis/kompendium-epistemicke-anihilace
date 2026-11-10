@@ -193,8 +193,6 @@ jediný doklad účinku (Lilienfeld, Lynn a Lohr 2015). Souvislosti s heuristika
 heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md), a s klinickým hodnocením
 léčby stránka [terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
@@ -203,6 +201,8 @@ léčby stránka [terapeutické přístupy](@/kompendium/06-klinicke-aplikace/te
 - Mill, J. S. (1843). *A System of Logic, Ratiocinative and Inductive*. London: John W. Parker.
 - Tversky, A., & Kahneman, D. (1971). Belief in the law of small numbers. *Psychological Bulletin*, 76(2), 105–110.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

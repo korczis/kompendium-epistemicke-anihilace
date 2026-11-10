@@ -106,8 +106,6 @@ Pro existenci prostorových představ času je dobrá opora v kognitivní lingvi
 
 Základní obranou je vědět, že otázka na umístění času je vstupem do určitého postupu, a mít právo zeptat se, k čemu slouží. Kdo nechce, nemusí odpovídat; odmítnutí není známkou odporu ani nevědomého bloku. Druhou obranou je oddělit gesto od rozhodnutí. To, že člověk ukazuje budoucnost určitým směrem, nemá žádný vztah k tomu, zda je výhodné podepsat smlouvu, která na tom místě leží, nebo přijmout výklad, který s tímto místem pracuje. Při rozhodování pomáhá vrátit se k věcným kritériím, vyžádat si podklady písemně a odložit rozhodnutí; tyto kroky narušují tlak, na kterém stojí rychlé přesvědčování (Cialdini 2009). Třetí obranou je nepřisuzovat výsledku elicitace diagnostickou hodnotu. Pokud praktik z „časové osy“ vyvozuje, jaký člověk je, je legitimní žádat doklad, že metoda taková tvrzení unese. Zotavení po skrytém nebo vlivovém užití obvykle spočívá v pojmenování, co se stalo, a v návratu k vlastnímu úsudku; pomáhá sdílet zkušenost s lidmi mimo situaci, kteří ji mohou posoudit s odstupem. Kompendium podobné zásahy do vztahu člověka k vlastnímu času popisuje u [narušení časové kontinuity já](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -120,6 +118,8 @@ Základní obranou je vědět, že otázka na umístění času je vstupem do ur
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

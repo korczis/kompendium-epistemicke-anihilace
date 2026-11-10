@@ -199,8 +199,6 @@ předchozí seznámení se s oslabenou podobou přesvědčovací techniky zvyšu
 studu od poučení: rozpoznání, že na zkratky úsudku slyší každý, a že chyba nebyla v
 nedostatku inteligence, ale v situaci, která byla navržena tak, aby srovnání znesnadnila.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt.
@@ -214,6 +212,8 @@ nedostatku inteligence, ale v situaci, která byla navržena tak, aby srovnání
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

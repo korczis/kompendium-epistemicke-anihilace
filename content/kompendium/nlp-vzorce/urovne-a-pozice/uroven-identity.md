@@ -196,8 +196,6 @@ Kompendium tento proces podrobně popisuje u [identitní
 rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md). Navazující úroveň
 popisuje heslo [úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -215,6 +213,8 @@ popisuje heslo [úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/urov
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

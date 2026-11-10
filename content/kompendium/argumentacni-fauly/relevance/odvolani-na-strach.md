@@ -201,8 +201,6 @@ ukazují, že předpovídaná katastrofa nenastala (Hassan 1988). V klinické pr
 (Herman 1992). V médiích a institucích pomáhá preventivní vysvětlení techniky strašení,
 které posiluje schopnost poznat ji v nové podobě (Roozenbeek a kol. 2022).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -216,6 +214,8 @@ které posiluje schopnost poznat ji v nové podobě (Roozenbeek a kol. 2022).
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

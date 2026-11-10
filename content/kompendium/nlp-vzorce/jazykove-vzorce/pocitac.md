@@ -114,8 +114,6 @@ Obranou proti superrozumnému nátlaku je trvat na tom, že city jsou legitimní
 
 Pro člověka, který u sebe superrozumný postoj rozpozná, je cestou k vyrovnanější komunikaci znovu připustit vlastní prožitek a naučit se ho vyjádřit, aniž by to ohrozilo jeho schopnost uvažovat. V terapii se k tomu často přistupuje pozvolna, protože postoj dlouho chránil před zranitelností, kterou člověk nechtěl nebo nemohl ukázat (Rogers 1951). Pro člověka, který byl dlouho vystaven prostředí, kde se city druhých prohlašovaly za nepatřičné, bývá součástí zotavení znovu se naučit své city brát vážně a nepovažovat je za doklad vlastní iracionality. Cílem je [vyrovnaná komunikace](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md), ve které má místo rozum i cit.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -130,6 +128,8 @@ Pro člověka, který u sebe superrozumný postoj rozpozná, je cestou k vyrovna
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

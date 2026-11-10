@@ -199,8 +199,6 @@ pracovat s technikami, které by znovu zdůrazňovaly „čtení“ jejich never
 přístupy, ve kterých o významu vlastních prožitků rozhoduje klient. Pro odborníky z toho plyne
 zásada pokory: kalibrace neverbálního projevu je hypotéza, nikoli vhled do cizí mysli.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -213,6 +211,8 @@ zásada pokory: kalibrace neverbálního projevu je hypotéza, nikoli vhled do c
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

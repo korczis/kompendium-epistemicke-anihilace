@@ -103,8 +103,6 @@ Metaprogramy nebyly podrobeny takovému psychometrickému ověření, jaké se v
 
 Základní obranou je posuzovat nabídku podle obsahu, ne podle toho, jak přesně „sedí“. Pokud mluvčí opakuje vaše vlastní slova a kritéria a staví z nich argumenty pro jeden konkrétní krok, je užitečné se ptát, zda by stejná kritéria nesplnila i jiná možnost a zda o ní mluvčí vůbec mluví. Druhou obranou je všímat si úvodních otázek, které se netýkají věci, ale toho, jak rozhodujete. Na ně není povinnost odpovídat a je legitimní vrátit rozhovor k věcným údajům: ceně, podmínkám, rizikům. Třetí obranou je odstup: rozhodnutí odložené o den ztrácí část vazby na pocit, že nabídka byla „přesně pro mě“. Na úrovni organizací je obranou nepoužívat k výběru a hodnocení lidí nástroje, jejichž spolehlivost a platnost nebyla doložena; kompendium se obraně organizací věnuje v části o [organizační obraně](@/kompendium/organizational-defense/_index.md). Kdo byl na základě takového profilu odmítnut nebo zařazen, má právo vědět, podle čeho se rozhodovalo, a žádat vysvětlení. Pro porozumění mechanismům, které profilování a ladění využívají, je užitečný i přehled [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.md), zejména sklonu potvrzovat očekávání (Gilovich 1991).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt.
@@ -115,6 +113,8 @@ Základní obranou je posuzovat nabídku podle obsahu, ne podle toho, jak přesn
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

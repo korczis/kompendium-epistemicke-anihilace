@@ -106,8 +106,6 @@ Pro účinnost terapie časové osy neexistují kvalitní empirické doklady. Ko
 
 Pro člověka, který o terapii časové osy uvažuje, je první obranou zeptat se, na jakých studiích stojí slibovaný účinek a jakou kvalifikaci má průvodce. Výcvik a certifikát v NLP nejsou klinickou kvalifikací. U úzkostí, depresí a následků traumatu je namístě vyhledat odborníka, který pracuje s metodami ověřenými v kontrolovaných studiích; přehled takových přístupů nabízí kapitola o [terapeutických přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Druhou obranou je nepřijímat práci s událostmi, které si člověk nepamatuje, a nepovažovat obsah vybavený v sugestivní situaci za doklad o minulosti. Třetí obranou je odmítnout výklad, podle něhož návrat potíží znamená vlastní selhání. Lidé, kteří metodou prošli a vytvořili si nové přesvědčení o své minulosti, potřebují citlivou odbornou podporu. Zotavení obvykle zahrnuje rozlišení toho, co si pamatují, od toho, co vzniklo v sugestivní situaci, obnovu důvěry ve vlastní úsudek a postupné obnovení vztahů, které nový výklad narušil (Herman 1992). Kompendium se k riziku nepravých vzpomínek podrobně vrací na stránce o [traumatu a falešných vzpomínkách](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -123,6 +121,8 @@ Pro člověka, který o terapii časové osy uvažuje, je první obranou zeptat 
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

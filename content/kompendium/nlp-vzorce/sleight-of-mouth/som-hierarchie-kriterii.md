@@ -106,8 +106,6 @@ Vzorec hierarchie kritérií nebyl, pokud je známo, samostatně testován v kon
 
 Nejúčinnější obranou je oddělit hodnotu od rozhodnutí. Lze souhlasit, že vyšší kritérium je důležité, a zároveň se ptát, zda prosazované rozhodnutí k němu skutečně přispívá a zda by k němu nepřispěly i jiné možnosti. Pomáhá vyslovit spojení nahlas: z toho, že mi záleží na bezpečí rodiny, neplyne, že musím koupit právě tento produkt dnes. Druhou obranou je čas. Apel na vyšší hodnotu působí nejsilněji v okamžiku, kdy je člověk citově zasažen, a odložení rozhodnutí umožňuje posoudit věc s menším tlakem. Třetí obranou je předem si ujasnit vlastní priority v oblastech, kde se vzorec často objevuje, například při velkých nákupech, při rozhodování o péči o blízké nebo při vstupu do skupiny; kdo zná svá kritéria, hůře přijme pořadí, které mu nabízí někdo jiný. Výzkum očkování proti přesvědčování naznačuje, že předchozí seznámení s typem argumentu a s jeho slabinami zvyšuje odolnost (McGuire 1964). U lidí, kteří dlouhodobě žili v prostředí, kde se jejich potřeby soustavně podřizovaly vyšším hodnotám skupiny nebo partnera, zahrnuje zotavení obnovu přesvědčení, že vlastní legitimní zájmy nejsou sobectvím, a postupné znovuobjevení toho, co je pro ně samotné důležité, nezávisle na rámci, který jim byl vnucen.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt.
@@ -121,6 +119,8 @@ Nejúčinnější obranou je oddělit hodnotu od rozhodnutí. Lze souhlasit, že
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -190,8 +190,6 @@ kritéria, co se počítá jako dostatečný doklad, protože pak nelze břemeno
 rozhovoru (Lilienfeld, Lynn a Lohr 2015). Kdo sám pochybuje, má zároveň povinnost uznat odpověď,
 která jeho otázku skutečně zodpoví; jinak se z obrany stává vlastní porušení pravidla.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
@@ -205,6 +203,8 @@ která jeho otázku skutečně zodpoví; jinak se z obrany stává vlastní poru
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

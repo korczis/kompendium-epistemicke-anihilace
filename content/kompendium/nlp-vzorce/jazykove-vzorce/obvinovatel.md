@@ -116,8 +116,6 @@ Obranou proti obviňování je nepřijmout jeho rámec. Pomáhá vrátit rozhovo
 
 Pro člověka, který byl dlouho obviňován, je součástí zotavení oddělit vlastní skutečný podíl na situacích od viny, která mu byla připsána. Pomáhá rozhovor s někým mimo vztah, kdo dokáže posoudit události bez obviňujícího rámce, a pomáhá i kognitivní práce s převzatými soudy o sobě, které lze ověřit na konkrétních situacích (Beck 1976). Herman zdůrazňuje, že uznání toho, kdo za co odpovídá, je jednou z podmínek obnovy po dlouhodobém nátlaku (Herman 1992). Pro člověka, který u sebe obviňující postoj rozpozná, je cestou naučit se pojmenovat pocit, který obviňování zakrývá, a vyjádřit ho přímo, tedy směrem k [vyrovnané komunikaci](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -133,6 +131,8 @@ Pro člověka, který byl dlouho obviňován, je součástí zotavení oddělit 
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

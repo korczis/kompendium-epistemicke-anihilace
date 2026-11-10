@@ -112,8 +112,6 @@ Obrana stojí na tom, že si posluchač pohyb po žebříčku zviditelní. Pomá
 
 U lidí, kteří byli dlouho vystaveni prostředí s obecnými hesly a vynucenými zobecněními, je součástí zotavení návrat ke konkrétnímu a ověřitelnému jazyku. Klinici popisují, že pomáhá přepisovat obecné soudy o sobě, převzaté od druhých, do konkrétních popisů událostí, které lze posoudit samostatně (Beck 1976). Takový přepis neslouží k tomu, aby člověk převzal novou „správnou“ hierarchii, ale k tomu, aby znovu sám rozhodoval, na jaké úrovni a v jakém rámci o své zkušenosti mluví. Příbuzné rozlišení obecného a konkrétního v metaprogramech popisuje stránka [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -133,6 +131,8 @@ U lidí, kteří byli dlouho vystaveni prostředí s obecnými hesly a vynucený
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

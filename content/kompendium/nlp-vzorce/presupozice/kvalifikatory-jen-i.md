@@ -202,8 +202,6 @@ předem vyloučeny, a zjistit, co si ti, na které se mluvčí odvolával, ve sk
 Literatura o uzavřených skupinách popisuje obnovení vnějších vztahů jako podstatnou součást
 návratu k samostatnému úsudku (Singer a Lalich 1995).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -216,6 +214,8 @@ návratu k samostatnému úsudku (Singer a Lalich 1995).
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -199,8 +199,6 @@ odchodu z nebezpečného prostředí mohou dlouho vracet a že se s nimi pracuje
 bezpečném terapeutickém vztahu (Herman 1992). Že reakce slábne pomalu a občas se vrátí, je
 běžné a odpovídá tomu, co víme o vyhasínání podmíněných reakcí (Pavlov 1927).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -215,6 +213,8 @@ běžné a odpovídá tomu, co víme o vyhasínání podmíněných reakcí (Pav
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -205,8 +205,6 @@ používají, by měli dokumentovat souhlas, vysvětlovat její povahu bez mysti
 uvědomovat si rizika sugesce pro paměť, na která upozorňuje odborná literatura o
 pseudovědeckých postupech v klinické psychologii (Lilienfeld, Lynn a Lohr 2015).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -224,6 +222,8 @@ pseudovědeckých postupech v klinické psychologii (Lilienfeld, Lynn a Lohr 201
 - Rosen, S. (Ed.) (1982). *My Voice Will Go with You: The Teaching Tales of Milton H. Erickson*. New York: W. W. Norton.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

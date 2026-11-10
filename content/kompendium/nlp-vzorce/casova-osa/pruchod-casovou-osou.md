@@ -106,8 +106,6 @@ Pro tvrzení, že procházení časové osy v prostoru má specifický terapeuti
 
 Základní obranou je mít a uplatňovat právo cvičení kdykoli přerušit. Pokud se na určitém místě linie objeví zahlcení, je zastavení rozumnou reakcí, ne selháním. Druhou obranou je odmítnout veřejné procházení citlivých období před skupinou lidí, které člověk nezná a kteří mu po skončení semináře nebudou k dispozici. Třetí obranou je nepovažovat obsah, který se vybaví na místě raného dětství, za vzpomínku, dokud ho nepotvrdí nezávislé zdroje, a nevyvozovat z něj závěry o blízkých lidech. Čtvrtou obranou je posoudit rámec: práce s bolestnými obdobími života patří do vztahu s odborníkem, který je k dispozici i po skončení sezení. Lidé, kteří prošli intenzivním procházením na semináři a cítí se zahlceni, potřebují především stabilizaci a bezpečí, ne další práci s minulostí (Herman 1992). Pomáhá obrátit se na odborníka, mluvit o zážitku s lidmi, kterým důvěřují, a dát si čas. Kompendium přehled ověřených přístupů nabízí v kapitole o [terapeutických přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Dilts, R. (1990). *Changing Belief Systems with NLP*. Cupertino: Meta Publications.
@@ -121,6 +119,8 @@ Základní obranou je mít a uplatňovat právo cvičení kdykoli přerušit. Po
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

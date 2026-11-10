@@ -191,8 +191,6 @@ vznese námitka; to chrání obě strany před tím, aby se spor vedl o premisu,
 (Govier 2010). Kdo sám argumentuje, může pravidlo dodržet tím, že klíčové premisy vysloví, i když se
 zdají samozřejmé, protože právě samozřejmost bývá místem, kde se posluchači a mluvčí rozcházejí.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth.
@@ -202,6 +200,8 @@ zdají samozřejmé, protože právě samozřejmost bývá místem, kde se poslu
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

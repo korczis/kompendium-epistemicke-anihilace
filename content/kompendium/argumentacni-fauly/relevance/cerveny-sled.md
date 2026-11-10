@@ -203,8 +203,6 @@ jednáních pomáhá vést zápis otevřených otázek a sledovat, které z nich
 Pro lidi, jejichž otázky byly dlouhodobě odváděny jinam, je součástí zotavení obnova
 důvěry, že jejich otázky byly oprávněné a že nezodpovězená otázka není jejich selháním.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -218,6 +216,8 @@ důvěry, že jejich otázky byly oprávněné a že nezodpovězená otázka nen
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

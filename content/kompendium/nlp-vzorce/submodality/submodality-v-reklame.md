@@ -197,8 +197,6 @@ blízkosti a důvěry, vytvořený formou, vybledl a aby se znovu objevila otáz
 tvrdí. Pro pedagogy a odborníky z toho plyne, že mediální výchova by měla pojmenovávat nejen
 dezinformace, ale i formální prostředky, které jim dávají přesvědčivost.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -212,6 +210,8 @@ dezinformace, ale i formální prostředky, které jim dávají přesvědčivost
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

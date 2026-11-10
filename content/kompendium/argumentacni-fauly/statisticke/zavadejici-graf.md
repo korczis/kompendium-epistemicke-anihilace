@@ -198,8 +198,6 @@ plyne z téhož opačná povinnost: zobrazit data tak, aby první dojem odpovíd
 [obrany a kalibrace](@/kompendium/06-obrana/_index.md) a heslo o
 [selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Gigerenzer, G. (2002). *Calculated Risks: How to Know When Numbers Deceive You*. New York: Simon & Schuster.
@@ -207,6 +205,8 @@ plyne z téhož opačná povinnost: zobrazit data tak, aby první dojem odpovíd
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -194,14 +194,14 @@ jak organizace předcházejí podobným deformacím, věnuje v sekci o
 setká s hodnocením vlastní práce výhradně čísly, je oporou dokumentovat i to, co čísla
 nezachycují, a trvat na tom, aby se o kvalitě rozhodovalo z úplnějšího obrazu (Huff 1954).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Huff, D. (1954). *How to Lie with Statistics*. New York: W. W. Norton.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -196,8 +196,6 @@ vlastních rozhodnutí, tedy kdy jíst, kdy spát a s kým mluvit, protože prá
 pocit vlastní moci nad životem (Herman 1992). Navazující úroveň popisuje heslo [úroveň
 schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -216,6 +214,8 @@ schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md).
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

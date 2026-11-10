@@ -197,8 +197,6 @@ co je argument, jehož platnost lze posoudit dnes. Kompendium v kapitole o
 ukazuje, že mnoho dříve formulovaných pozorování o mechanismech manipulace zůstává platných,
 i když se jejich teoretický rámec změnil (Lifton 1961).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -208,6 +206,8 @@ i když se jejich teoretický rámec změnil (Lifton 1961).
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

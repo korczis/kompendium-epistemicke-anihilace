@@ -104,8 +104,6 @@ Fyziologické rozlišení centrálního a periferního vidění je dobře dolož
 
 Obrana proti manipulativnímu užití je jednoduchá a dostupná každému: kdykoli zaostřit, změnit polohu, podívat se na konkrétní předmět, pohnout se nebo si něco zapsat. Tyto drobné úkony vracejí kontrolu nad pozorností a přerušují pohlcení. Na seminářích a ve skupinách je legitimní nepřijmout pokyn k rozostření pohledu a sledovat řečníka obvyklým způsobem; kdo to vykládá jako odpor, vyvíjí tlak. Druhou obranou je zachytit obsah. Pokud řečník tvrdí, že porozumění není potřeba, je užitečné zapsat si jeho hlavní tvrzení a posoudit je později, mimo prostředí, které navozuje pohlcení. Psychologie přesvědčování ukazuje, že sdělení zpracovaná bez pozornosti k argumentům mění postoje méně trvale a takto vzniklé postoje snáze podléhají protiargumentům (Petty a Cacioppo 1986). Pro lidi, kteří při podobných cvičeních zažili odpojení, derealizaci nebo úzkost, je důležité vědět, že jde o známou reakci, ne o selhání. Pomáhají techniky ukotvení v přítomnosti, jako je vnímání chodidel na podlaze, pojmenování předmětů v okolí nebo kontakt s druhým člověkem. Pokud se takové zážitky opakují nebo přetrvávají, patří do péče odborníka, který zná práci s disociací (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -117,6 +115,8 @@ Obrana proti manipulativnímu užití je jednoduchá a dostupná každému: kdyk
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

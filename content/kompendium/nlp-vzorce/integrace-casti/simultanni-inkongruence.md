@@ -104,8 +104,6 @@ Obecné tvrzení, že slova a neverbální projev se mohou rozcházet a že rozp
 
 Základní obranou je pravidlo, že výslovné ne platí. Pokud někdo tvrdí, že tělo nebo nevědomí druhého souhlasí, ačkoli jeho slova odmítají, jde o výklad, který nemá žádnou váhu proti vyslovenému rozhodnutí, a je legitimní ho jasně odmítnout. Druhou obranou je oddělit pozorování od výkladu: lze přiznat, že se člověk usmál nebo zaváhal, a zároveň trvat na tom, že to nic nemění na jeho sdělení. Nesoulad je často prostým projevem nejistoty, a ta je důvodem rozhodnutí odložit, ne ho přijmout. Třetí obranou je nedovolit, aby se z pochybností o vlastním projevu staly pochybnosti o vlastní vůli. U lidí, na které byl tento výklad uplatňován dlouhodobě, například v kontrolujícím vztahu, se objevuje nejistota ve vlastních pocitech a sklon ptát se druhých, co „doopravdy“ chtějí. Zotavení spočívá v obnově důvěry ve vlastní vnímání a ve vyjadřování, k čemuž přispívá vztah, ve kterém je slovo člověka bráno vážně. Herman zdůrazňuje, že obnova autonomie a schopnosti říct ne patří k základům zotavení po zneužití (Herman 1992). Odborníci, kteří s pojmem pracují, by měli pozorovaný nesoulad vždy vracet klientovi jako otázku a nikdy jím nenahrazovat jeho výslovnou odpověď.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -122,6 +120,8 @@ Základní obranou je pravidlo, že výslovné ne platí. Pokud někdo tvrdí, �
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

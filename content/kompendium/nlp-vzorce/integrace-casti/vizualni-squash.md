@@ -104,8 +104,6 @@ Pro vizuální squash nejsou známy kontrolované studie, které by srovnaly jeh
 
 Obrana začíná rozlišením mezi zážitkem a rozhodnutím. Pocit úlevy po cvičení je informace o tom, jak působil rituál, ne o tom, co je v dané věci správné. Kdo po vizuálním squashi stojí před vážným rozhodnutím, má dobrý důvod nechat si čas, rozhodovat mimo prostředí semináře či skupiny a probrat věc s někým, kdo na výsledku nemá zájem. Druhou obranou je trvat na vlastním obsahu: pokud vedoucí určuje, co která ruka znamená, je legitimní odmítnout jeho výklad a popsat rozpor vlastními slovy. Třetí obranou je brát přetrvávající pochybnost vážně. To, že nezmizela, neznamená selhání člověka, ale často jen to, že pochybnost měla dobrý důvod. Z hlediska zotavení je užitečné přiznat, že dramatické zážitky na seminářích mohou mít trvalý emoční dopad, zvlášť pokud se k nim přidal pocit studu za „neúplné spojení“. Takové zkušenosti se zpracovávají nejlépe ve vztahu, ve kterém má člověk právo na vlastní výklad toho, co se stalo, a ve kterém se jeho pochybnosti obnovují jako součást úsudku (Herman 1992). Odborníci, kteří vizuální squash používají, by měli klientům otevřeně říkat, že jde o symbolickou pomůcku bez ověřeného specifického účinku.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -120,6 +118,8 @@ Obrana začíná rozlišením mezi zážitkem a rozhodnutím. Pocit úlevy po cv
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

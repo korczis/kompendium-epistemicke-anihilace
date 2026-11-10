@@ -204,8 +204,6 @@ tom, kdo je. Kompendium tento rozměr rozebírá u [scénářů epistemické
 delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), kde se bulverismus často
 stává prvním krokem k vyloučení člověka z rozhovoru.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -213,6 +211,8 @@ stává prvním krokem k vyloučení člověka z rozhovoru.
 - Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498.
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

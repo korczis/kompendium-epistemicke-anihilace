@@ -203,8 +203,6 @@ stránka [Tversky a Kahneman: heuristiky](@/kompendium/techniques/ea-7-3-2-tvers
 a výzkum inokulace naznačuje, že předem vysvětlená zavádějící technika ztrácí část své síly
 (Cook, Lewandowsky a Ecker 2017).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
@@ -219,6 +217,8 @@ a výzkum inokulace naznačuje, že předem vysvětlená zavádějící technika
 - Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. *American Sociological Review*, 15(3), 351–357.
 - Simpson, E. H. (1951). The interpretation of interaction in contingency tables. *Journal of the Royal Statistical Society, Series B*, 13(2), 238–241.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

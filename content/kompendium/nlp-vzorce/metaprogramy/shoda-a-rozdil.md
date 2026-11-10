@@ -187,8 +187,6 @@ Singer a Lalich popisují, jak bývalí členové postupně oddělují vlastní 
 převzaté doktríny (Singer a Lalich 1995). Souvislost s režimem, v němž se člověk přesvědčuje,
 rozvádí stránka o [režimu přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -203,6 +201,8 @@ rozvádí stránka o [režimu přesvědčení](@/kompendium/nlp-vzorce/metaprogr
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -197,8 +197,6 @@ trestu, a terapeutická práce s vnitřními „musím“, která byla převzata
 se tomuto tématu věnuje i na stránce o [Starkově rámci donucující
 kontroly](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt.
@@ -211,6 +209,8 @@ kontroly](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md).
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -208,8 +208,6 @@ postup popsaný u odchodu z uzavřených skupin a u [šesti podmínek myšlenkov
 obnova kontaktů mimo komunitu, kritické přezkoumání převzatých pojmů a postupné
 budování důvěry ve vlastní rozhodování (Singer a Lalich 1995).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -220,6 +218,8 @@ budování důvěry ve vlastní rozhodování (Singer a Lalich 1995).
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

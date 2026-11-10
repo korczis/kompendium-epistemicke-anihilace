@@ -205,8 +205,6 @@ pochybnost opět dovolená a bezpečná. Pro odborníky, kteří
 s takovými lidmi pracují, z toho plyne, že vyvracet klišé argumentem obvykle nestačí;
 podstatné je obnovit schopnost položit si otázku a nechat ji otevřenou.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
@@ -216,6 +214,8 @@ podstatné je obnovit schopnost položit si otázku a nechat ji otevřenou.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

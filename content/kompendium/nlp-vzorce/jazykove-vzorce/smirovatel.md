@@ -116,8 +116,6 @@ Pro člověka, který u sebe usmiřování rozpozná, je prvním krokem k obran�
 
 V terapii se s usmiřováním pracuje tak, že člověk znovu získává přístup k vlastním potřebám, nesouhlasu a hněvu, které postoj dlouho potlačoval. Herman popisuje, že obnova po dlouhodobém nátlaku probíhá ve vztahu, ve kterém člověk smí nesouhlasit, aniž by byl trestán, a ve kterém se postupně učí důvěřovat vlastnímu úsudku (Herman 1992). Cílem není z usmiřovatele udělat obviňovatele, ale umožnit mu [vyrovnanou komunikaci](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md), ve které má místo on i druhý.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -130,6 +128,8 @@ V terapii se s usmiřováním pracuje tak, že člověk znovu získává příst
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

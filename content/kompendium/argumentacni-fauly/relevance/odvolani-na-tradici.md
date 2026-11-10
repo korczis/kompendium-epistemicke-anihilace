@@ -194,8 +194,6 @@ odpověď, a hledat posouzení mimo společenství, které tradici nese (Govier 
 klinika, vyšetřovatele i právníka je užitečné ptát se, kdo z trvání praxe těží a čí
 zkušenost s jejími selháními se do tradice nezapsala.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -210,6 +208,8 @@ zkušenost s jejími selháními se do tradice nezapsala.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -191,8 +191,6 @@ Kompendium podobnou dynamiku v mediálním prostředí popisuje u
 [mediálního sealioningu](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md), kde
 nekonečné žádosti o další doklady slouží k vyčerpání protistrany.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.
@@ -203,6 +201,8 @@ nekonečné žádosti o další doklady slouží k vyčerpání protistrany.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -107,8 +107,6 @@ Prostorové uspořádání času v myšlení je dobře doloženo v kognitivní l
 
 Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vybaví při sugestivním „návratu“ do minulosti, nemá být podkladem pro závěry o minulých událostech ani o jiných lidech, dokud ho nepotvrdí nezávislé zdroje. Druhou obranou je nepřijímat ujištění, že „nevědomí to ví“. Pokud si člověk událost nepamatuje, je to informace, ne překážka, kterou je třeba překonat. Třetí obranou je posoudit rámec: práce s minulostí, která může otevřít bolestné téma, patří do terapeutického vztahu s odborníkem, který umí s takovým tématem zacházet a je k dispozici i po skončení sezení. Lidé, kteří prošli sugestivním hledáním příčin a vytvořili si nové přesvědčení o své minulosti, potřebují citlivou podporu. Zotavení obvykle zahrnuje rozlišení toho, co si skutečně pamatují, od toho, co vzniklo v sugestivní situaci, a postupné obnovení vztahů, které nový výklad narušil (Herman 1992). Kompendium se k tématu vrací na stránce o [traumatu a falešných vzpomínkách](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md). Odborník, který s časovou osou pracuje, by se měl omezit na její popisné a plánovací užití a vyhnout se hledání událostí, které si klient nepamatuje.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -121,6 +119,8 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -159,6 +159,8 @@ odbornou recenzi; stav recenze uvádí identifikační tabulka každé stránky.
 
 Katalog má 145 hesel: 13 × formální klam, 86 × neformální klam, 24 × pojem a princip, 22 × rétorická taktika. 6 z nich má v knize jinou kanonickou stránku a katalog na ni odkazuje. Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.
 
+<!-- kompendium:katalog-vazby:end -->
+
 ## Literatura
 
 - Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
@@ -181,6 +183,8 @@ Katalog má 145 hesel: 13 × formální klam, 86 × neformální klam, 24 × poj
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

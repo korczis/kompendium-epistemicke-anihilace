@@ -106,8 +106,6 @@ Obecná myšlenka, že jednání probíhá ve zpětnovazebních smyčkách, pat�
 
 Základní obranou je rozpoznat, kdy rozhovor přestal být o věci a začal být o vašem postupu. Na otázky, jak se rozhodujete, co vás přesvědčí nebo co se dělo těsně předtím, než jste si byli jistí, nemusíte odpovídat; můžete je vrátit k obsahu a mluvit o tom, co od nabídky potřebujete. Druhou obranou je vědět, že vaše odpovědi jsou rekonstrukce a že nikdo z nich nezískal přístup k vaší mysli (Kahneman 2011). Kdo tvrdí opak, nabízí hypotézu, kterou lze odmítnout. Třetí obranou je zpomalení: pokud po sérii otázek přijde nabídka, která „přesně sedí“, je to důvod odložit rozhodnutí a posoudit ji jinde a s jinými lidmi. Sociální psychologie vlivu ukazuje, že lidé se pod časovým tlakem a v příjemném kontaktu snáze spoléhají na zkratky (Cialdini 2009). Pro odborníky, kteří s elicitací pracují, platí, že zjištění patří klientovi, má se s ním otevřeně sdílet a nemá se použít k cíli, se kterým nesouhlasil. U lidí, jejichž postupy byly dlouhodobě mapovány a využívány v kontrolujícím vztahu, se zotavení zaměřuje na obnovu důvěry ve vlastní úsudek a na zkušenost, že lze o sobě mluvit, aniž by z toho vznikla páka.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -122,6 +120,8 @@ Základní obranou je rozpoznat, kdy rozhovor přestal být o věci a začal bý
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

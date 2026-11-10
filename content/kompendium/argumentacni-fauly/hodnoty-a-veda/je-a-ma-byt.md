@@ -198,8 +198,6 @@ Princip nelze použít jako zbraň proti každému hodnotovému argumentu. Kdo n
 praktický úsudek odpoví jen tím, že „z faktů normy neplynou“, zaměňuje požadavek na viditelnou
 premisu za odmítnutí jakékoli normy a uniká tak skutečné diskusi o cílech.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth.
@@ -213,6 +211,8 @@ premisu za odmítnutí jakékoli normy a uniká tak skutečné diskusi o cílech
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

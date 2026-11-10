@@ -192,8 +192,6 @@ strukturu tlaku, snáze ho odmítne (McGuire 1964). V klinické práci s lidmi, 
 dlouhodobě upíráno právo stěžovat si, se zotavení opírá o obnovu důvěry, že vlastní
 nespokojenost je legitimní signál, a ne vada charakteru (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -211,6 +209,8 @@ nespokojenost je legitimní signál, a ne vada charakteru (Herman 1992).
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

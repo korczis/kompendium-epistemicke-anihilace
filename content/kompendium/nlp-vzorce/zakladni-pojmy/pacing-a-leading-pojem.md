@@ -206,8 +206,6 @@ vstřícnosti druhých. Herman zdůrazňuje, že obnova důvěry probíhá ve vz
 kontrolu nad tempem a hranicemi (Herman 1992), a klinická práce proto klade důraz na to, aby
 porozumění terapeuta nikdy nepřecházelo v nenápadné vedení.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -224,6 +222,8 @@ porozumění terapeuta nikdy nepřecházelo v nenápadné vedení.
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

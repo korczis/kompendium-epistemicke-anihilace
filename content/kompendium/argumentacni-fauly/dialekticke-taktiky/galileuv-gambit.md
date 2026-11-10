@@ -203,8 +203,6 @@ průkopníka připadá mnoho odmítnutých omylů, a odmítnutí proto nemůže 
 v klinické péči nebo v soudním znalectví, je důležité odpovídat věcně a bez posměchu, protože
 posměch gambitu dodává materiál.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -214,6 +212,8 @@ posměch gambitu dodává materiál.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -106,8 +106,6 @@ Obecné tvrzení, že pořadí a forma podání informací rozhodování ovlivň
 
 Základní obranou je oddělit rozhodnutí od místa a chvíle, kde byla nabídka podána. Pocit, že je „rozhodnuto“, který vznikne v prodejně nebo na prezentaci, je stav, ne rozhodnutí; skutečné rozhodnutí lze udělat až po odchodu, s písemnou nabídkou a s možností srovnání. Druhou obranou je položit otázky, které přizpůsobené podání obchází: kolik věc stojí celkem, jaké jsou podmínky odstoupení, jaké jsou alternativy a co se stane, když odmítnu. Třetí obranou je všímat si otázek na vlastní rozhodování a nemuset na ně odpovídat. Psychologie rozhodování doporučuje zpomalení a vnější kontrolu tam, kde intuitivní soudy mohou být zkreslené (Kahneman 2011). Pro lidi, kteří se v minulosti opakovaně rozhodli pod tlakem a pak toho litovali, je užitečné vědět, že nejde o osobní selhání, ale o obecnou zranitelnost lidského úsudku; zotavení zahrnuje obnovu důvěry ve vlastní úsudek a nácvik rozhodování v prostředí, kde je odmítnutí přijatelné. Pro odborníky platí, že znalost toho, jak se klient rozhoduje, smí sloužit jen k tomu, aby jeho rozhodnutí bylo informovanější a svobodnější.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -121,6 +119,8 @@ Základní obranou je oddělit rozhodnutí od místa a chvíle, kde byla nabídk
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

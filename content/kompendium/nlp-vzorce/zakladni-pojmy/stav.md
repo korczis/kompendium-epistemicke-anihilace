@@ -105,8 +105,6 @@ Obecné tvrzení, že rozpoložení ovlivňuje vnímání, paměť a rozhodován
 
 Základní obranou je pravidlo odkladu. Rozhodnutí s trvalými následky, jako je podpis smlouvy, platba, závazek ke skupině nebo velké osobní přiznání, by se nemělo dělat v silném rozpoložení, ať je to nadšení, strach, vina nebo vyčerpání. Kdo si je toho vědom, může klidně říct, že o věci rozhodne zítra. Druhou obranou je pozornost k prostředí: když si člověk všimne, že akce je uspořádána tak, aby vyvolala silný stav, a že nabídka přichází na jeho vrcholu, má důvod k ostražitosti. Literatura o vlivu popisuje časový tlak a omezenou dostupnost jako typické prostředky k obejití úvahy (Cialdini 2009). Třetí obranou je mít předem stanovené hranice, například částku, kterou člověk nepřekročí, nebo zásadu, že nic nepodepíše bez konzultace. Zotavení po zkušenosti, kdy byl člověk opakovaně přiváděn do krajních stavů, zahrnuje obnovu tělesné regulace, spánku a běžného rytmu a postupné rozlišení mezi tím, co cítil, a tím, čemu v těch chvílích uvěřil. Herman zdůrazňuje, že stabilizace těla a bezpečí jsou první fází zotavení, která musí předcházet zpracování zkušenosti (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -123,6 +121,8 @@ Základní obranou je pravidlo odkladu. Rozhodnutí s trvalými následky, jako 
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

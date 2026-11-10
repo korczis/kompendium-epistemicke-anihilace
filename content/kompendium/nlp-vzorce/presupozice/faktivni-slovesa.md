@@ -205,8 +205,6 @@ si odpovědět vlastními slovy, a to ideálně ve vztahu, kde je vlastní popis
 respektován (Herman 1992). Souvislost s tím, jak mysl zpracovává hotově podané informace,
 rozvádí kapitola o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -219,6 +217,8 @@ rozvádí kapitola o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

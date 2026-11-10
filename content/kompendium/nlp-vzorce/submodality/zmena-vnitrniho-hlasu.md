@@ -186,8 +186,6 @@ popisuje, že obnova vnitřní autonomie probíhá v bezpečném vztahu, kde má
 formulovat vlastní hodnocení (Herman 1992). Terapeut může pomoci rozlišit, které vnitřní hlasy
 jsou převzaté a které vlastní, aniž by do vnitřního dialogu klienta vkládal svůj hlas. Pomáhá i obyčejné psaní: kdo si zapisuje vlastní úvahy a pochybnosti, vidí je černé na bílém a může je posoudit, aniž by je okamžitě přehlušil hlas, který se v duchu ozve jako první.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
@@ -201,6 +199,8 @@ jsou převzaté a které vlastní, aniž by do vnitřního dialogu klienta vklá
 - Perls, F. S. (1969). *Gestalt Therapy Verbatim*. Lafayette: Real People Press.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

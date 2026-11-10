@@ -106,8 +106,6 @@ Rekonstrukce strategií historických osobností, jak je Dilts publikoval (Dilts
 
 Základní obranou je rozlišovat mezi interpretací a důkazem. Pokud kurz nebo kniha tvrdí, že „ví, jak myslel génius“, je rozumné ptát se, z jakých pramenů rekonstrukce vychází, kdo je vybíral a jak bylo ověřeno, že převzetí postupu přináší výsledky. Druhou obranou je oddělit užitečné pravidlo od jeho legendy. Rozdělení tvorby a kritiky může pomoci i bez Disneyho, pozorné vnímání detailů i bez Holmese; hodnota pravidla se posuzuje podle užitku v konkrétní práci. Třetí obranou je všímat si, kdy se prestiž jmen používá k umlčení pochybností. Kritika metody není kritikou geniality a pochybnost o slibu přenosu není nedostatkem odvahy. Myšlenka očkování proti přesvědčování ukazuje, že znalost typické podoby přesvědčovacího argumentu zvyšuje odolnost vůči němu (McGuire 1964). Lidé, kteří do kurzů slibujících genialitu investovali mnoho času a peněz a výsledky se nedostavily, mohou prožívat zklamání obrácené proti sobě. Zotavení zahrnuje pojmenování toho, že slib byl nesplnitelný, a návrat k vlastní práci s realistickými měřítky pokroku.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Dilts, R. (1994). *Strategies of Genius, Volume I: Aristotle, Sherlock Holmes, Walt Disney, Wolfgang Amadeus Mozart*. Capitola: Meta Publications.
@@ -119,6 +117,8 @@ Základní obranou je rozlišovat mezi interpretací a důkazem. Pokud kurz nebo
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

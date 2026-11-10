@@ -106,8 +106,6 @@ O vzorcích Sleight of Mouth, a tedy ani o analogii jako jejich součásti, neex
 
 Základní obranou je oddělit přirovnání od tvrzení. Užitečnou otázkou je, v čem se obě situace podobají a v čem se liší, a zejména zda se liší právě v tom, na čem závěr stojí. Když člověk vysloví nahlas, co se z analogie má plynout, přirovnání ztrácí část své síly, protože přenos přestává být mlčky provedený. Druhou obranou je vrátit se k původní otázce a trvat na údajích o věci samé: přirovnání může být zajímavé, ale nenahrazuje odpověď. Třetí obranou je hledat protianalogii, tedy zdrojovou situaci se stejnou stavbou, která vede k opačnému závěru; tím se ukáže, že závěr neplyne ze struktury, ale z výběru zdroje. Výzkum očkování proti přesvědčování ukazuje, že předchozí seznámení s oslabenou podobou argumentu a s jeho vyvrácením zvyšuje odolnost vůči pozdějšímu přesvědčování (McGuire 1964), a novější práce o dezinformacích rozšiřuje tento přístup na obecné rozpoznávání manipulativních technik (van der Linden 2023). Pro lidi, kteří udělali závažné rozhodnutí pod vlivem přesvědčivého přirovnání, je důležité rozpoznat, že nešlo o selhání jejich inteligence, ale o běžný mechanismus, který působí na každého, zejména pod časovým tlakem. Zotavení zahrnuje zpětnou rekonstrukci rozhodnutí: jaké údaje byly tehdy k dispozici, co přirovnání nahradilo a jak lze příště podobnou situaci zpomalit.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -123,6 +121,8 @@ Základní obranou je oddělit přirovnání od tvrzení. Užitečnou otázkou j
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

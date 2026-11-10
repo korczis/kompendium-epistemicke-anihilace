@@ -200,8 +200,6 @@ Odpověď by se neměla sama měnit v protiútok na zájmy útočníka, protože
 podoby, kterou katalog popisuje jako
 [ty taky](@/kompendium/argumentacni-fauly/relevance/tu-quoque.md), a k věci by se nevrátil.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -219,6 +217,8 @@ podoby, kterou katalog popisuje jako
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
 - Woods, J., & Walton, D. (1989). *Fallacies: Selected Papers 1972–1982*. Dordrecht: Foris.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

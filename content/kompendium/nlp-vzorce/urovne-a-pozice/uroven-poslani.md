@@ -195,8 +195,6 @@ autoritě (Herman 1992). Kompendium tento proces ukazuje v případu [zotavení 
 kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md) a v hesle [šest podmínek
 myšlenkové reformy](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -210,6 +208,8 @@ myšlenkové reformy](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md)
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

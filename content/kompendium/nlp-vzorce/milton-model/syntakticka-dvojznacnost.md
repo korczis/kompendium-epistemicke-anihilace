@@ -206,8 +206,6 @@ vlastní vnímání. Herman zdůrazňuje, že zotavení z dlouhodobého zastraš
 bezpečí a teprve potom práci s tím, co se stalo (Herman 1992). Pro odborníka z toho plyne, že
 v kontaktu s takovým klientem má mluvit jednoznačně a ověřovat, jak byl pochopen.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -225,6 +223,8 @@ v kontaktu s takovým klientem má mluvit jednoznačně a ověřovat, jak byl po
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -106,8 +106,6 @@ Pro specifické tvrzení, že každý člověk má stálou „strategii lásky�
 
 Základní obranou je posuzovat vztah podle jednání ve chvílích nesouhlasu, ne podle intenzity projevů na začátku. Velmi rychlé a přesně „trefené“ zahlcení náklonností, spojené s pocitem, že druhý člověk rozumí jako nikdo předtím, je důvodem ke zpomalení, ne k urychlení vztahu. Druhou obranou je udržovat vztahy mimo partnerství. Přátelé a rodina jsou vnějšími ověřovateli, kteří si všimnou změn dřív než člověk sám, a jejich ztráta je jedním z hlavních znaků kontrolujícího vztahu (Stark 2007). Třetí obranou je pojmenovat cyklus: pokud se náklonnost vrací jen po omluvě nebo ústupku, nejde o lásku, ale o podmiňování. Zotavení po odchodu z takového vztahu bývá dlouhé, protože vazba vytvořená střídáním vřelosti a odnímání je silná. Herman zdůrazňuje, že obnova začíná zajištěním bezpečí, pokračuje zpracováním prožitého a vede k opětovnému navázání vztahů s ostatními (Herman 1992). Kompendium specifické postupy pomoci lidem po zkušenosti s domácím násilím popisuje u [protokolu pro domácí násilí](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md). Párovým terapeutům a koučům, kteří s představou smyslových kanálů pracují, lze doporučit, aby ji používali jen jako otázku pro oba partnery a nikdy jako nástroj, kterým jeden z nich získává převahu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cameron-Bandler, L. (1978). *They Lived Happily Ever After: A Book about Achieving Happy Endings in Coupling*. Cupertino: Meta Publications.
@@ -119,6 +117,8 @@ Základní obranou je posuzovat vztah podle jednání ve chvílích nesouhlasu, 
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

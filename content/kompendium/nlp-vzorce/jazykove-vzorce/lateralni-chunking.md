@@ -112,8 +112,6 @@ Základní obranou proti manipulativní analogii je zviditelnit společnou tří
 
 U lidí, kteří se dlouho pohybovali ve skupině nebo ve vztahu, kde se každá výtka relativizovala srovnáním s jinými, může být součástí zotavení znovunabytí schopnosti posuzovat jednotlivý čin sám o sobě. Pomáhá rozhovor s někým mimo vztah, kdo dokáže říct, že tento konkrétní čin je nepřijatelný bez ohledu na to, co dělají jiní. Herman zdůrazňuje, že pojmenování toho, co se stalo, a uznání jeho závažnosti druhými lidmi patří k základům obnovy po traumatu (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -129,6 +127,8 @@ U lidí, kteří se dlouho pohybovali ve skupině nebo ve vztahu, kde se každá
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

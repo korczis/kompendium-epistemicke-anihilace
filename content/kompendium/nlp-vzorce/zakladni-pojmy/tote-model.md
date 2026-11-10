@@ -105,8 +105,6 @@ Model TOTE je historicky významný kognitivní model a v obecné rovině, jako 
 
 První obranou je přeložit žargon do běžné řeči. Pokud někdo označí vaše pochybnosti za smyčku bez výstupu, je užitečné zeptat se: o čem přesně pochybuji, a mám k tomu dobré důvody? Pochybnost je v jazyce modelu test, který nebyl splněn, a to může znamenat, že něco skutečně není v pořádku. Druhou obranou je převzít kritérium. U úkolů a nároků, které nikdy nekončí, je rozumné stanovit si vlastní, konkrétní a dosažitelné měřítko toho, co je dost, a nenechat ho určovat někoho, kdo z vaší nekonečné snahy těží. Třetí obranou je skepse vůči vědeckému lesku: odkaz na kognitivní vědu nebo kybernetiku nedokládá účinnost techniky, která se na ně odvolává (Roderique-Davies 2009). U lidí, kteří odešli z prostředí s nedosažitelnými ideály, bývá zotavení spojeno s přetrvávající vinou a s pocitem, že nikdy nejsou dost dobří. Terapie v takových případech pracuje s rozpoznáním, že kritérium bylo stanoveno tak, aby splnit nešlo, a s postupnou obnovou vlastních měřítek; literatura o odchodu z kultovních skupin popisuje tento proces jako součást obnovy samostatného úsudku (Hassan 1988).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -119,6 +117,8 @@ První obranou je přeložit žargon do běžné řeči. Pokud někdo označí v
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

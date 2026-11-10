@@ -194,8 +194,6 @@ samostatný výklad právě proto, že na nejednotném užití pojmů stojí vel
 vykládá cizí řeč, může dodržet druhou stranu pravidla tím, že u nejasné formulace zvolí nejvěrnější
 výklad a ověří si ho otázkou, místo aby zvolil výklad, který se nejsnáze vyvrací.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -208,6 +206,8 @@ výklad a ověří si ho otázkou, místo aby zvolil výklad, který se nejsnáz
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

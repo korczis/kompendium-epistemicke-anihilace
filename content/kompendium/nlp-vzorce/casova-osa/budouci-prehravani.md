@@ -109,8 +109,6 @@ Pro tvrzení, že budoucí přehrávání jako specifický prvek NLP zvyšuje tr
 
 Základní obranou je všimnout si přechodu do budoucnosti, který nevyšel od vás. Když vás někdo vede k živé představě budoucího prožitku a vy jste o to nežádali, je užitečné si říct, že jde o představu, kterou vytváří druhá strana, a že její živost nevypovídá o tom, zda nabídka je dobrá. Druhou obranou je oddělit představu od rozhodnutí v čase. Po živé představě nerozhodujte hned; odstup, písemné podmínky a srovnání s jinými nabídkami narušují závazek, který představa vytvořila (Cialdini 2009). Třetí obranou je přeložit představu do věcných otázek: co přesně produkt dělá, kolik stojí, jaké jsou podmínky a co se stane, když ho nebudete mít. Tyto otázky vracejí rozhodování na cestu pečlivého zvažování (Petty a Cacioppo 1986). Lidé, kteří pod vlivem vzorce udělali rozhodnutí, kterého litují, se často stydí. Pomáhá pochopit, že mechanismy, o které se vzorec opírá, působí na každého, a hledat nápravu: odstoupení od smlouvy, kde to zákon umožňuje, nebo poradu s nezávislým odborníkem. Kompendium obecné strategie prevence vlivu shrnuje v části [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -123,6 +121,8 @@ Základní obranou je všimnout si přechodu do budoucnosti, který nevyšel od 
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

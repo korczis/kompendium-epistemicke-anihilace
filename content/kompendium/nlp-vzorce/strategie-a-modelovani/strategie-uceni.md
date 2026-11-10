@@ -106,8 +106,6 @@ Představa, že se lidé nejlépe učí podle preferovaného smyslového systém
 
 Základní obranou je vrátit neúspěch v učení do konkrétní roviny. Místo výkladu o vadné strategii je užitečné ptát se, kolik času člověk měl, jak látku opakoval, zda rozuměl základům, zda byl unavený nebo pod tlakem a zda nemohou hrát roli obtíže, které patří do odborného vyšetření. Druhou obranou je odmítnout jedinou typologii: nikdo není „jen vizuální“ nebo „jen sluchový“ a dobré učení obvykle kombinuje více cest; výzkum, který měl smyslové typy doložit, je nepotvrdil (Sharpley 1984). Třetí obranou je udržet si vlastní měřítko pokroku. Pokud lektor tvrdí, že účastník pokrok jen „ještě nevidí“, je rozumné trvat na vnějších ukazatelích, jako jsou výsledky testů nebo schopnost látku použít. Lidé, kteří prošli programem, kde jim byla vnucena představa vadné mysli, mohou potřebovat čas na obnovu důvěry ve vlastní schopnost učit se. Pomáhá zkušenost úspěchu v prostředí bez hodnocení, podpora studijního poradenství a pojmenování toho, že dřívější neúspěchy měly konkrétní a řešitelné příčiny. Odborníci, kteří s pojmem pracují, by ho měli nabízet jako nástroj sebepoznání a nikdy jako diagnózu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -120,6 +118,8 @@ Základní obranou je vrátit neúspěch v učení do konkrétní roviny. Místo
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

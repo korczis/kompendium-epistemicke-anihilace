@@ -110,8 +110,6 @@ Existence dvou jazykových obrazů plynutí času je v kognitivní lingvistice d
 
 Základní obranou je chápat rozlišení jako metaforu, ne jako diagnózu. Pokud někdo tvrdí, že víte něco o své povaze, protože jste ukázali budoucnost určitým směrem, je legitimní se zeptat, na jakém výzkumu tvrzení stojí. Druhou obranou je trvat na tom, aby se rozhodnutí o vás opírala o doložené výsledky a pozorovatelné jednání, ne o typologii. V pracovním prostředí to znamená žádat hodnocení podle konkrétních úkolů, termínů a podmínek, za kterých byly plněny. Třetí obranou je všímat si vlastního potvrzovacího zkreslení: když nálepka sedí, stojí za to vyhledat i situace, kdy neplatí (Gilovich 1991). Kdo přijal typ jako součást své identity a začal podle něj omezovat své možnosti, může se k vlastnímu popisu vrátit tím, že si zapíše konkrétní situace, kdy jednal jinak, než typ předpovídá. Takové zapisování pozorování odděleně od výkladu je běžnou součástí kognitivních přístupů (Beck 1976). Kompendium obecné mechanismy zkreslení úsudku shrnuje v přehledu [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -122,6 +120,8 @@ Základní obranou je chápat rozlišení jako metaforu, ne jako diagnózu. Poku
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

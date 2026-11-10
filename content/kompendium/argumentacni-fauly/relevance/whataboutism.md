@@ -195,8 +195,6 @@ chybou. Výzkum inokulace ukazuje, že předem vysvětlená klamavá technika zt
 vlivu na posluchače; ověřen byl na jiných technikách než na whataboutismu, ale princip
 pojmenování struktury je tentýž (Cook, Lewandowsky a Ecker 2017).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -209,6 +207,8 @@ pojmenování struktury je tentýž (Cook, Lewandowsky a Ecker 2017).
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

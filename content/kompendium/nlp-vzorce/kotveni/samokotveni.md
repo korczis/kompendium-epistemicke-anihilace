@@ -191,8 +191,6 @@ používat; její krátký návrat po přestávce je běžný a neznamená, že 
 vrací (Pavlov 1927). Odborník, který samokotvení doporučuje, by měl klientovi ponechat volbu
 podnětu i stavu a nepřipisovat technice účinnost, kterou výzkum nedoložil.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -203,6 +201,8 @@ podnětu i stavu a nepřipisovat technice účinnost, kterou výzkum nedoložil.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

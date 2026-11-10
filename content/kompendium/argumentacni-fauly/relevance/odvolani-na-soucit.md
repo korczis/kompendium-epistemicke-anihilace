@@ -199,8 +199,6 @@ byli dlouhodobě vystaveni citovému dluhu, je důležité obnovit vědomí, že
 vlastní vnímání mají oprávnění i tehdy, když jejich vyslovení druhého zarmoutí. V
 institucích pomáhá jasné oddělení posuzování faktů od rozhodování o ohleduplném postupu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -215,6 +213,8 @@ institucích pomáhá jasné oddělení posuzování faktů od rozhodování o o
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

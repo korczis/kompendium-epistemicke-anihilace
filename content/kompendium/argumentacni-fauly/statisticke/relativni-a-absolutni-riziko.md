@@ -190,14 +190,14 @@ takových sděleních rozhoduje, popisuje kapitola o
 souvislost s heuristikami úsudku rozebírá heslo o
 [heuristikách Tverského a Kahnemana](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Gigerenzer, G. (2002). *Calculated Risks: How to Know When Numbers Deceive You*. New York: Simon & Schuster.
 - Huff, D. (1954). *How to Lie with Statistics*. New York: W. W. Norton.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

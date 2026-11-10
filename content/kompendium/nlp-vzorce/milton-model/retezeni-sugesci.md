@@ -191,8 +191,6 @@ rozhodnutí, ale stavbu, která byla navržena tak, aby žádné jednotlivé roz
 podstatně. Klinik může tuto rekonstrukci podpořit a zároveň dbát, aby se z ní nestal nový
 řetěz, tentokrát s opačným cílem (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -207,6 +205,8 @@ podstatně. Klinik může tuto rekonstrukci podpořit a zároveň dbát, aby se 
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

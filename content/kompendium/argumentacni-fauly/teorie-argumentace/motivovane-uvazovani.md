@@ -202,8 +202,6 @@ podpíraly, je proto součástí zotavení, ne důvodem k hanbě. Širší souvi
 zkreslení kompendium shrnuje v oddílu
 [kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford: Stanford University Press.
@@ -212,6 +210,8 @@ zkreslení kompendium shrnuje v oddílu
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? *Behavioral and Brain Sciences*, 23(5), 645–665.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

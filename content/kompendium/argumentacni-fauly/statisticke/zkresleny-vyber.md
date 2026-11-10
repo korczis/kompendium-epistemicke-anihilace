@@ -195,8 +195,6 @@ bude vzorek získán, kdo do něj nemohl vstoupit a jaké zkreslení z toho mů�
 čtenáře i sebe před tím, aby se dílčí výsledek později vydával za obraz celku. Takový popis
 omezení není slabinou studie, ale podmínkou toho, aby se její závěry daly správně použít.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth.
@@ -205,6 +203,8 @@ omezení není slabinou studie, ale podmínkou toho, aby se její závěry daly 
 - Huff, D. (1954). *How to Lie with Statistics*. New York: W. W. Norton.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 - Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. *American Sociological Review*, 15(3), 351–357.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

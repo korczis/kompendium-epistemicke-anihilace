@@ -104,8 +104,6 @@ Rozlišení vlastní a pozorovatelské perspektivy ve vzpomínkách je v psychol
 
 Základní obranou je oddělit prožitek od rozhodnutí. Pokud se při jednání objeví živé vyprávění o tom, jak dobře se budete cítit, je užitečné si to pojmenovat a požádat o podmínky v písemné podobě, které lze posoudit později a v klidu. Rozhodnutí odložené o den ztrácí vazbu na emoční vrchol, který mluvčí vytvořil, a umožní vrátit se ke zvažování obsahu (Petty a Cacioppo 1986). Druhou obranou je vědomé střídání perspektivy: kdo si situaci představí také zvenčí, jako by ji pozoroval u někoho jiného, snadněji si všimne, co v ní chybí, například cena, rizika nebo alternativy. U lidí, kteří byli v uzavřených skupinách nebo vztazích opakovaně vtahováni do bolestných vzpomínek, je zotavení věcí odborné péče. Klinická literatura o traumatu zdůrazňuje nejprve bezpečí a stabilizaci, teprve potom dávkovanou práci se vzpomínkami a obnovu vztahů mimo prostředí, které zátěž způsobilo (Herman 1992). Odborník, který s pojmem pracuje, by měl asociaci navozovat jen se souhlasem, s možností přerušení a s jasným terapeutickým důvodem; jinak se popisný pojem mění v nástroj emočního zaplavení.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -116,6 +114,8 @@ Základní obranou je oddělit prožitek od rozhodnutí. Pokud se při jednání
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

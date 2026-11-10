@@ -194,8 +194,6 @@ V zotavení po pobytu ve skupině, kde se pravdivost učení dokládala hlavně 
 užitečné znovu se seznámit s informacemi, které byly zakázány, a dát si čas na jejich
 posouzení. Kompendium popisuje příbuzné prostředí v kazuistice [investorského kultu](@/kompendium/case-studies/63-investor-cult.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -211,6 +209,8 @@ posouzení. Kompendium popisuje příbuzné prostředí v kazuistice [investorsk
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

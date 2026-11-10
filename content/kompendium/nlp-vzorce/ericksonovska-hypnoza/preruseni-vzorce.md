@@ -201,8 +201,6 @@ jejichž témata byla v dlouhodobém vztahu opakovaně odkláněna, se může ob
 nemají nárok být vyslyšeni; zotavení zahrnuje zkušenost rozhovoru, ve kterém je téma
 dovedeno do konce, a obnovu důvěry, že vlastní stížnost je legitimní (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -218,6 +216,8 @@ dovedeno do konce, a obnovu důvěry, že vlastní stížnost je legitimní (Her
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

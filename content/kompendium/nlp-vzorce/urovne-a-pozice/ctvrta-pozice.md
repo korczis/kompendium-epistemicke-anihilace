@@ -196,8 +196,6 @@ oddaností. Herman zdůrazňuje, že zotavení po dlouhodobé kontrole probíhá
 člověk přijímán bez podmínky loajality (Herman 1992). Teprve na tomto základě může pohled celku
 znovu sloužit jako rozšíření úvahy, a ne jako její náhrada.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -211,6 +209,8 @@ znovu sloužit jako rozšíření úvahy, a ne jako její náhrada.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

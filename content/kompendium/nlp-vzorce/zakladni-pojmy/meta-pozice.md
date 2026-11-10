@@ -106,8 +106,6 @@ Obecná myšlenka, že dočasný odstup od vlastních myšlenek a citů může p
 
 Základní obranou je rozlišovat mezi odstupem a popřením. Je legitimní na chvíli poodstoupit a podívat se na situaci zvenčí; není nutné přestat cítit, co člověk cítí. Pokud někdo vyžaduje nadhled právě ve chvíli, kdy upozorňujete na jeho jednání, je užitečné pojmenovat to: nadhled nemění to, co se stalo, a city jsou na místě. Druhou obranou je hlídat návrat. Po každém odstupu by měl následovat návrat do vlastního prožívání a k rozhodnutí, co dál. Pokud odstup trvá a člověk se cítí odcizený od sebe a od těla, je to signál, že nejde o nadhled, ale o odpojení. Třetí obranou je ostražitost vůči ideálům, podle kterých je vyspělý člověk bez citů: takový ideál chrání hlavně ty, kterým by city druhých mohly překážet. U lidí, kteří prošli prostředím, kde se city soustavně potlačovaly ve prospěch „vyššího pohledu“, je zotavení spojeno s obnovou kontaktu s vlastními prožitky a tělem. Klinická praxe u traumatizovaných lidí klade důraz na stabilizaci a postupné, bezpečné znovupropojení s prožitkem, ne na další odstup (Herman 1992). Odborník, který s meta-pozicí pracuje, by měl u klientů se zkušeností traumatu nebo odpojení postupovat zvlášť opatrně.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -120,6 +118,8 @@ Základní obranou je rozlišovat mezi odstupem a popřením. Je legitimní na c
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

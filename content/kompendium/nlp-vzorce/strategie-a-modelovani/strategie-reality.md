@@ -106,8 +106,6 @@ Obecná teze, že lidé rozlišují vzpomínky od představ podle jejich vlastno
 
 Základní obranou je vědět, že jasnost vzpomínky o její pravdivosti nerozhoduje, a to v obou směrech. Rozmazaná vzpomínka může být pravdivá a živá představa může být nepravdivá. O tom, co se stalo, rozhodují vnější stopy: zprávy, zápisky, fotografie, svědci, [časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) událostí. Druhou obranou je vést si vlastní záznam. Kdo si krátce poznamená, co se stalo a co bylo řečeno, odděleně od toho, co si o tom myslí, má oporu, kterou selektivní zpochybňování nerozloží. Třetí obranou je hledat vnější ověřovatele, tedy lidi mimo vztah nebo skupinu, kteří mohou potvrdit, že vnímání je v běžném rozsahu. U lidí, jejichž vzpomínky byly dlouhodobě popírány, se zotavení podle Hermanové odehrává v bezpečném vztahu, v němž mají znovu právo na vlastní popis událostí, a postupuje od stabilizace přes zpracování k opětovnému spojení s ostatními (Herman 1992). V klinické praxi se proto u takových lidí nepracuje s dalším „přepisováním“ vzpomínek, ale s obnovou kontinuity paměti a s validací zkušenosti. Kompendium nástroje pro posouzení důvěry ve vlastní poznání popisuje u [hodnocení epistemické důvěry](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md). Odborníci, kteří s pojmem pracují, by se měli vyvarovat jakéhokoli postupu, který by měnil pocit pravdivosti vzpomínek bez vnějšího ověření.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -120,6 +118,8 @@ Základní obranou je vědět, že jasnost vzpomínky o její pravdivosti nerozh
 - Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -203,8 +203,6 @@ zdrojům, protože bez znalosti celku nelze výběr vůbec rozpoznat. Souvislost
 zkresleními kompendium uvádí v přehledu
 [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799.
@@ -218,6 +216,8 @@ zkresleními kompendium uvádí v přehledu
 - Mill, J. S. (1843). *A System of Logic, Ratiocinative and Inductive*. London: John W. Parker.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

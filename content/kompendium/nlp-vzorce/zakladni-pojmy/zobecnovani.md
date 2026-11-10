@@ -200,8 +200,6 @@ schopnosti posoudit sebe sama nezávisle na hodnocení toho, kdo nad člověkem 
 1992). Odborník by měl sledovat i vlastní řeč, protože diagnostické nebo hodnotící soudy
 pronesené autoritou mohou mít na klienta účinek obdobného zobecnění.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -215,6 +213,8 @@ pronesené autoritou mohou mít na klienta účinek obdobného zobecnění.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

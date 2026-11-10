@@ -203,8 +203,6 @@ obrana](@/kompendium/organizational-defense/_index.md). Pro zotavení je užite�
 že podlehnout dobře vycvičenému prodejnímu rozhovoru není selhání inteligence, ale
 předvídatelný důsledek situace navržené tak, aby úvaha přišla až po rozhodnutí.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Chartrand, T. L., & Bargh, J. A. (1999). The chameleon effect: The perception–behavior link and social interaction. *Journal of Personality and Social Psychology*, 76(6), 893–910.
@@ -218,6 +216,8 @@ předvídatelný důsledek situace navržené tak, aby úvaha přišla až po ro
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

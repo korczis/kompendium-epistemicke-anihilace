@@ -201,8 +201,6 @@ Pro redakce, vědecké instituce a zdravotnické organizace je ochranou důsledn
 a oprava, když se ukáže, že zdroj neexistuje. Pro čtenáře platí, že obecný odkaz na vědu
 je důvodem dohledat konkrétní práci, ne důvodem tvrzení přijmout (Walton 2008).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -216,6 +214,8 @@ je důvodem dohledat konkrétní práci, ne důvodem tvrzení přijmout (Walton 
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

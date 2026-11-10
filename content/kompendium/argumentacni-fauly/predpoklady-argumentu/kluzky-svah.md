@@ -193,8 +193,6 @@ rozpoznává postupné stupňování požadavků ve vztahu nebo ve skupině, nep
 odmítne další malý krok; naopak, kompendium popisuje řadu technik, které na postupnosti
 stojí, a obrana proti nim začíná právě rozpoznáním prvního kroku.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt.
@@ -203,6 +201,8 @@ stojí, a obrana proti nim začíná právě rozpoznáním prvního kroku.
 - Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732.
 - Tversky, A., & Kahneman, D. (1983). Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment. *Psychological Review*, 90(4), 293–315.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

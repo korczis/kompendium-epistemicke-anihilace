@@ -106,8 +106,6 @@ Legitimní užití rozšiřuje úvahu o cíle, které adresát zatím nezvážil
 
 Nejúčinnější obranou je pojmenovat záměnu otázky a vrátit se k původní: nový cíl může být zajímavý, ale na otázku, která zazněla, zatím odpověď nepadla. Pomáhá oddělit oba cíle i v čase, tedy navrhnout, že se o novém cíli lze bavit, až bude zodpovězena otázka původní. Druhou obranou je všímat si, komu nový cíl prospívá a kdo ho formuloval; když ho formuloval ten, kdo by na původní otázku musel odpovědět nepříjemně, je na místě opatrnost. Třetí obranou je předem si ujasnit, co člověk z rozhovoru potřebuje získat, a mít to zapsané, například před pracovním jednáním nebo před rozhovorem s prodejcem; zapsaný cíl se hůře přesouvá. Petty a Cacioppo ukazují, že lidé motivovaní a schopní věc promýšlet hodnotí sdělení podle kvality argumentů, zatímco při nízké elaboraci rozhodují spíš vnější vodítka (Petty a Cacioppo 1986); zpomalení rozhovoru a návrat k věcné otázce posouvá rozhodování na první z obou cest. U lidí, kteří dlouhodobě žili ve vztahu nebo skupině, kde se jejich otázky soustavně přesměrovávaly, je součástí zotavení obnova přesvědčení, že vlastní zájmy jsou legitimním předmětem otázek. V klinické práci to znamená validovat, že otázka po odměně, bezpečí nebo informacích nebyla malicherná, a postupně obnovovat schopnost ji klást bez studu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -122,6 +120,8 @@ Nejúčinnější obranou je pojmenovat záměnu otázky a vrátit se k původn�
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

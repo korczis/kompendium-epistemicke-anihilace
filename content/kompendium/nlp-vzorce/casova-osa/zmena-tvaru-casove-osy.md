@@ -106,8 +106,6 @@ Pro tvrzení, že tvar vnitřní časové osy souvisí s povahovými rysy nebo s
 
 Základní obranou je chápat časovou osu jako metaforu, kterou si člověk vytváří a může ji libovolně měnit, ne jako vnitřní orgán, který má správný a nesprávný tvar. Pokud vám někdo řekne, že vaše osa je „špatně“, je legitimní se zeptat, podle čeho to pozná a jaký výzkum takové tvrzení podporuje. Druhou obranou je trvat na tom, aby se konkrétní potíže řešily přímo. Konflikt v práci, potíž plánovat nebo pocit beznaděje mají obvykle konkrétní okolnosti, které je třeba pojmenovat a řešit, a úprava představy jejich řešení nenahradí. Třetí obranou je všímat si, kdy zúžená nebo zamlžená budoucnost může být známkou deprese; v takovém případě je namístě odborná péče s ověřenou metodou (Beck 1976). Lidé, kterým byl výklad tvaru osy vnucen jako vysvětlení jejich potíží, se k vlastnímu popisu situace mohou vrátit tím, že si zapíší konkrétní okolnosti, které je trápí, a oddělí je od metafory. Kompendium obecné cesty obrany a kalibrace úsudku popisuje v části [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -119,6 +117,8 @@ Základní obranou je chápat časovou osu jako metaforu, kterou si člověk vyt
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

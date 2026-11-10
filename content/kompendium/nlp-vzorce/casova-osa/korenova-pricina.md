@@ -106,8 +106,6 @@ Pro tvrzení, že hledání první události na časové ose má terapeutický �
 
 Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vybaví v uvolněném stavu pod vedením průvodce, je představa, dokud ho nepotvrdí nezávislé zdroje: dokumenty, svědectví jiných lidí, záznamy z doby, kdy se událost měla stát. Druhou obranou je odmítnout presupozici. Na otázku, kdy „to začalo“, je legitimní odpovědět, že to nevíte a že možná žádný jediný začátek není. Nevybavení není překážka, kterou je třeba překonat, ale informace. Třetí obranou je nevyvozovat z vybaveného obsahu závěry o jiných lidech a nerozhodovat na jeho základě o vztazích, dokud jste o něm nemluvili s odborníkem, který s rizikem nepravých vzpomínek počítá. Zotavení po sugestivním hledání příčin je citlivý proces. Člověk může být vzpomínkou hluboce otřesen a zároveň nejistý, zda je pravdivá; potřebuje bezpečný vztah, v němž může obě možnosti držet otevřené, a terapeuta, který mu nevnucuje vlastní výklad a ponechává mu kontrolu nad tím, co a kdy chce zkoumat (Herman 1992). Součástí zotavení je často obnova vztahů s rodinou, které nový výklad narušil, a návrat k důvěře ve vlastní, skutečně zapamatovanou minulost. Kompendium se k tématu vrací na stránkách o [traumatu a falešných vzpomínkách](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) a o [epistemické rekonstrukci](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Dilts, R. (1990). *Changing Belief Systems with NLP*. Cupertino: Meta Publications.
@@ -121,6 +119,8 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

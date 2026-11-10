@@ -200,8 +200,6 @@ ve vlastní úsudek a v ověřitelné souvislosti (Herman 1992). Pro odborníky 
 kulturním a náboženským přesvědčením klienta nevylučuje jasné odlišení mezi smyslem, který
 přesvědčení nese, a příčinným tvrzením, které by klientovi bránilo v péči.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -215,6 +213,8 @@ přesvědčení nese, a příčinným tvrzením, které by klientovi bránilo v 
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

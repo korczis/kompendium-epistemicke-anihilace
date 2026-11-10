@@ -196,8 +196,6 @@ být“, o kterém psal Hume. Při práci s klienty, kteří se pod vlivem tohot
 účinné léčby, je důležité nezesměšňovat jejich důvody, protože touha po „přirozeném“ často
 vyjadřuje oprávněnou nedůvěru nebo předchozí špatnou zkušenost (Gilovich 1991).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press.
@@ -209,6 +207,8 @@ vyjadřuje oprávněnou nedůvěru nebo předchozí špatnou zkušenost (Gilovic
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.
 - Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

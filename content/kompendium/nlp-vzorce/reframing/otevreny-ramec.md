@@ -195,8 +195,6 @@ vynucené tlakem skupiny nebylo svobodnou volbou, a oddělit pocit studu z přiz
 těch, kdo ho vyžadovali a zneužili. Facilitátor nebo terapeut, který s otevřeným rámcem pracuje,
 by měl vždy předem říct, co se se sděleními stane, a dodržet to.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -210,6 +208,8 @@ by měl vždy předem říct, co se se sděleními stane, a dodržet to.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

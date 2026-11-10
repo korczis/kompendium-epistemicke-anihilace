@@ -201,8 +201,6 @@ srovnat ho s NLP pojmem [přesvědčení o
 příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) a se stránkou [kauzální
 inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -215,6 +213,8 @@ inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
 - Mill, J. S. (1843). *A System of Logic, Ratiocinative and Inductive*. London: John W. Parker.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -106,8 +106,6 @@ Pro tvrzení NLP, že časové zařazení představ je kódováno konkrétními 
 
 Základní obranou je oddělit časovou vzdálenost od významu. Událost může být dávná, a přesto potřebuje pojmenování, omluvu nebo nápravu. Pokud někdo opakovaně odpovídá na vaši potřebu projednat starou věc tím, že „je to dávno“, je legitimní odpovědět, že čas neodstranil potřebu o věci mluvit. Druhou obranou je všímat si symetrie: uplatňuje se jazyk vzdálenosti stejně na chyby obou stran? Třetí obranou je chránit vlastní vzpomínku. Kdo si důležité události zapisuje, včetně času a okolností, má oporu, kterou opakované zlehčování nerozloží. Takové oddělení pozorování od výkladu je běžnou součástí kognitivních přístupů (Beck 1976). V klinické práci s traumatem je pozorování časové formy vyprávění cennou informací; zotavení spočívá v tom, že událost postupně získá místo v minulosti, aniž by se změnil její obsah nebo popřel její význam (Herman 1992). Kompendium mechanismy přetváření paměti popisuje u [mnemonické rekonfigurace](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -121,6 +119,8 @@ Základní obranou je oddělit časovou vzdálenost od významu. Událost může
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

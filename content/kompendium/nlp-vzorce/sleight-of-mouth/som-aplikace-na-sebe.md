@@ -106,8 +106,6 @@ Vzorec aplikace na sebe nebyl samostatně empiricky testován a Dilts ho doklád
 
 Základní obranou je oddělit obsah výtky od osoby, která ji vyslovila. I kdyby stěžující si sám jednal nekonzistentně, nic to neříká o tom, zda je výtka oprávněná; obě otázky lze probrat, ale každou zvlášť a postupně. Užitečné je pojmenovat rozdíl v druhu jednání: prosba o prostor není nátlak stejného druhu jako opakované naléhání, a vyslovení stížnosti není kontrola. Druhou obranou je vrátit rozhovor k původnímu jednání a odmítnout jeho přesměrování na chování stěžujícího si, dokud původní téma není uzavřeno. Třetí obranou je opora mimo vztah, tedy lidé, kteří mohou potvrdit, že výtka byla přiměřená a že obrácení nebylo férové. U lidí, kteří dlouhodobě zažívali obracení výtek proti sobě, zahrnuje zotavení obnovu přesvědčení, že mají právo vyslovit kritiku i tehdy, když sami nejsou bez chyby, a že dokonalost není podmínkou oprávněné stížnosti. Herman zdůrazňuje, že obnova schopnosti pojmenovat újmu probíhá ve vztazích, kde je stížnost vyslechnuta a uznána (Herman 1992). V terapeutické práci se proto validuje původní výtka a teprve v bezpečném rámci se případně zkoumá i vlastní podíl klienta na konfliktu, aby se ten podíl nestal další zbraní proti němu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -119,6 +117,8 @@ Základní obranou je oddělit obsah výtky od osoby, která ji vyslovila. I kdy
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

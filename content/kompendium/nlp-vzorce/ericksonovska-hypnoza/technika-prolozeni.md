@@ -195,8 +195,6 @@ všimnout si, které výrazy přešly do vlastní řeči, a nahradit je vlastní
 nabitým jazykem odpovídá na jev, který Lifton v prostředí myšlenkové reformy popsal jako
 „zatížení jazyka“ ustálenými, myšlení uzavírajícími frázemi (Lifton 1961).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications.
@@ -212,6 +210,8 @@ nabitým jazykem odpovídá na jev, který Lifton v prostředí myšlenkové ref
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

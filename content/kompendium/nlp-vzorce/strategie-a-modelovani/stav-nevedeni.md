@@ -104,8 +104,6 @@ Obecná zásada, že předčasné kategorie zkreslují pozorování, má v psych
 
 Nejúčinnější obranou je položit si tři otázky, které odlišují legitimní a manipulativní užití: odkládám svůj úsudek sám a dobrovolně, vím, kdy se k němu vrátím, a platí totéž i pro toho, kdo mě k nevědění vybízí? Pokud je odpověď na kteroukoli z nich záporná, jde spíše o podřízení než o otevřenost. Druhou obranou je zachovat si vnější opory vědění: vztahy, zdroje a zkušenosti mimo skupinu nebo kurz, které mohou poskytnout jiný pohled. Třetí obranou je pojmenovat rozdíl mezi pokorou a sebeznevážením. [Epistemická pokora](@/glossary/epistemicka-pokora.md) znamená připustit, že se mohu mýlit, a ověřovat; neznamená předpokládat, že se mýlím vždy, když nesouhlasím s autoritou. U lidí, kteří odešli z prostředí, kde se jejich vědění soustavně znevažovalo, se v klinické praxi pracuje s obnovou důvěry ve vlastní vnímání a úsudek. Herman zdůrazňuje, že tato obnova probíhá ve vztazích, které respektují autonomii člověka a jeho právo na vlastní popis událostí (Herman 1992). Prakticky to znamená postupné vracení se k vlastním měřítkům, k dřívějším zájmům a vztahům a k ověřování tvrzení, která skupina předkládala jako nezpochybnitelná.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler.
@@ -120,6 +118,8 @@ Nejúčinnější obranou je položit si tři otázky, které odlišují legitim
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -195,8 +195,6 @@ na ostatní. Kladná odpověď na první otázku nijak neodpovídá na druhou. K
 odděleně, chrání klienta před tím, aby z nového výkladu vyvodil, že jeho obtíž nebo škoda,
 kterou utrpěl, byla jen nedorozuměním o kontextu (Beck 1976).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -215,6 +213,8 @@ kterou utrpěl, byla jen nedorozuměním o kontextu (Beck 1976).
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

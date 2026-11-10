@@ -106,8 +106,6 @@ Pro tvrzení, že vzorec trvale odstraňuje dlouhodobé emoční obtíže, neexi
 
 Základní obranou je realistické očekávání. Emoce, které člověka provázejí dlouho, se obvykle mění postupně a mohou se vracet; jejich návrat není selháním ani známkou „odporu“. Druhou obranou je trvat na tom, aby se pracovalo jen s událostmi, které si člověk pamatuje, a odmítnout hledání zapomenutých příčin v sugestivním stavu. Třetí obranou je rozlišovat emoci, která je přiměřenou reakcí na skutečnou křivdu, od emoce, která člověka zbytečně trápí. Hněv na někoho, kdo ublížil, může být informací, kterou je dobré slyšet, ne zátěží, které se má člověk zbavit. U obtíží, jako jsou úzkostné poruchy, deprese nebo následky traumatu, je namístě odborná péče s ověřenou metodou; přehled nabízí kapitola o [terapeutických přístupech](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Lidé, kteří vzorcem prošli a cítí se poraženi tím, že se emoce vrátila, potřebují slyšet, že návrat je běžný a že nevypovídá o jejich hodnotě. Zotavení zahrnuje opuštění výkladu, který z nich udělal viníka neúspěchu, a návrat k práci s emocemi v bezpečném vztahu (Herman 1992). U lidí s dlouhodobou traumatickou zkušeností kompendium odkazuje na stránku o [komplexním traumatu](@/glossary/complex-trauma.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press.
@@ -120,6 +118,8 @@ Základní obranou je realistické očekávání. Emoce, které člověka prová
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

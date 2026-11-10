@@ -105,8 +105,6 @@ Důkazy jsou smíšené a je třeba je číst odděleně. Pro obecné tvrzení, 
 
 Základní obranou je oddělit pocit blízkosti od rozhodnutí. Pokud se k pocitu porozumění rychle připojí žádost, je rozumné rozhodnutí odložit, nechat si nabídku písemně a posoudit ji s někým mimo vztah. Druhou obranou je test nesouhlasu: v přirozeném vztahu lze nesouhlasit a vztah to unese, kdežto vyrobená blízkost na nesouhlas reaguje buď zesíleným laděním, nebo ochlazením a výčitkou. Třetí obranou je všímat si tempa. Hluboké porozumění po krátké známosti je spíš důvodem ke zvýšené pozornosti než k důvěře, zvláště tam, kde druhá strana z výsledku něco získává (Cialdini 2009). Literatura o skupinách s vysokou mírou kontroly popisuje odříznutí od dřívějších vztahů jako jeden z hlavních mechanismů kontroly (Hassan 1988); proto je užitečné udržovat vztahy mimo nový vztah či skupinu a všímat si, zda je nová blízkost nezačíná vytlačovat. U lidí, kteří prošli vztahem s vyrobeným raportem, bývá zotavení spojeno se studem, že „naletěli“, a s nedůvěrou k vlastní schopnosti posoudit druhé. V terapii je proto důležité vysvětlit, že sklon reagovat na blízkost je lidský a zdravý a že zneužití je odpovědností toho, kdo ho zneužil (Herman 1992). Odborník, který s raportem pracuje, by měl dbát na to, aby jeho pozornost sloužila cílům klienta a aby klient mohl kdykoli nesouhlasit, aniž by tím ohrozil vztah.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -123,6 +121,8 @@ Základní obranou je oddělit pocit blízkosti od rozhodnutí. Pokud se k pocit
 - Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

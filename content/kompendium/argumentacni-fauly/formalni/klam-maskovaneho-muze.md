@@ -192,8 +192,6 @@ dotyčného. Lidé, jimž ublížil někdo blízký, mohou sami prožívat rozpo
 a „tím, kdo mi to udělal“. Uznání, že jde o jednoho člověka, je součástí zotavení, a podpora
 by měla obě podoby nechat vedle sebe, ne jednu z nich popírat (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
@@ -203,6 +201,8 @@ by měla obě podoby nechat vedle sebe, ne jednu z nich popírat (Herman 1992).
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

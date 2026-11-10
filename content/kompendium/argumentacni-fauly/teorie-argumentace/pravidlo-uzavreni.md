@@ -192,8 +192,6 @@ institucionálním prostředí, například v řízeních, recenzích nebo znale
 požadavek, aby rozhodnutí uvádělo důvody a jejich vztah k námitkám stran, takže výsledek lze
 přezkoumat a nelze ho jen ignorovat.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*, 14(2), 125–136.
@@ -205,6 +203,8 @@ přezkoumat a nelze ho jen ignorovat.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

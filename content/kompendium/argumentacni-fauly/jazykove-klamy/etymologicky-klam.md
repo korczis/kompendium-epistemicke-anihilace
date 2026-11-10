@@ -190,8 +190,6 @@ rozebírá ve [filosofickém rámci](@/kompendium/02-uvod/filosoficky-ramec.md),
 užitečným nástrojem hermeneutiky, pokud zůstává popisem vývoje a nevydává se za soud o
 podstatě věci.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -203,6 +201,8 @@ podstatě věci.
 - Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press.
 - Mill, J. S. (1843). *A System of Logic, Ratiocinative and Inductive*. London: John W. Parker.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

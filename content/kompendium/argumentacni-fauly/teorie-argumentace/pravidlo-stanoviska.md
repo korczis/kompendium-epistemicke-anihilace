@@ -198,8 +198,6 @@ učiní ho viditelným pro každého, kdo text čte, a tím přenáší kontrolu
 nezávislého čtenáře (van Eemeren a Grootendorst 2004). Kdo čelí opakovanému zkreslování, může
 z téhož důvodu vést vlastní záznam toho, co a kdy skutečně řekl.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth.
@@ -210,6 +208,8 @@ z téhož důvodu vést vlastní záznam toho, co a kdy skutečně řekl.
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -199,8 +199,6 @@ pracuje, by měl opatrně zacházet i s legitimním rozkladem, aby nepřipomína
 byla zkušenost dříve zpochybňována. Opačný pohyb, přechod od části k celku, popisuje vzorec
 [zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -212,6 +210,8 @@ byla zkušenost dříve zpochybňována. Opačný pohyb, přechod od části k c
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

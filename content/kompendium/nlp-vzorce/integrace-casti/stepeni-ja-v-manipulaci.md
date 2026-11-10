@@ -103,8 +103,6 @@ Pojem štěpení já v manipulativních skupinách stojí na kvalitativních zdr
 
 Obrana začíná u jazyka. Pokud se pochybnosti, kritika nebo touha odejít opakovaně přičítají „starému“, „nižšímu“ nebo „zraněnému“ já, je to signál, že rozhovor neposuzuje obsah pochybnosti, ale jejího domnělého původce. Je legitimní trvat na tom, aby se pochybnost posuzovala podle faktů, a na tom, že pochybnosti patří k vlastnímu já stejně jako oddanost. Druhou obranou je udržovat vztahy a zdroje informací mimo skupinu, protože právě ony nesou paměť původní identity a umožňují srovnání. Třetí obranou je všímat si změn vlastního slovníku: když člověk zjistí, že o sobě mluví slovy skupiny, je to vhodná chvíle k zastavení a k rozhovoru s někým zvenčí. Zotavení po odchodu se zaměřuje na obnovu souvislé identity. Bývalý člen potřebuje pochopit, že rozpolcenost je očekávaná, že návraty myšlení skupiny slábnou a že jeho dřívější já nebylo nečisté, ale bylo jeho vlastní (Singer a Lalich 1995). Herman popisuje zotavení jako postup od bezpečí přes zpracování ztrát ke znovunavázání vztahů a obnově vlastního příběhu (Herman 1992). Kompendium k tomu nabízí oporu v [post-cult protokolu](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md). Klinicky je důležité odlišit štěpení vzniklé v manipulativním prostředí od disociativních poruch, s čímž pomáhá kapitola o [diferenciální diagnostice](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press.
@@ -112,6 +110,8 @@ Obrana začíná u jazyka. Pokud se pochybnosti, kritika nebo touha odejít opak
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. New York: W. W. Norton.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

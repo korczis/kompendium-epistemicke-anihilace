@@ -208,8 +208,6 @@ dlouhodobém působení pomáhá všímat si, která hodnoticí slova člověk p
 popisu, a zkoušet tytéž události popsat neutrálně. Kognitivní terapie k tomu vede systematicky,
 když klient odděluje událost od jejího hodnocení a hodnocení zkouší jako hypotézu (Beck 1976).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -221,6 +219,8 @@ když klient odděluje událost od jejího hodnocení a hodnocení zkouší jako
 - Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

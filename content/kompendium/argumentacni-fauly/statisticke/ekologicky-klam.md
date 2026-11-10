@@ -197,8 +197,6 @@ závěry o tom, kam směřovat preventivní opatření, od závěrů o tom, kdo 
 Příbuzný [klam dělení](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-deleni.md)
 ukazuje stejnou chybu na rovině jazyka a pojmů (Copi, Cohen a McMahon 2014).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -206,6 +204,8 @@ ukazuje stejnou chybu na rovině jazyka a pojmů (Copi, Cohen a McMahon 2014).
 - Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. *American Sociological Review*, 15(3), 351–357.
 - Simpson, E. H. (1951). The interpretation of interaction in contingency tables. *Journal of the Royal Statistical Society, Series B*, 13(2), 238–241.
 - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

@@ -186,8 +186,6 @@ kultů potřebují pomoc při znovunavázání kontaktu s rodinou a při porozum
 rozchodu vedeni (Hassan 1988). Terapeut by měl klientovi pomoci obnovit ambivalenci, tedy
 schopnost vidět ve vztahu dobré i špatné, a teprve z ní vycházet při dalších rozhodnutích. Obnovená ambivalence přitom neznamená povinnost se ke všem přerušeným vztahům vrátit. Některé vztahy byly skutečně škodlivé a jejich ukončení bylo správné i tehdy, když k němu vedla manipulace. Cílem zotavení je, aby člověk mohl o každém vztahu znovu rozhodnout sám, na základě vlastní zkušenosti a v klidu, a ne podle zlomu, který mu někdo připravil.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press.
@@ -200,6 +198,8 @@ schopnost vidět ve vztahu dobré i špatné, a teprve z ní vycházet při dal�
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

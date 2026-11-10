@@ -199,8 +199,6 @@ nedá vysvětlit koordinovanou kampaní. Pro jednotlivce vystaveného sociální
 ochranou vědomí, že nesouhlas s většinou není sám o sobě známkou chyby, a vztah alespoň s
 jedním člověkem, se kterým lze názor otevřeně probrat bez obavy z vyloučení.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson.
@@ -212,6 +210,8 @@ jedním člověkem, se kterým lze názor otevřeně probrat bez obavy z vylouč
 - Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press.
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

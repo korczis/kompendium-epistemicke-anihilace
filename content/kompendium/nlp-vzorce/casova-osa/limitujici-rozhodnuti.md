@@ -110,8 +110,6 @@ Pro existenci limitujících rozhodnutí jako samostatných a lokalizovatelných
 
 Základní obranou je rozlišovat mezi přesvědčením, které lze přezkoumat v přítomnosti, a příběhem o jeho vzniku, který nelze ověřit. Přesvědčení „nejsem dost dobrý“ lze testovat proti současným dokladům bez toho, aby se muselo určit, kdy a proč vzniklo. Druhou obranou je odmítnout převod bezmoci na volbu. Pokud někdo vykládá zkušenost, v níž jste byli vystaveni násilí nebo zanedbání, jako vaše rozhodnutí, je legitimní trvat na tom, že odpovědnost nesl ten, kdo ubližoval. Třetí obranou je posuzovat pochybnosti věcně. Pochybnost o programu, vztahu nebo skupině je informace o programu, vztahu nebo skupině, ne nutně o vašem dětství. Zotavení po manipulativním užití vzorce zahrnuje návrat k vlastnímu příběhu, v němž mají své místo vlastní volby i okolnosti, které člověk ovlivnit nemohl. Kompendium tento proces popisuje u [autobiografické dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md) a jejího překonávání. Herman zdůrazňuje, že obnovení vlastního vyprávění o minulosti je jádrem zotavení po zneužití (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -125,6 +123,8 @@ Základní obranou je rozlišovat mezi přesvědčením, které lze přezkoumat 
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

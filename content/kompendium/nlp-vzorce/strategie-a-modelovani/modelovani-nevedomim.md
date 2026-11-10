@@ -104,8 +104,6 @@ Nevědomé modelování jako metoda NLP nebylo předmětem kontrolovaného výzk
 
 První obranou je ohraničit, co se člověk učí. Pokud nabídka zní „buď jako já“, je užitečné se ptát, kterou konkrétní dovednost má převzít a podle čeho se pozná, že ji zvládl, nezávisle na tom, zda ho učitel schválí. Druhou obranou je trvat na fázi porozumění. Napodobení může být dobrým začátkem, ale legitimní učitel počítá s tím, že žák bude jednou rozumět a dělat věci po svém. Třetí obranou je sledovat vlastní změny širší, než je učená dovednost: přebírám i názory, slovník, vkus a hodnocení druhých lidí? Ptají se mě blízcí, co se se mnou děje? Takové signály stojí za pozornost. U lidí, kteří odešli z prostředí, kde dlouhodobě napodobovali vůdce, se po odchodu objevuje nejistota, kdo vlastně jsou, a zjištění, že řada jejich reakcí, výrazů a postojů patří někomu jinému. V péči o ně se pracuje s postupným rozlišováním převzatého a vlastního, s návratem k dřívějším zájmům a vztahům a s budováním identity, kterou si člověk volí sám (Herman 1992). Je důležité zdůraznit, že převzaté prvky nejsou známkou slabosti; vyplývají z přirozeného lidského sklonu k nápodobě, který byl v takovém prostředí cíleně zesilován.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -120,6 +118,8 @@ První obranou je ohraničit, co se člověk učí. Pokud nabídka zní „buď 
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

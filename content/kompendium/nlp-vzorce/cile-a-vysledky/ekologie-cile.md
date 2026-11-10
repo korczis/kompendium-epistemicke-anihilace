@@ -190,8 +190,6 @@ odmítnuty, a o uznání, že tyto obavy byly oprávněné (Singer a Lalich 1995
 podmínkou pracuje, by měl ekologii vždy svěřit klientovi a výsledek, který vede k odložení
 nebo zrušení cíle, pokládat za stejně platný jako výsledek, který cíl potvrdí.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -208,6 +206,8 @@ nebo zrušení cíle, pokládat za stejně platný jako výsledek, který cíl p
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

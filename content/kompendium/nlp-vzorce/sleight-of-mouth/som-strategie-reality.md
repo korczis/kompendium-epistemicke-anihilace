@@ -106,8 +106,6 @@ Vzorec strategie reality nebyl samostatně testován. Dilts ho dokládá výklad
 
 Základní obranou je nepřijmout rozbor vlastních vnitřních procesů jako měřítko toho, co se stalo. Na otázky po tom, zda si člověk vybavuje obraz, nebo jen pocit, není nutné odpovídat; je legitimní vrátit se k události a navrhnout její ověření nezávislými stopami: zprávami, e-maily, svědky, časovou osou nebo vlastními zápisky. Druhou obranou je průběžné vedení záznamu. Kdo si zapisuje, co se stalo, krátce po události a odděleně od svého výkladu, má oporu, kterou pozdější zpochybňování nerozloží. Třetí obranou je trvat na symetrii: pokud se zkoumá, jak adresát ví, co ví, mají stejné zkoušce podléhat i tvrzení mluvčího. Pro lidi, u kterých dlouhodobé zpochybňování vedlo k rozkladu důvěry ve vlastní paměť, je zotavení pomalé a probíhá v bezpečném vztahu, kde jejich popis událostí není zpochybňován ani přepisován (Herman 1992). Klinická práce se proto v takových případech nesoustředí na další zkoumání vnitřních strategií, ale na obnovu kontinuity paměti, na validaci zkušenosti a na postupné obnovení schopnosti spoléhat na vlastní úsudek v každodenních situacích. Terapeut by se měl vyhnout sugestivním otázkám, které by obsah vzpomínek mohly dále měnit.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press.
@@ -121,6 +119,8 @@ Základní obranou je nepřijmout rozbor vlastních vnitřních procesů jako m�
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
 - van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

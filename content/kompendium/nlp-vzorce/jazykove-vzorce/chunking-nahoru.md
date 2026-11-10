@@ -112,8 +112,6 @@ Nejúčinnější obranou je vrátit rozhovor na úroveň otázky. Kdo se ptal n
 
 Výzkum očkování proti přesvědčování naznačuje, že kdo předem zná stavbu útoku a viděl jeho vyvrácení, odolává mu lépe (McGuire 1964). U lidí, kteří se ve skupině nebo ve vztahu dlouhodobě pohybovali v jazyce obecných hesel, bývá součástí zotavení znovuobjevení konkrétního slovníku. Pomáhá popisovat události slovesy a jmény osob, místy a časy, a tak znovu zpřístupnit to, co obecná hesla zakrývala. Teprve z konkrétních popisů je možné samostatně posoudit, zda hodnoty, ke kterým se člověk hlásil, s tím, co se dělo, vůbec souvisely.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Andreas, C., & Andreas, T. (1994). *Core Transformation: Reaching the Wellspring Within*. Moab: Real People Press.
@@ -130,6 +128,8 @@ Výzkum očkování proti přesvědčování naznačuje, že kdo předem zná st
 - O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons.
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

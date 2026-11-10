@@ -200,8 +200,6 @@ obnova po traumatu zahrnuje návrat k vlastnímu vyprávění, které přestane 
 výkladu toho, kdo měl nad člověkem moc (Herman 1992). Praktik meta-modelu by měl mít na
 paměti, že jeho otázky mohou obsah odkrývat i vytvářet, a podle toho volit jejich formu.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -215,6 +213,8 @@ paměti, že jeho otázky mohou obsah odkrývat i vytvářet, a podle toho volit
 - Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
 - Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63.
 - Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

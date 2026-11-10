@@ -104,8 +104,6 @@ Tvrzení, že každé chování má pozitivní záměr, je pracovní předpoklad
 
 Základní obranou je oddělit záměr od dopadu. I kdyby chování druhého skutečně vycházelo z dobrého úmyslu, nic to nemění na tom, že poškozuje, a dobrý úmysl nezakládá nárok na to, aby ho poškozený snášel. Je legitimní odmítnout rozhovor o záměrech, dokud se nemluví o chování a jeho škodě, a trvat na tom, že změna chování je odpovědností toho, kdo škodí. Druhou obranou je nepřijmout úlohu vykladače. Poškozený nemá povinnost hledat dobré úmysly u toho, kdo mu ubližuje, a jeho neochota to dělat není znakem necitlivosti, ale přiměřenou ochranou. Třetí obranou je hledat posouzení zvenčí, protože uvnitř vztahu nebo skupiny bývá výklad dobrých úmyslů posilován opakováním. V zotavení po vztazích, ve kterých bylo ubližování soustavně vydáváno za projev péče, se pracuje s obnovou schopnosti pojmenovat škodu jako škodu, s návratem oprávněného hněvu a s odpoutáním od povinnosti chápat toho, kdo škodil. Herman zdůrazňuje, že zotavení vyžaduje nejprve bezpečí a teprve poté zpracování toho, co se stalo, a že smíření s pachatelem není podmínkou uzdravení (Herman 1992). V klinické práci s vlastním chováním klienta lze hledání funkce chování využít, ale s vědomím jeho hranic a vždy s respektem k tomu, že klient sám rozhoduje, jaký výklad přijme.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -119,6 +117,8 @@ Základní obranou je oddělit záměr od dopadu. I kdyby chování druhého sku
 - Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764.
 - Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

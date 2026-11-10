@@ -200,8 +200,6 @@ k nerovnosti moci, jinak může terapie nechtěně potvrdit převrácený výkla
 připomíná, že kontrolující jednání ve vztahu je vzorcem nadvlády, nikoli symetrickým sporem
 dvou rovnocenných stran (Stark 2007).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books.
@@ -214,6 +212,8 @@ dvou rovnocenných stran (Stark 2007).
 - Mill, J. S. (1843). *A System of Logic, Ratiocinative and Inductive*. London: John W. Parker.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

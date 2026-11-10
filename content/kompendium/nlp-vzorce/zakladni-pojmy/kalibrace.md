@@ -105,8 +105,6 @@ Pro tvrzení, že pozorný člověk se může naučit lépe vnímat drobné změ
 
 Základní obranou je trvat na prioritě vlastní výpovědi. Kdo slyší, že druhý „vidí“, co opravdu cítí, může klidně odpovědět, že pozorování je hypotéza a že o vlastním prožitku vypovídá on sám. Je legitimní požádat o konkrétní popis toho, co mluvčí pozoroval, a oddělit ho od výkladu, který k němu přidal. Druhou obranou je vědět, co výzkum říká: neverbální projevy jsou mnohoznačné, lež z nich spolehlivě vyčíst nelze a sebejistota pozorovatele není mírou jeho přesnosti (Vrij 2008). Třetí obranou je všimnout si směru výkladů. Pokud se čtení projevů vždy shoduje se zájmem toho, kdo čte, jde spíš o nástroj moci než o pozornost. U lidí, kteří dlouho žili ve vztahu, kde jejich projevy někdo soustavně „četl“ a přebíjel, bývá zotavení spojeno s obnovou důvěry ve vlastní vnímání a s uvolněním napětí, které vzniklo neustálou kontrolou výrazu. Herman popisuje, že obnova vnitřní autonomie probíhá ve vztahu, kde je výpověď člověka respektována (Herman 1992). Odborník, který kalibraci jako dovednost používá, by ji měl výslovně držet v roli otázky: pozorovat, zeptat se a přijmout odpověď, i když s jeho dojmem nesouhlasí.
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press.
@@ -120,6 +118,8 @@ Základní obranou je trvat na prioritě vlastní výpovědi. Kdo slyší, že d
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley.
 - Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

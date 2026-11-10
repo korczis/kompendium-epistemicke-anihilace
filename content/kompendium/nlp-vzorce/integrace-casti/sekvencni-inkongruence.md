@@ -104,8 +104,6 @@ Obecné tvrzení, že lidé k důležitým rozhodnutím mívají v čase proměn
 
 Obranou je trvat na tom, že všechny fáze patří člověku a že o jejich váze rozhoduje on sám. Pokud mluvčí prohlásí jednu fázi za pravé přání a druhou za slabost, je legitimní jeho výklad odmítnout a připomenout, že změna postoje je běžnou součástí rozhodování. Druhou obranou je hledat vnější spouštěče. Pomáhá zaznamenávat si, kdy a za jakých okolností se postoj mění: po rozhovoru s kým, po jaké události, v jakém stavu únavy či strachu. Takový záznam často ukáže, že kolísání nevychází jen zevnitř, ale souvisí s tlakem nebo s jednáním druhé strany. Třetí obranou je u vážných rozhodnutí zohlednit, které postoje se objevují opakovaně a vytrvale. Opakovaně vyslovená touha odejít ze vztahu nebo ze skupiny je důležitá informace a neztrácí váhu tím, že se mezi jejími projevy objevily i období návratu. U lidí po odchodu ze vztahů nebo skupin, ve kterých bylo kolísání soustavně vykládáno proti nim, se zotavení zaměřuje na obnovu důvěry ve vlastní úsudek a na pochopení, že kolísání bylo často odpovědí na nebezpečnou situaci, ne znakem slabosti. Herman zdůrazňuje, že návrat k vlastnímu úsudku probíhá ve vztazích, které respektují autonomii a nepřebírají za člověka rozhodnutí (Herman 1992).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press.
@@ -119,6 +117,8 @@ Obranou je trvat na tom, že všechny fáze patří člověku a že o jejich vá
 - Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 - Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

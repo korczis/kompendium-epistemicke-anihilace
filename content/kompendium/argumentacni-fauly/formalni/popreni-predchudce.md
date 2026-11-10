@@ -187,8 +187,6 @@ nabízí obecný rámec: kdo tvrdí, že podmínka je nutná, nese za toto tvrze
 (van Eemeren a Grootendorst 2004). Související chybou, která z podmínky usuzuje obráceně na
 druhé straně, je [potvrzení důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md).
 
-<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
-
 ## Literatura
 
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.
@@ -205,6 +203,8 @@ druhé straně, je [potvrzení důsledku](@/kompendium/argumentacni-fauly/formal
 - Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press.
 - van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press.
+
+<!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
 ## Související
 

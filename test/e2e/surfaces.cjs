@@ -277,7 +277,7 @@ async function combobox(page, s, failures) {
   const navigated = page.waitForEvent('framenavigated', { predicate: (f) => f === page.mainFrame(), timeout: 5000 }).then(() => true, () => false);
   await page.keyboard.press('Enter');
   const ok = await navigated;
-  await page.waitForLoadState('networkidle').catch(() => {});
+  await page.waitForLoadState('networkidle', { timeout: 10000 }).catch(() => {});
   if (!ok || !chosen || new URL(page.url()).pathname !== new URL(chosen, page.url()).pathname) failures.push(`Enter neotevře vybraný výsledek (${chosen})`);
 }
 
@@ -336,10 +336,16 @@ async function paintedCanvases(page) {
   });
 }
 
+// Projede stránku po 600 px, aby se líné pohledy vykreslily. Výšku čte znovu (pohled pod ním
+// stránku prodlouží a i ten se má vykreslit), ale nejvýš 400 kroků (240 000 px, 40 s):
+// page.evaluate nemá timeout a smyčka, kterou rostoucí stránka nikdy nedožene, zasekla gate
+// v CI na 51 minut (běh 42814054658; nalezla session 2e).
 async function scrollThrough(page) {
   await page.evaluate(async () => {
-    for (let y = 0; y < document.body.scrollHeight; y += 600) {
-      window.scrollTo(0, y);
+    const STEP = 600;
+    const MAX_STEPS = 400;
+    for (let i = 0; i < MAX_STEPS && i * STEP < document.body.scrollHeight; i += 1) {
+      window.scrollTo(0, i * STEP);
       await new Promise((r) => setTimeout(r, 100));
     }
     window.scrollTo(0, 0);

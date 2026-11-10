@@ -716,18 +716,9 @@
  "content/kompendium/03-zakladni-kategorie/scenar-h.md": [
   "description"
  ],
- "content/kompendium/03-zakladni-kategorie/scenar-k/_index.md": [
-  "description"
- ],
  "content/kompendium/03-zakladni-kategorie/visualizations.md": [
   "description",
   "not-orphan"
- ],
- "content/kompendium/04-klinika/_index.md": [
-  "description"
- ],
- "content/kompendium/04-operacni-principy/_index.md": [
-  "description"
  ],
  "content/kompendium/04-pokrocile-fenomeny/_index.md": [
   "description"
@@ -765,18 +756,6 @@
  "content/kompendium/04-terminalni-protokoly/visualizations.md": [
   "not-orphan"
  ],
- "content/kompendium/05-diagnostika/_index.md": [
-  "description"
- ],
- "content/kompendium/05-kolektivni-rozmer/_index.md": [
-  "description"
- ],
- "content/kompendium/05-pokrocile-operace/kapitola-6/_index.md": [
-  "description"
- ],
- "content/kompendium/05-pokrocile-techniky/kapitola-6/_index.md": [
-  "description"
- ],
  "content/kompendium/05-ultramari-techniky/_index.md": [
   "description"
  ],
@@ -793,9 +772,6 @@
   "description"
  ],
  "content/kompendium/05-ultramari-techniky/kapitola-9.md": [
-  "description"
- ],
- "content/kompendium/06-epistemicka-singularita/_index.md": [
   "description"
  ],
  "content/kompendium/06-intervence-a-obrana/_index.md": [
@@ -849,9 +825,6 @@
  "content/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md": [
   "description"
  ],
- "content/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md": [
-  "description"
- ],
  "content/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md": [
   "description"
  ],
@@ -884,9 +857,6 @@
  ],
  "content/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md": [
   "description"
- ],
- "content/kompendium/07-teoreticke-reflexe/visualizations.md": [
-  "not-orphan"
  ],
  "content/kompendium/08-prilohy/bibliografie.md": [
   "description",
@@ -921,9 +891,6 @@
   "related"
  ],
  "content/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md": [
-  "not-orphan"
- ],
- "content/kompendium/case-studies/60-mass-formation-psychosis.md": [
   "not-orphan"
  ],
  "content/kompendium/critical-perspectives/13-victim-blaming-risk.md": [
@@ -1180,9 +1147,6 @@
  ],
  "content/kompendium/glossary-bridges/bridge-exit.md": [
   "czech"
- ],
- "content/kompendium/glossary-bridges/bridge-falsifikace.md": [
-  "not-orphan"
  ],
  "content/kompendium/glossary-bridges/bridge-fenomenologie.md": [
   "not-orphan"
@@ -2318,11 +2282,6 @@
  "content/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md": [
   "description"
  ],
- "content/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md": [
-  "tags",
-  "related",
-  "links-out"
- ],
  "content/kompendium/techniques/ea-2-1-1-expertni-disinflation.md": [
   "description"
  ],
@@ -2607,11 +2566,6 @@
  ],
  "content/kompendium/techniques/ea-5-3-27-ego-skeletalni-redukce.md": [
   "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md": [
-  "tags",
-  "related",
-  "links-out"
  ],
  "content/kompendium/techniques/ea-5-3-5-temporalne-vyvojova-inverze.md": [
   "not-orphan"
@@ -2910,30 +2864,8 @@
  "content/kompendium/techniques/ea-6-5-9-residential-program-EA.md": [
   "description"
  ],
- "content/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-7-1-9-heidegger-dasein.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-7-2-9-williams-truthfulness.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-7-3-10-tononi-iit.md": [
-  "description",
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-7-3-9-dehaene-consciousness.md": [
-  "not-orphan"
+  "description"
  ],
  "content/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md": [
   "not-orphan"

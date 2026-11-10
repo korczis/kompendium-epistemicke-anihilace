@@ -287,6 +287,13 @@
         "title": "Glosář"
       },
       {
+        "class": "kompendium/01-predmluva",
+        "distance": 1,
+        "in": 320,
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "title": "1.3 Etické aspekty a upozornění"
+      },
+      {
         "class": "glossary",
         "distance": 1,
         "in": 317,
@@ -306,13 +313,6 @@
         "in": 283,
         "path": "glossary/coercive-control.md",
         "title": "Coercive control (donucující kontrola)"
-      },
-      {
-        "class": "kompendium/01-predmluva",
-        "distance": 1,
-        "in": 275,
-        "path": "kompendium/01-predmluva/eticke-aspekty.md",
-        "title": "1.3 Etické aspekty a upozornění"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",

@@ -1,42 +1,84 @@
-// Kompendium EA — Taxonomy Distribution Chart (Chart.js, interactive)
-// Doughnut chart of EA-1.X.Y, EA-5.1.*, EA-5.2.* etc. Click → drilldown.
-(function() {
+// Distribuce technik napříč rodinami EA (Chart.js doughnut). Rodiny, jejich názvy, počty
+// a odkazy se odvozují z grafu knihy (kniha.js): technika = stránka ea-N-…, rodina = EA-N
+// z cesty, název rodiny = graph.families. Klik na výseč → techniky rodiny po podrodinách.
+(function () {
   'use strict';
-  const TAXONOMY_DATA = {
-    labels: ['EA-1 Akademické', 'EA-2 Delegitimizace', 'EA-3 Edukativní', 'EA-4 Terminální', 'EA-5.1 Singularita', 'EA-5.2 Metatranscend.', 'EA-5.3 Hypertransform.', 'EA-5.4 Paradoxální', 'EA-5.5 Transkonceptual', 'EA-6 Klinické', 'EA-7 Teoretické'],
-    counts: [13, 50, 30, 12, 30, 10, 60, 60, 60, 50, 50],
-    colors: ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#ef4444', '#dc2626', '#b91c1c', '#991b1b', '#7f1d1d', '#06b6d4', '#6366f1']
-  };
-  const TECHNIQUES_BY_CATEGORY = {
-    'EA-1 Akademické': ['EA-1.1.1 Selektivní expozice', 'EA-1.1.2 Informační přetížení', 'EA-1.1.3 Terminologická mystifikace', 'EA-1.2.1 Falešné dilema', 'EA-1.2.2 Falešná ekvivalence', 'EA-1.2.3 Iluzorní komplexita', 'EA-1.3.1 Imunizace', 'EA-1.3.2 Strategická reinterpretace', 'EA-1.3.3 Tematická diverze', 'EA-1.4.1 Prosodická dominance', 'EA-1.4.2 Latentní emoce', 'EA-1.5.1 Strategická proxemika', 'EA-1.5.2 Tělesné hieroglyfy']
-  };
+  var SRC = document.currentScript && document.currentScript.src;
+
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
+    }
+    return window.__kniha;
+  }
 
   function init() {
-    const canvas = document.getElementById('taxonomy-distribution');
+    var canvas = document.getElementById('taxonomy-distribution');
     if (!canvas || typeof Chart === 'undefined') return;
-    const detailEl = document.getElementById('taxonomy-detail');
-    new Chart(canvas, {
-      type: 'doughnut',
-      data: {
-        labels: TAXONOMY_DATA.labels,
-        datasets: [{ data: TAXONOMY_DATA.counts, backgroundColor: TAXONOMY_DATA.colors, borderWidth: 2, borderColor: '#0f172a' }]
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          legend: { position: 'right', labels: { color: '#e2e8f0' } },
-          title: { display: true, text: 'Distribuce EA technik napříč kategoriemi (klikněte pro detail)', color: '#f1f5f9' },
-          tooltip: { callbacks: { label: (ctx) => `${ctx.label}: ${ctx.parsed} technik` } }
-        },
-        onClick: (evt, elems) => {
-          if (!elems.length || !detailEl) return;
-          const i = elems[0].index;
-          const cat = TAXONOMY_DATA.labels[i];
-          const techs = TECHNIQUES_BY_CATEGORY[cat] || [`Detailní články pro ${cat} jsou v podknihovně /kompendium/techniques/.`];
-          detailEl.innerHTML = `<h3 class="text-lg font-bold text-slate-100">${cat} (${TAXONOMY_DATA.counts[i]} technik)</h3><ul class="mt-2 space-y-1 text-slate-300">${techs.map(t => `<li>• ${t}</li>`).join('')}</ul>`;
-        }
+    var detail = document.getElementById('taxonomy-detail');
+    kniha().then(function (K) {
+      var fams = K.familyIds.map(function (fid) {
+        return {
+          id: fid, name: K.familyName(fid), color: K.familyColor(fid),
+          items: K.techniques.filter(function (t) { return t.family === fid; }),
+        };
+      });
+      var total = K.techniques.length;
+
+      function show(f) {
+        if (!detail) return;
+        K.clear(detail);
+        detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100',
+          f.id + (f.name ? ' ' + f.name : '') + ' (' + f.items.length + ' stránek technik)'));
+        var subs = [];
+        f.items.forEach(function (t) { if (subs.indexOf(t.sub) < 0) subs.push(t.sub); });
+        subs.forEach(function (s) {
+          var items = f.items.filter(function (t) { return t.sub === s; });
+          detail.appendChild(K.h('p', 'mt-3 font-semibold text-slate-200', s + ' (' + items.length + ')'));
+          detail.appendChild(K.list(items.map(function (t) { return t.node; }), function (n) {
+            return K.techniqueText(K.technique(n));
+          }));
+        });
       }
-    });
+
+      K.chart(canvas, function (c) {
+        return {
+          type: 'doughnut',
+          data: {
+            labels: fams.map(function (f) { return f.id + (f.name ? ' ' + f.name : ''); }),
+            datasets: [{
+              data: fams.map(function (f) { return f.items.length; }),
+              backgroundColor: fams.map(function (f) { return f.color; }),
+              borderWidth: 2, borderColor: c.surface,
+            }],
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: { position: 'right', labels: { color: c.text } },
+              title: {
+                display: true, color: c.text,
+                text: 'Stránky technik podle rodin EA: ' + total + ' (klikněte pro detail)',
+              },
+              tooltip: { callbacks: { label: function (ctx) { return ctx.label + ': ' + ctx.parsed + ' stránek'; } } },
+            },
+            onClick: function (evt, elems) { if (elems.length) show(fams[elems[0].index]); },
+          },
+        };
+      });
+    }).catch(function (e) { failed(detail, e); });
   }
+
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
+  }
+
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

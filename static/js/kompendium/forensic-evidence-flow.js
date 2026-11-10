@@ -1,147 +1,147 @@
-// Forensic Evidence Flow — p5.js animated 5-stage flow
-(function() {
+// Forenzní a právní tok (p5.js, animované částice mezi stádii). Stádia a jejich kapitoly
+// přebírá z rejstříku oddílu forenzního a právního rozměru (nadpisy „Část N: …“ a odkazy pod
+// nimi); velikost kruhu = počet kapitol, hustota částic mezi sousedními stádii = počet odkazů
+// z kapitol jednoho stádia na kapitoly dalšího podle grafu knihy.
+// Klik na stádium → jeho kapitoly s odkazy.
+(function () {
   'use strict';
-  const STAGES = [
-    { id: 'incident', label: 'Incident', x: 0.10, color: [239, 68, 68], markers: [
-      'Iniciační epistemický kontakt', 'Vstupní zranitelnosti zjištěny', 'Časová značka první expozice',
-      'Sociální vektor identifikován', 'Digitální stopa kontaktu'
-    ] },
-    { id: 'assessment', label: 'Posouzení', x: 0.30, color: [245, 158, 11], markers: [
-      'Klinická triage (BPRS, MMSE)', 'EA Severity Index 1-5', 'Diferenciální dg vs. psychóza',
-      'Mapování použitých technik EA-1...EA-9', 'Trauma exposure inventory'
-    ] },
-    { id: 'documentation', label: 'Dokumentace', x: 0.50, color: [59, 130, 246], markers: [
-      'Chain of custody (chat logy, audio)', 'Forenzní akvizice zařízení', 'Time-stamped journal',
-      'Svědecké výpovědi (3rd party)', 'Korelace s útočníkovou taxonomií'
-    ] },
-    { id: 'testimony', label: 'Svědectví', x: 0.70, color: [168, 85, 247], markers: [
-      'Expert witness affidavit', 'Hermeneutická rekonstrukce', 'Kompetenční hodnocení',
-      'Cross-examination prep', 'Daubert/Frye standard compliance'
-    ] },
-    { id: 'resolution', label: 'Resoluce', x: 0.90, color: [16, 185, 129], markers: [
-      'Civilní/trestní výrok', 'Restituce/odškodnění', 'No-contact / restraining',
-      'Recovery protokol aktivován', 'Outcome registration (longitudinální)'
-    ] }
-  ];
+  var SRC = document.currentScript && document.currentScript.src;
+  // Zdroj dat: rejstřík oddílu forenzního a právního rozměru (cesta v grafu knihy).
+  var SOURCE = 'kompendium/forensic-legal/_index.md';
 
-  let particles = [];
-  let highlightStage = null;
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
+    }
+    return window.__kniha;
+  }
 
-  function buildDetail(container, stage) {
-    while (container.firstChild) container.removeChild(container.firstChild);
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold';
-    h.style.color = 'rgb(' + stage.color.join(',') + ')';
-    h.textContent = stage.label;
-    container.appendChild(h);
-    const sub = document.createElement('p');
-    sub.className = 'text-slate-400 mt-1 text-sm';
-    sub.textContent = 'Typické forenzní markery EA-related případu:';
-    container.appendChild(sub);
-    const ul = document.createElement('ul');
-    ul.className = 'mt-2 space-y-1 text-slate-300';
-    stage.markers.forEach(m => {
-      const li = document.createElement('li');
-      li.className = 'text-sm';
-      li.textContent = '• ' + m;
-      ul.appendChild(li);
-    });
-    container.appendChild(ul);
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
   }
 
   function init() {
-    const container = document.getElementById('forensic-evidence-flow');
-    const detail = document.getElementById('forensic-evidence-detail');
+    var container = document.getElementById('forensic-evidence-flow');
+    var detail = document.getElementById('forensic-evidence-detail');
     if (!container || typeof p5 === 'undefined') return;
+    kniha().then(function (K) {
+      var idx = K.g.byPath[SOURCE];
+      if (!idx) throw new Error(SOURCE + ' není v grafu');
+      return K.groups(idx).then(function (groups) { draw(K, idx, groups, container, detail); });
+    }).catch(function (e) { failed(detail, e); });
+  }
 
-    new p5(function(p) {
-      let W, H;
-      p.setup = function() {
+  function draw(K, idx, groups, container, detail) {
+    var stages = groups.map(function (gr, i) {
+      return {
+        group: gr,
+        label: gr.title.replace(/^[^:]*:\s*/, '').replace(/\s*\(.*\)\s*$/, ''),
+        ids: gr.nodes.map(function (n) { return n.id; }),
+        color: K.V.PALETTE[i % K.V.PALETTE.length],
+      };
+    });
+    var flows = stages.slice(0, -1).map(function (s, i) { return K.linksFrom(s.ids, stages[i + 1].ids); });
+    var maxF = Math.max.apply(null, flows.concat([1]));
+    var maxN = Math.max.apply(null, stages.map(function (s) { return s.ids.length; }).concat([1]));
+    var highlight = null;
+
+    function show(i) {
+      highlight = i;
+      if (!detail) return;
+      var s = stages[i];
+      K.clear(detail);
+      var h = K.h('h3', 'text-lg font-bold', s.group.title);
+      h.style.color = s.color;
+      detail.appendChild(h);
+      if (s.group.text) detail.appendChild(K.h('p', 'text-slate-300 mt-1 text-sm', s.group.text));
+      detail.appendChild(K.h('p', 'text-slate-400 mt-2 text-sm', 'Kapitoly stádia podle rejstříku (' + s.ids.length + '):'));
+      detail.appendChild(K.list(s.group.nodes));
+    }
+
+    if (detail) {
+      K.clear(detail);
+      detail.appendChild(K.h('p', 'text-slate-300 text-sm', 'Klikněte na stádium. Částice mezi stádii: ' +
+        flows.map(function (f, i) { return stages[i].label + ' → ' + stages[i + 1].label + ' ' + f + ' odkazů'; }).join(' · ') + '. '));
+      detail.appendChild(K.link(idx, '→ rejstřík oddílu'));
+    }
+
+    new p5(function (p) {
+      var W;
+      var H = 420;
+      var particles = [];
+      function sx(i) { return W * (i + 0.5) / stages.length; }
+      function radius(s) { return 14 + 22 * Math.sqrt(s.ids.length / maxN); }
+
+      p.setup = function () {
         W = container.clientWidth || 800;
-        H = 420;
         p.createCanvas(W, H).parent(container);
-        for (let i = 0; i < 40; i++) {
-          particles.push({
-            stageIdx: 0,
-            progress: Math.random(),
-            speed: 0.002 + Math.random() * 0.003,
-            offsetY: (Math.random() - 0.5) * 30
-          });
-        }
+        flows.forEach(function (f, i) {
+          var n = Math.round(36 * f / maxF);
+          for (var k = 0; k < n; k++) {
+            particles.push({ seg: i, progress: Math.random(), speed: 0.002 + Math.random() * 0.003, offsetY: (Math.random() - 0.5) * 30 });
+          }
+        });
       };
 
-      p.draw = function() {
+      p.draw = function () {
         p.background(15, 23, 42);
-        const yMid = H / 2;
-
-        // Draw connection lines
+        var yMid = H / 2;
         p.stroke(71, 85, 105);
-        p.strokeWeight(2);
-        for (let i = 0; i < STAGES.length - 1; i++) {
-          const x1 = STAGES[i].x * W;
-          const x2 = STAGES[i + 1].x * W;
-          p.line(x1, yMid, x2, yMid);
-        }
-
-        // Draw particles
+        flows.forEach(function (f, i) {
+          p.strokeWeight(1 + 4 * f / maxF);
+          p.line(sx(i), yMid, sx(i + 1), yMid);
+        });
         p.noStroke();
-        particles.forEach(part => {
-          const s = STAGES[part.stageIdx];
-          const next = STAGES[part.stageIdx + 1];
-          if (!next) {
-            part.stageIdx = 0; part.progress = 0;
-            return;
-          }
-          const x = p.lerp(s.x * W, next.x * W, part.progress);
-          const c = s.color;
-          p.fill(c[0], c[1], c[2], 200);
+        particles.forEach(function (part) {
+          var x = p.lerp(sx(part.seg), sx(part.seg + 1), part.progress);
+          var c = p.color(stages[part.seg].color);
+          c.setAlpha(200);
+          p.fill(c);
           p.circle(x, yMid + part.offsetY, 4);
           part.progress += part.speed;
-          if (part.progress >= 1) {
-            part.stageIdx++;
-            part.progress = 0;
-            if (part.stageIdx >= STAGES.length - 1) {
-              part.stageIdx = 0;
-            }
-          }
+          if (part.progress >= 1) part.progress = 0;
         });
-
-        // Draw stage circles
-        STAGES.forEach((s, i) => {
-          const x = s.x * W;
-          const isHL = highlightStage === i;
-          const r = isHL ? 38 : 30;
-          p.fill(s.color[0], s.color[1], s.color[2], isHL ? 220 : 160);
-          p.circle(x, yMid, r * 2);
-          p.fill(255);
-          p.textAlign(p.CENTER);
-          p.textSize(11);
-          p.text(s.label, x, yMid + r + 18);
-          p.textSize(10);
+        p.textAlign(p.CENTER);
+        flows.forEach(function (f, i) {
           p.fill(148, 163, 184);
-          p.text((i + 1).toString(), x, yMid + 4);
+          p.textSize(10);
+          p.text(f + ' odk.', (sx(i) + sx(i + 1)) / 2, yMid - 26);
+        });
+        stages.forEach(function (s, i) {
+          var x = sx(i);
+          var r = radius(s) + (highlight === i ? 6 : 0);
+          var c = p.color(s.color);
+          c.setAlpha(highlight === i ? 230 : 170);
+          p.fill(c);
+          p.circle(x, yMid, r * 2);
+          p.fill(241, 245, 249);
+          p.textSize(11);
+          p.textAlign(p.CENTER, p.TOP);
+          p.text(s.label, x - W / stages.length / 2 + 4, yMid + 46, W / stages.length - 8, 60);
+          p.textAlign(p.CENTER, p.CENTER);
+          p.textSize(10);
+          p.text(String(s.ids.length), x, yMid);
         });
       };
 
-      p.mouseClicked = function() {
-        const yMid = H / 2;
-        for (let i = 0; i < STAGES.length; i++) {
-          const x = STAGES[i].x * W;
-          const dx = p.mouseX - x;
-          const dy = p.mouseY - yMid;
-          if (dx * dx + dy * dy < 1500) {
-            highlightStage = i;
-            if (detail) buildDetail(detail, STAGES[i]);
-            break;
-          }
+      p.mouseClicked = function () {
+        var yMid = H / 2;
+        for (var i = 0; i < stages.length; i++) {
+          var dx = p.mouseX - sx(i);
+          var dy = p.mouseY - yMid;
+          var r = radius(stages[i]) + 6;
+          if (dx * dx + dy * dy < r * r) { show(i); break; }
         }
       };
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

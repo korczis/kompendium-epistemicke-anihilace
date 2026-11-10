@@ -1,107 +1,103 @@
-// Section 07 — Force-directed map of philosophers relevant to EA (p5.js, safe DOM)
+// Kapitola 7 — mapa teoretických rámců (p5.js, silový layout). Uzly = stránky kapitoly, ve
+// které graf leží (z grafu knihy; číslo, autor a téma z názvu stránky), barva = tradice podle
+// přehledové stránky kapitoly „Filozofické tradice“ (nadpis a odkazy pod ním; stránky, které
+// přehled nezařazuje, jsou šedé), hrany = odkazy mezi stránkami v knize. Hrana tedy není
+// tvrzení o vlivu, jen „kniha mezi kapitolami odkazuje“ (oběma směry = silnější čára).
+// Klik na uzel → kapitola, tradice, sousedé a odkaz na stránku.
 (function() {
   'use strict';
+  var SRC = document.currentScript && document.currentScript.src;
 
-  // Traditions: cont = continental, anal = analytic, cog = cognitive science, ethpol = ethics & politics
-  const TRADITION_COLORS = {
-    cont:   { rgb: [139, 92, 246], label: 'Kontinentální' },
-    anal:   { rgb: [59, 130, 246], label: 'Analytická' },
-    cog:    { rgb: [16, 185, 129], label: 'Kognitivní vědy' },
-    ethpol: { rgb: [239, 68, 68],  label: 'Etika & politika' }
-  };
-
-  // 32 philosophers with EA-relevant concept + slug for kompendium link
-  const PHILOSOPHERS = [
-    { id: 'foucault',    label: 'Foucault',     trad: 'cont',   concept: 'Moc / diskurz / governmentalita',                slug: 'postmodernismus' },
-    { id: 'adorno',      label: 'Adorno',       trad: 'cont',   concept: 'Negativní dialektika / kulturní průmysl',         slug: 'postmodernismus' },
-    { id: 'habermas',    label: 'Habermas',     trad: 'cont',   concept: 'Komunikativní racionalita',                       slug: 'kuhn-paradigmaticke-revoluce' },
-    { id: 'heidegger',   label: 'Heidegger',    trad: 'cont',   concept: 'Bytí ve světě / klam',                            slug: 'heidegger-byt-ve-svete' },
-    { id: 'merleau',     label: 'Merleau-Ponty',trad: 'cont',   concept: 'Vtělená percepce',                                slug: 'merleau-ponty-vtelena-percepce' },
-    { id: 'levinas',     label: 'Levinas',      trad: 'cont',   concept: 'Etika Druhého',                                   slug: 'levinas-jiny' },
-    { id: 'sartre',      label: 'Sartre',       trad: 'cont',   concept: 'Mauvaise foi / radikální svoboda',                slug: 'sartre-existencialismus' },
-    { id: 'ricoeur',     label: 'Ricoeur',      trad: 'cont',   concept: 'Trojí mimese / hermeneutika',                     slug: 'ricoeur-troji-mimese' },
-    { id: 'butler',      label: 'Butler',       trad: 'cont',   concept: 'Performativita / norma',                          slug: 'butler-performative' },
-    { id: 'arendt',      label: 'Arendt',       trad: 'ethpol', concept: 'Banalita zla / myšlení',                          slug: 'arendt-banalita-zla' },
-    { id: 'honneth',     label: 'Honneth',      trad: 'ethpol', concept: 'Rozpoznání',                                      slug: 'honneth-rozpoznani' },
-    { id: 'macintyre',   label: 'MacIntyre',    trad: 'ethpol', concept: 'After Virtue',                                    slug: 'macintyre-after-virtue' },
-    { id: 'nussbaum',    label: 'Nussbaum',     trad: 'ethpol', concept: 'Capabilities approach',                           slug: 'nussbaum-capabilities' },
-    { id: 'sen',         label: 'Sen',          trad: 'ethpol', concept: 'Development as Freedom',                          slug: 'sen-development-as-freedom' },
-    { id: 'taylor',      label: 'Taylor',       trad: 'ethpol', concept: 'Sources of the Self',                             slug: 'taylor-sources-of-self' },
-    { id: 'wittgenstein',label: 'Wittgenstein', trad: 'anal',   concept: 'Jazykové hry',                                    slug: 'wittgenstein-jezykove-hry' },
-    { id: 'davidson',    label: 'Davidson',     trad: 'anal',   concept: 'Radical interpretation',                          slug: 'davidson-radical-interpretation' },
-    { id: 'dennett',     label: 'Dennett',      trad: 'anal',   concept: 'Intentional stance',                              slug: 'dennett-intentional-stance' },
-    { id: 'searle',      label: 'Searle',       trad: 'anal',   concept: 'Chinese room',                                    slug: 'searle-chinese-room' },
-    { id: 'brandom',     label: 'Brandom',      trad: 'anal',   concept: 'Inferential semantics',                           slug: 'brandom-inferential-semantics' },
-    { id: 'mcdowell',    label: 'McDowell',     trad: 'anal',   concept: 'Mind and World',                                  slug: 'mcDowell-mind-and-world' },
-    { id: 'putnam',      label: 'Putnam',       trad: 'anal',   concept: 'Internal realism',                                slug: 'putnam-internal-realism' },
-    { id: 'quine',       label: 'Quine',        trad: 'anal',   concept: 'Web of belief',                                   slug: 'quine-web-of-belief' },
-    { id: 'rorty',       label: 'Rorty',        trad: 'anal',   concept: 'Contingency',                                     slug: 'rorty-contingency' },
-    { id: 'kuhn',        label: 'Kuhn',         trad: 'anal',   concept: 'Paradigmatické revoluce',                         slug: 'kuhn-paradigmaticke-revoluce' },
-    { id: 'feyerabend',  label: 'Feyerabend',   trad: 'anal',   concept: 'Anti-method',                                     slug: 'feyerabend-anti-method' },
-    { id: 'williams',    label: 'Williams',     trad: 'anal',   concept: 'Truth and Truthfulness',                          slug: 'williams-truth-and-truthfulness' },
-    { id: 'nagel',       label: 'Nagel',        trad: 'anal',   concept: 'View from Nowhere',                               slug: 'nagel-view-from-nowhere' },
-    { id: 'block',       label: 'Block',        trad: 'cog',    concept: 'Phenomenal vs access',                            slug: 'block-phenomenal-vs-access' },
-    { id: 'chalmers',    label: 'Chalmers',     trad: 'cog',    concept: 'Hard problem',                                    slug: 'chalmers-hard-problem' },
-    { id: 'tononi',      label: 'Tononi',       trad: 'cog',    concept: 'IIT — integrovaná informace',                     slug: 'tononi-iit' },
-    { id: 'friston',     label: 'Friston',      trad: 'cog',    concept: 'Active inference',                                slug: 'friston-active-inference' },
-    { id: 'polanyi',     label: 'Polanyi',      trad: 'cog',    concept: 'Tichá znalost',                                   slug: 'polanyi-ticha-znalost' }
-  ];
-
-  // Influence edges (curated, asymmetric)
-  const EDGES = [
-    ['heidegger', 'merleau'], ['heidegger', 'sartre'], ['heidegger', 'levinas'],
-    ['merleau', 'butler'], ['heidegger', 'arendt'],
-    ['adorno', 'habermas'], ['foucault', 'butler'], ['foucault', 'adorno'],
-    ['levinas', 'ricoeur'], ['ricoeur', 'taylor'],
-    ['sartre', 'butler'], ['arendt', 'honneth'],
-    ['macintyre', 'taylor'], ['nussbaum', 'sen'], ['sen', 'nussbaum'],
-    ['wittgenstein', 'davidson'], ['wittgenstein', 'rorty'], ['wittgenstein', 'mcdowell'],
-    ['davidson', 'brandom'], ['brandom', 'mcdowell'], ['quine', 'davidson'], ['quine', 'putnam'],
-    ['putnam', 'rorty'], ['putnam', 'mcdowell'],
-    ['dennett', 'searle'], ['dennett', 'chalmers'], ['chalmers', 'block'], ['block', 'tononi'],
-    ['friston', 'chalmers'], ['friston', 'dennett'],
-    ['kuhn', 'feyerabend'], ['kuhn', 'rorty'], ['kuhn', 'putnam'],
-    ['williams', 'macintyre'], ['williams', 'nussbaum'], ['williams', 'rorty'],
-    ['nagel', 'chalmers'], ['nagel', 'williams'],
-    ['polanyi', 'kuhn'], ['polanyi', 'mcdowell'],
-    ['foucault', 'arendt'], ['adorno', 'arendt']
-  ];
-
-  function setDetail(container, node) {
-    while (container.firstChild) container.removeChild(container.firstChild);
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold text-slate-100';
-    h.textContent = node.label;
-    container.appendChild(h);
-    const trad = document.createElement('p');
-    trad.className = 'text-slate-400 text-sm';
-    trad.textContent = 'Tradice: ' + TRADITION_COLORS[node.trad].label;
-    container.appendChild(trad);
-    const c = document.createElement('p');
-    c.className = 'text-slate-300 mt-2 font-semibold';
-    c.textContent = 'EA-relevantní koncept:';
-    container.appendChild(c);
-    const cv = document.createElement('p');
-    cv.className = 'text-slate-300 text-sm';
-    cv.textContent = node.concept;
-    container.appendChild(cv);
-
-    if (node.slug) {
-      const link = document.createElement('a');
-      link.href = '/kompendium/07-teoreticke-reflexe/' + node.slug + '/';
-      link.className = 'text-blue-400 underline text-sm mt-2 inline-block';
-      link.textContent = '→ Otevřít plný článek';
-      container.appendChild(link);
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
     }
+    return window.__kniha;
+  }
+
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
+  }
+
+  var UNGROUPED = [100, 116, 139];
+
+  function hexRgb(hex) {
+    var n = parseInt(hex.slice(1), 16);
+    return [n >> 16, (n >> 8) & 255, n & 255];
+  }
+
+  // Data mapy: stránky kapitoly, tradice z přehledové podstránky, hrany z grafu.
+  function model(K) {
+    var here = K.current;
+    var section = here ? here.section : '';
+    var pages = K.pagesOf(section).filter(function (n) { return !here || n.id !== here.id; });
+    var subIndexes = K.g.nodes.filter(function (n) {
+      return n.section === section && K.isIndex(n) && n.path !== section + '/_index.md';
+    });
+    return Promise.all(subIndexes.map(function (ix) {
+      return K.groups(ix, pages).then(function (g) { return { index: ix, groups: g }; });
+    })).then(function (all) {
+      function size(c) { return c.groups.reduce(function (s, g) { return s + g.nodes.length; }, 0); }
+      var best = all.sort(function (a, b) { return size(b) - size(a); })[0] || { index: null, groups: [] };
+      var groups = best.groups;
+      var trad = {};
+      var traditions = groups.map(function (g, i) {
+        var t = { label: g.title, rgb: hexRgb(K.V.PALETTE[i % K.V.PALETTE.length]), count: g.nodes.length };
+        g.nodes.forEach(function (n) { trad[n.id] = t; });
+        return t;
+      });
+      var none = { label: 'Přehled tradic stránku nezařazuje', rgb: UNGROUPED, count: 0 };
+      var data = pages.map(function (n) {
+        var t = K.parseTitle(n.title);
+        if (!trad[n.id]) none.count++;
+        var label = t.head.length > 24 ? t.head.slice(0, 23) + '…' : t.head;
+        return { id: n.id, node: n, num: t.num, label: label, concept: t.rest || t.full, trad: trad[n.id] || none };
+      });
+      var edges = K.edgesAmong(pages.map(function (n) { return n.id; }));
+      return { data: data, edges: edges, traditions: none.count ? traditions.concat([none]) : traditions,
+        source: best.index };
+    });
+  }
+
+  function setDetail(K, container, node, neighbors) {
+    K.clear(container);
+    container.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', (node.num ? node.num + ' ' : '') + node.label));
+    container.appendChild(K.h('p', 'text-slate-400 text-sm', 'Tradice: ' + node.trad.label));
+    container.appendChild(K.h('p', 'text-slate-300 mt-2 text-sm', node.concept));
+    container.appendChild(K.h('p', 'text-slate-300 mt-2 font-semibold', 'Vazby podle odkazů v knize (' + neighbors.length + '):'));
+    container.appendChild(K.list(neighbors.map(function (d) { return d.node; })));
+    var p = K.h('p', 'mt-2 text-sm');
+    p.appendChild(K.link(node.node, '→ Otevřít plný článek'));
+    container.appendChild(p);
   }
 
   function init() {
     const host = document.getElementById('section-07-framework-map');
     if (!host || typeof p5 === 'undefined') return;
     const detail = document.getElementById('framework-detail');
+    kniha().then(function (K) {
+      return model(K).then(function (m) { draw(K, m, host, detail); });
+    }).catch(function (e) { failed(detail, e); });
+  }
+
+  function draw(K, M, host, detail) {
+    const PHILOSOPHERS = M.data;
+    if (detail) {
+      K.clear(detail);
+      detail.appendChild(K.h('p', 'text-slate-300 text-sm', PHILOSOPHERS.length + ' kapitol, ' + M.edges.length +
+        ' vazeb podle odkazů v knize. Barvy: ' + M.traditions.map(function (t) { return t.label + ' (' + t.count + ')'; }).join(' · ') + '.'));
+      if (M.source) detail.appendChild(K.link(M.source, '→ přehled filozofických tradic'));
+    }
 
     new p5(function(p) {
-      let w = 800, h = 600;
+      let w = host.clientWidth || 800, h = 600;
       const nodes = [];
       const edges = [];
       let hovered = null;
@@ -126,11 +122,7 @@
 
         const idx = {};
         nodes.forEach((n, i) => { idx[n.data.id] = i; });
-        EDGES.forEach(([a, b]) => {
-          if (idx[a] !== undefined && idx[b] !== undefined) {
-            edges.push({ a: idx[a], b: idx[b] });
-          }
-        });
+        M.edges.forEach((e) => { edges.push({ a: idx[e.a], b: idx[e.b], mutual: e.mutual }); });
       };
 
       function neighborsOf(nodeIdx) {
@@ -163,7 +155,7 @@
           const dx = b.x - a.x;
           const dy = b.y - a.y;
           const d = Math.max(1, Math.sqrt(dx * dx + dy * dy));
-          const k = 0.0018;
+          const k = e.mutual ? 0.0018 : 0.0006;
           const target = 110;
           const f = k * (d - target);
           const fx = (dx / d) * f;
@@ -206,17 +198,17 @@
         // Edges
         edges.forEach((e) => {
           const a = nodes[e.a], b = nodes[e.b];
-          let alpha = 70;
+          let alpha = e.mutual ? 70 : 28;
           if (selected !== null && (e.a === selected || e.b === selected)) alpha = 220;
-          else if (selected !== null) alpha = 25;
+          else if (selected !== null) alpha = 12;
           p.stroke(148, 163, 184, alpha);
-          p.strokeWeight(1);
+          p.strokeWeight(e.mutual ? 1.4 : 0.7);
           p.line(a.x, a.y, b.x, b.y);
         });
 
         // Nodes
         nodes.forEach((n, i) => {
-          const col = TRADITION_COLORS[n.data.trad].rgb;
+          const col = n.data.trad.rgb;
           let r = 12;
           let alpha = 220;
           if (selected !== null) {
@@ -243,17 +235,19 @@
           p.fill(15, 23, 42, 230);
           p.stroke(148, 163, 184, 180);
           p.strokeWeight(1);
-          const tw = Math.max(220, p.textWidth(n.data.concept) + 30);
-          p.rect(p.mouseX + 10, p.mouseY + 10, tw, 50, 4);
+          p.textSize(10);
+          const tw = Math.min(w - 20, Math.max(220, p.textWidth(n.data.concept) + 30));
+          const tx = Math.min(p.mouseX + 10, w - tw - 4);
+          p.rect(tx, p.mouseY + 10, tw, 50, 4);
           p.noStroke();
           p.fill(241, 245, 249);
           p.textAlign(p.LEFT, p.TOP);
           p.textSize(11);
-          p.text(n.data.label, p.mouseX + 18, p.mouseY + 16);
+          p.text((n.data.num ? n.data.num + ' ' : '') + n.data.label, tx + 8, p.mouseY + 16);
           p.fill(148, 163, 184);
           p.textSize(10);
-          p.text(n.data.concept, p.mouseX + 18, p.mouseY + 32);
-          p.text('Klik = výběr + odkaz', p.mouseX + 18, p.mouseY + 46);
+          p.text(n.data.concept, tx + 8, p.mouseY + 32, tw - 16, 14);
+          p.text('Klik = výběr + odkaz', tx + 8, p.mouseY + 46);
         }
       };
 
@@ -267,7 +261,7 @@
           selected = idx;
           dragNode = idx;
           nodes[idx].pinned = true;
-          if (detail) setDetail(detail, nodes[idx].data);
+          if (detail) setDetail(K, detail, nodes[idx].data, Array.from(neighborsOf(idx)).map((j) => nodes[j].data));
         } else {
           selected = null;
         }

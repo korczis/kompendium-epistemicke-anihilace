@@ -128,6 +128,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `agent_count` | glossary | autorský | int |  |
 | extra | `agent_tiers` | glossary | autorský | list |  |
 | extra | `agents_governed` | glossary | autorský | str |  |
+| extra | `aliases` | glossary | autorský | list |  |
 | extra | `anonymized` | page | autorský | bool |  |
 | extra | `anti_metric_enforcement` | glossary | autorský | bool |  |
 | extra | `api_type` | glossary | autorský | str |  |

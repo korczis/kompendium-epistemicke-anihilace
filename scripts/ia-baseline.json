@@ -176,11 +176,9 @@
   "detail"
  ],
  "content/glossary/decision-core.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/decision-engine.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/deepfake.md": [
@@ -240,7 +238,6 @@
   "weak-link"
  ],
  "content/glossary/doctrine.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/double-bind.md": [
@@ -404,7 +401,6 @@
   "detail"
  ],
  "content/glossary/fllm.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/forensic-interview.md": [
@@ -432,7 +428,6 @@
   "detail"
  ],
  "content/glossary/gitl.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/godeluv-teorem.md": [
@@ -597,7 +592,6 @@
   "weak-link"
  ],
  "content/glossary/know.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/kognitivni-anihilace.md": [
@@ -691,7 +685,6 @@
   "weak-link"
  ],
  "content/glossary/m5m.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/mereologicka-rekonstrukce.md": [
@@ -761,7 +754,6 @@
   "detail"
  ],
  "content/glossary/nclb.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/newspeak.md": [
@@ -783,7 +775,6 @@
   "detail"
  ],
  "content/glossary/nwb.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/ontologicka-anihilace.md": [
@@ -938,7 +929,6 @@
   "detail"
  ],
  "content/glossary/seal.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/sealioning.md": [
@@ -1014,7 +1004,6 @@
   "detail"
  ],
  "content/glossary/tach.md": [
-  "detail",
   "weak-link"
  ],
  "content/glossary/tactical-execution.md": [
@@ -1101,11 +1090,9 @@
   "weak-link"
  ],
  "content/glossary/zero.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/01-predmluva/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/01-predmluva/bezpecnostni-klasifikace.md": [
@@ -1139,7 +1126,6 @@
   "detail"
  ],
  "content/kompendium/02-uvod/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/02-uvod/definice.md": [
@@ -1172,12 +1158,10 @@
   "detail"
  ],
  "content/kompendium/03-zakladni-kategorie/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/03-zakladni-kategorie/biasy/_index.md": [
-  "detail",
-  "generated"
+  "weak-link"
  ],
  "content/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md": [
   "weak-link",
@@ -1248,8 +1232,6 @@
   "detail"
  ],
  "content/kompendium/03-zakladni-kategorie/visualizations.md": [
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/04-klinika/_index.md": [
@@ -1292,8 +1274,6 @@
   "weak-link"
  ],
  "content/kompendium/04-terminalni-protokoly/visualizations.md": [
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/05-diagnostika/_index.md": [
@@ -1413,7 +1393,6 @@
   "weak-link"
  ],
  "content/kompendium/06-klinicke-aplikace/visualizations.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md": [
@@ -1423,8 +1402,6 @@
   "weak-link"
  ],
  "content/kompendium/07-populacni/_index.md": [
-  "detail",
-  "generated",
   "weak-link"
  ],
  "content/kompendium/07-populacni/propaganda.md": [
@@ -1649,7 +1626,6 @@
   "weak-link"
  ],
  "content/kompendium/07-teoreticke-reflexe/visualizations.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md": [
@@ -1676,7 +1652,6 @@
   "weak-link"
  ],
  "content/kompendium/08-prilohy/diagnosticke-nastroje.md": [
-  "related",
   "weak-link"
  ],
  "content/kompendium/08-prilohy/dual-use.md": [
@@ -1684,31 +1659,25 @@
   "detail"
  ],
  "content/kompendium/08-prilohy/eticky-kodex.md": [
-  "related",
   "weak-link"
  ],
  "content/kompendium/08-prilohy/index-pojmu.md": [
   "weak-link"
  ],
  "content/kompendium/08-prilohy/klasifikace.md": [
-  "related",
   "weak-link"
  ],
  "content/kompendium/08-prilohy/rejstrik-technik.md": [
-  "related",
   "weak-link"
  ],
  "content/kompendium/08-prilohy/zkratky.md": [
-  "related",
-  "weak-link",
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/_index.md": [
   "weak-link"
  ],
  "content/kompendium/aiad-integration/_index.md": [
-  "detail",
-  "weak-link"
+  "detail"
  ],
  "content/kompendium/aiad-integration/archer-supreme-ea-orchestration.md": [
   "detail",
@@ -2345,8 +2314,7 @@
   "weak-link"
  ],
  "content/kompendium/cross-domain/_index.md": [
-  "detail",
-  "weak-link"
+  "detail"
  ],
  "content/kompendium/detection-signatures/1-linguistic-jargon-density.md": [
   "weak-link"
@@ -4867,7 +4835,6 @@
   "weak-link"
  ],
  "content/kompendium/section-bridges/_index.md": [
-  "weak-link",
   "detail"
  ],
  "content/kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md": [

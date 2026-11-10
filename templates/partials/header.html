@@ -33,10 +33,12 @@
     <p class="mt-2 max-w-4xl text-base font-normal text-gray-500 dark:text-gray-400">{{ doc.description }}</p>
     {%- endif %}
     {%- set x = doc.extra %}
+    {#- Stránky technik mají kód, kategorii a riziko v souhrnné kartě (technique-hero.html). -#}
+    {%- set is_technique = doc.components is defined and doc.components | length > 2 and doc.components[1] == "techniques" %}
     <div class="mt-3 flex flex-wrap gap-2">
-      {%- if x.ea_code is defined and x.ea_code %}<span class="rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ x.ea_code }}</span>{% endif %}
-      {%- if x.ea_category is defined and x.ea_category %}<span class="rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">Kategorie {{ x.ea_category }}</span>{% endif %}
-      {%- if x.risk_level is defined and x.risk_level %}
+      {%- if not is_technique and x.ea_code is defined and x.ea_code %}<span class="rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ x.ea_code }}</span>{% endif %}
+      {%- if not is_technique and x.ea_category is defined and x.ea_category %}<span class="rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">Kategorie {{ x.ea_category }}</span>{% endif %}
+      {%- if not is_technique and x.risk_level is defined and x.risk_level %}
       {%- if x.risk_level in ["critical", "kriticka", "kritická", "extreme", "high", "vysoka", "vysoká"] %}{% set tone = "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300" %}{% elif x.risk_level in ["medium", "stredni", "střední", "moderate"] %}{% set tone = "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300" %}{% else %}{% set tone = "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300" %}{% endif %}
       <span class="rounded-md px-2.5 py-0.5 text-xs font-medium {{ tone }}">Riziko: {{ x.risk_level }}</span>
       {%- endif %}

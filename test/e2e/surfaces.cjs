@@ -42,7 +42,7 @@ async function derived() {
   const page = (n) => n.url.replace(/^\//, '');
   const out = [];
   const tech = top(g, 'kompendium/techniques');
-  if (tech) out.push({ path: page(tech), painted: 1, count: ['[data-kontext] a[href]', 1], note: 'nejodkazovanější technika: okolí a kontext' });
+  if (tech) out.push({ path: page(tech), painted: 1, counts: [['[data-kontext] a[href]', 1], ['[data-hx-family]', 1]], note: 'nejodkazovanější technika: karta, okolí a kontext' });
   const kase = top(g, 'kompendium/case-studies');
   if (kase) out.push({ path: page(kase), painted: 1, count: ['[data-kontext] a[href]', 1], note: 'nejodkazovanější kazuistika: kontext' });
   const term = top(g, 'glossary');
@@ -103,9 +103,9 @@ async function check(browser, s, viewport, scheme) {
     const t = await page.locator(s.text).first().textContent().catch(() => '');
     if (!t || !t.trim()) failures.push(`prázdný text ${s.text}`);
   }
-  if (s.count) {
-    const n = await page.locator(s.count[0]).count();
-    if (n < s.count[1]) failures.push(`${s.count[0]}: ${n} < ${s.count[1]}`);
+  for (const c of (s.counts || []).concat(s.count ? [s.count] : [])) {
+    const n = await page.locator(c[0]).count();
+    if (n < c[1]) failures.push(`${c[0]}: ${n} < ${c[1]}`);
   }
   if (s.mermaid) {
     const n = await page.locator('.mermaid svg').count();

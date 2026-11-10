@@ -8,12 +8,8 @@
   var V = window.KompendiumViz;
   var CASE_SECTIONS = { 'kompendium/case-studies': 'kazuistiky', 'kompendium/historical-cases': 'historicke' };
   var TECH_SECTION = 'kompendium/techniques';
-  // Názvy rodin podle ea_category technik (kapitoly taxonomie EA).
-  var FAMILIES = {
-    1: 'Akademické techniky', 2: 'Scénáře delegitimizace', 3: 'Edukativní implementace',
-    4: 'Terminální protokoly', 5: 'Ultramární techniky', 6: 'Klinické aplikace',
-    7: 'Teoretické reflexe', 8: 'Přílohy', 9: 'Současná digitální EA',
-  };
+  // Názvy rodin se plní z odvozeného grafu (graph.json „families“), nic se nepíše ručně.
+  var FAMILIES = {};
   var ROW_H = 18;
 
   function fold(s) {
@@ -96,6 +92,10 @@
         if (p.get('pohled') === 'rodiny' || p.get('pohled') === 'techniky') this.pohled = p.get('pohled');
         if (p.get('razeni') === 'kniha') this.razeni = 'kniha';
         V.graph().then(function (G) {
+          Object.keys(G.families).forEach(function (k) {
+            var num = /^EA-(\d+)$/.exec(k);
+            if (num) FAMILIES[Number(num[1])] = G.families[k];
+          });
           D = self.index(G);
           self.families = Object.keys(FAMILIES).map(Number).filter(function (f) {
             return D.techs.some(function (t) { return t.fam === f && t.cases.length; });

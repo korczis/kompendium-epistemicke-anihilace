@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L3 (omezená — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — narušení epistemické normativity samé |
-| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemických standardů v terapeutickém rámci, 18–48 měsíců |
+| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemických standardů v terapeutickém rámci |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

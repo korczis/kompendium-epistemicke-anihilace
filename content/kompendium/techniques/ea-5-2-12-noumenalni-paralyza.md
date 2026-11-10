@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — paralýza praktického jednání skrze noumenální fixaci |
-| **Reverzibilita** | Nízká — 18–36 měsíců terapeutické restrukturalizace |
+| **Reverzibilita** | Nízká — terapeutické restrukturalizace |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps noeticko-noematické korelace |
-| **Reverzibilita** | Nízká — 18–36 měsíců, vyžaduje fenomenologickou rekonstrukci |
+| **Reverzibilita** | Nízká —, vyžaduje fenomenologickou rekonstrukci |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

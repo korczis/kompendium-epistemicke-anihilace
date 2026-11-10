@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Vysoká — strukturní degradace kategoriální distinktnosti |
-| **Reverzibilita** | Středně nízká — 12–24 měsíců, vyžaduje strukturální vyjasnění |
+| **Reverzibilita** | Středně nízká —, vyžaduje strukturální vyjasnění |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

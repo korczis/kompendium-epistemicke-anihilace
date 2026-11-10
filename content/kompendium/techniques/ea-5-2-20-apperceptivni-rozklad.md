@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps "Já myslím" jako nutného doprovodu představ |
-| **Reverzibilita** | Velmi nízká — 24–60 měsíců, často kombinovaná psychiatrická intervence |
+| **Reverzibilita** | Velmi nízká —, často kombinovaná psychiatrická intervence |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

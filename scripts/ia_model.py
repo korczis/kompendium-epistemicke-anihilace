@@ -596,6 +596,35 @@ def bold_spans(body: str, lines: list = None):
             yield offset + m.start(), offset + m.end(), text, linked
 
 
+# A figure: a number that asserts a magnitude — a unit, a percentage, a comparison, a range or a
+# statistic. A bare year, an EA code and a plain ordinal are not figures, so a citation, a code
+# table row and "3 roviny" never count.
+FIGURE = re.compile(
+    r"(?<![\w.-])\d+(?:[.,]\d+)?\s*(?:%|mg|ml|µg|mcg|g\b|kg|ms\b|s\b|min\b|h\b|hod|dní|dnů|týdn"
+    r"|měsíc|let|roky?|Hz|cm|mm|SD\b|percentil|sezení|bodů?|položek)"
+    r"|[<>≤≥]\s*\d|\d\s*[–-]\s*\d+\s*(?:%|mg|ms|Hz|cm|min|h\b|dní|týdn|měsíc|sezení)"
+    r"|\b(?:[dgrk]|NNT|CI|RCI|ECE|Brier)\s*[=≥≤<>]\s*\d|\bn\s*=\s*\d", re.I)
+FIGURE_ROW = re.compile(r"^\s*(?:\||[-*+]\s|\d{1,2}[.)]\s)")
+TEMPLATE_FIGURE_PAGES = 3  # an identical numeric line on this many technique pages is filler
+
+
+def figure_lines(prose: str) -> set:
+    """Table rows and list items that assert a figure, as written.
+
+    Real per-technique data is never byte-identical across pages; a line that is tells the
+    caller it is template filler, whatever its wording. Compared verbatim apart from the
+    surrounding whitespace, so a page that edits its own numbers drops out of the group.
+    """
+    found = set()
+    for line in prose.splitlines():
+        text = line.strip()
+        if len(text) < 12 or not FIGURE_ROW.match(text) or TABLE_SEP.match(text):
+            continue
+        if FIGURE.search(PARAGRAPH_SIGN.sub(" ", text) if "§" in text else text):
+            found.add(text)
+    return found
+
+
 def bold_term_index(pages: list) -> dict:
     """slug -> glossary page for every name a glossary entry answers to: its title, the title
     without the parenthesised part, the parenthesised part (the alias: "Pseudověda

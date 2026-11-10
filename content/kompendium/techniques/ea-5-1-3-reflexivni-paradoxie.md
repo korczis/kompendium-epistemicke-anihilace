@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — destrukce kapacity k metakognici, stav srovnatelný s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) a [kognitivní anti-rekurzivitou](@/glossary/kognitivni-anti-rekurzivita.md) |
-| **Reverzibilita** | Velmi nízká — obnovení produktivní sebereflexe vyžaduje strukturovanou metakognitivní rehabilitaci, typicky 24–60 měsíců |
+| **Reverzibilita** | Velmi nízká — obnovení produktivní sebereflexe vyžaduje strukturovanou metakognitivní rehabilitaci |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

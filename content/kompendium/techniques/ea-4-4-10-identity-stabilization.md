@@ -96,8 +96,6 @@ Technika **EA-4.4.10** se historicky vyvinula z konvergence několika klinickýc
 
 **Klinické zacílení**: narativní a identitní rekonstrukce v post-engagement fázi po totalizující expozici (post-cult trauma, deep cover decompression, reentry trauma). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F62.0 Trvalá změna osobnosti po katastrofické zkušenosti (ICD-11 6B61 Complex PTSD), F44.81 DID (ICD-11 6B64), F23 Akutní polymorfní psychotická porucha (ICD-11 6A23) jako diferenciální diagnóza. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
@@ -117,36 +115,6 @@ Aplikace techniky **EA-4.4.10** vyžaduje specifickou modifikaci v následujíc�
 **Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (nácvik dovedností DBT) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; v těhotenství a v poporodním období jsou preferovány sensorimotorické a stabilizační intervence.
-
-## Outcome měření
-
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
-
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
-
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | redukce a pokles pod klinický práh podle manuálu nástroje |
-| **ITQ** | ICD-11 PTSD/CPTSD | doména DSO pod klinickým prahem |
-| **CAPS-5** | Klinicián-administrovaná PTSD | redukce celkového skóru podle manuálu nástroje |
-| **DERS** | Emoční regulace | zlepšení emoční regulace proti baseline |
-| **WHODAS 2.0** | Funkční disabilita | pokles funkční disability proti baseline |
-
-**Sekundární outcome**:
-
-- **PHQ-9** (depresivní symptomatologie)
-- **GAD-7** (úzkostná symptomatologie)
-- [DES-II](@/glossary/des-ii.md) (disociativní symptomatologie)
-- **WAI-SR** (terapeutická aliance)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
-
-**Benchmarks pro úspěch intervence**:
-
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: skór WHODAS 2.0 v pásmu srovnatelné nontraumatizované populace
-- **Sustained Remission**: udržení nad prahem RCI v ročním follow-up
 
 ## Vztah k jiným technikám
 

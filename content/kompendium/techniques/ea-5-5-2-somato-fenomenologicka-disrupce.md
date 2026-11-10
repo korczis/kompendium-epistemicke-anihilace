@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Subkategorie** | 5.5 Transkonceptuální mechanismy |
 | **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
-| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec, často 12–36 měsíců |
+| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

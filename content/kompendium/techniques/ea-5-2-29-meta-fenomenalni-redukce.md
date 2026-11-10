@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — terminální fenomenologická paralýza |
-| **Reverzibilita** | Téměř nulová — 36+ měsíců, často nereverzibilní bez intenzivní intervence |
+| **Reverzibilita** | Téměř nulová — často nereverzibilní bez intenzivní intervence |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

@@ -64,6 +64,7 @@ step "link-terms"                 python3 scripts/link-terms.py --check
 if [ "$fix" = --fix ]; then
   step "build-references"         python3 scripts/build-references.py
   step "build-graph"              python3 scripts/build-graph.py
+  step "polish-markdown (fix)"   python3 scripts/polish-markdown.py
   step "build-ui-data"            python3 scripts/build-ui-data.py
   if [ -f scripts/build-engine-fixtures.py ]; then
     step "build-engine-fixtures"  python3 scripts/build-engine-fixtures.py

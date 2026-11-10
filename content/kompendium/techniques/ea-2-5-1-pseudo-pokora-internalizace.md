@@ -1,18 +1,19 @@
 +++
-title = "EA-2.5.1 Pseudo-pokora Internalizace"
-description = "Delegitimizační technika — Pseudo-pokora Internalizace."
+title = "EA-2.5.1 Internalizace pseudopokory"
+description = "Stav, v němž člověk převezme cizí narativ o vlastní nedostatečnosti, vydává ho za pokoru a sám ho šíří dál. Znaky, odlišení od skutečné epistemické pokory, obrana."
 weight = 2501
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-2-5-1", "delegitimizace"]
+tags = ["kompendium", "techniques", "ea-2-5-1", "delegitimizace", "identity"]
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-2-4-9-curriculum-capture", "ea-2-4-falesny-konsensus", "ea-2-5-10-existential-helplessness-implantace", "ea-2-5-2-imposter-syndrome-amplifikace"]
+related_terms = ["ea-2-5-2-imposter-syndrome-amplifikace", "ea-2-5-3-self-doubt-cultivation", "ea-2-5-7-self-cancelation", "epistemicka-pokora", "testimonialni-nespravedlnost", "introjekce"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.5.1"
 ea_category = "2. Scénáře delegitimizace"
-ea_subcategory = "2.5 Self-induced delegitimizace"
+ea_subcategory = "2.5 Sebeindukovaná delegitimizace"
 section_icon = "🪞"
 toc = true
 access_level = "L2"
@@ -20,90 +21,199 @@ risk_level = "high"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 +++
 
-# EA-2.5.1 Pseudo-pokora Internalizace
+# EA-2.5.1 Internalizace pseudopokory
 
-## Identifikace
-
-| Atribut | Hodnota |
-|---------|---------|
-| **EA kód** | EA-2.5.1 |
-| **Název** | Pseudo-pokora Internalizace |
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-2.5.1` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.5 Self-induced delegitimizace |
-| **Risk level** | High |
-| **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Subkategorie** | 2.5 Sebeindukovaná delegitimizace |
+| **Přístupová úroveň** | L2 (odborná analýza) |
+| **Riziková úroveň** | Vysoká – delegitimizace pokračuje bez vnějšího aktéra |
+| **Reverzibilita** | Střední; vyžaduje rozlišit vlastní pokoru od převzatého ponížení |
+| **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Rychlá karta** | [QR: EA-2.5.1](@/kompendium/quick-reference/qr-ea-2-5-1.md) |
 
 ## Definice
 
-Internalizace falešné pokory cílem, který přijme narativ vlastní nedostatečnosti a začne ho aktivně reprodukovat.
+Podkategorie 2.5 popisuje stavy, v nichž delegitimizace **přechází dovnitř**: člověk,
+na kterého dlouho působily vnější techniky (podkategorie 2.1–2.4), začne sám vůči sobě
+uplatňovat jejich logiku. Vnější aktér už nemusí nic dělat; jeho práci převzal cíl.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Self-induced delegitimizace** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Internalizace pseudopokory je stav, v němž člověk **převezme narativ o vlastní
+nedostatečnosti** – „nejsem dost kvalifikovaný, abych to posuzoval“, „moje zkušenost
+není relevantní“, „kdo jsem, abych odporoval“ – a **vydává ho za ctnost**, za pokoru.
+Navenek působí skromně a rozvážně; ve skutečnosti se vzdal práva na vlastní úsudek
+a často tento narativ aktivně reprodukuje vůči druhým („my bychom do toho neměli
+mluvit“).
 
-## Operační modus
+Skutečná [epistemická pokora](@/glossary/epistemicka-pokora.md) je ctnost: přiměřené
+vědomí mezí vlastního poznání, ochota opravit se a uznat lepší argument. Pseudopokora je
+její padělek: nejde o přiměřenost, ale o **předem daný závěr**, že vlastní poznání nemá
+váhu – bez ohledu na důkazy.
 
-Technika **EA-2.5.1** typicky probíhá ve třech fázích:
+## Mechanismus (strukturní popis)
 
-### Fáze 1 — Příprava terénu
+1. **Opakované znehodnocení.** Člověk dlouho slýchá, že jeho úsudek je naivní,
+   nekvalifikovaný nebo „emoční“ (srov. [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)).
+2. **Morální přerámování.** Mlčení a ústup se odměňují jako zralost, skromnost, „profesionalita“;
+   nesouhlas se trestá jako arogance.
+3. **[Introjekce](@/glossary/introjekce.md).** Cizí hodnocení se stane vlastním hlasem;
+   člověk už neví, že ho převzal.
+4. **Generalizace.** Nedůvěra k vlastnímu úsudku se rozšíří z oblasti, kde byla
+   (možná) oprávněná, na všechny oblasti.
+5. **Reprodukce.** Člověk začne stejný narativ uplatňovat vůči druhým – kolegům, dětem,
+   studentům – a tím ho šíří.
 
-Útočník identifikuje cíl, mapuje jeho **epistemickou síť** (kolegy, instituce, publikační kanály, mediální zázemí) a vyhledává **zranitelná místa**: závislosti na grantech, slabé spojence, kontroverzní výroky v minulosti, izolovatelné subkomunity.
+## Průběh
 
-### Fáze 2 — Aktivace techniky
+Vzorec se vyvíjí roky. Na počátku bývá prostředí, které nesouhlas trestá (hierarchické
+pracoviště, rodina, náboženská komunita, akademická skupina). Člověk se naučí ustupovat
+a za ústup je chválen. Postupně ztrácí přístup k vlastnímu názoru: neví, co si myslí,
+dokud to neřekne autorita. V pozdní fázi brání své pozici – „je přece správné být
+skromný“ – a odmítá podporu, která by jeho úsudek posílila, jako lichotku. Zlom přichází
+často až ve chvíli, kdy pseudopokora vede k vážné škodě (přehlédnutá chyba, kterou
+viděl, ale „nebylo jeho místo“ ji říct).
 
-Aktivace probíhá synchronně přes více vektorů. **Pseudo-pokora Internalizace** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+## Fenomenologické znaky (pohled zevnitř)
 
-### Fáze 3 — Stabilizace nového stavu
+| Znak | Jak ho člověk popisuje |
+|---|---|
+| Zákaz názoru | „Na to nemám nárok mít názor.“ |
+| Ctnost z ústupu | Ústup prožívá jako morální přednost. |
+| Úleva z podřízení | Přenechat rozhodnutí jiným přináší klid. |
+| Neschopnost přijmout uznání | Pochvalu odmítá nebo zlehčuje. |
+| Tichá frustrace | Pod povrchem pocit, že ho nikdo neslyší. |
 
-Po dosažení primárního efektu útočník stabilizuje nový stav skrze **institucionální fakty**, **dokumentaci** a **revizionistický narativ**, který činí návrat k předchozímu stavu nákladným nebo nemožným.
+## Detekční markery (pohled pozorovatele)
 
-## Detekce
+| Marker | Co může naznačovat |
+|---|---|
+| Člověk s doloženou odborností se odmítá vyjádřit „z neznalosti“ | Nepřiměřená pokora |
+| Formulace „nejsem dost …“ i v oblastech jeho kompetence | Generalizace |
+| Nesouhlas vyjádří až v soukromí a omluvně | Naučený ústup |
+| Vůči mladším nebo podřízeným opakuje „neměli bychom do toho mluvit“ | Reprodukce |
+| Nárůst pochybnosti po pobytu v hierarchickém prostředí | Vnější původ; srov. [prudký nárůst sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md) |
 
-| Indikátor | Popis | Závažnost | Reakce |
-|-----------|-------|-----------|--------|
-| **Koordinovaná synchronicita** | Více aktérů provádí podobné kroky v krátkém časovém okně | Vysoká | Síťová analýza, mapování koordinace |
-| **Asymetrie kritiky** | Kritika cíle je tvrdší než stejná kritika srovnatelných případů | Střední | Dokumentace asymetrie, externí audit |
-| **Eroze procedurálních standardů** | Standardy se náhle mění specificky pro daný případ | Vysoká | Procedurální archeologie, právní revize |
-| **Narativní konvergence** | Různé zdroje začnou používat identické formulace | Střední | Lingvistická forenzika, šíření narativu |
+## Vztah k vnějším technikám
 
-## Neutralizace
+Pseudopokora je typickým vnitřním sedimentem technik podkategorie 2.1 a 2.2. Kdo
+opakovaně zažil [útok na kvalifikaci](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md),
+naučí se předem omezovat vlastní nároky; kdo vyrostl ve vztahu se
+[sebetotalizujícím mentorem](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md),
+naučí se, že jeho úsudek platí, jen když ho potvrdí autorita. Pro analýzu je proto
+užitečné hledat v anamnéze vnější zdroj – a odlišit ho od temperamentu nebo kulturního
+stylu, které vnější zdroj nemají.
 
-### Individuální obrana
+## Rizikové kontexty
 
-1. **Dokumentace v reálném čase** — Vést **veřejnou kroniku** všech kroků útoku s časovými razítky, jmény aktérů a citacemi.
-2. **Diverzifikace závislostí** — Snížit **single points of failure** v kariéře (více grantů, více platforem, více institucí).
-3. **Spojenecká síť** — Aktivně kultivovat **epistemickou koalici** přesahující jednu instituci nebo jeden okruh kolegů.
+Ženy a příslušníci menšin v hierarchických oborech; lidé vychovaní v prostředí, kde
+byla poslušnost ctností; bývalí členové skupin s vysokou mírou kontroly; zdravotní
+sestry, technici a další profese, jejichž pozorování mají v týmu menší váhu než
+pozorování lékařů nebo manažerů; mladí výzkumníci v silně hierarchických skupinách.
 
-### Institucionální obrana
+## Odlišení
 
-1. **Procedurální transparence** — Pevné, **veřejně dostupné procedury** pro recenze, evaluace, jmenování, granty.
-2. **Externí audit** — Pravidelné **nezávislé audity** klíčových rozhodovacích procesů institucí.
+- **Skutečná epistemická pokora.** Je přiměřená důkazům a selektivní: člověk ví, kde
+  rozumí a kde ne, a mění postoj podle argumentů. Pseudopokora je plošná a nemění se.
+- **Sociální úzkost.** Strach z hodnocení vede k vyhýbání se projevu; nemusí však
+  obsahovat přesvědčení, že vlastní úsudek nemá hodnotu. Obě se mohou kombinovat.
+- **Deprese.** Depresivní sebehodnocení je globální a provázené dalšími příznaky
+  (anhedonie, únava, poruchy spánku); pseudopokora se může objevovat bez deprese.
+- **Kulturní styl.** V některých kulturách je zdrženlivost v projevu normou; rozhodující
+  je, zda člověk má přístup k vlastnímu úsudku a jen ho vyjadřuje zdrženlivě.
+- **[EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md).**
+  Syndrom podvodníka se týká vlastní kompetence a provází ho strach z odhalení;
+  pseudopokora se týká práva na úsudek a provází ji pocit ctnosti.
 
-## Vztah k jiným technikám
+## Klinický a právní rámec
 
-Technika **EA-2.5.1** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+Klinicky se stav objevuje v anamnéze lidí s vyhořením, chronickou nespokojeností,
+depresivními a úzkostnými příznaky a po odchodu z kontrolujících vztahů. Pro terapeuta
+je důležité nepodpořit pseudopokoru nechtěně (souhlasem s klientovým sebeznehodnocením)
+ani ji násilně nerozbíjet; užitečnější je zkoumat, odkud se narativ vzal.
 
-## Vztah k platformě
+Právně stav sám nic nezakládá. Relevantní může být prostředí, které ho vytvořilo
+(šikana, diskriminace, zneužití závislosti), a v organizacích bezpečnostní důsledky:
+pozorování, která lidé nehlásí, protože „to není jejich role“. Viz
+[psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md).
 
-Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
+## Obrana a neutralizace
 
-- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
-- **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+**Pro jednotlivce.** Rozlišovat otázky „vím to?“ a „smím to říct?“; vést si záznam
+situací, kdy vlastní úsudek byl správný; trénovat vyslovení nesouhlasu v bezpečném
+prostředí. Pomáhá [metakognitivní monitorování](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md),
+[asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md)
+a [sebesoucit](@/kompendium/self-defense-guides/16-self-compassion.md).
+
+**Pro organizace.** Aktivně žádat názor těch, kdo mlčí; oddělovat hierarchii od práva
+upozornit na problém; oceňovat přiměřený nesouhlas. Viz
+[anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md).
+
+**Pro terapeuty.** Zkoumat původ narativu, nikoli jen jeho obsah; pracovat s rozlišením
+skutečné pokory a převzatého ponížení.
+
+## Zotavení
+
+Zotavení znamená obnovit právo na vlastní úsudek, aniž by se člověk musel vzdát skutečné
+pokory. Pomáhá [protokol obnovy pokory](@/kompendium/recovery-protocols/pokora.md),
+[metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md)
+a postupné zkušenosti, že nesouhlas nevede ke ztrátě vztahu.
+
+## Ilustrativní příklad (anonymizovaný kompozit)
+
+Zkušená laborantka si všimne, že série vzorků byla zpracována se špatným reagentem.
+Na poradě mlčí: „nejsem vědkyně, nemám to posuzovat“. Za patnáct let práce se naučila,
+že její poznámky vedoucí odbývá a že kolegyně, které „mluvily do věcí“, odešly. Když
+se chyba později ukáže, vedoucí se diví, proč nic neřekla. Ona sama to vykládá jako
+důkaz své nedostatečnosti: „Měla jsem si být jistější, ale nebyla jsem.“ V terapii
+postupně rozlišuje, že jistá si byla – jen nevěřila, že na jistotu má nárok.
+
+## Otázky pro rozhovor
+
+- V kterých oblastech si věříte a v kterých ne – a odkud to víte?
+- Kdy jste naposledy měl/a pravdu, ale neřekl/a jste to? Co vám v tom bránilo?
+- Kdo vám poprvé řekl, že váš názor není důležitý?
+- Co by se stalo, kdybyste nesouhlas vyslovil/a?
+
+## Meze a otevřené otázky
+
+Hranice mezi přiměřenou a nepřiměřenou pokorou nelze určit obecně; závisí na oblasti,
+důkazech a kontextu. Kompendium proto neposuzuje „správnou míru“ pokory, ale její
+původ a funkci: zda vyrůstá z vlastního poznání mezí, nebo z převzatého zákazu.
+
+## Případy, které techniku ukazují
+
+Anonymizované kompozity: [vědecká disinflace](@/kompendium/case-studies/05-vedecka-disinflation.md)
+(výzkumnice, která po kampani přestane vystupovat „z pokory“), [self-help kult](@/kompendium/case-studies/14-self-help-cult.md)
+(pokora jako doktrína) a [kult vydavatelství](@/kompendium/case-studies/72-publisher-cult.md).
+
+## Literatura
+
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*.
+- Whitcomb, D., Battaly, H., Baehr, J., & Howard-Snyder, D. (2017). Intellectual Humility:
+  Owning Our Limitations. *Philosophy and Phenomenological Research*.
+- Jack, D. C. (1991). *Silencing the Self: Women and Depression*.
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
-- [EA-2.5.2](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) (sister)
-- [EA-2.5.3](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) (sister)
-- [EA-2.5.4](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) (sister)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
-- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
+**Techniky podkategorie 2.5**
 
-## Connect
+- [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md)
+  – pochybnost o kompetenci.
+- [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
+  – obecnější mechanismus.
+- [EA-2.5.7 Preventivní sebecenzura](@/kompendium/techniques/ea-2-5-7-self-cancelation.md) –
+  mlčení ze strachu, ne z „ctnosti“.
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+**Pojmy**
+
+- [Glosář: epistemická pokora](@/glossary/epistemicka-pokora.md) – skutečná ctnost.
+- [Glosář: introjekce](@/glossary/introjekce.md) – převzetí cizího hlasu.
+
+**Pomoc**
+
+- [Protokol obnovy pokory](@/kompendium/recovery-protocols/pokora.md) – rozlišení pokory
+  a ponížení.
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+  – prostředí, kde lze mluvit.

@@ -1,14 +1,14 @@
 +++
 title = "EA-9.6.2 AI Judgment Laundering"
-description = "Současná digitální EA — ai judgment laundering."
+description = "Vzorec, v němž instituce použije AI systém k „praní“ vlastního rozhodnutí: předem daný závěr získá auru objektivity a odpovědnost se rozplyne v „algoritmu“."
 weight = 962
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-6-1-algorithmic-decision-bias", "ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-3-automated-content-takedown", "ea-9-6-4-AI-deplatforming-cascade"]
+related_terms = ["ea-9-6-1-algorithmic-decision-bias", "ea-9-6-6-AI-hiring-narrative", "ea-9-6-8-AI-legal-decision-EA", "ea-2-4-5-evaluation-criteria-rewrite"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.6.2"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,110 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Použití AI systému k 'praní' subjektivních lidských rozhodnutí — zodpovědnost se přesouvá na 'objektivní algoritmus', ale design je inženýrsky biased.
+*AI judgment laundering* je použití automatizovaného systému k tomu, aby lidské, hodnotové nebo předem učiněné rozhodnutí získalo zdání objektivity. Systém je navržen, nastaven nebo vybrán tak, aby potvrdil žádaný závěr; rozhodnutí se pak prezentuje jako „výsledek algoritmu“ a odpovědnost lidí, kteří ho učinili, se rozplývá.
 
-V kontextu Prismatic doktríny je AI Judgment Laundering klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.6.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Organizace implementuje AI-tool, který ratifikuje předem rozhodnuté závěry; rozhodnutí získává auru 'objektivity'; lidská odpovědnost se rozplyne v 'algoritmické rozhodnutí'.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Rozhodnutí podložené výpočtem se hůře napadá: působí neutrálně, odborně a nezávisle na zájmech. Instituce tak může přenést nepopulární nebo sporné rozhodnutí na systém („nemůžeme nic dělat, systém to vyhodnotil“). Volby, které rozhodnutí skutečně určují – co se měří, jaké jsou prahy, jaká data se použijí –, zůstávají skryté v technickém nastavení, k němuž nemá přístup ani postižený, ani veřejnost. Vzorec je institucionální obdobou [hermeneutického outsourcingu](@/glossary/hermeneuticky-outsourcing.md): výklad a úsudek se formálně předají nástroji, ale ve skutečnosti zůstávají u těch, kdo nástroj nastavili.
 
 ## 4. Detekční markery
 
-Audit trail forenzika, decision-override frequency analysis, model-design provenance, vendor accountability.
+- Výsledek systému přesně odpovídá tomu, co instituce chtěla prosadit, a byl oznámen dřív, než by analýza mohla proběhnout.
+- Na otázky po kritériích se odpovídá odkazem na „algoritmus“ místo na lidi, kteří ho nastavili.
+- Nastavení systému (prahy, váhy, data) se měnilo těsně před sporným rozhodnutím.
+- Lidský přezkum existuje formálně, ale nikdy nevede ke změně.
+- Odpovědnost se přesouvá mezi dodavatelem systému a institucí.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Poctivě použitý podpůrný nástroj*: systém doporučuje, lidé rozhodují a za rozhodnutí ručí pod jménem. *[EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md)*: zaujatost může vzniknout neúmyslně; laundering je o využití autority systému. *Automatizační zkreslení*: lidé přeceňují výstup systému z pohodlnosti, ne kvůli zakrytí vlastního rozhodnutí.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vzorec podkopává odpovědnost veřejné správy a firem: rozhodnutí bez autora nelze napadnout ani z něj vyvodit důsledky. Právně se uplatní požadavky na odůvodnění správních rozhodnutí, pravidla automatizovaného rozhodování (GDPR čl. 22) a povinnosti lidského dohledu podle aktu o umělé inteligenci u vysoce rizikových systémů. Pro organizace je ochranou [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md).
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Postižený*: ptát se, kdo rozhodnutí učinil a podle jakých kritérií; trvat na lidském odůvodnění. *Zaměstnanci instituce*: dokumentovat, kdo nastavil systém a jak; využít [mechanismus whistleblowingu](@/kompendium/organizational-defense/4-whistleblower-mechanism.md), pokud je systém zneužíván. *Kontrolní orgány*: posuzovat celý proces rozhodování, nejen výstup systému. *Veřejnost a média*: odmítat „algoritmus rozhodl“ jako odpověď.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Vedení firmy chce snížit počet zaměstnanců na jednom oddělení. Koupí nástroj na „hodnocení výkonu“, nastaví váhy tak, že znevýhodňují práci tohoto oddělení, a výsledky oznámí jako „objektivní data“. Odbory si vyžádají dokumentaci nastavení a zjistí, že váhy byly změněny týden před hodnocením. Inspekce práce rozhodnutí přezkoumá; firma musí výpovědi znovu posoudit.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Prokázat úmysl je obtížné; častěji lze doložit jen to, že systém byl použit nekriticky. Kniha proto nepředpokládá zlý úmysl u každého použití AI v rozhodování. Otevřenou otázkou je, jak zajistit, aby „lidský dohled“ byl skutečný a ne jen formální podpis.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Postižený narazí na zeď: nikdo nerozhodl, a tedy nikdo neodpovídá. To vyvolává bezmoc a hněv. Pomáhá pojmenovat, že rozhodnutí vždy učinil někdo, a pomoci najít, kdo. Pro zaměstnance instituce, kteří systém obsluhují, může být vzorec morálně zatěžující – pomáhá jasné vymezení odpovědnosti.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Vztah k ostatním kategoriím EA
 
-## 6. Vztah k jiným EA
+Praní úsudku navazuje na [EA-2.4.5 Evaluation Criteria Rewrite](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – skryté přepsání kritérií hodnocení – a na Arendtovou analýzu rozptýlené odpovědnosti v byrokracii ([Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)).
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 12. Otázky pro rozhovor a šetření
 
-- **EA-1.* (Vědomá kontrola informací)** — AI Judgment Laundering představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+- Kdo rozhodl o nasazení systému a o jeho nastavení?
+- Kdy a proč se nastavení měnilo?
+- Vedl lidský přezkum někdy ke změně výsledku?
+- Bylo rozhodnutí oznámeno dřív, než mohla analýza proběhnout?
+- Kdo nese odpovědnost, pokud je rozhodnutí chybné?
 
-## 7. Vztah k Prismatic platformě
+## 13. Postup pro profesionály
 
-Prismatic Platform implementuje detekci a neutralizaci AI Judgment Laundering přes následující komponenty:
+1. **Právník:** vyžádat si dokumentaci nastavení systému a historii změn; posoudit odůvodnění rozhodnutí.
+2. **Auditor:** ověřit, zda kritéria odpovídají deklarovanému účelu.
+3. **Odborová organizace nebo zástupce zaměstnanců:** trvat na transparentnosti hodnoticích nástrojů.
+4. **Etický útvar instituce:** zavést pravidlo, že každé rozhodnutí má pojmenovaného lidského autora.
+5. **Novinář:** sledovat, jak instituce používají „algoritmus“ jako argument.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 14. Prevence a odolnost
 
-**Doctrine compliance:**
+Prevence spočívá v jasném pravidle: systém doporučuje, lidé rozhodují a podepisují. K tomu patří dokumentace nastavení, auditovatelná historie změn a ochrana zaměstnanců, kteří upozorní na zneužití. Veřejnost by měla vnímat „rozhodl algoritmus“ jako začátek otázek, ne jako jejich konec.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 15. Typický průběh
 
-## 8. Cross-linky
+Na počátku stojí rozhodnutí, které je sporné nebo nepopulární. Instituce hledá cestu, jak ho prosadit s menším odporem, a nabízí se „datové“ řešení. Systém se zavede s rétorikou modernizace. Výsledky potvrdí předem žádaný závěr a jsou oznámeny jako neutrální. Pokud postižení protestují, instituce odkazuje na technologii; pokud se ukáže chyba, odpovědnost se přesune na dodavatele. Teprve dokumentace nastavení a jeho změn ukáže, kde se rozhodnutí skutečně odehrálo.
 
-**Související EA techniky:**
+## 16. Dokumentace a důkazy
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md)
-- [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md)
-- [EA-9.6.4 AI Deplatforming Cascade](@/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md)
-- [EA-9.6.5 AI Credit Scoring Bias](@/kompendium/techniques/ea-9-6-5-AI-credit-scoring-bias.md)
+Klíčovými důkazy bývají zadávací dokumentace systému, záznamy o nastavení a jeho změnách, interní komunikace o očekávaných výsledcích a časová osa rozhodnutí. Postižení by si měli uchovat oznámení o rozhodnutí a odpovědi na žádosti o vysvětlení. Rozpor mezi „objektivním výstupem“ a dříve deklarovaným záměrem je silným signálem.
 
-**Doktrinální a infrastructure odkazy:**
+## Odborný kontext
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Pasquale (2015) popsal, jak se v ekonomice a veřejné správě rozhodnutí přesouvají do neprůhledných systémů, jejichž logika je chráněna obchodním tajemstvím, a jak tím slábne možnost uplatnit odpovědnost. Praní úsudku je zvláštní případ tohoto procesu: neprůhlednost neslouží jen ochraně know-how, ale i odpovědnosti těch, kdo rozhodli. Citron a Pasquale (2014) v článku o „skórované společnosti“ požadovali pro automatizované hodnocení lidí záruky řádného procesu – oznámení, možnost nahlédnout a napadnout –, které jsou dnes zčásti zakotveny v obecném nařízení o ochraně osobních údajů a v aktu o umělé inteligenci.
 
----
+Psychologickou oporu vzorce popisuje výzkum automatizace: lidé mají sklon přijímat výstupy systému s menší kontrolou a přenášet na ně odpovědnost (Parasuraman a Manzey 2010). Na úrovni instituce se tento sklon mění v rétorickou strategii. Arendt (1963) v jiném a mnohem vážnějším kontextu ukázala, jak byrokracie rozptyluje odpovědnost tak, že „nikdo“ nerozhodl; kniha tuto analýzu nepřenáší doslova, ale přebírá z ní otázku, kterou je třeba klást vždy: kdo konkrétně tu volbu učinil.
 
-## Connect & Contribute
+## Souvislosti pro praxi
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Pro kontrolní orgány, odbory a novináře se osvědčuje otázka položená v opačném pořadí: nejdřív zjistit, jaké rozhodnutí instituce chtěla nebo očekávala, a teprve potom, co „vyhodnotil systém“. Shoda obou bez nezávislého podkladu je varovným znamením. U interních postupů pomáhá pravidlo, že každý výstup systému použitý v rozhodnutí musí být doplněn podepsaným lidským komentářem, který vysvětlí, proč se mu dává váha.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Literatura
 
----
+- Arendt, H. (1963). *Eichmann in Jerusalem: A Report on the Banality of Evil*. Viking Press.
+- Citron, D. K., & Pasquale, F. (2014). The scored society: Due process for automated predictions. *Washington Law Review*.
+- Parasuraman, R., & Manzey, D. H. (2010). Complacency and bias in human use of automation: An attentional integration. *Human Factors*.
+- Pasquale, F. (2015). *The Black Box Society*. Harvard University Press.
 
-*EA-9.6.2 | Subkategorie 9.6 Algoritmická governance | Prismatic Compendium | Version 18.4.0*
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md) – zaujatost systémů.
+- [EA-9.6.6 AI Hiring Narrative](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md) – „objektivní“ nábor.
+- [EA-9.6.8 AI Legal Decision EA](@/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md) – skóre v justici.
+
+**Organizace a teorie**
+
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md) – kdo co rozhodl.
+- [Mechanismus whistleblowingu](@/kompendium/organizational-defense/4-whistleblower-mechanism.md) – ochrana těch, kdo upozorní.
+- [Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md) – rozptýlená odpovědnost.
+
+**Pojmy a kapitola 2**
+
+- [Hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md) – předání úsudku nástroji.
+- [EA-2.4.5 Evaluation Criteria Rewrite](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – přepis kritérií hodnocení.

@@ -1,14 +1,14 @@
 +++
 title = "EA-9.5.6 Frame War Coordination"
-description = "Současná digitální EA — frame war coordination."
+description = "Vzorec koordinované soutěže o rámec události v prvních hodinách po ní: kdo první prosadí výklad, určuje, jak se budou číst i pozdější fakta."
 weight = 956
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-5-4-meme-network-amplification", "ea-9-5-5-counter-meme-suppression", "ea-9-5-7-narrative-meme-fusion", "ea-9-5-8-meme-context-collapse"]
+related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-5-counter-meme-suppression", "ea-9-4-8-real-time-bot-response", "ea-9-5-8-meme-context-collapse", "ea-1-3-2-strategicka-reinterpretace"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.5.6"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,105 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Koordinovaná bitva o rámcování události — který frame se etabluje, definuje 'realitu' pro masy.
+*Frame war coordination* je koordinovaná soutěž o to, jak bude událost rámována – co se stalo, kdo je viník, co to znamená. Krátce po události (útok, nehoda, krize, kontroverzní rozhodnutí) publikují konkurenční aktéři obsah, který má prosadit jejich výklad. Rámec, který se prosadí první a nejsilněji, pak určuje, jak se čtou i pozdější fakta, a vyvrácení se k němu musí vztahovat.
 
-V kontextu Prismatic doktríny je Frame War Coordination klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.5.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Krátce po události (atentát, krize) konkurenční operace publikují frame-defining content; první mover a strongest amplifikace vyhrávají; pozdější fakta selhávají frame přepsat.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Rámec ([framing](@/kompendium/detection-signatures/4-linguistic-framing-shift.md)) určuje, které informace jsou relevantní a jak se interpretují. V prvních hodinách po události je nejistota vysoká a lidé hledají výklad; kdo ho nabídne rychle a srozumitelně, získá výhodu. Pozdější fakta, která rámci odporují, jsou vnímána jako „pokus o zakrytí“ nebo se přizpůsobí. Koordinace spočívá v připravených narativech, které čekají na vhodnou událost, a v jejich synchronním šíření přes memy, příspěvky, komentáře a boty ([EA-9.4.8](@/kompendium/techniques/ea-9-4-8-real-time-bot-response.md)). Výsledkem bývá polarizace: různé skupiny žijí s různými „událostmi“.
 
 ## 4. Detekční markery
 
-Frame-detection in early coverage, amplification-race forenzika, narrative-stickiness measurement, fact-vs-frame audit.
+- Výklad události se objeví dřív, než jsou známa základní fakta, a je velmi jednoznačný.
+- Tytéž formulace a memy se objevují u mnoha účtů během minut po události.
+- Obsah odkazuje na připravené narativy („přesně jak jsme varovali“).
+- Pozdější fakta jsou v rámci odmítána jako manipulace.
+- Konkurenční rámce se střetávají a spor se vede o výklad, ne o fakta.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Rychlá interpretace odborníků*: nabízí výklad s výhradami a mění ho podle faktů. *Legitimní politická reakce*: strany reagují podle svých hodnot, ale pod vlastním jménem. *[EA-9.5.7 Narrative Meme Fusion](@/kompendium/techniques/ea-9-5-7-narrative-meme-fusion.md)*: nástroj, jímž se rámec do memu zhustí.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Války o rámec mohou vést k nenávisti proti skupinám neprávem obviněným, k poškození vyšetřování a k trvalé polarizaci. Pro krizovou komunikaci úřadů znamenají nutnost komunikovat rychle, i když nejsou všechna fakta známa. Pro média výzvu odolat tlaku na rychlé interpretace.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Uživatel*: v prvních hodinách po události sledovat ověřené zdroje a odložit závěry ([Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)). *Úřady a krizové štáby*: komunikovat rychle, pravidelně a otevřeně o tom, co je a není známo. *Novináři*: oddělovat fakta od výkladu; neopakovat rámce bez ověření. *Komunity*: chránit skupiny, které se stávají terčem obviňování.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Po požáru v ubytovně se během hodiny šíří dva protichůdné rámce: podle jednoho jde o žhářský útok extremistů, podle druhého požár způsobili sami obyvatelé. Oba jsou podložené memy a „svědectvími“. Hasiči druhý den oznámí technickou závadu. Část lidí to přijme, část to považuje za zakrývání. Místní radnice uspořádá veřejné setkání, kde vyšetřovatelé vysvětlí postup; napětí v obci postupně opadá.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Každá událost se nějak rámuje, a výklad je nutný. Problémem je koordinované a předčasné vnucení výkladu. Otevřené zůstává, jak mohou instituce reagovat rychle bez spekulace, a jak se dá rámec „přepsat“ poté, co se usadil.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Výzkum kolektivního výkladu krizí je bohatý na případové studie, ale obtížně srovnatelný; každá událost má vlastní dynamiku.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Lidé zasažení událostí – oběti, svědci, obvinění – zažívají, že jejich zkušenost je přepsána cizím rámcem. To prohlubuje trauma a pocit nespravedlnosti. Pomáhá dát jim prostor vyprávět vlastní verzi a chránit je před mediálním tlakem. Pro veřejnost je užitečné vědět, že první výklad často není správný.
 
-## 6. Vztah k jiným EA
+Pro pomáhající profese je důležité, aby nepřebíraly žádný z bojujících rámců a pracovaly se zkušeností konkrétních lidí.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 11. Vztah k ostatním kategoriím EA
 
-- **EA-1.* (Vědomá kontrola informací)** — Frame War Coordination představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Válka o rámec je kolektivní podobou [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) a souvisí s modelem filtrů zpravodajství v [Herman & Chomsky: Propaganda model](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md). Teoreticky ji kniha čte i přes [Lakoffovu konceptuální metaforu](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md).
 
-## 7. Vztah k Prismatic platformě
+## 12. Otázky pro rozhovor a šetření
 
-Prismatic Platform implementuje detekci a neutralizaci Frame War Coordination přes následující komponenty:
+- Kdy jste se o události dozvěděli a jaký výklad jste slyšeli jako první?
+- Které informace o ní jsou ověřené a které ne?
+- Kdo výklad nabízí a co z něj má?
+- Změnil se váš pohled, když přišla nová fakta?
+- Jak by událost vypadala z pohledu přímo zasažených?
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 13. Postup pro profesionály
 
-**Doctrine compliance:**
+1. **Krizový štáb:** připravit šablony prvních sdělení pro předvídatelné typy událostí a vydat je rychle.
+2. **Redakce:** zavést pravidlo, že výklad se publikuje až s doložením, a otevřeně uvádět nejistotu.
+3. **Analytik:** sledovat vznik a šíření konkurenčních rámců, identifikovat koordinaci.
+4. **Policie a vyšetřovatelé:** pravidelně informovat o postupu a vyvracet nepravdivá obvinění konkrétních skupin.
+5. **Terapeuti a sociální pracovníci:** podpořit zasažené, jejichž zkušenost byla veřejně přepsána.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 14. Prevence a odolnost
 
-## 8. Cross-linky
+Odolnost společnosti proti válkám o rámec stojí na důvěryhodných institucích, které komunikují rychle a pravdivě, na médiích, která odolávají tlaku na spekulace, a na publiku, které ví, že první výklad bývá chybný. Pomáhá i předchozí znalost připravených narativů, které čekají na „svou“ událost.
 
-**Související EA techniky:**
+## Odborný kontext
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md)
-- [EA-9.5.4 Meme Network Amplification](@/kompendium/techniques/ea-9-5-4-meme-network-amplification.md)
+Entman (1993) definoval rámování jako výběr a zdůraznění určitých aspektů skutečnosti tak, aby se prosadila určitá definice problému, příčinná interpretace, morální hodnocení a doporučené řešení. Válka o rámec je soutěží právě o tyto čtyři složky v okamžiku, kdy událost ještě nemá ustálený výklad. Výzkum kolektivního zpracování informací v krizích ukazuje, že online komunity v prvních hodinách po události společně „vyrábějí“ výklady a že dezinformace v takové situaci často vzniká jako kolaborativní práce mnoha aktérů, nikoli jen jako akce jednoho zdroje (Starbird, Arif a Wilson 2019).
 
-**Doktrinální a infrastructure odkazy:**
+Výzkum oprav dezinformací ukazuje, proč je první rámec tak odolný: jakmile si lidé vytvoří vysvětlující model události, pouhé vyvrácení jednoho prvku nestačí – potřebují alternativní vysvětlení, které mezeru zaplní (Lewandowsky, Ecker a Cook 2017). Pro instituce z toho plyne, že rychlá a pravdivá první komunikace, i s přiznanou nejistotou, je účinnější než pozdější vyvracení.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Souvislosti pro praxi
 
----
+Krizové štáby a tiskoví mluvčí by měli mít připravená první sdělení pro typické události – co je známo, co není, kdy přijde další informace – a vydat je co nejdříve, i když fakta nejsou úplná. Redakce by měly v prvních hodinách odolat tlaku na interpretace a zřetelně oddělovat ověřené od neověřeného. Pro komunity, v nichž se válka o rámec rozhořela, je cenné veřejné setkání s vyšetřovateli a místními autoritami, kde lidé mohou klást otázky a slyšet odpovědi přímo.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication*.
+- Lewandowsky, S., Ecker, U. K. H., & Cook, J. (2017). Beyond misinformation: Understanding and coping with the „post-truth“ era. *Journal of Applied Research in Memory and Cognition*.
+- Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work: Surfacing the participatory nature of strategic information operations. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Související
 
----
+**Sourozenecké techniky**
 
-*EA-9.5.6 | Subkategorie 9.5 Memetická válka | Prismatic Compendium | Version 18.4.0*
+- [EA-9.5.7 Narrative Meme Fusion](@/kompendium/techniques/ea-9-5-7-narrative-meme-fusion.md) – rámec zhuštěný do memu.
+- [EA-9.5.5 Counter-Meme Suppression](@/kompendium/techniques/ea-9-5-5-counter-meme-suppression.md) – potlačení konkurenčního rámce.
+- [EA-9.4.8 Real-Time Bot Response](@/kompendium/techniques/ea-9-4-8-real-time-bot-response.md) – okamžité reakce botů.
+- [EA-9.5.8 Meme Context Collapse](@/kompendium/techniques/ea-9-5-8-meme-context-collapse.md) – vytržení z kontextu.
+
+**Kapitola 1 a teorie**
+
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – přidělení výkladu.
+- [Herman & Chomsky: Propaganda model](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md) – filtry zpravodajství.
+
+**Detekce a obrana**
+
+- [Detekční signatura: Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – rozpoznání rámce.
+- [Sebe-obrana: Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – odklad závěru.

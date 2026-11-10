@@ -1,14 +1,14 @@
 +++
 title = "EA-9.5.4 Meme Network Amplification"
-description = "Současná digitální EA — meme network amplification."
+description = "Vzorec sítě humorných memových stránek, které si nejdřív nezávazným obsahem vybudují publikum a pak do něj postupně vkládají politická sdělení v podobě vtipu."
 weight = 954
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-5-2-symbolic-hijacking", "ea-9-5-3-emotional-meme-engineering", "ea-9-5-5-counter-meme-suppression", "ea-9-5-6-frame-war-coordination"]
+related_terms = ["ea-9-5-1-meme-cascade-injection", "ea-9-5-3-emotional-meme-engineering", "ea-9-5-9-meme-radicalization-pipeline", "ea-9-5-10-meme-attribution-laundering", "ea-9-4-2-coordinated-inauthentic-behavior"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.5.4"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,107 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Síť memových účtů (anti-jokes, shitposting, niche humor) jako amplifikační infrastruktura pro injekci politických narativů.
+*Meme network amplification* je využití sítě memových stránek a účtů – s nezávazným, absurdním nebo specializovaným humorem – jako zesilovací infrastruktury pro politická nebo ideologická sdělení. Stránky si nejprve nezávazným obsahem vybudují velké publikum a teprve poté začnou do něj vkládat sdělení maskovaná jako vtip. Publikum, které stránku sleduje kvůli humoru, přijímá sdělení s menší ostražitostí.
 
-V kontextu Prismatic doktríny je Meme Network Amplification klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.5.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník/operátor buduje sledovanost přes neškodný humor; po dosažení N followers postupně injektuje narativy maskované jako vtip; followers internalizují narrativ skrze 'humor'.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec využívá důvěru a vztah, který lidé mají ke zdrojům zábavy. Humorná stránka není vnímána jako zdroj informací, a proto se její obsah nehodnotí kriticky; zároveň s ní mají sledující citovou vazbu („moje oblíbená stránka“). Postupné přimíchávání sdělení – nejdřív výjimečně, pak častěji – posouvá normy publika. Síť stránek, které se navzájem sdílejí, vytváří dojem, že „celý internet si to myslí“. Struktura připomíná [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md), jen místo algoritmu vede publikum správce stránky.
 
 ## 4. Detekční markery
 
-Account-narrative-shift detection, follower-graph analysis, content evolution tracking, sentiment-drift forenzika.
+- Stránka s dlouhou historií nezávazného humoru začne náhle publikovat politický obsah, zvláště před volbami nebo v krizi.
+- Více stránek se stejným stylem a správci sdílí tentýž politický mem v krátkém čase.
+- Politický obsah je stylisticky sladěn s ostatním humorem, aby nevybočoval.
+- Změna vlastnictví nebo správy stránky bez oznámení.
+- Komentáře sledujících vyjadřují překvapení („odkdy jste politická stránka?“).
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Satirická stránka*: politický humor je od začátku jejím obsahem a publikum to ví. *Jednorázové vyjádření*: správce stránky se vyjádří k události pod vlastním jménem; není to skrytá kampaň. *[EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)*: šíření memu mezi komunitami; síťová amplifikace stojí na vybudovaném publiku.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vzorec umožňuje oslovit mladé publikum, které se zpravodajství vyhýbá, a obejít pravidla pro politickou reklamu. Pokud stránky dostávají za šíření sdělení zaplaceno, jde o neoznačenou politickou reklamu; pravidla transparentnosti politické reklamy a podmínky platforem se na ni vztahují. Pro výzkum je důležité sledovat změny vlastnictví a správy stránek.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Uživatel*: všimnout si, když oblíbená humorná stránka začne „radit“ v politice; ptát se, kdo ji provozuje. *Platformy*: zveřejňovat změny správy velkých stránek a vynucovat označování placeného obsahu. *Novináři*: zkoumat financování a vlastnictví memových sítí. *Rodiče a pedagogové*: mluvit s mladými o tom, odkud jejich oblíbený obsah pochází.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Síť pěti stránek s memy o počítačových hrách sleduje statisíce mladých lidí. Měsíc před volbami začnou všechny stránky publikovat memy zesměšňující jednu stranu a glorifikující jiného kandidáta, ve stejném stylu jako herní humor. Novinář zjistí, že stránky krátce předtím koupila marketingová firma. Po zveřejnění část sledujících stránky opustí, část obsah obhajuje jako „jen vtipy“.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Správci stránek mají právo na vlastní politické názory; problémem je skrytost, placenost a koordinace, ne názor. Otevřenou otázkou je, jak zajistit transparentnost vlastnictví stránek bez ohrožení anonymity běžných tvůrců.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Chybí také systematická data o tom, jak často se vlastnictví velkých zábavních stránek mění a jak často po změně následuje politický obsah; dostupné poznatky pocházejí z jednotlivých novinářských a výzkumných případů. Kniha proto vzorec popisuje jako opakovaně doložený, ne jako změřený.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Sledující, kteří zjistí, že jejich oblíbená stránka byla nástrojem kampaně, mohou zažít zklamání a pocit zrady, ale i obranu. Pro mladé lidi je to příležitost k rozhovoru o tom, jak se v online prostředí buduje vliv – ideálně bez moralizování a s respektem k jejich vkusu.
 
-## 6. Vztah k jiným EA
+Zvláštní skupinou jsou bývalí správci nebo tvůrci stránek, kteří se o prodeji či změně účelu dozvěděli pozdě nebo byli k ní přemluveni; i oni mohou prožívat vinu vůči publiku. Pro ně je užitečné veřejně vysvětlit, co se stalo, a pomoci publiku pochopit změnu.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 11. Vztah k ostatním kategoriím EA
 
-- **EA-1.* (Vědomá kontrola informací)** — Meme Network Amplification představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Vzorec je memetickou obdobou [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) – skrytý aktér za zdánlivě nezávislými hlasy – a navazuje na analýzu vlivu a pozornosti v [Boyd: sociotechnická analýza dezinformací](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md).
 
-## 7. Vztah k Prismatic platformě
+## 12. Otázky pro rozhovor a šetření
 
-Prismatic Platform implementuje detekci a neutralizaci Meme Network Amplification přes následující komponenty:
+- Proč jste stránku začali sledovat a co od ní čekáte?
+- Změnil se její obsah? Kdy?
+- Víte, kdo stránku provozuje?
+- Sdílejí podobný obsah i jiné stránky ve stejnou dobu?
+- Jak byste reagovali, kdyby stejné sdělení přišlo od politické strany?
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 13. Postup pro profesionály
 
-**Doctrine compliance:**
+1. **Analytik:** sledovat historii obsahu, správy a vlastnictví stránek; zaznamenat synchronní změny.
+2. **Novinář:** ověřit financování a vazby; zveřejnit je bez zesměšňování publika.
+3. **Regulátor nebo volební dozor:** posoudit, zda nejde o neoznačenou politickou reklamu.
+4. **Pedagog:** ukázat žákům, jak se pozná změna charakteru stránky.
+5. **Platforma:** vyžadovat označení placeného politického obsahu i u stránek, které nejsou politické.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 14. Prevence a odolnost
 
-## 8. Cross-linky
+Prevence spočívá v transparentnosti – kdo stránku vlastní, kdo za obsah platí – a v gramotnosti publika, které ví, že i zábava může být kanálem vlivu. Pomáhá rozmanitost zdrojů zábavy a informací; publikum soustředěné na několik velkých stránek je zranitelnější.
 
-**Související EA techniky:**
+## Odborný kontext
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md)
-- [EA-9.5.5 Counter-Meme Suppression](@/kompendium/techniques/ea-9-5-5-counter-meme-suppression.md)
+Woolley a Howard (2018) v mezinárodní srovnávací studii popsali „výpočetní propagandu“ jako použití algoritmů, automatizace a lidské práce k šíření zavádějících informací na sociálních sítích a doložili, že politické kampaně i státy využívají existující sítě stránek a účtů s velkým publikem. Memové stránky jsou pro takové využití zvláště vhodné, protože jejich publikum je mladé, početné a nečeká politický obsah.
 
-**Doktrinální a infrastructure odkazy:**
+Phillips (2015) ukázala, že humor a ironie v online kultuře snižují ochotu brát obsah vážně – včetně obsahu, který vážný je. Marwick a Lewis (2017) popsali, jak skupiny s politickými cíli budují publikum přes nepolitický obsah a teprve poté ho postupně přivádějí k ideologickým sdělením. Z hlediska obrany je proto podstatné sledovat nejen obsah, ale i vlastnictví a správu stránek, protože změna majitele bývá prvním signálem změny účelu.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Souvislosti pro praxi
 
----
+Pro volební dozor a regulátory je vzorec důležitý, protože obchází pravidla označování politické reklamy: obsah na humorné stránce nevypadá jako reklama, i když za něj někdo platí. Praktickým krokem je vyžadovat od platforem transparentnost u stránek, které náhle začnou šířit politický obsah, a sledovat změny vlastnictví velkých stránek před volbami. Pro školy je téma vhodné jako příklad, že vliv nemusí přicházet od politiků, ale od zdrojů, kterým mladí lidé důvěřují kvůli zábavě.
 
-## Connect & Contribute
+Pro rodiče je dobrou cestou zajímat se o oblíbené stránky dětí s respektem k jejich vkusu a společně si všímat, když se obsah stránky změní.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Literatura
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
+- Phillips, W. (2015). *This Is Why We Can't Have Nice Things*. MIT Press.
+- Woolley, S. C., & Howard, P. N. (Eds.) (2018). *Computational [Propaganda](@/glossary/propaganda.md): Political Parties, Politicians, and Political Manipulation on Social Media*. Oxford University Press.
 
----
+## Související
 
-*EA-9.5.4 | Subkategorie 9.5 Memetická válka | Prismatic Compendium | Version 18.4.0*
+**Sourozenecké techniky**
+
+- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md) – šíření memů mezi vrstvami.
+- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md) – emoční ladění obsahu.
+- [EA-9.5.9 Meme Radicalization Pipeline](@/kompendium/techniques/ea-9-5-9-meme-radicalization-pipeline.md) – posun publika k extrému.
+- [EA-9.5.10 Meme Attribution Laundering](@/kompendium/techniques/ea-9-5-10-meme-attribution-laundering.md) – zakrytí původu.
+
+**Příbuzné vzorce**
+
+- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) – skrytý aktér za mnoha hlasy.
+- [Případ: Influencer kult](@/kompendium/case-studies/74-influencer-cult.md) – vztah publika k tvůrci.
+
+**Obrana a teorie**
+
+- [Programy mediální gramotnosti](@/kompendium/population-health/15-media-literacy-program.md) – prevence.
+- [Boyd: sociotechnická analýza dezinformací](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md) – teoretický rámec.

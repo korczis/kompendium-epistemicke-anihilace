@@ -1,14 +1,14 @@
 +++
 title = "EA-9.2.8 AI Eyewitness Fabrication"
-description = "Současná digitální EA — ai eyewitness fabrication."
+description = "Vzorec, v němž generované fotografie a videa „dokládají“ událost, která se nikdy nestala – požár, útok, demonstraci – a šíří se jako zpráva z místa. Znaky a obrana."
 weight = 928
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-2-6-AI-news-cascade", "ea-9-2-7-synthetic-witness-testimony", "ea-9-2-9-AI-document-forgery", "ea-9-3-1-algorithmic-amplification"]
+related_terms = ["ea-9-2-6-AI-news-cascade", "ea-9-2-7-synthetic-witness-testimony", "ea-9-2-4-image-manipulation-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.8"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,101 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Generování celých 'událostí' (požár, atentát, demonstrace) jako video/foto sekvencí, které nikdy nenastaly, pro účely [informační operace](@/glossary/info-ops.md) nebo kompromitace.
+*AI eyewitness fabrication* je výroba celé smyšlené události v podobě fotografií, videí, zvukových záznamů a průvodních textů, které vypadají jako materiál od očitých svědků („breaking news“). Na rozdíl od úpravy skutečného záznamu zde neexistuje žádná výchozí událost; fabrikace je součástí [informační operace](@/glossary/info-ops.md), podvodu nebo kompromitace.
 
-V kontextu Prismatic doktríny je AI Eyewitness Fabrication klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.2.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník zkombinuje text-to-video, voice cloning a synthetic news generování — výsledek tvoří kompletní 'breaking news' balíček publikovaný v reálném čase.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec využívá dynamiku krizového zpravodajství: v prvních hodinách po „události“ je poptávka po obrazech obrovská, ověření pomalé a sdílení rychlé. Několik věrohodných záběrů z „různých telefonů“, doplněných texty a reakcemi, vytváří zdání, že se něco skutečně děje. I po vyvrácení zůstává emoční stopa (strach, hněv) a u části publika přesvědčení, že „něco na tom bylo“. Fabrikace se může opírat o [AI news cascade](@/kompendium/techniques/ea-9-2-6-AI-news-cascade.md) a o [syntetické svědky](@/kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md).
 
 ## 4. Detekční markery
 
-Geolokační verifikace, weather/time consistency checks, satellite imagery cross-reference, multi-source corroboration.
+- Záběry nelze geolokovat, nebo místo neodpovídá (architektura, značení, vegetace).
+- Počasí, denní doba a stíny nesouhlasí s údaji o čase a místě.
+- O události neinformují místní služby, úřady ani zavedená média; chybí záběry z obecně dostupných kamer.
+- Obrazové vady typické pro generovaný obsah: nesmyslné nápisy, deformované postavy v pozadí.
+- První sdílení pochází z účtů bez vazby k místu a s krátkou historií.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Staré záběry v novém kontextu*: skutečná, ale jiná událost; odhalí zpětné vyhledávání. *[EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)*: a **[EA-9.2.5](@/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md)** – úprava skutečného záznamu. *Zmatek v prvních hodinách*: rozporné informace o skutečné události; ověření je postupně sjednotí.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Fabrikované události mohou vyvolat paniku, násilí proti skupinám obviněným z „útoku“, pohyb na trzích nebo diplomatické napětí. Opakované fabrikace navíc vedou k únavě a cynismu („nic se nedá ověřit“), což oslabuje reakci na skutečné krize. Rámcem obrany jsou krizová komunikace úřadů, ověřovací týmy redakcí a pravidla platforem pro syntetický obsah; právně podle okolností šíření poplašné zprávy nebo podněcování.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář*: v prvních hodinách krize sdílet jen potvrzené informace od místních služeb a úřadů; ověřit místo a čas záběru. *Redakce*: geolokace, chronolokace, kontakt s místními zdroji; otevřeně uvádět, co je neověřené. *Úřady a krizové štáby*: rychle a pravidelně komunikovat, i když nemají všechny informace. *Platformy*: označovat syntetický obsah a zpomalovat šíření neověřených krizových záběrů.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Večer se rozšíří série fotografií hořící budovy úřadu v krajském městě, doplněná texty o „explozi“. Hasiči o žádném zásahu nevědí; místní obyvatelé zveřejní živé záběry klidné budovy. Analýza ukáže, že fotografie mají nesmyslné nápisy na okolních budovách a architektura neodpovídá. Do vyvrácení se však zpráva dostane do zahraničních agregátorů a vyvolá dotazy na úřady.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Ověřovací metody (geolokace, chronolokace) jsou účinné, ale vyžadují čas a dovednost, kterou má málokdo. Otevřenou otázkou je, jak sladit rychlost krizového zpravodajství s nutností ověření, a jak zabránit, aby obava z fabrikací vedla k nedůvěře ke skutečným svědkům.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Kniha neuvádí čísla o četnosti fabrikovaných událostí, protože spolehlivá srovnávací data chybějí; dostupné jsou hlavně případové analýzy ověřovacích týmů a výzkumných skupin. Otevřené zůstává i to, jak se změní práce zpravodajů, až bude generování videa běžné a levné.
 
-**Layer 4 — Accountability:**
+Otevřená zůstává i otázka mezinárodní spolupráce, protože fabrikace často vznikají mimo jurisdikci země, které se týkají.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 10. Pohled zevnitř a práce s postiženým
 
-## 6. Vztah k jiným EA
+Lidé, kteří fabrikovanou událost prožili jako skutečnou, mohou mít reálné stresové reakce – strach o blízké, poplach, nespavost. Vyvrácení tyto reakce automaticky neruší. V komunitách zasažených paniku pomáhá klidná komunikace, vysvětlení mechanismu a prostor pro sdílení zkušenosti bez zesměšňování.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pro skupiny, které fabrikovaná událost označila za viníky, je důležitá rychlá a veřejná ochrana ze strany autorit, protože obviňování může přerůst v násilí ještě před vyvrácením; i po něm zůstává v komunitě nedůvěra, se kterou je třeba pracovat.
 
-- **EA-1.* (Vědomá kontrola informací)** — AI Eyewitness Fabrication představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pomáhá také veřejné poděkování lidem, kteří včas sdíleli ověřené informace a pomohli fabrikaci vyvrátit.
 
-## 7. Vztah k Prismatic platformě
+## 11. Vztah k ostatním kategoriím EA
 
-Prismatic Platform implementuje detekci a neutralizaci AI Eyewitness Fabrication přes následující komponenty:
+Fabrikovaná událost je extrémní podobou [EA-2.3.5 Pseudo-kontroverze Amplifikace](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md): nevyrábí se jen spor, ale samotný fakt, o němž se vede. Z teoretického hlediska ji kniha čte v rámci kapitoly o [EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) jako posun od zkreslení reality k její náhradě.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 12. Postup při údajné krizové události
 
-**Doctrine compliance:**
+1. **Ověřit u místních služeb** a úřadů, zda o události vědí.
+2. **Geolokovat a chronolokovat** záběry.
+3. **Hledat nezávislé záznamy** – veřejné kamery, místní obyvatele, zavedená média.
+4. **Nesdílet neověřené** záběry ani s varováním.
+5. **Zveřejnit výsledek** ověření srozumitelně a rychle.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 13. Prevence a odolnost
 
-## 8. Cross-linky
+Odolnost společnosti proti fabrikovaným událostem stojí na důvěryhodných institucích, které v krizích komunikují rychle a pravidelně, na médiích s ověřovacími týmy a na publiku, které ví, že první záběry z „události“ mohou být podvrh. Pro jednotlivce je nejpraktičtější pravidlo sledovat v krizi místní služby a úřady a nesdílet neověřené záběry. Pro platformy je prevencí zpomalení šíření neověřených krizových záběrů a označování syntetického obsahu. Školy mohou zařadit nácvik geolokace a ověřování obrazu do výuky.
 
-**Související EA techniky:**
+## Odborný kontext
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md)
-- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)
+Výzkum krizové komunikace a šíření pověstí ukazuje, že v prvních hodinách po události je poptávka po informacích nejvyšší a ověření nejpomalejší; Starbird, Arif a Wilson (2019) popsali, jak se v této fázi online komunity podílejí na tvorbě výkladů a jak do nich strategické operace vstupují. Fabrikovaná událost tento okamžik využívá v extrémní podobě – nenabízí výklad události, ale událost samu.
 
-**Doktrinální a infrastructure odkazy:**
+Vaccari a Chadwick (2020) zjistili, že syntetická videa nemusí diváky přesvědčit, aby způsobila škodu: postačí, že zvýší jejich nejistotu a sníží důvěru ve zprávy obecně. Opakované fabrikace tak mohou vést k únavě, při níž lidé přestávají věřit i skutečným zprávám z krizí. Chesney a Citron (2019) tuto možnost předvídali jako jednu z hlavních společenských škod syntetických médií. Ověřovací metody – geolokace, chronolokace, srovnání s nezávislými záznamy – jsou účinné, ale vyžadují čas a dovednost, a proto je klíčová role institucí, které je ovládají.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Souvislosti pro praxi
 
----
+Pro krizové štáby a úřady je nezbytné komunikovat v prvních hodinách rychle a pravidelně, i když nemají všechny informace, protože ticho vyplní fabrikace. Pro redakce je užitečné mít ověřovací tým s dovednostmi geolokace a dohodu s místními zdroji. Pro veřejnost platí jednoduché pravidlo: v prvních hodinách krize sdílet jen informace od místních služeb a úřadů.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- Chesney, R., & Citron, D. K. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. *California Law Review*.
+- Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*.
+- Vaccari, C., & Chadwick, A. (2020). Deepfakes and disinformation. *Social Media + Society*.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Související
 
----
+**Sourozenecké techniky**
 
-*EA-9.2.8 | Subkategorie 9.2 Generativní média | Prismatic Compendium | Version 18.4.0*
+- [EA-9.2.6 AI News Cascade](@/kompendium/techniques/ea-9-2-6-AI-news-cascade.md) – textové „pokrytí“ smyšlené události.
+- [EA-9.2.7 Synthetic Witness Testimony](@/kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md) – smyšlení svědci.
+- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md) – úprava skutečného snímku.
+
+**Pojmy**
+
+- [Informační operace](@/glossary/info-ops.md) – rámec, v němž se fabrikace nasazují.
+- [Hyperrealita](@/glossary/hyperreality.md) – obraz, který nahrazuje událost.
+
+**Ověřování a obrana**
+
+- [Triangulace napříč zdroji v OSINT](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) – geolokace a ověření.
+- [Sebe-obrana: Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – nesdílet v prvních hodinách.
+- [Obrana proti dezinformacím](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md) – organizační reakce.

@@ -1,14 +1,14 @@
 +++
 title = "EA-9.4.5 Troll Farm EA"
-description = "Současná digitální EA — troll farm ea."
+description = "Vzorec profesionalizované operace, v níž placení operátoři podle zadání a metrik spravují mnoho person a systematicky produkují rozvratný nebo propagandistický obsah."
 weight = 945
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-4-3-sock-puppet-network", "ea-9-4-4-AI-bot-personhood", "ea-9-4-6-mass-comment-coordination", "ea-9-4-7-cross-platform-bot-cascade"]
+related_terms = ["ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-3-sock-puppet-network", "ea-9-4-6-mass-comment-coordination"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.5"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,111 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Profesionalizovaná operace s desítkami human operátorů produkujících trollovací obsah za plat — IRA-style.
+*Troll farm* („trollí farma“) je profesionalizovaná operace, v níž desítky až stovky placených pracovníků podle centrálních pokynů spravují množství falešných person a produkují obsah – komentáře, příspěvky, memy, provokace – se zadaným cílem a měřitelnými výkonovými ukazateli. Nejznámějším doloženým příkladem je petrohradská Internet Research Agency, jejíž činnost podrobně popsaly vyšetřovací zprávy v USA.
 
-V kontextu Prismatic doktríny je Troll Farm EA klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.4.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Centralizované pracoviště s direktivami, content guidelines, KPIs; operátoři spravují multiple personas; výstup je systematický, koordinovaný a kvantifikovaný.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Trollí farma spojuje lidskou kreativitu s průmyslovou organizací. Na rozdíl od botů umí reagovat na kontext, používat místní slang a vést dlouhé diskuse; na rozdíl od spontánních trollů pracuje systematicky a dlouhodobě. Cílem nebývá jen šíření konkrétní teze, ale často rozvrat: posilování konfliktů mezi skupinami, zahlcení debaty, šíření cynismu a pocitu, že „pravdu nelze zjistit“. Tento účinek popisuje model [firehose of falsehood](@/glossary/firehose-of-falsehood.md): množství a rychlost místo konzistence.
 
 ## 4. Detekční markery
 
-OSINT na infrastructure, salary-leaks, behavior-during-business-hours patterns, language-analysis (translation artefakty).
+- Účty s propracovanými personami, které se aktivují v pracovních hodinách jednoho časového pásma.
+- Obsah se tematicky mění současně u mnoha účtů podle aktuálního zadání.
+- Provokace na obou stranách konfliktu – tentýž zdroj posiluje protichůdné skupiny.
+- Jazykové zvláštnosti, které neodpovídají deklarovanému původu persony.
+- Opakující se rétorické šablony, které se objevují napříč jazyky a zeměmi.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Spontánní trolling*: jednotlivci provokují pro zábavu, bez koordinace a zadání. *Placená komunikační agentura*: legitimní, pokud vystupuje pod jménem klienta. *[EA-9.4.2 CIB](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)*: obecný rámec; trollí farma je jeho profesionalizovaná, lidmi provozovaná podoba.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Trollí farmy přispívají k polarizaci a nedůvěře a mohou ovlivnit volby a veřejné debaty, i když přesnou velikost jejich účinku na postoje je obtížné změřit. Pro bezpečnostní rámec jde o součást [informačních operací](@/glossary/info-ops.md) států i soukromých aktérů. Odpovědí jsou zprávy platforem, analýzy výzkumníků, sankční a trestní opatření vůči organizátorům a posilování odolnosti společnosti.
 
-## 5. Neutralizační strategie
+Pro komunity, které se staly cílem, je důležité pochopit, že rozvrat je cílem operace; obnova důvěry mezi skupinami, které byly rozeštvány, vyžaduje společná pravidla diskuse a někdy i zprostředkovaný rozhovor. Pro politiky a veřejné činitele platí, že obviňovat oponenty z „placeného trollingu“ bez důkazů je samo o sobě formou diskreditace, které by se měli vyhýbat.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Uživatel*: všímat si provokací, které útočí na obě strany; neodpovídat obsahu, jehož cílem je vyvolat hádku. *Novináři a výzkumníci*: odhalovat sítě a jejich zadání; vysvětlovat cíl rozvratu, ne jen obsah. *Komunity a moderátoři*: pravidla diskuse, která snižují dosah provokací. *Státy a instituce*: strategická komunikace, podpora mediální gramotnosti ([Programy mediální gramotnosti](@/kompendium/population-health/15-media-literacy-program.md)).
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Ve skupině rodičů se rozhoří spor o očkování a současně ve skupině lékařů vlna útoků na „antivaxery“. Výzkumníci si všimnou, že nejostřejší příspěvky na obou stranách pocházejí z účtů s podobnou historií, aktivních ve stejných hodinách a se stejnými jazykovými chybami. Analýza ukáže síť napojenou na zahraniční operaci, jejímž cílem nebylo přesvědčit, ale rozeštvat. Po zveřejnění se obě skupiny dohodnou na pravidlech diskuse.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Ne každý ostrý účet je troll z farmy a obvinění z „placeného trolla“ se samo stává nástrojem diskreditace oponentů. Rozhodují doložené síťové znaky, ne nepohodlný názor. Velikost skutečného vlivu trollích farem na voliče je mezi výzkumníky sporná.
 
-**Layer 4 — Accountability:**
+Kniha neuvádí čísla o počtech pracovníků nebo účtů jednotlivých operací, pokud nejsou doložena oficiálními zprávami.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřené zůstává i to, jak se trollí farmy promění s nástupem jazykových modelů, které mohou část lidské práce nahradit a zároveň zvýšit objem produkovaného obsahu; kniha tento vývoj sleduje v souvislosti s [EA-9.4.4](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md).
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Lidé, kteří se s trollí farmou střetli – jako cíle útoků nebo jako ti, kdo se nechali vtáhnout do hádek –, často popisují vyčerpání a ztrátu důvěry v online debatu. Pomáhá pochopit cíl rozvratu: vyhrát se dá tím, že se nenechám vtáhnout, ne tím, že porazím každého trolla. Pro bývalé zaměstnance takových operací (pokud se objeví) může být důležitá i práce s vinou.
 
-- **EA-1.* (Vědomá kontrola informací)** — Troll Farm EA představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro lidi, kteří se v konfliktu se zahraničními trolly nechali strhnout k ostrým výrokům vůči sousedům či kolegům, je užitečné vědět, že nebyli jediní, a mít možnost vztahy napravit bez ztráty tváře.
 
-## 7. Vztah k Prismatic platformě
+## 11. Vztah k ostatním kategoriím EA
 
-Prismatic Platform implementuje detekci a neutralizaci Troll Farm EA přes následující komponenty:
+Teoretický rámec dodává kapitola o [politické a ideologické EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) a Snyderova analýza [tyranie](@/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md). Dlouhodobé zahlcování debaty souvisí s [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md).
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 12. Postup při podezření na trollí farmu
 
-**Doctrine compliance:**
+1. **Zmapovat účty** s propracovanými personami a jejich aktivitu v čase.
+2. **Hledat pracovní rytmus** – hodiny, dny, časové pásmo.
+3. **Porovnat rétorické šablony** napříč jazyky a tématy.
+4. **Sledovat provokace na obou stranách** konfliktu.
+5. **Spolupracovat s výzkumníky** a předat poznatky platformám.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 13. Prevence a odolnost
 
-## 8. Cross-linky
+Prevence stojí na odolnosti komunit vůči provokacím – pravidlech diskuse, moderaci, vědomí, že cílem bývá rozvrat –, na mediální gramotnosti a na strategické komunikaci institucí. Pro jednotlivce platí, že nejlepší odpovědí na provokaci je často nereagovat.
 
-**Související EA techniky:**
+Pro školy a knihovny je užitečné zařadit do mediální výchovy příklady provokací cílených na obě strany sporu, aby lidé vzorec poznali i ve vlastní komunitě.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)
-- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)
+## 14. Otázky pro rozhovor a šetření
 
-**Doktrinální a infrastructure odkazy:**
+- Kdy jsou účty aktivní a v jakém rytmu?
+- Útočí tentýž zdroj na obě strany sporu?
+- Odpovídá jazyk deklarovanému původu persony?
+- Mění účty témata současně?
+- Komu prospívá rozeštvání debaty?
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Odborný kontext
 
----
+Činnost petrohradské Internet Research Agency patří k nejpodrobněji zdokumentovaným příkladům profesionalizované trollí operace; vyšetřovací zprávy v USA a akademické analýzy popsaly její organizaci, rozsah a cílení na obě strany politických konfliktů. Paul a Matthews (2016) popsali propagandistický model, který spoléhá na množství, rychlost a opakování a je lhostejný k pravdě i ke konzistenci; trollí farmy jsou jeho lidskou infrastrukturou. Woolley a Howard (2018) doložili, že podobné operace s placenými pracovníky provozují státy i soukromé firmy v řadě zemí.
 
-## Connect & Contribute
+Benkler, Faris a Roberts (2018) upozornili, že vliv zahraničních operací na americké volby nelze oddělit od domácího mediálního prostředí, které jejich obsah přebíralo a zesilovalo; velikost samotného účinku trollí farem na postoje voličů zůstává sporná. Kniha proto zdůrazňuje cíl rozvratu – posilování konfliktů a cynismu – spíše než schopnost přesvědčit.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Souvislosti pro praxi
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro moderátory a redakce je užitečné vědět, že provokace na obou stranách sporu mohou mít společný zdroj, a moderovat podle chování, ne podle strany. Pro instituce je prevencí pravidelná a pravdivá komunikace, která nenechává prostor pro spekulace. Pro výzkum je cenná spolupráce s platformami při analýze sítí.
 
----
+## Literatura
 
-*EA-9.4.5 | Subkategorie 9.4 Bot networks | Prismatic Compendium | Version 18.4.0*
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md)*. Oxford University Press.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
+- Woolley, S. C., & Howard, P. N. (Eds.) (2018). *Computational Propaganda*. Oxford University Press.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) – obecný rámec.
+- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md) – falešné identity.
+- [EA-9.4.6 Mass Comment Coordination](@/kompendium/techniques/ea-9-4-6-mass-comment-coordination.md) – zahlcení komentáři.
+
+**Pojmy a teorie**
+
+- [Firehose of falsehood](@/glossary/firehose-of-falsehood.md) – zahlcení množstvím.
+- [Informační operace](@/glossary/info-ops.md) – bezpečnostní rámec.
+- [Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – teoretická kapitola.
+
+**Obrana**
+
+- [Programy mediální gramotnosti](@/kompendium/population-health/15-media-literacy-program.md) – společenská odolnost.
+- [Obrana proti dezinformacím](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md) – organizační reakce.

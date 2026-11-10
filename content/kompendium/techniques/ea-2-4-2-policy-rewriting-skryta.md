@@ -1,14 +1,15 @@
 +++
-title = "EA-2.4.2 Policy Rewriting Skrytá"
-description = "Delegitimizační technika — Policy Rewriting Skrytá."
+title = "EA-2.4.2 Skrytý přepis pravidel (policy rewriting)"
+description = "Vzorec, v němž se vnitřní předpisy, stanovy a etické kodexy instituce mění bez vědomí členů a veřejnosti tak, aby sloužily jedné skupině. Znaky, odlišení, obrana."
 weight = 2402
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-2-4-2", "delegitimizace"]
+tags = ["kompendium", "techniques", "ea-2-4-2", "delegitimizace", "governance"]
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-2-4-1-board-capture", "ea-2-4-10-disciplinary-society-capture", "ea-2-4-3-funding-redirect", "ea-2-4-4-leadership-capture"]
+related_terms = ["ea-2-4-1-board-capture", "ea-2-4-5-evaluation-criteria-rewrite", "ea-2-1-10-credentials-rekonfigurace", "ea-2-4-10-disciplinary-society-capture", "ea-2-4-falesny-konsensus", "newspeak"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.4.2"
 ea_category = "2. Scénáře delegitimizace"
@@ -20,90 +21,192 @@ risk_level = "high"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 +++
 
-# EA-2.4.2 Policy Rewriting Skrytá
+# EA-2.4.2 Skrytý přepis pravidel (policy rewriting)
 
-## Identifikace
-
-| Atribut | Hodnota |
-|---------|---------|
-| **EA kód** | EA-2.4.2 |
-| **Název** | Policy Rewriting Skrytá |
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-2.4.2` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.4 Institucionální zachycení |
-| **Risk level** | High |
-| **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Přístupová úroveň** | L2 (odborná analýza) |
+| **Riziková úroveň** | Vysoká – změněná pravidla působí dlouho po změně lidí |
+| **Reverzibilita** | Střední; pravidla lze vrátit, pokud se změna včas odhalí a doloží |
+| **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Rychlá karta** | [QR: EA-2.4.2](@/kompendium/quick-reference/qr-ea-2-4-2.md) |
 
 ## Definice
 
-Skryté přepisování interních politik, statutů a směrnic instituce pod radarem širší členské obce nebo veřejnosti.
+Skrytý přepis pravidel je vzorec, v němž se **vnitřní předpisy, stanovy, etické kodexy,
+jednací řády a směrnice** instituce mění tak, aby změny unikly pozornosti těch, jichž se
+týkají – členů, zaměstnanců, studentů, veřejnosti –, a aby nové znění sloužilo zájmům
+jedné skupiny. Nejde o otevřený spor o pravidla, ale o jejich **tichou proměnu**:
+v příloze, v definici pojmu, v novele „technického“ charakteru, v přesunu pravomoci.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Institucionální zachycení** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Pravidla instituce jsou její paměť a její ochrana. Kdo je mění skrytě, mění i to, co
+instituce považuje za správné a pravdivé, aniž by o tom proběhla debata. Proto patří
+tato technika do Kompendia jako forma epistemického zásahu: proměňuje **normativní
+rámec**, podle něhož se poznání a jednání hodnotí.
 
-## Operační modus
+## Mechanismus (strukturní popis)
 
-Technika **EA-2.4.2** typicky probíhá ve třech fázích:
+1. **Technický obal.** Podstatná změna je součástí rozsáhlé novely označené jako
+   formální, sjednocující nebo „legislativně technická“.
+2. **Definiční posun.** Mění se definice pojmů (co je střet zájmů, kdo je člen, co je
+   pochybení), nikoli norma sama.
+3. **Přesun pravomoci.** Rozhodnutí se přesune z kolektivního orgánu na jednotlivce nebo
+   na předsednictvo; kontrola zmizí bez změny formulace povinností.
+4. **Zkrácené připomínkování.** Návrh je zveřejněn krátce, v nepřehledné podobě nebo
+   v období, kdy je pozornost nízká.
+5. **Retroaktivní uplatnění.** Nové znění se použije na probíhající případy.
+6. **Zakrytí verzí.** Starší znění nejsou snadno dostupná; srovnání vyžaduje úsilí.
 
-### Fáze 1 — Příprava terénu
+Jazykově je vzorec blízký tomu, co George Orwell zachytil pojmem [newspeak](@/glossary/newspeak.md):
+proměna významu slov mění, co lze ještě vůbec pojmenovat a napadnout.
 
-Útočník identifikuje cíl, mapuje jeho **epistemickou síť** (kolegy, instituce, publikační kanály, mediální zázemí) a vyhledává **zranitelná místa**: závislosti na grantech, slabé spojence, kontroverzní výroky v minulosti, izolovatelné subkomunity.
+## Průběh
 
-### Fáze 2 — Aktivace techniky
+Změna se připravuje v úzkém okruhu, často po konkrétním konfliktu, který stará pravidla
+neumožnila vyřešit ve prospěch vedení. Návrh se předloží spolu s nespornými úpravami,
+projde orgánem bez diskuse (srov. [EA-2.4.1](@/kompendium/techniques/ea-2-4-1-board-capture.md))
+a nabude účinnosti. O změně se většina dozví až ve chvíli, kdy je na ni uplatněna. Spor
+se pak vede o výklad, ne o legitimitu změny, a ta už není na pořadu.
 
-Aktivace probíhá synchronně přes více vektorů. **Policy Rewriting Skrytá** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+## Fenomenologické znaky (pohled zevnitř)
 
-### Fáze 3 — Stabilizace nového stavu
+| Znak | Jak ho zaměstnanec nebo člen popisuje |
+|---|---|
+| Zaskočení | „Pravidla, podle kterých jsem se řídil, už neplatí – a nikdo nám to neřekl.“ |
+| Zmatek | Neví, která verze platí a od kdy. |
+| Pocit podvedení | Formálně proběhlo vše správně, a přesto se cítí oklamán. |
+| Bezmoc | Proti platnému pravidlu je obtížné se bránit. |
+| Nedůvěra k dokumentům | Přestává věřit, že předpisy chrání. |
 
-Po dosažení primárního efektu útočník stabilizuje nový stav skrze **institucionální fakty**, **dokumentaci** a **revizionistický narativ**, který činí návrat k předchozímu stavu nákladným nebo nemožným.
+## Detekční markery (pohled pozorovatele)
 
-## Detekce
+| Marker | Co může naznačovat |
+|---|---|
+| Rozsáhlé novely s krátkou lhůtou k připomínkám | Zkrácené připomínkování |
+| Změna definic pojmů bez zdůvodnění | Definiční posun |
+| Přesun pravomocí na menší orgán nebo jednotlivce | Oslabení kontroly |
+| Nové znění se uplatní na probíhající případ | Retroaktivita |
+| Starší znění nejsou zveřejněna nebo archivována | Zakrytí verzí |
+| Změna těsně po konfliktu, který stará pravidla „nedovolila“ vyřešit | Účelovost |
 
-| Indikátor | Popis | Závažnost | Reakce |
-|-----------|-------|-----------|--------|
-| **Koordinovaná synchronicita** | Více aktérů provádí podobné kroky v krátkém časovém okně | Vysoká | Síťová analýza, mapování koordinace |
-| **Asymetrie kritiky** | Kritika cíle je tvrdší než stejná kritika srovnatelných případů | Střední | Dokumentace asymetrie, externí audit |
-| **Eroze procedurálních standardů** | Standardy se náhle mění specificky pro daný případ | Vysoká | Procedurální archeologie, právní revize |
-| **Narativní konvergence** | Různé zdroje začnou používat identické formulace | Střední | Lingvistická forenzika, šíření narativu |
+## Rizikové kontexty
 
-## Neutralizace
+Vysoké školy a výzkumné instituce (studijní a zkušební řády, etické kodexy, pravidla
+habilitačních řízení), odborné společnosti (etické kodexy a disciplinární řády), firmy
+(kodexy chování, pravidla pro oznamovatele), nadace (statuty), média (redakční statuty)
+a online komunity (pravidla moderace). Riziko zvyšuje absence povinného archivu verzí
+a slabá účast členů v připomínkovém řízení.
 
-### Individuální obrana
+## Odlišení
 
-1. **Dokumentace v reálném čase** — Vést **veřejnou kroniku** všech kroků útoku s časovými razítky, jmény aktérů a citacemi.
-2. **Diverzifikace závislostí** — Snížit **single points of failure** v kariéře (více grantů, více platforem, více institucí).
-3. **Spojenecká síť** — Aktivně kultivovat **epistemickou koalici** přesahující jednu instituci nebo jeden okruh kolegů.
+- **Řádná revize předpisů.** Pravidla se mají pravidelně revidovat; legitimní revize je
+  veřejná, má zdůvodnění, přechodná ustanovení a srovnávací znění.
+- **Nekvalitní legislativa.** Nejasné a chaotické změny vznikají i bez úmyslu; vzorec je
+  rozpoznatelný podle stálého směru a vazby na konkrétní zájem.
+- **[EA-2.1.10 Rekonfigurace kvalifikačních standardů](@/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md).**
+  Speciální případ týkající se kvalifikací.
+- **[EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md).**
+  Speciální případ týkající se hodnocení práce.
 
-### Institucionální obrana
+## Klinický a právní rámec
 
-1. **Procedurální transparence** — Pevné, **veřejně dostupné procedury** pro recenze, evaluace, jmenování, granty.
-2. **Externí audit** — Pravidelné **nezávislé audity** klíčových rozhodovacích procesů institucí.
+Klinicky se vzorec projevuje u lidí, na něž byla změněná pravidla uplatněna: pocit
+nespravedlnosti, ztráta důvěry v instituci, úzkost a u dlouhých sporů vyhoření.
 
-## Vztah k jiným technikám
+Právně je klíčové, zda změna proběhla podle pravidel pro změnu předpisů (pravomoc,
+kvórum, zveřejnění) a zda se uplatňuje zpětně; zpětné uplatnění na neprospěch dotčených
+je v řadě oblastí nepřípustné. U vysokých škol se vnitřní předpisy registrují podle
+zákona o vysokých školách; u spolků a korporací rozhodují stanovy. Doloženým příkladem
+změny etického rámce ve prospěch vnějšího zájmu je [Hoffmanova zpráva](@/kompendium/techniques/ea-2-4-10-disciplinary-society-capture.md)
+o Americké psychologické asociaci (2015). Viz [cykly revize pravidel](@/kompendium/organizational-defense/8-policy-review-cycles.md).
 
-Technika **EA-2.4.2** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+## Obrana a neutralizace
 
-## Vztah k platformě
+**Pro instituce.** Povinné srovnávací znění u každé změny, archiv všech verzí s daty
+účinnosti, minimální lhůta k připomínkám, zákaz retroaktivního uplatnění v neprospěch,
+zdůvodnění u každé podstatné změny. Viz [cykly revize pravidel](@/kompendium/organizational-defense/8-policy-review-cycles.md)
+a [standardy dokumentace](@/kompendium/organizational-defense/24-documentation-standards.md).
 
-Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
+**Pro členy a zaměstnance.** Archivovat znění předpisů, podle nichž jednají; číst
+novely, zejména definice a pravomoci; požadovat srovnávací znění. Pomáhá
+[časově vázané hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md).
 
-- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
-- **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+**Pro oznamovatele.** Účelové změny pravidel pro oznamování mohou být samy předmětem
+oznámení; viz [oznamovací mechanismus](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
+
+## Zotavení
+
+Instituce se zotavuje revizí změn provedených v zachyceném období a obnovou procesní
+důvěry: pravidla musí být znovu čitelná a předvídatelná. Pro jednotlivce je důležité
+uznání, že na ně byla pravidla uplatněna nespravedlivě. Viz
+[kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md).
+
+## Ilustrativní příklad (anonymizovaný kompozit)
+
+Odborná společnost připravuje „sjednocení“ etického kodexu s novým jednacím řádem.
+Ve 40stránkovém návrhu, zveřejněném v létě s dvoutýdenní lhůtou, je mezi formálními
+úpravami nová definice „střetu zájmů“, která vylučuje placené poradenství pro průmysl,
+a přesun pravomoci k zahájení etického řízení z komise na předsedu. Návrh projde
+na podzimním sněmu bez diskuse. O půl roku později předseda odmítne zahájit řízení
+o stížnosti na člena předsednictva; komise už k tomu nemá pravomoc.
+
+## Otázky pro analýzu
+
+- Kdy a jakým postupem se předpis měnil, kdo návrh připravil a jaké bylo zdůvodnění?
+- Které definice a pravomoci se změnily a koho se změna konkrétně týká?
+- Bylo nové znění uplatněno na případy zahájené před jeho účinností?
+- Jsou starší verze veřejně dostupné?
+
+## Meze a otevřené otázky
+
+Hranice mezi skrytým přepisem a běžnou správou předpisů je neostrá. Velké instituce mění
+desítky předpisů ročně a žádný člen nemůže sledovat všechny; „skrytost“ tedy často
+vzniká z prosté nepřehlednosti. Kompendium proto neoznačuje za techniku každou
+nepovšimnutou změnu, ale jen soubor znaků: účelovost (vazba na konkrétní spor nebo
+osobu), stálý směr (změny posilují stejnou skupinu) a zakrytí (chybí zdůvodnění,
+srovnání nebo archiv). Otevřenou otázkou zůstává, jak měřit „srozumitelnost“ změny –
+zda stačí zveřejnění, nebo zda instituce nese odpovědnost i za to, aby změnu dotčení
+skutečně pochopili. Pro posuzovatele je užitečné rozlišovat mezi vadou postupu (změna
+byla přijata v rozporu s pravidly), vadou obsahu (změna je sama nespravedlivá) a vadou
+uplatnění (změna je použita zpětně nebo selektivně); každá vyžaduje jiný typ nápravy.
+
+## Případy, které techniku ukazují
+
+Anonymizované kompozity: [kult politického okruhu](@/kompendium/case-studies/69-policy-circle-cult.md)
+a [kult korporátního vedení](@/kompendium/case-studies/61-corporate-leadership-cult.md).
+Historicky [československá normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md),
+kde se vnitřní předpisy institucí přizpůsobovaly politickým prověrkám.
+
+## Literatura
+
+- Orwell, G. (1949). *Nineteen Eighty-Four*.
+- Michels, R. (1911). *Zur Soziologie des Parteiwesens in der modernen Demokratie*.
+- Stigler, G. J. (1971). The Theory of Economic Regulation. *Bell Journal of Economics
+  and Management Science*.
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
-- [EA-2.4.1](@/kompendium/techniques/ea-2-4-1-board-capture.md) (sister)
-- [EA-2.4.3](@/kompendium/techniques/ea-2-4-3-funding-redirect.md) (sister)
-- [EA-2.4.4](@/kompendium/techniques/ea-2-4-4-leadership-capture.md) (sister)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
-- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
+**Techniky podkategorie 2.4**
 
-## Connect
+- [EA-2.4.1 Zachycení správních orgánů](@/kompendium/techniques/ea-2-4-1-board-capture.md)
+  – kdo změny schvaluje.
+- [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md)
+  – speciální případ.
+- [EA-2.1.10 Rekonfigurace kvalifikačních standardů](@/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md)
+  – speciální případ.
+- [EA-2.4.10 Zachycení odborné společnosti](@/kompendium/techniques/ea-2-4-10-disciplinary-society-capture.md)
+  – etické kodexy oboru.
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+**Pojmy**
+
+- [Glosář: newspeak](@/glossary/newspeak.md) – proměna významu slov.
+
+**Pomoc**
+
+- [Cykly revize pravidel](@/kompendium/organizational-defense/8-policy-review-cycles.md) –
+  řádná revize.
+- [Standardy dokumentace](@/kompendium/organizational-defense/24-documentation-standards.md)
+  – archiv verzí.

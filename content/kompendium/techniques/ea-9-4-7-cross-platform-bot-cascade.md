@@ -1,14 +1,14 @@
 +++
 title = "EA-9.4.7 Cross-Platform Bot Cascade"
-description = "Současná digitální EA — cross-platform bot cascade."
+description = "Vzorec, v němž síť botů přenáší tentýž obsah s drobnými úpravami z platformy na platformu, takže se zdá nezávisle potvrzený v různých prostředích. Znaky a obrana."
 weight = 947
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-4-5-troll-farm-EA", "ea-9-4-6-mass-comment-coordination", "ea-9-4-8-real-time-bot-response", "ea-9-4-9-bot-narrative-injection"]
+related_terms = ["ea-9-4-1-bot-amplification-coordinated", "ea-9-4-8-real-time-bot-response", "ea-9-3-7-platform-coordinated-attack", "ea-9-2-6-AI-news-cascade"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.7"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,115 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Boti operující synchronně napříč platformami — Twitter→Reddit→Facebook→TikTok — replikující obsah s drobnými adaptacemi.
+*Cross-platform bot cascade* je řetězové šíření obsahu sítí automatizovaných účtů napříč platformami: obsah se objeví na jedné síti, boti ho přenesou do diskusních vláken jiné, vloží do skupin třetí a převedou do formátu krátkého videa na čtvrté. Každý přenos obsah mírně upraví, aby odpovídal prostředí, a výsledkem je dojem, že téma „žije“ všude nezávisle.
 
-V kontextu Prismatic doktríny je Cross-Platform Bot Cascade klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.4.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Centrální operátor používá multi-platform bot framework; obsah se objevuje na X, je sdílen do Reddit threads, vkládán do FB skupin, převeden na TikTok video.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Uživatelé pohybující se na více platformách vnímají výskyt tématu v různých prostředích jako potvrzení jeho významu a pravdivosti. Platformy přitom vidí jen vlastní výsek a nemají přehled o koordinaci jinde, takže každá posuzuje „svou“ část jako běžný obsah. Kaskáda tak využívá mezery mezi platformami. Na rozdíl od [EA-9.3.7](@/kompendium/techniques/ea-9-3-7-platform-coordinated-attack.md), kde se obsah objeví všude najednou, kaskáda postupuje v krocích a každý krok se opírá o předchozí („už se o tom mluví na…“).
 
 ## 4. Detekční markery
 
-Cross-platform fingerprinting, content propagation tracing, identity correlation, infrastructure overlap detection.
+- Tentýž obrázek, citát nebo video se postupně objevuje na platformách s odkazem na „předchozí“ výskyt.
+- Účty, které obsah přenášejí, jsou nové a aktivní na více platformách se stejnými jmény nebo portréty.
+- Úpravy jsou formální (formát, délka), ne obsahové; chybí vlastní komentář.
+- Časová posloupnost výskytů je pravidelná a rychlá.
+- Na každé platformě obsah začíná šířit malý okruh účtů, teprve pak se přidávají skuteční uživatelé.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Přirozené přelévání obsahu*: lidé sdílejí, co viděli jinde, ale s vlastními komentáři a v nepravidelném čase. *[EA-9.3.7 Platform Coordinated Attack](@/kompendium/techniques/ea-9-3-7-platform-coordinated-attack.md)*: synchronní výskyt; kaskáda je postupná. *Oficiální komunikace na více kanálech*: transparentní původce na všech platformách.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Kaskáda umožňuje obejít moderaci jedné platformy (obsah odstraněný na jedné přežívá jinde) a vytváří dojem širokého zájmu. Rámcem obrany je spolupráce platforem, výzkumníků a novinářů a regulace velkých platforem; v bezpečnostním kontextu sdílení poznatků o hrozbách.
 
-## 5. Neutralizační strategie
+Pro organizace, o nichž kaskáda šíří nepravdivé informace, je klíčové reagovat na všech platformách, kde se obsah objevil, a odkazovat na jeden ověřený zdroj. Pro média je důležité sledovat cestu obsahu, ne jen jeho poslední výskyt, a uvádět ji v článku, aby čtenáři viděli, že „všudypřítomné“ tvrzení má jediný původ.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Uživatel*: výskyt na více platformách není nezávislé potvrzení; dohledat první zdroj. *Novináři a analytici*: mapovat cestu obsahu napříč platformami ([Triangulace napříč zdroji v OSINT](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md)). *Platformy*: sdílet poznatky o kaskádách při ochraně soukromí. *Organizace*: sledovat zmínky o sobě napříč platformami a reagovat na zdroj, ne na každou kopii.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Zmanipulovaný graf o kriminalitě se objeví na mikroblogu, o den později v diskusním vláknu s odkazem „už to sdílejí všichni“, poté ve skupinách sociální sítě a nakonec jako krátké video s komentářem syntetického hlasu. Statistický úřad graf vyvrátí na svém webu, ale vyvrácení se šíří jen na jedné platformě. Výzkumná skupina zmapuje cestu grafu a ukáže, že všechny první výskyty pocházejí z účtů téže sítě.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Sledování obsahu napříč platformami je technicky a právně náročné a výzkumníci mají k datům omezený přístup. Otevřenou otázkou je, jak umožnit takový výzkum a zároveň chránit soukromí uživatelů.
 
-**Layer 4 — Accountability:**
+Kniha neuvádí čísla o četnosti kaskád napříč platformami; dostupné jsou hlavně analýzy jednotlivých případů.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřené zůstává i to, jak koordinovat reakci platforem bez vytvoření centralizovaného systému, který by sám mohl být zneužit k umlčování; kniha tuto otázku spojuje s rizikem popsaným v [EA-9.6.4](@/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md).
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Uživatel, který obsah potkal na několika místech, si je jistý, že „to přece není výmysl“. Vysvětlení má největší šanci, když společně dohledáme první výskyt. Pro cíl kaskády je náročné, že vyvrácení na jedné platformě nestačí; pomáhá mít jeden ověřený kanál, na který lze odkazovat.
 
-- **EA-1.* (Vědomá kontrola informací)** — Cross-Platform Bot Cascade představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro organizaci, kterou kaskáda poškodila, je zátěží i to, že oprava musí probíhat všude současně; pomáhá koordinace komunikace a jasný jeden zdroj pravdy. Pro jednotlivce, kteří obsah v dobré víře sdíleli, je užitečné vědět, jak kaskáda funguje, aby se příště mohli zeptat po původním zdroji.
 
-## 7. Vztah k Prismatic platformě
+Další otázkou je, jak dlouho mají platformy uchovávat data potřebná k zpětnému zmapování kaskády.
 
-Prismatic Platform implementuje detekci a neutralizaci Cross-Platform Bot Cascade přes následující komponenty:
+Kniha tuto otázku nechává otevřenou.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 11. Vztah k ostatním kategoriím EA
 
-**Doctrine compliance:**
+Kaskáda je technickou podobou cirkulárního ověřování, které popisuje [Detekční signatura: Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md), a nosičem [EA-9.2.6 AI News Cascade](@/kompendium/techniques/ea-9-2-6-AI-news-cascade.md).
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 12. Postup při mapování kaskády
 
-## 8. Cross-linky
+1. **Najít první výskyt** obsahu a zaznamenat čas.
+2. **Sledovat přechody** mezi platformami s odkazy a časy.
+3. **Prověřit účty**, které obsah přenášejí – jména, portréty, stáří.
+4. **Porovnat úpravy** obsahu mezi platformami.
+5. **Zveřejnit mapu cesty** a upozornit platformy.
 
-**Související EA techniky:**
+## 13. Prevence a odolnost
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)
-- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)
+Prevence stojí na publiku, které výskyt na více platformách nepovažuje za nezávislé potvrzení, na spolupráci platforem při sdílení poznatků a na organizacích, které reagují na zdroj, ne na každou kopii.
 
-**Doktrinální a infrastructure odkazy:**
+Pro veřejnost je užitečný zvyk dohledat původní zdroj, kdykoli se tvrzení objevuje na mnoha místech současně a nikde neuvádí, odkud pochází.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## 14. Otázky pro rozhovor a šetření
 
----
+- Kde jste obsah viděli poprvé a kde potom?
+- Odkazují výskyty na sebe navzájem?
+- Přenášejí obsah tytéž účty na různých platformách?
+- Přidávají šiřitelé vlastní komentář, nebo jen přenášejí?
+- Kde lze najít původní zdroj?
 
-## Connect & Contribute
+## Odborný kontext
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Výzkum informačních operací ukazuje, že obsah se šíří přes ekosystémy platforem a médií, v nichž se jednotlivé kanály navzájem posilují (Benkler, Faris a Roberts 2018). Starbird, Arif a Wilson (2019) popsali, že strategické operace využívají přechody mezi platformami a že každá platforma vidí jen svou část, což ztěžuje odhalení. Ferrara et al. (2016) upozornili, že boti mohou napodobovat lidské chování na více platformách současně.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Goldman (2001) vysvětlil, proč výskyt v různých prostředích působí přesvědčivě: zdá se, že jde o nezávislé zdroje. Kaskáda tuto heuristiku zneužívá stejně jako cirkulární citace. Wardle a Derakhshan (2017) proto doporučují sledovat cestu sdělení, nejen jeho obsah – u kaskád je cesta nejsilnějším důkazem koordinace.
 
----
+## Souvislosti pro praxi
 
-*EA-9.4.7 | Subkategorie 9.4 Bot networks | Prismatic Compendium | Version 18.4.0*
+Pro výzkumníky je klíčový přístup k datům více platforem a spolupráce s novináři, kteří mohou cestu obsahu zdokumentovat. Pro instituce, jejichž data byla zkreslena (statistické úřady, nemocnice), je užitečné mít vlastní kanály na více platformách, aby se oprava šířila stejnými cestami jako kaskáda.
+
+## Literatura
+
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md)*. Oxford University Press.
+- Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A. (2016). The rise of social bots. *Communications of the ACM*.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*.
+- Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md) – zesílení na jedné platformě.
+- [EA-9.4.8 Real-Time Bot Response](@/kompendium/techniques/ea-9-4-8-real-time-bot-response.md) – rychlá reakce botů na událost.
+- [EA-9.3.7 Platform Coordinated Attack](@/kompendium/techniques/ea-9-3-7-platform-coordinated-attack.md) – synchronní varianta.
+- [EA-9.2.6 AI News Cascade](@/kompendium/techniques/ea-9-2-6-AI-news-cascade.md) – generované zpravodajství.
+
+**Detekce a metody**
+
+- [Detekční signatura: Platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md) – stopy koordinace.
+- [Triangulace napříč zdroji v OSINT](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) – mapování cesty obsahu.
+
+**Obrana**
+
+- [Sebe-obrana: Rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md) – nezávislost zdrojů.

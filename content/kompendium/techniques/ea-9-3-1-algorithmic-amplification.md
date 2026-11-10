@@ -1,14 +1,14 @@
 +++
 title = "EA-9.3.1 Algoritmická amplifikace"
-description = "Současná digitální EA — algoritmická amplifikace."
+description = "Vzorec, v němž se obsah ladí na signály doporučovacích algoritmů (rychlost reakcí, sledovanost, kontroverze), aby získal dosah neúměrný své hodnotě. Znaky a obrana."
 weight = 931
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-2-8-AI-eyewitness-fabrication", "ea-9-2-9-AI-document-forgery", "ea-9-3-10-trend-manipulation-EA", "ea-9-3-2-engagement-optimization-EA"]
+related_terms = ["ea-9-3-2-engagement-optimization-EA", "ea-9-3-10-trend-manipulation-EA", "ea-9-3-4-recommendation-radicalization"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.1"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,105 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Strategická exploatace doporučovacích algoritmů sociálních platforem k disproporčnímu zesílení specifického obsahu nad jiným.
+*Algoritmická amplifikace* jako epistemická agrese je cílené využití doporučovacích algoritmů sociálních platforem k tomu, aby určitý obsah získal dosah neúměrný své věcné hodnotě a aby vytlačil jiný. Obsah se ladí na signály, které algoritmus odměňuje – rychlé reakce v prvních minutách, dobu sledování, počet komentářů, kontroverzi –, nikoli na pravdivost nebo užitečnost.
 
-V kontextu Prismatic doktríny je Algoritmická amplifikace klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník identifikuje engagement signály (early-velocity, watch-time, controversy) a optimalizuje obsah/načasování/formát tak, aby algoritmus obsah maximálně distribuoval.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Doporučovací systémy optimalizují na zapojení uživatelů, protože to je měřitelné a souvisí s příjmy z reklamy. Pravdivost ani přínos pro porozumění měřit neumějí. Vzniká mezera, kterou lze využít: obsah, který vyvolá silnou reakci, dostane víc prostoru, a tím ještě víc reakcí. Uživatel pak vidí ne to, co je důležité, ale to, co bylo nejlépe vyladěno na algoritmus, a přehled o tom, co je „hlavní téma“, vzniká strojově. Amplifikace sama není manipulace – platformy zesilují vždy něco; epistemickou agresí se stává tam, kde se zesílení cíleně vyrábí, aby zkreslilo vnímání reality, a kde zůstává pro publikum neviditelné.
 
 ## 4. Detekční markery
 
-Engagement-pattern anomaly detection, virality forensics, content velocity tracking, algorithmic transparency audits.
+- Obsah získá v prvních minutách nápadně rychlý nárůst reakcí, často od účtů bez historie zájmu o téma.
+- Dosah výrazně převyšuje obvyklý dosah autora i typického obsahu daného tématu.
+- Formát je optimalizovaný na reakci (provokativní titulek, otázka, zkratka), ne na informaci.
+- Téma náhle „ovládne“ feed bez odpovídající události nebo zpravodajství.
+- Kritické reakce obsah dále zesilují – každý vyvracející komentář zvyšuje jeho viditelnost.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Organická virálnost*: zájem roste postupně a z různých komunit, obsah má zřejmou hodnotu (humor, informace, emoce). *[EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)*: zesílení sítí botů; algoritmická amplifikace může probíhat i bez nich, jen laděním obsahu. *Placená propagace*: legitimní, pokud je označená jako reklama.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Na úrovni jednotlivce vzorec deformuje odhad toho, co je běžné, důležité a pravdivé; nejhlasitější obsah působí jako většinový. Na úrovni společnosti posiluje polarizaci a znevýhodňuje pomalé, pečlivé informace. Regulačně se v EU uplatňuje nařízení o digitálních službách (DSA), které velkým platformám ukládá posuzovat systémová rizika svých doporučovacích systémů a nabídnout uživatelům volbu feedu nezaloženého na profilování ([Regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md)).
 
-## 5. Neutralizační strategie
+Pro organizace a instituce má vzorec i praktický rozměr: zesílený obsah o nich může během hodin vytvořit krizi, na niž je třeba reagovat dřív, než je jasné, zda jde o skutečný problém. Připravený postup krizové komunikace a monitorování zmínek proto patří k základní obranné výbavě.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Uživatel*: rozlišovat „hodně vidím“ od „hodně se děje“; používat chronologické feedy a vlastní seznamy zdrojů ([Detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)). *Novináři*: nezpravodajovat o obsahu jen proto, že je virální; ptát se, proč je virální. *Platformy*: transparentnost doporučování, audity, omezení zesilování obsahu s neobvyklým vzorcem reakcí. *Školy*: vysvětlovat princip doporučovacích systémů v rámci mediální výchovy.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Krátké video s provokativním tvrzením o školní reformě získá během hodiny statisíce zhlédnutí. Většina komentářů s ním nesouhlasí, ale právě spory v komentářích ho tlačí výš. Ministerstvo zveřejní věcné vyvrácení, které má zlomek dosahu. Rodiče na schůzce citují video jako „to, o čem se všude mluví“; učitelka jim ukáže, jak se dosah obsahu tvoří, a debata se vrátí k samotné reformě.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Vnější pozorovatel nevidí, jak algoritmus přesně rozhoduje, a tak rozlišení cílené amplifikace od organického zájmu zůstává často pravděpodobnostní. Výzkum dopadu doporučovacích systémů na postoje přináší rozporné výsledky; kniha proto mluví o vzorci, ne o změřené velikosti účinku.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Uživatel ponořený do zesíleného tématu zažívá pocit naléhavosti a ohrožení, který neodpovídá jeho bezprostřednímu okolí. Pomáhá pojmenovat rozdíl mezi feedem a světem a vrátit pozornost k místním, ověřitelným informacím. U lidí s úzkostnými obtížemi je dlouhodobé vystavení zesíleným hrozbám samostatným rizikem.
 
-## 6. Vztah k jiným EA
+Pro blízké takového uživatele platí, že výsměch nepomáhá.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 11. Vztah k ostatním kategoriím EA
 
-- **EA-1.* (Vědomá kontrola informací)** — Algoritmická amplifikace představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Algoritmická amplifikace je infrastrukturou, na níž stojí většina vzorců této subkategorie: [EA-9.3.2](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) ladí obsah, [EA-9.3.10](@/kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md) vyrábí trend. V kapitole 2 jí odpovídá [EA-2.3.5 Pseudo-kontroverze Amplifikace](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md).
 
-## 7. Vztah k Prismatic platformě
+## 12. Postup při podezření na cílenou amplifikaci
 
-Prismatic Platform implementuje detekci a neutralizaci Algoritmická amplifikace přes následující komponenty:
+1. **Zaznamenat průběh dosahu** obsahu v čase a účty, které ho zesílily v prvních minutách.
+2. **Porovnat s obvyklým dosahem** autora a tématu.
+3. **Prověřit účty zesilovatelů** – stáří, historii, propojení.
+4. **Ověřit obsah samotný** u primárních zdrojů, nezávisle na jeho popularitě.
+5. **Informovat bez zesílení** – popsat mechanismus, nereprodukovat obsah.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 13. Prevence a odolnost
 
-**Doctrine compliance:**
+Odolnost jednotlivce stojí na odlišení „vidím často“ od „je důležité“ a na vlastní kontrole nad informační dietou, včetně chronologických feedů a vybraných zdrojů. Systémově pomáhá transparentnost doporučovacích systémů, nezávislé audity a možnost volby feedu nezaloženého na profilování, kterou velkým platformám ukládá evropská regulace.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 14. Otázky pro rozhovor a šetření
 
-## 8. Cross-linky
+- Proč si myslíte, že obsah vidíte tak často?
+- Odkud pochází a kdo ho šíří?
+- Odpovídá jeho dosah tomu, co se skutečně děje?
+- Jaké zdroje k tématu sledujete mimo feed?
 
-**Související EA techniky:**
+## Odborný kontext
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
-- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)
-- [EA-9.3.5 Shadowban Coordination](@/kompendium/techniques/ea-9-3-5-shadowban-coordination.md)
+Výzkum šíření informací ukázal, že nepravdivé zprávy se na sociální síti šíří rychleji a dál než pravdivé, převážně díky lidem, kteří je sdílejí kvůli novosti a emocím (Vosoughi, Roy a Aral 2018). Brady et al. (2017) doložili, že morálně-emoční výrazy zvyšují pravděpodobnost sdílení. Doporučovací systémy, které optimalizují na zapojení, tyto lidské sklony zesilují; amplifikace tedy vzniká souhrou psychologie a technologie, nikoli jen strojem.
 
-**Doktrinální a infrastructure odkazy:**
+Gillespie (2018) upozornil, že platformy nejsou neutrálními kanály, ale svými rozhodnutími o řazení a doporučování formují, co je veřejně viditelné. Kozyreva, Lewandowsky a Hertwig (2020) shrnuli, jak architektura online prostředí ovlivňuje pozornost a úsudek, a navrhli kombinaci regulace a „posilování“ kompetencí uživatelů. Kniha přebírá jejich rozlišení: obrana proti amplifikaci potřebuje obojí – pravidla pro systémy i dovednosti lidí.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Souvislosti pro praxi
 
----
+Pro novináře je nejdůležitější otázka „proč je tento obsah virální?“ dřív, než o něm napíší; virálnost sama není zpráva. Pro učitele je princip doporučovacích systémů vhodným tématem mediální výchovy, protože žáci ho denně zažívají, ale málokdy ho umějí popsat. Pro instituce platí, že vyvrácení zesíleného obsahu by mělo být formulováno srozumitelně a sdíleno kanály, které důvěryhodně oslovují stejné publikum.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). Emotion shapes the diffusion of moralized content in social networks. *PNAS*.
+- Gillespie, T. (2018). *Custodians of the Internet*. Yale University Press.
+- Kozyreva, A., Lewandowsky, S., & Hertwig, R. (2020). Citizens versus the internet: Confronting digital challenges with cognitive tools. *Psychological Science in the Public Interest*.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Související
 
----
+**Sourozenecké techniky**
 
-*EA-9.3.1 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*
+- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – obsah laděný na reakci.
+- [EA-9.3.10 Trend Manipulation EA](@/kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md) – uměle vyvolaný trend.
+- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md) – doporučovací smyčka jako cesta k extrému.
+
+**Detekce**
+
+- [Detekční signatura: Asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md) – dosah bez odpovídající opory.
+- [Detekční signatura: Platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md) – stopy řízeného zesílení.
+
+**Obrana a politika**
+
+- [Sebe-obrana: Detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md) – vlastní kontrola nad tím, co vidím.
+- [Regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md) – systémová odpověď.
+- [Boyd: sociotechnická analýza dezinformací](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md) – teoretický rámec.

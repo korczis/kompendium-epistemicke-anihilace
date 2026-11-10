@@ -1,14 +1,14 @@
 +++
 title = "EA-9.2.10 AI Personhood Claim"
-description = "Současná digitální EA — ai personhood claim."
+description = "Vzorec plně syntetické „osoby“ – generovaný portrét, životopis, hlas a sociální stopa –, která vstupuje do sítí jako expert, novinář nebo aktivista. Znaky a obrana."
 weight = 930
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-1-9-multi-turn-narrative-shift", "ea-9-2-1-deepfake-personality", "ea-9-2-2-voice-cloning-EA", "ea-9-2-3-synthetic-text-narrative"]
+related_terms = ["ea-9-2-1-deepfake-personality", "ea-9-4-4-AI-bot-personhood", "ea-9-4-3-sock-puppet-network", "ea-9-1-7-synthetic-expertise-claim"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.10"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,98 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Vytvoření plně syntetické 'osoby' (jméno, foto, životopis, sociální stopa, hlas) pro účely infiltrace, social engineeringu nebo vlivových operací.
+*AI personhood claim* je vytvoření plně syntetické osoby: generovaného portrétu, jména, životopisu, hlasu a postupně budované stopy na sociálních sítích a v profesních sítích. Persona pak vystupuje jako odborník, novinář, aktivista nebo potenciální partner a získává důvěru, kontakty a vliv, které by skutečný aktér pod vlastním jménem nezískal.
 
-V kontextu Prismatic doktríny je AI Personhood Claim klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.2.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník generuje GAN-portrét, LLM-životopis, voice samples a buduje sociální stopu (LinkedIn, Twitter/X, blog); persona poté vstupuje do networků jako legitimní expert/novinář/aktivista.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Důvěra mezi lidmi se online opírá o znaky identity: tvář, jméno, historii, společné kontakty. Syntetická persona tyto znaky vyrábí a postupně je zhodnocuje – každý přijatý kontakt zvyšuje věrohodnost u dalšího. Persona může sloužit ke sběru informací, k ovlivňování debaty, k podvodu (včetně romantických podvodů) nebo k vytváření zdání nezávislé podpory. Na rozdíl od [botů](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md) jde často o jednotlivou, pečlivě budovanou identitu s dlouhodobým účelem.
 
 ## 4. Detekční markery
 
-Reverse face search, biographical cross-validation, network behavior analysis, GAN-portrait detection (StyleGAN artefakty).
+- Portrét se nedá najít jinde, má typické vady generovaných tváří (pozadí, uši, brýle, šperky) a chybí další fotografie z různých situací.
+- Životopis nelze ověřit: zaměstnavatelé, školy a publikace o osobě nevědí.
+- Síť kontaktů rychle roste, ale osobně osobu nikdo nezná; odmítá videohovor nebo osobní setkání.
+- Profil vznikl nedávno, ale vystupuje s velkou sebejistotou a rychle žádá o přístup, informace nebo peníze.
+- Stylisticky homogenní obsah bez osobních detailů a chyb.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Pseudonym*: skutečný člověk pod jiným jménem; legitimní, pokud neklame o podstatných vlastnostech (kvalifikace, příslušnost). *[EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)*: zneužití identity skutečné osoby; zde osoba neexistuje. *[EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)*: síť méně propracovaných účtů jednoho aktéra.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Syntetické persony umožňují infiltraci profesních sítí, novinářských zdrojů a aktivistických skupin a sběr informací o lidech, kteří jim důvěřují. V osobní rovině se objevují v romantických a investičních podvodech. Pro organizace jde o bezpečnostní riziko ([Prověřování externistů](@/kompendium/organizational-defense/26-contractor-vetting.md)); právně se uplatní podvod, neoprávněné shromažďování údajů nebo pravidla platforem o falešných identitách.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Jednotlivec*: ověřit identitu nového kontaktu mimo platformu (videohovor, společný známý, ověřitelná práce); nesdílet citlivé údaje s osobou, kterou nikdo nezná osobně. *Organizace a redakce*: prověřovat externí experty a zdroje; školit zaměstnance v rozpoznávání falešných profilů. *Platformy*: sledovat profily s generovanými portréty a rychle rostoucími sítěmi. *Po odhalení*: upozornit kontakty, zjistit, jaké informace persona získala, a nastavit nápravná opatření.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Profil „bezpečnostní analytičky“ s profesionálním portrétem a výborným životopisem během několika měsíců získá stovky kontaktů v oboru a začne oslovovat zaměstnance státních institucí s nabídkou spolupráce na „studii“. Jeden z oslovených požádá o videohovor; persona opakovaně odkládá. Zpětné ověření ukáže, že uvedený zaměstnavatel analytičku nezná a portrét nese typické znaky generované tváře. Instituce varuje zaměstnance a hlásí profil.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Generované portréty jsou čím dál dokonalejší a vizuální znaky přestávají stačit; spolehlivější je ověřování životopisu a kontaktu mimo platformu. Otevřené zůstává, jak chránit legitimní anonymitu (whistlebloweři, ohrožení aktivisté) a zároveň omezit syntetické persony.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Rozsah používání syntetických person ve vlivových operacích je známý hlavně ze zpráv platforem o odstraněných sítích a z novinářských odhalení; systematická data chybějí a kniha proto neuvádí odhady jejich počtu.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Lidé, kteří si se syntetickou personou vytvořili vztah – profesní nebo citový –, prožívají po odhalení zradu a pochybnost o vlastním úsudku, podobně jako oběti romantických podvodů. Terapeutická práce se podobá práci s [traumatem zrady](@/glossary/betrayal-trauma.md): uznat skutečnost prožitku, i když protějšek nebyl skutečný, a postupně obnovit důvěru v jiné vztahy.
 
-## 6. Vztah k jiným EA
+Pro kolegy a nadřízené zasaženého člověka je důležité nereagovat výsměchem: profesní důvěra k novému kontaktu je běžnou součástí práce a selhání je především selháním ověřovacích postupů.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 11. Vztah k ostatním kategoriím EA
 
-- **EA-1.* (Vědomá kontrola informací)** — AI Personhood Claim představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Persona vystupující jako odborník je nosičem [EA-9.1.7 Synthetic Expertise Claim](@/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md); persona budující citový vztah sdílí dynamiku [love bombingu](@/glossary/love-bombing.md) a následné závislosti, kterou kniha popisuje u koercivních vztahů. Infiltrace skupin připomíná vzorce z [případových studií online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md).
 
-## 7. Vztah k Prismatic platformě
+## 12. Postup při podezřelém novém kontaktu
 
-Prismatic Platform implementuje detekci a neutralizaci AI Personhood Claim přes následující komponenty:
+1. **Ověřit identitu** mimo platformu – videohovor, společný známý, ověřitelná práce.
+2. **Zpětně vyhledat portrét** a prověřit životopis u uvedených institucí.
+3. **Nesdílet citlivé údaje** ani nepovolovat přístup, dokud identita není ověřena.
+4. **Nahlásit profil** platformě a upozornit kolegy, pokud se potvrdí podezření.
+5. **Zjistit dopad** – jaké informace persona získala a koho oslovila.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 13. Prevence a odolnost
 
-**Doctrine compliance:**
+Odolnost proti syntetickým personám stojí na návyku ověřovat nové kontakty mimo platformu, zvlášť když rychle žádají o přístup, informace nebo peníze, a na kultuře, v níž je takové ověření považováno za běžnou zdvořilost, nikoli za projev nedůvěry. Organizace mohou riziko snížit jasnými pravidly pro sdílení informací s externími kontakty a pravidelným školením, které ukazuje skutečné příklady falešných profilů. Pro jednotlivce, zvláště osamělé, je nejlepší ochranou síť skutečných vztahů, s nimiž mohou nový kontakt probrat; izolace je podmínkou, bez níž persona zřídka uspěje. Platformy mohou pomoci tím, že zviditelní stáří účtu a ověřené údaje a usnadní nahlašování podezřelých profilů.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## Odborný kontext
 
-## 8. Cross-linky
+Online důvěra se opírá o signály identity – tvář, jméno, historii a společné kontakty –, a syntetická persona tyto signály vyrábí. Nightingale a Farid (2022) doložili, že lidé nedokážou spolehlivě odlišit generované tváře od skutečných a hodnotí je jako důvěryhodnější, což vysvětluje, proč generovaný portrét funguje jako vstupenka do profesních sítí. Cialdini (2001) popsal princip sympatie a podobnosti: věříme lidem, kteří se nám podobají a s nimiž sdílíme kontakty; každý přijatý kontakt tak zvyšuje věrohodnost persony pro další.
 
-**Související EA techniky:**
+Výzkum romantických podvodů ukazuje dynamiku, kterou syntetické persony přebírají: postupné budování vztahu, idealizace, izolace od skeptického okolí a teprve potom požadavek (Whitty a Buchanan 2012). Oběti nejsou typicky naivní, ale emočně investované. Turkle (2011) upozorňuje, že digitální vztahy mohou poskytovat pocit blízkosti bez nároků skutečného vztahu, což zvyšuje jejich přitažlivost pro osamělé lidi. Odhalení persony proto nepřináší jen finanční nebo bezpečnostní škodu, ale i ztrátu vztahu, který byl pro postiženého skutečný.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md)
-- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)
+## Souvislosti pro praxi
 
-**Doktrinální a infrastructure odkazy:**
+Pro organizace s citlivými informacemi je užitečné zahrnout do bezpečnostního školení rozpoznávání falešných profilů a pravidlo ověřovat nové kontakty mimo platformu. Pro terapeuty je důležité přistupovat k obětem syntetických person podobně jako k obětem romantických podvodů – uznat skutečnost prožitku a pracovat se studem. Pro platformy je cenné sledovat profily s generovanými portréty a rychle rostoucími sítěmi a umožnit uživatelům snadno je nahlásit.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Literatura
 
----
+- Cialdini, R. B. (2001). *Influence: Science and Practice* (4. vyd.). Allyn & Bacon.
+- Nightingale, S. J., & Farid, H. (2022). AI-synthesized faces are indistinguishable from real faces and more trustworthy. *PNAS*.
+- Turkle, S. (2011). *Alone Together*. Basic Books.
+- Whitty, M. T., & Buchanan, T. (2012). The online romance scam: A serious cybercrime. *Cyberpsychology, Behavior, and Social Networking*.
 
-## Connect & Contribute
+## Související
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+**Sourozenecké techniky**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md) – zneužití identity skutečné osoby.
+- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md) – bot vydávaný za člověka.
+- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md) – síť falešných účtů.
+- [EA-9.1.7 Synthetic Expertise Claim](@/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md) – předstíraná odbornost.
 
----
+**Organizace a bezpečnost**
 
-*EA-9.2.10 | Subkategorie 9.2 Generativní média | Prismatic Compendium | Version 18.4.0*
+- [Prověřování externistů](@/kompendium/organizational-defense/26-contractor-vetting.md) – ověřování spolupracovníků.
+- [Sociální inženýrství](@/kompendium/cross-domain/17-ea-security-social-engineering.md) – persona jako nástroj.
+
+**Obrana a pojmy**
+
+- [Sebe-obrana: Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – ověřování nových kontaktů.
+- [Trauma zrady](@/glossary/betrayal-trauma.md) – dopad odhalení na postiženého.

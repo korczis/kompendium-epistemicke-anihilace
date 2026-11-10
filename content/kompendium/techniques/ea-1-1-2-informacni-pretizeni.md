@@ -3,6 +3,7 @@ title = "EA-1.1.2 Informační přetížení"
 description = "Detailní per-technique článek: technika informačního přetížení — prezentace excesivního množství dat, která znemožňuje kritické zpracování."
 weight = 112
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-1-1-2/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-1-1-2", "informacni-pretizeni", "akvizice", "kognitivni-zahlceni"]

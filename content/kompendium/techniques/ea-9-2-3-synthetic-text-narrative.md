@@ -1,14 +1,14 @@
 +++
 title = "EA-9.2.3 Synthetic Text Narrative"
-description = "Současná digitální EA — synthetic text narrative."
+description = "Vzorec, v němž hromadně generované články, příspěvky a recenze vytvářejí dojem širokého a nezávislého mínění, ačkoli pocházejí z jednoho zdroje. Znaky a obrana."
 weight = 923
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-2-10-AI-personhood-claim", "ea-9-2-2-voice-cloning-EA", "ea-9-2-4-image-manipulation-EA", "ea-9-2-5-video-manipulation-EA"]
+related_terms = ["ea-9-2-6-AI-news-cascade", "ea-9-1-10-llm-recursion-loop", "ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-6-mass-comment-coordination"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.3"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,103 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Masově generované syntetické texty (články, posty, recenze) tvořící zdánlivě nezávislý narrativní ekosystém, který v skutečnosti pochází z jednoho zdroje.
+*Synthetic text narrative* je ekosystém textů – článků, příspěvků, komentářů, recenzí – vytvořených jazykovými modely ve velkém počtu a s drobnými obměnami, publikovaných pod různými jmény a na různých místech. Výsledkem je zdání, že určitý názor nebo hodnocení sdílí mnoho nezávislých lidí („všichni říkají X“), ačkoli za ním stojí jediný zdroj.
 
-V kontextu Prismatic doktríny je Synthetic Text Narrative klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.2.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník generuje stovky LLM-textů s mírnými variacemi, publikuje je přes různá pseudonyma na blogy/fóra/komentáře — vzniká dojem rozšířeného mínění ('všichni říkají X').
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec cílí na sociální důkaz: lidé odhadují, co je pravdivé nebo běžné, podle toho, kolik různých hlasů vidí. Generování textu snížilo cenu jednoho „hlasu“ téměř na nulu, a tak lze vyrobit množství, které dříve vyžadovalo organizovanou skupinu lidí. Texty se navzájem nemusejí citovat; stačí, že pokrývají prostor vyhledávání a diskusí. Jde o textovou obdobu [koordinovaného neautentického chování](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) a o palivo pro [EA-9.2.6 AI News Cascade](@/kompendium/techniques/ea-9-2-6-AI-news-cascade.md).
 
 ## 4. Detekční markery
 
-Stylometric clustering, posting-pattern analysis, infrastructure overlap (IP, DNS, hosting), text fingerprinting.
+- Mnoho textů se shodnou strukturou argumentu, podobnými frázemi a stejnými příklady, jen v jiném pořadí.
+- Autoři bez historie, bez fotografie nebo s generickou identitou; účty založené v krátkém období.
+- Recenze s obecnou chválou nebo kritikou bez konkrétní zkušenosti s produktem či službou.
+- Nápadné načasování: vlna textů v krátkém okně kolem události.
+- Při dotazu na podrobnosti autoři neodpovídají nebo odpovídají opět obecně.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Skutečná vlna mínění*: různé formulace, osobní zkušenosti, nesouhlas uvnitř skupiny, autoři s historií. *Organizovaná kampaň lidí*: legitimní, pokud je přiznaná (petice, výzva); neautentická, pokud se skrývá. *Obsahové farmy*: generují text kvůli reklamním příjmům, ne kvůli názoru; účinky se ale mohou překrývat.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vzorec zkresluje vnímání veřejného mínění, poškozuje konkurenty falešnými recenzemi a zahlcuje prostor tak, že autentické hlasy zanikají ([firehose of falsehood](@/glossary/firehose-of-falsehood.md)). Právně se mohou uplatnit pravidla nekalé soutěže a ochrany spotřebitele (falešné recenze) a pravidla platforem o neautentickém chování. Pro výzkum veřejného mínění z online dat znamená vzorec zásadní zkreslení vzorku.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář*: hodnotit kvalitu, ne množství; hledat konkrétní zkušenosti a autory s ověřitelnou historií. *Platformy a e-shopy*: ověřovat nákup u recenzí, sledovat shluky podobných textů a nových účtů. *Výzkumníci a novináři*: nepoužívat počet příspěvků jako měřítko mínění bez kontroly autenticity ([Detekce botů v OSINT](@/kompendium/cross-domain/6-ea-osint-bot-detection.md)). *Organizace*: sledovat náhlé vlny textů o sobě a reagovat věcně, ne protikampaní.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Malá kavárna dostane během týdne desítky jednohvězdičkových recenzí, které popisují „hrubou obsluhu a špinavé nádobí“ podobnými slovy. Účty jsou nové, bez dalších recenzí. Majitelka shluk nahlásí platformě s přehledem dat a formulací; část recenzí platforma odstraní. Místní zákazníci mezitím přidají vlastní hodnocení. Původ kampaně zůstane neznámý.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Rozpoznání generovaných textů podle stylu je nespolehlivé a jednotlivý text nelze s jistotou označit. Spolehlivější jsou síťové znaky – časování, účty, infrastruktura. Otevřenou otázkou je, jak měřit veřejné mínění online, když podíl generovaných textů není znám.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Kniha proto neuvádí odhady podílu generovaných textů v online diskusích; dostupná čísla se liší podle metody a platformy řádově.
 
-**Layer 4 — Accountability:**
+Pro výzkum je otevřená i otázka, jak odlišit koordinovanou syntetickou vlnu od přirozené mobilizace skutečných lidí, kteří sdílejí šablonu výzvy.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 10. Pohled zevnitř a práce s postiženým
 
-## 6. Vztah k jiným EA
+Kdo se ocitne v cíli vlny negativních textů, zažívá pocit, že „všichni jsou proti mně“, a může začít pochybovat o vlastní práci nebo názoru. Pomáhá ukázat strukturu vlny – kolik účtů, odkud, jak podobných – a vrátit člověka k hodnocení od lidí, které zná. Pro čtenáře, který vlně uvěřil, je užitečné vysvětlit, že vnímání „většiny“ online lze levně vyrobit.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+U drobných podnikatelů má vlna falešných recenzí i ekonomický dopad, který zvyšuje stres; pomáhá praktická podpora při komunikaci s platformou a s věrnými zákazníky.
 
-- **EA-1.* (Vědomá kontrola informací)** — Synthetic Text Narrative představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 11. Vztah k ostatním kategoriím EA
 
-## 7. Vztah k Prismatic platformě
+V kapitole 2 odpovídá vzorci [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md), kde se zdání shody vyrábí v odborném prostředí; generovaný text ho přenáší do veřejného prostoru. Zahlcení množstvím souvisí s [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md): pravdivé hlasy nezmizí, ale ztratí se.
 
-Prismatic Platform implementuje detekci a neutralizaci Synthetic Text Narrative přes následující komponenty:
+## 12. Postup při podezření na syntetickou vlnu textů
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+1. **Shromáždit vzorek** textů s daty, autory a místy zveřejnění.
+2. **Porovnat strukturu** argumentů, frází a příkladů napříč texty.
+3. **Prověřit účty** – datum založení, historii, propojení.
+4. **Nahlásit vzorec** platformě nebo provozovateli recenzí jako celek, ne jednotlivě.
+5. **Reagovat věcně** jedním kanálem; nevstupovat do protikampaně.
 
-**Doctrine compliance:**
+## 13. Prevence a odolnost
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Odolnost čtenářů roste s pochopením, že množství hlasů online lze levně vyrobit, a s návykem hodnotit obsah podle doložitelné zkušenosti a identity autora, nikoli podle počtu podobných textů. Pro platformy je prevencí ověřování autenticity účtů a recenzí, pro výzkum metodická opatrnost při práci s daty ze sítí a pro instituce věcná a jednotná komunikace, která nevstupuje do soutěže v objemu.
 
-## 8. Cross-linky
+## Odborný kontext
 
-**Související EA techniky:**
+Sociální důkaz – úsudek podle toho, co si myslí a dělají druzí – je jedním z nejsilnějších mechanismů vlivu (Cialdini 2001). Hromadně generovaný text ho padělá levněji než kdykoli dříve. Goldman (2001) upozornil, že shoda mnoha hlasů má důkazní hodnotu jen tehdy, jsou-li hlasy na sobě nezávislé; syntetický ekosystém textů tuto podmínku zásadně porušuje, protože mnoho hlasů má jednoho autora.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)
-- [EA-9.2.5 Video Manipulation EA](@/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md)
+Paul a Matthews (2016) popsali model propagandy založený na objemu, rychlosti a opakování, nikoli na konzistenci; generování textu tento model zlevňuje a zpřístupňuje i malým aktérům. Efekt iluzorní pravdy vysvětluje, proč opakované setkání s týmž tvrzením v různých formulacích zvyšuje jeho přesvědčivost (Fazio et al. 2015). Shumailov et al. (2024) navíc ukázali, že generovaný obsah, který se vrací do trénovacích dat, ochuzuje rozmanitost budoucích modelů – syntetický ekosystém tak poškozuje i nástroje, jimiž ho chceme odhalovat.
 
-**Doktrinální a infrastructure odkazy:**
+Pro detekci z toho plyne, že spolehlivější než posuzování jednotlivých textů jsou síťové znaky: časování, účty, infrastruktura a podobnost argumentační struktury napříč texty.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Souvislosti pro praxi
 
----
+Pro výzkumníky veřejného mínění a novináře, kteří pracují s daty ze sociálních sítí, je nezbytné před analýzou očistit vzorek o neautentické účty a uvádět, jak to udělali. Pro e-shopy a platformy s recenzemi je účinné vázat recenzi na ověřený nákup. Pro firmy a obce, které čelí vlně negativních textů, je užitečné reagovat věcně, jedním kanálem, a nevstupovat do protikampaně, která by vzorec jen zesílila.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- Cialdini, R. B. (2001). *Influence: Science and Practice* (4. vyd.). Allyn & Bacon.
+- Fazio, L. K., Brashier, N. M., Payne, B. K., & Marsh, E. J. (2015). Knowledge does not protect against illusory truth. *Journal of Experimental Psychology: General*.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model*. RAND Corporation.
+- Shumailov, I. et al. (2024). AI models collapse when trained on recursively generated data. *Nature*.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Související
 
----
+**Sourozenecké techniky**
 
-*EA-9.2.3 | Subkategorie 9.2 Generativní média | Prismatic Compendium | Version 18.4.0*
+- [EA-9.2.6 AI News Cascade](@/kompendium/techniques/ea-9-2-6-AI-news-cascade.md) – generované „zpravodajství“, které se vzájemně cituje.
+- [EA-9.1.10 LLM Recursion Loop](@/kompendium/techniques/ea-9-1-10-llm-recursion-loop.md) – návrat generovaného textu do dat modelů.
+- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) – obecný rámec neautentického chování.
+- [EA-9.4.6 Mass Comment Coordination](@/kompendium/techniques/ea-9-4-6-mass-comment-coordination.md) – hromadné komentáře.
+
+**Detekce**
+
+- [Detekční signatura: Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) – mnoho hlasů, jeden původ.
+- [Detekce botů v OSINT](@/kompendium/cross-domain/6-ea-osint-bot-detection.md) – síťové znaky neautenticity.
+
+**Pojmy a obrana**
+
+- [Firehose of falsehood](@/glossary/firehose-of-falsehood.md) – zahlcení množstvím.
+- [Sebe-obrana: Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) – výběr hlasů s doloženou identitou.

@@ -3,6 +3,7 @@ title = "EA-1.3.1 Imunizace proti falsifikaci"
 description = "Detailní per-technique článek: imunizace proti falsifikaci — systematická modifikace teorie tak, aby byla resistentní vůči potenciální falsifikující evidenci."
 weight = 131
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-1-3-1-immunization-against-falsification/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-1-3-1", "imunizace", "falsifikace", "ad-hoc-modifikace", "popper"]

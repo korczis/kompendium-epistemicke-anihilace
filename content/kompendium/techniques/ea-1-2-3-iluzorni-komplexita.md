@@ -3,6 +3,7 @@ title = "EA-1.2.3 Iluzorní komplexita"
 description = "Detailní per-technique článek: iluzorní komplexita — prezentace fundamentálně jasného nebo rozřešeného problému jako vysoce komplexního, kontroverzního nebo nerozřešitelného."
 weight = 123
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-1-7-iluzorni-komplexita/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-1-2-3", "iluzorni-komplexita", "evaluace", "umela-komplexita"]

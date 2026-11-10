@@ -45,7 +45,7 @@ Heidegger rozlišuje dva fundamentálně **odlišné** mody, jak nám věci jsou
 Pro EA má toto rozlišení **trojí relevanci**:
 
 1. **EA často nutí subjekt přejít z příručnosti k předruční reflexi** — paralyzuje to, co subjekt jindy **plynule užívá**. Strukturální analog Polanyiho indwelling-narušení ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
-2. **Iluzorní komplexita** ([EA-1.7](@/kompendium/techniques/ea-1-7-iluzorni-komplexita.md)) strukturálně **reifikuje** věc, jež dosud byla příručná — předstírá, že „kladivo“ vyžaduje detailní teorii dříve, než s ním může být tlučeno.
+2. **Iluzorní komplexita** ([EA-1.7](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)) strukturálně **reifikuje** věc, jež dosud byla příručná — předstírá, že „kladivo“ vyžaduje detailní teorii dříve, než s ním může být tlučeno.
 3. **Algoritmické rozhraní** často **sklouzne** mezi dva mody nedeterministickým způsobem — uživatel neví, zda **užívá** nástroj nebo je **objektem** datafikace.
 
 ## 3. *Sorge* (Starost)

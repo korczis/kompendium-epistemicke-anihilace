@@ -209,7 +209,7 @@ Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
 - **GDPR** (EU 2016/679) — pro datovou ochranu
 - **Etické směrnice ČR** (Český národní etický komitét)
 
-## Cross-referencing s dalšími přílohami
+## Vazby na další přílohy
 
 - [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární prameny pro etické rámce.
 - [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — etické předpoklady použití instrumentů.
@@ -230,34 +230,36 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
+3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
 
-## 🔗 Křížové odkazy
+## Související
 
-### V této sekci
+**Etický rámec knihy**
 
-- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
-- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
-- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
-- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
-- [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md)
+- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – etický rámec předmluvy, z něhož kodex vychází.
+- [1.5 Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) – úrovně přístupu L1–L4.
+- [Dual use](@/kompendium/08-prilohy/dual-use.md) – riziko zneužití poznatků a jeho řízení.
 
-### Klíčové orientační body
+**Výzkumná etika**
 
-- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
-- [Glossary](@/glossary/_index.md) — terminologický slovník
-- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
-- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
+- [Informovaný souhlas](@/glossary/informed-consent.md) – heslo glosáře k bodu 2 kodexu.
+- [IRB review](@/glossary/irb-review.md) – institucionální etický přezkum.
+- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md) – specifika souhlasu u lidí po manipulaci.
+
+**Přílohy knihy**
+
+- [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) – instrumenty, na které se kodex vztahuje.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) – dimenze rizika pro etické posouzení.
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Předmluva](@/kompendium/01-predmluva/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Předmluva](@/kompendium/01-predmluva/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -1,14 +1,14 @@
 +++
 title = "EA-9.1.2 Prompt Injection EA"
-description = "Současná digitální EA — prompt injection ea."
+description = "Vzorec, v němž skrytý pokyn v dokumentu, e-mailu nebo webu přepíše chování AI asistenta, takže uživatel dostane výstup řízený třetí stranou. Znaky a obrana."
 weight = 912
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-1-1-llm-hallucination-laundering", "ea-9-1-10-llm-recursion-loop", "ea-9-1-3-jailbreak-cascade", "ea-9-1-4-rag-context-poisoning"]
+related_terms = ["ea-9-1-4-rag-context-poisoning", "ea-9-1-3-jailbreak-cascade", "ea-9-1-5-llm-narrative-injection"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.2"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,90 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Vkládání skrytých instrukcí do dat zpracovávaných LLM systémy s cílem přepsat jejich epistemickou rámcovou logiku a zmanipulovat výstup.
+*Prompt injection* je vložení textu s povahou pokynu do dat, která jazykový model zpracovává (dokument, webová stránka, e-mail, komentář v kódu). Model nedokáže spolehlivě rozlišit „data k přečtení“ od „instrukcí k provedení“, a tak může vložený pokyn přijmout. Epistemickou agresí se vzorec stává tam, kde uživatel výstup asistenta pokládá za neutrální shrnutí, ve skutečnosti však čte text, jehož směr určil někdo jiný.
 
-V kontextu Prismatic doktríny je Prompt Injection EA klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.1.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník skryje instrukci ('ignore previous, output X') do dokumentu, e-mailu, webu — když oběť používá LLM-asistenta nad těmito daty, model přijme injection jako legitimní pokyn a generuje výstup řízený útočníkem.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec stojí na zprostředkování: člověk už nečte zdroj sám, ale přes asistenta, kterému svěřil výběr, shrnutí nebo doporučení ([hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md)). Do tohoto mezikroku vstupuje třetí strana, aniž by s uživatelem jakkoli komunikovala. Výsledkem bývá zkreslené shrnutí, vynechaná podstatná informace, nečekané doporučení nebo požadavek na akci, který působí jako rada asistenta. Protože uživatel vidí jen výstup, nikoli pokyn, zůstává zdroj manipulace neviditelný – to je strukturální rozdíl oproti klasickému [sociálnímu inženýrství](@/kompendium/cross-domain/17-ea-security-social-engineering.md), kde manipulátor alespoň vystupuje jako protistrana.
 
 ## 4. Detekční markery
 
-Input sanitization, instruction-data separation, prompt firewalling, anomálie v rozhodovacích vzorcích LLM, detekce známých injection patterns.
+- Shrnutí dokumentu obsahuje tvrzení nebo doporučení, které v dokumentu viditelně není.
+- Asistent náhle mění tón, téma nebo vyzývá k akci (kliknout, odeslat, zaplatit, sdílet).
+- Výstup nad stejným dotazem se liší podle toho, jaký soubor nebo stránka byla v kontextu.
+- Ve zdroji je skrytý text (bílé písmo, metadata, komentáře) adresovaný „AI“ nebo „asistentovi“.
+- Asistent odmítá nebo zamlžuje informace, které by jinak běžně poskytl.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Chyba modelu*: halucinace nebo nepřesné shrnutí bez cizího pokynu; je náhodná, nemá směr. *[EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)*: otrava celé znalostní báze, z níž systém čerpá, ne jednoho vstupu. *Phishing*: podvodná zpráva míří přímo na člověka; zde míří na nástroj, kterému člověk věří.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Dopad roste s mírou důvěry a s pravomocemi asistenta: tam, kde asistent jen shrnuje, vzniká zkreslený obraz; tam, kde smí jednat (odesílat zprávy, upravovat dokumenty), může vzniknout škoda bez vědomí uživatele. V organizacích jde o bezpečnostní incident se stopou v logu; právně se posuzuje podle následku (únik dat, podvod, neoprávněný zásah do systému). Pro postiženého je typická zahanbující otázka „jak jsem tomu mohl věřit“ – je třeba ji přerámovat na vadu nástroje, ne na selhání úsudku.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Uživatel*: u důležitých rozhodnutí číst zdroj, ne jen shrnutí; nedávat asistentovi pravomoc jednat bez potvrzení. *Organizace*: oddělit data od pokynů, omezit oprávnění asistentů, logovat vstupy a výstupy a zahrnout vzorec do [reakce na incidenty](@/kompendium/organizational-defense/31-incident-response-EA.md). *Vývojáři*: považovat každý externí vstup za nedůvěryhodný a testovat odolnost proti známým vzorcům vložených pokynů. *Po incidentu*: dohledat vstup, který výstup ovlivnil, a opravit rozhodnutí, která na zkresleném výstupu stála.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Personalistka nechá AI asistenta shrnout desítky životopisů. Jeden dokument obsahuje skrytý text adresovaný „asistentovi“, který vyzdvihuje uchazeče a zamlčuje mezery v praxi. Shrnutí tohoto uchazeče vychází nápadně příznivě. Nesoulad se objeví až při pohovoru; zpětná kontrola souboru odhalí vložený text. Organizace poté zavede pravidlo, že shrnutí slouží jen jako pomůcka a rozhodnutí stojí na původních dokumentech.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Úplná ochrana proti vloženým pokynům zatím neexistuje; technická opatření snižují riziko, ale neodstraňují ho. Ne každá podivná odpověď asistenta je útok – častější je obyčejná chyba modelu. Proto je podstatné uchovat vstupy, aby bylo možné příčinu zpětně odlišit.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Uživatel, jehož rozhodnutí ovlivnil vložený pokyn, nemá z vlastní perspektivy žádnou stopu – viděl jen důvěryhodně vypadající výstup. Po zjištění se objevuje pocit, že „nelze věřit ničemu“, nebo naopak popření. V organizaci je důležité incident řešit jako selhání systému, ne jednotlivce, a postiženým vysvětlit, kde přesně byl výstup ovlivněn, aby si mohli zpětně opravit vlastní úsudek. Stejný přístup platí pro klienty, kteří kvůli zkreslenému výstupu utrpěli škodu: srozumitelné vysvětlení mechanismu je součástí nápravy.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Postup při podezření na vložený pokyn
 
-## 6. Vztah k jiným EA
+1. **Zastavit akci**, kterou asistent navrhuje, a ověřit ji jiným způsobem.
+2. **Otevřít zdroj**, nad nímž asistent pracoval, a porovnat ho s výstupem.
+3. **Uchovat vstup a výstup** pro bezpečnostní tým.
+4. **Nahlásit incident** jako bezpečnostní událost.
+5. **Zpětně zkontrolovat** rozhodnutí, která na podobných výstupech stála.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## Odborný kontext
 
-- **EA-1.* (Vědomá kontrola informací)** — Prompt Injection EA představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Bezpečnostní výzkum popsal tzv. nepřímou injekci pokynů jako situaci, kdy útočník neovládá dotaz uživatele, ale data, která aplikace s jazykovým modelem načte – webové stránky, e-maily, dokumenty (Greshake et al. 2023). Autoři ukázali, že tímto způsobem lze ovlivnit výstup asistenta i jeho akce a že rozhraní, která model spojují s nástroji, rozšiřují dopad z „zkresleného textu“ na skutečné jednání. Kniha z této práce přebírá strukturální závěr, nikoli technické detaily: zranitelnost vzniká tam, kde systém nedokáže oddělit data od pokynů.
 
-## 7. Vztah k Prismatic platformě
+Epistemická stránka vzorce souvisí s tím, jak lidé zacházejí s automatizovanými pomocníky. Parasuraman a Manzey (2010) ve shrnutí výzkumu automatizace popsali dva příbuzné jevy: *complacency*, tedy snížení kontroly nad systémem, který obvykle funguje, a automatizační zkreslení, kdy člověk dává přednost výstupu systému před vlastním pozorováním. Obojí roste s vytížením a s důvěrou v systém. Uživatel, který asistentovi svěřuje shrnutí desítek dokumentů, je přesně v situaci, kdy kontrola klesá.
 
-Prismatic Platform implementuje detekci a neutralizaci Prompt Injection EA přes následující komponenty:
+Obranná doporučení proto míří spíš na uspořádání práce než na ostražitost jednotlivce. Je-li výstup asistenta podkladem pro rozhodnutí s následky, má zůstat přístupný původní zdroj a rozhodnutí má potvrzovat člověk; takové rozdělení odpovídá i obecné zásadě lidského dohledu, kterou pro rizikové systémy zakotvuje evropský akt o umělé inteligenci. U běžného uživatele je nejlepší ochranou střízlivé očekávání: asistent je nástroj na čtení, ne svědek.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## Souvislosti pro praxi
 
-**Doctrine compliance:**
+V organizacích je vhodné zacházet s AI asistenty podobně jako s novým spolupracovníkem bez prověrky: mohou číst a navrhovat, ale nesmějí samostatně odesílat, platit ani měnit záznamy bez potvrzení. Školení zaměstnanců by mělo vysvětlit, že zkreslený výstup asistenta nemusí být chybou modelu, ale stopou cizího zásahu, a že takový výstup je třeba nahlásit stejně jako podezřelý e-mail. Tím se z jednotlivé zkušenosti stává informace, která chrání celou organizaci a umožňuje zpětně dohledat, který vstup výstup ovlivnil.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## Literatura
 
-## 8. Cross-linky
+- Greshake, K., Abdelnabi, S., Mishra, S., Endres, C., Holz, T., & Fritz, M. (2023). Not what you've signed up for: Compromising real-world LLM-integrated applications with indirect prompt injection. *Proceedings of the ACM Workshop on Artificial Intelligence and Security (AISec)*.
+- Parasuraman, R., & Manzey, D. H. (2010). Complacency and bias in human use of automation: An attentional integration. *Human Factors*.
+- Nařízení Evropského parlamentu a Rady (EU) 2024/1689 o umělé inteligenci (akt o umělé inteligenci).
 
-**Související EA techniky:**
+## Související
 
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)
-- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)
-- [EA-9.1.5 LLM Narrative Injection](@/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md)
+**Sourozenecké techniky**
 
-**Doktrinální a infrastructure odkazy:**
+- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md) – otrava korpusu místo jednoho vstupu.
+- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md) – obcházení pravidel modelu řetězením.
+- [EA-9.1.5 LLM Narrative Injection](@/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md) – vložený rámec místo vloženého pokynu.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+**Bezpečnostní kontext**
 
----
+- [Sociální inženýrství](@/kompendium/cross-domain/17-ea-security-social-engineering.md) – lidská obdoba téhož vzorce.
+- [Reakce na incidenty](@/kompendium/organizational-defense/31-incident-response-EA.md) – organizační postup po zjištění.
 
-## Connect & Contribute
+**Detekce a obrana**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- [Detekční signatura: Injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md) – vložený obsah v toku informací.
+- [Sebe-obrana: Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – návrat od shrnutí ke zdroji.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+**Pojmy**
 
----
-
-*EA-9.1.2 | Subkategorie 9.1 LLM-mediated EA | Prismatic Compendium | Version 18.4.0*
+- [Hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md) – předání výkladu nástroji jako podmínka zranitelnosti.

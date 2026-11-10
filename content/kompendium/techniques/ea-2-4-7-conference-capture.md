@@ -1,14 +1,15 @@
 +++
-title = "EA-2.4.7 Conference Capture"
-description = "Delegitimizační technika — Conference Capture."
+title = "EA-2.4.7 Zachycení konference (conference capture)"
+description = "Vzorec, v němž jedna skupina ovládne programové výbory, výběr hlavních řečníků a formáty oborových konferencí a určuje, co obor slyší. Znaky, odlišení, obrana."
 weight = 2407
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-2-4-7", "delegitimizace"]
+tags = ["kompendium", "techniques", "ea-2-4-7", "delegitimizace", "governance", "science"]
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-2-4-5-evaluation-criteria-rewrite", "ea-2-4-6-peer-review-capture", "ea-2-4-8-journal-capture", "ea-2-4-9-curriculum-capture"]
+related_terms = ["ea-2-4-6-peer-review-capture", "ea-2-4-10-disciplinary-society-capture", "ea-2-4-8-journal-capture", "ea-2-1-7-institucionalni-vyloucenni", "epistemicka-monokultura", "epistemicka-komunita"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.4.7"
 ea_category = "2. Scénáře delegitimizace"
@@ -16,94 +17,207 @@ ea_subcategory = "2.4 Institucionální zachycení"
 section_icon = "🏛️"
 toc = true
 access_level = "L2"
-risk_level = "high"
+risk_level = "moderate-high"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 +++
 
-# EA-2.4.7 Conference Capture
+# EA-2.4.7 Zachycení konference (conference capture)
 
-## Identifikace
-
-| Atribut | Hodnota |
-|---------|---------|
-| **EA kód** | EA-2.4.7 |
-| **Název** | Conference Capture |
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-2.4.7` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.4 Institucionální zachycení |
-| **Risk level** | High |
-| **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Přístupová úroveň** | L2 (odborná analýza) |
+| **Riziková úroveň** | Střední až vysoká – určuje viditelnost, síť a kariérní příležitosti |
+| **Reverzibilita** | Střední; konference se dá „otevřít“, ztracená generace sítí se obnovuje pomalu |
+| **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Rychlá karta** | [QR: EA-2.4.7](@/kompendium/quick-reference/qr-ea-2-4-7.md) |
 
 ## Definice
 
-Zachycení organizace klíčových oborových konferencí kontrolou programových výborů, keynote výběru a panelových formátů.
+Oborová konference je víc než setkání: rozhoduje o tom, kdo bude slyšet, kdo s kým naváže
+spolupráci, která témata budou vnímána jako „horká“ a kdo dostane nabídku práce. Zachycení
+konference je vzorec, v němž jedna skupina ovládne **programový výbor, výběr hlavních
+řečníků (keynotes), složení panelů, ceny a formát** hlavních konferencí oboru a jejich
+prostřednictvím určuje, co obor slyší a koho vidí.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Institucionální zachycení** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Konference jsou místem, kde se tvoří [epistemická komunita](@/glossary/epistemicka-komunita.md)
+oboru – neformální shoda o tom, co je důležité a kdo je kompetentní. Kdo kontroluje
+konference, tvaruje tuto shodu dřív, než se projeví v literatuře.
 
-## Operační modus
+## Mechanismus (strukturní popis)
 
-Technika **EA-2.4.7** typicky probíhá ve třech fázích:
+1. **Programový výbor z jedné sítě.** Členové výboru se rekrutují z okruhu organizátorů;
+   rotace chybí.
+2. **Výběr hlavních řečníků.** Plenární přednášky dostávají opakovaně titíž lidé nebo
+   jejich spolupracovníci.
+3. **Formát panelu.** Panely se skládají tak, aby nesouhlasný hlas chyběl nebo byl
+   v menšině a v roli „protistrany“.
+4. **Sekce na okraji.** Témata a směry, které skupina nepodporuje, dostávají pozdní časy,
+   malé sály nebo posterové sekce.
+5. **Ceny a uznání.** Ocenění konference posilují pověst „svých“.
+6. **Vstupní bariéry.** Vysoké poplatky, výběr podle doporučení, neveřejná kritéria
+   přijímání příspěvků.
 
-### Fáze 1 — Příprava terénu
+## Průběh
 
-Útočník identifikuje cíl, mapuje jeho **epistemickou síť** (kolegy, instituce, publikační kanály, mediální zázemí) a vyhledává **zranitelná místa**: závislosti na grantech, slabé spojence, kontroverzní výroky v minulosti, izolovatelné subkomunity.
+Zachycení obvykle souvisí se zachycením odborné společnosti, která konferenci pořádá
+([EA-2.4.10](@/kompendium/techniques/ea-2-4-10-disciplinary-society-capture.md)). Během
+několika ročníků se program homogenizuje: tytéž tváře na pódiu, tatáž témata v plénu.
+Mladí výzkumníci se učí, která témata jsou „vidět“, a přizpůsobují se. Nesouhlasní
+zakládají vlastní menší setkání, která obor vnímá jako okrajová. Po letech má obor dvě
+komunity, které spolu nemluví.
 
-### Fáze 2 — Aktivace techniky
+## Fenomenologické znaky (pohled zevnitř)
 
-Aktivace probíhá synchronně přes více vektorů. **Conference Capture** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+| Znak | Jak ho výzkumník popisuje |
+|---|---|
+| Neviditelnost | „Na konferenci jsem byl, ale nikdo neviděl moji práci.“ |
+| Uzavřený kruh | Stejné jméno v plénu každý rok. |
+| Tlak na téma | „Kdo chce mluvit v plénu, musí dělat tohle.“ |
+| Osamělost | Nemá s kým o svém směru mluvit. |
+| Ztráta motivace jezdit | Konference přestává být místem setkání. |
 
-### Fáze 3 — Stabilizace nového stavu
+## Detekční markery (pohled pozorovatele)
 
-Po dosažení primárního efektu útočník stabilizuje nový stav skrze **institucionální fakty**, **dokumentaci** a **revizionistický narativ**, který činí návrat k předchozímu stavu nákladným nebo nemožným.
+| Marker | Co může naznačovat |
+|---|---|
+| Stejní lidé v programových výborech řadu ročníků | Chybějící rotace |
+| Plenární řečníci z jedné sítě nebo instituce | Výběr řečníků |
+| Panely bez skutečného protinázoru | Formát panelu |
+| Opakované zařazení určitých směrů do okrajových sekcí | Sekce na okraji |
+| Ceny udělované převážně spolupracovníkům organizátorů | Uzavřené uznání |
+| Vznik paralelních konferencí nesouhlasných skupin | Rozštěpení komunity |
 
-## Detekce
+## Rizikové kontexty
 
-| Indikátor | Popis | Závažnost | Reakce |
-|-----------|-------|-----------|--------|
-| **Koordinovaná synchronicita** | Více aktérů provádí podobné kroky v krátkém časovém okně | Vysoká | Síťová analýza, mapování koordinace |
-| **Asymetrie kritiky** | Kritika cíle je tvrdší než stejná kritika srovnatelných případů | Střední | Dokumentace asymetrie, externí audit |
-| **Eroze procedurálních standardů** | Standardy se náhle mění specificky pro daný případ | Vysoká | Procedurální archeologie, právní revize |
-| **Narativní konvergence** | Různé zdroje začnou používat identické formulace | Střední | Lingvistická forenzika, šíření narativu |
+Obory s jednou dominantní konferencí, obory s ostrými spory mezi školami, obory
+s průmyslovými sponzory konferencí, menší národní komunity, kde konference pořádá jedna
+instituce. Zvlášť zranitelní jsou mladí výzkumníci, pro něž je konference hlavním
+místem, kde se mohou ukázat.
 
-## Neutralizace
+## Odlišení
 
-### Individuální obrana
+- **Kurátorský profil.** Konference smí mít vlastní zaměření; vzorec nastává, když jde
+  o hlavní konferenci oboru, která se tváří jako reprezentativní.
+- **Kvalitativní výběr.** Odmítnutí slabých příspěvků je legitimní; rozhoduje, zda
+  kritéria jsou známá a uplatňovaná stejně.
+- **Síťový efekt.** Uznávaní lidé jsou zváni častěji (Mertonův Matoušův efekt) i bez
+  úmyslu; vzorec vzniká, když se tento efekt cíleně udržuje a nesouhlas vylučuje.
+- **[EA-2.4.6](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md).** Obdoba
+  v publikacích.
 
-1. **Dokumentace v reálném čase** — Vést **veřejnou kroniku** všech kroků útoku s časovými razítky, jmény aktérů a citacemi.
-2. **Diverzifikace závislostí** — Snížit **single points of failure** v kariéře (více grantů, více platforem, více institucí).
-3. **Spojenecká síť** — Aktivně kultivovat **epistemickou koalici** přesahující jednu instituci nebo jeden okruh kolegů.
+## Klinický a právní rámec
 
-### Institucionální obrana
+Klinicky se dopad projevuje nepřímo: ztráta profesní komunity, izolace, pocit
+nespravedlnosti a u mladých výzkumníků kariérní úzkost.
 
-1. **Procedurální transparence** — Pevné, **veřejně dostupné procedury** pro recenze, evaluace, jmenování, granty.
-2. **Externí audit** — Pravidelné **nezávislé audity** klíčových rozhodovacích procesů institucí.
+Právně je konference zpravidla soukromou akcí odborné společnosti nebo instituce;
+relevantní jsou její stanovy, pravidla pro střet zájmů, pravidla sponzorství
+a u veřejně financovaných konferencí i pravidla dotací. Diskriminační vylučování
+z chráněných důvodů může zakládat nároky podle antidiskriminační úpravy.
 
-## Vztah k jiným technikám
+## Postup pro posuzovatele
 
-Technika **EA-2.4.7** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+Posuzovatel (výbor společnosti, sponzor, financující agentura) může analyzovat
+programy za delší řadu let: složení výborů, plenární řečníky, rozdělení sekcí podle
+témat a institucí, laureáty cen. Srovnání s rozložením publikační aktivity oboru
+ukáže, zda konference obor reprezentuje, nebo zúžuje. Užitečné je i anonymní šetření
+mezi účastníky a mezi těmi, kdo přestali jezdit.
 
-## Vztah k platformě
+## Průběh u jednotlivce
 
-Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
+Pro mladého výzkumníka se vzorec projevuje typicky v sérii drobných zkušeností:
+přihlášený příspěvek je přeřazen do posterové sekce, návrh panelu nepřijat, na
+společenském večeru se ocitne mimo skupinu, která rozhoduje o pozvánkách. Teprve po
+několika ročnících si uvědomí, že nejde o náhodu. Často si ale vzorec vyloží jako
+vlastní nedostatek a buď se přizpůsobí, nebo z oboru odejde.
 
-- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
-- **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+## Obrana a neutralizace
+
+**Pro pořadatele a společnosti.** Rotace programových výborů s pevným limitem funkčních
+období, otevřené výzvy k návrhům plenárních řečníků, zveřejněná kritéria přijímání,
+anonymní posuzování příspěvků, zastoupení různých směrů a institucí, transparentní
+sponzorství. Viz [struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
+a [zapojení zainteresovaných stran](@/kompendium/organizational-defense/10-stakeholder-engagement.md).
+
+**Pro výzkumníky.** Budovat sítě i mimo hlavní konferenci, navrhovat sekce a panely,
+účastnit se voleb ve společnosti. Viz [komunitní zapojení](@/kompendium/self-defense-guides/28-community-engagement.md).
+
+## Zotavení
+
+Obor se zotavuje otevřením konference a obnovou dialogu mezi komunitami, které se
+rozštěpily. Jednotlivci potřebují místo, kde jejich práce bude vidět. Viz
+[budování komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md).
+
+## Ilustrativní příklad (anonymizovaný kompozit)
+
+Hlavní národní konference oboru má deset let tentýž programový výbor. Plenární
+přednášky střídavě drží šest lidí ze dvou pracovišť. Kvalitativní výzkum, který tato
+pracoviště odmítají, je zařazován do posterových sekcí v posledním dni. Mladá
+výzkumnice, jejíž práce vyhrála cenu v zahraničí, není doma pozvána ani do panelu.
+Skupina kvalitativních badatelů založí vlastní seminář; po několika letech se obě
+komunity navzájem necitují.
+
+## Otázky pro analýzu
+
+- Jak se v posledních ročnících obměňoval programový výbor a kdo vybírá plenární řečníky?
+- Jak jsou rozdělena témata do plenárních a okrajových sekcí?
+- Kdo dostává ceny a v jakém vztahu je k pořadatelům?
+- Vznikly paralelní konference a proč?
+
+## Proč na konferencích záleží epistemicky
+
+Konference se často pokládají za společenskou stránku vědy, která s obsahem poznání
+přímo nesouvisí. Pro Kompendium je to omyl. Na konferencích se rozhoduje o tom, které
+otázky obor pokládá za důležité, které metody za seriózní a kteří lidé za kompetentní –
+tedy o *pozadí*, na němž se pak čte literatura. Doktorand, který na hlavní konferenci
+oboru nikdy neslyší o určitém přístupu, ho nebude hledat ani v časopisech. Programový
+výbor tak plní roli podobnou recenzentům, ale bez jejich (alespoň formální) odpovědnosti
+a s mnohem menší kontrolou. Zachycení konference je proto účinnou cestou k
+[epistemické monokultuře](@/glossary/epistemicka-monokultura.md): nevyžaduje vyvracet
+nesouhlasné práce, stačí je nepozvat. Totéž platí pro letní školy, workshopy pro
+doktorandy a ceny pro mladé výzkumníky, které formují další generaci oboru.
+
+## Meze a otevřené otázky
+
+Konference nemohou dát prostor všem a výběr je jejich podstatou. Otevřenou otázkou
+zůstává, jakou odpovědnost za pluralitu nese „hlavní“ konference oboru oproti menším
+tematickým setkáním, a jak měřit, zda program reprezentuje obor.
+
+## Případy, které techniku ukazují
+
+Anonymizované kompozity: [kult výzkumné disciplíny](@/kompendium/case-studies/67-research-discipline-cult.md),
+[kult akademické školy](@/kompendium/case-studies/66-academic-school-cult.md) a
+[kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md), kde konference
+a semináře slouží k udržení jednoho rámce.
+
+## Literatura
+
+- Merton, R. K. (1968). The Matthew Effect in Science. *Science*.
+- Lamont, M. (2009). *How Professors Think: Inside the Curious World of Academic Judgment*.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*.
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
-- [EA-2.4.6](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md) (sister)
-- [EA-2.4.8](@/kompendium/techniques/ea-2-4-8-journal-capture.md) (sister)
-- [EA-2.4.5](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) (sister)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
-- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
+**Techniky**
 
-## Connect
+- [EA-2.4.10 Zachycení odborné společnosti](@/kompendium/techniques/ea-2-4-10-disciplinary-society-capture.md)
+  – pořadatel konference.
+- [EA-2.4.6 Zachycení recenzního řízení](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md)
+  – obdoba v publikacích.
+- [EA-2.4.8 Zachycení časopisu](@/kompendium/techniques/ea-2-4-8-journal-capture.md) –
+  redakční kanál.
+- [EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md)
+  – dopad na jednotlivce.
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+**Pojmy**
+
+- [Glosář: epistemická komunita](@/glossary/epistemicka-komunita.md) – kde se tvoří shoda.
+- [Glosář: epistemická monokultura](@/glossary/epistemicka-monokultura.md) – výsledek.
+
+**Pomoc**
+
+- [Komunitní zapojení](@/kompendium/self-defense-guides/28-community-engagement.md) –
+  vlastní sítě.

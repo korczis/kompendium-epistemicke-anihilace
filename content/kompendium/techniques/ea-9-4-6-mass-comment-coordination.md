@@ -1,14 +1,14 @@
 +++
 title = "EA-9.4.6 Mass Comment Coordination"
-description = "Současná digitální EA — mass comment coordination."
+description = "Vzorec koordinovaného zaplavení komentářů pod příspěvkem – k umlčení autora a diskuse, nebo k vytvoření zdání, že většina souhlasí. Znaky, odlišení, obrana."
 weight = 946
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-4-4-AI-bot-personhood", "ea-9-4-5-troll-farm-EA", "ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-8-real-time-bot-response"]
+related_terms = ["ea-9-4-3-sock-puppet-network", "ea-9-4-9-bot-narrative-injection", "ea-9-4-5-troll-farm-EA", "ea-2-3-4-mob-coordination"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.6"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,112 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Koordinovaný útok komentáři pod cílovým postem — buď pro shouting-down (drown out), nebo pro vyvolání iluze konsenzu.
+*Mass comment coordination* je koordinované zaplavení komentářů pod cílovým příspěvkem, článkem nebo videem. Má dvě podoby: *přehlušení* (drown out), kdy záplava útočných nebo nesmyslných komentářů umlčí autora a diskusi, a *zdánlivý konsenzus*, kdy souhlasné komentáře vytvoří dojem, že většina čtenářů zastává určitý názor.
 
-V kontextu Prismatic doktríny je Mass Comment Coordination klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.4.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Discord/Telegram organizační kanál distribuuje cílový post + comment templates; N účastníků v T0+1h zaplaví komentáře variantami šablon.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Komentáře slouží čtenářům jako ukazatel reakce veřejnosti; mnozí čtou komentáře dřív než samotný text nebo místo něj. Koordinovaná skupina – organizovaná v uzavřených kanálech, často s připravenými šablonami – tento ukazatel padělá. Pro autora je přehlušení zdrcující zkušeností a vede k autocenzuře; pro čtenáře posun ve vnímání toho, co si „lidé“ myslí. Vzorec mohou provádět skuteční lidé, [loutkové účty](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md) i boti.
 
 ## 4. Detekční markery
 
-Comment-velocity forensics, template fingerprinting, account-relationship graphs, semantic clustering.
+- Náhlá vlna komentářů v krátkém čase, často od účtů bez předchozí interakce s autorem.
+- Komentáře se shodnou strukturou, formulacemi nebo emotikony; varianty jedné šablony.
+- Komentáře nereagují na obsah příspěvku, ale na nálepku, která o něm koluje jinde.
+- Výzvy ke „komentářové akci“ v jiných skupinách nebo na jiných platformách.
+- Po vlně následuje ticho; skuteční čtenáři se do diskuse nezapojují.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Spontánní reakce*: rozmanité komentáře, osobní zkušenosti, reakce na obsah, rostoucí postupně. *Organizovaná, ale transparentní občanská akce*: lidé pod vlastními jmény a se svým názorem. *[EA-9.4.9 Bot Narrative Injection](@/kompendium/techniques/ea-9-4-9-bot-narrative-injection.md)*: cílí na první komentáře a rámec diskuse, ne na záplavu.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Zaplavování komentářů umlčuje novináře, vědce, lékaře a aktivisty a odrazuje další od veřejného vystupování. Pro čtenáře zkresluje obraz veřejného mínění. Organizované obtěžování může naplňovat znaky trestných činů (např. nebezpečné pronásledování nebo vyhrožování) podle okolností; platformy a redakce mají možnosti moderace a omezení komentářů.
 
-## 5. Neutralizační strategie
+Pro zaměstnavatele je zaplavení zaměstnance komentáři pracovním rizikem srovnatelným s jinými formami obtěžování; měli by mít postup, který zahrnuje technickou pomoc s moderací, právní poradenství a psychologickou podporu. Pro kolegy je důležité, aby postiženého nenechali samotného a nevyčítali mu, že „se do toho pouštěl“. Pro redakce je vhodné zvážit, zda u citlivých témat komentáře vůbec otevírat, nebo je předem moderovat.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Autor*: dočasně omezit komentáře, dokumentovat vlnu, nečíst ji sám – požádat o pomoc kolegy. *Redakce a instituce*: podporovat zaměstnance, kteří čelí vlnám, moderovat komentáře a mít postup pro obtěžování. *Čtenář*: komentáře nejsou vzorek veřejnosti; hodnotit obsah, ne reakce. *Platformy*: detekovat koordinované vlny, nabízet nástroje omezení komentářů.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Epidemioložka zveřejní video vysvětlující data o šíření nemoci. Během hodiny se pod ním objeví tisíce komentářů s urážkami a výzvami k „vrácení titulu“. Většina komentářů je kopiemi tří šablon a pochází z účtů, které se o téma nikdy dříve nezajímaly. Univerzita jí poskytne právní a psychologickou podporu, platforma vlnu omezí. Epidemioložka publikuje dál, ale komentáře si nechává filtrovat.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Rozlišit koordinovanou akci od rychlé spontánní reakce rozhořčených lidí je často obtížné, zvlášť u kontroverzních témat. Otevřenou otázkou je, jak chránit veřejnou debatu a zároveň neomezit legitimní kritiku.
 
-**Layer 4 — Accountability:**
+Kniha neuvádí čísla o četnosti koordinovaných vln komentářů; výzkum se opírá převážně o průzkumy mezi novináři a vědci a o případové studie. Otevřené zůstává, jak dlouhodobě působí opakované vlny na ochotu odborníků veřejně vystupovat, což je otázka zásadní pro kvalitu veřejné debaty.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřenou otázkou zůstává i to, jak mají platformy a redakce vyvážit ochranu autorů před organizovanými vlnami a otevřenost diskuse pro legitimní kritiku, která může být také ostrá a hromadná.
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Autor zaplavený komentáři prožívá zahlcení, strach a pocit, že ho „všichni“ odsuzují; opakované vlny mohou vést k úzkosti a stažení z veřejného prostoru. Pomáhá fyzicky se od komentářů oddělit, sdílet zátěž s kolegy a mít možnost mluvit o zkušenosti s odborníkem. Organizace by měly vnímat obtěžování zaměstnanců jako pracovní riziko.
 
-- **EA-1.* (Vědomá kontrola informací)** — Mass Comment Coordination představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro postiženého je užitečné vědět, že vlna komentářů je obvykle dílem relativně malé organizované skupiny a že nereprezentuje jeho skutečné publikum. Pomáhá také dlouhodobá péče o vlastní hranice – například vyhrazený čas na sociální sítě a delegování moderace – a vědomé udržování kontaktu se čtenáři a kolegy, kteří jeho práci oceňují. U opakovaných vln je namístě odborná psychologická pomoc.
 
-## 7. Vztah k Prismatic platformě
+Kniha se kloní k ochraně autorů tam, kde je koordinace doložena.
 
-Prismatic Platform implementuje detekci a neutralizaci Mass Comment Coordination přes následující komponenty:
+## 11. Vztah k ostatním kategoriím EA
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Vzorec je nástrojem [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) a [EA-2.3.9 Sealioning Mediální](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md), kde se místo urážek používají nekonečné „zdvořilé“ dotazy ([sealioning](@/glossary/sealioning.md)).
 
-**Doctrine compliance:**
+## 12. Postup při zaplavení komentáři
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+1. **Omezit komentáře** dočasně, pokud to platforma umožňuje.
+2. **Dokumentovat vlnu** – snímky, časy, účty, výzvy v jiných skupinách.
+3. **Nečíst komentáře sám** – požádat kolegu nebo moderátora o pomoc.
+4. **Nahlásit koordinaci** platformě a při výhrůžkách policii.
+5. **Vyhledat podporu** instituce a odborníka.
 
-## 8. Cross-linky
+## 13. Prevence a odolnost
 
-**Související EA techniky:**
+Prevence stojí na nástrojích moderace komentářů, na podpoře institucí pro zaměstnance ve veřejných rolích a na čtenářích, kteří vědí, že komentáře nejsou vzorkem veřejnosti. Pro autory je užitečné mít předem připravený plán pro případ vlny.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)
-- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)
+Pro čtenáře je užitečné vědět, že komentáře pod článkem nejsou reprezentativním vzorkem a že jejich tón často určuje malá, aktivní nebo organizovaná skupina.
 
-**Doktrinální a infrastructure odkazy:**
+## 14. Otázky pro rozhovor a šetření
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+- Kdy vlna začala a jak rychle rostla?
+- Reagují komentáře na obsah, nebo na nálepku?
+- Opakují se šablony?
+- Existovala výzva k akci jinde?
+- Jak vlna ovlivnila vaši práci a pohodu?
 
----
+## Odborný kontext
 
-## Connect & Contribute
+Výzkum online obtěžování popisuje koordinované zaplavení komentáři jako jednu z typických forem útoku na novináře, vědce a veřejně činné osoby; Marwick a Lewis (2017) doložili, že skupiny s politickými cíli takové akce organizují v uzavřených kanálech a vědomě je používají k umlčení kritiků. Phillips (2015) ukázala, jak trollí kultura využívá výsměch a zahlcení jako nástroje kontroly. Komentáře přitom slouží čtenářům jako ukazatel reakce veřejnosti, a jejich padělání proto zkresluje vnímání mínění (Cialdini 2001).
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Pro postižené má zaplavení vážné psychické dopady – úzkost, strach, stažení z veřejného prostoru – a jejich zkušenost se podobá jiným formám obtěžování. Kniha proto doporučuje vnímat organizované zaplavení komentáři jako pracovní riziko, na které mají zaměstnavatelé reagovat podporou, a ne jako „cenu za veřejné vystupování“.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Souvislosti pro praxi
 
----
+Pro redakce a univerzity je užitečné mít vnitřní postup pro zaměstnance, kteří čelí vlnám komentářů – kdo pomůže s moderací, kdo s právními kroky, kdo s psychickou podporou. Pro platformy je cenné nabízet autorům snadné nástroje k omezení komentářů v kritických chvílích.
 
-*EA-9.4.6 | Subkategorie 9.4 Bot networks | Prismatic Compendium | Version 18.4.0*
+## Literatura
+
+- Cialdini, R. B. (2001). *Influence: Science and Practice* (4. vyd.). Allyn & Bacon.
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
+- Phillips, W. (2015). *This Is Why We Can't Have Nice Things*. MIT Press.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md) – falešné identity v komentářích.
+- [EA-9.4.9 Bot Narrative Injection](@/kompendium/techniques/ea-9-4-9-bot-narrative-injection.md) – rámec první reakce.
+- [EA-9.4.5 Troll Farm EA](@/kompendium/techniques/ea-9-4-5-troll-farm-EA.md) – profesionální provedení.
+
+**Kapitola 2 a pojmy**
+
+- [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) – organizovaný dav.
+- [Sealioning](@/glossary/sealioning.md) – zahlcení „zdvořilými“ otázkami.
+
+**Obrana**
+
+- [Sebe-obrana: Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) – omezení přístupu útočníků.
+- [Sebe-obrana: Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – sdílení zátěže.

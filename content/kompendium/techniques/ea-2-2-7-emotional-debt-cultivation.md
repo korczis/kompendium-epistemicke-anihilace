@@ -1,18 +1,19 @@
 +++
-title = "EA-2.2.7 Emotional Debt Cultivation"
-description = "Delegitimizační technika — Emotional Debt Cultivation."
+title = "EA-2.2.7 Pěstování citového dluhu"
+description = "Vzorec, v němž mentor buduje ve svěřenci pocit nesplatitelného dluhu za podporu a oběti, a vděk se tak stává poutem. Znaky, odlišení od zdravé vděčnosti, obrana."
 weight = 2207
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-2-2-7", "delegitimizace"]
+tags = ["kompendium", "techniques", "ea-2-2-7", "delegitimizace", "academic", "supervize"]
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-2-2-5-recommendation-coercion", "ea-2-2-6-time-control-academic", "ea-2-2-8-intellectual-paternity-claim", "ea-2-2-9-disciplinary-boundary-coercion"]
+related_terms = ["ea-2-2-1-mentor-self-totalizace", "ea-2-2-5-recommendation-coercion", "ea-2-2-10-future-blackmail-implantace", "trauma-bonding", "pseudoempaticka-vazba", "emocionalni-terorismus"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.2.7"
 ea_category = "2. Scénáře delegitimizace"
-ea_subcategory = "2.2 Pedagogická koercion"
+ea_subcategory = "2.2 Pedagogická koerce"
 section_icon = "👨‍🏫"
 toc = true
 access_level = "L2"
@@ -20,90 +21,194 @@ risk_level = "high"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 +++
 
-# EA-2.2.7 Emotional Debt Cultivation
+# EA-2.2.7 Pěstování citového dluhu
 
-## Identifikace
-
-| Atribut | Hodnota |
-|---------|---------|
-| **EA kód** | EA-2.2.7 |
-| **Název** | Emotional Debt Cultivation |
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-2.2.7` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
-| **Subkategorie** | 2.2 Pedagogická koercion |
-| **Risk level** | High |
-| **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Subkategorie** | 2.2 Pedagogická koerce |
+| **Přístupová úroveň** | L2 (odborná analýza) |
+| **Riziková úroveň** | Vysoká – pouto, které přetrvá konec formálního vztahu |
+| **Reverzibilita** | Střední; dluh se nedá splatit, jen odmítnout jako nesprávný rámec |
+| **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Rychlá karta** | [QR: EA-2.2.7](@/kompendium/quick-reference/qr-ea-2-2-7.md) |
 
 ## Definice
 
-Kultivace emocionálního dluhu mentee vůči mentorovi pomocí narativu o jedinečné podpoře, oběti a investici do studenta.
+Pěstování citového dluhu je vzorec, v němž mentor soustavně buduje ve svěřenci pocit
+**nesplatitelného dluhu**: za to, že ho přijal, že mu „obětoval čas“, že ho „zachránil“
+před neúspěchem, že v něj věřil, když ostatní ne. Vděk, který by byl přirozený, se mění
+v **závazek**: svěřenec nesmí odejít, nesouhlasit, stěžovat si ani odmítnout, protože by
+to byla nevděčnost.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Pedagogická koercion** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Marcel Mauss ukázal, že dar vytváří závazek oplatit. Citový dluh je deformací tohoto
+principu: dar je definován tak, aby nikdy nemohl být oplacen, a tím se stává trvalou
+pohledávkou.
 
-## Operační modus
+## Mechanismus (strukturní popis)
 
-Technika **EA-2.2.7** typicky probíhá ve třech fázích:
+1. **Vyprávění o oběti.** Mentor opakovaně připomíná, co pro svěřence udělal a co ho to
+   stálo.
+2. **Narativ záchrany.** Svěřenec je popisován jako někdo, kdo by bez mentora neuspěl;
+   jeho úspěchy jsou důkazem mentorovy investice.
+3. **Nesouměrná bilance.** Co dává svěřenec (práce, čas, loajalita), se nepočítá; co dává
+   mentor, se počítá stále.
+4. **Mobilizace dluhu.** Dluh se připomíná ve chvílích, kdy svěřenec projeví samostatnost
+   – při žádosti o změnu, odchodu, nesouhlasu.
+5. **Střídání vřelosti a zklamání.** Vřelost se střídá s demonstrativním zklamáním;
+   střídání vytváří pouto, které se blíží [trauma bondingu](@/glossary/trauma-bonding.md).
 
-### Fáze 1 — Příprava terénu
+## Průběh
 
-Útočník identifikuje cíl, mapuje jeho **epistemickou síť** (kolegy, instituce, publikační kanály, mediální zázemí) a vyhledává **zranitelná místa**: závislosti na grantech, slabé spojence, kontroverzní výroky v minulosti, izolovatelné subkomunity.
+Vzorec obvykle začíná skutečnou laskavostí – mentor svěřence přijme v těžké situaci,
+pomůže mu s vízem nebo s financováním. Postupně se laskavost začne připomínat a stávat
+argumentem. Svěřenec nejprve pociťuje vděk, později tíhu a nakonec vinu za to, že tíhu
+cítí. Pokus o odchod vyvolá v mentorovi zraněnou reakci, kterou svěřenec prožívá jako
+důkaz vlastní špatnosti. Tento vzorec se často opakuje ve vztazích, které svěřenec znal
+už z rodiny.
 
-### Fáze 2 — Aktivace techniky
+## Teoretický rámec: reciprocita a její zneužití
 
-Aktivace probíhá synchronně přes více vektorů. **Emotional Debt Cultivation** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+Mauss (1925) ve slavné *Eseji o daru* ukázal, že dar ve většině společností zakládá
+trojí povinnost: dar přijmout, opětovat ho a dávat dál. Dar tak vytváří vztah a jeho
+nesplacení ponižuje. Cialdini (1984) popsal princip reciprocity jako jeden ze
+základních mechanismů společenského vlivu: lidé mají sklon oplácet laskavost, i když
+o ni nežádali, a jsou proto zranitelní vůči tomu, kdo laskavost použije jako nástroj.
+Pěstování citového dluhu spojuje obojí: mentor poskytne skutečnou pomoc a pak ji
+soustavně připomíná tak, aby se z ní stal nesplatitelný závazek.
 
-### Fáze 3 — Stabilizace nového stavu
+Na emoční rovině vzorec připomíná dynamiku, kterou Hermanová (1992) popsala u traumatické
+vazby na pachatele: střídání vřelosti a ohrožení vytváří silné pouto, v němž oběť
+chrání toho, kdo jí ubližuje. Ve vztahu mentora a svěřence nejde obvykle o násilí, ale
+o střídání vřelosti a demonstrativního zklamání; mechanismus pouta je však podobný.
+Proto je odpoutání obtížné a provází ho vina, nikoli úleva.
 
-Po dosažení primárního efektu útočník stabilizuje nový stav skrze **institucionální fakty**, **dokumentaci** a **revizionistický narativ**, který činí návrat k předchozímu stavu nákladným nebo nemožným.
+## Postup pro profesionály
 
-## Detekce
+Terapeut nebo poradce by měl pomoci klientovi rozlišit tři vrstvy: skutečnou pomoc,
+kterou mentor poskytl a za niž je vděčnost na místě; práci a loajalitu, kterou klient
+na oplátku odvedl; a nároky, které mentor vznáší nad rámec obojího. Často je užitečné
+sepsat si „bilanci“ vztahu, protože citový dluh žije z nesouměrné paměti – co dal mentor,
+se pamatuje, co dal svěřenec, se zapomíná.
 
-| Indikátor | Popis | Závažnost | Reakce |
-|-----------|-------|-----------|--------|
-| **Koordinovaná synchronicita** | Více aktérů provádí podobné kroky v krátkém časovém okně | Vysoká | Síťová analýza, mapování koordinace |
-| **Asymetrie kritiky** | Kritika cíle je tvrdší než stejná kritika srovnatelných případů | Střední | Dokumentace asymetrie, externí audit |
-| **Eroze procedurálních standardů** | Standardy se náhle mění specificky pro daný případ | Vysoká | Procedurální archeologie, právní revize |
-| **Narativní konvergence** | Různé zdroje začnou používat identické formulace | Střední | Lingvistická forenzika, šíření narativu |
+## Fenomenologické znaky (pohled zevnitř)
 
-## Neutralizace
+| Znak | Jak ho svěřenec popisuje |
+|---|---|
+| Nesplatitelnost | „Nikdy mu nebudu moct oplatit, co pro mě udělal.“ |
+| Vina za samostatnost | Každý vlastní krok prožívá jako zradu. |
+| Zodpovědnost za mentorovy city | Cítí se odpovědný za jeho zklamání a náladu. |
+| Rozpolcenost | Vděk a odpor zároveň; obojí je pravdivé. |
+| Ochrana mentora | Před ostatními ho hájí, i když trpí. |
 
-### Individuální obrana
+## Detekční markery (pohled pozorovatele)
 
-1. **Dokumentace v reálném čase** — Vést **veřejnou kroniku** všech kroků útoku s časovými razítky, jmény aktérů a citacemi.
-2. **Diverzifikace závislostí** — Snížit **single points of failure** v kariéře (více grantů, více platforem, více institucí).
-3. **Spojenecká síť** — Aktivně kultivovat **epistemickou koalici** přesahující jednu instituci nebo jeden okruh kolegů.
+| Marker | Co může naznačovat |
+|---|---|
+| Mentor veřejně připomíná, co pro svěřence udělal | Vyprávění o oběti |
+| Svěřenec zdůvodňuje setrvání vděkem, ne zájmem | Dluh jako pouto |
+| Odchod svěřence vyvolá u mentora reakci zrady | Mobilizace dluhu |
+| Svěřenec přejímá nadměrné úkoly „protože mu to dluží“ | Nesouměrná bilance |
+| Kolísání vztahu mezi vřelostí a chladem | Citová modulace; srov. [emoční modulaci](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md) |
 
-### Institucionální obrana
+## Rizikové kontexty
 
-1. **Procedurální transparence** — Pevné, **veřejně dostupné procedury** pro recenze, evaluace, jmenování, granty.
-2. **Externí audit** — Pravidelné **nezávislé audity** klíčových rozhodovacích procesů institucí.
+Studenti, kteří přišli z obtížných poměrů nebo ze zahraničí a mentor jim pomohl
+s existenčními otázkami; svěřenci s rodinnou historií podmíněné lásky; malé komunity, kde
+mentor je i sociální oporou; terapeutické a koučovací výcviky, kde lektor poskytl
+„bezplatnou“ podporu.
 
-## Vztah k jiným technikám
+## Odlišení
 
-Technika **EA-2.2.7** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+- **Zdravá vděčnost.** Vděk je přiměřená reakce na skutečnou pomoc. Zdravý mentor ji
+  nevymáhá, neúčtuje a raduje se ze samostatnosti svěřence.
+- **Reciprocita.** Vzájemná výpomoc mezi kolegy je normální; dluh je patologický, když je
+  jednostranný a nesplatitelný.
+- **[Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md).** Napodobení empatie
+  pro vytvoření pouta; citový dluh může na ni navazovat.
+- **Rodinné vzorce.** Pokud svěřenec reaguje vinou na každou autoritu, je třeba odlišit
+  přenesený vzorec od vzorce, který mentor aktivně vytváří; obvykle jde o obojí.
 
-## Vztah k platformě
+## Klinický a právní rámec
 
-Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
+Klinicky se objevuje chronická vina, úzkost, potíže s hranicemi a obtížné odpoutání
+podobné jako u odchodu z citově zneužívajícího vztahu. Užitečné je pojmenovat rozdíl mezi
+vděčností a dluhem a pracovat s [rozpoznáním citového dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md).
 
-- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
-- **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+Právně citový dluh sám o sobě nic nezakládá. Relevantní může být zneužití závislosti,
+nepřiměřené požadavky na práci zdůvodněné „vděkem“ a v civilní rovině
+[nepřípustný vliv](@/glossary/undue-influence.md), pokud vede k majetkovým dispozicím.
+Viz [doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md).
+
+## Obrana a neutralizace
+
+**Pro svěřence.** Rozlišit, co bylo darem a co prací; vést si přehled o vlastním přínosu;
+říct si, že vděk nezakládá povinnost poslušnosti. Viz
+[rozpoznání citového dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md)
+a [nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md).
+
+**Pro instituce.** Neformální existenční pomoc (vízum, bydlení, financování) zajišťovat
+přes instituci, ne přes osobu mentora; to brání vzniku osobních pohledávek.
+Viz [ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md).
+
+## Zotavení
+
+Zotavení vyžaduje přijmout ambivalenci: mentor mohl skutečně pomoci a zároveň pomoc
+zneužít. Terapie pracuje s vinou, hranicemi a se vzorci z dřívějších vztahů. Viz
+[rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) a
+[práce se studem](@/kompendium/self-defense-guides/18-shame-resilience.md).
+
+## Ilustrativní příklad (anonymizovaný kompozit)
+
+Studentka z jiné země získá doktorské místo díky profesorovi, který jí pomůže s vízem
+a prvním bydlením. V dalších letech profesor při každé její žádosti o volno, změnu tématu
+nebo stáž připomene, „co všechno pro ni udělal“. Studentka pracuje o víkendech na jeho
+projektech a odmítne nabídku stáže v zahraničí. Když nakonec oznámí odchod na
+postdoktorskou pozici jinam, profesor reaguje jako zrazený a přestane s ní mluvit.
+V terapii se ukáže, že vzorec zná z rodiny, kde láska byla podmíněna vděkem.
+
+## Meze a otevřené otázky
+
+Vděčnost je ctnost a mentoři, kteří skutečně pomohli, si ji zaslouží. Otevřenou otázkou
+je, jak vytvořit instituce, které poskytují existenční podporu bez osobního dluhu vůči
+jednotlivci, a tím chrání vděčnost před tím, aby se změnila v závislost.
+
+## Případy, které techniku ukazují
+
+Anonymizované kompozity: [akademická supervize – totalizace](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md),
+[totalizace doktorského programu](@/kompendium/case-studies/32-graduate-program-totalization.md),
+[psychoterapeut – totalizace](@/kompendium/case-studies/16-psychoterapeut-totalizace.md)
+a [narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md), kde se tentýž
+vzorec objevuje mimo akademii.
+
+## Literatura
+
+- Mauss, M. (1925). *Essai sur le don*.
+- Cialdini, R. B. (1984). *Influence: The Psychology of Persuasion*.
+- Herman, J. L. (1992). *Trauma and Recovery*.
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
-- [EA-2.2.6](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) (sister)
-- [EA-2.2.8](@/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md) (sister)
-- [EA-2.2.5](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md) (sister)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
-- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
+**Techniky podkategorie 2.2**
 
-## Connect
+- [EA-2.2.1 Sebetotalizace mentora](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md)
+  – nosná struktura.
+- [EA-2.2.5 Nátlak doporučením](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md)
+  – páka hodnocení.
+- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md)
+  – páka kompromitace.
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+**Pojmy**
+
+- [Glosář: trauma bonding](@/glossary/trauma-bonding.md) – pouto ze střídání vřelosti
+  a chladu.
+- [Glosář: pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md) – předstíraná
+  blízkost.
+
+**Pomoc**
+
+- [Rozpoznání citového dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md)
+  – rozlišení vděku a dluhu.
+- [Práce se studem](@/kompendium/self-defense-guides/18-shame-resilience.md) – vina a stud
+  po odchodu.

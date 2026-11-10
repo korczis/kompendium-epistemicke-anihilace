@@ -3,6 +3,7 @@ title = "EA-1.3.2 Strategická reinterpretace"
 description = "Detailní per-technique článek: strategická reinterpretace — systematické přeinterpretování evidence kontradiktorní k specifické teorii tak, že je transformována na podporující evidenci."
 weight = 132
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-1-3-2-strategic-reinterpretation/", "/kompendium/techniques/ea-1-3-2/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-1-3-2", "reinterpretace", "hermeneutika", "post-hoc-rationalization"]

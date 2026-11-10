@@ -1,14 +1,14 @@
 +++
 title = "EA-9.5.9 Meme Radicalization Pipeline"
-description = "Současná digitální EA — meme radicalization pipeline."
+description = "Vzorec postupného posunu od nezávazného humoru k extremistickému obsahu přes řadu memů a komunit, v níž ironie snižuje ostražitost a mění normy."
 weight = 959
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-8-meme-context-collapse", "ea-9-6-1-algorithmic-decision-bias", "ea-9-6-10-AI-welfare-decision-EA"]
+related_terms = ["ea-9-3-4-recommendation-radicalization", "ea-9-5-4-meme-network-amplification", "ea-9-5-1-meme-cascade-injection"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.5.9"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,105 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Sekvenční pipeline memů od neškodného humoru k extremistickému obsahu — gradient radikalizace přes pravidelný consumption.
+*Meme radicalization pipeline* je postupná cesta uživatele od nezávazného humoru k extremistickému obsahu prostřednictvím memů. Vstupním bodem bývá provokativní, ale zdánlivě neškodný humor; komunity a doporučení pak nabízejí ostřejší varianty, a po měsících pravidelného konzumování člověk přijímá obsah, který by na začátku odmítl. Ironie přitom slouží jako ochranný štít – „je to jen vtip“.
 
-V kontextu Prismatic doktríny je Meme Radicalization Pipeline klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.5.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Uživatel je exponován mírnému memu (entry point); algoritmický feed/komunitní share posunují k ostřejším variantám; po měsících je internalizován extrémní obsah.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec stojí na třech prvcích. *Gradient*: každý krok je jen o málo ostřejší než předchozí, a proto nevyvolá odpor. *Ironie*: obsah je podán tak, že nelze říct, zda je myšlen vážně; to umožňuje vyzkoušet extrémní myšlenky bez závazku a postupně je normalizovat. *Komunita*: memy se sdílejí ve skupinách, které nabízejí příslušnost, uznání a společného nepřítele. Pro mladé lidi, kteří hledají identitu a mají pocit vyloučení, je kombinace přitažlivá. Algoritmy doporučování mohou gradient urychlit ([EA-9.3.4](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)), ale jádrem je sociální proces.
 
 ## 4. Detekční markery
 
-Radicalization-pathway tracking, consumption-history analysis, intervention-point identification.
+- Humor se postupně mění od absurdního k zesměšňování skupin a k dehumanizaci.
+- Objevuje se kódový jazyk, čísla a symboly, jimž rozumí jen zasvěcení.
+- Na otázky po smyslu obsahu přichází „je to jen vtip“ nebo „ty to nechápeš“.
+- Uživatel tráví stále víc času v uzavřených komunitách a stahuje se z jiných vztahů.
+- Rostoucí pohrdání „normálními lidmi“ a institucemi, obdiv k násilí jako „konečnému řešení“.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Černý humor*: může být provokativní, ale nevede k dehumanizaci a izolaci. *Dospívající provokace*: testování hranic, které se nemění v identitu a neprovází ji izolace. *[EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)*: důraz na algoritmus; pipeline zdůrazňuje memetickou kulturu a komunitu.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Memetická radikalizace může vést k izolaci, konfliktům v rodině, nenávisti a vzácně k násilí. V několika případech teroristických útoků v posledním desetiletí se pachatelé hlásili k online memetickým subkulturám – kniha to uvádí obecně, bez jmen a bez reprodukce jejich obsahu. Rámcem reakce je prevence, práce s mládeží, programy odchodu a tam, kde hrozí násilí, bezpečnostní složky.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Rodiče a blízcí*: zajímat se o humor mladého člověka bez zákazů a výsměchu; ptát se, co ho baví a proč. *Školy*: rozebírat ironii a kódový jazyk v mediální výchově; nabízet skutečnou komunitu. *Sociální pracovníci a terapeuti*: pracovat s potřebami, které komunita naplňuje (příslušnost, uznání, smysl). *Platformy*: omezovat doporučování dehumanizujícího obsahu i v humorné podobě.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Čtrnáctiletá dívka začne sledovat stránku s ironickými memy o „normies“. Po půl roce sdílí memy zesměšňující migranty a ženy, kterým se „dobře stalo“. Mluví o spolužácích s pohrdáním. Matka si všimne změny a místo zákazu se s ní začne dívat na memy a ptát se, co jí na nich připadá vtipné. Dívka nakonec přizná, že se ve třídě cítí osamělá a online skupina ji „bere“. Školní psycholožka jí pomůže najít kroužek; zájem o skupinu slábne.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Většina lidí, kteří se s provokativními memy setkají, se neradikalizuje; vzorec popisuje cestu, ne nevyhnutelný osud. Výzkum toho, jaký podíl na radikalizaci mají memy, komunity a algoritmy, není uzavřen. Kniha proto zdůrazňuje rizikové faktory (izolace, hledání identity) spíše než obsah samotný.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Data jsou navíc vázána na konkrétní platformy a období.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Zevnitř je pipeline prožívána jako objevování skupiny, která „rozumí“, a humoru, který „vidí pravdu“. Kritika zvenčí potvrzuje, že ostatní jsou nepřátelé. Odchod znamená ztrátu přátel a identity. Účinná pomoc proto nabízí náhradu – vztahy, uznání, smysl – a postupné otevírání pochybností, ne konfrontaci.
 
-## 6. Vztah k jiným EA
+## 11. Vztah k ostatním kategoriím EA
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pipeline je memetickou podobou postupné radikalizace popsané v případových studiích [online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md) a [incel recovery](@/kompendium/case-studies/23-incel-recovery.md); mechanismus postupného posunu sdílí s [Detekční signatura: Posun rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md).
 
-- **EA-1.* (Vědomá kontrola informací)** — Meme Radicalization Pipeline představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 12. Otázky pro rozhovor a šetření
 
-## 7. Vztah k Prismatic platformě
+- Co tě na těchto memech baví?
+- Kdo jsou lidé, se kterými je sdílíš?
+- Co by se stalo, kdybys s nimi nesouhlasil?
+- Jak se cítíš ve škole nebo v práci?
+- Jsou memy, které už jsou i na tebe „moc“?
 
-Prismatic Platform implementuje detekci a neutralizaci Meme Radicalization Pipeline přes následující komponenty:
+## 13. Postup pro profesionály
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+1. **Školní psycholog nebo sociální pracovník:** posoudit rizikové faktory (izolace, šikana, krize) a zahájit rozhovor bez obviňování.
+2. **Terapeut:** pracovat s potřebami a pocity, které komunita naplňuje, a postupně s obsahem.
+3. **Rodina:** udržet vztah; spolupracovat se školou a odborníky.
+4. **Programy odchodu:** nabídnout cestu ven a podporu při ztrátě komunity.
+5. **Bezpečnostní složky:** zasáhnout jen tam, kde hrozí násilí; jinak preferovat prevenci.
 
-**Doctrine compliance:**
+## 14. Prevence a odolnost
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Prevence stojí na skutečných komunitách a vztazích, které mladým lidem nabízejí příslušnost a uznání, na mediální výchově zahrnující ironii a kódový jazyk a na otevřené komunikaci v rodině. Pomáhá, když dospělí berou online kulturu mladých vážně a nebojí se o ní mluvit.
 
-## 8. Cross-linky
+## Odborný kontext
 
-**Související EA techniky:**
+Ribeiro et al. (2020) analyzovali komentáře a doporučení na velké videoplatformě a doložili migraci uživatelů od obsahu s mírnějšími postoji k obsahu krajnějšímu, přičemž část cesty odpovídala doporučovacímu systému. Marwick a Lewis (2017) popsali, jak extremistické subkultury používají ironii a humor jako vstupní bránu: obsah lze vždy odbýt jako vtip, ale postupně normalizuje myšlenky, které by byly jinak odmítnuty. Phillips (2015) ukázala, že ironická distance v trollí kultuře ztěžuje rozlišení mezi provokací a přesvědčením – i pro samotné účastníky.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md)
-- [EA-9.5.4 Meme Network Amplification](@/kompendium/techniques/ea-9-5-4-meme-network-amplification.md)
+Z hlediska prevence je důležité, že radikalizace je i sociální proces. Teorie sociální identity vysvětluje, jak příslušnost ke skupině a vymezení vůči „nim“ posilují sebepojetí (Tajfel a Turner 1979). Výzkum „psychologického očkování“ ukázal, že předchozí seznámení s manipulativními technikami v herní formě zvyšuje schopnost je rozpoznat (Roozenbeek a van der Linden 2019); tento přístup je slibný i pro mediální výchovu zaměřenou na memy.
 
-**Doktrinální a infrastructure odkazy:**
+## Souvislosti pro praxi
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Školní psychologové, sociální pracovníci a rodiče mohou pipeline přerušit nejčastěji ve fázi, kdy humor teprve začíná přecházet v pohrdání: v té chvíli je mladý člověk ještě spojen s okolím a rozhovor je možný. Užitečné je ptát se po potřebách, které komunita naplňuje, a nabízet skutečné alternativy – kroužek, sport, mentora. Zákaz bez náhrady obvykle vede k utajování a k posílení vazby na online skupinu.
 
----
+## Literatura
 
-## Connect & Contribute
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
+- Phillips, W. (2015). *This Is Why We Can't Have Nice Things*. MIT Press.
+- Ribeiro, M. H., Ottoni, R., West, R., Almeida, V. A. F., & Meira, W. (2020). Auditing radicalization pathways on YouTube. *Proceedings of FAT* 2020*.
+- Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance against online misinformation. *Palgrave Communications*.
+- Tajfel, H., & Turner, J. C. (1979). An integrative theory of intergroup conflict. In W. G. Austin & S. Worchel (Eds.), *The Social Psychology of Intergroup Relations*. Brooks/Cole.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Související
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+**Sourozenecké techniky**
 
----
+- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md) – algoritmický posun.
+- [EA-9.5.4 Meme Network Amplification](@/kompendium/techniques/ea-9-5-4-meme-network-amplification.md) – síť stránek jako vstupní bod.
+- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md) – šíření obsahu z okrajových komunit.
 
-*EA-9.5.9 | Subkategorie 9.5 Memetická válka | Prismatic Compendium | Version 18.4.0*
+**Případy**
+
+- [Online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md) – anonymizovaný případ.
+- [Incel recovery](@/kompendium/case-studies/23-incel-recovery.md) – cesta zpět.
+- [Discord server kult](@/kompendium/case-studies/79-discord-server-cult.md) – uzavřená komunita.
+
+**Prevence a obrana**
+
+- [Detekční signatura: Akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md) – ubývání vztahů.
+- [Sebe-obrana: Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – udržení sítě.

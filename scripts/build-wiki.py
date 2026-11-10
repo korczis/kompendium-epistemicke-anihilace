@@ -181,7 +181,7 @@ struktury, detekční markery, klinický rámec a cestu k obraně a zotavení.
 | 🗂️ | [[Případy]] | kazuistiky a historické případy |
 | 🧭 | [[Provenience]] | odkud kniha pochází a jak se vyvíjela |
 | 🛠️ | [[Sestavení]] | jak web sestavit a přispět |
-| ⚖️ | [[Licence]] | CC BY-NC-SA 4.0 pro text, MIT pro kód |
+| ⚖️ | [[Licence]] | General Honest License v1.0 |
 """
 
 
@@ -265,14 +265,12 @@ Flowbite Pro.
 
 LICENCE = f"""# Licence
 
-- **Text, glosář, archiv a grafika: CC BY-NC-SA 4.0**
-  ([LICENSE-CONTENT.md]({REPO}/blob/main/LICENSE-CONTENT.md)). Uveďte autora, nepoužívejte
-  komerčně, odvozená díla šiřte pod stejnou licencí.
-- **Kód (šablony, styly, skripty, workflow): MIT** ([LICENSE]({REPO}/blob/main/LICENSE)).
-- Knihovny třetích stran si ponechávají vlastní licence ([NOTICE.md]({REPO}/blob/main/NOTICE.md)).
+Celý repozitář — text knihy, glosář, archiv, grafika i kód — je od 2026-11-10 pod
+**General Honest License (GHL) v1.0**: [LICENSE]({REPO}/blob/main/LICENSE), autoritativní
+text na [korczis/prismatic/docs/ghl](https://github.com/korczis/prismatic/tree/master/docs/ghl).
 
-Rozhodnutí je zaznamenáno v
-[ADR 0001]({REPO}/blob/main/.ai/repo/adrs/0001-public-release-name-and-licence.md).
+Knihovny třetích stran si ponechávají vlastní licence ([NOTICE.md]({REPO}/blob/main/NOTICE.md)).
+Do 2026-11-10 platila pro text CC BY-NC-SA 4.0 a pro kód MIT; změnu zaznamenává ADR 0003.
 """
 
 SIDEBAR = f"""<img src="{RAW}/static/img/mark.svg" width="40" alt="">
@@ -292,7 +290,7 @@ SIDEBAR = f"""<img src="{RAW}/static/img/mark.svg" width="40" alt="">
 [💻 Repozitář]({REPO})
 """
 
-FOOTER = f"""Kompendium epistemické a kognitivní anihilace · Tomas Korcak · text CC BY-NC-SA 4.0, kód MIT · generováno skriptem `scripts/build-wiki.py` · [web]({SITE}/)
+FOOTER = f"""Kompendium epistemické a kognitivní anihilace · Tomas Korcak · licence GHL v1.0 · generováno skriptem `scripts/build-wiki.py` · [web]({SITE}/)
 """
 
 

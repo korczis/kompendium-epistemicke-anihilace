@@ -16,8 +16,7 @@
 [![Galerie](https://img.shields.io/badge/galerie-p5.js-ef4444?style=for-the-badge)](https://korczis.github.io/kompendium-epistemicke-anihilace/galerie/)
 
 [![Nasazení](https://github.com/korczis/kompendium-epistemicke-anihilace/actions/workflows/pages.yml/badge.svg)](https://github.com/korczis/kompendium-epistemicke-anihilace/actions/workflows/pages.yml)
-[![Text: CC BY-NC-SA 4.0](https://img.shields.io/badge/text-CC%20BY--NC--SA%204.0-4f46e5)](LICENSE-CONTENT.md)
-[![Kód: MIT](https://img.shields.io/badge/kód-MIT-6b7280)](LICENSE)
+[![Licence: GHL v1.0](https://img.shields.io/badge/licence-GHL%20v1.0-4f46e5)](LICENSE)
 [![Majordomus](https://img.shields.io/badge/dohled-Majordomus-111827)](https://majordomus.dev)
 
 </div>
@@ -106,9 +105,11 @@ ImageMagick).
 
 ## Licence
 
-Text, archiv a grafika: [CC BY-NC-SA 4.0](LICENSE-CONTENT.md). Uveďte autora, nepoužívejte
-komerčně a odvozená díla šiřte pod stejnou licencí. Kód: [MIT](LICENSE). Knihovny třetích
-stran: [NOTICE.md](NOTICE.md). Rozhodnutí: [ADR 0001](.ai/repo/adrs/0001-public-release-name-and-licence.md).
+Celý repozitář — text, archiv, grafika i kód — je pod **General Honest License (GHL) v1.0**
+([`LICENSE`](LICENSE), autoritativní text na
+[korczis/prismatic/docs/ghl](https://github.com/korczis/prismatic/tree/master/docs/ghl)).
+Knihovny třetích stran si ponechávají vlastní licence ([NOTICE.md](NOTICE.md)). Rozhodnutí:
+[ADR 0001](.ai/repo/adrs/0001-public-release-name-and-licence.md) a ADR 0003.
 
 Opravy a podněty: [Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues).
 

@@ -10,6 +10,9 @@
 | `three-0.160.min.js` | three.js | r160 | MIT | převzato z webu Prismatic Platform |
 | `mermaid-11.min.js` | Mermaid | 11.14.0 | MIT | převzato z webu Prismatic Platform |
 
+Vlastní obsah a kód repozitáře je pod General Honest License v1.0 (`LICENSE`); knihovny výše
+si ponechávají své licence.
+
 Styly generuje Tailwind CSS 4.3.3 (MIT) s pluginy Flowbite (MIT) a flowbite-typography (MIT).
 Rozvržení stránek vychází z licencovaných šablon Flowbite Pro autora; žádný zdrojový soubor
 Flowbite Pro se nešíří.

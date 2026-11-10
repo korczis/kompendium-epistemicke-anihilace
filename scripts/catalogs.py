@@ -46,6 +46,9 @@ catalogues, so `related` and `broader` may cross catalogues.
               target person – lexicon HOWTO in ia_model.py, rule project.content-defensive-frame)
   freshness   any derived part (front matter, blocks, exports, trainer) differs from what the
               engine would write now
+  exclusions  a line of the declaration, the bibliography, a catalogue's data or a catalogue
+              page that matches data/platform-exclusions.toml (excluded platform material or a
+              refused marker; ADR 0005), or that file missing or malformed
 
 Usage:
   scripts/catalogs.py                          write every derived part of every catalogue
@@ -72,6 +75,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 DECLARATION = ROOT / "data" / "catalogs.toml"
 SOURCES = ROOT / "data" / "sources.toml"
+EXCLUSIONS = ROOT / "data" / "platform-exclusions.toml"
+EXCLUSIONS_SCHEMA = "kompendium-platform-exclusions/v1"
 SCHEMA = 1
 
 MIN_WORDS = 1150        # prose only; the IA gate counts the whole page against 1100
@@ -114,6 +119,65 @@ from ia_model import HOWTO, url_of  # noqa: E402
 
 def fail(errors: list, where: str, message: str) -> None:
     errors.append(f"{where}: {message}")
+
+
+# --- platform exclusions (data/platform-exclusions.toml; ADR 0005) ---------------------------
+
+def load_exclusions(errors: list) -> list:
+    """The refusal list as (kind, class, because, compiled pattern) rules.
+
+    A missing file, a wrong schema, a rule without `because` or `match`, or a pattern that does
+    not compile is itself an error: the importer must never run without its refusal list.
+    """
+    where = "data/platform-exclusions.toml"
+    if not EXCLUSIONS.exists():
+        fail(errors, where, "missing: the catalogue engine refuses to run without its exclusions")
+        return []
+    raw = load_toml(EXCLUSIONS)
+    if raw.get("schema") != EXCLUSIONS_SCHEMA:
+        fail(errors, where, f"schema must be {EXCLUSIONS_SCHEMA!r}")
+    rules = []
+    for kind in ("exclude", "refuse_marker"):
+        for i, rule in enumerate(raw.get(kind, [])):
+            label = rule.get("class") or f"{kind}[{i}]"
+            unknown = set(rule) - {"class", "because", "match"}
+            if unknown:
+                fail(errors, where, f"{label}: unknown field(s) {sorted(unknown)}")
+            if not rule.get("because") or not rule.get("match"):
+                fail(errors, where, f"{label}: needs `because` and a non-empty `match`")
+                continue
+            for pattern in rule["match"]:
+                try:
+                    rules.append((kind, label, rule["because"], re.compile(pattern, re.I)))
+                except re.error as exc:
+                    fail(errors, where, f"{label}: pattern {pattern!r} does not compile ({exc})")
+    return rules
+
+
+def check_exclusions(cats: list, errors: list) -> None:
+    """Refuse excluded platform material anywhere a catalogue can carry it.
+
+    Scanned: the declaration, the shared bibliography, every catalogue's data directory and
+    every page of its section. One error per refused line.
+    """
+    rules = load_exclusions(errors)
+    if not rules:
+        return
+    files = [DECLARATION, SOURCES]
+    for cat in cats:
+        if cat.data.exists():
+            files += sorted(p for p in cat.data.rglob("*") if p.is_file())
+        if cat.section_dir.exists():
+            files += sorted(cat.section_dir.rglob("*.md"))
+    for path in dict.fromkeys(files):
+        if not path.exists() or path == EXCLUSIONS:
+            continue
+        rel = path.relative_to(ROOT).as_posix()
+        for no, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+            for kind, label, because, pattern in rules:
+                if pattern.search(line):
+                    what = "excluded platform material" if kind == "exclude" else "refused marker"
+                    fail(errors, f"{rel}:{no}", f"{what} ({label}): {because}")
 
 
 def load_toml(path: pathlib.Path) -> dict:
@@ -829,6 +893,7 @@ def main() -> int:
         return 0
     polish = load_polish()
     planned = {}
+    check_exclusions(cats, errors)
 
     for cat in cats:
         if only_cat and cat.slug != only_cat:

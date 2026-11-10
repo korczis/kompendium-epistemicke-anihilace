@@ -4,7 +4,8 @@
 Writes three files that templates and scripts read and nobody edits by hand:
 
   static/data/graph.json    nodes (one per page) and edges (resolved @/ links, as index pairs);
-                            schema kompendium-graph/v2: v1 plus, on historical cases,
+                            schema kompendium-graph/v2: v1 plus top-level families (EA-N -> name)
+                            and, on historical cases,
                             period_start, period_end (years; none when ongoing),
                             ongoing, category and place
   static/data/metrics.json  per-section and whole-book figures for the dashboards
@@ -138,8 +139,30 @@ def build() -> dict:
         "terms_without_page": sorted(t["term"] for t in terms if not t["page"]),
         "sections": sections,
     }
-    graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges}
+    graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges, "families": families(pages)}
     return {"graph.json": graph, "metrics.json": metrics, "ia.json": ia_report(pages)}
+
+
+FAMILY_HEADING = re.compile(r"^##\s+Kapitola\s+(\d+)\s+[—–-]\s+(.+?)\s*$", re.M)
+
+
+def families(pages: list) -> dict:
+    """EA family code -> name, derived: the chapter headings of the register of techniques
+    ("## Kapitola 1 — Akademické techniky"), else the most common extra.ea_category on the
+    family's technique pages. A family with no derivable name is left out, never guessed."""
+    names = {}
+    register = ROOT / "content" / "kompendium" / "08-prilohy" / "rejstrik-technik.md"
+    if register.exists():
+        for num, name in FAMILY_HEADING.findall(register.read_text(encoding="utf-8")):
+            names[f"EA-{int(num)}"] = re.sub(r"\s*\(.*?\)\s*$", "", name).strip()
+    votes = collections.defaultdict(collections.Counter)
+    for p in pages:
+        m = re.match(r"kompendium/techniques/ea-(\d+)-", p["path"])
+        if m and p.get("ea_category"):
+            votes[f"EA-{int(m.group(1))}"][p["ea_category"]] += 1
+    for family, counter in votes.items():
+        names.setdefault(family, re.sub(r"^\d+\.\s*", "", counter.most_common(1)[0][0]))
+    return dict(sorted(names.items(), key=lambda kv: int(kv[0][3:])))
 
 
 def ia_report(pages: list) -> dict:

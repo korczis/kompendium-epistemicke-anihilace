@@ -28,7 +28,7 @@ Tato sekce-specifická vizualizace zobrazuje **pětifázovou klinickou cestu** z
 
 <canvas id="section-06-recovery-flow" width="800" height="500"></canvas>
 <div id="recovery-flow-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/kompendium-epistemicke-anihilace/js/kompendium/section-06-recovery-flow.js"></script>
+{{ <viz_script name="section-06-recovery-flow" /> }}
 
 ## Jak číst diagram
 

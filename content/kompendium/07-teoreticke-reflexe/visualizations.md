@@ -26,7 +26,7 @@ Tato sekce-specifická vizualizace zobrazuje **25+ filosofů** teoreticky releva
 
 <div id="section-07-framework-map" class="rounded bg-slate-900"></div>
 <div id="framework-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/kompendium-epistemicke-anihilace/js/kompendium/section-07-framework-map.js"></script>
+{{ <viz_script name="section-07-framework-map" /> }}
 
 ## Jak číst mapu
 

@@ -35,10 +35,11 @@ odchozí a příchozí odkazy):
 | `links-out` | aspoň 3 vnitřní odkazy `@/` na existující stránky |
 | `not-orphan` | aspoň jedna jiná stránka sem odkazuje |
 | `broken-link` | žádný odkaz `@/` na neexistující stránku |
-| `detail` | stránka má skutečný obsah: aspoň 600 slov (karta `quick-reference` 250, rozcestník sekce `_index.md` 300); žádná stránka „na oko“ |
+| `detail` | stránka má skutečný obsah v rozsahu aspoň 2× A4, tedy 1100 slov (asi 550 slov souvislého textu na stranu A4); rozcestník sekce `_index.md` 600, karta `quick-reference` 250; stránka s vlastní šablonou (mapa, stav, matice) je aplikační plocha a je vyňata; žádná stránka „na oko“ |
 | `generated` | žádný strojově přidaný text platformy: blok NLLB, „structural stub“, poznámka o zástupné stránce, šablona „pojem v sekci … znalostní báze Prismatic Platform“ (viz `knowledge/curated/platform-artifacts-in-content.md`) |
 | `weak-link` | každý vnitřní odkaz vede na detailní stránku, která splňuje `detail` i `generated`; porušení nese odkazující stránka a zmizí samo, jakmile se cíl rozvine |
 | `summary` | heslo glosáře má krátké shrnutí (`description`) a začíná oddílem `## Definice`, za nímž následuje podrobný výklad |
+| `hardcoded-path` | obsah nikdy nepíše základní cestu ani adresu webu (`src`/`href` na `/kompendium-epistemicke-anihilace/…`, `https://korczis.github.io/…`): stránky jsou odkazy `@/`, skripty komponenta `{{ <viz_script name="…" /> }}`, takže se nic nezastará při přesunu webu |
 | `term-page` | každý pojem z rejstříku `08-prilohy/index-pojmu.md` má vlastní stránku: heslo glosáře (podle názvu nebo anglického ekvivalentu), esej ve `philosophy/` nebo stránku techniky (podle kódu EA) |
 
 Strukturní vazby, které plynou z cest (karta `qr-ea-X-Y-Z` ↔ technika `ea-X-Y-Z`, most
@@ -57,7 +58,9 @@ opraví umístění popisu a štítků a převede YAML na TOML beze změny čeho
 `scripts/ia-baseline.json`. Základ obsahuje jen stav z doby zavedení pravidla a smí se jen
 zmenšovat (`--update-baseline` odmítne cokoli přidat). Nový požadavek se zavádí jednou a
 výslovně: `--introduce <požadavek>` přidá do základu jeho tehdejší porušení a podruhé už to
-neudělá. Commit, který pravidlo poruší, se
+neudělá. Zvýšení prahu existujícího požadavku (2026-11-10: `detail` z 600 na 1100 slov na
+pokyn autora „rozvin kazdy jeden markdown na 2x A4+ rozsah“) se do základu přidá jednou přes
+`--extend <požadavek>` a commit uvede, co se zvýšilo a proč. Commit, který pravidlo poruší, se
 opraví dřív, než se sloučí do `main`.
 
 # Verification

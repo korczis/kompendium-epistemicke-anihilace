@@ -17,9 +17,12 @@ Requirements (id: what is checked):
   links-out        at least 3 internal @/ links to existing pages (index pages exempt)
   not-orphan       at least one other page links here (index pages exempt)
   broken-link      no @/ link points at a page that does not exist
-  detail           a page carries real substance: at least 600 words (a quick-reference card
-                   250, a section index 300); a page with its own template is an
-                   application surface and exempt
+  detail           a page carries real substance: at least 2 x A4, i.e. 1100 words (~550 words
+                   of running text per A4); a section index 600, a quick-reference card 250; a
+                   page with its own template is an application surface and exempt
+  hardcoded-path   content never writes the site's base path or host (src/href
+                   "/kompendium-epistemicke-anihilace/…", https://korczis.github.io/…): pages are
+                   @/ links, scripts are {{ <viz_script name="…" /> }}
   generated        no machine-generated text: no NLLB auto block, structural stub, placeholder
                    note or "pojem v sekci … znalostní báze Prismatic Platform" boilerplate
   weak-link        every internal link leads to a page that meets `detail` and `generated`
@@ -36,6 +39,9 @@ Usage:
   scripts/check-ia.py --list <rule>      list the pages that violate one requirement
   scripts/check-ia.py --introduce <rule> add the current violations of a NEW requirement to the
                                          baseline (once, when the requirement is introduced)
+  scripts/check-ia.py --extend <rule>    add the current violations of an EXISTING requirement
+                                         whose threshold was just raised (once per raise; the
+                                         commit must say what was raised and why)
 """
 import collections
 import json
@@ -80,13 +86,15 @@ def violations(page: dict) -> list:
         found.append("detail")
     if page["generated"]:
         found.append("generated")
+    if page["hardcoded"]:
+        found.append("hardcoded-path")
     return found
 
 
 def min_words(page: dict) -> int:
     if page["path"].startswith("kompendium/quick-reference/"):
         return 250
-    return 300 if page["is_index"] else 600
+    return 600 if page["is_index"] else 1100  # 2 x A4 of running text
 
 
 def weak(page: dict) -> bool:
@@ -143,6 +151,21 @@ def main() -> int:
         BASELINE.write_text(json.dumps(baseline, ensure_ascii=False, indent=1, sort_keys=True)
                             + "\n", encoding="utf-8")
         print(f"check-ia: introduced '{rule}' with {added} violation(s) in the baseline")
+        return 0
+
+    if "--extend" in args:
+        rule = args[args.index("--extend") + 1]
+        if not any(rule in rules for rules in baseline.values()):
+            print(f"check-ia: '{rule}' is not in the baseline; use --introduce for a new rule")
+            return 1
+        added = 0
+        for path, rules in now.items():
+            if rule in rules and rule not in baseline.get(path, []):
+                baseline.setdefault(path, []).append(rule)
+                added += 1
+        BASELINE.write_text(json.dumps(baseline, ensure_ascii=False, indent=1, sort_keys=True)
+                            + "\n", encoding="utf-8")
+        print(f"check-ia: extended '{rule}' by {added} violation(s) after a raised threshold")
         return 0
 
     if "--update-baseline" in args:

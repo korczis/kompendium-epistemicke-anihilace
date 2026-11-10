@@ -57,6 +57,10 @@ python3 scripts/check-ia.py --list weak-link | grep -x 'content/kompendium/case-
 printf '+++\ntitle = "Fixturové heslo"\n+++\n\nBez oddílu definice.\n' > content/glossary/case-01-fixture.md
 python3 scripts/check-ia.py --list summary | grep -x 'content/glossary/case-01-fixture.md' >/dev/null
 rm content/glossary/case-01-fixture.md
+# Content that writes the site's base path is refused (hardcoded-path).
+printf '\n<script src="/kompendium-epistemicke-anihilace/js/kompendium/x.js"></script>\n' \
+  >> content/kompendium/case-01-fixture/linking.md
+python3 scripts/check-ia.py --list hardcoded-path | grep -x 'content/kompendium/case-01-fixture/linking.md' >/dev/null
 # The normalizer infers the missing tags from where the page is, and a second run is a no-op.
 python3 scripts/normalize-front-matter.py content/kompendium/case-01-fixture >/dev/null
 grep -x 'tags = \["kompendium", "case-01-fixture"\]' content/kompendium/case-01-fixture/seeded.md >/dev/null

@@ -27,7 +27,7 @@ Listy stromu jsou **barevně kódované** podle úrovně rizika a klikatelné pr
 
 <div id="section-04-decision-tree" class="rounded bg-slate-900"></div>
 <div id="tree-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/kompendium-epistemicke-anihilace/js/kompendium/section-04-decision-tree.js"></script>
+{{ <viz_script name="section-04-decision-tree" /> }}
 
 ## Jak číst strom
 

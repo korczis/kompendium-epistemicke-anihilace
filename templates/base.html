@@ -86,6 +86,9 @@
 <script src="{{ config.base_url }}/js/vendor/flowbite.min.js" defer></script>
 <script src="{{ get_url(path='js/site.js', cachebust=true) }}" defer></script>
 {% block page_scripts %}{% endblock page_scripts %}
+{%- if "data-vrstvy" in body_html or "data-eskalace" in body_html %}
+<script src="{{ get_url(path='js/viz/kostka.js', cachebust=true) }}" defer></script>
+{%- endif %}
 {%- if "data-p5=" in body_html or (section is defined and section.path == "/") %}
 {%- if "/js/kompendium/" not in body_html %}
 <script src="{{ get_url(path='js/vendor/p5-1.7.0.min.js') }}" defer></script>

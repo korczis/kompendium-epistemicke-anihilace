@@ -32,3 +32,117 @@
   <script type="application/json" data-chart-config="{{ slug }}">{{ data | json_encode | safe }}</script>
 </figure>
 {% endcomponent chart_inline %}
+
+{#- Šest vrstev epistemické a kognitivní anihilace jako soustředné kruhy (od vnější epistemické
+    po metakognitivní jádro). Klepnutí nebo klávesy vyberou vrstvu; panel ukáže, co člověk ztrácí,
+    a vede na hesla, techniky, obranu a Mapu knihy. Bez JavaScriptu zůstane seznam karet. -#}
+{% component vrstvy_anihilace() %}
+{%- set layers = [
+  {"id": "epistemicka", "name": "Epistemická", "loss": "Schopnost rozhodnout, co je pravda a jak ji ověřit.", "color": "#4f46e5",
+   "links": [{"t": "Epistemická anihilace", "p": "@/glossary/epistemicka-anihilace.md"}, {"t": "Epistemická alienace", "p": "@/glossary/epistemicka-alienace.md"}, {"t": "Základní kategorie", "p": "@/kompendium/03-zakladni-kategorie/_index.md"}],
+   "defense": {"t": "Epistemická integrita", "p": "@/philosophy/epistemic-integrity.md"}, "map": "glossary/epistemicka-anihilace.md"},
+  {"id": "kognitivni", "name": "Kognitivní", "loss": "Schopnost informace uspořádat, integrovat a vyvodit závěr.", "color": "#0ea5e9",
+   "links": [{"t": "Kognitivní anihilace", "p": "@/glossary/kognitivni-anihilace.md"}, {"t": "EA-1.1.2 Informační přetížení", "p": "@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md"}],
+   "defense": {"t": "Sebeobrana", "p": "@/kompendium/self-defense-guides/_index.md"}, "map": "glossary/kognitivni-anihilace.md"},
+  {"id": "semanticka", "name": "Sémantická", "loss": "Stabilní význam pojmů a tvrzení.", "color": "#10b981",
+   "links": [{"t": "Sémantická afázie", "p": "@/glossary/semanticka-afazie.md"}, {"t": "EA-5.1.4 Sémantická imploze", "p": "@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md"}, {"t": "EA-4.3.3 Narušení sémantické stability", "p": "@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md"}],
+   "defense": {"t": "Prevence a odolnost", "p": "@/kompendium/prevention-resilience/_index.md"}, "map": "glossary/semanticka-afazie.md"},
+  {"id": "ontologicka", "name": "Ontologická", "loss": "Jistota v tom, co považuje za skutečné.", "color": "#f59e0b",
+   "links": [{"t": "Ontologická anihilace", "p": "@/glossary/ontologicka-anihilace.md"}, {"t": "Testování reality", "p": "@/glossary/reality-testing.md"}, {"t": "Gaslighting", "p": "@/glossary/gaslighting.md"}],
+   "defense": {"t": "Testování reality", "p": "@/glossary/reality-testing.md"}, "map": "glossary/ontologicka-anihilace.md"},
+  {"id": "identitni", "name": "Identitní", "loss": "Kontinuita vlastního sebepojetí a přesvědčení.", "color": "#ec4899",
+   "links": [{"t": "Narativní identita", "p": "@/glossary/narativni-identita.md"}, {"t": "Destrukce identity", "p": "@/glossary/identity-destruction.md"}, {"t": "EA-5.1.9 Identitní dezintegrace", "p": "@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md"}, {"t": "Identitní dekonstrukce", "p": "@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md"}],
+   "defense": {"t": "Protokoly zotavení", "p": "@/kompendium/recovery-protocols/_index.md"}, "map": "glossary/narativni-identita.md"},
+  {"id": "metakognitivni", "name": "Metakognitivní", "loss": "Důvěra ve vlastní schopnost správně myslet a hodnotit.", "color": "#ef4444",
+   "links": [{"t": "Metakognitivní destrukce", "p": "@/glossary/metakognitivni-destrukce.md"}, {"t": "Metakognice", "p": "@/glossary/metakognice.md"}, {"t": "EA-5.1.23 Asymptotická dezintegrace", "p": "@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md"}],
+   "defense": {"t": "Intelektuální suverenita", "p": "@/philosophy/intellectual-sovereignty.md"}, "map": "glossary/metakognitivni-destrukce.md"}
+] -%}
+<figure class="not-format my-8 rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-6 dark:border-gray-700 dark:bg-gray-800" data-vrstvy>
+  <figcaption class="mb-4">
+    <p class="text-base font-semibold text-gray-900 dark:text-white">Šest vrstev, které se mohou rozpadat</p>
+    <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Od vnější epistemické vrstvy po metakognitivní jádro. Vrstvy se navzájem podpírají: rozpad jedné zatěžuje ostatní. Klepnutím vyberte vrstvu.</p>
+  </figcaption>
+  <div class="grid items-center gap-6 lg:grid-cols-2">
+    <svg viewBox="0 0 320 320" class="mx-auto w-full max-w-sm" role="group" aria-label="Soustředné kruhy šesti vrstev">
+      {%- for l in layers %}
+      {%- set r = 150 - loop.index0 * 24 %}
+      <g data-vrstva="{{ l.id }}" role="button" tabindex="0" aria-label="{{ l.name }} vrstva: {{ l.loss }}" class="kea-ring cursor-pointer focus:outline-none">
+        <circle cx="160" cy="160" r="{{ r }}" fill="{{ l.color }}" fill-opacity="0.16" stroke="{{ l.color }}" stroke-width="2"></circle>
+        <text x="160" y="{{ 160 - r + 15 }}" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor" class="text-gray-800 dark:text-gray-100">{{ l.name }}</text>
+      </g>
+      {%- endfor %}
+      <circle cx="160" cy="160" r="18" fill="#111827" class="dark:fill-white" fill-opacity="0.85" pointer-events="none"></circle>
+      <text x="160" y="164" text-anchor="middle" font-size="9" fill="#ffffff" class="dark:fill-gray-900" pointer-events="none">já</text>
+    </svg>
+    <div>
+      {%- for l in layers %}
+      <div data-vrstva-panel="{{ l.id }}" class="kea-layer-panel rounded-lg border-l-4 bg-gray-50 p-4 dark:bg-gray-900{% if not loop.first %} mt-3{% endif %}" style="border-color: {{ l.color }}">
+        <p class="text-sm font-semibold text-gray-900 dark:text-white">{{ loop.index }}. {{ l.name }} vrstva</p>
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">Co člověk ztrácí: {{ l.loss }}</p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          {%- for link in l.links %}
+          <a href="{{ get_url(path=link.p) }}" class="rounded-md bg-white px-2 py-1 text-xs font-medium text-gray-800 ring-1 ring-gray-200 hover:bg-gray-100 dark:bg-gray-800 dark:text-gray-200 dark:ring-gray-700 dark:hover:bg-gray-700">{{ link.t }}</a>
+          {%- endfor %}
+        </div>
+        <div class="mt-3 flex flex-wrap gap-3 text-xs">
+          <a href="{{ get_url(path=l.defense.p) }}" class="font-medium text-green-700 hover:underline dark:text-green-400">Obrana: {{ l.defense.t }} &rarr;</a>
+          <a href="{{ get_url(path='@/mapa.md') }}?stranka={{ l.map | urlencode }}" class="font-medium text-primary-700 hover:underline dark:text-primary-400">V Mapě knihy &rarr;</a>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</figure>
+{% endcomponent vrstvy_anihilace %}
+
+{#- Ilustrativní model eskalace ve čtyřech stupních jako klikací stepper. U každého stupně
+    vnitřní hlas, pozorovatelné znaky a obrana. Bez JavaScriptu se zobrazí všechny stupně. -#}
+{% component model_eskalace() %}
+{%- set steps = [
+  {"id": "stabilita", "name": "Epistemická stabilita", "self": "Věřím, že dokážu rozlišovat pravdu od omylu.", "voice": "Někdo mi lže.",
+   "signs": "Člověk rozporná tvrzení ověřuje, hledá zdroje a chybu přičítá druhým, ne vlastnímu úsudku.",
+   "defense": "Udržovat více nezávislých zdrojů a vztahy, se kterými lze zkušenost ověřit.", "links": [{"t": "Epistemická integrita", "p": "@/philosophy/epistemic-integrity.md"}, {"t": "Prevence a odolnost", "p": "@/kompendium/prevention-resilience/_index.md"}]},
+  {"id": "krize", "name": "Epistemická krize", "self": "Moje dosavadní vysvětlení reality přestává fungovat.", "voice": "Možná si věci pamatuji špatně.",
+   "signs": "Rozpory mezi vlastní zkušeností a výkladem druhých, pochybnosti o paměti, opakované vyjednávání o tom, co se stalo.",
+   "defense": "Zapisovat si zkušenosti v čase, ověřovat je s důvěryhodnými lidmi, pojmenovat vzorec.", "links": [{"t": "Gaslighting", "p": "@/glossary/gaslighting.md"}, {"t": "Testování reality", "p": "@/glossary/reality-testing.md"}]},
+  {"id": "destabilizace", "name": "Metakognitivní destabilizace", "self": "Pochybuji dokonce o tom, jestli dokážu správně uvažovat.", "voice": "Nemohu věřit ostatním, ale možná ani sobě.",
+   "signs": "Pochybnost se přesouvá od jednotlivých tvrzení k vlastnímu myšlení; stažení, závislost na vnějším výkladu.",
+   "defense": "Bezpečný vztah a odborná pomoc; obnovovat důvěru v úsudek po malých, ověřitelných krocích.", "links": [{"t": "Metakognice", "p": "@/glossary/metakognice.md"}, {"t": "Sebeobrana", "p": "@/kompendium/self-defense-guides/_index.md"}]},
+  {"id": "anihilace", "name": "Epistemická anihilace", "self": "Ztrácím funkční rámec, pomocí kterého bych určil, co je pravda.", "voice": "Nevím, podle čeho bych vůbec mohl rozhodnout, co je skutečné.",
+   "signs": "Nejde už o pochybnost o jednotlivých věcech, ale o rozpad kritérií, podle kterých se o čemkoli rozhoduje.",
+   "defense": "Krizová intervence a dlouhodobé zotavení; obnova začíná u kritérií, ne u jednotlivých faktů.", "links": [{"t": "Krizové protokoly", "p": "@/kompendium/emergency-protocols/_index.md"}, {"t": "Protokoly zotavení", "p": "@/kompendium/recovery-protocols/_index.md"}]}
+] -%}
+<figure class="not-format my-8 rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-6 dark:border-gray-700 dark:bg-gray-800" data-eskalace>
+  <figcaption class="mb-4">
+    <p class="text-base font-semibold text-gray-900 dark:text-white">Model eskalace</p>
+    <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Ilustrativní model, nikoli prokázaná univerzální posloupnost psychických stavů. Klepnutím vyberte stupeň.</p>
+  </figcaption>
+  <ol class="flex w-full items-center text-center text-xs font-medium text-gray-500 sm:text-sm dark:text-gray-400" role="tablist">
+    {%- for s in steps %}
+    <li class="flex{% if not loop.last %} w-full items-center after:mx-2 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200 after:content-[''] sm:after:inline-block dark:after:border-gray-700{% endif %}">
+      <button type="button" role="tab" data-krok="{{ s.id }}" aria-controls="krok-{{ s.id }}" class="kea-step flex flex-col items-center gap-1 rounded-lg p-1 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800">
+        <span class="kea-step-dot flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gray-100 text-sm font-bold text-gray-700 dark:bg-gray-700 dark:text-gray-200">{{ loop.index }}</span>
+        <span class="hidden max-w-[7rem] leading-tight sm:block">{{ s.name }}</span>
+      </button>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- for s in steps %}
+  <div id="krok-{{ s.id }}" data-krok-panel="{{ s.id }}" role="tabpanel" class="kea-step-panel mt-5 rounded-lg bg-gray-50 p-4 dark:bg-gray-900">
+    <p class="text-xs font-medium uppercase text-gray-500 dark:text-gray-400">Stupeň {{ loop.index }} ze 4</p>
+    <p class="mt-1 text-lg font-semibold text-gray-900 dark:text-white">{{ s.name }}</p>
+    <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">{{ s.self }}</p>
+    <blockquote class="mt-3 border-l-4 border-primary-500 pl-3 text-base italic text-gray-800 dark:text-gray-100">„{{ s.voice }}“</blockquote>
+    <dl class="mt-4 grid gap-3 text-sm sm:grid-cols-2">
+      <div><dt class="font-semibold text-gray-900 dark:text-white">Čeho si všimnout</dt><dd class="mt-1 text-gray-600 dark:text-gray-300">{{ s.signs }}</dd></div>
+      <div><dt class="font-semibold text-green-700 dark:text-green-400">Obrana</dt><dd class="mt-1 text-gray-600 dark:text-gray-300">{{ s.defense }}</dd></div>
+    </dl>
+    <div class="mt-3 flex flex-wrap gap-2">
+      {%- for link in s.links %}
+      <a href="{{ get_url(path=link.p) }}" class="rounded-md bg-white px-2 py-1 text-xs font-medium text-gray-800 ring-1 ring-gray-200 hover:bg-gray-100 dark:bg-gray-800 dark:text-gray-200 dark:ring-gray-700 dark:hover:bg-gray-700">{{ link.t }}</a>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+</figure>
+{% endcomponent model_eskalace %}

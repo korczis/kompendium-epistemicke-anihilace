@@ -96,3 +96,28 @@
     cursor: pointer;
   }
 }
+
+@layer components {
+  /* Vrstvy anihilace: vybraný kruh zvýrazněn, ostatní ztlumené. */
+  [data-vrstvy] .kea-ring circle {
+    transition: fill-opacity 150ms, stroke-width 150ms;
+  }
+
+  [data-vrstvy] .kea-ring.is-active circle {
+    fill-opacity: 0.45;
+    stroke-width: 4;
+  }
+
+  [data-vrstvy] .kea-ring:focus-visible circle {
+    stroke-width: 5;
+  }
+
+  [data-vrstvy] .kea-layer-panel[hidden],
+  [data-eskalace] .kea-step-panel[hidden] {
+    display: none;
+  }
+
+  [data-vrstvy] .kea-layer-panel:not([hidden]) {
+    margin-top: 0;
+  }
+}

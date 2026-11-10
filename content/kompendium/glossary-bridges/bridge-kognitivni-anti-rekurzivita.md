@@ -2,9 +2,11 @@
 title = "Bridge: kognitivni-anti-rekurzivita"
 description = "Glossary bridge — propojeni kompendia s glossary entry kognitivni-anti-rekurzivita."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "kognitivni-anti-rekurzivita", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-intentionalita", "bridge-kognitivni-anihilace", "bridge-kompendium-ea", "bridge-kontraindikace"]
 parent = "kompendium-glossary-bridges"

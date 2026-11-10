@@ -2,9 +2,11 @@
 title = "Obnova smyslu"
 description = "Prevence a rezilience — obnova smyslu."
 weight = 24
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "tertiary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["22-post-EA-network-rebuilding", "23-skills-rebuilding-program", "25-vocational-rehabilitation-prevention", "26-family-reintegration-prevention"]
 parent = "kompendium-prevention-resilience"

@@ -2,9 +2,11 @@
 title = "Bridge: info-ops"
 description = "Glossary bridge — propojeni kompendia s glossary entry info-ops."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "info-ops", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-iatrogenic-harm", "bridge-ideal-speech-situation", "bridge-instrumental-reason", "bridge-intelligence-fusion"]
 parent = "kompendium-glossary-bridges"

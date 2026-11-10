@@ -1,14 +1,17 @@
 +++
 title = "Sealioning"
 weight = 100
+description = "Sealioning — pojem v sekci kompendium/05-ultramari-techniky znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Sealioning — pojem v sekci kompendium/05-ultramari-techniky znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["narrativni-trauma", "kapitola-8", "kapitola-9", "weaponized-incompetence", "kapitola-6", "motte-bailey"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

@@ -2,9 +2,11 @@
 title = "EA-2.2.6 Time Control Academic"
 description = "Delegitimizační technika — Time Control Academic."
 weight = 2206
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-6", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-2-4-collaboration-monopolizace", "ea-2-2-5-recommendation-coercion", "ea-2-2-7-emotional-debt-cultivation", "ea-2-2-8-intellectual-paternity-claim"]
 parent = "kompendium-techniques"

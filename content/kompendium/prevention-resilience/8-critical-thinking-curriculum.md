@@ -2,9 +2,11 @@
 title = "Kurikulum kritického myšlení"
 description = "Prevence a rezilience — kurikulum kritického myšlení."
 weight = 8
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "primary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["6-media-literacy-prevention", "7-digital-hygiene-prevention", "9-civic-education-prevention", "5-workplace-prevention-EA"]
 parent = "kompendium-prevention-resilience"

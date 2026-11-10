@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Řešení konfliktů"
 description = "Praktický návod sebe-obrany — řešení konfliktů."
 weight = 29
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["27-mentor-evaluation", "28-community-engagement", "3-source-triangulation", "30-support-mobilization"]
 parent = "kompendium-self-defense-guides"

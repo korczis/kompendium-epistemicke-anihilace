@@ -1,9 +1,13 @@
 +++
 title = "Blue Team"
 weight = 20
+description = "Epistemic defense team producing structured evidence through signal aggregation, drift detection, and NABLA-compliant defensive posture assessments across the Prismatic Platform"
+
+[taxonomies]
+tags = ["glossary", "security", "color-teams", "epistemic-defense", "signal-aggregation", "drift-detection", "evidence-synthesis", "nabla"]
+
 [extra]
 category = "security"
-description = "Epistemic defense team producing structured evidence through signal aggregation, drift detection, and NABLA-compliant defensive posture assessments across the Prismatic Platform"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "18 min"
@@ -11,7 +15,6 @@ difficulty = "advanced"
 quality_score = 95
 technical_level = "expert"
 domain_category = "Security Operations"
-tags = ["glossary", "security", "color-teams", "epistemic-defense", "signal-aggregation", "drift-detection", "evidence-synthesis", "nabla"]
 related_concepts = ["epistemic defense", "signal aggregation", "drift detection", "evidence synthesis", "defensive posture", "adversarial-defensive loop", "paraconsistent reasoning"]
 implementation_status = "production"
 authority_level = "L3-strategic"

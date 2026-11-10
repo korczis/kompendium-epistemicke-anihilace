@@ -2,9 +2,11 @@
 title = "Archer Supreme & EA detection"
 description = "Integrace agenta Archer Supreme s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 16
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "archer-supreme-ea-orchestration"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["autoevolve-ea-pattern-evolution", "autoheal-ea-regression-repair", "black-team-ea-modeling"]
 parent = "kompendium-aiad-integration"

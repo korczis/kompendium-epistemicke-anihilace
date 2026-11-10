@@ -2,9 +2,13 @@
 title = "Betrayal Trauma"
 weight = 60
 
+description = "Freyd's theory of trauma inflicted by trusted attachment figures, producing dissociation and knowledge isolation as adaptive responses; central to understanding institutional and intimate epistemic annihilation."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "trauma"]
+
 [extra]
 category = "epistemic"
-description = "Freyd's theory of trauma inflicted by trusted attachment figures, producing dissociation and knowledge isolation as adaptive responses; central to understanding institutional and intimate epistemic annihilation."
 related_terms = ["epistemicka-anihilace", "c-ptsd", "kognitivni-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "epistemicka-injustice"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["betrayal trauma", "Freyd", "betrayal trauma theory", "BTT", "dissociation", "attachment", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "trauma"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

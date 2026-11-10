@@ -2,9 +2,11 @@
 title = "Řízení přístupů s EA fokusem"
 description = "Organizační obrana — řízení přístupů s ea fokusem."
 weight = 280
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["26-contractor-vetting", "27-information-classification", "29-segregation-duties", "3-conflict-of-interest-policy"]
 parent = "kompendium-organizational-defense"

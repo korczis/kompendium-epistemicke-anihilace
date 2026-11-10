@@ -1,8 +1,12 @@
 +++
 title = "Expert Witness"
 weight = 5
-[extra]
 description = "Witness qualified by knowledge, skill, experience, training, or education to render opinion testimony on technical, scientific, or specialized matters beyond the common understanding of the trier of fact"
+
+[taxonomies]
+tags = ["legal", "forensic", "evidence", "compliance"]
+
+[extra]
 category = "legal"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "critical"
 related_terms = ["evidence", "verifiable-evidence", "pattern-evidence", "forensic-interview", "chain-of-custody", "due-diligence", "evidence-over-opinion"]
 keywords = ["expert witness", "expert testimony", "Daubert standard", "Frye standard", "znalecký posudek", "znalec", "qualifications", "opinion testimony", "Federal Rule 702"]
-tags = ["legal", "forensic", "evidence", "compliance"]
 key_takeaway = "Unlike fact witnesses, who may testify only to what they perceived, expert witnesses are permitted to offer opinions — but only after the court accepts both their qualifications and the reliability of the methodology underlying those opinions. Failed methodology audits (Daubert challenges) are the most common reason expert testimony is excluded."
 see_also = ["pattern-evidence", "forensic-interview", "chain-of-custody"]
 image = "/images/sections/glossary.png"

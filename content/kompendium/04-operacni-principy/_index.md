@@ -2,6 +2,7 @@
 title = "Operační principy"
 description = "Operační principy doktríny EA"
 weight = 100
+
 [extra]
 draft = false
 stub = true

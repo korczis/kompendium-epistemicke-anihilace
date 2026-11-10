@@ -2,9 +2,11 @@
 title = "Trauma-aware management"
 description = "Organizační obrana — trauma-aware management."
 weight = 360
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["34-PR-narrative-defense", "35-employee-assistance-EA", "37-business-continuity-EA", "38-leadership-replacement"]
 parent = "kompendium-organizational-defense"

@@ -1,9 +1,13 @@
 +++
 title = "Agent"
 weight = 10
+description = "Autonomous software entity within the AIAD ecosystem that performs specialized tasks with defined authority levels and doctrine compliance."
+
+[taxonomies]
+tags = ["glossary", "architecture", "agent", "prismatic"]
+
 [extra]
 category = "architecture"
-description = "Autonomous software entity within the AIAD ecosystem that performs specialized tasks with defined authority levels and doctrine compliance."
 keywords = ["agent", "AIAD", "autonomous", "OTP", "supervision", "tier system", "L1-L5", "doctrine"]
 abbreviation = "N/A"
 related_terms = ["aiad", "otp", "supervisor", "trinity-gate", "registry-otp", "agent-registry", "agent-tier", "consciousness-traits", "nabla-infinity", "color-teams", "epistemic-pipeline", "process-isolation"]
@@ -30,7 +34,6 @@ author = "Tomas Korcak (korczis)"
 reading_time = "10 min"
 word_count = 1997
 date_modified = "2026-02-23"
-tags = ["glossary", "architecture", "agent", "prismatic"]
 quality_score = 90
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

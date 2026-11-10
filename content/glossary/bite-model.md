@@ -2,9 +2,13 @@
 title = "BITE Model"
 weight = 60
 
+description = "Steven Hassan's diagnostic instrument for cult dynamics organized along four axes of control: Behavior, Information, Thought, and Emotion."
+
+[taxonomies]
+tags = ["glossary", "clinical", "manipulace", "kompendium"]
+
 [extra]
 category = "clinical"
-description = "Steven Hassan's diagnostic instrument for cult dynamics organized along four axes of control: Behavior, Information, Thought, and Emotion."
 related_terms = ["coercive-control", "epistemicka-anihilace", "taxonomie-ea", "kognitivni-anihilace", "darvo", "gaslighting"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["BITE model", "Steven Hassan", "cult dynamics", "behavior control", "information control", "thought control", "emotion control"]
-tags = ["glossary", "clinical", "manipulace", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

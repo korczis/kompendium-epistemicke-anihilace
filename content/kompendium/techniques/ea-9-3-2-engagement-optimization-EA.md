@@ -2,9 +2,11 @@
 title = "EA-9.3.2 Engagement Optimization EA"
 description = "Současná digitální EA — engagement optimization ea."
 weight = 932
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-3-1-algorithmic-amplification", "ea-9-3-10-trend-manipulation-EA", "ea-9-3-3-feed-personalization-bias", "ea-9-3-4-recommendation-radicalization"]
 parent = "kompendium-techniques"

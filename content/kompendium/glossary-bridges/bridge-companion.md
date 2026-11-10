@@ -1,14 +1,17 @@
 +++
 title = "Bridge: Companion / Doprovod"
 weight = 100
+description = "Bridge entry for companion / support-person concepts in recovery and clinical contexts."
+
+[taxonomies]
+tags = ["glossary-bridge", "kompendium", "interactive"]
+
 [extra]
 category = "kompendium-bridge"
-description = "Bridge entry for companion / support-person concepts in recovery and clinical contexts."
 related_terms = ["bridge-autoheal", "bridge-agent", "bridge-aiad", "bridge-3nl", "bridge-autoevolve", "bridge-agent-tier"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "kompendium", "interactive"]
 quality_score = 75
 +++
 

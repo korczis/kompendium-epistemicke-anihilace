@@ -2,9 +2,11 @@
 title = "EA-7.2.10 Nagel: Pohled odnikud"
 description = "Teoretická reflexe — Nagel: Pohled odnikud a vztah k EA."
 weight = 730
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-1-9-heidegger-dasein", "ea-7-2-1-fricker-epistemic-injustice", "ea-7-2-2-goldman-veritism", "ea-7-2-3-popper-falsification"]
 parent = "kompendium-techniques"

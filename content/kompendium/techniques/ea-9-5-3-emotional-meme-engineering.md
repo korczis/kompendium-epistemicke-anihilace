@@ -2,9 +2,11 @@
 title = "EA-9.5.3 Emotional Meme Engineering"
 description = "Současná digitální EA — emotional meme engineering."
 weight = 953
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-5-10-meme-attribution-laundering", "ea-9-5-2-symbolic-hijacking", "ea-9-5-4-meme-network-amplification", "ea-9-5-5-counter-meme-suppression"]
 parent = "kompendium-techniques"

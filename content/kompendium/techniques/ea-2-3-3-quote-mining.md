@@ -2,9 +2,11 @@
 title = "EA-2.3.3 Quote Mining"
 description = "Delegitimizační technika — Quote Mining."
 weight = 2303
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-3-3", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-3-10-viralni-misrepresentation", "ea-2-3-2-context-collapse", "ea-2-3-4-mob-coordination", "ea-2-3-5-pseudo-kontroverze-amplifikace"]
 parent = "kompendium-techniques"

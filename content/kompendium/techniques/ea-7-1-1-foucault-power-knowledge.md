@@ -2,9 +2,11 @@
 title = "EA-7.1.1 Foucault: Power/Knowledge"
 description = "Teoretická reflexe — Foucault: Power/Knowledge a vztah k EA."
 weight = 711
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-6-5-8-day-program-EA", "ea-6-5-9-residential-program-EA", "ea-7-1-10-merleau-ponty-embodiment", "ea-7-1-2-foucault-discipline"]
 parent = "kompendium-techniques"

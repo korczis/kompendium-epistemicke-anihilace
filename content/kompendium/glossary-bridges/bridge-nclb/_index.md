@@ -2,6 +2,7 @@
 title = "Bridge: NCLB (No Claim Left Behind)"
 description = "Most mezi pilířem **NCLB** (No Claim Left Behind) doktríny a doménou epistemické anihilace"
 weight = 100
+
 [extra]
 draft = false
 stub = true

@@ -2,9 +2,11 @@
 title = "Esencialistický klam v EA kategoriích"
 description = "Kritická perspektiva — esencialistický klam v ea kategoriích."
 weight = 9
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["7-replication-EA-research", "8-theoretical-imperialism", "6-political-instrumentalization"]
 parent = "kompendium-critical-perspectives"

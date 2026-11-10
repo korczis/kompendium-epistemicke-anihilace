@@ -2,9 +2,11 @@
 title = "EA-9.1.4 RAG Context Poisoning"
 description = "Současná digitální EA — rag context poisoning."
 weight = 914
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-1-2-prompt-injection-EA", "ea-9-1-3-jailbreak-cascade", "ea-9-1-5-llm-narrative-injection", "ea-9-1-6-llm-source-attribution-bypass"]
 parent = "kompendium-techniques"

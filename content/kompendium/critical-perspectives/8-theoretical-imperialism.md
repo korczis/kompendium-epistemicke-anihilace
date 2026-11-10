@@ -2,9 +2,11 @@
 title = "Teoretický imperialismus — EA jako totalizující rámec"
 description = "Kritická perspektiva — teoretický imperialismus — ea jako totalizující rámec."
 weight = 8
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["6-political-instrumentalization", "7-replication-EA-research", "9-essentialism-critique", "5-false-positive-risk"]
 parent = "kompendium-critical-perspectives"

@@ -2,9 +2,13 @@
 title = "Epistemická injustice"
 weight = 60
 
+description = "Fricker's framework distinguishing testimonial and hermeneutical injustice; structural epistemic harms inflicted on speakers and groups when their credibility or interpretive resources are systematically deflated."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Fricker's framework distinguishing testimonial and hermeneutical injustice; structural epistemic harms inflicted on speakers and groups when their credibility or interpretive resources are systematically deflated."
 related_terms = ["epistemicka-anihilace", "epistemicka-alienace", "panopticism", "power-knowledge", "metanarrative-collapse"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 520
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["epistemic injustice", "Miranda Fricker", "testimonial injustice", "hermeneutical injustice", "credibility deficit", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

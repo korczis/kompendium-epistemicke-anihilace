@@ -2,9 +2,13 @@
 title = "Panopticism"
 weight = 60
 
+description = "Foucault's analysis of the panoptic disciplinary mechanism (Discipline and Punish): asymmetric visibility producing internalized self-surveillance; structural template for institutional epistemic annihilation."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Foucault's analysis of the panoptic disciplinary mechanism (Discipline and Punish): asymmetric visibility producing internalized self-surveillance; structural template for institutional epistemic annihilation."
 related_terms = ["power-knowledge", "epistemicka-injustice", "epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 520
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["panopticism", "panopticon", "Foucault", "Bentham", "discipline", "surveillance", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

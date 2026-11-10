@@ -1,9 +1,13 @@
 +++
 title = "Core Consciousness"
 weight = 50
+description = "Damasio's concept: minimal moment-to-moment awareness without autobiographical narrative."
+
+[taxonomies]
+tags = ["glossary", "philosophy", "interactive"]
+
 [extra]
 category = "philosophy"
-description = "Damasio's concept: minimal moment-to-moment awareness without autobiographical narrative."
 related_terms = [
   "intencionalita",
   "body-schema",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "philosophy", "interactive"]
 quality_score = 75
 +++
 

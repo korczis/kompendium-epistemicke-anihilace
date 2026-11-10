@@ -1,8 +1,12 @@
 +++
 title = "Supreme Commander"
 weight = 14
-[extra]
 description = "L5 Platform-wide strategic coordination agent with full orchestration authority"
+
+[taxonomies]
+tags = ["glossary", "agents", "supreme-commander", "prismatic"]
+
+[extra]
 category = "agents"
 related_terms = ["agent-tier", "archer-supreme", "aiad", "strategic-command", "agent-registry"]
 tier = "TIER 1"
@@ -28,7 +32,6 @@ word_count = 1034
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Supreme", "Commander", "Platform-wide", "glossary", "agents", "Prismatic Platform", "Supreme Commander", "Archer Supreme"]
-tags = ["glossary", "agents", "supreme-commander", "prismatic"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

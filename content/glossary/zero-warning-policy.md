@@ -1,8 +1,12 @@
 +++
 title = "Zero Warning Policy"
 weight = 57
-[extra]
 description = "All code must compile with --warnings-as-errors producing zero warnings"
+
+[taxonomies]
+tags = ["glossary", "quality", "zero-warning-policy", "prismatic"]
+
+[extra]
 category = "quality"
 related_terms = ["clean-run", "quality-gates", "credo", "dialyzer", "no-mercy"]
 author = "Tomas Korcak (korczis)"
@@ -11,7 +15,6 @@ word_count = 1334
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Zero", "Warning", "Policy", "--warnings-as-errors", "glossary", "quality", "Prismatic Platform", "Elixir", "Warnings", "Zero Warning"]
-tags = ["glossary", "quality", "zero-warning-policy", "prismatic"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

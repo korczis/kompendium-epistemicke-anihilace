@@ -2,9 +2,11 @@
 title = "QR: EA-2.1.9 Pseudo-konsensus"
 description = "Rychla referencni karta pro EA-2.1.9 (delegitimizace)."
 weight = 30219
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-1-9", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-1-7", "qr-ea-2-1-8", "qr-ea-2-2-1", "qr-ea-2-2-10"]
 parent = "kompendium-quick-reference"

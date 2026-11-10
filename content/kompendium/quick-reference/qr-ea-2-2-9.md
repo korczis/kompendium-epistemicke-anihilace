@@ -2,9 +2,11 @@
 title = "QR: EA-2.2.9 Boundary coercion"
 description = "Rychla referencni karta pro EA-2.2.9 (delegitimizace)."
 weight = 30229
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-2-9", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-2-7", "qr-ea-2-2-8", "qr-ea-2-3-1", "qr-ea-2-3-10"]
 parent = "kompendium-quick-reference"

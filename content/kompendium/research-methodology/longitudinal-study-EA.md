@@ -2,9 +2,11 @@
 title = "Longitudinální Studie EA Procesů"
 description = "Výzkumná metodologie EA — longitudinální studie ea procesů."
 weight = 11
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["grounded-theory-EA", "informed-consent-EA-research", "meta-analysis-EA", "mixed-methods-EA"]
 parent = "kompendium-research-methodology"

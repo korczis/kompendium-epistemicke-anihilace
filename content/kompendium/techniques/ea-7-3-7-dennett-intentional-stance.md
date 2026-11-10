@@ -2,9 +2,11 @@
 title = "EA-7.3.7 Dennett: Intenční postoj"
 description = "Teoretická reflexe — Dennett: Intenční postoj a vztah k EA."
 weight = 737
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-3-5-metzinger-ego-tunnel", "ea-7-3-6-thompson-mind-life", "ea-7-3-8-chalmers-hard-problem", "ea-7-3-9-dehaene-consciousness"]
 parent = "kompendium-techniques"

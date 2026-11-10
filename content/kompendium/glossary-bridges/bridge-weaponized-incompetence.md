@@ -2,9 +2,11 @@
 title = "Bridge: weaponized-incompetence"
 description = "Glossary bridge — propojeni kompendia s glossary entry weaponized-incompetence."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "weaponized-incompetence", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-trinity-gate", "bridge-violation-protocol", "bridge-white-team", "bridge-zero-warning-policy"]
 parent = "kompendium-glossary-bridges"

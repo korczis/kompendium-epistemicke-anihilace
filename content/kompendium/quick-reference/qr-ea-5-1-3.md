@@ -2,9 +2,11 @@
 title = "QR: EA-5.1.3 Reflexivni paradoxie"
 description = "Rychla referencni karta pro ultramarine techniku Reflexivni paradoxie (epistemicka singularita)."
 weight = 10003
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-1", "ultramari", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-1-28", "qr-ea-5-1-29", "qr-ea-5-1-30", "qr-ea-5-1-4"]
 parent = "kompendium-quick-reference"

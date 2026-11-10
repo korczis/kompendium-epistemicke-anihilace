@@ -1,8 +1,12 @@
 +++
 title = "Sémantická afázie (Semantic Aphasia)"
 weight = 7
-[extra]
 description = "Neuropsychological syndrome characterized by progressive loss of conceptual knowledge — patients lose the meaning of words, objects, faces, and abstract categories while retaining grammatical fluency and articulation, typically associated with degeneration of the anterior temporal lobes"
+
+[taxonomies]
+tags = ["clinical", "neuroscience", "linguistics", "dementia"]
+
+[extra]
 category = "clinical-neuroscience"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -14,7 +18,6 @@ date_updated = "2026-05-03"
 importance = "medium"
 related_terms = ["pragmaticka-kompetence", "narativni-identita", "amygdala", "epistemicke-trauma", "reality-testing"]
 keywords = ["semantic aphasia", "semantic dementia", "primary progressive aphasia", "anterior temporal lobe", "conceptual knowledge", "Hodges"]
-tags = ["clinical", "neuroscience", "linguistics", "dementia"]
 key_takeaway = "Sémantická afázie reveals that meaning is not stored in lexicon but in distributed conceptual networks anchored in the anterior temporal lobes. Its dissociation pattern — fluent speech, intact grammar, lost meaning — is one of the strongest pieces of evidence against pure modular theories of language."
 see_also = ["pragmaticka-kompetence", "narativni-identita", "amygdala"]
 image = "/images/sections/glossary.png"

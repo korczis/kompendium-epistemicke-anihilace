@@ -2,9 +2,11 @@
 title = "Bridge: theory-of-mind"
 description = "Glossary bridge — propojeni kompendia s glossary entry theory-of-mind."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "theory-of-mind", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-tactical-execution", "bridge-taxonomie-ea", "bridge-threshold", "bridge-trinity-gate"]
 parent = "kompendium-glossary-bridges"

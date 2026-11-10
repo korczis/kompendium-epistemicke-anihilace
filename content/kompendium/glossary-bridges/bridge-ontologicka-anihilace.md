@@ -2,9 +2,11 @@
 title = "Bridge: ontologicka-anihilace"
 description = "Glossary bridge — propojeni kompendia s glossary entry ontologicka-anihilace."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "ontologicka-anihilace", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-narrative-trauma", "bridge-nm-nd", "bridge-osint", "bridge-panopticism"]
 parent = "kompendium-glossary-bridges"

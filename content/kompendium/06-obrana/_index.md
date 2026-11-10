@@ -2,6 +2,7 @@
 title = "Obrana proti epistemické anihilaci"
 description = "Sekce shrnuje obranné protokoly, prevenci a rezilienci"
 weight = 100
+
 [extra]
 draft = false
 stub = true

@@ -2,9 +2,11 @@
 title = "Zapojení stakeholderů"
 description = "Organizační obrana — zapojení stakeholderů."
 weight = 100
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["1-board-resilience", "11-onboarding-EA-awareness", "12-training-resilience", "13-exit-interview-EA"]
 parent = "kompendium-organizational-defense"

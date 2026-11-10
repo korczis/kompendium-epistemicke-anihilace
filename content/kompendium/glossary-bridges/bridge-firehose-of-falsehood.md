@@ -2,9 +2,11 @@
 title = "Bridge: firehose-of-falsehood"
 description = "Glossary bridge — propojeni kompendia s glossary entry firehose-of-falsehood."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "firehose-of-falsehood", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-falsifikace", "bridge-fenomenologie", "bridge-four-noble-truths", "bridge-gaslighting"]
 parent = "kompendium-glossary-bridges"

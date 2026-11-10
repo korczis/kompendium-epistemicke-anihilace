@@ -2,9 +2,11 @@
 title = "Bridge: power-knowledge"
 description = "Glossary bridge — propojeni kompendia s glossary entry power-knowledge."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "power-knowledge", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-osint", "bridge-panopticism", "bridge-predictive-processing", "bridge-propaganda"]
 parent = "kompendium-glossary-bridges"

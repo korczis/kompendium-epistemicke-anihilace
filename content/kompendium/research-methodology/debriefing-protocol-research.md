@@ -2,9 +2,11 @@
 title = "Debriefingový Protokol — Výzkumný Kontext"
 description = "Výzkumná metodologie EA — debriefingový protokol — výzkumný kontext."
 weight = 32
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["conversation-analysis-EA", "data-security-EA-research", "discourse-analysis-EA", "document-analysis-EA"]
 parent = "kompendium-research-methodology"

@@ -2,9 +2,11 @@
 title = "EA-2.5.9 Identity Uncertainty Cult"
 description = "Delegitimizační technika — Identity Uncertainty Cult."
 weight = 2509
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-9", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-5-7-self-cancelation", "ea-2-5-8-recursive-doubt-spiral", "ea-3-1-1-graduated-exposure-design", "ea-3-1-10-reflective-journaling"]
 parent = "kompendium-techniques"

@@ -2,9 +2,11 @@
 title = "Narativní medicína"
 description = "Kritická perspektiva — narativní medicína."
 weight = 24
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "alternative"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["22-trauma-framework-alternative", "23-political-economy-alternative", "25-critical-psychiatry-alternative", "26-mad-studies-perspective"]
 parent = "kompendium-critical-perspectives"

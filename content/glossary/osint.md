@@ -1,13 +1,16 @@
 +++
 title = "OSINT"
 weight = 27
-[extra]
 description = "Open Source Intelligence gathering and analysis from publicly available sources"
+
+[taxonomies]
+tags = ["osint", "intelligence", "security", "reconnaissance"]
+
+[extra]
 category = "osint"
 abbreviation = "OSINT"
 related_terms = ["intelligence-fusion", "threat-intelligence", "easm", "hawkeye", "entity-resolution", "garden", "sanctions-screening"]
 keywords = ["open source intelligence definition", "OSINT methodology guide", "intelligence gathering techniques", "OSINT source taxonomy", "public records intelligence", "digital forensics OSINT", "threat intelligence collection", "OSINT analysis framework"]
-tags = ["osint", "intelligence", "security", "reconnaissance"]
 author = "Tomas Korcak (korczis)"
 reading_time = "8 min"
 word_count = 1689

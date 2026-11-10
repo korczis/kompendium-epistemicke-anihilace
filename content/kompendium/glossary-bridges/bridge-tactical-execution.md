@@ -2,9 +2,11 @@
 title = "Bridge: tactical-execution"
 description = "Glossary bridge — propojeni kompendia s glossary entry tactical-execution."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "tactical-execution", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-strategic-command", "bridge-supreme-commander", "bridge-taxonomie-ea", "bridge-theory-of-mind"]
 parent = "kompendium-glossary-bridges"

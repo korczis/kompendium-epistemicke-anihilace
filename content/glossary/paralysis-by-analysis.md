@@ -1,8 +1,12 @@
 +++
 title = "Paralysis by Analysis"
 weight = 5
-[extra]
 description = "Decision-making pathology in which excessive deliberation, information gathering, or option evaluation prevents the actor from reaching any decision at all — common in high-stakes contexts with poorly bounded option spaces"
+
+[taxonomies]
+tags = ["decision-theory", "psychology", "management", "operations"]
+
+[extra]
 category = "decision-theory"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -14,7 +18,6 @@ date_updated = "2026-05-03"
 importance = "medium"
 related_terms = ["bayesian-reasoning", "uncertainty", "anomaly-detection", "reality-testing"]
 keywords = ["paralysis by analysis", "analysis paralysis", "overthinking", "decision fatigue", "satisficing", "Simon", "bounded rationality"]
-tags = ["decision-theory", "psychology", "management", "operations"]
 key_takeaway = "Paralysis by analysis is the failure mode of optimization seekers in environments where optimization is impossible. The remedy is not better analysis but explicit pre-commitment to *satisficing* heuristics — accepting good-enough rather than chasing best-possible."
 see_also = ["bayesian-reasoning", "uncertainty"]
 image = "/images/sections/glossary.png"

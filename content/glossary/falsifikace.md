@@ -2,9 +2,13 @@
 title = "Falsifikace"
 weight = 60
 
+description = "Popperovský princip vědecké demarkace — teorie je vědecky smysluplná, jen pokud připouští okolnosti, které by ji vyvrátily; útočná plocha pro EA-1.3.1 imunizaci proti falsifikaci."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "science"]
+
 [extra]
 category = "epistemic"
-description = "Popperovský princip vědecké demarkace — teorie je vědecky smysluplná, jen pokud připouští okolnosti, které by ji vyvrátily; útočná plocha pro EA-1.3.1 imunizaci proti falsifikaci."
 related_terms = ["lakatos-vyzkumny-program", "epistemicka-anihilace", "taxonomie-ea", "konfirmacni-bias", "hermeneutika", "fenomenologie"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 660
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["falsifikace", "falsifiability", "Popper", "demarkace", "kompendium", "filosofie vědy"]
-tags = ["glossary", "epistemic", "philosophy", "science"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

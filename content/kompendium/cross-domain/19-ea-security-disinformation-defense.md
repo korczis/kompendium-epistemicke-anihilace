@@ -2,9 +2,11 @@
 title = "EA × Security: Enterprise Disinformation Defense"
 description = "Disinformation jako security threat — corporate brand poisoning"
 weight = 190
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["17-ea-security-social-engineering", "18-ea-security-spear-phishing", "2-ea-osint-czech-ares-validation", "20-ea-security-insider-threat"]
 parent = "kompendium-cross-domain"

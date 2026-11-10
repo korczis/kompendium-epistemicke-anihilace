@@ -2,9 +2,11 @@
 title = "EA-9.2.1 Deepfake Personality"
 description = "Současná digitální EA — deepfake personality."
 weight = 921
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-1-8-llm-confabulation-amplification", "ea-9-1-9-multi-turn-narrative-shift", "ea-9-2-10-AI-personhood-claim", "ea-9-2-2-voice-cloning-EA"]
 parent = "kompendium-techniques"

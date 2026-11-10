@@ -3,10 +3,12 @@ title = "Epistemic Integrity & Meaning Preservation"
 description = "How the Prismatic Platform preserves meaning, maintains truth, and protects knowledge integrity across time and context through rigorous epistemic frameworks and verification protocols."
 weight = 25
 
+[taxonomies]
+tags = ["philosophy", "epistemology", "integrity", "ghl", "nabla"]
+
 [extra]
 # Taxonomies moved to extra section for section files
 keywords = ["epistemic integrity", "meaning preservation", "knowledge integrity", "truth preservation", "semantic consistency", "epistemic framework"]
-tags = ["philosophy", "epistemology", "integrity", "ghl", "nabla"]
 categories = ["foundations"]
 
 # Core metadata

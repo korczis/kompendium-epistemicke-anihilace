@@ -2,9 +2,11 @@
 title = "Bridge: metanarrative-collapse"
 description = "Glossary bridge — propojeni kompendia s glossary entry metanarrative-collapse."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "metanarrative-collapse", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-metakognice", "bridge-metakognitivni-destrukce", "bridge-motte-and-bailey", "bridge-nabla-infinity"]
 parent = "kompendium-glossary-bridges"

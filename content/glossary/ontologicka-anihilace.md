@@ -2,9 +2,13 @@
 title = "Ontologická anihilace"
 weight = 60
 
+description = "Destrukce základních kategorií bytí, podle kterých subjekt strukturuje svou zkušenost reality — narušení fundamentálních ontologických rozlišení."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
+
 [extra]
 category = "epistemic"
-description = "Destrukce základních kategorií bytí, podle kterých subjekt strukturuje svou zkušenost reality — narušení fundamentálních ontologických rozlišení."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 490
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["ontologická anihilace", "ontological annihilation", "destrukce kategorií"]
-tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 quality_score = 80
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

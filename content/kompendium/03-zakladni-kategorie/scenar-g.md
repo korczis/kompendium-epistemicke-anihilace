@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [taxonomies]
 tags = ["kompendium", "kapitola-2", "scenar-g", "kognitivni-dekonstrukce", "kategorialni-destabilizace", "ea-3-2-g"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["metakognice", "scenar-f", "scenar-h", "somaticke-vektory"]
 ea_codes = ["EA-3.2.G"]

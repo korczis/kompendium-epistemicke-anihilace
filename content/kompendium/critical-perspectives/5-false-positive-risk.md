@@ -2,9 +2,11 @@
 title = "Riziko falešně pozitivních detekcí"
 description = "Kritická perspektiva — riziko falešně pozitivních detekcí."
 weight = 5
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["30-buddhist-psychology-alt", "4-circular-reasoning-risk", "6-political-instrumentalization", "7-replication-EA-research"]
 parent = "kompendium-critical-perspectives"

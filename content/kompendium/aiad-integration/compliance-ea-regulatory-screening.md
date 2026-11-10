@@ -2,9 +2,11 @@
 title = "Compliance Agent & EA detection"
 description = "Integrace agenta Compliance Agent s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 34
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "compliance-ea-regulatory-screening"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["black-team-ea-modeling", "blue-team-ea-defense", "czech-ares-ea-screening", "dd-engine-ea-source-weighting"]
 parent = "kompendium-aiad-integration"

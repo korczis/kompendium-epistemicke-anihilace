@@ -2,9 +2,11 @@
 title = "EA-9.6.5 AI Credit Scoring Bias"
 description = "Současná digitální EA — ai credit scoring bias."
 weight = 965
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-6-3-automated-content-takedown", "ea-9-6-4-AI-deplatforming-cascade", "ea-9-6-6-AI-hiring-narrative", "ea-9-6-7-AI-medical-decision-EA"]
 parent = "kompendium-techniques"

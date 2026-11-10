@@ -1,9 +1,13 @@
 +++
 title = "Entity Resolution"
 weight = 44
+description = "Intelligence process of determining whether multiple data records from different sources refer to the same real-world entity, enabling identity consolidation across disparate datasets."
+
+[taxonomies]
+tags = ["glossary", "intelligence", "entity-resolution", "prismatic"]
+
 [extra]
 category = "intelligence"
-description = "Intelligence process of determining whether multiple data records from different sources refer to the same real-world entity, enabling identity consolidation across disparate datasets."
 related_terms = ["knowledge-graph", "ontology", "data-pipeline", "nabla-infinity", "trinity-gate", "confidence-scoring", "signal-plurality", "provenance-mandatory", "stream-processing"]
 tier = "TIER 1"
 domain = "Intelligence Processing"
@@ -28,7 +32,6 @@ word_count = 1234
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Entity", "Resolution", "Intelligence", "glossary", "Prismatic Platform", "High", "Graph", "Name"]
-tags = ["glossary", "intelligence", "entity-resolution", "prismatic"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

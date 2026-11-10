@@ -2,9 +2,11 @@
 title = "Bridge: propaganda"
 description = "Glossary bridge — propojeni kompendia s glossary entry propaganda."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "propaganda", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-power-knowledge", "bridge-predictive-processing", "bridge-purple-team", "bridge-qdp"]
 parent = "kompendium-glossary-bridges"

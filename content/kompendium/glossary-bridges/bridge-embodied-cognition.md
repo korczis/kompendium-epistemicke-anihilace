@@ -2,9 +2,11 @@
 title = "Bridge: embodied-cognition"
 description = "Glossary bridge — propojeni kompendia s glossary entry embodied-cognition."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "embodied-cognition", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-dual-use-poznani", "bridge-easm", "bridge-entity-resolution", "bridge-epistemic-bubble"]
 parent = "kompendium-glossary-bridges"

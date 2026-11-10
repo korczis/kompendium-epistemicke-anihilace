@@ -1,10 +1,14 @@
 +++
 title = "Bounded Context"
 weight = 23
+description = "Explicit boundary within which a domain model is defined and consistent, enabling context-specific modeling in complex systems"
+
+[taxonomies]
+tags = ["glossary", "architecture", "bounded-context", "prismatic"]
+
 [extra]
 category = "architecture"
 subcategory = "domain-modeling"
-description = "Explicit boundary within which a domain model is defined and consistent, enabling context-specific modeling in complex systems"
 keywords = ["domain-driven-design", "bounded-context", "context-mapping", "ubiquitous-language", "anti-corruption-layer", "context-boundaries"]
 related_terms = ["domain-driven-design", "cqrs", "message-passing", "pubsub", "behaviour", "adapter-pattern", "event-sourcing", "process-isolation"]
 complexity = "advanced"
@@ -31,7 +35,6 @@ reading_time = "6 min"
 word_count = 1103
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
-tags = ["glossary", "architecture", "bounded-context", "prismatic"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

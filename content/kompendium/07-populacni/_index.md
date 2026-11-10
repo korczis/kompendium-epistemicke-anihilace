@@ -3,9 +3,10 @@ title = "Populační rovina / Population-level Phenomena"
 weight = 70
 sort_by = "weight"
 template = "kompendium/section.html"
+description = "Kompendiální sekce zaměřená na populační epistemické fenomény — propaganda, masová delegitimizace, kolektivní paměť, generačně přenášené kognitivní vzorce."
+
 [extra]
 category = "kompendium-section"
-description = "Kompendiální sekce zaměřená na populační epistemické fenomény — propaganda, masová delegitimizace, kolektivní paměť, generačně přenášené kognitivní vzorce."
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"

@@ -2,9 +2,11 @@
 title = "Otázka validity souhlasu v EA výzkumu"
 description = "Kritická perspektiva — otázka validity souhlasu v ea výzkumu."
 weight = 15
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "ethical"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["13-victim-blaming-risk", "14-power-asymmetry-EA", "16-treatment-coercion-risk", "17-confidentiality-EA"]
 parent = "kompendium-critical-perspectives"

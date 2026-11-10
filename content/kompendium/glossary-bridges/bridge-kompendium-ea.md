@@ -2,9 +2,11 @@
 title = "Bridge: kompendium-ea"
 description = "Glossary bridge — propojeni kompendia s glossary entry kompendium-ea."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "kompendium-ea", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-kognitivni-anihilace", "bridge-kognitivni-anti-rekurzivita", "bridge-kontraindikace", "bridge-lakatos-vyzkumny-program"]
 parent = "kompendium-glossary-bridges"

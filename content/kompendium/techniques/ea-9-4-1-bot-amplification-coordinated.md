@@ -2,9 +2,11 @@
 title = "EA-9.4.1 Bot Amplification Coordinated"
 description = "Současná digitální EA — bot amplification coordinated."
 weight = 941
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-3-8-mass-reporting-coordination", "ea-9-3-9-tag-hijacking-EA", "ea-9-4-10-bot-detection-evasion", "ea-9-4-2-coordinated-inauthentic-behavior"]
 parent = "kompendium-techniques"

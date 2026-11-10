@@ -2,9 +2,11 @@
 title = "EA-7.2.6 Feyerabend: Anti-metoda"
 description = "Teoretická reflexe — Feyerabend: Anti-metoda a vztah k EA."
 weight = 726
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-4-lakatos-research-program", "ea-7-2-5-kuhn-paradigm-shift", "ea-7-2-7-quine-web-belief", "ea-7-2-8-davidson-charity"]
 parent = "kompendium-techniques"

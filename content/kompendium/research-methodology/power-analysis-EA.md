@@ -2,9 +2,11 @@
 title = "Power Analysis pro EA Designy"
 description = "Výzkumná metodologie EA — power analysis pro ea designy."
 weight = 19
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["network-analysis-EA", "phenomenological-interview-EA", "pre-registration-EA-research", "publication-ethics-EA"]
 parent = "kompendium-research-methodology"

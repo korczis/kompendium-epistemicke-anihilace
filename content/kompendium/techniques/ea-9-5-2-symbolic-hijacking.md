@@ -2,9 +2,11 @@
 title = "EA-9.5.2 Symbolic Hijacking"
 description = "Současná digitální EA — symbolic hijacking."
 weight = 952
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-5-1-meme-cascade-injection", "ea-9-5-10-meme-attribution-laundering", "ea-9-5-3-emotional-meme-engineering", "ea-9-5-4-meme-network-amplification"]
 parent = "kompendium-techniques"

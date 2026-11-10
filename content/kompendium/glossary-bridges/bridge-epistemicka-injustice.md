@@ -2,9 +2,11 @@
 title = "Bridge: epistemicka-injustice"
 description = "Glossary bridge — propojeni kompendia s glossary entry epistemicka-injustice."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "epistemicka-injustice", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-epistemicka-alienace", "bridge-epistemicka-anihilace", "bridge-epistemicka-pokora", "bridge-epistemicke-trauma"]
 parent = "kompendium-glossary-bridges"

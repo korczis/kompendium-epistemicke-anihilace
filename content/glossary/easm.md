@@ -1,8 +1,12 @@
 +++
 title = "EASM"
 weight = 25
-[extra]
 description = "External Attack Surface Management for continuous security posture monitoring"
+
+[taxonomies]
+tags = ["glossary", "security", "easm", "prismatic"]
+
+[extra]
 category = "security"
 abbreviation = "EASM"
 related_app = "prismatic-perimeter"
@@ -13,7 +17,6 @@ word_count = 1137
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["EASM", "External", "Attack", "Surface", "Management", "glossary", "security", "Prismatic Platform", "SaaS", "README"]
-tags = ["glossary", "security", "easm", "prismatic"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

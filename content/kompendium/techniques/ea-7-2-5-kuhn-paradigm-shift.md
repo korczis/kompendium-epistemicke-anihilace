@@ -2,9 +2,11 @@
 title = "EA-7.2.5 Kuhn: Paradigmatický posun"
 description = "Teoretická reflexe — Kuhn: Paradigmatický posun a vztah k EA."
 weight = 725
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-3-popper-falsification", "ea-7-2-4-lakatos-research-program", "ea-7-2-6-feyerabend-anti-method", "ea-7-2-7-quine-web-belief"]
 parent = "kompendium-techniques"

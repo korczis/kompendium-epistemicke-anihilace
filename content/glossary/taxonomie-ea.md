@@ -2,9 +2,13 @@
 title = "Taxonomie EA"
 weight = 60
 
+description = "Hierarchický klasifikační systém technik epistemické anihilace s notací EA-X.Y.Z-α, pokrývající 8 primárních kategorií a aspirativně 150+ technik."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "taxonomy"]
+
 [extra]
 category = "epistemic"
-description = "Hierarchický klasifikační systém technik epistemické anihilace s notací EA-X.Y.Z-α, pokrývající 8 primárních kategorií a aspirativně 150+ technik."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "taxonomy", "classification"]
 acronym = "EA"
 author = "Tomáš Korcak (korczis)"
@@ -13,7 +17,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["taxonomie EA", "EA classification", "epistemic annihilation taxonomy", "EA-X.Y.Z notation"]
-tags = ["glossary", "epistemic", "kompendium", "taxonomy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

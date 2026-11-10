@@ -2,6 +2,7 @@
 title = "Doktrinální rámec"
 description = "Doktrinální rámec epistemické anihilace navazuje na [Úvod](@/kompendium/02-uvod/_index.md) a definuje teoretické zázemí pro klinic"
 weight = 100
+
 [extra]
 draft = false
 stub = true

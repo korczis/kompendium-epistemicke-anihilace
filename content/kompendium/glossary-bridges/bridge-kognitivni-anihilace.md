@@ -2,9 +2,11 @@
 title = "Bridge: kognitivni-anihilace"
 description = "Glossary bridge — propojeni kompendia s glossary entry kognitivni-anihilace."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "kognitivni-anihilace", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-intelligence-fusion", "bridge-intentionalita", "bridge-kognitivni-anti-rekurzivita", "bridge-kompendium-ea"]
 parent = "kompendium-glossary-bridges"

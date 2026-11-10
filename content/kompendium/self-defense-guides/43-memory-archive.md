@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Paměťový archiv"
 description = "Praktický návod sebe-obrany — paměťový archiv."
 weight = 43
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["41-narrative-stewardship", "42-relational-anchors", "44-axiology-clarification", "45-life-story-integration"]
 parent = "kompendium-self-defense-guides"

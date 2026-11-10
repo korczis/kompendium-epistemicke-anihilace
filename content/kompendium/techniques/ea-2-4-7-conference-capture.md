@@ -2,9 +2,11 @@
 title = "EA-2.4.7 Conference Capture"
 description = "Delegitimizační technika — Conference Capture."
 weight = 2407
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-4-7", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-4-5-evaluation-criteria-rewrite", "ea-2-4-6-peer-review-capture", "ea-2-4-8-journal-capture", "ea-2-4-9-curriculum-capture"]
 parent = "kompendium-techniques"

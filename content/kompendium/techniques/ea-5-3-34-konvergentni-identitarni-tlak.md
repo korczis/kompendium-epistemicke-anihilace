@@ -1,14 +1,17 @@
 +++
 title = "EA-5-3-34-konvergentni-identitarni-tlak"
 weight = 100
+description = "EA-5-3-34-konvergentni-identitarni-tlak — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
+
+[taxonomies]
+tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
+
 [extra]
 category = "kompendium-technique"
-description = "EA-5-3-34-konvergentni-identitarni-tlak — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
 related_terms = ["ea-1-3-2-sokratovska-past", "ea-1-3-2-strategic-reinterpretation", "ea-1-3-1-immunization-against-falsification", "ea-1-2-3-iluzorni-komplexita", "ea-1-3-2-pseudo-empiricka-validace", "ea-1-3-1-imunizace-proti-falsifikaci"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
 quality_score = 75
 ref_count_at_creation = 4
 +++

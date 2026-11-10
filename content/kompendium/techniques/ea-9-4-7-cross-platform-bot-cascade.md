@@ -2,9 +2,11 @@
 title = "EA-9.4.7 Cross-Platform Bot Cascade"
 description = "Současná digitální EA — cross-platform bot cascade."
 weight = 947
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-5-troll-farm-EA", "ea-9-4-6-mass-comment-coordination", "ea-9-4-8-real-time-bot-response", "ea-9-4-9-bot-narrative-injection"]
 parent = "kompendium-techniques"

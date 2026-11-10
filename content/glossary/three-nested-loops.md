@@ -1,9 +1,13 @@
 +++
 title = "3NL — Three-Nested-Loops"
 weight = 50
+description = "Architectural philosophy: outer loops (mission), middle (epoch), inner (cycle)."
+
+[taxonomies]
+tags = ["glossary", "methodology", "interactive"]
+
 [extra]
 category = "methodology"
-description = "Architectural philosophy: outer loops (mission), middle (epoch), inner (cycle)."
 related_terms = [
   "doctrine-overview",
   "nabla-infinity",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "methodology", "interactive"]
 quality_score = 75
 +++
 

@@ -1,9 +1,13 @@
 +++
 title = "GreyNoise"
 weight = 9
+description = "Internet noise analysis platform that identifies benign scanners and background noise to reduce false positives in threat detection."
+
+[taxonomies]
+tags = ["glossary", "security", "greynoise", "prismatic"]
+
 [extra]
 category = "security"
-description = "Internet noise analysis platform that identifies benign scanners and background noise to reduce false positives in threat detection."
 related_terms = ["shodan", "censys", "easm", "signal-plurality", "attack-surface", "risk-score"]
 author = "Tomas Korcak (korczis)"
 reading_time = "5 min"
@@ -11,7 +15,6 @@ word_count = 980
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["GreyNoise", "Internet", "glossary", "security", "Prismatic Platform", "Censys", "Shodan", "RIOT", "Filter"]
-tags = ["glossary", "security", "greynoise", "prismatic"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

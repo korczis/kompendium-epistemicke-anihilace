@@ -2,9 +2,11 @@
 title = "Political economy alternativa"
 description = "Kritická perspektiva — political economy alternativa."
 weight = 23
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "alternative"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["21-systems-theory-alternative", "22-trauma-framework-alternative", "24-narrative-medicine-alternative", "25-critical-psychiatry-alternative"]
 parent = "kompendium-critical-perspectives"

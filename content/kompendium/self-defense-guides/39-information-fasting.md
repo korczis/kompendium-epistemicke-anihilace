@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Informační půst"
 description = "Praktický návod sebe-obrany — informační půst."
 weight = 39
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["37-time-locked-evaluation", "38-bias-audit-personal", "4-claim-verification", "40-ai-content-detection"]
 parent = "kompendium-self-defense-guides"

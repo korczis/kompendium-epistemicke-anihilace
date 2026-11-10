@@ -2,9 +2,11 @@
 title = "EA-9.6.4 AI Deplatforming Cascade"
 description = "Současná digitální EA — ai deplatforming cascade."
 weight = 964
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-6-2-AI-judgment-laundering", "ea-9-6-3-automated-content-takedown", "ea-9-6-5-AI-credit-scoring-bias", "ea-9-6-6-AI-hiring-narrative"]
 parent = "kompendium-techniques"

@@ -2,9 +2,13 @@
 title = "Metakognice"
 weight = 60
 
+description = "Schopnost přemýšlet o vlastním přemýšlení — monitorovat, evaluovat a regulovat vlastní kognitivní procesy; primární obrana proti epistemické anihilaci a její nejdůležitější cíl."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "cognitive", "metacognition"]
+
 [extra]
 category = "epistemic"
-description = "Schopnost přemýšlet o vlastním přemýšlení — monitorovat, evaluovat a regulovat vlastní kognitivní procesy; primární obrana proti epistemické anihilaci a její nejdůležitější cíl."
 related_terms = ["metakognitivni-destrukce", "epistemicka-anihilace", "kognitivni-bias", "fenomenologie", "kognitivni-anihilace", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 640
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["metakognice", "metacognition", "self-awareness", "monitorování", "regulace", "kompendium"]
-tags = ["glossary", "epistemic", "cognitive", "metacognition"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

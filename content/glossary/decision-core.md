@@ -1,9 +1,13 @@
 +++
 title = "Decision Core"
 weight = 30
+description = "Closed-loop decision infrastructure with deterministic hypothesis generation, scoring, and calibration"
+
+[taxonomies]
+tags = ["glossary", "decision-core", "architecture", "scoring"]
+
 [extra]
 category = "architecture"
-description = "Closed-loop decision infrastructure with deterministic hypothesis generation, scoring, and calibration"
 related_terms = ["calibration", "hypothesis", "uncertainty", "determinism"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -12,7 +16,6 @@ date_created = "2026-04-08"
 date_modified = "2026-04-08"
 quality_score = 90
 difficulty = "intermediate"
-tags = ["glossary", "decision-core", "architecture", "scoring"]
 image = "/images/sections/glossary.png"
 image_alt = "Decision Core - Prismatic Platform"
 see_also = ["architecture", "developers"]

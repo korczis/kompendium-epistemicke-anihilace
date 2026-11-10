@@ -2,9 +2,11 @@
 title = "QR: EA-1.2.2 Falešná ekvivalence"
 description = "Rychlá referenční karta — Asymetrické entity prezentované jako rovnocenné."
 weight = 122
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-1-2-2", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-1-1-3", "qr-ea-1-2-1", "qr-ea-1-2-3", "qr-ea-1-3-1"]
 parent = "kompendium-quick-reference"

@@ -1,8 +1,12 @@
 +++
 title = "Session Discipline"
 weight = 69
-[extra]
 description = "Mandatory GitLab tracking, continuous commits, push enforcement for all sessions"
+
+[taxonomies]
+tags = ["glossary", "architecture", "session-discipline", "prismatic"]
+
+[extra]
 category = "architecture"
 related_terms = ["gitlab-ci", "pre-commit-hooks", "quality-gates", "nm-nd", "git-trees", "violation-protocol"]
 author = "Tomas Korcak (korczis)"
@@ -11,7 +15,6 @@ word_count = 822
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Session", "Discipline", "Mandatory", "GitLab", "glossary", "architecture", "Prismatic Platform", "Every"]
-tags = ["glossary", "architecture", "session-discipline", "prismatic"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

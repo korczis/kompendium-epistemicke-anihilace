@@ -2,9 +2,11 @@
 title = "DD Engine & EA detection"
 description = "Integrace agenta DD Engine s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 31
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "dd-engine-ea-source-weighting"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["compliance-ea-regulatory-screening", "czech-ares-ea-screening", "decision-engine-ea-calibration", "epistemic-pipeline-ea-detection"]
 parent = "kompendium-aiad-integration"

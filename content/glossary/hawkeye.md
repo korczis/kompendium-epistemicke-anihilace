@@ -1,8 +1,12 @@
 +++
 title = "HAWKEYE"
 weight = 72
-[extra]
 description = "Visitor Intelligence system with behavioral analysis and threat detection"
+
+[taxonomies]
+tags = ["glossary", "security", "hawkeye", "prismatic"]
+
+[extra]
 category = "security"
 related_app = "prismatic-visitor-intelligence"
 related_terms = ["easm", "osint", "threat-intelligence", "color-teams", "blue-team", "security-rating"]
@@ -33,7 +37,6 @@ word_count = 1452
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["HAWKEYE", "Visitor", "Intelligence", "glossary", "security", "Prismatic Platform", "OSINT", "README"]
-tags = ["glossary", "security", "hawkeye", "prismatic"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

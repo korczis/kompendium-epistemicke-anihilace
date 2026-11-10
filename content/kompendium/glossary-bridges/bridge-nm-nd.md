@@ -2,9 +2,11 @@
 title = "Bridge: nm-nd"
 description = "Glossary bridge — propojeni kompendia s glossary entry nm-nd."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "nm-nd", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-narrative-identity", "bridge-narrative-trauma", "bridge-ontologicka-anihilace", "bridge-osint"]
 parent = "kompendium-glossary-bridges"

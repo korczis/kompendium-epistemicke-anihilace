@@ -1,10 +1,12 @@
 +++
-title = "Pripad 48-intelligence-totalizace: Zpravodajska totalizace"
-description = "Anonymizovana pripadova studie — Zpravodajska totalizace. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 48: Zpravodajská služba a kompartmentalizace identity"
+description = "Anonymizovaný kompozit zpravodajského analytika, u něhož legitimní utajení přerostlo v dvojí život, relační disociaci a rozpad manželství."
 weight = 48
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["46-political-totalizace", "47-diplomatic-totalizace", "49-religious-leadership", "50-spiritual-cult-recovery"]
 parent = "kompendium-case-studies"
@@ -12,79 +14,171 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 48-intelligence-totalizace: Zpravodajska sluzba a kompartmentalizace
+# Případová studie 48: Zpravodajská služba a kompartmentalizace identity
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů. Služba,
+> oddělení, zaměření práce a časové údaje byly změněny; žádný údaj se netýká utajovaných
+> skutečností. Text nehodnotí zpravodajskou práci, ale psychologické náklady kompartmentalizace,
+> které instituce nekompenzuje.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 48-intelligence-totalizace) byl analytik zpravodajské služby s vysokoškolským vzděláním v politologii a vícejazyčnou kompetencí. Před totalizací vykazoval vysokou kognitivní citlivost, etickou orientaci, a stabilní rodinné zázemí. Vstupní motivace: služba státu, zájem o geopolitiku, identifikace s ochrannou rolí.
+Subjekt byl analytik zpravodajské služby s vysokoškolským vzděláním v politologii a znalostí
+několika jazyků. Vykazoval vysokou kognitivní citlivost, výraznou etickou orientaci a stabilní
+rodinné zázemí; byl ženatý a měl malé dítě. Motivace byla autentická: služba státu, zájem
+o geopolitiku a identifikace s ochrannou rolí.
 
-Rizikové faktory: izolace v utajovaném prostředí, právní zákaz mluvit o práci s blízkými, kultura "compartmentalization" znesnadňující kompletní reflexi, a finanční závislost na služebním platu.
+Rizikové faktory: práce v utajovaném prostředí s právní povinností mlčenlivosti i vůči
+nejbližším, kultura striktní kompartmentalizace, která brání i vnitřní reflexi („to, co víš,
+nepatří ani do tvých myšlenek doma“), finanční závislost na služebním poměru a omezená
+možnost svěřit se komukoli mimo službu.
 
-## Casova osa expozice
+## Časová osa expozice
 
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-12 | Prověrka, výcvik, internalizace utajovacích pravidel |
-| **Perturbace** | roky 1-3 | Kompartmentalizace, double life, eroze osobních vztahů |
-| **Rekonfigurace** | roky 3-6 | Profesní identita = jediná autentická, civilní prázdná |
-| **Konsolidace** | roky 6-12 | Somatizace, paranoidní rysy, izolace |
-| **Exit / detekce** | rok 12+ | Akutní krize, externi konfrontace |
+| **Iniciální kontakt** | měsíce 1–12 | bezpečnostní prověrka, výcvik, osvojení pravidel utajení |
+| **Perturbace** | roky 1–3 | plná kompartmentalizace, dvojí život, eroze sdílení s partnerkou |
+| **Rekonfigurace** | roky 3–6 | profesní identita jako jediná „skutečná“, rodinná jako role |
+| **Konsolidace** | roky 6–12 | nespavost, hypertenze, přenos hrozeb do civilu, izolace |
+| **Exit / detekce** | rok 12+ | rozvodové řízení, deprese, program podpory pro pracovníky služby |
 
-V inicialni fazi prošel subjekt prověrkou a komplexním výcvikem zaměřeným na internalizaci utajovacích pravidel. "Co se stalo v práci, zůstává v práci" se stalo nepřekročitelnou normou. Tato norma byla legitimní z bezpečnostních důvodů, ale měla totalizující efekty.
+V iniciální fázi subjekt prošel prověrkou a výcvikem zaměřeným na osvojení pravidel utajení.
+Norma „co se stane v práci, zůstává v práci“ byla legitimní a nezbytná. Instituce však nenabízela
+nic, co by tuto normu vyvažovalo – žádný prostor, kde by bylo možné zpracovat emoční dopad práce
+bez porušení mlčenlivosti.
 
-V perturbacni fazi se rozvinula plná kompartmentalizace. Subjekt nemohl s partnerkou diskutovat 80 % své pracovní reality. Když ona ptala "jaký byl den?", standardní odpověď byla "fajn". Tato strukturální nemožnost emocionálního sdílení erodovala vztah.
+V perturbační fázi se rozvinula úplná kompartmentalizace. Subjekt nemohl s partnerkou sdílet
+podstatnou část pracovní reality; na otázku „jaký byl den?“ odpovídal „fajn“. Strukturální
+nemožnost emočního sdílení vztah postupně vyprázdnila. V rekonfigurační fázi subjekt dospěl
+k přesvědčení, že „skutečné já“ je v práci a civilní život je fasáda: manžel, otec a přítel byly
+role, které hrál. Toto rozštěpení vedlo k chronické relační disociaci.
 
-Rekonfiguracni faze: subjekt internalizoval, že "skutečný já" je v práci, civilní život je "fasáda". Profesní identita = autentická, manžel/otec/přítel = role, kterou hraje. Toto rozdělení vedlo k chronické dissociaci.
+Konsolidace přinesla chronickou nespavost, hypertenzi ve třiceti osmi letech, přeceňování
+bezpečnostních hrozeb i v civilních situacích a sociální izolaci. Exit nastal s rozvodovým
+řízením a následnou depresí; subjekt vstoupil do interního programu podpory pro pracovníky
+služby.
 
-Konsolidacni faze: somatické symptomy (chronická insomnie, hypertenze v 38 letech), paranoidní rysy (overestimace bezpečnostních hrozeb i v civilních kontextech), izolace.
+## Projevené EA techniky
 
-Exit byl iniciovan rozvodovým řízením a následující depresí. Subjekt prošel programem podpory zpravodajských pracovníků.
+V tomto případě nejde o úmyslnou manipulaci ze strany konkrétní osoby. EA techniky zde popisují
+**strukturální** působení prostředí, které nemá vestavěné korektivy.
 
-## EA techniky manifestovane
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+  utajovací režim jako trvalá selekce informačního pole, které lze s kým sdílet.
+- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) –
+  zabezpečené prostory jako jediná místa, kde je možné být „celý“.
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) –
+  operační čas s vysokou intenzitou proti civilnímu času, který působí bezvýznamně.
+- [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md) –
+  oslabené rozlišení mezi tím, co je reálná hrozba, a tím, co je pracovní hypotéza.
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – civilní
+  emoční potřeby přerámovány jako „operační riziko“.
+- [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) –
+  pocit, že „jen já znám skutečnost“, a odcizení od těch, kdo ji znát nesmějí.
+- [EA-5.3.3 Rolová fragmentace](@/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md) –
+  rozpad na profesní „pravé já“ a soukromé „role“.
 
-- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — utajovací režim jako selekce informačního pole
-- [EA-1.5.1 Strategicka proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — utajované prostory jako jediné autentické
-- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — operační čas vs. civilní čas
-- [EA-5.1.11 Modalni dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md) — neschopnost rozlišit, co je "reálné" a co operační
-- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — civilní emocionální potřeby přerámovány jako "operační riziko"
-- [EA-5.1.18 Solipsisticka dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) — pocit, že "jen já vím skutečnost"
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — služba jako absolutní rámec
+## Fenomenologický průběh
 
-## Fenomenologicky kurz
+V terapii subjekt popisoval: „Manželka mi řekla ‚cizinec‘. A měla pravdu. V práci jsem byl sám
+sebou. Doma jsem hrál postavu, kterou si pamatuju z doby, kdy jsem ještě existoval. Zůstal jen
+služebník státu, který nikomu nic nemůže říct.“
 
-V terapii subjekt popisoval: "Manželka mi řekla 'cizinec'. A měla pravdu. Já jsem byl cizinec. V práci jsem byl sám sebou. Doma jsem hrál postavu, kterou si pamatuji, že jsem býval. Ale ten člověk už neexistoval. Existoval jen sluzebník státu, který nemůže nikomu nic říct."
+Narace odpovídá hluboké [epistemické alienaci](@/glossary/epistemicka-alienace.md) ve zpravodajské
+variantě – strukturální nemožnosti sdílet vlastní zkušenost. Přidává se [betrayal trauma](@/glossary/betrayal-trauma.md)
+v širším smyslu: instituce vyžadovala oddělení, ale nenesla odpovědnost za jeho dopady na
+rodinu. Partnerka zároveň prožívala vlastní verzi [epistemické injustice](@/glossary/epistemicka-injustice.md):
+její vnímání, že „něco není v pořádku“, nemělo kde být potvrzeno.
 
-Tato narace odpovida hluboké [epistemicke alienaci](@/glossary/epistemicka-alienace.md) v zpravodajské variantě — strukturální nemožnost sdílet vlastní zkušenost. [Betrayal trauma](@/glossary/betrayal-trauma.md) — instituce vyžadovala oddělení, které způsobilo rozpad osobních vztahů.
+Významný byl i přenos analytického režimu do civilu: subjekt vyhodnocoval sousedy, kolegy
+partnerky i učitele dítěte jako potenciální rizika. Sám to později označil za „nevypínatelný
+pracovní mód“, nikoli za přesvědčení o pronásledování.
 
-## Detekcni bod
+## Detekční bod
 
-Akutní deprese po rozvodu. Klicovy moment: psychiatr s expertízou v práci se zpravodajskými pracovníky identifikoval [c-PTSD](@/glossary/c-ptsd.md) s relacionální disociaci.
+Deprese po zahájení rozvodového řízení. Psychiatr se zkušeností s péčí o pracovníky
+bezpečnostních složek identifikoval [C-PTSD](@/glossary/c-ptsd.md) s relační disociací. Klíčové
+bylo, že terapeutický rámec nevyžadoval sdělení utajovaných obsahů: pracovalo se s procesem
+(co subjekt prožívá, když mlčí), ne s fakty (o čem mlčí).
 
-## Intervencni strategie
+Zpětně byly patrné markery: [emoční otupění](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)
+doma, [nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)
+v civilních situacích a postupná sociální izolace rodiny.
 
-**S1 - Stabilizace:** Pracovní úprava, farmakoterapie, terapeut s prověrkou.
-**S2 - Externi epistemicka kotva:** Peer-support s ostatními zpravodajskými pracovníky.
-**S3 - Identitni rekonstrukce:** Práce na integraci profesní a civilní identity v rámci právních limitů.
-**S4 - Vztahova rehabilitace:** Strukturovaná párová terapie s informovanou partnerkou.
-**S5 - Integrace:** Subjekt přispěl k reformě podpůrných programů ve službě.
+## Diferenciální diagnostika
 
-## Vysledek
+- **Paranoidní porucha nebo psychotický proces:** přeceňování hrozeb může připomínat paranoiu;
+  subjekt však zachovával náhled, hrozby hodnotil pravděpodobnostně a obsah nebyl bizarní.
+  Rámec nabízí [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
+- **Adaptivní profesní ostražitost:** v práci je funkční; patologickou se stává, když ji nelze
+  vypnout a když ničí vztahy.
+- **Depresivní epizoda:** byla přítomna komorbidně, ale nevysvětlovala rozštěpení identity.
+- **Disociativní porucha identity:** rozdělení na „pracovní“ a „domácí“ já je zde vědomé,
+  bez amnestických bariér, a tedy odlišné od disociativní poruchy identity.
+- **Obyčejný manželský konflikt:** rozpad vztahu měl vlastní dynamiku; strukturální mlčenlivost
+  ho však výrazně urychlila.
 
-Po 24 měsících terapie funkční stabilizace. Reziduální: vysoká bdělost, omezená schopnost otevřenosti, ale obnovené partnerské vztahy.
+## Intervenční strategie
 
-## Klinicke pouceni
+Použit byl [protokol epistemické
+rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) s ohledem na právní
+limity mlčenlivosti. Jeho stupně (S1 validace a mapování, S2 externalizace introjektů, S3
+rekonstrukce metakognice, S4 hermeneutická obnova, S5 konsolidace a transfer) tvořily terapeutické
+jádro širšího léčebného plánu, který proběhl v pěti fázích:
 
-Zpravodajská totalizace ukazuje, jak legitimní bezpečnostní požadavky mohou způsobit dissociaci a relacionální poškození. Klinik musí pracovat s informovanou citlivostí k utajovacím limitům. Reformně: peer-support a specializované terapeutické služby jsou kritické.
+**Fáze 1 – Stabilizace:** úprava pracovního režimu, farmakoterapie nespavosti a deprese,
+terapeut obeznámený s prostředím bezpečnostních složek.
 
-## Cross-linky
+**Fáze 2 – Externí epistemická kotva:** peer podpora s dalšími pracovníky služby, s nimiž lze
+sdílet kontext, a postupné budování vztahů zcela mimo službu.
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md)
-- **Techniques**: [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.1.11](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md), [EA-5.1.18](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+**Fáze 3 – Identitní rekonstrukce:** integrace profesní a civilní identity v rámci právních limitů;
+práce s [rolovou fragmentací](@/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md)
+a nácvik vědomého „vystoupení“ z pracovního módu.
+
+**Fáze 4 – Relační rehabilitace:** strukturovaná párová terapie s partnerkou, která se naučila
+mluvit o dopadech mlčenlivosti, aniž by se ptala na obsah; viz [subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md).
+
+**Fáze 5 – Integrace:** subjekt přispěl k reformě podpůrných programů ve službě.
+
+## Výsledek
+
+Po čtyřiadvaceti měsících terapie funkční stabilizace. Rozvodové řízení bylo zastaveno, vztah
+se obnovuje. Reziduálně přetrvává vysoká bdělost a omezená schopnost otevřenosti; subjekt ale
+dokáže pojmenovat, kdy je „v pracovním módu“, a vědomě ho opouštět.
+
+## Klinické poučení
+
+Případ ukazuje, že k epistemickému traumatu nemusí vést úmyslná manipulace: stačí legitimní
+požadavek, který instituce nevyvažuje. Klinik musí pracovat s informovanou citlivostí
+k utajovacím limitům – nevyžadovat obsah, ale nenechat se jím odradit od práce s procesem.
+
+Instituce s povinnou mlčenlivostí potřebují pravidelný psychologický debriefing, peer podporu
+a programy pro rodiny pracovníků, které vysvětlí, co mlčenlivost znamená, aniž by cokoli
+prozrazovaly. Otevřenou otázkou zůstává, jak měřit kumulativní dopad kompartmentalizace dřív,
+než se projeví rozpadem vztahů.
+
+## Související
+
+### Techniky
+- [EA-5.3.3 Rolová fragmentace](@/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md) – rozpad na „pravé já“ a role
+- [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md) – hrozba vs. hypotéza
+
+### Glosář
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – nepotvrzené vnímání partnerky
+- [Disociace](@/glossary/disociace.md) – relační disociace jako jádro obrazu
+- [Betrayal trauma](@/glossary/betrayal-trauma.md) – instituce bez odpovědnosti za dopady
+
+### Protokoly a obrana
+- [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md) – odlišení od paranoidních stavů
+- [Subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md) – párová fáze S4
+- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md) – institucionální podpora
+
+### Sousední případy
+- [Případ 47: Diplomatická služba](@/kompendium/case-studies/47-diplomatic-totalizace.md) – profesní role jako identita
+- [Případ 42: Elitní jednotka](@/kompendium/case-studies/42-military-totalizace.md) – „civilové to nepochopí“
+- [Případ 08: Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) – rozpad sdílené reality v páru
 
 ---
 

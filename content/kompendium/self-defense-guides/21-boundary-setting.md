@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Nastavování hranic"
 description = "Praktický návod sebe-obrany — nastavování hranic."
 weight = 21
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["2-evidence-evaluation", "20-emotional-debt-recognition", "22-relationship-audit", "23-trust-calibration"]
 parent = "kompendium-self-defense-guides"

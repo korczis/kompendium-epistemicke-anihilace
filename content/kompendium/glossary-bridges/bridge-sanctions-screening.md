@@ -2,9 +2,11 @@
 title = "Bridge: sanctions-screening"
 description = "Glossary bridge — propojeni kompendia s glossary entry sanctions-screening."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "sanctions-screening", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-replication-crisis", "bridge-risk-score", "bridge-sealioning", "bridge-session-discipline"]
 parent = "kompendium-glossary-bridges"

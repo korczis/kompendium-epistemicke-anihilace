@@ -2,9 +2,11 @@
 title = "Mixed Methods Design pro EA"
 description = "Výzkumná metodologie EA — mixed methods design pro ea."
 weight = 13
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["longitudinal-study-EA", "meta-analysis-EA", "narrative-analysis-EA", "network-analysis-EA"]
 parent = "kompendium-research-methodology"

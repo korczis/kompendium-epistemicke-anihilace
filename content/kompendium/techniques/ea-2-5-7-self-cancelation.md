@@ -2,9 +2,11 @@
 title = "EA-2.5.7 Self-cancelation"
 description = "Delegitimizační technika — Self-cancelation."
 weight = 2507
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-7", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-5-5-bothsidesizm-internalizace", "ea-2-5-6-platonic-cave-self", "ea-2-5-8-recursive-doubt-spiral", "ea-2-5-9-identity-uncertainty-cult"]
 parent = "kompendium-techniques"

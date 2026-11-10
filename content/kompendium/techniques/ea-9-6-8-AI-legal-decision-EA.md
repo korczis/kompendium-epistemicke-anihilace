@@ -2,9 +2,11 @@
 title = "EA-9.6.8 AI Legal Decision EA"
 description = "Současná digitální EA — ai legal decision ea."
 weight = 968
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-6-6-AI-hiring-narrative", "ea-9-6-7-AI-medical-decision-EA", "ea-9-6-9-AI-immigration-decision", "ea-9-6-5-AI-credit-scoring-bias"]
 parent = "kompendium-techniques"

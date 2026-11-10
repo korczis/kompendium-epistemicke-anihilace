@@ -2,9 +2,11 @@
 title = "Bridge: sealioning"
 description = "Glossary bridge — propojeni kompendia s glossary entry sealioning."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "sealioning", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-risk-score", "bridge-sanctions-screening", "bridge-session-discipline", "bridge-shodan"]
 parent = "kompendium-glossary-bridges"

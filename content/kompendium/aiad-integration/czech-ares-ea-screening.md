@@ -2,9 +2,11 @@
 title = "Czech ARES Agent & EA detection"
 description = "Integrace agenta Czech ARES Agent s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 29
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "czech-ares-ea-screening"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["blue-team-ea-defense", "compliance-ea-regulatory-screening", "dd-engine-ea-source-weighting", "decision-engine-ea-calibration"]
 parent = "kompendium-aiad-integration"

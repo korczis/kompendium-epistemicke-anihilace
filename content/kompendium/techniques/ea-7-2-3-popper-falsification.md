@@ -2,9 +2,11 @@
 title = "EA-7.2.3 Popper: Falsifikace"
 description = "Teoretická reflexe — Popper: Falsifikace a vztah k EA."
 weight = 723
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-10-nagel-view-from-nowhere", "ea-7-2-2-goldman-veritism", "ea-7-2-4-lakatos-research-program", "ea-7-2-5-kuhn-paradigm-shift"]
 parent = "kompendium-techniques"

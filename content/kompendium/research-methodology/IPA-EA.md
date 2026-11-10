@@ -2,9 +2,11 @@
 title = "Interpretative Phenomenological Analysis (IPA)"
 description = "Výzkumná metodologie EA — interpretative phenomenological analysis (ipa)."
 weight = 27
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["IRB-protocol-design-EA", "RCT-EA-considerations", "anonymization-EA-research"]
 parent = "kompendium-research-methodology"

@@ -2,9 +2,11 @@
 title = "Bridge: iatrogenic-harm"
 description = "Glossary bridge — propojeni kompendia s glossary entry iatrogenic-harm."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "iatrogenic-harm", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-hermeneutika", "bridge-hyperreality", "bridge-ideal-speech-situation", "bridge-info-ops"]
 parent = "kompendium-glossary-bridges"

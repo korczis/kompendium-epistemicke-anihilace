@@ -2,9 +2,11 @@
 title = "EA-7.2.2 Goldman: Veritismus"
 description = "Teoretická reflexe — Goldman: Veritismus a vztah k EA."
 weight = 722
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-1-fricker-epistemic-injustice", "ea-7-2-10-nagel-view-from-nowhere", "ea-7-2-3-popper-falsification", "ea-7-2-4-lakatos-research-program"]
 parent = "kompendium-techniques"

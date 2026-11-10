@@ -1,8 +1,12 @@
 +++
 title = "White Team"
 weight = 23
-[extra]
 description = "Constructive verification team for formal proofs and contract validation"
+
+[taxonomies]
+tags = ["glossary", "security", "white-team", "prismatic"]
+
+[extra]
 category = "security"
 related_terms = ["color-teams", "trinity-gate", "nabla-infinity", "purple-team"]
 author = "Tomas Korcak (korczis)"
@@ -11,7 +15,6 @@ word_count = 1233
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["White", "Team", "Constructive", "glossary", "security", "Prismatic Platform", "White Team", "Purple Team", "The White"]
-tags = ["glossary", "security", "white-team", "prismatic"]
 quality_score = 72
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

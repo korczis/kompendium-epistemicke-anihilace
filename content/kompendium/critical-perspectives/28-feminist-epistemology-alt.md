@@ -2,9 +2,11 @@
 title = "Feministická epistemologie"
 description = "Kritická perspektiva — feministická epistemologie."
 weight = 28
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "alternative"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["26-mad-studies-perspective", "27-decolonial-epistemology", "29-process-philosophy-alt", "3-framework-overreach"]
 parent = "kompendium-critical-perspectives"

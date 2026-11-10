@@ -2,9 +2,11 @@
 title = "EA-2.4.3 Funding Redirect"
 description = "Delegitimizační technika — Funding Redirect."
 weight = 2403
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-4-3", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-4-10-disciplinary-society-capture", "ea-2-4-2-policy-rewriting-skryta", "ea-2-4-4-leadership-capture", "ea-2-4-5-evaluation-criteria-rewrite"]
 parent = "kompendium-techniques"

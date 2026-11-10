@@ -1,8 +1,12 @@
 +++
 title = "Signal Plurality"
 weight = 33
-[extra]
 description = "Hard-enforced NABLA Infinity axiom requiring a minimum of two independent signals before any belief can be formed, preventing single points of epistemic failure across the Prismatic Platform."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "signal-plurality", "prismatic"]
+
+[extra]
 category = "epistemic"
 related_terms = ["nabla-infinity", "intelligence-fusion", "blue-team", "confidence-threshold", "provenance-mandatory", "censys", "risk-score", "trinity-gate", "contradiction-preservation", "time-decay", "shodan", "greynoise"]
 use_cases = ["OSINT intelligence fusion", "Security rating validation", "Color Team assessments", "Quality evaluations", "Threat intelligence correlation"]
@@ -26,7 +30,6 @@ reading_time = "7 min"
 word_count = 1355
 date_modified = "2026-02-23"
 keywords = ["Signal", "Plurality", "Hard-enforced", "NABLA", "Infinity", "Prismatic", "Platform", "glossary", "epistemic", "Prismatic Platform"]
-tags = ["glossary", "epistemic", "signal-plurality", "prismatic"]
 quality_score = 80
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

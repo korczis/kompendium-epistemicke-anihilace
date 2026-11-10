@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Uzemňovací techniky"
 description = "Praktický návod sebe-obrany — uzemňovací techniky."
 weight = 14
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["12-trigger-recognition", "13-somatic-awareness", "15-emotional-distancing", "16-self-compassion"]
 parent = "kompendium-self-defense-guides"

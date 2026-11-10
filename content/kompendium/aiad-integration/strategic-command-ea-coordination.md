@@ -2,9 +2,11 @@
 title = "Strategic Command & EA detection"
 description = "Integrace agenta Strategic Command s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 18
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "strategic-command-ea-coordination"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["quality-monitor-ea-tracking", "red-team-ea-detection", "supreme-commander-ea-strategy", "tactical-execution-ea-operations"]
 parent = "kompendium-aiad-integration"

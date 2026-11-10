@@ -2,9 +2,11 @@
 title = "EA-9.5.10 Meme Attribution Laundering"
 description = "Současná digitální EA — meme attribution laundering."
 weight = 960
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-9-bot-narrative-injection", "ea-9-5-1-meme-cascade-injection", "ea-9-5-2-symbolic-hijacking", "ea-9-5-3-emotional-meme-engineering"]
 parent = "kompendium-techniques"

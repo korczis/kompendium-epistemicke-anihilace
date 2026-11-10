@@ -2,9 +2,11 @@
 title = "EA-2.5.1 Pseudo-pokora Internalizace"
 description = "Delegitimizační technika — Pseudo-pokora Internalizace."
 weight = 2501
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-1", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-4-9-curriculum-capture", "ea-2-4-falesny-konsensus", "ea-2-5-10-existential-helplessness-implantace", "ea-2-5-2-imposter-syndrome-amplifikace"]
 parent = "kompendium-techniques"

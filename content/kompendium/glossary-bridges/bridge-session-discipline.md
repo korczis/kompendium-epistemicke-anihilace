@@ -2,9 +2,11 @@
 title = "Bridge: session-discipline"
 description = "Glossary bridge — propojeni kompendia s glossary entry session-discipline."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "session-discipline", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-sanctions-screening", "bridge-sealioning", "bridge-shodan", "bridge-simulacra"]
 parent = "kompendium-glossary-bridges"

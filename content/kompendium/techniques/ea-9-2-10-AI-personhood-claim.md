@@ -2,9 +2,11 @@
 title = "EA-9.2.10 AI Personhood Claim"
 description = "Současná digitální EA — ai personhood claim."
 weight = 930
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-1-9-multi-turn-narrative-shift", "ea-9-2-1-deepfake-personality", "ea-9-2-2-voice-cloning-EA", "ea-9-2-3-synthetic-text-narrative"]
 parent = "kompendium-techniques"

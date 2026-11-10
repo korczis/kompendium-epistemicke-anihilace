@@ -1,10 +1,12 @@
 +++
-title = "Pripad 45-celebrity-totalizace: Celebrity totalizace"
-description = "Anonymizovana pripadova studie — Celebrity totalizace. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 45: Manažerská totalizace mladé celebrity"
+description = "Anonymizovaný kompozit mladého zpěváka, jehož manažer postupně převzal kalendář, finance, vztahy i obraz identity; exit přišel až s předávkováním."
 weight = 45
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["43-elite-sports-totalizace", "44-arts-totalizace", "46-political-totalizace", "47-diplomatic-totalizace"]
 parent = "kompendium-case-studies"
@@ -12,81 +14,178 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 45-celebrity-totalizace: Celebrity manazerska totalizace
+# Případová studie 45: Manažerská totalizace mladé celebrity
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů z hudebního
+> a zábavního průmyslu. Žánr, místa, smluvní podmínky, časové údaje a veřejné události byly
+> změněny tak, aby případ nebylo možné přiřadit k žádné skutečné osobě.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 45-celebrity-totalizace) byl mlady zpevak, ktery zacal hudebni karieru v 17 letech a získal národní popularitu v 19. Pred totalizaci vykazoval autenticky umelecky talent, prumernou vzdelaneckou připravu, a stabilni rodinne zazemi. Vstupni motivace kombinovala umeleckou vizi s touhou po publicím uznání.
+Subjekt byl mladý zpěvák, který začal profesionální kariéru v sedmnácti letech a v devatenácti
+získal celostátní popularitu. Měl autentický talent, běžné středoškolské vzdělání a stabilní
+rodinné zázemí. Motivace kombinovala uměleckou vizi s touhou po uznání publika – kombinace
+v tomto věku i v tomto oboru zcela běžná.
 
-Rizikove faktory: mlady vek pri vstupu do prumyslu, financni zavislost na manažerovi, kultura "celebrity machine" s obrysem manazerske kontroly, a ztrata bezpecne vrstevnické sítě po stěhování do velkomesta. Subjekt nemel zkušenosti s ekonomickou samostatností.
+Rizikové faktory: mladý věk při vstupu do průmyslu, absence zkušenosti s financemi, smlouvami
+a ekonomickou samostatností, finanční závislost na manažerovi, přestěhování do velkého města
+a ztráta vrstevnické sítě. Obor sám nabízí strukturu, v níž je soustředění rozhodování do rukou
+jediné osoby považováno za profesionalitu („umělec se má soustředit na umění“).
 
-## Casova osa expozice
+## Časová osa expozice
 
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-6 | Podpis manažerske smlouvy, "totalní podpora", love-bombing |
-| **Perturbace** | mesice 7-18 | Plný kontrolní rezim — diary, image, kontakty, finance |
-| **Rekonfigurace** | roky 2-4 | Manažer = jediný stálý vztah, izolace od rodiny |
-| **Konsolidace** | roky 4-8 | Slava jako droga, somatizace, abuse latek |
-| **Exit / detekce** | rok 8+ | Akutni krize, externi konfrontace, právní spory |
+| **Iniciální kontakt** | měsíce 1–6 | manažerská smlouva, „totální podpora“, intenzivní pozornost a péče |
+| **Perturbace** | měsíce 7–18 | kontrola kalendáře, image, kontaktů, financí a rozhovorů |
+| **Rekonfigurace** | roky 2–4 | manažer jediným stálým vztahem, odcizení rodině |
+| **Konsolidace** | roky 4–8 | sláva jako regulátor nálady, úzkost, porucha příjmu potravy, návykové látky |
+| **Exit / detekce** | rok 8+ | předávkování na zahraničním turné, nezávislý terapeut, právní spory |
 
-V inicialni fazi byl subjekt vsazen do manažerského kontextu kontroly s rámcem "totalní podpory". Manažer převzal organizaci diary, image, finance, kontakty. Tato faze byla rámcována jako "ulehčení", aby se subjekt mohl soustredit na umění.
+V iniciální fázi manažer převzal organizaci kalendáře, image, financí a kontaktů s rámcem
+„totální podpory“. Bylo to prezentováno jako úleva a subjekt to tak také prožíval – poprvé se
+nemusel starat o nic jiného než o hudbu.
 
-V perturbacni fazi se kontrola progresivně rozšiřovala — kdo s kým mluví, kdo s kým chodí, jak vypadá, co říká v rozhovorech. Romantické vztahy byly "rušivé pro karieru". Rodina byla rámcována jako "neprofesionální". Manažer se stal jediným kontextem dospelacké komunikace.
+V perturbační fázi se kontrola rozšiřovala: kdo s kým mluví, s kým chodí, jak vypadá, co říká
+v rozhovorech. Partnerské vztahy byly „rušivé pro kariéru“, rodina „neprofesionální“. Manažer se
+stal jediným dospělým, s nímž subjekt pravidelně mluvil. V rekonfigurační fázi subjekt převzal
+manažerův pohled za vlastní; komerční úspěch rostl – alba, koncerty, ceny – a zároveň se rozpadal
+přirozený sociální svět. Manažer spravoval sociální sítě, veřejná vyjádření, a dokonce
+zprostředkovával i kontakt s terapeutem, kterého sám vybral.
 
-Rekonfiguracni faze: subjekt internalizoval manažerův pohled jako vlastní. Komercni úspěch byl externe vysoky — alba, koncerty, ceny. Současně se zhroutil přirozený socialni svět. Manažer kontroloval sociální média, public statements, dokonce i terapeutické kontakty.
+Konsolidace přinesla sebemedikaci návykovými látkami, akutní úzkost před vystoupeními,
+poruchu příjmu potravy a suicidální myšlenky. Veřejná persona zůstávala bezchybná; soukromý svět
+se rozpadal. Exit přišel s předávkováním během zahraničního turné.
 
-Konsolidacni faze: substance abuse jako self-medikace, akutni úzkost před vystoupeními, eating disorder, sebevražedná ideace. Verejná persona bezvadná, soukromý svět rozpadlý.
+## Projevené EA techniky
 
-Exit byl iniciovan akutni krizí — overdose pri zahranicni mu turné. Hospitalizace v zahranicni a setkani s nezavislym terapeutem byly zlomove.
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  manažer jako jediná autorita v otázkách kariéry, vztahů i sebehodnoty.
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+  kontrola nad tím, jaké informace, lidé a nabídky se k subjektu vůbec dostanou.
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) –
+  trvalý strach z propadu popularity jako nástroj poslušnosti.
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) –
+  každá kritika manažera od rodiny či kolegů byla vykládána jako „závist“.
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – „buď mě
+  posloucháš, nebo končíš“.
+- [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) –
+  veřejná persona jako jediný dostupný odkaz na vlastní identitu.
+- [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) –
+  neschopnost přestat se sledovat očima publika.
+- [EA-5.3.29 Simulakrální self-substituce](@/kompendium/techniques/ea-5-3-29-simulakralni-self-substituce.md) –
+  vytvořená image postupně nahradila prožívané já.
 
-## EA techniky manifestovane
+Specifikum zábavního průmyslu: koncentrace moci do rukou manažera je částečně funkční
+a smluvně legitimní. Varovným znakem není míra péče, ale to, zda umělec má přístup k vlastním
+financím, nezávislému právníkovi a vztahům, které manažer nespravuje.
 
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — manažer jako absolutní autorita
-- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — kontrola informačního pole subjekta
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z propadu popularity
-- [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — kazdá kritika manažera = "závist"
-- [EA-5.1.7 Referencni rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) — public persona jako jedina dostupna reference vlastni identity
-- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "buď manažera poslouchaš, nebo končíš"
-- [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) — neschopnost přestat sledovat sám sebe externíma očima
+## Fenomenologický průběh
 
-## Fenomenologicky kurz
+V terapii subjekt popisoval: „Nevěděl jsem, kdo jsem mimo pódium a sociální sítě. Roky mi nikdo
+neřekl skutečným jménem, všichni používali pseudonym. Když jsem se podíval do zrcadla bez
+líčení, nepoznal jsem toho člověka.“
 
-V terapii subjekt popisoval: "Nevedel jsem, kdo jsem mimo pódium a Instagram. Nikdo mě roky nenazval mým jménem — vsichni říkali můj umělecký pseudonym. Když jsem si v zrcadle podíval bez make-upu, neznal jsem toho člověka."
+Narace odráží [identitní dezintegraci](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+ve variantě splynutí s veřejnou personou – blízkou tomu, co Baudrillard popisuje jako
+[simulakrum](@/glossary/simulacra.md): obraz, který už neodkazuje k žádnému originálu.
+Současně se projevuje [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) –
+neschopnost hodnotit vlastní stav jinak než měřítkem sledovanosti.
 
-Tato narace odráží [identitni dezintegraci](@/glossary/epistemicka-alienace.md) v celebrity-specifické variantě — splynutí s public personou. Současně [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) — neschopnost reflektovat vlastní stav z vnější perspektivy.
+Později dodal: „Manažer mi říkal, že mě miluje. Ale miloval verzi mě, kterou sám vytvořil.
+Když jsem chtěl být sám sebou, řekl, že to není ‚reálné‘.“ Tato věta zachycuje [gaslighting](@/glossary/gaslighting.md)
+na úrovni identity: autentické projevy jsou označeny za nepravé, konstruovaná image za skutečnou.
 
-V pozdější fázi: "Manažer mi říkal, že mě miluje. Ale miloval verzi mě, kterou on vytvořil. Když jsem chtěl být sám sebou, řekl, že to není 'reálné'."
+## Detekční bod
 
-## Detekcni bod
+Předávkování na zahraničním turné a následná hospitalizace. Nezávislý terapeut bez jakékoli
+vazby na management identifikoval [C-PTSD](@/glossary/c-ptsd.md) s komorbidní poruchou užívání
+návykových látek. Důležité bylo, že kontakt vznikl mimo manažerem kontrolovaný kanál – předchozí
+„terapie“ zprostředkovaná manažerem detekci spíše blokovala.
 
-Overdose v zahraniční. Hospitalizace iniciovala detekci. Klicovy moment: nezávislý terapeut bez vazeb na management identifikoval [c-PTSD](@/glossary/c-ptsd.md) s substance use disorder.
+Zpětně byly patrné markery: [asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md)
+(manažer věděl vše, subjekt nevěděl nic o vlastních financích), [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)
+od rodiny a výrazná [fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md)
+mezi pódiem a soukromím.
 
-## Intervencni strategie
+## Diferenciální diagnostika
 
-**S1 - Stabilizace:** Detox, ukoncení manažerskeho vztahu, právní podpora.
-**S2 - Externi epistemicka kotva:** Kontakt s ne-celebritami, navrat k rodine.
-**S3 - Identitni rekonstrukce:** Hledani autentické identity mimo public personu.
-**S4 - Profesni rekontextualizace:** Návrat k hudbě bez manažerskeho mediátora, vlastní team.
-**S5 - Integrace:** Subjekt se stal obhájcem ochrany mladých umelcu před koercivními manažery.
+- **Legitimní intenzivní management:** umělec má přístup k účetnictví, vlastního právního
+  zástupce, může odmítnout zakázku a udržuje vztahy, které manažer neschvaluje.
+- **Primární porucha užívání návykových látek:** byla přítomna a vyžadovala detoxifikaci;
+  bez řešení kontrolního vztahu by však léčba vedla k relapsu.
+- **Narcistické rysy z rané slávy:** závislost na obdivu může připomínat narcistickou
+  organizaci; anamnéza však ukázala, že potřeba validace byla řízena zvenčí a mizela se změnou
+  prostředí.
+- **Úzkostná porucha / tréma:** situační úzkost před vystoupením je běžná; zde byla součástí
+  chronické hyperaktivace a vázala se na manažerovo hodnocení.
 
-## Vysledek
+## Intervenční strategie
 
-Po 30 mesicich terapie funkcni stabilizace, restituce rodinnych vazeb, novy umelecký kontext. Reziduálni: hypervigilance ohledne medialní expozice, omezená důvěra k autoritám.
+Použit byl [protokol epistemické
+rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) s prioritou bezpečnosti
+a právní ochrany. Jeho stupně (S1 validace a mapování, S2 externalizace introjektů, S3 rekonstrukce
+metakognice, S4 hermeneutická obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího
+léčebného plánu, který proběhl v pěti fázích:
 
-## Klinicke pouceni
+**Fáze 1 – Stabilizace:** detoxifikace (viz [substance use v EA-emergency](@/kompendium/emergency-protocols/26-substance-EA.md)),
+ukončení manažerského vztahu prostřednictvím nezávislého právníka, zajištění přístupu
+k vlastním financím.
 
-Celebrity totalizace ukazuje koerci v industriálním kontextu prumyslu zábavy. Klinik musí rozpoznat, ze "celebrity burnout" maskuje hluboké [epistemicke trauma](@/glossary/epistemicke-trauma.md). Reformné implikace: ochrana mladých umelcu před koercivními manažerskými praktikami vyžaduje právní a profesní rámec.
+**Fáze 2 – Externí epistemická kotva:** návrat k rodině a k lidem mimo průmysl; kontakty, které
+nebyly zprostředkovány slávou.
 
-## Cross-linky
+**Fáze 3 – Identitní rekonstrukce:** hledání identity mimo veřejnou personu, práce s vlastním
+jménem a soukromým časem, [narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md).
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md)
-- **Techniques**: [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), [EA-5.1.7](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md), [EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+**Fáze 4 – Profesní rekontextualizace:** návrat k hudbě s vlastním týmem, rozděleným rozhodováním
+a [oddělením povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
+(management, finance a právní služby u různých osob).
+
+**Fáze 5 – Integrace:** subjekt se zapojil do osvěty o ochraně mladých umělců před koercivními
+smluvními a manažerskými praktikami.
+
+Právní stránka – smluvní podmínky, nakládání s penězi, případný [podvod](@/kompendium/forensic-legal/17-fraud-EA-element.md)
+– se řešila souběžně s terapií, ale odděleně od ní.
+
+## Výsledek
+
+Po třiceti měsících terapie dosáhl subjekt funkční stabilizace, obnovil rodinné vztahy a pracuje
+v novém uměleckém kontextu. Reziduálně přetrvává zvýšená ostražitost vůči mediální expozici
+a omezená důvěra k autoritám, zejména k těm, které nabízejí „totální péči“.
+
+## Klinické poučení
+
+Případ ukazuje koerci v industriálním kontextu zábavního průmyslu. Za nálepkou vyhoření
+celebrity se může skrývat hluboké [epistemické trauma](@/glossary/epistemicke-trauma.md)
+s kontrolou, která odpovídá [coercive control](@/glossary/coercive-control.md) ve smyslu Starka
+(2007) – tedy systematickému omezení autonomie, nikoli jednotlivým incidentům.
+
+Klinik by měl ověřit, kdo zprostředkoval předchozí péči, a zajistit, aby terapeutický vztah byl
+nezávislý na managementu. Systémově je potřeba právní a profesní rámec, který mladým umělcům
+zaručí přístup k nezávislému poradenství před podpisem smlouvy. Otevřenou otázkou zůstává, jak
+oddělit legitimní ochranu soukromí celebrity od izolace, kterou ochrana soukromí zakrývá.
+
+## Související
+
+### Techniky
+- [EA-5.3.29 Simulakrální self-substituce](@/kompendium/techniques/ea-5-3-29-simulakralni-self-substituce.md) – image nahrazující prožívané já
+- [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) – sebepozorování očima publika
+
+### Glosář
+- [Coercive control](@/glossary/coercive-control.md) – kontrola autonomie jako systém
+- [Simulacra](@/glossary/simulacra.md) – obraz bez originálu
+- [Gaslighting](@/glossary/gaslighting.md) – zpochybnění autentických projevů
+
+### Protokoly a obrana
+- [Substance use v EA-emergency](@/kompendium/emergency-protocols/26-substance-EA.md) – akutní fáze po předávkování
+- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) – strukturální pojistka v týmu umělce
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) – sebeobrana pro umělce
+
+### Sousední případy
+- [Případ 44: Divadelní soubor](@/kompendium/case-studies/44-arts-totalizace.md) – tvůrčí autorita jako kontrola
+- [Případ 74: Kult influencera](@/kompendium/case-studies/74-influencer-cult.md) – veřejná persona v online prostředí
+- [Případ 43: Elitní sport](@/kompendium/case-studies/43-elite-sports-totalizace.md) – raná sláva a identita postavená na výkonu
 
 ---
 

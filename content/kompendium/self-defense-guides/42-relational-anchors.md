@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Vztahové kotvy"
 description = "Praktický návod sebe-obrany — vztahové kotvy."
 weight = 42
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["40-ai-content-detection", "41-narrative-stewardship", "43-memory-archive", "44-axiology-clarification"]
 parent = "kompendium-self-defense-guides"

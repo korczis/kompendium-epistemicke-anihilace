@@ -2,9 +2,11 @@
 title = "QR: EA-2.3.7 Deepfake personalni"
 description = "Rychla referencni karta pro EA-2.3.7 (delegitimizace)."
 weight = 30237
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-3-7", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-3-5", "qr-ea-2-3-6", "qr-ea-2-3-8", "qr-ea-2-3-9"]
 parent = "kompendium-quick-reference"

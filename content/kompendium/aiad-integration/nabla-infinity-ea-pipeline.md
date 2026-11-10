@@ -2,9 +2,11 @@
 title = "NABLA Infinity (∇∞) & EA detection"
 description = "Integrace agenta NABLA Infinity (∇∞) s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 23
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "nabla-infinity-ea-pipeline"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["gray-team-ea-edge-cases", "hawkeye-ea-visitor-intelligence", "operational-execution-ea-deployment", "osint-ea-source-validation"]
 parent = "kompendium-aiad-integration"

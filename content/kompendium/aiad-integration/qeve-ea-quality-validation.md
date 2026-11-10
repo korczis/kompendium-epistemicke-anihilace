@@ -2,9 +2,11 @@
 title = "QEVE Agent & EA detection"
 description = "Integrace agenta QEVE Agent s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 26
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "qeve-ea-quality-validation"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["perimeter-ea-attack-surface", "purple-team-ea-synthesis", "quality-monitor-ea-tracking", "red-team-ea-detection"]
 parent = "kompendium-aiad-integration"

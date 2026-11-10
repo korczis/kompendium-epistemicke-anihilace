@@ -2,9 +2,11 @@
 title = "EA-7.2.8 Davidson: Princip vstřícnosti"
 description = "Teoretická reflexe — Davidson: Princip vstřícnosti a vztah k EA."
 weight = 728
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-6-feyerabend-anti-method", "ea-7-2-7-quine-web-belief", "ea-7-2-9-williams-truthfulness", "ea-7-3-1-kahneman-system12"]
 parent = "kompendium-techniques"

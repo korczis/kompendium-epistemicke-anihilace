@@ -1,9 +1,13 @@
 +++
 title = "Body Schema"
 weight = 50
+description = "Pre-reflective neural model of one's body in space and action."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Pre-reflective neural model of one's body in space and action."
 related_terms = [
   "interocepce",
   "core-consciousness",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

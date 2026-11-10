@@ -1,9 +1,13 @@
 +++
 title = "Gray Team"
 weight = 22
+description = "Boundary exploration team for specification gaps, edge cases, and affordance drift"
+
+[taxonomies]
+tags = ["glossary", "security", "gray-team", "prismatic"]
+
 [extra]
 category = "security"
-description = "Boundary exploration team for specification gaps, edge cases, and affordance drift"
 related_terms = ["color-teams", "red-team", "nabla-infinity", "black-team", "blue-team", "purple-team"]
 author = "Tomas Korcak (korczis)"
 reading_time = "8 min"
@@ -11,7 +15,6 @@ word_count = 1536
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Gray", "Team", "Boundary", "glossary", "security", "Prismatic Platform", "Gray Team", "Color Team", "Red Team"]
-tags = ["glossary", "security", "gray-team", "prismatic"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

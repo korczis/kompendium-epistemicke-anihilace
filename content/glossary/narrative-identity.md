@@ -2,9 +2,13 @@
 title = "Narrative Identity"
 weight = 60
 
+description = "Ricoeur's and MacIntyre's concept that personal identity is constituted through ongoing autobiographical narration; a privileged structural target of systematic epistemic annihilation."
+
+[taxonomies]
+tags = ["glossary", "philosophical", "epistemic", "kompendium"]
+
 [extra]
 category = "philosophical"
-description = "Ricoeur's and MacIntyre's concept that personal identity is constituted through ongoing autobiographical narration; a privileged structural target of systematic epistemic annihilation."
 related_terms = ["epistemicka-anihilace", "mereologicka-rekonstrukce", "hyperreality", "iatrogenic-harm", "disociace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 580
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["narrative identity", "Ricoeur", "MacIntyre", "narrative self", "autobiographical identity", "hermeneutics", "selfhood"]
-tags = ["glossary", "philosophical", "epistemic", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

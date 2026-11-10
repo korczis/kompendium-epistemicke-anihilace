@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Zpracování strachu"
 description = "Praktický návod sebe-obrany — zpracování strachu."
 weight = 19
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["17-anger-management", "18-shame-resilience", "2-evidence-evaluation", "20-emotional-debt-recognition"]
 parent = "kompendium-self-defense-guides"

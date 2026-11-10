@@ -2,9 +2,11 @@
 title = "Bridge: disociace"
 description = "Glossary bridge — propojeni kompendia s glossary entry disociace."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "disociace", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-deplatforming", "bridge-differance", "bridge-dual-use-poznani", "bridge-easm"]
 parent = "kompendium-glossary-bridges"

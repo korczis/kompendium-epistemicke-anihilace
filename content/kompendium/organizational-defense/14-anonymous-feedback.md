@@ -2,9 +2,11 @@
 title = "Anonymní zpětná vazba"
 description = "Organizační obrana — anonymní zpětná vazba."
 weight = 140
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["12-training-resilience", "13-exit-interview-EA", "15-culture-survey-EA", "16-psychological-safety"]
 parent = "kompendium-organizational-defense"

@@ -2,9 +2,11 @@
 title = "Bridge: communicative-rationality"
 description = "Glossary bridge — propojeni kompendia s glossary entry communicative-rationality."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "communicative-rationality", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-coercive-control", "bridge-color-teams", "bridge-companion", "bridge-darvo"]
 parent = "kompendium-glossary-bridges"

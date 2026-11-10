@@ -2,9 +2,11 @@
 title = "Bridge: epistemic-pipeline"
 description = "Glossary bridge — propojeni kompendia s glossary entry epistemic-pipeline."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "epistemic-pipeline", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-entity-resolution", "bridge-epistemic-bubble", "bridge-epistemic-security", "bridge-epistemicka-alienace"]
 parent = "kompendium-glossary-bridges"

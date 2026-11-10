@@ -2,9 +2,11 @@
 title = "Trauma-informované občanství"
 description = "Prevence a rezilience — trauma-informované občanství."
 weight = 30
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "tertiary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["29-cultural-restoration-prevention", "3-family-resilience-EA", "4-community-resilience-EA", "5-workplace-prevention-EA"]
 parent = "kompendium-prevention-resilience"

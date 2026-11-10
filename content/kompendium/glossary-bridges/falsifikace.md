@@ -1,9 +1,13 @@
 +++
 title = "Falsifikace / Falsification"
 weight = 50
+description = "Popperian methodology for testing claims via attempted refutation rather than verification."
+
+[taxonomies]
+tags = ["glossary-bridge", "philosophy", "interactive"]
+
 [extra]
 category = "philosophy"
-description = "Popperian methodology for testing claims via attempted refutation rather than verification."
 related_terms = [
   "lakatos",
   "predictive-processing",
@@ -13,7 +17,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "philosophy", "interactive"]
 quality_score = 75
 +++
 

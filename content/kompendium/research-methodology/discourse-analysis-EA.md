@@ -2,9 +2,11 @@
 title = "Diskurzivní Analýza EA Komunikace"
 description = "Výzkumná metodologie EA — diskurzivní analýza ea komunikace."
 weight = 24
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["data-security-EA-research", "debriefing-protocol-research", "document-analysis-EA", "effect-size-EA"]
 parent = "kompendium-research-methodology"

@@ -2,9 +2,11 @@
 title = "Bridge: censys"
 description = "Glossary bridge — propojeni kompendia s glossary entry censys."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "censys", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-bounded-context", "bridge-c-ptsd", "bridge-clean-run", "bridge-coercive-control"]
 parent = "kompendium-glossary-bridges"

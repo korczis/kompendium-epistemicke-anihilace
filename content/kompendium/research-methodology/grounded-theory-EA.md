@@ -2,9 +2,11 @@
 title = "Grounded Theory v EA Výzkumu"
 description = "Výzkumná metodologie EA — grounded theory v ea výzkumu."
 weight = 22
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["effect-size-EA", "ethnography-EA", "informed-consent-EA-research", "longitudinal-study-EA"]
 parent = "kompendium-research-methodology"

@@ -1,10 +1,12 @@
 +++
-title = "Pripad 42-military-totalizace: Vojenska totalizace"
-description = "Anonymizovana pripadova studie — Vojenska totalizace. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 42: Totalizace identity v elitní vojenské jednotce"
+description = "Anonymizovaný kompozit vojáka elitní jednotky, jehož identita splynula s jednotkou a po konci služby se zhroutila do krize s morálním zraněním."
 weight = 42
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["40-law-firm-totalizace", "41-medical-residency", "43-elite-sports-totalizace", "44-arts-totalizace"]
 parent = "kompendium-case-studies"
@@ -12,91 +14,188 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 42-military-totalizace: Vojenska totalizace v elitni jednotce
+# Případová studie 42: Totalizace identity v elitní vojenské jednotce
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů. Jména, útvar,
+> místa nasazení, časové údaje a další identifikující detaily byly změněny. Text nehodnotí
+> vojenskou službu jako takovou; popisuje vzorec, v němž se legitimní soudržnost jednotky mění
+> v totalizaci identity.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 42-military-totalizace) byl vojak elitni jednotky se specialnim vycvikem, prijaty po vyberovem rizeni s narocnym fyzickym a psychologickym screening. Pred zarazenim do jednotky vykazoval subjekt vysokou frustracni toleranci, dobre rozvinute kognitivni funkce, a stabilni rodinne zazemi. Vstupni motivace kombinovala potrebu prinalezitosti, vyzvy, a hodnotovou identifikaci s ochrannou rolitou. Profil odpovidal kategorii vykonove orientovanych jedincu s vyrazne internalizovanou loajalitou k mensim socialnim celkum.
+Subjekt byl voják elitní jednotky se speciálním výcvikem, přijatý po výběrovém řízení
+s náročným fyzickým a psychologickým screeningem. Před zařazením vykazoval vysokou frustrační
+toleranci, dobře rozvinuté kognitivní funkce a stabilní rodinné zázemí. Motivace kombinovala
+potřebu sounáležitosti, touhu po výzvě a hodnotovou identifikaci s ochrannou rolí. Šlo o člověka
+orientovaného na výkon a s výrazně internalizovanou loajalitou k malým skupinám.
 
-Rizikove faktory: relativne mlady vek pri zarazeni (24 let), absence dlouhodobe partnerske vazby, financni zavislost na sluzbe, a kulturne historicky ramec ceske armadní tradice s důrazem na ne-vykazovani slabosti. Subjekt nemel anamnezu duševního onemocněni. Predispozice k internalizaci skupinových norem byla zvysena predchozí pozitivní zkusenosti se sportovním tymovým prostředím.
+Rizikové faktory: mladý věk při zařazení (24 let), absence dlouhodobého partnerského vztahu,
+finanční závislost na službě a profesní kultura, v níž se nepřiznávání slabosti považuje za
+ctnost. Psychiatrická anamnéza byla negativní. Sklon přebírat skupinové normy posílila předchozí
+pozitivní zkušenost z týmového sportu – zkušenost, v níž splynutí s týmem nikdy nemělo cenu.
 
-## Casova osa expozice
+## Časová osa expozice
 
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-6 | Selekcni vycvik, "becoming one of us" rituali |
-| **Perturbace** | mesice 7-18 | Operacni nasazeni, akutni traumaticke udalosti |
-| **Rekonfigurace** | roky 1-3 | Identitni splynuti s jednotkou, rozpad civilnich vazeb |
-| **Konsolidace** | roky 3-8 | Sluzba jako jediny zivotni kontext, somatizace |
-| **Exit / detekce** | rok 8+ | Konec sluzby, akutni krize, externi konfrontace |
+| **Iniciální kontakt** | měsíce 1–6 | selekční výcvik, rituály přijetí „stal ses jedním z nás“ |
+| **Perturbace** | měsíce 7–18 | operační nasazení, akutní traumatické události |
+| **Rekonfigurace** | roky 1–3 | identitní splynutí s jednotkou, rozpad civilních vazeb |
+| **Konsolidace** | roky 3–8 | služba jako jediný životní kontext, somatizace, alkohol |
+| **Exit / detekce** | rok 8+ | zranění, propuštění, suicidální krize, externí pomoc |
 
-V inicialni fazi prosel subjekt extremnim selekcnim vycvikem zameranym na rozpad ego-funkci a re-konstrukci identity v ramci jednotky. Ritualy zasveceni, sdilene utrpeni, spolecne jmeno (callsign) a deklarativni formule loajality vytvorily ramec, v nemz osobni identita splyvala s identitou tymu.
+Selekční výcvik byl zaměřen na rozpuštění individuálních obranných strategií a jejich nahrazení
+strategiemi týmu. Rituály přijetí, sdílené utrpení, společná přezdívka (callsign) a formule
+loajality vytvořily rámec, v němž osobní identita splývala s identitou jednotky. Do této chvíle
+jde o známou a pro přežití funkční vojenskou socializaci.
 
-V perturbacni fazi zacalo operacni nasazeni v zahranicnich misich. Subjekt prosel nekolika akutnimi traumatickymi udalostmi — kontakt s nepritelem, ztrata kolegy, civilni obeti. Jednotkova kultura predepisovala konkretni ramec interpretace: "co se stalo na misi, zustava na misi", "civilove to nepochopi", "rodina by se zbytecne bala". Tato strukturalni izolace emocni zkusenosti byla jadrem koercivni dynamiky.
+Kritický posun nastal při zahraničním nasazení. Subjekt prošel několika akutními traumatickými
+událostmi – kontaktem s protivníkem, ztrátou kolegy, civilními oběťmi. Kultura jednotky
+předepisovala, jak je interpretovat: „co se stalo na misi, zůstává na misi“, „civilové to
+nepochopí“, „rodina by se zbytečně bála“. Strukturální izolace emoční zkušenosti od všech, kdo
+nebyli „uvnitř“, byla jádrem koercivní dynamiky – ne tvrdost výcviku.
 
-Rekonfiguracni faze prinesla postupny rozpad civilnich vazeb. Subjekt popisoval, ze po navratu z misi "necitil, ze patri domu" — domov byla zakladna, rodina byli kolegove. Manzelsky vztah se zhroutil v 5. roce sluzby. Civilni pratele "nedavali smysl". Socialni svet se redukoval na uzavrenou jednotku.
+V rekonfigurační fázi se rozpadaly civilní vazby. Po návratu subjekt „necítil, že patří domů“:
+domovem byla základna, rodinou kolegové. Manželství se rozpadlo v pátém roce služby, civilní
+přátelé „nedávali smysl“. Sociální svět se zúžil na uzavřenou skupinu, která byla zároveň
+jediným zdrojem významu, uznání i interpretace reality – tedy na [vysoce kontrolující
+prostředí](@/glossary/high-control-group.md), byť bez vůdce v kultovním smyslu.
 
-Konsolidacni faze: somaticke symptomy (chronicke bolesti zad, nespavost, hyperakuze), epizody akutni zlosti, alkohol jako self-medikace. Funkcnost ve sluzbe byla zachovana, civilni zivot minimalni. Subjekt popisoval pocit, ze "mimo jednotku jsem nikdo".
+Konsolidace přinesla chronické bolesti zad, nespavost, hyperakuzi, epizody akutního vzteku
+a alkohol jako sebemedikaci. Výkon ve službě zůstal zachován, civilní život byl minimální.
+Subjekt to shrnul větou: „Mimo jednotku jsem nikdo.“ Exit přišel se zraněním, které ho vyřadilo
+z aktivní služby; po propuštění následovala krize se suicidální ideací. Odbornou pomoc nejprve
+odmítal („voják si pomůže sám“), přijal ji až na naléhání bývalého kolegy.
 
-Exit byl iniciovan zranenim, ktere vyrazilo subjekt z aktivni sluzby. Akutni krize po propusteni byla spojena s suicidalni ideaci. Externi psychiatricka pomoc byla zpocatku odmitana ("vojak si pomaha sam"), prijata po intervenci byvaleho kolegy, ktery prosel podobnou cestou.
+## Projevené EA techniky
 
-## EA techniky manifestovane
+- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) –
+  trvalé sdílení prostoru a fyzická blízkost upevňovaly splynutí s týmem.
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) –
+  autoritativní rejstřík velitele jako pevný bod, který nahrazoval vlastní posouzení.
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – emoční
+  zkušenost z misí byla přerámována na „operační detaily“, o nichž se nemluví.
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) –
+  nasycená přítomnost mise proti roztříštěnému, „nereálnému“ civilnímu času.
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – „buď jsi
+  voják, nebo civil“ jako jediné dvě možnosti bytí.
+- [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) –
+  postupný zánik předvojenské identity.
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  velitel jednotky jako jediná legitimní epistemická autorita.
 
-V tomto pripadu byly identifikovany nasledujici EA kody:
+Specifikum vojenského prostředí: legitimní operační požadavky (koheze, disciplína, schopnost
+přežít) jsou od koercivní dynamiky obtížně oddělitelné. Rozhodující není intenzita výcviku, ale
+to, zda instituce počítá s návratem člověka do civilního světa a připravuje ho na něj.
 
-- [EA-1.5.1 Strategicka proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — fyzicka blizkost a sdileny prostor jako nastroj identitniho splynuti
-- [EA-1.4.1 Prosodicka dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) — autoritativni hlasovy rejstrik velitele jako pevny epistemicky bod
-- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — emocni zkusenosti z misi preramovany jako "operacni detaily"
-- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — nasyceny pritomny okamzik mise vs. fragmentovany civilni cas
-- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "bud jsi vojak, nebo civil" jako jedine dva mody byti
-- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — kompletni rozpad pre-vojenske identity
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — velitel jednotky jako absolutni epistemicka autorita
+## Fenomenologický průběh
 
-Specifikum vojenskeho kontextu: legitimni operacni pozadavky (kohese, disciplina, schopnost prezit) jsou neoddelitelne od koercivni dynamiky. Diferenciace zdrave jednotkove soudrznosti od totalizace vyzaduje pozornost k post-operacni reintegraci.
+V terapii subjekt popisoval: „Když mě propustili, neměl jsem se kam vrátit. Civilní život byl
+jako televize ve vedlejší místnosti – slyším, ale nedává to smysl. Nikdo neviděl, co jsme
+viděli. Měl jsem pocit, že kdyby lidé věděli, co jsme opravdu dělali, nepustili by nás k sobě.“
 
-## Fenomenologicky kurz
+Narace odráží [epistemickou alienaci](@/glossary/epistemicka-alienace.md) – neschopnost sdílet
+realitu se světem mimo jednotku – a [betrayal trauma](@/glossary/betrayal-trauma.md) v podobě
+institucionálního opuštění po skončení služby. Současně je patrná [epistemická
+bezdomovost](@/glossary/epistemicka-bezdomovost.md): starý rámec interpretace ztratil půdu,
+nový ještě neexistoval.
 
-V terapii subjekt popisoval: "Kdyz me propustili, nemel jsem se kam vratit. Civilni zivot byl jako sledovani televize ve vedlejsi mistnosti — slysim, ale nedava to smysl. Nikdo nerozumel, co je opravdove. Nikdo nikdy neuvidel, co jsme videli. Citil jsem, ze kdyby vsichni vedeli, co opravdu jsme delali, nedovolili by nam se k nim priblizit."
+Později přidal: „Nejtěžší bylo přijmout, že někteří kluci tam zůstali ne kvůli nepříteli, ale
+kvůli sobě. A že já skoro taky. Nikdo nám neřekl, že tohle může přijít.“ Vina přeživšího
+a morální zranění (otřes vlastního morálního rámce, který se projevuje i jako
+[narativní trauma](@/glossary/narrative-trauma.md) – rozlomený životní příběh) se zde prolínají; samotná diagnóza bojového PTSD by tuto vrstvu nezachytila.
 
-Tato narace odrazi klasicky obraz [betrayal trauma](@/glossary/betrayal-trauma.md) — institucionalni opusteni po dokonceni mise. Soucasne [epistemicka alienace](@/glossary/epistemicka-alienace.md) — neschopnost sdilet realitu se svetem mimo jednotku.
+## Detekční bod
 
-V pozdejsi fazi: "Nejtezsi bylo prijmout, ze nekteri kluci tam zustali, ne kvuli nepriteli, ale kvuli sobe. A ze ja jsem skoro take. A nikdo nam nerekl, ze to muze nastat."
+Zlomem byl suicidální pokus devět měsíců po ukončení služby a následná hospitalizace
+(viz [akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)).
+Psychiatr se zkušeností s péčí o veterány identifikoval [C-PTSD](@/glossary/c-ptsd.md)
+v kombinaci s morálním zraněním a ztrátou skupinové identity, nikoli „čisté“ bojové PTSD.
 
-## Detekcni bod
+Zpětně šlo rozpoznat varovné markery: [akceleraci izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)
+od civilní sítě, alkohol jako jediný regulátor, výroky typu „mimo jednotku jsem nikdo“
+a odmítání pomoci jako identitní normu. Rodina tyto signály vnímala, ale neměla k nim jazyk.
 
-Sebevrazedny pokus po 9 mesicich od ukonceni sluzby. Hospitalizace byla zlomovym bodem. Klicovy moment: psychiatr s VA expertizou identifikoval [c-PTSD](@/glossary/c-ptsd.md) v kombinaci s moralnim zranenim a ztratou skupinove identity, ne klasicke bojove PTSD.
+## Diferenciální diagnostika
 
-## Intervencni strategie
+- **Bojové PTSD:** sdílí intruze, hypervigilanci a vyhýbání; v tomto případě však dominovaly
+  poruchy sebepojetí, vztahů a regulace afektu, které odpovídají C-PTSD (MKN-11 6B41).
+- **Adaptivní koheze jednotky:** zdravá soudržnost umožňuje vztahy mimo jednotku, toleruje
+  vyjádření strachu a podporuje přechod do civilu. Totalizace je patrná až tehdy, když identita
+  nemá jinou oporu než jednotku.
+- **Porucha užívání alkoholu:** byla přítomna sekundárně jako sebemedikace; léčit ji izolovaně
+  bez práce s identitou a traumatem by vedlo k relapsu.
+- **Depresivní epizoda:** komorbidní, ale nevysvětlovala ztrátu skupinové identity ani
+  specifickou odcizenost vůči civilnímu světu.
+- **Poranění mozku:** u vojáků po nasazení je nutné vyloučit traumatické poranění mozku, které
+  může napodobovat podrážděnost a kognitivní obtíže.
 
-Aplikovany protokol [epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) modifikovany pro vojensky kontext:
+## Intervenční strategie
 
-**S1 - Stabilizace:** Hospitalizace, krizova intervence, peer-support s veterany, farmakoterapie.
+Použit byl [protokol epistemické
+rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) upravený podle
+[protokolu pro veterány a vojáky](@/kompendium/techniques/ea-6-4-5-vetersko-protokol.md). Jeho
+stupně (S1 validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4
+hermeneutická obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu,
+který proběhl v pěti fázích:
 
-**S2 - Externi epistemicka kotva:** Strukturovany kontakt s veterany, kteri prosli rekonstrukci — peer mentoring jako most mezi vojenskym a civilnim svetem.
+**Fáze 1 – Stabilizace:** hospitalizace, krizová intervence, bezpečnostní plán, farmakoterapie,
+první kontakt s peer podporou veteránů.
 
-**S3 - Trauma-focused terapie:** EMDR pro akutni traumaticke vzpominky, narativni expozice (NET) pro chronologickou rekonstrukci traumatu, group therapy pro sdileni.
+**Fáze 2 – Externí epistemická kotva:** strukturovaný kontakt s veterány, kteří rekonstrukcí prošli
+– most mezi vojenským a civilním světem, který respektuje zkušenost z nasazení.
 
-**S4 - Identitni rekonstrukce:** Hledani civilni role vyuzivajici prenositelne kompetence — bezpecnostni konzultace, vyuka, sportovni koucink.
+**Fáze 3 – Terapie zaměřená na trauma:** [EMDR](@/kompendium/techniques/ea-6-2-2-emdr-protokol.md)
+pro akutní traumatické vzpomínky, narativní expoziční terapie pro chronologickou rekonstrukci,
+skupinová terapie pro sdílení. Práce s morálním zraněním jako samostatné téma.
 
-**S5 - Integrace:** Subjekt se postupne stal facilitatorem peer-support skupin pro veterany.
+**Fáze 4 – Identitní rekonstrukce:** hledání civilní role, která využije přenositelné kompetence –
+bezpečnostní konzultace, výuka, sportovní koučink; viz [středně dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md).
 
-## Vysledek
+**Fáze 5 – Integrace:** subjekt se postupně stal facilitátorem peer skupin pro veterány
+([altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md)).
 
-Po 36 mesicich strukturovane terapie dosahl subjekt funkcni stabilizace s rezidualnimi symptomy — obcasne nocni mury, hypervigilance v davu, omezeni v nekterych socialnich kontextech. Schopnost vykonavat civilni praci, restituce partnerskeho vztahu (novy vztah s informovanou partnerkou), integrace deti z prvniho manzelstvi. Subjekt se neidentifikuje plne jako "civil" ani jako "vojak" — vyvinul treti identitni ramec, ktery tyto kategorie integruje.
+## Výsledek
 
-## Klinicke pouceni
+Po šestatřiceti měsících strukturované terapie dosáhl subjekt funkční stabilizace. Reziduálně
+přetrvávají občasné noční můry, hypervigilance v davu a omezení v některých sociálních
+situacích. Pracuje v civilním zaměstnání, žije v novém vztahu s informovanou partnerkou
+a obnovil kontakt s dětmi z prvního manželství. Neidentifikuje se plně jako „civil“ ani jako
+„voják“; vytvořil si třetí identitní rámec, který obě zkušenosti spojuje.
 
-Vojenska totalizace v elitni jednotce vyzaduje rozliseni mezi adaptivni jednotkovou kohezi (nutnou pro preziti) a maladaptivni totalizaci identity. Klicovy diagnosticky bod: stav subjektu po opusteni sluzebniho kontextu. Klinik musi rozeznat moralni zraneni od bojoveho PTSD — vyzaduje odlisny terapeuticky pristup. Peer-support s veterany, kteri prosli uspesnou rekonstrukci, je casto ucinnejsi nez tradicni individualni terapie. Reformni implikace: post-sluzebni reintegrace musi byt systematicky podporovana institucionalne.
+## Klinické poučení
 
-## Cross-linky
+Klíčovým diagnostickým bodem není stav během služby, ale stav po jejím opuštění. Klinik musí
+odlišit morální zranění od bojového PTSD, protože vyžadují odlišný terapeutický přístup. Peer
+podpora veteránů, kteří prošli úspěšnou rekonstrukcí, bývá účinnější vstupní branou než
+individuální terapie, protože respektuje identitní normu „neříkej to civilům“ a postupně ji
+rozvolňuje.
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [narrative-trauma](@/glossary/narrative-trauma.md)
-- **Techniques**: [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+Systémově je nutné, aby instituce chápala reintegraci po službě jako součást služby: přípravu
+na přechod, kontakt s rodinou a dostupnou péči i po propuštění. Otevřenou otázkou zůstává, jak
+zachovat kohezi nutnou pro přežití v operaci a zároveň zabránit tomu, aby se stala jedinou
+oporou identity.
+
+## Související
+
+### Techniky
+- [EA-6.4.5 Veterán/voják protokol](@/kompendium/techniques/ea-6-4-5-vetersko-protokol.md) – populačně specifický léčebný rámec
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) – rozpor času mise a civilního času
+
+### Glosář
+- [High control group](@/glossary/high-control-group.md) – uzavřená skupina jako jediný zdroj významu
+- [Epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md) – stav po ztrátě rámce
+- [C-PTSD](@/glossary/c-ptsd.md) – diagnostický rámec odlišný od bojového PTSD
+
+### Protokoly a obrana
+- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) – krizový postup odpovídající detekčnímu bodu
+- [Středně dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – fáze S4
+- [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – udržení civilních vazeb během služby
+
+### Sousední případy
+- [Případ 41: Lékařská specializační příprava](@/kompendium/case-studies/41-medical-residency.md) – hierarchie a deprivace v civilní instituci
+- [Případ 43: Elitní sport](@/kompendium/case-studies/43-elite-sports-totalizace.md) – týmová identita a konec kariéry
+- [Případ 48: Zpravodajská služba](@/kompendium/case-studies/48-intelligence-totalizace.md) – mlčenlivost jako identitní norma
 
 ---
 

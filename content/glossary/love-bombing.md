@@ -1,9 +1,13 @@
 +++
 title = "Love Bombing"
 weight = 50
+description = "Intense affection-flooding phase of coercive bonding cycle."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Intense affection-flooding phase of coercive bonding cycle."
 related_terms = [
   "pseudoempaticka-vazba",
   "discard",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

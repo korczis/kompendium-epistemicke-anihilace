@@ -2,9 +2,13 @@
 title = "C-PTSD (Complex PTSD)"
 weight = 60
 
+description = "Complex Post-Traumatic Stress Disorder (Herman, ICD-11): diagnostic category for chronic, repeated, interpersonal trauma producing disturbances of self-organization; downstream sequela of sustained epistemic annihilation."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "trauma"]
+
 [extra]
 category = "epistemic"
-description = "Complex Post-Traumatic Stress Disorder (Herman, ICD-11): diagnostic category for chronic, repeated, interpersonal trauma producing disturbances of self-organization; downstream sequela of sustained epistemic annihilation."
 related_terms = ["betrayal-trauma", "epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 520
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["C-PTSD", "complex PTSD", "Herman", "ICD-11", "DSO", "disturbances of self-organization", "trauma", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "trauma"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

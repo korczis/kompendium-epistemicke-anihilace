@@ -2,9 +2,11 @@
 title = "QR: EA-5.1.2 Konceptualni nihilace"
 description = "Rychla referencni karta pro ultramarine techniku Konceptualni nihilace (epistemicka singularita)."
 weight = 10002
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-1", "ultramari", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-1-18", "qr-ea-5-1-19", "qr-ea-5-1-20", "qr-ea-5-1-21"]
 parent = "kompendium-quick-reference"

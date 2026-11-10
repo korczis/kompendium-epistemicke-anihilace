@@ -2,14 +2,17 @@
 title = "Decision Engine"
 weight = 100
 
+description = "Rule-based or machine learning system producing structured decisions from multi-factor inputs."
+
+[taxonomies]
+tags = ["glossary", "ai-systems", "interactive"]
+
 [extra]
 category = "ai-systems"
-description = "Rule-based or machine learning system producing structured decisions from multi-factor inputs."
 related_terms = ["rule-engine", "scoring", "confidence-scoring", "trinity-gate", "inference"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "ai-systems", "interactive"]
 quality_score = 35
 +++
 

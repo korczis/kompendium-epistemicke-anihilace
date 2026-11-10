@@ -2,9 +2,11 @@
 title = "Case Study Design pro EA"
 description = "Výzkumná metodologie EA — case study design pro ea."
 weight = 21
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["RCT-EA-considerations", "anonymization-EA-research", "causal-inference-EA", "conflict-of-interest-research"]
 parent = "kompendium-research-methodology"

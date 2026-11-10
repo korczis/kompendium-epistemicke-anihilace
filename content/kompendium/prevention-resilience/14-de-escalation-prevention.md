@@ -2,9 +2,11 @@
 title = "Deeskalace"
 description = "Prevence a rezilience — deeskalace."
 weight = 14
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "secondary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["12-warning-sign-recognition", "13-rapid-response-protocol", "15-relationship-monitoring", "16-employer-vigilance"]
 parent = "kompendium-prevention-resilience"

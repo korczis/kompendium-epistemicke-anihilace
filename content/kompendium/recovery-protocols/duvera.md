@@ -1,14 +1,17 @@
 +++
 title = "Duvera"
 weight = 100
+description = "Duvera — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Duvera — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["acute-safety-establishment", "acute-cognitive-anchoring", "acute-somatic-regulation", "longterm-altruistic-channeling", "longterm-resilience-cultivation", "midterm-educational-reintegration"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

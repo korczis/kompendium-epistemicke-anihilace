@@ -2,9 +2,11 @@
 title = "Bridge: nabla-infinity"
 description = "Glossary bridge — propojeni kompendia s glossary entry nabla-infinity."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "nabla-infinity", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-metanarrative-collapse", "bridge-motte-and-bailey", "bridge-narrative-identity", "bridge-narrative-trauma"]
 parent = "kompendium-glossary-bridges"

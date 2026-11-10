@@ -2,6 +2,7 @@
 title = "Diagnostika"
 description = "Diagnostické indikátory a screening"
 weight = 100
+
 [extra]
 draft = false
 stub = true

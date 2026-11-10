@@ -2,9 +2,11 @@
 title = "EA-9.6.6 AI Hiring Narrative"
 description = "Současná digitální EA — ai hiring narrative."
 weight = 966
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-6-4-AI-deplatforming-cascade", "ea-9-6-5-AI-credit-scoring-bias", "ea-9-6-7-AI-medical-decision-EA", "ea-9-6-8-AI-legal-decision-EA"]
 parent = "kompendium-techniques"

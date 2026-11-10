@@ -2,9 +2,11 @@
 title = "QR: EA-5.1.4 Semanticka imploze"
 description = "Rychla referencni karta pro ultramarine techniku Semanticka imploze (epistemicka singularita)."
 weight = 10004
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-1", "ultramari", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-1-3", "qr-ea-5-1-30", "qr-ea-5-1-5", "qr-ea-5-1-6"]
 parent = "kompendium-quick-reference"

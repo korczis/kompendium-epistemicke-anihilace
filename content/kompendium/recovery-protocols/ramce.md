@@ -1,14 +1,17 @@
 +++
 title = "Ramce"
 weight = 100
+description = "Ramce — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Ramce — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["incompetence", "longterm-relapse-prevention", "acute-information-curation", "lifeworld", "longterm-resilience-cultivation", "acute-stabilization-protocol"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

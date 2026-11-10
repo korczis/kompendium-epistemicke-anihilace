@@ -2,9 +2,13 @@
 title = "Epistemické trauma"
 weight = 60
 
+description = "Strukturální poškození schopnosti důvěřovat vlastnímu poznání po zážitku epistemické anihilace; klinicky se překrývá s PTSD/cPTSD, ale zachycuje specifické epistemické rozměry, které tradiční diagnostiky vynechávají."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "clinical", "trauma"]
+
 [extra]
 category = "epistemic"
-description = "Strukturální poškození schopnosti důvěřovat vlastnímu poznání po zážitku epistemické anihilace; klinicky se překrývá s PTSD/cPTSD, ale zachycuje specifické epistemické rozměry, které tradiční diagnostiky vynechávají."
 related_terms = ["epistemicka-anihilace", "epistemicka-alienace", "metakognitivni-destrukce", "gaslighting", "delegitimizace", "kognitivni-anti-rekurzivita"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 640
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["epistemické trauma", "epistemic trauma", "PTSD", "cPTSD", "zotavení", "kompendium"]
-tags = ["glossary", "epistemic", "clinical", "trauma"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

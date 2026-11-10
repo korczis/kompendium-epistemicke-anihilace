@@ -2,9 +2,13 @@
 title = "Kompendium EA"
 weight = 60
 
+description = "Kompendium epistemické a kognitivní anihilace — česky vedený systematický taxonomický a klinický referenční rámec pro psychiatry, psychology, filosofy a výzkumníky epistemické bezpečnosti."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "reference"]
+
 [extra]
 category = "epistemic"
-description = "Kompendium epistemické a kognitivní anihilace — česky vedený systematický taxonomický a klinický referenční rámec pro psychiatry, psychology, filosofy a výzkumníky epistemické bezpečnosti."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "taxonomie-ea", "dual-use-poznani", "delegitimizace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 680
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["kompendium", "kompendium EA", "taxonomie", "klinický referenční rámec", "epistemic security", "publikační etika"]
-tags = ["glossary", "epistemic", "kompendium", "reference"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

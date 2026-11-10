@@ -1,14 +1,17 @@
 +++
 title = "Observational Assessment"
 weight = 100
+description = "Observational Assessment — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Observational Assessment — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["pripad-akademie", "supervizni-ramce", "collateral-interview-protokol", "visualizations", "diagnosticke-indikatory", "diferencialni-diagnostika"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

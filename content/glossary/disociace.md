@@ -2,9 +2,13 @@
 title = "Disociace"
 weight = 60
 
+description = "Dissociation — disruption of the normal integration of consciousness, memory, identity, emotion, perception, and motor control; central to differential diagnosis distinguishing trauma response from epistemic anihilace."
+
+[taxonomies]
+tags = ["glossary", "clinical", "kompendium"]
+
 [extra]
 category = "clinical"
-description = "Dissociation — disruption of the normal integration of consciousness, memory, identity, emotion, perception, and motor control; central to differential diagnosis distinguishing trauma response from epistemic anihilace."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "iatrogenic-harm", "mereologicka-rekonstrukce", "narrative-identity", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["disociace", "dissociation", "DSM-5", "trauma", "depersonalization", "derealization", "DID", "differential diagnosis"]
-tags = ["glossary", "clinical", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

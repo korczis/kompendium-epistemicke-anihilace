@@ -1,9 +1,12 @@
 +++
 title = "Paradigm Shift"
 weight = 50
-[extra]
-tags = ["glossary", "core", "paradigm", "functional-programming", "otp", "beam", "erlang", "elixir", "concurrency", "distributed-systems", "architecture", "evolution"]
 description = "Comprehensive exploration of technology paradigm shifts with deep focus on the OTP/BEAM paradigm, the functional programming revolution, actor model concurrency, and how the Prismatic Platform embodies the shift from imperative to declarative, process-oriented system design"
+
+[taxonomies]
+tags = ["glossary", "core", "paradigm", "functional-programming", "otp", "beam", "erlang", "elixir", "concurrency", "distributed-systems", "architecture", "evolution"]
+
+[extra]
 category = "core"
 status = "active"
 author = "Tomas Korcak (korczis)"

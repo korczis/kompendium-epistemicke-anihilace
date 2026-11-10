@@ -2,9 +2,11 @@
 title = "Bridge: hermeneutika"
 description = "Glossary bridge — propojeni kompendia s glossary entry hermeneutika."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "hermeneutika", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-greynoise", "bridge-hawkeye", "bridge-hyperreality", "bridge-iatrogenic-harm"]
 parent = "kompendium-glossary-bridges"

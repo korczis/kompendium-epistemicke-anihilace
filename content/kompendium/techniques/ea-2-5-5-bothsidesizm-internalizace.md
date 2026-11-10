@@ -2,9 +2,11 @@
 title = "EA-2.5.5 Bothsidesizm Internalizace"
 description = "Delegitimizační technika — Bothsidesizm Internalizace."
 weight = 2505
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-5", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-5-3-self-doubt-cultivation", "ea-2-5-4-radical-relativism-internalize", "ea-2-5-6-platonic-cave-self", "ea-2-5-7-self-cancelation"]
 parent = "kompendium-techniques"

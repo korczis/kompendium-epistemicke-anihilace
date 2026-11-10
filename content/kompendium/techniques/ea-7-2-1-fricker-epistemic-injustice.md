@@ -2,9 +2,11 @@
 title = "EA-7.2.1 Fricker: Epistemická nespravedlnost"
 description = "Teoretická reflexe — Fricker: Epistemická nespravedlnost a vztah k EA."
 weight = 721
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-1-8-derrida-deconstruction", "ea-7-1-9-heidegger-dasein", "ea-7-2-10-nagel-view-from-nowhere", "ea-7-2-2-goldman-veritism"]
 parent = "kompendium-techniques"

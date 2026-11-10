@@ -2,9 +2,11 @@
 title = "Informovaný Souhlas v EA Výzkumu"
 description = "Výzkumná metodologie EA — informovaný souhlas v ea výzkumu."
 weight = 31
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["ethnography-EA", "grounded-theory-EA", "longitudinal-study-EA", "meta-analysis-EA"]
 parent = "kompendium-research-methodology"

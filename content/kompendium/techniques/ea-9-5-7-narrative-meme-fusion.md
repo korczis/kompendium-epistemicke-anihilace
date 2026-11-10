@@ -2,9 +2,11 @@
 title = "EA-9.5.7 Narrative Meme Fusion"
 description = "Současná digitální EA — narrative meme fusion."
 weight = 957
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-5-5-counter-meme-suppression", "ea-9-5-6-frame-war-coordination", "ea-9-5-8-meme-context-collapse", "ea-9-5-9-meme-radicalization-pipeline"]
 parent = "kompendium-techniques"

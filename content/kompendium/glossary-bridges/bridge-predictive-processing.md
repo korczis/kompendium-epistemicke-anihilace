@@ -2,9 +2,11 @@
 title = "Bridge: predictive-processing"
 description = "Glossary bridge — propojeni kompendia s glossary entry predictive-processing."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "predictive-processing", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-panopticism", "bridge-power-knowledge", "bridge-propaganda", "bridge-purple-team"]
 parent = "kompendium-glossary-bridges"

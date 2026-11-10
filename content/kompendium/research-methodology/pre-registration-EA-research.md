@@ -2,9 +2,11 @@
 title = "Pre-Registrace EA Výzkumu"
 description = "Výzkumná metodologie EA — pre-registrace ea výzkumu."
 weight = 39
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["phenomenological-interview-EA", "power-analysis-EA", "publication-ethics-EA", "replication-EA-research"]
 parent = "kompendium-research-methodology"

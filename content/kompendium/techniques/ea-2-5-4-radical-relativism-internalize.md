@@ -2,9 +2,11 @@
 title = "EA-2.5.4 Radical Relativism Internalize"
 description = "Delegitimizační technika — Radical Relativism Internalize."
 weight = 2504
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-4", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-5-2-imposter-syndrome-amplifikace", "ea-2-5-3-self-doubt-cultivation", "ea-2-5-5-bothsidesizm-internalizace", "ea-2-5-6-platonic-cave-self"]
 parent = "kompendium-techniques"

@@ -1,9 +1,13 @@
 +++
 title = "Reality Testing"
 weight = 50
+description = "Cognitive process of distinguishing internal representations from external reality."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Cognitive process of distinguishing internal representations from external reality."
 related_terms = [
   "epistemic-pipeline",
   "trinity-gate",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

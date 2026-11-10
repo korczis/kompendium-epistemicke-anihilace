@@ -2,9 +2,13 @@
 title = "Epistemic Bubble"
 weight = 60
 
+description = "An epistemic structure in which relevant counter-voices are simply absent (Nguyen 2020). Distinguished from echo chamber, where counter-voices are actively discredited."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "manipulace"]
+
 [extra]
 category = "epistemic"
-description = "An epistemic structure in which relevant counter-voices are simply absent (Nguyen 2020). Distinguished from echo chamber, where counter-voices are actively discredited."
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "epistemic-pipeline", "nabla-infinity", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["epistemic bubble", "echo chamber", "Nguyen", "filter bubble", "algorithmic curation"]
-tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

@@ -2,9 +2,11 @@
 title = "EA-9.2.2 Voice Cloning EA"
 description = "Současná digitální EA — voice cloning ea."
 weight = 922
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-2-1-deepfake-personality", "ea-9-2-10-AI-personhood-claim", "ea-9-2-3-synthetic-text-narrative", "ea-9-2-4-image-manipulation-EA"]
 parent = "kompendium-techniques"

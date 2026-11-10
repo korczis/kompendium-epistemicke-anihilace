@@ -2,9 +2,11 @@
 title = "Komunikační politika"
 description = "Organizační obrana — komunikační politika."
 weight = 230
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["21-decision-traceability", "22-meeting-structure", "24-documentation-standards", "25-vendor-management-EA"]
 parent = "kompendium-organizational-defense"

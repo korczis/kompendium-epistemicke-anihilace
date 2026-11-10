@@ -2,9 +2,11 @@
 title = "Publikační Etika EA Výzkumu"
 description = "Výzkumná metodologie EA — publikační etika ea výzkumu."
 weight = 36
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["power-analysis-EA", "pre-registration-EA-research", "replication-EA-research", "survey-design-EA"]
 parent = "kompendium-research-methodology"

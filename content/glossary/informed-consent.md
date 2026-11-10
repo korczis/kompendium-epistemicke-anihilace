@@ -1,8 +1,12 @@
 +++
 title = "Informed Consent"
 weight = 5
-[extra]
 description = "Voluntary agreement by a competent person to a proposed intervention, procedure, or data use, given after disclosure of material information including nature, purpose, risks, benefits, alternatives, and the right to withdraw without penalty"
+
+[taxonomies]
+tags = ["ethics", "legal", "research", "compliance", "data-protection"]
+
+[extra]
 category = "ethics"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "critical"
 related_terms = ["consent", "irb-review", "transformative-experience", "undue-influence", "gdpr", "data-protection", "individual-risk-map"]
 keywords = ["informed consent", "consent form", "voluntary consent", "capacity", "disclosure", "research ethics", "medical ethics", "data subject rights"]
-tags = ["ethics", "legal", "research", "compliance", "data-protection"]
 key_takeaway = "Informed consent has three irreducible elements: capacity (the ability to understand and decide), voluntariness (absence of coercion or undue influence), and adequate disclosure of material information. A consent missing any of the three is no consent at all, regardless of what the document says."
 see_also = ["irb-review", "individual-risk-map", "transformative-experience"]
 image = "/images/sections/glossary.png"

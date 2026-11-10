@@ -2,9 +2,13 @@
 title = "Lakatosův výzkumný program"
 weight = 60
 
+description = "Lakatosova metodologie vědeckých výzkumných programů — rozlišení mezi progresivními a degenerativními posuny pomocné hypotézy; přesný nástroj k odlišení legitimní revize teorie od EA-1.3.1 imunizace."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "science"]
+
 [extra]
 category = "epistemic"
-description = "Lakatosova metodologie vědeckých výzkumných programů — rozlišení mezi progresivními a degenerativními posuny pomocné hypotézy; přesný nástroj k odlišení legitimní revize teorie od EA-1.3.1 imunizace."
 related_terms = ["falsifikace", "epistemicka-anihilace", "taxonomie-ea", "konfirmacni-bias", "hermeneutika", "kompendium-ea"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 680
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["Lakatos", "výzkumný program", "research programme", "progresivní posun", "degenerativní posun", "kompendium"]
-tags = ["glossary", "epistemic", "philosophy", "science"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

@@ -2,9 +2,11 @@
 title = "EA-9.3.1 Algoritmická amplifikace"
 description = "Současná digitální EA — algoritmická amplifikace."
 weight = 931
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-2-8-AI-eyewitness-fabrication", "ea-9-2-9-AI-document-forgery", "ea-9-3-10-trend-manipulation-EA", "ea-9-3-2-engagement-optimization-EA"]
 parent = "kompendium-techniques"

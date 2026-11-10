@@ -2,9 +2,11 @@
 title = "RCT v EA Výzkumu — Etická Omezení"
 description = "Výzkumná metodologie EA — rct v ea výzkumu — etická omezení."
 weight = 12
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["IPA-EA", "IRB-protocol-design-EA", "anonymization-EA-research", "case-study-design-EA"]
 parent = "kompendium-research-methodology"

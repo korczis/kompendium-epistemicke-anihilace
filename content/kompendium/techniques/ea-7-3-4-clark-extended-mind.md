@@ -2,9 +2,11 @@
 title = "EA-7.3.4 Clark: Rozšířená mysl"
 description = "Teoretická reflexe — Clark: Rozšířená mysl a vztah k EA."
 weight = 734
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-3-2-tversky-heuristics", "ea-7-3-3-friston-active-inference", "ea-7-3-5-metzinger-ego-tunnel", "ea-7-3-6-thompson-mind-life"]
 parent = "kompendium-techniques"

@@ -2,9 +2,11 @@
 title = "EA-2.2.7 Emotional Debt Cultivation"
 description = "Delegitimizační technika — Emotional Debt Cultivation."
 weight = 2207
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-7", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-2-5-recommendation-coercion", "ea-2-2-6-time-control-academic", "ea-2-2-8-intellectual-paternity-claim", "ea-2-2-9-disciplinary-boundary-coercion"]
 parent = "kompendium-techniques"

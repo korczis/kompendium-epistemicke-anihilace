@@ -2,9 +2,11 @@
 title = "AutoHeal & EA detection"
 description = "Integrace agenta AutoHeal s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 22
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "autoheal-ea-regression-repair"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["archer-supreme-ea-orchestration", "autoevolve-ea-pattern-evolution", "black-team-ea-modeling", "blue-team-ea-defense"]
 parent = "kompendium-aiad-integration"

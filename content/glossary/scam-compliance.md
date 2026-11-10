@@ -1,14 +1,17 @@
 +++
 title = "Scam Compliance"
 weight = 100
+description = "Scam Compliance — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie security."
+
+[taxonomies]
+tags = ["glossary", "security", "interactive"]
+
 [extra]
 category = "security"
-description = "Scam Compliance — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie security."
 related_terms = ["adapter", "adversarial-architecture", "adapter-pattern", "addiction-recovery", "accreditation", "adaptive-testing"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "security", "interactive"]
 quality_score = 75
 ref_count_at_creation = 1
 +++

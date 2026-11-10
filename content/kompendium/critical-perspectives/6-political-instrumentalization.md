@@ -2,9 +2,11 @@
 title = "Politická instrumentalizace EA"
 description = "Kritická perspektiva — politická instrumentalizace ea."
 weight = 6
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["4-circular-reasoning-risk", "5-false-positive-risk", "7-replication-EA-research", "8-theoretical-imperialism"]
 parent = "kompendium-critical-perspectives"

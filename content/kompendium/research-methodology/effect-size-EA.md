@@ -2,9 +2,11 @@
 title = "Effect Size v EA Studiích"
 description = "Výzkumná metodologie EA — effect size v ea studiích."
 weight = 18
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["discourse-analysis-EA", "document-analysis-EA", "ethnography-EA", "grounded-theory-EA"]
 parent = "kompendium-research-methodology"

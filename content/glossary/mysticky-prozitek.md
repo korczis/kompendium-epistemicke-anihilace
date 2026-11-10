@@ -1,8 +1,12 @@
 +++
 title = "Mystický prožitek (Mystical Experience)"
 weight = 6
-[extra]
 description = "Phenomenological category for transient altered states characterized by noetic quality, ineffability, transient duration, passivity, and a sense of unity — operationalized in contemporary psychology through the Mystical Experience Questionnaire and related instruments"
+
+[taxonomies]
+tags = ["phenomenology", "mystical-experience", "consciousness", "psychology-of-religion"]
+
+[extra]
 category = "phenomenology"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -14,7 +18,6 @@ date_updated = "2026-05-03"
 importance = "medium"
 related_terms = ["ego-death", "anihilacni-fenomeny", "epistemicke-trauma", "narativni-identita", "reality-testing"]
 keywords = ["mystical experience", "James", "noetic quality", "ineffability", "MEQ30", "psychology of religion", "transcendence"]
-tags = ["phenomenology", "mystical-experience", "consciousness", "psychology-of-religion"]
 key_takeaway = "Mystický prožitek is defined by phenomenological structure, not by cosmological content. Experiences of unity, ineffability, and noetic insight occur cross-culturally and across religious and secular framings — what differs is the post-experience interpretation, not the experiential signature."
 see_also = ["ego-death", "anihilacni-fenomeny", "narativni-identita"]
 image = "/images/sections/glossary.png"

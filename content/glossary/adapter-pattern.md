@@ -1,11 +1,14 @@
 +++
 title = "Adapter Pattern"
 weight = 45
+description = "Unified storage interface abstracting 7 backend technologies through Elixir behaviours and compile-time contract enforcement"
+
+[taxonomies]
+tags = ["glossary", "architecture", "design-patterns", "storage", "abstraction", "contracts"]
+
 [extra]
 category = "storage"
-description = "Unified storage interface abstracting 7 backend technologies through Elixir behaviours and compile-time contract enforcement"
 related_terms = ["behaviour", "protocol", "ets", "kuzudb", "meilisearch", "duckdb", "ecto", "connection-pooling", "openapi-spec", "umbrella-application", "plug", "typespec"]
-tags = ["glossary", "architecture", "design-patterns", "storage", "abstraction", "contracts"]
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "20 min"

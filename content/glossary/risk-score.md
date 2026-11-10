@@ -1,9 +1,13 @@
 +++
 title = "Risk Score"
 weight = 9
+description = "Numeric assessment quantifying the security risk of individual assets or findings with confidence levels and evidence chains."
+
+[taxonomies]
+tags = ["glossary", "security", "risk-score", "prismatic"]
+
 [extra]
 category = "security"
-description = "Numeric assessment quantifying the security risk of individual assets or findings with confidence levels and evidence chains."
 related_terms = ["easm", "attack-surface", "signal-plurality", "confidence-scoring", "nabla-infinity", "provenance-mandatory", "monte-carlo-verification", "epistemic-robustness", "blue-team", "risk-score", "shodan", "censys", "greynoise"]
 author = "Tomas Korcak (korczis)"
 reading_time = "9 min"
@@ -11,7 +15,6 @@ word_count = 1794
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Risk", "Score", "Numeric", "glossary", "security", "Prismatic Platform", "Monte Carlo", "NABLA", "HARD"]
-tags = ["glossary", "security", "risk-score", "prismatic"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

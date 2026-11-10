@@ -2,9 +2,11 @@
 title = "QR: EA-2.1.2 Pseudo-peer mob"
 description = "Rychla referencni karta pro EA-2.1.2 (delegitimizace)."
 weight = 30212
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-1-2", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-1-1", "qr-ea-2-1-10", "qr-ea-2-1-3", "qr-ea-2-1-4"]
 parent = "kompendium-quick-reference"

@@ -2,9 +2,11 @@
 title = "Bridge: trinity-gate"
 description = "Glossary bridge — propojeni kompendia s glossary entry trinity-gate."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "trinity-gate", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-theory-of-mind", "bridge-threshold", "bridge-violation-protocol", "bridge-weaponized-incompetence"]
 parent = "kompendium-glossary-bridges"

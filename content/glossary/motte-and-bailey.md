@@ -2,9 +2,13 @@
 title = "Motte and Bailey"
 weight = 60
 
+description = "Shackel's motte-and-bailey fallacy: switching between an indefensible substantive claim (bailey) and a defensible trivial claim (motte) when challenged. Standard rhetorical EA technique."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "rhetoric"]
+
 [extra]
 category = "epistemic"
-description = "Shackel's motte-and-bailey fallacy: switching between an indefensible substantive claim (bailey) and a defensible trivial claim (motte) when challenged. Standard rhetorical EA technique."
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "sealioning", "epistemicka-pokora", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["motte and bailey", "Shackel", "rhetorical fallacy", "doctrine switching", "EA technique"]
-tags = ["glossary", "epistemic", "kompendium", "rhetoric"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

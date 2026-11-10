@@ -2,9 +2,11 @@
 title = "QR: EA-2.1.1 Expertni disinflation"
 description = "Rychla referencni karta pro EA-2.1.1 (delegitimizace)."
 weight = 30211
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-1-1", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-1-5-1", "qr-ea-1-5-2", "qr-ea-2-1-10", "qr-ea-2-1-2"]
 parent = "kompendium-quick-reference"

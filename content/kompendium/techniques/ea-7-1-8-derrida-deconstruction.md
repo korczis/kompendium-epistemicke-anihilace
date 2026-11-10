@@ -2,9 +2,11 @@
 title = "EA-7.1.8 Derrida: Dekonstrukce"
 description = "Teoretická reflexe — Derrida: Dekonstrukce a vztah k EA."
 weight = 718
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-1-6-sloterdijk-spheres", "ea-7-1-7-deleuze-rhizome", "ea-7-1-9-heidegger-dasein", "ea-7-2-1-fricker-epistemic-injustice"]
 parent = "kompendium-techniques"

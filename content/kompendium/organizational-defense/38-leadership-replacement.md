@@ -2,9 +2,11 @@
 title = "Náhrada vedení"
 description = "Organizační obrana — náhrada vedení."
 weight = 380
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["36-trauma-aware-management", "37-business-continuity-EA", "39-cultural-rebuild", "4-whistleblower-mechanism"]
 parent = "kompendium-organizational-defense"

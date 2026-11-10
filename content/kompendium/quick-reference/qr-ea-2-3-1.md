@@ -2,9 +2,11 @@
 title = "QR: EA-2.3.1 Clip takeout"
 description = "Rychla referencni karta pro EA-2.3.1 (delegitimizace)."
 weight = 30231
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-3-1", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-2-8", "qr-ea-2-2-9", "qr-ea-2-3-10", "qr-ea-2-3-2"]
 parent = "kompendium-quick-reference"

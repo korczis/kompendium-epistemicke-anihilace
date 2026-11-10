@@ -1,9 +1,13 @@
 +++
 title = "Shodan"
 weight = 9
+description = "Internet-wide search engine for discovering connected devices, open ports, services, and vulnerabilities across the global attack surface"
+
+[taxonomies]
+tags = ["glossary", "security", "shodan", "prismatic"]
+
 [extra]
 category = "security"
-description = "Internet-wide search engine for discovering connected devices, open ports, services, and vulnerabilities across the global attack surface"
 related_terms = ["easm", "censys", "greynoise", "attack-surface", "signal-plurality", "risk-score", "tls", "rate-limiting"]
 platform_relevance = "critical"
 complexity = "intermediate"
@@ -28,7 +32,6 @@ word_count = 1772
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Shodan", "Internet-wide", "glossary", "security", "Prismatic Platform", "Filter", "String"]
-tags = ["glossary", "security", "shodan", "prismatic"]
 quality_score = 90
 image = "/images/sections/glossary.png"
 image_alt = "Shodan - Prismatic Platform"

@@ -2,9 +2,13 @@
 title = "Epistemic Pipeline"
 weight = 35
 date = 2026-02-14
+description = "16-level processing pipeline from raw data (L0) through Meta and Consciousness that transforms unstructured signals into formally verified knowledge"
+
+[taxonomies]
+tags = ["glossary", "epistemic", "epistemic-pipeline", "prismatic"]
+
 [extra]
 category = "epistemic"
-description = "16-level processing pipeline from raw data (L0) through Meta and Consciousness that transforms unstructured signals into formally verified knowledge"
 related_terms = ["nabla-infinity", "trinity-gate", "consciousness-traits", "three-nl", "provenance-mandatory", "confidence-threshold", "belief-graph", "qeve", "signal-plurality", "contradiction-preservation", "time-decay", "confidence-scoring", "formal-verification", "monte-carlo-verification", "property-based-testing", "entity-resolution", "cherry-picking", "quality-gates", "seadf", "audit-trail", "agent", "color-teams", "nm-nd"]
 date_created = "2026-01-15"
 date_updated = "2026-02-14"
@@ -13,7 +17,6 @@ reading_time = "16 min"
 word_count = 3267
 date_modified = "2026-02-23"
 keywords = ["Epistemic", "Pipeline", "16-level", "Meta", "Consciousness", "glossary", "Prismatic Platform", "Trinity Gate", "NABLA"]
-tags = ["glossary", "epistemic", "epistemic-pipeline", "prismatic"]
 quality_score = 97
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Rozpoznávání spouštěčů"
 description = "Praktický návod sebe-obrany — rozpoznávání spouštěčů."
 weight = 12
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["10-cognitive-load-management", "11-emotional-regulation", "13-somatic-awareness", "14-grounding-techniques"]
 parent = "kompendium-self-defense-guides"

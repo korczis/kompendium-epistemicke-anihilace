@@ -2,9 +2,13 @@
 title = "Power-Knowledge (Pouvoir-Savoir)"
 weight = 60
 
+description = "Foucault's coupling of power and knowledge as mutually constitutive: regimes of truth produce subjects of knowledge while delegitimizing competing epistemic claims; structural mechanism behind EA-1.2.x delegitimization."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Foucault's coupling of power and knowledge as mutually constitutive: regimes of truth produce subjects of knowledge while delegitimizing competing epistemic claims; structural mechanism behind EA-1.2.x delegitimization."
 related_terms = ["panopticism", "epistemicka-injustice", "epistemicka-anihilace", "metanarrative-collapse", "communicative-rationality"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["power-knowledge", "pouvoir-savoir", "Foucault", "regime of truth", "discourse", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

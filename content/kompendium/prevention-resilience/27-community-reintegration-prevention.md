@@ -2,9 +2,11 @@
 title = "Komunitní reintegrace"
 description = "Prevence a rezilience — komunitní reintegrace."
 weight = 27
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "tertiary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["25-vocational-rehabilitation-prevention", "26-family-reintegration-prevention", "28-spiritual-restoration-prevention", "29-cultural-restoration-prevention"]
 parent = "kompendium-prevention-resilience"

@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Triangulace zdrojů"
 description = "Praktický návod sebe-obrany — triangulace zdrojů."
 weight = 3
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["28-community-engagement", "29-conflict-resolution", "30-support-mobilization", "31-source-curation"]
 parent = "kompendium-self-defense-guides"

@@ -2,9 +2,13 @@
 title = "Instrumental Reason"
 weight = 60
 
+description = "Adorno and Horkheimer's diagnosis (Dialectic of Enlightenment) of reason reduced to means-ends calculation; the historical pathway by which the Enlightenment becomes the rationality of domination."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Adorno and Horkheimer's diagnosis (Dialectic of Enlightenment) of reason reduced to means-ends calculation; the historical pathway by which the Enlightenment becomes the rationality of domination."
 related_terms = ["communicative-rationality", "ideal-speech-situation", "power-knowledge", "epistemicka-anihilace", "metanarrative-collapse"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["instrumental reason", "Adorno", "Horkheimer", "dialectic of enlightenment", "Frankfurt School", "critical theory", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

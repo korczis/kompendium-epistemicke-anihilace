@@ -2,6 +2,7 @@
 title = "Kolektivní rozměr"
 description = "Kolektivní dimenze epistemické anihilace"
 weight = 100
+
 [extra]
 draft = false
 stub = true

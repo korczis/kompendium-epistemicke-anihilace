@@ -2,9 +2,11 @@
 title = "QR: EA-5.1.7 Referencni rekurze"
 description = "Rychla referencni karta pro ultramarine techniku Referencni rekurze (epistemicka singularita)."
 weight = 10007
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-1", "ultramari", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-1-5", "qr-ea-5-1-6", "qr-ea-5-1-8", "qr-ea-5-1-9"]
 parent = "kompendium-quick-reference"

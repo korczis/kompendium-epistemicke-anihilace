@@ -2,9 +2,11 @@
 title = "EA-2.1.6 Funding Attack"
 description = "Delegitimizační technika — Funding Attack."
 weight = 2106
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-1-6", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-1-4-publikacni-blokace", "ea-2-1-5-citation-suppression", "ea-2-1-7-institucionalni-vyloucenni", "ea-2-1-8-reputation-laundering-inverze"]
 parent = "kompendium-techniques"

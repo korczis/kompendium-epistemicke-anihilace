@@ -2,9 +2,13 @@
 title = "Kognitivní anihilace"
 weight = 60
 
+description = "Systematická destrukce kognitivních procesů a funkcí vedoucí k narušení schopnosti zpracovávat informace, realizovat mentální operace a využívat kognitivní kapacity pro adaptivní fungování."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "kognitivni"]
+
 [extra]
 category = "epistemic"
-description = "Systematická destrukce kognitivních procesů a funkcí vedoucí k narušení schopnosti zpracovávat informace, realizovat mentální operace a využívat kognitivní kapacity pro adaptivní fungování."
 related_terms = ["epistemicka-anihilace", "metakognitivni-destrukce", "anankasticky-rezim", "kognitivni-anti-rekurzivita", "taxonomie-ea"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 580
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["kognitivní anihilace", "cognitive annihilation", "kognitivní destrukce", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "kognitivni"]
 quality_score = 86
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

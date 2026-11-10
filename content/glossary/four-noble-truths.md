@@ -2,9 +2,13 @@
 title = "Four Noble Truths"
 weight = 60
 
+description = "Buddhist epistemological framework: dukkha (unsatisfactoriness), its origin, its cessation, and the path. Used here strictly as an epistemic-diagnostic structure relevant to recovery from epistemic damage, not as religious doctrine."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "comparative"]
+
 [extra]
 category = "epistemic"
-description = "Buddhist epistemological framework: dukkha (unsatisfactoriness), its origin, its cessation, and the path. Used here strictly as an epistemic-diagnostic structure relevant to recovery from epistemic damage, not as religious doctrine."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognice", "narrative-trauma", "lebenswelt", "epistemicka-pokora"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 550
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["four noble truths", "dukkha", "Buddhist epistemology", "diagnostic framework", "recovery"]
-tags = ["glossary", "epistemic", "philosophy", "comparative"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

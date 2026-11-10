@@ -1,9 +1,13 @@
 +++
 title = "Compliance Framework"
 weight = 59
+description = "Structured set of regulatory requirements and controls organizations must satisfy"
+
+[taxonomies]
+tags = ["glossary", "security", "compliance-framework", "prismatic"]
+
 [extra]
 category = "security"
-description = "Structured set of regulatory requirements and controls organizations must satisfy"
 related_terms = ["gdpr", "nis2", "zkb", "iso-27001", "security-rating"]
 author = "Tomas Korcak (korczis)"
 reading_time = "5 min"
@@ -11,7 +15,6 @@ word_count = 1016
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Compliance", "Framework", "Structured", "glossary", "security", "Prismatic Platform", "GDPR", "NUKIB"]
-tags = ["glossary", "security", "compliance-framework", "prismatic"]
 quality_score = 72
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

@@ -2,9 +2,11 @@
 title = "EA-2.3.6 Platform Coordinated Attack"
 description = "Delegitimizační technika — Platform Coordinated Attack."
 weight = 2306
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-3-6", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-3-4-mob-coordination", "ea-2-3-5-pseudo-kontroverze-amplifikace", "ea-2-3-7-deepfake-personalni", "ea-2-3-8-doxxing-epistemicky"]
 parent = "kompendium-techniques"

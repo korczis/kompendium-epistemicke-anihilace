@@ -2,9 +2,11 @@
 title = "Supreme Commander & EA detection"
 description = "Integrace agenta Supreme Commander s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 17
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "supreme-commander-ea-strategy"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["red-team-ea-detection", "strategic-command-ea-coordination", "tactical-execution-ea-operations", "trinity-gate-ea-verification"]
 parent = "kompendium-aiad-integration"

@@ -2,9 +2,11 @@
 title = "EA-9.4.5 Troll Farm EA"
 description = "Současná digitální EA — troll farm ea."
 weight = 945
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-3-sock-puppet-network", "ea-9-4-4-AI-bot-personhood", "ea-9-4-6-mass-comment-coordination", "ea-9-4-7-cross-platform-bot-cascade"]
 parent = "kompendium-techniques"

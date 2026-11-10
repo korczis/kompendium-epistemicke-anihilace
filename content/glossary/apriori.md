@@ -1,14 +1,17 @@
 +++
 title = "Apriori"
 weight = 100
+description = "Apriori — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+
+[taxonomies]
+tags = ["glossary", "architecture", "interactive"]
+
 [extra]
 category = "architecture"
-description = "Apriori — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
 related_terms = ["acid-transactions", "3nl", "accuracy", "adversarial-drift", "adaptive-testing", "accreditation"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "architecture", "interactive"]
 quality_score = 75
 ref_count_at_creation = 1
 +++

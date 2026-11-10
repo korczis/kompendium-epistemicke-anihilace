@@ -2,9 +2,11 @@
 title = "QR: EA-5.1.1 Epistemicka kanibalizace"
 description = "Rychla referencni karta pro ultramarine techniku Epistemicka kanibalizace (epistemicka singularita)."
 weight = 10001
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-1", "ultramari", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-2-5-8", "qr-ea-2-5-9", "qr-ea-5-1-10", "qr-ea-5-1-11"]
 parent = "kompendium-quick-reference"

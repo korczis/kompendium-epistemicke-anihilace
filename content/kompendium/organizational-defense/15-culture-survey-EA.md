@@ -2,9 +2,11 @@
 title = "Kulturní průzkum s EA detekcí"
 description = "Organizační obrana — kulturní průzkum s ea detekcí."
 weight = 150
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["13-exit-interview-EA", "14-anonymous-feedback", "16-psychological-safety", "17-team-rotation-policy"]
 parent = "kompendium-organizational-defense"

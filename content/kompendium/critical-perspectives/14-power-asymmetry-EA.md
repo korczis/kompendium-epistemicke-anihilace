@@ -2,9 +2,11 @@
 title = "Mocenská asymetrie v EA aplikaci"
 description = "Kritická perspektiva — mocenská asymetrie v ea aplikaci."
 weight = 14
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "ethical"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["12-EA-stigma-risk", "13-victim-blaming-risk", "15-consent-validity-question", "16-treatment-coercion-risk"]
 parent = "kompendium-critical-perspectives"

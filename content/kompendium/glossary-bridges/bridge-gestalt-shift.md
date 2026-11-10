@@ -2,9 +2,11 @@
 title = "Bridge: gestalt-shift"
 description = "Glossary bridge — propojeni kompendia s glossary entry gestalt-shift."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "gestalt-shift", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-four-noble-truths", "bridge-gaslighting", "bridge-gish-gallop", "bridge-gray-team"]
 parent = "kompendium-glossary-bridges"

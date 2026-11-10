@@ -2,9 +2,11 @@
 title = "PR obrana narativu"
 description = "Organizační obrana — pr obrana narativu."
 weight = 340
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["32-internal-investigation", "33-legal-counsel-engagement", "35-employee-assistance-EA", "36-trauma-aware-management"]
 parent = "kompendium-organizational-defense"

@@ -2,9 +2,11 @@
 title = "QR: EA-1.1.1 Selektivní expozice"
 description = "Rychlá referenční karta — Strategická filtrace informací předstíraná jako objektivní výběr."
 weight = 111
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-1-1-1", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-1-1-2", "qr-ea-1-1-3", "qr-ea-1-2-1"]
 parent = "kompendium-quick-reference"

@@ -2,9 +2,11 @@
 title = "Bridge: differance"
 description = "Glossary bridge — propojeni kompendia s glossary entry differance."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "differance", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-delegitimizace", "bridge-deplatforming", "bridge-disociace", "bridge-dual-use-poznani"]
 parent = "kompendium-glossary-bridges"

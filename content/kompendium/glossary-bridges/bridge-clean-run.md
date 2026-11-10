@@ -2,9 +2,11 @@
 title = "Bridge: clean-run"
 description = "Glossary bridge — propojeni kompendia s glossary entry clean-run."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "clean-run", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-c-ptsd", "bridge-censys", "bridge-coercive-control", "bridge-color-teams"]
 parent = "kompendium-glossary-bridges"

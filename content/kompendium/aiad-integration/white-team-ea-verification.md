@@ -2,9 +2,11 @@
 title = "White Team & EA detection"
 description = "Integrace agenta White Team s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 13
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "white-team-ea-verification"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["tactical-execution-ea-operations", "trinity-gate-ea-verification", "supreme-commander-ea-strategy"]
 parent = "kompendium-aiad-integration"

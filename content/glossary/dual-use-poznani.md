@@ -2,9 +2,13 @@
 title = "Dual-use poznání"
 weight = 60
 
+description = "Etický problém citlivého poznání — totéž porozumění technikám epistemické manipulace umožňuje obranu i útok; rámec rozhodování o publikaci, přístupu a využití kompendia."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "ethics", "policy"]
+
 [extra]
 category = "epistemic"
-description = "Etický problém citlivého poznání — totéž porozumění technikám epistemické manipulace umožňuje obranu i útok; rámec rozhodování o publikaci, přístupu a využití kompendia."
 related_terms = ["kompendium-ea", "epistemicka-anihilace", "taxonomie-ea", "delegitimizace", "metakognitivni-destrukce", "color-teams"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 660
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["dual-use", "etika", "epistemic security", "kompendium", "kontrola přístupu", "publication ethics"]
-tags = ["glossary", "epistemic", "ethics", "policy"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

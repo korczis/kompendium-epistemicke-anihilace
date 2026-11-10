@@ -2,9 +2,11 @@
 title = "Bridge: intelligence-fusion"
 description = "Glossary bridge — propojeni kompendia s glossary entry intelligence-fusion."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "intelligence-fusion", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-info-ops", "bridge-instrumental-reason", "bridge-intentionalita", "bridge-kognitivni-anihilace"]
 parent = "kompendium-glossary-bridges"

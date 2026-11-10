@@ -2,9 +2,11 @@
 title = "EA-2.1.8 Reputation Laundering Inverze"
 description = "Delegitimizační technika — Reputation Laundering Inverze."
 weight = 2108
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-1-8", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-1-6-funding-attack", "ea-2-1-7-institucionalni-vyloucenni", "ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-2-1-mentor-self-totalizace"]
 parent = "kompendium-techniques"

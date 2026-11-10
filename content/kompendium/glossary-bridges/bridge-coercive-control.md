@@ -2,9 +2,11 @@
 title = "Bridge: coercive-control"
 description = "Glossary bridge — propojeni kompendia s glossary entry coercive-control."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "coercive-control", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-censys", "bridge-clean-run", "bridge-color-teams", "bridge-communicative-rationality"]
 parent = "kompendium-glossary-bridges"

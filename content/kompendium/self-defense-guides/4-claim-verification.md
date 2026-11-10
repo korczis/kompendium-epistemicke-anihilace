@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Verifikace tvrzení"
 description = "Praktický návod sebe-obrany — verifikace tvrzení."
 weight = 4
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["38-bias-audit-personal", "39-information-fasting", "40-ai-content-detection", "41-narrative-stewardship"]
 parent = "kompendium-self-defense-guides"

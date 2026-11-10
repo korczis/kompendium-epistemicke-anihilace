@@ -2,9 +2,11 @@
 title = "Bridge: entity-resolution"
 description = "Glossary bridge — propojeni kompendia s glossary entry entity-resolution."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "entity-resolution", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-easm", "bridge-embodied-cognition", "bridge-epistemic-bubble", "bridge-epistemic-pipeline"]
 parent = "kompendium-glossary-bridges"

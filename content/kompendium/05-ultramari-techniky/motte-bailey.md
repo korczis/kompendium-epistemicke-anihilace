@@ -1,14 +1,17 @@
 +++
 title = "Motte Bailey"
 weight = 100
+description = "Motte Bailey — pojem v sekci kompendium/05-ultramari-techniky znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Motte Bailey — pojem v sekci kompendium/05-ultramari-techniky znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["sealioning", "kapitola-8", "weaponized-incompetence", "kapitola-7", "kapitola-6", "kapitola-10"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

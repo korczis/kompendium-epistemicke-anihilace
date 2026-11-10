@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [taxonomies]
 tags = ["kompendium", "kapitola-2", "scenar-h", "destruktivni-kritika", "intermitentni-posilovani", "ea-3-2-h"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["scenar-f", "scenar-g", "somaticke-vektory", "tom-exploitation"]
 ea_codes = ["EA-3.2.H"]

@@ -2,9 +2,11 @@
 title = "EA-2.1.5 Citation Suppression"
 description = "Delegitimizační technika — Citation Suppression."
 weight = 2105
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-1-5", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-1-3-credentialing-attack", "ea-2-1-4-publikacni-blokace", "ea-2-1-6-funding-attack", "ea-2-1-7-institucionalni-vyloucenni"]
 parent = "kompendium-techniques"

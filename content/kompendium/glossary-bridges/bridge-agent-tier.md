@@ -2,9 +2,11 @@
 title = "Bridge: agent-tier"
 description = "Glossary bridge — propojeni kompendia s glossary entry agent-tier."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "agent-tier", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-agent", "bridge-agent-registry", "bridge-aiad", "bridge-anankasticky-rezim"]
 parent = "kompendium-glossary-bridges"

@@ -2,9 +2,11 @@
 title = "EA × Security: Incident Response — Narrative Discipline"
 description = "IR komunikace je narrative warfare — kontrola příběhu = kontrola damage"
 weight = 220
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["20-ea-security-insider-threat", "21-ea-security-supply-chain-narrative", "23-ea-security-attribution-bias", "24-ea-security-threat-intelligence-validation"]
 parent = "kompendium-cross-domain"

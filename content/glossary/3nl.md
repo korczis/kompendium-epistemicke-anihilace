@@ -1,9 +1,13 @@
 +++
 title = "3NL"
 weight = 10
+description = "Three Nested Levels architecture organizing the platform into hierarchical layers of abstraction for agents, knowledge, and system operations."
+
+[taxonomies]
+tags = ["glossary", "architecture", "3nl", "prismatic"]
+
 [extra]
 category = "architecture"
-description = "Three Nested Levels architecture organizing the platform into hierarchical layers of abstraction for agents, knowledge, and system operations."
 acronym = "3NL"
 related_terms = ["pvm", "nabla-infinity", "aiad", "three-nl", "bounded-context", "supervisor", "adapter-pattern", "epistemic-pipeline"]
 author = "Tomas Korcak (korczis)"
@@ -12,7 +16,6 @@ word_count = 1407
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["3NL", "Three", "Nested", "Levels", "glossary", "architecture", "Prismatic Platform", "Level", "Domain"]
-tags = ["glossary", "architecture", "3nl", "prismatic"]
 quality_score = 72
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

@@ -1,9 +1,12 @@
 +++
 title = "Graph Theory"
 weight = 50
-[extra]
-tags = ["glossary", "mathematics", "graph", "algorithms", "data-structures", "formal-methods", "trinity-gate", "verification"]
 description = "Graph theory is the branch of mathematics studying structures formed by vertices and edges, providing the formal foundation for the Prismatic Platform's dependency resolution, belief graph verification, agent orchestration, knowledge graphs, and Trinity Gate structural consistency checks."
+
+[taxonomies]
+tags = ["glossary", "mathematics", "graph", "algorithms", "data-structures", "formal-methods", "trinity-gate", "verification"]
+
+[extra]
 category = "mathematics"
 status = "active"
 author = "Tomas Korcak (korczis)"

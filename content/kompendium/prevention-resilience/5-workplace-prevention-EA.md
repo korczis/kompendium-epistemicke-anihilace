@@ -2,9 +2,11 @@
 title = "Pracovní prevence EA"
 description = "Prevence a rezilience — pracovní prevence ea."
 weight = 5
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "primary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["30-trauma-informed-citizenship", "4-community-resilience-EA", "6-media-literacy-prevention", "7-digital-hygiene-prevention"]
 parent = "kompendium-prevention-resilience"

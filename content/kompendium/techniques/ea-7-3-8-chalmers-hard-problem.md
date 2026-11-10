@@ -2,9 +2,11 @@
 title = "EA-7.3.8 Chalmers: Hard problem"
 description = "Teoretická reflexe — Chalmers: Hard problem a vztah k EA."
 weight = 738
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-3-6-thompson-mind-life", "ea-7-3-7-dennett-intentional-stance", "ea-7-3-9-dehaene-consciousness", "ea-8-1-1-bite-model-detail"]
 parent = "kompendium-techniques"

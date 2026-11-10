@@ -2,9 +2,11 @@
 title = "EA-9.4.3 Sock Puppet Network"
 description = "Současná digitální EA — sock puppet network."
 weight = 943
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-10-bot-detection-evasion", "ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-4-AI-bot-personhood", "ea-9-4-5-troll-farm-EA"]
 parent = "kompendium-techniques"

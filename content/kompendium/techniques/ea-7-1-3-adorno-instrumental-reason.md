@@ -2,9 +2,11 @@
 title = "EA-7.1.3 Adorno: Instrumentální rozum"
 description = "Teoretická reflexe — Adorno: Instrumentální rozum a vztah k EA."
 weight = 713
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-1-10-merleau-ponty-embodiment", "ea-7-1-2-foucault-discipline", "ea-7-1-4-habermas-communicative-action", "ea-7-1-5-arendt-banality-evil"]
 parent = "kompendium-techniques"

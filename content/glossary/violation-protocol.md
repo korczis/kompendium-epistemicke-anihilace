@@ -1,8 +1,12 @@
 +++
 title = "Violation Protocol"
 weight = 4
-[extra]
 description = "L1-L4 escalation levels for NM/ND doctrine breaches with deterministic enforcement, audit trails, and automated resolution workflows"
+
+[taxonomies]
+tags = ["doctrine", "enforcement", "quality", "security", "compliance"]
+
+[extra]
 category = "doctrine"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-02-22"
 importance = "critical"
 related_terms = ["nm-nd", "no-mercy", "no-doubts", "quality-gates", "regression-test", "archer-supreme", "violation-protocol", "pre-commit-hooks", "credo", "dialyzer", "clean-run", "zero-warning-policy"]
 keywords = ["violation protocol", "escalation levels", "quality enforcement", "NM/ND doctrine", "L1 L2 L3 L4 violations", "automated enforcement", "audit trail", "violation state machine", "supreme review"]
-tags = ["doctrine", "enforcement", "quality", "security", "compliance"]
 platforms = ["elixir", "phoenix", "prismatic"]
 use_cases = ["quality-enforcement", "violation-detection", "audit-compliance", "pre-commit-validation", "ci-pipeline-gating"]
 prerequisites = ["nm-nd", "quality-gates", "pre-commit-hooks"]

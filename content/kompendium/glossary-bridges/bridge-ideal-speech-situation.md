@@ -2,9 +2,11 @@
 title = "Bridge: ideal-speech-situation"
 description = "Glossary bridge — propojeni kompendia s glossary entry ideal-speech-situation."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "ideal-speech-situation", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-hyperreality", "bridge-iatrogenic-harm", "bridge-info-ops", "bridge-instrumental-reason"]
 parent = "kompendium-glossary-bridges"

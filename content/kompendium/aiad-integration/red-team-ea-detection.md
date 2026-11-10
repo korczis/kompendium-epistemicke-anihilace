@@ -2,9 +2,11 @@
 title = "Red Team & EA detection"
 description = "Integrace agenta Red Team s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 10
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "red-team-ea-detection"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["qeve-ea-quality-validation", "quality-monitor-ea-tracking", "strategic-command-ea-coordination", "supreme-commander-ea-strategy"]
 parent = "kompendium-aiad-integration"

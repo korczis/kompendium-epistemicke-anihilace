@@ -2,9 +2,11 @@
 title = "Bridge: white-team"
 description = "Glossary bridge — propojeni kompendia s glossary entry white-team."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "white-team", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-violation-protocol", "bridge-weaponized-incompetence", "bridge-zero-warning-policy", "delegitimizace"]
 parent = "kompendium-glossary-bridges"

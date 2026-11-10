@@ -1,11 +1,14 @@
 +++
 title = "Trinity Gate"
 weight = 32
-[extra]
 description = "4-layer verification gate requiring structural, logical, and formal necessity checks before any platform belief is accepted."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "verification", "formal-methods", "quality", "gate"]
+
+[extra]
 category = "epistemic"
 related_terms = ["nabla-infinity", "signal-plurality", "confidence-threshold", "white-team", "qeve", "agent", "entity-resolution", "epistemic-pipeline", "lean4", "property-based-testing", "provenance-mandatory", "purple-team", "qdp", "three-nl", "nm-nd", "no-mercy", "no-doubts", "blue-team"]
-tags = ["glossary", "epistemic", "verification", "formal-methods", "quality", "gate"]
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "20 min"

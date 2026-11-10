@@ -1,13 +1,17 @@
 +++
 title = "Black Team"
 weight = 24
+description = "Maximum isolation theoretical threat modeling team producing abstract models only, operating under the strictest constraints within the Prismatic Platform Color Teams architecture"
+
+[taxonomies]
+tags = ["glossary", "security", "black-team", "prismatic", "adversarial", "threat-modeling", "color-teams"]
+
 [extra]
 category = "security"
 domain = "adversarial-security"
 complexity = "expert"
 stability = "mature"
 beam_related = true
-description = "Maximum isolation theoretical threat modeling team producing abstract models only, operating under the strictest constraints within the Prismatic Platform Color Teams architecture"
 related_terms = ["color-teams", "gray-team", "red-team", "blue-team", "purple-team", "white-team", "nabla-infinity", "trinity-gate", "epistemic-pipeline", "formal-verification", "lean4", "agent-tier", "agent-registry", "consciousness-traits", "threat-intelligence", "penetration-testing"]
 author = "Tomas Korcak (korczis)"
 reading_time = "25 min"
@@ -15,7 +19,6 @@ word_count = 3800
 date_created = "2026-02-23"
 date_modified = "2026-04-02"
 keywords = ["Black Team", "adversarial testing", "threat modeling", "pentesting", "red vs black", "security teams", "glossary", "security", "Prismatic Platform"]
-tags = ["glossary", "security", "black-team", "prismatic", "adversarial", "threat-modeling", "color-teams"]
 quality_score = 95
 see_also = ["capabilities", "architecture", "agents", "security"]
 image = "/images/sections/glossary.png"

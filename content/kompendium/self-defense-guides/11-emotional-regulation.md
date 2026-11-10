@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Emoční regulace"
 description = "Praktický návod sebe-obrany — emoční regulace."
 weight = 11
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["1-metacognitive-monitoring", "10-cognitive-load-management", "12-trigger-recognition", "13-somatic-awareness"]
 parent = "kompendium-self-defense-guides"

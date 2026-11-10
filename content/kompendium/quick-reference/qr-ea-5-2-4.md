@@ -2,9 +2,11 @@
 title = "QR: EA-5.2.4 Apriorni saturace"
 description = "Rychla referencni karta pro EA-5.2.4 (metatranscendentalni anihilace)."
 weight = 20004
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-2", "ultramari", "metatranscendentalni", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-2-3", "qr-ea-5-2-30", "qr-ea-5-2-5", "qr-ea-5-2-6"]
 parent = "kompendium-quick-reference"

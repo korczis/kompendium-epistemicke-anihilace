@@ -2,9 +2,11 @@
 title = "Bridge: decision-engine"
 description = "Glossary bridge — propojeni kompendia s glossary entry decision-engine."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "decision-engine", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-companion", "bridge-darvo", "bridge-deepfake", "bridge-delegitimizace"]
 parent = "kompendium-glossary-bridges"

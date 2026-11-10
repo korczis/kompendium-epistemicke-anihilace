@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Ochrana existenciálního smyslu"
 description = "Praktický návod sebe-obrany — ochrana existenciálního smyslu."
 weight = 48
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["46-multiple-self-management", "47-identity-resilience-training", "49-temporal-self-stitching", "5-falsification-thinking"]
 parent = "kompendium-self-defense-guides"

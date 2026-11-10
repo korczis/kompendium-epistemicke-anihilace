@@ -1,14 +1,17 @@
 +++
 title = "Traumatic Bonding"
 weight = 100
+description = "Paradoxní silná emoční vazba mezi obětí a agresorem, vznikající v důsledku cyklického střídání zneužívání a pozitivního posílení. Klinický fenomén relevantní pro analýzu manipulačních vzorců, identitních dynamik a epistemických procesů v Prismatic Kompendiu."
+
+[taxonomies]
+tags = ["glossary", "psychology", "manipulation", "attachment", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Paradoxní silná emoční vazba mezi obětí a agresorem, vznikající v důsledku cyklického střídání zneužívání a pozitivního posílení. Klinický fenomén relevantní pro analýzu manipulačních vzorců, identitních dynamik a epistemických procesů v Prismatic Kompendiu."
 related_terms = []
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "manipulation", "attachment", "interactive"]
 quality_score = 88
 status = "enriched"
 ref_count_at_creation = 1

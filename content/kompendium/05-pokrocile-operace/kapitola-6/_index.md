@@ -2,6 +2,7 @@
 title = "Pokročilé operace — kapitola 6"
 description = "Materiál v rekonstrukci"
 weight = 100
+
 [extra]
 draft = false
 stub = true

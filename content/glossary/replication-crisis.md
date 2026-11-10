@@ -2,9 +2,13 @@
 title = "Replication Crisis"
 weight = 60
 
+description = "The systemic failure of published research findings to replicate, documented by the Open Science Collaboration (2015) and successors. Direct epistemic implication: published peer-reviewed status is not by itself a sufficient evidence-warrant."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "methodology"]
+
 [extra]
 category = "epistemic"
-description = "The systemic failure of published research findings to replicate, documented by the Open Science Collaboration (2015) and successors. Direct epistemic implication: published peer-reviewed status is not by itself a sufficient evidence-warrant."
 related_terms = ["epistemicka-anihilace", "epistemic-confidence", "epistemicka-pokora", "kompendium-ea", "epistemic-pipeline", "nabla-infinity"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 550
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["replication crisis", "Open Science Collaboration", "p-hacking", "publication bias", "evidence calibration"]
-tags = ["glossary", "epistemic", "philosophy", "methodology"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

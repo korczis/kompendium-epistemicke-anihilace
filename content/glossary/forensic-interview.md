@@ -1,8 +1,12 @@
 +++
 title = "Forensic Interview"
 weight = 5
-[extra]
 description = "Structured, evidence-based questioning protocol designed to elicit accurate, complete, and legally defensible accounts from witnesses, victims, and subjects while minimizing suggestion, contamination, and re-traumatization"
+
+[taxonomies]
+tags = ["forensic", "investigation", "evidence", "compliance"]
+
+[extra]
 category = "forensic"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "critical"
 related_terms = ["chain-of-custody", "evidence", "expert-witness", "trauma-bonding", "pattern-evidence", "informed-consent", "due-diligence"]
 keywords = ["forensic interview", "investigative interview", "witness interview", "child interview", "PEACE model", "cognitive interview", "NICHD protocol", "trauma-informed"]
-tags = ["forensic", "investigation", "evidence", "compliance"]
 key_takeaway = "A forensic interview is not a casual conversation — it is a documented procedure with a defined protocol, recording requirements, and rules against suggestion, designed so that the resulting account can withstand cross-examination and expert challenge in adversarial proceedings."
 see_also = ["chain-of-custody", "expert-witness", "pattern-evidence"]
 image = "/images/sections/glossary.png"

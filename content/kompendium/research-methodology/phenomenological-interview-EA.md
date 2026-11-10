@@ -2,9 +2,11 @@
 title = "Fenomenologický Interview v EA"
 description = "Výzkumná metodologie EA — fenomenologický interview v ea."
 weight = 20
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["narrative-analysis-EA", "network-analysis-EA", "power-analysis-EA", "pre-registration-EA-research"]
 parent = "kompendium-research-methodology"

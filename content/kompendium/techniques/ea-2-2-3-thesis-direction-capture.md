@@ -2,9 +2,11 @@
 title = "EA-2.2.3 Thesis Direction Capture"
 description = "Delegitimizační technika — Thesis Direction Capture."
 weight = 2203
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-3", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-2-10-future-blackmail-implantace", "ea-2-2-2-mentee-isolation", "ea-2-2-4-collaboration-monopolizace", "ea-2-2-5-recommendation-coercion"]
 parent = "kompendium-techniques"

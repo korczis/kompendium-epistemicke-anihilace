@@ -2,9 +2,11 @@
 title = "EA-2.2.5 Recommendation Coercion"
 description = "Delegitimizační technika — Recommendation Coercion."
 weight = 2205
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-5", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-2-3-thesis-direction-capture", "ea-2-2-4-collaboration-monopolizace", "ea-2-2-6-time-control-academic", "ea-2-2-7-emotional-debt-cultivation"]
 parent = "kompendium-techniques"

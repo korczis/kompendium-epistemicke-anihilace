@@ -2,9 +2,11 @@
 title = "EA-9.4.2 Coordinated Inauthentic Behavior"
 description = "Současná digitální EA — coordinated inauthentic behavior."
 weight = 942
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-1-bot-amplification-coordinated", "ea-9-4-10-bot-detection-evasion", "ea-9-4-3-sock-puppet-network", "ea-9-4-4-AI-bot-personhood"]
 parent = "kompendium-techniques"

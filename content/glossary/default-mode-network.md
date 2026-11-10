@@ -2,9 +2,13 @@
 title = "Default Mode Network"
 weight = 60
 
+description = "Large-scale brain network active during rest and self-referential thought — the substrate of narrative self-construction and the target of identity-disruption techniques in epistemic annihilation."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "neuroscience"]
+
 [extra]
 category = "neuroscience"
-description = "Large-scale brain network active during rest and self-referential thought — the substrate of narrative self-construction and the target of identity-disruption techniques in epistemic annihilation."
 related_terms = ["prefrontal-cortex", "mental-models", "schema-theory", "interoception", "trauma-spectrum", "epistemicka-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-26"
 date_modified = "2026-04-26"
 keywords = ["default mode network", "DMN", "self-referential thought", "narrative self", "resting state", "neuroscience"]
-tags = ["glossary", "epistemic", "kompendium", "neuroscience"]
 quality_score = 82
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

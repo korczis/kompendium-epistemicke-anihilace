@@ -2,9 +2,11 @@
 title = "EA-9.5.4 Meme Network Amplification"
 description = "Současná digitální EA — meme network amplification."
 weight = 954
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-5-2-symbolic-hijacking", "ea-9-5-3-emotional-meme-engineering", "ea-9-5-5-counter-meme-suppression", "ea-9-5-6-frame-war-coordination"]
 parent = "kompendium-techniques"

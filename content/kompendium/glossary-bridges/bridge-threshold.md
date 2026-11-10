@@ -1,14 +1,17 @@
 +++
 title = "Bridge: Thresholds & Triggers"
 weight = 100
+description = "Bridge entry for threshold and trigger semantics across detection and recovery domains."
+
+[taxonomies]
+tags = ["glossary-bridge", "kompendium", "interactive"]
+
 [extra]
 category = "kompendium-bridge"
-description = "Bridge entry for threshold and trigger semantics across detection and recovery domains."
 related_terms = ["bridge-agent", "bridge-3nl", "bridge-autoheal", "bridge-aiad", "bridge-autoevolve", "bridge-anankasticky-rezim"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "kompendium", "interactive"]
 quality_score = 75
 +++
 

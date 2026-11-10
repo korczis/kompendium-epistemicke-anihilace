@@ -2,9 +2,11 @@
 title = "EA-2.3.5 Pseudo-kontroverze Amplifikace"
 description = "Delegitimizační technika — Pseudo-kontroverze Amplifikace."
 weight = 2305
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-3-5", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-3-3-quote-mining", "ea-2-3-4-mob-coordination", "ea-2-3-6-platform-coordinated-attack", "ea-2-3-7-deepfake-personalni"]
 parent = "kompendium-techniques"

@@ -1,9 +1,13 @@
 +++
 title = "Passive Synthesis / Pasivní syntéza"
 weight = 50
+description = "Husserlian concept: pre-reflective constitution of meaning at the perceptual level."
+
+[taxonomies]
+tags = ["glossary", "philosophy", "interactive"]
+
 [extra]
 category = "philosophy"
-description = "Husserlian concept: pre-reflective constitution of meaning at the perceptual level."
 related_terms = [
   "intencionalita",
   "husserl-retence",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "philosophy", "interactive"]
 quality_score = 75
 +++
 

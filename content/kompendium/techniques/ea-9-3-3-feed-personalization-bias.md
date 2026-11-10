@@ -2,9 +2,11 @@
 title = "EA-9.3.3 Feed Personalization Bias"
 description = "Současná digitální EA — feed personalization bias."
 weight = 933
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-3-10-trend-manipulation-EA", "ea-9-3-2-engagement-optimization-EA", "ea-9-3-4-recommendation-radicalization", "ea-9-3-5-shadowban-coordination"]
 parent = "kompendium-techniques"

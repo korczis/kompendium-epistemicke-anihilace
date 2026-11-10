@@ -2,9 +2,11 @@
 title = "Bridge: gray-team"
 description = "Glossary bridge — propojeni kompendia s glossary entry gray-team."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "gray-team", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-gestalt-shift", "bridge-gish-gallop", "bridge-greynoise", "bridge-hawkeye"]
 parent = "kompendium-glossary-bridges"

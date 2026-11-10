@@ -1,14 +1,17 @@
 +++
 title = "Epistemicka Monokultura"
 weight = 100
+description = "Epistemicka Monokultura — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Epistemicka Monokultura — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
 related_terms = ["adversarial-drift", "adaptive-learning", "adversarial-conditions", "accuracy", "adapter-pattern", "3nl"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 ref_count_at_creation = 1
 +++

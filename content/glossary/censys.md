@@ -1,9 +1,13 @@
 +++
 title = "Censys"
 weight = 9
+description = "Internet-wide scan data platform providing comprehensive visibility into hosts, certificates, and services across the public internet."
+
+[taxonomies]
+tags = ["glossary", "security", "censys", "prismatic"]
+
 [extra]
 category = "security"
-description = "Internet-wide scan data platform providing comprehensive visibility into hosts, certificates, and services across the public internet."
 related_terms = ["shodan", "easm", "signal-plurality", "attack-surface", "greynoise", "tls", "risk-score"]
 tier = "TIER 1"
 domain = "Security Intelligence"
@@ -28,7 +32,6 @@ word_count = 1769
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Censys", "Internet-wide", "glossary", "security", "Prismatic Platform", "ZMap"]
-tags = ["glossary", "security", "censys", "prismatic"]
 quality_score = 90
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

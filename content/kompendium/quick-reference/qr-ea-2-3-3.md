@@ -2,9 +2,11 @@
 title = "QR: EA-2.3.3 Quote mining"
 description = "Rychla referencni karta pro EA-2.3.3 (delegitimizace)."
 weight = 30233
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-3-3", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-3-10", "qr-ea-2-3-2", "qr-ea-2-3-4", "qr-ea-2-3-5"]
 parent = "kompendium-quick-reference"

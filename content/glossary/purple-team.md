@@ -1,8 +1,12 @@
 +++
 title = "Purple Team"
 weight = 21
-[extra]
 description = "Central synthesis hub with sole authority for Red-Blue loop closure and security finding resolution"
+
+[taxonomies]
+tags = ["glossary", "security", "purple-team", "prismatic"]
+
+[extra]
 category = "security"
 related_terms = ["color-teams", "red-team", "blue-team", "trinity-gate", "regression-test", "white-team", "black-team", "gray-team"]
 platform_relevance = "critical"
@@ -30,7 +34,6 @@ word_count = 2000
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Purple", "Team", "Central", "Red-Blue", "glossary", "security", "Prismatic Platform", "Purple Team", "Red Team", "Blue Team"]
-tags = ["glossary", "security", "purple-team", "prismatic"]
 quality_score = 90
 image = "/images/sections/glossary.png"
 image_alt = "Purple Team - Prismatic Platform"

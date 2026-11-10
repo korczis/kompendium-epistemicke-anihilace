@@ -2,9 +2,13 @@
 title = "Lebenswelt"
 weight = 60
 
+description = "Husserlian 'lifeworld' — the pre-theoretical horizon of taken-for-granted experience that grounds all higher cognition. Damage to lifeworld is the deepest stratum of epistemic annihilation."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "phenomenology"]
+
 [extra]
 category = "epistemic"
-description = "Husserlian 'lifeworld' — the pre-theoretical horizon of taken-for-granted experience that grounds all higher cognition. Damage to lifeworld is the deepest stratum of epistemic annihilation."
 related_terms = ["epistemicka-anihilace", "intentionalita", "embodied-cognition", "kognitivni-anihilace", "narrative-trauma", "metakognice"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 550
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["lebenswelt", "lifeworld", "Husserl", "Crisis of European Sciences", "pre-theoretical", "horizon"]
-tags = ["glossary", "epistemic", "philosophy", "phenomenology"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

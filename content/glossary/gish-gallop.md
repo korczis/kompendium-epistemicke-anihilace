@@ -2,9 +2,13 @@
 title = "Gish Gallop"
 weight = 60
 
+description = "Rhetorical technique of overwhelming an opponent with a rapid succession of low-quality arguments, exploiting the asymmetric time cost of refutation versus assertion."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "manipulace", "kompendium"]
+
 [extra]
 category = "epistemic"
-description = "Rhetorical technique of overwhelming an opponent with a rapid succession of low-quality arguments, exploiting the asymmetric time cost of refutation versus assertion."
 related_terms = ["firehose-of-falsehood", "info-ops", "epistemicka-anihilace", "taxonomie-ea", "epistemic-security", "delegitimizace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["Gish Gallop", "Duane Gish", "rhetorical fallacy", "Brandolini's law", "asymmetric refutation", "debate technique"]
-tags = ["glossary", "epistemic", "manipulace", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

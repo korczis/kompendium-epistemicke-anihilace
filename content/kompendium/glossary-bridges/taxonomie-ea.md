@@ -1,9 +1,13 @@
 +++
 title = "Taxonomie EA / Taxonomy of Epistemic Annihilation"
 weight = 50
+description = "Hierarchical classification of manipulation patterns across cognitive, emotional, behavioral, and pre-conceptual domains."
+
+[taxonomies]
+tags = ["glossary-bridge", "architecture", "interactive"]
+
 [extra]
 category = "architecture"
-description = "Hierarchical classification of manipulation patterns across cognitive, emotional, behavioral, and pre-conceptual domains."
 related_terms = [
   "bridge-nclb",
   "bridge-nabla",
@@ -13,7 +17,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "architecture", "interactive"]
 quality_score = 75
 +++
 

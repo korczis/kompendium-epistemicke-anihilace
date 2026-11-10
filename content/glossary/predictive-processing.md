@@ -2,9 +2,13 @@
 title = "Predictive Processing"
 weight = 60
 
+description = "Friston/Clark's predictive coding framework: cognition as hierarchical Bayesian prediction-error minimization; epistemic annihilation reframed as adversarial manipulation of priors and precision-weighting."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "cognitive-science"]
+
 [extra]
 category = "epistemic"
-description = "Friston/Clark's predictive coding framework: cognition as hierarchical Bayesian prediction-error minimization; epistemic annihilation reframed as adversarial manipulation of priors and precision-weighting."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce", "nabla-infinity", "epistemic-pipeline"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 520
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["predictive processing", "predictive coding", "Friston", "Andy Clark", "free energy principle", "Bayesian brain", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "cognitive-science"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

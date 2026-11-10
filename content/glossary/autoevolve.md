@@ -1,9 +1,13 @@
 +++
 title = "AutoEvolve"
 weight = 60
+description = "Autonomous platform improvement system for continuous quality advancement through detection, application, and validation of verified enhancements."
+
+[taxonomies]
+tags = ["evolution", "automation", "quality", "self-improvement", "consciousness", "CASCADE"]
+
 [extra]
 category = "evolution"
-description = "Autonomous platform improvement system for continuous quality advancement through detection, application, and validation of verified enhancements."
 related_terms = ["autoheal", "cascade", "cascade-pattern", "clean-run", "qdp", "consciousness-traits", "self-healing", "supervisor", "agent-registry", "agent-tier", "mix-task", "dialyzer", "formal-verification", "quality-gates", "quality-dna"]
 keywords = ["autoevolve", "autonomous evolution", "platform improvement", "fitness score", "generation advancement", "quality automation", "CASCADE patterns"]
 use_cases = ["Anti-pattern elimination", "Spec completion", "Performance optimization", "Code organization", "Test enhancement", "Dependency cleanup"]
@@ -16,7 +20,6 @@ version = "1.0.0"
 date_created = "2026-02-22"
 date_updated = "2026-02-22"
 authors = ["Tomas Korcak"]
-tags = ["evolution", "automation", "quality", "self-improvement", "consciousness", "CASCADE"]
 prerequisites = ["understanding of quality gates", "familiarity with CASCADE patterns", "OTP/Elixir knowledge"]
 estimated_reading_time = "14 minutes"
 related_apps = ["prismatic_safety", "prismatic_claude", "prismatic_agents", "prismatic"]

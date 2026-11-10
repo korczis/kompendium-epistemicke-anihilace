@@ -1,9 +1,13 @@
 +++
 title = "Epistemické trauma / Epistemic Trauma"
 weight = 50
+description = "Damage to knowledge-acquisition systems, belief formation, and reality-testing mechanisms."
+
+[taxonomies]
+tags = ["glossary-bridge", "philosophy", "interactive"]
+
 [extra]
 category = "philosophy"
-description = "Damage to knowledge-acquisition systems, belief formation, and reality-testing mechanisms."
 related_terms = [
   "bridge-nclb",
   "bridge-nabla",
@@ -13,7 +17,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "philosophy", "interactive"]
 quality_score = 75
 +++
 

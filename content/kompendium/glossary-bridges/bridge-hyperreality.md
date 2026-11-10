@@ -2,9 +2,11 @@
 title = "Bridge: hyperreality"
 description = "Glossary bridge — propojeni kompendia s glossary entry hyperreality."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "hyperreality", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-hawkeye", "bridge-hermeneutika", "bridge-iatrogenic-harm", "bridge-ideal-speech-situation"]
 parent = "kompendium-glossary-bridges"

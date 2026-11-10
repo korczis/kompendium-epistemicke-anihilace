@@ -3,10 +3,12 @@ title = "Boundary Ethics & Protection Philosophy"
 description = "The moral imperative of technical, legal, and conceptual boundaries in software development - how constraints preserve semantic integrity, protect authorial intent, and enable authentic creative expression."
 weight = 20
 
+[taxonomies]
+tags = ["philosophy", "ethics", "boundaries", "ghl", "sovereignty"]
+
 [extra]
 # Taxonomies moved to extra section for section files
 keywords = ["boundary ethics", "protection philosophy", "semantic integrity", "technical boundaries", "legal boundaries", "conceptual boundaries", "software protection"]
-tags = ["philosophy", "ethics", "boundaries", "ghl", "sovereignty"]
 categories = ["foundations"]
 
 # Core metadata

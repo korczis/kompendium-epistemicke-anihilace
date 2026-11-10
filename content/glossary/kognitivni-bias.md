@@ -2,9 +2,13 @@
 title = "Kognitivní bias"
 weight = 60
 
+description = "Systematické odchylky lidského úsudku od normativní racionality; primární útočná plocha, kterou techniky epistemické anihilace cíleně využívají."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "cognitive", "decision"]
+
 [extra]
 category = "epistemic"
-description = "Systematické odchylky lidského úsudku od normativní racionality; primární útočná plocha, kterou techniky epistemické anihilace cíleně využívají."
 related_terms = ["konfirmacni-bias", "epistemicka-anihilace", "metakognice", "taxonomie-ea", "kognitivni-anihilace", "decision-engine"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 680
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["kognitivní bias", "cognitive bias", "rozhodování", "manipulace", "kompendium", "decision quality"]
-tags = ["glossary", "epistemic", "cognitive", "decision"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

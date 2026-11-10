@@ -2,9 +2,13 @@
 title = "Fenomenologie"
 weight = 60
 
+description = "Husserlovská disciplína studia struktur prožívání z první osoby; základní metodologie detekce epistemické anihilace, protože data o EA jsou strukturálně subjektivní."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "first-person"]
+
 [extra]
 category = "epistemic"
-description = "Husserlovská disciplína studia struktur prožívání z první osoby; základní metodologie detekce epistemické anihilace, protože data o EA jsou strukturálně subjektivní."
 related_terms = ["hermeneutika", "epistemicka-anihilace", "metakognice", "epistemicke-trauma", "epistemicka-alienace", "kompendium-ea"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 660
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["fenomenologie", "phenomenology", "Husserl", "první osoba", "intencionalita", "kompendium"]
-tags = ["glossary", "epistemic", "philosophy", "first-person"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

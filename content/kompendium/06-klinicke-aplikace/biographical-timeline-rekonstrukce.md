@@ -1,14 +1,17 @@
 +++
 title = "Biographical Timeline Rekonstrukce"
 weight = 100
+description = "Biographical Timeline Rekonstrukce — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Biographical Timeline Rekonstrukce — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["epistemicka-rekonstrukce", "pripad-doktorat", "supervizni-ramce", "observational-assessment", "terapeuticke-pristupy", "diagnosticke-indikatory"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

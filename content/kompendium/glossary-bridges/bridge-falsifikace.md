@@ -2,9 +2,11 @@
 title = "Bridge: falsifikace"
 description = "Glossary bridge — propojeni kompendia s glossary entry falsifikace."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "falsifikace", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-eticky-ramec", "bridge-exit", "bridge-fenomenologie", "bridge-firehose-of-falsehood"]
 parent = "kompendium-glossary-bridges"

@@ -2,9 +2,11 @@
 title = "Gray Team & EA detection"
 description = "Integrace agenta Gray Team s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 15
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "gray-team-ea-edge-cases"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["decision-engine-ea-calibration", "epistemic-pipeline-ea-detection", "hawkeye-ea-visitor-intelligence", "nabla-infinity-ea-pipeline"]
 parent = "kompendium-aiad-integration"

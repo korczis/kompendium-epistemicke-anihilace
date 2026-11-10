@@ -2,9 +2,11 @@
 title = "EA-9.2.9 AI Document Forgery"
 description = "Současná digitální EA — ai document forgery."
 weight = 929
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-2-7-synthetic-witness-testimony", "ea-9-2-8-AI-eyewitness-fabrication", "ea-9-3-1-algorithmic-amplification", "ea-9-3-10-trend-manipulation-EA"]
 parent = "kompendium-techniques"

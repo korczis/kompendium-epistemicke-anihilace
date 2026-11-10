@@ -1,8 +1,12 @@
 +++
 title = "Individual Risk Map"
 weight = 5
-[extra]
 description = "Personalized, evidence-based representation of the specific risks a particular subject — a research participant, transaction principal, key-person investment, or threat target — faces or poses, integrating contextual, demographic, behavioral, and situational factors into an actionable assessment"
+
+[taxonomies]
+tags = ["risk", "ethics", "investigation", "due-diligence", "compliance"]
+
+[extra]
 category = "risk"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "high"
 related_terms = ["risk-assessment", "risk-management", "risk-score", "informed-consent", "irb-review", "due-diligence", "transformative-experience"]
 keywords = ["individual risk map", "personalized risk", "risk profile", "personal risk assessment", "key-person risk", "individualized risk", "risk-benefit analysis", "vulnerability assessment"]
-tags = ["risk", "ethics", "investigation", "due-diligence", "compliance"]
 key_takeaway = "Population-level risk statistics rarely match the actual risk faced by a specific person. An individual risk map integrates the demographic baseline with the subject's specific situation, history, and vulnerabilities to produce a defensible, decision-ready assessment that respects the person rather than aggregating them away."
 see_also = ["irb-review", "informed-consent", "risk-assessment"]
 image = "/images/sections/glossary.png"

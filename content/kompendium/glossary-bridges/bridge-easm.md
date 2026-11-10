@@ -2,9 +2,11 @@
 title = "Bridge: easm"
 description = "Glossary bridge — propojeni kompendia s glossary entry easm."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "easm", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-disociace", "bridge-dual-use-poznani", "bridge-embodied-cognition", "bridge-entity-resolution"]
 parent = "kompendium-glossary-bridges"

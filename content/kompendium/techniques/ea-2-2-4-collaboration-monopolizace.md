@@ -2,9 +2,11 @@
 title = "EA-2.2.4 Collaboration Monopolizace"
 description = "Delegitimizační technika — Collaboration Monopolizace."
 weight = 2204
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-4", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-2-2-mentee-isolation", "ea-2-2-3-thesis-direction-capture", "ea-2-2-5-recommendation-coercion", "ea-2-2-6-time-control-academic"]
 parent = "kompendium-techniques"

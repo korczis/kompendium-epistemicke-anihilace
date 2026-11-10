@@ -2,8 +2,12 @@
 title = "Addiction Recovery"
 weight = 50
 
-[extra]
 description = "The platform's epistemic discipline principle requiring constant vigilance against evidence rationalization, cherry-picking, and premature contradiction resolution, analogous to addiction recovery's perpetual vigilance against relapse."
+
+[taxonomies]
+tags = ["epistemic", "nabla", "doctrine", "quality", "integrity"]
+
+[extra]
 category = "epistemic"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -25,7 +29,6 @@ version_introduced = "gen-8"
 stability_level = "stable"
 testing_scenarios = ["contradiction-suppression-detection", "rationalization-pattern-recognition", "cherry-pick-guard-validation"]
 keywords = ["epistemic hygiene", "evidence integrity", "rationalization prevention", "cognitive bias defense", "contradiction vigilance"]
-tags = ["epistemic", "nabla", "doctrine", "quality", "integrity"]
 related_terms = ["nabla-infinity", "contradiction-preservation", "cherry-picking", "signal-plurality", "evidence-over-opinion", "belief-graph", "confidence-scoring", "trinity-gate", "provenance-mandatory", "epistemic-robustness", "time-decay", "qeve"]
 word_count = 2550
 date_created = "2026-02-23"

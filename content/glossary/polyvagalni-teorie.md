@@ -1,9 +1,13 @@
 +++
 title = "Polyvagal Theory / Polyvagální teorie"
 weight = 50
+description = "Porges' model of autonomic nervous system as graded social-engagement system."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Porges' model of autonomic nervous system as graded social-engagement system."
 related_terms = [
   "interocepce",
   "co-regulation",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

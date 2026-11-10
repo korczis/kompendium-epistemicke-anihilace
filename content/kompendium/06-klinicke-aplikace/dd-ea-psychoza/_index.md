@@ -2,6 +2,7 @@
 title = "Diferenciální diagnostika EA vs. psychóza"
 description = "Příručka pro diferenciální diagnostiku epistemické anihilace oproti primární psychóze"
 weight = 100
+
 [extra]
 draft = false
 stub = true

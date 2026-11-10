@@ -2,9 +2,11 @@
 title = "QR: EA-2.5.4 Radical relativism"
 description = "Rychla referencni karta pro EA-2.5.4 (delegitimizace)."
 weight = 30254
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-5-4", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-5-2", "qr-ea-2-5-3", "qr-ea-2-5-5", "qr-ea-2-5-6"]
 parent = "kompendium-quick-reference"

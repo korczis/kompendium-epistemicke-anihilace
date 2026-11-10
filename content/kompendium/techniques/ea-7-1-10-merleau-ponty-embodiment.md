@@ -2,9 +2,11 @@
 title = "EA-7.1.10 Merleau-Ponty: Embodiment"
 description = "Teoretická reflexe — Merleau-Ponty: Embodiment a vztah k EA."
 weight = 720
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-6-5-9-residential-program-EA", "ea-7-1-1-foucault-power-knowledge", "ea-7-1-2-foucault-discipline", "ea-7-1-3-adorno-instrumental-reason"]
 parent = "kompendium-techniques"

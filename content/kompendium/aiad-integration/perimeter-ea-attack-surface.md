@@ -2,9 +2,11 @@
 title = "Perimeter Agent & EA detection"
 description = "Integrace agenta Perimeter Agent s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 33
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "perimeter-ea-attack-surface"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["operational-execution-ea-deployment", "osint-ea-source-validation", "purple-team-ea-synthesis", "qeve-ea-quality-validation"]
 parent = "kompendium-aiad-integration"

@@ -2,9 +2,11 @@
 title = "EA-2.4.10 Disciplinary Society Capture"
 description = "Delegitimizační technika — Disciplinary Society Capture."
 weight = 2410
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-4-10", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-3-9-sealioning-medialni", "ea-2-4-1-board-capture", "ea-2-4-2-policy-rewriting-skryta", "ea-2-4-3-funding-redirect"]
 parent = "kompendium-techniques"

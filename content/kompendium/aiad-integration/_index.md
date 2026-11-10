@@ -3,6 +3,7 @@ title = "AIAD Integration & EA detection"
 description = "Integrace AIAD agentů Prismatic platformy s kompendium EA taxonomií — jak Color Teams, strategické a doménové agenti detekují a zpracovávají epistemické útoky."
 weight = 90
 sort_by = "weight"
+
 [extra]
 tags = ["kompendium", "aiad-integration", "platform", "agents"]
 categories = ["academic", "platform-integration"]

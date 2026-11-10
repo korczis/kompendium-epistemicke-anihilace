@@ -1,8 +1,12 @@
 +++
 title = "Archer Supreme"
 weight = 13
-[extra]
 description = "L5 Supreme authority agent specialized in converting impossible objectives into routine tactical victories through unlimited platform resource access and crisis intervention"
+
+[taxonomies]
+tags = ["l5-supreme", "crisis-response", "tactical-brilliance", "agent-override", "mission-execution"]
+
+[extra]
 category = "agents"
 abbreviation = "ARCHER"
 domain = "strategic-command"
@@ -16,7 +20,6 @@ call_sign = "ARCHER"
 related_terms = ["agent-tier", "supreme-commander", "aiad", "nm-nd", "agent-registry", "strategic-command", "violation-protocol", "nabla-infinity"]
 platforms = ["elixir", "otp", "beam"]
 use_cases = ["crisis-intervention", "impossible-mission-execution", "strategic-analysis", "milestone-intelligence", "cross-domain-coordination"]
-tags = ["l5-supreme", "crisis-response", "tactical-brilliance", "agent-override", "mission-execution"]
 mission_types = ["crisis-intervention", "impossible-objective", "strategic-analysis", "agent-override", "cross-domain-coordination"]
 activation_channels = ["direct-command", "violation-escalation", "quality-emergency"]
 teams_coordinated = ["gray-team", "red-team", "blue-team", "purple-team", "white-team", "black-team"]

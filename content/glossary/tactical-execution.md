@@ -1,8 +1,12 @@
 +++
 title = "Tactical Execution"
 weight = 16
-[extra]
 description = "L2 Focused domain execution agent tier for specialized operations within the Prismatic Platform's six Color Teams"
+
+[taxonomies]
+tags = ["agents", "security", "color-teams", "architecture", "operations"]
+
+[extra]
 category = "agents"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ importance = "high"
 abbreviation = "L2"
 related_terms = ["agent-tier", "strategic-command", "aiad", "red-team", "blue-team", "white-team", "gray-team", "purple-team", "archer-supreme", "nabla-infinity"]
 keywords = ["tactical execution", "L2 agents", "domain specialists", "color team operations", "agent tier hierarchy", "AIAD specification", "epistemic agents", "security operations"]
-tags = ["agents", "security", "color-teams", "architecture", "operations"]
 platforms = ["elixir", "phoenix", "prismatic"]
 use_cases = ["adversarial-simulation", "defensive-analysis", "formal-verification", "boundary-exploration", "drift-detection"]
 prerequisites = ["aiad", "agent-tier", "color-teams"]

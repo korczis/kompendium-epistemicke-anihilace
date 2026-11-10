@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Zapojení do komunity"
 description = "Praktický návod sebe-obrany — zapojení do komunity."
 weight = 28
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["26-isolation-prevention", "27-mentor-evaluation", "29-conflict-resolution", "3-source-triangulation"]
 parent = "kompendium-self-defense-guides"

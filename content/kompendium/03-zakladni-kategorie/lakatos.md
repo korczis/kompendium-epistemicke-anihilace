@@ -1,14 +1,17 @@
 +++
 title = "Lakatos"
 weight = 100
+description = "Lakatos — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Lakatos — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["fenomenologie", "falsifikovatelnost", "kapitola-1", "somaticke-vektory", "lebenswelt", "intencionalita"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

@@ -2,9 +2,11 @@
 title = "Interní vyšetřování"
 description = "Organizační obrana — interní vyšetřování."
 weight = 320
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["30-rotation-of-roles", "31-incident-response-EA", "33-legal-counsel-engagement", "34-PR-narrative-defense"]
 parent = "kompendium-organizational-defense"

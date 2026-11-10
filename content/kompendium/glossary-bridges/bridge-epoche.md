@@ -2,9 +2,11 @@
 title = "Bridge: epoche"
 description = "Glossary bridge — propojeni kompendia s glossary entry epoche."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "epoche", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-epistemicka-pokora", "bridge-epistemicke-trauma", "bridge-eticky-ramec", "bridge-exit"]
 parent = "kompendium-glossary-bridges"

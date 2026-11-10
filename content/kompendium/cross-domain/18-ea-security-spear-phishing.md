@@ -2,9 +2,11 @@
 title = "EA × Security: AI-Augmented Spear Phishing"
 description = "LLM-crafted spear phishing — EA framework jako last line of defense"
 weight = 180
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["16-ea-dd-confirmation-bias-prevention", "17-ea-security-social-engineering", "19-ea-security-disinformation-defense", "2-ea-osint-czech-ares-validation"]
 parent = "kompendium-cross-domain"

@@ -2,9 +2,11 @@
 title = "Quality Monitor & EA detection"
 description = "Integrace agenta Quality Monitor s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 28
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "quality-monitor-ea-tracking"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["purple-team-ea-synthesis", "qeve-ea-quality-validation", "red-team-ea-detection", "strategic-command-ea-coordination"]
 parent = "kompendium-aiad-integration"

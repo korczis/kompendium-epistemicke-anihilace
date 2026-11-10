@@ -1,14 +1,17 @@
 +++
 title = "Bridge: Readiness Assessment"
 weight = 100
+description = "Bridge entry for readiness assessment patterns in clinical and security contexts."
+
+[taxonomies]
+tags = ["glossary-bridge", "kompendium", "interactive"]
+
 [extra]
 category = "kompendium-bridge"
-description = "Bridge entry for readiness assessment patterns in clinical and security contexts."
 related_terms = ["bridge-autoheal", "bridge-autoevolve", "bridge-aiad", "bridge-3nl", "bridge-agent", "bridge-adapter-pattern"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "kompendium", "interactive"]
 quality_score = 75
 +++
 

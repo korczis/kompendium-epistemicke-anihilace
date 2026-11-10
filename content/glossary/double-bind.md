@@ -1,8 +1,12 @@
 +++
 title = "Double Bind"
 weight = 7
-[extra]
 description = "Communication pattern in which a person receives two or more conflicting messages — typically one verbal and one meta-communicative — such that any response violates one of them, and meta-communication about the bind is itself prohibited"
+
+[taxonomies]
+tags = ["manipulation", "communication", "psychology", "clinical"]
+
+[extra]
 category = "manipulation-pattern"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -14,7 +18,6 @@ date_updated = "2026-05-03"
 importance = "high"
 related_terms = ["gaslighting", "pragmaticka-kompetence", "epistemicke-trauma", "identity-destruction", "reality-testing"]
 keywords = ["double bind", "Bateson", "Palo Alto group", "schizophrenia", "manipulation", "no-win", "communication theory"]
-tags = ["manipulation", "communication", "psychology", "clinical"]
 key_takeaway = "A double bind is not merely a contradiction — it is a contradiction *plus* a prohibition on naming the contradiction. The trap derives its coercive power from the meta-rule that bars escape, not from the conflict itself."
 see_also = ["gaslighting", "pragmaticka-kompetence", "epistemicke-trauma"]
 image = "/images/sections/glossary.png"

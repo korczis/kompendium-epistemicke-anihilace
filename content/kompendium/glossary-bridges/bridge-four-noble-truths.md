@@ -2,9 +2,11 @@
 title = "Bridge: four-noble-truths"
 description = "Glossary bridge — propojeni kompendia s glossary entry four-noble-truths."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "four-noble-truths", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-fenomenologie", "bridge-firehose-of-falsehood", "bridge-gaslighting", "bridge-gestalt-shift"]
 parent = "kompendium-glossary-bridges"

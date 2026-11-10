@@ -2,9 +2,11 @@
 title = "EA-9.2.7 Synthetic Witness Testimony"
 description = "Současná digitální EA — synthetic witness testimony."
 weight = 927
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-2-5-video-manipulation-EA", "ea-9-2-6-AI-news-cascade", "ea-9-2-8-AI-eyewitness-fabrication", "ea-9-2-9-AI-document-forgery"]
 parent = "kompendium-techniques"

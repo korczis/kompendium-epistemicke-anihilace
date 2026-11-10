@@ -1,8 +1,12 @@
 +++
 title = "AIAD"
 weight = 11
-[extra]
 description = "AI-Agent Interface Definition standard governing 404+ platform agents"
+
+[taxonomies]
+tags = ["glossary", "agents", "aiad", "prismatic"]
+
+[extra]
 category = "agents"
 abbreviation = "AIAD"
 related_terms = ["agent-tier", "agent-registry", "nm-nd", "archer-supreme", "ollama", "3nl", "agent", "openapi", "pvm", "rbac", "strategic-command", "supreme-commander", "tactical-execution", "three-nl"]
@@ -12,7 +16,6 @@ word_count = 968
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["AIAD", "AI-Agent", "Interface", "Definition", "glossary", "agents", "Prismatic Platform", "README"]
-tags = ["glossary", "agents", "aiad", "prismatic"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

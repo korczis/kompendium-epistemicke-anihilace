@@ -1,14 +1,17 @@
 +++
 title = "Bridge: Exit Protocols"
 weight = 100
+description = "Bridge entry for exit protocols across kompendium recovery and intervention domains."
+
+[taxonomies]
+tags = ["glossary-bridge", "kompendium", "interactive"]
+
 [extra]
 category = "kompendium-bridge"
-description = "Bridge entry for exit protocols across kompendium recovery and intervention domains."
 related_terms = ["bridge-agent", "bridge-aiad", "bridge-autoheal", "bridge-3nl", "bridge-autoevolve", "bridge-blue-team"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "kompendium", "interactive"]
 quality_score = 75
 +++
 

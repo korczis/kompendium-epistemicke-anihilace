@@ -2,9 +2,11 @@
 title = "EA-2.5.6 Platonic Cave Self"
 description = "Delegitimizační technika — Platonic Cave Self."
 weight = 2506
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-6", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-5-4-radical-relativism-internalize", "ea-2-5-5-bothsidesizm-internalizace", "ea-2-5-7-self-cancelation", "ea-2-5-8-recursive-doubt-spiral"]
 parent = "kompendium-techniques"

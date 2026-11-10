@@ -2,9 +2,11 @@
 title = "EA-9.5.9 Meme Radicalization Pipeline"
 description = "Současná digitální EA — meme radicalization pipeline."
 weight = 959
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-8-meme-context-collapse", "ea-9-6-1-algorithmic-decision-bias", "ea-9-6-10-AI-welfare-decision-EA"]
 parent = "kompendium-techniques"

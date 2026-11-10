@@ -2,9 +2,11 @@
 title = "EA-9.6.2 AI Judgment Laundering"
 description = "Současná digitální EA — ai judgment laundering."
 weight = 962
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-6-1-algorithmic-decision-bias", "ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-3-automated-content-takedown", "ea-9-6-4-AI-deplatforming-cascade"]
 parent = "kompendium-techniques"

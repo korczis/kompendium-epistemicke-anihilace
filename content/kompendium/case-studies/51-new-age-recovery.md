@@ -1,10 +1,12 @@
 +++
-title = "Pripad 51-new-age-recovery: New Age recovery"
-description = "Anonymizovana pripadova studie — New Age recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 51: Zotavení z New Age sítě"
+description = "Anonymizovaná případová studie ženy, kterou decentralizovaná síť New Age učitelů a kurzů odvedla od medicíny až k ohrožení zdraví dítěte."
 weight = 51
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["49-religious-leadership", "50-spiritual-cult-recovery", "52-pseudoscience-recovery", "53-anti-vaxx-recovery"]
 parent = "kompendium-case-studies"
@@ -12,79 +14,166 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 51-new-age-recovery: Zotaveni z New Age site
+# Případová studie 51: Zotavení z New Age sítě
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů. Jména, místa,
+> časové údaje a identifikující detaily jsou změněny. Text je určen kvalifikovaným odborníkům
+> a slouží k rozpoznání, prevenci a léčbě, nikoli jako návod.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 51-new-age-recovery) byla zena ve veku 38 let, ktera se postupne ponorila do site New Age komunit prepojenych pres workshopy, retreaty, online kurzy. Před totalizací vykazovala vystudovaný markeitng, manželství s dětmi, a stabilní střední třídu. Vstupní motivace: hledání smyslu a wellness po vyhoření v korporátě.
+Žena, 38 let, vystudovaná marketingová specialistka, vdaná, dvě děti, stabilní příjem střední
+třídy. Do sítě vstoupila po vyhoření na vedoucí pozici v korporátu (v MKN-11 je vyhoření
+vedeno jako pracovní fenomén QD85, nikoli jako nemoc). Hledala smysl, klid a „něco víc než
+výkon“. Před expozicí neměla psychiatrickou anamnézu, k medicíně přistupovala pragmaticky
+a děti byly očkovány podle kalendáře.
 
-Rizikové faktory: kombinace finanční dispozice ("mohu si dovolit retreaty"), kulturalní legitimace wellness (yoga, mindfulness jsou mainstream), absence jediné konkrétní autority (síť mnoha "učitelů"), a otevřenost vůči alternativám medicíně.
+Rizikové faktory: vyčerpání a ztráta smyslu po vyhoření, finanční možnost platit opakované
+kurzy a pobyty, kulturní legitimita wellness (jóga a mindfulness jsou běžné a samy o sobě
+neškodné) a hlavně **absence jediné autority**. Síť neměla vůdce, kterého by bylo možné
+pojmenovat a odmítnout; tvořilo ji mnoho „učitelů“, kteří se navzájem doporučovali.
 
-## Casova osa expozice
+## Časová osa expozice
 
-| Faze | Trvani | Klicove udalosti |
-|------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-6 | Yoga retreat, "energetické čtení", kvantové uzdravování |
-| **Perturbace** | mesice 7-18 | Stupňování — esoterické workshopy, channeling, akashické záznamy |
-| **Rekonfigurace** | roky 1-3 | Kompletní New Age světonázor, anti-medicínský posun |
-| **Konsolidace** | roky 3-6 | Děti bez očkování, alternativní léčba vážných onemocnění |
-| **Exit / detekce** | rok 6+ | Krize — dítě vážně nemocné, externi konfrontace |
+| Fáze | Trvání | Klíčové události |
+|------|--------|------------------|
+| Vstup | měsíce 1–6 | Jógový pobyt v zahraničí, „energetické čtení“, první skupinové rituály |
+| Prohlubování | měsíce 7–18 | Navazující kurzy (channeling, „akášické záznamy“, stupně reiki), každý „hlubší“ |
+| Přestavba světonázoru | roky 2–3 | Medicína přeznačena na „alopatii“, diagnóza na „energetický blok“ |
+| Konsolidace | roky 3–6 | Odmítnutí očkování mladšího dítěte, vlastní chronické onemocnění léčeno „energií“ |
+| Krize a odchod | rok 6+ | Závažné, léčitelné onemocnění dcery se při alternativní „léčbě“ zhoršuje |
 
-V inicialni fazi byla subjekt přitažena yoga retreatem na exotickém ostrově. Tam se setkala s "energetickým čtenim", "kvantovým uzdravováním", a komunitou nadšených příznivců. Tato faze měla kvalitu pozitivního zážitku.
+Vstupní fáze měla kvalitu úlevy: po letech výkonu zažila přijetí, zpomalení a pocit, že je
+„konečně viděna“. Prohlubování nemělo žádný bod rozhodnutí – každý kurz končil doporučením
+dalšího a výdaje dosáhly desítek tisíc korun ročně. V přestavbě světonázoru se změnil slovník
+dřív než přesvědčení: „alopatie potlačuje symptomy“, „vakcína je toxická zátěž“, „vědecký
+konsenzus je matrix kontroly“. Manžel se postupně stáhl, k rozchodu nedošlo. Zlom přišel, když
+se u dcery projevilo vážné onemocnění, které při bylinách a „čištění energie“ rychle postupovalo.
 
-V perturbacni fazi se prohlubovalo zapojení. Subjekt absolvovala kurzy channelingu, "akashických záznamů", reiki úrovní. Každý kurz vedl k dalšímu, vždy "hlubšímu". Investice byly v desítkách tisíc korun ročně.
+## Projevené EA techniky
 
-Rekonfiguracni faze: subjekt internalizovala kompletní New Age světonázor. Konvenční medicína = "alopatie, která potlačuje symptomy". Vakcinace = "toxické zatížení". Diagnostika = "limitující energetický blok". Vědecký konsenzus = "matrix kontroly".
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  – „kvantové“, „vibrační“ a „energetické“ jako vypůjčená vědecká slova bez obsahu; vytvářejí
+  dojem odbornosti, který nelze ověřit.
+- [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) –
+  lékař „neumí myslet otevřeně“, „léčí jen tělo“; odborná autorita je oslabena předem, než
+  vůbec promluví.
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+  sociální sítě a uzavřené skupiny postupně nahradily všechny jiné zdroje informací o zdraví.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – selhání „léčby“ znamenalo, že „energie ještě není připravená“; neúspěch tedy potvrzoval
+  systém místo toho, aby ho zpochybnil.
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
+  – trvalý strach z „toxického“ světa (potraviny, léky, očkování) střídaný s euforií rituálů.
+- [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)
+  – pocit přístupu ke skryté pravdě, který ostatní „ještě nedorostli“ pochopit.
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  zde v rozptýlené podobě: řetězec učitelů, z nichž každý autorizuje dalšího.
 
-Konsolidacni faze: děti přestaly chodit na očkování. Subjekt sama léčila chronické onemocnění "energií" namísto medikamenty. Manžel se postupně distancoval, ale rozvod neproběhl.
+## Fenomenologický průběh
 
-Exit byl iniciovan kritickou diagnozou u dcery, kterou alternativní metody zhoršily. Setkání s pediatrem, který trval na konvenční léčbě, bylo zlomové.
+V terapii popsala okamžik diagnózy dcery: „První reakce byla: to není pravda, já vidím
+energii. Pak jsem si všimla, že jsem se to naučila říkat. Ten hlas se nepodobal mému. Kdybych
+před deseti lety slyšela, co říkám teď, šokovalo by mě to.“
 
-## EA techniky manifestovane
+Ve výpovědi je patrná [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md):
+dlouho chyběla schopnost vidět vlastní uvažování zvenčí. Zároveň popisuje
+[epistemickou alienaci](@/glossary/epistemicka-alienace.md) – odcizení od způsobů, jimiž
+dříve rozlišovala spolehlivé a nespolehlivé informace. Silná byla také složka
+[spiritual bypassing](@/glossary/spiritual-bypassing.md): bolest, strach i manželský konflikt
+byly přeznačovány na „lekce“ a „bloky“, takže nemohly být řešeny jako skutečné problémy.
+Po odchodu převažoval stud a pocit, že „nemůže věřit vlastnímu úsudku“.
 
-- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "kvantové", "energetické", "vibrační" jako pseudo-vědecké marketing
-- [EA-2.1.1 Expertni disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) — vědci a lékaři "neumí myslet otevřeně"
-- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — algoritmické bubliny posilující New Age content
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — neúspěch alternativní léčby = "tvoje energie není připravena"
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z "toxického" konvenčního světa
-- [EA-5.1.14 Iluzorni transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) — pocit přístupu ke "skryté pravdě"
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — řetězec "učitelů" v síti
+## Detekční bod
 
-## Fenomenologicky kurz
+Viditelným se vzorec stal na pediatrii: lékař trval na standardní léčbě a klidně, bez
+zesměšnění vysvětlil, co se stane bez ní. Matka nejprve odmítala, ale přítomnost manžela a
+konkrétní, časově ohraničené rozhodnutí („dnes večer, nebo zítra ráno“) prolomily rámec.
+Psycholožka, k níž byla následně odkázána, rozpoznala znaky
+[high-control group](@/glossary/high-control-group.md) i v síti bez vůdce.
 
-V terapii subjekt popisovala: "Když dcera dostala diagnozu, první reakce byla 'to není pravda, já vidím energii'. Pak jsem si všimla, že jsem to naučila říkat. Že se ten hlas nepodobá mému. A že kdybych před deseti lety slyšela, co říkám teď, šokovalo by mě to."
+Markery, které byly zpětně dohledatelné: [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md),
+[nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md)
+o zdraví, eskalující výdaje a postupné vymizení dřívějších přátel z jejího života.
 
-Tato narace odpovida [metakognitivni destrukci](@/glossary/metakognitivni-destrukce.md) — neschopnost reflektovat vlastní epistemickou situaci. [Epistemicka alienace](@/glossary/epistemicka-alienace.md) — odcizení od evidenčních metod.
+## Diferenciální diagnostika
 
-## Detekcni bod
+- **Legitimní spirituální praxe a životní změna.** Jóga, meditace či změna hodnot po vyhoření
+  nejsou patologie. Rozhodující je, zda praxe nahrazuje ověřitelnou péči o zdraví, zda je
+  kritika trestána a zda roste finanční a sociální závislost.
+- **Upřímné přesvědčení.** Odlišuje se tím, že snese otázku „co by tě přesvědčilo o opaku?“;
+  zde žádná odpověď neexistovala.
+- **Deprese a vyhoření.** Byly přítomny jako vstupní stav a vyžadovaly samostatnou péči;
+  nevysvětlují však přestavbu kritérií evidence.
+- **Psychotické prožitky.** „Vidění energie“ bylo naučeným popisem skupinové praxe, ne
+  halucinací; testování reality mimo ideologické téma bylo zachováno (viz
+  [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+- **Komplexní PTSD (MKN-11 6B41).** Po odchodu se objevily jen dílčí rysy (stud, narušený
+  sebeobraz); plná kritéria splněna nebyla, proto byla vedena jako hypotéza ke sledování.
 
-Diagnoza dcery a konfrontace s pediatrem. Klicovy moment: psychoterapeut s expertízou v cult recovery identifikoval New Age site jako specificky koercivni structuru s [c-PTSD](@/glossary/c-ptsd.md) markery.
+## Intervenční strategie
 
-## Intervencni strategie
+Postup sledoval [protokol epistemické
+rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md). Jeho stupně (S1
+validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická
+obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu, který proběhl
+v pěti fázích:
 
-**S1 - Stabilizace:** Akutní zdravotní péče dcery, oddělení od New Age site, kontakt s rodinou.
-**S2 - Externi epistemicka kotva:** Cult recovery skupina, vědecká literatura, racionálně-empirické metody.
-**S3 - Epistemicka rekonstrukce:** Práce s evidenčními standardy, falsifikovatelnost, vědeckou metodou.
-**S4 - Vztahova rehabilitace:** Manželská terapie, restituce vztahu s dětmi.
-**S5 - Integrace:** Subjekt se stala obhájkyní vědecky-informované wellness.
+- **Fáze 1 – Stabilizace:** nejprve zdraví dcery a ochrana dalšího dítěte. Lékaři zvažovali
+  i kontakt s orgánem sociálně-právní ochrany dětí; nakonec ho nebylo třeba, protože matka
+  léčbu přijala. Současně byl omezen kontakt se sítí a doplněna očkování.
+- **Fáze 2 – Externí kotva:** praktická lékařka a manžel jako stálí, předvídatelní partneři;
+  skupina pro lidi odcházející z [vysoce kontrolujících prostředí](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md).
+- **Fáze 3 – Rekonstrukce kritérií:** ne vyvracení jednotlivých tvrzení, ale společná práce na
+  otázce, jak poznat, že léčba funguje: kontrolní skupina, placebo, co by znamenalo selhání
+  (viz [falsifikovatelnost](@/glossary/falsifikovatelnost.md)).
+- **Fáze 4 – Vztahy:** párová terapie, obnova důvěry dětí, rozhovor o tom, co matka dělala
+  a proč, přiměřený věku.
+- **Fáze 5 – Integrace:** ponechání toho, co pomáhalo (pohyb, zpomalení, meditace), bez nároků na
+  léčbu nemocí; práce se studem a s otázkou, co v jejím životě vyhoření nahradit.
 
-## Vysledek
+Pro zdravotníky: nepodceňovat rodiče jako „hloupé“, nabízet konkrétní rozhodnutí s jasným
+časem a zaznamenat průběh pro případné další jednání.
 
-Po 36 měsících terapie funkční stabilizace. Restituce manželství, zdraví dcery zajistěno konvenční medicínou. Reziduální: ostuda za rozhodnutí učiněná v období totalizace.
+## Výsledek
 
-## Klinicke pouceni
+Po přibližně 36 měsících funkční stabilizace. Dcera se plně uzdravila standardní léčbou,
+manželství přetrvalo. Reziduálně přetrvává stud za rozhodnutí z období expozice, přecitlivělost
+na jakékoli zdravotní rozhodování a epizody nedůvěry k vlastnímu úsudku. Klientka se od
+spirituality neodvrátila, ale drží ji odděleně od péče o zdraví. Výsledek nelze zobecňovat:
+bez akutní krize dítěte by k odchodu pravděpodobně nedošlo tak rychle.
 
-New Age recovery ukazuje koerci v decentralizované síti — neexistuje jeden guru, ale interlocking systém autorit. Klinik musí rozeznat, že wellness mainstream může být branou do koercivních sítí. Kombinace cognitive-restructuring a trauma terapie je nezbytná. Reformně: vědecká gramotnost a kritické myšlení by měly být součástí preventivní výchovy.
+## Klinické poučení
 
-## Cross-linky
+- Koerce nemusí mít centrum. Decentralizovaná síť vzájemně se doporučujících autorit může
+  vytvořit stejnou uzavřenost jako jeden vůdce, jen hůře pojmenovatelnou.
+- Wellness mainstream je pro některé lidi branou; vstupní praxe sama o sobě není problém,
+  problémem je posun kritérií evidence a ztráta korektivních vztahů.
+- Kombinace kognitivní práce s kritérii evidence a traumaticky informované péče o stud je
+  účinnější než konfrontace fakty.
+- Otevřená otázka: jak včas zachytit ohrožení dětí v rodinách, kde rodič formálně spolupracuje
+  se zdravotníky, ale léčbu v praxi nahrazuje.
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md), [epistemic-bubble](@/glossary/epistemic-bubble.md)
-- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md), [EA-5.1.14](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+## Související
+
+### Techniky
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — jádro uzavřenosti systému
+- [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) — pocit privilegovaného poznání
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — vzorec, zde rozprostřený do sítě
+
+### Glosář
+- [Spiritual bypassing](@/glossary/spiritual-bypassing.md) — přeznačování problémů na duchovní lekce
+- [High-control group](@/glossary/high-control-group.md) — kritéria použitelná i bez vůdce
+- [Iatrogenic harm](@/glossary/iatrogenic-harm.md) — škoda z „léčby“, která léčbou není
+
+### Protokoly a obrana
+- [Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) — rámec S1–S5
+- [Sebe-obrana: Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — práce s kritérii evidence
+- [Děti v EA-emergency](@/kompendium/emergency-protocols/21-children-emergency-EA.md) — když je ohroženo dítě
+
+### Sousední případy
+- [Případ 50: Zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md) — tatáž dynamika s jedním vůdcem
+- [Případ 53: Zotavení z anti-vaxx sítě](@/kompendium/case-studies/53-anti-vaxx-recovery.md) — rodičovská rozhodnutí o očkování
 
 ---
 

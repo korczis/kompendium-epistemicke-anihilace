@@ -1,10 +1,13 @@
 +++
 title = "Red Team"
 weight = 19
-[extra]
 description = "Adversarial simulation team using 5 epistemic attack primitives in sandboxed environments for security validation"
-category = "security"
+
+[taxonomies]
 tags = ["adversarial-security", "epistemic-attacks", "color-teams", "threat-simulation", "sandbox-isolation", "penetration-testing", "attack-taxonomy"]
+
+[extra]
+category = "security"
 related_terms = ["color-teams", "blue-team", "purple-team", "nabla-infinity", "black-team", "gray-team", "tactical-execution", "white-team", "signal-plurality", "trinity-gate"]
 difficulty = "advanced"
 importance = "critical"

@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Hodnocení důkazů"
 description = "Praktický návod sebe-obrany — hodnocení důkazů."
 weight = 2
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["18-shame-resilience", "19-fear-processing", "20-emotional-debt-recognition", "21-boundary-setting"]
 parent = "kompendium-self-defense-guides"

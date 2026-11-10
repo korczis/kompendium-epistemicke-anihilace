@@ -1,10 +1,12 @@
 +++
-title = "Pripad 43-elite-sports-totalizace: Elitni sportovni totalizace"
-description = "Anonymizovana pripadova studie — Elitni sport. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 43: Totalizace v elitním sportu"
+description = "Anonymizovaný kompozit sportovkyně, kterou trenér od dětství vedl k identitě postavené jen na výkonu; po zranění následoval identitní kolaps."
 weight = 43
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["41-medical-residency", "42-military-totalizace", "44-arts-totalizace", "45-celebrity-totalizace"]
 parent = "kompendium-case-studies"
@@ -12,91 +14,185 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 43-elite-sports-totalizace: Elitni sportovni totalizace
+# Případová studie 43: Totalizace v elitním sportu
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů. Sportovní
+> disciplína, klub, soutěže, věkové údaje a další identifikující detaily byly změněny. Text
+> nehodnotí vrcholový sport jako takový, ale vzorec, v němž trenérský vztah přerůstá v kontrolu
+> nad celou identitou dítěte a později dospělé sportovkyně.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 43-elite-sports-totalizace) byl elitni sportovec individualniho disciplinarniho oboru, identifikovany jako talent v deteckem veku (8 let), zarazeny do strukturovaneho juniorskeho programu reprezentace v 12 letech a do A-tymu v 18. Pred totalizaci vykazoval subjekt vysokou vykonovou orientaci, internalizovanou disciplinu, a vytrvalost. Rodinne zazemi bylo podpurne, ale zaroveň silně investovane do sportovni kariery.
+Subjekt byla sportovkyně v individuální disciplíně, vybraná jako talent v osmi letech, ve
+dvanácti zařazená do juniorského reprezentačního programu a v osmnácti do seniorské
+reprezentace. Vykazovala vysokou výkonovou orientaci, sebekázeň a vytrvalost. Rodina byla
+podporující, ale zároveň silně finančně i emočně investovaná do kariéry.
 
-Vstupni motivace byla autenticka — laska ke sportu, radost z vykonu. Rizikove faktory: identifikace s telesnym vykonem jako jedinym zdrojem hodnoty, financni a casova investice rodiny, public image od mladeho veku, a relativni izolace od vrstevniku v ne-sportovnim prostredi. Kulturalni norma "celebrity culture" obklopujici uspesne sportovce eliminovala kritiku trenera jako tabuizovane chovani.
+Vstupní motivace byla autentická – láska ke sportu a radost z pohybu. Rizikové faktory se
+skládaly postupně: hodnota odvozovaná od tělesného výkonu, investice rodiny, veřejný obraz
+od dětského věku a relativní izolace od vrstevníků mimo sport. Prostředí, které úspěšné
+sportovce obklopuje obdivem, navíc z kritiky trenéra dělalo tabu – kdo pochyboval, zpochybňoval
+i úspěch, na kterém se podílela celá rodina.
 
-## Casova osa expozice
+## Časová osa expozice
 
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | roky 1-3 (vek 8-11) | Identifikace talentu, "ty jsi vyjimecny" |
-| **Perturbace** | roky 4-8 (vek 12-16) | Intenzivni trenink, vytah z bezne skoly, izolace |
-| **Rekonfigurace** | roky 9-14 (vek 17-22) | Plna totalizace, identita = sport |
-| **Konsolidace** | roky 15-22 (vek 23-30) | Performance peaks, somaticka dekompenzace |
-| **Exit / detekce** | rok 22+ (vek 30+) | Zraneni / konec kariery, identitni krize |
+| **Iniciální kontakt** | věk 8–11 | výběr talentu, „jsi výjimečná“, trenér jako ústřední dospělý |
+| **Perturbace** | věk 12–16 | intenzivní trénink, individuální studijní plán, odchod ze třídy, izolace |
+| **Rekonfigurace** | věk 17–22 | plná totalizace, identita rovná se výkon a pořadí |
+| **Konsolidace** | věk 23–30 | vrcholné výsledky, chronická zranění, porucha příjmu potravy |
+| **Exit / detekce** | věk 30+ | kariéru ukončující zranění, identitní krize, hospitalizace |
 
-V inicialni fazi byl subjekt identifikovan jako "vyjimecny" trenerem s mezinarodni reputaci. Ramec "ty jsi vyjimecny, ja te povedu" vytvoril asymetricky vztah s vysokou emocni investici. Treninkove davky byly stupnovane v ramci toho, co ditě zvladne — ale zaroven s implicitnim ocekavanim, ze "vyjimecni nemaji limit".
+V iniciální fázi si subjekt vybral trenér s mezinárodní pověstí. Rámec „jsi výjimečná, já tě
+povedu“ vytvořil asymetrický vztah s vysokou emoční investicí. Tréninkové dávky odpovídaly tomu,
+co dítě zvládne, ale nesly implicitní sdělení, že „výjimeční nemají limity“.
 
-Perturbacni faze: subjekt prerusil bezne docházky do skoly, prosel na individualni studium kompatibilni s treninkovymi potrebami, a presunul socialni svet do sportovniho stredisku. Zdroj vsech dospelacskych vztahu se redukoval na trenera, fyzioterapeuta a vyber kolegu z reprezentace. Verejna kritika trenera byla v rodinnem kontextu rekonceptualizovana jako "ty mu nerozumis, on zna, co dela".
+V perturbační fázi subjekt přešla na individuální studijní plán a sociální svět se přesunul do
+sportovního střediska. Okruh dospělých se zúžil na trenéra, fyzioterapeuta a několik
+reprezentačních kolegyň. Když se objevila veřejná kritika trenérových metod, rodina ji
+přerámovala: „Ty mu nerozumíš, on ví, co dělá.“
 
-Rekonfiguracni faze prinesla plnou totalizaci. Subjekt definoval sebe pres pozici v zebricku, vykony, a vztah s trenerem. Romanticke vztahy byly velmi limitovane — partneri byli "rozptyleni", nesportovci "nepochopi". Identita = vykon. Kazdy zlepsny vykon byl validaci, kazda regrese byla osobni krize.
+V rekonfigurační fázi subjekt definovala sebe sama pozicí v žebříčku, výkony a vztahem
+s trenérem. Partnerské vztahy byly „rozptýlení“, nesportovci „to nepochopí“. Každé zlepšení bylo
+validací, každá stagnace osobní krizí.
 
-Konsolidacni faze prinesla performance peaks — medaile, smlouvy, sponzorstvi — a soucasne somaticka dekompenzace: chronicke zraneni, opakovane operacni zakroky, hormonalni dysregulace, poruchy prijmu potravy (subjekt zenske pohlavi). Treneruv ramec: "boj ti pomuze", "vsichni elitni sportovci to maji", "nebud slaba".
+Konsolidace přinesla vrcholné výsledky – medaile, smlouvy, sponzory – a současně tělesnou
+dekompenzaci: chronická zranění, opakované operace, hormonální dysregulaci a poruchu příjmu
+potravy. Trenérův rámec zněl: „Překonej to“, „mají to všichni“, „nebuď slabá“. Exit přišel
+s kariéru ukončujícím zraněním ve třiceti letech; následovaly suicidální myšlenky, relaps poruchy
+příjmu potravy a nadužívání alkoholu.
 
-Exit byl iniciovan zranenim, ktere vyrazilo subjekt z aktivni kariery v 30 letech. Akutni krize zahrnovala suicidalni ideace, eating disorder relaps, abuse alkoholu. Externi konfrontace prisla od byvale spoluhrace, ktera prosla podobnym exitem.
+## Projevené EA techniky
 
-## EA techniky manifestovane
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  trenér jako jediná legitimní autorita nad tělem, časem i hodnotami.
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) –
+  strach z neúspěchu splynul se strachem ze ztráty vlastní hodnoty a trenérovy přízně.
+- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) –
+  pověst a výsledky trenéra sloužily jako argument proti jakékoli námitce.
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+  jiné životní dráhy byly filtrovány jako „nic pro výjimečné“.
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – bolest,
+  hlad a vyčerpání přerámovány jako „boj“ a „charakter“.
+- [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) – slovo
+  „selhání“ nabylo existenciální váhy a pohltilo ostatní významy.
+- [EA-5.3.14 Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md) –
+  tělesné signály (bolest, hlad, únava) byly přeznačeny jako slabost, kterou je třeba ignorovat.
+- [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) –
+  nesportovní identita se vůbec nevytvořila.
 
-V tomto pripadu byly identifikovany nasledujici EA kody:
+Specifikum elitního sportu: vztah trenér–sportovec je legitimně náročný a dětský začátek
+kariéry je v mnoha disciplínách nutný. Rozhodující je, zda program chrání vývoj osobnosti mimo
+sport, respektuje tělesné signály a umožňuje dítěti i rodině říct „ne“ bez ztráty místa.
 
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — trener jako absolutni epistemicka autorita
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z neuspesnosti = strach ze ztraty hodnoty
-- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — autorita trenera nezpochybnitelná diky reputaci
-- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — alternativni zivotni drahy filtrovany jako "ne pro vyjimecne"
-- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — neexistence ne-sportovni identity
-- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — somaticke symptomy preramovany jako "boj"
-- [EA-5.1.4 Semanticka imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) — slovo "selhani" zatizene existencialni vahou
+## Fenomenologický průběh
 
-Specifikum elitniho sportu: trenink-vykon vztah je legitimne narocny. Diferenciace zdravoho narocneho sportu od totalizace vyzaduje pozornost na celozivotni rezilienci sportovce, nikoliv pouze na medaile.
+V terapii subjekt popisovala: „Po zranění jsem nebyla nikdo. Doslova. Nevěděla jsem, co dělat
+s časem. Co je ráno, když není trénink? Kdo jsem, když není výkon? Celý den jsem koukala do
+stropu a nebyla si jistá, že já jsem já.“
 
-## Fenomenologicky kurz
+Popis odpovídá úplné [identitní dezintegraci](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+– chyběl jakýkoli referenční rámec mimo výkon – a [epistemické alienaci](@/glossary/epistemicka-alienace.md):
+neschopnosti interpretovat realitu jinak než trenérovým slovníkem. Tělo bylo prožíváno jako
+nástroj, ne jako vlastní; v terapii se to ukazovalo jako výrazně oslabená [interocepce](@/glossary/interocepce.md).
 
-V terapii subjekt popisoval: "Po zraneni jsem nebyla nikdo. Doslova nikdo. Kdyz jsem nemohla trenovat, nevedela jsem, co mam delat s casem. Co je rano, kdyz neni trenink? Kdo jsem, kdyz neni vykon? Cely den jsem se kouala na strop a nebyla jsem si jista, ze ja jsem ja."
+Později přišla vrstva zrady: „Nejtěžší bylo přijmout, že mi trenér nepomohl, že mě spotřeboval.
+Byla jsem projekt, ne člověk. A opustil mě ve chvíli, kdy jsem přestala vyhrávat.“ Strukturu
+popisuje [betrayal trauma](@/glossary/betrayal-trauma.md) i [traumatické pouto](@/glossary/trauma-bonding.md),
+které vzniklo střídáním výjimečného uznání a tvrdé deprivace.
 
-Tento popis odpovida kompletni [identitni dezintegraci](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — subjekt nedisponoval zadnym referencnim ramcem mimo sportovni vykon. Soucasne [epistemicka alienace](@/glossary/epistemicka-alienace.md) — neschopnost interpretovat realitu mimo metaforicky a slovni rejstrik trenera.
+## Detekční bod
 
-V pozdejsi fazi: "Nejtezsi bylo prijmout, ze trener mi nepomohl. Ze on me uspechal. Ze jsem byla pro nej projekt, ne osoba. A ze on me opustil v moment, kdy uz jsem nemohla vyhravat."
+Suicidální krize čtrnáct měsíců po zranění; hospitalizaci iniciovala bývalá spoluhráčka, která
+prošla podobným odchodem. Psycholožka se zkušeností ze sportovní psychologie identifikovala
+[C-PTSD](@/glossary/c-ptsd.md) s poruchou příjmu potravy a problematickou vazbou k autoritám,
+nikoli „pouze“ vyhoření sportovce.
 
-## Detekcni bod
+Zpětně byly patrné markery: [fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md)
+při každé výkonové stagnaci, normalizace bolesti a hladu, izolace od vrstevníků už v pubertě
+a rodinná loajalita, která kritiku trenéra znemožňovala.
 
-Suicidalni krize 14 mesicu po zraneni. Hospitalizace iniciovana intervenci byvale spoluhracky. Klicovy moment: psycholog s sportovni psychologickou expertizou identifikoval [c-PTSD](@/glossary/c-ptsd.md) s eating disorder a problematickou attachment k autorita-figuram, ne klasicky athlete burnout.
+## Diferenciální diagnostika
 
-## Intervencni strategie
+- **Náročný, ale zdravý sportovní program:** pracuje s regenerací, výživou a psychologickou
+  podporou, respektuje vzdělání a vztahy mimo sport; kritika trenéra nevede k vyloučení.
+- **Vyhoření sportovce:** sdílí vyčerpání a ztrátu motivace, ale nevysvětluje disociativní
+  prožívání těla, traumatické pouto k trenérovi a hloubku identitního kolapsu.
+- **Porucha příjmu potravy jako primární diagnóza:** byla přítomna a vyžadovala samostatnou
+  léčbu; v tomto případě však byla součástí širšího vzorce kontroly nad tělem.
+- **Reakce na ztrátu (konec kariéry):** smutek po konci kariéry je normativní; patologická je
+  absence jakékoli identity, ke které by se dalo vrátit.
+- **Zneužívání v rámci sportu:** u každého podobného případu je nutné citlivě prověřit, zda
+  součástí vztahu nebylo i [zneužívání dítěte](@/glossary/child-grooming.md); zde zjištěno nebylo,
+  vyloučit ho ale bez cílené explorace nelze.
 
-Aplikovany protokol [epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md):
+## Intervenční strategie
 
-**S1 - Stabilizace:** Hospitalizace, eating disorder treatment, krize intervence.
+Použit byl [protokol epistemické
+rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md). Jeho stupně (S1
+validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická
+obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu, který proběhl
+v pěti fázích:
 
-**S2 - Externi epistemicka kotva:** Kontakt s byvalymi sportovci v post-kariera, peer mentoring, ne-sportovni socialni vztahy.
+**Fáze 1 – Stabilizace:** hospitalizace, specializovaná léčba poruchy příjmu potravy, krizová
+intervence a bezpečnostní plán.
 
-**S3 - Identitni rekonstrukce:** Hledani autenticke identity nezavislé na sportovnim vykonu, mapovani osobnich hodnot mimo medailove pozice.
+**Fáze 2 – Externí epistemická kotva:** kontakt s bývalými sportovci po konci kariéry, peer
+mentoring a první vztahy, které se netýkaly sportu.
 
-**S4 - Profesni rekontextualizace:** Postupny prechod k roli mimo aktivni sport — sportovni psychologie, koucink (s informovanou eticka strukturou).
+**Fáze 3 – Identitní rekonstrukce:** hledání hodnot a zájmů nezávislých na výkonu, práce s tělem
+jako s vlastním (viz [tělesně orientovaná terapie](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md)),
+[obnova smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md).
 
-**S5 - Integrace:** Subjekt se stala advokátkou reformy juniorskych programu a poradkynou pro sportovce v kariera transition.
+**Fáze 4 – Profesní rekontextualizace:** postupný přechod k roli mimo aktivní sport – studium
+sportovní psychologie, trenérství v programu s jasnými etickými pravidly a supervizí.
 
-## Vysledek
+**Fáze 5 – Integrace:** subjekt se stala poradkyní sportovců při ukončování kariéry a zapojila se
+do diskuse o ochraně dětí v juniorských programech.
 
-Po 30 mesicich strukturovane terapie dosahla subjekt funkcni stabilizace. Reziduálni: hypervigilance ohledne body image, perfekcionisticke tendence, intermittentni eating disorder relapses. Schopnost stabilniho partnerskeho vztahu, formace ne-sportovni identity, profesni angazma v reformne orientovane praci.
+## Výsledek
 
-## Klinicke pouceni
+Po třiceti měsících strukturované terapie dosáhla funkční stabilizace. Reziduálně přetrvává
+zvýšená citlivost na tělesný obraz, perfekcionistické tendence a občasné relapsy poruchy příjmu
+potravy, které již zvládá včas rozpoznat. Žije ve stabilním partnerském vztahu, buduje
+nesportovní identitu a pracuje v oblasti, kterou si vybrala sama.
 
-Elitni sportovni totalizace ukazuje, jak legitimni vykonovy ramec muze byt instrumentalizovan jako koerce. Klicovy diagnosticky moment: stav sportovce po ukonceni aktivni kariery. Vsichni elitni sportovci jsou rizikovou skupinou, ale prevalence c-PTSD je v sub-populaci s autoritarnimi trenery vyrazne vyssi. Klinik musi rozpoznat, ze "athlete burnout" v elitnim kontextu casto maskuje hluboky [epistemicke trauma](@/glossary/epistemicke-trauma.md) s identitni dezintegraci. Reformni implikace: junior programy potrebuji systematicky podporit ne-sportovni identitu sportovce.
+## Klinické poučení
 
-## Cross-linky
+Klíčovým diagnostickým momentem je stav sportovce po ukončení aktivní kariéry; právě tehdy se
+ukáže, zda kromě výkonu existuje identita, ke které se lze vrátit. Klinik by za „vyhořením“
+vrcholového sportovce měl aktivně hledat [epistemické trauma](@/glossary/epistemicke-trauma.md)
+s identitní dezintegrací a [perfekcionismus](@/glossary/perfekcionismus.md) jako naučenou
+strategii přežití, ne jako povahový rys.
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md)
-- **Techniques**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md), [EA-5.1.4](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+Preventivně potřebují juniorské programy systémovou ochranu dítěte: oddělení trenérské role od
+rozhodování o vzdělání a zdraví, nezávislou kontaktní osobu, podporu nesportovní identity
+a vzdělávání rodičů (viz [ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md)
+a [budování dětské reziliencie](@/kompendium/prevention-resilience/1-childhood-resilience-foundation.md)).
+Otevřenou otázkou zůstává, jak tyto pojistky zavést v disciplínách, kde úspěch vyžaduje
+extrémně raný začátek.
+
+## Související
+
+### Techniky
+- [EA-5.3.14 Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md) – přeznačení tělesných signálů na slabost
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – trenér jako absolutní autorita
+
+### Glosář
+- [Trauma bonding](@/glossary/trauma-bonding.md) – pouto vzniklé střídáním uznání a deprivace
+- [Perfekcionismus](@/glossary/perfekcionismus.md) – naučená strategie přežití
+- [Interocepce](@/glossary/interocepce.md) – oslabené vnímání vlastního těla
+
+### Protokoly a obrana
+- [Ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md) – právní rámec u nezletilých sportovců
+- [Budování dětské reziliencie](@/kompendium/prevention-resilience/1-childhood-resilience-foundation.md) – prevence v juniorských programech
+- [Hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md) – jak posoudit trenérský vztah
+
+### Sousední případy
+- [Případ 18: Fitness kult](@/kompendium/case-studies/18-fitness-cult.md) – kontrola nad tělem v komerčním prostředí
+- [Případ 30: Hudební konzervatoř](@/kompendium/case-studies/30-music-conservatory-coercion.md) – raná výkonová socializace v umění
+- [Případ 44: Totalizace v umění](@/kompendium/case-studies/44-arts-totalizace.md) – mistr a žák jako paralela trenéra a sportovce
 
 ---
 

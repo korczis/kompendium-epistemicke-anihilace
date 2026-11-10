@@ -2,6 +2,7 @@
 title = "Klinika"
 description = "Předpokládaná sekce s klinickými indikátory"
 weight = 100
+
 [extra]
 draft = false
 stub = true

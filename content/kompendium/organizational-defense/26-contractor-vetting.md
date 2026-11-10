@@ -2,9 +2,11 @@
 title = "Prověřování kontraktorů"
 description = "Organizační obrana — prověřování kontraktorů."
 weight = 260
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["24-documentation-standards", "25-vendor-management-EA", "27-information-classification", "28-access-control-EA"]
 parent = "kompendium-organizational-defense"

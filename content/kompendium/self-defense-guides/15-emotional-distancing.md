@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Emoční odstup"
 description = "Praktický návod sebe-obrany — emoční odstup."
 weight = 15
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["13-somatic-awareness", "14-grounding-techniques", "16-self-compassion", "17-anger-management"]
 parent = "kompendium-self-defense-guides"

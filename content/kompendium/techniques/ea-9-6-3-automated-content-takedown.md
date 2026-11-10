@@ -2,9 +2,11 @@
 title = "EA-9.6.3 Automated Content Takedown"
 description = "Současná digitální EA — automated content takedown."
 weight = 963
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-2-AI-judgment-laundering", "ea-9-6-4-AI-deplatforming-cascade", "ea-9-6-5-AI-credit-scoring-bias"]
 parent = "kompendium-techniques"

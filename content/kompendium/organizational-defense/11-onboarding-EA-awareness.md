@@ -2,9 +2,11 @@
 title = "Onboarding s EA awareness"
 description = "Organizační obrana — onboarding s ea awareness."
 weight = 110
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["1-board-resilience", "10-stakeholder-engagement", "12-training-resilience", "13-exit-interview-EA"]
 parent = "kompendium-organizational-defense"

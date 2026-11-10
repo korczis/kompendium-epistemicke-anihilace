@@ -1,1 +1,78 @@
-{% extends "section.html" %}
+{% extends "base.html" %}
+{#- Glossary: Pro stat cards, a toolbar (instant filter, category facets, A–Z), and the terms as
+    cards grouped by initial letter. Everything is server-rendered (every term is a crawlable
+    link); static/js/glossary.js only filters what is already on the page. -#}
+{% block content %}
+{%- set doc = section %}
+{% include "partials/header.html" %}
+{%- set g = load_data(path="static/data/glossary.json") -%}
+<div class="space-y-4 px-4 pt-6">
+  <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+    {%- for stat in [["Pojmů", g.terms], ["Kategorií", g.categories | length], ["Slov výkladu", g.words], ["Průměr slov na heslo", g.average_words]] %}
+    <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
+      <h3 class="text-base font-normal text-gray-500 dark:text-gray-400">{{ stat[0] }}</h3>
+      <span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">{{ stat[1] | num_format }}</span>
+    </div>
+    {%- endfor %}
+  </div>
+
+
+  <div class="sticky top-16 z-10 rounded-lg bg-white p-4 shadow dark:bg-gray-800" data-glossary-toolbar>
+    <div class="flex flex-col gap-3 lg:flex-row lg:items-center">
+      <label for="glossary-filter" class="sr-only">Filtrovat pojmy</label>
+      <div class="relative lg:w-96">
+        <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"><svg class="h-4 w-4 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg></div>
+        <input type="search" id="glossary-filter" data-glossary-filter autocomplete="off" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-9 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400" placeholder="Filtrovat pojmy… (klávesa /)">
+      </div>
+      <div class="flex flex-wrap gap-2" role="group" aria-label="Kategorie">
+        <button type="button" data-glossary-cat="" aria-pressed="true" class="rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-900 hover:bg-gray-100 aria-pressed:border-primary-600 aria-pressed:bg-primary-50 aria-pressed:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:aria-pressed:bg-gray-700 dark:aria-pressed:text-white">Vše</button>
+        {%- for cn in g.categories %}{% set c = cn[0] %}
+        <button type="button" data-glossary-cat="{{ c }}" aria-pressed="false" class="rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-900 hover:bg-gray-100 aria-pressed:border-primary-600 aria-pressed:bg-primary-50 aria-pressed:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:aria-pressed:bg-gray-700 dark:aria-pressed:text-white">{{ c }} <span class="ml-1 text-gray-400">{{ cn[1] }}</span></button>
+        {%- endfor %}
+      </div>
+      <span class="text-sm text-gray-500 lg:ml-auto dark:text-gray-400" data-glossary-count aria-live="polite">{{ section.pages | length }} pojmů</span>
+    </div>
+    <nav class="mt-3 flex flex-wrap gap-1 border-t border-gray-200 pt-3 dark:border-gray-700" aria-label="Abecední rejstřík">
+      {%- for ln in g.letters %}{% set l = ln[0] %}
+      <a href="#pismeno-{{ l | slugify }}" data-glossary-letter="{{ l }}" class="inline-flex h-8 w-8 items-center justify-center rounded-lg text-sm font-semibold text-gray-700 hover:bg-primary-50 hover:text-primary-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white" title="{{ ln[1] }} pojmů">{{ l }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+
+  <div data-glossary-list>
+    {%- set_global last = "" -%}
+    {%- for p in section.pages %}
+    {%- set l = p.title | truncate(length=1, end="") | upper %}
+    {%- if l != last %}
+    {%- if last != "" %}</div></section>{% endif %}
+    {%- set_global last = l %}
+    <section id="pismeno-{{ l | slugify }}" data-glossary-group="{{ l }}" class="scroll-mt-48 pt-4">
+      <h2 class="mb-3 flex items-center gap-3 text-2xl font-bold text-gray-900 dark:text-white"><span class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-primary-600 text-white">{{ l }}</span></h2>
+      <div class="grid gap-4 md:grid-cols-2 2xl:grid-cols-3">
+    {%- endif %}
+        {%- set cat = p.extra.category | default(value="") %}
+        <a href="{{ p.permalink }}" data-glossary-term data-category="{{ cat }}" data-hay="{{ p.title | lower }} {{ p.description | default(value='') | lower }} {{ cat }}" class="group flex flex-col rounded-lg border border-gray-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary-700">
+          <span class="flex items-start justify-between gap-3">
+            <span class="text-lg font-semibold text-gray-900 group-hover:text-primary-700 dark:text-white dark:group-hover:text-primary-400">{{ p.title }}</span>
+            {%- if cat %}<span class="shrink-0 rounded-md bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ cat }}</span>{% endif %}
+          </span>
+          {%- if p.description %}<span class="mt-2 line-clamp-3 text-sm text-gray-600 dark:text-gray-400">{{ p.description }}</span>{% endif %}
+          <span class="mt-auto flex flex-wrap gap-3 pt-4 text-xs text-gray-500 dark:text-gray-400">
+            <span>{{ p.word_count }} slov</span><span>{{ p.reading_time }} min čtení</span>
+            {%- if p.backlinks %}<span>{{ p.backlinks | length }} odkazů sem</span>{% endif %}
+          </span>
+        </a>
+    {%- endfor %}
+    {%- if last != "" %}</div></section>{% endif %}
+    <p data-glossary-empty class="hidden rounded-lg bg-white p-6 text-center text-gray-500 shadow dark:bg-gray-800 dark:text-gray-400">Filtru neodpovídá žádný pojem.</p>
+  </div>
+  {%- if section.content | trim %}
+  <article id="o-glosari" class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+    <div class="format format-sm sm:format-base format-blue mx-auto w-full max-w-none dark:format-invert">{{ section.content | safe }}</div>
+  </article>
+  {%- endif %}
+</div>
+{% endblock content %}
+{% block page_scripts %}
+<script src="{{ get_url(path='js/glossary.js', cachebust=true) }}" defer></script>
+{% endblock page_scripts %}

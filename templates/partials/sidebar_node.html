@@ -1,0 +1,59 @@
+{#- One subtree of the sidebar (Pro sidebar dropdown), three levels deep, all derived from
+    static/data/nav.json (scripts/build-graph.py). Expects `node` (a section) and `nav`. -#}
+{%- set k1 = node.relative_path -%}
+{%- set n1 = nav.sections[k1] -%}
+{%- set open1 = node.path in cur -%}
+{%- set slug1 = k1 | replace(from="/_index.md", to="") | replace(from="/", to="-") -%}
+<li>
+  <div class="flex items-center rounded-lg{% if cur == node.path %} bg-gray-100 dark:bg-gray-700{% endif %}">
+    <a href="{{ node.permalink }}" class="flex min-w-0 flex-1 items-center rounded-lg p-2 {% if depth == 0 %}pl-2{% else %}pl-11{% endif %} text-sm text-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700{% if open1 %} font-semibold{% endif %}" title="{{ node.title }}"{% if cur == node.path %} aria-current="page"{% endif %}>
+      <span class="truncate">{{ node.title }}</span>
+      {%- if n1.total %}<span class="ml-auto shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ n1.total }}</span>{% endif %}
+    </a>
+    {%- if n1.subsections or k1 == here %}
+    <button type="button" class="rounded-lg p-1.5 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" aria-controls="sub-{{ slug1 }}" data-collapse-toggle="sub-{{ slug1 }}" aria-expanded="{% if open1 %}true{% else %}false{% endif %}">
+      <span class="sr-only">Rozbalit {{ node.title }}</span>
+      <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+    {%- endif %}
+  </div>
+  {%- if n1.subsections or k1 == here %}
+  <ul id="sub-{{ slug1 }}" class="{% if not open1 %}hidden {% endif %}space-y-1 py-1">
+    {%- for k2 in n1.subsections %}
+    {%- set n2 = nav.sections[k2] -%}
+    {%- set open2 = n2.url in cur -%}
+    {%- set slug2 = k2 | replace(from="/_index.md", to="") | replace(from="/", to="-") -%}
+    <li>
+      <div class="flex items-center rounded-lg{% if cur == n2.url %} bg-gray-100 dark:bg-gray-700{% endif %}">
+        <a href="{{ config.base_url }}{{ n2.url }}" class="flex min-w-0 flex-1 items-center rounded-lg p-2 {% if depth == 0 %}pl-6{% else %}pl-14{% endif %} text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700{% if open2 %} font-semibold text-gray-900 dark:text-white{% endif %}" title="{{ n2.title }}"{% if cur == n2.url %} aria-current="page"{% endif %}>
+          <span class="truncate">{{ n2.title }}</span>
+          {%- if n2.total %}<span class="ml-auto shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ n2.total }}</span>{% endif %}
+        </a>
+        {%- if n2.subsections or k2 == here %}
+        <button type="button" class="rounded-lg p-1.5 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" aria-controls="sub-{{ slug2 }}" data-collapse-toggle="sub-{{ slug2 }}" aria-expanded="{% if open2 %}true{% else %}false{% endif %}">
+          <span class="sr-only">Rozbalit {{ n2.title }}</span>
+          <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+        </button>
+        {%- endif %}
+      </div>
+      {%- if n2.subsections or k2 == here %}
+      <ul id="sub-{{ slug2 }}" class="{% if not open2 %}hidden {% endif %}space-y-1 py-1">
+        {%- for k3 in n2.subsections %}
+        {%- set n3 = nav.sections[k3] %}
+        <li>
+          <a href="{{ config.base_url }}{{ n3.url }}" class="flex items-center rounded-lg p-2 {% if depth == 0 %}pl-10{% else %}pl-[4.5rem]{% endif %} text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700{% if n3.url in cur %} bg-gray-100 font-semibold dark:bg-gray-700{% endif %}" title="{{ n3.title }}">
+            <span class="truncate">{{ n3.title }}</span>
+            {%- if n3.total %}<span class="ml-auto shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ n3.total }}</span>{% endif %}
+          </a>
+          {%- if k3 == here %}{% set wkey = k3 %}{% set wpad = "ml-[5.5rem]" %}{% include "partials/sidebar_pages.html" %}{% endif %}
+        </li>
+        {%- endfor %}
+        {%- if k2 == here %}{% set wkey = k2 %}{% set wpad = "ml-16" %}{% include "partials/sidebar_pages.html" %}{% endif %}
+      </ul>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+    {%- if k1 == here %}{% set wkey = k1 %}{% if depth == 0 %}{% set wpad = "ml-6" %}{% else %}{% set wpad = "ml-14" %}{% endif %}{% include "partials/sidebar_pages.html" %}{% endif %}
+  </ul>
+  {%- endif %}
+</li>

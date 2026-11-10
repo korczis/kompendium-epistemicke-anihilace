@@ -41,9 +41,28 @@
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#4f46e5">
 <link rel="sitemap" type="application/xml" href="{{ get_url(path='sitemap.xml') }}">
-<script type="application/ld+json">
+{%- if ctx.taxonomies is defined and ctx.taxonomies.tags is defined and ctx.taxonomies.tags %}
+<meta name="keywords" content="{{ ctx.taxonomies.tags | join(sep=', ') }}">
+{%- endif %}
 {%- if page is defined %}
-{{ {"@context": "https://schema.org", "@type": "Article", "headline": ctx.title, "description": ctx.description | default(value=config.description), "inLanguage": "cs", "url": ctx.permalink, "image": get_url(path="img/og.png"), "author": {"@type": "Person", "name": config.extra.author, "url": "https://github.com/korczis"}, "isPartOf": {"@type": "Book", "name": config.title, "url": config.base_url ~ "/"}, "license": config.extra.licence_url} | json_encode | safe }}
+{%- if page.higher %}<link rel="prev" href="{{ page.higher.permalink }}">{% endif %}
+{%- if page.lower %}<link rel="next" href="{{ page.lower.permalink }}">{% endif %}
+{%- endif %}
+{#- Structured data, derived from the page and its place in the section tree. -#}
+{%- set_global n = 1 %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Úvod","item":{{ (config.base_url ~ "/") | json_encode | safe }}}
+{%- if ctx.ancestors is defined %}{% for anc in ctx.ancestors %}{% if anc != "_index.md" %}{% set a = get_section(path=anc, metadata_only=true) %}{% set_global n = n + 1 %},{"@type":"ListItem","position":{{ n }},"name":{{ a.title | json_encode | safe }},"item":{{ a.permalink | json_encode | safe }}}{% endif %}{% endfor %}{% endif %}
+{%- if ctx.title and ctx.permalink != config.base_url ~ "/" %}{% set_global n = n + 1 %},{"@type":"ListItem","position":{{ n }},"name":{{ ctx.title | json_encode | safe }},"item":{{ ctx.permalink | json_encode | safe }}}{% endif %}]}
+</script>
+<script type="application/ld+json">
+{%- if page is defined and page.components | first == "glossary" %}
+{{ {"@context": "https://schema.org", "@type": "DefinedTerm", "name": ctx.title, "description": ctx.description | default(value=config.description), "inLanguage": "cs", "url": ctx.permalink, "termCode": page.slug, "inDefinedTermSet": {"@type": "DefinedTermSet", "name": "Glosář – " ~ config.title, "url": get_url(path="@/glossary/_index.md")} } | json_encode | safe }}
+{%- elif page is defined %}
+{%- set_global parent_title = "" %}{% if page.ancestors %}{% set parent_sec = get_section(path=page.ancestors | last, metadata_only=true) %}{% set_global parent_title = parent_sec.title %}{% endif %}
+{{ {"@context": "https://schema.org", "@type": "Article", "headline": ctx.title, "description": ctx.description | default(value=config.description), "inLanguage": "cs", "url": ctx.permalink, "mainEntityOfPage": ctx.permalink, "image": get_url(path="img/og.png"), "author": {"@type": "Person", "name": config.extra.author, "url": "https://github.com/korczis"}, "isPartOf": {"@type": "Book", "name": config.title, "url": config.base_url ~ "/"}, "articleSection": parent_title, "wordCount": page.word_count, "keywords": page.taxonomies.tags | default(value=[]) | join(sep=", "), "dateModified": page.extra.date_modified | default(value=""), "license": config.extra.licence_url} | json_encode | safe }}
+{%- elif section is defined and section.path != "/" %}
+{{ {"@context": "https://schema.org", "@type": "CollectionPage", "name": ctx.title, "description": ctx.description | default(value=config.description), "inLanguage": "cs", "url": ctx.permalink, "isPartOf": {"@type": "Book", "name": config.title, "url": config.base_url ~ "/"}, "numberOfItems": section.pages | length} | json_encode | safe }}
 {%- else %}
 {{ {"@context": "https://schema.org", "@type": "Book", "name": config.title, "description": config.description, "inLanguage": "cs", "url": config.base_url ~ "/", "image": get_url(path="img/og.png"), "author": {"@type": "Person", "name": config.extra.author, "url": "https://github.com/korczis"}, "license": config.extra.licence_url, "genre": "Odborná literatura"} | json_encode | safe }}
 {%- endif %}

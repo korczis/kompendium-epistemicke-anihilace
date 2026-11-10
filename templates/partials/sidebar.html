@@ -1,5 +1,9 @@
 {#- Chapter navigation. Numbered sections are chapters; the rest are thematic collections. -#}
 {%- set root = get_section(path="kompendium/_index.md", metadata_only=true) -%}
+{%- set_global nav = load_data(path="static/data/nav.json") -%}
+{%- if page is defined -%}{%- set_global here = page.ancestors | last -%}{%- set_global here_url = page.path -%}
+{%- elif section is defined -%}{%- set_global here = section.relative_path -%}{%- set_global here_url = section.path -%}
+{%- else -%}{%- set_global here = "" -%}{%- set_global here_url = "" -%}{%- endif -%}
 {%- set item = "group flex items-center rounded-lg p-2 text-base font-normal text-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700" -%}
 {%- set sub = "flex items-center rounded-lg p-2 pl-11 text-sm font-normal text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700" -%}
 {%- set active = " bg-gray-100 dark:bg-gray-700" -%}
@@ -30,6 +34,9 @@
               <span class="ml-3 flex-1 whitespace-nowrap">Obsah kompendia</span>
             </a>
           </li>
+          {#- Nested subtrees derived from the section tree: every section with subsections is a
+              Pro sidebar dropdown, the branch holding the current page is open, and the section
+              that holds the current page lists a window of its pages around the current one. -#}
           {%- for group in [["chapters", "Kapitoly"], ["collections", "Kolekce"]] %}
           {%- set_global open = false -%}
           {%- for path in root.subsections | sort -%}
@@ -52,11 +59,23 @@
               {%- set s = get_section(path=path, metadata_only=true) -%}
               {%- set numbered = (s.components | last | truncate(length=1, end="")) in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] -%}
               {%- if (group[0] == "chapters") == numbered %}
-              <li><a href="{{ s.permalink }}" class="{{ sub }}{% if s.path in cur %}{{ active }}{% endif %}" title="{{ s.title }}"><span class="truncate">{{ s.title }}</span></a></li>
+              {%- set node = s %}{% set depth = 1 %}
+              {% include "partials/sidebar_node.html" %}
               {%- endif %}
               {%- endfor %}
             </ul>
           </li>
+          {%- endfor %}
+          {%- for top in ["glossary/_index.md", "philosophy/_index.md"] %}
+          {%- set s = get_section(path=top, metadata_only=true) %}
+          {%- if s.path in cur and cur != s.path %}
+          <li>
+            <ul class="space-y-1">
+              {%- set node = s %}{% set depth = 0 %}
+              {% include "partials/sidebar_node.html" %}
+            </ul>
+          </li>
+          {%- endif %}
           {%- endfor %}
         </ul>
         <div class="space-y-2 pt-2">

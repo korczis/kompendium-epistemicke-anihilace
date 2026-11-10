@@ -59,6 +59,21 @@ python3 scripts/check-ia.py --list term-page | grep -x 'term:fixturovy-pojem' >/
 git -C "$root" show "$(git -C "$root" write-tree):content/kompendium/08-prilohy/index-pojmu.md" \
   > content/kompendium/08-prilohy/index-pojmu.md
 
+# The autolinker links the first mention of a term that has a page, and only once.
+mkdir -p content/kompendium/case-01-links
+cat > content/kompendium/case-01-links/page.md <<'PAGE'
++++
+title = "Odkazy"
++++
+
+Gaslighting je vzorec. Gaslighting se opakuje. Viz také EA-1.6.1 a zase EA-1.6.1.
+PAGE
+python3 scripts/link-terms.py content/kompendium/case-01-links >/dev/null
+grep -c '](@/glossary/gaslighting.md)' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null
+grep -c '](@/kompendium/techniques/ea-1-6-1-' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null
+python3 scripts/link-terms.py --check content/kompendium/case-01-links >/dev/null
+rm -r content/kompendium/case-01-links
+
 python3 scripts/build-graph.py >/dev/null
 python3 scripts/build-graph.py --check >/dev/null
 printf '\nEin [Link](@/kompendium/_index.md).\n' >> content/about.md

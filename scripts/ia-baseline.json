@@ -627,10 +627,6 @@
  "content/kompendium/08-prilohy/eticky-kodex.md": [
   "related"
  ],
- "content/kompendium/08-prilohy/index-pojmu.md": [
-  "tags",
-  "related"
- ],
  "content/kompendium/08-prilohy/klasifikace.md": [
   "related"
  ],
@@ -823,9 +819,6 @@
  "content/kompendium/glossary-bridges/bridge-censys.md": [
   "not-orphan"
  ],
- "content/kompendium/glossary-bridges/bridge-clean-run.md": [
-  "not-orphan"
- ],
  "content/kompendium/glossary-bridges/bridge-color-teams.md": [
   "not-orphan"
  ],
@@ -1015,9 +1008,6 @@
  "content/kompendium/glossary-bridges/bridge-red-team.md": [
   "not-orphan"
  ],
- "content/kompendium/glossary-bridges/bridge-regression-test.md": [
-  "not-orphan"
- ],
  "content/kompendium/glossary-bridges/bridge-replication-crisis.md": [
   "not-orphan"
  ],
@@ -1056,9 +1046,6 @@
  ],
  "content/kompendium/glossary-bridges/bridge-threshold.md": [
   "czech"
- ],
- "content/kompendium/glossary-bridges/bridge-trinity-gate.md": [
-  "not-orphan"
  ],
  "content/kompendium/glossary-bridges/bridge-violation-protocol.md": [
   "not-orphan"
@@ -1793,8 +1780,7 @@
   "not-orphan"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-visualizations.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/section-bridges/bridge-visualizations-to-clinical.md": [
   "related",
@@ -2224,8 +2210,7 @@
   "related"
  ],
  "content/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-2-9-AI-document-forgery.md": [
   "description",
@@ -2403,128 +2388,5 @@
   "czech",
   "related",
   "links-out"
- ],
- "term:akademicka-technika": [
-  "term-page"
- ],
- "term:akutni-naruseni": [
-  "term-page"
- ],
- "term:banalita-zla": [
-  "term-page"
- ],
- "term:bounded-choice": [
-  "term-page"
- ],
- "term:cynicky-rozum": [
-  "term-page"
- ],
- "term:demarkacni-problem": [
-  "term-page"
- ],
- "term:des-ii": [
-  "term-page"
- ],
- "term:diskursivni-formace": [
-  "term-page"
- ],
- "term:doctrine": [
-  "term-page"
- ],
- "term:doubling": [
-  "term-page"
- ],
- "term:ecri": [
-  "term-page"
- ],
- "term:edukativni-implementace": [
-  "term-page"
- ],
- "term:epistemicka-nespravedlnost": [
-  "term-page"
- ],
- "term:fllm": [
-  "term-page"
- ],
- "term:fuze-horizontu": [
-  "term-page"
- ],
- "term:gitl": [
-  "term-page"
- ],
- "term:habitus": [
-  "term-page"
- ],
- "term:hermeneuticka-marginalizace": [
-  "term-page"
- ],
- "term:heuristika": [
-  "term-page"
- ],
- "term:ies-r": [
-  "term-page"
- ],
- "term:jazykova-hra": [
-  "term-page"
- ],
- "term:know": [
-  "term-page"
- ],
- "term:konfabulace": [
-  "term-page"
- ],
- "term:loading-the-language": [
-  "term-page"
- ],
- "term:lti-lingua-tertii-imperii": [
-  "term-page"
- ],
- "term:m5m": [
-  "term-page"
- ],
- "term:milieu-control": [
-  "term-page"
- ],
- "term:nclb": [
-  "term-page"
- ],
- "term:nmnd": [
-  "term-page"
- ],
- "term:normalni-veda": [
-  "term-page"
- ],
- "term:nwb": [
-  "term-page"
- ],
- "term:performativni-akt": [
-  "term-page"
- ],
- "term:ptsd": [
-  "term-page"
- ],
- "term:seal": [
-  "term-page"
- ],
- "term:system-1-system-2": [
-  "term-page"
- ],
- "term:tach": [
-  "term-page"
- ],
- "term:testimonialni-nespravedlnost": [
-  "term-page"
- ],
- "term:thought-reform": [
-  "term-page"
- ],
- "term:verejna-sfera": [
-  "term-page"
- ],
- "term:zero": [
-  "term-page"
- ],
- "term:zivotni-svet-lebenswelt": [
-  "term-page"
  ]
 }

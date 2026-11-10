@@ -288,6 +288,13 @@ ASCII_WORD = re.compile(r"[a-z]+")
 LIST_START = set("-*+0123456789")
 FOUR_DIGITS = re.compile(r"\d{4}")
 MIN_PARAGRAPH_WORDS = 20
+# A paragraph that only states the book's own frame (what it describes and why, what it leaves
+# out) cites no outside work: it refers to the book's method and ethics pages instead. Only these
+# four pages count, and only MAX_OWN_FRAME such paragraphs per page, so the exemption cannot
+# stand in for evidence (ADR 0004).
+OWN_FRAME = re.compile(r"\]\(@/kompendium/(?:01-predmluva/eticke-aspekty|01-predmluva/jak-pouzivat"
+                       r"|08-prilohy/eticky-kodex|02-uvod/metodologicke-poznamky)\.md(?:#[\w-]+)?\)")
+MAX_OWN_FRAME = 3
 
 # An author-year citation. § numbers are not years: "§ 1724" is removed before matching.
 YEAR = r"(?<![\d/§.])(?:1[5-9]\d\d|20[0-4]\d)[a-z]?(?![\d/])"
@@ -444,19 +451,24 @@ def academic_profile(body: str, lines: list = None) -> dict:
     renders it: an ordered item interrupts an open paragraph only when its number is 1, so
     "2011) …" or "44. …" continuing a wrapped sentence is prose, not a list."""
     bullets, uncited, citations, names, statutes = [], 0, 0, [], 0
+    own_frame = 0
     lit_words, headings = set(), []
     paragraph, state, indent = [], "none", 0  # state: none, paragraph, list
 
     def flush():
-        nonlocal uncited, citations, statutes
+        nonlocal uncited, citations, statutes, own_frame
         if paragraph:
-            text = plain(" ".join(paragraph))
+            raw = " ".join(paragraph)
+            text = plain(raw)
             found, cited, law = cited_names(text)
             citations += found
             statutes += law
             names.extend(cited)
             if not found and not law and len(WORD.findall(text)) >= MIN_PARAGRAPH_WORDS:
-                uncited += 1
+                if OWN_FRAME.search(raw) and own_frame < MAX_OWN_FRAME:
+                    own_frame += 1  # the book's own frame, referred to its method pages
+                else:
+                    uncited += 1
             paragraph.clear()
 
     for _, line, kind, section in lines if lines is not None else body_lines(body):
@@ -499,6 +511,7 @@ def academic_profile(body: str, lines: list = None) -> dict:
     return {
         "bullets": bullets,
         "uncited": uncited,
+        "own_frame": own_frame,
         "citations": citations,
         "bibliography_ok": bool(lit) and (not rel or lit[0] < rel[0]),
         "unresolved": unresolved,

@@ -44,7 +44,10 @@ Requirements (id: what is checked):
                    paragraph only at 1, as CommonMark renders it)
   citations        every prose paragraph of 20+ words carries an author-year citation — (Autor,
                    rok), (Autor rok), Autor (rok), (A a B, rok), (A a kol., rok) — or a statute
-                   (zákon č. N/RRRR Sb.) or EU instrument; callouts, tables, code exempt
+                   (zákon č. N/RRRR Sb.) or EU instrument; callouts, tables, code exempt; up to
+                   three paragraphs per page that only state the book's own frame may instead
+                   link one of its method pages (01-predmluva/eticke-aspekty, jak-pouzivat,
+                   08-prilohy/eticky-kodex, 02-uvod/metodologicke-poznamky) and no other page
   bibliography     a page that cites an author has `## Literatura`, before `## Související`
   citation-unresolved  every cited surname is in the page's Literatura (Czech case endings and
                    female -ová forms resolve: Liftona -> Lifton, Arendtová -> Arendt)

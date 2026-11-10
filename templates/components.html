@@ -146,3 +146,9 @@
   {%- endfor %}
 </figure>
 {% endcomponent model_eskalace %}
+
+{#- Skript vizualizace knihy ze static/js/kompendium/<name>.js. Cestu skládá get_url, takže
+    nezávisí na base path; cachebust ověří při sestavení, že soubor existuje. -#}
+{% component viz_script(name) %}
+<script src="{{ get_url(path='js/kompendium/' ~ name ~ '.js', cachebust=true) }}"></script>
+{% endcomponent viz_script %}

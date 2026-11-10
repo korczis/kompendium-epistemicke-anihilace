@@ -35,6 +35,175 @@
     <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Každý bod je stránka: vodorovně počet slov, svisle počet stránek, které na ni odkazují. Klepnutím ji otevřete.</p>
     <div id="stav-rozptyl" class="h-[480px] w-full" role="img" aria-label="Bodový graf stránek podle rozsahu a počtu odkazů"></div>
   </section>
+  {#- Redakční přehled: oddíl → stránka → co chybí, nad static/data/ia.json (kompendium-ia/v1).
+      Ovládá static/js/viz/redakce.js; data se načtou, až se karta přiblíží k výřezu. Všechny
+      třídy jsou zde (řádky, odznaky a dlaždice pravidel se klonují z <template>), aby je
+      Tailwind při sestavení CSS našel. -#}
+  <section id="redakce" class="mt-4 min-w-0 rounded-lg bg-white shadow dark:bg-gray-800" aria-labelledby="h-redakce">
+    <div class="p-4 sm:p-6">
+      <div class="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+        <h2 id="h-redakce" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Redakční přehled</h2>
+        <p id="rd-souhrn" class="text-sm text-gray-500 dark:text-gray-400"></p>
+      </div>
+      <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Co přesně ještě chybí: oddíl, stránka a pravidlo informační architektury, které nesplňuje. Klepnutím na úsek sloupce nebo na pravidlo pod grafem filtrujete pracovní seznam, dalším klepnutím na pravidlo filtr zrušíte.</p>
+      <h3 class="mb-2 text-base font-semibold text-gray-900 dark:text-white">Otevřené nálezy podle oddílů</h3>
+      <div id="rd-graf" class="h-[520px] w-full" role="img" aria-label="Skládaný vodorovný sloupcový graf otevřených nálezů podle oddílů a pravidel">
+        <div class="flex h-full items-center justify-center text-sm text-gray-500 dark:text-gray-400">Redakční přehled se načte, jakmile se k němu posunete.</div>
+      </div>
+      <h3 id="h-rd-pravidla" class="mb-2 mt-6 text-base font-semibold text-gray-900 dark:text-white">Pravidla</h3>
+      <ul id="rd-pravidla" class="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3" aria-labelledby="h-rd-pravidla"></ul>
+    </div>
+
+    {#- Pracovní seznam: Pro advanced table s nástrojovou lištou -#}
+    <div id="rd-seznam" class="scroll-mt-20 border-t border-gray-200 p-4 sm:p-6 dark:border-gray-700">
+      <div class="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+        <h3 id="h-rd-seznam" tabindex="-1" class="text-lg font-semibold text-gray-900 focus:outline-none dark:text-white">Pracovní seznam</h3>
+        <p id="rd-pocet" class="text-sm text-gray-500 dark:text-gray-400" aria-live="polite" aria-atomic="true"></p>
+      </div>
+      <form id="rd-filtr" class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5" role="search" aria-label="Filtr pracovního seznamu">
+        <div class="sm:col-span-2 lg:col-span-1">
+          <label for="rd-q" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Hledat</label>
+          <div class="relative">
+            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+              <svg class="h-4 w-4 text-gray-500 dark:text-gray-400" fill="none" viewBox="0 0 20 20" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/></svg>
+            </div>
+            <input id="rd-q" type="search" autocomplete="off" placeholder="Název nebo cesta…" aria-describedby="rd-q-help"
+              class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-9 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500">
+          </div>
+          <p id="rd-q-help" class="sr-only">Hledání nerozlišuje diakritiku ani velikost písmen.</p>
+        </div>
+        <div>
+          <label for="rd-oddil" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Oddíl</label>
+          <select id="rd-oddil" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500 dark:focus:ring-primary-500">
+            <option value="">Všechny oddíly</option>
+          </select>
+        </div>
+        <div>
+          <label for="rd-pravidlo" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Pravidlo</label>
+          <select id="rd-pravidlo" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500 dark:focus:ring-primary-500">
+            <option value="">Všechna pravidla</option>
+          </select>
+        </div>
+        <div>
+          <label for="rd-jazyk" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Jazyk textu</label>
+          <select id="rd-jazyk" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500 dark:focus:ring-primary-500">
+            <option value="">Všechny jazyky</option>
+            <option value="cs">čeština</option>
+            <option value="en">angličtina</option>
+          </select>
+        </div>
+        <div>
+          <label for="rd-razeni" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Řadit podle</label>
+          <select id="rd-razeni" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500 dark:focus:ring-primary-500">
+            <option value="nalezy">nejvíc nálezů</option>
+            <option value="slova">nejméně slov</option>
+            <option value="odkazy">nejméně odkazů sem</option>
+          </select>
+        </div>
+      </form>
+      <div id="rd-aktivni" class="mt-3 flex flex-wrap items-center gap-2" hidden>
+        <span class="text-sm text-gray-500 dark:text-gray-400">Aktivní filtr:</span>
+        <span id="rd-aktivni-stitky" class="contents"></span>
+        <button type="button" data-rd-reset class="inline-flex items-center rounded-lg px-2 py-1 text-xs font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-500 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Zrušit filtry</button>
+      </div>
+    </div>
+
+    {#- Tabulka (od md výše) -#}
+    <div id="rd-tabulka" class="overflow-x-auto max-md:hidden" hidden>
+      <table class="w-full table-fixed text-left text-sm text-gray-500 dark:text-gray-400">
+        <caption class="sr-only">Stránky, které nesplňují některé pravidlo informační architektury; název odkazuje na stránku.</caption>
+        <thead class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
+          <tr>
+            <th scope="col" class="px-4 py-3">Stránka</th>
+            <th scope="col" class="hidden w-40 px-4 py-3 xl:table-cell">Oddíl</th>
+            <th scope="col" data-rd-sort="slova" class="w-20 px-4 py-3 text-right">Slov</th>
+            <th scope="col" data-rd-sort="odkazy" class="w-28 px-4 py-3 text-right"><abbr title="odkazů sem / odkazů ven" class="no-underline">Sem / ven</abbr></th>
+            <th scope="col" data-rd-sort="nalezy" class="w-56 px-4 py-3 lg:w-72">Co chybí</th>
+          </tr>
+        </thead>
+        <tbody id="rd-radky"></tbody>
+      </table>
+    </div>
+
+    {#- Seznam karet (mobil) -#}
+    <ul id="rd-karty" class="divide-y divide-gray-200 border-t border-gray-200 md:hidden dark:divide-gray-700 dark:border-gray-700" aria-label="Pracovní seznam stránek" hidden></ul>
+
+    {#- Prázdný stav (Pro empty state) -#}
+    <div id="rd-prazdno" class="flex flex-col items-center justify-center border-t border-gray-200 p-6 text-center sm:p-10 dark:border-gray-700" role="status" hidden>
+      <svg class="mb-3 h-10 w-10 text-green-500 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+      <p class="text-base font-semibold text-gray-900 dark:text-white">V tomto výběru nic nechybí.</p>
+      <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Žádná stránka odpovídající filtru neporušuje pravidla informační architektury.</p>
+      <button type="button" data-rd-reset class="mt-4 rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Zrušit filtry</button>
+    </div>
+
+    {#- Patička tabulky: rozsah a stránkování (Pro table footer) -#}
+    <nav id="rd-strankovani" class="flex flex-col items-start justify-between gap-3 border-t border-gray-200 p-4 sm:flex-row sm:items-center dark:border-gray-700" aria-label="Stránkování pracovního seznamu" hidden>
+      <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Zobrazeno <span id="rd-rozsah" class="font-semibold text-gray-900 dark:text-white"></span> z <span id="rd-celkem" class="font-semibold text-gray-900 dark:text-white"></span></span>
+      <div class="flex w-full items-center gap-3 sm:w-auto">
+        <button type="button" id="rd-predchozi" class="inline-flex flex-1 items-center justify-center rounded-lg bg-primary-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 dark:disabled:bg-gray-700 dark:disabled:text-gray-500 sm:flex-none">
+          <svg class="-ml-1 mr-1 h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+          Předchozí
+        </button>
+        <span id="rd-strana" class="whitespace-nowrap text-sm text-gray-500 dark:text-gray-400"></span>
+        <button type="button" id="rd-dalsi" class="inline-flex flex-1 items-center justify-center rounded-lg bg-primary-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 dark:disabled:bg-gray-700 dark:disabled:text-gray-500 sm:flex-none">
+          Další
+          <svg class="-mr-1 ml-1 h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+        </button>
+      </div>
+    </nav>
+
+    <p class="rounded-b-lg border-t border-gray-200 bg-gray-50 px-4 py-3 text-xs text-gray-500 sm:px-6 dark:border-gray-700 dark:bg-gray-900/40 dark:text-gray-400">
+      Počty odvozuje při sestavení webu <code class="font-mono">scripts/build-graph.py</code> ze stejných pravidel, která hlídá brána <code class="font-mono">scripts/check-ia.py</code>. Brána dovolí, aby se jen snižovaly: nový nález mimo výchozí stav (<code class="font-mono">scripts/ia-baseline.json</code>) sestavení odmítne.
+    </p>
+
+    {#- Šablony, které redakce.js klonuje -#}
+    <template id="rd-tpl-pravidlo">
+      <li>
+        <button type="button" aria-pressed="false" class="flex h-full w-full items-start gap-3 rounded-lg border border-gray-200 bg-white p-3 text-left hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 aria-pressed:border-primary-600 aria-pressed:bg-primary-50 aria-pressed:ring-1 aria-pressed:ring-primary-600 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-primary-800 dark:aria-pressed:border-primary-500 dark:aria-pressed:bg-gray-700 dark:aria-pressed:ring-primary-500">
+          <span data-k="tecka" class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full" aria-hidden="true"></span>
+          <span class="min-w-0 flex-1">
+            <span class="flex items-center justify-between gap-2">
+              <span data-k="id" class="font-mono text-sm font-semibold text-gray-900 dark:text-white"></span>
+              <span data-k="pocet" class="shrink-0 rounded-full px-2 py-0.5 text-xs font-medium tabular-nums"
+                data-open="bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300"
+                data-zero="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300"></span>
+            </span>
+            <span data-k="popis" class="mt-1 block text-xs text-gray-500 dark:text-gray-400"></span>
+          </span>
+        </button>
+      </li>
+    </template>
+    <template id="rd-tpl-odznak">
+      <span class="inline-flex items-center gap-1.5 whitespace-nowrap rounded-md bg-gray-100 px-2 py-0.5 font-mono text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300"><span data-k="tecka" class="h-2 w-2 shrink-0 rounded-full" aria-hidden="true"></span><span data-k="id"></span></span>
+    </template>
+    <template id="rd-tpl-stitek">
+      <span class="inline-flex max-w-full items-center gap-1 truncate rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"></span>
+    </template>
+    <template id="rd-tpl-radek">
+      <tr class="border-b border-gray-200 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
+        <td class="min-w-0 px-4 py-3 align-top">
+          <a data-k="odkaz" class="block break-words font-medium text-gray-900 hover:text-primary-700 hover:underline focus:outline-none focus-visible:underline dark:text-white dark:hover:text-primary-400"></a>
+          <span data-k="cesta" class="mt-1 block truncate font-mono text-xs text-gray-400 dark:text-gray-500"></span>
+        </td>
+        <td data-k="oddil" class="hidden truncate px-4 py-3 align-top xl:table-cell"></td>
+        <td data-k="slova" class="whitespace-nowrap px-4 py-3 text-right align-top tabular-nums"></td>
+        <td data-k="odkazy" class="whitespace-nowrap px-4 py-3 text-right align-top tabular-nums"></td>
+        <td class="px-4 py-3 align-top"><span data-k="odznaky" class="flex flex-wrap gap-1"></span></td>
+      </tr>
+    </template>
+    <template id="rd-tpl-karta">
+      <li class="px-4 py-3">
+        <a data-k="odkaz" class="block break-words text-sm font-medium text-gray-900 hover:text-primary-700 hover:underline focus:outline-none focus-visible:underline dark:text-white dark:hover:text-primary-400"></a>
+        <span data-k="oddil" class="mt-1 block truncate text-xs text-gray-500 dark:text-gray-400"></span>
+        <span data-k="odznaky" class="mt-2 flex flex-wrap gap-1"></span>
+        <span class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500 dark:text-gray-400">
+          <span><span data-k="slova" class="font-medium text-gray-900 dark:text-white"></span> slov</span>
+          <span><span data-k="sem" class="font-medium text-gray-900 dark:text-white"></span> odkazů sem</span>
+          <span><span data-k="ven" class="font-medium text-gray-900 dark:text-white"></span> odkazů ven</span>
+        </span>
+      </li>
+    </template>
+  </section>
   {%- if page.content | trim %}
   <article class="mt-4 rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
     <div class="format format-sm sm:format-base format-blue max-w-none dark:format-invert">{{ page.content | safe }}</div>
@@ -45,4 +214,5 @@
 {% block page_scripts %}
 <script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/viz/stav.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/redakce.js', cachebust=true) }}" defer></script>
 {% endblock page_scripts %}

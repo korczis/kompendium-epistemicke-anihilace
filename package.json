@@ -21,7 +21,9 @@
     "graphics": "scripts/render-graphics.sh",
     "build": "npm run --silent assets && zola build",
     "check": "python3 scripts/migrate-content.py --check && python3 scripts/build-references.py --check && npm run --silent assets && zola check --skip-external-links",
-    "dev": "npm run --silent assets && zola serve"
+    "dev": "npm run --silent assets && zola serve",
+    "test:surfaces": "node test/e2e/surfaces.cjs",
+    "verify": "scripts/verify-all.sh"
   },
   "devDependencies": {
     "@tailwindcss/cli": "4.3.3",
@@ -30,6 +32,7 @@
     "echarts": "6.1.0",
     "flowbite": "4.0.2",
     "flowbite-typography": "1.0.5",
+    "playwright-core": "1.63.0",
     "tailwindcss": "4.3.3"
   }
 }

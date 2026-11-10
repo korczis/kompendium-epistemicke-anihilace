@@ -83,6 +83,14 @@ jobs:
         run: npm run build
       - name: Stamp the revision
         run: printf '%s\n' "$GITHUB_SHA" > public/revision.txt
+      - name: Interactive surfaces render (charts, components, no console errors, phone width)
+        run: |
+          npx playwright-core install --with-deps chromium
+          root="$RUNNER_TEMP/e2e"
+          zola build --base-url http://127.0.0.1:18790/kompendium-epistemicke-anihilace --output-dir "$root/kompendium-epistemicke-anihilace"
+          (cd "$root" && python3 -m http.server 18790 --bind 127.0.0.1 > /dev/null 2>&1 &)
+          sleep 2
+          BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ npm run --silent test:surfaces
       - name: Upload the site
         uses: actions/upload-artifact@v7
         with:

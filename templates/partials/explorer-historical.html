@@ -1,0 +1,172 @@
+{#- Časová osa historických případů: graf období po kategoriích (ECharts), filtry a souběžný
+    seznam karet. Vlastní: agent „casova-osa“. Období, místo a kategorii čte
+    static/js/viz/casova-osa.js z data/graph.json (kompendium-graph/v2); popisy a odkazy jsou
+    odvozené ze `section.pages` při sestavení. Bez JavaScriptu zůstává skrytá a čtenář použije
+    serverově vykreslený seznam stránek pod ní (section.html). -#}
+<style>[x-cloak]{display:none !important}</style>
+{#- JSON se skládá po položkách (Tera 2 nemá filtr concat); každou hodnotu kóduje json_encode. -#}
+<script type="application/json" id="osa-data">[
+{%- for p in section.pages %}
+{%- if p.description %}{% set desc = p.description %}{% else %}{% set desc = "" %}{% endif %}
+{%- set item = {"title": p.title, "permalink": p.permalink, "description": desc, "path": p.relative_path} %}
+{{ item | json_encode | safe }}{% if not loop.last %},{% endif %}
+{%- endfor %}
+]</script>
+{#- Kategorie případů: pořadí plavecké dráhy, barva v grafu (KompendiumViz.PALETTE) a třídy
+    odznaku (Pro badges). Třídy jsou zde, aby je Tailwind při sestavení CSS našel ve zdrojích. -#}
+<script type="application/json" id="osa-kategorie">{
+  "Totalitní režimy": {"order": 1, "slug": "totalitni-rezimy", "short": "Totalitní režimy", "color": "#4f46e5", "cls": "bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300"},
+  "Kulty a skupiny s vysokou mírou kontroly": {"order": 2, "slug": "kulty", "short": "Kulty a skupiny", "color": "#0ea5e9", "cls": "bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-300"},
+  "Dezinformace a manipulace veřejností": {"order": 3, "slug": "dezinformace", "short": "Dezinformace", "color": "#10b981", "cls": "bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-300"},
+  "Věda, medicína a instituce": {"order": 4, "slug": "veda-medicina-instituce", "short": "Věda, medicína, instituce", "color": "#f59e0b", "cls": "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-300"},
+  "": {"order": 99, "slug": "ostatni", "short": "Ostatní", "color": "#64748b", "cls": "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300"}
+}</script>
+<div id="casova-osa" x-data="kompendiumCasovaOsa()" x-cloak class="min-w-0 space-y-4">
+  {#- Karta 1: filtry, čísla a graf období -#}
+  <section class="min-w-0 rounded-lg bg-white shadow dark:bg-gray-800" aria-labelledby="osa-h">
+    <div class="border-b border-gray-200 p-4 sm:p-6 dark:border-gray-700">
+      <div class="mb-1 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+        <h2 id="osa-h" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Časová osa případů</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400" aria-live="polite" x-text="summary"></p>
+      </div>
+      <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Kniha tyto případy rozebírá proto, aby bylo možné podobné mechanismy včas rozpoznat a zastavit. Každý pruh je období jednoho případu, dráhy odpovídají kategoriím; klepnutím na pruh případ otevřete.</p>
+
+      <form class="grid grid-cols-1 gap-3 sm:grid-cols-3 sm:items-end" role="search" aria-label="Filtr historických případů" @submit.prevent>
+        <div class="sm:col-span-2">
+          <label for="osa-q" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Hledat</label>
+          <div class="relative">
+            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+              <svg class="h-4 w-4 text-gray-500 dark:text-gray-400" fill="none" viewBox="0 0 20 20" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/></svg>
+            </div>
+            <input id="osa-q" type="search" x-model.debounce.150ms="q" autocomplete="off" placeholder="Název, místo, rok…"
+              aria-describedby="osa-q-help"
+              class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-9 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500">
+          </div>
+          <p id="osa-q-help" class="sr-only">Hledání nerozlišuje diakritiku ani velikost písmen a prohledává název, místo, kategorii, popis i roky.</p>
+        </div>
+        <div class="flex items-center sm:h-[42px]">
+          <label class="inline-flex cursor-pointer items-center">
+            <input type="checkbox" x-model="ongoingOnly" class="peer sr-only">
+            <span class="relative h-5 w-9 shrink-0 rounded-full bg-gray-200 after:absolute after:start-[2px] after:top-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-primary-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-primary-300 rtl:peer-checked:after:-translate-x-full dark:border-gray-600 dark:bg-gray-700 dark:peer-focus:ring-primary-800" aria-hidden="true"></span>
+            <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Jen probíhající <span class="text-gray-500 dark:text-gray-400" x-text="'(' + ongoingCount + ')'"></span></span>
+          </label>
+        </div>
+      </form>
+
+      <div class="mt-4 flex flex-wrap gap-2" role="group" aria-label="Filtr podle kategorie (lze vybrat více)">
+        <template x-for="c in categories" :key="c.slug">
+          <button type="button" @click="toggleCategory(c.slug)" :aria-pressed="cats.indexOf(c.slug) >= 0 ? 'true' : 'false'"
+            :class="cats.indexOf(c.slug) >= 0 ? 'border-primary-700 bg-primary-700 text-white hover:bg-primary-800 dark:border-primary-600 dark:bg-primary-600 dark:hover:bg-primary-700' : 'border-gray-200 bg-white text-gray-900 hover:bg-gray-100 hover:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'"
+            class="inline-flex max-w-full items-center gap-2 rounded-lg border px-3 py-1.5 text-xs font-medium focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800">
+            <span class="h-2.5 w-2.5 shrink-0 rounded-full" :style="'background:' + c.color" aria-hidden="true"></span>
+            <span class="truncate" x-text="c.label"></span>
+            <span class="rounded-full bg-gray-100 px-1.5 text-gray-800 dark:bg-gray-700 dark:text-gray-300" x-text="c.count"></span>
+          </button>
+        </template>
+      </div>
+
+      <div class="mt-3 flex flex-wrap items-center gap-2" x-show="active">
+        <span class="text-sm text-gray-500 dark:text-gray-400">Aktivní filtr:</span>
+        <template x-for="c in categories.filter(function (x) { return cats.indexOf(x.slug) >= 0; })" :key="'f-' + c.slug">
+          <span class="inline-flex items-center rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="c.short"></span>
+        </template>
+        <template x-if="ongoingOnly">
+          <span class="inline-flex items-center rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">jen probíhající</span>
+        </template>
+        <template x-if="q.trim()">
+          <span class="inline-flex max-w-full items-center truncate rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="'„' + q.trim() + '“'"></span>
+        </template>
+        <button type="button" @click="reset()" class="inline-flex items-center rounded-lg px-2 py-1 text-xs font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-500 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Zrušit filtry</button>
+      </div>
+    </div>
+
+    {#- Čísla viditelného výběru (Pro stat cards) -#}
+    <dl class="grid grid-cols-2 gap-3 border-b border-gray-200 p-4 sm:grid-cols-4 sm:gap-4 sm:p-6 dark:border-gray-700">
+      <div class="rounded-lg border border-gray-200 bg-gray-50 p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-700">
+        <dt class="text-sm text-gray-500 dark:text-gray-400">případů</dt>
+        <dd class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white" x-text="fmt(filtered.length)"></dd>
+      </div>
+      <div class="rounded-lg border border-gray-200 bg-gray-50 p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-700">
+        <dt class="text-sm text-gray-500 dark:text-gray-400">z toho probíhá</dt>
+        <dd class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white" x-text="fmt(stats.ongoing)"></dd>
+      </div>
+      <div class="rounded-lg border border-gray-200 bg-gray-50 p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-700">
+        <dt class="text-sm text-gray-500 dark:text-gray-400">rozpětí let</dt>
+        <dd class="text-xl font-bold leading-tight tabular-nums text-gray-900 sm:text-2xl dark:text-white" x-text="stats.span"></dd>
+      </div>
+      <div class="rounded-lg border border-gray-200 bg-gray-50 p-3 sm:p-4 dark:border-gray-700 dark:bg-gray-700">
+        <dt class="text-sm text-gray-500 dark:text-gray-400">odkazovaných technik</dt>
+        <dd class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white" x-text="ready ? fmt(stats.techniques) : '…'"></dd>
+      </div>
+    </dl>
+
+    {#- Graf: lišta přiblížení, plátno ECharts, legenda -#}
+    <div class="p-4 sm:p-6" x-show="filtered.length || !ready">
+      <div class="mb-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between" x-show="!failed">
+        <p class="text-sm text-gray-500 dark:text-gray-400"><span class="font-medium text-gray-900 dark:text-white">Zobrazené období:</span> <span id="osa-zoom" class="tabular-nums" x-text="zoomLabel"></span></p>
+        <div class="inline-flex rounded-lg shadow-sm" role="group" aria-label="Rozsah časové osy">
+          <button type="button" @click="zoomTo('default')" :aria-pressed="zoomPreset === 'default' ? 'true' : 'false'"
+            :class="zoomPreset === 'default' ? 'bg-gray-100 text-primary-700 dark:bg-gray-700 dark:text-white' : 'bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-300'"
+            class="rounded-s-lg border border-gray-200 px-3 py-2 text-sm font-medium hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800" x-text="defaultLabel"></button>
+          <button type="button" @click="zoomTo('all')" :aria-pressed="zoomPreset === 'all' ? 'true' : 'false'"
+            :class="zoomPreset === 'all' ? 'bg-gray-100 text-primary-700 dark:bg-gray-700 dark:text-white' : 'bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-300'"
+            class="rounded-e-lg border border-s-0 border-gray-200 px-3 py-2 text-sm font-medium hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800">Celé období</button>
+        </div>
+      </div>
+      <div x-ref="chart" class="h-96 w-full min-w-0" role="img" :aria-label="chartLabel"></div>
+      <ul class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500 dark:text-gray-400" x-show="!failed" aria-label="Legenda grafu">
+        <li class="flex items-center gap-2"><span class="h-2.5 w-6 rounded-sm bg-gray-400 dark:bg-gray-500" aria-hidden="true"></span>uzavřené období</li>
+        <li class="flex items-center gap-2"><span class="h-2.5 w-6 rounded-sm bg-linear-to-r from-gray-400 to-transparent dark:from-gray-500" aria-hidden="true"></span>probíhá dodnes (šipka)</li>
+        <li class="hidden sm:block">Ctrl + kolečko přibližuje, tažením grafu nebo jezdcem dole posouváte.</li>
+        <li class="sm:hidden">Rozsah měníte jezdcem pod grafem.</li>
+      </ul>
+    </div>
+
+    {#- Prázdný stav (Pro empty state) -#}
+    <div x-show="ready && !filtered.length" class="flex flex-col items-center justify-center p-6 text-center sm:p-10" role="status">
+      <svg class="mb-3 h-10 w-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+      <p class="text-base font-semibold text-gray-900 dark:text-white">Žádný případ neodpovídá filtru</p>
+      <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Zkuste kratší výraz, jinou kategorii nebo vypněte „Jen probíhající“.</p>
+      <button type="button" @click="reset()" class="mt-4 rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Zrušit filtry</button>
+    </div>
+  </section>
+
+  {#- Karta 2: souběžný seznam viditelných případů (alternativa ke grafu pro klávesnici) -#}
+  <section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="osa-h-seznam" x-show="filtered.length">
+    <div class="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+      <h2 id="osa-h-seznam" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Případy podle počátku</h2>
+      <p class="text-sm text-gray-500 dark:text-gray-400">Stejný výběr jako v grafu, seřazený podle roku začátku.</p>
+    </div>
+    <ul class="grid grid-cols-1 gap-4 md:grid-cols-2" aria-label="Historické případy odpovídající filtru">
+      <template x-for="c in filtered" :key="c.path">
+        <li class="min-w-0">
+          <a :href="c.url" @mouseenter="hover(c, true)" @mouseleave="hover(c, false)" @focus="hover(c, true)" @blur="hover(c, false)"
+            class="flex h-full flex-col rounded-lg border border-gray-200 bg-white p-4 hover:bg-gray-100 focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus-visible:ring-primary-800">
+            <span class="flex flex-wrap items-center gap-2">
+              <span class="rounded-md px-2.5 py-0.5 text-xs font-medium" :class="c.cls" x-text="c.categoryShort"></span>
+              <span x-show="c.ongoing" class="inline-flex items-center gap-1 rounded-md bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-800 dark:bg-red-900 dark:text-red-300">
+                <span class="h-1.5 w-1.5 rounded-full bg-red-500" aria-hidden="true"></span>probíhá
+              </span>
+            </span>
+            <span class="mt-2 block break-words text-base font-semibold text-gray-900 dark:text-white" x-text="c.short"></span>
+            <span class="mt-1 line-clamp-2 break-words text-sm text-gray-500 dark:text-gray-400" x-show="c.description" x-text="c.description"></span>
+            <span class="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-3 text-xs text-gray-500 dark:text-gray-400">
+              <span class="inline-flex items-center gap-1">
+                <svg class="h-3.5 w-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg>
+                <span class="font-medium tabular-nums text-gray-900 dark:text-white" x-text="c.periodLabel"></span>
+              </span>
+              <span class="inline-flex min-w-0 items-center gap-1" x-show="c.place">
+                <svg class="h-3.5 w-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+                <span class="truncate" x-text="c.place"></span>
+              </span>
+              <span><span class="font-medium text-gray-900 dark:text-white" x-text="ready ? fmt(c.techniques) : '…'"></span> <span x-text="techWord(c.techniques)"></span></span>
+            </span>
+          </a>
+        </li>
+      </template>
+    </ul>
+  </section>
+</div>
+<script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/casova-osa.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/vendor/alpine.min.js') }}" defer></script>

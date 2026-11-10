@@ -172,7 +172,6 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — meta-úroveň se zhroutí v rekurzivní bod.
-- **[EA-5.2.27 Trans-kategoriální fluktuace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-27-trans-kategorialni-fluktuace)** — kategorie kontinuálně osciluje.
 
 ## Vztah k Prismatic platformě
 

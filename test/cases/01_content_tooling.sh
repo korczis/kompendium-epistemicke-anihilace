@@ -261,4 +261,24 @@ printf '\nEin [Link](@/kompendium/_index.md).\n' >> content/about.md
 if python3 scripts/build-graph.py --check >/dev/null 2>&1; then
   echo "build-graph --check missed a content change"; exit 1
 fi
+# howto: a page with an "Operační modus" section (a playbook) is refused and never baselined;
+# technique-name: a coded heading must name what the catalogue page with that code names.
+mkdir -p content/kompendium/case-01-howto
+printf '+++\ntitle = "Hra"\n+++\n\n## Operační modus\n\n### Krok 1\nUdělej to.\n' \
+  > content/kompendium/case-01-howto/x.md
+python3 scripts/check-ia.py --list howto | cut -f1 | grep -x 'content/kompendium/case-01-howto/x.md' >/dev/null
+if python3 scripts/check-ia.py --introduce howto >/dev/null 2>&1; then
+  echo "--introduce howto accepted"; exit 1; fi
+rm -r content/kompendium/case-01-howto
+# technique-name: a heading under a real code with the wrong name is listed; the right name is not.
+first=$(ls content/kompendium/techniques/ea-1-1-1-*.md | head -1)
+code_title=$(grep -m1 '^title' "$first" | sed -E 's/^title = "EA-[0-9.]+ (.*)"/\1/')
+mkdir -p content/kompendium/case-01-tn
+printf '+++\ntitle = "N"\n+++\n\n#### EA-1.1.1 Úplně jiný název\nText.\n' > content/kompendium/case-01-tn/x.md
+python3 scripts/check-ia.py --list technique-name | cut -f1 | grep -x 'content/kompendium/case-01-tn/x.md' >/dev/null
+printf '+++\ntitle = "N"\n+++\n\n#### EA-1.1.1 %s\nText.\n' "$code_title" > content/kompendium/case-01-tn/x.md
+if python3 scripts/check-ia.py --list technique-name | cut -f1 | grep -qx 'content/kompendium/case-01-tn/x.md'; then
+  echo "technique-name flagged the catalogue name"; exit 1; fi
+rm -r content/kompendium/case-01-tn
+
 echo "case 01: content tooling behaves"

@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 4181
+entries = 4189
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**4181 položek**, seřazených podle autora.
+**4189 položek**, seřazených podle autora.
 
 ## A
 
@@ -968,6 +968,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Historický případ: Československá normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md)</small>
 - Brentano, F. (1874). *Psychologie vom empirischen Standpunkte*. Duncker & Humblot.  
   <small>Citováno: [Bridge: Intencionalita](@/kompendium/glossary-bridges/bridge-intentionalita.md)</small>
+- Brentano, F. (1874). *Psychologie vom empirischen Standpunkte*. Leipzig: Duncker & Humblot.  
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Brewer, B. W., Van Raalte, J. L., & Linder, D. E. (1993). Athletic identity: Hercules' muscles or Achilles heel? *International Journal of Sport Psychology*.  
   <small>Citováno: [Případ 43: Totalizace v elitním sportu](@/kompendium/case-studies/43-elite-sports-totalizace.md)</small>
 - Brewer, N., Potter, R., Fisher, R. P., Bond, N., & Luszcz, M. A. (1999). *Beliefs and data on the relationship between consistency and accuracy of eyewitness testimony*. Applied Cognitive Psychology.  
@@ -3458,6 +3460,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-7.1.9 Heidegger: pobyt (Dasein)](@/kompendium/techniques/ea-7-1-9-heidegger-dasein.md)</small>
 - Heidegger, M. (1927). *Sein und Zeit*. Halle: Max Niemeyer.  
   <small>Citováno: [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md)</small>
+- Heidegger, M. (1927). *Sein und Zeit*. Halle: Max Niemeyer. Česky: *Bytí a čas*. Praha: Oikoymenh.  
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Heidegger, M. (1927). *Sein und Zeit*. Max Niemeyer.  
   <small>Citováno: [7.49 Clark: Natural-Born Cyborgs a hluboká integrace s technologiemi](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md)</small>
 - Heidegger, M. (1927). *Sein und Zeit*. Max Niemeyer. Česky: *Bytí a čas*. Oikoymenh.  
@@ -3778,6 +3782,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bridge: Mereologická rekonstrukce](@/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md)</small>
 - **Husserl, E.** (1913/1976). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie*. Den Haag: Nijhoff. — Intencionalita, fenomenologická redukce, eidetická intuice.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie. Erstes Buch*. Halle: Max Niemeyer.  
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie*. Halle: Max Niemeyer.  
   <small>Citováno: [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md)</small>
 - Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*.  
@@ -3790,6 +3796,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Detekční signatura: Temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md)</small>
 - Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins*  
   <small>Citováno: [Husserlova retence](@/glossary/husserl-retence.md)</small>
+- Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (M. Heidegger, Ed.). Halle: Max Niemeyer.  
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Husserl, E. (1928). *Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins* (M. Heidegger, Ed.). Max Niemeyer.  
   <small>Citováno: [Sebe-obrana: Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md)</small>
 - Husserl, E. (1931). *Méditations cartésiennes* (Karteziánské meditace).  
@@ -3802,6 +3810,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bridge: Lebenswelt (žitý svět)](@/kompendium/glossary-bridges/bridge-lebenswelt.md)</small>
 - Husserl, E. (1954). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie*. Martinus Nijhoff.  
   <small>Citováno: [Detekční signatura: Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)</small>
+- Husserl, E. (1954). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie* (W. Biemel, Ed.). Den Haag: Martinus Nijhoff.  
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Husserl, E. (1966). *Analysen zur passiven Synthesis* (Husserliana XI; přednášky 1918–1926).  
   <small>Citováno: [Pasivní syntéza](@/glossary/pasivni-synteza.md)</small>
 - Husserl, E. (1970). *The Crisis of European Sciences and Transcendental Phenomenology* (přel. D. Carr). Northwestern University Press.  
@@ -4073,6 +4083,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Syntetické a analytické soudy](@/glossary/synteticke-analyticke.md)</small>
 - Kant, I. (1781/1787). *Kritik der reinen Vernunft* (Kritika čistého rozumu).  
   <small>Citováno: [Věc o sobě (Ding an sich)](@/glossary/ding-an-sich.md), [Hraniční koncept](@/glossary/hranicni-koncept.md), [Kantovy kategorie](@/glossary/kantovy-kategorie.md) a 1 dalších</small>
+- Kant, I. (1781/1787). *Kritik der reinen Vernunft*. Riga: Johann Friedrich Hartknoch.  
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Kant, I. (1781). *Kritik der reinen Vernunft*. Riga: J. F. Hartknoch.  
   <small>Citováno: [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md)</small>
 - Kanter, R. M. (1972). *Commitment and Community: Communes and Utopias in Sociological  
@@ -5396,11 +5408,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.  
   <small>Citováno: [7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md), [7.15 Sartre: Existencialismus, špatná víra a svoboda](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md), [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md) a 2 dalších</small>
 - **Merleau-Ponty, M.** (1945). *Phénoménologie de la perception*. Paris: Gallimard. — Tělesnost, vnímání, [tělesné schéma](@/glossary/body-schema.md).  
-  <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md), [Most: Základní kategorie → Teoretické reflexe](@/kompendium/section-bridges/bridge-03-to-07-techniky-teorie.md), [Most: Ultramární techniky → Teoretické reflexe](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md)</small>
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md), [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md), [Most: Základní kategorie → Teoretické reflexe](@/kompendium/section-bridges/bridge-03-to-07-techniky-teorie.md) a 1 dalších</small>
 - Merleau-Ponty, M. (1964). *Le Visible et l'invisible*.  
   <small>Citováno: [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md)</small>
 - Merleau-Ponty, M. (1964). *Le Visible et l'invisible* (C. Lefort, Ed.). Gallimard.  
   <small>Citováno: [7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)</small>
+- Merleau-Ponty, M. (1964). *Le visible et l'invisible* (C. Lefort, Ed.). Paris: Gallimard.  
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Merry, S. E. (1988). Legal pluralism. *Law & Society Review*, 22(5).  
   <small>Citováno: [Kolektivistické kultury — EA](@/kompendium/international/18-collective-cultures-EA/index.md)</small>
 - Merry, S. E. (2006). *Human Rights and Gender Violence: Translating International Law into Local Justice*. University of Chicago Press.  
@@ -8276,7 +8290,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen* (Filosofická zkoumání).  
   <small>Citováno: [Konsenzuální realita](@/glossary/konsenzualni-realita.md)</small>
 - **Wittgenstein, L.** (1953). *Philosophische Untersuchungen*. Oxford: Blackwell. — Jazykové hry, rodinné podobnosti.  
-  <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md), [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen / Philosophical Investigations*.  
   <small>Citováno: [Privátní jazyk](@/glossary/privatni-jazyk.md)</small>
 - Wittgenstein, L. (1953). *Philosophische Untersuchungen / Philosophical Investigations*. Blackwell.  
@@ -8401,6 +8415,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-8.2.3 Šest podmínek myšlenkové reformy (Singerová)](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md)</small>
 - Zablocki, B., & Robbins, T. (Eds.). (2001). *Misunderstanding Cults*. University of Toronto  
   <small>Citováno: [EA-8.3.1 Základní literatura](@/kompendium/techniques/ea-8-3-1-foundational-readings.md), [EA-8.3.9 Literatura cult studies](@/kompendium/techniques/ea-8-3-9-cult-studies-literature.md)</small>
+- Zadeh, L. A. (1965). Fuzzy sets. *Information and Control*, 8(3), 338–353.  
+  <small>Citováno: [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)</small>
 - Zahavi, D. (2003). *Husserl's Phenomenology*. Stanford University Press.  
   <small>Citováno: [Bridge: Epoché](@/kompendium/glossary-bridges/bridge-epoche.md), [Bridge: Fenomenologie](@/kompendium/glossary-bridges/bridge-fenomenologie.md)</small>
 - Zahavi, D. (2005). *Subjectivity and Selfhood*.  

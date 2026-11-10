@@ -184,7 +184,7 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — terminální stav, kdy meta-reflexe se zhroutí v jediný sebereferenční bod.
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — úplný kolaps meta-reflexivní kapacity.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození EA-5.2.1 až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
 ## Vztah k Prismatic platformě
 

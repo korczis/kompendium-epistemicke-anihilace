@@ -177,7 +177,6 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — pseudo-transcendence se zhroutí do sebereferenčního bodu.
-- **[EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)**.
 
 ## Vztah k Prismatic platformě
 

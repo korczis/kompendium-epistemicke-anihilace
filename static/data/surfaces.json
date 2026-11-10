@@ -17,10 +17,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 283
+    "viz/okoli": 281
    },
    "libraries": [],
-   "pages": 284,
+   "pages": 282,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -98,14 +98,14 @@
    ],
    "status": "covered",
    "templates": {
-    "glossary/detail.html": 283,
+    "glossary/detail.html": 281,
     "glossary/list.html": 1
    },
    "views": {
     "chart-inline": 1,
-    "mermaid": 3,
+    "mermaid": 1,
     "viz/glosar": 1,
-    "viz/kontext": 283
+    "viz/kontext": 281
    }
   },
   "kompendium": {
@@ -1559,9 +1559,9 @@
      ],
      "note": "pohled teorie-pojmy: graf pojmů nejodkazovanější teoretické reflexe",
      "origin": "derived",
-     "page": "kompendium/07-teoreticke-reflexe/filosoficky-ramec.md",
+     "page": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
      "painted": 1,
-     "path": "kompendium/07-teoreticke-reflexe/filosoficky-ramec/"
+     "path": "kompendium/07-teoreticke-reflexe/politicka-ea/"
     }
    ],
    "scripts": [

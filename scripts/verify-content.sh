@@ -87,12 +87,6 @@ nodes = json.load(open("static/data/graph.json"))["nodes"]
 missing = [n["url"] for n in nodes if not (pathlib.Path(sys.argv[1]) / n["url"].strip("/") / "index.html").exists()]
 print(f"{len(missing)} of {len(nodes)} graph urls have no built page", *missing[:10], sep="\n")
 sys.exit(1 if missing else 0)' "$work/.out"
-# The cases export the index themselves and need the repository, so they run from its root;
-# the case scripts are read from the work tree, so an unstaged change there would run instead
-# of the committed one (2026-11-10: an unstaged case ran against a tree without its code).
-step "test/ is staged"            git -C "$root" diff --quiet -- test/
-step "test/run.sh"                bash "$root/test/run.sh"
-
 if [ "$fix" = --fix ]; then
   python3 scripts/check-ia.py --update-baseline >/dev/null
   cp scripts/ia-baseline.json "$root/scripts/ia-baseline.json"
@@ -103,4 +97,12 @@ if [ "$fix" = --fix ]; then
   (cd "$root" && git add $derived)
   echo "verify-content: derived files regenerated from the staged tree and staged"
 fi
+# test/run.sh's cases export the repository index (not $work), so with --fix the derived files
+# are staged HERE, before it, or case 02 (build-surfaces --check) reads a stale surfaces.json.
+# The cases export the index themselves and need the repository, so they run from its root;
+# the case scripts are read from the work tree, so an unstaged change there would run instead
+# of the committed one (2026-11-10: an unstaged case ran against a tree without its code).
+step "test/ is staged"            git -C "$root" diff --quiet -- test/
+step "test/run.sh"                bash "$root/test/run.sh"
+
 echo "verify-content: the staged tree passes every content gate"

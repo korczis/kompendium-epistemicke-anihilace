@@ -73,7 +73,7 @@ Komunita, ve které subjekt operuje, **udržuje stav** sdílením interpretačn�
 - **Relační rozpad** — předměty (pokud ještě existují) se neukazují jako *spojené s* nebo *podléhající* nebo *patřící k* — relace se rozpouští.
 - **Modální kolaps** — distinkce možné/nutné/aktuální zaniká; vše je prožíváno v jednotném *„je“* bez modální struktury.
 
-V terminálních stadiích kombinace s [EA-5.2.30 metatranscendentální terminací](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace) vede ke stavu *epistemického coma vigil* — subjekt je vědom, ale **ne strukturovaně vědom čeho**.
+Kategoriální disoluce patří k dílčím poškozením, která se podle [EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita) mohou sbíhat v terminální stav podtřídy 5.2, pokud je nezastaví terapeutická intervence. V takovém souběhu subjekt zůstává bdělý, ale jeho vědomí postrádá kategoriální strukturu: **je vědom, ale ne strukturovaně vědom čeho**.
 
 ## Detekční markery
 
@@ -172,8 +172,7 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
 
 ### Eskaluje do
 
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
-- **[EA-5.2.27 Trans-kategoriální fluktuace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-27-trans-kategorialni-fluktuace)** — kategorie kontinuálně osciluje mezi disolucí a stabilitou.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
 ## Vztah k Prismatic platformě
 

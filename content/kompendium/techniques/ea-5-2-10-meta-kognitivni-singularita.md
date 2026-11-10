@@ -167,7 +167,7 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 
 ### Eskaluje do
 
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav celé kapitoly 7.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2 a celé kapitoly 7.
 
 ## Vztah k Prismatic platformě
 

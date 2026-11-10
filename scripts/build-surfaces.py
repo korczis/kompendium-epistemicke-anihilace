@@ -94,6 +94,7 @@ KNOWN_GAPS = (
     "kompendium/organizational-defense",
     "kompendium/population-health",
     "kompendium/prevention-resilience",
+    "kompendium/puvodni-taxonomie",  # new class (O1); needs a surfaces.cjs scenario (dev-31)
     "kompendium/quick-reference",
     "kompendium/recovery-protocols",
     "kompendium/research-methodology",

@@ -27,7 +27,7 @@ Fenomenologicky lidé v tomto stavu popisují:
 
 - **odtažité pozorování** vlastních myšlenek, jako by šlo o vnější jevy;
 - **zhroucení autenticity** – nejistotu, které myšlenky jsou „opravdu moje“ a které byly vštípeny, podmíněny nebo zmanipulovány;
-- **kognitivní depersonalizaci** – oslabený pocit, že jsem původcem a vlastníkem svého uvažování;
+- **[kognitivní depersonalizaci](@/glossary/kognitivni-depersonalizace.md)** – oslabený pocit, že jsem původcem a vlastníkem svého uvažování;
 - **závislost na potvrzení** – nutkavé hledání vnější autority, která by vlastní závěry „ověřila“;
 - **reflexivní podezíravost vůči sobě**, která rozkládá spontánní úsudek.
 

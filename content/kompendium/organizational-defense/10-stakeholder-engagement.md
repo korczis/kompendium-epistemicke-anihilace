@@ -1,6 +1,6 @@
 +++
 title = "Zapojení stakeholderů"
-description = "Organizační obrana — zapojení stakeholderů."
+description = "Izolace organizace od lidí, jichž se dotýká, je předehrou k tunelovému vidění. Kapitola popisuje poradní orgány, konzultace s povinnou odpovědí a ochranu kritických hlasů."
 weight = 100
 
 [taxonomies]
@@ -8,95 +8,141 @@ tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["1-board-resilience", "11-onboarding-EA-awareness", "12-training-resilience", "13-exit-interview-EA"]
+related_terms = ["1-board-resilience", "9-shareholder-protection", "15-culture-survey-EA", "34-PR-narrative-defense"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Zapojení stakeholderů
 
-> **Bucket:** Governance · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Správa a řízení · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Izolace organizace od stakeholderů je preludium k EA — vnější pohled je první obrana proti vnitřnímu tunelovému vidění.
+Stakeholdeři – zákazníci, pacienti, rodiče, studenti, dodavatelé, obyvatelé, dárci,
+čtenáři – vidí organizaci zvenku a jejich pohled nelze zevnitř nahradit. Organizace, která
+přestane naslouchat, se uzavírá do [epistemické bubliny](@/glossary/epistemic-bubble.md):
+vlastní zprávy potvrzují vlastní přesvědčení a kritika se interpretuje jako nepřátelství.
+Taková izolace je pro epistemický útok uvnitř ideální – kdo ovládne vnitřní narativ, nemusí
+se obávat vnější korekce.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **zapojení stakeholderů** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve škole jsou klíčovými stakeholdery žáci a rodiče; školský zákon (zákon č. 561/2004 Sb.)
+pro ně zřizuje školskou radu, která však často funguje jen formálně. Na vysoké škole jsou
+to studenti, zastoupení v akademickém senátu, a absolventi. V nemocnici pacienti a jejich
+organizace, v médiích čtenáři a diváci, ve veřejné správě občané, kteří mají právo na
+informace podle zákona č. 106/1999 Sb., o svobodném přístupu k informacím. Ve firmě
+zákazníci, dodavatelé a místní komunita, v neziskové organizaci příjemci pomoci a dárci.
+Vzorem selhání je organizace, která konzultuje, ale nikdy nemění rozhodnutí – a postupně
+pozve jen ty, kdo souhlasí ([pseudokonsenzus](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)).
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Konzultace jsou jednosměrné: organizace informuje, ale neodpovídá.
+- Poradní orgán vybírá vedení a kritické hlasy jsou postupně nahrazeny.
+- Zpětná vazba se sbírá, ale nikdo ji nečte ani neagreguje.
+- Stížnosti vyřizuje útvar, jehož práce je předmětem stížnosti.
+- Komunikace s veřejností je řízena jako PR, nikoli jako zdroj informací.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Poradní orgán se stakeholdery, jehož složení se volí transparentně (zástupci skupin, ne
+  vybraní jednotlivci) a obměňuje.
+- Konzultace s povinnou odpovědí: ke každé zásadní připomínce organizace písemně uvede, zda
+  ji přijala, a pokud ne, proč.
+- Mechanismus „vzneseného nesouhlasu“: poradní orgán může vyžádat projednání věci
+  nejvyšším orgánem.
+- Agregace stížností a podnětů a jejich pravidelné předložení nejvyššímu orgánu, nikoli
+  jen útvaru zákaznického servisu.
+- Veřejná zpráva o konzultacích a jejich výsledku.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Vytvořte stakeholder advisory board s ročními veřejnými konzultacemi a povinným „pushback“ mechanismem.
+Nejvyšší orgán odpovídá za to, že pohled stakeholderů vstupuje do strategických rozhodnutí.
+Vedení odpovídá za organizaci konzultací a odpovědi. Útvar komunikace zajišťuje
+srozumitelnost, nikoli filtr. Interní audit nebo [auditní výbor](@/kompendium/organizational-defense/5-audit-committee-EA.md)
+ověřuje, zda se připomínky skutečně projednávají. Poradní orgán odpovídá za to, že
+reprezentuje širší skupinu, ne jen sebe.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Mapa stakeholderů s určením, jak a jak často se s nimi komunikuje.
+2. Pravidla konzultací: lhůty, zveřejnění podkladů, vypořádání připomínek.
+3. Statut poradního orgánu se způsobem výběru, obměnou a právy.
+4. Evidence stížností a podnětů s kategoriemi a s čtvrtletní agregací.
+5. Pravidlo, že žádné rozhodnutí se zásadním dopadem na stakeholdery nepadne bez
+   konzultace, kromě krizí, kdy se konzultace provede dodatečně.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Manažeři mají umět přijímat kritiku zvenčí bez obranné reakce a rozlišit kritiku obsahu od
+koordinovaných útoků (srov. [koordinace davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)
+a [sealioning](@/glossary/sealioning.md)). Tento rozdíl je důležitý: ne každá hlasitá
+kritika je manipulací a ne každá manipulace je hlasitá. Užitečné je pravidelné cvičení, při
+němž tým formuluje nejsilnější argument kritiků vlastního rozhodnutí.
 
-- Stakeholder feedback je ignorován, advisory board je dekorativní, konzultace jsou one-way.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Incidentem je situace, kdy stakeholdeři upozorňují na problém, který organizace přehlížela
+(například opakované stížnosti rodičů na jednoho učitele, pacientů na jedno oddělení):
 
-## 5. Best practices
+1. Vyhodnotit stížnosti jako soubor, ne jednotlivě –
+   [pattern evidence](@/glossary/pattern-evidence.md).
+2. Zajistit nezávislé posouzení mimo útvar, jehož se stížnosti týkají.
+3. Informovat stěžovatele o postupu a výsledku.
+4. Pokud se potvrdí, že signály byly systematicky odmítány, zahrnout to do
+   [učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md).
 
-Diverzifikované zastoupení (klienti, dodavatelé, komunita), strukturovaná deliberace, response-tracking.
+**Příklad (anonymizovaný kompozit).** Rodiče žáků jedné třídy si během dvou let stěžovali
+na ponižující hodnocení a na to, že učitel dětem tvrdí, že „si to vymýšlejí“. Každá stížnost
+byla vyřízena rozhovorem s učitelem a uzavřena jako nedorozumění. Teprve když školská rada
+požádala o přehled všech stížností za dané období, ukázal se opakovaný vzorec. Nezávislé
+posouzení vedené mimo vedení školy potvrdilo, že problém trval a byl soustavně
+rámován jako konflikt s jednotlivými rodiči.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Stakeholder, který opakovaně upozorňuje, bývá označen za „problémového rodiče“ či
+„kverulanta“. Tato nálepka je sama varovným signálem. Organizace má zajistit, aby kritik
+neutrpěl újmu (dítě ve škole, pacient při další léčbě, dodavatel při zakázkách). Zaměstnanci,
+kteří stížnostem zvenku dávají za pravdu, nesmí být kvůli tomu postihováni; při oznámení
+protiprávního jednání je chrání zákon č. 171/2023 Sb.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
-- [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
-- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
+- Zpětná vazba je ignorována, poradní orgán je dekorativní, konzultace jsou jednosměrné.
+- Složení poradního orgánu se léta nemění nebo je tvořeno blízkými vedení.
+- Organizace se o problému dozvídá z médií dřív než z vlastních kanálů.
+- Podíl připomínek, které vedly ke změně, je nulový.
+
+## Meze a otevřené otázky
+
+Stakeholdeři mají různé a protichůdné zájmy; zapojení neznamená vyhovět všem. Hlasité
+skupiny mohou přehlušit tiché (pacienty s menší kapacitou, děti, menšiny), a proto je třeba
+aktivně vyhledat ty, kdo se sami neozvou. Otevřené zůstává, jak měřit, zda organizace
+skutečně slyší, a ne jen sbírá.
+
+## Související
+
+**Sesterské kapitoly**
+
+- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md) –
+  vlastníci jako specifická skupina stakeholderů.
+- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md) –
+  kam má vnější pohled dojít.
+- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md) –
+  rozdíl mezi komunikací a nasloucháním.
 - [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
-- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
-- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+  – vnitřní obdoba vnějšího naslouchání.
 
-## 7. Connect
+**Pojmy a techniky**
 
-## Connect
+- [Epistemic bubble](@/glossary/epistemic-bubble.md) – izolace od korigujících informací.
+- [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)
+  – konzultace jako kulisa.
+- [Sealioning](@/glossary/sealioning.md) – zneužití dialogu, které je třeba odlišit od
+  legitimní kritiky.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Prevence**
+
+- [Komunitní reziliencie](@/kompendium/prevention-resilience/4-community-resilience-EA.md) –
+  organizace jako součást komunity.

@@ -1,6 +1,6 @@
 +++
 title = "Plánování nástupnictví s EA fokusem"
-description = "Organizační obrana — plánování nástupnictví s ea fokusem."
+description = "Kdo ovládá výběr nástupců, ovládá budoucnost organizace. Kapitola popisuje otevřený výběr s více kandidáty, nezávislé posouzení, schválení nejvyšším orgánem a varovné signály."
 weight = 200
 
 [taxonomies]
@@ -8,95 +8,136 @@ tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["19-mentorship-protection", "2-charter-protection", "21-decision-traceability", "22-meeting-structure"]
+related_terms = ["1-board-resilience", "18-supervisor-evaluation", "38-leadership-replacement", "37-business-continuity-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Plánování nástupnictví s EA fokusem
 
-> **Bucket:** HR & kultura · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Lidé a kultura · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Plánování nástupnictví je EA-magnet — kdo kontroluje pipeline, kontroluje budoucí směřování organizace.
+Plánování nástupnictví určuje, kdo povede organizaci za pět nebo deset let. Je proto
+přirozeným cílem každého, kdo chce svůj vliv uchovat i po vlastním odchodu – a místem, kde se
+zachycení instituce může „zabetonovat“. Vybraný nástupce, který dluží své postavení
+předchůdci, převezme jeho výklad reality i jeho síť. Kapitola popisuje, jak udělat výběr
+nástupců otevřeným, ověřitelným a odolným vůči tomu, aby se z něj stal nástroj přenosu moci.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **plánování nástupnictví s ea fokusem** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě je typické, že odcházející generální ředitel sám vybere a připraví „korunního
+prince“, a správní orgán výběr jen potvrdí. V neziskové organizaci a v hnutí, které vybudoval
+charismatický zakladatel, jde nástupnictví často na nejbližšího spolupracovníka, který
+pokračuje v [kultu osobnosti](@/glossary/kult-osobnosti.md). Na univerzitách se rektoři a
+děkani volí akademickým senátem, ale výběr kandidátů může ovládnout úzká skupina; obdobně
+vedoucí kateder a oborových rad. Ve školách jmenuje ředitele zřizovatel na základě konkurzu,
+jehož průběh může být formální. V nemocnicích jde o přednosty a primáře, ve veřejné správě o
+vedoucí míst ve výběrových řízeních, v médiích o šéfredaktory. Pro tuto oblast Kompendium
+popisuje [zachycení vedení](@/kompendium/techniques/ea-2-4-4-leadership-capture.md).
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Jediný „vyvolený“ nástupce bez srovnání s jinými kandidáty.
+- Neprůhledná kritéria, která se definují až podle vybraného kandidáta
+  ([přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md)).
+- Výběr vede odcházející vedoucí sám.
+- Externí kandidáti jsou předem vyřazeni nebo odrazeni.
+- Hodnocení kandidátů se opírá jen o názor nadřízeného, ne o data z hodnocení zdola.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Plán nástupnictví pro klíčové pozice s několika kandidáty (vnitřními i vnějšími).
+- Kritéria výběru stanovená předem a zveřejněná dotčeným, bez dodatečných změn.
+- Nezávislé posouzení kandidátů (externí hodnotící centrum, komise se členy mimo
+  organizaci).
+- Schválení výběru nejvyšším orgánem, který má k dispozici všechna hodnocení, včetně
+  [hodnocení zdola](@/kompendium/organizational-defense/18-supervisor-evaluation.md).
+- Odcházející vedoucí může kandidáty doporučit, ale nerozhoduje.
+- Zveřejněný popis pozice i pro vnitřní přesuny.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Vyžadujte minimálně 3 nezávislé kandidáty na každou klíčovou pozici, hodnocené externí assessment center.
+Nejvyšší orgán (správní rada, dozorčí rada, zřizovatel, senát) vlastní plán nástupnictví
+na nejvyšší pozice a rozhoduje o výběru. Výbor pro jmenování připravuje proces. HR vede
+databázi talentů a rozvojové programy. Odcházející vedoucí předává znalosti a podporuje
+nástupce, ale nevybírá ho. Externí hodnotitelé dodávají nezávislý pohled.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Seznam klíčových pozic s plánem nástupnictví a s pravidelnou aktualizací.
+2. Pravidlo minimálního počtu kandidátů na každou klíčovou pozici.
+3. Předem stanovená kritéria, záznam hodnocení a zdůvodnění výběru.
+4. Střet zájmů v komisi se řeší podle [politiky střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md).
+5. Nouzový plán pro nečekaný odchod – vazba na [kontinuitu podnikání](@/kompendium/organizational-defense/37-business-continuity-EA.md)
+   a [náhradu vedení](@/kompendium/organizational-defense/38-leadership-replacement.md).
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Členové výběrových komisí se učí rozpoznat [konfirmační zkreslení](@/glossary/konfirmacni-bias.md)
+vůči „známému“ kandidátovi, efekt kontrastu a tlak autority odcházejícího vedoucího. Vhodné
+je, aby komise nejdřív hodnotila kandidáty podle kritérií nezávisle a až potom diskutovala.
+Kandidáti mají vědět, jak proces probíhá a kde mohou vznést námitku.
 
-- Jediný „vyvolený“ nástupce, neprůhledný výběr, kandidáti zvenčí jsou ignorováni.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Objeví-li se podezření, že výběr byl předem rozhodnutý nebo manipulovaný (kritéria změněná
+po přihlášení, kandidáti odrazovaní, hodnocení upravené):
 
-## 5. Best practices
+1. Zajistit dokumenty výběru (inzerát, kritéria, hodnocení, zápisy) a jejich verze.
+2. Nechat proces posoudit nezávislou osobou.
+3. Při potvrzení výběr opakovat nebo doplnit; jmenování do vyjasnění pozastavit.
+4. Vyhodnotit, kdo proces ovlivnil, a zahrnout to do [učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md).
 
-External assessment, transparentní kritéria, board ratification, public job description i pro internal moves.
+**Příklad (anonymizovaný kompozit).** Zakladatelka neziskové organizace ohlásila odchod a
+představila správní radě jediného nástupce, svého dlouholetého asistenta. Rada na žádost
+jednoho člena vypsala otevřené výběrové řízení. Rozhovory s kandidáty a s týmem ukázaly, že
+navržený nástupce prosazoval stejný styl vedení, kvůli němuž tým opouštěli zkušení lidé.
+Rada vybrala vnějšího kandidáta a zakladatelce nabídla čestnou, nevýkonnou roli.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Neúspěšní vnitřní kandidáti, kteří proces zpochybnili, mohou být vnímáni jako nelojální.
+Organizace musí zajistit, aby za námitku nebyli postiženi. Pokud zaměstnanec oznámí
+protiprávní ovlivnění výběru (například v orgánu veřejné moci), chrání ho zákon č. 171/2023 Sb.
+Kandidáti, kteří byli v procesu manipulováni (sliby, pak odmítnutí), potřebují férovou
+zpětnou vazbu.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
-- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
-- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
-- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
-- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
-- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
-- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Jediný vyvolený nástupce, neprůhledný výběr, vnější kandidáti ignorováni.
+- Kritéria se mění v průběhu výběru.
+- Nástupce do roka obnoví stejné vzorce jako předchůdce.
+- Nejvyšší orgán dostává jen informace od odcházejícího vedoucího.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Kontinuita má hodnotu a vnitřní nástupce, kterého předchůdce připravoval, může být nejlepší
+volbou; cílem není vyloučit ho, ale ověřit. Příliš formální výběr odrazuje kvalitní
+kandidáty. Otevřené zůstává, jak řešit nástupnictví v malých organizacích a rodinných
+firmách, kde je vnější výběr nereálný – tam pomáhá aspoň vnější hodnotitel a jasná kritéria.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md) –
+  orgán, který o nástupnictví rozhoduje.
+- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
+  – data o tom, jak kandidát vede lidi.
+- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md) – když
+  nástupnictví přichází v krizi.
+- [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)
+  – nouzový plán.
+
+**Techniky a pojmy**
+
+- [EA-2.4.4 Leadership Capture](@/kompendium/techniques/ea-2-4-4-leadership-capture.md) –
+  zachycení vedení.
+- [EA-2.4.5 Evaluation Criteria Rewrite](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md)
+  – kritéria přizpůsobená kandidátovi.
+- [Kult osobnosti](@/glossary/kult-osobnosti.md) – nástupnictví po charismatickém vůdci.
+
+**Případy**
+
+- [Případ 64: NGO kult](@/kompendium/case-studies/64-ngo-cult.md) – nezisková organizace
+  kolem zakladatele.

@@ -1,6 +1,6 @@
 +++
 title = "Ochrana zakládací listiny"
-description = "Organizační obrana — ochrana zakládací listiny."
+description = "Jak chránit stanovy, statut či zřizovací listinu před tichými změnami, které mění smysl organizace: verzování, dvoukolové schvalování, kontrola znění."
 weight = 20
 
 [taxonomies]
@@ -8,95 +8,150 @@ tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["18-supervisor-evaluation", "19-mentorship-protection", "20-succession-planning-EA", "21-decision-traceability"]
+related_terms = ["8-policy-review-cycles", "9-shareholder-protection", "21-decision-traceability", "24-documentation-standards"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Ochrana zakládací listiny
 
-> **Bucket:** Governance · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Správa a řízení · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Stanovy a charty jsou DNA organizace — jejich tichá modifikace je nejsubtilnější forma EA na institucionální úrovni.
+Stanovy, zakladatelská listina, statut, zřizovací listina nebo nadační listina určují, k čemu
+organizace existuje, kdo v ní o čem rozhoduje a kdo komu skládá účty. Jsou to texty, na
+které se v běžném provozu nikdo nedívá – a právě proto je jejich tichá úprava jednou z
+nejméně viditelných podob epistemického útoku na úrovni instituce. Kdo změní definici účelu,
+kvóra nebo pravomocí, změní i to, co bude organizace později považovat za „normální“.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **ochrana zakládací listiny** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Vzorec [skrytého přepisování pravidel](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)
+se v zakládacích dokumentech projevuje malými zásahy s velkým dopadem: přesun pravomoci z
+kolektivního orgánu na jednotlivce, prodloužení mandátu, zúžení okruhu, kdo smí svolat
+mimořádné jednání, vypuštění povinnosti zveřejňovat zprávy. Ve spolku nebo neziskové
+organizaci k tomu dochází často „při aktualizaci stanov“, kterou připraví jeden člověk a
+členská schůze ji schválí bez čtení. Ve firmě se mění zakladatelské právní jednání při
+transakci, kdy pozornost směřuje jinam. Na veřejné vysoké škole se podobný posun může skrýt
+ve změně vnitřního předpisu, v nemocnici či škole v organizačním řádu, ve veřejné instituci
+ve zřizovací listině. Výsledkem je, že lidé dál jednají podle představy o organizaci, která
+už formálně neplatí.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- **Nečitelnost změn.** Nové znění se předkládá vcelku, bez srovnání se starým; drobné
+  úpravy pojmů ([sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md))
+  nejsou vidět.
+- **Monopol na přípravu.** Návrh připravuje jediná osoba nebo kancelář, která má zájem na
+  výsledku.
+- **Časový tlak.** Schválení „dnes, kvůli termínu u rejstříku“ – vzorec
+  [vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md).
+- **Rozptýlené verze.** Neexistuje jediné úplné aktuální znění; každý pracuje s jinou
+  verzí.
+- **Odkazy na vnitřní předpisy.** Stanovy delegují podstatné věci na předpis, který mění
+  menší okruh lidí.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Úplné znění vedené ve verzovaném úložišti s historií všech změn a s povinným
+  srovnáním (redline) při každé navržené změně, i typografické.
+- Dvoukolové schvalování podstatných změn: první čtení s lhůtou na připomínky, druhé
+  hlasování.
+- Kvalifikovaná většina a ochranná ustanovení pro změnu účelu, pravomocí orgánů a práv
+  menšiny.
+- Nezávislé právní posouzení každé změny osobou, která návrh nepřipravovala.
+- Využití formálních pojistek, které právo dává: u obchodních korporací vyžaduje změna
+  zakladatelského právního jednání zpravidla formu veřejné listiny a změny se promítají do
+  veřejného rejstříku; vnitřní předpisy veřejné vysoké školy podléhají registraci
+  ministerstvem. Tyto pojistky kontrolují formu, ne smysl změny.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Implementujte git-style verzování všech statutárních dokumentů s povinným diff-review pro jakoukoliv změnu znění (i typografickou).
+Správce dokumentu (tajemník, právní oddělení) vede úplné znění a historii, ale nenavrhuje
+obsah. Navrhovatel změny písemně zdůvodní každou úpravu. Kontrolní orgán (dozorčí rada,
+revizní komise) ověří, že změna neoslabuje kontrolu. Členové nebo společníci mají právo na
+srovnání a lhůtu. Vedení odpovídá za to, že se podle změněných pravidel nejedná dřív, než
+nabudou účinnosti.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Každý návrh změny obsahuje srovnání se stávajícím zněním a tabulku „co se mění a proč“.
+2. Minimální lhůta mezi zveřejněním návrhu a hlasováním; zkrácení jen jednomyslně.
+3. Veřejný nebo aspoň členům dostupný přehled změn (changelog) se jménem navrhovatele.
+4. Pravidelná revize souladu praxe se zněním – navazuje na
+   [cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md).
+5. Zákaz retroaktivních úprav zápisů a zakládacích dokumentů; oprava jen formou nové,
+   datované změny – viz [dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md).
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Členové orgánů, kteří hlasují o změnách, by měli umět číst srovnání znění a rozpoznat typické
+posuny: přesun z „rozhoduje“ na „projednává“, z „schvaluje“ na „bere na vědomí“, rozšíření
+výjimek, zúžení definic. Krátké cvičení na anonymizovaných příkladech změn stanov ukáže, jak
+nenápadný může být zásah do rovnováhy moci. Užitečný je i návyk ptát se: „Kdo by tuto
+pravomoc mohl zneužít, kdyby ve funkci seděl někdo jiný?“
 
-- Změny stanov bez veřejné rozpravy, urychlené schvalování, retroaktivní úpravy.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Zjistí-li se, že změna proběhla bez řádného postupu nebo s neúplnou informací:
 
-## 5. Best practices
+1. Zajistit všechny verze, pozvánky, podklady a zápisy z jednání, kde se o změně hlasovalo
+   (principy [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md)).
+2. Rekonstruovat [časovou osu](@/kompendium/forensic-legal/33-timeline-reconstruction.md):
+   kdo navrhl, kdy, kdo dostal jaké znění.
+3. Předložit nález kontrolnímu orgánu a nechat posoudit platnost usnesení právníkem bez
+   vazby na navrhovatele; soudní přezkum usnesení mívá krátké lhůty, proto jednat bez odkladu.
+4. Do vyjasnění pozastavit kroky, které se o sporné ustanovení opírají.
 
-Veřejný changelog stanov, dvoukolové schvalování, externí právní review každé změny.
+## Ochrana dotčené osoby
 
-**Dodatečné principy:**
+Ten, kdo změnu odhalil, bývá obviněn z „formalismu“ nebo z obstrukce. Jeho podnět je
+třeba přijmout jako službu organizaci. Zaměstnanec, který upozorní na protiprávní postup,
+může požívat ochrany podle zákona č. 171/2023 Sb., o ochraně oznamovatelů, pokud oznámení
+spadá do jeho rozsahu. Členové, jejichž práva změna omezila, potřebují srozumitelné
+vysvětlení, co se změnilo a jaké mají možnosti.
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+## Vyhodnocení a indikátory selhání
 
-## 6. Cross-linky
+- Změny bez veřejné rozpravy, urychlené schvalování, retroaktivní úpravy.
+- Nikdo nedokáže předložit úplné aktuální znění.
+- Historie změn chybí nebo je neúplná.
+- Pravomoci se postupně koncentrují u jedné funkce.
 
-- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
-- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
-- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
+Ukazatelem funkčnosti je, že se člen dokáže do deseti minut dozvědět, co platí a kdy a
+proč se to změnilo.
+
+## Meze a otevřené otázky
+
+Ochrana znění nechrání před tím, kdo pravidla obchází, aniž by je měnil. Příliš rigidní
+stanovy brání nutné adaptaci; cílem není zmrazení, ale viditelnost změn. Otevřenou otázkou
+je, jak zapojit členy, kteří na čtení dokumentů nemají kapacitu – srozumitelné shrnutí změn
+je proto součástí obrany, ne zdvořilost.
+
+## Související
+
+**Sesterské kapitoly**
+
+- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md) –
+  pravidelná kontrola, zda platné znění odpovídá praxi.
+- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md) –
+  práva menšiny, která tichá změna stanov ohrožuje nejdřív.
 - [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+  – záznam, kdo a proč změnu navrhl.
+- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
+  – verzování a vlastnictví dokumentů.
 
-## 7. Connect
+**Techniky a signatury**
 
-## Connect
+- [EA-2.4.2 Policy Rewriting Skrytá](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)
+  – vzorec skrytého přepisování pravidel.
+- [EA-2.4.5 Evaluation Criteria Rewrite](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md)
+  – příbuzná změna kritérií hodnocení.
+- [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) –
+  jak se posun skrývá v pojmech.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Právo a důkaz**
+
+- [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md) –
+  postup při zpětném dohledání změn.
+- [Forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) – jak
+  zajistit verze a zápisy.

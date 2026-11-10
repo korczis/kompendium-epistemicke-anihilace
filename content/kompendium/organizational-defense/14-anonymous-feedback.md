@@ -1,6 +1,6 @@
 +++
 title = "Anonymní zpětná vazba"
-description = "Organizační obrana — anonymní zpětná vazba."
+description = "Bez skutečně anonymního kanálu lidé problém s nadřízeným nenahlásí. Kapitola popisuje technickou anonymitu, prahy agregace, rozdíl mezi anonymitou a důvěrností a meze kanálu."
 weight = 140
 
 [taxonomies]
@@ -8,95 +8,141 @@ tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["12-training-resilience", "13-exit-interview-EA", "15-culture-survey-EA", "16-psychological-safety"]
+related_terms = ["4-whistleblower-mechanism", "6-ombudsman-role", "13-exit-interview-EA", "15-culture-survey-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Anonymní zpětná vazba
 
-> **Bucket:** HR & kultura · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Lidé a kultura · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Bez skutečně anonymního kanálu zaměstnanci nikdy nenahlásí problémy s šéfem — strach je silnější než loajalita.
+Lidé v závislém postavení – podřízení, studenti, pacienti, mladší kolegové – se o problémech
+s tím, na kom závisí, vyjadřují jen tehdy, když nehrozí, že budou poznáni. Strach z odvety je
+silnější než loajalita k organizaci. Anonymní kanál zpětné vazby je proto nástrojem, který
+zachytí slabé signály dřív, než přerostou v krizi. Funguje však jen tehdy, když je anonymita
+skutečná, a ne jen slíbená.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **anonymní zpětná vazba** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě je typickým selháním „anonymní“ průzkum rozesílaný firemním e-mailem s
+individuálními odkazy. Na univerzitě studentská hodnocení výuky, z nichž lze v malém
+semináři snadno poznat autora podle stylu nebo detailu. Ve škole dotazníky pro žáky, které
+vyhodnocuje sám hodnocený učitel. V nemocnici systémy hlášení nežádoucích událostí, které
+sice umožňují anonymitu, ale v malém oddělení je autor zřejmý. V malé neziskové organizaci je
+anonymita téměř nedosažitelná. Riziko je dvojí: lidé buď nemluví, nebo mluví a jsou
+identifikováni – a druhá možnost organizaci poškodí dlouhodobě, protože všichni ostatní se
+poučí.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Kanál provozuje IT nebo HR organizace se záznamy přístupů (IP adresy, časy, účty).
+- Výsledky se zobrazují pro malé skupiny, z nichž lze autora odvodit.
+- Otevřené odpovědi obsahují detaily, podle nichž je autor poznatelný.
+- Hodnocený má přístup k surovým odpovědím.
+- Na podnět nelze reagovat, protože s anonymním autorem nelze komunikovat.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Externí provozovatel, u něhož organizace technicky nemá přístup k identifikačním údajům.
+- Práh agregace: výsledky se zobrazují jen pro skupiny s dostatečným počtem odpovědí
+  (například deset a více); menší skupiny se slučují.
+- Anonymizace otevřených odpovědí třetí stranou před předáním (odstranění jmen, dat, míst).
+- Možnost obousměrné anonymní komunikace (kód, pod nímž se autor může vrátit k odpovědi).
+- Jasné rozlišení: **anonymita** znamená, že identitu nezná nikdo; **důvěrnost** znamená,
+  že ji zná jen určená osoba, která ji chrání. Vnitřní oznamovací systém podle zákona
+  č. 171/2023 Sb. pracuje zpravidla s důvěrností; přijímání anonymních oznámení zákon
+  neukládá.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Nasazte zero-knowledge platformu (např. AllVoices, Vault) s technickou nemožností de-anonymizace ze strany zaměstnavatele.
+HR vlastní kanál a jeho pravidla, externí provozovatel zajišťuje technickou anonymitu.
+Analytik agreguje podněty a hledá vzorce. Vedení odpovídá za reakci a za zveřejnění, co
+se s podněty stalo. [Ombudsman](@/kompendium/organizational-defense/6-ombudsman-role.md)
+může pomáhat interpretovat podněty bez identifikace autorů. Hodnocení vedoucí nemají přístup
+k surovým datům svých týmů.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Pravidla kanálu: co je anonymní, co důvěrné, kdo vidí jaká data.
+2. Práh agregace a pravidlo slučování malých skupin.
+3. Postup vyřizování podnětů: kategorizace, vzorce, předání k prověření, odpověď.
+4. Zákaz pátrání po identitě autora; porušení je kázeňským proviněním.
+5. Pravidelné zveřejnění souhrnu: kolik podnětů, jaké typy, jaká opatření.
+6. Propojení s [kulturním průzkumem](@/kompendium/organizational-defense/15-culture-survey-EA.md)
+   a [exit interview](@/kompendium/organizational-defense/13-exit-interview-EA.md) pro
+   triangulaci.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Zaměstnanci mají vědět, jak kanál funguje a proč je bezpečný; nejpřesvědčivější je
+nezávislé ověření (audit provozovatele) a viditelné reakce na podněty. Vedoucí se učí
+přijímat anonymní kritiku bez pátrání po autorovi a bez „kolektivního trestu“ týmu. Analytici
+potřebují umět rozlišit vzorec od jednotlivého podnětu a vědět, že anonymní kanál může být
+zneužit ke koordinované kampani proti jednotlivci
+([koordinace davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)).
 
-- „Anonymní“ survey přes firemní email, IP tracking, malé skupiny umožňující identifikaci.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+1. Podnět s vážným obsahem (šikana, ohrožení bezpečnosti) se předá k prověření bez
+   identifikace autora.
+2. Prověření se opírá o další zdroje: vzorce v datech, rozhovory s celým týmem, dokumenty.
+3. Pokud se podnět týká jednotlivce, má dotčený právo se vyjádřit; anonymní tvrzení samo
+   o sobě nestačí k sankci.
+4. Autor se přes anonymní kód dozví, že se věc řeší.
 
-## 5. Best practices
+**Příklad (anonymizovaný kompozit).** Anonymní podněty z jednoho útvaru městského úřadu
+opakovaně popisovaly, že vedoucí ponižuje zaměstnance na poradách a mění zápis. Prověření
+nevycházelo z podnětů samotných, ale z porovnání zápisů s nahrávkami a z rozhovorů se všemi
+členy týmu. Teprve tento souběh zdrojů umožnil opatření.
 
-Externí provider, agregace pouze ≥10 odpovědí, transparentní zveřejňování response-rate.
+## Ochrana dotčené osoby
 
-**Dodatečné principy:**
+Ochrana autora spočívá v tom, že identita není technicky dostupná a že pátrání po ní je
+zakázáno. Ochrana osoby, na kterou podnět míří, spočívá v tom, že anonymní tvrzení se
+ověřuje, nesdílí se jako fakt a dotčený má právo se vyjádřit. Pokud se ukáže, že kanál byl
+použit k cílené kampani, je třeba chránit i jejího adresáta – i to je forma
+[poškození pověsti](@/kompendium/forensic-legal/14-defamation-EA.md).
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+## Vyhodnocení a indikátory selhání
 
-## 6. Cross-linky
+- „Anonymní“ průzkum přes firemní e-mail, sledování přístupů, malé skupiny umožňující
+  identifikaci.
+- Podnětů je málo nebo jsou jen pozitivní.
+- Po podnětu následuje pátrání po autorovi nebo kolektivní tlak na tým.
+- Lidé v průzkumu uvádějí, že kanálu nevěří.
 
-- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
-- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
-- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
-- [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
+Měří se míra důvěry v anonymitu, počet a typy podnětů, podíl podnětů s reakcí a doba
+reakce.
+
+## Meze a otevřené otázky
+
+Anonymita chrání autora, ale ztěžuje ověření a dialog. V malých kolektivech je téměř
+nedosažitelná a je poctivější nabídnout důvěrnost u externí osoby. Anonymní kanál nenahradí
+kulturu, v níž lze mluvit otevřeně – je přechodným nástrojem, ne cílem. Otevřené zůstává,
+jak vyvážit ochranu autora a spravedlnost vůči osobě, na kterou podnět míří.
+
+## Související
+
+**Sesterské kapitoly**
+
 - [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+  – formální kanál pro protiprávní jednání.
+- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md) – důvěrný
+  osobní kanál.
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
+  – strukturovaný sběr dat.
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+  – cíl, k němuž anonymní kanál vede.
 
-## 7. Connect
+**Kritika a etika**
 
-## Connect
+- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md) –
+  etika zacházení s důvěrnými údaji.
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)
+  – proč anonymní tvrzení vyžaduje ověření.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Techniky**
+
+- [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) –
+  zneužití kanálu ke kampani.

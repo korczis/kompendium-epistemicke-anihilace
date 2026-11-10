@@ -1,6 +1,6 @@
 +++
 title = "Komunikační politika"
-description = "Organizační obrana — komunikační politika."
+description = "Neformální a mizející kanály umožňují obejít formální záznam i kontrolu. Kapitola popisuje, co musí jít auditovatelným kanálem, uchovávání, oficiální kanály vůči dětem a soukromí lidí."
 weight = 230
 
 [taxonomies]
@@ -8,95 +8,142 @@ tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["21-decision-traceability", "22-meeting-structure", "24-documentation-standards", "25-vendor-management-EA"]
+related_terms = ["21-decision-traceability", "22-meeting-structure", "24-documentation-standards", "27-information-classification"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Komunikační politika
 
-> **Bucket:** Operativní · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Provoz · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-EA aktéři využívají „informální“ kanály k obejití formálních záznamů — politika musí kanonizovat audit trail.
+Komunikační politika určuje, kterými kanály organizace komunikuje, co se zaznamenává a jak
+dlouho se to uchovává. Na první pohled jde o technickou otázku. Ve skutečnosti rozhoduje o
+tom, zda bude možné zpětně zjistit, co kdo komu řekl. Klíčová rozhodnutí v telefonátech,
+pokyny ve zprávách, které po týdnu zmizí, a věta „to jsme řešili na obědě“ vytvářejí prostor,
+v němž lze dodatečně tvrdit cokoli – a v němž se těžko brání ten, komu se nevěří.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **komunikační politika** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě se rozhodnutí a pokyny přesouvají do soukromých chatů a mizejících zpráv, mimo
+archiv. Ve veřejné správě platí povinnosti spisové služby (zákon č. 499/2004 Sb., o
+archivnictví a spisové službě) a právo veřejnosti na informace; obcházení přes soukromé
+kanály tak oslabuje i veřejnou kontrolu. Ve škole je komunikační politika ochranou dětí:
+komunikace pedagogů s žáky má probíhat oficiálními kanály, protože soukromá komunikace je
+typickým prostředím [groomingu](@/glossary/child-grooming.md). V nemocnici jde o sdílení
+údajů o pacientech v neoficiálních aplikacích. Ve výzkumu o pokyny k datům, které nejsou
+nikde zapsány. V neziskové organizaci a médiích o pokyny vedení, které „nikdy nepadly“.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Neexistuje pravidlo, které komunikace musí jít auditovatelným kanálem.
+- Mizející zprávy a soukromé účty se používají pro pracovní pokyny.
+- Retence je nastavena tak, že záznamy zmizí dřív, než je lze potřebovat.
+- Klíčoví lidé nejsou v kopii; informace se předává selektivně
+  ([asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md)).
+- Archivy nejsou prohledávatelné, takže záznam „existuje“, ale nelze ho najít.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Seznam typů komunikace, které musí jít auditovatelným kanálem (pracovní e-mail, systém
+  úkolů, spisová služba): rozhodnutí, pokyny, schválení výjimek, hodnocení, komunikace s
+  dětmi a pacienty, komunikace s dodavateli o zakázkách.
+- Pravidlo „potvrzení písemně“: ústní pokyn se do stanovené doby potvrdí písemně.
+- Politika uchovávání s dobou podle typu záznamu, souladná s právem (archivnictví, ochrana
+  osobních údajů, účetnictví) a s blokací mazání při sporu nebo šetření.
+- Zákaz mizejících zpráv pro pracovní pokyny a rozhodnutí.
+- Prohledávatelný archiv s řízeným přístupem.
+- Hranice vůči soukromí: zákoník práce (zákon č. 262/2006 Sb.) a GDPR omezují, jak smí
+  zaměstnavatel kontrolovat komunikaci zaměstnanců; politika chrání záznam, nikoli plošné
+  sledování.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Definujte, která rozhodnutí MUSÍ být na auditovatelném kanálu (ne Signal/WhatsApp/in-person only).
+Vedení odpovídá za to, že samo dodržuje pravidla – politika, kterou porušuje nejvyšší
+vedení, neplatí pro nikoho. IT zajišťuje technické nastavení retence a archivu. Pověřenec
+pro ochranu osobních údajů posuzuje soulad. Compliance kontroluje dodržování. Každý
+zaměstnanec odpovídá za to, že pracovní pokyn, který dostal neoficiálním kanálem, potvrdí
+oficiálně.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Komunikační politika s rozdělením kanálů a typů komunikace.
+2. Postup při ústních a neformálních pokynech (potvrzení e-mailem nebo v systému).
+3. Retenční plán a postup blokace mazání (legal hold).
+4. Pravidla pro komunikaci s dětmi, pacienty a jinými zranitelnými osobami.
+5. Pravidla pro oficiální komunikaci navenek – navazuje na
+   [PR obranu narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md).
+6. Vazba na [klasifikaci informací](@/kompendium/organizational-defense/27-information-classification.md).
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Zaměstnanci se učí, proč je písemné potvrzení ochranou i pro ně, a jak ho formulovat
+nekonfliktně („Abych to měl správně: dohodli jsme se, že…“). Vedoucí se učí, že
+požadavek „to nepiš“ je varovný signál, a to i když ho sami vyslovují z pohodlnosti. Ve
+školách pedagogové procházejí pravidly komunikace s žáky a rodiči. Pro všechny je užitečné
+vědět, jak si vést vlastní pracovní poznámky.
 
-- Klíčová rozhodnutí v telefonátech, mizející Signal zprávy, „to jsme řešili na obědě“.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Zjistí-li se, že klíčová komunikace probíhala mimo auditovatelné kanály nebo byla smazána:
 
-## 5. Best practices
+1. Okamžitě vyhlásit blokaci mazání pro dotčené osoby a systémy.
+2. Zajistit dostupné záznamy u všech účastníků a dokumentovat, co chybí – viz
+   [uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md).
+3. Rekonstruovat komunikaci z nepřímých stop (kalendáře, odpovědi, poznámky).
+4. Posoudit, zda šlo o nedbalost, nebo o úmysl; úmyslné ničení záznamů při šetření je
+   vážné porušení.
 
-Email/ticket-based decisions, retention policy, mandatory CC pro key stakeholders, search-indexed archives.
+**Příklad (anonymizovaný kompozit).** Při šetření stížností na vedoucího ve veřejné instituci
+se ukázalo, že všechny pokyny dával jen telefonicky a v aplikaci s mizejícími zprávami.
+Podřízení si však vedli poznámky a někteří posílali potvrzující e-maily. Souběh těchto
+záznamů umožnil rekonstruovat vzorec, který vedoucí popíral.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Zaměstnanec, který žádá písemné potvrzení pokynu nebo upozorní na mazání záznamů, nesmí být
+označen za nedůvěřivého nebo nelojálního. Pokud upozorní na ničení záznamů v souvislosti s
+protiprávním jednáním, může být chráněn podle zákona č. 171/2023 Sb. Člověk, jehož slovo
+stojí proti slovu nadřízeného bez záznamu, se ocitá v situaci, kdy se mu nevěří; vlastní
+záznamy mu pomáhají udržet si důvěru ve vlastní paměť (srov.
+[paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)).
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
+- Klíčová rozhodnutí v telefonátech, mizející zprávy, „to jsme řešili na obědě“.
+- Retence maže záznamy dřív, než mohou být potřeba.
+- Vedení pravidla nedodržuje.
+- Při šetření chybí záznamy právě z rozhodných období.
+
+## Meze a otevřené otázky
+
+Ne všechno lze a má být zaznamenáno; lidé potřebují prostor pro neformální rozhovor a
+soukromí. Nadměrné zaznamenávání může vést k chladné, obranné komunikaci. Otevřené zůstává,
+jak zacházet s automatickými přepisy online jednání a s nástroji umělé inteligence, které
+komunikaci shrnují – shrnutí není záznam.
+
+## Související
+
+**Sesterské kapitoly**
+
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+  – záznamy rozhodnutí.
+- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md) –
+  formální místo rozhodování.
+- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
+  – kam záznamy patří.
 - [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
-- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
-- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+  – citlivost komunikace.
 
-## 7. Connect
+**Forenzní praxe**
 
-## Connect
+- [Uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md) – blokace
+  mazání a zajištění.
+- [Protokoly nahrávání](@/kompendium/forensic-legal/36-recording-protocols.md) – kdy a jak
+  nahrávat.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Pojmy a sebe-obrana**
+
+- [Child grooming](@/glossary/child-grooming.md) – proč je oficiální kanál ochranou dětí.
+- [Sebe-obrana: Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) –
+  vlastní záznamy.

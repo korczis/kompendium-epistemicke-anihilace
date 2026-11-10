@@ -1,6 +1,6 @@
 +++
 title = "Psychologická bezpečnost"
-description = "Organizační obrana — psychologická bezpečnost."
+description = "Psychologická bezpečnost je podmínkou toho, aby se v organizaci vůbec dalo mluvit o chybách a manipulaci. Kapitola popisuje znaky, vedení, spravedlivou kulturu a meze pojmu."
 weight = 160
 
 [taxonomies]
@@ -8,95 +8,135 @@ tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["14-anonymous-feedback", "15-culture-survey-EA", "17-team-rotation-policy", "18-supervisor-evaluation"]
+related_terms = ["15-culture-survey-EA", "22-meeting-structure", "40-post-incident-learning", "18-supervisor-evaluation"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Psychologická bezpečnost
 
-> **Bucket:** HR & kultura · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Lidé a kultura · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Psychologická bezpečnost není měkký benefit — je to operační prerekvizita pro detekci jakéhokoliv organizačního rizika.
+Psychologická bezpečnost je sdílené přesvědčení členů týmu, že je bezpečné riskovat
+mezilidsky: položit hloupou otázku, přiznat chybu, nesouhlasit s nadřízeným. Pojem v této
+podobě rozpracovala Amy Edmondson (1999; *The Fearless Organization*, 2018). Nejde o měkký
+benefit ani o pohodlí: je to provozní podmínka, bez níž se k rozhodovatelům nedostanou
+informace o rizicích – včetně informací o tom, že někdo v organizaci soustavně
+zkresluje realitu ostatních.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **psychologická bezpečnost** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Kde psychologická bezpečnost chybí, vzniká to, co Elizabeth Morrison a Frances Milliken
+(2000) popsaly jako organizační mlčení: lidé vědí o problémech, ale nesdělují je. V nemocnici
+to znamená, že sestra neupozorní lékaře na chybu v ordinaci, v letectví a energetice, že
+technik nehlásí odchylku. Ve škole učitel nezpochybní postup vedení vůči žákovi, na
+univerzitě doktorand neohlásí, že data nesedí. Ve firmě obchodník nezmíní, že cíle jsou
+nereálné. V médiích redaktor nezpochybní zadání. Pro epistemický útok je takové prostředí
+ideální: kdo ovládne vedení porady, ovládne i to, co se „ví“, protože nikdo nenamítne.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Nesouhlas vede k marginalizaci nebo k horšímu hodnocení.
+- Chyby se trestají bez rozlišení mezi chybou, rizikovým chováním a úmyslem.
+- Porady jsou monology vedoucího; otázky se odbývají.
+- Vedoucí reaguje na špatné zprávy hněvem nebo ironií – typický [double bind](@/glossary/double-bind.md):
+  „chci slyšet pravdu“, ale pravda je potrestána.
+- Hierarchie je strmá a kontakt s vyšším vedením jde jen přes přímého nadřízeného.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Spravedlivá kultura (just culture, Sidney Dekker 2007): rozlišení lidské chyby, rizikového
+  chování a bezohlednosti; trestá se jen to poslední.
+- Rozbory incidentů bez hledání viníka – viz [učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md).
+- Pravidelné retrospektivy týmu s otázkou „co nám nefunguje?“.
+- Veřejné ocenění toho, kdo chybu nebo riziko nahlásí.
+- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md), která dává
+  prostor všem (kolo vyjádření, písemné podklady, zápis nesouhlasu).
+- Alternativní kanály pro situace, kdy otevřenost nestačí: ombudsman, anonymní zpětná vazba.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Trénujte manažery v technikách „productive disagreement“ (Edmondson, Schein) s povinnou demonstrací při performance review.
+Vedoucí týmu je hlavní nositel psychologické bezpečnosti: jeho reakce na první nepříjemnou
+zprávu určí, zda přijde druhá. Edgar Schein v knize *Humble Inquiry* (2013) popisuje postoj
+vedoucího, který se skutečně ptá, místo aby sděloval. Vyšší vedení odpovídá za to, že
+vedoucí jsou hodnoceni i podle toho, jak s nesouhlasem zacházejí. HR měří psychologickou
+bezpečnost v [kulturním průzkumu](@/kompendium/organizational-defense/15-culture-survey-EA.md).
+Členové týmu odpovídají za to, že dávají prostor i ostatním.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Zásady spravedlivé kultury zapsané a uplatňované v kázeňských postupech.
+2. Pravidlo, že nahlášení vlastní chyby nevede samo o sobě k sankci.
+3. Pravidelné měření psychologické bezpečnosti na úrovni týmů.
+4. Zařazení zacházení s nesouhlasem do [hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md).
+5. Postup pro situace, kdy vedoucí na nesouhlas reaguje odvetou: eskalace mimo linii.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Vedoucí trénují konkrétní dovednosti: ptát se otevřeně, reagovat na špatnou zprávu poděkováním
+a otázkou, oddělit kritiku nápadu od kritiky člověka, vést „produktivní nesouhlas“. Důležité
+je, aby tyto dovednosti prokazovali v praxi, a ne jen při školení. Členové týmu se učí
+vyjádřit nesouhlas věcně a s doloženými fakty. Pro všechny je užitečné rozpoznat, kdy se
+„psychologická bezpečnost“ zneužívá jako argument proti jakékoli kritice.
 
-- Poradní porady jsou monology, dissent vede k marginalizaci, errors jsou skrývány.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Incidentem je situace, kdy se ukáže, že tým o vážném problému věděl, ale nikdo ho
+nenahlásil, nebo kdy člověk, který nahlásil, byl potrestán:
 
-## 5. Best practices
+1. Zjistit, proč informace nedošla: strach, zkušenost s odvetou, nejasný kanál.
+2. Ochránit toho, kdo nahlásil, a napravit případnou odvetu.
+3. Posoudit roli vedoucího; opakované potlačování nesouhlasu je důvodem k opatření.
+4. Projednat s týmem, co se změní, a ověřit to v dalším měření.
 
-Blameless post-mortems, regular retrospektivy, public recognition za nahlášení chyb.
+**Příklad (anonymizovaný kompozit).** V jednom oddělení nemocnice nikdo dva roky nehlásil
+nežádoucí události. Vedení to považovalo za úspěch. Rozbor po závažné události ukázal, že
+sestry, které dříve hlásily, byly veřejně kritizovány na poradě a označeny za neschopné.
+Teprve zavedení spravedlivé kultury a hlášení mimo linii oddělení obnovilo tok informací.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Ten, kdo se odvážil promluvit a byl umlčen, často prožívá stud a pochybnosti o sobě. Je
+třeba mu výslovně potvrdit, že jednal správně, a napravit důsledky. Pokud jeho hlášení
+spadalo do rozsahu zákona č. 171/2023 Sb., je chráněn jako oznamovatel. Dlouhodobé mlčení
+v týmu může mít podobu [kolektivního traumatu](@/kompendium/organizational-defense/36-trauma-aware-management.md),
+s nímž je třeba pracovat.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
-- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
-- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
-- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Porady jsou monology, nesouhlas vede k marginalizaci, chyby se skrývají.
+- Počet hlášení chyb a rizik je nízký nebo nulový.
+- V průzkumu je nízké skóre psychologické bezpečnosti a vysoké skóre strachu.
+- Lidé se ptají až po poradě, mezi čtyřma očima.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Psychologická bezpečnost neznamená absenci odpovědnosti ani nároků; vysoké nároky a vysoká
+bezpečnost se nevylučují. Pojem bývá zneužit k umlčení kritiky („tvůj tón narušuje
+bezpečnost“). Psychologická bezpečnost týmu nemusí chránit jednotlivce, který je v týmu
+menšinou. Otevřenou otázkou je, jak ji budovat v prostředí, kde je hierarchie zákonně dána
+(armáda, nemocnice, soudnictví).
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
+  – jak psychologickou bezpečnost měřit.
+- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md) – porady
+  jako místo, kde se bezpečnost projevuje.
+- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
+  – vedoucí jako nositel bezpečnosti.
+- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md) –
+  rozbory bez hledání viníka.
+
+**Pojmy**
+
+- [Double bind](@/glossary/double-bind.md) – protichůdný požadavek „řekni pravdu“ a trest za ni.
+- [Gaslighting](@/glossary/gaslighting.md) – zpochybňování vnímání toho, kdo promluví.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj vedoucího, který se ptá.
+
+**Prevence**
+
+- [Pracovní prevence EA](@/kompendium/prevention-resilience/5-workplace-prevention-EA.md) –
+  širší rámec prevence na pracovišti.

@@ -1,6 +1,6 @@
 +++
 title = "Kulturní průzkum s EA detekcí"
-description = "Organizační obrana — kulturní průzkum s ea detekcí."
+description = "Běžný průzkum spokojenosti epistemické zneužívání nezachytí. Kapitola popisuje validované škály psychologické bezpečnosti, doplňkové položky, triangulaci dat a interpretaci."
 weight = 150
 
 [taxonomies]
@@ -8,95 +8,136 @@ tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["13-exit-interview-EA", "14-anonymous-feedback", "16-psychological-safety", "17-team-rotation-policy"]
+related_terms = ["16-psychological-safety", "14-anonymous-feedback", "13-exit-interview-EA", "5-audit-committee-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Kulturní průzkum s EA detekcí
 
-> **Bucket:** HR & kultura · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Lidé a kultura · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Standardní engagement survey nezachytí EA — potřebujete validované otázky cílené na psychological safety a power dynamics.
+Průzkumy spokojenosti a angažovanosti měří, zda lidé rádi pracují, doporučili by
+organizaci a mají potřebné nástroje. Epistemické zneužívání však může probíhat v týmu,
+který vykazuje vysokou angažovanost – lidé v prostředí s vysokou kontrolou často deklarují
+nadšení a loajalitu. Průzkum, který má takové prostředí zachytit, se ptá jinak: na možnost
+nesouhlasit, na to, co se stane s chybou, na strach, na pocit vlastního úsudku. A jeho
+výsledky se nikdy nečtou izolovaně.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **kulturní průzkum s ea detekcí** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmách je typickým paradoxem tým s nejvyšším skóre angažovanosti a zároveň nejvyšší
+fluktuací. Na univerzitách výzkumná skupina, kde všichni hodnotí školitele výborně a
+přitom polovina doktorandů nedokončí. V nemocnicích oddělení s minimem hlášených nežádoucích
+událostí – což může znamenat bezpečnost, ale i strach je hlásit. Ve školách sborovna, kde
+průzkum ukazuje shodu, protože nesouhlasní učitelé odešli. V neziskových organizacích
+prostředí, kde kritika poslání působí jako zrada. Obecně: vysoké skóre může být znakem zdraví
+i [pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Průzkum měří jen spokojenost a angažovanost.
+- Výsledky dostává jako první vedoucí hodnoceného týmu a „vysvětluje“ je.
+- Anonymita není důvěryhodná (viz [anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)).
+- Průzkum se dělá jednou za dva roky a nikdo nesleduje vývoj.
+- Výsledky se nepropojují s jinými daty (fluktuace, nemocenská, stížnosti).
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Validovaná škála psychologické bezpečnosti týmu, kterou publikovala Amy Edmondson (1999),
+  jako jádro průzkumu.
+- Doplňkové položky zaměřené na vzorce epistemického zneužívání, formulované jako
+  zkušenost, ne hodnocení osob: „Když jsem upozornil na problém, byla zpochybněna moje
+  paměť nebo kompetence.“ „Dohodnuté věci se později popíraly.“ „Bojím se vyjádřit nesouhlas
+  s vedoucím.“ „Mám přístup k informacím, které pro práci potřebuji, i mimo svého vedoucího.“
+- Typologie organizačních kultur podle Rona Westruma (2004) – patologická, byrokratická,
+  generativní – jako rámec, jak organizace zachází s informacemi a s jejich posly.
+- Pololetní nebo roční opakování a sledování trendů na úrovni týmů.
+- Triangulace: průzkum + fluktuace + nemocenská + stížnosti + výstupní rozhovory + oznámení.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Použijte Edmondsonovu Psychological Safety scale + custom EA-specific items (silencing, blame, fear escalation) pololetně.
+HR nebo útvar analýz navrhuje průzkum, spravuje data a připravuje souhrny. Externí odborník
+na metodologii ověřuje validitu položek. Vedení dostává výsledky po týmech nad prahem
+agregace. [Auditní výbor](@/kompendium/organizational-defense/5-audit-committee-EA.md)
+dostává souhrn rizikových týmů. Vedoucí týmů odpovídají za rozbor výsledků se svým týmem,
+ale u rizikových týmů vede rozbor osoba mimo linii řízení.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Metodika průzkumu s popisem škál, prahem agregace a pravidly anonymity.
+2. Definice rizikového profilu týmu: nízká psychologická bezpečnost, vysoké skóre
+   strachu, rozpor mezi průzkumem a jinými daty.
+3. Postup u rizikového týmu: rozhovory vedené nezávislou osobou, nikoli „akční plán“
+   vedoucího.
+4. Zveřejnění souhrnných výsledků zaměstnancům a opatření, která z nich plynou.
+5. Ochrana dat a jejich uchovávání v souladu s GDPR.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Ti, kdo výsledky čtou, potřebují znát meze dat z [self-reportu](@/glossary/self-report.md):
+lidé v manipulativním prostředí mohou situaci nevidět nebo ji z loajality popírat. Analytici
+se učí hledat rozpory (vysoká angažovanost + vysoká fluktuace) a nečíst vysoké skóre jako
+důkaz zdraví. Vedoucí se učí rozebírat výsledky s týmem tak, aby z rozboru nevzniklo hledání
+„kdo to napsal“.
 
-- Survey má 90+% engagement skóre, ale exit interviews vyprávějí jiný příběh.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Ukáže-li průzkum rizikový profil týmu:
 
-## 5. Best practices
+1. Ověřit data proti dalším zdrojům; jednotlivý výsledek ještě není zjištění.
+2. Nabídnout týmu rozhovory s nezávislou osobou (ombudsman, externí psycholog).
+3. Pokud se potvrdí vzorec zneužívání, předat věc formálnímu prověření.
+4. Sledovat tým v dalším kole a ověřit, zda opatření pomohla.
 
-Triangulace dat (survey + exits + sick days + turnover), longitudinal tracking, manager-level scorecards.
+**Příklad (anonymizovaný kompozit).** V redakci jednoho média vykazoval zpravodajský tým
+nejvyšší skóre angažovanosti, ale položka „mohu nesouhlasit s editorem bez obav“ byla
+nejnižší v celé firmě a fluktuace dvojnásobná. Rozhovory s odešlými novináři popsaly
+soustavné přepisování jejich textů bez vysvětlení a zpochybňování jejich zdrojů. Teprve
+spojení tří zdrojů dat vedlo k nezávislému posouzení.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Rozbor výsledků nesmí vést k pátrání po autorech kritických odpovědí. Pokud vedoucí
+rizikového týmu reaguje tlakem („kdo z vás to napsal?“), je to samo o sobě vážný signál a
+důvod k zásahu. Členové týmu mají mít možnost mluvit o výsledcích s někým mimo linii řízení.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
-- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
-- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
-- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
-- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
-- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Průzkum má vysoké skóre angažovanosti, ale výstupní rozhovory vyprávějí jiný příběh.
+- Výsledky se nikdy neporovnávají s jinými daty.
+- Po průzkumu se nic nezmění a návratnost klesá.
+- Rizikové týmy dostanou jen „akční plán“ od stejného vedoucího.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Žádná škála nedokáže epistemické zneužívání „diagnostikovat“; průzkum ukazuje jen, kde se
+dívat. Vlastní doplňkové položky nejsou validované a jejich interpretace je opatrná.
+Nadměrné měření vede k únavě z průzkumů. Otevřené zůstává, jak zachytit lidi, kteří kvůli
+manipulaci přestali vnímat, že je s jejich situací něco v nepořádku.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+  – to, co průzkum měří.
+- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
+  – nejdůležitější zdroj k triangulaci.
+- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md) –
+  technické podmínky anonymity.
+- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md) –
+  adresát rizikových profilů.
+
+**Metodika a měření**
+
+- [Self-report](@/glossary/self-report.md) – meze sebeposuzovacích dat.
+- [Screeningové instrumenty pro EA](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)
+  – klinické nástroje pro jednotlivce.
+- [Prevalence EA v korporátním prostředí](@/kompendium/population-health/06-corporate-EA-prevalence.md)
+  – populační kontext.
+
+**Techniky**
+
+- [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)
+  – vysoké skóre jako kulisa.

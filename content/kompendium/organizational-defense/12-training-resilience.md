@@ -1,6 +1,6 @@
 +++
 title = "Tréninky odolnosti"
-description = "Organizační obrana — tréninky odolnosti."
+description = "Odolnost vůči manipulaci se trénuje opakovaně, ne jednorázovým e-learningem. Kapitola popisuje programy rozpoznávání, etické simulace s debriefingem, cílové skupiny a hodnocení."
 weight = 120
 
 [taxonomies]
@@ -8,95 +8,149 @@ tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["10-stakeholder-engagement", "11-onboarding-EA-awareness", "13-exit-interview-EA", "14-anonymous-feedback"]
+related_terms = ["11-onboarding-EA-awareness", "16-psychological-safety", "18-supervisor-evaluation", "36-trauma-aware-management"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Tréninky odolnosti
 
-> **Bucket:** HR & kultura · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Lidé a kultura · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Jednorázové školení proti manipulaci nestačí — odolnost se musí trénovat opakovaně jako svalová paměť.
+Jednorázové školení proti manipulaci obvykle vede k tomu, že lidé vědí, že manipulace
+existuje – a mají pocit, že jich se netýká. Odolnost je spíše dovednost než znalost: schopnost
+všimnout si vzorce v reálném čase, pojmenovat ho a zareagovat, i když je člověk pod tlakem,
+unavený nebo emočně zapojený. Taková dovednost se buduje opakováním, praxí na realistických
+případech a reflexí. Kapitola popisuje, jak takový program postavit, aby posiloval
+úsudek, a ne podezíravost.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **tréninky odolnosti** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Různé prostředí potřebují různý obsah. Ve firmě jde o sociální inženýrství, tlak na výsledky,
+manipulativní vedení a koordinované útoky na pověst – viz
+[sociální inženýrství 2.0](@/kompendium/cross-domain/17-ea-security-social-engineering.md).
+Ve škole o rozpoznání šikany, [groomingu](@/glossary/child-grooming.md) a manipulace na
+sítích, a to u pedagogů i žáků. Na univerzitě o zneužití závislých vztahů a o akademickou
+manipulaci (srov. [vzdělávací scénář akademické manipulace](@/kompendium/educational-scenarios/11-academic-manipulation.md)).
+V nemocnici o hierarchický tlak, který brání hlášení chyb, a o manipulaci ze strany pacientů
+či rodin. V médiích o dezinformace a koordinované kampaně, v neziskové organizaci o
+charismatické vedení a obětavost jako páku. Ve veřejné správě o lobbing a tlak na
+úředníky.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Školení je e-learning „klikni a pokračuj“ bez simulace a bez návaznosti.
+- Obsah je obecný a nepracuje s dilematy daného oboru.
+- Vedoucí se školení neúčastní nebo ho bagatelizují.
+- Školení učí jen rozpoznat vnějšího útočníka, ne vzorce uvnitř vlastní hierarchie.
+- Simulace jsou klamavé a poškozují důvěru (například fingované zprávy o mzdě nebo zdraví).
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Program s opakováním v čase (rozložené opakování), krátké moduly několikrát ročně.
+- Workshopy naživo s anonymizovanými případy z oboru a s diskusí v malých skupinách.
+- Etické simulace: účastníci vědí, že jde o cvičení, simulace se netýkají osobních
+  citlivých témat a vždy končí [debriefingem](@/kompendium/techniques/ea-3-1-9-debriefing-protocol.md).
+- [Diferenciace](@/glossary/diferenciace.md) podle rolí: zaměstnanci, vedoucí, kontrolní funkce, HR, příslušné osoby.
+- Vzájemné učení: kolegové sdílejí vlastní zkušenosti v bezpečném rámci.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Implementujte čtvrtletní 2hodinové simulace (red-team manipulačních pokusů) s debriefingem a skórováním rozpoznání.
+HR nebo útvar vzdělávání vlastní program, jeho obsah a hodnocení. Vedoucí se účastní
+první a jsou za účast svých lidí odpovědní. Externí lektoři se znalostí klinické a forenzní
+problematiky dodávají odbornost; interní lektoři kontext. Etický ředitel nebo compliance
+posuzuje etiku simulací. Psycholog je k dispozici pro účastníky, které obsah zasáhne.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Roční plán vzdělávání s povinnými a volitelnými moduly pro jednotlivé role.
+2. Standard pro simulace: informovanost, vyloučení citlivých témat, debriefing, žádné
+   sankce za „selhání“ v simulaci.
+3. Obnova certifikace v pravidelném intervalu, nikoli jednorázově.
+4. Vazba na [hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md):
+   u vedoucích se hodnotí i to, jak dovednosti uplatňují.
+5. Pravidelná aktualizace obsahu podle incidentů v organizaci a v oboru.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Obsah programu lze rozdělit do čtyř vrstev:
 
-- Školení je e-learning klikací („Next-Next-Done“), nejsou simulace, není follow-up.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+- **Rozpoznání vzorců** – [gaslighting](@/glossary/gaslighting.md),
+  [DARVO](@/glossary/darvo.md), [double bind](@/glossary/double-bind.md),
+  [vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md),
+  izolace, posun kritérií.
+- **Ověřování** – jak si potvrdit vlastní vnímání: zápis, druhý názor, kontrola zdroje
+  ([triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)).
+- **Reakce** – asertivní odpověď, eskalace, žádost o písemné potvrzení.
+- **Podpora druhých** – jak reagovat jako svědek (bystander), jak nepřispět k izolaci
+  kolegy, jak ho nasměrovat k pomoci.
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Cílem je, aby účastník uměl popsat, co se děje, a věděl, co může udělat, ne aby
+diagnostikoval kolegy.
 
-## 5. Best practices
+## Řešení incidentu
 
-Spaced repetition, in-person workshopy, certifikace s expirací, peer-to-peer learning.
+Trénink sám může vyvolat incident: účastník rozpozná vzorec ve vlastní situaci a
+poprvé o ní promluví. Lektor proto musí vědět, jak reagovat (vyslechnout, nabídnout kanály,
+nepřebírat šetření) a kam předat. Pokud simulace někoho poškodí – vyvolá silnou reakci,
+naruší důvěru –, je to incident sám o sobě a vyhodnotí se podle
+[učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md).
 
-**Dodatečné principy:**
+**Příklad (anonymizovaný kompozit).** Po workshopu o vzorci DARVO požádalo několik sester
+jednoho oddělení o rozhovor s ombudsmanem. Popsaly, jak jejich hlášení chyb vedení
+opakovaně obracelo proti nim. Workshop nebyl vyšetřováním, ale dal jim společný jazyk,
+díky němuž se jejich jednotlivé zkušenosti spojily ve vzorec.
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+## Ochrana dotčené osoby
 
-## 6. Cross-linky
+Školení nesmí vést k zahanbení toho, kdo v simulaci „neobstál“. Výsledky simulací se
+vyhodnocují agregovaně, nikoli jako hodnocení jednotlivců. Účastníci s vlastní zkušeností
+s manipulací nebo traumatem mají možnost modul vynechat nebo absolvovat jinou formou;
+obsah může vyvolat [retraumatizaci](@/glossary/retraumatizace.md).
 
-- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
+## Vyhodnocení a indikátory selhání
+
+- Školení je jen e-learning, nejsou simulace ani návaznost.
+- Účast vedoucích je nízká.
+- Po školení se nezmění počet ani kvalita hlášení.
+- Účastníci nedokážou popsat, co by udělali v konkrétní situaci.
+
+Hodnotí se znalost (test), dovednost (rozpoznání v realistickém případu), chování (počet
+a včasnost hlášení) a vliv na kulturu (průzkum) – srov.
+[evaluační metriky](@/kompendium/techniques/ea-3-3-4-evaluation-metrics.md).
+
+## Meze a otevřené otázky
+
+Trénink nenahradí strukturální ochranu: člověk, který manipulaci rozpozná, ale nemá kam se
+obrátit, je na tom hůř než před školením. Existuje riziko, že lidé začnou ve všem vidět
+manipulaci (viz [riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
+Otevřenou otázkou je, jak dlouho efekt tréninku trvá a jak ho měřit spolehlivě.
+
+## Související
+
+**Sesterské kapitoly**
+
+- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
+  – první setkání s tématem.
 - [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
-- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+  – bez ní trénink nevede k hlášení.
+- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
+  – specializovaný trénink pro vedoucí.
 
-## 7. Connect
+**Techniky výcviku**
 
-## Connect
+- [EA-3.1.6 Recognition trénink](@/kompendium/techniques/ea-3-1-6-recognition-training.md) –
+  metodika rozpoznávání.
+- [EA-3.1.9 Debriefingový protokol](@/kompendium/techniques/ea-3-1-9-debriefing-protocol.md)
+  – povinná součást každé simulace.
+- [EA-3.3.4 Evaluační metriky](@/kompendium/techniques/ea-3-3-4-evaluation-metrics.md) – jak
+  měřit účinek.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Scénáře a sebe-obrana**
+
+- [Vzdělávací scénář: Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md)
+  – příklad cvičení.
+- [Sebe-obrana: Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
+  – dovednost ověřování.
+- [Tréninky bystander intervencí](@/kompendium/population-health/19-bystander-intervention-training.md)
+  – role svědka.

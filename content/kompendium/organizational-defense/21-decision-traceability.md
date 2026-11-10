@@ -1,6 +1,6 @@
 +++
 title = "Sledovatelnost rozhodnutí"
-description = "Organizační obrana — sledovatelnost rozhodnutí."
+description = "Bez záznamu, kdo, kdy, proč a na základě čeho rozhodl, nelze nést odpovědnost ani se z chyb poučit. Kapitola popisuje záznamy rozhodnutí, registr, přezkum výsledků a ochranu záznamu."
 weight = 210
 
 [taxonomies]
@@ -8,95 +8,143 @@ tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["2-charter-protection", "20-succession-planning-EA", "22-meeting-structure", "23-communication-policy"]
+related_terms = ["22-meeting-structure", "23-communication-policy", "24-documentation-standards", "40-post-incident-learning"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Sledovatelnost rozhodnutí
 
-> **Bucket:** Operativní · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Provoz · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Bez sledovatelnosti není odpovědnost — EA aktéři systematicky rozmlží auditní stopu rozhodnutí, aby unikli důsledkům.
+„To se prostě rozhodlo“ je věta, za níž se skrývá ztráta odpovědnosti. Když nelze zjistit,
+kdo rozhodl, kdy, na základě jakých informací a jaké alternativy zvažoval, nelze rozhodnutí
+přezkoumat, poučit se z něj ani bránit se proti němu. Pro epistemický útok je taková mlha
+ideální: dodatečně lze tvrdit cokoli – že se rozhodlo jinak, že to byl nápad někoho jiného,
+že se o riziku nevědělo. Sledovatelnost rozhodnutí je proto paměť organizace, kterou nelze
+přepsat.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **sledovatelnost rozhodnutí** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve veřejné správě je sledovatelnost do velké míry dána zákonem: správní řízení podle
+zákona č. 500/2004 Sb., správního řádu, se vede ve spisu a rozhodnutí musí být odůvodněno.
+Riziko leží mimo formální řízení – v přípravě koncepcí, zakázek a personálních rozhodnutí. V
+nemocnici se klinická rozhodnutí zapisují do zdravotnické dokumentace, ale manažerská
+rozhodnutí o personálu a provozu často nikoli. Ve firmě se strategická rozhodnutí dělají na
+neformálních schůzkách, v redakci se rozhodnutí o stažení textu nezaznamenává. Ve škole a
+na univerzitě jde o rozhodnutí o hodnocení, přijetí a disciplinárních věcech. Ve všech
+prostředích hrozí vzorec, kdy se po selhání odpovědnost „rozpustí“ nebo
+[přesune](@/glossary/blame-shifting.md) na nejslabší článek.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Rozhodnutí vznikají v hovoru a nezapisují se.
+- Zápisy neobsahují zdůvodnění ani zvažované alternativy.
+- Podklady se mění po rozhodnutí; nelze zjistit, co rozhodovatel skutečně věděl.
+- Neexistuje registr rozhodnutí; záznamy jsou rozptýlené v e-mailech.
+- Nikdo neporovnává očekávané a skutečné výsledky rozhodnutí.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Záznam rozhodnutí (decision record) pro rozhodnutí nad stanoveným významem s povinnými
+  poli: kontext, zvažované alternativy, podklady a jejich verze, rozhodovatel, datum,
+  očekávaný výsledek, nesouhlasy.
+- Centrální registr rozhodnutí s vyhledáváním a s omezením úprav (nové verze, ne přepis).
+- Archiv podkladů ve verzi, kterou rozhodovatel měl.
+- Pravidelný přezkum: srovnání očekávaného a skutečného výsledku a rozbor odchylek.
+- Napojení na [strukturu jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
+  a [komunikační politiku](@/kompendium/organizational-defense/23-communication-policy.md).
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Implementujte Decision Records (ADR-style) s povinnými poli: alternativy, evidence, rozhodovatel, datum, expected outcome.
+Rozhodovatel odpovídá za záznam nebo za to, že ho pořídí určený zapisovatel. Správce
+registru (kancelář vedení, sekretariát) zajišťuje úplnost a uchování. Interní audit
+testuje vzorky rozhodnutí, zda je lze zpětně rekonstruovat. [Auditní výbor](@/kompendium/organizational-defense/5-audit-committee-EA.md)
+dostává přehled odchylek. Každý účastník rozhodování má právo, aby byl jeho nesouhlas
+zapsán.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Definice rozhodnutí, která vyžadují záznam (finanční limit, dopad na lidi, výjimky z
+   politik, strategické volby).
+2. Šablona záznamu a lhůta pro jeho pořízení.
+3. Pravidlo neměnnosti: oprava jen novou verzí s vysvětlením – viz
+   [dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md).
+4. Čtvrtletní přezkum vybraných rozhodnutí a povinný rozbor při výrazné odchylce.
+5. Doba uchování a přístupová práva.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Rozhodovatelé se učí psát krátké, ale úplné záznamy: proč, ne jen co. Důležité je zapsat
+i to, co se nevědělo, a rizika, která se vědomě přijala. Vedoucí se učí, že záznam chrání i
+je: kdo rozhodl v dobré víře s nejlepšími dostupnými informacemi, může to doložit.
+Zapisovatelé se učí rozpoznat, kdy se v diskusi [posouvá rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md)
+nebo kdy je téma odsunuto bez rozhodnutí.
+
+## Řešení incidentu
+
+Je-li sporné, kdo a jak rozhodl (typicky po selhání):
+
+1. Zajistit všechny záznamy, podklady, e-maily a kalendáře ve verzi z rozhodné doby –
+   zásady [elektronických důkazů](@/kompendium/forensic-legal/35-electronic-evidence-EA.md).
+2. [Rekonstruovat časovou osu](@/kompendium/forensic-legal/33-timeline-reconstruction.md):
+   co kdo věděl a kdy.
+3. Porovnat rekonstrukci s výpověďmi účastníků; rozpory jsou samy o sobě zjištěním.
+4. Vyvodit závěry pro systém (chybějící záznam) i pro odpovědnost osob.
+
+**Příklad (anonymizovaný kompozit).** Po neúspěšném projektu v jedné firmě vedení tvrdilo,
+že tým riziko nikdy nehlásil. Vedoucí týmu měl e-mail s varováním, ale bez reakce. Teprve
+zavedení registru rozhodnutí s polem „známá rizika“ způsobilo, že se taková varování
+nemohla ztratit a že odpovědnost za přijaté riziko nesl ten, kdo ho přijal.
+
+## Ochrana dotčené osoby
+
+Pracovník, kterému se dodatečně přičítá rozhodnutí, které neučinil, nebo který je obviňován,
+že „nic nehlásil“, potřebuje přístup k záznamům, aby se mohl bránit. Organizace mu ho musí
+umožnit. Kdo upozorní na úpravy záznamů nebo podkladů, upozorňuje na možné protiprávní
+jednání a může být chráněn podle zákona č. 171/2023 Sb. Zkušenost, kdy organizace popírá to,
+co se prokazatelně stalo, má rysy [institucionálního gaslightingu](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md).
+
+## Vyhodnocení a indikátory selhání
 
 - Rozhodnutí „se prostě stalo“, nikdo neví kdo, kdy a proč, dokumenty jsou ztracené.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+- Zápisy neobsahují zdůvodnění ani nesouhlas.
+- Podklady se po rozhodnutí upravují.
+- Přezkum výsledků se nekoná.
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Metrika: podíl vzorku rozhodnutí, která lze plně rekonstruovat.
 
-## 5. Best practices
+## Meze a otevřené otázky
 
-Centrální DR registry, čtvrtletní review skutečných vs. expected outcomes, povinný retro při deviaci.
+Ne každé rozhodnutí potřebuje záznam; přebujelá byrokracie vede k obcházení. Záznam
+nezachytí neformální vliv, který rozhodnutí předcházel. Otevřené zůstává, jak zaznamenávat
+rozhodnutí v krizi, kdy je čas nejvzácnější – řešením je krátký záznam dodatečně, ale v
+pevné lhůtě.
 
-**Dodatečné principy:**
+## Související
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+**Sesterské kapitoly**
 
-## 6. Cross-linky
+- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md) – kde
+  rozhodnutí vznikají.
+- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md) –
+  kanály, které zanechávají stopu.
+- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
+  – šablony a verzování.
+- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md) –
+  záznamy jako podklad rozboru.
 
-- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
-- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
-- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
-- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
-- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+**Forenzní praxe**
 
-## 7. Connect
+- [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md) –
+  postup zpětného dohledání.
+- [Elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md) – zajištění
+  digitálních záznamů.
+- [EA-4.2.7 Documentation chain of custody](@/kompendium/techniques/ea-4-2-7-documentation-chain-custody.md)
+  – nepřerušený řetězec záznamů.
 
-## Connect
+**Pojmy a signatury**
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- [Blame shifting](@/glossary/blame-shifting.md) – přesouvání odpovědnosti.
+- [Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md)
+  – popírání prokazatelného.

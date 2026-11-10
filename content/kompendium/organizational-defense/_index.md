@@ -1,6 +1,6 @@
 +++
 title = "Organizační obrana"
-description = "40 kapitol systematické obrany organizace proti epistemickým útokům — governance, HR, operativa, krizová reakce."
+description = "Čtyřicet kapitol o tom, jak firmy, školy, univerzity, nemocnice, neziskové organizace, média a úřady předcházejí epistemické manipulaci uvnitř a jak ji řeší."
 sort_by = "weight"
 weight = 95
 
@@ -12,94 +12,175 @@ toc = true
 
 # Organizační obrana proti epistemickým útokům
 
-> **40 kapitol · 4 bukety · pillar Kompendia EA defense**
+> **40 kapitol · 4 pilíře · praktická část Kompendia**
 
-Organizace nejsou neutrální — buď aktivně budují obranu proti **epistemickým útokům (EA)**,
-nebo se stávají jejich nástrojem či obětí. Tato sekce kompendia mapuje **40 konkrétních
-kontrolních mechanismů** napříč čtyřmi pilíři: **governance, HR & kultura, operativa, krizová reakce**.
+Organizace nejsou vůči epistemickým útokům (EA) neutrální. Buď mají struktury, které
+manipulaci zviditelní a zastaví, nebo se stávají prostředím, v němž se manipulace daří – a
+někdy i jejím nástrojem. Tato sekce popisuje čtyřicet ochranných mechanismů ve čtyřech
+pilířích: **správa a řízení, lidé a kultura, provoz a krizová reakce**. Je psána pro ty,
+kdo v organizacích nesou odpovědnost – členy orgánů, vedoucí, personalisty, compliance,
+příslušné osoby podle zákona o ochraně oznamovatelů, ombudsmany, ředitele škol a nemocnic –
+i pro odborníky, kteří s organizacemi pracují.
 
-Každá kapitola obsahuje:
+Každá kapitola je samostatný průvodce se stejnou osnovou:
 
-1. Organizační kontext (proč to záleží)
-2. Klíčové prvky obrany
-3. Konkrétní implementační postup
-4. Indikátory selhání
-5. Best practices
-6. Cross-linky napříč kompendiem
-7. Connect kanály
+1. **Riziko v daném prostředí** – jak se problém projevuje ve firmě, škole, na univerzitě,
+   v nemocnici, v neziskové organizaci, v médiích a ve veřejné správě.
+2. **Strukturální zranitelnosti** – podmínky, za nichž manipulace funguje.
+3. **Ochranné struktury** – co tyto podmínky ruší.
+4. **Role a odpovědnosti** – kdo co dělá.
+5. **Politiky a postupy** – co má být zapsáno.
+6. **Vzdělávání a trénink** – co je třeba umět rozpoznat.
+7. **Řešení incidentu** – postup, když se problém objeví, s anonymizovaným příkladem.
+8. **Ochrana dotčené osoby** – oznamovatelé, oběti, svědci i osoby, proti nimž podnět
+   směřuje; včetně ochrany podle zákona č. 171/2023 Sb., o ochraně oznamovatelů.
+9. **Vyhodnocení a indikátory selhání** – jak poznat, že mechanismus nefunguje.
+10. **Meze a otevřené otázky** – co mechanismus neřeší a kde hrozí jeho zneužití.
+11. **Související** – navazující kapitoly, techniky, protokoly a hesla.
+
+Mechanismy manipulace jsou popsány jen jako vzorce, které lze rozpoznat; kapitoly neobsahují
+návody, jak manipulovat. Příklady jsou anonymizované kompozity.
 
 ## Struktura sekce
 
-### Governance (1–10)
+### Správa a řízení (1–10)
 
-- **[Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)** — Představenstvo je první linií obrany proti EA — pokud je samo zachyceno, organizace ztrácí poslední kontrolu nad svým směřováním.
-- **[Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)** — Stanovy a charty jsou DNA organizace — jejich tichá modifikace je nejsubtilnější forma EA na institucionální úrovni.
-- **[Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)** — Nepřiznaný střet zájmů je hlavní vstupní bránou pro institucionální zachycení (regulatory capture, board capture).
-- **[Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)** — Whistleblower je organizační equivalent imunitního systému — bez něj se patogen šíří nepozorovaně.
-- **[Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)** — Klasický finanční audit nezachytí EA — výbor musí mít explicitní mandát na behaviorální a kulturní rizika.
-- **[Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)** — Ombudsman je neformální, důvěrný kanál — jeho ztráta nezávislosti je bod, kdy obrana selhala.
-- **[Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)** — Bez vykonávacích pravomocí je etický ředitel pouze dekorativní funkcí — EA toto rozpozná a zneužije.
-- **[Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)** — Zastaralé politiky vytvářejí mezery, kterými EA proniká — „podle pravidel z roku 2015“ je červená vlajka.
-- **[Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)** — Minoritní akcionáři jsou často první obětí EA na úrovni vlastnické struktury (squeeze-out, dilution attacks).
-- **[Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)** — Izolace organizace od stakeholderů je preludium k EA — vnější pohled je první obrana proti vnitřnímu tunelovému vidění.
+- **[Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)** –
+  nejvyšší orgán, který přestane vidět a nesouhlasit, je první místo, kde organizace ztrácí
+  kontrolu nad vlastním obrazem reality.
+- **[Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)** –
+  tichá změna stanov, statutu nebo zřizovací listiny mění, co bude později „normální“.
+- **[Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)** –
+  nepřiznaný střet zájmů je hlavní vstupní branou k zachycení instituce.
+- **[Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)** –
+  vnitřní oznamovací systém jako imunitní systém organizace.
+- **[Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)** –
+  mandát nejen na finance, ale i na kulturu a integritu informací.
+- **[Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)** – důvěrný a
+  neformální kanál, jehož nezávislost je třeba chránit.
+- **[Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)** –
+  etická funkce bez pravomocí je jen dekorace.
+- **[Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)** –
+  zastaralé a neprůhledné předpisy otevírají prostor pro skryté změny.
+- **[Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)** –
+  menšinoví vlastníci a členové jako první oběti zachycení vlastnické struktury.
+- **[Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)** –
+  vnější pohled jako obrana proti tunelovému vidění.
 
-### HR & kultura (11–20)
+### Lidé a kultura (11–20)
 
-- **[Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)** — Nový zaměstnanec je nejzranitelnější v prvních 90 dnech — EA aktéři cílí na onboarding okno systematicky.
-- **[Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)** — Jednorázové školení proti manipulaci nestačí — odolnost se musí trénovat opakovaně jako svalová paměť.
-- **[Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)** — Odcházející zaměstnanci jsou nejlepší zdroj informací o EA — mají nejnižší motivaci lhát a nejvyšší znalost reality.
-- **[Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)** — Bez skutečně anonymního kanálu zaměstnanci nikdy nenahlásí problémy s šéfem — strach je silnější než loajalita.
-- **[Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)** — Standardní engagement survey nezachytí EA — potřebujete validované otázky cílené na psychological safety a power dynamics.
-- **[Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)** — Psychologická bezpečnost není měkký benefit — je to operační prerekvizita pro detekci jakéhokoliv organizačního rizika.
-- **[Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)** — Stagnující týmové složení je živnou půdou pro mocenské shluky a EA mikrokultury — rotace je hygiena.
-- **[Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)** — Manažer je single point of failure pro EA — bez 360° hodnocení organizace nevidí, kdo manipuluje podřízené.
-- **[Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)** — Mentoring vztahy jsou často infiltrovány EA aktéry kvůli získání nepřímého vlivu — vyžadují aktivní ochranu.
-- **[Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)** — Plánování nástupnictví je EA-magnet — kdo kontroluje pipeline, kontroluje budoucí směřování organizace.
+- **[Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)** –
+  nováček je v prvních měsících nejzranitelnější.
+- **[Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)** –
+  rozpoznání manipulace se trénuje opakovaně, ne jednorázově.
+- **[Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)** –
+  odcházející znají realitu a mají nejméně důvodů mlčet.
+- **[Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)** –
+  bez skutečné anonymity lidé problém s nadřízeným nenahlásí.
+- **[Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)** –
+  vysoká angažovanost může být zdravím i kulisou.
+- **[Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)** –
+  provozní podmínka, bez níž se o rizicích nedá mluvit.
+- **[Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)** –
+  neměnné týmy vytvářejí uzavřené mikrokultury.
+- **[Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)** –
+  bez hodnocení zdola je vedoucí slepým místem.
+- **[Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)** –
+  důvěra a asymetrie dělají z mentorství snadno zneužitelný vztah.
+- **[Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)** –
+  kdo ovládá výběr nástupců, ovládá budoucnost organizace.
 
-### Operativa (21–30)
+### Provoz (21–30)
 
-- **[Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)** — Bez sledovatelnosti není odpovědnost — EA aktéři systematicky rozmlží auditní stopu rozhodnutí, aby unikli důsledkům.
-- **[Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)** — Nestrukturovaná jednání jsou ideální prostředí pro manipulaci — bez agendy, minutes a action items se realita rozpadá.
-- **[Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)** — EA aktéři využívají „informální“ kanály k obejití formálních záznamů — politika musí kanonizovat audit trail.
-- **[Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)** — Špatná dokumentace = oslabená obrana — nemůžete bránit, co neumíte popsat ani najít.
-- **[Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)** — Dodavatelé jsou často infiltrační vektor — relationship capture vede k institucionální závislosti a EA propagaci.
-- **[Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)** — Externí kontraktoři jsou často využíváni jako proxy pro EA aktivity — slabší KYC než zaměstnanci.
-- **[Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)** — Bez klasifikace nelze chránit — EA aktéři exfiltrují citlivé informace přes „public“ kanály díky absenci taggingu.
-- **[Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)** — Privilege creep je tichý nepřítel — uživatelé akumulují práva léta, vytváří se super-admins, kteří uniknou kontrole.
-- **[Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)** — Bez segregation of duties (SoD) může jedna osoba transakci iniciovat, schválit i auditovat — to je EA dream scenario.
-- **[Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)** — Stagnace v kritické roli koncentruje moc a know-how — ideální podmínky pro EA i fraud (auditor's nightmare).
+- **[Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)** –
+  bez záznamu rozhodnutí není odpovědnost ani poučení.
+- **[Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)** –
+  program, podklady a zápis jako levná a účinná obrana.
+- **[Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)** –
+  mizející kanály obcházejí záznam i kontrolu.
+- **[Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)** –
+  co nelze najít ani popsat, nelze bránit.
+- **[Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)** –
+  dodavatelé a poradci mohou získat vliv, který nikdo neschválil.
+- **[Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)** –
+  externí lidé s přístupem zaměstnanců, ale se slabší prověrkou.
+- **[Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)** –
+  ochrana citlivých informací bez utajování před kontrolou.
+- **[Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)** –
+  kdo má přístup, určuje, kdo co ví a kdo může měnit záznamy.
+- **[Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)** –
+  kdo zahajuje, neschvaluje a kdo schvaluje, nekontroluje.
+- **[Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)** –
+  nenahraditelný člověk v kritické roli je riziko.
 
 ### Krizová reakce (31–40)
 
-- **[Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)** — Klasický IR plán řeší cyber/safety incidenty — EA incident vyžaduje jiný playbook (psychologický, právní, PR).
-- **[Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)** — Interní vyšetřování vedené HR je conflict of interest — HR často reportuje právě tomu, kdo je vyšetřován.
-- **[Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)** — Bez specializovaného právního zastoupení je organizace v EA krizi rozbita ze strany regulátorů, médií i interně.
-- **[PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)** — EA aktéři často přesouvají bitvu do médií — bez kontroly narativu organizace prohrává před tím, než se dostane k faktům.
-- **[Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)** — Zaměstnanci jsou ti, kdo trpí EA krizí nejvíc — bez jejich podpory ztrácíte loyalty, talent a continuity.
-- **[Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)** — EA způsobuje organizační trauma — vedení, které ho ignoruje, prodlužuje recovery o měsíce nebo roky.
-- **[Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)** — Klasický BCP řeší výpadky technologie/budovy — EA-induced BCP musí počítat s odchody klíčových lidí a reputational damage.
-- **[Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)** — Když je top management zachycen, nemůže se sám reformovat — externí intervence je často jediná cesta ven.
-- **[Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)** — Po EA krizi nestačí vyměnit lidi — kultura, která EA umožnila, musí být systematicky reformována, jinak se vzor vrátí.
-- **[Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)** — Bez systematického post-mortemu organizace opakuje stejné chyby — EA má tendenci se vracet stejnými vektory.
+- **[Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)** –
+  epistemický incident nelze odbýt jako personální spor.
+- **[Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)** –
+  nezávislost a metodika rozhodují o tom, zda se něco zjistí.
+- **[Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)** –
+  právník, který chrání organizaci i dotčené, ne jen pověst vedení.
+- **[PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)** –
+  pravdivá komunikace proti dezinformacím, nikoli zakrývání.
+- **[Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)** –
+  krizi nejvíc odnesou lidé uvnitř.
+- **[Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)** –
+  vedení, které tlačí na „návrat k normálu“, prodlužuje zotavení.
+- **[Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)** –
+  plán i pro odchod vedení a ztrátu důvěry, nejen pro výpadek systémů.
+- **[Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)** –
+  zachycené vedení se samo nezreformuje.
+- **[Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)** –
+  bez změny kultury se vzorec vrátí s jinými lidmi.
+- **[Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)** –
+  útoky se vracejí cestami, které zůstaly otevřené.
 
-## Doctrína obrany
+## Doktrína obrany
 
-Tato sekce je postavena na **6 doktrinálních principech** odvozených z analýzy reálných EA případů:
+Kapitoly vycházejí ze šesti principů, které se v nich opakují v konkrétní podobě:
 
-1. **Strukturální nezávislost** — separace rolí jako technická bariéra proti capture
-2. **Auditovatelnost** — každé rozhodnutí musí být dohledatelné v čase
-3. **Eskalační redundance** — vždy existuje cesta mimo zachycenou strukturu
-4. **Periodická obnova** — politiky a kontroly mají sunset clauses, ne perpetual lifetime
-5. **Transparentnost** — defaultně veřejné, výjimky musí být zdůvodněné
-6. **Defense in depth** — žádný single point of failure v žádné kontrolní funkci
+1. **Strukturální nezávislost** – oddělení rolí jako překážka zachycení, která nevyžaduje
+   podezírání jednotlivců.
+2. **Auditovatelnost** – každé podstatné rozhodnutí je dohledatelné v čase a nelze ho
+   zpětně přepsat.
+3. **Eskalační redundance** – vždy existuje cesta mimo strukturu, která mohla být zachycena.
+4. **Periodická obnova** – politiky a kontroly mají lhůtu revize, nejsou věčné.
+5. **Transparentnost** – výchozí je otevřenost; výjimky musí být zdůvodněné a nesmí bránit
+   kontrole.
+6. **Ochrana lidí** – oznamovatelé, oběti a svědci jsou chráněni dřív, než se rozhodne o
+   vině; osoby, proti nimž podnět směřuje, mají právo na spravedlivý postup.
+
+Každý z principů lze zneužít: nezávislost k nezodpovědnosti, auditovatelnost ke sledování
+lidí, ochranu k umlčení kritiky. Proto má každá kapitola oddíl o mezích.
+
+## Jak sekci používat
+
+Pro rychlou orientaci začněte kapitolami, které odpovídají vaší roli: členové orgánů
+kapitolami 1–10, personalisté a vedoucí kapitolami 11–20, provozní a kontrolní funkce
+kapitolami 21–30, krizové týmy kapitolami 31–40. Při probíhajícím incidentu začněte
+[reakcí na incident](@/kompendium/organizational-defense/31-incident-response-EA.md) a
+[mechanismem oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
+Klinický a individuální rozměr popisují jiné části Kompendia, zejména
+[kolektivní a institucionální intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
+a [institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md).
 
 ## Související sekce kompendia
 
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md) — jak EA rozpoznat
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md) — co dělat po incidentu
-- [Forensic Legal](@/kompendium/forensic-legal/_index.md) — právní rámec
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md) — krizové playbooky
-- [Case Studies](@/kompendium/case-studies/_index.md) — reálné případy
+- [Detekční signatury](@/kompendium/detection-signatures/_index.md) – jak vzorce manipulace
+  rozpoznat v jazyce, chování a sítích.
+- [Rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md) – zotavení
+  dotčených osob.
+- [Forenzní a právní rozměr](@/kompendium/forensic-legal/_index.md) – důkazy, výpovědi a
+  právní rámec.
+- [Akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md) – akutní
+  situace.
+- [Prevence a rezilience](@/kompendium/prevention-resilience/_index.md) – prevence na úrovni
+  komunit a pracovišť.
+- [Případové studie](@/kompendium/case-studies/_index.md) – anonymizované případy z
+  organizací.
+- [Kritické perspektivy](@/kompendium/critical-perspectives/_index.md) – meze a rizika
+  zneužití rámce.
 
 ## Connect
 

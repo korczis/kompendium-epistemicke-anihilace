@@ -1565,9 +1565,6 @@
  "content/kompendium/critical-perspectives/30-buddhist-psychology-alt.md": [
   "weak-link"
  ],
- "content/kompendium/critical-perspectives/5-false-positive-risk.md": [
-  "weak-link"
- ],
  "content/kompendium/critical-perspectives/6-political-instrumentalization.md": [
   "weak-link"
  ],
@@ -1597,12 +1594,10 @@
   "weak-link"
  ],
  "content/kompendium/cross-domain/13-ea-dd-beneficial-ownership-disinformation.md": [
-  "not-orphan",
   "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/14-ea-dd-narrative-warfare.md": [
-  "not-orphan",
   "detail",
   "weak-link"
  ],
@@ -1635,12 +1630,10 @@
   "weak-link"
  ],
  "content/kompendium/cross-domain/21-ea-security-supply-chain-narrative.md": [
-  "not-orphan",
   "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/22-ea-security-incident-response-narrative.md": [
-  "not-orphan",
   "detail",
   "weak-link"
  ],
@@ -1670,7 +1663,6 @@
   "weak-link"
  ],
  "content/kompendium/cross-domain/29-ea-compliance-kyc-narrative-validation.md": [
-  "not-orphan",
   "detail",
   "weak-link"
  ],
@@ -2182,9 +2174,6 @@
  "content/kompendium/forensic-legal/38-pattern-evidence.md": [
   "weak-link"
  ],
- "content/kompendium/forensic-legal/39-incident-reporting.md": [
-  "weak-link"
- ],
  "content/kompendium/forensic-legal/40-mandatory-reporting-state.md": [
   "weak-link"
  ],
@@ -2195,9 +2184,6 @@
   "weak-link"
  ],
  "content/kompendium/forensic-legal/43-asylum-EA.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/44-employment-law-EA.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/45-disability-law-EA.md": [
@@ -2906,236 +2892,111 @@
   "weak-link"
  ],
  "content/kompendium/organizational-defense/1-board-resilience.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/10-stakeholder-engagement.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/11-onboarding-EA-awareness.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/12-training-resilience.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/13-exit-interview-EA.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/14-anonymous-feedback.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/15-culture-survey-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/16-psychological-safety.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/17-team-rotation-policy.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/18-supervisor-evaluation.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/19-mentorship-protection.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/2-charter-protection.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/20-succession-planning-EA.md": [
-  "related",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/organizational-defense/21-decision-traceability.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/22-meeting-structure.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/23-communication-policy.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/24-documentation-standards.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/25-vendor-management-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/26-contractor-vetting.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/27-information-classification.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/28-access-control-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/29-segregation-duties.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/3-conflict-of-interest-policy.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/30-rotation-of-roles.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/31-incident-response-EA.md": [
-  "related",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/organizational-defense/32-internal-investigation.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/33-legal-counsel-engagement.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/34-PR-narrative-defense.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/35-employee-assistance-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/36-trauma-aware-management.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/37-business-continuity-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/38-leadership-replacement.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/39-cultural-rebuild.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/4-whistleblower-mechanism.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/40-post-incident-learning.md": [
-  "description",
-  "related",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/organizational-defense/5-audit-committee-EA.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/6-ombudsman-role.md": [
-  "description",
-  "related",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/organizational-defense/7-ethics-officer-mandate.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/8-policy-review-cycles.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/9-shareholder-protection.md": [
-  "description",
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/organizational-defense/_index.md": [
@@ -4891,9 +4752,6 @@
  ],
  "content/kompendium/techniques/ea-4-1-7-termination-criteria.md": [
   "weak-link"
- ],
- "content/kompendium/techniques/ea-4-1-8-supervisor-rotation.md": [
-  "not-orphan"
  ],
  "content/kompendium/techniques/ea-4-1-9-cohort-monitoring.md": [
   "not-orphan"

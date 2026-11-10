@@ -40,11 +40,16 @@ gate || { echo "build-surfaces --check fails on the committed tree"; cat "$out";
 
 # Removing a gap that still lacks a view fails, naming it.
 cp scripts/build-surfaces.py "$work/gate.py.orig"
-first=$(awk '/^KNOWN_GAPS = \(/ {on = 1; next} on {gsub(/[ ",]/, ""); print; exit}' \
+first=$(awk '/^KNOWN_GAPS = \(/ {on = 1; next} on && /^\)/ {exit} on {gsub(/[ ",]/, ""); print; exit}' \
   scripts/build-surfaces.py)
-[ -n "$first" ] || { echo "KNOWN_GAPS is empty: pick another removal case"; exit 1; }
-grep -v -x "    \"$first\"," "$work/gate.py.orig" > scripts/build-surfaces.py
-expect_fail "removed gap $first" "$first: new class without a view covered by a scenario"
+if [ -n "$first" ]; then
+  grep -v -x "    \"$first\"," "$work/gate.py.orig" > scripts/build-surfaces.py
+  expect_fail "removed gap $first" "$first: new class without a view covered by a scenario"
+else
+  # KNOWN_GAPS is empty (every class covered): the fixture class below proves that an
+  # uncovered class fails, so there is no gap to remove here.
+  echo "     KNOWN_GAPS is empty; the uncovered-class case is the fixture class below"
+fi
 
 # A covered class listed as a gap fails: the list only shrinks.
 covered=$(python3 -c 'import json; c = json.load(open("static/data/surfaces.json"))["classes"]

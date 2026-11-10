@@ -62,7 +62,8 @@ SITE_DATA = ("graph.json", "search.json")
 
 # Classes whose pages render no view covered by a scenario on one of their own pages. Ratchet:
 # a new gap fails, and an entry that is covered (or gone) fails until it is removed here.
-KNOWN_GAPS = ()
+KNOWN_GAPS = (
+)
 
 # On every page of its kind, so they say nothing about a class: the neighbourhood graph under
 # every page.html page and the generic overview of every section with pages.

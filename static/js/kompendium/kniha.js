@@ -393,7 +393,7 @@
       codeOfPath: codeOfPath, codeKey: codeKey, cmpCode: cmpCode, parseTitle: parseTitle, fold: fold,
       nodeOfHref: nodeOfHref, pagesOf: pagesOf, indexOf: indexOf, isIndex: isIndex, dir: dir,
       edgesAmong: edgesAmong, linksFrom: linksFrom,
-      outline: outline, groups: groups, catalogue: catalogue, riskOf: riskOf,
+      outline: outline, groups: groups, catalogue: catalogue, riskOf: riskOf, doc: fetchDoc,
       contextNodes: contextNodes, familyNear: familyNear, anchor: anchor, subNames: subNames,
       h: h, clear: clear, link: link, list: list, techniqueText: techniqueText,
       chartColors: chartColors, chart: chart, intTicks: intTicks, fail: fail,

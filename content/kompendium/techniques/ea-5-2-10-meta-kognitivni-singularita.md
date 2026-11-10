@@ -67,7 +67,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 | **Jednotná jistota** napříč obsahy | Absence kalibrace |
 | **Strukturní rezistence vůči revizi** přesvědčení | Bez metakognice nelze revidovat |
 | **Pseudokognitivní výkonnost** — funkční výstup bez reflexivní vrstvy | Charakteristický průběh singularity |
-| Subjekt **legitimizuje stav** jako konečnou realizaci | Krok 5 stabilizace |
+| Subjekt **legitimizuje stav** jako konečnou realizaci | stabilizace |
 | **Specifická "vznešenost"** v tónu výpovědí | Subjektivní stabilizace |
 
 ### Diferenciální detekce

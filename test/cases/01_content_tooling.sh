@@ -287,6 +287,12 @@ python3 scripts/check-ia.py --list howto | cut -f1 | grep -x 'content/kompendium
 if python3 scripts/check-ia.py --introduce howto >/dev/null 2>&1; then
   echo "--introduce howto accepted"; exit 1; fi
 rm -r content/kompendium/case-01-howto
+# howto also catches a "Krok N" reference inside a technique-page table cell (not a heading).
+mkdir -p content/kompendium/techniques/case-01-cell
+printf '+++\ntitle = "C"\n+++\n\n| Znak | Fáze |\n|---|---|\n| Paralýza | Krok 3 destrukce |\n' \
+  > content/kompendium/techniques/case-01-cell/x.md
+python3 scripts/check-ia.py --list howto | cut -f1 | grep -x 'content/kompendium/techniques/case-01-cell/x.md' >/dev/null
+rm -r content/kompendium/techniques/case-01-cell
 # drug-dose: a dose in prose is refused; the same number in a bibliography title is not.
 mkdir -p content/kompendium/case-01-dose
 printf '+++\ntitle = "D"\n+++\n\nLékař zváží SSRI v dávce 20 mg denně.\n' > content/kompendium/case-01-dose/x.md

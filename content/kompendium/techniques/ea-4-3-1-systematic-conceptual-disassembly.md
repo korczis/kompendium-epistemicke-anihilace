@@ -200,8 +200,6 @@ Klinický kontext **EA-4.3.1** připouští následující dokumentované adapta
 
 **Krátká intervence (8-12 sezení)**: pro selected populace s Type I traumatem, vysokou compliance a dostupnou support sítí. Compressed protocol s denními sezeními po 1-2 týdny (Foa et al., 2018) ukazuje noninferioritu standardní 12-16týdenní variantě.
 
-**Adjuvantní farmakoterapie**: SSRI/SNRI (sertralin 50-200mg, paroxetin 20-50mg, venlafaxin XR 75-225mg) jako baseline; prazosin 2-15mg pro nightmare-related insomnii; opatrné zvážení přidání PTSD-specifických agentů (MDMA-AT v US clinical trials, propranolol pre-konsolidace).
-
 **Kulturně senzitivní adaptace**: česká adaptace zohledňuje (a) jazyk a metaforický rámec specifický pro středoevropskou trauma narativu, (b) postkomunistická intergenerační traumata jako kontext, (c) explicitní eskalační cesty v rámci VZP-hrazené péče. Slovenská a polská adaptace sdílí ≥ 80% rámce.
 
 **Crisis-modifikovaná verze**: redukce expozičních komponent ve prospěch posílených stabilizačních modulů pro aktuálně dekompenzované pacienty; přechod do standardního protokolu po dosažení remise CGI-S < 4.

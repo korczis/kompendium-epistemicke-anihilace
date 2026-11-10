@@ -22,6 +22,7 @@ Tato sekce pokládá **konceptuální základy** kompendia. Definuje klíčové 
 
 | # | Článek | Téma |
 |---|--------|------|
+| 2.0 | [Epistemická anihilace v kostce](@/kompendium/02-uvod/v-kostce.md) | Šest vrstev, jejich vazby a ilustrativní model eskalace na jedné stránce |
 | 2.1 | [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md) | Základní pojmy a jejich vymezení |
 | 2.2 | [Historický kontext studia epistemických traumat](@/kompendium/02-uvod/historicky-kontext.md) | Vývoj zkoumání, intelektuální předchůdci |
 | 2.3 | [Teoretické základy a konceptuální rámec](@/kompendium/02-uvod/teoreticke-zaklady.md) | Epistemologie, kognitivní psychologie, filozofie mysli |

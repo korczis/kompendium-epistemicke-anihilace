@@ -10,7 +10,8 @@ title, description, link and count comes from the book:
   Obsah          the first sentence of the target's `description`; an entry spanning several
                  sections names the others by their titles; the chapters entry names the
                  number of numbered chapters and the first and last chapter's title
-  Stránek        pages under the entry's sections in static/data/graph.json
+  Stránek        pages under the entry's sections in static/data/graph.json, section index
+                 pages (_index.md) not counted, as in the wiki (scripts/build-wiki.py)
   scope line     static/data/metrics.json (pages, words, links) and content/references.md
                  (`extra.entries`)
 
@@ -94,10 +95,13 @@ def render():
     metrics = json.loads((ROOT / "static/data/metrics.json").read_text(encoding="utf-8"))
     sections = {}
     for node in graph["nodes"]:
-        sections[node["section"]] = sections.get(node["section"], 0) + 1
+        # Stránky obsahu, ne rozcestníky oddílů (_index.md), stejně jako wiki (build-wiki.py).
+        if not node["path"].endswith("_index.md"):
+            sections[node["section"]] = sections.get(node["section"], 0) + 1
 
     lines = [BEGIN,
-             "<!-- Odvozuje scripts/build-readme.py z obsahu a static/data/; needitovat ručně. -->",
+             "<!-- Odvozuje scripts/build-readme.py z obsahu a static/data/; "
+             "needitovat ručně. -->",
              "",
              "| | Oddíl | Obsah | Stránek |",
              "|:-:|---|---|--:|"]
@@ -122,7 +126,8 @@ def render():
                 desc = f"{desc}; dále {', '.join(others)}"
         lines.append(f"| {icon} | [**{label}**]({url_of(base, target)}) | {desc} | {count} |")
     refs = front_matter(CONTENT / "references.md").get("extra", {}).get("entries")
-    scope = (f"Celkem {num(metrics['pages'])} {plural(metrics['pages'])}, přibližně "
+    scope = (f"Web má celkem {num(metrics['pages'])} {plural(metrics['pages'])} včetně "
+             "rozcestníků, přibližně "
              f"{num(round(metrics['words'] / 1000))} tisíc slov, {num(metrics['links'])} "
              "vnitřních odkazů")
     if refs:
